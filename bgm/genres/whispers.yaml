@@ -1,0 +1,111 @@
+# Whispers of Japan（和風・器楽のみ）
+#
+# 巻をまたいで変わらない設計をここに置く。巻ごとに変わるのは volumes/*.yaml。
+# ここの数値はすべて Vol.3〜10 の実測から決まったもので、勘で動かさないこと。
+
+brand: WHISPERS OF JAPAN
+
+audio:
+  crossfade: 3.0          # 曲間。CapCutで並べると1〜12秒の無音ができるので自前で重ねる
+  target_lufs: -14        # YouTube基準ちょうど
+  true_peak: -1.5
+  lra: 11
+  silence_thresh_db: -50
+  silence_min: 0.3
+  head_pad: 0.15          # 頭の無音をこれだけ残す
+  tail_pad: 0.30
+  fade_in: 4.0
+  fade_out: 14.0          # エンドカードの上で消える位置
+  bitrate: 320k
+
+# 息の量の測定帯域。息が身上の笛（尺八）はここの平坦度で足切りする
+breath_band: [1000, 5000]
+
+select:
+  count: 10
+  total_seconds: [1500, 1860]     # 25〜31分
+  require_all_kinds: true
+  max_per_kind: 2
+  # ★これが要。一致度の最小化だけだと音数の少ない独奏が指標上有利になりすぎ、
+  #   Vol.9では10本中4本がピアノ独奏になった。
+
+order:
+  # 探索そのものが「隣接の最大一致度」を最小化するので、足切りは掛けない。
+  # 旧 order_vol*.py は 0.28 で足切りしていたが、実際に公開したVol10の曲順は
+  # 最大 0.348 で、この値では弾かれてしまう（当時は環境変数で上書きして通していた）。
+  # 素材が悪くて全滅していないかを見張りたいときだけ数値を入れる。
+  adjacency_threshold: 1.0
+  forbid_same_kind_adjacent: true
+  forbid_same_kind_skip1: true    # A-B-A-B の交互並びを禁じる（Vol.9）
+  forbid_same_key_adjacent: true
+
+video:
+  fps: 30
+  xfade: 2.0
+  output: [1920, 1080]
+  supersample: [2880, 1620]       # 出力の1.5倍で描いてから縮める。補間のにじみが平均化される
+  zoom_max: 1.09
+  unsharp: "unsharp=3:3:0.5:3:3:0.0"
+  card: "~/Desktop/Whispers of Japan/ウィスパーオブジャパンエンディングカード_v2.png"
+  card_len: 15.0
+  card_xfade: 2.0
+  card_filter: "scale=1920:1280:flags=lanczos,crop=1920:1080:0:100"
+  # ↑ 切り出しは100で固定。YouTube終了画面の要素位置(下記)がこれ前提。
+  #   動画要素＝左55.3% 上68.8% 幅21.4% 高21.4% / 登録ボタン＝中心 横85.5% 縦79.6% 直径12.0%
+  #   要素の表示開始は「本編尺 − 13秒」。
+  encode:
+    vcodec: libx264
+    preset: medium
+    crf: 18
+
+thumb:
+  size: [1920, 1080]
+  crop_y: 0.30
+  tagline: "RELAX  ·  READ  ·  FOCUS"
+  # ★ SLEEP と環境音系の語を入れない。本編は純器楽で、実体と違う語は離脱を招く。
+  fonts:
+    serif: /System/Library/Fonts/Supplemental/Cochin.ttc
+    sans: /System/Library/Fonts/Optima.ttc
+  sizes:
+    brand: 56
+    title: 140
+    pill: 58
+    vol: 54
+    tagline: 50
+  font_index:          # .ttc 内の番号。役割ごとに違うのでまとめない
+    brand: 1
+    title: 1
+    pill: 4
+    vol: 1
+    tagline: 4
+  colors:
+    gold: [247, 216, 143]
+    cream: [252, 249, 243]
+    navy: [10, 18, 38]
+  scrim:
+    color: [5, 11, 26]
+    start: 40
+    width: 1060
+    opacity: 0.78
+    gamma: 1.5
+  layout:
+    x: 96
+    brand: 176
+    t1: 300
+    t2: 452
+    row: 660
+    use: 790
+
+# Sunoのプロンプトに毎回付ける定型（原案を書くときの参照用）
+suno:
+  length_phrase: >-
+    A long, continuous, slowly unfolding piece with no clear sections and no ending.
+  negatives: >-
+    Pure instrumental. No lyrics. No vocals. No vocalise. No choir.
+    No humming. No wordless singing. No aahs. Instruments only.
+  # ★ 末尾の No vocals だけでは歌詞のある歌しか止まらない。ヴォカリーズとハミングは通る。
+  #    本文に mouth / breath / voice / sing を書くと人声の合図になるので避ける。
+  forbidden_words: [short, "every N seconds", mouth, breath, voice, sing]
+  takes_per_kind: 2
+  takes_sparse: 4       # 「音数を少なく・間を長く」と書いた種は曲が短く出るので多めに取る
+  takes_total: [12, 14] # 5種×2本=10本ちょうどだと差し替えができなくなる（Vol.7で詰んだ）

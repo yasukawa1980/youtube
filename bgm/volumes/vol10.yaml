@@ -1,0 +1,81 @@
+genre: whispers
+volume: 10
+dir: ~/Desktop/Whispers of Japan/Vol10_素材_座敷
+background: ~/Desktop/Whispers of Japan/Vol10_背景_01.png
+title_lines:
+- MOONLIT
+- TATAMI ROOM
+runtime: 26 MIN
+thumb_layout:
+  brand: 330
+  t1: 442
+  t2: 583
+  row: 762
+  use: 892
+kinds:
+  Koto in the Tatami Room: ①箏独奏
+  Shakuhachi in the Quiet: ②尺八
+  Shakuhachi in the Void: ②尺八
+  Shakuhachi in the Mist: ②尺八
+  Bamboo Breath: ②尺八
+  Felt and Wood: ③ピアノ独奏
+  Bowl and Kettle: ④金属打
+  Bowl and Bell Decay: ④金属打
+  Kokyu Drift: ⑤胡弓
+  Moonlight on Tatami: ⑥フル編成
+select:
+  kind_limits:
+    ⑥フル編成:
+    - 1
+    - 1
+  breath_floor:
+    ②尺八: 0.05
+order:
+  fixed:
+    1: ②尺八
+    3: ③ピアノ独奏
+    9: ⑥フル編成
+scenes:
+- 座敷から庭
+- 縁側
+- 行灯
+- 火鉢と鉄瓶
+- 畳の影
+- 床の間
+- 石灯籠
+- 池に映る月
+- 月が差し込む
+- 夜明け前
+images:
+- Vol10_01.png
+- Vol10_02.png
+- Vol10_03.png
+- Vol10_04.png
+- Vol10_05.png
+- Vol10_06.png
+- Vol10_07.png
+- Vol10_08.png
+- Vol10_09.png
+- Vol10_10.png
+picked:
+- Bamboo Breath.wav
+- Bowl and Bell Decay.wav
+- Bowl and Kettle.wav
+- Felt and Wood (1).wav
+- Felt and Wood.wav
+- Kokyu Drift (1).wav
+- Kokyu Drift.wav
+- Koto in the Tatami Room (1).wav
+- Moonlight on Tatami.wav
+- Shakuhachi in the Mist.wav
+order_tracks:
+- Shakuhachi in the Mist.wav
+- Bowl and Bell Decay.wav
+- Felt and Wood (1).wav
+- Bamboo Breath.wav
+- Bowl and Kettle.wav
+- Kokyu Drift.wav
+- Koto in the Tatami Room (1).wav
+- Felt and Wood.wav
+- Moonlight on Tatami.wav
+- Kokyu Drift (1).wav
