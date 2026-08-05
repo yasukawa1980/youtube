@@ -96,6 +96,21 @@ thumb:
     row: 660
     use: 790
 
+images_api:
+  model: gpt-image-1
+  size: 1536x1024        # 3:2。保存時に16:9へ切り出す
+  quality: high
+  retries: 3
+
+# 全場面の末尾に足す共通の画風。巻をまたいでサムネの型を保つための要。
+# 流入の95%が自動再生の「次の動画」なので、シリーズで見た目を固定するほど連鎖しやすい。
+image_style: >-
+  Photorealistic cinematic still, traditional Japanese scenery at night.
+  The only light source is the moon: cool blue-silver, low key, deep shadows.
+  Calm and completely static, no people, no animals, no text, no signage,
+  no lettering of any kind. Muted palette, fine film grain, 16:9 composition
+  with generous empty space on the left third for titles.
+
 # Sunoのプロンプトに毎回付ける定型（原案を書くときの参照用）
 suno:
   length_phrase: >-

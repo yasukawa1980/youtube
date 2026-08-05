@@ -1,5 +1,6 @@
 """コマンド入口。
 
+  python3 -m bgmkit images  vol11    場面ごとの画像をAPIで生成（--only 3 5 で一部だけ）
   python3 -m bgmkit analyze vol11    候補曲の計測と重複検出 → _work/analysis.json
   python3 -m bgmkit select  vol11    本採用の選抜（--write でYAMLに書き戻し）
   python3 -m bgmkit order   vol11    曲順の決定（--write でYAMLに書き戻し）
@@ -12,7 +13,7 @@
 import argparse
 import sys
 
-from . import analyze, audio, config, select, thumb, video
+from . import analyze, audio, config, images, select, thumb, video
 
 
 def _need_order(cfg):
@@ -25,17 +26,22 @@ def _need_order(cfg):
 
 def main(argv=None):
     ap = argparse.ArgumentParser(prog="bgmkit", description="BGM動画の制作パイプライン")
-    ap.add_argument("command", choices=["analyze", "select", "order", "audio",
+    ap.add_argument("command", choices=["images", "analyze", "select", "order", "audio",
                                         "video", "mux", "thumb", "build"])
     ap.add_argument("volume", help="volumes/ の設定ファイル名（拡張子は省略可）")
     ap.add_argument("--write", action="store_true",
                     help="select / order の結果を巻のYAMLに書き戻す")
+    ap.add_argument("--only", type=int, nargs="+", metavar="N",
+                    help="images で特定の番号だけ作り直す（1始まり）")
     args = ap.parse_args(argv)
 
     cfg = config.load(args.volume)
     c = args.command
 
-    if c == "analyze":
+    if c == "images":
+        images.run(cfg, only=args.only)
+
+    elif c == "analyze":
         analyze.run(cfg)
 
     elif c == "select":
