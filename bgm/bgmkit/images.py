@@ -73,15 +73,33 @@ def _generate_one(prompt, cfg, key):
     raise SystemExit(f"生成に失敗しました: {last}")
 
 
-def _crop_169(data, path, anchor=0.5):
-    """3:2 で返ってくる画像を 16:9 に切り出す。anchor は縦の取り位置（0=上）。"""
+def _crop_169(data, path, anchor=0.5, gamma=1.0):
+    """3:2 で返ってくる画像を 16:9 に切り出し、必要なら暗部を持ち上げて保存する。
+
+    anchor は縦の取り位置（0=上）。gamma は暗部の持ち上げ量。
+
+    ★ガンマが要る理由（2026年8月5日にVol.10の素材と実測で照合）：
+    ChatGPTのアプリはプロンプトを画像モデルへ渡す前に書き換えるが、APIは書いたまま渡す。
+    そのため `lit only by a paper lamp` のような文言が文字どおり効き、同じプロンプトでも
+    APIの出力は平均輝度が半分、画素の半分が真っ黒に潰れる。
+    プロンプト側に露出の指示を書き足すと細部は戻る（ラプラシアン分散 135→257、
+    ChatGPT製が259）が、輝度はまだ届かない（14.5 対 25.0）。
+    細部が戻っていれば持ち上げで復元できるので、最後にガンマ1.3を掛ける。
+    実測は 平均24.1／中央値16.3／潰れ24.6% で、ChatGPT製の 25.0／17.1／24.2% にほぼ一致。
+    """
     import io
+
+    import numpy as np
     im = Image.open(io.BytesIO(data)).convert("RGB")
     w, h = im.size
     want = int(round(w * 9 / 16))
     if h > want:
         top = int((h - want) * anchor)
         im = im.crop((0, top, w, top + want))
+    if gamma and abs(gamma - 1.0) > 1e-6:
+        x = np.asarray(im, dtype=np.float64) / 255.0
+        im = Image.fromarray((np.power(x, 1.0 / gamma) * 255.0)
+                             .clip(0, 255).astype(np.uint8))
     im.save(path)
     return im.size
 
@@ -111,7 +129,8 @@ def run(cfg, only=None):
         sc = scenes[i] if i < len(scenes) else ""
         print(f"  {i + 1:02d} 生成中 {sc}...", flush=True)
         data = _generate_one(prompt, cfg, key)
-        size = _crop_169(data, path, anchors[i] if i < len(anchors) else 0.5)
+        size = _crop_169(data, path, anchors[i] if i < len(anchors) else 0.5,
+                         cfg["images_api"].get("gamma", 1.0))
         print(f"     → {os.path.basename(path)} {size[0]}x{size[1]}")
 
     print(f"\n書き出し先: {out_dir}")

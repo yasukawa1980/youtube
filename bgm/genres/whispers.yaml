@@ -98,15 +98,25 @@ thumb:
 
 images_api:
   model: gpt-image-1
-  size: 1536x1024        # 3:2。保存時に16:9へ切り出す
+  size: 1536x1024        # 3:2。保存時に16:9へ切り出す（1536x864）
   quality: high
   retries: 3
+  gamma: 1.3
+  # ★ガンマは必須。APIはプロンプトをそのまま渡すため、ChatGPTのアプリより2段ほど暗く出る。
+  #   1.3 で ChatGPT製の素材（平均25.0/中央値17.1/潰れ24.2%）にほぼ一致する。
 
 # 全場面の末尾に足す共通の画風。巻をまたいでサムネの型を保つための要。
 # 流入の95%が自動再生の「次の動画」なので、シリーズで見た目を固定するほど連鎖しやすい。
+#
+# ★露出の指示（2文目〜3文目）を必ず入れる。これが無いと画素の半分が真っ黒に潰れ、
+#   ケンバーンズで寄っても何も見えてこない絵になる。細部の量が半分になる。
 image_style: >-
   Photorealistic cinematic still, traditional Japanese scenery at night.
-  The only light source is the moon: cool blue-silver, low key, deep shadows.
+  The only light source is the moon: cool blue-silver, low key.
+  Exposed so that texture is clearly visible everywhere — wood grain, stone,
+  foliage, woven surfaces. Shadows are lifted and open, full of visible detail,
+  nothing crushed to pure black. High dynamic range, rich texture even in the
+  darkest areas.
   Calm and completely static, no people, no animals, no text, no signage,
   no lettering of any kind. Muted palette, fine film grain, 16:9 composition
   with generous empty space on the left third for titles.
