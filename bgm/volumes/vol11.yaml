@@ -1,0 +1,248 @@
+# Whispers of Japan Vol.11 — Moonlit Zen Garden（月夜の枯山水）／テーマ「無」
+#
+# フェーズ2の1本目。60分以上・全曲新規。
+# 設計は ~/Desktop/Whispers of Japan/Vol11_テーマ設計とプロンプト.md
+#
+# ★注意：`--write` は yaml.safe_dump でこのファイルを丸ごと書き直すため、
+#   コメントが全部消える。select / order をやり直したら注記を入れ直すこと。
+
+genre: whispers
+volume: 11
+dir: "~/Desktop/Whispers of Japan/Vol11_素材_枯山水"
+background: "~/Desktop/Whispers of Japan/Vol11_背景_01.png"
+
+title_lines: [MOONLIT, ZEN GARDEN]
+runtime: "62 MIN"                      # 音声確定後に実尺と突き合わせる
+
+# 45本。MD5が一致した重複DL2本（フェルトピアノ６・琵琶２）は _重複DL/ に退避済み。
+# Sunoの連番が「箏の独奏２」のように全角で付くため、1本ずつ書き出している。
+kinds:
+  ' Brand Standard — A minor・全編成（': ⑧フル編成
+  ' Brand Standard — A minor・全編成（１': ⑧フル編成
+  ' Brand Standard — A minor・全編成（２': ⑧フル編成
+  ' Brand Standard — A minor・全編成（３': ⑧フル編成
+  ' Brand Standard — A minor・全編成（４': ⑧フル編成
+  ' Brand Standard — A minor・全編成（５': ⑧フル編成
+  フェルトピアノ: ③ピアノ独奏
+  フェルトピアノ１: ③ピアノ独奏
+  フェルトピアノ２: ③ピアノ独奏
+  フェルトピアノ３: ③ピアノ独奏
+  フェルトピアノ４: ③ピアノ独奏
+  フェルトピアノ５: ③ピアノ独奏
+  尺八の独奏: ②尺八
+  尺八の独奏１: ②尺八
+  尺八の独奏２: ②尺八
+  尺八の独奏３: ②尺八
+  尺八の独奏４: ②尺八
+  尺八の独奏５: ②尺八
+  琵琶: ⑦琵琶
+  琵琶１: ⑦琵琶
+  琵琶３: ⑦琵琶
+  琵琶４: ⑦琵琶
+  笙のみ: ⑥笙
+  笙のみ１: ⑥笙
+  笙のみ２: ⑥笙
+  笙のみ３: ⑥笙
+  笙のみ４: ⑥笙
+  笙のみ５: ⑥笙
+  箏の独奏: ①箏独奏
+  箏の独奏２: ①箏独奏
+  箏の独奏３: ①箏独奏
+  箏の独奏４: ①箏独奏
+  箏の独奏５: ①箏独奏
+  金属の打楽器: ④金属打
+  金属の打楽器１: ④金属打
+  金属の打楽器２: ④金属打
+  金属の打楽器３: ④金属打
+  金属の打楽器４: ④金属打
+  金属の打楽器５: ④金属打
+  鼓弓 (1): ⑤胡弓
+  鼓弓: ⑤胡弓
+  鼓弓２: ⑤胡弓
+  鼓弓３: ⑤胡弓
+  鼓弓４: ⑤胡弓
+  鼓弓５: ⑤胡弓
+
+# ★max_per_kind: 3 は不可。8種×3に対しフル編成を1本に絞ると 3×7+1=22 でちょうど
+#   埋まり、配分が1通りに固定されて選抜が選抜にならない（テイクが3本の種は全数採用）。
+#   4にして余地を残す。22曲中4曲＝18%で、Vol.9の「10曲中4曲が同じ音色」とは別物。
+#
+# ★kind_limits の下限が要る。require_all_kinds は「最低1本」でしかないため、
+#   一致度の最小化だけだと団子を作る⑥笙と、breath_floor で候補が減る②尺八が
+#   1本まで痩せる。62分で尺八が1回だけ（しかも order.fixed で1曲目に固定）になった。
+#   長尺では毎回起きるので、ジャンル側に min_per_kind を置くほうが筋がよいかもしれない。
+select:
+  count: 22
+  total_seconds:
+  - 3720
+  - 3960
+  max_per_kind: 4
+  kind_limits:
+    ⑧フル編成:
+    - 1
+    - 1
+    ②尺八:
+    - 2
+    - 2
+    ⑥笙:
+    - 2
+    - 4
+  breath_floor:
+    ②尺八: 0.05
+
+# 17曲目＝場面9A「最も長い影」＝クライマックス。
+# ⑧フル編成は1本しかないので、bgmkit 側で「後ろの固定枠のぶんを取り置く」修正が要った。
+order:
+  fixed:
+    1: ②尺八
+    17: ⑧フル編成
+
+# 11場面 × A（引き）/ B（寄り）＝22枚。曲数と一致させる（画像1枚＝1曲）。
+scenes:
+- 石庭の全景
+- 白砂の広がり
+- 砂紋
+- 砂の粒
+- 立石
+- 石の肌
+- 石の影
+- 影の縁
+- 土塀
+- 壁の染み
+- 二つの石
+- 石と石のあいだ
+- 苔と砂の境
+- 苔
+- まっすぐな砂紋
+- 真上から見た砂紋
+- 最も長い影
+- 低い月と影
+- 影が消える
+- 灰色の砂
+- 夜明け前
+- 明ける庭
+
+images:
+- Vol11_01.png
+- Vol11_02.png
+- Vol11_03.png
+- Vol11_04.png
+- Vol11_05.png
+- Vol11_06.png
+- Vol11_07.png
+- Vol11_08.png
+- Vol11_09.png
+- Vol11_10.png
+- Vol11_11.png
+- Vol11_12.png
+- Vol11_13.png
+- Vol11_14.png
+- Vol11_15.png
+- Vol11_16.png
+- Vol11_17.png
+- Vol11_18.png
+- Vol11_19.png
+- Vol11_20.png
+- Vol11_21.png
+- Vol11_22.png
+
+# 22枚 ＝ 11場面 × A（引き）/ B（寄り）。曲数と一致させてある。
+# ジャンル側の image_style（露出の指示つき）とガンマ1.3が自動で付く。
+# ★枯山水に固有の禁止を各文の末尾に入れてある。AIは日本庭園の石として
+#   石碑・供養塔・墓石を混ぜてきて、そこに必ず崩れ字を彫るため。
+# image_anchor は3:2から16:9へ切り出すときの縦位置。空に月がある場面だけ上を残す。
+image_prompts:
+- 'A walled Japanese dry garden (karesansui) seen from one corner at night, a wide field of raked white gravel with five weathered rocks placed across it, an old earthen wall with a tiled top running along the far side, the full moon high in a deep blue sky. The rocks are plain natural boulders: no carved stone, no stele, no monument, no gravestone, no stone marker, no engraved characters, no inscription. No stone lanterns, no lamps, no candles, no windows, no artificial light at all.'
+- 'The same dry garden from slightly lower and closer, the raked gravel filling most of the frame and running away toward the far wall, two of the rocks now large in the foreground, the moon smaller and higher in the sky. The rocks are plain natural boulders: no carved stone, no stele, no monument, no gravestone, no stone marker, no engraved characters, no inscription. No stone lanterns, no lamps, no candles, no windows, no artificial light at all.'
+- 'Raked white gravel at night seen at a low angle, long parallel ridges catching the cold moonlight along their crests while the troughs stay in shadow, the pattern curving away into the dark. The rocks are plain natural boulders: no carved stone, no stele, no monument, no gravestone, no stone marker, no engraved characters, no inscription. No stone lanterns, no lamps, no candles, no windows, no artificial light at all.'
+- 'Extreme close view of raked gravel at night, individual pale stones visible along one ridge, moonlight picking out the top of each grain, the shadow between ridges deep but still readable, nothing else in the frame. The rocks are plain natural boulders: no carved stone, no stele, no monument, no gravestone, no stone marker, no engraved characters, no inscription. No stone lanterns, no lamps, no candles, no windows, no artificial light at all.'
+- 'A single weathered standing rock in a field of raked white gravel at night. The rock is a rounded natural boulder — irregular, lumpy, wider than it is tall — absolutely not a slab, not a pillar, not an upright rectangular stone. Moss dark on its base, concentric rings of raked gravel circling out from it. Exposed brighter than a typical night shot: the shadows are open and full of visible texture, nothing crushed to solid black, every grain of gravel readable. The rocks are plain natural boulders: no carved stone, no stele, no monument, no gravestone, no stone marker, no engraved characters, no inscription. No stone lanterns, no lamps, no candles, no windows, no artificial light at all.'
+- 'Close view of the surface of an old weathered rock at night, lichen and moss in its cracks, cold moonlight raking across it from one side so every ridge in the stone reads, the pale gravel out of focus behind. The rocks are plain natural boulders: no carved stone, no stele, no monument, no gravestone, no stone marker, no engraved characters, no inscription. No stone lanterns, no lamps, no candles, no windows, no artificial light at all.'
+- 'The long shadow of a standing rock lying across raked white gravel at night, the shadow sharp-edged and dark, cutting straight across the curved lines of the raking. The rocks are plain natural boulders: no carved stone, no stele, no monument, no gravestone, no stone marker, no engraved characters, no inscription. No stone lanterns, no lamps, no candles, no windows, no artificial light at all.'
+- 'Close view of the edge of a shadow falling across raked gravel at night, the boundary between moonlit pale stone and shadow crossing the ridges of the raking at an angle, very still, almost abstract. The rocks are plain natural boulders: no carved stone, no stele, no monument, no gravestone, no stone marker, no engraved characters, no inscription. No stone lanterns, no lamps, no candles, no windows, no artificial light at all.'
+- 'An old Japanese earthen garden wall at night seen from inside the garden, streaked and stained by decades of rain, patches of plaster fallen away to show the clay beneath, a tiled roof capping it, the full moon in the sky above. Lit purely by cold blue moonlight: the clay and plaster read cool grey-blue, no warm tones, no orange, no amber, no yellow anywhere in the frame. The rocks are plain natural boulders: no carved stone, no stele, no monument, no gravestone, no stone marker, no engraved characters, no inscription. No stone lanterns, no lamps, no candles, no windows, no artificial light at all.'
+- 'Close view of the surface of an old earthen wall at night, vertical rain streaks and blooms of stain across the plaster, one corner crumbled to expose straw and clay, cold moonlight grazing across the texture. The rocks are plain natural boulders: no carved stone, no stele, no monument, no gravestone, no stone marker, no engraved characters, no inscription. No stone lanterns, no lamps, no candles, no windows, no artificial light at all.'
+- 'Two large weathered rocks standing apart in a field of raked white gravel at night, seen from ground level so the pale gravel between them fills the centre of the frame, the wall a dark band behind. The rocks are plain natural boulders: no carved stone, no stele, no monument, no gravestone, no stone marker, no engraved characters, no inscription. No stone lanterns, no lamps, no candles, no windows, no artificial light at all.'
+- 'The narrow gap between two dark rocks at night, filled with moonlit raked gravel running away from the camera, both rocks reduced to silhouettes at the edges of the frame. The rocks are plain natural boulders: no carved stone, no stele, no monument, no gravestone, no stone marker, no engraved characters, no inscription. No stone lanterns, no lamps, no candles, no windows, no artificial light at all.'
+- 'The edge of a moss island meeting raked white gravel in a Japanese dry garden at night, soft moss on one side and pale ordered gravel on the other, the boundary line curving across the frame. Exposed brighter than a typical night shot: the shadows are open and full of visible texture, nothing crushed to solid black, every grain of gravel readable. The rocks are plain natural boulders: no carved stone, no stele, no monument, no gravestone, no stone marker, no engraved characters, no inscription. No stone lanterns, no lamps, no candles, no windows, no artificial light at all.'
+- 'Close view of moss at night, wet and dense under the moon, individual fronds picked out in cold light, giving way at one edge to pale gravel, shallow depth of field. The rocks are plain natural boulders: no carved stone, no stele, no monument, no gravestone, no stone marker, no engraved characters, no inscription. No stone lanterns, no lamps, no candles, no windows, no artificial light at all.'
+- 'A long straight stretch of raked white gravel at night running from the foreground into the distance, the parallel ridges converging with distance. The frame contains nothing but gravel: no rocks, no stones, no boulders, no buildings, no gate, no roof, no walls, no structures, no plants, no trees. The far end simply fades into darkness. Purely geometric, an empty field of parallel lines.'
+- 'An overhead flat-lay photograph of raked gravel. The camera is mounted directly above the ground with the lens pointing straight down, perfectly perpendicular, so the surface is exactly parallel to the sensor. The gravel fills one hundred percent of the frame: no edges of the bed, no border, no background, no horizon, no sky, no rocks, no plants, no wall. The raking lines run dead straight from one edge of the frame to the opposite edge, all exactly the same width and spacing — no convergence, no perspective, no vanishing point, no sense of depth. A flat texture study, lit by cold moonlight from one side so each ridge casts a thin parallel shadow.'
+- 'A Japanese dry garden at night with the full moon now low in the sky, the shadows of the standing rocks stretched right across the whole field of raked white gravel to the far wall, long and parallel. The strongest moment of the night. The rocks are plain natural boulders: no carved stone, no stele, no monument, no gravestone, no stone marker, no engraved characters, no inscription. No stone lanterns, no lamps, no candles, no windows, no artificial light at all.'
+- 'A single standing rock in raked white gravel at night with the moon low behind it, its shadow thrown far toward the camera across the pale ground, the concentric raking lines cut by the shadow, the moon visible above the earthen wall. The rocks are plain natural boulders: no carved stone, no stele, no monument, no gravestone, no stone marker, no engraved characters, no inscription. No stone lanterns, no lamps, no candles, no windows, no artificial light at all.'
+- 'The same dry garden with the moon now hidden behind the earthen wall, no shadows anywhere, the gravel an even flat grey, the rocks dark shapes with no direction to their light, completely quiet. The rocks are plain natural boulders: no carved stone, no stele, no monument, no gravestone, no stone marker, no engraved characters, no inscription. No stone lanterns, no lamps, no candles, no windows, no artificial light at all.'
+- 'Raked gravel at night with no shadow and no direction of light, an even featureless grey field of ridges, the pattern still there but flattened and colourless. The rocks are plain natural boulders: no carved stone, no stele, no monument, no gravestone, no stone marker, no engraved characters, no inscription. No stone lanterns, no lamps, no candles, no windows, no artificial light at all.'
+- 'A Japanese dry garden just before dawn, the sky above the earthen wall turning pale grey-blue, the moon gone, the gravel a cool bluish grey, the rocks still dark, everything cold and quiet. Still night, not yet daylight. The rocks are plain natural boulders: no carved stone, no stele, no monument, no gravestone, no stone marker, no engraved characters, no inscription. No stone lanterns, no lamps, no candles, no windows, no artificial light at all.'
+- 'Close view of raked gravel just before dawn, the light now soft and shadowless and coming from everywhere, the pale stones faintly blue, a single dark rock at the edge of the frame. Still night, not yet daylight. The rocks are plain natural boulders: no carved stone, no stele, no monument, no gravestone, no stone marker, no engraved characters, no inscription. No stone lanterns, no lamps, no candles, no windows, no artificial light at all.'
+image_anchor:
+- 0.3
+- 0.3
+- 0.5
+- 0.5
+- 0.5
+- 0.5
+- 0.5
+- 0.5
+- 0.3
+- 0.5
+- 0.5
+- 0.5
+- 0.5
+- 0.5
+- 0.5
+- 0.5
+- 0.3
+- 0.3
+- 0.5
+- 0.5
+- 0.3
+- 0.5
+
+# --- 以下は select / order が書き戻したもの。手で編集しない ---
+picked:
+- フェルトピアノ１.wav
+- 箏の独奏４.wav
+- 鼓弓.wav
+- 琵琶４.wav
+- 金属の打楽器.wav
+- 金属の打楽器５.wav
+- ' Brand Standard — A minor・全編成（３.wav'
+- 鼓弓２.wav
+- フェルトピアノ.wav
+- フェルトピアノ２.wav
+- フェルトピアノ５.wav
+- 尺八の独奏５.wav
+- 尺八の独奏４.wav
+- 琵琶１.wav
+- 琵琶.wav
+- 金属の打楽器３.wav
+- 鼓弓５.wav
+- 箏の独奏.wav
+- 鼓弓４.wav
+- 笙のみ３.wav
+- 笙のみ.wav
+- 箏の独奏３.wav
+
+order_tracks:
+- 尺八の独奏５.wav
+- フェルトピアノ５.wav
+- 琵琶１.wav
+- 尺八の独奏４.wav
+- 箏の独奏３.wav
+- 金属の打楽器５.wav
+- 琵琶４.wav
+- 箏の独奏４.wav
+- 金属の打楽器３.wav
+- 鼓弓４.wav
+- 笙のみ３.wav
+- フェルトピアノ２.wav
+- 金属の打楽器.wav
+- 鼓弓.wav
+- 箏の独奏.wav
+- フェルトピアノ.wav
+- ' Brand Standard — A minor・全編成（３.wav'
+- 鼓弓２.wav
+- 琵琶.wav
+- フェルトピアノ１.wav
+- 鼓弓５.wav
+- 笙のみ.wav

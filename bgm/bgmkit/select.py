@@ -186,8 +186,123 @@ def select(cfg):
     return list(chosen)
 
 
+def _order_local_search(chosen, n, kind, key, fixed, thresh, S, ocfg):
+    """長尺の巻の曲順。後戻り法でランダムな有効解を作り、2点交換で山を登る。
+
+    分枝限定は左から埋めるため、22曲だと最後まで到達する前に予算が尽きる。
+    こちらは常に完成した並びを持ったまま改善するので、曲数が増えても崩れない。
+    評価は分枝限定と同じ（隣接の最大一致度 → 同点なら合計）。
+    """
+    no_kind_adj = ocfg.get("forbid_same_kind_adjacent", True)
+    no_kind_skip1 = ocfg.get("forbid_same_kind_skip1", True)
+    no_key_adj = ocfg.get("forbid_same_key_adjacent", True)
+    rng = random.Random(ocfg.get("seed", 20260805))
+
+    def placeable(o, p, f):
+        if fixed.get(p + 1) and kind[f] != fixed[p + 1]:
+            return False
+        for d in (1, 2):
+            for q in (p - d, p + d):
+                if 0 <= q < n and o[q] is not None:
+                    if d == 1 and no_kind_adj and kind[o[q]] == kind[f]:
+                        return False
+                    if d == 2 and no_kind_skip1 and kind[o[q]] == kind[f]:
+                        return False
+        for q in (p - 1, p + 1):
+            if 0 <= q < n and o[q] is not None:
+                if no_key_adj and key[o[q]] == key[f]:
+                    return False
+                if S(o[q], f) > thresh:
+                    return False
+        return True
+
+    def valid(o):
+        """完成した並びの検査。placeable を使い回すと1回ごとに O(n^2) の作り直しが
+        発生して交換の山登りが実用にならないので、ここは直接 O(n) で見る。"""
+        for i, f in enumerate(o):
+            if fixed.get(i + 1) and kind[f] != fixed[i + 1]:
+                return False
+        for i in range(n - 1):
+            a, b = o[i], o[i + 1]
+            if no_kind_adj and kind[a] == kind[b]:
+                return False
+            if no_key_adj and key[a] == key[b]:
+                return False
+            if S(a, b) > thresh:
+                return False
+        if no_kind_skip1:
+            for i in range(n - 2):
+                if kind[o[i]] == kind[o[i + 2]]:
+                    return False
+        return True
+
+    def score(o):
+        adj = [S(o[i], o[i + 1]) for i in range(n - 1)]
+        return (max(adj), sum(adj))
+
+    def construct():
+        """★固定枠の曲を先に置いてから残りを埋める。
+
+        左から順に埋めると、17曲目に置くはずの⑧フル編成（1本しかない）を
+        手前で使ってしまい、そこまで戻る後戻りが延々と続いて実用にならない。
+        """
+        o = [None] * n
+        pool = list(chosen)
+        for pos, kd in sorted(fixed.items()):
+            cand = [f for f in pool if kind[f] == kd]
+            if not cand:
+                return None
+            f = rng.choice(cand)
+            o[pos - 1] = f
+            pool.remove(f)
+        rng.shuffle(pool)
+        slots = [i for i in range(n) if o[i] is None]
+
+        def rec(si):
+            if si == len(slots):
+                return True
+            p = slots[si]
+            cand = [f for f in pool if placeable(o, p, f)]
+            rng.shuffle(cand)
+            for f in cand:
+                o[p] = f
+                pool.remove(f)
+                if rec(si + 1):
+                    return True
+                pool.append(f)
+                o[p] = None
+            return False
+
+        return o if rec(0) else None
+
+    best = None
+    for _ in range(ocfg.get("restarts", 300)):
+        o = construct()
+        if o is None:
+            continue
+        sc = score(o)
+        improved = True
+        while improved:
+            improved = False
+            for a in range(n):
+                for b in range(a + 1, n):
+                    o[a], o[b] = o[b], o[a]
+                    if valid(o):
+                        s2 = score(o)
+                        if s2 < sc:
+                            sc, improved = s2, True
+                            continue
+                    o[a], o[b] = o[b], o[a]
+        if best is None or sc < best[0]:
+            best = (sc, list(o))
+    if best is None:
+        raise SystemExit("条件を満たす曲順がありません。制約を緩めてください。")
+    (cmax, csum), seq = best
+    return seq, cmax, csum
+
+
 def order(cfg, chosen):
-    """一致度を最小化する曲順を分枝限定で探す。"""
+    """一致度を最小化する曲順を探す。短い巻は分枝限定、長尺は局所探索。"""
     an = load_json(cfg.wpath("analysis.json"))
     tracks, sim = an["tracks"], _sim_table(an)
     ocfg = cfg.get("order", {})
@@ -216,10 +331,24 @@ def order(cfg, chosen):
             best[0] = (cmax, csum, list(seq))
             return
         want = fixed.get(i + 1)
+        # ★後ろの固定枠のぶんは取り置く。これが無いと、17曲目に⑧フル編成を置く約束を
+        #   していてもその1本を手前で使ってしまい、深さ16で必ず行き止まる。
+        #   10曲の巻では偶然通っていたが、22曲では探索予算を使い切って「解なし」になる。
+        avail = {}
+        for g in chosen:
+            if g not in used:
+                avail[kind[g]] = avail.get(kind[g], 0) + 1
+        need_later = {}
+        for pos, kd in fixed.items():
+            if pos > i + 1:
+                need_later[kd] = need_later.get(kd, 0) + 1
+
         for f in chosen:
             if f in used:
                 continue
             if want and kind[f] != want:
+                continue
+            if avail[kind[f]] - 1 < need_later.get(kind[f], 0):
                 continue
             if i:
                 p = seq[-1]
@@ -241,13 +370,21 @@ def order(cfg, chosen):
             seq.pop()
             used.discard(f)
 
-    dfs([], set(), 0.0, 0.0)
-    if not best[0]:
-        raise SystemExit(
-            f"条件を満たす曲順がありません。order.adjacency_threshold（現在 {thresh}）を"
-            "上げるか、制約を緩めてください。")
-
-    cmax, csum, seq = best[0]
+    # ★曲数が多いと左から埋める分枝限定では 22! を覆えず、探索予算を使い切って
+    #   中途半端な並びで止まる（Vol.11では最大0.348、局所探索だと0.294まで下がった）。
+    #   select が組み合わせ数で全探索と局所探索を切り替えているのと同じ考え方で、
+    #   長尺の巻は交換による山登りに回す。
+    if n >= ocfg.get("local_search_from", 14):
+        print(f"{n}曲は分枝限定では覆えないため局所探索で並べます"
+              f"（切り替えの下限 {ocfg.get('local_search_from', 14)}曲）")
+        seq, cmax, csum = _order_local_search(chosen, n, kind, key, fixed, thresh, S, ocfg)
+    else:
+        dfs([], set(), 0.0, 0.0)
+        if not best[0]:
+            raise SystemExit(
+                f"条件を満たす曲順がありません。order.adjacency_threshold（現在 {thresh}）を"
+                "上げるか、制約を緩めてください。")
+        cmax, csum, seq = best[0]
     if budget[0] <= 0:
         print("※ 探索の上限に達したため、そこまでで最良の並びを採用しました"
               "（長尺の巻では最適とは限りません）。\n")
