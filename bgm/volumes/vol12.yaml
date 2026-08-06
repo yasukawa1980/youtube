@@ -1,0 +1,163 @@
+# Whispers of Japan Vol.12 — Moonlit Pagoda（月夜の五重塔）／テーマ「仰ぐ」
+#
+# フェーズ2の2本目。62〜66分・22曲・全曲新規。
+# 設計は ~/Desktop/Whispers of Japan/Vol12_テーマ設計とプロンプト.md
+#
+# 差別化の軸は「視線の向き」。Vol.1〜11とコンピ2本の13本すべてがアイレベルか俯瞰で、
+# 一度も上を向いていない。Vol.11（水平の反復・明るい地面に黒い石）に対して、
+# Vol.12は垂直の反復・明るい空に黒い塔で、図と地が反転する。
+#
+# ★注意：`--write` は yaml.safe_dump でこのファイルを丸ごと書き直すため、
+#   コメントが全部消える。select / order をやり直したら注記を入れ直すこと。
+
+genre: whispers
+volume: 12
+dir: "~/Desktop/Whispers of Japan/Vol12_素材_五重塔"
+
+# サムネの元画は場面9B（相輪と月・寄り）＝ 18枚目。
+# 生成した画像をそのまま使う（Vol.11の Vol11_背景_01.png も同じ 1536x864 の複製だった）。
+background: "~/Desktop/Whispers of Japan/Vol12_素材_五重塔/画像/vol12_18.png"
+
+title_lines: [MOONLIT, PAGODA]
+runtime: "64 MIN"                      # 仮。音声が確定したら実尺と突き合わせる
+
+# 楽曲が揃ったら埋める。ファイル名（末尾の " (1)" を除いた形）→ 音色の種類。
+# 8種：①箏 ②尺八 ③ピアノ ④風鐸 ⑤胡弓 ⑥笙 ⑦龍笛 ⑧フル編成
+# ★⑦龍笛がこの巻の新規枠。②尺八と発音（吹く）が同じなので、分離できるかは
+#   analyze の一致度を見てから採用本数を決める。高く出たら④で埋める。
+kinds: {}
+
+# ★max_per_kind は 4。3だと 3×7＋フル1＝22 でちょうど埋まり、配分が1通りに
+#   固定されて選抜が選抜にならない（Vol.11で判明）。
+# ★kind_limits の下限が要る。require_all_kinds は「最低1本」でしかないため、
+#   一致度の最小化だけだと候補の少ない種が1本まで痩せる。
+select:
+  count: 22
+  total_seconds: [3720, 3960]          # 62〜66分
+  max_per_kind: 4
+  kind_limits:
+    ⑧フル編成: [1, 1]
+    ②尺八: [2, 2]
+    ⑥笙: [2, 4]
+    ⑦龍笛: [2, 4]
+  breath_floor:
+    ②尺八: 0.05
+    # ★この巻は残響ゼロに振っている。Vol.11（最良0.0537）を超えるかが検証点。
+    #   超えれば「長い残響の指示が息のノイズを埋める」が確定する。
+    #   ⑦龍笛は澄んだ音が設計なので足切りしない。
+
+# 17曲目＝場面9A（相輪と月）＝クライマックス。
+# 1曲目はチャンネルの看板の音（尺八）で開ける。
+order:
+  fixed:
+    1: ②尺八
+    17: ⑧フル編成
+
+# 11場面 × A（引き）/ B（寄り）＝22枚。曲数と一致させる（画像1枚＝1曲）。
+scenes:
+- 塔の全景
+- 全景・寄り
+- 礎石と足元
+- 礎石・寄り
+- 一層目の軒裏
+- 垂木・寄り
+- 組物
+- 組物・寄り
+- 軒の重なり
+- 層と層のあいだ
+- 風鐸
+- 風鐸・寄り
+- 上層の軒と月
+- 軒先と月・寄り
+- 相輪
+- 相輪・寄り
+- 相輪と月
+- 相輪と月・寄り（サムネ用）
+- 塔を離れる
+- 空だけ
+- 夜明け前
+- 夜明け前・寄り
+
+images:
+- vol12_01.png
+- vol12_02.png
+- vol12_03.png
+- vol12_04.png
+- vol12_05.png
+- vol12_06.png
+- vol12_07.png
+- vol12_08.png
+- vol12_09.png
+- vol12_10.png
+- vol12_11.png
+- vol12_12.png
+- vol12_13.png
+- vol12_14.png
+- vol12_15.png
+- vol12_16.png
+- vol12_17.png
+- vol12_18.png
+- vol12_19.png
+- vol12_20.png
+- vol12_21.png
+- vol12_22.png
+
+# ジャンル側の image_style（露出の指示つき）とガンマ1.3が自動で付く。
+#
+# ★見上げの画は遠近を「強調」して出す。Vol.11で真上のショットを出すのに
+#   `no convergence, no perspective, no vanishing point` と遠近を否定したのの逆で、
+#   `strong upward convergence` `extreme worm's-eye view` と収束そのものを書く。
+#   `looking up at` だけではアイレベルの写真が返る。
+# ★塔は右、空は左1/3。全場面で徹底すると題字帯が空になり、サムネの文字が乗る。
+# ★各文の末尾に共通の禁止句。寺の建築はVol.8の山門以来の崩れ字リスクなので、
+#   木札・千社札・扁額・幟を列挙し、あわせて中国/タイの塔になる事故も否定する。
+#   白漆喰の面は「連子窓（縦格子）と板壁の木目」を描かせて埋める（Vol.10の掛け軸の手）。
+image_prompts:
+- 'A Japanese five-storied wooden pagoda (gojunoto) at night, the camera set low on the ground at its foot and tilted upward: strong upward convergence, extreme worm''s-eye view, the vertical lines of the pillars leaning together toward the top of the frame. Exactly five stacked tiled roofs, each smaller than the one below, the bronze spire at the very top against a deep blue sky with the full moon high above. The tower stands in the right two thirds of the frame; the left third is open empty sky. The timber reads cool grey-brown under moonlight: no warm tones, no orange, no amber, no yellow anywhere in the frame. Bare weathered wood and vertical lattice windows only — no signboards, no plaques, no votive tablets, no paper charms, no stickers, no banners, no calligraphy, no engraved characters, no inscription of any kind. No lanterns, no paper lamps, no candles, no artificial light at all. Japanese temple architecture, not Chinese and not Thai: no vermilion paint, no gold, no ornate colour, roof corners only very slightly upturned. No people, no power lines, no antennas, no gravestones, no stone markers.'
+- 'The same five-storied wooden pagoda from even lower and closer, the camera almost on the ground: the tower now leans steeply across the frame and the five roofs stack away into the sky, the convergence extreme, the spire tiny at the top. Deep blue night sky, the moon smaller and off to one side, the left third of the frame open sky. The timber reads cool grey-brown under moonlight: no warm tones, no orange, no amber, no yellow anywhere in the frame. Bare weathered wood and vertical lattice windows only — no signboards, no plaques, no votive tablets, no paper charms, no stickers, no banners, no calligraphy, no engraved characters, no inscription of any kind. No lanterns, no paper lamps, no candles, no artificial light at all. Japanese temple architecture, not Chinese and not Thai: no vermilion paint, no gold, no ornate colour, roof corners only very slightly upturned. No people, no power lines, no antennas, no gravestones, no stone markers.'
+- 'The stone base of a Japanese wooden pagoda at night, seen from ground level: a low platform of fitted grey stone, thick round wooden pillars standing on carved round stone footings, and the deep darkness under the floor behind them. Exposed brighter than a typical night shot: the shadows are open and full of visible texture, nothing crushed to solid black, the grain of the wood and the grain of the stone both readable. The timber reads cool grey-brown under moonlight: no warm tones, no orange, no amber, no yellow anywhere in the frame. Bare weathered wood only — no signboards, no plaques, no votive tablets, no paper charms, no stickers, no banners, no calligraphy, no engraved characters, no inscription of any kind. No lanterns, no paper lamps, no candles, no artificial light at all. Japanese temple architecture, not Chinese and not Thai: no vermilion paint, no gold, no ornate colour. No people, no power lines, no antennas, no gravestones, no stone markers.'
+- 'Extreme close view at night of the point where a thick round wooden pillar meets its round stone footing, the end grain of the timber split and silvered with age, the stone pitted and cold, a thin line of moss in the joint. Cold moonlight rakes across from one side so every fibre of the wood reads. The timber reads cool grey-brown under moonlight: no warm tones, no orange, no amber, no yellow anywhere in the frame. Bare weathered wood only — no signboards, no plaques, no votive tablets, no paper charms, no stickers, no banners, no calligraphy, no engraved characters, no inscription of any kind. No lanterns, no paper lamps, no candles, no artificial light at all. No people, no power lines, no antennas, no gravestones, no stone markers.'
+- 'Seen from directly beneath the eaves of the first storey of a Japanese wooden pagoda at night, looking up into the underside of the roof: dozens of square rafters radiating outward from the corner in a fan, the deep coffered shadow between them, the roof edge cutting across the top of the frame with night sky beyond. Strong upward convergence, extreme worm''s-eye view. The timber reads cool grey-brown under moonlight: no warm tones, no orange, no amber, no yellow anywhere in the frame. Bare weathered wood only — no signboards, no plaques, no votive tablets, no paper charms, no stickers, no banners, no calligraphy, no engraved characters, no inscription of any kind. No lanterns, no paper lamps, no candles, no artificial light at all. Japanese temple architecture, not Chinese and not Thai: no vermilion paint, no gold, no ornate colour. No people, no power lines, no antennas.'
+- 'Close view from below of the parallel square rafters under a temple roof at night, the timbers running away from the camera in strict parallel lines, each one edged with cold moonlight along its lower corner and the gaps between them in open shadow, almost abstract. The timber reads cool grey-brown under moonlight: no warm tones, no orange, no amber, no yellow anywhere in the frame. Bare weathered wood only — no signboards, no plaques, no votive tablets, no paper charms, no stickers, no banners, no calligraphy, no engraved characters, no inscription of any kind. No lanterns, no paper lamps, no candles, no artificial light at all. No people, no power lines, no antennas.'
+- 'The bracket complex of a Japanese wooden pagoda at night seen from below at an angle: stepped wooden blocks and arms stacked outward from the pillar head to carry the eaves, each layer projecting further than the last, moonlight catching the top edges and deep open shadow inside the joints. Strong upward convergence. The timber reads cool grey-brown under moonlight: no warm tones, no orange, no amber, no yellow anywhere in the frame. Bare weathered wood only — no signboards, no plaques, no votive tablets, no paper charms, no stickers, no banners, no calligraphy, no engraved characters, no inscription of any kind. No lanterns, no paper lamps, no candles, no artificial light at all. Japanese temple architecture, not Chinese and not Thai: no vermilion paint, no gold, no ornate colour. No people, no power lines, no antennas.'
+- 'Extreme close view of the joint between two heavy weathered timbers in a temple bracket at night, the exposed end grain checked and cracked with centuries of age, the surface silvered, one nail head dark with rust. Cold moonlight grazes across the texture. The timber reads cool grey-brown under moonlight: no warm tones, no orange, no amber, no yellow anywhere in the frame. Bare weathered wood only — no signboards, no plaques, no votive tablets, no paper charms, no stickers, no banners, no calligraphy, no engraved characters, no inscription of any kind. No lanterns, no paper lamps, no candles, no artificial light at all. No people, no power lines, no antennas.'
+- 'A Japanese five-storied wooden pagoda at night seen from very close to its base and tilted steeply up, so that the five tiled roofs overlap and stack directly away from the camera into the sky, each one smaller and further than the last. The convergence is extreme — this is the strongest upward perspective in the sequence. Deep blue sky between the eaves, the spire small at the top. The timber reads cool grey-brown under moonlight: no warm tones, no orange, no amber, no yellow anywhere in the frame. Bare weathered wood and vertical lattice windows only — no signboards, no plaques, no votive tablets, no paper charms, no stickers, no banners, no calligraphy, no engraved characters, no inscription of any kind. No lanterns, no paper lamps, no candles, no artificial light at all. Japanese temple architecture, not Chinese and not Thai: no vermilion paint, no gold, no ornate colour, roof corners only very slightly upturned. No people, no power lines, no antennas.'
+- 'Looking up at night through the narrow gap between two stacked temple roofs: the dark underside of the upper eaves across the top of the frame, the tiled ridge of the lower roof across the bottom, and between them a bright band of deep blue night sky with a scatter of stars. The wood is silhouetted, the sky is the subject. The timber reads cool grey-brown under moonlight: no warm tones, no orange, no amber, no yellow anywhere in the frame. Bare weathered wood only — no signboards, no plaques, no votive tablets, no paper charms, no stickers, no banners, no calligraphy, no engraved characters, no inscription of any kind. No lanterns, no paper lamps, no candles, no artificial light at all. No people, no power lines, no antennas.'
+- 'Small bronze bells hanging from the corner of a temple roof at night, seen from below: three of them on short chains under the upturned eave corner, dark green with verdigris, hanging perfectly still, the full moon in the deep blue sky behind them. Strong upward view. The timber reads cool grey-brown under moonlight: no warm tones, no orange, no amber, no yellow anywhere in the frame. Bare weathered wood only — no signboards, no plaques, no votive tablets, no paper charms, no stickers, no banners, no calligraphy, no engraved characters, no inscription of any kind. No lanterns, no paper lamps, no candles, no artificial light at all. Japanese temple architecture, not Chinese and not Thai: no vermilion paint, no gold, no ornate colour. No people, no power lines, no antennas.'
+- 'Extreme close view of a single small bronze bell hanging under a temple eave at night, its surface rough and mottled with green verdigris, the flat clapper plate hanging motionless below it, the wooden eave out of focus behind. Cold moonlight from one side. Absolutely still. No warm tones, no orange, no amber, no yellow anywhere in the frame. Bare weathered wood only — no signboards, no plaques, no votive tablets, no paper charms, no stickers, no banners, no calligraphy, no engraved characters, no inscription of any kind. No lanterns, no paper lamps, no candles, no artificial light at all. No people, no power lines, no antennas.'
+- 'The upper storeys of a Japanese wooden pagoda at night seen from below, the full moon now lower in the sky and sitting just under the line of one projecting eave, so that the roof edge cuts across the moon''s disc. The tiled roofs are dark silhouettes, the sky luminous behind them. The tower fills the right of the frame, open sky on the left. No warm tones, no orange, no amber, no yellow anywhere in the frame. Bare weathered wood only — no signboards, no plaques, no votive tablets, no paper charms, no stickers, no banners, no calligraphy, no engraved characters, no inscription of any kind. No lanterns, no paper lamps, no candles, no artificial light at all. Japanese temple architecture, not Chinese and not Thai: no vermilion paint, no gold, no ornate colour, roof corners only very slightly upturned. No people, no power lines, no antennas.'
+- 'Close view at night of the tiled edge of a temple eave against the sky, the individual roof tiles reading as a row of dark curves, the full moon just clearing the corner of the roof, its light spilling along the wet edge of the tiles. Everything else is deep blue sky. No warm tones, no orange, no amber, no yellow anywhere in the frame. Bare weathered wood and clay tile only — no signboards, no plaques, no votive tablets, no paper charms, no stickers, no banners, no calligraphy, no engraved characters, no inscription of any kind. No lanterns, no paper lamps, no candles, no artificial light at all. No people, no power lines, no antennas.'
+- 'The bronze spire at the top of a Japanese five-storied pagoda at night, seen from far below against nothing but sky: a slender vertical mast carrying nine stacked rings that grow smaller toward the top, ending in a flame-shaped ornament. Dark green weathered bronze, the whole thing almost a silhouette against a deep blue starry sky. The spire stands in the right of the frame, empty sky on the left. No warm tones, no orange, no amber, no yellow anywhere in the frame. No signboards, no plaques, no banners, no calligraphy, no engraved characters, no inscription of any kind. No lanterns, no lamps, no artificial light at all. Japanese temple architecture, not Chinese and not Thai: no gold, no ornate colour. No people, no power lines, no antennas.'
+- 'Close view of the stacked bronze rings of a pagoda spire at night, three of the rings filling the frame, the metal dark green and pitted with age, thin as blades against the deep blue sky, the flame-shaped finial cut off at the top of the frame. No warm tones, no orange, no amber, no yellow anywhere in the frame. No signboards, no plaques, no banners, no calligraphy, no engraved characters, no inscription of any kind. No lanterns, no lamps, no artificial light at all. No gold, no ornate colour. No people, no power lines, no antennas.'
+- 'The bronze spire at the top of a Japanese five-storied pagoda at night with the full moon sitting directly beside it at the same height, the rings of the spire crossing the sky just clear of the moon''s disc, the topmost roof dark at the bottom of the frame. The strongest moment of the night: the tower and the moon finally in the same picture. Deep blue sky, stars, open empty sky on the left third. No warm tones, no orange, no amber, no yellow anywhere in the frame. No signboards, no plaques, no banners, no calligraphy, no engraved characters, no inscription of any kind. No lanterns, no lamps, no artificial light at all. Japanese temple architecture, not Chinese and not Thai: no gold, no ornate colour, roof corners only very slightly upturned. No people, no power lines, no antennas.'
+- 'Close view at night of the upper rings of a pagoda spire with the full moon immediately behind and beside them, the dark bronze silhouetted against the bright disc, the moon''s edge sharp, the sky a deep luminous blue with a scatter of stars. The spire is in the right half of the frame; the left third is open sky. Calm, monumental, absolutely still. No warm tones, no orange, no amber, no yellow anywhere in the frame. No signboards, no plaques, no banners, no calligraphy, no engraved characters, no inscription of any kind. No lanterns, no lamps, no artificial light at all. No gold, no ornate colour. No people, no power lines, no antennas.'
+- 'A night sky filling almost the whole frame, deep blue and full of faint stars, the full moon high and well clear of everything, with only the dark silhouette of the top two roofs and the spire of a Japanese pagoda entering the very bottom right corner of the picture. The tower has been left behind; the sky is now the subject. No warm tones, no orange, no amber, no yellow anywhere in the frame. No signboards, no plaques, no banners, no calligraphy, no engraved characters, no inscription of any kind. No lanterns, no lamps, no artificial light at all. No people, no power lines, no antennas.'
+- 'A night sky alone: deep blue, the full moon slightly off centre with a thin veil of cloud drawn across it, faint stars scattered through the clear parts, and nothing else in the frame at all — no buildings, no roof, no spire, no trees, no horizon, no land. Exposed so that the cloud keeps its texture and the sky is open rather than black. No warm tones, no orange, no amber, no yellow anywhere in the frame. No text, no lettering. No people, no power lines, no antennas.'
+- 'A Japanese five-storied wooden pagoda just before dawn, seen from its foot and tilted upward, the sky behind it turning pale grey-blue from the bottom while the top of the frame is still deep blue, the moon gone. The whole tower is a flat dark silhouette with its five roofs stacked away into the paling sky. Still night, not yet daylight. No warm tones, no orange, no amber, no yellow anywhere in the frame — the dawn is cold and blue, not golden. No signboards, no plaques, no votive tablets, no paper charms, no stickers, no banners, no calligraphy, no engraved characters, no inscription of any kind. No lanterns, no lamps, no artificial light at all. Japanese temple architecture, not Chinese and not Thai: no vermilion paint, no gold, no ornate colour, roof corners only very slightly upturned. No people, no power lines, no antennas.'
+- 'Close view of the corner of a temple eave against a pre-dawn sky, the tiles and the small hanging bronze bell reduced to dark shapes, the sky behind them a soft even pale grey-blue with no direction of light and no shadows anywhere. Still night, not yet daylight. No warm tones, no orange, no amber, no yellow anywhere in the frame — the dawn is cold and blue, not golden. No signboards, no plaques, no banners, no calligraphy, no engraved characters, no inscription of any kind. No lanterns, no lamps, no artificial light at all. No people, no power lines, no antennas.'
+
+# 3:2から16:9へ切り出すときの縦位置（0=上を残す）。
+# 見上げの画は空を残したいので小さめ、足元の場面3・4だけ下を残す。
+image_anchor:
+- 0.25
+- 0.25
+- 0.60
+- 0.50
+- 0.40
+- 0.50
+- 0.40
+- 0.50
+- 0.25
+- 0.30
+- 0.35
+- 0.50
+- 0.25
+- 0.30
+- 0.20
+- 0.30
+- 0.20
+- 0.25
+- 0.20
+- 0.30
+- 0.25
+- 0.30
