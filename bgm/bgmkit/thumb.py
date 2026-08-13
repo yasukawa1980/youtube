@@ -6,8 +6,18 @@
   - 金色の細い文字は縮小すると背景に溶ける。尺は「金地に濃紺の文字」のバッジで反転させる。
   - 全文字に暗いハローを敷かないと、縮小時に背景と混ざって潰れる。
   - 右下はYouTubeが尺バッジを自動で重ねるので空けておく。
-  - タグラインに実体と違う語（SLEEP や環境音系）を置かない。
-    期待外れの離脱がそのまま平均視聴時間を下げる。
+
+★2026年8月12日、Vol.14から「B案」に変更（Vol.1〜13は旧レイアウトで作ってある）:
+  - タグライン `RELAX · READ · FOCUS` と `VOL. n` を描かなくなった。
+    168pxでは両方とも読めず、読めない要素が下段の面積を占有していた。
+    デバイスはPC45.7%で流入の91.5%が「次の動画」なので、関連動画欄の168pxが主戦場。
+  - 空いたぶんタイトルを 140→172 に拡大し、スクリムを 1060→880 に狭めて絵を広く残す
+    （Vol.10の畳の間は暗すぎて168pxで被写体を判別できなかった）。
+  - `WHISPERS OF JAPAN` と金バッジの尺は残す。前者を消すとシリーズ物に見えなくなり、
+    後者は金地に濃紺で反転しているので小さくても読める。
+★この変更はまだ実証されていない。 CTRは母数不足で優劣を判定できなかった
+  （信頼できるのはVol.6の9,963回＝1.9%だけで、他は1〜4クリック）。
+  次にどれかが伸び始めたら、その日のうちにYouTubeのサムネイルA/Bテストで確かめること。
 """
 import os
 
@@ -68,21 +78,16 @@ def build(cfg):
     f_brand = f_of("brand", "serif")
     f_title = f_of("title", "serif")
     f_pill = f_of("pill", "sans")
-    f_vol = f_of("vol", "sans")
-    f_use = f_of("tagline", "sans")
 
     brand = cfg["brand"]
     t1, t2 = cfg["title_lines"]
-    volume = cfg.get("volume_label") or f"VOL. {cfg['volume']}"
     runtime = cfg["runtime"]
-    tagline = t["tagline"]
 
     glow = Image.new("RGBA", (W, H), (0, 0, 0, 0))
     gd = ImageDraw.Draw(glow)
     for text, f, tr, y in [(brand, f_brand, 16, lay["brand"]),
                            (t1, f_title, 4, lay["t1"]),
-                           (t2, f_title, 4, lay["t2"]),
-                           (tagline, f_use, 5, lay["use"])]:
+                           (t2, f_title, 4, lay["t2"])]:
         _draw_tracked(gd, (X, y), text, f, tr, (0, 0, 0, 225))
     img = Image.alpha_composite(img.convert("RGBA"),
                                 glow.filter(ImageFilter.GaussianBlur(16))).convert("RGB")
@@ -100,9 +105,6 @@ def build(cfg):
     pw = _tw(d, runtime, f_pill, 6) + 64
     d.rounded_rectangle([X, lay["row"], X + pw, lay["row"] + 92], radius=12, fill=col["gold"])
     _draw_tracked(d, (X + 32, lay["row"] + 14), runtime, f_pill, 6, col["navy"])
-    _draw_tracked(d, (X + pw + 40, lay["row"] + 18), volume, f_vol, 8, col["gold"])
-
-    _draw_tracked(d, (X, lay["use"]), tagline, f_use, 5, col["cream"])
 
     img.save(out)
     print(f"書き出し: {out} {img.size}")

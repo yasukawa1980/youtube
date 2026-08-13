@@ -58,26 +58,25 @@ video:
     preset: medium
     crf: 18
 
+# ★2026年8月12日、Vol.14から「B案」。タグラインとVOL番号を描かなくなった（thumb.py 参照）。
+#   Vol.1〜13は旧レイアウト（title 140 / scrim 1060 / 下段にタグライン）で作ってある。
+#   公開済みの巻を作り直すと字面が変わるので、旧巻を再生成する用があれば thumb_layout で戻すこと。
+#   ★説明文・タグの側では引き続き SLEEP と環境音系の語を使わない。
+#     本編は純器楽なので、実体と違う語は期待外れの離脱を招き平均視聴時間を下げる。
 thumb:
   size: [1920, 1080]
   crop_y: 0.30
-  tagline: "RELAX  ·  READ  ·  FOCUS"
-  # ★ SLEEP と環境音系の語を入れない。本編は純器楽で、実体と違う語は離脱を招く。
   fonts:
     serif: /System/Library/Fonts/Supplemental/Cochin.ttc
     sans: /System/Library/Fonts/Optima.ttc
   sizes:
     brand: 56
-    title: 140
+    title: 172         # ★140から拡大。タグラインとVOL番号を削って空けたぶんを作品名に回す
     pill: 58
-    vol: 54
-    tagline: 50
   font_index:          # .ttc 内の番号。役割ごとに違うのでまとめない
     brand: 1
     title: 1
     pill: 4
-    vol: 1
-    tagline: 4
   colors:
     gold: [247, 216, 143]
     cream: [252, 249, 243]
@@ -85,16 +84,15 @@ thumb:
   scrim:
     color: [5, 11, 26]
     start: 40
-    width: 1060
+    width: 880         # ★1060から縮小。絵の見える面積を増やす
     opacity: 0.78
     gamma: 1.5
-  layout:
+  layout:              # ★B案のy座標。4要素を縦に散らして下段の空白を無くす
     x: 96
-    brand: 176
-    t1: 300
-    t2: 452
-    row: 660
-    use: 790
+    brand: 214
+    t1: 336
+    t2: 528
+    row: 772
 
 images_api:
   model: gpt-image-1
