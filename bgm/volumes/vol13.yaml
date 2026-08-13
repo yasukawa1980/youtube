@@ -1,0 +1,221 @@
+# Whispers of Japan Vol.13 — Moonlit Winter Woods（月夜の冬木立）／テーマ「透ける」
+#
+# ★この巻は実験である。目的は尺の切り分け。
+#   8月7日以降、60分超のVol.11とコンピ2本がそろってインプレッション3〜9で頭打ちになった
+#   （正常時65〜170）。原因が「60分超という尺」なのか「チャンネル全体の変化」なのかは
+#   まだ分離できていない。26〜30分の単独巻を1本出すのが唯一の切り分け手段。
+#   **したがって尺以外は変えない。** 題材も作りもフェーズ1（Vol.1〜10）の型に戻す。
+#   ここで作りまで冒険すると、伸びても伸びなくても原因が2つになって何も分からなくなる。
+#
+# ★select は上書きしない。ジャンル側の既定が短尺そのもの
+#   （count 10 / 1500〜1860秒＝25〜31分 / max_per_kind 2）。
+#   Vol.11・12で書いていた count: 22 などを**書かないこと**が設定作業のすべて。
+#
+# 差別化の軸は「線の出どころ」。Vol.12（五重塔）は人が積み上げた垂直線を見上げたが、
+# Vol.13は自然の不規則な線を水平に見通す。上を向くのは場面3・4だけ。
+#
+# ★テーマ「透ける」＝葉が落ちた冬だけ、月が枝を透かして届く。
+#   夏の同じ場所では梢に遮られて何も見えない。**冬にしか成立しない画**であることが主題。
+#
+# ★冬木立は「風の音」の期待を生みうる唯一の弱点。解き方は霜。
+#   **霜は無風の夜にしか降りない。** 地面に霜を置くことで「風がなかった夜」が絵の中で
+#   証明される。タイトル・説明文・タグ・Sunoプロンプトのどこにも `wind` を書かない。
+#
+# ★注意：`--write` は yaml.safe_dump でこのファイルを丸ごと書き直すため、
+#   コメントが全部消える。Vol.12と同じく picked / order_tracks は手で書き込むこと。
+
+genre: whispers
+volume: 13
+dir: "~/Desktop/Whispers of Japan/Vol13_素材_冬木立"
+
+# サムネの元画は場面3（枝の網目と月）＝ 3枚目。
+# 168pxで最も効くのは「黒いレースの向こうの明るい満月」という形の単純さ。
+# 明度では差別化できない（Vol.6の雲海が明るい枠、コンピ2本が暗い枠を既に埋めている）。
+# この巻は**枝の網目という形**で識別させる。
+background: "~/Desktop/Whispers of Japan/Vol13_素材_冬木立/画像/vol13_03.png"
+
+title_lines: [MOONLIT, WINTER WOODS]
+runtime: "28 MIN"                      # 選抜確定後の実尺28.3分（audio 後に再確認する）
+
+# 楽曲が揃ったら埋める。ファイル名（末尾の " (1)" を除いた形）→ 音色の種類。
+# ★6種。Vol.10（26分14秒・6種）と同じ構成に戻す。実験なので音色の設計も動かさない。
+#   ①箏 ②尺八 ③ピアノ ④金属打 ⑤胡弓 ⑥フル編成
+# ★笙と龍笛は入れない。Vol.12で②尺八・⑥笙・⑦龍笛の3種が一致度0.37〜0.38の団子になり、
+#   持続音の種を増やしても選抜の幅が広がらないことが分かっている。
+kinds:
+  "箏の独奏": ①箏
+  "箏の独奏１": ①箏
+  "箏の独奏２": ①箏
+  "箏の独奏３": ①箏
+  "箏の独奏４": ①箏
+  "箏の独奏５": ①箏
+  "箏の独奏６": ①箏
+  "箏の独奏７": ①箏
+  "尺八の独奏": ②尺八
+  "尺八の独奏１": ②尺八
+  "尺八の独奏２": ②尺八
+  "尺八の独奏３": ②尺八
+  "尺八の独奏４": ②尺八
+  "尺八の独奏５": ②尺八
+  "尺八の独奏６": ②尺八
+  "尺八の独奏７": ②尺八
+  "尺八の独奏８": ②尺八
+  "尺八の独奏９": ②尺八
+  "尺八の独奏１０": ②尺八
+  "尺八の独奏１１": ②尺八
+  "フェルトピアノ独奏": ③ピアノ独奏
+  "フェルトピアノ独奏１": ③ピアノ独奏
+  "フェルトピアノ独奏２": ③ピアノ独奏
+  "フェルトピアノ独奏３": ③ピアノ独奏
+  "フェルトピアノ独奏４": ③ピアノ独奏
+  "フェルトピアノ独奏５": ③ピアノ独奏
+  "フェルトピアノ独奏６": ③ピアノ独奏
+  "フェルトピアノ独奏７": ③ピアノ独奏
+  "金属打（鈴と鉢）のみ": ④金属打
+  "金属打（鈴と鉢）のみ１": ④金属打
+  "金属打（鈴と鉢）のみ２": ④金属打
+  "金属打（鈴と鉢）のみ３": ④金属打
+  "金属打（鈴と鉢）のみ４": ④金属打
+  "金属打（鈴と鉢）のみ５": ④金属打
+  "金属打（鈴と鉢）のみ６": ④金属打
+  "金属打（鈴と鉢）のみ７": ④金属打
+  "金属打（鈴と鉢）のみ８": ④金属打
+  "金属打（鈴と鉢）のみ９": ④金属打
+  "胡弓": ⑤胡弓
+  "胡弓 １": ⑤胡弓
+  "胡弓 ２": ⑤胡弓
+  "胡弓３": ⑤胡弓
+  "胡弓 ４": ⑤胡弓
+  "胡弓 ５": ⑤胡弓
+  "胡弓 ６": ⑤胡弓
+  "胡弓 ７": ⑤胡弓
+  "Brand Standard": ⑥フル編成
+  "Brand Standard １": ⑥フル編成
+  "Brand Standard ２": ⑥フル編成
+  "Brand Standard ３": ⑥フル編成
+  "Brand Standard ４": ⑥フル編成
+  "Brand Standard ５": ⑥フル編成
+
+# ★30秒未満のテイクは必ず除外する。analyze の一致度は30秒窓の相関なので、
+#   30秒に満たない曲は**全曲との一致度が 0.000 になる**（測れないため）。
+#   選抜は一致度の最小化なので、放っておくと指標上いちばん有利な曲として必ず選ばれる。
+exclude:
+- 金属打（鈴と鉢）のみ５.wav      # 8.4秒
+- 金属打（鈴と鉢）のみ７.wav      # 29.2秒
+
+# ★select は書かない。ジャンル側の既定（10曲 / 1500〜1860秒 / max_per_kind 2）を使う。
+#   6種×上限2＝12通から10本を選ぶ形。5種だと 5×2＝10 でちょうど埋まり、
+#   配分が1通りに固定されて選抜が選抜にならない（Vol.11で判明）。
+select:
+  # ★ここだけジャンル既定（1500〜1860）を上書きする。下限を28分に上げた。
+  #   既定のままだと最良解が25.1分になり、72秒と86秒のテイクが2本入る。
+  #   画像1枚＝1曲なので、その2枚だけ表示時間が他の3分の1になってしまう。
+  #   28分に絞ると採用曲の最短が133秒になり、一致度は最大0.307→0.344・
+  #   平均0.252→0.271とわずかに悪化するだけ（Vol.8の最良0.442より遥かに良い）。
+  #   フェーズ1（Vol.1〜10は23〜31分）の真ん中に収まるので、Vol.10の26分14秒と
+  #   並べたときに尺の比較がしやすい。2026年8月10日 本人決定。
+  total_seconds: [1680, 1860]
+  kind_limits:
+    ⑥フル編成: [1, 1]
+  breath_floor:
+    ②尺八: 0.05
+    # ★残響ゼロを継続する。Vol.12で尺八の息が 0.0537（Vol.11）→ 0.0799 に増え、
+    #   「長い残響の指示が息のノイズを埋める」が確定した。冬の林も壁のない屋外なので
+    #   設計上も無理がない。
+
+# select の結果（2026年8月10日）。最大0.344／平均0.271／28.3分。
+# --write は使わずに手で書いた（yaml.safe_dump がこのファイルのコメントを全部消すため）。
+picked:
+- 箏の独奏.wav
+- 箏の独奏６.wav
+- 尺八の独奏１.wav
+- フェルトピアノ独奏５.wav
+- フェルトピアノ独奏６.wav
+- 金属打（鈴と鉢）のみ１.wav
+- 金属打（鈴と鉢）のみ８.wav
+- 胡弓３.wav
+- 胡弓 ２.wav
+- Brand Standard.wav
+
+# 9曲目＝場面9（低い月と幹の影）＝クライマックス。
+# 1曲目はチャンネルの看板の音（尺八）で開ける。3曲目のピアノはVol.10と同じ位置。
+order:
+  fixed:
+    1: ②尺八
+    3: ③ピアノ独奏
+    9: ⑥フル編成
+
+# order の結果（2026年8月10日）。隣接の最大0.284／平均0.250でシリーズ最良
+# （Vol.9の0.290／0.254を更新）。これも --write を使わず手で書いた。
+order_tracks:
+- 尺八の独奏１.wav
+- 金属打（鈴と鉢）のみ１.wav
+- フェルトピアノ独奏６.wav
+- 胡弓３.wav
+- 金属打（鈴と鉢）のみ８.wav
+- 箏の独奏６.wav
+- 胡弓 ２.wav
+- フェルトピアノ独奏５.wav
+- Brand Standard.wav
+- 箏の独奏.wav
+
+# 5場面 × A（引き）/ B（寄り）＝10枚。曲数と一致させる（画像1枚＝1曲）。
+scenes:
+- 木立の全景
+- 幹の並び・寄り
+- 枝の網目と月
+- 枝先と月・寄り
+- 根方と霜
+- 霜・寄り
+- 樹皮・寄り
+- 木立の奥
+- 低い月と幹の影
+- 夜明け前の霜
+
+images:
+- vol13_01.png
+- vol13_02.png
+- vol13_03.png
+- vol13_04.png
+- vol13_05.png
+- vol13_06.png
+- vol13_07.png
+- vol13_08.png
+- vol13_09.png
+- vol13_10.png
+
+# ジャンル側の image_style（露出の指示つき）とガンマ1.3が自動で付く。
+#
+# ★各文に4つの禁止句を必ず入れる。この巻に固有の事故はすべてここで潰す。
+#   1. **常緑樹を落とす** … 杉・松・竹が混ざるとVol.2（竹林）や杉並木に見えて識別が消える。
+#      落葉樹の裸の枝だけにする。どの枝にも葉を残さない。
+#   2. **雪を落とす** … Vol.9（雪国）と被る。地面は土と落ち葉に霜だけ。枝にも雪を積もらせない。
+#   3. **完全な無風** … 枝のブレ・しなり・揺れを禁じる。霜が降りている＝無風の夜の証拠なので、
+#      1枚でも風が写ると巻全体の前提が崩れる。
+#   4. **現代物を落とす** … Vol.9の教訓。電線・電柱・柵・舗装・街灯・轍。
+#      建築物が無いので崩れ字のリスクは低いが、念のため文字も禁じる。
+image_prompts:
+- 'A stand of bare deciduous trees on a winter night, seen from just outside the wood at eye level, the full moon high in a deep blue sky above the tops. The trunks rise in an irregular, uneven rhythm — nothing is planted in a row. Every branch is completely leafless, the twigs making a fine dark net against the sky. Bare deciduous trees only — no pines, no cedars, no evergreens, no bamboo, no leaves on any branch. The ground is dark earth and dead leaves with a fine white frost lying over it — no snow, no snowdrifts, no snow on the branches. The air is completely still: no motion blur on any branch, nothing bending, nothing swaying. The trees stand in the right two thirds of the frame; the left third is open empty sky. Cold blue-grey moonlight, no warm tones, no orange, no amber, no yellow anywhere in the frame. No people, no animals, no birds, no power lines, no poles, no fences, no paved paths, no street lamps, no buildings, no signage, no lettering of any kind.'
+- 'Close view at night of four or five bare tree trunks standing close together, seen straight on at eye level so they cross the frame as dark vertical columns, the wood behind them falling away into open shadow. Cold moonlight rakes down one side of each trunk so the bark reads. Bare deciduous trees only — no pines, no cedars, no evergreens, no bamboo, no leaves on any branch. Frost on the ground at their feet — no snow, no snowdrifts, no snow on the branches. The air is completely still: no motion blur, nothing bending, nothing swaying. Cold blue-grey moonlight, no warm tones, no orange, no amber, no yellow anywhere in the frame. No people, no animals, no birds, no power lines, no poles, no fences, no paved paths, no street lamps, no buildings, no signage, no lettering of any kind.'
+- 'Looking up through the bare crown of a deciduous tree on a winter night: the full moon seen directly through a dense lattice of leafless twigs, the branches reading as fine black lace across the bright disc, the sky between them deep blue and full of stars. The moon is large and clear, in the right half of the frame; the left third is open sky with only a few thin twigs crossing it. This is the picture that only exists in winter — in summer the leaves would hide the moon completely. Bare deciduous trees only — no pines, no cedars, no evergreens, no bamboo, no leaves on any branch, not one leaf anywhere. The air is completely still: no motion blur on any twig, nothing bending, nothing swaying. No snow on the branches. Cold blue-grey moonlight, no warm tones, no orange, no amber, no yellow anywhere in the frame. No people, no animals, no birds, no power lines, no poles, no buildings, no signage, no lettering of any kind.'
+- 'Extreme close view at night of the tip of a bare branch against the sky, the twigs forking again and again into finer and finer lines, each one edged with cold moonlight, the tight dormant buds visible along them. The sky behind is a deep even blue, thrown slightly out of focus. Absolutely motionless. Bare deciduous wood only — no pines, no cedars, no evergreens, no bamboo, no leaves, not one leaf anywhere. No snow on the branches, no ice, no icicles. The air is completely still: no motion blur, nothing bending, nothing swaying. Cold blue-grey moonlight, no warm tones, no orange, no amber, no yellow anywhere in the frame. No people, no animals, no birds, no power lines, no buildings, no signage, no lettering of any kind.'
+- 'The foot of a large bare tree on a winter night, seen low and close: the trunk flaring out into roots that run across dark earth, the fallen leaves between them furred with white frost, the frost catching the moonlight while the earth stays open shadow. Exposed brighter than a typical night shot: the shadows are open and full of visible texture, nothing crushed to solid black, the grain of the bark and the shape of every leaf readable. Bare deciduous trees only — no pines, no cedars, no evergreens, no bamboo, no leaves on any branch. Frost only — no snow, no snowdrifts, no ice. The air is completely still: no motion blur, nothing bending, nothing swaying. Cold blue-grey moonlight, no warm tones, no orange, no amber, no yellow anywhere in the frame. No people, no animals, no birds, no power lines, no fences, no paved paths, no buildings, no signage, no lettering of any kind.'
+- 'Extreme close view of hard frost on dead leaves and bare earth at night, filling the whole frame: needles of white ice standing up along the edge of every leaf, the veins of the leaves picked out in white, tiny crystals catching the moonlight one by one. Almost abstract. Frost only — no snow, no snowdrifts, no slush, no ice sheet. The air is completely still. Exposed brighter than a typical night shot: shadows open and full of texture, nothing crushed to solid black. Cold blue-grey moonlight, no warm tones, no orange, no amber, no yellow anywhere in the frame. No people, no animals, no birds, no footprints, no power lines, no buildings, no signage, no lettering of any kind.'
+- 'Extreme close view of the bark of an old deciduous tree at night, the whole frame filled with deep vertical fissures and ridges, a thin trace of grey lichen in the cracks, a fine glitter of frost in the deepest grooves. Cold moonlight grazes across from one side so every ridge casts its own small shadow. Bare deciduous wood only — no pines, no cedars, no evergreens, no bamboo, no leaves. No snow. The air is completely still. Cold blue-grey moonlight, no warm tones, no orange, no amber, no yellow anywhere in the frame. No people, no animals, no birds, no power lines, no buildings, no signage, no lettering of any kind.'
+- 'Looking straight into the depth of a leafless winter wood at night, trunk behind trunk behind trunk receding until they merge into blue darkness, the moonlight reaching further in than it could in any other season because there are no leaves to stop it. The floor is dark with a pale scatter of frost. No path, no clearing, no destination — just wood going back. Bare deciduous trees only — no pines, no cedars, no evergreens, no bamboo, no leaves on any branch. Frost only — no snow, no snowdrifts. The air is completely still: no motion blur, nothing bending, nothing swaying. Cold blue-grey moonlight, no warm tones, no orange, no amber, no yellow anywhere in the frame. No people, no animals, no birds, no power lines, no poles, no fences, no paved paths, no street lamps, no buildings, no signage, no lettering of any kind.'
+- 'A leafless winter wood late at night with the full moon now low and almost level with the camera, seen between the trunks on the right, so that every trunk throws a long black shadow straight toward the viewer across the frosted ground. The shadows are the subject: parallel dark bands running the whole depth of the frame over pale frost. The strongest moment of the night. The moon sits in the right half; the left third is open. Bare deciduous trees only — no pines, no cedars, no evergreens, no bamboo, no leaves on any branch. Frost only — no snow, no snowdrifts. The air is completely still: no motion blur, nothing bending, nothing swaying. Cold blue-grey moonlight, no warm tones, no orange, no amber, no yellow anywhere in the frame. No people, no animals, no birds, no power lines, no poles, no fences, no paved paths, no street lamps, no buildings, no signage, no lettering of any kind.'
+- 'Frosted ground and the feet of bare trees just before dawn, the sky beyond the trunks turning a pale grey-blue from below while the top of the frame is still deep blue, the moon gone and the shadows gone with it. The frost is at its heaviest and whitest of the night, lying flat and even, with no direction of light and no shadows anywhere. Still night, not yet daylight. Bare deciduous trees only — no pines, no cedars, no evergreens, no bamboo, no leaves on any branch. Frost only — no snow, no snowdrifts. The air is completely still: no motion blur, nothing bending, nothing swaying. No warm tones, no orange, no amber, no yellow anywhere in the frame — the dawn is cold and blue, not golden. No people, no animals, no birds, no footprints, no power lines, no poles, no fences, no paved paths, no street lamps, no buildings, no signage, no lettering of any kind.'
+
+# 3:2から16:9へ切り出すときの縦位置（0=上を残す）。
+# 見上げの場面3・4は空を残す。地面が主役の5・6・10は下を残す。
+image_anchor:
+- 0.35
+- 0.45
+- 0.20
+- 0.25
+- 0.60
+- 0.55
+- 0.50
+- 0.45
+- 0.55
+- 0.60
