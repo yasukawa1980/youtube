@@ -145,10 +145,15 @@ def _best_match(A, B):
 
 
 def kind_of(cfg, filename):
-    """ファイル名から音色の種類を引く。Suno の " (1).wav" は同じ種類の別テイク。"""
+    """ファイル名から音色の種類を引く。Suno の " (1).wav" は同じ種類の別テイク。
+
+    ★NFC に正規化してから引く。Suno の日本語ファイル名は「ピ」が ヒ+゚ に分解された
+      NFD で落ちてくることがあり、素の文字列比較だと Vol.13 では8本中7本が外れた。
+    """
     import re
-    base = re.sub(r" \(\d+\)\.wav$|\.wav$", "", filename)
-    kinds = cfg.get("kinds", {})
+    import unicodedata
+    base = re.sub(r" \(\d+\)\.wav$|\.wav$", "", unicodedata.normalize("NFC", filename))
+    kinds = {unicodedata.normalize("NFC", k): v for k, v in cfg.get("kinds", {}).items()}
     if base not in kinds:
         raise SystemExit(
             f"kinds に '{base}' がありません（{filename}）。巻のYAMLに追記してください。")
@@ -157,7 +162,10 @@ def kind_of(cfg, filename):
 
 def run(cfg):
     src = cfg.tracks_dir
-    files = sorted(f for f in os.listdir(src) if f.lower().endswith((".wav", ".mp3", ".flac")))
+    # ★先頭が "." のものは除く。ExFAT の外付けでは AppleDouble（._名前）が湧き、
+    #   readdir には出るのに開けない幽霊エントリになることがある（3時間版で遭遇）。
+    files = sorted(f for f in os.listdir(src)
+                   if f.lower().endswith((".wav", ".mp3", ".flac")) and not f.startswith("."))
     if not files:
         raise SystemExit(f"楽曲が見つかりません: {src}")
 

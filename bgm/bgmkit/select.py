@@ -25,22 +25,96 @@ def _ncr(n, r):
     return math.factorial(n) // (math.factorial(r) * math.factorial(n - r))
 
 
-def _local_search(files, n, feasible, score, scfg, seed=20260805):
+def _alloc(kinds, avail, n, scfg, rng):
+    """種ごとの採用本数を無作為に1つ決める。下限・上限・在庫を満たし、合計がちょうど n。
+
+    下限まで先に配ってから、残りを「空いている枠」の中から無作為に選んで足す。
+    枠は種ごとに (上限 − 下限) 個しか無いので、上限を超えることが構造上ありえない。
+    """
+    limits = scfg.get("kind_limits", {})
+    max_per = scfg.get("max_per_kind", n)
+    need_all = scfg.get("require_all_kinds", True)
+
+    lo_k, hi_k = {}, {}
+    for k in kinds:
+        a, b = limits.get(k, (0, max_per))
+        lo_k[k] = max(a, 1 if need_all else 0)
+        hi_k[k] = min(b, max_per, avail[k])
+        if lo_k[k] > hi_k[k]:
+            return None
+    if sum(lo_k.values()) > n or sum(hi_k.values()) < n:
+        return None
+
+    c = dict(lo_k)
+    room = [k for k in kinds for _ in range(hi_k[k] - lo_k[k])]
+    rng.shuffle(room)
+    for k in room[:n - sum(lo_k.values())]:
+        c[k] += 1
+    return c
+
+
+def _initial(by_kind, alloc, tracks, n, lo, hi, xf, rng, sweeps=400):
+    """局所探索の初期解を「作る」。無作為抽選＋やり直しでは届かないため。
+
+    ★以前は rng.sample で n 本引いて feasible を通るまで繰り返していた。これは
+      在庫の構成が採用の構成に近いときしか当たらない。3時間版（153本から60本）では
+      尺八が在庫の28%を占めるのに上限は17%で、無作為の60本が上限を満たす確率は
+      実質ゼロ。尺の窓が狭いことも重なって、restarts をいくら増やしても
+      「条件を満たす組み合わせが見つかりません」で止まっていた。
+
+    種ごとの本数を先に決め（_alloc）、種の中だけで長短を入れ替えて尺の窓に入れる。
+    種の中の交換なので、本数の条件を壊さずに合計だけを動かせる。
+    """
+    chosen = {k: list(rng.sample(by_kind[k], c)) for k, c in alloc.items()}
+    mid = (lo + hi) / 2
+
+    def total():
+        return sum(tracks[f]["dur"] for ks in chosen.values() for f in ks) - xf * (n - 1)
+
+    for _ in range(sweeps):
+        t = total()
+        if lo <= t <= hi:
+            return tuple(f for ks in chosen.values() for f in ks)
+        best, gap = None, abs(t - mid)
+        for k, ks in chosen.items():
+            rest = [f for f in by_kind[k] if f not in ks]
+            for a in ks:
+                for b in rest:
+                    g = abs(t + tracks[b]["dur"] - tracks[a]["dur"] - mid)
+                    if g < gap:
+                        best, gap = (k, a, b), g
+        if best is None:
+            return None                      # これ以上 窓に近づけない
+        k, a, b = best
+        chosen[k].remove(a)
+        chosen[k].append(b)
+    return None
+
+
+def _local_search(files, n, feasible, score, scfg, tracks, lo, hi, xf, seed=20260805):
     """交換による山登り。全探索が効かない長尺の巻で使う。
 
-    初期解をランダムに作り、「採用1本と不採用1本を入れ替える」手を
+    初期解を条件どおりに組み立て、「採用1本と不採用1本を入れ替える」手を
     改善がなくなるまで繰り返す。これを restarts 回やって最良を返す。
     """
     rng = random.Random(seed)
     restarts = scfg.get("restarts", 60)
-    tries = scfg.get("init_tries", 4000)
     best = None
+
+    by_kind = {}
+    for f in files:
+        by_kind.setdefault(tracks[f]["kind"], []).append(f)
+    kinds = sorted(by_kind)
+    avail = {k: len(v) for k, v in by_kind.items()}
 
     for _ in range(restarts):
         cur = None
-        for _ in range(tries):
-            c = tuple(rng.sample(files, n))
-            if feasible(c):
+        for _ in range(scfg.get("init_tries", 20)):
+            alloc = _alloc(kinds, avail, n, scfg, rng)
+            if alloc is None:
+                break
+            c = _initial(by_kind, alloc, tracks, n, lo, hi, xf, rng)
+            if c is not None and feasible(c):
                 cur = c
                 break
         if cur is None:
@@ -68,7 +142,9 @@ def _local_search(files, n, feasible, score, scfg, seed=20260805):
     if best is None:
         raise SystemExit(
             "条件を満たす組み合わせが見つかりません。テイクを足すか select の条件を緩めてください。\n"
-            "（曲数に対して max_per_kind が小さすぎることが多い：種類数×max_per_kind ≧ count が必要）")
+            "（曲数に対して max_per_kind が小さすぎることが多い：種類数×max_per_kind ≧ count が必要。\n"
+            "  本数の条件が通っていれば、次に疑うのは total_seconds の窓が在庫の長さに対して"
+            "狭すぎないか）")
     return list(best[0]), best[1][0], best[1][1]
 
 
@@ -172,7 +248,7 @@ def select(cfg):
         # ランダム初期解からの交換による山登りを多数回まわす。
         print(f"組み合わせが {ncomb:,} 通りあるため局所探索に切り替えます"
               f"（全探索の上限 {cap:,}）\n")
-        chosen, mx, av = _local_search(files, n, feasible, score, scfg)
+        chosen, mx, av = _local_search(files, n, feasible, score, scfg, tracks, lo, hi, xf)
         t = total_of(chosen)
         print(f"最良解: 最大 {mx:.3f} / 平均 {av:.3f} / {t / 60:.1f}分\n")
     print(f"\n=== 採用（最大 {mx:.3f} / 平均 {av:.3f} / {t / 60:.1f}分）===")
@@ -258,9 +334,19 @@ def _order_local_search(chosen, n, kind, key, fixed, thresh, S, ocfg):
         rng.shuffle(pool)
         slots = [i for i in range(n) if o[i] is None]
 
+        # ★後戻りに予算を持たせる。無いと60曲で丸一日返ってこない（3時間版で実際に23時間）。
+        #   22曲までは運よく一発で埋まっていたが、曲数が増えると
+        #   「最後の数枠がどうしても埋まらない」配り方に入り込む確率が上がり、
+        #   そこから抜けるための後戻りが指数的に膨らむ。
+        #   1回の construct を諦めても restarts が別の初期解を試すので、失うものは無い。
+        budget = [ocfg.get("construct_nodes", 200000)]
+
         def rec(si):
             if si == len(slots):
                 return True
+            budget[0] -= 1
+            if budget[0] <= 0:
+                return False
             p = slots[si]
             cand = [f for f in pool if placeable(o, p, f)]
             rng.shuffle(cand)

@@ -112,14 +112,32 @@ def build(cfg):
 
 
 def check_runtime(cfg):
-    """サムネの尺表記が本編の実尺と合っているかを確かめる。"""
+    """サムネの尺表記が本編の実尺と合っているかを確かめる。
+
+    ★「3 HOURS」のように時間で書く巻がある（Long Nights の3時間版）。
+      分で書いた巻と同じ物差しで測ると 180 と 3 を比べることになるので、単位を見て分ける。
+      時間表記の許容は ±3分（"3 Hours" が 2時間31分でも通ってしまうのを防ぐ）。
+    """
     import re
 
     from .ffutil import load_json
     man = load_json(cfg.wpath("manifest.json"))
-    real = int(round(man["total"] / 60))
     m = re.search(r"(\d+)", cfg["runtime"])
-    if m and int(m.group(1)) != real:
+    if not m:
+        return True
+    said = int(m.group(1))
+
+    if re.search(r"hour", cfg["runtime"], re.I):
+        real = man["total"] / 3600
+        if abs(real - said) > 0.05:
+            h, mi = int(man["total"] // 3600), int(man["total"] % 3600 // 60)
+            print(f"⚠ サムネの尺 '{cfg['runtime']}' が実尺 {h}時間{mi}分 と違います。"
+                  f"volumes の runtime を直してください。")
+            return False
+        return True
+
+    real = int(round(man["total"] / 60))
+    if said != real:
         print(f"⚠ サムネの尺 '{cfg['runtime']}' が実尺 {real} 分と違います。"
               f"volumes の runtime を直してください。")
         return False
