@@ -19,7 +19,7 @@
 """
 import os
 
-from .ffutil import ff, load_json, mmss
+from .ffutil import ff, load_json, measure_loudness, mmss
 
 
 def _kenburns(cfg, dirn, pan, nframes, skip=0):
@@ -145,4 +145,25 @@ def mux(cfg):
         "-c:v", "copy", "-c:a", "aac", "-b:a", a.get("bitrate", "320k"),
         "-ar", "48000", "-movflags", "+faststart", out])
     print(f"完成: {out}  ({int(T // 60)}分{int(T % 60):02d}秒)")
+    _check_peak(cfg, out)
     return out
+
+
+def _check_peak(cfg, path):
+    """完成MP4のラウドネスとトゥルーピークを測る。
+
+    ★AAC段でトゥルーピークが上がる。music_bed.wav では狙いどおりでも、
+      完成品では超えていることがある（Vol.14は -1.5狙いで **-1.1**、Vol.15は -1.3）。
+      Vol.14の申し送り「mux 後にトゥルーピークを検査する工程が無い」への対応
+      （2026年8月19日に追加）。
+      YouTubeの推奨上限は -1.0 dBTP なので、それを超えたときだけ警告する。
+    """
+    a = cfg["audio"]
+    m = measure_loudness(path, a)
+    i, tp = float(m["input_i"]), float(m["input_tp"])
+    note = ""
+    if tp > -1.0:
+        note = "  ⚠ YouTubeの推奨上限 -1.0 dBTP を超えています"
+    elif tp > a["true_peak"]:
+        note = f"  （狙いの {a['true_peak']} からAAC段で {tp - a['true_peak']:+.1f}dB。範囲内）"
+    print(f"完成品の実測: {i:.1f} LUFS / トゥルーピーク {tp:.1f} dBTP{note}")
