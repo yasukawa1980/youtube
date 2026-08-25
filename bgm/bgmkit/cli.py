@@ -11,6 +11,7 @@
   python3 -m bgmkit build   vol11    audio→video→mux→thumb を通しで
   python3 -m bgmkit short   vol11    縦型ショートを作る（--only A B で一部だけ）
   python3 -m bgmkit vet     <file…>  環境音の素材を検品（巻ではなくファイル/フォルダを渡す）
+  python3 -m bgmkit vet --insect <file…>  虫・蝉向けの検品（音程で落とさず種の指紋を出す）
 """
 import argparse
 import sys
@@ -35,6 +36,8 @@ def main(argv=None):
                          "vet のときだけ検品するファイルかフォルダを並べる")
     ap.add_argument("--write", action="store_true",
                     help="select / order の結果を巻のYAMLに書き戻す")
+    ap.add_argument("--insect", action="store_true",
+                    help="vet を虫・蝉向けに切り替える（音程で落とさず、種の指紋を出す）")
     ap.add_argument("--only", nargs="+", metavar="N",
                     help="images は番号（1始まり）、short は札（A B）で絞る")
     args = ap.parse_args(argv)
@@ -42,7 +45,7 @@ def main(argv=None):
 
     # vet は巻に属さない。素材を仕入れた時点で回すので設定ファイルがまだ無い。
     if c == "vet":
-        vet.run_vet(args.target)
+        vet.run_vet(args.target, insect=args.insect)
         return 0
 
     if len(args.target) > 1:

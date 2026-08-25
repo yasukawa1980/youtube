@@ -50,6 +50,24 @@ LIMITS = dict(shock=0.0, var=4.0, low=20.0, dur=60.0, corr=0.95, tonal=4.0)
 SHOCK_DB = 18.0          # これを超える突出＝雷・扉・落下音
 GRAIN_DB = 9.0           # 9〜18dB は軒の雨だれの「粒」。落とさない
 TONAL_BAND = (1500, 8000)
+
+# ★★虫・蝉の巻では「音程あり」で落としてはいけない（2026年8月25日、SOJ02の準備で判明）。
+#   雨にとって音程は不純物の証拠だが、この題材では**音程そのものが主題**。
+#   手元の虫3本を雨の物差しで測ると 2.0倍 / 4.0倍 / 7.2倍 で、合格線4.0倍では
+#   まともな素材まで落ちる。→ `--insect` では音程での足切りをやめ、
+#   代わりに種を見分けるための指紋（脈・主帯・響き・山の動き）を測って出す。
+#
+# ★★合否には使わない。 memo にある見分けの目印（ヒグラシ=毎秒10〜15回の脈／
+#   ミンミン=3〜4Hz／ツクツクボウシ=加速する句／アブラ=脈なし）を数字にしただけで、
+#   最後は耳で決める。数字は「15本を聴く順番を決める」ために使う。
+INSECT_BAND = (2000, 9000)   # 日本の蝉が鳴く帯
+INSECT_CAP = 240.0           # 指紋は先頭4分だけ見る（25分の素材で待たされないため）
+MOD_BAND = (2.0, 25.0)       # 脈として読む範囲（Hz）
+# ★変動の上限は雨の4.0では厳しい可能性がある。蝉の合唱は雨より波打つ。
+#   ★★この 6.0 は仮の値。 雨で 2.5→4.0 に当て直したのと同じことを、
+#     実素材を10本以上測ってから必ずやり直すこと。
+INSECT_VAR = 6.0
+
 TRIM = 0.10              # 測る前に両端をこれだけ落とす
 TRIM_CAP = 20.0          # ただし片側20秒まで
 EXT = (".wav", ".mp3", ".m4a", ".aac", ".flac", ".ogg", ".aiff", ".aif")
@@ -91,6 +109,102 @@ def _bands(mono):
         # ★こもり具合。高いほど近くて開けた雨、低いほど遠い雨・屋内の雨。
         muffle=10 * np.log10(energy(2000, 8000) / energy(200, 800)),
     )
+
+
+def _insect(mono, off):
+    """蝉・虫の指紋を返す。脈(Hz)・脈の強さ・主帯(Hz)・響き・山の動き。
+
+    脈       … 振幅の揺れをもう一度フーリエに掛けて出す。種ごとに違う。
+    脈の強さ … その山が地面より何倍高いか。アブラゼミのような連続音は小さい。
+    主帯     … 2〜9kHz でいちばんエネルギーのある周波数。
+    響き     … 主帯の中の平坦度。低いほど「カナカナ」の鳴り、高いほど「ジー」の雑音。
+    山の動き … 最も強い山の周波数が時間でどれだけ動くか(Hz)。
+               ★これが鳥・人声の見張り役。 蝉の山は動かないが、鳥はうねる。
+               音程の足切りを外した穴をここで埋めている。
+    """
+    n, hop = 1024, 256
+    if len(mono) > int(SR * INSECT_CAP):
+        mono = mono[:int(SR * INSECT_CAP)]
+    nf = (len(mono) - n) // hop
+    if nf < 200:
+        return dict(pulse=0.0, pulse_str=0.0, carrier=0.0,
+                    ring=1.0, wander=0.0, wander_at=[])
+
+    f = np.fft.rfftfreq(n, 1 / SR)
+    band = (f >= INSECT_BAND[0]) & (f < INSECT_BAND[1])
+    hi = (f >= 1500) & (f < 9000)
+    fh = f[hi]
+    w = np.hanning(n).astype(np.float32)
+    sw = np.lib.stride_tricks.sliding_window_view(mono, n)
+    idx = np.arange(nf) * hop
+
+    # ★まとめてFFTすると4分でも数百MB積む。2048フレームずつ畳んで必要な3つだけ残す。
+    env = np.empty(nf)          # 帯のエネルギーの時間変化
+    pk = np.empty(nf)           # そのフレームで最も強い山の周波数
+    mean = np.zeros(n // 2 + 1)
+    for a in range(0, nf, 2048):
+        b = min(a + 2048, nf)
+        P = np.abs(np.fft.rfft(sw[idx[a:b]] * w, axis=1)) ** 2
+        mean += P.sum(axis=0)
+        env[a:b] = P[:, band].sum(axis=1)
+        pk[a:b] = fh[np.argmax(P[:, hi], axis=1)]
+    mean /= nf
+
+    carrier = float(f[band][np.argmax(mean[band])])
+    ring = _flat(mean, band)
+
+    # 脈：帯のエネルギーの時間変化を8秒窓でフーリエに掛け、2〜25Hzの山を拾う
+    fs = SR / hop
+    win = int(min(fs * 8, nf))
+    ww = np.hanning(win)
+    acc, cnt = None, 0
+    for i in range(0, nf - win + 1, max(1, win // 2)):
+        seg = env[i:i + win]
+        seg = seg / (seg.mean() + 1e-30) - 1.0
+        S = np.abs(np.fft.rfft(seg * ww)) ** 2
+        acc = S if acc is None else acc + S
+        cnt += 1
+    mf = np.fft.rfftfreq(win, 1 / fs)
+    ok = (mf >= MOD_BAND[0]) & (mf <= MOD_BAND[1])
+    # ★★argmax では駄目。 揺れの成分は 1/f の右下がりを持つので、山が無い素材でも
+    #   必ず下端(2.0Hz)が最大になり、アブラゼミが「ミンミン」に化ける（実測で確認）。
+    #   **両隣より高い点＝本物の山**だけを候補にする。1つも無ければ「脈なし」。
+    pulse, pstr = 0.0, 0.0
+    if cnt and ok.sum() >= 3:
+        S = acc[ok]
+        fq = mf[ok]
+        top = np.flatnonzero((S[1:-1] > S[:-2]) & (S[1:-1] > S[2:])) + 1
+        if len(top):
+            k = int(top[np.argmax(S[top])])
+            pulse = float(fq[k])
+            pstr = float(S[k] / (np.median(S) + 1e-30))
+
+    # 山の動き：静かなフレームは雑音で山が飛ぶので、鳴っている側だけで見る
+    loud = env > np.median(env)
+    p = pk[loud] if loud.any() else pk
+    med = float(np.median(p))
+    far = np.argsort(-np.abs(pk - med))[:6]
+    return dict(
+        pulse=pulse, pulse_str=pstr, carrier=carrier, ring=ring,
+        wander=float(np.percentile(p, 90) - np.percentile(p, 10)),
+        wander_at=sorted(round(off + int(i) * hop / SR, 1) for i in far),
+    )
+
+
+def _guess(d):
+    """指紋から種の当たりをつける。★あくまで聴く順番を決めるための当て推量。"""
+    c, p, s, r = d["carrier"], d["pulse"], d["pulse_str"], d["ring"]
+    if p <= 0.0 or s < 3.0:
+        return "連続＝アブラ系／外国種の唸り"
+    if c < 3200:
+        return "主帯が低い＝外国種を疑う"
+    if 8.0 <= p <= 18.0 and c >= 3800:
+        return "ヒグラシらしい" + ("" if r < 0.35 else "（響き薄い）")
+    if 4.5 <= p < 8.0:
+        return "ツクツクボウシ？"
+    if 2.0 <= p < 4.5:
+        return "ミンミン？"
+    return "不明"
 
 
 def _tonal(mono, off):
@@ -144,7 +258,7 @@ def _levels(mono, off):
     )
 
 
-def measure(path):
+def measure(path, insect=False):
     x = _pcm_stereo(path)
     if x.shape[1] < SR:
         raise ValueError("デコードできないか短すぎます")
@@ -163,25 +277,28 @@ def measure(path):
     d.update(_levels(mono, d["trim"]))
     d.update(_tonal(mono, d["trim"]))
     d.update(_bands(mono))
+    if insect:
+        d.update(_insect(mono, d["trim"]))
     l, r = x[0], x[1]
     d["corr"] = float(abs(np.corrcoef(l, r)[0, 1])) if l.std() and r.std() else 1.0
     d["clip"] = 100.0 * float((np.abs(mono) >= 0.999).mean())
     return d
 
 
-def _verdict(d):
+def _verdict(d, insect=False):
     """落ちた理由を並べて返す。空なら合格。"""
     bad = []
     if d["shock"] > LIMITS["shock"]:
         at = "・".join(f"{t:.0f}s" for t in d["shock_at"])
         bad.append(f"衝撃音{d['shock']:.1f}%（{at} を聴く）")
-    if d["var"] > LIMITS["var"]:
+    if d["var"] > (INSECT_VAR if insect else LIMITS["var"]):
         bad.append(f"レベル変動{d['var']:.1f}dB")
     if d["low"] > LIMITS["low"]:
         bad.append(f"120Hz未満{d['low']:.0f}%（交通・吹かれ）")
     if d["dur"] < LIMITS["dur"]:
         bad.append(f"尺{d['dur']:.0f}秒")
-    if d["tonal"] > LIMITS["tonal"]:
+    # ★虫・蝉の巻では音程で落とさない（音程が主題）。見張りは「山の動き」に任せる。
+    if not insect and d["tonal"] > LIMITS["tonal"]:
         at = "・".join(f"{t:.0f}s" for t in d["tonal_at"][:4])
         bad.append(f"音程あり{d['tonal']:.0f}倍（鳥・虫・人声・音楽。{at} を聴く）")
     if d["corr"] > LIMITS["corr"]:
@@ -207,7 +324,7 @@ def _collect(paths):
     return out
 
 
-def run_vet(paths):
+def run_vet(paths, insect=False):
     files = _collect(paths)
     if not files:
         raise SystemExit("検品するファイルがありません。")
@@ -215,9 +332,12 @@ def run_vet(paths):
     rows = []
     for p in files:
         try:
-            rows.append(measure(p))
+            rows.append(measure(p, insect=insect))
         except Exception as e:                                   # noqa: BLE001
             sys.stderr.write(f"読めません {os.path.basename(p)}: {e}\n")
+
+    if insect:
+        return _report_insect(rows)
 
     # こもりの大きい順＝近くて開けた雨が上。三幕への割り振りはこの順で読む。
     rows.sort(key=lambda d: -d["muffle"])
@@ -251,4 +371,53 @@ def run_vet(paths):
             print(f"{d['name'][:37]:38s} {d['b1']:8.1f}% {d['b2']:7.1f}% "
                   f"{d['b3']:6.1f}% {d['b4']:6.1f}%")
         print("\nこもりが大きい（＝近くて開けた雨）ほど上。第一幕から順に当てる。")
+    return ok
+
+
+def _report_insect(rows):
+    """蝉・虫の巻の検品。合否（衛生）と指紋（種の見分け）を分けて出す。
+
+    ★★合否の表に種は出てこない。 種は指紋の表で当たりをつけ、最後は耳で決める。
+      雨のときは「こもり」1つで三幕に割り振れたが、蝉は
+      「一日の移ろい」＝種の並びで幕を作るので、並べ替えの軸が指紋のほうになる。
+    """
+    rows.sort(key=lambda d: -d.get("pulse", 0.0))
+
+    print(f"\n{'素材':38s} {'尺':>7s} {'変動':>5s} {'衝撃':>5s} {'<120':>5s} "
+          f"{'L/R':>5s}  判定")
+    print("-" * 108)
+    ok = []
+    for d in rows:
+        bad = _verdict(d, insect=True)
+        print(f"{d['name'][:37]:38s} {d['dur']:6.0f}s {d['var']:5.1f} "
+              f"{d['shock']:4.1f}% {d['low']:4.0f}% {d['corr']:5.2f}  "
+              + ("合格" if not bad else "／".join(bad)))
+        if not bad:
+            ok.append(d)
+    print(f"\n合格 {len(ok)} / {len(rows)} 本"
+          f"　※両端を{TRIM:.0%}落として測っている／変動の上限は仮の{INSECT_VAR}dB")
+
+    if not ok:
+        return ok
+
+    print("\n蝉の指紋　※合否ではない。聴く順番を決めるための当て推量")
+    print(f"{'素材':38s} {'脈Hz':>6s} {'強さ':>6s} {'主帯Hz':>7s} {'響き':>6s} "
+          f"{'山の動き':>8s} {'こもり':>6s}  見立て")
+    print("-" * 130)
+    for d in ok:
+        # 強さは中央値との比なので、地の静かな素材では桁が飛ぶ。表では999で頭打ちにする。
+        print(f"{d['name'][:37]:38s} {d['pulse']:6.1f} {min(d['pulse_str'], 999.0):6.1f} "
+              f"{d['carrier']:7.0f} {d['ring']:6.2f} {d['wander']:7.0f}Hz "
+              f"{d['muffle']:+6.1f}  {_guess(d)}")
+
+    # ★響きの薄い（＝山を持たない）雑音的な素材では山の動きに意味が無い。
+    #   帯域雑音を測ると山が毎フレーム飛んで 2.5kHz 出る（合成音で確認）。
+    #   鳴りを持つ素材に限って見張る。
+    wide = [d for d in ok if d["wander"] > 1500 and d["ring"] < 0.40]
+    if wide:
+        print("\n★山が動いている＝鳥・人声が乗っている疑い。必ずこの時刻を聴くこと：")
+        for d in wide:
+            at = "・".join(f"{t:.0f}s" for t in d["wander_at"][:4])
+            print(f"  {d['name'][:44]:45s} {d['wander']:.0f}Hz　{at}")
+    print("\n★人声はどの数字にも出ない。 通しで一度は耳を通すこと（雨の巻で1本取り逃がしている）。")
     return ok
