@@ -59,6 +59,7 @@ import os
 import random
 import re
 import shutil
+import subprocess
 
 from .ffutil import (duration, ff, measure_loudness, mmss, pcm_mono, save_json,
                      silence_bounds)
@@ -241,6 +242,19 @@ def _target_len(cfg, i, n):
     return float(t[i - 1])
 
 
+def _corr(path):
+    """左右の相関。1.00に近いほど実質モノラル。"""
+    import numpy as np
+    r = subprocess.run(["ffmpeg", "-v", "error", "-i", path, "-ac", "2",
+                        "-ar", "8000", "-f", "f32le", "-"], capture_output=True)
+    x = np.frombuffer(r.stdout, dtype=np.float32)
+    if x.size < 16000:
+        return 1.0
+    l, r_ = x.reshape(-1, 2).T
+    # ★ここは相関だけを見るので8kHzで足りる（帯域の中身は測っていない）。
+    return float(abs(np.corrcoef(l, r_)[0, 1])) if l.std() and r_.std() else 1.0
+
+
 def _mosaic(cfg, names, target, acfg, tt, tag):
     """複数の短尺素材から、1場面ぶんの床を継ぎ合わせて作る。
 
@@ -348,6 +362,15 @@ def _mosaic(cfg, names, target, acfg, tt, tag):
             print(f"   {n} は LRA {lra:.1f}。層として {pen:.1f}dB 下げる（遠くの一匹にする）")
         pens.append(pen)
         lras.append(lra)
+        # ★★実質モノラルの素材を「床」に使うと、場面全体のステレオ像が狭くなる
+        #   （2026年8月25日、蝉の午後で実測）。重ねれば広がるとはいえ、それは
+        #   点景（-6dB）の話。床は全重量で鳴り続けるので像を引き締めてしまう。
+        #   実測：モノラル1本を床に含む3本版 L/R 0.27〜0.49、外した2本版 0.07〜0.09。
+        #   ★捨てろという意味ではない。 素材が少ないときは繰り返しのほうが害が大きい
+        #   （2本版は自己相関 0.079→0.102 と少し悪化した）。天秤に掛けるための警告。
+        if lra <= float(m.get("bed_lra", 6.0)) and _corr(lv) > 0.95:
+            print(f"   ★{n} は実質モノラルなのに床に使われる。"
+                  f"場面全体のステレオ像が狭くなる")
         # _seamless_loop は (パス, 長さ) を返す。パスだけ使う。
         lp, _ = _seamless_loop(cfg, lv, xfc, os.path.join(work, f"loop{k:02d}.wav"))
         loops.append(lp)
