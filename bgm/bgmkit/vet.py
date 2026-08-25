@@ -155,8 +155,25 @@ def _insect(mono, off):
         pk[a:b] = fh[np.argmax(P[:, hi], axis=1)]
     mean /= nf
 
-    carrier = float(f[band][np.argmax(mean[band])])
+    # ★★主帯は「いちばん強い山」ではなく「いちばん低い強い山」を取る（2026年8月25日）。
+    #   蝉の鳴きは倍音を持つ。基音と倍音の高さが拮抗すると argmax が倍音に飛び、
+    #   同じ音の場面が 4307Hz と 8247Hz に割れた（帯域の分布はほぼ同じなのに）。
+    #   実害はヒグラシ(4.2k)をニイニイゼミ(8.1k以上)と読み違えること。
+    #   半分の周波数の近傍に匹敵する山があれば、そちらを基音と見なす。
+    fb = f[band]
+    mb = mean[band]
+    ci = int(np.argmax(mb))
     ring = _flat(mean, band)
+    # ★★補正は音程を持つ素材にだけ掛ける。 雑音的な鳴き（響きが大きい）は
+    #   半分の位置にもエネルギーがあるのが普通で、無条件に掛けると基音でないところへ
+    #   落ちる（ツクツクボウシの鳴き声1が 5706→2692 になった）。
+    if ring < 0.45:
+        half = fb[ci] / 2.0
+        if half >= INSECT_BAND[0]:
+            near = np.flatnonzero(np.abs(fb - half) <= half * 0.06)
+            if near.size and mb[near].max() >= mb[ci] * 0.6:
+                ci = int(near[np.argmax(mb[near])])
+    carrier = float(fb[ci])
 
     # 脈：帯のエネルギーの時間変化を8秒窓でフーリエに掛け、2〜25Hzの山を拾う
     fs = SR / hop
