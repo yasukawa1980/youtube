@@ -36,7 +36,7 @@ dir: "/Volumes/ESD-EPB/Whispers of Japan/Vol15_素材_すすき野"
 #   **月だけが暖色**になるのでチャンネル一覧で青の中に埋もれない（Vol.8の赤とも別物）。
 background: "/Volumes/ESD-EPB/Whispers of Japan/Vol15_素材_すすき野/画像/vol15_19.png"
 
-title_lines: [MOONLIT, SILVER GRASS]
+title_lines: [月夜の, すすき野]
 # ★2026年8月18日 実測 3491.7秒＝58分11秒。四捨五入して 58 MIN。
 #   選抜時の見込みは58.6分だったが、トリムとクロスフェードで0.4分縮んだ。
 #   タイトルの `| 58 Min` と説明文もこの数字に合わせること。
@@ -369,3 +369,6 @@ shorts:
   title: 月夜のすすき野
   sub: [虫の音と和風アンビエント, 58分版はチャンネルに]
   move: in
+
+# ★日本語版は別名で書き出す（公開済みのサムネを潰さないため）
+thumb_out: "/Volumes/ESD-EPB/Whispers of Japan/vol15_サムネ_16x9_日本語.png"

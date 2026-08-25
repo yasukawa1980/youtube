@@ -158,21 +158,32 @@ thumb:
   #   と書いてあり、要は左にもう一つ置く理由が無かった。
   #   伸びているチャンネルのサムネにも尺表示はほとんど無い。
   pill: false
+  # ★★題字は日本語（2026年8月25日、シリーズ共通）。 whispers 側と同じ判断。
+  #   ★ここに書かないと巻ごとに指定が要る。 SOJ01を日本語にしたとき、
+  #     巻の側にしか title_family を書いていなかったせいで**豆腐（□□□□）になった。**
+  title_family: jp
+  title_fit: 800
+  title_min: 100
   fonts:
     serif: /System/Library/Fonts/Supplemental/Cochin.ttc
     sans: /System/Library/Fonts/Optima.ttc
     jp: "/System/Library/Fonts/ヒラギノ明朝 ProN.ttc"
+  tracking:
+    title: 14
+    brand: 12
   sizes:
     brand: 56
     sub: 44
-    # ★題字は既定172。 ただし作品名が長い巻は2行目が絵の主役を横切る。
-    #   スクリム右端は920px。過去のはみ出しは Whispers で最大469px（Vol.15）。
-    #   これを大きく超えるなら巻の側で 150 前後に落とすこと（168pxでの可読性は実証済み）。
-    title: 172
+    # ★これは自動級数（title_fit）の**上限**。 実際の級数は幅800pxに収まるよう自動で決まる。
+    #   200にしてあるのは、3字の題字（蝉時雨）だけが突出して大きくならないようにするため。
+    #   250だと巻をまたいで148〜250と開いた。
+    #   ★英語だった頃は「長い作品名は巻の側で150に落とす」運用だったが、
+    #     自動級数にしたので巻ごとの手当ては要らなくなった。
+    title: 200
     pill: 58
   font_index:
     brand: 1
-    title: 1
+    title: 0           # ヒラギノ明朝 ProN の 0（Cochin の 1 とは別）
     pill: 4
   colors:
     gold: [247, 216, 143]
@@ -189,6 +200,7 @@ thumb:
     brand: 214
     t1: 336
     t2: 528
+    line_gap: auto
     row: 772
 
 # ★このシリーズは光源を固定しない。

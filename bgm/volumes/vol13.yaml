@@ -34,7 +34,7 @@ dir: "~/Desktop/Whispers of Japan/Vol13_素材_冬木立"
 # この巻は**枝の網目という形**で識別させる。
 background: "~/Desktop/Whispers of Japan/Vol13_素材_冬木立/画像/vol13_03.png"
 
-title_lines: [MOONLIT, WINTER WOODS]
+title_lines: [月夜の, 冬木立]
 runtime: "28 MIN"                      # 選抜確定後の実尺28.3分（audio 後に再確認する）
 
 # 楽曲が揃ったら埋める。ファイル名（末尾の " (1)" を除いた形）→ 音色の種類。
@@ -219,3 +219,6 @@ image_anchor:
 - 0.45
 - 0.55
 - 0.60
+
+# ★日本語版は別名で書き出す（公開済みのサムネを潰さないため）
+thumb_out: "/Volumes/ESD-EPB/Whispers of Japan/vol13_サムネ_16x9_日本語.png"

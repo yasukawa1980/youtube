@@ -11,7 +11,7 @@ volume: 11
 dir: "~/Desktop/Whispers of Japan/Vol11_素材_枯山水"
 background: "~/Desktop/Whispers of Japan/Vol11_背景_01.png"
 
-title_lines: [MOONLIT, ZEN GARDEN]
+title_lines: [月夜の, 枯山水]
 runtime: "62 MIN"                      # 音声確定後に実尺と突き合わせる
 
 # 45本。MD5が一致した重複DL2本（フェルトピアノ６・琵琶２）は _重複DL/ に退避済み。
@@ -246,3 +246,6 @@ order_tracks:
 - フェルトピアノ１.wav
 - 鼓弓５.wav
 - 笙のみ.wav
+
+# ★日本語版は別名で書き出す（公開済みのサムネを潰さないため）
+thumb_out: "/Volumes/ESD-EPB/Whispers of Japan/vol11_サムネ_16x9_日本語.png"

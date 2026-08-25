@@ -27,7 +27,7 @@ tracks_subdir: 環境音
 #   （Vol.15は当初候補の13が「文字の下に月が入り込む」で落ちて19になった）。
 background: "/Volumes/ESD-EPB/Whispers of Japan/SOJ01_素材_雨の石畳/画像/soj01_04.png"
 
-title_lines: [RAIN ON THE, LANTERN STREET]
+title_lines: [雨の石畳]
 
 # ★★この巻は題字を 172 → 150 に落とす（2026年8月23日、168pxで実測して判断）。
 #   既定の172は「168pxで読めない要素は無いのと同じ」→ 題字を最大に、という判断から。
@@ -236,3 +236,7 @@ shorts:
   title: 雨の石畳
   sub: [雨の音だけ, 3時間版はチャンネルに]
   move: out
+
+# ★日本語版は別名で書き出す（公開済みのサムネを潰さないため）
+thumb_out: "/Volumes/ESD-EPB/Whispers of Japan/soj01_サムネ_16x9_日本語.png"
+thumb_layout: {brand: 360, t1: 470}

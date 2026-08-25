@@ -18,7 +18,7 @@ dir: "~/Desktop/Whispers of Japan/Vol12_素材_五重塔"
 # 生成した画像をそのまま使う（Vol.11の Vol11_背景_01.png も同じ 1536x864 の複製だった）。
 background: "~/Desktop/Whispers of Japan/Vol12_素材_五重塔/画像/vol12_18.png"
 
-title_lines: [MOONLIT, PAGODA]
+title_lines: [月夜の, 五重塔]
 runtime: "62 MIN"                      # 実測 3708.69s = 61分48秒
 
 # 楽曲が揃ったら埋める。ファイル名（末尾の " (1)" を除いた形）→ 音色の種類。
@@ -289,3 +289,6 @@ image_anchor:
 - 0.30
 - 0.25
 - 0.30
+
+# ★日本語版は別名で書き出す（公開済みのサムネを潰さないため）
+thumb_out: "/Volumes/ESD-EPB/Whispers of Japan/vol12_サムネ_16x9_日本語.png"

@@ -135,16 +135,35 @@ short:
 thumb:
   size: [1920, 1080]
   crop_y: 0.30
+  # ★★2026年8月25日、題字を日本語に統一した（本人の判断で全巻）。
+  #   英語圏狙いのチャンネルだが、**サムネの仕事は「読ませる」ことではなく「目に留まる」こと**。
+  #   検索とおすすめが読むのは動画のタイトル（英語のまま）で、サムネは絵の勝負になる。
+  #   168pxで実測すると、英語2行より漢字数文字のほうが読める。
+  #   日本語は無罪（8/21の実測で「日本語表記が伸びを止める」説は否定されている）。
+  title_family: jp
+  # ★★級数は幅から自動で決める。 日本語の題字は3〜8字とばらつき、
+  #   16本ぶんを手で決めるのは現実的でない。上限は sizes.title、下限は title_min。
+  title_fit: 800
+  title_min: 100
+  # ★★尺バッジを描かない。 YouTubeが右下に尺を必ず重ねるので、
+  #   自分で描くと同じ情報を二度出すことになる（このファイルの設計メモにも
+  #   「右下はYouTubeが尺バッジを自動で重ねるので空けておく」と書いてある）。
+  pill: false
   fonts:
     serif: /System/Library/Fonts/Supplemental/Cochin.ttc
     sans: /System/Library/Fonts/Optima.ttc
+    jp: "/System/Library/Fonts/ヒラギノ明朝 ProN.ttc"
   sizes:
     brand: 56
-    title: 172         # ★140から拡大。タグラインとVOL番号を削って空けたぶんを作品名に回す
+    title: 200         # ★自動級数の上限。短い題字が青天井に大きくならないように切る。
+                       #   250だと3字の題字だけ突出し、巻をまたいで級数が148〜250と開いた。
     pill: 58
+  tracking:
+    title: 14          # 大きな漢字は少し離したほうが読みやすい
+    brand: 12          # 帯が主役に食い込む巻があるので既定16から詰めた
   font_index:          # .ttc 内の番号。役割ごとに違うのでまとめない
     brand: 1
-    title: 1
+    title: 0           # ヒラギノ明朝 ProN の 0（Cochin の 1 とは別）
     pill: 4
   colors:
     gold: [247, 216, 143]
@@ -161,6 +180,7 @@ thumb:
     brand: 214
     t1: 336
     t2: 528
+    line_gap: auto     # ★級数に比例させる（自動級数なので固定値では書けない）
     row: 772
 
 images_api:

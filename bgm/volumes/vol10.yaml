@@ -2,9 +2,7 @@ genre: whispers
 volume: 10
 dir: ~/Desktop/Whispers of Japan/Vol10_素材_座敷
 background: ~/Desktop/Whispers of Japan/Vol10_背景_01.png
-title_lines:
-- MOONLIT
-- TATAMI ROOM
+title_lines: [月夜の, 座敷]
 runtime: 26 MIN
 thumb_layout:
   brand: 330
@@ -79,3 +77,6 @@ order_tracks:
 - Felt and Wood.wav
 - Moonlight on Tatami.wav
 - Kokyu Drift (1).wav
+
+# ★日本語版は別名で書き出す（公開済みのサムネを潰さないため）
+thumb_out: "/Volumes/ESD-EPB/Whispers of Japan/vol10_サムネ_16x9_日本語.png"

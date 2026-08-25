@@ -84,7 +84,6 @@ def build(cfg):
     #   ★既定は従来のまま。 書かなければ英語2行＋尺バッジで、公開済みの巻は1画素も変わらない。
     fam = t.get("title_family", "serif")
     f_brand = f_of("brand", "serif")
-    f_title = f_of("title", fam)
 
     brand = cfg["brand"]
     lines = cfg["title_lines"]
@@ -92,7 +91,31 @@ def build(cfg):
         lines = [lines]
     tsize = t["sizes"]["title"]
     trk = (t.get("tracking") or {}).get("title", 4)
+
+    # ★★`title_fit` を書くと、その幅に収まる最大の級数を自分で選ぶ（2026年8月25日）。
+    #   日本語に切り替えたら題字の字数が3〜8字とばらつき、巻ごとに手で級数を決めるのは
+    #   16本ぶんとなると現実的でない。**幅を決めて級数を機械に選ばせる**ほうが早くて確実。
+    #   ★上限を切ること。 短い題字（蝉時雨＝3字）が青天井に大きくなると、
+    #     同じ棚に並んだとき級数がばらついて見える。
+    fit = t.get("title_fit")
+    if fit:
+        lo, hi = t.get("title_min", 90), tsize
+        probe = ImageDraw.Draw(Image.new("RGB", (8, 8)))
+        while lo < hi:
+            mid = (lo + hi + 1) // 2
+            f = _font(fonts[fam], mid, idx["title"])
+            if max(_tw(probe, ln, f, trk) for ln in lines) <= fit:
+                lo = mid
+            else:
+                hi = mid - 1
+        tsize = lo
+    f_title = _font(fonts[fam], tsize, idx["title"])
+    # ★`line_gap: auto` で行間を級数に比例させる。 自動級数と組み合わせるときに要る
+    #   （級数が巻ごとに変わるので、行間を固定値で書けない）。
+    #   172×1.12=192.6→192 で、従来の t1=336/t2=528 と一致する。
     gap = lay.get("line_gap", lay.get("t2", lay["t1"]) - lay["t1"])
+    if gap == "auto":
+        gap = int(tsize * 1.12)
     ys = [lay["t1"] + i * gap for i in range(len(lines))]
 
     show_pill = t.get("pill", True) and cfg.get("runtime")
@@ -161,7 +184,14 @@ def check_runtime(cfg):
     import re
 
     from .ffutil import load_json
-    man = load_json(cfg.wpath("manifest.json"))
+    # ★中間生成物が無い巻でも落ちない（2026年8月25日）。
+    #   bgmkit 以前に作った巻（Vol.3〜9）はサムネだけ作り直すので manifest が無い。
+    #   照合できないことを言うだけにして、サムネの生成そのものは通す。
+    mp = cfg.wpath("manifest.json")
+    if not os.path.exists(mp):
+        print(f"※ manifest が無いので尺の照合を飛ばした（{cfg.get('runtime','-')}）")
+        return
+    man = load_json(mp)
     m = re.search(r"(\d+)", cfg["runtime"])
     if not m:
         return True
