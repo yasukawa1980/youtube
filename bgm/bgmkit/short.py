@@ -27,6 +27,9 @@ from PIL import Image, ImageDraw, ImageFont
 
 from .ffutil import ff, measure_loudness
 
+# ★測るときの標本化周波数。8000では蝉・虫の主帯(4〜9kHz)が帯域外になる。
+HEAD_SR = 22050
+
 
 def _font(path, size, index=0):
     return ImageFont.truetype(os.path.expanduser(path), size, index=index)
@@ -115,22 +118,21 @@ def _hms(v):
 
 
 def _head_check(path, start, dur):
-    """切り出す位置の頭が本体より静かでないか。静かならフィードで離脱する。"""
-    def db(ss, t):
-        r = run(["ffmpeg", "-v", "error", "-ss", f"{ss}", "-t", f"{t}", "-i", path,
-                 "-ac", "1", "-ar", "8000", "-f", "f32le", "-"])
-        x = np.frombuffer(
-            run(["ffmpeg", "-v", "error", "-ss", f"{ss}", "-t", f"{t}", "-i", path,
-                 "-ac", "1", "-ar", "8000", "-f", "f32le", "-"],
-                ).stdout.encode("latin-1", "ignore") if False else b"", dtype=np.float32)
-        return x
-    import subprocess
+    """切り出す位置の頭が本体より静かでないか。静かならフィードで離脱する。
+
+    ★★8000Hz でデコードしてはいけない（2026年8月25日、蝉の巻で判明）。
+      ナイキストが4kHzになる。ニイニイゼミ（主帯7343〜8635Hz・ほぼ純音）を測ると
+      **エネルギーが丸ごと帯域外に出て -80dB** と出た。音は正常で、測定器が
+      聞こえていなかっただけ。素材の主帯より上まで取れる標本化周波数で測ること。
+      同じ罠は vet の検証でも踏んだ。**環境音を扱う測定は毎回ここを疑う。**
+    """
     def rms(ss, t):
         r = subprocess.run(["ffmpeg", "-v", "error", "-ss", f"{ss}", "-t", f"{t}",
-                            "-i", path, "-ac", "1", "-ar", "8000", "-f", "f32le", "-"],
-                           capture_output=True)
+                            "-i", path, "-ac", "1", "-ar", str(HEAD_SR),
+                            "-f", "f32le", "-"], capture_output=True)
         x = np.frombuffer(r.stdout, dtype=np.float32).astype(np.float64)
         return 20 * np.log10(np.sqrt((x ** 2).mean()) + 1e-12) if len(x) else -99.0
+
     head = rms(start, 1.0)
     body = rms(start + dur / 2 - 1.5, 3.0)
     return head, body, head - body
