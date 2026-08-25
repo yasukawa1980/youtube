@@ -75,36 +75,76 @@ def build(cfg):
     def f_of(role, family):
         return _font(fonts[family], t["sizes"][role], idx[role])
 
+    # ★★2026年8月25日、シンプル化に対応（本人の提案）。
+    #   ・題字は英語2行固定ではなく **任意の行数**。日本語1行も置ける
+    #   ・**尺バッジを省ける**（`thumb.pill: false`）。YouTubeが右下に尺を必ず重ねるので、
+    #     自分で描くと同じ情報を二度出すことになる。上の設計メモにも
+    #     「右下はYouTubeが尺バッジを自動で重ねる」と書いてある
+    #   ・題字に日本語フォントを選べる（`thumb.title_family: jp`）
+    #   ★既定は従来のまま。 書かなければ英語2行＋尺バッジで、公開済みの巻は1画素も変わらない。
+    fam = t.get("title_family", "serif")
     f_brand = f_of("brand", "serif")
-    f_title = f_of("title", "serif")
-    f_pill = f_of("pill", "sans")
+    f_title = f_of("title", fam)
 
     brand = cfg["brand"]
-    t1, t2 = cfg["title_lines"]
-    runtime = cfg["runtime"]
+    lines = cfg["title_lines"]
+    if isinstance(lines, str):
+        lines = [lines]
+    tsize = t["sizes"]["title"]
+    trk = (t.get("tracking") or {}).get("title", 4)
+    gap = lay.get("line_gap", lay.get("t2", lay["t1"]) - lay["t1"])
+    ys = [lay["t1"] + i * gap for i in range(len(lines))]
+
+    show_pill = t.get("pill", True) and cfg.get("runtime")
+
+    # ★帯の字間も巻ごとに詰められる。 背景の主役が右上にいる巻では、既定の16だと
+    #   帯が主役に食い込む（SOJ02は麦わら帽子に「OLD JAPAN」が乗った）。
+    #   ★文字を小さくするのではなく字間で逃がすこと。 小さくすると読めなくなる。
+    btrk = (t.get("tracking") or {}).get("brand", 16)
+    items = [(brand, f_brand, btrk, lay["brand"])]
+    items += [(ln, f_title, trk, y) for ln, y in zip(lines, ys)]
 
     glow = Image.new("RGBA", (W, H), (0, 0, 0, 0))
     gd = ImageDraw.Draw(glow)
-    for text, f, tr, y in [(brand, f_brand, 16, lay["brand"]),
-                           (t1, f_title, 4, lay["t1"]),
-                           (t2, f_title, 4, lay["t2"])]:
+    for text, f, tr, y in items:
         _draw_tracked(gd, (X, y), text, f, tr, (0, 0, 0, 225))
     img = Image.alpha_composite(img.convert("RGBA"),
                                 glow.filter(ImageFilter.GaussianBlur(16))).convert("RGB")
     d = ImageDraw.Draw(img)
 
-    _draw_tracked(d, (X, lay["brand"]), brand, f_brand, 16, col["gold"])
-    d.line([(X, lay["brand"] + 76), (X + _tw(d, brand, f_brand, 16), lay["brand"] + 84)],
+    _draw_tracked(d, (X, lay["brand"]), brand, f_brand, btrk, col["gold"])
+    d.line([(X, lay["brand"] + 76), (X + _tw(d, brand, f_brand, btrk), lay["brand"] + 84)],
            fill=col["gold"], width=3)
 
-    _draw_tracked(d, (X, lay["t1"]), t1, f_title, 4, col["cream"])
-    _draw_tracked(d, (X, lay["t2"]), t2, f_title, 4, col["cream"])
-    d.line([(X, lay["t2"] + 157), (X + _tw(d, t2, f_title, 4), lay["t2"] + 168)],
-           fill=col["gold"], width=3)
+    for ln, y in zip(lines, ys):
+        _draw_tracked(d, (X, y), ln, f_title, trk, col["cream"])
+    # ★下線の位置は題字の大きさに比例させる。 従来は172px前提の固定値(157/168)だった。
+    #   172×0.913=157.0、172×0.977=168.0 なので **題字172pxの巻は1画素も変わらない**
+    #   （Vol.14・15で実測して確認済み。公開済みの巻はすべて172）。
+    #   ★題字を落としている巻だけ下線が動く。 SOJ01（150px）は21px上がる。
+    #     こちらが正しい位置で、固定値のままだと題字が小さいほど下線が離れていた。
+    #     SOJ01は未公開なので作り直して差し支えない。
+    if t.get("title_rule", True):
+        yl = ys[-1]
+        d.line([(X, yl + int(tsize * 0.913)),
+                (X + _tw(d, lines[-1], f_title, trk), yl + int(tsize * 0.977))],
+               fill=col["gold"], width=3)
 
-    pw = _tw(d, runtime, f_pill, 6) + 64
-    d.rounded_rectangle([X, lay["row"], X + pw, lay["row"] + 92], radius=12, fill=col["gold"])
-    _draw_tracked(d, (X + 32, lay["row"] + 14), runtime, f_pill, 6, col["navy"])
+    # ★題字の下に小さく1行置ける（`thumb_sub`）。日本語の題字に英語の添え書きを付ける用途。
+    #   ショートの見出しが「帯＋題字＋小さい2行」なので、それに寄せるための枠。
+    sub = cfg.get("thumb_sub")
+    if sub:
+        f_sub = f_of("sub", t.get("sub_family", "serif"))
+        _draw_tracked(d, (X, lay["sub"]), sub, f_sub,
+                      (t.get("tracking") or {}).get("sub", 8), col["gold"])
+
+    if show_pill:
+        f_pill = f_of("pill", "sans")
+        runtime = cfg["runtime"]
+        pw = _tw(d, runtime, f_pill, 6) + 64
+        d.rounded_rectangle([X, lay["row"], X + pw, lay["row"] + 92],
+                            radius=12, fill=col["gold"])
+        _draw_tracked(d, (X + 32, lay["row"] + 14), runtime, f_pill, 6, col["navy"])
 
     img.save(out)
     print(f"書き出し: {out} {img.size}")

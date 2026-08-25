@@ -152,11 +152,19 @@ short:
 thumb:
   size: [1920, 1080]
   crop_y: 0.30
+  # ★★尺バッジを描かない（2026年8月25日、本人の提案）。
+  #   **YouTubeが右下に尺を必ず重ねる**ので、自分で描くと同じ情報を二度出すことになる。
+  #   このファイル冒頭の設計メモにも「右下はYouTubeが尺バッジを自動で重ねるので空けておく」
+  #   と書いてあり、要は左にもう一つ置く理由が無かった。
+  #   伸びているチャンネルのサムネにも尺表示はほとんど無い。
+  pill: false
   fonts:
     serif: /System/Library/Fonts/Supplemental/Cochin.ttc
     sans: /System/Library/Fonts/Optima.ttc
+    jp: "/System/Library/Fonts/ヒラギノ明朝 ProN.ttc"
   sizes:
     brand: 56
+    sub: 44
     # ★題字は既定172。 ただし作品名が長い巻は2行目が絵の主役を横切る。
     #   スクリム右端は920px。過去のはみ出しは Whispers で最大469px（Vol.15）。
     #   これを大きく超えるなら巻の側で 150 前後に落とすこと（168pxでの可読性は実証済み）。
