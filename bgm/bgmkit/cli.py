@@ -9,11 +9,13 @@
   python3 -m bgmkit mux     vol11    音と映像を合わせて完成MP4
   python3 -m bgmkit thumb   vol11    サムネイル
   python3 -m bgmkit build   vol11    audio→video→mux→thumb を通しで
+  python3 -m bgmkit short   vol11    縦型ショートを作る（--only A B で一部だけ）
+  python3 -m bgmkit vet     <file…>  環境音の素材を検品（巻ではなくファイル/フォルダを渡す）
 """
 import argparse
 import sys
 
-from . import analyze, audio, config, images, select, thumb, video
+from . import analyze, audio, config, images, select, short, thumb, vet, video
 
 
 def _need_order(cfg):
@@ -27,19 +29,31 @@ def _need_order(cfg):
 def main(argv=None):
     ap = argparse.ArgumentParser(prog="bgmkit", description="BGM動画の制作パイプライン")
     ap.add_argument("command", choices=["images", "analyze", "select", "order", "audio",
-                                        "video", "mux", "thumb", "build"])
-    ap.add_argument("volume", help="volumes/ の設定ファイル名（拡張子は省略可）")
+                                        "video", "mux", "thumb", "build", "vet", "short"])
+    ap.add_argument("target", nargs="+",
+                    help="volumes/ の設定ファイル名（拡張子は省略可）。"
+                         "vet のときだけ検品するファイルかフォルダを並べる")
     ap.add_argument("--write", action="store_true",
                     help="select / order の結果を巻のYAMLに書き戻す")
-    ap.add_argument("--only", type=int, nargs="+", metavar="N",
-                    help="images で特定の番号だけ作り直す（1始まり）")
+    ap.add_argument("--only", nargs="+", metavar="N",
+                    help="images は番号（1始まり）、short は札（A B）で絞る")
     args = ap.parse_args(argv)
-
-    cfg = config.load(args.volume)
     c = args.command
 
+    # vet は巻に属さない。素材を仕入れた時点で回すので設定ファイルがまだ無い。
+    if c == "vet":
+        vet.run_vet(args.target)
+        return 0
+
+    if len(args.target) > 1:
+        raise SystemExit(f"{c} は巻を1つだけ取ります: {' '.join(args.target)}")
+    cfg = config.load(args.target[0])
+
     if c == "images":
-        images.run(cfg, only=args.only)
+        images.run(cfg, only=[int(x) for x in args.only] if args.only else None)
+
+    elif c == "short":
+        short.build(cfg, only=args.only)
 
     elif c == "analyze":
         analyze.run(cfg)

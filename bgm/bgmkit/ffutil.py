@@ -17,9 +17,14 @@ def run(args, check=False):
     return r
 
 
-def ff(args, check=True):
-    """進捗表示を抑えた ffmpeg 実行。"""
-    return run(["ffmpeg", "-y", "-nostats", "-v", "warning"] + args, check=check)
+def ff(args, check=True, loglevel="warning"):
+    """進捗表示を抑えた ffmpeg 実行。
+
+    ★loudnorm の summary は info レベルで出る。 既定の warning のままだと
+      2パス目の結果（実際に到達したラウドネス）が stderr に一切現れない。
+      読み取りたい呼び出しだけ loglevel="info" にすること。
+    """
+    return run(["ffmpeg", "-y", "-nostats", "-v", loglevel] + args, check=check)
 
 
 def duration(path):

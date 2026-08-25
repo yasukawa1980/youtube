@@ -89,6 +89,49 @@ video:
 #   公開済みの巻を作り直すと字面が変わるので、旧巻を再生成する用があれば thumb_layout で戻すこと。
 #   ★説明文・タグの側では引き続き SLEEP と環境音系の語を使わない。
 #     本編は純器楽なので、実体と違う語は期待外れの離脱を招き平均視聴時間を下げる。
+# 縦型ショート（1080x1920）。★レイアウトは公開済みのVol.15のショートを実測して合わせた。
+#   文字の位置は 1080x1920 のフレーム内の絶対値。左の余白88px。
+# ★★出だしが静かな位置から切らないこと。 Vol.15のショートCは本編00:00から採ったため
+#   曲のフェードインを拾い、最初の1秒が本体より19dB低かった（A・Bは0〜5dB差）。
+#   ショートのフィードは1秒未満でスワイプされる。`short` は切る前に頭と本体を比べて警告を出す。
+# ★ケンバーンズは中央固定で寄る/引くだけ。縦画面で横に振ると酔う。
+short:
+  seconds: 45.0
+  size: [1080, 1920]
+  supersample: [1620, 2880]
+  fps: 30
+  zoom_max: 1.06          # 45秒と短いので本編の1.09より控えめに
+  audio_fade: 1.5
+  unsharp: "unsharp=3:3:0.4:3:3:0.0"
+  tracking: 10
+  fonts:
+    latin: /System/Library/Fonts/Supplemental/Cochin.ttc
+    jp: "/System/Library/Fonts/ヒラギノ明朝 ProN.ttc"
+  font_index:
+    latin: 1
+    jp: 0
+  sizes:
+    brand: 34
+    title: 96
+    sub: 34
+  # ★下から立ち上がるスクリム。明るい地面が下に来る絵でも文字が沈まないようにする
+  scrim:
+    color: [5, 11, 26]
+    top: 1080
+    full: 1700
+    opacity: 0.62
+    gamma: 1.6
+  layout:
+    x: 88
+    brand: 1238
+    title: 1330
+    sub1: 1462
+    sub2: 1520
+  encode:
+    vcodec: libx264
+    preset: medium
+    crf: 20
+
 thumb:
   size: [1920, 1080]
   crop_y: 0.30

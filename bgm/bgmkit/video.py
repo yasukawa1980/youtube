@@ -16,10 +16,25 @@
 3. エンドカードは本編の後ろに足さない。
    最後の場面からクロスフェードでカードへ入り、カードの上で音楽を消す。
    xfade は「1本目の供給長 ≧ offset + duration」でないと出力が offset で打ち切られる。
+
+4. ★★長い巻は `segmented: true` にして場面ごとに書き出す（2026年8月24日、Vol.16で追加）。
+   既定の作りは**全場面を1本の ffmpeg コマンド**で処理する。xfade を数珠つなぎにするため、
+   最後の場面のフィルタも t=0 から動き続け、**全入力ぶんのフレームを同時に抱える**。
+   2880x1620 の yuv420p は1フレーム7MBなので、22枚＋カードで8GBの機械に載らない。
+   Vol.16（3時間）は空きメモリ69MB・圧縮に3.4GBという状態になり、
+   **10.3時間かけて28〜37%しか進まなかった**（CPUは回っているのに前に進まない）。
+   60分では起きず、尺が3倍になって初めて出た。同時進行の本数が尺に比例して増えるため。
+
+   分割版は「場面の本体」と「継ぎ目」を別々の小さなコマンドで書き出し、最後に連結する。
+   ・メモリは1〜2入力ぶんで済む（画質の設定は一切落とさない）
+   ・**途中で落ちても1片ぶんしか失わない**（`.done` を見て再開する）
+   ・`jobs` で並列に回せる
+   ★既定は false。 公開済みの巻を作り直したときに1ビットも変わらないようにするため。
 """
 import os
+from concurrent.futures import ThreadPoolExecutor
 
-from .ffutil import ff, load_json, measure_loudness, mmss
+from .ffutil import duration, ff, load_json, measure_loudness, mmss
 
 
 def _kenburns(cfg, dirn, pan, nframes, skip=0):
@@ -119,12 +134,141 @@ def build(cfg):
               f"   画像{i}の尺 {seg[i - 1]:.1f}s")
     print(f"  {n}枚目 {seg[-1]:.1f}s / 合計 {sum(seg) - xf * (n - 1):.2f}s（音声 {T:.2f}s）")
 
+    if v.get("segmented"):
+        return _segmented(cfg, paths, seg, cuts, moves, T)
+
     e = v["encode"]
     out = cfg.wpath("video.mp4")
     ff([*inputs, "-filter_complex", ";".join(parts), "-map", prev, "-t", f"{T:.6f}",
         "-c:v", e["vcodec"], "-preset", e["preset"], "-crf", str(e["crf"]),
         "-pix_fmt", "yuv420p", "-r", str(fps), "-g", str(fps * 10), out])
     print(f"\n書き出し: {out}")
+    return out
+
+
+def _chain(cfg, i, moves, nframes, skip):
+    """1枚ぶんのフィルタ列。1本版と同じものを使う（画質を変えないため）。"""
+    v = cfg["video"]
+    SS_W, SS_H = v["supersample"]
+    OW, OH = v["output"]
+    dirn, pan = moves[i]
+    return (f"scale={SS_W}:{SS_H}:flags=lanczos,setsar=1,format=yuv420p,fps={v['fps']},"
+            f"{_kenburns(cfg, dirn, pan, nframes, skip)},"
+            f"scale={OW}:{OH}:flags=lanczos,{v['unsharp']}")
+
+
+def _enc(cfg):
+    e = cfg["video"]["encode"]
+    return ["-c:v", e["vcodec"], "-preset", e["preset"], "-crf", str(e["crf"]),
+            "-pix_fmt", "yuv420p", "-r", str(cfg["video"]["fps"])]
+
+
+def _plan(cfg, paths, seg, cuts, moves, T):
+    """出力を「場面の本体」と「継ぎ目」に切り分ける。すべてフレーム数で持つ。
+
+    場面 i のクリップの先頭は、出力の origin[i] フレーム目に置かれる。
+    ケンバーンズは **クリップ全体の長さ** に対して計算し、途中から描くときは skip で送る。
+    こうすると1本版と同じ動きになる。
+    """
+    v = cfg["video"]
+    fps = v["fps"]
+    n = len(paths)
+    F = lambda x: int(round(x * fps))                            # noqa: E731
+    xff = F(v["xfade"])
+    cutf = [F(c) for c in cuts]
+    segf = [F(s) for s in seg]
+    origin = [0] + cutf
+    endf = F(T)
+    card = v.get("card")
+    cardf = F(T - v["card_len"]) if card else endf
+    cxff = F(v["card_xfade"]) if card else 0
+
+    pieces = []
+    for i in range(n):
+        head = origin[i] + (xff if i else 0)                     # この場面の本体が始まる出力位置
+        tail = cutf[i] if i < n - 1 else cardf                   # 次の継ぎ目が始まる出力位置
+        if tail > head:
+            pieces.append(dict(kind="body", i=i, skip=head - origin[i],
+                               nframes=segf[i], count=tail - head))
+        if i < n - 1:
+            # 次の場面のクリップは先頭(skip=0)から。ケンバーンズはそれぞれの全長で計算する。
+            pieces.append(dict(kind="trans", i=i, skip=cutf[i] - origin[i],
+                               nframes=segf[i], n2=segf[i + 1], count=xff))
+    if card:
+        pieces.append(dict(kind="card_in", i=n - 1, skip=cardf - origin[n - 1],
+                           nframes=segf[n - 1], count=cxff))
+        pieces.append(dict(kind="card", count=endf - cardf - cxff))
+    return pieces, endf
+
+
+def _render(cfg, pc, paths, moves, out):
+    v = cfg["video"]
+    xf, cxf = v["xfade"], v.get("card_xfade")
+    if pc["kind"] == "body":
+        ff(["-loop", "1", "-i", paths[pc["i"]],
+            "-vf", _chain(cfg, pc["i"], moves, pc["nframes"], pc["skip"]),
+            "-frames:v", str(pc["count"]), *_enc(cfg), "-f", "mpegts", out])
+    elif pc["kind"] == "card":
+        ff(["-loop", "1", "-i", v["card"],
+            "-vf", f"{v['card_filter']},setsar=1,format=yuv420p,fps={v['fps']}",
+            "-frames:v", str(pc["count"]), *_enc(cfg), "-f", "mpegts", out])
+    else:
+        i = pc["i"]
+        a = _chain(cfg, i, moves, pc["nframes"], pc["skip"])
+        if pc["kind"] == "trans":
+            # 次の場面のクリップは先頭から入る。動きは自分の全長で計算する。
+            second = paths[i + 1]
+            b = _chain(cfg, i + 1, moves, pc["n2"], 0)
+            d = xf
+        else:
+            second = v["card"]
+            b = f"{v['card_filter']},setsar=1,format=yuv420p,fps={v['fps']}"
+            d = cxf
+        fc = (f"[0:v]{a}[a];[1:v]{b}[b];"
+              f"[a][b]xfade=transition=fade:duration={d}:offset=0[o]")
+        ff(["-loop", "1", "-i", paths[i], "-loop", "1", "-i", second,
+            "-filter_complex", fc, "-map", "[o]",
+            "-frames:v", str(pc["count"]), *_enc(cfg), "-f", "mpegts", out])
+
+
+def _segmented(cfg, paths, seg, cuts, moves, T):
+    v = cfg["video"]
+    pieces, endf = _plan(cfg, paths, seg, cuts, moves, T)
+    d = cfg.wpath("seg")
+    os.makedirs(d, exist_ok=True)
+
+    total = sum(p["count"] for p in pieces)
+    print(f"\n分割書き出し {len(pieces)}片 / 合計 {total}フレーム "
+          f"= {total / v['fps']:.2f}秒（狙い {T:.2f}秒）")
+    if total != endf:
+        raise SystemExit(f"フレーム数が合いません: {total} ≠ {endf}")
+
+    todo = []
+    for k, pc in enumerate(pieces):
+        pc["out"] = os.path.join(d, f"{k:03d}.ts")
+        pc["done"] = pc["out"] + ".done"
+        if not os.path.exists(pc["done"]):
+            todo.append((k, pc))
+    print(f"  済み {len(pieces) - len(todo)}片 / これから {len(todo)}片")
+
+    def work(item):
+        k, pc = item
+        _render(cfg, pc, paths, moves, pc["out"])
+        open(pc["done"], "w").write(str(pc["count"]))
+        print(f"  {k:03d} {pc['kind']:8s} {pc['count']:6d}フレーム 完了", flush=True)
+
+    jobs = int(v.get("jobs", 2))
+    with ThreadPoolExecutor(max_workers=jobs) as ex:
+        list(ex.map(work, todo))
+
+    lst = cfg.wpath("seg_list.txt")
+    with open(lst, "w") as f:
+        for pc in pieces:
+            f.write(f"file '{pc['out']}'\n")
+    out = cfg.wpath("video.mp4")
+    ff(["-f", "concat", "-safe", "0", "-i", lst, "-c", "copy", out])
+    got = duration(out)
+    print(f"\n連結: {out}  {got:.2f}秒（狙い {T:.2f}秒 / 差 {got - T:+.2f}秒）")
     return out
 
 
@@ -139,9 +283,15 @@ def mux(cfg):
     T = man["total"]
     fi, fo = a["fade_in"], a["fade_out"]
     out = os.path.join(cfg["dir"], f"{cfg.slug}_完成.mp4")
+    # ★AAC段の持ち上がりを吸収するための素直なゲイン。圧縮ではないので質感は変わらない。
+    g = a.get("mux_gain_db", 0) or 0
+    af = f"afade=t=in:st=0:d={fi},afade=t=out:st={T - fo:.3f}:d={fo}"
+    if g:
+        af = f"volume={g}dB,{af}"
+        print(f"mux前に {g:+.1f}dB（AAC段の持ち上がりぶん）")
     ff(["-i", cfg.wpath("video.mp4"), "-i", cfg.wpath("music_bed.wav"),
         "-map", "0:v", "-map", "1:a",
-        "-af", f"afade=t=in:st=0:d={fi},afade=t=out:st={T - fo:.3f}:d={fo}",
+        "-af", af,
         "-c:v", "copy", "-c:a", "aac", "-b:a", a.get("bitrate", "320k"),
         "-ar", "48000", "-movflags", "+faststart", out])
     print(f"完成: {out}  ({int(T // 60)}分{int(T % 60):02d}秒)")
@@ -154,6 +304,9 @@ def _check_peak(cfg, path):
 
     ★AAC段でトゥルーピークが上がる。music_bed.wav では狙いどおりでも、
       完成品では超えていることがある（Vol.14は -1.5狙いで **-1.1**、Vol.15は -1.3）。
+      ★★雨のような広帯域のノイズは持ち上がりが大きい。 Vol.16 は **+1.0dB** 上がって
+        -0.2 dBTP まで来た（音楽は +0.2〜0.4dB）。環境音の巻では `mux_gain_db` で
+        素直に下げること。リミッタを強めると雨のうねりが平らになる。
       Vol.14の申し送り「mux 後にトゥルーピークを検査する工程が無い」への対応
       （2026年8月19日に追加）。
       YouTubeの推奨上限は -1.0 dBTP なので、それを超えたときだけ警告する。
