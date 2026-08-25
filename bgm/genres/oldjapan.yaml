@@ -1,0 +1,204 @@
+# Sounds of Old Japan（自然音のみ・楽器ゼロ）
+#
+# Whispers of Japan（器楽）と同じチャンネルに置く並行シリーズ。2026年8月24日に分離した。
+# 1本目は「雨の石畳」（3時間・雨だけ）。
+#
+# ★★分離した理由は、作り方が根本から違うから。
+#   Whispers の中核である analyze / select / order（キー・息の量・曲どうしの一致度）は
+#   環境音には一つも意味がない。代わりに、この形式でしか要らない仕組みが8つ要った：
+#     vet / track_seconds / track_trim_edges / xfade_curve / track_target_lufs /
+#     final_normalize / mux_gain_db / segmented
+#   音以外も違う（月を描かない・人物を出す・Ambient Music を名乗らない・音量が -17.6）。
+#   「変わり種の巻」ではなく別の製品なので、番号も設定も分けてある。
+#
+# ★シリーズの約束は「一つの音だけ、混ぜない」。
+#   題名に `Nothing but ○○` を入れて毎回それを言い切る。
+#   あの棚は「雨＋ピアノ」「雨＋雷＋暖炉」だらけなので、混ぜていないことが差別化になる。
+
+brand: SOUNDS OF OLD JAPAN
+
+audio:
+  # ★曲間は3.0ではなく6.0。 環境音どうしは音程も位相も持たないので、長く重ねるほど
+  #   継ぎ目が分からなくなる（重ねて濁るものが無い）。
+  crossfade: 6.0
+  # ★★曲線は tri ではなく qsin。 tri（直線＝等ゲイン）は相関のある音向けで、
+  #   無相関の環境音を重ねると中点で理論値どおり -3dB 落ちる。
+  #   雨で実測すると継ぎ目が 2.8〜4.8dB へこんだ。3時間で21回へこむのは睡眠用では致命的。
+  #   qsin（四分正弦＝等パワー）なら中点の合成が 0dB。実測で谷は中央 -0.4LU まで潰れた。
+  xfade_curve: qsin
+
+  # ★★2段構えで揃える。
+  #   環境音は素材ごとの元ラウドネスが -20〜-42 と20LU以上ばらつく（Sunoの曲は3LU）。
+  #   1本ずつをいきなり -16 にしようとすると、ピークに余裕の無い素材で loudnorm が
+  #   Dynamic に落ちて**目標に届かないまま黙って通る**（雨で -22.5 止まりの1本があり、
+  #   隣より8.5dB低いまま8分鳴っていた）。
+  #   → track_target_lufs で全部が線形で届く高さに揃え、最後に全体を1回だけ持ち上げる。
+  track_target_lufs: -18
+  target_lufs: -16
+  final_normalize: true
+  true_peak: -1.5
+
+  # ★★AAC段でトゥルーピークが上がる量が、音楽より大きい。
+  #   広帯域のノイズは符号化後のオーバーシュートが大きく、雨では **+1.0dB**（音楽は +0.2〜0.4）。
+  #   -16 のまま出したら完成品が -0.2 dBTP になり、YouTubeの推奨上限 -1.0 を超えた。
+  #   ★リミッタを強めるのではなく、素直にゲインで下げること。
+  #     この形式は「うねりを平らにしない」ことが値打ちなので、圧縮を足すと本末転倒になる。
+  #   ★巻ごとに実測して決め直すこと。 -1.5 は雨での値。
+  mux_gain_db: -1.5
+
+  # ★配布素材は頭と尻がフェードしている。落としてから使う。
+  #   そのままループにすると周回ごとに音量の谷が来る（実測 15.9dB → 端を1割落として0.9dB）。
+  #   `vet` も同じ割合で落として測るので、検品した音と実際に鳴る音が一致する。
+  track_trim_edges: 0.10
+  track_trim_cap: 20.0
+  track_loop_xfade: 4.0
+
+  lra: 11
+  silence_thresh_db: -50
+  silence_min: 0.3
+  head_pad: 0.15
+  tail_pad: 0.30
+  fade_in: 4.0
+  fade_out: 14.0
+  bitrate: 320k
+
+# ★★環境音レイヤー（ambient）は使わない。
+#   Vol.5（水）Vol.15（虫）で効いたのは、音楽の音符の隙間に静かな床があったから。
+#   トラック側そのものが環境音だと、その床が最初から埋まっている。
+#   実測で -24dB でも全帯域 +0.2dB しか動かなかった＝聞こえない。
+#   聞こえる濃さまで上げれば「もう一枚足した」だけで濁る。継ぎ目を覆う役目も qsin が果たす。
+
+video:
+  fps: 30
+  xfade: 2.0
+  output: [1920, 1080]
+  supersample: [2880, 1620]
+  zoom_max: 1.09
+  unsharp: "unsharp=3:3:0.5:3:3:0.0"
+  card: "~/Desktop/Whispers of Japan/ウィスパーオブジャパンエンディングカード_v2.png"
+  card_len: 15.0
+  card_xfade: 2.0
+  card_filter: "scale=1920:1280:flags=lanczos,crop=1920:1080:0:100"
+  # ↑ 切り出しは100で固定。YouTube終了画面の要素位置(下記)がこれ前提。
+  #   動画要素＝左55.3% 上68.8% 幅21.4% 高21.4% / 登録ボタン＝中心 横85.5% 縦79.6% 直径12.0%
+  #   要素の表示開始は「本編尺 − 13秒」。
+  # ★★ただし3時間の巻では終了画面はほぼ意味を持たない。
+  #   要素が出るのは 2:59:55 からで、睡眠用を最後まで起きて見る人はまずいない。
+  #   焼き込みのカードは「終わり方の作法」として残すが、
+  #   次の動画へ繋ぐ役目は再生リストに任せること（[[whispers-growth-mechanism]]）。
+  encode:
+    vcodec: libx264
+    preset: medium
+    crf: 18
+  # ★★長尺は必ず分割で書き出す。 1本のコマンドで組むと、最後の場面のフィルタも
+  #   t=0 から動き続け、全入力ぶんのフレームを同時に抱える。2880x1620 は1フレーム7MBで、
+  #   22枚＋カードでは8GBの機械に載らない。実測で空きメモリ69MB・圧縮3.4GBまで詰まり、
+  #   **10.3時間かけて28〜37%（実時間の0.09倍速）** しか進まなかった。
+  #   分割版は同じ画質設定のまま **実時間の1.16倍速**（約13倍）。メモリは0.62GB×3本。
+  #   `.done` を見て再開するので、落ちても1片ぶん（最大8分）しか失わない。
+  segmented: true
+  jobs: 3
+
+# 縦型ショート（1080x1920）。★レイアウトは公開済みのVol.15のショートを実測して合わせた。
+#   文字の位置は 1080x1920 のフレーム内の絶対値。左の余白88px。
+# ★★出だしが静かな位置から切らないこと。 Vol.15のショートCは本編00:00から採ったため
+#   曲のフェードインを拾い、最初の1秒が本体より19dB低かった（A・Bは0〜5dB差）。
+#   ショートのフィードは1秒未満でスワイプされる。`short` は切る前に頭と本体を比べて警告を出す。
+# ★ケンバーンズは中央固定で寄る/引くだけ。縦画面で横に振ると酔う。
+short:
+  # ★★ショートは本編（-16）ではなく -14 で出す。
+  #   本編を -16 にしたのは「3時間を持ち上げるとリミッタでうねりが平らになる」ため。
+  #   45秒の抜粋にその事情は無く、フィードでは周りと同じ高さでないと埋もれる。
+  #   ★ただし雨は AAC 段でトゥルーピークが +1.0dB 上がるので true_peak を -2.5 に取る
+  #     （本編で -1.5 のまま出したら完成品が -0.2 dBTP になり推奨上限を超えた）。
+  target_lufs: -14
+  true_peak: -2.5
+  seconds: 45.0
+  size: [1080, 1920]
+  supersample: [1620, 2880]
+  fps: 30
+  zoom_max: 1.06          # 45秒と短いので本編の1.09より控えめに
+  audio_fade: 1.5
+  unsharp: "unsharp=3:3:0.4:3:3:0.0"
+  tracking: 10
+  fonts:
+    latin: /System/Library/Fonts/Supplemental/Cochin.ttc
+    jp: "/System/Library/Fonts/ヒラギノ明朝 ProN.ttc"
+  font_index:
+    latin: 1
+    jp: 0
+  sizes:
+    brand: 34
+    title: 96
+    sub: 34
+  # ★下から立ち上がるスクリム。明るい地面が下に来る絵でも文字が沈まないようにする
+  scrim:
+    color: [5, 11, 26]
+    top: 1080
+    full: 1700
+    opacity: 0.62
+    gamma: 1.6
+  layout:
+    x: 88
+    brand: 1238
+    title: 1330
+    sub1: 1462
+    sub2: 1520
+  encode:
+    vcodec: libx264
+    preset: medium
+    crf: 20
+
+thumb:
+  size: [1920, 1080]
+  crop_y: 0.30
+  fonts:
+    serif: /System/Library/Fonts/Supplemental/Cochin.ttc
+    sans: /System/Library/Fonts/Optima.ttc
+  sizes:
+    brand: 56
+    # ★題字は既定172。 ただし作品名が長い巻は2行目が絵の主役を横切る。
+    #   スクリム右端は920px。過去のはみ出しは Whispers で最大469px（Vol.15）。
+    #   これを大きく超えるなら巻の側で 150 前後に落とすこと（168pxでの可読性は実証済み）。
+    title: 172
+    pill: 58
+  font_index:
+    brand: 1
+    title: 1
+    pill: 4
+  colors:
+    gold: [247, 216, 143]
+    cream: [252, 249, 243]
+    navy: [10, 18, 38]
+  scrim:
+    color: [5, 11, 26]
+    start: 40
+    width: 880
+    opacity: 0.78
+    gamma: 1.5
+  layout:
+    x: 96
+    brand: 214
+    t1: 336
+    t2: 528
+    row: 772
+
+# ★このシリーズは光源を固定しない。
+#   Whispers は「月＝冷たい銀」で全巻を統一しているが、こちらは題材ごとに変わる
+#   （雨の巻は提灯の琥珀、蝉の巻なら晩夏の夕暮れ）。共通なのは露出の作法だけ。
+#
+# ★露出の指示は必ず入れる。 手生成でも、題材が暗ければ潰れる。
+#   雨の巻は同じ一文を入れていたのに潰れ中央値28.0%（Vol.15は2.7%）まで出た。
+#   ★出来上がった画像は必ず実測し、基準になる過去巻に合わせるガンマを探すこと。
+#     固定値ではなく実測で決める（雨の巻は1.6でVol.15の実測に一致した）。
+image_style: >-
+  Photorealistic cinematic still of traditional Japanese scenery.
+  Exposed so that texture is clearly visible everywhere — wood grain, stone,
+  foliage, paper, cloth, water. Shadows are lifted and open, full of visible
+  detail, nothing crushed to pure black. High dynamic range, rich texture even
+  in the darkest areas.
+  No text, no signage, no lettering, no calligraphy of any kind.
+  No modern objects: no power lines, no utility poles, no electric lamps,
+  no vehicles, no air conditioners, no plastic, no road markings.
+  Muted palette, fine film grain, 16:9 composition with generous quiet empty
+  space in the left third for titles.
