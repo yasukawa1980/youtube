@@ -55,7 +55,9 @@
   繰り返すと、6回ある折り返しでプツッと切り替わるのが聞こえる。
 """
 import os
+import random
 import re
+import shutil
 
 from .ffutil import (duration, ff, measure_loudness, mmss, pcm_mono, save_json,
                      silence_bounds)
@@ -74,15 +76,28 @@ def build(cfg, order):
 
     man, shortfalls = [], []
     for i, name in enumerate(order, 1):
-        p = os.path.join(src, name)
-        d = duration(p)
-        h, t = silence_bounds(p, d, acfg)
-        # ★端のフェードを落とす（環境音の巻だけ。既定0なので曲の巻は素通り）。
-        edge = acfg.get("track_trim_edges", 0) or 0
-        if edge:
-            cut = min((t - h) * edge, acfg.get("track_trim_cap", 20.0))
-            if (t - h) - 2 * cut > 4.0:
-                h, t = h + cut, t - cut
+        tgt = _target_len(cfg, i, len(order))
+        if isinstance(name, (list, tuple)):
+            # ★曲順の1項目が「複数の素材」なら、その場面はモザイクで組む。
+            if not tgt:
+                raise SystemExit(
+                    f"{i:02d} 番はモザイク指定だが track_seconds が無い。"
+                    "何秒に敷き詰めるか決まらないと組めない。")
+            p = _mosaic(cfg, list(name), tgt, acfg, tt, i)
+            d = duration(p)
+            # 片ごとに揃えて継いであるので、無音検出も端落としも掛けない。
+            h, t = 0.0, d
+            name = "＋".join(os.path.splitext(x)[0][:12] for x in name)[:37]
+        else:
+            p = os.path.join(src, name)
+            d = duration(p)
+            h, t = silence_bounds(p, d, acfg)
+            # ★端のフェードを落とす（環境音の巻だけ。既定0なので曲の巻は素通り）。
+            edge = acfg.get("track_trim_edges", 0) or 0
+            if edge:
+                cut = min((t - h) * edge, acfg.get("track_trim_cap", 20.0))
+                if (t - h) - 2 * cut > 4.0:
+                    h, t = h + cut, t - cut
         seg = t - h
         m = measure_loudness(p, tcfg, ss=h, t=seg)
         dst = os.path.join(out, f"{i:02d}.wav")
@@ -96,7 +111,6 @@ def build(cfg, order):
                 "-ar", "48000", "-ac", "2", "-c:a", "pcm_s24le", dst],
                loglevel="info")
         got = _achieved(r, tt)
-        tgt = _target_len(cfg, i, len(order))
         if tgt:
             _extend(cfg, dst, tgt, acfg.get("track_loop_xfade", 4.0))
         od = duration(dst)
@@ -224,6 +238,115 @@ def _target_len(cfg, i, n):
     if len(t) != n:
         raise SystemExit(f"track_seconds が {len(t)} 個ですが、トラックは {n} 本です。")
     return float(t[i - 1])
+
+
+def _mosaic(cfg, names, target, acfg, tt, tag):
+    """複数の短尺素材から、1場面ぶんの床を継ぎ合わせて作る。
+
+    ★★1本を繰り返すと折り返しが聞こえる題材のための敷き方（2026年8月25日、蝉の巻で追加）。
+      雨は音程も位相も持たないので、1本を8分ループしても誰にも分からなかった。
+      蝉は違う。個々の鳴き声が聞き分けられるので、同じ30秒が16回来れば必ず気づかれる。
+      無料ストックに日本の蝉の長尺が存在しないことが分かったので、
+      **短い素材を何本かまとめて渡し、順を変えた「片」を継いでいく**形にした。
+
+    ★★1片ごとに 速さ・左右・音量 を散らす。 これが要。順を変えるだけでは、
+      同じ素材が再び来たときに「さっきのあれ」と分かってしまう。
+        速さ ±3%  … 虫の音では音程の違いに聞こえない（個体差の範囲に収まる）。
+                    素材の自己相関を完全に崩すので、重ねても櫛形の干渉が出ない。
+        左右入替  … 全く聞こえないのに、ステレオ像だけが入れ替わる。最も安いごまかし。
+        音量 ±dB  … 遠近が動いたように聞こえる。合唱は元々ゆっくり上下している。
+
+    ★片の長さもばらす（既定40〜70秒）。 固定だと切り替わりが等間隔に来て、
+      それ自体が拍になって聞こえる。
+
+    ★素材は先に1本ずつ tt へ揃え、継ぎ目の無いループに作り直してから片にする。
+      揃えずに継ぐと片が変わるたびに音量が動く（それは折り返しより目立つ）。
+    """
+    src = cfg.tracks_dir
+    m = acfg.get("mosaic") or {}
+    lo, hi = m.get("cell", [40.0, 70.0])
+    rates = m.get("rates", [0.97, 0.985, 1.0, 1.015, 1.03])
+    gdb = float(m.get("gain_db", 0.7))
+    swap = m.get("swap_lr", True)
+    xf = float(m.get("xfade", acfg.get("track_loop_xfade", 4.0)))
+    # ★種は場面ごとに変える。 全場面が同じ並びだと、場面をまたいだ繰り返しが出る。
+    rng = random.Random(int(m.get("seed", 1)) * 1000 + tag)
+
+    work = cfg.wpath(f"mosaic/{tag:02d}")
+    shutil.rmtree(work, ignore_errors=True)
+    os.makedirs(work, exist_ok=True)
+    pcm = ["-ar", "48000", "-ac", "2", "-c:a", "pcm_s24le"]
+    tcfg = dict(acfg, target_lufs=tt)
+
+    loops = []
+    for k, n in enumerate(names):
+        sp = os.path.join(src, n)
+        d = duration(sp)
+        h, t = silence_bounds(sp, d, acfg)
+        edge = acfg.get("track_trim_edges", 0) or 0
+        if edge:
+            cut = min((t - h) * edge, acfg.get("track_trim_cap", 20.0))
+            if (t - h) - 2 * cut > 4.0:
+                h, t = h + cut, t - cut
+        seg = t - h
+        if seg <= xf * 3:
+            raise SystemExit(
+                f"{n} は {seg:.1f}秒しか使えるところが無い。"
+                f"ループの重ね幅({xf}秒)の3倍は要る。")
+        # ★1片の中で素材が何周するか。 短い素材ほど片の中の繰り返しが聞こえる。
+        if seg < lo:
+            print(f"   ★{n} は {seg:.0f}秒。1片({lo:.0f}〜{hi:.0f}秒)の中で"
+                  f"最大{hi / seg:.1f}周する。近い繰り返しは散らしても隠れない")
+        lv = os.path.join(work, f"src{k:02d}.wav")
+        mm = measure_loudness(sp, tcfg, ss=h, t=seg)
+        ff(["-ss", f"{h}", "-t", f"{seg}", "-i", sp, "-af",
+            f"loudnorm=I={tt}:TP={acfg['true_peak']}:LRA={acfg['lra']}"
+            f":measured_I={mm['input_i']}:measured_TP={mm['input_tp']}"
+            f":measured_LRA={mm['input_lra']}:measured_thresh={mm['input_thresh']}"
+            f":offset={mm['target_offset']}:linear=true", *pcm, lv])
+        # _seamless_loop は (パス, 長さ) を返す。パスだけ使う。
+        lp, _ = _seamless_loop(cfg, lv, xf, os.path.join(work, f"loop{k:02d}.wav"))
+        loops.append(lp)
+
+    cells, acc, prev = [], 0.0, -1
+    while acc < target + hi:
+        pool = [x for x in range(len(loops)) if x != prev] or [0]
+        j = rng.choice(pool)
+        prev = j
+        cell = rng.uniform(lo, hi)
+        af = []
+        if swap and rng.random() < 0.5:
+            af.append("pan=stereo|c0=c1|c1=c0")
+        rate = rng.choice(rates)
+        if rate != 1.0:
+            af += [f"asetrate=48000*{rate}", "aresample=48000"]
+        af.append(f"volume={rng.uniform(-gdb, gdb):.2f}dB")
+        cp = os.path.join(work, f"cell{len(cells):03d}.wav")
+        # ★-t は出力側に置く。 入力側だと asetrate で伸び縮みする前の長さで切れる。
+        ff(["-stream_loop", "-1", "-i", loops[j], "-af", ",".join(af),
+            "-t", f"{cell}", *pcm, cp])
+        cells.append(cp)
+        acc += cell - xf
+
+    out = cfg.wpath(f"mosaic_{tag:02d}.wav")
+    if len(cells) == 1:
+        shutil.copyfile(cells[0], out)
+    else:
+        ins, parts, prevtag = [], [], "[0:a]"
+        for c in cells:
+            ins += ["-i", c]
+        for k in range(1, len(cells)):
+            tg = f"[m{k}]"
+            parts.append(f"{prevtag}[{k}:a]acrossfade=d={xf}"
+                         f":c1={acfg.get('xfade_curve', 'tri')}"
+                         f":c2={acfg.get('xfade_curve', 'tri')}{tg}")
+            prevtag = tg
+        ff([*ins, "-filter_complex", ";".join(parts), "-map", prevtag,
+            "-t", f"{target}", *pcm, out])
+    # 片は1場面で数百MBになる。使い終わったら消す（3時間だと全場面で数GB）。
+    shutil.rmtree(work, ignore_errors=True)
+    print(f"   モザイク {len(cells)}片 / 素材{len(names)}本 → {duration(out):.1f}s")
+    return out
 
 
 def _extend(cfg, path, target, xf):
