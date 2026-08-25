@@ -54,6 +54,7 @@
   素材は必ず**継ぎ目の無いループに作り直してから**敷く。9分の素材を60分に単純に
   繰り返すと、6回ある折り返しでプツッと切り替わるのが聞こえる。
 """
+import math
 import os
 import random
 import re
@@ -261,6 +262,23 @@ def _mosaic(cfg, names, target, acfg, tt, tag):
 
     ★素材は先に1本ずつ tt へ揃え、継ぎ目の無いループに作り直してから片にする。
       揃えずに継ぐと片が変わるたびに音量が動く（それは折り返しより目立つ）。
+
+    ★★1片は1本ではなく2〜3本を**重ねる**（2026年8月25日、蝉の実素材16本を見て変更）。
+      横に並べるだけでは、素材1本ずつの弱点がそのまま床に出る。実素材はこうだった：
+        ・16本中9本が実質モノラル（L/R 1.00）。効果音サイトの素材なので当然
+        ・単独個体の録音は音量が7〜9dB振れる（鳴き始めと鳴き終わりがそのまま出る）
+        ・全部で8.7分しかない。3時間だと同じ音を20回聴かせることになる
+      重ねると4つとも同時に解ける：
+        ・**モノラルが広がる**。同じ素材でも速さを0.6%ずらして左右に振れば別個体に聞こえる
+          （実際の合唱は個体ごとに音程が違う。物理的にも正しい）
+        ・**振れが均される**。1本が鳴き止んでも他が鳴いている
+        ・**組み合わせが爆発する**。16本から2本選ぶだけで120通り、ずらし位置を含めれば無限
+        ・**単独個体の効果音が「森」になる**。1本では素材、重ねると情景
+      ★重ねてよいのは蝉どうしだけ。 シリーズの約束は「一つの音だけ」なので、
+        蝉に別の音を足すのは禁じ手。同じ幕の中の蝉を重ねるのは合唱そのもの。
+      ★幕をまたいで重ねないこと。 三幕は種の移ろいで作るので、
+        明け方のヒグラシに真昼のアブラゼミを重ねると設計が壊れる。
+        重なる範囲は order_tracks の1項目に何を並べるかで決まる（＝人が決める）。
     """
     src = cfg.tracks_dir
     m = acfg.get("mosaic") or {}
@@ -268,6 +286,10 @@ def _mosaic(cfg, names, target, acfg, tt, tag):
     rates = m.get("rates", [0.97, 0.985, 1.0, 1.015, 1.03])
     gdb = float(m.get("gain_db", 0.7))
     swap = m.get("swap_lr", True)
+    # ★既定を2本以上にしてある。 1本だと実質モノラルの素材が中央の点になってしまう。
+    lay_lo, lay_hi = m.get("layers", [2, 3])
+    detune = float(m.get("detune", 0.006))   # 重ねる同士の速さの差＝個体差
+    spread = float(m.get("spread", 0.7))     # 左右にどこまで振るか
     xf = float(m.get("xfade", acfg.get("track_loop_xfade", 4.0)))
     # ★種は場面ごとに変える。 全場面が同じ並びだと、場面をまたいだ繰り返しが出る。
     rng = random.Random(int(m.get("seed", 1)) * 1000 + tag)
@@ -278,7 +300,7 @@ def _mosaic(cfg, names, target, acfg, tt, tag):
     pcm = ["-ar", "48000", "-ac", "2", "-c:a", "pcm_s24le"]
     tcfg = dict(acfg, target_lufs=tt)
 
-    loops = []
+    loops, pens, lras = [], [], []
     for k, n in enumerate(names):
         sp = os.path.join(src, n)
         d = duration(sp)
@@ -289,10 +311,15 @@ def _mosaic(cfg, names, target, acfg, tt, tag):
             if (t - h) - 2 * cut > 4.0:
                 h, t = h + cut, t - cut
         seg = t - h
-        if seg <= xf * 3:
-            raise SystemExit(
-                f"{n} は {seg:.1f}秒しか使えるところが無い。"
-                f"ループの重ね幅({xf}秒)の3倍は要る。")
+        # ★重ね幅は素材ごとに決める（2026年8月25日）。 効果音サイトの素材には
+        #   10秒前後のものが普通にあり、固定4秒だとループが作れずに止まる。
+        #   短い素材は重ね幅も詰めてよい。どうせ単独で床にはせず、
+        #   合唱の中の1個体として他の層に埋もれる使い方になる。
+        xfc = min(xf, seg / 4.0)
+        if seg <= 2.0:
+            raise SystemExit(f"{n} は使えるところが {seg:.1f}秒しかない。短すぎる。")
+        if xfc < xf:
+            print(f"   {n} は {seg:.0f}秒。ループの重ね幅を {xfc:.1f}秒に詰めた")
         # ★1片の中で素材が何周するか。 短い素材ほど片の中の繰り返しが聞こえる。
         if seg < lo:
             print(f"   ★{n} は {seg:.0f}秒。1片({lo:.0f}〜{hi:.0f}秒)の中で"
@@ -304,27 +331,109 @@ def _mosaic(cfg, names, target, acfg, tt, tag):
             f":measured_I={mm['input_i']}:measured_TP={mm['input_tp']}"
             f":measured_LRA={mm['input_lra']}:measured_thresh={mm['input_thresh']}"
             f":offset={mm['target_offset']}:linear=true", *pcm, lv])
+        # ★★振れの大きい素材は層として下げる（2026年8月25日、蝉の実素材で判明）。
+        #   単独個体の効果音は鳴き始めと鳴き終わりがそのまま入っていて、
+        #   実測で 7〜10dB 振れる。これを対等な層として重ねると床全体がうねる
+        #   （5本重ねの実測で 0.8dB → 4.7dB に悪化した）。
+        #   かといって捨てると素材が足りない。**遠くの一匹として小さく入れる**のが正解で、
+        #   これは情景としても正しい（近くで1匹だけ大きく鳴くほうが不自然）。
+        #   振れの目安は loudnorm が既に測っている LRA を使う（測り直しは要らない）。
+        try:
+            lra = float(mm["input_lra"])
+        except (TypeError, ValueError):
+            lra = 0.0
+        # accent_db を 0 にすると減衰しない（効いているかを確かめるためのつまみ）
+        pen = -min(float(m.get("accent_db", 6.0)), max(0.0, lra - 3.0))
+        if pen < -0.05:
+            print(f"   {n} は LRA {lra:.1f}。層として {pen:.1f}dB 下げる（遠くの一匹にする）")
+        pens.append(pen)
+        lras.append(lra)
         # _seamless_loop は (パス, 長さ) を返す。パスだけ使う。
-        lp, _ = _seamless_loop(cfg, lv, xf, os.path.join(work, f"loop{k:02d}.wav"))
+        lp, _ = _seamless_loop(cfg, lv, xfc, os.path.join(work, f"loop{k:02d}.wav"))
         loops.append(lp)
 
-    cells, acc, prev = [], 0.0, -1
+    lens = [duration(l) for l in loops]
+    # ★★片には必ず「床」を入れる（2026年8月25日、実測で追い込んだ）。
+    #   層を下げるだけでは足りなかった。振れの大きい素材どうしが同じ片に入ると、
+    #   片ごとのラウドネス合わせが**その揺れごと持ち上げる**ので、
+    #   15秒ならしても 3.7dB のうねりが残る（睡眠用では通せない値）。
+    #   LRA の小さい素材＝定常な地を床とし、振れる素材はその上の点景に限る。
+    bed = [x for x in range(len(loops)) if lras[x] <= float(m.get("bed_lra", 6.0))]
+    acc_only = [x for x in range(len(loops)) if x not in bed]
+    if not bed:
+        raise SystemExit(
+            "床にできる素材が1本も無い（全部 LRA が大きい＝鳴き始めと鳴き終わりが"
+            "そのまま入っている）。定常に鳴き続けている録音が最低1本要る。")
+    if acc_only:
+        print(f"   床 {len(bed)}本 / 点景 {len(acc_only)}本"
+              f"（点景は必ず床の上にだけ乗せる）")
+
+    lens_ = lens
+    cells, acc, prev = [], 0.0, []
     while acc < target + hi:
-        pool = [x for x in range(len(loops)) if x != prev] or [0]
-        j = rng.choice(pool)
-        prev = j
         cell = rng.uniform(lo, hi)
-        af = []
-        if swap and rng.random() < 0.5:
-            af.append("pan=stereo|c0=c1|c1=c0")
-        rate = rng.choice(rates)
-        if rate != 1.0:
-            af += [f"asetrate=48000*{rate}", "aresample=48000"]
-        af.append(f"volume={rng.uniform(-gdb, gdb):.2f}dB")
+        k = min(rng.randint(lay_lo, lay_hi), max(1, len(loops)))
+        # ★床を先に取る。 残りの枠にだけ点景を混ぜる。
+        bpool = [x for x in bed if x not in prev] or bed
+        nbed = max(1, k - 1) if acc_only else k
+        pick = rng.sample(bpool, min(nbed, len(bpool)))
+        while len(pick) < nbed:
+            pick.append(rng.choice(bed))
+        rest = [x for x in (acc_only or bed) if x not in pick]
+        while len(pick) < k:
+            pick.append(rng.choice(rest or (acc_only or bed)))
+        rng.shuffle(pick)
+        prev = pick[:]
+
+        ins, chains, tags = [], [], []
+        # 無相関な音を k 本重ねると出力は 10log10(k) dB 上がる。そのぶん下げておく。
+        base = -10.0 * math.log10(k)
+        for q, j in enumerate(pick):
+            ins += ["-stream_loop", "-1", "-i", loops[j]]
+            # ★重ねる同士は必ず速さをずらす。 同じ素材を同じ速さで重ねると
+            #   ただ音量が上がるだけで、個体が増えたようには聞こえない。
+            rate = rng.choice(rates) * (1.0 + detune * (q - (k - 1) / 2.0))
+            # ★開始位置もずらす。 ループは継ぎ目が無いので、どこから始めてもよい。
+            off = rng.uniform(0, max(0.1, lens[j] - 0.1))
+            # 左右の定位を k 本で振り分ける（等パワー）
+            pos = 0.0 if k == 1 else spread * (2.0 * q / (k - 1) - 1.0)
+            la = math.sqrt(max(0.0, 1.0 - pos)) 
+            ra = math.sqrt(max(0.0, 1.0 + pos))
+            if swap and rng.random() < 0.5:
+                la, ra = ra, la
+            g = base + pens[j] + rng.uniform(-gdb, gdb)
+            # ★引数の tag（場面番号）を踏まないこと。 ltag は層のラベル。
+            ltag = f"[l{q}]"
+            chains.append(
+                f"[{q}:a]atrim=start={off:.3f},asetpts=N/SR/TB,"
+                f"asetrate=48000*{rate:.5f},aresample=48000,"
+                f"pan=stereo|c0={la:.4f}*c0|c1={ra:.4f}*c1,"
+                f"volume={g:.2f}dB{ltag}")
+            tags.append(ltag)
+        if k == 1:
+            chains.append(f"{tags[0]}anull[o]")
+        else:
+            chains.append(f"{''.join(tags)}amix=inputs={k}"
+                          f":duration=longest:normalize=0[o]")
         cp = os.path.join(work, f"cell{len(cells):03d}.wav")
         # ★-t は出力側に置く。 入力側だと asetrate で伸び縮みする前の長さで切れる。
-        ff(["-stream_loop", "-1", "-i", loops[j], "-af", ",".join(af),
+        ff([*ins, "-filter_complex", ";".join(chains), "-map", "[o]",
             "-t", f"{cell}", *pcm, cp])
+        # ★★片ごとにラウドネスを揃える（2026年8月25日）。
+        #   本数で割るだけでは揃わない。片ごとに顔ぶれが違うので、
+        #   静かな素材2本の片と賑やかな素材3本の片で高さが変わり、
+        #   それが切り替わるたびの段差になる（実測4.7dB）。
+        #   ★リミッタは使わずゲインだけで合わせる。 この形式は「うねりを平らにしない」
+        #     ことが値打ちなので、片ごとに圧縮を掛けたら意味が無くなる。
+        cm = measure_loudness(cp, tcfg) if m.get("level_cells", True) else None
+        try:
+            gain = max(-9.0, min(9.0, tt - float(cm["input_i"]))) if cm else 0.0
+        except (TypeError, ValueError):
+            gain = 0.0
+        if abs(gain) > 0.05:
+            fx = cp + ".lv.wav"
+            ff(["-i", cp, "-af", f"volume={gain:.2f}dB", *pcm, fx])
+            os.replace(fx, cp)
         cells.append(cp)
         acc += cell - xf
 
@@ -345,7 +454,8 @@ def _mosaic(cfg, names, target, acfg, tt, tag):
             "-t", f"{target}", *pcm, out])
     # 片は1場面で数百MBになる。使い終わったら消す（3時間だと全場面で数GB）。
     shutil.rmtree(work, ignore_errors=True)
-    print(f"   モザイク {len(cells)}片 / 素材{len(names)}本 → {duration(out):.1f}s")
+    print(f"   モザイク {len(cells)}片（{lay_lo}〜{lay_hi}重ね） / 素材{len(names)}本 "
+          f"→ {duration(out):.1f}s")
     return out
 
 
