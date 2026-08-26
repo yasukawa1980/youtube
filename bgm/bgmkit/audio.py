@@ -520,6 +520,69 @@ def _seamless_loop(cfg, src, xf, out=None):
     return out, L - xf
 
 
+def _sprinkle(cfg, spec, total):
+    """短い音を、間隔を空けてまばらに置いた層を作る（風鈴の打音など）。
+
+    ★★「敷く」ではなく「点で置く」ための仕組み（2026年8月26日、風鈴で必要になった）。
+      雨・蝉・虫は通して鳴り続けるので `_seamless_loop` で敷けばよかった。
+      **風鈴は風が吹いたときだけ鳴る間欠音**で、実際の縁側では数十秒の沈黙をはさむ。
+      敷くと鳴りっぱなしになり、53分では消耗する。
+
+    ★実測がそれを裏づけた。 落とした長尺2本（155秒・60秒）は打音の間隔の
+      **76〜85%が0.5秒未満**、最大でも3秒だった。強い風で鳴り続けている録音で、
+      「風が来ては去る縁側」ではない。**使わない。**
+      代わりに短尺5本（5.7〜6.8秒・孤立した打音・地が-61〜-74dB）を点として置く。
+
+    ★1打ごとに 左右・速さ・音量 を散らす。 素材が4本ともモノラルなので、
+      振らないと全部が同じ位置で鳴る。速さは±1.5%（風鈴は個体で音程が違うので自然）。
+    """
+    files = [os.path.expanduser(f) for f in spec["files"]]
+    for f in files:
+        if not os.path.exists(f):
+            raise SystemExit(f"風鈴の素材が見つかりません: {f}")
+    lo, hi = spec.get("every", [25.0, 70.0])
+    spread = float(spec.get("spread", 0.6))
+    rates = spec.get("rates", [0.985, 0.995, 1.0, 1.005, 1.015])
+    gdb = float(spec.get("gain_jitter_db", 2.0))
+    rng = random.Random(int(spec.get("seed", 1)))
+
+    work = cfg.wpath("sprinkle")
+    shutil.rmtree(work, ignore_errors=True)
+    os.makedirs(work, exist_ok=True)
+    pcm = ["-ar", "48000", "-ac", "2", "-c:a", "pcm_s24le"]
+
+    parts, t, k, prev = [], 0.0, 0, -1
+    while t < total:
+        gap = rng.uniform(lo, hi)
+        pool = [x for x in range(len(files)) if x != prev] or [0]
+        j = rng.choice(pool)
+        prev = j
+        pos = rng.uniform(-spread, spread)
+        la, ra = math.sqrt(max(0.0, 1.0 - pos)), math.sqrt(max(0.0, 1.0 + pos))
+        rate = rng.choice(rates)
+        af = [f"asetrate=48000*{rate:.4f}", "aresample=48000",
+              f"pan=stereo|c0={la:.4f}*c0|c1={ra:.4f}*c1",
+              f"volume={rng.uniform(-gdb, gdb):.2f}dB"]
+        g = os.path.join(work, f"g{k:04d}.wav")
+        c = os.path.join(work, f"c{k:04d}.wav")
+        # 沈黙 → 打音 の順に並べ、あとで一本に繋ぐ
+        ff(["-f", "lavfi", "-i", f"anullsrc=r=48000:cl=stereo", "-t", f"{gap:.3f}", *pcm, g])
+        ff(["-i", files[j], "-af", ",".join(af), *pcm, c])
+        parts += [g, c]
+        t += gap + duration(c)
+        k += 1
+
+    lst = os.path.join(work, "list.txt")
+    with open(lst, "w") as fh:
+        for p_ in parts:
+            fh.write("file '" + p_.replace("'", "'\\''") + "'\n")
+    out = cfg.wpath("ambient_sprinkle.wav")
+    ff(["-f", "concat", "-safe", "0", "-i", lst, "-t", f"{total}", *pcm, out])
+    print(f"風鈴 {k}打 / {total / 60:.0f}分（平均 {total / max(k, 1):.0f}秒に1回）"
+          f" 素材{len(files)}本")
+    return out
+
+
 def _lay_ambient(cfg, bed, total, seams):
     """連結済みの音楽の上に環境音を1枚敷き、-14 LUFS に測り直す。"""
     acfg, amb = cfg["audio"], cfg["ambient"]
@@ -542,12 +605,23 @@ def _lay_ambient(cfg, bed, total, seams):
     print(f"\n環境音 {os.path.basename(src)} → ループ {loop_len:.1f}秒 × "
           f"{total / loop_len:.1f}回 / {how}")
 
+    # ★★点で置く層（風鈴など）。 書かなければ従来どおり地の1枚だけ。
+    spec = amb.get("sprinkle")
+    spr = _sprinkle(cfg, spec, total) if spec else None
+
     mixed = cfg.wpath("music_bed_ambient.wav")
     fc = (f"[0:a]atrim=0:{total},asetpts=N/SR/TB,{_env(amb, gain, seams)},"
-          f"afade=t=in:d={fi},afade=t=out:st={total - fo}:d={fo}[amb];"
-          f"[1:a][amb]amix=inputs=2:duration=first:normalize=0[o]")
-    ff(["-stream_loop", "-1", "-i", loop, "-i", dry,
-        "-filter_complex", fc, "-map", "[o]",
+          f"afade=t=in:d={fi},afade=t=out:st={total - fo}:d={fo}[amb];")
+    ins = ["-stream_loop", "-1", "-i", loop, "-i", dry]
+    if spr:
+        sg = float(spec.get("gain_db", -12.0))
+        ins += ["-i", spr]
+        fc += (f"[2:a]volume={sg}dB,afade=t=in:d={fi},"
+               f"afade=t=out:st={total - fo}:d={fo}[spr];"
+               f"[1:a][amb][spr]amix=inputs=3:duration=first:normalize=0[o]")
+    else:
+        fc += "[1:a][amb]amix=inputs=2:duration=first:normalize=0[o]"
+    ff([*ins, "-filter_complex", fc, "-map", "[o]",
         "-ar", "48000", "-ac", "2", "-c:a", "pcm_s24le", mixed])
 
     # 重ねたぶん上がるので測り直す。-18dB なら 0.1LU 程度だが、
