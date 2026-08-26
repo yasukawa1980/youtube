@@ -65,6 +65,30 @@ class Config(dict):
         return self.get("slug") or f"vol{self['volume']}"
 
 
+def _load_genre(name, seen=None):
+    """ジャンル設定を読む。`extends:` があれば親に重ねて返す。
+
+    ★★2026年8月26日に足した。 3本目のシリーズ（Days of Old Japan）は
+      Whispers と音の設計がほぼ同じで、違うのは環境音の濃さ・曲数・画風・帯だけ。
+      継承が無いと**200行の調整済みの値を複製する**ことになり、しかも
+      yaml で写すとコメント（＝なぜその値なのかの根拠）が全部落ちる。
+      **差分だけ書けるほうが、後から読む人に正しく伝わる。**
+    """
+    seen = seen or []
+    if name in seen:
+        raise SystemExit("ジャンルの extends が循環しています: "
+                         + " → ".join(seen + [name]))
+    p = os.path.join(GENRE_DIR, f"{name}.yaml")
+    if not os.path.exists(p):
+        raise SystemExit(f"ジャンル設定が見つかりません: {p}")
+    with open(p) as f:
+        g = yaml.safe_load(f) or {}
+    parent = g.pop("extends", None)
+    if parent:
+        return _merge(_load_genre(parent, seen + [name]), g)
+    return g
+
+
 def load(volume_file):
     """巻の設定ファイルを読み、genre: で指定されたジャンル設定に重ねて返す。"""
     path = volume_file
@@ -82,11 +106,7 @@ def load(volume_file):
     genre = vol.get("genre")
     if not genre:
         raise SystemExit(f"{path} に genre: がありません")
-    gpath = os.path.join(GENRE_DIR, f"{genre}.yaml")
-    if not os.path.exists(gpath):
-        raise SystemExit(f"ジャンル設定が見つかりません: {gpath}")
-    with open(gpath) as f:
-        base = yaml.safe_load(f) or {}
+    base = _load_genre(genre)
 
     cfg = Config(_expand(_merge(base, vol)))
     cfg["_path"] = path
