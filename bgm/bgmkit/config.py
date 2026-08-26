@@ -5,7 +5,9 @@
 
 巻の側に同じキーを書けばジャンルの値を上書きできる（辞書は再帰的にマージ）。
 """
+import io
 import os
+import re
 
 import yaml
 
@@ -114,14 +116,32 @@ def load(volume_file):
 
 
 def save_volume(cfg, key, value):
-    """巻の設定ファイルに結果を書き戻す（order コマンドが曲順を確定するときに使う）。
+    """巻の設定ファイルに結果を書き戻す（select / order が確定した結果を入れる）。
 
-    コメントは保持されないので、書き戻す対象は order / tracks のような
-    自動で決まるキーに限る。
+    ★★2026年8月26日に作法を変えた。 それまでは `yaml.safe_dump` で**丸ごと書き直して**
+      いたので、**巻のYAMLのコメントが全部消えていた**（＝なぜその値なのかの根拠が消える）。
+      DOJ01 で実際に失った。長らく「既知だが未対応」だった不具合。
+
+      直し方は、丸ごと書き直すのをやめて**該当キーの行だけ差し替える**こと。
+      本文はテキストとして扱い、書き戻すキーのブロックを取り除いてから末尾に足す。
+      これで人が書いた行は1文字も動かない。
     """
     path = cfg["_path"]
-    with open(path) as f:
-        vol = yaml.safe_load(f) or {}
-    vol[key] = value
-    with open(path, "w") as f:
-        yaml.safe_dump(vol, f, allow_unicode=True, sort_keys=False, width=200)
+    src = io.open(path, encoding="utf-8").read()
+    lines = src.splitlines(True)
+
+    out, i = [], 0
+    while i < len(lines):
+        if re.match(rf"^{re.escape(key)}\s*:", lines[i]):
+            i += 1
+            # そのキーに属する行（字下げ・リスト・空行）を読み飛ばす。
+            # 行頭が `#` や別のキーなら止まるので、後ろのコメントは残る。
+            while i < len(lines) and (lines[i][:1] in " \t-" or not lines[i].strip()):
+                i += 1
+            continue
+        out.append(lines[i])
+        i += 1
+
+    body = "".join(out).rstrip("\n")
+    block = yaml.safe_dump({key: value}, allow_unicode=True, sort_keys=False, width=200)
+    io.open(path, "w", encoding="utf-8").write(body + "\n\n" + block)
