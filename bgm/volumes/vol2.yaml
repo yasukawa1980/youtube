@@ -1,0 +1,17 @@
+# Whispers of Japan / Vol.2 — サムネイル専用の設定
+#
+# ★★背景は本編から抜いた1コマ。 この巻は bgmkit 以前で、生成に使った元画像が
+#   残っていない。**生成し直すとサムネにだけ本編に無い絵が出る**ので、
+#   公開済みの本編（竹林_編集済み_v2.mp4、実尺1386.5秒＝Vol.2と一致）から抜いた。
+#
+# ★1280秒の場面を選んだ理由。 7つの候補を実測して、右側（絵を見せる側）の輝度が
+#   最も高い（34.9。他は20〜22）。168pxで被写体が潰れないことが最優先
+#   （Vol.10の畳の間は暗すぎて168pxで判別できなかった前例がある）。
+#   左側は暗い竹なので題字が乗る。
+genre: whispers
+volume: 2
+slug: vol2
+dir: "/Volumes/ESD-EPB/Whispers of Japan"
+background: "/Volumes/ESD-EPB/Whispers of Japan/Vol2_背景_01.png"
+title_lines: [月夜の, 竹林]
+thumb_out: "/Volumes/ESD-EPB/Whispers of Japan/Vol2_サムネ_16x9_日本語.png"

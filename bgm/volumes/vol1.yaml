@@ -1,0 +1,13 @@
+# Whispers of Japan / Vol.1 — サムネイル専用の設定
+#
+# ★★この巻だけ背景を生成し直す必要がある。 元画像も完成動画も残っていない
+#   （`月夜の静寂.mov` は全フレーム真っ黒の音源ファイル）。他の15本は
+#   本編か元画像から作れた。プロンプトは Vol1_サムネ背景_プロンプト.md。
+#   ★YouTube Studio から本編を落とせるなら、そこから1コマ抜くほうが確実。
+genre: whispers
+volume: 1
+slug: vol1
+dir: "/Volumes/ESD-EPB/Whispers of Japan"
+background: "/Volumes/ESD-EPB/Whispers of Japan/Vol1_背景_01.png"
+title_lines: [月夜の, 鳥居]
+thumb_out: "/Volumes/ESD-EPB/Whispers of Japan/Vol1_サムネ_16x9_日本語.png"
