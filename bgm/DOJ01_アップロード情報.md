@@ -1,0 +1,196 @@
+# Days of Old Japan 01 —— アップロード情報
+
+**2026年8月26日。** シリーズ1本目。**音は完成、映像は書き出し中。**
+
+| | |
+|---|---|
+| 本編 | `BGM/3_Days of Old Japan/DOJ01_素材/doj01_完成.mp4`（未生成） |
+| 尺 | **52分38秒**（20曲） |
+| 音量 | **−14 LUFS**（★mux後にトゥルーピークを実測すること） |
+| サムネ | `doj01_サムネ_16x9.png`（題字「風鈴の縁側」・顔あり・尺バッジなし） |
+| 絵 | 水彩5枚（**4曲ごとに切り替え**） |
+
+> **★★これは3本目のライン Days of Old Japan の1本目。**
+> Whispers は器楽のみ、Sounds of Old Japan は自然音のみ。**この巻は重ねる。**
+> **`Ambient Music` を名乗ってよい**（楽器が鳴る。SOJで禁じた根拠が当てはまらない）。
+>
+> **★自然音を題名に明記する。** 混ぜていることが売りなので隠さない
+> （Vol.5 の `蛍の川 with River Sounds` が前例）。
+>
+> **★音量は Whispers と同じ −14 LUFS。** SOJ（−17.6）とは違う。
+> 楽器が鳴る巻なので Whispers 側に揃えてある。
+>
+> **★★絵画風はこのシリーズの存在理由そのもの。** 音だけなら「Whispersに自然音を
+> 足したもの」でしかない。**絵に最も手をかけるシリーズ。**
+
+---
+
+## 1. タイトル（英語）
+
+```
+The Summer Verandah 🌙 Japanese Ambient Music with Wind Chimes | 53 Min
+```
+
+- 作品名が先頭 ✓ ／ 🌙 ✓ ／ 巻数なし ✓
+- **`Ambient Music` を名乗る** ✓（このシリーズでは正しい）
+- **`with Wind Chimes` で自然音を明記** ✓
+- 尺は実測 52分38秒 → `53 Min` ✓
+
+## 2. タイトル（日本語ローカライズ）
+
+```
+風鈴の縁側 🌙 和風アンビエント｜作業用BGM・読書・瞑想に｜53分
+```
+
+サムネの題字（風鈴の縁側）と一致している。
+**★「睡眠」「寝落ち」を入れない**（53分は睡眠用の尺ではない。Whispers と同じ理由）。
+
+---
+
+## 3. 説明文
+
+**★貼る前に日本語ブロックの文字化けを目で確認すること。**
+
+```
+Wind chimes on an old verandah, and the cicadas far off in the hills.
+
+Twenty pieces for shakuhachi, koto, biwa, ryuteki, sho, kokyu, felt piano and
+small bells, chosen from a hundred and eight by measurement so that no two
+neighbouring pieces sound alike.
+
+Under them, a summer afternoon: distant cicadas holding the air, and a single
+glass wind chime that speaks only when the breeze comes — about once a minute,
+never on a schedule.
+
+The five paintings move outward as the hour passes: from the shade of the room,
+out to the verandah, close to the chime, down into the garden, and finally past
+the hedge to the open fields.
+
+For rest, reading, study and quiet work.
+
+── Chapters ──
+0:00   The shade of the room
+2:20   A fan set down
+4:39   Barley tea, cooling
+6:59   Light at the threshold
+9:53   Out to the verandah
+12:34  The shadow of the reed blind
+15:39  The first breath of wind
+18:59  The chime answers
+21:09  Glass and light
+24:08  The paper tag turns
+27:00  The stillness between
+29:19  The afternoon deepens
+31:18  Down into the garden
+33:49  Moss and stepping stones
+36:44  Water standing in the basin
+39:23  Shade under the maple
+41:47  Past the hedge
+44:27  The young rice
+46:35  The far hills
+49:11  The day holds still
+
+──
+
+古い縁側の風鈴と、遠くの山で鳴く蝉。
+
+尺八・箏・琵琶・龍笛・笙・胡弓・フェルトピアノ・金属打による20曲。
+108曲から、隣り合う曲が似ないように実測で選んであります。
+
+その下に夏の午後を敷きました。遠くの蝉が地を保ち、硝子の風鈴は
+風が来たときだけ鳴ります。およそ1分に1度、決まった間隔ではなく。
+
+水彩5枚は時間とともに外へ出ていきます。座敷の暗がりから縁側へ、
+風鈴に寄り、庭へ降り、最後は生垣の向こうの青田へ。
+
+休息・読書・作業に。
+
+── チャプター ──
+0:00   座敷の暗がり
+2:20   置かれた団扇
+4:39   冷えた麦茶
+6:59   敷居の光
+9:53   縁側へ出る
+12:34  簾の影
+15:39  はじめの風
+18:59  風鈴が応える
+21:09  硝子と光
+24:08  短冊がまわる
+27:00  鳴らないあいだ
+29:19  午後が深まる
+31:18  庭へ降りる
+33:49  苔と飛石
+36:44  手水鉢の水
+39:23  楓の木陰
+41:47  生垣の向こう
+44:27  青田
+46:35  遠い山なみ
+49:11  動かない一日
+```
+
+### 説明文の主張と実物の照合
+
+| 主張 | 実物 | |
+|---|---|---|
+| `Twenty pieces` | 20曲（`order_tracks`） | ✓ |
+| 楽器8種の列挙 | 実際は9種（＋⑩フル編成）。列挙は独奏の8種 | ✓ |
+| `chosen from a hundred and eight` | 在庫108本から選抜 | ✓ |
+| `no two neighbouring pieces sound alike` | 隣接の最大0.312／平均0.268（Vol.10の0.348より良い） | ✓ |
+| `distant cicadas` | `夏の山2`（こもり+28.6＝最も遠い）を−16dB | ✓ |
+| `about once a minute` | 風鈴60打 / 52分38秒 ＝ **平均53秒に1回** | ✓ |
+| `never on a schedule` | 間隔を25〜70秒でばらしてある | ✓ |
+| 絵が外へ出ていく | 5枚が座敷→縁側→風鈴→庭→夏野 | ✓ |
+| チャプター20 | manifest の実測と一致。**4章ごとに絵が変わる** | ✓ |
+
+---
+
+## 4. タグ
+
+```
+japanese ambient music, wind chimes, furin, summer ambience, shakuhachi, koto,
+biwa, study music, reading music, japanese summer, days of old japan,
+watercolor, relaxation, focus, 53 minutes
+```
+
+## 5. 設定
+
+- 再生リスト … **Days of Old Japan**（新規に作る）
+- 終了画面 … 焼き込み済み。要素の表示開始は「本編尺 − 13秒」
+- 子ども向け … いいえ／コメント … 通常
+
+---
+
+## 6. ショート（未作成）
+
+絵5枚それぞれから1本ずつ、計5本を想定。曲の頭からは採らない。
+`shorts:` を巻のYAMLに足して `python3 -m bgmkit short doj01`。
+
+| 札 | 絵 | 場面 |
+|---|---|---|
+| A | 1 座敷 | 暗がりから庭を見る |
+| B | 2 縁側と簾 | 風鈴が初めて出る |
+| C | 3 風鈴の寄り | この巻の顔 |
+| D | 4 庭 | 手水鉢 |
+| E | 5 夏野 | いちばん外 |
+
+字幕案：`風鈴の縁側` ／ `風鈴と遠くの蝉` `53分版はチャンネルに`
+
+---
+
+## 7. 公開前チェック
+
+- [ ] **★`video` → `mux` を通す**（映像は書き出し中）
+- [ ] **★★mux後にトゥルーピークを実測する。** 蝉の巻ではAAC段の持ち上がりが
+      **+0.3dB**（雨は+1.0dB）と素材で違った。**この巻でも測り直すこと**
+- [ ] 完成尺が 52分38秒 か（題名の `53 Min` と整合）
+- [ ] **通しで一度は耳を通す**（人声はどの数字にも出ない）
+- [ ] 説明文の日本語ブロックに文字化けが無いか
+- [ ] ショート5本を作る
+
+### 済んだもの
+
+- [x] 環境音の濃さ … **地 −16dB / 点 −12dB**（−16/−20/−24 の90秒抜粋を試聴して本人決定）。
+      効き 3-5k **+20.1dB** / 5-8k **+32.0dB**
+- [x] 曲順 … 隣接の最大0.312／平均0.268（Long Nights 3 とほぼ同じ、Vol.10より良い）
+- [x] 絵6枚 … DL順＝場面順を全枚照合／MD5の重複なし／短冊は無地／左のモヤは解消
+- [x] サムネを168pxで確認（題字「風鈴の縁側」・人物とも読める）
