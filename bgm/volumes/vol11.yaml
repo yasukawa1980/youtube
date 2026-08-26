@@ -1,15 +1,15 @@
 # Whispers of Japan Vol.11 — Moonlit Zen Garden（月夜の枯山水）／テーマ「無」
 #
 # フェーズ2の1本目。60分以上・全曲新規。
-# 設計は ~/Desktop/Whispers of Japan/Vol11_テーマ設計とプロンプト.md
+# 設計は ~/Desktop/BGM/1_Whispers of Japan/Vol11_素材_枯山水/Vol11_テーマ設計とプロンプト.md
 #
 # ★注意：`--write` は yaml.safe_dump でこのファイルを丸ごと書き直すため、
 #   コメントが全部消える。select / order をやり直したら注記を入れ直すこと。
 
 genre: whispers
 volume: 11
-dir: "~/Desktop/Whispers of Japan/Vol11_素材_枯山水"
-background: "~/Desktop/Whispers of Japan/Vol11_背景_01.png"
+dir: "~/Desktop/BGM/1_Whispers of Japan/Vol11_素材_枯山水"
+background: "~/Desktop/BGM/1_Whispers of Japan/Vol11_素材_枯山水/Vol11_背景_01.png"
 
 title_lines: [月夜の, 枯山水]
 runtime: "62 MIN"                      # 音声確定後に実尺と突き合わせる

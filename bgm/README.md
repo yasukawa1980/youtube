@@ -36,8 +36,8 @@ python3 -m bgmkit short   vol11    # 縦型ショート（1080x1920）を作る�
 ```yaml
 genre: whispers
 volume: 11
-dir: "~/Desktop/Whispers of Japan/Vol11_素材_xxx"
-background: "~/Desktop/Whispers of Japan/Vol11_背景_01.png"
+dir: "~/Desktop/BGM/1_Whispers of Japan/Vol11_素材_xxx"
+background: "~/Desktop/BGM/1_Whispers of Japan/Vol11_素材_枯山水/Vol11_背景_01.png"
 title_lines: [MOONLIT, SOMETHING]
 runtime: "27 MIN"
 

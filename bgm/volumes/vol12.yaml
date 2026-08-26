@@ -1,7 +1,7 @@
 # Whispers of Japan Vol.12 — Moonlit Pagoda（月夜の五重塔）／テーマ「仰ぐ」
 #
 # フェーズ2の2本目。62〜66分・22曲・全曲新規。
-# 設計は ~/Desktop/Whispers of Japan/Vol12_テーマ設計とプロンプト.md
+# 設計は ~/Desktop/BGM/1_Whispers of Japan/Vol12_素材_五重塔/Vol12_テーマ設計とプロンプト.md
 #
 # 差別化の軸は「視線の向き」。Vol.1〜11とコンピ2本の13本すべてがアイレベルか俯瞰で、
 # 一度も上を向いていない。Vol.11（水平の反復・明るい地面に黒い石）に対して、
@@ -12,11 +12,11 @@
 
 genre: whispers
 volume: 12
-dir: "~/Desktop/Whispers of Japan/Vol12_素材_五重塔"
+dir: "~/Desktop/BGM/1_Whispers of Japan/Vol12_素材_五重塔"
 
 # サムネの元画は場面9B（相輪と月・寄り）＝ 18枚目。
 # 生成した画像をそのまま使う（Vol.11の Vol11_背景_01.png も同じ 1536x864 の複製だった）。
-background: "~/Desktop/Whispers of Japan/Vol12_素材_五重塔/画像/vol12_18.png"
+background: "~/Desktop/BGM/1_Whispers of Japan/Vol12_素材_五重塔/画像/vol12_18.png"
 
 title_lines: [月夜の, 五重塔]
 runtime: "62 MIN"                      # 実測 3708.69s = 61分48秒

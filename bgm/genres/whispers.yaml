@@ -30,7 +30,7 @@ breath_band: [1000, 5000]
 #
 # 既定の -18 は虫の音（`環境音/虫の音_夜_3分_Pixabay17064.mp3`）に合わせた値で、
 # 3〜5kHzが +17.7dB 上がる。水を使う巻では -22 前後まで下げないと濃くなりすぎる。
-# 素材の出典は `~/Desktop/Whispers of Japan/環境音/出典とライセンス.md`。
+# 素材の出典は `~/Desktop/BGM/_共通/環境音/出典とライセンス.md`。
 #
 # ★loop_xfade は素材を継ぎ目の無いループに作り直すときの重ね幅。
 #   単純な繰り返しだと折り返しが聞こえる（3分素材を60分に敷けば20回）。
@@ -72,7 +72,7 @@ video:
   supersample: [2880, 1620]       # 出力の1.5倍で描いてから縮める。補間のにじみが平均化される
   zoom_max: 1.09
   unsharp: "unsharp=3:3:0.5:3:3:0.0"
-  card: "~/Desktop/Whispers of Japan/ウィスパーオブジャパンエンディングカード_v2.png"
+  card: "~/Desktop/BGM/_共通/エンドカード/ウィスパーオブジャパンエンディングカード_v2.png"
   card_len: 15.0
   card_xfade: 2.0
   card_filter: "scale=1920:1280:flags=lanczos,crop=1920:1080:0:100"

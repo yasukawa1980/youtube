@@ -191,7 +191,7 @@ japanese ambient music, ambient music, relaxing music, study music, focus music,
 
 ## 公開前チェック
 
-`/Users/ryo/Desktop/Whispers of Japan/公開前チェックリスト.md` を使う。この巻で特に見るもの：
+`~/Desktop/BGM/_共通/資料/公開前チェックリスト.md` を使う。この巻で特に見るもの：
 
 - [ ] **尺の表記**：`3 Hours` と実尺3時間0分36秒（差0.6分）
 - [ ] **説明文のシリーズ一覧**が実在するタイトルと一致しているか（Vol.14は未公開）

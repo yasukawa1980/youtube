@@ -142,7 +142,7 @@
 ### 素材の調達リスト
 
 すべて **Pixabay Content License**（Vol.5・Vol.15と同じ出所）。
-`~/Desktop/Whispers of Japan/環境音/出典とライセンス.md` に追記していくこと。
+`~/Desktop/BGM/_共通/環境音/出典とライセンス.md` に追記していくこと。
 
 **★全素材の絶対条件：雷が1回も入っていないこと。** 睡眠用で最悪の突発音であり、
 `rain` で検索すると `rain and thunder` が大量に混ざる。

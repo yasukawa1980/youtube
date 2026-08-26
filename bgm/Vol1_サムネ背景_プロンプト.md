@@ -97,7 +97,7 @@ Calm and completely static. No people, no animals. No cherry blossoms anywhere. 
 4. 保存して、下を実行する：
 
 ```bash
-cp <生成した画像> "/Volumes/ESD-EPB/BGM/1_Whispers of Japan/Vol1_資料と楽曲/Vol1_背景_01.png"
+cp <生成した画像> "/Volumes/ESD-EPB/BGM/1_Whispers of Japan/Vol01_資料と楽曲/Vol1_背景_01.png"
 python3 -m bgmkit thumb vol1
 ```
 

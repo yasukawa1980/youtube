@@ -1,7 +1,7 @@
 # Whispers of Japan Vol.14 — Moonlit Pine（月夜の松）／テーマ「巡る」
 #
 # ★2026年8月12日、素材が揃った。画像22枚・楽曲87本（8種）。選抜まで完了。
-#   プロンプトは `~/Desktop/Whispers of Japan/Vol14_コピー用プロンプト.md`（画像22 + Suno 8種）。
+#   プロンプトは `~/Desktop/BGM/1_Whispers of Japan/Vol14_素材_松/Vol14_コピー用プロンプト.md`（画像22 + Suno 8種）。
 #
 # 差別化の軸は「単一の対象を全方位から」。既存13本＋コンピ2本はどれも“場所”を旅していた。
 # この巻は一本の松だけを撮る。松は最後まで動かず、動くのはカメラだけ。
@@ -23,13 +23,13 @@
 
 genre: whispers
 volume: 14
-dir: "~/Desktop/Whispers of Japan/Vol14_素材_松"
+dir: "~/Desktop/BGM/1_Whispers of Japan/Vol14_素材_松"
 
 # サムネの元画は場面8A（月を背にした松の全景シルエット）＝ 15枚目。
 # 168pxで効くのは「光る空に浮かぶ黒い一本の木」という形の単純さ。
 # Vol.13が「枝の網目」という細かい形だったので、この巻は逆に大きな塊で識別させる。
 # ★2026年8月12日に実物で確認済み。168pxでも樹形が保たれ、左半分が空いていて題字が乗る。
-background: "~/Desktop/Whispers of Japan/Vol14_素材_松/画像/vol14_15.png"
+background: "~/Desktop/BGM/1_Whispers of Japan/Vol14_素材_松/画像/vol14_15.png"
 
 title_lines: [月夜の, 松]
 # ★60分の巻。選抜の合計は60.1分だが、実尺はクロスフェードで縮むので audio を通してから
