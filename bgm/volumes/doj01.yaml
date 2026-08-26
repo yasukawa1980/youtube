@@ -251,3 +251,20 @@ order_tracks:
 - v11_鼓弓 (1).wav
 - 琵琶1−2.wav
 - v11_笙のみ１.wav
+
+# ★★絵は水彩・不透明水彩の6枚（本編5枚＋サムネ）。2026年8月26日に2回目で確定。
+#   1回目は左側が「モヤ」になった。原因は `Nothing at all is placed in the LEFT THIRD` で、
+#   **何も無いと書くとモデルは描くものが無く靄で埋める**。実在の面を与えて直した。
+#   ★そもそも本編に文字は乗らない（題字はサムネだけ）ので、左を空ける規則自体が不要だった。
+# ★人物は1・2・4・5に左寄りの後ろ姿。3（風鈴の寄り）だけ無人。顔はサムネのみ。
+# ★DL順＝場面順であることを6枚とも目視で照合済み。MD5の重複なし。
+# ★実測 52分38秒 → 53 MIN。サムネには描かない（pill: false）が題名と説明文で使う。
+runtime: "53 MIN"
+title_lines: [風鈴の, 縁側]
+background: "/Volumes/ESD-EPB/Whispers of Japan/DOJ01_素材/画像/doj01_thumb.png"
+images:
+- doj01_01.png
+- doj01_02.png
+- doj01_03.png
+- doj01_04.png
+- doj01_05.png

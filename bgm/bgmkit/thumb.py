@@ -187,6 +187,9 @@ def check_runtime(cfg):
     # ★中間生成物が無い巻でも落ちない（2026年8月25日）。
     #   bgmkit 以前に作った巻（Vol.3〜9）はサムネだけ作り直すので manifest が無い。
     #   照合できないことを言うだけにして、サムネの生成そのものは通す。
+    # ★runtime は任意（pill: false の巻ではサムネに描かないため）。無ければ照合しない。
+    if not cfg.get("runtime"):
+        return
     mp = cfg.wpath("manifest.json")
     if not os.path.exists(mp):
         print(f"※ manifest が無いので尺の照合を飛ばした（{cfg.get('runtime','-')}）")
