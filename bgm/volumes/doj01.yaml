@@ -41,7 +41,7 @@
 # ★濃さは実測で決め直すこと。 dBは素材をまたいで通用しない。
 #   `audio` の最後に出る「静かなところの底が何dB上がったか」を見る。
 ambient:
-  file: "/Volumes/ESD-EPB/Whispers of Japan/SOJ02_素材_蝉/環境音/夏の山2.mp3"
+  file: "/Volumes/ESD-EPB/BGM/2_Sounds of Old Japan/SOJ02_素材_蝉/環境音/夏の山2.mp3"
   gain_db: -16
   sprinkle:
     gain_db: -12
@@ -49,11 +49,11 @@ ambient:
     spread: 0.6
     seed: 3
     files:
-    - "/Volumes/ESD-EPB/Whispers of Japan/DOJ01_素材/環境音/audiostock_1155257.wav"
-    - "/Volumes/ESD-EPB/Whispers of Japan/DOJ01_素材/環境音/audiostock_1155262.wav"
-    - "/Volumes/ESD-EPB/Whispers of Japan/DOJ01_素材/環境音/audiostock_1256853.wav"
-    - "/Volumes/ESD-EPB/Whispers of Japan/DOJ01_素材/環境音/audiostock_62136.mp3"
-    - "/Volumes/ESD-EPB/Whispers of Japan/DOJ01_素材/環境音/audiostock_848201.wav"
+    - "/Volumes/ESD-EPB/BGM/3_Days of Old Japan/DOJ01_素材/環境音/audiostock_1155257.wav"
+    - "/Volumes/ESD-EPB/BGM/3_Days of Old Japan/DOJ01_素材/環境音/audiostock_1155262.wav"
+    - "/Volumes/ESD-EPB/BGM/3_Days of Old Japan/DOJ01_素材/環境音/audiostock_1256853.wav"
+    - "/Volumes/ESD-EPB/BGM/3_Days of Old Japan/DOJ01_素材/環境音/audiostock_62136.mp3"
+    - "/Volumes/ESD-EPB/BGM/3_Days of Old Japan/DOJ01_素材/環境音/audiostock_848201.wav"
 
 # （旧メモ）風鈴の素材が未入手だった頃の記述：
 #   風鈴は**間欠音**なので `vet` のレベル変動でまず落ちるが、**それは正しい素材の姿**。
@@ -62,7 +62,7 @@ ambient:
 genre: daysofoldjapan
 volume: 1
 slug: doj01
-dir: /Volumes/ESD-EPB/Whispers of Japan/DOJ01_素材
+dir: /Volumes/ESD-EPB/BGM/3_Days of Old Japan/DOJ01_素材
 select:
   count: 20
   total_seconds:
@@ -261,7 +261,7 @@ order_tracks:
 # ★実測 52分38秒 → 53 MIN。サムネには描かない（pill: false）が題名と説明文で使う。
 runtime: "53 MIN"
 title_lines: [風鈴の, 縁側]
-background: "/Volumes/ESD-EPB/Whispers of Japan/DOJ01_素材/画像/doj01_thumb.png"
+background: "/Volumes/ESD-EPB/BGM/3_Days of Old Japan/DOJ01_素材/画像/doj01_thumb.png"
 images:
 - doj01_01.png
 - doj01_02.png

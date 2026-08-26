@@ -3,7 +3,7 @@
 **そのまま貼れる完結版。** 1枚ずつ生成する。16:9でそのまま出す（切り出しもガンマも掛けない）。
 設計の根拠は `SOJ01_テーマ設計.md`。
 
-保存先は `/Volumes/ESD-EPB/Whispers of Japan/SOJ01_素材_雨の石畳/画像/soj01_01.png` 〜 `_22.png`。
+保存先は `/Volumes/ESD-EPB/BGM/2_Sounds of Old Japan/SOJ01_素材_雨の石畳/画像/soj01_01.png` 〜 `_22.png`。
 
 **★DLの重複はMD5で見ること。** 同じファイルが2回落ちても名前と日時では気づけない
 （メモリ `ai-image-download-duplicates`）。22枚そろったら次で照合する：

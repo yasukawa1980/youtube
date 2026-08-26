@@ -2,7 +2,7 @@
 
 **3時間0分36秒（10836.68秒）／1920×1080 / 30fps / 6.48GB**
 **−14.0 LUFS ／ TP −1.5 dBFS ／ LRA 6.7 ／ 純器楽（環境音なし）／ 60曲・画像60枚**
-本体は `/Volumes/ESD-EPB/Whispers of Japan/LongNights3_素材/long3_完成.mp4`（**SSD**）。
+本体は `/Volumes/ESD-EPB/BGM/1_Whispers of Japan/LongNights3_素材/long3_完成.mp4`（**SSD**）。
 
 **Long Nights ラインの3本目。巻数は付けない。** 既発曲はゼロで、**60曲すべて未公開**
 （Vol.11〜14の未使用テイク153本からの選抜）。テーマは「更ける」。

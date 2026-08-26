@@ -50,9 +50,9 @@ BANS = [
 ]
 
 STEPS = [
-    ("素材を検品する", 'python3 -m bgmkit vet "/Volumes/ESD-EPB/Whispers of Japan/SOJ01_素材_雨の石畳/環境音"',
+    ("素材を検品する", 'python3 -m bgmkit vet "/Volumes/ESD-EPB/BGM/2_Sounds of Old Japan/SOJ01_素材_雨の石畳/環境音"',
      "「こもり」の大きい順に並んで出る。その順が第一幕→第三幕への割り振りになる"),
-    ("画像の重複を見る", 'md5 "/Volumes/ESD-EPB/Whispers of Japan/SOJ01_素材_雨の石畳/画像/"*.png | awk \'{print $NF}\' | sort | uniq -d',
+    ("画像の重複を見る", 'md5 "/Volumes/ESD-EPB/BGM/2_Sounds of Old Japan/SOJ01_素材_雨の石畳/画像/"*.png | awk \'{print $NF}\' | sort | uniq -d',
      "同じファイルが2回落ちても名前と日時では気づけない。何も出なければ重複なし"),
     ("音を組む", "python3 -m bgmkit audio soj01",
      "22本を497秒まで伸ばし、6秒重ねて連結。★ここで実際に聴いて target_lufs を決める"),
@@ -438,7 +438,7 @@ HTML = f"""<title>雨の石畳</title>
 <p class="foot">
   <span>設計 <code>bgm/SOJ01_テーマ設計.md</code></span>
   <span>設定 <code>bgm/volumes/soj01.yaml</code></span>
-  <span>作業先 <code>/Volumes/ESD-EPB/Whispers of Japan/SOJ01_素材_雨の石畳/</code></span>
+  <span>作業先 <code>/Volumes/ESD-EPB/BGM/2_Sounds of Old Japan/SOJ01_素材_雨の石畳/</code></span>
   <span>進捗はこの端末に保存されます</span>
 </p>
 

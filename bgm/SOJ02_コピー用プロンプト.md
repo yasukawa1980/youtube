@@ -12,7 +12,7 @@
 **★★1枚が25〜50分映り続ける。** ごまかしが効かない。生成したら等倍で隅まで見て、
 崩れがあれば必ず作り直すこと。
 
-保存先は `/Volumes/ESD-EPB/Whispers of Japan/SOJ02_素材_蝉/画像/`：
+保存先は `/Volumes/ESD-EPB/BGM/2_Sounds of Old Japan/SOJ02_素材_蝉/画像/`：
 `soj02_01.png` 〜 `_05.png` と `soj02_thumb.png`。
 
 ## 人物を固定する3点

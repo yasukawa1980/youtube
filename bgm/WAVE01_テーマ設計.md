@@ -303,7 +303,7 @@ SOJ02 で確立した作法をそのまま使う。`background:` に専用の1�
 ## 8. 作業先とファイル
 
 ```
-/Volumes/ESD-EPB/Whispers of Japan/WAVE01_素材_月の水鏡/
+/Volumes/ESD-EPB/BGM/4_Waves of Japan/WAVE01_素材_月の水鏡/
     曲/          Sunoのパッド約20本（G調・持続音のみ・アタック無し）
     ビート/      wave01_beat_3h.wav（生成物。約3.6GB）
     画像/        wave01_01.png 〜 wave01_05.png ＋ wave01_thumb.png（顔あり）

@@ -268,7 +268,7 @@ Rain on the Lantern Street 🌙 Japanese Rain Sounds for Sleep | 3 Hours
 **内蔵の空きが 9.7GB しかない。SSDで作業する。**
 
 ```
-/Volumes/ESD-EPB/Whispers of Japan/SOJ01_素材_雨の石畳/
+/Volumes/ESD-EPB/BGM/2_Sounds of Old Japan/SOJ01_素材_雨の石畳/
     環境音/        雨の素材18本（ベース1 + 変化層17）
     画像/          soj01_01.png 〜 soj01_22.png
     _work/         中間生成物

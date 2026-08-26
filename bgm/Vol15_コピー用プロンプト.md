@@ -217,7 +217,7 @@ Pure instrumental. No lyrics. No vocals. No chanting. No humming.
 ### 保存のきまり
 
 - **16:9 で出す**（手生成なので bgmkit の切り出しとガンマ1.3は掛からない）
-- 保存先は `/Volumes/ESD-EPB/Whispers of Japan/Vol15_素材_すすき野/画像/`
+- 保存先は `/Volumes/ESD-EPB/BGM/1_Whispers of Japan/Vol15_素材_すすき野/画像/`
 - ファイル名は **`vol15_01.png` 〜 `vol15_22.png`**（下の番号と一致させる）
 - **1枚ずつ生成する**
 

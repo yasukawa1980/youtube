@@ -66,7 +66,7 @@ The Verandah in Summer 🌙 Japanese Ambient Music with Wind Chimes | XX Min
 置き場所：
 
 ```
-/Volumes/ESD-EPB/Whispers of Japan/DOJ01_素材/環境音/
+/Volumes/ESD-EPB/BGM/3_Days of Old Japan/DOJ01_素材/環境音/
 ```
 
 ---
@@ -94,7 +94,7 @@ SOJ01は雨が遠くこもっていく、SOJ02は一日の光が一周する。*
 
 ## 4. コピー用プロンプト —— 本編5枚
 
-保存先は `/Volumes/ESD-EPB/Whispers of Japan/DOJ01_素材/画像/doj01_01.png` 〜 `_05.png`。
+保存先は `/Volumes/ESD-EPB/BGM/3_Days of Old Japan/DOJ01_素材/画像/doj01_01.png` 〜 `_05.png`。
 
 **★★2026年8月26日、2回目の改訂。** 1回目の生成で左側が「モヤ」になった件を直した。
 

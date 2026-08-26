@@ -11,7 +11,7 @@
 # ★退避を必ず取ること。 公開中のサムネはYouTube側にしか残っていない場合がある。
 set -e
 cd "$(dirname "$0")"
-SSD="/Volumes/ESD-EPB/Whispers of Japan"
+SSD="/Volumes/ESD-EPB/BGM/1_Whispers of Japan"
 for v in "$@"; do
   dst=$(python3 -c "
 import sys; sys.path.insert(0,'.')

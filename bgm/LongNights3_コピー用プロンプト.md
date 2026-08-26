@@ -51,7 +51,7 @@ Vol.14（22枚・60分）と同じ間合いです。
 ### 保存のきまり
 
 - **16:9 で出す**（手生成なので bgmkit の 3:2→16:9 切り出しとガンマ1.3は掛かりません）
-- 保存先は `/Volumes/ESD-EPB/Whispers of Japan/LongNights3_素材/画像/`（**SSD**）
+- 保存先は `/Volumes/ESD-EPB/BGM/1_Whispers of Japan/LongNights3_素材/画像/`（**SSD**）
 - ファイル名は **`long3_01.png` 〜 `long3_60.png`**（下の番号と一致させる）
 - **1枚ずつ生成する**
 

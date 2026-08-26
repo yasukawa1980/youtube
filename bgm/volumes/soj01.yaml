@@ -17,7 +17,7 @@
 genre: oldjapan
 volume: 1
 slug: soj01
-dir: "/Volumes/ESD-EPB/Whispers of Japan/SOJ01_素材_雨の石畳"
+dir: "/Volumes/ESD-EPB/BGM/2_Sounds of Old Japan/SOJ01_素材_雨の石畳"
 
 # 環境音を「曲」として置くので、楽曲/ ではなく 環境音/ から読む。
 tracks_subdir: 環境音
@@ -25,7 +25,7 @@ tracks_subdir: 環境音
 # ★サムネは場面4（番傘の後ろ姿）が第一候補。ただし決めるのは実測。
 #   22枚を168pxに落として、題字が乗る帯の最大輝度とばらつきを測ってから確定する
 #   （Vol.15は当初候補の13が「文字の下に月が入り込む」で落ちて19になった）。
-background: "/Volumes/ESD-EPB/Whispers of Japan/SOJ01_素材_雨の石畳/画像/soj01_04.png"
+background: "/Volumes/ESD-EPB/BGM/2_Sounds of Old Japan/SOJ01_素材_雨の石畳/画像/soj01_04.png"
 
 title_lines: [雨の石畳]
 
@@ -238,5 +238,5 @@ shorts:
   move: out
 
 # ★日本語版は別名で書き出す（公開済みのサムネを潰さないため）
-thumb_out: "/Volumes/ESD-EPB/Whispers of Japan/soj01_サムネ_16x9_日本語.png"
+thumb_out: "/Volumes/ESD-EPB/BGM/2_Sounds of Old Japan/SOJ01_素材_雨の石畳/soj01_サムネ_16x9_日本語.png"
 thumb_layout: {brand: 360, t1: 470}

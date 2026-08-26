@@ -625,12 +625,12 @@ Photorealistic cinematic still, an old Japanese townhouse street at night in the
   <ol class="steps">
 <li class="step">
 <div class="step-t"><h3>素材を検品する</h3><p>「こもり」の大きい順に並んで出る。その順が第一幕→第三幕への割り振りになる</p></div>
-<div class="cmdwrap"><pre class="cmd" id="c0">python3 -m bgmkit vet &quot;/Volumes/ESD-EPB/Whispers of Japan/Vol16_素材_雨の石畳/環境音&quot;</pre>
+<div class="cmdwrap"><pre class="cmd" id="c0">python3 -m bgmkit vet &quot;/Volumes/ESD-EPB/BGM/2_Sounds of Old Japan/SOJ01_素材_雨の石畳/環境音&quot;</pre>
 <button class="copy small" data-target="c0">コピー</button></div>
 </li>
 <li class="step">
 <div class="step-t"><h3>画像の重複を見る</h3><p>同じファイルが2回落ちても名前と日時では気づけない。何も出なければ重複なし</p></div>
-<div class="cmdwrap"><pre class="cmd" id="c1">md5 &quot;/Volumes/ESD-EPB/Whispers of Japan/Vol16_素材_雨の石畳/画像/&quot;*.png | awk &#x27;{print $NF}&#x27; | sort | uniq -d</pre>
+<div class="cmdwrap"><pre class="cmd" id="c1">md5 &quot;/Volumes/ESD-EPB/BGM/2_Sounds of Old Japan/SOJ01_素材_雨の石畳/画像/&quot;*.png | awk &#x27;{print $NF}&#x27; | sort | uniq -d</pre>
 <button class="copy small" data-target="c1">コピー</button></div>
 </li>
 <li class="step">
@@ -649,7 +649,7 @@ Photorealistic cinematic still, an old Japanese townhouse street at night in the
 <p class="foot">
   <span>設計 <code>bgm/Vol16_テーマ設計.md</code></span>
   <span>設定 <code>bgm/volumes/vol16.yaml</code></span>
-  <span>作業先 <code>/Volumes/ESD-EPB/Whispers of Japan/Vol16_素材_雨の石畳/</code></span>
+  <span>作業先 <code>/Volumes/ESD-EPB/BGM/2_Sounds of Old Japan/SOJ01_素材_雨の石畳/</code></span>
   <span>進捗はこの端末に保存されます</span>
 </p>
 
