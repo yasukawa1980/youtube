@@ -86,10 +86,24 @@ def build(cfg):
         if not os.path.exists(p):
             raise SystemExit(f"画像がありません: {p}")
     n = len(paths)
-    if n != len(man["tracks"]):
-        raise SystemExit(f"画像{n}枚に対して曲は{len(man['tracks'])}本です。数を揃えてください。")
+    nt = len(man["tracks"])
+    # ★★画像は曲数の約数でよい（2026年8月26日）。 従来は「枚数＝曲数」しか通らなかった。
+    #   22曲なら22枚が要り、**1枚に手をかける作りと正面から衝突する**
+    #   （伸びているBGM動画は3時間でも場面が3〜5回しか変わらない）。
+    #   20曲＝5枚なら4曲ごとに切り替わる。旧 build_comp.py には同じ仕様があったが
+    #   bgmkit に引き継がれていなかった。
+    #   ★切り替えは必ず曲の変わり目に置く。 曲の途中で絵が変わると、
+    #     音と映像の継ぎ目が別々の場所に来て気持ちが悪い。
+    if nt % n:
+        raise SystemExit(
+            f"画像{n}枚に対して曲は{nt}本です。**枚数は曲数の約数**にしてください"
+            f"（{nt}本なら " + "・".join(str(d) for d in range(1, nt + 1) if nt % d == 0)
+            + " 枚のいずれか）。")
+    per = nt // n
+    if per > 1:
+        print(f"画像1枚が{per}曲ぶん（{n}枚 / {nt}曲）")
 
-    starts = [t["start"] for t in man["tracks"]]
+    starts = [man["tracks"][i * per]["start"] for i in range(n)]
     cuts = [starts[i] + (axf - xf) / 2 for i in range(1, n)]
     seg = [cuts[0] + xf]
     for i in range(1, len(cuts)):
