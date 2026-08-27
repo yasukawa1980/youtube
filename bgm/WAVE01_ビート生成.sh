@@ -16,8 +16,18 @@ set -euo pipefail
 C=196            # 中心周波数（G3）。床の主調と必ず一致させる
 B0=12            # 開始のうなり（Hz）
 B1=8             # 終了のうなり（Hz）
-T=10800          # 尺（秒）＝ 3時間
-GAIN=-28         # 床に対する高さ。★実測して決め直す（ambient-layer-pipeline）
+# ★★尺は「3時間」ではなく本編の実尺に合わせること（2026年8月28日、実際に嵌まった）。
+#   track_seconds の合計からクロスフェード分を引いた値が本編の長さで、この巻は
+#   10832 − 4×6 = **10808秒**。ちょうど10800で作ったら no_loop の番人に8秒足りずに
+#   弾かれ、モザイクを1時間かけて組んだあとで止まった。
+#   確認: python3 -c "import yaml;d=yaml.safe_load(open('volumes/wave01.yaml'));\
+#          print(sum(d['track_seconds'])-6*(len(d['track_seconds'])-1))"
+T=10808          # 尺（秒）＝ 本編の実尺（3時間00分08秒）
+# ★★音量はここで焼き込まない（2026年8月28日、二重掛けで嵌まった）。
+#   ここで -28dB を焼き込んだうえ `ambient.gain_db: -28` が掛かり、合計 -56dB になって
+#   完全に埋もれた（帯域ごとの持ち上がりが全帯 0.0dB）。
+#   **高さは genres/waves.yaml の `ambient.gain_db` だけで決めること。**
+GAIN=0           # 素材としての基準の高さ。実際の高さは ambient.gain_db が決める
 OUT="${1:-wave01_beat_3h.wav}"
 
 echo "生成: 中心 ${C}Hz 固定 / うなり ${B0} → ${B1}Hz / ${T}秒 / ${GAIN}dB"
