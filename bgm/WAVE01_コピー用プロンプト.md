@@ -192,6 +192,27 @@ SOJ01（濃紺の着物）SOJ02（麦わら帽子）と被らせない3点。
 3. **★月に光条（十字のレンズフレア）を付けない** —— 肉眼にも静止画にも出ない嘘
 4. **文字** —— 木札・石碑・灯籠の刻字・舟の船名。灯籠は無地と明示してある
 5. **現代物** —— 電線・電柱・ガードレール・コンクリート護岸・アルミの手すり・ボート小屋
+6. **★★手前を陸にしない**（2026年8月27日、場面03とサムネの作り直しで判明）
+
+## ★★★反射を描かせる絵は、カメラを水の上に出す
+
+**初版の場面03とサムネは失敗した。** 女性の反転した顔と肩が、乾いた砂利の一粒一粒の
+上に描かれた。原因はプロンプトの守り方ではなく**幾何**で、
+**反射は必ず「対象の足元からカメラの側へ」伸びる**。
+`in the near foreground, wet dark pebbles at the waterline` と手前を陸に指定した以上、
+反射の行き場は砂利しかなかった。**モデルは正しく描いている。**
+
+**★「陸に反射を描くな」と否定で足しても直らない。** 反射そのものが消えて、
+この巻の主題（鏡）が消える。
+
+**★直し方はカメラを水の上に出すこと。** 視点を水面のすぐ上に置いて岸を振り返る形にし、
+**画面の下半分から三分の二を、途切れない水にする。** そうすれば反射の落ちる先が水になる。
+**うまくいった場面05は手前が全部水だったので破綻していない。** そこに合わせる。
+
+- 人物は向こう岸の水際に立つ（**水には触れないまま**でよい）
+- 手前は「水そのもの」を実体として与える（[[days-of-old-japan-series]] の
+  「何も無いと書くと靄で埋める」と同じ理屈で、空けずに面を与える）
+- 石・砂利・地面を手前に**1つも置かない**
 
 ## ★★月と人物は必ず画面の右
 
@@ -216,7 +237,7 @@ DOJ01 で左三分の一を `Nothing at all is placed in the LEFT THIRD` と書�
 ## 01. 薄暮・桟橋の突端（30分）★人物
 
 ```
-A still mountain lake in Japan at late dusk, photorealistic, seen from the shore. The last band of sunset colour lies low along the far ridge; the sky above it has already gone deep blue. Three clear depths: in the near foreground, the weathered planks of an old wooden pier running away from the camera, every grain and nail head sharp, wet at the edges; in the middle, the end of the pier and the woman standing at its tip, small, facing the water, on the right side of the frame; far behind, the dark ridgeline of the opposite shore dissolving into evening haze. The water still carries a fine breeze-ripple, so the reflected light is broken into countless small pieces and no clear mirror image forms. The left side of the frame is the quiet dark ridge and the flat unlit surface of the water — real surfaces, softly lit, with little detail. Cool blue overall with one warm band of remaining light low on the right. Natural light only. Early twentieth century Japan, no modern objects anywhere.
+A still mountain lake in Japan at late dusk, photorealistic, seen from the shore. The last band of sunset colour lies low along the far ridge; the sky above it has already gone deep blue. Three clear depths: in the near foreground, the weathered planks of an old wooden pier running away from the camera, every grain and nail head sharp, wet at the edges; in the middle, the end of the pier and the woman standing at its tip, small, facing the water, on the right side of the frame; far behind, the dark ridgeline of the opposite shore dissolving into evening haze. The water still carries a fine breeze-ripple, so the reflected light is broken into countless small pieces and no clear mirror image forms — her figure casts no readable reflection at this stage, and no reflection of any kind falls on the planks of the pier. The left side of the frame is the quiet dark ridge and the flat unlit surface of the water — real surfaces, softly lit, with little detail. Cool blue overall with one warm band of remaining light low on the right. Natural light only. Early twentieth century Japan, no modern objects anywhere.
 
 A single young woman seen from behind, her face never visible to the camera. She wears a pale hanada-blue linen kimono with an unbleached light wrap over her shoulders, and her hair is tied low at the nape. Her hands are not rendered in detail. She stands quietly, not posed. She occupies only a small part of the frame; the place holds her. She does not touch the water. No other people anywhere in the image.
 
@@ -235,12 +256,15 @@ No birds, no fish, no insects, no falling leaves, no rain, no ripples spreading 
 
 ## 03. 月の道・水際に立つ（30分）★人物 ★この巻の主題
 
+**★2026年8月27日 改訂。** 初版は手前を砂利にしていたため、反射が石の上に落ちた。
+**カメラを水の上に出して、手前を全部水にしてある。**
+
 ```
-A still mountain lake in Japan at night, photorealistic, seen from the shore. The moon is higher now, on the right side of the frame, and a bright column of moonlight runs across the water from the far shore all the way to the woman's feet. Three clear depths: in the near foreground, wet dark pebbles at the waterline, each stone sharp and gleaming; in the middle, the woman standing right at the edge of the water, seen from behind, on the right side of the frame, with the moon column reaching her; far behind, the opposite ridge, low and dark, half lost in haze. THE WATER IS NOW ALMOST PERFECTLY STILL — her reflection stands in it as sharply and completely as she does above it, unbroken and clearly readable, the single most important element of the picture. The left side of the frame is the dark far shore and the flat black water — real surfaces, faintly lit, with little detail. Silver, indigo and black only. Natural light only. Early twentieth century Japan, no modern objects anywhere.
+A still mountain lake in Japan at night, photorealistic. The camera is low, just above the surface of the water and out on the lake itself, looking back toward the shore. THE ENTIRE LOWER TWO THIRDS OF THE FRAME IS UNBROKEN OPEN WATER — there are no stones, no gravel, no sand and no ground of any kind in the foreground. The moon is high on the right side of the frame, and a bright column of moonlight runs across the water from behind the woman toward the camera. Three clear depths: in the near foreground, the black glass surface of the still water itself, with the faintest grain of light on it; in the middle, the woman standing on the far waterline, seen from behind, on the right side of the frame; far behind her, the low dark ridge of the opposite shore dissolving into haze. THE WATER IS PERFECTLY STILL — her reflection extends from her feet down toward the camera, complete and sharply readable, lying entirely on open water, and it is the single most important element of the picture. Every reflection in this image falls on water and on nothing else. The left side of the frame is the dark far shore and the flat black water — real surfaces, faintly lit, with little detail. Silver, indigo and black only. Natural light only. Early twentieth century Japan, no modern objects anywhere.
 
-A single young woman seen from behind, her face never visible to the camera. She wears a pale hanada-blue linen kimono with an unbleached light wrap over her shoulders, and her hair is tied low at the nape. Her hands are not rendered in detail. She stands at the very edge of the water but does not step into it and does not touch it. No other people anywhere in the image.
+A single young woman seen from behind, her face never visible to the camera. She wears a pale hanada-blue linen kimono with an unbleached light wrap over her shoulders, and her hair is tied low at the nape. Her whole figure is visible down to her feet, standing on the ground at the far edge of the water. Her hands are not rendered in detail. She stands at the very edge of the water but does not step into it and does not touch it. No other people anywhere in the image.
 
-No birds, no fish, no insects, no falling leaves, no rain, no ripples spreading in rings. No lanterns, no lamps, no house lights, no second light source of any kind. No star pattern or cross-shaped flare on the moon. No writing, letters or characters anywhere. No power lines, poles, guard rails, concrete embankments, metal railings or boat sheds.
+No stones, gravel, sand, shingle, beach or dry ground anywhere in the near foreground — the foreground is water. No reflection of any kind falling on land. No birds, no fish, no insects, no falling leaves, no rain, no ripples spreading in rings. No lanterns, no lamps, no house lights, no second light source of any kind. No star pattern or cross-shaped flare on the moon. No writing, letters or characters anywhere. No power lines, poles, guard rails, concrete embankments, metal railings or boat sheds.
 ```
 
 ## 04. 凪・無人の湖（40分）
@@ -261,14 +285,20 @@ No birds, no fish, no insects, no falling leaves, no rain, no ripples spreading 
 
 ## 06. サムネ（★顔あり・別画像）
 
-**★構図の要件は2つだけ、ただし絶対。**
+**★2026年8月27日 改訂。** 初版は反転した顔と肩が乾いた砂利の上に描かれた。
+**カメラを水の上に出し、下半分を全部水にしてある。**
+
+**★構図の要件は3つ、どれも絶対。**
 ①月と女性を画面の右に置く（左のスクリムを暗く保つ）
 ②水面に映り込みを必ず入れる（168pxで顔は消えるが**「上下に同じものが並ぶ」形は残る**）
+③**手前に石・砂利・地面を1つも置かない**（②が破綻する）
 
 ```
-A young Japanese woman at the edge of a perfectly still mountain lake at night, photorealistic, three-quarter view, her face clearly visible and calm, lit softly from the side by a low moon. She is on the right side of the frame, standing at the waterline; the moon is behind her to the right, low over the dark ridge. THE WATER BELOW HER IS A FLAWLESS MIRROR — her figure and the moon are both reproduced in it sharply and completely, so the picture reads as two halves that answer each other. She wears a pale hanada-blue linen kimono with an unbleached light wrap over her shoulders, and her hair is tied low at the nape. Her expression is quiet and unforced, eyes open, not smiling. Her hands are not rendered in detail. Three depths: sharp wet pebbles at the near waterline, the woman and her reflection in the middle, and the far ridge dissolving into haze behind. The left third of the frame is the dark opposite ridge and flat black water — real surfaces, dimly lit, with almost no detail, dark enough for text to sit over it. Silver, indigo and black, with the warm skin tone as the only other colour. Natural light only. Early twentieth century Japan.
+A young Japanese woman at the edge of a perfectly still mountain lake at night, photorealistic. The camera is low, just above the surface of the water and only a few paces out from the shore, looking back at her, so that she stands large in the frame. THE ENTIRE LOWER HALF OF THE FRAME IS UNBROKEN OPEN WATER — there are no stones, no gravel, no sand and no ground of any kind anywhere in the picture except the narrow dark line of the far bank. She is on the right side of the frame, standing at the waterline in three-quarter view, her face clearly visible and calm, lit softly from the side by a low moon behind her to the right. THE WATER IS A FLAWLESS MIRROR — her whole figure and the moon are each reproduced in it directly below themselves, complete and sharp, lying entirely on open water. Every reflection in this image falls on water and on nothing else. Three depths: the still black water in the near foreground with the faintest grain of light on it, the woman and her reflection in the middle, and the far ridge dissolving into haze behind. The left third of the frame is the dark opposite ridge and flat black water — real surfaces, dimly lit, with almost no detail, dark enough for text to sit over it. Silver, indigo and black, with the warm skin tone as the only other colour. Natural light only. Early twentieth century Japan.
 
-No other people anywhere in the image. No birds, no fish, no ripples spreading in rings — the surface is completely undisturbed. No lanterns, no lamps, no house lights, no second light source. No star pattern or cross-shaped flare on the moon. No writing, letters or characters anywhere. No power lines, poles, guard rails, concrete embankments, metal railings or boat sheds.
+She wears a pale hanada-blue linen kimono with an unbleached light wrap over her shoulders, and her hair is tied low at the nape. Her expression is quiet and unforced, eyes open, not smiling. Her whole figure is visible down to her feet, standing on the ground at the edge of the water. Her hands are not rendered in detail. She does not step into the water and does not touch it.
+
+No stones, gravel, sand, shingle, beach or dry ground anywhere in the near foreground — the foreground is water. No reflection of any kind falling on land. No other people anywhere in the image. No birds, no fish, no ripples spreading in rings — the surface is completely undisturbed. No lanterns, no lamps, no house lights, no second light source. No star pattern or cross-shaped flare on the moon. No writing, letters or characters anywhere. No power lines, poles, guard rails, concrete embankments, metal railings or boat sheds.
 ```
 
 **★出来たら168pxで実測してから確定する。** [[whispers-thumbnail-design]] の手順で、
