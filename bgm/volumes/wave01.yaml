@@ -36,13 +36,11 @@ audio:
   #     駄目なら mosaic を丸ごと外して1場面＝1本の track_seconds に落とす
   #     （継ぎ目は増えないので実害は周回だけ）。
   mosaic:
+    # ★★速度ずらし・重ね本数・bed_lra はジャンル側（genres/waves.yaml）に
+    #   理由ごと書いてある。ここは場面の並びを決める種だけ。
+    seed: 1
     # ★片は環境音（30〜50秒）より長く取る。音楽は短く刻むと切り貼りに聞こえる。
     cell: [60, 120]
-    layers: [2, 3]
-    # ★bed_lra を高く取って全部を「床」にする。
-    #   パッドが点景として散発的に出入りすると、音楽では不自然に聞こえる。
-    bed_lra: 12.0
-    seed: 1
 
 # ★★ビート層。 中心 196Hz(G3) 固定・うなり 12Hz → 8Hz へ3時間かけて直線降下。
 #   生成は `bash WAVE01_ビート生成.sh <出力先>`（約8分・3.6GB）。
@@ -53,11 +51,26 @@ ambient:
   file: "/Volumes/ESD-EPB/BGM/4_Waves of Japan/WAVE01_素材_月の水鏡/ビート/wave01_beat_3h.wav"
 
 # ★★床は全部 G調・持続音のみ・アタック無し。 プロンプトは WAVE01_コピー用プロンプト.md。
+#
+# ★★Sunoの元の曲名との対応（2026年8月28日。61テイクから20本を選抜）。
+#   曲名はプロンプトの文言からSunoが自動で付けたもので、これで一意に決まった。
+#     薄暮A = Last Light on Water  / 薄暮B = Valley After Sunset
+#     宵A   = Shō and Bass         /（宵B = Still Chord in G は不採用）
+#     月の道A = Still Cluster       / 月の道B = Still Water
+#     凪A   = Held Breath of the Earth / 凪B = Beneath the Floor
+#     靄A   = G Major Stillness    / 靄B = Dissolved G
+#   全テイクは `_work/全テイク/` に残してある。MD5の重複はゼロだった。
+#   ★`Shō` の ō はNFCとNFDで一致しない。 照合するときは必ず正規化すること
+#     （最初の集計でこの1グループだけ表から落ちた）。
 #   撥・打・息の立ち上がりがあるものは1本も入れない（3時間で必ず起こす）。
 #   1場面につき 2プロンプト × 2テイク = 4本。
 order_tracks:
 - [薄暮A1.mp3, 薄暮A2.mp3, 薄暮B1.mp3, 薄暮B2.mp3]
-- [宵A1.mp3, 宵A2.mp3, 宵B1.mp3, 宵B2.mp3]
+# ★★宵は4本ともAから採った（2026年8月28日、実測）。
+#   宵B（Still Chord in G）は G が 43 しか立たず、A(78)・A#(77) が上回った。
+#   ビート層の中心が 196Hz(G3) なので、この巻でGが弱いのは使えない。
+#   宵Aも6テイク中 G=75/72/61/59 の4本を採り、46と41は落とした。
+- [宵A1.mp3, 宵A2.mp3, 宵A3.mp3, 宵A4.mp3]
 - [月の道A1.mp3, 月の道A2.mp3, 月の道B1.mp3, 月の道B2.mp3]
 - [凪A1.mp3, 凪A2.mp3, 凪B1.mp3, 凪B2.mp3]
 - [靄A1.mp3, 靄A2.mp3, 靄B1.mp3, 靄B2.mp3]
