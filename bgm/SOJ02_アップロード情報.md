@@ -68,9 +68,6 @@ real one does and never repeats itself.
 
 Nothing fades out. The day simply ends.
 
-The cicada recordings are real field recordings. The five still images are
-AI-generated, then chosen, corrected and sequenced by hand.
-
 For sleep, rest, reading and study.
 
 ── Chapters ──
@@ -79,6 +76,13 @@ For sleep, rest, reading and study.
 1:04:48  Noon — the heat and the great chorus
 1:34:42  Afternoon — tsukutsuku-boushi in the bamboo
 2:09:36  Dusk — the evening cicadas return
+
+── About this recording ──
+The cicadas are real field recordings, not synthesised. Sixteen candidates were
+measured for level drift, stereo width and species, and fourteen were used —
+layered two and three at a time and shuffled so the chorus never repeats.
+The five still images were generated with AI; the scenes, the order and the
+corrections were decided by hand.
 
 #CicadaSounds #JapaneseSummer #SleepSounds
 
@@ -95,8 +99,6 @@ For sleep, rest, reading and study.
 
 フェードアウトはしません。一日が終わるだけです。
 
-蝉の音はすべて実際の録音です。静止画5枚はAIで生成し、選定と補正は手作業で行っています。
-
 睡眠・休息・読書・作業に。
 
 ── チャプター ──
@@ -105,6 +107,12 @@ For sleep, rest, reading and study.
 1:04:48  真昼 ── 日盛りの大合唱
 1:34:42  午後 ── 竹林のツクツクボウシ
 2:09:36  夕暮れ ── ふたたびヒグラシ
+
+── 制作について ──
+蝉の声はすべて実際の録音です。合成音ではありません。
+16本の候補を、音量の揺れ・ステレオの広さ・種で1本ずつ測って14本を採用し、
+2〜3本ずつ重ねて並べ替えてあります。同じところは繰り返しません。
+静止画5枚はAIで生成したものですが、場面・順番・補正はこちらで決めています。
 
 #蝉の声 #睡眠用BGM #自然音
 ```
@@ -164,8 +172,12 @@ nothing but cicadas, sounds of old japan, sleep, study, relaxation
 生成したもので、YouTubeの開示は**まさに「実在するように見える人物」**を対象にしている。
 前提が変わっているので、**「チェックしない」を惰性で引き継がないこと。**
 
-判断はご自身で。迷うなら**チェックする側が安全**（開示してもペナルティは無く、
-説明欄に小さくラベルが付くだけ）。
+**★共通の `公開前チェックリスト.md` にも同じ但し書きを追記した**（2026年8月27日）。
+そちらが規則の在り処なので、次の巻からはそれを見ればよい。
+
+判断はご自身で。**チェックすると説明欄に警告ラベルが出る**ので無料ではない。
+ただしこの巻は「実在しない人物を写真のように生成したサムネ」という、
+開示がまさに想定している形に当たる。
 
 ---
 

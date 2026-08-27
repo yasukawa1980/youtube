@@ -66,10 +66,6 @@ The five paintings move outward as the hour passes: from the shade of the room,
 out to the verandah, close to the chime, down into the garden, and finally past
 the hedge to the open fields.
 
-The music is AI-generated, then chosen and sequenced by hand. The wind chimes
-and cicadas are real field recordings. The five paintings are AI-generated
-watercolours.
-
 For rest, reading, study and quiet work.
 
 ── Chapters ──
@@ -94,6 +90,13 @@ For rest, reading, study and quiet work.
 46:35  The far hills
 49:11  The day holds still
 
+── About this recording ──
+The music is AI-generated. A hundred and eight pieces were made, twenty were
+kept, and the order was decided by measuring how alike each pair sounds.
+The wind chimes and the distant cicadas are real field recordings, placed by
+hand so the chime speaks only when a breeze comes.
+The five watercolours were generated with AI; the scenes and the order are ours.
+
 #JapaneseAmbient #WindChimes #StudyMusic
 
 ──
@@ -108,9 +111,6 @@ For rest, reading, study and quiet work.
 
 水彩5枚は時間とともに外へ出ていきます。座敷の暗がりから縁側へ、
 風鈴に寄り、庭へ降り、最後は生垣の向こうの青田へ。
-
-音楽はAIで生成し、選曲と曲順は手作業です。風鈴と蝉は実際の録音です。
-水彩5枚はAIで生成しています。
 
 休息・読書・作業に。
 
@@ -135,6 +135,12 @@ For rest, reading, study and quiet work.
 44:27  青田
 46:35  遠い山なみ
 49:11  動かない一日
+
+── 制作について ──
+楽曲はAIで生成したものです。108曲つくり、そのうち20曲を採用しました。
+似た響きが続かないよう、曲どうしの似かたを1曲ずつ測ってから順番を決めています。
+風鈴と遠くの蝉は実際の録音で、風が来たときだけ鳴るように置いてあります。
+水彩5枚もAIで生成したものですが、場面と順番はこちらで決めています。
 
 #和風BGM #作業用BGM #風鈴
 ```
