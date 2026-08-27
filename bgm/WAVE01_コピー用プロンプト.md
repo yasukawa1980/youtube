@@ -283,7 +283,10 @@ A still mountain lake in Japan in the deep of the night, photorealistic, seen fr
 No birds, no fish, no insects, no falling leaves, no rain, no ripples spreading in rings — the surface is completely undisturbed. No lanterns, no lamps, no house lights, no second light source of any kind. No star pattern or cross-shaped flare on either moon. No writing, letters or characters anywhere. No power lines, poles, guard rails, concrete embankments, metal railings or boat sheds. No land, no buildings, no boats.
 ```
 
-## 06. サムネ（★顔あり・別画像）
+## 06. サムネ（★顔あり・別画像）—— ★2026年8月27日、**使わないことにした**
+
+**本編の場面02をそのまま使う**（本人の指定。実測で通っている。設計書 §7）。
+作り直しが要るときのために残してある。
 
 **★2026年8月27日 改訂。** 初版は反転した顔と肩が乾いた砂利の上に描かれた。
 **カメラを水の上に出し、下半分を全部水にしてある。**
@@ -302,5 +305,4 @@ No stones, gravel, sand, shingle, beach or dry ground anywhere in the near foreg
 ```
 
 **★出来たら168pxで実測してから確定する。** [[whispers-thumbnail-design]] の手順で、
-題字が乗る帯の**最大輝度とばらつき**を測る。**サムネは複数枚出させて選ぶこと**
-（本編5枚からの流用は選べない）。
+題字が乗る帯の**最大輝度とばらつき**を測る。

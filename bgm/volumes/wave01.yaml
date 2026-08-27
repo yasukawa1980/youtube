@@ -75,7 +75,10 @@ scenes:
 # ★★場面4で居なくなる。 最後の95分は無人で、そこが一番長く映る。
 # ★★サムネだけは別画像（顔あり）。 本編5枚は顔を見せない。
 #   1枚が25〜55分映り続けるので、顔があると見つめられ続けて必ず粗が見つかる。
-background: "/Volumes/ESD-EPB/BGM/4_Waves of Japan/WAVE01_素材_月の水鏡/画像/wave01_thumb.png"
+# ★★サムネは本編の場面02を流用する（2026年8月27日、本人の指定）。
+#   SOJ02 は「サムネだけ別画像で顔あり」だったが、SOJ01 は全編後ろ姿でサムネもそうなので
+#   シリーズの型からは外れない。SOJ01 の設計もサムネを本編の場面から選ぶ形だった。
+background: "/Volumes/ESD-EPB/BGM/4_Waves of Japan/WAVE01_素材_月の水鏡/画像/wave01_02.png"
 images:
 - wave01_01.png
 - wave01_02.png
