@@ -53,6 +53,9 @@
   （4〜8kHz帯の変動係数が 0.52 で一致。詳細はメモリ vol1-has-no-nature-sounds）。
   素材は必ず**継ぎ目の無いループに作り直してから**敷く。9分の素材を60分に単純に
   繰り返すと、6回ある折り返しでプツッと切り替わるのが聞こえる。
+  ★`ambient.no_loop: true` を書くとループ化しない。**素材が最初から全長ぶんあって、
+  しかも時間とともに変化している**場合（Waves of Japan のビート層）に使う。
+  ループ化は末尾を先頭に重ねる処理なので、そういう素材では頭と尻が混ざって壊れる。
 """
 import math
 import os
@@ -597,13 +600,31 @@ def _lay_ambient(cfg, bed, total, seams):
     dry = cfg.wpath("music_bed_dry.wav")
     os.replace(bed, dry)
 
-    loop, loop_len = _seamless_loop(cfg, src, amb.get("loop_xfade", 4.0))
+    # ★★`no_loop` を書いた巻はループ化しない。
+    #   `_seamless_loop` は末尾を先頭の上に重ねる処理なので、**素材が最初から
+    #   全長ぶんあって、しかも時間とともに変化している**場合には壊れる。
+    #   Waves of Japan のビート層（3時間かけて うなり が 12Hz→8Hz へ落ちる）に掛けると
+    #   尻の8Hzが頭の12Hzに重なり、さらに出来上がりが total-xf に縮むので
+    #   末尾に頭の12Hzが戻ってくる。3時間ぶんのループ化に数分かかる無駄も省ける。
+    if amb.get("no_loop"):
+        loop_len = duration(src)
+        if loop_len < total:
+            raise SystemExit(
+                f"no_loop の環境音が本編より短いです（{loop_len:.1f}秒 < {total:.1f}秒）。"
+                "全長ぶん用意するか no_loop を外してください。")
+        loop = src
+    else:
+        loop, loop_len = _seamless_loop(cfg, src, amb.get("loop_xfade", 4.0))
     duck = amb.get("duck_db")
     how = (f"{gain}dB 通し" if not duck else
            f"底{gain + duck}dB → 変わり目{len(seams)}箇所で{gain}dB "
            f"（山の全幅{amb.get('swell', 12.0):g}秒）")
-    print(f"\n環境音 {os.path.basename(src)} → ループ {loop_len:.1f}秒 × "
-          f"{total / loop_len:.1f}回 / {how}")
+    if amb.get("no_loop"):
+        print(f"\n環境音 {os.path.basename(src)} → ループ化せず全長 {loop_len:.1f}秒 "
+              f"をそのまま使う / {how}")
+    else:
+        print(f"\n環境音 {os.path.basename(src)} → ループ {loop_len:.1f}秒 × "
+              f"{total / loop_len:.1f}回 / {how}")
 
     # ★★点で置く層（風鈴など）。 書かなければ従来どおり地の1枚だけ。
     spec = amb.get("sprinkle")
