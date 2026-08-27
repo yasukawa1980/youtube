@@ -100,6 +100,8 @@ rejected, one of them for birdsong and one for voices under the rain. The
 visuals are twenty-two AI-generated stills, cut on the boundaries between
 the recordings.
 
+#RainSounds #JapaneseRain #SleepSounds
+
 ──────────
 
 音楽なし。雷なし。雨だけです。
@@ -137,7 +139,19 @@ the recordings.
 2:35:29 手水鉢に降る雨
 2:43:40 誰もいない座敷
 2:51:51 雨の庭
+
+#雨の音 #睡眠用BGM #自然音
 ```
+
+### ★ハッシュタグの決めごと
+
+**① `#和風BGM` `#アンビエント` は使わない。** 楽器が1音も鳴らないので実体と違う
+（このシリーズ共通。ショートでも同じ）。
+
+**② `#睡眠用BGM` を使ってよい。** 3時間の実体が睡眠用そのもの。
+題名で `Sleep` を名乗ってよいのと同じ理屈。
+
+**③ 表示されるのは先頭3つだけ**（英語ブロックが先なので英語の3つ）。**合計15個まで。**
 
 ---
 

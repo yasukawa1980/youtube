@@ -66,6 +66,10 @@ The five paintings move outward as the hour passes: from the shade of the room,
 out to the verandah, close to the chime, down into the garden, and finally past
 the hedge to the open fields.
 
+The music is AI-generated, then chosen and sequenced by hand. The wind chimes
+and cicadas are real field recordings. The five paintings are AI-generated
+watercolours.
+
 For rest, reading, study and quiet work.
 
 ── Chapters ──
@@ -104,6 +108,9 @@ For rest, reading, study and quiet work.
 
 水彩5枚は時間とともに外へ出ていきます。座敷の暗がりから縁側へ、
 風鈴に寄り、庭へ降り、最後は生垣の向こうの青田へ。
+
+音楽はAIで生成し、選曲と曲順は手作業です。風鈴と蝉は実際の録音です。
+水彩5枚はAIで生成しています。
 
 休息・読書・作業に。
 
@@ -173,6 +180,11 @@ watercolor, relaxation, focus, 53 minutes
 - 再生リスト … **Days of Old Japan**（新規に作る）
 - 終了画面 … 焼き込み済み。要素の表示開始は「本編尺 − 13秒」
 - 子ども向け … いいえ／コメント … 通常
+- 動画の言語 … `English`（日本語のタイトル・説明は追加しない）
+- 字幕の「◯◯語（自動字幕起こし）」の行を削除する（器楽なので必ず誤判定される）
+- **「変更または合成されたコンテンツ」** … ★この巻は**水彩**で、写真のようには見えない。
+  YouTubeの開示は「実在するように見える」ものが対象なので、
+  **絵画風のこのシリーズは対象外と考えてよい**。ただし判断はご自身で。
 
 ---
 

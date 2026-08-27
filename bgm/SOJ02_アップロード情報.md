@@ -68,6 +68,9 @@ real one does and never repeats itself.
 
 Nothing fades out. The day simply ends.
 
+The cicada recordings are real field recordings. The five still images are
+AI-generated, then chosen, corrected and sequenced by hand.
+
 For sleep, rest, reading and study.
 
 ── Chapters ──
@@ -91,6 +94,8 @@ For sleep, rest, reading and study.
 本物の合唱と同じように動き、同じところを繰り返しません。
 
 フェードアウトはしません。一日が終わるだけです。
+
+蝉の音はすべて実際の録音です。静止画5枚はAIで生成し、選定と補正は手作業で行っています。
 
 睡眠・休息・読書・作業に。
 
@@ -146,6 +151,21 @@ nothing but cicadas, sounds of old japan, sleep, study, relaxation
 - 再生リスト … **Sounds of Old Japan**（無ければ作る）
 - 終了画面 … 焼き込み済み。**3時間の巻では実質意味を持たない**（要素は 2:59:55 から）
 - 子ども向け … いいえ／コメント … 通常
+- 動画の言語 … `English`（日本語のタイトル・説明は追加しない）
+- 字幕の「◯◯語（自動字幕起こし）」の行を削除する（楽器も声も無いので必ず誤判定される）
+- **「変更または合成されたコンテンツ」** … ★下記を読んでから決める
+
+### ★★合成コンテンツの開示について（この巻で前提が変わった）
+
+**これまでの巻は「チェックしない」で通してきた**（Vol.15の設定欄に明記）。
+風景のAI静止画だけで、写実の人物が出てこなかったため。
+
+**★この巻で初めてサムネに写実の人物の顔を出した。** 実在しない人物を写真のように
+生成したもので、YouTubeの開示は**まさに「実在するように見える人物」**を対象にしている。
+前提が変わっているので、**「チェックしない」を惰性で引き継がないこと。**
+
+判断はご自身で。迷うなら**チェックする側が安全**（開示してもペナルティは無く、
+説明欄に小さくラベルが付くだけ）。
 
 ---
 
