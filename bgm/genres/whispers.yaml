@@ -72,7 +72,9 @@ video:
   supersample: [2880, 1620]       # 出力の1.5倍で描いてから縮める。補間のにじみが平均化される
   zoom_max: 1.09
   unsharp: "unsharp=3:3:0.5:3:3:0.0"
-  card: "~/Desktop/BGM/_共通/エンドカード/ウィスパーオブジャパンエンディングカード_v2.png"
+  # ★2026年8月29日に新ブランド版へ差し替え。旧 _v2.png は枠が左下・比 1.735:1 で、
+  #   下のコメントの要素位置（右下・16:9）と食い違っていた。新カードは資料の座標ちょうど。
+  card: "~/Desktop/BGM/_共通/エンドカード/エンドカード_満月と水面_whispers.png"
   card_len: 15.0
   card_xfade: 2.0
   card_filter: "scale=1920:1280:flags=lanczos,crop=1920:1080:0:100"

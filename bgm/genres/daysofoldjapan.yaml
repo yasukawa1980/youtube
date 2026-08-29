@@ -39,6 +39,11 @@ brand: DAYS OF OLD JAPAN
 #   ★★`duck_db` は使わない（null で無効化）。 あれは「曲の変わり目で持ち上げて
 #     継ぎ目を覆う」仕掛けで、Vol.15の虫はそれで良かった。
 #     だがこのシリーズは環境音を通して聞かせたいので目的が違う。**通しで一定。**
+# ★エンドカードは whispers から継ぐと副題が Relaxing Music になる。
+#   このラインは音楽＋環境音なので自分のカードを持つ。他の video: の値は継承のまま。
+video:
+  card: "~/Desktop/BGM/_共通/エンドカード/エンドカード_満月と水面_daysofoldjapan.png"
+
 ambient:
   gain_db: -14
   duck_db: null
