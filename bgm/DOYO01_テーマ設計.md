@@ -34,5 +34,5 @@ Macの `/Users/ryo/Desktop/BGM/1_Whispers of Japan/童謡単曲/` 以下に各�
 
 - [承認済み一覧と実行結果](DOYO01_整理案_20261018.md)／[ハッシュ記録](DOYO01_整理結果_20261018.json)／[音量等の測定記録](DOYO01_単曲版_測定記録.json)。
 - 生成コードは `bgm/bgmkit/single_songs.py`、テストは `bgm/tests/test_single_songs.py`、依存は `bgm/requirements-single-songs.txt` へ移動。設定はdoyo03〜06へ分割。
-- 指定SSD `/Volumes/ESD-EPB/BGM/` は未接続のため未同期。別名SSDへのコピーはしていない。
+- 2026-10-18、ユーザーが保存先をESD-02と明示指定。`/Volumes/ESD-02/BGM/1_Whispers of Japan/童謡単曲/` に4作品・16ファイル（1,022,492,040 bytes）をコピーし、全件SHA-256一致。Mac原本も保持。[SSD保存記録](DOYO03-06_SSD保存記録_20261018.json)。
 - 夕焼け小焼けの10分・30分版は承認された16件に含まれず、`/Users/ryo/youtube/output/yuuyake_10分.mp4` と `/Users/ryo/youtube/output/yuuyake_30分.mp4` に保全。今回は再生成していない。

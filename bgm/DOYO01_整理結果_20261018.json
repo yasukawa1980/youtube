@@ -1,9 +1,9 @@
 {
   "date": "2026-10-18",
   "approval": "ユーザーが16件の一覧と公開順を承認。既存童謡集を維持し単曲IDはdoyo03〜06に確定。",
-  "ssd_path": "/Volumes/ESD-EPB/BGM",
-  "ssd_connected": false,
-  "ssd_synced": false,
+  "ssd_path": "/Volumes/ESD-02/BGM",
+  "ssd_connected": true,
+  "ssd_synced": true,
   "jobs": [
     {
       "single_id": "doyo03",
@@ -247,5 +247,14 @@
       "passed": 7,
       "failed": 0
     }
-  }
+  },
+  "initial_ssd_check": {
+    "ssd_path": "/Volumes/ESD-EPB/BGM",
+    "ssd_connected": false,
+    "ssd_synced": false
+  },
+  "ssd_copy_record": "DOYO03-06_SSD保存記録_20261018.json",
+  "ssd_file_count": 16,
+  "ssd_total_bytes": 1022492040,
+  "ssd_hash_matches": 16
 }
