@@ -1,0 +1,41 @@
+# 童謡単曲版。bgmkit/single_songs.py 専用設定（一般のbgmkit audio等には渡さない）。
+# 相対パスはこのYAMLのあるフォルダ基準。里の秋は保留。
+pipeline: single_songs
+slug: doyo06
+volume: 6
+publication_order: 4
+channel: ウィスパーズ
+output_dir: /Users/ryo/Desktop/BGM/1_Whispers of Japan/童謡単曲/04_七つの子
+settings:
+  crossfade: 1.5
+  fade: 4
+  lufs: -14
+  true_peak: -2
+  lra: 11
+  crf: 20
+  preset: veryfast
+songs:
+- id: nanatsunoko
+  name: 七つの子
+  visual: /Users/ryo/youtube/bgm/DOYO01_秋の童謡/画像/doyo01_02.png
+  audio:
+    path: /Users/ryo/Desktop/BGM/1_Whispers of Japan/童謡単曲/04_七つの子/02_七つの子.wav
+  short:
+    audio:
+      path: /Users/ryo/Desktop/BGM/1_Whispers of Japan/童謡単曲/04_七つの子/02_七つの子.wav
+      start: 0
+      end: 217.92
+    repeats: 1
+  alternates: []
+  description: 尺八と箏の音色で奏でる、歌声のない器楽アレンジです。
+  tags:
+  - 秋の童謡
+  - 尺八
+  - 箏
+  - 和楽器
+  - 日本の風景
+artifacts:
+  video: /Users/ryo/Desktop/BGM/1_Whispers of Japan/童謡単曲/04_七つの子/nanatsunoko_short.mp4
+  thumbnail: /Users/ryo/Desktop/BGM/1_Whispers of Japan/童謡単曲/04_七つの子/nanatsunoko_short_thumbnail.jpg
+  thumbnail_original: /Users/ryo/Desktop/BGM/1_Whispers of Japan/童謡単曲/04_七つの子/nanatsunoko_thumbnail.png
+  thumbnail_review: ../../サムネ確認用/童謡単曲/doyo06_サムネ.jpg

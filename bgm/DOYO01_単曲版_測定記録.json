@@ -1,7 +1,7 @@
 {
   "verified_on": "2026-10-18",
   "measurement_source": "output/*_short.json（制作時のFFmpeg測定値）。今回はffprobeで実ファイルの尺を再照合。LUFSの再測定はしていない。",
-  "id_status": "単曲版の仮番号。既存の童謡集doyo01/doyo02と衝突するため設定名は確認待ち。",
+  "id_status": "確定：doyo03 夕焼け小焼け、doyo04 赤とんぼ、doyo05 紅葉、doyo06 七つの子。既存童謡集doyo01/doyo02を維持。",
   "songs": [
     {
       "duration": 270.8,
@@ -27,7 +27,7 @@
         "version": "short",
         "takes": [
           {
-            "path": "/Users/ryo/youtube/bgm/DOYO01_秋の童謡/album/01_夕焼け小焼け.wav",
+            "path": "/Users/ryo/Desktop/BGM/1_Whispers of Japan/童謡単曲/01_夕焼け小焼け/01_夕焼け小焼け.wav",
             "start": 0.0,
             "end": 270.8,
             "duration": 270.8,
@@ -42,14 +42,19 @@
       },
       "visual": "/Users/ryo/youtube/bgm/DOYO01_秋の童謡/画像/doyo01_01.png",
       "subjective_listening": "not performed by script",
-      "proposed_single_id": "doyo01",
-      "video_current": "/Users/ryo/youtube/output/yuuyake_short.mp4",
-      "thumbnail_review": "サムネ確認用/童謡単曲/doyo01_サムネ.jpg",
+      "video_current": "/Users/ryo/Desktop/BGM/1_Whispers of Japan/童謡単曲/01_夕焼け小焼け/yuuyake_short.mp4",
+      "thumbnail_review": "サムネ確認用/童謡単曲/doyo03_サムネ.jpg",
       "thumbnail_bytes": 527533,
       "video_bytes": 171735706,
       "video_mtime_ns": 1792251066682510067,
       "thumbnail_sha256": "dd247bab0e1c580778b325c8613c3e16b5ae8e5696294781ed81fdea350d1055",
-      "current_paths_verified": true
+      "current_paths_verified": true,
+      "single_id": "doyo03",
+      "publication_order": 1,
+      "audio_current": "/Users/ryo/Desktop/BGM/1_Whispers of Japan/童謡単曲/01_夕焼け小焼け/01_夕焼け小焼け.wav",
+      "thumbnail_original": "/Users/ryo/Desktop/BGM/1_Whispers of Japan/童謡単曲/01_夕焼け小焼け/yuuyake_short_thumbnail.jpg",
+      "thumbnail_high_resolution": "/Users/ryo/Desktop/BGM/1_Whispers of Japan/童謡単曲/01_夕焼け小焼け/yuuyake_thumbnail.png",
+      "measurement_input_audio": "/Users/ryo/youtube/bgm/DOYO01_秋の童謡/album/01_夕焼け小焼け.wav"
     },
     {
       "duration": 253.866667,
@@ -75,7 +80,7 @@
         "version": "short",
         "takes": [
           {
-            "path": "/Users/ryo/youtube/bgm/DOYO01_秋の童謡/album/03_赤とんぼ.wav",
+            "path": "/Users/ryo/Desktop/BGM/1_Whispers of Japan/童謡単曲/02_赤とんぼ/03_赤とんぼ.wav",
             "start": 0.0,
             "end": 253.835,
             "duration": 253.835,
@@ -90,14 +95,19 @@
       },
       "visual": "/Users/ryo/youtube/bgm/DOYO01_秋の童謡/画像/doyo01_03.png",
       "subjective_listening": "not performed by script",
-      "proposed_single_id": "doyo02",
-      "video_current": "/Users/ryo/youtube/output/akatombo_short.mp4",
-      "thumbnail_review": "サムネ確認用/童謡単曲/doyo02_サムネ.jpg",
+      "video_current": "/Users/ryo/Desktop/BGM/1_Whispers of Japan/童謡単曲/02_赤とんぼ/akatombo_short.mp4",
+      "thumbnail_review": "サムネ確認用/童謡単曲/doyo04_サムネ.jpg",
       "thumbnail_bytes": 564632,
       "video_bytes": 158157192,
       "video_mtime_ns": 1792252351123076649,
       "thumbnail_sha256": "d77bd47aef002dad3f15f3d58ee16d5be1cd30e617a1251b6d8c702d15fd2962",
-      "current_paths_verified": true
+      "current_paths_verified": true,
+      "single_id": "doyo04",
+      "publication_order": 2,
+      "audio_current": "/Users/ryo/Desktop/BGM/1_Whispers of Japan/童謡単曲/02_赤とんぼ/03_赤とんぼ.wav",
+      "thumbnail_original": "/Users/ryo/Desktop/BGM/1_Whispers of Japan/童謡単曲/02_赤とんぼ/akatombo_short_thumbnail.jpg",
+      "thumbnail_high_resolution": "/Users/ryo/Desktop/BGM/1_Whispers of Japan/童謡単曲/02_赤とんぼ/akatombo_thumbnail.png",
+      "measurement_input_audio": "/Users/ryo/youtube/bgm/DOYO01_秋の童謡/album/03_赤とんぼ.wav"
     },
     {
       "duration": 279.366667,
@@ -125,7 +135,7 @@
         "version": "short",
         "takes": [
           {
-            "path": "/Users/ryo/youtube/bgm/DOYO01_秋の童謡/album/04_紅葉.wav",
+            "path": "/Users/ryo/Desktop/BGM/1_Whispers of Japan/童謡単曲/03_紅葉/04_紅葉.wav",
             "start": 0.0,
             "end": 279.346,
             "duration": 279.346,
@@ -140,14 +150,19 @@
       },
       "visual": "/Users/ryo/youtube/bgm/DOYO01_秋の童謡/画像/doyo01_04.png",
       "subjective_listening": "not performed by script",
-      "proposed_single_id": "doyo03",
-      "video_current": "/Users/ryo/youtube/output/momiji_short.mp4",
-      "thumbnail_review": "サムネ確認用/童謡単曲/doyo03_サムネ.jpg",
+      "video_current": "/Users/ryo/Desktop/BGM/1_Whispers of Japan/童謡単曲/03_紅葉/momiji_short.mp4",
+      "thumbnail_review": "サムネ確認用/童謡単曲/doyo05_サムネ.jpg",
       "thumbnail_bytes": 567817,
       "video_bytes": 200832536,
       "video_mtime_ns": 1792252411632649177,
       "thumbnail_sha256": "dc8fdcc2ea786ed92dc14b46ecd257a8a7f9ae1b83080d7c8ee65177b6aeccd1",
-      "current_paths_verified": true
+      "current_paths_verified": true,
+      "single_id": "doyo05",
+      "publication_order": 3,
+      "audio_current": "/Users/ryo/Desktop/BGM/1_Whispers of Japan/童謡単曲/03_紅葉/04_紅葉.wav",
+      "thumbnail_original": "/Users/ryo/Desktop/BGM/1_Whispers of Japan/童謡単曲/03_紅葉/momiji_short_thumbnail.jpg",
+      "thumbnail_high_resolution": "/Users/ryo/Desktop/BGM/1_Whispers of Japan/童謡単曲/03_紅葉/momiji_thumbnail.png",
+      "measurement_input_audio": "/Users/ryo/youtube/bgm/DOYO01_秋の童謡/album/04_紅葉.wav"
     },
     {
       "duration": 217.936,
@@ -173,7 +188,7 @@
         "version": "short",
         "takes": [
           {
-            "path": "/Users/ryo/youtube/bgm/DOYO01_秋の童謡/album/02_七つの子.wav",
+            "path": "/Users/ryo/Desktop/BGM/1_Whispers of Japan/童謡単曲/04_七つの子/02_七つの子.wav",
             "start": 0.0,
             "end": 217.92,
             "duration": 217.92,
@@ -188,14 +203,20 @@
       },
       "visual": "/Users/ryo/youtube/bgm/DOYO01_秋の童謡/画像/doyo01_02.png",
       "subjective_listening": "not performed by script",
-      "proposed_single_id": "doyo04",
-      "video_current": "/Users/ryo/youtube/output/nanatsunoko_short.mp4",
-      "thumbnail_review": "サムネ確認用/童謡単曲/doyo04_サムネ.jpg",
+      "video_current": "/Users/ryo/Desktop/BGM/1_Whispers of Japan/童謡単曲/04_七つの子/nanatsunoko_short.mp4",
+      "thumbnail_review": "サムネ確認用/童謡単曲/doyo06_サムネ.jpg",
       "thumbnail_bytes": 588262,
       "video_bytes": 141580407,
       "video_mtime_ns": 1792252467853674396,
       "thumbnail_sha256": "1c8943a03063423c668fd6cb6b957abdbfa7a4d6c653aee3cdc5098324d932e1",
-      "current_paths_verified": true
+      "current_paths_verified": true,
+      "single_id": "doyo06",
+      "publication_order": 4,
+      "audio_current": "/Users/ryo/Desktop/BGM/1_Whispers of Japan/童謡単曲/04_七つの子/02_七つの子.wav",
+      "thumbnail_original": "/Users/ryo/Desktop/BGM/1_Whispers of Japan/童謡単曲/04_七つの子/nanatsunoko_short_thumbnail.jpg",
+      "thumbnail_high_resolution": "/Users/ryo/Desktop/BGM/1_Whispers of Japan/童謡単曲/04_七つの子/nanatsunoko_thumbnail.png",
+      "measurement_input_audio": "/Users/ryo/youtube/bgm/DOYO01_秋の童謡/album/02_七つの子.wav"
     }
-  ]
+  ],
+  "path_update_note": "2026-10-18承認後の整理で現行パスへ更新。音源の元ファイルはmeasurement_input_audio、移動前の全パスは整理結果JSONに保存。LUFSは再測定していない。"
 }
