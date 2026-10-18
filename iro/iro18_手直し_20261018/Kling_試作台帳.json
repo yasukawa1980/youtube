@@ -1,9 +1,9 @@
 {
   "authorized_limit": 192,
-  "submitted_clips": 1,
+  "submitted_clips": 2,
   "displayed_credits_per_clip_at_submit": 64,
-  "submitted_credits_total": 64,
-  "remaining_authorized_budget": 128,
+  "submitted_credits_total": 128,
+  "remaining_authorized_budget": 64,
   "purchase": false,
   "model": "Kling 3.0",
   "resolution": "1080p",
@@ -13,6 +13,15 @@
   "project": "939997310045143086",
   "slot_id": "940803868995895378",
   "result_url": "https://kling.ai/app/creations/grid?project=939997310045143086&ac=1&slotId=940803868995895378",
-  "status": "1本受領済み・Claude検品待ち。2本目は未送信。",
-  "charge_evidence": "送信前UIの64 Generateと1件の受付を確認。残高表示2.4kは丸め値のため残高差からの実測とは扱わない。"
+  "status": "2本受領・同じ境界修正・コマ見本と全編デコード確認済み。Claude再検品資料を共有して停止。",
+  "charge_evidence": "各送信前UIの64 Generateと受付を確認。残高2.4k→2.3kは丸め値であり、残高差による実測ではない。",
+  "second_take_authorized": true,
+  "second_take_requested_credits": 64,
+  "second_take_prompt": "iro/iro18_Kling2本目プロンプト_20261018.txt",
+  "second_slot_id": "940810510768537622",
+  "second_result_url": "https://kling.ai/app/creations/grid?project=939997310045143086&ac=1&slotId=940810510768537622",
+  "second_download": "/Users/ryo/Downloads/kling_20261018_VIDEO_女性がゆっくりと2本_5850_0 (1).mp4",
+  "second_raw": "/Users/ryo/Desktop/BGM/IRO/Chill/18_毛糸の季節がやってきた/手直し_20261018/Kling_編み物試作2_原本.mp4",
+  "second_raw_sha256": "7cb02e926716453b2071cbd139c297f4d961aff1c2ee445d82f2f52430626cd1",
+  "remaining_budget_requires_user_confirmation": true
 }
