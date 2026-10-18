@@ -63,10 +63,10 @@ def thumbnails():
         mask[y0:y1, x0:x1] = white.astype(np.uint8) * 255
         mask = cv2.dilate(mask, np.ones((3, 3), np.uint8), iterations=2)
         image = Image.fromarray(cv2.inpaint(before, mask, 5, cv2.INPAINT_TELEA))
-        # 4枚共通の座標。Cochin Bold、1920幅換算56px／字間12px。
+        # 4枚共通の座標。Cochin Bold、1920幅換算38px／字間8px。
         factor = image.width / 1920
-        font = ImageFont.truetype(COCHIN, round(56 * factor), index=1)
-        spacing = 12 * factor
+        font = ImageFont.truetype(COCHIN, round(38 * factor), index=1)
+        spacing = 8 * factor
         layer = Image.new('RGBA', image.size)
         draw = ImageDraw.Draw(layer)
         x, y = 72.0, 758.0
@@ -77,10 +77,11 @@ def thumbnails():
             ruby = ImageFont.truetype(MINCHO, 68, index=2)
             # 題字の右側、字面下端590pxにそろえる。約1/4の大きさ。
             draw.text((652, 590), 'もみじ', font=ruby, fill=GOLD + (255,), anchor='lb')
-        # 画面の明部でも小さな英字・読みが背景に埋まらない程度のごく薄い影。
+        # 影を2回重ね、明るい岩の上でも「じ」の濁点を読みやすくする。
         shadow = Image.new('RGBA', image.size, (0, 0, 0, 0))
         shadow.putalpha(layer.getchannel('A').filter(ImageFilter.GaussianBlur(2)))
         image = Image.alpha_composite(image.convert('RGBA'), shadow)
+        image = Image.alpha_composite(image, shadow)
         image = Image.alpha_composite(image, layer).convert('RGB')
         png = out / (key + '_thumbnail.png')
         jpg = out / (key + '_short_thumbnail.jpg')
