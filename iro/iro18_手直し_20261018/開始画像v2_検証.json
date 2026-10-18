@@ -1,0 +1,64 @@
+{
+  "source": "/Volumes/ESD-02/BGM/IRO/Chill/18_毛糸の季節がやってきた/手直し_20261018/18_start_旧_1920.png",
+  "source_sha256": "fec077e78e3e8655c1b9ac9c387597593b295b58194be7639d1e9bc48b99e61b",
+  "source_mask": "/Volumes/ESD-02/BGM/IRO/Chill/18_毛糸の季節がやってきた/手直し_20261018/手元変更マスク_1672.png",
+  "source_mask_sha256": "1fb53152763588301b5a7952aae9b90889944aae0d7be77766bd859616ea15bd",
+  "generated": "/Users/ryo/.codex/generated_images/01a150ef-a66d-77d1-afb5-7600a35a3560/exec-275f90d6-2924-48e3-ad1e-42978ce8f9be.png",
+  "generated_sha256": "250be44f68c07c7e070e30f68d94d9ed53d5bb03edd8e6d8f6fd6ff3147af595",
+  "method": "built-in image_gen / 2 edits; final-size mask composite; no post-composite resizing",
+  "mask_scaling": "support=NEAREST>0; alpha=BILINEAR clipped to support; original mask unchanged",
+  "size": [
+    1920,
+    1080
+  ],
+  "main_vs_original": {
+    "outside_pixels": 1916441,
+    "outside_changed_pixels": 0,
+    "outside_max_channel_difference": 0,
+    "outside_absolute_difference_sum": 0,
+    "total_changed_pixels": 155704
+  },
+  "dog_vs_original_with_same_1_4x_dog": {
+    "outside_pixels": 1916441,
+    "outside_changed_pixels": 0,
+    "outside_max_channel_difference": 0,
+    "outside_absolute_difference_sum": 0,
+    "total_changed_pixels": 155704
+  },
+  "dog_vs_original_outside_hand_and_dog_masks": {
+    "outside_pixels": 1565247,
+    "outside_changed_pixels": 0,
+    "outside_max_channel_difference": 0,
+    "outside_absolute_difference_sum": 0,
+    "total_changed_pixels": 475886
+  },
+  "dog_scale": 1.4,
+  "dog_crop_offset": [
+    164,
+    400
+  ],
+  "dog_note": "犬拡大版は犬も変わるため、手元マスク外0は同じ犬拡大を施した旧画像との比較。元画像に対しては手元＋犬マスクの外側が0。",
+  "outputs": [
+    {
+      "path": "/Volumes/ESD-02/BGM/IRO/Chill/18_毛糸の季節がやってきた/手直し_20261018/18_start_編む手元v2_Kling用.png",
+      "sha256": "4e889ea6ff610e99ba5b443d5c0bbe6756ab133ddbe8f663986f52580a3dd7dc",
+      "bytes": 2731708
+    },
+    {
+      "path": "/Volumes/ESD-02/BGM/IRO/Chill/18_毛糸の季節がやってきた/手直し_20261018/18_start_編む手元v2_犬1.4倍.png",
+      "sha256": "caeaad47b3b4f45f5f10998585a0c0aba075ee45c460bfade295a10ae376dda0",
+      "bytes": 2713721
+    }
+  ],
+  "comparison": {
+    "path": "/Users/ryo/youtube/iro/iro18_手直し_20261018/開始画像v2_比較.jpg",
+    "size": [
+      1280,
+      910
+    ],
+    "bytes": 395458
+  },
+  "kling_invoked": false,
+  "posted": false,
+  "scheduled": false
+}
