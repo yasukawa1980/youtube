@@ -1,0 +1,31 @@
+ffmpeg stats and -progress period set to 20.
+Input #0, flac, from '/Volumes/ESD-02/_内蔵_youtube_bgm/WAVE09_天の川の高原/本編音声v2/wave09_3時間_自前合成_v2_整音.flac':
+  Metadata:
+    encoder         : Lavf62.12.101
+  Duration: 03:00:00.00, start: 0.000000, bitrate: 1017 kb/s
+  Stream #0:0: Audio: flac, 48000 Hz, stereo, s32 (24 bit)
+Input #1, flac, from '/Volumes/ESD-02/_内蔵_youtube_bgm/WAVE09_天の川の高原/本編音声v2/wave09_3時間_自前合成_v2_整音.flac':
+  Metadata:
+    encoder         : Lavf62.12.101
+  Duration: 03:00:00.00, start: 0.000000, bitrate: 1017 kb/s
+  Stream #1:0: Audio: flac, 48000 Hz, stereo, s32 (24 bit)
+Input #2, flac, from '/Volumes/ESD-02/_内蔵_youtube_bgm/WAVE09_天の川の高原/本編音声v2/wave09_3時間_自前合成_v2_整音.flac':
+  Metadata:
+    encoder         : Lavf62.12.101
+  Duration: 03:00:00.00, start: 0.000000, bitrate: 1017 kb/s
+  Stream #2:0: Audio: flac, 48000 Hz, stereo, s32 (24 bit)
+Stream mapping:
+  Stream #0:0 (flac) -> atrim:default
+  Stream #1:0 (flac) -> atrim:default
+  Stream #2:0 (flac) -> atrim:default
+  volume:default -> Stream #0:0 (flac)
+Output #0, flac, to '/Users/ryo/youtube/bgm/LIVE02_天の川の高原_8時間/live02_音声_8h05.flac':
+  Metadata:
+    title           : LIVE02 天の川の高原 8時間5分
+    DESCRIPTION     : 60-second phase-aligned crossfades; lossless WAVE09 mastered source
+    encoder         : Lavf62.12.101
+  Stream #0:0: Audio: flac, 48000 Hz, stereo, s32 (24 bit), 128 kb/s
+    Metadata:
+      encoder         : Lavc62.28.101 flac
+size=  650240KiB time=01:24:59.32 bitrate=1044.6kbits/s speed= 255x elapsed=0:00:20.00    size= 1403904KiB time=03:04:10.65 bitrate=1040.7kbits/s speed= 276x elapsed=0:00:40.00    size= 2102784KiB time=04:35:36.19 bitrate=1041.7kbits/s speed= 276x elapsed=0:01:00.01    size= 2850048KiB time=06:13:51.36 bitrate=1040.8kbits/s speed= 280x elapsed=0:01:20.01    size= 3625984KiB time=07:55:08.64 bitrate=1041.9kbits/s speed= 285x elapsed=0:01:40.02    [out#0/flac @ 0xb67020540] video:0KiB audio:3702643KiB subtitle:0KiB other streams:0KiB global headers:0KiB muxing overhead: 0.000222%
+size= 3702651KiB time=08:05:00.00 bitrate=1042.3kbits/s speed= 286x elapsed=0:01:41.90    
