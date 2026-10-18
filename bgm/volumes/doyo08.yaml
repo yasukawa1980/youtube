@@ -1,0 +1,45 @@
+# 童謡単曲版 第2弾「秋の夜の童謡」下書き（2026-10-18 本人が案Aを承認）。
+# bgmkit/single_songs.py 専用設定（一般のbgmkit audio等には渡さない）。
+# 元音源・背景画像の場所が未確認のため enabled: false。確認後に audio/visual/end を埋めて true にする。
+pipeline: single_songs
+slug: doyo08
+volume: 8
+publication_order: 6
+channel: ウィスパーズ
+output_dir: /Users/ryo/Desktop/BGM/1_Whispers of Japan/童謡単曲/06_十五夜お月さん
+settings:
+  crossfade: 1.5
+  fade: 4
+  lufs: -14
+  true_peak: -2
+  lra: 11
+  crf: 20
+  preset: veryfast
+songs:
+- id: jugoya
+  name: 十五夜お月さん
+  enabled: false
+  visual: 未確認  # ショート（予約済み）と同じ絵柄の高解像度PNGを探す
+  audio:
+    path: /Users/ryo/Desktop/BGM/1_Whispers of Japan/童謡単曲/06_十五夜お月さん/十五夜お月さん.wav  # 未配置。ショートの元になったアルバムWAVを複製して置く
+  short:
+    audio:
+      path: /Users/ryo/Desktop/BGM/1_Whispers of Japan/童謡単曲/06_十五夜お月さん/十五夜お月さん.wav
+      start: 0
+      # end: 未測定。旋律のまとまりで切る位置を決めてから書く
+    repeats: 1
+  alternates: []
+  description: 箏・尺八の音色で奏でる、歌声のない器楽アレンジです。
+  tags:
+  - 秋の童謡
+  - 尺八
+  - 箏
+  - 和楽器
+  - 日本の風景
+artifacts:
+  video: /Users/ryo/Desktop/BGM/1_Whispers of Japan/童謡単曲/06_十五夜お月さん/jugoya_short.mp4
+  thumbnail: /Users/ryo/Desktop/BGM/1_Whispers of Japan/童謡単曲/06_十五夜お月さん/jugoya_short_thumbnail.jpg
+  thumbnail_original: /Users/ryo/Desktop/BGM/1_Whispers of Japan/童謡単曲/06_十五夜お月さん/jugoya_thumbnail.png
+  thumbnail_review: ../../サムネ確認用/童謡単曲/doyo08_サムネ.jpg
+ssd_backup:
+  root: /Volumes/ESD-02/BGM/1_Whispers of Japan/童謡単曲/06_十五夜お月さん  # 未コピー
