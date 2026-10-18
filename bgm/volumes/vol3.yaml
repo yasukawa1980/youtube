@@ -1,0 +1,14 @@
+# Whispers of Japan / Vol.3 — サムネイル専用の設定
+#
+# ★★この巻は bgmkit 以前に作られている（旧 make_thumbnail_vol3.py）。
+#   音と映像は公開済みのものをそのまま使うので、ここにはサムネを作り直すのに
+#   必要な最小限しか書いていない。背景は旧スクリプトの SRC から拾った。
+#
+# ★2026年8月25日、題字を日本語に統一するために起こした。
+genre: whispers
+volume: 3
+slug: vol3
+dir: "/Volumes/ESD-EPB/BGM/1_Whispers of Japan/Vol03_素材_神社"
+background: "~/Desktop/BGM/1_Whispers of Japan/Vol03_素材_神社/Vol3_背景_01.png"
+title_lines: ['月夜の', '桜と神社']
+thumb_out: "/Volumes/ESD-EPB/BGM/1_Whispers of Japan/Vol03_素材_神社/Vol3_サムネ_16x9_日本語.png"

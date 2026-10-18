@@ -1,0 +1,710 @@
+<title>雨の石畳</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Shippori+Mincho:wght@500;600&family=Zen+Kaku+Gothic+New:wght@400;500;700&family=IBM+Plex+Mono:wght@400;500&display=swap">
+<style>
+:root{
+  color-scheme: light;
+  --bg:#E7E9EE; --surface:#F3F4F7; --raise:#FBFBFD;
+  --line:#CBD0DA; --line-soft:#DDE1E8;
+  --ink:#141821; --ink-2:#434B5A; --ink-3:#5D6474;
+  --amber:#88570D; --amber-line:#D2AE6B; --amber-wash:#F4EEE1;
+  --indigo:#33406A; --indigo-wash:#E4E7F0;
+  --done:#3F6147;
+  --shadow:0 1px 2px rgba(20,24,33,.06), 0 8px 24px -16px rgba(20,24,33,.28);
+}
+@media (prefers-color-scheme: dark){
+  :root:not([data-theme="light"]){
+    color-scheme: dark;
+    --bg:#0C0E12; --surface:#14171E; --raise:#1B1F28;
+    --line:#272C37; --line-soft:#1F242D;
+    --ink:#E9EAEE; --ink-2:#AAB1BF; --ink-3:#7E8697;
+    --amber:#E3A754; --amber-line:#5A431F; --amber-wash:#1A160F;
+    --indigo:#93A2CC; --indigo-wash:#12151F;
+    --done:#82A98A;
+    --shadow:0 1px 2px rgba(0,0,0,.5), 0 10px 30px -20px rgba(0,0,0,.9);
+  }
+}
+:root[data-theme="dark"]{
+  color-scheme: dark;
+  --bg:#0C0E12; --surface:#14171E; --raise:#1B1F28;
+  --line:#272C37; --line-soft:#1F242D;
+  --ink:#E9EAEE; --ink-2:#AAB1BF; --ink-3:#7E8697;
+  --amber:#E3A754; --amber-line:#5A431F; --amber-wash:#1A160F;
+  --indigo:#93A2CC; --indigo-wash:#12151F;
+  --done:#82A98A;
+  --shadow:0 1px 2px rgba(0,0,0,.5), 0 10px 30px -20px rgba(0,0,0,.9);
+}
+
+*{box-sizing:border-box}
+body{
+  margin:0; background:var(--bg); color:var(--ink);
+  font-family:"Zen Kaku Gothic New","Hiragino Sans","Yu Gothic",system-ui,sans-serif;
+  font-size:15px; line-height:1.75; -webkit-font-smoothing:antialiased;
+}
+.wrap{max-width:1080px; margin:0 auto; padding:0 24px 96px}
+h1,h2,h3{font-family:"Shippori Mincho","Hiragino Mincho ProN","Yu Mincho",serif;
+  font-weight:600; text-wrap:balance; margin:0; line-height:1.35}
+
+/* ── 見出し帯 ───────────────────────── */
+.top{padding:64px 0 40px; border-bottom:1px solid var(--line)}
+.eyebrow{font-size:11px; letter-spacing:.22em; text-transform:uppercase;
+  color:var(--amber); font-weight:600; margin:0 0 14px}
+.top h1{font-size:clamp(34px,6vw,54px); letter-spacing:.04em}
+.romaji{font-family:"Shippori Mincho",serif; font-size:clamp(15px,2.2vw,19px);
+  color:var(--ink-2); letter-spacing:.05em; margin:10px 0 0; font-style:italic}
+.facts{display:flex; flex-wrap:wrap; gap:8px; margin-top:24px; padding:0; list-style:none}
+.facts li{font-size:12px; letter-spacing:.04em; color:var(--ink-2);
+  border:1px solid var(--line); border-radius:2px; padding:5px 11px; background:var(--surface)}
+.facts li.hot{color:var(--amber); border-color:var(--amber-line); background:var(--amber-wash)}
+
+/* ── 進捗 ───────────────────────── */
+.gauges{display:grid; grid-template-columns:repeat(auto-fit,minmax(240px,1fr));
+  gap:20px; margin-top:32px}
+.gauge{background:var(--surface); border:1px solid var(--line); border-radius:3px; padding:16px 18px}
+.gauge-top{display:flex; justify-content:space-between; align-items:baseline; gap:12px}
+.gauge-k{font-size:12px; letter-spacing:.1em; color:var(--ink-2)}
+.gauge-v{font-family:"IBM Plex Mono",ui-monospace,monospace; font-size:20px;
+  font-variant-numeric:tabular-nums; color:var(--ink)}
+.bar{height:3px; background:var(--line-soft); margin-top:12px; border-radius:2px; overflow:hidden}
+.bar i{display:block; height:100%; width:0; background:var(--amber);
+  transition:width .4s cubic-bezier(.2,.7,.3,1)}
+.gauge-note{font-size:11px; color:var(--ink-3); margin:8px 0 0}
+
+/* ── 節 ───────────────────────── */
+section{margin-top:72px}
+.sec-head{border-bottom:1px solid var(--line); padding-bottom:14px; margin-bottom:28px}
+.sec-head h2{font-size:24px; letter-spacing:.06em}
+.sec-head p{margin:8px 0 0; color:var(--ink-2); font-size:13.5px; max-width:62ch}
+
+/* ── 素材表 ───────────────────────── */
+.tablewrap{overflow-x:auto; border:1px solid var(--line); border-radius:3px; background:var(--surface)}
+table{width:100%; border-collapse:collapse; min-width:640px}
+th,td{text-align:left; padding:12px 16px; border-bottom:1px solid var(--line-soft);
+  font-size:13px; vertical-align:top}
+tbody tr:last-child th, tbody tr:last-child td{border-bottom:0}
+thead th{font-size:11px; letter-spacing:.14em; color:var(--ink-3); font-weight:600;
+  text-transform:uppercase; background:var(--raise); white-space:nowrap}
+tbody th{font-weight:600; color:var(--ink); white-space:nowrap}
+.where{display:block; font-weight:400; font-size:11px; color:var(--ink-3); letter-spacing:.03em}
+td.n{font-family:"IBM Plex Mono",monospace; font-variant-numeric:tabular-nums;
+  color:var(--amber); font-size:15px; width:1%}
+td code{font-family:"IBM Plex Mono",monospace; font-size:12px; color:var(--ink-2)}
+td.want{color:var(--ink-2)}
+
+.warn{margin-top:18px; border-left:2px solid var(--amber); background:var(--amber-wash);
+  padding:14px 18px; font-size:13.5px; color:var(--ink)}
+.warn strong{color:var(--amber)}
+
+.crits{display:grid; grid-template-columns:repeat(auto-fit,minmax(280px,1fr));
+  gap:1px; background:var(--line); border:1px solid var(--line);
+  border-radius:3px; margin-top:24px; overflow:hidden}
+.crit{background:var(--surface); padding:14px 16px; display:grid;
+  grid-template-columns:auto 1fr; gap:4px 12px; align-items:baseline}
+.crit-k{font-size:12.5px; font-weight:600}
+.crit-v{font-family:"IBM Plex Mono",monospace; font-size:12.5px; color:var(--amber);
+  text-align:right; font-variant-numeric:tabular-nums}
+.crit-w{grid-column:1/-1; font-size:11.5px; color:var(--ink-3); line-height:1.5}
+
+.bans{list-style:none; padding:0; margin:24px 0 0;
+  display:grid; grid-template-columns:repeat(auto-fit,minmax(300px,1fr)); gap:10px}
+.bans li{font-size:12.5px; color:var(--ink-2); line-height:1.6;
+  border:1px solid var(--line); border-radius:3px; padding:12px 14px; background:var(--surface)}
+.bans strong{display:block; color:var(--ink); font-size:13px; margin-bottom:2px}
+.bans strong::before{content:"× "; color:var(--amber)}
+
+/* ── 幕 ───────────────────────── */
+.act{margin-top:56px}
+.act-head{padding:18px 22px; border:1px solid var(--line); border-radius:3px 3px 0 0;
+  border-bottom:0; background:var(--surface)}
+.act-label{font-size:11px; letter-spacing:.2em; color:var(--amber); font-weight:600}
+.act-head h2{font-size:20px; margin-top:4px; letter-spacing:.06em}
+.act-head p{margin:6px 0 0; font-size:12.5px; color:var(--ink-3)}
+/* 幕が進むほど地が沈む。この巻の弧そのもの */
+.act-one .act-head{background:var(--amber-wash)}
+.act-three .act-head{background:var(--indigo-wash)}
+.act-three .act-label{color:var(--indigo)}
+
+.scenes{display:grid; gap:1px; background:var(--line);
+  border:1px solid var(--line); border-radius:0 0 3px 3px; overflow:hidden}
+.scene{background:var(--surface); padding:20px 22px 22px}
+.act-one .scene{background:linear-gradient(var(--amber-wash),var(--surface) 90px)}
+.act-three .scene{background:linear-gradient(var(--indigo-wash),var(--surface) 90px)}
+.scene.done{opacity:.55}
+.scene-head{display:flex; gap:16px; align-items:flex-start}
+.num{font-family:"IBM Plex Mono",monospace; font-size:13px; color:var(--ink-3);
+  font-variant-numeric:tabular-nums; padding-top:3px; letter-spacing:.05em}
+.scene-id{flex:1; min-width:0}
+.scene-id h3{font-size:17px; letter-spacing:.04em}
+.meta{margin:6px 0 0; display:flex; flex-wrap:wrap; gap:6px}
+.tag{font-size:11px; letter-spacing:.05em; color:var(--ink-3);
+  border:1px solid var(--line); border-radius:2px; padding:2px 8px; background:var(--raise)}
+.tag-fig{color:var(--amber); border-color:var(--amber-line); background:var(--amber-wash)}
+
+.check{display:flex; align-items:center; gap:7px; cursor:pointer; user-select:none;
+  font-size:12px; color:var(--ink-3); white-space:nowrap; padding-top:2px}
+.check input{width:15px; height:15px; accent-color:var(--done); cursor:pointer; margin:0}
+.scene.done .check{color:var(--done)}
+
+.prompt{margin:16px 0 0; max-height:190px; overflow:auto;
+  font-family:"IBM Plex Mono",ui-monospace,monospace; font-size:11.5px; line-height:1.85;
+  color:var(--ink-2); background:var(--raise); border:1px solid var(--line-soft);
+  border-radius:3px; padding:14px 16px; white-space:pre-wrap; word-break:break-word}
+
+button.copy{margin-top:12px; font:inherit; font-size:12.5px; letter-spacing:.05em;
+  color:var(--ink); background:var(--raise); border:1px solid var(--line);
+  border-radius:3px; padding:8px 16px; cursor:pointer;
+  transition:border-color .15s, color .15s, background .15s}
+button.copy:hover{border-color:var(--amber-line); color:var(--amber)}
+button.copy:focus-visible{outline:2px solid var(--amber); outline-offset:2px}
+button.copy.ok{color:var(--done); border-color:var(--done)}
+button.copy.small{margin:0; padding:7px 14px; font-size:12px}
+
+/* ── 手順 ───────────────────────── */
+.steps{list-style:none; padding:0; margin:0; display:grid; gap:1px;
+  background:var(--line); border:1px solid var(--line); border-radius:3px; overflow:hidden}
+.step{background:var(--surface); padding:18px 22px; display:grid;
+  grid-template-columns:minmax(210px,1fr) minmax(0,1.6fr); gap:10px 28px; align-items:start}
+.step-t h3{font-size:15px; letter-spacing:.04em}
+.step-t p{margin:5px 0 0; font-size:12px; color:var(--ink-3); line-height:1.6}
+.cmdwrap{display:flex; flex-direction:column; gap:8px; align-items:flex-start; min-width:0}
+.cmd{margin:0; width:100%; overflow-x:auto; font-family:"IBM Plex Mono",monospace;
+  font-size:11.5px; line-height:1.7; color:var(--ink-2); background:var(--raise);
+  border:1px solid var(--line-soft); border-radius:3px; padding:12px 14px; white-space:pre}
+@media (max-width:720px){ .step{grid-template-columns:1fr} }
+
+.foot{margin-top:72px; padding-top:22px; border-top:1px solid var(--line);
+  font-size:11.5px; color:var(--ink-3); display:flex; flex-wrap:wrap; gap:6px 20px}
+.foot code{font-family:"IBM Plex Mono",monospace}
+
+@media (prefers-reduced-motion: reduce){ *{transition:none !important} }
+</style>
+
+<div class="wrap">
+
+<header class="top">
+  <p class="eyebrow">Whispers of Japan ／ Vol.16</p>
+  <h1>雨の石畳</h1>
+  <p class="romaji">Rain on the Lantern Street 🌙 Japanese Rain Sounds for Sleep | 3 Hours</p>
+  <ul class="facts">
+    <li class="hot">楽器はゼロ。雨だけ</li>
+    <li class="hot">雷は入れない</li>
+    <li>22トラック × 497秒 ＝ 3時間00分08秒</li>
+    <li>曲間 6秒</li>
+    <li class="hot">初めて人物を出す巻（後ろ姿・顔なし）</li>
+    <li>この巻だけ月を描かない</li>
+  </ul>
+
+  <div class="gauges">
+    <div class="gauge" id="g-img">
+      <div class="gauge-top"><span class="gauge-k">画像</span><span class="gauge-v">0 / 22</span></div>
+      <div class="bar"><i></i></div>
+      <p class="gauge-note">1枚ずつ生成する。16:9でそのまま出す（切り出しもガンマも掛けない）</p>
+    </div>
+    <div class="gauge">
+      <div class="gauge-top"><span class="gauge-k">雨の素材</span><span class="gauge-v">18 本</span></div>
+      <div class="bar"><i style="width:100%;background:var(--line)"></i></div>
+      <p class="gauge-note">Pixabay Content License。落としたら <code>vet</code> に掛ける</p>
+    </div>
+  </div>
+</header>
+
+<section>
+  <div class="sec-head">
+    <h2>まず雨を仕入れる</h2>
+    <p>ここが唯一の外部依存。1本60秒以上あれば足ります（場面の8分17秒までは自動で伸ばします）。</p>
+  </div>
+
+  <div class="tablewrap">
+    <table>
+      <thead><tr><th scope="col">用途</th><th scope="col">本数</th><th scope="col">探す語</th><th scope="col">求める性質</th></tr></thead>
+      <tbody>
+<tr><th scope="row">①石畳と舗装<span class="where">場面 1–8</span></th>
+<td class="n">4</td><td><code>rain on pavement / rain on street</code></td><td class="want">広帯域・開けている</td></tr>
+<tr><th scope="row">②番傘<span class="where">場面 4・7</span></th>
+<td class="n">2</td><td><code>rain on umbrella</code></td><td class="want">粒が明確・近い</td></tr>
+<tr><th scope="row">③軒の雨だれ・雨樋<span class="where">場面 9–13</span></th>
+<td class="n">4</td><td><code>rain dripping / water dripping roof / rain gutter</code></td><td class="want">近接・滴が数えられる</td></tr>
+<tr><th scope="row">④屋内・障子/窓越し<span class="where">場面 14–20</span></th>
+<td class="n">5</td><td><code>rain on window / rain indoor / muffled rain</code></td><td class="want">低域寄り・高域が落ちている</td></tr>
+<tr><th scope="row">⑤細い雨<span class="where">場面 21–22</span></th>
+<td class="n">2</td><td><code>light rain / soft rain / quiet rain</code></td><td class="want">小さい・静か</td></tr>
+<tr><th scope="row">（ベース層 予備）<span class="where">当面は使わない</span></th>
+<td class="n">1</td><td><code>rain ambience / steady rain</code></td><td class="want">継ぎ目が気になったとき用</td></tr>
+      </tbody>
+    </table>
+  </div>
+
+  <p class="warn"><strong>全素材の絶対条件は、雷が1回も入っていないこと。</strong>
+  睡眠用で最悪の突発音で、3時間のあいだ何度もその瞬間が来ます。
+  <code>rain</code> で検索すると <code>rain and thunder</code> が大量に混ざります。</p>
+
+  <div class="crits">
+<div class="crit"><span class="crit-k">突発音</span><span class="crit-v">0%</span><span class="crit-w">雷・扉・話し声。睡眠用では一発で不可</span></div>
+<div class="crit"><span class="crit-k">レベル変動</span><span class="crit-v">≤ 2.5 dB</span><span class="crit-w">雨脚が変わる素材は3時間ループで波打つ</span></div>
+<div class="crit"><span class="crit-k">120Hz未満</span><span class="crit-v">≤ 20%</span><span class="crit-w">交通のゴロゴロ、マイクの吹かれ</span></div>
+<div class="crit"><span class="crit-k">尺</span><span class="crit-v">≥ 60秒</span><span class="crit-w">ループの重ね幅の3倍が要る</span></div>
+<div class="crit"><span class="crit-k">左右相関</span><span class="crit-v">≤ 0.95</span><span class="crit-w">モノラルを2chにしただけの素材</span></div>
+<div class="crit"><span class="crit-k">無音区間</span><span class="crit-v">無し</span><span class="crit-w">途中で切れている素材</span></div>
+  </div>
+  <p class="warn"><strong>この閾値は雨でまだ実測していません。</strong>
+  虫の音（Vol.15）とピンクノイズでしか当たっていないので、最初の一山を測ったら見直します。</p>
+</section>
+
+<section>
+  <div class="sec-head">
+    <h2>画像 22枚</h2>
+    <p>三幕を通して音が遠ざかっていきます。人物が写るのは8枚だけ。
+    服の3点（濃紺の着物・鴇鼠の帯・低い束ね髪）を毎回書いてあるので、顔を出さなくても同じ人物に見えます。</p>
+  </div>
+
+  <ul class="bans">
+<li><strong>文字</strong>提灯・のれん・看板・木札。この題材の最大の弱点。提灯は無地と明示してある</li>
+<li><strong>雨の縦線</strong>AIの雨は引っかき傷になる。濡れた面・波紋・滴・霞で描かせる</li>
+<li><strong>現代物</strong>電線・電柱・室外機・車・LED・白線・プラスチック</li>
+<li><strong>顔と手</strong>後ろ姿のみ。手は袖に隠す。他の人物は1人も出さない</li>
+<li><strong>月</strong>雨雲の下に月は無い。この巻だけ月を描かない</li>
+  </ul>
+
+<section class="act act-one">
+<div class="act-head">
+<span class="act-label">第一幕</span>
+<h2>通りを歩く</h2>
+<p>場面 1–8　／　雨は開けて広い。粒が立つ</p>
+</div>
+<div class="scenes">
+<article class="scene act-one" data-n="1">
+<header class="scene-head">
+<span class="num">01</span>
+<div class="scene-id">
+<h3>通りの入口・引き</h3>
+<p class="meta"><span class="tag">音＝石畳</span><span class="tag tag-fig">★人物</span></p>
+</div>
+<label class="check"><input type="checkbox" data-key="img1"><span>できた</span></label>
+</header>
+<pre class="prompt" id="p1">Wide establishing shot looking down a narrow old Japanese merchant street of machiya townhouses, seen from its entrance. The street runs away from the camera and dissolves into soft haze. Rows of plain paper lanterns hang under the eaves on both sides, their amber light smeared into long vertical reflections on the black wet flagstones. Far down the street, small and distant, a woman under a traditional oiled-paper umbrella walks away from the camera. The left third of the frame is a quiet dark wall of wooden lattice with little detail.
+
+A single woman in traditional Japanese dress, seen strictly from behind. Her face is never visible and never turns toward the camera. Her hands are covered by her kimono sleeves and are not rendered in detail. She wears a deep indigo kimono with a soft ash-rose obi tied in a flat drum knot at the back, and her hair is gathered in a low simple bun. She is completely still and quiet. No other people anywhere in the image.
+
+Photorealistic cinematic still, an old Japanese townhouse street at night in the rain. The only light comes from plain paper lanterns and the warm glow leaking through wooden lattice windows — amber, low and soft, fading to deep blue-grey in the distance. Exposed so that texture is clearly visible everywhere: wet stone, wood grain, roof tiles, paper, cloth. Shadows are lifted and open, full of visible detail, nothing crushed to pure black. High dynamic range, rich texture even in the darkest areas. The rain is shown only through its effects — mirror-wet stone, ripples in shallow puddles, water beading and running off edges, a soft veil of haze in the distance. No visible rain streaks or rain lines anywhere in the frame. No moon and no moonlight; the sky is overcast. No text, no signage, no lettering, no calligraphy of any kind — the paper lanterns are plain and unmarked. No modern objects: no power lines, no utility poles, no electric lamps, no vehicles, no air conditioners, no plastic, no road markings. Muted palette, fine film grain, 16:9 composition with generous quiet empty space in the left third for titles.</pre>
+<button class="copy" data-target="p1">プロンプトをコピー</button>
+</article>
+<article class="scene act-one" data-n="2">
+<header class="scene-head">
+<span class="num">02</span>
+<div class="scene-id">
+<h3>濡れた石畳・寄り</h3>
+<p class="meta"><span class="tag">音＝石畳</span></p>
+</div>
+<label class="check"><input type="checkbox" data-key="img2"><span>できた</span></label>
+</header>
+<pre class="prompt" id="p2">Low close view of wet flagstone paving at night, the camera near the ground. Each stone is a black mirror; the amber lanterns overhead are reflected in long soft vertical streaks that stretch toward the camera. Thin films of water fill the joints between the stones. The stone is worn smooth and its grain and chipped edges are clearly visible. No people.
+
+Photorealistic cinematic still, an old Japanese townhouse street at night in the rain. The only light comes from plain paper lanterns and the warm glow leaking through wooden lattice windows — amber, low and soft, fading to deep blue-grey in the distance. Exposed so that texture is clearly visible everywhere: wet stone, wood grain, roof tiles, paper, cloth. Shadows are lifted and open, full of visible detail, nothing crushed to pure black. High dynamic range, rich texture even in the darkest areas. The rain is shown only through its effects — mirror-wet stone, ripples in shallow puddles, water beading and running off edges, a soft veil of haze in the distance. No visible rain streaks or rain lines anywhere in the frame. No moon and no moonlight; the sky is overcast. No text, no signage, no lettering, no calligraphy of any kind — the paper lanterns are plain and unmarked. No modern objects: no power lines, no utility poles, no electric lamps, no vehicles, no air conditioners, no plastic, no road markings. Muted palette, fine film grain, 16:9 composition with generous quiet empty space in the left third for titles.</pre>
+<button class="copy" data-target="p2">プロンプトをコピー</button>
+</article>
+<article class="scene act-one" data-n="3">
+<header class="scene-head">
+<span class="num">03</span>
+<div class="scene-id">
+<h3>格子戸の連なり・引き</h3>
+<p class="meta"><span class="tag">音＝石畳</span></p>
+</div>
+<label class="check"><input type="checkbox" data-key="img3"><span>できた</span></label>
+</header>
+<pre class="prompt" id="p3">A run of wooden lattice doors and windows along a machiya facade, viewed at a shallow angle along the street so the lattice repeats away into the distance. Warm light glows from behind the lattice and from the paper screens beyond it, throwing a grid of soft amber bars onto the wet stone below. Rain beads on the dark timber. A plain paper lantern hangs at the near eave. No people.
+
+Photorealistic cinematic still, an old Japanese townhouse street at night in the rain. The only light comes from plain paper lanterns and the warm glow leaking through wooden lattice windows — amber, low and soft, fading to deep blue-grey in the distance. Exposed so that texture is clearly visible everywhere: wet stone, wood grain, roof tiles, paper, cloth. Shadows are lifted and open, full of visible detail, nothing crushed to pure black. High dynamic range, rich texture even in the darkest areas. The rain is shown only through its effects — mirror-wet stone, ripples in shallow puddles, water beading and running off edges, a soft veil of haze in the distance. No visible rain streaks or rain lines anywhere in the frame. No moon and no moonlight; the sky is overcast. No text, no signage, no lettering, no calligraphy of any kind — the paper lanterns are plain and unmarked. No modern objects: no power lines, no utility poles, no electric lamps, no vehicles, no air conditioners, no plastic, no road markings. Muted palette, fine film grain, 16:9 composition with generous quiet empty space in the left third for titles.</pre>
+<button class="copy" data-target="p3">プロンプトをコピー</button>
+</article>
+<article class="scene act-one" data-n="4">
+<header class="scene-head">
+<span class="num">04</span>
+<div class="scene-id">
+<h3>番傘の後ろ姿・中景 ←サムネ第一候補</h3>
+<p class="meta"><span class="tag">音＝番傘</span><span class="tag tag-fig">★人物</span></p>
+</div>
+<label class="check"><input type="checkbox" data-key="img4"><span>できた</span></label>
+</header>
+<pre class="prompt" id="p4">Medium shot from behind of a woman walking away down the wet lantern-lit street, holding a traditional oiled-paper umbrella with bamboo ribs above her. She is placed to the right of centre; the left third of the frame is quiet dark wall and empty wet stone. The umbrella&#x27;s ribs catch the lantern light from below, and water runs off its rim in fine threads. Her dark shape is set against the warm reflections lying in the flagstones ahead of her. Her raised arm and the umbrella shaft are seen from behind and her hand is hidden by the falling sleeve of her kimono.
+
+A single woman in traditional Japanese dress, seen strictly from behind. Her face is never visible and never turns toward the camera. Her hands are covered by her kimono sleeves and are not rendered in detail. She wears a deep indigo kimono with a soft ash-rose obi tied in a flat drum knot at the back, and her hair is gathered in a low simple bun. She is completely still and quiet. No other people anywhere in the image.
+
+Photorealistic cinematic still, an old Japanese townhouse street at night in the rain. The only light comes from plain paper lanterns and the warm glow leaking through wooden lattice windows — amber, low and soft, fading to deep blue-grey in the distance. Exposed so that texture is clearly visible everywhere: wet stone, wood grain, roof tiles, paper, cloth. Shadows are lifted and open, full of visible detail, nothing crushed to pure black. High dynamic range, rich texture even in the darkest areas. The rain is shown only through its effects — mirror-wet stone, ripples in shallow puddles, water beading and running off edges, a soft veil of haze in the distance. No visible rain streaks or rain lines anywhere in the frame. No moon and no moonlight; the sky is overcast. No text, no signage, no lettering, no calligraphy of any kind — the paper lanterns are plain and unmarked. No modern objects: no power lines, no utility poles, no electric lamps, no vehicles, no air conditioners, no plastic, no road markings. Muted palette, fine film grain, 16:9 composition with generous quiet empty space in the left third for titles.</pre>
+<button class="copy" data-target="p4">プロンプトをコピー</button>
+</article>
+<article class="scene act-one" data-n="5">
+<header class="scene-head">
+<span class="num">05</span>
+<div class="scene-id">
+<h3>水たまりの波紋・寄り</h3>
+<p class="meta"><span class="tag">音＝水面</span></p>
+</div>
+<label class="check"><input type="checkbox" data-key="img5"><span>できた</span></label>
+</header>
+<pre class="prompt" id="p5">Close view, angled down, of a shallow puddle in a hollow of the paving, filled with the reflection of a paper lantern. Concentric ripples cross the reflection continuously and break the amber light into moving rings. The wet stone around the puddle is dark and glossy, its texture clearly visible. No people.
+
+Photorealistic cinematic still, an old Japanese townhouse street at night in the rain. The only light comes from plain paper lanterns and the warm glow leaking through wooden lattice windows — amber, low and soft, fading to deep blue-grey in the distance. Exposed so that texture is clearly visible everywhere: wet stone, wood grain, roof tiles, paper, cloth. Shadows are lifted and open, full of visible detail, nothing crushed to pure black. High dynamic range, rich texture even in the darkest areas. The rain is shown only through its effects — mirror-wet stone, ripples in shallow puddles, water beading and running off edges, a soft veil of haze in the distance. No visible rain streaks or rain lines anywhere in the frame. No moon and no moonlight; the sky is overcast. No text, no signage, no lettering, no calligraphy of any kind — the paper lanterns are plain and unmarked. No modern objects: no power lines, no utility poles, no electric lamps, no vehicles, no air conditioners, no plastic, no road markings. Muted palette, fine film grain, 16:9 composition with generous quiet empty space in the left third for titles.</pre>
+<button class="copy" data-target="p5">プロンプトをコピー</button>
+</article>
+<article class="scene act-one" data-n="6">
+<header class="scene-head">
+<span class="num">06</span>
+<div class="scene-id">
+<h3>辻の常夜灯・引き</h3>
+<p class="meta"><span class="tag">音＝石畳</span></p>
+</div>
+<label class="check"><input type="checkbox" data-key="img6"><span>できた</span></label>
+</header>
+<pre class="prompt" id="p6">A stone lantern standing where two narrow stone streets meet. Its inner flame glows warm behind soot-darkened stone; rain runs off its roof-stone in thin threads and pools at its base. The two streets recede into haze on either side, each lined with faint hanging lanterns. Moss and rain-darkened stone at its foot. No people.
+
+Photorealistic cinematic still, an old Japanese townhouse street at night in the rain. The only light comes from plain paper lanterns and the warm glow leaking through wooden lattice windows — amber, low and soft, fading to deep blue-grey in the distance. Exposed so that texture is clearly visible everywhere: wet stone, wood grain, roof tiles, paper, cloth. Shadows are lifted and open, full of visible detail, nothing crushed to pure black. High dynamic range, rich texture even in the darkest areas. The rain is shown only through its effects — mirror-wet stone, ripples in shallow puddles, water beading and running off edges, a soft veil of haze in the distance. No visible rain streaks or rain lines anywhere in the frame. No moon and no moonlight; the sky is overcast. No text, no signage, no lettering, no calligraphy of any kind — the paper lanterns are plain and unmarked. No modern objects: no power lines, no utility poles, no electric lamps, no vehicles, no air conditioners, no plastic, no road markings. Muted palette, fine film grain, 16:9 composition with generous quiet empty space in the left third for titles.</pre>
+<button class="copy" data-target="p6">プロンプトをコピー</button>
+</article>
+<article class="scene act-one" data-n="7">
+<header class="scene-head">
+<span class="num">07</span>
+<div class="scene-id">
+<h3>傘の下から・見上げ</h3>
+<p class="meta"><span class="tag">音＝番傘</span><span class="tag tag-fig">★人物</span></p>
+</div>
+<label class="check"><input type="checkbox" data-key="img7"><span>できた</span></label>
+</header>
+<pre class="prompt" id="p7">Looking upward from just behind a woman&#x27;s shoulder into the underside of her traditional oiled-paper umbrella, which fills most of the frame. The bamboo ribs radiate from the hub; the oiled paper glows faintly amber where the street lanterns shine through it from outside, and darker patches show where the paper is soaked. Beyond the umbrella&#x27;s rim, out-of-focus lantern light and dark eaves. The back of her head and the nape of her neck are at the bottom edge of the frame, her hair in a low simple bun.
+
+A single woman in traditional Japanese dress, seen strictly from behind. Her face is never visible and never turns toward the camera. Her hands are covered by her kimono sleeves and are not rendered in detail. She wears a deep indigo kimono with a soft ash-rose obi tied in a flat drum knot at the back, and her hair is gathered in a low simple bun. She is completely still and quiet. No other people anywhere in the image.
+
+Photorealistic cinematic still, an old Japanese townhouse street at night in the rain. The only light comes from plain paper lanterns and the warm glow leaking through wooden lattice windows — amber, low and soft, fading to deep blue-grey in the distance. Exposed so that texture is clearly visible everywhere: wet stone, wood grain, roof tiles, paper, cloth. Shadows are lifted and open, full of visible detail, nothing crushed to pure black. High dynamic range, rich texture even in the darkest areas. The rain is shown only through its effects — mirror-wet stone, ripples in shallow puddles, water beading and running off edges, a soft veil of haze in the distance. No visible rain streaks or rain lines anywhere in the frame. No moon and no moonlight; the sky is overcast. No text, no signage, no lettering, no calligraphy of any kind — the paper lanterns are plain and unmarked. No modern objects: no power lines, no utility poles, no electric lamps, no vehicles, no air conditioners, no plastic, no road markings. Muted palette, fine film grain, 16:9 composition with generous quiet empty space in the left third for titles.</pre>
+<button class="copy" data-target="p7">プロンプトをコピー</button>
+</article>
+<article class="scene act-one" data-n="8">
+<header class="scene-head">
+<span class="num">08</span>
+<div class="scene-id">
+<h3>石橋と堀・引き</h3>
+<p class="meta"><span class="tag">音＝水面</span></p>
+</div>
+<label class="check"><input type="checkbox" data-key="img8"><span>できた</span></label>
+</header>
+<pre class="prompt" id="p8">A small arched stone bridge over a narrow canal running beside the street. The canal&#x27;s black water is dimpled all over by rain, and a single paper lantern on the far bank lays a long broken amber reflection across it. The bridge&#x27;s worn stone rail is wet and gleaming. Low mossy stone embankments on both sides. Haze closes the view beyond the bridge. No people.
+
+Photorealistic cinematic still, an old Japanese townhouse street at night in the rain. The only light comes from plain paper lanterns and the warm glow leaking through wooden lattice windows — amber, low and soft, fading to deep blue-grey in the distance. Exposed so that texture is clearly visible everywhere: wet stone, wood grain, roof tiles, paper, cloth. Shadows are lifted and open, full of visible detail, nothing crushed to pure black. High dynamic range, rich texture even in the darkest areas. The rain is shown only through its effects — mirror-wet stone, ripples in shallow puddles, water beading and running off edges, a soft veil of haze in the distance. No visible rain streaks or rain lines anywhere in the frame. No moon and no moonlight; the sky is overcast. No text, no signage, no lettering, no calligraphy of any kind — the paper lanterns are plain and unmarked. No modern objects: no power lines, no utility poles, no electric lamps, no vehicles, no air conditioners, no plastic, no road markings. Muted palette, fine film grain, 16:9 composition with generous quiet empty space in the left third for titles.</pre>
+<button class="copy" data-target="p8">プロンプトをコピー</button>
+</article>
+</div>
+</section><section class="act act-two">
+<div class="act-head">
+<span class="act-label">第二幕</span>
+<h2>軒下</h2>
+<p>場面 9–13　／　雨が近い。滴が一つずつ聞こえる</p>
+</div>
+<div class="scenes">
+<article class="scene act-two" data-n="9">
+<header class="scene-head">
+<span class="num">09</span>
+<div class="scene-id">
+<h3>軒下に入る・中景</h3>
+<p class="meta"><span class="tag">音＝軒</span><span class="tag tag-fig">★人物</span></p>
+</div>
+<label class="check"><input type="checkbox" data-key="img9"><span>できた</span></label>
+</header>
+<pre class="prompt" id="p9">A woman seen from behind stepping in under the deep eaves of a machiya, out of the rain. She is medium-sized in the frame and stands at the right; the wet street she has left runs off to the left third of the frame, empty and dark. Her oiled-paper umbrella is still open and tilted back as she passes the eave line. A curtain of fine water falls from the tiled eave just in front of her. Warm lantern light from inside the lattice falls across her shoulders.
+
+A single woman in traditional Japanese dress, seen strictly from behind. Her face is never visible and never turns toward the camera. Her hands are covered by her kimono sleeves and are not rendered in detail. She wears a deep indigo kimono with a soft ash-rose obi tied in a flat drum knot at the back, and her hair is gathered in a low simple bun. She is completely still and quiet. No other people anywhere in the image.
+
+Photorealistic cinematic still, an old Japanese townhouse street at night in the rain. The only light comes from plain paper lanterns and the warm glow leaking through wooden lattice windows — amber, low and soft, fading to deep blue-grey in the distance. Exposed so that texture is clearly visible everywhere: wet stone, wood grain, roof tiles, paper, cloth. Shadows are lifted and open, full of visible detail, nothing crushed to pure black. High dynamic range, rich texture even in the darkest areas. The rain is shown only through its effects — mirror-wet stone, ripples in shallow puddles, water beading and running off edges, a soft veil of haze in the distance. No visible rain streaks or rain lines anywhere in the frame. No moon and no moonlight; the sky is overcast. No text, no signage, no lettering, no calligraphy of any kind — the paper lanterns are plain and unmarked. No modern objects: no power lines, no utility poles, no electric lamps, no vehicles, no air conditioners, no plastic, no road markings. Muted palette, fine film grain, 16:9 composition with generous quiet empty space in the left third for titles.</pre>
+<button class="copy" data-target="p9">プロンプトをコピー</button>
+</article>
+<article class="scene act-two" data-n="10">
+<header class="scene-head">
+<span class="num">10</span>
+<div class="scene-id">
+<h3>軒の雨だれ・寄り</h3>
+<p class="meta"><span class="tag">音＝雨だれ</span></p>
+</div>
+<label class="check"><input type="checkbox" data-key="img10"><span>できた</span></label>
+</header>
+<pre class="prompt" id="p10">Close view of the edge of a tiled roof at night. Water gathers along the lip of each curved tile and falls in a broken line of separate drops, caught and lit warm from below by a lantern. The clay tiles are dark and slick, their curves and the moss in their joints clearly visible. Behind the falling water, the dark timber of the eave bracket. No people.
+
+Photorealistic cinematic still, an old Japanese townhouse street at night in the rain. The only light comes from plain paper lanterns and the warm glow leaking through wooden lattice windows — amber, low and soft, fading to deep blue-grey in the distance. Exposed so that texture is clearly visible everywhere: wet stone, wood grain, roof tiles, paper, cloth. Shadows are lifted and open, full of visible detail, nothing crushed to pure black. High dynamic range, rich texture even in the darkest areas. The rain is shown only through its effects — mirror-wet stone, ripples in shallow puddles, water beading and running off edges, a soft veil of haze in the distance. No visible rain streaks or rain lines anywhere in the frame. No moon and no moonlight; the sky is overcast. No text, no signage, no lettering, no calligraphy of any kind — the paper lanterns are plain and unmarked. No modern objects: no power lines, no utility poles, no electric lamps, no vehicles, no air conditioners, no plastic, no road markings. Muted palette, fine film grain, 16:9 composition with generous quiet empty space in the left third for titles.</pre>
+<button class="copy" data-target="p10">プロンプトをコピー</button>
+</article>
+<article class="scene act-two" data-n="11">
+<header class="scene-head">
+<span class="num">11</span>
+<div class="scene-id">
+<h3>立てかけた番傘・寄り</h3>
+<p class="meta"><span class="tag">音＝雨だれ</span></p>
+</div>
+<label class="check"><input type="checkbox" data-key="img11"><span>できた</span></label>
+</header>
+<pre class="prompt" id="p11">A traditional oiled-paper umbrella, closed and tied, leaning against a wooden lattice wall under the eaves. It is soaked; water runs down its bamboo shaft and beads along its folded paper, and a small pool has spread on the stone at its tip. Warm light from behind the lattice rakes across the wet paper and the grain of the timber. No people.
+
+Photorealistic cinematic still, an old Japanese townhouse street at night in the rain. The only light comes from plain paper lanterns and the warm glow leaking through wooden lattice windows — amber, low and soft, fading to deep blue-grey in the distance. Exposed so that texture is clearly visible everywhere: wet stone, wood grain, roof tiles, paper, cloth. Shadows are lifted and open, full of visible detail, nothing crushed to pure black. High dynamic range, rich texture even in the darkest areas. The rain is shown only through its effects — mirror-wet stone, ripples in shallow puddles, water beading and running off edges, a soft veil of haze in the distance. No visible rain streaks or rain lines anywhere in the frame. No moon and no moonlight; the sky is overcast. No text, no signage, no lettering, no calligraphy of any kind — the paper lanterns are plain and unmarked. No modern objects: no power lines, no utility poles, no electric lamps, no vehicles, no air conditioners, no plastic, no road markings. Muted palette, fine film grain, 16:9 composition with generous quiet empty space in the left third for titles.</pre>
+<button class="copy" data-target="p11">プロンプトをコピー</button>
+</article>
+<article class="scene act-two" data-n="12">
+<header class="scene-head">
+<span class="num">12</span>
+<div class="scene-id">
+<h3>軒下から見る通り・引き</h3>
+<p class="meta"><span class="tag">音＝軒</span><span class="tag tag-fig">★人物</span></p>
+</div>
+<label class="check"><input type="checkbox" data-key="img12"><span>できた</span></label>
+</header>
+<pre class="prompt" id="p12">Shot from inside the shelter of the eaves, looking out at the rainy street. The back of a woman&#x27;s head and shoulders fills the lower right of the frame, close to the camera and dark, as she stands watching the street. Beyond her the street is a soft amber blur of hanging lanterns doubled in the wet flagstones and veiled by haze. A line of falling water hangs from the eave across the top of the frame. The left third is dark eave timber, quiet and empty.
+
+A single woman in traditional Japanese dress, seen strictly from behind. Her face is never visible and never turns toward the camera. Her hands are covered by her kimono sleeves and are not rendered in detail. She wears a deep indigo kimono with a soft ash-rose obi tied in a flat drum knot at the back, and her hair is gathered in a low simple bun. She is completely still and quiet. No other people anywhere in the image.
+
+Photorealistic cinematic still, an old Japanese townhouse street at night in the rain. The only light comes from plain paper lanterns and the warm glow leaking through wooden lattice windows — amber, low and soft, fading to deep blue-grey in the distance. Exposed so that texture is clearly visible everywhere: wet stone, wood grain, roof tiles, paper, cloth. Shadows are lifted and open, full of visible detail, nothing crushed to pure black. High dynamic range, rich texture even in the darkest areas. The rain is shown only through its effects — mirror-wet stone, ripples in shallow puddles, water beading and running off edges, a soft veil of haze in the distance. No visible rain streaks or rain lines anywhere in the frame. No moon and no moonlight; the sky is overcast. No text, no signage, no lettering, no calligraphy of any kind — the paper lanterns are plain and unmarked. No modern objects: no power lines, no utility poles, no electric lamps, no vehicles, no air conditioners, no plastic, no road markings. Muted palette, fine film grain, 16:9 composition with generous quiet empty space in the left third for titles.</pre>
+<button class="copy" data-target="p12">プロンプトをコピー</button>
+</article>
+<article class="scene act-two" data-n="13">
+<header class="scene-head">
+<span class="num">13</span>
+<div class="scene-id">
+<h3>格子戸が半分開く・後ろ姿</h3>
+<p class="meta"><span class="tag">音＝軒</span><span class="tag tag-fig">★人物</span></p>
+</div>
+<label class="check"><input type="checkbox" data-key="img13"><span>できた</span></label>
+</header>
+<pre class="prompt" id="p13">A wooden lattice sliding door standing half open, seen from outside under the eaves. Warm light pours from the opening onto the wet stone. A woman seen from behind is stepping through the gap; only her back and the flat drum knot of her obi are lit by the light from within, the rest of her in silhouette. Rain still beads on the dark timber of the door frame. The left third of the frame is dark wet stone, quiet and empty.
+
+A single woman in traditional Japanese dress, seen strictly from behind. Her face is never visible and never turns toward the camera. Her hands are covered by her kimono sleeves and are not rendered in detail. She wears a deep indigo kimono with a soft ash-rose obi tied in a flat drum knot at the back, and her hair is gathered in a low simple bun. She is completely still and quiet. No other people anywhere in the image.
+
+Photorealistic cinematic still, an old Japanese townhouse street at night in the rain. The only light comes from plain paper lanterns and the warm glow leaking through wooden lattice windows — amber, low and soft, fading to deep blue-grey in the distance. Exposed so that texture is clearly visible everywhere: wet stone, wood grain, roof tiles, paper, cloth. Shadows are lifted and open, full of visible detail, nothing crushed to pure black. High dynamic range, rich texture even in the darkest areas. The rain is shown only through its effects — mirror-wet stone, ripples in shallow puddles, water beading and running off edges, a soft veil of haze in the distance. No visible rain streaks or rain lines anywhere in the frame. No moon and no moonlight; the sky is overcast. No text, no signage, no lettering, no calligraphy of any kind — the paper lanterns are plain and unmarked. No modern objects: no power lines, no utility poles, no electric lamps, no vehicles, no air conditioners, no plastic, no road markings. Muted palette, fine film grain, 16:9 composition with generous quiet empty space in the left third for titles.</pre>
+<button class="copy" data-target="p13">プロンプトをコピー</button>
+</article>
+</div>
+</section><section class="act act-three">
+<div class="act-head">
+<span class="act-label">第三幕</span>
+<h2>屋内</h2>
+<p>場面 14–22　／　雨が遠のき、高い方が落ちてこもる</p>
+</div>
+<div class="scenes">
+<article class="scene act-three" data-n="14">
+<header class="scene-head">
+<span class="num">14</span>
+<div class="scene-id">
+<h3>土間・引き</h3>
+<p class="meta"><span class="tag">音＝屋内</span></p>
+</div>
+<label class="check"><input type="checkbox" data-key="img14"><span>できた</span></label>
+</header>
+<pre class="prompt" id="p14">The earthen-floored entrance room of an old Japanese townhouse, seen from just inside. The packed earth floor is dark and slightly damp; a step up to a polished wooden edge runs across the middle of the frame. Warm light from a standing paper lamp fills the room. Through the half-open lattice door at the right, the blue-grey rainy street shows as a cool slot of light. The left third is plain dark plaster wall. No people.
+
+Photorealistic cinematic still, an old Japanese townhouse street at night in the rain. The only light comes from plain paper lanterns and the warm glow leaking through wooden lattice windows — amber, low and soft, fading to deep blue-grey in the distance. Exposed so that texture is clearly visible everywhere: wet stone, wood grain, roof tiles, paper, cloth. Shadows are lifted and open, full of visible detail, nothing crushed to pure black. High dynamic range, rich texture even in the darkest areas. The rain is shown only through its effects — mirror-wet stone, ripples in shallow puddles, water beading and running off edges, a soft veil of haze in the distance. No visible rain streaks or rain lines anywhere in the frame. No moon and no moonlight; the sky is overcast. No text, no signage, no lettering, no calligraphy of any kind — the paper lanterns are plain and unmarked. No modern objects: no power lines, no utility poles, no electric lamps, no vehicles, no air conditioners, no plastic, no road markings. Muted palette, fine film grain, 16:9 composition with generous quiet empty space in the left third for titles.</pre>
+<button class="copy" data-target="p14">プロンプトをコピー</button>
+</article>
+<article class="scene act-three" data-n="15">
+<header class="scene-head">
+<span class="num">15</span>
+<div class="scene-id">
+<h3>廊下の奥・引き</h3>
+<p class="meta"><span class="tag">音＝屋内</span></p>
+</div>
+<label class="check"><input type="checkbox" data-key="img15"><span>できた</span></label>
+</header>
+<pre class="prompt" id="p15">A narrow wooden corridor running deep into an old Japanese house. On the right, a run of paper screen doors glows faintly from the rooms behind them; on the left, dark plaster and a low window. The polished floorboards reflect the warm light in long soft bands. At the far end of the corridor stands a single small paper lamp, and beside it a window shows cool grey rainy light. No people.
+
+Photorealistic cinematic still, an old Japanese townhouse street at night in the rain. The only light comes from plain paper lanterns and the warm glow leaking through wooden lattice windows — amber, low and soft, fading to deep blue-grey in the distance. Exposed so that texture is clearly visible everywhere: wet stone, wood grain, roof tiles, paper, cloth. Shadows are lifted and open, full of visible detail, nothing crushed to pure black. High dynamic range, rich texture even in the darkest areas. The rain is shown only through its effects — mirror-wet stone, ripples in shallow puddles, water beading and running off edges, a soft veil of haze in the distance. No visible rain streaks or rain lines anywhere in the frame. No moon and no moonlight; the sky is overcast. No text, no signage, no lettering, no calligraphy of any kind — the paper lanterns are plain and unmarked. No modern objects: no power lines, no utility poles, no electric lamps, no vehicles, no air conditioners, no plastic, no road markings. Muted palette, fine film grain, 16:9 composition with generous quiet empty space in the left third for titles.</pre>
+<button class="copy" data-target="p15">プロンプトをコピー</button>
+</article>
+<article class="scene act-three" data-n="16">
+<header class="scene-head">
+<span class="num">16</span>
+<div class="scene-id">
+<h3>座敷に座る後ろ姿・引き</h3>
+<p class="meta"><span class="tag">音＝屋内</span><span class="tag tag-fig">★人物</span></p>
+</div>
+<label class="check"><input type="checkbox" data-key="img16"><span>できた</span></label>
+</header>
+<pre class="prompt" id="p16">A tatami room seen from the back of the room. A woman sits on the tatami, seen from behind, small and placed slightly right of centre, facing an open paper screen door. Beyond the opening lies a small dark garden in the rain: wet stones, a low shrub, and a grey veil of falling water. A standing paper lamp at the right casts warm light across the tatami and up her back. The left third of the frame is quiet empty tatami and shadow.
+
+A single woman in traditional Japanese dress, seen strictly from behind. Her face is never visible and never turns toward the camera. Her hands are covered by her kimono sleeves and are not rendered in detail. She wears a deep indigo kimono with a soft ash-rose obi tied in a flat drum knot at the back, and her hair is gathered in a low simple bun. She is completely still and quiet. No other people anywhere in the image.
+
+Photorealistic cinematic still, an old Japanese townhouse street at night in the rain. The only light comes from plain paper lanterns and the warm glow leaking through wooden lattice windows — amber, low and soft, fading to deep blue-grey in the distance. Exposed so that texture is clearly visible everywhere: wet stone, wood grain, roof tiles, paper, cloth. Shadows are lifted and open, full of visible detail, nothing crushed to pure black. High dynamic range, rich texture even in the darkest areas. The rain is shown only through its effects — mirror-wet stone, ripples in shallow puddles, water beading and running off edges, a soft veil of haze in the distance. No visible rain streaks or rain lines anywhere in the frame. No moon and no moonlight; the sky is overcast. No text, no signage, no lettering, no calligraphy of any kind — the paper lanterns are plain and unmarked. No modern objects: no power lines, no utility poles, no electric lamps, no vehicles, no air conditioners, no plastic, no road markings. Muted palette, fine film grain, 16:9 composition with generous quiet empty space in the left third for titles.</pre>
+<button class="copy" data-target="p16">プロンプトをコピー</button>
+</article>
+<article class="scene act-three" data-n="17">
+<header class="scene-head">
+<span class="num">17</span>
+<div class="scene-id">
+<h3>障子紙に映る雨・寄り</h3>
+<p class="meta"><span class="tag">音＝屋内</span></p>
+</div>
+<label class="check"><input type="checkbox" data-key="img17"><span>できた</span></label>
+</header>
+<pre class="prompt" id="p17">Close view of a paper screen door lit from behind. The paper is a soft warm rectangle divided by its wooden grid; across it fall the blurred moving shadows of water running off the eave beyond, and the dark shape of a wet branch. The paper&#x27;s fibres and the grain of the wooden grid are clearly visible. No people.
+
+Photorealistic cinematic still, an old Japanese townhouse street at night in the rain. The only light comes from plain paper lanterns and the warm glow leaking through wooden lattice windows — amber, low and soft, fading to deep blue-grey in the distance. Exposed so that texture is clearly visible everywhere: wet stone, wood grain, roof tiles, paper, cloth. Shadows are lifted and open, full of visible detail, nothing crushed to pure black. High dynamic range, rich texture even in the darkest areas. The rain is shown only through its effects — mirror-wet stone, ripples in shallow puddles, water beading and running off edges, a soft veil of haze in the distance. No visible rain streaks or rain lines anywhere in the frame. No moon and no moonlight; the sky is overcast. No text, no signage, no lettering, no calligraphy of any kind — the paper lanterns are plain and unmarked. No modern objects: no power lines, no utility poles, no electric lamps, no vehicles, no air conditioners, no plastic, no road markings. Muted palette, fine film grain, 16:9 composition with generous quiet empty space in the left third for titles.</pre>
+<button class="copy" data-target="p17">プロンプトをコピー</button>
+</article>
+<article class="scene act-three" data-n="18">
+<header class="scene-head">
+<span class="num">18</span>
+<div class="scene-id">
+<h3>開いた障子越しの庭・引き</h3>
+<p class="meta"><span class="tag">音＝屋内</span></p>
+</div>
+<label class="check"><input type="checkbox" data-key="img18"><span>できた</span></label>
+</header>
+<pre class="prompt" id="p18">Looking out from inside a dim tatami room through a fully opened paper screen at a small enclosed garden at night in the rain. The garden is a shallow, quiet arrangement of wet stepping stones, moss and one low pine, all glossy with water and lit faintly amber by a lamp behind the camera. The far wall of the garden fades into haze. The dark frame of the opening forms a quiet border down the left third. No people.
+
+Photorealistic cinematic still, an old Japanese townhouse street at night in the rain. The only light comes from plain paper lanterns and the warm glow leaking through wooden lattice windows — amber, low and soft, fading to deep blue-grey in the distance. Exposed so that texture is clearly visible everywhere: wet stone, wood grain, roof tiles, paper, cloth. Shadows are lifted and open, full of visible detail, nothing crushed to pure black. High dynamic range, rich texture even in the darkest areas. The rain is shown only through its effects — mirror-wet stone, ripples in shallow puddles, water beading and running off edges, a soft veil of haze in the distance. No visible rain streaks or rain lines anywhere in the frame. No moon and no moonlight; the sky is overcast. No text, no signage, no lettering, no calligraphy of any kind — the paper lanterns are plain and unmarked. No modern objects: no power lines, no utility poles, no electric lamps, no vehicles, no air conditioners, no plastic, no road markings. Muted palette, fine film grain, 16:9 composition with generous quiet empty space in the left third for titles.</pre>
+<button class="copy" data-target="p18">プロンプトをコピー</button>
+</article>
+<article class="scene act-three" data-n="19">
+<header class="scene-head">
+<span class="num">19</span>
+<div class="scene-id">
+<h3>手水鉢に降る雨・寄り</h3>
+<p class="meta"><span class="tag">音＝屋内</span></p>
+</div>
+<label class="check"><input type="checkbox" data-key="img19"><span>できた</span></label>
+</header>
+<pre class="prompt" id="p19">Close view of a stone water basin in the garden, brimming and overflowing. Rain strikes the surface continuously and fills it with small overlapping rings; a thin sheet of water slips over the basin&#x27;s worn lip and darkens the stone below. Moss grows thick in the basin&#x27;s hollows and a bamboo ladle rests across it. Warm lamplight from one side, cool blue-grey from the rainy garden on the other. No people.
+
+Photorealistic cinematic still, an old Japanese townhouse street at night in the rain. The only light comes from plain paper lanterns and the warm glow leaking through wooden lattice windows — amber, low and soft, fading to deep blue-grey in the distance. Exposed so that texture is clearly visible everywhere: wet stone, wood grain, roof tiles, paper, cloth. Shadows are lifted and open, full of visible detail, nothing crushed to pure black. High dynamic range, rich texture even in the darkest areas. The rain is shown only through its effects — mirror-wet stone, ripples in shallow puddles, water beading and running off edges, a soft veil of haze in the distance. No visible rain streaks or rain lines anywhere in the frame. No moon and no moonlight; the sky is overcast. No text, no signage, no lettering, no calligraphy of any kind — the paper lanterns are plain and unmarked. No modern objects: no power lines, no utility poles, no electric lamps, no vehicles, no air conditioners, no plastic, no road markings. Muted palette, fine film grain, 16:9 composition with generous quiet empty space in the left third for titles.</pre>
+<button class="copy" data-target="p19">プロンプトをコピー</button>
+</article>
+<article class="scene act-three" data-n="20">
+<header class="scene-head">
+<span class="num">20</span>
+<div class="scene-id">
+<h3>行灯のそば・中景</h3>
+<p class="meta"><span class="tag">音＝細い雨</span><span class="tag tag-fig">★人物</span></p>
+</div>
+<label class="check"><input type="checkbox" data-key="img20"><span>できた</span></label>
+</header>
+<pre class="prompt" id="p20">A dim tatami room at night with a standing paper lamp as the clear subject, close to the camera at the right, its paper glowing warm and its wooden frame throwing a soft shadow. Deeper into the room and small in the frame, a woman sits on the tatami with her back to the camera, near the open screen through which the dark rainy garden shows as a cool grey slot. The lamp dominates; she is a quiet dark shape. The left third is empty tatami and shadow.
+
+A single woman in traditional Japanese dress, seen strictly from behind. Her face is never visible and never turns toward the camera. Her hands are covered by her kimono sleeves and are not rendered in detail. She wears a deep indigo kimono with a soft ash-rose obi tied in a flat drum knot at the back, and her hair is gathered in a low simple bun. She is completely still and quiet. No other people anywhere in the image.
+
+Photorealistic cinematic still, an old Japanese townhouse street at night in the rain. The only light comes from plain paper lanterns and the warm glow leaking through wooden lattice windows — amber, low and soft, fading to deep blue-grey in the distance. Exposed so that texture is clearly visible everywhere: wet stone, wood grain, roof tiles, paper, cloth. Shadows are lifted and open, full of visible detail, nothing crushed to pure black. High dynamic range, rich texture even in the darkest areas. The rain is shown only through its effects — mirror-wet stone, ripples in shallow puddles, water beading and running off edges, a soft veil of haze in the distance. No visible rain streaks or rain lines anywhere in the frame. No moon and no moonlight; the sky is overcast. No text, no signage, no lettering, no calligraphy of any kind — the paper lanterns are plain and unmarked. No modern objects: no power lines, no utility poles, no electric lamps, no vehicles, no air conditioners, no plastic, no road markings. Muted palette, fine film grain, 16:9 composition with generous quiet empty space in the left third for titles.</pre>
+<button class="copy" data-target="p20">プロンプトをコピー</button>
+</article>
+<article class="scene act-three" data-n="21">
+<header class="scene-head">
+<span class="num">21</span>
+<div class="scene-id">
+<h3>誰もいない座敷・引き</h3>
+<p class="meta"><span class="tag">音＝細い雨</span></p>
+</div>
+<label class="check"><input type="checkbox" data-key="img21"><span>できた</span></label>
+</header>
+<pre class="prompt" id="p21">The same tatami room, now empty. A flat floor cushion sits where someone had been; the standing paper lamp still burns at the right, and the paper screen is still open onto the dark rainy garden. Nothing moves. The woven texture of the tatami and the worn cloth edging of the mats are clearly visible in the low warm light. The left third of the frame is quiet empty tatami and shadow. No people anywhere.
+
+Photorealistic cinematic still, an old Japanese townhouse street at night in the rain. The only light comes from plain paper lanterns and the warm glow leaking through wooden lattice windows — amber, low and soft, fading to deep blue-grey in the distance. Exposed so that texture is clearly visible everywhere: wet stone, wood grain, roof tiles, paper, cloth. Shadows are lifted and open, full of visible detail, nothing crushed to pure black. High dynamic range, rich texture even in the darkest areas. The rain is shown only through its effects — mirror-wet stone, ripples in shallow puddles, water beading and running off edges, a soft veil of haze in the distance. No visible rain streaks or rain lines anywhere in the frame. No moon and no moonlight; the sky is overcast. No text, no signage, no lettering, no calligraphy of any kind — the paper lanterns are plain and unmarked. No modern objects: no power lines, no utility poles, no electric lamps, no vehicles, no air conditioners, no plastic, no road markings. Muted palette, fine film grain, 16:9 composition with generous quiet empty space in the left third for titles.</pre>
+<button class="copy" data-target="p21">プロンプトをコピー</button>
+</article>
+<article class="scene act-three" data-n="22">
+<header class="scene-head">
+<span class="num">22</span>
+<div class="scene-id">
+<h3>雨の庭・引き</h3>
+<p class="meta"><span class="tag">音＝細い雨</span></p>
+</div>
+<label class="check"><input type="checkbox" data-key="img22"><span>できた</span></label>
+</header>
+<pre class="prompt" id="p22">The small enclosed garden at the deepest part of the night, seen from the dark opening of the room. Only one small lamp still glows, far to the right, its light barely reaching the wet stones. The rain has thinned to a fine quiet fall and the stepping stones and moss hold a low sheen. Everything else is deep blue-grey — open, dim, and still full of visible detail. The left third is dark and empty. No people.
+
+Photorealistic cinematic still, an old Japanese townhouse street at night in the rain. The only light comes from plain paper lanterns and the warm glow leaking through wooden lattice windows — amber, low and soft, fading to deep blue-grey in the distance. Exposed so that texture is clearly visible everywhere: wet stone, wood grain, roof tiles, paper, cloth. Shadows are lifted and open, full of visible detail, nothing crushed to pure black. High dynamic range, rich texture even in the darkest areas. The rain is shown only through its effects — mirror-wet stone, ripples in shallow puddles, water beading and running off edges, a soft veil of haze in the distance. No visible rain streaks or rain lines anywhere in the frame. No moon and no moonlight; the sky is overcast. No text, no signage, no lettering, no calligraphy of any kind — the paper lanterns are plain and unmarked. No modern objects: no power lines, no utility poles, no electric lamps, no vehicles, no air conditioners, no plastic, no road markings. Muted palette, fine film grain, 16:9 composition with generous quiet empty space in the left third for titles.</pre>
+<button class="copy" data-target="p22">プロンプトをコピー</button>
+</article>
+</div>
+</section>
+</section>
+
+<section>
+  <div class="sec-head">
+    <h2>揃ったら</h2>
+    <p><code>cd /Users/ryo/youtube/bgm</code> してから。</p>
+  </div>
+  <ol class="steps">
+<li class="step">
+<div class="step-t"><h3>素材を検品する</h3><p>「こもり」の大きい順に並んで出る。その順が第一幕→第三幕への割り振りになる</p></div>
+<div class="cmdwrap"><pre class="cmd" id="c0">python3 -m bgmkit vet &quot;/Volumes/ESD-EPB/BGM/2_Sounds of Old Japan/SOJ01_素材_雨の石畳/環境音&quot;</pre>
+<button class="copy small" data-target="c0">コピー</button></div>
+</li>
+<li class="step">
+<div class="step-t"><h3>画像の重複を見る</h3><p>同じファイルが2回落ちても名前と日時では気づけない。何も出なければ重複なし</p></div>
+<div class="cmdwrap"><pre class="cmd" id="c1">md5 &quot;/Volumes/ESD-EPB/BGM/2_Sounds of Old Japan/SOJ01_素材_雨の石畳/画像/&quot;*.png | awk &#x27;{print $NF}&#x27; | sort | uniq -d</pre>
+<button class="copy small" data-target="c1">コピー</button></div>
+</li>
+<li class="step">
+<div class="step-t"><h3>音を組む</h3><p>22本を497秒まで伸ばし、6秒重ねて連結。★ここで実際に聴いて target_lufs を決める</p></div>
+<div class="cmdwrap"><pre class="cmd" id="c2">python3 -m bgmkit audio vol16</pre>
+<button class="copy small" data-target="c2">コピー</button></div>
+</li>
+<li class="step">
+<div class="step-t"><h3>通しで書き出す</h3><p>audio → video → mux → thumb。3時間は6GB前後・時間も約3倍かかる</p></div>
+<div class="cmdwrap"><pre class="cmd" id="c3">python3 -m bgmkit build vol16</pre>
+<button class="copy small" data-target="c3">コピー</button></div>
+</li>
+  </ol>
+</section>
+
+<p class="foot">
+  <span>設計 <code>bgm/Vol16_テーマ設計.md</code></span>
+  <span>設定 <code>bgm/volumes/vol16.yaml</code></span>
+  <span>作業先 <code>/Volumes/ESD-EPB/BGM/2_Sounds of Old Japan/SOJ01_素材_雨の石畳/</code></span>
+  <span>進捗はこの端末に保存されます</span>
+</p>
+
+</div>
+<script>
+const KEY = 'vol16-rain-console';
+let state = {};
+try { state = JSON.parse(localStorage.getItem(KEY) || '{}'); } catch (e) { state = {}; }
+
+function save(){ try { localStorage.setItem(KEY, JSON.stringify(state)); } catch (e) {} }
+
+function paint(){
+  let img = 0;
+  document.querySelectorAll('input[type=checkbox]').forEach(function(b){
+    const on = !!state[b.dataset.key];
+    b.checked = on;
+    const card = b.closest('.scene');
+    if (card) card.classList.toggle('done', on);
+    if (on && b.dataset.key.startsWith('img')) img++;
+  });
+  const g = document.getElementById('g-img');
+  g.querySelector('.gauge-v').textContent = img + ' / 22';
+  g.querySelector('.bar i').style.width = (img / 22 * 100) + '%';
+}
+
+document.addEventListener('change', function(e){
+  const b = e.target;
+  if (b.type !== 'checkbox' || !b.dataset.key) return;
+  state[b.dataset.key] = b.checked;
+  save(); paint();
+});
+
+document.addEventListener('click', function(e){
+  const btn = e.target.closest('button.copy');
+  if (!btn) return;
+  const text = document.getElementById(btn.dataset.target).textContent;
+  const done = function(){
+    const was = btn.textContent;
+    btn.textContent = 'コピーしました';
+    btn.classList.add('ok');
+    setTimeout(function(){ btn.textContent = was; btn.classList.remove('ok'); }, 1600);
+  };
+  if (navigator.clipboard && navigator.clipboard.writeText) {
+    navigator.clipboard.writeText(text).then(done, fallback);
+  } else { fallback(); }
+  function fallback(){
+    const ta = document.createElement('textarea');
+    ta.value = text; ta.style.position = 'fixed'; ta.style.opacity = '0';
+    document.body.appendChild(ta); ta.select();
+    try { document.execCommand('copy'); done(); } catch (err) {
+      btn.textContent = '選択してコピーしてください';
+    }
+    document.body.removeChild(ta);
+  }
+});
+
+paint();
+</script>

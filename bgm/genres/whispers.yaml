@@ -1,0 +1,225 @@
+# Whispers of Japan（和風・器楽のみ）
+#
+# 巻をまたいで変わらない設計をここに置く。巻ごとに変わるのは volumes/*.yaml。
+# ここの数値はすべて Vol.3〜10 の実測から決まったもので、勘で動かさないこと。
+
+brand: WHISPERS OF JAPAN
+
+audio:
+  crossfade: 3.0          # 曲間。CapCutで並べると1〜12秒の無音ができるので自前で重ねる
+  target_lufs: -14        # YouTube基準ちょうど
+  true_peak: -1.5
+  lra: 11
+  silence_thresh_db: -50
+  silence_min: 0.3
+  head_pad: 0.15          # 頭の無音をこれだけ残す
+  tail_pad: 0.30
+  fade_in: 4.0
+  fade_out: 14.0          # エンドカードの上で消える位置
+  bitrate: 320k
+
+# 息の量の測定帯域。息が身上の笛（尺八）はここの平坦度で足切りする
+breath_band: [1000, 5000]
+
+# 環境音の既定。巻の側で `ambient.file` を書いた巻だけ敷かれる（書かなければ純器楽のまま）。
+#
+# ★★dBは素材をまたいで流用できない。 同じ -22dB でも、
+#   水は全帯を洗う（1.5-3k +22.7dB / 3-5k +31.8dB / 5-8k +36.4dB）のに対し、
+#   虫は3〜5kHzを +14.1dB 持ち上げるだけで他の帯はほぼ0。狭い帯にしか居ないため。
+#   **必ず `audio` の最後に出る「効き」の実測を見て決めること**（2026年8月17日に確立）。
+#
+# 既定の -18 は虫の音（`環境音/虫の音_夜_3分_Pixabay17064.mp3`）に合わせた値で、
+# 3〜5kHzが +17.7dB 上がる。水を使う巻では -22 前後まで下げないと濃くなりすぎる。
+# 素材の出典は `~/Desktop/BGM/_共通/環境音/出典とライセンス.md`。
+#
+# ★loop_xfade は素材を継ぎ目の無いループに作り直すときの重ね幅。
+#   単純な繰り返しだと折り返しが聞こえる（3分素材を60分に敷けば20回）。
+# ★★通しで敷かず「曲と映像の変わり目で持ち上がる」形にする（2026年8月17日 本人決定）。
+#   duck_db が底の下げ量（gain_db からの相対）。-18 + -12 = 底 -30dB。
+#   底では3〜5kHzが +7.6dB しか上がらず、山の -18dB では +17.7dB（実測）。
+#   **完全に消してから出すのはやらない。** 虫は鳴き始めたり止んだりしないので、
+#   出入りが聞こえると作り物になる。底を敷いたまま山を作る。
+#   swell は山の全幅（秒）。映像の切り替えも同じ時刻なので1つの山で両方に効く。
+ambient:
+  gain_db: -18
+  duck_db: -12
+  swell: 12.0
+  fade_in: 8.0
+  loop_xfade: 4.0
+
+select:
+  count: 10
+  total_seconds: [1500, 1860]     # 25〜31分
+  require_all_kinds: true
+  max_per_kind: 2
+  # ★これが要。一致度の最小化だけだと音数の少ない独奏が指標上有利になりすぎ、
+  #   Vol.9では10本中4本がピアノ独奏になった。
+
+order:
+  # 探索そのものが「隣接の最大一致度」を最小化するので、足切りは掛けない。
+  # 旧 order_vol*.py は 0.28 で足切りしていたが、実際に公開したVol10の曲順は
+  # 最大 0.348 で、この値では弾かれてしまう（当時は環境変数で上書きして通していた）。
+  # 素材が悪くて全滅していないかを見張りたいときだけ数値を入れる。
+  adjacency_threshold: 1.0
+  forbid_same_kind_adjacent: true
+  forbid_same_kind_skip1: true    # A-B-A-B の交互並びを禁じる（Vol.9）
+  forbid_same_key_adjacent: true
+
+video:
+  fps: 30
+  xfade: 2.0
+  output: [1920, 1080]
+  supersample: [2880, 1620]       # 出力の1.5倍で描いてから縮める。補間のにじみが平均化される
+  zoom_max: 1.09
+  unsharp: "unsharp=3:3:0.5:3:3:0.0"
+  # ★2026年8月29日に新ブランド版へ差し替え。旧 _v2.png は枠が左下・比 1.735:1 で、
+  #   下のコメントの要素位置（右下・16:9）と食い違っていた。新カードは資料の座標ちょうど。
+  card: "~/Desktop/BGM/_共通/エンドカード/エンドカード_満月と水面_whispers.png"
+  card_len: 15.0
+  card_xfade: 2.0
+  card_filter: "scale=1920:1280:flags=lanczos,crop=1920:1080:0:100"
+  # ↑ 切り出しは100で固定。YouTube終了画面の要素位置(下記)がこれ前提。
+  #   動画要素＝左55.3% 上68.8% 幅21.4% 高21.4% / 登録ボタン＝中心 横85.5% 縦79.6% 直径12.0%
+  #   要素の表示開始は「本編尺 − 13秒」。
+  encode:
+    vcodec: libx264
+    preset: medium
+    crf: 18
+
+# ★2026年8月12日、Vol.14から「B案」。タグラインとVOL番号を描かなくなった（thumb.py 参照）。
+#   Vol.1〜13は旧レイアウト（title 140 / scrim 1060 / 下段にタグライン）で作ってある。
+#   公開済みの巻を作り直すと字面が変わるので、旧巻を再生成する用があれば thumb_layout で戻すこと。
+#   ★説明文・タグの側では引き続き SLEEP と環境音系の語を使わない。
+#     本編は純器楽なので、実体と違う語は期待外れの離脱を招き平均視聴時間を下げる。
+# 縦型ショート（1080x1920）。★レイアウトは公開済みのVol.15のショートを実測して合わせた。
+#   文字の位置は 1080x1920 のフレーム内の絶対値。左の余白88px。
+# ★★出だしが静かな位置から切らないこと。 Vol.15のショートCは本編00:00から採ったため
+#   曲のフェードインを拾い、最初の1秒が本体より19dB低かった（A・Bは0〜5dB差）。
+#   ショートのフィードは1秒未満でスワイプされる。`short` は切る前に頭と本体を比べて警告を出す。
+# ★ケンバーンズは中央固定で寄る/引くだけ。縦画面で横に振ると酔う。
+short:
+  seconds: 45.0
+  size: [1080, 1920]
+  supersample: [1620, 2880]
+  fps: 30
+  zoom_max: 1.06          # 45秒と短いので本編の1.09より控えめに
+  audio_fade: 1.5
+  unsharp: "unsharp=3:3:0.4:3:3:0.0"
+  tracking: 10
+  fonts:
+    latin: /System/Library/Fonts/Supplemental/Cochin.ttc
+    jp: "/System/Library/Fonts/ヒラギノ明朝 ProN.ttc"
+  font_index:
+    latin: 1
+    jp: 0
+  sizes:
+    brand: 34
+    title: 96
+    sub: 34
+  # ★下から立ち上がるスクリム。明るい地面が下に来る絵でも文字が沈まないようにする
+  scrim:
+    color: [5, 11, 26]
+    top: 1080
+    full: 1700
+    opacity: 0.62
+    gamma: 1.6
+  layout:
+    x: 88
+    brand: 1238
+    title: 1330
+    sub1: 1462
+    sub2: 1520
+  encode:
+    vcodec: libx264
+    preset: medium
+    crf: 20
+
+thumb:
+  size: [1920, 1080]
+  crop_y: 0.30
+  # ★★2026年8月25日、題字を日本語に統一した（本人の判断で全巻）。
+  #   英語圏狙いのチャンネルだが、**サムネの仕事は「読ませる」ことではなく「目に留まる」こと**。
+  #   検索とおすすめが読むのは動画のタイトル（英語のまま）で、サムネは絵の勝負になる。
+  #   168pxで実測すると、英語2行より漢字数文字のほうが読める。
+  #   日本語は無罪（8/21の実測で「日本語表記が伸びを止める」説は否定されている）。
+  title_family: jp
+  # ★★級数は幅から自動で決める。 日本語の題字は3〜8字とばらつき、
+  #   16本ぶんを手で決めるのは現実的でない。上限は sizes.title、下限は title_min。
+  title_fit: 800
+  title_min: 100
+  # ★★尺バッジを描かない。 YouTubeが右下に尺を必ず重ねるので、
+  #   自分で描くと同じ情報を二度出すことになる（このファイルの設計メモにも
+  #   「右下はYouTubeが尺バッジを自動で重ねるので空けておく」と書いてある）。
+  pill: false
+  fonts:
+    serif: /System/Library/Fonts/Supplemental/Cochin.ttc
+    sans: /System/Library/Fonts/Optima.ttc
+    jp: "/System/Library/Fonts/ヒラギノ明朝 ProN.ttc"
+  sizes:
+    brand: 56
+    title: 200         # ★自動級数の上限。短い題字が青天井に大きくならないように切る。
+                       #   250だと3字の題字だけ突出し、巻をまたいで級数が148〜250と開いた。
+    pill: 58
+  tracking:
+    title: 14          # 大きな漢字は少し離したほうが読みやすい
+    brand: 12          # 帯が主役に食い込む巻があるので既定16から詰めた
+  font_index:          # .ttc 内の番号。役割ごとに違うのでまとめない
+    brand: 1
+    title: 0           # ヒラギノ明朝 ProN の 0（Cochin の 1 とは別）
+    pill: 4
+  colors:
+    gold: [247, 216, 143]
+    cream: [252, 249, 243]
+    navy: [10, 18, 38]
+  scrim:
+    color: [5, 11, 26]
+    start: 40
+    width: 880         # ★1060から縮小。絵の見える面積を増やす
+    opacity: 0.78
+    gamma: 1.5
+  layout:              # ★B案のy座標。4要素を縦に散らして下段の空白を無くす
+    x: 96
+    brand: 214
+    t1: 336
+    t2: 528
+    line_gap: auto     # ★級数に比例させる（自動級数なので固定値では書けない）
+    row: 772
+
+images_api:
+  model: gpt-image-1
+  size: 1536x1024        # 3:2。保存時に16:9へ切り出す（1536x864）
+  quality: high
+  retries: 3
+  gamma: 1.3
+  # ★ガンマは必須。APIはプロンプトをそのまま渡すため、ChatGPTのアプリより2段ほど暗く出る。
+  #   1.3 で ChatGPT製の素材（平均25.0/中央値17.1/潰れ24.2%）にほぼ一致する。
+
+# 全場面の末尾に足す共通の画風。巻をまたいでサムネの型を保つための要。
+# 流入の95%が自動再生の「次の動画」なので、シリーズで見た目を固定するほど連鎖しやすい。
+#
+# ★露出の指示（2文目〜3文目）を必ず入れる。これが無いと画素の半分が真っ黒に潰れ、
+#   ケンバーンズで寄っても何も見えてこない絵になる。細部の量が半分になる。
+image_style: >-
+  Photorealistic cinematic still, traditional Japanese scenery at night.
+  The only light source is the moon: cool blue-silver, low key.
+  Exposed so that texture is clearly visible everywhere — wood grain, stone,
+  foliage, woven surfaces. Shadows are lifted and open, full of visible detail,
+  nothing crushed to pure black. High dynamic range, rich texture even in the
+  darkest areas.
+  Calm and completely static, no people, no animals, no text, no signage,
+  no lettering of any kind. Muted palette, fine film grain, 16:9 composition
+  with generous empty space on the left third for titles.
+
+# Sunoのプロンプトに毎回付ける定型（原案を書くときの参照用）
+suno:
+  length_phrase: >-
+    A long, continuous, slowly unfolding piece with no clear sections and no ending.
+  negatives: >-
+    Pure instrumental. No lyrics. No vocals. No vocalise. No choir.
+    No humming. No wordless singing. No aahs. Instruments only.
+  # ★ 末尾の No vocals だけでは歌詞のある歌しか止まらない。ヴォカリーズとハミングは通る。
+  #    本文に mouth / breath / voice / sing を書くと人声の合図になるので避ける。
+  forbidden_words: [short, "every N seconds", mouth, breath, voice, sing]
+  takes_per_kind: 2
+  takes_sparse: 4       # 「音数を少なく・間を長く」と書いた種は曲が短く出るので多めに取る
+  takes_total: [12, 14] # 5種×2本=10本ちょうどだと差し替えができなくなる（Vol.7で詰んだ）

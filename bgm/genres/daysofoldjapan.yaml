@@ -1,0 +1,84 @@
+# Days of Old Japan（音楽＋環境音を重ねる・絵画風）
+#
+# 2026年8月26日に立てた3本目のライン。同じチャンネルに置く。
+#
+# ★★Whispers との違いは4つだけなので、残りは継承する。
+#   音の設計（曲間3秒・-14 LUFS・息の帯域・曲順の禁則）はそのまま使える。
+extends: whispers
+
+brand: DAYS OF OLD JAPAN
+
+# ★★なぜ3本目として成立するのか。
+#   Whispers は器楽のみ、Sounds of Old Japan は自然音のみ。**重ねる巻が1本も無い。**
+#   「雨＋ピアノ」の棚は混んでいるが、**そこが最も人の居る棚**でもある。
+#   入るなら差別化が要り、**絵画風の絵がそれになる**。あの棚は写実のAI画像だらけ。
+#   ★逆に言えば、絵が弱いとこのシリーズは存在理由を失う。
+#     音だけなら「Whispersに自然音を足したもの」でしかない。**絵に最も手をかける。**
+#
+# ★★シリーズ名に季節を入れていない。 memo の「季節はカレンダーに合わせない。
+#   合わせると同じ季節の題材だけになりカタログが痩せる」がそのまま当てはまる。
+#   `DAYS` は「昼」と「日々」の両方を含み、季節に縛られない。
+#
+# ★絵文字は🌙のまま。 memo に「🌙で統一はブランド記号の規則であって、
+#   画に月を描く規則ではない」と明記があり、SOJ01（雨雲で月が描けない巻）でも使っている。
+#
+# 題名の作法（Vol.5 の `蛍の川 with River Sounds` が前例）：
+#   <作品名> 🌙 Japanese Ambient Music with <自然音> | XX Min
+#   ★`Ambient Music` を名乗ってよい（楽器が鳴る。SOJで禁じた根拠が当てはまらない）
+#   ★自然音を題名に明記する。混ぜていることが売りなので隠さない
+
+# ★★環境音は「隠し味」ではなく対等な要素。 ここが Whispers と決定的に違う。
+#   Vol.5（水）とVol.15（虫）は音楽の下に薄く敷く設計で、-18〜-22dB だった。
+#   このシリーズは題名に自然音を書くのだから、聞こえなければ嘘になる。
+#
+#   ★★dBは素材をまたいで通用しない。 同じ -22dB でも水は全帯を洗い（3-5k +31.8dB）、
+#     虫は3〜5kHzを +14.1dB 持ち上げるだけ。**必ず `audio` の最後に出る
+#     「静かなところの底が何dB上がったか」の実測を見て、巻ごとに決め直すこと。**
+#     下の -14 は**仮の値**。3段（-18 / -14 / -10）で組んで試聴して決める。
+#
+#   ★★`duck_db` は使わない（null で無効化）。 あれは「曲の変わり目で持ち上げて
+#     継ぎ目を覆う」仕掛けで、Vol.15の虫はそれで良かった。
+#     だがこのシリーズは環境音を通して聞かせたいので目的が違う。**通しで一定。**
+# ★エンドカードは whispers から継ぐと副題が Relaxing Music になる。
+#   このラインは音楽＋環境音なので自分のカードを持つ。他の video: の値は継承のまま。
+video:
+  card: "~/Desktop/BGM/_共通/エンドカード/エンドカード_満月と水面_daysofoldjapan.png"
+
+ambient:
+  gain_db: -14
+  duck_db: null
+  swell: 0
+  fade_in: 8.0
+  loop_xfade: 4.0
+
+# ★20曲。 22ではなく20なのは**画像の枚数を曲数の約数にできるようにするため**。
+#   22の約数は 1・2・11・22 しかなく、5枚が作れない。20なら 4・5・10 が選べる。
+#   絵画風は1枚に手をかけるので、**5枚（4曲ごとに切り替え）を想定している**。
+select:
+  count: 20
+  total_seconds: [3000, 3600]     # 50〜60分
+  require_all_kinds: true
+  max_per_kind: 4
+
+# ★★画風が最大の差別化要素。 水彩と不透明水彩。写実には寄せない。
+#   ★AIの「painterly」は放っておくと顔と主題が溶ける。 筆致・輪郭の質・紙の目を明示し、
+#     主題だけは構造を保てと書く。試作の知見は サムネ試作_絵画風とアニメ調.md にある。
+#   ★168pxでは写実より不利（淡い水彩は縮小すると中間色に潰れる）。
+#     **明暗の差を強く**と必ず書くこと。
+image_style: >-
+  A painted illustration in soft watercolour and gouache of traditional Japanese
+  scenery. Transparent watercolour washes for the sky and distance, laid
+  wet-into-wet so they bloom and bleed softly; more opaque gouache for the
+  foreground, laid in confident flat shapes with visible brush edges. Visible
+  cold-pressed paper tooth throughout. A few places where the wash has pooled and
+  dried with a hard edge. Loose, economical brushwork in the distance. Small areas
+  of bare paper left unpainted as highlights. No ink outlines.
+  Keep the main subject structured and readable — the drawing underneath is sound,
+  simplified but never distorted.
+  Strong clear difference between the light and dark masses so the image still
+  reads when reduced to a thumbnail.
+  No text, no signage, no lettering, no calligraphy of any kind.
+  No modern objects: no power lines, no utility poles, no electric lamps,
+  no vehicles, no air conditioners, no plastic, no road markings.
+  Warm limited palette, 16:9 composition with generous quiet empty space in the
+  left third for titles.

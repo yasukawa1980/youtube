@@ -1,0 +1,5 @@
+# キーは絶対にここへ置かない（~/.config/bgmkit/env を使う）
+.env
+*.key
+secrets*
+_work/
