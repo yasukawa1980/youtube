@@ -1,7 +1,7 @@
 {
  "title": "DOYO07〜10 童謡単曲 第2弾 素材確認",
  "measured": "2026-10-19",
- "status": "読み取りと測定のみ。コピー・移動・作成・書き出しはしていない。end案と一覧案は未承認",
+ "status": "2026-10-19 本人がコピー一覧とend案を承認。Macへの複製4件（SHA-256一致）とyamlへのvisual/end記入を実施。enabledはfalseのまま、ESD-02コピーと書き出しは未実施",
  "method": {
   "duration": "ffprobe format=duration",
   "hash": "SHA-256（ファイル全体）",
@@ -116,7 +116,7 @@
     ],
     "note": "谷は−33 dB前後で他の曲より浅い。聴いての確認はしていない"
    },
-   "approved": false,
+   "approved": true,
    "pass_heads_source": "DOYO01_秋の童謡/album.py の timeline から計算（音は作っていない）。谷の位置と一致を確認"
   },
   {
@@ -200,7 +200,7 @@
     "gap_min_db": -47.6,
     "alternatives": []
    },
-   "approved": false,
+   "approved": true,
    "pass_heads_source": "DOYO01_秋の童謡/album.py の timeline から計算（音は作っていない）。谷の位置と一致を確認"
   },
   {
@@ -296,7 +296,7 @@
      }
     ]
    },
-   "approved": false,
+   "approved": true,
    "pickup_sec": 1.071,
    "pass_heads_source": "DOYO01_秋の童謡/album.py の timeline から計算（音は作っていない）。谷の位置と一致を確認"
   },
@@ -390,7 +390,7 @@
      }
     ]
    },
-   "approved": false,
+   "approved": true,
    "pass_heads_source": "DOYO02_冬の童謡/_work/passes.json（制作時の記録）"
   }
  ],
@@ -401,7 +401,8 @@
    "src": "/Users/ryo/youtube/bgm/DOYO01_秋の童謡/album/05_虫のこえ.wav",
    "dst": "/Users/ryo/Desktop/BGM/1_Whispers of Japan/童謡単曲/05_虫のこえ/虫のこえ.wav",
    "note": "新規フォルダ作成が必要。名前はyaml下書きの audio.path に合わせた（第1弾は元の名前 01_夕焼け小焼け.wav のまま）",
-   "approved": false
+   "approved": true,
+   "done": "2026-10-19 複製・SHA-256一致"
   },
   {
    "slug": "doyo07",
@@ -416,7 +417,8 @@
    "src": "/Users/ryo/youtube/bgm/DOYO01_秋の童謡/album/06_十五夜お月さん.wav",
    "dst": "/Users/ryo/Desktop/BGM/1_Whispers of Japan/童謡単曲/06_十五夜お月さん/十五夜お月さん.wav",
    "note": "新規フォルダ作成が必要。名前はyaml下書きの audio.path に合わせた（第1弾は元の名前 01_夕焼け小焼け.wav のまま）",
-   "approved": false
+   "approved": true,
+   "done": "2026-10-19 複製・SHA-256一致"
   },
   {
    "slug": "doyo08",
@@ -431,7 +433,8 @@
    "src": "/Users/ryo/youtube/bgm/DOYO01_秋の童謡/album/07_月の沙漠.wav",
    "dst": "/Users/ryo/Desktop/BGM/1_Whispers of Japan/童謡単曲/07_月の沙漠/月の沙漠.wav",
    "note": "新規フォルダ作成が必要。名前はyaml下書きの audio.path に合わせた（第1弾は元の名前 01_夕焼け小焼け.wav のまま）",
-   "approved": false
+   "approved": true,
+   "done": "2026-10-19 複製・SHA-256一致"
   },
   {
    "slug": "doyo09",
@@ -446,7 +449,8 @@
    "src": "/Users/ryo/youtube/bgm/DOYO02_冬の童謡/album/05_浜千鳥.wav",
    "dst": "/Users/ryo/Desktop/BGM/1_Whispers of Japan/童謡単曲/08_浜千鳥/浜千鳥.wav",
    "note": "新規フォルダ作成が必要。名前はyaml下書きの audio.path に合わせた（第1弾は元の名前 01_夕焼け小焼け.wav のまま）",
-   "approved": false
+   "approved": true,
+   "done": "2026-10-19 複製・SHA-256一致"
   },
   {
    "slug": "doyo10",

@@ -1,6 +1,7 @@
 # 童謡単曲版 第2弾「秋の夜の童謡」下書き（2026-10-18 本人が案Aを承認）。
 # bgmkit/single_songs.py 専用設定（一般のbgmkit audio等には渡さない）。
-# 元音源・背景画像の場所が未確認のため enabled: false。確認後に audio/visual/end を埋めて true にする。
+# 2026-10-19 本人承認：音源を曲フォルダへ複製（SHA-256一致）、visual/end を記入。書き出し前のため enabled: false のまま。
+# 根拠は bgm/DOYO07-10_素材確認_20261018.md
 # 月の沙漠は歌詞（加藤まさを・1977年没）が保護期間内の可能性。歌声なしの器楽のみとし、説明文に歌詞を書かない。
 pipeline: single_songs
 slug: doyo09
@@ -20,14 +21,14 @@ songs:
 - id: tsukinosabaku
   name: 月の沙漠
   enabled: false
-  visual: 未確認  # ショート（予約済み）と同じ絵柄の高解像度PNGを探す
+  visual: /Users/ryo/youtube/bgm/DOYO01_秋の童謡/画像/doyo01_07.png
   audio:
-    path: /Users/ryo/Desktop/BGM/1_Whispers of Japan/童謡単曲/07_月の沙漠/月の沙漠.wav  # 未配置。ショートの元になったアルバムWAVを複製して置く
+    path: /Users/ryo/Desktop/BGM/1_Whispers of Japan/童謡単曲/07_月の沙漠/月の沙漠.wav
   short:
     audio:
       path: /Users/ryo/Desktop/BGM/1_Whispers of Japan/童謡単曲/07_月の沙漠/月の沙漠.wav
       start: 0
-      # end: 未測定。旋律のまとまりで切る位置を決めてから書く
+      end: 233.21
     repeats: 1
   alternates: []
   description: 箏・尺八の音色で奏でる、歌声のない器楽アレンジです。
@@ -43,4 +44,4 @@ artifacts:
   thumbnail_original: /Users/ryo/Desktop/BGM/1_Whispers of Japan/童謡単曲/07_月の沙漠/tsukinosabaku_thumbnail.png
   thumbnail_review: ../../サムネ確認用/童謡単曲/doyo09_サムネ.jpg
 ssd_backup:
-  root: /Volumes/ESD-02/BGM/1_Whispers of Japan/童謡単曲/07_月の沙漠  # 未コピー
+  root: /Volumes/ESD-02/BGM/1_Whispers of Japan/童謡単曲/07_月の沙漠  # 未コピー（書き出し後に曲フォルダごと）
