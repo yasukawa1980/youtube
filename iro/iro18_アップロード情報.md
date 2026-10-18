@@ -91,3 +91,7 @@ A woman knits slowly, stitch by stitch, while a golden retriever sleeps curled u
 IRO Soundsの既定説明文を残し、その上へ本文を挿入する。AI使用の明記は既定文にある。章・ハッシュタグ・タグは既存と同じ。
 
 本編・ショート・サムネの保存先：`/Users/ryo/Desktop/BGM/IRO/Chill/18_毛糸の季節がやってきた/完成_20261019/投稿用`。SSDは同じ構成の `/Volumes/ESD-02/BGM/IRO/Chill/18_毛糸の季節がやってきた/完成_20261019/投稿用/`。
+
+## サムネ（2026-10-19 Claude 差し替え）
+- 本編：`iro18_サムネ.jpg`（用途中心の形：「編み物BGM」／「秋冬の手しごとに」／「アコースティック・チル｜2時間」／「毛糸の季節が、やってきた。」）。旧い形は `iro18_サムネ_旧形_20261019.jpg` に残した。
+- ショート4本：共通で `iro18_ショート_サムネ.jpg`（720×1280・「音楽のショート試聴」）。
