@@ -1,0 +1,493 @@
+{
+ "title": "DOYO07〜10 童謡単曲 第2弾 素材確認",
+ "measured": "2026-10-19",
+ "status": "読み取りと測定のみ。コピー・移動・作成・書き出しはしていない。end案と一覧案は未承認",
+ "method": {
+  "duration": "ffprobe format=duration",
+  "hash": "SHA-256（ファイル全体）",
+  "image": "ffprobe の width/height",
+  "end": "第1弾で検証：夕焼け小焼けの end 270.8 は、album.py の計算で出る第5回の頭 270.845 の直前、10ms刻みRMSの谷 270.78（−47.4 dB）と一致。回と回の間には0.9秒の間（GAP）があり、そこが曲中で最も深い谷になる。第2弾も同じく「回の頭の直前の谷」を案にした。回の頭は DOYO01 は album.py の timeline から音を作らずに計算（trim 1.48秒を引く）、DOYO02 は _work/passes.json の記録値。谷は ffmpeg で 8kHz モノラルにして10ms窓RMSで測った。十五夜お月さん・月の沙漠・浜千鳥は100ms窓の谷の並びとも一致。虫のこえは100ms窓では270秒付近の谷が目立たず（275.2秒の方が深い）、10ms窓でだけ確認",
+  "first_batch_range_sec": [
+   217.92,
+   279.346
+  ]
+ },
+ "esd02": {
+  "connected": true,
+  "volume_name": "ESD-02",
+  "filesystem": "APFS",
+  "volume_uuid": "E41525BE-4E0F-4BFC-92D1-AB8021E13C1F",
+  "free": "81Gi（df）",
+  "note": "童謡単曲/ には01〜04のみ。05〜08のフォルダはない。album の曲別WAVはESD-02にはなく、長尺の music_bed.wav（曲間クロスフェード済み）だけがある"
+ },
+ "desktop_bgm_note": "/Users/ryo/Desktop/BGM/ 内に4曲の名前を含むファイルはなかった（童謡単曲/は01〜04と_workのみ）",
+ "songs": [
+  {
+   "slug": "doyo07",
+   "publication_order": 5,
+   "name": "虫のこえ",
+   "short_id": "sCpHkBOxm84",
+   "album": "DOYO01 秋の童謡（長尺 2EJ-K64Rt5I）",
+   "album_track": "05",
+   "audio_candidates": [
+    {
+     "path": "/Users/ryo/youtube/bgm/DOYO01_秋の童謡/album/05_虫のこえ.wav",
+     "bytes": 83681512,
+     "sha256": "0b49e1000ae2f4f5352d27f4875797453a18d475ecd323b6b49cdc3eebf5217c",
+     "duration_sec": 435.840979,
+     "role": "推奨：第1弾と同じ素の曲別WAV（第1弾の01_夕焼け小焼け.wavは album の素WAVとSHA-256一致）"
+    },
+    {
+     "path": "/Users/ryo/youtube/bgm/DOYO01_秋の童謡/album/05_虫のこえ_lv.wav",
+     "bytes": 83681546,
+     "sha256": "23395645f602dca41ba3c868e076a5084779562a8a62aa18e0cb24c79f25ac62",
+     "duration_sec": 435.840979,
+     "role": "代替：長尺用に曲間音量をそろえた版（長尺とショートはこちら由来）。単曲版は−14 LUFSに正規化するので差は音量だけ"
+    }
+   ],
+   "image_candidates": [
+    {
+     "path": "/Users/ryo/youtube/bgm/DOYO01_秋の童謡/画像/doyo01_05.png",
+     "bytes": 3290286,
+     "sha256": "6c89acc7cc907388d1ca0cbb525a64326333262caa078b3edf3863071be3bc27",
+     "width": 1672,
+     "height": 941,
+     "role": "推奨（第1弾と同じく元の場所を参照）"
+    },
+    {
+     "path": "/Users/ryo/youtube/bgm/DOYO01_秋の童謡_画像/doyo01_05.png",
+     "bytes": 3290286,
+     "sha256": "6c89acc7cc907388d1ca0cbb525a64326333262caa078b3edf3863071be3bc27",
+     "width": 1672,
+     "height": 941,
+     "role": "同一ファイル（SHA-256一致）"
+    },
+    {
+     "path": "/Volumes/ESD-02/BGM/8_Melodies of Old Japan/DOYO01_素材_秋の童謡/画像/doyo01_05.png",
+     "bytes": 3290286,
+     "sha256": "6c89acc7cc907388d1ca0cbb525a64326333262caa078b3edf3863071be3bc27",
+     "width": 1672,
+     "height": 941,
+     "role": "同一ファイル（SHA-256一致）"
+    }
+   ],
+   "image_note": "見つかった中で最大は1672×941（第1弾の doyo01_01.png も同じ1672×941）。これより高解像度の版は見つからなかった",
+   "short_videos": [
+    {
+     "path": "/Users/ryo/youtube/bgm/DOYO01_秋の童謡/ショート/doyo01_ショート_E.mp4",
+     "bytes": 22437669,
+     "sha256": "1cd9061421346f489e0d1ebb7d8dd5402fd71c874042bfd83ea06b4ce06934be",
+     "duration_sec": 45.0,
+     "width": 1080,
+     "height": 1920
+    },
+    {
+     "path": "/Volumes/ESD-02/BGM/8_Melodies of Old Japan/DOYO01_素材_秋の童謡/ショート/doyo01_ショート_E.mp4",
+     "bytes": 22437669,
+     "sha256": "1cd9061421346f489e0d1ebb7d8dd5402fd71c874042bfd83ea06b4ce06934be",
+     "duration_sec": 45.0,
+     "width": 1080,
+     "height": 1920
+    }
+   ],
+   "short_note": "doyo01_ショート_E：長尺の30:30から45秒（_work/short.log）",
+   "pass_heads_sec": [
+    10.842,
+    62.853,
+    114.864,
+    166.876,
+    218.887,
+    270.898,
+    322.909,
+    374.92
+   ],
+   "end_proposal": {
+    "proposal": 270.87,
+    "passes_used": 5,
+    "mmss": "4:30.87",
+    "gap_min_db": -33.5,
+    "alternatives": [
+     {
+      "end": 218.86,
+      "passes_used": 4,
+      "mmss": "3:38.86",
+      "gap_min_db": -33.1
+     }
+    ],
+    "note": "谷は−33 dB前後で他の曲より浅い。聴いての確認はしていない"
+   },
+   "approved": false,
+   "pass_heads_source": "DOYO01_秋の童謡/album.py の timeline から計算（音は作っていない）。谷の位置と一致を確認"
+  },
+  {
+   "slug": "doyo08",
+   "publication_order": 6,
+   "name": "十五夜お月さん",
+   "short_id": "majcYY4yPrg",
+   "album": "DOYO01 秋の童謡（長尺 2EJ-K64Rt5I）",
+   "album_track": "06",
+   "audio_candidates": [
+    {
+     "path": "/Users/ryo/youtube/bgm/DOYO01_秋の童謡/album/06_十五夜お月さん.wav",
+     "bytes": 70301940,
+     "sha256": "a4df9a94263bba732893d382b2f30096b7deeb390c352aea805228a593b86db2",
+     "duration_sec": 366.155708,
+     "role": "推奨：第1弾と同じ素の曲別WAV（第1弾の01_夕焼け小焼け.wavは album の素WAVとSHA-256一致）"
+    },
+    {
+     "path": "/Users/ryo/youtube/bgm/DOYO01_秋の童謡/album/06_十五夜お月さん_lv.wav",
+     "bytes": 70301974,
+     "sha256": "40bbb8f392355bafbd14a00a68c01968f08e0514fc393f3624b83b9057ad6b48",
+     "duration_sec": 366.155708,
+     "role": "代替：長尺用に曲間音量をそろえた版（長尺とショートはこちら由来）。単曲版は−14 LUFSに正規化するので差は音量だけ"
+    }
+   ],
+   "image_candidates": [
+    {
+     "path": "/Users/ryo/youtube/bgm/DOYO01_秋の童謡/画像/doyo01_06.png",
+     "bytes": 3257382,
+     "sha256": "0e3cd62cb950c3f72603110a56764b5b5285e709f3bf12b227c5f1ddac9d5c7a",
+     "width": 1672,
+     "height": 941,
+     "role": "推奨（第1弾と同じく元の場所を参照）"
+    },
+    {
+     "path": "/Users/ryo/youtube/bgm/DOYO01_秋の童謡_画像/doyo01_06.png",
+     "bytes": 3257382,
+     "sha256": "0e3cd62cb950c3f72603110a56764b5b5285e709f3bf12b227c5f1ddac9d5c7a",
+     "width": 1672,
+     "height": 941,
+     "role": "同一ファイル（SHA-256一致）"
+    },
+    {
+     "path": "/Volumes/ESD-02/BGM/8_Melodies of Old Japan/DOYO01_素材_秋の童謡/画像/doyo01_06.png",
+     "bytes": 3257382,
+     "sha256": "0e3cd62cb950c3f72603110a56764b5b5285e709f3bf12b227c5f1ddac9d5c7a",
+     "width": 1672,
+     "height": 941,
+     "role": "同一ファイル（SHA-256一致）"
+    }
+   ],
+   "image_note": "見つかった中で最大は1672×941（第1弾の doyo01_01.png も同じ1672×941）。これより高解像度の版は見つからなかった",
+   "short_videos": [
+    {
+     "path": "/Users/ryo/youtube/bgm/DOYO01_秋の童謡/ショート/doyo01_ショート_F.mp4",
+     "bytes": 20974241,
+     "sha256": "32291f2ed5a3f8d33345e74d3574163127ed9e5f589e9d449d55aba21ff582b7",
+     "duration_sec": 45.0,
+     "width": 1080,
+     "height": 1920
+    },
+    {
+     "path": "/Volumes/ESD-02/BGM/8_Melodies of Old Japan/DOYO01_素材_秋の童謡/ショート/doyo01_ショート_F.mp4",
+     "bytes": 20974241,
+     "sha256": "32291f2ed5a3f8d33345e74d3574163127ed9e5f589e9d449d55aba21ff582b7",
+     "duration_sec": 45.0,
+     "width": 1080,
+     "height": 1920
+    }
+   ],
+   "short_note": "doyo01_ショート_F：長尺の35:54から45秒",
+   "pass_heads_sec": [
+    10.842,
+    126.409,
+    241.976
+   ],
+   "end_proposal": {
+    "proposal": 241.93,
+    "passes_used": 2,
+    "mmss": "4:01.93",
+    "gap_min_db": -47.6,
+    "alternatives": []
+   },
+   "approved": false,
+   "pass_heads_source": "DOYO01_秋の童謡/album.py の timeline から計算（音は作っていない）。谷の位置と一致を確認"
+  },
+  {
+   "slug": "doyo09",
+   "publication_order": 7,
+   "name": "月の沙漠",
+   "short_id": "xEyzkg-CL-8",
+   "album": "DOYO01 秋の童謡（長尺 2EJ-K64Rt5I）",
+   "album_track": "07",
+   "audio_candidates": [
+    {
+     "path": "/Users/ryo/youtube/bgm/DOYO01_秋の童謡/album/07_月の沙漠.wav",
+     "bytes": 89589648,
+     "sha256": "b73186073cdbdb0b0fdb8ed1e50376fd28c4f70231d09880c83ce4b5075a06ac",
+     "duration_sec": 466.612521,
+     "role": "推奨：第1弾と同じ素の曲別WAV（第1弾の01_夕焼け小焼け.wavは album の素WAVとSHA-256一致）"
+    },
+    {
+     "path": "/Users/ryo/youtube/bgm/DOYO01_秋の童謡/album/07_月の沙漠_lv.wav",
+     "bytes": 89589682,
+     "sha256": "307c9b7a1528d13f1f56dbbfceb6f03bbbab46aaebe92751da25a9b68419b64e",
+     "duration_sec": 466.612521,
+     "role": "代替：長尺用に曲間音量をそろえた版（長尺とショートはこちら由来）。単曲版は−14 LUFSに正規化するので差は音量だけ"
+    }
+   ],
+   "image_candidates": [
+    {
+     "path": "/Users/ryo/youtube/bgm/DOYO01_秋の童謡/画像/doyo01_07.png",
+     "bytes": 3077871,
+     "sha256": "2ca0c3dde1ed848c4d1fa31fb128e7ec88b36cf4fa9a8a20464331963e380d49",
+     "width": 1672,
+     "height": 941,
+     "role": "推奨（第1弾と同じく元の場所を参照）"
+    },
+    {
+     "path": "/Users/ryo/youtube/bgm/DOYO01_秋の童謡_画像/doyo01_07.png",
+     "bytes": 3077871,
+     "sha256": "2ca0c3dde1ed848c4d1fa31fb128e7ec88b36cf4fa9a8a20464331963e380d49",
+     "width": 1672,
+     "height": 941,
+     "role": "同一ファイル（SHA-256一致）"
+    },
+    {
+     "path": "/Volumes/ESD-02/BGM/8_Melodies of Old Japan/DOYO01_素材_秋の童謡/画像/doyo01_07.png",
+     "bytes": 3077871,
+     "sha256": "2ca0c3dde1ed848c4d1fa31fb128e7ec88b36cf4fa9a8a20464331963e380d49",
+     "width": 1672,
+     "height": 941,
+     "role": "同一ファイル（SHA-256一致）"
+    }
+   ],
+   "image_note": "見つかった中で最大は1672×941（第1弾の doyo01_01.png も同じ1672×941）。これより高解像度の版は見つからなかった",
+   "short_videos": [
+    {
+     "path": "/Users/ryo/youtube/bgm/DOYO01_秋の童謡/ショート/doyo01_ショート_G.mp4",
+     "bytes": 14512637,
+     "sha256": "cd4eb51176ff37a8267027a258aa765643978f962311f366285d9ca9920cbc74",
+     "duration_sec": 45.0,
+     "width": 1080,
+     "height": 1920
+    },
+    {
+     "path": "/Volumes/ESD-02/BGM/8_Melodies of Old Japan/DOYO01_素材_秋の童謡/ショート/doyo01_ショート_G.mp4",
+     "bytes": 14512637,
+     "sha256": "cd4eb51176ff37a8267027a258aa765643978f962311f366285d9ca9920cbc74",
+     "duration_sec": 45.0,
+     "width": 1080,
+     "height": 1920
+    }
+   ],
+   "short_note": "doyo01_ショート_G：長尺の43:05から45秒",
+   "pass_heads_sec": [
+    10.477,
+    85.091,
+    159.706,
+    234.32,
+    308.934,
+    383.549
+   ],
+   "end_proposal": {
+    "proposal": 233.21,
+    "passes_used": 3,
+    "mmss": "3:53.21",
+    "gap_min_db": -36.7,
+    "note": "弱起（1拍1.071秒）があるので、次の回の頭（234.320）ではなく弱起の前（233.249）より手前で切る",
+    "alternatives": [
+     {
+      "end": 307.84,
+      "passes_used": 4,
+      "mmss": "5:07.84",
+      "gap_min_db": -36.2,
+      "note": "第1弾の範囲より長い。谷の最小は307.88だが弱起の開始307.863より後なので手前に寄せた"
+     }
+    ]
+   },
+   "approved": false,
+   "pickup_sec": 1.071,
+   "pass_heads_source": "DOYO01_秋の童謡/album.py の timeline から計算（音は作っていない）。谷の位置と一致を確認"
+  },
+  {
+   "slug": "doyo10",
+   "publication_order": 8,
+   "name": "浜千鳥",
+   "short_id": "kdQGkPm25wo",
+   "album": "DOYO02 冬の童謡（長尺IDはリポジトリで未確認）",
+   "album_track": "05",
+   "audio_candidates": [
+    {
+     "path": "/Users/ryo/youtube/bgm/DOYO02_冬の童謡/album/05_浜千鳥.wav",
+     "bytes": 80259808,
+     "sha256": "e5a7c204f14bcb20aadbf55b24ae86d4db78e3f112876be32581478de4ef1087",
+     "duration_sec": 418.019604,
+     "role": "推奨：第1弾と同じ素の曲別WAV（第1弾の01_夕焼け小焼け.wavは album の素WAVとSHA-256一致）"
+    },
+    {
+     "path": "/Users/ryo/youtube/bgm/DOYO02_冬の童謡/album/05_浜千鳥_lv.wav",
+     "bytes": 80259842,
+     "sha256": "b6a020223126d0218b06dabdef5ceb810e3b4cf3baf0697a48fcb90ad7ee15c4",
+     "duration_sec": 418.019604,
+     "role": "代替：長尺用に曲間音量をそろえた版（長尺とショートはこちら由来）。単曲版は−14 LUFSに正規化するので差は音量だけ"
+    }
+   ],
+   "image_candidates": [
+    {
+     "path": "/Users/ryo/youtube/bgm/DOYO02_冬の童謡/画像/doyo02_05.png",
+     "bytes": 3184299,
+     "sha256": "ea126a158009172257756d451423746760e7fffedf820692e782b8092834c137",
+     "width": 1672,
+     "height": 941,
+     "role": "推奨（第1弾と同じく元の場所を参照）"
+    },
+    {
+     "path": "/Users/ryo/youtube/bgm/DOYO02_冬の童謡_画像/doyo02_05.png",
+     "bytes": 3184299,
+     "sha256": "ea126a158009172257756d451423746760e7fffedf820692e782b8092834c137",
+     "width": 1672,
+     "height": 941,
+     "role": "同一ファイル（SHA-256一致）"
+    },
+    {
+     "path": "/Volumes/ESD-02/BGM/8_Melodies of Old Japan/DOYO02_素材_冬の童謡/画像/doyo02_05.png",
+     "bytes": 3184299,
+     "sha256": "ea126a158009172257756d451423746760e7fffedf820692e782b8092834c137",
+     "width": 1672,
+     "height": 941,
+     "role": "同一ファイル（SHA-256一致）"
+    }
+   ],
+   "image_note": "見つかった中で最大は1672×941（第1弾の doyo01_01.png も同じ1672×941）。これより高解像度の版は見つからなかった",
+   "short_videos": [
+    {
+     "path": "/Users/ryo/youtube/bgm/DOYO02_冬の童謡/ショート/doyo02_ショート_E.mp4",
+     "bytes": 15345631,
+     "sha256": "9385311955dd7ba9885608a9d8fbe9709af3d5b6f082c9206ddecc384bfd6ea0",
+     "duration_sec": 45.0,
+     "width": 1080,
+     "height": 1920
+    },
+    {
+     "path": "/Volumes/ESD-02/BGM/8_Melodies of Old Japan/DOYO02_素材_冬の童謡/ショート/doyo02_ショート_E.mp4",
+     "bytes": 15345631,
+     "sha256": "9385311955dd7ba9885608a9d8fbe9709af3d5b6f082c9206ddecc384bfd6ea0",
+     "duration_sec": 45.0,
+     "width": 1080,
+     "height": 1920
+    }
+   ],
+   "short_note": "doyo02_ショート_E：長尺の28:44から45秒",
+   "pass_heads_sec": [
+    7.297,
+    108.068,
+    208.839,
+    309.61
+   ],
+   "end_proposal": {
+    "proposal": 208.74,
+    "passes_used": 2,
+    "mmss": "3:28.74",
+    "gap_min_db": -34.9,
+    "note": "どちらの候補も第1弾の範囲（3分38秒〜4分39秒）の外。短い方を案とした",
+    "alternatives": [
+     {
+      "end": 309.51,
+      "passes_used": 3,
+      "mmss": "5:09.51",
+      "gap_min_db": -34.9
+     }
+    ]
+   },
+   "approved": false,
+   "pass_heads_source": "DOYO02_冬の童謡/_work/passes.json（制作時の記録）"
+  }
+ ],
+ "copy_plan": [
+  {
+   "slug": "doyo07",
+   "action": "複製（元は残す）",
+   "src": "/Users/ryo/youtube/bgm/DOYO01_秋の童謡/album/05_虫のこえ.wav",
+   "dst": "/Users/ryo/Desktop/BGM/1_Whispers of Japan/童謡単曲/05_虫のこえ/虫のこえ.wav",
+   "note": "新規フォルダ作成が必要。名前はyaml下書きの audio.path に合わせた（第1弾は元の名前 01_夕焼け小焼け.wav のまま）",
+   "approved": false
+  },
+  {
+   "slug": "doyo07",
+   "action": "ESD-02へ控え（完成後、第1弾と同じく動画・サムネと一緒に）",
+   "src": "/Users/ryo/Desktop/BGM/1_Whispers of Japan/童謡単曲/05_虫のこえ/虫のこえ.wav",
+   "dst": "/Volumes/ESD-02/BGM/1_Whispers of Japan/童謡単曲/05_虫のこえ/虫のこえ.wav",
+   "approved": false
+  },
+  {
+   "slug": "doyo08",
+   "action": "複製（元は残す）",
+   "src": "/Users/ryo/youtube/bgm/DOYO01_秋の童謡/album/06_十五夜お月さん.wav",
+   "dst": "/Users/ryo/Desktop/BGM/1_Whispers of Japan/童謡単曲/06_十五夜お月さん/十五夜お月さん.wav",
+   "note": "新規フォルダ作成が必要。名前はyaml下書きの audio.path に合わせた（第1弾は元の名前 01_夕焼け小焼け.wav のまま）",
+   "approved": false
+  },
+  {
+   "slug": "doyo08",
+   "action": "ESD-02へ控え（完成後、第1弾と同じく動画・サムネと一緒に）",
+   "src": "/Users/ryo/Desktop/BGM/1_Whispers of Japan/童謡単曲/06_十五夜お月さん/十五夜お月さん.wav",
+   "dst": "/Volumes/ESD-02/BGM/1_Whispers of Japan/童謡単曲/06_十五夜お月さん/十五夜お月さん.wav",
+   "approved": false
+  },
+  {
+   "slug": "doyo09",
+   "action": "複製（元は残す）",
+   "src": "/Users/ryo/youtube/bgm/DOYO01_秋の童謡/album/07_月の沙漠.wav",
+   "dst": "/Users/ryo/Desktop/BGM/1_Whispers of Japan/童謡単曲/07_月の沙漠/月の沙漠.wav",
+   "note": "新規フォルダ作成が必要。名前はyaml下書きの audio.path に合わせた（第1弾は元の名前 01_夕焼け小焼け.wav のまま）",
+   "approved": false
+  },
+  {
+   "slug": "doyo09",
+   "action": "ESD-02へ控え（完成後、第1弾と同じく動画・サムネと一緒に）",
+   "src": "/Users/ryo/Desktop/BGM/1_Whispers of Japan/童謡単曲/07_月の沙漠/月の沙漠.wav",
+   "dst": "/Volumes/ESD-02/BGM/1_Whispers of Japan/童謡単曲/07_月の沙漠/月の沙漠.wav",
+   "approved": false
+  },
+  {
+   "slug": "doyo10",
+   "action": "複製（元は残す）",
+   "src": "/Users/ryo/youtube/bgm/DOYO02_冬の童謡/album/05_浜千鳥.wav",
+   "dst": "/Users/ryo/Desktop/BGM/1_Whispers of Japan/童謡単曲/08_浜千鳥/浜千鳥.wav",
+   "note": "新規フォルダ作成が必要。名前はyaml下書きの audio.path に合わせた（第1弾は元の名前 01_夕焼け小焼け.wav のまま）",
+   "approved": false
+  },
+  {
+   "slug": "doyo10",
+   "action": "ESD-02へ控え（完成後、第1弾と同じく動画・サムネと一緒に）",
+   "src": "/Users/ryo/Desktop/BGM/1_Whispers of Japan/童謡単曲/08_浜千鳥/浜千鳥.wav",
+   "dst": "/Volumes/ESD-02/BGM/1_Whispers of Japan/童謡単曲/08_浜千鳥/浜千鳥.wav",
+   "approved": false
+  }
+ ],
+ "references": [
+  {
+   "path": "/Volumes/ESD-02/BGM/8_Melodies of Old Japan/DOYO01_素材_秋の童謡/_work/music_bed.wav",
+   "bytes": 660843906,
+   "sha256": "3188287b62e516dfb83551c8016702fdf734802e6477b0c2d51f7ba3b2bab5f8",
+   "duration_sec": 3441.894938,
+   "role": "長尺の音（参考）"
+  },
+  {
+   "path": "/Volumes/ESD-02/BGM/8_Melodies of Old Japan/DOYO02_素材_冬の童謡/_work/music_bed.wav",
+   "bytes": 666257822,
+   "sha256": "44d170c7c56604904e5b82259fd6ba93126683bf998a90ecfc4fad0b6d354e77",
+   "duration_sec": 3470.092417,
+   "role": "長尺の音（参考）"
+  },
+  {
+   "path": "/Volumes/ESD-02/BGM/8_Melodies of Old Japan/DOYO01_素材_秋の童謡/doyo01_完成.mp4",
+   "bytes": 2137822310,
+   "sha256": "afe0ac0a10f5612e51ac16aad858fd2541fd4446d7d70a0edb7f0cbb67ff8d20",
+   "duration_sec": 3441.9,
+   "width": 1920,
+   "height": 1080,
+   "role": "長尺動画（参考）"
+  },
+  {
+   "path": "/Volumes/ESD-02/BGM/8_Melodies of Old Japan/DOYO02_素材_冬の童謡/doyo02_完成.mp4",
+   "bytes": 1812113557,
+   "sha256": "26b498623700c8c5dc2b356b8e5b0d1ca2482842fce1483e36d330f4df4d6735",
+   "duration_sec": 3470.1,
+   "width": 1920,
+   "height": 1080,
+   "role": "長尺動画（参考）"
+  }
+ ]
+}
