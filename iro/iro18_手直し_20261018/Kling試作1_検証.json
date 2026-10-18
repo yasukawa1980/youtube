@@ -1,0 +1,191 @@
+{
+  "raw_video": "/Users/ryo/Desktop/BGM/IRO/Chill/18_毛糸の季節がやってきた/手直し_20261018/Kling_編み物試作1_原本.mp4",
+  "raw_sha256": "ba1d69f3c839103009a05fbb3020ffd82950dde69f386eff9df43c298c4abe03",
+  "raw_probe": {
+    "streams": [
+      {
+        "index": 0,
+        "codec_name": "h264",
+        "codec_long_name": "H.264 / AVC / MPEG-4 AVC / MPEG-4 part 10",
+        "profile": "Main",
+        "codec_type": "video",
+        "codec_tag_string": "avc1",
+        "codec_tag": "0x31637661",
+        "mime_codec_string": "avc1.4d6032",
+        "width": 1920,
+        "height": 1080,
+        "coded_width": 1920,
+        "coded_height": 1080,
+        "has_b_frames": 0,
+        "pix_fmt": "yuv420p",
+        "level": 50,
+        "chroma_location": "left",
+        "field_order": "progressive",
+        "is_avc": "true",
+        "nal_length_size": "4",
+        "id": "0x1",
+        "r_frame_rate": "24/1",
+        "avg_frame_rate": "24/1",
+        "time_base": "1/12288",
+        "start_pts": 0,
+        "start_time": "0.000000",
+        "duration_ts": 98816,
+        "duration": "8.041667",
+        "bit_rate": "6897872",
+        "bits_per_raw_sample": "8",
+        "nb_frames": "193",
+        "extradata_size": 41,
+        "disposition": {
+          "default": 1,
+          "dub": 0,
+          "original": 0,
+          "comment": 0,
+          "lyrics": 0,
+          "karaoke": 0,
+          "forced": 0,
+          "hearing_impaired": 0,
+          "visual_impaired": 0,
+          "clean_effects": 0,
+          "attached_pic": 0,
+          "timed_thumbnails": 0,
+          "non_diegetic": 0,
+          "captions": 0,
+          "descriptions": 0,
+          "metadata": 0,
+          "dependent": 0,
+          "still_image": 0,
+          "multilayer": 0
+        },
+        "tags": {
+          "language": "und",
+          "handler_name": "VideoHandler",
+          "encoder": "Lavc60.31.102 h264_slapi"
+        }
+      }
+    ],
+    "format": {
+      "filename": "/Users/ryo/Desktop/BGM/IRO/Chill/18_毛糸の季節がやってきた/手直し_20261018/Kling_編み物試作1_原本.mp4",
+      "nb_streams": 1,
+      "nb_programs": 0,
+      "nb_stream_groups": 0,
+      "format_name": "mov,mp4,m4a,3gp,3g2,mj2",
+      "format_long_name": "QuickTime / MOV",
+      "start_time": "0.000000",
+      "duration": "8.041667",
+      "size": "6935923",
+      "bit_rate": "6899985",
+      "probe_score": 100,
+      "tags": {
+        "minor_version": "512",
+        "major_brand": "isom",
+        "compatible_brands": "isomiso2avc1mp41",
+        "AIGC": "{\"Label\":\"1\",\"ContentProducer\":\"kling\",\"ProduceID\":\"SGP_PROD_ai_web_324305121318442\",\"ReservedCode1\":null,\"ContentPropagator\":\"kling\",\"PropagateID\":\"SGP_PROD_ai_web_324305121318442\",\"ReservedCode2\":null}",
+        "encoder": "Lavf60.16.100"
+      }
+    }
+  },
+  "sample_frames": 192,
+  "sample_seconds": 8,
+  "sample_fps": 24,
+  "person_polygon": [
+    [
+      1102,
+      37
+    ],
+    [
+      1372,
+      37
+    ],
+    [
+      1440,
+      201
+    ],
+    [
+      1420,
+      392
+    ],
+    [
+      1556,
+      433
+    ],
+    [
+      1650,
+      640
+    ],
+    [
+      1582,
+      740
+    ],
+    [
+      1456,
+      763
+    ],
+    [
+      1315,
+      722
+    ],
+    [
+      1110,
+      730
+    ],
+    [
+      947,
+      752
+    ],
+    [
+      887,
+      663
+    ],
+    [
+      900,
+      550
+    ],
+    [
+      943,
+      493
+    ],
+    [
+      1075,
+      408
+    ]
+  ],
+  "background_restored_outside_mask_changed_pixels_before_encode": 0,
+  "raw_outside_person_changed_pixels_max_threshold12": 15749,
+  "raw_person_mad_adjacent_median": 1.7659279108047485,
+  "raw_person_mad_seam": 2.360455274581909,
+  "raw_seam_to_adjacent_ratio": 1.336665704267752,
+  "raw_background_phase_shift_max_abs_xy": [
+    0.0695004680854936,
+    0.045383828617787
+  ],
+  "raw_background_phase_response_min": 1.0000000000121811,
+  "camera_estimate_note": "原素材のキャビネット・壁領域で位相相関。出力背景は静止画へ復元。",
+  "frame_sheets": {
+    "hands_fps": 6,
+    "hands_frames": 48,
+    "face_fps": 3,
+    "face_frames": 24,
+    "eyes_fps": 3,
+    "eyes_frames": 24
+  },
+  "decode_ok": true,
+  "decision": "Claude検品待ち。追加生成なし。長時間本編・投稿用差替えなし。",
+  "scarf_yarn_roi": [
+    950,
+    550,
+    1510,
+    850
+  ],
+  "raw_scarf_yarn_changed_pixels_outside_person_max_threshold12": 7749,
+  "raw_scarf_yarn_outside_person_roi_pixels": 62454,
+  "eye_full_frame_review": {
+    "frames": 192,
+    "fps": 24,
+    "observations": "長い閉眼は見られないが、指示した短い瞬き2回も確認できない。瞬き追加の要否をClaudeへ確認。"
+  },
+  "visual_review_notes": [
+    "手元48コマで2本の針の大きな消失・折れは見られない。握りで一部の指は隠れ、全コマで5本ずつを断定しない。",
+    "針を動かす反復はあるが、実際の一目を送る編み動作として十分かClaude検品を依頼。",
+    "犬3素材は敷物の境界と縦切抜きを目視確認。Dの動く画素x129〜694に対し切抜きをx108〜716へ調整し、左右約21〜22pxを確保。"
+  ]
+}

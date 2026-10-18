@@ -1,0 +1,69 @@
+{
+  "寝息": {
+    "source": "/Users/ryo/youtube/bgm/IRO/IRO18_毛糸の季節がやってきた/Kling素材/B1.mp4",
+    "source_sha256": "dae7da460b3e7ff92d2fc8f9d701ba95b5ea4dcb9090d1a19bf3239d6ed01c0a",
+    "frames": 192,
+    "fps": 24,
+    "seconds": 8,
+    "enlargement_after_event_composite": true,
+    "motion_bbox_threshold16": [
+      129,
+      718,
+      651,
+      963
+    ],
+    "short_crop": [
+      94,
+      0,
+      702,
+      1080
+    ],
+    "outside_short_motion_pixels_max": 0,
+    "table_leg_region_max_pixel_delta_due_to_scale": 35
+  },
+  "C_あくび": {
+    "source": "/Users/ryo/youtube/bgm/IRO/IRO18_毛糸の季節がやってきた/Kling素材/C.mp4",
+    "source_sha256": "aa9a60342d00a1c8eb81c3073e21838945d2357c25026bca5b73486985020760",
+    "frames": 192,
+    "fps": 24,
+    "seconds": 8,
+    "enlargement_after_event_composite": true,
+    "motion_bbox_threshold16": [
+      133,
+      717,
+      649,
+      972
+    ],
+    "short_crop": [
+      94,
+      0,
+      702,
+      1080
+    ],
+    "outside_short_motion_pixels_max": 0,
+    "table_leg_region_max_pixel_delta_due_to_scale": 34
+  },
+  "D_走る夢": {
+    "source": "/Users/ryo/youtube/bgm/IRO/IRO18_毛糸の季節がやってきた/Kling素材/D_v2.mp4",
+    "source_sha256": "58b08de4dbf4f8317ed4580e6502639e30c1e6e401a976536e082216fb345a35",
+    "frames": 192,
+    "fps": 24,
+    "seconds": 8,
+    "enlargement_after_event_composite": true,
+    "motion_bbox_threshold16": [
+      129,
+      717,
+      694,
+      972
+    ],
+    "short_crop": [
+      108,
+      0,
+      716,
+      1080
+    ],
+    "outside_short_motion_pixels_max": 0,
+    "table_leg_region_max_pixel_delta_due_to_scale": 34,
+    "short_crop_note": "動きの外枠x129〜694を中心へ寄せ、左右約21〜22pxを確保。元のx94から14px右へ調整。"
+  }
+}
