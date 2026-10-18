@@ -10,7 +10,7 @@ settings:
   crossfade: 1.5
   fade: 4
   lufs: -14
-  true_peak: -2
+  true_peak: -1.5
   lra: 11
   crf: 20
   preset: veryfast
@@ -46,3 +46,10 @@ ssd_backup:
   thumbnail_original: /Volumes/ESD-02/BGM/1_Whispers of Japan/童謡単曲/03_紅葉/momiji_thumbnail.png
   audio: /Volumes/ESD-02/BGM/1_Whispers of Japan/童謡単曲/03_紅葉/04_紅葉.wav
   root: /Volumes/ESD-02/BGM/1_Whispers of Japan/童謡単曲/03_紅葉
+
+# 最終AACのピーク検査と追加余裕を含む今回の再現コマンド。
+reexport:
+  command: python3 bgm/DOYO03-06_手直し.py audio
+  measured_lufs: -14.05
+  measured_true_peak: -2.15
+  report: ../DOYO03-06_手直し結果_20261018.json
