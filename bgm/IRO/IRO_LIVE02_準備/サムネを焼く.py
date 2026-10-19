@@ -1,7 +1,7 @@
 """IRO LIVE02 のサムネ：IRO11 の用途中心サムネ（10/18）と同じ並びで、ライブ用に作り直す。
 
 - 絵：IRO11 の開始画像（CORAL の色寄せ）＝画面とサムネを作る.py の still()
-- 字：「ローファイ」（白・最大）／「夜の作業用BGM」（黄）／「8時間ライブ・歌なし」（白）／作品名（小）
+- 字：「Lo-fi」（白・最大・Avenir Next Heavy。10/19本人：カタカナより英字。カタカナは題字として弱い実測とも合う）／「夜の作業用BGM」（黄）／「8時間ライブ・歌なし」（白）／作品名（小）
 - 左上に赤い「● LIVE」の札
 """
 import os, importlib.util
@@ -32,7 +32,7 @@ def main():
     im = Image.fromarray(st.clip(0, 255).astype(np.uint8)).convert("RGBA")
     lay = Image.new("RGBA", im.size, (0, 0, 0, 0)); d = ImageDraw.Draw(lay); X = 62
     live_badge(d, X, 52)
-    d.text((X - 4, 128), "ローファイ", font=ImageFont.truetype(JP_B, 132), fill=(255, 255, 255, 255))
+    d.text((X - 8, 272), "Lo-fi", font=ImageFont.truetype(m.AV, 170, index=8), fill=(255, 255, 255, 255), anchor="ls")
     d.text((X - 2, 296), "夜の作業用BGM", font=ImageFont.truetype(m.JP, 84), fill=(255, 238, 140, 255))
     d.text((X, 410), "8時間ライブ・歌なし", font=ImageFont.truetype(m.JP, 58), fill=(255, 255, 255, 255))
     d.text((X, 566), "もう少しだけ、起きていよう。", font=ImageFont.truetype(m.JP_M, 32), fill=(255, 255, 255, 245))
