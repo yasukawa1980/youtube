@@ -1,0 +1,23 @@
+{
+  "volume": "WAVE11 雪の無人駅",
+  "seconds": 1800.0,
+  "file": "/Users/ryo/youtube/bgm/WAVE11_雪の無人駅/本編音声v2/_30min_連結.flac",
+  "metrics": {
+    "envelope_std_db": 1.95,
+    "autocorrelation": {
+      "15s": 0.497,
+      "30s": 0.542,
+      "60s": 0.537
+    },
+    "search_limit_seconds": 180.0,
+    "strongest_period_seconds": 20.0,
+    "strongest_period_height": 0.038,
+    "ten_minute_block_spread_db": 3.18,
+    "ten_minute_blocks": 3
+  },
+  "targets": {
+    "strongest_period_height": "< 0.08（特定の周期に山が立たないこと）",
+    "ten_minute_block_spread_db": "> 3.0"
+  },
+  "elapsed_seconds": 35.9
+}

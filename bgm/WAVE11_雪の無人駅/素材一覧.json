@@ -3,7 +3,7 @@
   "title": "雪の無人駅",
   "brand": "Whispers of Japan",
   "line": "Waves of Japan",
-  "scope": "Only scene 3 master and thumbnail generated. Scenes 1, 2, 4, 5 not generated. Audio and other volumes/scripts untouched.",
+  "scope": "Scenes 1,2,4,5 edited from approved sign-removed scene3; 1920x1080 outputs and exposure finalized. Scene 1,2,4 have measured 1px lamp/window offsets awaiting user choice on position correction. Scene3, thumbnail, audio, scripts, other volumes untouched.",
   "created_at": "2026-10-19T01:25:49.487610+00:00",
   "prompt_source": "bgm/WAVE11_雪の無人駅/画像プロンプト.md",
   "prompt_source_sha256": "7f83963bce75076ec9000af7e4d9bf6ce9c0b6460729ca0eeeb6603081761a41",
@@ -22,8 +22,8 @@
     {
       "id": "scene3",
       "file": "bgm/WAVE11_雪の無人駅/画像/wave11_03_雪の止んだ夜.png",
-      "sha256": "4e4b7764311bdc2f8d37e83aae50d3ee9cbb4c444941612bdadb0cf0377b86af",
-      "bytes": 2659943,
+      "sha256": "ba30d779b2ec8afcf4c7e5ac4ef5b9d59df65ffc904c576ea8ccb4af26f100e0",
+      "bytes": 2836963,
       "generated_at": "2026-10-19T01:23:13.606Z",
       "generation_time_basis": "local tool call completion timestamp; provider creation time unavailable",
       "generation_call": {
@@ -75,10 +75,9 @@
       "measurements": {
         "width": 1920,
         "height": 1080,
-        "mean_luma_0_255": 37.00004877247299,
-        "luma_lt16_percent": 18.725163966049383,
-        "luma_ge250_percent": 0.0,
-        "thumbnail_168x94_left_third_median_luma": 41.1776
+        "mean_luma_0_255": 36.996824876543215,
+        "luma_lt16_percent": 18.73389274691358,
+        "luma_ge250_percent": 0.0
       },
       "luminance_targets_pass": true,
       "preview": {
@@ -89,16 +88,105 @@
           1280,
           720
         ],
-        "not_for_exact_full_resolution_measurement": true
+        "not_for_exact_full_resolution_measurement": true,
+        "note": "既存確認用JPGは札除去前の記録。本タスクでは変更していない。"
       },
       "visual_review": {
-        "status": "requires_review",
+        "status": "adopted_by_Claude_per_user",
         "findings": [
-          "待合室の入口上部に小さな札と文字らしき描写あり。判読不能だが「文字・看板禁止」に抵触するため基準画像は未承認扱い。",
-          "ホーム灯1個と窓1個を確認。月・星・人・足跡・列車・架線・信号・追加光源は目視で見当たらない。",
-          "待合室と窓が指定より右寄り。窓中心は原本の約x=1374/1672（82%）、灯り中心は約x=1010/1672（60%）。anchor 0.70付近での縦クロップ要確認。"
+          "ユーザー申告：Claudeが採用し、入口上部の札を周囲の木目で除去済み。今回のCodexの目視でも札なしを確認。"
         ],
-        "review_type": "visual, not an exhaustive automated object detection guarantee"
+        "checked_at": "2026-10-19T01:34:30.453459+00:00"
+      },
+      "history_before_sign_removal": {
+        "id": "scene3",
+        "file": "bgm/WAVE11_雪の無人駅/画像/wave11_03_雪の止んだ夜.png",
+        "sha256": "4e4b7764311bdc2f8d37e83aae50d3ee9cbb4c444941612bdadb0cf0377b86af",
+        "bytes": 2659943,
+        "generated_at": "2026-10-19T01:23:13.606Z",
+        "generation_time_basis": "local tool call completion timestamp; provider creation time unavailable",
+        "generation_call": {
+          "started_at": "2026-10-19T01:22:43.118Z",
+          "completed_at": "2026-10-19T01:23:13.606Z"
+        },
+        "generation_method": "built-in image_gen; one call, one image; no regeneration",
+        "prompt": "Use case: photorealistic-natural\nAsset type: WAVE11 \"雪の無人駅 / Snowy Country Station\" scene 3 master background for a three-hour Japanese ambient sleep film, full-bleed wide 16:9 landscape. This image is the reference from which four other scenes will be edited, so every element must be clear, stable and well defined.\nPrimary request: Create one polished, restrained photorealistic image of a tiny unmanned railway station on a single non-electrified local line deep in the snowy mountains of rural Japan, at night in early winter, just after the snow has stopped falling. Fresh, untouched snow covers everything. One old platform lamp and one small waiting-room window give the only warm light. This is the visual definition image of the volume, not a generic winter postcard.\nScene/backdrop: A short, low single platform edged with old weathered concrete and timber, running from the lower right of the frame into the middle distance. On the platform, at about sixty-five to seventy percent of the frame width, stands a small old wooden waiting shelter with a dark tiled roof thick with snow and one small paper-and-wood framed window. A single track, its rails mostly buried in snow so that only two faint parallel lines show, runs alongside the platform on its left and curves gently away into a forest of tall snow-laden Japanese cedars. Beyond the forest, soft dark mountain ridges dusted with snow fade into a low, even overcast sky. Deep snow lies on the platform, the shelter roof, the cedar branches and the embankment. The snow is completely untouched: no footprints and no tracks of any kind.\nSubject: One traditional platform lamp — an old enamel conical shade on a weathered wooden pole — stands at the near end of the shelter, at roughly sixty to sixty-five percent of the frame width, casting a small, soft pool of warm light on the snow of the platform. The small window of the waiting shelter glows a dim warm amber from inside. These two lights must be distinct and clearly placed, because their positions will be held fixed in every later scene.\nStyle/medium: Highly natural cinematic night photography on a tripod, long exposure, believable Japanese snow-country atmosphere, restrained realism, gentle telephoto compression. Not an illustration, not anime, not fantasy, not a poster, not HDR.\nComposition/framing: Camera standing low on the snowy embankment beside the track, slightly left of the line, looking along the track toward the station and the curve into the forest, wide 16:9. The LEFT THIRD holds only the snowy embankment, snow-covered low shrubs and the dark snow-laden cedars — no lamp, no shelter and no window in it — so it stays calm negative space for a later title; add no text. The platform, the lamp and the shelter sit from the centre to the right so that a later 9:16 portrait crop taken around sixty to sixty-five percent of the width contains the lamp, the shelter window and the platform.\nLighting/mood: Night after snowfall. The only light sources are the one platform lamp, the one shelter window and the faint cool blue-grey glow of the overcast sky reflected by the snow. Warm amber lamplight against cool blue-white snow. Calm, hushed, muffled, lonely but gentle, premium, sleepy. Keep the snow textured and READABLE — drifts, the soft edges of the platform, the shelter timbers and the cedar boughs must stay visible; no blown-out flat white and no crushed featureless black under the trees. The lamp must not clip to a large white blob: keep it as a small warm glow with the enamel shade visible.\nMaterials/textures: Soft deep powder snow with gentle drifts, old grey timber, dark roof tiles under snow, weathered enamel lamp shade, dark green cedar needles heavy with snow, faint rail lines under snow.\nConstraints: No moon, no stars, no visible sun, no people, no station staff, no footprints, no umbrellas, no hands, no animals, no birds, no train, no cars, no bicycles, no station name board, no timetable, no signboards, no posters, no readable characters, no text, no logo, no watermark, no overhead wires, no electric poles, no power lines, no railway signals, no red or green lights, no level-crossing lights, no vending machines, no ticket machines, no modern benches, no metal handrails, no fences, no water, no cherry blossom, no autumn leaves, no bamboo, no torii, no temple, no pagoda, no bokeh balls, no lens flare, no light rays, no sparkle, no strong vignette.\nOutput intent: A calm reference image whose geometry — platform, shelter, lamp, window, track, cedars and ridges — will be kept pixel-identical while light and weather are changed in four later scenes.",
+        "prompt_sha256": "e679fedd8e6492f89a4fbc45c8f8004f358c0a8ffc966090c5af183d5c8d2eee",
+        "original": {
+          "file": "bgm/WAVE11_雪の無人駅/画像/生成直後/wave11_03_雪の止んだ夜.png",
+          "sha256": "cdf4e26bd9e2359aef112663c9d8d3504d3a96ce55d1c18cb8bf3a18a2d051d8",
+          "bytes": 2671162,
+          "measurements": {
+            "width": 1672,
+            "height": 941,
+            "mean_luma_0_255": 62.13538901911335,
+            "luma_lt16_percent": 17.16640650026186,
+            "luma_ge250_percent": 0.008262613833395197,
+            "thumbnail_168x94_left_third_median_luma": 67.7578
+          },
+          "untouched_generated_bytes": true
+        },
+        "resize": {
+          "from": [
+            1672,
+            941
+          ],
+          "to": [
+            1920,
+            1080
+          ],
+          "method": "Pillow Lanczos, full-frame resize, no crop; before exposure"
+        },
+        "exposure": {
+          "type": "luminance_dependent_linear_RGB_gain",
+          "global_coefficient": 0.1464260201632977,
+          "gamma": 0.65,
+          "formula": "Y_linear = 0.2126*R_linear + 0.7152*G_linear + 0.0722*B_linear; multiplier = 0.1464260201632977 * max(Y_linear, 0.000001)^(-0.35); RGB_linear_out = RGB_linear_in * multiplier",
+          "multiplier_min": 0.1464260201632977,
+          "multiplier_max": 18.43394377314605,
+          "multiplier_percentiles_1_50_99": [
+            0.19557424748853375,
+            0.4245462955889645,
+            3.8704388174798097
+          ],
+          "reason": "Uniform linear RGB gain 0.37469777289032946 gave mean 37.0041 but luma<16 29.1096%; luminance-dependent gain preserves shadow detail while meeting all three targets. No geometry or object edits."
+        },
+        "measurements": {
+          "width": 1920,
+          "height": 1080,
+          "mean_luma_0_255": 37.00004877247299,
+          "luma_lt16_percent": 18.725163966049383,
+          "luma_ge250_percent": 0.0,
+          "thumbnail_168x94_left_third_median_luma": 41.1776
+        },
+        "luminance_targets_pass": true,
+        "preview": {
+          "file": "サムネ確認用/Waves of Japan/wave11_03_雪の止んだ夜_確認.jpg",
+          "sha256": "2100d70b8c2850182e4d2b2e9282bbdef71645fdd523690956e6bed30ac89443",
+          "bytes": 177512,
+          "size": [
+            1280,
+            720
+          ],
+          "not_for_exact_full_resolution_measurement": true
+        },
+        "visual_review": {
+          "status": "requires_review",
+          "findings": [
+            "待合室の入口上部に小さな札と文字らしき描写あり。判読不能だが「文字・看板禁止」に抵触するため基準画像は未承認扱い。",
+            "ホーム灯1個と窓1個を確認。月・星・人・足跡・列車・架線・信号・追加光源は目視で見当たらない。",
+            "待合室と窓が指定より右寄り。窓中心は原本の約x=1374/1672（82%）、灯り中心は約x=1010/1672（60%）。anchor 0.70付近での縦クロップ要確認。"
+          ],
+          "review_type": "visual, not an exhaustive automated object detection guarantee"
+        }
+      },
+      "post_generation_edit": {
+        "actor": "Claude, per user report",
+        "operation": "入口上部の札を周囲の木目で除去",
+        "timestamp": "unknown; completed before this task",
+        "prior_version_file": "bgm/WAVE11_雪の無人駅/画像/生成直後/wave11_03_雪の止んだ夜_札あり_納品版.png",
+        "prior_version_sha256": "4e4b7764311bdc2f8d37e83aae50d3ee9cbb4c444941612bdadb0cf0377b86af",
+        "current_source_read_only_verified": true
       }
     },
     {
@@ -181,10 +269,1648 @@
         ],
         "review_type": "visual, not an exhaustive automated object detection guarantee"
       }
+    },
+    {
+      "id": "scene1",
+      "file": "bgm/WAVE11_雪の無人駅/画像/wave11_01_暮れ方の雪.png",
+      "sha256": "6410388a871a849c5cf6887959b01d1d3b92b47b0de1a038b19217afc0817d17",
+      "bytes": 2535935,
+      "generated_at": "2026-10-19T01:29:25.173Z",
+      "generation_time_basis": "local tool completion timestamp; provider creation timestamp unavailable",
+      "generation_call": {
+        "started_at": "2026-10-19T01:29:05.860Z",
+        "completed_at": "2026-10-19T01:29:25.173Z"
+      },
+      "generation_method": "built-in image_gen edit; exact current sign-removed scene3 path as referenced_image_paths; one edit call per scene; no from-scratch generation",
+      "edit_source": {
+        "file": "bgm/WAVE11_雪の無人駅/画像/wave11_03_雪の止んだ夜.png",
+        "sha256": "ba30d779b2ec8afcf4c7e5ac4ef5b9d59df65ffc904c576ea8ccb4af26f100e0"
+      },
+      "prompt": "Edit the supplied scene 3 image. Keep the platform, the waiting shelter, the platform lamp, the shelter window, the track, every cedar, the mountain ridges, the lying snow and the camera position EXACTLY as they are, pixel for pixel. Do not add, remove or move any light. Change only the light and the weather. It is early-winter dusk while snow is still gently falling: the overcast sky is a soft pale blue-grey with a little remaining daylight, the whole scene is lit by that dim, even, cool daylight, and fine snowflakes are falling quietly across the scene as small, faint, soft-edged specks — calm, no blizzard, no streaks, no flakes on a lens. The platform lamp has just come on and glows only faintly; the shelter window is a faint amber. Brighter than scene 3 but still a dim dusk: all snow textures readable, nothing clipped. Do not add a moon, stars, a visible sun, people, footprints, animals, birds, a train, text, other lights, bokeh balls, lens flare or light rays.",
+      "prompt_sha256": "1f116264563c08a5cc2aba6894f4c89eacc85cde9aa59bc8930dd7c74d981e68",
+      "original": {
+        "file": "bgm/WAVE11_雪の無人駅/画像/生成直後/wave11_01_暮れ方の雪.png",
+        "sha256": "9663fce37054483d59b4a331b509b39fa1194890409cbe7dc08af446b7f477ca",
+        "measurements": {
+          "width": 1672,
+          "height": 941,
+          "mean_luma_0_255": 102.47885959289464,
+          "luma_lt16_percent": 2.1444025240378504,
+          "luma_ge250_percent": 0.0
+        },
+        "generated_at": "2026-10-19T01:29:25.173Z",
+        "bytes": 2743547,
+        "untouched_generated_bytes": true,
+        "exposure_multiplier": 1.0,
+        "registration_after_1920x1080_resize": {
+          "lamp_shade": {
+            "dx": 0,
+            "dy": -1,
+            "score": 0.8492
+          },
+          "window_frame": {
+            "dx": 0,
+            "dy": 0,
+            "score": 0.9097
+          },
+          "platform_edge_near": {
+            "dx": 0,
+            "dy": 0,
+            "score": 0.8083
+          },
+          "platform_edge_mid": {
+            "dx": 0,
+            "dy": 0,
+            "score": 0.8686
+          },
+          "platform_tip": {
+            "dx": 0,
+            "dy": 0,
+            "score": 0.8953
+          },
+          "rail_near_left": {
+            "dx": 0,
+            "dy": 0,
+            "score": 0.8974
+          },
+          "rail_near_right": {
+            "dx": 1,
+            "dy": 1,
+            "score": 0.8358
+          },
+          "rail_curve": {
+            "dx": 0,
+            "dy": 0,
+            "score": 0.9565
+          },
+          "shelter_left_post": {
+            "dx": 0,
+            "dy": 0,
+            "score": 0.7801
+          },
+          "shelter_entry_post": {
+            "dx": 0,
+            "dy": 0,
+            "score": 0.8085
+          },
+          "shelter_window_post": {
+            "dx": 0,
+            "dy": -1,
+            "score": 0.8409
+          }
+        }
+      },
+      "intermediate_versions": [
+        {
+          "file": "bgm/WAVE11_雪の無人駅/画像/生成直後/wave11_01_暮れ方の雪_露出調整_位置補正前.png",
+          "sha256": "6410388a871a849c5cf6887959b01d1d3b92b47b0de1a038b19217afc0817d17",
+          "measurements": {
+            "width": 1920,
+            "height": 1080,
+            "mean_luma_0_255": 48.99997540422453,
+            "luma_lt16_percent": 8.680844907407408,
+            "luma_ge250_percent": 0.0
+          },
+          "created_at": "2026-10-19T01:32:36.101553+00:00",
+          "bytes": 2535935,
+          "status": "preserved before optional position correction",
+          "exposure": {
+            "type": "luminance_dependent_linear_RGB_gain",
+            "global_coefficient": 0.15895158052444458,
+            "gamma": 0.7999999999999998,
+            "formula": "Y_linear=0.2126 R_linear+0.7152 G_linear+0.0722 B_linear; multiplier=0.15895158052444458*max(Y_linear,0.000001)^(-0.20000000000000018); RGB_linear_out=RGB_linear_in*multiplier; IEC sRGB encode, round, clamp",
+            "multiplier_min": 0.16165016391575301,
+            "multiplier_max": 2.5192127790412733,
+            "multiplier_percentiles_1_50_99": [
+              0.19302096782427072,
+              0.22295090444850277,
+              0.49504138367020456
+            ]
+          },
+          "registration": {
+            "lamp_shade": {
+              "dx": 0,
+              "dy": -1,
+              "score": 0.8498
+            },
+            "window_frame": {
+              "dx": 0,
+              "dy": 0,
+              "score": 0.9091
+            },
+            "platform_edge_near": {
+              "dx": 0,
+              "dy": 0,
+              "score": 0.808
+            },
+            "platform_edge_mid": {
+              "dx": 0,
+              "dy": 0,
+              "score": 0.8653
+            },
+            "platform_tip": {
+              "dx": 0,
+              "dy": 0,
+              "score": 0.8933
+            },
+            "rail_near_left": {
+              "dx": 0,
+              "dy": 0,
+              "score": 0.9
+            },
+            "rail_near_right": {
+              "dx": 1,
+              "dy": 1,
+              "score": 0.8366
+            },
+            "rail_curve": {
+              "dx": 0,
+              "dy": 0,
+              "score": 0.9556
+            },
+            "shelter_left_post": {
+              "dx": 0,
+              "dy": 0,
+              "score": 0.7762
+            },
+            "shelter_entry_post": {
+              "dx": 0,
+              "dy": 0,
+              "score": 0.8101
+            },
+            "shelter_window_post": {
+              "dx": 0,
+              "dy": 0,
+              "score": 0.838
+            }
+          }
+        }
+      ],
+      "resize": {
+        "from": [
+          1672,
+          941
+        ],
+        "to": [
+          1920,
+          1080
+        ],
+        "method": "Pillow Lanczos, full-frame resize without crop, before exposure"
+      },
+      "exposure": {
+        "type": "luminance_dependent_linear_RGB_gain",
+        "global_coefficient": 0.15895158052444458,
+        "gamma": 0.7999999999999998,
+        "formula": "Y_linear=0.2126 R_linear+0.7152 G_linear+0.0722 B_linear; multiplier=0.15895158052444458*max(Y_linear,0.000001)^(-0.20000000000000018); RGB_linear_out=RGB_linear_in*multiplier; IEC sRGB encode, round, clamp",
+        "multiplier_min": 0.16165016391575301,
+        "multiplier_max": 2.5192127790412733,
+        "multiplier_percentiles_1_50_99": [
+          0.19302096782427072,
+          0.22295090444850277,
+          0.49504138367020456
+        ]
+      },
+      "exposure_parameter_search": {
+        "basis": "Every fourth pixel in both axes; numeric candidates only, no rendered discarded trial files",
+        "candidates": [
+          {
+            "gamma": 1.0,
+            "coefficient": 0.22809714078903198,
+            "sampled_measurements": {
+              "width": 480,
+              "height": 270,
+              "mean_luma_0_255": 48.99390078086419,
+              "luma_lt16_percent": 14.728395061728394,
+              "luma_ge250_percent": 0.0
+            }
+          },
+          {
+            "gamma": 0.95,
+            "coefficient": 0.2087828516960144,
+            "sampled_measurements": {
+              "width": 480,
+              "height": 270,
+              "mean_luma_0_255": 48.9999937515432,
+              "luma_lt16_percent": 13.371913580246913,
+              "luma_ge250_percent": 0.0
+            }
+          },
+          {
+            "gamma": 0.8999999999999999,
+            "coefficient": 0.19114524126052856,
+            "sampled_measurements": {
+              "width": 480,
+              "height": 270,
+              "mean_luma_0_255": 49.00001567592593,
+              "luma_lt16_percent": 11.679783950617285,
+              "luma_ge250_percent": 0.0
+            }
+          },
+          {
+            "gamma": 0.8499999999999999,
+            "coefficient": 0.17435520887374878,
+            "sampled_measurements": {
+              "width": 480,
+              "height": 270,
+              "mean_luma_0_255": 49.00005922685185,
+              "luma_lt16_percent": 10.130401234567902,
+              "luma_ge250_percent": 0.0
+            }
+          },
+          {
+            "gamma": 0.7999999999999998,
+            "coefficient": 0.15904217958450317,
+            "sampled_measurements": {
+              "width": 480,
+              "height": 270,
+              "mean_luma_0_255": 48.99987600617284,
+              "luma_lt16_percent": 8.652006172839506,
+              "luma_ge250_percent": 0.0
+            }
+          }
+        ]
+      },
+      "measurements": {
+        "width": 1920,
+        "height": 1080,
+        "mean_luma_0_255": 48.99997540422453,
+        "luma_lt16_percent": 8.680844907407408,
+        "luma_ge250_percent": 0.0
+      },
+      "luminance_targets_pass": true,
+      "registration": {
+        "lamp_shade": {
+          "dx": 0,
+          "dy": -1,
+          "score": 0.8498
+        },
+        "window_frame": {
+          "dx": 0,
+          "dy": 0,
+          "score": 0.9091
+        },
+        "platform_edge_near": {
+          "dx": 0,
+          "dy": 0,
+          "score": 0.808
+        },
+        "platform_edge_mid": {
+          "dx": 0,
+          "dy": 0,
+          "score": 0.8653
+        },
+        "platform_tip": {
+          "dx": 0,
+          "dy": 0,
+          "score": 0.8933
+        },
+        "rail_near_left": {
+          "dx": 0,
+          "dy": 0,
+          "score": 0.9
+        },
+        "rail_near_right": {
+          "dx": 1,
+          "dy": 1,
+          "score": 0.8366
+        },
+        "rail_curve": {
+          "dx": 0,
+          "dy": 0,
+          "score": 0.9556
+        },
+        "shelter_left_post": {
+          "dx": 0,
+          "dy": 0,
+          "score": 0.7762
+        },
+        "shelter_entry_post": {
+          "dx": 0,
+          "dy": 0,
+          "score": 0.8101
+        },
+        "shelter_window_post": {
+          "dx": 0,
+          "dy": 0,
+          "score": 0.838
+        }
+      },
+      "registration_status": "pending_user_permission_for_position_correction",
+      "visual_review": {
+        "entrance_sign_returned": false,
+        "findings": [
+          "入口上部を拡大確認：札・文字の復活なし。",
+          "ホーム灯1個と待合室の窓1個を確認。その他の禁止物の明白な追加は目視で見当たらない。"
+        ],
+        "review_type": "visual inspection of full frame and enlarged entrance crop; not exhaustive object detection",
+        "checked_at": "2026-10-19T01:34:30.453459+00:00"
+      },
+      "processed_at": "2026-10-19T01:32:36.101553+00:00"
+    },
+    {
+      "id": "scene2",
+      "file": "bgm/WAVE11_雪の無人駅/画像/wave11_02_灯のともる駅.png",
+      "sha256": "d31fbc78635359bf7876757f446006383d133e36b191256c94c07f9d3e0e42d2",
+      "bytes": 2654056,
+      "generated_at": "2026-10-19T01:29:58.028Z",
+      "generation_time_basis": "local tool completion timestamp; provider creation timestamp unavailable",
+      "generation_call": {
+        "started_at": "2026-10-19T01:29:35.953Z",
+        "completed_at": "2026-10-19T01:29:58.028Z"
+      },
+      "generation_method": "built-in image_gen edit; exact current sign-removed scene3 path as referenced_image_paths; one edit call per scene; no from-scratch generation",
+      "edit_source": {
+        "file": "bgm/WAVE11_雪の無人駅/画像/wave11_03_雪の止んだ夜.png",
+        "sha256": "ba30d779b2ec8afcf4c7e5ac4ef5b9d59df65ffc904c576ea8ccb4af26f100e0"
+      },
+      "prompt": "Edit the supplied scene 3 image. Keep the platform, the waiting shelter, the platform lamp, the shelter window, the track, every cedar, the mountain ridges, the lying snow and the camera position EXACTLY as they are, pixel for pixel. Do not add, remove or move any light. Change only the light and the weather. It is the last of the blue hour: the sky is a deep blue, the snowfall is thinning to a few small, faint, soft-edged flakes, and the platform lamp and the shelter window now glow warmly at full strength, the lamp casting a clear warm pool on the platform snow. Slightly brighter and bluer than scene 3. Keep every snow texture readable; no crushed black and no clipped lamp. Do not add a moon, stars, a visible sun, people, footprints, animals, birds, a train, text, other lights, bokeh balls, lens flare or light rays.",
+      "prompt_sha256": "79e27b28d9694e64cc84e66d496b84955240c938641308b30613ca830ae69535",
+      "original": {
+        "file": "bgm/WAVE11_雪の無人駅/画像/生成直後/wave11_02_灯のともる駅.png",
+        "sha256": "6200c2662fd4a5864c6f753b9f3981e4bf4788e4a48374c34c841ce45f02e94c",
+        "measurements": {
+          "width": 1672,
+          "height": 941,
+          "mean_luma_0_255": 76.44779006490603,
+          "luma_lt16_percent": 9.390206387381845,
+          "luma_ge250_percent": 0.0002542342717967753
+        },
+        "generated_at": "2026-10-19T01:29:58.028Z",
+        "bytes": 2731604,
+        "untouched_generated_bytes": true,
+        "exposure_multiplier": 1.0,
+        "registration_after_1920x1080_resize": {
+          "lamp_shade": {
+            "dx": -1,
+            "dy": -1,
+            "score": 0.9404
+          },
+          "window_frame": {
+            "dx": -1,
+            "dy": -1,
+            "score": 0.8839
+          },
+          "platform_edge_near": {
+            "dx": -1,
+            "dy": 0,
+            "score": 0.8064
+          },
+          "platform_edge_mid": {
+            "dx": -1,
+            "dy": 0,
+            "score": 0.8259
+          },
+          "platform_tip": {
+            "dx": -1,
+            "dy": -1,
+            "score": 0.8236
+          },
+          "rail_near_left": {
+            "dx": 0,
+            "dy": 0,
+            "score": 0.9411
+          },
+          "rail_near_right": {
+            "dx": -1,
+            "dy": 0,
+            "score": 0.9239
+          },
+          "rail_curve": {
+            "dx": 0,
+            "dy": 0,
+            "score": 0.8966
+          },
+          "shelter_left_post": {
+            "dx": -1,
+            "dy": -1,
+            "score": 0.8295
+          },
+          "shelter_entry_post": {
+            "dx": -1,
+            "dy": -1,
+            "score": 0.8658
+          },
+          "shelter_window_post": {
+            "dx": -1,
+            "dy": -1,
+            "score": 0.8857
+          }
+        }
+      },
+      "intermediate_versions": [
+        {
+          "file": "bgm/WAVE11_雪の無人駅/画像/生成直後/wave11_02_灯のともる駅_露出調整_位置補正前.png",
+          "sha256": "d31fbc78635359bf7876757f446006383d133e36b191256c94c07f9d3e0e42d2",
+          "measurements": {
+            "width": 1920,
+            "height": 1080,
+            "mean_luma_0_255": 40.99997651938657,
+            "luma_lt16_percent": 14.072337962962964,
+            "luma_ge250_percent": 0.0
+          },
+          "created_at": "2026-10-19T01:32:41.853343+00:00",
+          "bytes": 2654056,
+          "status": "preserved before optional position correction",
+          "exposure": {
+            "type": "luminance_dependent_linear_RGB_gain",
+            "global_coefficient": 0.1511874794960022,
+            "gamma": 0.6999999999999997,
+            "formula": "Y_linear=0.2126 R_linear+0.7152 G_linear+0.0722 B_linear; multiplier=0.1511874794960022*max(Y_linear,0.000001)^(-0.30000000000000027); RGB_linear_out=RGB_linear_in*multiplier; IEC sRGB encode, round, clamp",
+            "multiplier_min": 0.1512733852905226,
+            "multiplier_max": 9.539285058145156,
+            "multiplier_percentiles_1_50_99": [
+              0.18344408502686976,
+              0.34351378432392804,
+              1.4259847334511815
+            ]
+          },
+          "registration": {
+            "lamp_shade": {
+              "dx": -1,
+              "dy": -1,
+              "score": 0.9412
+            },
+            "window_frame": {
+              "dx": -1,
+              "dy": -1,
+              "score": 0.884
+            },
+            "platform_edge_near": {
+              "dx": -1,
+              "dy": 0,
+              "score": 0.8011
+            },
+            "platform_edge_mid": {
+              "dx": -1,
+              "dy": 0,
+              "score": 0.8269
+            },
+            "platform_tip": {
+              "dx": -1,
+              "dy": -1,
+              "score": 0.8247
+            },
+            "rail_near_left": {
+              "dx": -1,
+              "dy": 0,
+              "score": 0.941
+            },
+            "rail_near_right": {
+              "dx": -1,
+              "dy": 0,
+              "score": 0.9232
+            },
+            "rail_curve": {
+              "dx": 0,
+              "dy": 0,
+              "score": 0.896
+            },
+            "shelter_left_post": {
+              "dx": -1,
+              "dy": -1,
+              "score": 0.8292
+            },
+            "shelter_entry_post": {
+              "dx": -1,
+              "dy": -1,
+              "score": 0.8635
+            },
+            "shelter_window_post": {
+              "dx": -1,
+              "dy": -1,
+              "score": 0.8852
+            }
+          }
+        }
+      ],
+      "resize": {
+        "from": [
+          1672,
+          941
+        ],
+        "to": [
+          1920,
+          1080
+        ],
+        "method": "Pillow Lanczos, full-frame resize without crop, before exposure"
+      },
+      "exposure": {
+        "type": "luminance_dependent_linear_RGB_gain",
+        "global_coefficient": 0.1511874794960022,
+        "gamma": 0.6999999999999997,
+        "formula": "Y_linear=0.2126 R_linear+0.7152 G_linear+0.0722 B_linear; multiplier=0.1511874794960022*max(Y_linear,0.000001)^(-0.30000000000000027); RGB_linear_out=RGB_linear_in*multiplier; IEC sRGB encode, round, clamp",
+        "multiplier_min": 0.1512733852905226,
+        "multiplier_max": 9.539285058145156,
+        "multiplier_percentiles_1_50_99": [
+          0.18344408502686976,
+          0.34351378432392804,
+          1.4259847334511815
+        ]
+      },
+      "exposure_parameter_search": {
+        "basis": "Every fourth pixel in both axes; numeric candidates only, no rendered discarded trial files",
+        "candidates": [
+          {
+            "gamma": 1.0,
+            "coefficient": 0.29937058687210083,
+            "sampled_measurements": {
+              "width": 480,
+              "height": 270,
+              "mean_luma_0_255": 40.99438196604938,
+              "luma_lt16_percent": 23.55787037037037,
+              "luma_ge250_percent": 0.0
+            }
+          },
+          {
+            "gamma": 0.95,
+            "coefficient": 0.2682223916053772,
+            "sampled_measurements": {
+              "width": 480,
+              "height": 270,
+              "mean_luma_0_255": 41.00002068672839,
+              "luma_lt16_percent": 22.08179012345679,
+              "luma_ge250_percent": 0.0
+            }
+          },
+          {
+            "gamma": 0.8999999999999999,
+            "coefficient": 0.2401241660118103,
+            "sampled_measurements": {
+              "width": 480,
+              "height": 270,
+              "mean_luma_0_255": 41.00002072685186,
+              "luma_lt16_percent": 20.598765432098766,
+              "luma_ge250_percent": 0.0
+            }
+          },
+          {
+            "gamma": 0.8499999999999999,
+            "coefficient": 0.21427959203720093,
+            "sampled_measurements": {
+              "width": 480,
+              "height": 270,
+              "mean_luma_0_255": 40.99949547376544,
+              "luma_lt16_percent": 19.08564814814815,
+              "luma_ge250_percent": 0.0
+            }
+          },
+          {
+            "gamma": 0.7999999999999998,
+            "coefficient": 0.19136399030685425,
+            "sampled_measurements": {
+              "width": 480,
+              "height": 270,
+              "mean_luma_0_255": 41.000050773148146,
+              "luma_lt16_percent": 17.452160493827158,
+              "luma_ge250_percent": 0.0
+            }
+          },
+          {
+            "gamma": 0.7499999999999998,
+            "coefficient": 0.17044156789779663,
+            "sampled_measurements": {
+              "width": 480,
+              "height": 270,
+              "mean_luma_0_255": 41.00002459259259,
+              "luma_lt16_percent": 15.793981481481481,
+              "luma_ge250_percent": 0.0
+            }
+          },
+          {
+            "gamma": 0.6999999999999997,
+            "coefficient": 0.15147417783737183,
+            "sampled_measurements": {
+              "width": 480,
+              "height": 270,
+              "mean_luma_0_255": 40.999979027777776,
+              "luma_lt16_percent": 14.128858024691358,
+              "luma_ge250_percent": 0.0
+            }
+          }
+        ]
+      },
+      "measurements": {
+        "width": 1920,
+        "height": 1080,
+        "mean_luma_0_255": 40.99997651938657,
+        "luma_lt16_percent": 14.072337962962964,
+        "luma_ge250_percent": 0.0
+      },
+      "luminance_targets_pass": true,
+      "registration": {
+        "lamp_shade": {
+          "dx": -1,
+          "dy": -1,
+          "score": 0.9412
+        },
+        "window_frame": {
+          "dx": -1,
+          "dy": -1,
+          "score": 0.884
+        },
+        "platform_edge_near": {
+          "dx": -1,
+          "dy": 0,
+          "score": 0.8011
+        },
+        "platform_edge_mid": {
+          "dx": -1,
+          "dy": 0,
+          "score": 0.8269
+        },
+        "platform_tip": {
+          "dx": -1,
+          "dy": -1,
+          "score": 0.8247
+        },
+        "rail_near_left": {
+          "dx": -1,
+          "dy": 0,
+          "score": 0.941
+        },
+        "rail_near_right": {
+          "dx": -1,
+          "dy": 0,
+          "score": 0.9232
+        },
+        "rail_curve": {
+          "dx": 0,
+          "dy": 0,
+          "score": 0.896
+        },
+        "shelter_left_post": {
+          "dx": -1,
+          "dy": -1,
+          "score": 0.8292
+        },
+        "shelter_entry_post": {
+          "dx": -1,
+          "dy": -1,
+          "score": 0.8635
+        },
+        "shelter_window_post": {
+          "dx": -1,
+          "dy": -1,
+          "score": 0.8852
+        }
+      },
+      "registration_status": "pending_user_permission_for_position_correction",
+      "visual_review": {
+        "entrance_sign_returned": false,
+        "findings": [
+          "入口上部を拡大確認：札・文字の復活なし。",
+          "ホーム灯1個と待合室の窓1個を確認。その他の禁止物の明白な追加は目視で見当たらない。"
+        ],
+        "review_type": "visual inspection of full frame and enlarged entrance crop; not exhaustive object detection",
+        "checked_at": "2026-10-19T01:34:30.453459+00:00"
+      },
+      "processed_at": "2026-10-19T01:32:41.853343+00:00"
+    },
+    {
+      "id": "scene4",
+      "file": "bgm/WAVE11_雪の無人駅/画像/wave11_04_夜更けの雪明かり.png",
+      "sha256": "394c0a82e1978d39d31ae9751c0bcf0acd1035c8eb79a475325efed86c5ffb86",
+      "bytes": 2683511,
+      "generated_at": "2026-10-19T01:30:28.695Z",
+      "generation_time_basis": "local tool completion timestamp; provider creation timestamp unavailable",
+      "generation_call": {
+        "started_at": "2026-10-19T01:30:08.742Z",
+        "completed_at": "2026-10-19T01:30:28.695Z"
+      },
+      "generation_method": "built-in image_gen edit; exact current sign-removed scene3 path as referenced_image_paths; one edit call per scene; no from-scratch generation",
+      "edit_source": {
+        "file": "bgm/WAVE11_雪の無人駅/画像/wave11_03_雪の止んだ夜.png",
+        "sha256": "ba30d779b2ec8afcf4c7e5ac4ef5b9d59df65ffc904c576ea8ccb4af26f100e0"
+      },
+      "prompt": "Edit the supplied scene 3 image. Keep the platform, the waiting shelter, the platform lamp, the shelter window, the track, every cedar, the mountain ridges, the lying snow and the camera position EXACTLY as they are, pixel for pixel. Do not add, remove or move any light. Change only the light and the atmosphere. It is deep night: no snow is falling, the overcast sky is very dark, and the snow itself seems to hold a faint cool glow (yukiakari) so the ground stays softly readable. The shelter window has dimmed to a low glow, while the platform lamp still casts its small warm pool. A very thin, low haze lies far away at the foot of the mountains. The far ridges must remain visible as soft silhouettes. Do not add a moon, stars, people, footprints, animals, birds, a train, text, other lights, bokeh balls, lens flare or light rays.",
+      "prompt_sha256": "bb03fe3b334898a01cc4b48b2334aecdef9f32e621a9952032566c92654ad685",
+      "original": {
+        "file": "bgm/WAVE11_雪の無人駅/画像/生成直後/wave11_04_夜更けの雪明かり.png",
+        "sha256": "61dc3413383cab6a71e9c8a25bed4d981945bceaf9e928907855462efa526003",
+        "measurements": {
+          "width": 1672,
+          "height": 941,
+          "mean_luma_0_255": 32.0324022654816,
+          "luma_lt16_percent": 32.10883514941349,
+          "luma_ge250_percent": 0.0
+        },
+        "generated_at": "2026-10-19T01:30:28.695Z",
+        "bytes": 2137530,
+        "untouched_generated_bytes": true,
+        "exposure_multiplier": 1.0,
+        "registration_after_1920x1080_resize": {
+          "lamp_shade": {
+            "dx": -1,
+            "dy": 0,
+            "score": 0.8918
+          },
+          "window_frame": {
+            "dx": -1,
+            "dy": 0,
+            "score": 0.8749
+          },
+          "platform_edge_near": {
+            "dx": -1,
+            "dy": 0,
+            "score": 0.8052
+          },
+          "platform_edge_mid": {
+            "dx": -1,
+            "dy": 0,
+            "score": 0.827
+          },
+          "platform_tip": {
+            "dx": 0,
+            "dy": 0,
+            "score": 0.8845
+          },
+          "rail_near_left": {
+            "dx": 0,
+            "dy": 0,
+            "score": 0.9438
+          },
+          "rail_near_right": {
+            "dx": -1,
+            "dy": 0,
+            "score": 0.8724
+          },
+          "rail_curve": {
+            "dx": 0,
+            "dy": 0,
+            "score": 0.9509
+          },
+          "shelter_left_post": {
+            "dx": -1,
+            "dy": 0,
+            "score": 0.796
+          },
+          "shelter_entry_post": {
+            "dx": -1,
+            "dy": 0,
+            "score": 0.8414
+          },
+          "shelter_window_post": {
+            "dx": -1,
+            "dy": 0,
+            "score": 0.8391
+          }
+        }
+      },
+      "intermediate_versions": [
+        {
+          "file": "bgm/WAVE11_雪の無人駅/画像/生成直後/wave11_04_夜更けの雪明かり_露出調整_位置補正前.png",
+          "sha256": "394c0a82e1978d39d31ae9751c0bcf0acd1035c8eb79a475325efed86c5ffb86",
+          "measurements": {
+            "width": 1920,
+            "height": 1080,
+            "mean_luma_0_255": 35.000034213541674,
+            "luma_lt16_percent": 19.281635802469136,
+            "luma_ge250_percent": 0.0
+          },
+          "created_at": "2026-10-19T01:32:47.275620+00:00",
+          "bytes": 2683511,
+          "status": "preserved before optional position correction",
+          "exposure": {
+            "type": "luminance_dependent_linear_RGB_gain",
+            "global_coefficient": 0.44290751218795776,
+            "gamma": 0.7499999999999998,
+            "formula": "Y_linear=0.2126 R_linear+0.7152 G_linear+0.0722 B_linear; multiplier=0.44290751218795776*max(Y_linear,0.000001)^(-0.25000000000000022); RGB_linear_out=RGB_linear_in*multiplier; IEC sRGB encode, round, clamp",
+            "multiplier_min": 0.4641585337564135,
+            "multiplier_max": 14.005965313127374,
+            "multiplier_percentiles_1_50_99": [
+              0.7149441566895288,
+              1.4433427707950306,
+              14.005965313127374
+            ]
+          },
+          "registration": {
+            "lamp_shade": {
+              "dx": -1,
+              "dy": 0,
+              "score": 0.8821
+            },
+            "window_frame": {
+              "dx": -1,
+              "dy": 0,
+              "score": 0.8644
+            },
+            "platform_edge_near": {
+              "dx": -1,
+              "dy": 0,
+              "score": 0.8072
+            },
+            "platform_edge_mid": {
+              "dx": -1,
+              "dy": 0,
+              "score": 0.8169
+            },
+            "platform_tip": {
+              "dx": 0,
+              "dy": 0,
+              "score": 0.8595
+            },
+            "rail_near_left": {
+              "dx": 0,
+              "dy": 0,
+              "score": 0.9378
+            },
+            "rail_near_right": {
+              "dx": -1,
+              "dy": 0,
+              "score": 0.8722
+            },
+            "rail_curve": {
+              "dx": 0,
+              "dy": 0,
+              "score": 0.9509
+            },
+            "shelter_left_post": {
+              "dx": -1,
+              "dy": 0,
+              "score": 0.7963
+            },
+            "shelter_entry_post": {
+              "dx": -1,
+              "dy": 0,
+              "score": 0.8448
+            },
+            "shelter_window_post": {
+              "dx": -1,
+              "dy": 0,
+              "score": 0.84
+            }
+          }
+        }
+      ],
+      "resize": {
+        "from": [
+          1672,
+          941
+        ],
+        "to": [
+          1920,
+          1080
+        ],
+        "method": "Pillow Lanczos, full-frame resize without crop, before exposure"
+      },
+      "exposure": {
+        "type": "luminance_dependent_linear_RGB_gain",
+        "global_coefficient": 0.44290751218795776,
+        "gamma": 0.7499999999999998,
+        "formula": "Y_linear=0.2126 R_linear+0.7152 G_linear+0.0722 B_linear; multiplier=0.44290751218795776*max(Y_linear,0.000001)^(-0.25000000000000022); RGB_linear_out=RGB_linear_in*multiplier; IEC sRGB encode, round, clamp",
+        "multiplier_min": 0.4641585337564135,
+        "multiplier_max": 14.005965313127374,
+        "multiplier_percentiles_1_50_99": [
+          0.7149441566895288,
+          1.4433427707950306,
+          14.005965313127374
+        ]
+      },
+      "exposure_parameter_search": {
+        "basis": "Every fourth pixel in both axes; numeric candidates only, no rendered discarded trial files",
+        "candidates": [
+          {
+            "gamma": 1.0,
+            "coefficient": 1.1702242493629456,
+            "sampled_measurements": {
+              "width": 480,
+              "height": 270,
+              "mean_luma_0_255": 34.9971030324074,
+              "luma_lt16_percent": 27.947530864197528,
+              "luma_ge250_percent": 0.0
+            }
+          },
+          {
+            "gamma": 0.95,
+            "coefficient": 0.9693863987922668,
+            "sampled_measurements": {
+              "width": 480,
+              "height": 270,
+              "mean_luma_0_255": 35.0000243117284,
+              "luma_lt16_percent": 26.067129629629633,
+              "luma_ge250_percent": 0.0
+            }
+          },
+          {
+            "gamma": 0.8999999999999999,
+            "coefficient": 0.7988759875297546,
+            "sampled_measurements": {
+              "width": 480,
+              "height": 270,
+              "mean_luma_0_255": 34.999910125,
+              "luma_lt16_percent": 24.51851851851852,
+              "luma_ge250_percent": 0.0
+            }
+          },
+          {
+            "gamma": 0.8499999999999999,
+            "coefficient": 0.6576815247535706,
+            "sampled_measurements": {
+              "width": 480,
+              "height": 270,
+              "mean_luma_0_255": 34.999990925925935,
+              "luma_lt16_percent": 22.74922839506173,
+              "luma_ge250_percent": 0.0
+            }
+          },
+          {
+            "gamma": 0.7999999999999998,
+            "coefficient": 0.5411681532859802,
+            "sampled_measurements": {
+              "width": 480,
+              "height": 270,
+              "mean_luma_0_255": 35.0000070632716,
+              "luma_lt16_percent": 21.161265432098766,
+              "luma_ge250_percent": 0.0
+            }
+          },
+          {
+            "gamma": 0.7499999999999998,
+            "coefficient": 0.4443410038948059,
+            "sampled_measurements": {
+              "width": 480,
+              "height": 270,
+              "mean_luma_0_255": 35.00000697685185,
+              "luma_lt16_percent": 19.27314814814815,
+              "luma_ge250_percent": 0.0
+            }
+          }
+        ]
+      },
+      "measurements": {
+        "width": 1920,
+        "height": 1080,
+        "mean_luma_0_255": 35.000034213541674,
+        "luma_lt16_percent": 19.281635802469136,
+        "luma_ge250_percent": 0.0
+      },
+      "luminance_targets_pass": true,
+      "registration": {
+        "lamp_shade": {
+          "dx": -1,
+          "dy": 0,
+          "score": 0.8821
+        },
+        "window_frame": {
+          "dx": -1,
+          "dy": 0,
+          "score": 0.8644
+        },
+        "platform_edge_near": {
+          "dx": -1,
+          "dy": 0,
+          "score": 0.8072
+        },
+        "platform_edge_mid": {
+          "dx": -1,
+          "dy": 0,
+          "score": 0.8169
+        },
+        "platform_tip": {
+          "dx": 0,
+          "dy": 0,
+          "score": 0.8595
+        },
+        "rail_near_left": {
+          "dx": 0,
+          "dy": 0,
+          "score": 0.9378
+        },
+        "rail_near_right": {
+          "dx": -1,
+          "dy": 0,
+          "score": 0.8722
+        },
+        "rail_curve": {
+          "dx": 0,
+          "dy": 0,
+          "score": 0.9509
+        },
+        "shelter_left_post": {
+          "dx": -1,
+          "dy": 0,
+          "score": 0.7963
+        },
+        "shelter_entry_post": {
+          "dx": -1,
+          "dy": 0,
+          "score": 0.8448
+        },
+        "shelter_window_post": {
+          "dx": -1,
+          "dy": 0,
+          "score": 0.84
+        }
+      },
+      "registration_status": "pending_user_permission_for_position_correction",
+      "visual_review": {
+        "entrance_sign_returned": false,
+        "findings": [
+          "入口上部を拡大確認：札・文字の復活なし。",
+          "ホーム灯1個と待合室の窓1個を確認。その他の禁止物の明白な追加は目視で見当たらない。"
+        ],
+        "review_type": "visual inspection of full frame and enlarged entrance crop; not exhaustive object detection",
+        "checked_at": "2026-10-19T01:34:30.453459+00:00"
+      },
+      "processed_at": "2026-10-19T01:32:47.275620+00:00"
+    },
+    {
+      "id": "scene5",
+      "file": "bgm/WAVE11_雪の無人駅/画像/wave11_05_未明の青.png",
+      "sha256": "25f4dccd271aa35859c87812d8b204aab0347106c55942378373002d59939761",
+      "bytes": 2599052,
+      "generated_at": "2026-10-19T01:31:01.286Z",
+      "generation_time_basis": "local tool completion timestamp; provider creation timestamp unavailable",
+      "generation_call": {
+        "started_at": "2026-10-19T01:30:37.645Z",
+        "completed_at": "2026-10-19T01:31:01.286Z"
+      },
+      "generation_method": "built-in image_gen edit; exact current sign-removed scene3 path as referenced_image_paths; one edit call per scene; no from-scratch generation",
+      "edit_source": {
+        "file": "bgm/WAVE11_雪の無人駅/画像/wave11_03_雪の止んだ夜.png",
+        "sha256": "ba30d779b2ec8afcf4c7e5ac4ef5b9d59df65ffc904c576ea8ccb4af26f100e0"
+      },
+      "prompt": "Edit the supplied scene 3 image. Keep the platform, the waiting shelter, the platform lamp, the shelter window, the track, every cedar, the mountain ridges, the lying snow and the camera position EXACTLY as they are, pixel for pixel. Do not add, remove or move any light. Change only the light and the atmosphere. It is the stillest hour before dawn: no snow is falling, the sky above the ridges is the first very dark indigo of pre-dawn, the snow everywhere takes a deep cool blue tone, the shelter window is almost dark with only a faint ember-like glow, and the platform lamp glows low and small. This is the darkest image of the volume, but it must NOT be crushed: the snow drifts, the platform edge, the shelter timbers and the cedar boughs must stay legible. No large featureless black areas. Do not add a moon, stars, a visible sun, people, footprints, animals, birds, a train, text, other lights, bokeh balls, lens flare or light rays.",
+      "prompt_sha256": "237c4a622f00f3daaa529dbed7e67151d4a70c8b3926527dd5c07297d338d32a",
+      "original": {
+        "file": "bgm/WAVE11_雪の無人駅/画像/生成直後/wave11_05_未明の青.png",
+        "sha256": "c5654a285a55ff9c6f96d2667856717e3587210aebec0c35f35873a0591b901f",
+        "measurements": {
+          "width": 1672,
+          "height": 941,
+          "mean_luma_0_255": 29.940085741779324,
+          "luma_lt16_percent": 30.03193182453768,
+          "luma_ge250_percent": 0.0
+        },
+        "generated_at": "2026-10-19T01:31:01.286Z",
+        "bytes": 2087781,
+        "untouched_generated_bytes": true,
+        "exposure_multiplier": 1.0,
+        "registration_after_1920x1080_resize": {
+          "lamp_shade": {
+            "dx": 0,
+            "dy": 0,
+            "score": 0.694
+          },
+          "window_frame": {
+            "dx": 0,
+            "dy": 0,
+            "score": 0.7805
+          },
+          "platform_edge_near": {
+            "dx": 0,
+            "dy": 0,
+            "score": 0.8005
+          },
+          "platform_edge_mid": {
+            "dx": 0,
+            "dy": 0,
+            "score": 0.8421
+          },
+          "platform_tip": {
+            "dx": 0,
+            "dy": 0,
+            "score": 0.8304
+          },
+          "rail_near_left": {
+            "dx": 0,
+            "dy": 0,
+            "score": 0.9453
+          },
+          "rail_near_right": {
+            "dx": -1,
+            "dy": 0,
+            "score": 0.8986
+          },
+          "rail_curve": {
+            "dx": 1,
+            "dy": 0,
+            "score": 0.9232
+          },
+          "shelter_left_post": {
+            "dx": 0,
+            "dy": -1,
+            "score": 0.7535
+          },
+          "shelter_entry_post": {
+            "dx": 0,
+            "dy": 0,
+            "score": 0.8146
+          },
+          "shelter_window_post": {
+            "dx": 0,
+            "dy": -1,
+            "score": 0.8408
+          }
+        }
+      },
+      "intermediate_versions": [
+        {
+          "file": "bgm/WAVE11_雪の無人駅/画像/生成直後/wave11_05_未明の青_露出調整_位置補正前.png",
+          "sha256": "25f4dccd271aa35859c87812d8b204aab0347106c55942378373002d59939761",
+          "measurements": {
+            "width": 1920,
+            "height": 1080,
+            "mean_luma_0_255": 30.99918029398146,
+            "luma_lt16_percent": 24.006317515432098,
+            "luma_ge250_percent": 0.0
+          },
+          "created_at": "2026-10-19T01:32:53.096819+00:00",
+          "bytes": 2599052,
+          "status": "preserved before optional position correction",
+          "exposure": {
+            "type": "luminance_dependent_linear_RGB_gain",
+            "global_coefficient": 0.4770353436470032,
+            "gamma": 0.7999999999999998,
+            "formula": "Y_linear=0.2126 R_linear+0.7152 G_linear+0.0722 B_linear; multiplier=0.47703534364700317*max(Y_linear,0.000001)^(-0.20000000000000018); RGB_linear_out=RGB_linear_in*multiplier; IEC sRGB encode, round, clamp",
+            "multiplier_min": 0.5579447330883877,
+            "multiplier_max": 7.560500687094851,
+            "multiplier_percentiles_1_50_99": [
+              0.8619907401897923,
+              1.078385928320537,
+              7.560500687094851
+            ]
+          },
+          "registration": {
+            "lamp_shade": {
+              "dx": 0,
+              "dy": 0,
+              "score": 0.6944
+            },
+            "window_frame": {
+              "dx": 0,
+              "dy": 0,
+              "score": 0.7717
+            },
+            "platform_edge_near": {
+              "dx": 0,
+              "dy": 0,
+              "score": 0.8124
+            },
+            "platform_edge_mid": {
+              "dx": 0,
+              "dy": 0,
+              "score": 0.8141
+            },
+            "platform_tip": {
+              "dx": 0,
+              "dy": 0,
+              "score": 0.8145
+            },
+            "rail_near_left": {
+              "dx": 0,
+              "dy": 0,
+              "score": 0.9403
+            },
+            "rail_near_right": {
+              "dx": -1,
+              "dy": 0,
+              "score": 0.8972
+            },
+            "rail_curve": {
+              "dx": 1,
+              "dy": 0,
+              "score": 0.9228
+            },
+            "shelter_left_post": {
+              "dx": 0,
+              "dy": -1,
+              "score": 0.7611
+            },
+            "shelter_entry_post": {
+              "dx": 0,
+              "dy": 0,
+              "score": 0.8204
+            },
+            "shelter_window_post": {
+              "dx": 0,
+              "dy": 0,
+              "score": 0.8515
+            }
+          }
+        }
+      ],
+      "resize": {
+        "from": [
+          1672,
+          941
+        ],
+        "to": [
+          1920,
+          1080
+        ],
+        "method": "Pillow Lanczos, full-frame resize without crop, before exposure"
+      },
+      "exposure": {
+        "type": "luminance_dependent_linear_RGB_gain",
+        "global_coefficient": 0.4770353436470032,
+        "gamma": 0.7999999999999998,
+        "formula": "Y_linear=0.2126 R_linear+0.7152 G_linear+0.0722 B_linear; multiplier=0.47703534364700317*max(Y_linear,0.000001)^(-0.20000000000000018); RGB_linear_out=RGB_linear_in*multiplier; IEC sRGB encode, round, clamp",
+        "multiplier_min": 0.5579447330883877,
+        "multiplier_max": 7.560500687094851,
+        "multiplier_percentiles_1_50_99": [
+          0.8619907401897923,
+          1.078385928320537,
+          7.560500687094851
+        ]
+      },
+      "exposure_parameter_search": {
+        "basis": "Every fourth pixel in both axes; numeric candidates only, no rendered discarded trial files",
+        "candidates": [
+          {
+            "gamma": 1.0,
+            "coefficient": 1.0604235529899597,
+            "sampled_measurements": {
+              "width": 480,
+              "height": 270,
+              "mean_luma_0_255": 31.000183246913583,
+              "luma_lt16_percent": 28.854166666666664,
+              "luma_ge250_percent": 0.0
+            }
+          },
+          {
+            "gamma": 0.95,
+            "coefficient": 0.8686003088951111,
+            "sampled_measurements": {
+              "width": 480,
+              "height": 270,
+              "mean_luma_0_255": 30.99999278240741,
+              "luma_lt16_percent": 27.58101851851852,
+              "luma_ge250_percent": 0.0
+            }
+          },
+          {
+            "gamma": 0.8999999999999999,
+            "coefficient": 0.7139024138450623,
+            "sampled_measurements": {
+              "width": 480,
+              "height": 270,
+              "mean_luma_0_255": 31.000005478395064,
+              "luma_lt16_percent": 26.66898148148148,
+              "luma_ge250_percent": 0.0
+            }
+          },
+          {
+            "gamma": 0.8499999999999999,
+            "coefficient": 0.5843278765678406,
+            "sampled_measurements": {
+              "width": 480,
+              "height": 270,
+              "mean_luma_0_255": 31.000003669753085,
+              "luma_lt16_percent": 25.654320987654323,
+              "luma_ge250_percent": 0.0
+            }
+          },
+          {
+            "gamma": 0.7999999999999998,
+            "coefficient": 0.47742635011672974,
+            "sampled_measurements": {
+              "width": 480,
+              "height": 270,
+              "mean_luma_0_255": 30.999873078703704,
+              "luma_lt16_percent": 23.986882716049383,
+              "luma_ge250_percent": 0.0
+            }
+          }
+        ]
+      },
+      "measurements": {
+        "width": 1920,
+        "height": 1080,
+        "mean_luma_0_255": 30.99918029398146,
+        "luma_lt16_percent": 24.006317515432098,
+        "luma_ge250_percent": 0.0
+      },
+      "luminance_targets_pass": true,
+      "registration": {
+        "lamp_shade": {
+          "dx": 0,
+          "dy": 0,
+          "score": 0.6944
+        },
+        "window_frame": {
+          "dx": 0,
+          "dy": 0,
+          "score": 0.7717
+        },
+        "platform_edge_near": {
+          "dx": 0,
+          "dy": 0,
+          "score": 0.8124
+        },
+        "platform_edge_mid": {
+          "dx": 0,
+          "dy": 0,
+          "score": 0.8141
+        },
+        "platform_tip": {
+          "dx": 0,
+          "dy": 0,
+          "score": 0.8145
+        },
+        "rail_near_left": {
+          "dx": 0,
+          "dy": 0,
+          "score": 0.9403
+        },
+        "rail_near_right": {
+          "dx": -1,
+          "dy": 0,
+          "score": 0.8972
+        },
+        "rail_curve": {
+          "dx": 1,
+          "dy": 0,
+          "score": 0.9228
+        },
+        "shelter_left_post": {
+          "dx": 0,
+          "dy": -1,
+          "score": 0.7611
+        },
+        "shelter_entry_post": {
+          "dx": 0,
+          "dy": 0,
+          "score": 0.8204
+        },
+        "shelter_window_post": {
+          "dx": 0,
+          "dy": 0,
+          "score": 0.8515
+        }
+      },
+      "registration_status": "lamp_and_window_zero_integer_offset; other sampled features within 1px per axis",
+      "visual_review": {
+        "entrance_sign_returned": false,
+        "findings": [
+          "入口上部を拡大確認：札・文字の復活なし。",
+          "ホーム灯1個と待合室の窓1個を確認。その他の禁止物の明白な追加は目視で見当たらない。"
+        ],
+        "review_type": "visual inspection of full frame and enlarged entrance crop; not exhaustive object detection",
+        "checked_at": "2026-10-19T01:34:30.453459+00:00"
+      },
+      "processed_at": "2026-10-19T01:32:53.096819+00:00"
     }
   ],
   "sharing": {
     "full_resolution_and_raw": "Local-only, not committed, following AGENTS.md high-resolution-asset rule. Saved at explicitly requested repository-local paths.",
-    "git_scope": "This manifest and two 1280x720 JPEG previews only. Full-resolution SHA-256 and measurements refer to PNG files, not previews."
+    "git_scope": "User explicitly requested no commit or push. All outputs and this manifest remain local; Claude handles sharing.",
+    "previous_git_scope": "This manifest and two 1280x720 JPEG previews only. Full-resolution SHA-256 and measurements refer to PNG files, not previews."
+  },
+  "scope_previous": "Only scene 3 master and thumbnail generated. Scenes 1, 2, 4, 5 not generated. Audio and other volumes/scripts untouched.",
+  "updated_at": "2026-10-19T01:34:30.453459+00:00",
+  "registration_measurement_method": {
+    "method": "Integer translation search, OpenCV TM_CCOEFF_NORMED on gradient magnitude of Gaussian(sigma=0.8) log(1+encoded-sRGB Rec.709 luma); Sobel 3x3; search +/-12 pixels; each ROI independently; no subpixel rounding",
+    "coordinates": "1920x1080, origin top left; dx positive right, dy positive down; ROI [x0,y0,x1,y1), half-open",
+    "rois": {
+      "lamp_shade": [
+        1130,
+        310,
+        1190,
+        357
+      ],
+      "window_frame": [
+        1515,
+        465,
+        1635,
+        586
+      ],
+      "platform_edge_near": [
+        1410,
+        780,
+        1600,
+        850
+      ],
+      "platform_edge_mid": [
+        990,
+        686,
+        1150,
+        735
+      ],
+      "platform_tip": [
+        792,
+        646,
+        882,
+        695
+      ],
+      "rail_near_left": [
+        830,
+        880,
+        990,
+        1030
+      ],
+      "rail_near_right": [
+        1190,
+        968,
+        1370,
+        1060
+      ],
+      "rail_curve": [
+        580,
+        629,
+        704,
+        703
+      ],
+      "shelter_left_post": [
+        1285,
+        475,
+        1315,
+        666
+      ],
+      "shelter_entry_post": [
+        1348,
+        470,
+        1380,
+        670
+      ],
+      "shelter_window_post": [
+        1490,
+        440,
+        1520,
+        673
+      ]
+    },
+    "limitation": "Local best-match translations, not proof of pixel-identical texture or shape. Illumination and generated detail changes affect scores. Lamp/window strict target: dx=dy=0; other geometry tolerance: a few pixels."
+  },
+  "protected_files_verification": {
+    "checked_at": "2026-10-19T01:34:30.453459+00:00",
+    "files": [
+      {
+        "file": "bgm/WAVE11_雪の無人駅/wave11_サムネ_16x9.png",
+        "sha256_before": "94ddeee89915a443f5e963baabcf2bd6f2b377101f7890d6ca5fcd56c362fc9b",
+        "sha256_after": "471fc0172b0f6088e908423d42840805a914064ae6c75987ec108ea9a2d48f23",
+        "unchanged": false,
+        "modified_by_this_task": false,
+        "note": "別処理による変更を観測。本タスクはこのファイルを読み取りのみ。"
+      },
+      {
+        "file": "bgm/WAVE11_雪の無人駅/登録ずれを測る.py",
+        "sha256_before": "6c61a9d40f1fb594dbf31e3bbc8540edc6ece947ebc0123e05a9702af061cb2f",
+        "sha256_after": "6c61a9d40f1fb594dbf31e3bbc8540edc6ece947ebc0123e05a9702af061cb2f",
+        "unchanged": true,
+        "modified_by_this_task": false,
+        "note": "変更なし"
+      },
+      {
+        "file": "bgm/WAVE11_雪の無人駅/試作30分.log",
+        "sha256_before": "6be6828316fa9cdb9d90e4cf0d83c0b0455792bd095a6ad40da1cfd4795c63e3",
+        "sha256_after": "6be6828316fa9cdb9d90e4cf0d83c0b0455792bd095a6ad40da1cfd4795c63e3",
+        "unchanged": true,
+        "modified_by_this_task": false,
+        "note": "変更なし"
+      },
+      {
+        "file": "bgm/WAVE11_雪の無人駅/codex依頼_画像2.log",
+        "sha256_before": "7a16ad5d50d0374ef059fe43a684abdd291728163039f39417b562c347fa7fb8",
+        "sha256_after": "7a16ad5d50d0374ef059fe43a684abdd291728163039f39417b562c347fa7fb8",
+        "unchanged": true,
+        "modified_by_this_task": false,
+        "note": "変更なし"
+      },
+      {
+        "file": "bgm/WAVE11_雪の無人駅/画像プロンプト.md",
+        "sha256_before": "7f83963bce75076ec9000af7e4d9bf6ce9c0b6460729ca0eeeb6603081761a41",
+        "sha256_after": "7f83963bce75076ec9000af7e4d9bf6ce9c0b6460729ca0eeeb6603081761a41",
+        "unchanged": true,
+        "modified_by_this_task": false,
+        "note": "変更なし"
+      },
+      {
+        "file": "bgm/WAVE11_雪の無人駅/テーマ設計と制作記録.md",
+        "sha256_before": "a92dc01982bfefebb120ba85cbdb353f3c0b3ab34ca3ea21baebee499c78811c",
+        "sha256_after": "a92dc01982bfefebb120ba85cbdb353f3c0b3ab34ca3ea21baebee499c78811c",
+        "unchanged": true,
+        "modified_by_this_task": false,
+        "note": "変更なし"
+      },
+      {
+        "file": "bgm/WAVE11_雪の無人駅/codex依頼_画像1.log",
+        "sha256_before": "f986a0e11131c59bd5368a8dc81845bd3820a8a9b29b556450ab7d0e7c56db6c",
+        "sha256_after": "f986a0e11131c59bd5368a8dc81845bd3820a8a9b29b556450ab7d0e7c56db6c",
+        "unchanged": true,
+        "modified_by_this_task": false,
+        "note": "変更なし"
+      },
+      {
+        "file": "bgm/WAVE11_雪の無人駅/本番3時間.log",
+        "sha256_before": "4101bdf0c4ba630ff60bf37a77357339b0fb4d49661bbab490ea4aa9330330ad",
+        "sha256_after": "94db25a870353bc81c53c1a44d4c55b4e3386c37808c91528f4655eeda5480ef",
+        "unchanged": false,
+        "modified_by_this_task": false,
+        "note": "別処理による変更を観測。本タスクはこのファイルを読み取りのみ。"
+      },
+      {
+        "file": "bgm/WAVE11_雪の無人駅/ショート生成.py",
+        "sha256_before": "f263f92fb5ca156482d5b7b3649ab7a0ff5c544232ec3ca4f9363a38c78dc1ea",
+        "sha256_after": "f263f92fb5ca156482d5b7b3649ab7a0ff5c544232ec3ca4f9363a38c78dc1ea",
+        "unchanged": true,
+        "modified_by_this_task": false,
+        "note": "変更なし"
+      },
+      {
+        "file": "bgm/WAVE11_雪の無人駅/画像/wave11_03_雪の止んだ夜.png",
+        "sha256_before": "ba30d779b2ec8afcf4c7e5ac4ef5b9d59df65ffc904c576ea8ccb4af26f100e0",
+        "sha256_after": "ba30d779b2ec8afcf4c7e5ac4ef5b9d59df65ffc904c576ea8ccb4af26f100e0",
+        "unchanged": true,
+        "modified_by_this_task": false,
+        "note": "変更なし"
+      },
+      {
+        "file": "bgm/WAVE11_雪の無人駅/画像/wave11_サムネ_v1.png",
+        "sha256_before": "8af13d3712d197e87f1170c593d8fbe8f9f1d6d4331f73d55c6b586431b2f1bf",
+        "sha256_after": "8af13d3712d197e87f1170c593d8fbe8f9f1d6d4331f73d55c6b586431b2f1bf",
+        "unchanged": true,
+        "modified_by_this_task": false,
+        "note": "変更なし"
+      },
+      {
+        "file": "bgm/WAVE11_雪の無人駅/画像/生成直後/wave11_03_雪の止んだ夜.png",
+        "sha256_before": "cdf4e26bd9e2359aef112663c9d8d3504d3a96ce55d1c18cb8bf3a18a2d051d8",
+        "sha256_after": "cdf4e26bd9e2359aef112663c9d8d3504d3a96ce55d1c18cb8bf3a18a2d051d8",
+        "unchanged": true,
+        "modified_by_this_task": false,
+        "note": "変更なし"
+      },
+      {
+        "file": "bgm/WAVE11_雪の無人駅/画像/生成直後/wave11_サムネ_v1.png",
+        "sha256_before": "5bdc1eb5dc82da426e400ba3203a5bf9a1b0082447bd0bfe335dfdd858b1eb4b",
+        "sha256_after": "5bdc1eb5dc82da426e400ba3203a5bf9a1b0082447bd0bfe335dfdd858b1eb4b",
+        "unchanged": true,
+        "modified_by_this_task": false,
+        "note": "変更なし"
+      },
+      {
+        "file": "bgm/WAVE11_雪の無人駅/画像/生成直後/wave11_03_雪の止んだ夜_札あり_納品版.png",
+        "sha256_before": "4e4b7764311bdc2f8d37e83aae50d3ee9cbb4c444941612bdadb0cf0377b86af",
+        "sha256_after": "4e4b7764311bdc2f8d37e83aae50d3ee9cbb4c444941612bdadb0cf0377b86af",
+        "unchanged": true,
+        "modified_by_this_task": false,
+        "note": "変更なし"
+      },
+      {
+        "file": "bgm/WAVE11_雪の無人駅/本編音声v2/_full_連結.flac",
+        "sha256_before": "fa832d960a1882dd0546a71940871429a768e790f47df1b2a5dbe6eae8dd2049",
+        "sha256_after": "fa832d960a1882dd0546a71940871429a768e790f47df1b2a5dbe6eae8dd2049",
+        "unchanged": true,
+        "modified_by_this_task": false,
+        "note": "変更なし"
+      },
+      {
+        "file": "bgm/WAVE11_雪の無人駅/本編音声v2/30min_単調さ検査.json",
+        "sha256_before": "892e5d80e9676832331c690d8ce662026ee4d7f871157c62f4127a732b88b1e8",
+        "sha256_after": "892e5d80e9676832331c690d8ce662026ee4d7f871157c62f4127a732b88b1e8",
+        "unchanged": true,
+        "modified_by_this_task": false,
+        "note": "変更なし"
+      },
+      {
+        "file": "bgm/WAVE11_雪の無人駅/本編音声v2/_30min_連結.flac",
+        "sha256_before": "b0561504529d18d6c7115a0153c01dde8cc79e5b15eba54fb6679663eb56f4e4",
+        "sha256_after": "b0561504529d18d6c7115a0153c01dde8cc79e5b15eba54fb6679663eb56f4e4",
+        "unchanged": true,
+        "modified_by_this_task": false,
+        "note": "変更なし"
+      },
+      {
+        "file": "bgm/WAVE11_雪の無人駅/貼り付け用/05_タグ.txt",
+        "sha256_before": "fa4bd4c8f8b659531479e4121fa1a54f9a7f0998618d329f89030e05282b5c9f",
+        "sha256_after": "fa4bd4c8f8b659531479e4121fa1a54f9a7f0998618d329f89030e05282b5c9f",
+        "unchanged": true,
+        "modified_by_this_task": false,
+        "note": "変更なし"
+      },
+      {
+        "file": "bgm/WAVE11_雪の無人駅/貼り付け用/02_タイトル_日本語.txt",
+        "sha256_before": "6d133c70d868ee8d0713d8926ea75e0ae8758828424a2e284d9b34c7ba75acce",
+        "sha256_after": "6d133c70d868ee8d0713d8926ea75e0ae8758828424a2e284d9b34c7ba75acce",
+        "unchanged": true,
+        "modified_by_this_task": false,
+        "note": "変更なし"
+      },
+      {
+        "file": "bgm/WAVE11_雪の無人駅/貼り付け用/01_タイトル_英語.txt",
+        "sha256_before": "b49d96016c3ee559657548a711b38b0131a503e0571a96844934d49c34016d59",
+        "sha256_after": "b49d96016c3ee559657548a711b38b0131a503e0571a96844934d49c34016d59",
+        "unchanged": true,
+        "modified_by_this_task": false,
+        "note": "変更なし"
+      },
+      {
+        "file": "bgm/WAVE11_雪の無人駅/貼り付け用/06_固定コメント.txt",
+        "sha256_before": "9b9493d190c462cf5d71e0a742a5c0b954dc8a1ceef7c55e227f35b39758b929",
+        "sha256_after": "9b9493d190c462cf5d71e0a742a5c0b954dc8a1ceef7c55e227f35b39758b929",
+        "unchanged": true,
+        "modified_by_this_task": false,
+        "note": "変更なし"
+      },
+      {
+        "file": "bgm/WAVE11_雪の無人駅/貼り付け用/00_説明文_これを貼る.txt",
+        "sha256_before": "cd962c5a12b947fbf03b432051d72b6991fa1cc6b02469be5717db73ebe5d5fa",
+        "sha256_after": "cd962c5a12b947fbf03b432051d72b6991fa1cc6b02469be5717db73ebe5d5fa",
+        "unchanged": true,
+        "modified_by_this_task": false,
+        "note": "変更なし"
+      }
+    ]
   }
 }

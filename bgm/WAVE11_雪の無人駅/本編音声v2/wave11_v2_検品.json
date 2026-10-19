@@ -1,0 +1,121 @@
+{
+  "volume": "WAVE11 雪の無人駅",
+  "file": "/Users/ryo/youtube/bgm/WAVE11_雪の無人駅/本編音声v2/wave11_3時間_自前合成_v2.flac",
+  "bytes": 1362562441,
+  "sha256": "7cb6939de1d2d05bf071bcd7ede7ac65e56ce9c5acb04f72cc1954698660cf77",
+  "monotony": {
+    "envelope_std_db": 2.22,
+    "autocorrelation": {
+      "15s": 0.558,
+      "30s": 0.615,
+      "60s": 0.601,
+      "180s": 0.525,
+      "300s": 0.444
+    },
+    "search_limit_seconds": 600.0,
+    "strongest_period_seconds": 25.2,
+    "strongest_period_height": 0.021,
+    "ten_minute_block_spread_db": 5.02,
+    "ten_minute_blocks": 18
+  },
+  "mastering": {
+    "static_gain_db": 12.78,
+    "before": {
+      "input_i": "-30.06",
+      "input_tp": "-15.28",
+      "input_lra": "5.30",
+      "input_thresh": "-40.06",
+      "output_i": "-16.95",
+      "output_tp": "-2.50",
+      "output_lra": "5.20",
+      "output_thresh": "-26.95",
+      "normalization_type": "dynamic",
+      "target_offset": "0.45"
+    },
+    "after": {
+      "input_i": "-17.28",
+      "input_tp": "-2.50",
+      "input_lra": "5.30",
+      "input_thresh": "-27.28",
+      "output_i": "-16.95",
+      "output_tp": "-2.50",
+      "output_lra": "5.20",
+      "output_thresh": "-26.95",
+      "normalization_type": "dynamic",
+      "target_offset": "0.45"
+    }
+  },
+  "beat": [
+    {
+      "position_seconds": 300.0,
+      "left_design_hz": 145.3615,
+      "left_measured_hz": 145.3615,
+      "left_error_hz": -0.0,
+      "left_dbfs": -28.3,
+      "left_separation_db": 70.6,
+      "right_design_hz": 148.2985,
+      "right_measured_hz": 148.2985,
+      "right_error_hz": -0.0,
+      "right_dbfs": -28.3,
+      "right_separation_db": 62.4,
+      "measured_difference_hz": 2.937
+    },
+    {
+      "position_seconds": 2700.0,
+      "left_design_hz": 145.5837,
+      "left_measured_hz": 145.5837,
+      "left_error_hz": -0.0,
+      "left_dbfs": -28.3,
+      "left_separation_db": 55.2,
+      "right_design_hz": 148.0763,
+      "right_measured_hz": 148.0763,
+      "right_error_hz": -0.0,
+      "right_dbfs": -28.3,
+      "right_separation_db": 56.1,
+      "measured_difference_hz": 2.4926
+    },
+    {
+      "position_seconds": 5400.0,
+      "left_design_hz": 145.8337,
+      "left_measured_hz": 145.8337,
+      "left_error_hz": -0.0,
+      "left_dbfs": -28.3,
+      "left_separation_db": 52.9,
+      "right_design_hz": 147.8263,
+      "right_measured_hz": 147.8263,
+      "right_error_hz": -0.0,
+      "right_dbfs": -28.3,
+      "right_separation_db": 52.8,
+      "measured_difference_hz": 1.9926
+    },
+    {
+      "position_seconds": 8100.0,
+      "left_design_hz": 146.0837,
+      "left_measured_hz": 146.0837,
+      "left_error_hz": -0.0,
+      "left_dbfs": -28.3,
+      "left_separation_db": 50.4,
+      "right_design_hz": 147.5763,
+      "right_measured_hz": 147.5763,
+      "right_error_hz": -0.0,
+      "right_dbfs": -28.3,
+      "right_separation_db": 53.2,
+      "measured_difference_hz": 1.4926
+    },
+    {
+      "position_seconds": 10500.0,
+      "left_design_hz": 146.3059,
+      "left_measured_hz": 146.3059,
+      "left_error_hz": -0.0,
+      "left_dbfs": -28.2,
+      "left_separation_db": 40.7,
+      "right_design_hz": 147.3541,
+      "right_measured_hz": 147.3541,
+      "right_error_hz": -0.0,
+      "right_dbfs": -28.2,
+      "right_separation_db": 40.7,
+      "measured_difference_hz": 1.0481
+    }
+  ],
+  "elapsed_seconds": 1367.6
+}

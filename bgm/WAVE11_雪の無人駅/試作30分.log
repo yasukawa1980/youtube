@@ -1,0 +1,21 @@
+WAVE11 雪の無人駅  30分ぶんを作ります
+        0〜    300秒    6.2s
+      300〜    600秒    5.9s
+      600〜    900秒    5.9s
+      900〜   1200秒    5.5s
+     1200〜   1500秒    5.3s
+     1500〜   1800秒    5.4s
+{
+  "envelope_std_db": 1.95,
+  "autocorrelation": {
+    "15s": 0.497,
+    "30s": 0.542,
+    "60s": 0.537
+  },
+  "search_limit_seconds": 180.0,
+  "strongest_period_seconds": 20.0,
+  "strongest_period_height": 0.038,
+  "ten_minute_block_spread_db": 3.18,
+  "ten_minute_blocks": 3
+}
+/Users/ryo/youtube/bgm/WAVE11_雪の無人駅/本編音声v2/30min_単調さ検査.json

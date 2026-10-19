@@ -1,0 +1,49 @@
+genre: waves
+volume: 11
+slug: wave11
+dir: /Users/ryo/youtube/bgm/WAVE11_雪の無人駅
+# ★2026/10/8〜の標準：題字は [用途, 名前]（太い明朝W6はジャンル側で既定オン）。
+#   列車の音・環境音は入っていないので「汽車」「雪の音」とは書かない。
+#   初案「雪の夜に眠る／雪の無人駅」は「雪」が2回続くので、絵の主役（灯り1つ）に替えた。
+title_lines:
+- 灯りひとつで眠る
+- 雪の無人駅
+thumb_sub: 3→1Hz デルタ波 バイノーラルビート
+thumb:
+  sub_family: jp
+  tracking: {title: 4, brand: 16, sub: 2}   # 小見出しの終わりが明るいレール（x≈1000）にかからないよう字間を詰める
+runtime: 3 HOURS
+# ★画題は「初冬の夜、雪深い山あいの単線の無人駅（ホームの灯り1つ・待合室の窓1つ）」。月を出さない巻。
+#   駅はどのラインでも初めて。雪は WAVE05（書院の室内）と Whispers Vol.9「月夜の雪国」にあるが、月なし・屋外の駅で分ける。
+# ★サムネの地は本編と別に起こした専用画（左1/3は手前の雪をかぶった杉の影。168pxの中央値 19.98）。
+background: /Users/ryo/youtube/bgm/WAVE11_雪の無人駅/画像/wave11_サムネ_v1.png
+cta: true
+thumb_layout:
+  brand: 260
+  t1: 370
+  sub: 840
+images:
+- wave11_01_暮れ方の雪.png
+- wave11_02_灯のともる駅.png
+- wave11_03_雪の止んだ夜.png
+- wave11_04_夜更けの雪明かり.png
+- wave11_05_未明の青.png
+scenes:
+- 暮れ方の雪
+- 灯のともる駅
+- 雪の止んだ夜
+- 夜更けの雪明かり
+- 未明の青
+
+video:
+  still: true
+  card: /Users/ryo/youtube/bgm/WAVE05_雪明かりの書院/画像/エンドカード_waves.png
+  xfade: 10
+  supersample: [1920, 1080]
+  zoom_max: 1.0
+  encode: {vcodec: libx264, preset: fast, crf: 18}
+  card_len: 15
+  card_xfade: 2
+
+# ★実際の本編は bgmkit ではなく wavekit/連続合成.py（音）と wavekit/静止本編.py（映像）で作る。
+#   この yaml はサムネ生成と設定の記録のためだけに置いている。
