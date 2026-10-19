@@ -1,0 +1,968 @@
+{
+  "wave06": {
+    "file": "/Volumes/ESD-EPB/BGM/4_Waves of Japan/WAVE06_素材_花明かりの丘/wave06_花明かりの丘_3時間_v2.mp4",
+    "bytes": 1197706541,
+    "sha256": "c1fdf24e1ec9393c2cde73526ea489b6fbe4a75722c3077de1ed2a28dfb9ceb0",
+    "probe": {
+      "programs": [],
+      "stream_groups": [],
+      "streams": [
+        {
+          "codec_name": "h264",
+          "codec_type": "video",
+          "width": 1920,
+          "height": 1080,
+          "r_frame_rate": "30/1",
+          "nb_frames": "324000"
+        },
+        {
+          "codec_name": "aac",
+          "codec_type": "audio",
+          "sample_rate": "48000",
+          "channels": 2,
+          "r_frame_rate": "0/0",
+          "nb_frames": "506251"
+        }
+      ],
+      "format": {
+        "duration": "10800.000000",
+        "size": "1197706541"
+      }
+    },
+    "audio": {
+      "integrated_lufs": -17.06,
+      "true_peak_dbtp": -2.5,
+      "lra_lu": 4.7,
+      "silence_events": 0
+    },
+    "monotony": {
+      "envelope_std_db": 1.84,
+      "autocorrelation": {
+        "15s": 0.353,
+        "30s": 0.428,
+        "60s": 0.382,
+        "180s": 0.381,
+        "300s": 0.318
+      },
+      "search_limit_seconds": 600.0,
+      "strongest_period_seconds": 74.5,
+      "strongest_period_height": 0.033,
+      "ten_minute_block_spread_db": 5.1,
+      "ten_minute_blocks": 18
+    },
+    "chunk_seams": {
+      "chunk_seconds": 300.0,
+      "seams": 34,
+      "worst_drop_db": 2.79,
+      "median_drop_db": 0.44,
+      "verdict": "欠落なし"
+    },
+    "beat_after_aac": [
+      {
+        "position_seconds": 300.0,
+        "left_design_hz": 217.9426,
+        "left_measured_hz": 217.9426,
+        "left_error_hz": -0.0,
+        "left_dbfs": -28.1,
+        "left_separation_db": 53.6,
+        "right_design_hz": 222.0574,
+        "right_measured_hz": 222.0574,
+        "right_error_hz": -0.0,
+        "right_dbfs": -28.1,
+        "right_separation_db": 52.7,
+        "measured_difference_hz": 4.1148
+      },
+      {
+        "position_seconds": 2700.0,
+        "left_design_hz": 217.4981,
+        "left_measured_hz": 217.4981,
+        "left_error_hz": -0.0,
+        "left_dbfs": -28.1,
+        "left_separation_db": 45.2,
+        "right_design_hz": 222.5019,
+        "right_measured_hz": 222.5019,
+        "right_error_hz": -0.0,
+        "right_dbfs": -28.1,
+        "right_separation_db": 47.7,
+        "measured_difference_hz": 5.0037
+      },
+      {
+        "position_seconds": 5400.0,
+        "left_design_hz": 216.9981,
+        "left_measured_hz": 216.9981,
+        "left_error_hz": -0.0,
+        "left_dbfs": -28.0,
+        "left_separation_db": 50.6,
+        "right_design_hz": 223.0019,
+        "right_measured_hz": 223.0019,
+        "right_error_hz": -0.0,
+        "right_dbfs": -28.0,
+        "right_separation_db": 48.9,
+        "measured_difference_hz": 6.0037
+      },
+      {
+        "position_seconds": 8100.0,
+        "left_design_hz": 216.4981,
+        "left_measured_hz": 216.4981,
+        "left_error_hz": -0.0,
+        "left_dbfs": -28.1,
+        "left_separation_db": 63.1,
+        "right_design_hz": 223.5019,
+        "right_measured_hz": 223.5019,
+        "right_error_hz": -0.0,
+        "right_dbfs": -28.1,
+        "right_separation_db": 61.9,
+        "measured_difference_hz": 7.0037
+      },
+      {
+        "position_seconds": 10500.0,
+        "left_design_hz": 216.0537,
+        "left_measured_hz": 216.0537,
+        "left_error_hz": -0.0,
+        "left_dbfs": -28.1,
+        "left_separation_db": 46.8,
+        "right_design_hz": 223.9463,
+        "right_measured_hz": 223.9463,
+        "right_error_hz": -0.0,
+        "right_dbfs": -28.1,
+        "right_separation_db": 50.8,
+        "measured_difference_hz": 7.8926
+      }
+    ],
+    "scene_luminance": [
+      42.8,
+      34.2,
+      24.0,
+      40.9,
+      62.3
+    ]
+  },
+  "wave05": {
+    "file": "/Volumes/ESD-EPB/BGM/4_Waves of Japan/WAVE05_素材_雪明かりの書院/wave05_雪明かりの書院_3時間_v2.mp4",
+    "bytes": 1114937497,
+    "sha256": "879fa46524199f0b9d2b4c8e4000b2d0652ee766fe79013a653fc88055401c61",
+    "probe": {
+      "programs": [],
+      "stream_groups": [],
+      "streams": [
+        {
+          "codec_name": "h264",
+          "codec_type": "video",
+          "width": 1920,
+          "height": 1080,
+          "r_frame_rate": "30/1",
+          "nb_frames": "324000"
+        },
+        {
+          "codec_name": "aac",
+          "codec_type": "audio",
+          "sample_rate": "48000",
+          "channels": 2,
+          "r_frame_rate": "0/0",
+          "nb_frames": "506251"
+        }
+      ],
+      "format": {
+        "duration": "10800.000000",
+        "size": "1114937497"
+      }
+    },
+    "audio": {
+      "integrated_lufs": -17.41,
+      "true_peak_dbtp": -2.5,
+      "lra_lu": 5.5,
+      "silence_events": 0
+    },
+    "monotony": {
+      "envelope_std_db": 2.02,
+      "autocorrelation": {
+        "15s": 0.576,
+        "30s": 0.586,
+        "60s": 0.572,
+        "180s": 0.507,
+        "300s": 0.445
+      },
+      "search_limit_seconds": 600.0,
+      "strongest_period_seconds": 109.0,
+      "strongest_period_height": 0.022,
+      "ten_minute_block_spread_db": 4.98,
+      "ten_minute_blocks": 18
+    },
+    "chunk_seams": {
+      "chunk_seconds": 300.0,
+      "seams": 34,
+      "worst_drop_db": 2.76,
+      "median_drop_db": 0.47,
+      "verdict": "欠落なし"
+    },
+    "beat_after_aac": [
+      {
+        "position_seconds": 300.0,
+        "left_design_hz": 180.0,
+        "left_measured_hz": 180.0,
+        "left_error_hz": -0.0,
+        "left_dbfs": -29.2,
+        "left_separation_db": 54.1,
+        "right_design_hz": 190.0,
+        "right_measured_hz": 190.0,
+        "right_error_hz": -0.0,
+        "right_dbfs": -29.1,
+        "right_separation_db": 52.2,
+        "measured_difference_hz": 10.0
+      },
+      {
+        "position_seconds": 2700.0,
+        "left_design_hz": 180.0,
+        "left_measured_hz": 180.0,
+        "left_error_hz": -0.0,
+        "left_dbfs": -29.2,
+        "left_separation_db": 52.8,
+        "right_design_hz": 190.0,
+        "right_measured_hz": 190.0,
+        "right_error_hz": -0.0,
+        "right_dbfs": -29.2,
+        "right_separation_db": 53.3,
+        "measured_difference_hz": 10.0
+      },
+      {
+        "position_seconds": 5400.0,
+        "left_design_hz": 180.0,
+        "left_measured_hz": 180.0,
+        "left_error_hz": -0.0,
+        "left_dbfs": -29.2,
+        "left_separation_db": 51.1,
+        "right_design_hz": 190.0,
+        "right_measured_hz": 190.0,
+        "right_error_hz": -0.0,
+        "right_dbfs": -29.2,
+        "right_separation_db": 52.7,
+        "measured_difference_hz": 10.0
+      },
+      {
+        "position_seconds": 8100.0,
+        "left_design_hz": 180.0,
+        "left_measured_hz": 180.0,
+        "left_error_hz": -0.0,
+        "left_dbfs": -29.2,
+        "left_separation_db": 57.0,
+        "right_design_hz": 190.0,
+        "right_measured_hz": 190.0,
+        "right_error_hz": -0.0,
+        "right_dbfs": -29.2,
+        "right_separation_db": 64.4,
+        "measured_difference_hz": 10.0
+      },
+      {
+        "position_seconds": 10500.0,
+        "left_design_hz": 180.0,
+        "left_measured_hz": 180.0,
+        "left_error_hz": -0.0,
+        "left_dbfs": -29.2,
+        "left_separation_db": 63.6,
+        "right_design_hz": 190.0,
+        "right_measured_hz": 190.0,
+        "right_error_hz": -0.0,
+        "right_dbfs": -29.2,
+        "right_separation_db": 73.2,
+        "measured_difference_hz": 10.0
+      }
+    ],
+    "scene_luminance": [
+      33.5,
+      45.0,
+      53.0,
+      72.1,
+      88.3
+    ]
+  },
+  "wave07": {
+    "file": "/Users/ryo/youtube/bgm/WAVE07_月夜の芒原/本編映像/wave07_月夜の芒原_3時間.mp4",
+    "bytes": 1162456397,
+    "sha256": "a7bd21f9d6a88a8ae4e8c27eef371dd11b2b477496a6b3c9e0d70dee0bfaff6a",
+    "probe": {
+      "programs": [],
+      "stream_groups": [],
+      "streams": [
+        {
+          "codec_name": "h264",
+          "codec_type": "video",
+          "width": 1920,
+          "height": 1080,
+          "r_frame_rate": "30/1",
+          "nb_frames": "324000"
+        },
+        {
+          "codec_name": "aac",
+          "codec_type": "audio",
+          "sample_rate": "48000",
+          "channels": 2,
+          "r_frame_rate": "0/0",
+          "nb_frames": "506251"
+        }
+      ],
+      "format": {
+        "duration": "10800.000000",
+        "size": "1162456397"
+      }
+    },
+    "audio": {
+      "integrated_lufs": -16.49,
+      "true_peak_dbtp": -2.9,
+      "lra_lu": 6.8,
+      "silence_events": 0
+    },
+    "monotony": {
+      "envelope_std_db": 2.39,
+      "autocorrelation": {
+        "15s": 0.727,
+        "30s": 0.729,
+        "60s": 0.716,
+        "180s": 0.684,
+        "300s": 0.615
+      },
+      "search_limit_seconds": 600.0,
+      "strongest_period_seconds": 182.0,
+      "strongest_period_height": 0.009,
+      "ten_minute_block_spread_db": 7.29,
+      "ten_minute_blocks": 18
+    },
+    "chunk_seams": {
+      "chunk_seconds": 300.0,
+      "seams": 34,
+      "worst_drop_db": 3.46,
+      "median_drop_db": 0.26,
+      "verdict": "欠落なし"
+    },
+    "beat_after_aac": [
+      {
+        "position_seconds": 300.0,
+        "left_design_hz": 163.81,
+        "left_measured_hz": 163.81,
+        "left_error_hz": -0.0,
+        "left_dbfs": -27.4,
+        "left_separation_db": 48.0,
+        "right_design_hz": 165.81,
+        "right_measured_hz": 165.81,
+        "right_error_hz": -0.0,
+        "right_dbfs": -27.4,
+        "right_separation_db": 47.4,
+        "measured_difference_hz": 2.0
+      },
+      {
+        "position_seconds": 2700.0,
+        "left_design_hz": 163.81,
+        "left_measured_hz": 163.81,
+        "left_error_hz": -0.0,
+        "left_dbfs": -27.4,
+        "left_separation_db": 53.4,
+        "right_design_hz": 165.81,
+        "right_measured_hz": 165.81,
+        "right_error_hz": -0.0,
+        "right_dbfs": -27.4,
+        "right_separation_db": 54.6,
+        "measured_difference_hz": 2.0
+      },
+      {
+        "position_seconds": 5400.0,
+        "left_design_hz": 163.81,
+        "left_measured_hz": 163.81,
+        "left_error_hz": -0.0,
+        "left_dbfs": -27.4,
+        "left_separation_db": 63.7,
+        "right_design_hz": 165.81,
+        "right_measured_hz": 165.81,
+        "right_error_hz": -0.0,
+        "right_dbfs": -27.4,
+        "right_separation_db": 66.8,
+        "measured_difference_hz": 2.0
+      },
+      {
+        "position_seconds": 8100.0,
+        "left_design_hz": 163.81,
+        "left_measured_hz": 163.81,
+        "left_error_hz": -0.0,
+        "left_dbfs": -27.4,
+        "left_separation_db": 48.3,
+        "right_design_hz": 165.81,
+        "right_measured_hz": 165.81,
+        "right_error_hz": -0.0,
+        "right_dbfs": -27.4,
+        "right_separation_db": 51.3,
+        "measured_difference_hz": 2.0
+      },
+      {
+        "position_seconds": 10500.0,
+        "left_design_hz": 163.81,
+        "left_measured_hz": 163.81,
+        "left_error_hz": -0.0,
+        "left_dbfs": -27.4,
+        "left_separation_db": 46.9,
+        "right_design_hz": 165.81,
+        "right_measured_hz": 165.81,
+        "right_error_hz": -0.0,
+        "right_dbfs": -27.4,
+        "right_separation_db": 47.8,
+        "measured_difference_hz": 2.0
+      }
+    ],
+    "scene_luminance": [
+      50.0,
+      31.7,
+      27.6,
+      40.1,
+      57.5
+    ]
+  },
+  "wave08": {
+    "file": "/Users/ryo/youtube/bgm/WAVE08_朝顔の垣根/本編映像/wave08_朝顔の垣根_3時間.mp4",
+    "bytes": 1185139554,
+    "sha256": "e645b13de1c295ef60d0c0e536a81d6fe51c163f8d50ae99a1a3609430c0ccd1",
+    "probe": {
+      "programs": [],
+      "stream_groups": [],
+      "streams": [
+        {
+          "codec_name": "h264",
+          "codec_type": "video",
+          "width": 1920,
+          "height": 1080,
+          "r_frame_rate": "30/1",
+          "nb_frames": "324000"
+        },
+        {
+          "codec_name": "aac",
+          "codec_type": "audio",
+          "sample_rate": "48000",
+          "channels": 2,
+          "r_frame_rate": "0/0",
+          "nb_frames": "506251"
+        }
+      ],
+      "format": {
+        "duration": "10800.000000",
+        "size": "1185139554"
+      }
+    },
+    "audio": {
+      "integrated_lufs": -16.5,
+      "true_peak_dbtp": -2.99,
+      "lra_lu": 5.5,
+      "silence_events": 0
+    },
+    "monotony": {
+      "envelope_std_db": 2.18,
+      "autocorrelation": {
+        "15s": 0.632,
+        "30s": 0.645,
+        "60s": 0.638,
+        "180s": 0.588,
+        "300s": 0.542
+      },
+      "search_limit_seconds": 600.0,
+      "strongest_period_seconds": 403.2,
+      "strongest_period_height": 0.012,
+      "ten_minute_block_spread_db": 5.86,
+      "ten_minute_blocks": 18
+    },
+    "chunk_seams": {
+      "chunk_seconds": 300.0,
+      "seams": 34,
+      "worst_drop_db": 2.6,
+      "median_drop_db": 0.15,
+      "verdict": "欠落なし"
+    },
+    "beat_after_aac": [
+      {
+        "position_seconds": 300.0,
+        "left_design_hz": 144.2582,
+        "left_measured_hz": 144.2582,
+        "left_error_hz": -0.0,
+        "left_dbfs": -28.4,
+        "left_separation_db": 51.5,
+        "right_design_hz": 149.4018,
+        "right_measured_hz": 149.4018,
+        "right_error_hz": -0.0,
+        "right_dbfs": -28.4,
+        "right_separation_db": 57.2,
+        "measured_difference_hz": 5.1435
+      },
+      {
+        "position_seconds": 2700.0,
+        "left_design_hz": 143.7027,
+        "left_measured_hz": 143.7027,
+        "left_error_hz": -0.0,
+        "left_dbfs": -28.4,
+        "left_separation_db": 49.1,
+        "right_design_hz": 149.9573,
+        "right_measured_hz": 149.9573,
+        "right_error_hz": -0.0,
+        "right_dbfs": -28.4,
+        "right_separation_db": 56.7,
+        "measured_difference_hz": 6.2546
+      },
+      {
+        "position_seconds": 5400.0,
+        "left_design_hz": 143.0777,
+        "left_measured_hz": 143.0777,
+        "left_error_hz": -0.0,
+        "left_dbfs": -28.5,
+        "left_separation_db": 44.7,
+        "right_design_hz": 150.5823,
+        "right_measured_hz": 150.5823,
+        "right_error_hz": -0.0,
+        "right_dbfs": -28.4,
+        "right_separation_db": 64.7,
+        "measured_difference_hz": 7.5046
+      },
+      {
+        "position_seconds": 8100.0,
+        "left_design_hz": 142.4527,
+        "left_measured_hz": 142.4527,
+        "left_error_hz": -0.0,
+        "left_dbfs": -28.4,
+        "left_separation_db": 45.3,
+        "right_design_hz": 151.2073,
+        "right_measured_hz": 151.2073,
+        "right_error_hz": -0.0,
+        "right_dbfs": -28.4,
+        "right_separation_db": 54.8,
+        "measured_difference_hz": 8.7546
+      },
+      {
+        "position_seconds": 10500.0,
+        "left_design_hz": 141.8971,
+        "left_measured_hz": 141.8971,
+        "left_error_hz": -0.0,
+        "left_dbfs": -28.4,
+        "left_separation_db": 48.6,
+        "right_design_hz": 151.7629,
+        "right_measured_hz": 151.7629,
+        "right_error_hz": -0.0,
+        "right_dbfs": -28.4,
+        "right_separation_db": 58.4,
+        "measured_difference_hz": 9.8657
+      }
+    ],
+    "scene_luminance": [
+      26.8,
+      39.2,
+      49.7,
+      65.2,
+      71.8
+    ]
+  },
+  "wave09": {
+    "file": "/Users/ryo/youtube/bgm/WAVE09_天の川の高原/本編映像/wave09_天の川の高原_3時間.mp4",
+    "bytes": 1253217863,
+    "sha256": "fd547e397bf16edb1df8a06c86129b1c54ab840dbefc06814fc3322fc0509873",
+    "probe": {
+      "programs": [],
+      "stream_groups": [],
+      "streams": [
+        {
+          "codec_name": "h264",
+          "codec_type": "video",
+          "width": 1920,
+          "height": 1080,
+          "r_frame_rate": "30/1",
+          "nb_frames": "324000"
+        },
+        {
+          "codec_name": "aac",
+          "codec_type": "audio",
+          "sample_rate": "48000",
+          "channels": 2,
+          "r_frame_rate": "0/0",
+          "nb_frames": "506251"
+        }
+      ],
+      "format": {
+        "duration": "10800.000000",
+        "size": "1253217863"
+      }
+    },
+    "audio": {
+      "integrated_lufs": -16.5,
+      "true_peak_dbtp": -2.99,
+      "lra_lu": 4.6,
+      "silence_events": 0
+    },
+    "monotony": {
+      "envelope_std_db": 1.82,
+      "autocorrelation": {
+        "15s": 0.416,
+        "30s": 0.436,
+        "60s": 0.415,
+        "180s": 0.337,
+        "300s": 0.279
+      },
+      "search_limit_seconds": 600.0,
+      "strongest_period_seconds": 240.0,
+      "strongest_period_height": 0.027,
+      "ten_minute_block_spread_db": 4.08,
+      "ten_minute_blocks": 18
+    },
+    "chunk_seams": {
+      "chunk_seconds": 300.0,
+      "seams": 34,
+      "worst_drop_db": 2.52,
+      "median_drop_db": 0.21,
+      "verdict": "欠落なし"
+    },
+    "beat_after_aac": [
+      {
+        "position_seconds": 300.0,
+        "left_design_hz": 130.31,
+        "left_measured_hz": 130.31,
+        "left_error_hz": -0.0,
+        "left_dbfs": -28.3,
+        "left_separation_db": 38.6,
+        "right_design_hz": 131.31,
+        "right_measured_hz": 131.31,
+        "right_error_hz": -0.0,
+        "right_dbfs": -28.2,
+        "right_separation_db": 35.8,
+        "measured_difference_hz": 1.0
+      },
+      {
+        "position_seconds": 2700.0,
+        "left_design_hz": 130.31,
+        "left_measured_hz": 130.31,
+        "left_error_hz": -0.0,
+        "left_dbfs": -28.2,
+        "left_separation_db": 64.8,
+        "right_design_hz": 131.31,
+        "right_measured_hz": 131.31,
+        "right_error_hz": -0.0,
+        "right_dbfs": -28.2,
+        "right_separation_db": 58.1,
+        "measured_difference_hz": 1.0
+      },
+      {
+        "position_seconds": 5400.0,
+        "left_design_hz": 130.31,
+        "left_measured_hz": 130.31,
+        "left_error_hz": -0.0,
+        "left_dbfs": -28.2,
+        "left_separation_db": 43.0,
+        "right_design_hz": 131.31,
+        "right_measured_hz": 131.31,
+        "right_error_hz": -0.0,
+        "right_dbfs": -28.1,
+        "right_separation_db": 42.6,
+        "measured_difference_hz": 1.0
+      },
+      {
+        "position_seconds": 8100.0,
+        "left_design_hz": 130.31,
+        "left_measured_hz": 130.31,
+        "left_error_hz": -0.0,
+        "left_dbfs": -28.2,
+        "left_separation_db": 45.6,
+        "right_design_hz": 131.31,
+        "right_measured_hz": 131.31,
+        "right_error_hz": -0.0,
+        "right_dbfs": -28.2,
+        "right_separation_db": 47.9,
+        "measured_difference_hz": 1.0
+      },
+      {
+        "position_seconds": 10500.0,
+        "left_design_hz": 130.31,
+        "left_measured_hz": 130.31,
+        "left_error_hz": -0.0,
+        "left_dbfs": -28.2,
+        "left_separation_db": 67.5,
+        "right_design_hz": 131.31,
+        "right_measured_hz": 131.31,
+        "right_error_hz": -0.0,
+        "right_dbfs": -28.2,
+        "right_separation_db": 64.1,
+        "measured_difference_hz": 1.0
+      }
+    ],
+    "scene_luminance": [
+      38.7,
+      30.7,
+      26.6,
+      28.7,
+      45.7
+    ]
+  },
+  "wave10": {
+    "file": "/Users/ryo/youtube/bgm/WAVE10_時雨の山寺/本編映像/wave10_時雨の山寺_3時間.mp4",
+    "bytes": 1384489631,
+    "sha256": "a5a94874a40c1bc25a293233c801b67c9bd579d138c27a781d19a48e66741296",
+    "probe": {
+      "programs": [],
+      "stream_groups": [],
+      "streams": [
+        {
+          "codec_name": "h264",
+          "codec_type": "video",
+          "width": 1920,
+          "height": 1080,
+          "r_frame_rate": "30/1",
+          "nb_frames": "324000"
+        },
+        {
+          "codec_name": "aac",
+          "codec_type": "audio",
+          "sample_rate": "48000",
+          "channels": 2,
+          "r_frame_rate": "0/0",
+          "nb_frames": "506251"
+        }
+      ],
+      "format": {
+        "duration": "10800.000000",
+        "size": "1384489631"
+      }
+    },
+    "audio": {
+      "integrated_lufs": -16.5,
+      "true_peak_dbtp": -2.99,
+      "lra_lu": 4.6,
+      "silence_events": 0
+    },
+    "monotony": {
+      "envelope_std_db": 1.74,
+      "autocorrelation": {
+        "15s": 0.389,
+        "30s": 0.409,
+        "60s": 0.387,
+        "180s": 0.33,
+        "300s": 0.28
+      },
+      "search_limit_seconds": 600.0,
+      "strongest_period_seconds": 316.8,
+      "strongest_period_height": 0.027,
+      "ten_minute_block_spread_db": 3.24,
+      "ten_minute_blocks": 18
+    },
+    "chunk_seams": {
+      "chunk_seconds": 300.0,
+      "seams": 34,
+      "worst_drop_db": 2.5,
+      "median_drop_db": 0.68,
+      "verdict": "欠落なし"
+    },
+    "beat_after_aac": [
+      {
+        "position_seconds": 300.0,
+        "left_design_hz": 216.5593,
+        "left_measured_hz": 216.5593,
+        "left_error_hz": -0.0,
+        "left_dbfs": -28.4,
+        "left_separation_db": 63.0,
+        "right_design_hz": 223.4407,
+        "right_measured_hz": 223.4407,
+        "right_error_hz": -0.0,
+        "right_dbfs": -28.4,
+        "right_separation_db": 57.3,
+        "measured_difference_hz": 6.8815
+      },
+      {
+        "position_seconds": 2700.0,
+        "left_design_hz": 217.0037,
+        "left_measured_hz": 217.0037,
+        "left_error_hz": -0.0,
+        "left_dbfs": -28.4,
+        "left_separation_db": 60.0,
+        "right_design_hz": 222.9963,
+        "right_measured_hz": 222.9963,
+        "right_error_hz": -0.0,
+        "right_dbfs": -28.4,
+        "right_separation_db": 67.7,
+        "measured_difference_hz": 5.9926
+      },
+      {
+        "position_seconds": 5400.0,
+        "left_design_hz": 217.5037,
+        "left_measured_hz": 217.5037,
+        "left_error_hz": -0.0,
+        "left_dbfs": -28.4,
+        "left_separation_db": 59.3,
+        "right_design_hz": 222.4963,
+        "right_measured_hz": 222.4963,
+        "right_error_hz": -0.0,
+        "right_dbfs": -28.4,
+        "right_separation_db": 56.4,
+        "measured_difference_hz": 4.9926
+      },
+      {
+        "position_seconds": 8100.0,
+        "left_design_hz": 218.0037,
+        "left_measured_hz": 218.0037,
+        "left_error_hz": -0.0,
+        "left_dbfs": -28.4,
+        "left_separation_db": 59.3,
+        "right_design_hz": 221.9963,
+        "right_measured_hz": 221.9963,
+        "right_error_hz": -0.0,
+        "right_dbfs": -28.4,
+        "right_separation_db": 54.4,
+        "measured_difference_hz": 3.9926
+      },
+      {
+        "position_seconds": 10500.0,
+        "left_design_hz": 218.4481,
+        "left_measured_hz": 218.4481,
+        "left_error_hz": -0.0,
+        "left_dbfs": -28.4,
+        "left_separation_db": 63.1,
+        "right_design_hz": 221.5519,
+        "right_measured_hz": 221.5519,
+        "right_error_hz": -0.0,
+        "right_dbfs": -28.4,
+        "right_separation_db": 63.2,
+        "measured_difference_hz": 3.1037
+      }
+    ],
+    "scene_luminance": [
+      47.6,
+      38.6,
+      35.4,
+      34.2,
+      28.5
+    ]
+  },
+  "wave11": {
+    "file": "/Users/ryo/youtube/bgm/WAVE11_雪の無人駅/本編映像/wave11_雪の無人駅_3時間.mp4",
+    "bytes": 1094301101,
+    "sha256": "8fa3976481d33e36495691fc4ac0fb200b01d845e13e3cea95d60e3c7fc7d4c2",
+    "probe": {
+      "programs": [],
+      "stream_groups": [],
+      "streams": [
+        {
+          "codec_name": "h264",
+          "codec_type": "video",
+          "width": 1920,
+          "height": 1080,
+          "r_frame_rate": "30/1",
+          "nb_frames": "324000"
+        },
+        {
+          "codec_name": "aac",
+          "codec_type": "audio",
+          "sample_rate": "48000",
+          "channels": 2,
+          "r_frame_rate": "0/0",
+          "nb_frames": "506251"
+        }
+      ],
+      "format": {
+        "duration": "10800.000000",
+        "size": "1094301101"
+      }
+    },
+    "audio": {
+      "integrated_lufs": -16.5,
+      "true_peak_dbtp": -2.99,
+      "lra_lu": 5.3,
+      "silence_events": 0
+    },
+    "monotony": {
+      "envelope_std_db": 2.15,
+      "autocorrelation": {
+        "15s": 0.533,
+        "30s": 0.59,
+        "60s": 0.576,
+        "180s": 0.504,
+        "300s": 0.424
+      },
+      "search_limit_seconds": 600.0,
+      "strongest_period_seconds": 25.5,
+      "strongest_period_height": 0.019,
+      "ten_minute_block_spread_db": 4.74,
+      "ten_minute_blocks": 18
+    },
+    "chunk_seams": {
+      "chunk_seconds": 300.0,
+      "seams": 34,
+      "worst_drop_db": 2.28,
+      "median_drop_db": 0.72,
+      "verdict": "欠落なし"
+    },
+    "beat_after_aac": [
+      {
+        "position_seconds": 300.0,
+        "left_design_hz": 145.3615,
+        "left_measured_hz": 145.3615,
+        "left_error_hz": -0.0,
+        "left_dbfs": -27.5,
+        "left_separation_db": 64.1,
+        "right_design_hz": 148.2985,
+        "right_measured_hz": 148.2985,
+        "right_error_hz": -0.0,
+        "right_dbfs": -27.5,
+        "right_separation_db": 64.0,
+        "measured_difference_hz": 2.937
+      },
+      {
+        "position_seconds": 2700.0,
+        "left_design_hz": 145.5837,
+        "left_measured_hz": 145.5837,
+        "left_error_hz": -0.0,
+        "left_dbfs": -27.5,
+        "left_separation_db": 56.7,
+        "right_design_hz": 148.0763,
+        "right_measured_hz": 148.0763,
+        "right_error_hz": -0.0,
+        "right_dbfs": -27.5,
+        "right_separation_db": 57.6,
+        "measured_difference_hz": 2.4926
+      },
+      {
+        "position_seconds": 5400.0,
+        "left_design_hz": 145.8337,
+        "left_measured_hz": 145.8337,
+        "left_error_hz": -0.0,
+        "left_dbfs": -27.5,
+        "left_separation_db": 53.9,
+        "right_design_hz": 147.8263,
+        "right_measured_hz": 147.8263,
+        "right_error_hz": -0.0,
+        "right_dbfs": -27.5,
+        "right_separation_db": 51.1,
+        "measured_difference_hz": 1.9926
+      },
+      {
+        "position_seconds": 8100.0,
+        "left_design_hz": 146.0837,
+        "left_measured_hz": 146.0837,
+        "left_error_hz": -0.0,
+        "left_dbfs": -27.5,
+        "left_separation_db": 51.0,
+        "right_design_hz": 147.5763,
+        "right_measured_hz": 147.5763,
+        "right_error_hz": -0.0,
+        "right_dbfs": -27.5,
+        "right_separation_db": 52.9,
+        "measured_difference_hz": 1.4926
+      },
+      {
+        "position_seconds": 10500.0,
+        "left_design_hz": 146.3059,
+        "left_measured_hz": 146.3059,
+        "left_error_hz": -0.0,
+        "left_dbfs": -27.5,
+        "left_separation_db": 40.9,
+        "right_design_hz": 147.3541,
+        "right_measured_hz": 147.3541,
+        "right_error_hz": -0.0,
+        "right_dbfs": -27.5,
+        "right_separation_db": 40.7,
+        "measured_difference_hz": 1.0481
+      }
+    ],
+    "scene_luminance": [
+      48.9,
+      41.0,
+      36.9,
+      34.8,
+      30.5
+    ]
+  }
+}

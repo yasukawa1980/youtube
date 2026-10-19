@@ -1,0 +1,114 @@
+{
+  "source": "/Users/ryo/youtube/bgm/WAVE11_雪の無人駅/本編映像/wave11_雪の無人駅_3時間.mp4",
+  "source_sha256": "8fa3976481d33e36495691fc4ac0fb200b01d845e13e3cea95d60e3c7fc7d4c2",
+  "crop": {
+    "width": 608,
+    "height": 1080,
+    "x": 1125,
+    "anchor": 0.86
+  },
+  "output": {
+    "width": 1080,
+    "height": 1920,
+    "fps": 30,
+    "seconds": 45
+  },
+  "records": [
+    {
+      "tag": "A",
+      "start": 900.0,
+      "scene": "暮れ方の雪",
+      "hz": 2.83,
+      "file": "/Users/ryo/youtube/bgm/WAVE11_雪の無人駅/ショート/wave11_ショート_A.mp4",
+      "sha256": "c7353e36a2ce011265b7dbe53fb5739d69c24f58b43472b223da6b0e81cdce52",
+      "probe": {
+        "programs": [],
+        "stream_groups": [],
+        "streams": [
+          {
+            "codec_name": "h264",
+            "codec_type": "video",
+            "width": 1080,
+            "height": 1920,
+            "r_frame_rate": "30/1"
+          },
+          {
+            "codec_name": "aac",
+            "codec_type": "audio",
+            "sample_rate": "48000",
+            "channels": 2,
+            "r_frame_rate": "0/0"
+          }
+        ],
+        "format": {
+          "duration": "45.000000",
+          "size": "3275497"
+        }
+      }
+    },
+    {
+      "tag": "B",
+      "start": 2700.0,
+      "scene": "灯のともる駅",
+      "hz": 2.5,
+      "file": "/Users/ryo/youtube/bgm/WAVE11_雪の無人駅/ショート/wave11_ショート_B.mp4",
+      "sha256": "06d52701565da6483fe921e47951e54fd93caff7863381926b759b4368797de0",
+      "probe": {
+        "programs": [],
+        "stream_groups": [],
+        "streams": [
+          {
+            "codec_name": "h264",
+            "codec_type": "video",
+            "width": 1080,
+            "height": 1920,
+            "r_frame_rate": "30/1"
+          },
+          {
+            "codec_name": "aac",
+            "codec_type": "audio",
+            "sample_rate": "48000",
+            "channels": 2,
+            "r_frame_rate": "0/0"
+          }
+        ],
+        "format": {
+          "duration": "45.000000",
+          "size": "3441789"
+        }
+      }
+    },
+    {
+      "tag": "C",
+      "start": 4800.0,
+      "scene": "雪の止んだ夜",
+      "hz": 2.11,
+      "file": "/Users/ryo/youtube/bgm/WAVE11_雪の無人駅/ショート/wave11_ショート_C.mp4",
+      "sha256": "309e2e6dfdd7f1dc623a95a90e18bb548327cf2de9112cd1c6a10aeb3ab0dfe4",
+      "probe": {
+        "programs": [],
+        "stream_groups": [],
+        "streams": [
+          {
+            "codec_name": "h264",
+            "codec_type": "video",
+            "width": 1080,
+            "height": 1920,
+            "r_frame_rate": "30/1"
+          },
+          {
+            "codec_name": "aac",
+            "codec_type": "audio",
+            "sample_rate": "48000",
+            "channels": 2,
+            "r_frame_rate": "0/0"
+          }
+        ],
+        "format": {
+          "duration": "45.000000",
+          "size": "3423720"
+        }
+      }
+    }
+  ]
+}
