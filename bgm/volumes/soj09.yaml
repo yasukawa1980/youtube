@@ -1,0 +1,22 @@
+# Sounds of Old Japan / 09 — 晩秋の浜辺（波の実録4本・1時間・ループなし）
+#
+# ★★この巻は SOJ08 と同じく、音も映像も bgmkit の build を通さない。
+#   音：`SOJ09_制作/音を組む.py`（各録音の区間を一度だけ使う＋波頭の手フェーダー）
+#   映像：`SOJ09_制作/映像_本編/build_full_video.py`（SOJ08 の水域マスク＋変形を写したもの）
+#   ここに書いてあるのは **サムネ（thumb）と ショート（short）** に要る分だけ。
+# 設計は `SOJ09_晩秋の浜辺_テーマ設計.md`。
+
+genre: oldjapan
+volume: 9
+slug: soj09
+dir: "/Users/ryo/youtube/bgm/SOJ09_制作"
+
+# ★題字は「晩秋の浜辺」1行（5字）。SOJ08「紅葉の渓流」と同じ字数・同じ「季節＋場所」の型
+title_lines: [晩秋の浜辺]
+runtime: "1 HOUR"
+
+background: "/Users/ryo/youtube/bgm/SOJ09_制作/画像/05_サムネ_漁村の浜.png"
+thumb_out: "/Users/ryo/youtube/bgm/SOJ09_制作/サムネ/SOJ09_晩秋の浜辺_サムネ_16x9.png"
+
+# ★新しい巻は必ず書く（2026-09-28 決定）
+cta: true
