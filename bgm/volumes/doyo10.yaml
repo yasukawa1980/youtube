@@ -1,6 +1,6 @@
 # 童謡単曲版 第2弾「秋の夜の童謡」下書き（2026-10-18 本人が案Aを承認）。
 # bgmkit/single_songs.py 専用設定（一般のbgmkit audio等には渡さない）。
-# 2026-10-19 本人承認：音源を曲フォルダへ複製（SHA-256一致）、visual/end を記入。書き出し前のため enabled: false のまま。
+# 2026-10-19 本人承認：音源を曲フォルダへ複製（SHA-256一致）、visual/end を記入。2026-10-19 本人承認で enabled: true にして書き出し。
 # 根拠は bgm/DOYO07-10_素材確認_20261018.md
 pipeline: single_songs
 slug: doyo10
@@ -19,7 +19,7 @@ settings:
 songs:
 - id: hamachidori
   name: 浜千鳥
-  enabled: false
+  enabled: true
   visual: /Users/ryo/youtube/bgm/DOYO02_冬の童謡/画像/doyo02_05.png
   audio:
     path: /Users/ryo/Desktop/BGM/1_Whispers of Japan/童謡単曲/08_浜千鳥/浜千鳥.wav
@@ -43,4 +43,8 @@ artifacts:
   thumbnail_original: /Users/ryo/Desktop/BGM/1_Whispers of Japan/童謡単曲/08_浜千鳥/hamachidori_thumbnail.png
   thumbnail_review: ../../サムネ確認用/童謡単曲/doyo10_サムネ.jpg
 ssd_backup:
-  root: /Volumes/ESD-02/BGM/1_Whispers of Japan/童謡単曲/08_浜千鳥  # 未コピー（書き出し後に曲フォルダごと）
+  video: /Volumes/ESD-02/BGM/1_Whispers of Japan/童謡単曲/08_浜千鳥/hamachidori_short.mp4
+  thumbnail: /Volumes/ESD-02/BGM/1_Whispers of Japan/童謡単曲/08_浜千鳥/hamachidori_short_thumbnail.jpg
+  thumbnail_original: /Volumes/ESD-02/BGM/1_Whispers of Japan/童謡単曲/08_浜千鳥/hamachidori_thumbnail.png
+  audio: /Volumes/ESD-02/BGM/1_Whispers of Japan/童謡単曲/08_浜千鳥/浜千鳥.wav
+  root: /Volumes/ESD-02/BGM/1_Whispers of Japan/童謡単曲/08_浜千鳥
