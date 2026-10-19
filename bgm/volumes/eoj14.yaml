@@ -1,0 +1,74 @@
+# Echoes of Old Japan / 14 —— 慰め（リストのコンソレーション ほか、ロマン派の静かな小品）
+#
+# ★★音は bgmkit の外で作っている。 select / order / audio は使わない。
+#   実装は bgm/EOJ14_慰め/album.py、構成は同フォルダの 構成.md。
+#   リストのコンソレーション第3番で始まり、第3番に還る8曲・56分16秒。
+#
+# ★浄書は Mutopia。リスト2曲（Ryan Prince）とメンデルスゾーン Op.19-6（Ryan Prince）は CC BY 3.0、
+#   グリーグ Op.12-7（Knute Snortum）は CC BY-SA 4.0 → 説明文にクレジットを入れる。音高と音価だけを使う。
+#   チャイコフスキー2曲とメンデルスゾーン Op.85-1 はPD。
+#
+# ★★画題は「藪椿の林と落ち椿の小径」。椿・camellia とも既刊0件（98巻）。雪は出さない（EOJ13 で使ったばかり）。
+#   ★ESD-EPB 未接続のため、作業先は内蔵（EOJ13 と同じ）。仕上げたら ESD-02 へ控える。
+# ★整音は前段リミッター（−4.8dBFS）→ 二段掛け。入力TP −0.30 のままだと loudnorm が dynamic に落ちた。
+
+genre: echoesofoldjapan
+volume: 14
+slug: eoj14
+dir: "/Users/ryo/youtube/bgm/EOJ14_慰め"
+
+runtime: "56 MIN"   # ★manifest の 3376.7秒（56分16秒）
+title_lines: [疲れた心に, 慰め]
+thumb:
+  title_family: jp
+  title_fit: 760
+  tracking:
+    brand: 4
+
+cta: true
+
+scenes:
+- 01 夕べ（曲01-02。日没直後、低い杏色の光が幹のあいだから苔の小径へ）
+- 02 夜（曲03-04。★いちばん暗い。月なし・星空の青い光だけ）
+- 03 月（曲05-06。★見せ場。樹冠の丸い隙間から満月、落ち椿が光の溜まりに浮かぶ）
+- 04 白む（曲07-08。夜明けの薄い霧と露。いちばん明るい）
+- 05 サムネ専用（本編には使わない。左三分の一が手前の葉の影）
+
+# ★プロンプトの全文は bgm/EOJ14_慰め_画像プロンプト/
+images:
+- eoj14_01.png            # 場面1 夕べ
+- eoj14_02.png            # 場面2 夜
+- eoj14_03.png            # 場面3 月
+- eoj14_04.png            # 場面4 白む
+
+background: "/Users/ryo/youtube/bgm/EOJ14_慰め/画像/eoj14_05.png"
+thumb_out: "/Users/ryo/youtube/bgm/EOJ14_慰め/eoj14_サムネ_16x9.png"
+
+video:
+  segmented: true
+
+# ★ショート3本＝3曲・3人の作曲家。開始位置は `_調査_ショート開始.py`（2秒刻み・本体45秒が曲の中央値±1dB の中で
+#   頭4秒がいちばん大きい所。頭 +2.9〜+3.2dB）。★anchor は切り抜き開始 = anchor × (1672−529)。
+#   A＝手前の大きな椿と小径（x≈380〜910）・B＝満月 x≈1090 を中心に・C＝夜明けの空と霧の小径（x≈700〜1230）
+shorts:
+- tag: A
+  image: 1
+  anchor: 0.33
+  at: "0:01:00"       # 01「慰め」リスト コンソレーション第3番・律C#・尺八
+  title: リストの慰め
+  sub: [夕べ 尺八, 1時間版はチャンネルに]
+  move: in
+- tag: B
+  image: 3
+  anchor: 0.72
+  at: "0:38:25"       # 06「無言歌」メンデルスゾーン Op.85-1・律D・尺八
+  title: 無言歌             # ★「メンデルスゾーンの無言歌」は9:16の幅からはみ出した→作曲家は下の行へ
+  sub: [メンデルスゾーン　月夜 尺八, 1時間版はチャンネルに]
+  move: out
+- tag: C
+  image: 4
+  anchor: 0.61
+  at: "0:43:37"       # 07「朝の祈り」チャイコフスキー Op.39-1・律E・笙
+  title: 朝の祈り
+  sub: [チャイコフスキー　白む 笙, 1時間版はチャンネルに]
+  move: in
