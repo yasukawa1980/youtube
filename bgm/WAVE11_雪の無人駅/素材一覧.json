@@ -1,0 +1,190 @@
+{
+  "volume": "WAVE11",
+  "title": "雪の無人駅",
+  "brand": "Whispers of Japan",
+  "line": "Waves of Japan",
+  "scope": "Only scene 3 master and thumbnail generated. Scenes 1, 2, 4, 5 not generated. Audio and other volumes/scripts untouched.",
+  "created_at": "2026-10-19T01:25:49.487610+00:00",
+  "prompt_source": "bgm/WAVE11_雪の無人駅/画像プロンプト.md",
+  "prompt_source_sha256": "7f83963bce75076ec9000af7e4d9bf6ce9c0b6460729ca0eeeb6603081761a41",
+  "prompt_policy": "Entire corresponding code block copied verbatim, without added prompt text. Fence delimiters excluded.",
+  "measurement_method": {
+    "luma": "Rec.709 coefficients on encoded sRGB 8-bit RGB: Yprime = 0.2126 R + 0.7152 G + 0.0722 B; no rounding before thresholds",
+    "exposure_color_space": "IEC sRGB piecewise decode to linear RGB, multiply, piecewise encode, round nearest integer, clamp 0..255",
+    "thumbnail": "Pillow Lanczos resize final RGB to 168x94; left third columns [0,56); median encoded-sRGB weighted luma",
+    "fractions_unit": "percent, not 0..1 fraction",
+    "software": {
+      "Pillow": "11.3.0",
+      "numpy": "2.0.2"
+    }
+  },
+  "assets": [
+    {
+      "id": "scene3",
+      "file": "bgm/WAVE11_雪の無人駅/画像/wave11_03_雪の止んだ夜.png",
+      "sha256": "4e4b7764311bdc2f8d37e83aae50d3ee9cbb4c444941612bdadb0cf0377b86af",
+      "bytes": 2659943,
+      "generated_at": "2026-10-19T01:23:13.606Z",
+      "generation_time_basis": "local tool call completion timestamp; provider creation time unavailable",
+      "generation_call": {
+        "started_at": "2026-10-19T01:22:43.118Z",
+        "completed_at": "2026-10-19T01:23:13.606Z"
+      },
+      "generation_method": "built-in image_gen; one call, one image; no regeneration",
+      "prompt": "Use case: photorealistic-natural\nAsset type: WAVE11 \"雪の無人駅 / Snowy Country Station\" scene 3 master background for a three-hour Japanese ambient sleep film, full-bleed wide 16:9 landscape. This image is the reference from which four other scenes will be edited, so every element must be clear, stable and well defined.\nPrimary request: Create one polished, restrained photorealistic image of a tiny unmanned railway station on a single non-electrified local line deep in the snowy mountains of rural Japan, at night in early winter, just after the snow has stopped falling. Fresh, untouched snow covers everything. One old platform lamp and one small waiting-room window give the only warm light. This is the visual definition image of the volume, not a generic winter postcard.\nScene/backdrop: A short, low single platform edged with old weathered concrete and timber, running from the lower right of the frame into the middle distance. On the platform, at about sixty-five to seventy percent of the frame width, stands a small old wooden waiting shelter with a dark tiled roof thick with snow and one small paper-and-wood framed window. A single track, its rails mostly buried in snow so that only two faint parallel lines show, runs alongside the platform on its left and curves gently away into a forest of tall snow-laden Japanese cedars. Beyond the forest, soft dark mountain ridges dusted with snow fade into a low, even overcast sky. Deep snow lies on the platform, the shelter roof, the cedar branches and the embankment. The snow is completely untouched: no footprints and no tracks of any kind.\nSubject: One traditional platform lamp — an old enamel conical shade on a weathered wooden pole — stands at the near end of the shelter, at roughly sixty to sixty-five percent of the frame width, casting a small, soft pool of warm light on the snow of the platform. The small window of the waiting shelter glows a dim warm amber from inside. These two lights must be distinct and clearly placed, because their positions will be held fixed in every later scene.\nStyle/medium: Highly natural cinematic night photography on a tripod, long exposure, believable Japanese snow-country atmosphere, restrained realism, gentle telephoto compression. Not an illustration, not anime, not fantasy, not a poster, not HDR.\nComposition/framing: Camera standing low on the snowy embankment beside the track, slightly left of the line, looking along the track toward the station and the curve into the forest, wide 16:9. The LEFT THIRD holds only the snowy embankment, snow-covered low shrubs and the dark snow-laden cedars — no lamp, no shelter and no window in it — so it stays calm negative space for a later title; add no text. The platform, the lamp and the shelter sit from the centre to the right so that a later 9:16 portrait crop taken around sixty to sixty-five percent of the width contains the lamp, the shelter window and the platform.\nLighting/mood: Night after snowfall. The only light sources are the one platform lamp, the one shelter window and the faint cool blue-grey glow of the overcast sky reflected by the snow. Warm amber lamplight against cool blue-white snow. Calm, hushed, muffled, lonely but gentle, premium, sleepy. Keep the snow textured and READABLE — drifts, the soft edges of the platform, the shelter timbers and the cedar boughs must stay visible; no blown-out flat white and no crushed featureless black under the trees. The lamp must not clip to a large white blob: keep it as a small warm glow with the enamel shade visible.\nMaterials/textures: Soft deep powder snow with gentle drifts, old grey timber, dark roof tiles under snow, weathered enamel lamp shade, dark green cedar needles heavy with snow, faint rail lines under snow.\nConstraints: No moon, no stars, no visible sun, no people, no station staff, no footprints, no umbrellas, no hands, no animals, no birds, no train, no cars, no bicycles, no station name board, no timetable, no signboards, no posters, no readable characters, no text, no logo, no watermark, no overhead wires, no electric poles, no power lines, no railway signals, no red or green lights, no level-crossing lights, no vending machines, no ticket machines, no modern benches, no metal handrails, no fences, no water, no cherry blossom, no autumn leaves, no bamboo, no torii, no temple, no pagoda, no bokeh balls, no lens flare, no light rays, no sparkle, no strong vignette.\nOutput intent: A calm reference image whose geometry — platform, shelter, lamp, window, track, cedars and ridges — will be kept pixel-identical while light and weather are changed in four later scenes.",
+      "prompt_sha256": "e679fedd8e6492f89a4fbc45c8f8004f358c0a8ffc966090c5af183d5c8d2eee",
+      "original": {
+        "file": "bgm/WAVE11_雪の無人駅/画像/生成直後/wave11_03_雪の止んだ夜.png",
+        "sha256": "cdf4e26bd9e2359aef112663c9d8d3504d3a96ce55d1c18cb8bf3a18a2d051d8",
+        "bytes": 2671162,
+        "measurements": {
+          "width": 1672,
+          "height": 941,
+          "mean_luma_0_255": 62.13538901911335,
+          "luma_lt16_percent": 17.16640650026186,
+          "luma_ge250_percent": 0.008262613833395197,
+          "thumbnail_168x94_left_third_median_luma": 67.7578
+        },
+        "untouched_generated_bytes": true
+      },
+      "resize": {
+        "from": [
+          1672,
+          941
+        ],
+        "to": [
+          1920,
+          1080
+        ],
+        "method": "Pillow Lanczos, full-frame resize, no crop; before exposure"
+      },
+      "exposure": {
+        "type": "luminance_dependent_linear_RGB_gain",
+        "global_coefficient": 0.1464260201632977,
+        "gamma": 0.65,
+        "formula": "Y_linear = 0.2126*R_linear + 0.7152*G_linear + 0.0722*B_linear; multiplier = 0.1464260201632977 * max(Y_linear, 0.000001)^(-0.35); RGB_linear_out = RGB_linear_in * multiplier",
+        "multiplier_min": 0.1464260201632977,
+        "multiplier_max": 18.43394377314605,
+        "multiplier_percentiles_1_50_99": [
+          0.19557424748853375,
+          0.4245462955889645,
+          3.8704388174798097
+        ],
+        "reason": "Uniform linear RGB gain 0.37469777289032946 gave mean 37.0041 but luma<16 29.1096%; luminance-dependent gain preserves shadow detail while meeting all three targets. No geometry or object edits."
+      },
+      "measurements": {
+        "width": 1920,
+        "height": 1080,
+        "mean_luma_0_255": 37.00004877247299,
+        "luma_lt16_percent": 18.725163966049383,
+        "luma_ge250_percent": 0.0,
+        "thumbnail_168x94_left_third_median_luma": 41.1776
+      },
+      "luminance_targets_pass": true,
+      "preview": {
+        "file": "サムネ確認用/Waves of Japan/wave11_03_雪の止んだ夜_確認.jpg",
+        "sha256": "2100d70b8c2850182e4d2b2e9282bbdef71645fdd523690956e6bed30ac89443",
+        "bytes": 177512,
+        "size": [
+          1280,
+          720
+        ],
+        "not_for_exact_full_resolution_measurement": true
+      },
+      "visual_review": {
+        "status": "requires_review",
+        "findings": [
+          "待合室の入口上部に小さな札と文字らしき描写あり。判読不能だが「文字・看板禁止」に抵触するため基準画像は未承認扱い。",
+          "ホーム灯1個と窓1個を確認。月・星・人・足跡・列車・架線・信号・追加光源は目視で見当たらない。",
+          "待合室と窓が指定より右寄り。窓中心は原本の約x=1374/1672（82%）、灯り中心は約x=1010/1672（60%）。anchor 0.70付近での縦クロップ要確認。"
+        ],
+        "review_type": "visual, not an exhaustive automated object detection guarantee"
+      }
+    },
+    {
+      "id": "thumbnail",
+      "file": "bgm/WAVE11_雪の無人駅/画像/wave11_サムネ_v1.png",
+      "sha256": "8af13d3712d197e87f1170c593d8fbe8f9f1d6d4331f73d55c6b586431b2f1bf",
+      "bytes": 3084409,
+      "generated_at": "2026-10-19T01:23:47.542Z",
+      "generation_time_basis": "local tool call completion timestamp; provider creation time unavailable",
+      "generation_call": {
+        "started_at": "2026-10-19T01:23:27.094Z",
+        "completed_at": "2026-10-19T01:23:47.542Z"
+      },
+      "generation_method": "built-in image_gen; one call, one image; no regeneration",
+      "prompt": "Use case: photorealistic-natural\nAsset type: WAVE11 \"雪の無人駅\" thumbnail-only master, wide 16:9, never used inside the video.\nPrimary request: Create one photorealistic thumbnail image of a tiny unmanned wooden railway station in the snowy mountains of rural Japan at night, with one warm platform lamp and one softly glowing waiting-room window, deep untouched snow on the platform and roof, and a single snow-buried track curving away into snow-laden cedars, composed so that a two-line title can sit in the left third.\nScene/backdrop: A quiet snow-country station in early winter just after snowfall. The LEFT THIRD of the frame is filled by the deep blue shadow of near snow-laden cedars and a dark snowy embankment, reading as dark blue-grey with faint texture. The platform, the lamp and the small shelter occupy the centre and right.\nSubject: One old enamel-shaded platform lamp on a wooden pole casting a warm pool of light on the platform snow, and a small wooden waiting shelter with a snow-covered dark tiled roof and one dim amber window.\nStyle/medium: Cinematic night photography, restrained realism, premium, no illustration or anime, no HDR.\nComposition/framing: Wide 16:9. The LEFT THIRD must be deliberately dark and quiet as a clean bed for a later title, but add no text. All bright elements — the lamp, its pool of light and the window — sit in the centre and right.\nLighting/mood: Warm amber lamplight against cool blue-white snow, hushed and gentle. Keep the left third dark but not pure black. The lamp must not clip to a large white blob.\nMaterials/textures: Soft deep powder snow, old grey timber, snow-covered roof tiles, enamel lamp shade, snow-laden cedar boughs.\nConstraints: No moon, stars, people, footprints, animals, birds, train, cars, station name board, timetable, signboards, readable characters, text, logo, watermark, overhead wires, electric poles, railway signals, red or green lights, vending machines, metal handrails, fences, water, cherry blossom, autumn leaves, bamboo, torii, temple, bokeh balls, lens flare, light rays or sparkle.\nOutput intent: A thumbnail master that still reads at 168 pixels wide: one warm lamp and a glowing window at a lonely snowed-in station, against a dark left side reserved for the title.",
+      "prompt_sha256": "687e973d60ec9e481df376780a7d11651165a88e741ad933364a7c3e9fffd2ec",
+      "original": {
+        "file": "bgm/WAVE11_雪の無人駅/画像/生成直後/wave11_サムネ_v1.png",
+        "sha256": "5bdc1eb5dc82da426e400ba3203a5bf9a1b0082447bd0bfe335dfdd858b1eb4b",
+        "bytes": 2335432,
+        "measurements": {
+          "width": 1672,
+          "height": 941,
+          "mean_luma_0_255": 41.3837090479435,
+          "luma_lt16_percent": 37.43167453945462,
+          "luma_ge250_percent": 0.0026694598538661404,
+          "thumbnail_168x94_left_third_median_luma": 9.233799999999999
+        },
+        "untouched_generated_bytes": true
+      },
+      "resize": {
+        "from": [
+          1672,
+          941
+        ],
+        "to": [
+          1920,
+          1080
+        ],
+        "method": "Pillow Lanczos, full-frame resize, no crop; before exposure"
+      },
+      "exposure": {
+        "type": "shadow_weighted_linear_RGB_gain",
+        "shadow_amplitude": 2.087523937225342,
+        "linear_luminance_decay_scale": 0.02,
+        "formula": "Y_linear = 0.2126*R_linear + 0.7152*G_linear + 0.0722*B_linear; multiplier = 1 + 2.087523937225342 * exp(-Y_linear / 0.02); RGB_linear_out = RGB_linear_in * multiplier",
+        "multiplier_min": 1.0,
+        "multiplier_max": 3.087523937225342,
+        "multiplier_percentiles_1_50_99": [
+          1.0000000000097673,
+          2.1855595778990136,
+          3.0537057776058383
+        ],
+        "reason": "Lift the shadowed left third without globally overexposing the platform lamp/window. No geometry or object edits."
+      },
+      "measurements": {
+        "width": 1920,
+        "height": 1080,
+        "mean_luma_0_255": 50.00490490576776,
+        "luma_lt16_percent": 17.4443962191358,
+        "luma_ge250_percent": 0.003279320987654321,
+        "thumbnail_168x94_left_third_median_luma": 19.9834
+      },
+      "luminance_targets_pass": true,
+      "preview": {
+        "file": "サムネ確認用/Waves of Japan/wave11_サムネ.jpg",
+        "sha256": "686c7b6cac02dd0feea526ec40b9f186b8254bf129db7579dc41eeb17e8ed658",
+        "bytes": 220323,
+        "size": [
+          1280,
+          720
+        ],
+        "not_for_exact_full_resolution_measurement": true
+      },
+      "visual_review": {
+        "status": "no_obvious_prohibited_objects_detected",
+        "findings": [
+          "ホーム灯1個と窓1個を確認。月・星・人・足跡・列車・文字・看板・架線・信号・追加光源は目視で見当たらない。",
+          "雪上の暖色は灯りの反射。追加の発光体は見当たらない。"
+        ],
+        "review_type": "visual, not an exhaustive automated object detection guarantee"
+      }
+    }
+  ],
+  "sharing": {
+    "full_resolution_and_raw": "Local-only, not committed, following AGENTS.md high-resolution-asset rule. Saved at explicitly requested repository-local paths.",
+    "git_scope": "This manifest and two 1280x720 JPEG previews only. Full-resolution SHA-256 and measurements refer to PNG files, not previews."
+  }
+}
