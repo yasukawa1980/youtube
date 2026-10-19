@@ -1,0 +1,35 @@
+{
+  "automation_id": "youtube-2",
+  "date_jst": "2026-10-19",
+  "status": "completed",
+  "completed_at_utc": "2026-10-19T13:50:38.377138+00:00",
+  "original_channel": "Whispers of Japan",
+  "original_channel_id": "UCx4mLEohO3XCVxZajUynLzw",
+  "restored_channel": "Whispers of Japan",
+  "restored_channel_id": "UCx4mLEohO3XCVxZajUynLzw",
+  "restoration_verified": true,
+  "restoration_evidence": [
+    "original-channel.txt",
+    "restoration.txt",
+    "restored-whispers.jpg"
+  ],
+  "analysis_tab_ids": [
+    "604602013"
+  ],
+  "user_tabs_changed": false,
+  "studio_content_settings_or_publication_changes": false,
+  "source_files_count": 24,
+  "resolved_reading_issues": [
+    "初回のブラウザ操作承認処理がタイムアウト。状態を確認し、未実行だった操作を再試行して読み取りを完了。",
+    "七つの子エンゲージメントの読込途中保存を検知し、指標が表示された画面へ置換。"
+  ],
+  "unresolved_failures": [],
+  "notification_reason": [
+    "IROの48時間視聴953→641回、Whispers2166→1337回。",
+    "七つの子の個別追跡で継続5.8%・スワイプ94.2%と少数エンゲージビューを確認。"
+  ],
+  "recommendations_count": 2,
+  "recommendations_note": "昨日候補の追跡・更新2件。自動実行なし。",
+  "user_action_required": false,
+  "sharing_scope": "当日の2チャンネルreport.jsonとrun.json。過去の未送信履歴を含めず、リモート最新履歴へ対象だけ追加。"
+}
