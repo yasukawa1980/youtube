@@ -1,0 +1,16 @@
+Use case: historical-scene
+Asset type: 16:9 YouTube ambient-video background, final delivery 1920x1080.
+Style/medium: Photorealistic natural landscape photography of a historically plausible Edo-to-early-Meiji Japanese fishing coast. Authentic weathered wood, fabric, sand, pebbles and water texture. Absolutely not watercolor, woodblock print, painting, illustration, anime, fantasy art or CGI.
+Season/palette: Late autumn, Japanese black-pine windbreaks, sparse dry ochre beach grass, low seasonal light. Restrained gray-blue Japanese sea, never summer cyan, tropical turquoise or saturated holiday colors.
+Water geometry: A perfectly level sea horizon. Clear physically coherent water–land boundaries. Thin clean white lines of shore foam, gentle small waves, enough exposed water for later water-only masked animation. No boats floating on water.
+Text: none.
+Avoid: signs, lettering, watermark, utility poles, wires, roads, vehicles, plastic, concrete, modern objects, animals, birds, extra people, floating objects or surreal geometry.
+Primary request: Scene 1, the closest and brightest view of the four-scene sequence: a low viewpoint at the wave edge on a late-autumn Japanese beach in clear early-afternoon light.
+Scene/backdrop: Wet dark sand mixed with small rounded pebbles occupies the close foreground; thin shallow waves gently reach and recede across the shore. The beach curves back toward a black-pine grove and a low headland. A tiny simple weathered wooden fishing boat lies entirely above the waterline far back on dry beach, its hull grounded in sand, quietly indicating old Japan.
+Composition/framing: Wide 16:9, low camera near wet sand. Broad gray-blue sea on the right, clearly defined gently curving wet shoreline toward the left distance. The foreground foam is thin and white, no huge breakers. No people.
+Lighting/mood: Clear low late-autumn afternoon sunlight, soft natural contrast, open shadow detail. This must be the brightest main scene, with final mean 8-bit BT.709 luma approximately 95–110, not glaring or washed out.
+
+--- Targeted edit 1 (input: exec-88518984-9639-4271-93db-c837ff6b37e9.png) ---
+Use case: lighting-weather
+Input image: edit target, SOJ09 scene 1.
+Change only exposure and color grading. Preserve the exact shoreline, waves, grounded tiny boat, pines, pebbles, headland, framing and perfectly level horizon. The current image has measured mean BT.709 luma 129.884; reduce exposure so the final mean is approximately 103 (target 95–110). Keep clear late-autumn afternoon sunlight and visible shadow detail; use a restrained gray-blue sea, slightly less saturated sky. Photorealistic texture, no painting. No new objects, people, animals, birds, text or modern elements. Wide 16:9, final intended delivery 1920x1080.

@@ -1,0 +1,27 @@
+Use case: historical-scene
+Asset type: 16:9 YouTube ambient-video background, final delivery 1920x1080.
+Style/medium: Photorealistic natural landscape photography of a historically plausible Edo-to-early-Meiji Japanese fishing coast. Authentic weathered wood, fabric, sand, pebbles and water texture. Absolutely not watercolor, woodblock print, painting, illustration, anime, fantasy art or CGI.
+Season/palette: Late autumn, Japanese black-pine windbreaks, sparse dry ochre beach grass, low seasonal light. Restrained gray-blue Japanese sea, never summer cyan, tropical turquoise or saturated holiday colors.
+Water geometry: A perfectly level sea horizon. Clear physically coherent water–land boundaries. Thin clean white lines of shore foam, gentle small waves, enough exposed water for later water-only masked animation. No boats floating on water.
+Text: none.
+Avoid: signs, lettering, watermark, utility poles, wires, roads, vehicles, plastic, concrete, modern objects, animals, birds, extra people, floating objects or surreal geometry.
+Primary request: Scene 4, the most distant view: a moonlit late-autumn Japanese sea seen from a modest high coastal overlook through Japanese black pines.
+Scene/backdrop: Black-pine trunks and needles frame the extreme sides and upper edges, with dry ochre grass on the hillside. A distant curving beach carries a delicate white line of breaking waves. A very small old weathered wooden fishing shed on the far dry shore quietly suggests the Edo-to-early-Meiji village. All land and pines stay clearly separate from open water.
+Subject: One small moon high in the upper sky, with a physically aligned narrow silver path of reflected moonlight on the sea below. No people. No boats on the sea.
+Composition/framing: Wide 16:9 distant panorama, level horizon, small moon, broad uncluttered open sea. Pine silhouettes frame the view without covering the central reflected-light path. Shoreline far below rather than close foreground.
+Lighting/mood: Photorealistic silver moonlight and restrained deep blue-gray sea and sky, visible open shadows in pines and hillside. Do not crush the blacks. Aim for mean 8-bit BT.709 luma 40–55 and fewer than 20% of pixels below luma 16. Night must still look like night, not daylight or bright blue fantasy.
+
+--- Targeted edit 1 (input: exec-4f03dd4d-d27c-4350-bbb3-0fe7b4dc5249.png) ---
+Use case: lighting-weather
+Input image: edit target, SOJ09 scene 4.
+Change only the deepest shadow exposure: gently lift the pine trunks, needles, grass and foreground dark land to reveal natural texture. Preserve the exact moon, sky, horizon, moon-reflection path, sea, white shoreline, shed, composition and night mood. Current measured mean BT.709 luma is 41.234 and 23.0609% of pixels are below luma 16. Aim for mean luma 46–50 (allowed 40–55) with comfortably fewer than 20% of pixels below 16, ideally 12–16%. Do not brighten the moon or sea highlights. Preserve photographic dark blue-gray silver moonlight, no daylight or fantasy glow, no new objects. No people, birds, animals, text, boats or modern items. Wide 16:9 for final 1920x1080.
+
+--- Targeted edit 2 (input: exec-394cc36c-4ecc-4c75-95d1-ae226821972e.png) ---
+Use case: lighting-weather
+Input image: edit target, SOJ09 scene 4 after shadow recovery.
+Make only a small global exposure reduction, approximately 15% lower 8-bit luminance than this input. Current measured mean BT.709 luma is 58.03; target 49–51, allowed 40–55. Retain the recovered visible dark pine and grass textures: pixels below luma 16 must remain below 20% (currently 4.60%). Preserve exact framing, all geometry, small moon, silver reflection, white shoreline, shed, pines and level horizon. Photorealistic restrained night, no new objects or people, no painting, no text. Wide 16:9 for 1920x1080 delivery.
+
+--- Targeted edit 3 (input: exec-c425a43b-58f4-4cc6-923c-0941777186c1.png) ---
+Use case: lighting-weather
+Input image: edit target, SOJ09 moonlit sea final fine exposure correction.
+Preserve this image exactly in composition, objects, textures and colors. Apply a very subtle positive exposure lift of approximately 8 percent to all pixels, with soft highlight protection. Current measured final BT.709 luma mean is 39.888; target 43, allowed 40–55. Do not darken any region. Keep pine and foreground shadow details; under-16 pixels remain below 20 percent. Keep the image clearly night, moon and silver reflection in the same places, perfectly level horizon. No new elements, no text. Photorealistic 16:9.

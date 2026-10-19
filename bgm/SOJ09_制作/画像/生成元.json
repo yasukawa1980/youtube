@@ -1,0 +1,40 @@
+{
+  "tool": "built-in image_gen",
+  "generation_calls": 11,
+  "delivered_images": 5,
+  "source_root": "/Users/ryo/.codex/generated_images/01a152e1-4e2a-7273-a5a8-3cab658ded60",
+  "selected": [
+    {
+      "file": "01_波打ち際_昼下がり.png",
+      "source": "exec-daf97ce2-225b-4371-9ff8-59d7a52aca55.png",
+      "adopted_edit_count": 1
+    },
+    {
+      "file": "02_漁村の浜_夕方.png",
+      "source": "exec-448ecdb7-0638-46e3-bf6f-3b55504382f1.png",
+      "adopted_edit_count": 1
+    },
+    {
+      "file": "03_宿の縁側から_薄暮.png",
+      "source": "exec-de5535f9-ac47-44a8-a1d9-1b42055173db.png",
+      "adopted_edit_count": 0
+    },
+    {
+      "file": "04_月夜の海_夜.png",
+      "source": "exec-c425a43b-58f4-4cc6-923c-0941777186c1.png",
+      "adopted_edit_count": 2
+    },
+    {
+      "file": "05_サムネ_漁村の浜.png",
+      "source": "exec-2003cbbb-1d09-4336-b0d7-020bfea1dcac.png",
+      "adopted_edit_count": 1
+    }
+  ],
+  "final_processing": "RGB conversion and Lanczos resize 1672x941 -> 1920x1080; no code-based color grading",
+  "scene4_rejected_final_trial": {
+    "source": "exec-134b107a-9178-4564-a337-65f15ede2910.png",
+    "mean_luminance_after_resize": 57.551745,
+    "pixels_below_16_percent": 6.46441,
+    "reason": "目安より明るい。edit 2の39.888を採用（40の直下、差0.112）。"
+  }
+}

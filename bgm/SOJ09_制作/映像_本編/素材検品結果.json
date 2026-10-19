@@ -1,0 +1,130 @@
+{
+  "method": "SOJ08 polygon corridor + HSV/blue/foam selection + density + close/dilate + Gaussian feather; SOJ09 clamps feather inside water corridor",
+  "mask_area_definition": "strong: mask>=128; nonzero: mask>0; weighted: sum(mask/255)/(1920*1080)",
+  "total_timeline_seconds": 3608,
+  "crossfade_seconds": 15,
+  "masks": [
+    {
+      "file": "01_波打ち際_昼下がり_水域マスク.png",
+      "source_file": "../画像/01_波打ち際_昼下がり.png",
+      "source_sha256": "3b2d745a4ba55034cd8bade96d0d4fc9f9521491b73f2152993514d5dff1f5eb",
+      "size": [
+        1920,
+        1080
+      ],
+      "scene_seconds": 1130,
+      "timeline_interval": [
+        0,
+        1130
+      ],
+      "nonzero_area_percent": 36.8579,
+      "strong_area_percent": 34.5672,
+      "alpha_weighted_area_percent": 34.3965,
+      "bounding_box_xyxy_exclusive": [
+        332,
+        345,
+        1920,
+        1080
+      ],
+      "pixels_outside_corridor": 0,
+      "pixels_on_explicit_protected_regions": 0
+    },
+    {
+      "file": "02_漁村の浜_夕方_水域マスク.png",
+      "source_file": "../画像/02_漁村の浜_夕方.png",
+      "source_sha256": "a3a36335cd1a6e703f8ac5c4885b8307d08d16c05a9d5a174185fc11762f673e",
+      "size": [
+        1920,
+        1080
+      ],
+      "scene_seconds": 1125,
+      "timeline_interval": [
+        1115,
+        2240
+      ],
+      "nonzero_area_percent": 13.1249,
+      "strong_area_percent": 11.4513,
+      "alpha_weighted_area_percent": 11.3897,
+      "bounding_box_xyxy_exclusive": [
+        614,
+        390,
+        1920,
+        776
+      ],
+      "pixels_outside_corridor": 0,
+      "pixels_on_explicit_protected_regions": 0
+    },
+    {
+      "file": "03_宿の縁側から_薄暮_水域マスク.png",
+      "source_file": "../画像/03_宿の縁側から_薄暮.png",
+      "source_sha256": "01d28636fadb0df7dbb4955e2c986266f4a6af235d8e2aac89827d0cfb7f9b34",
+      "size": [
+        1920,
+        1080
+      ],
+      "scene_seconds": 560,
+      "timeline_interval": [
+        2225,
+        2785
+      ],
+      "nonzero_area_percent": 9.7775,
+      "strong_area_percent": 9.3945,
+      "alpha_weighted_area_percent": 9.4424,
+      "bounding_box_xyxy_exclusive": [
+        620,
+        496,
+        1920,
+        711
+      ],
+      "pixels_outside_corridor": 0,
+      "pixels_on_explicit_protected_regions": 0
+    },
+    {
+      "file": "04_月夜の海_夜_水域マスク.png",
+      "source_file": "../画像/04_月夜の海_夜.png",
+      "source_sha256": "82a53f4afc50a4be8d11a6cedd412ff3ad6506e2361472da3c0309cbb96a78f0",
+      "size": [
+        1920,
+        1080
+      ],
+      "scene_seconds": 838,
+      "timeline_interval": [
+        2770,
+        3608
+      ],
+      "nonzero_area_percent": 20.8271,
+      "strong_area_percent": 20.2253,
+      "alpha_weighted_area_percent": 20.2793,
+      "bounding_box_xyxy_exclusive": [
+        404,
+        443,
+        1920,
+        911
+      ],
+      "pixels_outside_corridor": 0,
+      "pixels_on_explicit_protected_regions": 0
+    }
+  ],
+  "cta": {
+    "file": "_cta.png",
+    "size": [
+      1920,
+      1080
+    ],
+    "mode": "RGBA",
+    "text": "気に入ったら、チャンネル登録をお願いします",
+    "same_defaults_as_soj08": true
+  },
+  "checks": {
+    "all_masks_1920x1080_grayscale": true,
+    "all_masks_nonempty": true,
+    "all_masks_zero_outside_water_corridors": true,
+    "all_masks_zero_on_explicit_protected_regions": true,
+    "cta_rgba_nonempty": true
+  },
+  "notes": [
+    "マスクは水だけを選択。境界の安全余白のため、泡の最外縁・人物の背後・松の際などの水面には固定部分が残る。",
+    "マスク確認JPGの水色が可動域。静止画で検品済み。動き試作・本編書き出しは今回の作業対象外。",
+    "色条件を晩秋の暗い海に合わせて調整。SOJ08の試作マスクへの依存はなく、4枚とも本スクリプトで再生成できる。"
+  ]
+}

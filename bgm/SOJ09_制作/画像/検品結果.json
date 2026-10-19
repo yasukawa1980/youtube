@@ -1,0 +1,90 @@
+{
+  "generated_images": 5,
+  "generation_tool_calls_including_edits": 11,
+  "delivery_size": "1920x1080",
+  "generation_tool": "built-in image_gen",
+  "luminance_method": "BT.709 luma on final 8-bit RGB PNG: 0.2126 R + 0.7152 G + 0.0722 B",
+  "images": [
+    {
+      "file": "01_波打ち際_昼下がり.png",
+      "mean_luminance": 103.949,
+      "pixels_below_16_percent": 2.9697,
+      "size": [
+        1920,
+        1080
+      ],
+      "sha256": "3b2d745a4ba55034cd8bade96d0d4fc9f9521491b73f2152993514d5dff1f5eb",
+      "water_mask_strong_area_percent": 34.5672,
+      "water_mask_nonzero_area_percent": 36.8579
+    },
+    {
+      "file": "02_漁村の浜_夕方.png",
+      "mean_luminance": 81.708,
+      "pixels_below_16_percent": 3.5247,
+      "size": [
+        1920,
+        1080
+      ],
+      "sha256": "a3a36335cd1a6e703f8ac5c4885b8307d08d16c05a9d5a174185fc11762f673e",
+      "water_mask_strong_area_percent": 11.4513,
+      "water_mask_nonzero_area_percent": 13.1249
+    },
+    {
+      "file": "03_宿の縁側から_薄暮.png",
+      "mean_luminance": 54.013,
+      "pixels_below_16_percent": 13.1981,
+      "size": [
+        1920,
+        1080
+      ],
+      "sha256": "01d28636fadb0df7dbb4955e2c986266f4a6af235d8e2aac89827d0cfb7f9b34",
+      "water_mask_strong_area_percent": 9.3945,
+      "water_mask_nonzero_area_percent": 9.7775
+    },
+    {
+      "file": "04_月夜の海_夜.png",
+      "mean_luminance": 39.888,
+      "pixels_below_16_percent": 13.5014,
+      "size": [
+        1920,
+        1080
+      ],
+      "sha256": "82a53f4afc50a4be8d11a6cedd412ff3ad6506e2361472da3c0309cbb96a78f0",
+      "water_mask_strong_area_percent": 20.2253,
+      "water_mask_nonzero_area_percent": 20.8271
+    },
+    {
+      "file": "05_サムネ_漁村の浜.png",
+      "mean_luminance": 83.949,
+      "pixels_below_16_percent": 3.1143,
+      "size": [
+        1920,
+        1080
+      ],
+      "sha256": "3f0429f5fcc80930b10102b662db7c3fd4d497b3bfaa8f14967e19a297c386f2"
+    }
+  ],
+  "checks": {
+    "png_count": 5,
+    "prompt_txt_count": 5,
+    "all_images_16_by_9": true,
+    "all_images_at_least_1920x1080": true,
+    "scene_1_mean_luminance_between_95_and_110": true,
+    "main_scene_luminance_decreases": true,
+    "scene_4_mean_luminance_between_40_and_55": false,
+    "scene_4_pixels_below_16_under_20_percent": true,
+    "thumbnail_boat_and_white_waves_readable_at_168px": true,
+    "thumbnail_subjects_clear_of_left_920px": true,
+    "visual_mask_previews_reviewed": true
+  },
+  "notes": [
+    "場面1の平均輝度は103.949。最も明るい本編画像。",
+    "場面4は39.888で目安40を0.112下回る。暗部13.5014%は20%未満。再調整案57.552は明るすぎたため不採用。目安への厳密適合とは報告しない。",
+    "場面2とサムネは後頭部だけの姿勢へ修正。両手は袖内、両足は砂に接地。舟を支える台木を除去し、船底を砂へ接地。",
+    "マスクは人物・舟・岩・縁側・松・月を保護。安全余白のため境界沿いには固定する水面部分も残る。夕方は暖色の反射域の一部も選択外。",
+    "生成元1672x941からLanczosで1920x1080へ拡大。1920x1080ネイティブ生成ではない。コードによる色調補正なし。",
+    "採用・不採用を含む実際の生成・編集プロンプト全文を同名_prompt.txtに保存。生成元.jsonで採用出力を特定。",
+    "サムネは文字なしの素材。168px縮小で舟と白波を目視確認。題字は未合成。",
+    "動き試作と本編書き出しは実施していない。既存build_full_video.pyは変更していない。"
+  ]
+}
