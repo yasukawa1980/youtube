@@ -8,7 +8,7 @@ from pathlib import Path
 import numpy as np
 from PIL import Image, ImageDraw, ImageFilter, ImageFont
 
-SRC = Path('/Volumes/ESD-02/BGM/IRO/Chill/18_毛糸の季節がやってきた/手直し_20261018/18_start_編む手元_犬1.4倍.png')
+SRC = Path('/Volumes/ESD-02/BGM/IRO/Chill/18_毛糸の季節がやってきた/手直し_20261018/18_start_編む手元v2_犬1.4倍.png')  # 10/19 試作3（針先が交差した形）に合わせてv2へ
 OUT = Path(sys.argv[1]) if len(sys.argv) > 1 else Path(__file__).resolve().parent / '_work/用途中心サムネ'
 F = '/System/Library/Fonts/'
 HEAVY, BOLD, MID, MIN = F + 'ヒラギノ角ゴシック W9.ttc', F + 'ヒラギノ角ゴシック W8.ttc', F + 'ヒラギノ角ゴシック W6.ttc', F + 'ヒラギノ明朝 ProN.ttc'
