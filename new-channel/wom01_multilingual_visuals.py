@@ -11,6 +11,8 @@ W, H = 1920, 1080
 BG, IVORY, GOLD, MUTED = "#0c1820", "#f4efdf", "#d8b575", "#b0bfc3"
 FONT = "/System/Library/Fonts/Supplemental/Arial.ttf"
 TITLE = "/System/Library/Fonts/Supplemental/Georgia.ttf"
+# Channel name is undecided; the default reproduces the v02 render byte for byte.
+BRAND = os.environ.get("WOM_BRAND", "WORLDS OF MYSTERY").upper()
 
 
 def font(size, serif=False):
@@ -33,7 +35,7 @@ def bars(im, heading, label, footer):
     d = ImageDraw.Draw(im)
     d.rectangle((0, 0, W, 164), fill=BG)
     d.rectangle((0, 970, W, H), fill=BG)
-    put(d, (100, 32), "WORLDS OF MYSTERY  /  EP001", 28, GOLD)
+    put(d, (100, 32), f"{BRAND}  /  EP001", 28, GOLD)
     fit_text(d, (100, 87), heading, 1720, 54, serif=True)
     width = d.textlength(label, font=font(34)) + 40
     d.rounded_rectangle((1820-width, 25, 1820, 77), 10, fill="#243942")
@@ -184,7 +186,7 @@ def main():
     put(d, (110, 165), "ANUBIS", 165, IVORY, True)
     put(d, (115, 410), "Judge or Protector?", 88, GOLD, True)
     put(d, (120, 575), "Who decides at the scale?", 49)
-    put(d, (120, 920), "WORLDS OF MYSTERY", 32, GOLD)
+    put(d, (120, 920), BRAND, 32, GOLD)
     im.save(root / "deliverables/EP001_thumbnail_en.jpg", quality=94)
     im.thumbnail((1280, 720))
     im.save(root / "review/wom01_サムネ.jpg", quality=88)
