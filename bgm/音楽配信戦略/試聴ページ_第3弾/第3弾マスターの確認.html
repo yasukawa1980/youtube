@@ -1,0 +1,193 @@
+<title>第3弾マスターの確認</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Shippori+Mincho:wght@500;700&family=Zen+Kaku+Gothic+New:wght@400;500;700&family=IBM+Plex+Mono:wght@400;500&display=swap">
+<style>
+/* Layout: one column of listening rows, grouped by brand; each brand band carries its own hue. Sticky tally bar at the bottom. */
+:root{
+  --bg:#f6f6f3; --surface:#ffffff; --fg:#1d1f24; --muted:#5f636c; --line:#dcdcd6;
+  --wjp:#2f3d6b; --wjp-soft:#e7eaf3;            /* Whispers: moonlit indigo */
+  --iro:#b4527a; --iro-soft:#f8e8ef;            /* IRO: pastel rose */
+  --ok:#2e7d4f; --ok-soft:#e2f2e8; --hold:#9a6a12; --hold-soft:#f6edd9; --no:#8a8f99; --no-soft:#ececec;
+  --display:"Shippori Mincho","Hiragino Mincho ProN","Yu Mincho",serif;
+  --body:"Zen Kaku Gothic New","Hiragino Sans","Yu Gothic",system-ui,sans-serif;
+  --mono:"IBM Plex Mono",ui-monospace,Menlo,monospace;
+}
+@media (prefers-color-scheme: dark){:root:not([data-theme="light"]){
+  --bg:#14161b; --surface:#1d2027; --fg:#e8e8e4; --muted:#a2a6af; --line:#30343d;
+  --wjp:#9fb1ea; --wjp-soft:#232a40; --iro:#ec9dbd; --iro-soft:#3a2430;
+  --ok:#7fd3a0; --ok-soft:#1f3328; --hold:#e2b866; --hold-soft:#3a3020; --no:#8f949d; --no-soft:#2a2d33; color-scheme:dark}}
+:root[data-theme="dark"]{
+  --bg:#14161b; --surface:#1d2027; --fg:#e8e8e4; --muted:#a2a6af; --line:#30343d;
+  --wjp:#9fb1ea; --wjp-soft:#232a40; --iro:#ec9dbd; --iro-soft:#3a2430;
+  --ok:#7fd3a0; --ok-soft:#1f3328; --hold:#e2b866; --hold-soft:#3a3020; --no:#8f949d; --no-soft:#2a2d33; color-scheme:dark}
+*{box-sizing:border-box}
+body{background:var(--bg);color:var(--fg);font-family:var(--body);font-size:15px;line-height:1.7;padding-inline:16px;padding-block:28px 120px}
+.wrap{max-width:860px;margin:0 auto;display:flex;flex-direction:column;gap:28px}
+h1{font-family:var(--display);font-weight:700;font-size:1.9rem;line-height:1.3;margin:0;text-wrap:balance}
+h2{font-family:var(--display);font-weight:700;font-size:1.35rem;margin:0;text-wrap:balance}
+.lead{color:var(--muted);margin:6px 0 0;max-width:62ch}
+.notes{display:grid;gap:6px;margin:0;padding:14px 16px;border:1px solid var(--line);border-radius:8px;background:var(--surface);font-size:.9rem}
+.notes p{margin:0}
+.brand{display:flex;flex-direction:column;gap:12px}
+.brand-head{display:flex;flex-wrap:wrap;align-items:baseline;justify-content:space-between;gap:8px;padding-bottom:8px;border-bottom:2px solid var(--hue)}
+.brand-head h2{color:var(--hue)}
+.brand-head .need{font-size:.85rem;color:var(--muted)}
+.brand.wjp{--hue:var(--wjp);--soft:var(--wjp-soft)}
+.brand.iro{--hue:var(--iro);--soft:var(--iro-soft)}
+.track{background:var(--surface);border:1px solid var(--line);border-radius:10px;padding:14px 16px;display:grid;gap:10px}
+.track.is-ok{border-color:var(--ok)}
+.track.is-no{opacity:.72}
+.t-top{display:flex;flex-wrap:wrap;gap:6px 12px;align-items:baseline}
+.t-title{font-family:var(--display);font-size:1.2rem;font-weight:700}
+.t-inst{color:var(--muted);font-size:.9rem}
+.tag{font-size:.72rem;letter-spacing:.04em;padding:1px 8px;border-radius:99px;background:var(--soft);color:var(--hue);font-weight:700}
+.player{display:flex;align-items:center;gap:10px;flex-wrap:wrap}
+.play{width:42px;height:42px;border-radius:50%;border:none;background:var(--hue);color:var(--surface);font-size:1rem;cursor:pointer;flex:none}
+.seek{flex:1 1 200px;min-width:0;accent-color:var(--hue)}
+.time{font-family:var(--mono);font-size:.82rem;color:var(--muted);font-variant-numeric:tabular-nums;min-width:96px}
+.jump{display:flex;gap:6px}
+button.ghost{font:inherit;font-size:.8rem;padding:4px 10px;border-radius:6px;border:1px solid var(--line);background:transparent;color:var(--fg);cursor:pointer}
+button:focus-visible,a:focus-visible,textarea:focus-visible,input:focus-visible{outline:2px solid var(--hue,var(--wjp));outline-offset:2px}
+.facts{font-family:var(--mono);font-size:.76rem;color:var(--muted);display:flex;flex-wrap:wrap;gap:4px 14px}
+.facts a{color:inherit}
+.checks{display:flex;flex-wrap:wrap;gap:6px 14px;font-size:.88rem}
+.checks label{display:flex;gap:6px;align-items:center;cursor:pointer}
+.verdict{display:flex;gap:6px;flex-wrap:wrap}
+.verdict button{font:inherit;font-size:.85rem;padding:5px 14px;border-radius:99px;border:1px solid var(--line);background:transparent;color:var(--fg);cursor:pointer}
+.verdict button[aria-pressed="true"][data-v="ok"]{background:var(--ok-soft);border-color:var(--ok);color:var(--ok);font-weight:700}
+.verdict button[aria-pressed="true"][data-v="hold"]{background:var(--hold-soft);border-color:var(--hold);color:var(--hold);font-weight:700}
+.verdict button[aria-pressed="true"][data-v="no"]{background:var(--no-soft);border-color:var(--no);color:var(--no);font-weight:700}
+textarea{width:100%;font:inherit;font-size:.9rem;padding:8px 10px;border-radius:6px;border:1px solid var(--line);background:var(--bg);color:var(--fg);resize:vertical;min-height:40px}
+.excluded{font-size:.85rem;color:var(--muted);padding:10px 14px;border:1px dashed var(--line);border-radius:8px}
+.bar{position:fixed;left:0;right:0;bottom:0;background:var(--surface);border-top:1px solid var(--line);padding:10px 16px calc(10px + env(safe-area-inset-bottom,0px))}
+.bar-in{max-width:860px;margin:0 auto;display:flex;flex-wrap:wrap;gap:8px 18px;align-items:center;justify-content:space-between}
+.tally{display:flex;gap:16px;font-size:.9rem;font-variant-numeric:tabular-nums}
+.tally b{font-family:var(--mono)}
+.tally .over{color:var(--hold)}
+.copy{font:inherit;font-weight:700;padding:8px 16px;border-radius:8px;border:none;background:var(--fg);color:var(--bg);cursor:pointer}
+#out{width:100%;min-height:120px;font-family:var(--mono);font-size:.8rem}
+@media (prefers-reduced-motion:reduce){*{transition:none!important}}
+</style>
+
+<div class="wrap">
+  <header>
+    <h1>第3弾マスターの確認</h1>
+    <p class="lead">第3弾の10曲を、DistroKidに出すマスター（24bit WAV）で通して聴くページです。問題がなければ「OK」、直したい点があれば「直したい」にしてメモを付けてください。終わったら「結果をコピー」を押して、Claudeに貼り付けてください。</p>
+  </header>
+
+  <div class="notes">
+    <p>・<b>「月の石垣」と「堀に映る月」は全編を聴いてください。</b>試聴ページの音は、Studio書き出しのときの伸び縮み（タイミングのずれ最大1.7秒）が入った版でした。今回Sunoから取り直したのは元の音で、曲は同じですが、細かい間の取り方が少し違って聞こえるかもしれません。</p>
+    <p>・ほかの8曲は、試聴した音と全編で同じでした。</p>
+    <p>・終わりのフェード：月の石垣・堀に映る月・月下の門＝3秒、城下の灯り＝4秒、天守の夜風＝2秒。IROは Slow Drizzle＝2秒、ほかは0.5〜1秒。音量は Whispers −16 LUFS／IRO −15 LUFS。手を加えたのは音量とフェードだけです。曲順は仮です。</p>
+  </div>
+
+  <section class="brand wjp" id="wjp">
+    <div class="brand-head"><h2>Whispers of Japan</h2><span class="need">Moonlit Castle ／ 月夜の城 ・ 5曲</span></div>
+    <div class="list"></div>
+  </section>
+
+  <section class="brand iro" id="iro">
+    <div class="brand-head"><h2>IRO Sounds</h2><span class="need">雨の日は、どこにも行かない。 ・ 5曲</span></div>
+    <div class="list"></div>
+  </section>
+
+  <section class="brand" style="--hue:var(--fg)">
+    <h2>結果</h2>
+    <textarea id="out" readonly aria-label="結果のテキスト"></textarea>
+  </section>
+</div>
+
+<div class="bar"><div class="bar-in">
+  <div class="tally"><span>Whispers OK <b id="c-wjp">0</b>/5</span><span>IRO OK <b id="c-iro">0</b>/5</span></div>
+  <button class="copy" id="copy" type="button">結果をコピー</button>
+</div></div>
+
+<script>
+const TRACKS=[
+ {id:"01",b:"wjp",title:"1. 天守の夜風",src:"v16_龍笛B-1",inst:"龍笛",suno:"98fe2d95-0f45-45de-a6d6-c3fd60e45b5b",dur:223.08,note:"−16.0 LUFS ・ 終わり2秒フェード"},
+ {id:"02",b:"wjp",title:"2. 月の石垣",src:"v16_龍笛A-2",inst:"龍笛",suno:"3e354093-ed20-4509-b2d1-efa60009e5c3",dur:224.4,note:"−16.0 LUFS ・ 終わり3秒フェード ・ 全編を確認",isnew:true},
+ {id:"03",b:"wjp",title:"3. 堀に映る月",src:"v16_龍笛C-1",inst:"龍笛",suno:"5fe73af4-f3e4-4c34-bf9f-9fba1a19015e",dur:202.8,note:"−16.0 LUFS ・ 終わり3秒フェード ・ 全編を確認",isnew:true},
+ {id:"04",b:"wjp",title:"4. 城下の灯り",src:"v16_笙B-1",inst:"笙",suno:"af16ce66-879e-4fbe-80f5-4c7574f09aff",dur:189.92,note:"−16.0 LUFS ・ 終わり4秒フェード"},
+ {id:"05",b:"wjp",title:"5. 月下の門",src:"v16_笙B-3",inst:"笙",suno:"383b9ae7-e3a6-4fea-90b7-6bfb6ab28236",dur:192.76,note:"−16.0 LUFS ・ 終わり3秒フェード"},
+ {id:"06",b:"iro",title:"1. Grey Morning",src:"iro09_B-6",inst:"チェレスタ",suno:"f9dcb84a-ed6f-4497-87d4-04251772328d",dur:239.88,note:"−15.0 LUFS"},
+ {id:"07",b:"iro",title:"2. Rainy Window",src:"iro09_A-6",inst:"ナイロン弦ギター",suno:"588bbd77-3078-45e6-87b0-223cd0b51f3e",dur:239.92,note:"−15.0 LUFS"},
+ {id:"08",b:"iro",title:"3. Slow Drizzle",src:"iro09_C-3",inst:"ペダルスチール",suno:"a965f603-f324-48dc-b375-aa66ed388274",dur:244.6,note:"−15.0 LUFS ・ 終わり2秒フェード"},
+ {id:"09",b:"iro",title:"4. Blanket Hour",src:"iro09_D-7",inst:"オーボエ",suno:"a1881fc6-4497-45b5-a6dc-bd80bc18ed3c",dur:239.84,note:"−15.0 LUFS"},
+ {id:"10",b:"iro",title:"5. Indoor Day",src:"iro09_F-3",inst:"アコーディオン",suno:"a475bd23-6a65-407e-8524-a45d480eb944",dur:239.88,note:"−15.0 LUFS"},
+];
+const CHECKS=[["head","頭が自然"],["tail","終わりが自然"],["voice","声・ハミングなし"],["noise","ノイズ・音切れなし"]];
+const KEY="dist-master-r3";
+let state={};
+try{state=JSON.parse(localStorage.getItem(KEY)||"{}")||{}}catch(e){state={}}
+const save=()=>{try{localStorage.setItem(KEY,JSON.stringify(state))}catch(e){}};
+const fmt=s=>{s=Math.max(0,Math.floor(s||0));return Math.floor(s/60)+":"+String(s%60).padStart(2,"0")};
+let current=null;
+
+TRACKS.forEach(t=>{
+  const st=state[t.id]||(state[t.id]={v:"",c:{},memo:""});
+  const el=document.createElement("article");
+  el.className="track";el.id="t"+t.id;
+  el.innerHTML=`
+   <div class="t-top"><span class="t-title">${t.title}</span><span class="t-inst">${t.inst}</span>${t.isnew?'<span class="tag">全編を確認</span>':""}</div>
+   <div class="player">
+     <button class="play" type="button" aria-label="${t.title}を再生">▶</button>
+     <input class="seek" id="seek${t.id}" type="range" min="0" max="${t.dur}" step="0.1" value="0" aria-label="${t.title}の再生位置">
+     <span class="time">0:00 / ${fmt(t.dur)}</span>
+     <span class="jump"><button class="ghost" type="button" data-j="0">冒頭</button><button class="ghost" type="button" data-j="end">終わり20秒</button></span>
+   </div>
+   <div class="facts"><span>${t.src}</span><span>${t.note}</span><a href="https://suno.com/song/${t.suno}" target="_blank" rel="noopener">Sunoの曲ページ ↗</a></div>
+   <div class="checks">${CHECKS.map(([k,l])=>`<label><input type="checkbox" id="c${t.id}${k}" data-k="${k}" ${st.c[k]?"checked":""}>${l}</label>`).join("")}</div>
+   <div class="verdict" role="group" aria-label="判定">
+     <button type="button" data-v="ok" aria-pressed="${st.v==="ok"}">OK</button>
+     <button type="button" data-v="hold" aria-pressed="${st.v==="hold"}">直したい</button>
+   </div>
+   <textarea id="memo${t.id}" rows="1" placeholder="直したい点（例：フェードが早すぎる・2:40あたりにノイズ）">${st.memo||""}</textarea>`;
+  document.querySelector(`#${t.b} .list`).appendChild(el);
+  el.parentElement.style.cssText="display:flex;flex-direction:column;gap:12px";
+
+  const audio=new Audio(); audio.preload="none"; audio.src=`master/m${t.id}.mp3`;
+  const btn=el.querySelector(".play"),seek=el.querySelector(".seek"),time=el.querySelector(".time");
+  const setBtn=()=>{btn.textContent=audio.paused?"▶":"❚❚";btn.setAttribute("aria-label",(audio.paused?"再生":"一時停止")+"："+t.title)};
+  const play=()=>{if(current&&current!==audio)current.pause();current=audio;audio.play().catch(()=>{})};
+  btn.onclick=()=>audio.paused?play():audio.pause();
+  audio.onplay=audio.onpause=setBtn;
+  audio.ontimeupdate=()=>{seek.value=audio.currentTime;time.textContent=fmt(audio.currentTime)+" / "+fmt(t.dur)};
+  audio.onended=setBtn;
+  seek.oninput=()=>{audio.currentTime=+seek.value};
+  el.querySelectorAll("[data-j]").forEach(b=>b.onclick=()=>{
+    const go=()=>{audio.currentTime=b.dataset.j==="end"?Math.max(0,(audio.duration||t.dur)-20):0;play()};
+    if(audio.readyState<1){audio.preload="auto";audio.addEventListener("loadedmetadata",go,{once:true});audio.load()}else go();
+  });
+  el.querySelectorAll(".checks input").forEach(cb=>cb.onchange=()=>{st.c[cb.dataset.k]=cb.checked;save();render()});
+  el.querySelectorAll(".verdict button").forEach(b=>b.onclick=()=>{
+    st.v=st.v===b.dataset.v?"":b.dataset.v;
+    el.querySelectorAll(".verdict button").forEach(x=>x.setAttribute("aria-pressed",x.dataset.v===st.v));
+    save();render();
+  });
+  el.querySelector("textarea").oninput=e=>{st.memo=e.target.value;save();render()};
+});
+
+function render(){
+  const n={wjp:0,iro:0};
+  TRACKS.forEach(t=>{const st=state[t.id];if(st.v==="ok")n[t.b]++;
+    const el=document.getElementById("t"+t.id);el.classList.toggle("is-ok",st.v==="ok");el.classList.toggle("is-no",st.v==="no")});
+  ["wjp","iro"].forEach(b=>{const c=document.getElementById("c-"+b);c.textContent=n[b];c.parentElement.classList.toggle("over",n[b]>5)});
+  const label={ok:"OK",hold:"直したい","":"未判定"};
+  const lines=["【第3弾マスターの確認結果】"];
+  [["wjp","Whispers of Japan"],["iro","IRO Sounds"]].forEach(([b,name])=>{
+    lines.push("","■ "+name+`（OK ${n[b]}/5）`);
+    TRACKS.filter(t=>t.b===b).forEach(t=>{const st=state[t.id];
+      const ng=CHECKS.filter(([k])=>!st.c[k]).map(([,l])=>l);
+      lines.push(`・${t.title}（${t.src}）：${label[st.v]}`+(ng.length&&ng.length<4?` ／未チェック：${ng.join("・")}`:ng.length===4?" ／チェック未記入":"")+(st.memo?` ／メモ：${st.memo}`:""));
+    });
+  });
+  document.getElementById("out").value=lines.join("\n");
+}
+render();
+document.getElementById("copy").onclick=async e=>{
+  const out=document.getElementById("out");
+  try{await navigator.clipboard.writeText(out.value);e.target.textContent="コピーしました"}
+  catch(err){out.focus();out.select();e.target.textContent="選択しました。⌘Cでコピー"}
+  setTimeout(()=>e.target.textContent="結果をコピー",2200);
+};
+</script>
