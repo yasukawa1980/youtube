@@ -134,7 +134,7 @@ def make_audio(root):
         attack = np.clip((t-(a-.18))/.18, 0, 1)
         release = np.clip(((b+.40)-t)/.40, 0, 1)
         duck = np.minimum(duck, 1-np.minimum(attack, release))
-    music *= 10**((-36.5-rms(music[mask]))/20)
+    music *= 10**((float(os.environ.get("WOM_BGM_DBFS", "-36.5"))-rms(music[mask]))/20)
     music *= (10**((4*duck)/20))[:, None]
     fade = np.minimum(np.clip(t/.7, 0, 1), np.clip((duration-t)/3, 0, 1))
     music *= fade[:, None]

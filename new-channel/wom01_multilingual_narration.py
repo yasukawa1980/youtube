@@ -59,6 +59,10 @@ def main():
     root = Path(os.environ["WOM_EPISODE_ROOT"]).resolve()
     source = Path(os.environ["WOM_SOURCE_ROOT"]).resolve()
     lang = os.environ["WOM_LANG"]
+    ja_style = int(os.environ.get("WOM_JA_STYLE_ID", "52"))
+    ja_speed = float(os.environ.get("WOM_JA_SPEED", "1.03"))
+    ja_voice = os.environ.get("WOM_JA_VOICE", "雀松朱司")
+    ja_model = os.environ.get("WOM_JA_MODEL", "12.vvm")
     assert lang in ("en", "ja")
     content = json.loads((root / "records" / ("content_en.json" if lang == "en" else "content.json")).read_text())
     folder = root / "audio" / lang / "sentences"
@@ -81,8 +85,11 @@ def main():
         )
         model_hash = hashlib.sha256((models / "kokoro-v1.0.onnx").read_bytes()).hexdigest()
         voice_hash = hashlib.sha256((models / "voices-v1.0.bin").read_bytes()).hexdigest()
+    ja_pacing_file = root / "records/japanese_pacing.json"
+    ja_pacing = json.loads(ja_pacing_file.read_text()) if ja_pacing_file.exists() else {}
     records = []
     for seg in content["segments"]:
+        ja_segment_speed = ja_pacing.get(seg["id"], ja_speed)
         speed = pacing.get(seg["id"], .82)
         sentences = (re.split(r"(?<=[.!?])\s+", seg["text"]) if lang == "en"
                      else re.findall(r"[^。！？]+[。！？]?", seg["text"]))
@@ -90,7 +97,7 @@ def main():
         for j, text in enumerate(sentences, 1):
             spoken = spoken_en(text) if lang == "en" else spoken_ja(text)
             if lang == "ja":
-                config = {"style_id": 52, "speed_scale": 1.03, "intonation_scale": 0.88,
+                config = {"style_id": ja_style, "speed_scale": ja_segment_speed, "intonation_scale": 0.88,
                           "pre_phoneme_length": 0.08, "post_phoneme_length": 0.17,
                           "output_sampling_rate": SR, "spoken_text": spoken}
             else:
@@ -117,13 +124,13 @@ def main():
                         ort = Onnxruntime.load_once(filename=str(next((runtime / "onnxruntime/lib").glob("*.dylib"))))
                         synth = Synthesizer(ort, OpenJtalk(str(runtime / "dict/open_jtalk_dic_utf_8-1.11")),
                                             acceleration_mode="CPU", cpu_num_threads=2)
-                        with VoiceModelFile.open(str(runtime / "models/vvms/12.vvm")) as model:
+                        with VoiceModelFile.open(str(runtime / "models/vvms" / ja_model)) as model:
                             synth.load_voice_model(model)
-                    q = synth.create_audio_query(spoken, 52)
+                    q = synth.create_audio_query(spoken, ja_style)
                     for field, val in config.items():
                         if field not in ("style_id", "spoken_text"):
                             setattr(q, field, val)
-                    path.write_bytes(synth.synthesis(q, 52))
+                    path.write_bytes(synth.synthesis(q, ja_style))
                     counts["new"] += 1
                 else:
                     audio, rate = tts.create(spoken, voice="af_heart", lang="en-us", speed=speed,
@@ -146,10 +153,10 @@ def main():
         assembled = np.concatenate(pieces)
         path = root / "audio" / lang / f'{seg["id"]}.wav'
         sf.write(path, assembled, SR, subtype="PCM_16")
-        records.append({**seg, "duration_seconds": len(assembled) / SR, "native_speed": speed if lang == "en" else 1.03,
+        records.append({**seg, "duration_seconds": len(assembled) / SR, "native_speed": speed if lang == "en" else ja_segment_speed,
                         "audio_file": str(path.relative_to(root)), "cues": cues})
         print(lang, seg["id"], f"{len(assembled)/SR:.3f}s", counts, flush=True)
-    report = {"language": lang, "sample_rate": SR, "voice": "Kokoro: af_heart" if lang == "en" else "VOICEVOX:雀松朱司",
+    report = {"language": lang, "sample_rate": SR, "voice": "Kokoro: af_heart" if lang == "en" else f"VOICEVOX:{ja_voice}",
               "sentence_boundary_timing": "measured individual synthesis; relative to segment",
               "human_auditory_review_completed": False, "cache_counts": counts, "segments": records}
     write_json(root / "records" / f"narration_segments_{lang}.json", report)

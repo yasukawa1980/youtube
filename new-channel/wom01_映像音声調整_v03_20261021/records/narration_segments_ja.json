@@ -1,0 +1,1619 @@
+{
+  "language": "ja",
+  "sample_rate": 24000,
+  "voice": "VOICEVOX:冥鳴ひまり",
+  "sentence_boundary_timing": "measured individual synthesis; relative to segment",
+  "human_auditory_review_completed": false,
+  "cache_counts": {
+    "new": 4,
+    "reused_legacy": 0,
+    "reused_current": 111
+  },
+  "segments": [
+    {
+      "id": "N01",
+      "chapter": "C01",
+      "heading": "天秤のそばに立つ神",
+      "caption": "よく知られた、裁きの場面",
+      "sources": [
+        "S04",
+        "S05"
+      ],
+      "classification": "myth_variant",
+      "visuals": [
+        "hero",
+        "balance"
+      ],
+      "text": "一つの心臓が、天秤に置かれる。向かい側にあるのは、正しいあり方を表すもの。秤のそばに立つのは、犬のような頭を持つ神、アヌビス。死者を裁く恐ろしい神として、よく知られた姿です。けれど、残された資料をよく見ると、アヌビスは一人で裁いているわけではありません。",
+      "duration_seconds": 22.176,
+      "native_speed": 1.0,
+      "audio_file": "audio/ja/N01.wav",
+      "cues": [
+        {
+          "id": "N01-01",
+          "text": "一つの心臓が、天秤に置かれる。",
+          "spoken_text": "一つの心臓が、天秤に置かれる。",
+          "start": 0.0,
+          "end": 2.816,
+          "audio_file": "audio/ja/sentences/N01_01_74c8f4d5ae49.wav",
+          "input_hash": "74c8f4d5ae49044b9641c746178f665f31abc39dfd8b6e08732510500aa420cf"
+        },
+        {
+          "id": "N01-02",
+          "text": "向かい側にあるのは、正しいあり方を表すもの。",
+          "spoken_text": "向かい側にあるのは、正しいあり方を表すもの。",
+          "start": 2.976,
+          "end": 6.72,
+          "audio_file": "audio/ja/sentences/N01_02_f774f46004c5.wav",
+          "input_hash": "f774f46004c5f481200f558142c45a3153880422e45048e750a63efb1ca9ddc2"
+        },
+        {
+          "id": "N01-03",
+          "text": "秤のそばに立つのは、犬のような頭を持つ神、アヌビス。",
+          "spoken_text": "秤のそばに立つのは、犬のような頭を持つ神、アヌビス。",
+          "start": 6.88,
+          "end": 11.530666666666667,
+          "audio_file": "audio/ja/sentences/N01_03_a3cef4ce444b.wav",
+          "input_hash": "a3cef4ce444b38e5d9799178feadd1ba127bc4e1e0a6674015b3f2ebebaddbe5"
+        },
+        {
+          "id": "N01-04",
+          "text": "死者を裁く恐ろしい神として、よく知られた姿です。",
+          "spoken_text": "死者を裁く恐ろしい神として、よく知られた姿です。",
+          "start": 11.690666666666667,
+          "end": 15.786666666666667,
+          "audio_file": "audio/ja/sentences/N01_04_e611c8405a62.wav",
+          "input_hash": "e611c8405a6298406032301d16c06b6dd7a4b9621ae460fedf08fd9156c71f9f"
+        },
+        {
+          "id": "N01-05",
+          "text": "けれど、残された資料をよく見ると、アヌビスは一人で裁いているわけではありません。",
+          "spoken_text": "けれど、残された資料をよく見ると、アヌビスは一人で裁いているわけではありません。",
+          "start": 15.946666666666667,
+          "end": 22.176,
+          "audio_file": "audio/ja/sentences/N01_05_a4276d1ed360.wav",
+          "input_hash": "a4276d1ed3604f73ec3e066d781dc3a40ae98bf503e1565f1e1a8ccce5be1678"
+        }
+      ]
+    },
+    {
+      "id": "N02",
+      "chapter": "C01",
+      "heading": "では、何をしている神なのか",
+      "caption": "問い：アヌビスは何をしているのか",
+      "sources": [
+        "S01",
+        "S04"
+      ],
+      "classification": "editorial_question",
+      "visuals": [
+        "met_548344_detail",
+        "met_544075"
+      ],
+      "text": "では、アヌビスは何をしている神なのでしょう。墓を見張り、亡くなった人の身体を守り、死者の旅を支える。そして、心臓を量る秤を確かめる。今回は、メトロポリタン美術館に残る彫像やパピルスを手がかりに、資料の中のアヌビスの仕事を、一つずつ見ていきます。",
+      "duration_seconds": 21.162666666666667,
+      "native_speed": 1.0,
+      "audio_file": "audio/ja/N02.wav",
+      "cues": [
+        {
+          "id": "N02-01",
+          "text": "では、アヌビスは何をしている神なのでしょう。",
+          "spoken_text": "では、アヌビスは何をしている神なのでしょう。",
+          "start": 0.0,
+          "end": 3.3173333333333335,
+          "audio_file": "audio/ja/sentences/N02_01_a841e4ac15be.wav",
+          "input_hash": "a841e4ac15be60ae5ebfbb457464d700e4f1ed52a2676b67dc0a3cbf572b5950"
+        },
+        {
+          "id": "N02-02",
+          "text": "墓を見張り、亡くなった人の身体を守り、死者の旅を支える。",
+          "spoken_text": "墓を見張り、亡くなった人の身体を守り、死者の旅を支える。",
+          "start": 3.477333333333333,
+          "end": 8.448,
+          "audio_file": "audio/ja/sentences/N02_02_aabfee037ecc.wav",
+          "input_hash": "aabfee037eccd53e7c880b0b4c304e4beae80189523ed28392b5a60b1598abed"
+        },
+        {
+          "id": "N02-03",
+          "text": "そして、心臓を量る秤を確かめる。",
+          "spoken_text": "そして、心臓を量る秤を確かめる。",
+          "start": 8.608,
+          "end": 11.690666666666667,
+          "audio_file": "audio/ja/sentences/N02_03_b40e207831d2.wav",
+          "input_hash": "b40e207831d22463cdca3105ad6589ba4fc81bfe89b72e91c3e6490c521f90b8"
+        },
+        {
+          "id": "N02-04",
+          "text": "今回は、メトロポリタン美術館に残る彫像やパピルスを手がかりに、資料の中のアヌビスの仕事を、一つずつ見ていきます。",
+          "spoken_text": "今回は、メトロポリタン美術館に残る彫像やパピルスを手がかりに、資料の中のアヌビスの仕事を、一つずつ見ていきます。",
+          "start": 11.850666666666667,
+          "end": 21.162666666666667,
+          "audio_file": "audio/ja/sentences/N02_04_feecad2cb084.wav",
+          "input_hash": "feecad2cb084ed503b5aa5efe9fc923d0a7a6d00c1de310e1e74afff65691581"
+        }
+      ]
+    },
+    {
+      "id": "N03",
+      "chapter": "C01",
+      "heading": "資料と再現を見分ける",
+      "caption": "史料画像と再現イメージを区別します",
+      "sources": [
+        "S01",
+        "S04",
+        "S06"
+      ],
+      "classification": "production_method",
+      "visuals": [
+        "evidence",
+        "met_557830"
+      ],
+      "text": "画面には、博物館に残る資料の写真と、理解を助けるための再現イメージが登場します。再現イメージには、画面の右上に表示を付けています。それでは、一つめの資料から見ていきましょう。",
+      "duration_seconds": 13.781333333333333,
+      "native_speed": 1.0933,
+      "audio_file": "audio/ja/N03.wav",
+      "cues": [
+        {
+          "id": "N03-01",
+          "text": "画面には、博物館に残る資料の写真と、理解を助けるための再現イメージが登場します。",
+          "spoken_text": "画面には、博物館に残る資料の写真と、理解を助けるための再現イメージが登場します。",
+          "start": 0.0,
+          "end": 6.592,
+          "audio_file": "audio/ja/sentences/N03_01_18c3547c7e52.wav",
+          "input_hash": "18c3547c7e524b1e048d3a29536ca9c820e125ea5ca3e4f60e17a705e50b5af5"
+        },
+        {
+          "id": "N03-02",
+          "text": "再現イメージには、画面の右上に表示を付けています。",
+          "spoken_text": "再現イメージには、画面の右上に表示を付けています。",
+          "start": 6.752,
+          "end": 10.570666666666666,
+          "audio_file": "audio/ja/sentences/N03_02_4c24849dc0da.wav",
+          "input_hash": "4c24849dc0da640c35a79b77878c2bf878db6cff55a1f41db0304df382cee448"
+        },
+        {
+          "id": "N03-03",
+          "text": "それでは、一つめの資料から見ていきましょう。",
+          "spoken_text": "それでは、一つめの資料から見ていきましょう。",
+          "start": 10.730666666666666,
+          "end": 13.781333333333333,
+          "audio_file": "audio/ja/sentences/N03_03_c319f54afb6b.wav",
+          "input_hash": "c319f54afb6bc1957fa042bd41b653dd548c6ac12f21bfb531b64f8c252b9c21"
+        }
+      ]
+    },
+    {
+      "id": "N04",
+      "chapter": "C02",
+      "heading": "警戒する犬科の姿",
+      "caption": "横たわっていても、耳は立っている",
+      "sources": [
+        "S01"
+      ],
+      "classification": "historical_fact",
+      "visuals": [
+        "met_544075",
+        "met_544075_detail"
+      ],
+      "text": "まず、横たわる犬科の動物の像を見てください。前足を伸ばし、耳を立てた姿は、眠っているというより、周囲を見張っているようです。メトロポリタン美術館にあるこの像は石灰岩で作られ、もとは黒く塗られていました。神は、人の姿だけで表されたわけではなかったのです。",
+      "duration_seconds": 19.488,
+      "native_speed": 1.0931,
+      "audio_file": "audio/ja/N04.wav",
+      "cues": [
+        {
+          "id": "N04-01",
+          "text": "まず、横たわる犬科の動物の像を見てください。",
+          "spoken_text": "まず、横たわる犬科の動物の像を見てください。",
+          "start": 0.0,
+          "end": 3.509333333333333,
+          "audio_file": "audio/ja/sentences/N04_01_46293e88abcd.wav",
+          "input_hash": "46293e88abcde82142a94325545f406f90ef0ff0377e42f3f70e05b9e8791b67"
+        },
+        {
+          "id": "N04-02",
+          "text": "前足を伸ばし、耳を立てた姿は、眠っているというより、周囲を見張っているようです。",
+          "spoken_text": "前足を伸ばし、耳を立てた姿は、眠っているというより、周囲を見張っているようです。",
+          "start": 3.6693333333333333,
+          "end": 9.781333333333333,
+          "audio_file": "audio/ja/sentences/N04_02_8efdd0c4a115.wav",
+          "input_hash": "8efdd0c4a11544dd86984ce3d364259791a3c26c03a648244f441608d74905f3"
+        },
+        {
+          "id": "N04-03",
+          "text": "メトロポリタン美術館にあるこの像は石灰岩で作られ、もとは黒く塗られていました。",
+          "spoken_text": "メトロポリタン美術館にあるこの像は石灰岩で作られ、もとは黒く塗られていました。",
+          "start": 9.941333333333333,
+          "end": 15.402666666666667,
+          "audio_file": "audio/ja/sentences/N04_03_4d7df9f9e30c.wav",
+          "input_hash": "4d7df9f9e30cdf66f49fcfd117b3a5c4ed1e03060ad716fecb6c2e475b5197f4"
+        },
+        {
+          "id": "N04-04",
+          "text": "神は、人の姿だけで表されたわけではなかったのです。",
+          "spoken_text": "神は、人の姿だけで表されたわけではなかったのです。",
+          "start": 15.562666666666667,
+          "end": 19.488,
+          "audio_file": "audio/ja/sentences/N04_04_eb3cec0aabe9.wav",
+          "input_hash": "eb3cec0aabe9d83b28cb4d94676cb264f68049c9a3697a4789c8cdc0561eb1cf"
+        }
+      ]
+    },
+    {
+      "id": "N05",
+      "chapter": "C02",
+      "heading": "墓地と動物の関わり",
+      "caption": "起源についての解釈は、断定しない",
+      "sources": [
+        "S01"
+      ],
+      "classification": "scholarly_interpretation",
+      "visuals": [
+        "nile",
+        "met_544075"
+      ],
+      "text": "美術館の解説は、墓地と犬科の動物の関わりに注目します。墓地に現れる動物は、遺体を荒らす存在でもありました。その一方で、警戒する姿は、死者を見守る力として捉えられたのでしょう。これは姿の背景を考える解釈です。アヌビスの起源を、ただ一つの理由で証明したものではありません。",
+      "duration_seconds": 21.312,
+      "native_speed": 1.091,
+      "audio_file": "audio/ja/N05.wav",
+      "cues": [
+        {
+          "id": "N05-01",
+          "text": "美術館の解説は、墓地と犬科の動物の関わりに注目します。",
+          "spoken_text": "美術館の解説は、墓地と犬科の動物の関わりに注目します。",
+          "start": 0.0,
+          "end": 4.448,
+          "audio_file": "audio/ja/sentences/N05_01_46f20874c4e4.wav",
+          "input_hash": "46f20874c4e44579acadbfdd50b0a8252dc89e4a61e02084ada9d86640fb7223"
+        },
+        {
+          "id": "N05-02",
+          "text": "墓地に現れる動物は、遺体を荒らす存在でもありました。",
+          "spoken_text": "墓地に現れる動物は、遺体を荒らす存在でもありました。",
+          "start": 4.608,
+          "end": 8.490666666666666,
+          "audio_file": "audio/ja/sentences/N05_02_5de1b7d2799f.wav",
+          "input_hash": "5de1b7d2799ff3f329e886fd692e9491f84a10eacb4c3e4173e37f61bfc48b47"
+        },
+        {
+          "id": "N05-03",
+          "text": "その一方で、警戒する姿は、死者を見守る力として捉えられたのでしょう。",
+          "spoken_text": "その一方で、警戒する姿は、死者を見守る力として捉えられたのでしょう。",
+          "start": 8.650666666666666,
+          "end": 13.984,
+          "audio_file": "audio/ja/sentences/N05_03_4b891da34d82.wav",
+          "input_hash": "4b891da34d829868eb9b4c118191e7084d6fbe6a0d1d9dbaffc105b807e0be2b"
+        },
+        {
+          "id": "N05-04",
+          "text": "これは姿の背景を考える解釈です。",
+          "spoken_text": "これは姿の背景を考える解釈です。",
+          "start": 14.144,
+          "end": 16.906666666666666,
+          "audio_file": "audio/ja/sentences/N05_04_dd28f15e0f26.wav",
+          "input_hash": "dd28f15e0f265bf89ba2ce44988d4e09f13a5be35fe1c810ea12244f05d44563"
+        },
+        {
+          "id": "N05-05",
+          "text": "アヌビスの起源を、ただ一つの理由で証明したものではありません。",
+          "spoken_text": "アヌビスの起源を、ただ一つの理由で証明したものではありません。",
+          "start": 17.066666666666666,
+          "end": 21.312,
+          "audio_file": "audio/ja/sentences/N05_05_575476e2c94f.wav",
+          "input_hash": "575476e2c94f44ed33f6bacae6f66a49b368e84d38b67f1e850efe93b6909e3d"
+        }
+      ]
+    },
+    {
+      "id": "N06",
+      "chapter": "C02",
+      "heading": "人の身体と、動物の頭",
+      "caption": "複数の姿で表された神",
+      "sources": [
+        "S02"
+      ],
+      "classification": "historical_fact",
+      "visuals": [
+        "met_590939",
+        "met_590939_detail"
+      ],
+      "text": "別の小像では、動物の頭に人の身体が組み合わされています。細かな衣装の模様まで残る、木製の像です。美術館は、これをおそらくアヌビスと説明しています。犬科の頭を持つ神は複数いたためです。よく似た姿を見つけても、名前まで確実に分かるとは限りません。",
+      "duration_seconds": 21.258666666666667,
+      "native_speed": 1.0,
+      "audio_file": "audio/ja/N06.wav",
+      "cues": [
+        {
+          "id": "N06-01",
+          "text": "別の小像では、動物の頭に人の身体が組み合わされています。",
+          "spoken_text": "別の小像では、動物の頭に人の身体が組み合わされています。",
+          "start": 0.0,
+          "end": 5.066666666666666,
+          "audio_file": "audio/ja/sentences/N06_01_cd87daec8bf1.wav",
+          "input_hash": "cd87daec8bf16b31b426bc203c722cc3af417cec7ba134de8c5cfd9e83b1fd08"
+        },
+        {
+          "id": "N06-02",
+          "text": "細かな衣装の模様まで残る、木製の像です。",
+          "spoken_text": "細かな衣装の模様まで残る、木製の像です。",
+          "start": 5.226666666666667,
+          "end": 8.96,
+          "audio_file": "audio/ja/sentences/N06_02_9ceef3f8ec65.wav",
+          "input_hash": "9ceef3f8ec65fad20cb05a5f65ecb80f54bf8632cb56e86518a7f694787282bc"
+        },
+        {
+          "id": "N06-03",
+          "text": "美術館は、これをおそらくアヌビスと説明しています。",
+          "spoken_text": "美術館は、これをおそらくアヌビスと説明しています。",
+          "start": 9.12,
+          "end": 13.024,
+          "audio_file": "audio/ja/sentences/N06_03_6830dce6ef5c.wav",
+          "input_hash": "6830dce6ef5c71be5fa33b89f73524531ec92c619045a3a95305801bfbaaa093"
+        },
+        {
+          "id": "N06-04",
+          "text": "犬科の頭を持つ神は複数いたためです。",
+          "spoken_text": "犬科の頭を持つ神は複数いたためです。",
+          "start": 13.184,
+          "end": 16.192,
+          "audio_file": "audio/ja/sentences/N06_04_9c8510197249.wav",
+          "input_hash": "9c85101972496db194996980c6bc4e5505586995d520aa752d8296b132105412"
+        },
+        {
+          "id": "N06-05",
+          "text": "よく似た姿を見つけても、名前まで確実に分かるとは限りません。",
+          "spoken_text": "よく似た姿を見つけても、名前まで確実に分かるとは限りません。",
+          "start": 16.352,
+          "end": 21.258666666666667,
+          "audio_file": "audio/ja/sentences/N06_05_9b130c4153fc.wav",
+          "input_hash": "9b130c4153fc254bbda9ee1c3366e4f63269b77e2a8f156e7b08ec2c41316a81"
+        }
+      ]
+    },
+    {
+      "id": "N07",
+      "chapter": "C02",
+      "heading": "像の年代も、手がかりになる",
+      "caption": "古代エジプトを、一枚の時代にしない",
+      "sources": [
+        "S01",
+        "S02",
+        "S07"
+      ],
+      "classification": "historical_fact",
+      "visuals": [
+        "timeline",
+        "met_544206"
+      ],
+      "text": "ここで大切なのが、年代です。今見た像と、のちほど見る王の浮き彫りは、同じ時代の作品ではありません。古代エジプトという名前の中には、長い時間が含まれています。姿や役割を理解するときには、何が描かれたかだけでなく、いつの資料なのかも確かめる必要があります。",
+      "duration_seconds": 21.461333333333332,
+      "native_speed": 1.0,
+      "audio_file": "audio/ja/N07.wav",
+      "cues": [
+        {
+          "id": "N07-01",
+          "text": "ここで大切なのが、年代です。",
+          "spoken_text": "ここで大切なのが、年代です。",
+          "start": 0.0,
+          "end": 2.6986666666666665,
+          "audio_file": "audio/ja/sentences/N07_01_28a4945a00b0.wav",
+          "input_hash": "28a4945a00b08cad534a0faaac92d7e2b19867eb94f52c68816179e2ed0def03"
+        },
+        {
+          "id": "N07-02",
+          "text": "今見た像と、のちほど見る王の浮き彫りは、同じ時代の作品ではありません。",
+          "spoken_text": "今見た像と、のちほど見る王の浮き彫りは、同じ時代の作品ではありません。",
+          "start": 2.8586666666666667,
+          "end": 8.533333333333333,
+          "audio_file": "audio/ja/sentences/N07_02_2738008fceaf.wav",
+          "input_hash": "2738008fceaf04959f615dc05f520ca2b3eb9b88d4417dbe1ef02f7b0b9ab82e"
+        },
+        {
+          "id": "N07-03",
+          "text": "古代エジプトという名前の中には、長い時間が含まれています。",
+          "spoken_text": "古代エジプトという名前の中には、長い時間が含まれています。",
+          "start": 8.693333333333333,
+          "end": 13.344,
+          "audio_file": "audio/ja/sentences/N07_03_76da1f4f1014.wav",
+          "input_hash": "76da1f4f1014c1ce8a44b1a89925b06d3d8f99aa45792f86bfa6a09557bfcfd8"
+        },
+        {
+          "id": "N07-04",
+          "text": "姿や役割を理解するときには、何が描かれたかだけでなく、いつの資料なのかも確かめる必要があります。",
+          "spoken_text": "姿や役割を理解するときには、何が描かれたかだけでなく、いつの資料なのかも確かめる必要があります。",
+          "start": 13.504,
+          "end": 21.461333333333332,
+          "audio_file": "audio/ja/sentences/N07_04_ba8586b6892a.wav",
+          "input_hash": "ba8586b6892aee354bc98e4d29e05c465aeb6e19e471afacf0507f3a2d004b37"
+        }
+      ]
+    },
+    {
+      "id": "N08",
+      "chapter": "C03",
+      "heading": "死後の旅を支える準備",
+      "caption": "身体を保存することの意味",
+      "sources": [
+        "S03"
+      ],
+      "classification": "myth_variant",
+      "visuals": [
+        "linen",
+        "journey"
+      ],
+      "text": "アヌビスの重要な役割の一つが、ミイラ作りとの関わりです。古代の信仰では、亡くなった人の身体を整え、儀礼を行うことが、死後の存在を支える準備とされました。身体の保存は、見た目を残すことだけではなく、再び生きることへの願いと結びついていたのです。",
+      "duration_seconds": 19.658666666666665,
+      "native_speed": 1.0785,
+      "audio_file": "audio/ja/N08.wav",
+      "cues": [
+        {
+          "id": "N08-01",
+          "text": "アヌビスの重要な役割の一つが、ミイラ作りとの関わりです。",
+          "spoken_text": "アヌビスの重要な役割の一つが、ミイラ作りとの関わりです。",
+          "start": 0.0,
+          "end": 4.405333333333333,
+          "audio_file": "audio/ja/sentences/N08_01_c4e136589150.wav",
+          "input_hash": "c4e13658915005ada1c3ac68caca6e0459670496c09bb77ebe2d4967348a1261"
+        },
+        {
+          "id": "N08-02",
+          "text": "古代の信仰では、亡くなった人の身体を整え、儀礼を行うことが、死後の存在を支える準備とされました。",
+          "spoken_text": "古代の信仰では、亡くなった人の身体を整え、儀礼を行うことが、死後の存在を支える準備とされました。",
+          "start": 4.565333333333333,
+          "end": 12.704,
+          "audio_file": "audio/ja/sentences/N08_02_f49efb872298.wav",
+          "input_hash": "f49efb872298908ee275fc78fcf2f18123ec02da122f52e1a0af7c800d012093"
+        },
+        {
+          "id": "N08-03",
+          "text": "身体の保存は、見た目を残すことだけではなく、再び生きることへの願いと結びついていたのです。",
+          "spoken_text": "身体の保存は、見た目を残すことだけではなく、再び生きることへの願いと結びついていたのです。",
+          "start": 12.864,
+          "end": 19.658666666666665,
+          "audio_file": "audio/ja/sentences/N08_03_658f86d0e706.wav",
+          "input_hash": "658f86d0e70698c8b359ec09f9b355f718d28b22055eb80bc2ce52701a9383b0"
+        }
+      ]
+    },
+    {
+      "id": "N09",
+      "chapter": "C03",
+      "heading": "神が身体を守る場面",
+      "caption": "棺の場面は解説から紹介／画像は再現イメージ",
+      "sources": [
+        "S03",
+        "S12"
+      ],
+      "classification": "myth_variant",
+      "visuals": [
+        "linen",
+        "journey"
+      ],
+      "text": "美術館がかつて展示した、ネジェムアンクという神官の金色の棺。その解説では、寝台の上のミイラのそばで、アヌビスが儀礼を行う場面が紹介されています。イシスとネフティスも、ミイラを守る存在として描かれていました。なお、この棺は不正に持ち出された品と分かり、二〇一九年にエジプトへ返還されています。",
+      "duration_seconds": 23.786666666666665,
+      "native_speed": 1.0,
+      "audio_file": "audio/ja/N09.wav",
+      "cues": [
+        {
+          "id": "N09-01",
+          "text": "美術館がかつて展示した、ネジェムアンクという神官の金色の棺。",
+          "spoken_text": "美術館がかつて展示した、ネジェムアンクという神官の金色の棺。",
+          "start": 0.0,
+          "end": 4.8,
+          "audio_file": "audio/ja/sentences/N09_01_1842ac582e33.wav",
+          "input_hash": "1842ac582e33a5cc4d30e668fcae81bef8a33058f7650b5d08604425133825db"
+        },
+        {
+          "id": "N09-02",
+          "text": "その解説では、寝台の上のミイラのそばで、アヌビスが儀礼を行う場面が紹介されています。",
+          "spoken_text": "その解説では、寝台の上のミイラのそばで、アヌビスが儀礼を行う場面が紹介されています。",
+          "start": 4.96,
+          "end": 12.053333333333333,
+          "audio_file": "audio/ja/sentences/N09_02_da72875a70e4.wav",
+          "input_hash": "da72875a70e46100b120f90e80faf52b149373e39d2e5f0f630fb63985aaef96"
+        },
+        {
+          "id": "N09-03",
+          "text": "イシスとネフティスも、ミイラを守る存在として描かれていました。",
+          "spoken_text": "イシスとネフティスも、ミイラを守る存在として描かれていました。",
+          "start": 12.213333333333333,
+          "end": 16.72533333333333,
+          "audio_file": "audio/ja/sentences/N09_03_102cbfc73243.wav",
+          "input_hash": "102cbfc732435e41d8db4f470b7039d2949779cd2f18dc26aa25379f46ec5310"
+        },
+        {
+          "id": "N09-04",
+          "text": "なお、この棺は不正に持ち出された品と分かり、二〇一九年にエジプトへ返還されています。",
+          "spoken_text": "なお、この棺は不正に持ち出された品と分かり、にせんじゅうきゅうねんにエジプトへ返還されています。",
+          "start": 16.88533333333333,
+          "end": 23.786666666666665,
+          "audio_file": "audio/ja/sentences/N09_04_ad9153151f3d.wav",
+          "input_hash": "ad9153151f3db1c9f23e6057f2545947e011e0749fc97a7a520019ab4b608093"
+        }
+      ]
+    },
+    {
+      "id": "N10",
+      "chapter": "C03",
+      "heading": "儀礼は、生きている人が行う",
+      "caption": "神の物語と、人の営み",
+      "sources": [
+        "S01",
+        "S03"
+      ],
+      "classification": "historical_fact",
+      "visuals": [
+        "linen",
+        "evidence"
+      ],
+      "text": "もちろん、実際に亡くなった人を整え、埋葬の準備をしたのは、生きている人々です。神の物語は、その営みに意味を与えていました。人の手による作業と、神による守り。その二つが重なって、葬送の儀礼が形づくられていたのです。",
+      "duration_seconds": 17.397333333333332,
+      "native_speed": 1.0966,
+      "audio_file": "audio/ja/N10.wav",
+      "cues": [
+        {
+          "id": "N10-01",
+          "text": "もちろん、実際に亡くなった人を整え、埋葬の準備をしたのは、生きている人々です。",
+          "spoken_text": "もちろん、実際に亡くなった人を整え、埋葬の準備をしたのは、生きている人々です。",
+          "start": 0.0,
+          "end": 6.314666666666667,
+          "audio_file": "audio/ja/sentences/N10_01_dac930e4c9b5.wav",
+          "input_hash": "dac930e4c9b57cfbf67b208abd70ba3680d9b3212d57e04cc0d452fb98908a2d"
+        },
+        {
+          "id": "N10-02",
+          "text": "神の物語は、その営みに意味を与えていました。",
+          "spoken_text": "神の物語は、その営みに意味を与えていました。",
+          "start": 6.474666666666667,
+          "end": 10.005333333333333,
+          "audio_file": "audio/ja/sentences/N10_02_c0c319feb920.wav",
+          "input_hash": "c0c319feb920eead743a543360ff4a7fe180928e7106dd6b9308196bef1dcd8e"
+        },
+        {
+          "id": "N10-03",
+          "text": "人の手による作業と、神による守り。",
+          "spoken_text": "人の手による作業と、神による守り。",
+          "start": 10.165333333333333,
+          "end": 12.949333333333334,
+          "audio_file": "audio/ja/sentences/N10_03_cc16c8194099.wav",
+          "input_hash": "cc16c819409999347e65f5a494440d471794652d4f6e133d48ba341fa487f8ad"
+        },
+        {
+          "id": "N10-04",
+          "text": "その二つが重なって、葬送の儀礼が形づくられていたのです。",
+          "spoken_text": "その二つが重なって、葬送の儀礼が形づくられていたのです。",
+          "start": 13.109333333333334,
+          "end": 17.397333333333332,
+          "audio_file": "audio/ja/sentences/N10_04_8601325cc982.wav",
+          "input_hash": "8601325cc9826df60e851d7c0e294d674adc8be6d5f8a65be096cdbf2f5c7ca3"
+        }
+      ]
+    },
+    {
+      "id": "N11",
+      "chapter": "C03",
+      "heading": "守るための、別のかたち",
+      "caption": "イミウト：葬送儀礼に関わる祭具",
+      "sources": [
+        "S11"
+      ],
+      "classification": "historical_fact",
+      "visuals": [
+        "met_545547",
+        "journey"
+      ],
+      "text": "保護の考え方は、神の像以外にも表れています。イミウトと呼ばれる祭具は、棒と容器、動物の皮に包まれた形を組み合わせたものです。美術館の解説によると、こうした祭具や守護像は、神聖な空間や葬送の儀礼に関わっていました。死者を守る準備には、さまざまな形があったのです。",
+      "duration_seconds": 22.208,
+      "native_speed": 1.0605,
+      "audio_file": "audio/ja/N11.wav",
+      "cues": [
+        {
+          "id": "N11-01",
+          "text": "保護の考え方は、神の像以外にも表れています。",
+          "spoken_text": "保護の考え方は、神の像以外にも表れています。",
+          "start": 0.0,
+          "end": 3.968,
+          "audio_file": "audio/ja/sentences/N11_01_f366311f81db.wav",
+          "input_hash": "f366311f81dbe087b1f16a16cb5ee24caf9616a42c2afbd45fb76ebdb7f340e2"
+        },
+        {
+          "id": "N11-02",
+          "text": "イミウトと呼ばれる祭具は、棒と容器、動物の皮に包まれた形を組み合わせたものです。",
+          "spoken_text": "イミウトと呼ばれるさいぐは、棒と容器、動物の皮に包まれた形を組み合わせたものです。",
+          "start": 4.128,
+          "end": 10.698666666666666,
+          "audio_file": "audio/ja/sentences/N11_02_f066c1ba5751.wav",
+          "input_hash": "f066c1ba5751e91560f02a094b774e43f922020548793c5134d1e8312c7adc6b"
+        },
+        {
+          "id": "N11-03",
+          "text": "美術館の解説によると、こうした祭具や守護像は、神聖な空間や葬送の儀礼に関わっていました。",
+          "spoken_text": "美術館の解説によると、こうしたさいぐや守護像は、神聖な空間や葬送の儀礼に関わっていました。",
+          "start": 10.858666666666666,
+          "end": 18.282666666666668,
+          "audio_file": "audio/ja/sentences/N11_03_5cd96210d4a8.wav",
+          "input_hash": "5cd96210d4a8d490766dcf6cdc66f27f20866a359c751c28f4e03140fa19c59c"
+        },
+        {
+          "id": "N11-04",
+          "text": "死者を守る準備には、さまざまな形があったのです。",
+          "spoken_text": "死者を守る準備には、さまざまな形があったのです。",
+          "start": 18.442666666666668,
+          "end": 22.208,
+          "audio_file": "audio/ja/sentences/N11_04_43be28a29e84.wav",
+          "input_hash": "43be28a29e84e41f01f4cfcdafa6103b10c2924475047e40ad091c260360ee9e"
+        }
+      ]
+    },
+    {
+      "id": "N12",
+      "chapter": "C04",
+      "heading": "死者の書を開く",
+      "caption": "現代の本とは、少し違う",
+      "sources": [
+        "S04"
+      ],
+      "classification": "historical_fact",
+      "visuals": [
+        "archive",
+        "met_548344"
+      ],
+      "text": "次に、身体を守る準備から、死後の旅の物語へ移ります。ここで登場するのが、死者の書です。美術館の解説では、もとの名は、日中に出ていくための書とされています。呪文や絵をパピルスに記したもので、亡くなった人の旅を助けるために用いられました。",
+      "duration_seconds": 19.797333333333334,
+      "native_speed": 1.0,
+      "audio_file": "audio/ja/N12.wav",
+      "cues": [
+        {
+          "id": "N12-01",
+          "text": "次に、身体を守る準備から、死後の旅の物語へ移ります。",
+          "spoken_text": "次に、身体を守る準備から、死後の旅の物語へ移ります。",
+          "start": 0.0,
+          "end": 5.066666666666666,
+          "audio_file": "audio/ja/sentences/N12_01_70cbdc89b567.wav",
+          "input_hash": "70cbdc89b567c08310f42780801d06bcf3ed39ac87b256994907536df1ebcd2e"
+        },
+        {
+          "id": "N12-02",
+          "text": "ここで登場するのが、死者の書です。",
+          "spoken_text": "ここで登場するのが、ししゃのしょです。",
+          "start": 5.226666666666667,
+          "end": 8.0,
+          "audio_file": "audio/ja/sentences/N12_02_83a7158b79ea.wav",
+          "input_hash": "83a7158b79eadf90dfd7993ae8da2ebd6daf9c91c217415cee4acca5bfb194ae"
+        },
+        {
+          "id": "N12-03",
+          "text": "美術館の解説では、もとの名は、日中に出ていくための書とされています。",
+          "spoken_text": "美術館の解説では、もとの名は、日中に出ていくための書とされています。",
+          "start": 8.16,
+          "end": 13.728,
+          "audio_file": "audio/ja/sentences/N12_03_b874d446d66f.wav",
+          "input_hash": "b874d446d66fe8ecdd002cbe7c6378fa4cd50a7f3192a0fe241cc8ad48cfd9bc"
+        },
+        {
+          "id": "N12-04",
+          "text": "呪文や絵をパピルスに記したもので、亡くなった人の旅を助けるために用いられました。",
+          "spoken_text": "呪文や絵をパピルスに記したもので、亡くなった人の旅を助けるために用いられました。",
+          "start": 13.888,
+          "end": 19.797333333333334,
+          "audio_file": "audio/ja/sentences/N12_04_4da9ec714dc6.wav",
+          "input_hash": "4da9ec714dc65289281575164cd1ce6b47a46c4bb082312f3296cfca1ebcc1cd"
+        }
+      ]
+    },
+    {
+      "id": "N13",
+      "chapter": "C04",
+      "heading": "一人のためのパピルス",
+      "caption": "ナウニの死者の書／前1050年頃",
+      "sources": [
+        "S04"
+      ],
+      "classification": "historical_fact",
+      "visuals": [
+        "met_548344",
+        "met_548344_detail"
+      ],
+      "text": "今、画面にあるのは、ナウニという女性の埋葬に伴っていたパピルスです。美術館の年代表示は、紀元前千五十年頃。巻物には複数の呪文の絵と文があり、その中に、心臓を量る場面が描かれています。抽象的な死者ではなく、ある一人のために用意された資料なのです。",
+      "duration_seconds": 22.282666666666668,
+      "native_speed": 1.0,
+      "audio_file": "audio/ja/N13.wav",
+      "cues": [
+        {
+          "id": "N13-01",
+          "text": "今、画面にあるのは、ナウニという女性の埋葬に伴っていたパピルスです。",
+          "spoken_text": "今、画面にあるのは、ナウニという女性の埋葬に伴っていたパピルスです。",
+          "start": 0.0,
+          "end": 5.536,
+          "audio_file": "audio/ja/sentences/N13_01_f91a0336fbeb.wav",
+          "input_hash": "f91a0336fbeb015edfd29c642f46264b6a9902725d69b364b1fb74028e03bc83"
+        },
+        {
+          "id": "N13-02",
+          "text": "美術館の年代表示は、紀元前千五十年頃。",
+          "spoken_text": "美術館の年代表示は、きげんぜん、せんごじゅうねんごろ。",
+          "start": 5.696,
+          "end": 10.133333333333333,
+          "audio_file": "audio/ja/sentences/N13_02_ba4d482db089.wav",
+          "input_hash": "ba4d482db089c1c5c5d30213a93b4270935dcab0c60761b1bfffa897c40ffde8"
+        },
+        {
+          "id": "N13-03",
+          "text": "巻物には複数の呪文の絵と文があり、その中に、心臓を量る場面が描かれています。",
+          "spoken_text": "巻物には複数の呪文の絵と文があり、その中に、心臓を量る場面が描かれています。",
+          "start": 10.293333333333333,
+          "end": 17.056,
+          "audio_file": "audio/ja/sentences/N13_03_b4868f6dba93.wav",
+          "input_hash": "b4868f6dba93d913d515298b66eeba29cdf89605af323f96cf105eef2d6f6a3c"
+        },
+        {
+          "id": "N13-04",
+          "text": "抽象的な死者ではなく、ある一人のために用意された資料なのです。",
+          "spoken_text": "抽象的な死者ではなく、ある一人のために用意された資料なのです。",
+          "start": 17.216,
+          "end": 22.282666666666668,
+          "audio_file": "audio/ja/sentences/N13_04_f2057bc7d2e1.wav",
+          "input_hash": "f2057bc7d2e1f0de1de62fe16116a4d01bc0a505e88ab4dc148fe57a8eb26550"
+        }
+      ]
+    },
+    {
+      "id": "N14",
+      "chapter": "C04",
+      "heading": "心臓に託されたもの",
+      "caption": "身体の一部であり、人生を表すもの",
+      "sources": [
+        "S05"
+      ],
+      "classification": "myth_variant",
+      "visuals": [
+        "balance",
+        "met_557657"
+      ],
+      "text": "なぜ、量るのは心臓なのでしょう。別の葬送パピルスについて、美術館は、心臓を知性と感情の中心として説明しています。秤量の場面では、その人がどのように生きたかが問われます。心臓は、ただの身体の一部としてではなく、その人の生き方と結びつけて描かれていたのです。",
+      "duration_seconds": 22.144,
+      "native_speed": 1.0,
+      "audio_file": "audio/ja/N14.wav",
+      "cues": [
+        {
+          "id": "N14-01",
+          "text": "なぜ、量るのは心臓なのでしょう。",
+          "spoken_text": "なぜ、量るのは心臓なのでしょう。",
+          "start": 0.0,
+          "end": 2.8586666666666667,
+          "audio_file": "audio/ja/sentences/N14_01_55ff0d348509.wav",
+          "input_hash": "55ff0d3485098200e92a38118139ba9649c760f7a796086ff0af2b5252a84f80"
+        },
+        {
+          "id": "N14-02",
+          "text": "別の葬送パピルスについて、美術館は、心臓を知性と感情の中心として説明しています。",
+          "spoken_text": "別の葬送パピルスについて、美術館は、心臓を知性と感情の中心として説明しています。",
+          "start": 3.018666666666667,
+          "end": 10.357333333333333,
+          "audio_file": "audio/ja/sentences/N14_02_54de925a89db.wav",
+          "input_hash": "54de925a89db3722210d2356105a3393a4cbc1b6a2af59b6b7e0c9e54c276ff9"
+        },
+        {
+          "id": "N14-03",
+          "text": "秤量の場面では、その人がどのように生きたかが問われます。",
+          "spoken_text": "ひょうりょうの場面では、その人がどのように生きたかが問われます。",
+          "start": 10.517333333333333,
+          "end": 14.826666666666666,
+          "audio_file": "audio/ja/sentences/N14_03_92ce66b81206.wav",
+          "input_hash": "92ce66b8120660fa7ebb35844477d0c7544d0375c6e2812b5a8f9e929db58053"
+        },
+        {
+          "id": "N14-04",
+          "text": "心臓は、ただの身体の一部としてではなく、その人の生き方と結びつけて描かれていたのです。",
+          "spoken_text": "心臓は、ただの身体の一部としてではなく、その人の生き方と結びつけて描かれていたのです。",
+          "start": 14.986666666666666,
+          "end": 22.144,
+          "audio_file": "audio/ja/sentences/N14_04_31f7659a819c.wav",
+          "input_hash": "31f7659a819ca3c64ec50f738371d72026a6f2bb4a9a059f4184d8f56c00155a"
+        }
+      ]
+    },
+    {
+      "id": "N15",
+      "chapter": "C04",
+      "heading": "相手は、マアト",
+      "caption": "秩序と倫理的なあり方の象徴",
+      "sources": [
+        "S04",
+        "S05"
+      ],
+      "classification": "myth_variant",
+      "visuals": [
+        "balance",
+        "met_548344_detail"
+      ],
+      "text": "天秤の反対側に置かれるのは、マアトを表すものです。マアトは、秩序や正しいあり方と結びつく存在。羽根だけを思い浮かべがちですが、ナウニの資料では、羽根を身につけた小さな女神の姿で表されています。よく知られた一つの図だけを、すべての資料に当てはめないことも大切です。",
+      "duration_seconds": 21.482666666666667,
+      "native_speed": 1.0,
+      "audio_file": "audio/ja/N15.wav",
+      "cues": [
+        {
+          "id": "N15-01",
+          "text": "天秤の反対側に置かれるのは、マアトを表すものです。",
+          "spoken_text": "天秤の反対側に置かれるのは、マアトを表すものです。",
+          "start": 0.0,
+          "end": 4.234666666666667,
+          "audio_file": "audio/ja/sentences/N15_01_c4837693f15a.wav",
+          "input_hash": "c4837693f15a299c84cb4c7711b61b6e0d5ca4e33a8d5d2d5d496b5fe4206ac2"
+        },
+        {
+          "id": "N15-02",
+          "text": "マアトは、秩序や正しいあり方と結びつく存在。",
+          "spoken_text": "マアトは、秩序や正しいあり方と結びつく存在。",
+          "start": 4.394666666666667,
+          "end": 8.256,
+          "audio_file": "audio/ja/sentences/N15_02_52787007070f.wav",
+          "input_hash": "52787007070f13f15a30033d51635feb608a8ea0a3c95adf51d9ccc9569f313b"
+        },
+        {
+          "id": "N15-03",
+          "text": "羽根だけを思い浮かべがちですが、ナウニの資料では、羽根を身につけた小さな女神の姿で表されています。",
+          "spoken_text": "羽根だけを思い浮かべがちですが、ナウニの資料では、羽根を身につけた小さな女神の姿で表されています。",
+          "start": 8.416,
+          "end": 16.181333333333335,
+          "audio_file": "audio/ja/sentences/N15_03_6d14718fed2f.wav",
+          "input_hash": "6d14718fed2f07c17cbd0feb91df4af646b22acb7c4fed8dab69f4e0251cf522"
+        },
+        {
+          "id": "N15-04",
+          "text": "よく知られた一つの図だけを、すべての資料に当てはめないことも大切です。",
+          "spoken_text": "よく知られた一つの図だけを、すべての資料に当てはめないことも大切です。",
+          "start": 16.341333333333335,
+          "end": 21.482666666666667,
+          "audio_file": "audio/ja/sentences/N15_04_06a2668c5e2c.wav",
+          "input_hash": "06a2668c5e2c2064d653030f1fc9720e810cba17d54f2c4e9a2e8cf403017974"
+        }
+      ]
+    },
+    {
+      "id": "N16",
+      "chapter": "C04",
+      "heading": "壁画のように見える、この画像",
+      "caption": "ニーナ・ド・ガリス・デイヴィスによる模写",
+      "sources": [
+        "S06"
+      ],
+      "classification": "historical_fact",
+      "visuals": [
+        "met_557830",
+        "met_557830_detail"
+      ],
+      "text": "こちらも、アヌビスと天秤の場面です。けれど、この画像は古代の壁画そのものを撮影した写真ではありません。ニーナ・ド・ガリス・デイヴィスが、ナクトアメンの墓の絵を紙に写したものです。古い図像を学ぶ手がかりになりますが、原資料と模写は、区別して紹介します。",
+      "duration_seconds": 19.808,
+      "native_speed": 1.0,
+      "audio_file": "audio/ja/N16.wav",
+      "cues": [
+        {
+          "id": "N16-01",
+          "text": "こちらも、アヌビスと天秤の場面です。",
+          "spoken_text": "こちらも、アヌビスと天秤の場面です。",
+          "start": 0.0,
+          "end": 3.0613333333333332,
+          "audio_file": "audio/ja/sentences/N16_01_86070ff7d881.wav",
+          "input_hash": "86070ff7d881919e6373575944108aec66cf93d9eaaf59a6cd912d1358ede50d"
+        },
+        {
+          "id": "N16-02",
+          "text": "けれど、この画像は古代の壁画そのものを撮影した写真ではありません。",
+          "spoken_text": "けれど、この画像は古代の壁画そのものを撮影した写真ではありません。",
+          "start": 3.2213333333333334,
+          "end": 8.469333333333333,
+          "audio_file": "audio/ja/sentences/N16_02_0b6301de2172.wav",
+          "input_hash": "0b6301de2172b2d5adabfea9abec26c3168d6a182a43e170228b2e030d70620b"
+        },
+        {
+          "id": "N16-03",
+          "text": "ニーナ・ド・ガリス・デイヴィスが、ナクトアメンの墓の絵を紙に写したものです。",
+          "spoken_text": "ニーナ・ド・ガリス・デイヴィスが、ナクトアメンの墓の絵を紙に写したものです。",
+          "start": 8.629333333333333,
+          "end": 13.504,
+          "audio_file": "audio/ja/sentences/N16_03_b9c71036b589.wav",
+          "input_hash": "b9c71036b589cf7f4c768cc678c05d23c73285ea7067babe301c743930c150e9"
+        },
+        {
+          "id": "N16-04",
+          "text": "古い図像を学ぶ手がかりになりますが、原資料と模写は、区別して紹介します。",
+          "spoken_text": "古い図像を学ぶ手がかりになりますが、原資料と模写は、区別して紹介します。",
+          "start": 13.664,
+          "end": 19.808,
+          "audio_file": "audio/ja/sentences/N16_04_bd047d18c49c.wav",
+          "input_hash": "bd047d18c49c4088bf0a91d797b5b0bbbca1409473a1bd51970df0581a1f7326"
+        }
+      ]
+    },
+    {
+      "id": "N17",
+      "chapter": "C05",
+      "heading": "秤を読むアヌビス",
+      "caption": "仕事を分けると、場面が見えてくる",
+      "sources": [
+        "S04"
+      ],
+      "classification": "myth_variant",
+      "visuals": [
+        "roles",
+        "met_548344_detail"
+      ],
+      "text": "ナウニのパピルスをもう一度見ましょう。アヌビスは、秤を読んでいます。しかし、場面には彼一人しかいないわけではありません。結果を記録する神と、死者を迎える神もいます。役割を分けて見ると、アヌビスを、すべてを一人で決める裁判官と考える説明は、単純すぎると分かります。",
+      "duration_seconds": 21.813333333333333,
+      "native_speed": 1.0,
+      "audio_file": "audio/ja/N17.wav",
+      "cues": [
+        {
+          "id": "N17-01",
+          "text": "ナウニのパピルスをもう一度見ましょう。",
+          "spoken_text": "ナウニのパピルスをもう一度見ましょう。",
+          "start": 0.0,
+          "end": 2.464,
+          "audio_file": "audio/ja/sentences/N17_01_6e89d2aa61d7.wav",
+          "input_hash": "6e89d2aa61d7bf4e11a71f897da2d213bdc38097c2ed33e452b9f796cccbe04a"
+        },
+        {
+          "id": "N17-02",
+          "text": "アヌビスは、秤を読んでいます。",
+          "spoken_text": "アヌビスは、秤を読んでいます。",
+          "start": 2.624,
+          "end": 5.141333333333334,
+          "audio_file": "audio/ja/sentences/N17_02_de5dcf405b26.wav",
+          "input_hash": "de5dcf405b26514791464a76565a73a1864cab2f973cc7d176bb1718924023b3"
+        },
+        {
+          "id": "N17-03",
+          "text": "しかし、場面には彼一人しかいないわけではありません。",
+          "spoken_text": "しかし、場面には彼一人しかいないわけではありません。",
+          "start": 5.301333333333333,
+          "end": 9.429333333333334,
+          "audio_file": "audio/ja/sentences/N17_03_6aa7fb0d5254.wav",
+          "input_hash": "6aa7fb0d5254de84f534527b25c83efcebfd08653afdf17bacec574ffbfb253b"
+        },
+        {
+          "id": "N17-04",
+          "text": "結果を記録する神と、死者を迎える神もいます。",
+          "spoken_text": "結果を記録する神と、死者を迎える神もいます。",
+          "start": 9.589333333333334,
+          "end": 13.28,
+          "audio_file": "audio/ja/sentences/N17_04_04c7e09b13a6.wav",
+          "input_hash": "04c7e09b13a63de476b65b7368a572290a4d0deec5c0e13706e44a98ffa6e48e"
+        },
+        {
+          "id": "N17-05",
+          "text": "役割を分けて見ると、アヌビスを、すべてを一人で決める裁判官と考える説明は、単純すぎると分かります。",
+          "spoken_text": "役割を分けて見ると、アヌビスを、すべてを一人で決める裁判官と考える説明は、単純すぎると分かります。",
+          "start": 13.44,
+          "end": 21.813333333333333,
+          "audio_file": "audio/ja/sentences/N17_05_375f66c642cd.wav",
+          "input_hash": "375f66c642cd9d2097ed2a051743f3710a24dac2359c3a8079784f6a8db1e9d4"
+        }
+      ]
+    },
+    {
+      "id": "N18",
+      "chapter": "C05",
+      "heading": "結果を記すトト",
+      "caption": "姿だけでなく、行為に注目する",
+      "sources": [
+        "S09"
+      ],
+      "classification": "myth_variant",
+      "visuals": [
+        "met_552247_detail",
+        "roles"
+      ],
+      "text": "こちらの棺材の断片では、トキの頭を持つトトが、筆記の道具を手にしています。美術館は、彼が死者をオシリスに紹介する場面だと説明しています。神々を見分ける手がかりは、頭の形だけではありません。持ち物と、その場で何をしているかも、重要なのです。",
+      "duration_seconds": 20.426666666666666,
+      "native_speed": 1.0,
+      "audio_file": "audio/ja/N18.wav",
+      "cues": [
+        {
+          "id": "N18-01",
+          "text": "こちらの棺材の断片では、トキの頭を持つトトが、筆記の道具を手にしています。",
+          "spoken_text": "こちらのかんざいの断片では、トキの頭を持つトトが、筆記の道具を手にしています。",
+          "start": 0.0,
+          "end": 6.176,
+          "audio_file": "audio/ja/sentences/N18_01_6dc3961b841d.wav",
+          "input_hash": "6dc3961b841dbdc4499d2ae8087c0c3ce7a3557bb31c326f35cdc925ac7eb015"
+        },
+        {
+          "id": "N18-02",
+          "text": "美術館は、彼が死者をオシリスに紹介する場面だと説明しています。",
+          "spoken_text": "美術館は、彼が死者をオシリスに紹介する場面だと説明しています。",
+          "start": 6.336,
+          "end": 11.509333333333334,
+          "audio_file": "audio/ja/sentences/N18_02_38337e631495.wav",
+          "input_hash": "38337e6314958be48c9de180f977a71d0f42684cef81ef7d85fde62cf0676a1b"
+        },
+        {
+          "id": "N18-03",
+          "text": "神々を見分ける手がかりは、頭の形だけではありません。",
+          "spoken_text": "神々を見分ける手がかりは、頭の形だけではありません。",
+          "start": 11.669333333333332,
+          "end": 16.074666666666666,
+          "audio_file": "audio/ja/sentences/N18_03_bd2e9bd24d6d.wav",
+          "input_hash": "bd2e9bd24d6df5a8d0e4757f93f8b02d522ad1e5270959671957f31e398b66f3"
+        },
+        {
+          "id": "N18-04",
+          "text": "持ち物と、その場で何をしているかも、重要なのです。",
+          "spoken_text": "持ち物と、その場で何をしているかも、重要なのです。",
+          "start": 16.234666666666666,
+          "end": 20.426666666666666,
+          "audio_file": "audio/ja/sentences/N18_04_b776c17a42fa.wav",
+          "input_hash": "b776c17a42fa8675c9ca62a5fdbd1d080533c6dfe37ce74053e77de1a2424e0d"
+        }
+      ]
+    },
+    {
+      "id": "N19",
+      "chapter": "C05",
+      "heading": "オシリスの前へ",
+      "caption": "死後世界への受け入れという物語",
+      "sources": [
+        "S05"
+      ],
+      "classification": "myth_variant",
+      "visuals": [
+        "met_557657",
+        "roles"
+      ],
+      "text": "美術館の解説によると、秤が釣り合えば、死者はオシリスに受け入れられ、永遠の生命を得ます。釣り合わなければ、心臓はアメミトと呼ばれる存在に食べられ、死者は永久に死ぬとされました。アヌビスが量り、トトが記し、オシリスが迎える。裁きは、何柱もの神々が関わる場面として描かれていたのです。",
+      "duration_seconds": 22.421333333333333,
+      "native_speed": 1.0806,
+      "audio_file": "audio/ja/N19.wav",
+      "cues": [
+        {
+          "id": "N19-01",
+          "text": "美術館の解説によると、秤が釣り合えば、死者はオシリスに受け入れられ、永遠の生命を得ます。",
+          "spoken_text": "美術館の解説によると、秤が釣り合えば、死者はオシリスに受け入れられ、永遠の生命を得ます。",
+          "start": 0.0,
+          "end": 6.965333333333334,
+          "audio_file": "audio/ja/sentences/N19_01_ae4a81219cee.wav",
+          "input_hash": "ae4a81219cee422e99e792cc92741f8d9ef69225ec034109957294d492dadf4d"
+        },
+        {
+          "id": "N19-02",
+          "text": "釣り合わなければ、心臓はアメミトと呼ばれる存在に食べられ、死者は永久に死ぬとされました。",
+          "spoken_text": "釣り合わなければ、心臓はアメミトと呼ばれる存在に食べられ、死者は永久に死ぬとされました。",
+          "start": 7.125333333333334,
+          "end": 13.450666666666667,
+          "audio_file": "audio/ja/sentences/N19_02_9a5f0bb13ff2.wav",
+          "input_hash": "9a5f0bb13ff27d18f849a9dd30fd45817d9dd880c14c3634d69ccc87be223e59"
+        },
+        {
+          "id": "N19-03",
+          "text": "アヌビスが量り、トトが記し、オシリスが迎える。",
+          "spoken_text": "アヌビスが量り、トトが記し、オシリスが迎える。",
+          "start": 13.610666666666667,
+          "end": 17.450666666666667,
+          "audio_file": "audio/ja/sentences/N19_03_5ed372f48517.wav",
+          "input_hash": "5ed372f485172155e6652fc42171219a6caf266196899d3f08c3372e7610edf2"
+        },
+        {
+          "id": "N19-04",
+          "text": "裁きは、何柱もの神々が関わる場面として描かれていたのです。",
+          "spoken_text": "裁きは、なんはしらもの神々が関わる場面として描かれていたのです。",
+          "start": 17.610666666666667,
+          "end": 22.421333333333333,
+          "audio_file": "audio/ja/sentences/N19_04_78c79d70caaa.wav",
+          "input_hash": "78c79d70caaa9594107cb3eee0464032761b44fe5e7b5da1e290d66b54f7c761"
+        }
+      ]
+    },
+    {
+      "id": "N20",
+      "chapter": "C05",
+      "heading": "怖さの向こうにある目的",
+      "caption": "願われたのは、旅を終えること",
+      "sources": [
+        "S04",
+        "S05"
+      ],
+      "classification": "editorial_interpretation",
+      "visuals": [
+        "journey",
+        "hero"
+      ],
+      "text": "たしかに、裁きの場面には恐ろしさがあります。ただ、亡くなった人のために用意された資料が伝えようとするのは、失敗の光景だけではありません。無事に試練を越え、次の存在へ進むこと。アヌビスの姿を保護の役割から見ると、同じ天秤の場面も、少し違って見えてきます。",
+      "duration_seconds": 21.418666666666667,
+      "native_speed": 1.0,
+      "audio_file": "audio/ja/N20.wav",
+      "cues": [
+        {
+          "id": "N20-01",
+          "text": "たしかに、裁きの場面には恐ろしさがあります。",
+          "spoken_text": "たしかに、裁きの場面には恐ろしさがあります。",
+          "start": 0.0,
+          "end": 3.616,
+          "audio_file": "audio/ja/sentences/N20_01_f1de5d3e695a.wav",
+          "input_hash": "f1de5d3e695aabb58da4d7f5c3893746d8ed36d2d11df084a41ddbf1fe6f204a"
+        },
+        {
+          "id": "N20-02",
+          "text": "ただ、亡くなった人のために用意された資料が伝えようとするのは、失敗の光景だけではありません。",
+          "spoken_text": "ただ、亡くなった人のために用意された資料が伝えようとするのは、失敗の光景だけではありません。",
+          "start": 3.776,
+          "end": 10.954666666666666,
+          "audio_file": "audio/ja/sentences/N20_02_07380b95e83b.wav",
+          "input_hash": "07380b95e83b7c2c4a364ce5ece26772ffcb9808a1280b38e67ee736c3106d74"
+        },
+        {
+          "id": "N20-03",
+          "text": "無事に試練を越え、次の存在へ進むこと。",
+          "spoken_text": "無事に試練を越え、次の存在へ進むこと。",
+          "start": 11.114666666666666,
+          "end": 14.634666666666666,
+          "audio_file": "audio/ja/sentences/N20_03_4c54c5d9c76a.wav",
+          "input_hash": "4c54c5d9c76a2f16f4f6ae33a941d0d0b43b3f1fd59894bb5756cc900abd8feb"
+        },
+        {
+          "id": "N20-04",
+          "text": "アヌビスの姿を保護の役割から見ると、同じ天秤の場面も、少し違って見えてきます。",
+          "spoken_text": "アヌビスの姿を保護の役割から見ると、同じ天秤の場面も、少し違って見えてきます。",
+          "start": 14.794666666666666,
+          "end": 21.418666666666667,
+          "audio_file": "audio/ja/sentences/N20_04_5d3598a86661.wav",
+          "input_hash": "5d3598a86661eec99b12aee0404faa7196c1d241efad0001165d9c032b8e17ef"
+        }
+      ]
+    },
+    {
+      "id": "N21",
+      "chapter": "C06",
+      "heading": "死だけに限られない場面",
+      "caption": "王の儀礼に登場するアヌビス",
+      "sources": [
+        "S07"
+      ],
+      "classification": "historical_fact",
+      "visuals": [
+        "met_544206",
+        "met_544206_detail"
+      ],
+      "text": "ここで、少し意外な資料を見ます。アメンエムハト一世を描いた浮き彫りです。王の両側には、ホルスとアヌビスがいます。神々は、生命を表すアンクを差し出しています。美術館は、この場面を王の儀礼と結びつけて説明しています。アヌビスが現れるのは、心臓の秤量だけではないのです。",
+      "duration_seconds": 21.216,
+      "native_speed": 1.0842,
+      "audio_file": "audio/ja/N21.wav",
+      "cues": [
+        {
+          "id": "N21-01",
+          "text": "ここで、少し意外な資料を見ます。",
+          "spoken_text": "ここで、少し意外な資料を見ます。",
+          "start": 0.0,
+          "end": 2.5813333333333333,
+          "audio_file": "audio/ja/sentences/N21_01_fcfc686a5a15.wav",
+          "input_hash": "fcfc686a5a15fc789f99b6f545f57ef7682a56ae3f361686595944ea600cfceb"
+        },
+        {
+          "id": "N21-02",
+          "text": "アメンエムハト一世を描いた浮き彫りです。",
+          "spoken_text": "アメンエムハト、いっせいを描いた浮き彫りです。",
+          "start": 2.7413333333333334,
+          "end": 5.781333333333333,
+          "audio_file": "audio/ja/sentences/N21_02_5adda6380a35.wav",
+          "input_hash": "5adda6380a35364a72f6e63ab4378625f020d35bf5bf810d832477e37ca32176"
+        },
+        {
+          "id": "N21-03",
+          "text": "王の両側には、ホルスとアヌビスがいます。",
+          "spoken_text": "王の両側には、ホルスとアヌビスがいます。",
+          "start": 5.941333333333334,
+          "end": 8.896,
+          "audio_file": "audio/ja/sentences/N21_03_432a2c3c84c4.wav",
+          "input_hash": "432a2c3c84c494ec433819e566cee20b945c359e182ce31bcca7fe6965aea519"
+        },
+        {
+          "id": "N21-04",
+          "text": "神々は、生命を表すアンクを差し出しています。",
+          "spoken_text": "神々は、生命を表すアンクを差し出しています。",
+          "start": 9.056,
+          "end": 12.64,
+          "audio_file": "audio/ja/sentences/N21_04_f808e066d14c.wav",
+          "input_hash": "f808e066d14c6387ee0f11ff288800dd3bbc16ee78cdb41a79cb8c1c1d704b5b"
+        },
+        {
+          "id": "N21-05",
+          "text": "美術館は、この場面を王の儀礼と結びつけて説明しています。",
+          "spoken_text": "美術館は、この場面を王の儀礼と結びつけて説明しています。",
+          "start": 12.8,
+          "end": 17.152,
+          "audio_file": "audio/ja/sentences/N21_05_d5aeb0bf2422.wav",
+          "input_hash": "d5aeb0bf24229f966616fe6046a4202db62ca30364c001d8680ad4e42057b357"
+        },
+        {
+          "id": "N21-06",
+          "text": "アヌビスが現れるのは、心臓の秤量だけではないのです。",
+          "spoken_text": "アヌビスが現れるのは、心臓のひょうりょうだけではないのです。",
+          "start": 17.312,
+          "end": 21.216,
+          "audio_file": "audio/ja/sentences/N21_06_08455d8ece5d.wav",
+          "input_hash": "08455d8ece5d77261c31ba70360cd69fb0b9ddd91a52ae5030939fa13db264a1"
+        }
+      ]
+    },
+    {
+      "id": "N22",
+      "chapter": "C06",
+      "heading": "王の力を確かめる儀礼",
+      "caption": "中王国／前1981〜1952年頃",
+      "sources": [
+        "S07"
+      ],
+      "classification": "historical_fact",
+      "visuals": [
+        "met_544206_detail",
+        "timeline"
+      ],
+      "text": "この王は、長く統治してもなお、支配する力があることを儀礼で示しています。アヌビスは、墓地の主という役割でも、この場所に関わっていました。作品は、紀元前千九百八十年頃のものです。後の時代の像と並べることで、同じ神が、長い時間の中で語られていたことが見えてきます。",
+      "duration_seconds": 23.168,
+      "native_speed": 1.0,
+      "audio_file": "audio/ja/N22.wav",
+      "cues": [
+        {
+          "id": "N22-01",
+          "text": "この王は、長く統治してもなお、支配する力があることを儀礼で示しています。",
+          "spoken_text": "この王は、長く統治してもなお、支配する力があることを儀礼で示しています。",
+          "start": 0.0,
+          "end": 5.9093333333333335,
+          "audio_file": "audio/ja/sentences/N22_01_9af28581f763.wav",
+          "input_hash": "9af28581f763daf434ea62da1c44679aac76d4fd3e0cb0020056a50ff226b7d4"
+        },
+        {
+          "id": "N22-02",
+          "text": "アヌビスは、墓地の主という役割でも、この場所に関わっていました。",
+          "spoken_text": "アヌビスは、墓地の主という役割でも、この場所に関わっていました。",
+          "start": 6.069333333333334,
+          "end": 11.178666666666667,
+          "audio_file": "audio/ja/sentences/N22_02_ea987ad55b05.wav",
+          "input_hash": "ea987ad55b058e3802b104c0840bdd40b335d2eaaa76ab2f2b3901ede22212df"
+        },
+        {
+          "id": "N22-03",
+          "text": "作品は、紀元前千九百八十年頃のものです。",
+          "spoken_text": "作品は、きげんぜん、せんきゅうひゃくはちじゅうねんごろのものです。",
+          "start": 11.338666666666667,
+          "end": 15.978666666666667,
+          "audio_file": "audio/ja/sentences/N22_03_908f6e0582b1.wav",
+          "input_hash": "908f6e0582b16dfee67329c2cf25344e46f85b50c7ffe7a209b06bc426e2bfd8"
+        },
+        {
+          "id": "N22-04",
+          "text": "後の時代の像と並べることで、同じ神が、長い時間の中で語られていたことが見えてきます。",
+          "spoken_text": "後の時代の像と並べることで、同じ神が、長い時間の中で語られていたことが見えてきます。",
+          "start": 16.138666666666666,
+          "end": 23.168,
+          "audio_file": "audio/ja/sentences/N22_04_06b43d47fdf0.wav",
+          "input_hash": "06b43d47fdf05d768a3279b6ab490276f4f7aae444281f8e9b927c777b8a6163"
+        }
+      ]
+    },
+    {
+      "id": "N23",
+      "chapter": "C06",
+      "heading": "時代が変わっても、描かれる神",
+      "caption": "ローマ時代の棺材片／後100〜300年",
+      "sources": [
+        "S09"
+      ],
+      "classification": "historical_fact",
+      "visuals": [
+        "met_552247",
+        "timeline"
+      ],
+      "text": "さらに時代が下ると、ローマ時代の棺材の断片にも、アヌビスが登場します。中心にオシリスが座り、その近くにトトやほかの神々が描かれています。長い時間がたっても、死者と神々の関係は表現され続けました。ただし、それぞれの資料を、まったく同じ物語のコピーと考える必要はありません。",
+      "duration_seconds": 22.005333333333333,
+      "native_speed": 1.0851,
+      "audio_file": "audio/ja/N23.wav",
+      "cues": [
+        {
+          "id": "N23-01",
+          "text": "さらに時代が下ると、ローマ時代の棺材の断片にも、アヌビスが登場します。",
+          "spoken_text": "さらに時代が下ると、ローマ時代のかんざいの断片にも、アヌビスが登場します。",
+          "start": 0.0,
+          "end": 5.749333333333333,
+          "audio_file": "audio/ja/sentences/N23_01_6d3b426b14a8.wav",
+          "input_hash": "6d3b426b14a8f70db1853efa95209f32feaab870daa97f1fad650131ef0a1387"
+        },
+        {
+          "id": "N23-02",
+          "text": "中心にオシリスが座り、その近くにトトやほかの神々が描かれています。",
+          "spoken_text": "中心にオシリスが座り、その近くにトトやほかの神々が描かれています。",
+          "start": 5.9093333333333335,
+          "end": 10.933333333333334,
+          "audio_file": "audio/ja/sentences/N23_02_2d8e77d7ba81.wav",
+          "input_hash": "2d8e77d7ba81f5d75b1950e4adf253c8ce3e3b6992dd140d50b0b9e2af255e92"
+        },
+        {
+          "id": "N23-03",
+          "text": "長い時間がたっても、死者と神々の関係は表現され続けました。",
+          "spoken_text": "長い時間がたっても、死者と神々の関係は表現され続けました。",
+          "start": 11.093333333333334,
+          "end": 15.808,
+          "audio_file": "audio/ja/sentences/N23_03_fab71b3d8bfb.wav",
+          "input_hash": "fab71b3d8bfb80af3ba38a9eea3f6e95e2cf7489a78f46f7c240d6e9b4f603b1"
+        },
+        {
+          "id": "N23-04",
+          "text": "ただし、それぞれの資料を、まったく同じ物語のコピーと考える必要はありません。",
+          "spoken_text": "ただし、それぞれの資料を、まったく同じ物語のコピーと考える必要はありません。",
+          "start": 15.968,
+          "end": 22.005333333333333,
+          "audio_file": "audio/ja/sentences/N23_04_2a8be3530266.wav",
+          "input_hash": "2a8be3530266906f6735d75993437cc3c2ec6c3df259590c8d62cac6740ce10e"
+        }
+      ]
+    },
+    {
+      "id": "N24",
+      "chapter": "C06",
+      "heading": "名前の後ろの、疑問符",
+      "caption": "同定が確実でない資料もある",
+      "sources": [
+        "S08"
+      ],
+      "classification": "scholarly_interpretation",
+      "visuals": [
+        "met_547871",
+        "evidence"
+      ],
+      "text": "金の小像には、アヌビスらしいという解釈と、別の神かもしれないという解釈が示されています。美術館は、正体は確実ではないと明記しています。分からないことを分からないと残す姿勢も、歴史を伝えるために必要です。映像が鮮明だからといって、説明まで確定するわけではありません。",
+      "duration_seconds": 20.0,
+      "native_speed": 1.0916,
+      "audio_file": "audio/ja/N24.wav",
+      "cues": [
+        {
+          "id": "N24-01",
+          "text": "金の小像には、アヌビスらしいという解釈と、別の神かもしれないという解釈が示されています。",
+          "spoken_text": "金の小像には、アヌビスらしいという解釈と、別の神かもしれないという解釈が示されています。",
+          "start": 0.0,
+          "end": 6.56,
+          "audio_file": "audio/ja/sentences/N24_01_3620888d2e2b.wav",
+          "input_hash": "3620888d2e2b6fbb4fd511fdab8aeae07a31f2a4c05e6d0f9bba776719f19ac7"
+        },
+        {
+          "id": "N24-02",
+          "text": "美術館は、正体は確実ではないと明記しています。",
+          "spoken_text": "美術館は、正体は確実ではないと明記しています。",
+          "start": 6.72,
+          "end": 10.432,
+          "audio_file": "audio/ja/sentences/N24_02_c282dcf7710f.wav",
+          "input_hash": "c282dcf7710fdba8afb2bf1180bb8bb2111be68a8ebf8a4cc0ec068a608328b9"
+        },
+        {
+          "id": "N24-03",
+          "text": "分からないことを分からないと残す姿勢も、歴史を伝えるために必要です。",
+          "spoken_text": "分からないことを分からないと残す姿勢も、歴史を伝えるために必要です。",
+          "start": 10.592,
+          "end": 15.306666666666667,
+          "audio_file": "audio/ja/sentences/N24_03_ee275c8b971b.wav",
+          "input_hash": "ee275c8b971b6afc8d104ba67d3e391e84b067a5735829670327f6e0aacd23fb"
+        },
+        {
+          "id": "N24-04",
+          "text": "映像が鮮明だからといって、説明まで確定するわけではありません。",
+          "spoken_text": "映像が鮮明だからといって、説明まで確定するわけではありません。",
+          "start": 15.466666666666667,
+          "end": 20.0,
+          "audio_file": "audio/ja/sentences/N24_04_79c463ce8541.wav",
+          "input_hash": "79c463ce854120e1c2b927f68721b7728c49aed9d5ab140d193024d70c094180"
+        }
+      ]
+    },
+    {
+      "id": "N25",
+      "chapter": "C06",
+      "heading": "小さな像にも、目を向ける",
+      "caption": "高さ7.7cmのアヌビス像",
+      "sources": [
+        "S10"
+      ],
+      "classification": "historical_fact",
+      "visuals": [
+        "met_570223",
+        "archive"
+      ],
+      "text": "大きな壁画や像だけでなく、高さ七・七センチほどの、青銅などの銅合金で作られたアヌビス像も残っています。博物館の資料を見ていくと、壮大な神話が、手に取れる大きさの物にも表されていたと分かります。誰が、どこで、どのように使ったのか。小さな資料は、新しい問いを開いてくれます。",
+      "duration_seconds": 22.730666666666668,
+      "native_speed": 1.0615,
+      "audio_file": "audio/ja/N25.wav",
+      "cues": [
+        {
+          "id": "N25-01",
+          "text": "大きな壁画や像だけでなく、高さ七・七センチほどの、青銅などの銅合金で作られたアヌビス像も残っています。",
+          "spoken_text": "大きな壁画や像だけでなく、高さななてんななセンチほどの、青銅などのどうごうきんで作られたアヌビス像も残っています。",
+          "start": 0.0,
+          "end": 8.373333333333333,
+          "audio_file": "audio/ja/sentences/N25_01_365b66b53ec3.wav",
+          "input_hash": "365b66b53ec383d2b8c52ba2598becb61d5222f07ac6224b4c59cdfe1d783faf"
+        },
+        {
+          "id": "N25-02",
+          "text": "博物館の資料を見ていくと、壮大な神話が、手に取れる大きさの物にも表されていたと分かります。",
+          "spoken_text": "博物館の資料を見ていくと、壮大な神話が、手に取れる大きさの物にも表されていたと分かります。",
+          "start": 8.533333333333333,
+          "end": 15.765333333333333,
+          "audio_file": "audio/ja/sentences/N25_02_9b500a747f01.wav",
+          "input_hash": "9b500a747f0199881ff4d41fc0d0951bf1b0d6df5b0bdca540fecdf8e3e3f821"
+        },
+        {
+          "id": "N25-03",
+          "text": "誰が、どこで、どのように使ったのか。",
+          "spoken_text": "誰が、どこで、どのように使ったのか。",
+          "start": 15.925333333333333,
+          "end": 19.136,
+          "audio_file": "audio/ja/sentences/N25_03_476160579e05.wav",
+          "input_hash": "476160579e05ec98fa3a1c362dd1b6fddd9050da0cf6ebce97982b382d052797"
+        },
+        {
+          "id": "N25-04",
+          "text": "小さな資料は、新しい問いを開いてくれます。",
+          "spoken_text": "小さな資料は、新しい問いを開いてくれます。",
+          "start": 19.296,
+          "end": 22.730666666666668,
+          "audio_file": "audio/ja/sentences/N25_04_5b991f5b036b.wav",
+          "input_hash": "5b991f5b036b10a7bfd15a9f0f2604d489ad966eeef37f7891ef2cf8a450c7fe"
+        }
+      ]
+    },
+    {
+      "id": "N27",
+      "chapter": "C07",
+      "heading": "守り、量り、次へつなぐ",
+      "caption": "アヌビスの役割を、もう一度",
+      "sources": [
+        "S01",
+        "S03",
+        "S04"
+      ],
+      "classification": "editorial_summary",
+      "visuals": [
+        "roles",
+        "hero"
+      ],
+      "text": "アヌビスは、墓を見守る姿で表され、身体を整える儀礼に関わり、心臓を量る場面にも登場します。死と深く結びつく神ですが、その役割を恐怖だけでまとめることはできません。守ることと、試練を越えること。その両方に関わる存在として、資料から読み解くことができます。",
+      "duration_seconds": 22.122666666666667,
+      "native_speed": 1.0,
+      "audio_file": "audio/ja/N27.wav",
+      "cues": [
+        {
+          "id": "N27-01",
+          "text": "アヌビスは、墓を見守る姿で表され、身体を整える儀礼に関わり、心臓を量る場面にも登場します。",
+          "spoken_text": "アヌビスは、墓を見守る姿で表され、身体を整える儀礼に関わり、心臓を量る場面にも登場します。",
+          "start": 0.0,
+          "end": 8.533333333333333,
+          "audio_file": "audio/ja/sentences/N27_01_16da8d9671f7.wav",
+          "input_hash": "16da8d9671f733d1d94e9702b1fdfae812899c14eff2284007a58b0f8aa2f414"
+        },
+        {
+          "id": "N27-02",
+          "text": "死と深く結びつく神ですが、その役割を恐怖だけでまとめることはできません。",
+          "spoken_text": "死と深く結びつく神ですが、その役割を恐怖だけでまとめることはできません。",
+          "start": 8.693333333333333,
+          "end": 14.378666666666666,
+          "audio_file": "audio/ja/sentences/N27_02_5fb4a87ca5ed.wav",
+          "input_hash": "5fb4a87ca5ed247e4c62c7ba620a08d683c0b1b9463ca5b31aab07f96eda8d5f"
+        },
+        {
+          "id": "N27-03",
+          "text": "守ることと、試練を越えること。",
+          "spoken_text": "守ることと、試練を越えること。",
+          "start": 14.538666666666666,
+          "end": 17.098666666666666,
+          "audio_file": "audio/ja/sentences/N27_03_189b6a72038e.wav",
+          "input_hash": "189b6a72038ef49d72b94bdb63501afc76900f1f869aaeb7d13924cf22e07f60"
+        },
+        {
+          "id": "N27-04",
+          "text": "その両方に関わる存在として、資料から読み解くことができます。",
+          "spoken_text": "その両方に関わる存在として、資料から読み解くことができます。",
+          "start": 17.258666666666667,
+          "end": 22.122666666666667,
+          "audio_file": "audio/ja/sentences/N27_04_09dbd2bf4057.wav",
+          "input_hash": "09dbd2bf40579cd9fc2f646862a6a945207133392d7975122a8a3dcbb0ae93a8"
+        }
+      ]
+    },
+    {
+      "id": "N28",
+      "chapter": "C07",
+      "heading": "残されたのは、人の願い",
+      "caption": "死の先で、その人らしさを失わないために",
+      "sources": [
+        "S04",
+        "S05"
+      ],
+      "classification": "editorial_interpretation",
+      "visuals": [
+        "nile",
+        "archive"
+      ],
+      "text": "パピルスに残る心臓の物語から、私たちは一つの問いを受け取れます。死の先へ持っていくとしたら、自分の何が、その人らしさを語るのでしょう。神々の姿の向こうには、亡くなった人の旅を支えようとする、人々の願いが見えます。",
+      "duration_seconds": 17.824,
+      "native_speed": 1.0,
+      "audio_file": "audio/ja/N28.wav",
+      "cues": [
+        {
+          "id": "N28-01",
+          "text": "パピルスに残る心臓の物語から、私たちは一つの問いを受け取れます。",
+          "spoken_text": "パピルスに残る心臓の物語から、私たちは一つの問いを受け取れます。",
+          "start": 0.0,
+          "end": 5.344,
+          "audio_file": "audio/ja/sentences/N28_01_b1580ad27b4b.wav",
+          "input_hash": "b1580ad27b4bff5ca8c0c47f4069705f8ec5b44821c8aaed182393f0beae0bd0"
+        },
+        {
+          "id": "N28-02",
+          "text": "死の先へ持っていくとしたら、自分の何が、その人らしさを語るのでしょう。",
+          "spoken_text": "死の先へ持っていくとしたら、自分の何が、その人らしさを語るのでしょう。",
+          "start": 5.504,
+          "end": 10.901333333333334,
+          "audio_file": "audio/ja/sentences/N28_02_c2ca48447758.wav",
+          "input_hash": "c2ca484477585fe6b67624fe79c0fe22a4335dbd5b9b6198db5d5a1d4a5921d6"
+        },
+        {
+          "id": "N28-03",
+          "text": "神々の姿の向こうには、亡くなった人の旅を支えようとする、人々の願いが見えます。",
+          "spoken_text": "神々の姿の向こうには、亡くなった人の旅を支えようとする、人々の願いが見えます。",
+          "start": 11.061333333333334,
+          "end": 17.824,
+          "audio_file": "audio/ja/sentences/N28_03_4f7cd766927d.wav",
+          "input_hash": "4f7cd766927d1c2b6817b0c67a293592e82b23d719f7d9bd72f65df1a64eb56c"
+        }
+      ]
+    },
+    {
+      "id": "N29",
+      "chapter": "C07",
+      "heading": "出典と制作について",
+      "caption": "出典一覧は概要欄と付属資料へ",
+      "sources": [],
+      "classification": "production_disclosure",
+      "visuals": [
+        "credits"
+      ],
+      "text": "この動画は、博物館の公開資料と解説をもとに構成しました。ナレーションには音声合成を、一部の映像にはAIによる再現画を使っています。作品名、出典、素材の利用条件は付属の資料にまとめています。ご覧いただき、ありがとうございました。",
+      "duration_seconds": 18.528,
+      "native_speed": 1.087,
+      "audio_file": "audio/ja/N29.wav",
+      "cues": [
+        {
+          "id": "N29-01",
+          "text": "この動画は、博物館の公開資料と解説をもとに構成しました。",
+          "spoken_text": "この動画は、博物館の公開資料と解説をもとに構成しました。",
+          "start": 0.0,
+          "end": 4.874666666666666,
+          "audio_file": "audio/ja/sentences/N29_01_9fe741860eb3.wav",
+          "input_hash": "9fe741860eb3d136f6b3fec1991ce782dcd11fe023c47c99eae9e0d19582185c"
+        },
+        {
+          "id": "N29-02",
+          "text": "ナレーションには音声合成を、一部の映像にはAIによる再現画を使っています。",
+          "spoken_text": "ナレーションには音声合成を、一部の映像にはエーアイによる再現画を使っています。",
+          "start": 5.034666666666666,
+          "end": 10.506666666666666,
+          "audio_file": "audio/ja/sentences/N29_02_7c22776f90bd.wav",
+          "input_hash": "7c22776f90bdb63cd40d2d2bb00f8b689cbe09b8f27e0120fee9b15be37f3880"
+        },
+        {
+          "id": "N29-03",
+          "text": "作品名、出典、素材の利用条件は付属の資料にまとめています。",
+          "spoken_text": "作品名、出典、素材の利用条件は付属の資料にまとめています。",
+          "start": 10.666666666666666,
+          "end": 15.669333333333332,
+          "audio_file": "audio/ja/sentences/N29_03_3b99fc6ca3b9.wav",
+          "input_hash": "3b99fc6ca3b94f9abb43a4d2abf8929be6d3ee078bc705651ec37cbc98de41ba"
+        },
+        {
+          "id": "N29-04",
+          "text": "ご覧いただき、ありがとうございました。",
+          "spoken_text": "ご覧いただき、ありがとうございました。",
+          "start": 15.829333333333333,
+          "end": 18.528,
+          "audio_file": "audio/ja/sentences/N29_04_fe4ec8684612.wav",
+          "input_hash": "fe4ec8684612b83fc1cd4aba09f3b1832f69caf4461c049ce74d92527ab581b2"
+        }
+      ]
+    }
+  ]
+}

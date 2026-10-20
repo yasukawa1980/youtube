@@ -1,0 +1,70 @@
+{
+  "bgm": {
+    "shared_across_languages": true,
+    "during_either_narration_rms_dbfs": -33.50000021588406,
+    "pause_boost_db": 4,
+    "fade_out_seconds": 3,
+    "sha256": "e51811bf43b81ec1f063d3399f27729a01ee03dd7b10978685432b2549b936e1",
+    "ducking": "union of English/Japanese paragraph spans; 180ms attack, 400ms release"
+  },
+  "languages": {
+    "en": {
+      "wav": {
+        "input_i": "-16.00",
+        "input_tp": "-3.78",
+        "input_lra": "2.50",
+        "input_thresh": "-26.62",
+        "output_i": "-16.05",
+        "output_tp": "-3.00",
+        "output_lra": "2.50",
+        "output_thresh": "-26.60",
+        "normalization_type": "dynamic",
+        "target_offset": "0.05"
+      },
+      "aac": {
+        "input_i": "-16.01",
+        "input_tp": "-3.79",
+        "input_lra": "2.60",
+        "input_thresh": "-26.63",
+        "output_i": "-16.05",
+        "output_tp": "-3.00",
+        "output_lra": "2.50",
+        "output_thresh": "-26.60",
+        "normalization_type": "dynamic",
+        "target_offset": "0.05"
+      },
+      "narration_active_rms_dbfs": -17.935210615037526,
+      "bgm_under_this_voice_rms_dbfs": -33.50771495123162,
+      "bgm_relative_to_narration_db": -15.572504336194093
+    },
+    "ja": {
+      "wav": {
+        "input_i": "-15.98",
+        "input_tp": "-4.55",
+        "input_lra": "4.20",
+        "input_thresh": "-26.80",
+        "output_i": "-15.98",
+        "output_tp": "-3.00",
+        "output_lra": "4.10",
+        "output_thresh": "-26.69",
+        "normalization_type": "dynamic",
+        "target_offset": "-0.02"
+      },
+      "aac": {
+        "input_i": "-15.98",
+        "input_tp": "-4.55",
+        "input_lra": "4.20",
+        "input_thresh": "-26.80",
+        "output_i": "-15.98",
+        "output_tp": "-3.00",
+        "output_lra": "4.10",
+        "output_thresh": "-26.69",
+        "normalization_type": "dynamic",
+        "target_offset": "-0.02"
+      },
+      "narration_active_rms_dbfs": -18.546450989216247,
+      "bgm_under_this_voice_rms_dbfs": -33.374062672559816,
+      "bgm_relative_to_narration_db": -14.82761168334357
+    }
+  }
+}

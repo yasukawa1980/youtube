@@ -1,0 +1,27 @@
+{
+  "english_dry_narration_sha256_unchanged": "398b07126563af6db6c76819cc2ddff330f717748fbc915a036c7c9fd26c4bcb",
+  "all_28_segment_start_end_times_unchanged": true,
+  "total_frames": 19986,
+  "all_55_shot_frame_counts_verified": true,
+  "japanese_voice": "VOICEVOX:冥鳴ひまり",
+  "english_subtitle_replacement_performed": false,
+  "motion_comparison_first_10_seconds": {
+    "v02": {
+      "frames": 300,
+      "mean_frame_difference": 0.3379519283771515,
+      "frame_difference_cv": 0.868082582950592,
+      "p10": 0.08741145581007004,
+      "p90": 0.5835729241371155
+    },
+    "v03": {
+      "frames": 300,
+      "mean_frame_difference": 0.10002405196428299,
+      "frame_difference_cv": 0.4866854250431061,
+      "p10": 0.08773089945316315,
+      "p90": 0.10686545073986053
+    }
+  },
+  "motion_metric_limit": "Frame-difference variability is a technical diagnostic, not human viewing validation.",
+  "voicevox_credit": "VOICEVOX:冥鳴ひまり",
+  "human_listening_completed": false
+}

@@ -51,3 +51,18 @@ full_delivery:
   release_srt_cues_en: 149   # Claude修正はGit資料のみ。添付差し替えは未実施
   srt_cues_ja: 136
   additional_payment_jpy: 0
+
+av_revision_v03:
+  status: owner_review_pending
+  guide: new-channel/wom01_映像音声調整_v03_20261021/README.md
+  local_media_root: /Users/ryo/Desktop/新チャンネル/EP001_Anubis/映像音声調整_v03_20261021
+  voice_ja_candidate: VOICEVOX:冥鳴ひまり
+  fps_both_languages: 30
+  resolution: 1920x1080
+  bgm_change_db: 3
+  english_narration_unchanged: true
+  duration_seconds: 666.2
+  english_subtitle_update: deferred_by_owner
+  japanese_subtitle_update: regenerate_after_voice_approval
+  release_id: 418626871
+  ssd_synced: false
