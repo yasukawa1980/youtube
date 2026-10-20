@@ -26,17 +26,34 @@ def stamp(t,ass=False):
     scale=100 if ass else 1000
     n=round(t*scale);h=n//(3600*scale);n%=3600*scale;m=n//(60*scale);n%=60*scale;s=n//scale;part=n%scale
     return f'{h}:{m:02}:{s:02}.{part:02}' if ass else f'{h:02}:{m:02}:{s:02},{part:03}'
-def wrap(t,n=30):
+def wrap(t,n=22):
+    # Break at 、 or after a particle near the even split point, never mid-word unless no candidate exists.
     lines=[]
     while len(t)>n:
-        cut=n
-        if t[cut] in '、。！？）」』':cut+=1
+        k=-(-len(t)//n);target=round(len(t)/k)
+        def score(i):
+            if t[i-1]=='、':return abs(i-target)
+            if t[i-1] in 'はがをにでともへや' and not 'ぁ'<=t[i]<='ゖ':return abs(i-target)+3
+            if t[i-1]=='の' and not 'ぁ'<=t[i]<='ゖ':return abs(i-target)+6
+            return None
+        cands=[(score(i),i) for i in range(4,min(n,len(t)-2)+1) if score(i) is not None]
+        cut=min(cands)[1] if cands else n
+        if cut<len(t) and t[cut] in '、。！？）」』':cut+=1
         lines.append(t[:cut]);t=t[cut:]
     if t:lines.append(t)
     return '\n'.join(lines)
 
-cues=[c for seg in REC['segments'] for c in seg['cues']]
-srt='\n\n'.join(f'{i}\n{stamp(c["start"])} --> {stamp(c["end"])}\n{wrap(c["text"])}' for i,c in enumerate(cues,1))+'\n'
+sentence_cues=[c for seg in REC['segments'] for c in seg['cues']]
+# Show at most two lines at a time; a longer sentence becomes consecutive chunks,
+# timed by character share within the sentence's measured audio span.
+cues=[]
+for c in sentence_cues:
+    rows=wrap(c['text']).split('\n');chunks=['\n'.join(rows[k:k+2]) for k in range(0,len(rows),2)]
+    total=sum(len(x.replace('\n','')) for x in chunks);t=c['start']
+    for k,x in enumerate(chunks):
+        end=c['end'] if k==len(chunks)-1 else t+(c['end']-c['start'])*len(x.replace('\n',''))/total
+        cues.append({'text':x,'start':t,'end':end});t=end
+srt='\n\n'.join(f'{i}\n{stamp(c["start"])} --> {stamp(c["end"])}\n{c["text"]}' for i,c in enumerate(cues,1))+'\n'
 (DELIVER/'EP001_字幕_ja.srt').write_text(srt)
 ass='''[Script Info]
 ScriptType: v4.00+
@@ -53,7 +70,7 @@ Style: Narration,Hiragino Sans,44,&H00F8F6ED,&H00FFFFFF,&HCC140C07,&HCC140C07,0,
 Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
 '''
 for c in cues:
-    line=wrap(c['text']).replace('\n',r'\N').replace('{','').replace('}','')
+    line=c['text'].replace('\n',r'\N').replace('{','').replace('}','')
     ass+=f'Dialogue: 0,{stamp(c["start"],True)},{stamp(c["end"],True)},Narration,,0,0,0,,{line}\n'
 ap=DELIVER/'EP001_字幕_ja.ass';ap.write_text(ass)
 
@@ -139,7 +156,7 @@ entries=[];cursor=0.0
 for i,c in enumerate(cues):
     if c['start']>cursor:entries.append((blank,c['start']-cursor))
     im=Image.new('RGBA',(1920,230),(0,0,0,0));d=ImageDraw.Draw(im)
-    lines=wrap(c['text']).split('\n');height=len(lines)*62
+    lines=c['text'].split('\n');height=len(lines)*62
     y=1080-56-height-850
     for j,line in enumerate(lines):
         width=d.textlength(line,font=ft);x=(1920-width)/2;yy=y+j*62

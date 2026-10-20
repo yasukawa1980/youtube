@@ -2,7 +2,7 @@
 episode_id: wom01
 series: Worlds of Mystery
 title: アヌビス — 死者を裁く神か、守る神か
-status: prototype_ready_for_owner_review
+status: v02_script_revised_rerender_pending
 language: ja
 language_status: provisional
 voice: VOICEVOX:雀松朱司
@@ -15,3 +15,5 @@ handoff: bgm/wom01_テーマ設計.md
 local_media_root: /Users/ryo/youtube/worlds-of-mystery/EP001_Anubis
 local_media_status: legacy_location_unchanged_move_requires_owner_confirmation
 cloud_render_verified: false
+script_revision: v02 (2026-10-20 Claude, text and scripts only; audio/video not re-rendered)
+review_changelog: bgm/wom01_Claudeレビュー修正_v02.md
