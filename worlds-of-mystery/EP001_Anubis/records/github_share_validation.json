@@ -1,0 +1,21 @@
+{
+  "checked_at_jst": "2026-10-20",
+  "scope": "GitHub sharing package; original video has not been rerendered",
+  "checks": {
+    "python_syntax": "7 scripts passed ast.parse",
+    "json_parse": "all shared JSON passed",
+    "yaml_parse": "wom01.yaml passed",
+    "entry_markdown_links": "all README and theme-design links resolve within package",
+    "review_images": "2 JPGs, 1280x720 and 1280x800, each under 1 MB",
+    "media_exclusion": "no MP4, audio, PNG, rendered intermediates copied",
+    "common_secret_pattern_scan": "no matches; legacy commits excluded",
+    "local_media_manifest": "4 existing Mac files hashed"
+  },
+  "limitations": [
+    "GitHub-only Claude cannot play the local video or listen to its narration.",
+    "Script execution in cloud was not tested.",
+    "Shared script copies require WOM_EPISODE_ROOT.",
+    "Human full watch and auditory review remain pending."
+  ],
+  "git_base": "origin/bgm/production; remote latest fetched on 2026-10-20"
+}

@@ -1,0 +1,27 @@
+# wom01 アヌビス：採用再現画プロンプト
+
+2026-10-15に採用した4点。再生成依頼ではなく記録。歴史の証拠として扱わない。高解像度原本はMacのみ。
+
+## hero
+
+Use case: historical-scene. Asset type: cinematic opening key art for a Japanese educational documentary about Anubis, 16:9 landscape. Create a refined painterly reconstruction, not a photograph of a genuine artifact. A calm black jackal-headed Egyptian deity Anubis in human form, slender upright ears and long muzzle, wearing a restrained linen kilt and simple broad collar, stands in profile in an ancient Egyptian columned chamber. His expression and posture are dignified and protective rather than aggressive. A traditional simple balance scale stands nearby, subtly lit, without visible heart or gore. Warm low lamplight on limestone and muted lapis-blue shadows, elegant natural pigments, material texture, quiet mysterious museum-documentary aesthetic. Medium-wide composition, the deity at right third, uncluttered dark left third for later Japanese title overlay. No text, no hieroglyphs, no writing, no logos, no watermark, no modern fantasy armor, no wings, no glowing eyes, no skulls, no blood, no weapons. Anatomically coherent hands and head, one figure only. The visual must read as artistic reconstruction and not evidence of a particular excavated site.
+
+原本ハッシュ：`e9ec1ba2bebd84005b8246e6544d4df3530d218a797743549a2d9cc248f92e9b`
+
+## nile
+
+Use case: historical-scene. Asset type: landscape illustration for a thoughtful history documentary, 16:9. A quiet imagined view of the Nile valley in ancient Egypt, seen from a low rocky desert ridge at blue hour just before sunrise. A sinuous broad river reflects pale gold light, narrow fertile fields and modest mud-brick settlement line the river in the distance, dry ochre cliffs on either side. The strong contrast between river cultivation and desert should be clear. No pyramids, no monumental temple, no people, no ships in close-up, no modern architecture, no text, no map labels, no logos, no watermark. Painterly cinematic reconstruction with restrained realistic geology and soft atmospheric perspective, matching an elegant museum documentary palette of sandstone, muted gold, indigo. This is an illustrative reconstruction, not a historical photograph or a view identified as a specific ancient city. Open wide framing suitable for slow cinematic pan, richly textured but uncluttered.
+
+原本ハッシュ：`6156efccdc3dfd7601ffc429b83d21e2d7a2686775eb874ecf30ca3fa5e0dc30`
+
+## linen
+
+Use case: historical-scene. Asset type: 16:9 cinematic painterly reconstruction for an educational documentary on Anubis. Inside an imagined modest ancient Egyptian burial preparation chamber, a fully wrapped linen human-shaped bundle lies intact on a low simple wooden bier. No exposed corpse and no visible face. Close attention to woven linen, small ceramic bowls containing oils at the edge, plain stone walls and a small warm oil lamp. No people, no deity, no surgery, no tools of dissection, no exposed flesh, no blood, no bones, no horror. Thoughtful dignified atmosphere showing preservation and care, gentle muted gold and dark blue tones matching a refined museum documentary. Side view with the complete wrapped bundle visible, medium-wide framing, generous clear space above for later caption. No writing, no hieroglyphs, no text, no logos, no watermark. It must be clear as an artistic historical reconstruction, not an actual excavated burial or a graphic mummy photo.
+
+原本ハッシュ：`b804e51c1e277a95a1dbb795e847eb5c9455248930a6beb60d046893c424fce1`
+
+## archive
+
+Use case: historical-scene. Asset type: atmospheric 16:9 painterly reconstruction for an educational museum documentary. A close-up still life of an unrolled blank ancient Egyptian papyrus scroll on a simple dark wooden table, with reed pens and a small ceramic ink dish, a second rolled scroll bound by linen cord. The papyrus is completely blank, with absolutely no marks or pseudo-writing. Warm soft raking light reveals the woven fibrous surface, fading into a deep blue shadow background. Rich quiet cinematic composition, no person, no deity, no magical glow. Restrained sandstone, amber and midnight indigo palette, tactile linen and papyrus, editorial historical illustration, not a claimed photograph of an actual archaeological artifact. Leave usable calm space in upper left for later added text, no text, no hieroglyphs, no numbers, no logos, no watermark, no modern objects.
+
+原本ハッシュ：`35264e5bfab41978b1fb83ac8f6bd620a625a62a65212db873b24b9b7e3724d2`
