@@ -1,0 +1,31 @@
+{
+  "date": "2026-10-20",
+  "draft": true,
+  "release_tag": "wom01-en-voices-20261020",
+  "rest_api_download_from_this_mac": "3/3 verified",
+  "claude_download_of_this_new_release": "not_yet_reported",
+  "checks": [
+    {
+      "file": "wom01_voice_A_am_michael_90s.mp4",
+      "rest_download_sha256_match": true,
+      "bytes": 9931613
+    },
+    {
+      "file": "wom01_voice_B_af_heart_90s.mp4",
+      "rest_download_sha256_match": true,
+      "bytes": 9941648
+    },
+    {
+      "file": "wom01_voice_C_bm_george_90s.mp4",
+      "rest_download_sha256_match": true,
+      "bytes": 9938199
+    }
+  ],
+  "same_picture_track_in_all_three": true,
+  "source_media_unchanged": true,
+  "new_paid_contracts": 0,
+  "paid_api_calls": 0,
+  "youtube_uploads": 0,
+  "full_episode_rendered": false,
+  "owner_voice_choice": "pending"
+}

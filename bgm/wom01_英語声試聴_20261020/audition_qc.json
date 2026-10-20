@@ -1,0 +1,78 @@
+{
+  "scope": "N01-N04 audition only; full production awaits owner voice choice",
+  "duration_seconds": 90,
+  "subtitles_burned_in": false,
+  "video": {
+    "width": 1920,
+    "height": 1080,
+    "fps": 30,
+    "shots": 8,
+    "camera": "2.5% slow zoom in every shot"
+  },
+  "bgm": {
+    "source_sha256": "504a2fb6f352e7d4c52ed8b023f8b23d0fa514479aced2fa09fb79850a1c19b0",
+    "during_narration_rms_dbfs": -36.49999980245744,
+    "chapter_gap_rms_dbfs": -33.352815622773456,
+    "nominal_pause_boost_db": 4,
+    "fade_out_seconds": 2.7,
+    "duck_method": "shared paragraph schedule, 180ms attack and 400ms release"
+  },
+  "voices": [
+    {
+      "choice": "A",
+      "voice": "am_michael",
+      "language": "en-us",
+      "label": "Michael / US English / male",
+      "file": "wom01_voice_A_am_michael_90s.mp4",
+      "bytes": 9931613,
+      "sha256": "7e3fa5a2ebff1ea8f3f39f231db008af958ae80a92c7bbe174d3d08581fdb796",
+      "duration_seconds": 90.0,
+      "integrated_lufs": -16.01,
+      "true_peak_dbtp": -4.55,
+      "lra_lu": 2.5,
+      "narration_rms_dbfs": -17.563083249123103,
+      "bgm_relative_to_narration_db": -18.936916553334335,
+      "full_decode": "pass"
+    },
+    {
+      "choice": "B",
+      "voice": "af_heart",
+      "language": "en-us",
+      "label": "Heart / US English / female",
+      "file": "wom01_voice_B_af_heart_90s.mp4",
+      "bytes": 9941648,
+      "sha256": "e0e66c9d6794c9a969b9738de7ee32ffbc6461174744eaf05276b9738813d1c2",
+      "duration_seconds": 90.0,
+      "integrated_lufs": -15.99,
+      "true_peak_dbtp": -4.55,
+      "lra_lu": 3.2,
+      "narration_rms_dbfs": -18.036784098018032,
+      "bgm_relative_to_narration_db": -18.463215704439406,
+      "full_decode": "pass"
+    },
+    {
+      "choice": "C",
+      "voice": "bm_george",
+      "language": "en-gb",
+      "label": "George / British English / male",
+      "file": "wom01_voice_C_bm_george_90s.mp4",
+      "bytes": 9938199,
+      "sha256": "02390a422ea964d71a3e8fab94938b0c5fc52e80e51edd914c2bfa3da7114caf",
+      "duration_seconds": 90.0,
+      "integrated_lufs": -15.98,
+      "true_peak_dbtp": -5.05,
+      "lra_lu": 2.5,
+      "narration_rms_dbfs": -17.280132887765234,
+      "bgm_relative_to_narration_db": -19.219866914692204,
+      "full_decode": "pass"
+    }
+  ],
+  "human_listening": "pending",
+  "visual_checks": {
+    "english_labels_and_no_burned_captions": "reviewed final frames at 8, 20, 32, 65 seconds; source layouts for all 7 unique screens",
+    "image_types_labeled": true,
+    "no_full_episode_regeneration": true
+  },
+  "common_video_stream_sha256": "acaa1f808abb19fff4fcf6f55e771f2d57c959441ace254ff17ebd8d0d727f03",
+  "all_three_video_streams_identical": true
+}

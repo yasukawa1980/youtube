@@ -1,0 +1,385 @@
+{
+  "scope": "Step 1 only; voice choice pending; no full-episode production",
+  "script_sha256": "a1010e94457f5227f41bfc29a7d6204a356863c927a6b85b2495c01b29fec3cd",
+  "model_sha256": "beb0d1848dee9a49da392cc3df26958d46cfa35d321edf434f52949153f0df3a",
+  "voices_sha256": "bca610b8308e8d99f32e6fe4197e7ec01679264efed0cac9140fe9c29f1fbf7d",
+  "duration_seconds": 90.0,
+  "word_count": 197,
+  "scheduled_narration_seconds": 83,
+  "words_per_minute_including_internal_pauses": 142.40963855421685,
+  "initial_music_seconds": 1.5,
+  "chapter_C02_music_seconds": 1.8,
+  "ending_music_seconds": 2.7,
+  "segments": [
+    {
+      "id": "N01",
+      "chapter": "C01",
+      "heading": "The god beside the scale",
+      "caption": "A famous scene of judgment",
+      "sources": [
+        "S04",
+        "S05"
+      ],
+      "classification": "myth_variant",
+      "visuals": [
+        "hero",
+        "balance"
+      ],
+      "text": "A heart is placed on a scale. On the other side sits a symbol of what is right and true. Standing beside the scale is a god with the head of a canine: Anubis. He is famous as the fearsome judge of the dead. But look closely at the ancient sources, and you will find that Anubis does not judge alone.",
+      "word_count": 61,
+      "start": 1.5,
+      "end": 27.200507614213198
+    },
+    {
+      "id": "N02",
+      "chapter": "C01",
+      "heading": "So what was he doing?",
+      "caption": "Question: what does Anubis actually do?",
+      "sources": [
+        "S01",
+        "S04"
+      ],
+      "classification": "editorial_question",
+      "visuals": [
+        "met_548344_detail",
+        "met_544075"
+      ],
+      "text": "So what was Anubis actually doing? Watching over tombs, protecting the bodies of the dead, guiding them on their journey, and checking the scale that weighs the heart. In this episode, we follow sculptures and papyri at The Metropolitan Museum of Art to see, one by one, the work Anubis does in the sources.",
+      "word_count": 54,
+      "start": 27.700507614213198,
+      "end": 50.45177664974619
+    },
+    {
+      "id": "N03",
+      "chapter": "C01",
+      "heading": "Objects and reconstructions",
+      "caption": "Museum photographs and reconstructions are labeled",
+      "sources": [
+        "S01",
+        "S04",
+        "S06"
+      ],
+      "classification": "production_method",
+      "visuals": [
+        "evidence",
+        "met_557830"
+      ],
+      "text": "On screen you will see photographs of real museum objects, along with reconstructions created to help you picture the past. Every reconstruction is labeled in the top corner. Let's begin with the first object.",
+      "word_count": 34,
+      "start": 50.95177664974619,
+      "end": 65.27664974619289
+    },
+    {
+      "id": "N04",
+      "chapter": "C02",
+      "heading": "A watchful canine",
+      "caption": "Lying down, but ears up",
+      "sources": [
+        "S01"
+      ],
+      "classification": "historical_fact",
+      "visuals": [
+        "met_544075",
+        "met_544075_detail"
+      ],
+      "text": "First, this statue of a reclining canine. Its front legs stretch forward and its ears stand upright. It seems less asleep than alert, keeping watch. This statue at the Met is carved from limestone and was originally painted black. The god was not always shown in human form.",
+      "word_count": 48,
+      "start": 67.07664974619289,
+      "end": 87.29999999999998
+    }
+  ],
+  "voices": [
+    {
+      "choice": "A",
+      "voice": "am_michael",
+      "language": "en-us",
+      "label": "Michael / US English / male",
+      "dry_file": "A_am_michael_dry.wav",
+      "segments": [
+        {
+          "key": "3489a21d0aaf3f4e8eb3a0b4ccabe5b59044fe73d5e69aecb7c854799b482042",
+          "id": "N01",
+          "attempts": [
+            {
+              "speed": 0.82,
+              "duration_seconds": 24.299958333333333
+            },
+            {
+              "speed": 0.7753140962209494,
+              "duration_seconds": 27.422
+            },
+            {
+              "speed": 0.7976570481104747,
+              "duration_seconds": 26.229958333333332
+            }
+          ],
+          "chosen_speed": 0.7976570481104747,
+          "chosen_attempt": 2,
+          "final_atempo": 1.0206007883994996,
+          "boundary_adjustment_samples": -304,
+          "duration_seconds": 25.7005,
+          "sha256": "f8a52ed79343012717491f4b707f45dad62827783484d0394d2151e722863feb"
+        },
+        {
+          "key": "6a401471e9f7e99cdde0f82157967b001ed905e8cac1a60cba9f924a7f5877d1",
+          "id": "N02",
+          "attempts": [
+            {
+              "speed": 0.82,
+              "duration_seconds": 25.036625
+            },
+            {
+              "speed": 0.9023686752565819,
+              "duration_seconds": 22.550666666666668
+            }
+          ],
+          "chosen_speed": 0.9023686752565819,
+          "chosen_attempt": 1,
+          "final_atempo": 0.9911828052952552,
+          "boundary_adjustment_samples": -208,
+          "duration_seconds": 22.75125,
+          "sha256": "a873e4e6f1b67da636048cb4895b541ca0177a39324a8cbd69ead7487d63b952"
+        },
+        {
+          "key": "db3b780f1a44fe28a16d05cd353838dbf2a148009ccb2823cc05300ddf944407",
+          "id": "N03",
+          "attempts": [
+            {
+              "speed": 0.82,
+              "duration_seconds": 16.568583333333333
+            },
+            {
+              "speed": 0.9484369070399243,
+              "duration_seconds": 14.796583333333333
+            },
+            {
+              "speed": 0.979668415694811,
+              "duration_seconds": 14.583291666666666
+            }
+          ],
+          "chosen_speed": 0.979668415694811,
+          "chosen_attempt": 2,
+          "final_atempo": 1.0180398505787858,
+          "boundary_adjustment_samples": -151,
+          "duration_seconds": 14.324875,
+          "sha256": "801a0b762817f61ecb6cd96a752e94c0aada3f904f01bd5a43bca4815921533d"
+        },
+        {
+          "key": "1e23d43e88bbc04d6162a3f48e536d53716fe2dfd31f57c5a1103268370ba94d",
+          "id": "N04",
+          "attempts": [
+            {
+              "speed": 0.82,
+              "duration_seconds": 22.565958333333334
+            },
+            {
+              "speed": 0.9149861719795851,
+              "duration_seconds": 20.217958333333332
+            }
+          ],
+          "chosen_speed": 0.9149861719795851,
+          "chosen_attempt": 1,
+          "final_atempo": 0.9997333814424364,
+          "boundary_adjustment_samples": -237,
+          "duration_seconds": 20.223333333333333,
+          "sha256": "c168e3cd21119acb4a846de863d9330d7d6508cb3d0bc3574013694bd81415e2"
+        }
+      ]
+    },
+    {
+      "choice": "B",
+      "voice": "af_heart",
+      "language": "en-us",
+      "label": "Heart / US English / female",
+      "dry_file": "B_af_heart_dry.wav",
+      "segments": [
+        {
+          "key": "ecc0df8fa20329b99ea90bd2ee8c9e1ed06d661bfd28ac1c307dd9dd87d7a7fe",
+          "id": "N01",
+          "attempts": [
+            {
+              "speed": 0.82,
+              "duration_seconds": 21.921958333333333
+            },
+            {
+              "speed": 0.6994416648561459,
+              "duration_seconds": 26.667333333333332
+            },
+            {
+              "speed": 0.7597208324280729,
+              "duration_seconds": 24.989333333333335
+            },
+            {
+              "speed": 0.7295812486421094,
+              "duration_seconds": 25.983291666666666
+            }
+          ],
+          "chosen_speed": 0.7295812486421094,
+          "chosen_attempt": 3,
+          "final_atempo": 1.011003053196392,
+          "boundary_adjustment_samples": -173,
+          "duration_seconds": 25.7005,
+          "sha256": "79e804882b9b5838597bb0538b99beed5191789c8777ec09c3526ecc0a73c23c"
+        },
+        {
+          "key": "95475cd1d470ea110d4847e4cfa8803be857309e9cc5c870a4ac8629095809d8",
+          "id": "N02",
+          "attempts": [
+            {
+              "speed": 0.82,
+              "duration_seconds": 21.658666666666665
+            },
+            {
+              "speed": 0.7806204849025732,
+              "duration_seconds": 24.753291666666666
+            },
+            {
+              "speed": 0.8003102424512866,
+              "duration_seconds": 23.206
+            }
+          ],
+          "chosen_speed": 0.8003102424512866,
+          "chosen_attempt": 2,
+          "final_atempo": 1.019987059348505,
+          "boundary_adjustment_samples": -197,
+          "duration_seconds": 22.75125,
+          "sha256": "c61b896dc548684db2fa6036914607254f5709a921b29da9609cf49453bf6048"
+        },
+        {
+          "key": "bbd61a1c2174fcf669a4f62db37c8c13e2c0e8b0f113cb8bc855d34d53c7bf5c",
+          "id": "N03",
+          "attempts": [
+            {
+              "speed": 0.82,
+              "duration_seconds": 15.251333333333333
+            },
+            {
+              "speed": 0.8730334467280888,
+              "duration_seconds": 14.418
+            }
+          ],
+          "chosen_speed": 0.8730334467280888,
+          "chosen_attempt": 1,
+          "final_atempo": 1.0065010630758326,
+          "boundary_adjustment_samples": -226,
+          "duration_seconds": 14.324875,
+          "sha256": "28dcf362961977f052e3eafb04a6beb39e852f0afc807ba23afe303d5280bb7d"
+        },
+        {
+          "key": "2de159639473ed0d74f57e823c5d99413bfc0c88171162a719dc0cf3b83613c0",
+          "id": "N04",
+          "attempts": [
+            {
+              "speed": 0.82,
+              "duration_seconds": 20.793958333333332
+            },
+            {
+              "speed": 0.8431365535056895,
+              "duration_seconds": 20.291958333333334
+            }
+          ],
+          "chosen_speed": 0.8431365535056895,
+          "chosen_attempt": 1,
+          "final_atempo": 1.0033925179886212,
+          "boundary_adjustment_samples": -267,
+          "duration_seconds": 20.223333333333333,
+          "sha256": "dd6d74cb5aac90f5db463b7d1e9037072e767eb1bd85d7128556510b0516411f"
+        }
+      ]
+    },
+    {
+      "choice": "C",
+      "voice": "bm_george",
+      "language": "en-gb",
+      "label": "George / British English / male",
+      "dry_file": "C_bm_george_dry.wav",
+      "segments": [
+        {
+          "key": "021d0c713fcf3d2d0391a3cffd62b9e44d665528a2727aed10289f90e2abe8aa",
+          "id": "N01",
+          "attempts": [
+            {
+              "speed": 0.82,
+              "duration_seconds": 22.822
+            },
+            {
+              "speed": 0.7281583804068733,
+              "duration_seconds": 27.163958333333333
+            },
+            {
+              "speed": 0.7740791902034366,
+              "duration_seconds": 25.882666666666665
+            }
+          ],
+          "chosen_speed": 0.7740791902034366,
+          "chosen_attempt": 2,
+          "final_atempo": 1.0070877608795838,
+          "boundary_adjustment_samples": -130,
+          "duration_seconds": 25.7005,
+          "sha256": "40b3222d0b5d0e2169f59f08146bb1aeaebf0ad5a3b272f5d4527c5e28390246"
+        },
+        {
+          "key": "eb7c4e0fa80aa6a4c458e3b6ea06ac6c12bdace5d600eb96da05070826761372",
+          "id": "N02",
+          "attempts": [
+            {
+              "speed": 0.82,
+              "duration_seconds": 22.470625
+            }
+          ],
+          "chosen_speed": 0.82,
+          "chosen_attempt": 0,
+          "final_atempo": 0.9876646865238732,
+          "boundary_adjustment_samples": -189,
+          "duration_seconds": 22.75125,
+          "sha256": "21a49266638d111cbf7acdd3ee03b9cebbed6c3bc1d8a018309772985ab154a5"
+        },
+        {
+          "key": "285050e01e6976f1327a80ca42668b8313c282adf18bf05d142df07fdbf448e7",
+          "id": "N03",
+          "attempts": [
+            {
+              "speed": 0.82,
+              "duration_seconds": 16.603958333333335
+            },
+            {
+              "speed": 0.9504618813489252,
+              "duration_seconds": 14.747958333333333
+            },
+            {
+              "speed": 0.9785337803119933,
+              "duration_seconds": 14.491958333333333
+            }
+          ],
+          "chosen_speed": 0.9785337803119933,
+          "chosen_attempt": 2,
+          "final_atempo": 1.0116639942121428,
+          "boundary_adjustment_samples": -262,
+          "duration_seconds": 14.324875,
+          "sha256": "f2f233a387f57c72b95fff2a373d26aa7d673f0ed9c399bd3ca17f794401e318"
+        },
+        {
+          "key": "0a59ddd335154ac4843262465051e085b78508032ddbb45569b27a9097674e88",
+          "id": "N04",
+          "attempts": [
+            {
+              "speed": 0.82,
+              "duration_seconds": 21.748666666666665
+            },
+            {
+              "speed": 0.8818472925033467,
+              "duration_seconds": 20.041958333333334
+            }
+          ],
+          "chosen_speed": 0.8818472925033467,
+          "chosen_attempt": 1,
+          "final_atempo": 0.9910305701974566,
+          "boundary_adjustment_samples": -160,
+          "duration_seconds": 20.223333333333333,
+          "sha256": "695b3adfb4ca9d8b07ab99677711594f59f0dc8edc0130d63974a4952e13f937"
+        }
+      ]
+    }
+  ],
+  "human_listening": "pending"
+}

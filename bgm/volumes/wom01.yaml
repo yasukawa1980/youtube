@@ -3,7 +3,7 @@ episode_id: wom01
 series: Worlds of Mystery
 title: 'Anubis: Judge of the Dead, or Protector?'
 title_ja: アヌビス — 死者を裁く神か、守る神か
-status: en_primary_switch_pending_codex
+status: en_voice_auditions_ready_awaiting_owner
 language: en
 language_status: owner_decided_2026-10-20
 audio_languages: [en, ja]   # 映像1本＋言語別の音声トラック。追加言語は2〜3本の実測後に検討（第1候補 es）
@@ -25,3 +25,13 @@ cloud_render_verified: false
 script_revision: v02 (2026-10-20 Claude, text and scripts only; audio/video not re-rendered)
 review_changelog: bgm/wom01_Claudeレビュー修正_v02.md
 language_plan: bgm/wom01_英語メイン化_手順.md
+
+voice_audition:
+  completed_step: 1
+  date: 2026-10-20
+  candidates: [am_michael, af_heart, bm_george]
+  duration_seconds_each: 90.0
+  selected_voice: null
+  guide: bgm/wom01_英語声試聴_20261020/README.md
+  release_tag: wom01-en-voices-20261020
+  full_production_requires_owner_voice_choice: true
