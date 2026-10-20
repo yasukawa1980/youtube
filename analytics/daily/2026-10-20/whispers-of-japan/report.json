@@ -1,0 +1,643 @@
+{
+  "date_jst": "2026-10-20",
+  "status": "completed",
+  "channel_name": "Whispers of Japan",
+  "channel_id": "UCx4mLEohO3XCVxZajUynLzw",
+  "handle": "@WhispersofJapan-22",
+  "source": "ログイン済みChromeのYouTube Studio表示画面（分析専用タブのAX読み取り）",
+  "periods": {
+    "7d": {
+      "start": "2026-10-13",
+      "end": "2026-10-19"
+    },
+    "28d": {
+      "start": "2026-09-22",
+      "end": "2026-10-19"
+    }
+  },
+  "overview": {
+    "7d": {
+      "views": 4139,
+      "views_vs_previous_period_percent": 27,
+      "watch_time_hours": 67.5,
+      "watch_time_vs_previous_period_percent": 171,
+      "net_subscribers": 6,
+      "net_subscribers_vs_previous_period_percent": 20
+    },
+    "28d": {
+      "views": 13287,
+      "watch_time_hours": 150.9,
+      "watch_time_vs_previous_period_percent": 8,
+      "net_subscribers": 28,
+      "net_subscribers_vs_previous_period_percent": 100
+    },
+    "current_subscribers": 58,
+    "realtime_48h_views": 767,
+    "other_realtime_observation": {
+      "source": "overview-28d.txt",
+      "current_subscribers": 58,
+      "realtime_48h_views": 767
+    }
+  },
+  "format_metrics": {
+    "7d": {
+      "videos": {
+        "views": 1007,
+        "views_vs_previous_period_percent": 34,
+        "impressions": 10202,
+        "impressions_display": "1万",
+        "impressions_vs_previous_period_percent": -7,
+        "ctr_percent": 2.5,
+        "average_view_duration": "6:32",
+        "traffic_percent": {
+          "ブラウジング機能": 71.9,
+          "関連動画": 21.0,
+          "YouTube 検索": 3.0,
+          "チャンネル ページ": 1.0,
+          "その他の YouTube 機能": 0.8,
+          "その他": 2.4
+        }
+      },
+      "shorts": {
+        "views": 2826,
+        "views_vs_previous_period_percent": 16,
+        "engaged_views": 684,
+        "engaged_views_vs_previous_period_percent": 51,
+        "likes_net": 39,
+        "likes_vs_previous_period_percent": -11,
+        "net_subscribers": 2,
+        "net_subscribers_vs_previous_period_percent": -33,
+        "continued_viewing_percent": 24.8,
+        "swiped_away_percent": 75.2,
+        "traffic_percent": {
+          "ショート フィード": 86.2,
+          "YouTube 検索": 10.7,
+          "チャンネル ページ": 2.0,
+          "その他の YouTube 機能": 0.8,
+          "ブラウジング機能": 0.4,
+          "その他": 0.1
+        }
+      },
+      "live": {
+        "views": 309,
+        "views_vs_previous_period_percent": 407,
+        "impressions": 1682,
+        "impressions_display": "1682",
+        "impressions_vs_previous_period_percent": 199,
+        "ctr_percent": 2.1,
+        "average_view_duration": "27:12",
+        "traffic_percent": {
+          "ブラウジング機能": 98.4,
+          "直接入力または不明": 0.7,
+          "その他の YouTube 機能": 0.3,
+          "再生リスト": 0.3,
+          "その他": 0.3
+        }
+      },
+      "all_funnel": {
+        "impressions_display": "1.7万",
+        "engaged_views_from_impressions": 343,
+        "watch_time_from_impressions_hours": 34.43,
+        "ctr_percent": 2.0,
+        "average_view_duration_from_impressions": "6:01"
+      },
+      "all_traffic_percent": {
+        "ショート フィード": 58.8,
+        "ブラウジング機能": 25.1,
+        "YouTube 検索": 8.0,
+        "関連動画": 5.1,
+        "チャンネル ページ": 1.6,
+        "その他": 1.4
+      },
+      "published_content": {
+        "YouTube ショート": 18,
+        "動画": 6
+      },
+      "views_by_format_card": {
+        "YouTube ショート": 2826,
+        "動画": 1007,
+        "ライブ配信": 309
+      },
+      "net_subscribers_by_format_card": {
+        "YouTube ショート": 2,
+        "動画": 3,
+        "ライブ配信": 0
+      }
+    },
+    "28d": {
+      "videos": {
+        "views": 3559,
+        "impressions": null,
+        "impressions_display": "5.2万",
+        "impressions_vs_previous_period_percent": 48,
+        "ctr_percent": 2.0,
+        "average_view_duration": "4:31",
+        "traffic_percent": {
+          "ブラウジング機能": 65.6,
+          "関連動画": 25.4,
+          "YouTube 検索": 3.7,
+          "チャンネル ページ": 1.6,
+          "直接入力または不明": 1.1,
+          "その他": 2.6
+        }
+      },
+      "shorts": {
+        "views": 9319,
+        "engaged_views": 1828,
+        "engaged_views_vs_previous_period_percent": 16,
+        "likes_net": 137,
+        "likes_vs_previous_period_percent": 40,
+        "net_subscribers": 12,
+        "net_subscribers_vs_previous_period_percent": 20,
+        "continued_viewing_percent": 18.4,
+        "swiped_away_percent": 81.6,
+        "traffic_percent": {
+          "ショート フィード": 89.4,
+          "YouTube 検索": 7.9,
+          "その他の YouTube 機能": 1.2,
+          "チャンネル ページ": 1.2,
+          "ブラウジング機能": 0.2,
+          "その他": 0.1
+        }
+      },
+      "live": {
+        "views": 370,
+        "impressions": 2245,
+        "impressions_display": "2245",
+        "ctr_percent": 2.2,
+        "average_view_duration": "18:20",
+        "traffic_percent": {
+          "ブラウジング機能": 93.8,
+          "関連動画": 3.2,
+          "直接入力または不明": 1.9,
+          "その他の YouTube 機能": 0.3,
+          "再生リスト": 0.3,
+          "その他": 0.6
+        }
+      },
+      "all_funnel": {
+        "impressions_display": "6.7万",
+        "engaged_views_from_impressions": 1203,
+        "watch_time_from_impressions_hours": 76.66,
+        "ctr_percent": 1.8,
+        "average_view_duration_from_impressions": "3:49"
+      },
+      "all_traffic_percent": {
+        "ショート フィード": 62.7,
+        "ブラウジング機能": 20.3,
+        "関連動画": 6.9,
+        "YouTube 検索": 6.5,
+        "チャンネル ページ": 1.2,
+        "その他": 2.3
+      },
+      "published_content": {
+        "YouTube ショート": 70,
+        "動画": 29,
+        "ライブ配信": 1
+      },
+      "views_by_format_card": {
+        "YouTube ショート": 9319,
+        "動画": 3559,
+        "ライブ配信": 370
+      },
+      "net_subscribers_by_format_card": {
+        "YouTube ショート": 12,
+        "動画": 9,
+        "ライブ配信": 0
+      }
+    }
+  },
+  "top_content_with_retention": {
+    "7d": [
+      {
+        "rank": 1,
+        "title": "夕焼け小焼け 🌙 箏と尺八で聴く童謡 #童謡 #和風BGM",
+        "format": "short",
+        "publish_date_display": "2026/10/17",
+        "average_view_duration": "0:34",
+        "average_view_percentage": 75.7,
+        "views": 1012
+      },
+      {
+        "rank": 2,
+        "title": "2Hz Delta Binaural Beats | Moonlit Silver Grass Field — 8-Hour Overnight Stream | Sleep Ambient",
+        "format": "live",
+        "publish_date_display": "2026/10/13",
+        "average_view_duration": "27:51",
+        "average_view_percentage": 5.8,
+        "views": 307
+      },
+      {
+        "rank": 3,
+        "title": "七つの子 🌙 箏と尺八で聴く童謡 #童謡 #和風BGM",
+        "format": "short",
+        "publish_date_display": "2026/10/18",
+        "average_view_duration": "1:06",
+        "average_view_percentage": 145.1,
+        "views": 286
+      },
+      {
+        "rank": 4,
+        "title": "Schubert's Ave Maria, Slowed to an Hour 🌙 Koto and Shakuhachi Japanese Ambient | 58 Min",
+        "format": "video",
+        "publish_date_display": "2026/10/14",
+        "average_view_duration": "1:12",
+        "average_view_percentage": 2.1,
+        "views": 209
+      },
+      {
+        "rank": 5,
+        "title": "シューマン トロイメライ 律｜箏・尺八・笙による和風編曲",
+        "format": "short",
+        "publish_date_display": "2026/10/19",
+        "average_view_duration": "0:14",
+        "average_view_percentage": 32.1,
+        "views": 196
+      },
+      {
+        "rank": 6,
+        "title": "秋の童謡 1時間 🌙 赤とんぼ・夕焼け小焼け・紅葉・故郷を箏と尺八で｜懐かしい歌の和風BGM・読書に｜57分",
+        "format": "video",
+        "publish_date_display": "2026/10/15",
+        "average_view_duration": "3:14",
+        "average_view_percentage": 5.6,
+        "views": 174
+      },
+      {
+        "rank": 7,
+        "title": "ブラームスの子守歌を、尺八で",
+        "format": "short",
+        "publish_date_display": "2026/10/18",
+        "average_view_duration": "0:24",
+        "average_view_percentage": 53.2,
+        "views": 164
+      },
+      {
+        "rank": 8,
+        "title": "Brahms' and Schubert's Lullabies, Slowed to an Hour 🌙 Koto and Shakuhachi Japanese Ambient | 57 Min",
+        "format": "video",
+        "publish_date_display": "2026/10/17",
+        "average_view_duration": "1:06",
+        "average_view_percentage": 2.0,
+        "views": 153
+      },
+      {
+        "rank": 9,
+        "title": "ベートーヴェン ソナタ Op.79 第2楽章 律｜箏・尺八・笙による和風編曲",
+        "format": "short",
+        "publish_date_display": "2026/10/18",
+        "average_view_duration": "0:27",
+        "average_view_percentage": 60.6,
+        "views": 151
+      },
+      {
+        "rank": 10,
+        "title": "シューベルトのアヴェ・マリアを、尺八で",
+        "format": "not_classified",
+        "publish_date_display": "2026/10/14",
+        "average_view_duration": "0:20",
+        "average_view_percentage": 44.4,
+        "views": 127
+      }
+    ],
+    "28d": [
+      {
+        "rank": 1,
+        "title": "夕焼け小焼け 🌙 箏と尺八で聴く童謡 #童謡 #和風BGM",
+        "format": "short",
+        "publish_date_display": "2026/10/17",
+        "average_view_duration": "0:34",
+        "average_view_percentage": 75.7,
+        "views": 1012
+      },
+      {
+        "rank": 2,
+        "title": "2Hz Delta Binaural Beats | Moonlit Silver Grass Field — 8-Hour Overnight Stream | Sleep Ambient",
+        "format": "live",
+        "publish_date_display": "2026/10/13",
+        "average_view_duration": "18:44",
+        "average_view_percentage": 3.9,
+        "views": 367
+      },
+      {
+        "rank": 3,
+        "title": "古民家カフェBGM｜紅葉の中庭 ☕",
+        "format": "short",
+        "publish_date_display": "2026/10/04",
+        "average_view_duration": "0:46",
+        "average_view_percentage": 101.7,
+        "views": 346
+      },
+      {
+        "rank": 4,
+        "title": "古民家カフェBGM｜紅葉の中庭 ☕",
+        "format": "short",
+        "publish_date_display": "2026/10/06",
+        "average_view_duration": "0:17",
+        "average_view_percentage": 39.0,
+        "views": 333
+      },
+      {
+        "rank": 5,
+        "title": "月夜の城 🌙 天守を仰ぐ",
+        "format": "short",
+        "publish_date_display": "2026/10/02",
+        "average_view_duration": "0:20",
+        "average_view_percentage": 45.4,
+        "views": 327
+      },
+      {
+        "rank": 6,
+        "title": "Raindrop Prelude on Koto and Shakuhachi — Chopin, Four Preludes from Op. 28",
+        "format": "video",
+        "publish_date_display": "2026/09/28",
+        "average_view_duration": "0:29",
+        "average_view_percentage": 4.2,
+        "views": 314
+      },
+      {
+        "rank": 7,
+        "title": "夜半の月｜月夜の芒原・2Hz バイノーラルビート #Shorts",
+        "format": "short",
+        "publish_date_display": "2026/10/10",
+        "average_view_duration": "0:20",
+        "average_view_percentage": 44.5,
+        "views": 295
+      },
+      {
+        "rank": 8,
+        "title": "七つの子 🌙 箏と尺八で聴く童謡 #童謡 #和風BGM",
+        "format": "short",
+        "publish_date_display": "2026/10/18",
+        "average_view_duration": "1:06",
+        "average_view_percentage": 145.1,
+        "views": 286
+      },
+      {
+        "rank": 9,
+        "title": "ショパン 雨だれ 中間部 Op.28-15 律｜箏・尺八・笙による和風編曲` | `#ショパン #雨だれ #和楽器 #Shorts",
+        "format": "short",
+        "publish_date_display": "2026/10/03",
+        "average_view_duration": "0:12",
+        "average_view_percentage": 26.4,
+        "views": 242
+      },
+      {
+        "rank": 10,
+        "title": "古民家カフェBGM｜蔵の二階 ☕",
+        "format": "not_classified",
+        "publish_date_display": "2026/10/11",
+        "average_view_duration": "0:11",
+        "average_view_percentage": 25.4,
+        "views": 211
+      }
+    ]
+  },
+  "latest_content": {
+    "7d": {
+      "title": "赤とんぼ 🌙 箏と尺八で聴く童謡 #童謡 #和風BGM",
+      "video_id": "FmmGIt5tODo",
+      "elapsed_time_display": "最初の 3時間 5分",
+      "views": 50,
+      "average_view_percentage": 4.9,
+      "likes": 1,
+      "decision": "赤とんぼは公開約3時間・50回・平均視聴割合4.9%。画面の通常25.9～44.8%を下回るが少数・初動のため即時修正は保留。",
+      "format": "short"
+    },
+    "28d": {
+      "title": "赤とんぼ 🌙 箏と尺八で聴く童謡 #童謡 #和風BGM",
+      "video_id": "FmmGIt5tODo",
+      "elapsed_time_display": "最初の 3時間 5分",
+      "views": 50,
+      "average_view_percentage": 4.9,
+      "likes": 1,
+      "decision": "赤とんぼは公開約3時間・50回・平均視聴割合4.9%。画面の通常25.9～44.8%を下回るが少数・初動のため即時修正は保留。",
+      "format": "short"
+    }
+  },
+  "facts": [
+    "7日（10/13～10/19）4139回・67.5時間・登録純増+6。28日（9/22～10/19）13287回・150.9時間・純増+28。登録者58人で前日と同じ。",
+    "48時間767回。前日1337回から570回減（約42.6%）。10/18の2166回→1337回→767回と取得時点の移動窓では低下が続く。",
+    "長尺7日1007回・10202インプレッション・CTR2.5%・平均6:32。前日1053回・10778・2.3%・7:12。CTR上昇と視聴・平均低下を分けて記録。",
+    "ショート7日2826回・684エンゲージビュー・継続24.8%・スワイプ75.2%。前日3001回・706・23.8%・76.2%。視聴は減ったが継続率は+1.0ポイント。",
+    "ライブ7日309回・1682インプレッション・CTR2.1%・平均27:12。28日は370回・2245・2.2%・18:20。7日と28日の平均を混同しない。",
+    "七つの子の公開後は288回・19エンゲージビュー・ユニーク16人・総再生0.4時間。前日の285回・18エンゲージビューから小幅増。ユニークには2日分処理中の表示。",
+    "七つの子のエンゲージメントカードは継続6.1%・スワイプ93.9%・平均1:04。一方、維持率欄には継続5.8%・平均1:06が残る。異なる表示を補正せず別枠で保存。",
+    "夕焼け小焼けショートは7日上位1012回・平均0:34・75.7%。前日995回・0:35・77.3%から大きな改善・悪化とは断定しない。",
+    "最新赤とんぼショートは公開約3時間・50回・平均視聴割合4.9%。通常25.9～44.8%を下回る画面表示だが、初動で品質判断は保留。",
+    "長尺28日のインプレッションは5.2万という丸め表示のみ。正確な件数は未取得のためnull。"
+  ],
+  "hypotheses": [
+    "48時間の低下には初動ピークが窓から外れることや配信量の変化が関係し得る。同じ48時間の動画別完全内訳を揃えておらず原因は確定しない。",
+    "七つの子は継続した少数視聴者の再視聴で平均が長くなっている可能性がある。平均が尺を超えても、スワイプの少なさや視聴者全体の満足度の証明にはならない。",
+    "ライブの7日平均27:12への上昇には集計窓と視聴者構成の変化が関係し得る。28日との差から施策効果を断定しない。"
+  ],
+  "recommendations": [
+    {
+      "id": "whispers-doyo-reference",
+      "status": "昨日候補の継続。新しい施策の追加ではない。",
+      "proposal": "童謡ショートの比較は平均視聴割合より先にスワイプ・エンゲージビューを確認する。七つの子の低い継続率が続いているため、次作を検証するときは冒頭の画または音の1要素だけを比較する候補を維持する。",
+      "evidence": "前日継続5.8%・18エンゲージビュー→本日6.1%・19エンゲージビュー。高スワイプ状態が続く表示。",
+      "constraint": "母数が少なく2日分処理中。維持率欄との表示差もあり、原因特定・既存動画の即時修正はしない。",
+      "execution": "提案記録のみ。制作・投稿・Studio変更は実行しない。"
+    }
+  ],
+  "deferred_decisions": [
+    "七つの子はエンゲージビュー19回で、冒頭の具体的な離脱秒数は未取得。原因の断定は保留。",
+    "赤とんぼは約3時間・50回の初動で、4.9%だけから内容を直ちに修正しない。",
+    "ライブの7日・28日で異なる平均値と、指標間の反映差を踏まえ、概要への寄与率を推定しない。"
+  ],
+  "raw_sources": [
+    {
+      "file": "content-all-7d.txt",
+      "captured_at_utc": "2026-10-20T12:06:03.537Z",
+      "captured_at_jst": "2026-10-20T21:06:03.537000+09:00",
+      "visible_period": "2026/10/13～2026/10/19",
+      "identity_verified": true
+    },
+    {
+      "file": "content-all-28d.txt",
+      "captured_at_utc": "2026-10-20T12:06:32.640Z",
+      "captured_at_jst": "2026-10-20T21:06:32.640000+09:00",
+      "visible_period": "2026/09/22～2026/10/19",
+      "identity_verified": true
+    },
+    {
+      "file": "content-shorts-28d.txt",
+      "captured_at_utc": "2026-10-20T12:06:31.030Z",
+      "captured_at_jst": "2026-10-20T21:06:31.030000+09:00",
+      "visible_period": "2026/09/22～2026/10/19",
+      "identity_verified": true
+    },
+    {
+      "file": "overview-7d.txt",
+      "captured_at_utc": "2026-10-20T12:05:52.171Z",
+      "captured_at_jst": "2026-10-20T21:05:52.171000+09:00",
+      "visible_period": "2026/10/13～2026/10/19",
+      "identity_verified": true
+    },
+    {
+      "file": "content-shorts-7d.txt",
+      "captured_at_utc": "2026-10-20T12:06:07.345Z",
+      "captured_at_jst": "2026-10-20T21:06:07.345000+09:00",
+      "visible_period": "2026/10/13～2026/10/19",
+      "identity_verified": true
+    },
+    {
+      "file": "content-live-28d.txt",
+      "captured_at_utc": "2026-10-20T12:06:27.306Z",
+      "captured_at_jst": "2026-10-20T21:06:27.306000+09:00",
+      "visible_period": "2026/09/22～2026/10/19",
+      "identity_verified": true
+    },
+    {
+      "file": "content-videos-28d.txt",
+      "captured_at_utc": "2026-10-20T12:06:29.313Z",
+      "captured_at_jst": "2026-10-20T21:06:29.313000+09:00",
+      "visible_period": "2026/09/22～2026/10/19",
+      "identity_verified": true
+    },
+    {
+      "file": "content-live-7d.txt",
+      "captured_at_utc": "2026-10-20T12:06:09.130Z",
+      "captured_at_jst": "2026-10-20T21:06:09.130000+09:00",
+      "visible_period": "2026/10/13～2026/10/19",
+      "identity_verified": true
+    },
+    {
+      "file": "content-videos-7d.txt",
+      "captured_at_utc": "2026-10-20T12:06:05.574Z",
+      "captured_at_jst": "2026-10-20T21:06:05.574000+09:00",
+      "visible_period": "2026/10/13～2026/10/19",
+      "identity_verified": true
+    },
+    {
+      "file": "overview-28d.txt",
+      "captured_at_utc": "2026-10-20T12:05:41.902Z",
+      "captured_at_jst": "2026-10-20T21:05:41.902000+09:00",
+      "visible_period": "2026/09/22～2026/10/19",
+      "identity_verified": true
+    },
+    {
+      "file": "followup-nanatsunoko-engagement.txt",
+      "captured_at_utc": "2026-10-20T12:06:52.749Z",
+      "captured_at_jst": "2026-10-20T21:06:52.749000+09:00",
+      "visible_period": "2026/10/18～現在 公開後",
+      "identity_verified": true,
+      "scope": "個別動画の公開後。チャンネル7日・28日と別集計。"
+    },
+    {
+      "file": "followup-nanatsunoko-overview.txt",
+      "captured_at_utc": "2026-10-20T12:07:10.302Z",
+      "captured_at_jst": "2026-10-20T21:07:10.302000+09:00",
+      "visible_period": "2026/10/18～現在 公開後",
+      "identity_verified": true,
+      "scope": "個別動画の公開後。チャンネル7日・28日と別集計。"
+    }
+  ],
+  "capture_window_utc": {
+    "start": "2026-10-20T12:05:41.902Z",
+    "end": "2026-10-20T12:07:10.302Z"
+  },
+  "comparison_to_previous_record": {
+    "previous_date_jst": "2026-10-19",
+    "note": "7日・28日の集計窓は1日ずつ移動。差分を当日単独の実績や厳密な成長率と解釈しない。遅延・再集計もあり得る。",
+    "overview": {
+      "7d": {
+        "views": -284,
+        "watch_time_hours": -4.2,
+        "net_subscribers": 0
+      },
+      "28d": {
+        "views": -510,
+        "watch_time_hours": -0.9,
+        "net_subscribers": -1
+      }
+    },
+    "realtime_48h_views_delta": -570,
+    "current_subscribers_delta": 0,
+    "format_7d": {
+      "videos": {
+        "views": -46,
+        "impressions": -576,
+        "ctr_percent": 0.2
+      },
+      "shorts": {
+        "views": -175,
+        "engaged_views": -22,
+        "likes_net": -1,
+        "net_subscribers": 0,
+        "continued_viewing_percent": 1.0,
+        "swiped_away_percent": -1.0
+      },
+      "live": {
+        "views": -60,
+        "impressions": -558,
+        "ctr_percent": -0.1
+      }
+    },
+    "average_duration_7d_change_seconds": {
+      "videos": -40,
+      "live": 525
+    }
+  },
+  "limitations": [
+    "表示値をそのまま保存。万単位の丸め値から正確な件数は推定しない。",
+    "7日・28日・48時間・公開後経過の異なる集計を混同しない。",
+    "直近動画の個別平均視聴時間と平均視聴割合は概要上位10件の表示範囲で確認。未表示の最新投稿の平均視聴時間は未取得。",
+    "平均視聴割合100%超はループ・再視聴等の可能性があり、原因は断定しない。",
+    "全体ファネルの平均視聴時間・総再生時間はインプレッション起点の部分集計。形式全体の値とは異なる。"
+  ],
+  "format_classification_note": "形式別画面の人気コンテンツ、前日までの確認済み分類、個別画面を使用。未分類はnot_classifiedとし、尺だけで形式を断定しない。",
+  "acquired_at_jst": {
+    "start": "2026-10-20T21:05:41.902000+09:00",
+    "end": "2026-10-20T21:07:10.302000+09:00"
+  },
+  "data_quality_findings": [
+    "概要総再生時間と形式別の視聴回数・平均視聴時間を単純に乗算・合算しても整合しない表示がある。対象や反映時差を切り分けていないため、形式別総再生時間の推定値を補わない。",
+    "表示期間の末日は10/19だが、上位表には公開日10/20の投稿がある。日付基準・反映時差は未確認として表示をそのまま保存。",
+    "集計期間・取得時刻・カードの対象が違う値を置換・補正しない。七つの子には処理中表示とカード間の更新差がある。"
+  ],
+  "individual_video_followups": [
+    {
+      "video_id": "gog-gWhTsS8",
+      "title": "七つの子 🌙 箏と尺八で聴く童謡 #童謡 #和風BGM",
+      "format": "short",
+      "period_display": "2026/10/18～現在 公開後",
+      "duration_display": "0:46",
+      "views": 288,
+      "engaged_views": 19,
+      "estimated_unique_viewers": 16,
+      "unique_viewers_note": "2日分のデータが処理中",
+      "watch_time_hours": 0.4,
+      "average_view_duration": "1:04",
+      "continued_viewing_percent": 6.1,
+      "swiped_away_percent": 93.9,
+      "retention_card_observation": {
+        "continued_viewing_percent": 5.8,
+        "average_view_duration": "1:06",
+        "note": "維持率欄の別表示。エンゲージメントカードの現在値と異なる。"
+      },
+      "retention_graph_drop_position_seconds": null,
+      "retention_graph_note": "プレーヤー・グラフ領域は表示されたが、具体的な秒ごとの値・離脱位置は読み取れない。",
+      "comparison_to_2026_10_19": {
+        "views_delta": 3,
+        "engaged_views_delta": 1,
+        "continued_viewing_percentage_point_delta": 0.3,
+        "average_view_duration_seconds_delta": -2
+      },
+      "source_files": [
+        "followup-nanatsunoko-overview.txt",
+        "followup-nanatsunoko-engagement.txt"
+      ]
+    }
+  ],
+  "studio_changes": [],
+  "user_action_required": false,
+  "sharing": {
+    "repository": "yasukawa1980/youtube",
+    "branch": "bgm/production",
+    "shared_scope": "数値・検証結果のreport.json。原文スナップショットと画面証拠はMac内。",
+    "raw_sources_location": "/Users/ryo/youtube/analytics/daily/2026-10-20/whispers-of-japan"
+  }
+}
