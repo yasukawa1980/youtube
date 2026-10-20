@@ -8,8 +8,8 @@
   "publication_authorized": false,
   "new_channel_creation_authorized": false,
   "max_additional_spend_jpy": 0,
-  "voice_credit": "TBD (English TTS not yet chosen)",
-  "voice_style_id": null,
+  "voice_credit": "Kokoro / Heart (af_heart)",
+  "voice_style_id": "af_heart",
   "chapters": [
     {
       "id": "C01",
@@ -603,5 +603,11 @@
   "translation_of": null,
   "parallel_tracks": {
     "ja": "records/content.json"
+  },
+  "voice_selection": {
+    "date_jst": "2026-10-20",
+    "choice": "B",
+    "authorized_by": "owner",
+    "instruction": "ではBで進めて下さい"
   }
 }

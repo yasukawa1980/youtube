@@ -3,7 +3,7 @@ episode_id: wom01
 series: Worlds of Mystery
 title: 'Anubis: Judge of the Dead, or Protector?'
 title_ja: アヌビス — 死者を裁く神か、守る神か
-status: en_voice_auditions_ready_awaiting_owner
+status: bilingual_v02_ready_awaiting_owner_full_listening
 language: en
 language_status: owner_decided_2026-10-20
 audio_languages: [en, ja]   # 映像1本＋言語別の音声トラック。追加言語は2〜3本の実測後に検討（第1候補 es）
@@ -11,18 +11,18 @@ subtitles_burned_in: false
 subtitle_files: [en, ja]
 script_master: worlds-of-mystery/EP001_Anubis/records/content_en.json
 script_ja: worlds-of-mystery/EP001_Anubis/records/content.json
-voice_en: TBD   # 無料・ローカルの候補から本人が試聴して選ぶ。追加契約は未承認
+voice_en: Kokoro / Heart (af_heart)   # 本人がBを正式採用
 voice_ja: VOICEVOX:雀松朱司
-duration_seconds: 617.233333   # v01（日本語のみ・字幕焼き込み）の実尺。英語メイン版は未計測
+duration_seconds: 666.2   # v02 英語・日本語の共通実尺
 publication_authorized: false
 new_channel_creation_authorized: false
 additional_spend_authorized: false
 repo_episode_dir: worlds-of-mystery/EP001_Anubis
 handoff: bgm/wom01_テーマ設計.md
-local_media_root: /Users/ryo/youtube/worlds-of-mystery/EP001_Anubis
-local_media_status: legacy_location_unchanged_move_requires_owner_confirmation
+local_media_root: /Users/ryo/Desktop/BGM/Worlds of Mystery/EP001_Anubis/英語メイン版_v02_20261020
+local_media_status: new_v02_outputs_saved_legacy_media_retained
 cloud_render_verified: false
-script_revision: v02 (2026-10-20 Claude, text and scripts only; audio/video not re-rendered)
+script_revision: v02 bilingual rendered 2026-10-20
 review_changelog: bgm/wom01_Claudeレビュー修正_v02.md
 language_plan: bgm/wom01_英語メイン化_手順.md
 
@@ -31,7 +31,18 @@ voice_audition:
   date: 2026-10-20
   candidates: [am_michael, af_heart, bm_george]
   duration_seconds_each: 90.0
-  selected_voice: null
+  selected_voice: af_heart
+  owner_choice_received: true
   guide: bgm/wom01_英語声試聴_20261020/README.md
   release_tag: wom01-en-voices-20261020
   full_production_requires_owner_voice_choice: true
+
+full_delivery:
+  completed_steps: [2, 3, 4, 5, 6, 7]
+  guide: bgm/wom01_英語メイン版_v02_20261020/README.md
+  release_tag: wom01-en-ja-v02-20261020
+  human_full_listening_en: false
+  human_full_listening_ja: false
+  srt_cues_en: 149
+  srt_cues_ja: 136
+  additional_payment_jpy: 0

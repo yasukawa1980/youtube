@@ -1,0 +1,71 @@
+{
+  "video": {
+    "codec": "h264",
+    "width": 1920,
+    "height": 1080,
+    "fps": 30,
+    "duration_seconds": 617.233333,
+    "size_bytes": 537493081
+  },
+  "audio": {
+    "codec": "aac",
+    "sample_rate": 48000,
+    "channels": 2,
+    "integrated_lufs": -16.04,
+    "true_peak_dbtp": -1.8,
+    "loudness_range_lu": 3.1
+  },
+  "checks": {
+    "full_file_decode": "pass",
+    "subtitle_sentence_cues": 120,
+    "subtitle_monotonic_and_in_bounds": "pass",
+    "source_assets_present": "pass",
+    "museum_assets_public_domain_and_hash": "pass",
+    "sampled_frames_exported": [
+      9,
+      29,
+      65,
+      119,
+      183,
+      265,
+      326,
+      375,
+      456,
+      505,
+      547,
+      590,
+      614
+    ],
+    "visual_frame_review": "pass: Codex reviewed 13 sampled final frames in contact sheet, two full-size source frames, and the subtitle overlay preview; not a human full watch",
+    "human_full_watch": "pending",
+    "human_auditory_review": "pending",
+    "independent_expert_review": "not_performed"
+  },
+  "costs": {
+    "additional_paid_contracts": 0,
+    "paid_api_calls": 0,
+    "suno_credits_used": 0,
+    "kling_credits_used": 0,
+    "built_in_image_generations": 4,
+    "notes": "既存契約内の画像生成枠と計算機資源は使用。電気代・既存月額・人件費は算入していない。80%の削減率は未測定。"
+  },
+  "publication": "not_uploaded_or_scheduled",
+  "generated_at_jst": "2026-10-15",
+  "delivery_status": "complete_prototype_ready_for_owner_review",
+  "storage": {
+    "assets": 83891614,
+    "audio": 235536520,
+    "render": 926567141,
+    "deliverables": 604142554,
+    "records": 5397473,
+    "scripts": 47290,
+    "project_bytes_snapshot": 1855582592,
+    "temporary_voice_runtime_bytes": 183270837
+  },
+  "timing": {
+    "folder_created_jst": "2026-10-15T07:26:52.641604+09:00",
+    "final_video_updated_jst": "2026-10-15T07:56:42.597730+09:00",
+    "observed_folder_to_final_minutes": 29.8,
+    "scope": "filesystem observation; excludes any research before folder creation; not human labor or a measured automation savings ratio"
+  }
+}

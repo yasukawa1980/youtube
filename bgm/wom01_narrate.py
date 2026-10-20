@@ -1,3 +1,10 @@
+# English-primary v02 entry point. The legacy v01 path below remains available.
+import os as _wom_os
+if _wom_os.environ.get('WOM_LANG') in ('en', 'ja'):
+    from wom01_multilingual_narration import main as _wom_main
+    _wom_main()
+    raise SystemExit(0)
+
 """Generate local VOICEVOX narration, with one file per complete sentence."""
 import json
 import re

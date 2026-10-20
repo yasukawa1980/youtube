@@ -1,3 +1,10 @@
+# English-primary v02 entry point. The legacy v01 path below remains available.
+import os as _wom_os
+if _wom_os.environ.get('WOM_MULTILINGUAL') == '1':
+    from wom01_multilingual_documents import main as _wom_main
+    _wom_main()
+    raise SystemExit(0)
+
 """Create the source-linked script, rights register and reviewable handoff."""
 import json, hashlib, csv
 from pathlib import Path

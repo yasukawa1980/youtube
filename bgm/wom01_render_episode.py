@@ -1,3 +1,10 @@
+# English-primary v02 entry point. The legacy v01 path below remains available.
+import os as _wom_os
+if _wom_os.environ.get('WOM_MULTILINGUAL') == '1':
+    from wom01_multilingual_render import main as _wom_main
+    _wom_main()
+    raise SystemExit(0)
+
 """Render a bounded two-image film unit at a time, then mix and caption the final."""
 import json
 import math

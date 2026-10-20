@@ -1,30 +1,198 @@
-[
-  {
-    "path": "/Users/ryo/youtube/worlds-of-mystery/EP001_Anubis/deliverables/EP001_アヌビス_完成試作_v01.mp4",
-    "exists_checked_at_jst": "2026-10-20",
-    "size_bytes": 537493081,
-    "sha256": "1a2e0aad8e8db03a81150eb8398c51246e67cbaef5084e78565d783de3fd4fb7",
-    "available_in_github": false
-  },
-  {
-    "path": "/Users/ryo/youtube/worlds-of-mystery/EP001_Anubis/deliverables/EP001_冒頭90秒.mp4",
-    "exists_checked_at_jst": "2026-10-20",
-    "size_bytes": 66126259,
-    "sha256": "5b75bb3a96276b8c204ef305e30b318dfd93e9f1151930d5be0ef2d2191b8ba3",
-    "available_in_github": false
-  },
-  {
-    "path": "/Users/ryo/youtube/worlds-of-mystery/EP001_Anubis/deliverables/EP001_サムネイル.jpg",
-    "exists_checked_at_jst": "2026-10-20",
-    "size_bytes": 448236,
-    "sha256": "e1a48273994e88c2af3d5feb9241bee9d85d1e1cc5979972a923959ca0828ce4",
-    "available_in_github": false
-  },
-  {
-    "path": "/Users/ryo/youtube/worlds-of-mystery/EP001_Anubis/audio/narration.wav",
-    "exists_checked_at_jst": "2026-10-20",
-    "size_bytes": 29627244,
-    "sha256": "0cfc892abf55cc859423a54b78aeae75268d44a94e2223534f19c9b3e93673be",
-    "available_in_github": false
+{
+  "v01": [
+    {
+      "path": "/Users/ryo/youtube/worlds-of-mystery/EP001_Anubis/deliverables/EP001_アヌビス_完成試作_v01.mp4",
+      "exists_checked_at_jst": "2026-10-20",
+      "size_bytes": 537493081,
+      "sha256": "1a2e0aad8e8db03a81150eb8398c51246e67cbaef5084e78565d783de3fd4fb7",
+      "available_in_github": false
+    },
+    {
+      "path": "/Users/ryo/youtube/worlds-of-mystery/EP001_Anubis/deliverables/EP001_冒頭90秒.mp4",
+      "exists_checked_at_jst": "2026-10-20",
+      "size_bytes": 66126259,
+      "sha256": "5b75bb3a96276b8c204ef305e30b318dfd93e9f1151930d5be0ef2d2191b8ba3",
+      "available_in_github": false
+    },
+    {
+      "path": "/Users/ryo/youtube/worlds-of-mystery/EP001_Anubis/deliverables/EP001_サムネイル.jpg",
+      "exists_checked_at_jst": "2026-10-20",
+      "size_bytes": 448236,
+      "sha256": "e1a48273994e88c2af3d5feb9241bee9d85d1e1cc5979972a923959ca0828ce4",
+      "available_in_github": false
+    },
+    {
+      "path": "/Users/ryo/youtube/worlds-of-mystery/EP001_Anubis/audio/narration.wav",
+      "exists_checked_at_jst": "2026-10-20",
+      "size_bytes": 29627244,
+      "sha256": "0cfc892abf55cc859423a54b78aeae75268d44a94e2223534f19c9b3e93673be",
+      "available_in_github": false
+    }
+  ],
+  "v02": {
+    "local_root": "/Users/ryo/Desktop/BGM/Worlds of Mystery/EP001_Anubis/英語メイン版_v02_20261020",
+    "duration_seconds": 666.2,
+    "files": [
+      {
+        "file": "EP001_Anubis_en_v02.mp4",
+        "bytes": 99566474,
+        "sha256": "afea04cdd688fb6dfb11748884527d13e735c10dbd4c8fb735768ece4191b5ad",
+        "duration_seconds": 666.2,
+        "integrated_lufs": -16.0,
+        "true_peak_dbtp": -4.13,
+        "full_decode": "pass",
+        "streams": [
+          {
+            "codec_type": "video",
+            "codec_name": "h264",
+            "duration": "666.200000",
+            "width": 1920,
+            "height": 1080,
+            "avg_frame_rate": "30/1"
+          },
+          {
+            "codec_type": "audio",
+            "codec_name": "aac",
+            "duration": "666.200000",
+            "width": null,
+            "height": null,
+            "avg_frame_rate": "0/0"
+          }
+        ]
+      },
+      {
+        "file": "EP001_review_en_720p.mp4",
+        "bytes": 51438617,
+        "sha256": "478245d2e84e764bb6da06162491d79f657484e7018d946ddbe9685d6cd12ea0",
+        "duration_seconds": 666.2,
+        "integrated_lufs": -16.0,
+        "true_peak_dbtp": -4.13,
+        "full_decode": "pass",
+        "streams": [
+          {
+            "codec_type": "video",
+            "codec_name": "h264",
+            "duration": "666.200000",
+            "width": 1280,
+            "height": 720,
+            "avg_frame_rate": "15/1"
+          },
+          {
+            "codec_type": "audio",
+            "codec_name": "aac",
+            "duration": "666.200000",
+            "width": null,
+            "height": null,
+            "avg_frame_rate": "0/0"
+          }
+        ]
+      },
+      {
+        "file": "EP001_audio_en.wav",
+        "bytes": 191865702,
+        "sha256": "a1c7273a9553e1be1b7dc00bd4730e33acb6c2fa9010b1d2ecb9b3348d8adafe",
+        "duration_seconds": 666.2,
+        "integrated_lufs": -15.99,
+        "true_peak_dbtp": -4.12,
+        "full_decode": "pass",
+        "streams": [
+          {
+            "codec_type": "audio",
+            "codec_name": "pcm_s24le",
+            "duration": "666.200000",
+            "width": null,
+            "height": null,
+            "avg_frame_rate": "0/0"
+          }
+        ]
+      },
+      {
+        "file": "EP001_audio_en.m4a",
+        "bytes": 15705977,
+        "sha256": "9d60a8bf9e9fb456d23d610d3c861d5d557811c386a553d7b7db2c3ae762da84",
+        "duration_seconds": 666.2,
+        "integrated_lufs": -16.0,
+        "true_peak_dbtp": -4.13,
+        "full_decode": "pass",
+        "streams": [
+          {
+            "codec_type": "audio",
+            "codec_name": "aac",
+            "duration": "666.200000",
+            "width": null,
+            "height": null,
+            "avg_frame_rate": "0/0"
+          }
+        ]
+      },
+      {
+        "file": "EP001_review_ja_720p.mp4",
+        "bytes": 50913241,
+        "sha256": "ef536a776ace4242c79b084b0ae49cc3cf6fb1440ab1bf170f0891fd3d4b6e68",
+        "duration_seconds": 666.2,
+        "integrated_lufs": -16.02,
+        "true_peak_dbtp": -3.74,
+        "full_decode": "pass",
+        "streams": [
+          {
+            "codec_type": "video",
+            "codec_name": "h264",
+            "duration": "666.200000",
+            "width": 1280,
+            "height": 720,
+            "avg_frame_rate": "15/1"
+          },
+          {
+            "codec_type": "audio",
+            "codec_name": "aac",
+            "duration": "666.200000",
+            "width": null,
+            "height": null,
+            "avg_frame_rate": "0/0"
+          }
+        ]
+      },
+      {
+        "file": "EP001_audio_ja.wav",
+        "bytes": 191865702,
+        "sha256": "aa54352d9bf49e5496269bf44095377cdfd67600982538e8b2f91abe9a3fb19a",
+        "duration_seconds": 666.2,
+        "integrated_lufs": -15.99,
+        "true_peak_dbtp": -3.73,
+        "full_decode": "pass",
+        "streams": [
+          {
+            "codec_type": "audio",
+            "codec_name": "pcm_s24le",
+            "duration": "666.200000",
+            "width": null,
+            "height": null,
+            "avg_frame_rate": "0/0"
+          }
+        ]
+      },
+      {
+        "file": "EP001_audio_ja.m4a",
+        "bytes": 15180601,
+        "sha256": "3d58022dbb7dec0110a7b0209aba9e4205f588415c9c4105715fc3e1932db142",
+        "duration_seconds": 666.2,
+        "integrated_lufs": -16.02,
+        "true_peak_dbtp": -3.74,
+        "full_decode": "pass",
+        "streams": [
+          {
+            "codec_type": "audio",
+            "codec_name": "aac",
+            "duration": "666.200000",
+            "width": null,
+            "height": null,
+            "avg_frame_rate": "0/0"
+          }
+        ]
+      }
+    ],
+    "draft_release_tag": "wom01-en-ja-v02-20261020",
+    "legacy_media_moved": false,
+    "ssd_sync_verified": false
   }
-]
+}
