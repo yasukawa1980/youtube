@@ -1,12 +1,19 @@
 # 共有用の制作台帳。bgmkit実行設定ではない。既存チャンネルへの自動接続は禁止。
 episode_id: wom01
 series: Worlds of Mystery
-title: アヌビス — 死者を裁く神か、守る神か
-status: v02_script_revised_rerender_pending
-language: ja
-language_status: provisional
-voice: VOICEVOX:雀松朱司
-duration_seconds: 617.233333
+title: 'Anubis: Judge of the Dead, or Protector?'
+title_ja: アヌビス — 死者を裁く神か、守る神か
+status: en_primary_switch_pending_codex
+language: en
+language_status: owner_decided_2026-10-20
+audio_languages: [en, ja]   # 映像1本＋言語別の音声トラック。追加言語は2〜3本の実測後に検討（第1候補 es）
+subtitles_burned_in: false
+subtitle_files: [en, ja]
+script_master: worlds-of-mystery/EP001_Anubis/records/content_en.json
+script_ja: worlds-of-mystery/EP001_Anubis/records/content.json
+voice_en: TBD   # 無料・ローカルの候補から本人が試聴して選ぶ。追加契約は未承認
+voice_ja: VOICEVOX:雀松朱司
+duration_seconds: 617.233333   # v01（日本語のみ・字幕焼き込み）の実尺。英語メイン版は未計測
 publication_authorized: false
 new_channel_creation_authorized: false
 additional_spend_authorized: false
@@ -17,3 +24,4 @@ local_media_status: legacy_location_unchanged_move_requires_owner_confirmation
 cloud_render_verified: false
 script_revision: v02 (2026-10-20 Claude, text and scripts only; audio/video not re-rendered)
 review_changelog: bgm/wom01_Claudeレビュー修正_v02.md
+language_plan: bgm/wom01_英語メイン化_手順.md

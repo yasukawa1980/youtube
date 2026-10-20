@@ -1,0 +1,607 @@
+{
+  "episode_id": "EP001",
+  "language": "en",
+  "language_status": "primary_owner_decided_2026-10-20",
+  "title": "Anubis: Judge of the Dead, or Protector?",
+  "subtitle": "Ancient Egyptian belief, read through surviving museum objects",
+  "created_at_jst": "2026-10-15",
+  "publication_authorized": false,
+  "new_channel_creation_authorized": false,
+  "max_additional_spend_jpy": 0,
+  "voice_credit": "TBD (English TTS not yet chosen)",
+  "voice_style_id": null,
+  "chapters": [
+    {
+      "id": "C01",
+      "title": "The God Who Weighs the Heart"
+    },
+    {
+      "id": "C02",
+      "title": "Why a Canine Form?"
+    },
+    {
+      "id": "C03",
+      "title": "Protecting the Body, Guiding the Journey"
+    },
+    {
+      "id": "C04",
+      "title": "The Book of the Dead and the Weighing of the Heart"
+    },
+    {
+      "id": "C05",
+      "title": "Anubis, Thoth and Osiris"
+    },
+    {
+      "id": "C06",
+      "title": "What the Sources Say, and What They Don't"
+    },
+    {
+      "id": "C07",
+      "title": "A Hope Beyond Death"
+    }
+  ],
+  "sources": [
+    {
+      "id": "S01",
+      "title": "Statue of Anubis as a recumbent canid",
+      "institution": "The Metropolitan Museum of Art",
+      "url": "https://www.metmuseum.org/art/collection/search/544075",
+      "locator": "Description, artwork details, museum audio transcript",
+      "object_id": 544075,
+      "checked_at_jst": "2026-10-15",
+      "kind": "museum_catalog_and_curatorial_interpretation"
+    },
+    {
+      "id": "S02",
+      "title": "Statuette of a canid-headed god, probably Anubis",
+      "institution": "The Metropolitan Museum of Art",
+      "url": "https://www.metmuseum.org/art/collection/search/590939",
+      "locator": "Description and artwork details; identification marked probable",
+      "object_id": 590939,
+      "checked_at_jst": "2026-10-15",
+      "kind": "museum_catalog"
+    },
+    {
+      "id": "S03",
+      "title": "Nedjemankh's Gilded Coffin Exhibition Gallery",
+      "institution": "The Metropolitan Museum of Art",
+      "url": "https://www.metmuseum.org/exhibitions/listings/2018/nedjemankh-gilded-coffin/exhibition-gallery",
+      "locator": "Nedjemankh Becomes a Mummy; burial rites and embalming scene",
+      "checked_at_jst": "2026-10-15",
+      "kind": "curatorial_explanation",
+      "image_reuse": false
+    },
+    {
+      "id": "S04",
+      "title": "Book of the Dead for the Chantress of Amun, Nauny",
+      "institution": "The Metropolitan Museum of Art",
+      "url": "https://www.metmuseum.org/art/collection/search/548344",
+      "locator": "Description; Spell 125 scene; date; museum audio transcript",
+      "object_id": 548344,
+      "checked_at_jst": "2026-10-15",
+      "kind": "ancient_artifact_and_curatorial_explanation"
+    },
+    {
+      "id": "S05",
+      "title": "Part of a funerary papyrus showing the judgment before Osiris",
+      "institution": "The Metropolitan Museum of Art",
+      "url": "https://www.metmuseum.org/art/collection/search/557657",
+      "locator": "Description of heart, Maat, Thoth, Anubis and Ammut; artwork details",
+      "object_id": 557657,
+      "checked_at_jst": "2026-10-15",
+      "kind": "ancient_artifact_and_curatorial_explanation"
+    },
+    {
+      "id": "S06",
+      "title": "Anubis Weighing the Heart, Tomb of Nakhtamun",
+      "institution": "The Metropolitan Museum of Art",
+      "url": "https://www.metmuseum.org/art/collection/search/557830",
+      "locator": "Artist, medium, facsimile dimensions, original location and credit line",
+      "object_id": 557830,
+      "checked_at_jst": "2026-10-15",
+      "kind": "modern_facsimile_of_ancient_wall_painting"
+    },
+    {
+      "id": "S07",
+      "title": "Lintel depicting King Amenemhat I flanked by Nekhbet, Horus, Anubis, and Wadjet",
+      "institution": "The Metropolitan Museum of Art",
+      "url": "https://www.metmuseum.org/art/collection/search/544206",
+      "locator": "Description of royal ritual and ankh; object date and museum audio transcript",
+      "object_id": 544206,
+      "checked_at_jst": "2026-10-15",
+      "kind": "ancient_relief_and_curatorial_explanation"
+    },
+    {
+      "id": "S08",
+      "title": "Anubis as Defender of Osiris / Dionysus (?)",
+      "institution": "The Metropolitan Museum of Art",
+      "url": "https://www.metmuseum.org/art/collection/search/547871",
+      "locator": "Description explicitly leaves identity uncertain; Roman-period date",
+      "object_id": 547871,
+      "checked_at_jst": "2026-10-15",
+      "kind": "museum_catalog_with_uncertain_identification"
+    },
+    {
+      "id": "S09",
+      "title": "Cartonnage fragment",
+      "institution": "The Metropolitan Museum of Art",
+      "url": "https://www.metmuseum.org/art/collection/search/552247",
+      "locator": "Description and Roman-period date; placement of gods",
+      "object_id": 552247,
+      "checked_at_jst": "2026-10-15",
+      "kind": "ancient_artifact_and_curatorial_explanation"
+    },
+    {
+      "id": "S10",
+      "title": "Anubis",
+      "institution": "The Metropolitan Museum of Art",
+      "url": "https://www.metmuseum.org/art/collection/search/570223",
+      "locator": "Object title, bronze/cupreous alloy, 7.7 cm height, date and credit line",
+      "object_id": 570223,
+      "checked_at_jst": "2026-10-15",
+      "kind": "museum_catalog"
+    },
+    {
+      "id": "S11",
+      "title": "Anubis Fetish (Imiut)",
+      "institution": "The Metropolitan Museum of Art",
+      "url": "https://www.metmuseum.org/art/collection/search/545547",
+      "locator": "Description of shrine, protective placement and funerary rites",
+      "object_id": 545547,
+      "checked_at_jst": "2026-10-15",
+      "kind": "ancient_artifact_and_curatorial_explanation"
+    },
+    {
+      "id": "S12",
+      "title": "The Metropolitan Museum of Art Returns Coffin to Egypt",
+      "institution": "The Metropolitan Museum of Art",
+      "url": "https://www.metmuseum.org/press-releases/metropolitan-museum-of-art-returns-coffin-to-egypt-2019-news",
+      "locator": "Press release, February 2019: coffin of Nedjemankh returned to Egypt after it was found to have been looted in 2011",
+      "checked_at_jst": "2026-10-20",
+      "kind": "museum_press_release",
+      "image_reuse": false
+    }
+  ],
+  "segments": [
+    {
+      "id": "N01",
+      "chapter": "C01",
+      "heading": "The god beside the scale",
+      "caption": "A famous scene of judgment",
+      "sources": [
+        "S04",
+        "S05"
+      ],
+      "classification": "myth_variant",
+      "visuals": [
+        "hero",
+        "balance"
+      ],
+      "text": "A heart is placed on a scale. On the other side sits a symbol of what is right and true. Standing beside the scale is a god with the head of a canine: Anubis. He is famous as the fearsome judge of the dead. But look closely at the ancient sources, and you will find that Anubis does not judge alone."
+    },
+    {
+      "id": "N02",
+      "chapter": "C01",
+      "heading": "So what was he doing?",
+      "caption": "Question: what does Anubis actually do?",
+      "sources": [
+        "S01",
+        "S04"
+      ],
+      "classification": "editorial_question",
+      "visuals": [
+        "met_548344_detail",
+        "met_544075"
+      ],
+      "text": "So what was Anubis actually doing? Watching over tombs, protecting the bodies of the dead, guiding them on their journey, and checking the scale that weighs the heart. In this episode, we follow sculptures and papyri at The Metropolitan Museum of Art to see, one by one, the work Anubis does in the sources."
+    },
+    {
+      "id": "N03",
+      "chapter": "C01",
+      "heading": "Objects and reconstructions",
+      "caption": "Museum photographs and reconstructions are labeled",
+      "sources": [
+        "S01",
+        "S04",
+        "S06"
+      ],
+      "classification": "production_method",
+      "visuals": [
+        "evidence",
+        "met_557830"
+      ],
+      "text": "On screen you will see photographs of real museum objects, along with reconstructions created to help you picture the past. Every reconstruction is labeled in the top corner. Let's begin with the first object."
+    },
+    {
+      "id": "N04",
+      "chapter": "C02",
+      "heading": "A watchful canine",
+      "caption": "Lying down, but ears up",
+      "sources": [
+        "S01"
+      ],
+      "classification": "historical_fact",
+      "visuals": [
+        "met_544075",
+        "met_544075_detail"
+      ],
+      "text": "First, this statue of a reclining canine. Its front legs stretch forward and its ears stand upright. It seems less asleep than alert, keeping watch. This statue at the Met is carved from limestone and was originally painted black. The god was not always shown in human form."
+    },
+    {
+      "id": "N05",
+      "chapter": "C02",
+      "heading": "Canines and cemeteries",
+      "caption": "An interpretation, not proof of origin",
+      "sources": [
+        "S01"
+      ],
+      "classification": "scholarly_interpretation",
+      "visuals": [
+        "nile",
+        "met_544075"
+      ],
+      "text": "The museum's description draws attention to the link between canines and cemeteries. Animals that roamed burial grounds could disturb the dead. Yet a watchful canine could also be imagined as a power that guarded them. This is an interpretation of the image's background, not proof of a single origin for Anubis."
+    },
+    {
+      "id": "N06",
+      "chapter": "C02",
+      "heading": "A human body, an animal head",
+      "caption": "A god shown in more than one form",
+      "sources": [
+        "S02"
+      ],
+      "classification": "historical_fact",
+      "visuals": [
+        "met_590939",
+        "met_590939_detail"
+      ],
+      "text": "In another statuette, an animal head sits on a human body. It is made of wood, and fine details of the clothing still survive. The museum describes it as probably Anubis, because more than one god was shown with a canine head. A familiar look does not always tell us the name for certain."
+    },
+    {
+      "id": "N07",
+      "chapter": "C02",
+      "heading": "Dates are clues too",
+      "caption": "Ancient Egypt is not a single moment",
+      "sources": [
+        "S01",
+        "S02",
+        "S07"
+      ],
+      "classification": "historical_fact",
+      "visuals": [
+        "timeline",
+        "met_544206"
+      ],
+      "text": "This is where dates matter. The statues we have just seen and the royal relief we will see later were not made in the same era. Ancient Egypt covers an enormous span of time. To understand a god's form and role, we need to ask not only what is depicted, but when the object was made."
+    },
+    {
+      "id": "N08",
+      "chapter": "C03",
+      "heading": "Preparing for the journey",
+      "caption": "What preserving the body meant",
+      "sources": [
+        "S03"
+      ],
+      "classification": "myth_variant",
+      "visuals": [
+        "linen",
+        "journey"
+      ],
+      "text": "One of Anubis's most important roles was his connection to mummification. In ancient belief, preparing the body of the deceased and performing rituals helped sustain their existence after death. Preserving the body was not only about appearance. It was tied to the hope of living again."
+    },
+    {
+      "id": "N09",
+      "chapter": "C03",
+      "heading": "A god protecting the body",
+      "caption": "Coffin scene described from the museum text; image is a reconstruction",
+      "sources": [
+        "S03",
+        "S12"
+      ],
+      "classification": "myth_variant",
+      "visuals": [
+        "linen",
+        "journey"
+      ],
+      "text": "A gilded coffin made for a priest named Nedjemankh was once displayed at the Met. The museum's description points to a scene of a mummy on a bier, with Anubis performing rites beside it. Isis and Nephthys also appear as protectors of the mummy. The coffin was later found to have been looted, and in 2019 it was returned to Egypt."
+    },
+    {
+      "id": "N10",
+      "chapter": "C03",
+      "heading": "Rites performed by the living",
+      "caption": "Divine stories and human work",
+      "sources": [
+        "S01",
+        "S03"
+      ],
+      "classification": "historical_fact",
+      "visuals": [
+        "linen",
+        "evidence"
+      ],
+      "text": "Of course, it was living people who prepared the dead and readied them for burial. The stories of the gods gave meaning to that work. Human hands and divine protection: together, they shaped the funerary rites."
+    },
+    {
+      "id": "N11",
+      "chapter": "C03",
+      "heading": "Another form of protection",
+      "caption": "Imiut: a ritual object of funerary rites",
+      "sources": [
+        "S11"
+      ],
+      "classification": "historical_fact",
+      "visuals": [
+        "met_545547",
+        "journey"
+      ],
+      "text": "The idea of protection appears beyond statues of the god, too. The ritual object called an imiut combines a staff, a jar, and a form wrapped in an animal skin. According to the museum, objects like this and guardian figures were connected to sacred spaces and funerary rites. Protecting the dead took many forms."
+    },
+    {
+      "id": "N12",
+      "chapter": "C04",
+      "heading": "Opening the Book of the Dead",
+      "caption": "Not quite a book in the modern sense",
+      "sources": [
+        "S04"
+      ],
+      "classification": "historical_fact",
+      "visuals": [
+        "archive",
+        "met_548344"
+      ],
+      "text": "Now we move from preparing the body to the story of the journey after death. Here we meet the Book of the Dead. The museum notes that its ancient name was the Book of Going Forth by Day. It is a collection of spells and images on papyrus, meant to help the deceased on their way."
+    },
+    {
+      "id": "N13",
+      "chapter": "C04",
+      "heading": "A papyrus for one person",
+      "caption": "Book of the Dead of Nauny, c. 1050 BCE",
+      "sources": [
+        "S04"
+      ],
+      "classification": "historical_fact",
+      "visuals": [
+        "met_548344",
+        "met_548344_detail"
+      ],
+      "text": "On screen now is a papyrus that accompanied the burial of a woman named Nauny. The museum dates it to around 1050 BCE. The scroll holds images and texts for several spells, and among them is the scene of the weighing of the heart. It was made not for an abstract dead person, but for one particular individual."
+    },
+    {
+      "id": "N14",
+      "chapter": "C04",
+      "heading": "What the heart carried",
+      "caption": "A part of the body that stood for a life",
+      "sources": [
+        "S05"
+      ],
+      "classification": "myth_variant",
+      "visuals": [
+        "balance",
+        "met_557657"
+      ],
+      "text": "Why the heart? Writing about another funerary papyrus, the museum explains that the heart was considered the center of intellect and emotion. In the weighing scene, how a person had lived is what is being tested. The heart was shown not as a mere organ, but as a record of a life."
+    },
+    {
+      "id": "N15",
+      "chapter": "C04",
+      "heading": "Weighed against Maat",
+      "caption": "A symbol of order and right conduct",
+      "sources": [
+        "S04",
+        "S05"
+      ],
+      "classification": "myth_variant",
+      "visuals": [
+        "balance",
+        "met_548344_detail"
+      ],
+      "text": "On the other side of the scale is something representing Maat. Maat is linked to order and to what is right. Many people picture only a feather, but in Nauny's papyrus, Maat appears as a small goddess wearing a feather. It is worth remembering that one famous image does not fit every source."
+    },
+    {
+      "id": "N16",
+      "chapter": "C04",
+      "heading": "It looks like a wall painting",
+      "caption": "Facsimile by Nina de Garis Davies",
+      "sources": [
+        "S06"
+      ],
+      "classification": "historical_fact",
+      "visuals": [
+        "met_557830",
+        "met_557830_detail"
+      ],
+      "text": "Here is another scene of Anubis and the scale. But this image is not a photograph of the ancient wall painting itself. It is a copy on paper, made by Nina de Garis Davies from the tomb of Nakhtamun. It is a valuable way to study the imagery, but we present the original and the copy as different things."
+    },
+    {
+      "id": "N17",
+      "chapter": "C05",
+      "heading": "Anubis reads the scale",
+      "caption": "Separate the roles, and the scene becomes clear",
+      "sources": [
+        "S04"
+      ],
+      "classification": "myth_variant",
+      "visuals": [
+        "roles",
+        "met_548344_detail"
+      ],
+      "text": "Let's look again at Nauny's papyrus. Anubis is reading the scale. But he is not alone in the scene. There is a god who records the result, and a god who receives the dead. Once we separate these roles, the idea of Anubis as a judge who decides everything on his own turns out to be too simple."
+    },
+    {
+      "id": "N18",
+      "chapter": "C05",
+      "heading": "Thoth records the result",
+      "caption": "Look at actions, not only appearance",
+      "sources": [
+        "S09"
+      ],
+      "classification": "myth_variant",
+      "visuals": [
+        "met_552247_detail",
+        "roles"
+      ],
+      "text": "On this fragment of cartonnage, Thoth, with the head of an ibis, holds writing equipment. The museum describes the scene as Thoth introducing the deceased to Osiris. The clue to identifying a god is not just the shape of the head. What the god holds, and what the god is doing, matter just as much."
+    },
+    {
+      "id": "N19",
+      "chapter": "C05",
+      "heading": "Before Osiris",
+      "caption": "A story of acceptance into the afterlife",
+      "sources": [
+        "S05"
+      ],
+      "classification": "myth_variant",
+      "visuals": [
+        "met_557657",
+        "roles"
+      ],
+      "text": "According to the museum, if the scale balanced, the deceased was accepted by Osiris and granted eternal life. If not, the heart was devoured by a creature called Ammut, and the person died forever. Anubis weighs, Thoth records, Osiris receives. Judgment was pictured as a scene involving many gods."
+    },
+    {
+      "id": "N20",
+      "chapter": "C05",
+      "heading": "Beyond the fear",
+      "caption": "What was hoped for: completing the journey",
+      "sources": [
+        "S04",
+        "S05"
+      ],
+      "classification": "editorial_interpretation",
+      "visuals": [
+        "journey",
+        "hero"
+      ],
+      "text": "The judgment scene does have its frightening side. But the sources prepared for the dead were not about failure alone. They were about passing the test safely and moving on to the next existence. Seen through his role as a protector, the same scene of the scale begins to look a little different."
+    },
+    {
+      "id": "N21",
+      "chapter": "C06",
+      "heading": "Not only about death",
+      "caption": "Anubis in a royal ritual",
+      "sources": [
+        "S07"
+      ],
+      "classification": "historical_fact",
+      "visuals": [
+        "met_544206",
+        "met_544206_detail"
+      ],
+      "text": "Now for a somewhat unexpected object: a relief showing King Amenemhat I. On either side of the king stand Horus and Anubis, offering him the ankh, the sign of life. The museum connects this scene to royal ritual. Anubis appears in more places than the weighing of the heart."
+    },
+    {
+      "id": "N22",
+      "chapter": "C06",
+      "heading": "A ritual of royal power",
+      "caption": "Middle Kingdom, c. 1981–1952 BCE",
+      "sources": [
+        "S07"
+      ],
+      "classification": "historical_fact",
+      "visuals": [
+        "met_544206_detail",
+        "timeline"
+      ],
+      "text": "Here the king demonstrates, through ritual, that even after a long reign he still has the power to rule. Anubis was connected to this place in his role as lord of the necropolis. The relief dates to around 1980 BCE. Set beside later statues, it shows how the same god was spoken of across a very long span of time."
+    },
+    {
+      "id": "N23",
+      "chapter": "C06",
+      "heading": "A god depicted across the ages",
+      "caption": "Roman-period cartonnage fragment, 100–300 CE",
+      "sources": [
+        "S09"
+      ],
+      "classification": "historical_fact",
+      "visuals": [
+        "met_552247",
+        "timeline"
+      ],
+      "text": "Much later, Anubis also appears on a fragment of cartonnage from the Roman period. Osiris sits at the center, with Thoth and other gods nearby. Long after, the relationship between the dead and the gods was still being depicted. Still, we need not treat each object as a copy of exactly the same story."
+    },
+    {
+      "id": "N24",
+      "chapter": "C06",
+      "heading": "The question mark after a name",
+      "caption": "Some identifications remain uncertain",
+      "sources": [
+        "S08"
+      ],
+      "classification": "scholarly_interpretation",
+      "visuals": [
+        "met_547871",
+        "evidence"
+      ],
+      "text": "For this small gold figure, the museum offers two readings: it may be Anubis, or it may be another god. The museum states clearly that its identity is uncertain. Leaving the unknown as unknown is part of telling history honestly. A sharp image does not make an explanation certain."
+    },
+    {
+      "id": "N25",
+      "chapter": "C06",
+      "heading": "Small objects matter too",
+      "caption": "An Anubis figure 7.7 cm tall",
+      "sources": [
+        "S10"
+      ],
+      "classification": "historical_fact",
+      "visuals": [
+        "met_570223",
+        "archive"
+      ],
+      "text": "Beyond large paintings and statues, there is also a figure of Anubis only about 7.7 centimeters tall, made of bronze or copper alloy. Exploring museum collections shows that grand myths were also expressed in objects small enough to hold in your hand. Who used it, where, and how? Small objects open up new questions."
+    },
+    {
+      "id": "N27",
+      "chapter": "C07",
+      "heading": "Protect, weigh, and carry forward",
+      "caption": "Anubis's roles, once more",
+      "sources": [
+        "S01",
+        "S03",
+        "S04"
+      ],
+      "classification": "editorial_summary",
+      "visuals": [
+        "roles",
+        "hero"
+      ],
+      "text": "Anubis was shown watching over tombs, took part in the rites that prepared the body, and appears in the weighing of the heart. He is a god deeply bound to death, but his role cannot be summed up by fear alone. Protecting, and helping the dead pass their test: the sources let us read him as a god involved in both."
+    },
+    {
+      "id": "N28",
+      "chapter": "C07",
+      "heading": "What remains is a human wish",
+      "caption": "Keeping who you were, beyond death",
+      "sources": [
+        "S04",
+        "S05"
+      ],
+      "classification": "editorial_interpretation",
+      "visuals": [
+        "nile",
+        "archive"
+      ],
+      "text": "From the story of the heart preserved on papyrus, we can take away a question. If you could carry something beyond death, what part of you would say who you were? Behind the images of the gods, we can see people's wish to support the dead on their journey."
+    },
+    {
+      "id": "N29",
+      "chapter": "C07",
+      "heading": "Sources and production",
+      "caption": "Full source list in the description",
+      "sources": [],
+      "classification": "production_disclosure",
+      "visuals": [
+        "credits"
+      ],
+      "text": "This video is based on public museum collections and their descriptions. The narration uses synthetic speech, and some images are AI-generated reconstructions. Titles, sources, and terms of use for all materials are listed in the description. Thank you for watching."
+    }
+  ],
+  "revision": {
+    "version": "v02-en",
+    "revised_at_jst": "2026-10-20",
+    "revised_by": "Claude（英語版台本。v02日本語と同じ区間・出典・画面割り。音声未生成）",
+    "plan": "bgm/wom01_英語メイン化_手順.md"
+  },
+  "translation_of": null,
+  "parallel_tracks": {
+    "ja": "records/content.json"
+  }
+}
