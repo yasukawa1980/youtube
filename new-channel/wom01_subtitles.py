@@ -92,11 +92,45 @@ def pages_en(text, line=EN_LINE):
         pages += 1
 
 
+def _ja_break_score(t, i, target):
+    if t[i-1] in "、。":
+        return abs(i-target)
+    if t[i-1] in "はがをにでともへや" and not "ぁ" <= t[i] <= "ゖ":
+        return abs(i-target)+4
+    return None
+
+
+def pages_ja(text):
+    """Split a long sentence into evenly sized pages, each at most two wrapped lines,
+    so a short tail such as 「見えてきます。」 never stands alone for about a second."""
+    rows = wrap_ja(text)
+    if len(rows) <= 2:
+        return ["\n".join(rows)]
+    parts = -(-len(rows)//2)
+    while True:
+        out, rest = [], text
+        for k in range(parts, 1, -1):
+            target = len(rest)/k
+            cands = [(_ja_break_score(rest, i, target), i) for i in range(4, len(rest)-3)
+                     if _ja_break_score(rest, i, target) is not None]
+            if not cands:
+                break
+            cut = min(cands)[1]
+            out.append(rest[:cut])
+            rest = rest[cut:]
+        out.append(rest)
+        wrapped = [wrap_ja(x) for x in out]
+        if len(out) == parts and all(len(w) <= 2 for w in wrapped):
+            return ["\n".join(w) for w in wrapped]
+        parts += 1
+        if parts > len(text)//4:
+            return ["\n".join(rows[k:k+2]) for k in range(0, len(rows), 2)]
+
+
 def pages(text, lang):
     if lang == "en":
         return pages_en(text)
-    rows = wrap_ja(text)
-    return ["\n".join(rows[k:k+2]) for k in range(0, len(rows), 2)]
+    return pages_ja(text)
 
 
 def sentence_cues(cue, lang):

@@ -24,18 +24,20 @@
     "ja": {
       "voice": "VOICEVOX:冥鳴ひまり",
       "file": "EP001_Anubis_ja_v03_1080p30.srt",
-      "sha256": "b49ecea80e19bc0bf8d2d1f65dc8b54af832d523c02a5acea5939db858bad387",
+      "sha256": "54eb1bb82e9fe5708a18648bca4f570ae14555c0d45ff86cc8b4a93182d72986",
       "cue_count": 136,
       "sentence_count": 115,
       "max_lines": 2,
       "max_characters_per_line": 23,
-      "minimum_cue_seconds": 1.036,
+      "minimum_cue_seconds": 1.63,
       "last_cue_end_seconds": 660.528,
       "media_duration_seconds": 666.2,
       "all_source_text_preserved": true,
       "all_sentence_boundaries_match": true,
       "no_overlaps_or_out_of_bounds": true,
-      "ffmpeg_srt_parse_passed": true
+      "ffmpeg_srt_parse_passed": true,
+      "previous_sha256_release_asset_659892550": "b49ecea80e19bc0bf8d2d1f65dc8b54af832d523c02a5acea5939db858bad387",
+      "revised": "2026-10-21 Claude: long sentences split into evenly sized pages (old cues 107/114/134 were 1.04-1.19 s single-line tails). Text, sentence boundary times and cue count (136) unchanged. Release asset 659892550 still holds the previous file."
     }
   },
   "original_media": [
