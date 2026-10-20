@@ -1,0 +1,85 @@
+{
+  "date": "2026-10-21",
+  "version": "v03",
+  "burned_in": false,
+  "human_full_listening_completed": false,
+  "alignment_method": "Measured synthesized sentence boundaries; page changes within sentences are proportional to text length, not word alignment.",
+  "languages": {
+    "en": {
+      "voice": "Kokoro: af_heart",
+      "file": "EP001_Anubis_en_v03_1080p30.srt",
+      "sha256": "fa29965194ba3044d8774a4e0066e5fa17e3f2e3354273747fc77d786a639520",
+      "cue_count": 150,
+      "sentence_count": 110,
+      "max_lines": 2,
+      "max_characters_per_line": 42,
+      "minimum_cue_seconds": 1.502,
+      "last_cue_end_seconds": 659.615,
+      "media_duration_seconds": 666.2,
+      "all_source_text_preserved": true,
+      "all_sentence_boundaries_match": true,
+      "no_overlaps_or_out_of_bounds": true,
+      "ffmpeg_srt_parse_passed": true
+    },
+    "ja": {
+      "voice": "VOICEVOX:冥鳴ひまり",
+      "file": "EP001_Anubis_ja_v03_1080p30.srt",
+      "sha256": "b49ecea80e19bc0bf8d2d1f65dc8b54af832d523c02a5acea5939db858bad387",
+      "cue_count": 136,
+      "sentence_count": 115,
+      "max_lines": 2,
+      "max_characters_per_line": 23,
+      "minimum_cue_seconds": 1.036,
+      "last_cue_end_seconds": 660.528,
+      "media_duration_seconds": 666.2,
+      "all_source_text_preserved": true,
+      "all_sentence_boundaries_match": true,
+      "no_overlaps_or_out_of_bounds": true,
+      "ffmpeg_srt_parse_passed": true
+    }
+  },
+  "original_media": [
+    {
+      "name": "EP001_Anubis_en_v03_1080p30.mp4",
+      "asset_id": 659866706,
+      "sha256": "1a6108d75e42a3b278a13a12071a479d19d764101dc5f84b16a91da8db709866",
+      "unchanged_from_existing_release": true
+    },
+    {
+      "name": "EP001_Anubis_ja_v03_1080p30.mp4",
+      "asset_id": 659867386,
+      "sha256": "aec904c32e2d29bfe90a69a505877b3c5cae148fd63342a330aaaece5487f3cb",
+      "unchanged_from_existing_release": true
+    },
+    {
+      "name": "EP001_audio_en.m4a",
+      "asset_id": 659868174,
+      "sha256": "5844a61820842e1920aac0ccb97eb89511300eb12dd2433943f742115745a5e9",
+      "unchanged_from_existing_release": true
+    },
+    {
+      "name": "EP001_audio_ja.m4a",
+      "asset_id": 659868320,
+      "sha256": "fc0740cb21f93bded9a2e78074ea8abbc140bce99baf8e6ef704929c1a55716c",
+      "unchanged_from_existing_release": true
+    },
+    {
+      "name": "EP001_en_v03_first90s.mp4",
+      "asset_id": 659867920,
+      "sha256": "cf9e39ae6352d952bbb77e9dc5de0f92da59e33226623b5a8378d53f83f1b31e",
+      "unchanged_from_existing_release": true
+    },
+    {
+      "name": "EP001_ja_v03_first90s.mp4",
+      "asset_id": 659868058,
+      "sha256": "60054bcf8781d5c80ee5cbc0950510a9ef2e1e82cc2f2c64b2c163c23f8c5abf",
+      "unchanged_from_existing_release": true
+    },
+    {
+      "name": "SHA256SUMS_shared.txt",
+      "asset_id": 659868433,
+      "sha256": "96145e96e20cc9df35ac07d2fc34ba5bd24dcf3dcfb18d3142d1762101fe733a",
+      "unchanged_from_existing_release": true
+    }
+  ]
+}

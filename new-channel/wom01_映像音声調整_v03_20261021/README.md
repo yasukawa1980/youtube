@@ -1,6 +1,6 @@
 # アヌビス第1話 v03：映像・日本語女性声・BGM調整
 
-2026-10-21、本人の「映像のかくつき修正、日本語女性声、BGM増量」の依頼で制作。英語字幕の差し替えに先立つ映像・音声確認版です。チャンネル名は未定、既存画面の仮称は残しています。
+2026-10-21、本人の「映像のかくつき修正、日本語女性声、BGM増量」の依頼で制作。同日の追加指示「字幕に進んでください」を受け、v03対応の外部字幕も追加しました。チャンネル名は未定、既存画面の仮称は残しています。
 
 ## 今回の変更
 
@@ -19,7 +19,7 @@ Mac：`/Users/ryo/Desktop/新チャンネル/EP001_Anubis/映像音声調整_v03
 - `EP001_en_v03_first90s.mp4` / `EP001_ja_v03_first90s.mp4`：冒頭約90秒。
 - `EP001_audio_en.m4a` / `EP001_audio_ja.m4a`：言語別音源。WAVもMacに保管。
 
-[非公開Draft Release](https://github.com/yasukawa1980/youtube/releases/tag/untagged-28e2d6a3ff08fb02120d)。既存v02は保管したままです。アップロード後、添付全7ファイルをRESTで再取得し、SHA-256一致を確認しました。
+[非公開Draft Release](https://github.com/yasukawa1980/youtube/releases/tag/untagged-28e2d6a3ff08fb02120d)。既存v02は保管したままです。既存7ファイルに字幕2本と字幕用チェックサムを追加し、計10ファイルを共有。既存7件は前工程で、追加3件は今回RESTで再取得し、SHA-256一致を確認しました。既存7件のAsset ID・サイズ・ハッシュは不変です。
 
 ```sh
 gh api repos/yasukawa1980/youtube/releases/418626871 --jq '.assets[] | "\(.id) \(.name) \(.digest)"'
@@ -35,6 +35,9 @@ gh api -H 'Accept: application/octet-stream' repos/yasukawa1980/youtube/releases
 | EP001_audio_en.m4a | 659868174 | 15,874,784 |
 | EP001_audio_ja.m4a | 659868320 | 15,394,817 |
 | SHA256SUMS_shared.txt | 659868433 | 550 |
+| EP001_Anubis_en_v03_1080p30.srt | 659892477 | 13,252 |
+| EP001_Anubis_ja_v03_1080p30.srt | 659892550 | 15,345 |
+| SHA256SUMS_subtitles_v03.txt | 659892619 | 196 |
 
 ## 技術検品
 
@@ -53,7 +56,20 @@ gh api -H 'Accept: application/octet-stream' repos/yasukawa1980/youtube/releases
 
 ## 字幕と次の作業
 
-字幕焼き込みなし。今回のv03には外部SRTを添付していません。本人の指示どおり、英語字幕150件への差し替え作業は保留しています。日本語は女性声で文の発話時刻が変わったため、採用後にv03の `narration_timeline_ja.json` から字幕を再生成してください。旧男性版の日本語字幕を流用しないでください。
+2026-10-21、本人の追加指示で外部SRTを作成・共有しました。字幕焼き込みなし。全編MP4の映像・音声は変更していません。
+
+- [英語字幕：150件](deliverables/EP001_Anubis_en_v03_1080p30.srt)：英語Bの音声用。Claude修正版とSHA-256一致。
+- [日本語字幕：136件](deliverables/EP001_Anubis_ja_v03_1080p30.srt)：日本語女性声（冥鳴ひまり）用。v03の発話時刻から再生成しました。
+- Macでは上記ファイルを全編MP4と同じ `deliverables/` に保存。日本語名の `EP001_字幕_en.srt` / `EP001_字幕_ja.srt` も同一内容です。
+- **全編動画と同じ言語のSRTを組み合わせてください。** 外部SRT対応プレーヤーで字幕を読み込めます。冒頭90秒版ではなく全編用です。
+
+[字幕検品記録](records/subtitle_validation_v03.json)：英語110文・日本語115文の原文を全件保持。全字幕で重なり・尺超えなし、最大2行。英語は最大42字／行・最短1.502秒、日本語は最大23字／行・最短1.036秒。FFmpegのSRT読み込みも成功。文の開始・終了は合成音声の実測境界に対応し、文中の改ページは文字数比率です。単語単位の音声認識・人による通し視聴は行っていません。
+
+[字幕チェックサム](SHA256SUMS_subtitles_v03.txt)は追加SRT2本用。既存の `SHA256SUMS_shared.txt` は映像・音源6本用として維持。過去v02の添付字幕（英149件・日本語男性声）は履歴として残し、今回の確認にはこのv03を使用してください。
+
+字幕を再生成する場合はMacのv03ルートを `WOM_EPISODE_ROOT` に設定し、`new-channel/wom01_rebuild_subtitles.py` を実行します。Gitだけで再現する場合は本READMEのフォルダを指定できます（`records/narration_timeline_en.json` / `_ja.json` を同梱）。生成名は `deliverables/EP001_字幕_en.srt` / `_ja.srt` です。
+
+残る確認は本人による字幕の読みやすさ・声・BGM・動きの通し確認と、チャンネル名決定後の画面更新です。
 
 ## 音声の条件・クレジット
 

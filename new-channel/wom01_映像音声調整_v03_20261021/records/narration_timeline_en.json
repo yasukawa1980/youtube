@@ -1,0 +1,1631 @@
+{
+  "language": "en",
+  "sample_rate": 24000,
+  "voice": "Kokoro: af_heart",
+  "sentence_boundary_timing": "measured synthesis plus master segment offset",
+  "human_auditory_review_completed": false,
+  "cache_counts": {
+    "new": 75,
+    "reused_legacy": 0,
+    "reused_current": 35
+  },
+  "segments": [
+    {
+      "id": "N01",
+      "chapter": "C01",
+      "heading": "The god beside the scale",
+      "caption": "A famous scene of judgment",
+      "sources": [
+        "S04",
+        "S05"
+      ],
+      "classification": "myth_variant",
+      "visuals": [
+        "hero",
+        "balance"
+      ],
+      "text": "A heart is placed on a scale. On the other side sits a symbol of what is right and true. Standing beside the scale is a god with the head of a canine: Anubis. He is famous as the fearsome judge of the dead. But look closely at the ancient sources, and you will find that Anubis does not judge alone.",
+      "duration_seconds": 26.366458333333334,
+      "native_speed": 0.700865,
+      "audio_file": "audio/en/N01.wav",
+      "cues": [
+        {
+          "id": "N01-01",
+          "text": "A heart is placed on a scale.",
+          "spoken_text": "A heart is placed on a scale.",
+          "start": 1.8,
+          "end": 4.489958333333333,
+          "audio_file": "audio/en/sentences/N01_01_acc9999d075d.wav",
+          "input_hash": "acc9999d075d71a12bd16c12e3f053c2c76fbd74a93093b1a583dfa29afb6404"
+        },
+        {
+          "id": "N01-02",
+          "text": "On the other side sits a symbol of what is right and true.",
+          "spoken_text": "On the other side sits a symbol of what is right and true.",
+          "start": 4.709958333333334,
+          "end": 9.530583333333334,
+          "audio_file": "audio/en/sentences/N01_02_34b9acf5984e.wav",
+          "input_hash": "34b9acf5984ef4e5a8d347801b880d8fb3f56023dd6bcdbc3adbf2e298b627fd"
+        },
+        {
+          "id": "N01-03",
+          "text": "Standing beside the scale is a god with the head of a canine: Anubis.",
+          "spoken_text": "Standing beside the scale is a god with the head of a canine: Anubis.",
+          "start": 9.750583333333333,
+          "end": 16.034541666666666,
+          "audio_file": "audio/en/sentences/N01_03_eb3cbdeccc64.wav",
+          "input_hash": "eb3cbdeccc645325b53c3c2cc80f32c75aee4dc1113bc56e30ef73a5ebd6c628"
+        },
+        {
+          "id": "N01-04",
+          "text": "He is famous as the fearsome judge of the dead.",
+          "spoken_text": "He is famous as the fearsome judge of the dead.",
+          "start": 16.254541666666668,
+          "end": 20.331166666666668,
+          "audio_file": "audio/en/sentences/N01_04_ede4371a9f7c.wav",
+          "input_hash": "ede4371a9f7cf0fea9b97f642f10268009d91ab7cc6d19c90f6353a9f165e304"
+        },
+        {
+          "id": "N01-05",
+          "text": "But look closely at the ancient sources, and you will find that Anubis does not judge alone.",
+          "spoken_text": "But look closely at the ancient sources, and you will find that Anubis does not judge alone.",
+          "start": 20.551166666666667,
+          "end": 28.166458333333335,
+          "audio_file": "audio/en/sentences/N01_05_45547c8d35b0.wav",
+          "input_hash": "45547c8d35b0f6b094e40efc25a09df04cf7704d388a4430e149804b451f8040"
+        }
+      ],
+      "start": 1.8,
+      "end": 28.533333333333335
+    },
+    {
+      "id": "N02",
+      "chapter": "C01",
+      "heading": "So what was he doing?",
+      "caption": "Question: what does Anubis actually do?",
+      "sources": [
+        "S01",
+        "S04"
+      ],
+      "classification": "editorial_question",
+      "visuals": [
+        "met_548344_detail",
+        "met_544075"
+      ],
+      "text": "So what was Anubis actually doing? Watching over tombs, protecting the bodies of the dead, guiding them on their journey, and checking the scale that weighs the heart. In this episode, we follow sculptures and papyri at The Metropolitan Museum of Art to see, one by one, the work Anubis does in the sources.",
+      "duration_seconds": 21.865291666666668,
+      "native_speed": 0.82,
+      "audio_file": "audio/en/N02.wav",
+      "cues": [
+        {
+          "id": "N02-01",
+          "text": "So what was Anubis actually doing?",
+          "spoken_text": "So what was Anubis actually doing?",
+          "start": 28.533333333333335,
+          "end": 31.083958333333335,
+          "audio_file": "audio/en/sentences/N02_01_1f4e597a9133.wav",
+          "input_hash": "1f4e597a9133ae0311c415aaa7b3d01b0c10f6f0861878ddc5691518dcf5ffb9"
+        },
+        {
+          "id": "N02-02",
+          "text": "Watching over tombs, protecting the bodies of the dead, guiding them on their journey, and checking the scale that weighs the heart.",
+          "spoken_text": "Watching over tombs, protecting the bodies of the dead, guiding them on their journey, and checking the scale that weighs the heart.",
+          "start": 31.303958333333334,
+          "end": 39.42995833333333,
+          "audio_file": "audio/en/sentences/N02_02_60fcddb53ae1.wav",
+          "input_hash": "60fcddb53ae1edad69c09eed4475871c2d2281c299dae4560b4f119cb3ad637e"
+        },
+        {
+          "id": "N02-03",
+          "text": "In this episode, we follow sculptures and papyri at The Metropolitan Museum of Art to see, one by one, the work Anubis does in the sources.",
+          "spoken_text": "In this episode, we follow sculptures and papyri at The Metropolitan Museum of Art to see, one by one, the work Anubis does in the sources.",
+          "start": 39.64995833333334,
+          "end": 50.398625,
+          "audio_file": "audio/en/sentences/N02_03_e3bedb38cb70.wav",
+          "input_hash": "e3bedb38cb7052650acdf18ab3bd54734a51b21b7f82f16723c17f7082ae4e21"
+        }
+      ],
+      "start": 28.533333333333335,
+      "end": 50.766666666666666
+    },
+    {
+      "id": "N03",
+      "chapter": "C01",
+      "heading": "Objects and reconstructions",
+      "caption": "Museum photographs and reconstructions are labeled",
+      "sources": [
+        "S01",
+        "S04",
+        "S06"
+      ],
+      "classification": "production_method",
+      "visuals": [
+        "evidence",
+        "met_557830"
+      ],
+      "text": "On screen you will see photographs of real museum objects, along with reconstructions created to help you picture the past. Every reconstruction is labeled in the top corner. Let's begin with the first object.",
+      "duration_seconds": 14.313208333333334,
+      "native_speed": 0.8786,
+      "audio_file": "audio/en/N03.wav",
+      "cues": [
+        {
+          "id": "N03-01",
+          "text": "On screen you will see photographs of real museum objects, along with reconstructions created to help you picture the past.",
+          "spoken_text": "On screen you will see photographs of real museum objects, along with reconstructions created to help you picture the past.",
+          "start": 50.766666666666666,
+          "end": 58.901291666666665,
+          "audio_file": "audio/en/sentences/N03_01_16104f8b43d3.wav",
+          "input_hash": "16104f8b43d33fe585f01e0cf80160510b7343ab387d4c30ef89dc3d0f4c654d"
+        },
+        {
+          "id": "N03-02",
+          "text": "Every reconstruction is labeled in the top corner.",
+          "spoken_text": "Every reconstruction is labeled in the top corner.",
+          "start": 59.121291666666664,
+          "end": 62.523916666666665,
+          "audio_file": "audio/en/sentences/N03_02_ade558b563a2.wav",
+          "input_hash": "ade558b563a273a6626fac9fa5a82d54c5d714c6f99b8d66af4b84e599b743ea"
+        },
+        {
+          "id": "N03-03",
+          "text": "Let's begin with the first object.",
+          "spoken_text": "Let's begin with the first object.",
+          "start": 62.743916666666664,
+          "end": 65.079875,
+          "audio_file": "audio/en/sentences/N03_03_789e5cddab1e.wav",
+          "input_hash": "789e5cddab1eed7003ee55312f0f4d4fef69d74c3bc572f5e1295406dbc42f08"
+        }
+      ],
+      "start": 50.766666666666666,
+      "end": 66.9
+    },
+    {
+      "id": "N04",
+      "chapter": "C02",
+      "heading": "A watchful canine",
+      "caption": "Lying down, but ears up",
+      "sources": [
+        "S01"
+      ],
+      "classification": "historical_fact",
+      "visuals": [
+        "met_544075",
+        "met_544075_detail"
+      ],
+      "text": "First, this statue of a reclining canine. Its front legs stretch forward and its ears stand upright. It seems less asleep than alert, keeping watch. This statue at the Met is carved from limestone and was originally painted black. The god was not always shown in human form.",
+      "duration_seconds": 20.002541666666666,
+      "native_speed": 0.82,
+      "audio_file": "audio/en/N04.wav",
+      "cues": [
+        {
+          "id": "N04-01",
+          "text": "First, this statue of a reclining canine.",
+          "spoken_text": "First, this statue of a reclining canine.",
+          "start": 66.9,
+          "end": 70.01395833333333,
+          "audio_file": "audio/en/sentences/N04_01_7a372a4a8384.wav",
+          "input_hash": "7a372a4a83846ed941305665611f709027dbc6158709b1f551e9b8bf7b983b81"
+        },
+        {
+          "id": "N04-02",
+          "text": "Its front legs stretch forward and its ears stand upright.",
+          "spoken_text": "Its front legs stretch forward and its ears stand upright.",
+          "start": 70.23395833333333,
+          "end": 74.14729166666667,
+          "audio_file": "audio/en/sentences/N04_02_1fed4dad462d.wav",
+          "input_hash": "1fed4dad462de88aeedc82f78356ba51c384bab92ae75e303c6b7170fab7f6c0"
+        },
+        {
+          "id": "N04-03",
+          "text": "It seems less asleep than alert, keeping watch.",
+          "spoken_text": "It seems less asleep than alert, keeping watch.",
+          "start": 74.36729166666667,
+          "end": 77.75858333333333,
+          "audio_file": "audio/en/sentences/N04_03_223b74ec8c03.wav",
+          "input_hash": "223b74ec8c0372725e1be1edd56a8236c9cc070c4b67206714bd534ba4c478e2"
+        },
+        {
+          "id": "N04-04",
+          "text": "This statue at the Met is carved from limestone and was originally painted black.",
+          "spoken_text": "This statue at the Met is carved from limestone and was originally painted black.",
+          "start": 77.97858333333333,
+          "end": 83.58591666666668,
+          "audio_file": "audio/en/sentences/N04_04_dd470f81f373.wav",
+          "input_hash": "dd470f81f373d8813f259466708f6adce06a85423dfba9e4122c75dddb22f65d"
+        },
+        {
+          "id": "N04-05",
+          "text": "The god was not always shown in human form.",
+          "spoken_text": "The god was not always shown in human form.",
+          "start": 83.80591666666668,
+          "end": 86.90254166666668,
+          "audio_file": "audio/en/sentences/N04_05_ac2f224cffce.wav",
+          "input_hash": "ac2f224cffcea77dfb772f0b11e0242db69434fd295e482f8f05f0032603e277"
+        }
+      ],
+      "start": 66.9,
+      "end": 87.5
+    },
+    {
+      "id": "N05",
+      "chapter": "C02",
+      "heading": "Canines and cemeteries",
+      "caption": "An interpretation, not proof of origin",
+      "sources": [
+        "S01"
+      ],
+      "classification": "scholarly_interpretation",
+      "visuals": [
+        "nile",
+        "met_544075"
+      ],
+      "text": "The museum's description draws attention to the link between canines and cemeteries. Animals that roamed burial grounds could disturb the dead. Yet a watchful canine could also be imagined as a power that guarded them. This is an interpretation of the image's background, not proof of a single origin for Anubis.",
+      "duration_seconds": 21.67,
+      "native_speed": 0.905277,
+      "audio_file": "audio/en/N05.wav",
+      "cues": [
+        {
+          "id": "N05-01",
+          "text": "The museum's description draws attention to the link between canines and cemeteries.",
+          "spoken_text": "The museum's description draws attention to the link between canines and cemeteries.",
+          "start": 87.5,
+          "end": 93.08466666666666,
+          "audio_file": "audio/en/sentences/N05_01_b02c9335ec2f.wav",
+          "input_hash": "b02c9335ec2f694f6677cb19f6181d584801f901a8aa824729d21c82a7adcbb0"
+        },
+        {
+          "id": "N05-02",
+          "text": "Animals that roamed burial grounds could disturb the dead.",
+          "spoken_text": "Animals that roamed burial grounds could disturb the dead.",
+          "start": 93.30466666666666,
+          "end": 97.14266666666667,
+          "audio_file": "audio/en/sentences/N05_02_91434b32e5f2.wav",
+          "input_hash": "91434b32e5f2a086327de7cc4d655b307d4fb7eff4ff1effadb085fed720fb81"
+        },
+        {
+          "id": "N05-03",
+          "text": "Yet a watchful canine could also be imagined as a power that guarded them.",
+          "spoken_text": "Yet a watchful canine could also be imagined as a power that guarded them.",
+          "start": 97.36266666666667,
+          "end": 102.59733333333334,
+          "audio_file": "audio/en/sentences/N05_03_cbf4f9186814.wav",
+          "input_hash": "cbf4f9186814ab95690355a7b6a35d82825ec726ec5c4f8f8cb9294bec73d376"
+        },
+        {
+          "id": "N05-04",
+          "text": "This is an interpretation of the image's background, not proof of a single origin for Anubis.",
+          "spoken_text": "This is an interpretation of the image's background, not proof of a single origin for Anubis.",
+          "start": 102.81733333333334,
+          "end": 109.17,
+          "audio_file": "audio/en/sentences/N05_04_1ddcc8f06d72.wav",
+          "input_hash": "1ddcc8f06d72f74d07aa2be400d101f7a3216a8b27af038e4b6d2e3ba17c4d39"
+        }
+      ],
+      "start": 87.5,
+      "end": 110.2
+    },
+    {
+      "id": "N06",
+      "chapter": "C02",
+      "heading": "A human body, an animal head",
+      "caption": "A god shown in more than one form",
+      "sources": [
+        "S02"
+      ],
+      "classification": "historical_fact",
+      "visuals": [
+        "met_590939",
+        "met_590939_detail"
+      ],
+      "text": "In another statuette, an animal head sits on a human body. It is made of wood, and fine details of the clothing still survive. The museum describes it as probably Anubis, because more than one god was shown with a canine head. A familiar look does not always tell us the name for certain.",
+      "duration_seconds": 24.589291666666668,
+      "native_speed": 0.757072,
+      "audio_file": "audio/en/N06.wav",
+      "cues": [
+        {
+          "id": "N06-01",
+          "text": "In another statuette, an animal head sits on a human body.",
+          "spoken_text": "In another statuette, an animal head sits on a human body.",
+          "start": 110.2,
+          "end": 115.42733333333334,
+          "audio_file": "audio/en/sentences/N06_01_c900f30de88d.wav",
+          "input_hash": "c900f30de88da32d90b39753df7e4d4b98ffab632e37ba428bffc7914b9d29b7"
+        },
+        {
+          "id": "N06-02",
+          "text": "It is made of wood, and fine details of the clothing still survive.",
+          "spoken_text": "It is made of wood, and fine details of the clothing still survive.",
+          "start": 115.64733333333334,
+          "end": 121.37129166666666,
+          "audio_file": "audio/en/sentences/N06_02_6e80ec0a7f63.wav",
+          "input_hash": "6e80ec0a7f630fca6f59ff0a86e6d5ccde98fa509e0d8ce09d78fdb7ebbbdb18"
+        },
+        {
+          "id": "N06-03",
+          "text": "The museum describes it as probably Anubis, because more than one god was shown with a canine head.",
+          "spoken_text": "The museum describes it as probably Anubis, because more than one god was shown with a canine head.",
+          "start": 121.59129166666668,
+          "end": 129.82395833333334,
+          "audio_file": "audio/en/sentences/N06_03_0071b212003f.wav",
+          "input_hash": "0071b212003fd45bcc9261f182f2cf2dce211c42f5879c570eb3957d936555d8"
+        },
+        {
+          "id": "N06-04",
+          "text": "A familiar look does not always tell us the name for certain.",
+          "spoken_text": "A familiar look does not always tell us the name for certain.",
+          "start": 130.04395833333334,
+          "end": 134.78929166666666,
+          "audio_file": "audio/en/sentences/N06_04_ca7ef41ebddd.wav",
+          "input_hash": "ca7ef41ebddd0bd8abf8590464e4eab4034a78aadefcd0e98f1f0550a2f658d2"
+        }
+      ],
+      "start": 110.2,
+      "end": 135.16666666666666
+    },
+    {
+      "id": "N07",
+      "chapter": "C02",
+      "heading": "Dates are clues too",
+      "caption": "Ancient Egypt is not a single moment",
+      "sources": [
+        "S01",
+        "S02",
+        "S07"
+      ],
+      "classification": "historical_fact",
+      "visuals": [
+        "timeline",
+        "met_544206"
+      ],
+      "text": "This is where dates matter. The statues we have just seen and the royal relief we will see later were not made in the same era. Ancient Egypt covers an enormous span of time. To understand a god's form and role, we need to ask not only what is depicted, but when the object was made.",
+      "duration_seconds": 24.94729166666667,
+      "native_speed": 0.722454,
+      "audio_file": "audio/en/N07.wav",
+      "cues": [
+        {
+          "id": "N07-01",
+          "text": "This is where dates matter.",
+          "spoken_text": "This is where dates matter.",
+          "start": 135.16666666666666,
+          "end": 137.49266666666665,
+          "audio_file": "audio/en/sentences/N07_01_31dbb4735c16.wav",
+          "input_hash": "31dbb4735c16774cf8a08f3a3cb4c70944b461c82c37ef44fc561fbc4b2c5f9d"
+        },
+        {
+          "id": "N07-02",
+          "text": "The statues we have just seen and the royal relief we will see later were not made in the same era.",
+          "spoken_text": "The statues we have just seen and the royal relief we will see later were not made in the same era.",
+          "start": 137.71266666666665,
+          "end": 145.63795833333333,
+          "audio_file": "audio/en/sentences/N07_02_6da93f05026c.wav",
+          "input_hash": "6da93f05026c1db8b2eeb4fff5692843a94f64fca87ab80fab7c34623cc8ae81"
+        },
+        {
+          "id": "N07-03",
+          "text": "Ancient Egypt covers an enormous span of time.",
+          "spoken_text": "Ancient Egypt covers an enormous span of time.",
+          "start": 145.85795833333333,
+          "end": 150.27195833333332,
+          "audio_file": "audio/en/sentences/N07_03_34683400e821.wav",
+          "input_hash": "34683400e82123234dc56e2af94b9d15dfd29c1b3673b0bb78464a3df73984b5"
+        },
+        {
+          "id": "N07-04",
+          "text": "To understand a god's form and role, we need to ask not only what is depicted, but when the object was made.",
+          "spoken_text": "To understand a god's form and role, we need to ask not only what is depicted, but when the object was made.",
+          "start": 150.49195833333332,
+          "end": 160.11395833333333,
+          "audio_file": "audio/en/sentences/N07_04_37c4aac9b1e0.wav",
+          "input_hash": "37c4aac9b1e029c16ee6f20dff9dbc581d0769bb00f743fbdb3421a06d58166a"
+        }
+      ],
+      "start": 135.16666666666666,
+      "end": 161.93333333333334
+    },
+    {
+      "id": "N08",
+      "chapter": "C03",
+      "heading": "Preparing for the journey",
+      "caption": "What preserving the body meant",
+      "sources": [
+        "S03"
+      ],
+      "classification": "myth_variant",
+      "visuals": [
+        "linen",
+        "journey"
+      ],
+      "text": "One of Anubis's most important roles was his connection to mummification. In ancient belief, preparing the body of the deceased and performing rituals helped sustain their existence after death. Preserving the body was not only about appearance. It was tied to the hope of living again.",
+      "duration_seconds": 19.25125,
+      "native_speed": 0.871585,
+      "audio_file": "audio/en/N08.wav",
+      "cues": [
+        {
+          "id": "N08-01",
+          "text": "One of Anubis's most important roles was his connection to mummification.",
+          "spoken_text": "One of Anubis's most important roles was his connection to mummification.",
+          "start": 161.93333333333334,
+          "end": 166.976,
+          "audio_file": "audio/en/sentences/N08_01_9a747c80f48d.wav",
+          "input_hash": "9a747c80f48d386d95a08c962653aac5a12d0e2210059db0097bce058325d915"
+        },
+        {
+          "id": "N08-02",
+          "text": "In ancient belief, preparing the body of the deceased and performing rituals helped sustain their existence after death.",
+          "spoken_text": "In ancient belief, preparing the body of the deceased and performing rituals helped sustain their existence after death.",
+          "start": 167.196,
+          "end": 174.966,
+          "audio_file": "audio/en/sentences/N08_02_437a54f68241.wav",
+          "input_hash": "437a54f682410b728f525b27228fa691f80143efdd841db7f15c9b42f66b9c05"
+        },
+        {
+          "id": "N08-03",
+          "text": "Preserving the body was not only about appearance.",
+          "spoken_text": "Preserving the body was not only about appearance.",
+          "start": 175.186,
+          "end": 178.456625,
+          "audio_file": "audio/en/sentences/N08_03_6b1f9536701d.wav",
+          "input_hash": "6b1f9536701d5778589e9c3b2a31474840fda386dddb53f8da48114ce4174061"
+        },
+        {
+          "id": "N08-04",
+          "text": "It was tied to the hope of living again.",
+          "spoken_text": "It was tied to the hope of living again.",
+          "start": 178.676625,
+          "end": 181.18458333333334,
+          "audio_file": "audio/en/sentences/N08_04_0701f58c3b77.wav",
+          "input_hash": "0701f58c3b775359d74ff4027b7d77916332c68dbfbc4ec7751909ccc208e62b"
+        }
+      ],
+      "start": 161.93333333333334,
+      "end": 181.96666666666667
+    },
+    {
+      "id": "N09",
+      "chapter": "C03",
+      "heading": "A god protecting the body",
+      "caption": "Coffin scene described from the museum text; image is a reconstruction",
+      "sources": [
+        "S03",
+        "S12"
+      ],
+      "classification": "myth_variant",
+      "visuals": [
+        "linen",
+        "journey"
+      ],
+      "text": "A gilded coffin made for a priest named Nedjemankh was once displayed at the Met. The museum's description points to a scene of a mummy on a bier, with Anubis performing rites beside it. Isis and Nephthys also appear as protectors of the mummy. The coffin was later found to have been looted, and in 2019 it was returned to Egypt.",
+      "duration_seconds": 24.330583333333333,
+      "native_speed": 0.82,
+      "audio_file": "audio/en/N09.wav",
+      "cues": [
+        {
+          "id": "N09-01",
+          "text": "A gilded coffin made for a priest named Nedjemankh was once displayed at the Met.",
+          "spoken_text": "A gilded coffin made for a priest named Nedjemankh was once displayed at the Met.",
+          "start": 181.96666666666667,
+          "end": 187.55266666666668,
+          "audio_file": "audio/en/sentences/N09_01_f81f3414cfc9.wav",
+          "input_hash": "f81f3414cfc97432cd6424016c4400f144403e93d437ad7d37f3d942148f0020"
+        },
+        {
+          "id": "N09-02",
+          "text": "The museum's description points to a scene of a mummy on a bier, with Anubis performing rites beside it.",
+          "spoken_text": "The museum's description points to a scene of a mummy on a bier, with Anubis performing rites beside it.",
+          "start": 187.77266666666668,
+          "end": 194.69400000000002,
+          "audio_file": "audio/en/sentences/N09_02_5c2f1b9005b2.wav",
+          "input_hash": "5c2f1b9005b2274cdd4f1c49c32040a9b3480084cc7e77e78351f4893b60b8b7"
+        },
+        {
+          "id": "N09-03",
+          "text": "Isis and Nephthys also appear as protectors of the mummy.",
+          "spoken_text": "Isis and Nephthys also appear as protectors of the mummy.",
+          "start": 194.914,
+          "end": 199.30795833333335,
+          "audio_file": "audio/en/sentences/N09_03_09d741d980ac.wav",
+          "input_hash": "09d741d980ac749bba183d29cef80444067d904de76b4f6be4405599082175c6"
+        },
+        {
+          "id": "N09-04",
+          "text": "The coffin was later found to have been looted, and in 2019 it was returned to Egypt.",
+          "spoken_text": "The coffin was later found to have been looted, and in 2019 it was returned to Egypt.",
+          "start": 199.52795833333334,
+          "end": 206.29725,
+          "audio_file": "audio/en/sentences/N09_04_a735a604350e.wav",
+          "input_hash": "a735a604350efb524c1cf4191b06b642e30e0d5174ec5cfd5d820242aae9909b"
+        }
+      ],
+      "start": 181.96666666666667,
+      "end": 206.66666666666666
+    },
+    {
+      "id": "N10",
+      "chapter": "C03",
+      "heading": "Rites performed by the living",
+      "caption": "Divine stories and human work",
+      "sources": [
+        "S01",
+        "S03"
+      ],
+      "classification": "historical_fact",
+      "visuals": [
+        "linen",
+        "evidence"
+      ],
+      "text": "Of course, it was living people who prepared the dead and readied them for burial. The stories of the gods gave meaning to that work. Human hands and divine protection: together, they shaped the funerary rites.",
+      "duration_seconds": 14.950583333333332,
+      "native_speed": 0.82,
+      "audio_file": "audio/en/N10.wav",
+      "cues": [
+        {
+          "id": "N10-01",
+          "text": "Of course, it was living people who prepared the dead and readied them for burial.",
+          "spoken_text": "Of course, it was living people who prepared the dead and readied them for burial.",
+          "start": 206.66666666666666,
+          "end": 212.06199999999998,
+          "audio_file": "audio/en/sentences/N10_01_add6bdffd31f.wav",
+          "input_hash": "add6bdffd31faf7916d9366db6abec928d9915bf7a2f19bea8a97ba24ae7ffff"
+        },
+        {
+          "id": "N10-02",
+          "text": "The stories of the gods gave meaning to that work.",
+          "spoken_text": "The stories of the gods gave meaning to that work.",
+          "start": 212.28199999999998,
+          "end": 215.60929166666665,
+          "audio_file": "audio/en/sentences/N10_02_14dc2b6eb776.wav",
+          "input_hash": "14dc2b6eb77668c9b2b779f4a7c99b8392093f4f0aac4d463ea57b5489de00b6"
+        },
+        {
+          "id": "N10-03",
+          "text": "Human hands and divine protection: together, they shaped the funerary rites.",
+          "spoken_text": "Human hands and divine protection: together, they shaped the funerary rites.",
+          "start": 215.82929166666665,
+          "end": 221.61724999999998,
+          "audio_file": "audio/en/sentences/N10_03_961901085734.wav",
+          "input_hash": "961901085734bd8bc6f736732fcf825f91840ec806c8a138b8ec682362efa80d"
+        }
+      ],
+      "start": 206.66666666666666,
+      "end": 225.1
+    },
+    {
+      "id": "N11",
+      "chapter": "C03",
+      "heading": "Another form of protection",
+      "caption": "Imiut: a ritual object of funerary rites",
+      "sources": [
+        "S11"
+      ],
+      "classification": "historical_fact",
+      "visuals": [
+        "met_545547",
+        "journey"
+      ],
+      "text": "The idea of protection appears beyond statues of the god, too. The ritual object called an imiut combines a staff, a jar, and a form wrapped in an animal skin. According to the museum, objects like this and guardian figures were connected to sacred spaces and funerary rites. Protecting the dead took many forms.",
+      "duration_seconds": 22.637916666666666,
+      "native_speed": 0.864308,
+      "audio_file": "audio/en/N11.wav",
+      "cues": [
+        {
+          "id": "N11-01",
+          "text": "The idea of protection appears beyond statues of the god, too.",
+          "spoken_text": "The idea of protection appears beyond statues of the god, too.",
+          "start": 225.1,
+          "end": 229.45129166666666,
+          "audio_file": "audio/en/sentences/N11_01_08682bd9642a.wav",
+          "input_hash": "08682bd9642ab13dd66c95b8e328cd930e5f2ae6562f7e82a69188385d87abc5"
+        },
+        {
+          "id": "N11-02",
+          "text": "The ritual object called an imiut combines a staff, a jar, and a form wrapped in an animal skin.",
+          "spoken_text": "The ritual object called an imiut combines a staff, a jar, and a form wrapped in an animal skin.",
+          "start": 229.67129166666666,
+          "end": 236.730625,
+          "audio_file": "audio/en/sentences/N11_02_3d21680c9019.wav",
+          "input_hash": "3d21680c90199475e36362e17c002a7c00e1c2382992a55eb3f7e4d5f7a8915b"
+        },
+        {
+          "id": "N11-03",
+          "text": "According to the museum, objects like this and guardian figures were connected to sacred spaces and funerary rites.",
+          "spoken_text": "According to the museum, objects like this and guardian figures were connected to sacred spaces and funerary rites.",
+          "start": 236.950625,
+          "end": 245.08525,
+          "audio_file": "audio/en/sentences/N11_03_fa0c41b895be.wav",
+          "input_hash": "fa0c41b895be1e9d07e40d2b2c172dda8af60ee150c61ce70590489639f7e244"
+        },
+        {
+          "id": "N11-04",
+          "text": "Protecting the dead took many forms.",
+          "spoken_text": "Protecting the dead took many forms.",
+          "start": 245.30525,
+          "end": 247.73791666666665,
+          "audio_file": "audio/en/sentences/N11_04_ac62fc0eaa35.wav",
+          "input_hash": "ac62fc0eaa359caf4b390e88e32f99ad5fb9e3362a5079d8615bd21100ed5dfd"
+        }
+      ],
+      "start": 225.1,
+      "end": 249.56666666666666
+    },
+    {
+      "id": "N12",
+      "chapter": "C04",
+      "heading": "Opening the Book of the Dead",
+      "caption": "Not quite a book in the modern sense",
+      "sources": [
+        "S04"
+      ],
+      "classification": "historical_fact",
+      "visuals": [
+        "archive",
+        "met_548344"
+      ],
+      "text": "Now we move from preparing the body to the story of the journey after death. Here we meet the Book of the Dead. The museum notes that its ancient name was the Book of Going Forth by Day. It is a collection of spells and images on papyrus, meant to help the deceased on their way.",
+      "duration_seconds": 24.807958333333332,
+      "native_speed": 0.668794,
+      "audio_file": "audio/en/N12.wav",
+      "cues": [
+        {
+          "id": "N12-01",
+          "text": "Now we move from preparing the body to the story of the journey after death.",
+          "spoken_text": "Now we move from preparing the body to the story of the journey after death.",
+          "start": 249.56666666666666,
+          "end": 256.262,
+          "audio_file": "audio/en/sentences/N12_01_ab2a8d352ef0.wav",
+          "input_hash": "ab2a8d352ef045b02d0658ab45841b0c3a5f7798a355177e8af6096d9026c055"
+        },
+        {
+          "id": "N12-02",
+          "text": "Here we meet the Book of the Dead.",
+          "spoken_text": "Here we meet the Book of the Dead.",
+          "start": 256.48199999999997,
+          "end": 259.12195833333334,
+          "audio_file": "audio/en/sentences/N12_02_186fd9579b56.wav",
+          "input_hash": "186fd9579b569c023bbf09464d5f83c99a7e2df0298284cd22d74789c65bc5a0"
+        },
+        {
+          "id": "N12-03",
+          "text": "The museum notes that its ancient name was the Book of Going Forth by Day.",
+          "spoken_text": "The museum notes that its ancient name was the Book of Going Forth by Day.",
+          "start": 259.3419583333333,
+          "end": 265.8892916666667,
+          "audio_file": "audio/en/sentences/N12_03_b969d0c09439.wav",
+          "input_hash": "b969d0c094390de6fc195e9e2caef0933afdac61611cdf94a86ad49141d44861"
+        },
+        {
+          "id": "N12-04",
+          "text": "It is a collection of spells and images on papyrus, meant to help the deceased on their way.",
+          "spoken_text": "It is a collection of spells and images on papyrus, meant to help the deceased on their way.",
+          "start": 266.10929166666665,
+          "end": 274.374625,
+          "audio_file": "audio/en/sentences/N12_04_65ff616a1d02.wav",
+          "input_hash": "65ff616a1d0259a6afaf7c88867892b3461afe0171ba522501ee7d33826fcc01"
+        }
+      ],
+      "start": 249.56666666666666,
+      "end": 274.73333333333335
+    },
+    {
+      "id": "N13",
+      "chapter": "C04",
+      "heading": "A papyrus for one person",
+      "caption": "Book of the Dead of Nauny, c. 1050 BCE",
+      "sources": [
+        "S04"
+      ],
+      "classification": "historical_fact",
+      "visuals": [
+        "met_548344",
+        "met_548344_detail"
+      ],
+      "text": "On screen now is a papyrus that accompanied the burial of a woman named Nauny. The museum dates it to around 1050 BCE. The scroll holds images and texts for several spells, and among them is the scene of the weighing of the heart. It was made not for an abstract dead person, but for one particular individual.",
+      "duration_seconds": 23.321958333333335,
+      "native_speed": 0.82,
+      "audio_file": "audio/en/N13.wav",
+      "cues": [
+        {
+          "id": "N13-01",
+          "text": "On screen now is a papyrus that accompanied the burial of a woman named Nauny.",
+          "spoken_text": "On screen now is a papyrus that accompanied the burial of a woman named Nauny.",
+          "start": 274.73333333333335,
+          "end": 280.56666666666666,
+          "audio_file": "audio/en/sentences/N13_01_e3b81c1f99ed.wav",
+          "input_hash": "e3b81c1f99ed02709e3f6d98ea24e358b892aa3bc2264dcdab7d24e06efab9f1"
+        },
+        {
+          "id": "N13-02",
+          "text": "The museum dates it to around 1050 BCE.",
+          "spoken_text": "The museum dates it to around ten fifty B C E.",
+          "start": 280.7866666666667,
+          "end": 284.41133333333335,
+          "audio_file": "audio/en/sentences/N13_02_78cec3651f12.wav",
+          "input_hash": "78cec3651f1299f5b6a50046cb3b61999e177c21224660fc77542ffe16f0bb8b"
+        },
+        {
+          "id": "N13-03",
+          "text": "The scroll holds images and texts for several spells, and among them is the scene of the weighing of the heart.",
+          "spoken_text": "The scroll holds images and texts for several spells, and among them is the scene of the weighing of the heart.",
+          "start": 284.6313333333334,
+          "end": 292.25795833333336,
+          "audio_file": "audio/en/sentences/N13_03_84be08b2db17.wav",
+          "input_hash": "84be08b2db17ae607db4d7b870f3c5ac148afcc009c168a99978a7de06344f2b"
+        },
+        {
+          "id": "N13-04",
+          "text": "It was made not for an abstract dead person, but for one particular individual.",
+          "spoken_text": "It was made not for an abstract dead person, but for one particular individual.",
+          "start": 292.47795833333333,
+          "end": 298.0552916666667,
+          "audio_file": "audio/en/sentences/N13_04_08226e62a572.wav",
+          "input_hash": "08226e62a57232af76563f75e247b6c35669424a28c96579bea5a68291ac69d9"
+        }
+      ],
+      "start": 274.73333333333335,
+      "end": 298.43333333333334
+    },
+    {
+      "id": "N14",
+      "chapter": "C04",
+      "heading": "What the heart carried",
+      "caption": "A part of the body that stood for a life",
+      "sources": [
+        "S05"
+      ],
+      "classification": "myth_variant",
+      "visuals": [
+        "balance",
+        "met_557657"
+      ],
+      "text": "Why the heart? Writing about another funerary papyrus, the museum explains that the heart was considered the center of intellect and emotion. In the weighing scene, how a person had lived is what is being tested. The heart was shown not as a mere organ, but as a record of a life.",
+      "duration_seconds": 23.49925,
+      "native_speed": 0.767699,
+      "audio_file": "audio/en/N14.wav",
+      "cues": [
+        {
+          "id": "N14-01",
+          "text": "Why the heart?",
+          "spoken_text": "Why the heart?",
+          "start": 298.43333333333334,
+          "end": 299.93529166666667,
+          "audio_file": "audio/en/sentences/N14_01_fbb8bd0886e1.wav",
+          "input_hash": "fbb8bd0886e144f9a16e5aa5851fcca060913fdbc566d156b0a41b9dbc144f6e"
+        },
+        {
+          "id": "N14-02",
+          "text": "Writing about another funerary papyrus, the museum explains that the heart was considered the center of intellect and emotion.",
+          "spoken_text": "Writing about another funerary papyrus, the museum explains that the heart was considered the center of intellect and emotion.",
+          "start": 300.1552916666667,
+          "end": 310.626625,
+          "audio_file": "audio/en/sentences/N14_02_4dc7be14721e.wav",
+          "input_hash": "4dc7be14721e727aefe4cb91eef4a29bfad06beef44b89ca98e52b494bd86c9f"
+        },
+        {
+          "id": "N14-03",
+          "text": "In the weighing scene, how a person had lived is what is being tested.",
+          "spoken_text": "In the weighing scene, how a person had lived is what is being tested.",
+          "start": 310.846625,
+          "end": 316.15791666666667,
+          "audio_file": "audio/en/sentences/N14_03_fd05c7571acf.wav",
+          "input_hash": "fd05c7571acf65f9ec1401b041ef5c2847c7c97abe3a9c81be98abdb24c162f5"
+        },
+        {
+          "id": "N14-04",
+          "text": "The heart was shown not as a mere organ, but as a record of a life.",
+          "spoken_text": "The heart was shown not as a mere organ, but as a record of a life.",
+          "start": 316.3779166666667,
+          "end": 321.93258333333335,
+          "audio_file": "audio/en/sentences/N14_04_9735be17ee0f.wav",
+          "input_hash": "9735be17ee0f34a2b90610b38cd5782f723b74632e93d23f0167a14e1903dd61"
+        }
+      ],
+      "start": 298.43333333333334,
+      "end": 322.3
+    },
+    {
+      "id": "N15",
+      "chapter": "C04",
+      "heading": "Weighed against Maat",
+      "caption": "A symbol of order and right conduct",
+      "sources": [
+        "S04",
+        "S05"
+      ],
+      "classification": "myth_variant",
+      "visuals": [
+        "balance",
+        "met_548344_detail"
+      ],
+      "text": "On the other side of the scale is something representing Maat. Maat is linked to order and to what is right. Many people picture only a feather, but in Nauny's papyrus, Maat appears as a small goddess wearing a feather. It is worth remembering that one famous image does not fit every source.",
+      "duration_seconds": 24.491291666666665,
+      "native_speed": 0.759554,
+      "audio_file": "audio/en/N15.wav",
+      "cues": [
+        {
+          "id": "N15-01",
+          "text": "On the other side of the scale is something representing Maat.",
+          "spoken_text": "On the other side of the scale is something representing Maat.",
+          "start": 322.3,
+          "end": 327.01395833333333,
+          "audio_file": "audio/en/sentences/N15_01_c7819da6284d.wav",
+          "input_hash": "c7819da6284d98b9f9e77173163b58643b4ec723fca4fc517cc945817ef27d6a"
+        },
+        {
+          "id": "N15-02",
+          "text": "Maat is linked to order and to what is right.",
+          "spoken_text": "Maat is linked to order and to what is right.",
+          "start": 327.23395833333336,
+          "end": 330.8799583333333,
+          "audio_file": "audio/en/sentences/N15_02_00aa62d62800.wav",
+          "input_hash": "00aa62d62800f3d3e9b4efef06eab3c4c822bf20c39377940f8cc4a3f7f63445"
+        },
+        {
+          "id": "N15-03",
+          "text": "Many people picture only a feather, but in Nauny's papyrus, Maat appears as a small goddess wearing a feather.",
+          "spoken_text": "Many people picture only a feather, but in Nauny's papyrus, Maat appears as a small goddess wearing a feather.",
+          "start": 331.09995833333335,
+          "end": 340.2599583333333,
+          "audio_file": "audio/en/sentences/N15_03_dcccd645ef77.wav",
+          "input_hash": "dcccd645ef77796ffc47797bed16803fa3b4d836784b759a0a965a7670ac374a"
+        },
+        {
+          "id": "N15-04",
+          "text": "It is worth remembering that one famous image does not fit every source.",
+          "spoken_text": "It is worth remembering that one famous image does not fit every source.",
+          "start": 340.47995833333334,
+          "end": 346.79129166666667,
+          "audio_file": "audio/en/sentences/N15_04_a69f8b7ee33a.wav",
+          "input_hash": "a69f8b7ee33a6d3602f0556b0b1e8ed0b0addecad9a32a7167e441fc75186a59"
+        }
+      ],
+      "start": 322.3,
+      "end": 347.1666666666667
+    },
+    {
+      "id": "N16",
+      "chapter": "C04",
+      "heading": "It looks like a wall painting",
+      "caption": "Facsimile by Nina de Garis Davies",
+      "sources": [
+        "S06"
+      ],
+      "classification": "historical_fact",
+      "visuals": [
+        "met_557830",
+        "met_557830_detail"
+      ],
+      "text": "Here is another scene of Anubis and the scale. But this image is not a photograph of the ancient wall painting itself. It is a copy on paper, made by Nina de Garis Davies from the tomb of Nakhtamun. It is a valuable way to study the imagery, but we present the original and the copy as different things.",
+      "duration_seconds": 26.449291666666667,
+      "native_speed": 0.740767,
+      "audio_file": "audio/en/N16.wav",
+      "cues": [
+        {
+          "id": "N16-01",
+          "text": "Here is another scene of Anubis and the scale.",
+          "spoken_text": "Here is another scene of Anubis and the scale.",
+          "start": 347.1666666666667,
+          "end": 350.79400000000004,
+          "audio_file": "audio/en/sentences/N16_01_feb93fdf8b2c.wav",
+          "input_hash": "feb93fdf8b2caa3fbf4fd951ab22203f77f77bdef3fbfb4e27ca46fcfc44e9d8"
+        },
+        {
+          "id": "N16-02",
+          "text": "But this image is not a photograph of the ancient wall painting itself.",
+          "spoken_text": "But this image is not a photograph of the ancient wall painting itself.",
+          "start": 351.014,
+          "end": 357.09066666666666,
+          "audio_file": "audio/en/sentences/N16_02_1e4cd12c9ffb.wav",
+          "input_hash": "1e4cd12c9ffbe32a8882ee72028d97f41a51def6f8b69ca4a717e9de48ea3cf2"
+        },
+        {
+          "id": "N16-03",
+          "text": "It is a copy on paper, made by Nina de Garis Davies from the tomb of Nakhtamun.",
+          "spoken_text": "It is a copy on paper, made by Nina de Garis Davies from the tomb of Nakhtamun.",
+          "start": 357.3106666666667,
+          "end": 364.7753333333334,
+          "audio_file": "audio/en/sentences/N16_03_d242557d785b.wav",
+          "input_hash": "d242557d785b5e1d20d6e8663d8c3577e04e7a7220331bb49577b2860e867386"
+        },
+        {
+          "id": "N16-04",
+          "text": "It is a valuable way to study the imagery, but we present the original and the copy as different things.",
+          "spoken_text": "It is a valuable way to study the imagery, but we present the original and the copy as different things.",
+          "start": 364.99533333333335,
+          "end": 373.61595833333337,
+          "audio_file": "audio/en/sentences/N16_04_233034766364.wav",
+          "input_hash": "2330347663640d9ea02f08d889cbb4d2ef7b4b49f5bb54a30fd79a7971dead92"
+        }
+      ],
+      "start": 347.1666666666667,
+      "end": 375.43333333333334
+    },
+    {
+      "id": "N17",
+      "chapter": "C05",
+      "heading": "Anubis reads the scale",
+      "caption": "Separate the roles, and the scene becomes clear",
+      "sources": [
+        "S04"
+      ],
+      "classification": "myth_variant",
+      "visuals": [
+        "roles",
+        "met_548344_detail"
+      ],
+      "text": "Let's look again at Nauny's papyrus. Anubis is reading the scale. But he is not alone in the scene. There is a god who records the result, and a god who receives the dead. Once we separate these roles, the idea of Anubis as a judge who decides everything on his own turns out to be too simple.",
+      "duration_seconds": 26.00525,
+      "native_speed": 0.7479,
+      "audio_file": "audio/en/N17.wav",
+      "cues": [
+        {
+          "id": "N17-01",
+          "text": "Let's look again at Nauny's papyrus.",
+          "spoken_text": "Let's look again at Nauny's papyrus.",
+          "start": 375.43333333333334,
+          "end": 378.634,
+          "audio_file": "audio/en/sentences/N17_01_6542057f6a49.wav",
+          "input_hash": "6542057f6a49a782e3135e28bfc1b15b871c799378e6626f382e46f7f639643b"
+        },
+        {
+          "id": "N17-02",
+          "text": "Anubis is reading the scale.",
+          "spoken_text": "Anubis is reading the scale.",
+          "start": 378.854,
+          "end": 381.55533333333335,
+          "audio_file": "audio/en/sentences/N17_02_4190d77f1eea.wav",
+          "input_hash": "4190d77f1eea5e7747c482fb35644db02049bed2b3261a5da2d1614ed06ff0b5"
+        },
+        {
+          "id": "N17-03",
+          "text": "But he is not alone in the scene.",
+          "spoken_text": "But he is not alone in the scene.",
+          "start": 381.7753333333333,
+          "end": 384.328625,
+          "audio_file": "audio/en/sentences/N17_03_9f3955a21f4d.wav",
+          "input_hash": "9f3955a21f4d20290966e13bc1f9d0c695356bc6c50ad92ed980a643d4b911eb"
+        },
+        {
+          "id": "N17-04",
+          "text": "There is a god who records the result, and a god who receives the dead.",
+          "spoken_text": "There is a god who records the result, and a god who receives the dead.",
+          "start": 384.548625,
+          "end": 390.37191666666666,
+          "audio_file": "audio/en/sentences/N17_04_9e39072b6e51.wav",
+          "input_hash": "9e39072b6e5158663b9df2b298a4021542c244c8840aed3b8241c96ba77684e2"
+        },
+        {
+          "id": "N17-05",
+          "text": "Once we separate these roles, the idea of Anubis as a judge who decides everything on his own turns out to be too simple.",
+          "spoken_text": "Once we separate these roles, the idea of Anubis as a judge who decides everything on his own turns out to be too simple.",
+          "start": 390.5919166666667,
+          "end": 401.4385833333333,
+          "audio_file": "audio/en/sentences/N17_05_00a9eb79ba86.wav",
+          "input_hash": "00a9eb79ba863dac9912daf661ec496d68bccb2e73bef1a108db72172bd6b0bf"
+        }
+      ],
+      "start": 375.43333333333334,
+      "end": 401.8
+    },
+    {
+      "id": "N18",
+      "chapter": "C05",
+      "heading": "Thoth records the result",
+      "caption": "Look at actions, not only appearance",
+      "sources": [
+        "S09"
+      ],
+      "classification": "myth_variant",
+      "visuals": [
+        "met_552247_detail",
+        "roles"
+      ],
+      "text": "On this fragment of cartonnage, Thoth, with the head of an ibis, holds writing equipment. The museum describes the scene as Thoth introducing the deceased to Osiris. The clue to identifying a god is not just the shape of the head. What the god holds, and what the god is doing, matter just as much.",
+      "duration_seconds": 25.266583333333333,
+      "native_speed": 0.760127,
+      "audio_file": "audio/en/N18.wav",
+      "cues": [
+        {
+          "id": "N18-01",
+          "text": "On this fragment of cartonnage, Thoth, with the head of an ibis, holds writing equipment.",
+          "spoken_text": "On this fragment of cartonnage, Thoth, with the head of an ibis, holds writing equipment.",
+          "start": 401.8,
+          "end": 409.00866666666667,
+          "audio_file": "audio/en/sentences/N18_01_51f4404f3739.wav",
+          "input_hash": "51f4404f3739d7f71a3527c43024105ec37029bac41d2e8cce1b3847d7d9c256"
+        },
+        {
+          "id": "N18-02",
+          "text": "The museum describes the scene as Thoth introducing the deceased to Osiris.",
+          "spoken_text": "The museum describes the scene as Thoth introducing the deceased to Osiris.",
+          "start": 409.2286666666667,
+          "end": 415.86995833333333,
+          "audio_file": "audio/en/sentences/N18_02_f581c81918b5.wav",
+          "input_hash": "f581c81918b504a823c2568e1214674f740ec8b57582bc473beb1f154e50801a"
+        },
+        {
+          "id": "N18-03",
+          "text": "The clue to identifying a god is not just the shape of the head.",
+          "spoken_text": "The clue to identifying a god is not just the shape of the head.",
+          "start": 416.08995833333336,
+          "end": 421.33595833333334,
+          "audio_file": "audio/en/sentences/N18_03_3c6994075370.wav",
+          "input_hash": "3c6994075370bb9d4bcd817fdc7059895377fb71dc20310a54c546324fcbd1e7"
+        },
+        {
+          "id": "N18-04",
+          "text": "What the god holds, and what the god is doing, matter just as much.",
+          "spoken_text": "What the god holds, and what the god is doing, matter just as much.",
+          "start": 421.55595833333336,
+          "end": 427.06658333333337,
+          "audio_file": "audio/en/sentences/N18_04_06e7cea13578.wav",
+          "input_hash": "06e7cea13578c32a0579d69cb89b056497ddea6aef59e8ea86caba6913176dc8"
+        }
+      ],
+      "start": 401.8,
+      "end": 427.43333333333334
+    },
+    {
+      "id": "N19",
+      "chapter": "C05",
+      "heading": "Before Osiris",
+      "caption": "A story of acceptance into the afterlife",
+      "sources": [
+        "S05"
+      ],
+      "classification": "myth_variant",
+      "visuals": [
+        "met_557657",
+        "roles"
+      ],
+      "text": "According to the museum, if the scale balanced, the deceased was accepted by Osiris and granted eternal life. If not, the heart was devoured by a creature called Ammut, and the person died forever. Anubis weighs, Thoth records, Osiris receives. Judgment was pictured as a scene involving many gods.",
+      "duration_seconds": 21.049875,
+      "native_speed": 0.918452,
+      "audio_file": "audio/en/N19.wav",
+      "cues": [
+        {
+          "id": "N19-01",
+          "text": "According to the museum, if the scale balanced, the deceased was accepted by Osiris and granted eternal life.",
+          "spoken_text": "According to the museum, if the scale balanced, the deceased was accepted by Osiris and granted eternal life.",
+          "start": 427.43333333333334,
+          "end": 434.93933333333337,
+          "audio_file": "audio/en/sentences/N19_01_3a75c3d44dec.wav",
+          "input_hash": "3a75c3d44dec46f6f9579063b063ef00d4949d64e7e1fad65bdf5b9c4c41a9aa"
+        },
+        {
+          "id": "N19-02",
+          "text": "If not, the heart was devoured by a creature called Ammut, and the person died forever.",
+          "spoken_text": "If not, the heart was devoured by a creature called Ammut, and the person died forever.",
+          "start": 435.15933333333334,
+          "end": 440.6059583333333,
+          "audio_file": "audio/en/sentences/N19_02_5a8e46fa9c7d.wav",
+          "input_hash": "5a8e46fa9c7d345baa986335398c4169fcd801204d41e74c5e6d6a41c4d3c75e"
+        },
+        {
+          "id": "N19-03",
+          "text": "Anubis weighs, Thoth records, Osiris receives.",
+          "spoken_text": "Anubis weighs, Thoth records, Osiris receives.",
+          "start": 440.82595833333335,
+          "end": 444.53320833333333,
+          "audio_file": "audio/en/sentences/N19_03_6e3995a8cd37.wav",
+          "input_hash": "6e3995a8cd37956902b5efb571d8903d0e0640568aa4c0488729c6b92279dd37"
+        },
+        {
+          "id": "N19-04",
+          "text": "Judgment was pictured as a scene involving many gods.",
+          "spoken_text": "Judgment was pictured as a scene involving many gods.",
+          "start": 444.75320833333336,
+          "end": 448.4832083333333,
+          "audio_file": "audio/en/sentences/N19_04_87afb143ff6e.wav",
+          "input_hash": "87afb143ff6e82117d9c39f24de5808183b9ccc9405b6a79042094c8c5595aa3"
+        }
+      ],
+      "start": 427.43333333333334,
+      "end": 450.8666666666667
+    },
+    {
+      "id": "N20",
+      "chapter": "C05",
+      "heading": "Beyond the fear",
+      "caption": "What was hoped for: completing the journey",
+      "sources": [
+        "S04",
+        "S05"
+      ],
+      "classification": "editorial_interpretation",
+      "visuals": [
+        "journey",
+        "hero"
+      ],
+      "text": "The judgment scene does have its frightening side. But the sources prepared for the dead were not about failure alone. They were about passing the test safely and moving on to the next existence. Seen through his role as a protector, the same scene of the scale begins to look a little different.",
+      "duration_seconds": 23.50125,
+      "native_speed": 0.705917,
+      "audio_file": "audio/en/N20.wav",
+      "cues": [
+        {
+          "id": "N20-01",
+          "text": "The judgment scene does have its frightening side.",
+          "spoken_text": "The judgment scene does have its frightening side.",
+          "start": 450.8666666666667,
+          "end": 454.79129166666667,
+          "audio_file": "audio/en/sentences/N20_01_607f367b97ab.wav",
+          "input_hash": "607f367b97ab1c16307ed48d33a25dac04f10f14e88c309ad3f61d1638129e76"
+        },
+        {
+          "id": "N20-02",
+          "text": "But the sources prepared for the dead were not about failure alone.",
+          "spoken_text": "But the sources prepared for the dead were not about failure alone.",
+          "start": 455.0112916666667,
+          "end": 460.14929166666667,
+          "audio_file": "audio/en/sentences/N20_02_9ca2ea756815.wav",
+          "input_hash": "9ca2ea756815504d4444037333a6eb5b9dff21223cc1b2c00620959a457a8aae"
+        },
+        {
+          "id": "N20-03",
+          "text": "They were about passing the test safely and moving on to the next existence.",
+          "spoken_text": "They were about passing the test safely and moving on to the next existence.",
+          "start": 460.3692916666667,
+          "end": 466.43595833333336,
+          "audio_file": "audio/en/sentences/N20_03_f0ca555b9af9.wav",
+          "input_hash": "f0ca555b9af98252f8a57a3bb38db6ff5e844cbc6bb4eaf16dc7feed881396ec"
+        },
+        {
+          "id": "N20-04",
+          "text": "Seen through his role as a protector, the same scene of the scale begins to look a little different.",
+          "spoken_text": "Seen through his role as a protector, the same scene of the scale begins to look a little different.",
+          "start": 466.65595833333333,
+          "end": 474.3679166666667,
+          "audio_file": "audio/en/sentences/N20_04_d2f653fd6f03.wav",
+          "input_hash": "d2f653fd6f03ef082c3d294440fb5a8ea6485b8a7c7f5481ddb545d161286ecf"
+        }
+      ],
+      "start": 450.8666666666667,
+      "end": 476.2
+    },
+    {
+      "id": "N21",
+      "chapter": "C06",
+      "heading": "Not only about death",
+      "caption": "Anubis in a royal ritual",
+      "sources": [
+        "S07"
+      ],
+      "classification": "historical_fact",
+      "visuals": [
+        "met_544206",
+        "met_544206_detail"
+      ],
+      "text": "Now for a somewhat unexpected object: a relief showing King Amenemhat I. On either side of the king stand Horus and Anubis, offering him the ankh, the sign of life. The museum connects this scene to royal ritual. Anubis appears in more places than the weighing of the heart.",
+      "duration_seconds": 21.035291666666666,
+      "native_speed": 0.82,
+      "audio_file": "audio/en/N21.wav",
+      "cues": [
+        {
+          "id": "N21-01",
+          "text": "Now for a somewhat unexpected object: a relief showing King Amenemhat I.",
+          "spoken_text": "Now for a somewhat unexpected object: a relief showing King Amenemhat the First.",
+          "start": 476.2,
+          "end": 482.36333333333334,
+          "audio_file": "audio/en/sentences/N21_01_8c4299edaf14.wav",
+          "input_hash": "8c4299edaf14eb08f975e624dae0e7d8881e864e883f848bb26f06fb7d945eb8"
+        },
+        {
+          "id": "N21-02",
+          "text": "On either side of the king stand Horus and Anubis, offering him the ankh, the sign of life.",
+          "spoken_text": "On either side of the king stand Horus and Anubis, offering him the ankh, the sign of life.",
+          "start": 482.5833333333333,
+          "end": 489.3413333333333,
+          "audio_file": "audio/en/sentences/N21_02_f4a0622a3702.wav",
+          "input_hash": "f4a0622a37020896801968fac892e993fc6cb12fff32028ae29d600f50b0c5e1"
+        },
+        {
+          "id": "N21-03",
+          "text": "The museum connects this scene to royal ritual.",
+          "spoken_text": "The museum connects this scene to royal ritual.",
+          "start": 489.5613333333333,
+          "end": 492.792,
+          "audio_file": "audio/en/sentences/N21_03_17a38fef1907.wav",
+          "input_hash": "17a38fef19079c65b5658095aa4a6a7983149ff1c95e838e40f6246809ccbeab"
+        },
+        {
+          "id": "N21-04",
+          "text": "Anubis appears in more places than the weighing of the heart.",
+          "spoken_text": "Anubis appears in more places than the weighing of the heart.",
+          "start": 493.012,
+          "end": 497.2352916666666,
+          "audio_file": "audio/en/sentences/N21_04_732ede55004c.wav",
+          "input_hash": "732ede55004c2e61c68bd202158688d902e68d686cfabbbec0a645cd2b836e6d"
+        }
+      ],
+      "start": 476.2,
+      "end": 498.3
+    },
+    {
+      "id": "N22",
+      "chapter": "C06",
+      "heading": "A ritual of royal power",
+      "caption": "Middle Kingdom, c. 1981–1952 BCE",
+      "sources": [
+        "S07"
+      ],
+      "classification": "historical_fact",
+      "visuals": [
+        "met_544206_detail",
+        "timeline"
+      ],
+      "text": "Here the king demonstrates, through ritual, that even after a long reign he still has the power to rule. Anubis was connected to this place in his role as lord of the necropolis. The relief dates to around 1980 BCE. Set beside later statues, it shows how the same god was spoken of across a very long span of time.",
+      "duration_seconds": 24.471333333333334,
+      "native_speed": 0.82,
+      "audio_file": "audio/en/N22.wav",
+      "cues": [
+        {
+          "id": "N22-01",
+          "text": "Here the king demonstrates, through ritual, that even after a long reign he still has the power to rule.",
+          "spoken_text": "Here the king demonstrates, through ritual, that even after a long reign he still has the power to rule.",
+          "start": 498.3,
+          "end": 505.4646666666667,
+          "audio_file": "audio/en/sentences/N22_01_d80b0d1ea6e1.wav",
+          "input_hash": "d80b0d1ea6e1f4ece6488af10e9e110734abab6a008b01df59c18c240a14f36e"
+        },
+        {
+          "id": "N22-02",
+          "text": "Anubis was connected to this place in his role as lord of the necropolis.",
+          "spoken_text": "Anubis was connected to this place in his role as lord of the necropolis.",
+          "start": 505.68466666666666,
+          "end": 511.3786666666667,
+          "audio_file": "audio/en/sentences/N22_02_149c8d42a233.wav",
+          "input_hash": "149c8d42a233e0ce70393f7e9f78b764cf6aae9ee81aa306410f9e06923b7981"
+        },
+        {
+          "id": "N22-03",
+          "text": "The relief dates to around 1980 BCE.",
+          "spoken_text": "The relief dates to around nineteen eighty B C E.",
+          "start": 511.5986666666667,
+          "end": 515.1193333333333,
+          "audio_file": "audio/en/sentences/N22_03_e4ff5aff07e9.wav",
+          "input_hash": "e4ff5aff07e9224fec544d9abf7710dc1f5170e4bbb1e15442bee09a73fc63ff"
+        },
+        {
+          "id": "N22-04",
+          "text": "Set beside later statues, it shows how the same god was spoken of across a very long span of time.",
+          "spoken_text": "Set beside later statues, it shows how the same god was spoken of across a very long span of time.",
+          "start": 515.3393333333333,
+          "end": 522.7713333333334,
+          "audio_file": "audio/en/sentences/N22_04_d3bd61936632.wav",
+          "input_hash": "d3bd61936632e1b7a2e7a15c7b34c6e4a7e8f0b77607c8f5bfc03693e58117fe"
+        }
+      ],
+      "start": 498.3,
+      "end": 523.1333333333333
+    },
+    {
+      "id": "N23",
+      "chapter": "C06",
+      "heading": "A god depicted across the ages",
+      "caption": "Roman-period cartonnage fragment, 100–300 CE",
+      "sources": [
+        "S09"
+      ],
+      "classification": "historical_fact",
+      "visuals": [
+        "met_552247",
+        "timeline"
+      ],
+      "text": "Much later, Anubis also appears on a fragment of cartonnage from the Roman period. Osiris sits at the center, with Thoth and other gods nearby. Long after, the relationship between the dead and the gods was still being depicted. Still, we need not treat each object as a copy of exactly the same story.",
+      "duration_seconds": 22.606625,
+      "native_speed": 0.82,
+      "audio_file": "audio/en/N23.wav",
+      "cues": [
+        {
+          "id": "N23-01",
+          "text": "Much later, Anubis also appears on a fragment of cartonnage from the Roman period.",
+          "spoken_text": "Much later, Anubis also appears on a fragment of cartonnage from the Roman period.",
+          "start": 523.1333333333333,
+          "end": 529.1059583333333,
+          "audio_file": "audio/en/sentences/N23_01_1db2fb6ed306.wav",
+          "input_hash": "1db2fb6ed30691d5d0a15bbbff36ea0c6a3f87956757f022dafe14cd4376cf43"
+        },
+        {
+          "id": "N23-02",
+          "text": "Osiris sits at the center, with Thoth and other gods nearby.",
+          "spoken_text": "Osiris sits at the center, with Thoth and other gods nearby.",
+          "start": 529.3259583333333,
+          "end": 533.9859583333333,
+          "audio_file": "audio/en/sentences/N23_02_ce5658b2391b.wav",
+          "input_hash": "ce5658b2391bddfae04887fa84adba81775597a806e64f27c104094665321bc2"
+        },
+        {
+          "id": "N23-03",
+          "text": "Long after, the relationship between the dead and the gods was still being depicted.",
+          "spoken_text": "Long after, the relationship between the dead and the gods was still being depicted.",
+          "start": 534.2059583333333,
+          "end": 540.2199583333334,
+          "audio_file": "audio/en/sentences/N23_03_03020280c337.wav",
+          "input_hash": "03020280c337c36e4906c77515cecabf5c47a0f87b90609d7d3955c20f6ba879"
+        },
+        {
+          "id": "N23-04",
+          "text": "Still, we need not treat each object as a copy of exactly the same story.",
+          "spoken_text": "Still, we need not treat each object as a copy of exactly the same story.",
+          "start": 540.4399583333334,
+          "end": 545.7399583333333,
+          "audio_file": "audio/en/sentences/N23_04_08826be2a132.wav",
+          "input_hash": "08826be2a132b8b053ff8a54910acb8134538bfcd56d72f3ccc6bd6e0f0f2a23"
+        }
+      ],
+      "start": 523.1333333333333,
+      "end": 546.1
+    },
+    {
+      "id": "N24",
+      "chapter": "C06",
+      "heading": "The question mark after a name",
+      "caption": "Some identifications remain uncertain",
+      "sources": [
+        "S08"
+      ],
+      "classification": "scholarly_interpretation",
+      "visuals": [
+        "met_547871",
+        "evidence"
+      ],
+      "text": "For this small gold figure, the museum offers two readings: it may be Anubis, or it may be another god. The museum states clearly that its identity is uncertain. Leaving the unknown as unknown is part of telling history honestly. A sharp image does not make an explanation certain.",
+      "duration_seconds": 20.892583333333334,
+      "native_speed": 0.82,
+      "audio_file": "audio/en/N24.wav",
+      "cues": [
+        {
+          "id": "N24-01",
+          "text": "For this small gold figure, the museum offers two readings: it may be Anubis, or it may be another god.",
+          "spoken_text": "For this small gold figure, the museum offers two readings: it may be Anubis, or it may be another god.",
+          "start": 546.1,
+          "end": 553.6526666666667,
+          "audio_file": "audio/en/sentences/N24_01_38a7fb8df32e.wav",
+          "input_hash": "38a7fb8df32e48e96bc7253c5f706041c3e807c63305c98a840cb37188fdfce7"
+        },
+        {
+          "id": "N24-02",
+          "text": "The museum states clearly that its identity is uncertain.",
+          "spoken_text": "The museum states clearly that its identity is uncertain.",
+          "start": 553.8726666666666,
+          "end": 558.0093333333333,
+          "audio_file": "audio/en/sentences/N24_02_a4b75cdf5099.wav",
+          "input_hash": "a4b75cdf5099b9fce5d28fcf2b936484368de282b8b1a9d8e407c8fe0bcee1ae"
+        },
+        {
+          "id": "N24-03",
+          "text": "Leaving the unknown as unknown is part of telling history honestly.",
+          "spoken_text": "Leaving the unknown as unknown is part of telling history honestly.",
+          "start": 558.2293333333333,
+          "end": 563.1252916666667,
+          "audio_file": "audio/en/sentences/N24_03_3b40dc548f8f.wav",
+          "input_hash": "3b40dc548f8f878f82214a3b67892bb114373d946270af7f3aacb8387eb17b0a"
+        },
+        {
+          "id": "N24-04",
+          "text": "A sharp image does not make an explanation certain.",
+          "spoken_text": "A sharp image does not make an explanation certain.",
+          "start": 563.3452916666666,
+          "end": 566.9925833333334,
+          "audio_file": "audio/en/sentences/N24_04_c48644b5f126.wav",
+          "input_hash": "c48644b5f12696cb3c9a0bc2166ac92646622f6fc0a007f4ec73b44e38328df1"
+        }
+      ],
+      "start": 546.1,
+      "end": 567.4
+    },
+    {
+      "id": "N25",
+      "chapter": "C06",
+      "heading": "Small objects matter too",
+      "caption": "An Anubis figure 7.7 cm tall",
+      "sources": [
+        "S10"
+      ],
+      "classification": "historical_fact",
+      "visuals": [
+        "met_570223",
+        "archive"
+      ],
+      "text": "Beyond large paintings and statues, there is also a figure of Anubis only about 7.7 centimeters tall, made of bronze or copper alloy. Exploring museum collections shows that grand myths were also expressed in objects small enough to hold in your hand. Who used it, where, and how? Small objects open up new questions.",
+      "duration_seconds": 22.938583333333334,
+      "native_speed": 0.92992,
+      "audio_file": "audio/en/N25.wav",
+      "cues": [
+        {
+          "id": "N25-01",
+          "text": "Beyond large paintings and statues, there is also a figure of Anubis only about 7.7 centimeters tall, made of bronze or copper alloy.",
+          "spoken_text": "Beyond large paintings and statues, there is also a figure of Anubis only about seven point seven centimeters tall, made of bronze or copper alloy.",
+          "start": 567.4,
+          "end": 577.712,
+          "audio_file": "audio/en/sentences/N25_01_c7c3532af2a0.wav",
+          "input_hash": "c7c3532af2a04c34ddf7cc68b9bbb1074f9ec906a724667d6e2cad0164cac97c"
+        },
+        {
+          "id": "N25-02",
+          "text": "Exploring museum collections shows that grand myths were also expressed in objects small enough to hold in your hand.",
+          "spoken_text": "Exploring museum collections shows that grand myths were also expressed in objects small enough to hold in your hand.",
+          "start": 577.932,
+          "end": 585.5233333333333,
+          "audio_file": "audio/en/sentences/N25_02_6602a70a82dc.wav",
+          "input_hash": "6602a70a82dc5a0cac5d28a4e155433d506e1de364667a519ed62de4f33ce2fb"
+        },
+        {
+          "id": "N25-03",
+          "text": "Who used it, where, and how?",
+          "spoken_text": "Who used it, where, and how?",
+          "start": 585.7433333333333,
+          "end": 587.6019583333333,
+          "audio_file": "audio/en/sentences/N25_03_702ecdc81c96.wav",
+          "input_hash": "702ecdc81c96ffbc404f006b3276723093096475f82bc3a57ec839e65ba6dc22"
+        },
+        {
+          "id": "N25-04",
+          "text": "Small objects open up new questions.",
+          "spoken_text": "Small objects open up new questions.",
+          "start": 587.8219583333333,
+          "end": 590.3385833333333,
+          "audio_file": "audio/en/sentences/N25_04_1c9bd78a7fce.wav",
+          "input_hash": "1c9bd78a7fce79144d2f9646fefcb0cb72c03c5315eab7d86f147076191a5f47"
+        }
+      ],
+      "start": 567.4,
+      "end": 592.1666666666666
+    },
+    {
+      "id": "N27",
+      "chapter": "C07",
+      "heading": "Protect, weigh, and carry forward",
+      "caption": "Anubis's roles, once more",
+      "sources": [
+        "S01",
+        "S03",
+        "S04"
+      ],
+      "classification": "editorial_summary",
+      "visuals": [
+        "roles",
+        "hero"
+      ],
+      "text": "Anubis was shown watching over tombs, took part in the rites that prepared the body, and appears in the weighing of the heart. He is a god deeply bound to death, but his role cannot be summed up by fear alone. Protecting, and helping the dead pass their test: the sources let us read him as a god involved in both.",
+      "duration_seconds": 27.128625,
+      "native_speed": 0.724412,
+      "audio_file": "audio/en/N27.wav",
+      "cues": [
+        {
+          "id": "N27-01",
+          "text": "Anubis was shown watching over tombs, took part in the rites that prepared the body, and appears in the weighing of the heart.",
+          "spoken_text": "Anubis was shown watching over tombs, took part in the rites that prepared the body, and appears in the weighing of the heart.",
+          "start": 592.1666666666666,
+          "end": 602.4713333333333,
+          "audio_file": "audio/en/sentences/N27_01_53130b1ce614.wav",
+          "input_hash": "53130b1ce614c658d8a99db343f236249ce377710fd1e54b600b43db56847001"
+        },
+        {
+          "id": "N27-02",
+          "text": "He is a god deeply bound to death, but his role cannot be summed up by fear alone.",
+          "spoken_text": "He is a god deeply bound to death, but his role cannot be summed up by fear alone.",
+          "start": 602.6913333333333,
+          "end": 609.8712916666666,
+          "audio_file": "audio/en/sentences/N27_02_bdd80ad7a030.wav",
+          "input_hash": "bdd80ad7a0306f28fa74f3fbac4d1b99c136e04ec984ad2e237074d1eab02377"
+        },
+        {
+          "id": "N27-03",
+          "text": "Protecting, and helping the dead pass their test: the sources let us read him as a god involved in both.",
+          "spoken_text": "Protecting, and helping the dead pass their test: the sources let us read him as a god involved in both.",
+          "start": 610.0912916666666,
+          "end": 619.2952916666666,
+          "audio_file": "audio/en/sentences/N27_03_f79851732e20.wav",
+          "input_hash": "f79851732e20c88467219228cd640f051a7d5b6fc8ea00fe02798da7963fb761"
+        }
+      ],
+      "start": 592.1666666666666,
+      "end": 619.6666666666666
+    },
+    {
+      "id": "N28",
+      "chapter": "C07",
+      "heading": "What remains is a human wish",
+      "caption": "Keeping who you were, beyond death",
+      "sources": [
+        "S04",
+        "S05"
+      ],
+      "classification": "editorial_interpretation",
+      "visuals": [
+        "nile",
+        "archive"
+      ],
+      "text": "From the story of the heart preserved on papyrus, we can take away a question. If you could carry something beyond death, what part of you would say who you were? Behind the images of the gods, we can see people's wish to support the dead on their journey.",
+      "duration_seconds": 21.96725,
+      "native_speed": 0.649468,
+      "audio_file": "audio/en/N28.wav",
+      "cues": [
+        {
+          "id": "N28-01",
+          "text": "From the story of the heart preserved on papyrus, we can take away a question.",
+          "spoken_text": "From the story of the heart preserved on papyrus, we can take away a question.",
+          "start": 619.6666666666666,
+          "end": 626.7073333333333,
+          "audio_file": "audio/en/sentences/N28_01_eb16b630a088.wav",
+          "input_hash": "eb16b630a0888d0983792abb2eb2632dc4c32c41ec892774b3228c321e3b928b"
+        },
+        {
+          "id": "N28-02",
+          "text": "If you could carry something beyond death, what part of you would say who you were?",
+          "spoken_text": "If you could carry something beyond death, what part of you would say who you were?",
+          "start": 626.9273333333333,
+          "end": 633.3166249999999,
+          "audio_file": "audio/en/sentences/N28_02_4e4a8d1d59b1.wav",
+          "input_hash": "4e4a8d1d59b13e539539d7530dea5b9b7dd6023e3eb340d48b80284867fec63b"
+        },
+        {
+          "id": "N28-03",
+          "text": "Behind the images of the gods, we can see people's wish to support the dead on their journey.",
+          "spoken_text": "Behind the images of the gods, we can see people's wish to support the dead on their journey.",
+          "start": 633.536625,
+          "end": 641.6339166666667,
+          "audio_file": "audio/en/sentences/N28_03_55ef092fb7f7.wav",
+          "input_hash": "55ef092fb7f7628d2153fee89474d468e34a5a9385fae7e1b7c3650d08c6ed29"
+        }
+      ],
+      "start": 619.6666666666666,
+      "end": 642.0
+    },
+    {
+      "id": "N29",
+      "chapter": "C07",
+      "heading": "Sources and production",
+      "caption": "Full source list in the description",
+      "sources": [],
+      "classification": "production_disclosure",
+      "visuals": [
+        "credits"
+      ],
+      "text": "This video is based on public museum collections and their descriptions. The narration uses synthetic speech, and some images are AI-generated reconstructions. Titles, sources, and terms of use for all materials are listed in the description. Thank you for watching.",
+      "duration_seconds": 17.615291666666668,
+      "native_speed": 0.969108,
+      "audio_file": "audio/en/N29.wav",
+      "cues": [
+        {
+          "id": "N29-01",
+          "text": "This video is based on public museum collections and their descriptions.",
+          "spoken_text": "This video is based on public museum collections and their descriptions.",
+          "start": 642.0,
+          "end": 646.454,
+          "audio_file": "audio/en/sentences/N29_01_573a5ad9515b.wav",
+          "input_hash": "573a5ad9515b87ea2e8fade53fa5d9e2c0ac2e1814945c03f621749431a18c34"
+        },
+        {
+          "id": "N29-02",
+          "text": "The narration uses synthetic speech, and some images are AI-generated reconstructions.",
+          "spoken_text": "The narration uses synthetic speech, and some images are A I generated reconstructions.",
+          "start": 646.674,
+          "end": 652.546,
+          "audio_file": "audio/en/sentences/N29_02_62928ba5cc40.wav",
+          "input_hash": "62928ba5cc40d0d7a399ba4836477fefd63c9bb326572328bd4253466e50e8b2"
+        },
+        {
+          "id": "N29-03",
+          "text": "Titles, sources, and terms of use for all materials are listed in the description.",
+          "spoken_text": "Titles, sources, and terms of use for all materials are listed in the description.",
+          "start": 652.766,
+          "end": 657.8499583333333,
+          "audio_file": "audio/en/sentences/N29_03_e29f236836f2.wav",
+          "input_hash": "e29f236836f242108e2b8786c3097cfb6ca3e52237f4d0f1a9e6377011e0c9dc"
+        },
+        {
+          "id": "N29-04",
+          "text": "Thank you for watching.",
+          "spoken_text": "Thank you for watching.",
+          "start": 658.0699583333334,
+          "end": 659.6152916666666,
+          "audio_file": "audio/en/sentences/N29_04_c1a5f7a930ca.wav",
+          "input_hash": "c1a5f7a930ca7986c456670d6d09a08ad25ea1f0ad9857b18412aadcf783a593"
+        }
+      ],
+      "start": 642.0,
+      "end": 666.2
+    }
+  ],
+  "duration_seconds": 666.2
+}
