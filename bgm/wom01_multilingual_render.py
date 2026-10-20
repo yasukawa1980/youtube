@@ -10,12 +10,13 @@ import math
 import os
 import re
 import subprocess
-import textwrap
 from pathlib import Path
 
 import numpy as np
 import soundfile as sf
 from PIL import Image, ImageDraw
+
+from wom01_subtitles import sentence_cues, to_srt
 
 FPS, SR = 30, 24000
 
@@ -51,36 +52,6 @@ def measure(path):
 
 def rms(x):
     return 20*math.log10(max(float(np.sqrt(np.mean(x.astype(np.float64)**2))), 1e-10))
-
-
-def wrap_ja(t, n=22):
-    """Preserve Claude v02's punctuation/particle boundary logic."""
-    lines = []
-    while len(t) > n:
-        k = -(-len(t)//n)
-        target = round(len(t)/k)
-        def score(i):
-            if t[i-1] == "、":
-                return abs(i-target)
-            if t[i-1] in "はがをにでともへや" and not "ぁ" <= t[i] <= "ゖ":
-                return abs(i-target)+3
-            if t[i-1] == "の" and not "ぁ" <= t[i] <= "ゖ":
-                return abs(i-target)+6
-            return None
-        cands = [(score(i), i) for i in range(4, min(n, len(t)-2)+1) if score(i) is not None]
-        cut = min(cands)[1] if cands else n
-        if cut < len(t) and t[cut] in "、。！？）」』":
-            cut += 1
-        lines.append(t[:cut])
-        t = t[cut:]
-    if t:
-        lines.append(t)
-    return lines
-
-
-def stamp(t):
-    ms = round(t*1000)
-    return f"{ms//3600000:02}:{ms//60000%60:02}:{ms//1000%60:02},{ms%1000:03}"
 
 
 def build_timeline(root):
@@ -123,15 +94,7 @@ def build_timeline(root):
                     for c in seg["cues"]]
             segments.append({**seg, "start": common["start"], "end": common["end"], "cues": cues})
             for c in cues:
-                rows = (textwrap.wrap(c["text"], 42, break_long_words=False, break_on_hyphens=False)
-                        if lang == "en" else wrap_ja(c["text"]))
-                chunks = ["\n".join(rows[k:k+2]) for k in range(0, len(rows), 2)]
-                weights = [len(x.replace("\n", "")) for x in chunks]
-                weights_sum, start = sum(weights), c["start"]
-                for k, (chunk, weight) in enumerate(zip(chunks, weights)):
-                    end = c["end"] if k == len(chunks)-1 else start+(c["end"]-c["start"])*weight/weights_sum
-                    all_cues.append({"sentence_id": c["id"], "text": chunk, "start": start, "end": end})
-                    start = end
+                all_cues.extend(sentence_cues(c, lang))
         sf.write(root / f"audio/{lang}/narration.wav", track, SR, subtype="PCM_16")
         save(root / f"records/narration_timeline_{lang}.json", {
             **narr[lang], "segments": segments, "duration_seconds": pos,
@@ -142,9 +105,7 @@ def build_timeline(root):
             assert 0 <= prev <= c["start"] < c["end"] <= pos
             prev = c["end"]
             assert len(c["text"].splitlines()) <= 2
-        srt = "\n\n".join(f'{i}\n{stamp(c["start"])} --> {stamp(c["end"])}\n{c["text"]}'
-                          for i, c in enumerate(all_cues, 1))+"\n"
-        (root / f"deliverables/EP001_字幕_{lang}.srt").write_text(srt)
+        (root / f"deliverables/EP001_字幕_{lang}.srt").write_text(to_srt(all_cues))
         save(root / f"records/subtitle_cues_{lang}.json", {
             "timing": "measured sentence boundaries; within-sentence page changes proportional to text length",
             "count": len(all_cues), "cues": all_cues,
