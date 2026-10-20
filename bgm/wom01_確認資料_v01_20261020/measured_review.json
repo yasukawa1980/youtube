@@ -1,0 +1,686 @@
+{
+  "reviewed_version": "v01_ja_2026-10-15",
+  "source_name": "EP001_アヌビス_完成試作_v01.mp4",
+  "source_sha256": "1a2e0aad8e8db03a81150eb8398c51246e67cbaef5084e78565d783de3fd4fb7",
+  "timeline_sha256": "f26010e903057e445dc885bfa9781178e647ad2ace86d0728029dfa299eb91a5",
+  "duration_seconds": 617.233333,
+  "decoded_sample_rate": 48000,
+  "decoded_channels": 2,
+  "decoded_duration_seconds": 617.1733333333333,
+  "decoded_samples_at_or_above_full_scale": 0,
+  "quiet_definition": "mixed audio RMS below -45 dBFS in 20 ms windows, at least 0.5 s",
+  "quiet_intervals": [
+    {
+      "start": 6.26,
+      "end": 6.76
+    },
+    {
+      "start": 11.08,
+      "end": 11.58
+    },
+    {
+      "start": 19.48,
+      "end": 20.8
+    },
+    {
+      "start": 40.56,
+      "end": 41.38
+    },
+    {
+      "start": 48.48,
+      "end": 48.98
+    },
+    {
+      "start": 62.02,
+      "end": 62.84
+    },
+    {
+      "start": 82.76,
+      "end": 84.02
+    },
+    {
+      "start": 92.62,
+      "end": 93.12
+    },
+    {
+      "start": 106.08,
+      "end": 106.92
+    },
+    {
+      "start": 147.46,
+      "end": 148.28
+    },
+    {
+      "start": 180.18,
+      "end": 180.68
+    },
+    {
+      "start": 186.22,
+      "end": 187.02
+    },
+    {
+      "start": 207.16,
+      "end": 207.98
+    },
+    {
+      "start": 218.02,
+      "end": 218.54
+    },
+    {
+      "start": 229.42,
+      "end": 230.28
+    },
+    {
+      "start": 248.82,
+      "end": 250.06
+    },
+    {
+      "start": 271.0,
+      "end": 271.84
+    },
+    {
+      "start": 285.44,
+      "end": 285.94
+    },
+    {
+      "start": 292.26,
+      "end": 293.1
+    },
+    {
+      "start": 313.12,
+      "end": 313.94
+    },
+    {
+      "start": 316.6,
+      "end": 317.1
+    },
+    {
+      "start": 326.52,
+      "end": 327.04
+    },
+    {
+      "start": 332.44,
+      "end": 333.26
+    },
+    {
+      "start": 353.72,
+      "end": 355.0
+    },
+    {
+      "start": 360.46,
+      "end": 360.98
+    },
+    {
+      "start": 374.22,
+      "end": 375.04
+    },
+    {
+      "start": 381.98,
+      "end": 382.48
+    },
+    {
+      "start": 390.98,
+      "end": 391.48
+    },
+    {
+      "start": 395.78,
+      "end": 396.58
+    },
+    {
+      "start": 416.4,
+      "end": 417.24
+    },
+    {
+      "start": 429.78,
+      "end": 430.28
+    },
+    {
+      "start": 438.66,
+      "end": 439.92
+    },
+    {
+      "start": 461.16,
+      "end": 462.0
+    },
+    {
+      "start": 483.8,
+      "end": 484.64
+    },
+    {
+      "start": 512.52,
+      "end": 513.02
+    },
+    {
+      "start": 526.46,
+      "end": 527.3
+    },
+    {
+      "start": 548.14,
+      "end": 548.64
+    },
+    {
+      "start": 556.38,
+      "end": 556.9
+    },
+    {
+      "start": 569.4,
+      "end": 570.66
+    },
+    {
+      "start": 586.4,
+      "end": 586.9
+    },
+    {
+      "start": 591.82,
+      "end": 592.64
+    },
+    {
+      "start": 608.52,
+      "end": 609.02
+    },
+    {
+      "start": 611.52,
+      "end": 617.16
+    }
+  ],
+  "segments": [
+    {
+      "id": "N01",
+      "start": 0.0,
+      "end": 20.661333333333335,
+      "rms_dbfs": -19.36,
+      "sample_peak_dbfs": -2.17,
+      "frames": [
+        {
+          "time_seconds": 5.165,
+          "path": "frames/N01_a_005.165s.jpg"
+        },
+        {
+          "time_seconds": 15.496,
+          "path": "frames/N01_b_015.496s.jpg"
+        }
+      ]
+    },
+    {
+      "id": "N02",
+      "start": 20.661333333333335,
+      "end": 41.288666666666664,
+      "rms_dbfs": -19.68,
+      "sample_peak_dbfs": -2.08,
+      "frames": [
+        {
+          "time_seconds": 25.818,
+          "path": "frames/N02_a_025.818s.jpg"
+        },
+        {
+          "time_seconds": 36.132,
+          "path": "frames/N02_b_036.132s.jpg"
+        }
+      ]
+    },
+    {
+      "id": "N03",
+      "start": 41.288666666666664,
+      "end": 62.748,
+      "rms_dbfs": -18.49,
+      "sample_peak_dbfs": -2.0,
+      "frames": [
+        {
+          "time_seconds": 46.653,
+          "path": "frames/N03_a_046.653s.jpg"
+        },
+        {
+          "time_seconds": 57.383,
+          "path": "frames/N03_b_057.383s.jpg"
+        }
+      ]
+    },
+    {
+      "id": "N04",
+      "start": 62.748,
+      "end": 83.95333333333333,
+      "rms_dbfs": -19.18,
+      "sample_peak_dbfs": -1.9,
+      "frames": [
+        {
+          "time_seconds": 68.049,
+          "path": "frames/N04_a_068.049s.jpg"
+        },
+        {
+          "time_seconds": 78.652,
+          "path": "frames/N04_b_078.652s.jpg"
+        }
+      ]
+    },
+    {
+      "id": "N05",
+      "start": 83.95333333333333,
+      "end": 106.79933333333334,
+      "rms_dbfs": -19.21,
+      "sample_peak_dbfs": -2.02,
+      "frames": [
+        {
+          "time_seconds": 89.665,
+          "path": "frames/N05_a_089.665s.jpg"
+        },
+        {
+          "time_seconds": 101.088,
+          "path": "frames/N05_b_101.088s.jpg"
+        }
+      ]
+    },
+    {
+      "id": "N06",
+      "start": 106.79933333333334,
+      "end": 127.56533333333333,
+      "rms_dbfs": -18.78,
+      "sample_peak_dbfs": -2.01,
+      "frames": [
+        {
+          "time_seconds": 111.991,
+          "path": "frames/N06_a_111.991s.jpg"
+        },
+        {
+          "time_seconds": 122.374,
+          "path": "frames/N06_b_122.374s.jpg"
+        }
+      ]
+    },
+    {
+      "id": "N07",
+      "start": 127.56533333333333,
+      "end": 148.19266666666667,
+      "rms_dbfs": -18.81,
+      "sample_peak_dbfs": -1.93,
+      "frames": [
+        {
+          "time_seconds": 132.722,
+          "path": "frames/N07_a_132.722s.jpg"
+        },
+        {
+          "time_seconds": 143.036,
+          "path": "frames/N07_b_143.036s.jpg"
+        }
+      ]
+    },
+    {
+      "id": "N08",
+      "start": 148.19266666666667,
+      "end": 168.81133333333332,
+      "rms_dbfs": -19.03,
+      "sample_peak_dbfs": -1.96,
+      "frames": [
+        {
+          "time_seconds": 153.347,
+          "path": "frames/N08_a_153.347s.jpg"
+        },
+        {
+          "time_seconds": 163.657,
+          "path": "frames/N08_b_163.657s.jpg"
+        }
+      ]
+    },
+    {
+      "id": "N09",
+      "start": 168.81133333333332,
+      "end": 186.92133333333334,
+      "rms_dbfs": -18.91,
+      "sample_peak_dbfs": -2.05,
+      "frames": [
+        {
+          "time_seconds": 173.339,
+          "path": "frames/N09_a_173.339s.jpg"
+        },
+        {
+          "time_seconds": 182.394,
+          "path": "frames/N09_b_182.394s.jpg"
+        }
+      ]
+    },
+    {
+      "id": "N10",
+      "start": 186.92133333333334,
+      "end": 207.84733333333332,
+      "rms_dbfs": -18.59,
+      "sample_peak_dbfs": -1.88,
+      "frames": [
+        {
+          "time_seconds": 192.153,
+          "path": "frames/N10_a_192.153s.jpg"
+        },
+        {
+          "time_seconds": 202.616,
+          "path": "frames/N10_b_202.616s.jpg"
+        }
+      ]
+    },
+    {
+      "id": "N11",
+      "start": 207.84733333333332,
+      "end": 230.14933333333335,
+      "rms_dbfs": -18.56,
+      "sample_peak_dbfs": -1.88,
+      "frames": [
+        {
+          "time_seconds": 213.423,
+          "path": "frames/N11_a_213.423s.jpg"
+        },
+        {
+          "time_seconds": 224.574,
+          "path": "frames/N11_b_224.574s.jpg"
+        }
+      ]
+    },
+    {
+      "id": "N12",
+      "start": 230.14933333333335,
+      "end": 249.97866666666667,
+      "rms_dbfs": -19.03,
+      "sample_peak_dbfs": -2.08,
+      "frames": [
+        {
+          "time_seconds": 235.107,
+          "path": "frames/N12_a_235.107s.jpg"
+        },
+        {
+          "time_seconds": 245.021,
+          "path": "frames/N12_b_245.021s.jpg"
+        }
+      ]
+    },
+    {
+      "id": "N13",
+      "start": 249.97866666666667,
+      "end": 271.74733333333336,
+      "rms_dbfs": -18.17,
+      "sample_peak_dbfs": -2.04,
+      "frames": [
+        {
+          "time_seconds": 255.421,
+          "path": "frames/N13_a_255.421s.jpg"
+        },
+        {
+          "time_seconds": 266.305,
+          "path": "frames/N13_b_266.305s.jpg"
+        }
+      ]
+    },
+    {
+      "id": "N14",
+      "start": 271.74733333333336,
+      "end": 292.99333333333334,
+      "rms_dbfs": -18.79,
+      "sample_peak_dbfs": -1.98,
+      "frames": [
+        {
+          "time_seconds": 277.059,
+          "path": "frames/N14_a_277.059s.jpg"
+        },
+        {
+          "time_seconds": 287.682,
+          "path": "frames/N14_b_287.682s.jpg"
+        }
+      ]
+    },
+    {
+      "id": "N15",
+      "start": 292.99333333333334,
+      "end": 313.8553333333333,
+      "rms_dbfs": -18.81,
+      "sample_peak_dbfs": -1.85,
+      "frames": [
+        {
+          "time_seconds": 298.209,
+          "path": "frames/N15_a_298.209s.jpg"
+        },
+        {
+          "time_seconds": 308.64,
+          "path": "frames/N15_b_308.640s.jpg"
+        }
+      ]
+    },
+    {
+      "id": "N16",
+      "start": 313.8553333333333,
+      "end": 333.17066666666665,
+      "rms_dbfs": -18.39,
+      "sample_peak_dbfs": -1.9,
+      "frames": [
+        {
+          "time_seconds": 318.684,
+          "path": "frames/N16_a_318.684s.jpg"
+        },
+        {
+          "time_seconds": 328.342,
+          "path": "frames/N16_b_328.342s.jpg"
+        }
+      ]
+    },
+    {
+      "id": "N17",
+      "start": 333.17066666666665,
+      "end": 354.89866666666666,
+      "rms_dbfs": -19.1,
+      "sample_peak_dbfs": -1.89,
+      "frames": [
+        {
+          "time_seconds": 338.603,
+          "path": "frames/N17_a_338.603s.jpg"
+        },
+        {
+          "time_seconds": 349.467,
+          "path": "frames/N17_b_349.467s.jpg"
+        }
+      ]
+    },
+    {
+      "id": "N18",
+      "start": 354.89866666666666,
+      "end": 374.9286666666667,
+      "rms_dbfs": -18.32,
+      "sample_peak_dbfs": -1.97,
+      "frames": [
+        {
+          "time_seconds": 359.906,
+          "path": "frames/N18_a_359.906s.jpg"
+        },
+        {
+          "time_seconds": 369.921,
+          "path": "frames/N18_b_369.921s.jpg"
+        }
+      ]
+    },
+    {
+      "id": "N19",
+      "start": 374.9286666666667,
+      "end": 396.47333333333336,
+      "rms_dbfs": -18.9,
+      "sample_peak_dbfs": -1.93,
+      "frames": [
+        {
+          "time_seconds": 380.315,
+          "path": "frames/N19_a_380.315s.jpg"
+        },
+        {
+          "time_seconds": 391.087,
+          "path": "frames/N19_b_391.087s.jpg"
+        }
+      ]
+    },
+    {
+      "id": "N20",
+      "start": 396.47333333333336,
+      "end": 417.1326666666667,
+      "rms_dbfs": -18.93,
+      "sample_peak_dbfs": -1.84,
+      "frames": [
+        {
+          "time_seconds": 401.638,
+          "path": "frames/N20_a_401.638s.jpg"
+        },
+        {
+          "time_seconds": 411.968,
+          "path": "frames/N20_b_411.968s.jpg"
+        }
+      ]
+    },
+    {
+      "id": "N21",
+      "start": 417.1326666666667,
+      "end": 439.83133333333336,
+      "rms_dbfs": -18.83,
+      "sample_peak_dbfs": -2.0,
+      "frames": [
+        {
+          "time_seconds": 422.807,
+          "path": "frames/N21_a_422.807s.jpg"
+        },
+        {
+          "time_seconds": 434.157,
+          "path": "frames/N21_b_434.157s.jpg"
+        }
+      ]
+    },
+    {
+      "id": "N22",
+      "start": 439.83133333333336,
+      "end": 461.888,
+      "rms_dbfs": -18.9,
+      "sample_peak_dbfs": -2.0,
+      "frames": [
+        {
+          "time_seconds": 445.346,
+          "path": "frames/N22_a_445.346s.jpg"
+        },
+        {
+          "time_seconds": 456.374,
+          "path": "frames/N22_b_456.374s.jpg"
+        }
+      ]
+    },
+    {
+      "id": "N23",
+      "start": 461.888,
+      "end": 484.51,
+      "rms_dbfs": -18.73,
+      "sample_peak_dbfs": -1.93,
+      "frames": [
+        {
+          "time_seconds": 467.543,
+          "path": "frames/N23_a_467.543s.jpg"
+        },
+        {
+          "time_seconds": 478.854,
+          "path": "frames/N23_b_478.854s.jpg"
+        }
+      ]
+    },
+    {
+      "id": "N24",
+      "start": 484.51,
+      "end": 505.95866666666666,
+      "rms_dbfs": -19.2,
+      "sample_peak_dbfs": -1.86,
+      "frames": [
+        {
+          "time_seconds": 489.872,
+          "path": "frames/N24_a_489.872s.jpg"
+        },
+        {
+          "time_seconds": 500.596,
+          "path": "frames/N24_b_500.596s.jpg"
+        }
+      ]
+    },
+    {
+      "id": "N25",
+      "start": 505.95866666666666,
+      "end": 527.194,
+      "rms_dbfs": -18.68,
+      "sample_peak_dbfs": -2.02,
+      "frames": [
+        {
+          "time_seconds": 511.267,
+          "path": "frames/N25_a_511.267s.jpg"
+        },
+        {
+          "time_seconds": 521.885,
+          "path": "frames/N25_b_521.885s.jpg"
+        }
+      ]
+    },
+    {
+      "id": "N26",
+      "start": 527.194,
+      "end": 548.5466666666666,
+      "rms_dbfs": -18.49,
+      "sample_peak_dbfs": -2.0,
+      "frames": [
+        {
+          "time_seconds": 532.532,
+          "path": "frames/N26_a_532.532s.jpg"
+        },
+        {
+          "time_seconds": 543.208,
+          "path": "frames/N26_b_543.208s.jpg"
+        }
+      ]
+    },
+    {
+      "id": "N27",
+      "start": 548.5466666666666,
+      "end": 570.5626666666667,
+      "rms_dbfs": -19.19,
+      "sample_peak_dbfs": -2.0,
+      "frames": [
+        {
+          "time_seconds": 554.051,
+          "path": "frames/N27_a_554.051s.jpg"
+        },
+        {
+          "time_seconds": 565.059,
+          "path": "frames/N27_b_565.059s.jpg"
+        }
+      ]
+    },
+    {
+      "id": "N28",
+      "start": 570.5626666666667,
+      "end": 592.5553333333334,
+      "rms_dbfs": -19.06,
+      "sample_peak_dbfs": -1.92,
+      "frames": [
+        {
+          "time_seconds": 576.061,
+          "path": "frames/N28_a_576.061s.jpg"
+        },
+        {
+          "time_seconds": 587.057,
+          "path": "frames/N28_b_587.057s.jpg"
+        }
+      ]
+    },
+    {
+      "id": "N29",
+      "start": 592.5553333333334,
+      "end": 612.2333333333333,
+      "rms_dbfs": -18.38,
+      "sample_peak_dbfs": -1.8,
+      "frames": [
+        {
+          "time_seconds": 597.475,
+          "path": "frames/N29_a_597.475s.jpg"
+        },
+        {
+          "time_seconds": 607.314,
+          "path": "frames/N29_b_607.314s.jpg"
+        }
+      ]
+    }
+  ],
+  "sentence_count": 120,
+  "frame_count": 58,
+  "human_listening": "not_performed",
+  "asr": "not_performed",
+  "claude_media_access": "not_verified"
+}

@@ -1,0 +1,38 @@
+{
+  "date": "2026-10-20",
+  "release_tag": "wom01-v01-review-20261020",
+  "draft": true,
+  "release_url": "https://github.com/yasukawa1980/youtube/releases/tag/untagged-d1912ad47b73bf1cfacb",
+  "authenticated_download_from_this_mac": "pass",
+  "claude_connection_download": "not_verified",
+  "media_checks": [
+    {
+      "location": "github_download",
+      "name": "wom01_v01_ja_review_720p.mp4",
+      "sha256_match": true,
+      "bytes": 28569939
+    },
+    {
+      "location": "mac_copy",
+      "name": "wom01_v01_ja_review_720p.mp4",
+      "sha256_match": true,
+      "bytes": 28569939
+    },
+    {
+      "location": "github_download",
+      "name": "wom01_v01_ja_original_audio.m4a",
+      "sha256_match": true,
+      "bytes": 14972375
+    },
+    {
+      "location": "mac_copy",
+      "name": "wom01_v01_ja_original_audio.m4a",
+      "sha256_match": true,
+      "bytes": 14972375
+    }
+  ],
+  "jpg_count": 59,
+  "jpg_max_bytes": 169866,
+  "jpg_size_check": "all <=1280 pixels and <1 MB",
+  "human_listening": "not_performed"
+}
