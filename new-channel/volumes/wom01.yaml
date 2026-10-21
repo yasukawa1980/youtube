@@ -9,7 +9,7 @@ channel_name_check: new-channel/wom01_チャンネル名決定_20261021.md
 previous_provisional_name: Worlds of Mystery   # v04までの画面・サムネに残る旧仮称
 title: 'Anubis: Judge of the Dead, or Protector?'
 title_ja: アヌビス — 死者を裁く神か、守る神か
-status: bilingual_v09_integrated_ready_awaiting_owner_final_review
+status: private_uploaded_waiting_phone_verification
 language: en
 language_status: owner_decided_2026-10-20
 audio_languages: [en, ja]   # 映像1本＋言語別の音声トラック。追加言語は2〜3本の実測後に検討（第1候補 es）
@@ -20,7 +20,7 @@ script_ja: new-channel/episodes/EP001_Anubis/records/content.json
 voice_en: Kokoro / Heart (af_heart)   # 本人がBを正式採用
 voice_ja: VOICEVOX:冥鳴ひまり
 duration_seconds: 702.0   # v09 英語・日本語の共通実尺
-publication_authorized: false
+publication_authorized: true   # 本人が2026-10-22 09:00 JST予約投稿を明示承認
 new_channel_creation_authorized: true   # 2026-10-21 本人承認・開設済み
 additional_spend_authorized: false
 repo_episode_dir: new-channel/episodes/EP001_Anubis
@@ -244,3 +244,11 @@ full_revision_v09:
   release_draft: true
   publication_authorized: false
   ssd_synced: false
+
+youtube_upload:
+  video_id: AanbRJfeGxo
+  visibility: private
+  scheduled: false
+  requested_publication_jst: "2026-10-22T09:00:00+09:00"
+  blocker: custom_thumbnail_requires_phone_verification
+  result: new-channel/wom01_投稿結果_EP001_20261021.md
