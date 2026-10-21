@@ -1,0 +1,603 @@
+{
+  "episode_id": "EP001",
+  "language": "ja",
+  "language_status": "prototype_assumption_authorized_by_entrusted_production",
+  "title": "アヌビス — 死者を裁く神か、守る神か",
+  "subtitle": "古代エジプトの信仰を、残された資料から読み解く",
+  "created_at_jst": "2026-10-15",
+  "publication_authorized": false,
+  "new_channel_creation_authorized": false,
+  "max_additional_spend_jpy": 0,
+  "voice_credit": "VOICEVOX:雀松朱司",
+  "voice_style_id": 52,
+  "chapters": [
+    {
+      "id": "C01",
+      "title": "死者の心臓を量る神"
+    },
+    {
+      "id": "C02",
+      "title": "犬科の姿に込められた役割"
+    },
+    {
+      "id": "C03",
+      "title": "身体を守り、旅を支える"
+    },
+    {
+      "id": "C04",
+      "title": "死者の書と心臓の秤量"
+    },
+    {
+      "id": "C05",
+      "title": "アヌビス・トト・オシリス"
+    },
+    {
+      "id": "C06",
+      "title": "資料が語ること、語らないこと"
+    },
+    {
+      "id": "C07",
+      "title": "死の先へ続く願い"
+    }
+  ],
+  "sources": [
+    {
+      "id": "S01",
+      "title": "Statue of Anubis as a recumbent canid",
+      "institution": "The Metropolitan Museum of Art",
+      "url": "https://www.metmuseum.org/art/collection/search/544075",
+      "locator": "Description, artwork details, museum audio transcript",
+      "object_id": 544075,
+      "checked_at_jst": "2026-10-15",
+      "kind": "museum_catalog_and_curatorial_interpretation"
+    },
+    {
+      "id": "S02",
+      "title": "Statuette of a canid-headed god, probably Anubis",
+      "institution": "The Metropolitan Museum of Art",
+      "url": "https://www.metmuseum.org/art/collection/search/590939",
+      "locator": "Description and artwork details; identification marked probable",
+      "object_id": 590939,
+      "checked_at_jst": "2026-10-15",
+      "kind": "museum_catalog"
+    },
+    {
+      "id": "S03",
+      "title": "Nedjemankh's Gilded Coffin Exhibition Gallery",
+      "institution": "The Metropolitan Museum of Art",
+      "url": "https://www.metmuseum.org/exhibitions/listings/2018/nedjemankh-gilded-coffin/exhibition-gallery",
+      "locator": "Nedjemankh Becomes a Mummy; burial rites and embalming scene",
+      "checked_at_jst": "2026-10-15",
+      "kind": "curatorial_explanation",
+      "image_reuse": false
+    },
+    {
+      "id": "S04",
+      "title": "Book of the Dead for the Chantress of Amun, Nauny",
+      "institution": "The Metropolitan Museum of Art",
+      "url": "https://www.metmuseum.org/art/collection/search/548344",
+      "locator": "Description; Spell 125 scene; date; museum audio transcript",
+      "object_id": 548344,
+      "checked_at_jst": "2026-10-15",
+      "kind": "ancient_artifact_and_curatorial_explanation"
+    },
+    {
+      "id": "S05",
+      "title": "Part of a funerary papyrus showing the judgment before Osiris",
+      "institution": "The Metropolitan Museum of Art",
+      "url": "https://www.metmuseum.org/art/collection/search/557657",
+      "locator": "Description of heart, Maat, Thoth, Anubis and Ammut; artwork details",
+      "object_id": 557657,
+      "checked_at_jst": "2026-10-15",
+      "kind": "ancient_artifact_and_curatorial_explanation"
+    },
+    {
+      "id": "S06",
+      "title": "Anubis Weighing the Heart, Tomb of Nakhtamun",
+      "institution": "The Metropolitan Museum of Art",
+      "url": "https://www.metmuseum.org/art/collection/search/557830",
+      "locator": "Artist, medium, facsimile dimensions, original location and credit line",
+      "object_id": 557830,
+      "checked_at_jst": "2026-10-15",
+      "kind": "modern_facsimile_of_ancient_wall_painting"
+    },
+    {
+      "id": "S07",
+      "title": "Lintel depicting King Amenemhat I flanked by Nekhbet, Horus, Anubis, and Wadjet",
+      "institution": "The Metropolitan Museum of Art",
+      "url": "https://www.metmuseum.org/art/collection/search/544206",
+      "locator": "Description of royal ritual and ankh; object date and museum audio transcript",
+      "object_id": 544206,
+      "checked_at_jst": "2026-10-15",
+      "kind": "ancient_relief_and_curatorial_explanation"
+    },
+    {
+      "id": "S08",
+      "title": "Anubis as Defender of Osiris / Dionysus (?)",
+      "institution": "The Metropolitan Museum of Art",
+      "url": "https://www.metmuseum.org/art/collection/search/547871",
+      "locator": "Description explicitly leaves identity uncertain; Roman-period date",
+      "object_id": 547871,
+      "checked_at_jst": "2026-10-15",
+      "kind": "museum_catalog_with_uncertain_identification"
+    },
+    {
+      "id": "S09",
+      "title": "Cartonnage fragment",
+      "institution": "The Metropolitan Museum of Art",
+      "url": "https://www.metmuseum.org/art/collection/search/552247",
+      "locator": "Description and Roman-period date; placement of gods",
+      "object_id": 552247,
+      "checked_at_jst": "2026-10-15",
+      "kind": "ancient_artifact_and_curatorial_explanation"
+    },
+    {
+      "id": "S10",
+      "title": "Anubis",
+      "institution": "The Metropolitan Museum of Art",
+      "url": "https://www.metmuseum.org/art/collection/search/570223",
+      "locator": "Object title, bronze/cupreous alloy, 7.7 cm height, date and credit line",
+      "object_id": 570223,
+      "checked_at_jst": "2026-10-15",
+      "kind": "museum_catalog"
+    },
+    {
+      "id": "S11",
+      "title": "Anubis Fetish (Imiut)",
+      "institution": "The Metropolitan Museum of Art",
+      "url": "https://www.metmuseum.org/art/collection/search/545547",
+      "locator": "Description of shrine, protective placement and funerary rites",
+      "object_id": 545547,
+      "checked_at_jst": "2026-10-15",
+      "kind": "ancient_artifact_and_curatorial_explanation"
+    },
+    {
+      "id": "S12",
+      "title": "The Metropolitan Museum of Art Returns Coffin to Egypt",
+      "institution": "The Metropolitan Museum of Art",
+      "url": "https://www.metmuseum.org/press-releases/metropolitan-museum-of-art-returns-coffin-to-egypt-2019-news",
+      "locator": "Press release, February 2019: coffin of Nedjemankh returned to Egypt after it was found to have been looted in 2011",
+      "checked_at_jst": "2026-10-20",
+      "kind": "museum_press_release",
+      "image_reuse": false
+    }
+  ],
+  "segments": [
+    {
+      "id": "N01",
+      "chapter": "C01",
+      "heading": "天秤のそばに立つ神",
+      "caption": "よく知られた、裁きの場面",
+      "sources": [
+        "S04",
+        "S05"
+      ],
+      "classification": "myth_variant",
+      "visuals": [
+        "hero",
+        "balance"
+      ],
+      "text": "一つの心臓が、天秤に置かれる。向かい側にあるのは、正しいあり方を表すもの。秤のそばに立つのは、犬のような頭を持つ神、アヌビス。死者を裁く恐ろしい神として、よく知られた姿です。けれど、残された資料をよく見ると、アヌビスは一人で裁いているわけではありません。"
+    },
+    {
+      "id": "N02",
+      "chapter": "C01",
+      "heading": "では、何をしている神なのか",
+      "caption": "問い：アヌビスは何をしているのか",
+      "sources": [
+        "S01",
+        "S04"
+      ],
+      "classification": "editorial_question",
+      "visuals": [
+        "met_548344_detail",
+        "met_544075"
+      ],
+      "text": "では、アヌビスは何をしている神なのでしょう。墓を見張り、亡くなった人の身体を守り、死者の旅を支える。そして、心臓を量る秤を確かめる。今回は、メトロポリタン美術館に残る彫像やパピルスを手がかりに、資料の中のアヌビスの仕事を、一つずつ見ていきます。"
+    },
+    {
+      "id": "N03",
+      "chapter": "C01",
+      "heading": "資料と再現を見分ける",
+      "caption": "史料画像と再現イメージを区別します",
+      "sources": [
+        "S01",
+        "S04",
+        "S06"
+      ],
+      "classification": "production_method",
+      "visuals": [
+        "evidence",
+        "met_557830"
+      ],
+      "text": "画面には、博物館に残る資料の写真と、理解を助けるための再現イメージが登場します。再現イメージには、画面の右上に表示を付けています。それでは、一つめの資料から見ていきましょう。"
+    },
+    {
+      "id": "N04",
+      "chapter": "C02",
+      "heading": "警戒する犬科の姿",
+      "caption": "横たわっていても、耳は立っている",
+      "sources": [
+        "S01"
+      ],
+      "classification": "historical_fact",
+      "visuals": [
+        "met_544075",
+        "met_544075_detail"
+      ],
+      "text": "まず、横たわる犬科の動物の像を見てください。前足を伸ばし、耳を立てた姿は、眠っているというより、周囲を見張っているようです。メトロポリタン美術館にあるこの像は石灰岩で作られ、もとは黒く塗られていました。神は、人の姿だけで表されたわけではなかったのです。"
+    },
+    {
+      "id": "N05",
+      "chapter": "C02",
+      "heading": "墓地と動物の関わり",
+      "caption": "起源についての解釈は、断定しない",
+      "sources": [
+        "S01"
+      ],
+      "classification": "scholarly_interpretation",
+      "visuals": [
+        "nile",
+        "met_544075"
+      ],
+      "text": "美術館の解説は、墓地と犬科の動物の関わりに注目します。墓地に現れる動物は、遺体を荒らす存在でもありました。その一方で、警戒する姿は、死者を見守る力として捉えられたのでしょう。これは姿の背景を考える解釈です。アヌビスの起源を、ただ一つの理由で証明したものではありません。"
+    },
+    {
+      "id": "N06",
+      "chapter": "C02",
+      "heading": "人の身体と、動物の頭",
+      "caption": "複数の姿で表された神",
+      "sources": [
+        "S02"
+      ],
+      "classification": "historical_fact",
+      "visuals": [
+        "met_590939",
+        "met_590939_detail"
+      ],
+      "text": "別の小像では、動物の頭に人の身体が組み合わされています。細かな衣装の模様まで残る、木製の像です。美術館は、これをおそらくアヌビスと説明しています。犬科の頭を持つ神は複数いたためです。よく似た姿を見つけても、名前まで確実に分かるとは限りません。"
+    },
+    {
+      "id": "N07",
+      "chapter": "C02",
+      "heading": "像の年代も、手がかりになる",
+      "caption": "古代エジプトを、一枚の時代にしない",
+      "sources": [
+        "S01",
+        "S02",
+        "S07"
+      ],
+      "classification": "historical_fact",
+      "visuals": [
+        "timeline",
+        "met_544206"
+      ],
+      "text": "ここで大切なのが、年代です。今見た像と、のちほど見る王の浮き彫りは、同じ時代の作品ではありません。古代エジプトという名前の中には、長い時間が含まれています。姿や役割を理解するときには、何が描かれたかだけでなく、いつの資料なのかも確かめる必要があります。"
+    },
+    {
+      "id": "N08",
+      "chapter": "C03",
+      "heading": "死後の旅を支える準備",
+      "caption": "身体を保存することの意味",
+      "sources": [
+        "S03"
+      ],
+      "classification": "myth_variant",
+      "visuals": [
+        "linen",
+        "journey"
+      ],
+      "text": "アヌビスの重要な役割の一つが、ミイラ作りとの関わりです。古代の信仰では、亡くなった人の身体を整え、儀礼を行うことが、死後の存在を支える準備とされました。身体の保存は、見た目を残すことだけではなく、再び生きることへの願いと結びついていたのです。"
+    },
+    {
+      "id": "N09",
+      "chapter": "C03",
+      "heading": "神が身体を守る場面",
+      "caption": "棺の場面は解説から紹介／画像は再現イメージ",
+      "sources": [
+        "S03",
+        "S12"
+      ],
+      "classification": "myth_variant",
+      "visuals": [
+        "linen",
+        "journey"
+      ],
+      "text": "美術館がかつて展示した、ネジェムアンクという神官の金色の棺。その解説では、寝台の上のミイラのそばで、アヌビスが儀礼を行う場面が紹介されています。イシスとネフティスも、ミイラを守る存在として描かれていました。なお、この棺は不正に持ち出された品と分かり、二〇一九年にエジプトへ返還されています。"
+    },
+    {
+      "id": "N10",
+      "chapter": "C03",
+      "heading": "儀礼は、生きている人が行う",
+      "caption": "神の物語と、人の営み",
+      "sources": [
+        "S01",
+        "S03"
+      ],
+      "classification": "historical_fact",
+      "visuals": [
+        "linen",
+        "evidence"
+      ],
+      "text": "もちろん、実際に亡くなった人を整え、埋葬の準備をしたのは、生きている人々です。神の物語は、その営みに意味を与えていました。人の手による作業と、神による守り。その二つが重なって、葬送の儀礼が形づくられていたのです。"
+    },
+    {
+      "id": "N11",
+      "chapter": "C03",
+      "heading": "守るための、別のかたち",
+      "caption": "イミウト：葬送儀礼に関わる祭具",
+      "sources": [
+        "S11"
+      ],
+      "classification": "historical_fact",
+      "visuals": [
+        "met_545547",
+        "journey"
+      ],
+      "text": "保護の考え方は、神の像以外にも表れています。イミウトと呼ばれる祭具は、棒と容器、動物の皮に包まれた形を組み合わせたものです。美術館の解説によると、こうした祭具や守護像は、神聖な空間や葬送の儀礼に関わっていました。死者を守る準備には、さまざまな形があったのです。"
+    },
+    {
+      "id": "N12",
+      "chapter": "C04",
+      "heading": "死者の書を開く",
+      "caption": "現代の本とは、少し違う",
+      "sources": [
+        "S04"
+      ],
+      "classification": "historical_fact",
+      "visuals": [
+        "archive",
+        "met_548344"
+      ],
+      "text": "次に、身体を守る準備から、死後の旅の物語へ移ります。ここで登場するのが、死者の書です。美術館の解説では、もとの名は、日中に出ていくための書とされています。呪文や絵をパピルスに記したもので、亡くなった人の旅を助けるために用いられました。"
+    },
+    {
+      "id": "N13",
+      "chapter": "C04",
+      "heading": "一人のためのパピルス",
+      "caption": "ナウニの死者の書／前1050年頃",
+      "sources": [
+        "S04"
+      ],
+      "classification": "historical_fact",
+      "visuals": [
+        "met_548344",
+        "met_548344_detail"
+      ],
+      "text": "今、画面にあるのは、ナウニという女性の埋葬に伴っていたパピルスです。美術館の年代表示は、紀元前千五十年頃。巻物には複数の呪文の絵と文があり、その中に、心臓を量る場面が描かれています。抽象的な死者ではなく、ある一人のために用意された資料なのです。"
+    },
+    {
+      "id": "N14",
+      "chapter": "C04",
+      "heading": "心臓に託されたもの",
+      "caption": "身体の一部であり、人生を表すもの",
+      "sources": [
+        "S05"
+      ],
+      "classification": "myth_variant",
+      "visuals": [
+        "balance",
+        "met_557657"
+      ],
+      "text": "なぜ、量るのは心臓なのでしょう。別の葬送パピルスについて、美術館は、心臓を知性と感情の中心として説明しています。秤量の場面では、その人がどのように生きたかが問われます。心臓は、ただの身体の一部としてではなく、その人の生き方と結びつけて描かれていたのです。"
+    },
+    {
+      "id": "N15",
+      "chapter": "C04",
+      "heading": "相手は、マアト",
+      "caption": "秩序と倫理的なあり方の象徴",
+      "sources": [
+        "S04",
+        "S05"
+      ],
+      "classification": "myth_variant",
+      "visuals": [
+        "balance",
+        "met_548344_detail"
+      ],
+      "text": "天秤の反対側に置かれるのは、マアトを表すものです。マアトは、秩序や正しいあり方と結びつく存在。羽根だけを思い浮かべがちですが、ナウニの資料では、羽根を身につけた小さな女神の姿で表されています。よく知られた一つの図だけを、すべての資料に当てはめないことも大切です。"
+    },
+    {
+      "id": "N16",
+      "chapter": "C04",
+      "heading": "壁画のように見える、この画像",
+      "caption": "ニーナ・ド・ガリス・デイヴィスによる模写",
+      "sources": [
+        "S06"
+      ],
+      "classification": "historical_fact",
+      "visuals": [
+        "met_557830",
+        "met_557830_detail"
+      ],
+      "text": "こちらも、アヌビスと天秤の場面です。けれど、この画像は古代の壁画そのものを撮影した写真ではありません。ニーナ・ド・ガリス・デイヴィスが、ナクトアメンの墓の絵を紙に写したものです。古い図像を学ぶ手がかりになりますが、原資料と模写は、区別して紹介します。"
+    },
+    {
+      "id": "N17",
+      "chapter": "C05",
+      "heading": "秤を読むアヌビス",
+      "caption": "仕事を分けると、場面が見えてくる",
+      "sources": [
+        "S04"
+      ],
+      "classification": "myth_variant",
+      "visuals": [
+        "roles",
+        "met_548344_detail"
+      ],
+      "text": "ナウニのパピルスをもう一度見ましょう。アヌビスは、秤を読んでいます。しかし、場面には彼一人しかいないわけではありません。結果を記録する神と、死者を迎える神もいます。役割を分けて見ると、アヌビスを、すべてを一人で決める裁判官と考える説明は、単純すぎると分かります。"
+    },
+    {
+      "id": "N18",
+      "chapter": "C05",
+      "heading": "結果を記すトト",
+      "caption": "姿だけでなく、行為に注目する",
+      "sources": [
+        "S09"
+      ],
+      "classification": "myth_variant",
+      "visuals": [
+        "met_552247_detail",
+        "roles"
+      ],
+      "text": "こちらの棺材の断片では、トキの頭を持つトトが、筆記の道具を手にしています。美術館は、彼が死者をオシリスに紹介する場面だと説明しています。神々を見分ける手がかりは、頭の形だけではありません。持ち物と、その場で何をしているかも、重要なのです。"
+    },
+    {
+      "id": "N19",
+      "chapter": "C05",
+      "heading": "オシリスの前へ",
+      "caption": "死後世界への受け入れという物語",
+      "sources": [
+        "S05"
+      ],
+      "classification": "myth_variant",
+      "visuals": [
+        "met_557657",
+        "roles"
+      ],
+      "text": "美術館の解説によると、秤が釣り合えば、死者はオシリスに受け入れられ、永遠の生命を得ます。釣り合わなければ、心臓はアメミトと呼ばれる存在に食べられ、死者は永久に死ぬとされました。アヌビスが量り、トトが記し、オシリスが迎える。裁きは、何柱もの神々が関わる場面として描かれていたのです。"
+    },
+    {
+      "id": "N20",
+      "chapter": "C05",
+      "heading": "怖さの向こうにある目的",
+      "caption": "願われたのは、旅を終えること",
+      "sources": [
+        "S04",
+        "S05"
+      ],
+      "classification": "editorial_interpretation",
+      "visuals": [
+        "journey",
+        "hero"
+      ],
+      "text": "たしかに、裁きの場面には恐ろしさがあります。ただ、亡くなった人のために用意された資料が伝えようとするのは、失敗の光景だけではありません。無事に試練を越え、次の存在へ進むこと。アヌビスの姿を保護の役割から見ると、同じ天秤の場面も、少し違って見えてきます。"
+    },
+    {
+      "id": "N21",
+      "chapter": "C06",
+      "heading": "死だけに限られない場面",
+      "caption": "王の儀礼に登場するアヌビス",
+      "sources": [
+        "S07"
+      ],
+      "classification": "historical_fact",
+      "visuals": [
+        "met_544206",
+        "met_544206_detail"
+      ],
+      "text": "ここで、少し意外な資料を見ます。アメンエムハト一世を描いた浮き彫りです。王の両側には、ホルスとアヌビスがいます。神々は、生命を表すアンクを差し出しています。美術館は、この場面を王の儀礼と結びつけて説明しています。アヌビスが現れるのは、心臓の秤量だけではないのです。"
+    },
+    {
+      "id": "N22",
+      "chapter": "C06",
+      "heading": "王の力を確かめる儀礼",
+      "caption": "中王国／前1981〜1952年頃",
+      "sources": [
+        "S07"
+      ],
+      "classification": "historical_fact",
+      "visuals": [
+        "met_544206_detail",
+        "timeline"
+      ],
+      "text": "この王は、長く統治してもなお、支配する力があることを儀礼で示しています。アヌビスは、墓地の主という役割でも、この場所に関わっていました。作品は、紀元前千九百八十年頃のものです。後の時代の像と並べることで、同じ神が、長い時間の中で語られていたことが見えてきます。"
+    },
+    {
+      "id": "N23",
+      "chapter": "C06",
+      "heading": "時代が変わっても、描かれる神",
+      "caption": "ローマ時代の棺材片／後100〜300年",
+      "sources": [
+        "S09"
+      ],
+      "classification": "historical_fact",
+      "visuals": [
+        "met_552247",
+        "timeline"
+      ],
+      "text": "さらに時代が下ると、ローマ時代の棺材の断片にも、アヌビスが登場します。中心にオシリスが座り、その近くにトトやほかの神々が描かれています。長い時間がたっても、死者と神々の関係は表現され続けました。ただし、それぞれの資料を、まったく同じ物語のコピーと考える必要はありません。"
+    },
+    {
+      "id": "N24",
+      "chapter": "C06",
+      "heading": "名前の後ろの、疑問符",
+      "caption": "同定が確実でない資料もある",
+      "sources": [
+        "S08"
+      ],
+      "classification": "scholarly_interpretation",
+      "visuals": [
+        "met_547871",
+        "evidence"
+      ],
+      "text": "金の小像には、アヌビスらしいという解釈と、別の神かもしれないという解釈が示されています。美術館は、正体は確実ではないと明記しています。分からないことを分からないと残す姿勢も、歴史を伝えるために必要です。映像が鮮明だからといって、説明まで確定するわけではありません。"
+    },
+    {
+      "id": "N25",
+      "chapter": "C06",
+      "heading": "小さな像にも、目を向ける",
+      "caption": "高さ7.7cmのアヌビス像",
+      "sources": [
+        "S10"
+      ],
+      "classification": "historical_fact",
+      "visuals": [
+        "met_570223",
+        "archive"
+      ],
+      "text": "大きな壁画や像だけでなく、高さ七・七センチほどの、青銅などの銅合金で作られたアヌビス像も残っています。博物館の資料を見ていくと、壮大な神話が、手に取れる大きさの物にも表されていたと分かります。誰が、どこで、どのように使ったのか。小さな資料は、新しい問いを開いてくれます。"
+    },
+    {
+      "id": "N27",
+      "chapter": "C07",
+      "heading": "守り、量り、次へつなぐ",
+      "caption": "アヌビスの役割を、もう一度",
+      "sources": [
+        "S01",
+        "S03",
+        "S04"
+      ],
+      "classification": "editorial_summary",
+      "visuals": [
+        "roles",
+        "hero"
+      ],
+      "text": "アヌビスは、墓を見守る姿で表され、身体を整える儀礼に関わり、心臓を量る場面にも登場します。死と深く結びつく神ですが、その役割を恐怖だけでまとめることはできません。守ることと、試練を越えること。その両方に関わる存在として、資料から読み解くことができます。"
+    },
+    {
+      "id": "N28",
+      "chapter": "C07",
+      "heading": "残されたのは、人の願い",
+      "caption": "死の先で、その人らしさを失わないために",
+      "sources": [
+        "S04",
+        "S05"
+      ],
+      "classification": "editorial_interpretation",
+      "visuals": [
+        "nile",
+        "archive"
+      ],
+      "text": "パピルスに残る心臓の物語から、私たちは一つの問いを受け取れます。死の先へ持っていくとしたら、自分の何が、その人らしさを語るのでしょう。神々の姿の向こうには、亡くなった人の旅を支えようとする、人々の願いが見えます。"
+    },
+    {
+      "id": "N29",
+      "chapter": "C07",
+      "heading": "出典と制作について",
+      "caption": "出典一覧は概要欄と付属資料へ",
+      "sources": [],
+      "classification": "production_disclosure",
+      "visuals": [
+        "credits"
+      ],
+      "text": "この動画は、博物館の公開資料と解説をもとに構成しました。ナレーションには音声合成を、一部の映像にはAIによる再現画を使っています。作品名、出典、素材の利用条件は付属の資料にまとめています。ご覧いただき、ありがとうございました。"
+    }
+  ],
+  "revision": {
+    "version": "v02-draft",
+    "revised_at_jst": "2026-10-20",
+    "revised_by": "Claude（GitHub上の文章のみ。音声・映像は未再生成）",
+    "changelog": "new-channel/wom01_Claudeレビュー修正_v02.md"
+  }
+}

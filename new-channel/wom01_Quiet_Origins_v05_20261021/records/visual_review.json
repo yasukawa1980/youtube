@@ -1,0 +1,19 @@
+{
+  "passed": true,
+  "reviewer": "Codex image inspection",
+  "scope": [
+    "55 composed scenes in contact sheets",
+    "thumbnail at 1280x720",
+    "production credits and balance diagram at larger size",
+    "actual MP4 + SRT, 5 scene categories plus boxed diagram, English/Japanese, FontSize14/26"
+  ],
+  "findings": [
+    "QUIET ORIGINS visible; no old provisional brand in reviewed frames",
+    "Japanese voice credit is legible alongside preserved English voice credit",
+    "No source/title/diagram text overlap in inspected libass renderings",
+    "Boxes and balance labels remain above enlarged subtitles"
+  ],
+  "human_full_listening": false,
+  "human_full_video_viewing": false,
+  "subtitle_rendering_limit": "Actual libass frames, not screenshots of an external player; player settings can differ."
+}

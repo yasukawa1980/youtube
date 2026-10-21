@@ -11,7 +11,7 @@ W, H = 1920, 1080
 BG, IVORY, GOLD, MUTED = "#0c1820", "#f4efdf", "#d8b575", "#b0bfc3"
 FONT = "/System/Library/Fonts/Supplemental/Arial.ttf"
 TITLE = "/System/Library/Fonts/Supplemental/Georgia.ttf"
-# Channel name is undecided; the default reproduces the v02 render byte for byte.
+# Historical default retained; new releases explicitly set WOM_BRAND.
 BRAND = os.environ.get("WOM_BRAND", "WORLDS OF MYSTERY").upper()
 
 
@@ -20,11 +20,17 @@ def font(size, serif=False):
 
 
 def put(draw, xy, value, size=42, color=IVORY, serif=False):
+    if value == "VOICEVOX:冥鳴ひまり":
+        draw.text(xy, value, font=ImageFont.truetype("/System/Library/Fonts/ヒラギノ角ゴシック W3.ttc", size), fill=color)
+        return
     assert not any("\u3040" <= c <= "\u30ff" or "\u4e00" <= c <= "\u9fff" for c in value), value
     draw.text(xy, value, font=font(size, serif), fill=color)
 
 
 def fit_text(draw, xy, value, width, size=50, color=IVORY, serif=False):
+    if value == "VOICEVOX:冥鳴ひまり":
+        put(draw, xy, value, size, color, serif)
+        return
     while draw.textlength(value, font=font(size, serif)) > width and size > 30:
         size -= 1
     assert draw.textlength(value, font=font(size, serif)) <= width, value
@@ -83,6 +89,9 @@ def card_image(seg, key):
                     ("English narration", "Kokoro / Heart (af_heart) / synthetic speech"),
                     ("Reconstructions and music", "AI-generated images / original ambient score")],
     }
+    compact = os.environ.get("WOM_COMPACT_CARDS") == "1"
+    if compact:
+        data["credits"].insert(2, ("Japanese narration", "VOICEVOX:冥鳴ひまり"))
     if key == "balance":
         d.line((960, 280, 960, 790), fill=GOLD, width=8)
         d.line((510, 420, 1410, 420), fill=GOLD, width=8)
@@ -98,17 +107,23 @@ def card_image(seg, key):
         for i in range(10):
             x, y = 1357+i*5, 669-i*12
             d.line((x-28, y-8, x+28, y-18), fill=IVORY, width=4)
-        put(d, (435, 835), "The heart", 48)
-        put(d, (1180, 835), "A symbol of Maat", 48)
+        if compact:
+            art = ImageOps.contain(im.crop((0, 164, W, 810)), (W, 490), Image.Resampling.LANCZOS)
+            im = Image.new("RGB", (W, H), BG)
+            im.paste(art, ((W-art.width)//2, 205))
+            d = ImageDraw.Draw(im)
+        put(d, (435, 710 if compact else 835), "The heart", 48)
+        put(d, (1180, 710 if compact else 835), "A symbol of Maat", 48)
     else:
         rows = data[key]
         for i, (title, subtitle) in enumerate(rows):
-            y = 215 + i * (705 // len(rows))
-            height = min(195, 640 // len(rows))
+            y = 215 + i * ((580 if compact else 705) // len(rows))
+            height = min(175 if compact else 195, (540 if compact else 640) // len(rows))
             d.rounded_rectangle((130, y, 1790, y+height), 22, fill="#1a303a", outline="#42535b", width=2)
-            put(d, (175, y+50), f"{i+1:02}", 60, GOLD)
-            fit_text(d, (320, y+28), title, 1400, 51, serif=True)
-            fit_text(d, (320, y+103), subtitle, 1400, 40, MUTED)
+            small = compact and len(rows) == 4
+            put(d, (175, y+32 if small else y+50), f"{i+1:02}", 48 if small else 60, GOLD)
+            fit_text(d, (320, y+16 if small else y+(24 if compact else 28)), title, 1400, 44 if small else 51, serif=True)
+            fit_text(d, (320, y+76 if small else y+(90 if compact else 103)), subtitle, 1400, 36 if small else 40, MUTED)
     footer = ("Full credits, sources and terms in the description" if key == "credits"
               else seg["caption"])
     return bars(im, seg["heading"], "Production credits" if key == "credits" else "Concept diagram", footer)

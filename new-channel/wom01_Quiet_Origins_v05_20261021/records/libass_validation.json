@@ -1,0 +1,390 @@
+{
+  "binary": "/private/tmp/wom01-kokoro-venv/lib/python3.12/site-packages/imageio_ffmpeg/binaries/ffmpeg-macos-aarch64-v7.1",
+  "checks": [
+    {
+      "label": "AI reconstruction",
+      "language": "en",
+      "time_seconds": 9.901,
+      "cue": 3,
+      "font_size": 14,
+      "subtitle_bbox": [
+        597,
+        926,
+        1323,
+        1038
+      ],
+      "actual_libass_render": true,
+      "image": "review/libass/hero_en_14.png",
+      "warnings": "[Parsed_subtitles_0 @ 0x11de1e030] libass wasn't built with ASS_FEATURE_WRAP_UNICODE support\n[Parsed_subtitles_0 @ 0x109505a30] libass wasn't built with ASS_FEATURE_WRAP_UNICODE support\n[swscaler @ 0x130c88000] [swscaler @ 0x130c98000] No accelerated colorspace conversion found from yuv420p to rgb24.\n[swscaler @ 0x130c88000] [swscaler @ 0x130ca8000] No accelerated colorspace conversion found from yuv420p to rgb24.\n[swscaler @ 0x130c88000] [swscaler @ 0x130cb8000] No accelerated colorspace conversion found from yuv420p to rgb24.\n[swscaler @ 0x130c88000] [swscaler @ 0x130cc8000] No accelerated colorspace conversion found from yuv420p to rgb24.\n[swscaler @ 0x130c88000] [swscaler @ 0x130cd8000] No accelerated colorspace conversion found from yuv420p to rgb24.\n[swscaler @ 0x130c88000] [swscaler @ 0x130ce8000] No accelerated colorspace conversion found from yuv420p to rgb24.\n[swscaler @ 0x130c88000] [swscaler @ 0x140628000] No accelerated colorspace conversion found from yuv420p to rgb24.\n[swscaler @ 0x130c88000] [swscaler @ 0x130cf8000] No accelerated colorspace conversion found from yuv420p to rgb24.\n[swscaler @ 0x130c88000] [swscaler @ 0x130d08000] No accelerated colorspace conversion found from yuv420p to rgb24.\n[image2 @ 0x11de1be10] The specified filename '/Users/ryo/Desktop/新チャンネル/EP001_Anubis/Quiet_Origins_v05_20261021/review/libass/hero_en_14.png' does not contain an image sequence pattern or a pattern is invalid.\n[image2 @ 0x11de1be10] Use a pattern such as %03d for an image sequence or use the -update option (with -frames:v 1 if needed) to write a single image.\n"
+    },
+    {
+      "label": "AI reconstruction",
+      "language": "en",
+      "time_seconds": 9.901,
+      "cue": 3,
+      "font_size": 26,
+      "subtitle_bbox": [
+        290,
+        836,
+        1629,
+        1038
+      ],
+      "actual_libass_render": true,
+      "image": "review/libass/hero_en_26.png",
+      "warnings": "[Parsed_subtitles_0 @ 0x126f06fa0] libass wasn't built with ASS_FEATURE_WRAP_UNICODE support\n[Parsed_subtitles_0 @ 0x126f5be70] libass wasn't built with ASS_FEATURE_WRAP_UNICODE support\n[swscaler @ 0x129b98000] [swscaler @ 0x138408000] No accelerated colorspace conversion found from yuv420p to rgb24.\n[swscaler @ 0x129b98000] [swscaler @ 0x138418000] No accelerated colorspace conversion found from yuv420p to rgb24.\n[swscaler @ 0x129b98000] [swscaler @ 0x138428000] No accelerated colorspace conversion found from yuv420p to rgb24.\n[swscaler @ 0x129b98000] [swscaler @ 0x138438000] No accelerated colorspace conversion found from yuv420p to rgb24.\n[swscaler @ 0x129b98000] [swscaler @ 0x138448000] No accelerated colorspace conversion found from yuv420p to rgb24.\n[swscaler @ 0x129b98000] [swscaler @ 0x138458000] No accelerated colorspace conversion found from yuv420p to rgb24.\n[swscaler @ 0x129b98000] [swscaler @ 0x129d48000] No accelerated colorspace conversion found from yuv420p to rgb24.\n[swscaler @ 0x129b98000] [swscaler @ 0x130748000] No accelerated colorspace conversion found from yuv420p to rgb24.\n[swscaler @ 0x129b98000] [swscaler @ 0x130758000] No accelerated colorspace conversion found from yuv420p to rgb24.\n[image2 @ 0x126f05490] The specified filename '/Users/ryo/Desktop/新チャンネル/EP001_Anubis/Quiet_Origins_v05_20261021/review/libass/hero_en_26.png' does not contain an image sequence pattern or a pattern is invalid.\n[image2 @ 0x126f05490] Use a pattern such as %03d for an image sequence or use the -update option (with -frames:v 1 if needed) to write a single image.\n"
+    },
+    {
+      "label": "AI reconstruction",
+      "language": "ja",
+      "time_seconds": 13.635,
+      "cue": 4,
+      "font_size": 14,
+      "subtitle_bbox": [
+        662,
+        926,
+        1257,
+        1038
+      ],
+      "actual_libass_render": true,
+      "image": "review/libass/hero_ja_14.png",
+      "warnings": "[Parsed_subtitles_0 @ 0x122f06fa0] libass wasn't built with ASS_FEATURE_WRAP_UNICODE support\n[Parsed_subtitles_0 @ 0x105604090] libass wasn't built with ASS_FEATURE_WRAP_UNICODE support\n[swscaler @ 0x129cc0000] [swscaler @ 0x140698000] No accelerated colorspace conversion found from yuv420p to rgb24.\n[swscaler @ 0x129cc0000] [swscaler @ 0x1406a8000] No accelerated colorspace conversion found from yuv420p to rgb24.\n[swscaler @ 0x129cc0000] [swscaler @ 0x1406b8000] No accelerated colorspace conversion found from yuv420p to rgb24.\n[swscaler @ 0x129cc0000] [swscaler @ 0x1406c8000] No accelerated colorspace conversion found from yuv420p to rgb24.\n[swscaler @ 0x129cc0000] [swscaler @ 0x1406d8000] No accelerated colorspace conversion found from yuv420p to rgb24.\n[swscaler @ 0x129cc0000] [swscaler @ 0x1406e8000] No accelerated colorspace conversion found from yuv420p to rgb24.\n[swscaler @ 0x129cc0000] [swscaler @ 0x1406f8000] No accelerated colorspace conversion found from yuv420p to rgb24.\n[swscaler @ 0x129cc0000] [swscaler @ 0x140708000] No accelerated colorspace conversion found from yuv420p to rgb24.\n[swscaler @ 0x129cc0000] [swscaler @ 0x140718000] No accelerated colorspace conversion found from yuv420p to rgb24.\n[image2 @ 0x122f05490] The specified filename '/Users/ryo/Desktop/新チャンネル/EP001_Anubis/Quiet_Origins_v05_20261021/review/libass/hero_ja_14.png' does not contain an image sequence pattern or a pattern is invalid.\n[image2 @ 0x122f05490] Use a pattern such as %03d for an image sequence or use the -update option (with -frames:v 1 if needed) to write a single image.\n"
+    },
+    {
+      "label": "AI reconstruction",
+      "language": "ja",
+      "time_seconds": 13.635,
+      "cue": 4,
+      "font_size": 26,
+      "subtitle_bbox": [
+        412,
+        836,
+        1507,
+        1038
+      ],
+      "actual_libass_render": true,
+      "image": "review/libass/hero_ja_26.png",
+      "warnings": "[Parsed_subtitles_0 @ 0x133706fa0] libass wasn't built with ASS_FEATURE_WRAP_UNICODE support\n[Parsed_subtitles_0 @ 0x133758f50] libass wasn't built with ASS_FEATURE_WRAP_UNICODE support\n[swscaler @ 0x1292d0000] [swscaler @ 0x1292e0000] No accelerated colorspace conversion found from yuv420p to rgb24.\n[swscaler @ 0x1292d0000] [swscaler @ 0x1292f0000] No accelerated colorspace conversion found from yuv420p to rgb24.\n[swscaler @ 0x1292d0000] [swscaler @ 0x129300000] No accelerated colorspace conversion found from yuv420p to rgb24.\n[swscaler @ 0x1292d0000] [swscaler @ 0x129310000] No accelerated colorspace conversion found from yuv420p to rgb24.\n[swscaler @ 0x1292d0000] [swscaler @ 0x129320000] No accelerated colorspace conversion found from yuv420p to rgb24.\n[swscaler @ 0x1292d0000] [swscaler @ 0x129330000] No accelerated colorspace conversion found from yuv420p to rgb24.\n[swscaler @ 0x1292d0000] [swscaler @ 0x129340000] No accelerated colorspace conversion found from yuv420p to rgb24.\n[swscaler @ 0x1292d0000] [swscaler @ 0x129350000] No accelerated colorspace conversion found from yuv420p to rgb24.\n[swscaler @ 0x1292d0000] [swscaler @ 0x129360000] No accelerated colorspace conversion found from yuv420p to rgb24.\n[image2 @ 0x133705490] The specified filename '/Users/ryo/Desktop/新チャンネル/EP001_Anubis/Quiet_Origins_v05_20261021/review/libass/hero_ja_26.png' does not contain an image sequence pattern or a pattern is invalid.\n[image2 @ 0x133705490] Use a pattern such as %03d for an image sequence or use the -update option (with -frames:v 1 if needed) to write a single image.\n"
+    },
+    {
+      "label": "Museum object",
+      "language": "en",
+      "time_seconds": 40.333,
+      "cue": 10,
+      "font_size": 14,
+      "subtitle_bbox": [
+        522,
+        926,
+        1397,
+        1038
+      ],
+      "actual_libass_render": true,
+      "image": "review/libass/met_548344_detail_en_14.png",
+      "warnings": "[Parsed_subtitles_0 @ 0x130e060c0] libass wasn't built with ASS_FEATURE_WRAP_UNICODE support\n[Parsed_subtitles_0 @ 0x120f04890] libass wasn't built with ASS_FEATURE_WRAP_UNICODE support\n[swscaler @ 0x1104a8000] [swscaler @ 0x1104b8000] No accelerated colorspace conversion found from yuv420p to rgb24.\n[swscaler @ 0x1104a8000] [swscaler @ 0x1104c8000] No accelerated colorspace conversion found from yuv420p to rgb24.\n[swscaler @ 0x1104a8000] [swscaler @ 0x1104d8000] No accelerated colorspace conversion found from yuv420p to rgb24.\n[swscaler @ 0x1104a8000] [swscaler @ 0x1104e8000] No accelerated colorspace conversion found from yuv420p to rgb24.\n[swscaler @ 0x1104a8000] [swscaler @ 0x1104f8000] No accelerated colorspace conversion found from yuv420p to rgb24.\n[swscaler @ 0x1104a8000] [swscaler @ 0x110508000] No accelerated colorspace conversion found from yuv420p to rgb24.\n[swscaler @ 0x1104a8000] [swscaler @ 0x110518000] No accelerated colorspace conversion found from yuv420p to rgb24.\n[swscaler @ 0x1104a8000] [swscaler @ 0x110528000] No accelerated colorspace conversion found from yuv420p to rgb24.\n[swscaler @ 0x1104a8000] [swscaler @ 0x110538000] No accelerated colorspace conversion found from yuv420p to rgb24.\n[image2 @ 0x130e042c0] The specified filename '/Users/ryo/Desktop/新チャンネル/EP001_Anubis/Quiet_Origins_v05_20261021/review/libass/met_548344_detail_en_14.png' does not contain an image sequence pattern or a pattern is invalid.\n[image2 @ 0x130e042c0] Use a pattern such as %03d for an image sequence or use the -update option (with -frames:v 1 if needed) to write a single image.\n"
+    },
+    {
+      "label": "Museum object",
+      "language": "en",
+      "time_seconds": 40.333,
+      "cue": 10,
+      "font_size": 26,
+      "subtitle_bbox": [
+        152,
+        836,
+        1767,
+        1038
+      ],
+      "actual_libass_render": true,
+      "image": "review/libass/met_548344_detail_en_26.png",
+      "warnings": "[Parsed_subtitles_0 @ 0x14e706fb0] libass wasn't built with ASS_FEATURE_WRAP_UNICODE support\n[Parsed_subtitles_0 @ 0x138004130] libass wasn't built with ASS_FEATURE_WRAP_UNICODE support\n[swscaler @ 0x1102f8000] [swscaler @ 0x158008000] No accelerated colorspace conversion found from yuv420p to rgb24.\n[swscaler @ 0x1102f8000] [swscaler @ 0x158018000] No accelerated colorspace conversion found from yuv420p to rgb24.\n[swscaler @ 0x1102f8000] [swscaler @ 0x158028000] No accelerated colorspace conversion found from yuv420p to rgb24.\n[swscaler @ 0x1102f8000] [swscaler @ 0x158038000] No accelerated colorspace conversion found from yuv420p to rgb24.\n[swscaler @ 0x1102f8000] [swscaler @ 0x158048000] No accelerated colorspace conversion found from yuv420p to rgb24.\n[swscaler @ 0x1102f8000] [swscaler @ 0x158058000] No accelerated colorspace conversion found from yuv420p to rgb24.\n[swscaler @ 0x1102f8000] [swscaler @ 0x158068000] No accelerated colorspace conversion found from yuv420p to rgb24.\n[swscaler @ 0x1102f8000] [swscaler @ 0x158078000] No accelerated colorspace conversion found from yuv420p to rgb24.\n[swscaler @ 0x1102f8000] [swscaler @ 0x158088000] No accelerated colorspace conversion found from yuv420p to rgb24.\n[image2 @ 0x14e705490] The specified filename '/Users/ryo/Desktop/新チャンネル/EP001_Anubis/Quiet_Origins_v05_20261021/review/libass/met_548344_detail_en_26.png' does not contain an image sequence pattern or a pattern is invalid.\n[image2 @ 0x14e705490] Use a pattern such as %03d for an image sequence or use the -update option (with -frames:v 1 if needed) to write a single image.\n"
+    },
+    {
+      "label": "Museum object",
+      "language": "ja",
+      "time_seconds": 32.731,
+      "cue": 8,
+      "font_size": 14,
+      "subtitle_bbox": [
+        620,
+        926,
+        1299,
+        1038
+      ],
+      "actual_libass_render": true,
+      "image": "review/libass/met_548344_detail_ja_14.png",
+      "warnings": "[Parsed_subtitles_0 @ 0x11fe06fb0] libass wasn't built with ASS_FEATURE_WRAP_UNICODE support\n[Parsed_subtitles_0 @ 0x109304e10] libass wasn't built with ASS_FEATURE_WRAP_UNICODE support\n[swscaler @ 0x149aa0000] [swscaler @ 0x149ab0000] No accelerated colorspace conversion found from yuv420p to rgb24.\n[swscaler @ 0x149aa0000] [swscaler @ 0x149ac0000] No accelerated colorspace conversion found from yuv420p to rgb24.\n[swscaler @ 0x149aa0000] [swscaler @ 0x149ad0000] No accelerated colorspace conversion found from yuv420p to rgb24.\n[swscaler @ 0x149aa0000] [swscaler @ 0x149ae0000] No accelerated colorspace conversion found from yuv420p to rgb24.\n[swscaler @ 0x149aa0000] [swscaler @ 0x149af0000] No accelerated colorspace conversion found from yuv420p to rgb24.\n[swscaler @ 0x149aa0000] [swscaler @ 0x149b00000] No accelerated colorspace conversion found from yuv420p to rgb24.\n[swscaler @ 0x149aa0000] [swscaler @ 0x149b10000] No accelerated colorspace conversion found from yuv420p to rgb24.\n[swscaler @ 0x149aa0000] [swscaler @ 0x149b20000] No accelerated colorspace conversion found from yuv420p to rgb24.\n[swscaler @ 0x149aa0000] [swscaler @ 0x149b30000] No accelerated colorspace conversion found from yuv420p to rgb24.\n[image2 @ 0x11fe05490] The specified filename '/Users/ryo/Desktop/新チャンネル/EP001_Anubis/Quiet_Origins_v05_20261021/review/libass/met_548344_detail_ja_14.png' does not contain an image sequence pattern or a pattern is invalid.\n[image2 @ 0x11fe05490] Use a pattern such as %03d for an image sequence or use the -update option (with -frames:v 1 if needed) to write a single image.\n"
+    },
+    {
+      "label": "Museum object",
+      "language": "ja",
+      "time_seconds": 32.731,
+      "cue": 8,
+      "font_size": 26,
+      "subtitle_bbox": [
+        334,
+        836,
+        1585,
+        1038
+      ],
+      "actual_libass_render": true,
+      "image": "review/libass/met_548344_detail_ja_26.png",
+      "warnings": "[Parsed_subtitles_0 @ 0x144f06fb0] libass wasn't built with ASS_FEATURE_WRAP_UNICODE support\n[Parsed_subtitles_0 @ 0x134e057d0] libass wasn't built with ASS_FEATURE_WRAP_UNICODE support\n[swscaler @ 0x128920000] [swscaler @ 0x128930000] No accelerated colorspace conversion found from yuv420p to rgb24.\n[swscaler @ 0x128920000] [swscaler @ 0x128940000] No accelerated colorspace conversion found from yuv420p to rgb24.\n[swscaler @ 0x128920000] [swscaler @ 0x128950000] No accelerated colorspace conversion found from yuv420p to rgb24.\n[swscaler @ 0x128920000] [swscaler @ 0x128960000] No accelerated colorspace conversion found from yuv420p to rgb24.\n[swscaler @ 0x128920000] [swscaler @ 0x128970000] No accelerated colorspace conversion found from yuv420p to rgb24.\n[swscaler @ 0x128920000] [swscaler @ 0x128980000] No accelerated colorspace conversion found from yuv420p to rgb24.\n[swscaler @ 0x128920000] [swscaler @ 0x128990000] No accelerated colorspace conversion found from yuv420p to rgb24.\n[swscaler @ 0x128920000] [swscaler @ 0x1289a0000] No accelerated colorspace conversion found from yuv420p to rgb24.\n[swscaler @ 0x128920000] [swscaler @ 0x1289b0000] No accelerated colorspace conversion found from yuv420p to rgb24.\n[image2 @ 0x144f05490] The specified filename '/Users/ryo/Desktop/新チャンネル/EP001_Anubis/Quiet_Origins_v05_20261021/review/libass/met_548344_detail_ja_26.png' does not contain an image sequence pattern or a pattern is invalid.\n[image2 @ 0x144f05490] Use a pattern such as %03d for an image sequence or use the -update option (with -frames:v 1 if needed) to write a single image.\n"
+    },
+    {
+      "label": "Facsimile (copy on paper)",
+      "language": "en",
+      "time_seconds": 60.338,
+      "cue": 14,
+      "font_size": 14,
+      "subtitle_bbox": [
+        672,
+        926,
+        1247,
+        1038
+      ],
+      "actual_libass_render": true,
+      "image": "review/libass/met_557830_en_14.png",
+      "warnings": "[Parsed_subtitles_0 @ 0x12f706fb0] libass wasn't built with ASS_FEATURE_WRAP_UNICODE support\n[Parsed_subtitles_0 @ 0x10f606d30] libass wasn't built with ASS_FEATURE_WRAP_UNICODE support\n[swscaler @ 0x141310000] [swscaler @ 0x141320000] No accelerated colorspace conversion found from yuv420p to rgb24.\n[swscaler @ 0x141310000] [swscaler @ 0x141330000] No accelerated colorspace conversion found from yuv420p to rgb24.\n[swscaler @ 0x141310000] [swscaler @ 0x141340000] No accelerated colorspace conversion found from yuv420p to rgb24.\n[swscaler @ 0x141310000] [swscaler @ 0x141350000] No accelerated colorspace conversion found from yuv420p to rgb24.\n[swscaler @ 0x141310000] [swscaler @ 0x141360000] No accelerated colorspace conversion found from yuv420p to rgb24.\n[swscaler @ 0x141310000] [swscaler @ 0x141370000] No accelerated colorspace conversion found from yuv420p to rgb24.\n[swscaler @ 0x141310000] [swscaler @ 0x141380000] No accelerated colorspace conversion found from yuv420p to rgb24.\n[swscaler @ 0x141310000] [swscaler @ 0x141390000] No accelerated colorspace conversion found from yuv420p to rgb24.\n[swscaler @ 0x141310000] [swscaler @ 0x1413a0000] No accelerated colorspace conversion found from yuv420p to rgb24.\n[image2 @ 0x12f705490] The specified filename '/Users/ryo/Desktop/新チャンネル/EP001_Anubis/Quiet_Origins_v05_20261021/review/libass/met_557830_en_14.png' does not contain an image sequence pattern or a pattern is invalid.\n[image2 @ 0x12f705490] Use a pattern such as %03d for an image sequence or use the -update option (with -frames:v 1 if needed) to write a single image.\n"
+    },
+    {
+      "label": "Facsimile (copy on paper)",
+      "language": "en",
+      "time_seconds": 60.338,
+      "cue": 14,
+      "font_size": 26,
+      "subtitle_bbox": [
+        431,
+        836,
+        1488,
+        1038
+      ],
+      "actual_libass_render": true,
+      "image": "review/libass/met_557830_en_26.png",
+      "warnings": "[Parsed_subtitles_0 @ 0x12261e040] libass wasn't built with ASS_FEATURE_WRAP_UNICODE support\n[Parsed_subtitles_0 @ 0x108b04090] libass wasn't built with ASS_FEATURE_WRAP_UNICODE support\n[swscaler @ 0x119908000] [swscaler @ 0x12a3f0000] No accelerated colorspace conversion found from yuv420p to rgb24.\n[swscaler @ 0x119908000] [swscaler @ 0x12a400000] No accelerated colorspace conversion found from yuv420p to rgb24.\n[swscaler @ 0x119908000] [swscaler @ 0x12a410000] No accelerated colorspace conversion found from yuv420p to rgb24.\n[swscaler @ 0x119908000] [swscaler @ 0x12a420000] No accelerated colorspace conversion found from yuv420p to rgb24.\n[swscaler @ 0x119908000] [swscaler @ 0x12a430000] No accelerated colorspace conversion found from yuv420p to rgb24.\n[swscaler @ 0x119908000] [swscaler @ 0x12a440000] No accelerated colorspace conversion found from yuv420p to rgb24.\n[swscaler @ 0x119908000] [swscaler @ 0x12a450000] No accelerated colorspace conversion found from yuv420p to rgb24.\n[swscaler @ 0x119908000] [swscaler @ 0x12a460000] No accelerated colorspace conversion found from yuv420p to rgb24.\n[swscaler @ 0x119908000] [swscaler @ 0x12a470000] No accelerated colorspace conversion found from yuv420p to rgb24.\n[image2 @ 0x12261be10] The specified filename '/Users/ryo/Desktop/新チャンネル/EP001_Anubis/Quiet_Origins_v05_20261021/review/libass/met_557830_en_26.png' does not contain an image sequence pattern or a pattern is invalid.\n[image2 @ 0x12261be10] Use a pattern such as %03d for an image sequence or use the -update option (with -frames:v 1 if needed) to write a single image.\n"
+    },
+    {
+      "label": "Facsimile (copy on paper)",
+      "language": "ja",
+      "time_seconds": 60.21666666666667,
+      "cue": 13,
+      "font_size": 14,
+      "subtitle_bbox": [
+        621,
+        926,
+        1298,
+        1038
+      ],
+      "actual_libass_render": true,
+      "image": "review/libass/met_557830_ja_14.png",
+      "warnings": "[Parsed_subtitles_0 @ 0x150f06fb0] libass wasn't built with ASS_FEATURE_WRAP_UNICODE support\n[Parsed_subtitles_0 @ 0x150e1ed10] libass wasn't built with ASS_FEATURE_WRAP_UNICODE support\n[swscaler @ 0x1580d0000] [swscaler @ 0x178208000] No accelerated colorspace conversion found from yuv420p to rgb24.\n[swscaler @ 0x1580d0000] [swscaler @ 0x178218000] No accelerated colorspace conversion found from yuv420p to rgb24.\n[swscaler @ 0x1580d0000] [swscaler @ 0x178228000] No accelerated colorspace conversion found from yuv420p to rgb24.\n[swscaler @ 0x1580d0000] [swscaler @ 0x139918000] No accelerated colorspace conversion found from yuv420p to rgb24.\n[swscaler @ 0x1580d0000] [swscaler @ 0x139928000] No accelerated colorspace conversion found from yuv420p to rgb24.\n[swscaler @ 0x1580d0000] [swscaler @ 0x139938000] No accelerated colorspace conversion found from yuv420p to rgb24.\n[swscaler @ 0x1580d0000] [swscaler @ 0x139948000] No accelerated colorspace conversion found from yuv420p to rgb24.\n[swscaler @ 0x1580d0000] [swscaler @ 0x139958000] No accelerated colorspace conversion found from yuv420p to rgb24.\n[swscaler @ 0x1580d0000] [swscaler @ 0x139968000] No accelerated colorspace conversion found from yuv420p to rgb24.\n[image2 @ 0x150f05490] The specified filename '/Users/ryo/Desktop/新チャンネル/EP001_Anubis/Quiet_Origins_v05_20261021/review/libass/met_557830_ja_14.png' does not contain an image sequence pattern or a pattern is invalid.\n[image2 @ 0x150f05490] Use a pattern such as %03d for an image sequence or use the -update option (with -frames:v 1 if needed) to write a single image.\n"
+    },
+    {
+      "label": "Facsimile (copy on paper)",
+      "language": "ja",
+      "time_seconds": 60.21666666666667,
+      "cue": 13,
+      "font_size": 26,
+      "subtitle_bbox": [
+        334,
+        836,
+        1585,
+        1038
+      ],
+      "actual_libass_render": true,
+      "image": "review/libass/met_557830_ja_26.png",
+      "warnings": "[Parsed_subtitles_0 @ 0x136e1e080] libass wasn't built with ASS_FEATURE_WRAP_UNICODE support\n[Parsed_subtitles_0 @ 0x137905810] libass wasn't built with ASS_FEATURE_WRAP_UNICODE support\n[swscaler @ 0x139d88000] [swscaler @ 0x1404f0000] No accelerated colorspace conversion found from yuv420p to rgb24.\n[swscaler @ 0x139d88000] [swscaler @ 0x129208000] No accelerated colorspace conversion found from yuv420p to rgb24.\n[swscaler @ 0x139d88000] [swscaler @ 0x129218000] No accelerated colorspace conversion found from yuv420p to rgb24.\n[swscaler @ 0x139d88000] [swscaler @ 0x129228000] No accelerated colorspace conversion found from yuv420p to rgb24.\n[swscaler @ 0x139d88000] [swscaler @ 0x129238000] No accelerated colorspace conversion found from yuv420p to rgb24.\n[swscaler @ 0x139d88000] [swscaler @ 0x129248000] No accelerated colorspace conversion found from yuv420p to rgb24.\n[swscaler @ 0x139d88000] [swscaler @ 0x129258000] No accelerated colorspace conversion found from yuv420p to rgb24.\n[swscaler @ 0x139d88000] [swscaler @ 0x129268000] No accelerated colorspace conversion found from yuv420p to rgb24.\n[swscaler @ 0x139d88000] [swscaler @ 0x129278000] No accelerated colorspace conversion found from yuv420p to rgb24.\n[image2 @ 0x136e1be50] The specified filename '/Users/ryo/Desktop/新チャンネル/EP001_Anubis/Quiet_Origins_v05_20261021/review/libass/met_557830_ja_26.png' does not contain an image sequence pattern or a pattern is invalid.\n[image2 @ 0x136e1be50] Use a pattern such as %03d for an image sequence or use the -update option (with -frames:v 1 if needed) to write a single image.\n"
+    },
+    {
+      "label": "Concept diagram",
+      "language": "en",
+      "time_seconds": 24.086,
+      "cue": 6,
+      "font_size": 14,
+      "subtitle_bbox": [
+        663,
+        926,
+        1256,
+        1038
+      ],
+      "actual_libass_render": true,
+      "image": "review/libass/balance_en_14.png",
+      "warnings": "[Parsed_subtitles_0 @ 0x141f06fa0] libass wasn't built with ASS_FEATURE_WRAP_UNICODE support\n[Parsed_subtitles_0 @ 0x141e20260] libass wasn't built with ASS_FEATURE_WRAP_UNICODE support\n[swscaler @ 0x149a98000] [swscaler @ 0x158050000] No accelerated colorspace conversion found from yuv420p to rgb24.\n[swscaler @ 0x149a98000] [swscaler @ 0x1396a8000] No accelerated colorspace conversion found from yuv420p to rgb24.\n[swscaler @ 0x149a98000] [swscaler @ 0x1396b8000] No accelerated colorspace conversion found from yuv420p to rgb24.\n[swscaler @ 0x149a98000] [swscaler @ 0x1396c8000] No accelerated colorspace conversion found from yuv420p to rgb24.\n[swscaler @ 0x149a98000] [swscaler @ 0x1396d8000] No accelerated colorspace conversion found from yuv420p to rgb24.\n[swscaler @ 0x149a98000] [swscaler @ 0x1396e8000] No accelerated colorspace conversion found from yuv420p to rgb24.\n[swscaler @ 0x149a98000] [swscaler @ 0x1396f8000] No accelerated colorspace conversion found from yuv420p to rgb24.\n[swscaler @ 0x149a98000] [swscaler @ 0x139708000] No accelerated colorspace conversion found from yuv420p to rgb24.\n[swscaler @ 0x149a98000] [swscaler @ 0x139718000] No accelerated colorspace conversion found from yuv420p to rgb24.\n[image2 @ 0x141f05490] The specified filename '/Users/ryo/Desktop/新チャンネル/EP001_Anubis/Quiet_Origins_v05_20261021/review/libass/balance_en_14.png' does not contain an image sequence pattern or a pattern is invalid.\n[image2 @ 0x141f05490] Use a pattern such as %03d for an image sequence or use the -update option (with -frames:v 1 if needed) to write a single image.\n"
+    },
+    {
+      "label": "Concept diagram",
+      "language": "en",
+      "time_seconds": 24.086,
+      "cue": 6,
+      "font_size": 26,
+      "subtitle_bbox": [
+        414,
+        836,
+        1505,
+        1038
+      ],
+      "actual_libass_render": true,
+      "image": "review/libass/balance_en_26.png",
+      "warnings": "[Parsed_subtitles_0 @ 0x131706fa0] libass wasn't built with ASS_FEATURE_WRAP_UNICODE support\n[Parsed_subtitles_0 @ 0x13161dbc0] libass wasn't built with ASS_FEATURE_WRAP_UNICODE support\n[swscaler @ 0x138aa8000] [swscaler @ 0x138ab8000] No accelerated colorspace conversion found from yuv420p to rgb24.\n[swscaler @ 0x138aa8000] [swscaler @ 0x138ac8000] No accelerated colorspace conversion found from yuv420p to rgb24.\n[swscaler @ 0x138aa8000] [swscaler @ 0x138bb8000] No accelerated colorspace conversion found from yuv420p to rgb24.\n[swscaler @ 0x138aa8000] [swscaler @ 0x138bc8000] No accelerated colorspace conversion found from yuv420p to rgb24.\n[swscaler @ 0x138aa8000] [swscaler @ 0x138bd8000] No accelerated colorspace conversion found from yuv420p to rgb24.\n[swscaler @ 0x138aa8000] [swscaler @ 0x138be8000] No accelerated colorspace conversion found from yuv420p to rgb24.\n[swscaler @ 0x138aa8000] [swscaler @ 0x138bf8000] No accelerated colorspace conversion found from yuv420p to rgb24.\n[swscaler @ 0x138aa8000] [swscaler @ 0x138c08000] No accelerated colorspace conversion found from yuv420p to rgb24.\n[swscaler @ 0x138aa8000] [swscaler @ 0x138c18000] No accelerated colorspace conversion found from yuv420p to rgb24.\n[image2 @ 0x131705490] The specified filename '/Users/ryo/Desktop/新チャンネル/EP001_Anubis/Quiet_Origins_v05_20261021/review/libass/balance_en_26.png' does not contain an image sequence pattern or a pattern is invalid.\n[image2 @ 0x131705490] Use a pattern such as %03d for an image sequence or use the -update option (with -frames:v 1 if needed) to write a single image.\n"
+    },
+    {
+      "label": "Concept diagram",
+      "language": "ja",
+      "time_seconds": 20.275,
+      "cue": 6,
+      "font_size": 14,
+      "subtitle_bbox": [
+        642,
+        926,
+        1277,
+        1038
+      ],
+      "actual_libass_render": true,
+      "image": "review/libass/balance_ja_14.png",
+      "warnings": "[Parsed_subtitles_0 @ 0x14f707730] libass wasn't built with ASS_FEATURE_WRAP_UNICODE support\n[Parsed_subtitles_0 @ 0x14f61e2f0] libass wasn't built with ASS_FEATURE_WRAP_UNICODE support\n[swscaler @ 0x130f30000] [swscaler @ 0x130f40000] No accelerated colorspace conversion found from yuv420p to rgb24.\n[swscaler @ 0x130f30000] [swscaler @ 0x130f50000] No accelerated colorspace conversion found from yuv420p to rgb24.\n[swscaler @ 0x130f30000] [swscaler @ 0x130f60000] No accelerated colorspace conversion found from yuv420p to rgb24.\n[swscaler @ 0x130f30000] [swscaler @ 0x130f70000] No accelerated colorspace conversion found from yuv420p to rgb24.\n[swscaler @ 0x130f30000] [swscaler @ 0x130f80000] No accelerated colorspace conversion found from yuv420p to rgb24.\n[swscaler @ 0x130f30000] [swscaler @ 0x130f90000] No accelerated colorspace conversion found from yuv420p to rgb24.\n[swscaler @ 0x130f30000] [swscaler @ 0x130fa0000] No accelerated colorspace conversion found from yuv420p to rgb24.\n[swscaler @ 0x130f30000] [swscaler @ 0x130fb0000] No accelerated colorspace conversion found from yuv420p to rgb24.\n[swscaler @ 0x130f30000] [swscaler @ 0x130fc0000] No accelerated colorspace conversion found from yuv420p to rgb24.\n[image2 @ 0x14f705b30] The specified filename '/Users/ryo/Desktop/新チャンネル/EP001_Anubis/Quiet_Origins_v05_20261021/review/libass/balance_ja_14.png' does not contain an image sequence pattern or a pattern is invalid.\n[image2 @ 0x14f705b30] Use a pattern such as %03d for an image sequence or use the -update option (with -frames:v 1 if needed) to write a single image.\n"
+    },
+    {
+      "label": "Concept diagram",
+      "language": "ja",
+      "time_seconds": 20.275,
+      "cue": 6,
+      "font_size": 26,
+      "subtitle_bbox": [
+        373,
+        836,
+        1546,
+        1038
+      ],
+      "actual_libass_render": true,
+      "image": "review/libass/balance_ja_26.png",
+      "warnings": "[Parsed_subtitles_0 @ 0x113606340] libass wasn't built with ASS_FEATURE_WRAP_UNICODE support\n[Parsed_subtitles_0 @ 0x12361f3a0] libass wasn't built with ASS_FEATURE_WRAP_UNICODE support\n[swscaler @ 0x128ed0000] [swscaler @ 0x138398000] No accelerated colorspace conversion found from yuv420p to rgb24.\n[swscaler @ 0x128ed0000] [swscaler @ 0x1383a8000] No accelerated colorspace conversion found from yuv420p to rgb24.\n[swscaler @ 0x128ed0000] [swscaler @ 0x1383b8000] No accelerated colorspace conversion found from yuv420p to rgb24.\n[swscaler @ 0x128ed0000] [swscaler @ 0x130e48000] No accelerated colorspace conversion found from yuv420p to rgb24.\n[swscaler @ 0x128ed0000] [swscaler @ 0x130e58000] No accelerated colorspace conversion found from yuv420p to rgb24.\n[swscaler @ 0x128ed0000] [swscaler @ 0x130e68000] No accelerated colorspace conversion found from yuv420p to rgb24.\n[swscaler @ 0x128ed0000] [swscaler @ 0x130e78000] No accelerated colorspace conversion found from yuv420p to rgb24.\n[swscaler @ 0x128ed0000] [swscaler @ 0x130e88000] No accelerated colorspace conversion found from yuv420p to rgb24.\n[swscaler @ 0x128ed0000] [swscaler @ 0x130e98000] No accelerated colorspace conversion found from yuv420p to rgb24.\n[image2 @ 0x113604560] The specified filename '/Users/ryo/Desktop/新チャンネル/EP001_Anubis/Quiet_Origins_v05_20261021/review/libass/balance_ja_26.png' does not contain an image sequence pattern or a pattern is invalid.\n[image2 @ 0x113604560] Use a pattern such as %03d for an image sequence or use the -update option (with -frames:v 1 if needed) to write a single image.\n"
+    },
+    {
+      "label": "Production credits",
+      "language": "en",
+      "time_seconds": 668.9159999999999,
+      "cue": 149,
+      "font_size": 14,
+      "subtitle_bbox": [
+        551,
+        926,
+        1368,
+        1038
+      ],
+      "actual_libass_render": true,
+      "image": "review/libass/credits_en_14.png",
+      "warnings": "[Parsed_subtitles_0 @ 0x14af06fa0] libass wasn't built with ASS_FEATURE_WRAP_UNICODE support\n[Parsed_subtitles_0 @ 0x14ae1db00] libass wasn't built with ASS_FEATURE_WRAP_UNICODE support\n[swscaler @ 0x150ab0000] [swscaler @ 0x150ac0000] No accelerated colorspace conversion found from yuv420p to rgb24.\n[swscaler @ 0x150ab0000] [swscaler @ 0x150bb8000] No accelerated colorspace conversion found from yuv420p to rgb24.\n[swscaler @ 0x150ab0000] [swscaler @ 0x150bc8000] No accelerated colorspace conversion found from yuv420p to rgb24.\n[swscaler @ 0x150ab0000] [swscaler @ 0x150bd8000] No accelerated colorspace conversion found from yuv420p to rgb24.\n[swscaler @ 0x150ab0000] [swscaler @ 0x150be8000] No accelerated colorspace conversion found from yuv420p to rgb24.\n[swscaler @ 0x150ab0000] [swscaler @ 0x150bf8000] No accelerated colorspace conversion found from yuv420p to rgb24.\n[swscaler @ 0x150ab0000] [swscaler @ 0x150c08000] No accelerated colorspace conversion found from yuv420p to rgb24.\n[swscaler @ 0x150ab0000] [swscaler @ 0x150c18000] No accelerated colorspace conversion found from yuv420p to rgb24.\n[swscaler @ 0x150ab0000] [swscaler @ 0x150c28000] No accelerated colorspace conversion found from yuv420p to rgb24.\n[image2 @ 0x14af05490] The specified filename '/Users/ryo/Desktop/新チャンネル/EP001_Anubis/Quiet_Origins_v05_20261021/review/libass/credits_en_14.png' does not contain an image sequence pattern or a pattern is invalid.\n[image2 @ 0x14af05490] Use a pattern such as %03d for an image sequence or use the -update option (with -frames:v 1 if needed) to write a single image.\n"
+    },
+    {
+      "label": "Production credits",
+      "language": "en",
+      "time_seconds": 668.9159999999999,
+      "cue": 149,
+      "font_size": 26,
+      "subtitle_bbox": [
+        205,
+        836,
+        1714,
+        1038
+      ],
+      "actual_libass_render": true,
+      "image": "review/libass/credits_en_26.png",
+      "warnings": "[Parsed_subtitles_0 @ 0x15d806fa0] libass wasn't built with ASS_FEATURE_WRAP_UNICODE support\n[Parsed_subtitles_0 @ 0x15bf16380] libass wasn't built with ASS_FEATURE_WRAP_UNICODE support\n[swscaler @ 0x131310000] [swscaler @ 0x131320000] No accelerated colorspace conversion found from yuv420p to rgb24.\n[swscaler @ 0x131310000] [swscaler @ 0x131330000] No accelerated colorspace conversion found from yuv420p to rgb24.\n[swscaler @ 0x131310000] [swscaler @ 0x131340000] No accelerated colorspace conversion found from yuv420p to rgb24.\n[swscaler @ 0x131310000] [swscaler @ 0x131350000] No accelerated colorspace conversion found from yuv420p to rgb24.\n[swscaler @ 0x131310000] [swscaler @ 0x131360000] No accelerated colorspace conversion found from yuv420p to rgb24.\n[swscaler @ 0x131310000] [swscaler @ 0x131370000] No accelerated colorspace conversion found from yuv420p to rgb24.\n[swscaler @ 0x131310000] [swscaler @ 0x131380000] No accelerated colorspace conversion found from yuv420p to rgb24.\n[swscaler @ 0x131310000] [swscaler @ 0x131390000] No accelerated colorspace conversion found from yuv420p to rgb24.\n[swscaler @ 0x131310000] [swscaler @ 0x1313a0000] No accelerated colorspace conversion found from yuv420p to rgb24.\n[image2 @ 0x15d805490] The specified filename '/Users/ryo/Desktop/新チャンネル/EP001_Anubis/Quiet_Origins_v05_20261021/review/libass/credits_en_26.png' does not contain an image sequence pattern or a pattern is invalid.\n[image2 @ 0x15d805490] Use a pattern such as %03d for an image sequence or use the -update option (with -frames:v 1 if needed) to write a single image.\n"
+    },
+    {
+      "label": "Production credits",
+      "language": "ja",
+      "time_seconds": 669.606,
+      "cue": 135,
+      "font_size": 14,
+      "subtitle_bbox": [
+        642,
+        926,
+        1277,
+        1038
+      ],
+      "actual_libass_render": true,
+      "image": "review/libass/credits_ja_14.png",
+      "warnings": "[Parsed_subtitles_0 @ 0x140706fa0] libass wasn't built with ASS_FEATURE_WRAP_UNICODE support\n[Parsed_subtitles_0 @ 0x130605090] libass wasn't built with ASS_FEATURE_WRAP_UNICODE support\n[swscaler @ 0x129d38000] [swscaler @ 0x129d48000] No accelerated colorspace conversion found from yuv420p to rgb24.\n[swscaler @ 0x129d38000] [swscaler @ 0x129d58000] No accelerated colorspace conversion found from yuv420p to rgb24.\n[swscaler @ 0x129d38000] [swscaler @ 0x129d68000] No accelerated colorspace conversion found from yuv420p to rgb24.\n[swscaler @ 0x129d38000] [swscaler @ 0x129d78000] No accelerated colorspace conversion found from yuv420p to rgb24.\n[swscaler @ 0x129d38000] [swscaler @ 0x129d88000] No accelerated colorspace conversion found from yuv420p to rgb24.\n[swscaler @ 0x129d38000] [swscaler @ 0x129d98000] No accelerated colorspace conversion found from yuv420p to rgb24.\n[swscaler @ 0x129d38000] [swscaler @ 0x129da8000] No accelerated colorspace conversion found from yuv420p to rgb24.\n[swscaler @ 0x129d38000] [swscaler @ 0x129db8000] No accelerated colorspace conversion found from yuv420p to rgb24.\n[swscaler @ 0x129d38000] [swscaler @ 0x129dc8000] No accelerated colorspace conversion found from yuv420p to rgb24.\n[image2 @ 0x140705490] The specified filename '/Users/ryo/Desktop/新チャンネル/EP001_Anubis/Quiet_Origins_v05_20261021/review/libass/credits_ja_14.png' does not contain an image sequence pattern or a pattern is invalid.\n[image2 @ 0x140705490] Use a pattern such as %03d for an image sequence or use the -update option (with -frames:v 1 if needed) to write a single image.\n"
+    },
+    {
+      "label": "Production credits",
+      "language": "ja",
+      "time_seconds": 669.606,
+      "cue": 135,
+      "font_size": 26,
+      "subtitle_bbox": [
+        373,
+        836,
+        1546,
+        1038
+      ],
+      "actual_libass_render": true,
+      "image": "review/libass/credits_ja_26.png",
+      "warnings": "[Parsed_subtitles_0 @ 0x12bf06fa0] libass wasn't built with ASS_FEATURE_WRAP_UNICODE support\n[Parsed_subtitles_0 @ 0x11be05c70] libass wasn't built with ASS_FEATURE_WRAP_UNICODE support\n[swscaler @ 0x110d68000] [swscaler @ 0x110d78000] No accelerated colorspace conversion found from yuv420p to rgb24.\n[swscaler @ 0x110d68000] [swscaler @ 0x110d88000] No accelerated colorspace conversion found from yuv420p to rgb24.\n[swscaler @ 0x110d68000] [swscaler @ 0x110d98000] No accelerated colorspace conversion found from yuv420p to rgb24.\n[swscaler @ 0x110d68000] [swscaler @ 0x110da8000] No accelerated colorspace conversion found from yuv420p to rgb24.\n[swscaler @ 0x110d68000] [swscaler @ 0x110db8000] No accelerated colorspace conversion found from yuv420p to rgb24.\n[swscaler @ 0x110d68000] [swscaler @ 0x110dc8000] No accelerated colorspace conversion found from yuv420p to rgb24.\n[swscaler @ 0x110d68000] [swscaler @ 0x110dd8000] No accelerated colorspace conversion found from yuv420p to rgb24.\n[swscaler @ 0x110d68000] [swscaler @ 0x110de8000] No accelerated colorspace conversion found from yuv420p to rgb24.\n[swscaler @ 0x110d68000] [swscaler @ 0x110df8000] No accelerated colorspace conversion found from yuv420p to rgb24.\n[image2 @ 0x12bf05490] The specified filename '/Users/ryo/Desktop/新チャンネル/EP001_Anubis/Quiet_Origins_v05_20261021/review/libass/credits_ja_26.png' does not contain an image sequence pattern or a pattern is invalid.\n[image2 @ 0x12bf05490] Use a pattern such as %03d for an image sequence or use the -update option (with -frames:v 1 if needed) to write a single image.\n"
+    },
+    {
+      "label": "Concept diagram (boxes)",
+      "language": "en",
+      "time_seconds": 55.847,
+      "cue": 13,
+      "font_size": 14,
+      "subtitle_bbox": [
+        598,
+        926,
+        1321,
+        1038
+      ],
+      "actual_libass_render": true,
+      "image": "review/libass/evidence_en_14.png",
+      "warnings": "[Parsed_subtitles_0 @ 0x13c706fa0] libass wasn't built with ASS_FEATURE_WRAP_UNICODE support\n[Parsed_subtitles_0 @ 0x10c604370] libass wasn't built with ASS_FEATURE_WRAP_UNICODE support\n[swscaler @ 0x1414f0000] [swscaler @ 0x150208000] No accelerated colorspace conversion found from yuv420p to rgb24.\n[swscaler @ 0x1414f0000] [swscaler @ 0x150218000] No accelerated colorspace conversion found from yuv420p to rgb24.\n[swscaler @ 0x1414f0000] [swscaler @ 0x150228000] No accelerated colorspace conversion found from yuv420p to rgb24.\n[swscaler @ 0x1414f0000] [swscaler @ 0x150238000] No accelerated colorspace conversion found from yuv420p to rgb24.\n[swscaler @ 0x1414f0000] [swscaler @ 0x150248000] No accelerated colorspace conversion found from yuv420p to rgb24.\n[swscaler @ 0x1414f0000] [swscaler @ 0x150258000] No accelerated colorspace conversion found from yuv420p to rgb24.\n[swscaler @ 0x1414f0000] [swscaler @ 0x1218a0000] No accelerated colorspace conversion found from yuv420p to rgb24.\n[swscaler @ 0x1414f0000] [swscaler @ 0x1218b0000] No accelerated colorspace conversion found from yuv420p to rgb24.\n[swscaler @ 0x1414f0000] [swscaler @ 0x1218c0000] No accelerated colorspace conversion found from yuv420p to rgb24.\n[image2 @ 0x13c705490] The specified filename '/Users/ryo/Desktop/新チャンネル/EP001_Anubis/Quiet_Origins_v05_20261021/review/libass/evidence_en_14.png' does not contain an image sequence pattern or a pattern is invalid.\n[image2 @ 0x13c705490] Use a pattern such as %03d for an image sequence or use the -update option (with -frames:v 1 if needed) to write a single image.\n"
+    },
+    {
+      "label": "Concept diagram (boxes)",
+      "language": "en",
+      "time_seconds": 55.847,
+      "cue": 13,
+      "font_size": 26,
+      "subtitle_bbox": [
+        293,
+        836,
+        1626,
+        1038
+      ],
+      "actual_libass_render": true,
+      "image": "review/libass/evidence_en_26.png",
+      "warnings": "[Parsed_subtitles_0 @ 0x14d706fa0] libass wasn't built with ASS_FEATURE_WRAP_UNICODE support\n[Parsed_subtitles_0 @ 0x13d6079d0] libass wasn't built with ASS_FEATURE_WRAP_UNICODE support\n[swscaler @ 0x178008000] [swscaler @ 0x178018000] No accelerated colorspace conversion found from yuv420p to rgb24.\n[swscaler @ 0x178008000] [swscaler @ 0x178028000] No accelerated colorspace conversion found from yuv420p to rgb24.\n[swscaler @ 0x178008000] [swscaler @ 0x178038000] No accelerated colorspace conversion found from yuv420p to rgb24.\n[swscaler @ 0x178008000] [swscaler @ 0x178048000] No accelerated colorspace conversion found from yuv420p to rgb24.\n[swscaler @ 0x178008000] [swscaler @ 0x178058000] No accelerated colorspace conversion found from yuv420p to rgb24.\n[swscaler @ 0x178008000] [swscaler @ 0x178068000] No accelerated colorspace conversion found from yuv420p to rgb24.\n[swscaler @ 0x178008000] [swscaler @ 0x178078000] No accelerated colorspace conversion found from yuv420p to rgb24.\n[swscaler @ 0x178008000] [swscaler @ 0x178088000] No accelerated colorspace conversion found from yuv420p to rgb24.\n[swscaler @ 0x178008000] [swscaler @ 0x178098000] No accelerated colorspace conversion found from yuv420p to rgb24.\n[image2 @ 0x14d705490] The specified filename '/Users/ryo/Desktop/新チャンネル/EP001_Anubis/Quiet_Origins_v05_20261021/review/libass/evidence_en_26.png' does not contain an image sequence pattern or a pattern is invalid.\n[image2 @ 0x14d705490] Use a pattern such as %03d for an image sequence or use the -update option (with -frames:v 1 if needed) to write a single image.\n"
+    },
+    {
+      "label": "Concept diagram (boxes)",
+      "language": "ja",
+      "time_seconds": 59.141,
+      "cue": 13,
+      "font_size": 14,
+      "subtitle_bbox": [
+        621,
+        926,
+        1298,
+        1038
+      ],
+      "actual_libass_render": true,
+      "image": "review/libass/evidence_ja_14.png",
+      "warnings": "[Parsed_subtitles_0 @ 0x155706fa0] libass wasn't built with ASS_FEATURE_WRAP_UNICODE support\n[Parsed_subtitles_0 @ 0x1268041a0] libass wasn't built with ASS_FEATURE_WRAP_UNICODE support\n[swscaler @ 0x159418000] [swscaler @ 0x128dc8000] No accelerated colorspace conversion found from yuv420p to rgb24.\n[swscaler @ 0x159418000] [swscaler @ 0x128dd8000] No accelerated colorspace conversion found from yuv420p to rgb24.\n[swscaler @ 0x159418000] [swscaler @ 0x128de8000] No accelerated colorspace conversion found from yuv420p to rgb24.\n[swscaler @ 0x159418000] [swscaler @ 0x128df8000] No accelerated colorspace conversion found from yuv420p to rgb24.\n[swscaler @ 0x159418000] [swscaler @ 0x128e08000] No accelerated colorspace conversion found from yuv420p to rgb24.\n[swscaler @ 0x159418000] [swscaler @ 0x128e18000] No accelerated colorspace conversion found from yuv420p to rgb24.\n[swscaler @ 0x159418000] [swscaler @ 0x128e28000] No accelerated colorspace conversion found from yuv420p to rgb24.\n[swscaler @ 0x159418000] [swscaler @ 0x128e38000] No accelerated colorspace conversion found from yuv420p to rgb24.\n[swscaler @ 0x159418000] [swscaler @ 0x128e48000] No accelerated colorspace conversion found from yuv420p to rgb24.\n[image2 @ 0x155705490] The specified filename '/Users/ryo/Desktop/新チャンネル/EP001_Anubis/Quiet_Origins_v05_20261021/review/libass/evidence_ja_14.png' does not contain an image sequence pattern or a pattern is invalid.\n[image2 @ 0x155705490] Use a pattern such as %03d for an image sequence or use the -update option (with -frames:v 1 if needed) to write a single image.\n"
+    },
+    {
+      "label": "Concept diagram (boxes)",
+      "language": "ja",
+      "time_seconds": 59.141,
+      "cue": 13,
+      "font_size": 26,
+      "subtitle_bbox": [
+        334,
+        836,
+        1585,
+        1038
+      ],
+      "actual_libass_render": true,
+      "image": "review/libass/evidence_ja_26.png",
+      "warnings": "[Parsed_subtitles_0 @ 0x127e06fa0] libass wasn't built with ASS_FEATURE_WRAP_UNICODE support\n[Parsed_subtitles_0 @ 0x127e59c20] libass wasn't built with ASS_FEATURE_WRAP_UNICODE support\n[swscaler @ 0x1192a0000] [swscaler @ 0x1192b0000] No accelerated colorspace conversion found from yuv420p to rgb24.\n[swscaler @ 0x1192a0000] [swscaler @ 0x1192c0000] No accelerated colorspace conversion found from yuv420p to rgb24.\n[swscaler @ 0x1192a0000] [swscaler @ 0x1192d0000] No accelerated colorspace conversion found from yuv420p to rgb24.\n[swscaler @ 0x1192a0000] [swscaler @ 0x1192e0000] No accelerated colorspace conversion found from yuv420p to rgb24.\n[swscaler @ 0x1192a0000] [swscaler @ 0x1192f0000] No accelerated colorspace conversion found from yuv420p to rgb24.\n[swscaler @ 0x1192a0000] [swscaler @ 0x119300000] No accelerated colorspace conversion found from yuv420p to rgb24.\n[swscaler @ 0x1192a0000] [swscaler @ 0x119310000] No accelerated colorspace conversion found from yuv420p to rgb24.\n[swscaler @ 0x1192a0000] [swscaler @ 0x119320000] No accelerated colorspace conversion found from yuv420p to rgb24.\n[swscaler @ 0x1192a0000] [swscaler @ 0x119330000] No accelerated colorspace conversion found from yuv420p to rgb24.\n[image2 @ 0x127e05490] The specified filename '/Users/ryo/Desktop/新チャンネル/EP001_Anubis/Quiet_Origins_v05_20261021/review/libass/evidence_ja_26.png' does not contain an image sequence pattern or a pattern is invalid.\n[image2 @ 0x127e05490] Use a pattern such as %03d for an image sequence or use the -update option (with -frames:v 1 if needed) to write a single image.\n"
+    }
+  ],
+  "note": "Actual MP4 + SRT rendered with libass, not player screenshots. Visual review of these images is separate."
+}
