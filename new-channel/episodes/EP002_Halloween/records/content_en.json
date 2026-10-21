@@ -1,0 +1,343 @@
+{
+  "episode_id": "EP002",
+  "series": "Quiet Origins",
+  "language": "en",
+  "title": "Halloween: Ancient Celtic Festival, or Something Else? | What the Sources Reveal",
+  "subtitle": "What the written record says about Samhain, All Hallows' Eve, and the customs that followed",
+  "script_version": "v02 (2026-10-22)",
+  "opening_after": "H02",
+  "chapters": [
+    {
+      "id": "C01",
+      "title": "The Story We Are Told"
+    },
+    {
+      "id": "C02",
+      "title": "What the Medieval Texts Say"
+    },
+    {
+      "id": "C03",
+      "title": "A God Who Never Was"
+    },
+    {
+      "id": "C04",
+      "title": "All Hallows' Eve"
+    },
+    {
+      "id": "C05",
+      "title": "A Night of Fortune-Telling"
+    },
+    {
+      "id": "C06",
+      "title": "From Turnips to Pumpkins"
+    },
+    {
+      "id": "C07",
+      "title": "Layers of a Night"
+    }
+  ],
+  "sources": [
+    {
+      "id": "H-S01",
+      "title": "Ronald Hutton, The Stations of the Sun (Oxford University Press, 1996)",
+      "kind": "scholarly_book",
+      "status": "secondary_reports_only; page to verify"
+    },
+    {
+      "id": "H-S02",
+      "title": "Medieval Irish tales (Echtra Cormaic; Macgnímartha Finn) in scholarly translation",
+      "kind": "medieval_texts",
+      "status": "secondary_reports_only"
+    },
+    {
+      "id": "H-S03",
+      "title": "Coligny calendar, Lugdunum – Musée et théâtres romains, Lyon (LUG br.001)",
+      "url": "https://lugdunum.grandlyon.com/fr/Oeuvre-incontournable/2381-Calendrier-gaulois-de-Coligny",
+      "kind": "artifact",
+      "status": "museum page checked by Codex 2026-10-21 (late 1st century)"
+    },
+    {
+      "id": "H-S04",
+      "title": "Charles Vallancey, Collectanea de Rebus Hibernicis",
+      "url": "https://wellcomecollection.org/works/ukgp57xu",
+      "kind": "18th_century_book",
+      "status": "claim confirmed via secondary sources; original page not yet viewed"
+    },
+    {
+      "id": "H-S05",
+      "title": "Encyclopaedia Britannica, All Saints' Day",
+      "url": "https://www.britannica.com/topic/All-Saints-Day",
+      "kind": "encyclopedia",
+      "status": "checked"
+    },
+    {
+      "id": "H-S06",
+      "title": "Robert Burns, Halloween (written 1785, Kilmarnock edition 1786)",
+      "kind": "primary_text",
+      "status": "summary checked; quote requires original"
+    },
+    {
+      "id": "H-S07",
+      "title": "Merriam-Webster, The History of 'Jack-O'-Lantern'; OED",
+      "url": "https://www.merriam-webster.com/wordplay/the-history-of-jack-o-lantern",
+      "kind": "dictionary",
+      "status": "checked (OED dates via secondary)"
+    },
+    {
+      "id": "H-S08",
+      "title": "The Canadian Encyclopedia, Halloween",
+      "url": "https://thecanadianencyclopedia.ca/en/article/halloween",
+      "kind": "encyclopedia",
+      "status": "checked"
+    },
+    {
+      "id": "H-S09",
+      "title": "Smithsonian Magazine, kale divination",
+      "url": "https://www.smithsonianmag.com/arts-culture/the-halloween-tradition-best-left-dead-kale-as-matchmaker-100207686/",
+      "kind": "magazine",
+      "status": "checked"
+    }
+  ],
+  "segments": [
+    {
+      "id": "H01",
+      "chapter": "C01",
+      "sources": [],
+      "classification": "editorial_question",
+      "visuals": [
+        "R01",
+        "A02"
+      ],
+      "text": "Every October, the same story returns. Halloween, we are told, began as Samhain, an ancient Celtic festival of the dead, ruled by a lord of death. It is a good story. But what do the sources actually say?"
+    },
+    {
+      "id": "H02",
+      "chapter": "C01",
+      "sources": [],
+      "classification": "editorial_question",
+      "visuals": [
+        "D_trail",
+        "R01"
+      ],
+      "text": "In this episode, we follow the paper trail: medieval Irish manuscripts, a Christian feast day, a Scottish poem, and a short newspaper report from Canada. Halloween turns out to be not one ancient festival, but several layers of history."
+    },
+    {
+      "id": "H03",
+      "chapter": "C02",
+      "sources": [
+        "H-S01",
+        "H-S02"
+      ],
+      "classification": "historical_fact",
+      "visuals": [
+        "D_texts",
+        "R01"
+      ],
+      "text": "The word Samhain appears in early Irish literature, written down by Christian scribes between roughly the eighth and twelfth centuries. In these texts, Samhain marks the beginning of winter, one of the great turning points of the year."
+    },
+    {
+      "id": "H04",
+      "chapter": "C02",
+      "sources": [
+        "H-S02"
+      ],
+      "classification": "myth_variant",
+      "visuals": [
+        "R01",
+        "D_texts"
+      ],
+      "text": "The tales describe assemblies and feasts at Samhain, including gatherings at Tara, the seat of the high kings. Some stories say that at Samhain, the mounds of the otherworld stood open, and beings from the other side could cross into ours."
+    },
+    {
+      "id": "H05",
+      "chapter": "C02",
+      "sources": [
+        "H-S01",
+        "H-S02"
+      ],
+      "classification": "scholarly_interpretation",
+      "visuals": [
+        "D_story_record",
+        "R01"
+      ],
+      "text": "That is where the idea of a night when worlds draw close comes from. But these are stories, written down centuries after the pagan period, by Christian hands. They are not eyewitness accounts of pagan rites, and historians such as Ronald Hutton have noted how little they reveal about any religious ceremonies at Samhain."
+    },
+    {
+      "id": "H06",
+      "chapter": "C02",
+      "sources": [
+        "H-S03"
+      ],
+      "classification": "scholarly_interpretation",
+      "visuals": [
+        "A05",
+        "A05_detail"
+      ],
+      "text": "Older still is a bronze calendar found at Coligny in France, made in Roman Gaul about two thousand years ago. The museum that holds it dates it to the late first century. One of its months is called Samonios. The name may be related to Samhain, but the calendar tells us almost nothing about how that month was marked."
+    },
+    {
+      "id": "H07",
+      "chapter": "C03",
+      "sources": [
+        "H-S04"
+      ],
+      "classification": "historical_fact",
+      "visuals": [
+        "A06",
+        "A06_detail"
+      ],
+      "text": "And the lord of the dead? In the late eighteenth century, the antiquarian Charles Vallancey claimed that Samhain was the name of a god. He gave no ancient source for it, and his theories were doubted even in his own time."
+    },
+    {
+      "id": "H08",
+      "chapter": "C03",
+      "sources": [
+        "H-S04"
+      ],
+      "classification": "scholarly_interpretation",
+      "visuals": [
+        "A06",
+        "D_season"
+      ],
+      "text": "Still, the idea spread, and books in the twentieth century repeated it. But there is no such god in early Irish texts. Samhain was the name of a season and a festival, not of a deity."
+    },
+    {
+      "id": "H09",
+      "chapter": "C04",
+      "sources": [
+        "H-S05"
+      ],
+      "classification": "historical_fact",
+      "visuals": [
+        "A04",
+        "A03"
+      ],
+      "text": "The name Halloween comes from another tradition. In the Christian calendar, the first of November is All Saints' Day. According to Encyclopaedia Britannica, Pope Gregory the Third dedicated a chapel in Rome to all the saints in the eighth century, and in 837, Pope Gregory the Fourth ordered the feast to be observed generally."
+    },
+    {
+      "id": "H10",
+      "chapter": "C04",
+      "sources": [
+        "H-S05"
+      ],
+      "classification": "historical_fact",
+      "visuals": [
+        "A03",
+        "A03_detail"
+      ],
+      "text": "In medieval England, the feast was called All Hallows, hallow meaning saint. The evening before was All Hallows' Eve, shortened over time to Hallowe'en. So the name itself is Christian."
+    },
+    {
+      "id": "H11",
+      "chapter": "C04",
+      "sources": [
+        "H-S05",
+        "H-S01"
+      ],
+      "classification": "scholarly_interpretation",
+      "visuals": [
+        "D_calendar",
+        "A04_detail"
+      ],
+      "text": "Historians still debate whether the date of the feast had anything to do with Samhain. What we can say is that in Ireland and Scotland, the start of winter and the eve of All Saints came to share the same night."
+    },
+    {
+      "id": "H12",
+      "chapter": "C05",
+      "sources": [
+        "H-S06",
+        "H-S09"
+      ],
+      "classification": "historical_fact",
+      "visuals": [
+        "A01",
+        "R03"
+      ],
+      "text": "One of the richest early descriptions comes from Scotland. In 1785, Robert Burns wrote a long poem called Halloween, published the following year. He described young people pulling up kale stalks in the dark, and burning nuts by the fire to learn who they would marry."
+    },
+    {
+      "id": "H13",
+      "chapter": "C05",
+      "sources": [
+        "H-S06"
+      ],
+      "classification": "editorial_interpretation",
+      "visuals": [
+        "R03",
+        "A01"
+      ],
+      "text": "Burns even added notes to explain the customs to his readers. In his poem, Halloween is less about fear than about laughter, mischief, and guessing at the future. It is a picture of a rural community, not of an ancient rite."
+    },
+    {
+      "id": "H14",
+      "chapter": "C06",
+      "sources": [
+        "H-S07"
+      ],
+      "classification": "historical_fact",
+      "visuals": [
+        "R02",
+        "D_jack"
+      ],
+      "text": "Then there is the jack-o'-lantern. In seventeenth-century England, the phrase meant a man carrying a lantern, or the strange lights seen over marshes at night. Only in the nineteenth century does it appear for a lantern carved from a vegetable."
+    },
+    {
+      "id": "H15",
+      "chapter": "C06",
+      "sources": [
+        "H-S07"
+      ],
+      "classification": "historical_fact",
+      "visuals": [
+        "R02",
+        "A02"
+      ],
+      "text": "In parts of Ireland and Scotland, those lanterns were carved from turnips and other roots. When the custom crossed the Atlantic, people in North America used pumpkins, which were larger and easier to carve."
+    },
+    {
+      "id": "H16",
+      "chapter": "C06",
+      "sources": [
+        "H-S08"
+      ],
+      "classification": "historical_fact",
+      "visuals": [
+        "A02",
+        "A07"
+      ],
+      "text": "Trick-or-treat has a similar story. Going from house to house in disguise, known as guising, was part of Halloween in Scotland by the nineteenth century. But the earliest known use of the phrase trick-or-treat comes from a newspaper report in Alberta, Canada, in 1927. In the decades that followed, Halloween parties and door-to-door visits spread across North America."
+    },
+    {
+      "id": "H17",
+      "chapter": "C07",
+      "sources": [],
+      "classification": "editorial_summary",
+      "visuals": [
+        "D_layers",
+        "D_trail"
+      ],
+      "text": "So where does Halloween come from? Not from a single ancient festival. It grew from a Gaelic turning of the seasons, a Christian feast, rural fortune-telling, and the customs of emigrants who carried them to a new continent."
+    },
+    {
+      "id": "H18",
+      "chapter": "C07",
+      "sources": [],
+      "classification": "editorial_interpretation",
+      "visuals": [
+        "D_trail",
+        "D_layers"
+      ],
+      "text": "Each layer left its trace in the sources, and each tells us something about the people who kept the night. Every story has an origin, and sometimes, more than one."
+    },
+    {
+      "id": "H19",
+      "chapter": "C07",
+      "sources": [],
+      "classification": "production_disclosure",
+      "visuals": [
+        "credits"
+      ],
+      "text": "This video is based on historical sources and public collections. The narration uses synthetic speech, and some images are AI-generated reconstructions. Sources and terms of use are listed in the description. Thank you for watching."
+    }
+  ]
+}

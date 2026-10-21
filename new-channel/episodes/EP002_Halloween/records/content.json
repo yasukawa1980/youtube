@@ -1,0 +1,343 @@
+{
+  "episode_id": "EP002",
+  "series": "Quiet Origins",
+  "language": "ja",
+  "title": "ハロウィン — 古代ケルトの祭りなのか",
+  "subtitle": "サウィン、諸聖人の日、そしてその後の習慣を資料からたどる",
+  "script_version": "v02 (2026-10-22)",
+  "opening_after": "H02",
+  "chapters": [
+    {
+      "id": "C01",
+      "title": "語られてきた物語"
+    },
+    {
+      "id": "C02",
+      "title": "中世の文書が語ること"
+    },
+    {
+      "id": "C03",
+      "title": "存在しなかった神"
+    },
+    {
+      "id": "C04",
+      "title": "オール・ハロウズ・イヴ"
+    },
+    {
+      "id": "C05",
+      "title": "占いの夜"
+    },
+    {
+      "id": "C06",
+      "title": "カブからかぼちゃへ"
+    },
+    {
+      "id": "C07",
+      "title": "重なり合う一夜"
+    }
+  ],
+  "sources": [
+    {
+      "id": "H-S01",
+      "title": "Ronald Hutton, The Stations of the Sun (Oxford University Press, 1996)",
+      "kind": "scholarly_book",
+      "status": "secondary_reports_only; page to verify"
+    },
+    {
+      "id": "H-S02",
+      "title": "Medieval Irish tales (Echtra Cormaic; Macgnímartha Finn) in scholarly translation",
+      "kind": "medieval_texts",
+      "status": "secondary_reports_only"
+    },
+    {
+      "id": "H-S03",
+      "title": "Coligny calendar, Lugdunum – Musée et théâtres romains, Lyon (LUG br.001)",
+      "url": "https://lugdunum.grandlyon.com/fr/Oeuvre-incontournable/2381-Calendrier-gaulois-de-Coligny",
+      "kind": "artifact",
+      "status": "museum page checked by Codex 2026-10-21 (late 1st century)"
+    },
+    {
+      "id": "H-S04",
+      "title": "Charles Vallancey, Collectanea de Rebus Hibernicis",
+      "url": "https://wellcomecollection.org/works/ukgp57xu",
+      "kind": "18th_century_book",
+      "status": "claim confirmed via secondary sources; original page not yet viewed"
+    },
+    {
+      "id": "H-S05",
+      "title": "Encyclopaedia Britannica, All Saints' Day",
+      "url": "https://www.britannica.com/topic/All-Saints-Day",
+      "kind": "encyclopedia",
+      "status": "checked"
+    },
+    {
+      "id": "H-S06",
+      "title": "Robert Burns, Halloween (written 1785, Kilmarnock edition 1786)",
+      "kind": "primary_text",
+      "status": "summary checked; quote requires original"
+    },
+    {
+      "id": "H-S07",
+      "title": "Merriam-Webster, The History of 'Jack-O'-Lantern'; OED",
+      "url": "https://www.merriam-webster.com/wordplay/the-history-of-jack-o-lantern",
+      "kind": "dictionary",
+      "status": "checked (OED dates via secondary)"
+    },
+    {
+      "id": "H-S08",
+      "title": "The Canadian Encyclopedia, Halloween",
+      "url": "https://thecanadianencyclopedia.ca/en/article/halloween",
+      "kind": "encyclopedia",
+      "status": "checked"
+    },
+    {
+      "id": "H-S09",
+      "title": "Smithsonian Magazine, kale divination",
+      "url": "https://www.smithsonianmag.com/arts-culture/the-halloween-tradition-best-left-dead-kale-as-matchmaker-100207686/",
+      "kind": "magazine",
+      "status": "checked"
+    }
+  ],
+  "segments": [
+    {
+      "id": "H01",
+      "chapter": "C01",
+      "sources": [],
+      "classification": "editorial_question",
+      "visuals": [
+        "R01",
+        "A02"
+      ],
+      "text": "毎年10月になると、同じ話がよみがえります。ハロウィンのはじまりは、古代ケルトの死者の祭りサウィン。そこには死の神がいた、という話です。よくできた物語です。けれど、資料は実際に何を語っているのでしょう。"
+    },
+    {
+      "id": "H02",
+      "chapter": "C01",
+      "sources": [],
+      "classification": "editorial_question",
+      "visuals": [
+        "D_trail",
+        "R01"
+      ],
+      "text": "今回は、書き残された記録をたどります。中世アイルランドの写本、キリスト教の祝日、スコットランドの詩、そしてカナダの小さな新聞記事。ハロウィンは、一つの古代の祭りではなく、いくつもの歴史の重なりだと分かってきます。"
+    },
+    {
+      "id": "H03",
+      "chapter": "C02",
+      "sources": [
+        "H-S01",
+        "H-S02"
+      ],
+      "classification": "historical_fact",
+      "visuals": [
+        "D_texts",
+        "R01"
+      ],
+      "text": "サウィンという言葉は、初期のアイルランド文学に登場します。書き留めたのは、おおよそ8世紀から12世紀のキリスト教の書き手たちです。これらの文書で、サウィンは冬のはじまり、一年の大きな節目を表しています。"
+    },
+    {
+      "id": "H04",
+      "chapter": "C02",
+      "sources": [
+        "H-S02"
+      ],
+      "classification": "myth_variant",
+      "visuals": [
+        "R01",
+        "D_texts"
+      ],
+      "text": "物語には、サウィンの集会や宴が描かれています。王たちの都タラでの集まりもその一つです。サウィンには異界の塚が開き、向こう側の者たちがこちらへ渡ってくる、と語る話もあります。"
+    },
+    {
+      "id": "H05",
+      "chapter": "C02",
+      "sources": [
+        "H-S01",
+        "H-S02"
+      ],
+      "classification": "scholarly_interpretation",
+      "visuals": [
+        "D_story_record",
+        "R01"
+      ],
+      "text": "「二つの世界が近づく夜」というイメージは、ここから来ています。ただし、これらは異教の時代から何世紀も後に、キリスト教の書き手が記した物語です。異教の儀式を見た人の記録ではありません。歴史家のロナルド・ハットンらは、サウィンの宗教的な儀式について、これらの文書からほとんど分からないことを指摘しています。"
+    },
+    {
+      "id": "H06",
+      "chapter": "C02",
+      "sources": [
+        "H-S03"
+      ],
+      "classification": "scholarly_interpretation",
+      "visuals": [
+        "A05",
+        "A05_detail"
+      ],
+      "text": "さらに古い資料として、フランスのコリニーで見つかった青銅の暦があります。今からおよそ2000年前、ローマ支配下のガリアで作られたもので、所蔵する博物館は1世紀後半のものとしています。その中に、サモニオスという月の名があります。サウィンと関係があるかもしれませんが、その月にどんな行事をしたのかは、ほとんど分かりません。"
+    },
+    {
+      "id": "H07",
+      "chapter": "C03",
+      "sources": [
+        "H-S04"
+      ],
+      "classification": "historical_fact",
+      "visuals": [
+        "A06",
+        "A06_detail"
+      ],
+      "text": "では、死の神はどうでしょう。18世紀の後半、好古家のチャールズ・ヴァランシーが、サウィンは神の名前だと主張しました。古い資料の裏づけはなく、当時から彼の説は疑われていました。"
+    },
+    {
+      "id": "H08",
+      "chapter": "C03",
+      "sources": [
+        "H-S04"
+      ],
+      "classification": "scholarly_interpretation",
+      "visuals": [
+        "A06",
+        "D_season"
+      ],
+      "text": "それでもこの考えは広まり、20世紀の本にも繰り返し書かれました。けれど、初期のアイルランドの文書に、そのような神はいません。サウィンは季節と祭りの名前で、神の名前ではなかったのです。"
+    },
+    {
+      "id": "H09",
+      "chapter": "C04",
+      "sources": [
+        "H-S05"
+      ],
+      "classification": "historical_fact",
+      "visuals": [
+        "A04",
+        "A03"
+      ],
+      "text": "ハロウィンという名前は、別の伝統から来ています。キリスト教の暦では、11月1日は諸聖人の日です。ブリタニカ百科事典によると、8世紀に教皇グレゴリウス3世がローマにすべての聖人のための礼拝堂を献じ、837年には教皇グレゴリウス4世が、この祝日を広く祝うよう定めました。"
+    },
+    {
+      "id": "H10",
+      "chapter": "C04",
+      "sources": [
+        "H-S05"
+      ],
+      "classification": "historical_fact",
+      "visuals": [
+        "A03",
+        "A03_detail"
+      ],
+      "text": "中世のイングランドでは、この祝日はオール・ハロウズと呼ばれました。ハロウは聖人という意味です。その前の晩がオール・ハロウズ・イヴ。それが縮まって、ハロウィンになりました。名前そのものは、キリスト教に由来するのです。"
+    },
+    {
+      "id": "H11",
+      "chapter": "C04",
+      "sources": [
+        "H-S05",
+        "H-S01"
+      ],
+      "classification": "scholarly_interpretation",
+      "visuals": [
+        "D_calendar",
+        "A04_detail"
+      ],
+      "text": "この祝日の日付がサウィンと関係するのかどうかは、今も研究者の間で意見が分かれています。確かに言えるのは、アイルランドやスコットランドで、冬のはじまりと諸聖人の日の前夜が、同じ夜になっていったということです。"
+    },
+    {
+      "id": "H12",
+      "chapter": "C05",
+      "sources": [
+        "H-S06",
+        "H-S09"
+      ],
+      "classification": "historical_fact",
+      "visuals": [
+        "A01",
+        "R03"
+      ],
+      "text": "早い時期の生き生きとした記録の一つが、スコットランドに残っています。1785年、ロバート・バーンズは「ハロウィン」という長い詩を書き、翌年に出版しました。暗がりでケールの茎を引き抜いたり、火のそばでナッツを焼いたりして、将来の結婚相手を占う若者たちの姿が描かれています。"
+    },
+    {
+      "id": "H13",
+      "chapter": "C05",
+      "sources": [
+        "H-S06"
+      ],
+      "classification": "editorial_interpretation",
+      "visuals": [
+        "R03",
+        "A01"
+      ],
+      "text": "バーンズは、読者のために習慣を説明する注まで付けました。この詩のハロウィンは、恐ろしい夜というより、笑いといたずら、そして未来をのぞく楽しみの夜です。描かれているのは古代の儀式ではなく、農村の人々の暮らしです。"
+    },
+    {
+      "id": "H14",
+      "chapter": "C06",
+      "sources": [
+        "H-S07"
+      ],
+      "classification": "historical_fact",
+      "visuals": [
+        "R02",
+        "D_jack"
+      ],
+      "text": "そして、ジャック・オー・ランタンです。17世紀のイングランドで、この言葉はランタンを持った男、あるいは夜の沼地に見える不思議な光を指していました。野菜をくりぬいたランタンの意味で使われるのは、19世紀になってからです。"
+    },
+    {
+      "id": "H15",
+      "chapter": "C06",
+      "sources": [
+        "H-S07"
+      ],
+      "classification": "historical_fact",
+      "visuals": [
+        "R02",
+        "A02"
+      ],
+      "text": "アイルランドやスコットランドの一部では、そのランタンはカブなどの根菜で作られていました。習慣が大西洋を渡ると、北米の人々は、大きくて彫りやすいかぼちゃを使うようになりました。"
+    },
+    {
+      "id": "H16",
+      "chapter": "C06",
+      "sources": [
+        "H-S08"
+      ],
+      "classification": "historical_fact",
+      "visuals": [
+        "A02",
+        "A07"
+      ],
+      "text": "トリック・オア・トリートにも、似た歴史があります。仮装して家々を回るガイジングは、19世紀までにスコットランドのハロウィンの一部になっていました。けれど、トリック・オア・トリートという言葉の、知られている最も古い記録は、1927年、カナダのアルバータ州の新聞記事です。その後の数十年で、ハロウィンのパーティーや家々を回る習慣は、北米に広がっていきました。"
+    },
+    {
+      "id": "H17",
+      "chapter": "C07",
+      "sources": [],
+      "classification": "editorial_summary",
+      "visuals": [
+        "D_layers",
+        "D_trail"
+      ],
+      "text": "では、ハロウィンはどこから来たのでしょう。一つの古代の祭りからではありません。ゲール語圏の季節の節目、キリスト教の祝日、農村の占い、そして新しい大陸へ習慣を運んだ移民たち。そのすべてから育ってきたのです。"
+    },
+    {
+      "id": "H18",
+      "chapter": "C07",
+      "sources": [],
+      "classification": "editorial_interpretation",
+      "visuals": [
+        "D_trail",
+        "D_layers"
+      ],
+      "text": "どの層も、資料に跡を残しています。そしてどれも、その夜を守ってきた人々のことを教えてくれます。どの物語にも由来がある。ときには、一つではない由来が。"
+    },
+    {
+      "id": "H19",
+      "chapter": "C07",
+      "sources": [],
+      "classification": "production_disclosure",
+      "visuals": [
+        "credits"
+      ],
+      "text": "この動画は、歴史資料と公開コレクションをもとに構成しました。ナレーションには音声合成を、一部の映像にはAIによる再現画を使っています。出典と利用条件は概要欄にまとめています。ご覧いただき、ありがとうございました。"
+    }
+  ]
+}

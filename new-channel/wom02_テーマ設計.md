@@ -1,6 +1,6 @@
 # Quiet Origins 第2話「ハロウィン」：テーマ設計と台本案 v01（2026-10-21 Claude）
 
-管理ID：`wom02`。状態：**台本案は本人が承認（2026-10-21、細部はClaudeに一任）。出典の確認後に確定する**。音声・映像は未制作。
+管理ID：`wom02`。台本 v02（2026-10-22、素材調査を受けてH06・H16を修正）。状態：**台本案は本人が承認（2026-10-21、細部はClaudeに一任）。出典の確認後に確定する**。音声・映像は未制作。
 
 ## 狙い
 
@@ -32,7 +32,7 @@
 |---|---|---|---|
 | H-S01 | Ronald Hutton, *The Stations of the Sun* (Oxford University Press, 1996) | 中世の記録からはサウィンの宗教儀礼がほとんど分からない、という指摘 | 二次情報のみ。該当ページを確認する |
 | H-S02 | 中世アイルランドの物語（*Echtra Cormaic*、*Macgnímartha Finn* など）の学術翻訳 | サウィンの集会・宴（タラ）、異界の塚が開くという話 | 二次情報のみ。翻訳書で確認する |
-| H-S03 | コリニー暦（2世紀ごろ、ガロ＝ローマ博物館 リヨン） | 「Samonios」で始まる月の名。サウィンとの関係は推定 | 概要のみ |
+| H-S03 | コリニー暦（Lugdunum 博物館、リヨン、LUG br.001） | 「Samonios」の月の名。サウィンとの関係は推定。年代は所蔵館の表示「1世紀後半」に従う（2世紀とする資料もある） | 所蔵館の作品ページで確認（Codex、2026-10-21） |
 | H-S04 | Charles Vallancey, *Collectanea de Rebus Hibernicis*（18世紀後半） | 「サウィンは死の神の名」という説の出どころ | 二次情報のみ（10/21再調査）。複数の二次資料が第3巻（1786年ごろ）とし、神の名を「Balsab」と説明。巻の刊行年は原典の扉で未確認（archive.org に接続できない）。同時代からの批判（Ledwich との対立、ハイバーニアン好古協会が1783年に解散）は二次資料で確認。台本は「18世紀後半」「当時から疑われた」の表現なら支えられる |
 | H-S05 | Encyclopaedia Britannica「All Saints' Day」 | グレゴリウス3世（731〜741年）の礼拝堂、837年グレゴリウス4世による全体での遵守、All Hallows の名 | 確認済み（検索結果） |
 | H-S06 | Robert Burns「Halloween」（1785年作、1786年キルマーノック版） | ケールの茎抜き、ナッツ焼きの恋占い、作者自身の注釈 | 確認済み（概要）。本文を引用する場合は原典で |
@@ -66,7 +66,7 @@
 
 **H05** That is where the idea of a night when worlds draw close comes from. But these are stories, written down centuries after the pagan period, by Christian hands. They are not eyewitness accounts of pagan rites, and historians such as Ronald Hutton have noted how little they reveal about any religious ceremonies at Samhain.
 
-**H06** Older still is a bronze calendar found at Coligny in France, made in Roman Gaul around the second century. One of its months is called Samonios. The name may be related to Samhain, but the calendar tells us almost nothing about how that month was marked.
+**H06** Older still is a bronze calendar found at Coligny in France, made in Roman Gaul about two thousand years ago. The museum that holds it dates it to the late first century. One of its months is called Samonios. The name may be related to Samhain, but the calendar tells us almost nothing about how that month was marked.
 
 ### C03 A God Who Never Was
 
@@ -94,7 +94,7 @@
 
 **H15** In parts of Ireland and Scotland, those lanterns were carved from turnips and other roots. When the custom crossed the Atlantic, people in North America used pumpkins, which were larger and easier to carve.
 
-**H16** Trick-or-treat has a similar story. Going from house to house in disguise, known as guising, was part of Halloween in Scotland by the nineteenth century. But the earliest known use of the phrase trick-or-treat comes from a newspaper report in Alberta, Canada, in 1927.
+**H16** Trick-or-treat has a similar story. Going from house to house in disguise, known as guising, was part of Halloween in Scotland by the nineteenth century. But the earliest known use of the phrase trick-or-treat comes from a newspaper report in Alberta, Canada, in 1927. In the decades that followed, Halloween parties and door-to-door visits spread across North America.
 
 ### C07 Layers of a Night
 
@@ -118,7 +118,7 @@
 
 **H05** 「二つの世界が近づく夜」というイメージは、ここから来ています。ただし、これらは異教の時代から何世紀も後に、キリスト教の書き手が記した物語です。異教の儀式を見た人の記録ではありません。歴史家のロナルド・ハットンらは、サウィンの宗教的な儀式について、これらの文書からほとんど分からないことを指摘しています。
 
-**H06** さらに古い資料として、フランスのコリニーで見つかった青銅の暦があります。2世紀ごろ、ローマ支配下のガリアで作られたものです。その中に、サモニオスという月の名があります。サウィンと関係があるかもしれませんが、その月にどんな行事をしたのかは、ほとんど分かりません。
+**H06** さらに古い資料として、フランスのコリニーで見つかった青銅の暦があります。今からおよそ2000年前、ローマ支配下のガリアで作られたもので、所蔵する博物館は1世紀後半のものとしています。その中に、サモニオスという月の名があります。サウィンと関係があるかもしれませんが、その月にどんな行事をしたのかは、ほとんど分かりません。
 
 **H07** では、死の神はどうでしょう。18世紀の後半、好古家のチャールズ・ヴァランシーが、サウィンは神の名前だと主張しました。古い資料の裏づけはなく、当時から彼の説は疑われていました。
 
@@ -138,7 +138,7 @@
 
 **H15** アイルランドやスコットランドの一部では、そのランタンはカブなどの根菜で作られていました。習慣が大西洋を渡ると、北米の人々は、大きくて彫りやすいかぼちゃを使うようになりました。
 
-**H16** トリック・オア・トリートにも、似た歴史があります。仮装して家々を回るガイジングは、19世紀までにスコットランドのハロウィンの一部になっていました。けれど、トリック・オア・トリートという言葉の、知られている最も古い記録は、1927年、カナダのアルバータ州の新聞記事です。
+**H16** トリック・オア・トリートにも、似た歴史があります。仮装して家々を回るガイジングは、19世紀までにスコットランドのハロウィンの一部になっていました。けれど、トリック・オア・トリートという言葉の、知られている最も古い記録は、1927年、カナダのアルバータ州の新聞記事です。その後の数十年で、ハロウィンのパーティーや家々を回る習慣は、北米に広がっていきました。
 
 **H17** では、ハロウィンはどこから来たのでしょう。一つの古代の祭りからではありません。ゲール語圏の季節の節目、キリスト教の祝日、農村の占い、そして新しい大陸へ習慣を運んだ移民たち。そのすべてから育ってきたのです。
 
