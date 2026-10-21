@@ -1,0 +1,14 @@
+{
+  "passed": true,
+  "reviewer": "Codex image inspection",
+  "source": "frames extracted from actual burned-subtitle MP4s",
+  "scope": "6 samples per language including opening, two boxed diagrams, balance diagram, museum object and production credits",
+  "findings": [
+    "English and Japanese subtitles are legible",
+    "No diagram/credit/source text overlap in inspected standard-size samples",
+    "Four large-subtitle edge cases from Claude review are clear at this fixed standard size",
+    "Channel name and both voice credits remain visible"
+  ],
+  "human_full_listening": false,
+  "human_full_video_viewing": false
+}
