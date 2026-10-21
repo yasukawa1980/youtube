@@ -106,3 +106,8 @@ The music and the painting were generated with AI.
 
 - 22:56頃（日本時間）、Whispers of JapanのStudioで曲名・動画ID `vBOsCCsUHrc` と「公開予約」を確認。公開予定は10/23 19:00のまま。
 - 一般公開前のため、対応ショートの関連動画は変更せず。既存リンクを維持し、定期確認を継続する。
+
+## 2026-10-21 公開後フォローアップ確認
+
+- 23:00〜23:03頃（日本時間）、Whispers of JapanのStudioで曲名・動画ID `vBOsCCsUHrc` と「公開予約」（10/23）を確認。
+- 一般公開前のため、対応ショートの関連動画は未変更。既存リンクを維持して定期確認を継続。
