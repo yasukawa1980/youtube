@@ -1,0 +1,3304 @@
+{
+  "version": "v06",
+  "language": "en+ja short type labels",
+  "subtitles_burned_in": false,
+  "shots": [
+    {
+      "segment_id": "N01",
+      "key": "hero",
+      "file": "assets/composed_en/N01_00_hero.png",
+      "source": "assets/generated/01_anubis_chamber.png",
+      "display_size": [
+        1421,
+        800
+      ],
+      "label": "AI reconstruction",
+      "artwork_below_y220_identical_to_v05": true,
+      "screen_text": [
+        {
+          "text": "QUIET ORIGINS  /  EP001",
+          "bbox": [
+            100,
+            31,
+            439,
+            53
+          ]
+        },
+        {
+          "text": "AI RECONSTRUCTION｜AIによる再現",
+          "bbox": [
+            1259.0,
+            28,
+            1800.0,
+            58
+          ]
+        }
+      ],
+      "components": [
+        {
+          "key": "hero",
+          "source": "assets/generated/01_anubis_chamber.png",
+          "label": "AI reconstruction"
+        }
+      ],
+      "text_bottom_px": 58
+    },
+    {
+      "segment_id": "N01",
+      "key": "balance",
+      "file": "assets/composed_en/N01_01_balance.png",
+      "label": "Concept diagram",
+      "screen_text": [
+        {
+          "text": "QUIET ORIGINS  /  EP001",
+          "bbox": [
+            100,
+            31,
+            439,
+            53
+          ]
+        }
+      ],
+      "components": [],
+      "text_bottom_px": 53
+    },
+    {
+      "segment_id": "N02",
+      "key": "met_548344_detail",
+      "file": "assets/composed_en/N02_00_met_548344_detail.png",
+      "crop_pixels": [
+        381,
+        1046,
+        3697,
+        2545
+      ],
+      "source": "assets/museum/met_548344.jpg",
+      "display_size": [
+        1720,
+        778
+      ],
+      "label": "Museum object",
+      "artwork_below_y220_identical_to_v05": true,
+      "screen_text": [
+        {
+          "text": "QUIET ORIGINS  /  EP001",
+          "bbox": [
+            100,
+            31,
+            439,
+            53
+          ]
+        },
+        {
+          "text": "The Metropolitan Museum of Art / 30.3.31 / Open Access (CC0)",
+          "bbox": [
+            100,
+            172,
+            947,
+            200
+          ]
+        },
+        {
+          "text": "MUSEUM OBJECT｜博物館資料",
+          "bbox": [
+            1348.0,
+            28,
+            1800.0,
+            58
+          ]
+        }
+      ],
+      "components": [
+        {
+          "key": "met_548344_detail",
+          "source": "assets/museum/met_548344.jpg",
+          "crop_pixels": [
+            381,
+            1046,
+            3697,
+            2545
+          ],
+          "label": "Museum object"
+        }
+      ],
+      "text_bottom_px": 200
+    },
+    {
+      "segment_id": "N02",
+      "key": "met_544075",
+      "file": "assets/composed_en/N02_01_met_544075.png",
+      "source": "assets/museum/met_544075.jpg",
+      "display_size": [
+        1057,
+        800
+      ],
+      "label": "Museum object",
+      "artwork_below_y220_identical_to_v05": true,
+      "screen_text": [
+        {
+          "text": "QUIET ORIGINS  /  EP001",
+          "bbox": [
+            100,
+            31,
+            439,
+            53
+          ]
+        },
+        {
+          "text": "The Metropolitan Museum of Art / 69.105 / Open Access (CC0)",
+          "bbox": [
+            100,
+            172,
+            939,
+            200
+          ]
+        },
+        {
+          "text": "MUSEUM OBJECT｜博物館資料",
+          "bbox": [
+            1348.0,
+            28,
+            1800.0,
+            58
+          ]
+        }
+      ],
+      "components": [
+        {
+          "key": "met_544075",
+          "source": "assets/museum/met_544075.jpg",
+          "label": "Museum object"
+        }
+      ],
+      "text_bottom_px": 200
+    },
+    {
+      "segment_id": "N03",
+      "key": "evidence",
+      "file": "assets/composed_en/N03_00_evidence.png",
+      "label": "Concept diagram",
+      "screen_text": [
+        {
+          "text": "QUIET ORIGINS  /  EP001",
+          "bbox": [
+            100,
+            31,
+            439,
+            53
+          ]
+        },
+        {
+          "text": "The Metropolitan Museum of Art / Open Access (CC0)",
+          "bbox": [
+            100,
+            172,
+            822,
+            200
+          ]
+        },
+        {
+          "text": "MUSEUM OBJECT｜博物館資料",
+          "bbox": [
+            245.5,
+            621,
+            594.5,
+            644
+          ]
+        },
+        {
+          "text": "FACSIMILE｜模写",
+          "bbox": [
+            862.5,
+            621,
+            1057.5,
+            644
+          ]
+        },
+        {
+          "text": "AI RECONSTRUCTION｜AIによる再現",
+          "bbox": [
+            1292.0,
+            621,
+            1708.0,
+            644
+          ]
+        }
+      ],
+      "components": [
+        {
+          "key": "met_544075",
+          "source": "assets/museum/met_544075.jpg",
+          "label": "Museum object"
+        },
+        {
+          "key": "met_557830",
+          "source": "assets/museum/met_557830.jpg",
+          "label": "Facsimile (copy on paper)"
+        },
+        {
+          "key": "hero",
+          "source": "assets/generated/01_anubis_chamber.png",
+          "label": "AI reconstruction"
+        }
+      ],
+      "text_bottom_px": 644
+    },
+    {
+      "segment_id": "N03",
+      "key": "met_557830",
+      "file": "assets/composed_en/N03_01_met_557830.png",
+      "source": "assets/museum/met_557830.jpg",
+      "display_size": [
+        830,
+        800
+      ],
+      "label": "Facsimile (copy on paper)",
+      "artwork_below_y220_identical_to_v05": true,
+      "screen_text": [
+        {
+          "text": "QUIET ORIGINS  /  EP001",
+          "bbox": [
+            100,
+            31,
+            439,
+            53
+          ]
+        },
+        {
+          "text": "The Metropolitan Museum of Art / 33.8.21 / Open Access (CC0)",
+          "bbox": [
+            100,
+            172,
+            947,
+            200
+          ]
+        },
+        {
+          "text": "FACSIMILE｜模写",
+          "bbox": [
+            1547.0,
+            28,
+            1800.0,
+            58
+          ]
+        }
+      ],
+      "components": [
+        {
+          "key": "met_557830",
+          "source": "assets/museum/met_557830.jpg",
+          "label": "Facsimile (copy on paper)"
+        }
+      ],
+      "text_bottom_px": 200
+    },
+    {
+      "segment_id": "N04",
+      "key": "met_544075",
+      "file": "assets/composed_en/N04_00_met_544075.png",
+      "source": "assets/museum/met_544075.jpg",
+      "display_size": [
+        1057,
+        800
+      ],
+      "label": "Museum object",
+      "artwork_below_y220_identical_to_v05": true,
+      "screen_text": [
+        {
+          "text": "QUIET ORIGINS  /  EP001",
+          "bbox": [
+            100,
+            31,
+            439,
+            53
+          ]
+        },
+        {
+          "text": "The Metropolitan Museum of Art / 69.105 / Open Access (CC0)",
+          "bbox": [
+            100,
+            172,
+            939,
+            200
+          ]
+        },
+        {
+          "text": "MUSEUM OBJECT｜博物館資料",
+          "bbox": [
+            1348.0,
+            28,
+            1800.0,
+            58
+          ]
+        }
+      ],
+      "components": [
+        {
+          "key": "met_544075",
+          "source": "assets/museum/met_544075.jpg",
+          "label": "Museum object"
+        }
+      ],
+      "text_bottom_px": 200
+    },
+    {
+      "segment_id": "N04",
+      "key": "met_544075_detail",
+      "file": "assets/composed_en/N04_01_met_544075_detail.png",
+      "crop_pixels": [
+        782,
+        89,
+        3792,
+        2721
+      ],
+      "source": "assets/museum/met_544075.jpg",
+      "display_size": [
+        915,
+        800
+      ],
+      "label": "Museum object",
+      "artwork_below_y220_identical_to_v05": true,
+      "screen_text": [
+        {
+          "text": "QUIET ORIGINS  /  EP001",
+          "bbox": [
+            100,
+            31,
+            439,
+            53
+          ]
+        },
+        {
+          "text": "The Metropolitan Museum of Art / 69.105 / Open Access (CC0)",
+          "bbox": [
+            100,
+            172,
+            939,
+            200
+          ]
+        },
+        {
+          "text": "MUSEUM OBJECT｜博物館資料",
+          "bbox": [
+            1348.0,
+            28,
+            1800.0,
+            58
+          ]
+        }
+      ],
+      "components": [
+        {
+          "key": "met_544075_detail",
+          "source": "assets/museum/met_544075.jpg",
+          "crop_pixels": [
+            782,
+            89,
+            3792,
+            2721
+          ],
+          "label": "Museum object"
+        }
+      ],
+      "text_bottom_px": 200
+    },
+    {
+      "segment_id": "N05",
+      "key": "nile",
+      "file": "assets/composed_en/N05_00_nile.png",
+      "source": "assets/generated/02_nile.png",
+      "display_size": [
+        1421,
+        800
+      ],
+      "label": "AI reconstruction",
+      "artwork_below_y220_identical_to_v05": true,
+      "screen_text": [
+        {
+          "text": "QUIET ORIGINS  /  EP001",
+          "bbox": [
+            100,
+            31,
+            439,
+            53
+          ]
+        },
+        {
+          "text": "AI RECONSTRUCTION｜AIによる再現",
+          "bbox": [
+            1259.0,
+            28,
+            1800.0,
+            58
+          ]
+        }
+      ],
+      "components": [
+        {
+          "key": "nile",
+          "source": "assets/generated/02_nile.png",
+          "label": "AI reconstruction"
+        }
+      ],
+      "text_bottom_px": 58
+    },
+    {
+      "segment_id": "N05",
+      "key": "met_544075",
+      "file": "assets/composed_en/N05_01_met_544075.png",
+      "source": "assets/museum/met_544075.jpg",
+      "display_size": [
+        1057,
+        800
+      ],
+      "label": "Museum object",
+      "artwork_below_y220_identical_to_v05": true,
+      "screen_text": [
+        {
+          "text": "QUIET ORIGINS  /  EP001",
+          "bbox": [
+            100,
+            31,
+            439,
+            53
+          ]
+        },
+        {
+          "text": "The Metropolitan Museum of Art / 69.105 / Open Access (CC0)",
+          "bbox": [
+            100,
+            172,
+            939,
+            200
+          ]
+        },
+        {
+          "text": "MUSEUM OBJECT｜博物館資料",
+          "bbox": [
+            1348.0,
+            28,
+            1800.0,
+            58
+          ]
+        }
+      ],
+      "components": [
+        {
+          "key": "met_544075",
+          "source": "assets/museum/met_544075.jpg",
+          "label": "Museum object"
+        }
+      ],
+      "text_bottom_px": 200
+    },
+    {
+      "segment_id": "N06",
+      "key": "met_590939",
+      "file": "assets/composed_en/N06_00_met_590939.png",
+      "source": "assets/museum/met_590939.jpg",
+      "display_size": [
+        555,
+        800
+      ],
+      "label": "Museum object",
+      "artwork_below_y220_identical_to_v05": true,
+      "screen_text": [
+        {
+          "text": "QUIET ORIGINS  /  EP001",
+          "bbox": [
+            100,
+            31,
+            439,
+            53
+          ]
+        },
+        {
+          "text": "The Metropolitan Museum of Art / 38.5 / Open Access (CC0)",
+          "bbox": [
+            100,
+            172,
+            905,
+            200
+          ]
+        },
+        {
+          "text": "MUSEUM OBJECT｜博物館資料",
+          "bbox": [
+            1348.0,
+            28,
+            1800.0,
+            58
+          ]
+        }
+      ],
+      "components": [
+        {
+          "key": "met_590939",
+          "source": "assets/museum/met_590939.jpg",
+          "label": "Museum object"
+        }
+      ],
+      "text_bottom_px": 200
+    },
+    {
+      "segment_id": "N06",
+      "key": "met_590939_detail",
+      "file": "assets/composed_en/N06_01_met_590939_detail.png",
+      "crop_pixels": [
+        333,
+        240,
+        2496,
+        3760
+      ],
+      "source": "assets/museum/met_590939.jpg",
+      "display_size": [
+        492,
+        800
+      ],
+      "label": "Museum object",
+      "artwork_below_y220_identical_to_v05": true,
+      "screen_text": [
+        {
+          "text": "QUIET ORIGINS  /  EP001",
+          "bbox": [
+            100,
+            31,
+            439,
+            53
+          ]
+        },
+        {
+          "text": "The Metropolitan Museum of Art / 38.5 / Open Access (CC0)",
+          "bbox": [
+            100,
+            172,
+            905,
+            200
+          ]
+        },
+        {
+          "text": "MUSEUM OBJECT｜博物館資料",
+          "bbox": [
+            1348.0,
+            28,
+            1800.0,
+            58
+          ]
+        }
+      ],
+      "components": [
+        {
+          "key": "met_590939_detail",
+          "source": "assets/museum/met_590939.jpg",
+          "crop_pixels": [
+            333,
+            240,
+            2496,
+            3760
+          ],
+          "label": "Museum object"
+        }
+      ],
+      "text_bottom_px": 200
+    },
+    {
+      "segment_id": "N07",
+      "key": "timeline",
+      "file": "assets/composed_en/N07_00_timeline.png",
+      "label": "Concept diagram",
+      "screen_text": [
+        {
+          "text": "QUIET ORIGINS  /  EP001",
+          "bbox": [
+            100,
+            31,
+            439,
+            53
+          ]
+        },
+        {
+          "text": "The Metropolitan Museum of Art / Open Access (CC0)",
+          "bbox": [
+            100,
+            172,
+            822,
+            200
+          ]
+        },
+        {
+          "text": "MUSEUM OBJECT｜博物館資料",
+          "bbox": [
+            245.5,
+            566,
+            594.5,
+            589
+          ]
+        },
+        {
+          "text": "1981–1952",
+          "bbox": [
+            339.0,
+            616,
+            501.0,
+            639
+          ]
+        },
+        {
+          "text": "MUSEUM OBJECT｜博物館資料",
+          "bbox": [
+            785.5,
+            566,
+            1134.5,
+            589
+          ]
+        },
+        {
+          "text": "1050",
+          "bbox": [
+            924.0,
+            616,
+            996.0,
+            639
+          ]
+        },
+        {
+          "text": "MUSEUM OBJECT｜博物館資料",
+          "bbox": [
+            1325.5,
+            566,
+            1674.5,
+            589
+          ]
+        },
+        {
+          "text": "100–300",
+          "bbox": [
+            1437.0,
+            616,
+            1563.0,
+            639
+          ]
+        },
+        {
+          "text": "BCE｜紀元前",
+          "bbox": [
+            630.0,
+            675,
+            770.0,
+            698
+          ]
+        },
+        {
+          "text": "CE｜紀元後",
+          "bbox": [
+            1418.0,
+            675,
+            1542.0,
+            698
+          ]
+        }
+      ],
+      "components": [
+        {
+          "key": "met_544206",
+          "source": "assets/museum/met_544206.jpg",
+          "label": "Museum object"
+        },
+        {
+          "key": "met_548344",
+          "source": "assets/museum/met_548344.jpg",
+          "label": "Museum object"
+        },
+        {
+          "key": "met_552247",
+          "source": "assets/museum/met_552247.jpg",
+          "crop_pixels": [
+            80,
+            240,
+            1920,
+            1120
+          ],
+          "label": "Museum object"
+        }
+      ],
+      "text_bottom_px": 698
+    },
+    {
+      "segment_id": "N07",
+      "key": "met_544206",
+      "file": "assets/composed_en/N07_01_met_544206.png",
+      "source": "assets/museum/met_544206.jpg",
+      "display_size": [
+        1720,
+        451
+      ],
+      "label": "Museum object",
+      "artwork_below_y220_identical_to_v05": true,
+      "screen_text": [
+        {
+          "text": "QUIET ORIGINS  /  EP001",
+          "bbox": [
+            100,
+            31,
+            439,
+            53
+          ]
+        },
+        {
+          "text": "The Metropolitan Museum of Art / 08.200.5 / Open Access (CC0)",
+          "bbox": [
+            100,
+            172,
+            964,
+            200
+          ]
+        },
+        {
+          "text": "MUSEUM OBJECT｜博物館資料",
+          "bbox": [
+            1348.0,
+            28,
+            1800.0,
+            58
+          ]
+        }
+      ],
+      "components": [
+        {
+          "key": "met_544206",
+          "source": "assets/museum/met_544206.jpg",
+          "label": "Museum object"
+        }
+      ],
+      "text_bottom_px": 200
+    },
+    {
+      "segment_id": "N08",
+      "key": "linen",
+      "file": "assets/composed_en/N08_00_linen.png",
+      "source": "assets/generated/03_linen.png",
+      "display_size": [
+        1421,
+        800
+      ],
+      "label": "AI reconstruction",
+      "artwork_below_y220_identical_to_v05": true,
+      "screen_text": [
+        {
+          "text": "QUIET ORIGINS  /  EP001",
+          "bbox": [
+            100,
+            31,
+            439,
+            53
+          ]
+        },
+        {
+          "text": "AI RECONSTRUCTION｜AIによる再現",
+          "bbox": [
+            1259.0,
+            28,
+            1800.0,
+            58
+          ]
+        }
+      ],
+      "components": [
+        {
+          "key": "linen",
+          "source": "assets/generated/03_linen.png",
+          "label": "AI reconstruction"
+        }
+      ],
+      "text_bottom_px": 58
+    },
+    {
+      "segment_id": "N08",
+      "key": "journey",
+      "file": "assets/composed_en/N08_01_journey.png",
+      "label": "Concept diagram",
+      "screen_text": [
+        {
+          "text": "QUIET ORIGINS  /  EP001",
+          "bbox": [
+            100,
+            31,
+            439,
+            53
+          ]
+        },
+        {
+          "text": "The Metropolitan Museum of Art / Open Access (CC0)",
+          "bbox": [
+            100,
+            172,
+            822,
+            200
+          ]
+        },
+        {
+          "text": "AI RECONSTRUCTION｜AIによる再現",
+          "bbox": [
+            212.0,
+            621,
+            628.0,
+            644
+          ]
+        },
+        {
+          "text": "MUSEUM OBJECT｜博物館資料",
+          "bbox": [
+            785.5,
+            621,
+            1134.5,
+            644
+          ]
+        },
+        {
+          "text": "MUSEUM OBJECT｜博物館資料",
+          "bbox": [
+            1325.5,
+            621,
+            1674.5,
+            644
+          ]
+        }
+      ],
+      "components": [
+        {
+          "key": "linen",
+          "source": "assets/generated/03_linen.png",
+          "label": "AI reconstruction"
+        },
+        {
+          "key": "met_548344",
+          "source": "assets/museum/met_548344.jpg",
+          "label": "Museum object"
+        },
+        {
+          "key": "met_548344_detail",
+          "source": "assets/museum/met_548344.jpg",
+          "crop_pixels": [
+            381,
+            1046,
+            3697,
+            2545
+          ],
+          "label": "Museum object"
+        }
+      ],
+      "text_bottom_px": 644
+    },
+    {
+      "segment_id": "N09",
+      "key": "linen",
+      "file": "assets/composed_en/N09_00_linen.png",
+      "source": "assets/generated/03_linen.png",
+      "display_size": [
+        1421,
+        800
+      ],
+      "label": "AI reconstruction",
+      "artwork_below_y220_identical_to_v05": true,
+      "screen_text": [
+        {
+          "text": "QUIET ORIGINS  /  EP001",
+          "bbox": [
+            100,
+            31,
+            439,
+            53
+          ]
+        },
+        {
+          "text": "AI RECONSTRUCTION｜AIによる再現",
+          "bbox": [
+            1259.0,
+            28,
+            1800.0,
+            58
+          ]
+        }
+      ],
+      "components": [
+        {
+          "key": "linen",
+          "source": "assets/generated/03_linen.png",
+          "label": "AI reconstruction"
+        }
+      ],
+      "text_bottom_px": 58
+    },
+    {
+      "segment_id": "N09",
+      "key": "journey",
+      "file": "assets/composed_en/N09_01_journey.png",
+      "label": "Concept diagram",
+      "screen_text": [
+        {
+          "text": "QUIET ORIGINS  /  EP001",
+          "bbox": [
+            100,
+            31,
+            439,
+            53
+          ]
+        },
+        {
+          "text": "The Metropolitan Museum of Art / Open Access (CC0)",
+          "bbox": [
+            100,
+            172,
+            822,
+            200
+          ]
+        },
+        {
+          "text": "AI RECONSTRUCTION｜AIによる再現",
+          "bbox": [
+            212.0,
+            621,
+            628.0,
+            644
+          ]
+        },
+        {
+          "text": "MUSEUM OBJECT｜博物館資料",
+          "bbox": [
+            785.5,
+            621,
+            1134.5,
+            644
+          ]
+        },
+        {
+          "text": "MUSEUM OBJECT｜博物館資料",
+          "bbox": [
+            1325.5,
+            621,
+            1674.5,
+            644
+          ]
+        }
+      ],
+      "components": [
+        {
+          "key": "linen",
+          "source": "assets/generated/03_linen.png",
+          "label": "AI reconstruction"
+        },
+        {
+          "key": "met_548344",
+          "source": "assets/museum/met_548344.jpg",
+          "label": "Museum object"
+        },
+        {
+          "key": "met_548344_detail",
+          "source": "assets/museum/met_548344.jpg",
+          "crop_pixels": [
+            381,
+            1046,
+            3697,
+            2545
+          ],
+          "label": "Museum object"
+        }
+      ],
+      "text_bottom_px": 644
+    },
+    {
+      "segment_id": "N10",
+      "key": "linen",
+      "file": "assets/composed_en/N10_00_linen.png",
+      "source": "assets/generated/03_linen.png",
+      "display_size": [
+        1421,
+        800
+      ],
+      "label": "AI reconstruction",
+      "artwork_below_y220_identical_to_v05": true,
+      "screen_text": [
+        {
+          "text": "QUIET ORIGINS  /  EP001",
+          "bbox": [
+            100,
+            31,
+            439,
+            53
+          ]
+        },
+        {
+          "text": "AI RECONSTRUCTION｜AIによる再現",
+          "bbox": [
+            1259.0,
+            28,
+            1800.0,
+            58
+          ]
+        }
+      ],
+      "components": [
+        {
+          "key": "linen",
+          "source": "assets/generated/03_linen.png",
+          "label": "AI reconstruction"
+        }
+      ],
+      "text_bottom_px": 58
+    },
+    {
+      "segment_id": "N10",
+      "key": "human_work",
+      "file": "assets/composed_en/N10_01_human_work.png",
+      "label": "Concept diagram",
+      "screen_text": [
+        {
+          "text": "QUIET ORIGINS  /  EP001",
+          "bbox": [
+            100,
+            31,
+            439,
+            53
+          ]
+        },
+        {
+          "text": "The Metropolitan Museum of Art / Open Access (CC0)",
+          "bbox": [
+            100,
+            172,
+            822,
+            200
+          ]
+        },
+        {
+          "text": "AI RECONSTRUCTION｜AIによる再現",
+          "bbox": [
+            352.0,
+            621,
+            768.0,
+            644
+          ]
+        },
+        {
+          "text": "MUSEUM OBJECT｜博物館資料",
+          "bbox": [
+            1185.5,
+            621,
+            1534.5,
+            644
+          ]
+        }
+      ],
+      "components": [
+        {
+          "key": "linen",
+          "source": "assets/generated/03_linen.png",
+          "label": "AI reconstruction"
+        },
+        {
+          "key": "met_590939",
+          "source": "assets/museum/met_590939.jpg",
+          "label": "Museum object"
+        }
+      ],
+      "text_bottom_px": 644
+    },
+    {
+      "segment_id": "N11",
+      "key": "met_545547",
+      "file": "assets/composed_en/N11_00_met_545547.png",
+      "source": "assets/museum/met_545547.jpg",
+      "display_size": [
+        459,
+        800
+      ],
+      "label": "Museum object",
+      "artwork_below_y220_identical_to_v05": true,
+      "screen_text": [
+        {
+          "text": "QUIET ORIGINS  /  EP001",
+          "bbox": [
+            100,
+            31,
+            439,
+            53
+          ]
+        },
+        {
+          "text": "The Metropolitan Museum of Art / 14.3.19–.20 / Open Access (CC0)",
+          "bbox": [
+            100,
+            172,
+            1006,
+            200
+          ]
+        },
+        {
+          "text": "MUSEUM OBJECT｜博物館資料",
+          "bbox": [
+            1348.0,
+            28,
+            1800.0,
+            58
+          ]
+        }
+      ],
+      "components": [
+        {
+          "key": "met_545547",
+          "source": "assets/museum/met_545547.jpg",
+          "label": "Museum object"
+        }
+      ],
+      "text_bottom_px": 200
+    },
+    {
+      "segment_id": "N11",
+      "key": "met_545547_detail",
+      "file": "assets/composed_en/N11_01_met_545547_detail.png",
+      "crop_pixels": [
+        268,
+        233,
+        2009,
+        3657
+      ],
+      "source": "assets/museum/met_545547.jpg",
+      "display_size": [
+        407,
+        800
+      ],
+      "label": "Museum object",
+      "artwork_below_y220_identical_to_v05": true,
+      "screen_text": [
+        {
+          "text": "QUIET ORIGINS  /  EP001",
+          "bbox": [
+            100,
+            31,
+            439,
+            53
+          ]
+        },
+        {
+          "text": "The Metropolitan Museum of Art / 14.3.19–.20 / Open Access (CC0)",
+          "bbox": [
+            100,
+            172,
+            1006,
+            200
+          ]
+        },
+        {
+          "text": "MUSEUM OBJECT｜博物館資料",
+          "bbox": [
+            1348.0,
+            28,
+            1800.0,
+            58
+          ]
+        }
+      ],
+      "components": [
+        {
+          "key": "met_545547_detail",
+          "source": "assets/museum/met_545547.jpg",
+          "crop_pixels": [
+            268,
+            233,
+            2009,
+            3657
+          ],
+          "label": "Museum object"
+        }
+      ],
+      "text_bottom_px": 200
+    },
+    {
+      "segment_id": "N12",
+      "key": "archive",
+      "file": "assets/composed_en/N12_00_archive.png",
+      "source": "assets/generated/04_archive.png",
+      "display_size": [
+        1421,
+        800
+      ],
+      "label": "AI reconstruction",
+      "artwork_below_y220_identical_to_v05": true,
+      "screen_text": [
+        {
+          "text": "QUIET ORIGINS  /  EP001",
+          "bbox": [
+            100,
+            31,
+            439,
+            53
+          ]
+        },
+        {
+          "text": "AI RECONSTRUCTION｜AIによる再現",
+          "bbox": [
+            1259.0,
+            28,
+            1800.0,
+            58
+          ]
+        }
+      ],
+      "components": [
+        {
+          "key": "archive",
+          "source": "assets/generated/04_archive.png",
+          "label": "AI reconstruction"
+        }
+      ],
+      "text_bottom_px": 58
+    },
+    {
+      "segment_id": "N12",
+      "key": "met_548344",
+      "file": "assets/composed_en/N12_01_met_548344.png",
+      "source": "assets/museum/met_548344.jpg",
+      "display_size": [
+        1078,
+        800
+      ],
+      "label": "Museum object",
+      "artwork_below_y220_identical_to_v05": true,
+      "screen_text": [
+        {
+          "text": "QUIET ORIGINS  /  EP001",
+          "bbox": [
+            100,
+            31,
+            439,
+            53
+          ]
+        },
+        {
+          "text": "The Metropolitan Museum of Art / 30.3.31 / Open Access (CC0)",
+          "bbox": [
+            100,
+            172,
+            947,
+            200
+          ]
+        },
+        {
+          "text": "MUSEUM OBJECT｜博物館資料",
+          "bbox": [
+            1348.0,
+            28,
+            1800.0,
+            58
+          ]
+        }
+      ],
+      "components": [
+        {
+          "key": "met_548344",
+          "source": "assets/museum/met_548344.jpg",
+          "label": "Museum object"
+        }
+      ],
+      "text_bottom_px": 200
+    },
+    {
+      "segment_id": "N13",
+      "key": "met_548344",
+      "file": "assets/composed_en/N13_00_met_548344.png",
+      "source": "assets/museum/met_548344.jpg",
+      "display_size": [
+        1078,
+        800
+      ],
+      "label": "Museum object",
+      "artwork_below_y220_identical_to_v05": true,
+      "screen_text": [
+        {
+          "text": "QUIET ORIGINS  /  EP001",
+          "bbox": [
+            100,
+            31,
+            439,
+            53
+          ]
+        },
+        {
+          "text": "The Metropolitan Museum of Art / 30.3.31 / Open Access (CC0)",
+          "bbox": [
+            100,
+            172,
+            947,
+            200
+          ]
+        },
+        {
+          "text": "MUSEUM OBJECT｜博物館資料",
+          "bbox": [
+            1348.0,
+            28,
+            1800.0,
+            58
+          ]
+        }
+      ],
+      "components": [
+        {
+          "key": "met_548344",
+          "source": "assets/museum/met_548344.jpg",
+          "label": "Museum object"
+        }
+      ],
+      "text_bottom_px": 200
+    },
+    {
+      "segment_id": "N13",
+      "key": "met_548344_detail",
+      "file": "assets/composed_en/N13_01_met_548344_detail.png",
+      "crop_pixels": [
+        381,
+        1046,
+        3697,
+        2545
+      ],
+      "source": "assets/museum/met_548344.jpg",
+      "display_size": [
+        1720,
+        778
+      ],
+      "label": "Museum object",
+      "artwork_below_y220_identical_to_v05": true,
+      "screen_text": [
+        {
+          "text": "QUIET ORIGINS  /  EP001",
+          "bbox": [
+            100,
+            31,
+            439,
+            53
+          ]
+        },
+        {
+          "text": "The Metropolitan Museum of Art / 30.3.31 / Open Access (CC0)",
+          "bbox": [
+            100,
+            172,
+            947,
+            200
+          ]
+        },
+        {
+          "text": "MUSEUM OBJECT｜博物館資料",
+          "bbox": [
+            1348.0,
+            28,
+            1800.0,
+            58
+          ]
+        }
+      ],
+      "components": [
+        {
+          "key": "met_548344_detail",
+          "source": "assets/museum/met_548344.jpg",
+          "crop_pixels": [
+            381,
+            1046,
+            3697,
+            2545
+          ],
+          "label": "Museum object"
+        }
+      ],
+      "text_bottom_px": 200
+    },
+    {
+      "segment_id": "N14",
+      "key": "balance",
+      "file": "assets/composed_en/N14_00_balance.png",
+      "label": "Concept diagram",
+      "screen_text": [
+        {
+          "text": "QUIET ORIGINS  /  EP001",
+          "bbox": [
+            100,
+            31,
+            439,
+            53
+          ]
+        }
+      ],
+      "components": [],
+      "text_bottom_px": 53
+    },
+    {
+      "segment_id": "N14",
+      "key": "met_557657_scale",
+      "file": "assets/composed_en/N14_01_met_557657_scale.png",
+      "crop_pixels": [
+        2000,
+        1250,
+        3020,
+        2220
+      ],
+      "source": "assets/museum/met_557657.jpg",
+      "display_size": [
+        841,
+        800
+      ],
+      "label": "Museum object",
+      "artwork_below_y220_identical_to_v05": true,
+      "screen_text": [
+        {
+          "text": "QUIET ORIGINS  /  EP001",
+          "bbox": [
+            100,
+            31,
+            439,
+            53
+          ]
+        },
+        {
+          "text": "The Metropolitan Museum of Art / 66.99.142 / Open Access (CC0)",
+          "bbox": [
+            100,
+            172,
+            981,
+            200
+          ]
+        },
+        {
+          "text": "MUSEUM OBJECT｜博物館資料",
+          "bbox": [
+            1348.0,
+            28,
+            1800.0,
+            58
+          ]
+        }
+      ],
+      "components": [
+        {
+          "key": "met_557657_scale",
+          "source": "assets/museum/met_557657.jpg",
+          "crop_pixels": [
+            2000,
+            1250,
+            3020,
+            2220
+          ],
+          "label": "Museum object"
+        }
+      ],
+      "text_bottom_px": 200
+    },
+    {
+      "segment_id": "N15",
+      "key": "maat",
+      "file": "assets/composed_en/N15_00_maat.png",
+      "label": "Concept diagram",
+      "screen_text": [
+        {
+          "text": "QUIET ORIGINS  /  EP001",
+          "bbox": [
+            100,
+            31,
+            439,
+            53
+          ]
+        },
+        {
+          "text": "The Metropolitan Museum of Art / Open Access (CC0)",
+          "bbox": [
+            100,
+            172,
+            822,
+            200
+          ]
+        },
+        {
+          "text": "MUSEUM OBJECT｜博物館資料",
+          "bbox": [
+            1348.0,
+            28,
+            1800.0,
+            58
+          ]
+        }
+      ],
+      "components": [
+        {
+          "key": "met_548344_maat",
+          "source": "assets/museum/met_548344.jpg",
+          "crop_pixels": [
+            915,
+            1301,
+            2401,
+            2517
+          ],
+          "label": "Museum object"
+        }
+      ],
+      "text_bottom_px": 200
+    },
+    {
+      "segment_id": "N15",
+      "key": "met_548344_maat",
+      "file": "assets/composed_en/N15_01_met_548344_maat.png",
+      "crop_pixels": [
+        915,
+        1301,
+        2401,
+        2517
+      ],
+      "source": "assets/museum/met_548344.jpg",
+      "display_size": [
+        978,
+        800
+      ],
+      "label": "Museum object",
+      "artwork_below_y220_identical_to_v05": true,
+      "screen_text": [
+        {
+          "text": "QUIET ORIGINS  /  EP001",
+          "bbox": [
+            100,
+            31,
+            439,
+            53
+          ]
+        },
+        {
+          "text": "The Metropolitan Museum of Art / 30.3.31 / Open Access (CC0)",
+          "bbox": [
+            100,
+            172,
+            947,
+            200
+          ]
+        },
+        {
+          "text": "MUSEUM OBJECT｜博物館資料",
+          "bbox": [
+            1348.0,
+            28,
+            1800.0,
+            58
+          ]
+        }
+      ],
+      "components": [
+        {
+          "key": "met_548344_maat",
+          "source": "assets/museum/met_548344.jpg",
+          "crop_pixels": [
+            915,
+            1301,
+            2401,
+            2517
+          ],
+          "label": "Museum object"
+        }
+      ],
+      "text_bottom_px": 200
+    },
+    {
+      "segment_id": "N16",
+      "key": "met_557830",
+      "file": "assets/composed_en/N16_00_met_557830.png",
+      "source": "assets/museum/met_557830.jpg",
+      "display_size": [
+        830,
+        800
+      ],
+      "label": "Facsimile (copy on paper)",
+      "artwork_below_y220_identical_to_v05": true,
+      "screen_text": [
+        {
+          "text": "QUIET ORIGINS  /  EP001",
+          "bbox": [
+            100,
+            31,
+            439,
+            53
+          ]
+        },
+        {
+          "text": "The Metropolitan Museum of Art / 33.8.21 / Open Access (CC0)",
+          "bbox": [
+            100,
+            172,
+            947,
+            200
+          ]
+        },
+        {
+          "text": "FACSIMILE｜模写",
+          "bbox": [
+            1547.0,
+            28,
+            1800.0,
+            58
+          ]
+        }
+      ],
+      "components": [
+        {
+          "key": "met_557830",
+          "source": "assets/museum/met_557830.jpg",
+          "label": "Facsimile (copy on paper)"
+        }
+      ],
+      "text_bottom_px": 200
+    },
+    {
+      "segment_id": "N16",
+      "key": "met_557830_detail",
+      "file": "assets/composed_en/N16_01_met_557830_detail.png",
+      "crop_pixels": [
+        276,
+        833,
+        3145,
+        3033
+      ],
+      "source": "assets/museum/met_557830.jpg",
+      "display_size": [
+        1043,
+        800
+      ],
+      "label": "Facsimile (copy on paper)",
+      "artwork_below_y220_identical_to_v05": true,
+      "screen_text": [
+        {
+          "text": "QUIET ORIGINS  /  EP001",
+          "bbox": [
+            100,
+            31,
+            439,
+            53
+          ]
+        },
+        {
+          "text": "The Metropolitan Museum of Art / 33.8.21 / Open Access (CC0)",
+          "bbox": [
+            100,
+            172,
+            947,
+            200
+          ]
+        },
+        {
+          "text": "FACSIMILE｜模写",
+          "bbox": [
+            1547.0,
+            28,
+            1800.0,
+            58
+          ]
+        }
+      ],
+      "components": [
+        {
+          "key": "met_557830_detail",
+          "source": "assets/museum/met_557830.jpg",
+          "crop_pixels": [
+            276,
+            833,
+            3145,
+            3033
+          ],
+          "label": "Facsimile (copy on paper)"
+        }
+      ],
+      "text_bottom_px": 200
+    },
+    {
+      "segment_id": "N17",
+      "key": "roles",
+      "file": "assets/composed_en/N17_00_roles.png",
+      "label": "Concept diagram",
+      "screen_text": [
+        {
+          "text": "QUIET ORIGINS  /  EP001",
+          "bbox": [
+            100,
+            31,
+            439,
+            53
+          ]
+        },
+        {
+          "text": "The Metropolitan Museum of Art / Open Access (CC0)",
+          "bbox": [
+            100,
+            172,
+            822,
+            200
+          ]
+        },
+        {
+          "text": "MUSEUM OBJECT｜博物館資料",
+          "bbox": [
+            245.5,
+            566,
+            594.5,
+            589
+          ]
+        },
+        {
+          "text": "Anubis",
+          "bbox": [
+            351.5,
+            614,
+            487.5,
+            648
+          ]
+        },
+        {
+          "text": "アヌビス",
+          "bbox": [
+            368.0,
+            659,
+            472.0,
+            685
+          ]
+        },
+        {
+          "text": "MUSEUM OBJECT｜博物館資料",
+          "bbox": [
+            785.5,
+            566,
+            1134.5,
+            589
+          ]
+        },
+        {
+          "text": "Thoth",
+          "bbox": [
+            902.5,
+            614,
+            1017.5,
+            648
+          ]
+        },
+        {
+          "text": "トト",
+          "bbox": [
+            934.0,
+            661,
+            986.0,
+            685
+          ]
+        },
+        {
+          "text": "MUSEUM OBJECT｜博物館資料",
+          "bbox": [
+            1325.5,
+            566,
+            1674.5,
+            589
+          ]
+        },
+        {
+          "text": "Osiris",
+          "bbox": [
+            1443.0,
+            615,
+            1557.0,
+            648
+          ]
+        },
+        {
+          "text": "オシリス",
+          "bbox": [
+            1448.0,
+            661,
+            1552.0,
+            685
+          ]
+        }
+      ],
+      "components": [
+        {
+          "key": "met_548344_detail",
+          "source": "assets/museum/met_548344.jpg",
+          "crop_pixels": [
+            381,
+            1046,
+            3697,
+            2545
+          ],
+          "label": "Museum object"
+        },
+        {
+          "key": "met_552247_detail",
+          "source": "assets/museum/met_552247.jpg",
+          "crop_pixels": [
+            700,
+            267,
+            1880,
+            1133
+          ],
+          "label": "Museum object"
+        },
+        {
+          "key": "met_557657_osiris",
+          "source": "assets/museum/met_557657.jpg",
+          "crop_pixels": [
+            950,
+            1300,
+            2130,
+            2990
+          ],
+          "label": "Museum object"
+        }
+      ],
+      "text_bottom_px": 685
+    },
+    {
+      "segment_id": "N17",
+      "key": "met_548344_detail",
+      "file": "assets/composed_en/N17_01_met_548344_detail.png",
+      "crop_pixels": [
+        381,
+        1046,
+        3697,
+        2545
+      ],
+      "source": "assets/museum/met_548344.jpg",
+      "display_size": [
+        1720,
+        778
+      ],
+      "label": "Museum object",
+      "artwork_below_y220_identical_to_v05": true,
+      "screen_text": [
+        {
+          "text": "QUIET ORIGINS  /  EP001",
+          "bbox": [
+            100,
+            31,
+            439,
+            53
+          ]
+        },
+        {
+          "text": "The Metropolitan Museum of Art / 30.3.31 / Open Access (CC0)",
+          "bbox": [
+            100,
+            172,
+            947,
+            200
+          ]
+        },
+        {
+          "text": "MUSEUM OBJECT｜博物館資料",
+          "bbox": [
+            1348.0,
+            28,
+            1800.0,
+            58
+          ]
+        }
+      ],
+      "components": [
+        {
+          "key": "met_548344_detail",
+          "source": "assets/museum/met_548344.jpg",
+          "crop_pixels": [
+            381,
+            1046,
+            3697,
+            2545
+          ],
+          "label": "Museum object"
+        }
+      ],
+      "text_bottom_px": 200
+    },
+    {
+      "segment_id": "N18",
+      "key": "met_552247_detail",
+      "file": "assets/composed_en/N18_00_met_552247_detail.png",
+      "crop_pixels": [
+        700,
+        267,
+        1880,
+        1133
+      ],
+      "source": "assets/museum/met_552247.jpg",
+      "display_size": [
+        1090,
+        800
+      ],
+      "label": "Museum object",
+      "artwork_below_y220_identical_to_v05": true,
+      "screen_text": [
+        {
+          "text": "QUIET ORIGINS  /  EP001",
+          "bbox": [
+            100,
+            31,
+            439,
+            53
+          ]
+        },
+        {
+          "text": "The Metropolitan Museum of Art / 13.182.42 / Open Access (CC0)",
+          "bbox": [
+            100,
+            172,
+            981,
+            200
+          ]
+        },
+        {
+          "text": "MUSEUM OBJECT｜博物館資料",
+          "bbox": [
+            1348.0,
+            28,
+            1800.0,
+            58
+          ]
+        }
+      ],
+      "components": [
+        {
+          "key": "met_552247_detail",
+          "source": "assets/museum/met_552247.jpg",
+          "crop_pixels": [
+            700,
+            267,
+            1880,
+            1133
+          ],
+          "label": "Museum object"
+        }
+      ],
+      "text_bottom_px": 200
+    },
+    {
+      "segment_id": "N18",
+      "key": "roles",
+      "file": "assets/composed_en/N18_01_roles.png",
+      "label": "Concept diagram",
+      "screen_text": [
+        {
+          "text": "QUIET ORIGINS  /  EP001",
+          "bbox": [
+            100,
+            31,
+            439,
+            53
+          ]
+        },
+        {
+          "text": "The Metropolitan Museum of Art / Open Access (CC0)",
+          "bbox": [
+            100,
+            172,
+            822,
+            200
+          ]
+        },
+        {
+          "text": "MUSEUM OBJECT｜博物館資料",
+          "bbox": [
+            245.5,
+            566,
+            594.5,
+            589
+          ]
+        },
+        {
+          "text": "Anubis",
+          "bbox": [
+            351.5,
+            614,
+            487.5,
+            648
+          ]
+        },
+        {
+          "text": "アヌビス",
+          "bbox": [
+            368.0,
+            659,
+            472.0,
+            685
+          ]
+        },
+        {
+          "text": "MUSEUM OBJECT｜博物館資料",
+          "bbox": [
+            785.5,
+            566,
+            1134.5,
+            589
+          ]
+        },
+        {
+          "text": "Thoth",
+          "bbox": [
+            902.5,
+            614,
+            1017.5,
+            648
+          ]
+        },
+        {
+          "text": "トト",
+          "bbox": [
+            934.0,
+            661,
+            986.0,
+            685
+          ]
+        },
+        {
+          "text": "MUSEUM OBJECT｜博物館資料",
+          "bbox": [
+            1325.5,
+            566,
+            1674.5,
+            589
+          ]
+        },
+        {
+          "text": "Osiris",
+          "bbox": [
+            1443.0,
+            615,
+            1557.0,
+            648
+          ]
+        },
+        {
+          "text": "オシリス",
+          "bbox": [
+            1448.0,
+            661,
+            1552.0,
+            685
+          ]
+        }
+      ],
+      "components": [
+        {
+          "key": "met_548344_detail",
+          "source": "assets/museum/met_548344.jpg",
+          "crop_pixels": [
+            381,
+            1046,
+            3697,
+            2545
+          ],
+          "label": "Museum object"
+        },
+        {
+          "key": "met_552247_detail",
+          "source": "assets/museum/met_552247.jpg",
+          "crop_pixels": [
+            700,
+            267,
+            1880,
+            1133
+          ],
+          "label": "Museum object"
+        },
+        {
+          "key": "met_557657_osiris",
+          "source": "assets/museum/met_557657.jpg",
+          "crop_pixels": [
+            950,
+            1300,
+            2130,
+            2990
+          ],
+          "label": "Museum object"
+        }
+      ],
+      "text_bottom_px": 685
+    },
+    {
+      "segment_id": "N19",
+      "key": "met_557657_scale",
+      "file": "assets/composed_en/N19_00_met_557657_scale.png",
+      "crop_pixels": [
+        2000,
+        1250,
+        3020,
+        2220
+      ],
+      "source": "assets/museum/met_557657.jpg",
+      "display_size": [
+        841,
+        800
+      ],
+      "label": "Museum object",
+      "artwork_below_y220_identical_to_v05": true,
+      "screen_text": [
+        {
+          "text": "QUIET ORIGINS  /  EP001",
+          "bbox": [
+            100,
+            31,
+            439,
+            53
+          ]
+        },
+        {
+          "text": "The Metropolitan Museum of Art / 66.99.142 / Open Access (CC0)",
+          "bbox": [
+            100,
+            172,
+            981,
+            200
+          ]
+        },
+        {
+          "text": "MUSEUM OBJECT｜博物館資料",
+          "bbox": [
+            1348.0,
+            28,
+            1800.0,
+            58
+          ]
+        }
+      ],
+      "components": [
+        {
+          "key": "met_557657_scale",
+          "source": "assets/museum/met_557657.jpg",
+          "crop_pixels": [
+            2000,
+            1250,
+            3020,
+            2220
+          ],
+          "label": "Museum object"
+        }
+      ],
+      "text_bottom_px": 200
+    },
+    {
+      "segment_id": "N19",
+      "key": "met_557657_osiris",
+      "file": "assets/composed_en/N19_01_met_557657_osiris.png",
+      "crop_pixels": [
+        950,
+        1300,
+        2130,
+        2990
+      ],
+      "source": "assets/museum/met_557657.jpg",
+      "display_size": [
+        559,
+        800
+      ],
+      "label": "Museum object",
+      "artwork_below_y220_identical_to_v05": true,
+      "screen_text": [
+        {
+          "text": "QUIET ORIGINS  /  EP001",
+          "bbox": [
+            100,
+            31,
+            439,
+            53
+          ]
+        },
+        {
+          "text": "The Metropolitan Museum of Art / 66.99.142 / Open Access (CC0)",
+          "bbox": [
+            100,
+            172,
+            981,
+            200
+          ]
+        },
+        {
+          "text": "MUSEUM OBJECT｜博物館資料",
+          "bbox": [
+            1348.0,
+            28,
+            1800.0,
+            58
+          ]
+        }
+      ],
+      "components": [
+        {
+          "key": "met_557657_osiris",
+          "source": "assets/museum/met_557657.jpg",
+          "crop_pixels": [
+            950,
+            1300,
+            2130,
+            2990
+          ],
+          "label": "Museum object"
+        }
+      ],
+      "text_bottom_px": 200
+    },
+    {
+      "segment_id": "N20",
+      "key": "passage",
+      "file": "assets/composed_en/N20_00_passage.png",
+      "label": "Concept diagram",
+      "screen_text": [
+        {
+          "text": "QUIET ORIGINS  /  EP001",
+          "bbox": [
+            100,
+            31,
+            439,
+            53
+          ]
+        },
+        {
+          "text": "The Metropolitan Museum of Art / Open Access (CC0)",
+          "bbox": [
+            100,
+            172,
+            822,
+            200
+          ]
+        },
+        {
+          "text": "MUSEUM OBJECT｜博物館資料",
+          "bbox": [
+            1348.0,
+            28,
+            1800.0,
+            58
+          ]
+        }
+      ],
+      "components": [
+        {
+          "key": "met_557657_scale",
+          "source": "assets/museum/met_557657.jpg",
+          "crop_pixels": [
+            2000,
+            1250,
+            3020,
+            2220
+          ],
+          "label": "Museum object"
+        },
+        {
+          "key": "met_548344_detail",
+          "source": "assets/museum/met_548344.jpg",
+          "crop_pixels": [
+            381,
+            1046,
+            3697,
+            2545
+          ],
+          "label": "Museum object"
+        }
+      ],
+      "text_bottom_px": 200,
+      "end_file": "assets/composed_en/N20_00_passage_end.png",
+      "internal_dissolve_seconds": 2.0
+    },
+    {
+      "segment_id": "N20",
+      "key": "hero",
+      "file": "assets/composed_en/N20_01_hero.png",
+      "source": "assets/generated/01_anubis_chamber.png",
+      "display_size": [
+        1421,
+        800
+      ],
+      "label": "AI reconstruction",
+      "artwork_below_y220_identical_to_v05": true,
+      "screen_text": [
+        {
+          "text": "QUIET ORIGINS  /  EP001",
+          "bbox": [
+            100,
+            31,
+            439,
+            53
+          ]
+        },
+        {
+          "text": "AI RECONSTRUCTION｜AIによる再現",
+          "bbox": [
+            1259.0,
+            28,
+            1800.0,
+            58
+          ]
+        }
+      ],
+      "components": [
+        {
+          "key": "hero",
+          "source": "assets/generated/01_anubis_chamber.png",
+          "label": "AI reconstruction"
+        }
+      ],
+      "text_bottom_px": 58
+    },
+    {
+      "segment_id": "N21",
+      "key": "met_544206",
+      "file": "assets/composed_en/N21_00_met_544206.png",
+      "source": "assets/museum/met_544206.jpg",
+      "display_size": [
+        1720,
+        451
+      ],
+      "label": "Museum object",
+      "artwork_below_y220_identical_to_v05": true,
+      "screen_text": [
+        {
+          "text": "QUIET ORIGINS  /  EP001",
+          "bbox": [
+            100,
+            31,
+            439,
+            53
+          ]
+        },
+        {
+          "text": "The Metropolitan Museum of Art / 08.200.5 / Open Access (CC0)",
+          "bbox": [
+            100,
+            172,
+            964,
+            200
+          ]
+        },
+        {
+          "text": "MUSEUM OBJECT｜博物館資料",
+          "bbox": [
+            1348.0,
+            28,
+            1800.0,
+            58
+          ]
+        }
+      ],
+      "components": [
+        {
+          "key": "met_544206",
+          "source": "assets/museum/met_544206.jpg",
+          "label": "Museum object"
+        }
+      ],
+      "text_bottom_px": 200
+    },
+    {
+      "segment_id": "N21",
+      "key": "met_544206_detail",
+      "file": "assets/composed_en/N21_01_met_544206_detail.png",
+      "crop_pixels": [
+        1360,
+        52,
+        3720,
+        1006
+      ],
+      "source": "assets/museum/met_544206.jpg",
+      "display_size": [
+        1720,
+        695
+      ],
+      "label": "Museum object",
+      "artwork_below_y220_identical_to_v05": true,
+      "screen_text": [
+        {
+          "text": "QUIET ORIGINS  /  EP001",
+          "bbox": [
+            100,
+            31,
+            439,
+            53
+          ]
+        },
+        {
+          "text": "The Metropolitan Museum of Art / 08.200.5 / Open Access (CC0)",
+          "bbox": [
+            100,
+            172,
+            964,
+            200
+          ]
+        },
+        {
+          "text": "MUSEUM OBJECT｜博物館資料",
+          "bbox": [
+            1348.0,
+            28,
+            1800.0,
+            58
+          ]
+        }
+      ],
+      "components": [
+        {
+          "key": "met_544206_detail",
+          "source": "assets/museum/met_544206.jpg",
+          "crop_pixels": [
+            1360,
+            52,
+            3720,
+            1006
+          ],
+          "label": "Museum object"
+        }
+      ],
+      "text_bottom_px": 200
+    },
+    {
+      "segment_id": "N22",
+      "key": "met_544206_detail",
+      "file": "assets/composed_en/N22_00_met_544206_detail.png",
+      "crop_pixels": [
+        1360,
+        52,
+        3720,
+        1006
+      ],
+      "source": "assets/museum/met_544206.jpg",
+      "display_size": [
+        1720,
+        695
+      ],
+      "label": "Museum object",
+      "artwork_below_y220_identical_to_v05": true,
+      "screen_text": [
+        {
+          "text": "QUIET ORIGINS  /  EP001",
+          "bbox": [
+            100,
+            31,
+            439,
+            53
+          ]
+        },
+        {
+          "text": "The Metropolitan Museum of Art / 08.200.5 / Open Access (CC0)",
+          "bbox": [
+            100,
+            172,
+            964,
+            200
+          ]
+        },
+        {
+          "text": "MUSEUM OBJECT｜博物館資料",
+          "bbox": [
+            1348.0,
+            28,
+            1800.0,
+            58
+          ]
+        }
+      ],
+      "components": [
+        {
+          "key": "met_544206_detail",
+          "source": "assets/museum/met_544206.jpg",
+          "crop_pixels": [
+            1360,
+            52,
+            3720,
+            1006
+          ],
+          "label": "Museum object"
+        }
+      ],
+      "text_bottom_px": 200
+    },
+    {
+      "segment_id": "N22",
+      "key": "timeline",
+      "file": "assets/composed_en/N22_01_timeline.png",
+      "label": "Concept diagram",
+      "screen_text": [
+        {
+          "text": "QUIET ORIGINS  /  EP001",
+          "bbox": [
+            100,
+            31,
+            439,
+            53
+          ]
+        },
+        {
+          "text": "The Metropolitan Museum of Art / Open Access (CC0)",
+          "bbox": [
+            100,
+            172,
+            822,
+            200
+          ]
+        },
+        {
+          "text": "MUSEUM OBJECT｜博物館資料",
+          "bbox": [
+            245.5,
+            566,
+            594.5,
+            589
+          ]
+        },
+        {
+          "text": "1981–1952",
+          "bbox": [
+            339.0,
+            616,
+            501.0,
+            639
+          ]
+        },
+        {
+          "text": "MUSEUM OBJECT｜博物館資料",
+          "bbox": [
+            785.5,
+            566,
+            1134.5,
+            589
+          ]
+        },
+        {
+          "text": "1050",
+          "bbox": [
+            924.0,
+            616,
+            996.0,
+            639
+          ]
+        },
+        {
+          "text": "MUSEUM OBJECT｜博物館資料",
+          "bbox": [
+            1325.5,
+            566,
+            1674.5,
+            589
+          ]
+        },
+        {
+          "text": "100–300",
+          "bbox": [
+            1437.0,
+            616,
+            1563.0,
+            639
+          ]
+        },
+        {
+          "text": "BCE｜紀元前",
+          "bbox": [
+            630.0,
+            675,
+            770.0,
+            698
+          ]
+        },
+        {
+          "text": "CE｜紀元後",
+          "bbox": [
+            1418.0,
+            675,
+            1542.0,
+            698
+          ]
+        }
+      ],
+      "components": [
+        {
+          "key": "met_544206",
+          "source": "assets/museum/met_544206.jpg",
+          "label": "Museum object"
+        },
+        {
+          "key": "met_548344",
+          "source": "assets/museum/met_548344.jpg",
+          "label": "Museum object"
+        },
+        {
+          "key": "met_552247",
+          "source": "assets/museum/met_552247.jpg",
+          "crop_pixels": [
+            80,
+            240,
+            1920,
+            1120
+          ],
+          "label": "Museum object"
+        }
+      ],
+      "text_bottom_px": 698
+    },
+    {
+      "segment_id": "N23",
+      "key": "met_552247",
+      "file": "assets/composed_en/N23_00_met_552247.png",
+      "crop_pixels": [
+        80,
+        240,
+        1920,
+        1120
+      ],
+      "source": "assets/museum/met_552247.jpg",
+      "display_size": [
+        1673,
+        800
+      ],
+      "label": "Museum object",
+      "artwork_below_y220_identical_to_v05": true,
+      "screen_text": [
+        {
+          "text": "QUIET ORIGINS  /  EP001",
+          "bbox": [
+            100,
+            31,
+            439,
+            53
+          ]
+        },
+        {
+          "text": "The Metropolitan Museum of Art / 13.182.42 / Open Access (CC0)",
+          "bbox": [
+            100,
+            172,
+            981,
+            200
+          ]
+        },
+        {
+          "text": "MUSEUM OBJECT｜博物館資料",
+          "bbox": [
+            1348.0,
+            28,
+            1800.0,
+            58
+          ]
+        }
+      ],
+      "components": [
+        {
+          "key": "met_552247",
+          "source": "assets/museum/met_552247.jpg",
+          "crop_pixels": [
+            80,
+            240,
+            1920,
+            1120
+          ],
+          "label": "Museum object"
+        }
+      ],
+      "text_bottom_px": 200
+    },
+    {
+      "segment_id": "N23",
+      "key": "met_552247_detail",
+      "file": "assets/composed_en/N23_01_met_552247_detail.png",
+      "crop_pixels": [
+        700,
+        267,
+        1880,
+        1133
+      ],
+      "source": "assets/museum/met_552247.jpg",
+      "display_size": [
+        1090,
+        800
+      ],
+      "label": "Museum object",
+      "artwork_below_y220_identical_to_v05": true,
+      "screen_text": [
+        {
+          "text": "QUIET ORIGINS  /  EP001",
+          "bbox": [
+            100,
+            31,
+            439,
+            53
+          ]
+        },
+        {
+          "text": "The Metropolitan Museum of Art / 13.182.42 / Open Access (CC0)",
+          "bbox": [
+            100,
+            172,
+            981,
+            200
+          ]
+        },
+        {
+          "text": "MUSEUM OBJECT｜博物館資料",
+          "bbox": [
+            1348.0,
+            28,
+            1800.0,
+            58
+          ]
+        }
+      ],
+      "components": [
+        {
+          "key": "met_552247_detail",
+          "source": "assets/museum/met_552247.jpg",
+          "crop_pixels": [
+            700,
+            267,
+            1880,
+            1133
+          ],
+          "label": "Museum object"
+        }
+      ],
+      "text_bottom_px": 200
+    },
+    {
+      "segment_id": "N24",
+      "key": "met_547871",
+      "file": "assets/composed_en/N24_00_met_547871.png",
+      "source": "assets/museum/met_547871.jpg",
+      "display_size": [
+        450,
+        800
+      ],
+      "label": "Museum object",
+      "artwork_below_y220_identical_to_v05": true,
+      "screen_text": [
+        {
+          "text": "QUIET ORIGINS  /  EP001",
+          "bbox": [
+            100,
+            31,
+            439,
+            53
+          ]
+        },
+        {
+          "text": "The Metropolitan Museum of Art / 67.190 / Open Access (CC0)",
+          "bbox": [
+            100,
+            172,
+            939,
+            200
+          ]
+        },
+        {
+          "text": "MUSEUM OBJECT｜博物館資料",
+          "bbox": [
+            1348.0,
+            28,
+            1800.0,
+            58
+          ]
+        }
+      ],
+      "components": [
+        {
+          "key": "met_547871",
+          "source": "assets/museum/met_547871.jpg",
+          "label": "Museum object"
+        }
+      ],
+      "text_bottom_px": 200
+    },
+    {
+      "segment_id": "N24",
+      "key": "met_547871_detail",
+      "file": "assets/composed_en/N24_01_met_547871_detail.png",
+      "crop_pixels": [
+        0,
+        0,
+        372,
+        463
+      ],
+      "source": "assets/museum/met_547871.jpg",
+      "display_size": [
+        643,
+        800
+      ],
+      "label": "Museum object",
+      "artwork_below_y220_identical_to_v05": true,
+      "screen_text": [
+        {
+          "text": "QUIET ORIGINS  /  EP001",
+          "bbox": [
+            100,
+            31,
+            439,
+            53
+          ]
+        },
+        {
+          "text": "The Metropolitan Museum of Art / 67.190 / Open Access (CC0)",
+          "bbox": [
+            100,
+            172,
+            939,
+            200
+          ]
+        },
+        {
+          "text": "MUSEUM OBJECT｜博物館資料",
+          "bbox": [
+            1348.0,
+            28,
+            1800.0,
+            58
+          ]
+        }
+      ],
+      "components": [
+        {
+          "key": "met_547871_detail",
+          "source": "assets/museum/met_547871.jpg",
+          "crop_pixels": [
+            0,
+            0,
+            372,
+            463
+          ],
+          "label": "Museum object"
+        }
+      ],
+      "text_bottom_px": 200
+    },
+    {
+      "segment_id": "N25",
+      "key": "met_570223",
+      "file": "assets/composed_en/N25_00_met_570223.png",
+      "crop_pixels": [
+        800,
+        960,
+        1814,
+        3080
+      ],
+      "source": "assets/museum/met_570223.jpg",
+      "display_size": [
+        383,
+        800
+      ],
+      "label": "Museum object",
+      "artwork_below_y220_identical_to_v05": true,
+      "screen_text": [
+        {
+          "text": "QUIET ORIGINS  /  EP001",
+          "bbox": [
+            100,
+            31,
+            439,
+            53
+          ]
+        },
+        {
+          "text": "The Metropolitan Museum of Art / 04.2.427 / Open Access (CC0)",
+          "bbox": [
+            100,
+            172,
+            964,
+            200
+          ]
+        },
+        {
+          "text": "MUSEUM OBJECT｜博物館資料",
+          "bbox": [
+            1348.0,
+            28,
+            1800.0,
+            58
+          ]
+        }
+      ],
+      "components": [
+        {
+          "key": "met_570223",
+          "source": "assets/museum/met_570223.jpg",
+          "crop_pixels": [
+            800,
+            960,
+            1814,
+            3080
+          ],
+          "label": "Museum object"
+        }
+      ],
+      "text_bottom_px": 200
+    },
+    {
+      "segment_id": "N25",
+      "key": "archive",
+      "file": "assets/composed_en/N25_01_archive.png",
+      "source": "assets/generated/04_archive.png",
+      "display_size": [
+        1421,
+        800
+      ],
+      "label": "AI reconstruction",
+      "artwork_below_y220_identical_to_v05": true,
+      "screen_text": [
+        {
+          "text": "QUIET ORIGINS  /  EP001",
+          "bbox": [
+            100,
+            31,
+            439,
+            53
+          ]
+        },
+        {
+          "text": "AI RECONSTRUCTION｜AIによる再現",
+          "bbox": [
+            1259.0,
+            28,
+            1800.0,
+            58
+          ]
+        }
+      ],
+      "components": [
+        {
+          "key": "archive",
+          "source": "assets/generated/04_archive.png",
+          "label": "AI reconstruction"
+        }
+      ],
+      "text_bottom_px": 58
+    },
+    {
+      "segment_id": "N27",
+      "key": "protect",
+      "file": "assets/composed_en/N27_00_protect.png",
+      "label": "Concept diagram",
+      "screen_text": [
+        {
+          "text": "QUIET ORIGINS  /  EP001",
+          "bbox": [
+            100,
+            31,
+            439,
+            53
+          ]
+        },
+        {
+          "text": "The Metropolitan Museum of Art / Open Access (CC0)",
+          "bbox": [
+            100,
+            172,
+            822,
+            200
+          ]
+        },
+        {
+          "text": "MUSEUM OBJECT｜博物館資料",
+          "bbox": [
+            245.5,
+            621,
+            594.5,
+            644
+          ]
+        },
+        {
+          "text": "AI RECONSTRUCTION｜AIによる再現",
+          "bbox": [
+            752.0,
+            621,
+            1168.0,
+            644
+          ]
+        },
+        {
+          "text": "MUSEUM OBJECT｜博物館資料",
+          "bbox": [
+            1325.5,
+            621,
+            1674.5,
+            644
+          ]
+        }
+      ],
+      "components": [
+        {
+          "key": "met_544075",
+          "source": "assets/museum/met_544075.jpg",
+          "label": "Museum object"
+        },
+        {
+          "key": "linen",
+          "source": "assets/generated/03_linen.png",
+          "label": "AI reconstruction"
+        },
+        {
+          "key": "met_548344_detail",
+          "source": "assets/museum/met_548344.jpg",
+          "crop_pixels": [
+            381,
+            1046,
+            3697,
+            2545
+          ],
+          "label": "Museum object"
+        }
+      ],
+      "text_bottom_px": 644
+    },
+    {
+      "segment_id": "N27",
+      "key": "hero",
+      "file": "assets/composed_en/N27_01_hero.png",
+      "source": "assets/generated/01_anubis_chamber.png",
+      "display_size": [
+        1421,
+        800
+      ],
+      "label": "AI reconstruction",
+      "artwork_below_y220_identical_to_v05": true,
+      "screen_text": [
+        {
+          "text": "QUIET ORIGINS  /  EP001",
+          "bbox": [
+            100,
+            31,
+            439,
+            53
+          ]
+        },
+        {
+          "text": "AI RECONSTRUCTION｜AIによる再現",
+          "bbox": [
+            1259.0,
+            28,
+            1800.0,
+            58
+          ]
+        }
+      ],
+      "components": [
+        {
+          "key": "hero",
+          "source": "assets/generated/01_anubis_chamber.png",
+          "label": "AI reconstruction"
+        }
+      ],
+      "text_bottom_px": 58
+    },
+    {
+      "segment_id": "N28",
+      "key": "nile",
+      "file": "assets/composed_en/N28_00_nile.png",
+      "source": "assets/generated/02_nile.png",
+      "display_size": [
+        1421,
+        800
+      ],
+      "label": "AI reconstruction",
+      "artwork_below_y220_identical_to_v05": true,
+      "screen_text": [
+        {
+          "text": "QUIET ORIGINS  /  EP001",
+          "bbox": [
+            100,
+            31,
+            439,
+            53
+          ]
+        },
+        {
+          "text": "AI RECONSTRUCTION｜AIによる再現",
+          "bbox": [
+            1259.0,
+            28,
+            1800.0,
+            58
+          ]
+        }
+      ],
+      "components": [
+        {
+          "key": "nile",
+          "source": "assets/generated/02_nile.png",
+          "label": "AI reconstruction"
+        }
+      ],
+      "text_bottom_px": 58
+    },
+    {
+      "segment_id": "N28",
+      "key": "archive",
+      "file": "assets/composed_en/N28_01_archive.png",
+      "source": "assets/generated/04_archive.png",
+      "display_size": [
+        1421,
+        800
+      ],
+      "label": "AI reconstruction",
+      "artwork_below_y220_identical_to_v05": true,
+      "screen_text": [
+        {
+          "text": "QUIET ORIGINS  /  EP001",
+          "bbox": [
+            100,
+            31,
+            439,
+            53
+          ]
+        },
+        {
+          "text": "AI RECONSTRUCTION｜AIによる再現",
+          "bbox": [
+            1259.0,
+            28,
+            1800.0,
+            58
+          ]
+        }
+      ],
+      "components": [
+        {
+          "key": "archive",
+          "source": "assets/generated/04_archive.png",
+          "label": "AI reconstruction"
+        }
+      ],
+      "text_bottom_px": 58
+    },
+    {
+      "segment_id": "N29",
+      "key": "credits",
+      "file": "assets/composed_en/N29_00_credits.png",
+      "label": "Production credits",
+      "screen_text": [
+        {
+          "text": "QUIET ORIGINS  /  EP001",
+          "bbox": [
+            100,
+            31,
+            439,
+            53
+          ]
+        },
+        {
+          "text": "01",
+          "bbox": [
+            175,
+            259,
+            221,
+            289
+          ]
+        },
+        {
+          "text": "Museum images",
+          "bbox": [
+            320,
+            246,
+            581,
+            280
+          ]
+        },
+        {
+          "text": "The Metropolitan Museum of Art / Open Access (CC0)",
+          "bbox": [
+            320,
+            294,
+            1042,
+            322
+          ]
+        },
+        {
+          "text": "02",
+          "bbox": [
+            175,
+            371,
+            221,
+            401
+          ]
+        },
+        {
+          "text": "English narration",
+          "bbox": [
+            320,
+            357,
+            600,
+            392
+          ]
+        },
+        {
+          "text": "Kokoro / Heart (af_heart) / synthetic speech",
+          "bbox": [
+            320,
+            406,
+            902,
+            434
+          ]
+        },
+        {
+          "text": "03",
+          "bbox": [
+            175,
+            483,
+            221,
+            513
+          ]
+        },
+        {
+          "text": "Japanese narration",
+          "bbox": [
+            320,
+            470,
+            626,
+            504
+          ]
+        },
+        {
+          "text": "VOICEVOX:冥鳴ひまり",
+          "bbox": [
+            320,
+            513,
+            640,
+            542
+          ]
+        },
+        {
+          "text": "04",
+          "bbox": [
+            175,
+            595,
+            221,
+            625
+          ]
+        },
+        {
+          "text": "Reconstructions and music",
+          "bbox": [
+            320,
+            581,
+            752,
+            608
+          ]
+        },
+        {
+          "text": "AI-generated images / original ambient score",
+          "bbox": [
+            319,
+            630,
+            922,
+            658
+          ]
+        }
+      ],
+      "components": [],
+      "text_bottom_px": 658
+    }
+  ],
+  "label_dictionary": {
+    "Museum object": "MUSEUM OBJECT｜博物館資料",
+    "AI reconstruction": "AI RECONSTRUCTION｜AIによる再現",
+    "Facsimile (copy on paper)": "FACSIMILE｜模写"
+  },
+  "all_text_bottom_max": 698
+}

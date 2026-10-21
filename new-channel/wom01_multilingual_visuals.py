@@ -38,6 +38,9 @@ def fit_text(draw, xy, value, width, size=50, color=IVORY, serif=False):
 
 
 def bars(im, heading, label, footer):
+    if os.environ.get("WOM_MINIMAL_TEXT") == "1":
+        from wom01_minimal_text import minimal_bars
+        return minimal_bars(im, label, footer)
     if os.environ.get("WOM_SUBTITLE_SAFE") == "1":
         # Retain the complete old artwork band and reserve a clean subtitle area.
         art = im.crop((0, 164, W, 970))
@@ -65,6 +68,9 @@ def bars(im, heading, label, footer):
 
 
 def card_image(seg, key):
+    if os.environ.get("WOM_MINIMAL_TEXT") == "1":
+        from wom01_minimal_text import card_image as minimal_card
+        return minimal_card(seg, key)[0]
     im = Image.new("RGB", (W, H), BG)
     d = ImageDraw.Draw(im)
     data = {
@@ -130,6 +136,9 @@ def card_image(seg, key):
 
 
 def main():
+    if os.environ.get("WOM_MINIMAL_TEXT") == "1":
+        from wom01_minimal_text import compose
+        return compose()
     root, source = Path(os.environ["WOM_EPISODE_ROOT"]), Path(os.environ["WOM_SOURCE_ROOT"])
     content = json.loads((root / "records/content_en.json").read_text())
     museum = {str(m["object_id"]): m for m in json.loads((source / "records/museum_assets.json").read_text())}

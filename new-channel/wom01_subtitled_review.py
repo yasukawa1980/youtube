@@ -1,6 +1,6 @@
-"""Create separate burned-subtitle review copies from the unchanged v05 master.
+"""Create separate burned-subtitle review copies from an unchanged versioned master.
 
-WOM_EPISODE_ROOT: v05; WOM_REVIEW_ROOT: new review folder.
+WOM_EPISODE_ROOT: source master; WOM_REVIEW_ROOT: new review folder.
 Stages: render, verify. Requires imageio-ffmpeg (libass) in the local environment.
 """
 import argparse, json, os, shutil, subprocess
@@ -10,12 +10,13 @@ import numpy as np
 from PIL import Image,ImageDraw
 from wom01_multilingual_render import read,save,sha,probe
 
+VERSION=os.environ.get("WOM_VERSION", "v05")
 STYLE="FontSize=14,BorderStyle=3,MarginV=12"
 
 def run(args):
     subprocess.run(args,check=True)
 
-def stem(lang):return f'EP001_Anubis_{lang}_v05_subtitled_review_1080p30'
+def stem(lang):return f'EP001_Anubis_{lang}_{VERSION}_subtitled_review_1080p30'
 
 def stream_hash(path):
     return subprocess.check_output(['ffmpeg','-v','error','-i',str(path),'-map','0:a:0','-c','copy','-f','hash','-hash','sha256','-'],text=True).strip()
@@ -34,8 +35,8 @@ def render(source,root):
     for folder in ['deliverables','records','review','_work']:(root/folder).mkdir(parents=True)
     binary=imageio_ffmpeg.get_ffmpeg_exe();inputs=[]
     for lang in ['ja','en']:
-        src=source/f'deliverables/EP001_Anubis_{lang}_v05_1080p30.mp4'
-        srt=source/f'deliverables/EP001_Anubis_{lang}_v05_1080p30.srt'
+        src=source/f'deliverables/EP001_Anubis_{lang}_{VERSION}_1080p30.mp4'
+        srt=source/f'deliverables/EP001_Anubis_{lang}_{VERSION}_1080p30.srt'
         inputs.append({'language':lang,'video_sha256':sha(src),'srt_sha256':sha(srt)})
         shutil.copy2(srt,root/f'_work/{lang}.srt')
         out=root/f'deliverables/{stem(lang)}.mp4'
@@ -45,11 +46,11 @@ def render(source,root):
              '-fps_mode','passthrough','-video_track_timescale','15360','-c:a','copy',
              '-color_primaries','bt709','-color_trc','bt709','-colorspace','bt709',
              '-metadata','title=Quiet Origins / EP001 — subtitle review ('+lang+')',
-             '-metadata','comment=Burned subtitles for review. Japanese narration: VOICEVOX:冥鳴ひまり; English: Kokoro / Heart (af_heart). Audio unchanged from v05.',
+             '-metadata','comment=Burned subtitles for review. Japanese narration: VOICEVOX:冥鳴ひまり; English: Kokoro / Heart (af_heart). Audio unchanged from '+VERSION+'.',
              '-movflags','+faststart','-progress',str(root/f'_work/progress_{lang}.txt'),str(out)]
         print('RENDER',lang,flush=True);run(cmd);print('RENDERED',lang,flush=True)
     shutil.copy2(source/'deliverables/VOICE_CREDITS.txt',root/'deliverables/VOICE_CREDITS.txt')
-    save(root/'records/render_request.json',{'source_root':str(source),'source_commit':'bb12caa','claude_review_commit':'e62371d','subtitles_burned_in':True,'purpose':'owner review only; original v05 unchanged','style':STYLE,'renderer':binary,'inputs':inputs})
+    save(root/'records/render_request.json',{'source_root':str(source),'version':VERSION,'subtitles_burned_in':True,'purpose':f'owner review only; original {VERSION} unchanged','style':STYLE,'renderer':binary,'inputs':inputs})
 
 def selected_bottom_frames(path,frames):
     terms=[f'eq(n\\,{n})' for n in frames]
@@ -62,8 +63,8 @@ def selected_bottom_frames(path,frames):
 def verify(source,root):
     results=[];all_cues=[];request=read(root/'records/render_request.json')
     for lang in ['ja','en']:
-        out=root/f'deliverables/{stem(lang)}.mp4';src=source/f'deliverables/EP001_Anubis_{lang}_v05_1080p30.mp4'
-        srt=source/f'deliverables/EP001_Anubis_{lang}_v05_1080p30.srt'
+        out=root/f'deliverables/{stem(lang)}.mp4';src=source/f'deliverables/EP001_Anubis_{lang}_{VERSION}_1080p30.mp4'
+        srt=source/f'deliverables/EP001_Anubis_{lang}_{VERSION}_1080p30.srt'
         original=next(x for x in request['inputs'] if x['language']==lang)
         assert sha(src)==original['video_sha256'] and sha(srt)==original['srt_sha256']
         run(['ffmpeg','-v','error','-i',str(out),'-f','null','-']);p=probe(out)
@@ -86,7 +87,7 @@ def verify(source,root):
             if x['expected_subtitle']:assert count>80,(lang,x)
             else:assert count<80,(lang,x)
         all_cues.append({'language':lang,'subtitle_cues':len(cs),'samples':samples,'all_passed':True})
-        results.append({'language':lang,'name':out.name,'bytes':out.stat().st_size,'sha256':sha(out),'probe':p,'audio_stream_hash':ah,'audio_identical_to_v05':True,'full_decode':'pass','exact_30fps_pts':True,'subtitle_cues_checked':len(cs)})
+        results.append({'language':lang,'name':out.name,'bytes':out.stat().st_size,'sha256':sha(out),'probe':p,'audio_stream_hash':ah,'audio_identical_to_source':True,'full_decode':'pass','exact_30fps_pts':True,'subtitle_cues_checked':len(cs)})
         print('VERIFIED',lang,len(cs),'subtitle cues and',len(samples)-len(cs),'gaps',flush=True)
     save(root/'records/qc.json',{'duration_seconds':682.7,'frames':20481,'fps':30,'subtitles_burned_in':True,'human_full_listening':False,'files':results})
     save(root/'records/subtitle_presence_checks.json',all_cues)

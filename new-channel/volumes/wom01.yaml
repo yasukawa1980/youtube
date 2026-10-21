@@ -3,12 +3,13 @@ episode_id: wom01
 series: Quiet Origins
 channel_name: Quiet Origins   # 2026-10-21 本人決定。範囲：神話・伝承、日本と世界の行事（祭り・神事・クリスマス・ハロウィン等）の由来
 channel_name_decided_at: 2026-10-21
-channel_handle: null   # 未確認。開設時にStudioで @QuietOrigins → @QuietOriginsTV → @QuietOriginsJP の順に確認
+channel_handle: "@QuietOriginsJP"   # 本人依頼・規約同意により2026-10-21開設済み
+channel_id: UCfLJOojEY9VB3rvrjICk90Q
 channel_name_check: new-channel/wom01_チャンネル名決定_20261021.md
 previous_provisional_name: Worlds of Mystery   # v04までの画面・サムネに残る旧仮称
 title: 'Anubis: Judge of the Dead, or Protector?'
 title_ja: アヌビス — 死者を裁く神か、守る神か
-status: bilingual_v05_ready_awaiting_owner_full_listening
+status: bilingual_v06_ready_awaiting_owner_full_listening
 language: en
 language_status: owner_decided_2026-10-20
 audio_languages: [en, ja]   # 映像1本＋言語別の音声トラック。追加言語は2〜3本の実測後に検討（第1候補 es）
@@ -18,14 +19,14 @@ script_master: new-channel/episodes/EP001_Anubis/records/content_en.json
 script_ja: new-channel/episodes/EP001_Anubis/records/content.json
 voice_en: Kokoro / Heart (af_heart)   # 本人がBを正式採用
 voice_ja: VOICEVOX:冥鳴ひまり
-duration_seconds: 682.7   # v05 英語・日本語の共通実尺
+duration_seconds: 682.7   # v06 英語・日本語の共通実尺
 publication_authorized: false
-new_channel_creation_authorized: false
+new_channel_creation_authorized: true   # 2026-10-21 本人承認・開設済み
 additional_spend_authorized: false
 repo_episode_dir: new-channel/episodes/EP001_Anubis
 handoff: new-channel/wom01_テーマ設計.md
-local_media_root: /Users/ryo/Desktop/新チャンネル/EP001_Anubis/Quiet_Origins_v05_20261021
-local_media_status: v05_delivered_2026-10-21
+local_media_root: /Users/ryo/Desktop/新チャンネル/EP001_Anubis/Quiet_Origins_v06_20261021
+local_media_status: v06_delivered_2026-10-21
 legacy_media_root: /Users/ryo/Desktop/新チャンネル/EP001_Anubis/旧制作素材
 ssd_sync_verified: false
 cloud_render_verified: false
@@ -44,7 +45,7 @@ voice_audition:
   release_tag: wom01-en-voices-20261020
   full_production_requires_owner_voice_choice: true
 
-full_delivery:   # v02の履歴。最新はfull_revision_v05
+full_delivery:   # v02の履歴。最新はfull_revision_v06
   completed_steps: [2, 3, 4, 5, 6, 7]
   guide: new-channel/wom01_英語メイン版_v02_20261020/README.md
   release_tag: wom01-en-ja-v02-20261020
@@ -132,5 +133,24 @@ subtitled_review_v05:
   subtitle_cues_en: 150
   subtitle_cues_ja: 136
   release_id: 419137582
+  release_draft: true
+  ssd_synced: false
+
+full_revision_v06:
+  status: owner_full_review_pending
+  guide: new-channel/wom01_画面整理_v06_20261021/README.md
+  local_media_root: /Users/ryo/Desktop/新チャンネル/EP001_Anubis/Quiet_Origins_v06_20261021
+  duration_seconds: 682.7
+  frames: 20481
+  fps: 30
+  shots: 55
+  audio_streams_identical_to_v05: true
+  srt_identical_to_v05: true
+  thumbnail_identical_to_v05: true
+  subtitles_burned_in: false
+  all_diagram_subtitle_checks: 184
+  review_copies_burned_subtitles: true
+  review_copies_languages: [en, ja]
+  release_id: 419181754
   release_draft: true
   ssd_synced: false
