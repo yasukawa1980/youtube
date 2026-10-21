@@ -1,0 +1,8 @@
+# Python 3.12, existing local Kokoro and VOICEVOX models; no paid API.
+numpy==2.3.5
+soundfile==0.14.0
+kokoro-onnx==0.6.1
+onnxruntime==1.31.0
+imageio-ffmpeg==0.6.0
+Pillow
+https://github.com/VOICEVOX/voicevox_core/releases/download/0.17.0/voicevox_core-0.17.0-cp310-abi3-macosx_11_0_arm64.whl

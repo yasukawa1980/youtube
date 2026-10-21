@@ -1,0 +1,1200 @@
+{
+  "language": "en",
+  "duration_seconds": 397.6666666666667,
+  "segments": [
+    {
+      "id": "H01",
+      "chapter": "C01",
+      "sources": [],
+      "classification": "editorial_question",
+      "visuals": [
+        "R01",
+        "A02"
+      ],
+      "text": "Every October, the same story returns. Halloween, we are told, began as Samhain, an ancient Celtic festival of the dead, ruled by a lord of death. It is a good story. But what do the sources actually say?",
+      "cues": [
+        {
+          "id": "H01-01",
+          "text": "Every October, the same story returns.",
+          "spoken_text": "Every October, the same story returns.",
+          "start": 1.8,
+          "end": 4.881333333333333,
+          "audio_file": "audio/en/sentences/H01-01.wav",
+          "audio_sha256": "ff722b6287f8713880e38e6e002d773672a504ab3a8e6b27a7e94841147c0b58",
+          "replacements": [],
+          "role": "opening"
+        },
+        {
+          "id": "H01-02",
+          "text": "Halloween, we are told, began as Samhain, an ancient Celtic festival of the dead, ruled by a lord of death.",
+          "spoken_text": "Halloween, we are told, began as Sow-in, an ancient Celtic festival of the dead, ruled by a lord of death.",
+          "start": 5.181333333333334,
+          "end": 13.071291666666667,
+          "audio_file": "audio/en/sentences/H01-02.wav",
+          "audio_sha256": "1c5eafee2cdc91eea3c9223bcce0f5838e119ea65acdb9933ef10960c2678017",
+          "replacements": [
+            {
+              "display": "Samhain",
+              "spoken": "Sow-in",
+              "count": 1,
+              "phonemes": "sˈaʊɪn"
+            }
+          ],
+          "role": "plain"
+        },
+        {
+          "id": "H01-03",
+          "text": "It is a good story.",
+          "spoken_text": "It is a good story.",
+          "start": 13.371291666666668,
+          "end": 15.004583333333334,
+          "audio_file": "audio/en/sentences/H01-03.wav",
+          "audio_sha256": "1143af0f7ee58d8e9e9c16617ca1e5f19fa8325ce860527fb25b80450a18e069",
+          "replacements": [],
+          "role": "plain"
+        },
+        {
+          "id": "H01-04",
+          "text": "But what do the sources actually say?",
+          "spoken_text": "But what do the sources actually say?",
+          "start": 15.304583333333333,
+          "end": 17.759875,
+          "audio_file": "audio/en/sentences/H01-04.wav",
+          "audio_sha256": "acf8b88e76c336c3c419ffaebde59ee2cdac891fbd7799843826147fdf5363c1",
+          "replacements": [],
+          "role": "question"
+        }
+      ],
+      "audio_file": "audio/en/H01.wav",
+      "duration_seconds": 15.959875,
+      "native_speed": 0.82,
+      "start": 1.8,
+      "speech_end": 18.765333333333334,
+      "end": 19.666666666666668,
+      "speech_seconds": {
+        "en": 15.959875,
+        "ja": 16.965333333333334
+      }
+    },
+    {
+      "id": "H02",
+      "chapter": "C01",
+      "sources": [],
+      "classification": "editorial_question",
+      "visuals": [
+        "D_trail",
+        "R01"
+      ],
+      "text": "In this episode, we follow the paper trail: medieval Irish manuscripts, a Christian feast day, a Scottish poem, and a short newspaper report from Canada. Halloween turns out to be not one ancient festival, but several layers of history.",
+      "cues": [
+        {
+          "id": "H02-01",
+          "text": "In this episode, we follow the paper trail: medieval Irish manuscripts, a Christian feast day, a Scottish poem, and a short newspaper report from Canada.",
+          "spoken_text": "In this episode, we follow the paper trail: medieval Irish manuscripts, a Christian feast day, a Scottish poem, and a short newspaper report from Canada.",
+          "start": 19.666666666666668,
+          "end": 31.33125,
+          "audio_file": "audio/en/sentences/H02-01.wav",
+          "audio_sha256": "ab908f31ed56331b9af0cd3981408f0559419660d761941511850ba663ef3dc2",
+          "replacements": [],
+          "role": "plain"
+        },
+        {
+          "id": "H02-02",
+          "text": "Halloween turns out to be not one ancient festival, but several layers of history.",
+          "spoken_text": "Halloween turns out to be not one ancient festival, but several layers of history.",
+          "start": 31.63125,
+          "end": 37.26391666666667,
+          "audio_file": "audio/en/sentences/H02-02.wav",
+          "audio_sha256": "2ba0c772b87568ef7b9e1b7195a5ad85db0d2add33f063fb941bdff53940cb48",
+          "replacements": [],
+          "role": "plain"
+        }
+      ],
+      "audio_file": "audio/en/H02.wav",
+      "duration_seconds": 17.59725,
+      "native_speed": 0.82,
+      "start": 19.666666666666668,
+      "speech_end": 37.26391666666667,
+      "end": 38.666666666666664,
+      "speech_seconds": {
+        "en": 17.59725,
+        "ja": 16.970666666666666
+      }
+    },
+    {
+      "id": "H03",
+      "chapter": "C02",
+      "sources": [
+        "H-S01",
+        "H-S02"
+      ],
+      "classification": "historical_fact",
+      "visuals": [
+        "D_texts",
+        "R01"
+      ],
+      "text": "The word Samhain appears in early Irish literature, written down by Christian scribes between roughly the eighth and twelfth centuries. In these texts, Samhain marks the beginning of winter, one of the great turning points of the year.",
+      "cues": [
+        {
+          "id": "H03-01",
+          "text": "The word Samhain appears in early Irish literature, written down by Christian scribes between roughly the eighth and twelfth centuries.",
+          "spoken_text": "The word Sow-in appears in early Irish literature, written down by Christian scribes between roughly the eighth and twelfth centuries.",
+          "start": 42.666666666666664,
+          "end": 51.825291666666665,
+          "audio_file": "audio/en/sentences/H03-01.wav",
+          "audio_sha256": "dc6e24645836ffe9f2cb0a983d70d398351170b5700f27f6c56a98b3ae1d8d8b",
+          "replacements": [
+            {
+              "display": "Samhain",
+              "spoken": "Sow-in",
+              "count": 1,
+              "phonemes": "sˈaʊɪn"
+            }
+          ],
+          "role": "plain"
+        },
+        {
+          "id": "H03-02",
+          "text": "In these texts, Samhain marks the beginning of winter, one of the great turning points of the year.",
+          "spoken_text": "In these texts, Sow-in marks the beginning of winter, one of the great turning points of the year.",
+          "start": 52.12529166666666,
+          "end": 58.54591666666666,
+          "audio_file": "audio/en/sentences/H03-02.wav",
+          "audio_sha256": "c1e5aa42932dce906e70eb27d2247f51f8d25abc5b864ce8daa2f0c84fae11a8",
+          "replacements": [
+            {
+              "display": "Samhain",
+              "spoken": "Sow-in",
+              "count": 1,
+              "phonemes": "sˈaʊɪn"
+            }
+          ],
+          "role": "plain"
+        }
+      ],
+      "audio_file": "audio/en/H03.wav",
+      "duration_seconds": 15.87925,
+      "native_speed": 0.82,
+      "start": 42.666666666666664,
+      "speech_end": 58.54591666666666,
+      "end": 59.46666666666667,
+      "speech_seconds": {
+        "en": 15.87925,
+        "ja": 15.616
+      }
+    },
+    {
+      "id": "H04",
+      "chapter": "C02",
+      "sources": [
+        "H-S02"
+      ],
+      "classification": "myth_variant",
+      "visuals": [
+        "R01",
+        "D_texts"
+      ],
+      "text": "The tales describe assemblies and feasts at Samhain, including gatherings at Tara, the seat of the high kings. Some stories say that at Samhain, the mounds of the otherworld stood open, and beings from the other side could cross into ours.",
+      "cues": [
+        {
+          "id": "H04-01",
+          "text": "The tales describe assemblies and feasts at Samhain, including gatherings at Tara, the seat of the high kings.",
+          "spoken_text": "The tales describe assemblies and feasts at Sow-in, including gatherings at TAR-uh, the seat of the high kings.",
+          "start": 59.46666666666667,
+          "end": 67.15466666666667,
+          "audio_file": "audio/en/sentences/H04-01.wav",
+          "audio_sha256": "337869e63634102b43a7fbc3edff21fc6c8420a02a18f39eb22f6646a7c8b7f1",
+          "replacements": [
+            {
+              "display": "Samhain",
+              "spoken": "Sow-in",
+              "count": 1,
+              "phonemes": "sˈaʊɪn"
+            },
+            {
+              "display": "Tara",
+              "spoken": "TAR-uh",
+              "count": 1,
+              "phonemes": "tˈɑːɹə"
+            }
+          ],
+          "role": "plain"
+        },
+        {
+          "id": "H04-02",
+          "text": "Some stories say that at Samhain, the mounds of the otherworld stood open, and beings from the other side could cross into ours.",
+          "spoken_text": "Some stories say that at Sow-in, the mounds of the otherworld stood open, and beings from the other side could cross into ours.",
+          "start": 67.45466666666667,
+          "end": 76.19666666666667,
+          "audio_file": "audio/en/sentences/H04-02.wav",
+          "audio_sha256": "701f9c8bec1df6d077d4fee4831a36af4c868641175e4b7ea2789d4cf990fe27",
+          "replacements": [
+            {
+              "display": "Samhain",
+              "spoken": "Sow-in",
+              "count": 1,
+              "phonemes": "sˈaʊɪn"
+            }
+          ],
+          "role": "plain"
+        }
+      ],
+      "audio_file": "audio/en/H04.wav",
+      "duration_seconds": 16.73,
+      "native_speed": 0.82,
+      "start": 59.46666666666667,
+      "speech_end": 76.19666666666667,
+      "end": 77.1,
+      "speech_seconds": {
+        "en": 16.73,
+        "ja": 14.058666666666667
+      }
+    },
+    {
+      "id": "H05",
+      "chapter": "C02",
+      "sources": [
+        "H-S01",
+        "H-S02"
+      ],
+      "classification": "scholarly_interpretation",
+      "visuals": [
+        "D_story_record",
+        "R01"
+      ],
+      "text": "That is where the idea of a night when worlds draw close comes from. But these are stories, written down centuries after the pagan period, by Christian hands. They are not eyewitness accounts of pagan rites, and historians such as Ronald Hutton have noted how little they reveal about any religious ceremonies at Samhain.",
+      "cues": [
+        {
+          "id": "H05-01",
+          "text": "That is where the idea of a night when worlds draw close comes from.",
+          "spoken_text": "That is where the idea of a night when worlds draw close comes from.",
+          "start": 77.1,
+          "end": 81.59933333333333,
+          "audio_file": "audio/en/sentences/H05-01.wav",
+          "audio_sha256": "2a96be10220574122a5d5791ade86c47af0f3bd4cb4574a1852c4d0b2fc841c5",
+          "replacements": [],
+          "role": "plain"
+        },
+        {
+          "id": "H05-02",
+          "text": "But these are stories, written down centuries after the pagan period, by Christian hands.",
+          "spoken_text": "But these are stories, written down centuries after the pagan period, by Christian hands.",
+          "start": 81.89933333333333,
+          "end": 88.094,
+          "audio_file": "audio/en/sentences/H05-02.wav",
+          "audio_sha256": "9afa16ca87f82d62dd49fbe772be5547166f98f50fe04f25f7be317d2c1c7098",
+          "replacements": [],
+          "role": "plain"
+        },
+        {
+          "id": "H05-03",
+          "text": "They are not eyewitness accounts of pagan rites, and historians such as Ronald Hutton have noted how little they reveal about any religious ceremonies at Samhain.",
+          "spoken_text": "They are not eyewitness accounts of pagan rites, and historians such as Ronald Hutton have noted how little they reveal about any religious ceremonies at Sow-in.",
+          "start": 88.39399999999999,
+          "end": 99.356,
+          "audio_file": "audio/en/sentences/H05-03.wav",
+          "audio_sha256": "be3a5a0e107ff7857219ddf58c183c413ab17de71b523aa88503222693149d8a",
+          "replacements": [
+            {
+              "display": "Samhain",
+              "spoken": "Sow-in",
+              "count": 1,
+              "phonemes": "sˈaʊɪn"
+            }
+          ],
+          "role": "plain"
+        }
+      ],
+      "audio_file": "audio/en/H05.wav",
+      "duration_seconds": 22.256,
+      "native_speed": 0.82,
+      "start": 77.1,
+      "speech_end": 100.81733333333332,
+      "end": 101.73333333333333,
+      "speech_seconds": {
+        "en": 22.256,
+        "ja": 23.717333333333332
+      }
+    },
+    {
+      "id": "H06",
+      "chapter": "C02",
+      "sources": [
+        "H-S03"
+      ],
+      "classification": "scholarly_interpretation",
+      "visuals": [
+        "A05",
+        "A05_detail"
+      ],
+      "text": "Older still is a bronze calendar found at Coligny in France, made in Roman Gaul about two thousand years ago. The museum that holds it dates it to the late first century. One of its months is called Samonios. The name may be related to Samhain, but the calendar tells us almost nothing about how that month was marked.",
+      "cues": [
+        {
+          "id": "H06-01",
+          "text": "Older still is a bronze calendar found at Coligny in France, made in Roman Gaul about two thousand years ago.",
+          "spoken_text": "Older still is a bronze calendar found at Koh-lee-NYEE in France, made in Roman Gaul about two thousand years ago.",
+          "start": 101.73333333333333,
+          "end": 109.82529166666667,
+          "audio_file": "audio/en/sentences/H06-01.wav",
+          "audio_sha256": "22bff16f2807597ae24054c3f41bea92fb96e4422dbe81742b38788e6ae28aab",
+          "replacements": [
+            {
+              "display": "Coligny",
+              "spoken": "Koh-lee-NYEE",
+              "count": 1,
+              "phonemes": "koʊliːnjˈiː"
+            }
+          ],
+          "role": "plain"
+        },
+        {
+          "id": "H06-02",
+          "text": "The museum that holds it dates it to the late first century.",
+          "spoken_text": "The museum that holds it dates it to the late first century.",
+          "start": 110.12529166666667,
+          "end": 114.22195833333333,
+          "audio_file": "audio/en/sentences/H06-02.wav",
+          "audio_sha256": "7e01b4108ff46ce1e4fae159c48f3da42b9e1f15fd99b81d4fcc524858fa6105",
+          "replacements": [],
+          "role": "plain"
+        },
+        {
+          "id": "H06-03",
+          "text": "One of its months is called Samonios.",
+          "spoken_text": "One of its months is called Sah-MOH-nee-os.",
+          "start": 114.52195833333333,
+          "end": 117.41129166666667,
+          "audio_file": "audio/en/sentences/H06-03.wav",
+          "audio_sha256": "d7f76cec3c091d96f7321cb383cab82306fc4db586e2efc019faab64646f3742",
+          "replacements": [
+            {
+              "display": "Samonios",
+              "spoken": "Sah-MOH-nee-os",
+              "count": 1,
+              "phonemes": "sɑːmˈoʊniːoʊs"
+            }
+          ],
+          "role": "plain"
+        },
+        {
+          "id": "H06-04",
+          "text": "The name may be related to Samhain, but the calendar tells us almost nothing about how that month was marked.",
+          "spoken_text": "The name may be related to Sow-in, but the calendar tells us almost nothing about how that month was marked.",
+          "start": 117.71129166666667,
+          "end": 125.06795833333334,
+          "audio_file": "audio/en/sentences/H06-04.wav",
+          "audio_sha256": "009f85ae371992c022483b843dc3802949ff929521b65f6f10a1e00de1fb272c",
+          "replacements": [
+            {
+              "display": "Samhain",
+              "spoken": "Sow-in",
+              "count": 1,
+              "phonemes": "sˈaʊɪn"
+            }
+          ],
+          "role": "plain"
+        }
+      ],
+      "audio_file": "audio/en/H06.wav",
+      "duration_seconds": 23.334625,
+      "native_speed": 0.82,
+      "start": 101.73333333333333,
+      "speech_end": 125.872,
+      "end": 127.7,
+      "speech_seconds": {
+        "en": 23.334625,
+        "ja": 24.138666666666666
+      }
+    },
+    {
+      "id": "H07",
+      "chapter": "C03",
+      "sources": [
+        "H-S04"
+      ],
+      "classification": "historical_fact",
+      "visuals": [
+        "A06",
+        "A06_detail"
+      ],
+      "text": "And the lord of the dead? In the late eighteenth century, the antiquarian Charles Vallancey claimed that Samhain was the name of a god. He gave no ancient source for it, and his theories were doubted even in his own time.",
+      "cues": [
+        {
+          "id": "H07-01",
+          "text": "And the lord of the dead?",
+          "spoken_text": "And the lord of the dead?",
+          "start": 127.7,
+          "end": 129.41729166666667,
+          "audio_file": "audio/en/sentences/H07-01.wav",
+          "audio_sha256": "0e138806ac102ccb6cb9e901bd0a19c8d72e32f7c52530c138090249fc2ee262",
+          "replacements": [],
+          "role": "question"
+        },
+        {
+          "id": "H07-02",
+          "text": "In the late eighteenth century, the antiquarian Charles Vallancey claimed that Samhain was the name of a god.",
+          "spoken_text": "In the late eighteenth century, the antiquarian Charles Vuh-LAN-see claimed that Sow-in was the name of a god.",
+          "start": 129.71729166666668,
+          "end": 136.89329166666667,
+          "audio_file": "audio/en/sentences/H07-02.wav",
+          "audio_sha256": "1bde08f9442b0fa6d3acb5209fcbfe5a8c1ecc508990bee85b5c33c120f0313b",
+          "replacements": [
+            {
+              "display": "Samhain",
+              "spoken": "Sow-in",
+              "count": 1,
+              "phonemes": "sˈaʊɪn"
+            },
+            {
+              "display": "Vallancey",
+              "spoken": "Vuh-LAN-see",
+              "count": 1,
+              "phonemes": "vəlˈænsi"
+            }
+          ],
+          "role": "plain"
+        },
+        {
+          "id": "H07-03",
+          "text": "He gave no ancient source for it, and his theories were doubted even in his own time.",
+          "spoken_text": "He gave no ancient source for it, and his theories were doubted even in his own time.",
+          "start": 137.19329166666668,
+          "end": 142.93995833333332,
+          "audio_file": "audio/en/sentences/H07-03.wav",
+          "audio_sha256": "5296ae65d94d02e239587e81d1b1514a4234f22b1f33e2a4ce89eb73c84fbdd6",
+          "replacements": [],
+          "role": "plain"
+        }
+      ],
+      "audio_file": "audio/en/H07.wav",
+      "duration_seconds": 15.239958333333334,
+      "native_speed": 0.82,
+      "start": 127.7,
+      "speech_end": 142.93995833333332,
+      "end": 143.86666666666667,
+      "speech_seconds": {
+        "en": 15.239958333333334,
+        "ja": 13.925333333333333
+      }
+    },
+    {
+      "id": "H08",
+      "chapter": "C03",
+      "sources": [
+        "H-S04"
+      ],
+      "classification": "scholarly_interpretation",
+      "visuals": [
+        "A06",
+        "D_season"
+      ],
+      "text": "Still, the idea spread, and books in the twentieth century repeated it. But there is no such god in early Irish texts. Samhain was the name of a season and a festival, not of a deity.",
+      "cues": [
+        {
+          "id": "H08-01",
+          "text": "Still, the idea spread, and books in the twentieth century repeated it.",
+          "spoken_text": "Still, the idea spread, and books in the twentieth century repeated it.",
+          "start": 143.86666666666667,
+          "end": 148.834,
+          "audio_file": "audio/en/sentences/H08-01.wav",
+          "audio_sha256": "01eca18d73f1edd76461c2346e6490cf8f054d8a32846ce5501e73b18b16e3da",
+          "replacements": [],
+          "role": "plain"
+        },
+        {
+          "id": "H08-02",
+          "text": "But there is no such god in early Irish texts.",
+          "spoken_text": "But there is no such god in early Irish texts.",
+          "start": 149.13400000000001,
+          "end": 152.408625,
+          "audio_file": "audio/en/sentences/H08-02.wav",
+          "audio_sha256": "b8a68172c284a623ee4d48349eb7abaf02b5935ac7ca4164bcb5510cbb46a279",
+          "replacements": [],
+          "role": "plain"
+        },
+        {
+          "id": "H08-03",
+          "text": "Samhain was the name of a season and a festival, not of a deity.",
+          "spoken_text": "Sow-in was the name of a season and a festival, not of a deity.",
+          "start": 152.708625,
+          "end": 157.146625,
+          "audio_file": "audio/en/sentences/H08-03.wav",
+          "audio_sha256": "13278dfbb492d6bf3ffd12992461f9b0f5ab758d45bae24b191f9e70ec005ced",
+          "replacements": [
+            {
+              "display": "Samhain",
+              "spoken": "Sow-in",
+              "count": 1,
+              "phonemes": "sˈaʊɪn"
+            }
+          ],
+          "role": "plain"
+        }
+      ],
+      "audio_file": "audio/en/H08.wav",
+      "duration_seconds": 13.279958333333333,
+      "native_speed": 0.82,
+      "start": 143.86666666666667,
+      "speech_end": 158.352,
+      "end": 160.16666666666666,
+      "speech_seconds": {
+        "en": 13.279958333333333,
+        "ja": 14.485333333333333
+      }
+    },
+    {
+      "id": "H09",
+      "chapter": "C04",
+      "sources": [
+        "H-S05"
+      ],
+      "classification": "historical_fact",
+      "visuals": [
+        "A04",
+        "A03"
+      ],
+      "text": "The name Halloween comes from another tradition. In the Christian calendar, the first of November is All Saints' Day. According to Encyclopaedia Britannica, Pope Gregory the Third dedicated a chapel in Rome to all the saints in the eighth century, and in 837, Pope Gregory the Fourth ordered the feast to be observed generally.",
+      "cues": [
+        {
+          "id": "H09-01",
+          "text": "The name Halloween comes from another tradition.",
+          "spoken_text": "The name Halloween comes from another tradition.",
+          "start": 160.16666666666666,
+          "end": 163.41,
+          "audio_file": "audio/en/sentences/H09-01.wav",
+          "audio_sha256": "6dc0c2ed4ebd197559a92a5c3e3f3caaa30ead1fb10327b6d2d49a8d703442d7",
+          "replacements": [],
+          "role": "plain"
+        },
+        {
+          "id": "H09-02",
+          "text": "In the Christian calendar, the first of November is All Saints' Day.",
+          "spoken_text": "In the Christian calendar, the first of November is All Saints' Day.",
+          "start": 163.70999999999998,
+          "end": 168.26333333333332,
+          "audio_file": "audio/en/sentences/H09-02.wav",
+          "audio_sha256": "341c5817f72d1f558b6129c832951891d624d9c893bab94d48666ea7909c5ae6",
+          "replacements": [],
+          "role": "plain"
+        },
+        {
+          "id": "H09-03",
+          "text": "According to Encyclopaedia Britannica, Pope Gregory the Third dedicated a chapel in Rome to all the saints in the eighth century, and in 837, Pope Gregory the Fourth ordered the feast to be observed generally.",
+          "spoken_text": "According to Encyclopaedia Britannica, Pope Gregory the Third dedicated a chapel in Rome to all the saints in the eighth century, and in eight thirty-seven, Pope Gregory the Fourth ordered the feast to be observed generally.",
+          "start": 168.56333333333333,
+          "end": 184.44595833333332,
+          "audio_file": "audio/en/sentences/H09-03.wav",
+          "audio_sha256": "c825794e72831a0834bef4ec3f15bfedb05807deffd2cde0372db7268b7f5eb8",
+          "replacements": [
+            {
+              "display": "837",
+              "spoken": "eight thirty-seven",
+              "count": 1
+            }
+          ],
+          "role": "plain"
+        }
+      ],
+      "audio_file": "audio/en/H09.wav",
+      "duration_seconds": 24.279291666666666,
+      "native_speed": 0.82,
+      "start": 160.16666666666666,
+      "speech_end": 184.44595833333332,
+      "end": 185.36666666666667,
+      "speech_seconds": {
+        "en": 24.279291666666666,
+        "ja": 23.136
+      }
+    },
+    {
+      "id": "H10",
+      "chapter": "C04",
+      "sources": [
+        "H-S05"
+      ],
+      "classification": "historical_fact",
+      "visuals": [
+        "A03",
+        "A03_detail"
+      ],
+      "text": "In medieval England, the feast was called All Hallows, hallow meaning saint. The evening before was All Hallows' Eve, shortened over time to Hallowe'en. So the name itself is Christian.",
+      "cues": [
+        {
+          "id": "H10-01",
+          "text": "In medieval England, the feast was called All Hallows, hallow meaning saint.",
+          "spoken_text": "In medieval England, the feast was called All Hallows, hallow meaning saint.",
+          "start": 185.36666666666667,
+          "end": 190.54995833333334,
+          "audio_file": "audio/en/sentences/H10-01.wav",
+          "audio_sha256": "72fad42edbb912e79b192897b779cda5cb0729652ca66d6434314fe756a978c5",
+          "replacements": [],
+          "role": "plain"
+        },
+        {
+          "id": "H10-02",
+          "text": "The evening before was All Hallows' Eve, shortened over time to Hallowe'en.",
+          "spoken_text": "The evening before was All Hallows' Eve, shortened over time to Halloween.",
+          "start": 190.84995833333335,
+          "end": 195.97795833333333,
+          "audio_file": "audio/en/sentences/H10-02.wav",
+          "audio_sha256": "7700a8ddf08d9907b1541bed04fc481a93726b4fcef2a0cdfc74e640e5f027dd",
+          "replacements": [
+            {
+              "display": "Hallowe'en",
+              "spoken": "Halloween",
+              "count": 1
+            }
+          ],
+          "role": "plain"
+        },
+        {
+          "id": "H10-03",
+          "text": "So the name itself is Christian.",
+          "spoken_text": "So the name itself is Christian.",
+          "start": 196.27795833333334,
+          "end": 198.57395833333334,
+          "audio_file": "audio/en/sentences/H10-03.wav",
+          "audio_sha256": "beb11815056a8484c9b088a7cb09c0a2b962a20ac1ddda629465c597cbcb425e",
+          "replacements": [],
+          "role": "plain"
+        }
+      ],
+      "audio_file": "audio/en/H10.wav",
+      "duration_seconds": 13.207291666666666,
+      "native_speed": 0.82,
+      "start": 185.36666666666667,
+      "speech_end": 202.30533333333335,
+      "end": 203.23333333333332,
+      "speech_seconds": {
+        "en": 13.207291666666666,
+        "ja": 16.938666666666666
+      }
+    },
+    {
+      "id": "H11",
+      "chapter": "C04",
+      "sources": [
+        "H-S05",
+        "H-S01"
+      ],
+      "classification": "scholarly_interpretation",
+      "visuals": [
+        "D_calendar",
+        "A04_detail"
+      ],
+      "text": "Historians still debate whether the date of the feast had anything to do with Samhain. What we can say is that in Ireland and Scotland, the start of winter and the eve of All Saints came to share the same night.",
+      "cues": [
+        {
+          "id": "H11-01",
+          "text": "Historians still debate whether the date of the feast had anything to do with Samhain.",
+          "spoken_text": "Historians still debate whether the date of the feast had anything to do with Sow-in.",
+          "start": 203.23333333333332,
+          "end": 208.89466666666667,
+          "audio_file": "audio/en/sentences/H11-01.wav",
+          "audio_sha256": "a98dd3cfcb15221a3e80cbe2b0682a4c04083c26d4d10ee236578592379d90b1",
+          "replacements": [
+            {
+              "display": "Samhain",
+              "spoken": "Sow-in",
+              "count": 1,
+              "phonemes": "sˈaʊɪn"
+            }
+          ],
+          "role": "plain"
+        },
+        {
+          "id": "H11-02",
+          "text": "What we can say is that in Ireland and Scotland, the start of winter and the eve of All Saints came to share the same night.",
+          "spoken_text": "What we can say is that in Ireland and Scotland, the start of winter and the eve of All Saints came to share the same night.",
+          "start": 209.19466666666665,
+          "end": 217.652,
+          "audio_file": "audio/en/sentences/H11-02.wav",
+          "audio_sha256": "e8d953d46f9e423913523632d1b9d37816da95b722864e6e686c34893358abee",
+          "replacements": [],
+          "role": "plain"
+        }
+      ],
+      "audio_file": "audio/en/H11.wav",
+      "duration_seconds": 14.418666666666667,
+      "native_speed": 0.82,
+      "start": 203.23333333333332,
+      "speech_end": 218.65733333333333,
+      "end": 220.46666666666667,
+      "speech_seconds": {
+        "en": 14.418666666666667,
+        "ja": 15.424
+      }
+    },
+    {
+      "id": "H12",
+      "chapter": "C05",
+      "sources": [
+        "H-S06",
+        "H-S09"
+      ],
+      "classification": "historical_fact",
+      "visuals": [
+        "A01",
+        "R03"
+      ],
+      "text": "One of the richest early descriptions comes from Scotland. In 1785, Robert Burns wrote a long poem called Halloween, published the following year. He described young people pulling up kale stalks in the dark, and burning nuts by the fire to learn who they would marry.",
+      "cues": [
+        {
+          "id": "H12-01",
+          "text": "One of the richest early descriptions comes from Scotland.",
+          "spoken_text": "One of the richest early descriptions comes from Scotland.",
+          "start": 220.46666666666667,
+          "end": 224.36866666666666,
+          "audio_file": "audio/en/sentences/H12-01.wav",
+          "audio_sha256": "85e79b86860722e4e4aeb05a1a70a217595a46e13dd557ef69e2ac27501ae7c7",
+          "replacements": [],
+          "role": "plain"
+        },
+        {
+          "id": "H12-02",
+          "text": "In 1785, Robert Burns wrote a long poem called Halloween, published the following year.",
+          "spoken_text": "In 1785, Robert Burns wrote a long poem called Halloween, published the following year.",
+          "start": 224.66866666666667,
+          "end": 232.69933333333333,
+          "audio_file": "audio/en/sentences/H12-02.wav",
+          "audio_sha256": "b5f68451c9dac171bf209c5e81b2bfbdc46550940c803455a28f3654326ea161",
+          "replacements": [],
+          "role": "plain"
+        },
+        {
+          "id": "H12-03",
+          "text": "He described young people pulling up kale stalks in the dark, and burning nuts by the fire to learn who they would marry.",
+          "spoken_text": "He described young people pulling up kale stalks in the dark, and burning nuts by the fire to learn who they would marry.",
+          "start": 232.99933333333334,
+          "end": 240.75133333333332,
+          "audio_file": "audio/en/sentences/H12-03.wav",
+          "audio_sha256": "7d55cb689d9dc9ab169095c9d3ee22bdd7659230a7ba353fae539466e4414515",
+          "replacements": [],
+          "role": "plain"
+        }
+      ],
+      "audio_file": "audio/en/H12.wav",
+      "duration_seconds": 20.284666666666666,
+      "native_speed": 0.82,
+      "start": 220.46666666666667,
+      "speech_end": 242.52533333333332,
+      "end": 243.43333333333334,
+      "speech_seconds": {
+        "en": 20.284666666666666,
+        "ja": 22.058666666666667
+      }
+    },
+    {
+      "id": "H13",
+      "chapter": "C05",
+      "sources": [
+        "H-S06"
+      ],
+      "classification": "editorial_interpretation",
+      "visuals": [
+        "R03",
+        "A01"
+      ],
+      "text": "Burns even added notes to explain the customs to his readers. In his poem, Halloween is less about fear than about laughter, mischief, and guessing at the future. It is a picture of a rural community, not of an ancient rite.",
+      "cues": [
+        {
+          "id": "H13-01",
+          "text": "Burns even added notes to explain the customs to his readers.",
+          "spoken_text": "Burns even added notes to explain the customs to his readers.",
+          "start": 243.43333333333334,
+          "end": 248.13466666666667,
+          "audio_file": "audio/en/sentences/H13-01.wav",
+          "audio_sha256": "c4e9ce0fc232c5b169395230f28683210163d3e98fb1edc415b3bd3b50861301",
+          "replacements": [],
+          "role": "plain"
+        },
+        {
+          "id": "H13-02",
+          "text": "In his poem, Halloween is less about fear than about laughter, mischief, and guessing at the future.",
+          "spoken_text": "In his poem, Halloween is less about fear than about laughter, mischief, and guessing at the future.",
+          "start": 248.43466666666666,
+          "end": 255.494,
+          "audio_file": "audio/en/sentences/H13-02.wav",
+          "audio_sha256": "d548b108e8217ee522b2a9bdb7c815cc8e96cb69021938826f1f034195b1ed54",
+          "replacements": [],
+          "role": "plain"
+        },
+        {
+          "id": "H13-03",
+          "text": "It is a picture of a rural community, not of an ancient rite.",
+          "spoken_text": "It is a picture of a rural community, not of an ancient rite.",
+          "start": 255.794,
+          "end": 260.39,
+          "audio_file": "audio/en/sentences/H13-03.wav",
+          "audio_sha256": "5a0527d0202b39efd07c3b5e16a25dd837c2aa410167375c5bfe85b52f19d068",
+          "replacements": [],
+          "role": "plain"
+        }
+      ],
+      "audio_file": "audio/en/H13.wav",
+      "duration_seconds": 16.956666666666667,
+      "native_speed": 0.82,
+      "start": 243.43333333333334,
+      "speech_end": 260.39,
+      "end": 262.2,
+      "speech_seconds": {
+        "en": 16.956666666666667,
+        "ja": 16.586666666666666
+      }
+    },
+    {
+      "id": "H14",
+      "chapter": "C06",
+      "sources": [
+        "H-S07"
+      ],
+      "classification": "historical_fact",
+      "visuals": [
+        "R02",
+        "D_jack"
+      ],
+      "text": "Then there is the jack-o'-lantern. In seventeenth-century England, the phrase meant a man carrying a lantern, or the strange lights seen over marshes at night. Only in the nineteenth century does it appear for a lantern carved from a vegetable.",
+      "cues": [
+        {
+          "id": "H14-01",
+          "text": "Then there is the jack-o'-lantern.",
+          "spoken_text": "Then there is the jack-o'-lantern.",
+          "start": 262.2,
+          "end": 264.5059583333333,
+          "audio_file": "audio/en/sentences/H14-01.wav",
+          "audio_sha256": "39c726a23c55461fe680760951395798c65c57d1a46b3ec3cd334b18d4cb7b28",
+          "replacements": [],
+          "role": "plain"
+        },
+        {
+          "id": "H14-02",
+          "text": "In seventeenth-century England, the phrase meant a man carrying a lantern, or the strange lights seen over marshes at night.",
+          "spoken_text": "In seventeenth-century England, the phrase meant a man carrying a lantern, or the strange lights seen over marshes at night.",
+          "start": 264.8059583333333,
+          "end": 273.3899583333333,
+          "audio_file": "audio/en/sentences/H14-02.wav",
+          "audio_sha256": "ac1948e36723e85fdc173795d80060aa9d5fb139d4c57fe18f8160245da4d38a",
+          "replacements": [],
+          "role": "plain"
+        },
+        {
+          "id": "H14-03",
+          "text": "Only in the nineteenth century does it appear for a lantern carved from a vegetable.",
+          "spoken_text": "Only in the nineteenth century does it appear for a lantern carved from a vegetable.",
+          "start": 273.6899583333333,
+          "end": 279.33258333333333,
+          "audio_file": "audio/en/sentences/H14-03.wav",
+          "audio_sha256": "936b03b87a76e6e47c688f0d8dba1e66cf55cf3489e944badeb57576e73c47c8",
+          "replacements": [],
+          "role": "plain"
+        }
+      ],
+      "audio_file": "audio/en/H14.wav",
+      "duration_seconds": 17.132583333333333,
+      "native_speed": 0.82,
+      "start": 262.2,
+      "speech_end": 279.33258333333333,
+      "end": 280.23333333333335,
+      "speech_seconds": {
+        "en": 17.132583333333333,
+        "ja": 16.458666666666666
+      }
+    },
+    {
+      "id": "H15",
+      "chapter": "C06",
+      "sources": [
+        "H-S07"
+      ],
+      "classification": "historical_fact",
+      "visuals": [
+        "R02",
+        "A02"
+      ],
+      "text": "In parts of Ireland and Scotland, those lanterns were carved from turnips and other roots. When the custom crossed the Atlantic, people in North America used pumpkins, which were larger and easier to carve.",
+      "cues": [
+        {
+          "id": "H15-01",
+          "text": "In parts of Ireland and Scotland, those lanterns were carved from turnips and other roots.",
+          "spoken_text": "In parts of Ireland and Scotland, those lanterns were carved from turnips and other roots.",
+          "start": 280.23333333333335,
+          "end": 286.65000000000003,
+          "audio_file": "audio/en/sentences/H15-01.wav",
+          "audio_sha256": "d66637ad9af10a08c713d84b721e8d40eaa7198301c3f372eaf2c5d532e5d5cf",
+          "replacements": [],
+          "role": "plain"
+        },
+        {
+          "id": "H15-02",
+          "text": "When the custom crossed the Atlantic, people in North America used pumpkins, which were larger and easier to carve.",
+          "spoken_text": "When the custom crossed the Atlantic, people in North America used pumpkins, which were larger and easier to carve.",
+          "start": 286.95,
+          "end": 295.06329166666666,
+          "audio_file": "audio/en/sentences/H15-02.wav",
+          "audio_sha256": "f9d7e8b714b657f72680e1ff3a7f05336045f863bd1f6e3c4249825fc7bdb158",
+          "replacements": [],
+          "role": "plain"
+        }
+      ],
+      "audio_file": "audio/en/H15.wav",
+      "duration_seconds": 14.829958333333334,
+      "native_speed": 0.82,
+      "start": 280.23333333333335,
+      "speech_end": 295.06329166666666,
+      "end": 295.96666666666664,
+      "speech_seconds": {
+        "en": 14.829958333333334,
+        "ja": 13.066666666666666
+      }
+    },
+    {
+      "id": "H16",
+      "chapter": "C06",
+      "sources": [
+        "H-S08"
+      ],
+      "classification": "historical_fact",
+      "visuals": [
+        "A02",
+        "A07"
+      ],
+      "text": "Trick-or-treat has a similar story. Going from house to house in disguise, known as guising, was part of Halloween in Scotland by the nineteenth century. But the earliest known use of the phrase trick-or-treat comes from a newspaper report in Alberta, Canada, in 1927. In the decades that followed, Halloween parties and door-to-door visits spread across North America.",
+      "cues": [
+        {
+          "id": "H16-01",
+          "text": "Trick-or-treat has a similar story.",
+          "spoken_text": "Trick-or-treat has a similar story.",
+          "start": 295.96666666666664,
+          "end": 298.61266666666666,
+          "audio_file": "audio/en/sentences/H16-01.wav",
+          "audio_sha256": "663040b0fe8e8c81e514be7c6933a8f1057667f5f3123086be55cbd91aa26a07",
+          "replacements": [],
+          "role": "plain"
+        },
+        {
+          "id": "H16-02",
+          "text": "Going from house to house in disguise, known as guising, was part of Halloween in Scotland by the nineteenth century.",
+          "spoken_text": "Going from house to house in disguise, known as GUY-zing, was part of Halloween in Scotland by the nineteenth century.",
+          "start": 298.91266666666667,
+          "end": 307.34866666666665,
+          "audio_file": "audio/en/sentences/H16-02.wav",
+          "audio_sha256": "f27189d6375eee2e0d345dbf4c622dee803854a37e64fd2a6a29fcd42738f8ae",
+          "replacements": [
+            {
+              "display": "guising",
+              "spoken": "GUY-zing",
+              "count": 1,
+              "phonemes": "ɡˈaɪzɪŋ"
+            }
+          ],
+          "role": "plain"
+        },
+        {
+          "id": "H16-03",
+          "text": "But the earliest known use of the phrase trick-or-treat comes from a newspaper report in Alberta, Canada, in 1927.",
+          "spoken_text": "But the earliest known use of the phrase trick-or-treat comes from a newspaper report in Alberta, Canada, in 1927.",
+          "start": 307.64866666666666,
+          "end": 317.08599999999996,
+          "audio_file": "audio/en/sentences/H16-03.wav",
+          "audio_sha256": "f1a0287ecc6cbf509b1bc01102a65e67e7b11cb317617009e1c56296e3be1fc5",
+          "replacements": [],
+          "role": "plain"
+        },
+        {
+          "id": "H16-04",
+          "text": "In the decades that followed, Halloween parties and door-to-door visits spread across North America.",
+          "spoken_text": "In the decades that followed, Halloween parties and door-to-door visits spread across North America.",
+          "start": 317.38599999999997,
+          "end": 324.114,
+          "audio_file": "audio/en/sentences/H16-04.wav",
+          "audio_sha256": "2106cbeda9afc3c9910c42bfbb5d99839c567d36a8f166afeb73138be3302bda",
+          "replacements": [],
+          "role": "plain"
+        }
+      ],
+      "audio_file": "audio/en/H16.wav",
+      "duration_seconds": 28.147333333333332,
+      "native_speed": 0.82,
+      "start": 295.96666666666664,
+      "speech_end": 324.6013333333333,
+      "end": 326.43333333333334,
+      "speech_seconds": {
+        "en": 28.147333333333332,
+        "ja": 28.634666666666668
+      }
+    },
+    {
+      "id": "H17",
+      "chapter": "C07",
+      "sources": [],
+      "classification": "editorial_summary",
+      "visuals": [
+        "D_layers",
+        "D_trail"
+      ],
+      "text": "So where does Halloween come from? Not from a single ancient festival. It grew from a Gaelic turning of the seasons, a Christian feast, rural fortune-telling, and the customs of emigrants who carried them to a new continent.",
+      "cues": [
+        {
+          "id": "H17-01",
+          "text": "So where does Halloween come from?",
+          "spoken_text": "So where does Halloween come from?",
+          "start": 326.43333333333334,
+          "end": 328.43329166666666,
+          "audio_file": "audio/en/sentences/H17-01.wav",
+          "audio_sha256": "fa555a33ab32f1a1383fe9bfef10e9e70c2f10b927aae5c8787740d045deaeda",
+          "replacements": [],
+          "role": "question"
+        },
+        {
+          "id": "H17-02",
+          "text": "Not from a single ancient festival.",
+          "spoken_text": "Not from a single ancient festival.",
+          "start": 328.7332916666667,
+          "end": 331.23125,
+          "audio_file": "audio/en/sentences/H17-02.wav",
+          "audio_sha256": "a995ea8a7ee3dfd577e2ddb4c1d05de376125c51f121b5a50a0f6472990b0e0e",
+          "replacements": [],
+          "role": "conclusion"
+        },
+        {
+          "id": "H17-03",
+          "text": "It grew from a Gaelic turning of the seasons, a Christian feast, rural fortune-telling, and the customs of emigrants who carried them to a new continent.",
+          "spoken_text": "It grew from a Gaelic turning of the seasons, a Christian feast, rural fortune-telling, and the customs of emigrants who carried them to a new continent.",
+          "start": 331.53125,
+          "end": 341.983875,
+          "audio_file": "audio/en/sentences/H17-03.wav",
+          "audio_sha256": "977da702dc74fcce771aba34a0103f68d290a50c6a747f06a2ee484630b9d420",
+          "replacements": [],
+          "role": "conclusion"
+        }
+      ],
+      "audio_file": "audio/en/H17.wav",
+      "duration_seconds": 15.550541666666666,
+      "native_speed": 0.82,
+      "start": 326.43333333333334,
+      "speech_end": 343.676,
+      "end": 344.6,
+      "speech_seconds": {
+        "en": 15.550541666666666,
+        "ja": 17.24266666666667
+      }
+    },
+    {
+      "id": "H18",
+      "chapter": "C07",
+      "sources": [],
+      "classification": "editorial_interpretation",
+      "visuals": [
+        "D_trail",
+        "D_layers"
+      ],
+      "text": "Each layer left its trace in the sources, and each tells us something about the people who kept the night. Every story has an origin, and sometimes, more than one.",
+      "cues": [
+        {
+          "id": "H18-01",
+          "text": "Each layer left its trace in the sources, and each tells us something about the people who kept the night.",
+          "spoken_text": "Each layer left its trace in the sources, and each tells us something about the people who kept the night.",
+          "start": 344.6,
+          "end": 351.0972916666667,
+          "audio_file": "audio/en/sentences/H18-01.wav",
+          "audio_sha256": "db8734e04bfd50ae28287a041dc465ec0172e5ffe5dcbf42a8a9cf9376e44c47",
+          "replacements": [],
+          "role": "conclusion"
+        },
+        {
+          "id": "H18-02",
+          "text": "Every story has an origin, and sometimes, more than one.",
+          "spoken_text": "Every story has an origin, and sometimes, more than one.",
+          "start": 351.39729166666666,
+          "end": 355.6919166666667,
+          "audio_file": "audio/en/sentences/H18-02.wav",
+          "audio_sha256": "7c6d1fb3b61f19697a5f8937ffc23cb94eded472a2ea79301c8633525bfb9d96",
+          "replacements": [],
+          "role": "conclusion"
+        }
+      ],
+      "audio_file": "audio/en/H18.wav",
+      "duration_seconds": 11.091916666666666,
+      "native_speed": 0.82,
+      "start": 344.6,
+      "speech_end": 357.37333333333333,
+      "end": 358.3,
+      "speech_seconds": {
+        "en": 11.091916666666666,
+        "ja": 12.773333333333333
+      }
+    },
+    {
+      "id": "H19",
+      "chapter": "C07",
+      "sources": [],
+      "classification": "production_disclosure",
+      "visuals": [
+        "credits"
+      ],
+      "text": "This video is based on historical sources and public collections. The narration uses synthetic speech, and some images are AI-generated reconstructions. Sources and terms of use are listed in the description. Thank you for watching.",
+      "cues": [
+        {
+          "id": "H19-01",
+          "text": "This video is based on historical sources and public collections.",
+          "spoken_text": "This video is based on historical sources and public collections.",
+          "start": 358.3,
+          "end": 363.118,
+          "audio_file": "audio/en/sentences/H19-01.wav",
+          "audio_sha256": "5e5fe9fb5bf2c4e690e530cbcf9028b30402acd3b76af58068ae41cbc0ae0ea0",
+          "replacements": [],
+          "role": "plain"
+        },
+        {
+          "id": "H19-02",
+          "text": "The narration uses synthetic speech, and some images are AI-generated reconstructions.",
+          "spoken_text": "The narration uses synthetic speech, and some images are A I generated reconstructions.",
+          "start": 363.418,
+          "end": 370.1673333333333,
+          "audio_file": "audio/en/sentences/H19-02.wav",
+          "audio_sha256": "1a26ce86bc074ee5500f8b606d4807292d57327bd37a12ba223a27b9031d154e",
+          "replacements": [
+            {
+              "display": "AI-generated",
+              "spoken": "A I generated",
+              "count": 1
+            }
+          ],
+          "role": "plain"
+        },
+        {
+          "id": "H19-03",
+          "text": "Sources and terms of use are listed in the description.",
+          "spoken_text": "Sources and terms of use are listed in the description.",
+          "start": 370.46733333333333,
+          "end": 374.4132916666667,
+          "audio_file": "audio/en/sentences/H19-03.wav",
+          "audio_sha256": "8d72c402361d19058b00110af2c181fae84e1eb774be0f203b21e4ddbe28c084",
+          "replacements": [],
+          "role": "plain"
+        },
+        {
+          "id": "H19-04",
+          "text": "Thank you for watching.",
+          "spoken_text": "Thank you for watching.",
+          "start": 374.7132916666667,
+          "end": 376.46458333333334,
+          "audio_file": "audio/en/sentences/H19-04.wav",
+          "audio_sha256": "d6588eb8d2bdbc5df86089ca9d57d2d5da21d57a85817584564a153fc1f8ddbe",
+          "replacements": [],
+          "role": "plain"
+        }
+      ],
+      "audio_file": "audio/en/H19.wav",
+      "duration_seconds": 18.164583333333333,
+      "native_speed": 0.82,
+      "start": 358.3,
+      "speech_end": 376.46458333333334,
+      "end": 377.6666666666667,
+      "speech_seconds": {
+        "en": 18.164583333333333,
+        "ja": 17.333333333333332
+      }
+    }
+  ]
+}

@@ -1,0 +1,107 @@
+{
+  "passed": true,
+  "duration_seconds": 397.6666666666667,
+  "frames": 11930,
+  "fps": 30,
+  "human_full_listening": false,
+  "files": [
+    {
+      "name": "EP002_Halloween_en_v01_1080p30.mp4",
+      "bytes": 56696906,
+      "sha256": "59c00091cca1887a91911b401709e6cb8768007102b67dd8cb9c0f8ae3c278fa",
+      "video_stream_sha256": "SHA256=bab068b1e8822072a73765d7f1af983d319b6565e1c16a3bd7fc0c36edffd7cc",
+      "audio_stream_sha256": "SHA256=94b01b8a42cdcfbad837a7eb08994f1d3c420fef57f6074836d776e95746d5cf",
+      "full_decode": true,
+      "exact_30fps_pts": true,
+      "frames": 11930,
+      "duration": 397.666667,
+      "loudness": {
+        "input_i": "-16.01",
+        "input_tp": "-3.70",
+        "input_lra": "6.10",
+        "input_thresh": "-27.06",
+        "output_i": "-16.13",
+        "output_tp": "-3.00",
+        "output_lra": "4.80",
+        "output_thresh": "-26.80",
+        "normalization_type": "dynamic",
+        "target_offset": "0.13"
+      },
+      "silence_over_1s_at_minus60dB": []
+    },
+    {
+      "name": "EP002_Halloween_en_v01_subtitled_review_1080p30.mp4",
+      "bytes": 61459366,
+      "sha256": "58c22d0380f3361e732d4cd68eb5c482cc194d01c5a22528f6f8f98bf94711c4",
+      "video_stream_sha256": "SHA256=a250e970f6cd6b351a58f434bda61cfb0161df2ed2c3bcc6d6a7a1bd389f012c",
+      "audio_stream_sha256": "SHA256=94b01b8a42cdcfbad837a7eb08994f1d3c420fef57f6074836d776e95746d5cf",
+      "full_decode": true,
+      "exact_30fps_pts": true,
+      "frames": 11930,
+      "duration": 397.666667,
+      "loudness": {
+        "input_i": "-16.01",
+        "input_tp": "-3.70",
+        "input_lra": "6.10",
+        "input_thresh": "-27.06",
+        "output_i": "-16.13",
+        "output_tp": "-3.00",
+        "output_lra": "4.80",
+        "output_thresh": "-26.80",
+        "normalization_type": "dynamic",
+        "target_offset": "0.13"
+      },
+      "silence_over_1s_at_minus60dB": []
+    },
+    {
+      "name": "EP002_Halloween_ja_v01_1080p30.mp4",
+      "bytes": 56690129,
+      "sha256": "36db14217cf3af2840f0222ad64c8e07306a599fd414b4b1098efce3536cc31a",
+      "video_stream_sha256": "SHA256=bab068b1e8822072a73765d7f1af983d319b6565e1c16a3bd7fc0c36edffd7cc",
+      "audio_stream_sha256": "SHA256=33f07b1dab59aacb69db35cfd36051cdc093f5e2c342372ad6364836a634a229",
+      "full_decode": true,
+      "exact_30fps_pts": true,
+      "frames": 11930,
+      "duration": 397.666667,
+      "loudness": {
+        "input_i": "-15.99",
+        "input_tp": "-4.51",
+        "input_lra": "4.70",
+        "input_thresh": "-26.79",
+        "output_i": "-15.98",
+        "output_tp": "-3.10",
+        "output_lra": "4.00",
+        "output_thresh": "-26.54",
+        "normalization_type": "dynamic",
+        "target_offset": "-0.02"
+      },
+      "silence_over_1s_at_minus60dB": []
+    },
+    {
+      "name": "EP002_Halloween_ja_v01_subtitled_review_1080p30.mp4",
+      "bytes": 61601691,
+      "sha256": "25880deae6c4209d597df2c382436d5b0d3ae5c6d2755067c32479d87798339a",
+      "video_stream_sha256": "SHA256=8204372144f03954ce30e08073a6efb1a8bf2fad25efc980fbafc33883b6e561",
+      "audio_stream_sha256": "SHA256=33f07b1dab59aacb69db35cfd36051cdc093f5e2c342372ad6364836a634a229",
+      "full_decode": true,
+      "exact_30fps_pts": true,
+      "frames": 11930,
+      "duration": 397.666667,
+      "loudness": {
+        "input_i": "-15.99",
+        "input_tp": "-4.51",
+        "input_lra": "4.70",
+        "input_thresh": "-26.79",
+        "output_i": "-15.98",
+        "output_tp": "-3.10",
+        "output_lra": "4.00",
+        "output_thresh": "-26.54",
+        "normalization_type": "dynamic",
+        "target_offset": "-0.02"
+      },
+      "silence_over_1s_at_minus60dB": []
+    }
+  ],
+  "shared_video_stream": true,
+  "subtitled_audio_unchanged": true
+}
