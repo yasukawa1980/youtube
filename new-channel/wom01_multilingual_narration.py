@@ -39,6 +39,8 @@ def spoken_ja(text):
         '何柱': 'なんはしら', 'AI': 'エーアイ',
     }.items():
         text = text.replace(a, b)
+    # Standalone 秤 is misread as バカリ by OpenJTalk; preserve 天秤 and 秤量.
+    text = re.sub(r"(?<!天)秤(?!量)", "はかり", text)
     return text
 
 

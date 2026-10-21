@@ -69,7 +69,7 @@ def build_timeline(root):
         if i == len(en)-1:
             gap = 5
         else:
-            gap = 1.8 if en[i+1]["chapter"] != e["chapter"] else .35
+            gap = 1.8 if en[i+1]["chapter"] != e["chapter"] else float(os.environ.get("WOM_SENTENCE_BLOCK_GAP", ".35"))
         end = math.ceil((speech_end+gap)*FPS)/FPS
         master.append({"id": e["id"], "chapter": e["chapter"], "heading": e["heading"],
                        "start": pos, "speech_end": speech_end, "end": end,

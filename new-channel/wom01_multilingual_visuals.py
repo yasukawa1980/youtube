@@ -32,6 +32,20 @@ def fit_text(draw, xy, value, width, size=50, color=IVORY, serif=False):
 
 
 def bars(im, heading, label, footer):
+    if os.environ.get("WOM_SUBTITLE_SAFE") == "1":
+        # Retain the complete old artwork band and reserve a clean subtitle area.
+        art = im.crop((0, 164, W, 970))
+        art = ImageOps.contain(art, (W, 720), Image.Resampling.LANCZOS)
+        im = Image.new("RGB", (W, H), BG)
+        im.paste(art, ((W-art.width)//2, 220))
+        d = ImageDraw.Draw(im)
+        put(d, (100, 25), f"{BRAND}  /  EP001", 28, GOLD)
+        fit_text(d, (100, 78), heading, 1720, 50, serif=True)
+        width = d.textlength(label, font=font(30))+40
+        d.rounded_rectangle((1820-width, 20, 1820, 70), 10, fill="#243942")
+        put(d, (1840-width, 27), label, 30, GOLD)
+        fit_text(d, (100, 166), footer, 1720, 30, MUTED)
+        return im
     d = ImageDraw.Draw(im)
     d.rectangle((0, 0, W, 164), fill=BG)
     d.rectangle((0, 970, W, H), fill=BG)
@@ -157,7 +171,7 @@ def main():
                     record["source"] = f"assets/museum/met_{oid}.jpg"
                 art = ImageOps.contain(src, (1720, 800), Image.Resampling.LANCZOS)
                 im.paste(art, ((W-art.width)//2, 166+(800-art.height)//2))
-                bars(im, seg["heading"], label, footer)
+                im = bars(im, seg["heading"], label, footer)
                 record["display_size"] = art.size
                 record["label"] = label
             else:

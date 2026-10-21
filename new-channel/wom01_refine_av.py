@@ -104,8 +104,9 @@ def camera_filter(count):
     perspective = (f"perspective=x0='{x}':y0='{y}':x1='W-{x}':y1='{y}':"
                    f"x2='{x}':y2='H-{y}':x3='W-{x}':y3='H-{y}':"
                    "sense=source:eval=frame:interpolation=cubic")
-    return ("[0:v]split=2[base][art];[art]crop=1920:806:0:164,format=yuv444p,"
-            + perspective + "[moving];[base][moving]overlay=0:164:format=yuv444,format=yuv420p[v]")
+    top, height = (220, 720) if os.environ.get('WOM_SUBTITLE_SAFE') == '1' else (164, 806)
+    return (f"[0:v]split=2[base][art];[art]crop=1920:{height}:0:{top},format=yuv444p,"
+            + perspective + f"[moving];[base][moving]overlay=0:{top}:format=yuv444,format=yuv420p[v]")
 
 
 def pictures(root, limit=0):
@@ -113,6 +114,7 @@ def pictures(root, limit=0):
     manifest = read(root / 'records/visual_manifest.json')
     work = root / '_work/render'
     parts, shots = [], []
+    crf = int(os.environ.get('WOM_VIDEO_CRF', '20'))
     for i, seg in enumerate(master['segments']):
         images = [s for s in manifest['shots'] if s['segment_id'] == seg['id']]
         first = 0 if i == 0 else round(seg['start']*FPS)
@@ -122,12 +124,12 @@ def pictures(root, limit=0):
             count = int(bounds[j+1]-bounds[j])
             path = work / f'{seg["id"]}_{j:02}_subpixel_v03.mp4'
             picture = root / image['file']
-            expected = {'image_sha256':sha(picture), 'frames':count, 'filter':camera_filter(count), 'crf':20}
+            expected = {'image_sha256':sha(picture), 'frames':count, 'filter':camera_filter(count), 'crf':crf}
             stamp=path.with_suffix('.json')
             if not path.exists() or not stamp.exists() or read(stamp)!=expected:
                 ff(['-loop', 1, '-framerate', FPS, '-i', picture, '-filter_complex_threads', 2,
                     '-filter_complex', camera_filter(count), '-map', '[v]', '-frames:v', count,
-                    '-an', '-c:v', 'libx264', '-threads', 4, '-preset', 'veryfast', '-crf', 20,
+                    '-an', '-c:v', 'libx264', '-threads', 4, '-preset', 'veryfast', '-crf', crf,
                     '-color_primaries', 'bt709', '-color_trc', 'bt709', '-colorspace', 'bt709', path])
                 save(stamp,expected)
             assert abs(float(probe(path)['format']['duration'])-count/FPS) < 1/FPS
