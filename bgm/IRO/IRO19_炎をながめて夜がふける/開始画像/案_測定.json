@@ -1,0 +1,113 @@
+{
+  "luminance_method": "Y = 0.299 R + 0.587 G + 0.114 B (8-bit sRGB encoded values, float64, no rounding, no linearization)",
+  "ratio_unit": "percent of all image pixels",
+  "dog_bbox_method": "目視で頭・前足・体・尾先を含む矩形を指定。毛布は除外。x_max/y_maxはexclusive。輪郭は目視推定で各端およそ±5px。幅は自動セグメンテーションによる厳密実測ではない。",
+  "limits": {
+    "luminance_below_16_percent": 3,
+    "luminance_at_least_250_percent": 1,
+    "dog_width_at_1920_px": 500
+  },
+  "generation": {
+    "base_prompt": "16:9の横長イラスト。IRO Sounds の厚塗りアニメ調（見本と同じ人物・画風・塗り）。晩秋の夜、森の空き地でのキャンプ。カメラは地面に近い低い位置から、やや斜め横に見る。画面中央やや左に石で丸く囲んだ焚き火があり、炎は画面の高さの約2割、橙の光が地面と人物と犬をやわらかく照らす。画面右寄り（横幅の約68%の位置）に、見本と同じお団子髪の女性が丸太に腰かけ、深い森の緑（#2F4A3A前後）のチェックの毛布を両肩から掛け、生成りのニットを着ている。琺瑯のマグを両手で胸の前に持ち、体を左の焚き火へ向けた斜め横顔で、目は開いて炎を見ている。脚と足先は毛布の中に隠れる。画面左手前（横幅の約20%・下寄り）に、見本と同じゴールデンレトリバーが畳んだ毛布の上で小さく丸くなって眠っている。目を閉じ、あごを前足に乗せ、しっぽを体に沿わせ、頭からしっぽの先まで画面幅の26%以内に収まる。奥には松の木々の暗いシルエット、右奥に内側から灯りのともった小さなテント。画面の上半分は深い紺の星空で、左上は星の少ない暗い空。全体は深い森の緑と紺、炎の橙だけが暖色。暗い部分も黒く潰さず、木々や地面の質感が見える明るさ。文字・ロゴ・余計な人物は入れない。",
+    "reference_note": "参照画像はすべて画風・キャラクターの見本です。1枚目04_Room_女、2枚目12_start、3枚目11_room_startの同じお団子の女性・厚塗りアニメの塗りを再現。4枚目14_start_犬寝の同じゴールデンレトリバーを再現。室内の構図や家具は転用せず、以下のキャンプ場面を新規生成してください。1枚の完成イラストのみ。",
+    "composition_variations": [
+      "構図の細部（案1）：火の中心は横42%、女性の中心は横68%、犬の中心は横20%。女性は左向きの斜め横顔。犬の頭は右寄りで火に近い側、尾は左へ体に沿って巻く。犬と石の輪の間には地面の隙間。犬と火と女性でゆるい三角形。",
+      "構図の細部（案2）：火の中心は横44%、女性の中心は横69%、犬の中心は横19%。女性は案1よりわずかにカメラ側へ向いた左向きの斜め横顔で炎を見る。犬は頭が左寄り、尾は右側から体に巻き、小さく丸まる。犬は火より少し手前、火と女性の間は少し狭く。",
+      "構図の細部（案3）：火の中心は横40%、女性の中心は横67%、犬の中心は横21%。女性は左向きで横顔に少し近い角度、目を開いて炎を見る。犬は頭を右手前へわずかに向けて前足にあごを乗せ、尾は体に密着。火は犬より少し奥で、火と女性の間には地面の余白。"
+    ],
+    "reference_images": [
+      "/Users/ryo/youtube/bgm/IRO/IRO_キャラ_Kling/元画像/04_Room_女.png",
+      "/Users/ryo/youtube/bgm/IRO/IRO12_よく晴れた日に集中する/開始画像/12_start.png",
+      "/Users/ryo/youtube/bgm/IRO/IRO11_もう少しだけ起きていよう/開始画像/11_room_start.png",
+      "/Users/ryo/youtube/bgm/IRO/IRO14_静かな夜に集中する/開始画像/14_start_犬寝.png"
+    ],
+    "tool": "built-in image_gen",
+    "corrections": "初回生成後、image_genで犬の縮小と暗部の明るさ、小さいテント、余分な道具の除去を修正。案2・3は暗部のみ再修正。Python等による作品PNGの描画・色調補正・リサイズなし。"
+  },
+  "variants": [
+    {
+      "file": "案1.png",
+      "width_px": 1672,
+      "height_px": 941,
+      "aspect_ratio": 1.7768331562167907,
+      "aspect_ratio_note": "生成原寸1672×941。16:9との差は約0.053%。リサイズなし。",
+      "sha256": "096313dd276c64d3897587b3a791dbbd77f108ed8f69eda652e21e7a29947638",
+      "pixels": 1573352,
+      "below_16_pixels": 43734,
+      "below_16_percent": 2.7796704106900427,
+      "at_least_250_pixels": 1385,
+      "at_least_250_percent": 0.08802861660963344,
+      "dog_bbox_xyxy": [
+        60,
+        637,
+        428,
+        798
+      ],
+      "dog_bbox_width_px": 368,
+      "dog_width_at_1920_px": 422.5837320574163,
+      "dog_width_percent": 22.00956937799043,
+      "dog_width_is_visual_estimate": true,
+      "meets_limits": {
+        "dark": true,
+        "bright": true,
+        "dog": true
+      }
+    },
+    {
+      "file": "案2.png",
+      "width_px": 1672,
+      "height_px": 941,
+      "aspect_ratio": 1.7768331562167907,
+      "aspect_ratio_note": "生成原寸1672×941。16:9との差は約0.053%。リサイズなし。",
+      "sha256": "49b204b740cf34982a5bde0344e59af86cf0e5d530b8ce723a3d4b925d0cfb7b",
+      "pixels": 1573352,
+      "below_16_pixels": 24581,
+      "below_16_percent": 1.5623331587591334,
+      "at_least_250_pixels": 883,
+      "at_least_250_percent": 0.05612221549913815,
+      "dog_bbox_xyxy": [
+        135,
+        630,
+        487,
+        783
+      ],
+      "dog_bbox_width_px": 352,
+      "dog_width_at_1920_px": 404.2105263157895,
+      "dog_width_percent": 21.052631578947366,
+      "dog_width_is_visual_estimate": true,
+      "meets_limits": {
+        "dark": true,
+        "bright": true,
+        "dog": true
+      }
+    },
+    {
+      "file": "案3.png",
+      "width_px": 1672,
+      "height_px": 941,
+      "aspect_ratio": 1.7768331562167907,
+      "aspect_ratio_note": "生成原寸1672×941。16:9との差は約0.053%。リサイズなし。",
+      "sha256": "8f66f5eca6bf94a9d0bccfd8918325519f90fc2ea243ce0583bd7f1d37b88daf",
+      "pixels": 1573352,
+      "below_16_pixels": 16445,
+      "below_16_percent": 1.0452206499244923,
+      "at_least_250_pixels": 1547,
+      "at_least_250_percent": 0.09832510461740285,
+      "dog_bbox_xyxy": [
+        115,
+        666,
+        456,
+        815
+      ],
+      "dog_bbox_width_px": 341,
+      "dog_width_at_1920_px": 391.57894736842104,
+      "dog_width_percent": 20.394736842105264,
+      "dog_width_is_visual_estimate": true,
+      "meets_limits": {
+        "dark": true,
+        "bright": true,
+        "dog": true
+      }
+    }
+  ]
+}
