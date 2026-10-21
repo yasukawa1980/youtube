@@ -1,8 +1,11 @@
 # 共有用の制作台帳。bgmkit実行設定ではない。既存チャンネルへの自動接続は禁止。
 episode_id: wom01
-series: 新チャンネル（名称未定）
-channel_name: null
-provisional_name: Worlds of Mystery
+series: Quiet Origins
+channel_name: Quiet Origins   # 2026-10-21 本人決定。範囲：神話・伝承、日本と世界の行事（祭り・神事・クリスマス・ハロウィン等）の由来
+channel_name_decided_at: 2026-10-21
+channel_handle: null   # 未確認。開設時にStudioで @QuietOrigins → @QuietOriginsTV → @QuietOriginsJP の順に確認
+channel_name_check: new-channel/wom01_チャンネル名決定_20261021.md
+previous_provisional_name: Worlds of Mystery   # v04までの画面・サムネに残る旧仮称
 title: 'Anubis: Judge of the Dead, or Protector?'
 title_ja: アヌビス — 死者を裁く神か、守る神か
 status: bilingual_v04_ready_awaiting_owner_full_listening
