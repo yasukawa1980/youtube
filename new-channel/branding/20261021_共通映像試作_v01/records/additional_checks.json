@@ -1,0 +1,31 @@
+{
+  "passed": true,
+  "sound_envelopes": [
+    {
+      "kind": "opening",
+      "first_5ms_rms_dbfs": -113.45194591677273,
+      "last_5ms_rms_dbfs": -120.1728590200866,
+      "max_sample_step": 0.0022590160369873047,
+      "peak_amplitude": 0.06615543365478516
+    },
+    {
+      "kind": "endcard",
+      "first_5ms_rms_dbfs": -117.72570975959442,
+      "last_5ms_rms_dbfs": -143.3272138550949,
+      "max_sample_step": 0.0019913911819458008,
+      "peak_amplitude": 0.06928074359893799
+    }
+  ],
+  "no_retained_episode_captions_during_ident": true,
+  "sampled_ident_times": [
+    29.3,
+    30.5,
+    32.7
+  ],
+  "actual_frame_sheets": [
+    "opening_storyboard.jpg",
+    "endcard_storyboard.jpg",
+    "connection_ja.jpg",
+    "connection_en.jpg"
+  ]
+}

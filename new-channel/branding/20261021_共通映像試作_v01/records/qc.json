@@ -1,0 +1,151 @@
+{
+  "passed": true,
+  "files": [
+    {
+      "name": "EP001_en_endcard_connection_trial_v01.mp4",
+      "bytes": 4051909,
+      "sha256": "1456cfc921f1129e9f5bde8aca2996b5a504f7cca8136f561ac5e87991211a3c",
+      "duration_seconds": 40.0,
+      "frames": 1200,
+      "fps": 30,
+      "full_decode": "pass",
+      "exact_pts": true,
+      "audio": {
+        "input_i": "-18.42",
+        "input_tp": "-3.89",
+        "input_lra": "15.70",
+        "input_thresh": "-30.23",
+        "output_i": "-18.51",
+        "output_tp": "-3.94",
+        "output_lra": "8.00",
+        "output_thresh": "-28.92",
+        "normalization_type": "dynamic",
+        "target_offset": "2.51"
+      }
+    },
+    {
+      "name": "EP001_en_opening_connection_trial_v01.mp4",
+      "bytes": 10485828,
+      "sha256": "5b49146e2217166ca817b9195a1218f2807ac2ad319a0960a7fedbd9d70fd7f1",
+      "duration_seconds": 55.844,
+      "frames": 1675,
+      "fps": 30,
+      "full_decode": "pass",
+      "exact_pts": true,
+      "audio": {
+        "input_i": "-16.07",
+        "input_tp": "-4.08",
+        "input_lra": "3.90",
+        "input_thresh": "-26.89",
+        "output_i": "-16.07",
+        "output_tp": "-3.00",
+        "output_lra": "2.90",
+        "output_thresh": "-26.57",
+        "normalization_type": "dynamic",
+        "target_offset": "0.07"
+      }
+    },
+    {
+      "name": "EP001_ja_endcard_connection_trial_v01.mp4",
+      "bytes": 4077679,
+      "sha256": "e1ecd5b0638088223b5d0eadd1a56fa81032a0d30e2e275def55995b2f83d7e1",
+      "duration_seconds": 40.0,
+      "frames": 1200,
+      "fps": 30,
+      "full_decode": "pass",
+      "exact_pts": true,
+      "audio": {
+        "input_i": "-17.41",
+        "input_tp": "-5.47",
+        "input_lra": "15.60",
+        "input_thresh": "-29.34",
+        "output_i": "-18.24",
+        "output_tp": "-5.53",
+        "output_lra": "10.20",
+        "output_thresh": "-28.74",
+        "normalization_type": "dynamic",
+        "target_offset": "2.24"
+      }
+    },
+    {
+      "name": "EP001_ja_opening_connection_trial_v01.mp4",
+      "bytes": 10428669,
+      "sha256": "82f8e09c20a142fc10a1d2849f7c9fe7fe0ab247e93de8f4586425aa23b8f4d5",
+      "duration_seconds": 55.844,
+      "frames": 1675,
+      "fps": 30,
+      "full_decode": "pass",
+      "exact_pts": true,
+      "audio": {
+        "input_i": "-16.54",
+        "input_tp": "-5.13",
+        "input_lra": "10.90",
+        "input_thresh": "-27.80",
+        "output_i": "-15.91",
+        "output_tp": "-3.15",
+        "output_lra": "5.40",
+        "output_thresh": "-26.71",
+        "normalization_type": "dynamic",
+        "target_offset": "-0.09"
+      }
+    },
+    {
+      "name": "Quiet_Origins_endcard_trial_v01.mp4",
+      "bytes": 1771061,
+      "sha256": "3ad6338c7073f419065228db6fc604495f56f71eada794e2a0717b08afc64b15",
+      "duration_seconds": 20.0,
+      "frames": 600,
+      "fps": 30,
+      "full_decode": "pass",
+      "exact_pts": true,
+      "audio": {
+        "input_i": "-30.01",
+        "input_tp": "-23.18",
+        "input_lra": "10.00",
+        "input_thresh": "-40.58",
+        "output_i": "-16.57",
+        "output_tp": "-10.01",
+        "output_lra": "2.40",
+        "output_thresh": "-26.91",
+        "normalization_type": "dynamic",
+        "target_offset": "0.57"
+      }
+    },
+    {
+      "name": "Quiet_Origins_opening_trial_v01.mp4",
+      "bytes": 824144,
+      "sha256": "c22e619b8b69df5768955d129a3ae572efea2bc35363cc74e86d738f5398f9a1",
+      "duration_seconds": 4.0,
+      "frames": 120,
+      "fps": 30,
+      "full_decode": "pass",
+      "exact_pts": true,
+      "audio": {
+        "input_i": "-29.01",
+        "input_tp": "-23.57",
+        "input_lra": "0.20",
+        "input_thresh": "-39.13",
+        "output_i": "-16.11",
+        "output_tp": "-10.65",
+        "output_lra": "0.10",
+        "output_thresh": "-26.22",
+        "normalization_type": "dynamic",
+        "target_offset": "0.11"
+      }
+    }
+  ],
+  "v07_files_preserved": [
+    "EP001_Anubis_en_v07_1080p30.mp4",
+    "EP001_Anubis_en_v07_1080p30.srt",
+    "EP001_Anubis_ja_v07_1080p30.mp4",
+    "EP001_Anubis_ja_v07_1080p30.srt",
+    "EP001_audio_en.m4a",
+    "EP001_audio_ja.m4a",
+    "EP001_thumbnail_en.jpg",
+    "VOICE_CREDITS.txt",
+    "EP001_Anubis_en_v07_subtitled_review_1080p30.mp4",
+    "EP001_Anubis_ja_v07_subtitled_review_1080p30.mp4"
+  ],
+  "human_listening": false,
+  "method": "Frame count, exact packet PTS, full decode, audio loudness/true peak; original v07 SHA-256 checked"
+}
