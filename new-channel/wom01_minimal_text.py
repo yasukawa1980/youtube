@@ -19,6 +19,7 @@ EN='/System/Library/Fonts/Supplemental/Arial.ttf'
 SERIF='/System/Library/Fonts/Supplemental/Georgia.ttf'
 LABELS={'Museum object':'MUSEUM OBJECT｜博物館資料','AI reconstruction':'AI RECONSTRUCTION｜AIによる再現','Facsimile (copy on paper)':'FACSIMILE｜模写'}
 ROOT=Path(os.environ['WOM_EPISODE_ROOT']); PREV=Path(os.environ['WOM_PREVIOUS_ROOT']); SOURCE=Path(os.environ['WOM_SOURCE_ROOT'])
+VERSION=os.environ.get('WOM_VERSION','v06'); PREVIOUS_VERSION=os.environ.get('WOM_PREVIOUS_VERSION','v05')
 TEXTS=[]; ASSETS=[]
 
 def typeface(size,serif=False,japanese=False):
@@ -181,25 +182,25 @@ def package():
     ff(['-f','concat','-safe',0,'-i',concat,'-c','copy','-bsf:v','setts=pts=round(PTS/512)*512:dts=round(DTS/512)*512:duration=512','-movflags','+faststart',picture])
     results=[]
     for lang in ['en','ja']:
-        stem=f'EP001_Anubis_{lang}_v06_1080p30';out=ROOT/f'deliverables/{stem}.mp4';srt=ROOT/f'deliverables/{stem}.srt';shutil.copy2(ROOT/f'deliverables/EP001_字幕_{lang}.srt',srt)
-        ff(['-i',picture,'-i',ROOT/f'deliverables/EP001_audio_{lang}.m4a','-map','0:v:0','-map','1:a:0','-c','copy','-metadata:s:a:0','language='+('eng' if lang=='en' else 'jpn'),'-metadata','title=Quiet Origins / EP001 — Anubis v06','-metadata','comment=Japanese narration: VOICEVOX:冥鳴ひまり; English narration: Kokoro / Heart (af_heart); external subtitles','-movflags','+faststart',out])
+        stem=f'EP001_Anubis_{lang}_{VERSION}_1080p30';out=ROOT/f'deliverables/{stem}.mp4';srt=ROOT/f'deliverables/{stem}.srt';shutil.copy2(ROOT/f'deliverables/EP001_字幕_{lang}.srt',srt)
+        ff(['-i',picture,'-i',ROOT/f'deliverables/EP001_audio_{lang}.m4a','-map','0:v:0','-map','1:a:0','-c','copy','-metadata:s:a:0','language='+('eng' if lang=='en' else 'jpn'),'-metadata',f'title=Quiet Origins / EP001 — Anubis {VERSION}','-metadata','comment=Japanese narration: VOICEVOX:冥鳴ひまり; English narration: Kokoro / Heart (af_heart); external subtitles','-movflags','+faststart',out])
         ff(['-i',out,'-f','null','-']);p=probe(out);v=p['streams'][0]
         assert [x['codec_type'] for x in p['streams']]==['video','audio']
         assert v['avg_frame_rate']=='30/1' and int(v['nb_frames'])==20481 and float(p['format']['duration'])==682.7
         pts=sorted(map(int,subprocess.check_output(['ffprobe','-v','error','-select_streams','v:0','-show_entries','packet=pts','-of','csv=p=0',str(out)],text=True).splitlines()));assert pts==list(range(0,20481*512,512))
-        ah=stream_hash(out,'a');assert ah==stream_hash(PREV/f'deliverables/EP001_Anubis_{lang}_v05_1080p30.mp4','a')
-        assert sha(srt)==sha(PREV/f'deliverables/EP001_Anubis_{lang}_v05_1080p30.srt')
-        results.append({'language':lang,'name':out.name,'bytes':out.stat().st_size,'sha256':sha(out),'audio_matches_v05':True,'srt_matches_v05':True,'full_decode':'pass','exact_30fps_pts':True,'probe':p,'video_stream_hash':stream_hash(out,'v')})
+        ah=stream_hash(out,'a');assert ah==stream_hash(PREV/f'deliverables/EP001_Anubis_{lang}_{PREVIOUS_VERSION}_1080p30.mp4','a')
+        assert sha(srt)==sha(PREV/f'deliverables/EP001_Anubis_{lang}_{PREVIOUS_VERSION}_1080p30.srt')
+        results.append({'language':lang,'name':out.name,'bytes':out.stat().st_size,'sha256':sha(out),'audio_matches_previous':True,'srt_matches_previous':True,'full_decode':'pass','exact_30fps_pts':True,'probe':p,'video_stream_hash':stream_hash(out,'v')})
         print('PACKAGED',lang,flush=True)
     assert results[0]['video_stream_hash']==results[1]['video_stream_hash']
-    save(ROOT/'records/qc_v06.json',{'duration_seconds':682.7,'frames':20481,'shots':55,'subtitles_burned_in':False,'human_full_listening':False,'shot_intervals_match_v05':True,'thumbnail_matches_v05':True,'files':results})
+    save(ROOT/f'records/qc_{VERSION}.json',{'duration_seconds':682.7,'frames':20481,'shots':55,'subtitles_burned_in':False,'human_full_listening':False,'previous_version':PREVIOUS_VERSION,'shot_intervals_match_previous':True,'thumbnail_matches_previous':True,'files':results})
 
 def layout():
     import imageio_ffmpeg
     binary=imageio_ffmpeg.get_ffmpeg_exe();shots=read(ROOT/'records/render_shots.json');folder=ROOT/'review/layout';folder.mkdir(exist_ok=True)
     checks=[];thumbs={14:[],26:[]}
     for lang in ['en','ja']:
-        video=ROOT/f'deliverables/EP001_Anubis_{lang}_v06_1080p30.mp4';srt=video.with_suffix('.srt')
+        video=ROOT/f'deliverables/EP001_Anubis_{lang}_{VERSION}_1080p30.mp4';srt=video.with_suffix('.srt')
         for shot in [s for s in shots if not s.get('source')]:
             for cue in cues(srt):
                 a=max(cue['start'],shot['start']);b=min(cue['end'],shot['end'])
@@ -231,14 +232,14 @@ def layout():
     for offset in range(0,len(shots),12):
         part=shots[offset:offset+12];sheet=Image.new('RGB',(1280,390*((len(part)+1)//2)),BG)
         for i,s in enumerate(part):
-            path=ROOT/f'review/mid_{offset+i:02}.jpg';ff(['-ss',(s['start']+s['end'])/2,'-i',ROOT/'deliverables/EP001_Anubis_en_v06_1080p30.mp4','-frames:v',1,'-vf','scale=1280:720','-q:v',3,path])
+            path=ROOT/f'review/mid_{offset+i:02}.jpg';ff(['-ss',(s['start']+s['end'])/2,'-i',ROOT/f'deliverables/EP001_Anubis_en_{VERSION}_1080p30.mp4','-frames:v',1,'-vf','scale=1280:720','-q:v',3,path])
             im=Image.open(path);im.thumbnail((640,360));sheet.paste(im,((i%2)*640,(i//2)*390+30));ImageDraw.Draw(sheet).text(((i%2)*640+8,(i//2)*390+8),f'{offset+i+1:02} {s["segment_id"]} {s["key"]}',fill='white')
         sheet.save(ROOT/f'review/midpoints_{offset//12+1:02}.jpg',quality=88)
     print('LAYOUT CHECKS',len(checks),flush=True)
 
 def review(stage):
     import wom01_subtitled_review as sr
-    sr.VERSION='v06';review_root=ROOT/'subtitled_review'
+    sr.VERSION=VERSION;review_root=ROOT/'subtitled_review'
     if stage=='review-render':sr.render(ROOT,review_root)
     else:sr.verify(ROOT,review_root)
 
