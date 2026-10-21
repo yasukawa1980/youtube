@@ -1,0 +1,88 @@
+{
+  "passed": true,
+  "files": [
+    {
+      "file": "EP001_Anubis/Quiet_Origins_v08_20261021/deliverables/EP001_Anubis_ja_v08_1080p30.mp4",
+      "frames": 20481,
+      "duration": 682.7,
+      "full_decode": true,
+      "exact_pts": true,
+      "audio": {
+        "input_i": "-16.00",
+        "input_tp": "-4.66",
+        "input_lra": "5.30",
+        "input_thresh": "-26.82",
+        "output_i": "-16.05",
+        "output_tp": "-3.15",
+        "output_lra": "4.70",
+        "output_thresh": "-26.65",
+        "normalization_type": "dynamic",
+        "target_offset": "0.05"
+      },
+      "sha256": "514558ef4695ee494a2a845daf914347cca2c1dbc75ddcdaa3962eefd8ac295c"
+    },
+    {
+      "file": "EP001_Anubis/Quiet_Origins_v08_20261021/deliverables/EP001_Anubis_en_v08_1080p30.mp4",
+      "frames": 20481,
+      "duration": 682.7,
+      "full_decode": true,
+      "exact_pts": true,
+      "audio": {
+        "input_i": "-16.01",
+        "input_tp": "-3.82",
+        "input_lra": "2.90",
+        "input_thresh": "-26.72",
+        "output_i": "-16.05",
+        "output_tp": "-3.00",
+        "output_lra": "2.80",
+        "output_thresh": "-26.66",
+        "normalization_type": "dynamic",
+        "target_offset": "0.05"
+      },
+      "sha256": "a6099ca12ff881fb150eae72f3e93e373ac30c169df798bfc5af9d004f4cf4be"
+    },
+    {
+      "file": "EP001_Anubis/Quiet_Origins_v08_20261021/subtitled_review/deliverables/EP001_Anubis_ja_v08_subtitled_review_1080p30.mp4",
+      "frames": 20481,
+      "duration": 682.7,
+      "full_decode": true,
+      "exact_pts": true,
+      "audio": {
+        "input_i": "-16.00",
+        "input_tp": "-4.66",
+        "input_lra": "5.30",
+        "input_thresh": "-26.82",
+        "output_i": "-16.05",
+        "output_tp": "-3.15",
+        "output_lra": "4.70",
+        "output_thresh": "-26.65",
+        "normalization_type": "dynamic",
+        "target_offset": "0.05"
+      },
+      "sha256": "794650ad1f24698f759d5cf528c78047c27d436a078f1fc3a78dfc8519ad3025"
+    },
+    {
+      "file": "EP001_Anubis/Quiet_Origins_v08_20261021/subtitled_review/deliverables/EP001_Anubis_en_v08_subtitled_review_1080p30.mp4",
+      "frames": 20481,
+      "duration": 682.7,
+      "full_decode": true,
+      "exact_pts": true,
+      "audio": {
+        "input_i": "-16.01",
+        "input_tp": "-3.82",
+        "input_lra": "2.90",
+        "input_thresh": "-26.72",
+        "output_i": "-16.05",
+        "output_tp": "-3.00",
+        "output_lra": "2.80",
+        "output_thresh": "-26.66",
+        "normalization_type": "dynamic",
+        "target_offset": "0.05"
+      },
+      "sha256": "cfc610687d4e8eb919ea00010f9379a2cdc96ccc4a4d8328ba424546262e8bca"
+    }
+  ],
+  "v07_video_streams_identical": true,
+  "english_audio_stream_identical": true,
+  "human_listening": false
+}

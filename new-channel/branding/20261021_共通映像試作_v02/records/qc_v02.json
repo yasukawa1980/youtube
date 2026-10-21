@@ -1,0 +1,181 @@
+{
+  "passed": true,
+  "files": [
+    {
+      "file": "ブランド素材/オープニング_エンドカード_動画試作_v02_20261021/deliverables/EP001_en_opening_connection_trial_v02.mp4",
+      "frames": 1675,
+      "duration": 55.844,
+      "full_decode": true,
+      "exact_pts": true,
+      "audio": {
+        "input_i": "-16.28",
+        "input_tp": "-4.08",
+        "input_lra": "3.90",
+        "input_thresh": "-26.82",
+        "output_i": "-15.91",
+        "output_tp": "-3.00",
+        "output_lra": "2.40",
+        "output_thresh": "-26.39",
+        "normalization_type": "dynamic",
+        "target_offset": "-0.09"
+      },
+      "sha256": "b34b50988801c5d81989df9f02807abd9604709ba2785d32cf041369a4f3fd91"
+    },
+    {
+      "file": "ブランド素材/オープニング_エンドカード_動画試作_v02_20261021/deliverables/Quiet_Origins_endcard_trial_v01.mp4",
+      "frames": 600,
+      "duration": 20.0,
+      "full_decode": true,
+      "exact_pts": true,
+      "audio": {
+        "input_i": "-30.01",
+        "input_tp": "-23.18",
+        "input_lra": "10.00",
+        "input_thresh": "-40.58",
+        "output_i": "-16.57",
+        "output_tp": "-10.01",
+        "output_lra": "2.40",
+        "output_thresh": "-26.91",
+        "normalization_type": "dynamic",
+        "target_offset": "0.57"
+      },
+      "sha256": "3ad6338c7073f419065228db6fc604495f56f71eada794e2a0717b08afc64b15"
+    },
+    {
+      "file": "ブランド素材/オープニング_エンドカード_動画試作_v02_20261021/deliverables/EP001_ja_opening_connection_trial_v02.mp4",
+      "frames": 1675,
+      "duration": 55.844,
+      "full_decode": true,
+      "exact_pts": true,
+      "audio": {
+        "input_i": "-16.81",
+        "input_tp": "-5.13",
+        "input_lra": "5.10",
+        "input_thresh": "-27.72",
+        "output_i": "-15.76",
+        "output_tp": "-3.15",
+        "output_lra": "4.90",
+        "output_thresh": "-26.54",
+        "normalization_type": "dynamic",
+        "target_offset": "-0.24"
+      },
+      "sha256": "8ffeccb0e66e8a7419faf0a11684efb688d8a343a81417e620d3faad871bc217"
+    },
+    {
+      "file": "ブランド素材/オープニング_エンドカード_動画試作_v02_20261021/deliverables/EP001_ja_endcard_connection_trial_v01.mp4",
+      "frames": 1200,
+      "duration": 40.0,
+      "full_decode": true,
+      "exact_pts": true,
+      "audio": {
+        "input_i": "-17.41",
+        "input_tp": "-5.47",
+        "input_lra": "15.60",
+        "input_thresh": "-29.34",
+        "output_i": "-18.24",
+        "output_tp": "-5.53",
+        "output_lra": "10.20",
+        "output_thresh": "-28.74",
+        "normalization_type": "dynamic",
+        "target_offset": "2.24"
+      },
+      "sha256": "e1ecd5b0638088223b5d0eadd1a56fa81032a0d30e2e275def55995b2f83d7e1"
+    },
+    {
+      "file": "ブランド素材/オープニング_エンドカード_動画試作_v02_20261021/deliverables/Quiet_Origins_opening_trial_v02.mp4",
+      "frames": 120,
+      "duration": 4.0,
+      "full_decode": true,
+      "exact_pts": true,
+      "audio": {
+        "input_i": "-22.01",
+        "input_tp": "-16.59",
+        "input_lra": "0.20",
+        "input_thresh": "-32.13",
+        "output_i": "-16.11",
+        "output_tp": "-10.68",
+        "output_lra": "0.10",
+        "output_thresh": "-26.22",
+        "normalization_type": "dynamic",
+        "target_offset": "0.11"
+      },
+      "sha256": "4f8e95fd166e52b6c601c87440006ded2eec298f54c3d6d6a951738b54f721a9"
+    },
+    {
+      "file": "ブランド素材/オープニング_エンドカード_動画試作_v02_20261021/deliverables/EP001_en_endcard_connection_trial_v01.mp4",
+      "frames": 1200,
+      "duration": 40.0,
+      "full_decode": true,
+      "exact_pts": true,
+      "audio": {
+        "input_i": "-18.42",
+        "input_tp": "-3.89",
+        "input_lra": "15.70",
+        "input_thresh": "-30.23",
+        "output_i": "-18.51",
+        "output_tp": "-3.94",
+        "output_lra": "8.00",
+        "output_thresh": "-28.92",
+        "normalization_type": "dynamic",
+        "target_offset": "2.51"
+      },
+      "sha256": "1456cfc921f1129e9f5bde8aca2996b5a504f7cca8136f561ac5e87991211a3c"
+    }
+  ],
+  "short_term_opening": {
+    "en": {
+      "window_end_times": [
+        32.099979,
+        32.199979,
+        32.299979,
+        32.399979,
+        32.499979,
+        32.599979,
+        32.699979,
+        32.799979,
+        32.899979,
+        32.999979
+      ],
+      "short_term_lufs": [
+        -21.8,
+        -21.6,
+        -21.5,
+        -21.4,
+        -21.4,
+        -21.4,
+        -21.5,
+        -21.7,
+        -21.8,
+        -21.9
+      ]
+    },
+    "ja": {
+      "window_end_times": [
+        32.099979,
+        32.199979,
+        32.299979,
+        32.399979,
+        32.499979,
+        32.599979,
+        32.699979,
+        32.799979,
+        32.899979,
+        32.999979
+      ],
+      "short_term_lufs": [
+        -21.8,
+        -21.6,
+        -21.5,
+        -21.4,
+        -21.4,
+        -21.4,
+        -21.5,
+        -21.7,
+        -21.8,
+        -21.9
+      ]
+    }
+  },
+  "endcard_files_byte_identical_to_v01": true,
+  "human_listening": false
+}
