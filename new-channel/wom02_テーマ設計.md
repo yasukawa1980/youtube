@@ -33,10 +33,10 @@
 | H-S01 | Ronald Hutton, *The Stations of the Sun* (Oxford University Press, 1996) | 中世の記録からはサウィンの宗教儀礼がほとんど分からない、という指摘 | 二次情報のみ。該当ページを確認する |
 | H-S02 | 中世アイルランドの物語（*Echtra Cormaic*、*Macgnímartha Finn* など）の学術翻訳 | サウィンの集会・宴（タラ）、異界の塚が開くという話 | 二次情報のみ。翻訳書で確認する |
 | H-S03 | コリニー暦（2世紀ごろ、ガロ＝ローマ博物館 リヨン） | 「Samonios」で始まる月の名。サウィンとの関係は推定 | 概要のみ |
-| H-S04 | Charles Vallancey, *Collectanea de Rebus Hibernicis*（18世紀後半） | 「サウィンは死の神の名」という説の出どころ | 二次情報のみ。原典の巻・年を確認する |
+| H-S04 | Charles Vallancey, *Collectanea de Rebus Hibernicis*（18世紀後半） | 「サウィンは死の神の名」という説の出どころ | 二次情報のみ（10/21再調査）。複数の二次資料が第3巻（1786年ごろ）とし、神の名を「Balsab」と説明。巻の刊行年は原典の扉で未確認（archive.org に接続できない）。同時代からの批判（Ledwich との対立、ハイバーニアン好古協会が1783年に解散）は二次資料で確認。台本は「18世紀後半」「当時から疑われた」の表現なら支えられる |
 | H-S05 | Encyclopaedia Britannica「All Saints' Day」 | グレゴリウス3世（731〜741年）の礼拝堂、837年グレゴリウス4世による全体での遵守、All Hallows の名 | 確認済み（検索結果） |
 | H-S06 | Robert Burns「Halloween」（1785年作、1786年キルマーノック版） | ケールの茎抜き、ナッツ焼きの恋占い、作者自身の注釈 | 確認済み（概要）。本文を引用する場合は原典で |
-| H-S07 | Merriam-Webster「The History of 'Jack-O'-Lantern'」、OED | 17世紀は「ランタンを持つ男」「沼地の怪火」の意味。野菜のランタンの意味は19世紀から（OEDで1837年） | OEDの年は二次情報。確認する |
+| H-S07 | Merriam-Webster「The History of 'Jack-O'-Lantern'」、OED | 17世紀は「ランタンを持つ男」「沼地の怪火」の意味。野菜のランタンの意味は19世紀から（OEDで1837年） | OEDの年は二次情報（10/21再調査）。Wikipedia が OED の初出として 1837年（ホーソーン「The Great Carbuncle」、*Twice-Told Tales*）を挙げる。台本は「19世紀」までに留めているので、年を言わない限りこのままでよい |
 | H-S08 | The Canadian Encyclopedia「Halloween」 | 「trick-or-treat」の最古の記録は1927年、アルバータ州の新聞記事 | 確認済み（検索結果） |
 | H-S09 | Smithsonian Magazine（ケールの占い） | 目隠しでケールを抜く占い。明確な記録は1769年の旅行記から | 確認済み（検索結果） |
 
