@@ -70,3 +70,14 @@ av_revision_v03:
   subtitle_validation: new-channel/wom01_映像音声調整_v03_20261021/records/subtitle_validation_v03.json
   release_id: 418626871
   ssd_synced: false
+
+japanese_naturalness_audition:
+  status: owner_listening_pending
+  guide: new-channel/wom01_日本語自然さ試聴_20261021/README.md
+  voice: VOICEVOX:冥鳴ひまり
+  candidates: [A, B, C]
+  duration_seconds_each: 87.5
+  sentence_count_each: 16
+  paid_services: false
+  full_version_changed: false
+  release_id: 419042790
