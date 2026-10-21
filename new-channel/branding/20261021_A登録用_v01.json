@@ -1,0 +1,80 @@
+{
+  "date": "2026-10-21",
+  "status": "published_and_verified",
+  "channel_url": "https://www.youtube.com/@QuietOriginsJP",
+  "channel_id": "UCfLJOojEY9VB3rvrjICk90Q",
+  "owner_instruction": "A案のアイコンとバナーを仕上げて、チャンネルに設定して下さい。",
+  "generation": "built-in image_gen; two reference-based images; sips resized for upload",
+  "icon_dimensions": [
+    1024,
+    1024
+  ],
+  "banner_dimensions": [
+    2560,
+    1440
+  ],
+  "source_icon_dimensions": [
+    1254,
+    1254
+  ],
+  "source_banner_dimensions": [
+    1672,
+    941
+  ],
+  "local_folder": "/Users/ryo/Desktop/新チャンネル/ブランド素材/A案_登録用_v01_20261021",
+  "verification": [
+    "YouTubeの円形切り抜きでQの欠けなし",
+    "YouTubeバナーの全デバイス安全範囲でタイトル・補助文の全体表示を確認",
+    "Studioを再度開いて両画像の保存を確認",
+    "公開チャンネルページで両画像の反映を目視確認",
+    "Draft Releaseの5添付をREST取得しSHA-256一致"
+  ],
+  "youtube_video_uploads": 0,
+  "ssd_sync": "未実施。指定ESD-EPB未接続。",
+  "sharing": {
+    "release_id": 419168168,
+    "release_url": "https://github.com/yasukawa1980/youtube/releases/tag/untagged-fbeb27c1c243cd2d9563",
+    "draft": true,
+    "assets": [
+      {
+        "name": "Quiet_Origins_icon_A_1024.png",
+        "bytes": 1760968,
+        "sha256": "ce9a45ca066627f4283dace304beaefdac31aa1b5e10e8675274abb9ebfe0215",
+        "asset_id": 661374137,
+        "rest_download_verified": true
+      },
+      {
+        "name": "Quiet_Origins_banner_A_2560x1440.png",
+        "bytes": 5161036,
+        "sha256": "6d5a4d972f4fc5eaaf5ffdb55eb4cca24c661dbc06ffff2f0394e7ed1498ff70",
+        "asset_id": 661374197,
+        "rest_download_verified": true
+      },
+      {
+        "name": "source_icon.png",
+        "bytes": 2866945,
+        "sha256": "d1a66ee18a5660863066897b6a2b4a9d31e1505cc79f97010550687195f98c59",
+        "asset_id": 661374277,
+        "rest_download_verified": true
+      },
+      {
+        "name": "source_banner.png",
+        "bytes": 2549241,
+        "sha256": "5156729901300da3740e73b64b125958b58aba73c0b1c31b7a253271d3891c78",
+        "asset_id": 661374329,
+        "rest_download_verified": true
+      },
+      {
+        "name": "generation_prompts.json",
+        "bytes": 2044,
+        "sha256": "622da4e3d7d2835a42a2108400814fde5bc8bebbf37eaea19c6186b33aa0c0dd",
+        "asset_id": 661374377,
+        "rest_download_verified": true
+      }
+    ]
+  },
+  "prompts": {
+    "icon": "Use case: logo-brand. Produce the FINAL single standalone YouTube avatar asset based on the LEFT circular Q icon in the provided reference board (reference role: approved brand identity). Square 1024x1024 PNG. Fill the entire square edge to edge with deep midnight navy #0c1820, softly textured like the reference. In the exact center one large warm matte gold #d8b575 uppercase serif Q, same elegant thick Roman Q proportions and distinctive sweeping diagonal tail as the reference. Q bounding box inside central 64% width and 66% height, comfortably survives a circular crop. Strong clean silhouette legible at 48px. Restrained subtle worn gold grain, flat front view, no bevel or shiny 3D. No border, no external white corners, no extra words, no mockup, no sample board, no swatches. Preserve the reference Q identity. Background opaque.",
+    "banner": "Use case: logo-brand. Produce the FINAL standalone YouTube CHANNEL BANNER artwork, using the RIGHT banner in the provided approved reference board as identity/style reference. Output exactly 2560x1440 pixels, 16:9 PNG. Full bleed deep midnight navy #0c1820 with subtle old paper/ink texture, low-contrast antique gold map contour/compass ornaments on far left and far right edges. Centered elegant ivory serif title EXACTLY 'Quiet Origins'. Below it smaller tracked gold uppercase tagline EXACTLY 'MYTHS, TRADITIONS & THEIR STORIES'. Critical YouTube all-device layout: ALL TEXT must fit entirely inside x=600..1960 and y=585..850 of 2560x1440 canvas, title around y=665 and tagline around y=790. Title text about 130 pixels high; total title width at most 1200 pixels. Keep plenty of blank navy above/below; central text block only 19% canvas height. Edges are decorative expendable background. On narrow mobile center crop both full title and tagline must remain clearly legible. Same restrained historic atlas mood as reference, maps without readable geographic labels. No Q icon, no extra wording, no guide lines, no mockup, no border, no board heading, no swatches."
+  }
+}
