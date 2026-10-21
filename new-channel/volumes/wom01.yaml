@@ -9,7 +9,7 @@ channel_name_check: new-channel/wom01_チャンネル名決定_20261021.md
 previous_provisional_name: Worlds of Mystery   # v04までの画面・サムネに残る旧仮称
 title: 'Anubis: Judge of the Dead, or Protector?'
 title_ja: アヌビス — 死者を裁く神か、守る神か
-status: private_uploaded_waiting_feature_activation
+status: scheduled_2026-10-22_0900_JST
 language: en
 language_status: owner_decided_2026-10-20
 audio_languages: [en, ja]   # 映像1本＋言語別の音声トラック。追加言語は2〜3本の実測後に検討（第1候補 es）
@@ -248,7 +248,14 @@ full_revision_v09:
 youtube_upload:
   video_id: AanbRJfeGxo
   visibility: private
-  scheduled: false
+  scheduled: true
   requested_publication_jst: "2026-10-22T09:00:00+09:00"
-  blocker: phone_confirmed_but_custom_thumbnail_not_enabled
+  blocker: null
   result: new-channel/wom01_投稿結果_EP001_20261021.md
+  schedule_verified_in_studio: true
+  subtitles_uploaded: [en, ja]
+  metadata_translation_uploaded: ja
+  japanese_audio_status: processing_95_percent
+  endscreen_elements: [subscribe, most_recent_upload]
+  endscreen_start_seconds: 682
+  endscreen_end_seconds: 702
