@@ -1,5 +1,7 @@
 # Quiet Origins：アヌビス試作／Claudeの入口
 
+**アイコン・バナー：A「刻印のQ」を本人採用（2026-10-21）。** [採用内容とラフ画像の取得](branding/20261021_A採用.md)。登録用の個別書き出しは未実施。
+
 2026-10-21：本人承認の一覧に従い `new-channel/` に移行。旧仮称 Worlds of Mystery は正式名称ではありません。[専用フォルダ案内](README.md)を参照。
 
 共有日：2026-10-20。リポジトリ `yasukawa1980/youtube`、ブランチ `bgm/production`。
