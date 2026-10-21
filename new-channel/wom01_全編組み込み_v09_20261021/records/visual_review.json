@@ -1,0 +1,16 @@
+{
+  "passed": true,
+  "method": "Codex inspected actual frames extracted from both subtitled full MP4s",
+  "images": [
+    "splices_en_storyboard.jpg",
+    "splices_ja_storyboard.jpg"
+  ],
+  "observations": [
+    "英日ともN01の後に字幕が消え、ロゴ中には残らない",
+    "ロゴの後にN02の映像・字幕が再開",
+    "日本語のお礼は679.8秒で表示され、681.9秒には消える",
+    "682〜682.7秒のクレジットからエンドカードへのディゾルブが連続",
+    "エンドカードの左余白と右側のQ、締めの一文を維持"
+  ],
+  "human_full_listening": false
+}

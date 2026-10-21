@@ -62,6 +62,7 @@ def selected_bottom_frames(path,frames):
 
 def verify(source,root):
     results=[];all_cues=[];request=read(root/'records/render_request.json')
+    duration=float(read(source/'records/master_timeline.json')['duration_seconds']);expected_frames=round(duration*30)
     for lang in ['ja','en']:
         out=root/f'deliverables/{stem(lang)}.mp4';src=source/f'deliverables/EP001_Anubis_{lang}_{VERSION}_1080p30.mp4'
         srt=source/f'deliverables/EP001_Anubis_{lang}_{VERSION}_1080p30.srt'
@@ -70,14 +71,14 @@ def verify(source,root):
         run(['ffmpeg','-v','error','-i',str(out),'-f','null','-']);p=probe(out)
         assert [x['codec_type'] for x in p['streams']]==['video','audio']
         v=p['streams'][0];assert v['width']==1920 and v['height']==1080 and v['avg_frame_rate']=='30/1'
-        assert int(v['nb_frames'])==20481 and float(p['format']['duration'])==682.7
+        assert int(v['nb_frames'])==expected_frames and float(p['format']['duration'])==duration
         pts=sorted(map(int,subprocess.check_output(['ffprobe','-v','error','-select_streams','v:0','-show_entries','packet=pts','-of','csv=p=0',str(out)],text=True).splitlines()))
-        assert pts==list(range(0,20481*512,512))
+        assert pts==list(range(0,expected_frames*512,512))
         ah=stream_hash(out);assert ah==stream_hash(src)
         cs=cues(srt);assert len(cs)==(150 if lang=='en' else 136)
         samples=[{'cue':x['id'],'frame':round((x['start']+x['end'])*15),'expected_subtitle':True} for x in cs]
         # Check silence gaps as well, to catch subtitles unintentionally held on screen.
-        bounds=[(0,cs[0]['start'])]+[(a['end'],b['start']) for a,b in zip(cs,cs[1:])]+[(cs[-1]['end'],682.7)]
+        bounds=[(0,cs[0]['start'])]+[(a['end'],b['start']) for a,b in zip(cs,cs[1:])]+[(cs[-1]['end'],duration)]
         samples += [{'cue':None,'frame':round((a+b)*15),'expected_subtitle':False} for a,b in bounds if b-a>=.3]
         samples.sort(key=lambda x:x['frame']);frames=[x['frame'] for x in samples]
         a=selected_bottom_frames(src,frames);b=selected_bottom_frames(out,frames)
@@ -89,10 +90,11 @@ def verify(source,root):
         all_cues.append({'language':lang,'subtitle_cues':len(cs),'samples':samples,'all_passed':True})
         results.append({'language':lang,'name':out.name,'bytes':out.stat().st_size,'sha256':sha(out),'probe':p,'audio_stream_hash':ah,'audio_identical_to_source':True,'full_decode':'pass','exact_30fps_pts':True,'subtitle_cues_checked':len(cs)})
         print('VERIFIED',lang,len(cs),'subtitle cues and',len(samples)-len(cs),'gaps',flush=True)
-    save(root/'records/qc.json',{'duration_seconds':682.7,'frames':20481,'fps':30,'subtitles_burned_in':True,'human_full_listening':False,'files':results})
+    save(root/'records/qc.json',{'duration_seconds':duration,'frames':expected_frames,'fps':30,'subtitles_burned_in':True,'human_full_listening':False,'files':results})
     save(root/'records/subtitle_presence_checks.json',all_cues)
     # Actual burned-video samples including all four large-subtitle edge cases.
     times={'ja':[10,52.2,204.7,310.3,439,670.0],'en':[10,52.2,204.7,310.3,439,669.3]}
+    if VERSION=='v09':times={lang:[t+4 if t>=29.067 else t for t in values] for lang,values in times.items()}
     sheet=Image.new('RGB',(1280,2340),'#15242c')
     for col,lang in enumerate(['en','ja']):
         for row,t in enumerate(times[lang]):

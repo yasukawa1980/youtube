@@ -9,7 +9,7 @@ channel_name_check: new-channel/wom01_チャンネル名決定_20261021.md
 previous_provisional_name: Worlds of Mystery   # v04までの画面・サムネに残る旧仮称
 title: 'Anubis: Judge of the Dead, or Protector?'
 title_ja: アヌビス — 死者を裁く神か、守る神か
-status: bilingual_v08_ready_awaiting_owner_opening_listening
+status: bilingual_v09_integrated_ready_awaiting_owner_final_review
 language: en
 language_status: owner_decided_2026-10-20
 audio_languages: [en, ja]   # 映像1本＋言語別の音声トラック。追加言語は2〜3本の実測後に検討（第1候補 es）
@@ -19,14 +19,14 @@ script_master: new-channel/episodes/EP001_Anubis/records/content_en.json
 script_ja: new-channel/episodes/EP001_Anubis/records/content.json
 voice_en: Kokoro / Heart (af_heart)   # 本人がBを正式採用
 voice_ja: VOICEVOX:冥鳴ひまり
-duration_seconds: 682.7   # v08 英語・日本語の共通実尺
+duration_seconds: 702.0   # v09 英語・日本語の共通実尺
 publication_authorized: false
 new_channel_creation_authorized: true   # 2026-10-21 本人承認・開設済み
 additional_spend_authorized: false
 repo_episode_dir: new-channel/episodes/EP001_Anubis
 handoff: new-channel/wom01_テーマ設計.md
-local_media_root: /Users/ryo/Desktop/新チャンネル/EP001_Anubis/Quiet_Origins_v08_20261021
-local_media_status: v08_delivered_2026-10-21
+local_media_root: /Users/ryo/Desktop/新チャンネル/EP001_Anubis/Quiet_Origins_v09_20261021
+local_media_status: v09_delivered_2026-10-21
 legacy_media_root: /Users/ryo/Desktop/新チャンネル/EP001_Anubis/旧制作素材
 ssd_sync_verified: false
 cloud_render_verified: false
@@ -45,7 +45,7 @@ voice_audition:
   release_tag: wom01-en-voices-20261020
   full_production_requires_owner_voice_choice: true
 
-full_delivery:   # v02の履歴。最新はfull_revision_v08
+full_delivery:   # v02の履歴。最新はfull_revision_v09
   completed_steps: [2, 3, 4, 5, 6, 7]
   guide: new-channel/wom01_英語メイン版_v02_20261020/README.md
   release_tag: wom01-en-ja-v02-20261020
@@ -178,7 +178,7 @@ full_revision_v07:
   human_full_listening: false
 
 full_revision_v08:
-  status: owner_opening_review_pending
+  status: owner_approved_2026-10-21
   guide: new-channel/wom01_冒頭調整_v08_20261021/README.md
   local_media_root: /Users/ryo/Desktop/新チャンネル/EP001_Anubis/Quiet_Origins_v08_20261021
   duration_seconds: 682.7
@@ -201,7 +201,7 @@ full_revision_v08:
   human_full_listening: false
 
 brand_motion_trial_v02:
-  status: owner_listening_pending
+  status: owner_approved_2026-10-21
   guide: new-channel/branding/20261021_共通映像試作_v02/README.md
   local_media_root: /Users/ryo/Desktop/新チャンネル/ブランド素材/オープニング_エンドカード_動画試作_v02_20261021
   release_id: 419345783
@@ -214,3 +214,33 @@ brand_motion_trial_v02:
   opening_connection_frames: 1675
   endcard_unchanged_from_v01: true
   release_draft: true
+
+full_revision_v09:
+  status: owner_final_review_pending
+  release_id: 419415882
+  release_assets_rest_verified: 14
+  guide: new-channel/wom01_全編組み込み_v09_20261021/README.md
+  local_media_root: /Users/ryo/Desktop/新チャンネル/EP001_Anubis/Quiet_Origins_v09_20261021
+  duration_seconds: 702.0
+  frames: 21060
+  fps: 30
+  bilingual_video_streams_identical: true
+  opening_start_seconds: 29.0666666667
+  opening_duration_seconds: 4.0
+  opening_source: brand_motion_trial_v02
+  endcard_start_seconds: 682.0
+  endcard_duration_seconds: 20.0
+  endcard_dissolve_seconds: 0.7
+  endcard_source: brand_motion_trial_v01
+  audio_en_integrated_lufs: -16.04
+  audio_ja_integrated_lufs: -16.03
+  audio_en_true_peak_dbtp: -3.83
+  audio_ja_true_peak_dbtp: -4.66
+  subtitle_cues_en: 150
+  subtitle_cues_ja: 136
+  N02_onward_subtitle_shift_seconds: 4.0
+  regular_subtitles_burned_in: false
+  separate_burned_review_copies: [en, ja]
+  release_draft: true
+  publication_authorized: false
+  ssd_synced: false

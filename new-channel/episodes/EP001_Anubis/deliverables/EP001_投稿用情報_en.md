@@ -1,6 +1,6 @@
 # EP001 投稿情報 / en（下書き・未投稿）
 
-英語・日本語の共通尺確定。
+Quiet Origins / v09。英語・日本語の共通尺11分42秒（702秒）。オープニング・エンドカード組み込み済み。
 
 ## Title
 
@@ -13,16 +13,16 @@ Anubis, the canine-headed god of ancient Egypt, is famous for weighing the heart
 Museum photographs, modern facsimiles, explanatory diagrams, and AI-generated reconstructions are labeled separately. Religious beliefs are presented as beliefs, not historical events. Music: an original ambient score, not a reconstruction of ancient music.
 
 English narration: Kokoro / Heart (af_heart), synthetic speech.
-Japanese narration: VOICEVOX:雀松朱司
+Japanese narration: VOICEVOX:冥鳴ひまり
 
 Chapters
 00:00 The God Who Weighs the Heart
-01:06 Why a Canine Form?
-02:41 Protecting the Body, Guiding the Journey
-04:09 The Book of the Dead and the Weighing of the Heart
-06:15 Anubis, Thoth and Osiris
-07:56 What the Sources Say, and What They Don't
-09:52 A Hope Beyond Death
+01:12 Why a Canine Form?
+02:50 Protecting the Body, Guiding the Journey
+04:20 The Book of the Dead and the Weighing of the Heart
+06:28 Anubis, Thoth and Osiris
+08:11 What the Sources Say, and What They Don't
+10:11 A Hope Beyond Death
 
 Sources: The Metropolitan Museum of Art
 S01 Statue of Anubis as a recumbent canid
@@ -70,4 +70,4 @@ VOICEVOX: https://voicevox.hiroshiba.jp/term/
 
 ## 公開前の確認
 
-人による英語・日本語の全編試聴、固有名詞の読み、BGM、章の間を確認する。投稿は未承認。Studioの多言語音声機能・AI使用開示は投稿前に画面で確認する。字幕は言語別SRT。焼き込みなし。新チャンネル・契約・購入・投稿操作は行っていない。
+人による英語・日本語の全編試聴、固有名詞の読み、BGM、章の間を確認する。投稿は未承認。Studioの多言語音声機能・AI使用開示は投稿前に画面で確認する。字幕は言語別SRT。焼き込みなし。Quiet Originsは本人承認により開設・ブランド設定済み。この動画の投稿・公開はしていない。

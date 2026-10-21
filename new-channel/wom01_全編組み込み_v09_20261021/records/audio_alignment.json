@@ -1,0 +1,62 @@
+{
+  "en": {
+    "aligned_source_comparisons": [
+      {
+        "source_range": [
+          0,
+          28.936666666666667
+        ],
+        "shift_seconds": 0,
+        "pcm_max_error": 1.1896190699189901e-07,
+        "aac_signal_to_error_db": 44.90016507046743
+      },
+      {
+        "source_range": [
+          29.086666666666666,
+          678.0
+        ],
+        "shift_seconds": 4,
+        "pcm_max_error": 1.1897623153345194e-07,
+        "aac_signal_to_error_db": 40.322223004867624
+      }
+    ],
+    "splice_fades_excluded_seconds": [
+      0.12,
+      0.015
+    ],
+    "end_crossfade_excluded_source_range": [
+      678,
+      678.7
+    ]
+  },
+  "ja": {
+    "aligned_source_comparisons": [
+      {
+        "source_range": [
+          0,
+          28.936666666666667
+        ],
+        "shift_seconds": 0,
+        "pcm_max_error": 1.1894735507667065e-07,
+        "aac_signal_to_error_db": 56.095292321006056
+      },
+      {
+        "source_range": [
+          29.086666666666666,
+          678.0
+        ],
+        "shift_seconds": 4,
+        "pcm_max_error": 1.189691829495132e-07,
+        "aac_signal_to_error_db": 48.14496550821339
+      }
+    ],
+    "splice_fades_excluded_seconds": [
+      0.12,
+      0.015
+    ],
+    "end_crossfade_excluded_source_range": [
+      678,
+      678.7
+    ]
+  }
+}
