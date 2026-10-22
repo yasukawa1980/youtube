@@ -1,0 +1,36 @@
+{
+  "python": "3.12.14 (main, Aug 25 2026, 13:50:33) [Clang 22.1.3 ]",
+  "interpreter": "/private/tmp/wom02-python/bin/python",
+  "models": {
+    "/Users/ryo/Desktop/BGM/_共通/音声モデル/Kokoro82M_v1/kokoro-v1.0.onnx": "beb0d1848dee9a49da392cc3df26958d46cfa35d321edf434f52949153f0df3a",
+    "/Users/ryo/Desktop/BGM/_共通/音声モデル/Kokoro82M_v1/voices-v1.0.bin": "bca610b8308e8d99f32e6fe4197e7ec01679264efed0cac9140fe9c29f1fbf7d",
+    "/Users/ryo/Desktop/BGM/_共通/音声モデル/VOICEVOX_core_0.17.0_model_0.16.4/models/vvms/1.vvm": "8df20815be9a84a4b4723b9e778d2ef6a4df277e4872fe9efe29676a60e02774"
+  },
+  "phoneme_overrides": {
+    "Hesiod": "hˈiːsiəd",
+    "Theogony": "θiˈɑːɡəni",
+    "Stheno": "sθˈiːnoʊ",
+    "Euryale": "jʊɹˈaɪəli",
+    "Chrysaor": "kɹaɪˈseɪɔːɹ",
+    "gorgoneia": "ɡɔːɹɡəˈniːə",
+    "aulos": "ˈaʊlɑːs",
+    "Apollodorus": "əpɑːləˈdɔːɹəs"
+  },
+  "reading_replacements": {
+    "en": {
+      "Hesiod": "Hesiod",
+      "Theogony": "Theogony",
+      "Stheno": "Stheno",
+      "Euryale": "Euryale",
+      "Chrysaor": "Chrysaor",
+      "gorgoneia": "gorgoneia",
+      "aulos": "aulos",
+      "Apollodorus": "Apollodorus",
+      "8 CE": "eight C E"
+    },
+    "ja": {
+      "神統記": "しんとうき"
+    }
+  },
+  "human_auditory_review": false
+}

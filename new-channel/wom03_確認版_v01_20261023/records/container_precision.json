@@ -1,0 +1,72 @@
+{
+  "passed": true,
+  "movie_timescale": 48000,
+  "video_frames": 12110,
+  "audio_samples": 19376000,
+  "files": [
+    {
+      "name": "EP003_audio_en.m4a",
+      "before_sha256": "e3f261a2dc2481ebd4102d2a037af27dc376594ab2c044ae3f0a7321a236fc36",
+      "after_sha256": "d9eec53ec7494419c6f963edee5f93ff26ba8faf714dd7a3950816d37439a1b1",
+      "encoded_streams_identical": true,
+      "stream_hashes": {
+        "audio": "SHA256=c21149820d0f5668f8b38b4e10e5346049e17a2a4fd38d201589c1252725660b"
+      },
+      "duration_seconds": "403.666667"
+    },
+    {
+      "name": "EP003_audio_ja.m4a",
+      "before_sha256": "cac2e0f9f2b8d494623da175b2c04651cb21ada93f3e9cee9d10d02cfd2e4c97",
+      "after_sha256": "ce9b1c3da4b821bb463b6a514b2e4c441f467dcaa8c37cada49b0610df63f789",
+      "encoded_streams_identical": true,
+      "stream_hashes": {
+        "audio": "SHA256=91d27c79f0800a44cd2da1ebc112b455235a81331328324420f9539aad69b277"
+      },
+      "duration_seconds": "403.666667"
+    },
+    {
+      "name": "EP003_Medusa_en_v01_1080p30.mp4",
+      "before_sha256": "1a84e6b4cde3fcbe8fff4f9fc59d715b84ca0dc9af44768eb25dd7b769673193",
+      "after_sha256": "6248009b1b6fe9570655a836518141a8a50aea416cd7df14d0c88c9545e95a28",
+      "encoded_streams_identical": true,
+      "stream_hashes": {
+        "video": "SHA256=1d3cb36d61d5fbb5c0f1eae215e7f16700968939b93f14d147818530a0a739a0",
+        "audio": "SHA256=c21149820d0f5668f8b38b4e10e5346049e17a2a4fd38d201589c1252725660b"
+      },
+      "duration_seconds": "403.666667"
+    },
+    {
+      "name": "EP003_Medusa_en_v01_subtitled_review_1080p30.mp4",
+      "before_sha256": "d77b71189a59e5bfd35b2065ed78b2773dfce620cf5622246f5f5655d74accd6",
+      "after_sha256": "8504705b734abe62ede297288b3a121579276bd1c851eb78fae02e7ceac58581",
+      "encoded_streams_identical": true,
+      "stream_hashes": {
+        "video": "SHA256=2b3cd67e8e6e4d28905a2c360baac53e48af2d9a0121ae8f12e8293f2c44a6cd",
+        "audio": "SHA256=c21149820d0f5668f8b38b4e10e5346049e17a2a4fd38d201589c1252725660b"
+      },
+      "duration_seconds": "403.666667"
+    },
+    {
+      "name": "EP003_Medusa_ja_v01_1080p30.mp4",
+      "before_sha256": "b8b0e135253fd167f30e0d3d1626b8868afb57b36d6d042abe8e304da95c4eda",
+      "after_sha256": "d15af1949818396a5499d70ee70f5d4aa73fec64a828f961b7df0d90e7d4d930",
+      "encoded_streams_identical": true,
+      "stream_hashes": {
+        "video": "SHA256=1d3cb36d61d5fbb5c0f1eae215e7f16700968939b93f14d147818530a0a739a0",
+        "audio": "SHA256=91d27c79f0800a44cd2da1ebc112b455235a81331328324420f9539aad69b277"
+      },
+      "duration_seconds": "403.666667"
+    },
+    {
+      "name": "EP003_Medusa_ja_v01_subtitled_review_1080p30.mp4",
+      "before_sha256": "8c0af99388bfc373cebaca86cd5072e19e032abc165b602ef38a63d121b35255",
+      "after_sha256": "0f937382bd1b715e9c3dd755f43974b8779563fde0a137107acaa5b2942eb883",
+      "encoded_streams_identical": true,
+      "stream_hashes": {
+        "video": "SHA256=3d52f642a5675a80b4c424215183838e9392c795a2ebd9729d4c20ecbb6ece03",
+        "audio": "SHA256=91d27c79f0800a44cd2da1ebc112b455235a81331328324420f9539aad69b277"
+      },
+      "duration_seconds": "403.666667"
+    }
+  ]
+}

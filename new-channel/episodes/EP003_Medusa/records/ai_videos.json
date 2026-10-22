@@ -8,7 +8,110 @@
     "duration_requested": 10,
     "aspect_ratio": "16:9",
     "native_audio": false,
-    "credits": 80
+    "credits": 80,
+    "local_path": "/Users/ryo/Desktop/新チャンネル/EP003_Medusa/素材/V04_Kling_v01.mp4",
+    "sha256": "ea6018cac9e7681e6b21d6ca4ea647bff897bd799fc9608b69ec40a61ffaa605",
+    "bytes": 18783995,
+    "slot_id": "942377877213949981",
+    "generation_url": "https://kling.ai/app/creations/grid?project=942072362835525727&slotId=942377877213949981",
+    "probe": {
+      "streams": [
+        {
+          "index": 0,
+          "codec_name": "h264",
+          "codec_long_name": "H.264 / AVC / MPEG-4 AVC / MPEG-4 part 10",
+          "profile": "Main",
+          "codec_type": "video",
+          "codec_tag_string": "avc1",
+          "codec_tag": "0x31637661",
+          "mime_codec_string": "avc1.4d6032",
+          "width": 1920,
+          "height": 1080,
+          "coded_width": 1920,
+          "coded_height": 1080,
+          "has_b_frames": 0,
+          "pix_fmt": "yuv420p",
+          "level": 50,
+          "chroma_location": "left",
+          "field_order": "progressive",
+          "is_avc": "true",
+          "nal_length_size": "4",
+          "id": "0x1",
+          "r_frame_rate": "24/1",
+          "avg_frame_rate": "24/1",
+          "time_base": "1/12288",
+          "start_pts": 0,
+          "start_time": "0.000000",
+          "duration_ts": 123392,
+          "duration": "10.041667",
+          "bit_rate": "14962949",
+          "bits_per_raw_sample": "8",
+          "nb_frames": "241",
+          "extradata_size": 41,
+          "disposition": {
+            "default": 1,
+            "dub": 0,
+            "original": 0,
+            "comment": 0,
+            "lyrics": 0,
+            "karaoke": 0,
+            "forced": 0,
+            "hearing_impaired": 0,
+            "visual_impaired": 0,
+            "clean_effects": 0,
+            "attached_pic": 0,
+            "timed_thumbnails": 0,
+            "non_diegetic": 0,
+            "captions": 0,
+            "descriptions": 0,
+            "metadata": 0,
+            "dependent": 0,
+            "still_image": 0,
+            "multilayer": 0
+          },
+          "tags": {
+            "language": "und",
+            "handler_name": "VideoHandler",
+            "encoder": "Lavc60.31.102 h264_slapi"
+          }
+        }
+      ],
+      "format": {
+        "filename": "/Users/ryo/Desktop/新チャンネル/EP003_Medusa/素材/V04_Kling_v01.mp4",
+        "nb_streams": 1,
+        "nb_programs": 0,
+        "nb_stream_groups": 0,
+        "format_name": "mov,mp4,m4a,3gp,3g2,mj2",
+        "format_long_name": "QuickTime / MOV",
+        "start_time": "0.000000",
+        "duration": "10.041667",
+        "size": "18783995",
+        "bit_rate": "14964841",
+        "probe_score": 100,
+        "tags": {
+          "minor_version": "512",
+          "major_brand": "isom",
+          "compatible_brands": "isomiso2avc1mp41",
+          "AIGC": "{\"Label\":\"1\",\"ContentProducer\":\"kling\",\"ProduceID\":\"SGP_PROD_ai_web_324680394301366\",\"ReservedCode1\":null,\"ContentPropagator\":\"kling\",\"PropagateID\":\"SGP_PROD_ai_web_324680394301366\",\"ReservedCode2\":null}",
+          "encoder": "Lavf60.16.100"
+        }
+      }
+    },
+    "status": "downloaded",
+    "visual_review": {
+      "sample_frames": [
+        0.1,
+        2,
+        4,
+        6,
+        8,
+        9.9
+      ],
+      "no_people": true,
+      "no_readable_text": true,
+      "no_visible_geometry_breaks_in_samples": true,
+      "full_motion_human_review": false
+    }
   },
   {
     "id": "V03",
@@ -19,7 +122,110 @@
     "duration_requested": 10,
     "aspect_ratio": "16:9",
     "native_audio": false,
-    "credits": 80
+    "credits": 80,
+    "local_path": "/Users/ryo/Desktop/新チャンネル/EP003_Medusa/素材/V03_Kling_v01.mp4",
+    "sha256": "0e44ef08be33474fad04ead0b1f4241949ac73f8ebb0e8222becf0844d64f673",
+    "bytes": 14289349,
+    "slot_id": "942376743712342083",
+    "generation_url": "https://kling.ai/app/creations/grid?project=942072362835525727&slotId=942376743712342083",
+    "probe": {
+      "streams": [
+        {
+          "index": 0,
+          "codec_name": "h264",
+          "codec_long_name": "H.264 / AVC / MPEG-4 AVC / MPEG-4 part 10",
+          "profile": "Main",
+          "codec_type": "video",
+          "codec_tag_string": "avc1",
+          "codec_tag": "0x31637661",
+          "mime_codec_string": "avc1.4d6032",
+          "width": 1920,
+          "height": 1080,
+          "coded_width": 1920,
+          "coded_height": 1080,
+          "has_b_frames": 0,
+          "pix_fmt": "yuv420p",
+          "level": 50,
+          "chroma_location": "left",
+          "field_order": "progressive",
+          "is_avc": "true",
+          "nal_length_size": "4",
+          "id": "0x1",
+          "r_frame_rate": "24/1",
+          "avg_frame_rate": "24/1",
+          "time_base": "1/12288",
+          "start_pts": 0,
+          "start_time": "0.000000",
+          "duration_ts": 123392,
+          "duration": "10.041667",
+          "bit_rate": "11382168",
+          "bits_per_raw_sample": "8",
+          "nb_frames": "241",
+          "extradata_size": 41,
+          "disposition": {
+            "default": 1,
+            "dub": 0,
+            "original": 0,
+            "comment": 0,
+            "lyrics": 0,
+            "karaoke": 0,
+            "forced": 0,
+            "hearing_impaired": 0,
+            "visual_impaired": 0,
+            "clean_effects": 0,
+            "attached_pic": 0,
+            "timed_thumbnails": 0,
+            "non_diegetic": 0,
+            "captions": 0,
+            "descriptions": 0,
+            "metadata": 0,
+            "dependent": 0,
+            "still_image": 0,
+            "multilayer": 0
+          },
+          "tags": {
+            "language": "und",
+            "handler_name": "VideoHandler",
+            "encoder": "Lavc60.31.102 h264_slapi"
+          }
+        }
+      ],
+      "format": {
+        "filename": "/Users/ryo/Desktop/新チャンネル/EP003_Medusa/素材/V03_Kling_v01.mp4",
+        "nb_streams": 1,
+        "nb_programs": 0,
+        "nb_stream_groups": 0,
+        "format_name": "mov,mp4,m4a,3gp,3g2,mj2",
+        "format_long_name": "QuickTime / MOV",
+        "start_time": "0.000000",
+        "duration": "10.041667",
+        "size": "14289349",
+        "bit_rate": "11384045",
+        "probe_score": 100,
+        "tags": {
+          "minor_version": "512",
+          "major_brand": "isom",
+          "compatible_brands": "isomiso2avc1mp41",
+          "AIGC": "{\"Label\":\"1\",\"ContentProducer\":\"kling\",\"ProduceID\":\"SGP_PROD_ai_web_324680124521166\",\"ReservedCode1\":null,\"ContentPropagator\":\"kling\",\"PropagateID\":\"SGP_PROD_ai_web_324680124521166\",\"ReservedCode2\":null}",
+          "encoder": "Lavf60.16.100"
+        }
+      }
+    },
+    "status": "downloaded",
+    "visual_review": {
+      "sample_frames": [
+        0.1,
+        2,
+        4,
+        6,
+        8,
+        9.9
+      ],
+      "no_people": true,
+      "no_readable_text": true,
+      "no_visible_geometry_breaks_in_samples": true,
+      "full_motion_human_review": false
+    }
   },
   {
     "id": "V02",
@@ -30,7 +236,110 @@
     "duration_requested": 10,
     "aspect_ratio": "16:9",
     "native_audio": false,
-    "credits": 80
+    "credits": 80,
+    "local_path": "/Users/ryo/Desktop/新チャンネル/EP003_Medusa/素材/V02_Kling_v01.mp4",
+    "sha256": "8378a9d3d5136468739a94d6398362a29cfd9390f6649d6ec81f56e541ccf98b",
+    "bytes": 26938746,
+    "slot_id": "942376461279834132",
+    "generation_url": "https://kling.ai/app/creations/grid?project=942072362835525727&slotId=942376461279834132",
+    "probe": {
+      "streams": [
+        {
+          "index": 0,
+          "codec_name": "h264",
+          "codec_long_name": "H.264 / AVC / MPEG-4 AVC / MPEG-4 part 10",
+          "profile": "Main",
+          "codec_type": "video",
+          "codec_tag_string": "avc1",
+          "codec_tag": "0x31637661",
+          "mime_codec_string": "avc1.4d6032",
+          "width": 1920,
+          "height": 1080,
+          "coded_width": 1920,
+          "coded_height": 1080,
+          "has_b_frames": 0,
+          "pix_fmt": "yuv420p",
+          "level": 50,
+          "chroma_location": "left",
+          "field_order": "progressive",
+          "is_avc": "true",
+          "nal_length_size": "4",
+          "id": "0x1",
+          "r_frame_rate": "24/1",
+          "avg_frame_rate": "24/1",
+          "time_base": "1/12288",
+          "start_pts": 0,
+          "start_time": "0.000000",
+          "duration_ts": 123392,
+          "duration": "10.041667",
+          "bit_rate": "21459575",
+          "bits_per_raw_sample": "8",
+          "nb_frames": "241",
+          "extradata_size": 41,
+          "disposition": {
+            "default": 1,
+            "dub": 0,
+            "original": 0,
+            "comment": 0,
+            "lyrics": 0,
+            "karaoke": 0,
+            "forced": 0,
+            "hearing_impaired": 0,
+            "visual_impaired": 0,
+            "clean_effects": 0,
+            "attached_pic": 0,
+            "timed_thumbnails": 0,
+            "non_diegetic": 0,
+            "captions": 0,
+            "descriptions": 0,
+            "metadata": 0,
+            "dependent": 0,
+            "still_image": 0,
+            "multilayer": 0
+          },
+          "tags": {
+            "language": "und",
+            "handler_name": "VideoHandler",
+            "encoder": "Lavc60.31.102 h264_slapi"
+          }
+        }
+      ],
+      "format": {
+        "filename": "/Users/ryo/Desktop/新チャンネル/EP003_Medusa/素材/V02_Kling_v01.mp4",
+        "nb_streams": 1,
+        "nb_programs": 0,
+        "nb_stream_groups": 0,
+        "format_name": "mov,mp4,m4a,3gp,3g2,mj2",
+        "format_long_name": "QuickTime / MOV",
+        "start_time": "0.000000",
+        "duration": "10.041667",
+        "size": "26938746",
+        "bit_rate": "21461572",
+        "probe_score": 100,
+        "tags": {
+          "minor_version": "512",
+          "major_brand": "isom",
+          "compatible_brands": "isomiso2avc1mp41",
+          "AIGC": "{\"Label\":\"1\",\"ContentProducer\":\"kling\",\"ProduceID\":\"SGP_PROD_ai_web_324680056525823\",\"ReservedCode1\":null,\"ContentPropagator\":\"kling\",\"PropagateID\":\"SGP_PROD_ai_web_324680056525823\",\"ReservedCode2\":null}",
+          "encoder": "Lavf60.16.100"
+        }
+      }
+    },
+    "status": "downloaded",
+    "visual_review": {
+      "sample_frames": [
+        0.1,
+        2,
+        4,
+        6,
+        8,
+        9.9
+      ],
+      "no_people": true,
+      "no_readable_text": true,
+      "no_visible_geometry_breaks_in_samples": true,
+      "full_motion_human_review": false
+    }
   },
   {
     "id": "V01",
@@ -41,6 +350,109 @@
     "duration_requested": 10,
     "aspect_ratio": "16:9",
     "native_audio": false,
-    "credits": 80
+    "credits": 80,
+    "local_path": "/Users/ryo/Desktop/新チャンネル/EP003_Medusa/素材/V01_Kling_v01.mp4",
+    "sha256": "454996f0aa0067b4c26c94c2dcec604e5d9ce039fe2cdacb377a09e5b67767ad",
+    "bytes": 10771715,
+    "slot_id": "942376041644572713",
+    "generation_url": "https://kling.ai/app/creations/grid?project=942072362835525727&slotId=942376041644572713",
+    "probe": {
+      "streams": [
+        {
+          "index": 0,
+          "codec_name": "h264",
+          "codec_long_name": "H.264 / AVC / MPEG-4 AVC / MPEG-4 part 10",
+          "profile": "Main",
+          "codec_type": "video",
+          "codec_tag_string": "avc1",
+          "codec_tag": "0x31637661",
+          "mime_codec_string": "avc1.4d6032",
+          "width": 1920,
+          "height": 1080,
+          "coded_width": 1920,
+          "coded_height": 1080,
+          "has_b_frames": 0,
+          "pix_fmt": "yuv420p",
+          "level": 50,
+          "chroma_location": "left",
+          "field_order": "progressive",
+          "is_avc": "true",
+          "nal_length_size": "4",
+          "id": "0x1",
+          "r_frame_rate": "24/1",
+          "avg_frame_rate": "24/1",
+          "time_base": "1/12288",
+          "start_pts": 0,
+          "start_time": "0.000000",
+          "duration_ts": 123392,
+          "duration": "10.041667",
+          "bit_rate": "8579690",
+          "bits_per_raw_sample": "8",
+          "nb_frames": "241",
+          "extradata_size": 41,
+          "disposition": {
+            "default": 1,
+            "dub": 0,
+            "original": 0,
+            "comment": 0,
+            "lyrics": 0,
+            "karaoke": 0,
+            "forced": 0,
+            "hearing_impaired": 0,
+            "visual_impaired": 0,
+            "clean_effects": 0,
+            "attached_pic": 0,
+            "timed_thumbnails": 0,
+            "non_diegetic": 0,
+            "captions": 0,
+            "descriptions": 0,
+            "metadata": 0,
+            "dependent": 0,
+            "still_image": 0,
+            "multilayer": 0
+          },
+          "tags": {
+            "language": "und",
+            "handler_name": "VideoHandler",
+            "encoder": "Lavc60.31.102 h264_slapi"
+          }
+        }
+      ],
+      "format": {
+        "filename": "/Users/ryo/Desktop/新チャンネル/EP003_Medusa/素材/V01_Kling_v01.mp4",
+        "nb_streams": 1,
+        "nb_programs": 0,
+        "nb_stream_groups": 0,
+        "format_name": "mov,mp4,m4a,3gp,3g2,mj2",
+        "format_long_name": "QuickTime / MOV",
+        "start_time": "0.000000",
+        "duration": "10.041667",
+        "size": "10771715",
+        "bit_rate": "8581614",
+        "probe_score": 100,
+        "tags": {
+          "minor_version": "512",
+          "major_brand": "isom",
+          "compatible_brands": "isomiso2avc1mp41",
+          "AIGC": "{\"Label\":\"1\",\"ContentProducer\":\"kling\",\"ProduceID\":\"SGP_PROD_ai_web_324679956526702\",\"ReservedCode1\":null,\"ContentPropagator\":\"kling\",\"PropagateID\":\"SGP_PROD_ai_web_324679956526702\",\"ReservedCode2\":null}",
+          "encoder": "Lavf60.16.100"
+        }
+      }
+    },
+    "status": "downloaded",
+    "visual_review": {
+      "sample_frames": [
+        0.1,
+        2,
+        4,
+        6,
+        8,
+        9.9
+      ],
+      "no_people": true,
+      "no_readable_text": true,
+      "no_visible_geometry_breaks_in_samples": true,
+      "full_motion_human_review": false
+    }
   }
 ]

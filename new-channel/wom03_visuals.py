@@ -68,10 +68,8 @@ def compose(key):
   art=images[key];im=background(art)
   if key in DETAILS:
    panel(im,art,(80,110,860,820));view,box=DETAILS[key];detail=crop_view(key,view,box)
-   if key in ['A01','A02']:
-    # Reveal only the face within this single continuous shot, retaining the whole object.
-    overlay=Image.new('RGBA',(W,H));panel(overlay,detail,(980,110,860,820));p=ROOT/f'assets/{key}_face_reveal.png';overlay.save(p);extra={'face_reveal':str(p.relative_to(ROOT)),'face_reveal_start_fraction':.35}
-   else:panel(im,detail,(980,110,860,820))
+   panel(im,detail,(980,110,860,820))
+   if key in ['A01','A02']:extra['safe_face_presentation']='Whole object and face-only crop remain together throughout one continuous 3% camera shot; no neck/cut close-up.'
    extra.update(detail_view=view,detail_crop_normalized=box)
   else:
    # Crop only empty photographic margins for tiny objects; original pixels remain untouched.
@@ -112,7 +110,6 @@ def main():
   sheet=Image.new('RGB',(1280,1040),BG);d=ImageDraw.Draw(sheet)
   for j,s in enumerate(records[batch*12:batch*12+12]):
    x=j%3*426;y=j//3*260;im=Image.open(ROOT/s['file']);
-   if s.get('face_reveal'):im.paste(Image.open(ROOT/s['face_reveal']),(0,0),Image.open(ROOT/s['face_reveal']))
    sheet.paste(im.resize((426,240)),(x,y));d.text((x+8,y+241),s['segment_id']+' '+s['key'],font=font(14),fill=IVORY)
   sheet.save(ROOT/f'review/compositions_{batch+1}.jpg',quality=85)
  print('VISUALS',len(records),flush=True)

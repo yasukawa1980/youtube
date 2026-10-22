@@ -1,0 +1,1131 @@
+{
+  "language": "en",
+  "voice": "Kokoro / Heart (af_heart)",
+  "sample_rate": 24000,
+  "human_auditory_review_completed": false,
+  "segments": [
+    {
+      "id": "M01",
+      "chapter": "C01",
+      "sources": [],
+      "classification": "editorial_question",
+      "visuals": [
+        "A24",
+        "R01"
+      ],
+      "text": "Snakes for hair. A gaze that turns people to stone. Medusa is one of the most famous monsters of Greek myth. Today, she is also seen as a victim, a woman punished for something that was done to her. So which is she? The answer depends on which source you read.",
+      "cues": [
+        {
+          "id": "M01-01",
+          "text": "Snakes for hair.",
+          "spoken_text": "Snakes for hair.",
+          "start": 0.0,
+          "end": 1.434,
+          "audio_file": "audio/en/sentences/M01-01.wav",
+          "audio_sha256": "6cf5db85b46087b5ccb8229bcffb413de2042e631172348d73a1a144029822b7",
+          "replacements": [],
+          "role": "opening"
+        },
+        {
+          "id": "M01-02",
+          "text": "A gaze that turns people to stone.",
+          "spoken_text": "A gaze that turns people to stone.",
+          "start": 1.734,
+          "end": 4.243333333333333,
+          "audio_file": "audio/en/sentences/M01-02.wav",
+          "audio_sha256": "f2782c25a21cc9f793ffbdbe28ac1c64222d7f16af26ac0b1499b360f42961cc",
+          "replacements": [],
+          "role": "plain"
+        },
+        {
+          "id": "M01-03",
+          "text": "Medusa is one of the most famous monsters of Greek myth.",
+          "spoken_text": "Medusa is one of the most famous monsters of Greek myth.",
+          "start": 4.543333333333333,
+          "end": 8.806666666666667,
+          "audio_file": "audio/en/sentences/M01-03.wav",
+          "audio_sha256": "236be65b6dc667800acb2541bcea153dd9de2be0c0ea2494651733622f2bf03d",
+          "replacements": [],
+          "role": "plain"
+        },
+        {
+          "id": "M01-04",
+          "text": "Today, she is also seen as a victim, a woman punished for something that was done to her.",
+          "spoken_text": "Today, she is also seen as a victim, a woman punished for something that was done to her.",
+          "start": 9.106666666666667,
+          "end": 15.184666666666667,
+          "audio_file": "audio/en/sentences/M01-04.wav",
+          "audio_sha256": "5164c5199d7b71b46486ddda6f9d7677ce42db84486327a34b6e679f90d7233c",
+          "replacements": [],
+          "role": "plain"
+        },
+        {
+          "id": "M01-05",
+          "text": "So which is she?",
+          "spoken_text": "So which is she?",
+          "start": 15.484666666666667,
+          "end": 16.97,
+          "audio_file": "audio/en/sentences/M01-05.wav",
+          "audio_sha256": "df3044eacba78c1fb4c724afc1462302863ef0fa5b17d63c2a89fdc77853f342",
+          "replacements": [],
+          "role": "question"
+        },
+        {
+          "id": "M01-06",
+          "text": "The answer depends on which source you read.",
+          "spoken_text": "The answer depends on which source you read.",
+          "start": 17.27,
+          "end": 20.120666666666665,
+          "audio_file": "audio/en/sentences/M01-06.wav",
+          "audio_sha256": "2bb2823f6177b645b1e92bef402361935dbe13183d2bf676575fab3a77dd3478",
+          "replacements": [],
+          "role": "plain"
+        }
+      ],
+      "audio_file": "audio/en/M01.wav",
+      "duration_seconds": 20.120666666666665,
+      "native_speed": 0.82
+    },
+    {
+      "id": "M02",
+      "chapter": "C01",
+      "sources": [],
+      "classification": "editorial_question",
+      "visuals": [
+        "V01",
+        "R02"
+      ],
+      "text": "In this episode, we follow Medusa across seven centuries of Greek and Roman poetry and art: an early poem about the gods, faces on ancient shields and temples, a painted vase at The Metropolitan Museum of Art, and a Roman poet who told her story in a new way.",
+      "cues": [
+        {
+          "id": "M02-01",
+          "text": "In this episode, we follow Medusa across seven centuries of Greek and Roman poetry and art: an early poem about the gods, faces on ancient shields and temples, a painted vase at The Metropolitan Museum of Art, and a Roman poet who told her story in a new way.",
+          "spoken_text": "In this episode, we follow Medusa across seven centuries of Greek and Roman poetry and art: an early poem about the gods, faces on ancient shields and temples, a painted vase at The Metropolitan Museum of Art, and a Roman poet who told her story in a new way.",
+          "start": 0.0,
+          "end": 19.751333333333335,
+          "audio_file": "audio/en/sentences/M02-01.wav",
+          "audio_sha256": "2e3704ef5e8115c2297c5d742a0f46c2eac31e4ea437cb90b04e6c2709ee1897",
+          "replacements": [],
+          "role": "plain"
+        }
+      ],
+      "audio_file": "audio/en/M02.wav",
+      "duration_seconds": 19.751333333333335,
+      "native_speed": 0.82
+    },
+    {
+      "id": "M03",
+      "chapter": "C02",
+      "sources": [
+        "M-S01"
+      ],
+      "classification": "source_based",
+      "visuals": [
+        "R03",
+        "A05"
+      ],
+      "text": "One of the earliest accounts comes from the Greek poet Hesiod, around 700 BCE. In his Theogony, a poem about the origins of the gods, Medusa is one of three Gorgon sisters, daughters of ancient sea deities. Her sisters, Stheno and Euryale, are immortal. Medusa alone is mortal.",
+      "cues": [
+        {
+          "id": "M03-01",
+          "text": "One of the earliest accounts comes from the Greek poet Hesiod, around 700 BCE.",
+          "spoken_text": "One of the earliest accounts comes from the Greek poet Hesiod, around 700 BCE.",
+          "start": 0.0,
+          "end": 6.332666666666666,
+          "audio_file": "audio/en/sentences/M03-01.wav",
+          "audio_sha256": "9e1daea02725f22bd6fab07b4d08f72b4c2e2b11da0725d8ceb409c385e96454",
+          "replacements": [
+            {
+              "display": "Hesiod",
+              "spoken": "Hesiod",
+              "count": 1,
+              "phonemes": "hˈiːsiəd"
+            }
+          ],
+          "role": "plain"
+        },
+        {
+          "id": "M03-02",
+          "text": "In his Theogony, a poem about the origins of the gods, Medusa is one of three Gorgon sisters, daughters of ancient sea deities.",
+          "spoken_text": "In his Theogony, a poem about the origins of the gods, Medusa is one of three Gorgon sisters, daughters of ancient sea deities.",
+          "start": 6.632666666666666,
+          "end": 16.601958333333332,
+          "audio_file": "audio/en/sentences/M03-02.wav",
+          "audio_sha256": "5d65c98fd261ee958027e0c37d848e7c0acdf99fbc2fb365679a9924e098a3bf",
+          "replacements": [
+            {
+              "display": "Theogony",
+              "spoken": "Theogony",
+              "count": 1,
+              "phonemes": "θiˈɑːɡəni"
+            }
+          ],
+          "role": "plain"
+        },
+        {
+          "id": "M03-03",
+          "text": "Her sisters, Stheno and Euryale, are immortal.",
+          "spoken_text": "Her sisters, Stheno and Euryale, are immortal.",
+          "start": 16.901958333333333,
+          "end": 20.496541666666666,
+          "audio_file": "audio/en/sentences/M03-03.wav",
+          "audio_sha256": "28d8cc31e64efd87b70b633fc1dc7c1dd220c2d0e6b60d3ca4a4ce7ae5e6d7be",
+          "replacements": [
+            {
+              "display": "Stheno",
+              "spoken": "Stheno",
+              "count": 1,
+              "phonemes": "sθˈiːnoʊ"
+            },
+            {
+              "display": "Euryale",
+              "spoken": "Euryale",
+              "count": 1,
+              "phonemes": "jʊɹˈaɪəli"
+            }
+          ],
+          "role": "plain"
+        },
+        {
+          "id": "M03-04",
+          "text": "Medusa alone is mortal.",
+          "spoken_text": "Medusa alone is mortal.",
+          "start": 20.796541666666666,
+          "end": 22.963166666666666,
+          "audio_file": "audio/en/sentences/M03-04.wav",
+          "audio_sha256": "0383ce9c8c53eab4fc021cca23d119452f21628b4946ffb84e6160ba2e63de42",
+          "replacements": [],
+          "role": "plain"
+        }
+      ],
+      "audio_file": "audio/en/M03.wav",
+      "duration_seconds": 22.963166666666666,
+      "native_speed": 0.82
+    },
+    {
+      "id": "M04",
+      "chapter": "C02",
+      "sources": [
+        "M-S01"
+      ],
+      "classification": "source_based",
+      "visuals": [
+        "V02",
+        "A21"
+      ],
+      "text": "Hesiod tells us very little about her. He says that Poseidon lay with her in a soft meadow among spring flowers, and that when Perseus cut off her head, the winged horse Pegasus and Chrysaor, named for his golden sword, sprang from her. There is no curse and no punishment. In Hesiod, Medusa is simply born a Gorgon.",
+      "cues": [
+        {
+          "id": "M04-01",
+          "text": "Hesiod tells us very little about her.",
+          "spoken_text": "Hesiod tells us very little about her.",
+          "start": 0.0,
+          "end": 2.647291666666667,
+          "audio_file": "audio/en/sentences/M04-01.wav",
+          "audio_sha256": "9ff139cc2d67bc2b529e2408c9b3608caacc2884f286738090277f8d4d0dc233",
+          "replacements": [
+            {
+              "display": "Hesiod",
+              "spoken": "Hesiod",
+              "count": 1,
+              "phonemes": "hˈiːsiəd"
+            }
+          ],
+          "role": "plain"
+        },
+        {
+          "id": "M04-02",
+          "text": "He says that Poseidon lay with her in a soft meadow among spring flowers, and that when Perseus cut off her head, the winged horse Pegasus and Chrysaor, named for his golden sword, sprang from her.",
+          "spoken_text": "He says that Poseidon lay with her in a soft meadow among spring flowers, and that when Perseus cut off her head, the winged horse Pegasus and Chrysaor, named for his golden sword, sprang from her.",
+          "start": 2.9472916666666666,
+          "end": 17.107958333333332,
+          "audio_file": "audio/en/sentences/M04-02.wav",
+          "audio_sha256": "3ec23c284c2182effa5a3150af1497b85cf9c0319776aca27e05b75f35c933d1",
+          "replacements": [
+            {
+              "display": "Chrysaor",
+              "spoken": "Chrysaor",
+              "count": 1,
+              "phonemes": "kɹaɪˈseɪɔːɹ"
+            }
+          ],
+          "role": "plain"
+        },
+        {
+          "id": "M04-03",
+          "text": "There is no curse and no punishment.",
+          "spoken_text": "There is no curse and no punishment.",
+          "start": 17.407958333333333,
+          "end": 20.043916666666668,
+          "audio_file": "audio/en/sentences/M04-03.wav",
+          "audio_sha256": "d04d7aaf5952ad40d1a4c2e33124602846c6b6c5ec5c84c87aaa62c4084fdb88",
+          "replacements": [],
+          "role": "plain"
+        },
+        {
+          "id": "M04-04",
+          "text": "In Hesiod, Medusa is simply born a Gorgon.",
+          "spoken_text": "In Hesiod, Medusa is simply born a Gorgon.",
+          "start": 20.343916666666665,
+          "end": 23.938541666666666,
+          "audio_file": "audio/en/sentences/M04-04.wav",
+          "audio_sha256": "733e186255114c326ae4fd4f3c99f24dd60e80c76d81c283540f57247998360d",
+          "replacements": [
+            {
+              "display": "Hesiod",
+              "spoken": "Hesiod",
+              "count": 1,
+              "phonemes": "hˈiːsiəd"
+            }
+          ],
+          "role": "plain"
+        }
+      ],
+      "audio_file": "audio/en/M04.wav",
+      "duration_seconds": 23.938541666666666,
+      "native_speed": 0.82
+    },
+    {
+      "id": "M05",
+      "chapter": "C03",
+      "sources": [
+        "M-S04"
+      ],
+      "classification": "source_based",
+      "visuals": [
+        "A07",
+        "A20"
+      ],
+      "text": "Early Greek artists gave the Gorgon an unforgettable face. In the sixth century BCE, she often looks like this: wide, staring eyes, a grinning mouth, sharp tusks, and a protruding tongue. She is not meant to be beautiful. She is meant to be seen.",
+      "cues": [
+        {
+          "id": "M05-01",
+          "text": "Early Greek artists gave the Gorgon an unforgettable face.",
+          "spoken_text": "Early Greek artists gave the Gorgon an unforgettable face.",
+          "start": 0.0,
+          "end": 4.201958333333334,
+          "audio_file": "audio/en/sentences/M05-01.wav",
+          "audio_sha256": "93b7610a2e402ae58eec4e452f0aaa68893b8bf30a877208411c42e0a81679d0",
+          "replacements": [],
+          "role": "plain"
+        },
+        {
+          "id": "M05-02",
+          "text": "In the sixth century BCE, she often looks like this: wide, staring eyes, a grinning mouth, sharp tusks, and a protruding tongue.",
+          "spoken_text": "In the sixth century BCE, she often looks like this: wide, staring eyes, a grinning mouth, sharp tusks, and a protruding tongue.",
+          "start": 4.5019583333333335,
+          "end": 13.909875,
+          "audio_file": "audio/en/sentences/M05-02.wav",
+          "audio_sha256": "60a89d6cef8ed1050fee488ded3260839e55e79858a728e96b52d4508d3fb4e0",
+          "replacements": [],
+          "role": "plain"
+        },
+        {
+          "id": "M05-03",
+          "text": "She is not meant to be beautiful.",
+          "spoken_text": "She is not meant to be beautiful.",
+          "start": 14.209875,
+          "end": 16.5045,
+          "audio_file": "audio/en/sentences/M05-03.wav",
+          "audio_sha256": "8ebf70eddfeb402700516e30b3b1d5294fe253f489e27af69e7e700d4baa5570",
+          "replacements": [],
+          "role": "plain"
+        },
+        {
+          "id": "M05-04",
+          "text": "She is meant to be seen.",
+          "spoken_text": "She is meant to be seen.",
+          "start": 16.8045,
+          "end": 18.629791666666666,
+          "audio_file": "audio/en/sentences/M05-04.wav",
+          "audio_sha256": "756ed125c5d5b739a8718728787d5a62962f0f9265b3414057b8ca397852531e",
+          "replacements": [],
+          "role": "plain"
+        }
+      ],
+      "audio_file": "audio/en/M05.wav",
+      "duration_seconds": 18.629791666666666,
+      "native_speed": 0.82
+    },
+    {
+      "id": "M06",
+      "chapter": "C03",
+      "sources": [
+        "M-S04"
+      ],
+      "classification": "source_based",
+      "visuals": [
+        "A03",
+        "A08",
+        "A26"
+      ],
+      "text": "Faces like this, called gorgoneia, appeared on shields, on drinking cups, and on the tiles along temple roofs. Many scholars think they were meant to frighten away harm. The monster's face could also serve as a guardian.",
+      "cues": [
+        {
+          "id": "M06-01",
+          "text": "Faces like this, called gorgoneia, appeared on shields, on drinking cups, and on the tiles along temple roofs.",
+          "spoken_text": "Faces like this, called gorgoneia, appeared on shields, on drinking cups, and on the tiles along temple roofs.",
+          "start": 0.0,
+          "end": 8.356625,
+          "audio_file": "audio/en/sentences/M06-01.wav",
+          "audio_sha256": "d2d9bd96b52ce194e620ad0d8cd1dba309a31273dd2ae24932bb047d348cfe0b",
+          "replacements": [
+            {
+              "display": "gorgoneia",
+              "spoken": "gorgoneia",
+              "count": 1,
+              "phonemes": "ɡɔːɹɡəˈniːə"
+            }
+          ],
+          "role": "plain"
+        },
+        {
+          "id": "M06-02",
+          "text": "Many scholars think they were meant to frighten away harm.",
+          "spoken_text": "Many scholars think they were meant to frighten away harm.",
+          "start": 8.656625,
+          "end": 12.262625,
+          "audio_file": "audio/en/sentences/M06-02.wav",
+          "audio_sha256": "66d1b670ba38d958f5b02f79029160a5667e44ef4245cc9c1d3c7c9469be1029",
+          "replacements": [],
+          "role": "plain"
+        },
+        {
+          "id": "M06-03",
+          "text": "The monster's face could also serve as a guardian.",
+          "spoken_text": "The monster's face could also serve as a guardian.",
+          "start": 12.562625,
+          "end": 16.080625,
+          "audio_file": "audio/en/sentences/M06-03.wav",
+          "audio_sha256": "ff75893c7276d91b422c903756f02479e54471f790fe2f10bb8a317ff8e6cfc8",
+          "replacements": [],
+          "role": "plain"
+        }
+      ],
+      "audio_file": "audio/en/M06.wav",
+      "duration_seconds": 16.080625,
+      "native_speed": 0.82
+    },
+    {
+      "id": "M07",
+      "chapter": "C03",
+      "sources": [
+        "M-S02"
+      ],
+      "classification": "source_based",
+      "visuals": [
+        "A14",
+        "A13"
+      ],
+      "text": "Even the goddess Athena carried it. As early as Homer's Iliad, the Gorgon's head appears on the aegis, Athena's protective goatskin. The face of the defeated monster became part of the goddess's own power.",
+      "cues": [
+        {
+          "id": "M07-01",
+          "text": "Even the goddess Athena carried it.",
+          "spoken_text": "Even the goddess Athena carried it.",
+          "start": 0.0,
+          "end": 2.4966666666666666,
+          "audio_file": "audio/en/sentences/M07-01.wav",
+          "audio_sha256": "d48e044ba483e11bf74281190df1137401624019e7dc7aa2e94417d8ac126dab",
+          "replacements": [],
+          "role": "plain"
+        },
+        {
+          "id": "M07-02",
+          "text": "As early as Homer's Iliad, the Gorgon's head appears on the aegis, Athena's protective goatskin.",
+          "spoken_text": "As early as Homer's Iliad, the Gorgon's head appears on the aegis, Athena's protective goatskin.",
+          "start": 2.796666666666667,
+          "end": 10.079333333333333,
+          "audio_file": "audio/en/sentences/M07-02.wav",
+          "audio_sha256": "6d02b83688167a8ebd5c598df9993262ec201d4ddd1159b95ba4a0a433ae0e12",
+          "replacements": [],
+          "role": "plain"
+        },
+        {
+          "id": "M07-03",
+          "text": "The face of the defeated monster became part of the goddess's own power.",
+          "spoken_text": "The face of the defeated monster became part of the goddess's own power.",
+          "start": 10.379333333333333,
+          "end": 15.423333333333334,
+          "audio_file": "audio/en/sentences/M07-03.wav",
+          "audio_sha256": "e85bf71ae4d86a58a709f16e0412dd69c81c26aa58d10af6694013fb37664120",
+          "replacements": [],
+          "role": "plain"
+        }
+      ],
+      "audio_file": "audio/en/M07.wav",
+      "duration_seconds": 15.423333333333334,
+      "native_speed": 0.82
+    },
+    {
+      "id": "M08",
+      "chapter": "C04",
+      "sources": [
+        "M-S05"
+      ],
+      "classification": "source_based",
+      "visuals": [
+        "A15",
+        "A23"
+      ],
+      "text": "Over time, the image began to change. Around 490 BCE, the poet Pindar spoke of fair-cheeked Medusa. He also told how Athena invented a melody for the aulos, a reed pipe, to imitate the lament of the Gorgons for their sister.",
+      "cues": [
+        {
+          "id": "M08-01",
+          "text": "Over time, the image began to change.",
+          "spoken_text": "Over time, the image began to change.",
+          "start": 0.0,
+          "end": 3.038666666666667,
+          "audio_file": "audio/en/sentences/M08-01.wav",
+          "audio_sha256": "ba9040a09fd5a2b8f99ec87affa3ee81bd326be2df70c3e88a14c027b87e885b",
+          "replacements": [],
+          "role": "plain"
+        },
+        {
+          "id": "M08-02",
+          "text": "Around 490 BCE, the poet Pindar spoke of fair-cheeked Medusa.",
+          "spoken_text": "Around 490 BCE, the poet Pindar spoke of fair-cheeked Medusa.",
+          "start": 3.3386666666666667,
+          "end": 9.449333333333334,
+          "audio_file": "audio/en/sentences/M08-02.wav",
+          "audio_sha256": "eb2711e32fd042edaa6944074f75f569497fcf1cd3adc35c0a1ada59785dd37a",
+          "replacements": [],
+          "role": "plain"
+        },
+        {
+          "id": "M08-03",
+          "text": "He also told how Athena invented a melody for the aulos, a reed pipe, to imitate the lament of the Gorgons for their sister.",
+          "spoken_text": "He also told how Athena invented a melody for the aulos, a reed pipe, to imitate the lament of the Gorgons for their sister.",
+          "start": 9.749333333333333,
+          "end": 18.952,
+          "audio_file": "audio/en/sentences/M08-03.wav",
+          "audio_sha256": "670bf7802fd0f7a8d99eb5fdb6597a2802b094a80dee80b5bd268168633ed5f2",
+          "replacements": [
+            {
+              "display": "aulos",
+              "spoken": "aulos",
+              "count": 1,
+              "phonemes": "ˈaʊlɑːs"
+            }
+          ],
+          "role": "plain"
+        }
+      ],
+      "audio_file": "audio/en/M08.wav",
+      "duration_seconds": 18.952,
+      "native_speed": 0.82
+    },
+    {
+      "id": "M09",
+      "chapter": "C04",
+      "sources": [
+        "M-S06"
+      ],
+      "classification": "source_based",
+      "visuals": [
+        "A01"
+      ],
+      "text": "On this vase at The Metropolitan Museum of Art, painted in Athens around 450 BCE, Perseus comes upon Medusa as she sleeps, with Athena close by. Medusa still has wings, but her face is young and calm. The museum describes it as one of the earliest images of Medusa with an attractive face.",
+      "cues": [
+        {
+          "id": "M09-01",
+          "text": "On this vase at The Metropolitan Museum of Art, painted in Athens around 450 BCE, Perseus comes upon Medusa as she sleeps, with Athena close by.",
+          "spoken_text": "On this vase at The Metropolitan Museum of Art, painted in Athens around 450 BCE, Perseus comes upon Medusa as she sleeps, with Athena close by.",
+          "start": 0.0,
+          "end": 12.987333333333334,
+          "audio_file": "audio/en/sentences/M09-01.wav",
+          "audio_sha256": "4f2c0839e955f1be754f7bdc1c1e4c914f86828a99d16ade38e4dd6ac4a10513",
+          "replacements": [],
+          "role": "plain"
+        },
+        {
+          "id": "M09-02",
+          "text": "Medusa still has wings, but her face is young and calm.",
+          "spoken_text": "Medusa still has wings, but her face is young and calm.",
+          "start": 13.287333333333333,
+          "end": 17.434,
+          "audio_file": "audio/en/sentences/M09-02.wav",
+          "audio_sha256": "2f2046558065127d56729c8900eb7b46350834d93f213639b26076f5cd653010",
+          "replacements": [],
+          "role": "plain"
+        },
+        {
+          "id": "M09-03",
+          "text": "The museum describes it as one of the earliest images of Medusa with an attractive face.",
+          "spoken_text": "The museum describes it as one of the earliest images of Medusa with an attractive face.",
+          "start": 17.734,
+          "end": 24.109333333333332,
+          "audio_file": "audio/en/sentences/M09-03.wav",
+          "audio_sha256": "4994a04eb4960f70f7a1aad3c5fe7285eec27f7c8fdb38123aafe0ac661d118e",
+          "replacements": [],
+          "role": "plain"
+        }
+      ],
+      "audio_file": "audio/en/M09.wav",
+      "duration_seconds": 24.109333333333332,
+      "native_speed": 0.82
+    },
+    {
+      "id": "M10",
+      "chapter": "C04",
+      "sources": [
+        "M-S04"
+      ],
+      "classification": "scholarly_interpretation",
+      "visuals": [
+        "A18",
+        "A17"
+      ],
+      "text": "Why did artists begin to show her this way? Scholars have suggested several reasons, from changing ideals of beauty to new ways of telling the story. The sources do not give a single answer. But by the fifth century BCE, Medusa could be both terrifying and beautiful.",
+      "cues": [
+        {
+          "id": "M10-01",
+          "text": "Why did artists begin to show her this way?",
+          "spoken_text": "Why did artists begin to show her this way?",
+          "start": 0.0,
+          "end": 2.840625,
+          "audio_file": "audio/en/sentences/M10-01.wav",
+          "audio_sha256": "8b7ebd7b515fda061eaa68bbca079af5636da7f7824376c3e43fcef424f8200d",
+          "replacements": [],
+          "role": "question"
+        },
+        {
+          "id": "M10-02",
+          "text": "Scholars have suggested several reasons, from changing ideals of beauty to new ways of telling the story.",
+          "spoken_text": "Scholars have suggested several reasons, from changing ideals of beauty to new ways of telling the story.",
+          "start": 3.140625,
+          "end": 10.733291666666666,
+          "audio_file": "audio/en/sentences/M10-02.wav",
+          "audio_sha256": "8037ad85b636a5bfdfc5498f1dea0cb707823f11d9578ab6d683e70905d2c6e9",
+          "replacements": [],
+          "role": "plain"
+        },
+        {
+          "id": "M10-03",
+          "text": "The sources do not give a single answer.",
+          "spoken_text": "The sources do not give a single answer.",
+          "start": 11.033291666666667,
+          "end": 13.882583333333333,
+          "audio_file": "audio/en/sentences/M10-03.wav",
+          "audio_sha256": "a15e4af93904172739dd65a2fc6173df962071b9fd9503921a7d2a1a0296c4eb",
+          "replacements": [],
+          "role": "plain"
+        },
+        {
+          "id": "M10-04",
+          "text": "But by the fifth century BCE, Medusa could be both terrifying and beautiful.",
+          "spoken_text": "But by the fifth century BCE, Medusa could be both terrifying and beautiful.",
+          "start": 14.182583333333334,
+          "end": 19.876583333333333,
+          "audio_file": "audio/en/sentences/M10-04.wav",
+          "audio_sha256": "a3c16851b46d4de877463b685fa257eff97dd4a11a8a5cd91b6079eb2f05bd6a",
+          "replacements": [],
+          "role": "plain"
+        }
+      ],
+      "audio_file": "audio/en/M10.wav",
+      "duration_seconds": 19.876583333333333,
+      "native_speed": 0.82
+    },
+    {
+      "id": "M11",
+      "chapter": "C05",
+      "sources": [
+        "M-S07"
+      ],
+      "classification": "source_based",
+      "visuals": [
+        "R05",
+        "A25"
+      ],
+      "text": "The version best known today comes later, from Rome. Around the year 8 CE, the poet Ovid completed his Metamorphoses, a long poem about transformations. In Book Four, Perseus himself tells the story. Medusa, he says, was once a beautiful young woman, admired above all for her hair.",
+      "cues": [
+        {
+          "id": "M11-01",
+          "text": "The version best known today comes later, from Rome.",
+          "spoken_text": "The version best known today comes later, from Rome.",
+          "start": 0.0,
+          "end": 3.5959583333333334,
+          "audio_file": "audio/en/sentences/M11-01.wav",
+          "audio_sha256": "3cd393559da73cc01e981c88f7a98bbf786892a46548f6db92d017fd4995e700",
+          "replacements": [],
+          "role": "plain"
+        },
+        {
+          "id": "M11-02",
+          "text": "Around the year 8 CE, the poet Ovid completed his Metamorphoses, a long poem about transformations.",
+          "spoken_text": "Around the year eight C E, the poet Ovid completed his Metamorphoses, a long poem about transformations.",
+          "start": 3.895958333333333,
+          "end": 12.321916666666667,
+          "audio_file": "audio/en/sentences/M11-02.wav",
+          "audio_sha256": "88e78400407bc419ad5bcb7379fdb02666e9d8877783c3f1da6fea7ecefac6cd",
+          "replacements": [
+            {
+              "display": "8 CE",
+              "spoken": "eight C E",
+              "count": 1
+            }
+          ],
+          "role": "plain"
+        },
+        {
+          "id": "M11-03",
+          "text": "In Book Four, Perseus himself tells the story.",
+          "spoken_text": "In Book Four, Perseus himself tells the story.",
+          "start": 12.621916666666667,
+          "end": 15.886583333333334,
+          "audio_file": "audio/en/sentences/M11-03.wav",
+          "audio_sha256": "1fecf5981d3604bda1639a29e27858b17e5d70fa3da79f94d0f40556906babec",
+          "replacements": [],
+          "role": "plain"
+        },
+        {
+          "id": "M11-04",
+          "text": "Medusa, he says, was once a beautiful young woman, admired above all for her hair.",
+          "spoken_text": "Medusa, he says, was once a beautiful young woman, admired above all for her hair.",
+          "start": 16.186583333333335,
+          "end": 22.665916666666668,
+          "audio_file": "audio/en/sentences/M11-04.wav",
+          "audio_sha256": "50aaa57f94016e9d5cae00e29686ff99d10c3444f4e7bd081567b29c2746d3d3",
+          "replacements": [],
+          "role": "plain"
+        }
+      ],
+      "audio_file": "audio/en/M11.wav",
+      "duration_seconds": 22.665916666666668,
+      "native_speed": 0.82
+    },
+    {
+      "id": "M12",
+      "chapter": "C05",
+      "sources": [
+        "M-S07"
+      ],
+      "classification": "source_based",
+      "visuals": [
+        "R06",
+        "V03"
+      ],
+      "text": "Then, it is said, Neptune, the Roman name for Poseidon, assaulted her in the temple of Minerva, the Roman Athena. The goddess hid her face behind her aegis. And so that the act would not go unpunished, she changed Medusa's hair into snakes.",
+      "cues": [
+        {
+          "id": "M12-01",
+          "text": "Then, it is said, Neptune, the Roman name for Poseidon, assaulted her in the temple of Minerva, the Roman Athena.",
+          "spoken_text": "Then, it is said, Neptune, the Roman name for Poseidon, assaulted her in the temple of Minerva, the Roman Athena.",
+          "start": 0.0,
+          "end": 8.575916666666666,
+          "audio_file": "audio/en/sentences/M12-01.wav",
+          "audio_sha256": "513809de87774ec77ee15cbf7f74d8cc836a13500a635c571712000034e78412",
+          "replacements": [],
+          "role": "plain"
+        },
+        {
+          "id": "M12-02",
+          "text": "The goddess hid her face behind her aegis.",
+          "spoken_text": "The goddess hid her face behind her aegis.",
+          "start": 8.875916666666667,
+          "end": 11.811916666666667,
+          "audio_file": "audio/en/sentences/M12-02.wav",
+          "audio_sha256": "07b19065a6a89ee501a872e99a00af25c7da244ae077e3c1ff43372e91c3cd34",
+          "replacements": [],
+          "role": "plain"
+        },
+        {
+          "id": "M12-03",
+          "text": "And so that the act would not go unpunished, she changed Medusa's hair into snakes.",
+          "spoken_text": "And so that the act would not go unpunished, she changed Medusa's hair into snakes.",
+          "start": 12.111916666666668,
+          "end": 17.963875,
+          "audio_file": "audio/en/sentences/M12-03.wav",
+          "audio_sha256": "98a43509ade2acf878f4663e2fdc0345bc44e38ad3b4a9690e822cd8782a0750",
+          "replacements": [],
+          "role": "plain"
+        }
+      ],
+      "audio_file": "audio/en/M12.wav",
+      "duration_seconds": 17.963875,
+      "native_speed": 0.82
+    },
+    {
+      "id": "M13",
+      "chapter": "C05",
+      "sources": [
+        "M-S07",
+        "M-S08"
+      ],
+      "classification": "source_based",
+      "visuals": [
+        "A22",
+        "D_timeline"
+      ],
+      "text": "Ovid wrote about seven hundred years after Hesiod, and he often reshaped older myths in his own way. Other ancient writers tell different stories. The mythographer known as Apollodorus reports that, according to some, Medusa was beheaded for Athena's sake, because she wished to rival the goddess in beauty.",
+      "cues": [
+        {
+          "id": "M13-01",
+          "text": "Ovid wrote about seven hundred years after Hesiod, and he often reshaped older myths in his own way.",
+          "spoken_text": "Ovid wrote about seven hundred years after Hesiod, and he often reshaped older myths in his own way.",
+          "start": 0.0,
+          "end": 7.166,
+          "audio_file": "audio/en/sentences/M13-01.wav",
+          "audio_sha256": "dd795e23aa6b736cccbe72ddcb83783552453ab865d5b1cfc1a763aae0e5006b",
+          "replacements": [
+            {
+              "display": "Hesiod",
+              "spoken": "Hesiod",
+              "count": 1,
+              "phonemes": "hˈiːsiəd"
+            }
+          ],
+          "role": "plain"
+        },
+        {
+          "id": "M13-02",
+          "text": "Other ancient writers tell different stories.",
+          "spoken_text": "Other ancient writers tell different stories.",
+          "start": 7.466,
+          "end": 10.475958333333333,
+          "audio_file": "audio/en/sentences/M13-02.wav",
+          "audio_sha256": "e3eb89cb03ebdfa7e84f0f60b5a8679e935073163aa3565a279c2ff47e09b6c6",
+          "replacements": [],
+          "role": "plain"
+        },
+        {
+          "id": "M13-03",
+          "text": "The mythographer known as Apollodorus reports that, according to some, Medusa was beheaded for Athena's sake, because she wished to rival the goddess in beauty.",
+          "spoken_text": "The mythographer known as Apollodorus reports that, according to some, Medusa was beheaded for Athena's sake, because she wished to rival the goddess in beauty.",
+          "start": 10.775958333333334,
+          "end": 22.155958333333334,
+          "audio_file": "audio/en/sentences/M13-03.wav",
+          "audio_sha256": "11c899681d9c503be29a2a2f56bec4d028b274078f54aa0dff8788f5ab8c8fe0",
+          "replacements": [
+            {
+              "display": "Apollodorus",
+              "spoken": "Apollodorus",
+              "count": 1,
+              "phonemes": "əpɑːləˈdɔːɹəs"
+            }
+          ],
+          "role": "plain"
+        }
+      ],
+      "audio_file": "audio/en/M13.wav",
+      "duration_seconds": 22.155958333333334,
+      "native_speed": 0.82
+    },
+    {
+      "id": "M14",
+      "chapter": "C06",
+      "sources": [
+        "M-S09"
+      ],
+      "classification": "source_based",
+      "visuals": [
+        "R07",
+        "A02"
+      ],
+      "text": "Medusa's story lived on long after the ancient world. In the early 1800s, the sculptor Antonio Canova carved Perseus holding up her head in triumph. For Medusa's face, Canova followed an ancient marble mask of a beautiful, sorrowful Medusa. The hero is the center of this statue.",
+      "cues": [
+        {
+          "id": "M14-01",
+          "text": "Medusa's story lived on long after the ancient world.",
+          "spoken_text": "Medusa's story lived on long after the ancient world.",
+          "start": 0.0,
+          "end": 3.9133333333333336,
+          "audio_file": "audio/en/sentences/M14-01.wav",
+          "audio_sha256": "8061ed66b5ece7cf99fc5376985852aebf5b3b5c2c070fec4b0f92d7c747dfd6",
+          "replacements": [],
+          "role": "plain"
+        },
+        {
+          "id": "M14-02",
+          "text": "In the early 1800s, the sculptor Antonio Canova carved Perseus holding up her head in triumph.",
+          "spoken_text": "In the early 1800s, the sculptor Antonio Canova carved Perseus holding up her head in triumph.",
+          "start": 4.213333333333333,
+          "end": 12.571333333333333,
+          "audio_file": "audio/en/sentences/M14-02.wav",
+          "audio_sha256": "43e20fa196f37a8866b18fde708b70742bb196d9d0ecfe03397c2828f75e214f",
+          "replacements": [],
+          "role": "plain"
+        },
+        {
+          "id": "M14-03",
+          "text": "For Medusa's face, Canova followed an ancient marble mask of a beautiful, sorrowful Medusa.",
+          "spoken_text": "For Medusa's face, Canova followed an ancient marble mask of a beautiful, sorrowful Medusa.",
+          "start": 12.871333333333334,
+          "end": 20.058666666666667,
+          "audio_file": "audio/en/sentences/M14-03.wav",
+          "audio_sha256": "48df45957c0498c1a96c6b1d4f51e0b7286202ab3bd39480cfc5ba82871a29b4",
+          "replacements": [],
+          "role": "plain"
+        },
+        {
+          "id": "M14-04",
+          "text": "The hero is the center of this statue.",
+          "spoken_text": "The hero is the center of this statue.",
+          "start": 20.358666666666668,
+          "end": 23.154,
+          "audio_file": "audio/en/sentences/M14-04.wav",
+          "audio_sha256": "78088ac67b9ffa2e22929ff6dff4bb7f15a186e1e607476f2781d1680f5325ea",
+          "replacements": [],
+          "role": "plain"
+        }
+      ],
+      "audio_file": "audio/en/M14.wav",
+      "duration_seconds": 23.154,
+      "native_speed": 0.82
+    },
+    {
+      "id": "M15",
+      "chapter": "C06",
+      "sources": [
+        "M-S10"
+      ],
+      "classification": "modern_interpretation",
+      "visuals": [
+        "R08",
+        "R09"
+      ],
+      "text": "In the twentieth century, many writers and artists returned to Ovid's version and read Medusa as a woman who was wronged, and then blamed. That reading is a modern interpretation. But it is built on an ancient text.",
+      "cues": [
+        {
+          "id": "M15-01",
+          "text": "In the twentieth century, many writers and artists returned to Ovid's version and read Medusa as a woman who was wronged, and then blamed.",
+          "spoken_text": "In the twentieth century, many writers and artists returned to Ovid's version and read Medusa as a woman who was wronged, and then blamed.",
+          "start": 0.0,
+          "end": 9.919291666666666,
+          "audio_file": "audio/en/sentences/M15-01.wav",
+          "audio_sha256": "f30e7d6c2f86f86709995a4fb93a93bea6f2c09b5319d7eac43b30f9cef7dc27",
+          "replacements": [],
+          "role": "plain"
+        },
+        {
+          "id": "M15-02",
+          "text": "That reading is a modern interpretation.",
+          "spoken_text": "That reading is a modern interpretation.",
+          "start": 10.219291666666667,
+          "end": 13.313291666666666,
+          "audio_file": "audio/en/sentences/M15-02.wav",
+          "audio_sha256": "5cdac26c26b090e26aa26841f24585c5bb67de68702aa2c3be9070c04421dc2d",
+          "replacements": [],
+          "role": "plain"
+        },
+        {
+          "id": "M15-03",
+          "text": "But it is built on an ancient text.",
+          "spoken_text": "But it is built on an ancient text.",
+          "start": 13.613291666666667,
+          "end": 16.11125,
+          "audio_file": "audio/en/sentences/M15-03.wav",
+          "audio_sha256": "97ac7cf80f3913308526f027ece85e948b8c185fe8928b43d6c22bcd9ec81e4b",
+          "replacements": [],
+          "role": "plain"
+        }
+      ],
+      "audio_file": "audio/en/M15.wav",
+      "duration_seconds": 16.11125,
+      "native_speed": 0.82
+    },
+    {
+      "id": "M16",
+      "chapter": "C07",
+      "sources": [
+        "M-S01",
+        "M-S04",
+        "M-S06",
+        "M-S07"
+      ],
+      "classification": "summary",
+      "visuals": [
+        "A04",
+        "D_four"
+      ],
+      "text": "So is Medusa a monster or a victim? In Hesiod, she is born a Gorgon. On early temples and shields, her face protects. On a classical vase, she sleeps with a young, calm face. And in Ovid, she is a woman punished for what was done to her.",
+      "cues": [
+        {
+          "id": "M16-01",
+          "text": "So is Medusa a monster or a victim?",
+          "spoken_text": "So is Medusa a monster or a victim?",
+          "start": 0.0,
+          "end": 2.860625,
+          "audio_file": "audio/en/sentences/M16-01.wav",
+          "audio_sha256": "49e29a47aefdbbd273fd65ad3cb0a31abfe6751941a40390a2afe60e2a609c15",
+          "replacements": [],
+          "role": "question"
+        },
+        {
+          "id": "M16-02",
+          "text": "In Hesiod, she is born a Gorgon.",
+          "spoken_text": "In Hesiod, she is born a Gorgon.",
+          "start": 3.160625,
+          "end": 5.945916666666666,
+          "audio_file": "audio/en/sentences/M16-02.wav",
+          "audio_sha256": "c3f85e5450cd0ebe7e6643c1896c22646c3ea6bc9215fc958df39cfd120a936a",
+          "replacements": [
+            {
+              "display": "Hesiod",
+              "spoken": "Hesiod",
+              "count": 1,
+              "phonemes": "hˈiːsiəd"
+            }
+          ],
+          "role": "plain"
+        },
+        {
+          "id": "M16-03",
+          "text": "On early temples and shields, her face protects.",
+          "spoken_text": "On early temples and shields, her face protects.",
+          "start": 6.245916666666667,
+          "end": 9.772541666666667,
+          "audio_file": "audio/en/sentences/M16-03.wav",
+          "audio_sha256": "0b2a2a32ad2ef1d90d9301d9bf41d7792f7e0b9510124aeb1d74428f74a51e64",
+          "replacements": [],
+          "role": "plain"
+        },
+        {
+          "id": "M16-04",
+          "text": "On a classical vase, she sleeps with a young, calm face.",
+          "spoken_text": "On a classical vase, she sleeps with a young, calm face.",
+          "start": 10.072541666666666,
+          "end": 14.213833333333334,
+          "audio_file": "audio/en/sentences/M16-04.wav",
+          "audio_sha256": "91f600621ad97250916556d2061b3a660ae00cae59132d021eb9c5622a6b8c00",
+          "replacements": [],
+          "role": "plain"
+        },
+        {
+          "id": "M16-05",
+          "text": "And in Ovid, she is a woman punished for what was done to her.",
+          "spoken_text": "And in Ovid, she is a woman punished for what was done to her.",
+          "start": 14.513833333333332,
+          "end": 18.587791666666668,
+          "audio_file": "audio/en/sentences/M16-05.wav",
+          "audio_sha256": "8b1242c111a1ccb1bdc03979161a8396a815baabcc2e2a8267d77d77ec3c3f77",
+          "replacements": [],
+          "role": "plain"
+        }
+      ],
+      "audio_file": "audio/en/M16.wav",
+      "duration_seconds": 18.587791666666668,
+      "native_speed": 0.82
+    },
+    {
+      "id": "M17",
+      "chapter": "C07",
+      "sources": [],
+      "classification": "summary",
+      "visuals": [
+        "R10",
+        "V04"
+      ],
+      "text": "There is no single original Medusa. Each source shows how a different time imagined her. Every story has an origin. Medusa has many.",
+      "cues": [
+        {
+          "id": "M17-01",
+          "text": "There is no single original Medusa.",
+          "spoken_text": "There is no single original Medusa.",
+          "start": 0.0,
+          "end": 2.8392916666666665,
+          "audio_file": "audio/en/sentences/M17-01.wav",
+          "audio_sha256": "cf1a9ac1fe33f1505bc0b8c4cd79707c53fbbcea52a515d10397da2f37d8b415",
+          "replacements": [],
+          "role": "conclusion"
+        },
+        {
+          "id": "M17-02",
+          "text": "Each source shows how a different time imagined her.",
+          "spoken_text": "Each source shows how a different time imagined her.",
+          "start": 3.139291666666667,
+          "end": 6.245958333333333,
+          "audio_file": "audio/en/sentences/M17-02.wav",
+          "audio_sha256": "6a5eecff8c998a324d593d582c7f62972f7075f6f2c96daca49f39fecd7e792a",
+          "replacements": [],
+          "role": "conclusion"
+        },
+        {
+          "id": "M17-03",
+          "text": "Every story has an origin.",
+          "spoken_text": "Every story has an origin.",
+          "start": 6.545958333333333,
+          "end": 8.863291666666667,
+          "audio_file": "audio/en/sentences/M17-03.wav",
+          "audio_sha256": "6c2da6679c1384ead61047c433c860de497ad54a0c80f1683e51d5d8a6ab1257",
+          "replacements": [],
+          "role": "conclusion"
+        },
+        {
+          "id": "M17-04",
+          "text": "Medusa has many.",
+          "spoken_text": "Medusa has many.",
+          "start": 9.163291666666666,
+          "end": 10.925958333333334,
+          "audio_file": "audio/en/sentences/M17-04.wav",
+          "audio_sha256": "2ccc7568ca3460c7eef8aead1f623a07f557a6c1f0113962d9c549b27700b3ac",
+          "replacements": [],
+          "role": "conclusion"
+        }
+      ],
+      "audio_file": "audio/en/M17.wav",
+      "duration_seconds": 10.925958333333334,
+      "native_speed": 0.82
+    },
+    {
+      "id": "M18",
+      "chapter": "C07",
+      "sources": [],
+      "classification": "credits",
+      "visuals": [
+        "credits"
+      ],
+      "text": "This video is based on ancient texts and public museum collections. The narration uses synthetic speech, and some images are AI-generated reconstructions. Sources and terms of use are listed in the description. Thank you for watching.",
+      "cues": [
+        {
+          "id": "M18-01",
+          "text": "This video is based on ancient texts and public museum collections.",
+          "spoken_text": "This video is based on ancient texts and public museum collections.",
+          "start": 0.0,
+          "end": 4.8293333333333335,
+          "audio_file": "audio/en/sentences/M18-01.wav",
+          "audio_sha256": "188015279acb41fe6402334c5a9f2b2def3fe25ef0ef7c5ca2e61be7802c19ee",
+          "replacements": [],
+          "role": "conclusion"
+        },
+        {
+          "id": "M18-02",
+          "text": "The narration uses synthetic speech, and some images are AI-generated reconstructions.",
+          "spoken_text": "The narration uses synthetic speech, and some images are AI-generated reconstructions.",
+          "start": 5.129333333333333,
+          "end": 12.028,
+          "audio_file": "audio/en/sentences/M18-02.wav",
+          "audio_sha256": "4b059ee5d79543624a5014a8c7e789256721b1b7e62355b90138ce34c7592c93",
+          "replacements": [],
+          "role": "conclusion"
+        },
+        {
+          "id": "M18-03",
+          "text": "Sources and terms of use are listed in the description.",
+          "spoken_text": "Sources and terms of use are listed in the description.",
+          "start": 12.328,
+          "end": 16.284,
+          "audio_file": "audio/en/sentences/M18-03.wav",
+          "audio_sha256": "5a3e633ec19d30f63ff5039110561d91abd783a0bc620250e8875ac91b21a7ca",
+          "replacements": [],
+          "role": "conclusion"
+        },
+        {
+          "id": "M18-04",
+          "text": "Thank you for watching.",
+          "spoken_text": "Thank you for watching.",
+          "start": 16.584,
+          "end": 18.356625,
+          "audio_file": "audio/en/sentences/M18-04.wav",
+          "audio_sha256": "d1e79525e47704b7f0e764b4ce03ec22426c4681f385b253dd24cd212986ae26",
+          "replacements": [],
+          "role": "conclusion"
+        }
+      ],
+      "audio_file": "audio/en/M18.wav",
+      "duration_seconds": 18.356625,
+      "native_speed": 0.82
+    }
+  ]
+}

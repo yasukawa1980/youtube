@@ -7,7 +7,7 @@ from dataclasses import asdict
 from pathlib import Path
 import numpy as np
 import soundfile as sf
-from wom01_multilingual_render import read,save,sha,ff,probe,measure,rms
+from wom01_multilingual_render import read,save,sha as _file_sha,ff,probe,measure,rms
 from wom01_subtitles import pages,to_srt
 from wom01_日本語自然さ試聴 import SPEED,INTONATION
 REPO=Path(__file__).resolve().parent.parent
@@ -17,6 +17,7 @@ MODELS=Path('/Users/ryo/Desktop/BGM/_共通/音声モデル')
 BRAND=Path('/Users/ryo/Desktop/新チャンネル/ブランド素材/オープニング_エンドカード_動画試作_v02_20261021/deliverables')
 OP=BRAND/'Quiet_Origins_opening_trial_v02.mp4';END=BRAND/'Quiet_Origins_endcard_trial_v01.mp4'
 SR=24000;FPS=30
+def sha(path):return _file_sha(Path(path))
 PHONEMES={'Hesiod':'hˈiːsiəd','Theogony':'θiˈɑːɡəni','Stheno':'sθˈiːnoʊ','Euryale':'jʊɹˈaɪəli','Chrysaor':'kɹaɪˈseɪɔːɹ','gorgoneia':'ɡɔːɹɡəˈniːə','aulos':'ˈaʊlɑːs','Apollodorus':'əpɑːləˈdɔːɹəs'}
 REPLACEMENTS={'en':{**{k:k for k in PHONEMES},'8 CE':'eight C E'},'ja':{'神統記':'しんとうき'}}
 
@@ -191,7 +192,7 @@ def audio():
    if abs(delta)<.08:break
    gain+=delta
   assert float(q['input_tp'])<=-1
-  out=ROOT/f'deliverables/EP003_audio_{l}.m4a';ff(['-i',mix,'-ar',48000,'-c:a','aac','-b:a','192k',out]);report['languages'][l]=measure(out)
+  out=ROOT/f'deliverables/EP003_audio_{l}.m4a';ff(['-i',mix,'-ar',48000,'-c:a','aac','-b:a','192k','-movie_timescale',48000,out]);report['languages'][l]=measure(out)
   ff(['-i',mix,'-ar',48000,'-af',f'aresample=48000,apad=whole_len={round(duration*48000)},atrim=end_sample={round(duration*48000)}','-c:a','pcm_s24le',ROOT/f'deliverables/EP003_audio_{l}.wav'])
   print('AUDIO',l,report['languages'][l],flush=True)
  save(ROOT/'records/audio_qc.json',report)
