@@ -1,0 +1,283 @@
+{
+  "passed": true,
+  "all_172_cues_two_sizes": 344,
+  "method": "Identical SRTs and FontSize14/26 styles: v01 libass glyph rasters reused byte-for-byte, recomposited against every v02 cue frame. Text bounds compared against actual glyph bounds; imagery is allowed below y700.",
+  "minimum_glyph_top": 850,
+  "checks": [
+    {
+      "segment_id": "H01",
+      "key": "R01",
+      "text_bottom": 48,
+      "subtitle_min_top": 850,
+      "passed": true
+    },
+    {
+      "segment_id": "H01",
+      "key": "A02",
+      "text_bottom": 98,
+      "subtitle_min_top": 850,
+      "passed": true
+    },
+    {
+      "segment_id": "H02",
+      "key": "D_trail_pan",
+      "text_bottom": 657,
+      "subtitle_min_top": 850,
+      "passed": true
+    },
+    {
+      "segment_id": "H02",
+      "key": "D_trail_pan",
+      "text_bottom": 657,
+      "subtitle_min_top": 850,
+      "passed": true
+    },
+    {
+      "segment_id": "H03",
+      "key": "R04",
+      "text_bottom": 48,
+      "subtitle_min_top": 850,
+      "passed": true
+    },
+    {
+      "segment_id": "H03",
+      "key": "D_texts",
+      "text_bottom": 651,
+      "subtitle_min_top": 850,
+      "passed": true
+    },
+    {
+      "segment_id": "H04",
+      "key": "R05",
+      "text_bottom": 48,
+      "subtitle_min_top": 850,
+      "passed": true
+    },
+    {
+      "segment_id": "H04",
+      "key": "R06",
+      "text_bottom": 48,
+      "subtitle_min_top": 850,
+      "passed": true
+    },
+    {
+      "segment_id": "H05",
+      "key": "D_story_record",
+      "text_bottom": 589,
+      "subtitle_min_top": 850,
+      "passed": true
+    },
+    {
+      "segment_id": "H05",
+      "key": "R04_close",
+      "text_bottom": 48,
+      "subtitle_min_top": 850,
+      "passed": true
+    },
+    {
+      "segment_id": "H06",
+      "key": "A05",
+      "text_bottom": 98,
+      "subtitle_min_top": 850,
+      "passed": true
+    },
+    {
+      "segment_id": "H06",
+      "key": "A05_detail",
+      "text_bottom": 98,
+      "subtitle_min_top": 850,
+      "passed": true
+    },
+    {
+      "segment_id": "H07",
+      "key": "A06",
+      "text_bottom": 96,
+      "subtitle_min_top": 850,
+      "passed": true
+    },
+    {
+      "segment_id": "H07",
+      "key": "A06_detail",
+      "text_bottom": 96,
+      "subtitle_min_top": 850,
+      "passed": true
+    },
+    {
+      "segment_id": "H08",
+      "key": "A06",
+      "text_bottom": 96,
+      "subtitle_min_top": 850,
+      "passed": true
+    },
+    {
+      "segment_id": "H08",
+      "key": "D_season",
+      "text_bottom": 671,
+      "subtitle_min_top": 850,
+      "passed": true
+    },
+    {
+      "segment_id": "H09",
+      "key": "A04",
+      "text_bottom": 98,
+      "subtitle_min_top": 850,
+      "passed": true
+    },
+    {
+      "segment_id": "H09",
+      "key": "A03",
+      "text_bottom": 96,
+      "subtitle_min_top": 850,
+      "passed": true
+    },
+    {
+      "segment_id": "H10",
+      "key": "A03",
+      "text_bottom": 96,
+      "subtitle_min_top": 850,
+      "passed": true
+    },
+    {
+      "segment_id": "H10",
+      "key": "A03_detail",
+      "text_bottom": 96,
+      "subtitle_min_top": 850,
+      "passed": true
+    },
+    {
+      "segment_id": "H11",
+      "key": "D_calendar",
+      "text_bottom": 658,
+      "subtitle_min_top": 850,
+      "passed": true
+    },
+    {
+      "segment_id": "H11",
+      "key": "A04_detail",
+      "text_bottom": 98,
+      "subtitle_min_top": 850,
+      "passed": true
+    },
+    {
+      "segment_id": "H12",
+      "key": "A01",
+      "text_bottom": 98,
+      "subtitle_min_top": 850,
+      "passed": true
+    },
+    {
+      "segment_id": "H12",
+      "key": "R03",
+      "text_bottom": 48,
+      "subtitle_min_top": 850,
+      "passed": true
+    },
+    {
+      "segment_id": "H13",
+      "key": "R03",
+      "text_bottom": 48,
+      "subtitle_min_top": 850,
+      "passed": true
+    },
+    {
+      "segment_id": "H13",
+      "key": "A01",
+      "text_bottom": 98,
+      "subtitle_min_top": 850,
+      "passed": true
+    },
+    {
+      "segment_id": "H14",
+      "key": "R02",
+      "text_bottom": 48,
+      "subtitle_min_top": 850,
+      "passed": true
+    },
+    {
+      "segment_id": "H14",
+      "key": "D_jack",
+      "text_bottom": 622,
+      "subtitle_min_top": 850,
+      "passed": true
+    },
+    {
+      "segment_id": "H15",
+      "key": "R02",
+      "text_bottom": 48,
+      "subtitle_min_top": 850,
+      "passed": true
+    },
+    {
+      "segment_id": "H15",
+      "key": "A02",
+      "text_bottom": 98,
+      "subtitle_min_top": 850,
+      "passed": true
+    },
+    {
+      "segment_id": "H16",
+      "key": "A02",
+      "text_bottom": 98,
+      "subtitle_min_top": 850,
+      "passed": true
+    },
+    {
+      "segment_id": "H16",
+      "key": "A07",
+      "text_bottom": 98,
+      "subtitle_min_top": 850,
+      "passed": true
+    },
+    {
+      "segment_id": "H17",
+      "key": "D_layers",
+      "text_bottom": 619,
+      "subtitle_min_top": 850,
+      "passed": true
+    },
+    {
+      "segment_id": "H17",
+      "key": "D_trail",
+      "text_bottom": 659,
+      "subtitle_min_top": 850,
+      "passed": true
+    },
+    {
+      "segment_id": "H18",
+      "key": "D_trail",
+      "text_bottom": 659,
+      "subtitle_min_top": 850,
+      "passed": true
+    },
+    {
+      "segment_id": "H18",
+      "key": "D_layers",
+      "text_bottom": 619,
+      "subtitle_min_top": 850,
+      "passed": true
+    },
+    {
+      "segment_id": "H19",
+      "key": "credits",
+      "text_bottom": 612,
+      "subtitle_min_top": 850,
+      "passed": true
+    }
+  ],
+  "srt_checks": {
+    "en": {
+      "count": 85,
+      "minimum_seconds": 1.6340000000000003,
+      "matches_script": true,
+      "max_lines": 2,
+      "max_line_chars": 42
+    },
+    "ja": {
+      "count": 87,
+      "minimum_seconds": 1.3999999999999986,
+      "matches_script": true,
+      "max_lines": 2,
+      "max_line_chars": 22
+    }
+  }
+}

@@ -1,0 +1,2283 @@
+{
+  "shots": [
+    {
+      "key": "R01",
+      "base_asset": "R01",
+      "source": "",
+      "label": "AI RECONSTRUCTION｜AIによる再現",
+      "texts": [
+        {
+          "text": "QUIET ORIGINS  /  EP002",
+          "bbox": [
+            92,
+            24,
+            431,
+            46
+          ]
+        },
+        {
+          "text": "AI RECONSTRUCTION｜AIによる再現",
+          "bbox": [
+            1332.0,
+            21,
+            1820.0,
+            48
+          ]
+        }
+      ],
+      "art_boxes": [
+        [
+          231,
+          110,
+          1688,
+          930
+        ]
+      ],
+      "crop_normalized": null,
+      "segment_id": "H01",
+      "file": "assets/H01_01_R01.png",
+      "sha256": "b4cc554b06e8dbd6167a9c181c2ee4100e6fb2b79915562f5bc862f9846efcb4",
+      "camera_band": [
+        110,
+        930
+      ]
+    },
+    {
+      "key": "A02",
+      "base_asset": "A02",
+      "source": "NYPL • The witch • United States, ca. 1900–1910 • Image 1587780",
+      "label": "PUBLIC DOMAIN POSTCARD｜パブリックドメインの絵はがき",
+      "texts": [
+        {
+          "text": "QUIET ORIGINS  /  EP002",
+          "bbox": [
+            92,
+            24,
+            431,
+            46
+          ]
+        },
+        {
+          "text": "PUBLIC DOMAIN POSTCARD｜パブリックドメインの絵はがき",
+          "bbox": [
+            1026.0,
+            20,
+            1820.0,
+            48
+          ]
+        },
+        {
+          "text": "NYPL • The witch • United States, ca. 1900–1910 • Image 1587780",
+          "bbox": [
+            92,
+            75,
+            776,
+            98
+          ]
+        }
+      ],
+      "art_boxes": [
+        [
+          698,
+          110,
+          1222,
+          930
+        ]
+      ],
+      "crop_normalized": null,
+      "segment_id": "H01",
+      "file": "assets/H01_02_A02.png",
+      "sha256": "c8504c22ca5f2d060c3f537ef0eaf1a09a5d68e65eed341f6a166a1654007971",
+      "camera_band": [
+        110,
+        930
+      ]
+    },
+    {
+      "key": "D_trail_pan",
+      "base_asset": null,
+      "source": "The Met / Wellcome Collection / Library of Congress / NYPL",
+      "label": "",
+      "texts": [
+        {
+          "text": "1430–1440",
+          "bbox": [
+            394.5,
+            571,
+            565.5,
+            596
+          ]
+        },
+        {
+          "text": "The Met",
+          "bbox": [
+            428.0,
+            630,
+            532.0,
+            651
+          ]
+        },
+        {
+          "text": "1786",
+          "bbox": [
+            1402.0,
+            571,
+            1478.0,
+            596
+          ]
+        },
+        {
+          "text": "Wellcome",
+          "bbox": [
+            1378.5,
+            631,
+            1501.5,
+            651
+          ]
+        },
+        {
+          "text": "1819",
+          "bbox": [
+            2362.0,
+            571,
+            2438.0,
+            596
+          ]
+        },
+        {
+          "text": "Library of Congress",
+          "bbox": [
+            2276.5,
+            631,
+            2523.5,
+            657
+          ]
+        },
+        {
+          "text": "1900–1910",
+          "bbox": [
+            3274.5,
+            571,
+            3445.5,
+            596
+          ]
+        },
+        {
+          "text": "NYPL",
+          "bbox": [
+            3323.0,
+            631,
+            3397.0,
+            651
+          ]
+        }
+      ],
+      "art_boxes": [
+        [
+          308,
+          10,
+          652,
+          440
+        ],
+        [
+          1321,
+          10,
+          1559,
+          440
+        ],
+        [
+          2218,
+          10,
+          2582,
+          440
+        ],
+        [
+          3222,
+          10,
+          3497,
+          440
+        ]
+      ],
+      "crop_normalized": null,
+      "segment_id": "H02",
+      "file": "assets/H02_01_D_trail_pan.png",
+      "sha256": "0771810053d825155799dd8d28b5b46eb743126ca06556333a56a79c662c8794",
+      "wide_pan": true,
+      "strip_canvas": [
+        3840,
+        590
+      ],
+      "pan_phase": 0,
+      "camera_band": [
+        110,
+        700
+      ]
+    },
+    {
+      "key": "D_trail_pan",
+      "base_asset": null,
+      "source": "The Met / Wellcome Collection / Library of Congress / NYPL",
+      "label": "",
+      "texts": [
+        {
+          "text": "1430–1440",
+          "bbox": [
+            394.5,
+            571,
+            565.5,
+            596
+          ]
+        },
+        {
+          "text": "The Met",
+          "bbox": [
+            428.0,
+            630,
+            532.0,
+            651
+          ]
+        },
+        {
+          "text": "1786",
+          "bbox": [
+            1402.0,
+            571,
+            1478.0,
+            596
+          ]
+        },
+        {
+          "text": "Wellcome",
+          "bbox": [
+            1378.5,
+            631,
+            1501.5,
+            651
+          ]
+        },
+        {
+          "text": "1819",
+          "bbox": [
+            2362.0,
+            571,
+            2438.0,
+            596
+          ]
+        },
+        {
+          "text": "Library of Congress",
+          "bbox": [
+            2276.5,
+            631,
+            2523.5,
+            657
+          ]
+        },
+        {
+          "text": "1900–1910",
+          "bbox": [
+            3274.5,
+            571,
+            3445.5,
+            596
+          ]
+        },
+        {
+          "text": "NYPL",
+          "bbox": [
+            3323.0,
+            631,
+            3397.0,
+            651
+          ]
+        }
+      ],
+      "art_boxes": [
+        [
+          308,
+          10,
+          652,
+          440
+        ],
+        [
+          1321,
+          10,
+          1559,
+          440
+        ],
+        [
+          2218,
+          10,
+          2582,
+          440
+        ],
+        [
+          3222,
+          10,
+          3497,
+          440
+        ]
+      ],
+      "crop_normalized": null,
+      "segment_id": "H02",
+      "file": "assets/H02_02_D_trail_pan.png",
+      "sha256": "0771810053d825155799dd8d28b5b46eb743126ca06556333a56a79c662c8794",
+      "wide_pan": true,
+      "strip_canvas": [
+        3840,
+        590
+      ],
+      "pan_phase": 1,
+      "camera_band": [
+        110,
+        700
+      ]
+    },
+    {
+      "key": "R04",
+      "base_asset": "R04",
+      "source": "",
+      "label": "AI RECONSTRUCTION｜AIによる再現",
+      "texts": [
+        {
+          "text": "QUIET ORIGINS  /  EP002",
+          "bbox": [
+            92,
+            24,
+            431,
+            46
+          ]
+        },
+        {
+          "text": "AI RECONSTRUCTION｜AIによる再現",
+          "bbox": [
+            1332.0,
+            21,
+            1820.0,
+            48
+          ]
+        }
+      ],
+      "art_boxes": [
+        [
+          231,
+          110,
+          1688,
+          930
+        ]
+      ],
+      "crop_normalized": null,
+      "segment_id": "H03",
+      "file": "assets/H03_01_R04.png",
+      "sha256": "3037166a281a9a952a500c72217fdc9349ff8e7a58a06fb4d1c22fcaf309c728",
+      "camera_band": [
+        110,
+        930
+      ]
+    },
+    {
+      "key": "D_texts",
+      "base_asset": null,
+      "source": "",
+      "label": "",
+      "texts": [
+        {
+          "text": "QUIET ORIGINS  /  EP002",
+          "bbox": [
+            92,
+            24,
+            431,
+            46
+          ]
+        },
+        {
+          "text": "8th–12th c.｜8〜12世紀",
+          "bbox": [
+            254.0,
+            490,
+            646.0,
+            524
+          ]
+        },
+        {
+          "text": "Samhain",
+          "bbox": [
+            1242.0,
+            404,
+            1398.0,
+            434
+          ]
+        },
+        {
+          "text": "Winter begins｜冬のはじまり",
+          "bbox": [
+            1118.5,
+            619,
+            1521.5,
+            651
+          ]
+        }
+      ],
+      "art_boxes": [],
+      "crop_normalized": null,
+      "segment_id": "H03",
+      "file": "assets/H03_02_D_texts.png",
+      "sha256": "0aa2384cc2d3bbf519fb7691cce176260d936e55396f7d0fc63bd70367108642",
+      "diagram": true,
+      "camera_band": [
+        110,
+        700
+      ]
+    },
+    {
+      "key": "R05",
+      "base_asset": "R05",
+      "source": "",
+      "label": "AI RECONSTRUCTION｜AIによる再現",
+      "texts": [
+        {
+          "text": "QUIET ORIGINS  /  EP002",
+          "bbox": [
+            92,
+            24,
+            431,
+            46
+          ]
+        },
+        {
+          "text": "AI RECONSTRUCTION｜AIによる再現",
+          "bbox": [
+            1332.0,
+            21,
+            1820.0,
+            48
+          ]
+        }
+      ],
+      "art_boxes": [
+        [
+          231,
+          110,
+          1688,
+          930
+        ]
+      ],
+      "crop_normalized": null,
+      "segment_id": "H04",
+      "file": "assets/H04_01_R05.png",
+      "sha256": "8b1601bfcc074cf4f95f433cc8bda187582f33406cf76259052544de75803e20",
+      "camera_band": [
+        110,
+        930
+      ]
+    },
+    {
+      "key": "R06",
+      "base_asset": "R06",
+      "source": "",
+      "label": "AI RECONSTRUCTION｜AIによる再現",
+      "texts": [
+        {
+          "text": "QUIET ORIGINS  /  EP002",
+          "bbox": [
+            92,
+            24,
+            431,
+            46
+          ]
+        },
+        {
+          "text": "AI RECONSTRUCTION｜AIによる再現",
+          "bbox": [
+            1332.0,
+            21,
+            1820.0,
+            48
+          ]
+        }
+      ],
+      "art_boxes": [
+        [
+          231,
+          110,
+          1688,
+          930
+        ]
+      ],
+      "crop_normalized": null,
+      "segment_id": "H04",
+      "file": "assets/H04_02_R06.png",
+      "sha256": "0cae0af0ef5c806dc62ddb332cbb38d3e094b1a2c69e523f22679f14dac3e7b1",
+      "camera_band": [
+        110,
+        930
+      ]
+    },
+    {
+      "key": "D_story_record",
+      "base_asset": null,
+      "source": "",
+      "label": "",
+      "texts": [
+        {
+          "text": "QUIET ORIGINS  /  EP002",
+          "bbox": [
+            92,
+            24,
+            431,
+            46
+          ]
+        },
+        {
+          "text": "Event｜出来事",
+          "bbox": [
+            310.5,
+            550,
+            549.5,
+            584
+          ]
+        },
+        {
+          "text": "Later story｜後世の物語",
+          "bbox": [
+            1229.0,
+            550,
+            1631.0,
+            589
+          ]
+        }
+      ],
+      "art_boxes": [],
+      "crop_normalized": null,
+      "segment_id": "H05",
+      "file": "assets/H05_01_D_story_record.png",
+      "sha256": "b064b4bda637bc16e0181b8197c93ce79cd492169d49d3eae354f8a9a6823ee5",
+      "diagram": true,
+      "camera_band": [
+        110,
+        700
+      ]
+    },
+    {
+      "key": "R04_close",
+      "base_asset": "R04",
+      "source": "",
+      "label": "AI RECONSTRUCTION｜AIによる再現",
+      "texts": [
+        {
+          "text": "QUIET ORIGINS  /  EP002",
+          "bbox": [
+            92,
+            24,
+            431,
+            46
+          ]
+        },
+        {
+          "text": "AI RECONSTRUCTION｜AIによる再現",
+          "bbox": [
+            1332.0,
+            21,
+            1820.0,
+            48
+          ]
+        }
+      ],
+      "art_boxes": [
+        [
+          282,
+          110,
+          1638,
+          930
+        ]
+      ],
+      "crop_normalized": null,
+      "segment_id": "H05",
+      "file": "assets/H05_02_R04_close.png",
+      "sha256": "5ccbb3de97b5777ee9fc117305b2f60b395b0ffbad535ff9a753d690f5ea376f",
+      "camera_band": [
+        110,
+        930
+      ]
+    },
+    {
+      "key": "A05",
+      "base_asset": "A05",
+      "source": "Lugdunum, Lyon • Photo: Ruthven, 2018 • Wikimedia Commons • CC0",
+      "label": "MUSEUM OBJECT｜博物館資料",
+      "texts": [
+        {
+          "text": "QUIET ORIGINS  /  EP002",
+          "bbox": [
+            92,
+            24,
+            431,
+            46
+          ]
+        },
+        {
+          "text": "MUSEUM OBJECT｜博物館資料",
+          "bbox": [
+            1411.0,
+            21,
+            1820.0,
+            48
+          ]
+        },
+        {
+          "text": "Lugdunum, Lyon • Photo: Ruthven, 2018 • Wikimedia Commons • CC0",
+          "bbox": [
+            92,
+            75,
+            814,
+            98
+          ]
+        }
+      ],
+      "art_boxes": [
+        [
+          346,
+          110,
+          1574,
+          930
+        ]
+      ],
+      "crop_normalized": null,
+      "segment_id": "H06",
+      "file": "assets/H06_01_A05.png",
+      "sha256": "4764fcf99f54bea7614f7eb2e11735656b1a732954c163a32d271de8827e2af9",
+      "camera_band": [
+        110,
+        930
+      ]
+    },
+    {
+      "key": "A05_detail",
+      "base_asset": "A05",
+      "source": "Lugdunum, Lyon • Photo: Ruthven, 2018 • Wikimedia Commons • CC0",
+      "label": "MUSEUM OBJECT｜博物館資料",
+      "texts": [
+        {
+          "text": "QUIET ORIGINS  /  EP002",
+          "bbox": [
+            92,
+            24,
+            431,
+            46
+          ]
+        },
+        {
+          "text": "MUSEUM OBJECT｜博物館資料",
+          "bbox": [
+            1411.0,
+            21,
+            1820.0,
+            48
+          ]
+        },
+        {
+          "text": "Lugdunum, Lyon • Photo: Ruthven, 2018 • Wikimedia Commons • CC0",
+          "bbox": [
+            92,
+            75,
+            814,
+            98
+          ]
+        }
+      ],
+      "art_boxes": [
+        [
+          80,
+          233,
+          940,
+          807
+        ],
+        [
+          980,
+          261,
+          1840,
+          778
+        ]
+      ],
+      "crop_normalized": [
+        0.0,
+        0.31,
+        0.4,
+        0.67
+      ],
+      "segment_id": "H06",
+      "file": "assets/H06_02_A05_detail.png",
+      "sha256": "32bd627acaa205e495ac89b53f5793aa51c6bc5a7328cda73c7e16d5a60c70c3",
+      "camera_band": [
+        110,
+        930
+      ]
+    },
+    {
+      "key": "A06",
+      "base_asset": "A06",
+      "source": "Wellcome Collection • Collectanea, Vol. II, 1786 • Public Domain",
+      "label": "PUBLIC DOMAIN BOOK｜パブリックドメインの書籍",
+      "texts": [
+        {
+          "text": "QUIET ORIGINS  /  EP002",
+          "bbox": [
+            92,
+            24,
+            431,
+            46
+          ]
+        },
+        {
+          "text": "PUBLIC DOMAIN BOOK｜パブリックドメインの書籍",
+          "bbox": [
+            1155.0,
+            20,
+            1820.0,
+            48
+          ]
+        },
+        {
+          "text": "Wellcome Collection • Collectanea, Vol. II, 1786 • Public Domain",
+          "bbox": [
+            92,
+            75,
+            747,
+            96
+          ]
+        }
+      ],
+      "art_boxes": [
+        [
+          733,
+          110,
+          1186,
+          930
+        ]
+      ],
+      "crop_normalized": null,
+      "segment_id": "H07",
+      "file": "assets/H07_01_A06.png",
+      "sha256": "bd3899e5f4a7b7a87ae8690552e22eee9c340f5883faa449ea3daa1b4b74512c",
+      "camera_band": [
+        110,
+        930
+      ]
+    },
+    {
+      "key": "A06_detail",
+      "base_asset": "A06",
+      "source": "Wellcome Collection • Collectanea, Vol. II, 1786 • Public Domain",
+      "label": "PUBLIC DOMAIN BOOK｜パブリックドメインの書籍",
+      "texts": [
+        {
+          "text": "QUIET ORIGINS  /  EP002",
+          "bbox": [
+            92,
+            24,
+            431,
+            46
+          ]
+        },
+        {
+          "text": "PUBLIC DOMAIN BOOK｜パブリックドメインの書籍",
+          "bbox": [
+            1155.0,
+            20,
+            1820.0,
+            48
+          ]
+        },
+        {
+          "text": "Wellcome Collection • Collectanea, Vol. II, 1786 • Public Domain",
+          "bbox": [
+            92,
+            75,
+            747,
+            96
+          ]
+        }
+      ],
+      "art_boxes": [
+        [
+          283,
+          110,
+          736,
+          930
+        ],
+        [
+          980,
+          296,
+          1840,
+          743
+        ]
+      ],
+      "crop_normalized": [
+        0.08,
+        0.02,
+        0.95,
+        0.27
+      ],
+      "segment_id": "H07",
+      "file": "assets/H07_02_A06_detail.png",
+      "sha256": "51121dfb3ad107ab8f6745349609eed10d6517f923ac06a2a1b1b0e64aa3c01e",
+      "camera_band": [
+        110,
+        930
+      ]
+    },
+    {
+      "key": "A06",
+      "base_asset": "A06",
+      "source": "Wellcome Collection • Collectanea, Vol. II, 1786 • Public Domain",
+      "label": "PUBLIC DOMAIN BOOK｜パブリックドメインの書籍",
+      "texts": [
+        {
+          "text": "QUIET ORIGINS  /  EP002",
+          "bbox": [
+            92,
+            24,
+            431,
+            46
+          ]
+        },
+        {
+          "text": "PUBLIC DOMAIN BOOK｜パブリックドメインの書籍",
+          "bbox": [
+            1155.0,
+            20,
+            1820.0,
+            48
+          ]
+        },
+        {
+          "text": "Wellcome Collection • Collectanea, Vol. II, 1786 • Public Domain",
+          "bbox": [
+            92,
+            75,
+            747,
+            96
+          ]
+        }
+      ],
+      "art_boxes": [
+        [
+          733,
+          110,
+          1186,
+          930
+        ]
+      ],
+      "crop_normalized": null,
+      "segment_id": "H08",
+      "file": "assets/H08_01_A06.png",
+      "sha256": "bd3899e5f4a7b7a87ae8690552e22eee9c340f5883faa449ea3daa1b4b74512c",
+      "camera_band": [
+        110,
+        930
+      ]
+    },
+    {
+      "key": "D_season",
+      "base_asset": null,
+      "source": "",
+      "label": "",
+      "texts": [
+        {
+          "text": "QUIET ORIGINS  /  EP002",
+          "bbox": [
+            92,
+            24,
+            431,
+            46
+          ]
+        },
+        {
+          "text": "Samhain",
+          "bbox": [
+            882.0,
+            404,
+            1038.0,
+            434
+          ]
+        },
+        {
+          "text": "Winter begins｜冬のはじまり",
+          "bbox": [
+            758.5,
+            639,
+            1161.5,
+            671
+          ]
+        }
+      ],
+      "art_boxes": [],
+      "crop_normalized": null,
+      "segment_id": "H08",
+      "file": "assets/H08_02_D_season.png",
+      "sha256": "4cdcd15179123853dffc38daf565fa68992b90067ff41398c7a3e4628d90498e",
+      "diagram": true,
+      "camera_band": [
+        110,
+        700
+      ]
+    },
+    {
+      "key": "A04",
+      "base_asset": "A04",
+      "source": "The Met • Spanish Painter, ca. 1400 • 39.54 • CC0",
+      "label": "MUSEUM OBJECT｜博物館資料",
+      "texts": [
+        {
+          "text": "QUIET ORIGINS  /  EP002",
+          "bbox": [
+            92,
+            24,
+            431,
+            46
+          ]
+        },
+        {
+          "text": "MUSEUM OBJECT｜博物館資料",
+          "bbox": [
+            1411.0,
+            21,
+            1820.0,
+            48
+          ]
+        },
+        {
+          "text": "The Met • Spanish Painter, ca. 1400 • 39.54 • CC0",
+          "bbox": [
+            92,
+            75,
+            605,
+            98
+          ]
+        }
+      ],
+      "art_boxes": [
+        [
+          588,
+          110,
+          1331,
+          930
+        ]
+      ],
+      "crop_normalized": null,
+      "segment_id": "H09",
+      "file": "assets/H09_01_A04.png",
+      "sha256": "3abc7e76cf546f11849f73776223f02aa737961adaf19a5ba868f671c46a8391",
+      "camera_band": [
+        110,
+        930
+      ]
+    },
+    {
+      "key": "A03",
+      "base_asset": "A03",
+      "source": "The Met • Osservanza Master, ca. 1430–40 • 1975.1.2484 • CC0",
+      "label": "MUSEUM OBJECT｜博物館資料",
+      "texts": [
+        {
+          "text": "QUIET ORIGINS  /  EP002",
+          "bbox": [
+            92,
+            24,
+            431,
+            46
+          ]
+        },
+        {
+          "text": "MUSEUM OBJECT｜博物館資料",
+          "bbox": [
+            1411.0,
+            21,
+            1820.0,
+            48
+          ]
+        },
+        {
+          "text": "The Met • Osservanza Master, ca. 1430–40 • 1975.1.2484 • CC0",
+          "bbox": [
+            92,
+            75,
+            755,
+            96
+          ]
+        }
+      ],
+      "art_boxes": [
+        [
+          632,
+          110,
+          1288,
+          930
+        ]
+      ],
+      "crop_normalized": null,
+      "segment_id": "H09",
+      "file": "assets/H09_02_A03.png",
+      "sha256": "98ea31a168b152c8e11610fc22e76ffa89f1d1a4a05be874f92e45bc0848101c",
+      "camera_band": [
+        110,
+        930
+      ]
+    },
+    {
+      "key": "A03",
+      "base_asset": "A03",
+      "source": "The Met • Osservanza Master, ca. 1430–40 • 1975.1.2484 • CC0",
+      "label": "MUSEUM OBJECT｜博物館資料",
+      "texts": [
+        {
+          "text": "QUIET ORIGINS  /  EP002",
+          "bbox": [
+            92,
+            24,
+            431,
+            46
+          ]
+        },
+        {
+          "text": "MUSEUM OBJECT｜博物館資料",
+          "bbox": [
+            1411.0,
+            21,
+            1820.0,
+            48
+          ]
+        },
+        {
+          "text": "The Met • Osservanza Master, ca. 1430–40 • 1975.1.2484 • CC0",
+          "bbox": [
+            92,
+            75,
+            755,
+            96
+          ]
+        }
+      ],
+      "art_boxes": [
+        [
+          632,
+          110,
+          1288,
+          930
+        ]
+      ],
+      "crop_normalized": null,
+      "segment_id": "H10",
+      "file": "assets/H10_01_A03.png",
+      "sha256": "98ea31a168b152c8e11610fc22e76ffa89f1d1a4a05be874f92e45bc0848101c",
+      "camera_band": [
+        110,
+        930
+      ]
+    },
+    {
+      "key": "A03_detail",
+      "base_asset": "A03",
+      "source": "The Met • Osservanza Master, ca. 1430–40 • 1975.1.2484 • CC0",
+      "label": "MUSEUM OBJECT｜博物館資料",
+      "texts": [
+        {
+          "text": "QUIET ORIGINS  /  EP002",
+          "bbox": [
+            92,
+            24,
+            431,
+            46
+          ]
+        },
+        {
+          "text": "MUSEUM OBJECT｜博物館資料",
+          "bbox": [
+            1411.0,
+            21,
+            1820.0,
+            48
+          ]
+        },
+        {
+          "text": "The Met • Osservanza Master, ca. 1430–40 • 1975.1.2484 • CC0",
+          "bbox": [
+            92,
+            75,
+            755,
+            96
+          ]
+        }
+      ],
+      "art_boxes": [
+        [
+          182,
+          110,
+          838,
+          930
+        ],
+        [
+          1115,
+          110,
+          1705,
+          930
+        ]
+      ],
+      "crop_normalized": [
+        0.28,
+        0.38,
+        0.73,
+        0.88
+      ],
+      "segment_id": "H10",
+      "file": "assets/H10_02_A03_detail.png",
+      "sha256": "9a70050d1dfb0e6092510807e43b144d4429237e24f777adc4f8a7e71756a34a",
+      "camera_band": [
+        110,
+        930
+      ]
+    },
+    {
+      "key": "D_calendar",
+      "base_asset": null,
+      "source": "",
+      "label": "",
+      "texts": [
+        {
+          "text": "QUIET ORIGINS  /  EP002",
+          "bbox": [
+            92,
+            24,
+            431,
+            46
+          ]
+        },
+        {
+          "text": "OCT",
+          "bbox": [
+            511.5,
+            226,
+            608.5,
+            261
+          ]
+        },
+        {
+          "text": "31",
+          "bbox": [
+            491.5,
+            369,
+            628.5,
+            469
+          ]
+        },
+        {
+          "text": "Eve｜前夜",
+          "bbox": [
+            478.5,
+            625,
+            641.5,
+            658
+          ]
+        },
+        {
+          "text": "NOV",
+          "bbox": [
+            1310.0,
+            226,
+            1410.0,
+            261
+          ]
+        },
+        {
+          "text": "1",
+          "bbox": [
+            1330.0,
+            369,
+            1390.0,
+            444
+          ]
+        },
+        {
+          "text": "All Saints｜諸聖人の日",
+          "bbox": [
+            1180.0,
+            625,
+            1540.0,
+            658
+          ]
+        }
+      ],
+      "art_boxes": [],
+      "crop_normalized": null,
+      "segment_id": "H11",
+      "file": "assets/H11_01_D_calendar.png",
+      "sha256": "d081b4cc22aa8353ca3b3478dd4bd825a3cfc96924d33e41e64b37b923859f3e",
+      "diagram": true,
+      "camera_band": [
+        110,
+        700
+      ]
+    },
+    {
+      "key": "A04_detail",
+      "base_asset": "A04",
+      "source": "The Met • Spanish Painter, ca. 1400 • 39.54 • CC0",
+      "label": "MUSEUM OBJECT｜博物館資料",
+      "texts": [
+        {
+          "text": "QUIET ORIGINS  /  EP002",
+          "bbox": [
+            92,
+            24,
+            431,
+            46
+          ]
+        },
+        {
+          "text": "MUSEUM OBJECT｜博物館資料",
+          "bbox": [
+            1411.0,
+            21,
+            1820.0,
+            48
+          ]
+        },
+        {
+          "text": "The Met • Spanish Painter, ca. 1400 • 39.54 • CC0",
+          "bbox": [
+            92,
+            75,
+            605,
+            98
+          ]
+        }
+      ],
+      "art_boxes": [
+        [
+          138,
+          110,
+          881,
+          930
+        ],
+        [
+          1038,
+          110,
+          1781,
+          930
+        ]
+      ],
+      "crop_normalized": [
+        0.26,
+        0.18,
+        0.75,
+        0.67
+      ],
+      "segment_id": "H11",
+      "file": "assets/H11_02_A04_detail.png",
+      "sha256": "4e22576803dd17a753a035beef6d1fa80dc7351e40f121043cdeaef8ee188dc7",
+      "camera_band": [
+        110,
+        930
+      ]
+    },
+    {
+      "key": "A01",
+      "base_asset": "A01",
+      "source": "Library of Congress • William Nicholson, 1819 • LC-DIG-pga-07781",
+      "label": "PUBLIC DOMAIN PRINT｜パブリックドメインの版画",
+      "texts": [
+        {
+          "text": "QUIET ORIGINS  /  EP002",
+          "bbox": [
+            92,
+            24,
+            431,
+            46
+          ]
+        },
+        {
+          "text": "PUBLIC DOMAIN PRINT｜パブリックドメインの版画",
+          "bbox": [
+            1151.0,
+            20,
+            1820.0,
+            48
+          ]
+        },
+        {
+          "text": "Library of Congress • William Nicholson, 1819 • LC-DIG-pga-07781",
+          "bbox": [
+            92,
+            76,
+            782,
+            98
+          ]
+        }
+      ],
+      "art_boxes": [
+        [
+          612,
+          110,
+          1307,
+          930
+        ]
+      ],
+      "crop_normalized": null,
+      "segment_id": "H12",
+      "file": "assets/H12_01_A01.png",
+      "sha256": "4d03ac915eaaa6acfa40f4e9a8431bb94d7e5ab5b82d058b6c229b9e027d87b2",
+      "camera_band": [
+        110,
+        930
+      ]
+    },
+    {
+      "key": "R03",
+      "base_asset": "R03",
+      "source": "",
+      "label": "AI RECONSTRUCTION｜AIによる再現",
+      "texts": [
+        {
+          "text": "QUIET ORIGINS  /  EP002",
+          "bbox": [
+            92,
+            24,
+            431,
+            46
+          ]
+        },
+        {
+          "text": "AI RECONSTRUCTION｜AIによる再現",
+          "bbox": [
+            1332.0,
+            21,
+            1820.0,
+            48
+          ]
+        }
+      ],
+      "art_boxes": [
+        [
+          231,
+          110,
+          1688,
+          930
+        ]
+      ],
+      "crop_normalized": null,
+      "segment_id": "H12",
+      "file": "assets/H12_02_R03.png",
+      "sha256": "c96453ddefdda3e032813f22dc4c23ce9b3df3d978f991ab5c4ee93c2c9f3d43",
+      "camera_band": [
+        110,
+        930
+      ]
+    },
+    {
+      "key": "R03",
+      "base_asset": "R03",
+      "source": "",
+      "label": "AI RECONSTRUCTION｜AIによる再現",
+      "texts": [
+        {
+          "text": "QUIET ORIGINS  /  EP002",
+          "bbox": [
+            92,
+            24,
+            431,
+            46
+          ]
+        },
+        {
+          "text": "AI RECONSTRUCTION｜AIによる再現",
+          "bbox": [
+            1332.0,
+            21,
+            1820.0,
+            48
+          ]
+        }
+      ],
+      "art_boxes": [
+        [
+          231,
+          110,
+          1688,
+          930
+        ]
+      ],
+      "crop_normalized": null,
+      "segment_id": "H13",
+      "file": "assets/H13_01_R03.png",
+      "sha256": "c96453ddefdda3e032813f22dc4c23ce9b3df3d978f991ab5c4ee93c2c9f3d43",
+      "camera_band": [
+        110,
+        930
+      ]
+    },
+    {
+      "key": "A01",
+      "base_asset": "A01",
+      "source": "Library of Congress • William Nicholson, 1819 • LC-DIG-pga-07781",
+      "label": "PUBLIC DOMAIN PRINT｜パブリックドメインの版画",
+      "texts": [
+        {
+          "text": "QUIET ORIGINS  /  EP002",
+          "bbox": [
+            92,
+            24,
+            431,
+            46
+          ]
+        },
+        {
+          "text": "PUBLIC DOMAIN PRINT｜パブリックドメインの版画",
+          "bbox": [
+            1151.0,
+            20,
+            1820.0,
+            48
+          ]
+        },
+        {
+          "text": "Library of Congress • William Nicholson, 1819 • LC-DIG-pga-07781",
+          "bbox": [
+            92,
+            76,
+            782,
+            98
+          ]
+        }
+      ],
+      "art_boxes": [
+        [
+          612,
+          110,
+          1307,
+          930
+        ]
+      ],
+      "crop_normalized": null,
+      "segment_id": "H13",
+      "file": "assets/H13_02_A01.png",
+      "sha256": "4d03ac915eaaa6acfa40f4e9a8431bb94d7e5ab5b82d058b6c229b9e027d87b2",
+      "camera_band": [
+        110,
+        930
+      ]
+    },
+    {
+      "key": "R02",
+      "base_asset": "R02",
+      "source": "",
+      "label": "AI RECONSTRUCTION｜AIによる再現",
+      "texts": [
+        {
+          "text": "QUIET ORIGINS  /  EP002",
+          "bbox": [
+            92,
+            24,
+            431,
+            46
+          ]
+        },
+        {
+          "text": "AI RECONSTRUCTION｜AIによる再現",
+          "bbox": [
+            1332.0,
+            21,
+            1820.0,
+            48
+          ]
+        }
+      ],
+      "art_boxes": [
+        [
+          231,
+          110,
+          1688,
+          930
+        ]
+      ],
+      "crop_normalized": null,
+      "segment_id": "H14",
+      "file": "assets/H14_01_R02.png",
+      "sha256": "1477a6057851b15239c3ffae7bceed7e23b63338c927a2dc41e076f63481bf34",
+      "camera_band": [
+        110,
+        930
+      ]
+    },
+    {
+      "key": "D_jack",
+      "base_asset": null,
+      "source": "",
+      "label": "",
+      "texts": [
+        {
+          "text": "QUIET ORIGINS  /  EP002",
+          "bbox": [
+            92,
+            24,
+            431,
+            46
+          ]
+        },
+        {
+          "text": "1600s",
+          "bbox": [
+            476.5,
+            582,
+            623.5,
+            622
+          ]
+        },
+        {
+          "text": "1800s",
+          "bbox": [
+            1375.5,
+            582,
+            1524.5,
+            622
+          ]
+        }
+      ],
+      "art_boxes": [],
+      "crop_normalized": null,
+      "segment_id": "H14",
+      "file": "assets/H14_02_D_jack.png",
+      "sha256": "2760ab1df516f3059db9d5bc2afdf9cdaabd41cc2f77e8d0f1a30f0b28b30803",
+      "diagram": true,
+      "camera_band": [
+        110,
+        700
+      ]
+    },
+    {
+      "key": "R02",
+      "base_asset": "R02",
+      "source": "",
+      "label": "AI RECONSTRUCTION｜AIによる再現",
+      "texts": [
+        {
+          "text": "QUIET ORIGINS  /  EP002",
+          "bbox": [
+            92,
+            24,
+            431,
+            46
+          ]
+        },
+        {
+          "text": "AI RECONSTRUCTION｜AIによる再現",
+          "bbox": [
+            1332.0,
+            21,
+            1820.0,
+            48
+          ]
+        }
+      ],
+      "art_boxes": [
+        [
+          231,
+          110,
+          1688,
+          930
+        ]
+      ],
+      "crop_normalized": null,
+      "segment_id": "H15",
+      "file": "assets/H15_01_R02.png",
+      "sha256": "1477a6057851b15239c3ffae7bceed7e23b63338c927a2dc41e076f63481bf34",
+      "camera_band": [
+        110,
+        930
+      ]
+    },
+    {
+      "key": "A02",
+      "base_asset": "A02",
+      "source": "NYPL • The witch • United States, ca. 1900–1910 • Image 1587780",
+      "label": "PUBLIC DOMAIN POSTCARD｜パブリックドメインの絵はがき",
+      "texts": [
+        {
+          "text": "QUIET ORIGINS  /  EP002",
+          "bbox": [
+            92,
+            24,
+            431,
+            46
+          ]
+        },
+        {
+          "text": "PUBLIC DOMAIN POSTCARD｜パブリックドメインの絵はがき",
+          "bbox": [
+            1026.0,
+            20,
+            1820.0,
+            48
+          ]
+        },
+        {
+          "text": "NYPL • The witch • United States, ca. 1900–1910 • Image 1587780",
+          "bbox": [
+            92,
+            75,
+            776,
+            98
+          ]
+        }
+      ],
+      "art_boxes": [
+        [
+          698,
+          110,
+          1222,
+          930
+        ]
+      ],
+      "crop_normalized": null,
+      "segment_id": "H15",
+      "file": "assets/H15_02_A02.png",
+      "sha256": "c8504c22ca5f2d060c3f537ef0eaf1a09a5d68e65eed341f6a166a1654007971",
+      "camera_band": [
+        110,
+        930
+      ]
+    },
+    {
+      "key": "A02",
+      "base_asset": "A02",
+      "source": "NYPL • The witch • United States, ca. 1900–1910 • Image 1587780",
+      "label": "PUBLIC DOMAIN POSTCARD｜パブリックドメインの絵はがき",
+      "texts": [
+        {
+          "text": "QUIET ORIGINS  /  EP002",
+          "bbox": [
+            92,
+            24,
+            431,
+            46
+          ]
+        },
+        {
+          "text": "PUBLIC DOMAIN POSTCARD｜パブリックドメインの絵はがき",
+          "bbox": [
+            1026.0,
+            20,
+            1820.0,
+            48
+          ]
+        },
+        {
+          "text": "NYPL • The witch • United States, ca. 1900–1910 • Image 1587780",
+          "bbox": [
+            92,
+            75,
+            776,
+            98
+          ]
+        }
+      ],
+      "art_boxes": [
+        [
+          698,
+          110,
+          1222,
+          930
+        ]
+      ],
+      "crop_normalized": null,
+      "segment_id": "H16",
+      "file": "assets/H16_01_A02.png",
+      "sha256": "c8504c22ca5f2d060c3f537ef0eaf1a09a5d68e65eed341f6a166a1654007971",
+      "camera_band": [
+        110,
+        930
+      ]
+    },
+    {
+      "key": "A07",
+      "base_asset": "A07",
+      "source": "Library of Congress • Dorothea Lange • 1938 • California, USA｜米国カリフォルニア • LC-USF34-018556-D",
+      "label": "ARCHIVAL PHOTOGRAPH｜記録写真",
+      "texts": [
+        {
+          "text": "QUIET ORIGINS  /  EP002",
+          "bbox": [
+            92,
+            24,
+            431,
+            46
+          ]
+        },
+        {
+          "text": "ARCHIVAL PHOTOGRAPH｜記録写真",
+          "bbox": [
+            1335.0,
+            21,
+            1820.0,
+            48
+          ]
+        },
+        {
+          "text": "Library of Congress • Dorothea Lange • 1938 • California, USA｜米国カリフォルニア • LC-USF34-018556-D",
+          "bbox": [
+            92,
+            73,
+            1310,
+            98
+          ]
+        }
+      ],
+      "art_boxes": [
+        [
+          423,
+          110,
+          1497,
+          930
+        ]
+      ],
+      "crop_normalized": null,
+      "segment_id": "H16",
+      "file": "assets/H16_02_A07.png",
+      "sha256": "68f10bbec1c3d62782f35fabc39cb7b55299cbb6579ab2662acfd4a83bc93f86",
+      "camera_band": [
+        110,
+        930
+      ]
+    },
+    {
+      "key": "D_layers",
+      "base_asset": null,
+      "source": "",
+      "label": "",
+      "texts": [
+        {
+          "text": "QUIET ORIGINS  /  EP002",
+          "bbox": [
+            92,
+            24,
+            431,
+            46
+          ]
+        },
+        {
+          "text": "1800s–1900s",
+          "bbox": [
+            911.0,
+            228,
+            1149.0,
+            256
+          ]
+        },
+        {
+          "text": "1700s–1800s",
+          "bbox": [
+            911.0,
+            348,
+            1149.0,
+            376
+          ]
+        },
+        {
+          "text": "800s",
+          "bbox": [
+            987.0,
+            468,
+            1073.0,
+            496
+          ]
+        },
+        {
+          "text": "Season｜季節",
+          "bbox": [
+            901.5,
+            582,
+            1158.5,
+            619
+          ]
+        }
+      ],
+      "art_boxes": [],
+      "crop_normalized": null,
+      "segment_id": "H17",
+      "file": "assets/H17_01_D_layers.png",
+      "sha256": "148de3a9fb520e29f819e07c5ef7d4088ad0656286d1789def2a8c5d1eeb3945",
+      "diagram": true,
+      "camera_band": [
+        110,
+        700
+      ]
+    },
+    {
+      "key": "D_trail",
+      "base_asset": null,
+      "source": "",
+      "label": "",
+      "texts": [
+        {
+          "text": "QUIET ORIGINS  /  EP002",
+          "bbox": [
+            92,
+            24,
+            431,
+            46
+          ]
+        },
+        {
+          "text": "1430–1440",
+          "bbox": [
+            204.0,
+            581,
+            366.0,
+            605
+          ]
+        },
+        {
+          "text": "The Met",
+          "bbox": [
+            238.0,
+            635,
+            333.0,
+            654
+          ]
+        },
+        {
+          "text": "1786",
+          "bbox": [
+            699.0,
+            581,
+            771.0,
+            605
+          ]
+        },
+        {
+          "text": "Wellcome",
+          "bbox": [
+            678.0,
+            635,
+            792.0,
+            654
+          ]
+        },
+        {
+          "text": "1819",
+          "bbox": [
+            1149.0,
+            581,
+            1221.0,
+            605
+          ]
+        },
+        {
+          "text": "Library of Congress",
+          "bbox": [
+            1073.0,
+            635,
+            1297.0,
+            659
+          ]
+        },
+        {
+          "text": "1900–1910",
+          "bbox": [
+            1554.0,
+            581,
+            1716.0,
+            605
+          ]
+        },
+        {
+          "text": "NYPL",
+          "bbox": [
+            1601.5,
+            635,
+            1668.5,
+            654
+          ]
+        }
+      ],
+      "art_boxes": [
+        [
+          141,
+          190,
+          429,
+          550
+        ],
+        [
+          635,
+          190,
+          834,
+          550
+        ],
+        [
+          1032,
+          190,
+          1337,
+          550
+        ],
+        [
+          1520,
+          190,
+          1750,
+          550
+        ]
+      ],
+      "crop_normalized": null,
+      "segment_id": "H17",
+      "file": "assets/H17_02_D_trail.png",
+      "sha256": "39741d907e5eb370d79f88aca65b79f0df913f1b58531298c91a3cf94f46968c",
+      "diagram": true,
+      "camera_band": [
+        110,
+        700
+      ]
+    },
+    {
+      "key": "D_trail",
+      "base_asset": null,
+      "source": "",
+      "label": "",
+      "texts": [
+        {
+          "text": "QUIET ORIGINS  /  EP002",
+          "bbox": [
+            92,
+            24,
+            431,
+            46
+          ]
+        },
+        {
+          "text": "1430–1440",
+          "bbox": [
+            204.0,
+            581,
+            366.0,
+            605
+          ]
+        },
+        {
+          "text": "The Met",
+          "bbox": [
+            238.0,
+            635,
+            333.0,
+            654
+          ]
+        },
+        {
+          "text": "1786",
+          "bbox": [
+            699.0,
+            581,
+            771.0,
+            605
+          ]
+        },
+        {
+          "text": "Wellcome",
+          "bbox": [
+            678.0,
+            635,
+            792.0,
+            654
+          ]
+        },
+        {
+          "text": "1819",
+          "bbox": [
+            1149.0,
+            581,
+            1221.0,
+            605
+          ]
+        },
+        {
+          "text": "Library of Congress",
+          "bbox": [
+            1073.0,
+            635,
+            1297.0,
+            659
+          ]
+        },
+        {
+          "text": "1900–1910",
+          "bbox": [
+            1554.0,
+            581,
+            1716.0,
+            605
+          ]
+        },
+        {
+          "text": "NYPL",
+          "bbox": [
+            1601.5,
+            635,
+            1668.5,
+            654
+          ]
+        }
+      ],
+      "art_boxes": [
+        [
+          141,
+          190,
+          429,
+          550
+        ],
+        [
+          635,
+          190,
+          834,
+          550
+        ],
+        [
+          1032,
+          190,
+          1337,
+          550
+        ],
+        [
+          1520,
+          190,
+          1750,
+          550
+        ]
+      ],
+      "crop_normalized": null,
+      "segment_id": "H18",
+      "file": "assets/H18_01_D_trail.png",
+      "sha256": "39741d907e5eb370d79f88aca65b79f0df913f1b58531298c91a3cf94f46968c",
+      "diagram": true,
+      "camera_band": [
+        110,
+        700
+      ]
+    },
+    {
+      "key": "D_layers",
+      "base_asset": null,
+      "source": "",
+      "label": "",
+      "texts": [
+        {
+          "text": "QUIET ORIGINS  /  EP002",
+          "bbox": [
+            92,
+            24,
+            431,
+            46
+          ]
+        },
+        {
+          "text": "1800s–1900s",
+          "bbox": [
+            911.0,
+            228,
+            1149.0,
+            256
+          ]
+        },
+        {
+          "text": "1700s–1800s",
+          "bbox": [
+            911.0,
+            348,
+            1149.0,
+            376
+          ]
+        },
+        {
+          "text": "800s",
+          "bbox": [
+            987.0,
+            468,
+            1073.0,
+            496
+          ]
+        },
+        {
+          "text": "Season｜季節",
+          "bbox": [
+            901.5,
+            582,
+            1158.5,
+            619
+          ]
+        }
+      ],
+      "art_boxes": [],
+      "crop_normalized": null,
+      "segment_id": "H18",
+      "file": "assets/H18_02_D_layers.png",
+      "sha256": "148de3a9fb520e29f819e07c5ef7d4088ad0656286d1789def2a8c5d1eeb3945",
+      "diagram": true,
+      "camera_band": [
+        110,
+        700
+      ]
+    },
+    {
+      "key": "credits",
+      "base_asset": null,
+      "source": "",
+      "label": "",
+      "texts": [
+        {
+          "text": "QUIET ORIGINS  /  EP002",
+          "bbox": [
+            92,
+            24,
+            431,
+            46
+          ]
+        },
+        {
+          "text": "English",
+          "bbox": [
+            145,
+            206,
+            245,
+            234
+          ]
+        },
+        {
+          "text": "Kokoro / Heart (af_heart)",
+          "bbox": [
+            470,
+            205,
+            784,
+            232
+          ]
+        },
+        {
+          "text": "日本語",
+          "bbox": [
+            145,
+            277,
+            235,
+            307
+          ]
+        },
+        {
+          "text": "VOICEVOX:冥鳴ひまり",
+          "bbox": [
+            470,
+            276,
+            767,
+            303
+          ]
+        },
+        {
+          "text": "Collections",
+          "bbox": [
+            145,
+            358,
+            294,
+            380
+          ]
+        },
+        {
+          "text": "The Met • Library of Congress • NYPL",
+          "bbox": [
+            470,
+            357,
+            947,
+            384
+          ]
+        },
+        {
+          "text": "Collections",
+          "bbox": [
+            145,
+            434,
+            294,
+            456
+          ]
+        },
+        {
+          "text": "Wellcome Collection • Wikimedia Commons / Ruthven (CC0)",
+          "bbox": [
+            470,
+            433,
+            1228,
+            460
+          ]
+        },
+        {
+          "text": "Reconstructions",
+          "bbox": [
+            145,
+            510,
+            362,
+            532
+          ]
+        },
+        {
+          "text": "Music",
+          "bbox": [
+            145,
+            586,
+            224,
+            608
+          ]
+        },
+        {
+          "text": "Original ambient score • Quiet Origins",
+          "bbox": [
+            470,
+            585,
+            944,
+            612
+          ]
+        },
+        {
+          "text": "AI-generated • R01–R06",
+          "bbox": [
+            469,
+            509,
+            781,
+            536
+          ]
+        }
+      ],
+      "art_boxes": [],
+      "crop_normalized": null,
+      "segment_id": "H19",
+      "file": "assets/H19_01_credits.png",
+      "sha256": "25cc96ca4650e1fed47a79d714ccea7bb05f7d4db3bb67b83b19fb6afdd7e84f",
+      "diagram": true,
+      "camera_band": [
+        110,
+        700
+      ]
+    }
+  ],
+  "foreground_max_box": [
+    80,
+    110,
+    1840,
+    930
+  ],
+  "detail_max_boxes": [
+    [
+      80,
+      110,
+      940,
+      930
+    ],
+    [
+      980,
+      110,
+      1840,
+      930
+    ]
+  ],
+  "maximum_image_scale": 1.5,
+  "source_line_below_y": 100
+}

@@ -1,0 +1,452 @@
+{
+  "passed": true,
+  "all_39_actual_shot_centers_visually_inspected": true,
+  "R01_only_H01": true,
+  "R04_R05_R06_all_AI_labelled": true,
+  "A07_label_outside_photo_above_y100": true,
+  "all_cue_overlay_contact_sheets_created": true,
+  "overlay_spot_checks": [
+    "en26 page1",
+    "ja26 page6"
+  ],
+  "all_v01_files_hash_preserved": true,
+  "human_motion_review_pending": true,
+  "foreground_geometry_checks": [
+    {
+      "segment_id": "H01",
+      "key": "R01",
+      "source_dimensions": [
+        1672,
+        941
+      ],
+      "box": [
+        231,
+        110,
+        1688,
+        930
+      ],
+      "maximum_scale_including_zoom": 0.8975557917109458
+    },
+    {
+      "segment_id": "H01",
+      "key": "A02",
+      "source_dimensions": [
+        2154,
+        3369
+      ],
+      "box": [
+        698,
+        110,
+        1222,
+        930
+      ],
+      "maximum_scale_including_zoom": 0.250697536360938
+    },
+    {
+      "segment_id": "H03",
+      "key": "R04",
+      "source_dimensions": [
+        1672,
+        941
+      ],
+      "box": [
+        231,
+        110,
+        1688,
+        930
+      ],
+      "maximum_scale_including_zoom": 0.8975557917109458
+    },
+    {
+      "segment_id": "H04",
+      "key": "R05",
+      "source_dimensions": [
+        1672,
+        941
+      ],
+      "box": [
+        231,
+        110,
+        1688,
+        930
+      ],
+      "maximum_scale_including_zoom": 0.8975557917109458
+    },
+    {
+      "segment_id": "H04",
+      "key": "R06",
+      "source_dimensions": [
+        1672,
+        941
+      ],
+      "box": [
+        231,
+        110,
+        1688,
+        930
+      ],
+      "maximum_scale_including_zoom": 0.8975557917109458
+    },
+    {
+      "segment_id": "H05",
+      "key": "R04_close",
+      "source_dimensions": [
+        1153,
+        697
+      ],
+      "box": [
+        282,
+        110,
+        1638,
+        930
+      ],
+      "maximum_scale_including_zoom": 1.211764705882353
+    },
+    {
+      "segment_id": "H06",
+      "key": "A05",
+      "source_dimensions": [
+        6016,
+        4016
+      ],
+      "box": [
+        346,
+        110,
+        1574,
+        930
+      ],
+      "maximum_scale_including_zoom": 0.21030876494023906
+    },
+    {
+      "segment_id": "H06",
+      "key": "A05_detail",
+      "source_dimensions": [
+        6016,
+        4016
+      ],
+      "box": [
+        80,
+        233,
+        940,
+        807
+      ],
+      "maximum_scale_including_zoom": 0.1472406914893617
+    },
+    {
+      "segment_id": "H06",
+      "key": "A05_detail",
+      "source_dimensions": [
+        2406,
+        1446
+      ],
+      "box": [
+        980,
+        261,
+        1840,
+        778
+      ],
+      "maximum_scale_including_zoom": 0.36826417704011066
+    },
+    {
+      "segment_id": "H07",
+      "key": "A06",
+      "source_dimensions": [
+        1338,
+        2420
+      ],
+      "box": [
+        733,
+        110,
+        1186,
+        930
+      ],
+      "maximum_scale_including_zoom": 0.3490082644628099
+    },
+    {
+      "segment_id": "H07",
+      "key": "A06_detail",
+      "source_dimensions": [
+        1338,
+        2420
+      ],
+      "box": [
+        283,
+        110,
+        736,
+        930
+      ],
+      "maximum_scale_including_zoom": 0.3490082644628099
+    },
+    {
+      "segment_id": "H07",
+      "key": "A06_detail",
+      "source_dimensions": [
+        1164,
+        605
+      ],
+      "box": [
+        980,
+        296,
+        1840,
+        743
+      ],
+      "maximum_scale_including_zoom": 0.7610082644628099
+    },
+    {
+      "segment_id": "H08",
+      "key": "A06",
+      "source_dimensions": [
+        1338,
+        2420
+      ],
+      "box": [
+        733,
+        110,
+        1186,
+        930
+      ],
+      "maximum_scale_including_zoom": 0.3490082644628099
+    },
+    {
+      "segment_id": "H09",
+      "key": "A04",
+      "source_dimensions": [
+        3490,
+        3852
+      ],
+      "box": [
+        588,
+        110,
+        1331,
+        930
+      ],
+      "maximum_scale_including_zoom": 0.21928080229226363
+    },
+    {
+      "segment_id": "H09",
+      "key": "A03",
+      "source_dimensions": [
+        2978,
+        3722
+      ],
+      "box": [
+        632,
+        110,
+        1288,
+        930
+      ],
+      "maximum_scale_including_zoom": 0.22692101020956473
+    },
+    {
+      "segment_id": "H10",
+      "key": "A03",
+      "source_dimensions": [
+        2978,
+        3722
+      ],
+      "box": [
+        632,
+        110,
+        1288,
+        930
+      ],
+      "maximum_scale_including_zoom": 0.22692101020956473
+    },
+    {
+      "segment_id": "H10",
+      "key": "A03_detail",
+      "source_dimensions": [
+        2978,
+        3722
+      ],
+      "box": [
+        182,
+        110,
+        838,
+        930
+      ],
+      "maximum_scale_including_zoom": 0.22692101020956473
+    },
+    {
+      "segment_id": "H10",
+      "key": "A03_detail",
+      "source_dimensions": [
+        1340,
+        1861
+      ],
+      "box": [
+        1115,
+        110,
+        1705,
+        930
+      ],
+      "maximum_scale_including_zoom": 0.45384202041912947
+    },
+    {
+      "segment_id": "H11",
+      "key": "A04_detail",
+      "source_dimensions": [
+        3490,
+        3852
+      ],
+      "box": [
+        138,
+        110,
+        881,
+        930
+      ],
+      "maximum_scale_including_zoom": 0.21928080229226363
+    },
+    {
+      "segment_id": "H11",
+      "key": "A04_detail",
+      "source_dimensions": [
+        1711,
+        1888
+      ],
+      "box": [
+        1038,
+        110,
+        1781,
+        930
+      ],
+      "maximum_scale_including_zoom": 0.4473516949152543
+    },
+    {
+      "segment_id": "H12",
+      "key": "A01",
+      "source_dimensions": [
+        7740,
+        9136
+      ],
+      "box": [
+        612,
+        110,
+        1307,
+        930
+      ],
+      "maximum_scale_including_zoom": 0.09248708010335917
+    },
+    {
+      "segment_id": "H12",
+      "key": "R03",
+      "source_dimensions": [
+        1672,
+        941
+      ],
+      "box": [
+        231,
+        110,
+        1688,
+        930
+      ],
+      "maximum_scale_including_zoom": 0.8975557917109458
+    },
+    {
+      "segment_id": "H13",
+      "key": "R03",
+      "source_dimensions": [
+        1672,
+        941
+      ],
+      "box": [
+        231,
+        110,
+        1688,
+        930
+      ],
+      "maximum_scale_including_zoom": 0.8975557917109458
+    },
+    {
+      "segment_id": "H13",
+      "key": "A01",
+      "source_dimensions": [
+        7740,
+        9136
+      ],
+      "box": [
+        612,
+        110,
+        1307,
+        930
+      ],
+      "maximum_scale_including_zoom": 0.09248708010335917
+    },
+    {
+      "segment_id": "H14",
+      "key": "R02",
+      "source_dimensions": [
+        1672,
+        941
+      ],
+      "box": [
+        231,
+        110,
+        1688,
+        930
+      ],
+      "maximum_scale_including_zoom": 0.8975557917109458
+    },
+    {
+      "segment_id": "H15",
+      "key": "R02",
+      "source_dimensions": [
+        1672,
+        941
+      ],
+      "box": [
+        231,
+        110,
+        1688,
+        930
+      ],
+      "maximum_scale_including_zoom": 0.8975557917109458
+    },
+    {
+      "segment_id": "H15",
+      "key": "A02",
+      "source_dimensions": [
+        2154,
+        3369
+      ],
+      "box": [
+        698,
+        110,
+        1222,
+        930
+      ],
+      "maximum_scale_including_zoom": 0.250697536360938
+    },
+    {
+      "segment_id": "H16",
+      "key": "A02",
+      "source_dimensions": [
+        2154,
+        3369
+      ],
+      "box": [
+        698,
+        110,
+        1222,
+        930
+      ],
+      "maximum_scale_including_zoom": 0.250697536360938
+    },
+    {
+      "segment_id": "H16",
+      "key": "A07",
+      "source_dimensions": [
+        13641,
+        10413
+      ],
+      "box": [
+        423,
+        110,
+        1497,
+        930
+      ],
+      "maximum_scale_including_zoom": 0.08111015077307213
+    }
+  ],
+  "maximum_source_scale_including_zoom": 1.211764705882353
+}
