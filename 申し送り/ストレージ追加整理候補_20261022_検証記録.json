@@ -1,0 +1,385 @@
+{
+  "time_JST": "2026-10-22T10:22:50.264110+09:00",
+  "groups": [
+    {
+      "id": "D01",
+      "title": "IRO19 原本動画を展開した配列6本",
+      "files": [
+        {
+          "path": "/Volumes/ESD-02/IRO/IRO19_素材_焚き火2時間/_映像作業/A.npy",
+          "bytes": 1194393728,
+          "mtime_ns": 1792576071105533446,
+          "modified_JST": "2026-10-21T18:47:51.105533+09:00"
+        },
+        {
+          "path": "/Volumes/ESD-02/IRO/IRO19_素材_焚き火2時間/_映像作業/B.npy",
+          "bytes": 1194393728,
+          "mtime_ns": 1792576075830781407,
+          "modified_JST": "2026-10-21T18:47:55.830781+09:00"
+        },
+        {
+          "path": "/Volumes/ESD-02/IRO/IRO19_素材_焚き火2時間/_映像作業/B1.npy",
+          "bytes": 1194393728,
+          "mtime_ns": 1792576062542272994,
+          "modified_JST": "2026-10-21T18:47:42.542273+09:00"
+        },
+        {
+          "path": "/Volumes/ESD-02/IRO/IRO19_素材_焚き火2時間/_映像作業/B2.npy",
+          "bytes": 1194393728,
+          "mtime_ns": 1792576066515328693,
+          "modified_JST": "2026-10-21T18:47:46.515329+09:00"
+        },
+        {
+          "path": "/Volumes/ESD-02/IRO/IRO19_素材_焚き火2時間/_映像作業/C.npy",
+          "bytes": 1194393728,
+          "mtime_ns": 1792576079787275905,
+          "modified_JST": "2026-10-21T18:47:59.787276+09:00"
+        },
+        {
+          "path": "/Volumes/ESD-02/IRO/IRO19_素材_焚き火2時間/_映像作業/D.npy",
+          "bytes": 1194393728,
+          "mtime_ns": 1792576084373588058,
+          "modified_JST": "2026-10-21T18:48:04.373588+09:00"
+        }
+      ],
+      "bytes": 7166362368,
+      "retained": [
+        "/Volumes/ESD-02/IRO/IRO19_素材_焚き火2時間/Kling素材/A.mp4",
+        "/Volumes/ESD-02/IRO/IRO19_素材_焚き火2時間/Kling素材/B.mp4",
+        "/Volumes/ESD-02/IRO/IRO19_素材_焚き火2時間/Kling素材/B1.mp4",
+        "/Volumes/ESD-02/IRO/IRO19_素材_焚き火2時間/Kling素材/B2.mp4",
+        "/Volumes/ESD-02/IRO/IRO19_素材_焚き火2時間/Kling素材/C.mp4",
+        "/Volumes/ESD-02/IRO/IRO19_素材_焚き火2時間/Kling素材/D.mp4",
+        "/Volumes/ESD-02/IRO/IRO19_素材_焚き火2時間/投稿用/iro19_炎をながめて夜がふける_扉入り.mp4"
+      ],
+      "code": "bgm/IRO/IRO19_炎をながめて夜がふける/映像を組む.py",
+      "reason": "clip()は.npyがなければ同名のKling原本.mp4から192フレームを読み直して自動生成する。原本6本と現在の完成動画をffprobeで確認。",
+      "redo": "cache工程で再生成。追加のKling生成は不要。時間未測定。",
+      "disk": "ESD-02"
+    },
+    {
+      "id": "D02",
+      "title": "IRO18 試作3の展開配列1本",
+      "files": [
+        {
+          "path": "/Volumes/ESD-02/BGM/IRO/Chill/18_毛糸の季節がやってきた/完成v3_20261019/_work/raw_take3.npy",
+          "bytes": 1194393728,
+          "mtime_ns": 1792369085372707328,
+          "modified_JST": "2026-10-19T09:18:05.372707+09:00"
+        }
+      ],
+      "bytes": 1194393728,
+      "retained": [
+        "/Volumes/ESD-02/BGM/IRO/Chill/18_毛糸の季節がやってきた/手直し_20261018/試作3_20261019/Kling_編み物試作3_原本.mp4",
+        "/Volumes/ESD-02/BGM/IRO/Chill/18_毛糸の季節がやってきた/完成v3_20261019/投稿用/iro18_毛糸の季節がやってきた_扉入り.mp4"
+      ],
+      "code": "iro/iro18_試作3で仕上げる_20261019.py",
+      "reason": "cached()は欠けたraw_take3.npyをRAW3原本から自動生成する。犬のdog_*.npyは含めない。",
+      "redo": "元動画8秒分の配列展開で再生成。追加のKling生成は不要。時間未測定。",
+      "disk": "ESD-02"
+    },
+    {
+      "id": "D03",
+      "title": "SOJ09 連結前の分割映像",
+      "files": [
+        {
+          "path": "/Users/ryo/youtube/bgm/SOJ09_制作/映像_本編/_parts/01_body_1115.mp4",
+          "bytes": 1205477986,
+          "mtime_ns": 1792394659032162573,
+          "modified_JST": "2026-10-19T16:24:19.032163+09:00"
+        },
+        {
+          "path": "/Users/ryo/youtube/bgm/SOJ09_制作/映像_本編/_parts/02_xfade_15.mp4",
+          "bytes": 16492263,
+          "mtime_ns": 1792394665344982401,
+          "modified_JST": "2026-10-19T16:24:25.344982+09:00"
+        },
+        {
+          "path": "/Users/ryo/youtube/bgm/SOJ09_制作/映像_本編/_parts/03_body_1095.mp4",
+          "bytes": 743622229,
+          "mtime_ns": 1792394666772607662,
+          "modified_JST": "2026-10-19T16:24:26.772608+09:00"
+        },
+        {
+          "path": "/Users/ryo/youtube/bgm/SOJ09_制作/映像_本編/_parts/04_xfade_15.mp4",
+          "bytes": 11283663,
+          "mtime_ns": 1792394673042087505,
+          "modified_JST": "2026-10-19T16:24:33.042088+09:00"
+        },
+        {
+          "path": "/Users/ryo/youtube/bgm/SOJ09_制作/映像_本編/_parts/05_body_530.mp4",
+          "bytes": 263133806,
+          "mtime_ns": 1792394673509147559,
+          "modified_JST": "2026-10-19T16:24:33.509148+09:00"
+        },
+        {
+          "path": "/Users/ryo/youtube/bgm/SOJ09_制作/映像_本編/_parts/06_xfade_15.mp4",
+          "bytes": 10402792,
+          "mtime_ns": 1792394679792356968,
+          "modified_JST": "2026-10-19T16:24:39.792357+09:00"
+        },
+        {
+          "path": "/Users/ryo/youtube/bgm/SOJ09_制作/映像_本編/_parts/07_body_801.mp4",
+          "bytes": 506642551,
+          "mtime_ns": 1792394681070143313,
+          "modified_JST": "2026-10-19T16:24:41.070143+09:00"
+        },
+        {
+          "path": "/Users/ryo/youtube/bgm/SOJ09_制作/映像_本編/_parts/08_card_xfade_2.mp4",
+          "bytes": 2106712,
+          "mtime_ns": 1792394682061576600,
+          "modified_JST": "2026-10-19T16:24:42.061577+09:00"
+        },
+        {
+          "path": "/Users/ryo/youtube/bgm/SOJ09_制作/映像_本編/_parts/09_card_body_20.mp4",
+          "bytes": 1630141,
+          "mtime_ns": 1792394682230107481,
+          "modified_JST": "2026-10-19T16:24:42.230108+09:00"
+        }
+      ],
+      "bytes": 2760792143,
+      "retained": [
+        "/Users/ryo/youtube/bgm/SOJ09_制作/映像_本編/SOJ09_晩秋の浜辺_3608秒_無音.mp4"
+      ],
+      "code": "bgm/SOJ09_制作/映像_本編/build_full_video.py",
+      "reason": "全長3608秒の無音本編を別ファイルで保持。_partsは映像生成スクリプトの中間出力。音源・完成本編・画像・マスク・設定は対象外。",
+      "redo": "再レンダーで作成可。長尺のため計算時間が必要（未測定）。",
+      "disk": "内蔵"
+    },
+    {
+      "id": "D04",
+      "title": "SOJ08 連結前の分割映像",
+      "files": [
+        {
+          "path": "/Volumes/ESD-02/_内蔵_youtube_bgm/SOJ08_制作/映像_本編/_parts/01_body_1205.mp4",
+          "bytes": 1124173750,
+          "mtime_ns": 1790740325475613327,
+          "modified_JST": "2026-09-30T12:52:05.475613+09:00"
+        },
+        {
+          "path": "/Volumes/ESD-02/_内蔵_youtube_bgm/SOJ08_制作/映像_本編/_parts/03_body_730.mp4",
+          "bytes": 804673573,
+          "mtime_ns": 1790740331056219990,
+          "modified_JST": "2026-09-30T12:52:11.056220+09:00"
+        },
+        {
+          "path": "/Volumes/ESD-02/_内蔵_youtube_bgm/SOJ08_制作/映像_本編/_parts/05_body_828.mp4",
+          "bytes": 577644056,
+          "mtime_ns": 1790740336776530472,
+          "modified_JST": "2026-09-30T12:52:16.776531+09:00"
+        },
+        {
+          "path": "/Volumes/ESD-02/_内蔵_youtube_bgm/SOJ08_制作/映像_本編/_parts/07_body_778.mp4",
+          "bytes": 476220165,
+          "mtime_ns": 1790740341891667441,
+          "modified_JST": "2026-09-30T12:52:21.891667+09:00"
+        }
+      ],
+      "bytes": 2982711544,
+      "retained": [
+        "/Volumes/ESD-02/_内蔵_youtube_bgm/SOJ08_制作/映像_本編/SOJ08_紅葉の渓流_3608秒_無音.mp4",
+        "/Volumes/ESD-02/_内蔵_youtube_bgm/SOJ08_制作/完成/SOJ08_紅葉の渓流_完成版_v02.mp4"
+      ],
+      "code": "bgm/SOJ08_制作/映像_本編/build_full_video.py",
+      "reason": "全長3608秒の無音本編と完成版v02の実在・読取を確認。分割された生成映像だけを対象にする。",
+      "redo": "再レンダーで作成可。長尺のため計算時間が必要（未測定）。",
+      "disk": "ESD-02"
+    }
+  ],
+  "retained_ffprobe": {
+    "/Volumes/ESD-02/IRO/IRO19_素材_焚き火2時間/Kling素材/A.mp4": {
+      "programs": [],
+      "stream_groups": [],
+      "streams": [
+        {
+          "codec_type": "video",
+          "width": 1920,
+          "height": 1080,
+          "nb_frames": "193"
+        }
+      ],
+      "format": {
+        "duration": "8.041667"
+      }
+    },
+    "/Volumes/ESD-02/IRO/IRO19_素材_焚き火2時間/Kling素材/B.mp4": {
+      "programs": [],
+      "stream_groups": [],
+      "streams": [
+        {
+          "codec_type": "video",
+          "width": 1920,
+          "height": 1080,
+          "nb_frames": "193"
+        }
+      ],
+      "format": {
+        "duration": "8.041667"
+      }
+    },
+    "/Volumes/ESD-02/IRO/IRO19_素材_焚き火2時間/Kling素材/B1.mp4": {
+      "programs": [],
+      "stream_groups": [],
+      "streams": [
+        {
+          "codec_type": "video",
+          "width": 1920,
+          "height": 1080,
+          "nb_frames": "193"
+        }
+      ],
+      "format": {
+        "duration": "8.041667"
+      }
+    },
+    "/Volumes/ESD-02/IRO/IRO19_素材_焚き火2時間/Kling素材/B2.mp4": {
+      "programs": [],
+      "stream_groups": [],
+      "streams": [
+        {
+          "codec_type": "video",
+          "width": 1920,
+          "height": 1080,
+          "nb_frames": "193"
+        }
+      ],
+      "format": {
+        "duration": "8.041667"
+      }
+    },
+    "/Volumes/ESD-02/IRO/IRO19_素材_焚き火2時間/Kling素材/C.mp4": {
+      "programs": [],
+      "stream_groups": [],
+      "streams": [
+        {
+          "codec_type": "video",
+          "width": 1920,
+          "height": 1080,
+          "nb_frames": "193"
+        }
+      ],
+      "format": {
+        "duration": "8.041667"
+      }
+    },
+    "/Volumes/ESD-02/IRO/IRO19_素材_焚き火2時間/Kling素材/D.mp4": {
+      "programs": [],
+      "stream_groups": [],
+      "streams": [
+        {
+          "codec_type": "video",
+          "width": 1920,
+          "height": 1080,
+          "nb_frames": "193"
+        }
+      ],
+      "format": {
+        "duration": "8.041667"
+      }
+    },
+    "/Volumes/ESD-02/IRO/IRO19_素材_焚き火2時間/投稿用/iro19_炎をながめて夜がふける_扉入り.mp4": {
+      "programs": [],
+      "stream_groups": [],
+      "streams": [
+        {
+          "codec_type": "video",
+          "width": 1920,
+          "height": 1080,
+          "nb_frames": "173223"
+        },
+        {
+          "codec_type": "audio",
+          "nb_frames": "338330"
+        }
+      ],
+      "format": {
+        "duration": "7217.643000"
+      }
+    },
+    "/Volumes/ESD-02/BGM/IRO/Chill/18_毛糸の季節がやってきた/手直し_20261018/試作3_20261019/Kling_編み物試作3_原本.mp4": {
+      "programs": [],
+      "stream_groups": [],
+      "streams": [
+        {
+          "codec_type": "video",
+          "width": 1920,
+          "height": 1080,
+          "nb_frames": "193"
+        }
+      ],
+      "format": {
+        "duration": "8.041667"
+      }
+    },
+    "/Volumes/ESD-02/BGM/IRO/Chill/18_毛糸の季節がやってきた/完成v3_20261019/投稿用/iro18_毛糸の季節がやってきた_扉入り.mp4": {
+      "programs": [],
+      "stream_groups": [],
+      "streams": [
+        {
+          "codec_type": "video",
+          "width": 1920,
+          "height": 1080,
+          "nb_frames": "173223"
+        },
+        {
+          "codec_type": "audio",
+          "nb_frames": "338330"
+        }
+      ],
+      "format": {
+        "duration": "7217.643000"
+      }
+    },
+    "/Users/ryo/youtube/bgm/SOJ09_制作/映像_本編/SOJ09_晩秋の浜辺_3608秒_無音.mp4": {
+      "programs": [],
+      "stream_groups": [],
+      "streams": [
+        {
+          "codec_type": "video",
+          "width": 1920,
+          "height": 1080,
+          "nb_frames": "108240"
+        }
+      ],
+      "format": {
+        "duration": "3608.000000"
+      }
+    },
+    "/Volumes/ESD-02/_内蔵_youtube_bgm/SOJ08_制作/映像_本編/SOJ08_紅葉の渓流_3608秒_無音.mp4": {
+      "programs": [],
+      "stream_groups": [],
+      "streams": [
+        {
+          "codec_type": "video",
+          "width": 1920,
+          "height": 1080,
+          "nb_frames": "108240"
+        }
+      ],
+      "format": {
+        "duration": "3608.000000"
+      }
+    },
+    "/Volumes/ESD-02/_内蔵_youtube_bgm/SOJ08_制作/完成/SOJ08_紅葉の渓流_完成版_v02.mp4": {
+      "programs": [],
+      "stream_groups": [],
+      "streams": [
+        {
+          "codec_type": "video",
+          "width": 1920,
+          "height": 1080,
+          "nb_frames": "108240"
+        },
+        {
+          "codec_type": "audio",
+          "nb_frames": "169126"
+        }
+      ],
+      "format": {
+        "duration": "3608.000000"
+      }
+    }
+  },
+  "df": "Filesystem   1024-blocks      Used Available Capacity iused     ifree %iused  Mounted on\n/dev/disk3s5   239362496 189147132  21356644    90%  573025 213566440    0%   /System/Volumes/Data\n/dev/disk5s1   976557744 899835428  76520024    93%   57860 765200240    0%   /Volumes/ESD-02\n",
+  "deletion_executed": false
+}
