@@ -1,0 +1,329 @@
+{
+  "passed": true,
+  "visual_manifest_sha256": "f929510265adde1debf197e4350387a931d81cef2bc79490715c62e3340c9f49",
+  "all_172_cues_two_sizes": 344,
+  "method": "Identical SRTs and FontSize14/26 styles: v02 libass glyph rasters reused byte-for-byte, recomposited against every v03 cue frame. Text bounds compared against actual glyph bounds; imagery is allowed below y700.",
+  "minimum_glyph_top": 850,
+  "checks": [
+    {
+      "segment_id": "H01",
+      "key": "R01",
+      "text_bottom": 48,
+      "maximum_animated_text_bottom": 48,
+      "subtitle_min_top": 850,
+      "passed": true
+    },
+    {
+      "segment_id": "H01",
+      "key": "A02",
+      "text_bottom": 98,
+      "maximum_animated_text_bottom": 98,
+      "subtitle_min_top": 850,
+      "passed": true
+    },
+    {
+      "segment_id": "H02",
+      "key": "N01",
+      "text_bottom": 48,
+      "maximum_animated_text_bottom": 48,
+      "subtitle_min_top": 850,
+      "passed": true
+    },
+    {
+      "segment_id": "H02",
+      "key": "N02",
+      "text_bottom": 48,
+      "maximum_animated_text_bottom": 48,
+      "subtitle_min_top": 850,
+      "passed": true
+    },
+    {
+      "segment_id": "H03",
+      "key": "R04",
+      "text_bottom": 48,
+      "maximum_animated_text_bottom": 48,
+      "subtitle_min_top": 850,
+      "passed": true
+    },
+    {
+      "segment_id": "H03",
+      "key": "D_texts",
+      "text_bottom": 651,
+      "maximum_animated_text_bottom": 658.38,
+      "subtitle_min_top": 850,
+      "passed": true
+    },
+    {
+      "segment_id": "H04",
+      "key": "R05",
+      "text_bottom": 48,
+      "maximum_animated_text_bottom": 48,
+      "subtitle_min_top": 850,
+      "passed": true
+    },
+    {
+      "segment_id": "H04",
+      "key": "R06",
+      "text_bottom": 48,
+      "maximum_animated_text_bottom": 48,
+      "subtitle_min_top": 850,
+      "passed": true
+    },
+    {
+      "segment_id": "H05",
+      "key": "D_story_record",
+      "text_bottom": 589,
+      "maximum_animated_text_bottom": 594.52,
+      "subtitle_min_top": 850,
+      "passed": true
+    },
+    {
+      "segment_id": "H05",
+      "key": "N03",
+      "text_bottom": 48,
+      "maximum_animated_text_bottom": 48,
+      "subtitle_min_top": 850,
+      "passed": true
+    },
+    {
+      "segment_id": "H06",
+      "key": "A05_detail",
+      "text_bottom": 98,
+      "maximum_animated_text_bottom": 98,
+      "subtitle_min_top": 850,
+      "passed": true
+    },
+    {
+      "segment_id": "H06",
+      "key": "N04",
+      "text_bottom": 98,
+      "maximum_animated_text_bottom": 98,
+      "subtitle_min_top": 850,
+      "passed": true
+    },
+    {
+      "segment_id": "H07",
+      "key": "A06_detail",
+      "text_bottom": 96,
+      "maximum_animated_text_bottom": 96,
+      "subtitle_min_top": 850,
+      "passed": true
+    },
+    {
+      "segment_id": "H07",
+      "key": "N05",
+      "text_bottom": 48,
+      "maximum_animated_text_bottom": 48,
+      "subtitle_min_top": 850,
+      "passed": true
+    },
+    {
+      "segment_id": "H08",
+      "key": "N06",
+      "text_bottom": 48,
+      "maximum_animated_text_bottom": 48,
+      "subtitle_min_top": 850,
+      "passed": true
+    },
+    {
+      "segment_id": "H08",
+      "key": "D_season",
+      "text_bottom": 671,
+      "maximum_animated_text_bottom": 678.98,
+      "subtitle_min_top": 850,
+      "passed": true
+    },
+    {
+      "segment_id": "H09",
+      "key": "A04_detail",
+      "text_bottom": 98,
+      "maximum_animated_text_bottom": 98,
+      "subtitle_min_top": 850,
+      "passed": true
+    },
+    {
+      "segment_id": "H09",
+      "key": "N07",
+      "text_bottom": 98,
+      "maximum_animated_text_bottom": 98,
+      "subtitle_min_top": 850,
+      "passed": true
+    },
+    {
+      "segment_id": "H10",
+      "key": "A03_detail",
+      "text_bottom": 96,
+      "maximum_animated_text_bottom": 96,
+      "subtitle_min_top": 850,
+      "passed": true
+    },
+    {
+      "segment_id": "H10",
+      "key": "N08",
+      "text_bottom": 48,
+      "maximum_animated_text_bottom": 48,
+      "subtitle_min_top": 850,
+      "passed": true
+    },
+    {
+      "segment_id": "H11",
+      "key": "D_calendar",
+      "text_bottom": 658,
+      "maximum_animated_text_bottom": 665.59,
+      "subtitle_min_top": 850,
+      "passed": true
+    },
+    {
+      "segment_id": "H11",
+      "key": "N09",
+      "text_bottom": 48,
+      "maximum_animated_text_bottom": 48,
+      "subtitle_min_top": 850,
+      "passed": true
+    },
+    {
+      "segment_id": "H12",
+      "key": "A01",
+      "text_bottom": 98,
+      "maximum_animated_text_bottom": 98,
+      "subtitle_min_top": 850,
+      "passed": true
+    },
+    {
+      "segment_id": "H12",
+      "key": "R03",
+      "text_bottom": 48,
+      "maximum_animated_text_bottom": 48,
+      "subtitle_min_top": 850,
+      "passed": true
+    },
+    {
+      "segment_id": "H13",
+      "key": "N10",
+      "text_bottom": 48,
+      "maximum_animated_text_bottom": 48,
+      "subtitle_min_top": 850,
+      "passed": true
+    },
+    {
+      "segment_id": "H13",
+      "key": "N11",
+      "text_bottom": 48,
+      "maximum_animated_text_bottom": 48,
+      "subtitle_min_top": 850,
+      "passed": true
+    },
+    {
+      "segment_id": "H14",
+      "key": "R02",
+      "text_bottom": 48,
+      "maximum_animated_text_bottom": 48,
+      "subtitle_min_top": 850,
+      "passed": true
+    },
+    {
+      "segment_id": "H14",
+      "key": "D_jack",
+      "text_bottom": 622,
+      "maximum_animated_text_bottom": 628.51,
+      "subtitle_min_top": 850,
+      "passed": true
+    },
+    {
+      "segment_id": "H15",
+      "key": "N18",
+      "text_bottom": 48,
+      "maximum_animated_text_bottom": 48,
+      "subtitle_min_top": 850,
+      "passed": true
+    },
+    {
+      "segment_id": "H15",
+      "key": "N12",
+      "text_bottom": 48,
+      "maximum_animated_text_bottom": 48,
+      "subtitle_min_top": 850,
+      "passed": true
+    },
+    {
+      "segment_id": "H15",
+      "key": "N13",
+      "text_bottom": 48,
+      "maximum_animated_text_bottom": 48,
+      "subtitle_min_top": 850,
+      "passed": true
+    },
+    {
+      "segment_id": "H16",
+      "key": "N14",
+      "text_bottom": 48,
+      "maximum_animated_text_bottom": 48,
+      "subtitle_min_top": 850,
+      "passed": true
+    },
+    {
+      "segment_id": "H16",
+      "key": "N15",
+      "text_bottom": 48,
+      "maximum_animated_text_bottom": 48,
+      "subtitle_min_top": 850,
+      "passed": true
+    },
+    {
+      "segment_id": "H16",
+      "key": "A07",
+      "text_bottom": 98,
+      "maximum_animated_text_bottom": 98,
+      "subtitle_min_top": 850,
+      "passed": true
+    },
+    {
+      "segment_id": "H17",
+      "key": "D_layers",
+      "text_bottom": 619,
+      "maximum_animated_text_bottom": 625.4200000000001,
+      "subtitle_min_top": 850,
+      "passed": true
+    },
+    {
+      "segment_id": "H17",
+      "key": "N16",
+      "text_bottom": 48,
+      "maximum_animated_text_bottom": 48,
+      "subtitle_min_top": 850,
+      "passed": true
+    },
+    {
+      "segment_id": "H18",
+      "key": "N17",
+      "text_bottom": 48,
+      "maximum_animated_text_bottom": 48,
+      "subtitle_min_top": 850,
+      "passed": true
+    },
+    {
+      "segment_id": "H19",
+      "key": "credits",
+      "text_bottom": 633,
+      "maximum_animated_text_bottom": 639.84,
+      "subtitle_min_top": 850,
+      "passed": true
+    }
+  ],
+  "srt_checks": {
+    "en": {
+      "count": 85,
+      "minimum_seconds": 1.6340000000000003,
+      "matches_script": true,
+      "max_lines": 2,
+      "max_line_chars": 42
+    },
+    "ja": {
+      "count": 87,
+      "minimum_seconds": 1.3999999999999986,
+      "matches_script": true,
+      "max_lines": 2,
+      "max_line_chars": 22
+    }
+  }
+}
