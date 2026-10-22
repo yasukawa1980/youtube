@@ -1,0 +1,260 @@
+{
+  "completed_JST": "2026-10-22T10:19:24.784331+09:00",
+  "authorization": "2026-10-22 ユーザー「AとBは削除して下さい」",
+  "stage1_free_bytes": {
+    "/": 8578318336,
+    "/Volumes/ESD-02": 44778962944
+  },
+  "immediate_before_free_bytes": {
+    "/": 8721154048,
+    "/System/Volumes/Data": 8721154048,
+    "/Volumes/ESD-02": 44778962944
+  },
+  "after_free_bytes": {
+    "/": 21867892736,
+    "/System/Volumes/Data": 21867892736,
+    "/Volumes/ESD-02": 78356430848
+  },
+  "df_before": "Filesystem     1024-blocks      Used Available Capacity iused     ifree %iused  Mounted on\n/dev/disk3s1s1   239362496  12338220   8516752    60%  458732  85167520    1%   /\n/dev/disk3s5     239362496 201986028   8516752    96%  629678  85167520    1%   /System/Volumes/Data\n/dev/disk5s1     976557744 932625996  43729456    96%   57937 437294560    0%   /Volumes/ESD-02\n",
+  "df_after": "Filesystem     1024-blocks      Used Available Capacity iused     ifree %iused  Mounted on\n/dev/disk3s1s1   239362496  12338220  21355364    37%  458732 213553640    0%   /\n/dev/disk3s5     239362496 189148412  21355364    90%  572947 213553640    0%   /System/Volumes/Data\n/dev/disk5s1     976557744 899835496  76519952    93%   57860 765199520    0%   /Volumes/ESD-02\n",
+  "deleted_noncache_files": 112,
+  "deleted_noncache_bytes": 44606940152,
+  "deleted_groups": {
+    "A05": {
+      "files": 2,
+      "bytes": 2388787456
+    },
+    "A06": {
+      "files": 1,
+      "bytes": 957913705
+    },
+    "A07": {
+      "files": 8,
+      "bytes": 559583533
+    },
+    "A08": {
+      "files": 12,
+      "bytes": 1174401990
+    },
+    "A09": {
+      "files": 12,
+      "bytes": 806206235
+    },
+    "A10": {
+      "files": 10,
+      "bytes": 1237980642
+    },
+    "A11": {
+      "files": 10,
+      "bytes": 1349178475
+    },
+    "A12": {
+      "files": 10,
+      "bytes": 1589612949
+    },
+    "A13": {
+      "files": 8,
+      "bytes": 1073987325
+    },
+    "B01": {
+      "files": 3,
+      "bytes": 348115949
+    },
+    "B02": {
+      "files": 4,
+      "bytes": 236448092
+    },
+    "B03": {
+      "files": 2,
+      "bytes": 330738864
+    },
+    "B04": {
+      "files": 4,
+      "bytes": 738019570
+    },
+    "B05": {
+      "files": 4,
+      "bytes": 756615170
+    },
+    "B06": {
+      "files": 4,
+      "bytes": 756619285
+    },
+    "B07": {
+      "files": 2,
+      "bytes": 319346992
+    },
+    "B08": {
+      "files": 2,
+      "bytes": 603619340
+    },
+    "B09": {
+      "files": 4,
+      "bytes": 341390607
+    },
+    "B10": {
+      "files": 3,
+      "bytes": 201918332
+    },
+    "B11": {
+      "files": 1,
+      "bytes": 4025792858
+    },
+    "B12": {
+      "files": 1,
+      "bytes": 9745748087
+    },
+    "B13": {
+      "files": 1,
+      "bytes": 2629234148
+    },
+    "B14": {
+      "files": 1,
+      "bytes": 4737963661
+    },
+    "B15": {
+      "files": 1,
+      "bytes": 2566125067
+    },
+    "B16": {
+      "files": 1,
+      "bytes": 2567247272
+    },
+    "B17": {
+      "files": 1,
+      "bytes": 2564344548
+    }
+  },
+  "cache_actions": [
+    {
+      "id": "A04",
+      "method": "pip 25.0.1 cache purge",
+      "before": {
+        "files": 82,
+        "bytes": 77499016
+      },
+      "after": {
+        "files": 3,
+        "bytes": 326
+      },
+      "output": "Files removed: 79 (77.5 MB)"
+    },
+    {
+      "id": "A02",
+      "method": "承認済み更新用キャッシュ内の未使用payloadだけ削除。lsofで使用なしを確認。",
+      "root": "/Users/ryo/Library/Caches/com.anthropic.claudefordesktop.ShipIt",
+      "removed_path": "/Users/ryo/Library/Caches/com.anthropic.claudefordesktop.ShipIt/update.Ay4mmZk",
+      "removed": {
+        "files": 4738,
+        "bytes": 651261374
+      },
+      "before": {
+        "files": 4741,
+        "bytes": 651285543
+      },
+      "after": {
+        "files": 3,
+        "bytes": 24169
+      },
+      "retained": "使用中ShipIt_stdout.log / ShipIt_stderr.log"
+    },
+    {
+      "id": "A03",
+      "method": "承認済みPythonバイトコードキャッシュの調査時と同一の.pycだけ削除",
+      "before": {
+        "files": 13781,
+        "bytes": 187932552
+      },
+      "deleted_files": 13780,
+      "deleted_bytes": 187926469,
+      "after": {
+        "files": 1,
+        "bytes": 6083
+      },
+      "skipped": []
+    }
+  ],
+  "remaining_cache": {
+    "A01": {
+      "files": 40,
+      "bytes": 204853,
+      "root": "/Users/ryo/Library/Caches/Google/Chrome"
+    },
+    "A02": {
+      "files": 3,
+      "bytes": 24169,
+      "root": "/Users/ryo/Library/Caches/com.anthropic.claudefordesktop.ShipIt",
+      "details": [
+        {
+          "path": "/Users/ryo/Library/Caches/com.anthropic.claudefordesktop.ShipIt/ShipIt_stdout.log",
+          "bytes": 0
+        },
+        {
+          "path": "/Users/ryo/Library/Caches/com.anthropic.claudefordesktop.ShipIt/ShipItState.plist",
+          "bytes": 298
+        },
+        {
+          "path": "/Users/ryo/Library/Caches/com.anthropic.claudefordesktop.ShipIt/ShipIt_stderr.log",
+          "bytes": 23871
+        }
+      ]
+    },
+    "A03": {
+      "files": 1,
+      "bytes": 6083,
+      "root": "/Users/ryo/Library/Caches/com.apple.python",
+      "details": [
+        {
+          "path": "/Users/ryo/Library/Caches/com.apple.python/Library/Developer/CommandLineTools/Library/Frameworks/Python3.framework/Versions/3.9/lib/python3.9/site-packages/pip/_internal/commands/cache.cpython-39.pyc",
+          "bytes": 6083
+        }
+      ]
+    },
+    "A04": {
+      "files": 3,
+      "bytes": 326,
+      "root": "/Users/ryo/Library/Caches/pip",
+      "details": [
+        {
+          "path": "/Users/ryo/Library/Caches/pip/selfcheck/451265e854f50918da725edce5d8f0178f1afeff749e0dd58841ad24",
+          "bytes": 107
+        },
+        {
+          "path": "/Users/ryo/Library/Caches/pip/selfcheck/0a832eae4a309dd4ab12492c4fa650e3a39697f3d2ec5f044b61a052",
+          "bytes": 107
+        },
+        {
+          "path": "/Users/ryo/Library/Caches/pip/selfcheck/6fe528e209b665b59b68fcacca4b0b068a7e7859fe8d9370ce95e7e8",
+          "bytes": 112
+        }
+      ]
+    }
+  },
+  "chrome_action": {
+    "method": "Chrome設定→閲覧履歴データを削除→全期間→キャッシュされた画像とファイルのみ",
+    "profiles": 2,
+    "other_options": "履歴・Cookie・ダウンロード履歴・フォーム・サイト設定・アプリデータを未選択にして実行。完了画面確認。",
+    "before_UI_MB": [
+      747,
+      158
+    ],
+    "after_cache_bytes": 204853
+  },
+  "protected_unchanged_files": 95,
+  "C_file_existence_checked": 116390,
+  "missing_C": [],
+  "dynamic_cache_or_temporary_ref_missing": [
+    "/Users/ryo/youtube/.git/refs/codex/turn-diffs/captures/1792630798412/b5486783-b5be-4ff1-849e-8d9c04622001/base",
+    "/Users/ryo/Library/Caches/com.apple.appleaccountd/fsCachedData/9CE42BB7-54D3-4DA3-880C-AAF971C250F5",
+    "/Users/ryo/Library/Caches/com.apple.managedappdistributionagent/fsCachedData/A3A77461-31FF-4E2D-BE57-E9D82F0C5391",
+    "/Users/ryo/Library/Caches/com.apple.Music/fsCachedData/D19C666E-43B7-434A-AD66-7146EE3D3B95",
+    "/Users/ryo/Library/Caches/com.apple.FeatureAccessAgent/fsCachedData/B9164581-B9CF-4E3F-BEB2-606FB1B01164",
+    "/Users/ryo/Library/Caches/Codex/Default/Cache/Cache_Data/2197b4ddf62a1a35_0",
+    "/Users/ryo/Library/Caches/com.apple.appstoreagent/fsCachedData/5BF1B0D6-E551-4A1A-A81D-EF75C6E97286",
+    "/Users/ryo/Library/Caches/com.apple.appstoreagent/fsCachedData/B1C61DF4-A03F-41BC-950E-F062546C22B4",
+    "/Users/ryo/Library/Caches/com.openai.codex/fsCachedData/C6E4F0BA-0218-44B1-9156-BBE2B3ACAAE6",
+    "/Users/ryo/Library/Caches/com.apple.translationd/fsCachedData/6C48E87B-76B9-41F9-AF1B-8A6ACCAD11A8"
+  ],
+  "moves": [],
+  "errors": []
+}
