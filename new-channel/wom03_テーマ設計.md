@@ -1,4 +1,4 @@
-# Quiet Origins 第3話「メドゥーサ」：テーマ設計と台本 v03（2026-10-23 Claude）
+# Quiet Origins 第3話「メドゥーサ」：テーマ設計と台本 v04（2026-10-23 Claude）
 
 管理ID：`wom03`。状態：**台本v02は本人承認済み（2026-10-22）。制作依頼済み。** v02はCodexの[素材候補](wom03_素材候補_20261022.md)（Met 26作品、すべてPD/CC0）に合わせて直した版。変更点は末尾の「v01からの変更」。音声・映像は未制作。
 
@@ -94,7 +94,7 @@
 
 **M17** There is no single original Medusa. Each source shows how a different time imagined her. Every story has an origin. Medusa has many.
 
-**M18** This video is based on ancient texts and public museum collections. The narration uses synthetic speech, and some images are AI-generated reconstructions. Sources and terms of use are listed in the description. Thank you for watching.
+**M18** This video is based on ancient texts and public museum collections. The narration uses synthetic speech, and some images are AI-generated reconstructions. Sources and terms of use are listed in the description. If you enjoyed this story, please like the video and subscribe for more quiet origins. Thank you for watching.
 
 ## 台本案（日本語）
 
@@ -132,7 +132,7 @@
 
 **M17** 元のメドゥーサは、一つではありません。それぞれの資料が、それぞれの時代が思い描いた姿を見せてくれます。どの物語にも由来がある。メドゥーサには、いくつもの由来があるのです。
 
-**M18** この動画は、古代の文献と公開された美術館のコレクションをもとに構成しました。ナレーションには音声合成を、一部の映像にはAIによる再現画を使っています。出典と利用条件は概要欄にまとめています。ご覧いただき、ありがとうございました。
+**M18** この動画は、古代の文献と公開された美術館のコレクションをもとに構成しました。ナレーションには音声合成を、一部の映像にはAIによる再現画を使っています。出典と利用条件は概要欄にまとめています。楽しんでいただけたら、高評価とチャンネル登録をお願いします。ご覧いただき、ありがとうございました。
 
 ## 画面の構成（v02：素材候補の番号を割り当て）
 
@@ -180,3 +180,8 @@ Codexの[原典訳文の確認](research/wom03_原典訳文_20261023.md)を受�
 2. **M03（日本語のみ）**：「姉の」を「ほかの二人、」に。ヘシオドスは出生順を述べていない。
 3. 訳の基準：オウィディウスはMiller訳（1916／1921）。ピンダロスの「fair-cheeked」はPaley訳（1868）の語（Myers訳は「fair-faced」）。概要欄の出典にはPaley 1868を併記する。
 4. M07の「goatskin（山羊皮）」はホメロスのこの数行にはない一般的な説明。アイギスの説明として広く使われる語なので残す。
+
+## v03からの変更（v04、2026-10-23・本人指定）
+
+- M18（英日）の「ご覧いただき、ありがとうございました」の直前に、高評価・チャンネル登録のお願いを一文だけ入れた（本人：「最後に1回、静かに」）。冒頭には入れない。
+- エンドカードは第3話から10秒の共通版v02にする（本人指定）。第1話・第2話は変えない。
