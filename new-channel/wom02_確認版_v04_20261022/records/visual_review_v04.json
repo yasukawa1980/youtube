@@ -1,0 +1,17 @@
+{
+  "passed": true,
+  "video_sha256": "eb0d96a940b19262b7e7d95b2bdb703d67d037a767fb31c300d3dcb903c1f4bc",
+  "method": "Visual inspection of final-video midpoint JPEGs using view_image; not full playback or listening.",
+  "checks": [
+    "H03 D_texts: only the original left book frame and century label remain; no circle, sun or season label on the right.",
+    "H08 D_season: circle, sun and season text remain.",
+    "Opening and endcard: approved common brand design with curved line background."
+  ],
+  "reviewed_images": {
+    "D_texts": "07b2d729376cdb26637d818b7c6be9f3f74469e0c465cd7beebd7da457a34013",
+    "D_season": "599c7eabb94f34f3f270cec083d7db4f08c09bd182ed37d7491c2e186cb1680f",
+    "opening": "4a52139916c24389653477ac7f8c83a54e6f215fd78c785c1499151bde9b4185",
+    "endcard": "073dff9a5584adbdad3c94ba464f9df7e45db6be4586a84bd74384311471d7c5"
+  },
+  "human_full_listening": false
+}

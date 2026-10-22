@@ -1,0 +1,198 @@
+{
+  "passed": true,
+  "checks": [
+    {
+      "key": "R01",
+      "passed": true,
+      "layout_unchanged": true
+    },
+    {
+      "key": "A02",
+      "passed": true,
+      "layout_unchanged": true
+    },
+    {
+      "key": "N01",
+      "passed": true,
+      "layout_unchanged": true
+    },
+    {
+      "key": "N02",
+      "passed": true,
+      "layout_unchanged": true
+    },
+    {
+      "key": "R04",
+      "passed": true,
+      "layout_unchanged": true
+    },
+    {
+      "key": "D_texts",
+      "passed": true,
+      "layout_unchanged": false
+    },
+    {
+      "key": "R05",
+      "passed": true,
+      "layout_unchanged": true
+    },
+    {
+      "key": "R06",
+      "passed": true,
+      "layout_unchanged": true
+    },
+    {
+      "key": "D_story_record",
+      "passed": true,
+      "layout_unchanged": true
+    },
+    {
+      "key": "N03",
+      "passed": true,
+      "layout_unchanged": true
+    },
+    {
+      "key": "A05_detail",
+      "passed": true,
+      "layout_unchanged": true
+    },
+    {
+      "key": "N04",
+      "passed": true,
+      "layout_unchanged": true
+    },
+    {
+      "key": "A06_detail",
+      "passed": true,
+      "layout_unchanged": true
+    },
+    {
+      "key": "N05",
+      "passed": true,
+      "layout_unchanged": true
+    },
+    {
+      "key": "N06",
+      "passed": true,
+      "layout_unchanged": true
+    },
+    {
+      "key": "D_season",
+      "passed": true,
+      "layout_unchanged": true
+    },
+    {
+      "key": "A04_detail",
+      "passed": true,
+      "layout_unchanged": true
+    },
+    {
+      "key": "N07",
+      "passed": true,
+      "layout_unchanged": true
+    },
+    {
+      "key": "A03_detail",
+      "passed": true,
+      "layout_unchanged": true
+    },
+    {
+      "key": "N08",
+      "passed": true,
+      "layout_unchanged": true
+    },
+    {
+      "key": "D_calendar",
+      "passed": true,
+      "layout_unchanged": true
+    },
+    {
+      "key": "N09",
+      "passed": true,
+      "layout_unchanged": true
+    },
+    {
+      "key": "A01",
+      "passed": true,
+      "layout_unchanged": true
+    },
+    {
+      "key": "R03",
+      "passed": true,
+      "layout_unchanged": true
+    },
+    {
+      "key": "N10",
+      "passed": true,
+      "layout_unchanged": true
+    },
+    {
+      "key": "N11",
+      "passed": true,
+      "layout_unchanged": true
+    },
+    {
+      "key": "R02",
+      "passed": true,
+      "layout_unchanged": true
+    },
+    {
+      "key": "D_jack",
+      "passed": true,
+      "layout_unchanged": true
+    },
+    {
+      "key": "N18",
+      "passed": true,
+      "layout_unchanged": true
+    },
+    {
+      "key": "N12",
+      "passed": true,
+      "layout_unchanged": true
+    },
+    {
+      "key": "N13",
+      "passed": true,
+      "layout_unchanged": true
+    },
+    {
+      "key": "N14",
+      "passed": true,
+      "layout_unchanged": true
+    },
+    {
+      "key": "N15",
+      "passed": true,
+      "layout_unchanged": true
+    },
+    {
+      "key": "A07",
+      "passed": true,
+      "layout_unchanged": true
+    },
+    {
+      "key": "D_layers",
+      "passed": true,
+      "layout_unchanged": true
+    },
+    {
+      "key": "N16",
+      "passed": true,
+      "layout_unchanged": true
+    },
+    {
+      "key": "N17",
+      "passed": true,
+      "layout_unchanged": true
+    },
+    {
+      "key": "credits",
+      "passed": true,
+      "layout_unchanged": true
+    }
+  ],
+  "reference_v03_layout_sha256": "d4d6f1b7e454992386030ebce1f0b7abfa4d5c79b662d9d48f918863e1e80f35",
+  "method": "37 main layouts unchanged, D_texts only removes right-hand diagram and text. No text added or moved; SRTs and rendering styles unchanged.",
+  "minimum_glyph_top": 850
+}
