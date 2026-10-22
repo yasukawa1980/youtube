@@ -1,4 +1,4 @@
-# Quiet Origins 第3話「メドゥーサ」：テーマ設計と台本案 v02（2026-10-22 Claude）
+# Quiet Origins 第3話「メドゥーサ」：テーマ設計と台本 v03（2026-10-23 Claude）
 
 管理ID：`wom03`。状態：**台本v02は本人承認済み（2026-10-22）。制作依頼済み。** v02はCodexの[素材候補](wom03_素材候補_20261022.md)（Met 26作品、すべてPD/CC0）に合わせて直した版。変更点は末尾の「v01からの変更」。音声・映像は未制作。
 
@@ -80,7 +80,7 @@
 
 **M12** Then, it is said, Neptune, the Roman name for Poseidon, assaulted her in the temple of Minerva, the Roman Athena. The goddess hid her face behind her aegis. And so that the act would not go unpunished, she changed Medusa's hair into snakes.
 
-**M13** Ovid wrote about seven hundred years after Hesiod, and he often reshaped older myths in his own way. Other ancient writers give other reasons. The mythographer known as Apollodorus reports a version in which Medusa wished to rival Athena in beauty.
+**M13** Ovid wrote about seven hundred years after Hesiod, and he often reshaped older myths in his own way. Other ancient writers tell different stories. The mythographer known as Apollodorus reports that, according to some, Medusa was beheaded for Athena's sake, because she wished to rival the goddess in beauty.
 
 ### C06 After Antiquity
 
@@ -102,7 +102,7 @@
 
 **M02** 今回は、ギリシャとローマの詩と美術を、七百年にわたってたどります。神々のはじまりを語る古い詩、古代の盾や神殿の顔、メトロポリタン美術館の壺の絵、そして彼女の物語を新しい形で語ったローマの詩人です。
 
-**M03** 早い時期の記録の一つが、紀元前700年ごろのギリシャの詩人ヘシオドスです。神々の起源を歌った『神統記』で、メドゥーサは海の古い神々の娘、ゴルゴン三姉妹の一人です。姉のステンノとエウリュアレは不死。メドゥーサだけが、死すべき者でした。
+**M03** 早い時期の記録の一つが、紀元前700年ごろのギリシャの詩人ヘシオドスです。神々の起源を歌った『神統記』で、メドゥーサは海の古い神々の娘、ゴルゴン三姉妹の一人です。ほかの二人、ステンノとエウリュアレは不死。メドゥーサだけが、死すべき者でした。
 
 **M04** ヘシオドスが語ることは、ごくわずかです。ポセイドンが春の花の咲く柔らかな牧場で彼女と共に寝たこと。そして、ペルセウスが首を切ると、翼のある馬ペガサスと、黄金の剣にちなんで名づけられたクリュサオルが生まれ出たこと。呪いも罰もありません。ヘシオドスのメドゥーサは、ただ、ゴルゴンとして生まれたのです。
 
@@ -122,7 +122,7 @@
 
 **M12** ところが、ポセイドンのローマでの名であるネプトゥヌスが、ローマのアテナにあたるミネルウァの神殿で、彼女を襲ったと言われます。女神はアイギスで顔を覆いました。そしてその行いを罰せずにはおかないと、メドゥーサの髪を蛇に変えたのです。
 
-**M13** オウィディウスは、ヘシオドスのおよそ700年後の人で、古い神話を自分の形に作り変えることがよくありました。ほかの古代の書き手は、別の理由を伝えています。アポロドーロスの名で知られる神話の書には、メドゥーサが美しさでアテナと張り合おうとした、という話が記されています。
+**M13** オウィディウスは、ヘシオドスのおよそ700年後の人で、古い神話を自分の形に作り変えることがよくありました。ほかの古代の書き手は、別の話を伝えています。アポロドーロスの名で知られる神話の書には、メドゥーサは美しさで女神と張り合おうとしたため、アテナのために首を切られた、という説も記されています。
 
 **M14** メドゥーサの物語は、古代が終わった後も生き続けました。1800年代のはじめ、彫刻家アントニオ・カノーヴァは、彼女の首を誇らしげに掲げるペルセウスを彫りました。メドゥーサの顔には、美しく悲しげなメドゥーサを表した古代の大理石の面をもとにしています。この像の主役は、英雄です。
 
@@ -171,3 +171,12 @@
 4. **M14「Around 1800」→「In the early 1800s」**。Met版は1804〜06年。
 5. 出典表の確認状況を更新（Met 3点はCodexが確認済み、ヘシオドス・アポロドーロスの文言はClaudeが検索結果で確認）。
 6. 英語は786語（v01とほぼ同じ。約6分半の目標のまま）。
+
+## v02からの変更（v03、2026-10-23）
+
+Codexの[原典訳文の確認](research/wom03_原典訳文_20261023.md)を受けて2か所を直した。
+
+1. **M13（英日）**：『ビブリオテーケー』の「美しさで張り合った」は、髪が蛇になった理由ではなく**首を切られた理由**の説。M12の直後に「別の理由」と続くと、変身の別の原因と誤解されるため、「別の話」とし、首を切られた理由であることを明記した。
+2. **M03（日本語のみ）**：「姉の」を「ほかの二人、」に。ヘシオドスは出生順を述べていない。
+3. 訳の基準：オウィディウスはMiller訳（1916／1921）。ピンダロスの「fair-cheeked」はPaley訳（1868）の語（Myers訳は「fair-faced」）。概要欄の出典にはPaley 1868を併記する。
+4. M07の「goatskin（山羊皮）」はホメロスのこの数行にはない一般的な説明。アイギスの説明として広く使われる語なので残す。
