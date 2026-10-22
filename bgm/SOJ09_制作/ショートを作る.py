@@ -22,9 +22,9 @@ VIDEO = ROOT / "映像_本編" / "SOJ09_晩秋の浜辺_3608秒_無音.mp4"
 IMAGES = ROOT / "画像"
 
 # 出す順：A（女性と舟＝いちばん掴む）→ B（昼の波打ち際）→ C（月夜）
-# anchor は 9:16 の切り出し位置（0＝左端・1＝右端）。女性は x≈1530/1920、月と月の道は x≈1520
+# anchor は 9:16 の切り出し位置（0＝左端・1＝右端）。★A は 0.84 だと縦のケンバーンズで女性が左端で切れた→0.60
 SHORTS = [
-    dict(tag="A", at="0:26:00", image="02_漁村の浜_夕方.png", anchor=0.84, move="out",
+    dict(tag="A", at="0:26:00", image="02_漁村の浜_夕方.png", anchor=0.60, move="out",
          scrim=dict(opacity=0.88, top=900, full=1500),
          title="晩秋の浜辺", sub=["夕暮れの漁村", "1時間版はチャンネルに"]),
     dict(tag="B", at="0:08:00", image="01_波打ち際_昼下がり.png", anchor=0.45, move="in",
@@ -32,6 +32,7 @@ SHORTS = [
          title="晩秋の浜辺", sub=["昼下がりの波打ち際", "1時間版はチャンネルに"]),
     # ★C は月夜で平均39.9（SOJのショートの目安50以上を切る）。SOJ08 と同じく暗部を持ち上げる
     dict(tag="C", at="0:53:00", image="04_月夜の海_夜.png", anchor=0.80, move="in", pre="eq=gamma=1.18",
+         scrim=dict(opacity=0.88, top=900, full=1500),  # ★副題が月の道と白い波に乗って沈んだ
          title="晩秋の浜辺", sub=["月夜の海、遠い波の音", "1時間版はチャンネルに"]),
 ]
 

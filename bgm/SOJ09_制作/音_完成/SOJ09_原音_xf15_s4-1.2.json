@@ -1,0 +1,106 @@
+{
+  "src": "原音",
+  "xf": 15.0,
+  "s4_db": -1.2,
+  "scenes": [
+    {
+      "name": "波打ち際",
+      "id": "436409",
+      "ss": 95.0,
+      "dur": 1130.0,
+      "filter": "",
+      "file": "436409__eardeer__incoming-tide.wav",
+      "in_I": -31.13,
+      "in_TP": -10.45,
+      "gain_db": 13.13
+    },
+    {
+      "name": "漁村の浜",
+      "id": "449983",
+      "ss": 170.0,
+      "dur": 1125.0,
+      "filter": "",
+      "file": "449983__worldsday__breaking-waves-at-wrightsville-beach.flac",
+      "in_I": -26.6,
+      "in_TP": -8.6,
+      "gain_db": 8.6
+    },
+    {
+      "name": "宿の縁側",
+      "id": "261204",
+      "ss": 0.0,
+      "dur": 560.0,
+      "filter": "",
+      "file": "261204__gentry57__ocean-sounds.mp3",
+      "in_I": -14.21,
+      "in_TP": -1.12,
+      "gain_db": -3.79
+    },
+    {
+      "name": "月夜の海",
+      "id": "860010",
+      "ss": 20.0,
+      "dur": 838.0,
+      "filter": "",
+      "file": "860010__securesubset__ocean-beach-and-waves-ambience.wav",
+      "in_I": -19.67,
+      "in_TP": -4.51,
+      "gain_db": 0.47
+    }
+  ],
+  "fader": {
+    "ceil": -2.5,
+    "seconds": [
+      974,
+      1027,
+      1117,
+      1127,
+      1321,
+      1322,
+      1355,
+      1356,
+      1610,
+      1720,
+      1767,
+      1776,
+      1777,
+      1778,
+      1848,
+      1870,
+      2103,
+      2132,
+      2191,
+      2192,
+      2193,
+      2202,
+      2213
+    ],
+    "max_db": 2.6
+  },
+  "total": 3608.0,
+  "final": {
+    "I": -17.6,
+    "LRA": 5.4,
+    "TP": -2.4
+  },
+  "final_gain_db": 0.6,
+  "out": "SOJ09_原音_xf15_s4-1.2.wav",
+  "chapters": [
+    {
+      "t": 0.0,
+      "name": "波打ち際"
+    },
+    {
+      "t": 1115.0,
+      "name": "漁村の浜"
+    },
+    {
+      "t": 2225.0,
+      "name": "宿の縁側"
+    },
+    {
+      "t": 2770.0,
+      "name": "月夜の海"
+    }
+  ]
+}
