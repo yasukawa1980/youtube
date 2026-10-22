@@ -1,0 +1,332 @@
+{
+  "started_JST": "2026-10-22T10:30:58.894357+09:00",
+  "authorization": "ユーザー「削除して下さい」（提示済みD01〜D05）",
+  "before_df": "Filesystem   1024-blocks      Used Available Capacity iused     ifree %iused  Mounted on\n/dev/disk3s5   239362496 189319212  21183536    90%  573102 211835360    0%   /System/Volumes/Data\n/dev/disk5s1   976557744 899835428  76520024    93%   57860 765200240    0%   /Volumes/ESD-02\n",
+  "protected_before": [
+    {
+      "path": "/Users/ryo/Desktop/BGM/IRO/Chill/18_毛糸の季節がやってきた/完成_20261019/_work/dog_B1.npy",
+      "bytes": 1194393728,
+      "mtime_ns": 1792337358548715833,
+      "ino": 27740149,
+      "dev": 16777234
+    },
+    {
+      "path": "/Users/ryo/Desktop/BGM/IRO/Chill/18_毛糸の季節がやってきた/完成_20261019/_work/dog_C.npy",
+      "bytes": 1194393728,
+      "mtime_ns": 1792337362101102289,
+      "ino": 27740152,
+      "dev": 16777234
+    },
+    {
+      "path": "/Users/ryo/Desktop/BGM/IRO/Chill/18_毛糸の季節がやってきた/完成_20261019/_work/dog_D.npy",
+      "bytes": 1194393728,
+      "mtime_ns": 1792337365470693352,
+      "ino": 27740153,
+      "dev": 16777234
+    },
+    {
+      "path": "/Users/ryo/youtube/bgm/SOJ09_制作/映像_本編/SOJ09_晩秋の浜辺_3608秒_無音.mp4",
+      "bytes": 2760925963,
+      "mtime_ns": 1792394690858855661,
+      "ino": 27871577,
+      "dev": 16777234
+    },
+    {
+      "path": "/Volumes/ESD-02/BGM/IRO/Chill/18_毛糸の季節がやってきた/完成v3_20261019/投稿用/iro18_毛糸の季節がやってきた_扉入り.mp4",
+      "bytes": 3658367589,
+      "mtime_ns": 1792369601395270108,
+      "ino": 69335,
+      "dev": 16777240
+    },
+    {
+      "path": "/Volumes/ESD-02/BGM/IRO/Chill/18_毛糸の季節がやってきた/手直し_20261018/試作3_20261019/Kling_編み物試作3_原本.mp4",
+      "bytes": 6047754,
+      "mtime_ns": 1792361608783652402,
+      "ino": 69249,
+      "dev": 16777240
+    },
+    {
+      "path": "/Volumes/ESD-02/IRO/IRO19_素材_焚き火2時間/Kling素材/A.mp4",
+      "bytes": 12598278,
+      "mtime_ns": 1792570276067762372,
+      "ino": 70024,
+      "dev": 16777240
+    },
+    {
+      "path": "/Volumes/ESD-02/IRO/IRO19_素材_焚き火2時間/Kling素材/B.mp4",
+      "bytes": 11987172,
+      "mtime_ns": 1792570275732708156,
+      "ino": 70023,
+      "dev": 16777240
+    },
+    {
+      "path": "/Volumes/ESD-02/IRO/IRO19_素材_焚き火2時間/Kling素材/B1.mp4",
+      "bytes": 11474169,
+      "mtime_ns": 1792569451155462935,
+      "ino": 69763,
+      "dev": 16777240
+    },
+    {
+      "path": "/Volumes/ESD-02/IRO/IRO19_素材_焚き火2時間/Kling素材/B2.mp4",
+      "bytes": 11064873,
+      "mtime_ns": 1792570276491958070,
+      "ino": 70025,
+      "dev": 16777240
+    },
+    {
+      "path": "/Volumes/ESD-02/IRO/IRO19_素材_焚き火2時間/Kling素材/C.mp4",
+      "bytes": 8471484,
+      "mtime_ns": 1792570275334857512,
+      "ino": 70022,
+      "dev": 16777240
+    },
+    {
+      "path": "/Volumes/ESD-02/IRO/IRO19_素材_焚き火2時間/Kling素材/D.mp4",
+      "bytes": 10377150,
+      "mtime_ns": 1792570274894196738,
+      "ino": 70021,
+      "dev": 16777240
+    },
+    {
+      "path": "/Volumes/ESD-02/IRO/IRO19_素材_焚き火2時間/投稿用/iro19_炎をながめて夜がふける_扉入り.mp4",
+      "bytes": 2815438370,
+      "mtime_ns": 1792580978178242233,
+      "ino": 70203,
+      "dev": 16777240
+    },
+    {
+      "path": "/Volumes/ESD-02/_内蔵_youtube_bgm/SOJ08_制作/完成/SOJ08_紅葉の渓流_完成版_v02.mp4",
+      "bytes": 3179368729,
+      "mtime_ns": 1791903454017245303,
+      "ino": 57661,
+      "dev": 16777240
+    },
+    {
+      "path": "/Volumes/ESD-02/_内蔵_youtube_bgm/SOJ08_制作/映像_本編/SOJ08_紅葉の渓流_3608秒_無音.mp4",
+      "bytes": 3031970401,
+      "mtime_ns": 1790740352460362391,
+      "ino": 46405,
+      "dev": 16777240
+    }
+  ],
+  "brew_dry_run": "Would remove: /Users/ryo/Library/Logs/Homebrew/openssl@3 (64B)\nWould remove: /Users/ryo/Library/Logs/Homebrew/ca-certificates (64B)\nWould remove: /opt/homebrew/var/homebrew/tmp/.cellar/openssl@3 (7,638 files, 37.7MB)\nWould remove: /opt/homebrew/var/homebrew/tmp/.cellar/ca-certificates (4 files, 202.3KB)\nWould remove: /opt/homebrew/Library/Homebrew/vendor/portable-ruby/4.0.5_1 (1,707 files, 34.6MB)\n==> This operation would free approximately 72.6MB of disk space.\n",
+  "brew_dry_run_stderr": "Warning: Skipping ca-certificates: most recent version 2026-10-20 not installed\nWarning: Skipping dav1d: most recent version 1.5.4 not installed\nWarning: Skipping ffmpeg: most recent version 9.0.2_1 not installed\nWarning: Skipping gh: most recent version 2.102.1 not installed\nWarning: Skipping git: most recent version 2.56.0_1 not installed\nWarning: Skipping ideviceinstaller: most recent version 1.2.0_1 not installed\nWarning: Skipping lame: most recent version 4.0 not installed\nWarning: Skipping libimobiledevice: most recent version 1.4.0_2 not installed\nWarning: Skipping libimobiledevice-glue: most recent version 1.3.3 not installed\nWarning: Skipping libplist: most recent version 2.8.0 not installed\nWarning: Skipping libtatsu: most recent version 1.0.5_1 not installed\nWarning: Skipping libunistring: most recent version 1.5 not installed\nWarning: Skipping libusbmuxd: most recent version 2.1.1_1 not installed\nWarning: Skipping libvmaf: most recent version 3.2.1 not installed\nWarning: Skipping libvpx: most recent version 1.17.0 not installed\nWarning: Skipping libzip: most recent version 1.12.1 not installed\nWarning: Skipping openssl@3: most recent version 3.5.9 not installed\nWarning: Skipping pcre2: most recent version 10.49 not installed\nWarning: Skipping sdl2-compat: most recent version 2.32.74 not installed\nWarning: Skipping svt-av1: most recent version 4.2.0 not installed\nWarning: Skipping x265: most recent version 4.3 not installed\nWarning: Skipping xz: most recent version 5.8.4 not installed\n",
+  "deleted": [
+    {
+      "path": "/Volumes/ESD-02/IRO/IRO19_素材_焚き火2時間/_映像作業/A.npy",
+      "bytes": 1194393728,
+      "mtime_ns": 1792576071105533446,
+      "modified_JST": "2026-10-21T18:47:51.105533+09:00",
+      "id": "D01",
+      "disk": "ESD-02",
+      "ino": 70114,
+      "dev": 16777240
+    },
+    {
+      "path": "/Volumes/ESD-02/IRO/IRO19_素材_焚き火2時間/_映像作業/B.npy",
+      "bytes": 1194393728,
+      "mtime_ns": 1792576075830781407,
+      "modified_JST": "2026-10-21T18:47:55.830781+09:00",
+      "id": "D01",
+      "disk": "ESD-02",
+      "ino": 70115,
+      "dev": 16777240
+    },
+    {
+      "path": "/Volumes/ESD-02/IRO/IRO19_素材_焚き火2時間/_映像作業/B1.npy",
+      "bytes": 1194393728,
+      "mtime_ns": 1792576062542272994,
+      "modified_JST": "2026-10-21T18:47:42.542273+09:00",
+      "id": "D01",
+      "disk": "ESD-02",
+      "ino": 70112,
+      "dev": 16777240
+    },
+    {
+      "path": "/Volumes/ESD-02/IRO/IRO19_素材_焚き火2時間/_映像作業/B2.npy",
+      "bytes": 1194393728,
+      "mtime_ns": 1792576066515328693,
+      "modified_JST": "2026-10-21T18:47:46.515329+09:00",
+      "id": "D01",
+      "disk": "ESD-02",
+      "ino": 70113,
+      "dev": 16777240
+    },
+    {
+      "path": "/Volumes/ESD-02/IRO/IRO19_素材_焚き火2時間/_映像作業/C.npy",
+      "bytes": 1194393728,
+      "mtime_ns": 1792576079787275905,
+      "modified_JST": "2026-10-21T18:47:59.787276+09:00",
+      "id": "D01",
+      "disk": "ESD-02",
+      "ino": 70116,
+      "dev": 16777240
+    },
+    {
+      "path": "/Volumes/ESD-02/IRO/IRO19_素材_焚き火2時間/_映像作業/D.npy",
+      "bytes": 1194393728,
+      "mtime_ns": 1792576084373588058,
+      "modified_JST": "2026-10-21T18:48:04.373588+09:00",
+      "id": "D01",
+      "disk": "ESD-02",
+      "ino": 70117,
+      "dev": 16777240
+    },
+    {
+      "path": "/Volumes/ESD-02/BGM/IRO/Chill/18_毛糸の季節がやってきた/完成v3_20261019/_work/raw_take3.npy",
+      "bytes": 1194393728,
+      "mtime_ns": 1792369085372707328,
+      "modified_JST": "2026-10-19T09:18:05.372707+09:00",
+      "id": "D02",
+      "disk": "ESD-02",
+      "ino": 69275,
+      "dev": 16777240
+    },
+    {
+      "path": "/Users/ryo/youtube/bgm/SOJ09_制作/映像_本編/_parts/01_body_1115.mp4",
+      "bytes": 1205477986,
+      "mtime_ns": 1792394659032162573,
+      "modified_JST": "2026-10-19T16:24:19.032163+09:00",
+      "id": "D03",
+      "disk": "内蔵",
+      "ino": 27871536,
+      "dev": 16777234
+    },
+    {
+      "path": "/Users/ryo/youtube/bgm/SOJ09_制作/映像_本編/_parts/02_xfade_15.mp4",
+      "bytes": 16492263,
+      "mtime_ns": 1792394665344982401,
+      "modified_JST": "2026-10-19T16:24:25.344982+09:00",
+      "id": "D03",
+      "disk": "内蔵",
+      "ino": 27871538,
+      "dev": 16777234
+    },
+    {
+      "path": "/Users/ryo/youtube/bgm/SOJ09_制作/映像_本編/_parts/03_body_1095.mp4",
+      "bytes": 743622229,
+      "mtime_ns": 1792394666772607662,
+      "modified_JST": "2026-10-19T16:24:26.772608+09:00",
+      "id": "D03",
+      "disk": "内蔵",
+      "ino": 27871548,
+      "dev": 16777234
+    },
+    {
+      "path": "/Users/ryo/youtube/bgm/SOJ09_制作/映像_本編/_parts/04_xfade_15.mp4",
+      "bytes": 11283663,
+      "mtime_ns": 1792394673042087505,
+      "modified_JST": "2026-10-19T16:24:33.042088+09:00",
+      "id": "D03",
+      "disk": "内蔵",
+      "ino": 27871550,
+      "dev": 16777234
+    },
+    {
+      "path": "/Users/ryo/youtube/bgm/SOJ09_制作/映像_本編/_parts/05_body_530.mp4",
+      "bytes": 263133806,
+      "mtime_ns": 1792394673509147559,
+      "modified_JST": "2026-10-19T16:24:33.509148+09:00",
+      "id": "D03",
+      "disk": "内蔵",
+      "ino": 27871559,
+      "dev": 16777234
+    },
+    {
+      "path": "/Users/ryo/youtube/bgm/SOJ09_制作/映像_本編/_parts/06_xfade_15.mp4",
+      "bytes": 10402792,
+      "mtime_ns": 1792394679792356968,
+      "modified_JST": "2026-10-19T16:24:39.792357+09:00",
+      "id": "D03",
+      "disk": "内蔵",
+      "ino": 27871561,
+      "dev": 16777234
+    },
+    {
+      "path": "/Users/ryo/youtube/bgm/SOJ09_制作/映像_本編/_parts/07_body_801.mp4",
+      "bytes": 506642551,
+      "mtime_ns": 1792394681070143313,
+      "modified_JST": "2026-10-19T16:24:41.070143+09:00",
+      "id": "D03",
+      "disk": "内蔵",
+      "ino": 27871569,
+      "dev": 16777234
+    },
+    {
+      "path": "/Users/ryo/youtube/bgm/SOJ09_制作/映像_本編/_parts/08_card_xfade_2.mp4",
+      "bytes": 2106712,
+      "mtime_ns": 1792394682061576600,
+      "modified_JST": "2026-10-19T16:24:42.061577+09:00",
+      "id": "D03",
+      "disk": "内蔵",
+      "ino": 27871571,
+      "dev": 16777234
+    },
+    {
+      "path": "/Users/ryo/youtube/bgm/SOJ09_制作/映像_本編/_parts/09_card_body_20.mp4",
+      "bytes": 1630141,
+      "mtime_ns": 1792394682230107481,
+      "modified_JST": "2026-10-19T16:24:42.230108+09:00",
+      "id": "D03",
+      "disk": "内蔵",
+      "ino": 27871574,
+      "dev": 16777234
+    },
+    {
+      "path": "/Volumes/ESD-02/_内蔵_youtube_bgm/SOJ08_制作/映像_本編/_parts/01_body_1205.mp4",
+      "bytes": 1124173750,
+      "mtime_ns": 1790740325475613327,
+      "modified_JST": "2026-09-30T12:52:05.475613+09:00",
+      "id": "D04",
+      "disk": "ESD-02",
+      "ino": 46410,
+      "dev": 16777240
+    },
+    {
+      "path": "/Volumes/ESD-02/_内蔵_youtube_bgm/SOJ08_制作/映像_本編/_parts/03_body_730.mp4",
+      "bytes": 804673573,
+      "mtime_ns": 1790740331056219990,
+      "modified_JST": "2026-09-30T12:52:11.056220+09:00",
+      "id": "D04",
+      "disk": "ESD-02",
+      "ino": 46423,
+      "dev": 16777240
+    },
+    {
+      "path": "/Volumes/ESD-02/_内蔵_youtube_bgm/SOJ08_制作/映像_本編/_parts/05_body_828.mp4",
+      "bytes": 577644056,
+      "mtime_ns": 1790740336776530472,
+      "modified_JST": "2026-09-30T12:52:16.776531+09:00",
+      "id": "D04",
+      "disk": "ESD-02",
+      "ino": 46427,
+      "dev": 16777240
+    },
+    {
+      "path": "/Volumes/ESD-02/_内蔵_youtube_bgm/SOJ08_制作/映像_本編/_parts/07_body_778.mp4",
+      "bytes": 476220165,
+      "mtime_ns": 1790740341891667441,
+      "modified_JST": "2026-09-30T12:52:21.891667+09:00",
+      "id": "D04",
+      "disk": "ESD-02",
+      "ino": 46431,
+      "dev": 16777240
+    }
+  ],
+  "errors": [],
+  "brew_cleanup": {
+    "returncode": 0,
+    "stdout": "Removing: /Users/ryo/Library/Logs/Homebrew/openssl@3... (64B)\nRemoving: /Users/ryo/Library/Logs/Homebrew/ca-certificates... (64B)\nRemoving: /opt/homebrew/var/homebrew/tmp/.cellar/openssl@3... (7,638 files, 37.7MB)\nRemoving: /opt/homebrew/var/homebrew/tmp/.cellar/ca-certificates... (4 files, 202.3KB)\nRemoving: /opt/homebrew/Library/Homebrew/vendor/portable-ruby/4.0.5_1... (1,707 files, 34.6MB)\n==> This operation has freed approximately 72.6MB of disk space.\n",
+    "stderr": "Warning: Skipping ca-certificates: most recent version 2026-10-20 not installed\nWarning: Skipping dav1d: most recent version 1.5.4 not installed\nWarning: Skipping ffmpeg: most recent version 9.0.2_1 not installed\nWarning: Skipping gh: most recent version 2.102.1 not installed\nWarning: Skipping git: most recent version 2.56.0_1 not installed\nWarning: Skipping ideviceinstaller: most recent version 1.2.0_1 not installed\nWarning: Skipping lame: most recent version 4.0 not installed\nWarning: Skipping libimobiledevice: most recent version 1.4.0_2 not installed\nWarning: Skipping libimobiledevice-glue: most recent version 1.3.3 not installed\nWarning: Skipping libplist: most recent version 2.8.0 not installed\nWarning: Skipping libtatsu: most recent version 1.0.5_1 not installed\nWarning: Skipping libunistring: most recent version 1.5 not installed\nWarning: Skipping libusbmuxd: most recent version 2.1.1_1 not installed\nWarning: Skipping libvmaf: most recent version 3.2.1 not installed\nWarning: Skipping libvpx: most recent version 1.17.0 not installed\nWarning: Skipping libzip: most recent version 1.12.1 not installed\nWarning: Skipping openssl@3: most recent version 3.5.9 not installed\nWarning: Skipping pcre2: most recent version 10.49 not installed\nWarning: Skipping sdl2-compat: most recent version 2.32.74 not installed\nWarning: Skipping svt-av1: most recent version 4.2.0 not installed\nWarning: Skipping x265: most recent version 4.3 not installed\nWarning: Skipping xz: most recent version 5.8.4 not installed\n"
+  },
+  "brew_removed_paths_confirmed": {
+    "/Users/ryo/Library/Logs/Homebrew/ca-certificates": true,
+    "/Users/ryo/Library/Logs/Homebrew/openssl@3": true,
+    "/opt/homebrew/Library/Homebrew/vendor/portable-ruby/4.0.5_1": true,
+    "/opt/homebrew/var/homebrew/tmp/.cellar/ca-certificates": true,
+    "/opt/homebrew/var/homebrew/tmp/.cellar/openssl@3": true
+  },
+  "after_df": "Filesystem   1024-blocks      Used Available Capacity iused     ifree %iused  Mounted on\n/dev/disk3s5   239362496 186540384  23962364    89%  563357 239623640    0%   /System/Volumes/Data\n/dev/disk5s1   976557744 888757612  87597840    92%   57849 875978400    0%   /Volumes/ESD-02\n",
+  "protected_unchanged_count": 15,
+  "completed_JST": "2026-10-22T10:31:00.573605+09:00"
+}
