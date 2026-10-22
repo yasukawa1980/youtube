@@ -1,0 +1,95 @@
+{
+  "started_JST": "2026-10-22T10:58:27.132027+09:00",
+  "authorization": "優先の項目を実行して下さい",
+  "actions": [
+    {
+      "target": "Chrome",
+      "action": "メモリセーバーをオン、バランス重視（推奨）を確認",
+      "verified": true
+    },
+    {
+      "target": "YouTube Studio",
+      "action": "保存済み編集タブ2枚をグループを閉じる操作で閉じた。保存グループの削除はしていない。",
+      "tabs": [
+        "https://studio.youtube.com/video/dtkqm-QqoX8/edit",
+        "https://studio.youtube.com/video/SqUuNkO5HUs/edit"
+      ],
+      "verified": true
+    },
+    {
+      "target": "OBS",
+      "action": "配信・録画・仮想カメラが停止中であることを確認しCommand+Qで通常終了",
+      "main_process_absent": true,
+      "method": "アプリメニューQuit OBS（通常終了）。検証で再起動したため改めて終了し、その後はアプリを開かず確認。"
+    },
+    {
+      "target": "Claude",
+      "action": "終了メニューを選択したところ、2件のセッションで作業中・終了すると中断されるとの通知。キャンセルを選択し、実行中の作業を保持。",
+      "status": "実行中のため終了保留",
+      "verified": true
+    }
+  ],
+  "memory": {
+    "returncode": 0,
+    "stdout": "Mach Virtual Memory Statistics: (page size of 16384 bytes)\nPages free:                                     4115.\nPages active:                                 104188.\nPages inactive:                                93601.\nPages speculative:                              9802.\nPages throttled:                                   0.\nPages wired down:                              94085.\nPages purgeable:                                 789.\n\"Translation faults\":                      339362484.\nPages copy-on-write:                         4103082.\nPages zero filled:                         123519622.\nPages reactivated:                         150207107.\nPages purged:                                8981789.\nFile-backed pages:                            116271.\nAnonymous pages:                               91320.\nPages stored in compressor:                   906454.\nPages occupied by compressor:                 181654.\nDecompressions:                            147982076.\nCompressions:                              161792858.\nPageins:                                    35557062.\nPageouts:                                     516198.\nSwapins:                                     3258942.\nSwapouts:                                    4024856.\n",
+    "stderr": ""
+  },
+  "swap": {
+    "returncode": 0,
+    "stdout": "vm.swapusage: total = 6144.00M  used = 5276.38M  free = 867.62M  (encrypted)\nkern.memorystatus_vm_pressure_level: 1\n",
+    "stderr": ""
+  },
+  "memory_top": {
+    "returncode": 0,
+    "stdout": "Processes: 494 total, 2 running, 492 sleeping, 3370 threads \n2026/10/22 10:58:27\nLoad Avg: 1.79, 1.90, 2.17 \nCPU usage: 5.15% user, 15.18% sys, 79.65% idle \nSharedLibs: 230M resident, 57M data, 37M linkedit.\nMemRegions: 550901 total, 1314M resident, 41M private, 849M shared.\nPhysMem: 7414M used (1472M wired, 2826M compressor), 201M unused.\nVM: 245T vsize, 6144M framework vsize, 3258942(0) swapins, 4024856(0) swapouts.\nNetworks: packets: 6060325/5624M in, 4255651/4368M out.\nDisks: 22854944/654G read, 3825816/144G written.\n\nPID    COMMAND          MEM   %CPU\n13177  Google Chrome He 1336M 0.0 \n23958  Codex (Renderer) 978M  0.0 \n1025   Claude Helper (R 825M  0.0 \n406    WindowServer     505M  0.0 \n23908  ChatGPT          488M  0.0 \n1490   Google Chrome He 430M  0.0 \n1477   Google Chrome He 420M  0.0 \n24047  Codex (Renderer) 401M  0.0 \n623    Claude           398M  0.0 \n23956  codex            352M  0.0 \n1474   Google Chrome He 350M  0.0 \n1304   Google Chrome He 320M  0.0 \n641    OBS              286M  0.0 \n878    Google Chrome He 265M  0.0 \n23940  Codex (Service)  249M  0.0 \n24060  Codex (Renderer) 245M  0.0 \n635    Google Chrome    238M  0.0 \n1358   Google Chrome He 226M  0.0 \n1772   claude           221M  0.0 \n12400  claude           189M  0.0 \n2476   TGOnDeviceInfere 161M  0.0 \n13143  claude           157M  0.0 \n12357  claude           141M  0.0 \n795    Claude Helper    127M  0.0 \n879    Google Chrome He 118M  0.0 \n",
+    "stderr": ""
+  },
+  "main_process_verification": {
+    "time_JST": "2026-10-22T11:07:56.939606+09:00",
+    "processes": {
+      "OBS": [],
+      "Claude": [
+        "623     1 /Applications/Claude.app/Contents/MacOS/Claude"
+      ],
+      "Codex": [
+        "23908     1 /Applications/ChatGPT.app/Contents/MacOS/ChatGPT"
+      ]
+    }
+  },
+  "Codex_status": "このチャットがactive、他のローカル1件がidle、残りはnotLoaded。実行中のこのチャットは継続。履歴のアーカイブやプロセスの一括停止は実施していない。",
+  "after": {
+    "time_JST": "2026-10-22T11:09:58.556609+09:00",
+    "memory": {
+      "returncode": 0,
+      "stdout": "Mach Virtual Memory Statistics: (page size of 16384 bytes)\nPages free:                                     3680.\nPages active:                                 129539.\nPages inactive:                               128050.\nPages speculative:                               560.\nPages throttled:                                   0.\nPages wired down:                              96595.\nPages purgeable:                                1680.\n\"Translation faults\":                      348899123.\nPages copy-on-write:                         4200727.\nPages zero filled:                         132093046.\nPages reactivated:                         153360058.\nPages purged:                                9233160.\nFile-backed pages:                             69964.\nAnonymous pages:                              188185.\nPages stored in compressor:                   646198.\nPages occupied by compressor:                 128884.\nDecompressions:                            151584677.\nCompressions:                              165699299.\nPageins:                                    36307905.\nPageouts:                                     521986.\nSwapins:                                     3367521.\nSwapouts:                                    4120371.\n",
+      "stderr": ""
+    },
+    "swap": {
+      "returncode": 0,
+      "stdout": "vm.swapusage: total = 5120.00M  used = 3681.31M  free = 1438.69M  (encrypted)\nkern.memorystatus_vm_pressure_level: 1\n",
+      "stderr": ""
+    },
+    "memory_top": {
+      "returncode": 0,
+      "stdout": "Processes: 445 total, 2 running, 443 sleeping, 3186 threads \n2026/10/22 11:09:58\nLoad Avg: 2.22, 2.92, 2.75 \nCPU usage: 4.80% user, 13.78% sys, 81.41% idle \nSharedLibs: 254M resident, 58M data, 58M linkedit.\nMemRegions: 506059 total, 2592M resident, 107M private, 920M shared.\nPhysMem: 7547M used (1509M wired, 2014M compressor), 68M unused.\nVM: 224T vsize, 6144M framework vsize, 3367521(0) swapins, 4120371(0) swapouts.\nNetworks: packets: 6155264/5714M in, 4343477/4459M out.\nDisks: 23372879/667G read, 3894081/146G written.\n\nPID    COMMAND          MEM  %CPU\n23958  Codex (Renderer) 884M 0.0 \n406    WindowServer     873M 0.0 \n1025   Claude Helper (R 752M 0.0 \n23908  ChatGPT          459M 0.0 \n1490   Google Chrome He 436M 0.0 \n1477   Google Chrome He 423M 0.0 \n24047  Codex (Renderer) 402M 0.0 \n623    Claude           379M 0.0 \n23956  codex            351M 0.0 \n1474   Google Chrome He 338M 0.0 \n878    Google Chrome He 249M 0.0 \n24060  Codex (Renderer) 247M 0.0 \n635    Google Chrome    238M 0.0 \n1358   Google Chrome He 236M 0.0 \n1772   claude           220M 0.0 \n23940  Codex (Service)  192M 0.0 \n12400  claude           187M 0.0 \n2476   TGOnDeviceInfere 161M 0.0 \n13143  claude           157M 0.0 \n31599  node             154M 0.0 \n12357  claude           141M 0.0 \n795    Claude Helper    127M 0.0 \n879    Google Chrome He 117M 0.0 \n903    Google Chrome He 115M 0.0 \n24018  Codex (Renderer) 112M 0.0 \n",
+      "stderr": ""
+    },
+    "cpu": {
+      "returncode": 0,
+      "stdout": "Processes: 445 total, 2 running, 443 sleeping, 3183 threads \n2026/10/22 11:09:59\nLoad Avg: 2.22, 2.92, 2.75 \nCPU usage: 4.14% user, 13.69% sys, 82.16% idle \nSharedLibs: 254M resident, 58M data, 58M linkedit.\nMemRegions: 506053 total, 2592M resident, 107M private, 920M shared.\nPhysMem: 7550M used (1509M wired, 2014M compressor), 65M unused.\nVM: 224T vsize, 6144M framework vsize, 3367521(0) swapins, 4120371(0) swapouts.\nNetworks: packets: 6155287/5714M in, 4343509/4459M out.\nDisks: 23372879/667G read, 3894081/146G written.\n\nPID    COMMAND          %CPU MEM  \n32022  top              0.0  3920K\n32018  Python           0.0  7536K\n32017  mdworker_shared  0.0  2576K\n31979  mdworker_shared  0.0  3424K\n31963  financed         0.0  8400K\n31962  ospredictiond    0.0  4176K\n31961  assessmentagent  0.0  3248K\n31958  AppPredictionInt 0.0  4016K\n31955  online-auth-agen 0.0  2080K\n31940  sysmond          0.0  1616K\n31877  smd              0.0  1536K\n31876  securityd_system 0.0  3136K\nProcesses: 445 total, 3 running, 442 sleeping, 3184 threads \n2026/10/22 11:10:04\nLoad Avg: 2.12, 2.88, 2.74 \nCPU usage: 7.78% user, 4.33% sys, 87.88% idle \nSharedLibs: 254M resident, 58M data, 58M linkedit.\nMemRegions: 0 total, 0B resident, 107M private, 920M shared.\nPhysMem: 7539M used (1511M wired, 2019M compressor), 77M unused.\nVM: 224T vsize, 6144M framework vsize, 3367533(12) swapins, 4120371(0) swapouts.\nNetworks: packets: 6155859/5715M in, 4343644/4459M out.\nDisks: 23373774/667G read, 3894474/146G written.\n\nPID    COMMAND          %CPU MEM   \n406    WindowServer     26.3 872M- \n23958  Codex (Renderer) 15.6 891M+ \n24002  SkyComputerUseSe 9.4  62M   \n0      kernel_task      9.0  31M-  \n23940  Codex (Service)  8.3  193M+ \n29272  replayd          2.6  10M   \n23908  ChatGPT          2.4  459M- \n1490   Google Chrome He 2.1  436M+ \n1      launchd          2.0  21M+  \n32022  top              1.6  4096K+\n558    com.apple.Driver 1.4  28M+  \n23956  codex            1.2  351M+ \nProcesses: 445 total, 3 running, 442 sleeping, 3165 threads \n2026/10/22 11:10:09\nLoad Avg: 2.11, 2.87, 2.74 \nCPU usage: 7.95% user, 3.59% sys, 88.45% idle \nSharedLibs: 254M resident, 58M data, 58M linkedit.\nMemRegions: 0 total, 0B resident, 107M private, 920M shared.\nPhysMem: 7543M used (1517M wired, 2018M compressor), 73M unused.\nVM: 224T vsize, 6144M framework vsize, 3367533(0) swapins, 4120371(0) swapouts.\nNetworks: packets: 6155946/5715M in, 4343744/4459M out.\nDisks: 23373779/667G read, 3894486/146G written.\n\nPID    COMMAND          %CPU MEM   \n406    WindowServer     29.1 873M+ \n23958  Codex (Renderer) 17.2 900M+ \n24002  SkyComputerUseSe 11.0 62M+  \n23940  Codex (Service)  10.5 195M+ \n0      kernel_task      7.4  31M   \n29272  replayd          2.7  10M   \n1490   Google Chrome He 2.5  436M+ \n23908  ChatGPT          2.2  458M- \n558    com.apple.Driver 1.5  28M   \n32022  top              1.2  4096K \n12400  claude           0.6  187M- \n13143  claude           0.4  157M  \n",
+      "stderr": ""
+    },
+    "OBS_main_present": false,
+    "Claude_main_present": true
+  },
+  "completed_JST": "2026-10-22T11:10:09.570225+09:00",
+  "comparison": {
+    "swap_MiB_before": 5276.38,
+    "swap_MiB_after": 3681.31,
+    "compressed_bytes_before": 2976219136,
+    "compressed_bytes_after": 2111635456,
+    "Chrome_Memory_Saver": "on / バランス重視（推奨）",
+    "Studio_groups_closed": 2,
+    "Claude_active_sessions_preserved": 2
+  }
+}
