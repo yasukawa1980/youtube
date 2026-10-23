@@ -1,6 +1,6 @@
-# Quiet Origins 第4話「パンドラ」：テーマ設計と台本 v01（2026-10-23 Claude）
+# Quiet Origins 第4話「パンドラ」：テーマ設計と台本 v02（2026-10-23 Claude）
 
-管理ID：`wom04`。状態：**台本v01は本人承認済み（2026-10-23。題・P05の扱いとも了承）。** テーマは2026-10-23に本人が選択（時期を問わない神話の回）。素材探しは [wom04_素材探し依頼_20261023.md](wom04_素材探し依頼_20261023.md) でCodexへ依頼する。素材が集まったら、第3話と同じく素材に合わせて台本をv02に直し、画面の割り当てを決める。音声・映像は未制作。
+管理ID：`wom04`。状態：**台本v02（本人確認待ち）。** v01は本人承認済み（2026-10-23）。v02はCodexの[素材候補](wom04_素材候補_20261023.md)（29作品）と[原典訳文の照合](research/wom04_原典訳文_20261023.md)に合わせて直した版。変更点は末尾の「v01からの変更」。制作依頼の案は [wom04_制作依頼_20261023.md](wom04_制作依頼_20261023.md)（v02の承認後にCodexへ）。音声・映像は未制作。
 
 ## 狙い
 
@@ -15,8 +15,8 @@
   4. 1500年代初め：エラスムスがラテン語で語り直したとき、ピトス（甕）がピュクシス（小箱）に。以後の絵画で箱が定着。
 - 第3話（ヘシオドスのメドゥーサ）とのつながりを一言入れる（P03）。シリーズとして見てもらうため。
 - 史料・解釈・再現を区別する型は第1〜3話と同じ。
-- 尺の目標：**約6分半**（英語 783語。第3話786語とほぼ同じ）。
-- 公開日：**完成日しだい。11/6より早めてもよい**（2026-10-23本人）。第3話（10/27）より後で、ほかの動画・ショートの予約日（10/30・11/3・11/5予定、各9:00）と同じ日にしない。時刻は9:00。次の行事回（サンクスギビング、11/12〜14目安）は第5話の候補。
+- 尺の目標：**約7分**（v02で英語877語。第3話794語より約1割長い。事実確認で必要な文を足したため）。
+- 公開日：**完成日しだい。11/6より早めてもよい**（2026-10-23本人）。第3話（10/27）より後で、ほかの動画・ショートの予約日（10/28・10/29・11/1は予約済み、10/30・11/3・11/5は予定、各9:00）と同じ日にしない。空いている候補は10/31（土）・11/2（月）・11/4（水）・11/6（金）以降。時刻は9:00。次の行事回（サンクスギビング、11/12〜14目安）は第5話の候補。
 
 ## 注意して扱う点
 
@@ -32,19 +32,19 @@
 
 | ID | 出典 | 使う内容 | 確認状況 |
 |---|---|---|---|
-| P-S01 | Hesiod, *Theogony* 570〜612行（Evelyn-White訳 1914、PD） | 火を盗んだ罰として作られた最初の女性。名前は出ない。「the beautiful evil」（585行）、女性の一族の始まり | 未照合（訳文で確認する） |
-| P-S02 | Hesiod, *Works and Days* 42〜82行（同訳） | プロメテウスの火、ヘパイストスが土と水からこねる、アテナが機織りと衣装、アフロディテが優美さ、ヘルメスが「a shameless mind and a deceitful nature」、名の由来「all they who dwelt on Olympus gave each a gift」 | 未照合 |
-| P-S03 | Hesiod, *Works and Days* 90〜105行（同訳） | それまで人は災い・労苦・病なく暮らした、女が甕（pithos）の大きなふたを取った、希望だけが甕の縁の下に残った（ゼウスの意志で、ふたが止めた）。甕の出どころ・禁止の言葉がないこと | 未照合。**P07の文はここで確定** |
-| P-S04 | Pausanias, *Description of Greece* 1.24.7（Jones訳 1918、PD） | パルテノンのアテナ像の台座に「パンドラの誕生」 | 未照合 |
-| P-S05 | Babrius, *Fables* 58（Perry訳 1965はPDでない可能性。PDの訳を探す） | ゼウスが良いものを甕に集め、人がふたを開け、良いものは神々のもとへ飛び去り、希望だけが残った | 未照合。PDの英訳がなければ要約で紹介し、引用しない |
-| P-S06 | Erasmus, *Adagia*「Malo accepto stultus sapit」（1508年版） | ピトスをピュクシスと書いた | 未照合。所蔵館のPDの刊本画像があれば素材にも |
-| P-S07 | Apuleius, *Metamorphoses*（黄金のろば）6.16〜21（Adlington訳 1566、PD） | プシュケが冥界からピュクシス（小箱）を持ち帰り、途中で開ける | 未照合 |
-| P-S08 | Panofsky, D. & E., *Pandora's Box: The Changing Aspects of a Mythical Symbol*（1956） | エラスムス説・プシュケとの混同説の出どころ。二次資料（著作権あり、引用しない） | 未照合 |
-| P-S09 | 所蔵館の作品ページ（ピトス、後世のパンドラの絵・版画） | 年代・所蔵・説明文 | 素材探しで確認 |
+| P-S01 | Hesiod, *Theogony* 570〜612行（Evelyn-White訳 1914、PD） | 名前が出ない最初の女性、「the beautiful evil」（585行）、女性の一族の始まり | **照合済み**（Codex 2026-10-23） |
+| P-S02 | Hesiod, *Works and Days* 42〜89行（同訳） | 神々の贈り物、ヘルメスの「a shameless mind and a deceitful nature」、名の由来（同訳は「All Endowed」）、プロメテウスがエピメテウスに「ゼウスの贈り物を受け取るな」と忠告（83〜89行） | **照合済み**。台本の「all-gifted」は言い換えで、引用ではない |
+| P-S03 | Hesiod, *Works and Days* 90〜105行（同訳） | 甕の大きなふた、希望が縁の下に残る、「the lid of the jar stopped her」。甕の出どころ・パンドラへの開封禁止はない | **照合済み** |
+| P-S04 | Pausanias 1.24.7（Jones訳 1918、PD） | 「On the pedestal is the birth of Pandora in relief」 | **照合済み**。原像は失われたが、レノルマンの模刻（A09）に台座の図像が残る（ケンブリッジ古典考古学博物館の解説） |
+| P-S05 | Babrius, *Fables* 58（James Davies訳 1860、PD） | ゼウスが良いものを容器に入れ、人がふたを開け、良いものは天へ、希望だけ残る。パンドラの名はない | **照合済み**。Davies訳は「cask」。ギリシャ語の語（pithosか）は制作依頼の工程0で確認 |
+| P-S06 | Erasmus, *Adagia* I.i.31（1508年 Aldus版、ULiège所蔵） | 小箱「Pixide／Pixidem」（pyxis）。開けるのはエピメテウス | **現物画像で確認**（12葉表） |
+| P-S07 | Apuleius, *Metamorphoses* 6.16〜21（Adlington訳 1566、PD） | プシュケが冥界から箱を持ち帰る、見るなと言われる、帰り道に開ける | **照合済み** |
+| P-S08 | Panofsky 1956、Huygens研究所のエラスムス校訂注（West 1978を参照） | 「箱」の起源をエラスムスに求める説、プシュケとの混同の可能性 | 二次資料。台本は「usually traced」「may have been」にとどめる |
+| P-S09 | 所蔵館の記録（ルーヴル CA 4523 ほか） | A01の年代（前675年ごろ）・産地（クレタ）・高さ（156cm） | 素材候補の記録による。工程0で作品ページの記載を再確認 |
 
-## 台本案（英語・メイン）
+## 台本（英語・メイン）v02
 
-章は6つ。P02のあとにオープニング（4秒）を入れる。
+章は6つ。P02のあとにオープニング（4秒）を入れる。正は `episodes/EP004_Pandora/records/content_en.json`。
 
 ### C01 The Box Everyone Knows
 
@@ -58,33 +58,33 @@
 
 **P03** The earliest account comes from Hesiod, the same poet who described the birth of Medusa. In two of his poems, the Theogony and the Works and Days, Pandora's story begins with fire. Prometheus has stolen fire from Zeus and given it to humans. Zeus answers with a gift of his own.
 
-**P04** At his command, the smith god Hephaestus shapes a young woman from earth and water. Athena teaches her weaving and dresses her. Aphrodite gives her grace. And Hermes gives her, in Hesiod's words, a shameless mind and a deceitful nature. Because every god of Olympus gave her a gift, she is named Pandora, "all-gifts."
+**P04** At his command, the smith god Hephaestus shapes a young woman from earth and water. Athena teaches her weaving and dresses her. Aphrodite gives her grace, and painful longing. And Hermes gives her, in Hesiod's words, a shameless mind and a deceitful nature. Because all who lived on Olympus gave her a gift, she is named Pandora, the "all-gifted."
 
 **P05** In the Theogony, she is not even named. Hesiod calls her a beautiful evil, a trap set for humankind, and presents her as the first of all women. His poems are openly hostile to women. That view belongs to Hesiod and his time, and it is one more reason to read the source carefully.
 
 ### C03 A Jar, Not a Box
 
-**P06** In the Works and Days, Hesiod tells what happened next. Before Pandora, people lived free from evils, from hard work, and from sickness. Then she lifted the great lid of a jar and scattered what was inside. Countless troubles spread among humankind.
+**P06** In the Works and Days, Hesiod tells what happened next. Prometheus had warned his brother Epimetheus never to accept a gift from Zeus. But Epimetheus accepted her. Before this, people had lived free from evils, from hard work, and from sickness. Then she lifted the great lid of a jar and scattered what was inside. Countless troubles spread among humankind.
 
-**P07** The Greek word Hesiod uses is pithos. A pithos was a large storage jar, sometimes as tall as a person, used to keep grain, oil, or wine. Hesiod does not say where the jar came from. Nor does he say that anyone told her not to open it.
+**P07** The Greek word Hesiod uses is pithos, a large storage jar for grain, oil, or wine. This one, made on Crete around 675 BCE and now in the Louvre, is about one and a half meters tall. Hesiod does not say where the jar came from. And the only warning in his poem is about accepting the gift, not about opening the jar.
 
-**P08** Only one thing stayed inside. Hope remained beneath the rim of the jar, and did not fly out, because the lid was put back in place, by the will of Zeus.
+**P08** Only one thing stayed inside. Hope remained beneath the rim of the jar. Before it could fly out, the lid stopped it, by the will of Zeus.
 
 **P09** Why hope? Readers have argued about this line for centuries. Is hope kept safe for us, or kept away from us? The Greek word, elpis, can mean hope, but also expectation of what is to come. Hesiod does not explain.
 
 ### C04 Other Ancient Versions
 
-**P10** Greek artists also told the story of Pandora's making. The ancient traveler Pausanias wrote that her birth was carved on the base of the great statue of Athena inside the Parthenon. Here, Pandora was a work of the gods, made before the eyes of Athens.
+**P10** Greek artists also told the story of Pandora's making. The ancient traveler Pausanias wrote that her birth was shown in relief on the base of the great statue of Athena inside the Parthenon. The statue itself is lost. But this small copy from Roman times still carries a version of that scene on its base.
 
-**P11** And the jar did not always hold evils. A later Greek fable, collected under the name of Babrius, tells of a jar filled with good things. A curious man lifted the lid, the good things flew away to the gods, and only hope was left behind.
+**P11** And the jar did not always hold evils. A later Greek fable, collected under the name of Babrius, tells of a jar that Zeus filled with good things. A man who could not resist lifted the lid, and the good things flew up to the heavens. Only hope was left behind. In this fable, Pandora is not even named.
 
 ### C05 How the Jar Became a Box
 
-**P12** So where did the box come from? The change is usually traced to the early 1500s, more than two thousand years after Hesiod. The Dutch scholar Erasmus retold the story in Latin, in his famous collection of proverbs, the Adages. Where Hesiod had pithos, a great jar, Erasmus wrote pyxis, a small box.
+**P12** So where did the box come from? The change is usually traced to the early 1500s, more than two thousand years after Hesiod. The Dutch scholar Erasmus retold the story in Latin, in his famous collection of proverbs, the Adages. In this edition, printed in Venice in 1508, where Hesiod had pithos, a great jar, Erasmus wrote pyxis, a small box. And in his retelling, it is Epimetheus, not Pandora, who opens it.
 
-**P13** Why a box? Scholars have suggested that Erasmus was thinking of another story, the Roman tale of Psyche, who is sent to the underworld to bring back a small box, and opens it on the way back. Whatever the reason, the word stuck.
+**P13** Why a box? Scholars have suggested that Erasmus may have been thinking of another story, the Roman tale of Psyche. She is sent to the underworld to bring back a small box, and is warned not to look inside. On the way back, she opens it. Whatever the reason, the word stuck.
 
-**P14** Erasmus's book was read across Europe. In paintings and prints from the 1500s to the 1800s, Pandora holds a casket, a chest, or a small vessel, and the jar slowly disappears. In time, "Pandora's box" became an everyday phrase in English, for something that brings many troubles once it is opened.
+**P14** Erasmus's book was read across Europe. Later artists gave Pandora many kinds of containers: caskets, chests, and vessels. Some still showed a great jar, like this print from the 1500s. But over time, the box became the familiar image, and "Pandora's box" became an everyday phrase in English, for something that brings many troubles once it is opened.
 
 ### C06 Jar, Box, and Story
 
@@ -94,7 +94,9 @@
 
 **P17** This video is based on ancient texts and public museum collections. The narration uses synthetic speech, and some images are AI-generated reconstructions. Sources and terms of use are listed in the description. If you enjoyed this story, please like the video and subscribe for more quiet origins. Thank you for watching.
 
-## 台本案（日本語）
+## 台本（日本語）v02
+
+正は `episodes/EP004_Pandora/records/content.json`。
 
 **P01** 開けてはいけない箱。「パンドラの箱」は、ギリシャ神話でもっともよく知られたイメージの一つです。一人の女性が箱を渡され、決して開けるなと言われる。けれど開けてしまい、世界じゅうの災いが飛び出す。ところが、残っているいちばん古い資料には、箱は出てきません。そこに書かれている話は、私たちが覚えている話よりも、ずっと不思議なものです。
 
@@ -102,27 +104,27 @@
 
 **P03** いちばん古い記録は、メドゥーサの誕生を語ったのと同じ詩人、ヘシオドスです。『神統記』と『仕事と日』という二つの詩で、パンドラの物語は火から始まります。プロメテウスがゼウスから火を盗み、人間に与えました。ゼウスは、自分からの「贈り物」で応えます。
 
-**P04** ゼウスの命令で、鍛冶の神ヘパイストスが、土と水から若い女性の姿をこしらえます。アテナは機織りを教え、衣装を着せました。アフロディテは優美さを与えました。そしてヘルメスは、ヘシオドスの言葉によれば、恥知らずな心と、人を欺く性質を与えました。オリュンポスの神々がみな贈り物をしたので、彼女はパンドラ、「すべての贈り物」と名づけられます。
+**P04** ゼウスの命令で、鍛冶の神ヘパイストスが、土と水から若い女性の姿をこしらえます。アテナは機織りを教え、衣装を着せました。アフロディテは優美さと、身を焦がす思いを与えました。そしてヘルメスは、ヘシオドスの言葉によれば、恥知らずな心と、人を欺く性質を与えました。オリュンポスに住む神々がみな贈り物をしたので、彼女はパンドラ、「すべての贈り物を授けられた者」と名づけられます。
 
 **P05** 『神統記』では、名前さえ出てきません。ヘシオドスは彼女を「美しい災い」、人間に仕掛けられた罠と呼び、すべての女性の始まりとして描いています。彼の詩には、女性へのはっきりとした敵意があります。それはヘシオドスとその時代の見方であり、資料を注意深く読むべき理由の一つでもあります。
 
-**P06** 『仕事と日』で、ヘシオドスはその先を語ります。パンドラが来る前、人々は災いも、つらい労働も、病もなく暮らしていました。ところが彼女が甕の大きなふたを取り、中のものをまき散らしました。数えきれない苦しみが、人々のあいだに広がったのです。
+**P06** 『仕事と日』で、ヘシオドスはその先を語ります。プロメテウスは弟のエピメテウスに、ゼウスからの贈り物は決して受け取るな、と忠告していました。けれどエピメテウスは、彼女を受け入れます。それまで人々は、災いも、つらい労働も、病もなく暮らしていました。ところが彼女が甕の大きなふたを取り、中のものをまき散らしました。数えきれない苦しみが、人々のあいだに広がったのです。
 
-**P07** ヘシオドスが使っているギリシャ語は「ピトス」。ピトスは大きな貯蔵用の甕で、人の背丈ほどあるものもあり、穀物や油、ぶどう酒を蓄えるのに使われました。ヘシオドスは、その甕がどこから来たのかを語りません。誰かが彼女に「開けるな」と言ったとも書いていません。
+**P07** ヘシオドスが使っているギリシャ語は「ピトス」。穀物や油、ぶどう酒を蓄える大きな甕のことです。この甕は紀元前675年ごろクレタ島で作られ、今はルーヴル美術館にあります。高さはおよそ1メートル半です。ヘシオドスは、甕がどこから来たのかを語りません。そして詩の中の忠告は、贈り物を受け取ることについてで、甕を開けることについてではありません。
 
-**P08** 中に残ったのは、ただ一つ。希望だけが甕の縁の下にとどまり、外へは飛び出しませんでした。ゼウスの意志で、ふたが元に戻されたからです。
+**P08** 中に残ったのは、ただ一つ。希望だけが甕の縁の下にとどまりました。飛び出すより先に、ゼウスの意志で、ふたがそれを止めたのです。
 
 **P09** なぜ、希望なのでしょう。この一節は、何百年も議論されてきました。希望は人間のために守られたのか、それとも人間から遠ざけられたのか。ギリシャ語の「エルピス」は希望とも訳せますが、これから起こることへの予想、という意味もあります。ヘシオドスは説明していません。
 
-**P10** ギリシャの芸術家たちも、パンドラが作られる場面を表しました。古代の旅行家パウサニアスによれば、パルテノン神殿の中にあった大きなアテナ像の台座には、パンドラの誕生が彫られていました。ここでのパンドラは、アテネの人々の目の前で神々が作り上げた作品だったのです。
+**P10** ギリシャの芸術家たちも、パンドラが作られる場面を表しました。古代の旅行家パウサニアスによれば、パルテノン神殿の中にあった大きなアテナ像の台座には、パンドラの誕生が浮き彫りで表されていました。像そのものは失われています。けれど、ローマ時代に作られたこの小さな模刻の台座には、その場面の面影が残っています。
 
-**P11** そして、甕の中身はいつも災いだったわけではありません。バブリオスの名で伝わる後のギリシャの寓話では、甕は良いもので満ちています。好奇心にかられた男がふたを開けると、良いものは神々のもとへ飛び去り、希望だけが残りました。
+**P11** そして、甕の中身はいつも災いだったわけではありません。バブリオスの名で伝わる後のギリシャの寓話では、ゼウスが甕を良いもので満たします。こらえきれなくなった人間がふたを開けると、良いものは天へ飛び去り、希望だけが残りました。この寓話には、パンドラの名前さえ出てきません。
 
-**P12** では、箱はどこから来たのでしょう。変化は、ヘシオドスから二千年以上たった1500年代の初めにさかのぼる、とよく言われます。オランダの学者エラスムスが、有名なことわざ集『格言集』で、この話をラテン語で語り直しました。ヘシオドスが大きな甕「ピトス」と書いたところを、エラスムスは小箱「ピュクシス」と書いたのです。
+**P12** では、箱はどこから来たのでしょう。変化は、ヘシオドスから二千年以上たった1500年代の初めにさかのぼる、とよく言われます。オランダの学者エラスムスが、有名なことわざ集『格言集』で、この話をラテン語で語り直しました。1508年にヴェネツィアで刷られたこの版で、ヘシオドスが大きな甕「ピトス」と書いたところを、エラスムスは小箱「ピュクシス」と書いています。しかもエラスムスの話では、箱を開けるのはパンドラではなく、エピメテウスです。
 
-**P13** なぜ箱だったのでしょう。研究者は、エラスムスが別の物語を思い浮かべていたのではないか、と考えています。ローマの物語で、冥界から小さな箱を持ち帰るように命じられ、帰り道でそれを開けてしまうプシュケの話です。理由はどうあれ、その言葉は定着しました。
+**P13** なぜ箱だったのでしょう。研究者は、エラスムスが別の物語を思い浮かべていたのかもしれない、と考えています。ローマの物語のプシュケです。彼女は冥界から小さな箱を持ち帰るよう命じられ、中を見てはいけないと言われます。けれど帰り道で、それを開けてしまいます。理由はどうあれ、その言葉は定着しました。
 
-**P14** エラスムスの本は、ヨーロッパじゅうで読まれました。1500年代から1800年代の絵画や版画では、パンドラは小箱や櫃、小さな器を手にしていて、甕は少しずつ姿を消していきます。やがて「パンドラの箱」は、開けたら多くの災いをもたらすもの、という意味の、英語の日常の言い回しになりました。
+**P14** エラスムスの本は、ヨーロッパじゅうで読まれました。後の画家たちは、パンドラにさまざまな入れ物を持たせました。小箱、櫃、器。1500年代のこの版画のように、大きな甕を描いた人もいます。それでも時とともに箱のイメージが定着し、「パンドラの箱」は、開けたら多くの災いをもたらすもの、という意味の、英語の日常の言い回しになりました。
 
 **P15** では、パンドラの箱は、箱だったことがあるのでしょうか。ヘシオドスでは、大きな貯蔵用の甕です。後の寓話では、その甕に良いものが入っています。ルネサンスのことわざ集で、それは小箱になります。そして絵画では、画家が思い描いたどんな形にもなりました。
 
@@ -130,32 +132,26 @@
 
 **P17** この動画は、古代の文献と公開された美術館のコレクションをもとに構成しました。ナレーションには音声合成を、一部の映像にはAIによる再現画を使っています。出典と利用条件は概要欄にまとめています。楽しんでいただけたら、高評価とチャンネル登録をお願いします。ご覧いただき、ありがとうございました。
 
-## 画面の構成（v01：素材が集まる前の案）
+## 画面の構成（v02）
 
-方針は第2話・第3話と同じ：**同じ絵・資料は1回だけ**（同じ作品の別写真・拡大も1回に数える）、余白はB（ぼかし背景）、細部に触れる場面はD（拡大の添え）、資料は最大1760×820px、札は英日併記、出典は上部。B番号は[素材探し依頼](wom04_素材探し依頼_20261023.md)。素材が集まったらA番号に置き換える。
-
-| 区間 | 素材の案 | 種類・注意 |
-|---|---|---|
-| P01 | B10（後世の絵：箱を持つパンドラ）→ AI：暗い部屋の机に置かれた閉じた小箱（人物なし） | 史料、AI。冒頭のつかみ |
-| P02 | AI：エーゲ海の夕暮れ、遠くの神殿 | AI（第3話M02と同じ構図にしない） |
-| P03 | B04（プロメテウス・火を描いた古代の作品）→ AI：炉の火 | 史料、AI |
-| P04 | B05（ヘパイストス、アテナ、アフロディテ、ヘルメスのいずれか。1点ずつ別作品で）| 史料。神々を並べる図解にするなら名前はローマ字＋小さなカタカナ |
-| P05 | AI：古い詩の写本の雰囲気（架空の文字を実在の文書に見せない） | AI。人物を描かない |
-| P06 | AI：古代の家の貯蔵室に並ぶ大きな甕（人物なし）| AI |
-| P07 | **B01（ピトス：大きな貯蔵用の甕）**。全体 → 縁・ふたの部分にD | 史料。この回の中心の資料 |
-| P08 | B02（別のピトス・ふた付きの甕、または甕の破片）| 史料 |
-| P09 | 図解：「elpis」＝hope／expectation（文字はy≤700） | 図解 |
-| P10 | B06（アテナ・パルテノス像の古代の縮小模刻、またはパルテノンの版画）| 史料。台座の浮き彫りそのものは残っていない（要確認）ので、「台座の再現」とは書かない |
-| P11 | B07（ふた付きの小さな容器、または寓話の古い刊本）| 史料 |
-| P12 | B08（エラスムスの肖像：デューラーやホルバインの版画）→ B09（『格言集』の古い刊本）| 史料 |
-| P13 | B11（プシュケと小箱の後世の絵・版画）| 史料 |
-| P14 | B10とは別の後世の絵・版画を2〜3点（箱・櫃・器の違いが分かるもの）| 史料。着衣のもの、または手元を切り出す |
-| P15 | 図解：甕 → 良いものの甕 → 小箱 → 絵の中の箱、の時間軸（既出の写真を再掲しない） | 図解 |
-| P16 | AI動画：夕暮れの光の中、ふたの閉じた大きな甕（人物なし） | AI動画 |
-| P17 | クレジット（採用作品のみ） | — |
+**確定版のショット割りは [制作依頼](wom04_制作依頼_20261023.md) の4。** 使う素材はA01・A02・A04〜A17・A21・A29の18作品（それぞれ1回）。A03・A18〜A20・A22〜A28は使わない。
 
 ## 本人の確認結果（2026-10-23）
 
 1. 題：**Pandora's Box Was Never a Box** で了承。
 2. 公開日：完成日しだいで、早めてもよい。
 3. P05（ヘシオドスの女性への敵意を一度だけはっきり言う）：了承。
+
+## v01からの変更（v02、2026-10-23）
+
+Codexの[原典照合](research/wom04_原典訳文_20261023.md)と[素材候補](wom04_素材候補_20261023.md)を受けて直した。
+
+1. **P06・P07**：ヘシオドスには、パンドラへの「開けるな」はないが、プロメテウスがエピメテウスに「ゼウスの贈り物を受け取るな」と忠告する話がある。P06にその忠告を足し、P07は「詩の中の忠告は贈り物を受け取ることについてで、甕を開けることではない」に直した。P07に、画面のピトス（A01：クレタ、前675年ごろ、ルーヴル、高さ156cm）の説明を足した。
+2. **P08**：「ふたが戻された」を、Evelyn-White訳に沿って「ふたがそれを止めた」に。閉めた人や目的を足さない。
+3. **P04**：アフロディテが与えたのは優美さと「身を焦がす思い（painful longing）」。名前の言い換えを「all-gifts」→「all-gifted」。
+4. **P10**：「像は失われたが、ローマ時代の小さな模刻の台座にその場面が残る」を足した（A09）。
+5. **P11**：寓話の訳に合わせ「天へ飛び去った」。パンドラの名前が出ないことを足した。
+6. **P12**：1508年ヴェネツィア版を画面で見せる文にし、エラスムスの話では開けるのがエピメテウスであることを足した。
+7. **P13**：プシュケは「中を見るな」と言われていた（アプレイウス）。混同説は「may have been」とした。
+8. **P14**：後の絵にも甕を描いたもの（A21、1500年代）があるため、「甕が少しずつ消えた」をやめ、「箱がなじみの姿になった」とした。
+9. 英語は783語→877語（約7分）。日本語は約2,390字。

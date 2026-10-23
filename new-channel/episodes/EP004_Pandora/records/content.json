@@ -1,0 +1,310 @@
+{
+ "episode_id": "EP004",
+ "series": "Quiet Origins",
+ "language": "ja",
+ "title": "パンドラの箱は、箱ではなかった",
+ "subtitle": "ヘシオドスの大きな甕が、ルネサンスで小箱になるまで",
+ "script_version": "v02 (2026-10-23)",
+ "opening_after": "P02",
+ "chapters": [
+  {
+   "id": "C01",
+   "title": "誰もが知る箱"
+  },
+  {
+   "id": "C02",
+   "title": "神々が作った女性"
+  },
+  {
+   "id": "C03",
+   "title": "箱ではなく甕"
+  },
+  {
+   "id": "C04",
+   "title": "古代のほかの姿"
+  },
+  {
+   "id": "C05",
+   "title": "甕が箱になるまで"
+  },
+  {
+   "id": "C06",
+   "title": "甕と箱と物語"
+  }
+ ],
+ "sources": [
+  {
+   "id": "P-S01",
+   "title": "Hesiod, Theogony 570–612 (tr. H. G. Evelyn-White, 1914)",
+   "kind": "primary_text",
+   "status": "checked by Codex 2026-10-23: 'the beautiful evil' (585); not named"
+  },
+  {
+   "id": "P-S02",
+   "title": "Hesiod, Works and Days 42–89 (tr. H. G. Evelyn-White, 1914)",
+   "kind": "primary_text",
+   "status": "checked by Codex 2026-10-23: gifts of the gods, 'a shameless mind and a deceitful nature', name 'All Endowed', Prometheus' warning to Epimetheus (83–89)"
+  },
+  {
+   "id": "P-S03",
+   "title": "Hesiod, Works and Days 90–105 (tr. H. G. Evelyn-White, 1914)",
+   "kind": "primary_text",
+   "status": "checked by Codex 2026-10-23: 'the great lid of the jar'; 'the lid of the jar stopped her'; no origin of the jar, no order not to open it"
+  },
+  {
+   "id": "P-S04",
+   "title": "Pausanias, Description of Greece 1.24.7 (tr. W. H. S. Jones, 1918)",
+   "kind": "primary_text",
+   "status": "checked by Codex 2026-10-23: 'On the pedestal is the birth of Pandora in relief'"
+  },
+  {
+   "id": "P-S05",
+   "title": "Babrius, Fables 58 (tr. James Davies, 1860)",
+   "kind": "primary_text",
+   "status": "checked by Codex 2026-10-23: Zeus' cask of blessings; Pandora not named. Greek word for the container to be confirmed"
+  },
+  {
+   "id": "P-S06",
+   "title": "Erasmus, Adagiorum chiliades, Venice: Aldus, 1508, I.i.31 'Malo accepto stultus sapit' (ULiège R00134C, f.12r)",
+   "kind": "primary_text",
+   "status": "checked by Codex 2026-10-23: 'Pixide' / 'Pixidem'; Epimetheus opens it"
+  },
+  {
+   "id": "P-S07",
+   "title": "Apuleius, Metamorphoses 6.16–21 (tr. William Adlington, 1566)",
+   "kind": "primary_text",
+   "status": "checked by Codex 2026-10-23: the box, the warning, Psyche opens it"
+  },
+  {
+   "id": "P-S08",
+   "title": "Dora and Erwin Panofsky, Pandora's Box (1956); Huygens ASD commentary on Adagia I.i.31",
+   "kind": "secondary",
+   "status": "origin of the 'box' traced to Erasmus; Psyche confusion is a scholarly suggestion"
+  },
+  {
+   "id": "P-S09",
+   "title": "Museum records: Louvre CA 4523, CA 795; Lenormant Athena (NAM 128); Met, Rijksmuseum, NGA, Houghton",
+   "kind": "museum_record",
+   "status": "see wom04_素材候補_20261023.md"
+  }
+ ],
+ "segments": [
+  {
+   "id": "P01",
+   "chapter": "C01",
+   "sources": [],
+   "classification": "editorial_question",
+   "visuals": [
+    "A13",
+    "R01"
+   ],
+   "text": "開けてはいけない箱。「パンドラの箱」は、ギリシャ神話でもっともよく知られたイメージの一つです。一人の女性が箱を渡され、決して開けるなと言われる。けれど開けてしまい、世界じゅうの災いが飛び出す。ところが、残っているいちばん古い資料には、箱は出てきません。そこに書かれている話は、私たちが覚えている話よりも、ずっと不思議なものです。"
+  },
+  {
+   "id": "P02",
+   "chapter": "C01",
+   "sources": [],
+   "classification": "editorial_question",
+   "visuals": [
+    "R02",
+    "R05"
+   ],
+   "text": "今回は、紀元前700年ごろのギリシャの詩人から、古代の貯蔵用の甕、後の時代の寓話、そしてルネサンスの学者のことわざ集と、私たちの知る「箱」を彼女に持たせた絵画まで、パンドラをたどります。"
+  },
+  {
+   "id": "P03",
+   "chapter": "C02",
+   "sources": [
+    "P-S01",
+    "P-S02"
+   ],
+   "classification": "source_based",
+   "visuals": [
+    "A04",
+    "V01"
+   ],
+   "text": "いちばん古い記録は、メドゥーサの誕生を語ったのと同じ詩人、ヘシオドスです。『神統記』と『仕事と日』という二つの詩で、パンドラの物語は火から始まります。プロメテウスがゼウスから火を盗み、人間に与えました。ゼウスは、自分からの「贈り物」で応えます。"
+  },
+  {
+   "id": "P04",
+   "chapter": "C02",
+   "sources": [
+    "P-S02"
+   ],
+   "classification": "source_based",
+   "visuals": [
+    "A05",
+    "A06",
+    "A07",
+    "A08"
+   ],
+   "text": "ゼウスの命令で、鍛冶の神ヘパイストスが、土と水から若い女性の姿をこしらえます。アテナは機織りを教え、衣装を着せました。アフロディテは優美さと、身を焦がす思いを与えました。そしてヘルメスは、ヘシオドスの言葉によれば、恥知らずな心と、人を欺く性質を与えました。オリュンポスに住む神々がみな贈り物をしたので、彼女はパンドラ、「すべての贈り物を授けられた者」と名づけられます。"
+  },
+  {
+   "id": "P05",
+   "chapter": "C02",
+   "sources": [
+    "P-S01"
+   ],
+   "classification": "source_based",
+   "visuals": [
+    "R03"
+   ],
+   "text": "『神統記』では、名前さえ出てきません。ヘシオドスは彼女を「美しい災い」、人間に仕掛けられた罠と呼び、すべての女性の始まりとして描いています。彼の詩には、女性へのはっきりとした敵意があります。それはヘシオドスとその時代の見方であり、資料を注意深く読むべき理由の一つでもあります。"
+  },
+  {
+   "id": "P06",
+   "chapter": "C03",
+   "sources": [
+    "P-S02",
+    "P-S03"
+   ],
+   "classification": "source_based",
+   "visuals": [
+    "A17",
+    "R04"
+   ],
+   "text": "『仕事と日』で、ヘシオドスはその先を語ります。プロメテウスは弟のエピメテウスに、ゼウスからの贈り物は決して受け取るな、と忠告していました。けれどエピメテウスは、彼女を受け入れます。それまで人々は、災いも、つらい労働も、病もなく暮らしていました。ところが彼女が甕の大きなふたを取り、中のものをまき散らしました。数えきれない苦しみが、人々のあいだに広がったのです。"
+  },
+  {
+   "id": "P07",
+   "chapter": "C03",
+   "sources": [
+    "P-S03",
+    "P-S09"
+   ],
+   "classification": "source_based",
+   "visuals": [
+    "A01"
+   ],
+   "text": "ヘシオドスが使っているギリシャ語は「ピトス」。穀物や油、ぶどう酒を蓄える大きな甕のことです。この甕は紀元前675年ごろクレタ島で作られ、今はルーヴル美術館にあります。高さはおよそ1メートル半です。ヘシオドスは、甕がどこから来たのかを語りません。そして詩の中の忠告は、贈り物を受け取ることについてで、甕を開けることについてではありません。"
+  },
+  {
+   "id": "P08",
+   "chapter": "C03",
+   "sources": [
+    "P-S03"
+   ],
+   "classification": "source_based",
+   "visuals": [
+    "A02"
+   ],
+   "text": "中に残ったのは、ただ一つ。希望だけが甕の縁の下にとどまりました。飛び出すより先に、ゼウスの意志で、ふたがそれを止めたのです。"
+  },
+  {
+   "id": "P09",
+   "chapter": "C03",
+   "sources": [
+    "P-S03"
+   ],
+   "classification": "scholarly_interpretation",
+   "visuals": [
+    "D_elpis"
+   ],
+   "text": "なぜ、希望なのでしょう。この一節は、何百年も議論されてきました。希望は人間のために守られたのか、それとも人間から遠ざけられたのか。ギリシャ語の「エルピス」は希望とも訳せますが、これから起こることへの予想、という意味もあります。ヘシオドスは説明していません。"
+  },
+  {
+   "id": "P10",
+   "chapter": "C04",
+   "sources": [
+    "P-S04",
+    "P-S09"
+   ],
+   "classification": "source_based",
+   "visuals": [
+    "A29",
+    "A09"
+   ],
+   "text": "ギリシャの芸術家たちも、パンドラが作られる場面を表しました。古代の旅行家パウサニアスによれば、パルテノン神殿の中にあった大きなアテナ像の台座には、パンドラの誕生が浮き彫りで表されていました。像そのものは失われています。けれど、ローマ時代に作られたこの小さな模刻の台座には、その場面の面影が残っています。"
+  },
+  {
+   "id": "P11",
+   "chapter": "C04",
+   "sources": [
+    "P-S05"
+   ],
+   "classification": "source_based",
+   "visuals": [
+    "V02"
+   ],
+   "text": "そして、甕の中身はいつも災いだったわけではありません。バブリオスの名で伝わる後のギリシャの寓話では、ゼウスが甕を良いもので満たします。こらえきれなくなった人間がふたを開けると、良いものは天へ飛び去り、希望だけが残りました。この寓話には、パンドラの名前さえ出てきません。"
+  },
+  {
+   "id": "P12",
+   "chapter": "C05",
+   "sources": [
+    "P-S06",
+    "P-S08"
+   ],
+   "classification": "source_based",
+   "visuals": [
+    "A11",
+    "A12",
+    "A10"
+   ],
+   "text": "では、箱はどこから来たのでしょう。変化は、ヘシオドスから二千年以上たった1500年代の初めにさかのぼる、とよく言われます。オランダの学者エラスムスが、有名なことわざ集『格言集』で、この話をラテン語で語り直しました。1508年にヴェネツィアで刷られたこの版で、ヘシオドスが大きな甕「ピトス」と書いたところを、エラスムスは小箱「ピュクシス」と書いています。しかもエラスムスの話では、箱を開けるのはパンドラではなく、エピメテウスです。"
+  },
+  {
+   "id": "P13",
+   "chapter": "C05",
+   "sources": [
+    "P-S07",
+    "P-S08"
+   ],
+   "classification": "scholarly_interpretation",
+   "visuals": [
+    "A16"
+   ],
+   "text": "なぜ箱だったのでしょう。研究者は、エラスムスが別の物語を思い浮かべていたのかもしれない、と考えています。ローマの物語のプシュケです。彼女は冥界から小さな箱を持ち帰るよう命じられ、中を見てはいけないと言われます。けれど帰り道で、それを開けてしまいます。理由はどうあれ、その言葉は定着しました。"
+  },
+  {
+   "id": "P14",
+   "chapter": "C05",
+   "sources": [
+    "P-S08",
+    "P-S09"
+   ],
+   "classification": "source_based",
+   "visuals": [
+    "A21",
+    "A14",
+    "A15"
+   ],
+   "text": "エラスムスの本は、ヨーロッパじゅうで読まれました。後の画家たちは、パンドラにさまざまな入れ物を持たせました。小箱、櫃、器。1500年代のこの版画のように、大きな甕を描いた人もいます。それでも時とともに箱のイメージが定着し、「パンドラの箱」は、開けたら多くの災いをもたらすもの、という意味の、英語の日常の言い回しになりました。"
+  },
+  {
+   "id": "P15",
+   "chapter": "C06",
+   "sources": [
+    "P-S03",
+    "P-S05",
+    "P-S06"
+   ],
+   "classification": "summary",
+   "visuals": [
+    "D_timeline"
+   ],
+   "text": "では、パンドラの箱は、箱だったことがあるのでしょうか。ヘシオドスでは、大きな貯蔵用の甕です。後の寓話では、その甕に良いものが入っています。ルネサンスのことわざ集で、それは小箱になります。そして絵画では、画家が思い描いたどんな形にもなりました。"
+  },
+  {
+   "id": "P16",
+   "chapter": "C06",
+   "sources": [],
+   "classification": "summary",
+   "visuals": [
+    "V03"
+   ],
+   "text": "私たちの知る「箱」は、この物語のいちばん古い部分ではありません。いちばん新しい部分の一つです。どの物語にも由来がある。ときには、その中に出てくる物にも。"
+  },
+  {
+   "id": "P17",
+   "chapter": "C06",
+   "sources": [],
+   "classification": "credits",
+   "visuals": [
+    "credits"
+   ],
+   "text": "この動画は、古代の文献と公開された美術館のコレクションをもとに構成しました。ナレーションには音声合成を、一部の映像にはAIによる再現画を使っています。出典と利用条件は概要欄にまとめています。楽しんでいただけたら、高評価とチャンネル登録をお願いします。ご覧いただき、ありがとうございました。"
+  }
+ ]
+}

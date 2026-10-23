@@ -1,0 +1,310 @@
+{
+ "episode_id": "EP004",
+ "series": "Quiet Origins",
+ "language": "en",
+ "title": "Pandora's Box Was Never a Box | What the Ancient Sources Say",
+ "subtitle": "How a great storage jar in Hesiod became a small box in the Renaissance",
+ "script_version": "v02 (2026-10-23)",
+ "opening_after": "P02",
+ "chapters": [
+  {
+   "id": "C01",
+   "title": "The Box Everyone Knows"
+  },
+  {
+   "id": "C02",
+   "title": "Made by the Gods"
+  },
+  {
+   "id": "C03",
+   "title": "A Jar, Not a Box"
+  },
+  {
+   "id": "C04",
+   "title": "Other Ancient Versions"
+  },
+  {
+   "id": "C05",
+   "title": "How the Jar Became a Box"
+  },
+  {
+   "id": "C06",
+   "title": "Jar, Box, and Story"
+  }
+ ],
+ "sources": [
+  {
+   "id": "P-S01",
+   "title": "Hesiod, Theogony 570–612 (tr. H. G. Evelyn-White, 1914)",
+   "kind": "primary_text",
+   "status": "checked by Codex 2026-10-23: 'the beautiful evil' (585); not named"
+  },
+  {
+   "id": "P-S02",
+   "title": "Hesiod, Works and Days 42–89 (tr. H. G. Evelyn-White, 1914)",
+   "kind": "primary_text",
+   "status": "checked by Codex 2026-10-23: gifts of the gods, 'a shameless mind and a deceitful nature', name 'All Endowed', Prometheus' warning to Epimetheus (83–89)"
+  },
+  {
+   "id": "P-S03",
+   "title": "Hesiod, Works and Days 90–105 (tr. H. G. Evelyn-White, 1914)",
+   "kind": "primary_text",
+   "status": "checked by Codex 2026-10-23: 'the great lid of the jar'; 'the lid of the jar stopped her'; no origin of the jar, no order not to open it"
+  },
+  {
+   "id": "P-S04",
+   "title": "Pausanias, Description of Greece 1.24.7 (tr. W. H. S. Jones, 1918)",
+   "kind": "primary_text",
+   "status": "checked by Codex 2026-10-23: 'On the pedestal is the birth of Pandora in relief'"
+  },
+  {
+   "id": "P-S05",
+   "title": "Babrius, Fables 58 (tr. James Davies, 1860)",
+   "kind": "primary_text",
+   "status": "checked by Codex 2026-10-23: Zeus' cask of blessings; Pandora not named. Greek word for the container to be confirmed"
+  },
+  {
+   "id": "P-S06",
+   "title": "Erasmus, Adagiorum chiliades, Venice: Aldus, 1508, I.i.31 'Malo accepto stultus sapit' (ULiège R00134C, f.12r)",
+   "kind": "primary_text",
+   "status": "checked by Codex 2026-10-23: 'Pixide' / 'Pixidem'; Epimetheus opens it"
+  },
+  {
+   "id": "P-S07",
+   "title": "Apuleius, Metamorphoses 6.16–21 (tr. William Adlington, 1566)",
+   "kind": "primary_text",
+   "status": "checked by Codex 2026-10-23: the box, the warning, Psyche opens it"
+  },
+  {
+   "id": "P-S08",
+   "title": "Dora and Erwin Panofsky, Pandora's Box (1956); Huygens ASD commentary on Adagia I.i.31",
+   "kind": "secondary",
+   "status": "origin of the 'box' traced to Erasmus; Psyche confusion is a scholarly suggestion"
+  },
+  {
+   "id": "P-S09",
+   "title": "Museum records: Louvre CA 4523, CA 795; Lenormant Athena (NAM 128); Met, Rijksmuseum, NGA, Houghton",
+   "kind": "museum_record",
+   "status": "see wom04_素材候補_20261023.md"
+  }
+ ],
+ "segments": [
+  {
+   "id": "P01",
+   "chapter": "C01",
+   "sources": [],
+   "classification": "editorial_question",
+   "visuals": [
+    "A13",
+    "R01"
+   ],
+   "text": "Don't open the box. Pandora's box is one of the best-known images from Greek myth. A woman is given a box, she is told never to open it, and when she does, every evil in the world escapes. But in the oldest source we have, there is no box. And the story it tells is stranger than the one we remember."
+  },
+  {
+   "id": "P02",
+   "chapter": "C01",
+   "sources": [],
+   "classification": "editorial_question",
+   "visuals": [
+    "R02",
+    "R05"
+   ],
+   "text": "In this episode, we follow Pandora from a Greek poet of around 700 BCE, through ancient storage jars and a later fable, to a Renaissance scholar's book of proverbs and the paintings that gave her the box we know today."
+  },
+  {
+   "id": "P03",
+   "chapter": "C02",
+   "sources": [
+    "P-S01",
+    "P-S02"
+   ],
+   "classification": "source_based",
+   "visuals": [
+    "A04",
+    "V01"
+   ],
+   "text": "The earliest account comes from Hesiod, the same poet who described the birth of Medusa. In two of his poems, the Theogony and the Works and Days, Pandora's story begins with fire. Prometheus has stolen fire from Zeus and given it to humans. Zeus answers with a gift of his own."
+  },
+  {
+   "id": "P04",
+   "chapter": "C02",
+   "sources": [
+    "P-S02"
+   ],
+   "classification": "source_based",
+   "visuals": [
+    "A05",
+    "A06",
+    "A07",
+    "A08"
+   ],
+   "text": "At his command, the smith god Hephaestus shapes a young woman from earth and water. Athena teaches her weaving and dresses her. Aphrodite gives her grace, and painful longing. And Hermes gives her, in Hesiod's words, a shameless mind and a deceitful nature. Because all who lived on Olympus gave her a gift, she is named Pandora, the \"all-gifted.\""
+  },
+  {
+   "id": "P05",
+   "chapter": "C02",
+   "sources": [
+    "P-S01"
+   ],
+   "classification": "source_based",
+   "visuals": [
+    "R03"
+   ],
+   "text": "In the Theogony, she is not even named. Hesiod calls her a beautiful evil, a trap set for humankind, and presents her as the first of all women. His poems are openly hostile to women. That view belongs to Hesiod and his time, and it is one more reason to read the source carefully."
+  },
+  {
+   "id": "P06",
+   "chapter": "C03",
+   "sources": [
+    "P-S02",
+    "P-S03"
+   ],
+   "classification": "source_based",
+   "visuals": [
+    "A17",
+    "R04"
+   ],
+   "text": "In the Works and Days, Hesiod tells what happened next. Prometheus had warned his brother Epimetheus never to accept a gift from Zeus. But Epimetheus accepted her. Before this, people had lived free from evils, from hard work, and from sickness. Then she lifted the great lid of a jar and scattered what was inside. Countless troubles spread among humankind."
+  },
+  {
+   "id": "P07",
+   "chapter": "C03",
+   "sources": [
+    "P-S03",
+    "P-S09"
+   ],
+   "classification": "source_based",
+   "visuals": [
+    "A01"
+   ],
+   "text": "The Greek word Hesiod uses is pithos, a large storage jar for grain, oil, or wine. This one, made on Crete around 675 BCE and now in the Louvre, is about one and a half meters tall. Hesiod does not say where the jar came from. And the only warning in his poem is about accepting the gift, not about opening the jar."
+  },
+  {
+   "id": "P08",
+   "chapter": "C03",
+   "sources": [
+    "P-S03"
+   ],
+   "classification": "source_based",
+   "visuals": [
+    "A02"
+   ],
+   "text": "Only one thing stayed inside. Hope remained beneath the rim of the jar. Before it could fly out, the lid stopped it, by the will of Zeus."
+  },
+  {
+   "id": "P09",
+   "chapter": "C03",
+   "sources": [
+    "P-S03"
+   ],
+   "classification": "scholarly_interpretation",
+   "visuals": [
+    "D_elpis"
+   ],
+   "text": "Why hope? Readers have argued about this line for centuries. Is hope kept safe for us, or kept away from us? The Greek word, elpis, can mean hope, but also expectation of what is to come. Hesiod does not explain."
+  },
+  {
+   "id": "P10",
+   "chapter": "C04",
+   "sources": [
+    "P-S04",
+    "P-S09"
+   ],
+   "classification": "source_based",
+   "visuals": [
+    "A29",
+    "A09"
+   ],
+   "text": "Greek artists also told the story of Pandora's making. The ancient traveler Pausanias wrote that her birth was shown in relief on the base of the great statue of Athena inside the Parthenon. The statue itself is lost. But this small copy from Roman times still carries a version of that scene on its base."
+  },
+  {
+   "id": "P11",
+   "chapter": "C04",
+   "sources": [
+    "P-S05"
+   ],
+   "classification": "source_based",
+   "visuals": [
+    "V02"
+   ],
+   "text": "And the jar did not always hold evils. A later Greek fable, collected under the name of Babrius, tells of a jar that Zeus filled with good things. A man who could not resist lifted the lid, and the good things flew up to the heavens. Only hope was left behind. In this fable, Pandora is not even named."
+  },
+  {
+   "id": "P12",
+   "chapter": "C05",
+   "sources": [
+    "P-S06",
+    "P-S08"
+   ],
+   "classification": "source_based",
+   "visuals": [
+    "A11",
+    "A12",
+    "A10"
+   ],
+   "text": "So where did the box come from? The change is usually traced to the early 1500s, more than two thousand years after Hesiod. The Dutch scholar Erasmus retold the story in Latin, in his famous collection of proverbs, the Adages. In this edition, printed in Venice in 1508, where Hesiod had pithos, a great jar, Erasmus wrote pyxis, a small box. And in his retelling, it is Epimetheus, not Pandora, who opens it."
+  },
+  {
+   "id": "P13",
+   "chapter": "C05",
+   "sources": [
+    "P-S07",
+    "P-S08"
+   ],
+   "classification": "scholarly_interpretation",
+   "visuals": [
+    "A16"
+   ],
+   "text": "Why a box? Scholars have suggested that Erasmus may have been thinking of another story, the Roman tale of Psyche. She is sent to the underworld to bring back a small box, and is warned not to look inside. On the way back, she opens it. Whatever the reason, the word stuck."
+  },
+  {
+   "id": "P14",
+   "chapter": "C05",
+   "sources": [
+    "P-S08",
+    "P-S09"
+   ],
+   "classification": "source_based",
+   "visuals": [
+    "A21",
+    "A14",
+    "A15"
+   ],
+   "text": "Erasmus's book was read across Europe. Later artists gave Pandora many kinds of containers: caskets, chests, and vessels. Some still showed a great jar, like this print from the 1500s. But over time, the box became the familiar image, and \"Pandora's box\" became an everyday phrase in English, for something that brings many troubles once it is opened."
+  },
+  {
+   "id": "P15",
+   "chapter": "C06",
+   "sources": [
+    "P-S03",
+    "P-S05",
+    "P-S06"
+   ],
+   "classification": "summary",
+   "visuals": [
+    "D_timeline"
+   ],
+   "text": "So was Pandora's box ever a box? In Hesiod, it is a great storage jar. In a later fable, the jar holds good things. In a Renaissance book of proverbs, it becomes a small box. And in paintings, it is whatever the artist imagined."
+  },
+  {
+   "id": "P16",
+   "chapter": "C06",
+   "sources": [],
+   "classification": "summary",
+   "visuals": [
+    "V03"
+   ],
+   "text": "The box we know is not the oldest part of the story. It is one of the newest. Every story has an origin. Sometimes, even the objects in it do."
+  },
+  {
+   "id": "P17",
+   "chapter": "C06",
+   "sources": [],
+   "classification": "credits",
+   "visuals": [
+    "credits"
+   ],
+   "text": "This video is based on ancient texts and public museum collections. The narration uses synthetic speech, and some images are AI-generated reconstructions. Sources and terms of use are listed in the description. If you enjoyed this story, please like the video and subscribe for more quiet origins. Thank you for watching."
+  }
+ ]
+}
