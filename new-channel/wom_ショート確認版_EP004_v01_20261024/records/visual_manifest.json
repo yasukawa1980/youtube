@@ -1,0 +1,948 @@
+{
+  "shots": [
+    {
+      "short_id": "P1",
+      "asset_id": "R04",
+      "start_frame": 0,
+      "end_frame": 378,
+      "frames": 378,
+      "file": "/Users/ryo/Desktop/新チャンネル/ショート/EP004_確認版_v01_20261024/assets/P1_R04.png",
+      "sha256": "4eb173f9f0479aa83ccb6c897a2e618b0e128a43a258fb1014da0d43d74ec72e",
+      "source": {
+        "id": "R04",
+        "path": "/Users/ryo/Desktop/新チャンネル/EP004_Pandora/素材/R04_OpenAI_v01.png",
+        "sha256": "13748d561e999827b1bd492f641351af449d898b142d97ae6e792ecd934158a3",
+        "kind": "image",
+        "label": "AI RECONSTRUCTION｜AIによる再現",
+        "source": "OpenAI image generation • R04 • Illustration",
+        "original_record": {
+          "id": "R04",
+          "prompt": "Use case: historical-scene. R04 documentary illustration. One wide 16:9 painterly oil painting, visibly painted rather than photographic. A modest ancient Greek household storeroom with several huge terracotta storage pithoi half buried in the earthen floor. Broad round bellies partly below ground, wide open-mouthed shapes but every mouth covered by a simple closed terracotta lid; raised horizontal bands and small sturdy lug handles. Doorway daylight softly crosses the dusty floor. Large utilitarian storage vessels, not small amphorae, flowerpots, boxes or coffins. Quiet atmosphere, stable architectural perspective. No people, hands, faces, bodies, human figures on pottery, statues, nudity, text, inscriptions, watermark or captions. Generic artistic reconstruction, no exact famous archaeological site.",
+          "generated_path": "/Users/ryo/.codex/generated_images/01a166b8-2500-7311-be89-c43a4d0966ed/exec-987e141b-8d9c-4d00-acf9-89bed006690a.png",
+          "service": "OpenAI image generation (built-in)",
+          "date": "2026-10-23",
+          "visual_review": "Displayed output inspected: no people or legible text; requested objects and lighting present.",
+          "local_path": "/Users/ryo/Desktop/新チャンネル/EP004_Pandora/素材/R04_OpenAI_v01.png",
+          "sha256": "13748d561e999827b1bd492f641351af449d898b142d97ae6e792ecd934158a3",
+          "bytes": 2631286
+        }
+      },
+      "texts": [
+        {
+          "text": "QUIET ORIGINS / EP004",
+          "bbox": [
+            80,
+            145,
+            365,
+            165
+          ]
+        },
+        {
+          "text": "AI RECONSTRUCTION｜AIによる再現",
+          "bbox": [
+            80,
+            183,
+            530,
+            208
+          ]
+        },
+        {
+          "text": "OpenAI image generation • R04 • Illustration",
+          "bbox": [
+            80,
+            232,
+            531,
+            255
+          ]
+        }
+      ],
+      "art_box": [
+        0,
+        270,
+        1080,
+        1130
+      ],
+      "source_crop_pixels": null,
+      "zoom_start": 0.97,
+      "zoom_end": 1.0,
+      "viewport": [
+        0,
+        270,
+        1080,
+        860
+      ]
+    },
+    {
+      "short_id": "P1",
+      "asset_id": "A01",
+      "start_frame": 378,
+      "end_frame": 570,
+      "frames": 192,
+      "file": "/Users/ryo/Desktop/新チャンネル/ショート/EP004_確認版_v01_20261024/assets/P1_A01.png",
+      "sha256": "dcbad6e3d77d533469c39417872d29799b2bac58145c02d7c89940a8d2e1940f",
+      "source": {
+        "id": "A01",
+        "path": "/Users/ryo/Desktop/新チャンネル/EP004_Pandora/素材/A01_pithos1.jpg",
+        "sha256": "78b319302983485f3933f5dd1f4c71d5e4e7e42679a1fa3fb4f64147aa2e26d0",
+        "kind": "image",
+        "label": "MUSEUM OBJECT｜博物館資料",
+        "source": "Pithos • Crete, c. 675 BCE • Louvre, CA 4523 • Photo: Jastrow (PD)",
+        "original_record": {
+          "asset_id": "A01",
+          "title": "大型ピトス（クレタ、CA 4523）",
+          "date": "前675年頃",
+          "museum": "Musée du Louvre",
+          "accession_number": "CA 4523",
+          "artist": "写真: Jastrow (2005); 配布版修正: Ptyx",
+          "object_url": "https://collections.louvre.fr/ark:/53355/cl010261501",
+          "rights_url": "https://commons.wikimedia.org/wiki/File:Pithos_Louvre_CA4523.jpg",
+          "rights_evidence": "写真作者JastrowがPD-selfで世界中のパブリックドメインへ解放。配布版にはPtyxによる2023年の階調・背景修正履歴あり。",
+          "rights_status": "Public domain",
+          "accessed_date": "2026-10-23",
+          "download_url": "https://upload.wikimedia.org/wikipedia/commons/8/84/Pithos_Louvre_CA4523.jpg",
+          "local_path": "/Users/ryo/Desktop/新チャンネル/EP004_Pandora/素材/A01_pithos1.jpg",
+          "pixels": [
+            1488,
+            2240
+          ],
+          "bytes": 582902,
+          "sha256": "78b319302983485f3933f5dd1f4c71d5e4e7e42679a1fa3fb4f64147aa2e26d0",
+          "file_kind": "image",
+          "brief_id": "B01",
+          "proposed_section": "P07",
+          "priority": "第一候補",
+          "cautions": "高さ156cm。縁と全形がよく見える。パンドラ固有の甕ではなく大型貯蔵容器の実例。ふたを閉めた写真ではない。ルーヴル公式写真の権利を流用せず、写真作者がPD指定した別写真を取得。",
+          "preview_path": "new-channel/サムネ確認用/wom04/A01.jpg",
+          "visual_checked": true
+        },
+        "source_url": "https://collections.louvre.fr/ark:/53355/cl010261501"
+      },
+      "texts": [
+        {
+          "text": "QUIET ORIGINS / EP004",
+          "bbox": [
+            80,
+            145,
+            365,
+            165
+          ]
+        },
+        {
+          "text": "MUSEUM OBJECT｜博物館資料",
+          "bbox": [
+            80,
+            183,
+            459,
+            208
+          ]
+        },
+        {
+          "text": "Pithos • Crete, c. 675 BCE • Louvre, CA 4523 • Photo: Jastrow (PD)",
+          "bbox": [
+            80,
+            232,
+            770,
+            255
+          ]
+        }
+      ],
+      "art_box": [
+        254,
+        270,
+        825,
+        1130
+      ],
+      "source_crop_pixels": null,
+      "zoom_start": 0.97,
+      "zoom_end": 1.0,
+      "viewport": [
+        0,
+        270,
+        1080,
+        860
+      ]
+    },
+    {
+      "short_id": "P2",
+      "asset_id": "A11",
+      "start_frame": 0,
+      "end_frame": 184,
+      "frames": 184,
+      "file": "/Users/ryo/Desktop/新チャンネル/ショート/EP004_確認版_v01_20261024/assets/P2_A11.png",
+      "sha256": "bcd2888b001aec27154141b25475a20dc06eca7c9bf55fdc482881f78c0a2ba6",
+      "source": {
+        "id": "A11",
+        "path": "/Users/ryo/Desktop/新チャンネル/EP004_Pandora/素材/met_336231.jpg",
+        "sha256": "2e076cdb62c1771263d92d9813f6d1c673bfb7d95d75b8f1e415bba7a180c1cc",
+        "kind": "image",
+        "label": "PUBLIC DOMAIN PRINT｜パブリックドメインの版画",
+        "source": "Dürer, Erasmus of Rotterdam • 1526 • The Met, 19.73.120",
+        "original_record": {
+          "asset_id": "A11",
+          "title": "ロッテルダムのエラスムス",
+          "date": "1526",
+          "museum": "The Metropolitan Museum of Art",
+          "accession_number": "19.73.120",
+          "artist": "Albrecht Dürer",
+          "object_url": "https://www.metmuseum.org/art/collection/search/336231",
+          "rights_url": "https://www.metmuseum.org/hubs/open-access",
+          "rights_evidence": "公式Collection API isPublicDomain=true。Open Access対象作品の画像をCC0で公開。",
+          "rights_status": "CC0",
+          "accessed_date": "2026-10-23",
+          "download_url": "https://images.metmuseum.org/CRDImages/dp/original/DP815934.jpg",
+          "local_path": "/Users/ryo/Desktop/新チャンネル/EP004_Pandora/素材/met_336231.jpg",
+          "pixels": [
+            2883,
+            3624
+          ],
+          "bytes": 3314747,
+          "sha256": "2e076cdb62c1771263d92d9813f6d1c673bfb7d95d75b8f1e415bba7a180c1cc",
+          "file_kind": "image",
+          "brief_id": "B08",
+          "proposed_section": "P12",
+          "priority": "第一候補",
+          "cautions": "デューラーの1526年版画。1508年の著者の容貌そのものを記録した同年画像とは説明しない。",
+          "preview_path": "new-channel/サムネ確認用/wom04/A11.jpg",
+          "visual_checked": true,
+          "met_object_id": 336231,
+          "official_title": "Erasmus of Rotterdam",
+          "metadata_url": "https://collectionapi.metmuseum.org/public/collection/v1/objects/336231",
+          "credit_line": "Fletcher Fund, 1919"
+        },
+        "source_url": "https://www.metmuseum.org/art/collection/search/336231"
+      },
+      "texts": [
+        {
+          "text": "QUIET ORIGINS / EP004",
+          "bbox": [
+            80,
+            145,
+            365,
+            165
+          ]
+        },
+        {
+          "text": "PUBLIC DOMAIN PRINT｜パブリックドメインの版画",
+          "bbox": [
+            80,
+            182,
+            698,
+            208
+          ]
+        },
+        {
+          "text": "Dürer, Erasmus of Rotterdam • 1526 • The Met, 19.73.120",
+          "bbox": [
+            80,
+            232,
+            673,
+            253
+          ]
+        }
+      ],
+      "art_box": [
+        198,
+        270,
+        882,
+        1130
+      ],
+      "source_crop_pixels": null,
+      "zoom_start": 0.97,
+      "zoom_end": 1.0,
+      "viewport": [
+        0,
+        270,
+        1080,
+        860
+      ]
+    },
+    {
+      "short_id": "P2",
+      "asset_id": "A12",
+      "start_frame": 184,
+      "end_frame": 407,
+      "frames": 223,
+      "file": "/Users/ryo/Desktop/新チャンネル/ショート/EP004_確認版_v01_20261024/assets/P2_A12.png",
+      "sha256": "c040921c99818566b911009f498ece8ffb69b9a6a2e8f354a6956ff9d482ae76",
+      "source": {
+        "id": "A12",
+        "path": "/Users/ryo/Desktop/新チャンネル/EP004_Pandora/素材/A12_adagia1508_f12r_original.jpg",
+        "sha256": "b5f6a6f65ff21dd75ca68d41e77420ce3d3a77c57ac07521f8bf5195ef8b2891",
+        "kind": "image",
+        "label": "PRINTED BOOK｜刊本",
+        "source": "Erasmus, Adagia • Aldus, Venice, 1508 • fol. 12r • ULiège Library, R00134C",
+        "original_record": {
+          "asset_id": "A12",
+          "title": "エラスムス『格言集』1508年版 第31格言",
+          "date": "1508年9月、ヴェネツィア、Aldus Manutius",
+          "museum": "ULiège Library",
+          "accession_number": "R00134C / 709410456",
+          "artist": "Desiderius Erasmus; Aldus Manutius",
+          "object_url": "https://donum.uliege.be/handle/2268.1/10063",
+          "rights_url": "https://donum.uliege.be/handle/2268.1/10063",
+          "rights_evidence": "図書館の書誌に Part of: Public domain、PDFに Access type: Open Access と明記。",
+          "rights_status": "Public domain",
+          "accessed_date": "2026-10-23",
+          "download_url": "https://donum.uliege.be/retrieve/45435",
+          "local_path": "/Users/ryo/Desktop/新チャンネル/EP004_Pandora/素材/A12_adagia1508_f12r_original.jpg",
+          "pixels": [
+            1451,
+            2005
+          ],
+          "bytes": 384365,
+          "sha256": "b5f6a6f65ff21dd75ca68d41e77420ce3d3a77c57ac07521f8bf5195ef8b2891",
+          "file_kind": "pdf_embedded_image",
+          "brief_id": "B09",
+          "proposed_section": "P12",
+          "priority": "第一候補",
+          "cautions": "印刷葉番号12表、格言XXXI。PDFは1始まり80ページ、Webページ画像はimg_79.jpg。Pixide／Pixidemを目視確認。原PDF内のJPEGを再圧縮せず抽出した画像。表紙と本文は同じ刊本なので1史料として数える。",
+          "preview_path": "new-channel/サムネ確認用/wom04/A12.jpg",
+          "visual_checked": true,
+          "pdf_page_1_based": 80,
+          "printed_folio": "12r",
+          "viewer_image_url": "https://donum.uliege.be/public/bitstream/82/89/31/45435/img_79.jpg",
+          "source_pdf": {
+            "local_path": "/Users/ryo/Desktop/新チャンネル/EP004_Pandora/素材/A12_adagia1508_R00134C.pdf",
+            "download_url": "https://donum.uliege.be/retrieve/45435",
+            "bytes": 218501013,
+            "sha256": "cffc962218472bdae05963e7de294a30b9bbfc189eaec8b47f99d7253c65a4f8",
+            "pages": 559
+          },
+          "alternate_view": {
+            "local_path": "/Users/ryo/Desktop/新チャンネル/EP004_Pandora/素材/A12_adagia1508_title_original.jpg",
+            "pixels": [
+              1329,
+              2005
+            ],
+            "bytes": 235756,
+            "sha256": "9ade127c65843f062fb0303c60de6c75424757d260ab318600ca21533a2dfb53",
+            "pdf_page_1_based": 6,
+            "preview_path": "new-channel/サムネ確認用/wom04/A12_title.jpg"
+          }
+        },
+        "source_url": "https://donum.uliege.be/handle/2268.1/10063"
+      },
+      "texts": [
+        {
+          "text": "QUIET ORIGINS / EP004",
+          "bbox": [
+            80,
+            145,
+            365,
+            165
+          ]
+        },
+        {
+          "text": "PRINTED BOOK｜刊本",
+          "bbox": [
+            80,
+            183,
+            350,
+            208
+          ]
+        },
+        {
+          "text": "Erasmus, Adagia • Aldus, Venice, 1508 • fol. 12r • ULiège Library, R00134C",
+          "bbox": [
+            80,
+            233,
+            854,
+            255
+          ]
+        }
+      ],
+      "art_box": [
+        0,
+        610,
+        1080,
+        790
+      ],
+      "source_crop_pixels": [
+        65,
+        1133,
+        987,
+        1287
+      ],
+      "zoom_start": 0.97,
+      "zoom_end": 1.0,
+      "viewport": [
+        0,
+        270,
+        1080,
+        860
+      ]
+    },
+    {
+      "short_id": "P2",
+      "asset_id": "A10",
+      "start_frame": 407,
+      "end_frame": 600,
+      "frames": 193,
+      "file": "/Users/ryo/Desktop/新チャンネル/ショート/EP004_確認版_v01_20261024/assets/P2_A10.png",
+      "sha256": "47ff77d84c04bda07deab989cd7bbc5a8c30e79d5ce19048402df62ea27363c1",
+      "source": {
+        "id": "A10",
+        "path": "/Users/ryo/Desktop/新チャンネル/EP004_Pandora/素材/met_244824.jpg",
+        "sha256": "1a5ebb45dc6b323b82ac5f6ece5be42cb523f41719262250380c05416c2231a5",
+        "kind": "image",
+        "label": "MUSEUM OBJECT｜博物館資料",
+        "source": "Terracotta pyxis with lid • late 5th c. BCE • The Met, 75.2.18a, b",
+        "original_record": {
+          "asset_id": "A10",
+          "title": "ふた付きピュクシス（テラコッタ）",
+          "date": "late 5th century BCE",
+          "museum": "The Metropolitan Museum of Art",
+          "accession_number": "75.2.18a, b",
+          "artist": "",
+          "object_url": "https://www.metmuseum.org/art/collection/search/244824",
+          "rights_url": "https://www.metmuseum.org/hubs/open-access",
+          "rights_evidence": "公式Collection API isPublicDomain=true。Open Access対象作品の画像をCC0で公開。",
+          "rights_status": "CC0",
+          "accessed_date": "2026-10-23",
+          "download_url": "https://images.metmuseum.org/CRDImages/gr/original/LC-75_2_18ab.jpg",
+          "local_path": "/Users/ryo/Desktop/新チャンネル/EP004_Pandora/素材/met_244824.jpg",
+          "pixels": [
+            3189,
+            3768
+          ],
+          "bytes": 2855231,
+          "sha256": "1a5ebb45dc6b323b82ac5f6ece5be42cb523f41719262250380c05416c2231a5",
+          "file_kind": "image",
+          "brief_id": "B07",
+          "proposed_section": "P12",
+          "priority": "第一候補",
+          "cautions": "小型容器の実例。ピトスと同一視しない。P11バブリオスの甕の実物例としては使わず、P12の語の対比に使用する。",
+          "preview_path": "new-channel/サムネ確認用/wom04/A10.jpg",
+          "visual_checked": true,
+          "met_object_id": 244824,
+          "official_title": "Pyxis with lid",
+          "metadata_url": "https://collectionapi.metmuseum.org/public/collection/v1/objects/244824",
+          "credit_line": "Gift of Samuel G. Ward, 1875"
+        },
+        "source_url": "https://www.metmuseum.org/art/collection/search/244824"
+      },
+      "texts": [
+        {
+          "text": "QUIET ORIGINS / EP004",
+          "bbox": [
+            80,
+            145,
+            365,
+            165
+          ]
+        },
+        {
+          "text": "MUSEUM OBJECT｜博物館資料",
+          "bbox": [
+            80,
+            183,
+            459,
+            208
+          ]
+        },
+        {
+          "text": "Terracotta pyxis with lid • late 5th c. BCE • The Met, 75.2.18a, b",
+          "bbox": [
+            80,
+            232,
+            725,
+            255
+          ]
+        }
+      ],
+      "art_box": [
+        176,
+        270,
+        904,
+        1130
+      ],
+      "source_crop_pixels": null,
+      "zoom_start": 0.97,
+      "zoom_end": 1.0,
+      "viewport": [
+        0,
+        270,
+        1080,
+        860
+      ]
+    },
+    {
+      "short_id": "P3",
+      "asset_id": "A21",
+      "start_frame": 0,
+      "end_frame": 160,
+      "frames": 160,
+      "file": "/Users/ryo/Desktop/新チャンネル/ショート/EP004_確認版_v01_20261024/assets/P3_A21.png",
+      "sha256": "b6825837c63ef35bddebe08d187d656b7942065dac28f4f77fdadae22a004b75",
+      "source": {
+        "id": "A21",
+        "path": "/Users/ryo/Desktop/新チャンネル/EP004_Pandora/素材/A21_bonasone.jpg",
+        "sha256": "5f845607fce2d0dd9e96d7b38017972ed4f888591a6f1be22149a79aaf3ba56b",
+        "kind": "image",
+        "label": "PUBLIC DOMAIN PRINT｜パブリックドメインの版画",
+        "source": "Bonasone, Epimetheus opens Pandora’s urn (detail) • 16th c. • Rijksmuseum, RP-P-1962-338",
+        "original_record": {
+          "asset_id": "A21",
+          "title": "Epimetheus opent de urn van Pandora",
+          "date": "1501–1580（館の年代幅）",
+          "museum": "Rijksmuseum",
+          "accession_number": "RP-P-1962-338",
+          "artist": "Giulio Bonasone",
+          "object_url": "https://id.rijksmuseum.nl/200163451",
+          "rights_url": "https://data.rijksmuseum.nl/about/",
+          "rights_evidence": "作品ページ Copyright: Public domain。公式Data Services FAQはこの表示の画像を商用を含め自由に再利用可能と説明。",
+          "rights_status": "Public domain",
+          "accessed_date": "2026-10-23",
+          "download_url": "https://iiif.micr.io/dUaDi/full/max/0/default.jpg",
+          "local_path": "/Users/ryo/Desktop/新チャンネル/EP004_Pandora/素材/A21_bonasone.jpg",
+          "pixels": [
+            2712,
+            4110
+          ],
+          "bytes": 2471669,
+          "sha256": "5f845607fce2d0dd9e96d7b38017972ed4f888591a6f1be22149a79aaf3ba56b",
+          "file_kind": "image",
+          "brief_id": "B03",
+          "proposed_section": "P14",
+          "priority": "予備",
+          "cautions": "エピメテウスが大きな甕を開く作品。パンドラが甕を手に持つ図ではないためB03の厳密一致はA03。後世にも甕の図像が続く比較例。複数の裸体・半裸あり。",
+          "preview_path": "new-channel/サムネ確認用/wom04/A21.jpg",
+          "visual_checked": true,
+          "source_native_pixels": [
+            2712,
+            4110
+          ],
+          "iiif_info_url": "https://iiif.micr.io/dUaDi/info.json",
+          "rights_declaration_url": "https://creativecommons.org/publicdomain/mark/1.0/deed.en"
+        },
+        "source_url": "https://id.rijksmuseum.nl/200163451"
+      },
+      "texts": [
+        {
+          "text": "QUIET ORIGINS / EP004",
+          "bbox": [
+            80,
+            145,
+            365,
+            165
+          ]
+        },
+        {
+          "text": "PUBLIC DOMAIN PRINT｜パブリックドメインの版画",
+          "bbox": [
+            80,
+            182,
+            698,
+            208
+          ]
+        },
+        {
+          "text": "Bonasone, Epimetheus opens Pandora’s urn (detail) • 16th c. • Rijksmuseum, RP-P-1962-338",
+          "bbox": [
+            80,
+            233,
+            982,
+            253
+          ]
+        }
+      ],
+      "art_box": [
+        49,
+        270,
+        1031,
+        1130
+      ],
+      "source_crop_pixels": [
+        54,
+        1747,
+        2658,
+        4028
+      ],
+      "zoom_start": 0.97,
+      "zoom_end": 1.0,
+      "viewport": [
+        0,
+        270,
+        1080,
+        860
+      ]
+    },
+    {
+      "short_id": "P3",
+      "asset_id": "A02",
+      "start_frame": 160,
+      "end_frame": 590,
+      "frames": 430,
+      "file": "/Users/ryo/Desktop/新チャンネル/ショート/EP004_確認版_v01_20261024/assets/P3_A02.png",
+      "sha256": "73a24ebbad137873ad0779b8c0f2793149672815a16b8687c49565499f207f92",
+      "source": {
+        "id": "A02",
+        "path": "/Users/ryo/Desktop/新チャンネル/EP004_Pandora/素材/A02_pithos2.jpg",
+        "sha256": "2252367b6629935ba364c4afe84b3eefd8dedc3e615f27084609503608dadada",
+        "kind": "image",
+        "label": "MUSEUM OBJECT｜博物館資料",
+        "source": "Relief pithos • c. 670 BCE • Louvre, CA 795 • Photo: Shonagon (CC0)",
+        "original_record": {
+          "asset_id": "A02",
+          "title": "大型浮彫ピトス（CA 795）",
+          "date": "前670年頃",
+          "museum": "Musée du Louvre",
+          "accession_number": "CA 795",
+          "artist": "写真: Shonagon (2022)",
+          "object_url": "https://collections.louvre.fr/ark:/53355/cl010263963",
+          "rights_url": "https://commons.wikimedia.org/wiki/File:Pithos_-_Musée_du_Louvre_Antiquités_grecques_CA_795.jpg",
+          "rights_evidence": "写真作者Shonagonが自身の写真にCC0を指定。",
+          "rights_status": "CC0",
+          "accessed_date": "2026-10-23",
+          "download_url": "https://upload.wikimedia.org/wikipedia/commons/8/8f/Pithos_-_Mus%C3%A9e_du_Louvre_Antiquit%C3%A9s_grecques_CA_795.jpg",
+          "local_path": "/Users/ryo/Desktop/新チャンネル/EP004_Pandora/素材/A02_pithos2.jpg",
+          "pixels": [
+            2882,
+            4005
+          ],
+          "bytes": 3772551,
+          "sha256": "2252367b6629935ba364c4afe84b3eefd8dedc3e615f27084609503608dadada",
+          "file_kind": "image",
+          "brief_id": "B02",
+          "proposed_section": "P08",
+          "priority": "第一候補",
+          "cautions": "高さ130cm。B01とは別個体。ふたなし。頸部図像はペルセウスとゴルゴンでありパンドラではない。下部に補修・欠損。希望やふたが閉まる動作を描く史料とは呼ばない。",
+          "preview_path": "new-channel/サムネ確認用/wom04/A02.jpg",
+          "visual_checked": true
+        },
+        "source_url": "https://collections.louvre.fr/ark:/53355/cl010263963"
+      },
+      "texts": [
+        {
+          "text": "QUIET ORIGINS / EP004",
+          "bbox": [
+            80,
+            145,
+            365,
+            165
+          ]
+        },
+        {
+          "text": "MUSEUM OBJECT｜博物館資料",
+          "bbox": [
+            80,
+            183,
+            459,
+            208
+          ]
+        },
+        {
+          "text": "Relief pithos • c. 670 BCE • Louvre, CA 795 • Photo: Shonagon (CC0)",
+          "bbox": [
+            80,
+            232,
+            791,
+            255
+          ]
+        }
+      ],
+      "art_box": [
+        0,
+        566,
+        1080,
+        833
+      ],
+      "source_crop_pixels": [
+        576,
+        240,
+        2392,
+        689
+      ],
+      "zoom_start": 0.97,
+      "zoom_end": 1.0,
+      "viewport": [
+        0,
+        270,
+        1080,
+        860
+      ]
+    }
+  ],
+  "assets": {
+    "A01": {
+      "id": "A01",
+      "path": "/Users/ryo/Desktop/新チャンネル/EP004_Pandora/素材/A01_pithos1.jpg",
+      "sha256": "78b319302983485f3933f5dd1f4c71d5e4e7e42679a1fa3fb4f64147aa2e26d0",
+      "kind": "image",
+      "label": "MUSEUM OBJECT｜博物館資料",
+      "source": "Pithos • Crete, c. 675 BCE • Louvre, CA 4523 • Photo: Jastrow (PD)",
+      "original_record": {
+        "asset_id": "A01",
+        "title": "大型ピトス（クレタ、CA 4523）",
+        "date": "前675年頃",
+        "museum": "Musée du Louvre",
+        "accession_number": "CA 4523",
+        "artist": "写真: Jastrow (2005); 配布版修正: Ptyx",
+        "object_url": "https://collections.louvre.fr/ark:/53355/cl010261501",
+        "rights_url": "https://commons.wikimedia.org/wiki/File:Pithos_Louvre_CA4523.jpg",
+        "rights_evidence": "写真作者JastrowがPD-selfで世界中のパブリックドメインへ解放。配布版にはPtyxによる2023年の階調・背景修正履歴あり。",
+        "rights_status": "Public domain",
+        "accessed_date": "2026-10-23",
+        "download_url": "https://upload.wikimedia.org/wikipedia/commons/8/84/Pithos_Louvre_CA4523.jpg",
+        "local_path": "/Users/ryo/Desktop/新チャンネル/EP004_Pandora/素材/A01_pithos1.jpg",
+        "pixels": [
+          1488,
+          2240
+        ],
+        "bytes": 582902,
+        "sha256": "78b319302983485f3933f5dd1f4c71d5e4e7e42679a1fa3fb4f64147aa2e26d0",
+        "file_kind": "image",
+        "brief_id": "B01",
+        "proposed_section": "P07",
+        "priority": "第一候補",
+        "cautions": "高さ156cm。縁と全形がよく見える。パンドラ固有の甕ではなく大型貯蔵容器の実例。ふたを閉めた写真ではない。ルーヴル公式写真の権利を流用せず、写真作者がPD指定した別写真を取得。",
+        "preview_path": "new-channel/サムネ確認用/wom04/A01.jpg",
+        "visual_checked": true
+      },
+      "source_url": "https://collections.louvre.fr/ark:/53355/cl010261501"
+    },
+    "A02": {
+      "id": "A02",
+      "path": "/Users/ryo/Desktop/新チャンネル/EP004_Pandora/素材/A02_pithos2.jpg",
+      "sha256": "2252367b6629935ba364c4afe84b3eefd8dedc3e615f27084609503608dadada",
+      "kind": "image",
+      "label": "MUSEUM OBJECT｜博物館資料",
+      "source": "Relief pithos • c. 670 BCE • Louvre, CA 795 • Photo: Shonagon (CC0)",
+      "original_record": {
+        "asset_id": "A02",
+        "title": "大型浮彫ピトス（CA 795）",
+        "date": "前670年頃",
+        "museum": "Musée du Louvre",
+        "accession_number": "CA 795",
+        "artist": "写真: Shonagon (2022)",
+        "object_url": "https://collections.louvre.fr/ark:/53355/cl010263963",
+        "rights_url": "https://commons.wikimedia.org/wiki/File:Pithos_-_Musée_du_Louvre_Antiquités_grecques_CA_795.jpg",
+        "rights_evidence": "写真作者Shonagonが自身の写真にCC0を指定。",
+        "rights_status": "CC0",
+        "accessed_date": "2026-10-23",
+        "download_url": "https://upload.wikimedia.org/wikipedia/commons/8/8f/Pithos_-_Mus%C3%A9e_du_Louvre_Antiquit%C3%A9s_grecques_CA_795.jpg",
+        "local_path": "/Users/ryo/Desktop/新チャンネル/EP004_Pandora/素材/A02_pithos2.jpg",
+        "pixels": [
+          2882,
+          4005
+        ],
+        "bytes": 3772551,
+        "sha256": "2252367b6629935ba364c4afe84b3eefd8dedc3e615f27084609503608dadada",
+        "file_kind": "image",
+        "brief_id": "B02",
+        "proposed_section": "P08",
+        "priority": "第一候補",
+        "cautions": "高さ130cm。B01とは別個体。ふたなし。頸部図像はペルセウスとゴルゴンでありパンドラではない。下部に補修・欠損。希望やふたが閉まる動作を描く史料とは呼ばない。",
+        "preview_path": "new-channel/サムネ確認用/wom04/A02.jpg",
+        "visual_checked": true
+      },
+      "source_url": "https://collections.louvre.fr/ark:/53355/cl010263963"
+    },
+    "A10": {
+      "id": "A10",
+      "path": "/Users/ryo/Desktop/新チャンネル/EP004_Pandora/素材/met_244824.jpg",
+      "sha256": "1a5ebb45dc6b323b82ac5f6ece5be42cb523f41719262250380c05416c2231a5",
+      "kind": "image",
+      "label": "MUSEUM OBJECT｜博物館資料",
+      "source": "Terracotta pyxis with lid • late 5th c. BCE • The Met, 75.2.18a, b",
+      "original_record": {
+        "asset_id": "A10",
+        "title": "ふた付きピュクシス（テラコッタ）",
+        "date": "late 5th century BCE",
+        "museum": "The Metropolitan Museum of Art",
+        "accession_number": "75.2.18a, b",
+        "artist": "",
+        "object_url": "https://www.metmuseum.org/art/collection/search/244824",
+        "rights_url": "https://www.metmuseum.org/hubs/open-access",
+        "rights_evidence": "公式Collection API isPublicDomain=true。Open Access対象作品の画像をCC0で公開。",
+        "rights_status": "CC0",
+        "accessed_date": "2026-10-23",
+        "download_url": "https://images.metmuseum.org/CRDImages/gr/original/LC-75_2_18ab.jpg",
+        "local_path": "/Users/ryo/Desktop/新チャンネル/EP004_Pandora/素材/met_244824.jpg",
+        "pixels": [
+          3189,
+          3768
+        ],
+        "bytes": 2855231,
+        "sha256": "1a5ebb45dc6b323b82ac5f6ece5be42cb523f41719262250380c05416c2231a5",
+        "file_kind": "image",
+        "brief_id": "B07",
+        "proposed_section": "P12",
+        "priority": "第一候補",
+        "cautions": "小型容器の実例。ピトスと同一視しない。P11バブリオスの甕の実物例としては使わず、P12の語の対比に使用する。",
+        "preview_path": "new-channel/サムネ確認用/wom04/A10.jpg",
+        "visual_checked": true,
+        "met_object_id": 244824,
+        "official_title": "Pyxis with lid",
+        "metadata_url": "https://collectionapi.metmuseum.org/public/collection/v1/objects/244824",
+        "credit_line": "Gift of Samuel G. Ward, 1875"
+      },
+      "source_url": "https://www.metmuseum.org/art/collection/search/244824"
+    },
+    "A11": {
+      "id": "A11",
+      "path": "/Users/ryo/Desktop/新チャンネル/EP004_Pandora/素材/met_336231.jpg",
+      "sha256": "2e076cdb62c1771263d92d9813f6d1c673bfb7d95d75b8f1e415bba7a180c1cc",
+      "kind": "image",
+      "label": "PUBLIC DOMAIN PRINT｜パブリックドメインの版画",
+      "source": "Dürer, Erasmus of Rotterdam • 1526 • The Met, 19.73.120",
+      "original_record": {
+        "asset_id": "A11",
+        "title": "ロッテルダムのエラスムス",
+        "date": "1526",
+        "museum": "The Metropolitan Museum of Art",
+        "accession_number": "19.73.120",
+        "artist": "Albrecht Dürer",
+        "object_url": "https://www.metmuseum.org/art/collection/search/336231",
+        "rights_url": "https://www.metmuseum.org/hubs/open-access",
+        "rights_evidence": "公式Collection API isPublicDomain=true。Open Access対象作品の画像をCC0で公開。",
+        "rights_status": "CC0",
+        "accessed_date": "2026-10-23",
+        "download_url": "https://images.metmuseum.org/CRDImages/dp/original/DP815934.jpg",
+        "local_path": "/Users/ryo/Desktop/新チャンネル/EP004_Pandora/素材/met_336231.jpg",
+        "pixels": [
+          2883,
+          3624
+        ],
+        "bytes": 3314747,
+        "sha256": "2e076cdb62c1771263d92d9813f6d1c673bfb7d95d75b8f1e415bba7a180c1cc",
+        "file_kind": "image",
+        "brief_id": "B08",
+        "proposed_section": "P12",
+        "priority": "第一候補",
+        "cautions": "デューラーの1526年版画。1508年の著者の容貌そのものを記録した同年画像とは説明しない。",
+        "preview_path": "new-channel/サムネ確認用/wom04/A11.jpg",
+        "visual_checked": true,
+        "met_object_id": 336231,
+        "official_title": "Erasmus of Rotterdam",
+        "metadata_url": "https://collectionapi.metmuseum.org/public/collection/v1/objects/336231",
+        "credit_line": "Fletcher Fund, 1919"
+      },
+      "source_url": "https://www.metmuseum.org/art/collection/search/336231"
+    },
+    "A12": {
+      "id": "A12",
+      "path": "/Users/ryo/Desktop/新チャンネル/EP004_Pandora/素材/A12_adagia1508_f12r_original.jpg",
+      "sha256": "b5f6a6f65ff21dd75ca68d41e77420ce3d3a77c57ac07521f8bf5195ef8b2891",
+      "kind": "image",
+      "label": "PRINTED BOOK｜刊本",
+      "source": "Erasmus, Adagia • Aldus, Venice, 1508 • fol. 12r • ULiège Library, R00134C",
+      "original_record": {
+        "asset_id": "A12",
+        "title": "エラスムス『格言集』1508年版 第31格言",
+        "date": "1508年9月、ヴェネツィア、Aldus Manutius",
+        "museum": "ULiège Library",
+        "accession_number": "R00134C / 709410456",
+        "artist": "Desiderius Erasmus; Aldus Manutius",
+        "object_url": "https://donum.uliege.be/handle/2268.1/10063",
+        "rights_url": "https://donum.uliege.be/handle/2268.1/10063",
+        "rights_evidence": "図書館の書誌に Part of: Public domain、PDFに Access type: Open Access と明記。",
+        "rights_status": "Public domain",
+        "accessed_date": "2026-10-23",
+        "download_url": "https://donum.uliege.be/retrieve/45435",
+        "local_path": "/Users/ryo/Desktop/新チャンネル/EP004_Pandora/素材/A12_adagia1508_f12r_original.jpg",
+        "pixels": [
+          1451,
+          2005
+        ],
+        "bytes": 384365,
+        "sha256": "b5f6a6f65ff21dd75ca68d41e77420ce3d3a77c57ac07521f8bf5195ef8b2891",
+        "file_kind": "pdf_embedded_image",
+        "brief_id": "B09",
+        "proposed_section": "P12",
+        "priority": "第一候補",
+        "cautions": "印刷葉番号12表、格言XXXI。PDFは1始まり80ページ、Webページ画像はimg_79.jpg。Pixide／Pixidemを目視確認。原PDF内のJPEGを再圧縮せず抽出した画像。表紙と本文は同じ刊本なので1史料として数える。",
+        "preview_path": "new-channel/サムネ確認用/wom04/A12.jpg",
+        "visual_checked": true,
+        "pdf_page_1_based": 80,
+        "printed_folio": "12r",
+        "viewer_image_url": "https://donum.uliege.be/public/bitstream/82/89/31/45435/img_79.jpg",
+        "source_pdf": {
+          "local_path": "/Users/ryo/Desktop/新チャンネル/EP004_Pandora/素材/A12_adagia1508_R00134C.pdf",
+          "download_url": "https://donum.uliege.be/retrieve/45435",
+          "bytes": 218501013,
+          "sha256": "cffc962218472bdae05963e7de294a30b9bbfc189eaec8b47f99d7253c65a4f8",
+          "pages": 559
+        },
+        "alternate_view": {
+          "local_path": "/Users/ryo/Desktop/新チャンネル/EP004_Pandora/素材/A12_adagia1508_title_original.jpg",
+          "pixels": [
+            1329,
+            2005
+          ],
+          "bytes": 235756,
+          "sha256": "9ade127c65843f062fb0303c60de6c75424757d260ab318600ca21533a2dfb53",
+          "pdf_page_1_based": 6,
+          "preview_path": "new-channel/サムネ確認用/wom04/A12_title.jpg"
+        }
+      },
+      "source_url": "https://donum.uliege.be/handle/2268.1/10063"
+    },
+    "A21": {
+      "id": "A21",
+      "path": "/Users/ryo/Desktop/新チャンネル/EP004_Pandora/素材/A21_bonasone.jpg",
+      "sha256": "5f845607fce2d0dd9e96d7b38017972ed4f888591a6f1be22149a79aaf3ba56b",
+      "kind": "image",
+      "label": "PUBLIC DOMAIN PRINT｜パブリックドメインの版画",
+      "source": "Bonasone, Epimetheus opens Pandora’s urn (detail) • 16th c. • Rijksmuseum, RP-P-1962-338",
+      "original_record": {
+        "asset_id": "A21",
+        "title": "Epimetheus opent de urn van Pandora",
+        "date": "1501–1580（館の年代幅）",
+        "museum": "Rijksmuseum",
+        "accession_number": "RP-P-1962-338",
+        "artist": "Giulio Bonasone",
+        "object_url": "https://id.rijksmuseum.nl/200163451",
+        "rights_url": "https://data.rijksmuseum.nl/about/",
+        "rights_evidence": "作品ページ Copyright: Public domain。公式Data Services FAQはこの表示の画像を商用を含め自由に再利用可能と説明。",
+        "rights_status": "Public domain",
+        "accessed_date": "2026-10-23",
+        "download_url": "https://iiif.micr.io/dUaDi/full/max/0/default.jpg",
+        "local_path": "/Users/ryo/Desktop/新チャンネル/EP004_Pandora/素材/A21_bonasone.jpg",
+        "pixels": [
+          2712,
+          4110
+        ],
+        "bytes": 2471669,
+        "sha256": "5f845607fce2d0dd9e96d7b38017972ed4f888591a6f1be22149a79aaf3ba56b",
+        "file_kind": "image",
+        "brief_id": "B03",
+        "proposed_section": "P14",
+        "priority": "予備",
+        "cautions": "エピメテウスが大きな甕を開く作品。パンドラが甕を手に持つ図ではないためB03の厳密一致はA03。後世にも甕の図像が続く比較例。複数の裸体・半裸あり。",
+        "preview_path": "new-channel/サムネ確認用/wom04/A21.jpg",
+        "visual_checked": true,
+        "source_native_pixels": [
+          2712,
+          4110
+        ],
+        "iiif_info_url": "https://iiif.micr.io/dUaDi/info.json",
+        "rights_declaration_url": "https://creativecommons.org/publicdomain/mark/1.0/deed.en"
+      },
+      "source_url": "https://id.rijksmuseum.nl/200163451"
+    },
+    "R04": {
+      "id": "R04",
+      "path": "/Users/ryo/Desktop/新チャンネル/EP004_Pandora/素材/R04_OpenAI_v01.png",
+      "sha256": "13748d561e999827b1bd492f641351af449d898b142d97ae6e792ecd934158a3",
+      "kind": "image",
+      "label": "AI RECONSTRUCTION｜AIによる再現",
+      "source": "OpenAI image generation • R04 • Illustration",
+      "original_record": {
+        "id": "R04",
+        "prompt": "Use case: historical-scene. R04 documentary illustration. One wide 16:9 painterly oil painting, visibly painted rather than photographic. A modest ancient Greek household storeroom with several huge terracotta storage pithoi half buried in the earthen floor. Broad round bellies partly below ground, wide open-mouthed shapes but every mouth covered by a simple closed terracotta lid; raised horizontal bands and small sturdy lug handles. Doorway daylight softly crosses the dusty floor. Large utilitarian storage vessels, not small amphorae, flowerpots, boxes or coffins. Quiet atmosphere, stable architectural perspective. No people, hands, faces, bodies, human figures on pottery, statues, nudity, text, inscriptions, watermark or captions. Generic artistic reconstruction, no exact famous archaeological site.",
+        "generated_path": "/Users/ryo/.codex/generated_images/01a166b8-2500-7311-be89-c43a4d0966ed/exec-987e141b-8d9c-4d00-acf9-89bed006690a.png",
+        "service": "OpenAI image generation (built-in)",
+        "date": "2026-10-23",
+        "visual_review": "Displayed output inspected: no people or legible text; requested objects and lighting present.",
+        "local_path": "/Users/ryo/Desktop/新チャンネル/EP004_Pandora/素材/R04_OpenAI_v01.png",
+        "sha256": "13748d561e999827b1bd492f641351af449d898b142d97ae6e792ecd934158a3",
+        "bytes": 2631286
+      }
+    }
+  },
+  "same_source_not_repeated": true,
+  "A21_main_crop_in_foreground_and_background": true,
+  "A02_rim_only_no_figural_neck": true,
+  "A12_detail_no_highlight": true
+}

@@ -1,0 +1,41 @@
+{
+  "main_script": "new-channel/wom04_produce.py",
+  "main_phonemes": {
+    "Hesiod": "hˈiːsiəd",
+    "Theogony": "θiˈɑːɡəni",
+    "Hephaestus": "həfˈɛstəs",
+    "Epimetheus": "ˌɛpɪmˈiːθiəs",
+    "pithos": "pˈɪθɑːs",
+    "elpis": "ˈɛlpɪs",
+    "Pausanias": "pɔːsˈeɪniəs",
+    "Babrius": "bˈeɪbɹiəs",
+    "pyxis": "pˈɪksɪs"
+  },
+  "short_phonemes": {
+    "Hesiod's": "hˈiːsiədz",
+    "Hesiod": "hˈiːsiəd",
+    "Theogony": "θiˈɑːɡəni",
+    "Hephaestus": "həfˈɛstəs",
+    "Epimetheus": "ˌɛpɪmˈiːθiəs",
+    "pithos": "pˈɪθɑːs",
+    "elpis": "ˈɛlpɪs",
+    "Pausanias": "pɔːsˈeɪniəs",
+    "Babrius": "bˈeɪbɹiəs",
+    "pyxis": "pˈɪksɪs"
+  },
+  "actually_used_overrides": {
+    "Hesiod's": "hˈiːsiədz",
+    "Hesiod": "hˈiːsiəd",
+    "pithos": "pˈɪθɑːs",
+    "pyxis": "pˈɪksɪs"
+  },
+  "possessive_note": "Hesiod stem + /z/, EP003 Shorts treatment; no literal isolated letter S",
+  "Erasmus_and_Zeus": "No per-word override in main episode; same tokenizer defaults",
+  "voice": "af_heart",
+  "speed": 0.82,
+  "sentence_pause": 0.3,
+  "clause_pause": 0.12,
+  "text_unchanged": true,
+  "speech_speed_modified_to_fit": false,
+  "human_full_listening": false
+}

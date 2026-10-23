@@ -1,0 +1,82 @@
+{
+  "passed": true,
+  "target_lufs": -14,
+  "maximum_true_peak_db": -1,
+  "reports": [
+    {
+      "id": "P1",
+      "mix": {
+        "input_i": "-13.99",
+        "input_tp": "-2.18",
+        "input_lra": "9.50",
+        "input_thresh": "-25.17",
+        "output_i": "-14.33",
+        "output_tp": "-2.75",
+        "output_lra": "2.50",
+        "output_thresh": "-25.13",
+        "normalization_type": "dynamic",
+        "target_offset": "0.33"
+      },
+      "voice_onset_native": 0.09,
+      "bgm_source": "/Users/ryo/Desktop/新チャンネル/EP004_Pandora/確認版_v01_20261023/audio/common_bgm_and_brand.wav",
+      "bgm_source_sha256": "916db2ff90da87ce0ecde153a524f10d7b2f773f891fdec2961db2f2c25064c5",
+      "bgm_excerpt_start_seconds": 120,
+      "bgm_during_narration_dbfs": -33.49999972220877,
+      "voice_gain_after_normalization_db": -1.4299999999999997,
+      "final_file": "/Users/ryo/Desktop/新チャンネル/ショート/EP004_確認版_v01_20261024/audio/P1_final.m4a",
+      "sha256": "93c38e244bc6d4caaab7216399aff00a6eb6ed62d11f922290c4642d787b6d4d",
+      "voice_rate_or_pitch_processing": false,
+      "aac_peak_limiter_ceiling_dbfs": null
+    },
+    {
+      "id": "P2",
+      "mix": {
+        "input_i": "-14.00",
+        "input_tp": "-2.16",
+        "input_lra": "9.10",
+        "input_thresh": "-25.17",
+        "output_i": "-14.55",
+        "output_tp": "-2.12",
+        "output_lra": "3.10",
+        "output_thresh": "-25.33",
+        "normalization_type": "dynamic",
+        "target_offset": "0.55"
+      },
+      "voice_onset_native": 0.08,
+      "bgm_source": "/Users/ryo/Desktop/新チャンネル/EP004_Pandora/確認版_v01_20261023/audio/common_bgm_and_brand.wav",
+      "bgm_source_sha256": "916db2ff90da87ce0ecde153a524f10d7b2f773f891fdec2961db2f2c25064c5",
+      "bgm_excerpt_start_seconds": 140,
+      "bgm_during_narration_dbfs": -33.499999751549716,
+      "voice_gain_after_normalization_db": -1.4600000000000009,
+      "final_file": "/Users/ryo/Desktop/新チャンネル/ショート/EP004_確認版_v01_20261024/audio/P2_final.m4a",
+      "sha256": "5bf48fe965607aec56cbc19ddb9625509a1a1565feef7a9182c6d87e3dce940f",
+      "voice_rate_or_pitch_processing": false,
+      "aac_peak_limiter_ceiling_dbfs": null
+    },
+    {
+      "id": "P3",
+      "mix": {
+        "input_i": "-14.01",
+        "input_tp": "-2.25",
+        "input_lra": "9.00",
+        "input_thresh": "-25.20",
+        "output_i": "-14.73",
+        "output_tp": "-2.84",
+        "output_lra": "2.30",
+        "output_thresh": "-25.52",
+        "normalization_type": "dynamic",
+        "target_offset": "0.73"
+      },
+      "voice_onset_native": 0.09,
+      "bgm_source": "/Users/ryo/Desktop/新チャンネル/EP004_Pandora/確認版_v01_20261023/audio/common_bgm_and_brand.wav",
+      "bgm_source_sha256": "916db2ff90da87ce0ecde153a524f10d7b2f773f891fdec2961db2f2c25064c5",
+      "bgm_excerpt_start_seconds": 160,
+      "bgm_during_narration_dbfs": -33.500000252844536,
+      "voice_gain_after_normalization_db": -1.5500000000000007,
+      "final_file": "/Users/ryo/Desktop/新チャンネル/ショート/EP004_確認版_v01_20261024/audio/P3_final.m4a",
+      "sha256": "d4817db028b4bd6e73e625c1a6dac119a7a4a0f7752dd61c065682b4051b6461",
+      "voice_rate_or_pitch_processing": false,
+      "aac_peak_limiter_ceiling_dbfs": null
+    }
+  ]
+}
