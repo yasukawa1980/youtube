@@ -1,0 +1,175 @@
+{
+  "method": "Engine phoneme / kana analysis, not auditory listening. Initial unmodified synthesis preserved in audio/*/first_pass_sentences and *_first_pass.json",
+  "english": [
+    {
+      "word": "Hesiod",
+      "initial_phonemes": "hˈiːzɪˌɑːd",
+      "corrected_phonemes": "hˈiːsiəd"
+    },
+    {
+      "word": "Theogony",
+      "initial_phonemes": "θiːəɡˈɑːni",
+      "corrected_phonemes": "θiˈɑːɡəni"
+    },
+    {
+      "word": "Hephaestus",
+      "initial_phonemes": "hˈɛfiːstəs",
+      "corrected_phonemes": "həfˈɛstəs"
+    },
+    {
+      "word": "Epimetheus",
+      "initial_phonemes": "ˌɛpɪmˈɛθɪəs",
+      "corrected_phonemes": "ˌɛpɪmˈiːθiəs"
+    },
+    {
+      "word": "pithos",
+      "initial_phonemes": "pˈɪθoʊz",
+      "corrected_phonemes": "pˈɪθɑːs"
+    },
+    {
+      "word": "elpis",
+      "initial_phonemes": "ˈɛlpiz",
+      "corrected_phonemes": "ˈɛlpɪs"
+    },
+    {
+      "word": "Pausanias",
+      "initial_phonemes": "pɔːsˈeɪniəz",
+      "corrected_phonemes": "pɔːsˈeɪniəs"
+    },
+    {
+      "word": "Babrius",
+      "initial_phonemes": "bˈæbɹɪəs",
+      "corrected_phonemes": "bˈeɪbɹiəs"
+    },
+    {
+      "word": "pyxis",
+      "initial_phonemes": "pˈaɪksɪs",
+      "corrected_phonemes": "pˈɪksɪs"
+    }
+  ],
+  "japanese": [
+    {
+      "language": "ja",
+      "sentence_id": "P03-02",
+      "start": 56.888,
+      "end": 63.394666666666666,
+      "display": "神統記",
+      "spoken": "しんとうき",
+      "count": 1,
+      "initial_mora_text": "カミミツルキトシゴトトヒトイウフタツノシデパンドラノモノガタリワヒカラハジマリマス",
+      "corrected_mora_text": "シントウキトシゴトトヒトイウフタツノシデパンドラノモノガタリワヒカラハジマリマス"
+    },
+    {
+      "language": "ja",
+      "sentence_id": "P04-01",
+      "start": 73.0,
+      "end": 79.38933333333333,
+      "display": "鍛冶",
+      "spoken": "かじ",
+      "count": 1,
+      "initial_mora_text": "ゼウスノメエレエデタンヤノカミエパイストスガツチトミズカラワカイジョセエノスガタオコシラエマス",
+      "corrected_mora_text": "ゼウスノメエレエデカジノカミヘパイストスガツチトミズカラワカイジョセエノスガタオコシラエマス"
+    },
+    {
+      "language": "ja",
+      "sentence_id": "P04-01",
+      "start": 73.0,
+      "end": 79.38933333333333,
+      "display": "ヘパイストス",
+      "spoken": "ヘパイストス",
+      "count": 1,
+      "method": "VOICEVOX user dictionary: ヘパイストス, accent 3, proper noun, priority 10",
+      "initial_mora_text": "ゼウスノメエレエデタンヤノカミエパイストスガツチトミズカラワカイジョセエノスガタオコシラエマス",
+      "corrected_mora_text": "ゼウスノメエレエデカジノカミヘパイストスガツチトミズカラワカイジョセエノスガタオコシラエマス"
+    },
+    {
+      "language": "ja",
+      "sentence_id": "P05-01",
+      "start": 103.6,
+      "end": 106.77866666666667,
+      "display": "神統記",
+      "spoken": "しんとうき",
+      "count": 1,
+      "initial_mora_text": "カミミツルキデワナマエサエデテキマセン",
+      "corrected_mora_text": "シントウキデワナマエサエデテキマセン"
+    },
+    {
+      "language": "ja",
+      "sentence_id": "P08-02",
+      "start": 188.70266666666666,
+      "end": 191.572,
+      "display": "壺の縁",
+      "spoken": "壺のふち",
+      "count": 1,
+      "initial_mora_text": "キボオダケガツボノエンノシタニトドマリマシタ",
+      "corrected_mora_text": "キボオダケガツボノフチノシタニトドマリマシタ"
+    },
+    {
+      "language": "ja",
+      "sentence_id": "P11-02",
+      "start": 248.504,
+      "end": 253.98666666666665,
+      "display": "伝わる後の",
+      "spoken": "伝わるのちの",
+      "count": 1,
+      "initial_mora_text": "バブリオスノナデツタワルゴノギリシャノグウワデワゼウスガツボオヨイモノデミタシマス",
+      "corrected_mora_text": "バブリオスノナデツタワルノチノギリシャノグウワデワゼウスガツボオヨイモノデミタシマス"
+    },
+    {
+      "language": "ja",
+      "sentence_id": "P12-04",
+      "start": 286.168,
+      "end": 296.5466666666667,
+      "display": "刷られた",
+      "spoken": "すられた",
+      "count": 1,
+      "initial_mora_text": "センゴヒャクハチネンニヴェネツィアデズラレタコノハンデヘシオドスガオオキナツボピトストカイタトコロオエラスムスワショオハコピュクシストカイテイマス",
+      "corrected_mora_text": "センゴヒャクハチネンニヴェネツィアデスラレタコノハンデヘシオドスガオオキナツボピトストカイタトコロオエラスムスワコバコピュクシストカイテイマス"
+    },
+    {
+      "language": "ja",
+      "sentence_id": "P12-04",
+      "start": 286.168,
+      "end": 296.5466666666667,
+      "display": "小箱",
+      "spoken": "こばこ",
+      "count": 1,
+      "initial_mora_text": "センゴヒャクハチネンニヴェネツィアデズラレタコノハンデヘシオドスガオオキナツボピトストカイタトコロオエラスムスワショオハコピュクシストカイテイマス",
+      "corrected_mora_text": "センゴヒャクハチネンニヴェネツィアデスラレタコノハンデヘシオドスガオオキナツボピトストカイタトコロオエラスムスワコバコピュクシストカイテイマス"
+    },
+    {
+      "language": "ja",
+      "sentence_id": "P14-03",
+      "start": 336.692,
+      "end": 338.676,
+      "display": "小箱",
+      "spoken": "こばこ",
+      "count": 1,
+      "initial_mora_text": "ショオハコヒツウツワ",
+      "corrected_mora_text": "コバコヒツウツワ"
+    },
+    {
+      "language": "ja",
+      "sentence_id": "P15-04",
+      "start": 369.9986666666667,
+      "end": 373.43333333333334,
+      "display": "小箱",
+      "spoken": "こばこ",
+      "count": 1,
+      "initial_mora_text": "ルネサンスノコトワザシュウデソレワショオハコニナリマス",
+      "corrected_mora_text": "ルネサンスノコトワザシュウデソレワコバコニナリマス"
+    }
+  ],
+  "human_listened": false,
+  "unchanged_words": [
+    "Pandora",
+    "Prometheus",
+    "Psyche",
+    "Erasmus",
+    "Adages",
+    "BCE",
+    "壺",
+    "櫃",
+    "格言集"
+  ]
+}
