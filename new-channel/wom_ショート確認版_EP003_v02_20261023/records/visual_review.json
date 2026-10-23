@@ -1,0 +1,19 @@
+{
+  "passed": true,
+  "video_sha256": {
+    "M1": "bc9d2d4a7b5dc461adebb44a775258e87da93bc32aa2378ec2feeaa9f2cdb73e",
+    "M2": "1cae88fc28e09161e182254139be8051e8c86e649b4903e6c9b42550078ae3c9",
+    "M3": "86f13eacc51687378f7b535df6de729a74c1479b548816b17cd9adef9fc253f8"
+  },
+  "reviewed": "M2/M3 every-2-second sheets; M2 exact decoded frames 207,208,280,281; M3 450 BCE caption at 7.5 seconds. M1 unchanged by whole-file hash.",
+  "checks": {
+    "M2_roof_held_through_frame_207": true,
+    "M2_eye_cup_starts_frame_208": true,
+    "M2_shield_starts_frame_281_as_requested_fallback": true,
+    "M3_450_BCE_same_caption_and_line": true,
+    "A01_face_crop_remains_safe": true,
+    "labels_match_sources": true
+  },
+  "human_full_auditory_review": false,
+  "frame_review_sha256": "3b34f4914fb99f784e19eb6cefc3bf7834907cbb5a568efacf9924c6f609002e"
+}

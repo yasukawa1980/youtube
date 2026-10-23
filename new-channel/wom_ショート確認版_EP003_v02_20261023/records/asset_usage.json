@@ -1,0 +1,63 @@
+{
+  "passed": true,
+  "unique_sources": 7,
+  "rows": [
+    {
+      "short_id": "M1",
+      "asset_id": "R03",
+      "start_seconds": 0.0,
+      "end_seconds": 12.033333333333333,
+      "use_count": 1,
+      "source_sha256": "169c0561bcdc64af7e94e881a564e9e55747ca1ed40191195d3726436ed34669"
+    },
+    {
+      "short_id": "M1",
+      "asset_id": "A05",
+      "start_seconds": 12.033333333333333,
+      "end_seconds": 19.333333333333332,
+      "use_count": 1,
+      "source_sha256": "fe332a8fc1ab0ebbb6b2f2cf381aab5d8b2ec24dddcc8f15fb2004677175d76e"
+    },
+    {
+      "short_id": "M2",
+      "asset_id": "A04",
+      "start_seconds": 0.0,
+      "end_seconds": 6.933333333333334,
+      "use_count": 1,
+      "source_sha256": "e54a2b731e1fde4cddc26cf6bcaa3da2e9b2b6faee1e17176f4dcda1348b5fca"
+    },
+    {
+      "short_id": "M2",
+      "asset_id": "A08",
+      "start_seconds": 6.933333333333334,
+      "end_seconds": 9.366666666666667,
+      "use_count": 1,
+      "source_sha256": "e7094a37076df43acd1fa5e0e38a44d6e39d75d5b0ab50af32adf3a910f05297"
+    },
+    {
+      "short_id": "M2",
+      "asset_id": "A26",
+      "start_seconds": 9.366666666666667,
+      "end_seconds": 17.1,
+      "use_count": 1,
+      "source_sha256": "98f364fff5066688da6f188cd954baa21e91877c64a22ecb3a710db9db571ffb"
+    },
+    {
+      "short_id": "M3",
+      "asset_id": "A01",
+      "start_seconds": 0.0,
+      "end_seconds": 12.6,
+      "use_count": 1,
+      "source_sha256": "483b40fba6382bddfe5bff4591f428c5ba3fa29d2d212c0c6d85a7133f75fa04"
+    },
+    {
+      "short_id": "M3",
+      "asset_id": "A17",
+      "start_seconds": 12.6,
+      "end_seconds": 20.0,
+      "use_count": 1,
+      "source_sha256": "7bd80fb261684586b5f2d67f6bcb1b60640d822546e90b262b87bdae523a1078"
+    }
+  ],
+  "same_source_not_repeated_within_episode": true
+}

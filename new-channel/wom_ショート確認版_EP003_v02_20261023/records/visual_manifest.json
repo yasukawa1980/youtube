@@ -1,0 +1,1410 @@
+{
+  "shots": [
+    {
+      "short_id": "M1",
+      "asset_id": "R03",
+      "start_frame": 0,
+      "end_frame": 361,
+      "frames": 361,
+      "file": "/Users/ryo/Desktop/新チャンネル/ショート/EP003_確認版_v01_20261023/assets/M1_R03.png",
+      "sha256": "b68402250a0461dd56f13344ad43793903a967175a04e54cca3e25945cb9c570",
+      "source": {
+        "id": "R03",
+        "path": "/Users/ryo/Desktop/新チャンネル/EP003_Medusa/素材/R03_reconstruction_v01.png",
+        "sha256": "169c0561bcdc64af7e94e881a564e9e55747ca1ed40191195d3726436ed34669",
+        "kind": "image",
+        "label": "AI RECONSTRUCTION｜AIによる再現",
+        "source": "OpenAI image generation • R03 • Illustration",
+        "original_record": {
+          "id": "R03",
+          "prompt": "Use case: historical-scene. Create one wide 16:9 full-bleed hand-painted oil and gouache illustration for Quiet Origins, visible painterly brush texture, restrained natural colors, calm contemplative composition. An imagined atmospheric scene, not an exact reconstruction of an identifiable historic place. No real people, identifiable artworks, Medusa, Gorgon, monsters, violence, detached heads, snakes, blood, nudity, readable writing, captions, logos or watermarks. Scene: Moonlit dark Mediterranean sea and rocky shoreline at night, silver reflection across gentle waves, empty rock formations, quiet dark blue atmosphere, no buildings or people.",
+          "source_path": "/Users/ryo/.codex/generated_images/01a16400-3c33-7620-950d-1d1bc8fcf984/exec-97a937e1-72b0-44c6-9d1f-2739982dc774.png",
+          "generated_date": "2026-10-23",
+          "service": "OpenAI built-in image generation",
+          "visual_review": "Inspected generated output: requested scene, no readable text or prohibited content observed.",
+          "human_historical_authentication": false,
+          "local_path": "/Users/ryo/Desktop/新チャンネル/EP003_Medusa/素材/R03_reconstruction_v01.png",
+          "sha256": "169c0561bcdc64af7e94e881a564e9e55747ca1ed40191195d3726436ed34669",
+          "pixels": [
+            1672,
+            941
+          ]
+        }
+      },
+      "texts": [
+        {
+          "text": "QUIET ORIGINS / EP003",
+          "bbox": [
+            80,
+            145,
+            365,
+            165
+          ]
+        },
+        {
+          "text": "AI RECONSTRUCTION｜AIによる再現",
+          "bbox": [
+            80,
+            183,
+            530,
+            208
+          ]
+        },
+        {
+          "text": "OpenAI image generation • R03 • Illustration",
+          "bbox": [
+            80,
+            232,
+            531,
+            255
+          ]
+        }
+      ],
+      "art_box": [
+        0,
+        270,
+        1080,
+        1130
+      ],
+      "source_crop_pixels": null,
+      "zoom_start": 0.97,
+      "zoom_end": 1.0,
+      "viewport": [
+        0,
+        270,
+        1080,
+        860
+      ]
+    },
+    {
+      "short_id": "M1",
+      "asset_id": "A05",
+      "start_frame": 361,
+      "end_frame": 580,
+      "frames": 219,
+      "file": "/Users/ryo/Desktop/新チャンネル/ショート/EP003_確認版_v01_20261023/assets/M1_A05.png",
+      "sha256": "c63992fe230d0c2a403f12afb34d07aa089540c225762c0863e471b4c5766eac",
+      "source": {
+        "id": "A05",
+        "path": "/Users/ryo/Desktop/新チャンネル/EP003_Medusa/素材/A05_met_246931_v02.jpg",
+        "sha256": "fe332a8fc1ab0ebbb6b2f2cf381aab5d8b2ec24dddcc8f15fb2004677175d76e",
+        "kind": "image",
+        "label": "MUSEUM OBJECT｜博物館資料",
+        "source": "The Met • Terracotta Siana cup • 01.8.6 • CC0",
+        "original_record": {
+          "id": "A05",
+          "object_id": 246931,
+          "request_id": "B05",
+          "label": "走るゴルゴンを描いたシアナ杯",
+          "assigned_section": "M03",
+          "notes": "内面の走るゴルゴン1体を使う（追加画像2に細部）。三姉妹全員や姉妹の追跡場面ではない。外面はアキレウスとトロイロス／ポリュクセネ等で、ゴルゴン姉妹と誤認しない。",
+          "museum": "The Metropolitan Museum of Art",
+          "title": "Terracotta kylix: Siana cup (drinking cup)",
+          "artist": "C Painter",
+          "date": "ca. 575 BCE",
+          "culture": "Greek, Attic",
+          "medium": "Terracotta",
+          "accession": "01.8.6",
+          "credit": "Purchase, 1901",
+          "object_url": "https://www.metmuseum.org/art/collection/search/246931",
+          "api_url": "https://collectionapi.metmuseum.org/public/collection/v1/objects/246931",
+          "rights": "Public Domain / CC0",
+          "rights_evidence": "Individual page: Public Domain; official API: isPublicDomain=true",
+          "isPublicDomain": true,
+          "rights_url": "https://www.metmuseum.org/hubs/open-access",
+          "license_url": "https://creativecommons.org/publicdomain/zero/1.0/",
+          "retrieved_date_jst": "2026-10-22",
+          "representative_view_index": 0,
+          "originals": [
+            {
+              "view_index": 0,
+              "url": "https://images.metmuseum.org/CRDImages/gr/original/DP-12521-005.jpg",
+              "path": "/Users/ryo/Desktop/新チャンネル/EP003_Medusa/素材/A05_met_246931_v00.jpg",
+              "bytes": 2018994,
+              "pixels": [
+                4000,
+                3000
+              ],
+              "sha256": "589974fdd3f90f3ce8d49e542a8349f90d763805960997804188c37f0e7b5972"
+            },
+            {
+              "view_index": 1,
+              "url": "https://images.metmuseum.org/CRDImages/gr/original/DP-12521-002.jpg",
+              "path": "/Users/ryo/Desktop/新チャンネル/EP003_Medusa/素材/A05_met_246931_v01.jpg",
+              "bytes": 1124455,
+              "pixels": [
+                4000,
+                2621
+              ],
+              "sha256": "5b59105c0be668ba46f8e9e8aace1936a81330bb4b55d901c04f825677d14ae1"
+            },
+            {
+              "view_index": 2,
+              "url": "https://images.metmuseum.org/CRDImages/gr/original/DP-12521-006.jpg",
+              "path": "/Users/ryo/Desktop/新チャンネル/EP003_Medusa/素材/A05_met_246931_v02.jpg",
+              "bytes": 3730691,
+              "pixels": [
+                4000,
+                3000
+              ],
+              "sha256": "fe332a8fc1ab0ebbb6b2f2cf381aab5d8b2ec24dddcc8f15fb2004677175d76e"
+            },
+            {
+              "view_index": 3,
+              "url": "https://images.metmuseum.org/CRDImages/gr/original/DP-12521-003.jpg",
+              "path": "/Users/ryo/Desktop/新チャンネル/EP003_Medusa/素材/A05_met_246931_v03.jpg",
+              "bytes": 1440882,
+              "pixels": [
+                4000,
+                2887
+              ],
+              "sha256": "999a24e0623d2c410888df9b9037960678d138ecac89cae067f311ef6208f833"
+            },
+            {
+              "view_index": 4,
+              "url": "https://images.metmuseum.org/CRDImages/gr/original/DP-12521-004.jpg",
+              "path": "/Users/ryo/Desktop/新チャンネル/EP003_Medusa/素材/A05_met_246931_v04.jpg",
+              "bytes": 1528134,
+              "pixels": [
+                4000,
+                3000
+              ],
+              "sha256": "9cbb83f690c8b37eaf57df0b67f3539f14f6818285181dee78f772af2a1beb34"
+            },
+            {
+              "view_index": 5,
+              "url": "https://images.metmuseum.org/CRDImages/gr/original/DP-12521-001.jpg",
+              "path": "/Users/ryo/Desktop/新チャンネル/EP003_Medusa/素材/A05_met_246931_v05.jpg",
+              "bytes": 1071413,
+              "pixels": [
+                4000,
+                2622
+              ],
+              "sha256": "6df9fa793be8257df9b60651989653dfc4832b24877f1aae94d146aa21914234"
+            },
+            {
+              "view_index": 6,
+              "url": "https://images.metmuseum.org/CRDImages/gr/original/GR133.jpg",
+              "path": "/Users/ryo/Desktop/新チャンネル/EP003_Medusa/素材/A05_met_246931_v06.jpg",
+              "bytes": 46585,
+              "pixels": [
+                680,
+                315
+              ],
+              "sha256": "0213944d0e8460854ac7bf440f216a549e61f32756f4e0bca1572a29d0a04764"
+            },
+            {
+              "view_index": 7,
+              "url": "https://images.metmuseum.org/CRDImages/gr/original/DT234159.jpg",
+              "path": "/Users/ryo/Desktop/新チャンネル/EP003_Medusa/素材/A05_met_246931_v07.jpg",
+              "bytes": 1118257,
+              "pixels": [
+                3811,
+                3049
+              ],
+              "sha256": "dfc919f873186102ca27a96eb7acbfb3a6104d8bf1c337522c24e20d40b42c96"
+            }
+          ],
+          "preview": {
+            "path": "new-channel/サムネ確認用/wom03/A05_met_246931.jpg",
+            "pixels": [
+              1280,
+              960
+            ],
+            "bytes": 167914,
+            "sha256": "b47182d9f5d9f84d69cad3287312c2ff03ef4ad901da7dd0f1a6e15ae1c86527"
+          }
+        },
+        "source_url": "https://www.metmuseum.org/art/collection/search/246931"
+      },
+      "texts": [
+        {
+          "text": "QUIET ORIGINS / EP003",
+          "bbox": [
+            80,
+            145,
+            365,
+            165
+          ]
+        },
+        {
+          "text": "MUSEUM OBJECT｜博物館資料",
+          "bbox": [
+            80,
+            183,
+            459,
+            208
+          ]
+        },
+        {
+          "text": "The Met • Terracotta Siana cup • 01.8.6 • CC0",
+          "bbox": [
+            80,
+            232,
+            550,
+            255
+          ]
+        }
+      ],
+      "art_box": [
+        0,
+        295,
+        1080,
+        1105
+      ],
+      "source_crop_pixels": null,
+      "zoom_start": 0.97,
+      "zoom_end": 1.0,
+      "viewport": [
+        0,
+        270,
+        1080,
+        860
+      ]
+    },
+    {
+      "short_id": "M2",
+      "asset_id": "A04",
+      "start_frame": 0,
+      "end_frame": 208,
+      "frames": 208,
+      "file": "/Users/ryo/Desktop/新チャンネル/ショート/EP003_確認版_v01_20261023/assets/M2_A04.png",
+      "sha256": "dc36ef5b957a5c703c4f8d5c6f908950e1e0245532c912dadbeea2fab1364df3",
+      "source": {
+        "id": "A04",
+        "path": "/Users/ryo/Desktop/新チャンネル/EP003_Medusa/素材/A04_met_253581_v00.jpg",
+        "sha256": "e54a2b731e1fde4cddc26cf6bcaa3da2e9b2b6faee1e17176f4dcda1348b5fca",
+        "kind": "image",
+        "label": "MUSEUM OBJECT｜博物館資料",
+        "source": "The Met • Painted gorgoneion antefix • 39.11.9 • CC0",
+        "original_record": {
+          "id": "A04",
+          "object_id": 253581,
+          "request_id": "B03/B12",
+          "label": "彩色ゴルゴネイオン屋根瓦",
+          "assigned_section": "M06（予備）",
+          "notes": "顔の周囲に蛇が巡るアルカイック期の作例。B12の予備にもなるが、使う区間はM01かM06の片方に限定。現行公式解説が守護の象徴と明記。",
+          "museum": "The Metropolitan Museum of Art",
+          "title": "Terracotta painted gorgoneion antefix (roof tile)",
+          "artist": "",
+          "date": "ca. 540 BCE",
+          "culture": "Greek, South Italian, Tarentine",
+          "medium": "Terracotta, paint",
+          "accession": "39.11.9",
+          "credit": "Harris Brisbane Dick Fund, 1939",
+          "object_url": "https://www.metmuseum.org/art/collection/search/253581",
+          "api_url": "https://collectionapi.metmuseum.org/public/collection/v1/objects/253581",
+          "rights": "Public Domain / CC0",
+          "rights_evidence": "Individual page: Public Domain; official API: isPublicDomain=true",
+          "isPublicDomain": true,
+          "rights_url": "https://www.metmuseum.org/hubs/open-access",
+          "license_url": "https://creativecommons.org/publicdomain/zero/1.0/",
+          "retrieved_date_jst": "2026-10-22",
+          "representative_view_index": 0,
+          "originals": [
+            {
+              "view_index": 0,
+              "url": "https://images.metmuseum.org/CRDImages/gr/original/DP233549.jpg",
+              "path": "/Users/ryo/Desktop/新チャンネル/EP003_Medusa/素材/A04_met_253581_v00.jpg",
+              "bytes": 2700670,
+              "pixels": [
+                4000,
+                3000
+              ],
+              "sha256": "e54a2b731e1fde4cddc26cf6bcaa3da2e9b2b6faee1e17176f4dcda1348b5fca"
+            }
+          ],
+          "preview": {
+            "path": "new-channel/サムネ確認用/wom03/A04_met_253581.jpg",
+            "pixels": [
+              1280,
+              960
+            ],
+            "bytes": 192904,
+            "sha256": "201118c9e9a945eee3bcdbeb7a43e8abf7a711208a170dbd3ea557cac3b57591"
+          }
+        },
+        "source_url": "https://www.metmuseum.org/art/collection/search/253581"
+      },
+      "texts": [
+        {
+          "text": "QUIET ORIGINS / EP003",
+          "bbox": [
+            80,
+            145,
+            365,
+            165
+          ]
+        },
+        {
+          "text": "MUSEUM OBJECT｜博物館資料",
+          "bbox": [
+            80,
+            183,
+            459,
+            208
+          ]
+        },
+        {
+          "text": "The Met • Painted gorgoneion antefix • 39.11.9 • CC0",
+          "bbox": [
+            80,
+            232,
+            623,
+            255
+          ]
+        }
+      ],
+      "art_box": [
+        0,
+        295,
+        1080,
+        1105
+      ],
+      "source_crop_pixels": null,
+      "zoom_start": 0.97,
+      "zoom_end": 1.0,
+      "viewport": [
+        0,
+        270,
+        1080,
+        860
+      ]
+    },
+    {
+      "short_id": "M2",
+      "asset_id": "A08",
+      "start_frame": 208,
+      "end_frame": 281,
+      "frames": 73,
+      "file": "/Users/ryo/Desktop/新チャンネル/ショート/EP003_確認版_v01_20261023/assets/M2_A08.png",
+      "sha256": "f900d179aadccfe48d07685b0af27aa6f1d004f3d53433fb5e95c7a7b326b6d2",
+      "source": {
+        "id": "A08",
+        "path": "/Users/ryo/Desktop/新チャンネル/EP003_Medusa/素材/A08_met_248906_v00.jpg",
+        "sha256": "e7094a37076df43acd1fa5e0e38a44d6e39d75d5b0ab50af32adf3a910f05297",
+        "kind": "image",
+        "label": "MUSEUM OBJECT｜博物館資料",
+        "source": "The Met • Terracotta eye-cup • 14.136 • CC0",
+        "original_record": {
+          "id": "A08",
+          "object_id": 248906,
+          "request_id": "B07",
+          "label": "ゴルゴネイオンのある眼杯",
+          "assigned_section": "M06",
+          "notes": "杯の内側の顔が明瞭。外面は別題材。ゴルゴンの顔が飲み干すと現れる構造の説明用。",
+          "museum": "The Metropolitan Museum of Art",
+          "title": "Terracotta kylix: eye-cup (drinking cup)",
+          "artist": "Nikosthenes",
+          "date": "ca. 530 BCE",
+          "culture": "Greek, Attic",
+          "medium": "Terracotta",
+          "accession": "14.136",
+          "credit": "Rogers Fund, 1914",
+          "object_url": "https://www.metmuseum.org/art/collection/search/248906",
+          "api_url": "https://collectionapi.metmuseum.org/public/collection/v1/objects/248906",
+          "rights": "Public Domain / CC0",
+          "rights_evidence": "Individual page: Public Domain; official API: isPublicDomain=true",
+          "isPublicDomain": true,
+          "rights_url": "https://www.metmuseum.org/hubs/open-access",
+          "license_url": "https://creativecommons.org/publicdomain/zero/1.0/",
+          "retrieved_date_jst": "2026-10-22",
+          "representative_view_index": 0,
+          "originals": [
+            {
+              "view_index": 0,
+              "url": "https://images.metmuseum.org/CRDImages/gr/original/DP274983.jpg",
+              "path": "/Users/ryo/Desktop/新チャンネル/EP003_Medusa/素材/A08_met_248906_v00.jpg",
+              "bytes": 1161735,
+              "pixels": [
+                4000,
+                3145
+              ],
+              "sha256": "e7094a37076df43acd1fa5e0e38a44d6e39d75d5b0ab50af32adf3a910f05297"
+            },
+            {
+              "view_index": 1,
+              "url": "https://images.metmuseum.org/CRDImages/gr/original/DP273722.jpg",
+              "path": "/Users/ryo/Desktop/新チャンネル/EP003_Medusa/素材/A08_met_248906_v01.jpg",
+              "bytes": 955991,
+              "pixels": [
+                4000,
+                2078
+              ],
+              "sha256": "6bd88a26d6eab98be11f5324d58d609b297c31725b60796c331743a0afda7026"
+            },
+            {
+              "view_index": 2,
+              "url": "https://images.metmuseum.org/CRDImages/gr/original/DP273726.jpg",
+              "path": "/Users/ryo/Desktop/新チャンネル/EP003_Medusa/素材/A08_met_248906_v02.jpg",
+              "bytes": 869917,
+              "pixels": [
+                4000,
+                2072
+              ],
+              "sha256": "6d66ca7ec540f7a7714675a9cdba38987497e4311932863aa0e7ae66aa85c386"
+            },
+            {
+              "view_index": 3,
+              "url": "https://images.metmuseum.org/CRDImages/gr/original/DP273730.jpg",
+              "path": "/Users/ryo/Desktop/新チャンネル/EP003_Medusa/素材/A08_met_248906_v03.jpg",
+              "bytes": 1952989,
+              "pixels": [
+                4000,
+                2269
+              ],
+              "sha256": "fc3d4232fd2cf51a7639dac6412b37abc8fb7885e6b14f5a91f926595fe2d4a2"
+            },
+            {
+              "view_index": 4,
+              "url": "https://images.metmuseum.org/CRDImages/gr/original/DP274982.jpg",
+              "path": "/Users/ryo/Desktop/新チャンネル/EP003_Medusa/素材/A08_met_248906_v04.jpg",
+              "bytes": 1910542,
+              "pixels": [
+                4000,
+                2269
+              ],
+              "sha256": "684c5d76994c406cb07c7e2e0dae69cfbd8c98d9d5b772a73fcadea89e974f6f"
+            }
+          ],
+          "preview": {
+            "path": "new-channel/サムネ確認用/wom03/A08_met_248906.jpg",
+            "pixels": [
+              1280,
+              1006
+            ],
+            "bytes": 121123,
+            "sha256": "92157e63ef47822129f153e75d447a374665d737ac8f209f08084af18d892e9c"
+          }
+        },
+        "source_url": "https://www.metmuseum.org/art/collection/search/248906"
+      },
+      "texts": [
+        {
+          "text": "QUIET ORIGINS / EP003",
+          "bbox": [
+            80,
+            145,
+            365,
+            165
+          ]
+        },
+        {
+          "text": "MUSEUM OBJECT｜博物館資料",
+          "bbox": [
+            80,
+            183,
+            459,
+            208
+          ]
+        },
+        {
+          "text": "The Met • Terracotta eye-cup • 14.136 • CC0",
+          "bbox": [
+            80,
+            232,
+            538,
+            255
+          ]
+        }
+      ],
+      "art_box": [
+        0,
+        275,
+        1080,
+        1124
+      ],
+      "source_crop_pixels": null,
+      "zoom_start": 0.97,
+      "zoom_end": 1.0,
+      "viewport": [
+        0,
+        270,
+        1080,
+        860
+      ]
+    },
+    {
+      "short_id": "M2",
+      "asset_id": "A26",
+      "start_frame": 281,
+      "end_frame": 513,
+      "frames": 232,
+      "file": "/Users/ryo/Desktop/新チャンネル/ショート/EP003_確認版_v01_20261023/assets/M2_A26.png",
+      "sha256": "835ce92bd7df2c1d9a46459a6e2f9278ee3522de350d7b365182313e4edb5fb3",
+      "source": {
+        "id": "A26",
+        "path": "/Users/ryo/Desktop/新チャンネル/EP003_Medusa/素材/A26_met_254476_v00.jpg",
+        "sha256": "98f364fff5066688da6f188cd954baa21e91877c64a22ecb3a710db9db571ffb",
+        "kind": "image",
+        "label": "MUSEUM OBJECT｜博物館資料",
+        "source": "The Met • Terracotta relief: Gorgon shield • 42.11.33 • CC0",
+        "original_record": {
+          "id": "A26",
+          "object_id": 254476,
+          "request_id": "B07",
+          "label": "ゴルゴンの盾を持つアキレウスの浮彫断片",
+          "assigned_section": "M06",
+          "notes": "盾の図像の第一候補。アキレウスと倒れたアマゾンの場面。メドゥーサ討伐ではない。戦闘後の図像を含むが、確認画像では目立つ流血はない。",
+          "museum": "The Metropolitan Museum of Art",
+          "title": "Fragment of a terracotta relief",
+          "artist": "",
+          "date": "ca. 600 BCE",
+          "culture": "Greek, Attic",
+          "medium": "Terracotta",
+          "accession": "42.11.33",
+          "credit": "Samuel D. Lee Fund, 1942",
+          "object_url": "https://www.metmuseum.org/art/collection/search/254476",
+          "api_url": "https://collectionapi.metmuseum.org/public/collection/v1/objects/254476",
+          "rights": "Public Domain / CC0",
+          "rights_evidence": "Individual page: Public Domain; official API: isPublicDomain=true",
+          "isPublicDomain": true,
+          "rights_url": "https://www.metmuseum.org/hubs/open-access",
+          "license_url": "https://creativecommons.org/publicdomain/zero/1.0/",
+          "retrieved_date_jst": "2026-10-22",
+          "representative_view_index": 0,
+          "originals": [
+            {
+              "view_index": 0,
+              "url": "https://images.metmuseum.org/CRDImages/gr/original/DP-12666-001.jpg",
+              "path": "/Users/ryo/Desktop/新チャンネル/EP003_Medusa/素材/A26_met_254476_v00.jpg",
+              "bytes": 3227852,
+              "pixels": [
+                2800,
+                4000
+              ],
+              "sha256": "98f364fff5066688da6f188cd954baa21e91877c64a22ecb3a710db9db571ffb"
+            },
+            {
+              "view_index": 1,
+              "url": "https://images.metmuseum.org/CRDImages/gr/original/DP-12666-002.jpg",
+              "path": "/Users/ryo/Desktop/新チャンネル/EP003_Medusa/素材/A26_met_254476_v01.jpg",
+              "bytes": 4193556,
+              "pixels": [
+                4000,
+                3000
+              ],
+              "sha256": "99bc5893d88442c85de74fbbd9219f1a304e9f1cf11c6fc2595c2c62daac16cb"
+            }
+          ],
+          "preview": {
+            "path": "new-channel/サムネ確認用/wom03/A26_met_254476.jpg",
+            "pixels": [
+              896,
+              1280
+            ],
+            "bytes": 230597,
+            "sha256": "8a08e5d2a349a7dfbd8a6a70f5865e913a47afce3fbe50ca19ab0ea9ce9ddd91"
+          }
+        },
+        "source_url": "https://www.metmuseum.org/art/collection/search/254476"
+      },
+      "texts": [
+        {
+          "text": "QUIET ORIGINS / EP003",
+          "bbox": [
+            80,
+            145,
+            365,
+            165
+          ]
+        },
+        {
+          "text": "MUSEUM OBJECT｜博物館資料",
+          "bbox": [
+            80,
+            183,
+            459,
+            208
+          ]
+        },
+        {
+          "text": "The Met • Terracotta relief: Gorgon shield • 42.11.33 • CC0",
+          "bbox": [
+            80,
+            232,
+            680,
+            255
+          ]
+        }
+      ],
+      "art_box": [
+        239,
+        270,
+        841,
+        1130
+      ],
+      "source_crop_pixels": null,
+      "zoom_start": 0.97,
+      "zoom_end": 1.0,
+      "viewport": [
+        0,
+        270,
+        1080,
+        860
+      ]
+    },
+    {
+      "short_id": "M3",
+      "asset_id": "A01",
+      "start_frame": 0,
+      "end_frame": 378,
+      "frames": 378,
+      "file": "/Users/ryo/Desktop/新チャンネル/ショート/EP003_確認版_v01_20261023/assets/M3_A01.png",
+      "sha256": "3838af51ae359f0fcb75ae225328ba36d1508f14a873d2ee022a1e75f8b0db98",
+      "source": {
+        "id": "A01",
+        "path": "/Users/ryo/Desktop/新チャンネル/EP003_Medusa/素材/A01_met_254523_v02.jpg",
+        "sha256": "483b40fba6382bddfe5bff4591f428c5ba3fa29d2d212c0c6d85a7133f75fa04",
+        "kind": "image",
+        "label": "MUSEUM OBJECT｜博物館資料",
+        "source": "The Met • Terracotta pelike • 45.11.1 • CC0",
+        "original_record": {
+          "id": "A01",
+          "object_id": 254523,
+          "request_id": "B01",
+          "label": "眠るメドゥーサのペリケ",
+          "assigned_section": "M09",
+          "notes": "第一候補。全体→顔の拡大は同一区間内で行う。首を切る直前の刃と髪をつかむ手が描かれる。使用注意：刀や首元には寄らない。追加画像1・2も同じ作品で、別区間用の別素材には数えない。",
+          "museum": "The Metropolitan Museum of Art",
+          "title": "Terracotta pelike (jar)",
+          "artist": "Polygnotos",
+          "date": "ca. 450–440 BCE",
+          "culture": "Greek, Attic",
+          "medium": "Terracotta",
+          "accession": "45.11.1",
+          "credit": "Rogers Fund, 1945",
+          "object_url": "https://www.metmuseum.org/art/collection/search/254523",
+          "api_url": "https://collectionapi.metmuseum.org/public/collection/v1/objects/254523",
+          "rights": "Public Domain / CC0",
+          "rights_evidence": "Individual page: Public Domain; official API: isPublicDomain=true",
+          "isPublicDomain": true,
+          "rights_url": "https://www.metmuseum.org/hubs/open-access",
+          "license_url": "https://creativecommons.org/publicdomain/zero/1.0/",
+          "retrieved_date_jst": "2026-10-22",
+          "representative_view_index": 0,
+          "originals": [
+            {
+              "view_index": 0,
+              "url": "https://images.metmuseum.org/CRDImages/gr/original/DT352033.jpg",
+              "path": "/Users/ryo/Desktop/新チャンネル/EP003_Medusa/素材/A01_met_254523_v00.jpg",
+              "bytes": 1836020,
+              "pixels": [
+                3159,
+                4000
+              ],
+              "sha256": "5011b3858173fc56e4e26eac78400520a145d8db3aeb04efcb71c324db1b9290"
+            },
+            {
+              "view_index": 1,
+              "url": "https://images.metmuseum.org/CRDImages/gr/original/DP-14887-001.jpg",
+              "path": "/Users/ryo/Desktop/新チャンネル/EP003_Medusa/素材/A01_met_254523_v01.jpg",
+              "bytes": 3299087,
+              "pixels": [
+                3000,
+                4000
+              ],
+              "sha256": "604218d2b38b9b8af689efb242b2b59d1ddccbcba54859da6a93421d1a87979e"
+            },
+            {
+              "view_index": 2,
+              "url": "https://images.metmuseum.org/CRDImages/gr/original/DP-14887-002.jpg",
+              "path": "/Users/ryo/Desktop/新チャンネル/EP003_Medusa/素材/A01_met_254523_v02.jpg",
+              "bytes": 3207195,
+              "pixels": [
+                3000,
+                4000
+              ],
+              "sha256": "483b40fba6382bddfe5bff4591f428c5ba3fa29d2d212c0c6d85a7133f75fa04"
+            }
+          ],
+          "preview": {
+            "path": "new-channel/サムネ確認用/wom03/A01_met_254523.jpg",
+            "pixels": [
+              1011,
+              1280
+            ],
+            "bytes": 187619,
+            "sha256": "cfa840c3612450b2d00d10233b36adbdb7752b4c192d82dda7d2303ef9c5d960"
+          }
+        },
+        "source_url": "https://www.metmuseum.org/art/collection/search/254523"
+      },
+      "texts": [
+        {
+          "text": "QUIET ORIGINS / EP003",
+          "bbox": [
+            80,
+            145,
+            365,
+            165
+          ]
+        },
+        {
+          "text": "MUSEUM OBJECT｜博物館資料",
+          "bbox": [
+            80,
+            183,
+            459,
+            208
+          ]
+        },
+        {
+          "text": "The Met • Terracotta pelike • 45.11.1 • CC0",
+          "bbox": [
+            80,
+            232,
+            521,
+            255
+          ]
+        }
+      ],
+      "art_box": [
+        0,
+        300,
+        1080,
+        1100
+      ],
+      "source_crop_pixels": [
+        2100,
+        1752,
+        2505,
+        2052
+      ],
+      "zoom_start": 0.97,
+      "zoom_end": 1.0,
+      "viewport": [
+        0,
+        270,
+        1080,
+        860
+      ]
+    },
+    {
+      "short_id": "M3",
+      "asset_id": "A17",
+      "start_frame": 378,
+      "end_frame": 600,
+      "frames": 222,
+      "file": "/Users/ryo/Desktop/新チャンネル/ショート/EP003_確認版_v01_20261023/assets/M3_A17.png",
+      "sha256": "507fa56a26899def9b0ccd3dca5768e12bee9d7369d9d340bd2b7fc12dab73cf",
+      "source": {
+        "id": "A17",
+        "path": "/Users/ryo/Desktop/新チャンネル/EP003_Medusa/素材/A17_met_250968_v00.jpg",
+        "sha256": "7bd80fb261684586b5f2d67f6bcb1b60640d822546e90b262b87bdae523a1078",
+        "kind": "image",
+        "label": "MUSEUM OBJECT｜博物館資料",
+        "source": "The Met • Gorgoneion antefix • 20.215 • CC0",
+        "original_record": {
+          "id": "A17",
+          "object_id": 250968,
+          "request_id": "B10",
+          "label": "穏やかな顔のゴルゴネイオン屋根瓦",
+          "assigned_section": "M10",
+          "notes": "第一候補。紀元前5世紀後半の作例として、M10の年代を支える比較画像に適する。A03とは別作品。",
+          "museum": "The Metropolitan Museum of Art",
+          "title": "Terracotta gorgoneion antefix (roof tile)",
+          "artist": "",
+          "date": "2nd half of the 5th century BCE",
+          "culture": "Greek, South Italian, Tarentine",
+          "medium": "Terracotta",
+          "accession": "20.215",
+          "credit": "Rogers Fund, 1920",
+          "object_url": "https://www.metmuseum.org/art/collection/search/250968",
+          "api_url": "https://collectionapi.metmuseum.org/public/collection/v1/objects/250968",
+          "rights": "Public Domain / CC0",
+          "rights_evidence": "Individual page: Public Domain; official API: isPublicDomain=true",
+          "isPublicDomain": true,
+          "rights_url": "https://www.metmuseum.org/hubs/open-access",
+          "license_url": "https://creativecommons.org/publicdomain/zero/1.0/",
+          "retrieved_date_jst": "2026-10-22",
+          "representative_view_index": 0,
+          "originals": [
+            {
+              "view_index": 0,
+              "url": "https://images.metmuseum.org/CRDImages/gr/original/DP233548.jpg",
+              "path": "/Users/ryo/Desktop/新チャンネル/EP003_Medusa/素材/A17_met_250968_v00.jpg",
+              "bytes": 2870495,
+              "pixels": [
+                4000,
+                3000
+              ],
+              "sha256": "7bd80fb261684586b5f2d67f6bcb1b60640d822546e90b262b87bdae523a1078"
+            }
+          ],
+          "preview": {
+            "path": "new-channel/サムネ確認用/wom03/A17_met_250968.jpg",
+            "pixels": [
+              1280,
+              960
+            ],
+            "bytes": 198760,
+            "sha256": "5bbaca4d69965f318580b5c8a3a18ff269192b9aad442c3a4058dde7489876a5"
+          }
+        },
+        "source_url": "https://www.metmuseum.org/art/collection/search/250968"
+      },
+      "texts": [
+        {
+          "text": "QUIET ORIGINS / EP003",
+          "bbox": [
+            80,
+            145,
+            365,
+            165
+          ]
+        },
+        {
+          "text": "MUSEUM OBJECT｜博物館資料",
+          "bbox": [
+            80,
+            183,
+            459,
+            208
+          ]
+        },
+        {
+          "text": "The Met • Gorgoneion antefix • 20.215 • CC0",
+          "bbox": [
+            80,
+            232,
+            538,
+            255
+          ]
+        }
+      ],
+      "art_box": [
+        0,
+        295,
+        1080,
+        1105
+      ],
+      "source_crop_pixels": null,
+      "zoom_start": 0.97,
+      "zoom_end": 1.0,
+      "viewport": [
+        0,
+        270,
+        1080,
+        860
+      ]
+    }
+  ],
+  "assets": {
+    "A01": {
+      "id": "A01",
+      "path": "/Users/ryo/Desktop/新チャンネル/EP003_Medusa/素材/A01_met_254523_v02.jpg",
+      "sha256": "483b40fba6382bddfe5bff4591f428c5ba3fa29d2d212c0c6d85a7133f75fa04",
+      "kind": "image",
+      "label": "MUSEUM OBJECT｜博物館資料",
+      "source": "The Met • Terracotta pelike • 45.11.1 • CC0",
+      "original_record": {
+        "id": "A01",
+        "object_id": 254523,
+        "request_id": "B01",
+        "label": "眠るメドゥーサのペリケ",
+        "assigned_section": "M09",
+        "notes": "第一候補。全体→顔の拡大は同一区間内で行う。首を切る直前の刃と髪をつかむ手が描かれる。使用注意：刀や首元には寄らない。追加画像1・2も同じ作品で、別区間用の別素材には数えない。",
+        "museum": "The Metropolitan Museum of Art",
+        "title": "Terracotta pelike (jar)",
+        "artist": "Polygnotos",
+        "date": "ca. 450–440 BCE",
+        "culture": "Greek, Attic",
+        "medium": "Terracotta",
+        "accession": "45.11.1",
+        "credit": "Rogers Fund, 1945",
+        "object_url": "https://www.metmuseum.org/art/collection/search/254523",
+        "api_url": "https://collectionapi.metmuseum.org/public/collection/v1/objects/254523",
+        "rights": "Public Domain / CC0",
+        "rights_evidence": "Individual page: Public Domain; official API: isPublicDomain=true",
+        "isPublicDomain": true,
+        "rights_url": "https://www.metmuseum.org/hubs/open-access",
+        "license_url": "https://creativecommons.org/publicdomain/zero/1.0/",
+        "retrieved_date_jst": "2026-10-22",
+        "representative_view_index": 0,
+        "originals": [
+          {
+            "view_index": 0,
+            "url": "https://images.metmuseum.org/CRDImages/gr/original/DT352033.jpg",
+            "path": "/Users/ryo/Desktop/新チャンネル/EP003_Medusa/素材/A01_met_254523_v00.jpg",
+            "bytes": 1836020,
+            "pixels": [
+              3159,
+              4000
+            ],
+            "sha256": "5011b3858173fc56e4e26eac78400520a145d8db3aeb04efcb71c324db1b9290"
+          },
+          {
+            "view_index": 1,
+            "url": "https://images.metmuseum.org/CRDImages/gr/original/DP-14887-001.jpg",
+            "path": "/Users/ryo/Desktop/新チャンネル/EP003_Medusa/素材/A01_met_254523_v01.jpg",
+            "bytes": 3299087,
+            "pixels": [
+              3000,
+              4000
+            ],
+            "sha256": "604218d2b38b9b8af689efb242b2b59d1ddccbcba54859da6a93421d1a87979e"
+          },
+          {
+            "view_index": 2,
+            "url": "https://images.metmuseum.org/CRDImages/gr/original/DP-14887-002.jpg",
+            "path": "/Users/ryo/Desktop/新チャンネル/EP003_Medusa/素材/A01_met_254523_v02.jpg",
+            "bytes": 3207195,
+            "pixels": [
+              3000,
+              4000
+            ],
+            "sha256": "483b40fba6382bddfe5bff4591f428c5ba3fa29d2d212c0c6d85a7133f75fa04"
+          }
+        ],
+        "preview": {
+          "path": "new-channel/サムネ確認用/wom03/A01_met_254523.jpg",
+          "pixels": [
+            1011,
+            1280
+          ],
+          "bytes": 187619,
+          "sha256": "cfa840c3612450b2d00d10233b36adbdb7752b4c192d82dda7d2303ef9c5d960"
+        }
+      },
+      "source_url": "https://www.metmuseum.org/art/collection/search/254523"
+    },
+    "A04": {
+      "id": "A04",
+      "path": "/Users/ryo/Desktop/新チャンネル/EP003_Medusa/素材/A04_met_253581_v00.jpg",
+      "sha256": "e54a2b731e1fde4cddc26cf6bcaa3da2e9b2b6faee1e17176f4dcda1348b5fca",
+      "kind": "image",
+      "label": "MUSEUM OBJECT｜博物館資料",
+      "source": "The Met • Painted gorgoneion antefix • 39.11.9 • CC0",
+      "original_record": {
+        "id": "A04",
+        "object_id": 253581,
+        "request_id": "B03/B12",
+        "label": "彩色ゴルゴネイオン屋根瓦",
+        "assigned_section": "M06（予備）",
+        "notes": "顔の周囲に蛇が巡るアルカイック期の作例。B12の予備にもなるが、使う区間はM01かM06の片方に限定。現行公式解説が守護の象徴と明記。",
+        "museum": "The Metropolitan Museum of Art",
+        "title": "Terracotta painted gorgoneion antefix (roof tile)",
+        "artist": "",
+        "date": "ca. 540 BCE",
+        "culture": "Greek, South Italian, Tarentine",
+        "medium": "Terracotta, paint",
+        "accession": "39.11.9",
+        "credit": "Harris Brisbane Dick Fund, 1939",
+        "object_url": "https://www.metmuseum.org/art/collection/search/253581",
+        "api_url": "https://collectionapi.metmuseum.org/public/collection/v1/objects/253581",
+        "rights": "Public Domain / CC0",
+        "rights_evidence": "Individual page: Public Domain; official API: isPublicDomain=true",
+        "isPublicDomain": true,
+        "rights_url": "https://www.metmuseum.org/hubs/open-access",
+        "license_url": "https://creativecommons.org/publicdomain/zero/1.0/",
+        "retrieved_date_jst": "2026-10-22",
+        "representative_view_index": 0,
+        "originals": [
+          {
+            "view_index": 0,
+            "url": "https://images.metmuseum.org/CRDImages/gr/original/DP233549.jpg",
+            "path": "/Users/ryo/Desktop/新チャンネル/EP003_Medusa/素材/A04_met_253581_v00.jpg",
+            "bytes": 2700670,
+            "pixels": [
+              4000,
+              3000
+            ],
+            "sha256": "e54a2b731e1fde4cddc26cf6bcaa3da2e9b2b6faee1e17176f4dcda1348b5fca"
+          }
+        ],
+        "preview": {
+          "path": "new-channel/サムネ確認用/wom03/A04_met_253581.jpg",
+          "pixels": [
+            1280,
+            960
+          ],
+          "bytes": 192904,
+          "sha256": "201118c9e9a945eee3bcdbeb7a43e8abf7a711208a170dbd3ea557cac3b57591"
+        }
+      },
+      "source_url": "https://www.metmuseum.org/art/collection/search/253581"
+    },
+    "A05": {
+      "id": "A05",
+      "path": "/Users/ryo/Desktop/新チャンネル/EP003_Medusa/素材/A05_met_246931_v02.jpg",
+      "sha256": "fe332a8fc1ab0ebbb6b2f2cf381aab5d8b2ec24dddcc8f15fb2004677175d76e",
+      "kind": "image",
+      "label": "MUSEUM OBJECT｜博物館資料",
+      "source": "The Met • Terracotta Siana cup • 01.8.6 • CC0",
+      "original_record": {
+        "id": "A05",
+        "object_id": 246931,
+        "request_id": "B05",
+        "label": "走るゴルゴンを描いたシアナ杯",
+        "assigned_section": "M03",
+        "notes": "内面の走るゴルゴン1体を使う（追加画像2に細部）。三姉妹全員や姉妹の追跡場面ではない。外面はアキレウスとトロイロス／ポリュクセネ等で、ゴルゴン姉妹と誤認しない。",
+        "museum": "The Metropolitan Museum of Art",
+        "title": "Terracotta kylix: Siana cup (drinking cup)",
+        "artist": "C Painter",
+        "date": "ca. 575 BCE",
+        "culture": "Greek, Attic",
+        "medium": "Terracotta",
+        "accession": "01.8.6",
+        "credit": "Purchase, 1901",
+        "object_url": "https://www.metmuseum.org/art/collection/search/246931",
+        "api_url": "https://collectionapi.metmuseum.org/public/collection/v1/objects/246931",
+        "rights": "Public Domain / CC0",
+        "rights_evidence": "Individual page: Public Domain; official API: isPublicDomain=true",
+        "isPublicDomain": true,
+        "rights_url": "https://www.metmuseum.org/hubs/open-access",
+        "license_url": "https://creativecommons.org/publicdomain/zero/1.0/",
+        "retrieved_date_jst": "2026-10-22",
+        "representative_view_index": 0,
+        "originals": [
+          {
+            "view_index": 0,
+            "url": "https://images.metmuseum.org/CRDImages/gr/original/DP-12521-005.jpg",
+            "path": "/Users/ryo/Desktop/新チャンネル/EP003_Medusa/素材/A05_met_246931_v00.jpg",
+            "bytes": 2018994,
+            "pixels": [
+              4000,
+              3000
+            ],
+            "sha256": "589974fdd3f90f3ce8d49e542a8349f90d763805960997804188c37f0e7b5972"
+          },
+          {
+            "view_index": 1,
+            "url": "https://images.metmuseum.org/CRDImages/gr/original/DP-12521-002.jpg",
+            "path": "/Users/ryo/Desktop/新チャンネル/EP003_Medusa/素材/A05_met_246931_v01.jpg",
+            "bytes": 1124455,
+            "pixels": [
+              4000,
+              2621
+            ],
+            "sha256": "5b59105c0be668ba46f8e9e8aace1936a81330bb4b55d901c04f825677d14ae1"
+          },
+          {
+            "view_index": 2,
+            "url": "https://images.metmuseum.org/CRDImages/gr/original/DP-12521-006.jpg",
+            "path": "/Users/ryo/Desktop/新チャンネル/EP003_Medusa/素材/A05_met_246931_v02.jpg",
+            "bytes": 3730691,
+            "pixels": [
+              4000,
+              3000
+            ],
+            "sha256": "fe332a8fc1ab0ebbb6b2f2cf381aab5d8b2ec24dddcc8f15fb2004677175d76e"
+          },
+          {
+            "view_index": 3,
+            "url": "https://images.metmuseum.org/CRDImages/gr/original/DP-12521-003.jpg",
+            "path": "/Users/ryo/Desktop/新チャンネル/EP003_Medusa/素材/A05_met_246931_v03.jpg",
+            "bytes": 1440882,
+            "pixels": [
+              4000,
+              2887
+            ],
+            "sha256": "999a24e0623d2c410888df9b9037960678d138ecac89cae067f311ef6208f833"
+          },
+          {
+            "view_index": 4,
+            "url": "https://images.metmuseum.org/CRDImages/gr/original/DP-12521-004.jpg",
+            "path": "/Users/ryo/Desktop/新チャンネル/EP003_Medusa/素材/A05_met_246931_v04.jpg",
+            "bytes": 1528134,
+            "pixels": [
+              4000,
+              3000
+            ],
+            "sha256": "9cbb83f690c8b37eaf57df0b67f3539f14f6818285181dee78f772af2a1beb34"
+          },
+          {
+            "view_index": 5,
+            "url": "https://images.metmuseum.org/CRDImages/gr/original/DP-12521-001.jpg",
+            "path": "/Users/ryo/Desktop/新チャンネル/EP003_Medusa/素材/A05_met_246931_v05.jpg",
+            "bytes": 1071413,
+            "pixels": [
+              4000,
+              2622
+            ],
+            "sha256": "6df9fa793be8257df9b60651989653dfc4832b24877f1aae94d146aa21914234"
+          },
+          {
+            "view_index": 6,
+            "url": "https://images.metmuseum.org/CRDImages/gr/original/GR133.jpg",
+            "path": "/Users/ryo/Desktop/新チャンネル/EP003_Medusa/素材/A05_met_246931_v06.jpg",
+            "bytes": 46585,
+            "pixels": [
+              680,
+              315
+            ],
+            "sha256": "0213944d0e8460854ac7bf440f216a549e61f32756f4e0bca1572a29d0a04764"
+          },
+          {
+            "view_index": 7,
+            "url": "https://images.metmuseum.org/CRDImages/gr/original/DT234159.jpg",
+            "path": "/Users/ryo/Desktop/新チャンネル/EP003_Medusa/素材/A05_met_246931_v07.jpg",
+            "bytes": 1118257,
+            "pixels": [
+              3811,
+              3049
+            ],
+            "sha256": "dfc919f873186102ca27a96eb7acbfb3a6104d8bf1c337522c24e20d40b42c96"
+          }
+        ],
+        "preview": {
+          "path": "new-channel/サムネ確認用/wom03/A05_met_246931.jpg",
+          "pixels": [
+            1280,
+            960
+          ],
+          "bytes": 167914,
+          "sha256": "b47182d9f5d9f84d69cad3287312c2ff03ef4ad901da7dd0f1a6e15ae1c86527"
+        }
+      },
+      "source_url": "https://www.metmuseum.org/art/collection/search/246931"
+    },
+    "A08": {
+      "id": "A08",
+      "path": "/Users/ryo/Desktop/新チャンネル/EP003_Medusa/素材/A08_met_248906_v00.jpg",
+      "sha256": "e7094a37076df43acd1fa5e0e38a44d6e39d75d5b0ab50af32adf3a910f05297",
+      "kind": "image",
+      "label": "MUSEUM OBJECT｜博物館資料",
+      "source": "The Met • Terracotta eye-cup • 14.136 • CC0",
+      "original_record": {
+        "id": "A08",
+        "object_id": 248906,
+        "request_id": "B07",
+        "label": "ゴルゴネイオンのある眼杯",
+        "assigned_section": "M06",
+        "notes": "杯の内側の顔が明瞭。外面は別題材。ゴルゴンの顔が飲み干すと現れる構造の説明用。",
+        "museum": "The Metropolitan Museum of Art",
+        "title": "Terracotta kylix: eye-cup (drinking cup)",
+        "artist": "Nikosthenes",
+        "date": "ca. 530 BCE",
+        "culture": "Greek, Attic",
+        "medium": "Terracotta",
+        "accession": "14.136",
+        "credit": "Rogers Fund, 1914",
+        "object_url": "https://www.metmuseum.org/art/collection/search/248906",
+        "api_url": "https://collectionapi.metmuseum.org/public/collection/v1/objects/248906",
+        "rights": "Public Domain / CC0",
+        "rights_evidence": "Individual page: Public Domain; official API: isPublicDomain=true",
+        "isPublicDomain": true,
+        "rights_url": "https://www.metmuseum.org/hubs/open-access",
+        "license_url": "https://creativecommons.org/publicdomain/zero/1.0/",
+        "retrieved_date_jst": "2026-10-22",
+        "representative_view_index": 0,
+        "originals": [
+          {
+            "view_index": 0,
+            "url": "https://images.metmuseum.org/CRDImages/gr/original/DP274983.jpg",
+            "path": "/Users/ryo/Desktop/新チャンネル/EP003_Medusa/素材/A08_met_248906_v00.jpg",
+            "bytes": 1161735,
+            "pixels": [
+              4000,
+              3145
+            ],
+            "sha256": "e7094a37076df43acd1fa5e0e38a44d6e39d75d5b0ab50af32adf3a910f05297"
+          },
+          {
+            "view_index": 1,
+            "url": "https://images.metmuseum.org/CRDImages/gr/original/DP273722.jpg",
+            "path": "/Users/ryo/Desktop/新チャンネル/EP003_Medusa/素材/A08_met_248906_v01.jpg",
+            "bytes": 955991,
+            "pixels": [
+              4000,
+              2078
+            ],
+            "sha256": "6bd88a26d6eab98be11f5324d58d609b297c31725b60796c331743a0afda7026"
+          },
+          {
+            "view_index": 2,
+            "url": "https://images.metmuseum.org/CRDImages/gr/original/DP273726.jpg",
+            "path": "/Users/ryo/Desktop/新チャンネル/EP003_Medusa/素材/A08_met_248906_v02.jpg",
+            "bytes": 869917,
+            "pixels": [
+              4000,
+              2072
+            ],
+            "sha256": "6d66ca7ec540f7a7714675a9cdba38987497e4311932863aa0e7ae66aa85c386"
+          },
+          {
+            "view_index": 3,
+            "url": "https://images.metmuseum.org/CRDImages/gr/original/DP273730.jpg",
+            "path": "/Users/ryo/Desktop/新チャンネル/EP003_Medusa/素材/A08_met_248906_v03.jpg",
+            "bytes": 1952989,
+            "pixels": [
+              4000,
+              2269
+            ],
+            "sha256": "fc3d4232fd2cf51a7639dac6412b37abc8fb7885e6b14f5a91f926595fe2d4a2"
+          },
+          {
+            "view_index": 4,
+            "url": "https://images.metmuseum.org/CRDImages/gr/original/DP274982.jpg",
+            "path": "/Users/ryo/Desktop/新チャンネル/EP003_Medusa/素材/A08_met_248906_v04.jpg",
+            "bytes": 1910542,
+            "pixels": [
+              4000,
+              2269
+            ],
+            "sha256": "684c5d76994c406cb07c7e2e0dae69cfbd8c98d9d5b772a73fcadea89e974f6f"
+          }
+        ],
+        "preview": {
+          "path": "new-channel/サムネ確認用/wom03/A08_met_248906.jpg",
+          "pixels": [
+            1280,
+            1006
+          ],
+          "bytes": 121123,
+          "sha256": "92157e63ef47822129f153e75d447a374665d737ac8f209f08084af18d892e9c"
+        }
+      },
+      "source_url": "https://www.metmuseum.org/art/collection/search/248906"
+    },
+    "A17": {
+      "id": "A17",
+      "path": "/Users/ryo/Desktop/新チャンネル/EP003_Medusa/素材/A17_met_250968_v00.jpg",
+      "sha256": "7bd80fb261684586b5f2d67f6bcb1b60640d822546e90b262b87bdae523a1078",
+      "kind": "image",
+      "label": "MUSEUM OBJECT｜博物館資料",
+      "source": "The Met • Gorgoneion antefix • 20.215 • CC0",
+      "original_record": {
+        "id": "A17",
+        "object_id": 250968,
+        "request_id": "B10",
+        "label": "穏やかな顔のゴルゴネイオン屋根瓦",
+        "assigned_section": "M10",
+        "notes": "第一候補。紀元前5世紀後半の作例として、M10の年代を支える比較画像に適する。A03とは別作品。",
+        "museum": "The Metropolitan Museum of Art",
+        "title": "Terracotta gorgoneion antefix (roof tile)",
+        "artist": "",
+        "date": "2nd half of the 5th century BCE",
+        "culture": "Greek, South Italian, Tarentine",
+        "medium": "Terracotta",
+        "accession": "20.215",
+        "credit": "Rogers Fund, 1920",
+        "object_url": "https://www.metmuseum.org/art/collection/search/250968",
+        "api_url": "https://collectionapi.metmuseum.org/public/collection/v1/objects/250968",
+        "rights": "Public Domain / CC0",
+        "rights_evidence": "Individual page: Public Domain; official API: isPublicDomain=true",
+        "isPublicDomain": true,
+        "rights_url": "https://www.metmuseum.org/hubs/open-access",
+        "license_url": "https://creativecommons.org/publicdomain/zero/1.0/",
+        "retrieved_date_jst": "2026-10-22",
+        "representative_view_index": 0,
+        "originals": [
+          {
+            "view_index": 0,
+            "url": "https://images.metmuseum.org/CRDImages/gr/original/DP233548.jpg",
+            "path": "/Users/ryo/Desktop/新チャンネル/EP003_Medusa/素材/A17_met_250968_v00.jpg",
+            "bytes": 2870495,
+            "pixels": [
+              4000,
+              3000
+            ],
+            "sha256": "7bd80fb261684586b5f2d67f6bcb1b60640d822546e90b262b87bdae523a1078"
+          }
+        ],
+        "preview": {
+          "path": "new-channel/サムネ確認用/wom03/A17_met_250968.jpg",
+          "pixels": [
+            1280,
+            960
+          ],
+          "bytes": 198760,
+          "sha256": "5bbaca4d69965f318580b5c8a3a18ff269192b9aad442c3a4058dde7489876a5"
+        }
+      },
+      "source_url": "https://www.metmuseum.org/art/collection/search/250968"
+    },
+    "A26": {
+      "id": "A26",
+      "path": "/Users/ryo/Desktop/新チャンネル/EP003_Medusa/素材/A26_met_254476_v00.jpg",
+      "sha256": "98f364fff5066688da6f188cd954baa21e91877c64a22ecb3a710db9db571ffb",
+      "kind": "image",
+      "label": "MUSEUM OBJECT｜博物館資料",
+      "source": "The Met • Terracotta relief: Gorgon shield • 42.11.33 • CC0",
+      "original_record": {
+        "id": "A26",
+        "object_id": 254476,
+        "request_id": "B07",
+        "label": "ゴルゴンの盾を持つアキレウスの浮彫断片",
+        "assigned_section": "M06",
+        "notes": "盾の図像の第一候補。アキレウスと倒れたアマゾンの場面。メドゥーサ討伐ではない。戦闘後の図像を含むが、確認画像では目立つ流血はない。",
+        "museum": "The Metropolitan Museum of Art",
+        "title": "Fragment of a terracotta relief",
+        "artist": "",
+        "date": "ca. 600 BCE",
+        "culture": "Greek, Attic",
+        "medium": "Terracotta",
+        "accession": "42.11.33",
+        "credit": "Samuel D. Lee Fund, 1942",
+        "object_url": "https://www.metmuseum.org/art/collection/search/254476",
+        "api_url": "https://collectionapi.metmuseum.org/public/collection/v1/objects/254476",
+        "rights": "Public Domain / CC0",
+        "rights_evidence": "Individual page: Public Domain; official API: isPublicDomain=true",
+        "isPublicDomain": true,
+        "rights_url": "https://www.metmuseum.org/hubs/open-access",
+        "license_url": "https://creativecommons.org/publicdomain/zero/1.0/",
+        "retrieved_date_jst": "2026-10-22",
+        "representative_view_index": 0,
+        "originals": [
+          {
+            "view_index": 0,
+            "url": "https://images.metmuseum.org/CRDImages/gr/original/DP-12666-001.jpg",
+            "path": "/Users/ryo/Desktop/新チャンネル/EP003_Medusa/素材/A26_met_254476_v00.jpg",
+            "bytes": 3227852,
+            "pixels": [
+              2800,
+              4000
+            ],
+            "sha256": "98f364fff5066688da6f188cd954baa21e91877c64a22ecb3a710db9db571ffb"
+          },
+          {
+            "view_index": 1,
+            "url": "https://images.metmuseum.org/CRDImages/gr/original/DP-12666-002.jpg",
+            "path": "/Users/ryo/Desktop/新チャンネル/EP003_Medusa/素材/A26_met_254476_v01.jpg",
+            "bytes": 4193556,
+            "pixels": [
+              4000,
+              3000
+            ],
+            "sha256": "99bc5893d88442c85de74fbbd9219f1a304e9f1cf11c6fc2595c2c62daac16cb"
+          }
+        ],
+        "preview": {
+          "path": "new-channel/サムネ確認用/wom03/A26_met_254476.jpg",
+          "pixels": [
+            896,
+            1280
+          ],
+          "bytes": 230597,
+          "sha256": "8a08e5d2a349a7dfbd8a6a70f5865e913a47afce3fbe50ca19ab0ea9ce9ddd91"
+        }
+      },
+      "source_url": "https://www.metmuseum.org/art/collection/search/254476"
+    },
+    "R03": {
+      "id": "R03",
+      "path": "/Users/ryo/Desktop/新チャンネル/EP003_Medusa/素材/R03_reconstruction_v01.png",
+      "sha256": "169c0561bcdc64af7e94e881a564e9e55747ca1ed40191195d3726436ed34669",
+      "kind": "image",
+      "label": "AI RECONSTRUCTION｜AIによる再現",
+      "source": "OpenAI image generation • R03 • Illustration",
+      "original_record": {
+        "id": "R03",
+        "prompt": "Use case: historical-scene. Create one wide 16:9 full-bleed hand-painted oil and gouache illustration for Quiet Origins, visible painterly brush texture, restrained natural colors, calm contemplative composition. An imagined atmospheric scene, not an exact reconstruction of an identifiable historic place. No real people, identifiable artworks, Medusa, Gorgon, monsters, violence, detached heads, snakes, blood, nudity, readable writing, captions, logos or watermarks. Scene: Moonlit dark Mediterranean sea and rocky shoreline at night, silver reflection across gentle waves, empty rock formations, quiet dark blue atmosphere, no buildings or people.",
+        "source_path": "/Users/ryo/.codex/generated_images/01a16400-3c33-7620-950d-1d1bc8fcf984/exec-97a937e1-72b0-44c6-9d1f-2739982dc774.png",
+        "generated_date": "2026-10-23",
+        "service": "OpenAI built-in image generation",
+        "visual_review": "Inspected generated output: requested scene, no readable text or prohibited content observed.",
+        "human_historical_authentication": false,
+        "local_path": "/Users/ryo/Desktop/新チャンネル/EP003_Medusa/素材/R03_reconstruction_v01.png",
+        "sha256": "169c0561bcdc64af7e94e881a564e9e55747ca1ed40191195d3726436ed34669",
+        "pixels": [
+          1672,
+          941
+        ]
+      }
+    }
+  },
+  "same_source_not_repeated": true,
+  "A01_face_only_in_foreground_and_background": true
+}
