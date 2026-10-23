@@ -1,0 +1,75 @@
+{
+  "passed": true,
+  "files": [
+    {
+      "name": "EP004_Pandora_en_v02_1080p30.mp4",
+      "bytes": 121399994,
+      "sha256": "dff354ef3266a40c8872f2b758720a9b4b5621b328ca0c0984b18a9b1517ca80",
+      "video_stream_sha256": "SHA256=cd740a14f56d4e9113122071f3928f316c44f0e12ff3168e7978ac62404bd7cb",
+      "audio_stream_sha256": "SHA256=a76f4a3f1bebdbfcbc9df1f38be4f7c91c33864f2a64cf5c3ad0c608178374c0",
+      "audio_identical_to_v01": true,
+      "srt_byte_identical_to_v01": true,
+      "upload_information_byte_identical_to_v01": true,
+      "loudness": {
+        "input_i": "-16.01",
+        "input_tp": "-3.69",
+        "input_lra": "4.90",
+        "input_thresh": "-26.97",
+        "output_i": "-16.11",
+        "output_tp": "-3.00",
+        "output_lra": "4.50",
+        "output_thresh": "-26.80",
+        "normalization_type": "dynamic",
+        "target_offset": "0.11"
+      },
+      "frames": 12887,
+      "audio_samples": 20619200,
+      "exact_30fps_pts": true,
+      "full_decode": true
+    },
+    {
+      "name": "EP004_Pandora_ja_v02_1080p30.mp4",
+      "bytes": 121481691,
+      "sha256": "0ce6018a2666243ed265e3429dc40d1253a9647e68cfe7d67a39ea3f409985f5",
+      "video_stream_sha256": "SHA256=cd740a14f56d4e9113122071f3928f316c44f0e12ff3168e7978ac62404bd7cb",
+      "audio_stream_sha256": "SHA256=b39b749f7f5d51a17e8e0730b183cc00c17f32c5428812c06813926bf8f026ef",
+      "audio_identical_to_v01": true,
+      "srt_byte_identical_to_v01": true,
+      "upload_information_byte_identical_to_v01": true,
+      "loudness": {
+        "input_i": "-16.00",
+        "input_tp": "-4.74",
+        "input_lra": "3.30",
+        "input_thresh": "-26.57",
+        "output_i": "-15.83",
+        "output_tp": "-3.82",
+        "output_lra": "3.10",
+        "output_thresh": "-26.27",
+        "normalization_type": "dynamic",
+        "target_offset": "-0.17"
+      },
+      "frames": 12887,
+      "audio_samples": 20619200,
+      "exact_30fps_pts": true,
+      "full_decode": true
+    }
+  ],
+  "duration_seconds": 429.56666666666666,
+  "frames": 12887,
+  "shared_video_stream": true,
+  "decoded_pixel_comparison": {
+    "pixel_format": "yuv420p",
+    "method": "MD5 of every full decoded frame",
+    "total_frames": 12887,
+    "changed_frames": 330,
+    "changed_frame_range_inclusive": [
+      1530,
+      1859
+    ],
+    "unchanged_frames": 12557,
+    "all_frames_outside_A04_identical": true
+  },
+  "unchanged_encoded_shots": 30,
+  "japanese_wav_byte_identical": true,
+  "human_full_listening_performed_this_revision": false
+}

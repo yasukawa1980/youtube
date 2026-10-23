@@ -1,0 +1,20 @@
+{
+  "passed": true,
+  "video_sha256": "dff354ef3266a40c8872f2b758720a9b4b5621b328ca0c0984b18a9b1517ca80",
+  "visual_manifest_sha256": "201f07c62fd490e5bbcedea937c61dd9227766068420127784e2cdbe35cb5dc5",
+  "render_shots_sha256": "1266e41ac88e6298d0c15ac988c381979038c9e8dd710261722b70487492defb",
+  "reviewed": [
+    "Original print",
+    "v01 crop",
+    "candidate crop",
+    "v02 composition",
+    "six final A04 frames"
+  ],
+  "checks": {
+    "left_frontal_figure_excluded": true,
+    "right_torch_bearer_and_rear_helmet_retained": true,
+    "blur_background_uses_only_revised_crop": true,
+    "labels_and_source_retained": true
+  },
+  "human_full_auditory_review_performed_this_revision": false
+}
