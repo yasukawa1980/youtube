@@ -1,0 +1,54 @@
+{
+  "passed": true,
+  "method": "2秒おき30画像・中央3画像・修正字幕とA12/A02始点中央終点を目視確認",
+  "reviewed_files": [
+    {
+      "name": "QO_short_EP004_P1_v02_about.jpg",
+      "sha256": "9e32ccf32a7ca98a5efea4ae4af09a63959fbdcbcb8c28450911da7f7898fd33"
+    },
+    {
+      "name": "QO_short_EP004_P1_v02_every2s.jpg",
+      "sha256": "dbf5678376d98b7fb678afa41618e9f1b5d53d9abe48cd2c1b69c5d9ffcc807e"
+    },
+    {
+      "name": "QO_short_EP004_P1_v02_mid.jpg",
+      "sha256": "5eda5c9e6c6886d6a5a0a2480442fd437168df570594dc46ff354c04123efd9f"
+    },
+    {
+      "name": "QO_short_EP004_P2_v02_A12_motion.jpg",
+      "sha256": "68d2abe5457534efaa5243b14d1981c9d084a86d46775d26c78607f08e4297e3"
+    },
+    {
+      "name": "QO_short_EP004_P2_v02_every2s.jpg",
+      "sha256": "78c1c6851e94a1b9570db57e71cd2d2f86a1d59df90090776550d71486e16e24"
+    },
+    {
+      "name": "QO_short_EP004_P2_v02_mid.jpg",
+      "sha256": "533a28111517f244cfb234bc2b7c2b40bc91b2a3ab30b53281382b3998dc1882"
+    },
+    {
+      "name": "QO_short_EP004_P3_v02_A02_motion.jpg",
+      "sha256": "7a8f4c28ba547a6a2d6e9118faa6ae8e68d18267787dd6c0468d586f94992b55"
+    },
+    {
+      "name": "QO_short_EP004_P3_v02_every2s.jpg",
+      "sha256": "3dd0f443d82e2d0c513c60e6aa49ecd179d6b1198ed2b65008136ad1e8c295b0"
+    },
+    {
+      "name": "QO_short_EP004_P3_v02_mid.jpg",
+      "sha256": "c385dcbded4b1048158be1ca878f5596561455aaf4e7c3355a0ee29e48e047c8"
+    }
+  ],
+  "video_sha256": {
+    "P1": "8701bd488d3a666d6eddf8947962294544837aa3837155275abf550fd6606a1d",
+    "P2": "07cfe09d7c57c2ff4b3e7724b29874a9f31e88293e6076b95c10f8e696fd6923",
+    "P3": "026cf8b63d792459148e98bfcf3e2fdaafb5f08182f57b68096582ae7fbba53c"
+  },
+  "human_full_listening": false,
+  "checks": [
+    "P1 aboutの区切りと2行字幕",
+    "P2 見出しと段落の横幅を保持、Pixide付近へ移動",
+    "P3 動物2段、頸部の人物を含めない",
+    "札・出典・字幕の判読"
+  ]
+}
