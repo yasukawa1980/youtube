@@ -1,0 +1,107 @@
+{
+  "date": "2026-10-24",
+  "source_commit": "694574b",
+  "coordinates_convention": "原寸全画像左上原点、x0,y0,x1,y1、0–1正規化。文字を含む範囲。",
+  "coordinates": [
+    {
+      "key": "ndl_851648_028",
+      "description": "天狗（右から左の横書き）",
+      "normalized_xyxy": [
+        0.545,
+        0.26,
+        0.62,
+        0.3
+      ],
+      "pixels_xyxy": [
+        1908,
+        791,
+        2171,
+        913
+      ],
+      "source_sha256": "c23e589eec7cc470443d3523afd98a63504bbd3cec8d5d7b18bbb839c93a7be6",
+      "preview": "new-channel/サムネ確認用/wom05/ndl_851648_028_detail_1.jpg",
+      "method": "原画像を目視し、当該文字を含む矩形を指定。文字輪郭の自動検出ではない。"
+    },
+    {
+      "key": "ndl_1182143_010",
+      "description": "是天狗也（縦書き）",
+      "normalized_xyxy": [
+        0.6,
+        0.59,
+        0.655,
+        0.73
+      ],
+      "pixels_xyxy": [
+        4570,
+        3158,
+        4988,
+        3907
+      ],
+      "source_sha256": "075c82ade5dbfc755d3338362d8a3a550b9b2a06ee206643d8bb1f802f190b2a",
+      "preview": "new-channel/サムネ確認用/wom05/ndl_1182143_010_detail_2.jpg",
+      "method": "原画像を目視し、当該文字を含む矩形を指定。文字輪郭の自動検出ではない。"
+    },
+    {
+      "key": "ndl_958959_087",
+      "description": "天狗狀如大（上段原文の縦列）",
+      "normalized_xyxy": [
+        0.72,
+        0.16,
+        0.74,
+        0.27
+      ],
+      "pixels_xyxy": [
+        2633,
+        416,
+        2706,
+        702
+      ],
+      "source_sha256": "1526106230f6be7ef485c5c098af04368283dee2a295bc999a5dec8eeaeb9e83",
+      "preview": "new-channel/サムネ確認用/wom05/ndl_958959_087_detail_3.jpg",
+      "method": "原画像を目視し、当該文字を含む矩形を指定。文字輪郭の自動検出ではない。"
+    },
+    {
+      "key": "ndl_958959_087",
+      "description": "天狗段落（原文上段）",
+      "normalized_xyxy": [
+        0.6,
+        0.15,
+        0.75,
+        0.28
+      ],
+      "pixels_xyxy": [
+        2194,
+        390,
+        2743,
+        728
+      ],
+      "source_sha256": "1526106230f6be7ef485c5c098af04368283dee2a295bc999a5dec8eeaeb9e83",
+      "preview": "new-channel/サムネ確認用/wom05/ndl_958959_087_detail_4.jpg",
+      "method": "原画像を目視し、当該文字を含む矩形を指定。文字輪郭の自動検出ではない。"
+    }
+  ],
+  "met24145": {
+    "title": "Mask in the Shape of a Mountain Demon’s Face",
+    "date": "early 18th century",
+    "medium": "Iron, lacquer, textile (silk)",
+    "classification": "甲冑用の総面",
+    "page": "https://www.metmuseum.org/art/collection/search/24145",
+    "finding": "打ち出した鉄に漆。素材欄は絹を含む。革の面23997と混同しない。長鼻の人面型という解説あり。"
+  },
+  "met60361": {
+    "date": "19th century",
+    "medium": "Ivory",
+    "page": "https://www.metmuseum.org/art/collection/search/60361",
+    "official_face_type": "記載なし",
+    "visual_observation": "人面・髭・突出した丸い鼻を確認。鳥の嘴は確認できない。鼻高系とみるのは画像観察であり公式分類ではない。"
+  },
+  "hokusai": {
+    "copy_date": 1878,
+    "copy_publisher": "片野東四郎",
+    "copy_bibliography": "https://ndlsearch.ndl.go.jp/books/R100000039-I851648",
+    "part3_date": 1815,
+    "part3_evidence": "https://www.nmwa.go.jp/jp/exhibitions/pdf/2017hokusai_list.pdf",
+    "part3_evidence_item": "HB-3",
+    "note": "国立西洋美術館展覧会リストの三編1815年と、今回画像のNDL1878年刊本を分けて記録。"
+  }
+}
