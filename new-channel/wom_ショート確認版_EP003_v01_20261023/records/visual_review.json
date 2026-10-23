@@ -1,0 +1,19 @@
+{
+  "passed": true,
+  "video_sha256": {
+    "M1": "bc9d2d4a7b5dc461adebb44a775258e87da93bc32aa2378ec2feeaa9f2cdb73e",
+    "M2": "f97a3be617e5b5ea95ccc623952996b5c050afea418c919ec1d44d88bd812381",
+    "M3": "149964a94fb23c3991dd757e4998a5c45339c450f73b3731cfc6d97ac54d2112"
+  },
+  "reviewed": "All 3 final every-2-second sheets; original A01/A05/A08/A26 and the isolated A01 face crop; M3 final CTA frame.",
+  "checks": {
+    "correct_requested_sequence": true,
+    "correct_labels_and_credits": true,
+    "no_blade_neck_blood_visible_in_M3": true,
+    "A01_background_uses_same_safe_crop": true,
+    "no_extra_three_sisters_label": true,
+    "M3_final_cta_visible": true
+  },
+  "human_full_auditory_review": false,
+  "frame_review_sha256": "9ce9eb7df1e030acf32a612ad385f94d137b46f9349486cbd83b3fcbf1596581"
+}

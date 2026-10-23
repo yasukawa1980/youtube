@@ -1,0 +1,82 @@
+{
+  "passed": true,
+  "target_lufs": -14,
+  "maximum_true_peak_db": -1,
+  "reports": [
+    {
+      "id": "M1",
+      "mix": {
+        "input_i": "-14.06",
+        "input_tp": "-2.90",
+        "input_lra": "10.80",
+        "input_thresh": "-25.17",
+        "output_i": "-14.10",
+        "output_tp": "-2.97",
+        "output_lra": "1.90",
+        "output_thresh": "-24.84",
+        "normalization_type": "dynamic",
+        "target_offset": "0.10"
+      },
+      "voice_onset_native": 0.13,
+      "bgm_source": "/Users/ryo/Desktop/新チャンネル/EP003_Medusa/確認版_v02_20261023/audio/common_bgm_and_brand.wav",
+      "bgm_source_sha256": "fc76e732a83e20874d83f0cd27ef5d7e756e57279a4ea45b3697fedec4a44c55",
+      "bgm_excerpt_start_seconds": 120,
+      "bgm_during_narration_dbfs": -33.49999999201515,
+      "voice_gain_after_normalization_db": -1.4900000000000002,
+      "final_file": "/Users/ryo/Desktop/新チャンネル/ショート/EP003_確認版_v01_20261023/audio/M1_final.m4a",
+      "sha256": "ca9afcbc9a5fa590a5b4d5a0203f5f4cd3ae7df16287fe2ba42af7de250a4202",
+      "voice_rate_or_pitch_processing": false,
+      "aac_peak_limiter_ceiling_dbfs": -3
+    },
+    {
+      "id": "M2",
+      "mix": {
+        "input_i": "-14.00",
+        "input_tp": "-2.00",
+        "input_lra": "10.40",
+        "input_thresh": "-25.27",
+        "output_i": "-14.21",
+        "output_tp": "-2.21",
+        "output_lra": "2.20",
+        "output_thresh": "-25.10",
+        "normalization_type": "dynamic",
+        "target_offset": "0.21"
+      },
+      "voice_onset_native": 0.07,
+      "bgm_source": "/Users/ryo/Desktop/新チャンネル/EP003_Medusa/確認版_v02_20261023/audio/common_bgm_and_brand.wav",
+      "bgm_source_sha256": "fc76e732a83e20874d83f0cd27ef5d7e756e57279a4ea45b3697fedec4a44c55",
+      "bgm_excerpt_start_seconds": 140,
+      "bgm_during_narration_dbfs": -33.5000002872617,
+      "voice_gain_after_normalization_db": -1.2599999999999998,
+      "final_file": "/Users/ryo/Desktop/新チャンネル/ショート/EP003_確認版_v01_20261023/audio/M2_final.m4a",
+      "sha256": "41c0e5db26519cff8ed79dde7723be5c1679e409ffb3beccbf82edf9bb98e2f4",
+      "voice_rate_or_pitch_processing": false,
+      "aac_peak_limiter_ceiling_dbfs": null
+    },
+    {
+      "id": "M3",
+      "mix": {
+        "input_i": "-14.02",
+        "input_tp": "-2.33",
+        "input_lra": "4.60",
+        "input_thresh": "-24.99",
+        "output_i": "-14.18",
+        "output_tp": "-2.62",
+        "output_lra": "2.50",
+        "output_thresh": "-24.85",
+        "normalization_type": "dynamic",
+        "target_offset": "0.18"
+      },
+      "voice_onset_native": 0.15,
+      "bgm_source": "/Users/ryo/Desktop/新チャンネル/EP003_Medusa/確認版_v02_20261023/audio/common_bgm_and_brand.wav",
+      "bgm_source_sha256": "fc76e732a83e20874d83f0cd27ef5d7e756e57279a4ea45b3697fedec4a44c55",
+      "bgm_excerpt_start_seconds": 160,
+      "bgm_during_narration_dbfs": -33.499999918891106,
+      "voice_gain_after_normalization_db": -1.67,
+      "final_file": "/Users/ryo/Desktop/新チャンネル/ショート/EP003_確認版_v01_20261023/audio/M3_final.m4a",
+      "sha256": "2e78eac443ebb9e069b9d54bd497ccd0d177ae93679cba965e051eba0faa8c35",
+      "voice_rate_or_pitch_processing": false,
+      "aac_peak_limiter_ceiling_dbfs": null
+    }
+  ]
+}
