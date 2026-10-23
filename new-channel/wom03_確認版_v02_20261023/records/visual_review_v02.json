@@ -1,0 +1,42 @@
+{
+  "passed": true,
+  "reviewer": "Codex / tool image inspection",
+  "inspected_images": [
+    "M18_subtitles_en_v02.jpg",
+    "M18_subtitles_ja_v02.jpg",
+    "endcard_v02_first.jpg",
+    "endcard_v02_last.jpg"
+  ],
+  "M18_cue_midpoints_inspected": {
+    "en": 7,
+    "ja": 6
+  },
+  "text_overlap": false,
+  "CTA_in_regular_picture": false,
+  "credits_layout_unchanged": true,
+  "endcard_left_space_unchanged": true,
+  "video_sha256": {
+    "en": "4f66cf44ec2f4fe9f27c1f5970d7cf0e9f18fedf8ffcbffe7832b92c4e21bd3e",
+    "ja": "be71c9bbdb65ccc82e9d3705cb87dfbf584d5f4024ed4bd795c19ebe4f0d777c"
+  },
+  "thumbnail_bytes_identical_to_v01": {
+    "A24": "57b3bef0a5f3f2d52ba08195e12cffe0d48937bbae2f63b79fb793dd7489c0ee",
+    "A04": "877584797e3becee818bf4023e370235136ddf3a6099f920585e50733e20565c"
+  },
+  "excerpts": [
+    {
+      "file": "EP003_M18_endcard_en_v02.mp4",
+      "frames": 1080,
+      "duration": "36.006667",
+      "sha256": "d8704c2fdf3194497beb24da8a30f4debc3add48d77e9c6aa0ce71f4117e9b0f"
+    },
+    {
+      "file": "EP003_M18_endcard_ja_v02.mp4",
+      "frames": 1080,
+      "duration": "36.006667",
+      "sha256": "3008f6dfebfea208ceee5b5d94938a7d717c529e78255295761afc6ffc9758ba"
+    }
+  ],
+  "human_listening": false,
+  "full_motion_playback_by_human": false
+}

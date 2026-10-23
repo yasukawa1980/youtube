@@ -1,0 +1,93 @@
+{
+  "passed": true,
+  "source": "/Users/ryo/Desktop/新チャンネル/ブランド素材/オープニング_エンドカード_動画試作_v02_20261021/deliverables/Quiet_Origins_endcard_trial_v01.mp4",
+  "source_sha256": "3ad6338c7073f419065228db6fc604495f56f71eada794e2a0717b08afc64b15",
+  "source_wav": "/Users/ryo/Desktop/新チャンネル/ブランド素材/オープニング_エンドカード_動画試作_v02_20261021/deliverables/Quiet_Origins_endcard_trial_v01.wav",
+  "source_wav_sha256": "d939bd2a32b2a514fdcf9f848c0483e68cc49083571c0370a0a2a27126497a21",
+  "output": "/Users/ryo/Desktop/新チャンネル/ブランド素材/エンドカード_共通版_v02_20261023/deliverables/Quiet_Origins_endcard_v02.mp4",
+  "sha256": "3cd254cdd387d0ca8e3ef3c2f74ca3650dc64fb02609bcd09a21b3e36a3513a2",
+  "video_stream_sha256": "SHA256=75c3ee4aaea95f942f491d40b9668f9226d1152ffbf725c77c45f65bc8d1498d",
+  "audio_stream_sha256": "SHA256=6152ee44e25f65c8853b90f7775a3271af9b075acca4f4e230c975ca9ffddd03",
+  "wav_sha256": "94217c43701fc4929682848272a4411714bd75eaf7cf32357f86847f243f76bc",
+  "duration_seconds": 10,
+  "frames": 300,
+  "audio_samples": 480000,
+  "layout_and_left_element_space": "Unchanged: source pictures retimed only",
+  "video_mapping": "270 frames sampled from source frames 0..569, followed by source 570..599 at native 30fps; re-encoded",
+  "audio_mapping": "source 0..5.3s plus 15..20s, 0.3s linear crossfade; native pitch/rate; final 4.7s unchanged",
+  "final_second_wav_samples_identical": true,
+  "ending": "Source video has no visual fade; fixed logo/title continue. Original five-second audio fade retained; no new visual fade.",
+  "envelope": [
+    {
+      "start": 0,
+      "window_seconds": 0.1,
+      "rms_dbfs": -63.18066016425647
+    },
+    {
+      "start": 4.8,
+      "window_seconds": 0.1,
+      "rms_dbfs": -30.66703645108195
+    },
+    {
+      "start": 5,
+      "window_seconds": 0.1,
+      "rms_dbfs": -32.104387607325215
+    },
+    {
+      "start": 5.3,
+      "window_seconds": 0.1,
+      "rms_dbfs": -30.39836929268037
+    },
+    {
+      "start": 8,
+      "window_seconds": 0.1,
+      "rms_dbfs": -40.055254277263835
+    },
+    {
+      "start": 9,
+      "window_seconds": 0.1,
+      "rms_dbfs": -51.92249489182721
+    },
+    {
+      "start": 9.8,
+      "window_seconds": 0.1,
+      "rms_dbfs": -82.21230701959897
+    },
+    {
+      "start": 9.9,
+      "window_seconds": 0.1,
+      "rms_dbfs": -97.49726311356144
+    }
+  ],
+  "loudness": {
+    "input_i": "-30.13",
+    "input_tp": "-23.18",
+    "input_lra": "10.50",
+    "input_thresh": "-41.21",
+    "output_i": "-16.68",
+    "output_tp": "-10.01",
+    "output_lra": "5.00",
+    "output_thresh": "-27.40",
+    "normalization_type": "dynamic",
+    "target_offset": "0.68"
+  },
+  "images": [
+    {
+      "file": "endcard_v02_first.jpg",
+      "frame": 0,
+      "sha256": "6d214c5329a433d060fbfff694f163f4333ddba8e764856c69b5bb0a53a20cb3"
+    },
+    {
+      "file": "endcard_v02_last.jpg",
+      "frame": 299,
+      "sha256": "ff79b09ab13c9c64167642165d877b670f14aef18bb28b8f398ad93ff9b90cac"
+    },
+    {
+      "file": "endcard_v02_before_final_second.jpg",
+      "frame": 270,
+      "sha256": "fcf27ef0eae2a547d0a64d94911ad3289bb1003d23e79223ed6b5fc0794c1d45"
+    }
+  ],
+  "human_listening": false,
+  "EP001_EP002_modified": false
+}

@@ -1,0 +1,2661 @@
+{
+  "passed": true,
+  "v01_root": "/Users/ryo/Desktop/新チャンネル/EP003_Medusa/確認版_v01_20261023",
+  "v02_root": "/Users/ryo/Desktop/新チャンネル/EP003_Medusa/確認版_v02_20261023",
+  "rule": "Inherited M01..M17 relative source paths use v01; M18 uses v02. Render-shot encoded_file values are absolute.",
+  "references": [
+    {
+      "record": "narration_segments_en.json",
+      "id": "M01",
+      "relative": "audio/en/M01.wav",
+      "resolved_path": "/Users/ryo/Desktop/新チャンネル/EP003_Medusa/確認版_v01_20261023/audio/en/M01.wav",
+      "sha256": "d4cf49eb040406265b7959ae79275506962c487373d7330634eb3b3f1a5cc9d5"
+    },
+    {
+      "record": "narration_segments_en.json",
+      "id": "M01-01",
+      "relative": "audio/en/sentences/M01-01.wav",
+      "resolved_path": "/Users/ryo/Desktop/新チャンネル/EP003_Medusa/確認版_v01_20261023/audio/en/sentences/M01-01.wav",
+      "sha256": "6cf5db85b46087b5ccb8229bcffb413de2042e631172348d73a1a144029822b7"
+    },
+    {
+      "record": "narration_segments_en.json",
+      "id": "M01-02",
+      "relative": "audio/en/sentences/M01-02.wav",
+      "resolved_path": "/Users/ryo/Desktop/新チャンネル/EP003_Medusa/確認版_v01_20261023/audio/en/sentences/M01-02.wav",
+      "sha256": "f2782c25a21cc9f793ffbdbe28ac1c64222d7f16af26ac0b1499b360f42961cc"
+    },
+    {
+      "record": "narration_segments_en.json",
+      "id": "M01-03",
+      "relative": "audio/en/sentences/M01-03.wav",
+      "resolved_path": "/Users/ryo/Desktop/新チャンネル/EP003_Medusa/確認版_v01_20261023/audio/en/sentences/M01-03.wav",
+      "sha256": "236be65b6dc667800acb2541bcea153dd9de2be0c0ea2494651733622f2bf03d"
+    },
+    {
+      "record": "narration_segments_en.json",
+      "id": "M01-04",
+      "relative": "audio/en/sentences/M01-04.wav",
+      "resolved_path": "/Users/ryo/Desktop/新チャンネル/EP003_Medusa/確認版_v01_20261023/audio/en/sentences/M01-04.wav",
+      "sha256": "5164c5199d7b71b46486ddda6f9d7677ce42db84486327a34b6e679f90d7233c"
+    },
+    {
+      "record": "narration_segments_en.json",
+      "id": "M01-05",
+      "relative": "audio/en/sentences/M01-05.wav",
+      "resolved_path": "/Users/ryo/Desktop/新チャンネル/EP003_Medusa/確認版_v01_20261023/audio/en/sentences/M01-05.wav",
+      "sha256": "df3044eacba78c1fb4c724afc1462302863ef0fa5b17d63c2a89fdc77853f342"
+    },
+    {
+      "record": "narration_segments_en.json",
+      "id": "M01-06",
+      "relative": "audio/en/sentences/M01-06.wav",
+      "resolved_path": "/Users/ryo/Desktop/新チャンネル/EP003_Medusa/確認版_v01_20261023/audio/en/sentences/M01-06.wav",
+      "sha256": "2bb2823f6177b645b1e92bef402361935dbe13183d2bf676575fab3a77dd3478"
+    },
+    {
+      "record": "narration_segments_en.json",
+      "id": "M02",
+      "relative": "audio/en/M02.wav",
+      "resolved_path": "/Users/ryo/Desktop/新チャンネル/EP003_Medusa/確認版_v01_20261023/audio/en/M02.wav",
+      "sha256": "2e3704ef5e8115c2297c5d742a0f46c2eac31e4ea437cb90b04e6c2709ee1897"
+    },
+    {
+      "record": "narration_segments_en.json",
+      "id": "M02-01",
+      "relative": "audio/en/sentences/M02-01.wav",
+      "resolved_path": "/Users/ryo/Desktop/新チャンネル/EP003_Medusa/確認版_v01_20261023/audio/en/sentences/M02-01.wav",
+      "sha256": "2e3704ef5e8115c2297c5d742a0f46c2eac31e4ea437cb90b04e6c2709ee1897"
+    },
+    {
+      "record": "narration_segments_en.json",
+      "id": "M03",
+      "relative": "audio/en/M03.wav",
+      "resolved_path": "/Users/ryo/Desktop/新チャンネル/EP003_Medusa/確認版_v01_20261023/audio/en/M03.wav",
+      "sha256": "6c5df5df501f4fb055d6aa0d2808525785d4dba23a1662d87f13ede0b602a708"
+    },
+    {
+      "record": "narration_segments_en.json",
+      "id": "M03-01",
+      "relative": "audio/en/sentences/M03-01.wav",
+      "resolved_path": "/Users/ryo/Desktop/新チャンネル/EP003_Medusa/確認版_v01_20261023/audio/en/sentences/M03-01.wav",
+      "sha256": "9e1daea02725f22bd6fab07b4d08f72b4c2e2b11da0725d8ceb409c385e96454"
+    },
+    {
+      "record": "narration_segments_en.json",
+      "id": "M03-02",
+      "relative": "audio/en/sentences/M03-02.wav",
+      "resolved_path": "/Users/ryo/Desktop/新チャンネル/EP003_Medusa/確認版_v01_20261023/audio/en/sentences/M03-02.wav",
+      "sha256": "5d65c98fd261ee958027e0c37d848e7c0acdf99fbc2fb365679a9924e098a3bf"
+    },
+    {
+      "record": "narration_segments_en.json",
+      "id": "M03-03",
+      "relative": "audio/en/sentences/M03-03.wav",
+      "resolved_path": "/Users/ryo/Desktop/新チャンネル/EP003_Medusa/確認版_v01_20261023/audio/en/sentences/M03-03.wav",
+      "sha256": "28d8cc31e64efd87b70b633fc1dc7c1dd220c2d0e6b60d3ca4a4ce7ae5e6d7be"
+    },
+    {
+      "record": "narration_segments_en.json",
+      "id": "M03-04",
+      "relative": "audio/en/sentences/M03-04.wav",
+      "resolved_path": "/Users/ryo/Desktop/新チャンネル/EP003_Medusa/確認版_v01_20261023/audio/en/sentences/M03-04.wav",
+      "sha256": "0383ce9c8c53eab4fc021cca23d119452f21628b4946ffb84e6160ba2e63de42"
+    },
+    {
+      "record": "narration_segments_en.json",
+      "id": "M04",
+      "relative": "audio/en/M04.wav",
+      "resolved_path": "/Users/ryo/Desktop/新チャンネル/EP003_Medusa/確認版_v01_20261023/audio/en/M04.wav",
+      "sha256": "335e210248ab0297cfe69e3c067e781e858a5da43df50cee1cc43abe42f5a9ac"
+    },
+    {
+      "record": "narration_segments_en.json",
+      "id": "M04-01",
+      "relative": "audio/en/sentences/M04-01.wav",
+      "resolved_path": "/Users/ryo/Desktop/新チャンネル/EP003_Medusa/確認版_v01_20261023/audio/en/sentences/M04-01.wav",
+      "sha256": "9ff139cc2d67bc2b529e2408c9b3608caacc2884f286738090277f8d4d0dc233"
+    },
+    {
+      "record": "narration_segments_en.json",
+      "id": "M04-02",
+      "relative": "audio/en/sentences/M04-02.wav",
+      "resolved_path": "/Users/ryo/Desktop/新チャンネル/EP003_Medusa/確認版_v01_20261023/audio/en/sentences/M04-02.wav",
+      "sha256": "3ec23c284c2182effa5a3150af1497b85cf9c0319776aca27e05b75f35c933d1"
+    },
+    {
+      "record": "narration_segments_en.json",
+      "id": "M04-03",
+      "relative": "audio/en/sentences/M04-03.wav",
+      "resolved_path": "/Users/ryo/Desktop/新チャンネル/EP003_Medusa/確認版_v01_20261023/audio/en/sentences/M04-03.wav",
+      "sha256": "d04d7aaf5952ad40d1a4c2e33124602846c6b6c5ec5c84c87aaa62c4084fdb88"
+    },
+    {
+      "record": "narration_segments_en.json",
+      "id": "M04-04",
+      "relative": "audio/en/sentences/M04-04.wav",
+      "resolved_path": "/Users/ryo/Desktop/新チャンネル/EP003_Medusa/確認版_v01_20261023/audio/en/sentences/M04-04.wav",
+      "sha256": "733e186255114c326ae4fd4f3c99f24dd60e80c76d81c283540f57247998360d"
+    },
+    {
+      "record": "narration_segments_en.json",
+      "id": "M05",
+      "relative": "audio/en/M05.wav",
+      "resolved_path": "/Users/ryo/Desktop/新チャンネル/EP003_Medusa/確認版_v01_20261023/audio/en/M05.wav",
+      "sha256": "0545d320514c2f4db232e04f2d2991230b40384ac30aff764454762d0805b9e2"
+    },
+    {
+      "record": "narration_segments_en.json",
+      "id": "M05-01",
+      "relative": "audio/en/sentences/M05-01.wav",
+      "resolved_path": "/Users/ryo/Desktop/新チャンネル/EP003_Medusa/確認版_v01_20261023/audio/en/sentences/M05-01.wav",
+      "sha256": "93b7610a2e402ae58eec4e452f0aaa68893b8bf30a877208411c42e0a81679d0"
+    },
+    {
+      "record": "narration_segments_en.json",
+      "id": "M05-02",
+      "relative": "audio/en/sentences/M05-02.wav",
+      "resolved_path": "/Users/ryo/Desktop/新チャンネル/EP003_Medusa/確認版_v01_20261023/audio/en/sentences/M05-02.wav",
+      "sha256": "60a89d6cef8ed1050fee488ded3260839e55e79858a728e96b52d4508d3fb4e0"
+    },
+    {
+      "record": "narration_segments_en.json",
+      "id": "M05-03",
+      "relative": "audio/en/sentences/M05-03.wav",
+      "resolved_path": "/Users/ryo/Desktop/新チャンネル/EP003_Medusa/確認版_v01_20261023/audio/en/sentences/M05-03.wav",
+      "sha256": "8ebf70eddfeb402700516e30b3b1d5294fe253f489e27af69e7e700d4baa5570"
+    },
+    {
+      "record": "narration_segments_en.json",
+      "id": "M05-04",
+      "relative": "audio/en/sentences/M05-04.wav",
+      "resolved_path": "/Users/ryo/Desktop/新チャンネル/EP003_Medusa/確認版_v01_20261023/audio/en/sentences/M05-04.wav",
+      "sha256": "756ed125c5d5b739a8718728787d5a62962f0f9265b3414057b8ca397852531e"
+    },
+    {
+      "record": "narration_segments_en.json",
+      "id": "M06",
+      "relative": "audio/en/M06.wav",
+      "resolved_path": "/Users/ryo/Desktop/新チャンネル/EP003_Medusa/確認版_v01_20261023/audio/en/M06.wav",
+      "sha256": "8a0d1f97a3a9591844a482b4a71075dd8b6b684a5523921dd6693340503d0b70"
+    },
+    {
+      "record": "narration_segments_en.json",
+      "id": "M06-01",
+      "relative": "audio/en/sentences/M06-01.wav",
+      "resolved_path": "/Users/ryo/Desktop/新チャンネル/EP003_Medusa/確認版_v01_20261023/audio/en/sentences/M06-01.wav",
+      "sha256": "d2d9bd96b52ce194e620ad0d8cd1dba309a31273dd2ae24932bb047d348cfe0b"
+    },
+    {
+      "record": "narration_segments_en.json",
+      "id": "M06-02",
+      "relative": "audio/en/sentences/M06-02.wav",
+      "resolved_path": "/Users/ryo/Desktop/新チャンネル/EP003_Medusa/確認版_v01_20261023/audio/en/sentences/M06-02.wav",
+      "sha256": "66d1b670ba38d958f5b02f79029160a5667e44ef4245cc9c1d3c7c9469be1029"
+    },
+    {
+      "record": "narration_segments_en.json",
+      "id": "M06-03",
+      "relative": "audio/en/sentences/M06-03.wav",
+      "resolved_path": "/Users/ryo/Desktop/新チャンネル/EP003_Medusa/確認版_v01_20261023/audio/en/sentences/M06-03.wav",
+      "sha256": "ff75893c7276d91b422c903756f02479e54471f790fe2f10bb8a317ff8e6cfc8"
+    },
+    {
+      "record": "narration_segments_en.json",
+      "id": "M07",
+      "relative": "audio/en/M07.wav",
+      "resolved_path": "/Users/ryo/Desktop/新チャンネル/EP003_Medusa/確認版_v01_20261023/audio/en/M07.wav",
+      "sha256": "78c8cbfdeebc452294f4a4ebb1cfe78421ffeae7d938831802f2880596aebc00"
+    },
+    {
+      "record": "narration_segments_en.json",
+      "id": "M07-01",
+      "relative": "audio/en/sentences/M07-01.wav",
+      "resolved_path": "/Users/ryo/Desktop/新チャンネル/EP003_Medusa/確認版_v01_20261023/audio/en/sentences/M07-01.wav",
+      "sha256": "d48e044ba483e11bf74281190df1137401624019e7dc7aa2e94417d8ac126dab"
+    },
+    {
+      "record": "narration_segments_en.json",
+      "id": "M07-02",
+      "relative": "audio/en/sentences/M07-02.wav",
+      "resolved_path": "/Users/ryo/Desktop/新チャンネル/EP003_Medusa/確認版_v01_20261023/audio/en/sentences/M07-02.wav",
+      "sha256": "6d02b83688167a8ebd5c598df9993262ec201d4ddd1159b95ba4a0a433ae0e12"
+    },
+    {
+      "record": "narration_segments_en.json",
+      "id": "M07-03",
+      "relative": "audio/en/sentences/M07-03.wav",
+      "resolved_path": "/Users/ryo/Desktop/新チャンネル/EP003_Medusa/確認版_v01_20261023/audio/en/sentences/M07-03.wav",
+      "sha256": "e85bf71ae4d86a58a709f16e0412dd69c81c26aa58d10af6694013fb37664120"
+    },
+    {
+      "record": "narration_segments_en.json",
+      "id": "M08",
+      "relative": "audio/en/M08.wav",
+      "resolved_path": "/Users/ryo/Desktop/新チャンネル/EP003_Medusa/確認版_v01_20261023/audio/en/M08.wav",
+      "sha256": "aa988819600ac1608f8450a0665cb85121d73c17c00b4dbfd01a1488a79df6d8"
+    },
+    {
+      "record": "narration_segments_en.json",
+      "id": "M08-01",
+      "relative": "audio/en/sentences/M08-01.wav",
+      "resolved_path": "/Users/ryo/Desktop/新チャンネル/EP003_Medusa/確認版_v01_20261023/audio/en/sentences/M08-01.wav",
+      "sha256": "ba9040a09fd5a2b8f99ec87affa3ee81bd326be2df70c3e88a14c027b87e885b"
+    },
+    {
+      "record": "narration_segments_en.json",
+      "id": "M08-02",
+      "relative": "audio/en/sentences/M08-02.wav",
+      "resolved_path": "/Users/ryo/Desktop/新チャンネル/EP003_Medusa/確認版_v01_20261023/audio/en/sentences/M08-02.wav",
+      "sha256": "eb2711e32fd042edaa6944074f75f569497fcf1cd3adc35c0a1ada59785dd37a"
+    },
+    {
+      "record": "narration_segments_en.json",
+      "id": "M08-03",
+      "relative": "audio/en/sentences/M08-03.wav",
+      "resolved_path": "/Users/ryo/Desktop/新チャンネル/EP003_Medusa/確認版_v01_20261023/audio/en/sentences/M08-03.wav",
+      "sha256": "670bf7802fd0f7a8d99eb5fdb6597a2802b094a80dee80b5bd268168633ed5f2"
+    },
+    {
+      "record": "narration_segments_en.json",
+      "id": "M09",
+      "relative": "audio/en/M09.wav",
+      "resolved_path": "/Users/ryo/Desktop/新チャンネル/EP003_Medusa/確認版_v01_20261023/audio/en/M09.wav",
+      "sha256": "c9682da9624211f6f85e6af254e4e5617ecbbb2e68c7cc16a484eea24c14177f"
+    },
+    {
+      "record": "narration_segments_en.json",
+      "id": "M09-01",
+      "relative": "audio/en/sentences/M09-01.wav",
+      "resolved_path": "/Users/ryo/Desktop/新チャンネル/EP003_Medusa/確認版_v01_20261023/audio/en/sentences/M09-01.wav",
+      "sha256": "4f2c0839e955f1be754f7bdc1c1e4c914f86828a99d16ade38e4dd6ac4a10513"
+    },
+    {
+      "record": "narration_segments_en.json",
+      "id": "M09-02",
+      "relative": "audio/en/sentences/M09-02.wav",
+      "resolved_path": "/Users/ryo/Desktop/新チャンネル/EP003_Medusa/確認版_v01_20261023/audio/en/sentences/M09-02.wav",
+      "sha256": "2f2046558065127d56729c8900eb7b46350834d93f213639b26076f5cd653010"
+    },
+    {
+      "record": "narration_segments_en.json",
+      "id": "M09-03",
+      "relative": "audio/en/sentences/M09-03.wav",
+      "resolved_path": "/Users/ryo/Desktop/新チャンネル/EP003_Medusa/確認版_v01_20261023/audio/en/sentences/M09-03.wav",
+      "sha256": "4994a04eb4960f70f7a1aad3c5fe7285eec27f7c8fdb38123aafe0ac661d118e"
+    },
+    {
+      "record": "narration_segments_en.json",
+      "id": "M10",
+      "relative": "audio/en/M10.wav",
+      "resolved_path": "/Users/ryo/Desktop/新チャンネル/EP003_Medusa/確認版_v01_20261023/audio/en/M10.wav",
+      "sha256": "eafbef13180f44c2a6e6c89b562a2e9415ff5d13da4cecb95a546412274b6438"
+    },
+    {
+      "record": "narration_segments_en.json",
+      "id": "M10-01",
+      "relative": "audio/en/sentences/M10-01.wav",
+      "resolved_path": "/Users/ryo/Desktop/新チャンネル/EP003_Medusa/確認版_v01_20261023/audio/en/sentences/M10-01.wav",
+      "sha256": "8b7ebd7b515fda061eaa68bbca079af5636da7f7824376c3e43fcef424f8200d"
+    },
+    {
+      "record": "narration_segments_en.json",
+      "id": "M10-02",
+      "relative": "audio/en/sentences/M10-02.wav",
+      "resolved_path": "/Users/ryo/Desktop/新チャンネル/EP003_Medusa/確認版_v01_20261023/audio/en/sentences/M10-02.wav",
+      "sha256": "8037ad85b636a5bfdfc5498f1dea0cb707823f11d9578ab6d683e70905d2c6e9"
+    },
+    {
+      "record": "narration_segments_en.json",
+      "id": "M10-03",
+      "relative": "audio/en/sentences/M10-03.wav",
+      "resolved_path": "/Users/ryo/Desktop/新チャンネル/EP003_Medusa/確認版_v01_20261023/audio/en/sentences/M10-03.wav",
+      "sha256": "a15e4af93904172739dd65a2fc6173df962071b9fd9503921a7d2a1a0296c4eb"
+    },
+    {
+      "record": "narration_segments_en.json",
+      "id": "M10-04",
+      "relative": "audio/en/sentences/M10-04.wav",
+      "resolved_path": "/Users/ryo/Desktop/新チャンネル/EP003_Medusa/確認版_v01_20261023/audio/en/sentences/M10-04.wav",
+      "sha256": "a3c16851b46d4de877463b685fa257eff97dd4a11a8a5cd91b6079eb2f05bd6a"
+    },
+    {
+      "record": "narration_segments_en.json",
+      "id": "M11",
+      "relative": "audio/en/M11.wav",
+      "resolved_path": "/Users/ryo/Desktop/新チャンネル/EP003_Medusa/確認版_v01_20261023/audio/en/M11.wav",
+      "sha256": "13dcbe9856ceb3c2544ac8c1e8892579ee92877d255a8ee29cbb659574298337"
+    },
+    {
+      "record": "narration_segments_en.json",
+      "id": "M11-01",
+      "relative": "audio/en/sentences/M11-01.wav",
+      "resolved_path": "/Users/ryo/Desktop/新チャンネル/EP003_Medusa/確認版_v01_20261023/audio/en/sentences/M11-01.wav",
+      "sha256": "3cd393559da73cc01e981c88f7a98bbf786892a46548f6db92d017fd4995e700"
+    },
+    {
+      "record": "narration_segments_en.json",
+      "id": "M11-02",
+      "relative": "audio/en/sentences/M11-02.wav",
+      "resolved_path": "/Users/ryo/Desktop/新チャンネル/EP003_Medusa/確認版_v01_20261023/audio/en/sentences/M11-02.wav",
+      "sha256": "88e78400407bc419ad5bcb7379fdb02666e9d8877783c3f1da6fea7ecefac6cd"
+    },
+    {
+      "record": "narration_segments_en.json",
+      "id": "M11-03",
+      "relative": "audio/en/sentences/M11-03.wav",
+      "resolved_path": "/Users/ryo/Desktop/新チャンネル/EP003_Medusa/確認版_v01_20261023/audio/en/sentences/M11-03.wav",
+      "sha256": "1fecf5981d3604bda1639a29e27858b17e5d70fa3da79f94d0f40556906babec"
+    },
+    {
+      "record": "narration_segments_en.json",
+      "id": "M11-04",
+      "relative": "audio/en/sentences/M11-04.wav",
+      "resolved_path": "/Users/ryo/Desktop/新チャンネル/EP003_Medusa/確認版_v01_20261023/audio/en/sentences/M11-04.wav",
+      "sha256": "50aaa57f94016e9d5cae00e29686ff99d10c3444f4e7bd081567b29c2746d3d3"
+    },
+    {
+      "record": "narration_segments_en.json",
+      "id": "M12",
+      "relative": "audio/en/M12.wav",
+      "resolved_path": "/Users/ryo/Desktop/新チャンネル/EP003_Medusa/確認版_v01_20261023/audio/en/M12.wav",
+      "sha256": "cc5fda2fb285f9a5dd153da09c70f787746b87c83735466d9d4409d86c25be68"
+    },
+    {
+      "record": "narration_segments_en.json",
+      "id": "M12-01",
+      "relative": "audio/en/sentences/M12-01.wav",
+      "resolved_path": "/Users/ryo/Desktop/新チャンネル/EP003_Medusa/確認版_v01_20261023/audio/en/sentences/M12-01.wav",
+      "sha256": "513809de87774ec77ee15cbf7f74d8cc836a13500a635c571712000034e78412"
+    },
+    {
+      "record": "narration_segments_en.json",
+      "id": "M12-02",
+      "relative": "audio/en/sentences/M12-02.wav",
+      "resolved_path": "/Users/ryo/Desktop/新チャンネル/EP003_Medusa/確認版_v01_20261023/audio/en/sentences/M12-02.wav",
+      "sha256": "07b19065a6a89ee501a872e99a00af25c7da244ae077e3c1ff43372e91c3cd34"
+    },
+    {
+      "record": "narration_segments_en.json",
+      "id": "M12-03",
+      "relative": "audio/en/sentences/M12-03.wav",
+      "resolved_path": "/Users/ryo/Desktop/新チャンネル/EP003_Medusa/確認版_v01_20261023/audio/en/sentences/M12-03.wav",
+      "sha256": "98a43509ade2acf878f4663e2fdc0345bc44e38ad3b4a9690e822cd8782a0750"
+    },
+    {
+      "record": "narration_segments_en.json",
+      "id": "M13",
+      "relative": "audio/en/M13.wav",
+      "resolved_path": "/Users/ryo/Desktop/新チャンネル/EP003_Medusa/確認版_v01_20261023/audio/en/M13.wav",
+      "sha256": "a005c60dfb80ca6236499aea9ff07d16997a8fe3e058d38a1b127d46d242e099"
+    },
+    {
+      "record": "narration_segments_en.json",
+      "id": "M13-01",
+      "relative": "audio/en/sentences/M13-01.wav",
+      "resolved_path": "/Users/ryo/Desktop/新チャンネル/EP003_Medusa/確認版_v01_20261023/audio/en/sentences/M13-01.wav",
+      "sha256": "dd795e23aa6b736cccbe72ddcb83783552453ab865d5b1cfc1a763aae0e5006b"
+    },
+    {
+      "record": "narration_segments_en.json",
+      "id": "M13-02",
+      "relative": "audio/en/sentences/M13-02.wav",
+      "resolved_path": "/Users/ryo/Desktop/新チャンネル/EP003_Medusa/確認版_v01_20261023/audio/en/sentences/M13-02.wav",
+      "sha256": "e3eb89cb03ebdfa7e84f0f60b5a8679e935073163aa3565a279c2ff47e09b6c6"
+    },
+    {
+      "record": "narration_segments_en.json",
+      "id": "M13-03",
+      "relative": "audio/en/sentences/M13-03.wav",
+      "resolved_path": "/Users/ryo/Desktop/新チャンネル/EP003_Medusa/確認版_v01_20261023/audio/en/sentences/M13-03.wav",
+      "sha256": "11c899681d9c503be29a2a2f56bec4d028b274078f54aa0dff8788f5ab8c8fe0"
+    },
+    {
+      "record": "narration_segments_en.json",
+      "id": "M14",
+      "relative": "audio/en/M14.wav",
+      "resolved_path": "/Users/ryo/Desktop/新チャンネル/EP003_Medusa/確認版_v01_20261023/audio/en/M14.wav",
+      "sha256": "0da852eb70f9330a4c6e20858b86799f31325e1ce0c1e0e8c3d827e81fa69750"
+    },
+    {
+      "record": "narration_segments_en.json",
+      "id": "M14-01",
+      "relative": "audio/en/sentences/M14-01.wav",
+      "resolved_path": "/Users/ryo/Desktop/新チャンネル/EP003_Medusa/確認版_v01_20261023/audio/en/sentences/M14-01.wav",
+      "sha256": "8061ed66b5ece7cf99fc5376985852aebf5b3b5c2c070fec4b0f92d7c747dfd6"
+    },
+    {
+      "record": "narration_segments_en.json",
+      "id": "M14-02",
+      "relative": "audio/en/sentences/M14-02.wav",
+      "resolved_path": "/Users/ryo/Desktop/新チャンネル/EP003_Medusa/確認版_v01_20261023/audio/en/sentences/M14-02.wav",
+      "sha256": "43e20fa196f37a8866b18fde708b70742bb196d9d0ecfe03397c2828f75e214f"
+    },
+    {
+      "record": "narration_segments_en.json",
+      "id": "M14-03",
+      "relative": "audio/en/sentences/M14-03.wav",
+      "resolved_path": "/Users/ryo/Desktop/新チャンネル/EP003_Medusa/確認版_v01_20261023/audio/en/sentences/M14-03.wav",
+      "sha256": "48df45957c0498c1a96c6b1d4f51e0b7286202ab3bd39480cfc5ba82871a29b4"
+    },
+    {
+      "record": "narration_segments_en.json",
+      "id": "M14-04",
+      "relative": "audio/en/sentences/M14-04.wav",
+      "resolved_path": "/Users/ryo/Desktop/新チャンネル/EP003_Medusa/確認版_v01_20261023/audio/en/sentences/M14-04.wav",
+      "sha256": "78088ac67b9ffa2e22929ff6dff4bb7f15a186e1e607476f2781d1680f5325ea"
+    },
+    {
+      "record": "narration_segments_en.json",
+      "id": "M15",
+      "relative": "audio/en/M15.wav",
+      "resolved_path": "/Users/ryo/Desktop/新チャンネル/EP003_Medusa/確認版_v01_20261023/audio/en/M15.wav",
+      "sha256": "c5c038dfc9f87af77aace8939f96fd4c3a8d9bc1beab155c76336aa8ff535cbf"
+    },
+    {
+      "record": "narration_segments_en.json",
+      "id": "M15-01",
+      "relative": "audio/en/sentences/M15-01.wav",
+      "resolved_path": "/Users/ryo/Desktop/新チャンネル/EP003_Medusa/確認版_v01_20261023/audio/en/sentences/M15-01.wav",
+      "sha256": "f30e7d6c2f86f86709995a4fb93a93bea6f2c09b5319d7eac43b30f9cef7dc27"
+    },
+    {
+      "record": "narration_segments_en.json",
+      "id": "M15-02",
+      "relative": "audio/en/sentences/M15-02.wav",
+      "resolved_path": "/Users/ryo/Desktop/新チャンネル/EP003_Medusa/確認版_v01_20261023/audio/en/sentences/M15-02.wav",
+      "sha256": "5cdac26c26b090e26aa26841f24585c5bb67de68702aa2c3be9070c04421dc2d"
+    },
+    {
+      "record": "narration_segments_en.json",
+      "id": "M15-03",
+      "relative": "audio/en/sentences/M15-03.wav",
+      "resolved_path": "/Users/ryo/Desktop/新チャンネル/EP003_Medusa/確認版_v01_20261023/audio/en/sentences/M15-03.wav",
+      "sha256": "97ac7cf80f3913308526f027ece85e948b8c185fe8928b43d6c22bcd9ec81e4b"
+    },
+    {
+      "record": "narration_segments_en.json",
+      "id": "M16",
+      "relative": "audio/en/M16.wav",
+      "resolved_path": "/Users/ryo/Desktop/新チャンネル/EP003_Medusa/確認版_v01_20261023/audio/en/M16.wav",
+      "sha256": "5af9197ad03a7eafcd209f480258558687e8f351d52799338a92f59091970648"
+    },
+    {
+      "record": "narration_segments_en.json",
+      "id": "M16-01",
+      "relative": "audio/en/sentences/M16-01.wav",
+      "resolved_path": "/Users/ryo/Desktop/新チャンネル/EP003_Medusa/確認版_v01_20261023/audio/en/sentences/M16-01.wav",
+      "sha256": "49e29a47aefdbbd273fd65ad3cb0a31abfe6751941a40390a2afe60e2a609c15"
+    },
+    {
+      "record": "narration_segments_en.json",
+      "id": "M16-02",
+      "relative": "audio/en/sentences/M16-02.wav",
+      "resolved_path": "/Users/ryo/Desktop/新チャンネル/EP003_Medusa/確認版_v01_20261023/audio/en/sentences/M16-02.wav",
+      "sha256": "c3f85e5450cd0ebe7e6643c1896c22646c3ea6bc9215fc958df39cfd120a936a"
+    },
+    {
+      "record": "narration_segments_en.json",
+      "id": "M16-03",
+      "relative": "audio/en/sentences/M16-03.wav",
+      "resolved_path": "/Users/ryo/Desktop/新チャンネル/EP003_Medusa/確認版_v01_20261023/audio/en/sentences/M16-03.wav",
+      "sha256": "0b2a2a32ad2ef1d90d9301d9bf41d7792f7e0b9510124aeb1d74428f74a51e64"
+    },
+    {
+      "record": "narration_segments_en.json",
+      "id": "M16-04",
+      "relative": "audio/en/sentences/M16-04.wav",
+      "resolved_path": "/Users/ryo/Desktop/新チャンネル/EP003_Medusa/確認版_v01_20261023/audio/en/sentences/M16-04.wav",
+      "sha256": "91f600621ad97250916556d2061b3a660ae00cae59132d021eb9c5622a6b8c00"
+    },
+    {
+      "record": "narration_segments_en.json",
+      "id": "M16-05",
+      "relative": "audio/en/sentences/M16-05.wav",
+      "resolved_path": "/Users/ryo/Desktop/新チャンネル/EP003_Medusa/確認版_v01_20261023/audio/en/sentences/M16-05.wav",
+      "sha256": "8b1242c111a1ccb1bdc03979161a8396a815baabcc2e2a8267d77d77ec3c3f77"
+    },
+    {
+      "record": "narration_segments_en.json",
+      "id": "M17",
+      "relative": "audio/en/M17.wav",
+      "resolved_path": "/Users/ryo/Desktop/新チャンネル/EP003_Medusa/確認版_v01_20261023/audio/en/M17.wav",
+      "sha256": "0130f074542836e0e01eae05c75fb02e62c8b8dbebb1d1674133a83d306d02a6"
+    },
+    {
+      "record": "narration_segments_en.json",
+      "id": "M17-01",
+      "relative": "audio/en/sentences/M17-01.wav",
+      "resolved_path": "/Users/ryo/Desktop/新チャンネル/EP003_Medusa/確認版_v01_20261023/audio/en/sentences/M17-01.wav",
+      "sha256": "cf1a9ac1fe33f1505bc0b8c4cd79707c53fbbcea52a515d10397da2f37d8b415"
+    },
+    {
+      "record": "narration_segments_en.json",
+      "id": "M17-02",
+      "relative": "audio/en/sentences/M17-02.wav",
+      "resolved_path": "/Users/ryo/Desktop/新チャンネル/EP003_Medusa/確認版_v01_20261023/audio/en/sentences/M17-02.wav",
+      "sha256": "6a5eecff8c998a324d593d582c7f62972f7075f6f2c96daca49f39fecd7e792a"
+    },
+    {
+      "record": "narration_segments_en.json",
+      "id": "M17-03",
+      "relative": "audio/en/sentences/M17-03.wav",
+      "resolved_path": "/Users/ryo/Desktop/新チャンネル/EP003_Medusa/確認版_v01_20261023/audio/en/sentences/M17-03.wav",
+      "sha256": "6c2da6679c1384ead61047c433c860de497ad54a0c80f1683e51d5d8a6ab1257"
+    },
+    {
+      "record": "narration_segments_en.json",
+      "id": "M17-04",
+      "relative": "audio/en/sentences/M17-04.wav",
+      "resolved_path": "/Users/ryo/Desktop/新チャンネル/EP003_Medusa/確認版_v01_20261023/audio/en/sentences/M17-04.wav",
+      "sha256": "2ccc7568ca3460c7eef8aead1f623a07f557a6c1f0113962d9c549b27700b3ac"
+    },
+    {
+      "record": "narration_segments_en.json",
+      "id": "M18",
+      "relative": "audio/en/M18.wav",
+      "resolved_path": "/Users/ryo/Desktop/新チャンネル/EP003_Medusa/確認版_v02_20261023/audio/en/M18.wav",
+      "sha256": "3b94e29c43dac1c0d922aa076cef0306f9474d8d95a9acccd7e5528621d7662b"
+    },
+    {
+      "record": "narration_segments_en.json",
+      "id": "M18-01",
+      "relative": "audio/en/sentences/M18-01.wav",
+      "resolved_path": "/Users/ryo/Desktop/新チャンネル/EP003_Medusa/確認版_v02_20261023/audio/en/sentences/M18-01.wav",
+      "sha256": "188015279acb41fe6402334c5a9f2b2def3fe25ef0ef7c5ca2e61be7802c19ee"
+    },
+    {
+      "record": "narration_segments_en.json",
+      "id": "M18-02",
+      "relative": "audio/en/sentences/M18-02.wav",
+      "resolved_path": "/Users/ryo/Desktop/新チャンネル/EP003_Medusa/確認版_v02_20261023/audio/en/sentences/M18-02.wav",
+      "sha256": "4b059ee5d79543624a5014a8c7e789256721b1b7e62355b90138ce34c7592c93"
+    },
+    {
+      "record": "narration_segments_en.json",
+      "id": "M18-03",
+      "relative": "audio/en/sentences/M18-03.wav",
+      "resolved_path": "/Users/ryo/Desktop/新チャンネル/EP003_Medusa/確認版_v02_20261023/audio/en/sentences/M18-03.wav",
+      "sha256": "5a3e633ec19d30f63ff5039110561d91abd783a0bc620250e8875ac91b21a7ca"
+    },
+    {
+      "record": "narration_segments_en.json",
+      "id": "M18-04",
+      "relative": "audio/en/sentences/M18-04.wav",
+      "resolved_path": "/Users/ryo/Desktop/新チャンネル/EP003_Medusa/確認版_v02_20261023/audio/en/sentences/M18-04.wav",
+      "sha256": "9dad496ac6774b2a7792445a74f2abaef839eb021537cb612e4453a7db3f36d9"
+    },
+    {
+      "record": "narration_segments_en.json",
+      "id": "M18-05",
+      "relative": "audio/en/sentences/M18-05.wav",
+      "resolved_path": "/Users/ryo/Desktop/新チャンネル/EP003_Medusa/確認版_v02_20261023/audio/en/sentences/M18-05.wav",
+      "sha256": "d1e79525e47704b7f0e764b4ce03ec22426c4681f385b253dd24cd212986ae26"
+    },
+    {
+      "record": "narration_timeline_en.json",
+      "id": "M01",
+      "relative": "audio/en/M01.wav",
+      "resolved_path": "/Users/ryo/Desktop/新チャンネル/EP003_Medusa/確認版_v01_20261023/audio/en/M01.wav",
+      "sha256": "d4cf49eb040406265b7959ae79275506962c487373d7330634eb3b3f1a5cc9d5"
+    },
+    {
+      "record": "narration_timeline_en.json",
+      "id": "M01-01",
+      "relative": "audio/en/sentences/M01-01.wav",
+      "resolved_path": "/Users/ryo/Desktop/新チャンネル/EP003_Medusa/確認版_v01_20261023/audio/en/sentences/M01-01.wav",
+      "sha256": "6cf5db85b46087b5ccb8229bcffb413de2042e631172348d73a1a144029822b7"
+    },
+    {
+      "record": "narration_timeline_en.json",
+      "id": "M01-02",
+      "relative": "audio/en/sentences/M01-02.wav",
+      "resolved_path": "/Users/ryo/Desktop/新チャンネル/EP003_Medusa/確認版_v01_20261023/audio/en/sentences/M01-02.wav",
+      "sha256": "f2782c25a21cc9f793ffbdbe28ac1c64222d7f16af26ac0b1499b360f42961cc"
+    },
+    {
+      "record": "narration_timeline_en.json",
+      "id": "M01-03",
+      "relative": "audio/en/sentences/M01-03.wav",
+      "resolved_path": "/Users/ryo/Desktop/新チャンネル/EP003_Medusa/確認版_v01_20261023/audio/en/sentences/M01-03.wav",
+      "sha256": "236be65b6dc667800acb2541bcea153dd9de2be0c0ea2494651733622f2bf03d"
+    },
+    {
+      "record": "narration_timeline_en.json",
+      "id": "M01-04",
+      "relative": "audio/en/sentences/M01-04.wav",
+      "resolved_path": "/Users/ryo/Desktop/新チャンネル/EP003_Medusa/確認版_v01_20261023/audio/en/sentences/M01-04.wav",
+      "sha256": "5164c5199d7b71b46486ddda6f9d7677ce42db84486327a34b6e679f90d7233c"
+    },
+    {
+      "record": "narration_timeline_en.json",
+      "id": "M01-05",
+      "relative": "audio/en/sentences/M01-05.wav",
+      "resolved_path": "/Users/ryo/Desktop/新チャンネル/EP003_Medusa/確認版_v01_20261023/audio/en/sentences/M01-05.wav",
+      "sha256": "df3044eacba78c1fb4c724afc1462302863ef0fa5b17d63c2a89fdc77853f342"
+    },
+    {
+      "record": "narration_timeline_en.json",
+      "id": "M01-06",
+      "relative": "audio/en/sentences/M01-06.wav",
+      "resolved_path": "/Users/ryo/Desktop/新チャンネル/EP003_Medusa/確認版_v01_20261023/audio/en/sentences/M01-06.wav",
+      "sha256": "2bb2823f6177b645b1e92bef402361935dbe13183d2bf676575fab3a77dd3478"
+    },
+    {
+      "record": "narration_timeline_en.json",
+      "id": "M02",
+      "relative": "audio/en/M02.wav",
+      "resolved_path": "/Users/ryo/Desktop/新チャンネル/EP003_Medusa/確認版_v01_20261023/audio/en/M02.wav",
+      "sha256": "2e3704ef5e8115c2297c5d742a0f46c2eac31e4ea437cb90b04e6c2709ee1897"
+    },
+    {
+      "record": "narration_timeline_en.json",
+      "id": "M02-01",
+      "relative": "audio/en/sentences/M02-01.wav",
+      "resolved_path": "/Users/ryo/Desktop/新チャンネル/EP003_Medusa/確認版_v01_20261023/audio/en/sentences/M02-01.wav",
+      "sha256": "2e3704ef5e8115c2297c5d742a0f46c2eac31e4ea437cb90b04e6c2709ee1897"
+    },
+    {
+      "record": "narration_timeline_en.json",
+      "id": "M03",
+      "relative": "audio/en/M03.wav",
+      "resolved_path": "/Users/ryo/Desktop/新チャンネル/EP003_Medusa/確認版_v01_20261023/audio/en/M03.wav",
+      "sha256": "6c5df5df501f4fb055d6aa0d2808525785d4dba23a1662d87f13ede0b602a708"
+    },
+    {
+      "record": "narration_timeline_en.json",
+      "id": "M03-01",
+      "relative": "audio/en/sentences/M03-01.wav",
+      "resolved_path": "/Users/ryo/Desktop/新チャンネル/EP003_Medusa/確認版_v01_20261023/audio/en/sentences/M03-01.wav",
+      "sha256": "9e1daea02725f22bd6fab07b4d08f72b4c2e2b11da0725d8ceb409c385e96454"
+    },
+    {
+      "record": "narration_timeline_en.json",
+      "id": "M03-02",
+      "relative": "audio/en/sentences/M03-02.wav",
+      "resolved_path": "/Users/ryo/Desktop/新チャンネル/EP003_Medusa/確認版_v01_20261023/audio/en/sentences/M03-02.wav",
+      "sha256": "5d65c98fd261ee958027e0c37d848e7c0acdf99fbc2fb365679a9924e098a3bf"
+    },
+    {
+      "record": "narration_timeline_en.json",
+      "id": "M03-03",
+      "relative": "audio/en/sentences/M03-03.wav",
+      "resolved_path": "/Users/ryo/Desktop/新チャンネル/EP003_Medusa/確認版_v01_20261023/audio/en/sentences/M03-03.wav",
+      "sha256": "28d8cc31e64efd87b70b633fc1dc7c1dd220c2d0e6b60d3ca4a4ce7ae5e6d7be"
+    },
+    {
+      "record": "narration_timeline_en.json",
+      "id": "M03-04",
+      "relative": "audio/en/sentences/M03-04.wav",
+      "resolved_path": "/Users/ryo/Desktop/新チャンネル/EP003_Medusa/確認版_v01_20261023/audio/en/sentences/M03-04.wav",
+      "sha256": "0383ce9c8c53eab4fc021cca23d119452f21628b4946ffb84e6160ba2e63de42"
+    },
+    {
+      "record": "narration_timeline_en.json",
+      "id": "M04",
+      "relative": "audio/en/M04.wav",
+      "resolved_path": "/Users/ryo/Desktop/新チャンネル/EP003_Medusa/確認版_v01_20261023/audio/en/M04.wav",
+      "sha256": "335e210248ab0297cfe69e3c067e781e858a5da43df50cee1cc43abe42f5a9ac"
+    },
+    {
+      "record": "narration_timeline_en.json",
+      "id": "M04-01",
+      "relative": "audio/en/sentences/M04-01.wav",
+      "resolved_path": "/Users/ryo/Desktop/新チャンネル/EP003_Medusa/確認版_v01_20261023/audio/en/sentences/M04-01.wav",
+      "sha256": "9ff139cc2d67bc2b529e2408c9b3608caacc2884f286738090277f8d4d0dc233"
+    },
+    {
+      "record": "narration_timeline_en.json",
+      "id": "M04-02",
+      "relative": "audio/en/sentences/M04-02.wav",
+      "resolved_path": "/Users/ryo/Desktop/新チャンネル/EP003_Medusa/確認版_v01_20261023/audio/en/sentences/M04-02.wav",
+      "sha256": "3ec23c284c2182effa5a3150af1497b85cf9c0319776aca27e05b75f35c933d1"
+    },
+    {
+      "record": "narration_timeline_en.json",
+      "id": "M04-03",
+      "relative": "audio/en/sentences/M04-03.wav",
+      "resolved_path": "/Users/ryo/Desktop/新チャンネル/EP003_Medusa/確認版_v01_20261023/audio/en/sentences/M04-03.wav",
+      "sha256": "d04d7aaf5952ad40d1a4c2e33124602846c6b6c5ec5c84c87aaa62c4084fdb88"
+    },
+    {
+      "record": "narration_timeline_en.json",
+      "id": "M04-04",
+      "relative": "audio/en/sentences/M04-04.wav",
+      "resolved_path": "/Users/ryo/Desktop/新チャンネル/EP003_Medusa/確認版_v01_20261023/audio/en/sentences/M04-04.wav",
+      "sha256": "733e186255114c326ae4fd4f3c99f24dd60e80c76d81c283540f57247998360d"
+    },
+    {
+      "record": "narration_timeline_en.json",
+      "id": "M05",
+      "relative": "audio/en/M05.wav",
+      "resolved_path": "/Users/ryo/Desktop/新チャンネル/EP003_Medusa/確認版_v01_20261023/audio/en/M05.wav",
+      "sha256": "0545d320514c2f4db232e04f2d2991230b40384ac30aff764454762d0805b9e2"
+    },
+    {
+      "record": "narration_timeline_en.json",
+      "id": "M05-01",
+      "relative": "audio/en/sentences/M05-01.wav",
+      "resolved_path": "/Users/ryo/Desktop/新チャンネル/EP003_Medusa/確認版_v01_20261023/audio/en/sentences/M05-01.wav",
+      "sha256": "93b7610a2e402ae58eec4e452f0aaa68893b8bf30a877208411c42e0a81679d0"
+    },
+    {
+      "record": "narration_timeline_en.json",
+      "id": "M05-02",
+      "relative": "audio/en/sentences/M05-02.wav",
+      "resolved_path": "/Users/ryo/Desktop/新チャンネル/EP003_Medusa/確認版_v01_20261023/audio/en/sentences/M05-02.wav",
+      "sha256": "60a89d6cef8ed1050fee488ded3260839e55e79858a728e96b52d4508d3fb4e0"
+    },
+    {
+      "record": "narration_timeline_en.json",
+      "id": "M05-03",
+      "relative": "audio/en/sentences/M05-03.wav",
+      "resolved_path": "/Users/ryo/Desktop/新チャンネル/EP003_Medusa/確認版_v01_20261023/audio/en/sentences/M05-03.wav",
+      "sha256": "8ebf70eddfeb402700516e30b3b1d5294fe253f489e27af69e7e700d4baa5570"
+    },
+    {
+      "record": "narration_timeline_en.json",
+      "id": "M05-04",
+      "relative": "audio/en/sentences/M05-04.wav",
+      "resolved_path": "/Users/ryo/Desktop/新チャンネル/EP003_Medusa/確認版_v01_20261023/audio/en/sentences/M05-04.wav",
+      "sha256": "756ed125c5d5b739a8718728787d5a62962f0f9265b3414057b8ca397852531e"
+    },
+    {
+      "record": "narration_timeline_en.json",
+      "id": "M06",
+      "relative": "audio/en/M06.wav",
+      "resolved_path": "/Users/ryo/Desktop/新チャンネル/EP003_Medusa/確認版_v01_20261023/audio/en/M06.wav",
+      "sha256": "8a0d1f97a3a9591844a482b4a71075dd8b6b684a5523921dd6693340503d0b70"
+    },
+    {
+      "record": "narration_timeline_en.json",
+      "id": "M06-01",
+      "relative": "audio/en/sentences/M06-01.wav",
+      "resolved_path": "/Users/ryo/Desktop/新チャンネル/EP003_Medusa/確認版_v01_20261023/audio/en/sentences/M06-01.wav",
+      "sha256": "d2d9bd96b52ce194e620ad0d8cd1dba309a31273dd2ae24932bb047d348cfe0b"
+    },
+    {
+      "record": "narration_timeline_en.json",
+      "id": "M06-02",
+      "relative": "audio/en/sentences/M06-02.wav",
+      "resolved_path": "/Users/ryo/Desktop/新チャンネル/EP003_Medusa/確認版_v01_20261023/audio/en/sentences/M06-02.wav",
+      "sha256": "66d1b670ba38d958f5b02f79029160a5667e44ef4245cc9c1d3c7c9469be1029"
+    },
+    {
+      "record": "narration_timeline_en.json",
+      "id": "M06-03",
+      "relative": "audio/en/sentences/M06-03.wav",
+      "resolved_path": "/Users/ryo/Desktop/新チャンネル/EP003_Medusa/確認版_v01_20261023/audio/en/sentences/M06-03.wav",
+      "sha256": "ff75893c7276d91b422c903756f02479e54471f790fe2f10bb8a317ff8e6cfc8"
+    },
+    {
+      "record": "narration_timeline_en.json",
+      "id": "M07",
+      "relative": "audio/en/M07.wav",
+      "resolved_path": "/Users/ryo/Desktop/新チャンネル/EP003_Medusa/確認版_v01_20261023/audio/en/M07.wav",
+      "sha256": "78c8cbfdeebc452294f4a4ebb1cfe78421ffeae7d938831802f2880596aebc00"
+    },
+    {
+      "record": "narration_timeline_en.json",
+      "id": "M07-01",
+      "relative": "audio/en/sentences/M07-01.wav",
+      "resolved_path": "/Users/ryo/Desktop/新チャンネル/EP003_Medusa/確認版_v01_20261023/audio/en/sentences/M07-01.wav",
+      "sha256": "d48e044ba483e11bf74281190df1137401624019e7dc7aa2e94417d8ac126dab"
+    },
+    {
+      "record": "narration_timeline_en.json",
+      "id": "M07-02",
+      "relative": "audio/en/sentences/M07-02.wav",
+      "resolved_path": "/Users/ryo/Desktop/新チャンネル/EP003_Medusa/確認版_v01_20261023/audio/en/sentences/M07-02.wav",
+      "sha256": "6d02b83688167a8ebd5c598df9993262ec201d4ddd1159b95ba4a0a433ae0e12"
+    },
+    {
+      "record": "narration_timeline_en.json",
+      "id": "M07-03",
+      "relative": "audio/en/sentences/M07-03.wav",
+      "resolved_path": "/Users/ryo/Desktop/新チャンネル/EP003_Medusa/確認版_v01_20261023/audio/en/sentences/M07-03.wav",
+      "sha256": "e85bf71ae4d86a58a709f16e0412dd69c81c26aa58d10af6694013fb37664120"
+    },
+    {
+      "record": "narration_timeline_en.json",
+      "id": "M08",
+      "relative": "audio/en/M08.wav",
+      "resolved_path": "/Users/ryo/Desktop/新チャンネル/EP003_Medusa/確認版_v01_20261023/audio/en/M08.wav",
+      "sha256": "aa988819600ac1608f8450a0665cb85121d73c17c00b4dbfd01a1488a79df6d8"
+    },
+    {
+      "record": "narration_timeline_en.json",
+      "id": "M08-01",
+      "relative": "audio/en/sentences/M08-01.wav",
+      "resolved_path": "/Users/ryo/Desktop/新チャンネル/EP003_Medusa/確認版_v01_20261023/audio/en/sentences/M08-01.wav",
+      "sha256": "ba9040a09fd5a2b8f99ec87affa3ee81bd326be2df70c3e88a14c027b87e885b"
+    },
+    {
+      "record": "narration_timeline_en.json",
+      "id": "M08-02",
+      "relative": "audio/en/sentences/M08-02.wav",
+      "resolved_path": "/Users/ryo/Desktop/新チャンネル/EP003_Medusa/確認版_v01_20261023/audio/en/sentences/M08-02.wav",
+      "sha256": "eb2711e32fd042edaa6944074f75f569497fcf1cd3adc35c0a1ada59785dd37a"
+    },
+    {
+      "record": "narration_timeline_en.json",
+      "id": "M08-03",
+      "relative": "audio/en/sentences/M08-03.wav",
+      "resolved_path": "/Users/ryo/Desktop/新チャンネル/EP003_Medusa/確認版_v01_20261023/audio/en/sentences/M08-03.wav",
+      "sha256": "670bf7802fd0f7a8d99eb5fdb6597a2802b094a80dee80b5bd268168633ed5f2"
+    },
+    {
+      "record": "narration_timeline_en.json",
+      "id": "M09",
+      "relative": "audio/en/M09.wav",
+      "resolved_path": "/Users/ryo/Desktop/新チャンネル/EP003_Medusa/確認版_v01_20261023/audio/en/M09.wav",
+      "sha256": "c9682da9624211f6f85e6af254e4e5617ecbbb2e68c7cc16a484eea24c14177f"
+    },
+    {
+      "record": "narration_timeline_en.json",
+      "id": "M09-01",
+      "relative": "audio/en/sentences/M09-01.wav",
+      "resolved_path": "/Users/ryo/Desktop/新チャンネル/EP003_Medusa/確認版_v01_20261023/audio/en/sentences/M09-01.wav",
+      "sha256": "4f2c0839e955f1be754f7bdc1c1e4c914f86828a99d16ade38e4dd6ac4a10513"
+    },
+    {
+      "record": "narration_timeline_en.json",
+      "id": "M09-02",
+      "relative": "audio/en/sentences/M09-02.wav",
+      "resolved_path": "/Users/ryo/Desktop/新チャンネル/EP003_Medusa/確認版_v01_20261023/audio/en/sentences/M09-02.wav",
+      "sha256": "2f2046558065127d56729c8900eb7b46350834d93f213639b26076f5cd653010"
+    },
+    {
+      "record": "narration_timeline_en.json",
+      "id": "M09-03",
+      "relative": "audio/en/sentences/M09-03.wav",
+      "resolved_path": "/Users/ryo/Desktop/新チャンネル/EP003_Medusa/確認版_v01_20261023/audio/en/sentences/M09-03.wav",
+      "sha256": "4994a04eb4960f70f7a1aad3c5fe7285eec27f7c8fdb38123aafe0ac661d118e"
+    },
+    {
+      "record": "narration_timeline_en.json",
+      "id": "M10",
+      "relative": "audio/en/M10.wav",
+      "resolved_path": "/Users/ryo/Desktop/新チャンネル/EP003_Medusa/確認版_v01_20261023/audio/en/M10.wav",
+      "sha256": "eafbef13180f44c2a6e6c89b562a2e9415ff5d13da4cecb95a546412274b6438"
+    },
+    {
+      "record": "narration_timeline_en.json",
+      "id": "M10-01",
+      "relative": "audio/en/sentences/M10-01.wav",
+      "resolved_path": "/Users/ryo/Desktop/新チャンネル/EP003_Medusa/確認版_v01_20261023/audio/en/sentences/M10-01.wav",
+      "sha256": "8b7ebd7b515fda061eaa68bbca079af5636da7f7824376c3e43fcef424f8200d"
+    },
+    {
+      "record": "narration_timeline_en.json",
+      "id": "M10-02",
+      "relative": "audio/en/sentences/M10-02.wav",
+      "resolved_path": "/Users/ryo/Desktop/新チャンネル/EP003_Medusa/確認版_v01_20261023/audio/en/sentences/M10-02.wav",
+      "sha256": "8037ad85b636a5bfdfc5498f1dea0cb707823f11d9578ab6d683e70905d2c6e9"
+    },
+    {
+      "record": "narration_timeline_en.json",
+      "id": "M10-03",
+      "relative": "audio/en/sentences/M10-03.wav",
+      "resolved_path": "/Users/ryo/Desktop/新チャンネル/EP003_Medusa/確認版_v01_20261023/audio/en/sentences/M10-03.wav",
+      "sha256": "a15e4af93904172739dd65a2fc6173df962071b9fd9503921a7d2a1a0296c4eb"
+    },
+    {
+      "record": "narration_timeline_en.json",
+      "id": "M10-04",
+      "relative": "audio/en/sentences/M10-04.wav",
+      "resolved_path": "/Users/ryo/Desktop/新チャンネル/EP003_Medusa/確認版_v01_20261023/audio/en/sentences/M10-04.wav",
+      "sha256": "a3c16851b46d4de877463b685fa257eff97dd4a11a8a5cd91b6079eb2f05bd6a"
+    },
+    {
+      "record": "narration_timeline_en.json",
+      "id": "M11",
+      "relative": "audio/en/M11.wav",
+      "resolved_path": "/Users/ryo/Desktop/新チャンネル/EP003_Medusa/確認版_v01_20261023/audio/en/M11.wav",
+      "sha256": "13dcbe9856ceb3c2544ac8c1e8892579ee92877d255a8ee29cbb659574298337"
+    },
+    {
+      "record": "narration_timeline_en.json",
+      "id": "M11-01",
+      "relative": "audio/en/sentences/M11-01.wav",
+      "resolved_path": "/Users/ryo/Desktop/新チャンネル/EP003_Medusa/確認版_v01_20261023/audio/en/sentences/M11-01.wav",
+      "sha256": "3cd393559da73cc01e981c88f7a98bbf786892a46548f6db92d017fd4995e700"
+    },
+    {
+      "record": "narration_timeline_en.json",
+      "id": "M11-02",
+      "relative": "audio/en/sentences/M11-02.wav",
+      "resolved_path": "/Users/ryo/Desktop/新チャンネル/EP003_Medusa/確認版_v01_20261023/audio/en/sentences/M11-02.wav",
+      "sha256": "88e78400407bc419ad5bcb7379fdb02666e9d8877783c3f1da6fea7ecefac6cd"
+    },
+    {
+      "record": "narration_timeline_en.json",
+      "id": "M11-03",
+      "relative": "audio/en/sentences/M11-03.wav",
+      "resolved_path": "/Users/ryo/Desktop/新チャンネル/EP003_Medusa/確認版_v01_20261023/audio/en/sentences/M11-03.wav",
+      "sha256": "1fecf5981d3604bda1639a29e27858b17e5d70fa3da79f94d0f40556906babec"
+    },
+    {
+      "record": "narration_timeline_en.json",
+      "id": "M11-04",
+      "relative": "audio/en/sentences/M11-04.wav",
+      "resolved_path": "/Users/ryo/Desktop/新チャンネル/EP003_Medusa/確認版_v01_20261023/audio/en/sentences/M11-04.wav",
+      "sha256": "50aaa57f94016e9d5cae00e29686ff99d10c3444f4e7bd081567b29c2746d3d3"
+    },
+    {
+      "record": "narration_timeline_en.json",
+      "id": "M12",
+      "relative": "audio/en/M12.wav",
+      "resolved_path": "/Users/ryo/Desktop/新チャンネル/EP003_Medusa/確認版_v01_20261023/audio/en/M12.wav",
+      "sha256": "cc5fda2fb285f9a5dd153da09c70f787746b87c83735466d9d4409d86c25be68"
+    },
+    {
+      "record": "narration_timeline_en.json",
+      "id": "M12-01",
+      "relative": "audio/en/sentences/M12-01.wav",
+      "resolved_path": "/Users/ryo/Desktop/新チャンネル/EP003_Medusa/確認版_v01_20261023/audio/en/sentences/M12-01.wav",
+      "sha256": "513809de87774ec77ee15cbf7f74d8cc836a13500a635c571712000034e78412"
+    },
+    {
+      "record": "narration_timeline_en.json",
+      "id": "M12-02",
+      "relative": "audio/en/sentences/M12-02.wav",
+      "resolved_path": "/Users/ryo/Desktop/新チャンネル/EP003_Medusa/確認版_v01_20261023/audio/en/sentences/M12-02.wav",
+      "sha256": "07b19065a6a89ee501a872e99a00af25c7da244ae077e3c1ff43372e91c3cd34"
+    },
+    {
+      "record": "narration_timeline_en.json",
+      "id": "M12-03",
+      "relative": "audio/en/sentences/M12-03.wav",
+      "resolved_path": "/Users/ryo/Desktop/新チャンネル/EP003_Medusa/確認版_v01_20261023/audio/en/sentences/M12-03.wav",
+      "sha256": "98a43509ade2acf878f4663e2fdc0345bc44e38ad3b4a9690e822cd8782a0750"
+    },
+    {
+      "record": "narration_timeline_en.json",
+      "id": "M13",
+      "relative": "audio/en/M13.wav",
+      "resolved_path": "/Users/ryo/Desktop/新チャンネル/EP003_Medusa/確認版_v01_20261023/audio/en/M13.wav",
+      "sha256": "a005c60dfb80ca6236499aea9ff07d16997a8fe3e058d38a1b127d46d242e099"
+    },
+    {
+      "record": "narration_timeline_en.json",
+      "id": "M13-01",
+      "relative": "audio/en/sentences/M13-01.wav",
+      "resolved_path": "/Users/ryo/Desktop/新チャンネル/EP003_Medusa/確認版_v01_20261023/audio/en/sentences/M13-01.wav",
+      "sha256": "dd795e23aa6b736cccbe72ddcb83783552453ab865d5b1cfc1a763aae0e5006b"
+    },
+    {
+      "record": "narration_timeline_en.json",
+      "id": "M13-02",
+      "relative": "audio/en/sentences/M13-02.wav",
+      "resolved_path": "/Users/ryo/Desktop/新チャンネル/EP003_Medusa/確認版_v01_20261023/audio/en/sentences/M13-02.wav",
+      "sha256": "e3eb89cb03ebdfa7e84f0f60b5a8679e935073163aa3565a279c2ff47e09b6c6"
+    },
+    {
+      "record": "narration_timeline_en.json",
+      "id": "M13-03",
+      "relative": "audio/en/sentences/M13-03.wav",
+      "resolved_path": "/Users/ryo/Desktop/新チャンネル/EP003_Medusa/確認版_v01_20261023/audio/en/sentences/M13-03.wav",
+      "sha256": "11c899681d9c503be29a2a2f56bec4d028b274078f54aa0dff8788f5ab8c8fe0"
+    },
+    {
+      "record": "narration_timeline_en.json",
+      "id": "M14",
+      "relative": "audio/en/M14.wav",
+      "resolved_path": "/Users/ryo/Desktop/新チャンネル/EP003_Medusa/確認版_v01_20261023/audio/en/M14.wav",
+      "sha256": "0da852eb70f9330a4c6e20858b86799f31325e1ce0c1e0e8c3d827e81fa69750"
+    },
+    {
+      "record": "narration_timeline_en.json",
+      "id": "M14-01",
+      "relative": "audio/en/sentences/M14-01.wav",
+      "resolved_path": "/Users/ryo/Desktop/新チャンネル/EP003_Medusa/確認版_v01_20261023/audio/en/sentences/M14-01.wav",
+      "sha256": "8061ed66b5ece7cf99fc5376985852aebf5b3b5c2c070fec4b0f92d7c747dfd6"
+    },
+    {
+      "record": "narration_timeline_en.json",
+      "id": "M14-02",
+      "relative": "audio/en/sentences/M14-02.wav",
+      "resolved_path": "/Users/ryo/Desktop/新チャンネル/EP003_Medusa/確認版_v01_20261023/audio/en/sentences/M14-02.wav",
+      "sha256": "43e20fa196f37a8866b18fde708b70742bb196d9d0ecfe03397c2828f75e214f"
+    },
+    {
+      "record": "narration_timeline_en.json",
+      "id": "M14-03",
+      "relative": "audio/en/sentences/M14-03.wav",
+      "resolved_path": "/Users/ryo/Desktop/新チャンネル/EP003_Medusa/確認版_v01_20261023/audio/en/sentences/M14-03.wav",
+      "sha256": "48df45957c0498c1a96c6b1d4f51e0b7286202ab3bd39480cfc5ba82871a29b4"
+    },
+    {
+      "record": "narration_timeline_en.json",
+      "id": "M14-04",
+      "relative": "audio/en/sentences/M14-04.wav",
+      "resolved_path": "/Users/ryo/Desktop/新チャンネル/EP003_Medusa/確認版_v01_20261023/audio/en/sentences/M14-04.wav",
+      "sha256": "78088ac67b9ffa2e22929ff6dff4bb7f15a186e1e607476f2781d1680f5325ea"
+    },
+    {
+      "record": "narration_timeline_en.json",
+      "id": "M15",
+      "relative": "audio/en/M15.wav",
+      "resolved_path": "/Users/ryo/Desktop/新チャンネル/EP003_Medusa/確認版_v01_20261023/audio/en/M15.wav",
+      "sha256": "c5c038dfc9f87af77aace8939f96fd4c3a8d9bc1beab155c76336aa8ff535cbf"
+    },
+    {
+      "record": "narration_timeline_en.json",
+      "id": "M15-01",
+      "relative": "audio/en/sentences/M15-01.wav",
+      "resolved_path": "/Users/ryo/Desktop/新チャンネル/EP003_Medusa/確認版_v01_20261023/audio/en/sentences/M15-01.wav",
+      "sha256": "f30e7d6c2f86f86709995a4fb93a93bea6f2c09b5319d7eac43b30f9cef7dc27"
+    },
+    {
+      "record": "narration_timeline_en.json",
+      "id": "M15-02",
+      "relative": "audio/en/sentences/M15-02.wav",
+      "resolved_path": "/Users/ryo/Desktop/新チャンネル/EP003_Medusa/確認版_v01_20261023/audio/en/sentences/M15-02.wav",
+      "sha256": "5cdac26c26b090e26aa26841f24585c5bb67de68702aa2c3be9070c04421dc2d"
+    },
+    {
+      "record": "narration_timeline_en.json",
+      "id": "M15-03",
+      "relative": "audio/en/sentences/M15-03.wav",
+      "resolved_path": "/Users/ryo/Desktop/新チャンネル/EP003_Medusa/確認版_v01_20261023/audio/en/sentences/M15-03.wav",
+      "sha256": "97ac7cf80f3913308526f027ece85e948b8c185fe8928b43d6c22bcd9ec81e4b"
+    },
+    {
+      "record": "narration_timeline_en.json",
+      "id": "M16",
+      "relative": "audio/en/M16.wav",
+      "resolved_path": "/Users/ryo/Desktop/新チャンネル/EP003_Medusa/確認版_v01_20261023/audio/en/M16.wav",
+      "sha256": "5af9197ad03a7eafcd209f480258558687e8f351d52799338a92f59091970648"
+    },
+    {
+      "record": "narration_timeline_en.json",
+      "id": "M16-01",
+      "relative": "audio/en/sentences/M16-01.wav",
+      "resolved_path": "/Users/ryo/Desktop/新チャンネル/EP003_Medusa/確認版_v01_20261023/audio/en/sentences/M16-01.wav",
+      "sha256": "49e29a47aefdbbd273fd65ad3cb0a31abfe6751941a40390a2afe60e2a609c15"
+    },
+    {
+      "record": "narration_timeline_en.json",
+      "id": "M16-02",
+      "relative": "audio/en/sentences/M16-02.wav",
+      "resolved_path": "/Users/ryo/Desktop/新チャンネル/EP003_Medusa/確認版_v01_20261023/audio/en/sentences/M16-02.wav",
+      "sha256": "c3f85e5450cd0ebe7e6643c1896c22646c3ea6bc9215fc958df39cfd120a936a"
+    },
+    {
+      "record": "narration_timeline_en.json",
+      "id": "M16-03",
+      "relative": "audio/en/sentences/M16-03.wav",
+      "resolved_path": "/Users/ryo/Desktop/新チャンネル/EP003_Medusa/確認版_v01_20261023/audio/en/sentences/M16-03.wav",
+      "sha256": "0b2a2a32ad2ef1d90d9301d9bf41d7792f7e0b9510124aeb1d74428f74a51e64"
+    },
+    {
+      "record": "narration_timeline_en.json",
+      "id": "M16-04",
+      "relative": "audio/en/sentences/M16-04.wav",
+      "resolved_path": "/Users/ryo/Desktop/新チャンネル/EP003_Medusa/確認版_v01_20261023/audio/en/sentences/M16-04.wav",
+      "sha256": "91f600621ad97250916556d2061b3a660ae00cae59132d021eb9c5622a6b8c00"
+    },
+    {
+      "record": "narration_timeline_en.json",
+      "id": "M16-05",
+      "relative": "audio/en/sentences/M16-05.wav",
+      "resolved_path": "/Users/ryo/Desktop/新チャンネル/EP003_Medusa/確認版_v01_20261023/audio/en/sentences/M16-05.wav",
+      "sha256": "8b1242c111a1ccb1bdc03979161a8396a815baabcc2e2a8267d77d77ec3c3f77"
+    },
+    {
+      "record": "narration_timeline_en.json",
+      "id": "M17",
+      "relative": "audio/en/M17.wav",
+      "resolved_path": "/Users/ryo/Desktop/新チャンネル/EP003_Medusa/確認版_v01_20261023/audio/en/M17.wav",
+      "sha256": "0130f074542836e0e01eae05c75fb02e62c8b8dbebb1d1674133a83d306d02a6"
+    },
+    {
+      "record": "narration_timeline_en.json",
+      "id": "M17-01",
+      "relative": "audio/en/sentences/M17-01.wav",
+      "resolved_path": "/Users/ryo/Desktop/新チャンネル/EP003_Medusa/確認版_v01_20261023/audio/en/sentences/M17-01.wav",
+      "sha256": "cf1a9ac1fe33f1505bc0b8c4cd79707c53fbbcea52a515d10397da2f37d8b415"
+    },
+    {
+      "record": "narration_timeline_en.json",
+      "id": "M17-02",
+      "relative": "audio/en/sentences/M17-02.wav",
+      "resolved_path": "/Users/ryo/Desktop/新チャンネル/EP003_Medusa/確認版_v01_20261023/audio/en/sentences/M17-02.wav",
+      "sha256": "6a5eecff8c998a324d593d582c7f62972f7075f6f2c96daca49f39fecd7e792a"
+    },
+    {
+      "record": "narration_timeline_en.json",
+      "id": "M17-03",
+      "relative": "audio/en/sentences/M17-03.wav",
+      "resolved_path": "/Users/ryo/Desktop/新チャンネル/EP003_Medusa/確認版_v01_20261023/audio/en/sentences/M17-03.wav",
+      "sha256": "6c2da6679c1384ead61047c433c860de497ad54a0c80f1683e51d5d8a6ab1257"
+    },
+    {
+      "record": "narration_timeline_en.json",
+      "id": "M17-04",
+      "relative": "audio/en/sentences/M17-04.wav",
+      "resolved_path": "/Users/ryo/Desktop/新チャンネル/EP003_Medusa/確認版_v01_20261023/audio/en/sentences/M17-04.wav",
+      "sha256": "2ccc7568ca3460c7eef8aead1f623a07f557a6c1f0113962d9c549b27700b3ac"
+    },
+    {
+      "record": "narration_timeline_en.json",
+      "id": "M18",
+      "relative": "audio/en/M18.wav",
+      "resolved_path": "/Users/ryo/Desktop/新チャンネル/EP003_Medusa/確認版_v02_20261023/audio/en/M18.wav",
+      "sha256": "3b94e29c43dac1c0d922aa076cef0306f9474d8d95a9acccd7e5528621d7662b"
+    },
+    {
+      "record": "narration_timeline_en.json",
+      "id": "M18-01",
+      "relative": "audio/en/sentences/M18-01.wav",
+      "resolved_path": "/Users/ryo/Desktop/新チャンネル/EP003_Medusa/確認版_v02_20261023/audio/en/sentences/M18-01.wav",
+      "sha256": "188015279acb41fe6402334c5a9f2b2def3fe25ef0ef7c5ca2e61be7802c19ee"
+    },
+    {
+      "record": "narration_timeline_en.json",
+      "id": "M18-02",
+      "relative": "audio/en/sentences/M18-02.wav",
+      "resolved_path": "/Users/ryo/Desktop/新チャンネル/EP003_Medusa/確認版_v02_20261023/audio/en/sentences/M18-02.wav",
+      "sha256": "4b059ee5d79543624a5014a8c7e789256721b1b7e62355b90138ce34c7592c93"
+    },
+    {
+      "record": "narration_timeline_en.json",
+      "id": "M18-03",
+      "relative": "audio/en/sentences/M18-03.wav",
+      "resolved_path": "/Users/ryo/Desktop/新チャンネル/EP003_Medusa/確認版_v02_20261023/audio/en/sentences/M18-03.wav",
+      "sha256": "5a3e633ec19d30f63ff5039110561d91abd783a0bc620250e8875ac91b21a7ca"
+    },
+    {
+      "record": "narration_timeline_en.json",
+      "id": "M18-04",
+      "relative": "audio/en/sentences/M18-04.wav",
+      "resolved_path": "/Users/ryo/Desktop/新チャンネル/EP003_Medusa/確認版_v02_20261023/audio/en/sentences/M18-04.wav",
+      "sha256": "9dad496ac6774b2a7792445a74f2abaef839eb021537cb612e4453a7db3f36d9"
+    },
+    {
+      "record": "narration_timeline_en.json",
+      "id": "M18-05",
+      "relative": "audio/en/sentences/M18-05.wav",
+      "resolved_path": "/Users/ryo/Desktop/新チャンネル/EP003_Medusa/確認版_v02_20261023/audio/en/sentences/M18-05.wav",
+      "sha256": "d1e79525e47704b7f0e764b4ce03ec22426c4681f385b253dd24cd212986ae26"
+    },
+    {
+      "record": "narration_segments_ja.json",
+      "id": "M01",
+      "relative": "audio/ja/M01.wav",
+      "resolved_path": "/Users/ryo/Desktop/新チャンネル/EP003_Medusa/確認版_v01_20261023/audio/ja/M01.wav",
+      "sha256": "206b8bd64720c19b3eb3a6ae959822b4a6dc52119ef99f6b1808f4796ded4b08"
+    },
+    {
+      "record": "narration_segments_ja.json",
+      "id": "M01-01",
+      "relative": "audio/ja/sentences/M01-01.wav",
+      "resolved_path": "/Users/ryo/Desktop/新チャンネル/EP003_Medusa/確認版_v01_20261023/audio/ja/sentences/M01-01.wav",
+      "sha256": "ff9f5272517f262b7247aa6160fb77805028f51c33621f44116338d3f59f4892"
+    },
+    {
+      "record": "narration_segments_ja.json",
+      "id": "M01-02",
+      "relative": "audio/ja/sentences/M01-02.wav",
+      "resolved_path": "/Users/ryo/Desktop/新チャンネル/EP003_Medusa/確認版_v01_20261023/audio/ja/sentences/M01-02.wav",
+      "sha256": "ac0b01aadd9b70aa10e391c1388bb4d388384aba13c458e9b9e221b368841f08"
+    },
+    {
+      "record": "narration_segments_ja.json",
+      "id": "M01-03",
+      "relative": "audio/ja/sentences/M01-03.wav",
+      "resolved_path": "/Users/ryo/Desktop/新チャンネル/EP003_Medusa/確認版_v01_20261023/audio/ja/sentences/M01-03.wav",
+      "sha256": "a39d7ca3d3e0559d035102aa1b1dd1feafc72c1dfb6bc854380264b28f922f4a"
+    },
+    {
+      "record": "narration_segments_ja.json",
+      "id": "M01-04",
+      "relative": "audio/ja/sentences/M01-04.wav",
+      "resolved_path": "/Users/ryo/Desktop/新チャンネル/EP003_Medusa/確認版_v01_20261023/audio/ja/sentences/M01-04.wav",
+      "sha256": "49c983ac6d20b43e706271923c3f87248d086b9fec877f51df05f26368ce55de"
+    },
+    {
+      "record": "narration_segments_ja.json",
+      "id": "M01-05",
+      "relative": "audio/ja/sentences/M01-05.wav",
+      "resolved_path": "/Users/ryo/Desktop/新チャンネル/EP003_Medusa/確認版_v01_20261023/audio/ja/sentences/M01-05.wav",
+      "sha256": "ec654135c3946ee7e701b50c8ae64f812f1c12ed2fecfa0d9f802fa9620d5a28"
+    },
+    {
+      "record": "narration_segments_ja.json",
+      "id": "M01-06",
+      "relative": "audio/ja/sentences/M01-06.wav",
+      "resolved_path": "/Users/ryo/Desktop/新チャンネル/EP003_Medusa/確認版_v01_20261023/audio/ja/sentences/M01-06.wav",
+      "sha256": "4d5990c8ac3ee407d7e9cb5b384e877041559d16b949526a112e3fdb92412eaf"
+    },
+    {
+      "record": "narration_segments_ja.json",
+      "id": "M02",
+      "relative": "audio/ja/M02.wav",
+      "resolved_path": "/Users/ryo/Desktop/新チャンネル/EP003_Medusa/確認版_v01_20261023/audio/ja/M02.wav",
+      "sha256": "4d02815471cb455e7f45eb6c8d6b0e339d489c8a1b3fe2af8c43c2b08e8e4702"
+    },
+    {
+      "record": "narration_segments_ja.json",
+      "id": "M02-01",
+      "relative": "audio/ja/sentences/M02-01.wav",
+      "resolved_path": "/Users/ryo/Desktop/新チャンネル/EP003_Medusa/確認版_v01_20261023/audio/ja/sentences/M02-01.wav",
+      "sha256": "1728227e8fdb87fca119a7deb8c0b7ef288a63e561c937348995d9fdeee1af98"
+    },
+    {
+      "record": "narration_segments_ja.json",
+      "id": "M02-02",
+      "relative": "audio/ja/sentences/M02-02.wav",
+      "resolved_path": "/Users/ryo/Desktop/新チャンネル/EP003_Medusa/確認版_v01_20261023/audio/ja/sentences/M02-02.wav",
+      "sha256": "69c44d64895ab625cf61592c1de6f400f3a215c0f0bc094560788bed49c886e5"
+    },
+    {
+      "record": "narration_segments_ja.json",
+      "id": "M03",
+      "relative": "audio/ja/M03.wav",
+      "resolved_path": "/Users/ryo/Desktop/新チャンネル/EP003_Medusa/確認版_v01_20261023/audio/ja/M03.wav",
+      "sha256": "02aeb0bfdc8c6cb1eadbc596271c1412be89fcaa11523607fc6e107ee6267e0e"
+    },
+    {
+      "record": "narration_segments_ja.json",
+      "id": "M03-01",
+      "relative": "audio/ja/sentences/M03-01.wav",
+      "resolved_path": "/Users/ryo/Desktop/新チャンネル/EP003_Medusa/確認版_v01_20261023/audio/ja/sentences/M03-01.wav",
+      "sha256": "7b898d648eac23f9b035ebf8d1016e19ed2fcd97250d8dc820d333d17095fd6c"
+    },
+    {
+      "record": "narration_segments_ja.json",
+      "id": "M03-02",
+      "relative": "audio/ja/sentences/M03-02.wav",
+      "resolved_path": "/Users/ryo/Desktop/新チャンネル/EP003_Medusa/確認版_v01_20261023/audio/ja/sentences/M03-02.wav",
+      "sha256": "b2eb757cfd0f2ca46fadb56d8ca382be7fdfbf7a4cbe672ec5f71cb3b44440be"
+    },
+    {
+      "record": "narration_segments_ja.json",
+      "id": "M03-03",
+      "relative": "audio/ja/sentences/M03-03.wav",
+      "resolved_path": "/Users/ryo/Desktop/新チャンネル/EP003_Medusa/確認版_v01_20261023/audio/ja/sentences/M03-03.wav",
+      "sha256": "e7e7c96e11d763880a654a105dc6a960cc1a09d19c66547e71cb587e0ac98767"
+    },
+    {
+      "record": "narration_segments_ja.json",
+      "id": "M03-04",
+      "relative": "audio/ja/sentences/M03-04.wav",
+      "resolved_path": "/Users/ryo/Desktop/新チャンネル/EP003_Medusa/確認版_v01_20261023/audio/ja/sentences/M03-04.wav",
+      "sha256": "225070c554a35e5609cb0bf0f26f3f90a695f2816dbb4d1437611b9e8cd7b149"
+    },
+    {
+      "record": "narration_segments_ja.json",
+      "id": "M04",
+      "relative": "audio/ja/M04.wav",
+      "resolved_path": "/Users/ryo/Desktop/新チャンネル/EP003_Medusa/確認版_v01_20261023/audio/ja/M04.wav",
+      "sha256": "8026f0a1080ecdceff176f6c76eb2fa9e206bf546c2bdb3cf99f8c49a9ad5537"
+    },
+    {
+      "record": "narration_segments_ja.json",
+      "id": "M04-01",
+      "relative": "audio/ja/sentences/M04-01.wav",
+      "resolved_path": "/Users/ryo/Desktop/新チャンネル/EP003_Medusa/確認版_v01_20261023/audio/ja/sentences/M04-01.wav",
+      "sha256": "b1b505d4e5fe4029284ead8f2133c7dd94b7e672606cd0d57db4a48f00112cb2"
+    },
+    {
+      "record": "narration_segments_ja.json",
+      "id": "M04-02",
+      "relative": "audio/ja/sentences/M04-02.wav",
+      "resolved_path": "/Users/ryo/Desktop/新チャンネル/EP003_Medusa/確認版_v01_20261023/audio/ja/sentences/M04-02.wav",
+      "sha256": "12be09f77056e83f0e88664d2345b3f8cf9602f5ebef7dba570036d92d6a4a2e"
+    },
+    {
+      "record": "narration_segments_ja.json",
+      "id": "M04-03",
+      "relative": "audio/ja/sentences/M04-03.wav",
+      "resolved_path": "/Users/ryo/Desktop/新チャンネル/EP003_Medusa/確認版_v01_20261023/audio/ja/sentences/M04-03.wav",
+      "sha256": "1c2b621dea4a8b6c5d7fa02a4282529d4d5131e9cf027e092fef47d683efab6e"
+    },
+    {
+      "record": "narration_segments_ja.json",
+      "id": "M04-04",
+      "relative": "audio/ja/sentences/M04-04.wav",
+      "resolved_path": "/Users/ryo/Desktop/新チャンネル/EP003_Medusa/確認版_v01_20261023/audio/ja/sentences/M04-04.wav",
+      "sha256": "17b4081ee39413ac9e61c803afa40606bdfb04ac17bf3b84dfa9f539b3bc8a0e"
+    },
+    {
+      "record": "narration_segments_ja.json",
+      "id": "M04-05",
+      "relative": "audio/ja/sentences/M04-05.wav",
+      "resolved_path": "/Users/ryo/Desktop/新チャンネル/EP003_Medusa/確認版_v01_20261023/audio/ja/sentences/M04-05.wav",
+      "sha256": "0a6e6df1b95d0498f5412101b3e68efa3fa9eaa77711fa85659514baff464743"
+    },
+    {
+      "record": "narration_segments_ja.json",
+      "id": "M05",
+      "relative": "audio/ja/M05.wav",
+      "resolved_path": "/Users/ryo/Desktop/新チャンネル/EP003_Medusa/確認版_v01_20261023/audio/ja/M05.wav",
+      "sha256": "45a7429dd417921994f79cb7f7315c09c56b872a8aad5cb2c67251df14adab4b"
+    },
+    {
+      "record": "narration_segments_ja.json",
+      "id": "M05-01",
+      "relative": "audio/ja/sentences/M05-01.wav",
+      "resolved_path": "/Users/ryo/Desktop/新チャンネル/EP003_Medusa/確認版_v01_20261023/audio/ja/sentences/M05-01.wav",
+      "sha256": "8c7db7a7885e21f6278703be2ef675de8f3471aec826f0109834b075cedf7865"
+    },
+    {
+      "record": "narration_segments_ja.json",
+      "id": "M05-02",
+      "relative": "audio/ja/sentences/M05-02.wav",
+      "resolved_path": "/Users/ryo/Desktop/新チャンネル/EP003_Medusa/確認版_v01_20261023/audio/ja/sentences/M05-02.wav",
+      "sha256": "0b5e843cb6afd4873eee8b3586fa3ffd3a8e07d9bc7abc457843eaa564b1da83"
+    },
+    {
+      "record": "narration_segments_ja.json",
+      "id": "M05-03",
+      "relative": "audio/ja/sentences/M05-03.wav",
+      "resolved_path": "/Users/ryo/Desktop/新チャンネル/EP003_Medusa/確認版_v01_20261023/audio/ja/sentences/M05-03.wav",
+      "sha256": "416f676c8508c68f6afadbd1019ec9da5447680ce49b2c79a1ee9f00cee81ae8"
+    },
+    {
+      "record": "narration_segments_ja.json",
+      "id": "M05-04",
+      "relative": "audio/ja/sentences/M05-04.wav",
+      "resolved_path": "/Users/ryo/Desktop/新チャンネル/EP003_Medusa/確認版_v01_20261023/audio/ja/sentences/M05-04.wav",
+      "sha256": "e78deaa50a8d534dae30d1bb73ba480c1ec533fa732c891e0b86ff598ca2691b"
+    },
+    {
+      "record": "narration_segments_ja.json",
+      "id": "M05-05",
+      "relative": "audio/ja/sentences/M05-05.wav",
+      "resolved_path": "/Users/ryo/Desktop/新チャンネル/EP003_Medusa/確認版_v01_20261023/audio/ja/sentences/M05-05.wav",
+      "sha256": "caf8f6a4de777c605d6ae41768d8a1b02add7cb34e90149a17868a60109be3f2"
+    },
+    {
+      "record": "narration_segments_ja.json",
+      "id": "M06",
+      "relative": "audio/ja/M06.wav",
+      "resolved_path": "/Users/ryo/Desktop/新チャンネル/EP003_Medusa/確認版_v01_20261023/audio/ja/M06.wav",
+      "sha256": "351869b3033431ce09cc60f6f4317134417331c64aa867b4d4ca731f940326e4"
+    },
+    {
+      "record": "narration_segments_ja.json",
+      "id": "M06-01",
+      "relative": "audio/ja/sentences/M06-01.wav",
+      "resolved_path": "/Users/ryo/Desktop/新チャンネル/EP003_Medusa/確認版_v01_20261023/audio/ja/sentences/M06-01.wav",
+      "sha256": "0c283f83b562e6684e8d467c6ff659700375f05a2a24c9727af5b4a5c2a8a3e3"
+    },
+    {
+      "record": "narration_segments_ja.json",
+      "id": "M06-02",
+      "relative": "audio/ja/sentences/M06-02.wav",
+      "resolved_path": "/Users/ryo/Desktop/新チャンネル/EP003_Medusa/確認版_v01_20261023/audio/ja/sentences/M06-02.wav",
+      "sha256": "56f35aabac99b4e2566d6c56ff070092c22747bbfd09590e5bebd12cfd7b1622"
+    },
+    {
+      "record": "narration_segments_ja.json",
+      "id": "M06-03",
+      "relative": "audio/ja/sentences/M06-03.wav",
+      "resolved_path": "/Users/ryo/Desktop/新チャンネル/EP003_Medusa/確認版_v01_20261023/audio/ja/sentences/M06-03.wav",
+      "sha256": "f4426c23d11ee435c8187cbb2ec635ddc419cb5789f1122ef1875f81d4fb1dae"
+    },
+    {
+      "record": "narration_segments_ja.json",
+      "id": "M07",
+      "relative": "audio/ja/M07.wav",
+      "resolved_path": "/Users/ryo/Desktop/新チャンネル/EP003_Medusa/確認版_v01_20261023/audio/ja/M07.wav",
+      "sha256": "7932f199e5dffd29c2b67574f84334523adca6e7afa0d54356532ed948544176"
+    },
+    {
+      "record": "narration_segments_ja.json",
+      "id": "M07-01",
+      "relative": "audio/ja/sentences/M07-01.wav",
+      "resolved_path": "/Users/ryo/Desktop/新チャンネル/EP003_Medusa/確認版_v01_20261023/audio/ja/sentences/M07-01.wav",
+      "sha256": "a1ae5188eeece033e4d4f1b0f78b6f2f84977848a6352141511332b0fbe7355f"
+    },
+    {
+      "record": "narration_segments_ja.json",
+      "id": "M07-02",
+      "relative": "audio/ja/sentences/M07-02.wav",
+      "resolved_path": "/Users/ryo/Desktop/新チャンネル/EP003_Medusa/確認版_v01_20261023/audio/ja/sentences/M07-02.wav",
+      "sha256": "4d4f3a5f6dce5d7d3aae67022f5ec94a4eb2a4e35c80a0acca9087f044a78107"
+    },
+    {
+      "record": "narration_segments_ja.json",
+      "id": "M07-03",
+      "relative": "audio/ja/sentences/M07-03.wav",
+      "resolved_path": "/Users/ryo/Desktop/新チャンネル/EP003_Medusa/確認版_v01_20261023/audio/ja/sentences/M07-03.wav",
+      "sha256": "b5830983ba93d7439a9abb44c0158c4ad1582a4109c66bdabf5a03aeea22e86d"
+    },
+    {
+      "record": "narration_segments_ja.json",
+      "id": "M08",
+      "relative": "audio/ja/M08.wav",
+      "resolved_path": "/Users/ryo/Desktop/新チャンネル/EP003_Medusa/確認版_v01_20261023/audio/ja/M08.wav",
+      "sha256": "96cf067451acf78d7e97b483f40d1a35a63d55c401748c5c19222356527349e0"
+    },
+    {
+      "record": "narration_segments_ja.json",
+      "id": "M08-01",
+      "relative": "audio/ja/sentences/M08-01.wav",
+      "resolved_path": "/Users/ryo/Desktop/新チャンネル/EP003_Medusa/確認版_v01_20261023/audio/ja/sentences/M08-01.wav",
+      "sha256": "21a8cb5c15477363dc4817003b696a379fcfe26bf3290175d0e6f8094d18ddce"
+    },
+    {
+      "record": "narration_segments_ja.json",
+      "id": "M08-02",
+      "relative": "audio/ja/sentences/M08-02.wav",
+      "resolved_path": "/Users/ryo/Desktop/新チャンネル/EP003_Medusa/確認版_v01_20261023/audio/ja/sentences/M08-02.wav",
+      "sha256": "4cd49b2261eb78d8778c5749ecfa650104d56e35b1485d74f8703a94c5fedb3a"
+    },
+    {
+      "record": "narration_segments_ja.json",
+      "id": "M08-03",
+      "relative": "audio/ja/sentences/M08-03.wav",
+      "resolved_path": "/Users/ryo/Desktop/新チャンネル/EP003_Medusa/確認版_v01_20261023/audio/ja/sentences/M08-03.wav",
+      "sha256": "54e32c9b47a5c0af36309fae7b56466c29ea4aa11833686e1fb02ecc4478072f"
+    },
+    {
+      "record": "narration_segments_ja.json",
+      "id": "M09",
+      "relative": "audio/ja/M09.wav",
+      "resolved_path": "/Users/ryo/Desktop/新チャンネル/EP003_Medusa/確認版_v01_20261023/audio/ja/M09.wav",
+      "sha256": "db81a0165fec97f25479455441bce8e845329036ca1d0775aa34cc0af4f850b7"
+    },
+    {
+      "record": "narration_segments_ja.json",
+      "id": "M09-01",
+      "relative": "audio/ja/sentences/M09-01.wav",
+      "resolved_path": "/Users/ryo/Desktop/新チャンネル/EP003_Medusa/確認版_v01_20261023/audio/ja/sentences/M09-01.wav",
+      "sha256": "de3a08f5a47a692cdedd53f23798c55dc5c365c878dbac48467cc6aadca9970e"
+    },
+    {
+      "record": "narration_segments_ja.json",
+      "id": "M09-02",
+      "relative": "audio/ja/sentences/M09-02.wav",
+      "resolved_path": "/Users/ryo/Desktop/新チャンネル/EP003_Medusa/確認版_v01_20261023/audio/ja/sentences/M09-02.wav",
+      "sha256": "60a129b1888bab34f7bd082cb7b41401eb8ff5c105c69460aead0ec63459271b"
+    },
+    {
+      "record": "narration_segments_ja.json",
+      "id": "M09-03",
+      "relative": "audio/ja/sentences/M09-03.wav",
+      "resolved_path": "/Users/ryo/Desktop/新チャンネル/EP003_Medusa/確認版_v01_20261023/audio/ja/sentences/M09-03.wav",
+      "sha256": "8db13ed492b36e22fda46578d1b2d1e052fb7f7c407e2a23027d25f9b2088f70"
+    },
+    {
+      "record": "narration_segments_ja.json",
+      "id": "M09-04",
+      "relative": "audio/ja/sentences/M09-04.wav",
+      "resolved_path": "/Users/ryo/Desktop/新チャンネル/EP003_Medusa/確認版_v01_20261023/audio/ja/sentences/M09-04.wav",
+      "sha256": "4dfa1e41469dcc1ba73eb232fcec176c913aeec820dde7f076a0f461a21397b3"
+    },
+    {
+      "record": "narration_segments_ja.json",
+      "id": "M10",
+      "relative": "audio/ja/M10.wav",
+      "resolved_path": "/Users/ryo/Desktop/新チャンネル/EP003_Medusa/確認版_v01_20261023/audio/ja/M10.wav",
+      "sha256": "43f10d3e09f1d59b6150e4492e5c83b77f6d63d2c6139524bfe2d35fc00d3a43"
+    },
+    {
+      "record": "narration_segments_ja.json",
+      "id": "M10-01",
+      "relative": "audio/ja/sentences/M10-01.wav",
+      "resolved_path": "/Users/ryo/Desktop/新チャンネル/EP003_Medusa/確認版_v01_20261023/audio/ja/sentences/M10-01.wav",
+      "sha256": "783faaa14cfb049a21778fee362393132490188b5b316c1a38b0b3de63c23fc3"
+    },
+    {
+      "record": "narration_segments_ja.json",
+      "id": "M10-02",
+      "relative": "audio/ja/sentences/M10-02.wav",
+      "resolved_path": "/Users/ryo/Desktop/新チャンネル/EP003_Medusa/確認版_v01_20261023/audio/ja/sentences/M10-02.wav",
+      "sha256": "08292d40e933100eac843edead4c01e161e8c5671841f7a4a96e15d489595347"
+    },
+    {
+      "record": "narration_segments_ja.json",
+      "id": "M10-03",
+      "relative": "audio/ja/sentences/M10-03.wav",
+      "resolved_path": "/Users/ryo/Desktop/新チャンネル/EP003_Medusa/確認版_v01_20261023/audio/ja/sentences/M10-03.wav",
+      "sha256": "991bfc168356799e9bbc7dd2e99fc1d3e19a748ece5b9efd32d8adc1aa79a68e"
+    },
+    {
+      "record": "narration_segments_ja.json",
+      "id": "M10-04",
+      "relative": "audio/ja/sentences/M10-04.wav",
+      "resolved_path": "/Users/ryo/Desktop/新チャンネル/EP003_Medusa/確認版_v01_20261023/audio/ja/sentences/M10-04.wav",
+      "sha256": "33e4baf0226a230bdaefda012e1082650209ecbfbcb250adf61d606007a06a61"
+    },
+    {
+      "record": "narration_segments_ja.json",
+      "id": "M11",
+      "relative": "audio/ja/M11.wav",
+      "resolved_path": "/Users/ryo/Desktop/新チャンネル/EP003_Medusa/確認版_v01_20261023/audio/ja/M11.wav",
+      "sha256": "ac434ccd7da22d6344321f6a8ebcc753d1ca6d16e8999334109bd1214a508015"
+    },
+    {
+      "record": "narration_segments_ja.json",
+      "id": "M11-01",
+      "relative": "audio/ja/sentences/M11-01.wav",
+      "resolved_path": "/Users/ryo/Desktop/新チャンネル/EP003_Medusa/確認版_v01_20261023/audio/ja/sentences/M11-01.wav",
+      "sha256": "4ac1270e5971c9eb28547a971e8e7e926b94111b1b0dc76e4986765b08cd3bc4"
+    },
+    {
+      "record": "narration_segments_ja.json",
+      "id": "M11-02",
+      "relative": "audio/ja/sentences/M11-02.wav",
+      "resolved_path": "/Users/ryo/Desktop/新チャンネル/EP003_Medusa/確認版_v01_20261023/audio/ja/sentences/M11-02.wav",
+      "sha256": "e0166b9b41a259b0c8d05328822666b6752d5ecddfbf56816eae0a4900a05929"
+    },
+    {
+      "record": "narration_segments_ja.json",
+      "id": "M11-03",
+      "relative": "audio/ja/sentences/M11-03.wav",
+      "resolved_path": "/Users/ryo/Desktop/新チャンネル/EP003_Medusa/確認版_v01_20261023/audio/ja/sentences/M11-03.wav",
+      "sha256": "7b97c2c1050746c3debdfc55cd5b033e9f7509cae1b148a477c7c1b7f3fa9ab9"
+    },
+    {
+      "record": "narration_segments_ja.json",
+      "id": "M11-04",
+      "relative": "audio/ja/sentences/M11-04.wav",
+      "resolved_path": "/Users/ryo/Desktop/新チャンネル/EP003_Medusa/確認版_v01_20261023/audio/ja/sentences/M11-04.wav",
+      "sha256": "88159b8f075b0bb11e71276eb091e8fb5916f5ac1177a8932fe4b780bab07d21"
+    },
+    {
+      "record": "narration_segments_ja.json",
+      "id": "M12",
+      "relative": "audio/ja/M12.wav",
+      "resolved_path": "/Users/ryo/Desktop/新チャンネル/EP003_Medusa/確認版_v01_20261023/audio/ja/M12.wav",
+      "sha256": "b4802c623b3b47fb7fcc2a36d0ecc3ad5028accf7296dc0019fbafc76b1bd147"
+    },
+    {
+      "record": "narration_segments_ja.json",
+      "id": "M12-01",
+      "relative": "audio/ja/sentences/M12-01.wav",
+      "resolved_path": "/Users/ryo/Desktop/新チャンネル/EP003_Medusa/確認版_v01_20261023/audio/ja/sentences/M12-01.wav",
+      "sha256": "0450e0db1b9e96aa2a829a65b7485a9ba36dc34a5d8dee7b208f4d7c62cac774"
+    },
+    {
+      "record": "narration_segments_ja.json",
+      "id": "M12-02",
+      "relative": "audio/ja/sentences/M12-02.wav",
+      "resolved_path": "/Users/ryo/Desktop/新チャンネル/EP003_Medusa/確認版_v01_20261023/audio/ja/sentences/M12-02.wav",
+      "sha256": "0e4a2a9f4cee3554fdccf4f770cbe6070d77301688166066958f9193d2ff23f1"
+    },
+    {
+      "record": "narration_segments_ja.json",
+      "id": "M12-03",
+      "relative": "audio/ja/sentences/M12-03.wav",
+      "resolved_path": "/Users/ryo/Desktop/新チャンネル/EP003_Medusa/確認版_v01_20261023/audio/ja/sentences/M12-03.wav",
+      "sha256": "eec331a8669233754c3e2a20ad613ffab064d704e85adac524b6dc7a2eb2e8b9"
+    },
+    {
+      "record": "narration_segments_ja.json",
+      "id": "M13",
+      "relative": "audio/ja/M13.wav",
+      "resolved_path": "/Users/ryo/Desktop/新チャンネル/EP003_Medusa/確認版_v01_20261023/audio/ja/M13.wav",
+      "sha256": "e3861c612338a58340b68d96bef955f39ac0b117998dca6fdd55fec7b1e8a896"
+    },
+    {
+      "record": "narration_segments_ja.json",
+      "id": "M13-01",
+      "relative": "audio/ja/sentences/M13-01.wav",
+      "resolved_path": "/Users/ryo/Desktop/新チャンネル/EP003_Medusa/確認版_v01_20261023/audio/ja/sentences/M13-01.wav",
+      "sha256": "53d88bc0b24a04142c1f6db7d98fc312eacf52570609d328ecbe65cf4a1d936e"
+    },
+    {
+      "record": "narration_segments_ja.json",
+      "id": "M13-02",
+      "relative": "audio/ja/sentences/M13-02.wav",
+      "resolved_path": "/Users/ryo/Desktop/新チャンネル/EP003_Medusa/確認版_v01_20261023/audio/ja/sentences/M13-02.wav",
+      "sha256": "7497313f24cbd22e54e97c4141806993fab338877bc9c541925f49121965314c"
+    },
+    {
+      "record": "narration_segments_ja.json",
+      "id": "M13-03",
+      "relative": "audio/ja/sentences/M13-03.wav",
+      "resolved_path": "/Users/ryo/Desktop/新チャンネル/EP003_Medusa/確認版_v01_20261023/audio/ja/sentences/M13-03.wav",
+      "sha256": "40495af37815e91b8f27f286502ea895658bf04b2a409ff5cbf1a7eafc2f7f33"
+    },
+    {
+      "record": "narration_segments_ja.json",
+      "id": "M14",
+      "relative": "audio/ja/M14.wav",
+      "resolved_path": "/Users/ryo/Desktop/新チャンネル/EP003_Medusa/確認版_v01_20261023/audio/ja/M14.wav",
+      "sha256": "d0208ffe3b9cccef1cda92f23bce148c0c7f6377ef09aa5f55b486c7b9d76997"
+    },
+    {
+      "record": "narration_segments_ja.json",
+      "id": "M14-01",
+      "relative": "audio/ja/sentences/M14-01.wav",
+      "resolved_path": "/Users/ryo/Desktop/新チャンネル/EP003_Medusa/確認版_v01_20261023/audio/ja/sentences/M14-01.wav",
+      "sha256": "66e0b2225c09008dcfa9d98dd78b7f1cdd47f48d1c15fe4109ff31333e871a1e"
+    },
+    {
+      "record": "narration_segments_ja.json",
+      "id": "M14-02",
+      "relative": "audio/ja/sentences/M14-02.wav",
+      "resolved_path": "/Users/ryo/Desktop/新チャンネル/EP003_Medusa/確認版_v01_20261023/audio/ja/sentences/M14-02.wav",
+      "sha256": "5389cdc213d45804f614618b5bb67987996c884e0d273f9d0444c6d0274b7cc3"
+    },
+    {
+      "record": "narration_segments_ja.json",
+      "id": "M14-03",
+      "relative": "audio/ja/sentences/M14-03.wav",
+      "resolved_path": "/Users/ryo/Desktop/新チャンネル/EP003_Medusa/確認版_v01_20261023/audio/ja/sentences/M14-03.wav",
+      "sha256": "3e32024f390e46c37c21b8ab9f84c6d34c4654e58ce32a3371a9435befd881d7"
+    },
+    {
+      "record": "narration_segments_ja.json",
+      "id": "M14-04",
+      "relative": "audio/ja/sentences/M14-04.wav",
+      "resolved_path": "/Users/ryo/Desktop/新チャンネル/EP003_Medusa/確認版_v01_20261023/audio/ja/sentences/M14-04.wav",
+      "sha256": "71c23441780e34c5787567f9d5f49594f772f45785221b2c2250071fec2988f6"
+    },
+    {
+      "record": "narration_segments_ja.json",
+      "id": "M15",
+      "relative": "audio/ja/M15.wav",
+      "resolved_path": "/Users/ryo/Desktop/新チャンネル/EP003_Medusa/確認版_v01_20261023/audio/ja/M15.wav",
+      "sha256": "812f2c687cd73fd384d0a24c6dace1676b87efd32677d9523ec03bb46f6d28a0"
+    },
+    {
+      "record": "narration_segments_ja.json",
+      "id": "M15-01",
+      "relative": "audio/ja/sentences/M15-01.wav",
+      "resolved_path": "/Users/ryo/Desktop/新チャンネル/EP003_Medusa/確認版_v01_20261023/audio/ja/sentences/M15-01.wav",
+      "sha256": "d1ed0ca61510730dd5d1e2c36c308ae8abbb9fc20d82ed92718575d39a74cfb2"
+    },
+    {
+      "record": "narration_segments_ja.json",
+      "id": "M15-02",
+      "relative": "audio/ja/sentences/M15-02.wav",
+      "resolved_path": "/Users/ryo/Desktop/新チャンネル/EP003_Medusa/確認版_v01_20261023/audio/ja/sentences/M15-02.wav",
+      "sha256": "cab5d60ef9af6849a36fa206a911f7c166da49a983060368db360a8f3490a63d"
+    },
+    {
+      "record": "narration_segments_ja.json",
+      "id": "M15-03",
+      "relative": "audio/ja/sentences/M15-03.wav",
+      "resolved_path": "/Users/ryo/Desktop/新チャンネル/EP003_Medusa/確認版_v01_20261023/audio/ja/sentences/M15-03.wav",
+      "sha256": "d52f83838bfb133741b9e0f4a1ae03dd13805f90de5ebc583e4051ebce790ac7"
+    },
+    {
+      "record": "narration_segments_ja.json",
+      "id": "M16",
+      "relative": "audio/ja/M16.wav",
+      "resolved_path": "/Users/ryo/Desktop/新チャンネル/EP003_Medusa/確認版_v01_20261023/audio/ja/M16.wav",
+      "sha256": "c5da4bcf789e0151b0f7d700f1ae316dee0d3ed7dd9ae89e1aab0ac8381e14c3"
+    },
+    {
+      "record": "narration_segments_ja.json",
+      "id": "M16-01",
+      "relative": "audio/ja/sentences/M16-01.wav",
+      "resolved_path": "/Users/ryo/Desktop/新チャンネル/EP003_Medusa/確認版_v01_20261023/audio/ja/sentences/M16-01.wav",
+      "sha256": "08311a396b5ff7fc3bb12907e53ab032b01227d9afdcd317ac4a193efddb4225"
+    },
+    {
+      "record": "narration_segments_ja.json",
+      "id": "M16-02",
+      "relative": "audio/ja/sentences/M16-02.wav",
+      "resolved_path": "/Users/ryo/Desktop/新チャンネル/EP003_Medusa/確認版_v01_20261023/audio/ja/sentences/M16-02.wav",
+      "sha256": "41df6bdad999d114d94003e9b1b4c417eaeceb954b3a9f7f62e6ef0365bb78bd"
+    },
+    {
+      "record": "narration_segments_ja.json",
+      "id": "M16-03",
+      "relative": "audio/ja/sentences/M16-03.wav",
+      "resolved_path": "/Users/ryo/Desktop/新チャンネル/EP003_Medusa/確認版_v01_20261023/audio/ja/sentences/M16-03.wav",
+      "sha256": "79d54fae83b1864d4c5ccc586300c2243b6251c38fbc304ecc4be5121a76c6ad"
+    },
+    {
+      "record": "narration_segments_ja.json",
+      "id": "M16-04",
+      "relative": "audio/ja/sentences/M16-04.wav",
+      "resolved_path": "/Users/ryo/Desktop/新チャンネル/EP003_Medusa/確認版_v01_20261023/audio/ja/sentences/M16-04.wav",
+      "sha256": "3a4eec8039c0ea0f525191feeb8b774ef3a9b5d62b4d0b20550f30ab1faef255"
+    },
+    {
+      "record": "narration_segments_ja.json",
+      "id": "M16-05",
+      "relative": "audio/ja/sentences/M16-05.wav",
+      "resolved_path": "/Users/ryo/Desktop/新チャンネル/EP003_Medusa/確認版_v01_20261023/audio/ja/sentences/M16-05.wav",
+      "sha256": "c8ff01b289282a3cd37fc732608ffefc77068bf1de3a22d4ed1ec39be3274ee7"
+    },
+    {
+      "record": "narration_segments_ja.json",
+      "id": "M17",
+      "relative": "audio/ja/M17.wav",
+      "resolved_path": "/Users/ryo/Desktop/新チャンネル/EP003_Medusa/確認版_v01_20261023/audio/ja/M17.wav",
+      "sha256": "8398f1988aa96bb100fdc234f880d0ee7019ab8e6de7caf1ce2919b12de36f0e"
+    },
+    {
+      "record": "narration_segments_ja.json",
+      "id": "M17-01",
+      "relative": "audio/ja/sentences/M17-01.wav",
+      "resolved_path": "/Users/ryo/Desktop/新チャンネル/EP003_Medusa/確認版_v01_20261023/audio/ja/sentences/M17-01.wav",
+      "sha256": "5545617e46c9a2aa928d82314f47e38d18735f7326ca0ba66b5c3669446421be"
+    },
+    {
+      "record": "narration_segments_ja.json",
+      "id": "M17-02",
+      "relative": "audio/ja/sentences/M17-02.wav",
+      "resolved_path": "/Users/ryo/Desktop/新チャンネル/EP003_Medusa/確認版_v01_20261023/audio/ja/sentences/M17-02.wav",
+      "sha256": "6ce1c751924ba7cdf55bd740bc7c7bac2da3dfa641b5f31c3764c72d2cdc1831"
+    },
+    {
+      "record": "narration_segments_ja.json",
+      "id": "M17-03",
+      "relative": "audio/ja/sentences/M17-03.wav",
+      "resolved_path": "/Users/ryo/Desktop/新チャンネル/EP003_Medusa/確認版_v01_20261023/audio/ja/sentences/M17-03.wav",
+      "sha256": "8a42a52795347ffd99f9a63a0a696c82aab71e615495f27337ac0724b7e0d395"
+    },
+    {
+      "record": "narration_segments_ja.json",
+      "id": "M17-04",
+      "relative": "audio/ja/sentences/M17-04.wav",
+      "resolved_path": "/Users/ryo/Desktop/新チャンネル/EP003_Medusa/確認版_v01_20261023/audio/ja/sentences/M17-04.wav",
+      "sha256": "d47e3128b73a5afdef8c16f16ee0976a24816a610c07230c2c28614c746d9b42"
+    },
+    {
+      "record": "narration_segments_ja.json",
+      "id": "M18",
+      "relative": "audio/ja/M18.wav",
+      "resolved_path": "/Users/ryo/Desktop/新チャンネル/EP003_Medusa/確認版_v02_20261023/audio/ja/M18.wav",
+      "sha256": "27c6980a59b049eba98c39f463bec5c18448b66ba7ec873d2890f2f957a66284"
+    },
+    {
+      "record": "narration_segments_ja.json",
+      "id": "M18-01",
+      "relative": "audio/ja/sentences/M18-01.wav",
+      "resolved_path": "/Users/ryo/Desktop/新チャンネル/EP003_Medusa/確認版_v02_20261023/audio/ja/sentences/M18-01.wav",
+      "sha256": "9daa6f3ed8a663d05d6e5405b8da89db0697d6e3d69c31f9fb31415a9ad25356"
+    },
+    {
+      "record": "narration_segments_ja.json",
+      "id": "M18-02",
+      "relative": "audio/ja/sentences/M18-02.wav",
+      "resolved_path": "/Users/ryo/Desktop/新チャンネル/EP003_Medusa/確認版_v02_20261023/audio/ja/sentences/M18-02.wav",
+      "sha256": "fa86b7e8dfe93ddac299b1287075cf37c6ed10d86a2b47fb1b9d8c567584c581"
+    },
+    {
+      "record": "narration_segments_ja.json",
+      "id": "M18-03",
+      "relative": "audio/ja/sentences/M18-03.wav",
+      "resolved_path": "/Users/ryo/Desktop/新チャンネル/EP003_Medusa/確認版_v02_20261023/audio/ja/sentences/M18-03.wav",
+      "sha256": "eb96efa70d3cf9b6ea81080136f36fc88a6ef32a47615b0b6513a9da1769b0c9"
+    },
+    {
+      "record": "narration_segments_ja.json",
+      "id": "M18-04",
+      "relative": "audio/ja/sentences/M18-04.wav",
+      "resolved_path": "/Users/ryo/Desktop/新チャンネル/EP003_Medusa/確認版_v02_20261023/audio/ja/sentences/M18-04.wav",
+      "sha256": "5b6457795ae8f89d7bfb9248c6a00db4cf07ae3c76949f00cdc3ff86479d503d"
+    },
+    {
+      "record": "narration_segments_ja.json",
+      "id": "M18-05",
+      "relative": "audio/ja/sentences/M18-05.wav",
+      "resolved_path": "/Users/ryo/Desktop/新チャンネル/EP003_Medusa/確認版_v02_20261023/audio/ja/sentences/M18-05.wav",
+      "sha256": "14843ff1bc0b66ba950c12c8ccabe4c30545cb09289c28efe69c874c68f61fdb"
+    },
+    {
+      "record": "narration_timeline_ja.json",
+      "id": "M01",
+      "relative": "audio/ja/M01.wav",
+      "resolved_path": "/Users/ryo/Desktop/新チャンネル/EP003_Medusa/確認版_v01_20261023/audio/ja/M01.wav",
+      "sha256": "206b8bd64720c19b3eb3a6ae959822b4a6dc52119ef99f6b1808f4796ded4b08"
+    },
+    {
+      "record": "narration_timeline_ja.json",
+      "id": "M01-01",
+      "relative": "audio/ja/sentences/M01-01.wav",
+      "resolved_path": "/Users/ryo/Desktop/新チャンネル/EP003_Medusa/確認版_v01_20261023/audio/ja/sentences/M01-01.wav",
+      "sha256": "ff9f5272517f262b7247aa6160fb77805028f51c33621f44116338d3f59f4892"
+    },
+    {
+      "record": "narration_timeline_ja.json",
+      "id": "M01-02",
+      "relative": "audio/ja/sentences/M01-02.wav",
+      "resolved_path": "/Users/ryo/Desktop/新チャンネル/EP003_Medusa/確認版_v01_20261023/audio/ja/sentences/M01-02.wav",
+      "sha256": "ac0b01aadd9b70aa10e391c1388bb4d388384aba13c458e9b9e221b368841f08"
+    },
+    {
+      "record": "narration_timeline_ja.json",
+      "id": "M01-03",
+      "relative": "audio/ja/sentences/M01-03.wav",
+      "resolved_path": "/Users/ryo/Desktop/新チャンネル/EP003_Medusa/確認版_v01_20261023/audio/ja/sentences/M01-03.wav",
+      "sha256": "a39d7ca3d3e0559d035102aa1b1dd1feafc72c1dfb6bc854380264b28f922f4a"
+    },
+    {
+      "record": "narration_timeline_ja.json",
+      "id": "M01-04",
+      "relative": "audio/ja/sentences/M01-04.wav",
+      "resolved_path": "/Users/ryo/Desktop/新チャンネル/EP003_Medusa/確認版_v01_20261023/audio/ja/sentences/M01-04.wav",
+      "sha256": "49c983ac6d20b43e706271923c3f87248d086b9fec877f51df05f26368ce55de"
+    },
+    {
+      "record": "narration_timeline_ja.json",
+      "id": "M01-05",
+      "relative": "audio/ja/sentences/M01-05.wav",
+      "resolved_path": "/Users/ryo/Desktop/新チャンネル/EP003_Medusa/確認版_v01_20261023/audio/ja/sentences/M01-05.wav",
+      "sha256": "ec654135c3946ee7e701b50c8ae64f812f1c12ed2fecfa0d9f802fa9620d5a28"
+    },
+    {
+      "record": "narration_timeline_ja.json",
+      "id": "M01-06",
+      "relative": "audio/ja/sentences/M01-06.wav",
+      "resolved_path": "/Users/ryo/Desktop/新チャンネル/EP003_Medusa/確認版_v01_20261023/audio/ja/sentences/M01-06.wav",
+      "sha256": "4d5990c8ac3ee407d7e9cb5b384e877041559d16b949526a112e3fdb92412eaf"
+    },
+    {
+      "record": "narration_timeline_ja.json",
+      "id": "M02",
+      "relative": "audio/ja/M02_opening_paced.wav",
+      "resolved_path": "/Users/ryo/Desktop/新チャンネル/EP003_Medusa/確認版_v01_20261023/audio/ja/M02_opening_paced.wav",
+      "sha256": "09b7c01c8ddc3c4ae1e05ddba36ca019af90ced957b1b86b5edda2527981f3cd"
+    },
+    {
+      "record": "narration_timeline_ja.json",
+      "id": "M02-01",
+      "relative": "audio/ja/sentences/M02-01.wav",
+      "resolved_path": "/Users/ryo/Desktop/新チャンネル/EP003_Medusa/確認版_v01_20261023/audio/ja/sentences/M02-01.wav",
+      "sha256": "1728227e8fdb87fca119a7deb8c0b7ef288a63e561c937348995d9fdeee1af98"
+    },
+    {
+      "record": "narration_timeline_ja.json",
+      "id": "M02-02",
+      "relative": "audio/ja/sentences/M02-02.wav",
+      "resolved_path": "/Users/ryo/Desktop/新チャンネル/EP003_Medusa/確認版_v01_20261023/audio/ja/sentences/M02-02.wav",
+      "sha256": "69c44d64895ab625cf61592c1de6f400f3a215c0f0bc094560788bed49c886e5"
+    },
+    {
+      "record": "narration_timeline_ja.json",
+      "id": "M03",
+      "relative": "audio/ja/M03.wav",
+      "resolved_path": "/Users/ryo/Desktop/新チャンネル/EP003_Medusa/確認版_v01_20261023/audio/ja/M03.wav",
+      "sha256": "02aeb0bfdc8c6cb1eadbc596271c1412be89fcaa11523607fc6e107ee6267e0e"
+    },
+    {
+      "record": "narration_timeline_ja.json",
+      "id": "M03-01",
+      "relative": "audio/ja/sentences/M03-01.wav",
+      "resolved_path": "/Users/ryo/Desktop/新チャンネル/EP003_Medusa/確認版_v01_20261023/audio/ja/sentences/M03-01.wav",
+      "sha256": "7b898d648eac23f9b035ebf8d1016e19ed2fcd97250d8dc820d333d17095fd6c"
+    },
+    {
+      "record": "narration_timeline_ja.json",
+      "id": "M03-02",
+      "relative": "audio/ja/sentences/M03-02.wav",
+      "resolved_path": "/Users/ryo/Desktop/新チャンネル/EP003_Medusa/確認版_v01_20261023/audio/ja/sentences/M03-02.wav",
+      "sha256": "b2eb757cfd0f2ca46fadb56d8ca382be7fdfbf7a4cbe672ec5f71cb3b44440be"
+    },
+    {
+      "record": "narration_timeline_ja.json",
+      "id": "M03-03",
+      "relative": "audio/ja/sentences/M03-03.wav",
+      "resolved_path": "/Users/ryo/Desktop/新チャンネル/EP003_Medusa/確認版_v01_20261023/audio/ja/sentences/M03-03.wav",
+      "sha256": "e7e7c96e11d763880a654a105dc6a960cc1a09d19c66547e71cb587e0ac98767"
+    },
+    {
+      "record": "narration_timeline_ja.json",
+      "id": "M03-04",
+      "relative": "audio/ja/sentences/M03-04.wav",
+      "resolved_path": "/Users/ryo/Desktop/新チャンネル/EP003_Medusa/確認版_v01_20261023/audio/ja/sentences/M03-04.wav",
+      "sha256": "225070c554a35e5609cb0bf0f26f3f90a695f2816dbb4d1437611b9e8cd7b149"
+    },
+    {
+      "record": "narration_timeline_ja.json",
+      "id": "M04",
+      "relative": "audio/ja/M04.wav",
+      "resolved_path": "/Users/ryo/Desktop/新チャンネル/EP003_Medusa/確認版_v01_20261023/audio/ja/M04.wav",
+      "sha256": "8026f0a1080ecdceff176f6c76eb2fa9e206bf546c2bdb3cf99f8c49a9ad5537"
+    },
+    {
+      "record": "narration_timeline_ja.json",
+      "id": "M04-01",
+      "relative": "audio/ja/sentences/M04-01.wav",
+      "resolved_path": "/Users/ryo/Desktop/新チャンネル/EP003_Medusa/確認版_v01_20261023/audio/ja/sentences/M04-01.wav",
+      "sha256": "b1b505d4e5fe4029284ead8f2133c7dd94b7e672606cd0d57db4a48f00112cb2"
+    },
+    {
+      "record": "narration_timeline_ja.json",
+      "id": "M04-02",
+      "relative": "audio/ja/sentences/M04-02.wav",
+      "resolved_path": "/Users/ryo/Desktop/新チャンネル/EP003_Medusa/確認版_v01_20261023/audio/ja/sentences/M04-02.wav",
+      "sha256": "12be09f77056e83f0e88664d2345b3f8cf9602f5ebef7dba570036d92d6a4a2e"
+    },
+    {
+      "record": "narration_timeline_ja.json",
+      "id": "M04-03",
+      "relative": "audio/ja/sentences/M04-03.wav",
+      "resolved_path": "/Users/ryo/Desktop/新チャンネル/EP003_Medusa/確認版_v01_20261023/audio/ja/sentences/M04-03.wav",
+      "sha256": "1c2b621dea4a8b6c5d7fa02a4282529d4d5131e9cf027e092fef47d683efab6e"
+    },
+    {
+      "record": "narration_timeline_ja.json",
+      "id": "M04-04",
+      "relative": "audio/ja/sentences/M04-04.wav",
+      "resolved_path": "/Users/ryo/Desktop/新チャンネル/EP003_Medusa/確認版_v01_20261023/audio/ja/sentences/M04-04.wav",
+      "sha256": "17b4081ee39413ac9e61c803afa40606bdfb04ac17bf3b84dfa9f539b3bc8a0e"
+    },
+    {
+      "record": "narration_timeline_ja.json",
+      "id": "M04-05",
+      "relative": "audio/ja/sentences/M04-05.wav",
+      "resolved_path": "/Users/ryo/Desktop/新チャンネル/EP003_Medusa/確認版_v01_20261023/audio/ja/sentences/M04-05.wav",
+      "sha256": "0a6e6df1b95d0498f5412101b3e68efa3fa9eaa77711fa85659514baff464743"
+    },
+    {
+      "record": "narration_timeline_ja.json",
+      "id": "M05",
+      "relative": "audio/ja/M05.wav",
+      "resolved_path": "/Users/ryo/Desktop/新チャンネル/EP003_Medusa/確認版_v01_20261023/audio/ja/M05.wav",
+      "sha256": "45a7429dd417921994f79cb7f7315c09c56b872a8aad5cb2c67251df14adab4b"
+    },
+    {
+      "record": "narration_timeline_ja.json",
+      "id": "M05-01",
+      "relative": "audio/ja/sentences/M05-01.wav",
+      "resolved_path": "/Users/ryo/Desktop/新チャンネル/EP003_Medusa/確認版_v01_20261023/audio/ja/sentences/M05-01.wav",
+      "sha256": "8c7db7a7885e21f6278703be2ef675de8f3471aec826f0109834b075cedf7865"
+    },
+    {
+      "record": "narration_timeline_ja.json",
+      "id": "M05-02",
+      "relative": "audio/ja/sentences/M05-02.wav",
+      "resolved_path": "/Users/ryo/Desktop/新チャンネル/EP003_Medusa/確認版_v01_20261023/audio/ja/sentences/M05-02.wav",
+      "sha256": "0b5e843cb6afd4873eee8b3586fa3ffd3a8e07d9bc7abc457843eaa564b1da83"
+    },
+    {
+      "record": "narration_timeline_ja.json",
+      "id": "M05-03",
+      "relative": "audio/ja/sentences/M05-03.wav",
+      "resolved_path": "/Users/ryo/Desktop/新チャンネル/EP003_Medusa/確認版_v01_20261023/audio/ja/sentences/M05-03.wav",
+      "sha256": "416f676c8508c68f6afadbd1019ec9da5447680ce49b2c79a1ee9f00cee81ae8"
+    },
+    {
+      "record": "narration_timeline_ja.json",
+      "id": "M05-04",
+      "relative": "audio/ja/sentences/M05-04.wav",
+      "resolved_path": "/Users/ryo/Desktop/新チャンネル/EP003_Medusa/確認版_v01_20261023/audio/ja/sentences/M05-04.wav",
+      "sha256": "e78deaa50a8d534dae30d1bb73ba480c1ec533fa732c891e0b86ff598ca2691b"
+    },
+    {
+      "record": "narration_timeline_ja.json",
+      "id": "M05-05",
+      "relative": "audio/ja/sentences/M05-05.wav",
+      "resolved_path": "/Users/ryo/Desktop/新チャンネル/EP003_Medusa/確認版_v01_20261023/audio/ja/sentences/M05-05.wav",
+      "sha256": "caf8f6a4de777c605d6ae41768d8a1b02add7cb34e90149a17868a60109be3f2"
+    },
+    {
+      "record": "narration_timeline_ja.json",
+      "id": "M06",
+      "relative": "audio/ja/M06.wav",
+      "resolved_path": "/Users/ryo/Desktop/新チャンネル/EP003_Medusa/確認版_v01_20261023/audio/ja/M06.wav",
+      "sha256": "351869b3033431ce09cc60f6f4317134417331c64aa867b4d4ca731f940326e4"
+    },
+    {
+      "record": "narration_timeline_ja.json",
+      "id": "M06-01",
+      "relative": "audio/ja/sentences/M06-01.wav",
+      "resolved_path": "/Users/ryo/Desktop/新チャンネル/EP003_Medusa/確認版_v01_20261023/audio/ja/sentences/M06-01.wav",
+      "sha256": "0c283f83b562e6684e8d467c6ff659700375f05a2a24c9727af5b4a5c2a8a3e3"
+    },
+    {
+      "record": "narration_timeline_ja.json",
+      "id": "M06-02",
+      "relative": "audio/ja/sentences/M06-02.wav",
+      "resolved_path": "/Users/ryo/Desktop/新チャンネル/EP003_Medusa/確認版_v01_20261023/audio/ja/sentences/M06-02.wav",
+      "sha256": "56f35aabac99b4e2566d6c56ff070092c22747bbfd09590e5bebd12cfd7b1622"
+    },
+    {
+      "record": "narration_timeline_ja.json",
+      "id": "M06-03",
+      "relative": "audio/ja/sentences/M06-03.wav",
+      "resolved_path": "/Users/ryo/Desktop/新チャンネル/EP003_Medusa/確認版_v01_20261023/audio/ja/sentences/M06-03.wav",
+      "sha256": "f4426c23d11ee435c8187cbb2ec635ddc419cb5789f1122ef1875f81d4fb1dae"
+    },
+    {
+      "record": "narration_timeline_ja.json",
+      "id": "M07",
+      "relative": "audio/ja/M07.wav",
+      "resolved_path": "/Users/ryo/Desktop/新チャンネル/EP003_Medusa/確認版_v01_20261023/audio/ja/M07.wav",
+      "sha256": "7932f199e5dffd29c2b67574f84334523adca6e7afa0d54356532ed948544176"
+    },
+    {
+      "record": "narration_timeline_ja.json",
+      "id": "M07-01",
+      "relative": "audio/ja/sentences/M07-01.wav",
+      "resolved_path": "/Users/ryo/Desktop/新チャンネル/EP003_Medusa/確認版_v01_20261023/audio/ja/sentences/M07-01.wav",
+      "sha256": "a1ae5188eeece033e4d4f1b0f78b6f2f84977848a6352141511332b0fbe7355f"
+    },
+    {
+      "record": "narration_timeline_ja.json",
+      "id": "M07-02",
+      "relative": "audio/ja/sentences/M07-02.wav",
+      "resolved_path": "/Users/ryo/Desktop/新チャンネル/EP003_Medusa/確認版_v01_20261023/audio/ja/sentences/M07-02.wav",
+      "sha256": "4d4f3a5f6dce5d7d3aae67022f5ec94a4eb2a4e35c80a0acca9087f044a78107"
+    },
+    {
+      "record": "narration_timeline_ja.json",
+      "id": "M07-03",
+      "relative": "audio/ja/sentences/M07-03.wav",
+      "resolved_path": "/Users/ryo/Desktop/新チャンネル/EP003_Medusa/確認版_v01_20261023/audio/ja/sentences/M07-03.wav",
+      "sha256": "b5830983ba93d7439a9abb44c0158c4ad1582a4109c66bdabf5a03aeea22e86d"
+    },
+    {
+      "record": "narration_timeline_ja.json",
+      "id": "M08",
+      "relative": "audio/ja/M08.wav",
+      "resolved_path": "/Users/ryo/Desktop/新チャンネル/EP003_Medusa/確認版_v01_20261023/audio/ja/M08.wav",
+      "sha256": "96cf067451acf78d7e97b483f40d1a35a63d55c401748c5c19222356527349e0"
+    },
+    {
+      "record": "narration_timeline_ja.json",
+      "id": "M08-01",
+      "relative": "audio/ja/sentences/M08-01.wav",
+      "resolved_path": "/Users/ryo/Desktop/新チャンネル/EP003_Medusa/確認版_v01_20261023/audio/ja/sentences/M08-01.wav",
+      "sha256": "21a8cb5c15477363dc4817003b696a379fcfe26bf3290175d0e6f8094d18ddce"
+    },
+    {
+      "record": "narration_timeline_ja.json",
+      "id": "M08-02",
+      "relative": "audio/ja/sentences/M08-02.wav",
+      "resolved_path": "/Users/ryo/Desktop/新チャンネル/EP003_Medusa/確認版_v01_20261023/audio/ja/sentences/M08-02.wav",
+      "sha256": "4cd49b2261eb78d8778c5749ecfa650104d56e35b1485d74f8703a94c5fedb3a"
+    },
+    {
+      "record": "narration_timeline_ja.json",
+      "id": "M08-03",
+      "relative": "audio/ja/sentences/M08-03.wav",
+      "resolved_path": "/Users/ryo/Desktop/新チャンネル/EP003_Medusa/確認版_v01_20261023/audio/ja/sentences/M08-03.wav",
+      "sha256": "54e32c9b47a5c0af36309fae7b56466c29ea4aa11833686e1fb02ecc4478072f"
+    },
+    {
+      "record": "narration_timeline_ja.json",
+      "id": "M09",
+      "relative": "audio/ja/M09.wav",
+      "resolved_path": "/Users/ryo/Desktop/新チャンネル/EP003_Medusa/確認版_v01_20261023/audio/ja/M09.wav",
+      "sha256": "db81a0165fec97f25479455441bce8e845329036ca1d0775aa34cc0af4f850b7"
+    },
+    {
+      "record": "narration_timeline_ja.json",
+      "id": "M09-01",
+      "relative": "audio/ja/sentences/M09-01.wav",
+      "resolved_path": "/Users/ryo/Desktop/新チャンネル/EP003_Medusa/確認版_v01_20261023/audio/ja/sentences/M09-01.wav",
+      "sha256": "de3a08f5a47a692cdedd53f23798c55dc5c365c878dbac48467cc6aadca9970e"
+    },
+    {
+      "record": "narration_timeline_ja.json",
+      "id": "M09-02",
+      "relative": "audio/ja/sentences/M09-02.wav",
+      "resolved_path": "/Users/ryo/Desktop/新チャンネル/EP003_Medusa/確認版_v01_20261023/audio/ja/sentences/M09-02.wav",
+      "sha256": "60a129b1888bab34f7bd082cb7b41401eb8ff5c105c69460aead0ec63459271b"
+    },
+    {
+      "record": "narration_timeline_ja.json",
+      "id": "M09-03",
+      "relative": "audio/ja/sentences/M09-03.wav",
+      "resolved_path": "/Users/ryo/Desktop/新チャンネル/EP003_Medusa/確認版_v01_20261023/audio/ja/sentences/M09-03.wav",
+      "sha256": "8db13ed492b36e22fda46578d1b2d1e052fb7f7c407e2a23027d25f9b2088f70"
+    },
+    {
+      "record": "narration_timeline_ja.json",
+      "id": "M09-04",
+      "relative": "audio/ja/sentences/M09-04.wav",
+      "resolved_path": "/Users/ryo/Desktop/新チャンネル/EP003_Medusa/確認版_v01_20261023/audio/ja/sentences/M09-04.wav",
+      "sha256": "4dfa1e41469dcc1ba73eb232fcec176c913aeec820dde7f076a0f461a21397b3"
+    },
+    {
+      "record": "narration_timeline_ja.json",
+      "id": "M10",
+      "relative": "audio/ja/M10.wav",
+      "resolved_path": "/Users/ryo/Desktop/新チャンネル/EP003_Medusa/確認版_v01_20261023/audio/ja/M10.wav",
+      "sha256": "43f10d3e09f1d59b6150e4492e5c83b77f6d63d2c6139524bfe2d35fc00d3a43"
+    },
+    {
+      "record": "narration_timeline_ja.json",
+      "id": "M10-01",
+      "relative": "audio/ja/sentences/M10-01.wav",
+      "resolved_path": "/Users/ryo/Desktop/新チャンネル/EP003_Medusa/確認版_v01_20261023/audio/ja/sentences/M10-01.wav",
+      "sha256": "783faaa14cfb049a21778fee362393132490188b5b316c1a38b0b3de63c23fc3"
+    },
+    {
+      "record": "narration_timeline_ja.json",
+      "id": "M10-02",
+      "relative": "audio/ja/sentences/M10-02.wav",
+      "resolved_path": "/Users/ryo/Desktop/新チャンネル/EP003_Medusa/確認版_v01_20261023/audio/ja/sentences/M10-02.wav",
+      "sha256": "08292d40e933100eac843edead4c01e161e8c5671841f7a4a96e15d489595347"
+    },
+    {
+      "record": "narration_timeline_ja.json",
+      "id": "M10-03",
+      "relative": "audio/ja/sentences/M10-03.wav",
+      "resolved_path": "/Users/ryo/Desktop/新チャンネル/EP003_Medusa/確認版_v01_20261023/audio/ja/sentences/M10-03.wav",
+      "sha256": "991bfc168356799e9bbc7dd2e99fc1d3e19a748ece5b9efd32d8adc1aa79a68e"
+    },
+    {
+      "record": "narration_timeline_ja.json",
+      "id": "M10-04",
+      "relative": "audio/ja/sentences/M10-04.wav",
+      "resolved_path": "/Users/ryo/Desktop/新チャンネル/EP003_Medusa/確認版_v01_20261023/audio/ja/sentences/M10-04.wav",
+      "sha256": "33e4baf0226a230bdaefda012e1082650209ecbfbcb250adf61d606007a06a61"
+    },
+    {
+      "record": "narration_timeline_ja.json",
+      "id": "M11",
+      "relative": "audio/ja/M11.wav",
+      "resolved_path": "/Users/ryo/Desktop/新チャンネル/EP003_Medusa/確認版_v01_20261023/audio/ja/M11.wav",
+      "sha256": "ac434ccd7da22d6344321f6a8ebcc753d1ca6d16e8999334109bd1214a508015"
+    },
+    {
+      "record": "narration_timeline_ja.json",
+      "id": "M11-01",
+      "relative": "audio/ja/sentences/M11-01.wav",
+      "resolved_path": "/Users/ryo/Desktop/新チャンネル/EP003_Medusa/確認版_v01_20261023/audio/ja/sentences/M11-01.wav",
+      "sha256": "4ac1270e5971c9eb28547a971e8e7e926b94111b1b0dc76e4986765b08cd3bc4"
+    },
+    {
+      "record": "narration_timeline_ja.json",
+      "id": "M11-02",
+      "relative": "audio/ja/sentences/M11-02.wav",
+      "resolved_path": "/Users/ryo/Desktop/新チャンネル/EP003_Medusa/確認版_v01_20261023/audio/ja/sentences/M11-02.wav",
+      "sha256": "e0166b9b41a259b0c8d05328822666b6752d5ecddfbf56816eae0a4900a05929"
+    },
+    {
+      "record": "narration_timeline_ja.json",
+      "id": "M11-03",
+      "relative": "audio/ja/sentences/M11-03.wav",
+      "resolved_path": "/Users/ryo/Desktop/新チャンネル/EP003_Medusa/確認版_v01_20261023/audio/ja/sentences/M11-03.wav",
+      "sha256": "7b97c2c1050746c3debdfc55cd5b033e9f7509cae1b148a477c7c1b7f3fa9ab9"
+    },
+    {
+      "record": "narration_timeline_ja.json",
+      "id": "M11-04",
+      "relative": "audio/ja/sentences/M11-04.wav",
+      "resolved_path": "/Users/ryo/Desktop/新チャンネル/EP003_Medusa/確認版_v01_20261023/audio/ja/sentences/M11-04.wav",
+      "sha256": "88159b8f075b0bb11e71276eb091e8fb5916f5ac1177a8932fe4b780bab07d21"
+    },
+    {
+      "record": "narration_timeline_ja.json",
+      "id": "M12",
+      "relative": "audio/ja/M12.wav",
+      "resolved_path": "/Users/ryo/Desktop/新チャンネル/EP003_Medusa/確認版_v01_20261023/audio/ja/M12.wav",
+      "sha256": "b4802c623b3b47fb7fcc2a36d0ecc3ad5028accf7296dc0019fbafc76b1bd147"
+    },
+    {
+      "record": "narration_timeline_ja.json",
+      "id": "M12-01",
+      "relative": "audio/ja/sentences/M12-01.wav",
+      "resolved_path": "/Users/ryo/Desktop/新チャンネル/EP003_Medusa/確認版_v01_20261023/audio/ja/sentences/M12-01.wav",
+      "sha256": "0450e0db1b9e96aa2a829a65b7485a9ba36dc34a5d8dee7b208f4d7c62cac774"
+    },
+    {
+      "record": "narration_timeline_ja.json",
+      "id": "M12-02",
+      "relative": "audio/ja/sentences/M12-02.wav",
+      "resolved_path": "/Users/ryo/Desktop/新チャンネル/EP003_Medusa/確認版_v01_20261023/audio/ja/sentences/M12-02.wav",
+      "sha256": "0e4a2a9f4cee3554fdccf4f770cbe6070d77301688166066958f9193d2ff23f1"
+    },
+    {
+      "record": "narration_timeline_ja.json",
+      "id": "M12-03",
+      "relative": "audio/ja/sentences/M12-03.wav",
+      "resolved_path": "/Users/ryo/Desktop/新チャンネル/EP003_Medusa/確認版_v01_20261023/audio/ja/sentences/M12-03.wav",
+      "sha256": "eec331a8669233754c3e2a20ad613ffab064d704e85adac524b6dc7a2eb2e8b9"
+    },
+    {
+      "record": "narration_timeline_ja.json",
+      "id": "M13",
+      "relative": "audio/ja/M13.wav",
+      "resolved_path": "/Users/ryo/Desktop/新チャンネル/EP003_Medusa/確認版_v01_20261023/audio/ja/M13.wav",
+      "sha256": "e3861c612338a58340b68d96bef955f39ac0b117998dca6fdd55fec7b1e8a896"
+    },
+    {
+      "record": "narration_timeline_ja.json",
+      "id": "M13-01",
+      "relative": "audio/ja/sentences/M13-01.wav",
+      "resolved_path": "/Users/ryo/Desktop/新チャンネル/EP003_Medusa/確認版_v01_20261023/audio/ja/sentences/M13-01.wav",
+      "sha256": "53d88bc0b24a04142c1f6db7d98fc312eacf52570609d328ecbe65cf4a1d936e"
+    },
+    {
+      "record": "narration_timeline_ja.json",
+      "id": "M13-02",
+      "relative": "audio/ja/sentences/M13-02.wav",
+      "resolved_path": "/Users/ryo/Desktop/新チャンネル/EP003_Medusa/確認版_v01_20261023/audio/ja/sentences/M13-02.wav",
+      "sha256": "7497313f24cbd22e54e97c4141806993fab338877bc9c541925f49121965314c"
+    },
+    {
+      "record": "narration_timeline_ja.json",
+      "id": "M13-03",
+      "relative": "audio/ja/sentences/M13-03.wav",
+      "resolved_path": "/Users/ryo/Desktop/新チャンネル/EP003_Medusa/確認版_v01_20261023/audio/ja/sentences/M13-03.wav",
+      "sha256": "40495af37815e91b8f27f286502ea895658bf04b2a409ff5cbf1a7eafc2f7f33"
+    },
+    {
+      "record": "narration_timeline_ja.json",
+      "id": "M14",
+      "relative": "audio/ja/M14.wav",
+      "resolved_path": "/Users/ryo/Desktop/新チャンネル/EP003_Medusa/確認版_v01_20261023/audio/ja/M14.wav",
+      "sha256": "d0208ffe3b9cccef1cda92f23bce148c0c7f6377ef09aa5f55b486c7b9d76997"
+    },
+    {
+      "record": "narration_timeline_ja.json",
+      "id": "M14-01",
+      "relative": "audio/ja/sentences/M14-01.wav",
+      "resolved_path": "/Users/ryo/Desktop/新チャンネル/EP003_Medusa/確認版_v01_20261023/audio/ja/sentences/M14-01.wav",
+      "sha256": "66e0b2225c09008dcfa9d98dd78b7f1cdd47f48d1c15fe4109ff31333e871a1e"
+    },
+    {
+      "record": "narration_timeline_ja.json",
+      "id": "M14-02",
+      "relative": "audio/ja/sentences/M14-02.wav",
+      "resolved_path": "/Users/ryo/Desktop/新チャンネル/EP003_Medusa/確認版_v01_20261023/audio/ja/sentences/M14-02.wav",
+      "sha256": "5389cdc213d45804f614618b5bb67987996c884e0d273f9d0444c6d0274b7cc3"
+    },
+    {
+      "record": "narration_timeline_ja.json",
+      "id": "M14-03",
+      "relative": "audio/ja/sentences/M14-03.wav",
+      "resolved_path": "/Users/ryo/Desktop/新チャンネル/EP003_Medusa/確認版_v01_20261023/audio/ja/sentences/M14-03.wav",
+      "sha256": "3e32024f390e46c37c21b8ab9f84c6d34c4654e58ce32a3371a9435befd881d7"
+    },
+    {
+      "record": "narration_timeline_ja.json",
+      "id": "M14-04",
+      "relative": "audio/ja/sentences/M14-04.wav",
+      "resolved_path": "/Users/ryo/Desktop/新チャンネル/EP003_Medusa/確認版_v01_20261023/audio/ja/sentences/M14-04.wav",
+      "sha256": "71c23441780e34c5787567f9d5f49594f772f45785221b2c2250071fec2988f6"
+    },
+    {
+      "record": "narration_timeline_ja.json",
+      "id": "M15",
+      "relative": "audio/ja/M15.wav",
+      "resolved_path": "/Users/ryo/Desktop/新チャンネル/EP003_Medusa/確認版_v01_20261023/audio/ja/M15.wav",
+      "sha256": "812f2c687cd73fd384d0a24c6dace1676b87efd32677d9523ec03bb46f6d28a0"
+    },
+    {
+      "record": "narration_timeline_ja.json",
+      "id": "M15-01",
+      "relative": "audio/ja/sentences/M15-01.wav",
+      "resolved_path": "/Users/ryo/Desktop/新チャンネル/EP003_Medusa/確認版_v01_20261023/audio/ja/sentences/M15-01.wav",
+      "sha256": "d1ed0ca61510730dd5d1e2c36c308ae8abbb9fc20d82ed92718575d39a74cfb2"
+    },
+    {
+      "record": "narration_timeline_ja.json",
+      "id": "M15-02",
+      "relative": "audio/ja/sentences/M15-02.wav",
+      "resolved_path": "/Users/ryo/Desktop/新チャンネル/EP003_Medusa/確認版_v01_20261023/audio/ja/sentences/M15-02.wav",
+      "sha256": "cab5d60ef9af6849a36fa206a911f7c166da49a983060368db360a8f3490a63d"
+    },
+    {
+      "record": "narration_timeline_ja.json",
+      "id": "M15-03",
+      "relative": "audio/ja/sentences/M15-03.wav",
+      "resolved_path": "/Users/ryo/Desktop/新チャンネル/EP003_Medusa/確認版_v01_20261023/audio/ja/sentences/M15-03.wav",
+      "sha256": "d52f83838bfb133741b9e0f4a1ae03dd13805f90de5ebc583e4051ebce790ac7"
+    },
+    {
+      "record": "narration_timeline_ja.json",
+      "id": "M16",
+      "relative": "audio/ja/M16.wav",
+      "resolved_path": "/Users/ryo/Desktop/新チャンネル/EP003_Medusa/確認版_v01_20261023/audio/ja/M16.wav",
+      "sha256": "c5da4bcf789e0151b0f7d700f1ae316dee0d3ed7dd9ae89e1aab0ac8381e14c3"
+    },
+    {
+      "record": "narration_timeline_ja.json",
+      "id": "M16-01",
+      "relative": "audio/ja/sentences/M16-01.wav",
+      "resolved_path": "/Users/ryo/Desktop/新チャンネル/EP003_Medusa/確認版_v01_20261023/audio/ja/sentences/M16-01.wav",
+      "sha256": "08311a396b5ff7fc3bb12907e53ab032b01227d9afdcd317ac4a193efddb4225"
+    },
+    {
+      "record": "narration_timeline_ja.json",
+      "id": "M16-02",
+      "relative": "audio/ja/sentences/M16-02.wav",
+      "resolved_path": "/Users/ryo/Desktop/新チャンネル/EP003_Medusa/確認版_v01_20261023/audio/ja/sentences/M16-02.wav",
+      "sha256": "41df6bdad999d114d94003e9b1b4c417eaeceb954b3a9f7f62e6ef0365bb78bd"
+    },
+    {
+      "record": "narration_timeline_ja.json",
+      "id": "M16-03",
+      "relative": "audio/ja/sentences/M16-03.wav",
+      "resolved_path": "/Users/ryo/Desktop/新チャンネル/EP003_Medusa/確認版_v01_20261023/audio/ja/sentences/M16-03.wav",
+      "sha256": "79d54fae83b1864d4c5ccc586300c2243b6251c38fbc304ecc4be5121a76c6ad"
+    },
+    {
+      "record": "narration_timeline_ja.json",
+      "id": "M16-04",
+      "relative": "audio/ja/sentences/M16-04.wav",
+      "resolved_path": "/Users/ryo/Desktop/新チャンネル/EP003_Medusa/確認版_v01_20261023/audio/ja/sentences/M16-04.wav",
+      "sha256": "3a4eec8039c0ea0f525191feeb8b774ef3a9b5d62b4d0b20550f30ab1faef255"
+    },
+    {
+      "record": "narration_timeline_ja.json",
+      "id": "M16-05",
+      "relative": "audio/ja/sentences/M16-05.wav",
+      "resolved_path": "/Users/ryo/Desktop/新チャンネル/EP003_Medusa/確認版_v01_20261023/audio/ja/sentences/M16-05.wav",
+      "sha256": "c8ff01b289282a3cd37fc732608ffefc77068bf1de3a22d4ed1ec39be3274ee7"
+    },
+    {
+      "record": "narration_timeline_ja.json",
+      "id": "M17",
+      "relative": "audio/ja/M17.wav",
+      "resolved_path": "/Users/ryo/Desktop/新チャンネル/EP003_Medusa/確認版_v01_20261023/audio/ja/M17.wav",
+      "sha256": "8398f1988aa96bb100fdc234f880d0ee7019ab8e6de7caf1ce2919b12de36f0e"
+    },
+    {
+      "record": "narration_timeline_ja.json",
+      "id": "M17-01",
+      "relative": "audio/ja/sentences/M17-01.wav",
+      "resolved_path": "/Users/ryo/Desktop/新チャンネル/EP003_Medusa/確認版_v01_20261023/audio/ja/sentences/M17-01.wav",
+      "sha256": "5545617e46c9a2aa928d82314f47e38d18735f7326ca0ba66b5c3669446421be"
+    },
+    {
+      "record": "narration_timeline_ja.json",
+      "id": "M17-02",
+      "relative": "audio/ja/sentences/M17-02.wav",
+      "resolved_path": "/Users/ryo/Desktop/新チャンネル/EP003_Medusa/確認版_v01_20261023/audio/ja/sentences/M17-02.wav",
+      "sha256": "6ce1c751924ba7cdf55bd740bc7c7bac2da3dfa641b5f31c3764c72d2cdc1831"
+    },
+    {
+      "record": "narration_timeline_ja.json",
+      "id": "M17-03",
+      "relative": "audio/ja/sentences/M17-03.wav",
+      "resolved_path": "/Users/ryo/Desktop/新チャンネル/EP003_Medusa/確認版_v01_20261023/audio/ja/sentences/M17-03.wav",
+      "sha256": "8a42a52795347ffd99f9a63a0a696c82aab71e615495f27337ac0724b7e0d395"
+    },
+    {
+      "record": "narration_timeline_ja.json",
+      "id": "M17-04",
+      "relative": "audio/ja/sentences/M17-04.wav",
+      "resolved_path": "/Users/ryo/Desktop/新チャンネル/EP003_Medusa/確認版_v01_20261023/audio/ja/sentences/M17-04.wav",
+      "sha256": "d47e3128b73a5afdef8c16f16ee0976a24816a610c07230c2c28614c746d9b42"
+    },
+    {
+      "record": "narration_timeline_ja.json",
+      "id": "M18",
+      "relative": "audio/ja/M18.wav",
+      "resolved_path": "/Users/ryo/Desktop/新チャンネル/EP003_Medusa/確認版_v02_20261023/audio/ja/M18.wav",
+      "sha256": "27c6980a59b049eba98c39f463bec5c18448b66ba7ec873d2890f2f957a66284"
+    },
+    {
+      "record": "narration_timeline_ja.json",
+      "id": "M18-01",
+      "relative": "audio/ja/sentences/M18-01.wav",
+      "resolved_path": "/Users/ryo/Desktop/新チャンネル/EP003_Medusa/確認版_v02_20261023/audio/ja/sentences/M18-01.wav",
+      "sha256": "9daa6f3ed8a663d05d6e5405b8da89db0697d6e3d69c31f9fb31415a9ad25356"
+    },
+    {
+      "record": "narration_timeline_ja.json",
+      "id": "M18-02",
+      "relative": "audio/ja/sentences/M18-02.wav",
+      "resolved_path": "/Users/ryo/Desktop/新チャンネル/EP003_Medusa/確認版_v02_20261023/audio/ja/sentences/M18-02.wav",
+      "sha256": "fa86b7e8dfe93ddac299b1287075cf37c6ed10d86a2b47fb1b9d8c567584c581"
+    },
+    {
+      "record": "narration_timeline_ja.json",
+      "id": "M18-03",
+      "relative": "audio/ja/sentences/M18-03.wav",
+      "resolved_path": "/Users/ryo/Desktop/新チャンネル/EP003_Medusa/確認版_v02_20261023/audio/ja/sentences/M18-03.wav",
+      "sha256": "eb96efa70d3cf9b6ea81080136f36fc88a6ef32a47615b0b6513a9da1769b0c9"
+    },
+    {
+      "record": "narration_timeline_ja.json",
+      "id": "M18-04",
+      "relative": "audio/ja/sentences/M18-04.wav",
+      "resolved_path": "/Users/ryo/Desktop/新チャンネル/EP003_Medusa/確認版_v02_20261023/audio/ja/sentences/M18-04.wav",
+      "sha256": "5b6457795ae8f89d7bfb9248c6a00db4cf07ae3c76949f00cdc3ff86479d503d"
+    },
+    {
+      "record": "narration_timeline_ja.json",
+      "id": "M18-05",
+      "relative": "audio/ja/sentences/M18-05.wav",
+      "resolved_path": "/Users/ryo/Desktop/新チャンネル/EP003_Medusa/確認版_v02_20261023/audio/ja/sentences/M18-05.wav",
+      "sha256": "14843ff1bc0b66ba950c12c8ccabe4c30545cb09289c28efe69c874c68f61fdb"
+    },
+    {
+      "record": "visual_manifest.json",
+      "id": "A24",
+      "relative": "assets/M01_01_A24.png",
+      "resolved_path": "/Users/ryo/Desktop/新チャンネル/EP003_Medusa/確認版_v01_20261023/assets/M01_01_A24.png",
+      "sha256": "507cf7d736fc6170afbf54ce7377dda8babe07f500e4daec94d1ecc41068eda3"
+    },
+    {
+      "record": "visual_manifest.json",
+      "id": "R01",
+      "relative": "assets/M01_02_R01.png",
+      "resolved_path": "/Users/ryo/Desktop/新チャンネル/EP003_Medusa/確認版_v01_20261023/assets/M01_02_R01.png",
+      "sha256": "311bc60e7ef9c563508e09cab8fbc3ff0ba9d486f3331b951e1ecfecc603ac2f"
+    },
+    {
+      "record": "visual_manifest.json",
+      "id": "V01",
+      "relative": "assets/M02_01_V01.png",
+      "resolved_path": "/Users/ryo/Desktop/新チャンネル/EP003_Medusa/確認版_v01_20261023/assets/M02_01_V01.png",
+      "sha256": "97604ebf7b34c13ba732db803fae76d2c0ab15042088c18ef233d279794259cf"
+    },
+    {
+      "record": "visual_manifest.json",
+      "id": "R02",
+      "relative": "assets/M02_02_R02.png",
+      "resolved_path": "/Users/ryo/Desktop/新チャンネル/EP003_Medusa/確認版_v01_20261023/assets/M02_02_R02.png",
+      "sha256": "3f3666ec35fab396846161ef40516cb306c5a23cd2b219115ff4bd1ced8a9c2a"
+    },
+    {
+      "record": "visual_manifest.json",
+      "id": "R03",
+      "relative": "assets/M03_01_R03.png",
+      "resolved_path": "/Users/ryo/Desktop/新チャンネル/EP003_Medusa/確認版_v01_20261023/assets/M03_01_R03.png",
+      "sha256": "ef077364d39e2b636245d0b32bf7486ab1bbfd9e78a8fc9fbe64ce43b8e8981b"
+    },
+    {
+      "record": "visual_manifest.json",
+      "id": "A05",
+      "relative": "assets/M03_02_A05.png",
+      "resolved_path": "/Users/ryo/Desktop/新チャンネル/EP003_Medusa/確認版_v01_20261023/assets/M03_02_A05.png",
+      "sha256": "51e7adf2ae8b9e836c256a229cbabb960fe0f31f150cdccf8a9d7328f62b0097"
+    },
+    {
+      "record": "visual_manifest.json",
+      "id": "V02",
+      "relative": "assets/M04_01_V02.png",
+      "resolved_path": "/Users/ryo/Desktop/新チャンネル/EP003_Medusa/確認版_v01_20261023/assets/M04_01_V02.png",
+      "sha256": "ba6210f8d6a0bfce3bea6c59f45464b608f93d7edda6bf399179f69c2d0e29d4"
+    },
+    {
+      "record": "visual_manifest.json",
+      "id": "A21",
+      "relative": "assets/M04_02_A21.png",
+      "resolved_path": "/Users/ryo/Desktop/新チャンネル/EP003_Medusa/確認版_v01_20261023/assets/M04_02_A21.png",
+      "sha256": "49ea5b218895bb84741895c5a9e7f60c3c044defdea02bad864c4819228ead85"
+    },
+    {
+      "record": "visual_manifest.json",
+      "id": "A07",
+      "relative": "assets/M05_01_A07.png",
+      "resolved_path": "/Users/ryo/Desktop/新チャンネル/EP003_Medusa/確認版_v01_20261023/assets/M05_01_A07.png",
+      "sha256": "653d8d4607fad8daa3ed95863c8e338548fd133bd7b4029a7c77d6369a2517c4"
+    },
+    {
+      "record": "visual_manifest.json",
+      "id": "A20",
+      "relative": "assets/M05_02_A20.png",
+      "resolved_path": "/Users/ryo/Desktop/新チャンネル/EP003_Medusa/確認版_v01_20261023/assets/M05_02_A20.png",
+      "sha256": "5714f78802efa26d3757ce8e4d8d58d7b181d903b583831c8e23e8085bac4a96"
+    },
+    {
+      "record": "visual_manifest.json",
+      "id": "A03",
+      "relative": "assets/M06_01_A03.png",
+      "resolved_path": "/Users/ryo/Desktop/新チャンネル/EP003_Medusa/確認版_v01_20261023/assets/M06_01_A03.png",
+      "sha256": "5e89b02c46e7c285997405f7ac70db4494b64ebb3dde64dc025b3c9daacd03f9"
+    },
+    {
+      "record": "visual_manifest.json",
+      "id": "A08",
+      "relative": "assets/M06_02_A08.png",
+      "resolved_path": "/Users/ryo/Desktop/新チャンネル/EP003_Medusa/確認版_v01_20261023/assets/M06_02_A08.png",
+      "sha256": "341083e46a27e8c89eb584fe7b6d93cfc10dfad2609080ffe1dfb4a2d9540b8e"
+    },
+    {
+      "record": "visual_manifest.json",
+      "id": "A26",
+      "relative": "assets/M06_03_A26.png",
+      "resolved_path": "/Users/ryo/Desktop/新チャンネル/EP003_Medusa/確認版_v01_20261023/assets/M06_03_A26.png",
+      "sha256": "066288d0bdafd07cd797b647235b172fab59ef1f78cf0478ac71be6086f3bc9f"
+    },
+    {
+      "record": "visual_manifest.json",
+      "id": "A14",
+      "relative": "assets/M07_01_A14.png",
+      "resolved_path": "/Users/ryo/Desktop/新チャンネル/EP003_Medusa/確認版_v01_20261023/assets/M07_01_A14.png",
+      "sha256": "c63200a21514d201218aa7896397f6de81923d101a08c6eb2ab83256b9885b85"
+    },
+    {
+      "record": "visual_manifest.json",
+      "id": "A13",
+      "relative": "assets/M07_02_A13.png",
+      "resolved_path": "/Users/ryo/Desktop/新チャンネル/EP003_Medusa/確認版_v01_20261023/assets/M07_02_A13.png",
+      "sha256": "a10c3243b61511cc43c145b4ea3a9f718c46e4de7545282a4a3805243df4286c"
+    },
+    {
+      "record": "visual_manifest.json",
+      "id": "A15",
+      "relative": "assets/M08_01_A15.png",
+      "resolved_path": "/Users/ryo/Desktop/新チャンネル/EP003_Medusa/確認版_v01_20261023/assets/M08_01_A15.png",
+      "sha256": "01eeec8722d62831537861935b036ba182fc2de4c6d67f74c6ff8f110cb7aeb5"
+    },
+    {
+      "record": "visual_manifest.json",
+      "id": "A23",
+      "relative": "assets/M08_02_A23.png",
+      "resolved_path": "/Users/ryo/Desktop/新チャンネル/EP003_Medusa/確認版_v01_20261023/assets/M08_02_A23.png",
+      "sha256": "645bcd872566c7c307e782a0e8ba633adda79372dd43a4e055f1a5fe11af12bb"
+    },
+    {
+      "record": "visual_manifest.json",
+      "id": "A01",
+      "relative": "assets/M09_01_A01.png",
+      "resolved_path": "/Users/ryo/Desktop/新チャンネル/EP003_Medusa/確認版_v01_20261023/assets/M09_01_A01.png",
+      "sha256": "ea8b9556ccf62efa5825675655b0748180644ab8fe117579129f9455d657724e"
+    },
+    {
+      "record": "visual_manifest.json",
+      "id": "A18",
+      "relative": "assets/M10_01_A18.png",
+      "resolved_path": "/Users/ryo/Desktop/新チャンネル/EP003_Medusa/確認版_v01_20261023/assets/M10_01_A18.png",
+      "sha256": "c3edf06672b3e87d27debb6c1dcb7999f87b4280baf32afe7213ffebf6fc2b54"
+    },
+    {
+      "record": "visual_manifest.json",
+      "id": "A17",
+      "relative": "assets/M10_02_A17.png",
+      "resolved_path": "/Users/ryo/Desktop/新チャンネル/EP003_Medusa/確認版_v01_20261023/assets/M10_02_A17.png",
+      "sha256": "0e563234aec9a22d19183e9f354633901fe2d67524cccb03ce8029a542b9c4cc"
+    },
+    {
+      "record": "visual_manifest.json",
+      "id": "R05",
+      "relative": "assets/M11_01_R05.png",
+      "resolved_path": "/Users/ryo/Desktop/新チャンネル/EP003_Medusa/確認版_v01_20261023/assets/M11_01_R05.png",
+      "sha256": "a4a20de84c602b764cd908e1b317228021ff8f74b03a0e03e24bc30f59c09d25"
+    },
+    {
+      "record": "visual_manifest.json",
+      "id": "A25",
+      "relative": "assets/M11_02_A25.png",
+      "resolved_path": "/Users/ryo/Desktop/新チャンネル/EP003_Medusa/確認版_v01_20261023/assets/M11_02_A25.png",
+      "sha256": "c2e2308f932f5be19e44b10f82e4ff5440071f38f5f4067a368c88fd107f2c1d"
+    },
+    {
+      "record": "visual_manifest.json",
+      "id": "R06",
+      "relative": "assets/M12_01_R06.png",
+      "resolved_path": "/Users/ryo/Desktop/新チャンネル/EP003_Medusa/確認版_v01_20261023/assets/M12_01_R06.png",
+      "sha256": "30c07d33f1402a549555d8ebd91fb16d4b8449a1a947aa8390a447380729be78"
+    },
+    {
+      "record": "visual_manifest.json",
+      "id": "V03",
+      "relative": "assets/M12_02_V03.png",
+      "resolved_path": "/Users/ryo/Desktop/新チャンネル/EP003_Medusa/確認版_v01_20261023/assets/M12_02_V03.png",
+      "sha256": "3d7e2055eab84c001610f694633e7826dc18e0137a0f4a64b5c7a40a98caa72d"
+    },
+    {
+      "record": "visual_manifest.json",
+      "id": "A22",
+      "relative": "assets/M13_01_A22.png",
+      "resolved_path": "/Users/ryo/Desktop/新チャンネル/EP003_Medusa/確認版_v01_20261023/assets/M13_01_A22.png",
+      "sha256": "4448af86578e3150de6db527c1ea09b90286f8f62b6be718766028e12eb7b97c"
+    },
+    {
+      "record": "visual_manifest.json",
+      "id": "D_timeline",
+      "relative": "assets/M13_02_D_timeline.png",
+      "resolved_path": "/Users/ryo/Desktop/新チャンネル/EP003_Medusa/確認版_v01_20261023/assets/M13_02_D_timeline.png",
+      "sha256": "dd6f405dc6afaba6f668bc8bf28b83b9c40c63b8ce5af91fec17f4a688663189"
+    },
+    {
+      "record": "visual_manifest.json",
+      "id": "R07",
+      "relative": "assets/M14_01_R07.png",
+      "resolved_path": "/Users/ryo/Desktop/新チャンネル/EP003_Medusa/確認版_v01_20261023/assets/M14_01_R07.png",
+      "sha256": "f8d8f821bb84759e2bd651d59fc91a524772144f691b98916a93ce6e7e6d307f"
+    },
+    {
+      "record": "visual_manifest.json",
+      "id": "A02",
+      "relative": "assets/M14_02_A02.png",
+      "resolved_path": "/Users/ryo/Desktop/新チャンネル/EP003_Medusa/確認版_v01_20261023/assets/M14_02_A02.png",
+      "sha256": "2806c1499436d56d8fb423aa9ed8197cfad22d0083eb1c3918a9c1b335b466fe"
+    },
+    {
+      "record": "visual_manifest.json",
+      "id": "R08",
+      "relative": "assets/M15_01_R08.png",
+      "resolved_path": "/Users/ryo/Desktop/新チャンネル/EP003_Medusa/確認版_v01_20261023/assets/M15_01_R08.png",
+      "sha256": "446d4b41ce5da32ee8054e7cf7e39a27067c35bd1fdc61d7ce17bf0195cd22a2"
+    },
+    {
+      "record": "visual_manifest.json",
+      "id": "R09",
+      "relative": "assets/M15_02_R09.png",
+      "resolved_path": "/Users/ryo/Desktop/新チャンネル/EP003_Medusa/確認版_v01_20261023/assets/M15_02_R09.png",
+      "sha256": "f5d9cd0b7e4eda5bd65985da6883b81c6924e58dba831c8f8ad7c6488669a28f"
+    },
+    {
+      "record": "visual_manifest.json",
+      "id": "A04",
+      "relative": "assets/M16_01_A04.png",
+      "resolved_path": "/Users/ryo/Desktop/新チャンネル/EP003_Medusa/確認版_v01_20261023/assets/M16_01_A04.png",
+      "sha256": "977c5236ba5e28d58805cf9580ca1a7a49831536e450b6602e62ef013f24f723"
+    },
+    {
+      "record": "visual_manifest.json",
+      "id": "D_four",
+      "relative": "assets/M16_02_D_four.png",
+      "resolved_path": "/Users/ryo/Desktop/新チャンネル/EP003_Medusa/確認版_v01_20261023/assets/M16_02_D_four.png",
+      "sha256": "00b28dcdf29f1806ecb5d4f728d0bdf6a68f44658b56bd8bbe3120af4b11a8e9"
+    },
+    {
+      "record": "visual_manifest.json",
+      "id": "R10",
+      "relative": "assets/M17_01_R10.png",
+      "resolved_path": "/Users/ryo/Desktop/新チャンネル/EP003_Medusa/確認版_v01_20261023/assets/M17_01_R10.png",
+      "sha256": "e2e7f531d5095897be57aaa74bb073a89433713a3a7b62645ca370595febcd9b"
+    },
+    {
+      "record": "visual_manifest.json",
+      "id": "V04",
+      "relative": "assets/M17_02_V04.png",
+      "resolved_path": "/Users/ryo/Desktop/新チャンネル/EP003_Medusa/確認版_v01_20261023/assets/M17_02_V04.png",
+      "sha256": "0f712991241741d271869800b3dfeea143dcebfe07a75dad3bec44bfc7cc96bd"
+    },
+    {
+      "record": "visual_manifest.json",
+      "id": "credits",
+      "relative": "assets/M18_01_credits.png",
+      "resolved_path": "/Users/ryo/Desktop/新チャンネル/EP003_Medusa/確認版_v02_20261023/assets/M18_01_credits.png",
+      "sha256": "c82cb795d8c7cbf039aa22674a1c45edc3f8e0b18d5e25f522308f3f076a3d89"
+    }
+  ]
+}

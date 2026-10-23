@@ -1,0 +1,117 @@
+{
+  "bgm_calibration_gain_db": 11.923756867172933,
+  "pause_boost_db": 4,
+  "bgm_prefix_sample_identical": true,
+  "languages": {
+    "en": {
+      "loudness": {
+        "input_i": "-16.12",
+        "input_tp": "-3.34",
+        "input_lra": "4.00",
+        "input_thresh": "-26.99",
+        "output_i": "-16.09",
+        "output_tp": "-3.00",
+        "output_lra": "3.80",
+        "output_thresh": "-26.82",
+        "normalization_type": "dynamic",
+        "target_offset": "0.09"
+      },
+      "v01_narration_median_gain_for_reference": 3.150749444961548,
+      "v01_mix_voice_gain": 0.8063061833381653,
+      "M01_M17_float_mix_identical": true,
+      "M18_gain_db": 3.8499999999999996,
+      "M18_reference_voice_loudness": {
+        "input_i": "-16.25",
+        "input_tp": "-4.80",
+        "input_lra": "3.10",
+        "input_thresh": "-26.68",
+        "output_i": "-16.23",
+        "output_tp": "-4.36",
+        "output_lra": "1.60",
+        "output_thresh": "-26.63",
+        "normalization_type": "dynamic",
+        "target_offset": "0.23"
+      },
+      "M18_raw_voice_loudness": {
+        "input_i": "-22.59",
+        "input_tp": "-6.85",
+        "input_lra": "2.90",
+        "input_thresh": "-33.18",
+        "output_i": "-16.24",
+        "output_tp": "-3.00",
+        "output_lra": "2.30",
+        "output_thresh": "-26.81",
+        "normalization_type": "dynamic",
+        "target_offset": "0.24"
+      },
+      "M01_M17_WAV_PCM_identical": true,
+      "WAV_prefix_PCM_SHA256": "c0fecff7b1058ee183fc1c437b14a8663e0dc79a375c261414d403eadf452d9d",
+      "prefix_samples_48k": 17451200,
+      "aac": {
+        "splice_sample": 17452032,
+        "splice_seconds": 363.584,
+        "preserved_packets_including_priming": 17044,
+        "packet_data_sha256": "e0d2e65348212948c7dbee8efe42d28f61120cbc3efdd85ceeb30143a0170722",
+        "prefix_aac_packet_data_identical": true,
+        "final_duration_samples": 19179200
+      },
+      "wav_samples": 19179200,
+      "wav_sha256": "277238ba5f5cfa6c67ec6823d4adfe661d3ef75169f03eb65d5210548d0e1e30"
+    },
+    "ja": {
+      "loudness": {
+        "input_i": "-16.07",
+        "input_tp": "-3.43",
+        "input_lra": "4.70",
+        "input_thresh": "-26.82",
+        "output_i": "-15.84",
+        "output_tp": "-3.00",
+        "output_lra": "4.30",
+        "output_thresh": "-26.40",
+        "normalization_type": "dynamic",
+        "target_offset": "-0.16"
+      },
+      "v01_narration_median_gain_for_reference": 2.8324551582336426,
+      "v01_mix_voice_gain": 0.7112135291099548,
+      "M01_M17_float_mix_identical": true,
+      "M18_gain_db": 5.32,
+      "M18_reference_voice_loudness": {
+        "input_i": "-15.71",
+        "input_tp": "-5.95",
+        "input_lra": "1.50",
+        "input_thresh": "-25.91",
+        "output_i": "-15.83",
+        "output_tp": "-6.04",
+        "output_lra": "1.40",
+        "output_thresh": "-26.02",
+        "normalization_type": "dynamic",
+        "target_offset": "-0.17"
+      },
+      "M18_raw_voice_loudness": {
+        "input_i": "-21.81",
+        "input_tp": "-8.32",
+        "input_lra": "2.90",
+        "input_thresh": "-32.09",
+        "output_i": "-16.06",
+        "output_tp": "-3.00",
+        "output_lra": "1.40",
+        "output_thresh": "-26.30",
+        "normalization_type": "dynamic",
+        "target_offset": "0.06"
+      },
+      "M01_M17_WAV_PCM_identical": true,
+      "WAV_prefix_PCM_SHA256": "0e39986705557efc578cd7f0e5b80c451e0d0d33367db0e324ebb5b619362af4",
+      "prefix_samples_48k": 17451200,
+      "aac": {
+        "splice_sample": 17452032,
+        "splice_seconds": 363.584,
+        "preserved_packets_including_priming": 17044,
+        "packet_data_sha256": "6a0f08f32829747ec7c88e195e04c6948139cf542761a59c19c7ee9741cba81a",
+        "prefix_aac_packet_data_identical": true,
+        "final_duration_samples": 19179200
+      },
+      "wav_samples": 19179200,
+      "wav_sha256": "68870a2beab95e0a8e7ea1f78a1c707528ddd9ea56b36ca65636a04ebd99e84d"
+    }
+  }
+}

@@ -1,7 +1,7 @@
 {
   "fps": 30,
   "sample_rate": 24000,
-  "duration_seconds": 403.6666666666667,
+  "duration_seconds": 399.56666666666666,
   "languages": [
     "en",
     "ja"
@@ -198,11 +198,11 @@
       "id": "M18",
       "chapter": "C07",
       "start": 363.56666666666666,
-      "speech_end": 382.4626666666667,
-      "end": 383.6666666666667,
+      "speech_end": 388.3439583333333,
+      "end": 389.56666666666666,
       "speech_seconds": {
-        "en": 18.356625,
-        "ja": 18.896
+        "en": 24.777291666666667,
+        "ja": 23.68
       }
     }
   ],
@@ -212,10 +212,16 @@
       49.1
     ],
     "endcard": [
-      383.6666666666667,
-      403.6666666666667
+      389.56666666666666,
+      399.56666666666666
     ]
   },
   "opening_ja_gap_redistributed": 2.1753333333333345,
-  "ja_wait_before_opening": 2.415333333333333
+  "ja_wait_before_opening": 2.415333333333333,
+  "revision": {
+    "v01_duration": 403.6666666666667,
+    "M18_extension_seconds": 5.899999999999977,
+    "formula": "v01 - 10 + M18 extension",
+    "version": "v02"
+  }
 }
