@@ -114,3 +114,8 @@ The music and the painting were generated with AI.
 
 - 23:00〜23:03頃（日本時間）、Whispers of JapanのStudioで曲名・動画ID `RNmT7_PhVZg` と「公開予約」（10/25）を確認。
 - 一般公開前のため、対応ショートの関連動画は未変更。既存リンクを維持して定期確認を継続。
+
+## 2026-10-23 公開後フォローアップ確認
+
+- 22:57頃（日本時間）、Whispers of Japan（`UCx4mLEohO3XCVxZajUynLzw`）のStudioで曲名「紅葉（もみじ） 🍁 和楽器で聴く童謡｜箏・尺八」、動画ID `RNmT7_PhVZg`、公開状態「公開予約」（10/25）を確認。
+- 一般公開前のため、対応ショート `qMzCtzegTes` の関連動画は未変更。既存の童謡集へのリンクを維持。フォローアップ `automation` は残る本曲の公開確認を継続し、切り替え完了後に停止する。
