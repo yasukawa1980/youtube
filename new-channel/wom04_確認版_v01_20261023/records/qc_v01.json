@@ -1,0 +1,107 @@
+{
+  "passed": true,
+  "duration_seconds": 429.56666666666666,
+  "frames": 12887,
+  "fps": 30,
+  "human_full_listening": false,
+  "files": [
+    {
+      "name": "EP004_Pandora_en_v01_1080p30.mp4",
+      "bytes": 123506381,
+      "sha256": "ab587b3a09e7d25359c07fff17782bbbf20d9af6651db7be35bd24d3d0734ce2",
+      "video_stream_sha256": "SHA256=85233747271c08d56437d82a07ee5382571036446db6d2527b8b6335f4eb3016",
+      "audio_stream_sha256": "SHA256=a76f4a3f1bebdbfcbc9df1f38be4f7c91c33864f2a64cf5c3ad0c608178374c0",
+      "full_decode": true,
+      "exact_30fps_pts": true,
+      "frames": 12887,
+      "duration": 429.566667,
+      "loudness": {
+        "input_i": "-16.01",
+        "input_tp": "-3.69",
+        "input_lra": "4.90",
+        "input_thresh": "-26.97",
+        "output_i": "-16.11",
+        "output_tp": "-3.00",
+        "output_lra": "4.50",
+        "output_thresh": "-26.80",
+        "normalization_type": "dynamic",
+        "target_offset": "0.11"
+      },
+      "silence_over_1s_at_minus60dB": []
+    },
+    {
+      "name": "EP004_Pandora_en_v01_subtitled_review_1080p30.mp4",
+      "bytes": 121431818,
+      "sha256": "ff668a79aaa5ee43ea06ee629ab8b747c6a761eae597462ef31c94cba0b8e469",
+      "video_stream_sha256": "SHA256=53228703c31d2c542e73f1f18431c306e9ad4960b5a73132679675974eba8003",
+      "audio_stream_sha256": "SHA256=a76f4a3f1bebdbfcbc9df1f38be4f7c91c33864f2a64cf5c3ad0c608178374c0",
+      "full_decode": true,
+      "exact_30fps_pts": true,
+      "frames": 12887,
+      "duration": 429.566667,
+      "loudness": {
+        "input_i": "-16.01",
+        "input_tp": "-3.69",
+        "input_lra": "4.90",
+        "input_thresh": "-26.97",
+        "output_i": "-16.11",
+        "output_tp": "-3.00",
+        "output_lra": "4.50",
+        "output_thresh": "-26.80",
+        "normalization_type": "dynamic",
+        "target_offset": "0.11"
+      },
+      "silence_over_1s_at_minus60dB": []
+    },
+    {
+      "name": "EP004_Pandora_ja_v01_1080p30.mp4",
+      "bytes": 123588078,
+      "sha256": "bb01f1fed24375fc115510954df48b282eb7270422311761c838d32aefa2567d",
+      "video_stream_sha256": "SHA256=85233747271c08d56437d82a07ee5382571036446db6d2527b8b6335f4eb3016",
+      "audio_stream_sha256": "SHA256=b39b749f7f5d51a17e8e0730b183cc00c17f32c5428812c06813926bf8f026ef",
+      "full_decode": true,
+      "exact_30fps_pts": true,
+      "frames": 12887,
+      "duration": 429.566667,
+      "loudness": {
+        "input_i": "-16.00",
+        "input_tp": "-4.74",
+        "input_lra": "3.30",
+        "input_thresh": "-26.57",
+        "output_i": "-15.83",
+        "output_tp": "-3.82",
+        "output_lra": "3.10",
+        "output_thresh": "-26.27",
+        "normalization_type": "dynamic",
+        "target_offset": "-0.17"
+      },
+      "silence_over_1s_at_minus60dB": []
+    },
+    {
+      "name": "EP004_Pandora_ja_v01_subtitled_review_1080p30.mp4",
+      "bytes": 121557851,
+      "sha256": "018f16a377604ad2b42fa380c1faff9d336dbb7618af1afa8d73623db9f5cbf5",
+      "video_stream_sha256": "SHA256=0ce350af0a2c8cb968299f0b5406c6a01d1930b87eeb28724a1f0730ff1e7233",
+      "audio_stream_sha256": "SHA256=b39b749f7f5d51a17e8e0730b183cc00c17f32c5428812c06813926bf8f026ef",
+      "full_decode": true,
+      "exact_30fps_pts": true,
+      "frames": 12887,
+      "duration": 429.566667,
+      "loudness": {
+        "input_i": "-16.00",
+        "input_tp": "-4.74",
+        "input_lra": "3.30",
+        "input_thresh": "-26.57",
+        "output_i": "-15.83",
+        "output_tp": "-3.82",
+        "output_lra": "3.10",
+        "output_thresh": "-26.27",
+        "normalization_type": "dynamic",
+        "target_offset": "-0.17"
+      },
+      "silence_over_1s_at_minus60dB": []
+    }
+  ],
+  "shared_video_stream": true,
+  "subtitled_audio_unchanged": true
+}

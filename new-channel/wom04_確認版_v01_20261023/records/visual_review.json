@@ -1,0 +1,42 @@
+{
+  "passed": true,
+  "reviewer": "Codex image inspection, not full human playback",
+  "date": "2026-10-23",
+  "video_sha256": "ab587b3a09e7d25359c07fff17782bbbf20d9af6651db7be35bd24d3d0734ce2",
+  "visual_manifest_sha256": "371cbbd87e7f46781b741dfa361e136c66276b831aab21ec88d9087b5fb8fa24",
+  "render_shots_sha256": "6a0886141f3b0cb4135233fc167433911c7f4d89629d3260fbf0d7ca93d98079",
+  "inspected_shot_centers": 31,
+  "storyboards": [
+    "final_storyboard_1.jpg",
+    "final_storyboard_2.jpg",
+    "final_storyboard_3.jpg"
+  ],
+  "detail_checks": [
+    "shot_22.jpg: Pixide / Pixidem legible in D detail, no underline or frame",
+    "A13: chest and hand, no upper torso",
+    "A04: complete scene 4, no nude torso close-up",
+    "A07: face/head only",
+    "A08: helmet/head/shoulders only",
+    "A14: picture panel only, no chest close-up",
+    "A15: clothed Pandora and box",
+    "A21: clothed Epimetheus and jar, upper nude group excluded",
+    "A09: entire low-resolution sculpture, no base enlargement",
+    "D_elpis: Greek ἐλπίς renders correctly; only hope/expectation translations",
+    "Credits and all source labels match manifest"
+  ],
+  "ai_video_review": "Six source timepoints for each accepted V01/V02/V03 inspected. No people, legible text or visible geometry jumps in sampled frames. Rejected V01 wall fireplace and V03 modern doors preserved. V02 uses source 4.5–10 seconds; final subtitle-context frames show bird emergence and flight.",
+  "ai_stills": "All five generated outputs inspected previously; no people or legible text; intended objects present.",
+  "subtitle_context_sheets_inspected": [
+    "subtitles_en_14_05.jpg",
+    "subtitles_en_26_09.jpg",
+    "subtitles_ja_26_05.jpg",
+    "subtitles_ja_26_09.jpg"
+  ],
+  "all_subtitle_cues_raster_checked": 394,
+  "human_full_playback": false,
+  "human_full_listening": false,
+  "thumbnail_candidates_inspected": [
+    "A01",
+    "A21"
+  ]
+}

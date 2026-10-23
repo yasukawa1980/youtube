@@ -1,0 +1,78 @@
+{
+  "passed": true,
+  "movie_timescale": 48000,
+  "video_frames": 12887,
+  "audio_samples": 20619200,
+  "files": [
+    {
+      "name": "EP004_audio_en.m4a",
+      "before_sha256": "282a6a3aefa48619b173d9313e9fe96ead4ee6da7a849b0232374c4e79841358",
+      "after_sha256": "282a6a3aefa48619b173d9313e9fe96ead4ee6da7a849b0232374c4e79841358",
+      "already_sample_exact": true,
+      "encoded_streams_identical": true,
+      "stream_hashes": {
+        "audio": "SHA256=a76f4a3f1bebdbfcbc9df1f38be4f7c91c33864f2a64cf5c3ad0c608178374c0"
+      },
+      "duration_seconds": "429.566667"
+    },
+    {
+      "name": "EP004_audio_ja.m4a",
+      "before_sha256": "a77720e9aef933634cec495dda65a7425b1ddf37e4091ecb39ef12ed87b2b10b",
+      "after_sha256": "a77720e9aef933634cec495dda65a7425b1ddf37e4091ecb39ef12ed87b2b10b",
+      "already_sample_exact": true,
+      "encoded_streams_identical": true,
+      "stream_hashes": {
+        "audio": "SHA256=b39b749f7f5d51a17e8e0730b183cc00c17f32c5428812c06813926bf8f026ef"
+      },
+      "duration_seconds": "429.566667"
+    },
+    {
+      "name": "EP004_Pandora_en_v01_1080p30.mp4",
+      "before_sha256": "ab587b3a09e7d25359c07fff17782bbbf20d9af6651db7be35bd24d3d0734ce2",
+      "after_sha256": "ab587b3a09e7d25359c07fff17782bbbf20d9af6651db7be35bd24d3d0734ce2",
+      "already_sample_exact": true,
+      "encoded_streams_identical": true,
+      "stream_hashes": {
+        "video": "SHA256=85233747271c08d56437d82a07ee5382571036446db6d2527b8b6335f4eb3016",
+        "audio": "SHA256=a76f4a3f1bebdbfcbc9df1f38be4f7c91c33864f2a64cf5c3ad0c608178374c0"
+      },
+      "duration_seconds": "429.566667"
+    },
+    {
+      "name": "EP004_Pandora_en_v01_subtitled_review_1080p30.mp4",
+      "before_sha256": "ff668a79aaa5ee43ea06ee629ab8b747c6a761eae597462ef31c94cba0b8e469",
+      "after_sha256": "ff668a79aaa5ee43ea06ee629ab8b747c6a761eae597462ef31c94cba0b8e469",
+      "already_sample_exact": true,
+      "encoded_streams_identical": true,
+      "stream_hashes": {
+        "video": "SHA256=53228703c31d2c542e73f1f18431c306e9ad4960b5a73132679675974eba8003",
+        "audio": "SHA256=a76f4a3f1bebdbfcbc9df1f38be4f7c91c33864f2a64cf5c3ad0c608178374c0"
+      },
+      "duration_seconds": "429.566667"
+    },
+    {
+      "name": "EP004_Pandora_ja_v01_1080p30.mp4",
+      "before_sha256": "bb01f1fed24375fc115510954df48b282eb7270422311761c838d32aefa2567d",
+      "after_sha256": "bb01f1fed24375fc115510954df48b282eb7270422311761c838d32aefa2567d",
+      "already_sample_exact": true,
+      "encoded_streams_identical": true,
+      "stream_hashes": {
+        "video": "SHA256=85233747271c08d56437d82a07ee5382571036446db6d2527b8b6335f4eb3016",
+        "audio": "SHA256=b39b749f7f5d51a17e8e0730b183cc00c17f32c5428812c06813926bf8f026ef"
+      },
+      "duration_seconds": "429.566667"
+    },
+    {
+      "name": "EP004_Pandora_ja_v01_subtitled_review_1080p30.mp4",
+      "before_sha256": "018f16a377604ad2b42fa380c1faff9d336dbb7618af1afa8d73623db9f5cbf5",
+      "after_sha256": "018f16a377604ad2b42fa380c1faff9d336dbb7618af1afa8d73623db9f5cbf5",
+      "already_sample_exact": true,
+      "encoded_streams_identical": true,
+      "stream_hashes": {
+        "video": "SHA256=0ce350af0a2c8cb968299f0b5406c6a01d1930b87eeb28724a1f0730ff1e7233",
+        "audio": "SHA256=b39b749f7f5d51a17e8e0730b183cc00c17f32c5428812c06813926bf8f026ef"
+      },
+      "duration_seconds": "429.566667"
+    }
+  ]
+}

@@ -1,0 +1,1358 @@
+{
+  "passed": true,
+  "frames": 12887,
+  "duration_seconds": 429.56666666666666,
+  "script_v02a_unchanged": true,
+  "brand_frames_verified": 420,
+  "brand_checks": [
+    {
+      "key": "opening",
+      "start_frame": 1410,
+      "frames": 120,
+      "decoded_pixels_identical": true,
+      "source": "/Users/ryo/Desktop/新チャンネル/EP003_Medusa/確認版_v01_20261023/_work/render/opening.mp4",
+      "source_sha256": "df7139c4e851aec3cb17a3ff0bc8151d66ffcb59c630b16089083ea4a9514876"
+    },
+    {
+      "key": "endcard",
+      "start_frame": 12587,
+      "frames": 300,
+      "decoded_pixels_identical": true,
+      "source": "/Users/ryo/Desktop/新チャンネル/EP003_Medusa/確認版_v02_20261023/_work/render/endcard.mp4",
+      "source_sha256": "1b4521749ea479561296e06777e809bf6b53400003bb270652d71d64c8b7fa7b"
+    }
+  ],
+  "endcard_exact_last_10_seconds": true,
+  "ja_wait_before_opening": 2.9266666666666676,
+  "geometry": [
+    {
+      "key": "A13",
+      "texts": [
+        {
+          "text": "QUIET ORIGINS  /  EP004",
+          "bbox": [
+            92,
+            24,
+            431,
+            46
+          ]
+        },
+        {
+          "text": "PUBLIC DOMAIN PRINT｜パブリックドメインの版画",
+          "bbox": [
+            1151.0,
+            20,
+            1820.0,
+            48
+          ]
+        },
+        {
+          "text": "Master Z.B.M., Pandora Opening Her Box (detail) • 1557 • NGA, 1972.33.8",
+          "bbox": [
+            92,
+            72,
+            853,
+            95
+          ]
+        }
+      ],
+      "art_boxes": [
+        [
+          695,
+          110,
+          1225,
+          930
+        ]
+      ],
+      "text_bottom": 95,
+      "passed": true
+    },
+    {
+      "key": "R01",
+      "texts": [
+        {
+          "text": "QUIET ORIGINS  /  EP004",
+          "bbox": [
+            92,
+            24,
+            431,
+            46
+          ]
+        },
+        {
+          "text": "AI RECONSTRUCTION｜AIによる再現",
+          "bbox": [
+            1332.0,
+            21,
+            1820.0,
+            48
+          ]
+        }
+      ],
+      "art_boxes": [
+        [
+          230,
+          110,
+          1689,
+          930
+        ]
+      ],
+      "text_bottom": 48,
+      "passed": true
+    },
+    {
+      "key": "R02",
+      "texts": [
+        {
+          "text": "QUIET ORIGINS  /  EP004",
+          "bbox": [
+            92,
+            24,
+            431,
+            46
+          ]
+        },
+        {
+          "text": "AI RECONSTRUCTION｜AIによる再現",
+          "bbox": [
+            1332.0,
+            21,
+            1820.0,
+            48
+          ]
+        }
+      ],
+      "art_boxes": [
+        [
+          230,
+          110,
+          1689,
+          930
+        ]
+      ],
+      "text_bottom": 48,
+      "passed": true
+    },
+    {
+      "key": "R05",
+      "texts": [
+        {
+          "text": "QUIET ORIGINS  /  EP004",
+          "bbox": [
+            92,
+            24,
+            431,
+            46
+          ]
+        },
+        {
+          "text": "AI RECONSTRUCTION｜AIによる再現",
+          "bbox": [
+            1332.0,
+            21,
+            1820.0,
+            48
+          ]
+        }
+      ],
+      "art_boxes": [
+        [
+          231,
+          110,
+          1688,
+          930
+        ]
+      ],
+      "text_bottom": 48,
+      "passed": true
+    },
+    {
+      "key": "A04",
+      "texts": [
+        {
+          "text": "QUIET ORIGINS  /  EP004",
+          "bbox": [
+            92,
+            24,
+            431,
+            46
+          ]
+        },
+        {
+          "text": "PUBLIC DOMAIN PRINT｜パブリックドメインの版画",
+          "bbox": [
+            1151.0,
+            20,
+            1820.0,
+            48
+          ]
+        },
+        {
+          "text": "Guido Reni, Prometheus with a torch (scene 4) • 1603 • The Met, 51.501.4891",
+          "bbox": [
+            92,
+            72,
+            890,
+            95
+          ]
+        }
+      ],
+      "art_boxes": [
+        [
+          676,
+          110,
+          1244,
+          930
+        ]
+      ],
+      "text_bottom": 95,
+      "passed": true
+    },
+    {
+      "key": "V01",
+      "texts": [
+        {
+          "text": "QUIET ORIGINS  /  EP004",
+          "bbox": [
+            92,
+            24,
+            431,
+            46
+          ]
+        },
+        {
+          "text": "AI RECONSTRUCTION｜AIによる再現",
+          "bbox": [
+            1332.0,
+            21,
+            1820.0,
+            48
+          ]
+        }
+      ],
+      "art_boxes": [
+        [
+          231,
+          110,
+          1689,
+          930
+        ]
+      ],
+      "text_bottom": 48,
+      "passed": true
+    },
+    {
+      "key": "A05",
+      "texts": [
+        {
+          "text": "QUIET ORIGINS  /  EP004",
+          "bbox": [
+            92,
+            24,
+            431,
+            46
+          ]
+        },
+        {
+          "text": "MUSEUM OBJECT｜博物館資料",
+          "bbox": [
+            1411.0,
+            21,
+            1820.0,
+            48
+          ]
+        },
+        {
+          "text": "Chous: return of Hephaestus • c. 430–420 BCE • The Met, 08.258.22",
+          "bbox": [
+            92,
+            72,
+            796,
+            95
+          ]
+        }
+      ],
+      "art_boxes": [
+        [
+          550,
+          110,
+          1370,
+          930
+        ]
+      ],
+      "text_bottom": 95,
+      "passed": true
+    },
+    {
+      "key": "A06",
+      "texts": [
+        {
+          "text": "QUIET ORIGINS  /  EP004",
+          "bbox": [
+            92,
+            24,
+            431,
+            46
+          ]
+        },
+        {
+          "text": "MUSEUM OBJECT｜博物館資料",
+          "bbox": [
+            1411.0,
+            21,
+            1820.0,
+            48
+          ]
+        },
+        {
+          "text": "Lekythos: Athena • c. 480 BCE • The Met, 27.122.6",
+          "bbox": [
+            92,
+            72,
+            613,
+            95
+          ]
+        }
+      ],
+      "art_boxes": [
+        [
+          680,
+          110,
+          1240,
+          930
+        ]
+      ],
+      "text_bottom": 95,
+      "passed": true
+    },
+    {
+      "key": "A07",
+      "texts": [
+        {
+          "text": "QUIET ORIGINS  /  EP004",
+          "bbox": [
+            92,
+            24,
+            431,
+            46
+          ]
+        },
+        {
+          "text": "MUSEUM OBJECT｜博物館資料",
+          "bbox": [
+            1411.0,
+            21,
+            1820.0,
+            48
+          ]
+        },
+        {
+          "text": "Terracotta Aphrodite (head detail) • 3rd c. BCE • The Met, 12.232.12",
+          "bbox": [
+            92,
+            72,
+            788,
+            95
+          ]
+        }
+      ],
+      "art_boxes": [
+        [
+          571,
+          110,
+          1348,
+          930
+        ]
+      ],
+      "text_bottom": 95,
+      "passed": true
+    },
+    {
+      "key": "A08",
+      "texts": [
+        {
+          "text": "QUIET ORIGINS  /  EP004",
+          "bbox": [
+            92,
+            24,
+            431,
+            46
+          ]
+        },
+        {
+          "text": "MUSEUM OBJECT｜博物館資料",
+          "bbox": [
+            1411.0,
+            21,
+            1820.0,
+            48
+          ]
+        },
+        {
+          "text": "Bronze Hermes (head and shoulders) • 1st c. BCE–2nd c. CE • The Met, 97.22.1",
+          "bbox": [
+            92,
+            72,
+            916,
+            95
+          ]
+        }
+      ],
+      "art_boxes": [
+        [
+          511,
+          110,
+          1409,
+          930
+        ]
+      ],
+      "text_bottom": 95,
+      "passed": true
+    },
+    {
+      "key": "R03",
+      "texts": [
+        {
+          "text": "QUIET ORIGINS  /  EP004",
+          "bbox": [
+            92,
+            24,
+            431,
+            46
+          ]
+        },
+        {
+          "text": "AI RECONSTRUCTION｜AIによる再現",
+          "bbox": [
+            1332.0,
+            21,
+            1820.0,
+            48
+          ]
+        }
+      ],
+      "art_boxes": [
+        [
+          231,
+          110,
+          1688,
+          930
+        ]
+      ],
+      "text_bottom": 48,
+      "passed": true
+    },
+    {
+      "key": "A17",
+      "texts": [
+        {
+          "text": "QUIET ORIGINS  /  EP004",
+          "bbox": [
+            92,
+            24,
+            431,
+            46
+          ]
+        },
+        {
+          "text": "MANUSCRIPT｜写本",
+          "bbox": [
+            1550.0,
+            21,
+            1820.0,
+            48
+          ]
+        },
+        {
+          "text": "Hesiod, Works and Days | later manuscript • c. 1500–1525 • Houghton, MS Gr 20, fol. 10",
+          "bbox": [
+            92,
+            72,
+            998,
+            95
+          ]
+        }
+      ],
+      "art_boxes": [
+        [
+          675,
+          110,
+          1245,
+          930
+        ]
+      ],
+      "text_bottom": 95,
+      "passed": true
+    },
+    {
+      "key": "R04",
+      "texts": [
+        {
+          "text": "QUIET ORIGINS  /  EP004",
+          "bbox": [
+            92,
+            24,
+            431,
+            46
+          ]
+        },
+        {
+          "text": "AI RECONSTRUCTION｜AIによる再現",
+          "bbox": [
+            1332.0,
+            21,
+            1820.0,
+            48
+          ]
+        }
+      ],
+      "art_boxes": [
+        [
+          231,
+          110,
+          1688,
+          930
+        ]
+      ],
+      "text_bottom": 48,
+      "passed": true
+    },
+    {
+      "key": "A01",
+      "texts": [
+        {
+          "text": "QUIET ORIGINS  /  EP004",
+          "bbox": [
+            92,
+            24,
+            431,
+            46
+          ]
+        },
+        {
+          "text": "MUSEUM OBJECT｜博物館資料",
+          "bbox": [
+            1411.0,
+            21,
+            1820.0,
+            48
+          ]
+        },
+        {
+          "text": "Pithos • Crete, c. 675 BCE • Louvre, CA 4523 • Photo: Jastrow (PD)",
+          "bbox": [
+            92,
+            72,
+            782,
+            95
+          ]
+        }
+      ],
+      "art_boxes": [
+        [
+          687,
+          110,
+          1232,
+          930
+        ]
+      ],
+      "text_bottom": 95,
+      "passed": true
+    },
+    {
+      "key": "A02",
+      "texts": [
+        {
+          "text": "QUIET ORIGINS  /  EP004",
+          "bbox": [
+            92,
+            24,
+            431,
+            46
+          ]
+        },
+        {
+          "text": "MUSEUM OBJECT｜博物館資料",
+          "bbox": [
+            1411.0,
+            21,
+            1820.0,
+            48
+          ]
+        },
+        {
+          "text": "Relief pithos • c. 670 BCE • Louvre, CA 795 • Photo: Shonagon (CC0)",
+          "bbox": [
+            92,
+            72,
+            803,
+            95
+          ]
+        }
+      ],
+      "art_boxes": [
+        [
+          665,
+          110,
+          1255,
+          930
+        ]
+      ],
+      "text_bottom": 95,
+      "passed": true
+    },
+    {
+      "key": "D_elpis",
+      "texts": [
+        {
+          "text": "QUIET ORIGINS  /  EP004",
+          "bbox": [
+            92,
+            24,
+            431,
+            46
+          ]
+        },
+        {
+          "text": "SCHEMATIC｜模式図",
+          "bbox": [
+            1545.0,
+            21,
+            1820.0,
+            48
+          ]
+        },
+        {
+          "text": "ἐλπίς / elpis",
+          "bbox": [
+            731.0,
+            268,
+            1189.0,
+            353
+          ]
+        },
+        {
+          "text": "hope｜希望",
+          "bbox": [
+            801.0,
+            432,
+            1119.0,
+            494
+          ]
+        },
+        {
+          "text": "expectation｜予想",
+          "bbox": [
+            705.0,
+            558,
+            1215.0,
+            619
+          ]
+        }
+      ],
+      "art_boxes": [],
+      "text_bottom": 619,
+      "passed": true
+    },
+    {
+      "key": "A29",
+      "texts": [
+        {
+          "text": "QUIET ORIGINS  /  EP004",
+          "bbox": [
+            92,
+            24,
+            431,
+            46
+          ]
+        },
+        {
+          "text": "PAINTING｜絵画",
+          "bbox": [
+            1607.0,
+            21,
+            1820.0,
+            48
+          ]
+        },
+        {
+          "text": "Frederic Edwin Church, The Parthenon • 1871 • The Met, 15.30.67",
+          "bbox": [
+            92,
+            72,
+            772,
+            93
+          ]
+        }
+      ],
+      "art_boxes": [
+        [
+          297,
+          110,
+          1623,
+          930
+        ]
+      ],
+      "text_bottom": 93,
+      "passed": true
+    },
+    {
+      "key": "A09",
+      "texts": [
+        {
+          "text": "QUIET ORIGINS  /  EP004",
+          "bbox": [
+            92,
+            24,
+            431,
+            46
+          ]
+        },
+        {
+          "text": "MUSEUM OBJECT｜博物館資料",
+          "bbox": [
+            1411.0,
+            21,
+            1820.0,
+            48
+          ]
+        },
+        {
+          "text": "Lenormant Athena • Roman period • NAM Athens, 128 • Photo: Jona Lendering / Livius (CC0)",
+          "bbox": [
+            92,
+            72,
+            1048,
+            95
+          ]
+        }
+      ],
+      "art_boxes": [
+        [
+          684,
+          110,
+          1235,
+          930
+        ]
+      ],
+      "text_bottom": 95,
+      "passed": true
+    },
+    {
+      "key": "V02",
+      "texts": [
+        {
+          "text": "QUIET ORIGINS  /  EP004",
+          "bbox": [
+            92,
+            24,
+            431,
+            46
+          ]
+        },
+        {
+          "text": "AI RECONSTRUCTION｜AIによる再現",
+          "bbox": [
+            1332.0,
+            21,
+            1820.0,
+            48
+          ]
+        },
+        {
+          "text": "Fable illustration｜寓話のイメージ",
+          "bbox": [
+            92,
+            69,
+            460,
+            93
+          ]
+        }
+      ],
+      "art_boxes": [
+        [
+          231,
+          110,
+          1689,
+          930
+        ]
+      ],
+      "text_bottom": 93,
+      "passed": true
+    },
+    {
+      "key": "A11",
+      "texts": [
+        {
+          "text": "QUIET ORIGINS  /  EP004",
+          "bbox": [
+            92,
+            24,
+            431,
+            46
+          ]
+        },
+        {
+          "text": "PUBLIC DOMAIN PRINT｜パブリックドメインの版画",
+          "bbox": [
+            1151.0,
+            20,
+            1820.0,
+            48
+          ]
+        },
+        {
+          "text": "Dürer, Erasmus of Rotterdam • 1526 • The Met, 19.73.120",
+          "bbox": [
+            92,
+            72,
+            685,
+            93
+          ]
+        }
+      ],
+      "art_boxes": [
+        [
+          634,
+          110,
+          1286,
+          930
+        ]
+      ],
+      "text_bottom": 93,
+      "passed": true
+    },
+    {
+      "key": "A12",
+      "texts": [
+        {
+          "text": "QUIET ORIGINS  /  EP004",
+          "bbox": [
+            92,
+            24,
+            431,
+            46
+          ]
+        },
+        {
+          "text": "PRINTED BOOK｜刊本",
+          "bbox": [
+            1529.0,
+            21,
+            1820.0,
+            48
+          ]
+        },
+        {
+          "text": "Erasmus, Adagia • Aldus, Venice, 1508 • fol. 12r • ULiège Library, R00134C",
+          "bbox": [
+            92,
+            73,
+            866,
+            95
+          ]
+        }
+      ],
+      "art_boxes": [
+        [
+          213,
+          110,
+          806,
+          930
+        ],
+        [
+          980,
+          448,
+          1840,
+          592
+        ]
+      ],
+      "text_bottom": 95,
+      "passed": true
+    },
+    {
+      "key": "A10",
+      "texts": [
+        {
+          "text": "QUIET ORIGINS  /  EP004",
+          "bbox": [
+            92,
+            24,
+            431,
+            46
+          ]
+        },
+        {
+          "text": "MUSEUM OBJECT｜博物館資料",
+          "bbox": [
+            1411.0,
+            21,
+            1820.0,
+            48
+          ]
+        },
+        {
+          "text": "Terracotta pyxis with lid • late 5th c. BCE • The Met, 75.2.18a, b",
+          "bbox": [
+            92,
+            72,
+            737,
+            95
+          ]
+        }
+      ],
+      "art_boxes": [
+        [
+          613,
+          110,
+          1307,
+          930
+        ]
+      ],
+      "text_bottom": 95,
+      "passed": true
+    },
+    {
+      "key": "A16",
+      "texts": [
+        {
+          "text": "QUIET ORIGINS  /  EP004",
+          "bbox": [
+            92,
+            24,
+            431,
+            46
+          ]
+        },
+        {
+          "text": "PUBLIC DOMAIN PRINT｜パブリックドメインの版画",
+          "bbox": [
+            1151.0,
+            20,
+            1820.0,
+            48
+          ]
+        },
+        {
+          "text": "Psyche opening the box, plate 28 • 1530–1560 • The Met, 41.71.3(28)",
+          "bbox": [
+            92,
+            72,
+            806,
+            95
+          ]
+        }
+      ],
+      "art_boxes": [
+        [
+          476,
+          110,
+          1443,
+          930
+        ]
+      ],
+      "text_bottom": 95,
+      "passed": true
+    },
+    {
+      "key": "A21",
+      "texts": [
+        {
+          "text": "QUIET ORIGINS  /  EP004",
+          "bbox": [
+            92,
+            24,
+            431,
+            46
+          ]
+        },
+        {
+          "text": "PUBLIC DOMAIN PRINT｜パブリックドメインの版画",
+          "bbox": [
+            1151.0,
+            20,
+            1820.0,
+            48
+          ]
+        },
+        {
+          "text": "Bonasone, Epimetheus opens Pandora’s urn (detail) • 16th c. • Rijksmuseum, RP-P-1962-338",
+          "bbox": [
+            92,
+            72,
+            1052,
+            95
+          ]
+        }
+      ],
+      "art_boxes": [
+        [
+          492,
+          110,
+          1428,
+          930
+        ]
+      ],
+      "text_bottom": 95,
+      "passed": true
+    },
+    {
+      "key": "A14",
+      "texts": [
+        {
+          "text": "QUIET ORIGINS  /  EP004",
+          "bbox": [
+            92,
+            24,
+            431,
+            46
+          ]
+        },
+        {
+          "text": "PUBLIC DOMAIN PRINT｜パブリックドメインの版画",
+          "bbox": [
+            1151.0,
+            20,
+            1820.0,
+            48
+          ]
+        },
+        {
+          "text": "Serwouters, Pandora en Epimetheus • 1601–1657 • Rijksmuseum, RP-P-1886-A-10526",
+          "bbox": [
+            92,
+            72,
+            990,
+            95
+          ]
+        }
+      ],
+      "art_boxes": [
+        [
+          615,
+          110,
+          1305,
+          930
+        ]
+      ],
+      "text_bottom": 95,
+      "passed": true
+    },
+    {
+      "key": "A15",
+      "texts": [
+        {
+          "text": "QUIET ORIGINS  /  EP004",
+          "bbox": [
+            92,
+            24,
+            431,
+            46
+          ]
+        },
+        {
+          "text": "DRAWING｜素描",
+          "bbox": [
+            1604.0,
+            21,
+            1820.0,
+            48
+          ]
+        },
+        {
+          "text": "Van Nijmegen, Pandora ceiling design (detail) • 1677–1755 • Rijksmuseum, RP-T-1968-157",
+          "bbox": [
+            92,
+            72,
+            1031,
+            95
+          ]
+        }
+      ],
+      "art_boxes": [
+        [
+          393,
+          110,
+          1526,
+          930
+        ]
+      ],
+      "text_bottom": 95,
+      "passed": true
+    },
+    {
+      "key": "D_timeline",
+      "texts": [
+        {
+          "text": "QUIET ORIGINS  /  EP004",
+          "bbox": [
+            92,
+            24,
+            431,
+            46
+          ]
+        },
+        {
+          "text": "SCHEMATIC｜模式図",
+          "bbox": [
+            1545.0,
+            21,
+            1820.0,
+            48
+          ]
+        },
+        {
+          "text": "Hesiod",
+          "bbox": [
+            231.0,
+            562,
+            339.0,
+            587
+          ]
+        },
+        {
+          "text": "c. 700 BCE",
+          "bbox": [
+            206.0,
+            622,
+            364.0,
+            644
+          ]
+        },
+        {
+          "text": "Babrius",
+          "bbox": [
+            676.0,
+            562,
+            794.0,
+            587
+          ]
+        },
+        {
+          "text": "",
+          "bbox": [
+            735.0,
+            615,
+            735.0,
+            615
+          ]
+        },
+        {
+          "text": "Erasmus",
+          "bbox": [
+            1116.0,
+            562,
+            1254.0,
+            587
+          ]
+        },
+        {
+          "text": "1508",
+          "bbox": [
+            1151.0,
+            622,
+            1219.0,
+            644
+          ]
+        },
+        {
+          "text": "paintings",
+          "bbox": [
+            1565.5,
+            562,
+            1704.5,
+            594
+          ]
+        },
+        {
+          "text": "1500s–1800s",
+          "bbox": [
+            1542.5,
+            622,
+            1727.5,
+            644
+          ]
+        }
+      ],
+      "art_boxes": [],
+      "text_bottom": 644,
+      "passed": true
+    },
+    {
+      "key": "V03",
+      "texts": [
+        {
+          "text": "QUIET ORIGINS  /  EP004",
+          "bbox": [
+            92,
+            24,
+            431,
+            46
+          ]
+        },
+        {
+          "text": "AI RECONSTRUCTION｜AIによる再現",
+          "bbox": [
+            1332.0,
+            21,
+            1820.0,
+            48
+          ]
+        }
+      ],
+      "art_boxes": [
+        [
+          231,
+          110,
+          1689,
+          930
+        ]
+      ],
+      "text_bottom": 48,
+      "passed": true
+    },
+    {
+      "key": "credits",
+      "texts": [
+        {
+          "text": "QUIET ORIGINS  /  EP004",
+          "bbox": [
+            92,
+            24,
+            431,
+            46
+          ]
+        },
+        {
+          "text": "English",
+          "bbox": [
+            145,
+            181,
+            238,
+            207
+          ]
+        },
+        {
+          "text": "Kokoro / Heart (af_heart)",
+          "bbox": [
+            460,
+            180,
+            774,
+            207
+          ]
+        },
+        {
+          "text": "日本語",
+          "bbox": [
+            145,
+            246,
+            229,
+            274
+          ]
+        },
+        {
+          "text": "VOICEVOX:冥鳴ひまり",
+          "bbox": [
+            460,
+            246,
+            757,
+            273
+          ]
+        },
+        {
+          "text": "Collections",
+          "bbox": [
+            145,
+            322,
+            283,
+            343
+          ]
+        },
+        {
+          "text": "The Met • Louvre • NAM Athens • NGA",
+          "bbox": [
+            460,
+            322,
+            949,
+            343
+          ]
+        },
+        {
+          "text": "Collections",
+          "bbox": [
+            145,
+            393,
+            283,
+            414
+          ]
+        },
+        {
+          "text": "Rijksmuseum • Houghton Library • ULiège Library",
+          "bbox": [
+            460,
+            393,
+            1082,
+            420
+          ]
+        },
+        {
+          "text": "Photographs",
+          "bbox": [
+            145,
+            464,
+            307,
+            491
+          ]
+        },
+        {
+          "text": "Jastrow • Shonagon • Jona Lendering / Livius",
+          "bbox": [
+            460,
+            464,
+            1033,
+            491
+          ]
+        },
+        {
+          "text": "AI stills / video",
+          "bbox": [
+            144,
+            535,
+            326,
+            556
+          ]
+        },
+        {
+          "text": "OpenAI image generation / Kling AI",
+          "bbox": [
+            460,
+            535,
+            907,
+            562
+          ]
+        },
+        {
+          "text": "Music",
+          "bbox": [
+            145,
+            607,
+            218,
+            627
+          ]
+        },
+        {
+          "text": "Original ambient score • Quiet Origins",
+          "bbox": [
+            460,
+            606,
+            934,
+            633
+          ]
+        }
+      ],
+      "art_boxes": [],
+      "text_bottom": 633,
+      "passed": true
+    }
+  ]
+}

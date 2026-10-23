@@ -5,7 +5,7 @@ import numpy as np
 import soundfile as sf
 from PIL import Image
 from wom04_produce import ROOT,REPO,MEDIA,MODELS,read,save,sha,ff,content,SR,PHONEMES,REPLACEMENTS
-GH='yasukawa1980/youtube';TAG='wom04-pandora-v01-exact-20261023';GUIDE=REPO/'new-channel/wom04_確認版_v01_20261023'
+GH='yasukawa1980/youtube';TAG='wom04-pandora-v01-20261023';GUIDE=REPO/'new-channel/wom04_確認版_v01_20261023'
 def api(args,data=None):
  p=subprocess.run(['gh','api',*args],input=json.dumps(data) if data is not None else None,capture_output=True,text=True,check=True);return json.loads(p.stdout)
 def mm(t):n=int(t);return f'{n//60:02}:{n%60:02}'
@@ -131,9 +131,9 @@ gh api -H 'Accept: application/octet-stream' repos/{GH}/releases/assets/ASSET_ID
 
 原典追加確認3件は台本と一致し、f26ed6dで共有済み。英日表示台本は無変更、日本語は壺に統一。本編29ショット＋共通ブランド2カット。博物館資料18件・再現画5枚・AI動画3本・模式図2点・クレジット1点を各1回使用。
 
-指定の裸体回避クロップを適用。A01は全体から縁側へ3%の緩い寄り。A09は縦820pxの枠内、台座拡大なし。A12は全体とPixideの箇所を並置し、枠・下線なし。資料の画素に生成加工はしていない。
+指定の裸体回避クロップを適用。A01は全体から縁側へ3%の緩い寄り。A08は4%。V02は飛び立つ原動画4.5〜10秒を区間へ引き延ばし、フレーム補間して3%の寄りを加えた。A09は縦820pxの枠内、台座拡大なし。A12は全体とPixideの箇所を並置し、枠・下線なし。資料の画素に生成加工はしていない。
 
-AI静止画は組み込みOpenAI image generation。Kling動画は既存契約枠内で生成し、V01の壁付き暖炉、V03の現代的扉が映る初稿を不採用として保全。修正版を採用。生成・クレジット・原本SHAはai_videos.jsonとai_generation_costs.json。追加契約・購入なし。
+AI静止画は組み込みOpenAI image generation。Kling動画は既存契約枠内で生成し、V01の壁付き暖炉、V03の現代的扉が映る初稿を不採用として保全。修正版を採用。5本×80＝**400クレジット**。生成・原本SHAは[動画記録](wom04_確認版_v01_20261023/records/ai_videos.json)、消費は[クレジット記録](wom04_確認版_v01_20261023/records/ai_generation_costs.json)。追加契約・購入なし。
 
 ## 実測検査
 

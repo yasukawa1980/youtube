@@ -1,5 +1,5 @@
 """Quiet Origins EP004 v01. Local synthesis, shared timeline and media assembly.
-Usage: Python 3.12 with requirements_wom04.txt: python wom04_produce.py prepare|en|ja|timeline|audio
+Usage: Python 3.12 with the existing WOM02/03 local audio environment: python wom04_produce.py prepare|en|ja|timeline|audio
 No paid APIs, publication or changes to EP001. Reuses approved local engines/settings.
 """
 import argparse,copy,json,math,os,re,shutil,subprocess

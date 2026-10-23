@@ -32,13 +32,16 @@ def pictures():
    if key.startswith('V'):
     video=ROOT.parent/f'素材/{key}_Kling_v01.mp4'
     if not video.exists():missing.append(key);continue
-    cfg['video_sha256']=sha(video);v=next(x for x in probe(video)['streams'] if x['codec_type']=='video');fps=float(Fraction(v['avg_frame_rate']));frames=min(int(v['nb_frames']),round(fps*10));factor=(n/30)/(frames/fps)
-    z=f'(1+{.04 if key=="V02" else .03}*on/{max(1,n-1)})';x='0' if key=='V02' else f'(W-W/{z})/2';y=f'(H-H/{z})/2';pers=f"perspective=x0='{x}':y0='{y}':x1='W-{x}':y1='{y}':x2='{x}':y2='H-{y}':x3='W-{x}':y3='H-{y}':sense=source:eval=frame:interpolation=cubic"
-    filt=f'[1:v]trim=end_frame={frames},setpts=(PTS-STARTPTS)*{factor:.12f},scale=1458:820:flags=lanczos,minterpolate=fps=30:mi_mode=mci:mc_mode=aobmc:me_mode=bidir:vsbmc=1,tpad=stop_mode=clone:stop_duration=0.25,format=yuv444p,{pers}[art];[0:v][art]overlay=231:110:shortest=1,format=yuv420p[v]';args+=['-i',video]
+    cfg['video_sha256']=sha(video);v=next(x for x in probe(video)['streams'] if x['codec_type']=='video');fps=float(Fraction(v['avg_frame_rate']));end_frame=min(int(v['nb_frames']),round(fps*10));start_frame=round(fps*4.5) if key=='V02' else 0;frames=end_frame-start_frame;factor=(n/30)/(frames/fps)
+    z=f'(1+0.03*on/{max(1,n-1)})';x=f'(W-W/{z})/2';y=f'(H-H/{z})/2';pers=f"perspective=x0='{x}':y0='{y}':x1='W-{x}':y1='{y}':x2='{x}':y2='H-{y}':x3='W-{x}':y3='H-{y}':sense=source:eval=frame:interpolation=cubic"
+    filt=f'[1:v]trim=start_frame={start_frame}:end_frame={end_frame},setpts=(PTS-STARTPTS)*{factor:.12f},scale=1458:820:flags=lanczos,minterpolate=fps=30:mi_mode=mci:mc_mode=aobmc:me_mode=bidir:vsbmc=1,tpad=stop_mode=clone:stop_duration=0.25,format=yuv444p,{pers}[art];[0:v][art]overlay=231:110:shortest=1,format=yuv420p[v]';args+=['-i',video]
    cfg['filter']=filt
    if not(out.exists() and stamp.exists() and read(stamp)==cfg):
     ff([*args,'-filter_complex_threads',2,'-filter_complex',filt,'-map','[v]','-frames:v',n,'-an','-c:v','libx264','-threads',4,'-preset','veryfast','-crf',18,'-video_track_timescale',15360,'-color_primaries','bt709','-color_trc','bt709','-colorspace','bt709',out]);save(stamp,cfg)
-   parts.append(out);shots.append({**s,'start':int(bounds[j])/30,'end':int(bounds[j+1])/30,'frames':n,'encoded_file':str(out.relative_to(ROOT))});print('RENDERED',seg['id'],key,n,flush=True)
+   record={**s}
+   if key.startswith('V'):record.update({'source_video':str(video),'source_start_frame':start_frame,'source_end_frame':end_frame,'source_fps':fps,'time_scale':factor,'zoom_percent':3})
+   else:record['zoom_percent']=4 if key=='A08' else 3
+   parts.append(out);shots.append({**record,'start':int(bounds[j])/30,'end':int(bounds[j+1])/30,'frames':n,'encoded_file':str(out.relative_to(ROOT))});print('RENDERED',seg['id'],key,n,flush=True)
   if i==1:card('opening')
  card('endcard')
  if missing:save(ROOT/'records/render_progress.json',{'completed':shots,'missing':missing});print('WAITING',missing,flush=True);return
