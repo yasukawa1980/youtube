@@ -1,0 +1,951 @@
+{
+  "shots": [
+    {
+      "short_id": "T1",
+      "asset_id": "V01",
+      "start_frame": 0,
+      "end_frame": 421,
+      "frames": 421,
+      "file": "/Users/ryo/Desktop/新チャンネル/ショート/EP005_確認版_v01_20261024/assets/T1_V01.png",
+      "sha256": "d6f8f86a1e83900f54b18c469a5c25dc2c57d947f201bf03202140ef35153576",
+      "source": {
+        "id": "V01",
+        "path": "/Users/ryo/Desktop/新チャンネル/EP005_Tengu/確認版_v02_20261024/assets/V01_night_grade_v03.mp4",
+        "sha256": "d3b8218ac25752ba4a982595faa97bb98a614107a21367956a8fba890fc1baa8",
+        "kind": "video",
+        "label": "AI RECONSTRUCTION｜AIによる再現",
+        "source": ""
+      },
+      "texts": [
+        {
+          "text": "QUIET ORIGINS / EP005",
+          "bbox": [
+            80,
+            145,
+            365,
+            165
+          ]
+        },
+        {
+          "text": "AI RECONSTRUCTION｜AIによる再現",
+          "bbox": [
+            80,
+            181,
+            530,
+            206
+          ]
+        }
+      ],
+      "art_box": [
+        0,
+        396,
+        1080,
+        1004
+      ],
+      "source_crop_pixels": null,
+      "source_crop_normalized": null,
+      "zoom_start": 0.97,
+      "zoom_end": 1.0,
+      "viewport": [
+        0,
+        270,
+        1080,
+        860
+      ],
+      "cut_phrase": null,
+      "cut_word_seconds": null
+    },
+    {
+      "short_id": "T1",
+      "asset_id": "ndl_1182143_010",
+      "start_frame": 421,
+      "end_frame": 600,
+      "frames": 179,
+      "file": "/Users/ryo/Desktop/新チャンネル/ショート/EP005_確認版_v01_20261024/assets/T1_ndl_1182143_010.png",
+      "sha256": "2eb08ac98e66188ae0b6ec4951cbaeebcba5d014c80caf0da43d98c34ddd5bf0",
+      "source": {
+        "id": "ndl_1182143_010",
+        "path": "/Users/ryo/Desktop/新チャンネル/EP005_Tengu/素材/ndl_1182143_010.jpg",
+        "sha256": "075c82ade5dbfc755d3338362d8a3a550b9b2a06ee206643d8bb1f802f190b2a",
+        "kind": "image",
+        "label": "PRINTED BOOK｜刊本",
+        "source": "Nihon Shoki, vol. 23 • 1926 facsimile • frame 10 • National Diet Library Digital Collections",
+        "original_record": {
+          "key": "ndl_1182143_010",
+          "title": "日本書紀：秘籍大観 巻23・24（宮内省図書寮本の複製）",
+          "artist": "舎人親王等著／大阪毎日新聞社編",
+          "date": "1926（複製刊行）",
+          "accession": "わ091-117",
+          "museum": "国立国会図書館",
+          "page": "https://dl.ndl.go.jp/pid/1182143/1/10",
+          "url": "https://dl.ndl.go.jp/api/iiif/1182143/R0000010/full/full/0/default.jpg",
+          "rights": "保護期間満了 / PDM",
+          "rights_url": "https://dl.ndl.go.jp/sitepolicy",
+          "metadata_url": "https://dl.ndl.go.jp/api/iiif/1182143/manifest.json",
+          "rights_evidence": {
+            "Access Restrictions": "PDM",
+            "ui_text": "ログインなしで閲覧可能 インターネット公開（保護期間満了）",
+            "ui_checked": "2026-10-24"
+          },
+          "path": "/Users/ryo/Desktop/新チャンネル/EP005_Tengu/素材/ndl_1182143_010.jpg",
+          "pixels": [
+            7616,
+            5352
+          ],
+          "bytes": 3035255,
+          "sha256": "075c82ade5dbfc755d3338362d8a3a550b9b2a06ee206643d8bb1f802f190b2a",
+          "retrieved": "2026-10-24",
+          "category": "C03",
+          "segment": "P04",
+          "caution": "右頁に舒明9年条。「是天狗也」の傍訓もあるが、同一素材をP06に再使用しない。原写本の成立年は未確認。",
+          "status": "original_downloaded",
+          "canvas": 10,
+          "preview": "new-channel/サムネ確認用/wom05/ndl_1182143_010.jpg",
+          "preview_pixels": [
+            1280,
+            899
+          ],
+          "preview_bytes": 240625,
+          "asset_id": "ndl_1182143_010",
+          "local_path": "/Users/ryo/Desktop/新チャンネル/EP005_Tengu/素材/ndl_1182143_010.jpg"
+        }
+      },
+      "texts": [
+        {
+          "text": "QUIET ORIGINS / EP005",
+          "bbox": [
+            80,
+            145,
+            365,
+            165
+          ]
+        },
+        {
+          "text": "PRINTED BOOK｜刊本",
+          "bbox": [
+            80,
+            181,
+            350,
+            206
+          ]
+        },
+        {
+          "text": "Nihon Shoki, vol. 23 • 1926 facsimile • frame 10 • National Diet Library Digital Collections",
+          "bbox": [
+            80,
+            217,
+            863,
+            236
+          ]
+        }
+      ],
+      "art_box": [
+        353,
+        270,
+        726,
+        1130
+      ],
+      "source_crop_pixels": [
+        4570,
+        3024,
+        4988,
+        3987
+      ],
+      "source_crop_normalized": [
+        0.6,
+        0.565,
+        0.655,
+        0.745
+      ],
+      "zoom_start": 0.97,
+      "zoom_end": 1.0,
+      "viewport": [
+        0,
+        270,
+        1080,
+        860
+      ],
+      "cut_phrase": "it is a tengu",
+      "cut_word_seconds": 14.019
+    },
+    {
+      "short_id": "T2",
+      "asset_id": "met_57203",
+      "start_frame": 0,
+      "end_frame": 71,
+      "frames": 71,
+      "file": "/Users/ryo/Desktop/新チャンネル/ショート/EP005_確認版_v01_20261024/assets/T2_met_57203.png",
+      "sha256": "e1e396a774c422823450ca80a92ca76bdc5e6d6127568b28d1d2fd74d14d163a",
+      "source": {
+        "id": "met_57203",
+        "path": "/Users/ryo/Desktop/新チャンネル/EP005_Tengu/素材/met_57203.jpg",
+        "sha256": "ffd1ef510934f36a0ddb3893eb7c5c2290b03d23137b967b019044be6926974d",
+        "kind": "image",
+        "label": "PAINTING｜絵画",
+        "source": "Shibata Zeshin • Persimmons Branch and Wasp Nest above a Hedge (branch detail) • The Met, 36.100.118",
+        "original_record": {
+          "key": "met_57203",
+          "url": "https://images.metmuseum.org/CRDImages/as/original/DP205540.jpg",
+          "title": "Persimmons Branch and Wasp Nest above a Hedge",
+          "artist": "Shibata Zeshin",
+          "date": "",
+          "accession": "36.100.118",
+          "museum": "The Metropolitan Museum of Art",
+          "page": "https://www.metmuseum.org/art/collection/search/57203",
+          "rights": "CC0 / Public Domain",
+          "rights_url": "https://www.metmuseum.org/policies/image-resources",
+          "metadata_url": "https://collectionapi.metmuseum.org/public/collection/v1/objects/57203",
+          "path": "/Users/ryo/Desktop/新チャンネル/EP005_Tengu/素材/met_57203.jpg",
+          "pixels": [
+            1815,
+            2383
+          ],
+          "bytes": 1403057,
+          "sha256": "ffd1ef510934f36a0ddb3893eb7c5c2290b03d23137b967b019044be6926974d",
+          "retrieved": "2026-10-24",
+          "category": "C15",
+          "segment": "P08",
+          "caution": "柿枝と蜂の巣。年代欄はAPIで空欄のため未確認。",
+          "status": "original_downloaded",
+          "rights_evidence": {
+            "isPublicDomain": true,
+            "policy": "Met Open Access public-domain images released under CC0"
+          },
+          "preview": "new-channel/サムネ確認用/wom05/met_57203.jpg",
+          "preview_pixels": [
+            975,
+            1280
+          ],
+          "preview_bytes": 337404,
+          "asset_id": "met_57203",
+          "local_path": "/Users/ryo/Desktop/新チャンネル/EP005_Tengu/素材/met_57203.jpg"
+        }
+      },
+      "texts": [
+        {
+          "text": "QUIET ORIGINS / EP005",
+          "bbox": [
+            80,
+            145,
+            365,
+            165
+          ]
+        },
+        {
+          "text": "PAINTING｜絵画",
+          "bbox": [
+            80,
+            181,
+            276,
+            206
+          ]
+        },
+        {
+          "text": "Shibata Zeshin • Persimmons Branch and Wasp Nest above a Hedge (branch detail) • The Met,",
+          "bbox": [
+            80,
+            217,
+            928,
+            236
+          ]
+        },
+        {
+          "text": "36.100.118",
+          "bbox": [
+            80,
+            241,
+            180,
+            256
+          ]
+        }
+      ],
+      "art_box": [
+        308,
+        270,
+        772,
+        1130
+      ],
+      "source_crop_pixels": [
+        45,
+        36,
+        835,
+        1501
+      ],
+      "source_crop_normalized": [
+        0.025,
+        0.015,
+        0.46,
+        0.63
+      ],
+      "zoom_start": 0.97,
+      "zoom_end": 1.0,
+      "viewport": [
+        0,
+        270,
+        1080,
+        860
+      ],
+      "cut_phrase": null,
+      "cut_word_seconds": null
+    },
+    {
+      "short_id": "T2",
+      "asset_id": "V02",
+      "start_frame": 71,
+      "end_frame": 600,
+      "frames": 529,
+      "file": "/Users/ryo/Desktop/新チャンネル/ショート/EP005_確認版_v01_20261024/assets/T2_V02.png",
+      "sha256": "da270fd2375ce16c1d473596e04ebff04bf4b29b2032de74ed0fefe62625a2f6",
+      "source": {
+        "id": "V02",
+        "path": "/Users/ryo/Desktop/新チャンネル/EP005_Tengu/確認版_v02_20261024/_work/render/V02_v02.mp4",
+        "sha256": "1c8b2a9daa54f82ede338ee707b7534988ec7b3b2b7c31d9fbf5209289815a58",
+        "kind": "video",
+        "label": "AI RECONSTRUCTION｜AIによる再現",
+        "source": "Legend illustration｜説話のイメージ"
+      },
+      "texts": [
+        {
+          "text": "QUIET ORIGINS / EP005",
+          "bbox": [
+            80,
+            145,
+            365,
+            165
+          ]
+        },
+        {
+          "text": "AI RECONSTRUCTION｜AIによる再現",
+          "bbox": [
+            80,
+            181,
+            530,
+            206
+          ]
+        },
+        {
+          "text": "Legend illustration｜説話のイメージ",
+          "bbox": [
+            80,
+            212,
+            426,
+            236
+          ]
+        }
+      ],
+      "art_box": [
+        0,
+        396,
+        1080,
+        1004
+      ],
+      "source_crop_pixels": null,
+      "source_crop_normalized": null,
+      "zoom_start": 0.97,
+      "zoom_end": 1.0,
+      "viewport": [
+        0,
+        270,
+        1080,
+        860
+      ],
+      "cut_phrase": "a buddha appears",
+      "cut_word_seconds": 2.374
+    },
+    {
+      "short_id": "T3",
+      "asset_id": "met_24145",
+      "start_frame": 0,
+      "end_frame": 157,
+      "frames": 157,
+      "file": "/Users/ryo/Desktop/新チャンネル/ショート/EP005_確認版_v01_20261024/assets/T3_met_24145.png",
+      "sha256": "552c2f2b77c0b2727e6071d9d600aee8e40fb792d43b9d5ccfbf616df150cf3e",
+      "source": {
+        "id": "met_24145",
+        "path": "/Users/ryo/Desktop/新チャンネル/EP005_Tengu/素材/met_24145.jpg",
+        "sha256": "b5d5257a0bdd984358e068c536eccf13fa890cedcc08b3aefd4cf56c0975d571",
+        "kind": "image",
+        "label": "MUSEUM OBJECT｜博物館資料",
+        "source": "Mask in the Shape of a Mountain Demon’s Face • early 18th c. • Iron, lacquer, silk • The Met, 36.25.263a, b",
+        "original_record": {
+          "key": "met_24145",
+          "url": "https://images.metmuseum.org/CRDImages/aa/original/LC-36_25_263-005.jpg",
+          "title": "Mask in the Shape of a Mountain Demon's Face",
+          "artist": "",
+          "date": "early 18th century",
+          "accession": "36.25.263a, b",
+          "museum": "The Metropolitan Museum of Art",
+          "page": "https://www.metmuseum.org/art/collection/search/24145",
+          "rights": "CC0 / Public Domain",
+          "rights_url": "https://www.metmuseum.org/policies/image-resources",
+          "metadata_url": "https://collectionapi.metmuseum.org/public/collection/v1/objects/24145",
+          "path": "/Users/ryo/Desktop/新チャンネル/EP005_Tengu/素材/met_24145.jpg",
+          "pixels": [
+            3200,
+            4000
+          ],
+          "bytes": 1698087,
+          "sha256": "b5d5257a0bdd984358e068c536eccf13fa890cedcc08b3aefd4cf56c0975d571",
+          "retrieved": "2026-10-24",
+          "category": "C11",
+          "segment": "P10",
+          "caution": "鼻高の甲冑用面。宗教用の現代面ではない。",
+          "status": "original_downloaded",
+          "rights_evidence": {
+            "isPublicDomain": true,
+            "policy": "Met Open Access public-domain images released under CC0"
+          },
+          "preview": "new-channel/サムネ確認用/wom05/met_24145.jpg",
+          "preview_pixels": [
+            1024,
+            1280
+          ],
+          "preview_bytes": 111011,
+          "asset_id": "met_24145",
+          "local_path": "/Users/ryo/Desktop/新チャンネル/EP005_Tengu/素材/met_24145.jpg"
+        }
+      },
+      "texts": [
+        {
+          "text": "QUIET ORIGINS / EP005",
+          "bbox": [
+            80,
+            145,
+            365,
+            165
+          ]
+        },
+        {
+          "text": "MUSEUM OBJECT｜博物館資料",
+          "bbox": [
+            80,
+            181,
+            459,
+            206
+          ]
+        },
+        {
+          "text": "Mask in the Shape of a Mountain Demon’s Face • early 18th c. • Iron, lacquer, silk • The Met,",
+          "bbox": [
+            80,
+            217,
+            907,
+            236
+          ]
+        },
+        {
+          "text": "36.25.263a, b",
+          "bbox": [
+            80,
+            241,
+            203,
+            259
+          ]
+        }
+      ],
+      "art_box": [
+        196,
+        270,
+        884,
+        1130
+      ],
+      "source_crop_pixels": null,
+      "source_crop_normalized": null,
+      "zoom_start": 0.97,
+      "zoom_end": 1.0,
+      "viewport": [
+        0,
+        270,
+        1080,
+        860
+      ],
+      "cut_phrase": null,
+      "cut_word_seconds": null
+    },
+    {
+      "short_id": "T3",
+      "asset_id": "ndl_851648_028",
+      "start_frame": 157,
+      "end_frame": 425,
+      "frames": 268,
+      "file": "/Users/ryo/Desktop/新チャンネル/ショート/EP005_確認版_v01_20261024/assets/T3_ndl_851648_028.png",
+      "sha256": "04196e05f4fcb7c89ccdf3ab1e546a0afe45c2821eef94abe79d81d45b642e70",
+      "source": {
+        "id": "ndl_851648_028",
+        "path": "/Users/ryo/Desktop/新チャンネル/EP005_Tengu/素材/ndl_851648_028.jpg",
+        "sha256": "c23e589eec7cc470443d3523afd98a63504bbd3cec8d5d7b18bbb839c93a7be6",
+        "kind": "image",
+        "label": "PRINTED BOOK｜刊本",
+        "source": "Hokusai manga, vol. 3 (1815), 1878 printing • frame 28 • National Diet Library Digital Collections",
+        "original_record": {
+          "key": "ndl_851648_028",
+          "title": "北斎漫画 三編",
+          "artist": "葛飾北斎",
+          "date": "1878（当該刊本）",
+          "accession": "109-120",
+          "museum": "国立国会図書館",
+          "page": "https://dl.ndl.go.jp/pid/851648/1/28",
+          "url": "https://dl.ndl.go.jp/api/iiif/851648/R0000028/full/full/0/default.jpg",
+          "rights": "保護期間満了 / PDM",
+          "rights_url": "https://dl.ndl.go.jp/sitepolicy",
+          "metadata_url": "https://dl.ndl.go.jp/api/iiif/851648/manifest.json",
+          "rights_evidence": {
+            "Access Restrictions": "PDM",
+            "ui_text": "ログインなしで閲覧可能 インターネット公開（保護期間満了）",
+            "ui_checked": "2026-10-24"
+          },
+          "path": "/Users/ryo/Desktop/新チャンネル/EP005_Tengu/素材/ndl_851648_028.jpg",
+          "pixels": [
+            3501,
+            3044
+          ],
+          "bytes": 2711828,
+          "sha256": "c23e589eec7cc470443d3523afd98a63504bbd3cec8d5d7b18bbb839c93a7be6",
+          "retrieved": "2026-10-24",
+          "category": "C13",
+          "segment": "P12",
+          "caution": "右上に嘴・翼のある天狗。江戸期作品の明治期再版本。鼻高全身画ではない。他の頁も同じ素材として扱う。",
+          "status": "original_downloaded",
+          "canvas": 28,
+          "preview": "new-channel/サムネ確認用/wom05/ndl_851648_028.jpg",
+          "preview_pixels": [
+            1280,
+            1113
+          ],
+          "preview_bytes": 463647,
+          "asset_id": "ndl_851648_028",
+          "local_path": "/Users/ryo/Desktop/新チャンネル/EP005_Tengu/素材/ndl_851648_028.jpg"
+        }
+      },
+      "texts": [
+        {
+          "text": "QUIET ORIGINS / EP005",
+          "bbox": [
+            80,
+            145,
+            365,
+            165
+          ]
+        },
+        {
+          "text": "PRINTED BOOK｜刊本",
+          "bbox": [
+            80,
+            181,
+            350,
+            206
+          ]
+        },
+        {
+          "text": "Hokusai manga, vol. 3 (1815), 1878 printing • frame 28 • National Diet Library Digital Collections",
+          "bbox": [
+            80,
+            217,
+            929,
+            236
+          ]
+        }
+      ],
+      "art_box": [
+        0,
+        353,
+        1080,
+        1047
+      ],
+      "source_crop_pixels": [
+        1821,
+        746,
+        3361,
+        1735
+      ],
+      "source_crop_normalized": [
+        0.52,
+        0.245,
+        0.96,
+        0.57
+      ],
+      "zoom_start": 0.97,
+      "zoom_end": 1.0,
+      "viewport": [
+        0,
+        270,
+        1080,
+        860
+      ],
+      "cut_phrase": "in hokusai's sketchbook",
+      "cut_word_seconds": 5.239
+    },
+    {
+      "short_id": "T3",
+      "asset_id": "lacma_89199",
+      "start_frame": 425,
+      "end_frame": 600,
+      "frames": 175,
+      "file": "/Users/ryo/Desktop/新チャンネル/ショート/EP005_確認版_v01_20261024/assets/T3_lacma_89199.png",
+      "sha256": "5b05e8c286e14cf1a7ae8d5568af78045425322c770e80982a3a288fa0a59043",
+      "source": {
+        "id": "lacma_89199",
+        "path": "/Users/ryo/Desktop/新チャンネル/EP005_Tengu/素材/lacma_89199.jpg",
+        "sha256": "457683daded889b7d2cc40e2e791c1c705b30b0745f24f05db9ed25e3fb6bed7",
+        "kind": "image",
+        "label": "PUBLIC DOMAIN PRINT｜パブリックドメインの版画",
+        "source": "Kawanabe Kyosai • Yoshitsune Training with the Tengu Sojobo (detail) • 1863 • LACMA, M.84.31.530a-c",
+        "original_record": {
+          "key": "lacma_89199",
+          "title": "Yoshitsune Training with the Tengu Sōjōbō",
+          "artist": "Kawanabe Kyōsai",
+          "date": "1863, 9th month",
+          "accession": "M.84.31.530a-c",
+          "museum": "Los Angeles County Museum of Art",
+          "page": "https://collections.lacma.org/object/89199",
+          "url": "https://collections-images.lacma.org/images/89199/89199-1-desktop.jpg",
+          "rights": "Public Domain",
+          "rights_url": "https://www.lacma.org/about/contact-us/terms-use",
+          "rights_evidence": {
+            "official_page_publicDomain": 1,
+            "download_modal": "Public Domainの作品画像を無料で提供する旨と、Desktop / Maximum Availableダウンロードリンクを表示。",
+            "ui_checked": "2026-10-24",
+            "photo_credit": "photo © Museum Associates/LACMA",
+            "note": "写真クレジットの©表記も保持。作品別publicDomain=1とダウンロード説明を確認。"
+          },
+          "category": "D03",
+          "segment": "P11",
+          "caution": "牛若丸が天狗たちと稽古し、右の僧正坊が見守る三枚続。AIC広重とは別作品。劇的・誇張した動き。伝説の図で、能の舞台の絵ではない。Desktop版2980px取得、最大TIFFは未取得。",
+          "path": "/Users/ryo/Desktop/新チャンネル/EP005_Tengu/素材/lacma_89199.jpg",
+          "pixels": [
+            2980,
+            1496
+          ],
+          "bytes": 1063835,
+          "sha256": "457683daded889b7d2cc40e2e791c1c705b30b0745f24f05db9ed25e3fb6bed7",
+          "status": "original_downloaded",
+          "retrieved": "2026-10-24",
+          "preview": "new-channel/サムネ確認用/wom05/lacma_89199.jpg",
+          "preview_pixels": [
+            1280,
+            643
+          ],
+          "preview_bytes": 262736,
+          "asset_id": "lacma_89199",
+          "local_path": "/Users/ryo/Desktop/新チャンネル/EP005_Tengu/素材/lacma_89199.jpg"
+        }
+      },
+      "texts": [
+        {
+          "text": "QUIET ORIGINS / EP005",
+          "bbox": [
+            80,
+            145,
+            365,
+            165
+          ]
+        },
+        {
+          "text": "PUBLIC DOMAIN PRINT｜パブリックドメインの版画",
+          "bbox": [
+            80,
+            180,
+            698,
+            206
+          ]
+        },
+        {
+          "text": "Kawanabe Kyosai • Yoshitsune Training with the Tengu Sojobo (detail) • 1863 • LACMA,",
+          "bbox": [
+            80,
+            217,
+            859,
+            236
+          ]
+        },
+        {
+          "text": "M.84.31.530a-c",
+          "bbox": [
+            80,
+            241,
+            220,
+            256
+          ]
+        }
+      ],
+      "art_box": [
+        116,
+        270,
+        963,
+        1130
+      ],
+      "source_crop_pixels": [
+        1550,
+        45,
+        2950,
+        1466
+      ],
+      "source_crop_normalized": [
+        0.52,
+        0.03,
+        0.99,
+        0.98
+      ],
+      "zoom_start": 0.97,
+      "zoom_end": 1.0,
+      "viewport": [
+        0,
+        270,
+        1080,
+        860
+      ],
+      "cut_phrase": "for centuries",
+      "cut_word_seconds": 14.164
+    }
+  ],
+  "assets": {
+    "V01": {
+      "id": "V01",
+      "path": "/Users/ryo/Desktop/新チャンネル/EP005_Tengu/確認版_v02_20261024/assets/V01_night_grade_v03.mp4",
+      "sha256": "d3b8218ac25752ba4a982595faa97bb98a614107a21367956a8fba890fc1baa8",
+      "kind": "video",
+      "label": "AI RECONSTRUCTION｜AIによる再現",
+      "source": ""
+    },
+    "ndl_1182143_010": {
+      "id": "ndl_1182143_010",
+      "path": "/Users/ryo/Desktop/新チャンネル/EP005_Tengu/素材/ndl_1182143_010.jpg",
+      "sha256": "075c82ade5dbfc755d3338362d8a3a550b9b2a06ee206643d8bb1f802f190b2a",
+      "kind": "image",
+      "label": "PRINTED BOOK｜刊本",
+      "source": "Nihon Shoki, vol. 23 • 1926 facsimile • frame 10 • National Diet Library Digital Collections",
+      "original_record": {
+        "key": "ndl_1182143_010",
+        "title": "日本書紀：秘籍大観 巻23・24（宮内省図書寮本の複製）",
+        "artist": "舎人親王等著／大阪毎日新聞社編",
+        "date": "1926（複製刊行）",
+        "accession": "わ091-117",
+        "museum": "国立国会図書館",
+        "page": "https://dl.ndl.go.jp/pid/1182143/1/10",
+        "url": "https://dl.ndl.go.jp/api/iiif/1182143/R0000010/full/full/0/default.jpg",
+        "rights": "保護期間満了 / PDM",
+        "rights_url": "https://dl.ndl.go.jp/sitepolicy",
+        "metadata_url": "https://dl.ndl.go.jp/api/iiif/1182143/manifest.json",
+        "rights_evidence": {
+          "Access Restrictions": "PDM",
+          "ui_text": "ログインなしで閲覧可能 インターネット公開（保護期間満了）",
+          "ui_checked": "2026-10-24"
+        },
+        "path": "/Users/ryo/Desktop/新チャンネル/EP005_Tengu/素材/ndl_1182143_010.jpg",
+        "pixels": [
+          7616,
+          5352
+        ],
+        "bytes": 3035255,
+        "sha256": "075c82ade5dbfc755d3338362d8a3a550b9b2a06ee206643d8bb1f802f190b2a",
+        "retrieved": "2026-10-24",
+        "category": "C03",
+        "segment": "P04",
+        "caution": "右頁に舒明9年条。「是天狗也」の傍訓もあるが、同一素材をP06に再使用しない。原写本の成立年は未確認。",
+        "status": "original_downloaded",
+        "canvas": 10,
+        "preview": "new-channel/サムネ確認用/wom05/ndl_1182143_010.jpg",
+        "preview_pixels": [
+          1280,
+          899
+        ],
+        "preview_bytes": 240625,
+        "asset_id": "ndl_1182143_010",
+        "local_path": "/Users/ryo/Desktop/新チャンネル/EP005_Tengu/素材/ndl_1182143_010.jpg"
+      }
+    },
+    "met_57203": {
+      "id": "met_57203",
+      "path": "/Users/ryo/Desktop/新チャンネル/EP005_Tengu/素材/met_57203.jpg",
+      "sha256": "ffd1ef510934f36a0ddb3893eb7c5c2290b03d23137b967b019044be6926974d",
+      "kind": "image",
+      "label": "PAINTING｜絵画",
+      "source": "Shibata Zeshin • Persimmons Branch and Wasp Nest above a Hedge (branch detail) • The Met, 36.100.118",
+      "original_record": {
+        "key": "met_57203",
+        "url": "https://images.metmuseum.org/CRDImages/as/original/DP205540.jpg",
+        "title": "Persimmons Branch and Wasp Nest above a Hedge",
+        "artist": "Shibata Zeshin",
+        "date": "",
+        "accession": "36.100.118",
+        "museum": "The Metropolitan Museum of Art",
+        "page": "https://www.metmuseum.org/art/collection/search/57203",
+        "rights": "CC0 / Public Domain",
+        "rights_url": "https://www.metmuseum.org/policies/image-resources",
+        "metadata_url": "https://collectionapi.metmuseum.org/public/collection/v1/objects/57203",
+        "path": "/Users/ryo/Desktop/新チャンネル/EP005_Tengu/素材/met_57203.jpg",
+        "pixels": [
+          1815,
+          2383
+        ],
+        "bytes": 1403057,
+        "sha256": "ffd1ef510934f36a0ddb3893eb7c5c2290b03d23137b967b019044be6926974d",
+        "retrieved": "2026-10-24",
+        "category": "C15",
+        "segment": "P08",
+        "caution": "柿枝と蜂の巣。年代欄はAPIで空欄のため未確認。",
+        "status": "original_downloaded",
+        "rights_evidence": {
+          "isPublicDomain": true,
+          "policy": "Met Open Access public-domain images released under CC0"
+        },
+        "preview": "new-channel/サムネ確認用/wom05/met_57203.jpg",
+        "preview_pixels": [
+          975,
+          1280
+        ],
+        "preview_bytes": 337404,
+        "asset_id": "met_57203",
+        "local_path": "/Users/ryo/Desktop/新チャンネル/EP005_Tengu/素材/met_57203.jpg"
+      }
+    },
+    "V02": {
+      "id": "V02",
+      "path": "/Users/ryo/Desktop/新チャンネル/EP005_Tengu/確認版_v02_20261024/_work/render/V02_v02.mp4",
+      "sha256": "1c8b2a9daa54f82ede338ee707b7534988ec7b3b2b7c31d9fbf5209289815a58",
+      "kind": "video",
+      "label": "AI RECONSTRUCTION｜AIによる再現",
+      "source": "Legend illustration｜説話のイメージ"
+    },
+    "met_24145": {
+      "id": "met_24145",
+      "path": "/Users/ryo/Desktop/新チャンネル/EP005_Tengu/素材/met_24145.jpg",
+      "sha256": "b5d5257a0bdd984358e068c536eccf13fa890cedcc08b3aefd4cf56c0975d571",
+      "kind": "image",
+      "label": "MUSEUM OBJECT｜博物館資料",
+      "source": "Mask in the Shape of a Mountain Demon’s Face • early 18th c. • Iron, lacquer, silk • The Met, 36.25.263a, b",
+      "original_record": {
+        "key": "met_24145",
+        "url": "https://images.metmuseum.org/CRDImages/aa/original/LC-36_25_263-005.jpg",
+        "title": "Mask in the Shape of a Mountain Demon's Face",
+        "artist": "",
+        "date": "early 18th century",
+        "accession": "36.25.263a, b",
+        "museum": "The Metropolitan Museum of Art",
+        "page": "https://www.metmuseum.org/art/collection/search/24145",
+        "rights": "CC0 / Public Domain",
+        "rights_url": "https://www.metmuseum.org/policies/image-resources",
+        "metadata_url": "https://collectionapi.metmuseum.org/public/collection/v1/objects/24145",
+        "path": "/Users/ryo/Desktop/新チャンネル/EP005_Tengu/素材/met_24145.jpg",
+        "pixels": [
+          3200,
+          4000
+        ],
+        "bytes": 1698087,
+        "sha256": "b5d5257a0bdd984358e068c536eccf13fa890cedcc08b3aefd4cf56c0975d571",
+        "retrieved": "2026-10-24",
+        "category": "C11",
+        "segment": "P10",
+        "caution": "鼻高の甲冑用面。宗教用の現代面ではない。",
+        "status": "original_downloaded",
+        "rights_evidence": {
+          "isPublicDomain": true,
+          "policy": "Met Open Access public-domain images released under CC0"
+        },
+        "preview": "new-channel/サムネ確認用/wom05/met_24145.jpg",
+        "preview_pixels": [
+          1024,
+          1280
+        ],
+        "preview_bytes": 111011,
+        "asset_id": "met_24145",
+        "local_path": "/Users/ryo/Desktop/新チャンネル/EP005_Tengu/素材/met_24145.jpg"
+      }
+    },
+    "ndl_851648_028": {
+      "id": "ndl_851648_028",
+      "path": "/Users/ryo/Desktop/新チャンネル/EP005_Tengu/素材/ndl_851648_028.jpg",
+      "sha256": "c23e589eec7cc470443d3523afd98a63504bbd3cec8d5d7b18bbb839c93a7be6",
+      "kind": "image",
+      "label": "PRINTED BOOK｜刊本",
+      "source": "Hokusai manga, vol. 3 (1815), 1878 printing • frame 28 • National Diet Library Digital Collections",
+      "original_record": {
+        "key": "ndl_851648_028",
+        "title": "北斎漫画 三編",
+        "artist": "葛飾北斎",
+        "date": "1878（当該刊本）",
+        "accession": "109-120",
+        "museum": "国立国会図書館",
+        "page": "https://dl.ndl.go.jp/pid/851648/1/28",
+        "url": "https://dl.ndl.go.jp/api/iiif/851648/R0000028/full/full/0/default.jpg",
+        "rights": "保護期間満了 / PDM",
+        "rights_url": "https://dl.ndl.go.jp/sitepolicy",
+        "metadata_url": "https://dl.ndl.go.jp/api/iiif/851648/manifest.json",
+        "rights_evidence": {
+          "Access Restrictions": "PDM",
+          "ui_text": "ログインなしで閲覧可能 インターネット公開（保護期間満了）",
+          "ui_checked": "2026-10-24"
+        },
+        "path": "/Users/ryo/Desktop/新チャンネル/EP005_Tengu/素材/ndl_851648_028.jpg",
+        "pixels": [
+          3501,
+          3044
+        ],
+        "bytes": 2711828,
+        "sha256": "c23e589eec7cc470443d3523afd98a63504bbd3cec8d5d7b18bbb839c93a7be6",
+        "retrieved": "2026-10-24",
+        "category": "C13",
+        "segment": "P12",
+        "caution": "右上に嘴・翼のある天狗。江戸期作品の明治期再版本。鼻高全身画ではない。他の頁も同じ素材として扱う。",
+        "status": "original_downloaded",
+        "canvas": 28,
+        "preview": "new-channel/サムネ確認用/wom05/ndl_851648_028.jpg",
+        "preview_pixels": [
+          1280,
+          1113
+        ],
+        "preview_bytes": 463647,
+        "asset_id": "ndl_851648_028",
+        "local_path": "/Users/ryo/Desktop/新チャンネル/EP005_Tengu/素材/ndl_851648_028.jpg"
+      }
+    },
+    "lacma_89199": {
+      "id": "lacma_89199",
+      "path": "/Users/ryo/Desktop/新チャンネル/EP005_Tengu/素材/lacma_89199.jpg",
+      "sha256": "457683daded889b7d2cc40e2e791c1c705b30b0745f24f05db9ed25e3fb6bed7",
+      "kind": "image",
+      "label": "PUBLIC DOMAIN PRINT｜パブリックドメインの版画",
+      "source": "Kawanabe Kyosai • Yoshitsune Training with the Tengu Sojobo (detail) • 1863 • LACMA, M.84.31.530a-c",
+      "original_record": {
+        "key": "lacma_89199",
+        "title": "Yoshitsune Training with the Tengu Sōjōbō",
+        "artist": "Kawanabe Kyōsai",
+        "date": "1863, 9th month",
+        "accession": "M.84.31.530a-c",
+        "museum": "Los Angeles County Museum of Art",
+        "page": "https://collections.lacma.org/object/89199",
+        "url": "https://collections-images.lacma.org/images/89199/89199-1-desktop.jpg",
+        "rights": "Public Domain",
+        "rights_url": "https://www.lacma.org/about/contact-us/terms-use",
+        "rights_evidence": {
+          "official_page_publicDomain": 1,
+          "download_modal": "Public Domainの作品画像を無料で提供する旨と、Desktop / Maximum Availableダウンロードリンクを表示。",
+          "ui_checked": "2026-10-24",
+          "photo_credit": "photo © Museum Associates/LACMA",
+          "note": "写真クレジットの©表記も保持。作品別publicDomain=1とダウンロード説明を確認。"
+        },
+        "category": "D03",
+        "segment": "P11",
+        "caution": "牛若丸が天狗たちと稽古し、右の僧正坊が見守る三枚続。AIC広重とは別作品。劇的・誇張した動き。伝説の図で、能の舞台の絵ではない。Desktop版2980px取得、最大TIFFは未取得。",
+        "path": "/Users/ryo/Desktop/新チャンネル/EP005_Tengu/素材/lacma_89199.jpg",
+        "pixels": [
+          2980,
+          1496
+        ],
+        "bytes": 1063835,
+        "sha256": "457683daded889b7d2cc40e2e791c1c705b30b0745f24f05db9ed25e3fb6bed7",
+        "status": "original_downloaded",
+        "retrieved": "2026-10-24",
+        "preview": "new-channel/サムネ確認用/wom05/lacma_89199.jpg",
+        "preview_pixels": [
+          1280,
+          643
+        ],
+        "preview_bytes": 262736,
+        "asset_id": "lacma_89199",
+        "local_path": "/Users/ryo/Desktop/新チャンネル/EP005_Tengu/素材/lacma_89199.jpg"
+      }
+    }
+  },
+  "same_source_not_repeated": true
+}

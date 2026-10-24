@@ -1,0 +1,52 @@
+{
+  "passed": true,
+  "unique_sources": 5,
+  "rows": [
+    {
+      "short_id": "T1",
+      "episode": "EP005",
+      "asset_id": "V01",
+      "start_seconds": 0.0,
+      "end_seconds": 14.033333333333333,
+      "use_count": 1,
+      "source_sha256": "d3b8218ac25752ba4a982595faa97bb98a614107a21367956a8fba890fc1baa8"
+    },
+    {
+      "short_id": "T1",
+      "episode": "EP005",
+      "asset_id": "ndl_1182143_010",
+      "start_seconds": 14.033333333333333,
+      "end_seconds": 20.0,
+      "use_count": 1,
+      "source_sha256": "075c82ade5dbfc755d3338362d8a3a550b9b2a06ee206643d8bb1f802f190b2a"
+    },
+    {
+      "short_id": "T3",
+      "episode": "EP005",
+      "asset_id": "met_24145",
+      "start_seconds": 0.0,
+      "end_seconds": 5.233333333333333,
+      "use_count": 1,
+      "source_sha256": "b5d5257a0bdd984358e068c536eccf13fa890cedcc08b3aefd4cf56c0975d571"
+    },
+    {
+      "short_id": "T3",
+      "episode": "EP005",
+      "asset_id": "ndl_851648_028",
+      "start_seconds": 5.233333333333333,
+      "end_seconds": 14.166666666666666,
+      "use_count": 1,
+      "source_sha256": "c23e589eec7cc470443d3523afd98a63504bbd3cec8d5d7b18bbb839c93a7be6"
+    },
+    {
+      "short_id": "T3",
+      "episode": "EP005",
+      "asset_id": "lacma_89199",
+      "start_seconds": 14.166666666666666,
+      "end_seconds": 20.0,
+      "use_count": 1,
+      "source_sha256": "457683daded889b7d2cc40e2e791c1c705b30b0745f24f05db9ed25e3fb6bed7"
+    }
+  ],
+  "same_source_not_repeated_within_episode": true
+}

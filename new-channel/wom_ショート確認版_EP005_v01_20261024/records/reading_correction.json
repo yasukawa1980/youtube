@@ -1,0 +1,24 @@
+{
+  "main_reading_replacements": "/Users/ryo/Desktop/新チャンネル/EP005_Tengu/確認版_v02_20261024/records/reading_replacements.json",
+  "main_reading_replacements_sha256": "cecc2464411e07e8b843b056625bff34944a6039ddaa131f07c333a7646a2343",
+  "phoneme_overrides_same_as_main": {
+    "Nihon Shoki": "nˈiːhɑːn ʃˈoʊki",
+    "Konjaku Monogatari": "kɑːndʒˈɑːkuː moʊnoʊɡɑːtˈɑːɹi",
+    "yamabushi": "jɑːmɑːbˈuːʃi",
+    "Kurama": "kˈuːɹɑːmɑː",
+    "Minamoto no Yoshitsune": "miːnɑːmˈoʊtoʊ noʊ joʊʃˈiːtsuːneɪ",
+    "Ushiwakamaru": "uːʃiːwɑːkɑːmˈɑːɹuː",
+    "Hokusai": "hˈoʊkuːsaɪ",
+    "Kyoto": "kjˈoʊtoʊ"
+  },
+  "possessive_inflection": {
+    "Hokusai's": "hˈoʊkuːsaɪz"
+  },
+  "possessive_note": "Same Hokusai root + /z/; prevents standalone letter S from being spoken, as in the approved EP004 Shorts.",
+  "tengu_and_Bin": "Native tokenizer pronunciation, as in the main episode; no added override.",
+  "text_unchanged": true,
+  "voice": "af_heart",
+  "speed": 0.82,
+  "sentence_pause": 0.3,
+  "clause_pause": 0.12
+}

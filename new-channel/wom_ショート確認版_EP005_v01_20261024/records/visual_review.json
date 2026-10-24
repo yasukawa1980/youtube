@@ -1,0 +1,18 @@
+{
+  "passed": true,
+  "reviewed_ids": [
+    "T1",
+    "T3"
+  ],
+  "video_sha256": {
+    "T1": "abfd8c0d443e3acc0db5ef4d5b5d98f9ad857a3fc35f8b220bdbad74a8563e87",
+    "T3": "6e72afb4143b4d165ad438884d1e7ae2865ec2a4f45ecd457a594c335cfdaf3f"
+  },
+  "method": "Inspected every-2-second contact sheets and midpoint JPGs; measured every subtitle glyph page and every motion frame separately.",
+  "findings": {
+    "T1": "Dark wooded hills and leading fireball head; trailing tail; Nihon Shoki detail includes complete 是天狗也; 1926 and frame 10 label; CTA below subtitle.",
+    "T3": "Long-nosed mask; right-page Hokusai detail includes 天狗 and bird, 1815/1878/frame 28 credit; Kyosai right-hand tengu grouping, not sword clash; CTA below subtitle."
+  },
+  "T2": "Not rendered; picture timing choice pending. The prepared source is the approved face-softened EP005 v02 clip.",
+  "human_full_listening": false
+}

@@ -1,0 +1,47 @@
+{
+  "passed": true,
+  "media": [
+    {
+      "id": "T1",
+      "name": "QO_short_EP005_T1_v01.mp4",
+      "sha256": "abfd8c0d443e3acc0db5ef4d5b5d98f9ad857a3fc35f8b220bdbad74a8563e87",
+      "bytes": 1869440,
+      "frames": 600,
+      "duration_seconds": 20.0,
+      "video_duration_seconds": 20.0,
+      "lufs": -14.0,
+      "true_peak_dbtp": -2.53,
+      "voice_onset_normalized_stem_seconds": 0.1,
+      "voice_onset_threshold_dbfs": -50,
+      "voice_onset_window_seconds": 0.01,
+      "bgm_during_narration_dbfs": -33.499999588701016,
+      "full_decode": true,
+      "exact_pts_30fps": true,
+      "audio_stream_matches_measured_m4a": true,
+      "cta_seconds": 2.0
+    },
+    {
+      "id": "T3",
+      "name": "QO_short_EP005_T3_v01.mp4",
+      "sha256": "6e72afb4143b4d165ad438884d1e7ae2865ec2a4f45ecd457a594c335cfdaf3f",
+      "bytes": 16477471,
+      "frames": 600,
+      "duration_seconds": 20.0,
+      "video_duration_seconds": 20.0,
+      "lufs": -13.99,
+      "true_peak_dbtp": -2.53,
+      "voice_onset_normalized_stem_seconds": 0.08,
+      "voice_onset_threshold_dbfs": -50,
+      "voice_onset_window_seconds": 0.01,
+      "bgm_during_narration_dbfs": -33.50000003457695,
+      "full_decode": true,
+      "exact_pts_30fps": true,
+      "audio_stream_matches_measured_m4a": true,
+      "cta_seconds": 2.0
+    }
+  ],
+  "request_sha256": "3bd71c1e447d4b8b0f20e9a6653f9596370351daf3e18098cf88242f7cb1dace",
+  "render_shots_sha256": "bbea411617c51e40e2e38d7bf0f405d2d93816d4966b522021491ce5c8372c00",
+  "audio_qc_sha256": "d7da29cf09e293123b2a53f946eab12940237fe4b1a94780ab9fead782cf7183",
+  "human_full_listening": false
+}
