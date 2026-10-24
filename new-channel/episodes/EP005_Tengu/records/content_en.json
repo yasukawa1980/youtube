@@ -1,0 +1,280 @@
+{
+ "episode_id": "EP005",
+ "series": "Quiet Origins",
+ "language": "en",
+ "title": "The First Tengu Was a Star | What the Oldest Sources Say",
+ "subtitle": "How a roaring star in Japan's oldest chronicle became the long-nosed goblin of the mountains",
+ "script_version": "v02 (2026-10-24, approved)",
+ "opening_after": "P02",
+ "chapters": [
+  {
+   "id": "C01",
+   "title": "The Long-Nosed Goblin"
+  },
+  {
+   "id": "C02",
+   "title": "A Star That Barked"
+  },
+  {
+   "id": "C03",
+   "title": "Birds That Fooled the Faithful"
+  },
+  {
+   "id": "C04",
+   "title": "The Long Nose"
+  },
+  {
+   "id": "C05",
+   "title": "Star, Bird, and Goblin"
+  }
+ ],
+ "sources": [
+  {
+   "id": "T-S01",
+   "title": "Nihon Shoki, Book 23, Jomei 9 (637), 2nd month; NDL facsimile (Hiseki taikan, 1926), frame 10; W. G. Aston, Nihongi, vol. II (1896), pp. 167–168",
+   "kind": "primary_text",
+   "status": "checked by Codex 2026-10-24 (image and Aston): great star east to west, sound like thunder, 'falling star', 'earth-thunder'; priest Bin: 'the Celestial Dog'"
+  },
+  {
+   "id": "T-S02",
+   "title": "Interlinear gloss on 天狗 in the same entry; Aston note 'Ama no Kitsune, or the Celestial Fox'",
+   "kind": "primary_text",
+   "status": "gloss and note seen; exact reading and date of the gloss unconfirmed — script does not state the reading"
+  },
+  {
+   "id": "T-S03",
+   "title": "Bin (Min) as a monk who studied in China (Nihongi, 632 return)",
+   "kind": "primary_text",
+   "status": "return in 632 confirmed; length of study not stated in script"
+  },
+  {
+   "id": "T-S04",
+   "title": "Sima Qian, Shiji 27 (Tianguan shu); NDL 958959, frame 87 (1925 printed edition)",
+   "kind": "primary_text",
+   "status": "checked by Codex 2026-10-24: 天狗，狀如大奔星，有聲，其下止地，類狗. No PD English translation found"
+  },
+  {
+   "id": "T-S05",
+   "title": "Konjaku monogatari shū 20-3; Uji shūi monogatari 32",
+   "kind": "primary_text",
+   "status": "checked via transcriptions 2026-10-24: persimmon tree at Gojō in the capital, minister stares, a large kite (屎鵄) with a broken wing falls"
+  },
+  {
+   "id": "T-S06",
+   "title": "Konjaku monogatari shū (compiled 12th century, c. 1120 or later), 20-2",
+   "kind": "primary_text",
+   "status": "checked 2026-10-24: Chinese tengu Chira Eiju tests Japanese monks, seized and trampled by the boy attendants"
+  },
+  {
+   "id": "T-S07",
+   "title": "Tengu zōshi (c. 1296)",
+   "kind": "museum_record",
+   "status": "date and theme (pride of monks as tengu) from museum commentary; images not used"
+  },
+  {
+   "id": "T-S08",
+   "title": "Zegaibō-e (Manshuin, c. 1354)",
+   "kind": "museum_record",
+   "status": "date from Tobunken record; images not used"
+  },
+  {
+   "id": "T-S10",
+   "title": "Noh play Kurama Tengu (author unknown)",
+   "kind": "secondary",
+   "status": "great tengu teaches Ushiwakamaru the arts of war"
+  },
+  {
+   "id": "T-S11",
+   "title": "Museum records: Met 36.25.263a, b (armor mask, early 18th c.); Met 10.211.1327 (netsuke, 19th c.); NDL 851648 Hokusai manga vol. 3 (1815; 1878 printing), frame 28; AIC 26700, 154960; LACMA 89199; Met 40011",
+   "kind": "museum_record",
+   "status": "checked by Codex 2026-10-24"
+  }
+ ],
+ "segments": [
+  {
+   "id": "P01",
+   "chapter": "C01",
+   "sources": [],
+   "classification": "editorial_question",
+   "visuals": [
+    "met_40011_DP206881"
+   ],
+   "text": "A red face. A very long nose. Wings on the back, and a fan of feathers in one hand. This is the tengu, the mountain goblin of Japanese legend. Its name is written with two characters that mean \"heavenly dog.\" Yet the tengu we know looks nothing like a dog. And in the oldest Japanese record, the tengu is not a creature of the mountains at all. It is something in the sky."
+  },
+  {
+   "id": "P02",
+   "chapter": "C01",
+   "sources": [],
+   "classification": "editorial_question",
+   "visuals": [
+    "ndl_12865768_001",
+    "met_22470"
+   ],
+   "text": "In this episode, we follow the tengu from a court chronicle of the year 720, through medieval tales, to the masks, carvings, and printed books of later centuries."
+  },
+  {
+   "id": "P03",
+   "chapter": "C02",
+   "sources": [
+    "T-S01"
+   ],
+   "classification": "source_based",
+   "visuals": [
+    "V01"
+   ],
+   "text": "The Nihon Shoki, the Chronicles of Japan, was completed in 720. Its entry for the year 637 records a strange event. A great star flowed across the sky from east to west, with a sound like thunder. Some people said it was the sound of a falling star. Others said it was thunder from the earth."
+  },
+  {
+   "id": "P04",
+   "chapter": "C02",
+   "sources": [
+    "T-S01",
+    "T-S03"
+   ],
+   "classification": "source_based",
+   "visuals": [
+    "ndl_1182143_010"
+   ],
+   "text": "Then a Buddhist monk named Bin, who had studied in China, gave a different answer. It is not a falling star, he said. It is a tengu, a celestial dog, and the sound of its barking is like thunder. This is thought to be the first time the word appears in a Japanese record."
+  },
+  {
+   "id": "P05",
+   "chapter": "C02",
+   "sources": [
+    "T-S04"
+   ],
+   "classification": "source_based",
+   "visuals": [
+    "ndl_958959_087"
+   ],
+   "text": "Bin was drawing on Chinese learning. In the Records of the Grand Historian, written in China more than two thousand years ago, the heavenly dog is a kind of star. It looks like a great shooting star, it makes a sound, and where it comes down to earth, it looks like a dog. Today, we might call such a sight a fireball, a very bright meteor."
+  },
+  {
+   "id": "P06",
+   "chapter": "C02",
+   "sources": [
+    "T-S02"
+   ],
+   "classification": "source_based",
+   "visuals": [
+    "D_gloss"
+   ],
+   "text": "In one old copy of the chronicle, a small reading note beside the word calls it a heavenly fox. After this, the word almost disappears from the records for several centuries."
+  },
+  {
+   "id": "P07",
+   "chapter": "C03",
+   "sources": [
+    "T-S06"
+   ],
+   "classification": "source_based",
+   "visuals": [
+    "ndl_945414_003"
+   ],
+   "text": "When the tengu returns, it has changed. In the Konjaku Monogatari, a great collection of tales from the twelfth century, tengu deceive people, and try to lead Buddhist monks away from their practice. They are proud and clever, and in the end, they are usually defeated."
+  },
+  {
+   "id": "P08",
+   "chapter": "C03",
+   "sources": [
+    "T-S05"
+   ],
+   "classification": "source_based",
+   "visuals": [
+    "met_57203",
+    "V02"
+   ],
+   "text": "In one tale, a Buddha appears in the branches of a persimmon tree in the capital, shining and scattering flowers. Crowds come to worship. But one minister has his doubts, and he simply keeps staring. At last the Buddha vanishes, and a great kite with a broken wing falls from the tree. The tengu was a bird all along."
+  },
+  {
+   "id": "P09",
+   "chapter": "C03",
+   "sources": [
+    "T-S06",
+    "T-S07",
+    "T-S08"
+   ],
+   "classification": "source_based",
+   "visuals": [
+    "met_23997",
+    "met_59737"
+   ],
+   "text": "In another tale, a tengu from China crosses the sea to test the monks of Japan, and is badly beaten by the young attendants who guard them. Picture scrolls of the 1200s and 1300s retold such stories, and many of their tengu have the beaks and wings of birds of prey. The Tengu Zōshi, from around 1296, even shows proud monks as tengu, as a warning against pride. This bird-faced form lives on today as the karasu tengu, the \"crow tengu.\""
+  },
+  {
+   "id": "P10",
+   "chapter": "C04",
+   "sources": [
+    "T-S11"
+   ],
+   "classification": "source_based",
+   "visuals": [
+    "met_24145"
+   ],
+   "text": "Over time, another kind of tengu became familiar: a red face, a long nose, and the dress of a yamabushi, one of the mountain ascetics of Japan, with a fan of feathers. Exactly when the long nose first appeared is not clear. This mask, made for a suit of armor in the early 1700s, already gives the tengu a long, jutting nose."
+  },
+  {
+   "id": "P11",
+   "chapter": "C04",
+   "sources": [
+    "T-S10",
+    "T-S11"
+   ],
+   "classification": "source_based",
+   "visuals": [
+    "aic_154960",
+    "aic_26700",
+    "met_60361"
+   ],
+   "text": "Mount Kurama, north of Kyoto, became famous for its great tengu. A Noh play, Kurama Tengu, tells how the young Minamoto no Yoshitsune, then called Ushiwakamaru, learned the arts of war from the great tengu of the mountain. Edo-period artists returned to this scene again and again, in prints and in small carvings like this one."
+  },
+  {
+   "id": "P12",
+   "chapter": "C04",
+   "sources": [
+    "T-S11"
+   ],
+   "classification": "source_based",
+   "visuals": [
+    "ndl_851648_028",
+    "lacma_89199",
+    "R01"
+   ],
+   "text": "And the bird never went away. In this book of sketches by Hokusai, the figure labeled \"tengu\" is still a great bird. For centuries, long-nosed tengu and bird-faced tengu lived side by side. Over time, tengu also became guardians. At some mountain temples and shrines, they are still honored as protectors of the mountain today."
+  },
+  {
+   "id": "P13",
+   "chapter": "C05",
+   "sources": [
+    "T-S01",
+    "T-S05",
+    "T-S11"
+   ],
+   "classification": "summary",
+   "visuals": [
+    "D_forms"
+   ],
+   "text": "So what was the first tengu? In the oldest record, it is a star that roared across the sky. In medieval tales, it is a bird that deceives and tests the faithful. The long-nosed figure came later, and joined the bird rather than replacing it."
+  },
+  {
+   "id": "P14",
+   "chapter": "C05",
+   "sources": [],
+   "classification": "summary",
+   "visuals": [
+    "V03"
+   ],
+   "text": "The tengu we picture today is not the oldest part of the legend. It is one of the newest. Every story has an origin. Sometimes, it begins in the sky."
+  },
+  {
+   "id": "P15",
+   "chapter": "C05",
+   "sources": [],
+   "classification": "credits",
+   "visuals": [
+    "credits"
+   ],
+   "text": "This video is based on historical texts and public museum collections. The narration uses synthetic speech, and some images are AI-generated reconstructions. Sources and terms of use are listed in the description. If you enjoyed this story, please like the video and subscribe for more quiet origins. Thank you for watching."
+  }
+ ]
+}
