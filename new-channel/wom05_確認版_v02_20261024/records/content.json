@@ -1,0 +1,282 @@
+{
+ "episode_id": "EP005",
+ "series": "Quiet Origins",
+ "language": "ja",
+ "title": "最初の天狗は、星だった",
+ "subtitle": "『日本書紀』の流れる星が、山の鼻高天狗になるまで",
+ "script_version": "v02 (2026-10-24, approved)",
+ "opening_after": "P02",
+ "chapters": [
+  {
+   "id": "C01",
+   "title": "鼻の長い山の妖怪"
+  },
+  {
+   "id": "C02",
+   "title": "吠える星"
+  },
+  {
+   "id": "C03",
+   "title": "人をだます鳥"
+  },
+  {
+   "id": "C04",
+   "title": "長い鼻"
+  },
+  {
+   "id": "C05",
+   "title": "星と鳥と天狗"
+  }
+ ],
+ "sources": [
+  {
+   "id": "T-S01",
+   "title": "Nihon Shoki, Book 23, Jomei 9 (637), 2nd month; NDL facsimile (Hiseki taikan, 1926), frame 10; W. G. Aston, Nihongi, vol. II (1896), pp. 167–168",
+   "kind": "primary_text",
+   "status": "checked by Codex 2026-10-24 (image and Aston): great star east to west, sound like thunder, 'falling star', 'earth-thunder'; priest Bin: 'the Celestial Dog'"
+  },
+  {
+   "id": "T-S02",
+   "title": "Interlinear gloss on 天狗 in the same entry; Aston note 'Ama no Kitsune, or the Celestial Fox'",
+   "kind": "primary_text",
+   "status": "gloss and note seen; exact reading and date of the gloss unconfirmed — script does not state the reading"
+  },
+  {
+   "id": "T-S03",
+   "title": "Bin (Min) as a monk who studied in China (Nihongi, 632 return)",
+   "kind": "primary_text",
+   "status": "return in 632 confirmed; length of study not stated in script"
+  },
+  {
+   "id": "T-S04",
+   "title": "Sima Qian, Shiji 27 (Tianguan shu); NDL 958959, frame 87 (1925 printed edition)",
+   "kind": "primary_text",
+   "status": "checked by Codex 2026-10-24: 天狗，狀如大奔星，有聲，其下止地，類狗. No PD English translation found"
+  },
+  {
+   "id": "T-S05",
+   "title": "Konjaku monogatari shū 20-3; Uji shūi monogatari 32",
+   "kind": "primary_text",
+   "status": "checked via transcriptions 2026-10-24: persimmon tree at Gojō in the capital, minister stares, a large kite (屎鵄) with a broken wing falls"
+  },
+  {
+   "id": "T-S06",
+   "title": "Konjaku monogatari shū (compiled 12th century, c. 1120 or later), 20-2",
+   "kind": "primary_text",
+   "status": "checked 2026-10-24: Chinese tengu Chira Eiju tests Japanese monks, seized and trampled by the boy attendants"
+  },
+  {
+   "id": "T-S07",
+   "title": "Tengu zōshi (c. 1296)",
+   "kind": "museum_record",
+   "status": "date and theme (pride of monks as tengu) from museum commentary; images not used"
+  },
+  {
+   "id": "T-S08",
+   "title": "Zegaibō-e (Manshuin, c. 1354)",
+   "kind": "museum_record",
+   "status": "date from Tobunken record; images not used"
+  },
+  {
+   "id": "T-S10",
+   "title": "Noh play Kurama Tengu (author unknown)",
+   "kind": "secondary",
+   "status": "great tengu teaches Ushiwakamaru the arts of war"
+  },
+  {
+   "id": "T-S11",
+   "title": "Museum records: Met 36.25.263a, b (armor mask, early 18th c.); Met 10.211.1327 (netsuke, 19th c.); NDL 851648 Hokusai manga vol. 3 (1815; 1878 printing), frame 28; AIC 26700, 154960; LACMA 89199; Met 40011",
+   "kind": "museum_record",
+   "status": "checked by Codex 2026-10-24"
+  }
+ ],
+ "segments": [
+  {
+   "id": "P01",
+   "chapter": "C01",
+   "sources": [],
+   "classification": "editorial_question",
+   "visuals": [
+    "met_40011_DP206881",
+    "R01"
+   ],
+   "text": "赤い顔。とても長い鼻。背中の翼と、手には羽のうちわ。日本の伝説に出てくる山の妖怪、天狗です。その名は「天の犬」と書きます。けれど、私たちの知る天狗は、少しも犬に似ていません。そして、日本に残るいちばん古い記録では、天狗は山の生き物ですらありません。空にあるものなのです。"
+  },
+  {
+   "id": "P02",
+   "chapter": "C01",
+   "sources": [],
+   "classification": "editorial_question",
+   "visuals": [
+    "ndl_12865768_001",
+    "met_22470"
+   ],
+   "text": "今回は、720年にまとめられた朝廷の歴史書から、中世の説話、そして後の時代の面や彫り物、版本まで、天狗をたどります。"
+  },
+  {
+   "id": "P03",
+   "chapter": "C02",
+   "sources": [
+    "T-S01"
+   ],
+   "classification": "source_based",
+   "visuals": [
+    "R02",
+    "V01"
+   ],
+   "text": "『日本書紀』は720年に完成しました。その637年の記事に、ふしぎな出来事が書かれています。大きな星が、雷のような音を立てて、東から西へ空を流れました。ある人々は、流れ星の音だと言いました。ほかの人々は、地の雷だと言いました。"
+  },
+  {
+   "id": "P04",
+   "chapter": "C02",
+   "sources": [
+    "T-S01",
+    "T-S03"
+   ],
+   "classification": "source_based",
+   "visuals": [
+    "ndl_1182143_010"
+   ],
+   "text": "そこへ、中国で学んだ旻（みん）という僧が、別の答えを出します。これは流れ星ではない。天狗、天の犬だ。その吠える声が、雷に似ているのだ、と。これが、日本の記録に「天狗」という言葉が出てくる最初だと考えられています。"
+  },
+  {
+   "id": "P05",
+   "chapter": "C02",
+   "sources": [
+    "T-S04"
+   ],
+   "classification": "source_based",
+   "visuals": [
+    "ndl_958959_087"
+   ],
+   "text": "旻のもとにあったのは、中国の学問です。二千年以上前の中国の歴史書『史記』では、天狗は星の一種でした。大きな流れ星のようで、音を立て、地に降りたところは犬に似ている、と。今の言葉で言えば、とても明るい流れ星、火球のようなものだったのかもしれません。"
+  },
+  {
+   "id": "P06",
+   "chapter": "C02",
+   "sources": [
+    "T-S02"
+   ],
+   "classification": "source_based",
+   "visuals": [
+    "D_gloss"
+   ],
+   "text": "『日本書紀』の古い写本の一つには、「天狗」の字のそばに、「天の狐」を意味する小さな読みが書き添えられています。そしてこのあと数百年、この言葉は記録からほとんど姿を消します。"
+  },
+  {
+   "id": "P07",
+   "chapter": "C03",
+   "sources": [
+    "T-S06"
+   ],
+   "classification": "source_based",
+   "visuals": [
+    "ndl_945414_003"
+   ],
+   "text": "ふたたび現れたとき、天狗は変わっていました。12世紀ごろの説話集『今昔物語集』では、天狗は人をだまし、僧を修行から遠ざけようとします。おごり高ぶり、知恵がまわり、そして最後にはたいてい負けてしまいます。"
+  },
+  {
+   "id": "P08",
+   "chapter": "C03",
+   "sources": [
+    "T-S05"
+   ],
+   "classification": "source_based",
+   "visuals": [
+    "met_57203",
+    "V02"
+   ],
+   "text": "ある話では、都の柿の木の枝に仏が現れ、光を放ち、花を降らせます。人々は大勢で拝みに来ました。けれど一人の大臣は疑って、ただじっと見つめ続けます。とうとう仏は消え、翼の折れた大きな鳶が木から落ちてきました。天狗の正体は、鳥だったのです。"
+  },
+  {
+   "id": "P09",
+   "chapter": "C03",
+   "sources": [
+    "T-S06",
+    "T-S07",
+    "T-S08"
+   ],
+   "classification": "source_based",
+   "visuals": [
+    "met_23997",
+    "met_59737"
+   ],
+   "text": "別の話では、中国の天狗が海を渡って日本の僧たちを試そうとし、僧を守る童子たちに、さんざんにやられてしまいます。1200年代から1300年代の絵巻は、こうした話を描き直し、その天狗の多くは猛禽のくちばしと翼を持っています。1296年ごろの『天狗草紙』は、おごった僧たちを天狗の姿にして、おごりを戒めました。この鳥の顔の姿は、今も「烏天狗」として残っています。"
+  },
+  {
+   "id": "P10",
+   "chapter": "C04",
+   "sources": [
+    "T-S11"
+   ],
+   "classification": "source_based",
+   "visuals": [
+    "met_24145"
+   ],
+   "text": "やがて、もう一つの天狗がなじみの姿になります。赤い顔、長い鼻、そして山で修行する山伏の装いに、羽のうちわ。長い鼻がいつ現れたのか、はっきりとは分かっていません。1700年代の初めに鎧のために作られたこの面は、すでに天狗に長く突き出た鼻を与えています。"
+  },
+  {
+   "id": "P11",
+   "chapter": "C04",
+   "sources": [
+    "T-S10",
+    "T-S11"
+   ],
+   "classification": "source_based",
+   "visuals": [
+    "aic_154960",
+    "aic_26700",
+    "met_60361"
+   ],
+   "text": "京都の北の鞍馬山は、大天狗で知られるようになりました。能の『鞍馬天狗』は、のちの源義経、幼い牛若丸が、山の大天狗から兵法を授かる話です。江戸時代の作り手たちは、版画や、この小さな彫り物のように、この場面をくり返し表しました。"
+  },
+  {
+   "id": "P12",
+   "chapter": "C04",
+   "sources": [
+    "T-S11"
+   ],
+   "classification": "source_based",
+   "visuals": [
+    "ndl_851648_028",
+    "lacma_89199",
+    "R03"
+   ],
+   "text": "そして、鳥の姿が消えたわけではありません。北斎のこの絵手本で「天狗」と書かれているのは、今も大きな鳥です。何百年ものあいだ、鼻の高い天狗と鳥の顔の天狗は、並んで生きてきました。やがて天狗は、守り手にもなりました。山の寺や神社のなかには、今も天狗を山の守り神として祀るところがあります。"
+  },
+  {
+   "id": "P13",
+   "chapter": "C05",
+   "sources": [
+    "T-S01",
+    "T-S05",
+    "T-S11"
+   ],
+   "classification": "summary",
+   "visuals": [
+    "D_forms"
+   ],
+   "text": "では、最初の天狗とは何だったのでしょう。いちばん古い記録では、空をとどろかせて流れた星。中世の説話では、人をだまし、信仰を試す鳥。長い鼻の姿は後から現れ、鳥の姿に取って代わるのではなく、その隣に加わりました。"
+  },
+  {
+   "id": "P14",
+   "chapter": "C05",
+   "sources": [],
+   "classification": "summary",
+   "visuals": [
+    "V03"
+   ],
+   "text": "私たちが思い浮かべる天狗は、この伝説のいちばん古い部分ではありません。いちばん新しい部分の一つです。どの物語にも由来がある。ときには、それは空から始まります。"
+  },
+  {
+   "id": "P15",
+   "chapter": "C05",
+   "sources": [],
+   "classification": "credits",
+   "visuals": [
+    "credits"
+   ],
+   "text": "この動画は、歴史上の文献と公開された美術館のコレクションをもとに構成しました。ナレーションには音声合成を、一部の映像にはAIによる再現画を使っています。出典と利用条件は概要欄にまとめています。楽しんでいただけたら、高評価とチャンネル登録をお願いします。ご覧いただき、ありがとうございました。"
+  }
+ ]
+}

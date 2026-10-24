@@ -1,0 +1,29 @@
+{
+  "passed": true,
+  "reviewed_at": "2026-10-24T14:22:29.530870+09:00",
+  "reviewer": "Codex visual inspection",
+  "video_sha256": "d9a34b5efc6a14749ed4934eac28442b71d0c9563ebf9e38d2cf592c5177fdf2",
+  "visual_manifest_sha256": "3d15f78c65bd0b69af54b1116f96fecd17dadd0a993db44ba0a3ef6c4962120a",
+  "render_shots_sha256": "63ebc424a2e97e3aa1dc63c540ccdffc233a87bf587a3b381f215b05c3f823da",
+  "reviewed_shots": [
+    3,
+    7,
+    8,
+    13,
+    17,
+    18,
+    19,
+    20,
+    23
+  ],
+  "scope": "変更9ショットの始点・中央・終点27枚、V01/V02の各12枚連続フレーム、生成原本の連続フレームを目視。",
+  "findings": {
+    "V01": "森林に覆われた低い丘と夜空。右向きに進む火球の尾は後ろ（左）にある。色補正後の地平線は暗い青。",
+    "V02": "光の前半6秒を維持。鳶は羽ばたいてカメラへ飛ばず、翼を下げて枝の下に消える。原本の最初6秒を後半8.6秒へ速度配分して使用。",
+    "D_forms": "3番目は人の額、直線の長鼻、唇、あご、小さな頭巾。鳥のくちばしと区別できる。",
+    "crops": "表紙にカラーチャート・定規・下ラベルなし。「是天狗也」はズーム終点でも上下が見える。北斎漫画は右頁のみで左頁人物なし。",
+    "P11": "能→広重→根付の順。各ショット1.5秒以上。日本語とのずれはP11_alignment.jsonに記録。"
+  },
+  "human_full_playback": false,
+  "human_full_listening": false
+}

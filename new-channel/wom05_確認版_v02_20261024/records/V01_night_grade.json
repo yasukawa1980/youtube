@@ -1,0 +1,8 @@
+{
+  "source": "/Users/ryo/Desktop/新チャンネル/EP005_Tengu/素材/V01_Kling_v03.mp4",
+  "source_sha256": "70637d2b4a721754b0d0d737fcda73c47f86fb3ea2b186391a9bfa03edfbd738",
+  "output": "/Users/ryo/Desktop/新チャンネル/EP005_Tengu/確認版_v02_20261024/assets/V01_night_grade_v03.mp4",
+  "output_sha256": "d3b8218ac25752ba4a982595faa97bb98a614107a21367956a8fba890fc1baa8",
+  "filter": "format=gbrp,geq=r='r(X,Y)*(1-0.75*clip((Y/H-0.45)/0.25,0,1))':g='g(X,Y)*(1-0.45*clip((Y/H-0.45)/0.25,0,1))':b='b(X,Y)',format=yuv420p",
+  "purpose": "Remove warm dusk-like horizon while retaining the upper meteor and its trailing tail; original video retained."
+}

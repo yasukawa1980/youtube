@@ -1,0 +1,38 @@
+{
+  "service": "Kling AI 3.0",
+  "date": "2026-10-24",
+  "initial_balance": 229,
+  "balance_after_V01": 149,
+  "final_balance": 69,
+  "credits_used": 160,
+  "displayed_cost_each": 80,
+  "generations": 2,
+  "additional_purchase": false,
+  "V01": {
+    "prompt": "Quiet Origins EP005 V01 correction v03. One continuous 10-second 16:9 hand-painted oil illustration. DEEP DARK NIGHT, indigo sky with small stars. Lower quarter: gentle LOW ROUNDED HILLS COMPLETELY COVERED IN DENSE JAPANESE CEDAR FOREST, dark leafy silhouettes, like rural Japan. No exposed rocks, no desert, no jagged peaks, no snow, no sunset or daylight. Static wide camera. ONE small bright fireball moves steadily horizontally FROM LEFT TO RIGHT across the upper middle of the sky. The round glowing HEAD is always at the RIGHTMOST tip. Its narrow fading TAIL trails BEHIND the head, entirely TO THE LEFT of the head. The head leads and the tail follows: never a beam ahead of the meteor. Constant slow motion, steady soft warm light, no flicker, flashes, explosions or impacts. The wooded hills remain still. No buildings, people, animals, writing, logos or watermark. Visible brushwork, quiet historical illustration, silent.",
+    "source_path": "/Users/ryo/Desktop/新チャンネル/EP005_Tengu/素材/V01_Kling_v03.mp4",
+    "sha256": "70637d2b4a721754b0d0d737fcda73c47f86fb3ea2b186391a9bfa03edfbd738",
+    "generation_url": "https://kling.ai/app/creations/grid?ac=12&project=939738663515209766&slotId=942836900879024184",
+    "accepted": true,
+    "source_duration_seconds": 10.041667,
+    "decision": "Klingで再生成を採用。低い森林の丘、右へ進む光と左へ引く尾を確認。地平線の暖色を局所的な色補正で暗い青に変更し、夜の場面にした"
+  },
+  "V02": {
+    "prompt": "Quiet Origins EP005 V02 falling-kite correction. Start exactly from the supplied frame. One continuous slow respectful illustrated shot, fixed camera, same persimmon tree and warm light. The brown kite bird DOES NOT FLY. Its raised wings slowly relax downward, the wing on the viewer right hangs limp. Its feet lose their grip. Its whole body slowly sinks VERTICALLY DOWNWARD behind and below the branch and disappears through the BOTTOM of the frame. Its apparent size NEVER grows: no movement toward the camera. No flap, no flight, no launching upward, no open strong wings, no dive toward viewer. Only quiet downward falling under gravity. Keep the tree branches and persimmons perfectly still. Do not show the ground, landing, impact, injury, blood, pain, distress or struggle. No other birds, people, text, new objects or camera movement. Soft painted illustration, no cuts, no flicker, silent.",
+    "source_path": "/Users/ryo/Desktop/新チャンネル/EP005_Tengu/素材/V02_Kling_v03.mp4",
+    "sha256": "c094fbdef739e78c994b5ae7c7bd153f9868e29e5dca39bf8b2eaf513d3a4b2f",
+    "generation_url": "https://kling.ai/app/creations/grid?ac=12&project=939738663515209766&slotId=942837317130780741",
+    "accepted": true,
+    "source_duration_seconds": 10.041667,
+    "decision": "Klingで生成した後半を採用。v01の最初6秒・180フレームは画素一致で保持し、鳶が羽ばたかず枝の下へ消える部分へ接続。後半は動き量に応じて速度配分を調整",
+    "reference_image": "/Users/ryo/Desktop/新チャンネル/EP005_Tengu/確認版_v02_20261024/assets/V02_start_frame_v02.png",
+    "reference_sha256": "ed53df4be0b1f037187a4f46ba988aa97f172b3c67b33c812cfb7983b994357d",
+    "kept_source_prefix_seconds": 6,
+    "used_generated_seconds": [
+      0,
+      6
+    ],
+    "new_tail_duration_seconds": 8.6,
+    "retiming_record": "records/V02_retime.json"
+  }
+}

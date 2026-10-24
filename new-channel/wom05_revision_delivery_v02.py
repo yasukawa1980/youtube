@@ -37,6 +37,8 @@ def docs():
 
 def share():
  qc=read(ROOT/'records/qc_v02.json');assert qc['passed'];assert read(ROOT/'records/motion_v02.json')['passed'];visual=read(ROOT/'records/visual_review.json');assert visual['passed'] and visual['video_sha256']==sha(ROOT/'deliverables/EP005_Tengu_en_v02_1080p30.mp4')
+ assert visual['visual_manifest_sha256']==sha(ROOT/'records/visual_manifest.json') and visual['render_shots_sha256']==sha(ROOT/'records/render_shots.json')
+ assert read(ROOT/'records/V02_prefix_preservation.json')['passed']
  for f in qc['files']:assert sha(ROOT/'deliverables'/f['name'])==f['sha256']
  for p in (ROOT/'records').glob('*.json'):
   if p.name not in ['sharing.json','transfer_checkpoint.json']:shutil.copy2(p,ROOT/'deliverables'/p.name)

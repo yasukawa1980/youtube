@@ -1,0 +1,95 @@
+{
+  "passed": true,
+  "files": [
+    {
+      "name": "EP005_Tengu_en_v02_1080p30.mp4",
+      "bytes": 145833957,
+      "sha256": "d9a34b5efc6a14749ed4934eac28442b71d0c9563ebf9e38d2cf592c5177fdf2",
+      "audio_stream_sha256": "SHA256=8787e90e8859ac41157fd46de01584c574cdea4f212c3d5b5b8e0a5a4f4416a2",
+      "audio_identical_v01": true,
+      "video_stream_sha256": "SHA256=256fb7533e040a685274b075f485bab2aaecb7df202df41e534e8119d1b5959e",
+      "full_decode": true,
+      "frames": 11065,
+      "exact_30fps_pts": true,
+      "audio_samples": 17704000
+    },
+    {
+      "name": "EP005_Tengu_en_v02_subtitled_review_1080p30.mp4",
+      "bytes": 104114302,
+      "sha256": "b8f8d2c4614d0e117ed8e69c0f7de5e3e667683276f9f4ebb70ec37e12a85c92",
+      "audio_stream_sha256": "SHA256=8787e90e8859ac41157fd46de01584c574cdea4f212c3d5b5b8e0a5a4f4416a2",
+      "audio_identical_v01": true,
+      "video_stream_sha256": "SHA256=557357319be73c53c388a6bd0b8eb4235f7e9f222b9a1f80cf9b5abace8b3754",
+      "full_decode": true,
+      "frames": 11065,
+      "exact_30fps_pts": true,
+      "audio_samples": 17704000
+    },
+    {
+      "name": "EP005_Tengu_ja_v02_1080p30.mp4",
+      "bytes": 145476707,
+      "sha256": "3dc38fbda9ed0dabd80f12bf82f51db26dc9f94ccc2a69ff06ee7846a46400e6",
+      "audio_stream_sha256": "SHA256=6eea7a25bfb018543a9b4c0af70f7c5aac0d1af201121e7f780df437e4affb22",
+      "audio_identical_v01": true,
+      "video_stream_sha256": "SHA256=256fb7533e040a685274b075f485bab2aaecb7df202df41e534e8119d1b5959e",
+      "full_decode": true,
+      "frames": 11065,
+      "exact_30fps_pts": true,
+      "audio_samples": 17704000
+    },
+    {
+      "name": "EP005_Tengu_ja_v02_subtitled_review_1080p30.mp4",
+      "bytes": 103487583,
+      "sha256": "f007e7169a53f0a2bfaf73bc0148f0f898588b17f6c71a51e1de21feb85d937f",
+      "audio_stream_sha256": "SHA256=6eea7a25bfb018543a9b4c0af70f7c5aac0d1af201121e7f780df437e4affb22",
+      "audio_identical_v01": true,
+      "video_stream_sha256": "SHA256=2adcfb6ae09f9262c0e9eef781c594d2effc4911b0050444e81cac9a73441c0a",
+      "full_decode": true,
+      "frames": 11065,
+      "exact_30fps_pts": true,
+      "audio_samples": 17704000
+    }
+  ],
+  "duration_seconds": 368.8333333333333,
+  "frames": 11065,
+  "changed_frames": 3383,
+  "unchanged_frames": 7682,
+  "unchanged_encoded_shots": 17,
+  "all_frames_outside_changed_shots_pixel_identical": true,
+  "srt_byte_identical": true,
+  "m4a_wav_byte_identical": true,
+  "audio_stream_identical_v01": true,
+  "script_timeline_byte_identical": true,
+  "shared_video_stream": true,
+  "loudness_unchanged_from_v01": {
+    "bgm_during_narration_dbfs": -33.50086116054597,
+    "pause_boost_db": 4,
+    "languages": {
+      "en": {
+        "input_i": "-16.01",
+        "input_tp": "-3.84",
+        "input_lra": "3.10",
+        "input_thresh": "-26.84",
+        "output_i": "-15.98",
+        "output_tp": "-3.00",
+        "output_lra": "3.10",
+        "output_thresh": "-26.64",
+        "normalization_type": "dynamic",
+        "target_offset": "-0.02"
+      },
+      "ja": {
+        "input_i": "-16.02",
+        "input_tp": "-5.00",
+        "input_lra": "7.00",
+        "input_thresh": "-26.98",
+        "output_i": "-16.04",
+        "output_tp": "-3.00",
+        "output_lra": "5.70",
+        "output_thresh": "-26.67",
+        "normalization_type": "dynamic",
+        "target_offset": "0.04"
+      }
+    }
+  },
+  "human_full_listening": false
+}
