@@ -13,7 +13,9 @@
     "end_screen_seconds": [
       358.833333,
       368.833333
-    ]
+    ],
+    "video_id": "JNwsMvxaLMo",
+    "video_url": "https://youtu.be/JNwsMvxaLMo"
   },
   "shorts": [
     {
@@ -116,12 +118,16 @@
     "made_for_kids": false,
     "altered_content": true
   },
-  "status": "prepared_no_uploads_yet",
+  "status": "blocked_youtube_preview_corruption_main_private",
   "blocking_observation": {
-    "observed_channel_name": "Whispers of Japan",
-    "observed_channel_id": "UCx4mLEohO3XCVxZajUynLzw",
-    "required_channel_id": "UCfLJOojEY9VB3rvrjICk90Q",
-    "uploads_performed": 0,
-    "action": "Stopped before upload per the explicit posting requests; asked user to switch Chrome Studio to Quiet Origins."
-  }
+    "reason": "YouTube preview corruption around 2:45 persimmon scene; persisted after 720p selection and page reload. Local ffmpeg frame at 169 s normal. Cause not determined.",
+    "channel": "Quiet Origins",
+    "main_video_id": "JNwsMvxaLMo",
+    "visibility": "private",
+    "scheduled_count": 0,
+    "short_uploads": 0,
+    "japanese_audio_status": "processing_in_language_table_after_initial_dialog_published_label",
+    "automation_created": false
+  },
+  "channel_verified": "Quiet Origins / @QuietOriginsJP, channel UCfLJOojEY9VB3rvrjICk90Q; user switched and Studio verified"
 }
