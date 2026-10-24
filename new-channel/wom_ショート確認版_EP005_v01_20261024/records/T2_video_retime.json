@@ -1,0 +1,33 @@
+{
+  "source": "/Users/ryo/Desktop/新チャンネル/EP005_Tengu/確認版_v02_20261024/_work/render/V02_v02.mp4",
+  "source_sha256": "1c8b2a9daa54f82ede338ee707b7534988ec7b3b2b7c31d9fbf5209289815a58",
+  "source_prefix_frames": [
+    0,
+    126
+  ],
+  "output_prefix_frames": 251,
+  "light_time_factor": 1.992063492063492,
+  "source_bird_frames": [
+    126,
+    438
+  ],
+  "output_bird_frames": 312,
+  "bird_speed_factor": 1,
+  "source_crop_xywh": [
+    231,
+    110,
+    1458,
+    820
+  ],
+  "output_art_box": [
+    0,
+    396,
+    1080,
+    1004
+  ],
+  "cut_frame": 71,
+  "vanish_frame": 322,
+  "end_frame": 634,
+  "interpolation": "Optical flow on light prefix only",
+  "tail_timing": "Every source frame 126..437 kept in order at 30fps; no speed change or frame dropping."
+}

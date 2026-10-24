@@ -21,6 +21,25 @@
       "cta_seconds": 2.0
     },
     {
+      "id": "T2",
+      "name": "QO_short_EP005_T2_v01.mp4",
+      "sha256": "9231fd46acbe8c93ba053c807ff91a49a4878bd08e7001ce984ef1ea2c6b8c26",
+      "bytes": 4256118,
+      "frames": 634,
+      "duration_seconds": 21.133333,
+      "video_duration_seconds": 21.133333333333333,
+      "lufs": -13.98,
+      "true_peak_dbtp": -2.65,
+      "voice_onset_normalized_stem_seconds": 0.11,
+      "voice_onset_threshold_dbfs": -50,
+      "voice_onset_window_seconds": 0.01,
+      "bgm_during_narration_dbfs": -33.500000102391525,
+      "full_decode": true,
+      "exact_pts_30fps": true,
+      "audio_stream_matches_measured_m4a": true,
+      "cta_seconds": 2.0
+    },
+    {
       "id": "T3",
       "name": "QO_short_EP005_T3_v01.mp4",
       "sha256": "6e72afb4143b4d165ad438884d1e7ae2865ec2a4f45ecd457a594c335cfdaf3f",
@@ -41,7 +60,7 @@
     }
   ],
   "request_sha256": "3bd71c1e447d4b8b0f20e9a6653f9596370351daf3e18098cf88242f7cb1dace",
-  "render_shots_sha256": "bbea411617c51e40e2e38d7bf0f405d2d93816d4966b522021491ce5c8372c00",
-  "audio_qc_sha256": "d7da29cf09e293123b2a53f946eab12940237fe4b1a94780ab9fead782cf7183",
+  "render_shots_sha256": "17296bf7c9642a1a0f0f7fca1ab5f8c0adb811b348d5f262ceb6f401f253b078",
+  "audio_qc_sha256": "c6fb56030dedb6a0a330be07a2523d0ff569662221ac53f90a7eed864db36e7c",
   "human_full_listening": false
 }

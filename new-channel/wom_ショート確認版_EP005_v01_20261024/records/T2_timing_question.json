@@ -4,6 +4,7 @@
   "main_source_vanish_begin_seconds": 4.2,
   "main_source_seconds": 14.6,
   "duration_with_only_light_retimed": 21.133333333333333,
-  "status": "awaiting_user_choice",
-  "note": "No new AI generation. Native T2 audio 16.365292s; timing conflict is the picture tail, not the narration."
+  "status": "resolved_duration_cap_waived_by_user",
+  "user_instruction": "20秒以内はこだわっていないので全体のバランスが良ければ尺は大丈夫です",
+  "note": "T2 is 634 frames / 21.133333s. Only the light prefix is stretched; the accepted bird tail remains at its main-episode frame rate. No new AI generation."
 }

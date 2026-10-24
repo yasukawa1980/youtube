@@ -1,6 +1,6 @@
 {
   "passed": true,
-  "unique_sources": 5,
+  "unique_sources": 7,
   "rows": [
     {
       "short_id": "T1",
@@ -19,6 +19,24 @@
       "end_seconds": 20.0,
       "use_count": 1,
       "source_sha256": "075c82ade5dbfc755d3338362d8a3a550b9b2a06ee206643d8bb1f802f190b2a"
+    },
+    {
+      "short_id": "T2",
+      "episode": "EP005",
+      "asset_id": "met_57203",
+      "start_seconds": 0.0,
+      "end_seconds": 2.3666666666666667,
+      "use_count": 1,
+      "source_sha256": "ffd1ef510934f36a0ddb3893eb7c5c2290b03d23137b967b019044be6926974d"
+    },
+    {
+      "short_id": "T2",
+      "episode": "EP005",
+      "asset_id": "V02",
+      "start_seconds": 2.3666666666666667,
+      "end_seconds": 21.133333333333333,
+      "use_count": 1,
+      "source_sha256": "1c8b2a9daa54f82ede338ee707b7534988ec7b3b2b7c31d9fbf5209289815a58"
     },
     {
       "short_id": "T3",

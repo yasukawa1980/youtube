@@ -29,31 +29,6 @@
       "aac_peak_limiter_ceiling_dbfs": null
     },
     {
-      "id": "T2",
-      "mix": {
-        "input_i": "-13.98",
-        "input_tp": "-2.65",
-        "input_lra": "2.70",
-        "input_thresh": "-25.74",
-        "output_i": "-14.20",
-        "output_tp": "-2.30",
-        "output_lra": "6.70",
-        "output_thresh": "-25.38",
-        "normalization_type": "dynamic",
-        "target_offset": "0.20"
-      },
-      "voice_onset_native": 0.12,
-      "bgm_source": "/Users/ryo/Desktop/新チャンネル/EP005_Tengu/確認版_v01_20261024/audio/common_bgm_and_brand.wav",
-      "bgm_source_sha256": "65e2878427a72942875a72986ce79256e78a773d2a02f341b3824124c1f33a72",
-      "bgm_excerpt_start_seconds": 140,
-      "bgm_during_narration_dbfs": -33.500000102391525,
-      "voice_gain_after_normalization_db": -1.9900000000000002,
-      "final_file": "/Users/ryo/Desktop/新チャンネル/ショート/EP005_確認版_v01_20261024/audio/T2_final.m4a",
-      "sha256": "2d78d3bf09bf7b15ca70bdaf950178468f830ab9475eb4f71727556e3bee3a6c",
-      "voice_rate_or_pitch_processing": false,
-      "aac_peak_limiter_ceiling_dbfs": null
-    },
-    {
       "id": "T3",
       "mix": {
         "input_i": "-13.99",
@@ -75,6 +50,31 @@
       "voice_gain_after_normalization_db": -1.8000000000000007,
       "final_file": "/Users/ryo/Desktop/新チャンネル/ショート/EP005_確認版_v01_20261024/audio/T3_final.m4a",
       "sha256": "27fae2bf6a4db672bb4e0582b15c6d3ee2915b4fe4a0de8a8c2d5b751db0b915",
+      "voice_rate_or_pitch_processing": false,
+      "aac_peak_limiter_ceiling_dbfs": null
+    },
+    {
+      "id": "T2",
+      "mix": {
+        "input_i": "-13.98",
+        "input_tp": "-2.65",
+        "input_lra": "7.30",
+        "input_thresh": "-25.95",
+        "output_i": "-14.20",
+        "output_tp": "-2.30",
+        "output_lra": "15.50",
+        "output_thresh": "-25.60",
+        "normalization_type": "dynamic",
+        "target_offset": "0.20"
+      },
+      "voice_onset_native": 0.12,
+      "bgm_source": "/Users/ryo/Desktop/新チャンネル/EP005_Tengu/確認版_v01_20261024/audio/common_bgm_and_brand.wav",
+      "bgm_source_sha256": "65e2878427a72942875a72986ce79256e78a773d2a02f341b3824124c1f33a72",
+      "bgm_excerpt_start_seconds": 140,
+      "bgm_during_narration_dbfs": -33.500000102391525,
+      "voice_gain_after_normalization_db": -1.9900000000000002,
+      "final_file": "/Users/ryo/Desktop/新チャンネル/ショート/EP005_確認版_v01_20261024/audio/T2_final.m4a",
+      "sha256": "800cdbc9ab9ed19548ee37c588295a86c0cf365b3c755633ae734b7c424ca577",
       "voice_rate_or_pitch_processing": false,
       "aac_peak_limiter_ceiling_dbfs": null
     }

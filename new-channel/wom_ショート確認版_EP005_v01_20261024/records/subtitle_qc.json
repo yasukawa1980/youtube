@@ -1,7 +1,7 @@
 {
   "passed": true,
   "method": "Every caption page and CTA rendered with the same imageio FFmpeg/libass, ASS file, fonts, resolution and styles as the final MP4. Bounds include outlines and shadows (RGB maximum >10 over black).",
-  "caption_manifest_sha256": "4531d341791333a3f85f8dc49ab456f7c54df5f9d1f5e65692bb90eecd09657b",
+  "caption_manifest_sha256": "3972ffd329577f659a48431e25fed2e5e1748ea8d6f40c14b8ff1008a203c735",
   "checks": [
     {
       "short_id": "T1",
@@ -154,6 +154,149 @@
         210,
         1190,
         752,
+        1432
+      ],
+      "passed": true,
+      "brand": true
+    },
+    {
+      "short_id": "T2",
+      "page": 1,
+      "text": "In a tale from",
+      "glyph_bbox": [
+        291,
+        1223,
+        670,
+        1276
+      ],
+      "passed": true,
+      "brand": false
+    },
+    {
+      "short_id": "T2",
+      "page": 2,
+      "text": "the twelfth century,",
+      "glyph_bbox": [
+        198,
+        1223,
+        758,
+        1288
+      ],
+      "passed": true,
+      "brand": false
+    },
+    {
+      "short_id": "T2",
+      "page": 3,
+      "text": "a Buddha appears in",
+      "glyph_bbox": [
+        179,
+        1224,
+        779,
+        1287
+      ],
+      "passed": true,
+      "brand": false
+    },
+    {
+      "short_id": "T2",
+      "page": 4,
+      "text": "a persimmon tree,",
+      "glyph_bbox": [
+        216,
+        1224,
+        742,
+        1287
+      ],
+      "passed": true,
+      "brand": false
+    },
+    {
+      "short_id": "T2",
+      "page": 5,
+      "text": "shining and scattering flowers.",
+      "glyph_bbox": [
+        209,
+        1190,
+        748,
+        1322
+      ],
+      "passed": true,
+      "brand": false
+    },
+    {
+      "short_id": "T2",
+      "page": 6,
+      "text": "One minister just keeps staring.",
+      "glyph_bbox": [
+        230,
+        1189,
+        732,
+        1322
+      ],
+      "passed": true,
+      "brand": false
+    },
+    {
+      "short_id": "T2",
+      "page": 7,
+      "text": "At last the Buddha vanishes,",
+      "glyph_bbox": [
+        220,
+        1190,
+        740,
+        1319
+      ],
+      "passed": true,
+      "brand": false
+    },
+    {
+      "short_id": "T2",
+      "page": 8,
+      "text": "and a great kite",
+      "glyph_bbox": [
+        255,
+        1224,
+        705,
+        1288
+      ],
+      "passed": true,
+      "brand": false
+    },
+    {
+      "short_id": "T2",
+      "page": 9,
+      "text": "with a broken wing",
+      "glyph_bbox": [
+        202,
+        1224,
+        754,
+        1288
+      ],
+      "passed": true,
+      "brand": false
+    },
+    {
+      "short_id": "T2",
+      "page": 10,
+      "text": "falls from the tree.",
+      "glyph_bbox": [
+        213,
+        1223,
+        744,
+        1276
+      ],
+      "passed": true,
+      "brand": false
+    },
+    {
+      "short_id": "T2",
+      "page": 11,
+      "text": "Full story on Quiet Origins",
+      "glyph_bbox": [
+        275,
+        1394,
+        686,
         1432
       ],
       "passed": true,

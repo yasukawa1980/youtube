@@ -1,6 +1,6 @@
 """EP005 Shorts: exact requested copy and main-episode narration settings.
 
-Run narration first. The shared duration gate stops if any native read exceeds 20s.
+The user waived the 20-second cap on 2026-10-24; preserve balanced pacing and the exact copy.
 """
 import argparse
 import re
@@ -92,7 +92,7 @@ def captions():
    end=pos+len(text.split());groups.append({'text':text,'word_start':pos,'word_end':end});pos=end
   for protected in ['of 720,','in 637','in 1815,']:
    if protected in s['text']:assert any(protected in g['text'] for g in groups),protected
-  nframes=600;cta_frame=nframes-60
+  nframes=634 if s['id']=='T2' else 600;cta_frame=nframes-60
   for i,g in enumerate(groups):
    g['start_frame']=max(0,round(wordtimes[g['word_start']]['start']*FPS)) if i else 0
    g['end_frame']=max(g['start_frame']+1,round(wordtimes[groups[i+1]['word_start']]['start']*FPS)) if i+1<len(groups) else math.ceil(s['native_audio_duration']*FPS)
@@ -105,10 +105,51 @@ def captions():
 
 
 def audio():
-    import wom04_shorts as prior
-    prior.ROOT=ROOT
-    prior.MEDIA=MAIN.parent/'確認版_v01_20261024'
-    prior.audio()
+    reports=[r for r in read(ROOT/'records/audio_qc.json')['reports'] if r['id']!='T2']
+    source=MAIN.parent/'確認版_v01_20261024/audio/common_bgm_and_brand.wav'
+    for i,s in enumerate(read(ROOT/'records/shorts.json')['shorts']):
+        if s['id']!='T2': continue
+        id=s['id']; n=s['frames']*SR//FPS
+        q=levels(Path(s['audio_file'])); normal=ROOT/f'audio/{id}_normalized.wav'
+        filt=f"loudnorm=I=-14:TP=-1.5:LRA=7:linear=true:measured_I={q['input_i']}:measured_TP={q['input_tp']}:measured_LRA={q['input_lra']}:measured_thresh={q['input_thresh']}:offset={q['target_offset']}"
+        ff(['-i',s['audio_file'],'-af',filt,'-ar',SR,'-c:a','pcm_f32le',normal])
+        voice,sr=sf.read(normal,dtype='float32'); assert sr==SR and len(voice)<=n
+        voice=np.pad(voice,(0,n-len(voice)))
+        # 120–180s are quiet underscore only, outside opening/end-card intervals.
+        start=120+20*i
+        music,sr=sf.read(source,start=round(start*SR),frames=n,dtype='float32')
+        assert sr==SR and len(music)==n
+        active=np.zeros(n,bool)
+        active[round(s['voice_onset_seconds']*SR):round(s['last_voice_activity_seconds']*SR)]=True
+        music*=10**((-33.5-rms(music[active]))/20)
+        music[-round(.12*SR):]*=np.linspace(1,0,round(.12*SR))[:,None]
+        sf.write(ROOT/f'audio/{id}_bgm.wav',music,SR,subtype='FLOAT')
+        mix=ROOT/f'audio/{id}_mix.wav'; gain=0
+        for attempt in range(5):
+            sf.write(mix,voice[:,None]*10**(gain/20)+music,SR,subtype='FLOAT')
+            q=levels(mix); delta=-14-float(q['input_i'])
+            if abs(delta)<.04: break
+            gain+=delta
+        assert abs(float(q['input_i'])+14)<=.1 and float(q['input_tp'])<=-1.1,q
+        out=ROOT/f'audio/{id}_final.m4a'
+        ff(['-i',mix,'-ar',48000,'-c:a','aac','-b:a','192k',out]); final=levels(out)
+        limiter_db=None
+        # Measure the encoded AAC too: codec reconstruction can add intersample peaks.
+        if float(final['input_tp'])>-1:
+            for ceiling in [-3,-4,-5]:
+                filt=f'aresample=192000,alimiter=limit={10**(ceiling/20)}:level=false:latency=true,aresample=48000'
+                ff(['-i',mix,'-af',filt,'-ar',48000,'-c:a','aac','-b:a','192k',out]); final=levels(out)
+                limiter_db=ceiling
+                if abs(float(final['input_i'])+14)<=.15 and float(final['input_tp'])<=-1: break
+        assert abs(float(final['input_i'])+14)<=.15 and float(final['input_tp'])<=-1
+        reports.append(dict(id=id,mix=final,voice_onset_native=s['voice_onset_seconds'],
+            bgm_source=str(source),bgm_source_sha256=sha(source),bgm_excerpt_start_seconds=start,
+            bgm_during_narration_dbfs=rms(music[active]),voice_gain_after_normalization_db=gain,
+            final_file=str(out),sha256=sha(out),voice_rate_or_pitch_processing=False,
+            aac_peak_limiter_ceiling_dbfs=limiter_db))
+        print('AUDIO',id,final['input_i'],final['input_tp'],flush=True)
+    save(ROOT/'records/audio_qc.json',dict(passed=True,target_lufs=-14,maximum_true_peak_db=-1,reports=reports))
+
 
 
 
@@ -182,7 +223,7 @@ def visuals():
     save(ROOT/'records/T2_timing_question.json',dict(cut_at_a_Buddha_seconds=phrase_frame(t2,'a buddha appears')/30,
         vanish_phrase_seconds=phrase_frame(t2,'at last')/30,main_source_vanish_begin_seconds=4.2,
         main_source_seconds=14.6,duration_with_only_light_retimed=phrase_frame(t2,'at last')/30+14.6-4.2,
-        status='awaiting_user_choice',note='No new AI generation. Native T2 audio 16.365292s; timing conflict is the picture tail, not the narration.'))
+        status='resolved_duration_cap_waived_by_user',user_instruction='20秒以内はこだわっていないので全体のバランスが良ければ尺は大丈夫です',note='T2 is 634 frames / 21.133333s. Only the light prefix is stretched; the accepted bird tail remains at its main-episode frame rate. No new AI generation.'))
     print('VISUALS',len(shots),flush=True)
 
 
@@ -192,7 +233,31 @@ def camera(s):
 
 
 def render_video_shot(s,path):
-    if s['asset_id']!='V01':raise RuntimeError('T2 timing choice pending')
+    if s['asset_id']=='V02':
+        x,y,x1,y1=s['art_box']
+        prefix_frames=251;source_prefix=126;tail_frames=312
+        assert s['frames']==prefix_frames+tail_frames
+        factor=prefix_frames/source_prefix
+        # Use the already softened/approved main-episode composite. Crop away its header only.
+        # Stretch the apparition prefix, then retain all 312 tail frames at native 30fps.
+        fc=(f'[1:v]crop=1458:820:231:110,scale={x1-x}:{y1-y}:flags=lanczos,split=2[p][t];'
+            f'[p]trim=end_frame={source_prefix},setpts=(PTS-STARTPTS)*{factor:.12f},'
+            f'minterpolate=fps=30:mi_mode=mci:mc_mode=aobmc:me_mode=bidir:vsbmc=1,'
+            f'tpad=stop_mode=clone:stop_duration=0.2,trim=end_frame={prefix_frames},setpts=N/(30*TB)[light];'
+            f'[t]trim=start_frame={source_prefix}:end_frame=438,setpts=N/(30*TB)[bird];'
+            f'[light][bird]concat=n=2:v=1:a=0[art];'
+            f'[0:v][art]overlay={x}:{y}:shortest=1,format=yuv420p[v]')
+        ff(['-loop',1,'-framerate',30,'-i',s['file'],'-i',s['source']['path'],
+            '-filter_complex_threads',2,'-filter_complex',fc,'-map','[v]',
+            '-frames:v',s['frames'],'-an','-c:v','libx264','-threads',4,'-preset','veryfast',
+            '-crf',18,'-pix_fmt','yuv420p','-video_track_timescale',15360,path])
+        save(ROOT/'records/T2_video_retime.json',dict(source=s['source']['path'],source_sha256=s['source']['sha256'],
+            source_prefix_frames=[0,126],output_prefix_frames=251,light_time_factor=factor,
+            source_bird_frames=[126,438],output_bird_frames=312,bird_speed_factor=1,
+            source_crop_xywh=[231,110,1458,820],output_art_box=s['art_box'],
+            cut_frame=71,vanish_frame=322,end_frame=634,interpolation='Optical flow on light prefix only',
+            tail_timing='Every source frame 126..437 kept in order at 30fps; no speed change or frame dropping.'))
+        return
     x,y,x1,y1=s['art_box'];factor=s['frames']/FPS/10
     fc=f'[1:v]setpts=(PTS-STARTPTS)*{factor:.12f},scale={x1-x}:{y1-y}:flags=lanczos,minterpolate=fps=30:mi_mode=mci:mc_mode=aobmc:me_mode=bidir:vsbmc=1,tpad=stop_mode=clone:stop_duration=0.2[art];[0:v][art]overlay={x}:{y}:shortest=1,format=yuv420p[v]'
     args=['-loop',1,'-framerate',30,'-i',s['file'],'-i',s['source']['path'],'-filter_complex_threads',2,'-filter_complex',fc,'-map','[v]']
@@ -200,7 +265,7 @@ def render_video_shot(s,path):
 
 def render():
  import imageio_ffmpeg
- shots=[s for s in read(ROOT/'records/visual_manifest.json')['shots'] if s['short_id'] in ['T1','T3']];rows=[s for s in read(ROOT/'records/shorts.json')['shorts'] if s['id'] in ['T1','T3']];rendered=[];captionrecords=[]
+ shots=[s for s in read(ROOT/'records/visual_manifest.json')['shots'] if s['short_id'] in ['T1','T2','T3']];rows=[s for s in read(ROOT/'records/shorts.json')['shorts'] if s['id'] in ['T1','T2','T3']];rendered=[];captionrecords=[p for p in read(ROOT/'records/caption_manifest.json') if p['short_id']!='T2']
  for s in shots:
   path=ROOT/f'_work/{s["short_id"]}_{s["asset_id"]}.mp4';stamp=path.with_suffix('.json');cfg={'image':s['sha256'],'frames':s['frames'],'camera':camera(s),'source_sha':s['source']['sha256']}
   if not(path.exists() and stamp.exists() and read(stamp)==cfg):
@@ -212,6 +277,7 @@ def render():
   rendered.append({**s,'encoded_file':str(path),'encoded_sha256':sha(path)});print('SHOT',s['short_id'],s['asset_id'],flush=True)
  save(ROOT/'records/render_shots.json',rendered)
  for s in rows:
+  if s['id']!='T2':continue
   id=s['id'];group=[r for r in rendered if r['short_id']==id];listing=ROOT/f'_work/{id}_concat.txt';listing.write_text(''.join(f"file '{r['encoded_file']}'\nduration {r['frames']/FPS:.9f}\n" for r in group));picture=ROOT/f'_work/{id}_picture.mp4'
   ff(['-f','concat','-safe',0,'-i',listing,'-c','copy','-bsf:v','setts=pts=round(PTS/512)*512:dts=round(DTS/512)*512:duration=512',picture])
   pages=s['caption_groups']+[{'text':s['cta_text'],'start_frame':s['cta_start_frame'],'end_frame':s['frames'],'brand':True}];ass=['[Script Info]','ScriptType: v4.00+','PlayResX: 1080','PlayResY: 1920','[V4+ Styles]','Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding','Style: Main,Arial,68,&H00DFF0F4,&H00DFF0F4,&H0010180C,&HAA10180C,-1,0,0,0,100,100,0,0,1,4,1,5,80,200,0,1','[Events]','Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text']
