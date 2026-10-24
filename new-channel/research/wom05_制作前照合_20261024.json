@@ -1,0 +1,283 @@
+{
+  "checked_at": "2026-10-24T12:09:11.946612+09:00",
+  "source_commit": "e2fea94",
+  "status": "awaiting_resolution_of_two_instruction_conflicts",
+  "narration_generated": false,
+  "ai_generated": false,
+  "scripts": {
+    "en": {
+      "path": "new-channel/episodes/EP005_Tengu/records/content_en.json",
+      "sha256": "31f00763885407ecad54b486c3bdb1b5933b6e53bf0c5079d93af80af11502d8",
+      "segments": 15,
+      "words": 793,
+      "characters": 4328,
+      "p12_visuals": [
+        "ndl_851648_028",
+        "lacma_89199",
+        "R01"
+      ]
+    },
+    "ja": {
+      "path": "new-channel/episodes/EP005_Tengu/records/content.json",
+      "sha256": "879ff41b8b518de56e36de251dc9e2d2608759c8ff26e34f0877e9ed0c993603",
+      "segments": 15,
+      "words": null,
+      "characters": 1724,
+      "p12_visuals": [
+        "ndl_851648_028",
+        "lacma_89199",
+        "R01"
+      ]
+    }
+  },
+  "assets": [
+    {
+      "key": "met_22081",
+      "path": "/Users/ryo/Desktop/新チャンネル/EP005_Tengu/素材/met_22081.jpg",
+      "exists": true,
+      "expected_sha256": "9f0a7b3feb896b78665600908e99d1a1d955c0cbc8901f9fb77e1095d6c4d690",
+      "actual_sha256": "9f0a7b3feb896b78665600908e99d1a1d955c0cbc8901f9fb77e1095d6c4d690",
+      "match": true
+    },
+    {
+      "key": "met_22470",
+      "path": "/Users/ryo/Desktop/新チャンネル/EP005_Tengu/素材/met_22470.jpg",
+      "exists": true,
+      "expected_sha256": "58a61edb7541a97d6fbf9a62e7ddf0f87a937b769ec77983e4db5b8b3416dfa4",
+      "actual_sha256": "58a61edb7541a97d6fbf9a62e7ddf0f87a937b769ec77983e4db5b8b3416dfa4",
+      "match": true
+    },
+    {
+      "key": "met_23997",
+      "path": "/Users/ryo/Desktop/新チャンネル/EP005_Tengu/素材/met_23997.jpg",
+      "exists": true,
+      "expected_sha256": "445fe6d4f25899e7a18262738525248b7099fe74610a840d63e596ac7d686914",
+      "actual_sha256": "445fe6d4f25899e7a18262738525248b7099fe74610a840d63e596ac7d686914",
+      "match": true
+    },
+    {
+      "key": "met_24000",
+      "path": "/Users/ryo/Desktop/新チャンネル/EP005_Tengu/素材/met_24000.jpg",
+      "exists": true,
+      "expected_sha256": "f67d3b9fa9f5456ab813246f3c0d160a52055eacc47384db0d86a9adaeeb8c20",
+      "actual_sha256": "f67d3b9fa9f5456ab813246f3c0d160a52055eacc47384db0d86a9adaeeb8c20",
+      "match": true
+    },
+    {
+      "key": "met_24145",
+      "path": "/Users/ryo/Desktop/新チャンネル/EP005_Tengu/素材/met_24145.jpg",
+      "exists": true,
+      "expected_sha256": "b5d5257a0bdd984358e068c536eccf13fa890cedcc08b3aefd4cf56c0975d571",
+      "actual_sha256": "b5d5257a0bdd984358e068c536eccf13fa890cedcc08b3aefd4cf56c0975d571",
+      "match": true
+    },
+    {
+      "key": "met_37280",
+      "path": "/Users/ryo/Desktop/新チャンネル/EP005_Tengu/素材/met_37280.jpg",
+      "exists": true,
+      "expected_sha256": "e6940ac446d29ec379ac9109273cf5bbc737a4a88fc2c020e916cb3136592204",
+      "actual_sha256": "e6940ac446d29ec379ac9109273cf5bbc737a4a88fc2c020e916cb3136592204",
+      "match": true
+    },
+    {
+      "key": "met_54973",
+      "path": "/Users/ryo/Desktop/新チャンネル/EP005_Tengu/素材/met_54973.jpg",
+      "exists": true,
+      "expected_sha256": "4a6161fdf6e6c327c26c0bd07fe209cc61e0cdcad8b145667117bad6fd015d85",
+      "actual_sha256": "4a6161fdf6e6c327c26c0bd07fe209cc61e0cdcad8b145667117bad6fd015d85",
+      "match": true
+    },
+    {
+      "key": "met_57203",
+      "path": "/Users/ryo/Desktop/新チャンネル/EP005_Tengu/素材/met_57203.jpg",
+      "exists": true,
+      "expected_sha256": "ffd1ef510934f36a0ddb3893eb7c5c2290b03d23137b967b019044be6926974d",
+      "actual_sha256": "ffd1ef510934f36a0ddb3893eb7c5c2290b03d23137b967b019044be6926974d",
+      "match": true
+    },
+    {
+      "key": "met_59209",
+      "path": "/Users/ryo/Desktop/新チャンネル/EP005_Tengu/素材/met_59209.jpg",
+      "exists": true,
+      "expected_sha256": "046ceb9f241dbb33dbcb20a6ad4b457b8acab9288d6bf78cae85b9e6d58a5f04",
+      "actual_sha256": "046ceb9f241dbb33dbcb20a6ad4b457b8acab9288d6bf78cae85b9e6d58a5f04",
+      "match": true
+    },
+    {
+      "key": "met_59618",
+      "path": "/Users/ryo/Desktop/新チャンネル/EP005_Tengu/素材/met_59618.jpg",
+      "exists": true,
+      "expected_sha256": "20085ec2e023c884fdc883c52513b1e34bdb2ede6a23289441ec27fab8a034f4",
+      "actual_sha256": "20085ec2e023c884fdc883c52513b1e34bdb2ede6a23289441ec27fab8a034f4",
+      "match": true
+    },
+    {
+      "key": "met_59729",
+      "path": "/Users/ryo/Desktop/新チャンネル/EP005_Tengu/素材/met_59729.jpg",
+      "exists": true,
+      "expected_sha256": "d7458d88765e3c3c6308704a676b8e2f0226abf16d13050ecf6ec9257c9f3a3a",
+      "actual_sha256": "d7458d88765e3c3c6308704a676b8e2f0226abf16d13050ecf6ec9257c9f3a3a",
+      "match": true
+    },
+    {
+      "key": "met_59737",
+      "path": "/Users/ryo/Desktop/新チャンネル/EP005_Tengu/素材/met_59737.jpg",
+      "exists": true,
+      "expected_sha256": "7145810dd02476b623845b26934f545b465c5c42dc4e0bc8df1cb8e071353dfd",
+      "actual_sha256": "7145810dd02476b623845b26934f545b465c5c42dc4e0bc8df1cb8e071353dfd",
+      "match": true
+    },
+    {
+      "key": "met_60361",
+      "path": "/Users/ryo/Desktop/新チャンネル/EP005_Tengu/素材/met_60361.jpg",
+      "exists": true,
+      "expected_sha256": "d85f3ac35961d6f6783e526f39d3494a50c11922746f8f4583c11747c539475c",
+      "actual_sha256": "d85f3ac35961d6f6783e526f39d3494a50c11922746f8f4583c11747c539475c",
+      "match": true
+    },
+    {
+      "key": "aic_19137",
+      "path": "/Users/ryo/Desktop/新チャンネル/EP005_Tengu/素材/aic_19137.jpg",
+      "exists": true,
+      "expected_sha256": "d2467a580b9493c092153d91f0ea6a5ee0342163bdd76aa05c9974e809ac48fa",
+      "actual_sha256": "d2467a580b9493c092153d91f0ea6a5ee0342163bdd76aa05c9974e809ac48fa",
+      "match": true
+    },
+    {
+      "key": "aic_19640",
+      "path": "/Users/ryo/Desktop/新チャンネル/EP005_Tengu/素材/aic_19640.jpg",
+      "exists": true,
+      "expected_sha256": "d166a0dc8235b45ecd01e4a0890c10070bb605a25e19ca5d0ac723160ea4cc0e",
+      "actual_sha256": "d166a0dc8235b45ecd01e4a0890c10070bb605a25e19ca5d0ac723160ea4cc0e",
+      "match": true
+    },
+    {
+      "key": "aic_140940",
+      "path": "/Users/ryo/Desktop/新チャンネル/EP005_Tengu/素材/aic_140940.jpg",
+      "exists": true,
+      "expected_sha256": "b45cfd152c9e6f095d16dfd9b2715e9958d87079e68d854740d3c86f94e5ef42",
+      "actual_sha256": "b45cfd152c9e6f095d16dfd9b2715e9958d87079e68d854740d3c86f94e5ef42",
+      "match": true
+    },
+    {
+      "key": "aic_154670",
+      "path": "/Users/ryo/Desktop/新チャンネル/EP005_Tengu/素材/aic_154670.jpg",
+      "exists": true,
+      "expected_sha256": "3a65a049756235b4df444bfc4d7792ff114026999d053869476a4cc95137e22f",
+      "actual_sha256": "3a65a049756235b4df444bfc4d7792ff114026999d053869476a4cc95137e22f",
+      "match": true
+    },
+    {
+      "key": "aic_154960",
+      "path": "/Users/ryo/Desktop/新チャンネル/EP005_Tengu/素材/aic_154960.jpg",
+      "exists": true,
+      "expected_sha256": "9f43dd7ff9bd6833ce04db8696cbcb6294fe67dbf678c3520ca18e3e4fb18d09",
+      "actual_sha256": "9f43dd7ff9bd6833ce04db8696cbcb6294fe67dbf678c3520ca18e3e4fb18d09",
+      "match": true
+    },
+    {
+      "key": "aic_155389",
+      "path": "/Users/ryo/Desktop/新チャンネル/EP005_Tengu/素材/aic_155389.jpg",
+      "exists": true,
+      "expected_sha256": "9b2acb8e55527b851fbabb9b63626c235ffa1aa19a9c642d13cb6563166f77e9",
+      "actual_sha256": "9b2acb8e55527b851fbabb9b63626c235ffa1aa19a9c642d13cb6563166f77e9",
+      "match": true
+    },
+    {
+      "key": "aic_26700",
+      "path": "/Users/ryo/Desktop/新チャンネル/EP005_Tengu/素材/aic_26700.jpg",
+      "exists": true,
+      "expected_sha256": "e537966d6b80dec7c910707b5c07e5a2a3668e0be7845ec601a87fccab8bca9e",
+      "actual_sha256": "e537966d6b80dec7c910707b5c07e5a2a3668e0be7845ec601a87fccab8bca9e",
+      "match": true
+    },
+    {
+      "key": "ndl_1182143_010",
+      "path": "/Users/ryo/Desktop/新チャンネル/EP005_Tengu/素材/ndl_1182143_010.jpg",
+      "exists": true,
+      "expected_sha256": "075c82ade5dbfc755d3338362d8a3a550b9b2a06ee206643d8bb1f802f190b2a",
+      "actual_sha256": "075c82ade5dbfc755d3338362d8a3a550b9b2a06ee206643d8bb1f802f190b2a",
+      "match": true
+    },
+    {
+      "key": "ndl_12865768_001",
+      "path": "/Users/ryo/Desktop/新チャンネル/EP005_Tengu/素材/ndl_12865768_001.jpg",
+      "exists": true,
+      "expected_sha256": "a659a44a932e8672fb958c92709264f6f312d7120d21f83a214010d2b7c0265c",
+      "actual_sha256": "a659a44a932e8672fb958c92709264f6f312d7120d21f83a214010d2b7c0265c",
+      "match": true
+    },
+    {
+      "key": "ndl_851648_028",
+      "path": "/Users/ryo/Desktop/新チャンネル/EP005_Tengu/素材/ndl_851648_028.jpg",
+      "exists": true,
+      "expected_sha256": "c23e589eec7cc470443d3523afd98a63504bbd3cec8d5d7b18bbb839c93a7be6",
+      "actual_sha256": "c23e589eec7cc470443d3523afd98a63504bbd3cec8d5d7b18bbb839c93a7be6",
+      "match": true
+    },
+    {
+      "key": "ndl_945414_003",
+      "path": "/Users/ryo/Desktop/新チャンネル/EP005_Tengu/素材/ndl_945414_003.jpg",
+      "exists": true,
+      "expected_sha256": "28e2de18c300a86980f1bc399b9dbf9f9bceb590c5023c35c54a99fe3c750f50",
+      "actual_sha256": "28e2de18c300a86980f1bc399b9dbf9f9bceb590c5023c35c54a99fe3c750f50",
+      "match": true
+    },
+    {
+      "key": "met_40011_DP206881",
+      "path": "/Users/ryo/Desktop/新チャンネル/EP005_Tengu/素材/met_40011_DP206881.jpg",
+      "exists": true,
+      "expected_sha256": "566cb6634ff4d6b717df941ba0d75b8cc3e1fe4eb1aaf7914690804140112cf0",
+      "actual_sha256": "566cb6634ff4d6b717df941ba0d75b8cc3e1fe4eb1aaf7914690804140112cf0",
+      "match": true
+    },
+    {
+      "key": "met_78669_11",
+      "path": "/Users/ryo/Desktop/新チャンネル/EP005_Tengu/素材/met_78669_11.jpg",
+      "exists": true,
+      "expected_sha256": "9e062111594828d0b02133cbc343a354b496be9c529433887c468ae6a7780ce1",
+      "actual_sha256": "9e062111594828d0b02133cbc343a354b496be9c529433887c468ae6a7780ce1",
+      "match": true
+    },
+    {
+      "key": "lacma_89199",
+      "path": "/Users/ryo/Desktop/新チャンネル/EP005_Tengu/素材/lacma_89199.jpg",
+      "exists": true,
+      "expected_sha256": "457683daded889b7d2cc40e2e791c1c705b30b0745f24f05db9ed25e3fb6bed7",
+      "actual_sha256": "457683daded889b7d2cc40e2e791c1c705b30b0745f24f05db9ed25e3fb6bed7",
+      "match": true
+    },
+    {
+      "key": "ndl_958959_087",
+      "path": "/Users/ryo/Desktop/新チャンネル/EP005_Tengu/素材/ndl_958959_087.jpg",
+      "exists": true,
+      "expected_sha256": "1526106230f6be7ef485c5c098af04368283dee2a295bc999a5dec8eeaeb9e83",
+      "actual_sha256": "1526106230f6be7ef485c5c098af04368283dee2a295bc999a5dec8eeaeb9e83",
+      "match": true
+    }
+  ],
+  "brand": [
+    {
+      "path": "/Users/ryo/Desktop/新チャンネル/ブランド素材/オープニング_エンドカード_動画試作_v02_20261021/deliverables/Quiet_Origins_opening_trial_v02.mp4",
+      "exists": true,
+      "sha256": "4f8e95fd166e52b6c601c87440006ded2eec298f54c3d6d6a951738b54f721a9"
+    },
+    {
+      "path": "/Users/ryo/Desktop/新チャンネル/ブランド素材/エンドカード_共通版_v02_20261023/deliverables/Quiet_Origins_endcard_v02.mp4",
+      "exists": true,
+      "sha256": "3cd254cdd387d0ca8e3ef3c2f74ca3650dc64fb02609bcd09a21b3e36a3513a2"
+    }
+  ],
+  "issues": [
+    {
+      "id": "P12_visual_id",
+      "observed": "Both script JSON files use R01 in P12; shot list assigns R01 to P01 and R03 to P12.",
+      "proposed": "Change only P12 visuals R01 to R03 in both JSON files; preserve every narration text."
+    },
+    {
+      "id": "R02_buildings",
+      "observed": "P03 R02 specifies distant thatched roofs; QC condition prohibits buildings in R01 through R03.",
+      "proposed": "Keep generic thatched roofs only for R02; no temples, palaces, torii, identifiable locations, or text. Limit no-building QC to R01 and R03."
+    }
+  ]
+}
