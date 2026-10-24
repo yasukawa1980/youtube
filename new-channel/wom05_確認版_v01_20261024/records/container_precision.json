@@ -1,0 +1,78 @@
+{
+  "passed": true,
+  "movie_timescale": 48000,
+  "video_frames": 11065,
+  "audio_samples": 17704000,
+  "files": [
+    {
+      "name": "EP005_audio_en.m4a",
+      "before_sha256": "31037e6c67af403a860aeafb3880015f07104abd50b1f6b9bab0841480160a13",
+      "after_sha256": "31037e6c67af403a860aeafb3880015f07104abd50b1f6b9bab0841480160a13",
+      "already_sample_exact": true,
+      "encoded_streams_identical": true,
+      "stream_hashes": {
+        "audio": "SHA256=8787e90e8859ac41157fd46de01584c574cdea4f212c3d5b5b8e0a5a4f4416a2"
+      },
+      "duration_seconds": "368.833333"
+    },
+    {
+      "name": "EP005_audio_ja.m4a",
+      "before_sha256": "6fb032decd0bfabd1878878d7b509bef118295240ddaad114476c1a4970dd200",
+      "after_sha256": "6fb032decd0bfabd1878878d7b509bef118295240ddaad114476c1a4970dd200",
+      "already_sample_exact": true,
+      "encoded_streams_identical": true,
+      "stream_hashes": {
+        "audio": "SHA256=6eea7a25bfb018543a9b4c0af70f7c5aac0d1af201121e7f780df437e4affb22"
+      },
+      "duration_seconds": "368.833333"
+    },
+    {
+      "name": "EP005_Tengu_en_v01_1080p30.mp4",
+      "before_sha256": "3ae3b6236b8c56ff3de4315b8f8d0e1f9644dec8138d081c0a4ba74a7dc3cbb1",
+      "after_sha256": "3ae3b6236b8c56ff3de4315b8f8d0e1f9644dec8138d081c0a4ba74a7dc3cbb1",
+      "already_sample_exact": true,
+      "encoded_streams_identical": true,
+      "stream_hashes": {
+        "video": "SHA256=82eaf600af98d2e075fffa44d7ba06940004db9db66561dd48282baf6142b483",
+        "audio": "SHA256=8787e90e8859ac41157fd46de01584c574cdea4f212c3d5b5b8e0a5a4f4416a2"
+      },
+      "duration_seconds": "368.833333"
+    },
+    {
+      "name": "EP005_Tengu_en_v01_subtitled_review_1080p30.mp4",
+      "before_sha256": "3d3c85947109c5cbe98e4cc752d32f8678722d233862380d4e0d18dfc9807a7f",
+      "after_sha256": "3d3c85947109c5cbe98e4cc752d32f8678722d233862380d4e0d18dfc9807a7f",
+      "already_sample_exact": true,
+      "encoded_streams_identical": true,
+      "stream_hashes": {
+        "video": "SHA256=91a80769b1effe31d56c5ebc7576a49b721978b03c5c790f71ae7e277ab7276b",
+        "audio": "SHA256=8787e90e8859ac41157fd46de01584c574cdea4f212c3d5b5b8e0a5a4f4416a2"
+      },
+      "duration_seconds": "368.833333"
+    },
+    {
+      "name": "EP005_Tengu_ja_v01_1080p30.mp4",
+      "before_sha256": "0bed84035877180deb297f37e0e431d91b7751160b3c249b16055e53ed496731",
+      "after_sha256": "0bed84035877180deb297f37e0e431d91b7751160b3c249b16055e53ed496731",
+      "already_sample_exact": true,
+      "encoded_streams_identical": true,
+      "stream_hashes": {
+        "video": "SHA256=82eaf600af98d2e075fffa44d7ba06940004db9db66561dd48282baf6142b483",
+        "audio": "SHA256=6eea7a25bfb018543a9b4c0af70f7c5aac0d1af201121e7f780df437e4affb22"
+      },
+      "duration_seconds": "368.833333"
+    },
+    {
+      "name": "EP005_Tengu_ja_v01_subtitled_review_1080p30.mp4",
+      "before_sha256": "212942a2603b374a24b77326d14eb29c5bd89b074caf17630dca932bafeb11a5",
+      "after_sha256": "212942a2603b374a24b77326d14eb29c5bd89b074caf17630dca932bafeb11a5",
+      "already_sample_exact": true,
+      "encoded_streams_identical": true,
+      "stream_hashes": {
+        "video": "SHA256=d060cd85b0b2ce24cc6cc5989a489f7f2eaacd18e1519f98e2bd53f6e6d2e2f9",
+        "audio": "SHA256=6eea7a25bfb018543a9b4c0af70f7c5aac0d1af201121e7f780df437e4affb22"
+      },
+      "duration_seconds": "368.833333"
+    }
+  ]
+}

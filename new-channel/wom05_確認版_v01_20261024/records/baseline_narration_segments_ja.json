@@ -1,0 +1,1019 @@
+{
+  "language": "ja",
+  "voice": "VOICEVOX:冥鳴ひまり",
+  "sample_rate": 24000,
+  "human_auditory_review_completed": false,
+  "segments": [
+    {
+      "id": "P01",
+      "chapter": "C01",
+      "sources": [],
+      "classification": "editorial_question",
+      "visuals": [
+        "met_40011_DP206881",
+        "R01"
+      ],
+      "text": "赤い顔。とても長い鼻。背中の翼と、手には羽のうちわ。日本の伝説に出てくる山の妖怪、天狗です。その名は「天の犬」と書きます。けれど、私たちの知る天狗は、少しも犬に似ていません。そして、日本に残るいちばん古い記録では、天狗は山の生き物ですらありません。空にあるものなのです。",
+      "cues": [
+        {
+          "id": "P01-01",
+          "text": "赤い顔。",
+          "spoken_text": "赤い顔。",
+          "start": 0.0,
+          "end": 0.7893333333333333,
+          "audio_file": "audio/ja/sentences/P01-01.wav",
+          "audio_sha256": "9db5101be3d2d616cb86538fbab78f530d58c4ff3341cc06c620061f0c161d7d",
+          "replacements": [],
+          "role": "opening"
+        },
+        {
+          "id": "P01-02",
+          "text": "とても長い鼻。",
+          "spoken_text": "とても長い鼻。",
+          "start": 1.45,
+          "end": 2.666,
+          "audio_file": "audio/ja/sentences/P01-02.wav",
+          "audio_sha256": "85a2fa7143ae688053134c0628dda57ece54893a1bec29b8ff13cdc4ef7c651e",
+          "replacements": [],
+          "role": "plain"
+        },
+        {
+          "id": "P01-03",
+          "text": "背中の翼と、手には羽のうちわ。",
+          "spoken_text": "背中の翼と、手には羽のうちわ。",
+          "start": 2.986,
+          "end": 5.77,
+          "audio_file": "audio/ja/sentences/P01-03.wav",
+          "audio_sha256": "2bc70d36c47977e242d0358b986d1d5f9be7dddf5dcfd3f6fa2a51c0d0cf2247",
+          "replacements": [],
+          "role": "plain"
+        },
+        {
+          "id": "P01-04",
+          "text": "日本の伝説に出てくる山の妖怪、天狗です。",
+          "spoken_text": "日本の伝説に出てくる山の妖怪、天狗です。",
+          "start": 6.09,
+          "end": 9.631333333333334,
+          "audio_file": "audio/ja/sentences/P01-04.wav",
+          "audio_sha256": "d9f3fffc1c914219beaa0f7f8d9fd13e654eacd6b05741616bb98a270dde7035",
+          "replacements": [],
+          "role": "plain"
+        },
+        {
+          "id": "P01-05",
+          "text": "その名は「天の犬」と書きます。",
+          "spoken_text": "その名は「天の犬」と書きます。",
+          "start": 9.951333333333332,
+          "end": 12.532666666666668,
+          "audio_file": "audio/ja/sentences/P01-05.wav",
+          "audio_sha256": "0b8d3f637c39d1072c8e67dae9c113e6f6853579dcfb842c421869ea3096e300",
+          "replacements": [],
+          "role": "plain"
+        },
+        {
+          "id": "P01-06",
+          "text": "けれど、私たちの知る天狗は、少しも犬に似ていません。",
+          "spoken_text": "けれど、私たちの知る天狗は、少しも犬に似ていません。",
+          "start": 12.852666666666666,
+          "end": 17.151333333333334,
+          "audio_file": "audio/ja/sentences/P01-06.wav",
+          "audio_sha256": "c82c28a8e3a5a50d31411e05332777e469c59ec339ee11cb0e0ec841eb12a7d4",
+          "replacements": [],
+          "role": "contrast"
+        },
+        {
+          "id": "P01-07",
+          "text": "そして、日本に残るいちばん古い記録では、天狗は山の生き物ですらありません。",
+          "spoken_text": "そして、日本に残るいちばん古い記録では、天狗は山の生き物ですらありません。",
+          "start": 17.551333333333332,
+          "end": 23.279333333333334,
+          "audio_file": "audio/ja/sentences/P01-07.wav",
+          "audio_sha256": "61cfa4a354a60464c7d83dd4334fc511fa0c3c19bbaebde6f39a45794d0ff17e",
+          "replacements": [],
+          "role": "transition"
+        },
+        {
+          "id": "P01-08",
+          "text": "空にあるものなのです。",
+          "spoken_text": "空にあるものなのです。",
+          "start": 23.599333333333334,
+          "end": 25.13533333333333,
+          "audio_file": "audio/ja/sentences/P01-08.wav",
+          "audio_sha256": "a38e0904f4972eab1c28ea1023c986e0f46c7ad2bf074faa8c84458c2d0b4506",
+          "replacements": [],
+          "role": "plain"
+        }
+      ],
+      "audio_file": "audio/ja/P01.wav",
+      "duration_seconds": 25.13533333333333,
+      "native_speed": "role-based C"
+    },
+    {
+      "id": "P02",
+      "chapter": "C01",
+      "sources": [],
+      "classification": "editorial_question",
+      "visuals": [
+        "ndl_12865768_001",
+        "met_22470"
+      ],
+      "text": "今回は、720年にまとめられた朝廷の歴史書から、中世の説話、そして後の時代の面や彫り物、版本まで、天狗をたどります。",
+      "cues": [
+        {
+          "id": "P02-01",
+          "text": "今回は、",
+          "spoken_text": "今回は、",
+          "start": 0.0,
+          "end": 0.8533333333333334,
+          "audio_file": "audio/ja/sentences/P02-01.wav",
+          "audio_sha256": "e478a38cf468179dec8c71d88de60ce12b0298ab25aad09168b2c8b734aaa3e6",
+          "replacements": [],
+          "role": "transition"
+        },
+        {
+          "id": "P02-02",
+          "text": "720年にまとめられた朝廷の歴史書から、",
+          "spoken_text": "720年にまとめられた朝廷の歴史書から、",
+          "start": 1.45,
+          "end": 4.874,
+          "audio_file": "audio/ja/sentences/P02-02.wav",
+          "audio_sha256": "960cff1a9c6b6e195010c88eca6602f7cb5b12ee05afbb7cdcfa671ef1368800",
+          "replacements": [],
+          "role": "explanation"
+        },
+        {
+          "id": "P02-03",
+          "text": "中世の説話、",
+          "spoken_text": "中世の説話、",
+          "start": 5.194,
+          "end": 6.399333333333334,
+          "audio_file": "audio/ja/sentences/P02-03.wav",
+          "audio_sha256": "9c2fb9f1608872c1f51c7987892832edb4104539f94b7952a5ae319db8dfbe9f",
+          "replacements": [],
+          "role": "plain"
+        },
+        {
+          "id": "P02-04",
+          "text": "そして後の時代の面や彫り物、",
+          "spoken_text": "そして後の時代の面や彫り物、",
+          "start": 6.719333333333333,
+          "end": 8.842,
+          "audio_file": "audio/ja/sentences/P02-04.wav",
+          "audio_sha256": "057237da8454a2d34d9536d264ef1dd3788f7bb557e7b43c6a30dc47e9d56435",
+          "replacements": [],
+          "role": "plain"
+        },
+        {
+          "id": "P02-05",
+          "text": "版本まで、",
+          "spoken_text": "版本まで、",
+          "start": 9.162,
+          "end": 10.111333333333333,
+          "audio_file": "audio/ja/sentences/P02-05.wav",
+          "audio_sha256": "d68da6b0f0e8ee81944b2a29c84e0ed1b61bdfe2c650d6f176db5d10632ee8fc",
+          "replacements": [],
+          "role": "plain"
+        },
+        {
+          "id": "P02-06",
+          "text": "天狗をたどります。",
+          "spoken_text": "天狗をたどります。",
+          "start": 10.612,
+          "end": 11.838666666666667,
+          "audio_file": "audio/ja/sentences/P02-06.wav",
+          "audio_sha256": "bb174723bb1ed6c73bde7ae83486330c424db97d588ebfb26cdde51603ad128b",
+          "replacements": [],
+          "role": "plain"
+        }
+      ],
+      "audio_file": "audio/ja/P02.wav",
+      "duration_seconds": 11.838666666666667,
+      "native_speed": "role-based C"
+    },
+    {
+      "id": "P03",
+      "chapter": "C02",
+      "sources": [
+        "T-S01"
+      ],
+      "classification": "source_based",
+      "visuals": [
+        "R02",
+        "V01"
+      ],
+      "text": "『日本書紀』は720年に完成しました。その637年の記事に、ふしぎな出来事が書かれています。大きな星が、雷のような音を立てて、東から西へ空を流れました。ある人々は、流れ星の音だと言いました。ほかの人々は、地の雷だと言いました。",
+      "cues": [
+        {
+          "id": "P03-01",
+          "text": "『日本書紀』は720年に完成しました。",
+          "spoken_text": "『日本書紀』は720年に完成しました。",
+          "start": 0.0,
+          "end": 3.424,
+          "audio_file": "audio/ja/sentences/P03-01.wav",
+          "audio_sha256": "20033e2b6c823b887ab7083a6d41554c83b2698e0ae747b1468d79554724d3f9",
+          "replacements": [],
+          "role": "explanation"
+        },
+        {
+          "id": "P03-02",
+          "text": "その637年の記事に、ふしぎな出来事が書かれています。",
+          "spoken_text": "その637年の記事に、ふしぎな出来事が書かれています。",
+          "start": 3.744,
+          "end": 8.394666666666666,
+          "audio_file": "audio/ja/sentences/P03-02.wav",
+          "audio_sha256": "87ed2fd5fc5ed2298eb370493a417ecf5aba9de6cbfd7a03ad468b1ff6459349",
+          "replacements": [],
+          "role": "plain"
+        },
+        {
+          "id": "P03-03",
+          "text": "大きな星が、雷のような音を立てて、東から西へ空を流れました。",
+          "spoken_text": "大きな星が、雷のような音を立てて、東から西へ空を流れました。",
+          "start": 8.714666666666666,
+          "end": 14.176,
+          "audio_file": "audio/ja/sentences/P03-03.wav",
+          "audio_sha256": "90a3197d87aad72a9dd3f4c6ce878279d96b1ae046d2801f89fe512b8549fb63",
+          "replacements": [],
+          "role": "plain"
+        },
+        {
+          "id": "P03-04",
+          "text": "ある人々は、流れ星の音だと言いました。",
+          "spoken_text": "ある人々は、流れ星の音だと言いました。",
+          "start": 14.496,
+          "end": 17.610666666666667,
+          "audio_file": "audio/ja/sentences/P03-04.wav",
+          "audio_sha256": "2a5248dff8ad45387d019de3bb955dfd27bb765e278deb044886e3e23c911565",
+          "replacements": [],
+          "role": "plain"
+        },
+        {
+          "id": "P03-05",
+          "text": "ほかの人々は、地の雷だと言いました。",
+          "spoken_text": "ほかの人々は、地の雷だと言いました。",
+          "start": 17.930666666666667,
+          "end": 21.077333333333332,
+          "audio_file": "audio/ja/sentences/P03-05.wav",
+          "audio_sha256": "9f0a048126838cfb5a79684f2c38a87316437f8a6c57a519e8440ff6e1a95654",
+          "replacements": [],
+          "role": "plain"
+        }
+      ],
+      "audio_file": "audio/ja/P03.wav",
+      "duration_seconds": 21.077333333333332,
+      "native_speed": "role-based C"
+    },
+    {
+      "id": "P04",
+      "chapter": "C02",
+      "sources": [
+        "T-S01",
+        "T-S03"
+      ],
+      "classification": "source_based",
+      "visuals": [
+        "ndl_1182143_010"
+      ],
+      "text": "そこへ、中国で学んだ旻（みん）という僧が、別の答えを出します。これは流れ星ではない。天狗、天の犬だ。その吠える声が、雷に似ているのだ、と。これが、日本の記録に「天狗」という言葉が出てくる最初だと考えられています。",
+      "cues": [
+        {
+          "id": "P04-01",
+          "text": "そこへ、中国で学んだ旻（みん）という僧が、別の答えを出します。",
+          "spoken_text": "そこへ、中国で学んだみんという僧が、別の答えを出します。",
+          "start": 0.0,
+          "end": 4.586666666666667,
+          "audio_file": "audio/ja/sentences/P04-01.wav",
+          "audio_sha256": "ce8a0b9aa8251b0ec1eb958130da6b8054d899e446673f46aaac966e273cc839",
+          "replacements": [
+            {
+              "display": "旻（みん）",
+              "spoken": "みん",
+              "count": 1
+            }
+          ],
+          "role": "plain"
+        },
+        {
+          "id": "P04-02",
+          "text": "これは流れ星ではない。",
+          "spoken_text": "これは流れ星ではない。",
+          "start": 4.906666666666666,
+          "end": 6.645333333333333,
+          "audio_file": "audio/ja/sentences/P04-02.wav",
+          "audio_sha256": "1e7589437ba1604cedaa8953683dc812105f8d6df8c1f7ec3322fed0c6bfda6c",
+          "replacements": [],
+          "role": "plain"
+        },
+        {
+          "id": "P04-03",
+          "text": "天狗、天の犬だ。",
+          "spoken_text": "天狗、天の犬だ。",
+          "start": 6.965333333333334,
+          "end": 8.533333333333333,
+          "audio_file": "audio/ja/sentences/P04-03.wav",
+          "audio_sha256": "7bad7822a5c8660f70728c11d3bb5070c8dc3d4bbfa1c00491be4aa1316a7805",
+          "replacements": [],
+          "role": "plain"
+        },
+        {
+          "id": "P04-04",
+          "text": "その吠える声が、雷に似ているのだ、と。",
+          "spoken_text": "その吠える声が、雷に似ているのだ、と。",
+          "start": 8.853333333333333,
+          "end": 12.277333333333333,
+          "audio_file": "audio/ja/sentences/P04-04.wav",
+          "audio_sha256": "3471945e52bb68eeab4d15e97ed58aee0bfaa4b0e3a4d25f3759f299677d303c",
+          "replacements": [],
+          "role": "plain"
+        },
+        {
+          "id": "P04-05",
+          "text": "これが、日本の記録に「天狗」という言葉が出てくる最初だと考えられています。",
+          "spoken_text": "これが、日本の記録に「天狗」という言葉が出てくる最初だと考えられています。",
+          "start": 12.597333333333333,
+          "end": 18.698666666666668,
+          "audio_file": "audio/ja/sentences/P04-05.wav",
+          "audio_sha256": "e8a6d394834bce93cc4e426791d734fc546e8cb054d083bfc0ecb8571c42b09f",
+          "replacements": [],
+          "role": "plain"
+        }
+      ],
+      "audio_file": "audio/ja/P04.wav",
+      "duration_seconds": 18.698666666666668,
+      "native_speed": "role-based C"
+    },
+    {
+      "id": "P05",
+      "chapter": "C02",
+      "sources": [
+        "T-S04"
+      ],
+      "classification": "source_based",
+      "visuals": [
+        "ndl_958959_087"
+      ],
+      "text": "旻のもとにあったのは、中国の学問です。二千年以上前の中国の歴史書『史記』では、天狗は星の一種でした。大きな流れ星のようで、音を立て、地に降りたところは犬に似ている、と。今の言葉で言えば、とても明るい流れ星、火球のようなものだったのかもしれません。",
+      "cues": [
+        {
+          "id": "P05-01",
+          "text": "旻のもとにあったのは、中国の学問です。",
+          "spoken_text": "みんのもとにあったのは、中国の学問です。",
+          "start": 0.0,
+          "end": 3.0933333333333333,
+          "audio_file": "audio/ja/sentences/P05-01.wav",
+          "audio_sha256": "f4830ff9b61db44389f16ebd37f31d9adcb88d978aca2ac631d9f711aa3b439a",
+          "replacements": [
+            {
+              "display": "旻",
+              "spoken": "みん",
+              "count": 1
+            }
+          ],
+          "role": "plain"
+        },
+        {
+          "id": "P05-02",
+          "text": "二千年以上前の中国の歴史書『史記』では、天狗は星の一種でした。",
+          "spoken_text": "二千年以上前の中国の歴史書『史記』では、天狗は星の一種でした。",
+          "start": 3.4133333333333336,
+          "end": 9.12,
+          "audio_file": "audio/ja/sentences/P05-02.wav",
+          "audio_sha256": "41f68239b199cc118e45a10a06afba0e803d3189349892daa7c2d51196b5871d",
+          "replacements": [],
+          "role": "plain"
+        },
+        {
+          "id": "P05-03",
+          "text": "大きな流れ星のようで、音を立て、地に降りたところは犬に似ている、と。",
+          "spoken_text": "大きな流れ星のようで、音を立て、地に降りたところは犬に似ている、と。",
+          "start": 9.44,
+          "end": 14.794666666666666,
+          "audio_file": "audio/ja/sentences/P05-03.wav",
+          "audio_sha256": "6902ccb0c4b25fb384c45f204a7fabf3253ab0c6ccbe16c06024404555f69ed7",
+          "replacements": [],
+          "role": "plain"
+        },
+        {
+          "id": "P05-04",
+          "text": "今の言葉で言えば、とても明るい流れ星、火球のようなものだったのかもしれません。",
+          "spoken_text": "今の言葉で言えば、とても明るい流れ星、火球のようなものだったのかもしれません。",
+          "start": 15.114666666666666,
+          "end": 21.024,
+          "audio_file": "audio/ja/sentences/P05-04.wav",
+          "audio_sha256": "2c23f96dddcdd992f79b3c43122306f5e4692a7a4d0e78e0b58cfd8b7dea6d2f",
+          "replacements": [],
+          "role": "plain"
+        }
+      ],
+      "audio_file": "audio/ja/P05.wav",
+      "duration_seconds": 21.024,
+      "native_speed": "role-based C"
+    },
+    {
+      "id": "P06",
+      "chapter": "C02",
+      "sources": [
+        "T-S02"
+      ],
+      "classification": "source_based",
+      "visuals": [
+        "D_gloss"
+      ],
+      "text": "『日本書紀』の古い写本の一つには、「天狗」の字のそばに、「天の狐」を意味する小さな読みが書き添えられています。そしてこのあと数百年、この言葉は記録からほとんど姿を消します。",
+      "cues": [
+        {
+          "id": "P06-01",
+          "text": "『日本書紀』の古い写本の一つには、「天狗」の字のそばに、「天の狐」を意味する小さな読みが書き添えられています。",
+          "spoken_text": "『日本書紀』の古い写本の一つには、「天狗」の字のそばに、「天の狐」を意味する小さな読みが書き添えられています。",
+          "start": 0.0,
+          "end": 8.469333333333333,
+          "audio_file": "audio/ja/sentences/P06-01.wav",
+          "audio_sha256": "0f2cbb8eb6cba6b2cbb67678d1ec0f09867bbbdf4c6cda4efb17b2693a66e0de",
+          "replacements": [],
+          "role": "plain"
+        },
+        {
+          "id": "P06-02",
+          "text": "そしてこのあと数百年、この言葉は記録からほとんど姿を消します。",
+          "spoken_text": "そしてこのあと数百年、この言葉は記録からほとんど姿を消します。",
+          "start": 8.789333333333333,
+          "end": 13.685333333333332,
+          "audio_file": "audio/ja/sentences/P06-02.wav",
+          "audio_sha256": "607e29d38814d416de579473a1c251a2725cd4891ad138e6e3bcec78b97958dd",
+          "replacements": [],
+          "role": "plain"
+        }
+      ],
+      "audio_file": "audio/ja/P06.wav",
+      "duration_seconds": 13.685333333333332,
+      "native_speed": "role-based C"
+    },
+    {
+      "id": "P07",
+      "chapter": "C03",
+      "sources": [
+        "T-S06"
+      ],
+      "classification": "source_based",
+      "visuals": [
+        "ndl_945414_003"
+      ],
+      "text": "ふたたび現れたとき、天狗は変わっていました。12世紀ごろの説話集『今昔物語集』では、天狗は人をだまし、僧を修行から遠ざけようとします。おごり高ぶり、知恵がまわり、そして最後にはたいてい負けてしまいます。",
+      "cues": [
+        {
+          "id": "P07-01",
+          "text": "ふたたび現れたとき、天狗は変わっていました。",
+          "spoken_text": "ふたたび現れたとき、天狗は変わっていました。",
+          "start": 0.0,
+          "end": 3.2746666666666666,
+          "audio_file": "audio/ja/sentences/P07-01.wav",
+          "audio_sha256": "8272aebb0b446373a21ea4634966d0c1e4ac9d03208a8f16ec7cc049acca88be",
+          "replacements": [],
+          "role": "plain"
+        },
+        {
+          "id": "P07-02",
+          "text": "12世紀ごろの説話集『今昔物語集』では、天狗は人をだまし、僧を修行から遠ざけようとします。",
+          "spoken_text": "12世紀ごろの説話集『今昔物語集』では、天狗は人をだまし、僧を修行から遠ざけようとします。",
+          "start": 3.5946666666666665,
+          "end": 11.829333333333333,
+          "audio_file": "audio/ja/sentences/P07-02.wav",
+          "audio_sha256": "78142b18be3548a0ae169906bdb33d889657a087afdba3ed1e35eadeac9dfeae",
+          "replacements": [],
+          "role": "explanation"
+        },
+        {
+          "id": "P07-03",
+          "text": "おごり高ぶり、知恵がまわり、そして最後にはたいてい負けてしまいます。",
+          "spoken_text": "おごり高ぶり、知恵がまわり、そして最後にはたいてい負けてしまいます。",
+          "start": 12.149333333333333,
+          "end": 16.949333333333332,
+          "audio_file": "audio/ja/sentences/P07-03.wav",
+          "audio_sha256": "23fb4dc58482e4d83b56aed9356f184c4484519a29597fc3d1af670de1de9acc",
+          "replacements": [],
+          "role": "plain"
+        }
+      ],
+      "audio_file": "audio/ja/P07.wav",
+      "duration_seconds": 16.949333333333332,
+      "native_speed": "role-based C"
+    },
+    {
+      "id": "P08",
+      "chapter": "C03",
+      "sources": [
+        "T-S05"
+      ],
+      "classification": "source_based",
+      "visuals": [
+        "met_57203",
+        "V02"
+      ],
+      "text": "ある話では、都の柿の木の枝に仏が現れ、光を放ち、花を降らせます。人々は大勢で拝みに来ました。けれど一人の大臣は疑って、ただじっと見つめ続けます。とうとう仏は消え、翼の折れた大きな鳶が木から落ちてきました。天狗の正体は、鳥だったのです。",
+      "cues": [
+        {
+          "id": "P08-01",
+          "text": "ある話では、都の柿の木の枝に仏が現れ、光を放ち、花を降らせます。",
+          "spoken_text": "ある話では、都の柿の木の枝に仏が現れ、光を放ち、花を降らせます。",
+          "start": 0.0,
+          "end": 6.112,
+          "audio_file": "audio/ja/sentences/P08-01.wav",
+          "audio_sha256": "357ca9ebbff0929ac42bd82eb776cea3602bd987d943be443419a193bc3fa1b2",
+          "replacements": [],
+          "role": "plain"
+        },
+        {
+          "id": "P08-02",
+          "text": "人々は大勢で拝みに来ました。",
+          "spoken_text": "人々は大勢で拝みに来ました。",
+          "start": 6.432,
+          "end": 8.789333333333333,
+          "audio_file": "audio/ja/sentences/P08-02.wav",
+          "audio_sha256": "98a6f833639d13cd23b7f8bda213597cc0e60cf3e6d17f5b88bc36518745dd5e",
+          "replacements": [],
+          "role": "plain"
+        },
+        {
+          "id": "P08-03",
+          "text": "けれど一人の大臣は疑って、ただじっと見つめ続けます。",
+          "spoken_text": "けれど一人の大臣は疑って、ただじっと見つめ続けます。",
+          "start": 9.109333333333334,
+          "end": 13.290666666666667,
+          "audio_file": "audio/ja/sentences/P08-03.wav",
+          "audio_sha256": "df24191a422eb2b2dd7f5cbcf6b96d0588ceff567563a02dacd9e9beff54a75d",
+          "replacements": [],
+          "role": "contrast"
+        },
+        {
+          "id": "P08-04",
+          "text": "とうとう仏は消え、翼の折れた大きな鳶が木から落ちてきました。",
+          "spoken_text": "とうとう仏は消え、翼の折れた大きな鳶が木から落ちてきました。",
+          "start": 13.690666666666667,
+          "end": 18.384,
+          "audio_file": "audio/ja/sentences/P08-04.wav",
+          "audio_sha256": "b5e266bdd6f9e0ddf978b93b8c94a6c37bc7d502d76f4eaafbb93443ef0c50d6",
+          "replacements": [],
+          "role": "plain"
+        },
+        {
+          "id": "P08-05",
+          "text": "天狗の正体は、鳥だったのです。",
+          "spoken_text": "天狗の正体は、鳥だったのです。",
+          "start": 18.704,
+          "end": 21.27466666666667,
+          "audio_file": "audio/ja/sentences/P08-05.wav",
+          "audio_sha256": "f6e6598ec61e3d4d70899976e9aa5b496255c7f50b5699ea561c4ad45ab1b8e7",
+          "replacements": [],
+          "role": "plain"
+        }
+      ],
+      "audio_file": "audio/ja/P08.wav",
+      "duration_seconds": 21.27466666666667,
+      "native_speed": "role-based C"
+    },
+    {
+      "id": "P09",
+      "chapter": "C03",
+      "sources": [
+        "T-S06",
+        "T-S07",
+        "T-S08"
+      ],
+      "classification": "source_based",
+      "visuals": [
+        "met_23997",
+        "met_59737"
+      ],
+      "text": "別の話では、中国の天狗が海を渡って日本の僧たちを試そうとし、僧を守る童子たちに、さんざんにやられてしまいます。1200年代から1300年代の絵巻は、こうした話を描き直し、その天狗の多くは猛禽のくちばしと翼を持っています。1296年ごろの『天狗草紙』は、おごった僧たちを天狗の姿にして、おごりを戒めました。この鳥の顔の姿は、今も「烏天狗」として残っています。",
+      "cues": [
+        {
+          "id": "P09-01",
+          "text": "別の話では、中国の天狗が海を渡って日本の僧たちを試そうとし、僧を守る童子たちに、さんざんにやられてしまいます。",
+          "spoken_text": "別の話では、中国の天狗が海を渡って日本の僧たちを試そうとし、僧を守る童子たちに、さんざんにやられてしまいます。",
+          "start": 0.0,
+          "end": 9.109333333333334,
+          "audio_file": "audio/ja/sentences/P09-01.wav",
+          "audio_sha256": "76d45197a44b7217eee27cf98c9f15c1926bcd97bb9db4e01d77781355148855",
+          "replacements": [],
+          "role": "plain"
+        },
+        {
+          "id": "P09-02",
+          "text": "1200年代から1300年代の絵巻は、こうした話を描き直し、その天狗の多くは猛禽のくちばしと翼を持っています。",
+          "spoken_text": "1200年代から1300年代の絵巻は、こうした話を描き直し、その天狗の多くは猛禽のくちばしと翼を持っています。",
+          "start": 9.429333333333334,
+          "end": 18.496,
+          "audio_file": "audio/ja/sentences/P09-02.wav",
+          "audio_sha256": "1e5656f6a1a237fc13ac3806c334372a11da7808513ac71dc2f06762a0b0c45e",
+          "replacements": [],
+          "role": "plain"
+        },
+        {
+          "id": "P09-03",
+          "text": "1296年ごろの『天狗草紙』は、おごった僧たちを天狗の姿にして、おごりを戒めました。",
+          "spoken_text": "1296年ごろの『天狗草紙』は、おごった僧たちを天狗の姿にして、おごりを戒めました。",
+          "start": 18.816,
+          "end": 26.570666666666668,
+          "audio_file": "audio/ja/sentences/P09-03.wav",
+          "audio_sha256": "49370c0be5a2e933421d0a19a19c2f3dd1c8b4c1a774da168a49ff935544402d",
+          "replacements": [],
+          "role": "plain"
+        },
+        {
+          "id": "P09-04",
+          "text": "この鳥の顔の姿は、今も「烏天狗」として残っています。",
+          "spoken_text": "この鳥の顔の姿は、今も「烏天狗」として残っています。",
+          "start": 26.890666666666668,
+          "end": 31.744,
+          "audio_file": "audio/ja/sentences/P09-04.wav",
+          "audio_sha256": "98e4bbbcd5da2650b5bcef75119072d364f2500c60e80d8b8c725ee38b3026e6",
+          "replacements": [],
+          "role": "plain"
+        }
+      ],
+      "audio_file": "audio/ja/P09.wav",
+      "duration_seconds": 31.744,
+      "native_speed": "role-based C"
+    },
+    {
+      "id": "P10",
+      "chapter": "C04",
+      "sources": [
+        "T-S11"
+      ],
+      "classification": "source_based",
+      "visuals": [
+        "met_24145"
+      ],
+      "text": "やがて、もう一つの天狗がなじみの姿になります。赤い顔、長い鼻、そして山で修行する山伏の装いに、羽のうちわ。長い鼻がいつ現れたのか、はっきりとは分かっていません。1700年代の初めに鎧のために作られたこの面は、すでに天狗に長く突き出た鼻を与えています。",
+      "cues": [
+        {
+          "id": "P10-01",
+          "text": "やがて、もう一つの天狗がなじみの姿になります。",
+          "spoken_text": "やがて、もう一つの天狗がなじみの姿になります。",
+          "start": 0.0,
+          "end": 3.584,
+          "audio_file": "audio/ja/sentences/P10-01.wav",
+          "audio_sha256": "10b61dbfb7455be5fde128e8afae4a9e6e4102d2ca3260d89db86bfc9d0c55c1",
+          "replacements": [],
+          "role": "plain"
+        },
+        {
+          "id": "P10-02",
+          "text": "赤い顔、長い鼻、そして山で修行する山伏の装いに、羽のうちわ。",
+          "spoken_text": "赤い顔、長い鼻、そして山で修行する山伏の装いに、羽のうちわ。",
+          "start": 3.904,
+          "end": 9.632,
+          "audio_file": "audio/ja/sentences/P10-02.wav",
+          "audio_sha256": "4c4fc49c23ee4aab730b5657ffae56ec8ade1744e8d4aea733ee7259d5d05c6e",
+          "replacements": [],
+          "role": "plain"
+        },
+        {
+          "id": "P10-03",
+          "text": "長い鼻がいつ現れたのか、はっきりとは分かっていません。",
+          "spoken_text": "長い鼻がいつ現れたのか、はっきりとは分かっていません。",
+          "start": 9.952,
+          "end": 13.941333333333333,
+          "audio_file": "audio/ja/sentences/P10-03.wav",
+          "audio_sha256": "3a018328e1619bc23e16c7c13ebd481da2c1554b2bb54ed112cf118e5604fd7f",
+          "replacements": [],
+          "role": "plain"
+        },
+        {
+          "id": "P10-04",
+          "text": "1700年代の初めに鎧のために作られたこの面は、すでに天狗に長く突き出た鼻を与えています。",
+          "spoken_text": "1700年代の初めに鎧のために作られたこの面は、すでに天狗に長く突き出た鼻を与えています。",
+          "start": 14.261333333333333,
+          "end": 21.536,
+          "audio_file": "audio/ja/sentences/P10-04.wav",
+          "audio_sha256": "5be437e5268847a947fe90b9e6e0adc295e008ce3c47a84703ed74c857688be5",
+          "replacements": [],
+          "role": "plain"
+        }
+      ],
+      "audio_file": "audio/ja/P10.wav",
+      "duration_seconds": 21.536,
+      "native_speed": "role-based C"
+    },
+    {
+      "id": "P11",
+      "chapter": "C04",
+      "sources": [
+        "T-S10",
+        "T-S11"
+      ],
+      "classification": "source_based",
+      "visuals": [
+        "aic_154960",
+        "aic_26700",
+        "met_60361"
+      ],
+      "text": "京都の北の鞍馬山は、大天狗で知られるようになりました。能の『鞍馬天狗』は、のちの源義経、幼い牛若丸が、山の大天狗から兵法を授かる話です。江戸時代の作り手たちは、版画や、この小さな彫り物のように、この場面をくり返し表しました。",
+      "cues": [
+        {
+          "id": "P11-01",
+          "text": "京都の北の鞍馬山は、大天狗で知られるようになりました。",
+          "spoken_text": "京都の北の鞍馬山は、大天狗で知られるようになりました。",
+          "start": 0.0,
+          "end": 4.16,
+          "audio_file": "audio/ja/sentences/P11-01.wav",
+          "audio_sha256": "3b01fc15811114e788c2f8c31d2248beaee11347c3149602e855fbf6b6e676db",
+          "replacements": [],
+          "role": "plain"
+        },
+        {
+          "id": "P11-02",
+          "text": "能の『鞍馬天狗』は、のちの源義経、幼い牛若丸が、山の大天狗から兵法を授かる話です。",
+          "spoken_text": "能の『鞍馬天狗』は、のちの源義経、幼い牛若丸が、山の大天狗から兵法を授かる話です。",
+          "start": 4.48,
+          "end": 13.002666666666666,
+          "audio_file": "audio/ja/sentences/P11-02.wav",
+          "audio_sha256": "969468f48611769ebf3ddf85c5fb07f519ff6a64953543d56f701028294b3bba",
+          "replacements": [],
+          "role": "plain"
+        },
+        {
+          "id": "P11-03",
+          "text": "江戸時代の作り手たちは、版画や、この小さな彫り物のように、この場面をくり返し表しました。",
+          "spoken_text": "江戸時代の作り手たちは、版画や、この小さな彫り物のように、この場面をくり返し表しました。",
+          "start": 13.322666666666667,
+          "end": 20.469333333333335,
+          "audio_file": "audio/ja/sentences/P11-03.wav",
+          "audio_sha256": "774522e93ecd57ccd96831e7b677c29f423e1905e8d506540b1d3afecc17fb75",
+          "replacements": [],
+          "role": "plain"
+        }
+      ],
+      "audio_file": "audio/ja/P11.wav",
+      "duration_seconds": 20.469333333333335,
+      "native_speed": "role-based C"
+    },
+    {
+      "id": "P12",
+      "chapter": "C04",
+      "sources": [
+        "T-S11"
+      ],
+      "classification": "source_based",
+      "visuals": [
+        "ndl_851648_028",
+        "lacma_89199",
+        "R03"
+      ],
+      "text": "そして、鳥の姿が消えたわけではありません。北斎のこの絵手本で「天狗」と書かれているのは、今も大きな鳥です。何百年ものあいだ、鼻の高い天狗と鳥の顔の天狗は、並んで生きてきました。やがて天狗は、守り手にもなりました。山の寺や神社のなかには、今も天狗を山の守り神として祀るところがあります。",
+      "cues": [
+        {
+          "id": "P12-01",
+          "text": "そして、鳥の姿が消えたわけではありません。",
+          "spoken_text": "そして、鳥の姿が消えたわけではありません。",
+          "start": 0.0,
+          "end": 3.2533333333333334,
+          "audio_file": "audio/ja/sentences/P12-01.wav",
+          "audio_sha256": "33ac1675971dc68e6a5d008dc8884beae1797844ebc820ddad7598b438eaffd6",
+          "replacements": [],
+          "role": "transition"
+        },
+        {
+          "id": "P12-02",
+          "text": "北斎のこの絵手本で「天狗」と書かれているのは、今も大きな鳥です。",
+          "spoken_text": "北斎のこの絵手本で「天狗」と書かれているのは、今も大きな鳥です。",
+          "start": 3.5733333333333333,
+          "end": 8.853333333333333,
+          "audio_file": "audio/ja/sentences/P12-02.wav",
+          "audio_sha256": "6a16be653239f3c37d338b6f81b97ee4e6ce33eef3909a8948c220be9d5ce686",
+          "replacements": [],
+          "role": "plain"
+        },
+        {
+          "id": "P12-03",
+          "text": "何百年ものあいだ、鼻の高い天狗と鳥の顔の天狗は、並んで生きてきました。",
+          "spoken_text": "何百年ものあいだ、鼻の高い天狗と鳥の顔の天狗は、並んで生きてきました。",
+          "start": 9.173333333333334,
+          "end": 15.04,
+          "audio_file": "audio/ja/sentences/P12-03.wav",
+          "audio_sha256": "0da53c64dc926e79c3835c6121996302404699dea0355b80b63b00ad50a5b57f",
+          "replacements": [],
+          "role": "plain"
+        },
+        {
+          "id": "P12-04",
+          "text": "やがて天狗は、守り手にもなりました。",
+          "spoken_text": "やがて天狗は、守り手にもなりました。",
+          "start": 15.36,
+          "end": 18.112,
+          "audio_file": "audio/ja/sentences/P12-04.wav",
+          "audio_sha256": "ad88b0cc1c01b5853e1722a1a236c7cf55d604f26e00aba6120d8f8c019a72fc",
+          "replacements": [],
+          "role": "plain"
+        },
+        {
+          "id": "P12-05",
+          "text": "山の寺や神社のなかには、今も天狗を山の守り神として祀るところがあります。",
+          "spoken_text": "山の寺や神社のなかには、今も天狗を山の守り神として祀るところがあります。",
+          "start": 18.432,
+          "end": 24.128,
+          "audio_file": "audio/ja/sentences/P12-05.wav",
+          "audio_sha256": "4890ed90a17484c7140c3d8f34b4072c77a36637bfd62414511838e2487ec788",
+          "replacements": [],
+          "role": "plain"
+        }
+      ],
+      "audio_file": "audio/ja/P12.wav",
+      "duration_seconds": 24.128,
+      "native_speed": "role-based C"
+    },
+    {
+      "id": "P13",
+      "chapter": "C05",
+      "sources": [
+        "T-S01",
+        "T-S05",
+        "T-S11"
+      ],
+      "classification": "summary",
+      "visuals": [
+        "D_forms"
+      ],
+      "text": "では、最初の天狗とは何だったのでしょう。いちばん古い記録では、空をとどろかせて流れた星。中世の説話では、人をだまし、信仰を試す鳥。長い鼻の姿は後から現れ、鳥の姿に取って代わるのではなく、その隣に加わりました。",
+      "cues": [
+        {
+          "id": "P13-01",
+          "text": "では、最初の天狗とは何だったのでしょう。",
+          "spoken_text": "では、最初の天狗とは何だったのでしょう。",
+          "start": 0.0,
+          "end": 3.04,
+          "audio_file": "audio/ja/sentences/P13-01.wav",
+          "audio_sha256": "3b17083f291a3a5bd852cb6b5faf171fc98b3529c89475c1e7258fdd71b3cdfa",
+          "replacements": [],
+          "role": "question"
+        },
+        {
+          "id": "P13-02",
+          "text": "いちばん古い記録では、空をとどろかせて流れた星。",
+          "spoken_text": "いちばん古い記録では、空をとどろかせて流れた星。",
+          "start": 3.44,
+          "end": 7.226666666666667,
+          "audio_file": "audio/ja/sentences/P13-02.wav",
+          "audio_sha256": "b3bd8221b740c8c11fcdbbfefe8e9dd270de0317876cc64422dc891113bc656b",
+          "replacements": [],
+          "role": "plain"
+        },
+        {
+          "id": "P13-03",
+          "text": "中世の説話では、人をだまし、信仰を試す鳥。",
+          "spoken_text": "中世の説話では、人をだまし、信仰を試す鳥。",
+          "start": 7.546666666666667,
+          "end": 11.589333333333334,
+          "audio_file": "audio/ja/sentences/P13-03.wav",
+          "audio_sha256": "a892e7f9096192508dea0f1658b7b9f838072465e80acb26b1bd8c3ba62cf325",
+          "replacements": [],
+          "role": "plain"
+        },
+        {
+          "id": "P13-04",
+          "text": "長い鼻の姿は後から現れ、鳥の姿に取って代わるのではなく、その隣に加わりました。",
+          "spoken_text": "長い鼻の姿は後から現れ、鳥の姿に取って代わるのではなく、その隣に加わりました。",
+          "start": 11.909333333333333,
+          "end": 18.746666666666666,
+          "audio_file": "audio/ja/sentences/P13-04.wav",
+          "audio_sha256": "ad62c22590189c079127003b856fee73f8392b68fef2a6a78957cc4920e3d30a",
+          "replacements": [],
+          "role": "plain"
+        }
+      ],
+      "audio_file": "audio/ja/P13.wav",
+      "duration_seconds": 18.746666666666666,
+      "native_speed": "role-based C"
+    },
+    {
+      "id": "P14",
+      "chapter": "C05",
+      "sources": [],
+      "classification": "summary",
+      "visuals": [
+        "V03"
+      ],
+      "text": "私たちが思い浮かべる天狗は、この伝説のいちばん古い部分ではありません。いちばん新しい部分の一つです。どの物語にも由来がある。ときには、それは空から始まります。",
+      "cues": [
+        {
+          "id": "P14-01",
+          "text": "私たちが思い浮かべる天狗は、この伝説のいちばん古い部分ではありません。",
+          "spoken_text": "私たちが思い浮かべる天狗は、この伝説のいちばん古い部分ではありません。",
+          "start": 0.0,
+          "end": 5.386666666666667,
+          "audio_file": "audio/ja/sentences/P14-01.wav",
+          "audio_sha256": "d21e83f1697327b8d8a56060b7b9827ff7076c3e067bd1b49f1f7574ec5912f1",
+          "replacements": [],
+          "role": "conclusion"
+        },
+        {
+          "id": "P14-02",
+          "text": "いちばん新しい部分の一つです。",
+          "spoken_text": "いちばん新しい部分の一つです。",
+          "start": 5.786666666666667,
+          "end": 8.090666666666667,
+          "audio_file": "audio/ja/sentences/P14-02.wav",
+          "audio_sha256": "01c9096e7548c18a9c496856101f12039a95c8949423534e63278ef7440a34b9",
+          "replacements": [],
+          "role": "conclusion"
+        },
+        {
+          "id": "P14-03",
+          "text": "どの物語にも由来がある。",
+          "spoken_text": "どの物語にも由来がある。",
+          "start": 8.490666666666666,
+          "end": 10.410666666666666,
+          "audio_file": "audio/ja/sentences/P14-03.wav",
+          "audio_sha256": "8a42a52795347ffd99f9a63a0a696c82aab71e615495f27337ac0724b7e0d395",
+          "replacements": [],
+          "role": "conclusion"
+        },
+        {
+          "id": "P14-04",
+          "text": "ときには、それは空から始まります。",
+          "spoken_text": "ときには、それは空から始まります。",
+          "start": 10.810666666666666,
+          "end": 13.488,
+          "audio_file": "audio/ja/sentences/P14-04.wav",
+          "audio_sha256": "8ce56da4b8351b18b07439849eb13680c3ac541bd56de8ece2646bf9266bf50a",
+          "replacements": [],
+          "role": "conclusion"
+        }
+      ],
+      "audio_file": "audio/ja/P14.wav",
+      "duration_seconds": 13.488,
+      "native_speed": "role-based C"
+    },
+    {
+      "id": "P15",
+      "chapter": "C05",
+      "sources": [],
+      "classification": "credits",
+      "visuals": [
+        "credits"
+      ],
+      "text": "この動画は、歴史上の文献と公開された美術館のコレクションをもとに構成しました。ナレーションには音声合成を、一部の映像にはAIによる再現画を使っています。出典と利用条件は概要欄にまとめています。楽しんでいただけたら、高評価とチャンネル登録をお願いします。ご覧いただき、ありがとうございました。",
+      "cues": [
+        {
+          "id": "P15-01",
+          "text": "この動画は、歴史上の文献と公開された美術館のコレクションをもとに構成しました。",
+          "spoken_text": "この動画は、歴史上の文献と公開された美術館のコレクションをもとに構成しました。",
+          "start": 0.0,
+          "end": 6.144,
+          "audio_file": "audio/ja/sentences/P15-01.wav",
+          "audio_sha256": "b899db6595bf02d29214948f454c33958d63bb5362da8a7ce95b8be407416e8c",
+          "replacements": [],
+          "role": "conclusion"
+        },
+        {
+          "id": "P15-02",
+          "text": "ナレーションには音声合成を、一部の映像にはAIによる再現画を使っています。",
+          "spoken_text": "ナレーションには音声合成を、一部の映像にはAIによる再現画を使っています。",
+          "start": 6.544,
+          "end": 12.304,
+          "audio_file": "audio/ja/sentences/P15-02.wav",
+          "audio_sha256": "fa86b7e8dfe93ddac299b1287075cf37c6ed10d86a2b47fb1b9d8c567584c581",
+          "replacements": [],
+          "role": "conclusion"
+        },
+        {
+          "id": "P15-03",
+          "text": "出典と利用条件は概要欄にまとめています。",
+          "spoken_text": "出典と利用条件は概要欄にまとめています。",
+          "start": 12.704,
+          "end": 16.085333333333335,
+          "audio_file": "audio/ja/sentences/P15-03.wav",
+          "audio_sha256": "eb96efa70d3cf9b6ea81080136f36fc88a6ef32a47615b0b6513a9da1769b0c9",
+          "replacements": [],
+          "role": "conclusion"
+        },
+        {
+          "id": "P15-04",
+          "text": "楽しんでいただけたら、高評価とチャンネル登録をお願いします。",
+          "spoken_text": "楽しんでいただけたら、高評価とチャンネル登録をお願いします。",
+          "start": 16.485333333333333,
+          "end": 20.869333333333334,
+          "audio_file": "audio/ja/sentences/P15-04.wav",
+          "audio_sha256": "5b6457795ae8f89d7bfb9248c6a00db4cf07ae3c76949f00cdc3ff86479d503d",
+          "replacements": [],
+          "role": "conclusion"
+        },
+        {
+          "id": "P15-05",
+          "text": "ご覧いただき、ありがとうございました。",
+          "spoken_text": "ご覧いただき、ありがとうございました。",
+          "start": 21.269333333333332,
+          "end": 23.893333333333334,
+          "audio_file": "audio/ja/sentences/P15-05.wav",
+          "audio_sha256": "14843ff1bc0b66ba950c12c8ccabe4c30545cb09289c28efe69c874c68f61fdb",
+          "replacements": [],
+          "role": "conclusion"
+        }
+      ],
+      "audio_file": "audio/ja/P15.wav",
+      "duration_seconds": 23.893333333333334,
+      "native_speed": "role-based C"
+    }
+  ]
+}

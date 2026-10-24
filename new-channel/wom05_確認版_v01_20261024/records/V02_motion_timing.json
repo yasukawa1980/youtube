@@ -1,0 +1,31 @@
+{
+  "source_sha256": "5366b0959215f9c6b0c376d0838c98a157e7209af8f54040185081e3ade4b80c",
+  "source_fps": 24,
+  "preserved_first_seconds": 4.5,
+  "source_bin_seconds": 0.25,
+  "source_motion_weights": [
+    6.051447839774208,
+    5.0117328846432185,
+    3.397296551599363,
+    2.3377727420755536,
+    1.4320209509335649,
+    1.4320209509335649,
+    1.4320209509335649,
+    4.384925911854102,
+    7.060568642350557,
+    9.247756549428281,
+    18.599530503690836,
+    52.82785587639311,
+    68.30642549573021,
+    64.76566796931539,
+    86.16597011144884,
+    119.33507924446374,
+    111.58279734766246,
+    90.60492428354321,
+    13.83227266970618,
+    34.6564150926328,
+    16.69771765089014,
+    2.1804032783326095
+  ],
+  "method": "After the 4.5 s apparition, allocate time in proportion to measured source motion (7-frame smoothing, 0.25 s bins). Optical-flow interpolation supplies smooth 30fps descent. No source frames removed."
+}

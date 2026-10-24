@@ -1,0 +1,29 @@
+{
+  "service": "Kling AI",
+  "existing_subscription_only": true,
+  "additional_purchase": false,
+  "initial_balance": 689,
+  "observed_balances": [
+    629,
+    549,
+    469,
+    389,
+    309,
+    229
+  ],
+  "final_balance": 229,
+  "net_balance_reduction": 460,
+  "generation_buttons_displayed": [
+    80,
+    80,
+    80,
+    80,
+    80,
+    80
+  ],
+  "displayed_cost_sum": 480,
+  "note": "UI button total and net balance reduction differ by 20. Individual charges are not inferred from the balance; no billing ledger verification.",
+  "generations": 6,
+  "accepted": 3,
+  "rejected": 3
+}

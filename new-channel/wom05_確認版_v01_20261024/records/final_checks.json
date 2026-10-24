@@ -1,0 +1,1142 @@
+{
+  "passed": true,
+  "frames": 11065,
+  "duration_seconds": 368.8333333333333,
+  "script_v02_unchanged": true,
+  "brand_frames_verified": 420,
+  "brand_checks": [
+    {
+      "key": "opening",
+      "start_frame": 1364,
+      "frames": 120,
+      "decoded_pixels_identical": true,
+      "source": "/Users/ryo/Desktop/新チャンネル/EP005_Tengu/確認版_v01_20261024/assets/approved_opening_encoded.mp4",
+      "source_sha256": "185dd947908c0ffd84164f78d2a9f01dbc1e4e6ce144a3f812c9d1f643b0c5f5"
+    },
+    {
+      "key": "endcard",
+      "start_frame": 10765,
+      "frames": 300,
+      "decoded_pixels_identical": true,
+      "source": "/Users/ryo/Desktop/新チャンネル/EP005_Tengu/確認版_v01_20261024/assets/approved_endcard_encoded.mp4",
+      "source_sha256": "c81988a71a965d26ee48819e28fd7ca3dab999bfc9581cc19acb295f9cccdb44"
+    }
+  ],
+  "endcard_exact_last_10_seconds": true,
+  "ja_wait_before_opening": 1.889333333333333,
+  "geometry": [
+    {
+      "key": "met_40011_DP206881",
+      "texts": [
+        {
+          "text": "QUIET ORIGINS  /  EP005",
+          "bbox": [
+            92,
+            24,
+            431,
+            46
+          ]
+        },
+        {
+          "text": "DRAWING｜素描",
+          "bbox": [
+            1604.0,
+            21,
+            1820.0,
+            48
+          ]
+        },
+        {
+          "text": "Katsushika Hokusai and his disciples • Album of Sketches • 19th c. • The Met, 14.76.59.1–.102",
+          "bbox": [
+            92,
+            72,
+            1058,
+            95
+          ]
+        }
+      ],
+      "art_boxes": [
+        [
+          666,
+          110,
+          1254,
+          930
+        ]
+      ],
+      "text_bottom": 95,
+      "passed": true
+    },
+    {
+      "key": "R01",
+      "texts": [
+        {
+          "text": "QUIET ORIGINS  /  EP005",
+          "bbox": [
+            92,
+            24,
+            431,
+            46
+          ]
+        },
+        {
+          "text": "AI RECONSTRUCTION｜AIによる再現",
+          "bbox": [
+            1332.0,
+            21,
+            1820.0,
+            48
+          ]
+        }
+      ],
+      "art_boxes": [
+        [
+          231,
+          110,
+          1688,
+          930
+        ]
+      ],
+      "text_bottom": 48,
+      "passed": true
+    },
+    {
+      "key": "ndl_12865768_001",
+      "texts": [
+        {
+          "text": "QUIET ORIGINS  /  EP005",
+          "bbox": [
+            92,
+            24,
+            431,
+            46
+          ]
+        },
+        {
+          "text": "PRINTED BOOK｜刊本",
+          "bbox": [
+            1529.0,
+            21,
+            1820.0,
+            48
+          ]
+        },
+        {
+          "text": "Nihon Shoki • 1669 printed edition • frame 1 • National Diet Library Digital Collections",
+          "bbox": [
+            92,
+            72,
+            958,
+            95
+          ]
+        }
+      ],
+      "art_boxes": [
+        [
+          376,
+          110,
+          1543,
+          930
+        ]
+      ],
+      "text_bottom": 95,
+      "passed": true
+    },
+    {
+      "key": "met_22470",
+      "texts": [
+        {
+          "text": "QUIET ORIGINS  /  EP005",
+          "bbox": [
+            92,
+            24,
+            431,
+            46
+          ]
+        },
+        {
+          "text": "MUSEUM OBJECT｜博物館資料",
+          "bbox": [
+            1411.0,
+            21,
+            1820.0,
+            48
+          ]
+        },
+        {
+          "text": "Tengu-bo armor mask • c. 1600 • The Met, 14.100.46",
+          "bbox": [
+            92,
+            72,
+            636,
+            95
+          ]
+        }
+      ],
+      "art_boxes": [
+        [
+          447,
+          110,
+          1472,
+          930
+        ]
+      ],
+      "text_bottom": 95,
+      "passed": true
+    },
+    {
+      "key": "R02",
+      "texts": [
+        {
+          "text": "QUIET ORIGINS  /  EP005",
+          "bbox": [
+            92,
+            24,
+            431,
+            46
+          ]
+        },
+        {
+          "text": "AI RECONSTRUCTION｜AIによる再現",
+          "bbox": [
+            1332.0,
+            21,
+            1820.0,
+            48
+          ]
+        }
+      ],
+      "art_boxes": [
+        [
+          231,
+          110,
+          1688,
+          930
+        ]
+      ],
+      "text_bottom": 48,
+      "passed": true
+    },
+    {
+      "key": "V01",
+      "texts": [
+        {
+          "text": "QUIET ORIGINS  /  EP005",
+          "bbox": [
+            92,
+            24,
+            431,
+            46
+          ]
+        },
+        {
+          "text": "AI RECONSTRUCTION｜AIによる再現",
+          "bbox": [
+            1332.0,
+            21,
+            1820.0,
+            48
+          ]
+        }
+      ],
+      "art_boxes": [
+        [
+          231,
+          110,
+          1689,
+          930
+        ]
+      ],
+      "text_bottom": 48,
+      "passed": true
+    },
+    {
+      "key": "ndl_1182143_010",
+      "texts": [
+        {
+          "text": "QUIET ORIGINS  /  EP005",
+          "bbox": [
+            92,
+            24,
+            431,
+            46
+          ]
+        },
+        {
+          "text": "PRINTED BOOK｜刊本",
+          "bbox": [
+            1529.0,
+            21,
+            1820.0,
+            48
+          ]
+        },
+        {
+          "text": "Nihon Shoki, vol. 23 • 1926 facsimile • frame 10 • National Diet Library Digital Collections",
+          "bbox": [
+            92,
+            72,
+            996,
+            95
+          ]
+        }
+      ],
+      "art_boxes": [
+        [
+          80,
+          218,
+          940,
+          822
+        ],
+        [
+          1181,
+          110,
+          1639,
+          930
+        ]
+      ],
+      "text_bottom": 95,
+      "passed": true
+    },
+    {
+      "key": "ndl_958959_087",
+      "texts": [
+        {
+          "text": "QUIET ORIGINS  /  EP005",
+          "bbox": [
+            92,
+            24,
+            431,
+            46
+          ]
+        },
+        {
+          "text": "PRINTED BOOK｜刊本",
+          "bbox": [
+            1529.0,
+            21,
+            1820.0,
+            48
+          ]
+        },
+        {
+          "text": "Shiji, Tianguan shu • c. 1925 printed edition • frame 87 • National Diet Library Digital Collections",
+          "bbox": [
+            92,
+            72,
+            1066,
+            95
+          ]
+        }
+      ],
+      "art_boxes": [
+        [
+          80,
+          214,
+          940,
+          825
+        ],
+        [
+          980,
+          255,
+          1840,
+          784
+        ]
+      ],
+      "text_bottom": 95,
+      "passed": true
+    },
+    {
+      "key": "D_gloss",
+      "texts": [
+        {
+          "text": "QUIET ORIGINS  /  EP005",
+          "bbox": [
+            92,
+            24,
+            431,
+            46
+          ]
+        },
+        {
+          "text": "SCHEMATIC｜模式図",
+          "bbox": [
+            1545.0,
+            21,
+            1820.0,
+            48
+          ]
+        },
+        {
+          "text": "天",
+          "bbox": [
+            390,
+            226,
+            530,
+            343
+          ]
+        },
+        {
+          "text": "狗",
+          "bbox": [
+            390,
+            386,
+            530,
+            514
+          ]
+        },
+        {
+          "text": "heavenly dog｜天の犬",
+          "bbox": [
+            740,
+            296,
+            1311,
+            355
+          ]
+        },
+        {
+          "text": "gloss: heavenly fox｜天の狐",
+          "bbox": [
+            740,
+            457,
+            1384,
+            509
+          ]
+        }
+      ],
+      "art_boxes": [],
+      "text_bottom": 514,
+      "passed": true
+    },
+    {
+      "key": "ndl_945414_003",
+      "texts": [
+        {
+          "text": "QUIET ORIGINS  /  EP005",
+          "bbox": [
+            92,
+            24,
+            431,
+            46
+          ]
+        },
+        {
+          "text": "PRINTED BOOK｜刊本",
+          "bbox": [
+            1529.0,
+            21,
+            1820.0,
+            48
+          ]
+        },
+        {
+          "text": "Kosho Konjaku Monogatari-shu • 1914 edited edition • frame 3 • National Diet Library Digital Collections",
+          "bbox": [
+            92,
+            72,
+            1149,
+            95
+          ]
+        }
+      ],
+      "art_boxes": [
+        [
+          344,
+          110,
+          1575,
+          930
+        ]
+      ],
+      "text_bottom": 95,
+      "passed": true
+    },
+    {
+      "key": "met_57203",
+      "texts": [
+        {
+          "text": "QUIET ORIGINS  /  EP005",
+          "bbox": [
+            92,
+            24,
+            431,
+            46
+          ]
+        },
+        {
+          "text": "PAINTING｜絵画",
+          "bbox": [
+            1607.0,
+            21,
+            1820.0,
+            48
+          ]
+        },
+        {
+          "text": "Shibata Zeshin • Persimmons Branch and Wasp Nest above a Hedge (branch detail) • The Met, 36.100.118",
+          "bbox": [
+            92,
+            72,
+            1191,
+            95
+          ]
+        }
+      ],
+      "art_boxes": [
+        [
+          739,
+          110,
+          1181,
+          930
+        ]
+      ],
+      "text_bottom": 95,
+      "passed": true
+    },
+    {
+      "key": "V02",
+      "texts": [
+        {
+          "text": "QUIET ORIGINS  /  EP005",
+          "bbox": [
+            92,
+            24,
+            431,
+            46
+          ]
+        },
+        {
+          "text": "AI RECONSTRUCTION｜AIによる再現",
+          "bbox": [
+            1332.0,
+            21,
+            1820.0,
+            48
+          ]
+        },
+        {
+          "text": "Legend illustration｜説話のイメージ",
+          "bbox": [
+            92,
+            69,
+            485,
+            95
+          ]
+        }
+      ],
+      "art_boxes": [
+        [
+          231,
+          110,
+          1689,
+          930
+        ]
+      ],
+      "text_bottom": 95,
+      "passed": true
+    },
+    {
+      "key": "met_23997",
+      "texts": [
+        {
+          "text": "QUIET ORIGINS  /  EP005",
+          "bbox": [
+            92,
+            24,
+            431,
+            46
+          ]
+        },
+        {
+          "text": "MUSEUM OBJECT｜博物館資料",
+          "bbox": [
+            1411.0,
+            21,
+            1820.0,
+            48
+          ]
+        },
+        {
+          "text": "Bird-beaked tengu armor mask • 18th c. • The Met, 36.25.268a–c",
+          "bbox": [
+            92,
+            72,
+            757,
+            95
+          ]
+        }
+      ],
+      "art_boxes": [
+        [
+          447,
+          110,
+          1472,
+          930
+        ]
+      ],
+      "text_bottom": 95,
+      "passed": true
+    },
+    {
+      "key": "met_59737",
+      "texts": [
+        {
+          "text": "QUIET ORIGINS  /  EP005",
+          "bbox": [
+            92,
+            24,
+            431,
+            46
+          ]
+        },
+        {
+          "text": "MUSEUM OBJECT｜博物館資料",
+          "bbox": [
+            1411.0,
+            21,
+            1820.0,
+            48
+          ]
+        },
+        {
+          "text": "Two Mythical Creatures (Tengu) Carrying a Parcel • late 19th c. • The Met, 91.1.1037",
+          "bbox": [
+            92,
+            72,
+            961,
+            95
+          ]
+        }
+      ],
+      "art_boxes": [
+        [
+          652,
+          110,
+          1267,
+          930
+        ]
+      ],
+      "text_bottom": 95,
+      "passed": true
+    },
+    {
+      "key": "met_24145",
+      "texts": [
+        {
+          "text": "QUIET ORIGINS  /  EP005",
+          "bbox": [
+            92,
+            24,
+            431,
+            46
+          ]
+        },
+        {
+          "text": "MUSEUM OBJECT｜博物館資料",
+          "bbox": [
+            1411.0,
+            21,
+            1820.0,
+            48
+          ]
+        },
+        {
+          "text": "Mask in the Shape of a Mountain Demon’s Face • early 18th c. • Iron, lacquer, silk • The Met, 36.25.263a, b",
+          "bbox": [
+            92,
+            72,
+            1182,
+            95
+          ]
+        }
+      ],
+      "art_boxes": [
+        [
+          632,
+          110,
+          1288,
+          930
+        ]
+      ],
+      "text_bottom": 95,
+      "passed": true
+    },
+    {
+      "key": "aic_154960",
+      "texts": [
+        {
+          "text": "QUIET ORIGINS  /  EP005",
+          "bbox": [
+            92,
+            24,
+            431,
+            46
+          ]
+        },
+        {
+          "text": "NOH PRINT｜能の舞台の絵",
+          "bbox": [
+            1475.0,
+            21,
+            1820.0,
+            48
+          ]
+        },
+        {
+          "text": "Tsukioka Kogyo • Noh play Kurama Tengu • 1898 • Art Institute of Chicago, 1939.2258.48",
+          "bbox": [
+            92,
+            72,
+            1007,
+            95
+          ]
+        }
+      ],
+      "art_boxes": [
+        [
+          357,
+          110,
+          1563,
+          930
+        ]
+      ],
+      "text_bottom": 95,
+      "passed": true
+    },
+    {
+      "key": "aic_26700",
+      "texts": [
+        {
+          "text": "QUIET ORIGINS  /  EP005",
+          "bbox": [
+            92,
+            24,
+            431,
+            46
+          ]
+        },
+        {
+          "text": "PUBLIC DOMAIN PRINT｜パブリックドメインの版画",
+          "bbox": [
+            1151.0,
+            20,
+            1820.0,
+            48
+          ]
+        },
+        {
+          "text": "Utagawa Hiroshige • Ushiwakamaru on Mount Kurama (detail) • c. 1832–34 • Art Institute of Chicago, 1925.3795",
+          "bbox": [
+            92,
+            72,
+            1239,
+            95
+          ]
+        }
+      ],
+      "art_boxes": [
+        [
+          272,
+          110,
+          1648,
+          930
+        ]
+      ],
+      "text_bottom": 95,
+      "passed": true
+    },
+    {
+      "key": "met_60361",
+      "texts": [
+        {
+          "text": "QUIET ORIGINS  /  EP005",
+          "bbox": [
+            92,
+            24,
+            431,
+            46
+          ]
+        },
+        {
+          "text": "MUSEUM OBJECT｜博物館資料",
+          "bbox": [
+            1411.0,
+            21,
+            1820.0,
+            48
+          ]
+        },
+        {
+          "text": "Yoshitsune as a Child with Tengu Fan • 19th c. • The Met, 10.211.1327",
+          "bbox": [
+            92,
+            72,
+            815,
+            95
+          ]
+        }
+      ],
+      "art_boxes": [
+        [
+          522,
+          110,
+          1397,
+          930
+        ]
+      ],
+      "text_bottom": 95,
+      "passed": true
+    },
+    {
+      "key": "ndl_851648_028",
+      "texts": [
+        {
+          "text": "QUIET ORIGINS  /  EP005",
+          "bbox": [
+            92,
+            24,
+            431,
+            46
+          ]
+        },
+        {
+          "text": "PRINTED BOOK｜刊本",
+          "bbox": [
+            1529.0,
+            21,
+            1820.0,
+            48
+          ]
+        },
+        {
+          "text": "Hokusai manga, vol. 3 (1815), 1878 printing • frame 28 • National Diet Library Digital Collections",
+          "bbox": [
+            92,
+            72,
+            1072,
+            95
+          ]
+        }
+      ],
+      "art_boxes": [
+        [
+          80,
+          146,
+          940,
+          894
+        ],
+        [
+          980,
+          244,
+          1840,
+          796
+        ]
+      ],
+      "text_bottom": 95,
+      "passed": true
+    },
+    {
+      "key": "lacma_89199",
+      "texts": [
+        {
+          "text": "QUIET ORIGINS  /  EP005",
+          "bbox": [
+            92,
+            24,
+            431,
+            46
+          ]
+        },
+        {
+          "text": "PUBLIC DOMAIN PRINT｜パブリックドメインの版画",
+          "bbox": [
+            1151.0,
+            20,
+            1820.0,
+            48
+          ]
+        },
+        {
+          "text": "Kawanabe Kyosai • Yoshitsune Training with the Tengu Sojobo (detail) • 1863 • LACMA, M.84.31.530a-c",
+          "bbox": [
+            92,
+            72,
+            1159,
+            95
+          ]
+        }
+      ],
+      "art_boxes": [
+        [
+          556,
+          110,
+          1364,
+          930
+        ]
+      ],
+      "text_bottom": 95,
+      "passed": true
+    },
+    {
+      "key": "R03",
+      "texts": [
+        {
+          "text": "QUIET ORIGINS  /  EP005",
+          "bbox": [
+            92,
+            24,
+            431,
+            46
+          ]
+        },
+        {
+          "text": "AI RECONSTRUCTION｜AIによる再現",
+          "bbox": [
+            1332.0,
+            21,
+            1820.0,
+            48
+          ]
+        }
+      ],
+      "art_boxes": [
+        [
+          231,
+          110,
+          1688,
+          930
+        ]
+      ],
+      "text_bottom": 48,
+      "passed": true
+    },
+    {
+      "key": "D_forms",
+      "texts": [
+        {
+          "text": "QUIET ORIGINS  /  EP005",
+          "bbox": [
+            92,
+            24,
+            431,
+            46
+          ]
+        },
+        {
+          "text": "SCHEMATIC｜模式図",
+          "bbox": [
+            1545.0,
+            21,
+            1820.0,
+            48
+          ]
+        },
+        {
+          "text": "Nihon Shoki, 720",
+          "bbox": [
+            212.0,
+            597,
+            448.0,
+            623
+          ]
+        },
+        {
+          "text": "Konjaku Monogatari, 12th c.",
+          "bbox": [
+            766.5,
+            597,
+            1153.5,
+            625
+          ]
+        },
+        {
+          "text": "masks & prints, 1700s–1800s",
+          "bbox": [
+            1360.5,
+            597,
+            1769.5,
+            625
+          ]
+        }
+      ],
+      "art_boxes": [],
+      "text_bottom": 625,
+      "passed": true
+    },
+    {
+      "key": "V03",
+      "texts": [
+        {
+          "text": "QUIET ORIGINS  /  EP005",
+          "bbox": [
+            92,
+            24,
+            431,
+            46
+          ]
+        },
+        {
+          "text": "AI RECONSTRUCTION｜AIによる再現",
+          "bbox": [
+            1332.0,
+            21,
+            1820.0,
+            48
+          ]
+        }
+      ],
+      "art_boxes": [
+        [
+          231,
+          110,
+          1689,
+          930
+        ]
+      ],
+      "text_bottom": 48,
+      "passed": true
+    },
+    {
+      "key": "credits",
+      "texts": [
+        {
+          "text": "QUIET ORIGINS  /  EP005",
+          "bbox": [
+            92,
+            24,
+            431,
+            46
+          ]
+        },
+        {
+          "text": "English",
+          "bbox": [
+            145,
+            181,
+            238,
+            207
+          ]
+        },
+        {
+          "text": "Kokoro / Heart (af_heart)",
+          "bbox": [
+            460,
+            180,
+            774,
+            207
+          ]
+        },
+        {
+          "text": "日本語",
+          "bbox": [
+            145,
+            246,
+            229,
+            274
+          ]
+        },
+        {
+          "text": "VOICEVOX:冥鳴ひまり",
+          "bbox": [
+            460,
+            246,
+            757,
+            273
+          ]
+        },
+        {
+          "text": "Collections",
+          "bbox": [
+            145,
+            322,
+            283,
+            343
+          ]
+        },
+        {
+          "text": "The Metropolitan Museum of Art",
+          "bbox": [
+            460,
+            322,
+            865,
+            349
+          ]
+        },
+        {
+          "text": "Collections",
+          "bbox": [
+            145,
+            393,
+            283,
+            414
+          ]
+        },
+        {
+          "text": "Art Institute of Chicago • LACMA",
+          "bbox": [
+            459,
+            393,
+            871,
+            420
+          ]
+        },
+        {
+          "text": "Collections",
+          "bbox": [
+            145,
+            464,
+            283,
+            485
+          ]
+        },
+        {
+          "text": "National Diet Library Digital Collections",
+          "bbox": [
+            460,
+            464,
+            948,
+            491
+          ]
+        },
+        {
+          "text": "AI stills / video",
+          "bbox": [
+            144,
+            535,
+            326,
+            556
+          ]
+        },
+        {
+          "text": "OpenAI image generation / Kling AI",
+          "bbox": [
+            460,
+            535,
+            907,
+            562
+          ]
+        },
+        {
+          "text": "Music",
+          "bbox": [
+            145,
+            607,
+            218,
+            627
+          ]
+        },
+        {
+          "text": "Original ambient score • Quiet Origins",
+          "bbox": [
+            460,
+            606,
+            934,
+            633
+          ]
+        }
+      ],
+      "art_boxes": [],
+      "text_bottom": 633,
+      "passed": true
+    }
+  ]
+}

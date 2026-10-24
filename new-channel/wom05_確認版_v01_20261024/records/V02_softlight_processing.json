@@ -1,0 +1,8 @@
+{
+  "source": "/Users/ryo/Desktop/新チャンネル/EP005_Tengu/素材/V02_Kling_v02.mp4",
+  "source_sha256": "7aaec19cefd0b528baf2854668092925fd886c8d516de5e796c986e348e1711f",
+  "derived": "/Users/ryo/Desktop/新チャンネル/EP005_Tengu/確認版_v01_20261024/assets/V02_softlight_v02.mp4",
+  "derived_sha256": "5366b0959215f9c6b0c376d0838c98a157e7209af8f54040185081e3ade4b80c",
+  "filter": "[0:v]split[base][patch];[patch]crop=800:800:560:70,gblur=sigma=23:steps=3,format=yuva420p,geq=lum='lum(X,Y)':cb='cb(X,Y)':cr='cr(X,Y)':a='255*max(0,min(1,(1-sqrt(pow((X-400)/415,2)+pow((Y-400)/430,2)))*5))',fade=t=out:st=4.0:d=1.6:alpha=1[soft];[base][soft]overlay=560:70:enable='lt(t,5.6)',format=yuv420p[v]",
+  "reason": "Remove generated facial, hand and costume detail while retaining a soft seated outline; blur fades before bird descent. Original preserved."
+}

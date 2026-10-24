@@ -1,0 +1,3 @@
+第5話確認資料の区別
+
+最終映像はEP005_Tengu_*_v01_1080p30.mp4です。V02の座像は顔・手の細部を除いたV02_softlight_v02.mp4を使用しています。Kling_v02原本は再現・保全用です。review_frames.zip内のV01〜V03_original_sequence.jpgは不採用の初稿、revision2_sequence.jpgは修正版の加工前記録です。最終画面はfinal_storyboardとshot_*.jpgを参照してください。

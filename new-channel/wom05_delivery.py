@@ -1,5 +1,5 @@
 """EP005 review documents and private draft delivery; never publishes a release."""
-import argparse,csv,hashlib,json,shutil,subprocess,sys,zipfile
+import argparse,csv,hashlib,json,shutil,subprocess,sys,time,zipfile
 from pathlib import Path
 import numpy as np
 import soundfile as sf
@@ -32,12 +32,18 @@ def share():
   print('UPLOADED',p.name,flush=True)
  r=api([f'repos/{GH}/releases/{r["id"]}']);assert r['draft'];checks=[];assert len(r['assets'])==len(files)
  for p in files:
-  a=next(a for a in r['assets'] if a['name']==p.name);proc=subprocess.Popen(['gh','api','-H','Accept: application/octet-stream',f'repos/{GH}/releases/assets/{a["id"]}'],stdout=subprocess.PIPE);h=hashlib.sha256();count=0
-  while True:
-   b=proc.stdout.read(1048576)
-   if not b:break
-   h.update(b);count+=len(b)
-  assert proc.wait()==0 and h.hexdigest()==sha(p) and count==p.stat().st_size and a['digest']=='sha256:'+h.hexdigest();checks.append({'name':p.name,'asset_id':a['id'],'bytes':count,'sha256':h.hexdigest(),'rest_download_verified':True});print('REST VERIFIED',p.name,flush=True)
+  a=next(a for a in r['assets'] if a['name']==p.name)
+  for attempt in range(3):
+   proc=subprocess.Popen(['gh','api','-H','Accept: application/octet-stream',f'repos/{GH}/releases/assets/{a["id"]}'],stdout=subprocess.PIPE);h=hashlib.sha256();count=0
+   while True:
+    b=proc.stdout.read(1048576)
+    if not b:break
+    h.update(b);count+=len(b)
+   code=proc.wait()
+   if code==0 and h.hexdigest()==sha(p) and count==p.stat().st_size and a['digest']=='sha256:'+h.hexdigest():break
+   if attempt==2:raise RuntimeError(f'REST verification failed: {p.name}, exit={code}, bytes={count}')
+   print('RETRY REST',p.name,attempt+1,flush=True);time.sleep(2)
+  checks.append({'name':p.name,'asset_id':a['id'],'bytes':count,'sha256':h.hexdigest(),'rest_download_verified':True});print('REST VERIFIED',p.name,flush=True)
  save(state,{'release_id':r['id'],'draft':True,'status':'verified','release_url':r['html_url'],'assets':checks});print('SHARED',r['id'],len(checks),flush=True)
 
 
@@ -149,7 +155,7 @@ NDLは刊年・コマ番号を記し、1926年複製、1925年頃の刊本、191
 
 初回音声と合成器解析を保全し、明確な誤読だけを読み上げ入力で補正。表示台本・SRTは無変更。「旻（みん）」は声でみん1回。英日試聴用音声・変更語・時刻を添付。本人確認は固有名詞、P08、P12と動画の自然さ。
 
-Klingの消費記録：{json.dumps(cost,ensure_ascii=False)}。追加購入なし。AIプロンプト・生成日・原本SHAを記録。初稿3本は指定外の建物、鳥形の光、流れ星不明瞭のため不採用として保全。修正版V02は座像の顔・手の細部を楕円の柔らかなぼかしで除き、鳥が現れる間に効果を消した。処理内容・元動画・派生動画のSHAはV02_softlight_processing.jsonに記録。V02は光の最初4.5秒を保ち、その後の動き量に応じて飛び降りる部分をゆっくりにした。フレーム補間を使用し、時間写像はV02_motion_timing.jsonとrender_shots.jsonに記録。
+Klingは生成{cost['generations']}本（採用{cost['accepted']}／不採用{cost['rejected']}）。生成ボタンの表示合計は{cost['displayed_cost_sum']}クレジット。残高{cost['initial_balance']}→{cost['final_balance']}の差は{cost['net_balance_reduction']}で、表示額との差20は明細未照合。追加購入なし。[消費記録](wom05_確認版_v01_20261024/records/ai_generation_costs.json)。AIプロンプト・生成日・原本SHAを記録。初稿3本は指定外の建物、鳥形の光、流れ星不明瞭のため不採用として保全。修正版V02は座像の顔・手の細部を楕円の柔らかなぼかしで除き、鳥が現れる間に効果を消した。処理内容・元動画・派生動画のSHAはV02_softlight_processing.jsonに記録。V02は光の最初4.5秒を保ち、その後の動き量に応じて飛び降りる部分をゆっくりにした。フレーム補間を使用し、時間写像はV02_motion_timing.jsonとrender_shots.jsonに記録。
 
 [非公開Draft Release]({shared['release_url']})、ID **{shared['release_id']}**。全{len(shared['assets'])}添付、{sum(x['bytes'] for x in shared['assets']):,} bytesをRelease ID指定RESTで再取得して照合。MP4・SRT・M4A・WAV・サムネ2案・試聴音声・投稿情報・AI原本・検査記録を収録。YouTube投稿・Release公開なし。
 '''

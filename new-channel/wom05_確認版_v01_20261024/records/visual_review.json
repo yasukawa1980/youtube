@@ -1,0 +1,28 @@
+{
+  "passed": true,
+  "reviewed_at": "2026-10-24T13:42:37.459918+09:00",
+  "reviewer": "Codex visual inspection",
+  "video_sha256": "3ae3b6236b8c56ff3de4315b8f8d0e1f9644dec8138d081c0a4ba74a7dc3cbb1",
+  "visual_manifest_sha256": "f9c3ba47e766797a05e3cebdda432000d2bb6010f9b9cafc31ee0d0d87392364",
+  "render_shots_sha256": "b5fe18e2722ef1702943e655c80aed30229d91bdc9f9e91dae21b0d9357ffb21",
+  "review_scope": {
+    "storyboard": "全26ショットの中央フレームを目視。札・出典・資料の対応、刊年、構図を確認。",
+    "motion_images": "AI素材の連続フレームと最終V02連続画像を目視。V02の顔・手の細部を除いた柔らかな座像の光から鳥への変化を確認。",
+    "subtitle_samples": [
+      "subtitles_ja_26_02.jpg",
+      "subtitles_ja_14_03.jpg",
+      "subtitles_en_26_04.jpg",
+      "subtitles_ja_26_06.jpg"
+    ],
+    "subtitle_programmatic": "全158字幕×2サイズの位置・領域検査は別記録。すべてを人が再生視聴したことを意味しない。"
+  },
+  "human_full_listening": false,
+  "human_full_playback": false,
+  "pending_user_review": [
+    "英日固有名詞の発音",
+    "P08映像と語りの調子",
+    "P12守り神の一文",
+    "全編の動きと音の自然さ"
+  ],
+  "known_scope_resolution": "R02の一般的な遠景の茅葺屋根は、本人の「台本通りに制作」に従いショット表を優先。"
+}
