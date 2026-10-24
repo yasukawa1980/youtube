@@ -1,0 +1,21 @@
+{
+  "passed": false,
+  "file": "EP005_Tengu_en_v03_1080p30.mp4",
+  "sha256": "bb251451672566dce54257705cc452831e046e677efbfda73a589b5b4e37d406",
+  "sps_profile_idc_counts": {
+    "EP005_Tengu_en_v02_1080p30.mp4": {
+      "244": 2,
+      "100": 58
+    },
+    "EP005_Tengu_en_v03_1080p30.mp4": {
+      "100": 1
+    }
+  },
+  "compared_frames": 11065,
+  "ssim_min": 0.99208,
+  "ssim_mean": 0.9986764945323091,
+  "decode_warnings": "",
+  "note": "Full-frame similarity is lossy re-encoding QA, not pixel identity.",
+  "status": "superseded_invalid_visual_reference",
+  "correction": "The combined v02 reference is corrupted during sequential decoding; high SSIM against it does not prove a successful repair. v03 remained corrupted in both local frames and YouTube. Use v04 independent-shot verification."
+}

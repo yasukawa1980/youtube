@@ -1,0 +1,198 @@
+{
+  "passed": true,
+  "file": "EP005_Tengu_en_v04_1080p30.mp4",
+  "sha256": "88cd54ec3c6d950d7dc99180302b4f6bfed4abe0c9108e76548b08eea60dae07",
+  "compared_frames": 11065,
+  "independent_reference_shots": 26,
+  "ssim_min": 0.992064,
+  "ssim_mean": 0.9979045219159511,
+  "checks": [
+    {
+      "key": "met_40011_DP206881",
+      "start_frame": 0,
+      "frames": 762,
+      "ssim_min": 0.997015,
+      "ssim_mean": 0.9985703569553805
+    },
+    {
+      "key": "R01",
+      "start_frame": 762,
+      "frames": 186,
+      "ssim_min": 0.994547,
+      "ssim_mean": 0.9959047849462366
+    },
+    {
+      "key": "ndl_12865768_001",
+      "start_frame": 948,
+      "frames": 208,
+      "ssim_min": 0.997426,
+      "ssim_mean": 0.9980265576923077
+    },
+    {
+      "key": "met_22470",
+      "start_frame": 1156,
+      "frames": 208,
+      "ssim_min": 0.995849,
+      "ssim_mean": 0.9965818605769231
+    },
+    {
+      "key": "opening",
+      "start_frame": 1364,
+      "frames": 120,
+      "ssim_min": 0.997616,
+      "ssim_mean": 0.9980602916666667
+    },
+    {
+      "key": "R02",
+      "start_frame": 1484,
+      "frames": 261,
+      "ssim_min": 0.992064,
+      "ssim_mean": 0.9951683908045976
+    },
+    {
+      "key": "V01",
+      "start_frame": 1745,
+      "frames": 477,
+      "ssim_min": 0.994785,
+      "ssim_mean": 0.9977472096436059
+    },
+    {
+      "key": "ndl_1182143_010",
+      "start_frame": 2222,
+      "frames": 621,
+      "ssim_min": 0.996176,
+      "ssim_mean": 0.9969716054750403
+    },
+    {
+      "key": "ndl_958959_087",
+      "start_frame": 2843,
+      "frames": 753,
+      "ssim_min": 0.996387,
+      "ssim_mean": 0.9981925790172642
+    },
+    {
+      "key": "D_gloss",
+      "start_frame": 3596,
+      "frames": 465,
+      "ssim_min": 0.999389,
+      "ssim_mean": 0.9994753032258065
+    },
+    {
+      "key": "ndl_945414_003",
+      "start_frame": 4061,
+      "frames": 612,
+      "ssim_min": 0.997359,
+      "ssim_mean": 0.9976375980392157
+    },
+    {
+      "key": "met_57203",
+      "start_frame": 4673,
+      "frames": 279,
+      "ssim_min": 0.997566,
+      "ssim_mean": 0.9981305125448028
+    },
+    {
+      "key": "V02",
+      "start_frame": 4952,
+      "frames": 438,
+      "ssim_min": 0.995344,
+      "ssim_mean": 0.9973955045662101
+    },
+    {
+      "key": "met_23997",
+      "start_frame": 5390,
+      "frames": 807,
+      "ssim_min": 0.997364,
+      "ssim_mean": 0.997703223048327
+    },
+    {
+      "key": "met_59737",
+      "start_frame": 6197,
+      "frames": 375,
+      "ssim_min": 0.998394,
+      "ssim_mean": 0.9985723493333333
+    },
+    {
+      "key": "met_24145",
+      "start_frame": 6572,
+      "frames": 802,
+      "ssim_min": 0.998088,
+      "ssim_mean": 0.9984614900249377
+    },
+    {
+      "key": "aic_154960",
+      "start_frame": 7374,
+      "frames": 536,
+      "ssim_min": 0.996611,
+      "ssim_mean": 0.9972041940298507
+    },
+    {
+      "key": "aic_26700",
+      "start_frame": 7910,
+      "frames": 152,
+      "ssim_min": 0.994328,
+      "ssim_mean": 0.9960833486842106
+    },
+    {
+      "key": "met_60361",
+      "start_frame": 8062,
+      "frames": 94,
+      "ssim_min": 0.996645,
+      "ssim_mean": 0.9971028617021277
+    },
+    {
+      "key": "ndl_851648_028",
+      "start_frame": 8156,
+      "frames": 267,
+      "ssim_min": 0.998055,
+      "ssim_mean": 0.9984646142322098
+    },
+    {
+      "key": "lacma_89199",
+      "start_frame": 8423,
+      "frames": 177,
+      "ssim_min": 0.995973,
+      "ssim_mean": 0.9967206779661016
+    },
+    {
+      "key": "R03",
+      "start_frame": 8600,
+      "frames": 354,
+      "ssim_min": 0.994598,
+      "ssim_mean": 0.995697
+    },
+    {
+      "key": "D_forms",
+      "start_frame": 8954,
+      "frames": 590,
+      "ssim_min": 0.999416,
+      "ssim_mean": 0.9994714983050847
+    },
+    {
+      "key": "V03",
+      "start_frame": 9544,
+      "frames": 432,
+      "ssim_min": 0.996262,
+      "ssim_mean": 0.9974509097222223
+    },
+    {
+      "key": "credits",
+      "start_frame": 9976,
+      "frames": 789,
+      "ssim_min": 0.999219,
+      "ssim_mean": 0.9993759315589353
+    },
+    {
+      "key": "endcard",
+      "start_frame": 10765,
+      "frames": 300,
+      "ssim_min": 0.996696,
+      "ssim_mean": 0.9978541966666667
+    }
+  ],
+  "sps_profiles": [
+    "100"
+  ],
+  "decode_warnings": "",
+  "reference": "Each original shot independently decoded, not the defective combined v02"
+}
