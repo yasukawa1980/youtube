@@ -25,7 +25,7 @@ def prepare():
  for l in ['en','ja']:shutil.copy2(V1/f'deliverables/EP005_Tengu_{l}_v01_1080p30.srt',ROOT/f'deliverables/EP005_Tengu_{l}_v02_1080p30.srt')
  import wom05_visuals as v
  v.CROPS.update({'ndl_12865768_001':(.086,.031,.534,.950),'ndl_851648_028':(.525,.045,.968,.965)})
- v.DETAILS['ndl_1182143_010']=(.600,.570,.655,.730)
+ v.DETAILS['ndl_1182143_010']=(.600,.565,.655,.745)
  for k in ['ndl_12865768_001','ndl_851648_028']:v.images[k]=v.crop(v.originals[k],v.CROPS[k])
  manifest=copy.deepcopy(read(V1/'records/visual_manifest.json'))
  for s in manifest['shots']:
@@ -106,6 +106,12 @@ def render_static():
   s['encoded_file']=str(out);print('RENDERED',key,s['frames'],flush=True)
  save(ROOT/'records/render_shots.json',shots)
 
+def build_retime():
+ p=V1.parent/'素材/V02_Kling_v03.mp4';raw=subprocess.check_output(['ffmpeg','-v','error','-i',str(p),'-frames:v','144','-vf','scale=320:180,format=gray,crop=224:126:48:27','-pix_fmt','gray','-f','rawvideo','-'])
+ frames=np.frombuffer(raw,np.uint8).reshape(-1,126,224).astype(np.int16);d=np.mean(abs(np.diff(frames,axis=0)),axis=(1,2));smooth=np.convolve(np.pad(d,(4,4),mode='edge'),np.ones(9)/9,mode='valid')
+ weights=[float(np.mean(smooth[min(i*6,len(d)-1):min((i+1)*6,len(d))])) for i in range(24)];weights=np.maximum(weights,max(weights)*.05).tolist()
+ save(ROOT/'records/V02_retime.json',{'source_sha256':sha(p),'source_seconds':6,'output_seconds':8.6,'step_seconds':.25,'weights':weights,'method':'Distribute 8.6s over 0.25s source bins proportionally to 9-frame-smoothed grayscale motion, minimum weight 5% of peak. Preserve original 6s prefix.'})
+
 def encode_video(key,video,source_seconds):
  import wom05_visuals as vis
  old=next(s for s in read(V1/'records/render_shots.json') if s['key']==key);n=old['frames'];poster=ROOT/f'assets/{key}_new_poster.png'
@@ -116,12 +122,27 @@ def encode_video(key,video,source_seconds):
  z=f'(1+0.03*on/{max(1,n-1)})';x=f'(W-W/{z})/2';y=f'(H-H/{z})/2'
  pers=f"perspective=x0='{x}':y0='{y}':x1='W-{x}':y1='{y}':x2='{x}':y2='H-{y}':x3='W-{x}':y3='H-{y}':sense=source:eval=frame:interpolation=cubic"
  factor=n/30/source_seconds
- filt=f'[1:v]trim=duration={source_seconds},setpts=(PTS-STARTPTS)*{factor},scale=1458:820:flags=lanczos,minterpolate=fps=30:mi_mode=mci:mc_mode=aobmc:me_mode=bidir:vsbmc=1,tpad=stop_mode=clone:stop_duration=0.25,format=yuv444p,{pers}[art];[0:v][art]overlay=231:110:shortest=1,format=yuv420p[v]'
+ timing=f'(PTS-STARTPTS)*{factor}'
+ curve=ROOT/'records/V02_retime.json'
+ if key=='V02' and curve.exists():
+  weights=read(curve)['weights'];dest=np.r_[0,np.cumsum(weights)/sum(weights)*(n/30)];expr=f'{n/30}'
+  for j in reversed(range(len(weights))):
+   t0=j*.25;t1=t0+.25;part=f'{dest[j]:.12f}+(T-{t0})*{(dest[j+1]-dest[j])/.25:.12f}'
+   expr=f'if(lt(T,{t1}),{part},{expr})'
+  timing=f"'{expr}/TB'"
+ filt=f'[1:v]trim=duration={source_seconds},setpts={timing},scale=1458:820:flags=lanczos,minterpolate=fps=30:mi_mode=mci:mc_mode=aobmc:me_mode=bidir:vsbmc=1,tpad=stop_mode=clone:stop_duration=0.25,format=yuv444p,{pers}[art];[0:v][art]overlay=231:110:shortest=1,format=yuv420p[v]'
  out=ROOT/f'_work/render/{key}_tail.mp4' if key=='V02' else ROOT/f'_work/render/{key}_v02.mp4'
  ff(['-loop',1,'-framerate',30,'-i',basepath,'-i',video,'-filter_complex_threads',2,'-filter_complex',filt,'-map','[v]','-frames:v',n,'-an','-c:v','libx264','-threads',4,'-preset','veryfast','-crf',18,'-video_track_timescale',15360,'-color_primaries','bt709','-color_trc','bt709','-colorspace','bt709',out])
  if key=='V02':
   ff(['-i',V1/old['encoded_file'],'-i',out,'-filter_complex_threads',2,'-filter_complex','[0:v]trim=end_frame=180,setpts=PTS-STARTPTS[a];[1:v]setpts=PTS-STARTPTS[b];[a][b]concat=n=2:v=1:a=0[v]','-map','[v]','-frames:v',old['frames'],'-an','-c:v','libx264','-threads',4,'-preset','veryfast','-crf',18,'-video_track_timescale',15360,'-color_primaries','bt709','-color_trc','bt709','-colorspace','bt709',ROOT/'_work/render/V02_v02.mp4'])
  print('VIDEO RENDERED',key,flush=True)
+
+def preserve_prefix():
+ old=next(s for s in read(V1/'records/render_shots.json') if s['key']=='V02');tail=ROOT/'_work/render/V02_tail.mp4';out=ROOT/'_work/render/V02_v02.mp4'
+ ff(['-i',V1/old['encoded_file'],'-i',tail,'-filter_complex_threads',2,'-filter_complex','[0:v]trim=end_frame=180,setpts=PTS-STARTPTS,format=yuv420p[a];[1:v]setpts=PTS-STARTPTS,format=yuv420p[b];[a][b]concat=n=2:v=1:a=0[v]','-map','[v]','-frames:v',old['frames'],'-an','-c:v','libx264','-threads',4,'-preset','veryfast','-crf',0,'-pix_fmt','yuv420p','-video_track_timescale',15360,'-color_primaries','bt709','-color_trc','bt709','-colorspace','bt709',out])
+ prior=hashes(V1/old['encoded_file']);new=hashes(out);assert prior[:180]==new[:180]
+ save(ROOT/'records/V02_prefix_preservation.json',{'passed':True,'first_frames':180,'seconds':6,'decoded_pixels_identical':True,'method':'Source first 180 decoded frames and replacement tail joined with lossless H.264 encoding; original source preserved.','output_sha256':sha(out)})
+ print('V02 PREFIX 180 frames pixel-identical',flush=True)
 
 def video_records():
  shots=read(ROOT/'records/render_shots.json');manifest=read(ROOT/'records/visual_manifest.json')
@@ -130,7 +151,7 @@ def video_records():
   s=next(s for s in shots if s['key']==k);base=ROOT/f'assets/{k}_background_v02.png'
   for name in ['source_start_frame','source_end_frame','source_fps','time_scale','timestamp_mapping']:s.pop(name,None)
   s.update(file=str(base),sha256=sha(base),source_video=str(source),source_video_sha256=sha(source),revision='v02',source_seconds=[0,10] if k=='V01' else [0,6])
-  if k=='V02':s.update(prefix_source=str(V1/next(s for s in read(V1/'records/render_shots.json') if s['key']=='V02')['encoded_file']),prefix_source_frames=[0,180],tail_output_frames=258)
+  if k=='V02':s.update(retiming_record='records/V02_retime.json',prefix_pixels_identical=True,prefix_source=str(V1/next(s for s in read(V1/'records/render_shots.json') if s['key']=='V02')['encoded_file']),prefix_source_frames=[0,180],tail_output_frames=258)
   m=next(m for m in manifest['shots'] if m['key']==k);m.update(file=str(base),sha256=sha(base))
  save(ROOT/'records/render_shots.json',shots);save(ROOT/'records/visual_manifest.json',manifest)
 
@@ -189,6 +210,10 @@ def motion():
   if s['key'] not in CHANGED:continue
   q=m.motion_stats(Path(s['encoded_file']),m.roi(s));ok=q['p95_over_median'] is not None and q['p95_over_median']<=2.5;checks.append({'key':s['key'],'start':s['start'],'end':s['end'],'measurement':q,'passed':ok,'sha256':sha(s['encoded_file'])});print('MOTION',s['key'],q['p95_over_median'],ok,flush=True)
  save(ROOT/'records/motion_v02.json',{'passed':all(x['passed'] for x in checks),'shots':checks,'method':'Every decoded consecutive frame; same ROI and MAD method as v01; no discarded differences.'})
+ with (ROOT/'deliverables/EP005_motion_v02.csv').open('w',newline='') as f:
+  w=csv.writer(f);w.writerow(['key','start','end','median','p95','ratio','passed'])
+  for x in checks:
+   q=x['measurement'];w.writerow([x['key'],x['start'],x['end'],q['median_mad_8bit'],q['p95_mad_8bit'],q['p95_over_median'],x['passed']])
 
 def frames():
  font=ImageFont.truetype('/System/Library/Fonts/Supplemental/Arial.ttf',16);records=[]
@@ -209,4 +234,4 @@ def frames():
  save(ROOT/'records/changed_frame_samples.json',{'frames':records});print('FRAMES',len(records),flush=True)
 
 if __name__=='__main__':
- p=argparse.ArgumentParser();p.add_argument('stage',choices=['prepare','align','cut_times','render_static','video_records','package','reviews','verify','motion','frames']);a=p.parse_args();globals()[a.stage]()
+ p=argparse.ArgumentParser();p.add_argument('stage',choices=['prepare','align','cut_times','render_static','build_retime','preserve_prefix','video_records','package','reviews','verify','motion','frames']);a=p.parse_args();globals()[a.stage]()
