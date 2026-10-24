@@ -4,6 +4,10 @@ from PIL import Image
 from wom05_produce import ROOT,REPO,read,save,sha,content
 
 def main():
+ assert read(ROOT/'records/brand_extraction_validation.json')['passed']
+ light=read(ROOT/'records/V02_softlight_processing.json');assert sha(light['derived'])==light['derived_sha256']
+ assert read(ROOT/'records/V02_motion_timing.json')['source_sha256']==light['derived_sha256']
+ assert all(x['text_exactly_unchanged'] for x in read(ROOT/'records/script_text_preservation.json').values())
  master=read(ROOT/'records/master_timeline.json');shots=read(ROOT/'records/render_shots.json');assert len(shots)==26
  assert sum(s['frames'] for s in shots)==round(master['duration_seconds']*30)
  for a,b in zip(shots,shots[1:]):assert round(a['end']*30)==round(b['start']*30)

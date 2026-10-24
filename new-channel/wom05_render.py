@@ -29,7 +29,7 @@ def pictures():
    return min(next(x for x in narr[l]['segments'] if x['id']==seg['id'])['cues'][index]['start'] for l in narr)
   if seg['id'] in ['P01','P09']:bounds[1]=round(cue_start(-1)*30)
   if seg['id']=='P03':bounds[1]=round(cue_start(2)*30)
-  if seg['id']=='P08':bounds[1]=round(cue_start(1)*30)
+  if seg['id']=='P08':bounds[1]=round(cue_start(2)*30)
   if seg['id']=='P11':
    bounds[1]=round(cue_start(2)*30)
    times=[]
@@ -46,12 +46,21 @@ def pictures():
     if not video.exists():missing.append(key);continue
     cfg['video_sha256']=sha(video);v=next(x for x in probe(video)['streams'] if x['codec_type']=='video');fps=float(Fraction(v['avg_frame_rate']));end_frame=min(int(v['nb_frames']),round(fps*10));start_frame=0;frames=end_frame-start_frame;factor=(n/30)/(frames/fps)
     z=f'(1+0.03*on/{max(1,n-1)})';x=f'(W-W/{z})/2';y=f'(H-H/{z})/2';pers=f"perspective=x0='{x}':y0='{y}':x1='W-{x}':y1='{y}':x2='{x}':y2='H-{y}':x3='W-{x}':y3='H-{y}':sense=source:eval=frame:interpolation=cubic"
-    filt=f'[1:v]trim=start_frame={start_frame}:end_frame={end_frame},setpts=(PTS-STARTPTS)*{factor:.12f},scale=1458:820:flags=lanczos,minterpolate=fps=30:mi_mode=mci:mc_mode=aobmc:me_mode=bidir:vsbmc=1,tpad=stop_mode=clone:stop_duration=0.25,format=yuv444p,{pers}[art];[0:v][art]overlay=231:110:shortest=1,format=yuv420p[v]';args+=['-i',video]
+    timing=f'(PTS-STARTPTS)*{factor:.12f}'
+    if key=='V02':
+     curve=read(ROOT/'records/V02_motion_timing.json');weights=curve['source_motion_weights'];dest=np.r_[4.5,4.5+np.cumsum(weights)/sum(weights)*(n/30-4.5)]
+     expr=f'{n/30:.12f}'
+     for z in reversed(range(len(weights))):
+      t0=4.5+z*.25;t1=t0+.25;part=f'{dest[z]:.12f}+(T-{t0})*{(dest[z+1]-dest[z])/.25:.12f}'
+      expr=f'if(lt(T,{t1}),{part},{expr})'
+     timing=f"'if(lt(T,4.5),T,{expr})/TB'"
+
+    filt=f"[1:v]trim=start_frame={start_frame}:end_frame={end_frame},setpts={timing},scale=1458:820:flags=lanczos,minterpolate=fps=30:mi_mode=mci:mc_mode=aobmc:me_mode=bidir:vsbmc=1,tpad=stop_mode=clone:stop_duration=0.25,format=yuv444p,{pers}[art];[0:v][art]overlay=231:110:shortest=1,format=yuv420p[v]";args+=['-i',video]
    cfg['filter']=filt
    if not(out.exists() and stamp.exists() and read(stamp)==cfg):
     ff([*args,'-filter_complex_threads',2,'-filter_complex',filt,'-map','[v]','-frames:v',n,'-an','-c:v','libx264','-threads',4,'-preset','veryfast','-crf',18,'-video_track_timescale',15360,'-color_primaries','bt709','-color_trc','bt709','-colorspace','bt709',out]);save(stamp,cfg)
    record={**s}
-   if key.startswith('V'):record.update({'source_video':str(video),'source_start_frame':start_frame,'source_end_frame':end_frame,'source_fps':fps,'time_scale':factor,'zoom_percent':3})
+   if key.startswith('V'):record.update({'source_video':str(video),'source_start_frame':start_frame,'source_end_frame':end_frame,'source_fps':fps,'time_scale':factor,'timestamp_mapping':timing,'zoom_percent':3})
    else:record['zoom_percent']=4 if key=='met_24145' else 3
    parts.append(out);shots.append({**record,'start':int(bounds[j])/30,'end':int(bounds[j+1])/30,'frames':n,'encoded_file':str(out.relative_to(ROOT))});print('RENDERED',seg['id'],key,n,flush=True)
   if i==1:card('opening')

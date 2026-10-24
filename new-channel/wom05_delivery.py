@@ -69,6 +69,8 @@ def docs():
  auditions()
  for kind in ['ai_images','ai_videos']:
   for x in read(ROOT/f'records/{kind}.json'):shutil.copy2(x['local_path'],ROOT/'deliverables'/Path(x['local_path']).name)
+ shutil.copy2(ROOT/'assets/V02_softlight_v02.mp4',ROOT/'deliverables/V02_softlight_v02.mp4')
+ (ROOT/'deliverables/review_notes.md').write_text('第5話確認資料の区別\n\n最終映像はEP005_Tengu_*_v01_1080p30.mp4です。V02の座像は顔・手の細部を除いたV02_softlight_v02.mp4を使用しています。Kling_v02原本は再現・保全用です。review_frames.zip内のV01〜V03_original_sequence.jpgは不採用の初稿、revision2_sequence.jpgは修正版の加工前記録です。最終画面はfinal_storyboardとshot_*.jpgを参照してください。\n')
  cards=[]
  for l,label in [('en','English'),('ja','日本語')]:cards.append(f'<section><h2>{label}</h2><video controls preload="metadata" src="EP005_Tengu_{l}_v01_subtitled_review_1080p30.mp4"></video><p><a href="EP005_Tengu_{l}_v01_1080p30.mp4">通常版</a> / <a href="EP005_Tengu_{l}_v01_1080p30.srt">SRT</a> / <a href="EP005_audio_{l}.wav">投稿用WAV</a></p><h3>固有名詞の試聴</h3><audio controls src="EP005_pronunciation_{l}.m4a"></audio><p><a href="EP005_pronunciation_{l}.txt">試聴箇所と本編時刻</a></p></section>')
  html='<!doctype html><html lang="ja"><meta charset="utf-8"><meta name="viewport" content="width=device-width"><title>Quiet Origins — Tengu v01</title><style>body{max-width:1120px;margin:32px auto;padding:0 20px;background:#0c1820;color:#f4efdf;font:17px/1.6 system-ui}h1,a{color:#d8b575}section{margin:36px 0}video{width:100%;max-height:70vh;background:black}audio{width:100%}</style><h1>Quiet Origins / 天狗</h1><p>確認版v01 — 6分8.83秒。英日の固有名詞、柿の木の仏の場面、守り神の一文、動画の自然さをご確認ください。</p><img src="EP005_thumbnail_met_24145.jpg" style="width:48%"><img src="EP005_thumbnail_met_40011_DP206881.jpg" style="width:48%">'+''.join(cards)+'</html>'
@@ -147,7 +149,7 @@ NDLは刊年・コマ番号を記し、1926年複製、1925年頃の刊本、191
 
 初回音声と合成器解析を保全し、明確な誤読だけを読み上げ入力で補正。表示台本・SRTは無変更。「旻（みん）」は声でみん1回。英日試聴用音声・変更語・時刻を添付。本人確認は固有名詞、P08、P12と動画の自然さ。
 
-Klingの消費記録：{json.dumps(cost,ensure_ascii=False)}。追加購入なし。AIプロンプト・生成日・原本SHAを記録。初稿3本は指定外の建物、鳥形の光、流れ星不明瞭のため不採用として保全。修正版V02は座像の顔・手の細部を楕円の柔らかなぼかしで除き、鳥が現れる間に効果を消した。処理内容・元動画・派生動画のSHAはV02_softlight_processing.jsonに記録。
+Klingの消費記録：{json.dumps(cost,ensure_ascii=False)}。追加購入なし。AIプロンプト・生成日・原本SHAを記録。初稿3本は指定外の建物、鳥形の光、流れ星不明瞭のため不採用として保全。修正版V02は座像の顔・手の細部を楕円の柔らかなぼかしで除き、鳥が現れる間に効果を消した。処理内容・元動画・派生動画のSHAはV02_softlight_processing.jsonに記録。V02は光の最初4.5秒を保ち、その後の動き量に応じて飛び降りる部分をゆっくりにした。フレーム補間を使用し、時間写像はV02_motion_timing.jsonとrender_shots.jsonに記録。
 
 [非公開Draft Release]({shared['release_url']})、ID **{shared['release_id']}**。全{len(shared['assets'])}添付、{sum(x['bytes'] for x in shared['assets']):,} bytesをRelease ID指定RESTで再取得して照合。MP4・SRT・M4A・WAV・サムネ2案・試聴音声・投稿情報・AI原本・検査記録を収録。YouTube投稿・Release公開なし。
 '''
