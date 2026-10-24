@@ -18,10 +18,9 @@ def camera(count,band=(110,930),rim=False,amount=.03):
 def pictures():
  master=read(ROOT/'records/master_timeline.json');narr={l:read(ROOT/f'records/narration_timeline_{l}.json') for l in ['en','ja']};manifest=read(ROOT/'records/visual_manifest.json')['shots'];shots=[];parts=[];missing=[]
  def card(key):
-  prior=Path('/Users/ryo/Desktop/新チャンネル/EP003_Medusa/確認版_v02_20261023')
-  item=next(s for s in read(prior/'records/render_shots.json') if s['key']==key)
-  src=prior/item['encoded_file'];out=ROOT/f'_work/render/{key}.mp4';a,b=master['brand_intervals'][key];frames=round((b-a)*30)
-  if not out.exists():shutil.copy2(src,out)
+  item=next(s for s in read(ROOT/'records/approved_brand_extracts.json') if s['key']==key)
+  src=Path(item['encoded_file']);out=ROOT/f'_work/render/{key}.mp4';a,b=master['brand_intervals'][key];frames=round((b-a)*30)
+  if not out.exists() or sha(src)!=sha(out):shutil.copy2(src,out)
   assert sha(src)==sha(out)
   parts.append(out);shots.append({**item,'start':a,'end':b,'frames':frames,'encoded_file':str(out.relative_to(ROOT)),'unchanged_encoded_brand_source':str(src),'unchanged_encoded_brand_sha256':sha(src)})
  for i,seg in enumerate(master['segments']):
@@ -43,7 +42,7 @@ def pictures():
   for j,s in enumerate(group):
    key=s['key'];n=int(bounds[j+1]-bounds[j]);out=ROOT/f'_work/render/{seg["id"]}_{j+1:02}_{key}.mp4';stamp=out.with_suffix('.json');filt=camera(n,s['camera_band'],key in ['met_40011_DP206881','R01'],.04 if key=='met_24145' else .03);args=['-loop',1,'-framerate',30,'-i',ROOT/s['file']];cfg={'image_sha256':sha(ROOT/s['file']),'frames':n,'crf':18}
    if key.startswith('V'):
-    video=ROOT.parent/f'素材/{key}_Kling_v01.mp4'
+    video=ROOT/'assets/V02_softlight_v02.mp4' if key=='V02' else ROOT.parent/f'素材/{key}_Kling_v02.mp4'
     if not video.exists():missing.append(key);continue
     cfg['video_sha256']=sha(video);v=next(x for x in probe(video)['streams'] if x['codec_type']=='video');fps=float(Fraction(v['avg_frame_rate']));end_frame=min(int(v['nb_frames']),round(fps*10));start_frame=0;frames=end_frame-start_frame;factor=(n/30)/(frames/fps)
     z=f'(1+0.03*on/{max(1,n-1)})';x=f'(W-W/{z})/2';y=f'(H-H/{z})/2';pers=f"perspective=x0='{x}':y0='{y}':x1='W-{x}':y1='{y}':x2='{x}':y2='H-{y}':x3='W-{x}':y3='H-{y}':sense=source:eval=frame:interpolation=cubic"

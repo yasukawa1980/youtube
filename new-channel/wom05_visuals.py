@@ -86,7 +86,7 @@ def compose(key):
   header(im,label,source)
   if key in CROPS:extra['crop_normalized']=CROPS[key]
  elif key.startswith('V'):
-  video=MEDIA/f'{key}_Kling_v01.mp4';poster=ROOT/f'assets/{key}_poster.png'
+  video=ROOT/'assets/V02_softlight_v02.mp4' if key=='V02' else MEDIA/f'{key}_Kling_v02.mp4';poster=ROOT/f'assets/{key}_poster.png'
   if video.exists():
    ff(['-ss',3,'-i',video,'-frames:v',1,poster]);im=background(Image.open(poster).convert('RGB'))
   label='AI RECONSTRUCTION｜AIによる再現';source='Legend illustration｜説話のイメージ' if key=='V02' else ''

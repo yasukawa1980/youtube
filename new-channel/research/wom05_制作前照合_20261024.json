@@ -1,7 +1,7 @@
 {
   "checked_at": "2026-10-24T12:09:11.946612+09:00",
   "source_commit": "e2fea94",
-  "status": "awaiting_resolution_of_two_instruction_conflicts",
+  "status": "resolved_by_user_instruction_production_resumed",
   "narration_generated": false,
   "ai_generated": false,
   "scripts": {
@@ -279,5 +279,13 @@
       "observed": "P03 R02 specifies distant thatched roofs; QC condition prohibits buildings in R01 through R03.",
       "proposed": "Keep generic thatched roofs only for R02; no temples, palaces, torii, identifiable locations, or text. Limit no-building QC to R01 and R03."
     }
-  ]
+  ],
+  "historical_status_at_check": "awaiting_resolution_of_two_instruction_conflicts",
+  "resolution": {
+    "date": "2026-10-24",
+    "user_instruction": "台本通りに制作してください",
+    "narration_text": "unchanged",
+    "visuals": "production request shot table takes precedence",
+    "R02": "generic distant thatched roofs as specified"
+  }
 }
