@@ -54,7 +54,7 @@ def frame_count(path):
 
 def source(name, eyes=False):
     if name == 'B1' and eyes:
-        return ROOT / 'iro/_work/iro20/iro20_B1_eye_v01.mp4'
+        return BASE / 'Kling素材/iro20_B1_eye_v01.mp4'
     return BASE / f'Kling素材/iro20_{name}_raw.mp4'
 
 

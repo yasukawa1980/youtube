@@ -1,0 +1,125 @@
+{
+  "parts": {
+    "B1": {
+      "decoded_frames": 192,
+      "decode_exit": 0,
+      "adjacent_mae_median": 0.00932870339602232,
+      "adjacent_mae_max": 0.04222993925213814,
+      "end_to_start_mae": 0.0507793202996254,
+      "seam_over_median": 5.443341710411467,
+      "camera_abs_shift_max_px": [
+        3.510424129274622e-05,
+        0.00036671010597270405
+      ]
+    },
+    "B2": {
+      "decoded_frames": 192,
+      "decode_exit": 0,
+      "adjacent_mae_median": 0.011473765596747398,
+      "adjacent_mae_max": 0.04760802537202835,
+      "end_to_start_mae": 0.050848767161369324,
+      "seam_over_median": 4.431741849056426,
+      "camera_abs_shift_max_px": [
+        6.367866518160235e-05,
+        0.00033066097739235204
+      ]
+    },
+    "A": {
+      "decoded_frames": 192,
+      "decode_exit": 0,
+      "adjacent_mae_median": 0.01875000074505806,
+      "adjacent_mae_max": 0.058070987462997437,
+      "end_to_start_mae": 0.050702162086963654,
+      "seam_over_median": 2.704115203852844,
+      "camera_abs_shift_max_px": [
+        4.1571980603864384e-05,
+        0.00036164587366521495
+      ]
+    },
+    "B": {
+      "decoded_frames": 192,
+      "decode_exit": 0,
+      "adjacent_mae_median": 0.014375000260770321,
+      "adjacent_mae_max": 0.07885802537202835,
+      "end_to_start_mae": 0.04990740865468979,
+      "seam_over_median": 3.4718196695194616,
+      "camera_abs_shift_max_px": [
+        2.9134395461490238e-05,
+        0.0003584713437933542
+      ]
+    },
+    "B1C": {
+      "decoded_frames": 192,
+      "decode_exit": 0,
+      "adjacent_mae_median": 0.03400462865829468,
+      "adjacent_mae_max": 0.2725617289543152,
+      "end_to_start_mae": 0.05196759104728699,
+      "seam_over_median": 1.5282505087615665,
+      "camera_abs_shift_max_px": [
+        3.510424129274622e-05,
+        0.00036671010597270405
+      ]
+    },
+    "B2C": {
+      "decoded_frames": 192,
+      "decode_exit": 0,
+      "adjacent_mae_median": 0.03560185059905052,
+      "adjacent_mae_max": 0.27817901968955994,
+      "end_to_start_mae": 0.05113425850868225,
+      "seam_over_median": 1.4362809137243548,
+      "camera_abs_shift_max_px": [
+        6.367866518160235e-05,
+        0.00033066097739235204
+      ]
+    },
+    "B1D": {
+      "decoded_frames": 192,
+      "decode_exit": 0,
+      "adjacent_mae_median": 0.018757715821266174,
+      "adjacent_mae_max": 0.10989969223737717,
+      "end_to_start_mae": 0.05236111208796501,
+      "seam_over_median": 2.7914439362921617,
+      "camera_abs_shift_max_px": [
+        3.510424129274622e-05,
+        0.00036671010597270405
+      ]
+    },
+    "B2D": {
+      "decoded_frames": 192,
+      "decode_exit": 0,
+      "adjacent_mae_median": 0.019768519327044487,
+      "adjacent_mae_max": 0.11770061403512955,
+      "end_to_start_mae": 0.04967592656612396,
+      "seam_over_median": 2.5128804916696215,
+      "camera_abs_shift_max_px": [
+        6.367866518160235e-05,
+        0.00033066097739235204
+      ]
+    }
+  },
+  "B1_eye_patch": {
+    "frames": 192,
+    "head_retiming": false,
+    "outside_eye_mask_difference_before_encoding": 0,
+    "tracking_median_error_px": 0.04396727867424488,
+    "tracking_max_error_px": 0.11181791871786118
+  },
+  "visual_scope": "8秒部品の全景・顔3fps見本、出来事の口・目・尾・家具、扉0〜22秒2秒刻み、エンドカード配置を確認。完成本編とショートの確認は別記。",
+  "dog_crop": [
+    1040,
+    0,
+    608,
+    1080
+  ],
+  "dog_motion_horizontal_range": [
+    1120,
+    1558
+  ],
+  "dog_motion_margins_px": [
+    80,
+    90
+  ],
+  "edge_extension": false,
+  "background_composite": "B1開始フレーム固定、ぼかし後に範囲を再制限",
+  "seam_note": "始終差は0〜255階調で約0.05。比率だけでなく絶対差と見本で判断。"
+}

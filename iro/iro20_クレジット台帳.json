@@ -1,5 +1,5 @@
 {
-  "status": "2026-10-26継続・素材検品と編集",
+  "status": "素材生成確定・追加生成なし",
   "authorization": {
     "suno": 300,
     "kling": 512,
@@ -14,13 +14,16 @@
   },
   "suno": {
     "accepted_clips": 42,
-    "credits_used_confirmed": 60,
-    "note": "初回の画像認証は本人対応で解消。42候補を受付。36曲とF04aの全編自動検査済み。最終残高は後で照合。直接試聴はこの接続では非対応。",
+    "credits_used_confirmed": 210,
+    "note": "42候補・21回生成を全て保存・全編自動検査。残高9550、通常ダウンロード残数8、自動リロードOFFを画面確認。直接聴取は未実施。",
     "workspace_id": "8df2a704-452b-44ff-84a2-27028d4d33aa",
     "accepted_requests": 21,
     "credits_committed": 210,
     "balance_after_first_12_clips": 9700,
-    "downloads_after_first_12_clips": 38
+    "downloads_after_first_12_clips": 38,
+    "balance_after_all_clips": 9550,
+    "downloads_after_all_clips": 8,
+    "downloaded_wavs": 42
   },
   "kling": {
     "accepted_clips": 6,

@@ -1,13 +1,13 @@
-# IRO20 ショート投稿情報（制作中）
+# IRO20 ショート投稿情報（未投稿）
 
-各15秒×4本。以下は動作設計に合わせた文案。実映像と採用音源の検品後に確定する。本編公開後の関連動画指定と予約は別依頼。
+各15秒×4本。本編公開後の関連動画指定と予約は別依頼。楽器欄は生成指示であり、実音の厳密な楽器同定・直接聴取は未実施。音源・検品値は `iro20_ショート検品.json` と `iro20_完成検品.json` を参照。
 
-|ID|日本語タイトル案|English title|設計動作|音の候補|
+|ID|日本語タイトル|English title|動作|採用音源・生成指示|
 |---|---|---|---|---|
-|A|物語の外にも、灯りがある。📖 読書BGM #shorts|Lights Beyond the Story. 📖 Reading Music #shorts|女性が本から窓へ視線を上げて戻る|ハープ|
-|B|先に眠った、読書仲間。📖 読書BGM #shorts|My Reading Buddy Fell Asleep First. 📖 #shorts|女性が犬を見て微笑み本へ戻る|ファゴット|
-|C|この一冊は、夢で読む。🐕 読書BGM #shorts|Reading This One in My Dreams. 🐕 #shorts|犬の大きなあくび|チェレスタ|
-|D|まだ読んでる？　おやすみ。🐕 読書BGM #shorts|Still Reading? Good Night. 🐕 #shorts|犬が目を開け女性を見て眠る|ハーモニウム|
+|A|物語の外にも、灯りがある。📖 読書BGM #shorts|Lights Beyond the Story. 📖 Reading Music #shorts|女性が本から窓へ視線を上げて戻る|A-01b・ハープ|
+|B|先に眠った、読書仲間。📖 読書BGM #shorts|My Reading Buddy Fell Asleep First. 📖 #shorts|女性が犬へ視線を向け小さく微笑む|C-01a・チェレスタ|
+|C|この一冊は、夢で読む。🐕 読書BGM #shorts|Reading This One in My Dreams. 🐕 #shorts|犬の大きなあくび|D-01b・マンドリン|
+|D|まだ読んでる？　おやすみ。🐕 読書BGM #shorts|Still Reading? Good Night. 🐕 #shorts|犬が目を開け頭を少し上げて眠る|E-01b・トロンボーン|
 
 ## A 説明
 
