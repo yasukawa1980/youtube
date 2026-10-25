@@ -27,7 +27,7 @@ def main():
         'direct_listening': 'not_performed', 'user_full_viewing': 'pending',
         'shorts': {tag: checks[tag]['file'] for tag in 'ABCD'}}
     YAML.write_text(yaml.safe_dump(cfg, allow_unicode=True, sort_keys=False))
-    metrics = f"{main['duration_seconds']:.3f}秒（2:00:17.625）／{main['lufs']:.2f} LUFS／TP {main['true_peak_dbtp']:.2f} dBTP／映像{main['video_bitrate_bps']/1e6:.3f} Mbps"
+    metrics = f"映像尺2:00:17.625（コンテナ{main['duration_seconds']:.3f}秒）／{main['lufs']:.2f} LUFS／TP {main['true_peak_dbtp']:.2f} dBTP／映像{main['video_bitrate_bps']/1e6:.3f} Mbps"
     shortrows = '\n'.join(f"|{t}|{checks[t]['duration_seconds']:.3f}秒|{checks[t]['lufs']:.2f}|{checks[t]['true_peak_dbtp']:.2f}|" for t in 'ABCD')
     summary = f"""# IRO20 検品要約
 
@@ -61,17 +61,21 @@ def main():
     guide += '\n'.join(f"- [ショート{tag}・15秒]({checks[tag]['file']})" for tag in 'ABCD')
     guide += f"""
 
+A・Bはファイル名末尾が `_v02.mp4` のものを採用。番号なしA・Bは音量調整前の初稿保全用で、投稿対象外。
+
 ## 実測検品
 
 本編は1920×1080、ショートは1080×1920、全て24fps。AAC 48kHzステレオ。
 5ファイルとも最終AAC全体の連続測定、映像・音声の全編デコードを実施。デコードエラー0。
 
-|ショート|実尺|LUFS|dBTP|
+|ショート|コンテナ実尺|LUFS|dBTP|
 |---|---:|---:|---:|
 {shortrows}
 
+各ショートの映像は360コマ＝15.000秒。コンテナの15.019秒はAAC末尾の余白を含む。
+
 42候補から31曲を選定し、4秒クロスフェードで連結。全曲別・2巡なし。
-自動検査で人声等の強い反応・途中無音・末尾の問題を確認したが、音色、自然さ、不要音の聴感確認は未実施。生成指示どおりの楽器であると断定していない。
+自動検査では設定した閾値での人声・途中無音・末尾の警告なし。音色、自然さ、不要音の聴感確認は未実施。生成指示どおりの楽器であると断定していない。
 
 ## 投稿資料と保存
 
@@ -110,7 +114,7 @@ B1は長い閉眼を目元だけ追跡補正。頭・呼吸・手の時間を変
 
 土台は不規則に並べ、同じ土台が3連続しない。出来事は重ねず10分周期で4種類を配置。扉と間543コマ、本体172680コマ、合計173223コマ。x264 CRF12の部品を連結し、最後15秒に専用背景の共通配置カードを表示。共通素材は上書きなし。
 
-ショートは本編の出来事単位の頭から各15秒。608×1080で切り抜き、1080×1920へ拡大、端画素の延長なし。犬は尾を含む全身、動作範囲の左右余白80/90px。音源はA-01b/C-01a/D-01b/E-01bの各30秒地点から15秒で別種類。文字はA/Bが下、C/Dが上の帯に配置し顔や犬を避ける。
+ショートは本編の出来事単位の頭から各15秒。608×1080で切り抜き、1080×1920へ拡大、端画素の延長なし。犬は尾を含む全身、動作範囲の左右余白80/90px。音源はA-01b/C-01a/D-01b/E-01bの各30秒地点から15秒で別種類。文字はA/Bが下、C/Dが上の帯に配置し顔や犬を避ける。A初稿はebur128で−14.8 LUFS、Bは−14.5だったため、初稿を残してA+0.8dB／B+0.5dBとリミッターの天井を調整したv02を採用。最終判定は別途loudnormの全体測定値で実施し、測定方式の異なる値を混同しない。
 
 ## 完成検品・納品
 
@@ -138,7 +142,10 @@ Mac `{base}` に本編・110秒確認抜粋・横縦サムネ・4ショート・
         h = hashlib.sha256()
         with p.open('rb') as f:
             for chunk in iter(lambda: f.read(4 * 1024 * 1024), b''): h.update(chunk)
-        files.append({'path': str(p), 'bytes': p.stat().st_size, 'sha256': h.hexdigest()})
+        role = 'supporting_document_or_preview'
+        if str(p) in [row['file'] for row in checks.values()]: role = 'final_video'
+        if p.name in ['iro20_ショート_A.mp4', 'iro20_ショート_B.mp4']: role = 'superseded_preserved_do_not_upload'
+        files.append({'path': str(p), 'role': role, 'bytes': p.stat().st_size, 'sha256': h.hexdigest()})
     manifest = {'delivery_status': cfg['status'], 'direct_listening': 'not_performed',
                 'ssd_sync': 'not_synced', 'youtube_uploaded': False, 'files': files}
     text = json.dumps(manifest, ensure_ascii=False, indent=2) + '\n'

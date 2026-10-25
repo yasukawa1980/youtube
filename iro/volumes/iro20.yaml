@@ -10,7 +10,7 @@ theme_color_name: PLUM
 purpose: reading
 music_genre: chamber_chill
 target_music_seconds: 7200
-status: editing_audio
+status: files_delivered_technical_qc_pass_listening_pending
 kinds:
   iro20_A-01a: Aハープ
   iro20_C-01b: Cチェレスタ
@@ -105,6 +105,11 @@ shorts:
   duration_seconds: 15
   width: 1080
   height: 1920
+  files:
+    A: /Users/ryo/Desktop/BGM/IRO/Reading/20_しおりを挟むにはまだ早い/投稿用/iro20_ショート_A_v02.mp4
+    B: /Users/ryo/Desktop/BGM/IRO/Reading/20_しおりを挟むにはまだ早い/投稿用/iro20_ショート_B_v02.mp4
+    C: /Users/ryo/Desktop/BGM/IRO/Reading/20_しおりを挟むにはまだ早い/投稿用/iro20_ショート_C.mp4
+    D: /Users/ryo/Desktop/BGM/IRO/Reading/20_しおりを挟むにはまだ早い/投稿用/iro20_ショート_D.mp4
 budget:
   approved: true
   suno_max_credits: 300
@@ -119,3 +124,18 @@ publication:
   daily_total_max: 3
   daily_shorts_max: 2
 instrument_verification: 生成指示と自動分類。直接聴取・厳密な楽器同定は未実施。
+final:
+  main: /Users/ryo/Desktop/BGM/IRO/Reading/20_しおりを挟むにはまだ早い/投稿用/iro20_しおりを挟むにはまだ早い_本編_扉入り.mp4
+  duration_seconds: 7217.643
+  lufs: -14.35
+  true_peak_dbtp: -2.22
+  selected_tracks: 31
+  generated_candidates: 42
+  technical_pass: true
+  direct_listening: not_performed
+  user_full_viewing: pending
+  shorts:
+    A: /Users/ryo/Desktop/BGM/IRO/Reading/20_しおりを挟むにはまだ早い/投稿用/iro20_ショート_A_v02.mp4
+    B: /Users/ryo/Desktop/BGM/IRO/Reading/20_しおりを挟むにはまだ早い/投稿用/iro20_ショート_B_v02.mp4
+    C: /Users/ryo/Desktop/BGM/IRO/Reading/20_しおりを挟むにはまだ早い/投稿用/iro20_ショート_C.mp4
+    D: /Users/ryo/Desktop/BGM/IRO/Reading/20_しおりを挟むにはまだ早い/投稿用/iro20_ショート_D.mp4

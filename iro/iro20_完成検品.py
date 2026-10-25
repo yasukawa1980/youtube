@@ -83,7 +83,8 @@ def main():
     plan = json.loads((BASE / '_work/映像_v01/構成.json').read_text())
     targets = [('main', OUT / 'iro20_しおりを挟むにはまだ早い_本編_扉入り.mp4',
                 {'dimensions': [1920, 1080], 'frames': plan['total_frames']})]
-    targets += [(tag, OUT / f'iro20_ショート_{tag}.mp4', {'dimensions': [1080, 1920], 'frames': 360}) for tag in 'ABCD']
+    targets += [(tag, Path(CFG.get('shorts', {}).get('files', {}).get(tag, str(OUT / f'iro20_ショート_{tag}.mp4'))),
+                 {'dimensions': [1080, 1920], 'frames': 360}) for tag in 'ABCD']
     report = json.loads(REPORT.read_text()) if REPORT.exists() else {'checks': {}}
     for tag, path, expected in targets:
         if args.only == 'main' and tag != 'main' or args.only == 'shorts' and tag == 'main':

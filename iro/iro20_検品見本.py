@@ -9,7 +9,8 @@ from PIL import Image, ImageDraw, ImageFont
 import yaml
 
 ROOT = Path(__file__).resolve().parents[1]
-BASE = Path(yaml.safe_load((ROOT / 'iro/volumes/iro20.yaml').read_text())['dir'])
+CFG = yaml.safe_load((ROOT / 'iro/volumes/iro20.yaml').read_text())
+BASE = Path(CFG['dir'])
 OUT = BASE / '投稿用'
 FONT = '/System/Library/Fonts/ヒラギノ角ゴシック W6.ttc'
 
@@ -43,7 +44,7 @@ def main():
     paste(Image.open(BASE / '_work/映像_v01/エンドカード.png'), 754, 446, (520, 220))
     label(10, 674, '完成ショート A / B / C / D：各4.000秒')
     for i, tag in enumerate('ABCD'):
-        paste(frame(OUT / f'iro20_ショート_{tag}.mp4', 4), i * 320, 710, (320, 569))
+        paste(frame(Path(CFG['shorts']['files'][tag]), 4), i * 320, 710, (320, 569))
     for row, tag in enumerate(['B1', 'B2']):
         y = 1292 + row * 290
         label(10, y, f'{tag} 女性の顔：0〜7.667秒 / 3fps / 頭の時間は未変更', 19)

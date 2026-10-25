@@ -1,5 +1,6 @@
 """完成本編の出来事の頭から15秒、4種類の音源で縦ショートを作る。"""
 from pathlib import Path
+import argparse
 import json
 import re
 import subprocess
@@ -83,5 +84,35 @@ def main():
         print(tag, rows[-1], flush=True)
 
 
+def repair_levels():
+    """初稿を保全し、A/Bだけ測定値に基づくゲインで別版にする。"""
+    report = ROOT / 'iro/iro20_ショート検品.json'
+    rows = json.loads(report.read_text())
+    cfg = yaml.safe_load((ROOT / 'iro/volumes/iro20.yaml').read_text())
+    files = {tag: str(OUT / f'iro20_ショート_{tag}.mp4') for tag in 'ABCD'}
+    for row in rows:
+        tag = row['tag']
+        if tag not in 'AB':
+            continue
+        dest = OUT / f'iro20_ショート_{tag}_v02.mp4'
+        if dest.exists():
+            raise FileExistsError(dest)
+        gain = -14 - row['lufs']
+        ff(['-i', WORK / f'{tag}_映像.mp4', '-i', WORK / f'{tag}_音声.wav',
+            '-map', '0:v', '-map', '1:a', '-c:v', 'copy', '-af',
+            f'volume={gain:.3f}dB,aresample=192000,alimiter=limit=0.70:attack=1:release=60:level=false,aresample=48000',
+            '-c:a', 'aac_at', '-b:a', '256k', '-t', 15, '-movflags', '+faststart', dest])
+        row['previous_version'] = dict(file=row['file'], lufs=row['lufs'], true_peak_dbtp=row['true_peak_dbtp'])
+        row.update(file=str(dest), bytes=dest.stat().st_size, level_repair_gain_db=gain, **measure(dest))
+        files[tag] = str(dest)
+        print('repaired', tag, row['lufs'], row['true_peak_dbtp'], flush=True)
+    cfg['shorts']['files'] = files
+    (ROOT / 'iro/volumes/iro20.yaml').write_text(yaml.safe_dump(cfg, allow_unicode=True, sort_keys=False))
+    report.write_text(json.dumps(rows, ensure_ascii=False, indent=2) + '\n')
+
+
 if __name__ == '__main__':
-    main()
+    parser = argparse.ArgumentParser(description=__doc__)
+    parser.add_argument('--repair-levels', action='store_true')
+    args = parser.parse_args()
+    repair_levels() if args.repair_levels else main()
