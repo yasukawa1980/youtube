@@ -1,0 +1,37 @@
+{
+  "status": "Kling B1生成中・Suno認証待ち",
+  "authorization": {
+    "suno": 300,
+    "kling": 512,
+    "purchases": false
+  },
+  "initial_balance": {
+    "suno": 9760,
+    "suno_downloads": 50,
+    "kling_total": 84,
+    "kling_regular": 69,
+    "kling_bonus": 15
+  },
+  "suno": {
+    "accepted_clips": 0,
+    "attempts": 2,
+    "credits_used_confirmed": null,
+    "note": "challenge-error。受付行なし。重複防止のため本人対応後に件数照合。"
+  },
+  "kling": {
+    "accepted_clips": 1,
+    "credits_used_confirmed": null,
+    "topup_by_user_pending": false,
+    "balance_after_user_topup_display": 1404,
+    "requests": [
+      {
+        "name": "B1",
+        "price_displayed": 64,
+        "status": "Creating表示で受付確認"
+      }
+    ],
+    "credits_committed": 64,
+    "project_url": "https://kling.ai/app/creations/grid?ac=11&project=939738663515209766"
+  },
+  "imagegen_calls": 4
+}

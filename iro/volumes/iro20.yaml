@@ -1,0 +1,48 @@
+# IRO20制作中。実在する音源が揃うまでpicked/order_tracksは空。
+genre: iro
+volume: 20
+slug: iro20
+dir: /Users/ryo/Desktop/BGM/IRO/Reading/20_しおりを挟むにはまだ早い
+tracks_subdir: 楽曲
+title_ja: しおりを挟むには、まだ早い。
+title_en: Too Early for a Bookmark.
+theme_color: '#71516B'
+theme_color_name: PLUM
+purpose: reading
+music_genre: chamber_chill
+target_music_seconds: 7200
+status: preparation
+kinds: {}
+picked: []
+order_tracks: []
+exclude: []
+audio:
+  target_lufs: -14.0
+  true_peak: -2.0
+  crossfade: 4.0
+  final_normalize: true
+  codec: aac_at
+video:
+  width: 1920
+  height: 1080
+  fps: 24
+  opening: v5
+  endcard_seconds: 15
+shorts:
+  count: 4
+  duration_seconds: 15
+  width: 1080
+  height: 1920
+budget:
+  approved: true
+  suno_max_credits: 300
+  kling_max_credits: 512
+  purchases_by_codex: false
+sync:
+  designated_ssd: /Volumes/ESD-EPB
+  status: disconnected_not_synced
+publication:
+  uploaded: false
+  scheduled: false
+  daily_total_max: 3
+  daily_shorts_max: 2
