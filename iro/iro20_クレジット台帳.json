@@ -1,5 +1,5 @@
 {
-  "status": "Kling B1生成中・Suno認証待ち",
+  "status": "Kling B1生成完了・保存未完了／Suno認証・Mac解除待ち",
   "authorization": {
     "suno": 300,
     "kling": 512,
@@ -27,11 +27,13 @@
       {
         "name": "B1",
         "price_displayed": 64,
-        "status": "Creating表示で受付確認"
+        "status": "Kling詳細画面で完成確認・ローカル未保存・未検品",
+        "slot_id": "943327079729344559",
+        "web_metadata_seconds": 8.041666
       }
     ],
     "credits_committed": 64,
     "project_url": "https://kling.ai/app/creations/grid?ac=11&project=939738663515209766"
   },
-  "imagegen_calls": 4
+  "imagegen_calls": 5
 }

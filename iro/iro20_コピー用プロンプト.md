@@ -29,3 +29,11 @@ Edit the provided starting frame ONLY for shadow exposure and tonal balance. Pre
 
 開始画像v03を参照し、人物と犬を覆わない左上へ「読書BGM」「夜のページに、やさしい音」「室内楽チル｜2時間」。暗いPLUMの半透明地、主見出しは大きい生成り白、2行目は淡黄。絵・人物・犬・夜の照明を維持。16:9、追加ロゴなし。生成原本を1280×720へ縮小してJPG化。4回目の内蔵image_genで制作。
 
+
+## 縦共通サムネ（内蔵image_gen・5回目）
+
+参照：開始画像v03。編集原本を保存、開始画像は変更しない。
+
+```text
+Use case: identity-preserve. Create the shared vertical 9:16 Shorts cover for IRO20, based on this reference scene. Preserve exactly the adult woman with chin-length wavy dark brown bob, amber rectangular hair clip, teal overshirt, ivory tee; and the large adult golden retriever with broad pale muzzle and heavy ears. Same richly painted cinematic illustration and warm autumn reading nook, PLUM upholstery, teal arched window, blue night town lights. Recompose vertically to keep the woman reading on the left/center and the full large curled sleeping dog including tail on the right/lower center within safe margins. Woman's eyes naturally open looking down at book, not shut. Do not make dog a puppy. No bun hairstyle. Strong beautiful composition, not a stretched crop. Add exact bold cream Japanese headline in top safe area: 「読書BGM」. Below headline exact yellow subtitle 「音楽のショート試聴」. Below subtitle small cream text 「室内楽チル｜15秒」. Keep all text away from face and dog, on a naturally dark plum backdrop with enough contrast. Bottom safe area small unobtrusive title 「しおりを挟むには、まだ早い。」 and brand 「IRO SOUNDS」. Do not write 2時間. No timer, no extra logos or watermark. Portrait aspect ratio 9:16.
+```
