@@ -1,0 +1,78 @@
+{
+  "date": "2026-10-27",
+  "image_generation_calls": 0,
+  "source": {
+    "path": "/Users/ryo/Desktop/新チャンネル/EP003_Medusa/サムネ改善_20261027/sources/案1案3_左右の浮き彫り_原寸.png",
+    "size": [
+      1672,
+      941
+    ],
+    "bytes": 2881076,
+    "sha256": "fb44a334452278b0f43bdc1d297d94bb90bb47796a1a05dfab7603afa35688a3"
+  },
+  "previous": {
+    "path": "/Users/ryo/.codex/worktrees/quiet-origins-thumbnails/youtube/new-channel/サムネ確認用/wom03/wom03_サムネ案1_20261027.jpg",
+    "size": [
+      1280,
+      720
+    ],
+    "bytes": 444948,
+    "sha256": "ac4e159b77f0165e4227b5e998f3234febb5ef1af4fa3b8b47c56a3b17e1b56c"
+  },
+  "output": {
+    "path": "/Users/ryo/.codex/worktrees/quiet-origins-thumbnails/youtube/new-channel/サムネ確認用/wom03/wom03_サムネ案1_v02_20261027.jpg",
+    "size": [
+      1280,
+      720
+    ],
+    "bytes": 453596,
+    "sha256": "92b03336ca7e6626e20b1d8c1351c4e42bfcd553b83b0caf39369819e7182648"
+  },
+  "comparison": {
+    "path": "/Users/ryo/.codex/worktrees/quiet-origins-thumbnails/youtube/new-channel/サムネ確認用/wom03/wom03_サムネ案1_v01_v02比較_20261027.jpg",
+    "size": [
+      1160,
+      760
+    ],
+    "bytes": 470971,
+    "sha256": "28db8515d18bda34501dd77c1e13840cb98ca72daa3fc1c678256036f8346ef5"
+  },
+  "lighting": {
+    "support": "x>630, y<650 at 1280x720; left ramp55px, bottom ramp30px",
+    "method": "Existing luminance selects lit planes: light=clip((Y-40)/150). Add (255-RGB)*light*(.25,.13,.015)*upper-right direction; blue reduction .055*B*light; shadows up to3.5% deeper. All operations blended by mask.",
+    "changed_pixels": 386692,
+    "outside_mask_changed_pixels": 0,
+    "final_outside_mask_changed_pixels": 0,
+    "new_near_white_pixels_RGB_ge250": 0,
+    "note": "画素差0はJPEG圧縮前。形状・構図・文字変更なし。"
+  },
+  "v01_byte_identical_reproduction": true,
+  "clearance": {
+    "subject_guard_x": 630,
+    "upper_shadow_right_exclusive": 466,
+    "lower_shadow_right_exclusive": 596,
+    "upper_gap_px": 164,
+    "lower_gap_px": 34,
+    "minimum_conservative_gap_px": 34
+  },
+  "references": [
+    {
+      "path": "/Users/ryo/.codex/worktrees/quiet-origins-thumbnails/youtube/new-channel/サムネ確認用/wom02/wom02_サムネ案1_v02_20261026.jpg",
+      "size": [
+        1280,
+        720
+      ],
+      "bytes": 377641,
+      "sha256": "9035e8b8542a9c5102850d1cb51202eea96dbbd15a97b993087a0d153241ebc3"
+    },
+    {
+      "path": "/Users/ryo/.codex/worktrees/quiet-origins-thumbnails/youtube/new-channel/サムネ確認用/wom04/wom04_サムネ案3_v02_20261027.jpg",
+      "size": [
+        1280,
+        720
+      ],
+      "bytes": 371802,
+      "sha256": "f4b9caac8ff667ced0c156ad79f105f77d0ac2b92a00ab7a3886a12199c6928b"
+    }
+  ]
+}
