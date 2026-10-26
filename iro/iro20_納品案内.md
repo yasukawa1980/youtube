@@ -10,12 +10,12 @@
 - [通し視聴用・本編](/Users/ryo/Desktop/BGM/IRO/Reading/20_しおりを挟むにはまだ早い/投稿用/iro20_しおりを挟むにはまだ早い_本編_扉入り.mp4)：映像尺2:00:17.625（コンテナ7217.643秒）／-14.35 LUFS／TP -2.22 dBTP／映像1.876 Mbps。
 - [構成確認用・110秒抜粋](/Users/ryo/Desktop/BGM/IRO/Reading/20_しおりを挟むにはまだ早い/投稿用/iro20_完成確認_抜粋110秒.mp4)：導入、出来事4種、最後20秒。本編の通し視聴を代替しない。
 - [本編サムネ](/Users/ryo/Desktop/BGM/IRO/Reading/20_しおりを挟むにはまだ早い/投稿用/iro20_サムネ.jpg)／[ショート共通サムネ](/Users/ryo/Desktop/BGM/IRO/Reading/20_しおりを挟むにはまだ早い/投稿用/iro20_ショート共通サムネ.jpg)。
-- [ショートA・15秒](/Users/ryo/Desktop/BGM/IRO/Reading/20_しおりを挟むにはまだ早い/投稿用/iro20_ショート_A_v02.mp4)
-- [ショートB・15秒](/Users/ryo/Desktop/BGM/IRO/Reading/20_しおりを挟むにはまだ早い/投稿用/iro20_ショート_B_v02.mp4)
-- [ショートC・15秒](/Users/ryo/Desktop/BGM/IRO/Reading/20_しおりを挟むにはまだ早い/投稿用/iro20_ショート_C.mp4)
-- [ショートD・15秒](/Users/ryo/Desktop/BGM/IRO/Reading/20_しおりを挟むにはまだ早い/投稿用/iro20_ショート_D.mp4)
+- [ショートA・15秒](/Users/ryo/Desktop/BGM/IRO/Reading/20_しおりを挟むにはまだ早い/投稿用/iro20_ショート_A_v03.mp4)
+- [ショートB・15秒](/Users/ryo/Desktop/BGM/IRO/Reading/20_しおりを挟むにはまだ早い/投稿用/iro20_ショート_B_v03.mp4)
+- [ショートC・15秒](/Users/ryo/Desktop/BGM/IRO/Reading/20_しおりを挟むにはまだ早い/投稿用/iro20_ショート_C_v03.mp4)
+- [ショートD・15秒](/Users/ryo/Desktop/BGM/IRO/Reading/20_しおりを挟むにはまだ早い/投稿用/iro20_ショート_D_v03.mp4)
 
-A・Bはファイル名末尾が `_v02.mp4` のものを採用。番号なしA・Bは音量調整前の初稿保全用で、投稿対象外。
+4本ともファイル名末尾が `_v03.mp4` のものを採用（10/26 Claude添削で画面の誘導文を説明文と同じ「読書BGM・本編2時間は関連動画から」に変更。音声処理はv02・初稿と同じで、LUFS・TPの実測も同値）。`_v02`・番号なしは保全用で投稿対象外。下表と `iro20_完成検品.json` の値はv02時点の測定。
 
 ## 実測検品
 

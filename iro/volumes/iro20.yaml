@@ -105,11 +105,11 @@ shorts:
   duration_seconds: 15
   width: 1080
   height: 1920
-  files:
-    A: /Users/ryo/Desktop/BGM/IRO/Reading/20_しおりを挟むにはまだ早い/投稿用/iro20_ショート_A_v02.mp4
-    B: /Users/ryo/Desktop/BGM/IRO/Reading/20_しおりを挟むにはまだ早い/投稿用/iro20_ショート_B_v02.mp4
-    C: /Users/ryo/Desktop/BGM/IRO/Reading/20_しおりを挟むにはまだ早い/投稿用/iro20_ショート_C.mp4
-    D: /Users/ryo/Desktop/BGM/IRO/Reading/20_しおりを挟むにはまだ早い/投稿用/iro20_ショート_D.mp4
+  files: &id002
+    A: /Users/ryo/Desktop/BGM/IRO/Reading/20_しおりを挟むにはまだ早い/投稿用/iro20_ショート_A_v03.mp4
+    B: /Users/ryo/Desktop/BGM/IRO/Reading/20_しおりを挟むにはまだ早い/投稿用/iro20_ショート_B_v03.mp4
+    C: /Users/ryo/Desktop/BGM/IRO/Reading/20_しおりを挟むにはまだ早い/投稿用/iro20_ショート_C_v03.mp4
+    D: /Users/ryo/Desktop/BGM/IRO/Reading/20_しおりを挟むにはまだ早い/投稿用/iro20_ショート_D_v03.mp4
 budget:
   approved: true
   suno_max_credits: 300
@@ -134,8 +134,4 @@ final:
   technical_pass: true
   direct_listening: not_performed
   user_full_viewing: pending
-  shorts:
-    A: /Users/ryo/Desktop/BGM/IRO/Reading/20_しおりを挟むにはまだ早い/投稿用/iro20_ショート_A_v02.mp4
-    B: /Users/ryo/Desktop/BGM/IRO/Reading/20_しおりを挟むにはまだ早い/投稿用/iro20_ショート_B_v02.mp4
-    C: /Users/ryo/Desktop/BGM/IRO/Reading/20_しおりを挟むにはまだ早い/投稿用/iro20_ショート_C.mp4
-    D: /Users/ryo/Desktop/BGM/IRO/Reading/20_しおりを挟むにはまだ早い/投稿用/iro20_ショート_D.mp4
+  shorts: *id002

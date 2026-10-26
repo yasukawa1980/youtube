@@ -1,6 +1,6 @@
 # IRO20 ショート投稿情報（未投稿）
 
-各15秒×4本。本編公開後の関連動画指定と予約は別依頼。楽器欄は生成指示であり、実音の厳密な楽器同定・直接聴取は未実施。音源・検品値は `iro20_ショート検品.json` と `iro20_完成検品.json` を参照。
+各15秒×4本。投稿するのは `投稿用/iro20_ショート_{A〜D}_v03.mp4`（画面の誘導文は「読書BGM・本編2時間は関連動画から」）。本編公開後の関連動画指定と予約は別依頼。楽器欄は生成指示であり、実音の厳密な楽器同定・直接聴取は未実施。音源・検品値は `iro20_ショート検品.json` と `iro20_完成検品.json` を参照。
 
 |ID|日本語タイトル|English title|動作|採用音源・生成指示|
 |---|---|---|---|---|
@@ -17,7 +17,7 @@
 
 Look up from your book: little lights are glowing beyond the window.
 A 15-second preview of gentle chamber chill for nighttime reading.
-Find “Too Early for a Bookmark.” in the related video.
+Find “Too Early for a Bookmark” in the related video.
 
 #読書BGM #夜のBGM #shorts
 
@@ -29,7 +29,7 @@ Find “Too Early for a Bookmark.” in the related video.
 
 My reading companion has already drifted off.
 Fifteen seconds of gentle chamber chill for a quiet night.
-Find “Too Early for a Bookmark.” in the related video.
+Find “Too Early for a Bookmark” in the related video.
 
 #読書BGM #リラックスBGM #shorts
 
@@ -41,7 +41,7 @@ Find “Too Early for a Bookmark.” in the related video.
 
 One big yawn. The rest of the story can wait for a dream.
 A 15-second reading music preview.
-Find “Too Early for a Bookmark.” in the related video.
+Find “Too Early for a Bookmark” in the related video.
 
 #読書BGM #犬のいる暮らし #shorts
 
@@ -53,7 +53,7 @@ Find “Too Early for a Bookmark.” in the related video.
 
 Still reading? Then I'll say good night first.
 A 15-second reading music preview.
-Find “Too Early for a Bookmark.” in the related video.
+Find “Too Early for a Bookmark” in the related video.
 
 #読書BGM #夜のBGM #shorts
 
