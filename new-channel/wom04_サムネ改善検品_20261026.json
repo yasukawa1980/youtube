@@ -1,0 +1,162 @@
+{
+  "date": "2026-10-26",
+  "service": "OpenAI built-in image_gen",
+  "generation_calls": 3,
+  "adopted_backgrounds": 2,
+  "originals": [
+    {
+      "path": "/Users/ryo/Desktop/新チャンネル/EP004_Pandora/サムネ改善_20261026/sources/案1_初回_未採用.png",
+      "size": [
+        1672,
+        941
+      ],
+      "bytes": 2289339,
+      "sha256": "e1c9b757d2d83f0362c187736d8d4ef9b06ba263c8ad6b21e42d51c58f40a4c3"
+    },
+    {
+      "path": "/Users/ryo/Desktop/新チャンネル/EP004_Pandora/サムネ改善_20261026/sources/案1案3_壺を開ける手_原寸.png",
+      "size": [
+        1672,
+        941
+      ],
+      "bytes": 2194538,
+      "sha256": "84b5496eae6c24c2874be69fcf80c3e3b20b1b6a939f0da10a9e18c0b1eaf7b6"
+    },
+    {
+      "path": "/Users/ryo/Desktop/新チャンネル/EP004_Pandora/サムネ改善_20261026/sources/案2_壺と小箱_原寸.png",
+      "size": [
+        1672,
+        941
+      ],
+      "bytes": 2123061,
+      "sha256": "0f06debb2a9617b2048d2d7455d8c326c35d5fd970a0fac325b42ed54da914af"
+    }
+  ],
+  "outputs": [
+    {
+      "path": "/Users/ryo/.codex/worktrees/quiet-origins-thumbnails/youtube/new-channel/サムネ確認用/wom04/wom04_サムネ案1_20261026.jpg",
+      "size": [
+        1280,
+        720
+      ],
+      "bytes": 365164,
+      "sha256": "e925ec1fb1a171021d7b94e1acdc6dfa40042d3de596bc3102efe63a945d6830"
+    },
+    {
+      "path": "/Users/ryo/.codex/worktrees/quiet-origins-thumbnails/youtube/new-channel/サムネ確認用/wom04/wom04_サムネ案2_20261026.jpg",
+      "size": [
+        1280,
+        720
+      ],
+      "bytes": 363198,
+      "sha256": "0387f1c79ef72993785dd355c680f2b0e6ee87fe4015e96d346c57049274d8ea"
+    },
+    {
+      "path": "/Users/ryo/.codex/worktrees/quiet-origins-thumbnails/youtube/new-channel/サムネ確認用/wom04/wom04_サムネ案3_20261026.jpg",
+      "size": [
+        1280,
+        720
+      ],
+      "bytes": 367298,
+      "sha256": "2cca57a3c9431d33dcc9276e726161140dc86f30be3c7aff192a15e87d718eef"
+    },
+    {
+      "path": "/Users/ryo/.codex/worktrees/quiet-origins-thumbnails/youtube/new-channel/サムネ確認用/wom04/wom04_サムネ168px比較_20261026.jpg",
+      "size": [
+        936,
+        150
+      ],
+      "bytes": 64249,
+      "sha256": "c000a72a9161f902160763daff6ac3382292cfb418f16d422d37a7e741e68de9"
+    },
+    {
+      "path": "/Users/ryo/.codex/worktrees/quiet-origins-thumbnails/youtube/new-channel/サムネ確認用/wom04/wom04_サムネ余白検品_20261026.jpg",
+      "size": [
+        1280,
+        804
+      ],
+      "bytes": 215002,
+      "sha256": "343ac673fa9bda223af5651233838c6968b6dadca1dd175c5c571fa456f0dadc"
+    }
+  ],
+  "measurements": [
+    {
+      "candidate": 1,
+      "headline_widths": [
+        530,
+        290
+      ],
+      "upper_title_shadow_right_exclusive_x": 586,
+      "upper_subject_guard_left_x": 740,
+      "upper_conservative_gap_px": 154,
+      "lower_title_shadow_right_exclusive_x": 346,
+      "lower_clay_edge_x": 751,
+      "lower_clay_edge_y": 402,
+      "lower_gap_px": 405,
+      "minimum_conservative_gap_px": 154
+    },
+    {
+      "candidate": 2,
+      "headline_widths": [
+        530,
+        290
+      ],
+      "upper_title_shadow_right_exclusive_x": 586,
+      "upper_subject_guard_left_x": 740,
+      "upper_conservative_gap_px": 154,
+      "lower_title_shadow_right_exclusive_x": 346,
+      "lower_clay_edge_x": 751,
+      "lower_clay_edge_y": 402,
+      "lower_gap_px": 405,
+      "minimum_conservative_gap_px": 154
+    },
+    {
+      "candidate": 3,
+      "headline_widths": [
+        590,
+        250
+      ],
+      "upper_title_shadow_right_exclusive_x": 646,
+      "upper_subject_guard_left_x": 740,
+      "upper_conservative_gap_px": 94,
+      "lower_title_shadow_right_exclusive_x": 306,
+      "lower_clay_edge_x": 751,
+      "lower_clay_edge_y": 402,
+      "lower_gap_px": 445,
+      "minimum_conservative_gap_px": 94
+    }
+  ],
+  "measurement_method": {
+    "upper": "主役（手・蓋・壺）の外接保全領域を目視設定x>=740。実輪郭はこの領域の右。文字の影を含む外接枠からの保守値。煙は主役の硬い輪郭に含めない。",
+    "lower": "y301〜435、x700〜999を走査。R>=90,R>B*1.45,R>G*1.07が横8px連続する壺の暖色境界。文字枠の影を含む。"
+  },
+  "same_background_candidates": [
+    1,
+    3
+  ],
+  "comparison_cell_px": [
+    168,
+    94
+  ],
+  "youtube_modified": false,
+  "previous_thumbnails": [
+    {
+      "path": "/Users/ryo/.codex/worktrees/quiet-origins-thumbnails/youtube/new-channel/サムネ確認用/wom04/wom04_サムネ_A01.jpg",
+      "size": [
+        1280,
+        720
+      ],
+      "bytes": 100329,
+      "sha256": "ce4dbac765de600a4095d67eb75a22a72c781e74b5e238386b1cd4ad837e500f"
+    },
+    {
+      "path": "/Users/ryo/.codex/worktrees/quiet-origins-thumbnails/youtube/new-channel/サムネ確認用/wom02/wom02_サムネ案1_v02_20261026.jpg",
+      "size": [
+        1280,
+        720
+      ],
+      "bytes": 377641,
+      "sha256": "9035e8b8542a9c5102850d1cb51202eea96dbbd15a97b993087a0d153241ebc3"
+    }
+  ]
+}

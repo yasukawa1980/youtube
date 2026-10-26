@@ -1,0 +1,31 @@
+{
+  "date": "2026-10-26",
+  "service": "OpenAI built-in image_gen",
+  "generation_calls": 3,
+  "adopted_backgrounds": 2,
+  "steps": [
+    {
+      "id": "scene1_initial",
+      "prompt": "Use case: historical-scene.\nAsset type: full-bleed text-free YouTube thumbnail illustration for Quiet Origins episode on Pandora's jar. Wide 16:9.\nScene: an ancient Greek stone storeroom at night, warm candlelight on weathered terracotta against deep midnight blue shadows. Dominant subject: a monumental human-height PITHOS, a tall broad-bodied storage jar with a very wide open mouth, heavy thick circular clay lid and restrained raised geometric bands, made for grain, oil or wine. Broad storage-pot proportions, not a narrow-necked flower vase, not amphora, not pumpkin. Invent a generic plausible vessel; do not reproduce any actual museum artifact or recognizable Louvre pithos reliefs.\nAction: only two hands and fully clothed linen sleeves enter from the upper right, shifting the heavy circular lid slightly aside. No human face, torso, full figure, bare arms, or other body parts. Dark abstract smoke swirls upward through the opening with a few tiny embers; a single small warm light remains visibly deep inside under the rim. Smoke conveys unspecified troubles, no creatures or faces.\nComposition: entire image a continuous scene. Large pot occupies the right portion, roughly x=57% to 95%, y=24% to 93%; lid and hands fully in the right half around y=15% to 33%. Keep the left 48% naturally dark and quiet, uninterrupted stone wall and soft shadow for later two-line title. Hands, sleeve, lid and hard pottery silhouette must never intrude into left 52%. Main rim and little inner light high enough to avoid lower right timestamp. Pot must feel massive through scale of the hands. Strong instantly readable silhouette. No small inset images, no panels.\nStyle: cinematic painterly historical illustration with visible brushwork, evocative and restrained, clearly an imagined painting not an archival photo. Deep blue shadows, warm amber candlelight, earthy ochre clay. No text, lettering, watermarks, logos, box, monster, skull, insect, symbols resembling writing, real person or recognizable artwork.",
+      "adopted": false,
+      "reason": "背景の木箱と前腕の露出を修正。壺の全体を画面内へ。"
+    },
+    {
+      "id": "scene1_final",
+      "prompt": "Edit this illustration only as follows, preserving its warm/cool painterly style, giant broad-mouth storage PITHOS, two hands shifting the thick circular clay lid, dark abstract smoke and composition with empty left half.\n1. Remove the wooden box/crate in the left background entirely. Replace with uninterrupted dark stone wall and floor. No box or chest anywhere. Simplify the left background, remove all distracting small pots and baskets.\n2. Extend both linen sleeves to the wrists so ONLY hands show skin, absolutely no bare forearms. The only human parts visible are hands and fully sleeved arms, no face or torso.\n3. Pull back the view slightly so the entire tall pithos silhouette is visible, including its narrow flat base within the image at y=93%. The pithos should be unmistakably TALL, height roughly 1.5 times its maximum body width, with a broad mouth and several raised geometric bands. It must read as a human-height grain storage jar, never a low cauldron or flower vase. Keep its left contour x>=56%, and the hands and lid wholly in right half. Keep right top lid from being cropped. Left 48% remains a quiet continuous dark wall for typography.\n4. Reduce the fire at the mouth to a single SMALL warm light under the rim. Dark smoke with a few embers, not a roaring fire. Keep strong candlelight illuminating the vessel from outside.\nNo text, no logos. Wide 16:9.",
+      "adopted": true,
+      "used_by": [
+        1,
+        3
+      ]
+    },
+    {
+      "id": "scene2",
+      "prompt": "Create candidate 2 for the same Pandora thumbnail, using the provided painting as a composition and style reference. Keep the tall broad-mouth terracotta PITHOS on the right, raised simple geometric bands, midnight-blue ancient Greek stone storeroom and warm candle illumination. The entire tall storage jar including its foot must remain visible and massive, not a flower vase, amphora or pumpkin. Keep left 48 percent quiet empty dark stone wall for later lettering.\nRemove ALL human hands, arms, sleeves and people. Rest the heavy round lid slightly ajar on the rim. Only a small amount of abstract dark smoke escapes and a tiny warm glimmer inside, no fire plume.\nPlace one SMALL Renaissance-style wooden JEWEL CASKET on the floor beside the left foot of the immense jar at approximately x=58%, y=83%, a simple dark rectangular walnut box with a clear hinged lid and small brass clasp, lid closed. The casket is about one sixth the height of the pithos. Enough warm side-light so its box shape is readable at thumbnail scale; it must never rival the pithos as the main subject. The left edge of this little box may reach x=49% but only below y=72%; no foreground objects in upper left area reserved for title. It is an intentional conceptual juxtaposition of the ancient jar and later box, not an assertion they coexisted historically.\nKeep everything as a continuous painted scene with visible brush textures, no text or symbols resembling writing, no watermarks, no inset photo, no frame, no monster, face, skull or insects. Wide 16:9.",
+      "adopted": true,
+      "used_by": [
+        2
+      ]
+    }
+  ]
+}
