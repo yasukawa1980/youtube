@@ -1,0 +1,56 @@
+# Echoes of Old Japan 総集編 01 —— 9巻・8時間46分52秒（EOJL01）
+#
+# ★★音は作り直していない。 公開済み9巻の music_bed.wav を巻の境で8秒の等電力クロスフェードで
+#   つないだだけ（`bgm/EOJL01_つなぐ.py`）。 実測 −14.0 LUFS / LRA 7.2 / TP −1.2（wav）。
+# ★★wav は RF64（約6.1GB。WAVの4GB上限を超える）。
+# ★画は各巻の本編4枚をそのまま（9巻×4＝36枚）。 manifest も場面単位の36本にしてあるので1曲1枚。
+# ★作業先は ESD-02（ESD-EPB 未接続・内蔵は空き26GB で足りない）。 設計は `bgm/EOJL01_テーマ設計.md`。
+
+genre: echoesofoldjapan
+volume: 101
+slug: eojl01
+dir: "/Volumes/ESD-02/BGM/5_Echoes of Old Japan/EOJL01_素材_8時間"
+
+runtime: "8 HOURS"
+cta: true
+
+images:
+- "/Volumes/ESD-02/BGM/5_Echoes of Old Japan/EOJ13_素材_子守歌/画像/eoj13_01.png"
+- "/Volumes/ESD-02/BGM/5_Echoes of Old Japan/EOJ13_素材_子守歌/画像/eoj13_02.png"
+- "/Volumes/ESD-02/BGM/5_Echoes of Old Japan/EOJ13_素材_子守歌/画像/eoj13_03.png"
+- "/Volumes/ESD-02/BGM/5_Echoes of Old Japan/EOJ13_素材_子守歌/画像/eoj13_04.png"
+- "/Volumes/ESD-02/BGM/5_Echoes of Old Japan/EOJ03_素材_ジムノペディ/画像/eoj03_01.png"
+- "/Volumes/ESD-02/BGM/5_Echoes of Old Japan/EOJ03_素材_ジムノペディ/画像/eoj03_02.png"
+- "/Volumes/ESD-02/BGM/5_Echoes of Old Japan/EOJ03_素材_ジムノペディ/画像/eoj03_03.png"
+- "/Volumes/ESD-02/BGM/5_Echoes of Old Japan/EOJ03_素材_ジムノペディ/画像/eoj03_04.png"
+- "/Volumes/ESD-02/BGM/5_Echoes of Old Japan/EOJ02_素材_グノシエンヌ/画像/eoj02_01.png"
+- "/Volumes/ESD-02/BGM/5_Echoes of Old Japan/EOJ02_素材_グノシエンヌ/画像/eoj02_02.png"
+- "/Volumes/ESD-02/BGM/5_Echoes of Old Japan/EOJ02_素材_グノシエンヌ/画像/eoj02_03.png"
+- "/Volumes/ESD-02/BGM/5_Echoes of Old Japan/EOJ02_素材_グノシエンヌ/画像/eoj02_04.png"
+- "/Volumes/ESD-02/BGM/5_Echoes of Old Japan/EOJ04_素材_ノクターン/画像/eoj04_01.png"
+- "/Volumes/ESD-02/BGM/5_Echoes of Old Japan/EOJ04_素材_ノクターン/画像/eoj04_02.png"
+- "/Volumes/ESD-02/BGM/5_Echoes of Old Japan/EOJ04_素材_ノクターン/画像/eoj04_03.png"
+- "/Volumes/ESD-02/BGM/5_Echoes of Old Japan/EOJ04_素材_ノクターン/画像/eoj04_04.png"
+- "/Volumes/ESD-02/BGM/5_Echoes of Old Japan/EOJ11_素材_ゴルトベルク/画像/eoj11_01.png"
+- "/Volumes/ESD-02/BGM/5_Echoes of Old Japan/EOJ11_素材_ゴルトベルク/画像/eoj11_02.png"
+- "/Volumes/ESD-02/BGM/5_Echoes of Old Japan/EOJ11_素材_ゴルトベルク/画像/eoj11_03.png"
+- "/Volumes/ESD-02/BGM/5_Echoes of Old Japan/EOJ11_素材_ゴルトベルク/画像/eoj11_04.png"
+- "/Volumes/ESD-02/BGM/5_Echoes of Old Japan/EOJ08_素材_雨だれ/画像/eoj08_01.png"
+- "/Volumes/ESD-02/BGM/5_Echoes of Old Japan/EOJ08_素材_雨だれ/画像/eoj08_02.png"
+- "/Volumes/ESD-02/BGM/5_Echoes of Old Japan/EOJ08_素材_雨だれ/画像/eoj08_03.png"
+- "/Volumes/ESD-02/BGM/5_Echoes of Old Japan/EOJ08_素材_雨だれ/画像/eoj08_04.png"
+- "/Volumes/ESD-02/BGM/5_Echoes of Old Japan/EOJ09_素材_緩徐楽章/画像/eoj09_01.png"
+- "/Volumes/ESD-02/BGM/5_Echoes of Old Japan/EOJ09_素材_緩徐楽章/画像/eoj09_02.png"
+- "/Volumes/ESD-02/BGM/5_Echoes of Old Japan/EOJ09_素材_緩徐楽章/画像/eoj09_03.png"
+- "/Volumes/ESD-02/BGM/5_Echoes of Old Japan/EOJ09_素材_緩徐楽章/画像/eoj09_04.png"
+- "/Volumes/ESD-02/BGM/5_Echoes of Old Japan/EOJ10_素材_トロイメライ/画像/eoj10_01.png"
+- "/Volumes/ESD-02/BGM/5_Echoes of Old Japan/EOJ10_素材_トロイメライ/画像/eoj10_02.png"
+- "/Volumes/ESD-02/BGM/5_Echoes of Old Japan/EOJ10_素材_トロイメライ/画像/eoj10_03.png"
+- "/Volumes/ESD-02/BGM/5_Echoes of Old Japan/EOJ10_素材_トロイメライ/画像/eoj10_04.png"
+- "/Volumes/ESD-02/BGM/5_Echoes of Old Japan/EOJ12_素材_アヴェマリア_シューベルト/画像/eoj12_01.png"
+- "/Volumes/ESD-02/BGM/5_Echoes of Old Japan/EOJ12_素材_アヴェマリア_シューベルト/画像/eoj12_02.png"
+- "/Volumes/ESD-02/BGM/5_Echoes of Old Japan/EOJ12_素材_アヴェマリア_シューベルト/画像/eoj12_03.png"
+- "/Volumes/ESD-02/BGM/5_Echoes of Old Japan/EOJ12_素材_アヴェマリア_シューベルト/画像/eoj12_04.png"
+
+video:
+  segmented: true
