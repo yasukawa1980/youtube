@@ -1,5 +1,6 @@
 """EP006 full-stream verification; frame selection never uses seeking."""
 import json,re,subprocess,math
+import numpy as np
 from pathlib import Path
 from PIL import Image,ImageDraw,ImageFont
 from wom06_produce import ROOT,REPO,read,save,sha,probe
@@ -24,12 +25,25 @@ def main():
   profiles=set(re.findall(r'profile_idc\s+[01]+\s+=\s+(\d+)',tr.stderr));assert profiles=={'100'},profiles
   records=[]
   for i,s in enumerate(shots):
+   header_checks=[]
+   if s['segment_id']!='BRAND':
+    expected=Image.open(ROOT/s['file']).convert('RGB').resize((1280,720),Image.Resampling.LANCZOS)
+    ref=np.asarray(expected)[:68].astype(np.int16)
+    for j in range(3):
+     actual=np.asarray(Image.open(ims[i*3+j]).convert('RGB'))[:68].astype(np.int16)
+     error=float(np.abs(actual-ref).mean())
+     a=actual.max(axis=2)>100;b=ref.max(axis=2)>100
+     overlap=float(np.logical_and(a,b).sum()/np.logical_or(a,b).sum())
+     # Caption glyphs must match; RGB MAE is retained separately because RGB
+     # artwork and the final tagged YUV video have different color conversion.
+     assert overlap>=.90,(lang,s['key'],'source header glyph mismatch',overlap)
+     header_checks.append({'rgb_mean_absolute_error':error,'glyph_intersection_over_union':overlap})
    trip=Image.new('RGB',(1280,280),'#0c1820');d=ImageDraw.Draw(trip)
    for j,label in enumerate(['FIRST','MIDDLE','LAST']):
     im=Image.open(ims[i*3+j]);trip.paste(im.resize((426,240)),(j*426,0));d.text((j*426+8,244),f'{label}  frame {triples[i][j]}',font=font,fill='#f4efdf')
    dst=ROOT/f'review/continuous_{lang}_shot_{i+1:02d}.jpg';trip.save(dst,quality=88,optimize=True)
    center=ROOT/f'review/center_{lang}_{i+1:02d}.jpg';Image.open(ims[i*3+1]).save(center,quality=89,optimize=True)
-   records.append({'key':s['key'],'frames':triples[i],'triptych':str(dst.relative_to(ROOT)),'center':str(center.relative_to(ROOT)),'source':s.get('source'),'label':s.get('label')})
+   records.append({'key':s['key'],'frames':triples[i],'triptych':str(dst.relative_to(ROOT)),'center':str(center.relative_to(ROOT)),'source':s.get('source'),'label':s.get('label'),'source_header_checks':header_checks})
   for batch in range(math.ceil(len(shots)/4)):
    sheet=Image.new('RGB',(1280,1240),'#0c1820');d=ImageDraw.Draw(sheet)
    for j,s in enumerate(shots[batch*4:batch*4+4]):

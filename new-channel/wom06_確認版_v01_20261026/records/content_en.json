@@ -1,0 +1,277 @@
+{
+ "episode_id": "EP006",
+ "series": "Quiet Origins",
+ "language": "en",
+ "title": "Egypt's Sphinx Never Asked a Riddle | What the Oldest Sources Say",
+ "subtitle": "How Egypt's royal guardian and the riddling monster of Thebes came to share one name",
+ "script_version": "v02 (2026-10-26, approved)",
+ "opening_after": "P02",
+ "chapters": [
+  {
+   "id": "C01",
+   "title": "The Riddle of Thebes"
+  },
+  {
+   "id": "C02",
+   "title": "A King with a Lion's Body"
+  },
+  {
+   "id": "C03",
+   "title": "A Monster of Thebes"
+  },
+  {
+   "id": "C04",
+   "title": "The Words of the Riddle"
+  },
+  {
+   "id": "C05",
+   "title": "One Name, Two Creatures"
+  }
+ ],
+ "sources": [
+  {
+   "id": "S-S01",
+   "title": "AERA / Mark Lehner, 'Who Built the Sphinx?' (Great Sphinx carved from bedrock, c. 4,500 years ago; link to Khafre)",
+   "kind": "research",
+   "status": "checked by Codex 2026-10-26: attribution to Khafre is an archaeological inference — script says 'many scholars link it'"
+  },
+  {
+   "id": "S-S02",
+   "title": "Met 31.3.166, Sphinx of Hatshepsut (granite, ca. 1473–1458 BCE)",
+   "kind": "museum_record",
+   "status": "checked by Codex 2026-10-26: nemes headcloth and ceremonial false beard"
+  },
+  {
+   "id": "S-S03",
+   "title": "Dream Stela of Thutmose IV: J. H. Breasted, Ancient Records of Egypt, vol. II (1906), §815, pp. 323–324; Lehner, Archaeology of an Image, ch. 3.4",
+   "kind": "primary_text",
+   "status": "checked by Codex 2026-10-26 (book image): rested in the shadow of the great god; 'will give to thee my kingdom'; 'the sand of this desert ... has reached me'. Told as the stela's story"
+  },
+  {
+   "id": "S-S04",
+   "title": "Hesiod, Theogony c. 326, tr. H. G. Evelyn-White (1914; 1920 reprint), p. 103",
+   "kind": "primary_text",
+   "status": "checked by Codex 2026-10-26 (book image): 'the deadly Sphinx which destroyed the Cadmeans'; no riddle in this passage; parents not named in script"
+  },
+  {
+   "id": "S-S05",
+   "title": "Met 11.185d,x, marble capital and finial in the form of a sphinx (Attic, ca. 530 BCE)",
+   "kind": "museum_record",
+   "status": "checked by Codex 2026-10-26"
+  },
+  {
+   "id": "S-S06",
+   "title": "Etymology of 'sphinx' (e.g. M. Jagiełło 2018, Classica Cracoviensia 21)",
+   "kind": "research",
+   "status": "no consensus — script says uncertain"
+  },
+  {
+   "id": "S-S07",
+   "title": "Sophocles, Oedipus the King, tr. R. C. Jebb (1904), p. 4 (ll. 35–37 'the hard songstress'), p. 7 (l. 130 'The riddling Sphinx')",
+   "kind": "primary_text",
+   "status": "checked by Codex 2026-10-26 (book image): riddle text not given in the play; date of first performance uncertain — '400s BC'"
+  },
+  {
+   "id": "S-S08",
+   "title": "Athenaeus, Deipnosophists 10.456b (tr. Gulick); [Apollodorus], Library 3.5.8 (tr. Frazer, 1921)",
+   "kind": "primary_text",
+   "status": "checked by Codex 2026-10-26 (web transcriptions): one voice; four-, two-, three-footed (Athenaeus orders 2-4-3); no morning/noon/evening; Frazer: threw herself from the citadel. Not claimed as oldest"
+  },
+  {
+   "id": "S-S09",
+   "title": "Herodotus, Histories 2.175 (tr. Macaulay, 1890)",
+   "kind": "primary_text",
+   "status": "checked by Codex 2026-10-26: Amasis dedicated 'man-headed sphinxes very large' at Sais; not about Giza"
+  },
+  {
+   "id": "S-S10",
+   "title": "F. L. Norden, plates XLV–XLVII (1780 London edition, Wellcome Library; plate XLV signed 1737); French expedition 1798–1801",
+   "kind": "primary_image",
+   "status": "checked by Codex 2026-10-26: plate XLVII shows the face without the nose. Cause not stated"
+  }
+ ],
+ "segments": [
+  {
+   "id": "P01",
+   "chapter": "C01",
+   "sources": [],
+   "classification": "editorial_question",
+   "visuals": [
+    "met_255101",
+    "met_286141"
+   ],
+   "text": "A lion's body. A woman's face. Wings folded on her back. She watches over the city of Thebes, and asks its people a riddle. Those who cannot answer, she destroys. This is the Sphinx of Greek legend. Yet the most famous sphinx in the world, the great one in Egypt, never asked anyone a riddle. It is not even a woman."
+  },
+  {
+   "id": "P02",
+   "chapter": "C01",
+   "sources": [],
+   "classification": "editorial_question",
+   "visuals": [
+    "D_pair(met_544186,met_256761)"
+   ],
+   "text": "In this episode, we look at two very different sphinxes, the guardian of Egypt and the riddler of Greece, and at how one name came to cover them both."
+  },
+  {
+   "id": "P03",
+   "chapter": "C02",
+   "sources": [
+    "S-S01"
+   ],
+   "classification": "source_based",
+   "visuals": [
+    "museo_Inv02_008",
+    "museo_Album1_004"
+   ],
+   "text": "The Great Sphinx of Giza was carved from the living rock of the desert, about four and a half thousand years ago. Many scholars link it to King Khafre, whose pyramid rises behind it. Its face wears the royal headcloth of a pharaoh. Its body is a lion at rest."
+  },
+  {
+   "id": "P04",
+   "chapter": "C02",
+   "sources": [
+    "S-S02"
+   ],
+   "classification": "source_based",
+   "visuals": [
+    "V01",
+    "met_544442"
+   ],
+   "text": "In Egypt, the lion stood for power, and the sphinx joined that power to the face of the king. Sphinxes lined the roads to temples and kept watch over sacred places. Most of them show a king. Hatshepsut, a woman who ruled as pharaoh, appears here as a sphinx too, with the royal headcloth and the ceremonial beard of a king."
+  },
+  {
+   "id": "P05",
+   "chapter": "C02",
+   "sources": [
+    "S-S03"
+   ],
+   "classification": "source_based",
+   "visuals": [
+    "museo_Inv01_011"
+   ],
+   "text": "We do not know what the builders of Giza called their sphinx. More than a thousand years later, Egyptians worshipped it as a god, Horemakhet, \"Horus in the Horizon.\" Between its paws stands a stone set up by King Thutmose the Fourth. It tells how, as a young prince, he rested in the shadow of the great god. In a dream, the god promised him the kingdom, and said that the sand of the desert had reached him."
+  },
+  {
+   "id": "P06",
+   "chapter": "C02",
+   "sources": [
+    "S-S02",
+    "S-S03"
+   ],
+   "classification": "summary",
+   "visuals": [
+    "met_544823",
+    "met_565105"
+   ],
+   "text": "In these Egyptian statues and stones, there is no riddle. The sphinx here does not test travelers. It guards kings and gods."
+  },
+  {
+   "id": "P07",
+   "chapter": "C03",
+   "sources": [
+    "S-S04"
+   ],
+   "classification": "source_based",
+   "visuals": [
+    "V02",
+    "hesiod_159"
+   ],
+   "text": "In Greece, the sphinx was something else. The poet Hesiod, writing around 700 BC, lists her among a family of monsters, and calls her the destroyer of the people of Thebes. In this passage, he says nothing about a riddle."
+  },
+  {
+   "id": "P08",
+   "chapter": "C03",
+   "sources": [
+    "S-S05"
+   ],
+   "classification": "source_based",
+   "visuals": [
+    "met_248501"
+   ],
+   "text": "Greek artists usually gave the sphinx a woman's head, a lion's body, and the wings of a bird. Often they set her on top of a grave marker, watching over the dead. This sphinx once crowned a grave in Attica, around 530 BC."
+  },
+  {
+   "id": "P09",
+   "chapter": "C03",
+   "sources": [
+    "S-S06"
+   ],
+   "classification": "interpretation",
+   "visuals": [
+    "met_329999",
+    "met_247343"
+   ],
+   "text": "Where the name came from is uncertain. Some link it to a Greek word meaning \"to squeeze\" or \"to bind.\" Others have looked for an Egyptian origin. No one knows for sure."
+  },
+  {
+   "id": "P10",
+   "chapter": "C04",
+   "sources": [
+    "S-S07"
+   ],
+   "classification": "source_based",
+   "visuals": [
+    "jebb1904_15",
+    "met_437153"
+   ],
+   "text": "The riddle belongs to the stories of Thebes, told on the stage in Athens in the 400s BC. In Sophocles' play Oedipus the King, the people remember \"the riddling Sphinx,\" and Oedipus is the stranger who freed the city from her. Painters have returned to this meeting ever since."
+  },
+  {
+   "id": "P11",
+   "chapter": "C04",
+   "sources": [
+    "S-S07",
+    "S-S08"
+   ],
+   "classification": "source_based",
+   "visuals": [
+    "D_riddle"
+   ],
+   "text": "But the play never gives the words of the riddle. We find them in later writers, such as Athenaeus, and a handbook of myths called the Library. They ask: what has one voice, and becomes four-footed, two-footed, and three-footed? The answer is a human being. A baby crawls, an adult walks, and the old lean on a staff. In these texts, there is no morning, noon, or evening. And when the riddle was solved, the Library says, the Sphinx threw herself down."
+  },
+  {
+   "id": "P12",
+   "chapter": "C05",
+   "sources": [
+    "S-S09"
+   ],
+   "classification": "source_based",
+   "visuals": [
+    "met_261777"
+   ],
+   "text": "So how did one name come to mean both? We do not know every step. But the Greek name stayed. When the historian Herodotus, in the 400s BC, described the great statues a king set up at a temple in Sais, in Egypt, he called them androsphinxes, sphinxes with the heads of men. And we still call the guardian of Giza by the name of a Greek monster."
+  },
+  {
+   "id": "P13",
+   "chapter": "C05",
+   "sources": [
+    "S-S10"
+   ],
+   "classification": "source_based",
+   "visuals": [
+    "norden_109"
+   ],
+   "text": "Its face carries another story. It is often said that Napoleon's soldiers shot off its nose. Yet drawings by the Danish traveler Frederic Norden, who visited in the 1730s, already show the face without its nose. They were printed long before Napoleon came to Egypt in 1798."
+  },
+  {
+   "id": "P14",
+   "chapter": "C05",
+   "sources": [],
+   "classification": "summary",
+   "visuals": [
+    "museo_Inv02_007",
+    "V03"
+   ],
+   "text": "So, did the Sphinx ask riddles? The Greek one did, in the stories of Thebes. The Egyptian one, far older, was a king in the shape of a lion, keeping watch at the edge of the desert. Two creatures, one name. Every story has an origin. Sometimes, two stories share the same name."
+  },
+  {
+   "id": "P15",
+   "chapter": "C05",
+   "sources": [],
+   "classification": "credits",
+   "visuals": [
+    "credits"
+   ],
+   "text": "This video is based on historical texts and public museum collections. The narration uses synthetic speech, and some images are AI-generated reconstructions. Sources and terms of use are listed in the description. If you enjoyed this story, please like the video and subscribe for more quiet origins. Thank you for watching."
+  }
+ ]
+}

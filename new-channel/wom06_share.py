@@ -7,10 +7,13 @@ def api(args,data=None):
  p=subprocess.run(['gh','api',*args],input=json.dumps(data) if data is not None else None,capture_output=True,text=True,check=True)
  return json.loads(p.stdout)
 def share():
- for name in ['qc_v01','continuous_qc','motion_v01','visual_review','subtitle_layout_validation','final_checks','wav_sample_validation','container_precision']:
+ for name in ['qc_v01','continuous_qc','motion_v01','final_video_motion','visual_review','subtitle_layout_validation','final_checks','wav_sample_validation','container_precision']:
   assert read(ROOT/f'records/{name}.json')['passed'],name
  qc=read(ROOT/'records/qc_v01.json');visual=read(ROOT/'records/visual_review.json')
  for f in qc['files']:assert sha(ROOT/'deliverables'/f['name'])==f['sha256']
+ for f in read(ROOT/'records/wav_sample_validation.json')['files']:assert sha(ROOT/'deliverables'/f['file'])==f['sha256']
+ for c in read(ROOT/'records/continuous_qc.json')['checks']:
+  assert c['video_sha256']==sha(ROOT/f'deliverables/EP006_Sphinx_{c["language"]}_v01_1080p30.mp4')
  assert visual['video_sha256']==sha(ROOT/'deliverables/EP006_Sphinx_en_v01_1080p30.mp4')
  assert visual['render_shots_sha256']==sha(ROOT/'records/render_shots.json')
  assert visual['visual_manifest_sha256']==sha(ROOT/'records/visual_manifest.json')

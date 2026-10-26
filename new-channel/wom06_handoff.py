@@ -19,14 +19,18 @@ def report():
  for p in (ROOT/'records').glob('*.json'):
   if p.name!='still_render_progress.json':shutil.copy2(p,GUIDE/'records'/p.name)
  for p in (ROOT/'deliverables').iterdir():
-  if p.suffix in ['.md','.srt','.txt','.csv','.html']:shutil.copy2(p,GUIDE/p.name)
+  if p.suffix in ['.md','.srt','.txt','.csv','.html']:
+   shutil.copy2(p,GUIDE/p.name)
+   # Keep previously shared paths current without moving or removing them.
+   if (GUIDE/'deliverables').exists():shutil.copy2(p,GUIDE/'deliverables'/p.name)
  for p in (ROOT/'review').glob('*.jpg'):
-  if p.name.startswith(('continuous_','center_','kling_')):
+  if p.name.startswith(('continuous_','center_','kling_','subtitles_')):
    assert max(Image.open(p).size)<=1280 and p.stat().st_size<1000000
    shutil.copy2(p,GUIDE/'frames'/p.name)
  shutil.copy2(ROOT/'records/visual_manifest.json',REPO/'new-channel/research/wom06_画面構成_v01_20261026.json')
  moreau=next(i+1 for i,s in enumerate(read(ROOT/'records/render_shots.json')) if s['key']=='met_437153')
  ratio=max(s['measurement']['p95_over_median'] for s in motion['shots']);total=sum(a['bytes'] for a in shared['assets'])
+ final_motion=read(ROOT/'records/final_video_motion.json');final_ratio=max(c['ratio'] for c in final_motion['checks'] if c['motion_ratio_applicable'])
  rows='\n'.join(f"| {f['name']} | {f['loudness']['input_i']} | {f['loudness']['input_tp']} |" for f in qc['files'])
  text=f'''# EP006 スフィンクス — 英日確認版 v01（2026-10-26）
 
@@ -46,7 +50,8 @@ def report():
 - 通常版の英日それぞれ全10,955フレームを先頭から連続デコード。警告・エラー0、全フレーム1920×1080/yuv420p、全SPSのprofile_idc=100（High）。
 - 各ショットの先頭・中央・末尾、計75枚×2言語をシークなしの連続デコードから抽出。[英語一覧1](wom06_確認版_v01_20261026/frames/continuous_en_sheet_01.jpg)／[日本語一覧1](wom06_確認版_v01_20261026/frames/continuous_ja_sheet_01.jpg)。各7枚の一覧と25枚の中央画像を保存。
 - 字幕入り確認版も含む4本で連続デコード、30fpsの全PTS、尺・フレーム数を検査。通常版の英日映像ストリームは同一。字幕入り版の音声も対応する通常版と同一。
-- 動き23ショットの全隣接フレームを測定。p95÷中央値の最大 **{ratio:.4f} ≤ 2.5**。ROIと全測定値は [motion_v01.json](wom06_確認版_v01_20261026/records/motion_v01.json)、一覧はCSV。共通ブランド動画は動き評価の対象外。
+- 個別ショット中間映像23本の全隣接フレームを測定。p95÷中央値の最大 **{ratio:.4f} ≤ 2.5**（完全静止は0/0を1と記録）。ROIと全測定値は [motion_v01.json](wom06_確認版_v01_20261026/records/motion_v01.json)、一覧はCSV。
+- 最終MP4も先頭から全フレームを測定し、動く20ショットの最大は **{final_ratio:.4f} ≤ 2.5**。静止3画面は元の全フレーム差が厳密に0であることを確認。最終圧縮で生じる差の比率は未定義または89となるため、動きの指標としては適用外とし、生の測定値を [final_video_motion.json](wom06_確認版_v01_20261026/records/final_video_motion.json) に変更せず記録。共通ブランド動画は動き評価の対象外。
 - SRT英84件・日89件、本文は改行等のレイアウト空白を除き承認済み台本と一致。最短英1.489333秒／日1.4秒、最長行英42字／日22字、2行以内。
 - 全字幕を14・26の両サイズで描画して重なりを検査。画面文字の最下端y=655、字幕の最上端は拡大時も英855／日851。
 - OPはP02後の40.300〜44.300秒。エンドカードは355.166667〜365.166667秒、最後のちょうど10秒。共通素材の原本SHAは変更なし。
@@ -63,6 +68,8 @@ def report():
 
 モローは原画像の正規化 **[.12,.10,.95,.355]** を先に切り出し、背景ぼかしを含む全構成をその画像だけから作成。動きの終点もその外には出ません。[本編の中央フレーム](wom06_確認版_v01_20261026/frames/center_en_{moreau:02d}.jpg)／[先頭・中央・末尾](wom06_確認版_v01_20261026/frames/continuous_en_shot_{moreau:02d}.jpg)。これは構成案ではなく完成MP4の連続デコードから取った画像です。
 
+指定の範囲では、男性側の胸の一部が画面下端に残ります。女性側の胸と下部の犠牲者は映していません。露出の許容については本人の確認待ちです。
+
 図解は指定どおり比較図となぞなぞの3つの線画。朝・昼・晩の記号は使っていません。資料の拡大範囲はvisual_manifestに記録。ヘシオドス・Jebbの引用行は枠・下線なし。
 
 ## Kling
@@ -71,6 +78,7 @@ def report():
 
 - V01：初回の手前の像の顔の細部とCG調が強かったため、遠景の絵画調へ修正したv02を採用。特定の王の肖像は指定せず、人物は描いていません。像の一般的な顔形は見えます。
 - V02：初回は影が空を通ったため不採用。v02は岩の表面に落ちる翼の影だけに修正。
+- V02元動画の24fpsには不均一な動きがあり、8fpsで動きを取り直して光学フローで30fpsへ補間。使用部分のp95÷中央値は5.0966→1.8834。中央の約2.9秒を使用しています。V01・V03は全尺をゆっくり伸ばして使用。処理内容・使用元フレーム区間はrender_shotsに記録。
 - V03：初回を採用。遠景のスフィンクスとピラミッド、夕暮れの横移動。
 - 採用3本の全尺に分散したフレームを確認し、読める文字・観光客・現代建物・人物の顔がないことを確認。これは人による通し視聴済みという意味ではありません。
 - 原本5本を保全し、Draft ReleaseのEP006_Kling_originals.zipへ収録。プロンプト・生成日・設定・費用・SHAは [生成記録](wom06_確認版_v01_20261026/records/kling_generation.json)。

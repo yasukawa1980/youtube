@@ -129,18 +129,22 @@ def verify():
  for l in ['en','ja']:
   for review in [False,True]:
    out=ROOT/f'deliverables/EP006_Sphinx_{l}_v01{"_subtitled_review" if review else ""}_1080p30.mp4'
-   ff(['-i',out,'-f','null','-']);p=probe(out);v=next(s for s in p['streams'] if s['codec_type']=='video')
+   decoded=subprocess.run(['ffmpeg','-nostdin','-v','warning','-i',str(out),'-f','null','-'],capture_output=True,text=True,check=True)
+   assert not decoded.stderr.strip(),decoded.stderr
+   p=probe(out);v=next(s for s in p['streams'] if s['codec_type']=='video')
+   assert (v['profile'],v['pix_fmt'])==('High','yuv420p')
    assert [v['width'],v['height']]==[1920,1080] and v['avg_frame_rate']=='30/1' and int(v['nb_frames'])==frames
    pts=sorted(map(int,subprocess.check_output(['ffprobe','-v','error','-select_streams','v:0','-show_entries','packet=pts','-of','csv=p=0',str(out)],text=True).splitlines()))
    assert v['time_base']=='1/15360' and pts==list(range(0,frames*512,512))
    assert int(v['duration_ts'])==frames*512
    av=next(s for s in p['streams'] if s['codec_type']=='audio');assert av['time_base']=='1/48000' and int(av['duration_ts'])==round(master['duration_seconds']*48000)
    assert abs(float(p['format']['duration'])-master['duration_seconds'])<1/30
-   levels=measure(out);assert abs(float(levels['input_i'])+16)<.3 and float(levels['input_tp'])<=-1
-   silence=subprocess.run(['ffmpeg','-hide_banner','-i',str(out),'-af','silencedetect=noise=-60dB:d=1','-f','null','-'],capture_output=True,text=True,check=True).stderr
+   measured=subprocess.run(['ffmpeg','-nostdin','-hide_banner','-i',str(out),'-vn','-af','loudnorm=I=-16:TP=-3:LRA=7:print_format=json','-f','null','-'],capture_output=True,text=True,check=True)
+   levels=json.loads(re.findall(r'\{\s*"input_i".*?\}',measured.stderr,re.S)[-1]);assert abs(float(levels['input_i'])+16)<.3 and float(levels['input_tp'])<=-1
+   silence=subprocess.run(['ffmpeg','-hide_banner','-i',str(out),'-vn','-af','silencedetect=noise=-60dB:d=1','-f','null','-'],capture_output=True,text=True,check=True).stderr
    silent=[float(x) for x in re.findall(r'silence_duration: ([\d.]+)',silence)]
    assert not silent,('Unintended full-mix silence',l,silent)
-   files.append({'name':out.name,'bytes':out.stat().st_size,'sha256':sha(out),'video_stream_sha256':stream_hash(out,'v'),'audio_stream_sha256':stream_hash(out,'a'),'full_decode':True,'exact_30fps_pts':True,'frames':frames,'duration':float(p['format']['duration']),'loudness':levels,'silence_over_1s_at_minus60dB':silent})
+   files.append({'name':out.name,'bytes':out.stat().st_size,'sha256':sha(out),'video_stream_sha256':stream_hash(out,'v'),'audio_stream_sha256':stream_hash(out,'a'),'full_decode':True,'decode_warnings':0,'profile':v['profile'],'pix_fmt':v['pix_fmt'],'exact_30fps_pts':True,'frames':frames,'duration':float(p['format']['duration']),'loudness':levels,'silence_over_1s_at_minus60dB':silent})
    print('VERIFIED',out.name,levels['input_i'],flush=True)
  assert files[0]['video_stream_sha256']==files[2]['video_stream_sha256']
  assert files[0]['audio_stream_sha256']==files[1]['audio_stream_sha256'] and files[2]['audio_stream_sha256']==files[3]['audio_stream_sha256']

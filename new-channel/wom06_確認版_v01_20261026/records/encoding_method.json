@@ -1,0 +1,185 @@
+{
+  "method": "Independent shot decoders feeding one raw-video encoder",
+  "shots": [
+    {
+      "key": "met_255101",
+      "frames": 556,
+      "input_profile": "High"
+    },
+    {
+      "key": "met_286141",
+      "frames": 282,
+      "input_profile": "High"
+    },
+    {
+      "key": "D_pair(met_544186,met_256761)",
+      "frames": 371,
+      "input_profile": "High 4:4:4 Predictive"
+    },
+    {
+      "key": "opening",
+      "frames": 120,
+      "input_profile": "High"
+    },
+    {
+      "key": "museo_Inv02_008",
+      "frames": 397,
+      "input_profile": "High"
+    },
+    {
+      "key": "museo_Album1_004",
+      "frames": 210,
+      "input_profile": "High"
+    },
+    {
+      "key": "V01",
+      "frames": 439,
+      "input_profile": "High"
+    },
+    {
+      "key": "met_544442",
+      "frames": 314,
+      "input_profile": "High"
+    },
+    {
+      "key": "museo_Inv01_011",
+      "frames": 973,
+      "input_profile": "High"
+    },
+    {
+      "key": "met_544823",
+      "frames": 222,
+      "input_profile": "High"
+    },
+    {
+      "key": "met_565105",
+      "frames": 136,
+      "input_profile": "High"
+    },
+    {
+      "key": "V02",
+      "frames": 87,
+      "input_profile": "High"
+    },
+    {
+      "key": "hesiod_159",
+      "frames": 456,
+      "input_profile": "High"
+    },
+    {
+      "key": "met_248501",
+      "frames": 603,
+      "input_profile": "High"
+    },
+    {
+      "key": "met_329999",
+      "frames": 324,
+      "input_profile": "High"
+    },
+    {
+      "key": "met_247343",
+      "frames": 126,
+      "input_profile": "High"
+    },
+    {
+      "key": "jebb1904_15",
+      "frames": 528,
+      "input_profile": "High"
+    },
+    {
+      "key": "met_437153",
+      "frames": 206,
+      "input_profile": "High"
+    },
+    {
+      "key": "D_riddle",
+      "frames": 1156,
+      "input_profile": "High 4:4:4 Predictive"
+    },
+    {
+      "key": "met_261777",
+      "frames": 859,
+      "input_profile": "High"
+    },
+    {
+      "key": "norden_109",
+      "frames": 719,
+      "input_profile": "High"
+    },
+    {
+      "key": "museo_Inv02_007",
+      "frames": 404,
+      "input_profile": "High"
+    },
+    {
+      "key": "V03",
+      "frames": 377,
+      "input_profile": "High"
+    },
+    {
+      "key": "credits",
+      "frames": 790,
+      "input_profile": "High 4:4:4 Predictive"
+    },
+    {
+      "key": "endcard",
+      "frames": 300,
+      "input_profile": "High"
+    }
+  ],
+  "command": [
+    "ffmpeg",
+    "-nostdin",
+    "-y",
+    "-v",
+    "warning",
+    "-f",
+    "rawvideo",
+    "-pixel_format",
+    "yuv420p",
+    "-video_size",
+    "1920x1080",
+    "-framerate",
+    "30",
+    "-i",
+    "pipe:0",
+    "-an",
+    "-c:v",
+    "libx264",
+    "-threads",
+    "3",
+    "-preset",
+    "medium",
+    "-crf",
+    "16",
+    "-profile:v",
+    "high",
+    "-level:v",
+    "4.1",
+    "-pix_fmt",
+    "yuv420p",
+    "-g",
+    "60",
+    "-bf",
+    "2",
+    "-maxrate",
+    "20M",
+    "-bufsize",
+    "30M",
+    "-fps_mode",
+    "passthrough",
+    "-video_track_timescale",
+    "15360",
+    "-movie_timescale",
+    "48000",
+    "-color_primaries",
+    "bt709",
+    "-color_trc",
+    "bt709",
+    "-colorspace",
+    "bt709",
+    "-movflags",
+    "+faststart",
+    "/Users/ryo/Desktop/新チャンネル/EP006_Sphinx/確認版_v01_20261026/_work/picture_master.mp4"
+  ]
+}

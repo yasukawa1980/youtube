@@ -1,0 +1,78 @@
+{
+  "passed": true,
+  "movie_timescale": 48000,
+  "video_frames": 10955,
+  "audio_samples": 17528000,
+  "files": [
+    {
+      "name": "EP006_audio_en.m4a",
+      "before_sha256": "24d03a0e045e956e6ca0ae1dbdd327f57465075d442b4e28247f8b9a8f75be81",
+      "after_sha256": "24d03a0e045e956e6ca0ae1dbdd327f57465075d442b4e28247f8b9a8f75be81",
+      "already_sample_exact": true,
+      "encoded_streams_identical": true,
+      "stream_hashes": {
+        "audio": "SHA256=df412f32685d9e60dba4e6c3af074d1b6cca21928f0142c142c264583b913fb1"
+      },
+      "duration_seconds": "365.166667"
+    },
+    {
+      "name": "EP006_audio_ja.m4a",
+      "before_sha256": "c3555cd123c19c7d8250767e33e7732dfc141df3dfd4ad7987719ca94fbaad3c",
+      "after_sha256": "c3555cd123c19c7d8250767e33e7732dfc141df3dfd4ad7987719ca94fbaad3c",
+      "already_sample_exact": true,
+      "encoded_streams_identical": true,
+      "stream_hashes": {
+        "audio": "SHA256=5841da9eaedefb25a5d416600f2512350fed248b47653f404a8faff9f4d11077"
+      },
+      "duration_seconds": "365.166667"
+    },
+    {
+      "name": "EP006_Sphinx_en_v01_1080p30.mp4",
+      "before_sha256": "c3c3d911a7a286094838910aa039522c3c680affa3a82101d9f178685e7fd893",
+      "after_sha256": "c3c3d911a7a286094838910aa039522c3c680affa3a82101d9f178685e7fd893",
+      "already_sample_exact": true,
+      "encoded_streams_identical": true,
+      "stream_hashes": {
+        "video": "SHA256=4052efa7415265431a2eef895151c0a053f4a2c4349c2811dde7b38af50999fe",
+        "audio": "SHA256=df412f32685d9e60dba4e6c3af074d1b6cca21928f0142c142c264583b913fb1"
+      },
+      "duration_seconds": "365.166667"
+    },
+    {
+      "name": "EP006_Sphinx_en_v01_subtitled_review_1080p30.mp4",
+      "before_sha256": "54e9f88405507dc14904711db822d5afcd7343a5dca6feb55793da1415cb3802",
+      "after_sha256": "54e9f88405507dc14904711db822d5afcd7343a5dca6feb55793da1415cb3802",
+      "already_sample_exact": true,
+      "encoded_streams_identical": true,
+      "stream_hashes": {
+        "video": "SHA256=f29a331f1b552659842703a019003e2aac191ad3547c79f47d344c76a90ae1b1",
+        "audio": "SHA256=df412f32685d9e60dba4e6c3af074d1b6cca21928f0142c142c264583b913fb1"
+      },
+      "duration_seconds": "365.166667"
+    },
+    {
+      "name": "EP006_Sphinx_ja_v01_1080p30.mp4",
+      "before_sha256": "37433ee4f4b815d4f6a4c08a90d6ee1e50243581710332ab9086d6c0012d0929",
+      "after_sha256": "37433ee4f4b815d4f6a4c08a90d6ee1e50243581710332ab9086d6c0012d0929",
+      "already_sample_exact": true,
+      "encoded_streams_identical": true,
+      "stream_hashes": {
+        "video": "SHA256=4052efa7415265431a2eef895151c0a053f4a2c4349c2811dde7b38af50999fe",
+        "audio": "SHA256=5841da9eaedefb25a5d416600f2512350fed248b47653f404a8faff9f4d11077"
+      },
+      "duration_seconds": "365.166667"
+    },
+    {
+      "name": "EP006_Sphinx_ja_v01_subtitled_review_1080p30.mp4",
+      "before_sha256": "0047ebf53fb683575cd2806cc9f4e349b2334b9b27f5da8d538bb46cf872714f",
+      "after_sha256": "0047ebf53fb683575cd2806cc9f4e349b2334b9b27f5da8d538bb46cf872714f",
+      "already_sample_exact": true,
+      "encoded_streams_identical": true,
+      "stream_hashes": {
+        "video": "SHA256=dbbbd0983c9c5e98560cda4cbd8801f0e537052a128685577665d1406b5e9fed",
+        "audio": "SHA256=5841da9eaedefb25a5d416600f2512350fed248b47653f404a8faff9f4d11077"
+      },
+      "duration_seconds": "365.166667"
+    }
+  ]
+}

@@ -1,0 +1,1321 @@
+{
+  "passed": true,
+  "checks": [
+    {
+      "language": "en",
+      "video_sha256": "c3c3d911a7a286094838910aa039522c3c680affa3a82101d9f178685e7fd893",
+      "decoded_frames": 10955,
+      "decoded_pixel_formats": [
+        [
+          1920,
+          1080,
+          "yuv420p"
+        ]
+      ],
+      "sps_profile_idc": [
+        "100"
+      ],
+      "decode_warnings": 0,
+      "no_seeking": true,
+      "records": [
+        {
+          "key": "met_255101",
+          "frames": [
+            0,
+            277,
+            555
+          ],
+          "triptych": "review/continuous_en_shot_01.jpg",
+          "center": "review/center_en_01.jpg",
+          "source": "Terracotta relief of a sphinx • 1st half of 5th c. BCE • The Met, 61.11.8",
+          "label": "MUSEUM OBJECT｜博物館資料",
+          "source_header_checks": [
+            {
+              "rgb_mean_absolute_error": 4.132015931372549,
+              "glyph_intersection_over_union": 0.9693823216187434
+            },
+            {
+              "rgb_mean_absolute_error": 4.106368719362745,
+              "glyph_intersection_over_union": 0.9677677144379329
+            },
+            {
+              "rgb_mean_absolute_error": 4.101945465686274,
+              "glyph_intersection_over_union": 0.9680340969632392
+            }
+          ]
+        },
+        {
+          "key": "met_286141",
+          "frames": [
+            556,
+            696,
+            837
+          ],
+          "triptych": "review/continuous_en_shot_02.jpg",
+          "center": "review/center_en_02.jpg",
+          "source": "Francis Frith • The Great Pyramid and The Great Sphinx • 1858 • The Met, 2005.100.555",
+          "label": "HISTORIC PHOTOGRAPH｜古写真",
+          "source_header_checks": [
+            {
+              "rgb_mean_absolute_error": 4.125490196078432,
+              "glyph_intersection_over_union": 0.966722528130237
+            },
+            {
+              "rgb_mean_absolute_error": 4.120749080882353,
+              "glyph_intersection_over_union": 0.9676569238140872
+            },
+            {
+              "rgb_mean_absolute_error": 4.09620481004902,
+              "glyph_intersection_over_union": 0.963184317475496
+            }
+          ]
+        },
+        {
+          "key": "D_pair(met_544186,met_256761)",
+          "frames": [
+            838,
+            1023,
+            1208
+          ],
+          "triptych": "review/continuous_en_shot_03.jpg",
+          "center": "review/center_en_03.jpg",
+          "source": "",
+          "label": "SCHEMATIC｜模式図",
+          "source_header_checks": [
+            {
+              "rgb_mean_absolute_error": 3.9744140625,
+              "glyph_intersection_over_union": 0.9633689068358812
+            },
+            {
+              "rgb_mean_absolute_error": 3.9744140625,
+              "glyph_intersection_over_union": 0.9633689068358812
+            },
+            {
+              "rgb_mean_absolute_error": 3.9791934742647057,
+              "glyph_intersection_over_union": 0.9659156556903524
+            }
+          ]
+        },
+        {
+          "key": "opening",
+          "frames": [
+            1209,
+            1268,
+            1328
+          ],
+          "triptych": "review/continuous_en_shot_04.jpg",
+          "center": "review/center_en_04.jpg",
+          "source": null,
+          "label": null,
+          "source_header_checks": []
+        },
+        {
+          "key": "museo_Inv02_008",
+          "frames": [
+            1329,
+            1527,
+            1725
+          ],
+          "triptych": "review/continuous_en_shot_05.jpg",
+          "center": "review/center_en_05.jpg",
+          "source": "Attributed to V. R. Lanzone • 1865–70 • Archivio Museo Egizio, Inv02_008",
+          "label": "HISTORIC PHOTOGRAPH｜古写真",
+          "source_header_checks": [
+            {
+              "rgb_mean_absolute_error": 4.116547947303921,
+              "glyph_intersection_over_union": 0.9642116182572614
+            },
+            {
+              "rgb_mean_absolute_error": 4.112335324754902,
+              "glyph_intersection_over_union": 0.9659916926272066
+            },
+            {
+              "rgb_mean_absolute_error": 4.088242953431372,
+              "glyph_intersection_over_union": 0.9659651857625358
+            }
+          ]
+        },
+        {
+          "key": "museo_Album1_004",
+          "frames": [
+            1726,
+            1830,
+            1935
+          ],
+          "triptych": "review/continuous_en_shot_06.jpg",
+          "center": "review/center_en_06.jpg",
+          "source": "V. R. Lanzone • 1865–70 • Archivio Museo Egizio, Album1_004",
+          "label": "HISTORIC PHOTOGRAPH｜古写真",
+          "source_header_checks": [
+            {
+              "rgb_mean_absolute_error": 4.108030790441177,
+              "glyph_intersection_over_union": 0.9640247329960652
+            },
+            {
+              "rgb_mean_absolute_error": 4.100666360294118,
+              "glyph_intersection_over_union": 0.9656724817107485
+            },
+            {
+              "rgb_mean_absolute_error": 4.095860140931372,
+              "glyph_intersection_over_union": 0.9653716216216216
+            }
+          ]
+        },
+        {
+          "key": "V01",
+          "frames": [
+            1936,
+            2155,
+            2374
+          ],
+          "triptych": "review/continuous_en_shot_07.jpg",
+          "center": "review/center_en_07.jpg",
+          "source": "Kling AI • painterly illustration",
+          "label": "AI RECONSTRUCTION｜AIによる再現",
+          "source_header_checks": [
+            {
+              "rgb_mean_absolute_error": 4.10789675245098,
+              "glyph_intersection_over_union": 0.9552845528455285
+            },
+            {
+              "rgb_mean_absolute_error": 4.102033547794117,
+              "glyph_intersection_over_union": 0.9566395663956639
+            },
+            {
+              "rgb_mean_absolute_error": 4.083559283088236,
+              "glyph_intersection_over_union": 0.9593633592956315
+            }
+          ]
+        },
+        {
+          "key": "met_544442",
+          "frames": [
+            2375,
+            2531,
+            2688
+          ],
+          "triptych": "review/continuous_en_shot_08.jpg",
+          "center": "review/center_en_08.jpg",
+          "source": "Sphinx of Hatshepsut • ca. 1473–1458 BCE • The Met, 31.3.166",
+          "label": "MUSEUM OBJECT｜博物館資料",
+          "source_header_checks": [
+            {
+              "rgb_mean_absolute_error": 4.118658088235295,
+              "glyph_intersection_over_union": 0.9649603065973172
+            },
+            {
+              "rgb_mean_absolute_error": 4.115104166666667,
+              "glyph_intersection_over_union": 0.9665936473165389
+            },
+            {
+              "rgb_mean_absolute_error": 4.095021446078431,
+              "glyph_intersection_over_union": 0.9692982456140351
+            }
+          ]
+        },
+        {
+          "key": "museo_Inv01_011",
+          "frames": [
+            2689,
+            3175,
+            3661
+          ],
+          "triptych": "review/continuous_en_shot_09.jpg",
+          "center": "review/center_en_09.jpg",
+          "source": "F. Bonfils • 1875–77 • Archivio Museo Egizio, Inv01_011",
+          "label": "HISTORIC PHOTOGRAPH｜古写真",
+          "source_header_checks": [
+            {
+              "rgb_mean_absolute_error": 4.1051202512254905,
+              "glyph_intersection_over_union": 0.9643916913946587
+            },
+            {
+              "rgb_mean_absolute_error": 4.076654411764705,
+              "glyph_intersection_over_union": 0.9661419661419661
+            },
+            {
+              "rgb_mean_absolute_error": 4.077443321078431,
+              "glyph_intersection_over_union": 0.9664389664389664
+            }
+          ]
+        },
+        {
+          "key": "met_544823",
+          "frames": [
+            3662,
+            3772,
+            3883
+          ],
+          "triptych": "review/continuous_en_shot_10.jpg",
+          "center": "review/center_en_10.jpg",
+          "source": "Sphinx of Amenhotep II • ca. 1427–1396 BCE • The Met, 30.8.72",
+          "label": "MUSEUM OBJECT｜博物館資料",
+          "source_header_checks": [
+            {
+              "rgb_mean_absolute_error": 4.121955422794118,
+              "glyph_intersection_over_union": 0.9705240174672489
+            },
+            {
+              "rgb_mean_absolute_error": 4.117486213235294,
+              "glyph_intersection_over_union": 0.9713349713349714
+            },
+            {
+              "rgb_mean_absolute_error": 4.117118566176471,
+              "glyph_intersection_over_union": 0.9713349713349714
+            }
+          ]
+        },
+        {
+          "key": "met_565105",
+          "frames": [
+            3884,
+            3951,
+            4019
+          ],
+          "triptych": "review/continuous_en_shot_11.jpg",
+          "center": "review/center_en_11.jpg",
+          "source": "Scarab with the Representation of a Sphinx • ca. 1200–945 BCE • The Met, 09.180.998",
+          "label": "MUSEUM OBJECT｜博物館資料",
+          "source_header_checks": [
+            {
+              "rgb_mean_absolute_error": 4.141961550245098,
+              "glyph_intersection_over_union": 0.9664196387216304
+            },
+            {
+              "rgb_mean_absolute_error": 4.1385454963235295,
+              "glyph_intersection_over_union": 0.9666435024322446
+            },
+            {
+              "rgb_mean_absolute_error": 4.138610600490196,
+              "glyph_intersection_over_union": 0.9673384294649062
+            }
+          ]
+        },
+        {
+          "key": "V02",
+          "frames": [
+            4020,
+            4063,
+            4106
+          ],
+          "triptych": "review/continuous_en_shot_12.jpg",
+          "center": "review/center_en_12.jpg",
+          "source": "Kling AI • painterly illustration",
+          "label": "AI RECONSTRUCTION｜AIによる再現",
+          "source_header_checks": [
+            {
+              "rgb_mean_absolute_error": 4.101888020833333,
+              "glyph_intersection_over_union": 0.9552845528455285
+            },
+            {
+              "rgb_mean_absolute_error": 4.096147365196078,
+              "glyph_intersection_over_union": 0.9566395663956639
+            },
+            {
+              "rgb_mean_absolute_error": 4.098839613970588,
+              "glyph_intersection_over_union": 0.9566101694915254
+            }
+          ]
+        },
+        {
+          "key": "hesiod_159",
+          "frames": [
+            4107,
+            4334,
+            4562
+          ],
+          "triptych": "review/continuous_en_shot_13.jpg",
+          "center": "review/center_en_13.jpg",
+          "source": "Hesiod, Theogony • Evelyn-White tr., 1920 printing • p. 103 • University of California Libraries / IA",
+          "label": "PRINTED BOOK｜刊本",
+          "source_header_checks": [
+            {
+              "rgb_mean_absolute_error": 4.053396905637255,
+              "glyph_intersection_over_union": 0.9658012980529206
+            },
+            {
+              "rgb_mean_absolute_error": 4.049996170343137,
+              "glyph_intersection_over_union": 0.9658098327926129
+            },
+            {
+              "rgb_mean_absolute_error": 4.019986979166666,
+              "glyph_intersection_over_union": 0.9645796956847094
+            }
+          ]
+        },
+        {
+          "key": "met_248501",
+          "frames": [
+            4563,
+            4864,
+            5165
+          ],
+          "triptych": "review/continuous_en_shot_14.jpg",
+          "center": "review/center_en_14.jpg",
+          "source": "Marble capital and sphinx finial • Attic, ca. 530 BCE • The Met, 11.185d, x",
+          "label": "MUSEUM OBJECT｜博物館資料",
+          "source_header_checks": [
+            {
+              "rgb_mean_absolute_error": 4.126551011029412,
+              "glyph_intersection_over_union": 0.961459403905447
+            },
+            {
+              "rgb_mean_absolute_error": 4.094638480392157,
+              "glyph_intersection_over_union": 0.9643040575243965
+            },
+            {
+              "rgb_mean_absolute_error": 4.096262254901961,
+              "glyph_intersection_over_union": 0.9660493827160493
+            }
+          ]
+        },
+        {
+          "key": "met_329999",
+          "frames": [
+            5166,
+            5327,
+            5489
+          ],
+          "triptych": "review/continuous_en_shot_15.jpg",
+          "center": "review/center_en_15.jpg",
+          "source": "Bronze sphinx • late 6th–early 5th c. BCE • The Met, 2021.40.14",
+          "label": "MUSEUM OBJECT｜博物館資料",
+          "source_header_checks": [
+            {
+              "rgb_mean_absolute_error": 4.115467984068627,
+              "glyph_intersection_over_union": 0.9684009806592209
+            },
+            {
+              "rgb_mean_absolute_error": 4.121740962009804,
+              "glyph_intersection_over_union": 0.9678561699809316
+            },
+            {
+              "rgb_mean_absolute_error": 4.091088388480392,
+              "glyph_intersection_over_union": 0.9697712418300654
+            }
+          ]
+        },
+        {
+          "key": "met_247343",
+          "frames": [
+            5490,
+            5552,
+            5615
+          ],
+          "triptych": "review/continuous_en_shot_16.jpg",
+          "center": "review/center_en_16.jpg",
+          "source": "Terracotta sphinx lekythos • ca. 380–360 BCE • The Met, 06.1021.180",
+          "label": "MUSEUM OBJECT｜博物館資料",
+          "source_header_checks": [
+            {
+              "rgb_mean_absolute_error": 4.1244753370098035,
+              "glyph_intersection_over_union": 0.9674986999479979
+            },
+            {
+              "rgb_mean_absolute_error": 4.130989583333333,
+              "glyph_intersection_over_union": 0.9646661470511821
+            },
+            {
+              "rgb_mean_absolute_error": 4.126731004901961,
+              "glyph_intersection_over_union": 0.965463515969878
+            }
+          ]
+        },
+        {
+          "key": "jebb1904_15",
+          "frames": [
+            5616,
+            5879,
+            6143
+          ],
+          "triptych": "review/continuous_en_shot_17.jpg",
+          "center": "review/center_en_17.jpg",
+          "source": "Sophocles, Oedipus the King • Jebb tr., 1904 • p. 7, line 130 • Online Library of Liberty",
+          "label": "PRINTED BOOK｜刊本",
+          "source_header_checks": [
+            {
+              "rgb_mean_absolute_error": 4.045791207107843,
+              "glyph_intersection_over_union": 0.9687413554633472
+            },
+            {
+              "rgb_mean_absolute_error": 4.014920343137255,
+              "glyph_intersection_over_union": 0.9666206896551724
+            },
+            {
+              "rgb_mean_absolute_error": 4.004423253676471,
+              "glyph_intersection_over_union": 0.9717842323651452
+            }
+          ]
+        },
+        {
+          "key": "met_437153",
+          "frames": [
+            6144,
+            6246,
+            6349
+          ],
+          "triptych": "review/continuous_en_shot_18.jpg",
+          "center": "review/center_en_18.jpg",
+          "source": "Gustave Moreau • Oedipus and the Sphinx (upper detail) • 1864 • The Met, 21.134.1",
+          "label": "PAINTING｜絵画",
+          "source_header_checks": [
+            {
+              "rgb_mean_absolute_error": 4.027255667892157,
+              "glyph_intersection_over_union": 0.9560044272274488
+            },
+            {
+              "rgb_mean_absolute_error": 4.022261795343137,
+              "glyph_intersection_over_union": 0.9582064766122336
+            },
+            {
+              "rgb_mean_absolute_error": 4.019221047794118,
+              "glyph_intersection_over_union": 0.9584717607973422
+            }
+          ]
+        },
+        {
+          "key": "D_riddle",
+          "frames": [
+            6350,
+            6927,
+            7505
+          ],
+          "triptych": "review/continuous_en_shot_19.jpg",
+          "center": "review/center_en_19.jpg",
+          "source": "",
+          "label": "SCHEMATIC｜模式図",
+          "source_header_checks": [
+            {
+              "rgb_mean_absolute_error": 3.940184589460784,
+              "glyph_intersection_over_union": 0.9528076463560334
+            },
+            {
+              "rgb_mean_absolute_error": 3.940184589460784,
+              "glyph_intersection_over_union": 0.9528076463560334
+            },
+            {
+              "rgb_mean_absolute_error": 3.93984375,
+              "glyph_intersection_over_union": 0.9551703526598924
+            }
+          ]
+        },
+        {
+          "key": "met_261777",
+          "frames": [
+            7506,
+            7935,
+            8364
+          ],
+          "triptych": "review/continuous_en_shot_20.jpg",
+          "center": "review/center_en_20.jpg",
+          "source": "Félix Bonfils • Pyramides et le Sphinx • 1860s–70s, printed ca. 1870 • The Met, 1976.561.2",
+          "label": "HISTORIC PHOTOGRAPH｜古写真",
+          "source_header_checks": [
+            {
+              "rgb_mean_absolute_error": 4.131632965686275,
+              "glyph_intersection_over_union": 0.9650366170564612
+            },
+            {
+              "rgb_mean_absolute_error": 4.099486825980392,
+              "glyph_intersection_over_union": 0.9629279811097993
+            },
+            {
+              "rgb_mean_absolute_error": 4.096112898284313,
+              "glyph_intersection_over_union": 0.9636621047663992
+            }
+          ]
+        },
+        {
+          "key": "norden_109",
+          "frames": [
+            8365,
+            8724,
+            9083
+          ],
+          "triptych": "review/continuous_en_shot_21.jpg",
+          "center": "review/center_en_21.jpg",
+          "source": "Norden, plate XLVII, London 1780 • Wellcome Collection / Internet Archive",
+          "label": "ENGRAVING｜銅版画",
+          "source_header_checks": [
+            {
+              "rgb_mean_absolute_error": 4.065847120098039,
+              "glyph_intersection_over_union": 0.9645967968530486
+            },
+            {
+              "rgb_mean_absolute_error": 4.033229932598039,
+              "glyph_intersection_over_union": 0.9657303370786516
+            },
+            {
+              "rgb_mean_absolute_error": 4.036151960784314,
+              "glyph_intersection_over_union": 0.9657303370786516
+            }
+          ]
+        },
+        {
+          "key": "museo_Inv02_007",
+          "frames": [
+            9084,
+            9285,
+            9487
+          ],
+          "triptych": "review/continuous_en_shot_22.jpg",
+          "center": "review/center_en_22.jpg",
+          "source": "Anonymous (possibly V. R. Lanzone) • 1875 • Archivio Museo Egizio, Inv02_007",
+          "label": "HISTORIC PHOTOGRAPH｜古写真",
+          "source_header_checks": [
+            {
+              "rgb_mean_absolute_error": 4.119814644607843,
+              "glyph_intersection_over_union": 0.9655172413793104
+            },
+            {
+              "rgb_mean_absolute_error": 4.114587162990196,
+              "glyph_intersection_over_union": 0.9690020161290323
+            },
+            {
+              "rgb_mean_absolute_error": 4.093056832107843,
+              "glyph_intersection_over_union": 0.9668008048289738
+            }
+          ]
+        },
+        {
+          "key": "V03",
+          "frames": [
+            9488,
+            9676,
+            9864
+          ],
+          "triptych": "review/continuous_en_shot_23.jpg",
+          "center": "review/center_en_23.jpg",
+          "source": "Kling AI • painterly illustration",
+          "label": "AI RECONSTRUCTION｜AIによる再現",
+          "source_header_checks": [
+            {
+              "rgb_mean_absolute_error": 4.10796568627451,
+              "glyph_intersection_over_union": 0.9552845528455285
+            },
+            {
+              "rgb_mean_absolute_error": 4.103098192401961,
+              "glyph_intersection_over_union": 0.9566395663956639
+            },
+            {
+              "rgb_mean_absolute_error": 4.08463924632353,
+              "glyph_intersection_over_union": 0.9583615436696006
+            }
+          ]
+        },
+        {
+          "key": "credits",
+          "frames": [
+            9865,
+            10259,
+            10654
+          ],
+          "triptych": "review/continuous_en_shot_24.jpg",
+          "center": "review/center_en_24.jpg",
+          "source": "",
+          "label": "",
+          "source_header_checks": [
+            {
+              "rgb_mean_absolute_error": 3.803695618872549,
+              "glyph_intersection_over_union": 0.9640449438202248
+            },
+            {
+              "rgb_mean_absolute_error": 3.803695618872549,
+              "glyph_intersection_over_union": 0.9640449438202248
+            },
+            {
+              "rgb_mean_absolute_error": 3.806246170343137,
+              "glyph_intersection_over_union": 0.9673790776152981
+            }
+          ]
+        },
+        {
+          "key": "endcard",
+          "frames": [
+            10655,
+            10804,
+            10954
+          ],
+          "triptych": "review/continuous_en_shot_25.jpg",
+          "center": "review/center_en_25.jpg",
+          "source": null,
+          "label": null,
+          "source_header_checks": []
+        }
+      ]
+    },
+    {
+      "language": "ja",
+      "video_sha256": "37433ee4f4b815d4f6a4c08a90d6ee1e50243581710332ab9086d6c0012d0929",
+      "decoded_frames": 10955,
+      "decoded_pixel_formats": [
+        [
+          1920,
+          1080,
+          "yuv420p"
+        ]
+      ],
+      "sps_profile_idc": [
+        "100"
+      ],
+      "decode_warnings": 0,
+      "no_seeking": true,
+      "records": [
+        {
+          "key": "met_255101",
+          "frames": [
+            0,
+            277,
+            555
+          ],
+          "triptych": "review/continuous_ja_shot_01.jpg",
+          "center": "review/center_ja_01.jpg",
+          "source": "Terracotta relief of a sphinx • 1st half of 5th c. BCE • The Met, 61.11.8",
+          "label": "MUSEUM OBJECT｜博物館資料",
+          "source_header_checks": [
+            {
+              "rgb_mean_absolute_error": 4.132015931372549,
+              "glyph_intersection_over_union": 0.9693823216187434
+            },
+            {
+              "rgb_mean_absolute_error": 4.106368719362745,
+              "glyph_intersection_over_union": 0.9677677144379329
+            },
+            {
+              "rgb_mean_absolute_error": 4.101945465686274,
+              "glyph_intersection_over_union": 0.9680340969632392
+            }
+          ]
+        },
+        {
+          "key": "met_286141",
+          "frames": [
+            556,
+            696,
+            837
+          ],
+          "triptych": "review/continuous_ja_shot_02.jpg",
+          "center": "review/center_ja_02.jpg",
+          "source": "Francis Frith • The Great Pyramid and The Great Sphinx • 1858 • The Met, 2005.100.555",
+          "label": "HISTORIC PHOTOGRAPH｜古写真",
+          "source_header_checks": [
+            {
+              "rgb_mean_absolute_error": 4.125490196078432,
+              "glyph_intersection_over_union": 0.966722528130237
+            },
+            {
+              "rgb_mean_absolute_error": 4.120749080882353,
+              "glyph_intersection_over_union": 0.9676569238140872
+            },
+            {
+              "rgb_mean_absolute_error": 4.09620481004902,
+              "glyph_intersection_over_union": 0.963184317475496
+            }
+          ]
+        },
+        {
+          "key": "D_pair(met_544186,met_256761)",
+          "frames": [
+            838,
+            1023,
+            1208
+          ],
+          "triptych": "review/continuous_ja_shot_03.jpg",
+          "center": "review/center_ja_03.jpg",
+          "source": "",
+          "label": "SCHEMATIC｜模式図",
+          "source_header_checks": [
+            {
+              "rgb_mean_absolute_error": 3.9744140625,
+              "glyph_intersection_over_union": 0.9633689068358812
+            },
+            {
+              "rgb_mean_absolute_error": 3.9744140625,
+              "glyph_intersection_over_union": 0.9633689068358812
+            },
+            {
+              "rgb_mean_absolute_error": 3.9791934742647057,
+              "glyph_intersection_over_union": 0.9659156556903524
+            }
+          ]
+        },
+        {
+          "key": "opening",
+          "frames": [
+            1209,
+            1268,
+            1328
+          ],
+          "triptych": "review/continuous_ja_shot_04.jpg",
+          "center": "review/center_ja_04.jpg",
+          "source": null,
+          "label": null,
+          "source_header_checks": []
+        },
+        {
+          "key": "museo_Inv02_008",
+          "frames": [
+            1329,
+            1527,
+            1725
+          ],
+          "triptych": "review/continuous_ja_shot_05.jpg",
+          "center": "review/center_ja_05.jpg",
+          "source": "Attributed to V. R. Lanzone • 1865–70 • Archivio Museo Egizio, Inv02_008",
+          "label": "HISTORIC PHOTOGRAPH｜古写真",
+          "source_header_checks": [
+            {
+              "rgb_mean_absolute_error": 4.116547947303921,
+              "glyph_intersection_over_union": 0.9642116182572614
+            },
+            {
+              "rgb_mean_absolute_error": 4.112335324754902,
+              "glyph_intersection_over_union": 0.9659916926272066
+            },
+            {
+              "rgb_mean_absolute_error": 4.088242953431372,
+              "glyph_intersection_over_union": 0.9659651857625358
+            }
+          ]
+        },
+        {
+          "key": "museo_Album1_004",
+          "frames": [
+            1726,
+            1830,
+            1935
+          ],
+          "triptych": "review/continuous_ja_shot_06.jpg",
+          "center": "review/center_ja_06.jpg",
+          "source": "V. R. Lanzone • 1865–70 • Archivio Museo Egizio, Album1_004",
+          "label": "HISTORIC PHOTOGRAPH｜古写真",
+          "source_header_checks": [
+            {
+              "rgb_mean_absolute_error": 4.108030790441177,
+              "glyph_intersection_over_union": 0.9640247329960652
+            },
+            {
+              "rgb_mean_absolute_error": 4.100666360294118,
+              "glyph_intersection_over_union": 0.9656724817107485
+            },
+            {
+              "rgb_mean_absolute_error": 4.095860140931372,
+              "glyph_intersection_over_union": 0.9653716216216216
+            }
+          ]
+        },
+        {
+          "key": "V01",
+          "frames": [
+            1936,
+            2155,
+            2374
+          ],
+          "triptych": "review/continuous_ja_shot_07.jpg",
+          "center": "review/center_ja_07.jpg",
+          "source": "Kling AI • painterly illustration",
+          "label": "AI RECONSTRUCTION｜AIによる再現",
+          "source_header_checks": [
+            {
+              "rgb_mean_absolute_error": 4.10789675245098,
+              "glyph_intersection_over_union": 0.9552845528455285
+            },
+            {
+              "rgb_mean_absolute_error": 4.102033547794117,
+              "glyph_intersection_over_union": 0.9566395663956639
+            },
+            {
+              "rgb_mean_absolute_error": 4.083559283088236,
+              "glyph_intersection_over_union": 0.9593633592956315
+            }
+          ]
+        },
+        {
+          "key": "met_544442",
+          "frames": [
+            2375,
+            2531,
+            2688
+          ],
+          "triptych": "review/continuous_ja_shot_08.jpg",
+          "center": "review/center_ja_08.jpg",
+          "source": "Sphinx of Hatshepsut • ca. 1473–1458 BCE • The Met, 31.3.166",
+          "label": "MUSEUM OBJECT｜博物館資料",
+          "source_header_checks": [
+            {
+              "rgb_mean_absolute_error": 4.118658088235295,
+              "glyph_intersection_over_union": 0.9649603065973172
+            },
+            {
+              "rgb_mean_absolute_error": 4.115104166666667,
+              "glyph_intersection_over_union": 0.9665936473165389
+            },
+            {
+              "rgb_mean_absolute_error": 4.095021446078431,
+              "glyph_intersection_over_union": 0.9692982456140351
+            }
+          ]
+        },
+        {
+          "key": "museo_Inv01_011",
+          "frames": [
+            2689,
+            3175,
+            3661
+          ],
+          "triptych": "review/continuous_ja_shot_09.jpg",
+          "center": "review/center_ja_09.jpg",
+          "source": "F. Bonfils • 1875–77 • Archivio Museo Egizio, Inv01_011",
+          "label": "HISTORIC PHOTOGRAPH｜古写真",
+          "source_header_checks": [
+            {
+              "rgb_mean_absolute_error": 4.1051202512254905,
+              "glyph_intersection_over_union": 0.9643916913946587
+            },
+            {
+              "rgb_mean_absolute_error": 4.076654411764705,
+              "glyph_intersection_over_union": 0.9661419661419661
+            },
+            {
+              "rgb_mean_absolute_error": 4.077443321078431,
+              "glyph_intersection_over_union": 0.9664389664389664
+            }
+          ]
+        },
+        {
+          "key": "met_544823",
+          "frames": [
+            3662,
+            3772,
+            3883
+          ],
+          "triptych": "review/continuous_ja_shot_10.jpg",
+          "center": "review/center_ja_10.jpg",
+          "source": "Sphinx of Amenhotep II • ca. 1427–1396 BCE • The Met, 30.8.72",
+          "label": "MUSEUM OBJECT｜博物館資料",
+          "source_header_checks": [
+            {
+              "rgb_mean_absolute_error": 4.121955422794118,
+              "glyph_intersection_over_union": 0.9705240174672489
+            },
+            {
+              "rgb_mean_absolute_error": 4.117486213235294,
+              "glyph_intersection_over_union": 0.9713349713349714
+            },
+            {
+              "rgb_mean_absolute_error": 4.117118566176471,
+              "glyph_intersection_over_union": 0.9713349713349714
+            }
+          ]
+        },
+        {
+          "key": "met_565105",
+          "frames": [
+            3884,
+            3951,
+            4019
+          ],
+          "triptych": "review/continuous_ja_shot_11.jpg",
+          "center": "review/center_ja_11.jpg",
+          "source": "Scarab with the Representation of a Sphinx • ca. 1200–945 BCE • The Met, 09.180.998",
+          "label": "MUSEUM OBJECT｜博物館資料",
+          "source_header_checks": [
+            {
+              "rgb_mean_absolute_error": 4.141961550245098,
+              "glyph_intersection_over_union": 0.9664196387216304
+            },
+            {
+              "rgb_mean_absolute_error": 4.1385454963235295,
+              "glyph_intersection_over_union": 0.9666435024322446
+            },
+            {
+              "rgb_mean_absolute_error": 4.138610600490196,
+              "glyph_intersection_over_union": 0.9673384294649062
+            }
+          ]
+        },
+        {
+          "key": "V02",
+          "frames": [
+            4020,
+            4063,
+            4106
+          ],
+          "triptych": "review/continuous_ja_shot_12.jpg",
+          "center": "review/center_ja_12.jpg",
+          "source": "Kling AI • painterly illustration",
+          "label": "AI RECONSTRUCTION｜AIによる再現",
+          "source_header_checks": [
+            {
+              "rgb_mean_absolute_error": 4.101888020833333,
+              "glyph_intersection_over_union": 0.9552845528455285
+            },
+            {
+              "rgb_mean_absolute_error": 4.096147365196078,
+              "glyph_intersection_over_union": 0.9566395663956639
+            },
+            {
+              "rgb_mean_absolute_error": 4.098839613970588,
+              "glyph_intersection_over_union": 0.9566101694915254
+            }
+          ]
+        },
+        {
+          "key": "hesiod_159",
+          "frames": [
+            4107,
+            4334,
+            4562
+          ],
+          "triptych": "review/continuous_ja_shot_13.jpg",
+          "center": "review/center_ja_13.jpg",
+          "source": "Hesiod, Theogony • Evelyn-White tr., 1920 printing • p. 103 • University of California Libraries / IA",
+          "label": "PRINTED BOOK｜刊本",
+          "source_header_checks": [
+            {
+              "rgb_mean_absolute_error": 4.053396905637255,
+              "glyph_intersection_over_union": 0.9658012980529206
+            },
+            {
+              "rgb_mean_absolute_error": 4.049996170343137,
+              "glyph_intersection_over_union": 0.9658098327926129
+            },
+            {
+              "rgb_mean_absolute_error": 4.019986979166666,
+              "glyph_intersection_over_union": 0.9645796956847094
+            }
+          ]
+        },
+        {
+          "key": "met_248501",
+          "frames": [
+            4563,
+            4864,
+            5165
+          ],
+          "triptych": "review/continuous_ja_shot_14.jpg",
+          "center": "review/center_ja_14.jpg",
+          "source": "Marble capital and sphinx finial • Attic, ca. 530 BCE • The Met, 11.185d, x",
+          "label": "MUSEUM OBJECT｜博物館資料",
+          "source_header_checks": [
+            {
+              "rgb_mean_absolute_error": 4.126551011029412,
+              "glyph_intersection_over_union": 0.961459403905447
+            },
+            {
+              "rgb_mean_absolute_error": 4.094638480392157,
+              "glyph_intersection_over_union": 0.9643040575243965
+            },
+            {
+              "rgb_mean_absolute_error": 4.096262254901961,
+              "glyph_intersection_over_union": 0.9660493827160493
+            }
+          ]
+        },
+        {
+          "key": "met_329999",
+          "frames": [
+            5166,
+            5327,
+            5489
+          ],
+          "triptych": "review/continuous_ja_shot_15.jpg",
+          "center": "review/center_ja_15.jpg",
+          "source": "Bronze sphinx • late 6th–early 5th c. BCE • The Met, 2021.40.14",
+          "label": "MUSEUM OBJECT｜博物館資料",
+          "source_header_checks": [
+            {
+              "rgb_mean_absolute_error": 4.115467984068627,
+              "glyph_intersection_over_union": 0.9684009806592209
+            },
+            {
+              "rgb_mean_absolute_error": 4.121740962009804,
+              "glyph_intersection_over_union": 0.9678561699809316
+            },
+            {
+              "rgb_mean_absolute_error": 4.091088388480392,
+              "glyph_intersection_over_union": 0.9697712418300654
+            }
+          ]
+        },
+        {
+          "key": "met_247343",
+          "frames": [
+            5490,
+            5552,
+            5615
+          ],
+          "triptych": "review/continuous_ja_shot_16.jpg",
+          "center": "review/center_ja_16.jpg",
+          "source": "Terracotta sphinx lekythos • ca. 380–360 BCE • The Met, 06.1021.180",
+          "label": "MUSEUM OBJECT｜博物館資料",
+          "source_header_checks": [
+            {
+              "rgb_mean_absolute_error": 4.1244753370098035,
+              "glyph_intersection_over_union": 0.9674986999479979
+            },
+            {
+              "rgb_mean_absolute_error": 4.130989583333333,
+              "glyph_intersection_over_union": 0.9646661470511821
+            },
+            {
+              "rgb_mean_absolute_error": 4.126731004901961,
+              "glyph_intersection_over_union": 0.965463515969878
+            }
+          ]
+        },
+        {
+          "key": "jebb1904_15",
+          "frames": [
+            5616,
+            5879,
+            6143
+          ],
+          "triptych": "review/continuous_ja_shot_17.jpg",
+          "center": "review/center_ja_17.jpg",
+          "source": "Sophocles, Oedipus the King • Jebb tr., 1904 • p. 7, line 130 • Online Library of Liberty",
+          "label": "PRINTED BOOK｜刊本",
+          "source_header_checks": [
+            {
+              "rgb_mean_absolute_error": 4.045791207107843,
+              "glyph_intersection_over_union": 0.9687413554633472
+            },
+            {
+              "rgb_mean_absolute_error": 4.014920343137255,
+              "glyph_intersection_over_union": 0.9666206896551724
+            },
+            {
+              "rgb_mean_absolute_error": 4.004423253676471,
+              "glyph_intersection_over_union": 0.9717842323651452
+            }
+          ]
+        },
+        {
+          "key": "met_437153",
+          "frames": [
+            6144,
+            6246,
+            6349
+          ],
+          "triptych": "review/continuous_ja_shot_18.jpg",
+          "center": "review/center_ja_18.jpg",
+          "source": "Gustave Moreau • Oedipus and the Sphinx (upper detail) • 1864 • The Met, 21.134.1",
+          "label": "PAINTING｜絵画",
+          "source_header_checks": [
+            {
+              "rgb_mean_absolute_error": 4.027255667892157,
+              "glyph_intersection_over_union": 0.9560044272274488
+            },
+            {
+              "rgb_mean_absolute_error": 4.022261795343137,
+              "glyph_intersection_over_union": 0.9582064766122336
+            },
+            {
+              "rgb_mean_absolute_error": 4.019221047794118,
+              "glyph_intersection_over_union": 0.9584717607973422
+            }
+          ]
+        },
+        {
+          "key": "D_riddle",
+          "frames": [
+            6350,
+            6927,
+            7505
+          ],
+          "triptych": "review/continuous_ja_shot_19.jpg",
+          "center": "review/center_ja_19.jpg",
+          "source": "",
+          "label": "SCHEMATIC｜模式図",
+          "source_header_checks": [
+            {
+              "rgb_mean_absolute_error": 3.940184589460784,
+              "glyph_intersection_over_union": 0.9528076463560334
+            },
+            {
+              "rgb_mean_absolute_error": 3.940184589460784,
+              "glyph_intersection_over_union": 0.9528076463560334
+            },
+            {
+              "rgb_mean_absolute_error": 3.93984375,
+              "glyph_intersection_over_union": 0.9551703526598924
+            }
+          ]
+        },
+        {
+          "key": "met_261777",
+          "frames": [
+            7506,
+            7935,
+            8364
+          ],
+          "triptych": "review/continuous_ja_shot_20.jpg",
+          "center": "review/center_ja_20.jpg",
+          "source": "Félix Bonfils • Pyramides et le Sphinx • 1860s–70s, printed ca. 1870 • The Met, 1976.561.2",
+          "label": "HISTORIC PHOTOGRAPH｜古写真",
+          "source_header_checks": [
+            {
+              "rgb_mean_absolute_error": 4.131632965686275,
+              "glyph_intersection_over_union": 0.9650366170564612
+            },
+            {
+              "rgb_mean_absolute_error": 4.099486825980392,
+              "glyph_intersection_over_union": 0.9629279811097993
+            },
+            {
+              "rgb_mean_absolute_error": 4.096112898284313,
+              "glyph_intersection_over_union": 0.9636621047663992
+            }
+          ]
+        },
+        {
+          "key": "norden_109",
+          "frames": [
+            8365,
+            8724,
+            9083
+          ],
+          "triptych": "review/continuous_ja_shot_21.jpg",
+          "center": "review/center_ja_21.jpg",
+          "source": "Norden, plate XLVII, London 1780 • Wellcome Collection / Internet Archive",
+          "label": "ENGRAVING｜銅版画",
+          "source_header_checks": [
+            {
+              "rgb_mean_absolute_error": 4.065847120098039,
+              "glyph_intersection_over_union": 0.9645967968530486
+            },
+            {
+              "rgb_mean_absolute_error": 4.033229932598039,
+              "glyph_intersection_over_union": 0.9657303370786516
+            },
+            {
+              "rgb_mean_absolute_error": 4.036151960784314,
+              "glyph_intersection_over_union": 0.9657303370786516
+            }
+          ]
+        },
+        {
+          "key": "museo_Inv02_007",
+          "frames": [
+            9084,
+            9285,
+            9487
+          ],
+          "triptych": "review/continuous_ja_shot_22.jpg",
+          "center": "review/center_ja_22.jpg",
+          "source": "Anonymous (possibly V. R. Lanzone) • 1875 • Archivio Museo Egizio, Inv02_007",
+          "label": "HISTORIC PHOTOGRAPH｜古写真",
+          "source_header_checks": [
+            {
+              "rgb_mean_absolute_error": 4.119814644607843,
+              "glyph_intersection_over_union": 0.9655172413793104
+            },
+            {
+              "rgb_mean_absolute_error": 4.114587162990196,
+              "glyph_intersection_over_union": 0.9690020161290323
+            },
+            {
+              "rgb_mean_absolute_error": 4.093056832107843,
+              "glyph_intersection_over_union": 0.9668008048289738
+            }
+          ]
+        },
+        {
+          "key": "V03",
+          "frames": [
+            9488,
+            9676,
+            9864
+          ],
+          "triptych": "review/continuous_ja_shot_23.jpg",
+          "center": "review/center_ja_23.jpg",
+          "source": "Kling AI • painterly illustration",
+          "label": "AI RECONSTRUCTION｜AIによる再現",
+          "source_header_checks": [
+            {
+              "rgb_mean_absolute_error": 4.10796568627451,
+              "glyph_intersection_over_union": 0.9552845528455285
+            },
+            {
+              "rgb_mean_absolute_error": 4.103098192401961,
+              "glyph_intersection_over_union": 0.9566395663956639
+            },
+            {
+              "rgb_mean_absolute_error": 4.08463924632353,
+              "glyph_intersection_over_union": 0.9583615436696006
+            }
+          ]
+        },
+        {
+          "key": "credits",
+          "frames": [
+            9865,
+            10259,
+            10654
+          ],
+          "triptych": "review/continuous_ja_shot_24.jpg",
+          "center": "review/center_ja_24.jpg",
+          "source": "",
+          "label": "",
+          "source_header_checks": [
+            {
+              "rgb_mean_absolute_error": 3.803695618872549,
+              "glyph_intersection_over_union": 0.9640449438202248
+            },
+            {
+              "rgb_mean_absolute_error": 3.803695618872549,
+              "glyph_intersection_over_union": 0.9640449438202248
+            },
+            {
+              "rgb_mean_absolute_error": 3.806246170343137,
+              "glyph_intersection_over_union": 0.9673790776152981
+            }
+          ]
+        },
+        {
+          "key": "endcard",
+          "frames": [
+            10655,
+            10804,
+            10954
+          ],
+          "triptych": "review/continuous_ja_shot_25.jpg",
+          "center": "review/center_ja_25.jpg",
+          "source": null,
+          "label": null,
+          "source_header_checks": []
+        }
+      ]
+    }
+  ],
+  "script_unchanged": true,
+  "unique_originals": [
+    "met_255101",
+    "met_286141",
+    "met_544186",
+    "met_256761",
+    "museo_Inv02_008",
+    "museo_Album1_004",
+    "met_544442",
+    "museo_Inv01_011",
+    "met_544823",
+    "met_565105",
+    "hesiod_159",
+    "met_248501",
+    "met_329999",
+    "met_247343",
+    "jebb1904_15",
+    "met_437153",
+    "met_261777",
+    "norden_109",
+    "museo_Inv02_007"
+  ],
+  "moreau_fixed_crop": [
+    0.12,
+    0.1,
+    0.95,
+    0.355
+  ],
+  "moreau_no_uncropped_source_in_background": true,
+  "endcard_exact_last_10_seconds": true
+}

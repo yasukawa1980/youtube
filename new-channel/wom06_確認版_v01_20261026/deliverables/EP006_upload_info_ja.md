@@ -71,4 +71,4 @@ Diagrams and original synthesized ambient music: Quiet Origins.
 
 ## 制作メモ（概要欄には含めない）
 
-共通尺 365.166667秒。映像未完成・Kling未生成・公開日未定・YouTube投稿未実施。AI生成完了と最終映像の照合後に確定してください。
+共通尺 365.166667秒。英日確認版を作成・技術検査済み。本人の試聴と映像確認待ち。Kling 272クレジット使用。公開日未定・YouTube投稿未実施。

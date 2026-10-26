@@ -1,0 +1,21 @@
+{
+  "passed": true,
+  "video_sha256": "c3c3d911a7a286094838910aa039522c3c680affa3a82101d9f178685e7fd893",
+  "visual_manifest_sha256": "96efa4c76a3f658727133d0303cfd2ac42b5ddceca6427966e37b536c064ee76",
+  "render_shots_sha256": "2f78aef6e1cf44968ba49c15cb6cd5de2d77a49c387c428b5e9e8635e3644c0f",
+  "reviewer": "Codex image-based visual inspection; not human playback or listening",
+  "observations": [
+    "Inspected all seven English continuous first/middle/last sheets, covering all 25 shots.",
+    "All 75 corresponding English/Japanese extracted frames are pixel identical.",
+    "Inspected full 1280px Moreau midpoint, riddle diagram and credits.",
+    "Inspected English/Japanese burned subtitle sample sheets at P02, P10, P11, P15; no text overlap.",
+    "Inspected selected Kling clips via full-duration distributed contact samples; no people, identifiable royal portraits, readable writing or modern buildings observed. Generic statue faces are visible in V01.",
+    "Moreau matches exact requested crop, including blur background; male upper chest remains at lower edge. Female breast and victims excluded.",
+    "Historic source photographs may contain original distant human figures; these are distinct from AI scenes."
+  ],
+  "human_listening_completed": false,
+  "human_full_playback_completed": false,
+  "moreau_user_approval_pending": true,
+  "normal_en_ja_sampled_frame_pixels_identical": 75,
+  "subtitle_review_font_size": 14
+}

@@ -170,4 +170,3 @@ https://archive.org/details/b33543975/page/n109/mode/1up
 
 Rights: Wellcome Library明記 Public Domain Mark 1.0.
 https://archive.org/metadata/b33543975
-
