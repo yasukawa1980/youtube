@@ -1,0 +1,1631 @@
+[
+  {
+    "key": "met_255101",
+    "base_asset": "met_255101",
+    "source": "Terracotta relief of a sphinx • 1st half of 5th c. BCE • The Met, 61.11.8",
+    "label": "MUSEUM OBJECT｜博物館資料",
+    "texts": [
+      {
+        "text": "QUIET ORIGINS  /  EP006",
+        "bbox": [
+          92,
+          24,
+          431,
+          46
+        ]
+      },
+      {
+        "text": "MUSEUM OBJECT｜博物館資料",
+        "bbox": [
+          1411.0,
+          21,
+          1820.0,
+          48
+        ]
+      },
+      {
+        "text": "Terracotta relief of a sphinx • 1st half of 5th c. BCE • The Met, 61.11.8",
+        "bbox": [
+          92,
+          72,
+          799,
+          95
+        ]
+      }
+    ],
+    "art_boxes": [
+      [
+        652,
+        110,
+        1267,
+        930
+      ]
+    ],
+    "camera_band": [
+      110,
+      930
+    ],
+    "segment_id": "P01",
+    "file": "/Users/ryo/Desktop/新チャンネル/EP006_Sphinx/確認版_v01_20261026/assets/P01_01_met_255101.png",
+    "sha256": "53901c82e77830a8f83071ea385cf3a8cef8cb30ff6326da6c2c86817f6e320e",
+    "start": 0.0,
+    "end": 18.533333333333335,
+    "frames": 556,
+    "encoded_file": "/Users/ryo/Desktop/新チャンネル/EP006_Sphinx/確認版_v01_20261026/_work/render/P01_01_met_255101.mp4",
+    "camera_direction": "face_to_wing",
+    "render_config": {
+      "image_sha256": "53901c82e77830a8f83071ea385cf3a8cef8cb30ff6326da6c2c86817f6e320e",
+      "frames": 556,
+      "crf": 18,
+      "filter": "[0:v]split=2[base][art];[art]crop=1920:820:0:110,format=yuv444p,perspective=x0='(W-W/1.08)*(0.72-0.44*on/555)':y0='(H-H/1.08)*0.2':x1='(W-W/1.08)*(0.72-0.44*on/555)+W/1.08':y1='(H-H/1.08)*0.2':x2='(W-W/1.08)*(0.72-0.44*on/555)':y2='(H-H/1.08)*0.2+H/1.08':x3='(W-W/1.08)*(0.72-0.44*on/555)+W/1.08':y3='(H-H/1.08)*0.2+H/1.08':sense=source:eval=frame:interpolation=cubic[moving];[base][moving]overlay=0:110:format=yuv444,format=yuv420p[v]"
+    },
+    "changed_v02": false
+  },
+  {
+    "key": "museo_Inv27_001",
+    "base_asset": "museo_Inv27_001",
+    "source": "C. & G. Zangaki • 1870 • Archivio Museo Egizio, Inv27_001",
+    "label": "HISTORIC PHOTOGRAPH｜古写真",
+    "texts": [
+      {
+        "text": "QUIET ORIGINS  /  EP006",
+        "bbox": [
+          92,
+          24,
+          431,
+          46
+        ]
+      },
+      {
+        "text": "HISTORIC PHOTOGRAPH｜古写真",
+        "bbox": [
+          1373.0,
+          21,
+          1820.0,
+          48
+        ]
+      },
+      {
+        "text": "C. & G. Zangaki • 1870 • Archivio Museo Egizio, Inv27_001",
+        "bbox": [
+          92,
+          73,
+          696,
+          95
+        ]
+      }
+    ],
+    "art_boxes": [
+      [
+        464,
+        110,
+        1456,
+        930
+      ]
+    ],
+    "camera_band": [
+      110,
+      930
+    ],
+    "segment_id": "P01",
+    "file": "/Users/ryo/Desktop/新チャンネル/EP006_Sphinx/確認版_v02_20261027/assets/P01_museo_Inv27_001.png",
+    "sha256": "a2f55d4c59d628ffe5edab9ffdeea6e675a294a7974ee5a11acb930058d7de86",
+    "start": 18.533333333333335,
+    "end": 27.933333333333334,
+    "frames": 282,
+    "encoded_file": "/Users/ryo/Desktop/新チャンネル/EP006_Sphinx/確認版_v02_20261027/_work/render/P01_museo_Inv27_001.mp4",
+    "camera_direction": null,
+    "render_config": {
+      "image_sha256": "a2f55d4c59d628ffe5edab9ffdeea6e675a294a7974ee5a11acb930058d7de86",
+      "frames": 282,
+      "filter": "[0:v]split=2[base][art];[art]crop=1920:820:0:110,format=yuv444p,perspective=x0='(W-W/(1+0.03*on/281))/2':y0='(H-H/(1+0.03*on/281))/2':x1='(W-W/(1+0.03*on/281))/2+W/(1+0.03*on/281)':y1='(H-H/(1+0.03*on/281))/2':x2='(W-W/(1+0.03*on/281))/2':y2='(H-H/(1+0.03*on/281))/2+H/(1+0.03*on/281)':x3='(W-W/(1+0.03*on/281))/2+W/(1+0.03*on/281)':y3='(H-H/(1+0.03*on/281))/2+H/(1+0.03*on/281)':sense=source:eval=frame:interpolation=cubic[moving];[base][moving]overlay=0:110:format=yuv444,format=yuv420p[v]",
+      "quality": "crf18"
+    },
+    "changed_v02": true,
+    "crop_normalized": [
+      0.075,
+      0.004,
+      0.999,
+      0.984
+    ],
+    "background_also_uses_only_crop": true,
+    "old_key": "met_286141"
+  },
+  {
+    "key": "D_pair(met_544186,met_329999)",
+    "base_asset": null,
+    "source": "Senwosret III • The Met, 17.9.2  /  Bronze sphinx • The Met, 2021.40.14",
+    "label": "SCHEMATIC｜模式図",
+    "texts": [
+      {
+        "text": "QUIET ORIGINS  /  EP006",
+        "bbox": [
+          92,
+          24,
+          431,
+          46
+        ]
+      },
+      {
+        "text": "SCHEMATIC｜模式図",
+        "bbox": [
+          1545.0,
+          21,
+          1820.0,
+          48
+        ]
+      },
+      {
+        "text": "Senwosret III • The Met, 17.9.2  /  Bronze sphinx • The Met, 2021.40.14",
+        "bbox": [
+          92,
+          72,
+          816,
+          95
+        ]
+      },
+      {
+        "text": "EGYPT｜エジプト",
+        "bbox": [
+          337.0,
+          616,
+          673.0,
+          655
+        ]
+      },
+      {
+        "text": "GREECE｜ギリシャ",
+        "bbox": [
+          1231.5,
+          616,
+          1598.5,
+          655
+        ]
+      }
+    ],
+    "art_boxes": [
+      [
+        224,
+        140,
+        785,
+        560
+      ],
+      [
+        1279,
+        140,
+        1550,
+        560
+      ]
+    ],
+    "camera_band": [
+      110,
+      700
+    ],
+    "base_assets": [
+      "met_544186",
+      "met_329999"
+    ],
+    "segment_id": "P02",
+    "file": "/Users/ryo/Desktop/新チャンネル/EP006_Sphinx/確認版_v02_20261027/assets/P02_D_pair(met_544186,met_329999).png",
+    "sha256": "a114f8b0743ad2cd37a646ce6a2c7d3dd6a50d12ea79a34c87c301a14fcc5eae",
+    "start": 27.933333333333334,
+    "end": 40.3,
+    "frames": 371,
+    "encoded_file": "/Users/ryo/Desktop/新チャンネル/EP006_Sphinx/確認版_v02_20261027/_work/render/P02_D_pair(met_544186,met_329999).mp4",
+    "camera_direction": null,
+    "render_config": {
+      "image_sha256": "a114f8b0743ad2cd37a646ce6a2c7d3dd6a50d12ea79a34c87c301a14fcc5eae",
+      "frames": 371,
+      "filter": "[0:v]format=yuv420p[v]",
+      "quality": "lossless"
+    },
+    "changed_v02": true,
+    "old_key": "D_pair(met_544186,met_256761)"
+  },
+  {
+    "key": "opening",
+    "segment_id": "BRAND",
+    "start": 40.3,
+    "end": 44.3,
+    "frames": 120,
+    "encoded_file": "/Users/ryo/Desktop/新チャンネル/ブランド素材/オープニング_エンドカード_動画試作_v02_20261021/deliverables/Quiet_Origins_opening_trial_v02.mp4",
+    "original_source": "/Users/ryo/Desktop/新チャンネル/ブランド素材/オープニング_エンドカード_動画試作_v02_20261021/deliverables/Quiet_Origins_opening_trial_v02.mp4",
+    "original_sha256": "4f8e95fd166e52b6c601c87440006ded2eec298f54c3d6d6a951738b54f721a9",
+    "file": null,
+    "changed_v02": false
+  },
+  {
+    "key": "museo_Inv02_008",
+    "base_asset": "museo_Inv02_008",
+    "source": "Attributed to V. R. Lanzone • 1865–70 • Archivio Museo Egizio, Inv02_008",
+    "label": "HISTORIC PHOTOGRAPH｜古写真",
+    "texts": [
+      {
+        "text": "QUIET ORIGINS  /  EP006",
+        "bbox": [
+          92,
+          24,
+          431,
+          46
+        ]
+      },
+      {
+        "text": "HISTORIC PHOTOGRAPH｜古写真",
+        "bbox": [
+          1373.0,
+          21,
+          1820.0,
+          48
+        ]
+      },
+      {
+        "text": "Attributed to V. R. Lanzone • 1865–70 • Archivio Museo Egizio, Inv02_008",
+        "bbox": [
+          91,
+          72,
+          847,
+          95
+        ]
+      }
+    ],
+    "art_boxes": [
+      [
+        471,
+        110,
+        1449,
+        930
+      ]
+    ],
+    "camera_band": [
+      110,
+      930
+    ],
+    "segment_id": "P03",
+    "file": "/Users/ryo/Desktop/新チャンネル/EP006_Sphinx/確認版_v01_20261026/assets/P03_01_museo_Inv02_008.png",
+    "sha256": "0b388b89b1adcf6e0fdd225ff74f5208e000513908c757f8b754b72ddf6b9fb1",
+    "start": 44.3,
+    "end": 57.53333333333333,
+    "frames": 397,
+    "encoded_file": "/Users/ryo/Desktop/新チャンネル/EP006_Sphinx/確認版_v01_20261026/_work/render/P03_01_museo_Inv02_008.mp4",
+    "camera_direction": null,
+    "render_config": {
+      "image_sha256": "0b388b89b1adcf6e0fdd225ff74f5208e000513908c757f8b754b72ddf6b9fb1",
+      "frames": 397,
+      "crf": 18,
+      "filter": "[0:v]split=2[base][art];[art]crop=1920:820:0:110,format=yuv444p,perspective=x0='(W-W/(1+0.03*on/396))/2':y0='(H-H/(1+0.03*on/396))/2':x1='(W-W/(1+0.03*on/396))/2+W/(1+0.03*on/396)':y1='(H-H/(1+0.03*on/396))/2':x2='(W-W/(1+0.03*on/396))/2':y2='(H-H/(1+0.03*on/396))/2+H/(1+0.03*on/396)':x3='(W-W/(1+0.03*on/396))/2+W/(1+0.03*on/396)':y3='(H-H/(1+0.03*on/396))/2+H/(1+0.03*on/396)':sense=source:eval=frame:interpolation=cubic[moving];[base][moving]overlay=0:110:format=yuv444,format=yuv420p[v]"
+    },
+    "changed_v02": false
+  },
+  {
+    "key": "museo_Album1_004",
+    "base_asset": "museo_Album1_004",
+    "source": "V. R. Lanzone • 1865–70 • Archivio Museo Egizio, Album1_004",
+    "label": "HISTORIC PHOTOGRAPH｜古写真",
+    "texts": [
+      {
+        "text": "QUIET ORIGINS  /  EP006",
+        "bbox": [
+          92,
+          24,
+          431,
+          46
+        ]
+      },
+      {
+        "text": "HISTORIC PHOTOGRAPH｜古写真",
+        "bbox": [
+          1373.0,
+          21,
+          1820.0,
+          48
+        ]
+      },
+      {
+        "text": "V. R. Lanzone • 1865–70 • Archivio Museo Egizio, Album1_004",
+        "bbox": [
+          92,
+          73,
+          739,
+          95
+        ]
+      }
+    ],
+    "art_boxes": [
+      [
+        435,
+        110,
+        1485,
+        930
+      ]
+    ],
+    "camera_band": [
+      110,
+      930
+    ],
+    "segment_id": "P03",
+    "file": "/Users/ryo/Desktop/新チャンネル/EP006_Sphinx/確認版_v01_20261026/assets/P03_02_museo_Album1_004.png",
+    "sha256": "30070c05b8466374556b05dd89e4b4317a524ae9a9752bf9d13492a3e83cf4f4",
+    "start": 57.53333333333333,
+    "end": 64.53333333333333,
+    "frames": 210,
+    "encoded_file": "/Users/ryo/Desktop/新チャンネル/EP006_Sphinx/確認版_v01_20261026/_work/render/P03_02_museo_Album1_004.mp4",
+    "camera_direction": null,
+    "render_config": {
+      "image_sha256": "30070c05b8466374556b05dd89e4b4317a524ae9a9752bf9d13492a3e83cf4f4",
+      "frames": 210,
+      "crf": 18,
+      "filter": "[0:v]split=2[base][art];[art]crop=1920:820:0:110,format=yuv444p,perspective=x0='(W-W/(1+0.03*on/209))/2':y0='(H-H/(1+0.03*on/209))/2':x1='(W-W/(1+0.03*on/209))/2+W/(1+0.03*on/209)':y1='(H-H/(1+0.03*on/209))/2':x2='(W-W/(1+0.03*on/209))/2':y2='(H-H/(1+0.03*on/209))/2+H/(1+0.03*on/209)':x3='(W-W/(1+0.03*on/209))/2+W/(1+0.03*on/209)':y3='(H-H/(1+0.03*on/209))/2+H/(1+0.03*on/209)':sense=source:eval=frame:interpolation=cubic[moving];[base][moving]overlay=0:110:format=yuv444,format=yuv420p[v]"
+    },
+    "changed_v02": false
+  },
+  {
+    "key": "V01",
+    "base_asset": "V01",
+    "source": "Kling AI • painterly illustration",
+    "label": "AI RECONSTRUCTION｜AIによる再現",
+    "texts": [
+      {
+        "text": "QUIET ORIGINS  /  EP006",
+        "bbox": [
+          92,
+          24,
+          431,
+          46
+        ]
+      },
+      {
+        "text": "AI RECONSTRUCTION｜AIによる再現",
+        "bbox": [
+          1332.0,
+          21,
+          1820.0,
+          48
+        ]
+      },
+      {
+        "text": "Kling AI • painterly illustration",
+        "bbox": [
+          92,
+          72,
+          388,
+          95
+        ]
+      }
+    ],
+    "art_boxes": [
+      [
+        231,
+        110,
+        1689,
+        930
+      ]
+    ],
+    "camera_band": [
+      110,
+      930
+    ],
+    "segment_id": "P04",
+    "file": "/Users/ryo/Desktop/新チャンネル/EP006_Sphinx/確認版_v01_20261026/assets/P04_01_V01.png",
+    "sha256": "4f3daffdfa7e792bff51820a3aa74c7b23dffd9b2e82f24d20b08eb71d3f007e",
+    "start": 64.53333333333333,
+    "end": 79.16666666666667,
+    "frames": 439,
+    "encoded_file": "/Users/ryo/Desktop/新チャンネル/EP006_Sphinx/確認版_v01_20261026/_work/render/P04_01_V01.mp4",
+    "camera_direction": null,
+    "render_config": {
+      "image_sha256": "4f3daffdfa7e792bff51820a3aa74c7b23dffd9b2e82f24d20b08eb71d3f007e",
+      "frames": 439,
+      "crf": 18,
+      "video_sha256": "674960b010f525dcbe0253d3b513d9c23e89bc6b61a6549c806afb367c739c12",
+      "source_start_frame": 0,
+      "source_frames_used": 121,
+      "time_scale": 2.902479338842975,
+      "filter": "[1:v]trim=start_frame=0:end_frame=121,setpts=(PTS-STARTPTS)*2.902479338843,scale=1458:820:flags=lanczos,minterpolate=fps=30:mi_mode=mci:mc_mode=aobmc:me_mode=bidir:vsbmc=1,tpad=stop_mode=clone:stop_duration=0.25[art];[0:v][art]overlay=231:110:shortest=1,format=yuv420p[v]"
+    },
+    "changed_v02": false
+  },
+  {
+    "key": "met_544442",
+    "base_asset": "met_544442",
+    "source": "Sphinx of Hatshepsut • ca. 1473–1458 BCE • The Met, 31.3.166",
+    "label": "MUSEUM OBJECT｜博物館資料",
+    "texts": [
+      {
+        "text": "QUIET ORIGINS  /  EP006",
+        "bbox": [
+          92,
+          24,
+          431,
+          46
+        ]
+      },
+      {
+        "text": "MUSEUM OBJECT｜博物館資料",
+        "bbox": [
+          1411.0,
+          21,
+          1820.0,
+          48
+        ]
+      },
+      {
+        "text": "Sphinx of Hatshepsut • ca. 1473–1458 BCE • The Met, 31.3.166",
+        "bbox": [
+          92,
+          72,
+          745,
+          95
+        ]
+      }
+    ],
+    "art_boxes": [
+      [
+        80,
+        197,
+        940,
+        842
+      ],
+      [
+        1012,
+        110,
+        1807,
+        930
+      ]
+    ],
+    "camera_band": [
+      110,
+      930
+    ],
+    "detail_crop_normalized": [
+      0.38,
+      0.19,
+      0.62,
+      0.52
+    ],
+    "segment_id": "P04",
+    "file": "/Users/ryo/Desktop/新チャンネル/EP006_Sphinx/確認版_v01_20261026/assets/P04_02_met_544442.png",
+    "sha256": "b1f6f3db56be7fad40c63e45d89538498295928c7aefcc6013675d87642523a8",
+    "start": 79.16666666666667,
+    "end": 89.63333333333334,
+    "frames": 314,
+    "encoded_file": "/Users/ryo/Desktop/新チャンネル/EP006_Sphinx/確認版_v01_20261026/_work/render/P04_02_met_544442.mp4",
+    "camera_direction": null,
+    "render_config": {
+      "image_sha256": "b1f6f3db56be7fad40c63e45d89538498295928c7aefcc6013675d87642523a8",
+      "frames": 314,
+      "crf": 18,
+      "filter": "[0:v]split=2[base][art];[art]crop=1920:820:0:110,format=yuv444p,perspective=x0='(W-W/(1+0.03*on/313))/2':y0='(H-H/(1+0.03*on/313))/2':x1='(W-W/(1+0.03*on/313))/2+W/(1+0.03*on/313)':y1='(H-H/(1+0.03*on/313))/2':x2='(W-W/(1+0.03*on/313))/2':y2='(H-H/(1+0.03*on/313))/2+H/(1+0.03*on/313)':x3='(W-W/(1+0.03*on/313))/2+W/(1+0.03*on/313)':y3='(H-H/(1+0.03*on/313))/2+H/(1+0.03*on/313)':sense=source:eval=frame:interpolation=cubic[moving];[base][moving]overlay=0:110:format=yuv444,format=yuv420p[v]"
+    },
+    "changed_v02": false
+  },
+  {
+    "key": "museo_Inv01_011",
+    "base_asset": "museo_Inv01_011",
+    "source": "F. Bonfils • 1875–77 • Archivio Museo Egizio, Inv01_011",
+    "label": "HISTORIC PHOTOGRAPH｜古写真",
+    "texts": [
+      {
+        "text": "QUIET ORIGINS  /  EP006",
+        "bbox": [
+          92,
+          24,
+          431,
+          46
+        ]
+      },
+      {
+        "text": "HISTORIC PHOTOGRAPH｜古写真",
+        "bbox": [
+          1373.0,
+          21,
+          1820.0,
+          48
+        ]
+      },
+      {
+        "text": "F. Bonfils • 1875–77 • Archivio Museo Egizio, Inv01_011",
+        "bbox": [
+          92,
+          73,
+          667,
+          95
+        ]
+      }
+    ],
+    "art_boxes": [
+      [
+        80,
+        192,
+        940,
+        847
+      ],
+      [
+        980,
+        116,
+        1840,
+        923
+      ]
+    ],
+    "camera_band": [
+      110,
+      930
+    ],
+    "detail_crop_normalized": [
+      0.31,
+      0.4,
+      0.57,
+      0.72
+    ],
+    "segment_id": "P05",
+    "file": "/Users/ryo/Desktop/新チャンネル/EP006_Sphinx/確認版_v01_20261026/assets/P05_01_museo_Inv01_011.png",
+    "sha256": "86c6076609b4958d19bd8a50ee7bac97e46969a696ed578a1161fbe4f136f7fd",
+    "start": 89.63333333333334,
+    "end": 122.06666666666666,
+    "frames": 973,
+    "encoded_file": "/Users/ryo/Desktop/新チャンネル/EP006_Sphinx/確認版_v01_20261026/_work/render/P05_01_museo_Inv01_011.mp4",
+    "camera_direction": null,
+    "render_config": {
+      "image_sha256": "86c6076609b4958d19bd8a50ee7bac97e46969a696ed578a1161fbe4f136f7fd",
+      "frames": 973,
+      "crf": 18,
+      "filter": "[0:v]split=2[base][art];[art]crop=1920:820:0:110,format=yuv444p,perspective=x0='(W-W/(1+0.03*on/972))/2':y0='(H-H/(1+0.03*on/972))/2':x1='(W-W/(1+0.03*on/972))/2+W/(1+0.03*on/972)':y1='(H-H/(1+0.03*on/972))/2':x2='(W-W/(1+0.03*on/972))/2':y2='(H-H/(1+0.03*on/972))/2+H/(1+0.03*on/972)':x3='(W-W/(1+0.03*on/972))/2+W/(1+0.03*on/972)':y3='(H-H/(1+0.03*on/972))/2+H/(1+0.03*on/972)':sense=source:eval=frame:interpolation=cubic[moving];[base][moving]overlay=0:110:format=yuv444,format=yuv420p[v]"
+    },
+    "changed_v02": false
+  },
+  {
+    "key": "met_544823",
+    "base_asset": "met_544823",
+    "source": "Sphinx of Amenhotep II • ca. 1427–1396 BCE • The Met, 30.8.72",
+    "label": "MUSEUM OBJECT｜博物館資料",
+    "texts": [
+      {
+        "text": "QUIET ORIGINS  /  EP006",
+        "bbox": [
+          92,
+          24,
+          431,
+          46
+        ]
+      },
+      {
+        "text": "MUSEUM OBJECT｜博物館資料",
+        "bbox": [
+          1411.0,
+          21,
+          1820.0,
+          48
+        ]
+      },
+      {
+        "text": "Sphinx of Amenhotep II • ca. 1427–1396 BCE • The Met, 30.8.72",
+        "bbox": [
+          92,
+          72,
+          750,
+          95
+        ]
+      }
+    ],
+    "art_boxes": [
+      [
+        411,
+        110,
+        1508,
+        930
+      ]
+    ],
+    "camera_band": [
+      110,
+      930
+    ],
+    "segment_id": "P06",
+    "file": "/Users/ryo/Desktop/新チャンネル/EP006_Sphinx/確認版_v01_20261026/assets/P06_01_met_544823.png",
+    "sha256": "738ada0aa0482ac9fbccd02a93a1e629888b9a3a2cf674519cc1effd7007a655",
+    "start": 122.06666666666666,
+    "end": 129.46666666666667,
+    "frames": 222,
+    "encoded_file": "/Users/ryo/Desktop/新チャンネル/EP006_Sphinx/確認版_v01_20261026/_work/render/P06_01_met_544823.mp4",
+    "camera_direction": null,
+    "render_config": {
+      "image_sha256": "738ada0aa0482ac9fbccd02a93a1e629888b9a3a2cf674519cc1effd7007a655",
+      "frames": 222,
+      "crf": 18,
+      "filter": "[0:v]split=2[base][art];[art]crop=1920:820:0:110,format=yuv444p,perspective=x0='(W-W/(1+0.03*on/221))/2':y0='(H-H/(1+0.03*on/221))/2':x1='(W-W/(1+0.03*on/221))/2+W/(1+0.03*on/221)':y1='(H-H/(1+0.03*on/221))/2':x2='(W-W/(1+0.03*on/221))/2':y2='(H-H/(1+0.03*on/221))/2+H/(1+0.03*on/221)':x3='(W-W/(1+0.03*on/221))/2+W/(1+0.03*on/221)':y3='(H-H/(1+0.03*on/221))/2+H/(1+0.03*on/221)':sense=source:eval=frame:interpolation=cubic[moving];[base][moving]overlay=0:110:format=yuv444,format=yuv420p[v]"
+    },
+    "changed_v02": false
+  },
+  {
+    "key": "met_565105",
+    "base_asset": "met_565105",
+    "source": "Scarab with the Representation of a Sphinx • ca. 1200–945 BCE • The Met, 09.180.998",
+    "label": "MUSEUM OBJECT｜博物館資料",
+    "texts": [
+      {
+        "text": "QUIET ORIGINS  /  EP006",
+        "bbox": [
+          92,
+          24,
+          431,
+          46
+        ]
+      },
+      {
+        "text": "MUSEUM OBJECT｜博物館資料",
+        "bbox": [
+          1411.0,
+          21,
+          1820.0,
+          48
+        ]
+      },
+      {
+        "text": "Scarab with the Representation of a Sphinx • ca. 1200–945 BCE • The Met, 09.180.998",
+        "bbox": [
+          92,
+          72,
+          982,
+          95
+        ]
+      }
+    ],
+    "art_boxes": [
+      [
+        597,
+        110,
+        1322,
+        930
+      ]
+    ],
+    "camera_band": [
+      110,
+      930
+    ],
+    "segment_id": "P06",
+    "file": "/Users/ryo/Desktop/新チャンネル/EP006_Sphinx/確認版_v01_20261026/assets/P06_02_met_565105.png",
+    "sha256": "1694c1463028cd41e049264e9cdb3622f8f3059bd01c873b4252832c2bcc80ce",
+    "start": 129.46666666666667,
+    "end": 134.0,
+    "frames": 136,
+    "encoded_file": "/Users/ryo/Desktop/新チャンネル/EP006_Sphinx/確認版_v01_20261026/_work/render/P06_02_met_565105.mp4",
+    "camera_direction": null,
+    "render_config": {
+      "image_sha256": "1694c1463028cd41e049264e9cdb3622f8f3059bd01c873b4252832c2bcc80ce",
+      "frames": 136,
+      "crf": 18,
+      "filter": "[0:v]split=2[base][art];[art]crop=1920:820:0:110,format=yuv444p,perspective=x0='(W-W/(1+0.03*on/135))/2':y0='(H-H/(1+0.03*on/135))/2':x1='(W-W/(1+0.03*on/135))/2+W/(1+0.03*on/135)':y1='(H-H/(1+0.03*on/135))/2':x2='(W-W/(1+0.03*on/135))/2':y2='(H-H/(1+0.03*on/135))/2+H/(1+0.03*on/135)':x3='(W-W/(1+0.03*on/135))/2+W/(1+0.03*on/135)':y3='(H-H/(1+0.03*on/135))/2+H/(1+0.03*on/135)':sense=source:eval=frame:interpolation=cubic[moving];[base][moving]overlay=0:110:format=yuv444,format=yuv420p[v]"
+    },
+    "changed_v02": false
+  },
+  {
+    "key": "V02",
+    "base_asset": "V02",
+    "source": "Kling AI • painterly illustration",
+    "label": "AI RECONSTRUCTION｜AIによる再現",
+    "texts": [
+      {
+        "text": "QUIET ORIGINS  /  EP006",
+        "bbox": [
+          92,
+          24,
+          431,
+          46
+        ]
+      },
+      {
+        "text": "AI RECONSTRUCTION｜AIによる再現",
+        "bbox": [
+          1332.0,
+          21,
+          1820.0,
+          48
+        ]
+      },
+      {
+        "text": "Kling AI • painterly illustration",
+        "bbox": [
+          92,
+          72,
+          388,
+          95
+        ]
+      }
+    ],
+    "art_boxes": [
+      [
+        231,
+        110,
+        1689,
+        930
+      ]
+    ],
+    "camera_band": [
+      110,
+      930
+    ],
+    "segment_id": "P07",
+    "file": "/Users/ryo/Desktop/新チャンネル/EP006_Sphinx/確認版_v01_20261026/assets/P07_01_V02.png",
+    "sha256": "25100e2507ee69b95f39a2f84848de078ca398a62d9dc1fd1d7e895b29be9854",
+    "start": 134.0,
+    "end": 136.9,
+    "frames": 87,
+    "encoded_file": "/Users/ryo/Desktop/新チャンネル/EP006_Sphinx/確認版_v01_20261026/_work/render/P07_01_V02.mp4",
+    "camera_direction": null,
+    "render_config": {
+      "image_sha256": "25100e2507ee69b95f39a2f84848de078ca398a62d9dc1fd1d7e895b29be9854",
+      "frames": 87,
+      "crf": 18,
+      "video_sha256": "9359a97c48e971270e907e7a9873d604e2b40e797b1e9887c27f02673e9b5741",
+      "cadence_regularization_fps": 8,
+      "source_start_frame": 25,
+      "source_frames_used": 70,
+      "time_scale": 0.9942857142857143,
+      "filter": "[1:v]trim=start_frame=25:end_frame=95,setpts=(PTS-STARTPTS)*0.994285714286,scale=1458:820:flags=lanczos,fps=8,minterpolate=fps=30:mi_mode=mci:mc_mode=aobmc:me_mode=bidir:vsbmc=1,tpad=stop_mode=clone:stop_duration=0.25[art];[0:v][art]overlay=231:110:shortest=1,format=yuv420p[v]"
+    },
+    "changed_v02": false
+  },
+  {
+    "key": "hesiod_159",
+    "base_asset": "hesiod_159",
+    "source": "Hesiod, Theogony • Evelyn-White tr., 1920 printing • p. 103 • University of California Libraries / IA",
+    "label": "PRINTED BOOK｜刊本",
+    "texts": [
+      {
+        "text": "QUIET ORIGINS  /  EP006",
+        "bbox": [
+          92,
+          24,
+          431,
+          46
+        ]
+      },
+      {
+        "text": "PRINTED BOOK｜刊本",
+        "bbox": [
+          1529.0,
+          21,
+          1820.0,
+          48
+        ]
+      },
+      {
+        "text": "Hesiod, Theogony • Evelyn-White tr., 1920 printing • p. 103 • University of California Libraries / IA",
+        "bbox": [
+          92,
+          72,
+          1082,
+          95
+        ]
+      }
+    ],
+    "art_boxes": [
+      [
+        263,
+        110,
+        757,
+        930
+      ],
+      [
+        980,
+        502,
+        1840,
+        537
+      ]
+    ],
+    "camera_band": [
+      110,
+      930
+    ],
+    "detail_crop_normalized": [
+      0.055,
+      0.475,
+      0.885,
+      0.548
+    ],
+    "segment_id": "P07",
+    "file": "/Users/ryo/Desktop/新チャンネル/EP006_Sphinx/確認版_v02_20261027/assets/P07_hesiod_159.png",
+    "sha256": "120fb19f5d7ca99914247c7ec5403dcecc4e27203e1b373442e4c9daba930879",
+    "start": 136.9,
+    "end": 152.1,
+    "frames": 456,
+    "encoded_file": "/Users/ryo/Desktop/新チャンネル/EP006_Sphinx/確認版_v02_20261027/_work/render/P07_hesiod_159.mp4",
+    "camera_direction": null,
+    "render_config": {
+      "image_sha256": "120fb19f5d7ca99914247c7ec5403dcecc4e27203e1b373442e4c9daba930879",
+      "frames": 456,
+      "filter": "[0:v]split=2[base][art];[art]crop=1920:820:0:110,format=yuv444p,perspective=x0='(W-W/(1+0.03*on/455))/2':y0='(H-H/(1+0.03*on/455))/2':x1='(W-W/(1+0.03*on/455))/2+W/(1+0.03*on/455)':y1='(H-H/(1+0.03*on/455))/2':x2='(W-W/(1+0.03*on/455))/2':y2='(H-H/(1+0.03*on/455))/2+H/(1+0.03*on/455)':x3='(W-W/(1+0.03*on/455))/2+W/(1+0.03*on/455)':y3='(H-H/(1+0.03*on/455))/2+H/(1+0.03*on/455)':sense=source:eval=frame:interpolation=cubic[moving];[base][moving]overlay=0:110:format=yuv444,format=yuv420p[v]",
+      "quality": "crf18"
+    },
+    "changed_v02": true,
+    "detail_crop_quad_pixels": [
+      75,
+      1250,
+      75,
+      1300,
+      1292,
+      1290,
+      1292,
+      1240
+    ],
+    "detail_transform": "Bicubic deskew of the single printed line; no painting or character alteration.",
+    "old_key": "hesiod_159"
+  },
+  {
+    "key": "met_248501",
+    "base_asset": "met_248501",
+    "source": "Marble capital and sphinx finial • Attic, ca. 530 BCE • The Met, 11.185d, x",
+    "label": "MUSEUM OBJECT｜博物館資料",
+    "texts": [
+      {
+        "text": "QUIET ORIGINS  /  EP006",
+        "bbox": [
+          92,
+          24,
+          431,
+          46
+        ]
+      },
+      {
+        "text": "MUSEUM OBJECT｜博物館資料",
+        "bbox": [
+          1411.0,
+          21,
+          1820.0,
+          48
+        ]
+      },
+      {
+        "text": "Marble capital and sphinx finial • Attic, ca. 530 BCE • The Met, 11.185d, x",
+        "bbox": [
+          92,
+          72,
+          837,
+          95
+        ]
+      }
+    ],
+    "art_boxes": [
+      [
+        766,
+        110,
+        1154,
+        930
+      ]
+    ],
+    "camera_band": [
+      110,
+      930
+    ],
+    "segment_id": "P08",
+    "file": "/Users/ryo/Desktop/新チャンネル/EP006_Sphinx/確認版_v01_20261026/assets/P08_01_met_248501.png",
+    "sha256": "9a6e99c8e4ec41ddfe1c4cc997116e0c60de6a13a8a45d9662380fb645bbbdc6",
+    "start": 152.1,
+    "end": 172.2,
+    "frames": 603,
+    "encoded_file": "/Users/ryo/Desktop/新チャンネル/EP006_Sphinx/確認版_v01_20261026/_work/render/P08_01_met_248501.mp4",
+    "camera_direction": "bottom_to_top",
+    "render_config": {
+      "image_sha256": "9a6e99c8e4ec41ddfe1c4cc997116e0c60de6a13a8a45d9662380fb645bbbdc6",
+      "frames": 603,
+      "crf": 18,
+      "filter": "[0:v]split=2[base][art];[art]crop=1920:820:0:110,format=yuv444p,perspective=x0='(W-W/1.08)/2':y0='(H-H/1.08)*(1-on/602)':x1='(W-W/1.08)/2+W/1.08':y1='(H-H/1.08)*(1-on/602)':x2='(W-W/1.08)/2':y2='(H-H/1.08)*(1-on/602)+H/1.08':x3='(W-W/1.08)/2+W/1.08':y3='(H-H/1.08)*(1-on/602)+H/1.08':sense=source:eval=frame:interpolation=cubic[moving];[base][moving]overlay=0:110:format=yuv444,format=yuv420p[v]"
+    },
+    "changed_v02": false
+  },
+  {
+    "key": "met_247343",
+    "base_asset": "met_247343",
+    "source": "Terracotta sphinx lekythos • ca. 380–360 BCE • The Met, 06.1021.180",
+    "label": "MUSEUM OBJECT｜博物館資料",
+    "texts": [
+      {
+        "text": "QUIET ORIGINS  /  EP006",
+        "bbox": [
+          92,
+          24,
+          431,
+          46
+        ]
+      },
+      {
+        "text": "MUSEUM OBJECT｜博物館資料",
+        "bbox": [
+          1411.0,
+          21,
+          1820.0,
+          48
+        ]
+      },
+      {
+        "text": "Terracotta sphinx lekythos • ca. 380–360 BCE • The Met, 06.1021.180",
+        "bbox": [
+          92,
+          72,
+          810,
+          95
+        ]
+      }
+    ],
+    "art_boxes": [
+      [
+        652,
+        110,
+        1267,
+        930
+      ]
+    ],
+    "camera_band": [
+      110,
+      930
+    ],
+    "segment_id": "P09",
+    "file": "/Users/ryo/Desktop/新チャンネル/EP006_Sphinx/確認版_v02_20261027/assets/P09_met_247343.png",
+    "sha256": "4f030754f7737ce7f1a2a28382811df7aeb71f0d7da4ef9c714ab300c742653a",
+    "start": 172.2,
+    "end": 187.2,
+    "frames": 450,
+    "encoded_file": "/Users/ryo/Desktop/新チャンネル/EP006_Sphinx/確認版_v02_20261027/_work/render/P09_met_247343.mp4",
+    "camera_direction": "face_to_wing",
+    "render_config": {
+      "image_sha256": "4f030754f7737ce7f1a2a28382811df7aeb71f0d7da4ef9c714ab300c742653a",
+      "frames": 450,
+      "filter": "[0:v]split=2[base][art];[art]crop=1920:820:0:110,format=yuv444p,perspective=x0='(W-W/1.08)*(0.28+0.44*on/449)':y0='(H-H/1.08)*0.2':x1='(W-W/1.08)*(0.28+0.44*on/449)+W/1.08':y1='(H-H/1.08)*0.2':x2='(W-W/1.08)*(0.28+0.44*on/449)':y2='(H-H/1.08)*0.2+H/1.08':x3='(W-W/1.08)*(0.28+0.44*on/449)+W/1.08':y3='(H-H/1.08)*0.2+H/1.08':sense=source:eval=frame:interpolation=cubic[moving];[base][moving]overlay=0:110:format=yuv444,format=yuv420p[v]",
+      "quality": "crf18"
+    },
+    "changed_v02": true,
+    "old_key": "met_329999"
+  },
+  {
+    "key": "jebb1904_15",
+    "base_asset": "jebb1904_15",
+    "source": "Sophocles, Oedipus the King • Jebb tr., 1904 • p. 7, line 130 • Online Library of Liberty",
+    "label": "PRINTED BOOK｜刊本",
+    "texts": [
+      {
+        "text": "QUIET ORIGINS  /  EP006",
+        "bbox": [
+          92,
+          24,
+          431,
+          46
+        ]
+      },
+      {
+        "text": "PRINTED BOOK｜刊本",
+        "bbox": [
+          1529.0,
+          21,
+          1820.0,
+          48
+        ]
+      },
+      {
+        "text": "Sophocles, Oedipus the King • Jebb tr., 1904 • p. 7, line 130 • Online Library of Liberty",
+        "bbox": [
+          92,
+          72,
+          968,
+          95
+        ]
+      }
+    ],
+    "art_boxes": [
+      [
+        260,
+        110,
+        760,
+        930
+      ],
+      [
+        980,
+        464,
+        1840,
+        576
+      ]
+    ],
+    "camera_band": [
+      110,
+      930
+    ],
+    "detail_crop_normalized": [
+      0.0546448087431694,
+      0.7777777777777778,
+      0.924408014571949,
+      0.8466666666666667
+    ],
+    "segment_id": "P10",
+    "file": "/Users/ryo/Desktop/新チャンネル/EP006_Sphinx/確認版_v02_20261027/assets/P10_jebb1904_15.png",
+    "sha256": "4c711aa19b95609e54c71828dc43379522776542695fa77206189a619b880645",
+    "start": 187.2,
+    "end": 204.8,
+    "frames": 528,
+    "encoded_file": "/Users/ryo/Desktop/新チャンネル/EP006_Sphinx/確認版_v02_20261027/_work/render/P10_jebb1904_15.mp4",
+    "camera_direction": null,
+    "render_config": {
+      "image_sha256": "4c711aa19b95609e54c71828dc43379522776542695fa77206189a619b880645",
+      "frames": 528,
+      "filter": "[0:v]split=2[base][art];[art]crop=1920:820:0:110,format=yuv444p,perspective=x0='(W-W/(1+0.03*on/527))/2':y0='(H-H/(1+0.03*on/527))/2':x1='(W-W/(1+0.03*on/527))/2+W/(1+0.03*on/527)':y1='(H-H/(1+0.03*on/527))/2':x2='(W-W/(1+0.03*on/527))/2':y2='(H-H/(1+0.03*on/527))/2+H/(1+0.03*on/527)':x3='(W-W/(1+0.03*on/527))/2+W/(1+0.03*on/527)':y3='(H-H/(1+0.03*on/527))/2+H/(1+0.03*on/527)':sense=source:eval=frame:interpolation=cubic[moving];[base][moving]overlay=0:110:format=yuv444,format=yuv420p[v]",
+      "quality": "crf18"
+    },
+    "changed_v02": true,
+    "old_key": "jebb1904_15",
+    "detail_crop_pixels": [
+      60,
+      1400,
+      1015,
+      1524
+    ]
+  },
+  {
+    "key": "met_437153",
+    "base_asset": "met_437153",
+    "source": "Gustave Moreau • Oedipus and the Sphinx (upper detail) • 1864 • The Met, 21.134.1",
+    "label": "PAINTING｜絵画",
+    "texts": [
+      {
+        "text": "QUIET ORIGINS  /  EP006",
+        "bbox": [
+          92,
+          24,
+          431,
+          46
+        ]
+      },
+      {
+        "text": "PAINTING｜絵画",
+        "bbox": [
+          1607.0,
+          21,
+          1820.0,
+          48
+        ]
+      },
+      {
+        "text": "Gustave Moreau • Oedipus and the Sphinx (upper detail) • 1864 • The Met, 21.134.1",
+        "bbox": [
+          92,
+          72,
+          952,
+          95
+        ]
+      }
+    ],
+    "art_boxes": [
+      [
+        194,
+        110,
+        1726,
+        930
+      ]
+    ],
+    "camera_band": [
+      110,
+      930
+    ],
+    "crop_normalized": [
+      0.12,
+      0.1,
+      0.95,
+      0.33
+    ],
+    "background_also_uses_only_crop": true,
+    "segment_id": "P10",
+    "file": "/Users/ryo/Desktop/新チャンネル/EP006_Sphinx/確認版_v02_20261027/assets/P10_met_437153.png",
+    "sha256": "90edabd2bf46adec5f9b821802569c0a79485bd5026119c108178d96467e06aa",
+    "start": 204.8,
+    "end": 211.66666666666666,
+    "frames": 206,
+    "encoded_file": "/Users/ryo/Desktop/新チャンネル/EP006_Sphinx/確認版_v02_20261027/_work/render/P10_met_437153.mp4",
+    "camera_direction": null,
+    "render_config": {
+      "image_sha256": "90edabd2bf46adec5f9b821802569c0a79485bd5026119c108178d96467e06aa",
+      "frames": 206,
+      "filter": "[0:v]split=2[base][art];[art]crop=1920:820:0:110,format=yuv444p,perspective=x0='(W-W/(1+0.03*on/205))/2':y0='(H-H/(1+0.03*on/205))/2':x1='(W-W/(1+0.03*on/205))/2+W/(1+0.03*on/205)':y1='(H-H/(1+0.03*on/205))/2':x2='(W-W/(1+0.03*on/205))/2':y2='(H-H/(1+0.03*on/205))/2+H/(1+0.03*on/205)':x3='(W-W/(1+0.03*on/205))/2+W/(1+0.03*on/205)':y3='(H-H/(1+0.03*on/205))/2+H/(1+0.03*on/205)':sense=source:eval=frame:interpolation=cubic[moving];[base][moving]overlay=0:110:format=yuv444,format=yuv420p[v]",
+      "quality": "crf18"
+    },
+    "changed_v02": true,
+    "old_key": "met_437153"
+  },
+  {
+    "key": "D_riddle",
+    "base_asset": null,
+    "source": "",
+    "label": "SCHEMATIC｜模式図",
+    "texts": [
+      {
+        "text": "QUIET ORIGINS  /  EP006",
+        "bbox": [
+          92,
+          24,
+          431,
+          46
+        ]
+      },
+      {
+        "text": "SCHEMATIC｜模式図",
+        "bbox": [
+          1545.0,
+          21,
+          1820.0,
+          48
+        ]
+      },
+      {
+        "text": "four-footed｜四つ足",
+        "bbox": [
+          195.0,
+          616,
+          525.0,
+          648
+        ]
+      },
+      {
+        "text": "two-footed｜二つ足",
+        "bbox": [
+          800.5,
+          616,
+          1119.5,
+          648
+        ]
+      },
+      {
+        "text": "three-footed｜三つ足",
+        "bbox": [
+          1371.0,
+          616,
+          1719.0,
+          648
+        ]
+      }
+    ],
+    "art_boxes": [],
+    "camera_band": [
+      110,
+      700
+    ],
+    "base_assets": [],
+    "segment_id": "P11",
+    "file": "/Users/ryo/Desktop/新チャンネル/EP006_Sphinx/確認版_v01_20261026/assets/P11_01_D_riddle.png",
+    "sha256": "ff616b9017004dd91e84fda1ae063558b4151ccca6860c04c64b476b94a33a7f",
+    "start": 211.66666666666666,
+    "end": 250.2,
+    "frames": 1156,
+    "encoded_file": "/Users/ryo/Desktop/新チャンネル/EP006_Sphinx/確認版_v01_20261026/_work/render/P11_01_D_riddle.mp4",
+    "camera_direction": null,
+    "render_config": {
+      "image_sha256": "ff616b9017004dd91e84fda1ae063558b4151ccca6860c04c64b476b94a33a7f",
+      "frames": 1156,
+      "crf": 18,
+      "lossless_static_intermediate": true,
+      "filter": "[0:v]format=yuv420p[v]"
+    },
+    "changed_v02": false
+  },
+  {
+    "key": "met_261777",
+    "base_asset": "met_261777",
+    "source": "Félix Bonfils • Pyramides et le Sphinx • 1860s–70s, printed ca. 1870 • The Met, 1976.561.2",
+    "label": "HISTORIC PHOTOGRAPH｜古写真",
+    "texts": [
+      {
+        "text": "QUIET ORIGINS  /  EP006",
+        "bbox": [
+          92,
+          24,
+          431,
+          46
+        ]
+      },
+      {
+        "text": "HISTORIC PHOTOGRAPH｜古写真",
+        "bbox": [
+          1373.0,
+          21,
+          1820.0,
+          48
+        ]
+      },
+      {
+        "text": "Félix Bonfils • Pyramides et le Sphinx • 1860s–70s, printed ca. 1870 • The Met, 1976.561.2",
+        "bbox": [
+          92,
+          72,
+          1017,
+          95
+        ]
+      }
+    ],
+    "art_boxes": [
+      [
+        412,
+        110,
+        1507,
+        930
+      ]
+    ],
+    "camera_band": [
+      110,
+      930
+    ],
+    "segment_id": "P12",
+    "file": "/Users/ryo/Desktop/新チャンネル/EP006_Sphinx/確認版_v01_20261026/assets/P12_01_met_261777.png",
+    "sha256": "45bf5e51a6ebe2f4511f1d7b5fffe52ee2fa31aa99578fd9bcbab8a2aacccda4",
+    "start": 250.2,
+    "end": 278.8333333333333,
+    "frames": 859,
+    "encoded_file": "/Users/ryo/Desktop/新チャンネル/EP006_Sphinx/確認版_v01_20261026/_work/render/P12_01_met_261777.mp4",
+    "camera_direction": null,
+    "render_config": {
+      "image_sha256": "45bf5e51a6ebe2f4511f1d7b5fffe52ee2fa31aa99578fd9bcbab8a2aacccda4",
+      "frames": 859,
+      "crf": 18,
+      "filter": "[0:v]split=2[base][art];[art]crop=1920:820:0:110,format=yuv444p,perspective=x0='(W-W/(1+0.05*on/858))/2':y0='(H-H/(1+0.05*on/858))/2':x1='(W-W/(1+0.05*on/858))/2+W/(1+0.05*on/858)':y1='(H-H/(1+0.05*on/858))/2':x2='(W-W/(1+0.05*on/858))/2':y2='(H-H/(1+0.05*on/858))/2+H/(1+0.05*on/858)':x3='(W-W/(1+0.05*on/858))/2+W/(1+0.05*on/858)':y3='(H-H/(1+0.05*on/858))/2+H/(1+0.05*on/858)':sense=source:eval=frame:interpolation=cubic[moving];[base][moving]overlay=0:110:format=yuv444,format=yuv420p[v]"
+    },
+    "changed_v02": false
+  },
+  {
+    "key": "norden_109",
+    "base_asset": "norden_109",
+    "source": "Norden, plate XLVII, London 1780 • Wellcome Collection / Internet Archive",
+    "label": "ENGRAVING｜銅版画",
+    "texts": [
+      {
+        "text": "QUIET ORIGINS  /  EP006",
+        "bbox": [
+          92,
+          24,
+          431,
+          46
+        ]
+      },
+      {
+        "text": "ENGRAVING｜銅版画",
+        "bbox": [
+          1547.0,
+          21,
+          1820.0,
+          48
+        ]
+      },
+      {
+        "text": "Norden, plate XLVII, London 1780 • Wellcome Collection / Internet Archive",
+        "bbox": [
+          92,
+          72,
+          850,
+          95
+        ]
+      }
+    ],
+    "art_boxes": [
+      [
+        277,
+        110,
+        1643,
+        930
+      ]
+    ],
+    "camera_band": [
+      110,
+      930
+    ],
+    "segment_id": "P13",
+    "file": "/Users/ryo/Desktop/新チャンネル/EP006_Sphinx/確認版_v01_20261026/assets/P13_01_norden_109.png",
+    "sha256": "082082446b889129ba6d07d020ee557cc75ce864e6d0aa5e7f7b7e31c702f3a0",
+    "start": 278.8333333333333,
+    "end": 302.8,
+    "frames": 719,
+    "encoded_file": "/Users/ryo/Desktop/新チャンネル/EP006_Sphinx/確認版_v01_20261026/_work/render/P13_01_norden_109.mp4",
+    "camera_direction": null,
+    "render_config": {
+      "image_sha256": "082082446b889129ba6d07d020ee557cc75ce864e6d0aa5e7f7b7e31c702f3a0",
+      "frames": 719,
+      "crf": 18,
+      "filter": "[0:v]split=2[base][art];[art]crop=1920:820:0:110,format=yuv444p,perspective=x0='(W-W/(1+0.03*on/718))/2':y0='(H-H/(1+0.03*on/718))/2':x1='(W-W/(1+0.03*on/718))/2+W/(1+0.03*on/718)':y1='(H-H/(1+0.03*on/718))/2':x2='(W-W/(1+0.03*on/718))/2':y2='(H-H/(1+0.03*on/718))/2+H/(1+0.03*on/718)':x3='(W-W/(1+0.03*on/718))/2+W/(1+0.03*on/718)':y3='(H-H/(1+0.03*on/718))/2+H/(1+0.03*on/718)':sense=source:eval=frame:interpolation=cubic[moving];[base][moving]overlay=0:110:format=yuv444,format=yuv420p[v]"
+    },
+    "changed_v02": false
+  },
+  {
+    "key": "museo_Inv02_007",
+    "base_asset": "museo_Inv02_007",
+    "source": "Anonymous (possibly V. R. Lanzone) • 1875 • Archivio Museo Egizio, Inv02_007",
+    "label": "HISTORIC PHOTOGRAPH｜古写真",
+    "texts": [
+      {
+        "text": "QUIET ORIGINS  /  EP006",
+        "bbox": [
+          92,
+          24,
+          431,
+          46
+        ]
+      },
+      {
+        "text": "HISTORIC PHOTOGRAPH｜古写真",
+        "bbox": [
+          1373.0,
+          21,
+          1820.0,
+          48
+        ]
+      },
+      {
+        "text": "Anonymous (possibly V. R. Lanzone) • 1875 • Archivio Museo Egizio, Inv02_007",
+        "bbox": [
+          91,
+          73,
+          915,
+          95
+        ]
+      }
+    ],
+    "art_boxes": [
+      [
+        366,
+        110,
+        1553,
+        930
+      ]
+    ],
+    "camera_band": [
+      110,
+      930
+    ],
+    "segment_id": "P14",
+    "file": "/Users/ryo/Desktop/新チャンネル/EP006_Sphinx/確認版_v01_20261026/assets/P14_01_museo_Inv02_007.png",
+    "sha256": "c016bea38e0aded5eb0d25b0af8f7af644f0de4905932239d6c7d893e1fa0bfd",
+    "start": 302.8,
+    "end": 316.26666666666665,
+    "frames": 404,
+    "encoded_file": "/Users/ryo/Desktop/新チャンネル/EP006_Sphinx/確認版_v01_20261026/_work/render/P14_01_museo_Inv02_007.mp4",
+    "camera_direction": null,
+    "render_config": {
+      "image_sha256": "c016bea38e0aded5eb0d25b0af8f7af644f0de4905932239d6c7d893e1fa0bfd",
+      "frames": 404,
+      "crf": 18,
+      "filter": "[0:v]split=2[base][art];[art]crop=1920:820:0:110,format=yuv444p,perspective=x0='(W-W/(1+0.03*on/403))/2':y0='(H-H/(1+0.03*on/403))/2':x1='(W-W/(1+0.03*on/403))/2+W/(1+0.03*on/403)':y1='(H-H/(1+0.03*on/403))/2':x2='(W-W/(1+0.03*on/403))/2':y2='(H-H/(1+0.03*on/403))/2+H/(1+0.03*on/403)':x3='(W-W/(1+0.03*on/403))/2+W/(1+0.03*on/403)':y3='(H-H/(1+0.03*on/403))/2+H/(1+0.03*on/403)':sense=source:eval=frame:interpolation=cubic[moving];[base][moving]overlay=0:110:format=yuv444,format=yuv420p[v]"
+    },
+    "changed_v02": false
+  },
+  {
+    "key": "V03",
+    "base_asset": "V03",
+    "source": "Kling AI • painterly illustration",
+    "label": "AI RECONSTRUCTION｜AIによる再現",
+    "texts": [
+      {
+        "text": "QUIET ORIGINS  /  EP006",
+        "bbox": [
+          92,
+          24,
+          431,
+          46
+        ]
+      },
+      {
+        "text": "AI RECONSTRUCTION｜AIによる再現",
+        "bbox": [
+          1332.0,
+          21,
+          1820.0,
+          48
+        ]
+      },
+      {
+        "text": "Kling AI • painterly illustration",
+        "bbox": [
+          92,
+          72,
+          388,
+          95
+        ]
+      }
+    ],
+    "art_boxes": [
+      [
+        231,
+        110,
+        1689,
+        930
+      ]
+    ],
+    "camera_band": [
+      110,
+      930
+    ],
+    "segment_id": "P14",
+    "file": "/Users/ryo/Desktop/新チャンネル/EP006_Sphinx/確認版_v01_20261026/assets/P14_02_V03.png",
+    "sha256": "85a3ae3bf043bb9bef9b439a6609878d1c7fa1c9fd297f8695cdb62d000af706",
+    "start": 316.26666666666665,
+    "end": 328.8333333333333,
+    "frames": 377,
+    "encoded_file": "/Users/ryo/Desktop/新チャンネル/EP006_Sphinx/確認版_v01_20261026/_work/render/P14_02_V03.mp4",
+    "camera_direction": null,
+    "render_config": {
+      "image_sha256": "85a3ae3bf043bb9bef9b439a6609878d1c7fa1c9fd297f8695cdb62d000af706",
+      "frames": 377,
+      "crf": 18,
+      "video_sha256": "a05b74369d87314085c228bb2040bc439629e060b3e8807dac76f8dfb7ad5cbd",
+      "source_start_frame": 0,
+      "source_frames_used": 193,
+      "time_scale": 1.5626943005181348,
+      "filter": "[1:v]trim=start_frame=0:end_frame=193,setpts=(PTS-STARTPTS)*1.562694300518,scale=1458:820:flags=lanczos,minterpolate=fps=30:mi_mode=mci:mc_mode=aobmc:me_mode=bidir:vsbmc=1,tpad=stop_mode=clone:stop_duration=0.25[art];[0:v][art]overlay=231:110:shortest=1,format=yuv420p[v]"
+    },
+    "changed_v02": false
+  },
+  {
+    "key": "credits",
+    "base_asset": null,
+    "source": "",
+    "label": "",
+    "texts": [
+      {
+        "text": "QUIET ORIGINS  /  EP006",
+        "bbox": [
+          92,
+          24,
+          431,
+          46
+        ]
+      },
+      {
+        "text": "English",
+        "bbox": [
+          145,
+          180,
+          234,
+          205
+        ]
+      },
+      {
+        "text": "Kokoro / Heart (af_heart)",
+        "bbox": [
+          420,
+          180,
+          723,
+          205
+        ]
+      },
+      {
+        "text": "日本語",
+        "bbox": [
+          145,
+          246,
+          226,
+          273
+        ]
+      },
+      {
+        "text": "VOICEVOX:冥鳴ひまり",
+        "bbox": [
+          420,
+          246,
+          705,
+          273
+        ]
+      },
+      {
+        "text": "Collections",
+        "bbox": [
+          145,
+          322,
+          279,
+          342
+        ]
+      },
+      {
+        "text": "The Metropolitan Museum of Art",
+        "bbox": [
+          420,
+          322,
+          809,
+          347
+        ]
+      },
+      {
+        "text": "Collections",
+        "bbox": [
+          145,
+          393,
+          279,
+          413
+        ]
+      },
+      {
+        "text": "Archivio Museo Egizio • Wellcome Collection",
+        "bbox": [
+          419,
+          393,
+          959,
+          418
+        ]
+      },
+      {
+        "text": "Texts",
+        "bbox": [
+          145,
+          464,
+          213,
+          484
+        ]
+      },
+      {
+        "text": "University of California Libraries • Online Library of Liberty",
+        "bbox": [
+          420,
+          464,
+          1122,
+          489
+        ]
+      },
+      {
+        "text": "AI video",
+        "bbox": [
+          144,
+          535,
+          244,
+          555
+        ]
+      },
+      {
+        "text": "Kling AI",
+        "bbox": [
+          420,
+          535,
+          514,
+          560
+        ]
+      },
+      {
+        "text": "Music",
+        "bbox": [
+          145,
+          606,
+          216,
+          626
+        ]
+      },
+      {
+        "text": "Original ambient score • Quiet Origins",
+        "bbox": [
+          420,
+          606,
+          876,
+          631
+        ]
+      }
+    ],
+    "art_boxes": [],
+    "camera_band": [
+      110,
+      700
+    ],
+    "segment_id": "P15",
+    "file": "/Users/ryo/Desktop/新チャンネル/EP006_Sphinx/確認版_v01_20261026/assets/P15_01_credits.png",
+    "sha256": "165b8a778aa985d3b4b79345eea3ccd6d0135b63f1625671ba4cc1d394639d4f",
+    "start": 328.8333333333333,
+    "end": 355.1666666666667,
+    "frames": 790,
+    "encoded_file": "/Users/ryo/Desktop/新チャンネル/EP006_Sphinx/確認版_v01_20261026/_work/render/P15_01_credits.mp4",
+    "camera_direction": null,
+    "render_config": {
+      "image_sha256": "165b8a778aa985d3b4b79345eea3ccd6d0135b63f1625671ba4cc1d394639d4f",
+      "frames": 790,
+      "crf": 18,
+      "lossless_static_intermediate": true,
+      "filter": "[0:v]format=yuv420p[v]"
+    },
+    "changed_v02": false
+  },
+  {
+    "key": "endcard",
+    "segment_id": "BRAND",
+    "start": 355.1666666666667,
+    "end": 365.1666666666667,
+    "frames": 300,
+    "encoded_file": "/Users/ryo/Desktop/新チャンネル/ブランド素材/エンドカード_共通版_v02_20261023/deliverables/Quiet_Origins_endcard_v02.mp4",
+    "original_source": "/Users/ryo/Desktop/新チャンネル/ブランド素材/エンドカード_共通版_v02_20261023/deliverables/Quiet_Origins_endcard_v02.mp4",
+    "original_sha256": "3cd254cdd387d0ca8e3ef3c2f74ca3650dc64fb02609bcd09a21b3e36a3513a2",
+    "file": null,
+    "changed_v02": false
+  }
+]

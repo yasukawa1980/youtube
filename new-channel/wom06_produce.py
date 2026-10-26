@@ -9,7 +9,6 @@ import numpy as np
 import soundfile as sf
 from wom01_multilingual_render import read,save,sha as _file_sha,ff,probe,measure,rms
 from wom01_subtitles import pages,to_srt
-from wom01_日本語自然さ試聴 import SPEED,INTONATION
 REPO=Path(__file__).resolve().parent.parent
 ROOT=Path(os.environ.get('WOM06_ROOT','/Users/ryo/Desktop/新チャンネル/EP006_Sphinx/確認版_v01_20261026'))
 MEDIA=ROOT.parent/'素材'
@@ -64,6 +63,7 @@ def role(cid,text):
  return 'plain'
 
 def narrate(lang):
+ from wom01_日本語自然さ試聴 import SPEED,INTONATION
  if CORRECT_READINGS:
   assert (ROOT/'records/first_pass_preserved.json').exists(), 'Preserve the unmodified first synthesis before corrections'
  if lang=='en':

@@ -1,0 +1,180 @@
+{
+  "command": [
+    "ffmpeg",
+    "-nostdin",
+    "-y",
+    "-v",
+    "warning",
+    "-f",
+    "rawvideo",
+    "-pixel_format",
+    "yuv420p",
+    "-video_size",
+    "1920x1080",
+    "-framerate",
+    "30",
+    "-i",
+    "pipe:0",
+    "-an",
+    "-c:v",
+    "libx264",
+    "-threads",
+    "3",
+    "-preset",
+    "medium",
+    "-crf",
+    "16",
+    "-profile:v",
+    "high",
+    "-level:v",
+    "4.1",
+    "-pix_fmt",
+    "yuv420p",
+    "-g",
+    "60",
+    "-bf",
+    "2",
+    "-maxrate",
+    "20M",
+    "-bufsize",
+    "30M",
+    "-fps_mode",
+    "passthrough",
+    "-video_track_timescale",
+    "15360",
+    "-movie_timescale",
+    "48000",
+    "-color_primaries",
+    "bt709",
+    "-color_trc",
+    "bt709",
+    "-colorspace",
+    "bt709",
+    "-movflags",
+    "+faststart",
+    "/Users/ryo/Desktop/新チャンネル/EP006_Sphinx/確認版_v02_20261027/_work/picture_master.mp4"
+  ],
+  "method": "Each original/individual shot independently decoded to raw yuv420p and fed sequentially into one encoder. No finished v01 MP4 used as source.",
+  "shot_sources": [
+    {
+      "key": "met_255101",
+      "path": "/Users/ryo/Desktop/新チャンネル/EP006_Sphinx/確認版_v01_20261026/_work/render/P01_01_met_255101.mp4",
+      "sha256": "09653db152b93151597db0b5f525608f9319762aa18d14097bb154625e86fdae"
+    },
+    {
+      "key": "museo_Inv27_001",
+      "path": "/Users/ryo/Desktop/新チャンネル/EP006_Sphinx/確認版_v02_20261027/_work/render/P01_museo_Inv27_001.mp4",
+      "sha256": "01f3c7bb89e0408eabaf456be8404c23d89df3e73a46082174218f785e17556c"
+    },
+    {
+      "key": "D_pair(met_544186,met_329999)",
+      "path": "/Users/ryo/Desktop/新チャンネル/EP006_Sphinx/確認版_v02_20261027/_work/render/P02_D_pair(met_544186,met_329999).mp4",
+      "sha256": "fa92b3275a73c6d2bb47d65bcc02a49e651538db6d608d28409f9846f83f5ebe"
+    },
+    {
+      "key": "opening",
+      "path": "/Users/ryo/Desktop/新チャンネル/ブランド素材/オープニング_エンドカード_動画試作_v02_20261021/deliverables/Quiet_Origins_opening_trial_v02.mp4",
+      "sha256": "4f8e95fd166e52b6c601c87440006ded2eec298f54c3d6d6a951738b54f721a9"
+    },
+    {
+      "key": "museo_Inv02_008",
+      "path": "/Users/ryo/Desktop/新チャンネル/EP006_Sphinx/確認版_v01_20261026/_work/render/P03_01_museo_Inv02_008.mp4",
+      "sha256": "bcd26c5d6aab1c156937e2666823bf174509824b4eac6d4782c9cce38570b829"
+    },
+    {
+      "key": "museo_Album1_004",
+      "path": "/Users/ryo/Desktop/新チャンネル/EP006_Sphinx/確認版_v01_20261026/_work/render/P03_02_museo_Album1_004.mp4",
+      "sha256": "f67d45294d6fb0a1ee279c000eafd74f64d62365cb31f7cdde0fafefa94618bd"
+    },
+    {
+      "key": "V01",
+      "path": "/Users/ryo/Desktop/新チャンネル/EP006_Sphinx/確認版_v01_20261026/_work/render/P04_01_V01.mp4",
+      "sha256": "4042c36323fbb86793607d3ba4018f1401d34d3ca4511d1edb823e25408210b7"
+    },
+    {
+      "key": "met_544442",
+      "path": "/Users/ryo/Desktop/新チャンネル/EP006_Sphinx/確認版_v01_20261026/_work/render/P04_02_met_544442.mp4",
+      "sha256": "9b2de635d23dea1dc02183127ff2eb0635f4ba1a7110954bebadc48ecd842e07"
+    },
+    {
+      "key": "museo_Inv01_011",
+      "path": "/Users/ryo/Desktop/新チャンネル/EP006_Sphinx/確認版_v01_20261026/_work/render/P05_01_museo_Inv01_011.mp4",
+      "sha256": "e42492bd0d5f7ad1553e9c58e281096466641513b538bd67cc6f099dea8d1a36"
+    },
+    {
+      "key": "met_544823",
+      "path": "/Users/ryo/Desktop/新チャンネル/EP006_Sphinx/確認版_v01_20261026/_work/render/P06_01_met_544823.mp4",
+      "sha256": "bac309cc4e1afb7e425344bc2732c2578435d43f986cf4d620c7513929e03697"
+    },
+    {
+      "key": "met_565105",
+      "path": "/Users/ryo/Desktop/新チャンネル/EP006_Sphinx/確認版_v01_20261026/_work/render/P06_02_met_565105.mp4",
+      "sha256": "c535c2500507cbf892f51d20300c43e24ae8e20258f619400b1376433065de57"
+    },
+    {
+      "key": "V02",
+      "path": "/Users/ryo/Desktop/新チャンネル/EP006_Sphinx/確認版_v01_20261026/_work/render/P07_01_V02.mp4",
+      "sha256": "5214a7d80abd332bdc48c027d638b4346d6ff2602b643812142177089758d624"
+    },
+    {
+      "key": "hesiod_159",
+      "path": "/Users/ryo/Desktop/新チャンネル/EP006_Sphinx/確認版_v02_20261027/_work/render/P07_hesiod_159.mp4",
+      "sha256": "07220f756d49e12c187af7ad6c582e0ca631cd4349a700058071a325eef8ede8"
+    },
+    {
+      "key": "met_248501",
+      "path": "/Users/ryo/Desktop/新チャンネル/EP006_Sphinx/確認版_v01_20261026/_work/render/P08_01_met_248501.mp4",
+      "sha256": "48dcc279a1776db0c2abb4a460b4c38011e9fb196ce94c41bf167d31b4ef8768"
+    },
+    {
+      "key": "met_247343",
+      "path": "/Users/ryo/Desktop/新チャンネル/EP006_Sphinx/確認版_v02_20261027/_work/render/P09_met_247343.mp4",
+      "sha256": "d6b47e8e6ca367953e01a7c2d5c1989332e93210e7fa59675e165c9f0c0ba08b"
+    },
+    {
+      "key": "jebb1904_15",
+      "path": "/Users/ryo/Desktop/新チャンネル/EP006_Sphinx/確認版_v02_20261027/_work/render/P10_jebb1904_15.mp4",
+      "sha256": "4d56aab40dff396f03f428a5e494c2b2a257e16c5f04259bbee77e0bf8bed4f2"
+    },
+    {
+      "key": "met_437153",
+      "path": "/Users/ryo/Desktop/新チャンネル/EP006_Sphinx/確認版_v02_20261027/_work/render/P10_met_437153.mp4",
+      "sha256": "8dc9b2b81b10adcc832f577dc19fb35bd6da9c4203e9481e326543b7d3269ed1"
+    },
+    {
+      "key": "D_riddle",
+      "path": "/Users/ryo/Desktop/新チャンネル/EP006_Sphinx/確認版_v01_20261026/_work/render/P11_01_D_riddle.mp4",
+      "sha256": "f207c1a49e048b5af273ff85d2bed4232e6f9b33d8670bea72d9d800e1e3b043"
+    },
+    {
+      "key": "met_261777",
+      "path": "/Users/ryo/Desktop/新チャンネル/EP006_Sphinx/確認版_v01_20261026/_work/render/P12_01_met_261777.mp4",
+      "sha256": "5825fe5fb52c78d66d62c6a26b8dc775448f2aa510afdc94ea5d74f925d50497"
+    },
+    {
+      "key": "norden_109",
+      "path": "/Users/ryo/Desktop/新チャンネル/EP006_Sphinx/確認版_v01_20261026/_work/render/P13_01_norden_109.mp4",
+      "sha256": "7c023e131acc2ce01c830e7065719875f87626be61cbdb741dfc9ab0d1e19922"
+    },
+    {
+      "key": "museo_Inv02_007",
+      "path": "/Users/ryo/Desktop/新チャンネル/EP006_Sphinx/確認版_v01_20261026/_work/render/P14_01_museo_Inv02_007.mp4",
+      "sha256": "0b182a71238d834ee3d5663e183485005197b8f0b6f17bf86cc31c0aed1dcb59"
+    },
+    {
+      "key": "V03",
+      "path": "/Users/ryo/Desktop/新チャンネル/EP006_Sphinx/確認版_v01_20261026/_work/render/P14_02_V03.mp4",
+      "sha256": "d2637bf8448de7f0f79a4b9e44cc2e2fc741a84f1a439177f56f3525a4a0f511"
+    },
+    {
+      "key": "credits",
+      "path": "/Users/ryo/Desktop/新チャンネル/EP006_Sphinx/確認版_v01_20261026/_work/render/P15_01_credits.mp4",
+      "sha256": "fd99bb068140d3abbc58539d862885b3ee653e896dcacd2becbb15826b1c0034"
+    },
+    {
+      "key": "endcard",
+      "path": "/Users/ryo/Desktop/新チャンネル/ブランド素材/エンドカード_共通版_v02_20261023/deliverables/Quiet_Origins_endcard_v02.mp4",
+      "sha256": "3cd254cdd387d0ca8e3ef3c2f74ca3650dc64fb02609bcd09a21b3e36a3513a2"
+    }
+  ]
+}

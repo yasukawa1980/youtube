@@ -1,0 +1,134 @@
+{
+  "passed": false,
+  "method": "Continuous full YUV420P decode frame MD5 comparison, v01 used solely as reference. No seek, no v01 finished media as encoder input.",
+  "total_frames": 10955,
+  "outside_changed_intervals_frames": 8662,
+  "outside_pixel_identical_frames": 8550,
+  "outside_nonidentical_frames": 112,
+  "outside_nonidentical_intervals_half_open": [
+    [
+      517,
+      556
+    ],
+    [
+      4072,
+      4107
+    ],
+    [
+      5128,
+      5166
+    ]
+  ],
+  "unchanged_original_intermediates": [
+    {
+      "key": "met_255101",
+      "frames": 556,
+      "sha256": "09653db152b93151597db0b5f525608f9319762aa18d14097bb154625e86fdae",
+      "original_intermediate_identical": true
+    },
+    {
+      "key": "opening",
+      "frames": 120,
+      "sha256": "4f8e95fd166e52b6c601c87440006ded2eec298f54c3d6d6a951738b54f721a9",
+      "original_intermediate_identical": true
+    },
+    {
+      "key": "museo_Inv02_008",
+      "frames": 397,
+      "sha256": "bcd26c5d6aab1c156937e2666823bf174509824b4eac6d4782c9cce38570b829",
+      "original_intermediate_identical": true
+    },
+    {
+      "key": "museo_Album1_004",
+      "frames": 210,
+      "sha256": "f67d45294d6fb0a1ee279c000eafd74f64d62365cb31f7cdde0fafefa94618bd",
+      "original_intermediate_identical": true
+    },
+    {
+      "key": "V01",
+      "frames": 439,
+      "sha256": "4042c36323fbb86793607d3ba4018f1401d34d3ca4511d1edb823e25408210b7",
+      "original_intermediate_identical": true
+    },
+    {
+      "key": "met_544442",
+      "frames": 314,
+      "sha256": "9b2de635d23dea1dc02183127ff2eb0635f4ba1a7110954bebadc48ecd842e07",
+      "original_intermediate_identical": true
+    },
+    {
+      "key": "museo_Inv01_011",
+      "frames": 973,
+      "sha256": "e42492bd0d5f7ad1553e9c58e281096466641513b538bd67cc6f099dea8d1a36",
+      "original_intermediate_identical": true
+    },
+    {
+      "key": "met_544823",
+      "frames": 222,
+      "sha256": "bac309cc4e1afb7e425344bc2732c2578435d43f986cf4d620c7513929e03697",
+      "original_intermediate_identical": true
+    },
+    {
+      "key": "met_565105",
+      "frames": 136,
+      "sha256": "c535c2500507cbf892f51d20300c43e24ae8e20258f619400b1376433065de57",
+      "original_intermediate_identical": true
+    },
+    {
+      "key": "V02",
+      "frames": 87,
+      "sha256": "5214a7d80abd332bdc48c027d638b4346d6ff2602b643812142177089758d624",
+      "original_intermediate_identical": true
+    },
+    {
+      "key": "met_248501",
+      "frames": 603,
+      "sha256": "48dcc279a1776db0c2abb4a460b4c38011e9fb196ce94c41bf167d31b4ef8768",
+      "original_intermediate_identical": true
+    },
+    {
+      "key": "D_riddle",
+      "frames": 1156,
+      "sha256": "f207c1a49e048b5af273ff85d2bed4232e6f9b33d8670bea72d9d800e1e3b043",
+      "original_intermediate_identical": true
+    },
+    {
+      "key": "met_261777",
+      "frames": 859,
+      "sha256": "5825fe5fb52c78d66d62c6a26b8dc775448f2aa510afdc94ea5d74f925d50497",
+      "original_intermediate_identical": true
+    },
+    {
+      "key": "norden_109",
+      "frames": 719,
+      "sha256": "7c023e131acc2ce01c830e7065719875f87626be61cbdb741dfc9ab0d1e19922",
+      "original_intermediate_identical": true
+    },
+    {
+      "key": "museo_Inv02_007",
+      "frames": 404,
+      "sha256": "0b182a71238d834ee3d5663e183485005197b8f0b6f17bf86cc31c0aed1dcb59",
+      "original_intermediate_identical": true
+    },
+    {
+      "key": "V03",
+      "frames": 377,
+      "sha256": "d2637bf8448de7f0f79a4b9e44cc2e2fc741a84f1a439177f56f3525a4a0f511",
+      "original_intermediate_identical": true
+    },
+    {
+      "key": "credits",
+      "frames": 790,
+      "sha256": "fd99bb068140d3abbc58539d862885b3ee653e896dcacd2becbb15826b1c0034",
+      "original_intermediate_identical": true
+    },
+    {
+      "key": "endcard",
+      "frames": 300,
+      "sha256": "3cd254cdd387d0ca8e3ef3c2f74ca3650dc64fb02609bcd09a21b3e36a3513a2",
+      "original_intermediate_identical": true
+    }
+  ],
+  "v01_sha256": "c3c3d911a7a286094838910aa039522c3c680affa3a82101d9f178685e7fd893",
+  "v02_sha256": "06bc408eb0c7f468f9bab0676382301fee59b13ca0e6d344ac1bf2ce5329990e"
+}

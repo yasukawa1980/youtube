@@ -1,0 +1,107 @@
+{
+  "passed": true,
+  "files": [
+    {
+      "name": "EP006_Sphinx_en_v02_1080p30.mp4",
+      "bytes": 150173048,
+      "sha256": "06bc408eb0c7f468f9bab0676382301fee59b13ca0e6d344ac1bf2ce5329990e",
+      "video_stream_sha256": "SHA256=3a2ca924302d09ab68e61bdca028dba4e497736800577f169c783bda1fb670d8",
+      "audio_stream_sha256": "SHA256=df412f32685d9e60dba4e6c3af074d1b6cca21928f0142c142c264583b913fb1",
+      "audio_identical_v01": true,
+      "decode_warnings": 0,
+      "frames": 10955,
+      "exact_30fps_pts": true,
+      "duration_seconds": 365.166667,
+      "profile": "High",
+      "pixel_format": "yuv420p"
+    },
+    {
+      "name": "EP006_Sphinx_en_v02_subtitled_review_1080p30.mp4",
+      "bytes": 79670782,
+      "sha256": "bd55c704dbf173a44ce9fe9052de17bbc72a8f1663bb7b05b6c142fded9d03a3",
+      "video_stream_sha256": "SHA256=45f543e7d99eca011f5f4774cdf41d4c4cedd2580e4842aef0e55131acd13f3d",
+      "audio_stream_sha256": "SHA256=df412f32685d9e60dba4e6c3af074d1b6cca21928f0142c142c264583b913fb1",
+      "audio_identical_v01": true,
+      "decode_warnings": 0,
+      "frames": 10955,
+      "exact_30fps_pts": true,
+      "duration_seconds": 365.166667,
+      "profile": "High",
+      "pixel_format": "yuv420p"
+    },
+    {
+      "name": "EP006_Sphinx_ja_v02_1080p30.mp4",
+      "bytes": 150190482,
+      "sha256": "3a8897a172901dc76f0f6a9803c52d978098531458d4628c7f8ca66530993b9f",
+      "video_stream_sha256": "SHA256=3a2ca924302d09ab68e61bdca028dba4e497736800577f169c783bda1fb670d8",
+      "audio_stream_sha256": "SHA256=5841da9eaedefb25a5d416600f2512350fed248b47653f404a8faff9f4d11077",
+      "audio_identical_v01": true,
+      "decode_warnings": 0,
+      "frames": 10955,
+      "exact_30fps_pts": true,
+      "duration_seconds": 365.166667,
+      "profile": "High",
+      "pixel_format": "yuv420p"
+    },
+    {
+      "name": "EP006_Sphinx_ja_v02_subtitled_review_1080p30.mp4",
+      "bytes": 80085737,
+      "sha256": "7ceea379a747745414a06cb1e05f7a7f2690fca12a7b877d84bb6a516d674b33",
+      "video_stream_sha256": "SHA256=75bd4a0ed765c5054d3bf3e573d67a35e46e85f54dc661783ede44ea44fc1ae5",
+      "audio_stream_sha256": "SHA256=5841da9eaedefb25a5d416600f2512350fed248b47653f404a8faff9f4d11077",
+      "audio_identical_v01": true,
+      "decode_warnings": 0,
+      "frames": 10955,
+      "exact_30fps_pts": true,
+      "duration_seconds": 365.166667,
+      "profile": "High",
+      "pixel_format": "yuv420p"
+    }
+  ],
+  "audio_srt_wav_immutable": [
+    {
+      "name": "EP006_audio_ja.m4a",
+      "sha256": "c3555cd123c19c7d8250767e33e7732dfc141df3dfd4ad7987719ca94fbaad3c",
+      "identical_v01": true
+    },
+    {
+      "name": "EP006_audio_en.m4a",
+      "sha256": "24d03a0e045e956e6ca0ae1dbdd327f57465075d442b4e28247f8b9a8f75be81",
+      "identical_v01": true
+    },
+    {
+      "name": "EP006_Sphinx_ja_v02_1080p30.srt",
+      "sha256": "bebb030f7b49c6be974d567b0f2b976b76429cac39eef0fb13694dab9d1d0fa8",
+      "identical_v01": true
+    },
+    {
+      "name": "EP006_pronunciation_en.m4a",
+      "sha256": "16421f3fca448646d3011c8aee9134a398a3ada050f5dd6f91d825bc6d8f56a9",
+      "identical_v01": true
+    },
+    {
+      "name": "EP006_pronunciation_ja.m4a",
+      "sha256": "94626af26a1fd79eda8704c5570c44e8a35d11c812dbfeaa4e689ddf2be7a25b",
+      "identical_v01": true
+    },
+    {
+      "name": "EP006_audio_ja.wav",
+      "sha256": "8f763563ae82df3b5bf836bef315543f44274e3a2591576e5bf01faca87446ea",
+      "identical_v01": true
+    },
+    {
+      "name": "EP006_audio_en.wav",
+      "sha256": "9c2f75cc1750efed79027de075e97087b179b8ee06845ead1e8f972f780c82f3",
+      "identical_v01": true
+    },
+    {
+      "name": "EP006_Sphinx_en_v02_1080p30.srt",
+      "sha256": "f5348dade1bc8c7b640f84f08fa2ff8659a1f2cd05c4cf42bf3f7d5ceae6cbbb",
+      "identical_v01": true
+    }
+  ],
+  "shared_video_stream": true,
+  "endcard_last_10_seconds": true,
+  "scripts_unchanged": true,
+  "human_pronunciation_approved_in_request": true
+}

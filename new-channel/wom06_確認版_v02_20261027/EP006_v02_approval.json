@@ -1,0 +1,17 @@
+{
+  "requirement_met": false,
+  "status": "本人承認済み・圧縮差を許容してv02確定",
+  "user_exact_reply": "圧縮差を許容してv02を確定",
+  "recorded_at_jst": "2026-10-27T00:27:45.907221+09:00",
+  "outside_frames": 8662,
+  "pixel_identical_frames": 8550,
+  "compression_difference_frames": 112,
+  "mean_luma_difference_8bit": 0.05935912440062831,
+  "scope": "Only the exact pixel-identity criterion receives this exception. Original intermediate frames, audio, SRT and scripts remain identical. No publication authorized.",
+  "final_pan_corrected_measurement": {
+    "mean_luma_difference_8bit": 0.058213618310460756,
+    "maximum_absolute_sample_difference": 40,
+    "frames": 112,
+    "same_affected_intervals": true
+  }
+}

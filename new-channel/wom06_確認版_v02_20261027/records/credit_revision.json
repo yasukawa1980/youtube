@@ -1,0 +1,25 @@
+{
+  "passed": true,
+  "documents": [
+    {
+      "name": "EP006_upload_info_en.md",
+      "sha256": "b414490b9e033c3242bca8c67942b775ede2b5d09defaf1101785d98d828faa2",
+      "only_artwork_credit_changes": true,
+      "production_memo_preserved_verbatim_from_v01": true
+    },
+    {
+      "name": "EP006_upload_info_ja.md",
+      "sha256": "dcbdcd9b72b9a03837f1a38a506a21dd09ae6c2a7e37810aa4e5bdb952730c35",
+      "only_artwork_credit_changes": true,
+      "production_memo_preserved_verbatim_from_v01": true
+    }
+  ],
+  "removed": [
+    "met_286141",
+    "met_256761"
+  ],
+  "added": [
+    "museo_Inv27_001"
+  ],
+  "end_screen": "v01 only lists collections, not individual artworks/artists/accessions. Those collections remain correct, so the screen is unchanged."
+}

@@ -1,0 +1,25 @@
+{
+  "date": "2026-10-26",
+  "service": "OpenAI built-in image_gen",
+  "generation_calls": 3,
+  "prompts": [
+    {
+      "id": "scene1",
+      "prompt": "Use case: historical-scene. Asset: text-free painted background for a 16:9 YouTube thumbnail, 1536x864 or similar wide 16:9. Paint the actual weathered Great Sphinx of Giza at dusk, viewed from a low three-quarter front angle, its recognizable broken/missing nose, limestone lion forebody and royal nemes headcloth. Monument only, not a living human or reconstructed historical person's portrait. The head and forebody dominate the right two thirds; the FACE is fully contained in the rightmost 35 percent, between 15 and 65 percent image height. The Great Pyramid is a dark silhouette behind. Warm golden sunset highlights on the face and headdress against a deep blue sky; rich painterly brushwork, striking readable silhouette, cinematic but clearly an illustration. Left 45 percent is dark uncluttered sky/desert, available for later overlaid type. No flat navy panel: continuous full-bleed landscape everywhere. Keep the lower-right corner free of eyes or faces for a video duration badge. No people, tourists, camels, modern buildings, signs, text, lettering, logos or watermarks. Do not include any typography.",
+      "file": "/Users/ryo/.codex/generated_images/01a175eb-affa-7042-ac96-7e0013d901a9/exec-b1fcc468-8885-43b0-82f8-40299cc81b33.png",
+      "selected": true
+    },
+    {
+      "id": "scene2_initial",
+      "prompt": "Use case: historical-scene. Asset: text-free full-bleed painted background for a 16:9 YouTube thumbnail. One continuous Egyptian desert landscape at dusk in deep blue and gold. On the right foreground, a very large recognizably weathered limestone face and nemes headcloth of the Great Sphinx of Giza, with its real broken missing nose, lit by golden sunset; FACE completely to the right of x=68% and at y=12%–62%, no eye in lower-right duration-badge area. On the left background, a much smaller Greek mythic winged sphinx perches on a rock, ONLY as a solid dark backlit silhouette: recumbent lion body and two conspicuous spread bird wings. No facial details, no visible breasts, no human skin; the creature is entirely a silhouette. Its entire outline fits x=10%–40%, y=55%–77%, leaving upper-left x=3%–60%, y=10%–45% as clear dark blue sky for two lines of lettering added later. The two kinds of sphinx must be visibly distinct at tiny thumbnail size. Rich illustrative brushwork, dramatic warm rim light and clear shapes, clearly a painting, not a photographic claim of real coexistence. No text, logos, signs, writing, watermarks, living human portraits, people, camels, tourists or modern architecture. Continuous scene, no split-screen or flat navy banner. Do not add typography.",
+      "file": "/Users/ryo/.codex/generated_images/01a175eb-affa-7042-ac96-7e0013d901a9/exec-6cf50e8f-3a17-49da-ace0-5d9b45df6cff.png",
+      "selected": false
+    },
+    {
+      "id": "scene2",
+      "prompt": "Edit this thumbnail background. Preserve the large weathered Great Sphinx on the right, its broken nose, all its lighting and position, the pyramid, the desert and full-bleed sunset composition. Change ONLY the small Greek sphinx on the left rock: shrink it and move its silhouette lower so its entire outline, INCLUDING the uppermost wing tips, is contained between x=10% and 30% and y=59% and 77% of the full image. Make the entire creature a perfectly solid near-black backlit silhouette with NO internal rendering, NO visible face, NO facial features, NO chest/breast contours, NO golden rim details on its torso. Readable outline of two spread bird wings, a small generic head and recumbent lion body only. Adjust the supporting left rock as needed beneath it. The upper-left sky down to y=54% must be empty of creatures so two lines of large typography can be added there. Keep everything else unchanged. No text, humans, tourists, camels, modern buildings or watermarks.",
+      "file": "/Users/ryo/.codex/generated_images/01a175eb-affa-7042-ac96-7e0013d901a9/exec-fb40baa9-43ca-4890-a744-fd0e85609950.png",
+      "selected": true
+    }
+  ]
+}
