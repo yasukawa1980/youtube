@@ -1,0 +1,137 @@
+{
+  "date": "2026-10-27",
+  "image_generation_calls": 0,
+  "source": {
+    "path": "/Users/ryo/Desktop/新チャンネル/EP004_Pandora/サムネ改善_20261026/sources/案1案3_壺を開ける手_原寸.png",
+    "size": [
+      1672,
+      941
+    ],
+    "bytes": 2194538,
+    "sha256": "84b5496eae6c24c2874be69fcf80c3e3b20b1b6a939f0da10a9e18c0b1eaf7b6"
+  },
+  "previous": {
+    "path": "/Users/ryo/.codex/worktrees/quiet-origins-thumbnails/youtube/new-channel/サムネ確認用/wom04/wom04_サムネ案3_20261026.jpg",
+    "size": [
+      1280,
+      720
+    ],
+    "bytes": 367298,
+    "sha256": "2cca57a3c9431d33dcc9276e726161140dc86f30be3c7aff192a15e87d718eef"
+  },
+  "output": {
+    "path": "/Users/ryo/.codex/worktrees/quiet-origins-thumbnails/youtube/new-channel/サムネ確認用/wom04/wom04_サムネ案3_v02_20261027.jpg",
+    "size": [
+      1280,
+      720
+    ],
+    "bytes": 371802,
+    "sha256": "f4b9caac8ff667ced0c156ad79f105f77d0ac2b92a00ab7a3886a12199c6928b"
+  },
+  "comparison": {
+    "path": "/Users/ryo/.codex/worktrees/quiet-origins-thumbnails/youtube/new-channel/サムネ確認用/wom04/wom04_サムネ案3_v01_v02比較_20261027.jpg",
+    "size": [
+      1040,
+      440
+    ],
+    "bytes": 141915,
+    "sha256": "c7d54c9bf9bfb996f1ddb3f343a3216b0315280fde4e01df6d14d880beb1ad64"
+  },
+  "headline": {
+    "text": "PANDORA’S",
+    "apostrophe": "U+2019",
+    "x": 54,
+    "y": 145,
+    "width": 590,
+    "height": 132
+  },
+  "smoke": {
+    "polygon_1280x720": [
+      [
+        625,
+        0
+      ],
+      [
+        927,
+        0
+      ],
+      [
+        928,
+        40
+      ],
+      [
+        919,
+        63
+      ],
+      [
+        924,
+        108
+      ],
+      [
+        941,
+        134
+      ],
+      [
+        959,
+        157
+      ],
+      [
+        965,
+        166
+      ],
+      [
+        851,
+        166
+      ],
+      [
+        824,
+        163
+      ],
+      [
+        779,
+        150
+      ],
+      [
+        780,
+        126
+      ],
+      [
+        755,
+        113
+      ],
+      [
+        701,
+        120
+      ],
+      [
+        648,
+        95
+      ],
+      [
+        628,
+        65
+      ],
+      [
+        610,
+        28
+      ]
+    ],
+    "inward_erosion_px": 15,
+    "feather_sigma_px": 7,
+    "method": "gain 1.85→1.50; RGB lift upper(18,18,20)→lower(28,20,8); original texture retained; no added embers",
+    "changed_pixels": 39993,
+    "outside_mask_changed_pixels": 0,
+    "precompression_outside_smoke_and_headline_changed_pixels": 0,
+    "note": "0画素保証はJPEG圧縮前。JPEG再圧縮による差分は別。"
+  },
+  "v01_byte_identical_reproduction": true,
+  "clearance": {
+    "upper_guard_x": 740,
+    "upper_title_shadow_right_exclusive": 646,
+    "upper_conservative_gap_px": 94,
+    "lower_clay_edge_x": 751,
+    "lower_title_shadow_right_exclusive": 306,
+    "lower_gap_px": 445,
+    "minimum_conservative_gap_px": 94
+  }
+}
