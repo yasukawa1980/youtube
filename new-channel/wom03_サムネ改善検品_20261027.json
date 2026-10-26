@@ -1,0 +1,165 @@
+{
+  "date": "2026-10-27",
+  "service": "OpenAI built-in image_gen",
+  "generation_calls": 2,
+  "originals": [
+    {
+      "path": "/Users/ryo/Desktop/新チャンネル/EP003_Medusa/サムネ改善_20261027/sources/案1案3_左右の浮き彫り_原寸.png",
+      "size": [
+        1672,
+        941
+      ],
+      "bytes": 2881076,
+      "sha256": "fb44a334452278b0f43bdc1d297d94bb90bb47796a1a05dfab7603afa35688a3"
+    },
+    {
+      "path": "/Users/ryo/Desktop/新チャンネル/EP003_Medusa/サムネ改善_20261027/sources/案2_屋根瓦_原寸.png",
+      "size": [
+        1672,
+        941
+      ],
+      "bytes": 2375918,
+      "sha256": "0e37faa9fcd53a874fb42ae39961bf652d4d96a4016402b23dc6f6f4ebdc4063"
+    }
+  ],
+  "outputs": [
+    {
+      "path": "/Users/ryo/.codex/worktrees/quiet-origins-thumbnails/youtube/new-channel/サムネ確認用/wom03/wom03_サムネ案1_20261027.jpg",
+      "size": [
+        1280,
+        720
+      ],
+      "bytes": 444948,
+      "sha256": "ac4e159b77f0165e4227b5e998f3234febb5ef1af4fa3b8b47c56a3b17e1b56c"
+    },
+    {
+      "path": "/Users/ryo/.codex/worktrees/quiet-origins-thumbnails/youtube/new-channel/サムネ確認用/wom03/wom03_サムネ案2_20261027.jpg",
+      "size": [
+        1280,
+        720
+      ],
+      "bytes": 402457,
+      "sha256": "d54fe155b0eade5e08e6e44e8dd583fb4285865c64d80c1e7889350760f3ee10"
+    },
+    {
+      "path": "/Users/ryo/.codex/worktrees/quiet-origins-thumbnails/youtube/new-channel/サムネ確認用/wom03/wom03_サムネ案3_20261027.jpg",
+      "size": [
+        1280,
+        720
+      ],
+      "bytes": 443403,
+      "sha256": "d5f7face8a36753045b18c4b72d0c2146dd1b6787d0077613a6d9881b02c9d47"
+    },
+    {
+      "path": "/Users/ryo/.codex/worktrees/quiet-origins-thumbnails/youtube/new-channel/サムネ確認用/wom03/wom03_サムネ168px比較_20261027.jpg",
+      "size": [
+        1120,
+        150
+      ],
+      "bytes": 83591,
+      "sha256": "531a0e9697333faed75269f90fbe50c7a497f464285dba44c14eb782515d0ff4"
+    },
+    {
+      "path": "/Users/ryo/.codex/worktrees/quiet-origins-thumbnails/youtube/new-channel/サムネ確認用/wom03/wom03_サムネ余白検品_20261027.jpg",
+      "size": [
+        1280,
+        804
+      ],
+      "bytes": 262181,
+      "sha256": "21af6f44063e3b05133603c31bb43b8efc2ca518de5d10321f266404df10991d"
+    }
+  ],
+  "measurements": [
+    {
+      "candidate": 1,
+      "widths": [
+        410,
+        540
+      ],
+      "subject_guard_left_x": 630,
+      "title_shadow_right_exclusive_x": [
+        466,
+        596
+      ],
+      "conservative_gaps_px": [
+        164,
+        34
+      ],
+      "minimum_conservative_gap_px": 34
+    },
+    {
+      "candidate": 2,
+      "widths": [
+        410,
+        540
+      ],
+      "subject_guard_left_x": 630,
+      "title_shadow_right_exclusive_x": [
+        466,
+        596
+      ],
+      "conservative_gaps_px": [
+        164,
+        34
+      ],
+      "minimum_conservative_gap_px": 34
+    },
+    {
+      "candidate": 3,
+      "widths": [
+        300,
+        540
+      ],
+      "subject_guard_left_x": 630,
+      "title_shadow_right_exclusive_x": [
+        356,
+        596
+      ],
+      "conservative_gaps_px": [
+        274,
+        34
+      ],
+      "minimum_conservative_gap_px": 34
+    }
+  ],
+  "measurement_method": "y145〜436の見出し帯で、顔・蛇に加え浮き彫りの縁・屋根瓦の台座もx630より右にあることを目視確認。文字の影を含む外接枠から保全領域x630への距離。実輪郭の自動抽出値ではなく保守値。",
+  "title_height_px": 132,
+  "comparison_cell_px": [
+    168,
+    94
+  ],
+  "same_background_candidates": [
+    1,
+    3
+  ],
+  "youtube_modified": false,
+  "previous_thumbnails": [
+    {
+      "path": "/Users/ryo/.codex/worktrees/quiet-origins-thumbnails/youtube/new-channel/サムネ確認用/wom03/wom03_サムネ_A24.jpg",
+      "size": [
+        1280,
+        720
+      ],
+      "bytes": 69792,
+      "sha256": "43c9a3943adda4c8d2a00dc718a0833afe54c50eaee13d49d137006ce0801394"
+    },
+    {
+      "path": "/Users/ryo/.codex/worktrees/quiet-origins-thumbnails/youtube/new-channel/サムネ確認用/wom02/wom02_サムネ案1_v02_20261026.jpg",
+      "size": [
+        1280,
+        720
+      ],
+      "bytes": 377641,
+      "sha256": "9035e8b8542a9c5102850d1cb51202eea96dbbd15a97b993087a0d153241ebc3"
+    },
+    {
+      "path": "/Users/ryo/.codex/worktrees/quiet-origins-thumbnails/youtube/new-channel/サムネ確認用/wom04/wom04_サムネ案3_v02_20261027.jpg",
+      "size": [
+        1280,
+        720
+      ],
+      "bytes": 371802,
+      "sha256": "f4b9caac8ff667ced0c156ad79f105f77d0ac2b92a00ab7a3886a12199c6928b"
+    }
+  ]
+}
