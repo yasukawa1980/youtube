@@ -5,26 +5,31 @@ import numpy as np
 from fractions import Fraction
 import imageio_ffmpeg
 from PIL import Image,ImageDraw,ImageFont
-from wom06_produce import ROOT,REPO,OP,END,FPS,SR,read,save,sha,ff,probe,measure,content
+from wom06_produce import ROOT,REPO,OP,END,FPS,SR,read,save,sha,ff,probe,measure,content,ai_video
 from wom01_quiet_origins import stream_hash
 
-def camera(count,band=(110,930),rim=False,amount=.03):
- z=f'(1+{amount}*on/{max(1,count-1)})';x=f'(W-W/{z})/2';y='0' if rim else f'(H-H/{z})/2'
+def camera(count,band=(110,930),rim=False,amount=.03,direction=None):
+ t=f'on/{max(1,count-1)}'
+ z=f'(1+{amount}*{t})';x=f'(W-W/{z})/2';y='0' if rim else f'(H-H/{z})/2'
+ if direction=='face_to_wing':z='1.08';x=f'(W-W/{z})*(0.72-0.44*{t})';y=f'(H-H/{z})*0.2'
+ if direction=='bottom_to_top':z='1.08';x=f'(W-W/{z})/2';y=f'(H-H/{z})*(1-{t})'
  top,bottom=band;h=bottom-top
- p=f"perspective=x0='{x}':y0='{y}':x1='W-{x}':y1='{y}':x2='{x}':y2='H-{y}':x3='W-{x}':y3='H-{y}':sense=source:eval=frame:interpolation=cubic"
+ p=f"perspective=x0='{x}':y0='{y}':x1='{x}+W/{z}':y1='{y}':x2='{x}':y2='{y}+H/{z}':x3='{x}+W/{z}':y3='{y}+H/{z}':sense=source:eval=frame:interpolation=cubic"
  return f'[0:v]split=2[base][art];[art]crop=1920:{h}:0:{top},format=yuv444p,{p}[moving];[base][moving]overlay=0:{top}:format=yuv444,format=yuv420p[v]'
 
 
-def pictures():
+def pictures(partial=False):
  master=read(ROOT/'records/master_timeline.json');manifest=read(ROOT/'records/visual_manifest.json')['shots']
  for key in ['V01','V02','V03']:
-  assert (ROOT.parent/f'素材/{key}_Kling_v01.mp4').exists(), f'{key} has not been generated; do not encode a placeholder'
+  if partial:continue
+  assert ai_video(key).exists(), f'{key} has not been generated; do not encode a placeholder'
   assert not next(s for s in manifest if s['key']==key).get('missing_video'), 'Re-run visuals after downloading videos'
  narr=read(ROOT/'records/narration_timeline_en.json')['segments'];shots=[]
  def card(key,path):
-  a,b=master['brand_intervals'][key];n=round((b-a)*30);out=ROOT/f'_work/render/{key}.mp4'
-  ff(['-i',path,'-vf','fps=30,scale=1920:1080,setsar=1,format=yuv420p','-frames:v',n,'-an','-c:v','libx264','-threads',2,'-preset','veryfast','-crf',18,'-profile:v','high',out])
-  shots.append({'key':key,'segment_id':'BRAND','start':a,'end':b,'frames':n,'encoded_file':str(out.relative_to(ROOT)),'original_source':str(path),'original_sha256':sha(path)})
+  a,b=master['brand_intervals'][key];n=round((b-a)*30)
+  v=next(s for s in probe(path)['streams'] if s['codec_type']=='video')
+  assert (v['width'],v['height'],v['avg_frame_rate'],int(v['nb_frames']))==(1920,1080,'30/1',n)
+  shots.append({'key':key,'segment_id':'BRAND','start':a,'end':b,'frames':n,'encoded_file':str(path),'original_source':str(path),'original_sha256':sha(path)})
  for i,seg in enumerate(master['segments']):
   group=[s for s in manifest if s['segment_id']==seg['id']];a=0 if i==0 else round(seg['start']*30);b=round(seg['end']*30)
   bounds=np.linspace(a,b,len(group)+1).round().astype(int)
@@ -35,20 +40,34 @@ def pictures():
   assert all(bounds[j+1]>bounds[j] for j in range(len(group)))
   for j,s in enumerate(group):
    key=s['key'];n=int(bounds[j+1]-bounds[j]);out=ROOT/f'_work/render/{seg["id"]}_{j+1:02}_{key}.mp4';stamp=out.with_suffix('.json')
+   if partial and key.startswith('V'):continue
    args=['-loop',1,'-framerate',30,'-i',ROOT/s['file']]
-   filt=camera(n,s['camera_band']);cfg={'image_sha256':sha(ROOT/s['file']),'frames':n,'crf':18}
-   if key.startswith('D_') or key=='credits':filt='[0:v]format=yuv420p[v]'
+   direction={'met_255101':'face_to_wing','met_248501':'bottom_to_top'}.get(key)
+   filt=camera(n,s['camera_band'],amount=.05 if key=='met_261777' else .03,direction=direction);cfg={'image_sha256':sha(ROOT/s['file']),'frames':n,'crf':18}
+   static=key.startswith('D_') or key=='credits'
+   if static:
+    filt='[0:v]format=yuv420p[v]';cfg['lossless_static_intermediate']=True
    if key.startswith('V'):
-    video=ROOT.parent/f'素材/{key}_Kling_v01.mp4';v=next(x for x in probe(video)['streams'] if x['codec_type']=='video');fps=float(Fraction(v['avg_frame_rate']));count=int(v['nb_frames']);factor=(n/30)/(count/fps)
+    video=ai_video(key);v=next(x for x in probe(video)['streams'] if x['codec_type']=='video');fps=float(Fraction(v['avg_frame_rate']));count=int(v['nb_frames'])
+    used=min(count,round(n/30*fps));first=(count-used)//2 if used<count else 0;factor=(n/30)/(used/fps)
     cfg['video_sha256']=sha(video)
-    filt=f'[1:v]setpts=(PTS-STARTPTS)*{factor:.12f},scale=1458:820:flags=lanczos,minterpolate=fps=30:mi_mode=mci:mc_mode=aobmc:me_mode=bidir:vsbmc=1,tpad=stop_mode=clone:stop_duration=0.25[art];[0:v][art]overlay=231:110:shortest=1,format=yuv420p[v]';args+=['-i',video]
+    filt=f'[1:v]trim=start_frame={first}:end_frame={first+used},setpts=(PTS-STARTPTS)*{factor:.12f},scale=1458:820:flags=lanczos,minterpolate=fps=30:mi_mode=mci:mc_mode=aobmc:me_mode=bidir:vsbmc=1,tpad=stop_mode=clone:stop_duration=0.25[art];[0:v][art]overlay=231:110:shortest=1,format=yuv420p[v]';args+=['-i',video]
+    if key=='V02':
+     # The original shadow advances unevenly at 24 fps. Resample its motion
+     # at 8 fps, then reconstruct 30 fps with optical flow; preserve the source.
+     filt=filt.replace('minterpolate=fps=30','fps=8,minterpolate=fps=30')
+     cfg['cadence_regularization_fps']=8
+    cfg.update({'source_start_frame':first,'source_frames_used':used,'time_scale':factor})
    cfg['filter']=filt
    if not(out.exists() and stamp.exists() and read(stamp)==cfg):
-    ff([*args,'-filter_complex_threads',2,'-filter_complex',filt,'-map','[v]','-frames:v',n,'-an','-c:v','libx264','-threads',2,'-preset','veryfast','-crf',18,'-profile:v','high','-pix_fmt','yuv420p','-video_track_timescale',15360,out]);save(stamp,cfg)
-   shots.append({**s,'start':int(bounds[j])/30,'end':int(bounds[j+1])/30,'frames':n,'encoded_file':str(out.relative_to(ROOT)),'zoom_percent':0 if key.startswith('D_') or key=='credits' else 3})
+    quality=['-qp',0,'-profile:v','high444'] if static else ['-crf',18,'-profile:v','high']
+    ff([*args,'-filter_complex_threads',2,'-filter_complex',filt,'-map','[v]','-frames:v',n,'-an','-c:v','libx264','-threads',2,'-preset','veryfast',*quality,'-pix_fmt','yuv420p','-video_track_timescale',15360,out]);save(stamp,cfg)
+   shots.append({**s,'start':int(bounds[j])/30,'end':int(bounds[j+1])/30,'frames':n,'encoded_file':str(out.relative_to(ROOT)),'camera_direction':direction,'render_config':cfg})
    print('RENDERED',seg['id'],key,n,flush=True)
   if i==1:card('opening',OP)
  card('endcard',END)
+ if partial:
+  save(ROOT/'records/still_render_progress.json',shots);print('STILLS COMPLETE',len(shots),flush=True);return
  assert sum(s['frames'] for s in shots)==round(master['duration_seconds']*30)
  save(ROOT/'records/render_shots.json',shots)
  # Independent fresh decoders -> raw yuv420p frames -> exactly one encoder.
@@ -128,4 +147,6 @@ def verify():
  save(ROOT/'records/qc_v01.json',{'passed':True,'duration_seconds':master['duration_seconds'],'frames':frames,'fps':30,'human_full_listening':False,'files':files,'shared_video_stream':True,'subtitled_audio_unchanged':True})
 
 if __name__=='__main__':
- p=argparse.ArgumentParser();p.add_argument('stage',choices=['pictures','package','reviews','precision','verify']);a=p.parse_args();globals()[a.stage]()
+ p=argparse.ArgumentParser();p.add_argument('stage',choices=['stills','pictures','package','reviews','precision','verify']);a=p.parse_args()
+ if a.stage=='stills':pictures(partial=True)
+ else:globals()[a.stage]()

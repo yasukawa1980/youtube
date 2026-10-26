@@ -18,6 +18,10 @@ BRAND=Path('/Users/ryo/Desktop/新チャンネル/ブランド素材/オープ�
 OP=BRAND/'Quiet_Origins_opening_trial_v02.mp4';END=Path('/Users/ryo/Desktop/新チャンネル/ブランド素材/エンドカード_共通版_v02_20261023/deliverables/Quiet_Origins_endcard_v02.mp4')
 SR=24000;FPS=30
 def sha(path):return _file_sha(Path(path))
+def ai_video(key):
+ p=ROOT/'records/ai_videos.json'
+ if p.exists():return Path(next(a['local_path'] for a in read(p) if a['id']==key))
+ return MEDIA/f'{key}_Kling_v01.mp4'
 # Applied only after preserving both complete, unmodified first synthesis runs.
 CORRECT_READINGS=os.environ.get('WOM06_CORRECT_READINGS')=='1'
 PHONEMES={

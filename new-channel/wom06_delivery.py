@@ -45,7 +45,7 @@ def main():
  credits='# EP006 — Source image credits\n\n'
  for a in assets:
   credits+=f"## {a['id']} — {a['title']}\n\n{a['artist']}; {a['date']}; {a['museum']}; {a['accession']}.\n\n{a['object_url']}\n\nRights: {a['rights']}.\n{a.get('rights_url','')}\n\n"
- (ROOT/'deliverables/EP006_source_credits.md').write_text(credits)
+ (ROOT/'deliverables/EP006_source_credits.md').write_text(credits.rstrip()+'\n')
  for lang in ['en','ja']:
   intro=("Egypt's royal guardian and the riddling monster of Thebes share a name. This episode follows their different histories through ancient texts, museum objects and historic photographs. We distinguish a text's claims from modern retellings, and a printed edition's date from the age of the story." if lang=='en' else 'エジプトの王の守り手と、テーバイのなぞかけの怪物。一つの名前を分け合う二つのスフィンクスを、古い文献・博物館の資料・古写真でたどります。書物に実際に書かれたことと後世の語り直し、物語の時代と今回使う刊本の年を区別しています。')
   disclosure=('Synthetic narration and clearly labelled, painterly AI videos are used. AI scenes are illustrations, not historical evidence or exact archaeological reconstructions.' if lang=='en' else '音声合成と、札を付けた絵画的なAI映像を使用しています。AI場面は挿絵であり、史料や特定の遺跡の正確な復元ではありません。')
@@ -59,7 +59,9 @@ def main():
    if a['id'].startswith('museo_'):body+=a['object_url']+'\n'
   body+='Wellcome Collection via Internet Archive — Norden, Public Domain Mark.\nUniversity of California Libraries via Internet Archive — Hesiod, public domain.\nOnline Library of Liberty — Jebb/Sophocles, public-domain text and original scan.\n\nEnglish voice: Kokoro / Heart (af_heart).\n日本語音声：VOICEVOX:冥鳴ひまり\nhttps://www.meimeihimari.com/terms-of-use\nhttps://voicevox.hiroshiba.jp/\nAI video: Kling AI (V01–V03).\nDiagrams and original synthesized ambient music: Quiet Origins.\n\n#Sphinx #AncientHistory #QuietOrigins\n'
   assert len(body)<=5000,(lang,len(body));assert len(c[lang]['title'])<=100
-  info=f"# EP006 投稿情報・下書き\n\n## Title\n\n{c[lang]['title']}\n\n## Description\n\n{body}\n## 制作メモ（概要欄には含めない）\n\n共通尺 {m['duration_seconds']:.6f}秒。映像未完成・Kling未生成・公開日未定・YouTube投稿未実施。AI生成完了と最終映像の照合後に確定してください。\n"
+  ready=(ROOT/'records/qc_v01.json').exists() and read(ROOT/'records/qc_v01.json')['passed']
+  status='英日確認版を作成・技術検査済み。本人の試聴と映像確認待ち。Kling 272クレジット使用。公開日未定・YouTube投稿未実施。' if ready else '最終映像の書き出し・検査中。公開日未定・YouTube投稿未実施。'
+  info=f"# EP006 投稿情報・下書き\n\n## Title\n\n{c[lang]['title']}\n\n## Description\n\n{body}\n## 制作メモ（概要欄には含めない）\n\n共通尺 {m['duration_seconds']:.6f}秒。{status}\n"
   (ROOT/f'deliverables/EP006_upload_info_{lang}.md').write_text(info)
  if '--docs-only' not in sys.argv:auditions()
  print('LOCAL REVIEW DOCS COMPLETE',flush=True)

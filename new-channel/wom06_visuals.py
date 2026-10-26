@@ -2,7 +2,7 @@
 import math,os,json
 from pathlib import Path
 from PIL import Image,ImageDraw,ImageFont,ImageOps,ImageFilter,ImageEnhance
-from wom06_produce import ROOT,REPO,MEDIA,read,save,sha,content,ff
+from wom06_produce import ROOT,REPO,MEDIA,read,save,sha,content,ff,ai_video
 Image.MAX_IMAGE_PIXELS=200000000
 W,H=1920,1080;BG='#0c1820';GOLD='#d8b575';IVORY='#f4efdf';MUTED='#b0bfc3'
 EN='/System/Library/Fonts/Supplemental/Arial.ttf';SERIF='/System/Library/Fonts/Supplemental/Georgia.ttf';JA='/System/Library/Fonts/ヒラギノ角ゴシック W3.ttc'
@@ -99,11 +99,11 @@ def compose(key):
   header(im,label,source)
   if key in CROPS:extra['crop_normalized']=CROPS[key];extra['background_also_uses_only_crop']=True
  elif key.startswith('V'):
-  video=MEDIA/f'{key}_Kling_v01.mp4';poster=ROOT/f'assets/{key}_poster.png'
+  video=ai_video(key);poster=ROOT/f'assets/{key}_poster.png'
   if video.exists():
    ff(['-i',video,'-vf',r'select=eq(n\,30)','-frames:v',1,poster]);im=background(Image.open(poster).convert('RGB'))
   else:extra['missing_video']=True
-  label='AI RECONSTRUCTION｜AIによる再現';header(im,label,'Kling AI • painterly illustration');BOXES=[[231,110,1689,930]]
+  label='AI RECONSTRUCTION｜AIによる再現';source='Kling AI • painterly illustration';header(im,label,source);BOXES=[[231,110,1689,930]]
  elif key.startswith('D_'):diagram(im,key);label='SCHEMATIC｜模式図';extra['base_assets']=key[7:-1].split(',') if key.startswith('D_pair(') else []
  elif key=='credits':
   header(im)
