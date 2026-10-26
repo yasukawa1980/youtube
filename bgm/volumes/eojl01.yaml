@@ -11,8 +11,27 @@ volume: 101
 slug: eojl01
 dir: "/Volumes/ESD-02/BGM/5_Echoes of Old Japan/EOJL01_素材_8時間"
 
-runtime: "8 HOURS"
+# runtime は書かない（EOJはサムネに尺を描かない。8:46 は「8 HOURS」の±3分照合に落ちる）
 cta: true
+
+# ★サムネは2案を Studio の「テストと比較」に掛ける（10/26 本人：作曲家3人の顔を入れる案）。
+#   A＝題字だけ（このyamlで焼く）、B＝A にバッハ・ショパン・シューベルトの丸窓を足す（`bgm/EOJL01_サムネB.py`）。
+#   下地は EOJ04 のサムネ専用画（梅林。右半分が空で、丸窓を置いても絵の主役を隠さない）。
+title_lines: [朝まで8時間]
+thumb_sub: 箏と尺八で聴くクラシック
+thumb:
+  title_family: jp
+  sub_family: jp
+  title_fit: 760
+  sizes: {sub: 54}
+  font_index: {sub: 0}
+  tracking:
+    brand: 4
+    sub: 2
+thumb_layout:
+  sub: 488
+background: "/Volumes/ESD-02/BGM/5_Echoes of Old Japan/EOJ04_素材_ノクターン/画像/eoj04_05.png"
+thumb_out: "/Volumes/ESD-02/BGM/5_Echoes of Old Japan/EOJL01_素材_8時間/eojl01_サムネA_16x9.png"
 
 images:
 - "/Volumes/ESD-02/BGM/5_Echoes of Old Japan/EOJ13_素材_子守歌/画像/eoj13_01.png"
