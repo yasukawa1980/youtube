@@ -1,0 +1,277 @@
+{
+ "episode_id": "EP006",
+ "series": "Quiet Origins",
+ "language": "ja",
+ "title": "エジプトのスフィンクスは、なぞなぞを出さない",
+ "subtitle": "エジプトの王の守り手と、テーバイのなぞかけの怪物が、一つの名前を分け合うまで",
+ "script_version": "v02 (2026-10-26, approved)",
+ "opening_after": "P02",
+ "chapters": [
+  {
+   "id": "C01",
+   "title": "テーバイのなぞ"
+  },
+  {
+   "id": "C02",
+   "title": "ライオンの体の王"
+  },
+  {
+   "id": "C03",
+   "title": "テーバイの怪物"
+  },
+  {
+   "id": "C04",
+   "title": "なぞの言葉"
+  },
+  {
+   "id": "C05",
+   "title": "一つの名前、二つの生き物"
+  }
+ ],
+ "sources": [
+  {
+   "id": "S-S01",
+   "title": "AERA / Mark Lehner, 'Who Built the Sphinx?' (Great Sphinx carved from bedrock, c. 4,500 years ago; link to Khafre)",
+   "kind": "research",
+   "status": "checked by Codex 2026-10-26: attribution to Khafre is an archaeological inference — script says 'many scholars link it'"
+  },
+  {
+   "id": "S-S02",
+   "title": "Met 31.3.166, Sphinx of Hatshepsut (granite, ca. 1473–1458 BCE)",
+   "kind": "museum_record",
+   "status": "checked by Codex 2026-10-26: nemes headcloth and ceremonial false beard"
+  },
+  {
+   "id": "S-S03",
+   "title": "Dream Stela of Thutmose IV: J. H. Breasted, Ancient Records of Egypt, vol. II (1906), §815, pp. 323–324; Lehner, Archaeology of an Image, ch. 3.4",
+   "kind": "primary_text",
+   "status": "checked by Codex 2026-10-26 (book image): rested in the shadow of the great god; 'will give to thee my kingdom'; 'the sand of this desert ... has reached me'. Told as the stela's story"
+  },
+  {
+   "id": "S-S04",
+   "title": "Hesiod, Theogony c. 326, tr. H. G. Evelyn-White (1914; 1920 reprint), p. 103",
+   "kind": "primary_text",
+   "status": "checked by Codex 2026-10-26 (book image): 'the deadly Sphinx which destroyed the Cadmeans'; no riddle in this passage; parents not named in script"
+  },
+  {
+   "id": "S-S05",
+   "title": "Met 11.185d,x, marble capital and finial in the form of a sphinx (Attic, ca. 530 BCE)",
+   "kind": "museum_record",
+   "status": "checked by Codex 2026-10-26"
+  },
+  {
+   "id": "S-S06",
+   "title": "Etymology of 'sphinx' (e.g. M. Jagiełło 2018, Classica Cracoviensia 21)",
+   "kind": "research",
+   "status": "no consensus — script says uncertain"
+  },
+  {
+   "id": "S-S07",
+   "title": "Sophocles, Oedipus the King, tr. R. C. Jebb (1904), p. 4 (ll. 35–37 'the hard songstress'), p. 7 (l. 130 'The riddling Sphinx')",
+   "kind": "primary_text",
+   "status": "checked by Codex 2026-10-26 (book image): riddle text not given in the play; date of first performance uncertain — '400s BC'"
+  },
+  {
+   "id": "S-S08",
+   "title": "Athenaeus, Deipnosophists 10.456b (tr. Gulick); [Apollodorus], Library 3.5.8 (tr. Frazer, 1921)",
+   "kind": "primary_text",
+   "status": "checked by Codex 2026-10-26 (web transcriptions): one voice; four-, two-, three-footed (Athenaeus orders 2-4-3); no morning/noon/evening; Frazer: threw herself from the citadel. Not claimed as oldest"
+  },
+  {
+   "id": "S-S09",
+   "title": "Herodotus, Histories 2.175 (tr. Macaulay, 1890)",
+   "kind": "primary_text",
+   "status": "checked by Codex 2026-10-26: Amasis dedicated 'man-headed sphinxes very large' at Sais; not about Giza"
+  },
+  {
+   "id": "S-S10",
+   "title": "F. L. Norden, plates XLV–XLVII (1780 London edition, Wellcome Library; plate XLV signed 1737); French expedition 1798–1801",
+   "kind": "primary_image",
+   "status": "checked by Codex 2026-10-26: plate XLVII shows the face without the nose. Cause not stated"
+  }
+ ],
+ "segments": [
+  {
+   "id": "P01",
+   "chapter": "C01",
+   "sources": [],
+   "classification": "editorial_question",
+   "visuals": [
+    "met_255101",
+    "met_286141"
+   ],
+   "text": "ライオンの体。女の顔。背中にたたんだ翼。テーバイの町を見下ろし、町の人々に、なぞなぞを出します。答えられない者は、殺されてしまう。ギリシャの伝説のスフィンクスです。けれど、世界でいちばん有名なスフィンクス、エジプトの大きなスフィンクスは、だれにもなぞなぞを出したことがありません。女ですらないのです。"
+  },
+  {
+   "id": "P02",
+   "chapter": "C01",
+   "sources": [],
+   "classification": "editorial_question",
+   "visuals": [
+    "D_pair(met_544186,met_256761)"
+   ],
+   "text": "今回は、エジプトの守り手と、ギリシャのなぞかけ。まったく違う二つのスフィンクスと、一つの名前が両方を指すようになったわけを見ていきます。"
+  },
+  {
+   "id": "P03",
+   "chapter": "C02",
+   "sources": [
+    "S-S01"
+   ],
+   "classification": "source_based",
+   "visuals": [
+    "museo_Inv02_008",
+    "museo_Album1_004"
+   ],
+   "text": "ギザの大スフィンクスは、およそ4500年前、砂漠の岩盤をそのまま彫って造られました。多くの研究者は、うしろにピラミッドがそびえるカフラー王と結びつけています。顔には、ファラオの王の頭巾。体は、身を休めるライオンです。"
+  },
+  {
+   "id": "P04",
+   "chapter": "C02",
+   "sources": [
+    "S-S02"
+   ],
+   "classification": "source_based",
+   "visuals": [
+    "V01",
+    "met_544442"
+   ],
+   "text": "エジプトでは、ライオンは力のしるしでした。スフィンクスは、その力に王の顔を合わせたものです。スフィンクスは神殿への道に並び、聖なる場所を見守りました。その多くは王の姿です。ファラオとして国を治めた女性、ハトシェプストも、スフィンクスとして表されました。王の頭巾をかぶり、王の儀式のあごひげをつけて。"
+  },
+  {
+   "id": "P05",
+   "chapter": "C02",
+   "sources": [
+    "S-S03"
+   ],
+   "classification": "source_based",
+   "visuals": [
+    "museo_Inv01_011"
+   ],
+   "text": "ギザのスフィンクスを、造った人々が何と呼んでいたのかは分かっていません。千年以上のち、エジプトの人々はこれを神として拝みました。ホルエムアケト、「地平線のホルス」です。その前足のあいだには、トトメス4世が立てた石碑があります。若い王子だったころ、この偉大な神の影で休んでいると、夢の中で神が、王国を与えようと約束し、砂漠の砂が自分のところまで迫っている、と告げた。碑はそう語ります。"
+  },
+  {
+   "id": "P06",
+   "chapter": "C02",
+   "sources": [
+    "S-S02",
+    "S-S03"
+   ],
+   "classification": "summary",
+   "visuals": [
+    "met_544823",
+    "met_565105"
+   ],
+   "text": "これらのエジプトの像と碑に、なぞなぞは出てきません。ここでのスフィンクスは、旅人を試したりしません。王と神々を守っているのです。"
+  },
+  {
+   "id": "P07",
+   "chapter": "C03",
+   "sources": [
+    "S-S04"
+   ],
+   "classification": "source_based",
+   "visuals": [
+    "V02",
+    "hesiod_159"
+   ],
+   "text": "ギリシャでは、スフィンクスは別のものでした。前700年ごろの詩人ヘシオドスは、怪物たちの一族の中にスフィンクスを挙げ、テーバイの人々を滅ぼしたもの、と呼んでいます。この箇所に、なぞなぞのことは何も書かれていません。"
+  },
+  {
+   "id": "P08",
+   "chapter": "C03",
+   "sources": [
+    "S-S05"
+   ],
+   "classification": "source_based",
+   "visuals": [
+    "met_248501"
+   ],
+   "text": "ギリシャの作り手たちは、ふつうスフィンクスに、女の頭、ライオンの体、そして鳥の翼を与えました。そしてよく、墓のしるしのいちばん上に置き、死者を見守らせました。このスフィンクスは、前530年ごろ、アッティカの墓の上に据えられていたものです。"
+  },
+  {
+   "id": "P09",
+   "chapter": "C03",
+   "sources": [
+    "S-S06"
+   ],
+   "classification": "interpretation",
+   "visuals": [
+    "met_329999",
+    "met_247343"
+   ],
+   "text": "この名前がどこから来たのかは、はっきりしません。ギリシャ語の「締めつける」という言葉と結びつける説があり、エジプトに由来を求める説もあります。確かなことは、分かっていません。"
+  },
+  {
+   "id": "P10",
+   "chapter": "C04",
+   "sources": [
+    "S-S07"
+   ],
+   "classification": "source_based",
+   "visuals": [
+    "jebb1904_15",
+    "met_437153"
+   ],
+   "text": "なぞなぞは、テーバイの物語の一部です。前400年代のアテナイで、舞台の上で語られました。ソフォクレスの劇『オイディプス王』では、人々が「なぞをかけるスフィンクス」を思い出し、オイディプスは、町をその苦しみから救ったよそ者として描かれます。この出会いは、その後もくり返し絵に描かれてきました。"
+  },
+  {
+   "id": "P11",
+   "chapter": "C04",
+   "sources": [
+    "S-S07",
+    "S-S08"
+   ],
+   "classification": "source_based",
+   "visuals": [
+    "D_riddle"
+   ],
+   "text": "けれど、劇の中に、なぞなぞの言葉そのものは出てきません。その言葉が見つかるのは、アテナイオスや、『ビブリオテーケー』と呼ばれる神話の手引き書など、後の時代の書き手のものです。一つの声を持ち、四つ足にも、二つ足にも、三つ足にもなるものは何か。答えは人間。赤ん坊ははいはいし、大人は歩き、年寄りは杖にすがる。これらの書物には、朝も、昼も、晩も出てきません。そして、なぞが解かれると、スフィンクスは身を投げた、と『ビブリオテーケー』は伝えます。"
+  },
+  {
+   "id": "P12",
+   "chapter": "C05",
+   "sources": [
+    "S-S09"
+   ],
+   "classification": "source_based",
+   "visuals": [
+    "met_261777"
+   ],
+   "text": "では、なぜ一つの名前が両方を指すようになったのでしょう。その道すじを、すべてたどれるわけではありません。けれど、ギリシャの名前は残りました。前400年代の歴史家ヘロドトスは、エジプトのサイスの神殿に王が奉納した大きな像を、「アンドロスフィンクス」、人の頭をしたスフィンクスと書いています。そして私たちは今も、ギザの守り手を、ギリシャの怪物の名で呼んでいます。"
+  },
+  {
+   "id": "P13",
+   "chapter": "C05",
+   "sources": [
+    "S-S10"
+   ],
+   "classification": "source_based",
+   "visuals": [
+    "norden_109"
+   ],
+   "text": "その顔には、もう一つの話があります。ナポレオンの兵士が鼻を撃ち落とした、とよく言われます。けれど、1730年代に訪れたデンマークの旅行家ノルデンの絵には、すでに鼻のない顔が描かれています。その絵が刷られたのは、ナポレオンが1798年にエジプトへ来るよりずっと前のことでした。"
+  },
+  {
+   "id": "P14",
+   "chapter": "C05",
+   "sources": [],
+   "classification": "summary",
+   "visuals": [
+    "museo_Inv02_007",
+    "V03"
+   ],
+   "text": "では、スフィンクスはなぞなぞを出したのでしょうか。ギリシャのスフィンクスは、テーバイの物語の中で出しました。ずっと古いエジプトのスフィンクスは、ライオンの姿をした王として、砂漠のはずれで見張りを続けてきました。二つの生き物に、一つの名前。どの物語にも由来がある。ときには、二つの物語が、同じ名前を分け合っています。"
+  },
+  {
+   "id": "P15",
+   "chapter": "C05",
+   "sources": [],
+   "classification": "credits",
+   "visuals": [
+    "credits"
+   ],
+   "text": "この動画は、歴史上の文献と公開された美術館のコレクションをもとに構成しました。ナレーションには音声合成を、一部の映像にはAIによる再現画を使っています。出典と利用条件は概要欄にまとめています。楽しんでいただけたら、高評価とチャンネル登録をお願いします。ご覧いただき、ありがとうございました。"
+  }
+ ]
+}
