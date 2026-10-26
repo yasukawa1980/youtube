@@ -1,0 +1,29 @@
+{
+  "episode": "EP006",
+  "service": "Kling AI",
+  "status": "not_started_browser_control_timeout",
+  "actual_credits_used": 0,
+  "total_credit_limit": 300,
+  "duration_seconds": "5–10",
+  "aspect_ratio": "16:9",
+  "clips": [
+    {
+      "id": "V01",
+      "prompt": "A painterly historical illustration in motion, wide landscape composition, an imaginary ancient Egyptian processional avenue lined on both sides with rows of recumbent sphinx statues extending far into the distance toward a simple stone temple. Gentle oblique dawn light, muted ochre stone and blue shadows, visible brushwork, quiet and contemplative. The camera makes an extremely slow steady forward drift. Keep every statue distant; never approach or show any face in close-up. No humans, no portraits of actual kings or queens, no hieroglyphs or readable writing, no modern buildings, no tourists. This is an evocative fictional setting, not an exact archaeological reconstruction. Stable geometry, no morphing, no flicker, no sudden changes, no cuts, no camera shake."
+    },
+    {
+      "id": "V02",
+      "prompt": "Painterly myth illustration in motion, an empty rocky hillside at dusk in ancient Greece. A small ancient walled town is visible far below at the foot of the hill. A large soft shadow of wings glides slowly across the foreground rock, cast by something entirely outside the frame. Show ONLY the shadow, never the creature that casts it, never a face or a person. The camera barely drifts sideways, with steady movement and fixed warm dusk lighting. Visible brushwork, muted earth colors and blue violet shadows, clearly a painting rather than an archival photograph. No attack, no falling creature, no violence, no readable text, no modern architecture, no tourists. Stable rocks and town, no morphing, no flicker, no cuts."
+    },
+      {
+      "id": "V03",
+      "prompt": "Painterly desert landscape in motion at sunset, a very distant recumbent Great Sphinx silhouette and a pyramid at the edge of the desert, backlit against a dim amber horizon, deep blue violet foreground sand. The sphinx is a small dark silhouette with no visible facial details. No people. Slow, continuous, almost imperceptible sideways camera drift, steady atmosphere, quiet contemplative closing shot. Visible fine brushwork, distinguishable from a historic photograph. No modern buildings, no tourists, no writing, no hieroglyphs, no readable text. No close-up, no identifiable human portrait, no morphing, no flicker, no sudden lighting changes, no cuts."
+    }
+  ],
+  "required_after_generation": [
+    "UIで生成直前・直後の残高と表示費用を記録。合計300クレジットを超える実行はしない。",
+    "生成日、設定、プロンプト、サービス、実測費用、ファイルSHA-256を記録。",
+    "人物の顔・読める文字・現代建物・ちらつきを全尺で確認。",
+    "全ショットを個別にデコードし、生フレームを一つのH.264 High/yuv420pエンコーダーへ渡す。"
+  ]
+}
