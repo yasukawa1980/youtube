@@ -19,7 +19,18 @@ def main():
         raise RuntimeError('完成5ファイルの技術検品が未合格')
     if not all(r['visual_review'] != 'pending' for r in checks.values()):
         raise RuntimeError('完成品の映像確認を記録してから資料を確定してください')
+    for tag in 'ABCD':
+        if cfg['shorts']['files'][tag] != checks[tag]['file']:
+            raise RuntimeError(f'採用版と検品対象が不一致: {tag}')
+    review_path = IRO / 'iro20_Claude添削対応_20261026.json'
+    review = json.loads(review_path.read_text()) if review_path.exists() else None
+    claude_status = ('Claude添削を10/26の修正コミット4ac198fから確認し、Codexが検証・資料同期済み。'
+                     if review else 'Claude添削未実施。')
+    review_note = ('全49件の日英チャプター、英語題の句点整理、貼り付け用15ファイル、'
+                   'ショートv03の誘導文「関連動画から」を反映。v03の最終AAC全体と全編AVデコードを再検品。'
+                   if review else '')
     selected = json.loads((IRO / 'iro20_選曲結果.json').read_text())
+    cfg['title_en'] = cfg['title_en'].rstrip('.')
     cfg['status'] = 'files_delivered_technical_qc_pass_listening_pending'
     cfg['final'] = {'main': main['file'], 'duration_seconds': main['duration_seconds'],
         'lufs': main['lufs'], 'true_peak_dbtp': main['true_peak_dbtp'],
@@ -42,12 +53,13 @@ def main():
 - 犬ショート：608×1080切り抜き、端延長なし。動作範囲の左右余白80/90px、全身と尾を確認。完成品の4秒コマと土台顔8秒3fpsは見本JPGに収録。
 - 画像：開始v03の暗部16未満2.7035%、250以上0.0128%。横サムネ1280×720・311912 bytes。新キャラは今回の試行採用のみ。
 - 費用：Suno210/300（9760→9550、DL残8）、Kling384/512（本人補充後1404→1020）。Codex購入なし。
-- 保存：Mac `{base}`。ESD-EPB未接続・未同期。YouTube投稿・予約・公開なし。Claude添削未実施。
+- 添削対応：{claude_status}{review_note}
+- 保存：Mac `{base}`。ESD-EPB未接続・未同期。YouTube投稿・予約・公開なし。
 """
     (IRO / 'iro20_検品/Claude検品用_要約.md').write_text(summary)
     guide = f"""# IRO20 納品案内
 
-「しおりを挟むには、まだ早い。」／Too Early for a Bookmark.
+「しおりを挟むには、まだ早い。」／{cfg['title_en']}
 夜の読書向け室内楽チル。新しいボブの成人女性と大型ゴールデンを試行採用。
 
 **完成ファイルの技術検品と映像確認済み。直接聴取は未実施、本人の通し視聴待ち。YouTube未投稿。**
@@ -61,7 +73,8 @@ def main():
     guide += '\n'.join(f"- [ショート{tag}・15秒]({checks[tag]['file']})" for tag in 'ABCD')
     guide += f"""
 
-A・Bはファイル名末尾が `_v02.mp4` のものを採用。番号なしA・Bは音量調整前の初稿保全用で、投稿対象外。
+上記リンクとyamlの `shorts.files` に記載したファイルが採用版。それ以外の旧ショートは保全用で、投稿対象外。
+{claude_status}{review_note}
 
 ## 実測検品
 
@@ -79,7 +92,7 @@ A・Bはファイル名末尾が `_v02.mp4` のものを採用。番号なしA�
 
 ## 投稿資料と保存
 
-`iro20_アップロード情報.md` と `iro20_ショート_アップロード情報.md` に日英タイトル・説明・タグ・章・既存再生リスト案を記載。設定yaml、全プロンプト、クレジット台帳、選曲結果、生成曲一覧、検品JSON、制作記録とClaude用見本を同梱。
+`iro20_アップロード情報.md` と `iro20_ショート_アップロード情報.md` に日英タイトル・説明・タグ・章・既存再生リスト案を記載。`貼り付け用/` に15ファイルを同梱。設定yaml、全プロンプト、クレジット台帳、選曲結果、生成曲一覧、検品JSON、制作記録とClaude用見本を同梱。
 
 Mac保存先：`{base}`。原音42曲、Kling6原本、開始画像の全版を保全。既存作品の移動・削除なし。中間ファイルは `_work/` として保持し、Codexは削除していない。
 指定ESD-EPBは未接続のため未同期。ESD-02へは代用コピーしていない。
@@ -121,7 +134,7 @@ B1は長い閉眼を目元だけ追跡補正。頭・呼吸・手の時間を変
 本編：{metrics}。ショート4本は全て15秒・360コマ。
 最終AACはaac_atで書き出し、区切らず全体測定。完成5ファイルの映像・音声を全編デコードして終了0・エラー0。LUFSとTPは `iro20_完成検品.json` に記載。映像確認の範囲と未実施の直接聴取を分けて記録した。
 
-Mac `{base}` に本編・110秒確認抜粋・横縦サムネ・4ショート・投稿情報と記録の写しを保存。Claude用1ページ要約と、開始画像・サムネ・168px・ショート4秒・女性顔8秒3fpsの見本を作成。Claude添削は未実施。本人から利用解除の連絡はなく、それを待たず制作を継続した。
+Mac `{base}` に本編・110秒確認抜粋・横縦サムネ・4ショート・投稿情報と記録の写しを保存。Claude用1ページ要約と、開始画像・サムネ・168px・ショート4秒・女性顔8秒3fpsの見本を作成。初回納品はClaude待ちにせず制作を継続した。{claude_status}{review_note}詳しくは `iro20_Claude添削対応_20261026.json` を参照。
 
 指定ESD-EPBは未接続・未同期。既存ファイルの移動・削除なし。ローカルの分岐履歴をpushせず、remote最新起点の共有worktreeへ対象資料だけ適用。reset・force-pushなし。大容量素材・秘密情報はGit対象外。
 
@@ -130,21 +143,25 @@ Mac `{base}` に本編・110秒確認抜粋・横縦サムネ・4ショート・
     old = IRO / 'iro20_制作記録.md'; archive = IRO / '_work/iro20/制作記録_制作途中.md'
     if old.exists() and not archive.exists(): shutil.copy2(old, archive)
     old.write_text(record)
-    (IRO / 'iro20_再開メモ.md').write_text('# IRO20 再開メモ\n\n完成ファイルと技術検品を納品。直接聴取・本人の通し視聴・SSD同期は未完了。次回は iro20_納品案内.md と iro20_完成検品.json を先に読む。本人の指摘があれば元素材を保全して修正し、変更後のファイルだけ再検品する。YouTube投稿等は別依頼。\n')
+    (IRO / 'iro20_再開メモ.md').write_text('# IRO20 再開メモ\n\n完成ファイルと技術検品を納品。直接聴取・本人の通し視聴・SSD同期は未完了。次回は iro20_納品案内.md と iro20_完成検品.json を先に読む。本人の指摘があれば元素材を保全して修正し、変更後のファイルだけ再検品する。YouTube投稿等は別依頼。\n\n' + claude_status + review_note + '\n')
     # 納品資料の写し。生成素材は元の場所のまま保持する。
-    docs = sorted(p for p in IRO.glob('iro20_*') if p.suffix in ['.md', '.json'])
+    docs = sorted(p for p in IRO.glob('iro20_*') if p.suffix in ['.md', '.json', '.txt'])
     docs += [YAML, *sorted((IRO / 'iro20_検品').glob('*'))]
     for p in docs:
         if p.is_file(): shutil.copy2(p, out / p.name)
+    paste_dir = IRO / 'IRO20_しおりを挟むにはまだ早い_貼り付け用'
+    if paste_dir.is_dir():
+        shutil.copytree(paste_dir, out / '貼り付け用', dirs_exist_ok=True)
     files = []
-    for p in sorted(out.iterdir()):
+    for p in sorted(out.rglob('*')):
         if not p.is_file() or p.name == 'iro20_納品一覧.json': continue
         h = hashlib.sha256()
         with p.open('rb') as f:
             for chunk in iter(lambda: f.read(4 * 1024 * 1024), b''): h.update(chunk)
         role = 'supporting_document_or_preview'
         if str(p) in [row['file'] for row in checks.values()]: role = 'final_video'
-        if p.name in ['iro20_ショート_A.mp4', 'iro20_ショート_B.mp4']: role = 'superseded_preserved_do_not_upload'
+        if p.name.startswith('iro20_ショート_') and p.suffix == '.mp4' and role != 'final_video':
+            role = 'superseded_preserved_do_not_upload'
         files.append({'path': str(p), 'role': role, 'bytes': p.stat().st_size, 'sha256': h.hexdigest()})
     manifest = {'delivery_status': cfg['status'], 'direct_listening': 'not_performed',
                 'ssd_sync': 'not_synced', 'youtube_uploaded': False, 'files': files}

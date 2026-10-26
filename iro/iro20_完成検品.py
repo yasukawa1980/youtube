@@ -77,9 +77,15 @@ def inspect(tag, path, expected):
 
 
 def main():
+    global WORK
     parser = argparse.ArgumentParser(description=__doc__)
     parser.add_argument('--only', choices=['main', 'shorts'])
-    args = parser.parse_args(); WORK.mkdir(parents=True, exist_ok=True)
+    parser.add_argument('--revision', default='v01', help='ログ保存先の版。例: v03')
+    args = parser.parse_args()
+    if not re.fullmatch(r'v\d+', args.revision):
+        parser.error('--revision は v03 のような形式で指定してください')
+    WORK = BASE / f'_work/完成検品_{args.revision}'
+    WORK.mkdir(parents=True, exist_ok=True)
     plan = json.loads((BASE / '_work/映像_v01/構成.json').read_text())
     targets = [('main', OUT / 'iro20_しおりを挟むにはまだ早い_本編_扉入り.mp4',
                 {'dimensions': [1920, 1080], 'frames': plan['total_frames']})]

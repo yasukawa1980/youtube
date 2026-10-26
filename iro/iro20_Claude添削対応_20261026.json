@@ -1,0 +1,70 @@
+{
+  "source_commit": "4ac198f92ad94c4b415d715d7694c8d7dd5fa4d5",
+  "source": "GitHub制作ブランチのClaude添削コミットとローカル修正資料。bgm/_申し送り.mdにIRO20追記なし。",
+  "claude_changes": [
+    "日英の動作チャプターを全49件へ展開",
+    "英語題の区切り前の句点を削除",
+    "貼り付け用15ファイルを作成",
+    "ショート4本の誘導文を「関連動画から」にしてv03へ更新"
+  ],
+  "codex_followup": [
+    "全49章を本編の全48イベント構成と照合",
+    "v03の最終AAC全体と全編AVデコードを再検品",
+    "v03の見本と全360コマ差分を更新して実見",
+    "検品版と採用版の不一致で納品処理を停止する保護を追加",
+    "納品資料・SHA一覧・Mac側の写しを同期し、旧版を投稿対象外と記録"
+  ],
+  "chapter_count_per_language": 49,
+  "paste_file_count": 15,
+  "shorts_revision": "v03",
+  "shorts": {
+    "A": {
+      "file": "/Users/ryo/Desktop/BGM/IRO/Reading/20_しおりを挟むにはまだ早い/投稿用/iro20_ショート_A_v03.mp4",
+      "file_sha256": "09f967bf2b4c126fa447589a3b1f8940cd5294a75771ddef225b582feec77e7b",
+      "duration_seconds": 15.019,
+      "frames": 360,
+      "lufs": -14.29,
+      "true_peak_dbtp": -4.26,
+      "full_av_decode_exit_code": 0,
+      "decode_error_bytes": 0,
+      "technical_pass": true
+    },
+    "B": {
+      "file": "/Users/ryo/Desktop/BGM/IRO/Reading/20_しおりを挟むにはまだ早い/投稿用/iro20_ショート_B_v03.mp4",
+      "file_sha256": "d439994e3134719da4ab8e97d9c4140e2e9e999e804a4cd8e4d2655f6b820e83",
+      "duration_seconds": 15.019,
+      "frames": 360,
+      "lufs": -13.96,
+      "true_peak_dbtp": -3.03,
+      "full_av_decode_exit_code": 0,
+      "decode_error_bytes": 0,
+      "technical_pass": true
+    },
+    "C": {
+      "file": "/Users/ryo/Desktop/BGM/IRO/Reading/20_しおりを挟むにはまだ早い/投稿用/iro20_ショート_C_v03.mp4",
+      "file_sha256": "f4b13c6ee6f936c9e17e2d217f03d2920b5edeb54433f528c6e29d633686fe4b",
+      "duration_seconds": 15.019,
+      "frames": 360,
+      "lufs": -14.36,
+      "true_peak_dbtp": -4.36,
+      "full_av_decode_exit_code": 0,
+      "decode_error_bytes": 0,
+      "technical_pass": true
+    },
+    "D": {
+      "file": "/Users/ryo/Desktop/BGM/IRO/Reading/20_しおりを挟むにはまだ早い/投稿用/iro20_ショート_D_v03.mp4",
+      "file_sha256": "461bb08a9ebe1b9f860e7840882f49b936bb4f13f9e81c45f92a2b0f5d0f3461",
+      "duration_seconds": 15.019,
+      "frames": 360,
+      "lufs": -14.15,
+      "true_peak_dbtp": -4.36,
+      "full_av_decode_exit_code": 0,
+      "decode_error_bytes": 0,
+      "technical_pass": true
+    }
+  },
+  "main_reencoded": false,
+  "new_generation_credits": 0,
+  "direct_listening": "not_performed",
+  "youtube_uploaded": false
+}

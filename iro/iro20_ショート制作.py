@@ -25,7 +25,7 @@ def ff(args):
     subprocess.run(['ffmpeg', '-v', 'error', *map(str, args)], check=True)
 
 
-def overlay(tag, lines, lead='本編2時間はチャンネルから', suffix=''):
+def overlay(tag, lines, lead='本編2時間は関連動画から', suffix=''):
     top = 1430 if tag in 'AB' else 170
     y = np.arange(1920)
     alpha = np.clip(np.minimum(y - (top - 140), (top + 470) - y) / 140, 0, 1) * 178
