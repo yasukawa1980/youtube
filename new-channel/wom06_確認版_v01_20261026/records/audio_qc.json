@@ -1,0 +1,30 @@
+{
+  "bgm_during_narration_dbfs": -33.502181048550064,
+  "pause_boost_db": 4,
+  "languages": {
+    "en": {
+      "input_i": "-16.03",
+      "input_tp": "-3.65",
+      "input_lra": "4.40",
+      "input_thresh": "-27.03",
+      "output_i": "-16.11",
+      "output_tp": "-3.00",
+      "output_lra": "3.90",
+      "output_thresh": "-26.83",
+      "normalization_type": "dynamic",
+      "target_offset": "0.11"
+    },
+    "ja": {
+      "input_i": "-16.00",
+      "input_tp": "-4.70",
+      "input_lra": "3.40",
+      "input_thresh": "-26.67",
+      "output_i": "-15.83",
+      "output_tp": "-3.93",
+      "output_lra": "3.20",
+      "output_thresh": "-26.37",
+      "normalization_type": "dynamic",
+      "target_offset": "-0.17"
+    }
+  }
+}
