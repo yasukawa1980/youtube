@@ -1,0 +1,72 @@
+genre: iro
+volume: 22
+slug: iro22
+dir: /Users/ryo/Desktop/BGM/IRO/Study/22_日が暮れるまで集中する
+tracks_dir: /Volumes/ESD-02/Suno書き出し/IRO22_全56曲
+title_ja: 日が暮れるまで、集中する。
+title_en: Focus Until Sundown
+theme_color: '#C08A3E'
+theme_color_name: OCHRE
+purpose: study_pomodoro
+music_genre: study_lofi
+pomodoro: {focus_seconds: 1500, break_seconds: 300, rounds: 4}
+target_music_seconds: 7200
+cta: true
+audio:
+  target_lufs: -14.0
+  true_peak: -2.0
+  crossfade: 4.0
+  break_gain_db: -2
+  codec: aac_at
+budget:
+  suno_max_credits: 300
+  kling_max_credits: 512
+suno:
+  workspace: IRO22_日が暮れるまで集中する2時間
+  wid: eb2f20bb-cb92-41e2-b551-67d543d95493
+  candidates: 56
+  credits_used: 280
+kling:
+  clips: [B1, B2, A伸び, B撫でる, Cひと口, Dあくび]
+  credits_used: 384
+sync:
+  designated_ssd: /Volumes/ESD-EPB
+  status: disconnected_not_synced
+  scratch: /Volumes/ESD-02/IRO/IRO22_素材_夕方のポモドーロ2時間（音の床・映像の中間物）
+blocks:
+  focus1:
+    iro22_A-01b: Aローズ
+    iro22_B-02a: Bジャズギター
+    iro22_C-01b: Cフリューゲルホルン
+    iro22_D-01a: Dチェンバロ
+    iro22_E-01a: Eウッドベース
+    iro22_F-01b: Fメロディカ
+    iro22_A-03a: Aローズ
+  break1: {iro22_G-02b: Gライアー（休憩）}
+  focus2:
+    iro22_B-03b: Bジャズギター
+    iro22_C-02a: Cフリューゲルホルン
+    iro22_D-02b: Dチェンバロ
+    iro22_E-02a: Eウッドベース
+    iro22_F-02a: Fメロディカ
+    iro22_A-02a: Aローズ
+    iro22_B-04a: Bジャズギター
+  break2: {iro22_H-01b: Hシンギングボウル（休憩）}
+  focus3:
+    iro22_C-04a: Cフリューゲルホルン
+    iro22_D-03b: Dチェンバロ
+    iro22_E-03b: Eウッドベース
+    iro22_F-04a: Fメロディカ
+    iro22_A-01a: Aローズ
+    iro22_B-01b: Bジャズギター
+    iro22_C-03a: Cフリューゲルホルン
+  break3: {iro22_G-02a: Gライアー（休憩）}
+  focus4:
+    iro22_D-04a: Dチェンバロ
+    iro22_E-04a: Eウッドベース
+    iro22_F-02b: Fメロディカ
+    iro22_A-02b: Aローズ
+    iro22_B-03a: Bジャズギター
+    iro22_C-02b: Cフリューゲルホルン
+    iro22_D-02a: Dチェンバロ
+  break4: {iro22_H-02b: Hシンギングボウル（休憩）}

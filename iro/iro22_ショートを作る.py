@@ -11,7 +11,7 @@ import numpy as np
 from PIL import Image, ImageDraw, ImageFont, ImageFilter
 
 MAC = Path('/Users/ryo/Desktop/BGM/IRO/Study/22_日が暮れるまで集中する'); SSD = Path('/Volumes/ESD-02/IRO/IRO22_素材_夕方のポモドーロ2時間')
-MAIN = MAC / '投稿用/iro22_日が暮れるまで集中する_本編_扉入り.mp4'
+MAIN = Path('/Volumes/ESD-02/BGM/IRO/Study/22_日が暮れるまで集中する/投稿用/iro22_日が暮れるまで集中する_本編_扉入り.mp4')  # 11GB のため ESD-02 に置く
 OUT = MAC / '投稿用'; W = MAC / '_work'; SONGS = Path('/Volumes/ESD-02/Suno書き出し/IRO22_全56曲')
 JP = '/System/Library/Fonts/ヒラギノ角ゴシック W6.ttc'; AV = '/System/Library/Fonts/Avenir Next.ttc'
 data = json.loads((SSD / '_映像作業/構成.json').read_text())

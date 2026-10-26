@@ -25,7 +25,7 @@ SSD = Path('/Volumes/ESD-02/IRO/IRO22_素材_夕方のポモドーロ2時間')
 KL = MAC / 'Kling素材'; WORK = SSD / '_映像作業'; PARTS = WORK / 'parts'; TDIR = WORK / 'timer'
 REF = MAC / '開始画像/iro22_start_1920.png'
 BED = SSD / 'music_bed.wav'
-OUT = MAC / '投稿用'; MAIN0 = SSD / 'iro22_完成_扉なし.mp4'; MAIN = OUT / 'iro22_日が暮れるまで集中する_本編_扉入り.mp4'
+OUT = MAC / '投稿用'; MAIN0 = SSD / 'iro22_完成_扉なし.mp4'; MAIN = Path('/Volumes/ESD-02/BGM/IRO/Study/22_日が暮れるまで集中する/投稿用/iro22_日が暮れるまで集中する_本編_扉入り.mp4')
 CARD_PNG = MAC / '_work/iro_エンドカード_IRO22.png'
 LAYER_WIN = WORK / '窓の群青.png'; LAYER_LAMP = WORK / 'ランプの灯り.png'
 FPS = 24; N = 192; EDGE = 8
@@ -246,13 +246,14 @@ def final(preview=None, start=0.0):
 
 
 def door():
-    """扉ムービーを入れる（映像）→ 音は IRO21 と同じ式で aac_at に作り直して差し替える。"""
+    """扉ムービーを入れる（映像）→ 音は IRO21 と同じ式で aac_at に作り直して差し替える。
+    ★10/27 1回目は本編の部分が −14.9 LUFS・TP −4.7（IRO21 の天井 0.56 のまま）→ +0.9dB・天井 0.63 にした"""
     spec = importlib.util.spec_from_file_location('door', ROOT.parent / 'bgm/IRO/irokit/扉ムービーを入れる.py'); d = importlib.util.module_from_spec(spec); spec.loader.exec_module(d)
     tmp = SSD / 'iro22_扉入り_仮.mp4'
-    d.main(str(MAIN0.with_suffix('.mov')), str(tmp))
+    if not tmp.exists(): d.main(str(MAIN0.with_suffix('.mov')), str(tmp))   # 映像はできていれば使い回し、音だけ作り直す
     M = d.dur(d.MOVIE); au = SSD / '配信用音声.m4a'
     fc = (f'[0:a]volume={d.GAIN}dB,aformat=sample_rates=48000:channel_layouts=stereo,apad=whole_dur={M + d.BREATH:.6f}[ma];'
-          f'[1:a]asetpts=PTS-STARTPTS,aresample=192000,alimiter=limit=0.56:attack=1:release=60:level=false,alimiter=limit=0.56:attack=1:release=60:level=false,aresample=48000,'
+          f'[1:a]asetpts=PTS-STARTPTS,volume=0.9dB,aresample=192000,alimiter=limit=0.63:attack=1:release=60:level=false,alimiter=limit=0.63:attack=1:release=60:level=false,aresample=48000,'
           f'aformat=channel_layouts=stereo,afade=t=in:d={d.FADE_IN}[ba];[ma][ba]concat=n=2:v=0:a=1[pre];[pre]volume=-0.2dB[a]')
     run(['-i', d.MOVIE, '-ss', d.SKIP, '-i', BED, '-filter_complex', fc, '-map', '[a]', '-c:a', 'aac_at', '-b:a', '320k', au])
     OUT.mkdir(parents=True, exist_ok=True)
