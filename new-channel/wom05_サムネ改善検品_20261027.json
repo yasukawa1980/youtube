@@ -1,0 +1,174 @@
+{
+  "date": "2026-10-27",
+  "service": "OpenAI built-in image_gen",
+  "generation_calls": 2,
+  "originals": [
+    {
+      "path": "/Users/ryo/Desktop/新チャンネル/EP005_Tengu/サムネ改善_20261027/sources/案1案3_夜空の星_原寸.png",
+      "size": [
+        1672,
+        941
+      ],
+      "bytes": 2339696,
+      "sha256": "0451e4fcfd0477dbfa17f8cc1035fbb21cf8ec6744156ece8ca8cb71d4a1a66a"
+    },
+    {
+      "path": "/Users/ryo/Desktop/新チャンネル/EP005_Tengu/サムネ改善_20261027/sources/案2_面と星_原寸.png",
+      "size": [
+        1672,
+        941
+      ],
+      "bytes": 2451469,
+      "sha256": "ac40ce723a85489ca4b8e2bbc06cd012f468145df8dbf149a87bea9f8942ec4e"
+    }
+  ],
+  "outputs": [
+    {
+      "path": "/Users/ryo/.codex/worktrees/quiet-origins-thumbnails/youtube/new-channel/サムネ確認用/wom05/wom05_サムネ案1_20261027.jpg",
+      "size": [
+        1280,
+        720
+      ],
+      "bytes": 339471,
+      "sha256": "a7941e2c86f6b439625dbdf9c11e9c780420ad9ba074c0bbca98f57f940a9966"
+    },
+    {
+      "path": "/Users/ryo/.codex/worktrees/quiet-origins-thumbnails/youtube/new-channel/サムネ確認用/wom05/wom05_サムネ案2_20261027.jpg",
+      "size": [
+        1280,
+        720
+      ],
+      "bytes": 362247,
+      "sha256": "2c73474fc545e3fdd1bce4f43d3378055b0bddd886fba49e819bf17034658185"
+    },
+    {
+      "path": "/Users/ryo/.codex/worktrees/quiet-origins-thumbnails/youtube/new-channel/サムネ確認用/wom05/wom05_サムネ案3_20261027.jpg",
+      "size": [
+        1280,
+        720
+      ],
+      "bytes": 336493,
+      "sha256": "d0f2aa9e5205fa08a160d1b4af871ba2a5de9ec25fd0836e7519883f5d1ddfec"
+    },
+    {
+      "path": "/Users/ryo/.codex/worktrees/quiet-origins-thumbnails/youtube/new-channel/サムネ確認用/wom05/wom05_サムネ168px比較_20261027.jpg",
+      "size": [
+        1272,
+        150
+      ],
+      "bytes": 93070,
+      "sha256": "d946713abe7b470e7ea4e3522dbab8a56e0b13ae0e397dccf0b61c4883636a4b"
+    },
+    {
+      "path": "/Users/ryo/.codex/worktrees/quiet-origins-thumbnails/youtube/new-channel/サムネ確認用/wom05/wom05_サムネ余白検品_20261027.jpg",
+      "size": [
+        1280,
+        804
+      ],
+      "bytes": 210192,
+      "sha256": "dee8254cf691f63042b910a1514e5b2b967ee5a115bbfce5b74344d5e42dec61"
+    }
+  ],
+  "measurements": [
+    {
+      "candidate": 1,
+      "widths": [
+        410,
+        500
+      ],
+      "subject_guard_left_x": 740,
+      "title_shadow_right_exclusive_x": [
+        466,
+        556
+      ],
+      "conservative_gaps_px": [
+        274,
+        184
+      ],
+      "minimum_conservative_gap_px": 184
+    },
+    {
+      "candidate": 2,
+      "widths": [
+        410,
+        500
+      ],
+      "subject_guard_left_x": 740,
+      "title_shadow_right_exclusive_x": [
+        466,
+        556
+      ],
+      "conservative_gaps_px": [
+        274,
+        184
+      ],
+      "minimum_conservative_gap_px": 184
+    },
+    {
+      "candidate": 3,
+      "widths": [
+        330,
+        430
+      ],
+      "subject_guard_left_x": 740,
+      "title_shadow_right_exclusive_x": [
+        386,
+        486
+      ],
+      "conservative_gaps_px": [
+        354,
+        254
+      ],
+      "minimum_conservative_gap_px": 254
+    }
+  ],
+  "measurement_method": "y145〜436の見出し帯で、星の頭・明るい尾とハロー・面の鼻先もx740より右にあることを目視確認。文字の影を含む外接枠から保全領域x740への距離。実輪郭の自動抽出値ではなく保守値。",
+  "title_height_px": 132,
+  "comparison_cell_px": [
+    168,
+    94
+  ],
+  "same_background_candidates": [
+    1,
+    3
+  ],
+  "youtube_modified": false,
+  "previous_thumbnails": [
+    {
+      "path": "/Users/ryo/.codex/worktrees/quiet-origins-thumbnails/youtube/new-channel/サムネ確認用/wom05/wom05_サムネ_met_24145.jpg",
+      "size": [
+        1280,
+        720
+      ],
+      "bytes": 78389,
+      "sha256": "0178aa7a68d6e555518d63ab261550f957fcde11c105efbb69a4685efeed9057"
+    },
+    {
+      "path": "/Users/ryo/.codex/worktrees/quiet-origins-thumbnails/youtube/new-channel/サムネ確認用/wom02/wom02_サムネ案1_v02_20261026.jpg",
+      "size": [
+        1280,
+        720
+      ],
+      "bytes": 377641,
+      "sha256": "9035e8b8542a9c5102850d1cb51202eea96dbbd15a97b993087a0d153241ebc3"
+    },
+    {
+      "path": "/Users/ryo/.codex/worktrees/quiet-origins-thumbnails/youtube/new-channel/サムネ確認用/wom03/wom03_サムネ案1_v02_20261027.jpg",
+      "size": [
+        1280,
+        720
+      ],
+      "bytes": 453596,
+      "sha256": "92b03336ca7e6626e20b1d8c1351c4e42bfcd553b83b0caf39369819e7182648"
+    },
+    {
+      "path": "/Users/ryo/.codex/worktrees/quiet-origins-thumbnails/youtube/new-channel/サムネ確認用/wom04/wom04_サムネ案3_v02_20261027.jpg",
+      "size": [
+        1280,
+        720
+      ],
+      "bytes": 371802,
+      "sha256": "f4b9caac8ff667ced0c156ad79f105f77d0ac2b92a00ab7a3886a12199c6928b"
+    }
+  ]
+}
