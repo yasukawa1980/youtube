@@ -1,0 +1,63 @@
+{
+  "source": {
+    "path": "/Users/ryo/Desktop/新チャンネル/EP002_Halloween/サムネ改善_20261026/sources/案1_手持ちカブ_原寸.png",
+    "size": [
+      1672,
+      941
+    ],
+    "bytes": 2349774,
+    "sha256": "e68947e5e4ae9b77bc16b86c43ec2db9fb97504adb000969a0ea32829cc65aa5"
+  },
+  "output": {
+    "path": "/Users/ryo/.codex/worktrees/quiet-origins-thumbnails/youtube/new-channel/サムネ確認用/wom02/wom02_サムネ案1_v02_20261026.jpg",
+    "size": [
+      1280,
+      720
+    ],
+    "bytes": 377641,
+    "sha256": "9035e8b8542a9c5102850d1cb51202eea96dbbd15a97b993087a0d153241ebc3"
+  },
+  "comparison": {
+    "path": "/Users/ryo/.codex/worktrees/quiet-origins-thumbnails/youtube/new-channel/サムネ確認用/wom02/wom02_サムネ案1_v01_v02比較_20261026.jpg",
+    "size": [
+      1080,
+      550
+    ],
+    "bytes": 185231,
+    "sha256": "dfa15819535b1be046f22f1c426682cbc0c69ebbbe88b76da0bfa3f410fdddf7"
+  },
+  "widths_before": [
+    482,
+    635
+  ],
+  "widths_after": [
+    448,
+    590
+  ],
+  "height": 132,
+  "positions": [
+    [
+      54,
+      145
+    ],
+    [
+      54,
+      301
+    ]
+  ],
+  "source_regenerated": false,
+  "v01_byte_identical_reproduced": true,
+  "changed_pixels_outside_title_boxes": 0,
+  "measurement": {
+    "text_shadow_box_right_exclusive_x": 646,
+    "lantern_bright_skin_left_x": 668,
+    "lantern_edge_y": 357,
+    "horizontal_gap_px": 22,
+    "rows_checked_inclusive": [
+      301,
+      435
+    ],
+    "skin_definition": "R>=80 and R>B*1.4 and R>G*1.05, 5 consecutive horizontal pixels",
+    "note": "絵画の境界には幅があるため、明るい皮の色境界で測定。文字の影を含む外接枠を使った保守値。"
+  }
+}
