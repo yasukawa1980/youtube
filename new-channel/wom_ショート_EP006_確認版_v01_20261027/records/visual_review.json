@@ -1,0 +1,29 @@
+{
+  "passed": true,
+  "reviewer": "Codex still-frame inspection",
+  "video_sha256": {
+    "S1": "d9dce3bb1aaf9add110d73ae5cf466e28d0151370c5860224a5b6be56289405d",
+    "S2": "fa7faf8b0823c2a2a42bd66747b165f6423ed4a4cd975509a1a14ae4436e2437",
+    "S3": "fe6fd33dbddff4fed838a4e4a6e3079811cac89d53a59dac82b8d0e1ca124cb9"
+  },
+  "inspected_jpgs": [
+    "QO_short_EP006_S1_v01_every2s.jpg",
+    "QO_short_EP006_S1_v01_mid.jpg",
+    "QO_short_EP006_S2_v01_every2s.jpg",
+    "QO_short_EP006_S2_v01_mid.jpg",
+    "QO_short_EP006_S3_v01_every2s.jpg",
+    "QO_short_EP006_S3_v01_mid.jpg"
+  ],
+  "inspected_static_layout": "/private/tmp/wom06_shorts_layout.jpg",
+  "findings": [
+    "All three midpoint images and every-two-second contact sheets inspected. Nine sources match the request, with no repetition.",
+    "Header labels and source wording equal the main v02 manifest; norden_105 uses the exact additional credit in the request.",
+    "Moreau foreground AND blurred background are generated only from [.12,.10,.95,.33]; the camera operates solely on that derived composite, so no source pixels outside that crop can enter any frame.",
+    "Jebb uses exactly [60,1400,1015,1524] pixels from main v02. The complete three-line passage is retained, without neighboring line fragments.",
+    "The existing riddle diagram has three line figures, with no morning/noon/evening symbols.",
+    "Hatshepsut headcloth and beard remain visible; Norden XLVII shows the missing nose; XLV is a different plate.",
+    "Subtitle pages and final CTA are visually legible and separated; date phrases remain together."
+  ],
+  "human_full_listening": false,
+  "youtube_uploaded": false
+}
