@@ -1,0 +1,21 @@
+{
+  "passed": true,
+  "reviewer": "Codex still-frame inspection",
+  "video_sha256": {
+    "S1": "a05c808e8cb7ef294d73d7b319f5142e2d9cbdedc99a62cd9c99aaadc3fcd333",
+    "S2": "bd175e6e5bdd7dd30ccc8dfc54a433e81cf5fa75c61c0f133596cd4db7825f71",
+    "S3": "8c62609ce4ea4ee6dc7e1781a7627e117b32edb1caaf66789ac459ef3e4fae6c"
+  },
+  "inspected": [
+    "S1/S2/S3 opening 0,0.5,1.0,1.5,2.0,2.5 seconds from continuous decode"
+  ],
+  "findings": [
+    "All headlines are complete, in Georgia Bold, 100px glyph height, 2–3 lines. Header and subtitles remain distinct.",
+    "First images fill 1600px (S1) / 1920px (S2/S3) height before title/header overlays.",
+    "S1 retains both faces and a narrow portion of the wing within the safe crop; no source outside the safe rectangle is sampled.",
+    "Headline is present from frame 0 and absent at 2.5s; alpha checks confirm fade from 2.0 to 2.3 seconds.",
+    "S1 changes to the original Jebb composition at frame 73; later-shot frame equality or compression differences are recorded separately."
+  ],
+  "human_full_listening": false,
+  "youtube_uploaded": false
+}

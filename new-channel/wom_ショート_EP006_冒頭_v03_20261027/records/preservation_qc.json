@@ -1,0 +1,30 @@
+{
+  "passed": true,
+  "audio": [
+    {
+      "id": "S1",
+      "original_video_sha256": "d3d8c0f9c3d5c0377430548e562c81e02e32a7a0f365c2ded9d62c6267fa7c26",
+      "revised_video_sha256": "a05c808e8cb7ef294d73d7b319f5142e2d9cbdedc99a62cd9c99aaadc3fcd333",
+      "audio_stream_sha256": "SHA256=cf225bc4b8fc621028d1ac87ee14facc9415f49494e6f745bbf3d97250f74eb4",
+      "audio_stream_identical": true
+    },
+    {
+      "id": "S2",
+      "original_video_sha256": "fa7faf8b0823c2a2a42bd66747b165f6423ed4a4cd975509a1a14ae4436e2437",
+      "revised_video_sha256": "bd175e6e5bdd7dd30ccc8dfc54a433e81cf5fa75c61c0f133596cd4db7825f71",
+      "audio_stream_sha256": "SHA256=702d7e2d72d9cc265f2a8909302aa247bbc4516d53247fe7849e03154d49564b",
+      "audio_stream_identical": true
+    },
+    {
+      "id": "S3",
+      "original_video_sha256": "e38d32b6f9ab944547ca064efbdb853abde37e27764af40ff7ac09717306d394",
+      "revised_video_sha256": "8c62609ce4ea4ee6dc7e1781a7627e117b32edb1caaf66789ac459ef3e4fae6c",
+      "audio_stream_sha256": "SHA256=b0dec0c7e59d6fe1e8c952a901cb6065b8b3518093be6f10ce30c56f142d538a",
+      "audio_stream_identical": true
+    }
+  ],
+  "subtitle_text_and_frames_identical": true,
+  "script_cut_times_duration_identical": true,
+  "original_v02_files_unchanged": true,
+  "originals_used_only_for_qa": true
+}

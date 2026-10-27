@@ -1,0 +1,45 @@
+{
+  "checked": true,
+  "all_frames_identical": false,
+  "compression_difference_report_allowed_by_request": true,
+  "pixel_format": "decoded yuv420p",
+  "range": "0–255 per component",
+  "shorts": [
+    {
+      "id": "S1",
+      "start_frame": 73,
+      "compared_frames": 527,
+      "identical_frames": 527,
+      "different_frames": 0,
+      "mean_abs_yuv": 0.0,
+      "mean_abs_luma": 0.0,
+      "maximum_component_difference": 0,
+      "maximum_frame_mean_abs_yuv": 0,
+      "source_shots_sha256_unchanged": true
+    },
+    {
+      "id": "S2",
+      "start_frame": 145,
+      "compared_frames": 395,
+      "identical_frames": 229,
+      "different_frames": 166,
+      "mean_abs_yuv": 0.16975661317523572,
+      "mean_abs_luma": 0.2221865660161744,
+      "maximum_component_difference": 53,
+      "maximum_frame_mean_abs_yuv": 0.7378803369341563,
+      "source_shots_sha256_unchanged": true
+    },
+    {
+      "id": "S3",
+      "start_frame": 137,
+      "compared_frames": 513,
+      "identical_frames": 513,
+      "different_frames": 0,
+      "mean_abs_yuv": 0.0,
+      "mean_abs_luma": 0.0,
+      "maximum_component_difference": 0,
+      "maximum_frame_mean_abs_yuv": 0,
+      "source_shots_sha256_unchanged": true
+    }
+  ]
+}
