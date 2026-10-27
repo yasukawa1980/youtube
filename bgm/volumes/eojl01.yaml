@@ -71,5 +71,10 @@ images:
 - "/Volumes/ESD-02/BGM/5_Echoes of Old Japan/EOJ12_素材_アヴェマリア_シューベルト/画像/eoj12_03.png"
 - "/Volumes/ESD-02/BGM/5_Echoes of Old Japan/EOJ12_素材_アヴェマリア_シューベルト/画像/eoj12_04.png"
 
+# ★1回目の mux（10/27 13:48）は 完成MP4 −14.0 LUFS / TP −0.7 dBTP（wav −1.2 から AAC段で +0.5）で推奨上限 −1.0 を超えた。
+#   −0.6dB 下げて mux し直す（映像は copy なので画は変わらない）。
+audio:
+  mux_gain_db: -0.6
+
 video:
   segmented: true
