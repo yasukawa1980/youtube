@@ -1,0 +1,55 @@
+# Echoes of Old Japan（パブリックドメインのクラシックを和の音階へ変換する）
+#
+# 2026年8月31日に立てた5本目のライン。同じチャンネルに置く。
+#
+# ★★Whispers との違いは「曲の出どころ」だけなので、音の設計もサムネの型も継承する。
+#   -14 LUFS・曲間・エンドカード・168pxの作法はそのまま使える。
+extends: whispers
+
+brand: ECHOES OF OLD JAPAN
+
+# ★★このラインだけ Suno を使わない。 select / order / audio は通らない。
+#   MIDI → 音階変換 → numpy自前合成、という別パイプラインで音を作る。
+#   実装は bgm/EOJ01_月光/（midiparse.py, wafu.py, synth.py, render.py, album.py, master.py）。
+#   bgmkit で使うのは thumb と video と short だけ。
+#
+# ★★なぜ5本目として成立するのか。
+#   クラシック睡眠BGMも和風睡眠BGMも飽和しているが、掛け算はほとんど手が付いていない。
+#   ★Whispers は検索流入ほぼ0・自動再生95%。このラインは**検索という別の入口**を狙う。
+#     なので題名に作曲家名と曲名を必ず入れる（固有名だけの Whispers とはそこが違う）。
+#
+# ★題名の作法：
+#   <曲名> 🌙 <作曲家> as Japanese Ambient Music | XX Min
+#   ★`Ambient Music` を名乗ってよい（楽器が鳴る。SOJで禁じた根拠が当てはまらない）
+#   ★`Sleep` は入れない（1時間級は睡眠用の尺ではない。Long Nights 63分と同じ判断）
+#   ★ハッシュタグは `#和風BGM` ○ / `#睡眠用BGM` ✗
+
+# ★★画風は新版画。 SOJ03で「逃げ道として残す」と書いて使わなかった路線をここで使う。
+#   **新版画は西洋の遠近法と陰影を木版に取り込んだ運動**で、西洋の名曲を和楽器で
+#   鳴らすこの線と構造がそのまま同じ。DOJ（水彩）ともSOJ（写実）とも被らない。
+#
+#   ★紺一色の夜景になりやすく、Vol.16と同じ潰れの罠がある。露出の一文を必ず残すこと。
+#     2026年8月31日のEOJ01の実測では潰れ0.0〜0.6%で、罠は踏まなかった（ガンマ補正不要）。
+#   ★「左3分の1に何も置くな」とは書かない。 DOJ01で**何も無いと書くとモデルは
+#     描くものが無く靄で埋める**と判った。水と空という実在の面を与えること。
+#     そもそも本編に文字は乗らない（題字はサムネだけ）ので、本編用に空ける必要はない。
+image_style: >-
+  Japanese shin-hanga woodblock print in the manner of the 1920s-30s revival:
+  flat layered areas of colour, visible woodgrain in the flat passages, softly
+  gradated sky (bokashi), Western perspective and cast light held inside Japanese
+  printmaking. Calm, unpeopled, no figures.
+  Strong clear difference between the light and dark masses so the image still
+  reads when reduced to a thumbnail.
+  No text, no signature, no seal stamp, no lettering of any kind.
+  No modern objects: no power lines, no utility poles, no electric lamps,
+  no vehicles, no plastic, no road markings.
+  Wide 16:9 landscape.
+  Exposed so that texture is clearly visible everywhere. Shadows are lifted and
+  open, full of visible detail, nothing crushed to pure black. High dynamic range,
+  rich texture even in the darkest areas.
+
+# ★エンドカードは4ラインとも「WHISPERS OF JAPAN」（チャンネル名）で、
+#   変わるのは金色斜体の副題だけ。EOJ用に副題を差し替えた1枚を作ってある。
+#   下地は上下の余白から補間して塗り直した（4枚の最小値では "Japanese" が重なって消えない）。
+video:
+  card: "~/Desktop/BGM/_共通/エンドカード/エンドカード_満月と水面_echoesofoldjapan_枠なし.png"

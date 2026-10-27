@@ -1,0 +1,243 @@
+# Kominka Café / 06 —— 本棚の間（古民家ブックカフェ）
+#
+# ★★この巻から音は Suno のピアノ独奏（2026-10-01 本人提案）。PDクラシックの在庫が尽きたため。
+#   設計とプロンプトは bgm/KCF06_本棚の間_設計とSunoプロンプト.md。
+#   ★ラインの境目は保つ：ピアノ1台だけ・和の音階にしない・昼・やや明るめ。Salamander と混ぜない。
+#   ★2巡にしない（全曲別の曲）。曲間2.0秒のハードカットは既刊と同じ。
+#
+# ★巻の名は「本棚の間」。`座敷` は本編で既出、`柿` は EOJ12 が使用中。
+#   「ブックカフェ」「読書」「勉強用」は動画タイトル・タグ・説明文で拾う（カタカナは題字に入れない）。
+# ★季節は持たせない（KCF01・05と同じ）。
+genre: kominkacafe
+volume: 6
+slug: kcf06
+dir: "/Volumes/ESD-EPB/BGM/7_Kominka Cafe/KCF06_素材_本棚の間"
+
+runtime: "97 MIN"         # 実尺 96分39秒
+# ★登録のお願い（9/28決定。新しい巻は必ず。本編1:00に小さく・ショート3行目）
+cta: true
+
+# ★2026/10/8 公開中のサムネを B案（用途＋太明朝W6）に差し替えたので題字も合わせた。旧：[古民家カフェ, 本棚の間]
+#   焼いた版は `_B案_20261008/kcf06_B.jpg`（差し替え前の版は thumb_out に残っている）
+title_lines: [本を読む時間, 古民家カフェ]
+thumb:
+  # ★題字は日本語なので `jp`。serif と書くと豆腐になる
+  title_family: jp
+  title_fit: 760          # 級数を決めるのは常に1行目「古民家カフェ」。760→115級
+background: "/Volumes/ESD-EPB/BGM/7_Kominka Cafe/KCF06_素材_本棚の間/画像/kcf06_05_サムネ用.png"
+
+# ★音源は ESD-02 に置いたまま読む（EPBの空きが4GBしかないため）。48本×約3分＝3.3GB
+tracks_subdir: "/Volumes/ESD-02/Suno書き出し/KCF06_48曲/wav"
+
+kinds:
+  "kcf06_A-1": Aワルツ
+  "kcf06_A-2": Aワルツ
+  "kcf06_A-3": Aワルツ
+  "kcf06_A-4": Aワルツ
+  "kcf06_A-5": Aワルツ
+  "kcf06_A-6": Aワルツ
+  "kcf06_A-7": Aワルツ
+  "kcf06_A-8": Aワルツ
+  "kcf06_B-1": B分散和音
+  "kcf06_B-2": B分散和音
+  "kcf06_B-3": B分散和音
+  "kcf06_B-4": B分散和音
+  "kcf06_B-5": B分散和音
+  "kcf06_B-6": B分散和音
+  "kcf06_B-7": B分散和音
+  "kcf06_B-8": B分散和音
+  "kcf06_C-1": C二声
+  "kcf06_C-2": C二声
+  "kcf06_C-3": C二声
+  "kcf06_C-4": C二声
+  "kcf06_C-5": C二声
+  "kcf06_C-6": C二声
+  "kcf06_C-7": C二声
+  "kcf06_C-8": C二声
+  "kcf06_D-1": Dコラール
+  "kcf06_D-2": Dコラール
+  "kcf06_D-3": Dコラール
+  "kcf06_D-4": Dコラール
+  "kcf06_D-5": Dコラール
+  "kcf06_D-6": Dコラール
+  "kcf06_D-7": Dコラール
+  "kcf06_D-8": Dコラール
+  "kcf06_E-1": E短調ロマンス
+  "kcf06_E-2": E短調ロマンス
+  "kcf06_E-3": E短調ロマンス
+  "kcf06_E-4": E短調ロマンス
+  "kcf06_E-5": E短調ロマンス
+  "kcf06_E-6": E短調ロマンス
+  "kcf06_E-7": E短調ロマンス
+  "kcf06_E-8": E短調ロマンス
+  "kcf06_F-1": F明るい小品
+  "kcf06_F-2": F明るい小品
+  "kcf06_F-3": F明るい小品
+  "kcf06_F-4": F明るい小品
+  "kcf06_F-5": F明るい小品
+  "kcf06_F-6": F明るい小品
+  "kcf06_F-7": F明るい小品
+  "kcf06_F-8": F明るい小品
+
+scenes:
+- 01 本棚の壁と座卓（座敷の奥から縁側の方へ。障子ごしの昼）
+- 02 読書の卓（卓の高さの近景。ガラス戸の向こうに庭）
+- 03 店先の古本箱（屋外。この巻でいちばん明るい）
+- 04 書院窓の文机（斜め上から。午後の金色。いちばん暖かい）
+- 05 サムネ専用（本編には使わない）
+
+image_anchor: [0.5, 0.5, 0.5, 0.5]
+
+images:
+- kcf06_01.png
+- kcf06_02.png
+- kcf06_03.png
+- kcf06_04.png
+
+# ★★絵は4区間。33曲は4で割れないので、manifest を「4区切り」に書き直した（KCF05と同じ作り）。
+#   区切りは曲の頭（9曲目・17曲目・25曲目）＝ 00:00 / 23:27 / 46:53 / 1:10:18。1407/1405/1405/1582秒。
+#   33曲ぶんの元の manifest は `_work/manifest_33曲.json`（章立てはこちらから作る）。
+# ★shorts: は画像が届いてから。4枚とも潰れと9:16の輝度を測り、
+#   題字帯（x=88から600px・y1380-1620）が明るければ KCF05 と同じく short.scrim を当てる。
+
+# ★除外（2026-10-01 analyze の実測）
+#   A-5・A-6（同じ生成の2本）：8kHz以上の明るさが −14.9／−18.8dB。他46本は −72〜−60dB で、
+#     50dB近く浮いている＝ピアノ以外（擦れ・打楽器・ノイズ）が入っている。A-5は I も −11.4 と他より6dB大きい
+#   残り7本：Suno の長さ3:00指定で**曲の途中で切れている**（最後の1秒が −35〜−46dB。正常な曲は −50以下）。
+#     クロスフェードで薄めても句の途中で切れるのは聞こえる
+exclude:
+- kcf06_A-5.wav
+- kcf06_A-6.wav
+- kcf06_A-1.wav
+- kcf06_B-5.wav
+- kcf06_B-8.wav
+- kcf06_D-4.wav
+- kcf06_D-8.wav
+- kcf06_E-6.wav
+- kcf06_E-7.wav
+
+# ★39本から33本・約98分。1種あたり上限7（6×7=42で余地が残る）
+select:
+  count: 33
+  total_seconds: [5700, 6100]
+  require_all_kinds: true
+  max_per_kind: 7
+  restarts: 200
+  kind_limits:
+    Aワルツ: [4, 5]
+    B分散和音: [4, 6]
+    C二声: [4, 7]
+    Dコラール: [4, 6]
+    E短調ロマンス: [4, 6]
+    F明るい小品: [4, 7]
+
+order:
+  restarts: 400
+
+picked:
+- kcf06_F-8.wav
+- kcf06_F-7.wav
+- kcf06_A-2.wav
+- kcf06_A-4.wav
+- kcf06_A-8.wav
+- kcf06_E-5.wav
+- kcf06_C-8.wav
+- kcf06_F-6.wav
+- kcf06_A-3.wav
+- kcf06_B-3.wav
+- kcf06_B-7.wav
+- kcf06_C-3.wav
+- kcf06_B-2.wav
+- kcf06_B-4.wav
+- kcf06_C-6.wav
+- kcf06_C-1.wav
+- kcf06_B-6.wav
+- kcf06_D-7.wav
+- kcf06_D-2.wav
+- kcf06_C-2.wav
+- kcf06_D-6.wav
+- kcf06_D-5.wav
+- kcf06_D-3.wav
+- kcf06_E-3.wav
+- kcf06_E-8.wav
+- kcf06_A-7.wav
+- kcf06_E-1.wav
+- kcf06_E-2.wav
+- kcf06_C-4.wav
+- kcf06_F-2.wav
+- kcf06_F-5.wav
+- kcf06_F-4.wav
+- kcf06_F-1.wav
+
+order_tracks:
+- kcf06_C-4.wav
+- kcf06_A-2.wav
+- kcf06_F-4.wav
+- kcf06_D-6.wav
+- kcf06_E-5.wav
+- kcf06_B-3.wav
+- kcf06_F-8.wav
+- kcf06_C-2.wav
+- kcf06_D-3.wav
+- kcf06_F-1.wav
+- kcf06_C-6.wav
+- kcf06_E-3.wav
+- kcf06_D-5.wav
+- kcf06_C-8.wav
+- kcf06_F-6.wav
+- kcf06_D-2.wav
+- kcf06_A-8.wav
+- kcf06_F-2.wav
+- kcf06_B-4.wav
+- kcf06_E-2.wav
+- kcf06_A-7.wav
+- kcf06_B-2.wav
+- kcf06_F-5.wav
+- kcf06_C-3.wav
+- kcf06_B-7.wav
+- kcf06_F-7.wav
+- kcf06_C-1.wav
+- kcf06_D-7.wav
+- kcf06_E-1.wav
+- kcf06_A-4.wav
+- kcf06_B-6.wav
+- kcf06_E-8.wav
+- kcf06_A-3.wav
+
+# ★ショートの幕は KCF05 と同じ設定を当てた。既定（top900→full1700・0.82・gamma1.2）で焼くと
+#   題字帯が A45／B43／C24。Bは開いた本の白いページに題字が乗り「KOMINKA CAFE」が薄かった
+short:
+  scrim:
+    top: 800
+    full: 1450
+    gamma: 1.0
+    opacity: 0.86
+
+# ★★ショート3本（2026-10-02）。`bgmkit.short._head_check` と同じ式で各曲を10秒刻みに走査し、
+#   頭−本体が ±0.3 以内で本体の大きい位置を採った。種類を3つに散らした（明るい小品／ワルツ／分散和音）。
+#   ★Sunoの曲には題が無いので、副題は曲の手触りを日本語で書く。
+#   ①9:16に切った輝度：4枚とも全anchorで81〜135（目安50以上）。16未満の潰れは 0.2〜3.9%
+shorts:
+- tag: A
+  image: 3            # 03_店先の古本箱。anchor0.55で暖簾と古本箱と床几が縦枠に入る。いちばん明るい
+  anchor: 0.55
+  at: "0:17:49"       # F-8 明るい小品（差−0.3・本体−11.1）
+  title: 本棚の間
+  sub: [明るい小品, 97分版はチャンネルに]
+  move: in
+- tag: B
+  image: 2            # 02_読書の卓。anchor0.5で開いた本と湯呑とガラス戸の庭
+  anchor: 0.5
+  at: "0:47:27"       # A-8 ゆるいワルツ（差−0.3・本体−12.1）
+  title: 本棚の間
+  sub: [午後のワルツ, 97分版はチャンネルに]
+  move: out
+- tag: C
+  image: 4            # 04_書院窓の文机。anchor0.55で文机と開いた和綴じ本と金色の光
+  anchor: 0.55
+  at: "0:53:09"       # B-4 分散和音（差0.0・本体−13.1）
+  title: 本棚の間
+  sub: [昼の夜想曲, 97分版はチャンネルに]
+  move: in
+
+music_bed_source: /Volumes/ESD-02/BGM/7_Kominka Cafe/KCF06_素材_本棚の間/_work/music_bed.wav

@@ -1,0 +1,413 @@
+# Whispers of Japan / Vol.16 — 月夜の城（Moonlit Castle）／テーマ「守る」
+#
+# ★2026年9月28日 本人決定で題材を「城」にした（候補は 城／懸崖の山寺／大銀杏）。
+#   Vol.15から約40日ぶりの本編。番号16は雨の巻をSOJへ移して空けてあった「次の音楽の巻」。
+#
+# ★★Vol.15と同じ「在庫＋新規」の折衷。 22曲のうち
+#   **②尺八・⑦笙・⑧龍笛の3種だけを新しく作り**、残りはVol.11〜15の未使用在庫108本から引く。
+#   根拠はメモリ whispers-leftover-inventory の線引き（未使用が6本を切った種だけ作る）：
+#   ⑦笙5本・⑧龍笛5本（うち4本がCm）、②尺八は30本あるが息0.05超えが1本（0.0536）しかない。
+#   在庫108本は Vol16_素材_城/楽曲/ にコピー済み（2026年9月28日）。
+#
+# ★作業先はSSD。コピー後のEPBの空きは16GB（60分はピークで8GB前後使う）。
+#   足りなくなったら Vol15_素材_すすき野/_work を先に見る（ssd-cleanup-rules）。
+
+genre: whispers
+volume: 16
+slug: vol16
+dir: "/Volumes/ESD-EPB/BGM/1_Whispers of Japan/Vol16_素材_城"
+
+# 題材＝月夜の城／テーマ「守る」
+#   石垣が城を守る／城が眠る野を守る／月が一晩それを見守る。
+#   **攻められたことのない城が、平和な一夜の番をしている**という読み。戦の絵にはしない
+#   （甲冑・旗・武器を全面禁止にしたのはこのため）。聞き手の休息を「守る」巻でもある。
+#
+# ★差別化の軸は「人が積んだ垂直の石」。 Vol.15（平らに開けた野・自然・銀）の真逆に置いた。
+#   Vol.12五重塔も「見上げる建物」だが、あちらは細い木の塔と屋根の反復。
+#   こちらは**石垣の扇の勾配（下が緩く上が立つ曲線）と白壁**が主役で、形が違う。
+#   Vol.7棚田が「人が積んだ地形」の水平版だったとすれば、これは垂直版。
+# ★シリーズで初めて「内部の建築」へ入る巻でもある（11〜14の櫓の廊下と天守の梁）。
+#   Vol.10座敷は畳と庭の住まい、こちらは何も置かれていない木組みの空間。
+# ★白壁は月光を最もよく返す素材。サムネ候補は17（天守を仰ぐ・引き）と01（遠望）。
+#   22枚が揃ってから168pxで実測して決める（Vol.15と同じ手順）。
+# ★★2026年9月28日 22枚受領（Codex生成・1672×941）→ 17に決定。168pxの左半分の地 20.2
+#   （01は29.1・21は39.7）。暗幕を掛けた完成サムネでも題字・天守・月が168pxで読める。
+# ★13〜15は「天守の中から天守が見える」矛盾があるが、本人判断でこのまま使う（小天守・櫓からと読める）。
+# ★潰れ（16未満）が15%を超えた9枚（03 04 08 11 12 13 14 15 20）を lift で11%へ寄せた。
+#   11は36.6%→11.3%（指数0.80）、12は29.6%→10.6%（0.77）。元は 画像/旧版/ に退避。
+#   調整後は22枚とも2.3〜14.8%。
+background: "/Volumes/ESD-EPB/BGM/1_Whispers of Japan/Vol16_素材_城/画像/vol16_17.png"
+
+title_lines: [月夜の, 城]
+# ★2026年9月29日 実測 3605.26秒＝60分05秒 → 60 MIN。−14.0 LUFS / TP −1.5 / LRA 6.6。
+runtime: "60 MIN"
+
+# ★登録のお願いを焼き込む（2026年9月28日決定・新しい巻は必ず書く。メモリ subscribe-cta）。
+cta: true
+
+# ★環境音は敷かない。 純器楽に戻す。城は音の期待を生まない題材（雲海・月と同じ側）。
+#   Vol.15の虫は「すすき野＝虫が鳴く場所」だったから成立した。石と白壁には鳴くものが居ない。
+
+# ★⑤風鐸は入れない（寺の軒の青銅鈴。城には無い）。
+kinds:
+  # ①箏 … 在庫 8本
+  "v11_箏の独奏５": ①箏
+  "v12_箏の独奏": ①箏
+  "v12_箏の独奏５": ①箏
+  "v13_箏の独奏１": ①箏
+  "v13_箏の独奏２": ①箏
+  "v14_箏の独奏２": ①箏
+  "v14_箏の独奏５": ①箏
+  "v14_箏の独奏７": ①箏
+  # ②尺八 … 在庫 30本
+  "v11_尺八の独奏１": ②尺八
+  "v11_尺八の独奏２": ②尺八
+  "v11_尺八の独奏３": ②尺八
+  "v12_尺八の独奏__dup": ②尺八
+  "v12_尺八の独奏": ②尺八
+  "v12_尺八の独奏１０": ②尺八
+  "v12_尺八の独奏１１": ②尺八
+  "v12_尺八の独奏２": ②尺八
+  "v12_尺八の独奏６": ②尺八
+  "v12_尺八の独奏８": ②尺八
+  "v13_尺八の独奏": ②尺八
+  "v13_尺八の独奏２": ②尺八
+  "v13_尺八の独奏３": ②尺八
+  "v13_尺八の独奏４": ②尺八
+  "v13_尺八の独奏５": ②尺八
+  "v13_尺八の独奏６": ②尺八
+  "v13_尺八の独奏７": ②尺八
+  "v13_尺八の独奏８": ②尺八
+  "v13_尺八の独奏９": ②尺八
+  "v14_尺八の独奏": ②尺八
+  "v14_尺八の独奏１０": ②尺八
+  "v14_尺八の独奏１２": ②尺八
+  "v14_尺八の独奏１３": ②尺八
+  "v14_尺八の独奏１７": ②尺八
+  "v14_尺八の独奏１９": ②尺八
+  "v14_尺八の独奏２": ②尺八
+  "v14_尺八の独奏３": ②尺八
+  "v14_尺八の独奏４": ②尺八
+  "v14_尺八の独奏５": ②尺八
+  "v14_尺八の独奏７": ②尺八
+  # ③ピアノ … 在庫 7本
+  "v12_フェルトピアノ独奏２": ③ピアノ
+  "v12_フェルトピアノ独奏３": ③ピアノ
+  "v12_フェルトピアノ独奏６": ③ピアノ
+  "v13_フェルトピアノ独奏２": ③ピアノ
+  "v14_フェルトピアノ独奏１": ③ピアノ
+  "v14_フェルトピアノ独奏４": ③ピアノ
+  "v14_フェルトピアノ独奏８": ③ピアノ
+  # ④金属打 … 在庫 6本
+  "v11_金属の打楽器１": ④金属打
+  "v11_金属の打楽器２": ④金属打
+  "v13_金属打（鈴と鉢）のみ": ④金属打
+  "v13_金属打（鈴と鉢）のみ３": ④金属打
+  "v13_金属打（鈴と鉢）のみ６": ④金属打
+  "v14_金属音９": ④金属打
+  # ⑥胡弓 … 在庫 9本
+  "v11_鼓弓": ⑥胡弓
+  "v12_胡弓７": ⑥胡弓
+  "v13_胡弓 ４": ⑥胡弓
+  "v13_胡弓 ６": ⑥胡弓
+  "v13_胡弓 ７": ⑥胡弓
+  "v13_胡弓": ⑥胡弓
+  "v14_胡弓３": ⑥胡弓
+  "v14_胡弓６": ⑥胡弓
+  "v14_胡弓７": ⑥胡弓
+  # ⑦笙 … 在庫 5本
+  "v11_笙のみ１": ⑦笙
+  "v11_笙のみ４": ⑦笙
+  "v11_笙のみ５": ⑦笙
+  "v12_笙のみ２": ⑦笙
+  "v12_笙のみ９": ⑦笙
+  # ⑧龍笛 … 在庫 5本
+  "v12_龍笛の独奏２": ⑧龍笛
+  "龍笛1−３": ⑧龍笛
+  "龍笛1−４": ⑧龍笛
+  "龍笛1−５": ⑧龍笛
+  "龍笛1−８": ⑧龍笛
+  # ⑨琵琶 … 在庫 26本
+  "琵琶1−2": ⑨琵琶
+  "琵琶1−4": ⑨琵琶
+  "琵琶1−１": ⑨琵琶
+  "琵琶1−３": ⑨琵琶
+  "琵琶1−５": ⑨琵琶
+  "琵琶1−６": ⑨琵琶
+  "琵琶2−２": ⑨琵琶
+  "琵琶2−３": ⑨琵琶
+  "琵琶2−４": ⑨琵琶
+  "琵琶2−５": ⑨琵琶
+  "琵琶2−６": ⑨琵琶
+  "琵琶2−７": ⑨琵琶
+  "琵琶2−８": ⑨琵琶
+  "琵琶3−１": ⑨琵琶
+  "琵琶3−１０": ⑨琵琶
+  "琵琶3−２": ⑨琵琶
+  "琵琶3−３": ⑨琵琶
+  "琵琶3−４": ⑨琵琶
+  "琵琶3−６": ⑨琵琶
+  "琵琶3−７": ⑨琵琶
+  "琵琶3−９": ⑨琵琶
+  "琵琶4−１": ⑨琵琶
+  "琵琶4−２": ⑨琵琶
+  "琵琶4−３": ⑨琵琶
+  "琵琶4−４": ⑨琵琶
+  "琵琶4−５": ⑨琵琶
+  # ⑩フル編成 … 在庫 12本
+  "v11_ Brand Standard — A minor・全編成（１": ⑩フル編成
+  "v11_ Brand Standard — A minor・全編成（２": ⑩フル編成
+  "v11_ Brand Standard — A minor・全編成（４": ⑩フル編成
+  "v11_ Brand Standard — A minor・全編成（５": ⑩フル編成
+  "v12_E minor・全編成": ⑩フル編成
+  "v12_E minor・全編成１": ⑩フル編成
+  "v12_E minor・全編成３": ⑩フル編成
+  "v12_E minor３・全編成": ⑩フル編成
+  "v13_Brand Standard ３": ⑩フル編成
+  "v13_Brand Standard ４": ⑩フル編成
+  "v14_Brand Standard３": ⑩フル編成
+  "v14_Brand Standard７": ⑩フル編成
+  # ②尺八・⑦笙・⑧龍笛 … 新規（Codex が Suno で生成。プロンプトは Vol16_月夜の城_コピー用プロンプト.md）
+  #   ファイル名は v16_尺八A-1 の形。
+  # ②尺八 … 新規 12本（2026年9月29日取得）
+  "v16_尺八A-1": ②尺八
+  "v16_尺八A-2": ②尺八
+  "v16_尺八A-3": ②尺八
+  "v16_尺八A-4": ②尺八
+  "v16_尺八B-1": ②尺八
+  "v16_尺八B-2": ②尺八
+  "v16_尺八B-3": ②尺八
+  "v16_尺八B-4": ②尺八
+  "v16_尺八C-1": ②尺八
+  "v16_尺八C-2": ②尺八
+  "v16_尺八C-3": ②尺八
+  "v16_尺八C-4": ②尺八
+  # ⑦笙 … 新規 8本（2026年9月29日取得）
+  "v16_笙A-1": ⑦笙
+  "v16_笙A-2": ⑦笙
+  "v16_笙A-3": ⑦笙
+  "v16_笙A-4": ⑦笙
+  "v16_笙B-1": ⑦笙
+  "v16_笙B-2": ⑦笙
+  "v16_笙B-3": ⑦笙
+  "v16_笙B-4": ⑦笙
+  # ⑧龍笛 … 新規 9本（2026年9月29日取得）
+  "v16_龍笛A-1": ⑧龍笛
+  "v16_龍笛A-2": ⑧龍笛
+  "v16_龍笛A-3": ⑧龍笛
+  "v16_龍笛B-1": ⑧龍笛
+  "v16_龍笛B-2": ⑧龍笛
+  "v16_龍笛B-3": ⑧龍笛
+  "v16_龍笛C-1": ⑧龍笛
+  "v16_龍笛C-2": ⑧龍笛
+  "v16_龍笛C-3": ⑧龍笛
+
+
+# ★22曲・60分。Vol.11/12/14/15と同じ構成（画像22枚＝1曲1枚）。
+# ★新規3種は下限で押さえる（Vol.15の申し送り：下限に書かないと在庫の多い種で埋まる）。
+#   ただし笙・龍笛は在庫と新規が同じ種名なので、下限だけでは「新規が入る」ことまでは保証しない。
+#   選抜の結果を見て在庫ばかりなら、在庫の笙・龍笛を kinds から外して選び直す。
+# ★breath_floor で尺八を切る。在庫で通るのは1本（0.0536）だけなので、実質新規から選ばれる。
+select:
+  count: 22
+  total_seconds: [3500, 3720]     # 58〜62分
+  require_all_kinds: true
+  max_per_kind: 5
+  restarts: 150
+  # ★2026年9月29日 本人決定：尺八は在庫から選ぶ。新規10本は息0.006〜0.016で全滅（Sunoの出目。取得経路は無罪）。
+  #   在庫で0.035を超えるのは6本（0.0536/0.0421/0.0417/0.0389/0.0364/0.0348）。
+  breath_floor:
+    ②尺八: 0.035
+  kind_limits:
+    ①箏: [2, 3]
+    ②尺八: [3, 3]      # 在庫の上位6本から3本
+    ③ピアノ: [1, 2]
+    ④金属打: [1, 2]
+    ⑥胡弓: [1, 3]
+    ⑦笙: [2, 2]        # ★新規
+    ⑧龍笛: [2, 3]      # ★新規
+    ⑨琵琶: [3, 4]      # 在庫26本。城と平家語りで相性がいい
+    ⑩フル編成: [2, 3]
+  # 下限の合計17・上限の合計25。22がその間に入っている（下限＝22の固定にしない）。
+
+order:
+  restarts: 400
+
+
+# 11場面 × A（引き）/ B（寄り）＝22。曲順と1対1に対応する。
+# ★一夜の順路：遠望 → 大手門 → 石垣 → 枡形 → 白壁 → 櫓の中 → 天守の中 → 最上階 → 天守を仰ぐ → 影 → 薄明。
+#   外から近づき、内へ入り、最上階で野を見下ろし、外へ出て仰ぎ、夜が明ける。
+# ★月の位置：01〜04 東の低い位置（左）で昇る → 05〜18 高く → 19・20 西の低い位置（右）→ 21・22 沈んで薄明。
+scenes:
+- 遠望・引き
+- 遠望・寄り
+- 大手門・引き
+- 大手門・寄り
+- 石垣の反り・引き
+- 石垣の反り・寄り
+- 枡形・引き
+- 枡形・寄り
+- 白壁と狭間・引き
+- 白壁と狭間・寄り
+- 櫓の廊下・引き
+- 櫓の廊下・寄り
+- 天守の梁・引き
+- 天守の梁・寄り
+- 最上階の眺め・引き
+- 最上階の眺め・寄り
+- 天守を仰ぐ・引き
+- 天守を仰ぐ・寄り
+- 天守の影・引き
+- 天守の影・寄り
+- 薄明・引き
+- 薄明・寄り
+
+# 画像はCodexの手生成（16:9でそのまま出す）。`python3 画像プロンプト書き出し.py` で合成後の全文を書き出して渡す。
+# ★全プロンプト末尾の共通文で潰す事故：
+#   1. 堀の水 … 城を描かせるとAIは必ず堀と水面の映り込みを出す。水は音の期待を呼ぶ（Vol.5・SOJ）
+#   2. 松 … 城の松はほぼ定番。Vol.14と被るので全面禁止
+#   3. 桜・紅葉・雪 … 順に Vol.3・Vol.8・Vol.9 と被る
+#   4. 灯り … 窓の灯り・提灯・城下の街明かり。光源は月だけ（ジャンルの image_style と同じ）
+#   5. 甲冑・旗・幟 … 戦の絵にしない。幟は崩れ字を呼ぶ
+#   6. 鯱は金にしない … 暖色が入ると青の巻として成立しない。くすんだ青銅に
+#   7. 富士山 … 遠景の高い円錐の山
+image_prompts:
+- 'A wide view at night of a white Japanese castle keep standing on its stone-walled hill, seen from far across dark, empty fields and low wooded ground. The full moon has just risen low on the left, large and pale, and its light catches the white walls of the keep so the whole castle reads as a small, bright shape against the deep blue sky. The castle stands in the right half of the frame; the left third is open sky and the rising moon. The castle is a white-plastered, multi-tiered Japanese castle of the Edo period with dark grey tiled roofs and curved gables, standing on massive dry-laid stone walls. The air is completely still. No water of any kind — no moat, no pond, no river, no reflections, no wet ground. No cherry blossoms, no autumn leaves, no snow, no pine trees, no stone lanterns, no shrine gates, no pagodas, no tall conical mountain. No lit windows, no lanterns, no fire, no town lights, no modern buildings, no power lines, no fences, no railings. No people, no armor, no flags, no banners, no signage, no lettering of any kind.'
+- 'A telephoto view at night compressing the distance to a white Japanese castle keep on its hill, the full moon just risen and low on the left of the keep, large, its surface detail visible. The layered roofs and gables of the keep stand in clean silhouette with the white walls lit pale blue. Long lens, strong compression, everything still. The keep sits in the right two thirds of the frame. The castle is a white-plastered, multi-tiered Japanese castle of the Edo period with dark grey tiled roofs and curved gables, standing on massive dry-laid stone walls. The air is completely still. No water of any kind — no moat, no pond, no river, no reflections, no wet ground. No cherry blossoms, no autumn leaves, no snow, no pine trees, no stone lanterns, no shrine gates, no pagodas, no tall conical mountain. No lit windows, no lanterns, no fire, no town lights, no modern buildings, no power lines, no fences, no railings. No people, no armor, no flags, no banners, no signage, no lettering of any kind.'
+- 'The main gate of a Japanese castle at night, seen straight on from the approach: a massive closed wooden gate of dark weathered timber reinforced with black iron plates and rows of iron studs, set between tall stone walls, with a white-plastered gatehouse turret above it under a heavy tiled roof. The moon is low on the left and out of frame, its light raking across the stone and timber from the side. The gate stands in the right two thirds; the left third is dark stone wall falling into open shadow. The castle is a white-plastered, multi-tiered Japanese castle of the Edo period with dark grey tiled roofs and curved gables, standing on massive dry-laid stone walls. The air is completely still. No water of any kind — no moat, no pond, no river, no reflections, no wet ground. No cherry blossoms, no autumn leaves, no snow, no pine trees, no stone lanterns, no shrine gates, no pagodas, no tall conical mountain. No lit windows, no lanterns, no fire, no town lights, no modern buildings, no power lines, no fences, no railings. No people, no armor, no flags, no banners, no signage, no lettering of any kind.'
+- 'Close view at night of part of a closed Japanese castle gate: dark weathered timber planks, broad black iron straps and heavy domed iron studs in rows, the grain of the wood and the rust bloom on the iron picked out by low cold moonlight from the left. Almost abstract, the surface filling the frame. The castle is a white-plastered, multi-tiered Japanese castle of the Edo period with dark grey tiled roofs and curved gables, standing on massive dry-laid stone walls. The air is completely still. No water of any kind — no moat, no pond, no river, no reflections, no wet ground. No cherry blossoms, no autumn leaves, no snow, no pine trees, no stone lanterns, no shrine gates, no pagodas, no tall conical mountain. No lit windows, no lanterns, no fire, no town lights, no modern buildings, no power lines, no fences, no railings. No people, no armor, no flags, no banners, no signage, no lettering of any kind.'
+- 'Looking up at night along the great curved stone wall of a Japanese castle, the wall rising from the ground and sweeping upward in a smooth concave curve like the edge of an opened fan, steeper and steeper until it stands almost vertical beneath a white turret at the top. The stones are fitted without mortar, large corner stones interlocking at the angle. The moon, higher now, sits in the upper right beyond the turret. Low camera at the foot of the wall. The castle is a white-plastered, multi-tiered Japanese castle of the Edo period with dark grey tiled roofs and curved gables, standing on massive dry-laid stone walls. The air is completely still. No water of any kind — no moat, no pond, no river, no reflections, no wet ground. No cherry blossoms, no autumn leaves, no snow, no pine trees, no stone lanterns, no shrine gates, no pagodas, no tall conical mountain. No lit windows, no lanterns, no fire, no town lights, no modern buildings, no power lines, no fences, no railings. No people, no armor, no flags, no banners, no signage, no lettering of any kind.'
+- 'Close view at night of the dry-laid stones of a Japanese castle wall, large irregular granite blocks fitted tightly with smaller wedge stones packed into the gaps, a thin trace of moss and lichen in the joints. Cold moonlight grazes across from the upper right so every stone casts its own small shadow. The face of the wall leans back and curves away from the camera. The castle is a white-plastered, multi-tiered Japanese castle of the Edo period with dark grey tiled roofs and curved gables, standing on massive dry-laid stone walls. The air is completely still. No water of any kind — no moat, no pond, no river, no reflections, no wet ground. No cherry blossoms, no autumn leaves, no snow, no pine trees, no stone lanterns, no shrine gates, no pagodas, no tall conical mountain. No lit windows, no lanterns, no fire, no town lights, no modern buildings, no power lines, no fences, no railings. No people, no armor, no flags, no banners, no signage, no lettering of any kind.'
+- 'Inside the square stone enclosure between two gates of a Japanese castle at night: high stone walls close in on all four sides, a second gate with a white turret above it set at a right angle to the first, the ground a floor of pale packed earth and gravel. Moonlight falls from high above so half of the enclosure is lit and half lies in open, detailed shadow. The feeling is of being held and protected. The second gate stands in the right half of the frame. The castle is a white-plastered, multi-tiered Japanese castle of the Edo period with dark grey tiled roofs and curved gables, standing on massive dry-laid stone walls. The air is completely still. No water of any kind — no moat, no pond, no river, no reflections, no wet ground. No cherry blossoms, no autumn leaves, no snow, no pine trees, no stone lanterns, no shrine gates, no pagodas, no tall conical mountain. No lit windows, no lanterns, no fire, no town lights, no modern buildings, no power lines, no fences, no railings. No people, no armor, no flags, no banners, no signage, no lettering of any kind.'
+- 'Close view at night of the inside corner where two high stone walls of a castle enclosure meet at a right angle, the interlocking corner stones stacked in alternating long and short blocks, rising out of frame. Moonlight from above lights one face and leaves the other in open shadow full of texture. The castle is a white-plastered, multi-tiered Japanese castle of the Edo period with dark grey tiled roofs and curved gables, standing on massive dry-laid stone walls. The air is completely still. No water of any kind — no moat, no pond, no river, no reflections, no wet ground. No cherry blossoms, no autumn leaves, no snow, no pine trees, no stone lanterns, no shrine gates, no pagodas, no tall conical mountain. No lit windows, no lanterns, no fire, no town lights, no modern buildings, no power lines, no fences, no railings. No people, no armor, no flags, no banners, no signage, no lettering of any kind.'
+- 'A long white-plastered earthen wall of a Japanese castle at night, topped with a small tiled roof, running away from the camera in gentle perspective along the top of a stone wall. Small openings are set in a regular rhythm along the wall — triangles, squares and circles — the old defensive loopholes, each one a dark shape in the glowing white plaster. The moon is high and the eaves cast a thin, sharp shadow line along the top of the wall. The wall runs through the right two thirds of the frame. The castle is a white-plastered, multi-tiered Japanese castle of the Edo period with dark grey tiled roofs and curved gables, standing on massive dry-laid stone walls. The air is completely still. No water of any kind — no moat, no pond, no river, no reflections, no wet ground. No cherry blossoms, no autumn leaves, no snow, no pine trees, no stone lanterns, no shrine gates, no pagodas, no tall conical mountain. No lit windows, no lanterns, no fire, no town lights, no modern buildings, no power lines, no fences, no railings. No people, no armor, no flags, no banners, no signage, no lettering of any kind.'
+- 'Close view at night of a white plastered castle wall with a single triangular loophole and a single square loophole cut through it, the thick wall visible in the depth of each opening, the plaster slightly weathered with fine cracks. Moonlight from above; the tiled eave at the top of the frame casts a crisp shadow across the white. The castle is a white-plastered, multi-tiered Japanese castle of the Edo period with dark grey tiled roofs and curved gables, standing on massive dry-laid stone walls. The air is completely still. No water of any kind — no moat, no pond, no river, no reflections, no wet ground. No cherry blossoms, no autumn leaves, no snow, no pine trees, no stone lanterns, no shrine gates, no pagodas, no tall conical mountain. No lit windows, no lanterns, no fire, no town lights, no modern buildings, no power lines, no fences, no railings. No people, no armor, no flags, no banners, no signage, no lettering of any kind.'
+- 'Inside the long upper corridor of a Japanese castle turret at night: bare dark wooden floorboards polished by centuries, heavy square posts and rough-hewn beams, and along one side a row of vertical wooden lattice windows. Moonlight comes through the lattice and lays a row of pale bright bars across the floor that run the length of the corridor. Empty, silent, no furnishings. The corridor recedes toward the right of the frame. The castle is a white-plastered, multi-tiered Japanese castle of the Edo period with dark grey tiled roofs and curved gables, standing on massive dry-laid stone walls. The air is completely still. No water of any kind — no moat, no pond, no river, no reflections, no wet ground. No cherry blossoms, no autumn leaves, no snow, no pine trees, no stone lanterns, no shrine gates, no pagodas, no tall conical mountain. No lit windows, no lanterns, no fire, no town lights, no modern buildings, no power lines, no fences, no railings. No people, no armor, no flags, no banners, no signage, no lettering of any kind.'
+- 'Close view at night of a wooden lattice window in a castle turret, thick square vertical bars of dark timber, the moonlit sky and a pale white wall visible between them, and the bars of light and shadow they throw falling across the worn floorboards below. The grain of the wood is sharp and readable. The castle is a white-plastered, multi-tiered Japanese castle of the Edo period with dark grey tiled roofs and curved gables, standing on massive dry-laid stone walls. The air is completely still. No water of any kind — no moat, no pond, no river, no reflections, no wet ground. No cherry blossoms, no autumn leaves, no snow, no pine trees, no stone lanterns, no shrine gates, no pagodas, no tall conical mountain. No lit windows, no lanterns, no fire, no town lights, no modern buildings, no power lines, no fences, no railings. No people, no armor, no flags, no banners, no signage, no lettering of any kind.'
+- 'Inside an upper floor of a Japanese castle keep at night: enormous rough-hewn timber beams and pillars crossing overhead, a steep wooden staircase rising to the floor above, bare polished floorboards. Pale moonlight enters from small windows on the right and lights the edges of the beams and the steps, the rest of the room in open, detailed shadow. Empty and still. No furnishings, no armor, no weapons, no displays. The castle is a white-plastered, multi-tiered Japanese castle of the Edo period with dark grey tiled roofs and curved gables, standing on massive dry-laid stone walls. The air is completely still. No water of any kind — no moat, no pond, no river, no reflections, no wet ground. No cherry blossoms, no autumn leaves, no snow, no pine trees, no stone lanterns, no shrine gates, no pagodas, no tall conical mountain. No lit windows, no lanterns, no fire, no town lights, no modern buildings, no power lines, no fences, no railings. No people, no armor, no flags, no banners, no signage, no lettering of any kind.'
+- 'Close view at night of the joint where a massive timber pillar meets two crossing beams in a castle keep, the adze marks on the old wood visible, iron nails and wooden wedges at the joint, a thin line of moonlight from a window catching the upper edges of the wood. The castle is a white-plastered, multi-tiered Japanese castle of the Edo period with dark grey tiled roofs and curved gables, standing on massive dry-laid stone walls. The air is completely still. No water of any kind — no moat, no pond, no river, no reflections, no wet ground. No cherry blossoms, no autumn leaves, no snow, no pine trees, no stone lanterns, no shrine gates, no pagodas, no tall conical mountain. No lit windows, no lanterns, no fire, no town lights, no modern buildings, no power lines, no fences, no railings. No people, no armor, no flags, no banners, no signage, no lettering of any kind.'
+- 'The view at night from the top floor of a Japanese castle keep, looking out through an open wooden window frame: below, the white turrets, stone walls and tiled roofs of the lower castle step down the hill, and beyond them a wide moonlit plain of dark fields and low wooded hills stretching to a soft, low horizon. The full moon is high in the upper right. The dark window frame edges the left of the picture. There is no town and no light anywhere below — only moonlight. The castle is a white-plastered, multi-tiered Japanese castle of the Edo period with dark grey tiled roofs and curved gables, standing on massive dry-laid stone walls. The air is completely still. No water of any kind — no moat, no pond, no river, no reflections, no wet ground. No cherry blossoms, no autumn leaves, no snow, no pine trees, no stone lanterns, no shrine gates, no pagodas, no tall conical mountain. No lit windows, no lanterns, no fire, no town lights, no modern buildings, no power lines, no fences, no railings. No people, no armor, no flags, no banners, no signage, no lettering of any kind.'
+- 'Looking down at night from high in a Japanese castle keep onto the roofs of the turrets below: layers of dark grey tiled roofs with their curved gables and ridge ends, the moonlight running along each row of rounded tiles like a line of silver, the white walls beneath them glowing pale. Everything still. The castle is a white-plastered, multi-tiered Japanese castle of the Edo period with dark grey tiled roofs and curved gables, standing on massive dry-laid stone walls. The air is completely still. No water of any kind — no moat, no pond, no river, no reflections, no wet ground. No cherry blossoms, no autumn leaves, no snow, no pine trees, no stone lanterns, no shrine gates, no pagodas, no tall conical mountain. No lit windows, no lanterns, no fire, no town lights, no modern buildings, no power lines, no fences, no railings. No people, no armor, no flags, no banners, no signage, no lettering of any kind.'
+- 'Looking up at night at a white Japanese castle keep from close to the foot of its stone base: the curved stone wall at the bottom, then tier upon tier of white walls and dark roofs with their triangular and curved gables stacking upward into the sky, and at the very top the roof ridge ending in a pair of dark bronze fish-shaped ornaments. The full moon stands high just to the right of the top of the keep. The strongest image of the night. The keep fills the right two thirds; the left third is open sky. The castle is a white-plastered, multi-tiered Japanese castle of the Edo period with dark grey tiled roofs and curved gables, standing on massive dry-laid stone walls. The air is completely still. No water of any kind — no moat, no pond, no river, no reflections, no wet ground. No cherry blossoms, no autumn leaves, no snow, no pine trees, no stone lanterns, no shrine gates, no pagodas, no tall conical mountain. No lit windows, no lanterns, no fire, no town lights, no modern buildings, no power lines, no fences, no railings. No people, no armor, no flags, no banners, no signage, no lettering of any kind.'
+- 'Close view at night of the uppermost roof of a castle keep: a curved gable framed in white plaster, rows of rounded grey roof tiles with circular end caps, and the dark bronze fish-shaped ornament at the end of the ridge silhouetted against the moonlit sky, the full moon just beside it. Muted bronze, no gilding, no gold. The castle is a white-plastered, multi-tiered Japanese castle of the Edo period with dark grey tiled roofs and curved gables, standing on massive dry-laid stone walls. The air is completely still. No water of any kind — no moat, no pond, no river, no reflections, no wet ground. No cherry blossoms, no autumn leaves, no snow, no pine trees, no stone lanterns, no shrine gates, no pagodas, no tall conical mountain. No lit windows, no lanterns, no fire, no town lights, no modern buildings, no power lines, no fences, no railings. No people, no armor, no flags, no banners, no signage, no lettering of any kind.'
+- 'The main inner courtyard of a Japanese castle late at night: the full moon now low in the west on the right side, behind the white keep, so the keep throws a long dark shadow straight toward the camera across a wide floor of pale raked gravel and packed earth. The shadow of the tiers and gables lies across the ground like a drawing. The keep stands on the right; the left third is open moonlit gravel and sky. The castle is a white-plastered, multi-tiered Japanese castle of the Edo period with dark grey tiled roofs and curved gables, standing on massive dry-laid stone walls. The air is completely still. No water of any kind — no moat, no pond, no river, no reflections, no wet ground. No cherry blossoms, no autumn leaves, no snow, no pine trees, no stone lanterns, no shrine gates, no pagodas, no tall conical mountain. No lit windows, no lanterns, no fire, no town lights, no modern buildings, no power lines, no fences, no railings. No people, no armor, no flags, no banners, no signage, no lettering of any kind.'
+- 'Close view at night of the edge of a long shadow cast by a castle keep across pale gravel: the stepped outline of roofs and gables lies across the stones, the gravel grains sharp in the moonlight on one side and in open, detailed shadow on the other. Low moon from the right. The castle is a white-plastered, multi-tiered Japanese castle of the Edo period with dark grey tiled roofs and curved gables, standing on massive dry-laid stone walls. The air is completely still. No water of any kind — no moat, no pond, no river, no reflections, no wet ground. No cherry blossoms, no autumn leaves, no snow, no pine trees, no stone lanterns, no shrine gates, no pagodas, no tall conical mountain. No lit windows, no lanterns, no fire, no town lights, no modern buildings, no power lines, no fences, no railings. No people, no armor, no flags, no banners, no signage, no lettering of any kind.'
+- 'A white Japanese castle keep on its stone-walled hill just before dawn, seen from the same far distance as the start of the night: the moon has set, the sky is turning a pale grey-blue from below while the top of the frame is still deep blue, and the white walls of the keep glow softly with no direction of light and no shadows. Cold and blue, not golden. The castle stands in the right half of the frame. The castle is a white-plastered, multi-tiered Japanese castle of the Edo period with dark grey tiled roofs and curved gables, standing on massive dry-laid stone walls. The air is completely still. No water of any kind — no moat, no pond, no river, no reflections, no wet ground. No cherry blossoms, no autumn leaves, no snow, no pine trees, no stone lanterns, no shrine gates, no pagodas, no tall conical mountain. No lit windows, no lanterns, no fire, no town lights, no modern buildings, no power lines, no fences, no railings. No people, no armor, no flags, no banners, no signage, no lettering of any kind.'
+- 'Close view just before dawn of the white walls and dark roofs of a castle turret against a pale grey-blue sky, the plaster glowing softly with shadowless light, the edges of every roof tile clear. Cold, calm, the night ending. No sunrise colors, no orange, no pink. The castle is a white-plastered, multi-tiered Japanese castle of the Edo period with dark grey tiled roofs and curved gables, standing on massive dry-laid stone walls. The air is completely still. No water of any kind — no moat, no pond, no river, no reflections, no wet ground. No cherry blossoms, no autumn leaves, no snow, no pine trees, no stone lanterns, no shrine gates, no pagodas, no tall conical mountain. No lit windows, no lanterns, no fire, no town lights, no modern buildings, no power lines, no fences, no railings. No people, no armor, no flags, no banners, no signage, no lettering of any kind.'
+
+images:
+- vol16_01.png
+- vol16_02.png
+- vol16_03.png
+- vol16_04.png
+- vol16_05.png
+- vol16_06.png
+- vol16_07.png
+- vol16_08.png
+- vol16_09.png
+- vol16_10.png
+- vol16_11.png
+- vol16_12.png
+- vol16_13.png
+- vol16_14.png
+- vol16_15.png
+- vol16_16.png
+- vol16_17.png
+- vol16_18.png
+- vol16_19.png
+- vol16_20.png
+- vol16_21.png
+- vol16_22.png
+
+
+# ★2026年9月29日 選抜（150リスタート）。最大 0.456 / 平均 0.301 / 60.5分。
+#   Vol.15（0.422/0.271）より一段悪い。在庫が「良いものから抜かれた残り」なので構造的に避けられない
+#   （whispers-leftover-inventory）。Vol.8の0.442と同程度。
+#   新規から入ったのは ⑦笙B-1・B-3 と ⑧龍笛A-2・B-1・C-1 の5本。尺八は在庫の3本（息0.0536/0.0389/0.0421）。
+#   ★人声の機械検査で疑いが出た11本（尺八A-1〜4・B-2・C-2、笙A-1〜4・B-2）は1本も入っていない。
+#     採用5本の検査値はすべて在庫の基準以下（笙B-1 0.034・B-3 0.016、龍笛≤0.010）。
+#   ★--write は使わずに手で貼っている（YAMLのコメントが全部消えるため）。
+picked:
+- "v13_箏の独奏１.wav"
+- "v11_箏の独奏５.wav"
+- "v12_尺八の独奏１０.wav"
+- "v13_尺八の独奏８.wav"
+- "v12_尺八の独奏６.wav"
+- "v12_フェルトピアノ独奏３.wav"
+- "v13_フェルトピアノ独奏２.wav"
+- "v14_金属音９.wav"
+- "v14_胡弓７.wav"
+- "v13_胡弓.wav"
+- "v11_鼓弓 (1).wav"
+- "v16_笙B-1.wav"
+- "v16_笙B-3.wav"
+- "v16_龍笛C-1.wav"
+- "v16_龍笛B-1.wav"
+- "v16_龍笛A-2.wav"
+- "琵琶1−2.wav"
+- "琵琶3−６.wav"
+- "琵琶3−１.wav"
+- "琵琶4−５.wav"
+- "v12_E minor・全編成３.wav"
+- "v12_E minor・全編成１.wav"
+
+
+# ★2026年9月29日 曲順（400リスタート）。隣接の最大 0.294 / 平均 0.265。
+#   Vol.13 0.284 と同程度（Vol.15 0.260・Long Nights 3 0.311）。明るさの最大跳ね31.2dBは設計どおり。
+#   1曲目はフル編成（チャンネルの看板の音で開ける）。
+order_tracks:
+- "v12_E minor・全編成１.wav"
+- "琵琶3−６.wav"
+- "v13_箏の独奏１.wav"
+- "v16_龍笛C-1.wav"
+- "v16_笙B-3.wav"
+- "v12_尺八の独奏１０.wav"
+- "琵琶3−１.wav"
+- "v14_金属音９.wav"
+- "v16_笙B-1.wav"
+- "v13_尺八の独奏８.wav"
+- "v16_龍笛A-2.wav"
+- "v11_鼓弓 (1).wav"
+- "琵琶1−2.wav"
+- "v12_E minor・全編成３.wav"
+- "v12_フェルトピアノ独奏３.wav"
+- "v11_箏の独奏５.wav"
+- "v16_龍笛B-1.wav"
+- "v13_胡弓.wav"
+- "v13_フェルトピアノ独奏２.wav"
+- "v12_尺八の独奏６.wav"
+- "琵琶4−５.wav"
+- "v14_胡弓７.wav"
+
+# ★縦型ショート3本（2026年9月29日）。`python3 -m bgmkit short vol16`
+#   天守は絵の右寄り（x≈1200〜1250/1672）にあるので anchor で右へ寄せて切り出す
+#   （幅529pxの窓の左端＝(1672−529)×anchor）。
+#   音は絵と同じ曲でなくてよい。出だしが静かな位置を避け、曲の本体から採る。
+shorts:
+- tag: A
+  image: 17           # 天守を仰ぐ・引き。サムネと同じ絵＝本編への誘導が一番効く
+  anchor: 0.86
+  at: "0:36:10"       # 14曲目 フル編成の本体
+  title: 月夜の城
+  sub: [和風アンビエント, 60分版はチャンネルに]
+  move: in
+- tag: B
+  image: 2            # 遠望・寄り。月と天守が縦に並ぶ
+  anchor: 0.86
+  at: "0:05:20"       # 3曲目 箏の独奏
+  title: 月夜の城
+  sub: [和風アンビエント, 60分版はチャンネルに]
+  move: out
+- tag: C
+  image: 22           # 薄明・寄り。全22枚で最も明るい（平均78.8）
+  anchor: 0.80
+  at: "0:52:10"       # 20曲目 尺八（息0.0421）
+  title: 月夜の城
+  sub: [和風アンビエント, 60分版はチャンネルに]
+  move: in
+  # ★字が白壁の上に乗って沈んだ（初版）。文字の始まる前から地を作る（EOJ01のDと同じ手当て）。
+  scrim: {top: 800, full: 1450, gamma: 1.0, opacity: 0.84}
+
+music_bed_source: /Volumes/ESD-02/BGM/1_Whispers of Japan/Vol16_素材_城/_work/music_bed.wav
+
+tracks_subdir: /Volumes/ESD-02/BGM/1_Whispers of Japan/Vol16_素材_城/楽曲

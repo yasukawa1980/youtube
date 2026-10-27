@@ -1,0 +1,193 @@
+# Echoes of Old Japan / 08 —— 雨だれ
+#
+# ★★音は bgmkit の外で作っている。 select / order / audio は使わない。
+#   ショパンの前奏曲 作品28 から5曲（第7・15・4・2・13番）を素材に、
+#   曲・音階・主音・テンポ・繰り返しの回数・旋律楽器の6軸で8変奏を作り、
+#   8秒クロスフェードで繋いだ59分04秒。実装は bgm/EOJ08_雨だれ/album.py（描画55秒）。
+#   ★ECJ08（15分04秒の作品版）と素材も描画器も共有している。★床では第4番を足して5曲。
+#
+# ★★この巻の宿題は「原曲が短い」こと（EOJ01〜07 と逆）。48〜356拍しかない。
+#   → `repeat()` で曲そのものを2〜4回鳴らす。区切りは小節に丸めた曲の終わり。
+#
+# ★★実測 59分04秒 / **−14.0 LUFS / TP −1.7**（wav）。当て込みは不要（入力 −16.96）。
+#   ★第13番の変奏は DC が +0.47/+0.58 まで溜まる（箏が密）。`dcfix` 後は 0.000000。
+
+# ★★画題は「凍った池」。 既刊16巻と幾何が重ならないものを選んだ
+#   （ECJ01海／02参道／03棚田／04橋／05藤棚／06竹林／07雪の庭／08山寺の雨／
+#     09書院の丸窓と紅葉／10鯉のぼりの里／EOJ01月と水／02森の内側／03蓮池／04梅林／
+#     05苔庭と飛び石／06枯山水）。
+# ★★作品版と同じ画題にしない（同じ曲の2本が棚で競合する）。EOJ05 で藤棚→苔庭にしたのと同じ判断。
+# ★★場面2をいちばん暗くする（音の陰に絵の夜を当てる）。EOJ06 で組み直して決めた規則。
+# ★露出は受け取ってから実測する（16未満の割合。平均輝度では合わせない）。
+#   サムネは題字の乗る側の地を 12〜16 に。
+
+genre: echoesofoldjapan
+volume: 8
+slug: eoj08
+dir: "/Volumes/ESD-EPB/BGM/5_Echoes of Old Japan/EOJ08_素材_雨だれ"
+
+runtime: "59 MIN"
+title_lines: [RAINDROP, CHOPIN]
+thumb:
+  title_family: serif
+  title_fit: 760
+  tracking:
+    brand: 4
+
+scenes:
+- 01 夕の氷（曲01-02。氷が夕空をそのまま映す）
+- 02 雪雲の夜（曲03-04。★いちばん暗い。月は無く、雪が舞う）
+- 03 月の氷（曲05-06。★見せ場。割れ目が白く光り、穴の黒い水に月と輪）
+- 04 朝の氷（曲07-08。薄靄と金色の空。いちばん明るい）
+- 05 サムネ専用（本編には使わない。左三分の一が柳と岸の影）
+
+# ★プロンプトの全文は bgm/EOJ08_雨だれ_画像プロンプト/ にも同じものが置いてある（Codex へ渡すのはそちら）。
+image_prompts:
+- >-
+  A frozen pond in a Japanese valley, at sunset. Seen from the bank at standing height, looking
+  across: the sheet of ice fills the lower two thirds of the frame as one wide pale plane, and
+  across it runs a branching network of white cracks and low pressure ridges, spreading from the
+  near edge towards the far bank like the veins of a leaf. Dry reeds and one leaning willow stand
+  through the ice at the left. The far bank is a low mound of snow-dusted grass with a row of bare
+  trees behind it, closing the picture; nothing is visible beyond those trees, no mountains and no
+  distant landscape. The ice takes the whole sky onto its surface: a soft gradated wash from deep
+  orange near the far bank through apricot to pale violet in the foreground. Against that warm
+  field the cracks read as fine clear darker lines, and the pressure ridges throw small long
+  shadows. Orange, apricot, violet-grey, bleached reed gold, bare black branches. Japanese shin-
+  hanga woodblock print in the manner of the 1920s-30s revival: flat layered areas of colour,
+  visible woodgrain in the flat passages, softly gradated sky (bokashi), Western perspective and
+  cast light held inside Japanese printmaking. Calm, unpeopled, no figures. Strong clear
+  difference between the light and dark masses so the image still reads when reduced to a
+  thumbnail. No text, no signature, no seal stamp, no lettering of any kind. No modern objects: no
+  power lines, no utility poles, no electric lamps, no vehicles, no plastic, no road markings.
+  Wide 16:9 landscape. Exposed so that texture is clearly visible everywhere. Shadows are lifted
+  and open, full of visible detail, nothing crushed to pure black. High dynamic range, rich
+  texture even in the darkest areas.
+- >-
+  A frozen pond in a Japanese valley, at night, hours later, under heavy snow cloud. Seen from the
+  bank at standing height, looking across: the sheet of ice fills the lower two thirds of the
+  frame as one wide pale plane, and across it runs a branching network of white cracks and low
+  pressure ridges, spreading from the near edge towards the far bank like the veins of a leaf. Dry
+  reeds and one leaning willow stand through the ice at the left. The far bank is a low mound of
+  snow-dusted grass with a row of bare trees behind it, closing the picture; nothing is visible
+  beyond those trees, no mountains and no distant landscape. There is no moon anywhere in the
+  picture. This is the darkest of the four scenes and must read clearly as a deep, moonless-
+  feeling night. The ice no longer mirrors anything: it reads as one soft evenly luminous pale
+  grey-blue field, and the cracks are drawn by gentle low-contrast shading that stays readable
+  right across it. The reeds keep their stems, the trees keep their branch structure, and nothing
+  is crushed to solid black. A few flakes of snow drift down. Deep indigo, slate blue, muted
+  pewter, one faint diffuse glow high in the cloud. Japanese shin-hanga woodblock print in the
+  manner of the 1920s-30s revival: flat layered areas of colour, visible woodgrain in the flat
+  passages, softly gradated sky (bokashi), Western perspective and cast light held inside Japanese
+  printmaking. Calm, unpeopled, no figures. Strong clear difference between the light and dark
+  masses so the image still reads when reduced to a thumbnail. No text, no signature, no seal
+  stamp, no lettering of any kind. No modern objects: no power lines, no utility poles, no
+  electric lamps, no vehicles, no plastic, no road markings. Wide 16:9 landscape. Exposed so that
+  texture is clearly visible everywhere. Shadows are lifted and open, full of visible detail,
+  nothing crushed to pure black. High dynamic range, rich texture even in the darkest areas.
+- >-
+  A frozen pond in a Japanese valley, at night under a full moon. Seen from the bank at standing
+  height, looking across: the sheet of ice fills the lower two thirds of the frame as one wide
+  pale plane, and across it runs a branching network of white cracks and low pressure ridges,
+  spreading from the near edge towards the far bank like the veins of a leaf. Dry reeds and one
+  leaning willow stand through the ice at the left. The far bank is a low mound of snow-dusted
+  grass with a row of bare trees behind it, closing the picture; nothing is visible beyond those
+  trees, no mountains and no distant landscape. The moon stands above the row of trees, a little
+  right of centre. The ice is bright silver and the cracks blaze white where they catch the light.
+  Near the middle right a small round opening of unfrozen black water holds a clear reflection of
+  the moon, and slow rings spread across it from a drip falling off the willow. Silver, deep blue,
+  black open water, dark bare branches. Clearly brighter than the clouded night but still
+  unmistakably night. Japanese shin-hanga woodblock print in the manner of the 1920s-30s revival:
+  flat layered areas of colour, visible woodgrain in the flat passages, softly gradated sky
+  (bokashi), Western perspective and cast light held inside Japanese printmaking. Calm, unpeopled,
+  no figures. Strong clear difference between the light and dark masses so the image still reads
+  when reduced to a thumbnail. No text, no signature, no seal stamp, no lettering of any kind. No
+  modern objects: no power lines, no utility poles, no electric lamps, no vehicles, no plastic, no
+  road markings. Wide 16:9 landscape. Exposed so that texture is clearly visible everywhere.
+  Shadows are lifted and open, full of visible detail, nothing crushed to pure black. High dynamic
+  range, rich texture even in the darkest areas.
+- >-
+  A frozen pond in a Japanese valley, at dawn. Seen from the bank at standing height, looking
+  across: the sheet of ice fills the lower two thirds of the frame as one wide pale plane, and
+  across it runs a branching network of white cracks and low pressure ridges, spreading from the
+  near edge towards the far bank like the veins of a leaf. Dry reeds and one leaning willow stand
+  through the ice at the left. The far bank is a low mound of snow-dusted grass with a row of bare
+  trees behind it, closing the picture; nothing is visible beyond those trees, no mountains and no
+  distant landscape. Thin mist lies on the ice and the sky behind the bare trees is pale gold
+  going to white. The cracks are soft grey now, and the whole surface glows. This is the brightest
+  and most open of the four scenes. Pale gold, warm white, soft blue-grey, pale reed gold.
+  Japanese shin-hanga woodblock print in the manner of the 1920s-30s revival: flat layered areas
+  of colour, visible woodgrain in the flat passages, softly gradated sky (bokashi), Western
+  perspective and cast light held inside Japanese printmaking. Calm, unpeopled, no figures. Strong
+  clear difference between the light and dark masses so the image still reads when reduced to a
+  thumbnail. No text, no signature, no seal stamp, no lettering of any kind. No modern objects: no
+  power lines, no utility poles, no electric lamps, no vehicles, no plastic, no road markings.
+  Wide 16:9 landscape. Exposed so that texture is clearly visible everywhere. Shadows are lifted
+  and open, full of visible detail, nothing crushed to pure black. High dynamic range, rich
+  texture even in the darkest areas.
+- >-
+  The same frozen pond under a full moon, composed for a thumbnail. The whole LEFT third of the
+  frame, from the very top edge down to the bottom edge, is a dark unbroken mass — the near bank
+  with the leaning willow and dry reeds, and the deep shadow they throw across the ice — with
+  almost no detail needed there. The RIGHT two thirds open onto the moonlit ice, which reads as
+  one wide bright silver plane with the branching white cracks blazing across it as strong clear
+  lines. The full moon stands above the row of bare trees at the top right. One long branch of the
+  willow reaches out of the dark left mass and hangs over the ice in the lower middle of the
+  frame, and directly beneath its tip the ice is open: a small round hole of unfrozen black water,
+  low and just right of centre, holding a clear small reflection of the moon. A single drop falls
+  from the branch tip into that hole and slow concentric rings spread out across the black water —
+  the one moving thing in a frozen picture. The hole is small enough that the bright silver plane
+  still dominates the right side. Very strong contrast between the dark left third and the lit
+  right side, so the image still reads at the size of a postage stamp. Muted woodblock colour. No
+  figures. Japanese shin-hanga woodblock print in the manner of the 1920s-30s revival: flat
+  layered areas of colour, visible woodgrain in the flat passages, softly gradated sky (bokashi),
+  Western perspective and cast light held inside Japanese printmaking. Calm, unpeopled, no
+  figures. Strong clear difference between the light and dark masses so the image still reads when
+  reduced to a thumbnail. No text, no signature, no seal stamp, no lettering of any kind. No
+  modern objects: no power lines, no utility poles, no electric lamps, no vehicles, no plastic, no
+  road markings. Wide 16:9 landscape. Exposed so that texture is clearly visible everywhere.
+  Shadows are lifted and open, full of visible detail, nothing crushed to pure black. High dynamic
+  range, rich texture even in the darkest areas.
+
+# ★画像は Codex が bgm/EOJ08_雨だれ_画像/ に 01〜05 で置く。受け取ったら実測して SSD の dir へ移す。
+images:
+- eoj08_01.png            # 場面1 夕の氷
+- eoj08_02.png            # 場面2 雪雲の夜
+- eoj08_03.png            # 場面3 月の氷
+- eoj08_04.png            # 場面4 朝の氷
+
+background: "/Volumes/ESD-EPB/BGM/5_Echoes of Old Japan/EOJ08_素材_雨だれ/画像/eoj08_05.png"
+thumb_out: "/Volumes/ESD-EPB/BGM/5_Echoes of Old Japan/EOJ08_素材_雨だれ/eoj08_サムネ_16x9.png"
+
+# ★`segmented` は `video:` の下でないと効かない（video.py は cfg["video"] しか見ない）。
+#   EOJ01 は最上位に書いてあったので分割で焼けていない。
+video:
+  segmented: true
+
+# ★ショート3本（2026年9月17日）。EOJ07 と同じ決めごと。**3本で3曲**（15番・13番・7番）。
+shorts:
+- tag: A
+  image: 1            # 01 夕の氷。0.60で落日と氷の照り返し
+  anchor: 0.60
+  at: "0:09:00"       # 02「雨だれ」第15番・律C#・尺八
+  title: 雨だれ
+  sub: [夕の氷 尺八, 1時間版はチャンネルに]
+  move: in
+- tag: B
+  image: 3            # 03 月の氷。0.60で月と、氷の穴に広がる輪
+  anchor: 0.60
+  at: "0:31:30"       # 05「底」第13番・都節F#・尺八
+  title: 前奏曲 第13番
+  sub: [月の氷 尺八, 1時間版はチャンネルに]
+  move: out
+- tag: C
+  image: 4            # 04 朝の氷。0.70で日の出と靄
+  anchor: 0.70
+  at: "0:54:00"       # 08「還る」第7番・律D・尺八
+                      # ★53:00は頭が本体より11.4dB静かで、フィードなら離脱する（short.py が警告）。
+                      #   44〜57分を1分刻みで測り、頭のほうが1.9dB大きい54:00へ移した
+  title: 前奏曲 第7番
+  sub: [朝の氷 尺八, 1時間版はチャンネルに]
+  move: in
+
+music_bed_source: /Volumes/ESD-02/BGM/5_Echoes of Old Japan/EOJ08_素材_雨だれ/_work/music_bed.wav

@@ -1,0 +1,197 @@
+# Echoes of Old Japan / 06 —— アヴェ・マリア
+#
+# ★★音は bgmkit の外で作っている。 select / order / audio は使わない。
+#   バッハの前奏曲 BWV846・グノーのアヴェ・マリア・バッハのアリオーソ BWV1056 を素材に、
+#   曲・音階・主音・テンポ・旋律楽器の5軸で8変奏を作り、8秒クロスフェードで繋いだ59分28秒。
+#   実装は bgm/EOJ06_アヴェマリア/album.py（描画38秒）、構成は同フォルダの 構成.md。
+#   ★ECJ06（13分56秒の作品版）と素材も描画器も共有している（avemaria.py＝ecj06.py＋旋律楽器の切替）。
+#
+# ★★この巻の決まり：**アヴェ・マリアは一度も都節に落とさない**（EOJ05とここが違う）。
+#   実測：グノーの旋律は**律ならどの主音でも ずれ0.0%**（211音が5音から一度も外れない）。
+#   **都節に写すと最良でも18.1%**で、この巻の売りがそのまま壊れる。
+#   → 陰は**前奏曲とアリオーソだけ**（03翳る・04沈む・05底）で作る。
+#
+# ★★変奏の音量を揃える工程を足した（この巻で初めて要った）。
+#   `synth.write_wav` は書き出すたびにピーク0.89へ正規化するので、変奏の音量が
+#   波高率で決まる。実測 **−15.8〜−21.6 LUFS の5.8LU差**（EOJ05は2.7LUで問題にならなかった）。
+#   アヴェ・マリアは1369音が詰まって平均が高く、アリオーソは遅くて疎いぶん低い。
+#   → **いちばん静かな変奏を動かさず、差を0.35倍（5.8→2.0LU）に詰めた**。平らにはしない。
+#
+# ★★実測 59分28秒 / **−14.2 LUFS / TP −1.7**（wav）。**当て込みは要らなかった**
+#   （入力 −20.38 LUFS / TP −1.01。EOJ04と同じでTP側の制約に当たらない）。
+#   ★AAC段の上がりは **+0.6dB**（wav −1.7 → AAC −1.1）。EOJ03・EOJ04 と同じ −1.1 に着地。
+#   ★TP は −1.6 ではなく **−2.0 で焼くこと**。−1.6だとAACがちょうど −1.0 に乗って余裕が無い。
+genre: echoesofoldjapan
+volume: 6
+slug: eoj06
+dir: "/Volumes/ESD-EPB/BGM/5_Echoes of Old Japan/EOJ06_素材_アヴェマリア"
+
+runtime: "59 MIN"
+title_lines: [AVE MARIA, BACH & GOUNOD]
+thumb:
+  title_family: serif
+  title_fit: 760
+  tracking:
+    brand: 4
+
+# ★★画題は「枯山水」。 既存11巻と幾何が違う——
+#   海の水平線／参道の遠近／棚田の層／橋の弧／藤棚の垂れる房／竹林の縦の線／
+#   月と水／森の内側／蓮の面／梅の枝の分岐／苔庭の飛び石（点の連なり）。
+#   **枯山水は「同心円の砂紋と、平行に引かれた掃き目」**で、どれとも重ならない。
+#
+# ★★作品版（ECJ06）が竹林なので、同じ曲の2本が棚で競合しないよう別の画題にした
+#   （EOJ05で藤棚→苔庭にしたのと同じ判断）。
+#
+# ★★画題と音が結び付いている（この巻の説明文の柱）。
+#   ① **バッハの前奏曲は、同じ分散和音の型を35小節ずっと繰り返す音楽。**
+#      砂紋は同じ線を延々と引いたもの。**形が同じ。**
+#   ② **枯山水は「水の無い水」——石と砂で水を表す。**
+#      この棚は「西洋の曲の姿を借りて、日本の音で鳴らす」。**借りた形で別のものを表す点が同じ。**
+#
+# ★★EOJ05の生成で判った3つの穴を、はじめから塞いである：
+#   ① `no buildings` と書くと**庭を閉じる塀まで消える**（囲いが無いと庭に見えない）
+#      → 土塀で奥を閉じ、その向こうを一切見せないと書いた
+#   ② **遠景を禁じないと山と海が入る**（★ECJ01の画題が海なので競合する）
+#      → `Nothing is visible beyond the wall` を4枚すべてに入れた
+#   ③ `seen from slightly above` では俯瞰にならない
+#      → 「縁側の高さから、砂の面を見渡す」と高さを具体的に書いた
+#
+# ★★光の弧は 夕 → 雲の夜 → 満月 → 東雲。**一晩を通って夜明けで終わる。**
+#
+# ★★★2026年9月10日、**場面を組み直した（本人決定・A案）**。
+#   1回目は 暁闇 → 夕 → 月 → 東雲 で生成し、幾何も露出も合格したが、
+#   **音の弧と逆になっていた** ——
+#     画2（14:50〜）に当たるのは 曲03「翳る」・曲04「沈む」で**この巻でいちばん暗い音（都節）**。
+#     そこに**いちばん明るい絵（夕焼け・平均輝度115.7）**が乗っていた。
+#   EOJ05は 朝(67.0) → **夜(34.5・いちばん暗い)** → 靄と月(66.6) → 明ける(94.7) で、
+#   **音の陰に絵の夜が当たっていた。** その形にできていなかった。
+#   加えて「暁闇（下弦の三日月＝明け方）→ 夕焼け」は1時間の中で半日以上飛ぶ。
+#   → **画1を既存の「夕」に繰り上げ、画2に「雲の夜」を1枚だけ足した。**
+#     **`eoj06_01.png`（暁闇）は控えに回す。本編には使わない。消さないこと。**
+#
+# ★4枚は同じ庭・同じ構図で、光だけが変わる（実測：石の塊のずれは最大 縦−2 / 横−2 画素）。
+# ★露出の実測（16未満の割合／平均輝度。★平均輝度では合わせない）：
+#     02 夕 3.52% / 115.7   03 満月 5.18% / 111.8   04 東雲 1.76% / 146.0
+#     05 サムネ 45.99% / 45.6（左半 87.24% / 13.2・右半 4.75% / 77.9。真の0は0.00%）
+#     06 雲の夜 → **平均輝度60〜75を狙う**（03よりはっきり暗く、しかし潰さない）
+scenes:
+- 01 夕の枯山水（曲01-02。西日が石の影を長く引く）
+- 02 雲の夜の枯山水（曲03-04。★いちばん暗い。月は雲の向こう）
+- 03 月の枯山水（曲05-06。★いちばんの見せ場。砂紋が銀に光る）
+- 04 東雲の枯山水（曲07-08。東の空が金に染まりはじめる）
+- 05 サムネ専用（本編には使わない）
+- （控え）暁闇の枯山水 eoj06_01.png … 1回目の画1。**本編には使わない**
+
+image_prompts:
+- >-
+  The same enclosed Japanese dry landscape garden in the late afternoon, seen from the same
+  low veranda height, the same raked sand filling the lower two thirds of the frame, the same
+  long parallel furrows running from the lower left toward the upper right and the same
+  concentric rings around the same three standing rocks slightly right of centre, the same low
+  earthen wall with dark tiles and clipped hedge closing the back. Nothing is visible beyond
+  the wall. Low western sun comes from the left and rakes across the sand, so every furrow
+  throws its own fine shadow and the three rocks cast long dark shadows across the rings
+  toward the right. The sky above the wall is warm amber fading to dusty rose. Warm ochre and
+  amber on the sand, deep umber in the shadows, the hedge almost black-green but still holding
+  visible leaf texture.
+- >-
+  The same enclosed Japanese dry landscape garden at night, earlier in the same night as the
+  full-moon scene, with the moon now hidden behind a thick bank of cloud. Seen from the same
+  low veranda height, with the same raked sand filling the lower two thirds of the frame, the
+  same long parallel furrows, the same concentric rings around the same three standing rocks
+  slightly right of centre, and the same low earthen wall capped with dark tiles and clipped
+  hedge closing the back. Nothing is visible beyond the wall. The narrow band of sky above the
+  wall is filled with heavy layered cloud. High and slightly right of centre, a soft diffuse
+  glow shows where the moon sits behind it, but no disc is visible anywhere. This is the
+  darkest of the four scenes and must read clearly as a deep, moonless-feeling night. Without
+  direct moonlight the sand no longer sparkles: instead of bright silver lines, it reads as
+  one soft evenly luminous pale grey-blue field, and the furrows are drawn by gentle low-
+  contrast shading that stays readable right across the garden. The three rocks are deep blue-
+  grey masses that keep their visible surface texture and the moss at their feet. Deep indigo,
+  slate blue, muted pewter, and one dull silver glow in the cloud. It is much darker overall
+  than the moonlit scene, yet every part of the picture keeps visible tone and texture: the
+  sand never flattens into a single grey, and the rocks never go to solid black.
+- >-
+  The same enclosed Japanese dry landscape garden at night under a full moon, seen from the
+  same low veranda height, with the same raked sand, the same parallel furrows from lower left
+  to upper right, the same concentric rings around the same three standing rocks slightly
+  right of centre, and the same low earthen wall with dark tiles and clipped hedge closing the
+  back. Nothing is visible beyond the wall. A full moon stands high in the narrow band of
+  clear night sky above the wall. The moonlight falls almost straight down, so the pale sand
+  glows and every furrow reads as a bright silver line, while the rocks are dark shapes rimmed
+  in white light. This is the brightest and most luminous of the four scenes even though it is
+  night. Silver-white sand, deep sapphire and teal shadows, the hedge a dark luminous green.
+  It must clearly read as night, but the shadows stay open and hold visible blue tone and
+  texture, never flat black.
+- >-
+  The same enclosed Japanese dry landscape garden at first light, seen from the same low
+  veranda height, with the same raked sand, the same parallel furrows from lower left to upper
+  right, the same concentric rings around the same three standing rocks slightly right of
+  centre, and the same low earthen wall with dark tiles and clipped hedge closing the back.
+  Nothing is visible beyond the wall. The narrow band of sky above the wall is turning warm —
+  pale gold along the top of the wall shading up through apricot to soft blue. The sun has not
+  yet risen and is not in frame, so the garden is lit by open sky rather than by a directional
+  beam: the sand is a soft warm cream, the furrows are drawn by gentle shadow rather than by
+  hard cast shadow, and dew makes the sand slightly darker in the hollows. Warm cream, pale
+  gold, apricot and cool blue-grey remaining in the corners. Clearly a different hour from the
+  blue moonless twilight of the first scene.
+- >-
+  The same enclosed Japanese dry landscape garden under a full moon, composed for a thumbnail.
+  The whole LEFT half of the frame, from the very top edge down to the bottom edge, is a dark
+  unbroken mass — the shadowed side of a large standing rock in the foreground and the deep
+  shadow it throws across the sand — with almost no detail needed there. Only the RIGHT half
+  opens onto the moonlit garden, where the pale raked sand glows and its parallel furrows and
+  concentric rings read as strong bright lines curving around two smaller rocks, running back
+  to the low earthen wall. The full moon stands in the narrow band of sky above the wall on
+  the right. Nothing is visible beyond the wall. Very strong contrast between the dark left
+  half and the lit right half, so the image still reads at the size of a postage stamp. Muted
+  woodblock colour. No figures, no buildings.
+
+# ★★ファイル名と場面の番号がずれている。**この順で読むこと。**
+#   eoj06_01.png（暁闇）は控えで、ここには入っていない。
+images:
+- eoj06_02.png            # 場面1 夕
+- eoj06_06_雲の夜.png      # 場面2 夜 ★2026年9月10日に追加
+- eoj06_03.png            # 場面3 満月
+- eoj06_04.png            # 場面4 東雲
+
+background: "/Volumes/ESD-EPB/BGM/5_Echoes of Old Japan/EOJ06_素材_アヴェマリア/画像/eoj06_05.png"
+thumb_out: "/Volumes/ESD-EPB/BGM/5_Echoes of Old Japan/EOJ06_素材_アヴェマリア/eoj06_サムネ_16x9.png"
+
+# ★ショート3本（2026年9月19日。EOJ07〜10 のあとに遡って作った）。決めごとは EOJ02〜04・07〜10 と同じ：
+#   ① **旋律の鳴る変奏からだけ採る**（01夜明けの祈り・04沈むは伴奏音型だけ）
+#   ② **いちばん暗い絵（場面2 雲の夜）は使わない**
+#   ③ anchor は9:16に切った4案（0.30/0.45/0.60/0.75）を並べて目で選んだ
+#      A=0.60（岩組が右、左下の砂に字が乗る）／B=0.30（**満月は0.30でしか入らない**）／
+#      C=0.75（Aと同じ枯山水なので寄りを変えて別の絵に見せる）
+#   ④ **★この巻だけ「3本で3曲」にできない。** 前奏曲 BWV846 に当たる変奏は 01 と 04 で、
+#      どちらも旋律楽器が無い（`構成.md` の表）。①と④が衝突するので①を優先し、
+#      **アヴェ・マリアを2本（尺八と笙で分ける）＋アリオーソ1本**にした。
+#      題字が2本とも「アヴェ・マリア」になるので、**この2本は続けて出さない**こと。
+# ★音は本編の整音済みwav（`_work/music_bed.wav`。制作時のものが残っていた）。
+#   完成mp4と同一であることを3点の実測で確認済み（600/2200/3100秒で差 0.01dB以内）。
+# ★開始位置は30秒刻みで頭1秒と本体の差を測って選んだ（A +2.2 / B +1.0 / C +2.2 dB）。
+shorts:
+- tag: A
+  image: 1            # 場面1 夕
+  anchor: 0.60
+  at: "0:10:00"       # 02「聖母」アヴェ・マリア・律G・尺八
+  title: アヴェ・マリア
+  sub: [夕の枯山水 尺八, 1時間版はチャンネルに]
+  move: in
+- tag: B
+  image: 3            # 場面3 満月
+  anchor: 0.30
+  at: "0:41:00"       # 06「月が出る」アヴェ・マリア・律C・笙
+  title: アヴェ・マリア
+  sub: [月の枯山水 笙, 1時間版はチャンネルに]
+  move: out
+- tag: C
+  image: 4            # 場面4 東雲
+  anchor: 0.75
+  at: "0:46:00"       # 07「遠い声」アリオーソ・律C・尺八
+  title: アリオーソ
+  sub: [東雲の枯山水 尺八, 1時間版はチャンネルに]
+  move: in
+
+music_bed_source: /Volumes/ESD-02/BGM/5_Echoes of Old Japan/EOJ06_素材_アヴェマリア/_work/music_bed.wav

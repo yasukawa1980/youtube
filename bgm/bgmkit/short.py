@@ -146,7 +146,7 @@ def build(cfg, only=None):
     W, H = s["size"]
     SW, SH = s["supersample"]
     fps = s["fps"]
-    bed = cfg.wpath("music_bed.wav")
+    bed = cfg.music_bed
     if not os.path.exists(bed):
         raise SystemExit(f"音声がありません: {bed}")
     outdir = os.path.join(cfg["dir"], "ショート")

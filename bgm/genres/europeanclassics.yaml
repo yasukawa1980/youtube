@@ -1,0 +1,63 @@
+# European Classics, Japanese Instruments（ECJ）
+#
+# 2026年9月2日に立てた6本目のライン。同じチャンネルに置く。
+# EOJ（Echoes of Old Japan）が「クラシックを素材にした1時間の床」なのに対し、
+# こちらは**原曲寄りのテンポで全曲を鳴らす作品**。尺は曲が決める（ECJ01は14分18秒）。
+#
+# ★★ライン名の英語は訳ではなく別に立てた。
+#   「和風に編曲」をそのまま訳すと意味が2箇所で変わる：
+#     ① 「和風」に当たる語が英語に無い（洋風との対比が消える＝主題そのものが消える）
+#     ② `Japanese Arrangement` は `flower arrangement`（生け花）と読まれる
+#   `Western` は単独だと西部劇を指すので避け、`European` を選んだ。
+#   （候補だった `Classics in Japanese Sound` は EOJ01 のエンドカード副題で使用済み）
+#
+# ★題名には作曲家名と曲名を英語のまま必ず入れる。このラインは検索が入口。
+#   ★`Sleep` は入れない。★`Ambient Music` も名乗らない（編曲作品であって環境音楽ではない）。
+extends: echoesofoldjapan
+
+brand: EUROPEAN CLASSICS
+
+# ★画風は新版画（EOJと共有。本人決定 2026年9月2日）。
+#   同じ曲・同じ絵柄で2本が似る恐れは伝えたうえでの判断。
+#   ★自己競合は画題で避ける。 EOJ01は静かな夜景4枚。ECJは楽章に沿って動くので、
+#     「明るい昼」と「嵐」がEOJ01に存在しない画になる。
+#   ★そのため image_style から `Calm` を外した（嵐の巻が描けなくなるため）。
+#     `unpeopled` は残す。人物を写実で出すと合成コンテンツの申告が要る。
+#
+# ★★2026年9月6日、**サムネだけ**人物を許すことにした（本人決定）。本編の場面は今までどおり人なし。
+#   理由：このラインの売りは「クラシックを和楽器で」なのに、サムネが夜景しか語っていなかった。
+#   ★申告が要るのは**写実**の人物。新版画の人物画（伊東深水・橋口五葉の系譜）は写実ではないので
+#     申告は不要と判断した。版画の平面化は手と運指の破綻にも強い。
+#   ★この `image_style` は触らない。`画像プロンプト書き出し.py` が場面プロンプトへ機械的に足すので、
+#     ここで `unpeopled` を外すと**本編の3枚にまで人が入る**。
+#     サムネ用の一枚だけ、`unpeopled, no figures` を人物の指定に差し替えた**全文**を手で用意すること。
+#     実例 → `ECJ04_ノクターン_画像プロンプト/07_サムネ試作A2_箏と演者_手を離す.txt`
+#   ★構図の条件：**演者は右半分・左半分は上端から下端まで暗く**（題字2行と帯が左に乗る）。
+#     楽器は**柱や糸巻きなど小さく明るい繰り返し**が見えるように。168pxで「楽器だ」と読ませているのは
+#     人の輪郭とその列の2つで、どちらか片方だと縁台や家具に見える（実測で確認）。
+#   ★ECJ01〜03・EOJ へ広げるかは未定。ECJ04を先に1本出し、公開後に ECJ01 で
+#     YouTubeのサムネイルA/Bテストを回して決める。一度に全部替えると何が効いたか分からなくなる。
+image_style: >-
+  Japanese shin-hanga woodblock print in the manner of the 1920s-30s revival:
+  flat layered areas of colour, visible woodgrain in the flat passages, softly
+  gradated sky (bokashi), Western perspective and cast light held inside Japanese
+  printmaking. Unpeopled, no figures.
+  Strong clear difference between the light and dark masses so the image still
+  reads when reduced to a thumbnail.
+  No text, no signature, no seal stamp, no lettering of any kind.
+  No modern objects: no power lines, no utility poles, no electric lamps,
+  no vehicles, no plastic, no road markings.
+  Wide 16:9 landscape.
+  Exposed so that texture is clearly visible everywhere. Shadows are lifted and
+  open, full of visible detail, nothing crushed to pure black. High dynamic range,
+  rich texture even in the darkest areas.
+
+# ★エンドカードはチャンネル名「WHISPERS OF JAPAN」のまま、金色斜体の副題だけ差し替える。
+#   下地は上下の余白から縦に補間して塗り直した（4枚の画素ごと最小値では、
+#   全副題が "Japanese" を含むため文字が消えない）。
+#   字体 Cochin Italic（Cochin.ttc index 2）／色 RGB(196,158,92)／級数25。
+#   副題 `European Classics, Japanese Instruments` は387px（帯468pxの83%）で収まった。
+video:
+  card: "~/Desktop/BGM/_共通/エンドカード/エンドカード_満月と水面_europeanclassics_枠なし.png"
+  segmented: true
+  jobs: 4

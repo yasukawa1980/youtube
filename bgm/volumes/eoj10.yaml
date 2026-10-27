@@ -1,0 +1,188 @@
+# Echoes of Old Japan / 10 —— トロイメライ（ECJ・EOJ の一区切り）
+#
+# ★★音は bgmkit の外で作っている。 select / order / audio は使わない。
+#   シューマンの子どもの曲7つ（Op.15 から4曲・Op.68 から3曲）を素材に、
+#   曲・音階・主音・テンポ・繰り返しの回数・旋律楽器の6軸で8変奏を作り、
+#   8秒クロスフェードで繋いだ59分32秒。実装は bgm/EOJ10_トロイメライ/album.py（描画56秒）。
+#   ★ECJ10（15分34秒の作品版）と素材も描画器も共有している。
+#
+# ★★この巻は手当てが2つ要る。①原曲が短い（33〜220拍）→ `repeat()` で2〜6回。
+#   ②浄書のテンポの揺れがMIDIのテンポ変化に入っている → `warp_for` で拍を伸ばしてから渡す。
+#   **順序が要る（伸ばしてから繰り返す）。**
+#
+# ★★実測 59分32秒 / **−14.0 LUFS / TP −1.8**（wav）。当て込みは不要（入力 −15.77）。
+#   ★LRA 4.6 は4巻でいちばん狭い。床としてはこれが望ましい。
+#
+# ★★`Ä` がサムネの書体に入っているか焼いたときに確かめる。無ければ `TRAUMEREI`（ECJ10 と同じ宿題）。
+
+# ★★画題は「雁」。 既刊16巻と幾何が重ならないものを選んだ
+#   （ECJ01海／02参道／03棚田／04橋／05藤棚／06竹林／07雪の庭／08山寺の雨／
+#     09書院の丸窓と紅葉／10鯉のぼりの里／EOJ01月と水／02森の内側／03蓮池／04梅林／
+#     05苔庭と飛び石／06枯山水）。
+# ★★作品版と同じ画題にしない（同じ曲の2本が棚で競合する）。EOJ05 で藤棚→苔庭にしたのと同じ判断。
+# ★★場面2をいちばん暗くする（音の陰に絵の夜を当てる）。EOJ06 で組み直して決めた規則。
+# ★露出は受け取ってから実測する（16未満の割合。平均輝度では合わせない）。
+#   サムネは題字の乗る側の地を 12〜16 に。
+
+genre: echoesofoldjapan
+volume: 10
+slug: eoj10
+dir: "/Volumes/ESD-EPB/BGM/5_Echoes of Old Japan/EOJ10_素材_トロイメライ"
+
+runtime: "60 MIN"   # ★manifest の 3572.7秒 を round すると60分（実尺 59分32秒）
+# ★2026/10/8 公開中のサムネを B案（用途＋太明朝W6）に差し替えたので題字も合わせた。旧：[TRÄUMEREI, SCHUMANN]
+#   焼いた版は `_B案_20261008/eoj10_B.jpg`（差し替え前の版は thumb_out に残っている）
+title_lines: [眠る前の, トロイメライ]
+thumb:
+  title_family: jp       # ★10/8 serif（英語のCochin）から日本語へ
+  title_fit: 760
+  tracking:
+    brand: 4
+
+scenes:
+- 01 夕の雁（曲01-02。斜めの列が夕空を渡り、水が同じ列を映す）
+- 02 星のない夜（曲03-04。★いちばん暗い。雁は水の上で休む。灯は遠い家の窓ひとつ）
+- 03 月と雁（曲05-06。★見せ場。月の下を列が横切り、水が銀に光る）
+- 04 白む空（曲07-08。雁が飛び立ち、輪が残る。いちばん明るい）
+- 05 サムネ専用（本編には使わない。左三分の一が松の影）
+
+# ★プロンプトの全文は bgm/EOJ10_トロイメライ_画像プロンプト/ にも同じものが置いてある（Codex へ渡すのはそちら）。
+image_prompts:
+- >-
+  A wide flat plain of flooded rice paddies in Japan, at sunset, with wild geese. Seen from a low
+  grassy bank, looking across: the still water fills the lower half of the frame as one wide
+  mirror, divided into panes by the low earth ridges between the paddies, and it repeats
+  everything in the sky above it. A row of low trees closes the horizon, with one small thatched
+  farmhouse among them far off at the right. A long skein of wild geese crosses the upper half of
+  the sky in a loose diagonal V, from the upper left down towards the trees at the right, each
+  bird a small dark clear shape. The sky is a soft gradated wash from deep orange at the horizon
+  through apricot to pale violet overhead, and the water holds the same wash and the same birds.
+  Orange, apricot, violet-grey, black-green trees, wet silver water. Japanese shin-hanga woodblock
+  print in the manner of the 1920s-30s revival: flat layered areas of colour, visible woodgrain in
+  the flat passages, softly gradated sky (bokashi), Western perspective and cast light held inside
+  Japanese printmaking. Calm, unpeopled, no figures. Strong clear difference between the light and
+  dark masses so the image still reads when reduced to a thumbnail. No text, no signature, no seal
+  stamp, no lettering of any kind. No modern objects: no power lines, no utility poles, no
+  electric lamps, no vehicles, no plastic, no road markings. Wide 16:9 landscape. Exposed so that
+  texture is clearly visible everywhere. Shadows are lifted and open, full of visible detail,
+  nothing crushed to pure black. High dynamic range, rich texture even in the darkest areas.
+- >-
+  A wide flat plain of flooded rice paddies in Japan, at an overcast night with no moon and no
+  stars, with wild geese. Seen from a low grassy bank, looking across: the still water fills the
+  lower half of the frame as one wide mirror, divided into panes by the low earth ridges between
+  the paddies, and it repeats everything in the sky above it. A row of low trees closes the
+  horizon, with one small thatched farmhouse among them far off at the right. The geese are down:
+  a scattered group of them rests on the water in the middle distance, quiet dark shapes with
+  their heads tucked, and a few more stand on the earth ridges. This is the darkest of the four
+  scenes and must read clearly as a deep, moonless-feeling night. The only light is the one warm
+  lamplit paper window of the distant farmhouse and the faint even glow of the overcast sky. The
+  water does not mirror brightly now: it reads as a soft evenly luminous pale grey-blue field,
+  with the earth ridges drawn between the panes by gentle low-contrast shading. The resting birds
+  keep their visible shape and never become black blots, and the trees keep their mass and edges.
+  Deep indigo, slate blue, muted pewter, one small warm amber window. Japanese shin-hanga
+  woodblock print in the manner of the 1920s-30s revival: flat layered areas of colour, visible
+  woodgrain in the flat passages, softly gradated sky (bokashi), Western perspective and cast
+  light held inside Japanese printmaking. Calm, unpeopled, no figures. Strong clear difference
+  between the light and dark masses so the image still reads when reduced to a thumbnail. No text,
+  no signature, no seal stamp, no lettering of any kind. No modern objects: no power lines, no
+  utility poles, no electric lamps, no vehicles, no plastic, no road markings. Wide 16:9
+  landscape. Exposed so that texture is clearly visible everywhere. Shadows are lifted and open,
+  full of visible detail, nothing crushed to pure black. High dynamic range, rich texture even in
+  the darkest areas.
+- >-
+  A wide flat plain of flooded rice paddies in Japan, at night under a full moon, with wild geese.
+  Seen from a low grassy bank, looking across: the still water fills the lower half of the frame
+  as one wide mirror, divided into panes by the low earth ridges between the paddies, and it
+  repeats everything in the sky above it. A row of low trees closes the horizon, with one small
+  thatched farmhouse among them far off at the right. The full moon stands above the row of trees,
+  a little right of centre, and a skein of geese crosses just below it in a long diagonal line,
+  each bird clear against the bright disc and the pale sky around it. The water is bright silver
+  and holds both the moon and the line of birds. The farmhouse window still burns warm amber.
+  Silver, deep blue-green, indigo, one amber point. Clearly brighter than the moonless night but
+  still unmistakably night. Japanese shin-hanga woodblock print in the manner of the 1920s-30s
+  revival: flat layered areas of colour, visible woodgrain in the flat passages, softly gradated
+  sky (bokashi), Western perspective and cast light held inside Japanese printmaking. Calm,
+  unpeopled, no figures. Strong clear difference between the light and dark masses so the image
+  still reads when reduced to a thumbnail. No text, no signature, no seal stamp, no lettering of
+  any kind. No modern objects: no power lines, no utility poles, no electric lamps, no vehicles,
+  no plastic, no road markings. Wide 16:9 landscape. Exposed so that texture is clearly visible
+  everywhere. Shadows are lifted and open, full of visible detail, nothing crushed to pure black.
+  High dynamic range, rich texture even in the darkest areas.
+- >-
+  A wide flat plain of flooded rice paddies in Japan, at the first light of dawn, with wild geese.
+  Seen from a low grassy bank, looking across: the still water fills the lower half of the frame
+  as one wide mirror, divided into panes by the low earth ridges between the paddies, and it
+  repeats everything in the sky above it. A row of low trees closes the horizon, with one small
+  thatched farmhouse among them far off at the right. The geese are lifting off: a loose line of
+  them climbs from the water towards the upper right, wings spread, with rings still spreading
+  where they left the surface. Low mist lies in a thin layer over the paddies and the sky behind
+  the trees is pale gold going to white. The farmhouse window is out. This is the brightest and
+  most open of the four scenes. Pale gold, warm white, soft grey-green, pale water. Japanese shin-
+  hanga woodblock print in the manner of the 1920s-30s revival: flat layered areas of colour,
+  visible woodgrain in the flat passages, softly gradated sky (bokashi), Western perspective and
+  cast light held inside Japanese printmaking. Calm, unpeopled, no figures. Strong clear
+  difference between the light and dark masses so the image still reads when reduced to a
+  thumbnail. No text, no signature, no seal stamp, no lettering of any kind. No modern objects: no
+  power lines, no utility poles, no electric lamps, no vehicles, no plastic, no road markings.
+  Wide 16:9 landscape. Exposed so that texture is clearly visible everywhere. Shadows are lifted
+  and open, full of visible detail, nothing crushed to pure black. High dynamic range, rich
+  texture even in the darkest areas.
+- >-
+  The same plain of flooded rice paddies under a full moon with wild geese, composed for a
+  thumbnail. The whole LEFT third of the frame, from the very top edge down to the bottom edge, is
+  a dark unbroken mass — a stand of pines close to the viewer on the near bank and the deep shadow
+  it throws across the water — with almost no detail needed there. The RIGHT two thirds open onto
+  the moonlit plain, where the full moon stands clear above the horizon and a skein of geese
+  crosses just below it in a strong diagonal line, with a long bright silver track of moonlight on
+  the water beneath. Very strong contrast between the dark left third and the lit right side, so
+  the image still reads at the size of a postage stamp. Muted woodblock colour. No figures.
+  Japanese shin-hanga woodblock print in the manner of the 1920s-30s revival: flat layered areas
+  of colour, visible woodgrain in the flat passages, softly gradated sky (bokashi), Western
+  perspective and cast light held inside Japanese printmaking. Calm, unpeopled, no figures. Strong
+  clear difference between the light and dark masses so the image still reads when reduced to a
+  thumbnail. No text, no signature, no seal stamp, no lettering of any kind. No modern objects: no
+  power lines, no utility poles, no electric lamps, no vehicles, no plastic, no road markings.
+  Wide 16:9 landscape. Exposed so that texture is clearly visible everywhere. Shadows are lifted
+  and open, full of visible detail, nothing crushed to pure black. High dynamic range, rich
+  texture even in the darkest areas.
+
+# ★画像は Codex が bgm/EOJ10_トロイメライ_画像/ に 01〜05 で置く。受け取ったら実測して SSD の dir へ移す。
+images:
+- eoj10_01.png            # 場面1 夕の雁
+- eoj10_02.png            # 場面2 星のない夜
+- eoj10_03.png            # 場面3 月と雁
+- eoj10_04.png            # 場面4 白む空
+
+background: "/Volumes/ESD-EPB/BGM/5_Echoes of Old Japan/EOJ10_素材_トロイメライ/画像/eoj10_05.png"
+thumb_out: "/Volumes/ESD-EPB/BGM/5_Echoes of Old Japan/EOJ10_素材_トロイメライ/eoj10_サムネ_16x9.png"
+
+# ★`segmented` は `video:` の下でないと効かない（video.py は cfg["video"] しか見ない）。
+#   EOJ01 は最上位に書いてあったので分割で焼けていない。
+video:
+  segmented: true
+
+# ★ショート3本（2026年9月17日）。EOJ07 と同じ決めごと。**3本で3曲**。
+shorts:
+- tag: A
+  image: 1            # 01 夕の雁。0.45で落日と雁の列
+  anchor: 0.45
+  at: "0:09:00"       # 02「夢」トロイメライ・律D・尺八
+  title: トロイメライ
+  sub: [夕の雁 尺八, 1時間版はチャンネルに]
+  move: in
+- tag: B
+  image: 3            # 03 月と雁。0.60で月の下を列が横切る
+  anchor: 0.60
+  at: "0:39:00"       # 06「月が出る」Op.68-26・律C・笙
+  title: 無題 Op.68-26
+  sub: [月と雁 笙, 1時間版はチャンネルに]
+  move: out
+- tag: C
+  image: 4            # 04 白む空。0.40で日の出と飛び立つ雁
+  anchor: 0.40
+  at: "0:46:30"       # 07「明ける」シェヘラザード・律D#・尺八
+  title: シェヘラザード
+  sub: [白む空 尺八, 1時間版はチャンネルに]
+  move: in
+
+music_bed_source: /Volumes/ESD-02/BGM/5_Echoes of Old Japan/EOJ10_素材_トロイメライ/_work/music_bed.wav

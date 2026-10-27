@@ -1,0 +1,120 @@
+# Echoes of Old Japan / 04 —— ノクターン
+#
+# ★★音は bgmkit の外で作っている。 select / order / audio は使わない。
+#   ショパンのノクターン Op.9 第1〜3番を素材に、曲・音階・主音・移調・テンポ・旋律楽器の
+#   6軸で8変奏を作り、8秒クロスフェードで繋いだ58分36秒。
+#   実装は bgm/EOJ04_ノクターン/album.py（描画35秒）、構成は同フォルダの 構成.md。
+#   ★ECJ04（15分17秒の作品版）と描画器 nocturne.py を共有している。
+#
+# ★★作品版は3曲とも律（陽）だが、この床は中ほどに**都節（陰）を3曲**入れて夜を通す。
+# ★★この巻だけの事情が2つ：①原曲が511拍・536拍と長く、7分に切って使う（limit=420）。
+#   ②テンポを半分に落とすと尺八が吹きすぎるので間引きを 0.54→1.6 に上げた
+#   （228音＝1.9秒に1音 → 65音＝6.8秒に1音）。
+#
+# ★実測 58分36秒 / −14.3 LUFS / TP −1.4。入力が −19.00 と高く、当て込みなしで目標に入った。
+genre: echoesofoldjapan
+volume: 4
+slug: eoj04
+dir: "/Volumes/ESD-EPB/BGM/5_Echoes of Old Japan/EOJ04_素材_ノクターン"
+
+runtime: "59 MIN"
+title_lines: [NOCTURNES, CHOPIN]
+thumb:
+  title_family: serif
+  title_fit: 760
+  # ★帯の字間はEOJ03と同じ4。 `ECHOES OF OLD JAPAN` は字間16だと992pxになり、
+  #   スクリム（x=920でゼロ）からはみ出して末尾が沈む。ライン共通の穴。
+  tracking:
+    brand: 4
+
+# ★画題は「梅林」。 既存8巻と幾何が違う（ECJ01海の水平線／ECJ02参道の遠近／ECJ03棚田の層／
+#   ECJ04橋の弧／ECJ05藤棚の垂れる房／EOJ01月と水／EOJ02縦の幹／EOJ03蓮の面）。
+#   **梅は枝の分岐**で、直線でも曲線でもない。夜想曲に梅という取り合わせも素直。
+# ★雪は採らない。 新版画の王道だが Whispers Vol.9「月夜の雪国」と168pxで競合する
+#   （ECJ04で同じ理由で外した）。
+scenes:
+- 01 宵の梅林（曲01-02）
+- 02 夜更け（曲03-04。いちばん暗い）
+- 03 靄（曲05-06）
+- 04 白む（曲07-08。いちばん明るい）
+- 05 サムネ専用（本編には使わない）
+
+image_prompts:
+- >-
+  An old plum orchard in the early part of the night. Low gnarled plum trees stand
+  across the whole frame, their bare crooked branches dividing and dividing again
+  against the sky, each branch carrying small pale blossoms. The ground is bare
+  earth with a little moss. The sky still holds the last blue-green of the vanished
+  sun near the horizon, deepening to indigo overhead. No moon yet. Deep blue-grey,
+  pale rose and dark bark. No figures, no buildings, no snow.
+- >-
+  The same plum orchard late at night, the darkest scene of the set. The trunks and
+  branches are near-black shapes and the blossoms are the only pale things in the
+  frame, hanging like small points of light along the dividing branches. The sky is
+  a deep even indigo with a high small moon. Everything is in shadow, but the shadow
+  is open and full of texture, nothing crushed to pure black. No figures, no
+  buildings, no snow.
+- >-
+  The same plum orchard with mist standing among the trees. The nearest trunk is
+  drawn dark and clear, the next rank is grey, and the far trees have dissolved into
+  pale blue-grey. The blossoms nearest the viewer are still distinct; the ones beyond
+  are only suggestions. Cool grey and faint rose only, no warm colour anywhere. No
+  figures, no buildings, no snow.
+- >-
+  The same plum orchard just before dawn, the brightest scene of the set. The sky
+  behind the branches has turned pale — cool blue at the top, warm cream near the
+  horizon — and the dividing branches read as clean dark lines against it. The
+  blossoms catch the first warm light and glow faintly pink. Muted woodblock colour,
+  light in key but restrained. No saturated colour. No figures, no buildings, no snow.
+- >-
+  The same plum orchard, composed for a thumbnail. One great plum trunk and its
+  dividing branches fill the whole left half of the frame from the very top edge down
+  to the bottom edge — an unbroken dark mass, including the upper left corner, with
+  almost no detail needed there. Only the right half opens onto a pale luminous sky
+  low over the orchard, with a few dark branches and their blossoms silhouetted
+  against it. The horizon sits low, in the lower third. Very strong contrast between
+  the dark left half and the lit right, so the image still reads at the size of a
+  postage stamp. Muted woodblock colour. No figures, no buildings, no snow.
+
+image_anchor: [0.5, 0.5, 0.5, 0.5, 0.5]
+
+images:
+- eoj04_01.png
+- eoj04_02.png
+- eoj04_03.png
+- eoj04_04.png
+
+background: "/Volumes/ESD-EPB/BGM/5_Echoes of Old Japan/EOJ04_素材_ノクターン/画像/eoj04_05.png"
+thumb_out: "/Volumes/ESD-EPB/BGM/5_Echoes of Old Japan/EOJ04_素材_ノクターン/eoj04_サムネ_16x9.png"
+
+video:
+  segmented: true
+  jobs: 4
+
+# ★★2026年9月15日、ショートを足した（EOJ02と同じ手順。音は _work/music_bed.wav へ写した）。
+#   ★旋律の鳴る変奏から採る（02沈む・04底は伴奏だけ）。暗い02（夜更け）は外した。
+shorts:
+- tag: A
+  image: 1            # 01 宵の梅林。0.30で古木の幹と花、地平の残照
+  anchor: 0.30
+  at: "0:02:30"       # 01「宵の水」Op.9-1・律・尺八
+  title: ノクターン
+  sub: [宵の梅林 尺八, 1時間版はチャンネルに]
+  move: in
+- tag: B
+  image: 3            # 03 靄。0.75で月と、靄に沈む枝
+  anchor: 0.75
+  at: "0:32:00"       # 05「靄」Op.9-2・都節・尺八
+  title: ノクターン
+  sub: [靄の梅林 尺八, 1時間版はチャンネルに]
+  move: out
+- tag: C
+  image: 4            # 04 白む。0.30で古木と白む空。下地111
+  anchor: 0.30
+  scrim: {top: 960, full: 1440, opacity: 0.84}
+  at: "0:46:40"       # 07「白む」Op.9-1・律・箏。★46:30は頭が8dB静かだったので10秒後へ
+  title: ノクターン
+  sub: [白む梅林 箏, 1時間版はチャンネルに]
+  move: in
+
+music_bed_source: /Volumes/ESD-02/BGM/5_Echoes of Old Japan/EOJ04_素材_ノクターン/_work/music_bed.wav

@@ -1,0 +1,191 @@
+# Echoes of Old Japan / 07 —— 即興曲と間奏曲
+#
+# ★★音は bgmkit の外で作っている。 select / order / audio は使わない。
+#   シューベルトの即興曲 D.899-3・ブラームスの間奏曲 Op.118-2・ラフマニノフの前奏曲 Op.23-10 を素材に、
+#   曲・音階・主音・テンポ・旋律楽器の5軸で8変奏を作り、8秒クロスフェードで繋いだ59分22秒。
+#   実装は bgm/EOJ07_即興曲と間奏曲/album.py（描画57秒）、構成は同フォルダの 構成.md。
+#   ★ECJ07（16分06秒の作品版）と素材も描画器も共有している。
+#
+# ★★即興曲だけ `limit=450` で切る（696拍あり、54bpm では12.9分になって床に入らない）。
+#   A-B-A の A の側だけが鳴り、次の変奏へ8秒で重なるので切れ目は出ない（EOJ04 と同じ手当て）。
+#
+# ★★実測 59分22秒 / **−14.0 LUFS / TP −1.6**（wav）。当て込みは不要（入力 −16.48）。
+#   DC は `dcfix`（25Hz高域通過）で 0.000000。★床でDC除去を通したのはこの巻から。
+
+# ★★画題は「滝」。 既刊16巻と幾何が重ならないものを選んだ
+#   （ECJ01海／02参道／03棚田／04橋／05藤棚／06竹林／07雪の庭／08山寺の雨／
+#     09書院の丸窓と紅葉／10鯉のぼりの里／EOJ01月と水／02森の内側／03蓮池／04梅林／
+#     05苔庭と飛び石／06枯山水）。
+# ★★作品版と同じ画題にしない（同じ曲の2本が棚で競合する）。EOJ05 で藤棚→苔庭にしたのと同じ判断。
+# ★★場面2をいちばん暗くする（音の陰に絵の夜を当てる）。EOJ06 で組み直して決めた規則。
+# ★露出は受け取ってから実測する（16未満の割合。平均輝度では合わせない）。
+#   サムネは題字の乗る側の地を 12〜16 に。
+
+genre: echoesofoldjapan
+volume: 7
+slug: eoj07
+dir: "/Volumes/ESD-EPB/BGM/5_Echoes of Old Japan/EOJ07_素材_即興曲と間奏曲"
+
+runtime: "59 MIN"
+title_lines: [IMPROMPTU, SCHUBERT]
+thumb:
+  title_family: serif
+  title_fit: 760
+  tracking:
+    brand: 4
+
+scenes:
+- 01 夕の滝（曲01-02。西日が崖の上端と滝頭だけに届く）
+- 02 雲の夜の滝（曲03-04。★いちばん暗い。月は無い。落ちる柱だけが淡い）
+- 03 月の滝（曲05-06。★見せ場。柱が銀に光り、淵が割れた月を映す）
+- 04 朝靄の滝（曲07-08。飛沫の靄が谷を満たし、いちばん明るい）
+- 05 サムネ専用（本編には使わない。左三分の一が岩の影）
+
+# ★プロンプトの全文は bgm/EOJ07_即興曲と間奏曲_画像プロンプト/ にも同じものが置いてある（Codex へ渡すのはそちら）。
+image_prompts:
+- >-
+  A tall waterfall in a wooded Japanese gorge, at sunset. Seen from a flat rock on the bank
+  downstream, at the height of the pool, looking straight at the fall: the water drops in one
+  narrow white column from a notch high in the dark cliff, breaks on a jutting shelf two thirds of
+  the way down, and lands in a deep round pool that fills the lower third of the frame. Wet black
+  rock walls streaked with moss close the picture on both sides and behind the fall; nothing is
+  visible beyond the gorge, no distant landscape and no horizon. Three mossy boulders stand in the
+  pool, and two maples lean in from the right. The last warm light reaches only the top edge of
+  the cliff and the head of the fall, so the column glows warm white at the top and cools to grey-
+  blue as it drops into shadow. The narrow band of sky visible above the gorge is a soft gradated
+  wash of orange into violet. Orange, warm white, wet black rock, deep moss green. Japanese shin-
+  hanga woodblock print in the manner of the 1920s-30s revival: flat layered areas of colour,
+  visible woodgrain in the flat passages, softly gradated sky (bokashi), Western perspective and
+  cast light held inside Japanese printmaking. Calm, unpeopled, no figures. Strong clear
+  difference between the light and dark masses so the image still reads when reduced to a
+  thumbnail. No text, no signature, no seal stamp, no lettering of any kind. No modern objects: no
+  power lines, no utility poles, no electric lamps, no vehicles, no plastic, no road markings.
+  Wide 16:9 landscape. Exposed so that texture is clearly visible everywhere. Shadows are lifted
+  and open, full of visible detail, nothing crushed to pure black. High dynamic range, rich
+  texture even in the darkest areas.
+- >-
+  A tall waterfall in a wooded Japanese gorge, at night, hours later, under heavy cloud. Seen from
+  a flat rock on the bank downstream, at the height of the pool, looking straight at the fall: the
+  water drops in one narrow white column from a notch high in the dark cliff, breaks on a jutting
+  shelf two thirds of the way down, and lands in a deep round pool that fills the lower third of
+  the frame. Wet black rock walls streaked with moss close the picture on both sides and behind
+  the fall; nothing is visible beyond the gorge, no distant landscape and no horizon. Three mossy
+  boulders stand in the pool, and two maples lean in from the right. There is no moon anywhere in
+  the picture. This is the darkest of the four scenes and must read clearly as a deep, moonless-
+  feeling night. The falling column is the only pale thing: it reads as a soft evenly luminous
+  band of grey-white, without sparkle or hard highlights. The rock walls stay readable — their
+  streaks, their wet sheen and the moss all keep visible tone — and the pool is a quiet dark
+  mirror that never flattens into one grey. Nothing is crushed to solid black. Deep indigo, slate,
+  near-black blue-green, one soft pale column. Japanese shin-hanga woodblock print in the manner
+  of the 1920s-30s revival: flat layered areas of colour, visible woodgrain in the flat passages,
+  softly gradated sky (bokashi), Western perspective and cast light held inside Japanese
+  printmaking. Calm, unpeopled, no figures. Strong clear difference between the light and dark
+  masses so the image still reads when reduced to a thumbnail. No text, no signature, no seal
+  stamp, no lettering of any kind. No modern objects: no power lines, no utility poles, no
+  electric lamps, no vehicles, no plastic, no road markings. Wide 16:9 landscape. Exposed so that
+  texture is clearly visible everywhere. Shadows are lifted and open, full of visible detail,
+  nothing crushed to pure black. High dynamic range, rich texture even in the darkest areas.
+- >-
+  A tall waterfall in a wooded Japanese gorge, at night, with the moon high above the gorge. Seen
+  from a flat rock on the bank downstream, at the height of the pool, looking straight at the
+  fall: the water drops in one narrow white column from a notch high in the dark cliff, breaks on
+  a jutting shelf two thirds of the way down, and lands in a deep round pool that fills the lower
+  third of the frame. Wet black rock walls streaked with moss close the picture on both sides and
+  behind the fall; nothing is visible beyond the gorge, no distant landscape and no horizon. Three
+  mossy boulders stand in the pool, and two maples lean in from the right. The moon itself is not
+  in the frame, but its light comes straight down the notch: the column is bright silver, the
+  spray at its foot catches the light as a pale cloud, and the pool holds a broken shifting
+  reflection. The wet rock takes a hard silver edge along its ridges. Silver, deep blue, black
+  rock, dark moss. Clearly brighter than the clouded night but still unmistakably night. Japanese
+  shin-hanga woodblock print in the manner of the 1920s-30s revival: flat layered areas of colour,
+  visible woodgrain in the flat passages, softly gradated sky (bokashi), Western perspective and
+  cast light held inside Japanese printmaking. Calm, unpeopled, no figures. Strong clear
+  difference between the light and dark masses so the image still reads when reduced to a
+  thumbnail. No text, no signature, no seal stamp, no lettering of any kind. No modern objects: no
+  power lines, no utility poles, no electric lamps, no vehicles, no plastic, no road markings.
+  Wide 16:9 landscape. Exposed so that texture is clearly visible everywhere. Shadows are lifted
+  and open, full of visible detail, nothing crushed to pure black. High dynamic range, rich
+  texture even in the darkest areas.
+- >-
+  A tall waterfall in a wooded Japanese gorge, at early morning, with mist from the spray filling
+  the gorge. Seen from a flat rock on the bank downstream, at the height of the pool, looking
+  straight at the fall: the water drops in one narrow white column from a notch high in the dark
+  cliff, breaks on a jutting shelf two thirds of the way down, and lands in a deep round pool that
+  fills the lower third of the frame. Wet black rock walls streaked with moss close the picture on
+  both sides and behind the fall; nothing is visible beyond the gorge, no distant landscape and no
+  horizon. Three mossy boulders stand in the pool, and two maples lean in from the right. Pale
+  gold light comes from above and diffuses through the mist, so the whole gorge glows softly and
+  the far wall behind the fall is half dissolved. The column is white and soft-edged. This is the
+  brightest and most open of the four scenes. Pale gold, warm white, soft grey-green, wet slate.
+  Japanese shin-hanga woodblock print in the manner of the 1920s-30s revival: flat layered areas
+  of colour, visible woodgrain in the flat passages, softly gradated sky (bokashi), Western
+  perspective and cast light held inside Japanese printmaking. Calm, unpeopled, no figures. Strong
+  clear difference between the light and dark masses so the image still reads when reduced to a
+  thumbnail. No text, no signature, no seal stamp, no lettering of any kind. No modern objects: no
+  power lines, no utility poles, no electric lamps, no vehicles, no plastic, no road markings.
+  Wide 16:9 landscape. Exposed so that texture is clearly visible everywhere. Shadows are lifted
+  and open, full of visible detail, nothing crushed to pure black. High dynamic range, rich
+  texture even in the darkest areas.
+- >-
+  The same waterfall in a wooded gorge under a high moon, composed for a thumbnail. The whole LEFT
+  third of the frame, from the very top edge down to the bottom edge, is a dark unbroken mass —
+  the near cliff wall in the foreground and the deep shadow it throws across the pool — with
+  almost no detail needed there. The RIGHT two thirds open onto the lit fall, seen from slightly
+  closer than in the other scenes, so the bright silver column runs from the top of the frame down
+  to the spray at its foot as one strong vertical band of light, with the pale broken reflection
+  below it. Very strong contrast between the dark left third and the lit right side, so the image
+  still reads at the size of a postage stamp. Muted woodblock colour. No figures. Japanese shin-
+  hanga woodblock print in the manner of the 1920s-30s revival: flat layered areas of colour,
+  visible woodgrain in the flat passages, softly gradated sky (bokashi), Western perspective and
+  cast light held inside Japanese printmaking. Calm, unpeopled, no figures. Strong clear
+  difference between the light and dark masses so the image still reads when reduced to a
+  thumbnail. No text, no signature, no seal stamp, no lettering of any kind. No modern objects: no
+  power lines, no utility poles, no electric lamps, no vehicles, no plastic, no road markings.
+  Wide 16:9 landscape. Exposed so that texture is clearly visible everywhere. Shadows are lifted
+  and open, full of visible detail, nothing crushed to pure black. High dynamic range, rich
+  texture even in the darkest areas.
+
+# ★画像は Codex が bgm/EOJ07_即興曲と間奏曲_画像/ に 01〜05 で置く。受け取ったら実測して SSD の dir へ移す。
+images:
+- eoj07_01.png            # 場面1 夕の滝
+- eoj07_02.png            # 場面2 雲の夜の滝
+- eoj07_03.png            # 場面3 月の滝
+- eoj07_04.png            # 場面4 朝靄の滝
+
+background: "/Volumes/ESD-EPB/BGM/5_Echoes of Old Japan/EOJ07_素材_即興曲と間奏曲/画像/eoj07_05.png"
+thumb_out: "/Volumes/ESD-EPB/BGM/5_Echoes of Old Japan/EOJ07_素材_即興曲と間奏曲/eoj07_サムネ_16x9.png"
+
+# ★`segmented` は `video:` の下でないと効かない（video.py は cfg["video"] しか見ない）。
+#   EOJ01 は最上位に書いてあったので分割で焼けていない。
+video:
+  segmented: true
+
+# ★ショート3本（2026年9月17日）。決めごとは EOJ02〜04 と同じ：
+#   ① **旋律の鳴る変奏からだけ採る**（01・04は伴奏だけなので45秒に曲の顔が出ない）
+#   ② **いちばん暗い絵（場面2）は使わない**（縦のフィードで黒い画面に見える）
+#   ③ anchor は9:16に切った4案を並べて目で選んだ
+#   ④ **3本で3曲**にする（同じ曲を並べない）
+shorts:
+- tag: A
+  image: 1            # 01 夕の滝。0.45で滝の柱が中央、上に夕空
+  anchor: 0.45
+  at: "0:08:30"       # 02「流れ」即興曲 D.899-3・律F#・尺八
+  title: 即興曲
+  sub: [夕の滝 尺八, 1時間版はチャンネルに]
+  move: in
+- tag: B
+  image: 3            # 03 月の滝。0.60で柱と紅葉が入る
+  anchor: 0.60
+  at: "0:38:30"       # 06「月が出る」間奏曲 Op.118-2・律A・笙
+  title: 間奏曲
+  sub: [月の滝 笙, 1時間版はチャンネルに]
+  move: out
+- tag: C
+  image: 4            # 04 朝靄の滝。0.40で柱と靄
+  anchor: 0.40
+  at: "0:53:00"       # 08「還る」前奏曲 Op.23-10・律C#・尺八
+  title: 前奏曲
+  sub: [朝靄の滝 尺八, 1時間版はチャンネルに]
+  move: in
+
+music_bed_source: /Volumes/ESD-02/BGM/5_Echoes of Old Japan/EOJ07_素材_即興曲と間奏曲/_work/music_bed.wav

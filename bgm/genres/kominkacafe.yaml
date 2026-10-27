@@ -1,0 +1,78 @@
+# Kominka Café（古民家カフェBGM）——PDクラシックをピアノで、昼の作業用に
+#
+# 2026年9月16日に立てた7本目のライン（本人は「6本目」と呼んだ）。同じチャンネルに置く。
+extends: whispers
+
+brand: KOMINKA CAFE
+
+# ★★このラインも Suno を使わない。select / order / audio は通らない。
+#   MIDI（Mutopia）→ Salamander Grand Piano の録音素材 → 自前のサンプラーで鳴らす。
+#   実装は bgm/KCF01_土間の午後/（sampler.py, build.py）。bgmkit で使うのは thumb と video と short。
+#
+# ★★EOJ・ECJ との境目（ここが曖昧になるとラインを分ける意味が消える）：
+#     EOJ/ECJ … 和の音階へ写す・和楽器・夜・自動再生／検索（曲名）
+#     KCF     … **音階を変えない・ピアノだけ・昼**・検索（古民家カフェBGM／作業用BGM）
+#   和はピアノ側ではなく**絵と場**が担う。だから箏も足さない（2026/9/16の判断）。
+#
+# ★★視聴者に合わせた選択。Studio実測（9/11）で視聴者は日本85%・全員45歳以上・PC54%。
+#   昼にPCで作業しながら流す使い方を正面から狙う。
+#
+# ★題名の作法（このラインだけ日本語を主にする）：
+#   古民家カフェBGM｜<巻の名> ☕ 作業用ピアノ | XX Min Japanese Cafe Piano
+#   ★絵文字は ☕（本人決定 9/16）。他ラインの 🌙 は夜の記号なので昼のこの線では使わない
+#   ★`Sleep` は名乗らない。`作業用`・`Cafe` を前に出す
+#   ★サムネの題字は**漢字2行**（168pxで漢字が読めるのは実測済み。カタカナは弱い）
+#
+# ★★音の作法（bgm/KCF01_土間の午後/build.py に実装）：
+#   原譜より1〜2割ゆるいテンポ／各打点の最上音を旋律として立て内声を抑える／
+#   打点を±8msばらす／離鍵からペダルを少し伸ばす／残響は土間の広さ（rt1.3・混ぜ14%）／−14 LUFS
+#
+# ★★素材の権利：Salamander Grand Piano V3 は **CC BY**。
+#   **説明欄に一行クレジットが要る**（楽譜は Mutopia Project。浄書はCC BY-SA だが
+#   音高と音価だけを取り出して使う方針は EOJ/ECJ と同じ）。
+image_style: >-
+  Oil painting on canvas: thick impasto in the lit areas with visible brush and
+  palette-knife marks, thin scumbled paint in the shadows, warm daylight, calm and
+  unhurried. Painterly, clearly not a photograph.
+  Strong clear difference between the light and dark masses so the image still
+  reads when reduced to a thumbnail.
+  No people, no figures, no animals.
+  No text, no signature, no seal stamp, no lettering of any kind.
+  No modern objects: no power lines, no electric appliances, no plastic, no
+  computers, no printed labels.
+  Wide 16:9 landscape.
+  Exposed so that texture is clearly visible everywhere. Shadows are lifted and
+  open, full of visible detail, nothing crushed to pure black. High dynamic range,
+  rich texture even in the darkest areas.
+
+# ★エンドカードは当面 whispers のものを流用する（金色斜体の副題がこのライン用でない）。
+#   専用の1枚を焼くのは公開後でよい（DOJ01で同じ判断をした前例あり）。
+video:
+  card: "~/Desktop/BGM/_共通/エンドカード/エンドカード_満月と水面_whispers_枠なし.png"
+
+# ★★サムネの幕（スクリム）はこの線だけ作り直した。
+#   既定（紺・opacity 0.78・width 880）は**夜の絵の上で効く設定**で、
+#   昼の明るい油彩では題字の地が中央値60にしかならず、168pxで題字が沈む。
+#   ★試した順に：紺0.78→60 ／ 茶0.88→55 ／ 茶0.94(width1120)→49 ／ **茶0.97(width1300)→37** ／ 茶0.99→28。
+#   ★**幅が効く。濃さより幅。** 既定は width 880 で、題字の右端（x≈830）に幕がほとんど届いていなかった。
+#   ★逆の案（幕を薄くして題字を濃い茶に／白く起こして濃い茶に）は**168pxで題字が消えた**。
+#     中間の明るさで柄の細かい絵の上では、濃い字は読めない。白い字＋幕でいく。
+#   ★色は紺でなく茶。昼の線なので、夜の4ラインと同じ紺い見え方にはしない。
+thumb:
+  scrim:
+    color: [18, 12, 8]
+    start: 0
+    width: 1300
+    opacity: 0.97
+    gamma: 0.9
+
+# ★★ショートの幕も夜の絵向けの既定（紺・opacity 0.62）では足りない。
+#   実測（文字の乗る帯の中央値）：A 113／B 66／C 71。**Aは絵が明るすぎて帯が沈む。**
+#   サムネと同じ理屈で茶色・濃めにして、下から立ち上がる幅も広げる。
+short:
+  scrim:
+    color: [18, 12, 8]
+    top: 900
+    full: 1700
+    opacity: 0.82
+    gamma: 1.2

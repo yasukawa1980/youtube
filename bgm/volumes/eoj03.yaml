@@ -1,0 +1,127 @@
+# Echoes of Old Japan / 03 —— ジムノペディ
+#
+# ★★音は bgmkit の外で作っている。 select / order / audio は使わない。
+#   サティのジムノペディ第1〜3番を素材に、曲・音階・主音・移調・テンポ・旋律楽器の
+#   6軸で8変奏を作り、8秒クロスフェードで繋いだ57分41秒。
+#   実装は bgm/EOJ03_ジムノペディ/album.py（描画30秒）、構成は同フォルダの 構成.md。
+#   ★ECJ03（10分54秒の作品版）と描画器 gymnopedie.py を共有している。
+#
+# ★★作品版は3曲とも律（陽）だが、この床は途中に**都節（陰）を2曲**入れて弧を作る。
+#   作品版は「サティが書いたとおりの明るさ」を出す場、床は「夜を通り抜ける」場で用途が違う。
+#
+# ★浄書ファイルは Public Domain。この巻だけクレジットの義務が無い。
+genre: echoesofoldjapan
+volume: 3
+slug: eoj03
+dir: "/Volumes/ESD-EPB/BGM/5_Echoes of Old Japan/EOJ03_素材_ジムノペディ"
+
+runtime: "58 MIN"
+title_lines: [GYMNOPEDIES, ERIK SATIE]
+thumb:
+  title_family: serif
+  title_fit: 760
+  # ★★帯の字間を16→4に詰めた。 `ECHOES OF OLD JAPAN` は字間16だと**992px**で
+  #   右端が x=1088 まで伸びるのに、スクリムは x=920 でゼロになる。**帯がスクリムから
+  #   はみ出している**ので、背景の右上が明るい巻では必ず末尾が沈む。
+  #   ★EOJ01・EOJ02は背景の右が暗くて露見しなかっただけで、ライン共通の穴。
+  #   実測（この巻の背景で、帯の末尾120pxの地の輝度）：
+  #     字間16 → 204.3 ／ 10 → 182.5 ／ **6 → 84.0** ／ **4 → 41.7** ／ 2 → 31.8
+  #   10と6の間に崖がある。4を採った（2以下は字が窮屈になるだけで改善しない）。
+  #   ★文字を小さくするのではなく字間で逃がすこと（SOJ02で麦わら帽子に帯が乗ったときと同じ）。
+  tracking:
+    brand: 4
+
+# ★画題は「蓮池」。 既存5巻と幾何が違う（ECJ01海の水平線／ECJ02参道の遠近／
+#   ECJ03棚田の横の層／EOJ01月と水／EOJ02縦の幹）。丸い葉と立つ茎、そして止まった水。
+#   ★曲が「進まない音楽」なので、流れのある画題（渓流など）は採らなかった。
+scenes:
+- 01 夜明けの蓮池（曲01-02）
+- 02 夜（曲03-04。いちばん暗い）
+- 03 霧（曲05-06）
+- 04 朝（曲07-08。いちばん明るい）
+- 05 サムネ専用（本編には使わない）
+
+image_prompts:
+- >-
+  A still lotus pond before sunrise. Large round lotus leaves lie flat on the dark
+  water across the whole foreground, with tall straight stems and a few closed buds
+  standing above them. The far bank is a low dark line of trees. The water between
+  the leaves holds the pale blue of the sky. Cool blue-grey and deep green, quiet
+  and level. No figures, no buildings, no sea.
+- >-
+  The same lotus pond at night, the darkest scene of the set. The round leaves are
+  black-green shapes and the water between them is nearly black, holding only a few
+  faint reflections. The standing stems are drawn as thin dark verticals. Everything
+  is in shadow, but the shadow is open and full of texture, nothing crushed to pure
+  black. No moon in frame, no figures, no buildings.
+- >-
+  The same lotus pond before dawn, filled with standing mist. The nearest leaves are
+  drawn dark and clear, the next rank is grey, and the far bank has dissolved into
+  pale blue-grey. The water is flat and colourless. Cool grey and faint green only,
+  no warm colour anywhere. No figures, no buildings.
+- >-
+  The same lotus pond in early morning, the brightest scene of the set. Low warm
+  sunlight comes across the water from one side, lighting the tops of the round
+  leaves and making the open blossoms glow pale pink. Thin mist still lies low over
+  the far end. Muted woodblock colour, soft green and pale rose, light in key but
+  restrained. No saturated colour. No figures, no buildings.
+- >-
+  The same lotus pond, composed for a thumbnail. Large dark lotus leaves close to the
+  viewer fill the whole left half of the frame from the very top edge down to the
+  bottom edge — an unbroken dark mass, including the upper left corner, with almost
+  no detail needed there. Only the right half opens onto water that catches a low
+  bright sky and reads as a strong pale field, with a few dark leaves and stems
+  silhouetted against it. The horizon sits low, in the lower third. Very strong
+  contrast between the dark left half and the lit right, so the image still reads at
+  the size of a postage stamp. Muted woodblock colour. No figures, no buildings.
+
+image_anchor: [0.5, 0.5, 0.5, 0.5, 0.5]
+
+# ★1枚が2曲ぶん。暗い絵が最も暗い曲に重なるようにしてある。
+images:
+- eoj03_01.png
+- eoj03_02.png
+- eoj03_03.png
+- eoj03_04.png
+
+# ★サムネ背景は専用に起こした05（EOJ02で「長い巻はサムネを別に起こすほうが早い」と分かった）。
+background: "/Volumes/ESD-EPB/BGM/5_Echoes of Old Japan/EOJ03_素材_ジムノペディ/画像/eoj03_05.png"
+thumb_out: "/Volumes/ESD-EPB/BGM/5_Echoes of Old Japan/EOJ03_素材_ジムノペディ/eoj03_サムネ_16x9.png"
+
+# ★`segmented` と `jobs` は video: の下でないと効かない（EOJ01は最上位に書いてあり効いていない）。
+video:
+  segmented: true
+  jobs: 4
+
+# ★★2026年9月15日、ショートを足した（EOJ02と同じ手順。音は _work/music_bed.wav へ写した）。
+#   ★旋律の鳴る変奏から採る（02水の面・04底は伴奏だけ）。
+shorts:
+- tag: A
+  image: 1            # 01 夜明けの蓮池。0.30で蕾の茎と対岸の森
+  anchor: 0.30
+  at: "0:02:30"       # 01「棚田」第1番・律・尺八
+  title: ジムノペディ
+  sub: [夜明けの蓮池 尺八, 1時間版はチャンネルに]
+  move: in
+- tag: B
+  image: 3            # 03 霧。0.30で手前の蓮の花と葉。下地144
+  anchor: 0.30
+  scrim: {top: 860, full: 1340, opacity: 0.88}
+  at: "0:31:50"       # 05「靄」第3番・都節・尺八。★32:00は頭が3dB静かだったので10秒前へ
+  title: ジムノペディ
+  sub: [霧の蓮池 尺八, 1時間版はチャンネルに]
+  move: out
+- tag: C
+  image: 4            # 04 朝。0.60で蓮の花が中央。下地159
+  anchor: 0.60
+  scrim: {top: 860, full: 1340, opacity: 0.88}
+  # ★★初めは 07「明ける」（箏）の 46:30 から採ったが **−16.3 LUFS** にしかならなかった。
+  #   箏の撥音が尖っていて、TP −1.5 を守ったまま −14 まで持ち上げられる45秒が07のどこにも無い
+  #   （15秒刻みで21か所を実測、持ち上げ後のTPが全部 +1.5〜+3.7）。EOJ02・EOJ04の箏は届いたので、この巻だけの事情。
+  #   08「還る」（尺八）の 56:10 がいちばん届いて、頭と本体も揃っていた（頭−5/本体−6dB）。
+  at: "0:56:10"       # 08「還る」第1番・律・尺八
+  title: ジムノペディ
+  sub: [朝の蓮池 尺八, 1時間版はチャンネルに]
+  move: in
+
+music_bed_source: /Volumes/ESD-02/BGM/5_Echoes of Old Japan/EOJ03_素材_ジムノペディ/_work/music_bed.wav

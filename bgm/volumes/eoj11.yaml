@@ -1,0 +1,197 @@
+# Echoes of Old Japan / 11 —— ゴルトベルク変奏曲（バッハ BWV988）
+#
+# ★★音は bgmkit の外で作っている。 select / order / audio は使わない。
+#   アリアと第13・15・21・25・26・30変奏から8変奏（アリアは頭と終わりの2回）。
+#   実装は bgm/EOJ11_ゴルトベルク/album.py、構成は同フォルダの 構成.md。
+#   ★眠れない伯爵のために書かれた、という逸話のある曲（真偽は疑わしい。説明文でもそう書く）。
+#
+# ★★アリアは全音で測ると ずれ24.4% だが、骨格（0.45拍以上）では 律G 0.0/1.5。
+#   壊れているのは16分の装飾だけで、床のテンポではそれは箏に落ちる。
+#
+# ★浄書は Mutopia（CC BY-SA 3.0）。楽曲はPD。音高と音価だけを使う（EOJ01 と同じ扱い）。
+
+# ★★画題は「萩と鹿」（萩の茂みに閉じた山裾の小さな空き地に野生の鹿）。
+#   `grep` で 鹿/deer/萩/bush clover とも既刊0件。
+#   ★すすき野は Vol.15・WAVE07（芒原）で使用済みなので外した → 「No pampas grass」と書いてある。
+#   ★EOJ02「森の内側」と被らないよう、森の中ではなく**森に閉じた空き地**。
+#   ★EOJ05 の教訓：奥は近い丸い山で閉じ、遠景（山並み・海・湖）を禁じてある。
+#   ★場面2をいちばん暗くする（音の陰＝第15・21変奏に絵の夜を当てる）。
+# ★露出は受け取ってから実測する（16未満の割合）。サムネは題字の乗る側の地を 12〜16 に。
+
+genre: echoesofoldjapan
+volume: 11
+slug: eoj11
+dir: "/Volumes/ESD-EPB/BGM/5_Echoes of Old Japan/EOJ11_素材_ゴルトベルク"
+
+runtime: "59 MIN"   # ★manifest の 3510.4秒 を round すると59分（実尺 58分30秒）
+# ★2026/10/8 公開中のサムネを B案（用途＋太明朝W6）に差し替えたので題字も合わせた。旧：[GOLDBERG, BACH]
+#   焼いた版は `_B案_20261008/eoj11_B.jpg`（差し替え前の版は thumb_out に残っている）
+title_lines: [眠れぬ夜に, ゴルトベルク]
+thumb:
+  title_family: jp       # ★10/8 serif（英語のCochin）から日本語へ
+  title_fit: 760
+  tracking:
+    brand: 4
+
+# ★★2026/9/28 決定。新しい巻は必ず書く（本編1:00に小さく・ショート3行目）
+cta: true
+
+scenes:
+- 01 月の出（曲01-02。萩の空き地に牡鹿と牝鹿、丸い山の上に月が昇る）
+- 02 闇（曲03-04。★いちばん暗い。月は雲の裏。鹿は萩の下に伏している）
+- 03 月下の鹿（曲05-06。★見せ場。満月に頭を上げて鳴く牡鹿）
+- 04 白む（曲07-08。露の萩と薄い霧。去る鹿が一頭振り返る。いちばん明るい）
+- 05 サムネ専用（本編には使わない。左三分の一が手前の萩の影）
+
+# ★プロンプトの全文は bgm/EOJ11_ゴルトベルク_画像プロンプト/ にも同じものが置いてある（Codex へ渡すのはそちら）。
+image_prompts:
+- >-
+  A small hidden clearing at the foot of low wooded hills in Japan in early autumn, overgrown with
+  Japanese bush clover (hagi): tall bushes whose long slender fronds arch over and droop under their
+  own weight in soft fountains, covered in tiny rose-purple flowers, closing the clearing in on the
+  left, the right and the back. Behind them rises one dark, gently rounded wooded hillside close by,
+  which fills the background and shuts out any further view: no distant mountains, no sea, no lake, no
+  river, no far horizon. No pampas grass, no buildings, no lanterns, no torii. Wild sika deer are in
+  the clearing. It is dusk just after sunset, and a large pale moon is rising above the rounded
+  hillside, a little left of centre. A stag with young antlers and a doe stand in the open grass in
+  the middle distance among the arching fronds, the stag with his head turned towards the moon. The
+  sky is a soft gradated wash from warm apricot low down to pale violet above, and the flowers catch
+  the last warm light. Apricot, violet-grey, rose-purple flowers, dark green-black hill. Japanese
+  shin-hanga woodblock print in the manner of the 1920s-30s revival: flat layered areas of colour,
+  visible woodgrain in the flat passages, softly gradated sky (bokashi), Western perspective and cast
+  light held inside Japanese printmaking. The deer are drawn as part of the print, in the same flat
+  woodblock manner, never photographic. Calm, no people, no figures. Strong clear difference between
+  the light and dark masses so the image still reads when reduced to a thumbnail. No text, no
+  signature, no seal stamp, no lettering of any kind. No modern objects: no power lines, no utility
+  poles, no electric lamps, no vehicles, no plastic, no road markings. Wide 16:9 landscape. Exposed so
+  that texture is clearly visible everywhere. Shadows are lifted and open, full of visible detail,
+  nothing crushed to pure black. High dynamic range, rich texture even in the darkest areas.
+- >-
+  A small hidden clearing at the foot of low wooded hills in Japan in early autumn, overgrown with
+  Japanese bush clover (hagi): tall bushes whose long slender fronds arch over and droop under their
+  own weight in soft fountains, covered in tiny rose-purple flowers, closing the clearing in on the
+  left, the right and the back. Behind them rises one dark, gently rounded wooded hillside close by,
+  which fills the background and shuts out any further view: no distant mountains, no sea, no lake, no
+  river, no far horizon. No pampas grass, no buildings, no lanterns, no torii. Wild sika deer are in
+  the clearing. It is late night under a thick, even overcast; the moon is hidden and no stars show.
+  This is the darkest of the four scenes and must read clearly as deep night. The deer are lying down,
+  resting in the grass under the drooping fronds, two or three quiet shapes with their legs folded and
+  their heads low. The only light is the faint even glow of the cloud cover, a little brighter just
+  above the hill where the moon is hidden behind it, so the rim of the hill reads as a soft edge
+  against the sky. The resting deer keep their visible shape and their pale spotted backs and never
+  become black blots; the arching fronds keep their lines and the flowers remain visible as dim dusty
+  rose points. Deep indigo, slate blue, muted pewter, dusty rose. Japanese shin-hanga woodblock print
+  in the manner of the 1920s-30s revival: flat layered areas of colour, visible woodgrain in the flat
+  passages, softly gradated sky (bokashi), Western perspective and cast light held inside Japanese
+  printmaking. The deer are drawn as part of the print, in the same flat woodblock manner, never
+  photographic. Calm, no people, no figures. Strong clear difference between the light and dark masses
+  so the image still reads when reduced to a thumbnail. No text, no signature, no seal stamp, no
+  lettering of any kind. No modern objects: no power lines, no utility poles, no electric lamps, no
+  vehicles, no plastic, no road markings. Wide 16:9 landscape. Exposed so that texture is clearly
+  visible everywhere. Shadows are lifted and open, full of visible detail, nothing crushed to pure
+  black. High dynamic range, rich texture even in the darkest areas.
+- >-
+  A small hidden clearing at the foot of low wooded hills in Japan in early autumn, overgrown with
+  Japanese bush clover (hagi): tall bushes whose long slender fronds arch over and droop under their
+  own weight in soft fountains, covered in tiny rose-purple flowers, closing the clearing in on the
+  left, the right and the back. Behind them rises one dark, gently rounded wooded hillside close by,
+  which fills the background and shuts out any further view: no distant mountains, no sea, no lake, no
+  river, no far horizon. No pampas grass, no buildings, no lanterns, no torii. Wild sika deer are in
+  the clearing. It is night under a full moon standing high in a clear deep blue sky, right of centre,
+  above the hillside. A single stag with full branched antlers stands on a small rise in the middle of
+  the clearing, his head raised and his muzzle lifted towards the moon as if calling, his outline
+  crisp against the pale sky around the moon. The moonlight turns the arching fronds and their tiny
+  flowers silver-pink and throws soft blue shadows across the grass. Clearly brighter than the
+  overcast night but still unmistakably night. Silver, deep blue, blue-green, silver-pink flowers.
+  Japanese shin-hanga woodblock print in the manner of the 1920s-30s revival: flat layered areas of
+  colour, visible woodgrain in the flat passages, softly gradated sky (bokashi), Western perspective
+  and cast light held inside Japanese printmaking. The deer are drawn as part of the print, in the
+  same flat woodblock manner, never photographic. Calm, no people, no figures. Strong clear difference
+  between the light and dark masses so the image still reads when reduced to a thumbnail. No text, no
+  signature, no seal stamp, no lettering of any kind. No modern objects: no power lines, no utility
+  poles, no electric lamps, no vehicles, no plastic, no road markings. Wide 16:9 landscape. Exposed so
+  that texture is clearly visible everywhere. Shadows are lifted and open, full of visible detail,
+  nothing crushed to pure black. High dynamic range, rich texture even in the darkest areas.
+- >-
+  A small hidden clearing at the foot of low wooded hills in Japan in early autumn, overgrown with
+  Japanese bush clover (hagi): tall bushes whose long slender fronds arch over and droop under their
+  own weight in soft fountains, covered in tiny rose-purple flowers, closing the clearing in on the
+  left, the right and the back. Behind them rises one dark, gently rounded wooded hillside close by,
+  which fills the background and shuts out any further view: no distant mountains, no sea, no lake, no
+  river, no far horizon. No pampas grass, no buildings, no lanterns, no torii. Wild sika deer are in
+  the clearing. It is first light at dawn. Thin low mist lies over the grass of the clearing, and
+  every arching frond is beaded with dew that catches the light. The sky above the hillside is pale
+  gold going to warm white. Two deer are leaving along a faint trodden path through the bushes towards
+  the right, and one of them, a doe, has stopped and looks back over her shoulder. This is the
+  brightest and most open of the four scenes. Pale gold, warm white, soft grey-green, fresh rose-
+  purple flowers. Japanese shin-hanga woodblock print in the manner of the 1920s-30s revival: flat
+  layered areas of colour, visible woodgrain in the flat passages, softly gradated sky (bokashi),
+  Western perspective and cast light held inside Japanese printmaking. The deer are drawn as part of
+  the print, in the same flat woodblock manner, never photographic. Calm, no people, no figures.
+  Strong clear difference between the light and dark masses so the image still reads when reduced to a
+  thumbnail. No text, no signature, no seal stamp, no lettering of any kind. No modern objects: no
+  power lines, no utility poles, no electric lamps, no vehicles, no plastic, no road markings. Wide
+  16:9 landscape. Exposed so that texture is clearly visible everywhere. Shadows are lifted and open,
+  full of visible detail, nothing crushed to pure black. High dynamic range, rich texture even in the
+  darkest areas.
+- >-
+  The same clearing of arching Japanese bush clover (hagi) at the foot of a dark rounded wooded hill,
+  under a full moon, composed for a thumbnail. The whole LEFT third of the frame, from the very top
+  edge down to the bottom edge, is a dark unbroken mass — a great clump of bush clover close to the
+  viewer, its fronds arching over in shadow — with almost no detail needed there. The RIGHT two thirds
+  open onto the moonlit clearing, where the full moon stands clear in the sky and a single stag with
+  branched antlers stands in profile below it, head raised towards the moon, crisp against the pale
+  sky, with silver-pink flowering fronds around him. No distant mountains, no sea, no pampas grass, no
+  buildings. Very strong contrast between the dark left third and the lit right side, so the image
+  still reads at the size of a postage stamp. Muted woodblock colour. Japanese shin-hanga woodblock
+  print in the manner of the 1920s-30s revival: flat layered areas of colour, visible woodgrain in the
+  flat passages, softly gradated sky (bokashi), Western perspective and cast light held inside
+  Japanese printmaking. The deer are drawn as part of the print, in the same flat woodblock manner,
+  never photographic. Calm, no people, no figures. Strong clear difference between the light and dark
+  masses so the image still reads when reduced to a thumbnail. No text, no signature, no seal stamp,
+  no lettering of any kind. No modern objects: no power lines, no utility poles, no electric lamps, no
+  vehicles, no plastic, no road markings. Wide 16:9 landscape. Exposed so that texture is clearly
+  visible everywhere. Shadows are lifted and open, full of visible detail, nothing crushed to pure
+  black. High dynamic range, rich texture even in the darkest areas.
+
+# ★画像は Codex が bgm/EOJ11_ゴルトベルク_画像/ に 01〜05 で置く。受け取ったら実測して SSD の dir へ移す。
+images:
+- eoj11_01.png            # 場面1 月の出
+- eoj11_02.png            # 場面2 闇
+- eoj11_03.png            # 場面3 月下の鹿
+- eoj11_04.png            # 場面4 白む
+
+background: "/Volumes/ESD-EPB/BGM/5_Echoes of Old Japan/EOJ11_素材_ゴルトベルク/画像/eoj11_05.png"
+thumb_out: "/Volumes/ESD-EPB/BGM/5_Echoes of Old Japan/EOJ11_素材_ゴルトベルク/eoj11_サムネ_16x9.png"
+
+video:
+  segmented: true
+
+# ★ショート3本。3本で3曲。★開始位置は1分刻みで「45秒の本体」と「頭4秒」を測って選んだ（9/28）。
+#   A は1:51＝アリア前半の繰り返しの頭（48拍÷26bpm）。有名な冒頭の旋律がここでもう一度始まる。頭 +1.2dB
+#   ★anchor は元画像の切り抜き開始 = anchor × (1672−529)。鹿と月の座標から決める（1回目は3本とも外した）
+#   B 32:00 頭 +0.4（31:00 は −2.7 で落とした）／C 48:00 頭 +1.0（46:00 は頭+5.0だが本体が −15.0 と静か）
+shorts:
+- tag: A
+  image: 1
+  anchor: 0.66        # ★0.45だと牡鹿が右端で切れ牝鹿が枠外。2頭（元画像 x 810〜1290）を入れる
+  at: "0:01:51"       # 01「アリア」律G・尺八（前半の繰り返しの頭）
+  title: アリア
+  sub: [月の出 尺八, 1時間版はチャンネルに]
+  move: in
+- tag: B
+  image: 3
+  anchor: 0.67        # ★0.60だと月が右端で欠けた。牡鹿（x 830〜1050）と月（1150〜1230）を両方入れる
+  at: "0:32:00"       # 05「底」第25変奏・都節F#・尺八
+  title: 第25変奏
+  sub: [月下の鹿 尺八, 1時間版はチャンネルに]
+  move: out
+- tag: C
+  image: 4
+  anchor: 0.90        # ★0.40だと鹿が1頭も映らない。鹿は右端（x 1060〜1530）
+  at: "0:48:00"       # 07「明ける」第30変奏・律G・笙
+  title: 第30変奏
+  sub: [白む 笙, 1時間版はチャンネルに]
+  move: in
+
+music_bed_source: /Volumes/ESD-02/BGM/5_Echoes of Old Japan/EOJ11_素材_ゴルトベルク/_work/music_bed.wav

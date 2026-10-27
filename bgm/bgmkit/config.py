@@ -55,6 +55,16 @@ class Config(dict):
         return os.path.join(self.work, *parts)
 
     @property
+    def music_bed(self):
+        """Read local regenerated audio first, then the retained archive copy.
+
+        Output writers still use wpath(), so rebuilding never overwrites the
+        archive merely because the local duplicate was removed.
+        """
+        local = os.path.join(self["dir"], "_work", "music_bed.wav")
+        return local if os.path.isfile(local) else self.get("music_bed_source", local)
+
+    @property
     def tracks_dir(self):
         return os.path.join(self["dir"], self.get("tracks_subdir", "楽曲"))
 

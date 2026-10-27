@@ -303,7 +303,7 @@ def mux(cfg):
     if g:
         af = f"volume={g}dB,{af}"
         print(f"mux前に {g:+.1f}dB（AAC段の持ち上がりぶん）")
-    ff(["-i", cfg.wpath("video.mp4"), "-i", cfg.wpath("music_bed.wav"),
+    ff(["-i", cfg.wpath("video.mp4"), "-i", cfg.music_bed,
         "-map", "0:v", "-map", "1:a",
         "-af", af,
         "-c:v", "copy", "-c:a", "aac", "-b:a", a.get("bitrate", "320k"),

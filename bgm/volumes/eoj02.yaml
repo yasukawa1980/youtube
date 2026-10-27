@@ -1,0 +1,137 @@
+# Echoes of Old Japan / 02 —— グノシエンヌ
+#
+# ★★音は bgmkit の外で作っている。 select / order / audio は使わない。
+#   サティのグノシエンヌ第1〜3番を素材に、曲・音階・主音・移調・テンポ・旋律楽器の
+#   6軸で8変奏を作り、8秒クロスフェードで繋いだ59分29秒。
+#   実装は bgm/EOJ02_グノシエンヌ/album.py（描画38秒）。
+#   ★ECJ02（10分33秒の作品版）と描画器 gnossienne.py を共有している。
+#     1曲ぶんの下ごしらえから「作品版」と「1時間の床」の2本が出る、というのがこの組み方の要点。
+#
+# ★題字は「グノシエンヌ」。 EOJ01の「月光」は漢字2文字で168pxに最も強かったが、
+#   サティには漢字の曲名が無い。ECJ02と同じ表記に揃えて、対になる2本として並べる。
+# ★絵は新版画4枚。1枚が2曲ぶん。ECJ02が「参道」なので、こちらは「森の内側」にして
+#   同じ絵柄でも画題で自己競合を避ける（EOJ01＝月と水、ECJ01＝海、ECJ02＝参道）。
+genre: echoesofoldjapan
+volume: 2
+slug: eoj02
+dir: "/Volumes/ESD-EPB/BGM/5_Echoes of Old Japan/EOJ02_素材_グノシエンヌ"
+
+runtime: "59 MIN"
+title_lines: [GNOSSIENNES, ERIK SATIE]
+# ★★2026年9月3日、この2ラインだけ題字を英語2行にした（曲名＋作曲者名）。
+#   [[whispers-thumbnail-design]] の「題字は日本語」は**漢字の題字についての実測**で、
+#   カタカナ6字の「グノシエンヌ」には当てはまらなかった。168pxの明暗差で実測：
+#     ECJ01 月光 43.4 → 44.8（英語にしてもほぼ変わらない）
+#     ECJ02 グノシエンヌ **30.0 → 45.1**（8枚中いちばん弱かったのが最上位へ）
+#     EOJ02 グノシエンヌ **35.0 → 46.7**
+#   ★小さい添え書き（thumb_sub・52px）に作曲者名を置く案は**不可**。168pxで4.6px相当になり、
+#     位置も背景の明るい部分に当たって消える。**作曲者名は題字と同じ級数の行に置くこと。**
+#   ★このラインだけ変える理由：曲名で検索して来るので、サムネの仕事が
+#     「目に留まる」から「探した曲かどうかの確認」に変わる。ほかのラインは漢字で、
+#     しかも題名で検索されないので触らない。
+thumb:
+  title_family: serif
+  title_fit: 760
+
+# 曲の弧： 参道/灯り → 沈む/底 → 霧/律の道 → 明ける/還る
+scenes:
+- 01 森に入る（薄暮）
+- 02 底（夜。いちばん暗い）
+- 03 霧（未明）
+- 04 明ける（朝。いちばん明るい）
+- 05 サムネ専用（本編には使わない）
+
+image_prompts:
+- >-
+  The interior of an old cedar forest at dusk. Very tall straight trunks rise out
+  of frame, spaced apart, with deep moss over the ground and over fallen logs.
+  No path, no steps, no lanterns. Far back between the trunks a little of the last
+  daylight still shows as a pale opening. Deep green and blue-grey, the light
+  falling only in weak diffuse patches on the moss.
+- >-
+  The same cedar forest at night, the darkest scene of the set. The trunks are
+  massive dark shapes and the moss floor is almost black-green. One thin shaft of
+  moonlight comes down between two trunks and lies across a fallen log wet with
+  moss. Everything else is in shadow, but the shadow is open and full of texture,
+  nothing crushed to pure black. No path, no lanterns, no visible sky.
+- >-
+  The same cedar forest before dawn, filled with standing mist. The nearest trunks
+  are drawn dark and clear, the next rank is grey, and everything beyond has
+  dissolved into pale blue-grey. The moss is muted and cold. Cool grey-blue and
+  faint green only, no warm colour anywhere. No path, no lanterns.
+- >-
+  The same cedar forest in early morning, the brightest scene of the set. Low
+  sunlight comes in from the side in long soft shafts between the trunks and falls
+  on the moss. Thin mist still hangs low and takes most of the strength out of the
+  light. Muted and desaturated throughout, the way an old woodblock print is:
+  soft grey-green, pale straw, cool blue-grey shadow. No saturated yellow, no
+  acid green, no glow. Light in key but quiet. No path, no lanterns.
+
+- >-
+  The same cedar forest, composed for a thumbnail. The left third of the frame is
+  deep shadow: two massive dark trunks close to the viewer and unlit moss, almost
+  no detail needed there. The right two thirds open into a single strong shaft of
+  low morning sun coming down between the trunks and striking the moss in a bright
+  pool. Very strong contrast between the dark left and the lit right, so the image
+  still reads at the size of a postage stamp. Muted woodblock colour, no saturated
+  yellow. No path, no lanterns.
+
+# ★05はサムネ専用で本編には使わない（本編4枚はどれも、暗い2枚が168pxの明暗差7台、
+#   明るい2枚が帯の下125〜161で白文字が沈み、サムネに向かなかった）。
+image_anchor: [0.5, 0.5, 0.5, 0.5, 0.5]
+
+# ★1枚が2曲ぶん。暗い絵が最も暗い曲に重なるようにしてある。
+images:
+- eoj02_01.png
+- eoj02_02.png
+- eoj02_03.png
+- eoj02_04.png
+
+# ★★サムネ背景は専用に起こした05。 本編4枚はどれも向かなかった（実測）：
+#     題字下 / 帯の下 / 168pxの明暗差
+#     01 薄暮 69.3 / 71.2 / **7.4**    02 夜 23.7 / 22.9 / **7.9**（森の内側は平板で潰れる）
+#     03 霧 140.9 / 125.8 / 28.9       04 朝 171.9 / 161.4 / 25.4（白文字が沈む）
+#     **05 専用 61.6 / 59.5 / 42.3** ← 明暗差はラインで最大（ECJ01の最良が41.1）
+background: "/Volumes/ESD-EPB/BGM/5_Echoes of Old Japan/EOJ02_素材_グノシエンヌ/画像/eoj02_05.png"
+thumb_out: "/Volumes/ESD-EPB/BGM/5_Echoes of Old Japan/EOJ02_素材_グノシエンヌ/eoj02_サムネ_16x9.png"
+
+# ★★`segmented` と `jobs` は `video:` の下でないと効かない。
+#   video.py は `cfg['video'].get('segmented')` しか見ないので、最上位に書くと黙って
+#   1本のffmpegで1時間を通しで焼くことになる（途中で落ちると全部やり直し）。
+#   ★EOJ01のYAMLは最上位に書いてあるので、あの巻は分割で焼けていない。次に触るとき直すこと。
+video:
+  segmented: true
+  jobs: 4
+
+# ★★2026年9月15日、ショートを足した（ショート在庫の偏りを薄めるため）。
+#   ★音は `EOJ02_グノシエンヌ/_work/グノシエンヌ_1時間_整音済.wav` を SSD の _work/music_bed.wav へ写した
+#     （完成MP4と尺が0.0003秒差で一致）。EOJはbgmkitの外で音を作るので music_bed が無かった。
+#   ★旋律の鳴る変奏から採る（02灯り・04底は伴奏だけ）。暗い02の絵（底）は縦のフィードで黒く見えるので外した。
+#   ★anchor は9:16に切った6案を並べて目で選んだ。下地130を超える明るい絵は EOJ01のD と同じく
+#     スクリムの立ち上がりを上げる（自動増強では頭の文字が沈む）。
+shorts:
+- tag: A
+  image: 1            # 01 森に入る（薄暮）。0.45で奥の明るい抜けが画面の中に入る
+  anchor: 0.45
+  at: "0:02:30"       # 01「参道」第1番・都節・尺八
+  title: グノシエンヌ
+  sub: [宵の杉林 尺八, 1時間版はチャンネルに]
+  move: in
+- tag: B
+  image: 3            # 03 霧。0.60で霧の抜けと右の幹
+  anchor: 0.60
+  scrim: {top: 960, full: 1440, opacity: 0.84}
+  at: "0:32:25"       # 05「霧」第3番・都節・尺八。★32:30は頭が5dB静かだったので5秒前へ
+  title: グノシエンヌ
+  sub: [霧の杉林 尺八, 1時間版はチャンネルに]
+  move: out
+- tag: C
+  image: 4            # 04 明ける。0.45で光の筋が斜めに入る。下地156
+  anchor: 0.45
+  scrim: {top: 860, full: 1340, opacity: 0.88}
+  at: "0:47:30"       # 07「明ける」第2番・律・箏
+  title: グノシエンヌ
+  sub: [朝の杉林 箏, 1時間版はチャンネルに]
+  move: in
+
+music_bed_source: /Volumes/ESD-02/BGM/5_Echoes of Old Japan/EOJ02_素材_グノシエンヌ/_work/music_bed.wav

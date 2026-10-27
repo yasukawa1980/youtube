@@ -1,0 +1,435 @@
+# Whispers of Japan / Vol.17 — 月夜の大銀杏（Moonlit Great Ginkgo）／テーマ「手放す」
+#
+# ★2026年9月30日 本人決定で題材を「大銀杏」にした（候補は 大銀杏／茶室と露地／懸崖の山寺）。
+#   Vol.16で落選した候補。公開は10月＝黄葉の旬。
+# ★尺八は本人方針「あまりいらない」（9/30）。息0.035以上の在庫2本（v12_尺八の独奏 0.0417 /
+#   v13_尺八の独奏９ 0.0364）から1〜2本だけ。新しくは作らない。
+#
+# ★★Vol.16と同じ「在庫＋新規」の折衷。 在庫113本は Vol16_素材_城/楽曲 の未採用分を
+#   このフォルダの 楽曲/ へ**移動**した（2026年9月30日・同じSSD内なので容量は増えない）。
+#   新しく作るのは在庫が6本を切っている ①箏・③ピアノ・④金属打・⑥胡弓 と、Em に偏った ⑩フル編成。
+#   プロンプトは Vol17_月夜の大銀杏_コピー用プロンプト.md。
+
+genre: whispers
+volume: 17
+slug: vol17
+dir: "/Volumes/ESD-EPB/BGM/1_Whispers of Japan/Vol17_素材_大銀杏"
+
+# 題材＝月夜の大銀杏／テーマ「手放す」
+#   大銀杏は**一晩のうちに葉をほとんど落とす**ことがある（「一夜で散る」）。
+#   満月の昇る夜、金色の樹冠が一枚ずつ葉を手放し、夜明けには裸の樹の下に金の円だけが残る。
+#   千年ぶんの秋を重ねてきた樹が、今年の葉を静かに手放す一夜。聞き手が一日を手放して眠る巻。
+#
+# ★差別化の軸は「青い夜に金の樹一本」。 Vol.8紅葉（赤・灯籠で下から照らした暖色）とは
+#   光源で分ける：**灯りは使わず、葉そのものの色だけが暖色**。空・石・幹は青のまま。
+#   チャンネル一覧で青いサムネが並ぶなかに1枚だけ金が入る（Vol.8が赤でやったことの金版）。
+# ★時間軸は「絵の中で樹が裸になっていく」こと。Vol.9雪国（夜が明けるだけ）、
+#   Vol.14松（一本の樹を巡る）とは、樹そのものが変わる点で分かれる。
+#   Vol.14も一本の樹だが、松は常緑で形が変わらず、色は青一色だった。
+# ★image_style を巻で上書きする（ジャンルの既定は「月光のみ・くすんだ色」で金が出ない）。
+
+# ★2026年9月30日 22枚受領（Codex生成・1672×941）→ サムネは05（大銀杏を仰ぐ・引き）。
+#   左三分の一が深い青の空で、金の樹冠が右に立つ。潰れは0.3%で全22枚で最も明るい部類。
+# ★潰れ（16未満）が15%を超えたのは03（石段・杉木立）だけ → lift で24.3%→11.0%（指数0.85）。元は 画像/旧版/。
+background: "/Volumes/ESD-EPB/BGM/1_Whispers of Japan/Vol17_素材_大銀杏/画像/vol17_05.png"
+
+title_lines: [月夜の, 大銀杏]
+# ★2026年9月30日 audio 実測 3684.82秒＝61分24秒 → 61 MIN。
+runtime: "61 MIN"
+
+# ★登録のお願いを焼き込む（2026年9月28日決定・新しい巻は必ず書く。メモリ subscribe-cta）。
+cta: true
+
+# ★環境音は敷かない。純器楽。落葉の音・風の音は描かない（プロンプトにも wind を書かない）。
+
+image_style: >-
+  Photorealistic cinematic still, traditional Japanese scenery at night.
+  The only light source is the moon: cool blue-silver, low key — except that the
+  ginkgo leaves keep their own clear golden-yellow colour, softened by the moonlight,
+  the one warm colour in the picture. There are no lamps, lanterns or fires anywhere.
+  Exposed so that texture is clearly visible everywhere — bark, wood grain, stone,
+  every single fan-shaped leaf. Shadows are lifted and open, full of visible detail,
+  nothing crushed to pure black. High dynamic range, rich texture even in the
+  darkest areas.
+  Calm and completely static, no people, no animals, no text, no signage,
+  no lettering of any kind. Muted blue palette apart from the ginkgo gold,
+  fine film grain, 16:9 composition with generous empty space on the left third for titles.
+
+# ★⑤風鐸は入れない（寺の軒の青銅鈴。この巻の御堂は小さく軒に鈴を描かない）。
+kinds:
+  # ①箏 … 在庫 6本
+  "v12_箏の独奏": ①箏
+  "v12_箏の独奏５": ①箏
+  "v13_箏の独奏２": ①箏
+  "v14_箏の独奏２": ①箏
+  "v14_箏の独奏５": ①箏
+  "v14_箏の独奏７": ①箏
+  # ②尺八 … 在庫 36本
+  "v11_尺八の独奏１": ②尺八
+  "v11_尺八の独奏２": ②尺八
+  "v11_尺八の独奏３": ②尺八
+  "v12_尺八の独奏": ②尺八
+  "v12_尺八の独奏１１": ②尺八
+  "v12_尺八の独奏２": ②尺八
+  "v12_尺八の独奏８": ②尺八
+  "v13_尺八の独奏": ②尺八
+  "v13_尺八の独奏２": ②尺八
+  "v13_尺八の独奏３": ②尺八
+  "v13_尺八の独奏４": ②尺八
+  "v13_尺八の独奏５": ②尺八
+  "v13_尺八の独奏６": ②尺八
+  "v13_尺八の独奏７": ②尺八
+  "v13_尺八の独奏９": ②尺八
+  "v14_尺八の独奏": ②尺八
+  "v14_尺八の独奏１０": ②尺八
+  "v14_尺八の独奏１２": ②尺八
+  "v14_尺八の独奏１３": ②尺八
+  "v14_尺八の独奏１７": ②尺八
+  "v14_尺八の独奏１９": ②尺八
+  "v14_尺八の独奏２": ②尺八
+  "v14_尺八の独奏３": ②尺八
+  "v14_尺八の独奏４": ②尺八
+  "v14_尺八の独奏５": ②尺八
+  "v14_尺八の独奏７": ②尺八
+  "v16_尺八A-1": ②尺八
+  "v16_尺八A-2": ②尺八
+  "v16_尺八A-3": ②尺八
+  "v16_尺八A-4": ②尺八
+  "v16_尺八B-1": ②尺八
+  "v16_尺八B-2": ②尺八
+  "v16_尺八C-1": ②尺八
+  "v16_尺八C-2": ②尺八
+  "v16_尺八C-3": ②尺八
+  "v16_尺八C-4": ②尺八
+  # ③ピアノ … 在庫 5本
+  "v12_フェルトピアノ独奏２": ③ピアノ
+  "v12_フェルトピアノ独奏６": ③ピアノ
+  "v14_フェルトピアノ独奏１": ③ピアノ
+  "v14_フェルトピアノ独奏４": ③ピアノ
+  "v14_フェルトピアノ独奏８": ③ピアノ
+  # ④金属打 … 在庫 5本
+  "v11_金属の打楽器１": ④金属打
+  "v11_金属の打楽器２": ④金属打
+  "v13_金属打（鈴と鉢）のみ": ④金属打
+  "v13_金属打（鈴と鉢）のみ３": ④金属打
+  "v13_金属打（鈴と鉢）のみ６": ④金属打
+  # ⑥胡弓 … 在庫 6本
+  "v12_胡弓７": ⑥胡弓
+  "v13_胡弓 ４": ⑥胡弓
+  "v13_胡弓 ６": ⑥胡弓
+  "v13_胡弓 ７": ⑥胡弓
+  "v14_胡弓３": ⑥胡弓
+  "v14_胡弓６": ⑥胡弓
+  # ⑦笙 … 在庫 11本
+  "v11_笙のみ１": ⑦笙
+  "v11_笙のみ４": ⑦笙
+  "v11_笙のみ５": ⑦笙
+  "v12_笙のみ２": ⑦笙
+  "v12_笙のみ９": ⑦笙
+  "v16_笙A-1": ⑦笙
+  "v16_笙A-2": ⑦笙
+  "v16_笙A-3": ⑦笙
+  "v16_笙A-4": ⑦笙
+  "v16_笙B-2": ⑦笙
+  "v16_笙B-4": ⑦笙
+  # ⑧龍笛 … 在庫 11本
+  "v12_龍笛の独奏２": ⑧龍笛
+  "v16_龍笛A-1": ⑧龍笛
+  "v16_龍笛A-3": ⑧龍笛
+  "v16_龍笛B-2": ⑧龍笛
+  "v16_龍笛B-3": ⑧龍笛
+  "v16_龍笛C-2": ⑧龍笛
+  "v16_龍笛C-3": ⑧龍笛
+  "龍笛1−３": ⑧龍笛
+  "龍笛1−４": ⑧龍笛
+  "龍笛1−５": ⑧龍笛
+  "龍笛1−８": ⑧龍笛
+  # ⑨琵琶 … 在庫 22本
+  "琵琶1−4": ⑨琵琶
+  "琵琶1−１": ⑨琵琶
+  "琵琶1−３": ⑨琵琶
+  "琵琶1−５": ⑨琵琶
+  "琵琶1−６": ⑨琵琶
+  "琵琶2−２": ⑨琵琶
+  "琵琶2−３": ⑨琵琶
+  "琵琶2−４": ⑨琵琶
+  "琵琶2−５": ⑨琵琶
+  "琵琶2−６": ⑨琵琶
+  "琵琶2−７": ⑨琵琶
+  "琵琶2−８": ⑨琵琶
+  "琵琶3−１０": ⑨琵琶
+  "琵琶3−２": ⑨琵琶
+  "琵琶3−３": ⑨琵琶
+  "琵琶3−４": ⑨琵琶
+  "琵琶3−７": ⑨琵琶
+  "琵琶3−９": ⑨琵琶
+  "琵琶4−１": ⑨琵琶
+  "琵琶4−２": ⑨琵琶
+  "琵琶4−３": ⑨琵琶
+  "琵琶4−４": ⑨琵琶
+  # ⑩フル編成 … 在庫 10本
+  "v11_ Brand Standard — A minor・全編成（１": ⑩フル編成
+  "v11_ Brand Standard — A minor・全編成（２": ⑩フル編成
+  "v11_ Brand Standard — A minor・全編成（４": ⑩フル編成
+  "v11_ Brand Standard — A minor・全編成（５": ⑩フル編成
+  "v12_E minor・全編成": ⑩フル編成
+  "v12_E minor３・全編成": ⑩フル編成
+  "v13_Brand Standard ３": ⑩フル編成
+  "v13_Brand Standard ４": ⑩フル編成
+  "v14_Brand Standard３": ⑩フル編成
+  "v14_Brand Standard７": ⑩フル編成
+  # ── 新規（Codex が Suno で生成。ファイル名は v17_箏A-1 の形）──
+  # ①箏 … 新規 8本（箏A G major／箏B C# minor 各4）
+  "v17_箏A-1": ①箏
+  "v17_箏A-2": ①箏
+  "v17_箏A-3": ①箏
+  "v17_箏A-4": ①箏
+  "v17_箏B-1": ①箏
+  "v17_箏B-2": ①箏
+  "v17_箏B-3": ①箏
+  "v17_箏B-4": ①箏
+  # ③ピアノ … 新規 8本（ピアノA E♭ major／ピアノB F# minor 各4）
+  "v17_ピアノA-1": ③ピアノ
+  "v17_ピアノA-2": ③ピアノ
+  "v17_ピアノA-3": ③ピアノ
+  "v17_ピアノA-4": ③ピアノ
+  "v17_ピアノB-1": ③ピアノ
+  "v17_ピアノB-2": ③ピアノ
+  "v17_ピアノB-3": ③ピアノ
+  "v17_ピアノB-4": ③ピアノ
+  # ④金属打 … 新規 8本（金属A E／金属B B♭ 各4）
+  "v17_金属A-1": ④金属打
+  "v17_金属A-2": ④金属打
+  "v17_金属A-3": ④金属打
+  "v17_金属A-4": ④金属打
+  "v17_金属B-1": ④金属打
+  "v17_金属B-2": ④金属打
+  "v17_金属B-3": ④金属打
+  "v17_金属B-4": ④金属打
+  # ⑥胡弓 … 新規 8本（胡弓A A minor／胡弓B C minor 各4）
+  "v17_胡弓A-1": ⑥胡弓
+  "v17_胡弓A-2": ⑥胡弓
+  "v17_胡弓A-3": ⑥胡弓
+  "v17_胡弓A-4": ⑥胡弓
+  "v17_胡弓B-1": ⑥胡弓
+  "v17_胡弓B-2": ⑥胡弓
+  "v17_胡弓B-3": ⑥胡弓
+  "v17_胡弓B-4": ⑥胡弓
+  # ⑩フル編成 … 新規 4本（B♭ major）
+  "v17_フル編成-1": ⑩フル編成
+  "v17_フル編成-2": ⑩フル編成
+  "v17_フル編成-3": ⑩フル編成
+  "v17_フル編成-4": ⑩フル編成
+
+# ★2026年9月30日 人声の機械検査（AST）。在庫の胡弓6本の基準は Humming 0.006〜0.226。
+#   新規の胡弓B-1 は 0.324 で在庫の最大を超えた → 除外。B-2 0.108・B-4 0.147 は範囲内（選ばれたら本人試聴）。
+#   箏・ピアノ・金属・フル編成はすべて 0.015 以下。
+#   Vol.16で疑いが出た笙A-1〜4・B-2（0.05〜0.10・上位ラベルHeavy metal＝歪みの疑い）は本人試聴の記録が無いので外す。
+#   初回の選抜で笙A-1が入った（明るさ−22.2dBで他の笙より10dB以上明るい）ため。
+exclude:
+- "v17_胡弓B-1.wav"
+- "v16_笙A-1.wav"
+- "v16_笙A-2.wav"
+- "v16_笙A-3.wav"
+- "v16_笙A-4.wav"
+- "v16_笙B-2.wav"
+
+# ★22曲・60分。Vol.11〜16と同じ構成（画像22枚＝1曲1枚）。
+# ★新規4種は下限2で押さえる（在庫の多い種で埋まるのを防ぐ）。
+#   同じ種に在庫と新規が混ざるので、下限だけでは新規が入る保証はない。結果を見て判断する。
+select:
+  count: 22
+  total_seconds: [3500, 3720]     # 58〜62分
+  require_all_kinds: true
+  max_per_kind: 5
+  restarts: 150
+  breath_floor:
+    ②尺八: 0.035
+  kind_limits:
+    ①箏: [2, 3]        # ★新規
+    ②尺八: [1, 2]      # ★本人方針「あまりいらない」。在庫の2本から
+    ③ピアノ: [2, 3]    # ★新規
+    ④金属打: [2, 3]    # ★新規
+    ⑥胡弓: [2, 3]      # ★新規
+    ⑦笙: [2, 2]
+    ⑧龍笛: [1, 2]
+    ⑨琵琶: [3, 4]
+    ⑩フル編成: [2, 3]
+  # 下限の合計17・上限の合計25。22がその間に入っている。
+
+order:
+  restarts: 400
+
+
+# 11場面 × A（引き）/ B（寄り）＝22。曲順と1対1に対応する。
+# ★一夜の順路：遠望 → 石段 → 仰ぐ（満ちた樹冠）→ 幹 → 御堂 → 樹冠の内 → 散りはじめ → 金の絨毯
+#   → 残る葉 → 裸木 → 薄明。前半は満ちた金、13から葉が落ち始め、19で裸になる。
+# ★月の位置：01〜04 東の低い位置（左）で昇る → 05〜18 高く → 19・20 西の低い位置（右）→ 21・22 沈んで薄明。
+scenes:
+- 遠望・引き
+- 遠望・寄り
+- 石段・引き
+- 石段・寄り
+- 大銀杏を仰ぐ・引き
+- 大銀杏を仰ぐ・寄り
+- 幹と注連縄・引き
+- 幹と注連縄・寄り
+- 御堂・引き
+- 御堂・寄り
+- 樹冠の内・引き
+- 樹冠の内・寄り
+- 散りはじめ・引き
+- 散りはじめ・寄り
+- 金の絨毯・引き
+- 金の絨毯・寄り
+- 残る葉・引き
+- 残る葉・寄り
+- 裸木・引き
+- 裸木・寄り
+- 薄明・引き
+- 薄明・寄り
+
+# 画像はCodexの手生成（16:9でそのまま出す）。`python3 画像プロンプト書き出し.py vol17` で合成後の全文を渡す。
+# ★全プロンプト末尾の共通文で潰す事故：
+#   1. 葉の形 … AIは「黄葉の大木」を楓やポプラで描く。扇形・二裂の葉と Ginkgo biloba を毎回書く
+#   2. 鳥居・石灯籠・五重塔・絵馬・扁額 … 境内を描かせると必ず出る（Vol.1・Vol.8の崩れ字）
+#   3. 楓・桜・雪・松・竹 … 順に Vol.8・3・9・14・2 と被る
+#   4. 灯り … 光源は月だけ。金色は葉の色で出す（灯りで出すと Vol.8 と同じになる）
+#   5. 水 … 池・小川・濡れた地面。水は音の期待を呼ぶ
+#   6. 富士山 … 遠景の高い円錐の山
+image_prompts:
+- 'A wide view at night of one enormous ancient ginkgo tree standing on a low hill above dark, empty harvested fields, a small old wooden hall half hidden beneath it. The full moon has just risen low on the left, large and pale. Even from this distance the tree''s crown glows golden-yellow against the deep blue sky, the only warm colour in the whole cold landscape. The tree stands in the right half of the frame; the left third is open sky and the rising moon. The tree is a single ancient ginkgo, Ginkgo biloba, many centuries old: a massive grey trunk and thick, spreading limbs, its leaves small and fan-shaped with a notch in the middle, not maple leaves, not poplar, not birch. The crown is still full, a great dome of golden-yellow leaves. The air is completely still, nothing blurred. No maple trees, no red leaves, no cherry blossoms, no snow, no pine trees, no bamboo. No water of any kind — no pond, no stream, no reflections, no wet ground. No shrine gates, no torii, no stone lanterns, no pagodas, no votive plaques, no wall panels, no calligraphy, no tall conical mountain. No lamps, no lanterns, no fire, no lit windows, no village lights, no modern buildings, no power lines, no fences, no railings. No people, no animals, no signage, no lettering of any kind.'
+- 'A telephoto view at night compressing the distance to the golden crown of an enormous ancient ginkgo on a hill, the full moon just risen and low on the left of the tree, large, its surface detail visible. The dome of yellow leaves is lit softly by the moonlight, individual leaf clusters readable at the edge of the crown against the deep blue sky. Long lens, strong compression. The tree sits in the right two thirds of the frame. The tree is a single ancient ginkgo, Ginkgo biloba, many centuries old: a massive grey trunk and thick, spreading limbs, its leaves small and fan-shaped with a notch in the middle, not maple leaves, not poplar, not birch. The crown is still full, a great dome of golden-yellow leaves. The air is completely still, nothing blurred. No maple trees, no red leaves, no cherry blossoms, no snow, no pine trees, no bamboo. No water of any kind — no pond, no stream, no reflections, no wet ground. No shrine gates, no torii, no stone lanterns, no pagodas, no votive plaques, no wall panels, no calligraphy, no tall conical mountain. No lamps, no lanterns, no fire, no lit windows, no village lights, no modern buildings, no power lines, no fences, no railings. No people, no animals, no signage, no lettering of any kind.'
+- 'Old worn stone steps climbing at night up a slope through a dark grove of tall cedar trunks toward an enormous ginkgo tree glowing golden at the top of the steps. Scattered fan-shaped yellow leaves lie on the grey stone treads, more of them the higher the steps go. The moon is low on the left and out of frame, its cold light raking across the stones. The steps and the tree are in the right two thirds; the left third is dark cedar trunks in open, detailed shadow. The tree is a single ancient ginkgo, Ginkgo biloba, many centuries old: a massive grey trunk and thick, spreading limbs, its leaves small and fan-shaped with a notch in the middle, not maple leaves, not poplar, not birch. The crown is still full, a great dome of golden-yellow leaves. The air is completely still, nothing blurred. No maple trees, no red leaves, no cherry blossoms, no snow, no pine trees, no bamboo. No water of any kind — no pond, no stream, no reflections, no wet ground. No shrine gates, no torii, no stone lanterns, no pagodas, no votive plaques, no wall panels, no calligraphy, no tall conical mountain. No lamps, no lanterns, no fire, no lit windows, no village lights, no modern buildings, no power lines, no fences, no railings. No people, no animals, no signage, no lettering of any kind.'
+- 'Close view at night of two weathered granite steps, moss in the joints, a few fan-shaped golden-yellow ginkgo leaves lying flat on the cold grey stone, each leaf''s fine radiating veins and notched edge sharp. Low cold moonlight from the left, every leaf casting a tiny shadow. The tree is a single ancient ginkgo, Ginkgo biloba, many centuries old: a massive grey trunk and thick, spreading limbs, its leaves small and fan-shaped with a notch in the middle, not maple leaves, not poplar, not birch. The air is completely still, nothing blurred. No maple trees, no red leaves, no cherry blossoms, no snow, no pine trees, no bamboo. No water of any kind — no pond, no stream, no reflections, no wet ground. No shrine gates, no torii, no stone lanterns, no pagodas, no votive plaques, no wall panels, no calligraphy, no tall conical mountain. No lamps, no lanterns, no fire, no lit windows, no village lights, no modern buildings, no power lines, no fences, no railings. No people, no animals, no signage, no lettering of any kind.'
+- 'Looking up at night from the open earth ground of a small hillside precinct at the whole of an enormous ancient ginkgo tree: a huge grey trunk, heavy limbs spreading wide, and a vast dome of golden-yellow leaves filling the upper right of the sky. The full moon stands high to the right of the crown, and the leaves glow gold against the deep blue night. The strongest image of the night. The tree fills the right two thirds; the left third is open deep blue sky. The tree is a single ancient ginkgo, Ginkgo biloba, many centuries old: a massive grey trunk and thick, spreading limbs, its leaves small and fan-shaped with a notch in the middle, not maple leaves, not poplar, not birch. The crown is still full, a great dome of golden-yellow leaves. The air is completely still, nothing blurred. No maple trees, no red leaves, no cherry blossoms, no snow, no pine trees, no bamboo. No water of any kind — no pond, no stream, no reflections, no wet ground. No shrine gates, no torii, no stone lanterns, no pagodas, no votive plaques, no wall panels, no calligraphy, no tall conical mountain. No lamps, no lanterns, no fire, no lit windows, no village lights, no modern buildings, no power lines, no fences, no railings. No people, no animals, no signage, no lettering of any kind.'
+- 'Close view at night of the outer edge of a ginkgo crown against the deep blue sky, hundreds of small fan-shaped golden-yellow leaves on fine twigs, each leaf shape readable, the full moon glowing just beyond the edge of the leaves. The tree is a single ancient ginkgo, Ginkgo biloba, many centuries old: a massive grey trunk and thick, spreading limbs, its leaves small and fan-shaped with a notch in the middle, not maple leaves, not poplar, not birch. The crown is still full, a great dome of golden-yellow leaves. The air is completely still, nothing blurred. No maple trees, no red leaves, no cherry blossoms, no snow, no pine trees, no bamboo. No water of any kind — no pond, no stream, no reflections, no wet ground. No shrine gates, no torii, no stone lanterns, no pagodas, no votive plaques, no wall panels, no calligraphy, no tall conical mountain. No lamps, no lanterns, no fire, no lit windows, no village lights, no modern buildings, no power lines, no fences, no railings. No people, no animals, no signage, no lettering of any kind.'
+- 'The base of an enormous ancient ginkgo trunk at night, several old trunks grown together into one vast grey column, the bark deeply furrowed. A thick twisted straw rope with white zigzag paper streamers is tied around the trunk. Fan-shaped golden leaves lie scattered on the bare earth around the roots. Moonlight from high above lights one side of the trunk; the other side is in open, detailed shadow. The trunk stands in the right two thirds of the frame. The tree is a single ancient ginkgo, Ginkgo biloba, many centuries old: a massive grey trunk and thick, spreading limbs, its leaves small and fan-shaped with a notch in the middle, not maple leaves, not poplar, not birch. The crown is still full, a great dome of golden-yellow leaves. The air is completely still, nothing blurred. No maple trees, no red leaves, no cherry blossoms, no snow, no pine trees, no bamboo. No water of any kind — no pond, no stream, no reflections, no wet ground. No shrine gates, no torii, no stone lanterns, no pagodas, no votive plaques, no wall panels, no calligraphy, no tall conical mountain. No lamps, no lanterns, no fire, no lit windows, no village lights, no modern buildings, no power lines, no fences, no railings. No people, no animals, no signage, no lettering of any kind.'
+- 'Close view at night of the underside of a massive ginkgo limb, where long rounded woody growths hang down from the branch like stalactites of bark, the grey bark furrowed and patched with lichen. A thin line of moonlight from above catches their edges; a few golden leaves hang on a twig in the upper corner. The tree is a single ancient ginkgo, Ginkgo biloba, many centuries old: a massive grey trunk and thick, spreading limbs, its leaves small and fan-shaped with a notch in the middle, not maple leaves, not poplar, not birch. The air is completely still, nothing blurred. No maple trees, no red leaves, no cherry blossoms, no snow, no pine trees, no bamboo. No water of any kind — no pond, no stream, no reflections, no wet ground. No shrine gates, no torii, no stone lanterns, no pagodas, no votive plaques, no wall panels, no calligraphy, no tall conical mountain. No lamps, no lanterns, no fire, no lit windows, no village lights, no modern buildings, no power lines, no fences, no railings. No people, no animals, no signage, no lettering of any kind.'
+- 'A small, very old wooden hall at night, unpainted dark timber, a heavy curved roof of layered cypress bark, standing beneath the spreading limbs of an enormous ancient ginkgo tree. Fan-shaped golden leaves lie scattered across the roof and on the bare earth around the hall. The moon is high; the golden crown fills the top of the frame. The hall is closed, dark and silent. The hall and the tree are in the right two thirds of the frame. The tree is a single ancient ginkgo, Ginkgo biloba, many centuries old: a massive grey trunk and thick, spreading limbs, its leaves small and fan-shaped with a notch in the middle, not maple leaves, not poplar, not birch. The crown is still full, a great dome of golden-yellow leaves. The air is completely still, nothing blurred. No maple trees, no red leaves, no cherry blossoms, no snow, no pine trees, no bamboo. No water of any kind — no pond, no stream, no reflections, no wet ground. No shrine gates, no torii, no stone lanterns, no pagodas, no votive plaques, no wall panels, no calligraphy, no tall conical mountain. No lamps, no lanterns, no fire, no lit windows, no village lights, no modern buildings, no power lines, no fences, no railings. No people, no animals, no signage, no lettering of any kind.'
+- 'Close view at night of the eave of an old wooden hall: the thick layered edge of a cypress-bark roof, a carved wooden bracket beneath it, and dozens of fan-shaped golden-yellow ginkgo leaves resting on the roof surface, veins sharp in the moonlight from above. Dark weathered timber, no paint, no metal ornaments, no bells. The tree is a single ancient ginkgo, Ginkgo biloba, many centuries old: a massive grey trunk and thick, spreading limbs, its leaves small and fan-shaped with a notch in the middle, not maple leaves, not poplar, not birch. The air is completely still, nothing blurred. No maple trees, no red leaves, no cherry blossoms, no snow, no pine trees, no bamboo. No water of any kind — no pond, no stream, no reflections, no wet ground. No shrine gates, no torii, no stone lanterns, no pagodas, no votive plaques, no wall panels, no calligraphy, no tall conical mountain. No lamps, no lanterns, no fire, no lit windows, no village lights, no modern buildings, no power lines, no fences, no railings. No people, no animals, no signage, no lettering of any kind.'
+- 'Standing beneath the crown of an enormous ancient ginkgo at night and looking straight up: dark branches radiating outward from the trunk and above them a ceiling of countless golden-yellow leaves, the full moon glowing through a gap in the leaves so that the canopy is lit from behind in soft gold, patches of deep blue sky between. The tree is a single ancient ginkgo, Ginkgo biloba, many centuries old: a massive grey trunk and thick, spreading limbs, its leaves small and fan-shaped with a notch in the middle, not maple leaves, not poplar, not birch. The crown is still full, a great dome of golden-yellow leaves. The air is completely still, nothing blurred. No maple trees, no red leaves, no cherry blossoms, no snow, no pine trees, no bamboo. No water of any kind — no pond, no stream, no reflections, no wet ground. No shrine gates, no torii, no stone lanterns, no pagodas, no votive plaques, no wall panels, no calligraphy, no tall conical mountain. No lamps, no lanterns, no fire, no lit windows, no village lights, no modern buildings, no power lines, no fences, no railings. No people, no animals, no signage, no lettering of any kind.'
+- 'Close view at night of a few clusters of fan-shaped ginkgo leaves on a twig seen from below, lit through from behind by the full moon so that each golden leaf glows and its veins show, the moon a pale disc just beside them in the deep blue sky. The tree is a single ancient ginkgo, Ginkgo biloba, many centuries old: a massive grey trunk and thick, spreading limbs, its leaves small and fan-shaped with a notch in the middle, not maple leaves, not poplar, not birch. The air is completely still, nothing blurred. No maple trees, no red leaves, no cherry blossoms, no snow, no pine trees, no bamboo. No water of any kind — no pond, no stream, no reflections, no wet ground. No shrine gates, no torii, no stone lanterns, no pagodas, no votive plaques, no wall panels, no calligraphy, no tall conical mountain. No lamps, no lanterns, no fire, no lit windows, no village lights, no modern buildings, no power lines, no fences, no railings. No people, no animals, no signage, no lettering of any kind.'
+- 'An enormous ancient ginkgo tree at night beginning to let go of its leaves: many single golden-yellow leaves are suspended in the still air all around the tree, frozen sharp as they fall straight down, and the bare earth beneath is already thickly covered in gold. The crown is still full but thinning at the edges. The moon is high. The tree stands in the right two thirds; the left third is open sky with a few leaves hanging in the air. The tree is a single ancient ginkgo, Ginkgo biloba, many centuries old: a massive grey trunk and thick, spreading limbs, its leaves small and fan-shaped with a notch in the middle, not maple leaves, not poplar, not birch. The air is completely still, nothing blurred. No maple trees, no red leaves, no cherry blossoms, no snow, no pine trees, no bamboo. No water of any kind — no pond, no stream, no reflections, no wet ground. No shrine gates, no torii, no stone lanterns, no pagodas, no votive plaques, no wall panels, no calligraphy, no tall conical mountain. No lamps, no lanterns, no fire, no lit windows, no village lights, no modern buildings, no power lines, no fences, no railings. No people, no animals, no signage, no lettering of any kind.'
+- 'Close view at night of several fan-shaped golden ginkgo leaves hanging in the still air as they fall, each one perfectly sharp, turning slowly, against the dark open shadow of the trunk behind them, lit by moonlight from above. Nothing is blurred. The tree is a single ancient ginkgo, Ginkgo biloba, many centuries old: a massive grey trunk and thick, spreading limbs, its leaves small and fan-shaped with a notch in the middle, not maple leaves, not poplar, not birch. The air is completely still, nothing blurred. No maple trees, no red leaves, no cherry blossoms, no snow, no pine trees, no bamboo. No water of any kind — no pond, no stream, no reflections, no wet ground. No shrine gates, no torii, no stone lanterns, no pagodas, no votive plaques, no wall panels, no calligraphy, no tall conical mountain. No lamps, no lanterns, no fire, no lit windows, no village lights, no modern buildings, no power lines, no fences, no railings. No people, no animals, no signage, no lettering of any kind.'
+- 'The ground beneath an enormous ancient ginkgo at night covered completely in a thick, even carpet of fallen golden-yellow leaves that spreads in a wide circle around the trunk, glowing in the moonlight. Above, the crown is now half bare, dark branches showing through the remaining gold. The moon is high. The trunk and the carpet fill the right two thirds of the frame. The tree is a single ancient ginkgo, Ginkgo biloba, many centuries old: a massive grey trunk and thick, spreading limbs, its leaves small and fan-shaped with a notch in the middle, not maple leaves, not poplar, not birch. The air is completely still, nothing blurred. No maple trees, no red leaves, no cherry blossoms, no snow, no pine trees, no bamboo. No water of any kind — no pond, no stream, no reflections, no wet ground. No shrine gates, no torii, no stone lanterns, no pagodas, no votive plaques, no wall panels, no calligraphy, no tall conical mountain. No lamps, no lanterns, no fire, no lit windows, no village lights, no modern buildings, no power lines, no fences, no railings. No people, no animals, no signage, no lettering of any kind.'
+- 'Close view at night of fallen ginkgo leaves lying in layers on the ground, dozens of fan-shaped golden-yellow leaves overlapping, their fine radiating veins and notched edges sharp, a few pale round ginkgo seeds among them. Moonlight from above, soft and cold. The tree is a single ancient ginkgo, Ginkgo biloba, many centuries old: a massive grey trunk and thick, spreading limbs, its leaves small and fan-shaped with a notch in the middle, not maple leaves, not poplar, not birch. The air is completely still, nothing blurred. No maple trees, no red leaves, no cherry blossoms, no snow, no pine trees, no bamboo. No water of any kind — no pond, no stream, no reflections, no wet ground. No shrine gates, no torii, no stone lanterns, no pagodas, no votive plaques, no wall panels, no calligraphy, no tall conical mountain. No lamps, no lanterns, no fire, no lit windows, no village lights, no modern buildings, no power lines, no fences, no railings. No people, no animals, no signage, no lettering of any kind.'
+- 'An enormous ancient ginkgo at night with almost all of its leaves gone: the full structure of the bare grey branches is revealed against the deep blue sky, fine twigs branching again and again, and only a few golden leaves remain at the tips. Beneath it the ground is a thick circle of gold. The moon has moved west and stands high on the right. The tree stands in the right two thirds of the frame. The tree is a single ancient ginkgo, Ginkgo biloba, many centuries old: a massive grey trunk and thick, spreading limbs, its leaves small and fan-shaped with a notch in the middle, not maple leaves, not poplar, not birch. The air is completely still, nothing blurred. No maple trees, no red leaves, no cherry blossoms, no snow, no pine trees, no bamboo. No water of any kind — no pond, no stream, no reflections, no wet ground. No shrine gates, no torii, no stone lanterns, no pagodas, no votive plaques, no wall panels, no calligraphy, no tall conical mountain. No lamps, no lanterns, no fire, no lit windows, no village lights, no modern buildings, no power lines, no fences, no railings. No people, no animals, no signage, no lettering of any kind.'
+- 'Close view at night of a single bare ginkgo twig with its short knobby spur shoots, holding the last three fan-shaped golden leaves, against the deep blue sky with the moon glowing just beside it. The tree is a single ancient ginkgo, Ginkgo biloba, many centuries old: a massive grey trunk and thick, spreading limbs, its leaves small and fan-shaped with a notch in the middle, not maple leaves, not poplar, not birch. The air is completely still, nothing blurred. No maple trees, no red leaves, no cherry blossoms, no snow, no pine trees, no bamboo. No water of any kind — no pond, no stream, no reflections, no wet ground. No shrine gates, no torii, no stone lanterns, no pagodas, no votive plaques, no wall panels, no calligraphy, no tall conical mountain. No lamps, no lanterns, no fire, no lit windows, no village lights, no modern buildings, no power lines, no fences, no railings. No people, no animals, no signage, no lettering of any kind.'
+- 'An enormous ancient ginkgo, now completely bare, late at night: the full moon is low in the west on the right, behind the tree, so the bare branches throw long thin shadows straight toward the camera across a perfect circle of fallen golden leaves on the ground. Grey branches above, a ring of gold below. The tree stands on the right; the left third is open moonlit ground and sky. The tree is a single ancient ginkgo, Ginkgo biloba, many centuries old: a massive grey trunk and thick, spreading limbs, its leaves small and fan-shaped with a notch in the middle, not maple leaves, not poplar, not birch. The air is completely still, nothing blurred. No maple trees, no red leaves, no cherry blossoms, no snow, no pine trees, no bamboo. No water of any kind — no pond, no stream, no reflections, no wet ground. No shrine gates, no torii, no stone lanterns, no pagodas, no votive plaques, no wall panels, no calligraphy, no tall conical mountain. No lamps, no lanterns, no fire, no lit windows, no village lights, no modern buildings, no power lines, no fences, no railings. No people, no animals, no signage, no lettering of any kind.'
+- 'Close view at night of the shadows of bare branches lying across a thick carpet of fallen golden ginkgo leaves, the thin dark lines of the branch shadows crossing the gold like a drawing, low moonlight from the right. The tree is a single ancient ginkgo, Ginkgo biloba, many centuries old: a massive grey trunk and thick, spreading limbs, its leaves small and fan-shaped with a notch in the middle, not maple leaves, not poplar, not birch. The air is completely still, nothing blurred. No maple trees, no red leaves, no cherry blossoms, no snow, no pine trees, no bamboo. No water of any kind — no pond, no stream, no reflections, no wet ground. No shrine gates, no torii, no stone lanterns, no pagodas, no votive plaques, no wall panels, no calligraphy, no tall conical mountain. No lamps, no lanterns, no fire, no lit windows, no village lights, no modern buildings, no power lines, no fences, no railings. No people, no animals, no signage, no lettering of any kind.'
+- 'The enormous ancient ginkgo on its low hill just before dawn, seen from the same far distance as the start of the night: the moon has set, the sky is turning a pale grey-blue from below while the top of the frame is still deep blue. The tree is now bare, a fine grey shape of branches, and beneath it the ground is a soft circle of gold. Shadowless, cold light. The tree stands in the right half of the frame. No sunrise colours, no orange, no pink. The tree is a single ancient ginkgo, Ginkgo biloba, many centuries old: a massive grey trunk and thick, spreading limbs, its leaves small and fan-shaped with a notch in the middle, not maple leaves, not poplar, not birch. The air is completely still, nothing blurred. No maple trees, no red leaves, no cherry blossoms, no snow, no pine trees, no bamboo. No water of any kind — no pond, no stream, no reflections, no wet ground. No shrine gates, no torii, no stone lanterns, no pagodas, no votive plaques, no wall panels, no calligraphy, no tall conical mountain. No lamps, no lanterns, no fire, no lit windows, no village lights, no modern buildings, no power lines, no fences, no railings. No people, no animals, no signage, no lettering of any kind.'
+- 'Close view just before dawn of fallen golden ginkgo leaves lying on old grey stone steps, in soft, shadowless grey-blue light, every leaf edge clear, a few leaves resting on a step''s worn edge. Cold, calm, the night ending. No sunrise colours, no orange, no pink. The tree is a single ancient ginkgo, Ginkgo biloba, many centuries old: a massive grey trunk and thick, spreading limbs, its leaves small and fan-shaped with a notch in the middle, not maple leaves, not poplar, not birch. The air is completely still, nothing blurred. No maple trees, no red leaves, no cherry blossoms, no snow, no pine trees, no bamboo. No water of any kind — no pond, no stream, no reflections, no wet ground. No shrine gates, no torii, no stone lanterns, no pagodas, no votive plaques, no wall panels, no calligraphy, no tall conical mountain. No lamps, no lanterns, no fire, no lit windows, no village lights, no modern buildings, no power lines, no fences, no railings. No people, no animals, no signage, no lettering of any kind.'
+
+images:
+- vol17_01.png
+- vol17_02.png
+- vol17_03.png
+- vol17_04.png
+- vol17_05.png
+- vol17_06.png
+- vol17_07.png
+- vol17_08.png
+- vol17_09.png
+- vol17_10.png
+- vol17_11.png
+- vol17_12.png
+- vol17_13.png
+- vol17_14.png
+- vol17_15.png
+- vol17_16.png
+- vol17_17.png
+- vol17_18.png
+- vol17_19.png
+- vol17_20.png
+- vol17_21.png
+- vol17_22.png
+
+
+# ★2026年9月30日 選抜（150リスタート）。最大 0.463 / 平均 0.297 / 61.7分（Vol.16 0.456/0.301）。
+#   初回は笙A-1（Vol.16で歪み・人声の疑い）が入ったので、疑いの5本を exclude して選び直した（初回 0.445/0.294）。
+#   新規から入ったのは 箏A-2・ピアノA-3/B-3/B-4・金属A-4/B-4・フル編成-4 の7本。胡弓は在庫の3本（新規は入らず）。
+#   尺八は在庫の1本（v13_尺八の独奏９ 息0.0364）＝本人方針「あまりいらない」どおり。
+#   ★--write は使わずに手で貼っている（YAMLのコメントが全部消えるため）。
+picked:
+- "v12_箏の独奏５.wav"
+- "v13_箏の独奏２.wav"
+- "v17_箏A-2.wav"
+- "v13_尺八の独奏９.wav"
+- "v17_ピアノA-3.wav"
+- "v17_ピアノB-4.wav"
+- "v17_ピアノB-3.wav"
+- "v17_金属B-4.wav"
+- "v17_金属A-4.wav"
+- "v13_金属打（鈴と鉢）のみ３.wav"
+- "v13_胡弓 ６.wav"
+- "v14_胡弓６.wav"
+- "v13_胡弓 ４.wav"
+- "v16_笙B-4.wav"
+- "v11_笙のみ１.wav"
+- "v16_龍笛A-1.wav"
+- "琵琶4−２.wav"
+- "琵琶1−4.wav"
+- "琵琶3−２.wav"
+- "琵琶1−５.wav"
+- "v12_E minor・全編成.wav"
+- "v17_フル編成-4.wav"
+
+
+# ★2026年9月30日 曲順（400リスタート）。隣接の最大 0.298 / 平均 0.262（Vol.16 0.294/0.265）。
+#   明るさの最大跳ね30.4dBは設計どおり。1曲目は在庫の尺八（息0.0364）、クライマックス13曲目にフル編成。
+order_tracks:
+- "v13_尺八の独奏９.wav"
+- "琵琶1−５.wav"
+- "v17_金属B-4.wav"
+- "v12_箏の独奏５.wav"
+- "v13_胡弓 ６.wav"
+- "v16_龍笛A-1.wav"
+- "v17_ピアノB-4.wav"
+- "v16_笙B-4.wav"
+- "琵琶3−２.wav"
+- "v17_フル編成-4.wav"
+- "v13_金属打（鈴と鉢）のみ３.wav"
+- "v17_ピアノB-3.wav"
+- "v12_E minor・全編成.wav"
+- "琵琶1−4.wav"
+- "v17_箏A-2.wav"
+- "v13_胡弓 ４.wav"
+- "v17_ピアノA-3.wav"
+- "v13_箏の独奏２.wav"
+- "v17_金属A-4.wav"
+- "v14_胡弓６.wav"
+- "琵琶4−２.wav"
+- "v11_笙のみ１.wav"
+
+# ★縦型ショート3本（2026年9月30日）。`python3 -m bgmkit short vol17`
+#   幅529pxの窓の左端＝(1672−529)×anchor。樹の位置に合わせて右へ寄せる。
+#   音は絵と同じ曲でなくてよい。出だしが静かな位置を避け、曲の本体から採る。
+shorts:
+- tag: A
+  image: 5            # 大銀杏を仰ぐ・引き。サムネと同じ絵＝本編への誘導が一番効く（幹の中心 x≈1150）
+  anchor: 0.76
+  at: "0:35:10"       # 13曲目 フル編成の本体
+  title: 月夜の大銀杏
+  sub: [和風アンビエント, 61分版はチャンネルに]
+  move: in
+- tag: B
+  image: 13           # 散りはじめ。宙に止まった葉と幹（x≈900〜1400）
+  anchor: 0.70
+  at: "0:40:10"       # 15曲目 新しい箏（箏A-2）
+  title: 月夜の大銀杏
+  sub: [和風アンビエント, 61分版はチャンネルに]
+  move: out
+- tag: C
+  image: 19           # 裸木と金の円。低い月が幹の右に（x≈1250〜1470）
+  anchor: 0.90
+  at: "0:51:10"       # 19曲目 新しい金属打（金属A-4）
+  title: 月夜の大銀杏
+  sub: [和風アンビエント, 61分版はチャンネルに]
+  move: in
+  # ★字が明るい金の絨毯に乗って沈んだ（初版）。Vol.16のCと同じ幕を下から敷く。
+  scrim: {top: 800, full: 1450, gamma: 1.0, opacity: 0.84}
+
+music_bed_source: /Volumes/ESD-02/BGM/1_Whispers of Japan/Vol17_素材_大銀杏/_work/music_bed.wav
+
+tracks_subdir: /Volumes/ESD-02/BGM/1_Whispers of Japan/Vol17_素材_大銀杏/楽曲

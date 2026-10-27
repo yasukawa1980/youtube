@@ -1,0 +1,183 @@
+# Echoes of Old Japan / 09 —— 緩徐楽章
+#
+# ★★音は bgmkit の外で作っている。 select / order / audio は使わない。
+#   ベートーヴェンのピアノ・ソナタの第2楽章を3つ（熱情 Op.57・Op.79・悲愴 Op.13）素材に、
+#   曲・音階・主音・テンポ・旋律楽器の5軸で8変奏を作り、8秒クロスフェードで繋いだ59分54秒。
+#   実装は bgm/EOJ09_緩徐楽章/album.py（描画52秒）。
+#   ★ECJ09（17分22秒の作品版）と素材も描画器も共有している。
+#
+# ★★陰の主役は熱情。 都節でもずれ7.3%で収まるのはこの曲だけ（ほかは10〜20%に跳ねる）。
+# ★★熱情は MIDI に繰り返しが展開されていない。`unfold57` で 204拍 → 286拍 に組み直す。
+#
+# ★★実測 59分54秒 / **−14.0 LUFS / TP −1.8**（wav）。当て込みは不要（入力 −17.20）。
+
+# ★★画題は「尾根と雲海」。 既刊16巻と幾何が重ならないものを選んだ
+#   （ECJ01海／02参道／03棚田／04橋／05藤棚／06竹林／07雪の庭／08山寺の雨／
+#     09書院の丸窓と紅葉／10鯉のぼりの里／EOJ01月と水／02森の内側／03蓮池／04梅林／
+#     05苔庭と飛び石／06枯山水）。
+# ★★作品版と同じ画題にしない（同じ曲の2本が棚で競合する）。EOJ05 で藤棚→苔庭にしたのと同じ判断。
+# ★★場面2をいちばん暗くする（音の陰に絵の夜を当てる）。EOJ06 で組み直して決めた規則。
+# ★露出は受け取ってから実測する（16未満の割合。平均輝度では合わせない）。
+#   サムネは題字の乗る側の地を 12〜16 に。
+
+genre: echoesofoldjapan
+volume: 9
+slug: eoj09
+dir: "/Volumes/ESD-EPB/BGM/5_Echoes of Old Japan/EOJ09_素材_緩徐楽章"
+
+runtime: "60 MIN"   # ★manifest の 3594.8秒 を round すると60分（thumb.check_runtime の規則）
+# ★2026/10/8 公開中のサムネを B案（用途＋太明朝W6）に差し替えたので題字も合わせた。旧：[PATHÉTIQUE, BEETHOVEN]
+#   焼いた版は `_B案_20261008/eoj09_B.jpg`（差し替え前の版は thumb_out に残っている）
+title_lines: [夜の読書に, 悲愴と熱情]
+thumb:
+  scrim: {width: 1100}   # ★10/8 末尾の字が明るい所にかかるので幕を右へ延ばした（Codexの指摘）
+  title_family: jp       # ★10/8 serif（英語のCochin）から日本語へ
+  title_fit: 760
+  tracking:
+    brand: 4
+
+scenes:
+- 01 日暮れの尾根（曲01-02。最奥の稜線だけに残照）
+- 02 闇の尾根（曲03-04。★いちばん暗い。月は無く、雲海だけが淡く光る）
+- 03 月と雲海（曲05-06。★見せ場。雲海が銀に光り、尾根が黒い帯になる）
+- 04 朝焼け（曲07-08。雲海が金と薔薇色に染まる。いちばん明るい）
+- 05 サムネ専用（本編には使わない。左三分の一が近い尾根と松の影）
+
+# ★プロンプトの全文は bgm/EOJ09_緩徐楽章_画像プロンプト/ にも同じものが置いてある（Codex へ渡すのはそちら）。
+image_prompts:
+- >-
+  Layered mountain ridges above a sea of cloud in Japan, at dusk. Seen from a high ridge, looking
+  out across the valleys: four or five ridges recede one behind another as flat overlapping bands,
+  each a lighter tone than the one in front, and the valleys between them are filled to the brim
+  with level cloud so that only the ridge lines show above it. Two wind-bent pines stand on the
+  near ridge at the left, close to the viewer and darker than everything else. No buildings, no
+  paths and no people anywhere in the picture; the land is empty. The last warm light still
+  touches the top edge of the farthest ridge, and the cloud sea below holds a faint apricot cast.
+  The sky above is a soft gradated wash from warm grey at the horizon to deep blue overhead. The
+  bands of ridge read as clear separate tones, from near-black at the front to pale violet-grey at
+  the back. Apricot, violet-grey, slate blue, black-green pine. Japanese shin-hanga woodblock
+  print in the manner of the 1920s-30s revival: flat layered areas of colour, visible woodgrain in
+  the flat passages, softly gradated sky (bokashi), Western perspective and cast light held inside
+  Japanese printmaking. Calm, unpeopled, no figures. Strong clear difference between the light and
+  dark masses so the image still reads when reduced to a thumbnail. No text, no signature, no seal
+  stamp, no lettering of any kind. No modern objects: no power lines, no utility poles, no
+  electric lamps, no vehicles, no plastic, no road markings. Wide 16:9 landscape. Exposed so that
+  texture is clearly visible everywhere. Shadows are lifted and open, full of visible detail,
+  nothing crushed to pure black. High dynamic range, rich texture even in the darkest areas.
+- >-
+  Layered mountain ridges above a sea of cloud in Japan, at deep night, with no moon. Seen from a
+  high ridge, looking out across the valleys: four or five ridges recede one behind another as
+  flat overlapping bands, each a lighter tone than the one in front, and the valleys between them
+  are filled to the brim with level cloud so that only the ridge lines show above it. Two wind-
+  bent pines stand on the near ridge at the left, close to the viewer and darker than everything
+  else. No buildings, no paths and no people anywhere in the picture; the land is empty. This is
+  the darkest of the four scenes and must read clearly as a moonless night. The cloud sea is the
+  only light in the picture: it glows faintly and evenly of itself, a soft pale blue-grey field,
+  and against it the ridges read as quiet dark bands that still keep their separate tones and
+  their visible edges. The two pines keep their needles and their branch structure. Nothing is
+  crushed to solid black and the cloud never flattens into one grey. Deep indigo, slate, cold
+  pewter, dark blue-green. Japanese shin-hanga woodblock print in the manner of the 1920s-30s
+  revival: flat layered areas of colour, visible woodgrain in the flat passages, softly gradated
+  sky (bokashi), Western perspective and cast light held inside Japanese printmaking. Calm,
+  unpeopled, no figures. Strong clear difference between the light and dark masses so the image
+  still reads when reduced to a thumbnail. No text, no signature, no seal stamp, no lettering of
+  any kind. No modern objects: no power lines, no utility poles, no electric lamps, no vehicles,
+  no plastic, no road markings. Wide 16:9 landscape. Exposed so that texture is clearly visible
+  everywhere. Shadows are lifted and open, full of visible detail, nothing crushed to pure black.
+  High dynamic range, rich texture even in the darkest areas.
+- >-
+  Layered mountain ridges above a sea of cloud in Japan, at night under a high full moon. Seen
+  from a high ridge, looking out across the valleys: four or five ridges recede one behind another
+  as flat overlapping bands, each a lighter tone than the one in front, and the valleys between
+  them are filled to the brim with level cloud so that only the ridge lines show above it. Two
+  wind-bent pines stand on the near ridge at the left, close to the viewer and darker than
+  everything else. No buildings, no paths and no people anywhere in the picture; the land is
+  empty. The moon stands high in the left half of the sky and the cloud sea below is bright
+  silver, lit from above, its surface showing slow soft swells. The ridges cut across it as dark
+  blue bands, each edge sharp against the glow. The two pines are near-black shapes whose needles
+  are still just readable. Silver, deep blue, indigo, black-green. Clearly brighter than the
+  moonless night but still unmistakably night. Japanese shin-hanga woodblock print in the manner
+  of the 1920s-30s revival: flat layered areas of colour, visible woodgrain in the flat passages,
+  softly gradated sky (bokashi), Western perspective and cast light held inside Japanese
+  printmaking. Calm, unpeopled, no figures. Strong clear difference between the light and dark
+  masses so the image still reads when reduced to a thumbnail. No text, no signature, no seal
+  stamp, no lettering of any kind. No modern objects: no power lines, no utility poles, no
+  electric lamps, no vehicles, no plastic, no road markings. Wide 16:9 landscape. Exposed so that
+  texture is clearly visible everywhere. Shadows are lifted and open, full of visible detail,
+  nothing crushed to pure black. High dynamic range, rich texture even in the darkest areas.
+- >-
+  Layered mountain ridges above a sea of cloud in Japan, at dawn. Seen from a high ridge, looking
+  out across the valleys: four or five ridges recede one behind another as flat overlapping bands,
+  each a lighter tone than the one in front, and the valleys between them are filled to the brim
+  with level cloud so that only the ridge lines show above it. Two wind-bent pines stand on the
+  near ridge at the left, close to the viewer and darker than everything else. No buildings, no
+  paths and no people anywhere in the picture; the land is empty. The sky behind the farthest
+  ridge burns pale gold and rose, and the cloud sea has taken that colour and turned warm and
+  luminous, beginning to lift and break into soft banks. This is the brightest and most open of
+  the four scenes. Pale gold, rose, warm white, soft blue-grey. Japanese shin-hanga woodblock
+  print in the manner of the 1920s-30s revival: flat layered areas of colour, visible woodgrain in
+  the flat passages, softly gradated sky (bokashi), Western perspective and cast light held inside
+  Japanese printmaking. Calm, unpeopled, no figures. Strong clear difference between the light and
+  dark masses so the image still reads when reduced to a thumbnail. No text, no signature, no seal
+  stamp, no lettering of any kind. No modern objects: no power lines, no utility poles, no
+  electric lamps, no vehicles, no plastic, no road markings. Wide 16:9 landscape. Exposed so that
+  texture is clearly visible everywhere. Shadows are lifted and open, full of visible detail,
+  nothing crushed to pure black. High dynamic range, rich texture even in the darkest areas.
+- >-
+  The same layered mountain ridges above a sea of cloud, at night under a high full moon, composed
+  for a thumbnail. The whole LEFT third of the frame, from the very top edge down to the bottom
+  edge, is a dark unbroken mass — the near ridge in the foreground with its two wind-bent pines —
+  with almost no detail needed there. The RIGHT two thirds open onto the moonlit cloud sea, which
+  reads as one wide bright silver field with the far ridges cutting across it as strong dark
+  bands. The full moon stands in the sky at the upper right, small and clear. Very strong contrast
+  between the dark left third and the lit right side, so the image still reads at the size of a
+  postage stamp. Muted woodblock colour. No figures, no buildings. Japanese shin-hanga woodblock
+  print in the manner of the 1920s-30s revival: flat layered areas of colour, visible woodgrain in
+  the flat passages, softly gradated sky (bokashi), Western perspective and cast light held inside
+  Japanese printmaking. Calm, unpeopled, no figures. Strong clear difference between the light and
+  dark masses so the image still reads when reduced to a thumbnail. No text, no signature, no seal
+  stamp, no lettering of any kind. No modern objects: no power lines, no utility poles, no
+  electric lamps, no vehicles, no plastic, no road markings. Wide 16:9 landscape. Exposed so that
+  texture is clearly visible everywhere. Shadows are lifted and open, full of visible detail,
+  nothing crushed to pure black. High dynamic range, rich texture even in the darkest areas.
+
+# ★画像は Codex が bgm/EOJ09_緩徐楽章_画像/ に 01〜05 で置く。受け取ったら実測して SSD の dir へ移す。
+images:
+- eoj09_01.png            # 場面1 日暮れの尾根
+- eoj09_02.png            # 場面2 闇の尾根
+- eoj09_03.png            # 場面3 月と雲海
+- eoj09_04.png            # 場面4 朝焼け
+
+background: "/Volumes/ESD-EPB/BGM/5_Echoes of Old Japan/EOJ09_素材_緩徐楽章/画像/eoj09_05.png"
+thumb_out: "/Volumes/ESD-EPB/BGM/5_Echoes of Old Japan/EOJ09_素材_緩徐楽章/eoj09_サムネ_16x9.png"
+
+# ★`segmented` は `video:` の下でないと効かない（video.py は cfg["video"] しか見ない）。
+#   EOJ01 は最上位に書いてあったので分割で焼けていない。
+video:
+  segmented: true
+
+# ★ショート3本（2026年9月17日）。EOJ07 と同じ決めごと。**3本で3曲**（悲愴・Op.79・熱情）。
+shorts:
+- tag: A
+  image: 1            # 01 日暮れの尾根。0.30で手前の松と橙の空
+  anchor: 0.30
+  at: "0:09:00"       # 02「歌」悲愴 第2楽章・律G#・尺八
+  title: 悲愴 第2楽章
+  sub: [日暮れの尾根 尺八, 1時間版はチャンネルに]
+  move: in
+- tag: B
+  image: 3            # 03 月と雲海。0.30で月と松が同じ枠に入る
+  anchor: 0.30
+  at: "0:39:00"       # 06「月が出る」Op.79 第2楽章・律C#・笙
+  title: Op.79 第2楽章
+  sub: [月と雲海 笙, 1時間版はチャンネルに]
+  move: out
+- tag: C
+  image: 4            # 04 朝焼け。0.45で金の雲海と尾根の重なり
+  anchor: 0.45
+  at: "0:54:00"       # 08「還る」熱情 第2楽章・律C#・尺八
+  title: 熱情 第2楽章
+  sub: [朝焼け 尺八, 1時間版はチャンネルに]
+  move: in
+
+music_bed_source: /Volumes/ESD-02/BGM/5_Echoes of Old Japan/EOJ09_素材_緩徐楽章/_work/music_bed.wav
