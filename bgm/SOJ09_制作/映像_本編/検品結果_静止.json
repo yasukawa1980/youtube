@@ -1,0 +1,67 @@
+{
+  "status": "silent_release_candidate_pending_human_full_view",
+  "file": "/Users/ryo/youtube/bgm/SOJ09_制作/映像_本編/SOJ09_晩秋の浜辺_3608秒_無音_静止.mp4",
+  "sha256": "096cdc98f9b12b5711c437b6bd522b9c96db5f3ec5c5c36c6dd8935399fce9c3",
+  "duration_seconds": 3608.0,
+  "frames": 108240,
+  "resolution": "1920x1080",
+  "fps": 30,
+  "audio_streams": 0,
+  "scene_intermediates": [
+    "/Users/ryo/youtube/bgm/SOJ09_制作/映像_本編/01_波打ち際_1130s_無音_静止.mp4",
+    "/Users/ryo/youtube/bgm/SOJ09_制作/映像_本編/02_漁村の浜_1125s_無音_静止.mp4",
+    "/Users/ryo/youtube/bgm/SOJ09_制作/映像_本編/03_宿の縁側_560s_無音_静止.mp4",
+    "/Users/ryo/youtube/bgm/SOJ09_制作/映像_本編/04_月夜の海_838s_無音_静止.mp4"
+  ],
+  "scene_intervals_seconds": [
+    [
+      0,
+      1130
+    ],
+    [
+      1115,
+      2240
+    ],
+    [
+      2225,
+      2785
+    ],
+    [
+      2770,
+      3608
+    ]
+  ],
+  "scene_dissolves_seconds": [
+    [
+      1115,
+      1130
+    ],
+    [
+      2225,
+      2240
+    ],
+    [
+      2770,
+      2785
+    ]
+  ],
+  "card_dissolve_seconds": [
+    3586,
+    3588
+  ],
+  "card_full_seconds": [
+    3588,
+    3608
+  ],
+  "cta_seconds": [
+    60,
+    68
+  ],
+  "motion": "none (still images)",
+  "full_decode": "passed",
+  "pending": [
+    "human full visual review",
+    "audio mux by Claude"
+  ],
+  "file_bytes": 1998030125
+}

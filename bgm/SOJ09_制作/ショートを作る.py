@@ -40,7 +40,11 @@ def main():
     ap = argparse.ArgumentParser()
     ap.add_argument("--audio", default=str(ROOT / "音_完成" / "SOJ09_原音_xf15_s4-1.2.wav"))
     ap.add_argument("--only", nargs="*")
+    # ★本人が波の揺れを「イマイチ」と判断（2026-10-28）→静止画の本編から切り、_v02 で別名に出す
+    ap.add_argument("--still", action="store_true")
     a = ap.parse_args()
+    video = VIDEO.with_name(VIDEO.stem + "_静止.mp4") if a.still else VIDEO
+    suffix = "_v02" if a.still else ""
     cfg = config.load("soj09")
     s = cfg["short"]
     W, H = s["size"]
@@ -77,9 +81,9 @@ def main():
               f":measured_LRA={m['input_lra']}:measured_thresh={m['input_thresh']}"
               f":offset={m['target_offset']}:linear=true,"
               f"afade=t=in:st=0:d={fade},afade=t=out:st={dur - fade:.2f}:d={fade}")
-        out = str(outdir / f"soj09_ショート_{spec['tag']}.mp4")
+        out = str(outdir / f"soj09_ショート_{spec['tag']}{suffix}.mp4")
         e = s["encode"]
-        ff(["-ss", f"{start}", "-t", f"{dur}", "-i", str(VIDEO), "-i", tmp,
+        ff(["-ss", f"{start}", "-t", f"{dur}", "-i", str(video), "-i", tmp,
             "-ss", f"{start}", "-t", f"{dur}", "-i", bed,
             "-filter_complex", vf, "-map", "[vo]", "-map", "2:a", "-af", af,
             "-frames:v", str(nf),

@@ -21,6 +21,7 @@ PARTS = HERE / "_parts"
 FPS = 30
 W, H = 1920, 1080
 TOTAL = 3608
+STILL = False
 
 def _roi(mask: Path) -> tuple[int, int, int, int]:
     """水域マスクの外接矩形＋余白16px（SOJ08 は手で書いていたのを自動にした）。"""
@@ -122,6 +123,19 @@ def render_scene(scene: dict, status: dict, lock: threading.Lock) -> Path:
     if scene["cta"]:
         args += ["-loop", "1", "-framerate", str(FPS), "-t", "69", "-i", str(CTA_IMAGE)]
 
+    if STILL:
+        # ★波の揺れ（displace）は本人が「表現がイマイチ」と判断したので静止画にした（2026-10-28）
+        filters = ["[0:v]format=yuv420p[moved]"]
+        out_label = "[moved]"
+        if scene["cta"]:
+            filters += [
+                "[1:v]format=rgba,fade=t=in:st=60:d=1:alpha=1,"
+                "fade=t=out:st=67:d=1:alpha=1[cta]",
+                "[moved][cta]overlay=0:0:eof_action=pass[out]",
+            ]
+            out_label = "[out]"
+        return _encode_scene(scene, output, expected, args_still(scene), filters, out_label, status, lock)
+
     rx, ry, rw, rh = scene.get("roi") or _roi(scene["mask"])
     # yuv420p の crop は位置と寸法を偶数に丸める。奇数のままだと映像側だけ 1px 縮み、
     # 変形の地図（scale で指定寸法ちょうど）と合わずに displace が止まる（場面3の 235px で発生）。
@@ -148,6 +162,22 @@ def render_scene(scene: dict, status: dict, lock: threading.Lock) -> Path:
         ]
         out_label = "[out]"
 
+    return _encode_scene(scene, output, expected, args, filters, out_label, status, lock)
+
+
+def args_still(scene: dict) -> list[str]:
+    seconds = scene["seconds"]
+    args = [
+        "ffmpeg", "-hide_banner", "-loglevel", "error", "-y",
+        "-loop", "1", "-framerate", str(FPS), "-t", str(seconds), "-i", str(scene["image"]),
+    ]
+    if scene["cta"]:
+        args += ["-loop", "1", "-framerate", str(FPS), "-t", "69", "-i", str(CTA_IMAGE)]
+    return args
+
+
+def _encode_scene(scene, output, expected, args, filters, out_label, status, lock) -> Path:
+    seconds = scene["seconds"]
     log_path = HERE / f"{scene['name']}.log"
     args += [
         "-filter_complex_threads", "2", "-filter_complex", ";".join(filters),
@@ -281,9 +311,18 @@ def assemble(scene_paths: list[Path], card: Path) -> Path:
 
 
 def main() -> None:
+    global STILL, FINAL, PARTS
     parser = argparse.ArgumentParser()
     parser.add_argument("--jobs", type=int, default=2)
+    parser.add_argument("--still", action="store_true", help="波を揺らさず静止画で作る（v02）")
     args = parser.parse_args()
+    if args.still:
+        STILL = True
+        FINAL = HERE / "SOJ09_晩秋の浜辺_3608秒_無音_静止.mp4"
+        PARTS = HERE / "_parts_静止"
+        for s in SCENES:
+            s["name"] += "_静止"
+    report_name = "検品結果_静止.json" if STILL else "検品結果.json"
     required = [CARD_IMAGE, CTA_IMAGE, *[s["image"] for s in SCENES], *[s["mask"] for s in SCENES]]
     missing = [str(p) for p in required if not p.exists()]
     if missing:
@@ -321,12 +360,12 @@ def main() -> None:
         "card_dissolve_seconds": [3586, 3588],
         "card_full_seconds": [3588, 3608],
         "cta_seconds": [60, 68],
-        "motion": "water masks only; four incommensurate temporal phases; amplitudes reduced by distance in scenes 3 and 4",
+        "motion": "none (still images)" if STILL else "water masks only; four incommensurate temporal phases; amplitudes reduced by distance in scenes 3 and 4",
         "full_decode": "passed",
         "pending": ["human full visual review", "audio mux by Claude"],
         "file_bytes": final.stat().st_size,
     }
-    (HERE / "検品結果.json").write_text(json.dumps(report, ensure_ascii=False, indent=2) + "\n")
+    (HERE / report_name).write_text(json.dumps(report, ensure_ascii=False, indent=2) + "\n")
     print(json.dumps(report, ensure_ascii=False, indent=2), flush=True)
 
 
