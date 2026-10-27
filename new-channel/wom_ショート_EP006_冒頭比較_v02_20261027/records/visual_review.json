@@ -1,0 +1,20 @@
+{
+  "passed": true,
+  "video_sha256": {
+    "S1": "d3d8c0f9c3d5c0377430548e562c81e02e32a7a0f365c2ded9d62c6267fa7c26",
+    "S2": "fa7faf8b0823c2a2a42bd66747b165f6423ed4a4cd975509a1a14ae4436e2437",
+    "S3": "e38d32b6f9ab944547ca064efbdb853abde37e27764af40ff7ac09717306d394"
+  },
+  "inspected": [
+    "S1 v02 every2s contact sheet",
+    "S3 v02 every2s contact sheet",
+    "S2 v02 midpoint",
+    "S1/S3 v01 contact sheets for comparison"
+  ],
+  "findings": [
+    "字幕の欠け・重なりなし",
+    "素材順・札・出典・安全な切り出しを維持",
+    "S2は元のMP4とバイト同一"
+  ],
+  "human_full_listening": false
+}

@@ -1,4 +1,5 @@
 """EP006 Shorts: native-word cuts, nine unique sources, single final encoder."""
+import os
 import argparse, difflib, math, json, re, subprocess
 from pathlib import Path
 import numpy as np
@@ -6,6 +7,8 @@ import soundfile as sf
 from PIL import Image, ImageDraw, ImageOps, ImageFilter, ImageEnhance
 import wom_shorts_produce as base
 from wom06_shorts import ROOT, REQUEST, READINGS, MODELS, SR, sha, save
+CONFIG = json.loads(Path(os.environ['QO_EP006_CONFIG']).read_text()) if os.environ.get('QO_EP006_CONFIG') else {}
+VERSION = CONFIG.get('version', 'v01')
 FPS=30;read=base.read;ff=base.ff;levels=base.levels;rms=base.rms;font=base.font
 MAIN=READINGS.parent.parent
 PHONEMES={r['display']:r['phonemes'] for r in read(READINGS) if r['language']=='en' and 'phonemes' in r}
@@ -45,12 +48,13 @@ def captions():
    'S2':["The Great Sphinx of Giza", "is not a woman.", "It has a lion's body", "and the face of a king,", "in the royal headcloth", "of a pharaoh.", "Hatshepsut, a woman who ruled", "as pharaoh, appears as", "a sphinx too, with", "a king's ceremonial beard."],
    'S3':["It is often said", "that Napoleon's soldiers shot off", "the Sphinx's nose.", "Yet drawings by the Danish traveler", "Frederic Norden, who visited", "in the 1730s,", "already show the face", "without its nose.", "They were printed long before", "Napoleon came to Egypt", "in 1798."]
   }[s['id']]
+  texts=CONFIG.get('caption_texts',{}).get(s['id'],texts)
   groups=[];pos=0
   for text in texts:
    end=pos+len(text.split());groups.append({'text':text,'word_start':pos,'word_end':end});pos=end
   for protected in ['in the 1730s,','in 1798.']:
    if protected in s['text']:assert any(protected in g['text'] for g in groups),protected
-  nframes={'S1':600,'S2':540,'S3':650}[s['id']];assert math.ceil(s['native_audio_duration']*FPS)<=nframes<=660;cta_frame=nframes-60
+  nframes=CONFIG.get('frame_counts',{'S1':600,'S2':540,'S3':650})[s['id']];assert math.ceil(s['native_audio_duration']*FPS)<=nframes<=660;cta_frame=nframes-60
   for i,g in enumerate(groups):
    g['start_frame']=max(0,round(wordtimes[g['word_start']]['start']*FPS)) if i else 0
    g['end_frame']=max(g['start_frame']+1,round(wordtimes[groups[i+1]['word_start']]['start']*FPS)) if i+1<len(groups) else math.ceil(s['native_audio_duration']*FPS)
@@ -124,6 +128,7 @@ def visuals():
         'S1':[('met_437153',None),('jebb1904_15','but it never gives'),('D_riddle','what has one voice')],
         'S2':[('museo_Inv02_008',None),('museo_Album1_004','the face of a king'),('met_544442','Hatshepsut')],
         'S3':[('museo_Inv27_001',None),('norden_109','Yet drawings'),('norden_105','They were printed')]}
+    specs.update(CONFIG.get('visual_specs',{}))
     for row in read(ROOT/'records/shorts.json')['shorts']:
         sid=row['id'];plans=specs[sid]
         starts=[0 if phrase is None else phrase_frame(row,phrase) for aid,phrase in plans]
@@ -232,7 +237,7 @@ def render():
     for s in rows:
         sid=s['id'];ap,records=make_ass(s);captionrecords.extend(records)
         group=[r for r in rendered if r['short_id']==sid]
-        out=ROOT/f'deliverables/QO_short_EP006_{sid}_v01.mp4'
+        out=ROOT/f'deliverables/QO_short_EP006_{sid}_{VERSION}.mp4'
         # Every shot has an independent decoder. Only decoded frames reach this one final encoder.
         cmd=[imageio_ffmpeg.get_ffmpeg_exe(),'-nostdin','-y','-v','warning','-f','rawvideo','-pix_fmt','yuv420p','-s','1080x1920','-r','30','-i','pipe:0',
              '-i',str(ROOT/f'audio/{sid}_final.m4a'),'-vf',f"ass='{ap}'",'-map','0:v:0','-map','1:a:0',

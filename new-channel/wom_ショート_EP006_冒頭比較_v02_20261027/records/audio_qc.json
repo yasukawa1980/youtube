@@ -1,0 +1,82 @@
+{
+  "passed": true,
+  "target_lufs": -14,
+  "maximum_true_peak_db": -1,
+  "reports": [
+    {
+      "id": "S1",
+      "mix": {
+        "input_i": "-13.97",
+        "input_tp": "-1.71",
+        "input_lra": "11.20",
+        "input_thresh": "-25.34",
+        "output_i": "-13.95",
+        "output_tp": "-1.98",
+        "output_lra": "3.20",
+        "output_thresh": "-24.86",
+        "normalization_type": "dynamic",
+        "target_offset": "-0.05"
+      },
+      "voice_onset_native": 0.09,
+      "bgm_source": "/Users/ryo/Desktop/新チャンネル/EP006_Sphinx/確認版_v01_20261026/audio/common_bgm_and_brand.wav",
+      "bgm_source_sha256": "5d09acfd12e01933b02a8a6180fd600a4e6b82cb435ca3652a308caaaa475c78",
+      "bgm_excerpt_start_seconds": 120,
+      "bgm_during_narration_dbfs": -33.49999963449864,
+      "voice_gain_after_normalization_db": -1.75,
+      "final_file": "/Users/ryo/Desktop/新チャンネル/ショート/EP006_冒頭比較_v02_20261027/audio/S1_final.m4a",
+      "sha256": "8319ffe705c62b940561402e216634d3be8266fede1683217e67c842fc797d1c",
+      "voice_rate_or_pitch_processing": false,
+      "aac_peak_limiter_ceiling_dbfs": null
+    },
+    {
+      "id": "S2",
+      "mix": {
+        "input_i": "-13.98",
+        "input_tp": "-2.70",
+        "input_lra": "3.50",
+        "input_thresh": "-24.95",
+        "output_i": "-13.82",
+        "output_tp": "-1.93",
+        "output_lra": "3.20",
+        "output_thresh": "-24.52",
+        "normalization_type": "dynamic",
+        "target_offset": "-0.18"
+      },
+      "voice_onset_native": 0.08,
+      "bgm_source": "/Users/ryo/Desktop/新チャンネル/EP006_Sphinx/確認版_v01_20261026/audio/common_bgm_and_brand.wav",
+      "bgm_source_sha256": "5d09acfd12e01933b02a8a6180fd600a4e6b82cb435ca3652a308caaaa475c78",
+      "bgm_excerpt_start_seconds": 140,
+      "bgm_during_narration_dbfs": -33.49999997877775,
+      "voice_gain_after_normalization_db": -1.9299999999999997,
+      "final_file": "/Users/ryo/Desktop/新チャンネル/ショート/EP006_冒頭比較_v02_20261027/audio/S2_final.m4a",
+      "sha256": "1914b5fe66cca5dd488f1fa1341fc460c65e46d9abce8a0605db79057f4a52d0",
+      "voice_rate_or_pitch_processing": false,
+      "aac_peak_limiter_ceiling_dbfs": null
+    },
+    {
+      "id": "S3",
+      "mix": {
+        "input_i": "-14.03",
+        "input_tp": "-2.33",
+        "input_lra": "12.10",
+        "input_thresh": "-25.17",
+        "output_i": "-13.92",
+        "output_tp": "-2.26",
+        "output_lra": "3.00",
+        "output_thresh": "-24.70",
+        "normalization_type": "dynamic",
+        "target_offset": "-0.08"
+      },
+      "voice_onset_native": 0.07,
+      "bgm_source": "/Users/ryo/Desktop/新チャンネル/EP006_Sphinx/確認版_v01_20261026/audio/common_bgm_and_brand.wav",
+      "bgm_source_sha256": "5d09acfd12e01933b02a8a6180fd600a4e6b82cb435ca3652a308caaaa475c78",
+      "bgm_excerpt_start_seconds": 160,
+      "bgm_during_narration_dbfs": -33.50000051302446,
+      "voice_gain_after_normalization_db": -1.5399999999999991,
+      "final_file": "/Users/ryo/Desktop/新チャンネル/ショート/EP006_冒頭比較_v02_20261027/audio/S3_final.m4a",
+      "sha256": "e3242e5d1c69bc19e56de061b6fada304f3f2f29d98494e443ae5bfe3cbf691d",
+      "voice_rate_or_pitch_processing": false,
+      "aac_peak_limiter_ceiling_dbfs": null
+    }
+  ]
+}

@@ -2,6 +2,7 @@
 
 Run narration before picture production. Never rewrite or accelerate a failed read.
 """
+import os
 import dataclasses
 import hashlib
 import json
@@ -12,8 +13,8 @@ import numpy as np
 import soundfile as sf
 
 REPO = Path(__file__).resolve().parent.parent
-REQUEST = REPO / 'new-channel/wom_ショート制作依頼_EP006_20261027.md'
-ROOT = Path('/Users/ryo/Desktop/新チャンネル/ショート/EP006_確認版_v01_20261027')
+REQUEST = Path(os.environ.get('QO_EP006_REQUEST', str(REPO / 'new-channel/wom_ショート制作依頼_EP006_20261027.md')))
+ROOT = Path(os.environ.get('QO_EP006_ROOT', '/Users/ryo/Desktop/新チャンネル/ショート/EP006_確認版_v01_20261027'))
 READINGS = Path('/Users/ryo/Desktop/新チャンネル/EP006_Sphinx/確認版_v02_20261027/records/reading_replacements.json')
 MODELS = Path('/Users/ryo/Desktop/BGM/_共通/音声モデル/Kokoro82M_v1')
 SR = 24000

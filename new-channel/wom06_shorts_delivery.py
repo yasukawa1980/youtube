@@ -1,26 +1,27 @@
 """Private draft delivery of EP006 Shorts; Release-ID REST verification."""
+import os
 import argparse,csv,hashlib,html,shutil,subprocess
 from pathlib import Path
 from PIL import Image
-from wom06_shorts_render import ROOT,read,save,sha,FPS
+from wom06_shorts_render import ROOT,read,save,sha,FPS,VERSION
 import json
 def api(args,data=None):
     return json.loads(subprocess.check_output(['gh','api',*args],input=json.dumps(data,ensure_ascii=False).encode() if data is not None else None))
 GH='yasukawa1980/youtube'
-TAG='qo-shorts-ep006-complete-v01-20261027'
+TAG=os.environ.get('QO_EP006_RELEASE_TAG','qo-shorts-ep006-complete-v01-20261027')
 
 def docs():
  rows=[s for s in read(ROOT/'records/shorts.json')['shorts'] if s['id'] in {m['id'] for m in read(ROOT/'records/media_qc.json')['media']}];pages=read(ROOT/'records/caption_manifest.json');qc=read(ROOT/'records/media_qc.json');assert qc['passed']
  def stamp(frame):
   ms=round(frame/FPS*1000);return f'{ms//3600000:02}:{ms//60000%60:02}:{ms//1000%60:02},{ms%1000:03}'
  for s in rows:
-  stem=f'QO_short_{s["episode"]}_{s["id"]}_v01';groups=[p for p in pages if p['short_id']==s['id']]
+  stem=f'QO_short_{s["episode"]}_{s["id"]}_{VERSION}';groups=[p for p in pages if p['short_id']==s['id']]
   (ROOT/f'deliverables/{stem}.srt').write_text('\n\n'.join(f'{i+1}\n{stamp(p["start_frame"])} --> {stamp(p["end_frame"])}\n'+ '\n'.join(p['lines']) for i,p in enumerate(groups))+'\n')
   for suffix in ['mid','every2s']:shutil.copy2(ROOT/f'review/{stem}_{suffix}.jpg',ROOT/f'deliverables/{stem}_{suffix}.jpg')
  (ROOT/'deliverables/scripts.txt').write_text('\n\n'.join(f'{s["episode"]} {s["id"]} — {s["title_ja"]}\n{s["text"]}' for s in rows)+'\n')
  fields=['id','name','duration_seconds','frames','lufs','true_peak_dbtp','voice_onset_normalized_stem_seconds','bgm_during_narration_dbfs','cta_seconds']
  with (ROOT/'deliverables/qc_summary.csv').open('w',newline='') as f:w=csv.DictWriter(f,fieldnames=fields);w.writeheader();w.writerows({k:s[k] for k in fields} for s in qc['media'])
- cards=''.join(f'<section><h2>{s["episode"]} {s["id"]} — {html.escape(s["title_ja"])}</h2><video controls preload="metadata" src="QO_short_{s["episode"]}_{s["id"]}_v01.mp4"></video><p>{s["duration_seconds"]:.2f}秒・英語字幕入り</p></section>' for s in rows)
+ cards=''.join(f'<section><h2>{s["episode"]} {s["id"]} — {html.escape(s["title_ja"])}</h2><video controls preload="metadata" src="QO_short_{s["episode"]}_{s["id"]}_{VERSION}.mp4"></video><p>{s["duration_seconds"]:.2f}秒・英語字幕入り</p></section>' for s in rows)
  (ROOT/'deliverables/preview.html').write_text('<!doctype html><html lang="ja"><meta charset="utf-8"><meta name="viewport" content="width=device-width"><title>Quiet Origins Shorts v01</title><style>body{max-width:1100px;margin:28px auto;padding:0 20px;background:#0c1820;color:#f4efdf;font:17px/1.6 system-ui}h1,h2{color:#d8b575}h2{font-size:18px}main{display:grid;grid-template-columns:repeat(auto-fit,minmax(280px,1fr));gap:28px}video{width:100%;max-height:72vh;background:#000}a{color:#d8b575}</style><h1>Quiet Origins / Sphinx Shorts v01</h1><p>第6話スフィンクス 確認用。英語音声・英語字幕、縦1080×1920。確認用・未投稿。3本完成。S1 20秒、S2 18秒、S3 21.67秒。台本・話速を維持。</p><main>'+cards+'</main><script>document.querySelectorAll("video").forEach(v=>v.addEventListener("play",()=>document.querySelectorAll("video").forEach(w=>{if(w!==v)w.pause()})));</script></html>')
  with (ROOT/'deliverables/motion_qc.csv').open('w',newline='') as f:
   fields=['short_id','asset_id','frame_pairs','median','p95','p95_over_median','passed']
@@ -70,7 +71,7 @@ def share():
     else:
         r=next((r for r in api([f'repos/{GH}/releases?per_page=100']) if r['tag_name']==TAG),None)
         if r is None:
-            r=api(['--method','POST',f'repos/{GH}/releases','--input','-'],dict(tag_name=TAG,target_commitish='bgm/production',name='Quiet Origins：スフィンクス ショート確認版 v01',body='本人依頼・Claudeの台本を維持。英語Kokoro af_heart、縦1080×1920・30fps。検査合格済みの動画と記録。S1 20秒、S2 18秒、S3 21.67秒。22秒以内、台本・話速・本編の読み補正を維持。個別デコードから単一エンコーダーで出力、連続デコード警告0。YouTube未投稿、非公開Draftを維持。',draft=True))
+            r=api(['--method','POST',f'repos/{GH}/releases','--input','-'],dict(tag_name=TAG,target_commitish='bgm/production',name=os.environ.get('QO_EP006_RELEASE_NAME','Quiet Origins：スフィンクス ショート確認版 v01'),body=os.environ.get('QO_EP006_RELEASE_BODY','本人依頼・Claudeの台本を維持。英語Kokoro af_heart、縦1080×1920・30fps。検査合格済みの動画と記録。S1 20秒、S2 18秒、S3 21.67秒。22秒以内、台本・話速・本編の読み補正を維持。個別デコードから単一エンコーダーで出力、連続デコード警告0。YouTube未投稿、非公開Draftを維持。'),draft=True))
     assert_private_draft(r)
     prior=read(state) if state.exists() else {}
     verified=prior.get('assets',prior.get('verified_assets',[]))

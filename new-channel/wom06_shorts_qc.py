@@ -4,7 +4,7 @@ from pathlib import Path
 import numpy as np
 import soundfile as sf
 import wom_shorts_qc as legacy
-from wom06_shorts_render import ROOT,REQUEST,SR,FPS,read,save,sha,ff,levels
+from wom06_shorts_render import ROOT,REQUEST,SR,FPS,VERSION,read,save,sha,ff,levels
 from wom01_quiet_origins import stream_hash
 legacy.ROOT=ROOT
 legacy.REQUEST=REQUEST
@@ -25,7 +25,7 @@ def verify():
    if g['asset_id']=='jebb1904_15':assert g['source_crop_pixels']==[60,1400,1015,1524]
    assert sha(Path(g['source']['path']))==g['source']['sha256'];assert sha(Path(g['encoded_file']))==g['encoded_sha256'];usage.append({'short_id':id,'episode':s['episode'],'asset_id':g['asset_id'],'start_seconds':g['start_frame']/FPS,'end_seconds':g['end_frame']/FPS,'use_count':1,'source_sha256':g['source']['sha256']})
    assert all(140<=t['bbox'][1]<t['bbox'][3]<=260 for t in g['texts'])
-  p=ROOT/f'deliverables/QO_short_{s["episode"]}_{id}_v01.mp4';decode=subprocess.run(['ffmpeg','-nostdin','-v','warning','-i',str(p),'-f','null','-'],capture_output=True,text=True,check=True);assert not decode.stderr.strip(),decode.stderr;info=json.loads(subprocess.check_output(['ffprobe','-v','error','-show_streams','-show_format','-of','json',str(p)]));v=next(t for t in info['streams'] if t['codec_type']=='video');assert (v['width'],v['height'],v['avg_frame_rate'],int(v['nb_frames']))==(1080,1920,'30/1',s['frames']);assert abs(float(info['format']['duration'])-s['frames']/FPS)<.04;assert 15<=float(info['format']['duration'])<=22;assert v['codec_name']=='h264' and v['profile']=='High' and v['pix_fmt']=='yuv420p'
+  p=ROOT/f'deliverables/QO_short_{s["episode"]}_{id}_{VERSION}.mp4';decode=subprocess.run(['ffmpeg','-nostdin','-v','warning','-i',str(p),'-f','null','-'],capture_output=True,text=True,check=True);assert not decode.stderr.strip(),decode.stderr;info=json.loads(subprocess.check_output(['ffprobe','-v','error','-show_streams','-show_format','-of','json',str(p)]));v=next(t for t in info['streams'] if t['codec_type']=='video');assert (v['width'],v['height'],v['avg_frame_rate'],int(v['nb_frames']))==(1080,1920,'30/1',s['frames']);assert abs(float(info['format']['duration'])-s['frames']/FPS)<.04;assert 15<=float(info['format']['duration'])<=22;assert v['codec_name']=='h264' and v['profile']=='High' and v['pix_fmt']=='yuv420p'
   pts=sorted(map(int,subprocess.check_output(['ffprobe','-v','error','-select_streams','v:0','-show_entries','packet=pts','-of','csv=p=0',str(p)],text=True).splitlines()));assert v['time_base']=='1/15360' and pts==list(range(0,s['frames']*512,512))
   q=levels(p);assert abs(float(q['input_i'])+14)<=.15 and float(q['input_tp'])<=-1;assert stream_hash(p,'a')==stream_hash(ROOT/f'audio/{id}_final.m4a','a')
   voice,sr=sf.read(ROOT/f'audio/{id}_normalized.wav',dtype='float32');step=round(.01*sr);power=np.array([np.sqrt(np.mean(voice[i:i+step]**2)) for i in range(0,len(voice),step)]);onset=float(np.where(power>10**(-50/20))[0][0]*.01);assert onset<=.3
@@ -56,7 +56,7 @@ def glyphs():
 def frames():
  rows=[s for s in read(ROOT/'records/shorts.json')['shorts'] if s['id'] in ['S1','S2','S3']];font=ImageFont.truetype('/System/Library/Fonts/Supplemental/Arial.ttf',16);records=[]
  for s in rows:
-  stem=f'QO_short_{s["episode"]}_{s["id"]}_v01';video=ROOT/f'deliverables/{stem}.mp4';times=list(np.arange(0,s['duration_seconds'],2));items=[]
+  stem=f'QO_short_{s["episode"]}_{s["id"]}_{VERSION}';video=ROOT/f'deliverables/{stem}.mp4';times=list(np.arange(0,s['duration_seconds'],2));items=[]
   mid=ROOT/f'review/{stem}_mid.jpg';ff(['-ss',s['duration_seconds']/2,'-i',video,'-frames:v',1,'-vf','scale=720:1280','-q:v',3,mid])
   sheet=Image.new('RGB',(1280,math.ceil(len(times)/5)*480),'#0c1820');d=ImageDraw.Draw(sheet)
   for i,t in enumerate(times):
@@ -72,7 +72,7 @@ def motion():
  checks=[]
  for s in read(ROOT/'records/render_shots.json'):
   b=s['art_box'];x=round(b[0]+.15*(b[2]-b[0]));y=round(b[1]+.15*(b[3]-b[1]));w=round(.7*(b[2]-b[0]));h=round(.7*(b[3]-b[1]))
-  p=ROOT/f'deliverables/QO_short_EP006_{s["short_id"]}_v01.mp4';signature=sha(p)
+  p=ROOT/f'deliverables/QO_short_EP006_{s["short_id"]}_{VERSION}.mp4';signature=sha(p)
   cache=ROOT/f'_work/motion_final_{signature}_{s["asset_id"]}.json'
   if cache.exists():q=read(cache)
   else:
