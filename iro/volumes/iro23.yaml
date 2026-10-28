@@ -1,0 +1,31 @@
+genre: iro
+volume: 23
+slug: iro23
+dir: /Users/ryo/Desktop/BGM/IRO/Cafe/23_雨やどりのつもりだった
+tracks_dir: /Volumes/ESD-02/Suno書き出し/IRO23_全48曲
+title_ja: 雨やどりの、つもりだった。
+title_en: I Only Meant to Wait Out the Rain
+theme_color: '#7B5B45'
+theme_color_name: MOCHA
+purpose: cafe
+music_genre: cafe_jazz_lofi
+target_music_seconds: 7200
+cta: true
+audio:
+  target_lufs: -14.0
+  true_peak: -2.0
+  crossfade: 4.0
+  codec: aac_at
+budget:
+  suno_max_credits: 300
+  kling_max_credits: 0
+suno:
+  workspace: IRO23_雨やどりのつもりだった2時間
+  wid: 7247406c-4d38-429c-839d-0558b4c35e48
+  trial_credits: 60
+scenes:
+  base: 開始画像/iro23_S1_案2.png
+  list: [S1, S2, S3, S4, S5, S6]
+  seconds_each: 1200
+  crossfade_seconds: 8
+  motion: [steam, lamp_flicker]

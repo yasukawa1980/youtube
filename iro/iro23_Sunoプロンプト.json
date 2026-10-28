@@ -1,0 +1,65 @@
+{
+ "model": "Suno 最新（画面の既定）",
+ "seconds_target": "約4分（カスタムのスライダー240秒）",
+ "lyrics": "",
+ "instrumental": true,
+ "runs_per_kind": {
+  "A-F": 4
+ },
+ "songs_per_run": 2,
+ "estimated_credits": 240,
+ "budget": "Suno 300クレジット以内・購入なし（本人10/28）",
+ "order": "A→F を回す",
+ "trial": "まず各種1回（12曲・60見込み）で声・楽器・尺を確かめ、抜粋を本人が試聴してから残り18回",
+ "naming": "iro23_A-01a / iro23_A-01b（回番号＋a/b）",
+ "leads": [
+  {
+   "tag": "A",
+   "name": "アコーディオン（パリのミュゼット風・ゆっくり）",
+   "key": "F major",
+   "bpm": 80,
+   "style": "A warm, gentle accordion in the foreground, soft Parisian musette color played slowly and tenderly, a simple singing melody with long breathing notes and soft chords, close and intimate, never a fast waltz, never tango. F major, 80 BPM. Instrumental café jazz lo-fi for a quiet little neighborhood café on a rainy late-autumn afternoon that slowly turns into evening. Soft brushed drums with a gentle, relaxed swing, a warm walking upright bass and soft jazzy chords underneath, gentle tape warmth. Cozy, warm and unhurried, never sleepy, never dramatic. A long, continuous piece that keeps the same easy groove all the way through, with no breakdowns and no dramatic build. It continues in this same way for many minutes. About four minutes, gentle natural ending. No vocals, no humming, no whistling. No rain, no thunder, no café chatter, no cups, no birds, no clock ticking, no field recordings. No dog sounds, no barking.",
+   "exclude": "vocals, singing, humming, whistling, chanting, spoken words, rap, vocal chops, rain, thunder, café chatter, cups, birds, clock ticking, city ambience, field recordings, dog sounds, barking, piano lead, saxophone, vibraphone, synth lead, electric guitar lead, trumpet lead, bandoneon lead, harmonica"
+  },
+  {
+   "tag": "B",
+   "name": "ウクレレ（ジャズコードの柔らかい指弾き）",
+   "key": "C major",
+   "bpm": 78,
+   "style": "A soft ukulele in the foreground, gently fingerpicked with warm jazzy chord voicings and a simple mellow single-note melody, quiet and close, never strummed hard, never hawaiian, never a fast run. C major, 78 BPM. Instrumental café jazz lo-fi for a quiet little neighborhood café on a rainy late-autumn afternoon that slowly turns into evening. Soft brushed drums with a gentle, relaxed swing, a warm walking upright bass and soft jazzy chords underneath, gentle tape warmth. Cozy, warm and unhurried, never sleepy, never dramatic. A long, continuous piece that keeps the same easy groove all the way through, with no breakdowns and no dramatic build. It continues in this same way for many minutes. About four minutes, gentle natural ending. No vocals, no humming, no whistling. No rain, no thunder, no café chatter, no cups, no birds, no clock ticking, no field recordings. No dog sounds, no barking.",
+   "exclude": "vocals, singing, humming, whistling, chanting, spoken words, rap, vocal chops, rain, thunder, café chatter, cups, birds, clock ticking, city ambience, field recordings, dog sounds, barking, piano lead, saxophone, vibraphone, synth lead, electric guitar lead, trumpet lead, acoustic guitar lead, nylon guitar lead, charango lead"
+  },
+  {
+   "tag": "C",
+   "name": "オルゴール（ゆっくり・低めの櫛）",
+   "key": "E-flat major",
+   "bpm": 72,
+   "style": "A warm, low-pitched music box in the foreground, playing a slow, simple, tender melody one note at a time with soft ringing tails, close and intimate, never childish, never a lullaby cliché, never a horror tone. E-flat major, 72 BPM. Instrumental café jazz lo-fi for a quiet little neighborhood café on a rainy late-autumn afternoon that slowly turns into evening. Soft brushed drums with a gentle, relaxed swing, a warm walking upright bass and soft jazzy chords underneath, gentle tape warmth. Cozy, warm and unhurried, never sleepy, never dramatic. A long, continuous piece that keeps the same easy groove all the way through, with no breakdowns and no dramatic build. It continues in this same way for many minutes. About four minutes, gentle natural ending. No vocals, no humming, no whistling. No rain, no thunder, no café chatter, no cups, no birds, no clock ticking, no field recordings. No dog sounds, no barking.",
+   "exclude": "vocals, singing, humming, whistling, chanting, spoken words, rap, vocal chops, rain, thunder, café chatter, cups, birds, clock ticking, city ambience, field recordings, dog sounds, barking, piano lead, saxophone, vibraphone, synth lead, electric guitar lead, trumpet lead, glockenspiel lead, celesta lead, bells"
+  },
+  {
+   "tag": "D",
+   "name": "バンドネオン（穏やか・長い音）",
+   "key": "D minor",
+   "bpm": 76,
+   "style": "A soft bandoneon in the foreground, played calmly with long, sustained, gently swelling notes and a simple wistful melody, warm and close, never dramatic tango, never staccato accents. D minor, 76 BPM. Instrumental café jazz lo-fi for a quiet little neighborhood café on a rainy late-autumn afternoon that slowly turns into evening. Soft brushed drums with a gentle, relaxed swing, a warm walking upright bass and soft jazzy chords underneath, gentle tape warmth. Cozy, warm and unhurried, never sleepy, never dramatic. A long, continuous piece that keeps the same easy groove all the way through, with no breakdowns and no dramatic build. It continues in this same way for many minutes. About four minutes, gentle natural ending. No vocals, no humming, no whistling. No rain, no thunder, no café chatter, no cups, no birds, no clock ticking, no field recordings. No dog sounds, no barking.",
+   "exclude": "vocals, singing, humming, whistling, chanting, spoken words, rap, vocal chops, rain, thunder, café chatter, cups, birds, clock ticking, city ambience, field recordings, dog sounds, barking, piano lead, saxophone, vibraphone, synth lead, electric guitar lead, trumpet lead, accordion lead, harmonica"
+  },
+  {
+   "tag": "E",
+   "name": "チャランゴ（指弾き・トレモロ控えめ）",
+   "key": "G major",
+   "bpm": 82,
+   "style": "A bright, soft charango in the foreground, gently fingerpicked with a simple happy melody and only a little light tremolo, like the sky clearing after rain, intimate and quiet, never fast andean folk dance, never pan flute. G major, 82 BPM. Instrumental café jazz lo-fi for a quiet little neighborhood café on a rainy late-autumn afternoon that slowly turns into evening. Soft brushed drums with a gentle, relaxed swing, a warm walking upright bass and soft jazzy chords underneath, gentle tape warmth. Cozy, warm and unhurried, never sleepy, never dramatic. A long, continuous piece that keeps the same easy groove all the way through, with no breakdowns and no dramatic build. It continues in this same way for many minutes. About four minutes, gentle natural ending. No vocals, no humming, no whistling. No rain, no thunder, no café chatter, no cups, no birds, no clock ticking, no field recordings. No dog sounds, no barking.",
+   "exclude": "vocals, singing, humming, whistling, chanting, spoken words, rap, vocal chops, rain, thunder, café chatter, cups, birds, clock ticking, city ambience, field recordings, dog sounds, barking, piano lead, saxophone, vibraphone, synth lead, electric guitar lead, trumpet lead, ukulele lead, mandolin, pan flute"
+  },
+  {
+   "tag": "F",
+   "name": "アルトリコーダー（息の少ない柔らかい音）",
+   "key": "B-flat major",
+   "bpm": 74,
+   "style": "A soft wooden alto recorder in the foreground, breathy and gentle, playing a simple, slow, homely melody with long smooth notes, close and intimate, never shrill, never a school recorder sound, never medieval. B-flat major, 74 BPM. Instrumental café jazz lo-fi for a quiet little neighborhood café on a rainy late-autumn afternoon that slowly turns into evening. Soft brushed drums with a gentle, relaxed swing, a warm walking upright bass and soft jazzy chords underneath, gentle tape warmth. Cozy, warm and unhurried, never sleepy, never dramatic. A long, continuous piece that keeps the same easy groove all the way through, with no breakdowns and no dramatic build. It continues in this same way for many minutes. About four minutes, gentle natural ending. No vocals, no humming, no whistling. No rain, no thunder, no café chatter, no cups, no birds, no clock ticking, no field recordings. No dog sounds, no barking.",
+   "exclude": "vocals, singing, humming, whistling, chanting, spoken words, rap, vocal chops, rain, thunder, café chatter, cups, birds, clock ticking, city ambience, field recordings, dog sounds, barking, piano lead, saxophone, vibraphone, synth lead, electric guitar lead, trumpet lead, flute lead, clarinet, ocarina"
+  }
+ ]
+}
