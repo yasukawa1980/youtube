@@ -1,0 +1,456 @@
+{
+  "method": "Welch PSD summed over stereo channels; original WAV energy ratios; 30s interior low-energy candidate with RMS p90-p10 <=6dB and all 250ms bins above -45dBFS. Listening pending.",
+  "limitation": "Automatic screening; direct listening and final user selection pending.",
+  "files": {
+    "QO_THEME_A01": {
+      "file": "/Users/ryo/Desktop/新チャンネル/_共通/BGM/20261029_Suno/QO_THEME_A01.wav",
+      "sha256": "10629a3fd34a4a2c5f0d7ac626b4fffb6035db9bd6f7ff39bd08186d1abacc90",
+      "duration_seconds": 179.8,
+      "lufs": -16.53,
+      "true_peak_dbtp": -3.77,
+      "energy_fractions": {
+        "below_200": 0.3628,
+        "200_to_2000": 0.632864,
+        "above_2000": 0.004336,
+        "500_to_4000": 0.199179,
+        "2000_to_4000": 0.004148
+      },
+      "quiet_window_candidate": {
+        "start": 10.0,
+        "end": 40.0,
+        "rms_dbfs": -21.06563813149154,
+        "p90_minus_p10_db": 5.5090484619140625
+      },
+      "loop_candidate": {
+        "start": 10.0,
+        "end": 40.0,
+        "crossfade_seconds": 3,
+        "status": "numerical candidate; listening approval pending"
+      },
+      "direct_listening": "not_performed"
+    },
+    "QO_THEME_A02": {
+      "file": "/Users/ryo/Desktop/新チャンネル/_共通/BGM/20261029_Suno/QO_THEME_A02.wav",
+      "sha256": "5b52d6aa9eacb441ae4e28a62dcede30c542161c7a2a585e49f62977685dc31d",
+      "duration_seconds": 179.92,
+      "lufs": -15.11,
+      "true_peak_dbtp": -3.15,
+      "energy_fractions": {
+        "below_200": 0.382382,
+        "200_to_2000": 0.610588,
+        "above_2000": 0.007031,
+        "500_to_4000": 0.291187,
+        "2000_to_4000": 0.006636
+      },
+      "quiet_window_candidate": {
+        "start": 15.5,
+        "end": 45.5,
+        "rms_dbfs": -19.338869112730535,
+        "p90_minus_p10_db": 5.940208435058594
+      },
+      "loop_candidate": {
+        "start": 15.5,
+        "end": 45.5,
+        "crossfade_seconds": 3,
+        "status": "numerical candidate; listening approval pending"
+      },
+      "direct_listening": "not_performed"
+    },
+    "QO_AMERICA01": {
+      "file": "/Users/ryo/Desktop/新チャンネル/_共通/BGM/20261029_Suno/QO_AMERICA01.wav",
+      "sha256": "7e1dca4a6f0cd7216cb04229cb492a2a56d6665411e35b43171ca98baa1cedad",
+      "duration_seconds": 178.6,
+      "lufs": -17.03,
+      "true_peak_dbtp": -4.08,
+      "energy_fractions": {
+        "below_200": 0.28269,
+        "200_to_2000": 0.70016,
+        "above_2000": 0.017149,
+        "500_to_4000": 0.379616,
+        "2000_to_4000": 0.016407
+      },
+      "quiet_window_candidate": {
+        "start": 95.75,
+        "end": 125.75,
+        "rms_dbfs": -20.017026317534725,
+        "p90_minus_p10_db": 2.8450393676757812
+      },
+      "loop_candidate": {
+        "start": 95.75,
+        "end": 125.75,
+        "crossfade_seconds": 3,
+        "status": "numerical candidate; listening approval pending"
+      },
+      "direct_listening": "not_performed"
+    },
+    "QO_AMERICA02": {
+      "file": "/Users/ryo/Desktop/新チャンネル/_共通/BGM/20261029_Suno/QO_AMERICA02.wav",
+      "sha256": "ada1b66013e784f4f99067bc8f8af13593de01d4f9c2f9ae37d8e63a1dd03387",
+      "duration_seconds": 179.48,
+      "lufs": -16.9,
+      "true_peak_dbtp": -3.97,
+      "energy_fractions": {
+        "below_200": 0.223078,
+        "200_to_2000": 0.766531,
+        "above_2000": 0.01039,
+        "500_to_4000": 0.318888,
+        "2000_to_4000": 0.010118
+      },
+      "quiet_window_candidate": {
+        "start": 137.25,
+        "end": 167.25,
+        "rms_dbfs": -20.130311327994363,
+        "p90_minus_p10_db": 5.965147018432617
+      },
+      "loop_candidate": {
+        "start": 137.25,
+        "end": 167.25,
+        "crossfade_seconds": 3,
+        "status": "numerical candidate; listening approval pending"
+      },
+      "direct_listening": "not_performed"
+    },
+    "QO_THEME_B01": {
+      "file": "/Users/ryo/Desktop/新チャンネル/_共通/BGM/20261029_Suno/QO_THEME_B01.wav",
+      "sha256": "a1c7a4c8c20b7e0befcf871c69cd42d7df3cd9505980aef9e33fb7a40fe39487",
+      "duration_seconds": 180.0,
+      "lufs": -16.54,
+      "true_peak_dbtp": -3.73,
+      "energy_fractions": {
+        "below_200": 0.224342,
+        "200_to_2000": 0.770785,
+        "above_2000": 0.004874,
+        "500_to_4000": 0.322785,
+        "2000_to_4000": 0.004718
+      },
+      "quiet_window_candidate": {
+        "start": 24.75,
+        "end": 54.75,
+        "rms_dbfs": -18.971430333501228,
+        "p90_minus_p10_db": 5.215791702270508
+      },
+      "loop_candidate": {
+        "start": 24.75,
+        "end": 54.75,
+        "crossfade_seconds": 3,
+        "status": "numerical candidate; listening approval pending"
+      },
+      "direct_listening": "not_performed"
+    },
+    "QO_THEME_B02": {
+      "file": "/Users/ryo/Desktop/新チャンネル/_共通/BGM/20261029_Suno/QO_THEME_B02.wav",
+      "sha256": "c8ebb5d658e31a7e52c15fd8fe37f00e8b478723d7de2ac503df6c1c3beb44ca",
+      "duration_seconds": 182.32,
+      "lufs": -16.8,
+      "true_peak_dbtp": -3.63,
+      "energy_fractions": {
+        "below_200": 0.276378,
+        "200_to_2000": 0.71819,
+        "above_2000": 0.005432,
+        "500_to_4000": 0.364955,
+        "2000_to_4000": 0.005263
+      },
+      "quiet_window_candidate": {
+        "start": 65.75,
+        "end": 95.75,
+        "rms_dbfs": -19.049990577698658,
+        "p90_minus_p10_db": 4.494163513183594
+      },
+      "loop_candidate": {
+        "start": 65.75,
+        "end": 95.75,
+        "crossfade_seconds": 3,
+        "status": "numerical candidate; listening approval pending"
+      },
+      "direct_listening": "not_performed"
+    }
+  },
+  "demos": {
+    "QO_THEME_A01": {
+      "wav": "/Users/ryo/Desktop/新チャンネル/_共通/BGM/20261029_Suno/試聴版_v01/QO_THEME_A01_EP006_demo.wav",
+      "mp3": "/Users/ryo/Desktop/新チャンネル/_共通/BGM/20261029_Suno/試聴版_v01/QO_THEME_A01_EP006_demo.mp3",
+      "duration_seconds": 64.53333333333333,
+      "voice_active_dbfs": -27.27954762464895,
+      "music_during_voice_dbfs": -45.12413256457401,
+      "music_between_voice_dbfs": -39.28268055761652,
+      "relative_voice_db": -17.844584939925063,
+      "gap_boost_db": 6,
+      "opening_original_preserved": [
+        40.29997916666667,
+        44.3
+      ],
+      "music_eq": "highpass100Hz + octave-wide -3.5dB EQ centered2828Hz",
+      "wav_loudness": {
+        "input_i": "-16.09",
+        "input_tp": "-1.50",
+        "input_lra": "3.70",
+        "input_thresh": "-26.83",
+        "output_i": "-16.01",
+        "output_tp": "-1.50",
+        "output_lra": "3.10",
+        "output_thresh": "-26.73",
+        "normalization_type": "dynamic",
+        "target_offset": "0.01"
+      },
+      "mp3_loudness": {
+        "input_i": "-16.37",
+        "input_tp": "-1.74",
+        "input_lra": "3.70",
+        "input_thresh": "-27.09",
+        "output_i": "-16.02",
+        "output_tp": "-1.50",
+        "output_lra": "3.10",
+        "output_thresh": "-26.74",
+        "normalization_type": "dynamic",
+        "target_offset": "0.02"
+      },
+      "wav_sha256": "00c9fd418886cb5999764cc5bad357958694b865e676d54dae71b25bf3d1b10a",
+      "mp3_sha256": "cd9340513c1c80427b34655bdd784b73d38775493bd8a3f74e096dbb99ff083b"
+    },
+    "QO_THEME_A02": {
+      "wav": "/Users/ryo/Desktop/新チャンネル/_共通/BGM/20261029_Suno/試聴版_v01/QO_THEME_A02_EP006_demo.wav",
+      "mp3": "/Users/ryo/Desktop/新チャンネル/_共通/BGM/20261029_Suno/試聴版_v01/QO_THEME_A02_EP006_demo.mp3",
+      "duration_seconds": 64.53333333333333,
+      "voice_active_dbfs": -27.27954762464895,
+      "music_during_voice_dbfs": -45.14508353788435,
+      "music_between_voice_dbfs": -41.12901550038497,
+      "relative_voice_db": -17.865535913235398,
+      "gap_boost_db": 6,
+      "opening_original_preserved": [
+        40.29997916666667,
+        44.3
+      ],
+      "music_eq": "highpass100Hz + octave-wide -3.5dB EQ centered2828Hz",
+      "wav_loudness": {
+        "input_i": "-16.10",
+        "input_tp": "-1.50",
+        "input_lra": "3.40",
+        "input_thresh": "-26.85",
+        "output_i": "-16.08",
+        "output_tp": "-1.50",
+        "output_lra": "3.20",
+        "output_thresh": "-26.79",
+        "normalization_type": "dynamic",
+        "target_offset": "0.08"
+      },
+      "mp3_loudness": {
+        "input_i": "-16.36",
+        "input_tp": "-1.70",
+        "input_lra": "3.40",
+        "input_thresh": "-27.11",
+        "output_i": "-16.08",
+        "output_tp": "-1.50",
+        "output_lra": "3.10",
+        "output_thresh": "-26.80",
+        "normalization_type": "dynamic",
+        "target_offset": "0.08"
+      },
+      "wav_sha256": "21b34bf06e313374bef613e12511892e07ba05d85b29bcf5089c119b8c82933a",
+      "mp3_sha256": "231c4ef3bb6856db2738fc24947a5166d061fbe5e1cd0d141845b394dd51b7b5"
+    },
+    "QO_AMERICA01": {
+      "wav": "/Users/ryo/Desktop/新チャンネル/_共通/BGM/20261029_Suno/試聴版_v01/QO_AMERICA01_EP006_demo.wav",
+      "mp3": "/Users/ryo/Desktop/新チャンネル/_共通/BGM/20261029_Suno/試聴版_v01/QO_AMERICA01_EP006_demo.mp3",
+      "duration_seconds": 64.53333333333333,
+      "voice_active_dbfs": -27.27954762464895,
+      "music_during_voice_dbfs": -45.135145001083934,
+      "music_between_voice_dbfs": -40.70360642011907,
+      "relative_voice_db": -17.855597376434986,
+      "gap_boost_db": 6,
+      "opening_original_preserved": [
+        40.29997916666667,
+        44.3
+      ],
+      "music_eq": "highpass100Hz + octave-wide -3.5dB EQ centered2828Hz",
+      "wav_loudness": {
+        "input_i": "-16.07",
+        "input_tp": "-1.50",
+        "input_lra": "2.90",
+        "input_thresh": "-26.88",
+        "output_i": "-15.97",
+        "output_tp": "-1.50",
+        "output_lra": "2.90",
+        "output_thresh": "-26.68",
+        "normalization_type": "dynamic",
+        "target_offset": "-0.03"
+      },
+      "mp3_loudness": {
+        "input_i": "-16.33",
+        "input_tp": "-1.68",
+        "input_lra": "2.90",
+        "input_thresh": "-27.14",
+        "output_i": "-15.97",
+        "output_tp": "-1.50",
+        "output_lra": "2.80",
+        "output_thresh": "-26.68",
+        "normalization_type": "dynamic",
+        "target_offset": "-0.03"
+      },
+      "wav_sha256": "6f4a3e87174c829ebe6b366b816655db01041b3f988f9f1f12fa882cfbff0823",
+      "mp3_sha256": "18e87b645aca09effa79ab5c4c948c69d1dc075936e5760bde744b118d0950db"
+    },
+    "QO_AMERICA02": {
+      "wav": "/Users/ryo/Desktop/新チャンネル/_共通/BGM/20261029_Suno/試聴版_v01/QO_AMERICA02_EP006_demo.wav",
+      "mp3": "/Users/ryo/Desktop/新チャンネル/_共通/BGM/20261029_Suno/試聴版_v01/QO_AMERICA02_EP006_demo.mp3",
+      "duration_seconds": 64.53333333333333,
+      "voice_active_dbfs": -27.27954762464895,
+      "music_during_voice_dbfs": -45.135514410462335,
+      "music_between_voice_dbfs": -40.22792283238792,
+      "relative_voice_db": -17.855966785813386,
+      "gap_boost_db": 6,
+      "opening_original_preserved": [
+        40.29997916666667,
+        44.3
+      ],
+      "music_eq": "highpass100Hz + octave-wide -3.5dB EQ centered2828Hz",
+      "wav_loudness": {
+        "input_i": "-16.10",
+        "input_tp": "-1.50",
+        "input_lra": "3.50",
+        "input_thresh": "-26.87",
+        "output_i": "-16.04",
+        "output_tp": "-1.50",
+        "output_lra": "2.90",
+        "output_thresh": "-26.79",
+        "normalization_type": "dynamic",
+        "target_offset": "0.04"
+      },
+      "mp3_loudness": {
+        "input_i": "-16.36",
+        "input_tp": "-1.70",
+        "input_lra": "3.40",
+        "input_thresh": "-27.14",
+        "output_i": "-16.04",
+        "output_tp": "-1.50",
+        "output_lra": "2.90",
+        "output_thresh": "-26.79",
+        "normalization_type": "dynamic",
+        "target_offset": "0.04"
+      },
+      "wav_sha256": "3258f3ffc5dfd5f38a18524e2506b435bb42e0e79c1af1e58f1bafc23cd9e6c3",
+      "mp3_sha256": "aaa8325d30eda104ceea29b03dc372b07409a7f592f80b9bdc975673691a438a"
+    },
+    "QO_THEME_B01": {
+      "wav": "/Users/ryo/Desktop/新チャンネル/_共通/BGM/20261029_Suno/試聴版_v01/QO_THEME_B01_EP006_demo.wav",
+      "mp3": "/Users/ryo/Desktop/新チャンネル/_共通/BGM/20261029_Suno/試聴版_v01/QO_THEME_B01_EP006_demo.mp3",
+      "duration_seconds": 64.53333333333333,
+      "voice_active_dbfs": -27.27954762464895,
+      "music_during_voice_dbfs": -45.13146019555986,
+      "music_between_voice_dbfs": -41.21030888736051,
+      "relative_voice_db": -17.851912570910912,
+      "gap_boost_db": 6,
+      "opening_original_preserved": [
+        40.29997916666667,
+        44.3
+      ],
+      "music_eq": "highpass100Hz + octave-wide -3.5dB EQ centered2828Hz",
+      "wav_loudness": {
+        "input_i": "-16.08",
+        "input_tp": "-1.50",
+        "input_lra": "3.30",
+        "input_thresh": "-26.95",
+        "output_i": "-16.01",
+        "output_tp": "-1.50",
+        "output_lra": "3.10",
+        "output_thresh": "-26.81",
+        "normalization_type": "dynamic",
+        "target_offset": "0.01"
+      },
+      "mp3_loudness": {
+        "input_i": "-16.35",
+        "input_tp": "-1.71",
+        "input_lra": "3.30",
+        "input_thresh": "-27.22",
+        "output_i": "-16.02",
+        "output_tp": "-1.50",
+        "output_lra": "3.10",
+        "output_thresh": "-26.81",
+        "normalization_type": "dynamic",
+        "target_offset": "0.02"
+      },
+      "wav_sha256": "268a3da6104cbc54813fb8cb0aeb7f2a066f186b9dd265045a924b967fd06bb3",
+      "mp3_sha256": "1640c1af31951ff36022c4edf8e3530eefb286f421810491ee1f5c2ce8129463"
+    },
+    "QO_THEME_B02": {
+      "wav": "/Users/ryo/Desktop/新チャンネル/_共通/BGM/20261029_Suno/試聴版_v01/QO_THEME_B02_EP006_demo.wav",
+      "mp3": "/Users/ryo/Desktop/新チャンネル/_共通/BGM/20261029_Suno/試聴版_v01/QO_THEME_B02_EP006_demo.mp3",
+      "duration_seconds": 64.53333333333333,
+      "voice_active_dbfs": -27.27954762464895,
+      "music_during_voice_dbfs": -45.12715506122327,
+      "music_between_voice_dbfs": -40.08769169732571,
+      "relative_voice_db": -17.84760743657432,
+      "gap_boost_db": 6,
+      "opening_original_preserved": [
+        40.29997916666667,
+        44.3
+      ],
+      "music_eq": "highpass100Hz + octave-wide -3.5dB EQ centered2828Hz",
+      "wav_loudness": {
+        "input_i": "-16.06",
+        "input_tp": "-1.50",
+        "input_lra": "3.10",
+        "input_thresh": "-26.83",
+        "output_i": "-15.92",
+        "output_tp": "-1.50",
+        "output_lra": "2.80",
+        "output_thresh": "-26.63",
+        "normalization_type": "dynamic",
+        "target_offset": "-0.08"
+      },
+      "mp3_loudness": {
+        "input_i": "-16.34",
+        "input_tp": "-1.72",
+        "input_lra": "3.10",
+        "input_thresh": "-27.10",
+        "output_i": "-15.92",
+        "output_tp": "-1.50",
+        "output_lra": "2.80",
+        "output_thresh": "-26.63",
+        "normalization_type": "dynamic",
+        "target_offset": "-0.08"
+      },
+      "wav_sha256": "f7965a849b2e2ae1ac062eea9ced8274a26f2f81c1607a9a6ed8dfdce2bf816e",
+      "mp3_sha256": "5e5252484890c9b5959d16a2a10f6d612a97505976084f9f6878b9e189561317"
+    }
+  },
+  "baseline": {
+    "wav": "/Users/ryo/Desktop/新チャンネル/_共通/BGM/20261029_Suno/試聴版_v01/QO_BASELINE_OLD_EP006_demo.wav",
+    "mp3": "/Users/ryo/Desktop/新チャンネル/_共通/BGM/20261029_Suno/試聴版_v01/QO_BASELINE_OLD_EP006_demo.mp3",
+    "wav_loudness": {
+      "input_i": "-16.00",
+      "input_tp": "-3.41",
+      "input_lra": "3.60",
+      "input_thresh": "-26.88",
+      "output_i": "-15.77",
+      "output_tp": "-2.18",
+      "output_lra": "3.60",
+      "output_thresh": "-26.53",
+      "normalization_type": "dynamic",
+      "target_offset": "-0.23"
+    },
+    "mp3_loudness": {
+      "input_i": "-16.26",
+      "input_tp": "-3.68",
+      "input_lra": "3.60",
+      "input_thresh": "-27.14",
+      "output_i": "-15.77",
+      "output_tp": "-2.21",
+      "output_lra": "3.60",
+      "output_thresh": "-26.53",
+      "normalization_type": "dynamic",
+      "target_offset": "-0.23"
+    },
+    "sha256": "83934bfd96adca28a1ef40d302f6fdc06786539bfee5a2549e687f7294db5dbf"
+  },
+  "baseline_music_energy": {
+    "below_200": 0.547074,
+    "200_to_2000": 0.452926,
+    "above_2000": 0.0,
+    "500_to_4000": 0.000122,
+    "2000_to_4000": 0.0
+  },
+  "visual_review": {
+    "waveforms_and_welch_spectra": "6曲を同時表示して確認。大きな無音区間や矩形状のクリッピングは見られず、中域までエネルギーあり。BはA・Americaより音量の起伏あり。人声の有無は波形だけでは判定しない。",
+    "review_date_jst": "2026-10-29"
+  }
+}

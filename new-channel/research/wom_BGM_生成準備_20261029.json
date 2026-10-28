@@ -1,0 +1,228 @@
+{
+  "status": "awaiting_user_listening_and_selection",
+  "source_commit": "a4247e1e0c0f86a6dc04b22c014023971c713d54",
+  "source_request": "new-channel/wom_BGM制作依頼_Suno_20261028.md",
+  "credit_cap": 100,
+  "credits_spent_this_task": 30,
+  "current_balance": 8750,
+  "paid_plan_verified": true,
+  "additional_purchase_allowed": false,
+  "tracks": [
+    {
+      "id": "QO_THEME_A",
+      "name": "共通テーマA",
+      "style": "slow cinematic orchestral, majestic and solemn, warm low strings, soft French horns, distant timpani, documentary, no vocals, instrumental, 64 BPM",
+      "exclude_styles": "vocals, choir with lyrics, rap, EDM, heavy drums, drum kit, electric guitar, synth lead",
+      "instrumental": true,
+      "minimum_duration_seconds": 120,
+      "candidate_count_target": "2–4 within total credit cap",
+      "status": "generated",
+      "songs": [
+        {
+          "id": "9c9cc536-41d5-414a-9b36-af4b370ad859",
+          "url": "https://suno.com/song/9c9cc536-41d5-414a-9b36-af4b370ad859",
+          "candidate": "QO_THEME_A01"
+        },
+        {
+          "id": "8028b5ed-117e-40c1-a152-78d05ba37989",
+          "url": "https://suno.com/song/8028b5ed-117e-40c1-a152-78d05ba37989",
+          "candidate": "QO_THEME_A02"
+        }
+      ]
+    },
+    {
+      "id": "QO_THEME_B",
+      "name": "共通テーマB",
+      "style": "slow orchestral, dignified and reflective, piano and string ensemble, gentle brass swells, no vocals, instrumental, 60 BPM",
+      "exclude_styles": "vocals, choir with lyrics, rap, EDM, heavy drums, drum kit, electric guitar, synth lead",
+      "instrumental": true,
+      "minimum_duration_seconds": 120,
+      "candidate_count_target": "2–4 within total credit cap",
+      "status": "generated",
+      "songs": [
+        {
+          "id": "144845cb-0f86-4b9e-b325-042cc4df2184",
+          "url": "https://suno.com/song/144845cb-0f86-4b9e-b325-042cc4df2184",
+          "candidate": "QO_THEME_B01"
+        },
+        {
+          "id": "768f0006-53df-4155-8403-47b3b2d54839",
+          "url": "https://suno.com/song/768f0006-53df-4155-8403-47b3b2d54839",
+          "candidate": "QO_THEME_B02"
+        }
+      ]
+    },
+    {
+      "id": "QO_AMERICA",
+      "name": "行事・アメリカ",
+      "style": "warm solemn orchestral, early American hymn-like strings, soft horn, autumn, hopeful but serious, no vocals, instrumental, 66 BPM",
+      "exclude_styles": "vocals, choir with lyrics, rap, EDM, heavy drums, drum kit, electric guitar, synth lead",
+      "instrumental": true,
+      "minimum_duration_seconds": 120,
+      "candidate_count_target": "2–4 within total credit cap",
+      "status": "generated",
+      "songs": [
+        {
+          "id": "9b84783f-994f-4654-afc9-90e639729058",
+          "url": "https://suno.com/song/9b84783f-994f-4654-afc9-90e639729058",
+          "candidate": "QO_AMERICA01"
+        },
+        {
+          "id": "753efd0d-68e7-4ba6-b797-e49f536095a3",
+          "url": "https://suno.com/song/753efd0d-68e7-4ba6-b797-e49f536095a3",
+          "candidate": "QO_AMERICA02"
+        }
+      ]
+    }
+  ],
+  "america_constraint": "先住民の音楽をまねた太鼓・笛などの決まり文句を避ける。実際の音源で確認する。",
+  "original_root": "/Users/ryo/Desktop/新チャンネル/_共通/BGM/",
+  "screening": {
+    "script": "bgm/bgmkit/music_qc.py",
+    "model": "/Users/ryo/youtube/bgm/.models/ast-audioset",
+    "additional_metrics": [
+      "500Hz–4kHz energy share >=10%目安",
+      "<200Hz / 200Hz–2kHz / >=2kHz",
+      "30秒以上の落ち着いた区間",
+      "LUFS / dBTP / SHA-256"
+    ]
+  },
+  "demo": {
+    "duration_seconds_target": 60,
+    "narration": "/Users/ryo/Desktop/新チャンネル/EP006_Sphinx/確認版_v01_20261026/audio/en/narration.wav",
+    "old_bgm": "/Users/ryo/Desktop/新チャンネル/EP006_Sphinx/確認版_v01_20261026/audio/common_bgm_and_brand.wav",
+    "old_finished_mix": "/Users/ryo/Desktop/新チャンネル/EP006_Sphinx/確認版_v02_20261027/deliverables/EP006_audio_en.wav",
+    "music_relative_to_narration_db": -18,
+    "music_between_speech_boost_db": 6,
+    "highpass_hz": 100,
+    "presence_cut_hz": [
+      2000,
+      4000
+    ],
+    "presence_cut_db": -3.5,
+    "target_lufs": -16,
+    "max_true_peak_dbtp": -1
+  },
+  "resume": "6候補の検品と試聴版は完成。本人が共通テーマと行事・アメリカを選んだ後、EP007の制作依頼に沿って本編制作へ進む。Suno追加生成・Kling生成・本編合成・YouTube投稿はしていない。",
+  "input_checks": {
+    "narration": {
+      "exists": true,
+      "bytes": 17528044,
+      "sha256": "83ac4512cb99f77ca906ed18c51455c745355b0ab11588ead00f4e96c91fefb8"
+    },
+    "old_bgm": {
+      "exists": true,
+      "bytes": 70112088,
+      "sha256": "5d09acfd12e01933b02a8a6180fd600a4e6b82cb435ca3652a308caaaa475c78"
+    },
+    "old_finished_mix": {
+      "exists": true,
+      "bytes": 105168102,
+      "sha256": "9c2f75cc1750efed79027de075e97087b179b8ee06845ead1e8f972f780c82f3"
+    },
+    "en": {
+      "segments": 15,
+      "sha256": "e0933996742c3b1606c9f9d7908afcc5199f357de157880178af0845b547e565"
+    },
+    "ja": {
+      "segments": 15,
+      "sha256": "f1161e56852b3882bc3447dac90baf7fbf90525777f5d6f2e42e32aba58cd5d6"
+    },
+    "source_assets": [
+      {
+        "id": "G08-01",
+        "exists": true,
+        "sha256_match": true,
+        "note": ""
+      },
+      {
+        "id": "G01-01",
+        "exists": true,
+        "sha256_match": true,
+        "note": ""
+      },
+      {
+        "id": "G02-02",
+        "exists": true,
+        "sha256_match": true,
+        "note": ""
+      },
+      {
+        "id": "G02-01",
+        "exists": true,
+        "sha256_match": true,
+        "note": ""
+      },
+      {
+        "id": "G09-01",
+        "exists": true,
+        "sha256_match": true,
+        "note": ""
+      },
+      {
+        "id": "G14-01",
+        "exists": true,
+        "sha256_match": true,
+        "note": ""
+      },
+      {
+        "id": "G14-02",
+        "exists": true,
+        "sha256_match": true,
+        "note": ""
+      },
+      {
+        "id": "G14-04",
+        "exists": true,
+        "sha256_match": true,
+        "note": ""
+      },
+      {
+        "id": "G11-02",
+        "exists": true,
+        "sha256_match": true,
+        "note": ""
+      },
+      {
+        "id": "G04-01",
+        "exists": true,
+        "sha256_match": true,
+        "note": "YoungはPD明記を再確認できなければ指定のD_youngへ。Ferrisは本人の使用承認を優先。"
+      },
+      {
+        "id": "G08-02",
+        "exists": true,
+        "sha256_match": true,
+        "note": ""
+      },
+      {
+        "id": "G06-01",
+        "exists": true,
+        "sha256_match": true,
+        "note": ""
+      },
+      {
+        "id": "G07-01",
+        "exists": true,
+        "sha256_match": true,
+        "note": "YoungはPD明記を再確認できなければ指定のD_youngへ。Ferrisは本人の使用承認を優先。"
+      }
+    ]
+  },
+  "initial_balance": 8780,
+  "paid_plan": "Premier annual; next billing 2027-09-20",
+  "initial_downloads": 8,
+  "credit_note": "Sunoアカウント表示で8780→8770→8750を確認。差分30、生成3回・6曲。ダウンロード8→2。",
+  "model": "Suno v6",
+  "duration_setting": "Custom 3:00",
+  "max_mode": false,
+  "personalization": false,
+  "weirdness": 50,
+  "style_influence": 50,
+  "variation": "standard",
+  "remaining_downloads": 2,
+  "generation_date_jst": "2026-10-29",
+  "rights_source": "https://suno.com/terms",
+  "rights_note": "2026-10-29閲覧。Premier加入中の新規生成6曲をSuno公式DownloadでアンロックしてWAV保存。規約のpermitted Downloadに沿う。リミックス・カバー・アップロード音源なし。",
+  "secondary_themes": "保留。残り2ダウンロード枠では優先2の3テーマを各2候補検品できないため、第7話向け優先1の本人試聴を先行する。"
+}
