@@ -44,9 +44,29 @@
     ]
   },
   "target_channel_id": "UCfLJOojEY9VB3rvrjICk90Q",
-  "observed_studio_channel": "Whispers of Japan",
-  "observed_channel_id": "UCx4mLEohO3XCVxZajUynLzw",
-  "upload_count": 0,
-  "status": "waiting_for_user_channel_switch",
-  "schedule_counts_checked": false
+  "observed_studio_channel": "Quiet Origins",
+  "observed_channel_id": "UCfLJOojEY9VB3rvrjICk90Q",
+  "upload_count": 3,
+  "status": "scheduled_related_video_pending",
+  "schedule_counts_checked": true,
+  "initial_channel_mismatch": {
+    "channel": "Whispers of Japan",
+    "channel_id": "UCx4mLEohO3XCVxZajUynLzw",
+    "resolved_by": "user switched channel and confirmed"
+  },
+  "completed_at_jst": "2026-10-28T13:49:26+09:00",
+  "schedule_counts": {
+    "2026-10-31": {
+      "long": 0,
+      "shorts": 2,
+      "total": 2,
+      "existing_short": "S66NV_CTVZY 12:00 JST"
+    },
+    "2026-11-01": {
+      "long": 0,
+      "shorts": 2,
+      "total": 2
+    }
+  },
+  "related_video_automation_id": "3"
 }
