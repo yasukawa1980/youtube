@@ -193,7 +193,14 @@ def door():
     """扉ムービーを入れる（映像）→ 音は IRO22 と同じ式で aac_at に作り直して差し替える（天井0.63・本編部分を測ってから GAIN を決める）。"""
     spec = importlib.util.spec_from_file_location('door', ROOT.parent / 'bgm/IRO/irokit/扉ムービーを入れる.py'); d = importlib.util.module_from_spec(spec); spec.loader.exec_module(d)
     tmp = SSD / 'iro23_扉入り_仮.mp4'
-    if not tmp.exists(): d.main(str(MAIN0), str(tmp))
+    if not tmp.exists():
+        # 映像のつなぎ方は 扉ムービーを入れる.py の main と同じ。圧縮だけ libx264 crf16（共通の videotoolbox q85 は静止画中心でも約9.5Mbps になる）
+        m = d.dur(d.MOVIE); hold = d.XF + d.BREATH
+        fc = (f'[0:v]fps=24,format=yuv420p,setpts=PTS-STARTPTS[a];'
+              f'[1:v]fps=24,format=yuv420p,setpts=PTS-STARTPTS,tpad=start_duration={hold}:start_mode=clone[b];'
+              f'[a][b]xfade=transition=fade:duration={d.XF}:offset={m - d.XF:.3f}[v]')
+        run(['-i', d.MOVIE, '-ss', d.SKIP, '-i', MAIN0, '-filter_complex', fc, '-map', '[v]', '-an',
+             '-c:v', 'libx264', '-crf', 16, '-preset', 'medium', '-g', 240, '-pix_fmt', 'yuv420p', '-profile:v', 'high', '-r', 24, '-movflags', '+faststart', tmp])
     M = d.dur(d.MOVIE); au = SSD / '配信用音声.m4a'
     gain = float(sys.argv[2]) if len(sys.argv) > 2 else 0.0
     fc = (f'[0:a]volume={d.GAIN}dB,aformat=sample_rates=48000:channel_layouts=stereo,apad=whole_dur={M + d.BREATH:.6f}[ma];'
