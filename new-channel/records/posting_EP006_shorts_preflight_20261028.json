@@ -47,7 +47,7 @@
   "observed_studio_channel": "Quiet Origins",
   "observed_channel_id": "UCfLJOojEY9VB3rvrjICk90Q",
   "upload_count": 3,
-  "status": "scheduled_related_video_pending",
+  "status": "scheduled_and_related_video_complete",
   "schedule_counts_checked": true,
   "initial_channel_mismatch": {
     "channel": "Whispers of Japan",
@@ -68,5 +68,7 @@
       "total": 2
     }
   },
-  "related_video_automation_id": "3"
+  "related_video_automation_id": "3",
+  "related_video_completed_at": "2026-10-29T09:14:06+09:00",
+  "related_video_automation_status": "completed_and_deleted"
 }
