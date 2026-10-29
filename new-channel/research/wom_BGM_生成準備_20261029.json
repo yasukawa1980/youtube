@@ -1,5 +1,5 @@
 {
-  "status": "awaiting_user_listening_and_selection",
+  "status": "selected_by_user",
   "source_commit": "a4247e1e0c0f86a6dc04b22c014023971c713d54",
   "source_request": "new-channel/wom_BGM制作依頼_Suno_20261028.md",
   "credit_cap": 100,
@@ -224,5 +224,16 @@
   "generation_date_jst": "2026-10-29",
   "rights_source": "https://suno.com/terms",
   "rights_note": "2026-10-29閲覧。Premier加入中の新規生成6曲をSuno公式DownloadでアンロックしてWAV保存。規約のpermitted Downloadに沿う。リミックス・カバー・アップロード音源なし。",
-  "secondary_themes": "保留。残り2ダウンロード枠では優先2の3テーマを各2候補検品できないため、第7話向け優先1の本人試聴を先行する。"
+  "secondary_themes": "保留。残り2ダウンロード枠では優先2の3テーマを各2候補検品できないため、第7話向け優先1の本人試聴を先行する。",
+  "selection": {
+    "date": "2026-10-29",
+    "user_statement": "共通A2、アメリカ１でお願いします",
+    "selected": {
+      "common": "QO_THEME_A02",
+      "america": "QO_AMERICA01"
+    },
+    "episode": "EP007",
+    "intended_use": "A2を土台、C02〜C04の一部でアメリカ1、2秒以上のクロスフェード",
+    "first_full_episode_listening": "pending"
+  }
 }

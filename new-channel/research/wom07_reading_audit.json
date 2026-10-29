@@ -1,0 +1,155 @@
+{
+  "first_pass_preserved": true,
+  "human_listening": false,
+  "evidence_method": "TTS tokenizer phonemes and VOICEVOX accent moras, not auditory confirmation",
+  "changes": [
+    {
+      "language": "en",
+      "sentence_id": "P01-05",
+      "start": 15.97925,
+      "end": 24.10525,
+      "display": "1621",
+      "spoken": "sixteen twenty-one",
+      "count": 1
+    },
+    {
+      "language": "en",
+      "sentence_id": "P03-01",
+      "start": 55.36666666666667,
+      "end": 64.04733333333334,
+      "display": "1621",
+      "spoken": "sixteen twenty-one",
+      "count": 1
+    },
+    {
+      "language": "en",
+      "sentence_id": "P03-02",
+      "start": 64.34733333333334,
+      "end": 70.09533333333333,
+      "display": "Mourt's",
+      "spoken": "Mourt's",
+      "count": 1,
+      "phonemes": "mˈɔːɹts"
+    },
+    {
+      "language": "en",
+      "sentence_id": "P06-03",
+      "start": 138.96129166666665,
+      "end": 143.62995833333332,
+      "display": "1856",
+      "spoken": "eighteen fifty-six",
+      "count": 1
+    },
+    {
+      "language": "en",
+      "sentence_id": "P07-02",
+      "start": 157.24266666666665,
+      "end": 163.72466666666665,
+      "display": "1623",
+      "spoken": "sixteen twenty-three",
+      "count": 1
+    },
+    {
+      "language": "en",
+      "sentence_id": "P07-05",
+      "start": 169.86529166666665,
+      "end": 175.80258333333333,
+      "display": "1621",
+      "spoken": "sixteen twenty-one",
+      "count": 1
+    },
+    {
+      "language": "en",
+      "sentence_id": "P09-01",
+      "start": 198.0,
+      "end": 212.81333333333333,
+      "display": "1841",
+      "spoken": "eighteen forty-one",
+      "count": 1
+    },
+    {
+      "language": "en",
+      "sentence_id": "P10-01",
+      "start": 222.73333333333332,
+      "end": 230.218,
+      "display": "Josepha",
+      "spoken": "Josepha",
+      "count": 1,
+      "phonemes": "dʒoʊsˈiːfə"
+    },
+    {
+      "language": "en",
+      "sentence_id": "P10-02",
+      "start": 230.51799999999997,
+      "end": 238.81333333333333,
+      "display": "1863",
+      "spoken": "eighteen sixty-three",
+      "count": 1
+    },
+    {
+      "language": "en",
+      "sentence_id": "P12-02",
+      "start": 280.3879583333333,
+      "end": 291.052625,
+      "display": "1970",
+      "spoken": "nineteen seventy",
+      "count": 1
+    },
+    {
+      "language": "en",
+      "sentence_id": "P13-01",
+      "start": 293.56666666666666,
+      "end": 296.29929166666665,
+      "display": "1621",
+      "spoken": "sixteen twenty-one",
+      "count": 1
+    },
+    {
+      "language": "ja",
+      "sentence_id": "P01-05",
+      "start": 19.938666666666666,
+      "end": 27.629333333333335,
+      "display": "数行",
+      "spoken": "すうぎょう",
+      "count": 1
+    },
+    {
+      "language": "ja",
+      "sentence_id": "P01-06",
+      "start": 28.029333333333334,
+      "end": 31.560000000000002,
+      "display": "数行",
+      "spoken": "すうぎょう",
+      "count": 1
+    },
+    {
+      "language": "ja",
+      "sentence_id": "P12-02",
+      "start": 280.5253333333333,
+      "end": 292.664,
+      "display": "（UAINE）",
+      "spoken": "",
+      "count": 1
+    },
+    {
+      "language": "ja",
+      "sentence_id": "P14-02",
+      "start": 318.05333333333334,
+      "end": 321.50933333333336,
+      "display": "数行",
+      "spoken": "すうぎょう",
+      "count": 1
+    }
+  ],
+  "reason": {
+    "数行": "初回の音素がスウコオ→スウギョオへ修正",
+    "（UAINE）": "申し送りの明示指定により音声のみ省略",
+    "Mourt's": "初回mɜːts→mɔːɹts",
+    "Josepha": "初回dʒoʊsfə→dʒoʊsiːfə",
+    "years": "数字読みから指定の英語年号読みへ"
+  },
+  "unchanged_scripts": {
+    "content.json": "f1161e56852b3882bc3447dac90baf7fbf90525777f5d6f2e42e32aba58cd5d6",
+    "content_en.json": "e0933996742c3b1606c9f9d7908afcc5199f357de157880178af0845b547e565"
+  }
+}
