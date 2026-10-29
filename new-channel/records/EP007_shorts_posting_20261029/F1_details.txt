@@ -1,0 +1,286 @@
+- generic: すべての変更を保存しました。
+- banner:
+  - button "メニューを折りたたむ":
+  - link "YouTube Studio ダッシュボード":
+    - /url: /channel/UCfLJOojEY9VB3rvrjICk90Q
+    - img "YouTube Studio ダッシュボード"
+  - button "ナビゲーションをスキップ":
+    - generic: ナビゲーションをスキップ
+  - textbox "チャンネル内で検索"
+  - button "ヘルプ":
+  - button "通知":
+  - button "Ask Studio":
+    - generic: Ask Studio
+  - button "作成":
+    - generic: 作成
+  - generic "アカウント":
+    - button "Account"
+- navigation:
+  - link "チャンネルのコンテンツ":
+    - /url: /channel/UCfLJOojEY9VB3rvrjICk90Q/videos
+    - generic: チャンネルのコンテンツ
+  - 'img "動画のサムネイル: There''s No Turkey in the First Thanksgiving Letter"'
+  - generic: 0:22
+  - generic: 動画
+  - generic: There's No Turkey in the First Thanksgiving Letter
+  - menu:
+    - menuitem "詳細":
+      - generic: 詳細
+    - menuitem "アナリティクス":
+      - generic: アナリティクス
+    - menuitem "エディタ":
+      - generic: エディタ
+    - menuitem "コメント":
+      - generic: コメント
+    - menuitem "言語":
+      - generic: 言語
+    - menuitem "申し立て":
+      - generic: 申し立て
+    - menuitem "クリップとショート動画":
+      - generic: クリップとショート動画
+  - list:
+    - button "設定":
+      - generic: 設定
+    - button "フィードバックを送信":
+      - generic: フィードバックを送信
+- main:
+  - heading "動画の詳細" [level=1]
+  - button "変更を元に戻す" [disabled]:
+    - generic: 変更を元に戻す
+  - button "保存" [disabled]:
+    - generic: 保存
+  - button "オプション":
+  - generic "Video sync state dialog"
+  - text: タイトル（必須）
+  - generic "わかりやすいタイトルは視聴者を引きつけるためのカギです。動画のタイトルを付けるときは、その作品と似た動画を検索するときに入力すると思われるキーワードを含めるようにしましょう。 詳細":
+  - textbox "動画について説明するタイトルを追加（@ を使用して、チャンネルをメンションできます）"
+  - text: 説明
+  - generic "説明にキーワードを含めると、視聴者が検索で動画を見つけやすくなります。説明には動画の概要を記入し、初めのほうにキーワードを含めるようにするとよいでしょう。 詳細":
+  - textbox "視聴者に向けて動画の内容を紹介しましょう（@ を使用して、チャンネルをメンションできます）"
+  - generic: サムネイル
+  - text: 視聴者の目を引くサムネイルにしましょう。
+  - link "サムネイルについての詳細":
+    - /url: https://support.google.com/youtube/answer/72431?hl=ja
+    - text: 詳細
+  - button "自動生成されたサムネイル":
+    - img "自動生成サムネイル 1"
+  - button "その他メニュー":
+  - button "提案を取得":
+    - generic: 提案を取得
+  - generic: 再生リスト
+  - text: 再生リストに動画を追加して、視聴者のためにコンテンツを整理しましょう。
+  - link "再生リストについての詳細":
+    - /url: https://support.google.com/youtube/answer/57792
+    - text: 詳細
+  - generic "再生リストに追加":
+    - button "再生リストを選択":
+      - button "選択":
+        - generic: 選択
+  - generic: 視聴者
+  - text: この動画は子ども向けでない動画として設定されています
+  - generic: 自分で設定
+  - text: 自分の所在地にかかわらず、児童オンライン プライバシー保護法（COPPA）やその他の法令を遵守することが法的に必要です。自分の動画が子ども向けに制作されたものかどうかを申告する必要があります。
+  - link "子ども向けコンテンツの詳細":
+    - /url: https://support.google.com/youtube/answer/9528076?hl=ja
+  - text: パーソナライズド広告や通知などの機能は子ども向けに制作された動画では利用できなくなります。 ご自身で子ども向けと設定した動画は、他の子ども向け動画と一緒におすすめされる可能性が高くなります。
+  - link "動画の対象視聴者の設定の詳細":
+    - /url: https://support.google.com/youtube/answer/9527654?hl=ja
+    - text: 詳細
+  - radiogroup:
+    - radio "はい、子ども向けです . パーソナライズド広告や通知などの機能は子ども向けに制作された動画では利用できなくなります。 ご自身で子ども向けと設定した動画は、他の子ども向け動画と一緒におすすめされる可能性が高くなります。 詳細":
+      - text: はい、子ども向けです
+      - generic: .
+      - text: パーソナライズド広告や通知などの機能は子ども向けに制作された動画では利用できなくなります。 ご自身で子ども向けと設定した動画は、他の子ども向け動画と一緒におすすめされる可能性が高くなります。
+      - link "詳細":
+        - /url: https://support.google.com/youtube/answer/9527654?hl=ja
+    - radio "いいえ、子ども向けではありません" [checked]:
+      - generic: いいえ、子ども向けではありません
+  - button "年齢制限":
+    - heading "年齢制限" [level=3]
+  - text: 年齢制限付きの動画は、YouTube の特定のセクションには表示されません。広告による収益化が制限されるか、まったく行われない場合があります。
+  - link "年齢制限の詳細":
+    - /url: https://support.google.com/youtube/answer/2950063?hl=ja
+    - text: 詳細
+  - radiogroup:
+    - radio "はい、動画を 18 歳以上の視聴者のみに制限します":
+      - generic: はい、動画を 18 歳以上の視聴者のみに制限します
+    - radio "いいえ、動画を 18 歳以上の視聴者のみに制限しません" [checked]:
+      - generic: いいえ、動画を 18 歳以上の視聴者のみに制限しません
+  - generic "詳細設定を非表示":
+    - button "詳細設定を非表示":
+      - generic: 折りたたむ
+  - generic: 有料プロモーション
+  - paragraph:
+    - text: プロダクト プレースメントやスポンサーシップなどの有料プロモーションが動画に含まれている場合は、YouTube に申告していただく必要があります。申告していただくと、視聴者にその旨が通知されます。
+    - link "詳細":
+      - /url: https://support.google.com/youtube/answer/17596007?hl=ja
+  - radiogroup:
+    - radio "はい、この動画には有料プロモーションが含まれています":
+      - generic: はい、この動画には有料プロモーションが含まれています
+    - radio "いいえ、この動画には有料プロモーションは含まれていません":
+      - generic: いいえ、この動画には有料プロモーションは含まれていません
+  - generic: ブランド パートナーシップ
+  - text: 動画とその指標へのアクセス権をブランド パートナーと共有し、動画のプロモーションを許可します。
+  - link "詳細":
+    - /url: https://support.google.com/google-ads/answer/3063482?hl=ja
+  - button "アクセスコードを共有":
+    - generic: アクセスコードを共有
+  - generic: AI の使用
+  - generic: 以下の目的で、コンテンツの生成または編集に AI を使用しましたか？
+  - list:
+    - listitem: 実在の人物が実際には発言または行動していないことを、発言または行動しているように見せている
+    - listitem: 実際の出来事や場所の映像を改変している
+    - listitem: 実際には起きていない場面が現実のように見えるコンテンツを生成している
+    - listitem: 動画の主役となる音楽を作成する
+  - radio "はい、AI を使用しました" [checked]:
+    - generic: はい
+  - radio "いいえ、AI を使用していません":
+    - generic: いいえ
+  - text: YouTube のポリシーに準拠するため、AI の使用について報告していただく必要があります。AI で作成または編集されたリアルなサウンドや映像も対象となります。
+  - link "例を表示":
+    - /url: https://support.google.com/youtube/answer/14328491?hl=ja#examples_as
+  - text: 「はい」を選択すると、コンテンツにラベルが追加されます。
+  - link "詳細":
+    - /url: https://support.google.com/youtube/answer/14328491?hl=ja#after_disclose_ai
+  - generic: コラボレーション
+  - text: 他のクリエイターとコラボレーションして相手の視聴者へリーチを拡大することで、視聴者を増やしましょう。
+  - link "動画コラボレーションの詳細":
+    - /url: https://support.google.com/youtube?p=collaborators&hl=ja
+    - text: 詳細
+  - button "コラボレーターを招待":
+    - generic: コラボレーターを招待
+  - generic: チャプターの自動生成
+  - text: チャプターを追加すると、動画が見やすくなります。自動生成された候補は手動で変更できます。変更するには、動画の説明欄にご自身でチャプターを作成してください。
+  - link "チャプターの自動生成の詳細":
+    - /url: https://support.google.com/youtube/answer/9884579?hl=ja
+    - text: 詳細
+  - checkbox "チャプターの自動生成を許可する" [checked]
+  - generic: チャプターの自動生成を許可する
+  - generic: 注目の場所
+  - text: 動画に登場する主要な場所を、視聴者がチェックしやすくなります。表示されるのは、レストランやお店などの公共の場所です。あなたの現在地や、その他のプライベートな情報は表示されません。
+  - link "場所の自動表示の詳細":
+    - /url: https://support.google.com/youtube/answer/57404?hl=ja
+    - text: 詳細
+  - checkbox "場所の自動表示を許可する" [checked]
+  - generic: 場所の自動表示を許可する
+  - text: コンセプトの自動説明
+  - generic: 試験運用
+  - generic: 視聴者は、動画を終了しなくても、不明な用語について確認することができます。動画の中で言及した概念が、動画の説明欄に自動的に表示されることがあります。
+  - checkbox "コンセプトの自動生成を許可する" [checked]
+  - generic: コンセプトの自動生成を許可する
+  - generic: タグ
+  - text: タグは、自分の動画のコンテンツの検索で入力ミスがよくある場合に便利です。その場合を除けば、視聴者が動画を検索するときにタグが果たす役割はごく小さなものです。
+  - link "タグの詳細":
+    - /url: https://support.google.com/youtube/answer/146402?hl=ja
+    - text: 詳細
+  - textbox "タグ":
+    - /placeholder: タグを追加
+  - text: 各タグの後にはカンマを入力してください。
+  - generic: 0/500
+  - generic: 言語とキャプションの認定
+  - generic: 動画の言語と、必要に応じて字幕の認定を選択します。
+  - button "動画の言語 英語":
+    - button "動画の言語 英語":
+      - generic: 動画の言語
+      - generic: 英語
+  - button "字幕の認定 2012 年 9 月 30 日以降に米国内のテレビで放送されたコンテンツの場合、字幕が必要になることがあります。これは連邦通信委員会により義務付けられているためです。 動画に字幕が必要ない場合は、その理由を選択してください。 詳細 なし":
+    - button "字幕の認定 2012 年 9 月 30 日以降に米国内のテレビで放送されたコンテンツの場合、字幕が必要になることがあります。これは連邦通信委員会により義務付けられているためです。 動画に字幕が必要ない場合は、その理由を選択してください。 詳細 なし":
+      - generic: 字幕の認定
+      - generic "2012 年 9 月 30 日以降に米国内のテレビで放送されたコンテンツの場合、字幕が必要になることがあります。これは連邦通信委員会により義務付けられているためです。 動画に字幕が必要ない場合は、その理由を選択してください。 詳細":
+      - generic: なし
+  - button "タイトルと説明の言語 英語":
+    - button "タイトルと説明の言語 英語":
+      - generic: タイトルと説明の言語
+      - generic: 英語
+  - text: 他の言語を管理するには、
+  - link "言語":
+    - /url: /video/ebPpocRxNZk/translations
+  - text: に移動してください。
+  - generic: 撮影日と場所
+  - generic: 動画の撮影日と撮影場所を追加します。視聴者は場所から動画を検索できます。
+  - button "撮影日 なし":
+    - button "撮影日 なし":
+      - generic: 撮影日
+      - generic: なし
+  - button "動画の撮影場所":
+    - generic: 動画の撮影場所
+    - textbox "動画の撮影場所":
+      - /placeholder: なし
+  - generic: ライセンス
+  - link "ライセンスの種類":
+    - /url: https://support.google.com/youtube/answer/2797468?hl=ja
+  - text: の詳細
+  - button "ライセンス 標準の YouTube ライセンス":
+    - button "ライセンス 標準の YouTube ライセンス":
+      - generic: ライセンス
+      - generic: 標準の YouTube ライセンス
+  - checkbox "埋め込みを許可する" [checked]
+  - text: 埋め込みを許可する
+  - generic "他のサイトへの動画の埋め込みを許可します。":
+  - checkbox "[登録チャンネル] フィードに公開してチャンネル登録者に通知する" [checked]
+  - generic: "[登録チャンネル] フィードに公開してチャンネル登録者に通知する"
+  - generic: ショート リミックス
+  - text: 他のユーザーがこの動画のコンテンツを使用したショート動画を作成できるようにします。リミックスを許可しない場合、この動画をリミックスしたショート動画は完全に削除されます。
+  - link "コンテンツのリミックスの詳細":
+    - /url: https://support.google.com/youtube/answer/10623810?hl=ja#opt-out
+    - text: 詳細
+  - radiogroup:
+    - radio "動画と音声のリミックスを許可" [checked]:
+      - generic: 動画と音声のリミックスを許可
+    - radio "音声のリミックスのみを許可":
+      - generic: 音声のリミックスのみを許可
+  - generic: カテゴリ
+  - generic: 視聴者が見つけやすいよう、動画にカテゴリを追加します。
+  - button "教育":
+    - button "教育":
+      - generic: 教育
+  - generic: コメントと評価
+  - generic: コメントとその表示方法を選択します。
+  - button "コメント オン":
+    - button "コメント オン":
+      - generic: コメント
+      - generic: オン
+  - button "管理 標準":
+    - button "管理 標準":
+      - generic: 管理
+      - generic: 標準
+  - button "コメント可能なユーザー 全員":
+    - button "コメント可能なユーザー 全員":
+      - generic: コメント可能なユーザー
+      - generic: 全員
+  - button "並べ替え 人気順":
+    - button "並べ替え 人気順":
+      - generic: 並べ替え
+      - generic: 人気順
+  - checkbox "この動画を高く評価した視聴者の数を表示する" [checked]
+  - generic: この動画を高く評価した視聴者の数を表示する
+  - status
+  - region "動画プレーヤー":
+    - button "再生":
+    - button "ミュート":
+    - slider "音量"
+    - generic: 0:00 / 0:22
+    - button "全画面表示":
+  - generic: 動画リンク
+  - link "https://youtube.com/shorts/ebPpocRxNZk":
+    - /url: https://youtube.com/shorts/ebPpocRxNZk
+  - button "動画のリンクをコピー":
+  - generic: ファイル名
+  - generic: QO_short_EP007_F1_v01.mp4
+  - generic: 動画の画質
+  - img "標準画質の処理が完了":
+  - img "高画質の処理が完了":
+  - generic: 通知
+  - generic: —
+  - generic: 公開設定
+  - generic: 公開予約
+  - button "動画の公開設定を編集":
+  - button "関連動画 この動画に関連するコンテンツに視聴者を案内します。 なし":
+    - button "関連動画 この動画に関連するコンテンツに視聴者を案内します。 なし":
+      - generic: 関連動画
+      - generic "この動画に関連するコンテンツに視聴者を案内します。":
+      - generic: なし
+  - button "字幕":
+    - button "字幕":
+      - button "字幕":
+        - generic: 字幕

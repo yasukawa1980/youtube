@@ -1,0 +1,631 @@
+- generic: チャンネルのコンテンツ
+- banner:
+  - button "メニューを折りたたむ":
+  - link "YouTube Studio ダッシュボード":
+    - /url: /channel/UCfLJOojEY9VB3rvrjICk90Q
+    - img "YouTube Studio ダッシュボード"
+  - button "ナビゲーションをスキップ":
+    - generic: ナビゲーションをスキップ
+  - textbox "チャンネル内で検索"
+  - button "ヘルプ":
+  - button "通知":
+  - button "Ask Studio":
+    - generic: Ask Studio
+  - button "作成":
+    - generic: 作成
+  - generic "アカウント":
+    - button "Account"
+- navigation:
+  - img "Quiet Origins"
+  - generic: チャンネル
+  - generic: Quiet Origins
+  - menu:
+    - menuitem "ダッシュボード":
+      - generic: ダッシュボード
+    - menuitem "コンテンツ":
+      - generic: コンテンツ
+    - menuitem "アナリティクス":
+      - generic: アナリティクス
+    - menuitem "コミュニティ":
+      - generic: コミュニティ
+    - menuitem "言語":
+      - generic: 言語
+    - menuitem "コンテンツ検出":
+      - generic: コンテンツ検出
+    - menuitem "収益化":
+      - generic: 収益化
+    - menuitem "カスタマイズ":
+      - generic: カスタマイズ
+    - menuitem "オーディオ ライブラリ":
+      - generic: オーディオ ライブラリ
+  - list:
+    - button "設定":
+      - generic: 設定
+    - button "フィードバックを送信":
+      - generic: フィードバックを送信
+- main:
+  - heading "チャンネルのコンテンツ" [level=1]
+  - tablist:
+    - tab "動画":
+      - generic: 動画
+    - tab "ショート" [active] [selected]:
+      - generic: ショート
+    - tab "ライブ配信":
+      - generic: ライブ配信
+    - tab "投稿":
+      - generic: 投稿
+    - tab "再生リスト":
+      - generic: 再生リスト
+    - tab "ポッドキャスト":
+      - generic: ポッドキャスト
+    - tab "コース":
+      - generic: コース
+    - tab "プロモーション":
+      - generic: プロモーション
+    - tab "コラボレーション":
+      - generic: コラボレーション
+    - tab "アイデア":
+      - generic: アイデア
+    - button:
+  - table "動画リスト":
+    - rowgroup:
+      - textbox "フィルタ"
+      - row "すべて選択 ショート動画 通知 公開設定 日付 で並べ替え 視聴回数 で並べ替え コメント":
+        - columnheader "すべて選択":
+          - generic "すべて選択":
+            - checkbox "すべて選択"
+        - columnheader "ショート動画":
+          - heading "ショート動画" [level=3]:
+            - generic: ショート動画
+        - columnheader "通知":
+          - heading "通知" [level=3]:
+            - generic: 通知
+        - columnheader "公開設定":
+          - heading "公開設定" [level=3]:
+            - generic: 公開設定
+        - columnheader "日付 で並べ替え":
+          - heading "日付 で並べ替え" [level=3]:
+            - button "日付 で並べ替え":
+              - generic: 日付
+        - columnheader "視聴回数 で並べ替え":
+          - heading "視聴回数 で並べ替え" [level=3]:
+            - button "視聴回数 で並べ替え":
+              - generic: 視聴回数
+        - columnheader "コメント":
+          - heading "コメント" [level=3]:
+            - generic: コメント
+    - 'row "Plains Headdresses at the First Thanksgiving? を選択 動画のサムネイル: Plains Headdresses at the First Thanksgiving? 0:20 Plains Headdresses at the First Thanksgiving? A famous painting of the first Thanksgiving shows Native guests in headdresses of the Great Plains, nearly three centuries after the feast. Full episode: https://youtu.be/HZsl96AigLY Images Library of Congress — J. L. G. Ferris, The First Thanksgiving 1621, reproduction print c. 1932. No known restrictions on publication. https://www.loc.gov/item/2001699850/ Boston Public Library via Internet Archive — Mourt''s Relation (1622). Narration: Kokoro / Heart (af_heart), synthetic speech. Music: Suno. — 公開予約 2026/11/03 公開予約 0 動画にコメントが 0 件あります。動画のコメントページ"':
+      - cell "Plains Headdresses at the First Thanksgiving? を選択":
+        - generic "Plains Headdresses at the First Thanksgiving? を選択":
+          - checkbox "Plains Headdresses at the First Thanksgiving? を選択"
+      - 'cell "動画のサムネイル: Plains Headdresses at the First Thanksgiving? 0:20 Plains Headdresses at the First Thanksgiving? A famous painting of the first Thanksgiving shows Native guests in headdresses of the Great Plains, nearly three centuries after the feast. Full episode: https://youtu.be/HZsl96AigLY Images Library of Congress — J. L. G. Ferris, The First Thanksgiving 1621, reproduction print c. 1932. No known restrictions on publication. https://www.loc.gov/item/2001699850/ Boston Public Library via Internet Archive — Mourt''s Relation (1622). Narration: Kokoro / Heart (af_heart), synthetic speech. Music: Suno."':
+        - 'link "動画のサムネイル: Plains Headdresses at the First Thanksgiving? 0:20"':
+          - /url: /video/h_HF0VPtL_8/edit
+          - 'img "動画のサムネイル: Plains Headdresses at the First Thanksgiving?"'
+          - generic: 0:20
+        - link "Plains Headdresses at the First Thanksgiving?":
+          - /url: /video/h_HF0VPtL_8/edit
+          - generic: Plains Headdresses at the First Thanksgiving?
+        - generic: "A famous painting of the first Thanksgiving shows Native guests in headdresses of the Great Plains, nearly three centuries after the feast. Full episode: https://youtu.be/HZsl96AigLY Images Library of Congress — J. L. G. Ferris, The First Thanksgiving 1621, reproduction print c. 1932. No known restrictions on publication. https://www.loc.gov/item/2001699850/ Boston Public Library via Internet Archive — Mourt's Relation (1622). Narration: Kokoro / Heart (af_heart), synthetic speech. Music: Suno."
+      - cell "—":
+        - generic: —
+      - cell "公開予約":
+        - generic: 公開予約
+      - cell "2026/11/03 公開予約":
+        - text: 2026/11/03
+        - generic: 公開予約
+      - cell "0"
+      - cell "動画にコメントが 0 件あります。動画のコメントページ":
+        - link "動画にコメントが 0 件あります。動画のコメントページ":
+          - /url: /video/h_HF0VPtL_8/comments
+          - text: "0"
+    - 'row "Lincoln''s Thanksgiving Never Mentioned the Pilgrims を選択 動画のサムネイル: Lincoln''s Thanksgiving Never Mentioned the Pilgrims 0:20 Lincoln''s Thanksgiving Never Mentioned the Pilgrims Lincoln''s 1863 Thanksgiving proclamation, issued during the Civil War, never mentions the Pilgrims, Plymouth, or 1621. Full episode: https://youtu.be/HZsl96AigLY Images The Metropolitan Museum of Art — Harper''s Weekly, 29 Nov 1862 (after Winslow Homer), CC0. https://www.metmuseum.org/art/collection/search/349156 National Archives — Proclamation, 3 Oct 1863, first page. Narration: Kokoro / Heart (af_heart), synthetic speech. Music: Suno. #Shorts #History #Thanksgiving — 公開予約 2026/11/03 公開予約 0 動画にコメントが 0 件あります。動画のコメントページ"':
+      - cell "Lincoln's Thanksgiving Never Mentioned the Pilgrims を選択":
+        - generic "Lincoln's Thanksgiving Never Mentioned the Pilgrims を選択":
+          - checkbox "Lincoln's Thanksgiving Never Mentioned the Pilgrims を選択"
+      - 'cell "動画のサムネイル: Lincoln''s Thanksgiving Never Mentioned the Pilgrims 0:20 Lincoln''s Thanksgiving Never Mentioned the Pilgrims Lincoln''s 1863 Thanksgiving proclamation, issued during the Civil War, never mentions the Pilgrims, Plymouth, or 1621. Full episode: https://youtu.be/HZsl96AigLY Images The Metropolitan Museum of Art — Harper''s Weekly, 29 Nov 1862 (after Winslow Homer), CC0. https://www.metmuseum.org/art/collection/search/349156 National Archives — Proclamation, 3 Oct 1863, first page. Narration: Kokoro / Heart (af_heart), synthetic speech. Music: Suno. #Shorts #History #Thanksgiving"':
+        - 'link "動画のサムネイル: Lincoln''s Thanksgiving Never Mentioned the Pilgrims 0:20"':
+          - /url: /video/a-mbby46J5w/edit
+          - 'img "動画のサムネイル: Lincoln''s Thanksgiving Never Mentioned the Pilgrims"'
+          - generic: 0:20
+        - link "Lincoln's Thanksgiving Never Mentioned the Pilgrims":
+          - /url: /video/a-mbby46J5w/edit
+          - generic: Lincoln's Thanksgiving Never Mentioned the Pilgrims
+        - generic: "Lincoln's 1863 Thanksgiving proclamation, issued during the Civil War, never mentions the Pilgrims, Plymouth, or 1621. Full episode: https://youtu.be/HZsl96AigLY Images The Metropolitan Museum of Art — Harper's Weekly, 29 Nov 1862 (after Winslow Homer), CC0. https://www.metmuseum.org/art/collection/search/349156 National Archives — Proclamation, 3 Oct 1863, first page. Narration: Kokoro / Heart (af_heart), synthetic speech. Music: Suno. #Shorts #History #Thanksgiving"
+      - cell "—":
+        - generic: —
+      - cell "公開予約":
+        - generic: 公開予約
+      - cell "2026/11/03 公開予約":
+        - text: 2026/11/03
+        - generic: 公開予約
+      - cell "0"
+      - cell "動画にコメントが 0 件あります。動画のコメントページ":
+        - link "動画にコメントが 0 件あります。動画のコメントページ":
+          - /url: /video/a-mbby46J5w/comments
+          - text: "0"
+    - 'row "There''s No Turkey in the First Thanksgiving Letter を選択 動画のサムネイル: There''s No Turkey in the First Thanksgiving Letter 0:22 There''s No Turkey in the First Thanksgiving Letter The only surviving eyewitness letter about the 1621 feast never mentions a turkey; the turkey comes from a note added in 1841. Full episode: https://youtu.be/HZsl96AigLY Images University of South Carolina Libraries — Audubon, The Birds of America, Plate I (1827–30), public domain. https://digital.tcl.sc.edu/digital/collection/audubon-birds/id/112/ Boston Public Library via Internet Archive — Mourt''s Relation (1622). Diagram: Quiet Origins. Narration: Kokoro / Heart (af_heart), synthetic speech — 公開予約 2026/11/02 公開予約 0 動画にコメントが 0 件あります。動画のコメントページ"':
+      - cell "There's No Turkey in the First Thanksgiving Letter を選択":
+        - generic "There's No Turkey in the First Thanksgiving Letter を選択":
+          - checkbox "There's No Turkey in the First Thanksgiving Letter を選択"
+      - 'cell "動画のサムネイル: There''s No Turkey in the First Thanksgiving Letter 0:22 There''s No Turkey in the First Thanksgiving Letter The only surviving eyewitness letter about the 1621 feast never mentions a turkey; the turkey comes from a note added in 1841. Full episode: https://youtu.be/HZsl96AigLY Images University of South Carolina Libraries — Audubon, The Birds of America, Plate I (1827–30), public domain. https://digital.tcl.sc.edu/digital/collection/audubon-birds/id/112/ Boston Public Library via Internet Archive — Mourt''s Relation (1622). Diagram: Quiet Origins. Narration: Kokoro / Heart (af_heart), synthetic speech"':
+        - 'link "動画のサムネイル: There''s No Turkey in the First Thanksgiving Letter 0:22"':
+          - /url: /video/ebPpocRxNZk/edit
+          - 'img "動画のサムネイル: There''s No Turkey in the First Thanksgiving Letter"'
+          - generic: 0:22
+        - link "There's No Turkey in the First Thanksgiving Letter":
+          - /url: /video/ebPpocRxNZk/edit
+          - generic: There's No Turkey in the First Thanksgiving Letter
+        - generic: "The only surviving eyewitness letter about the 1621 feast never mentions a turkey; the turkey comes from a note added in 1841. Full episode: https://youtu.be/HZsl96AigLY Images University of South Carolina Libraries — Audubon, The Birds of America, Plate I (1827–30), public domain. https://digital.tcl.sc.edu/digital/collection/audubon-birds/id/112/ Boston Public Library via Internet Archive — Mourt's Relation (1622). Diagram: Quiet Origins. Narration: Kokoro / Heart (af_heart), synthetic speech"
+      - cell "—":
+        - generic: —
+      - cell "公開予約":
+        - generic: 公開予約
+      - cell "2026/11/02 公開予約":
+        - text: 2026/11/02
+        - generic: 公開予約
+      - cell "0"
+      - cell "動画にコメントが 0 件あります。動画のコメントページ":
+        - link "動画にコメントが 0 件あります。動画のコメントページ":
+          - /url: /video/ebPpocRxNZk/comments
+          - text: "0"
+    - 'row "The Sphinx Lost Its Nose Before Napoleon を選択 動画のサムネイル: The Sphinx Lost Its Nose Before Napoleon 0:22 The Sphinx Lost Its Nose Before Napoleon Drawings by Frederic Norden, who visited in the 1730s, already show the Sphinx without its nose, long before Napoleon came to Egypt. Full episode: https://youtu.be/YKM_fjRLt9E Images — Public Domain / CC0 Archivio Museo Egizio — CC0 C. & G. Zangaki, Inv27_001 (1870). https://archiviofotografico.museoegizio.it/en/archive/giza/sphynx-and-funerary-temple-of-khafre/19th-century-pictures/#INV27_001 Wellcome Collection via Internet Archive — Norden, Public Domain Mark. Norden, plates XLV and XLVII, L — 公開予約 2026/11/01 公開予約 0 動画にコメントが 0 件あります。動画のコメントページ"':
+      - cell "The Sphinx Lost Its Nose Before Napoleon を選択":
+        - generic "The Sphinx Lost Its Nose Before Napoleon を選択":
+          - checkbox "The Sphinx Lost Its Nose Before Napoleon を選択"
+      - 'cell "動画のサムネイル: The Sphinx Lost Its Nose Before Napoleon 0:22 The Sphinx Lost Its Nose Before Napoleon Drawings by Frederic Norden, who visited in the 1730s, already show the Sphinx without its nose, long before Napoleon came to Egypt. Full episode: https://youtu.be/YKM_fjRLt9E Images — Public Domain / CC0 Archivio Museo Egizio — CC0 C. & G. Zangaki, Inv27_001 (1870). https://archiviofotografico.museoegizio.it/en/archive/giza/sphynx-and-funerary-temple-of-khafre/19th-century-pictures/#INV27_001 Wellcome Collection via Internet Archive — Norden, Public Domain Mark. Norden, plates XLV and XLVII, L"':
+        - 'link "動画のサムネイル: The Sphinx Lost Its Nose Before Napoleon 0:22"':
+          - /url: /video/gB1Fq47ErW0/edit
+          - 'img "動画のサムネイル: The Sphinx Lost Its Nose Before Napoleon"'
+          - generic: 0:22
+        - link "The Sphinx Lost Its Nose Before Napoleon":
+          - /url: /video/gB1Fq47ErW0/edit
+          - generic: The Sphinx Lost Its Nose Before Napoleon
+        - generic: "Drawings by Frederic Norden, who visited in the 1730s, already show the Sphinx without its nose, long before Napoleon came to Egypt. Full episode: https://youtu.be/YKM_fjRLt9E Images — Public Domain / CC0 Archivio Museo Egizio — CC0 C. & G. Zangaki, Inv27_001 (1870). https://archiviofotografico.museoegizio.it/en/archive/giza/sphynx-and-funerary-temple-of-khafre/19th-century-pictures/#INV27_001 Wellcome Collection via Internet Archive — Norden, Public Domain Mark. Norden, plates XLV and XLVII, L"
+      - cell "—":
+        - generic: —
+      - cell "公開予約":
+        - generic: 公開予約
+      - cell "2026/11/01 公開予約":
+        - text: 2026/11/01
+        - generic: 公開予約
+      - cell "0"
+      - cell "動画にコメントが 0 件あります。動画のコメントページ":
+        - link "動画にコメントが 0 件あります。動画のコメントページ":
+          - /url: /video/gB1Fq47ErW0/comments
+          - text: "0"
+    - 'row "The Great Sphinx Isn''t a Woman を選択 動画のサムネイル: The Great Sphinx Isn''t a Woman 0:19 The Great Sphinx Isn''t a Woman The Great Sphinx of Giza has the face of a king, and Hatshepsut appears as a sphinx with a king''s ceremonial beard. Full episode: https://youtu.be/YKM_fjRLt9E Images — Public Domain / CC0 Archivio Museo Egizio — CC0 Attributed to V. R. Lanzone, Inv02_008 (1865–70); V. R. Lanzone, Album1_004 (1865–70). https://archiviofotografico.museoegizio.it/en/archive/giza/sphynx-and-funerary-temple-of-khafre/19th-century-pictures/#INV02_008 https://archiviofotografico.museoegizio.it/en/archive/giza/sphynx-a — 公開予約 2026/11/01 公開予約 0 動画にコメントが 0 件あります。動画のコメントページ"':
+      - cell "The Great Sphinx Isn't a Woman を選択":
+        - generic "The Great Sphinx Isn't a Woman を選択":
+          - checkbox "The Great Sphinx Isn't a Woman を選択"
+      - 'cell "動画のサムネイル: The Great Sphinx Isn''t a Woman 0:19 The Great Sphinx Isn''t a Woman The Great Sphinx of Giza has the face of a king, and Hatshepsut appears as a sphinx with a king''s ceremonial beard. Full episode: https://youtu.be/YKM_fjRLt9E Images — Public Domain / CC0 Archivio Museo Egizio — CC0 Attributed to V. R. Lanzone, Inv02_008 (1865–70); V. R. Lanzone, Album1_004 (1865–70). https://archiviofotografico.museoegizio.it/en/archive/giza/sphynx-and-funerary-temple-of-khafre/19th-century-pictures/#INV02_008 https://archiviofotografico.museoegizio.it/en/archive/giza/sphynx-a"':
+        - 'link "動画のサムネイル: The Great Sphinx Isn''t a Woman 0:19"':
+          - /url: /video/vGCbrzm6MIo/edit
+          - 'img "動画のサムネイル: The Great Sphinx Isn''t a Woman"'
+          - generic: 0:19
+        - link "The Great Sphinx Isn't a Woman":
+          - /url: /video/vGCbrzm6MIo/edit
+          - generic: The Great Sphinx Isn't a Woman
+        - generic: "The Great Sphinx of Giza has the face of a king, and Hatshepsut appears as a sphinx with a king's ceremonial beard. Full episode: https://youtu.be/YKM_fjRLt9E Images — Public Domain / CC0 Archivio Museo Egizio — CC0 Attributed to V. R. Lanzone, Inv02_008 (1865–70); V. R. Lanzone, Album1_004 (1865–70). https://archiviofotografico.museoegizio.it/en/archive/giza/sphynx-and-funerary-temple-of-khafre/19th-century-pictures/#INV02_008 https://archiviofotografico.museoegizio.it/en/archive/giza/sphynx-a"
+      - cell "—":
+        - generic: —
+      - cell "公開予約":
+        - generic: 公開予約
+      - cell "2026/11/01 公開予約":
+        - text: 2026/11/01
+        - generic: 公開予約
+      - cell "0"
+      - cell "動画にコメントが 0 件あります。動画のコメントページ":
+        - link "動画にコメントが 0 件あります。動画のコメントページ":
+          - /url: /video/vGCbrzm6MIo/comments
+          - text: "0"
+    - 'row "The Sphinx''s Riddle Isn''t in the Play を選択 動画のサムネイル: The Sphinx''s Riddle Isn''t in the Play 0:21 The Sphinx''s Riddle Isn''t in the Play Sophocles'' play remembers the riddling Sphinx, but the words of the riddle come from later writers, with no morning, noon, or evening. Full episode: https://youtu.be/YKM_fjRLt9E Images — Public Domain / CC0 The Metropolitan Museum of Art — CC0 / Open Access Gustave Moreau, Oedipus and the Sphinx (1864, upper detail). 21.134.1: https://www.metmuseum.org/art/collection/search/437153 Online Library of Liberty — Jebb/Sophocles, public-domain text and original scan. Narration: Kokoro / Heart (af_hea — 公開予約 2026/10/31 公開予約 0 動画にコメントが 0 件あります。動画のコメントページ"':
+      - cell "The Sphinx's Riddle Isn't in the Play を選択":
+        - generic "The Sphinx's Riddle Isn't in the Play を選択":
+          - checkbox "The Sphinx's Riddle Isn't in the Play を選択"
+      - 'cell "動画のサムネイル: The Sphinx''s Riddle Isn''t in the Play 0:21 The Sphinx''s Riddle Isn''t in the Play Sophocles'' play remembers the riddling Sphinx, but the words of the riddle come from later writers, with no morning, noon, or evening. Full episode: https://youtu.be/YKM_fjRLt9E Images — Public Domain / CC0 The Metropolitan Museum of Art — CC0 / Open Access Gustave Moreau, Oedipus and the Sphinx (1864, upper detail). 21.134.1: https://www.metmuseum.org/art/collection/search/437153 Online Library of Liberty — Jebb/Sophocles, public-domain text and original scan. Narration: Kokoro / Heart (af_hea"':
+        - 'link "動画のサムネイル: The Sphinx''s Riddle Isn''t in the Play 0:21"':
+          - /url: /video/R-p7fqxAWwE/edit
+          - 'img "動画のサムネイル: The Sphinx''s Riddle Isn''t in the Play"'
+          - generic: 0:21
+        - link "The Sphinx's Riddle Isn't in the Play":
+          - /url: /video/R-p7fqxAWwE/edit
+          - generic: The Sphinx's Riddle Isn't in the Play
+        - generic: "Sophocles' play remembers the riddling Sphinx, but the words of the riddle come from later writers, with no morning, noon, or evening. Full episode: https://youtu.be/YKM_fjRLt9E Images — Public Domain / CC0 The Metropolitan Museum of Art — CC0 / Open Access Gustave Moreau, Oedipus and the Sphinx (1864, upper detail). 21.134.1: https://www.metmuseum.org/art/collection/search/437153 Online Library of Liberty — Jebb/Sophocles, public-domain text and original scan. Narration: Kokoro / Heart (af_hea"
+      - cell "—":
+        - generic: —
+      - cell "公開予約":
+        - generic: 公開予約
+      - cell "2026/10/31 公開予約":
+        - text: 2026/10/31
+        - generic: 公開予約
+      - cell "0"
+      - cell "動画にコメントが 0 件あります。動画のコメントページ":
+        - link "動画にコメントが 0 件あります。動画のコメントページ":
+          - /url: /video/R-p7fqxAWwE/comments
+          - text: "0"
+    - 'row "The Tengu Never Stopped Being a Bird を選択 動画のサムネイル: The Tengu Never Stopped Being a Bird 0:21 The Tengu Never Stopped Being a Bird Long-nosed tengu came later, but in Hokusai''s sketchbook the tengu is still a bird. Full episode: https://youtu.be/poT3TlC7iWI Images — Public Domain / CC0 The Metropolitan Museum of Art, Open Access: - Mask in the Shape of a Mountain Demon''s Face, early 18th century. 36.25.263a, b https://www.metmuseum.org/hubs/open-access National Diet Library Digital Collections (public domain): - Katsushika Hokusai, Hokusai Manga, vol. 3 (first published 1815), 1878 printing. frame 28 https://dl.ndl.go.jp/ — 公開予約 2026/10/31 公開予約 0 動画にコメントが 0 件あります。動画のコメントページ"':
+      - cell "The Tengu Never Stopped Being a Bird を選択":
+        - generic "The Tengu Never Stopped Being a Bird を選択":
+          - checkbox "The Tengu Never Stopped Being a Bird を選択"
+      - 'cell "動画のサムネイル: The Tengu Never Stopped Being a Bird 0:21 The Tengu Never Stopped Being a Bird Long-nosed tengu came later, but in Hokusai''s sketchbook the tengu is still a bird. Full episode: https://youtu.be/poT3TlC7iWI Images — Public Domain / CC0 The Metropolitan Museum of Art, Open Access: - Mask in the Shape of a Mountain Demon''s Face, early 18th century. 36.25.263a, b https://www.metmuseum.org/hubs/open-access National Diet Library Digital Collections (public domain): - Katsushika Hokusai, Hokusai Manga, vol. 3 (first published 1815), 1878 printing. frame 28 https://dl.ndl.go.jp/"':
+        - 'link "動画のサムネイル: The Tengu Never Stopped Being a Bird 0:21"':
+          - /url: /video/S66NV_CTVZY/edit
+          - 'img "動画のサムネイル: The Tengu Never Stopped Being a Bird"'
+          - generic: 0:21
+        - link "The Tengu Never Stopped Being a Bird":
+          - /url: /video/S66NV_CTVZY/edit
+          - generic: The Tengu Never Stopped Being a Bird
+        - generic: "Long-nosed tengu came later, but in Hokusai's sketchbook the tengu is still a bird. Full episode: https://youtu.be/poT3TlC7iWI Images — Public Domain / CC0 The Metropolitan Museum of Art, Open Access: - Mask in the Shape of a Mountain Demon's Face, early 18th century. 36.25.263a, b https://www.metmuseum.org/hubs/open-access National Diet Library Digital Collections (public domain): - Katsushika Hokusai, Hokusai Manga, vol. 3 (first published 1815), 1878 printing. frame 28 https://dl.ndl.go.jp/"
+      - cell "—":
+        - generic: —
+      - cell "公開予約":
+        - generic: 公開予約
+      - cell "2026/10/31 公開予約":
+        - text: 2026/10/31
+        - generic: 公開予約
+      - cell "0"
+      - cell "動画にコメントが 0 件あります。動画のコメントページ":
+        - link "動画にコメントが 0 件あります。動画のコメントページ":
+          - /url: /video/S66NV_CTVZY/comments
+          - text: "0"
+    - 'row "The Buddha in the Persimmon Tree を選択 動画のサムネイル: The Buddha in the Persimmon Tree 0:22 The Buddha in the Persimmon Tree In a 12th-century tale, a Buddha in a persimmon tree turns out to be a kite. Full episode: https://youtu.be/poT3TlC7iWI Images — Public Domain / CC0 The Metropolitan Museum of Art, Open Access: - Shibata Zeshin, Persimmons Branch and Wasp Nest above a Hedge. 36.100.118 https://www.metmuseum.org/hubs/open-access Narration: Kokoro / Heart (af_heart), synthetic speech. AI reconstruction labelled on screen (Kling AI). Music: original ambient score by Quiet Origins. #Shorts #History #Tengu #Japanes — 公開予約 2026/10/30 公開予約 0 動画にコメントが 0 件あります。動画のコメントページ"':
+      - cell "The Buddha in the Persimmon Tree を選択":
+        - generic "The Buddha in the Persimmon Tree を選択":
+          - checkbox "The Buddha in the Persimmon Tree を選択"
+      - 'cell "動画のサムネイル: The Buddha in the Persimmon Tree 0:22 The Buddha in the Persimmon Tree In a 12th-century tale, a Buddha in a persimmon tree turns out to be a kite. Full episode: https://youtu.be/poT3TlC7iWI Images — Public Domain / CC0 The Metropolitan Museum of Art, Open Access: - Shibata Zeshin, Persimmons Branch and Wasp Nest above a Hedge. 36.100.118 https://www.metmuseum.org/hubs/open-access Narration: Kokoro / Heart (af_heart), synthetic speech. AI reconstruction labelled on screen (Kling AI). Music: original ambient score by Quiet Origins. #Shorts #History #Tengu #Japanes"':
+        - 'link "動画のサムネイル: The Buddha in the Persimmon Tree 0:22"':
+          - /url: /video/vwwpF1seseI/edit
+          - 'img "動画のサムネイル: The Buddha in the Persimmon Tree"'
+          - generic: 0:22
+        - link "The Buddha in the Persimmon Tree":
+          - /url: /video/vwwpF1seseI/edit
+          - generic: The Buddha in the Persimmon Tree
+        - generic: "In a 12th-century tale, a Buddha in a persimmon tree turns out to be a kite. Full episode: https://youtu.be/poT3TlC7iWI Images — Public Domain / CC0 The Metropolitan Museum of Art, Open Access: - Shibata Zeshin, Persimmons Branch and Wasp Nest above a Hedge. 36.100.118 https://www.metmuseum.org/hubs/open-access Narration: Kokoro / Heart (af_heart), synthetic speech. AI reconstruction labelled on screen (Kling AI). Music: original ambient score by Quiet Origins. #Shorts #History #Tengu #Japanes"
+      - cell "—":
+        - generic: —
+      - cell "公開予約":
+        - generic: 公開予約
+      - cell "2026/10/30 公開予約":
+        - text: 2026/10/30
+        - generic: 公開予約
+      - cell "0"
+      - cell "動画にコメントが 0 件あります。動画のコメントページ":
+        - link "動画にコメントが 0 件あります。動画のコメントページ":
+          - /url: /video/vwwpF1seseI/comments
+          - text: "0"
+    - 'row "The First Tengu Was a Star を選択 動画のサムネイル: The First Tengu Was a Star 0:21 The First Tengu Was a Star In the Nihon Shoki, a star that crossed the sky in 637 was called a tengu, a celestial dog. Full episode: https://youtu.be/poT3TlC7iWI Images — Public Domain / CC0 National Diet Library Digital Collections (public domain): - Nihon Shoki, vols. 23–24 (Hiseki taikan facsimile of the Imperial Household manuscript), 1926. frame 10 https://dl.ndl.go.jp/ Narration: Kokoro / Heart (af_heart), synthetic speech. AI reconstruction labelled on screen (Kling AI). Music: original ambient score by Quiet Orig — 公開予約 2026/10/30 公開予約 0 動画にコメントが 0 件あります。動画のコメントページ"':
+      - cell "The First Tengu Was a Star を選択":
+        - generic "The First Tengu Was a Star を選択":
+          - checkbox "The First Tengu Was a Star を選択"
+      - 'cell "動画のサムネイル: The First Tengu Was a Star 0:21 The First Tengu Was a Star In the Nihon Shoki, a star that crossed the sky in 637 was called a tengu, a celestial dog. Full episode: https://youtu.be/poT3TlC7iWI Images — Public Domain / CC0 National Diet Library Digital Collections (public domain): - Nihon Shoki, vols. 23–24 (Hiseki taikan facsimile of the Imperial Household manuscript), 1926. frame 10 https://dl.ndl.go.jp/ Narration: Kokoro / Heart (af_heart), synthetic speech. AI reconstruction labelled on screen (Kling AI). Music: original ambient score by Quiet Orig"':
+        - 'link "動画のサムネイル: The First Tengu Was a Star 0:21"':
+          - /url: /video/L2GOO_QTrqo/edit
+          - 'img "動画のサムネイル: The First Tengu Was a Star"'
+          - generic: 0:21
+        - link "The First Tengu Was a Star":
+          - /url: /video/L2GOO_QTrqo/edit
+          - generic: The First Tengu Was a Star
+        - generic: "In the Nihon Shoki, a star that crossed the sky in 637 was called a tengu, a celestial dog. Full episode: https://youtu.be/poT3TlC7iWI Images — Public Domain / CC0 National Diet Library Digital Collections (public domain): - Nihon Shoki, vols. 23–24 (Hiseki taikan facsimile of the Imperial Household manuscript), 1926. frame 10 https://dl.ndl.go.jp/ Narration: Kokoro / Heart (af_heart), synthetic speech. AI reconstruction labelled on screen (Kling AI). Music: original ambient score by Quiet Orig"
+      - cell "—":
+        - generic: —
+      - cell "公開予約":
+        - generic: 公開予約
+      - cell "2026/10/30 公開予約":
+        - text: 2026/10/30
+        - generic: 公開予約
+      - cell "0"
+      - cell "動画にコメントが 0 件あります。動画のコメントページ":
+        - link "動画にコメントが 0 件あります。動画のコメントページ":
+          - /url: /video/L2GOO_QTrqo/comments
+          - text: "0"
+    - 'row "Why Did Hope Stay in Pandora''s Jar? を選択 動画のサムネイル: Why Did Hope Stay in Pandora''s Jar? 0:20 Why Did Hope Stay in Pandora''s Jar? Only hope stayed inside the jar. Hesiod never explains why. Full episode: https://youtu.be/iZl_31zW2sU Images — Public Domain / CC0 Rijksmuseum: - Giulio Bonasone, Epimetheus opens Pandora''s urn, 16th century. RP-P-1962-338 Musée du Louvre (photographs released by their photographers): - Relief pithos, ca. 670 BCE. CA 795. Photo: Shonagon (CC0) Narration: Kokoro / Heart (af_heart), synthetic speech. Music: original ambient score by Quiet Origins. #Shorts #History #Pandora #GreekMythology — 公開 2026/10/29 公開日 121 動画にコメントが 0 件あります。動画のコメントページ"':
+      - cell "Why Did Hope Stay in Pandora's Jar? を選択":
+        - generic "Why Did Hope Stay in Pandora's Jar? を選択":
+          - checkbox "Why Did Hope Stay in Pandora's Jar? を選択"
+      - 'cell "動画のサムネイル: Why Did Hope Stay in Pandora''s Jar? 0:20 Why Did Hope Stay in Pandora''s Jar? Only hope stayed inside the jar. Hesiod never explains why. Full episode: https://youtu.be/iZl_31zW2sU Images — Public Domain / CC0 Rijksmuseum: - Giulio Bonasone, Epimetheus opens Pandora''s urn, 16th century. RP-P-1962-338 Musée du Louvre (photographs released by their photographers): - Relief pithos, ca. 670 BCE. CA 795. Photo: Shonagon (CC0) Narration: Kokoro / Heart (af_heart), synthetic speech. Music: original ambient score by Quiet Origins. #Shorts #History #Pandora #GreekMythology"':
+        - 'link "動画のサムネイル: Why Did Hope Stay in Pandora''s Jar? 0:20"':
+          - /url: /video/WjlsWa2Md7Q/edit
+          - 'img "動画のサムネイル: Why Did Hope Stay in Pandora''s Jar?"'
+          - generic: 0:20
+        - link "Why Did Hope Stay in Pandora's Jar?":
+          - /url: /video/WjlsWa2Md7Q/edit
+          - generic: Why Did Hope Stay in Pandora's Jar?
+        - generic: "Only hope stayed inside the jar. Hesiod never explains why. Full episode: https://youtu.be/iZl_31zW2sU Images — Public Domain / CC0 Rijksmuseum: - Giulio Bonasone, Epimetheus opens Pandora's urn, 16th century. RP-P-1962-338 Musée du Louvre (photographs released by their photographers): - Relief pithos, ca. 670 BCE. CA 795. Photo: Shonagon (CC0) Narration: Kokoro / Heart (af_heart), synthetic speech. Music: original ambient score by Quiet Origins. #Shorts #History #Pandora #GreekMythology"
+      - cell "—":
+        - generic: —
+      - cell "公開":
+        - generic: 公開
+      - cell "2026/10/29 公開日":
+        - text: 2026/10/29
+        - generic: 公開日
+      - cell "121"
+      - cell "動画にコメントが 0 件あります。動画のコメントページ":
+        - link "動画にコメントが 0 件あります。動画のコメントページ":
+          - /url: /video/WjlsWa2Md7Q/comments
+          - text: "0"
+    - 'row "How Pandora''s Jar Became a Box を選択 動画のサムネイル: How Pandora''s Jar Became a Box 0:21 How Pandora''s Jar Became a Box The box is usually traced to Erasmus, whose 1508 book of proverbs turned the jar into a small box. Full episode: https://youtu.be/iZl_31zW2sU Images — Public Domain / CC0 The Metropolitan Museum of Art, Open Access: - Albrecht Dürer, Erasmus of Rotterdam, 1526. The Met 19.73.120 - Terracotta pyxis with lid, late 5th century BCE. The Met 75.2.18a, b ULiège Library: - Erasmus, Adagiorum chiliades, Aldus, Venice, 1508. R00134C Narration: Kokoro / Heart (af_heart), synthetic speech. Music: original — 公開 2026/10/29 公開日 47 動画にコメントが 0 件あります。動画のコメントページ"':
+      - cell "How Pandora's Jar Became a Box を選択":
+        - generic "How Pandora's Jar Became a Box を選択":
+          - checkbox "How Pandora's Jar Became a Box を選択"
+      - 'cell "動画のサムネイル: How Pandora''s Jar Became a Box 0:21 How Pandora''s Jar Became a Box The box is usually traced to Erasmus, whose 1508 book of proverbs turned the jar into a small box. Full episode: https://youtu.be/iZl_31zW2sU Images — Public Domain / CC0 The Metropolitan Museum of Art, Open Access: - Albrecht Dürer, Erasmus of Rotterdam, 1526. The Met 19.73.120 - Terracotta pyxis with lid, late 5th century BCE. The Met 75.2.18a, b ULiège Library: - Erasmus, Adagiorum chiliades, Aldus, Venice, 1508. R00134C Narration: Kokoro / Heart (af_heart), synthetic speech. Music: original"':
+        - 'link "動画のサムネイル: How Pandora''s Jar Became a Box 0:21"':
+          - /url: /video/7HIhIHSKK7M/edit
+          - 'img "動画のサムネイル: How Pandora''s Jar Became a Box"'
+          - generic: 0:21
+        - link "How Pandora's Jar Became a Box":
+          - /url: /video/7HIhIHSKK7M/edit
+          - generic: How Pandora's Jar Became a Box
+        - generic: "The box is usually traced to Erasmus, whose 1508 book of proverbs turned the jar into a small box. Full episode: https://youtu.be/iZl_31zW2sU Images — Public Domain / CC0 The Metropolitan Museum of Art, Open Access: - Albrecht Dürer, Erasmus of Rotterdam, 1526. The Met 19.73.120 - Terracotta pyxis with lid, late 5th century BCE. The Met 75.2.18a, b ULiège Library: - Erasmus, Adagiorum chiliades, Aldus, Venice, 1508. R00134C Narration: Kokoro / Heart (af_heart), synthetic speech. Music: original"
+      - cell "—":
+        - generic: —
+      - cell "公開":
+        - generic: 公開
+      - cell "2026/10/29 公開日":
+        - text: 2026/10/29
+        - generic: 公開日
+      - cell "47"
+      - cell "動画にコメントが 0 件あります。動画のコメントページ":
+        - link "動画にコメントが 0 件あります。動画のコメントページ":
+          - /url: /video/7HIhIHSKK7M/comments
+          - text: "0"
+    - 'row "Pandora''s Box Was a Jar を選択 動画のサムネイル: Pandora''s Box Was a Jar 0:20 Pandora''s Box Was a Jar In Hesiod''s poem, around 700 BCE, Pandora lifts the lid of a great storage jar, not a box. Full episode: https://youtu.be/iZl_31zW2sU Images — Public Domain / CC0 Musée du Louvre (photographs released by their photographers): - Pithos, Crete, ca. 675 BCE. CA 4523. Photo: Jastrow (public domain) Narration: Kokoro / Heart (af_heart), synthetic speech. AI reconstruction labelled on screen (OpenAI image generation). Music: original ambient score by Quiet Origins. #Shorts #History #Pandora #GreekMy — 公開 2026/10/28 公開日 198 動画にコメントが 0 件あります。動画のコメントページ"':
+      - cell "Pandora's Box Was a Jar を選択":
+        - generic "Pandora's Box Was a Jar を選択":
+          - checkbox "Pandora's Box Was a Jar を選択"
+      - 'cell "動画のサムネイル: Pandora''s Box Was a Jar 0:20 Pandora''s Box Was a Jar In Hesiod''s poem, around 700 BCE, Pandora lifts the lid of a great storage jar, not a box. Full episode: https://youtu.be/iZl_31zW2sU Images — Public Domain / CC0 Musée du Louvre (photographs released by their photographers): - Pithos, Crete, ca. 675 BCE. CA 4523. Photo: Jastrow (public domain) Narration: Kokoro / Heart (af_heart), synthetic speech. AI reconstruction labelled on screen (OpenAI image generation). Music: original ambient score by Quiet Origins. #Shorts #History #Pandora #GreekMy"':
+        - 'link "動画のサムネイル: Pandora''s Box Was a Jar 0:20"':
+          - /url: /video/QZaXbtgMum8/edit
+          - 'img "動画のサムネイル: Pandora''s Box Was a Jar"'
+          - generic: 0:20
+        - link "Pandora's Box Was a Jar":
+          - /url: /video/QZaXbtgMum8/edit
+          - generic: Pandora's Box Was a Jar
+        - generic: "In Hesiod's poem, around 700 BCE, Pandora lifts the lid of a great storage jar, not a box. Full episode: https://youtu.be/iZl_31zW2sU Images — Public Domain / CC0 Musée du Louvre (photographs released by their photographers): - Pithos, Crete, ca. 675 BCE. CA 4523. Photo: Jastrow (public domain) Narration: Kokoro / Heart (af_heart), synthetic speech. AI reconstruction labelled on screen (OpenAI image generation). Music: original ambient score by Quiet Origins. #Shorts #History #Pandora #GreekMy"
+      - cell "—":
+        - generic: —
+      - cell "公開":
+        - generic: 公開
+      - cell "2026/10/28 公開日":
+        - text: 2026/10/28
+        - generic: 公開日
+      - cell "198"
+      - cell "動画にコメントが 0 件あります。動画のコメントページ":
+        - link "動画にコメントが 0 件あります。動画のコメントページ":
+          - /url: /video/QZaXbtgMum8/comments
+          - text: "0"
+    - 'row "The Beautiful, Sleeping Medusa を選択 動画のサムネイル: The Beautiful, Sleeping Medusa 0:21 The Beautiful, Sleeping Medusa Around 450 BCE, a painter in Athens showed Medusa asleep, young and calm. Full episode: https://youtu.be/uUMStOFL-68 Images — The Metropolitan Museum of Art, Open Access (Public Domain / CC0) - Attributed to Polygnotos, Terracotta pelike (jar), ca. 450–440 BCE. The Met 45.11.1. https://www.metmuseum.org/art/collection/search/254523 - Terracotta gorgoneion antefix (roof tile), 2nd half of the 5th century BCE. The Met 20.215. https://www.metmuseum.org/art/collection/search/250968 Narration: Kokor — 公開 2026/10/28 公開日 136 動画にコメントが 0 件あります。動画のコメントページ"':
+      - cell "The Beautiful, Sleeping Medusa を選択":
+        - generic "The Beautiful, Sleeping Medusa を選択":
+          - checkbox "The Beautiful, Sleeping Medusa を選択"
+      - 'cell "動画のサムネイル: The Beautiful, Sleeping Medusa 0:21 The Beautiful, Sleeping Medusa Around 450 BCE, a painter in Athens showed Medusa asleep, young and calm. Full episode: https://youtu.be/uUMStOFL-68 Images — The Metropolitan Museum of Art, Open Access (Public Domain / CC0) - Attributed to Polygnotos, Terracotta pelike (jar), ca. 450–440 BCE. The Met 45.11.1. https://www.metmuseum.org/art/collection/search/254523 - Terracotta gorgoneion antefix (roof tile), 2nd half of the 5th century BCE. The Met 20.215. https://www.metmuseum.org/art/collection/search/250968 Narration: Kokor"':
+        - 'link "動画のサムネイル: The Beautiful, Sleeping Medusa 0:21"':
+          - /url: /video/Z9aVsJcQ7e8/edit
+          - 'img "動画のサムネイル: The Beautiful, Sleeping Medusa"'
+          - generic: 0:21
+        - link "The Beautiful, Sleeping Medusa":
+          - /url: /video/Z9aVsJcQ7e8/edit
+          - generic: The Beautiful, Sleeping Medusa
+        - generic: "Around 450 BCE, a painter in Athens showed Medusa asleep, young and calm. Full episode: https://youtu.be/uUMStOFL-68 Images — The Metropolitan Museum of Art, Open Access (Public Domain / CC0) - Attributed to Polygnotos, Terracotta pelike (jar), ca. 450–440 BCE. The Met 45.11.1. https://www.metmuseum.org/art/collection/search/254523 - Terracotta gorgoneion antefix (roof tile), 2nd half of the 5th century BCE. The Met 20.215. https://www.metmuseum.org/art/collection/search/250968 Narration: Kokor"
+      - cell "—":
+        - generic: —
+      - cell "公開":
+        - generic: 公開
+      - cell "2026/10/28 公開日":
+        - text: 2026/10/28
+        - generic: 公開日
+      - cell "136"
+      - cell "動画にコメントが 0 件あります。動画のコメントページ":
+        - link "動画にコメントが 0 件あります。動画のコメントページ":
+          - /url: /video/Z9aVsJcQ7e8/comments
+          - text: "0"
+    - 'row "Why Does Anubis Have a Canine Head? を選択 動画のサムネイル: Why Does Anubis Have a Canine Head? 0:19 Why Does Anubis Have a Canine Head? Why a canine? One idea links Anubis to the animals that roamed ancient cemeteries. Full episode: https://youtu.be/AanbRJfeGxo S01 Statue of Anubis as a recumbent canid https://www.metmuseum.org/art/collection/search/544075 Images: The Metropolitan Museum of Art / Open Access (CC0) https://www.metmuseum.org/hubs/open-access 544075 / 69.105 — Adelaide Milton de Groot Fund, in memory of the de Groot and Hawley families, 1969 Narration: Kokoro / Heart (af_heart), synthetic speech. Music: original a — 公開 2026/10/27 公開日 39 動画にコメントが 0 件あります。動画のコメントページ"':
+      - cell "Why Does Anubis Have a Canine Head? を選択":
+        - generic "Why Does Anubis Have a Canine Head? を選択":
+          - checkbox "Why Does Anubis Have a Canine Head? を選択"
+      - 'cell "動画のサムネイル: Why Does Anubis Have a Canine Head? 0:19 Why Does Anubis Have a Canine Head? Why a canine? One idea links Anubis to the animals that roamed ancient cemeteries. Full episode: https://youtu.be/AanbRJfeGxo S01 Statue of Anubis as a recumbent canid https://www.metmuseum.org/art/collection/search/544075 Images: The Metropolitan Museum of Art / Open Access (CC0) https://www.metmuseum.org/hubs/open-access 544075 / 69.105 — Adelaide Milton de Groot Fund, in memory of the de Groot and Hawley families, 1969 Narration: Kokoro / Heart (af_heart), synthetic speech. Music: original a"':
+        - 'link "動画のサムネイル: Why Does Anubis Have a Canine Head? 0:19"':
+          - /url: /video/THd4RPvFtxk/edit
+          - 'img "動画のサムネイル: Why Does Anubis Have a Canine Head?"'
+          - generic: 0:19
+        - link "Why Does Anubis Have a Canine Head?":
+          - /url: /video/THd4RPvFtxk/edit
+          - generic: Why Does Anubis Have a Canine Head?
+        - generic: "Why a canine? One idea links Anubis to the animals that roamed ancient cemeteries. Full episode: https://youtu.be/AanbRJfeGxo S01 Statue of Anubis as a recumbent canid https://www.metmuseum.org/art/collection/search/544075 Images: The Metropolitan Museum of Art / Open Access (CC0) https://www.metmuseum.org/hubs/open-access 544075 / 69.105 — Adelaide Milton de Groot Fund, in memory of the de Groot and Hawley families, 1969 Narration: Kokoro / Heart (af_heart), synthetic speech. Music: original a"
+      - cell "—":
+        - generic: —
+      - cell "公開":
+        - generic: 公開
+      - cell "2026/10/27 公開日":
+        - text: 2026/10/27
+        - generic: 公開日
+      - cell "39"
+      - cell "動画にコメントが 0 件あります。動画のコメントページ":
+        - link "動画にコメントが 0 件あります。動画のコメントページ":
+          - /url: /video/THd4RPvFtxk/comments
+          - text: "0"
+    - 'row "Why Put a Monster''s Face on a Roof? を選択 動画のサムネイル: Why Put a Monster''s Face on a Roof? 0:18 Why Put a Monster''s Face on a Roof? Gorgon faces on roof tiles, cups and shields may have been meant to keep harm away. Full episode: https://youtu.be/uUMStOFL-68 Images — The Metropolitan Museum of Art, Open Access (Public Domain / CC0) - Terracotta painted gorgoneion antefix (roof tile), ca. 540 BCE. The Met 39.11.9. https://www.metmuseum.org/art/collection/search/253581 - Terracotta kylix: eye-cup (drinking cup), ca. 530 BCE. The Met 14.136. https://www.metmuseum.org/art/collection/search/248906 - Fragment of a terracotta reli — 公開 2026/10/27 公開日 307 動画にコメントが 0 件あります。動画のコメントページ"':
+      - cell "Why Put a Monster's Face on a Roof? を選択":
+        - generic "Why Put a Monster's Face on a Roof? を選択":
+          - checkbox "Why Put a Monster's Face on a Roof? を選択"
+      - 'cell "動画のサムネイル: Why Put a Monster''s Face on a Roof? 0:18 Why Put a Monster''s Face on a Roof? Gorgon faces on roof tiles, cups and shields may have been meant to keep harm away. Full episode: https://youtu.be/uUMStOFL-68 Images — The Metropolitan Museum of Art, Open Access (Public Domain / CC0) - Terracotta painted gorgoneion antefix (roof tile), ca. 540 BCE. The Met 39.11.9. https://www.metmuseum.org/art/collection/search/253581 - Terracotta kylix: eye-cup (drinking cup), ca. 530 BCE. The Met 14.136. https://www.metmuseum.org/art/collection/search/248906 - Fragment of a terracotta reli"':
+        - 'link "動画のサムネイル: Why Put a Monster''s Face on a Roof? 0:18"':
+          - /url: /video/yp54F7xY1C0/edit
+          - 'img "動画のサムネイル: Why Put a Monster''s Face on a Roof?"'
+          - generic: 0:18
+        - link "Why Put a Monster's Face on a Roof?":
+          - /url: /video/yp54F7xY1C0/edit
+          - generic: Why Put a Monster's Face on a Roof?
+        - generic: "Gorgon faces on roof tiles, cups and shields may have been meant to keep harm away. Full episode: https://youtu.be/uUMStOFL-68 Images — The Metropolitan Museum of Art, Open Access (Public Domain / CC0) - Terracotta painted gorgoneion antefix (roof tile), ca. 540 BCE. The Met 39.11.9. https://www.metmuseum.org/art/collection/search/253581 - Terracotta kylix: eye-cup (drinking cup), ca. 530 BCE. The Met 14.136. https://www.metmuseum.org/art/collection/search/248906 - Fragment of a terracotta reli"
+      - cell "—":
+        - generic: —
+      - cell "公開":
+        - generic: 公開
+      - cell "2026/10/27 公開日":
+        - text: 2026/10/27
+        - generic: 公開日
+      - cell "307"
+      - cell "動画にコメントが 0 件あります。動画のコメントページ":
+        - link "動画にコメントが 0 件あります。動画のコメントページ":
+          - /url: /video/yp54F7xY1C0/comments
+          - text: "0"
+    - 'row "Why Is It Called Halloween? を選択 動画のサムネイル: Why Is It Called Halloween? 0:18 Why Is It Called Halloween? Halloween is short for All Hallows'' Eve, the night before All Saints'' Day. Full episode: https://youtu.be/cKOVplspPvE - Osservanza Master, All Saints in an Initial E or O, ca. 1430–40. The Metropolitan Museum of Art, 1975.1.2484. Public Domain / CC0. https://www.metmuseum.org/art/collection/search/461011 AI reconstructions (still images): OpenAI image generation. Narration: Kokoro / Heart (af_heart), synthetic speech. AI reconstructions are labelled on screen (OpenAI image generation). Music: o — 公開 2026/10/26 公開日 185 動画にコメントが 0 件あります。動画のコメントページ"':
+      - cell "Why Is It Called Halloween? を選択":
+        - generic "Why Is It Called Halloween? を選択":
+          - checkbox "Why Is It Called Halloween? を選択"
+      - 'cell "動画のサムネイル: Why Is It Called Halloween? 0:18 Why Is It Called Halloween? Halloween is short for All Hallows'' Eve, the night before All Saints'' Day. Full episode: https://youtu.be/cKOVplspPvE - Osservanza Master, All Saints in an Initial E or O, ca. 1430–40. The Metropolitan Museum of Art, 1975.1.2484. Public Domain / CC0. https://www.metmuseum.org/art/collection/search/461011 AI reconstructions (still images): OpenAI image generation. Narration: Kokoro / Heart (af_heart), synthetic speech. AI reconstructions are labelled on screen (OpenAI image generation). Music: o"':
+        - 'link "動画のサムネイル: Why Is It Called Halloween? 0:18"':
+          - /url: /video/HQPJsvC7-9Q/edit
+          - 'img "動画のサムネイル: Why Is It Called Halloween?"'
+          - generic: 0:18
+        - link "Why Is It Called Halloween?":
+          - /url: /video/HQPJsvC7-9Q/edit
+          - generic: Why Is It Called Halloween?
+        - generic: "Halloween is short for All Hallows' Eve, the night before All Saints' Day. Full episode: https://youtu.be/cKOVplspPvE - Osservanza Master, All Saints in an Initial E or O, ca. 1430–40. The Metropolitan Museum of Art, 1975.1.2484. Public Domain / CC0. https://www.metmuseum.org/art/collection/search/461011 AI reconstructions (still images): OpenAI image generation. Narration: Kokoro / Heart (af_heart), synthetic speech. AI reconstructions are labelled on screen (OpenAI image generation). Music: o"
+      - cell "—":
+        - generic: —
+      - cell "公開":
+        - generic: 公開
+      - cell "2026/10/26 公開日":
+        - text: 2026/10/26
+        - generic: 公開日
+      - cell "185"
+      - cell "動画にコメントが 0 件あります。動画のコメントページ":
+        - link "動画にコメントが 0 件あります。動画のコメントページ":
+          - /url: /video/HQPJsvC7-9Q/comments
+          - text: "0"
+    - 'row "Not Just a Feather on the Scale of Judgment を選択 動画のサムネイル: Not Just a Feather on the Scale of Judgment 0:18 Not Just a Feather on the Scale of Judgment On Nauny''s papyrus, Maat appears as a small goddess wearing a feather. Full episode: https://youtu.be/AanbRJfeGxo S04 Book of the Dead for the Chantress of Amun, Nauny https://www.metmuseum.org/art/collection/search/548344 Images: The Metropolitan Museum of Art / Open Access (CC0) https://www.metmuseum.org/hubs/open-access 548344 / 30.3.31 — Rogers Fund, 1930 Narration: Kokoro / Heart (af_heart), synthetic speech. Music: original ambient score by Quiet Origins. #Shorts #History #AncientEgypt # — 公開 2026/10/26 公開日 171 動画にコメントが 0 件あります。動画のコメントページ"':
+      - cell "Not Just a Feather on the Scale of Judgment を選択":
+        - generic "Not Just a Feather on the Scale of Judgment を選択":
+          - checkbox "Not Just a Feather on the Scale of Judgment を選択"
+      - 'cell "動画のサムネイル: Not Just a Feather on the Scale of Judgment 0:18 Not Just a Feather on the Scale of Judgment On Nauny''s papyrus, Maat appears as a small goddess wearing a feather. Full episode: https://youtu.be/AanbRJfeGxo S04 Book of the Dead for the Chantress of Amun, Nauny https://www.metmuseum.org/art/collection/search/548344 Images: The Metropolitan Museum of Art / Open Access (CC0) https://www.metmuseum.org/hubs/open-access 548344 / 30.3.31 — Rogers Fund, 1930 Narration: Kokoro / Heart (af_heart), synthetic speech. Music: original ambient score by Quiet Origins. #Shorts #History #AncientEgypt #"':
+        - 'link "動画のサムネイル: Not Just a Feather on the Scale of Judgment 0:18"':
+          - /url: /video/ZhmZBqhWq4Q/edit
+          - 'img "動画のサムネイル: Not Just a Feather on the Scale of Judgment"'
+          - generic: 0:18
+        - link "Not Just a Feather on the Scale of Judgment":
+          - /url: /video/ZhmZBqhWq4Q/edit
+          - generic: Not Just a Feather on the Scale of Judgment
+        - generic: "On Nauny's papyrus, Maat appears as a small goddess wearing a feather. Full episode: https://youtu.be/AanbRJfeGxo S04 Book of the Dead for the Chantress of Amun, Nauny https://www.metmuseum.org/art/collection/search/548344 Images: The Metropolitan Museum of Art / Open Access (CC0) https://www.metmuseum.org/hubs/open-access 548344 / 30.3.31 — Rogers Fund, 1930 Narration: Kokoro / Heart (af_heart), synthetic speech. Music: original ambient score by Quiet Origins. #Shorts #History #AncientEgypt #"
+      - cell "—":
+        - generic: —
+      - cell "公開":
+        - generic: 公開
+      - cell "2026/10/26 公開日":
+        - text: 2026/10/26
+        - generic: 公開日
+      - cell "171"
+      - cell "動画にコメントが 0 件あります。動画のコメントページ":
+        - link "動画にコメントが 0 件あります。動画のコメントページ":
+          - /url: /video/ZhmZBqhWq4Q/comments
+          - text: "0"
+    - 'row "The First Jack-o''-Lanterns Weren''t Pumpkins を選択 動画のサムネイル: The First Jack-o''-Lanterns Weren''t Pumpkins 0:18 The First Jack-o''-Lanterns Weren''t Pumpkins Before pumpkins, there were turnips. Full episode: https://youtu.be/cKOVplspPvE AI reconstructions (still images): OpenAI image generation. AI video clips: Kling AI. Narration: Kokoro / Heart (af_heart), synthetic speech. AI reconstructions are labelled on screen (OpenAI image generation; Kling AI). Music: original ambient score by Quiet Origins. #Shorts #History #Halloween #JackOLantern — 公開 2026/10/25 公開日 118 動画にコメントが 0 件あります。動画のコメントページ"':
+      - cell "The First Jack-o'-Lanterns Weren't Pumpkins を選択":
+        - generic "The First Jack-o'-Lanterns Weren't Pumpkins を選択":
+          - checkbox "The First Jack-o'-Lanterns Weren't Pumpkins を選択"
+      - 'cell "動画のサムネイル: The First Jack-o''-Lanterns Weren''t Pumpkins 0:18 The First Jack-o''-Lanterns Weren''t Pumpkins Before pumpkins, there were turnips. Full episode: https://youtu.be/cKOVplspPvE AI reconstructions (still images): OpenAI image generation. AI video clips: Kling AI. Narration: Kokoro / Heart (af_heart), synthetic speech. AI reconstructions are labelled on screen (OpenAI image generation; Kling AI). Music: original ambient score by Quiet Origins. #Shorts #History #Halloween #JackOLantern"':
+        - 'link "動画のサムネイル: The First Jack-o''-Lanterns Weren''t Pumpkins 0:18"':
+          - /url: /video/tWYc1dg_GkU/edit
+          - 'img "動画のサムネイル: The First Jack-o''-Lanterns Weren''t Pumpkins"'
+          - generic: 0:18
+        - link "The First Jack-o'-Lanterns Weren't Pumpkins":
+          - /url: /video/tWYc1dg_GkU/edit
+          - generic: The First Jack-o'-Lanterns Weren't Pumpkins
+        - generic: "Before pumpkins, there were turnips. Full episode: https://youtu.be/cKOVplspPvE AI reconstructions (still images): OpenAI image generation. AI video clips: Kling AI. Narration: Kokoro / Heart (af_heart), synthetic speech. AI reconstructions are labelled on screen (OpenAI image generation; Kling AI). Music: original ambient score by Quiet Origins. #Shorts #History #Halloween #JackOLantern"
+      - cell "—":
+        - generic: —
+      - cell "公開":
+        - generic: 公開
+      - cell "2026/10/25 公開日":
+        - text: 2026/10/25
+        - generic: 公開日
+      - cell "118"
+      - cell "動画にコメントが 0 件あります。動画のコメントページ":
+        - link "動画にコメントが 0 件あります。動画のコメントページ":
+          - /url: /video/tWYc1dg_GkU/comments
+          - text: "0"
+    - 'row "Medusa Wasn''t Always Cursed を選択 動画のサムネイル: Medusa Wasn''t Always Cursed 0:20 Medusa Wasn''t Always Cursed In Hesiod''s Theogony, there is no curse. Medusa is simply born a Gorgon. Full episode: https://youtu.be/uUMStOFL-68 Images — The Metropolitan Museum of Art, Open Access (Public Domain / CC0) - Terracotta kylix: Siana cup (drinking cup), ca. 575 BCE. The Met 01.8.6. https://www.metmuseum.org/art/collection/search/246931 Narration: Kokoro / Heart (af_heart), synthetic speech. AI reconstruction labelled on screen (OpenAI image generation). Music: original ambient score by Quiet Origins. #Shorts # — 公開 2026/10/25 公開日 208 動画にコメントが 0 件あります。動画のコメントページ"':
+      - cell "Medusa Wasn't Always Cursed を選択":
+        - generic "Medusa Wasn't Always Cursed を選択":
+          - checkbox "Medusa Wasn't Always Cursed を選択"
+      - 'cell "動画のサムネイル: Medusa Wasn''t Always Cursed 0:20 Medusa Wasn''t Always Cursed In Hesiod''s Theogony, there is no curse. Medusa is simply born a Gorgon. Full episode: https://youtu.be/uUMStOFL-68 Images — The Metropolitan Museum of Art, Open Access (Public Domain / CC0) - Terracotta kylix: Siana cup (drinking cup), ca. 575 BCE. The Met 01.8.6. https://www.metmuseum.org/art/collection/search/246931 Narration: Kokoro / Heart (af_heart), synthetic speech. AI reconstruction labelled on screen (OpenAI image generation). Music: original ambient score by Quiet Origins. #Shorts #"':
+        - 'link "動画のサムネイル: Medusa Wasn''t Always Cursed 0:20"':
+          - /url: /video/bpYa64ygMpk/edit
+          - 'img "動画のサムネイル: Medusa Wasn''t Always Cursed"'
+          - generic: 0:20
+        - link "Medusa Wasn't Always Cursed":
+          - /url: /video/bpYa64ygMpk/edit
+          - generic: Medusa Wasn't Always Cursed
+        - generic: "In Hesiod's Theogony, there is no curse. Medusa is simply born a Gorgon. Full episode: https://youtu.be/uUMStOFL-68 Images — The Metropolitan Museum of Art, Open Access (Public Domain / CC0) - Terracotta kylix: Siana cup (drinking cup), ca. 575 BCE. The Met 01.8.6. https://www.metmuseum.org/art/collection/search/246931 Narration: Kokoro / Heart (af_heart), synthetic speech. AI reconstruction labelled on screen (OpenAI image generation). Music: original ambient score by Quiet Origins. #Shorts #"
+      - cell "—":
+        - generic: —
+      - cell "公開":
+        - generic: 公開
+      - cell "2026/10/25 公開日":
+        - text: 2026/10/25
+        - generic: 公開日
+      - cell "208"
+      - cell "動画にコメントが 0 件あります。動画のコメントページ":
+        - link "動画にコメントが 0 件あります。動画のコメントページ":
+          - /url: /video/bpYa64ygMpk/comments
+          - text: "0"
+    - 'row "There Was No Celtic God Called Samhain を選択 動画のサムネイル: There Was No Celtic God Called Samhain 0:20 There Was No Celtic God Called Samhain Samhain was a season and a festival in early Irish texts. The \"god of the dead\" came much later. Full episode: https://youtu.be/cKOVplspPvE - Charles Vallancey, Collectanea de rebus hibernicis, Vol. II, title page, 1786. Wellcome Collection, EPB/B/54038.v2. Public Domain Mark. https://wellcomecollection.org/works/ukgp57xu AI video clips: Kling AI. Narration: Kokoro / Heart (af_heart), synthetic speech. AI reconstructions are labelled on screen (Kling AI). Music: original ambient score by Quiet — 公開 2026/10/24 公開日 194 動画にコメントが 0 件あります。動画のコメントページ"':
+      - cell "There Was No Celtic God Called Samhain を選択":
+        - generic "There Was No Celtic God Called Samhain を選択":
+          - checkbox "There Was No Celtic God Called Samhain を選択"
+      - 'cell "動画のサムネイル: There Was No Celtic God Called Samhain 0:20 There Was No Celtic God Called Samhain Samhain was a season and a festival in early Irish texts. The \"god of the dead\" came much later. Full episode: https://youtu.be/cKOVplspPvE - Charles Vallancey, Collectanea de rebus hibernicis, Vol. II, title page, 1786. Wellcome Collection, EPB/B/54038.v2. Public Domain Mark. https://wellcomecollection.org/works/ukgp57xu AI video clips: Kling AI. Narration: Kokoro / Heart (af_heart), synthetic speech. AI reconstructions are labelled on screen (Kling AI). Music: original ambient score by Quiet"':
+        - 'link "動画のサムネイル: There Was No Celtic God Called Samhain 0:20"':
+          - /url: /video/4OQKyH8HzhU/edit
+          - 'img "動画のサムネイル: There Was No Celtic God Called Samhain"'
+          - generic: 0:20
+        - link "There Was No Celtic God Called Samhain":
+          - /url: /video/4OQKyH8HzhU/edit
+          - generic: There Was No Celtic God Called Samhain
+        - generic: "Samhain was a season and a festival in early Irish texts. The \"god of the dead\" came much later. Full episode: https://youtu.be/cKOVplspPvE - Charles Vallancey, Collectanea de rebus hibernicis, Vol. II, title page, 1786. Wellcome Collection, EPB/B/54038.v2. Public Domain Mark. https://wellcomecollection.org/works/ukgp57xu AI video clips: Kling AI. Narration: Kokoro / Heart (af_heart), synthetic speech. AI reconstructions are labelled on screen (Kling AI). Music: original ambient score by Quiet"
+      - cell "—":
+        - generic: —
+      - cell "公開":
+        - generic: 公開
+      - cell "2026/10/24 公開日":
+        - text: 2026/10/24
+        - generic: 公開日
+      - cell "194"
+      - cell "動画にコメントが 0 件あります。動画のコメントページ":
+        - link "動画にコメントが 0 件あります。動画のコメントページ":
+          - /url: /video/4OQKyH8HzhU/comments
+          - text: "0"
+    - 'row "Anubis Never Judged the Dead Alone を選択 動画のサムネイル: Anubis Never Judged the Dead Alone 0:19 Anubis Never Judged the Dead Alone In the ancient papyri, judgment is a scene shared by many gods. Full episode: https://youtu.be/AanbRJfeGxo S06 Anubis Weighing the Heart, Tomb of Nakhtamun https://www.metmuseum.org/art/collection/search/557830 S09 Cartonnage fragment https://www.metmuseum.org/art/collection/search/552247 Images: The Metropolitan Museum of Art / Open Access (CC0) https://www.metmuseum.org/hubs/open-access 557830 / 33.8.21 — Rogers Fund, 1933 552247 / 13.182.42 — Rogers Fund, 1913 MET 557830: a facsimile on pape — 公開 2026/10/23 公開日 1,139 動画にコメントが 0 件あります。動画のコメントページ"':
+      - cell "Anubis Never Judged the Dead Alone を選択":
+        - generic "Anubis Never Judged the Dead Alone を選択":
+          - checkbox "Anubis Never Judged the Dead Alone を選択"
+      - 'cell "動画のサムネイル: Anubis Never Judged the Dead Alone 0:19 Anubis Never Judged the Dead Alone In the ancient papyri, judgment is a scene shared by many gods. Full episode: https://youtu.be/AanbRJfeGxo S06 Anubis Weighing the Heart, Tomb of Nakhtamun https://www.metmuseum.org/art/collection/search/557830 S09 Cartonnage fragment https://www.metmuseum.org/art/collection/search/552247 Images: The Metropolitan Museum of Art / Open Access (CC0) https://www.metmuseum.org/hubs/open-access 557830 / 33.8.21 — Rogers Fund, 1933 552247 / 13.182.42 — Rogers Fund, 1913 MET 557830: a facsimile on pape"':
+        - 'link "動画のサムネイル: Anubis Never Judged the Dead Alone 0:19"':
+          - /url: /video/aRnxgw2Xykg/edit
+          - 'img "動画のサムネイル: Anubis Never Judged the Dead Alone"'
+          - generic: 0:19
+        - link "Anubis Never Judged the Dead Alone":
+          - /url: /video/aRnxgw2Xykg/edit
+          - generic: Anubis Never Judged the Dead Alone
+        - generic: "In the ancient papyri, judgment is a scene shared by many gods. Full episode: https://youtu.be/AanbRJfeGxo S06 Anubis Weighing the Heart, Tomb of Nakhtamun https://www.metmuseum.org/art/collection/search/557830 S09 Cartonnage fragment https://www.metmuseum.org/art/collection/search/552247 Images: The Metropolitan Museum of Art / Open Access (CC0) https://www.metmuseum.org/hubs/open-access 557830 / 33.8.21 — Rogers Fund, 1933 552247 / 13.182.42 — Rogers Fund, 1913 MET 557830: a facsimile on pape"
+      - cell "—":
+        - generic: —
+      - cell "公開":
+        - generic: 公開
+      - cell "2026/10/23 公開日":
+        - text: 2026/10/23
+        - generic: 公開日
+      - cell "1,139"
+      - cell "動画にコメントが 0 件あります。動画のコメントページ":
+        - link "動画にコメントが 0 件あります。動画のコメントページ":
+          - /url: /video/aRnxgw2Xykg/comments
+          - text: "0"
+    - generic: "1 ページあたりの行数:"
+    - generic "1 ページあたりの行数を選択するメニュー。":
+      - button "30":
+        - button "30":
+          - generic: "30"
+    - generic: 全 21 件中 1～21 件目
+    - button "最初のページに移動" [disabled]:
+    - button "前のページに移動" [disabled]:
+    - button "次のページに移動" [disabled]:
+    - button "最後のページに移動" [disabled]:
