@@ -1,0 +1,275 @@
+{
+ "episode_id": "EP008",
+ "series": "Quiet Origins",
+ "language": "en",
+ "title": "The Curse of Tutankhamun: Where Did It Come From?",
+ "subtitle": "A sealed tomb, a sudden death, and the newspapers and stories that made a curse",
+ "script_version": "v02 (2026-10-29, approved)",
+ "opening_after": "P02",
+ "chapters": [
+  {
+   "id": "C01",
+   "title": "The Curse Everyone Knows"
+  },
+  {
+   "id": "C02",
+   "title": "Wonderful Things"
+  },
+  {
+   "id": "C03",
+   "title": "A Story for the Newspapers"
+  },
+  {
+   "id": "C04",
+   "title": "Older Than the Tomb"
+  },
+  {
+   "id": "C05",
+   "title": "The Candle and the Curse"
+  }
+ ],
+ "sources": [
+  {
+   "id": "T-S01",
+   "title": "Howard Carter and A. C. Mace, The Tomb of Tut.ankh.Amen, vol. I, New York: George H. Doran, 1923 (MIT Libraries copy, IA tomboftutankhame00cart_1; 'No Copyright- United States')",
+   "kind": "primary_text",
+   "status": "checked by Codex 2026-10-29 (book image): p132 step found 4 Nov; p136 telegram (dated 6 Nov in the book); p138 ancient robbery and resealing; pp140-142 26 Nov, 'Yes, wonderful things.'; p201 publicity placed 'in the hands of The Times'; p245 Friday 16th, invited guests; p258 wishing cup 'May thy Ka live...'"
+  },
+  {
+   "id": "T-S02",
+   "title": "Howard Carter, journal, season 1 (Griffith Institute online transcription)",
+   "kind": "primary_text",
+   "status": "checked by Codex 2026-10-29 (institutional transcription): 26 Nov 'Yes, it is wonderful'; telegram under 5 Nov; 21 Mar erysipelas / blood poisoning; 26 Mar pneumonia; 5 Apr died in the early hours"
+  },
+  {
+   "id": "T-S03",
+   "title": "The Albany Democrat, 5 Apr 1923, p1; The Eugene Daily Guard, 6 Apr 1923, p1; Morning Register, 6 Apr 1923, p1 (University of Oregon Libraries, Public Domain Mark 1.0)",
+   "kind": "primary_text",
+   "status": "checked by Codex 2026-10-29 (page images): death and pneumonia reported; Conan Doyle's 'elemental' theory; Marie Corelli reported as speaking of ancient powers protecting the tomb; opposing views on the same pages"
+  },
+  {
+   "id": "T-S04",
+   "title": "The 'swift wings' warning",
+   "kind": "research",
+   "status": "origin and exact wording unconfirmed (Codex 2026-10-29); not found in the 1923 book passages, the journal entries checked, or Carter object 263. Not quoted verbatim; not a proof of absence from every record"
+  },
+  {
+   "id": "T-S05",
+   "title": "Louisa May Alcott, 'Lost in a Pyramid; or, The Mummy's Curse', The New World, 1869 (first publication per secondary literature)",
+   "kind": "research",
+   "status": "checked by Codex 2026-10-29 (transcription and scholarship): seeds taken from a tomb bring misfortune"
+  },
+  {
+   "id": "T-S06",
+   "title": "Arthur Conan Doyle, 'Lot No. 249', Harper's New Monthly Magazine, Sept 1892, pp. 525-544",
+   "kind": "primary_text",
+   "status": "checked by Codex 2026-10-29 (metadata/OCR): a mummy brought back to life. Page images not used (no PD/CC0 statement)"
+  },
+  {
+   "id": "T-S07",
+   "title": "Offering chapel of Hetepherakhty, 5th Dynasty, c. 2400 BC, Saqqara (Rijksmuseum van Oudheden, Leiden); J. H. Breasted, Ancient Records of Egypt I (1906), §253",
+   "kind": "research",
+   "status": "checked by Codex 2026-10-29 (museum description, 1906 translation): warning that those who enter unclean and do harm will be judged by the great god. Image not used"
+  },
+  {
+   "id": "T-S08",
+   "title": "Griffith Institute, person record: Howard Carter",
+   "kind": "research",
+   "status": "checked by Codex 2026-10-29: died 2 Mar 1939; work on the tomb about ten years"
+  },
+  {
+   "id": "T-S09",
+   "title": "Mark R. Nelson, 'The mummy's curse: historical cohort study', BMJ 2002;325:1482-1484, doi:10.1136/bmj.325.7378.1482",
+   "kind": "research",
+   "status": "checked by Codex 2026-10-29 (full text): 44 identified, 25 exposed, death data compared 25 vs 11; 'no significant association between exposure to the mummy's curse and survival'"
+  }
+ ],
+ "segments": [
+  {
+   "id": "P01",
+   "chapter": "C01",
+   "sources": [
+    "T-S04"
+   ],
+   "classification": "editorial_question",
+   "visuals": [
+    "B286"
+   ],
+   "text": "A sealed tomb in the Valley of the Kings. A warning, it is said, guarded its door: death would come swiftly to anyone who disturbed the king. And within five months of the tomb's opening, the man who had paid for the search was dead. This is the curse of Tutankhamun, as it has been told for a hundred years. But no reliable record shows that warning among the tomb's real inscriptions. So where did the curse come from?"
+  },
+  {
+   "id": "P02",
+   "chapter": "C01",
+   "sources": [],
+   "classification": "editorial_question",
+   "visuals": [
+    "N03"
+   ],
+   "text": "In this episode, we follow the story from a step in the sand, to the newspapers of 1923, and back to tales of mummies written long before the tomb was found."
+  },
+  {
+   "id": "P03",
+   "chapter": "C02",
+   "sources": [
+    "T-S01",
+    "T-S02"
+   ],
+   "classification": "sourced_narration",
+   "visuals": [
+    "B151",
+    "B157"
+   ],
+   "text": "On the fourth of November, 1922, Egyptian workmen digging for the archaeologist Howard Carter uncovered a step cut into the rock, in the Valley of the Kings, near Luxor. Carter had the stairway covered again, and sent a telegram to his patron in England, Lord Carnarvon."
+  },
+  {
+   "id": "P04",
+   "chapter": "C02",
+   "sources": [
+    "T-S01",
+    "T-S02"
+   ],
+   "classification": "sourced_narration",
+   "visuals": [
+    "B164",
+    "B170"
+   ],
+   "text": "On the twenty-sixth of November, with Carnarvon beside him, Carter made a small hole in a sealed doorway and held up a candle. Asked if he could see anything, he answered, as he later wrote in his book: \"Yes, wonderful things.\""
+  },
+  {
+   "id": "P05",
+   "chapter": "C02",
+   "sources": [
+    "T-S01"
+   ],
+   "classification": "sourced_narration",
+   "visuals": [
+    "B183",
+    "B299",
+    "B300"
+   ],
+   "text": "It was the tomb of a young king who had ruled more than three thousand years earlier. Robbers had entered it in ancient times, but many of the things buried with him were still there. On the sixteenth of February, 1923, before invited guests, the sealed door of the burial chamber was opened."
+  },
+  {
+   "id": "P06",
+   "chapter": "C03",
+   "sources": [
+    "T-S01"
+   ],
+   "classification": "sourced_narration",
+   "visuals": [
+    "B237",
+    "B241"
+   ],
+   "text": "The discovery made headlines around the world. Lord Carnarvon placed the reporting of the excavation in the hands of one London newspaper, The Times. In the race for news, stories from outside the tomb began to fill the papers too."
+  },
+  {
+   "id": "P07",
+   "chapter": "C03",
+   "sources": [
+    "T-S02",
+    "T-S03"
+   ],
+   "classification": "sourced_narration",
+   "visuals": [
+    "D_illness"
+   ],
+   "text": "In March 1923, Carnarvon fell ill with an infection, and then pneumonia. On the fifth of April, he died in Cairo, at the age of fifty-six."
+  },
+  {
+   "id": "P08",
+   "chapter": "C03",
+   "sources": [
+    "T-S03"
+   ],
+   "classification": "sourced_narration",
+   "visuals": [
+    "N01",
+    "N02"
+   ],
+   "text": "Newspapers around the world linked his death to the tomb. They reported that the novelist Marie Corelli had warned of ancient powers protecting it. The writer Arthur Conan Doyle was quoted as suggesting that a spirit-like force guarding the tomb might be to blame. On the same pages, other experts disagreed."
+  },
+  {
+   "id": "P09",
+   "chapter": "C03",
+   "sources": [
+    "T-S04",
+    "T-S01"
+   ],
+   "classification": "sourced_narration",
+   "visuals": [
+    "B313",
+    "B312"
+   ],
+   "text": "The famous warning appeared as the story was retold. But no reliable source shows those words in the tomb itself. Among the tomb's real texts are words for the king's protection and his eternal life. One alabaster cup carries a wish: may your spirit live, and may you spend millions of years."
+  },
+  {
+   "id": "P10",
+   "chapter": "C04",
+   "sources": [
+    "T-S05",
+    "T-S06"
+   ],
+   "classification": "sourced_narration",
+   "visuals": [
+    "D_novels"
+   ],
+   "text": "Stories of mummies and the dangers of their tombs were already being read long before the discovery. In 1869, Louisa May Alcott, the author of Little Women, published \"Lost in a Pyramid; or, The Mummy's Curse,\" a tale of seeds taken from a tomb that bring misfortune. In 1892, Conan Doyle himself published \"Lot No. 249,\" in which a mummy is brought back to life."
+  },
+  {
+   "id": "P11",
+   "chapter": "C04",
+   "sources": [
+    "T-S07"
+   ],
+   "classification": "sourced_narration",
+   "visuals": [
+    "D_warning"
+   ],
+   "text": "Ancient Egypt did have warnings of its own. One tomb chapel from around 2400 BC, more than a thousand years before Tutankhamun, warns that anyone who enters it unclean and does it harm will be judged by the great god. Those warnings are real. They simply belong to other tombs."
+  },
+  {
+   "id": "P12",
+   "chapter": "C05",
+   "sources": [
+    "T-S08",
+    "T-S09"
+   ],
+   "classification": "sourced_narration",
+   "visuals": [
+    "B246",
+    "D_bmj"
+   ],
+   "text": "And the people around the tomb? The work of recording and clearing it went on for about ten years, and Howard Carter lived until 1939. In 2002, a study in the British Medical Journal looked at the Westerners named in Carter's records. It found no statistically significant link between being present at the tomb's openings and how long people lived."
+  },
+  {
+   "id": "P13",
+   "chapter": "C05",
+   "sources": [],
+   "classification": "editorial_summary",
+   "visuals": [
+    "D_summary"
+   ],
+   "text": "So where did the curse come from? From older tales of mummies, a sudden and tragic death, and newspapers eager for a story. The tomb itself held a young king, and words meant to keep him safe."
+  },
+  {
+   "id": "P14",
+   "chapter": "C05",
+   "sources": [],
+   "classification": "editorial_closing",
+   "visuals": [
+    "V01"
+   ],
+   "text": "Every story has an origin. Sometimes, it begins with a candle held up in the dark."
+  },
+  {
+   "id": "P15",
+   "chapter": "C05",
+   "sources": [],
+   "classification": "credits",
+   "visuals": [
+    "credits"
+   ],
+   "text": "This video is based on historical texts and public museum collections. The narration uses synthetic speech, and some images are AI-generated reconstructions. Sources and terms of use are listed in the description. If you enjoyed this story, please like the video and subscribe for more quiet origins. Thank you for watching."
+  }
+ ]
+}
