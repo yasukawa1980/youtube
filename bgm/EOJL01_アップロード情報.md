@@ -136,3 +136,13 @@ sleep music, 8 hours, classical music for sleep, lullaby, brahms lullaby, satie,
 - URL 9本は Studio のコンテンツ一覧から取得
 - 浄書のクレジットは各巻の公開文と、EOJ02・04 は `source/*.rdf` の maintainer / licence 欄から
   （★EOJ02・04 の公開中の説明文には浄書のクレジットが入っていない。直すかは本人判断）
+
+## 投稿作業中（2026-10-29）
+
+- 投稿先：Whispers of Japan（`UCx4mLEohO3XCVxZajUynLzw`）、通常の動画。
+- 動画ID：`CEA02P94fLo`（https://youtu.be/CEA02P94fLo）。完成MP4の実測は31,612.3秒・11,385,906,773バイト。
+- 11月1日の既存予約をStudioで確認：本編0本、ショート2本、ライブ0本。EOJL01を加えると計3本。
+- 11.4GBのアップロードは完了。Studioで題名、説明文、タグ、音楽カテゴリ、英語、日本語ローカライズ、子ども向けでない設定、AI申告「いいえ」、既存の「Echoes of Old Japan」再生リストを保存済み。
+- 説明文はStudioの表示で4,641/5,000字。先頭の章立て9行とチャンネル既定説明文の末尾を保存後に確認。
+- サムネイルA/Bの比較を2枚で設定済み。非公開中はStudioに「動画が公開になっていないため対象外」と表示。公開後の開始を要確認。
+- **予約は未確定。** StudioはSD処理待ちで「まもなく処理が始まります」と表示。HD処理完了、初期チェック、終了画面、字幕を確認してから、2026-11-01 10:00 JSTを設定する。
