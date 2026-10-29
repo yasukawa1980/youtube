@@ -1,0 +1,1444 @@
+[
+  {
+    "key": "V01",
+    "base_asset": "V01",
+    "source": "",
+    "label": "AI RECONSTRUCTION｜AIによる再現",
+    "texts": [
+      {
+        "text": "QUIET ORIGINS  /  EP007",
+        "bbox": [
+          92,
+          24,
+          431,
+          46
+        ]
+      },
+      {
+        "text": "AI RECONSTRUCTION｜AIによる再現",
+        "bbox": [
+          1332.0,
+          21,
+          1820.0,
+          48
+        ]
+      }
+    ],
+    "art_boxes": [
+      [
+        0,
+        110,
+        1920,
+        1080
+      ]
+    ],
+    "camera_band": [
+      110,
+      1080
+    ],
+    "full_bleed": true,
+    "segment_id": "P01",
+    "file": "assets/P01_01_V01.png",
+    "sha256": "ccc7f9bcb1218914719f4642dca4fff0eeb132a2a0a32f5537d3ad3718ba33f0",
+    "start": 0.0,
+    "end": 35.233333333333334,
+    "frames": 1057,
+    "encoded_file": "_work/render/P01_01_V01.mp4",
+    "camera_direction": null,
+    "render_config": {
+      "image_sha256": "ccc7f9bcb1218914719f4642dca4fff0eeb132a2a0a32f5537d3ad3718ba33f0",
+      "frames": 1057,
+      "crf": 18,
+      "video_sha256": "16d5a453d65adaf176dfa94d66ab4adf77d5fd8bea7ebc36399ab7ee5ab053ef",
+      "source_start_frame": 0,
+      "source_frames_used": 121,
+      "time_scale": 6.988429752066115,
+      "full_bleed": true,
+      "filter": "[1:v]trim=start_frame=0:end_frame=121,setpts=(PTS-STARTPTS)*6.988429752066,scale=1280:720:flags=lanczos,minterpolate=fps=30:mi_mode=mci:mc_mode=aobmc:me_mode=bidir:vsbmc=1,scale=1920:1080:flags=lanczos,tpad=start_mode=clone:start_duration=0.034:stop_mode=clone:stop_duration=0.25[art];[0:v]crop=1920:110:0:0[header];[art][header]overlay=0:0:shortest=1,format=yuv420p[v]"
+    }
+  },
+  {
+    "key": "G08-01",
+    "base_asset": "G08-01",
+    "source": "Harper's Weekly, 27 Nov 1858 (after Winslow Homer) • The Metropolitan Museum of Art",
+    "label": "WOOD ENGRAVING｜木版画",
+    "texts": [
+      {
+        "text": "QUIET ORIGINS  /  EP007",
+        "bbox": [
+          92,
+          24,
+          431,
+          46
+        ]
+      },
+      {
+        "text": "WOOD ENGRAVING｜木版画",
+        "bbox": [
+          1449.0,
+          21,
+          1820.0,
+          48
+        ]
+      },
+      {
+        "text": "Harper's Weekly, 27 Nov 1858 (after Winslow Homer) • The Metropolitan Museum of Art",
+        "bbox": [
+          92,
+          72,
+          993,
+          95
+        ]
+      }
+    ],
+    "art_boxes": [
+      [
+        674,
+        110,
+        1246,
+        930
+      ]
+    ],
+    "camera_band": [
+      110,
+      930
+    ],
+    "segment_id": "P02",
+    "file": "assets/P02_01_G08-01.png",
+    "sha256": "7376b286241ad8470ddb241ce685564edf94feb5cfb6f9aac63532eaefe0c9ea",
+    "start": 35.233333333333334,
+    "end": 51.36666666666667,
+    "frames": 484,
+    "encoded_file": "_work/render/P02_01_G08-01.mp4",
+    "camera_direction": null,
+    "render_config": {
+      "image_sha256": "7376b286241ad8470ddb241ce685564edf94feb5cfb6f9aac63532eaefe0c9ea",
+      "frames": 484,
+      "crf": 18,
+      "filter": "[0:v]split=2[base][art];[art]crop=1920:820:0:110,format=yuv444p,perspective=x0='(W-W/(1+0.03*on/483))/2':y0='(H-H/(1+0.03*on/483))/2':x1='(W-W/(1+0.03*on/483))/2+W/(1+0.03*on/483)':y1='(H-H/(1+0.03*on/483))/2':x2='(W-W/(1+0.03*on/483))/2':y2='(H-H/(1+0.03*on/483))/2+H/(1+0.03*on/483)':x3='(W-W/(1+0.03*on/483))/2+W/(1+0.03*on/483)':y3='(H-H/(1+0.03*on/483))/2+H/(1+0.03*on/483)':sense=source:eval=frame:interpolation=cubic[moving];[base][moving]overlay=0:110:format=yuv444,format=yuv420p[v]"
+    }
+  },
+  {
+    "key": "opening",
+    "segment_id": "BRAND",
+    "start": 51.36666666666667,
+    "end": 55.36666666666667,
+    "frames": 120,
+    "encoded_file": "/Users/ryo/Desktop/新チャンネル/ブランド素材/オープニング_エンドカード_動画試作_v02_20261021/deliverables/Quiet_Origins_opening_trial_v02.mp4",
+    "original_source": "/Users/ryo/Desktop/新チャンネル/ブランド素材/オープニング_エンドカード_動画試作_v02_20261021/deliverables/Quiet_Origins_opening_trial_v02.mp4",
+    "original_sha256": "4f8e95fd166e52b6c601c87440006ded2eec298f54c3d6d6a951738b54f721a9"
+  },
+  {
+    "key": "G01-01",
+    "base_asset": "G01-01",
+    "source": "Mourt's Relation, London 1622 • Boston Public Library / Internet Archive",
+    "label": "PRINTED BOOK｜刊本",
+    "texts": [
+      {
+        "text": "QUIET ORIGINS  /  EP007",
+        "bbox": [
+          92,
+          24,
+          431,
+          46
+        ]
+      },
+      {
+        "text": "PRINTED BOOK｜刊本",
+        "bbox": [
+          1529.0,
+          21,
+          1820.0,
+          48
+        ]
+      },
+      {
+        "text": "Mourt's Relation, London 1622 • Boston Public Library / Internet Archive",
+        "bbox": [
+          92,
+          72,
+          825,
+          95
+        ]
+      }
+    ],
+    "art_boxes": [
+      [
+        667,
+        110,
+        1252,
+        930
+      ]
+    ],
+    "camera_band": [
+      110,
+      930
+    ],
+    "segment_id": "P03",
+    "file": "assets/P03_01_G01-01.png",
+    "sha256": "4929531df608ff4474196fd3681b0694e1ca5d3a4627d468cb4fc0ea02baa646",
+    "start": 55.36666666666667,
+    "end": 61.13333333333333,
+    "frames": 173,
+    "encoded_file": "_work/render/P03_01_G01-01.mp4",
+    "camera_direction": null,
+    "render_config": {
+      "image_sha256": "4929531df608ff4474196fd3681b0694e1ca5d3a4627d468cb4fc0ea02baa646",
+      "frames": 173,
+      "crf": 18,
+      "filter": "[0:v]split=2[base][art];[art]crop=1920:820:0:110,format=yuv444p,perspective=x0='(W-W/(1+0.03*on/172))/2':y0='(H-H/(1+0.03*on/172))/2':x1='(W-W/(1+0.03*on/172))/2+W/(1+0.03*on/172)':y1='(H-H/(1+0.03*on/172))/2':x2='(W-W/(1+0.03*on/172))/2':y2='(H-H/(1+0.03*on/172))/2+H/(1+0.03*on/172)':x3='(W-W/(1+0.03*on/172))/2+W/(1+0.03*on/172)':y3='(H-H/(1+0.03*on/172))/2+H/(1+0.03*on/172)':sense=source:eval=frame:interpolation=cubic[moving];[base][moving]overlay=0:110:format=yuv444,format=yuv420p[v]"
+    }
+  },
+  {
+    "key": "G02-02",
+    "base_asset": "G02-02",
+    "source": "Mourt's Relation, London 1622 • p. 60 • Boston Public Library / Internet Archive",
+    "label": "PRINTED BOOK｜刊本",
+    "texts": [
+      {
+        "text": "QUIET ORIGINS  /  EP007",
+        "bbox": [
+          92,
+          24,
+          431,
+          46
+        ]
+      },
+      {
+        "text": "PRINTED BOOK｜刊本",
+        "bbox": [
+          1529.0,
+          21,
+          1820.0,
+          48
+        ]
+      },
+      {
+        "text": "Mourt's Relation, London 1622 • p. 60 • Boston Public Library / Internet Archive",
+        "bbox": [
+          92,
+          72,
+          896,
+          95
+        ]
+      }
+    ],
+    "art_boxes": [
+      [
+        70,
+        173,
+        580,
+        891
+      ],
+      [
+        640,
+        394,
+        1840,
+        625
+      ]
+    ],
+    "camera_band": [
+      110,
+      930
+    ],
+    "detail_crop_normalized": [
+      0.175,
+      0.145,
+      0.87,
+      0.24
+    ],
+    "segment_id": "P03",
+    "file": "assets/P03_02_G02-02.png",
+    "sha256": "8e9cc8f329353cacc44405e6b04f2456b6b4958791738d84cfe3aeb099981edc",
+    "start": 61.13333333333333,
+    "end": 74.1,
+    "frames": 389,
+    "encoded_file": "_work/render/P03_02_G02-02.mp4",
+    "camera_direction": null,
+    "render_config": {
+      "image_sha256": "8e9cc8f329353cacc44405e6b04f2456b6b4958791738d84cfe3aeb099981edc",
+      "frames": 389,
+      "crf": 18,
+      "filter": "[0:v]split=2[base][art];[art]crop=1920:820:0:110,format=yuv444p,perspective=x0='(W-W/(1+0.03*on/388))/2':y0='(H-H/(1+0.03*on/388))/2':x1='(W-W/(1+0.03*on/388))/2+W/(1+0.03*on/388)':y1='(H-H/(1+0.03*on/388))/2':x2='(W-W/(1+0.03*on/388))/2':y2='(H-H/(1+0.03*on/388))/2+H/(1+0.03*on/388)':x3='(W-W/(1+0.03*on/388))/2+W/(1+0.03*on/388)':y3='(H-H/(1+0.03*on/388))/2+H/(1+0.03*on/388)':sense=source:eval=frame:interpolation=cubic[moving];[base][moving]overlay=0:110:format=yuv444,format=yuv420p[v]"
+    }
+  },
+  {
+    "key": "G02-01",
+    "base_asset": "G02-01",
+    "source": "Mourt's Relation, London 1622 • p. 61 • Boston Public Library / Internet Archive",
+    "label": "PRINTED BOOK｜刊本",
+    "texts": [
+      {
+        "text": "QUIET ORIGINS  /  EP007",
+        "bbox": [
+          92,
+          24,
+          431,
+          46
+        ]
+      },
+      {
+        "text": "PRINTED BOOK｜刊本",
+        "bbox": [
+          1529.0,
+          21,
+          1820.0,
+          48
+        ]
+      },
+      {
+        "text": "Mourt's Relation, London 1622 • p. 61 • Boston Public Library / Internet Archive",
+        "bbox": [
+          92,
+          72,
+          896,
+          95
+        ]
+      }
+    ],
+    "art_boxes": [
+      [
+        70,
+        173,
+        580,
+        891
+      ],
+      [
+        640,
+        290,
+        1840,
+        730
+      ]
+    ],
+    "camera_band": [
+      110,
+      930
+    ],
+    "detail_crop_normalized": [
+      0.065,
+      0.058,
+      0.795,
+      0.248
+    ],
+    "detail_pan_end_normalized": [
+      0.065,
+      0.2,
+      0.795,
+      0.39
+    ],
+    "segment_id": "P04",
+    "file": "assets/P04_01_G02-01.png",
+    "sha256": "5f423de1af4663a665dc4885be98a4439f2a9914f2144949f7e1dbd881c077d5",
+    "start": 74.1,
+    "end": 102.6,
+    "frames": 855,
+    "encoded_file": "_work/render/P04_01_G02-01.mp4",
+    "camera_direction": null,
+    "render_config": {
+      "image_sha256": "5f423de1af4663a665dc4885be98a4439f2a9914f2144949f7e1dbd881c077d5",
+      "frames": 855,
+      "crf": 18,
+      "detail_pan_start": [
+        0.065,
+        0.058,
+        0.795,
+        0.248
+      ],
+      "detail_pan_end": [
+        0.065,
+        0.2,
+        0.795,
+        0.39
+      ],
+      "detail_source_sha256": "022d74f5a12ee175b707fb7bc1c5cacddd9630029b4e6ad5424014dba4e05589",
+      "filter": "[1:v]format=yuv444p,perspective=x0='0':y0='(.142/.332*on/854)*H':x1='W':y1='(.142/.332*on/854)*H':x2='0':y2='(.142/.332*on/854)*H+(.19/.332)*H':x3='W':y3='(.142/.332*on/854)*H+(.19/.332)*H':sense=source:eval=frame:interpolation=cubic,scale=1200:440:flags=lanczos[detail];[0:v][detail]overlay=640:290:format=yuv444,format=yuv420p[v]"
+    }
+  },
+  {
+    "key": "V02",
+    "base_asset": "V02",
+    "source": "",
+    "label": "AI RECONSTRUCTION｜AIによる再現",
+    "texts": [
+      {
+        "text": "QUIET ORIGINS  /  EP007",
+        "bbox": [
+          92,
+          24,
+          431,
+          46
+        ]
+      },
+      {
+        "text": "AI RECONSTRUCTION｜AIによる再現",
+        "bbox": [
+          1332.0,
+          21,
+          1820.0,
+          48
+        ]
+      }
+    ],
+    "art_boxes": [
+      [
+        0,
+        110,
+        1920,
+        1080
+      ]
+    ],
+    "camera_band": [
+      110,
+      1080
+    ],
+    "full_bleed": true,
+    "segment_id": "P05",
+    "file": "assets/P05_01_V02.png",
+    "sha256": "72816a6669d35fc0e8ac7b483688f3e3f43720ef84dc2ee272dd61ce30de0009",
+    "start": 102.6,
+    "end": 125.86666666666666,
+    "frames": 698,
+    "encoded_file": "_work/render/P05_01_V02.mp4",
+    "camera_direction": null,
+    "render_config": {
+      "image_sha256": "72816a6669d35fc0e8ac7b483688f3e3f43720ef84dc2ee272dd61ce30de0009",
+      "frames": 698,
+      "crf": 18,
+      "video_sha256": "ddc09f3108fd13217c4267ddb285aa4a79cbc87f7d5bd88c409ea07cf466fefa",
+      "source_start_frame": 0,
+      "source_frames_used": 193,
+      "time_scale": 2.8932642487046634,
+      "full_bleed": true,
+      "filter": "[1:v]trim=start_frame=0:end_frame=193,setpts=(PTS-STARTPTS)*2.893264248705,scale=1280:720:flags=lanczos,minterpolate=fps=30:mi_mode=mci:mc_mode=aobmc:me_mode=bidir:vsbmc=1,scale=1920:1080:flags=lanczos,tpad=start_mode=clone:start_duration=0.034:stop_mode=clone:stop_duration=0.25[art];[0:v]crop=1920:110:0:0[header];[art][header]overlay=0:0:shortest=1,format=yuv420p[v]"
+    }
+  },
+  {
+    "key": "G09-01",
+    "base_asset": "G09-01",
+    "source": "Audubon, The Birds of America, Plate I (1827–30) • University of South Carolina Libraries",
+    "label": "ENGRAVING｜銅版画",
+    "texts": [
+      {
+        "text": "QUIET ORIGINS  /  EP007",
+        "bbox": [
+          92,
+          24,
+          431,
+          46
+        ]
+      },
+      {
+        "text": "ENGRAVING｜銅版画",
+        "bbox": [
+          1547.0,
+          21,
+          1820.0,
+          48
+        ]
+      },
+      {
+        "text": "Audubon, The Birds of America, Plate I (1827–30) • University of South Carolina Libraries",
+        "bbox": [
+          91,
+          72,
+          1004,
+          95
+        ]
+      }
+    ],
+    "art_boxes": [
+      [
+        673,
+        110,
+        1247,
+        930
+      ]
+    ],
+    "camera_band": [
+      110,
+      930
+    ],
+    "segment_id": "P06",
+    "file": "assets/P06_01_G09-01.png",
+    "sha256": "c3a2c3841f04cc0cff1c1e5c3cc1c2d7538212a43d06649bc98403dd1facf012",
+    "start": 125.86666666666666,
+    "end": 147.63333333333333,
+    "frames": 653,
+    "encoded_file": "_work/render/P06_01_G09-01.mp4",
+    "camera_direction": "audubon_head",
+    "render_config": {
+      "image_sha256": "c3a2c3841f04cc0cff1c1e5c3cc1c2d7538212a43d06649bc98403dd1facf012",
+      "frames": 653,
+      "crf": 18,
+      "filter": "[0:v]split=2[base][art];[art]crop=1920:820:0:110,format=yuv444p,perspective=x0='(W-W/(1+0.24*on/652))*0.68':y0='(H-H/(1+0.24*on/652))*0.15':x1='(W-W/(1+0.24*on/652))*0.68+W/(1+0.24*on/652)':y1='(H-H/(1+0.24*on/652))*0.15':x2='(W-W/(1+0.24*on/652))*0.68':y2='(H-H/(1+0.24*on/652))*0.15+H/(1+0.24*on/652)':x3='(W-W/(1+0.24*on/652))*0.68+W/(1+0.24*on/652)':y3='(H-H/(1+0.24*on/652))*0.15+H/(1+0.24*on/652)':sense=source:eval=frame:interpolation=cubic[moving];[base][moving]overlay=0:110:format=yuv444,format=yuv420p[v]"
+    }
+  },
+  {
+    "key": "G14-01",
+    "base_asset": "G14-01",
+    "source": "Winslow, Good Newes, London 1624 • Boston Public Library / Internet Archive",
+    "label": "PRINTED BOOK｜刊本",
+    "texts": [
+      {
+        "text": "QUIET ORIGINS  /  EP007",
+        "bbox": [
+          92,
+          24,
+          431,
+          46
+        ]
+      },
+      {
+        "text": "PRINTED BOOK｜刊本",
+        "bbox": [
+          1529.0,
+          21,
+          1820.0,
+          48
+        ]
+      },
+      {
+        "text": "Winslow, Good Newes, London 1624 • Boston Public Library / Internet Archive",
+        "bbox": [
+          92,
+          72,
+          893,
+          95
+        ]
+      }
+    ],
+    "art_boxes": [
+      [
+        655,
+        110,
+        1265,
+        930
+      ]
+    ],
+    "camera_band": [
+      110,
+      930
+    ],
+    "segment_id": "P07",
+    "file": "assets/P07_01_G14-01.png",
+    "sha256": "61af1fe0b3bd5f8e1eb5ded1f62af4c5ab175328eee915dfe302b15f1d49eba2",
+    "start": 147.63333333333333,
+    "end": 157.23333333333332,
+    "frames": 288,
+    "encoded_file": "_work/render/P07_01_G14-01.mp4",
+    "camera_direction": null,
+    "render_config": {
+      "image_sha256": "61af1fe0b3bd5f8e1eb5ded1f62af4c5ab175328eee915dfe302b15f1d49eba2",
+      "frames": 288,
+      "crf": 18,
+      "filter": "[0:v]split=2[base][art];[art]crop=1920:820:0:110,format=yuv444p,perspective=x0='(W-W/(1+0.03*on/287))/2':y0='(H-H/(1+0.03*on/287))/2':x1='(W-W/(1+0.03*on/287))/2+W/(1+0.03*on/287)':y1='(H-H/(1+0.03*on/287))/2':x2='(W-W/(1+0.03*on/287))/2':y2='(H-H/(1+0.03*on/287))/2+H/(1+0.03*on/287)':x3='(W-W/(1+0.03*on/287))/2+W/(1+0.03*on/287)':y3='(H-H/(1+0.03*on/287))/2+H/(1+0.03*on/287)':sense=source:eval=frame:interpolation=cubic[moving];[base][moving]overlay=0:110:format=yuv444,format=yuv420p[v]"
+    }
+  },
+  {
+    "key": "G14-02",
+    "base_asset": "G14-02",
+    "source": "Winslow, Good Newes, London 1624 • p. 49 • Boston Public Library / Internet Archive",
+    "label": "PRINTED BOOK｜刊本",
+    "texts": [
+      {
+        "text": "QUIET ORIGINS  /  EP007",
+        "bbox": [
+          92,
+          24,
+          431,
+          46
+        ]
+      },
+      {
+        "text": "PRINTED BOOK｜刊本",
+        "bbox": [
+          1529.0,
+          21,
+          1820.0,
+          48
+        ]
+      },
+      {
+        "text": "Winslow, Good Newes, London 1624 • p. 49 • Boston Public Library / Internet Archive",
+        "bbox": [
+          92,
+          72,
+          964,
+          95
+        ]
+      }
+    ],
+    "art_boxes": [
+      [
+        70,
+        190,
+        580,
+        875
+      ],
+      [
+        640,
+        413,
+        1840,
+        607
+      ]
+    ],
+    "camera_band": [
+      110,
+      930
+    ],
+    "detail_crop_normalized": [
+      0.07,
+      0.652,
+      0.76,
+      0.735
+    ],
+    "segment_id": "P07",
+    "file": "assets/P07_02_G14-02.png",
+    "sha256": "938c3671f6cafad0c6eb661b8e19606fb22668459329eb84bd2243f965bcc29c",
+    "start": 157.23333333333332,
+    "end": 165.56666666666666,
+    "frames": 250,
+    "encoded_file": "_work/render/P07_02_G14-02.mp4",
+    "camera_direction": null,
+    "render_config": {
+      "image_sha256": "938c3671f6cafad0c6eb661b8e19606fb22668459329eb84bd2243f965bcc29c",
+      "frames": 250,
+      "crf": 18,
+      "filter": "[0:v]split=2[base][art];[art]crop=1920:820:0:110,format=yuv444p,perspective=x0='(W-W/(1+0.03*on/249))/2':y0='(H-H/(1+0.03*on/249))/2':x1='(W-W/(1+0.03*on/249))/2+W/(1+0.03*on/249)':y1='(H-H/(1+0.03*on/249))/2':x2='(W-W/(1+0.03*on/249))/2':y2='(H-H/(1+0.03*on/249))/2+H/(1+0.03*on/249)':x3='(W-W/(1+0.03*on/249))/2+W/(1+0.03*on/249)':y3='(H-H/(1+0.03*on/249))/2+H/(1+0.03*on/249)':sense=source:eval=frame:interpolation=cubic[moving];[base][moving]overlay=0:110:format=yuv444,format=yuv420p[v]"
+    }
+  },
+  {
+    "key": "G14-04",
+    "base_asset": "G14-04",
+    "source": "Winslow, Good Newes, London 1624 • p. 51 • Boston Public Library / Internet Archive",
+    "label": "PRINTED BOOK｜刊本",
+    "texts": [
+      {
+        "text": "QUIET ORIGINS  /  EP007",
+        "bbox": [
+          92,
+          24,
+          431,
+          46
+        ]
+      },
+      {
+        "text": "PRINTED BOOK｜刊本",
+        "bbox": [
+          1529.0,
+          21,
+          1820.0,
+          48
+        ]
+      },
+      {
+        "text": "Winslow, Good Newes, London 1624 • p. 51 • Boston Public Library / Internet Archive",
+        "bbox": [
+          92,
+          72,
+          964,
+          95
+        ]
+      }
+    ],
+    "art_boxes": [
+      [
+        70,
+        190,
+        580,
+        875
+      ],
+      [
+        640,
+        441,
+        1840,
+        579
+      ]
+    ],
+    "camera_band": [
+      110,
+      930
+    ],
+    "detail_crop_normalized": [
+      0.065,
+      0.075,
+      0.755,
+      0.134
+    ],
+    "segment_id": "P07",
+    "file": "assets/P07_03_G14-04.png",
+    "sha256": "9cd0ba0370455037a64596a402bc2aadb9ca9ad8c3bb10e2e0d690d4b7b539ae",
+    "start": 165.56666666666666,
+    "end": 179.06666666666666,
+    "frames": 405,
+    "encoded_file": "_work/render/P07_03_G14-04.mp4",
+    "camera_direction": null,
+    "render_config": {
+      "image_sha256": "9cd0ba0370455037a64596a402bc2aadb9ca9ad8c3bb10e2e0d690d4b7b539ae",
+      "frames": 405,
+      "crf": 18,
+      "filter": "[0:v]split=2[base][art];[art]crop=1920:820:0:110,format=yuv444p,perspective=x0='(W-W/(1+0.03*on/404))/2':y0='(H-H/(1+0.03*on/404))/2':x1='(W-W/(1+0.03*on/404))/2+W/(1+0.03*on/404)':y1='(H-H/(1+0.03*on/404))/2':x2='(W-W/(1+0.03*on/404))/2':y2='(H-H/(1+0.03*on/404))/2+H/(1+0.03*on/404)':x3='(W-W/(1+0.03*on/404))/2+W/(1+0.03*on/404)':y3='(H-H/(1+0.03*on/404))/2+H/(1+0.03*on/404)':sense=source:eval=frame:interpolation=cubic[moving];[base][moving]overlay=0:110:format=yuv444,format=yuv420p[v]"
+    }
+  },
+  {
+    "key": "G11-02",
+    "base_asset": "G11-02",
+    "source": "Mourt's Relation, London 1622 • p. 37 • Boston Public Library / Internet Archive",
+    "label": "PRINTED BOOK｜刊本",
+    "texts": [
+      {
+        "text": "QUIET ORIGINS  /  EP007",
+        "bbox": [
+          92,
+          24,
+          431,
+          46
+        ]
+      },
+      {
+        "text": "PRINTED BOOK｜刊本",
+        "bbox": [
+          1529.0,
+          21,
+          1820.0,
+          48
+        ]
+      },
+      {
+        "text": "Mourt's Relation, London 1622 • p. 37 • Boston Public Library / Internet Archive",
+        "bbox": [
+          92,
+          72,
+          896,
+          95
+        ]
+      }
+    ],
+    "art_boxes": [
+      [
+        70,
+        173,
+        580,
+        891
+      ],
+      [
+        640,
+        451,
+        1840,
+        568
+      ]
+    ],
+    "camera_band": [
+      110,
+      930
+    ],
+    "detail_crop_normalized": [
+      0.075,
+      0.42,
+      0.8,
+      0.47
+    ],
+    "segment_id": "P08",
+    "file": "assets/P08_01_G11-02.png",
+    "sha256": "48b21a71695c2a018baa7ffe6fa863f508cb3c57291c5148e871215f27b076cf",
+    "start": 179.06666666666666,
+    "end": 198.0,
+    "frames": 568,
+    "encoded_file": "_work/render/P08_01_G11-02.mp4",
+    "camera_direction": null,
+    "render_config": {
+      "image_sha256": "48b21a71695c2a018baa7ffe6fa863f508cb3c57291c5148e871215f27b076cf",
+      "frames": 568,
+      "crf": 18,
+      "filter": "[0:v]split=2[base][art];[art]crop=1920:820:0:110,format=yuv444p,perspective=x0='(W-W/(1+0.03*on/567))/2':y0='(H-H/(1+0.03*on/567))/2':x1='(W-W/(1+0.03*on/567))/2+W/(1+0.03*on/567)':y1='(H-H/(1+0.03*on/567))/2':x2='(W-W/(1+0.03*on/567))/2':y2='(H-H/(1+0.03*on/567))/2+H/(1+0.03*on/567)':x3='(W-W/(1+0.03*on/567))/2+W/(1+0.03*on/567)':y3='(H-H/(1+0.03*on/567))/2+H/(1+0.03*on/567)':sense=source:eval=frame:interpolation=cubic[moving];[base][moving]overlay=0:110:format=yuv444,format=yuv420p[v]"
+    }
+  },
+  {
+    "key": "D_young",
+    "base_asset": null,
+    "source": "",
+    "label": "SCHEMATIC｜模式図",
+    "texts": [
+      {
+        "text": "QUIET ORIGINS  /  EP007",
+        "bbox": [
+          92,
+          24,
+          431,
+          46
+        ]
+      },
+      {
+        "text": "SCHEMATIC｜模式図",
+        "bbox": [
+          1545.0,
+          21,
+          1820.0,
+          48
+        ]
+      },
+      {
+        "text": "1621 LETTER",
+        "bbox": [
+          331.5,
+          374,
+          628.5,
+          408
+        ]
+      },
+      {
+        "text": "1621年の手紙",
+        "bbox": [
+          358.0,
+          435,
+          602.0,
+          471
+        ]
+      },
+      {
+        "text": "1841 NOTE",
+        "bbox": [
+          1316.0,
+          373,
+          1564.0,
+          409
+        ]
+      },
+      {
+        "text": "1841年の注",
+        "bbox": [
+          1336.5,
+          435,
+          1543.5,
+          471
+        ]
+      },
+      {
+        "text": "\"the first Thanksgiving\"",
+        "bbox": [
+          1221.0,
+          572,
+          1659.0,
+          613
+        ]
+      }
+    ],
+    "art_boxes": [],
+    "camera_band": [
+      110,
+      700
+    ],
+    "segment_id": "P09",
+    "file": "assets/P09_01_D_young.png",
+    "sha256": "a3e9a30fee3a99f9ce455325c415d5b8eacc04abe7ce719395c1f90b2030b77d",
+    "start": 198.0,
+    "end": 222.73333333333332,
+    "frames": 742,
+    "encoded_file": "_work/render/P09_01_D_young.mp4",
+    "camera_direction": null,
+    "render_config": {
+      "image_sha256": "a3e9a30fee3a99f9ce455325c415d5b8eacc04abe7ce719395c1f90b2030b77d",
+      "frames": 742,
+      "crf": 18,
+      "lossless_static_intermediate": true,
+      "filter": "[0:v]format=yuv420p[v]"
+    }
+  },
+  {
+    "key": "G08-02",
+    "base_asset": "G08-02",
+    "source": "Harper's Weekly, 29 Nov 1862 (after Winslow Homer) • The Metropolitan Museum of Art",
+    "label": "WOOD ENGRAVING｜木版画",
+    "texts": [
+      {
+        "text": "QUIET ORIGINS  /  EP007",
+        "bbox": [
+          92,
+          24,
+          431,
+          46
+        ]
+      },
+      {
+        "text": "WOOD ENGRAVING｜木版画",
+        "bbox": [
+          1449.0,
+          21,
+          1820.0,
+          48
+        ]
+      },
+      {
+        "text": "Harper's Weekly, 29 Nov 1862 (after Winslow Homer) • The Metropolitan Museum of Art",
+        "bbox": [
+          92,
+          72,
+          993,
+          95
+        ]
+      }
+    ],
+    "art_boxes": [
+      [
+        355,
+        110,
+        1565,
+        930
+      ]
+    ],
+    "camera_band": [
+      110,
+      930
+    ],
+    "segment_id": "P10",
+    "file": "assets/P10_01_G08-02.png",
+    "sha256": "1df97417c7c09dff9aab58865d0d370698f9f953e53f8eed4976d4699f63c60e",
+    "start": 222.73333333333332,
+    "end": 239.1,
+    "frames": 491,
+    "encoded_file": "_work/render/P10_01_G08-02.mp4",
+    "camera_direction": null,
+    "render_config": {
+      "image_sha256": "1df97417c7c09dff9aab58865d0d370698f9f953e53f8eed4976d4699f63c60e",
+      "frames": 491,
+      "crf": 18,
+      "filter": "[0:v]split=2[base][art];[art]crop=1920:820:0:110,format=yuv444p,perspective=x0='(W-W/(1+0.03*on/490))/2':y0='(H-H/(1+0.03*on/490))/2':x1='(W-W/(1+0.03*on/490))/2+W/(1+0.03*on/490)':y1='(H-H/(1+0.03*on/490))/2':x2='(W-W/(1+0.03*on/490))/2':y2='(H-H/(1+0.03*on/490))/2+H/(1+0.03*on/490)':x3='(W-W/(1+0.03*on/490))/2+W/(1+0.03*on/490)':y3='(H-H/(1+0.03*on/490))/2+H/(1+0.03*on/490)':sense=source:eval=frame:interpolation=cubic[moving];[base][moving]overlay=0:110:format=yuv444,format=yuv420p[v]"
+    }
+  },
+  {
+    "key": "G06-01",
+    "base_asset": "G06-01",
+    "source": "Proclamation, 3 Oct 1863, National Archives • first page",
+    "label": "ARCHIVAL DOCUMENT｜公文書",
+    "texts": [
+      {
+        "text": "QUIET ORIGINS  /  EP007",
+        "bbox": [
+          92,
+          24,
+          431,
+          46
+        ]
+      },
+      {
+        "text": "ARCHIVAL DOCUMENT｜公文書",
+        "bbox": [
+          1396.0,
+          21,
+          1820.0,
+          48
+        ]
+      },
+      {
+        "text": "Proclamation, 3 Oct 1863, National Archives • first page",
+        "bbox": [
+          92,
+          72,
+          660,
+          95
+        ]
+      }
+    ],
+    "art_boxes": [
+      [
+        695,
+        110,
+        1224,
+        930
+      ]
+    ],
+    "camera_band": [
+      110,
+      930
+    ],
+    "segment_id": "P10",
+    "file": "assets/P10_02_G06-01.png",
+    "sha256": "b7f59fe8760ebdf47da2bddf5daf67a68d6806984f7d8401b0749d191da854b8",
+    "start": 239.1,
+    "end": 254.1,
+    "frames": 450,
+    "encoded_file": "_work/render/P10_02_G06-01.mp4",
+    "camera_direction": null,
+    "render_config": {
+      "image_sha256": "b7f59fe8760ebdf47da2bddf5daf67a68d6806984f7d8401b0749d191da854b8",
+      "frames": 450,
+      "crf": 18,
+      "filter": "[0:v]split=2[base][art];[art]crop=1920:820:0:110,format=yuv444p,perspective=x0='(W-W/(1+0.03*on/449))/2':y0='(H-H/(1+0.03*on/449))/2':x1='(W-W/(1+0.03*on/449))/2+W/(1+0.03*on/449)':y1='(H-H/(1+0.03*on/449))/2':x2='(W-W/(1+0.03*on/449))/2':y2='(H-H/(1+0.03*on/449))/2+H/(1+0.03*on/449)':x3='(W-W/(1+0.03*on/449))/2+W/(1+0.03*on/449)':y3='(H-H/(1+0.03*on/449))/2+H/(1+0.03*on/449)':sense=source:eval=frame:interpolation=cubic[moving];[base][moving]overlay=0:110:format=yuv444,format=yuv420p[v]"
+    }
+  },
+  {
+    "key": "G07-01",
+    "base_asset": "G07-01",
+    "source": "J. L. G. Ferris, The First Thanksgiving 1621 — reproduction print c. 1932, Library of Congress (No known restrictions on publication)",
+    "label": "LATER PAINTING｜後世の想像図",
+    "texts": [
+      {
+        "text": "QUIET ORIGINS  /  EP007",
+        "bbox": [
+          92,
+          24,
+          431,
+          46
+        ]
+      },
+      {
+        "text": "LATER PAINTING｜後世の想像図",
+        "bbox": [
+          1399.0,
+          21,
+          1820.0,
+          48
+        ]
+      },
+      {
+        "text": "J. L. G. Ferris, The First Thanksgiving 1621 — reproduction print c. 1932, Library of Congress (No known restrictions on publication)",
+        "bbox": [
+          92,
+          72,
+          1444,
+          95
+        ]
+      }
+    ],
+    "art_boxes": [
+      [
+        304,
+        110,
+        1616,
+        930
+      ]
+    ],
+    "camera_band": [
+      110,
+      930
+    ],
+    "crop_normalized": [
+      0.116,
+      0.185,
+      0.854,
+      0.763
+    ],
+    "background_also_uses_only_crop": true,
+    "segment_id": "P11",
+    "file": "assets/P11_01_G07-01.png",
+    "sha256": "a7949bc5e4a5959372244207dda1af6e6eaf0217f0d2542c57efef452333f9a7",
+    "start": 254.1,
+    "end": 277.1333333333333,
+    "frames": 691,
+    "encoded_file": "_work/render/P11_01_G07-01.mp4",
+    "camera_direction": "ferris_group",
+    "render_config": {
+      "image_sha256": "a7949bc5e4a5959372244207dda1af6e6eaf0217f0d2542c57efef452333f9a7",
+      "frames": 691,
+      "crf": 18,
+      "filter": "[0:v]split=2[base][art];[art]crop=1920:820:0:110,format=yuv444p,perspective=x0='(W-W/(1+0.18*on/690))*0.28':y0='(H-H/(1+0.18*on/690))*0.5':x1='(W-W/(1+0.18*on/690))*0.28+W/(1+0.18*on/690)':y1='(H-H/(1+0.18*on/690))*0.5':x2='(W-W/(1+0.18*on/690))*0.28':y2='(H-H/(1+0.18*on/690))*0.5+H/(1+0.18*on/690)':x3='(W-W/(1+0.18*on/690))*0.28+W/(1+0.18*on/690)':y3='(H-H/(1+0.18*on/690))*0.5+H/(1+0.18*on/690)':sense=source:eval=frame:interpolation=cubic[moving];[base][moving]overlay=0:110:format=yuv444,format=yuv420p[v]"
+    }
+  },
+  {
+    "key": "V03",
+    "base_asset": "V03",
+    "source": "",
+    "label": "AI RECONSTRUCTION｜AIによる再現",
+    "texts": [
+      {
+        "text": "QUIET ORIGINS  /  EP007",
+        "bbox": [
+          92,
+          24,
+          431,
+          46
+        ]
+      },
+      {
+        "text": "AI RECONSTRUCTION｜AIによる再現",
+        "bbox": [
+          1332.0,
+          21,
+          1820.0,
+          48
+        ]
+      }
+    ],
+    "art_boxes": [
+      [
+        0,
+        110,
+        1920,
+        1080
+      ]
+    ],
+    "camera_band": [
+      110,
+      1080
+    ],
+    "full_bleed": true,
+    "segment_id": "P12",
+    "file": "assets/P12_01_V03.png",
+    "sha256": "3245c2e63be77de8e1f267c90f7c7a7fd7093b172f41a94702cc9288ca008a6a",
+    "start": 277.1333333333333,
+    "end": 293.56666666666666,
+    "frames": 493,
+    "encoded_file": "_work/render/P12_01_V03.mp4",
+    "camera_direction": null,
+    "render_config": {
+      "image_sha256": "3245c2e63be77de8e1f267c90f7c7a7fd7093b172f41a94702cc9288ca008a6a",
+      "frames": 493,
+      "crf": 18,
+      "video_sha256": "6b4ea4a7b8e537e586297dce5bdf4f547df46d84d3a3958281f0cb6a48bda66c",
+      "source_start_frame": 0,
+      "source_frames_used": 193,
+      "time_scale": 2.0435233160621764,
+      "full_bleed": true,
+      "filter": "[1:v]trim=start_frame=0:end_frame=193,setpts=(PTS-STARTPTS)*2.043523316062,scale=1280:720:flags=lanczos,minterpolate=fps=30:mi_mode=mci:mc_mode=aobmc:me_mode=bidir:vsbmc=1,scale=1920:1080:flags=lanczos,tpad=start_mode=clone:start_duration=0.034:stop_mode=clone:stop_duration=0.25[art];[0:v]crop=1920:110:0:0[header];[art][header]overlay=0:0:shortest=1,format=yuv420p[v]"
+    }
+  },
+  {
+    "key": "D_timeline",
+    "base_asset": null,
+    "source": "",
+    "label": "SCHEMATIC｜模式図",
+    "texts": [
+      {
+        "text": "QUIET ORIGINS  /  EP007",
+        "bbox": [
+          92,
+          24,
+          431,
+          46
+        ]
+      },
+      {
+        "text": "SCHEMATIC｜模式図",
+        "bbox": [
+          1545.0,
+          21,
+          1820.0,
+          48
+        ]
+      },
+      {
+        "text": "1621 LETTER",
+        "bbox": [
+          198.5,
+          396,
+          381.5,
+          417
+        ]
+      },
+      {
+        "text": "1621年の手紙",
+        "bbox": [
+          194.0,
+          450,
+          386.0,
+          479
+        ]
+      },
+      {
+        "text": "1841 NAME",
+        "bbox": [
+          657.5,
+          396,
+          812.5,
+          417
+        ]
+      },
+      {
+        "text": "1841年 名前",
+        "bbox": [
+          648.5,
+          450,
+          821.5,
+          479
+        ]
+      },
+      {
+        "text": "1863 NOVEMBER DATE",
+        "bbox": [
+          1019.015625,
+          396,
+          1341.015625,
+          417
+        ]
+      },
+      {
+        "text": "1863年 11月の日付",
+        "bbox": [
+          1045.5,
+          450,
+          1314.5,
+          479
+        ]
+      },
+      {
+        "text": "20TH CENTURY PICTURE",
+        "bbox": [
+          1448.015625,
+          396,
+          1802.015625,
+          417
+        ]
+      },
+      {
+        "text": "20世紀 絵",
+        "bbox": [
+          1557.5,
+          450,
+          1692.5,
+          479
+        ]
+      }
+    ],
+    "art_boxes": [],
+    "camera_band": [
+      110,
+      700
+    ],
+    "segment_id": "P13",
+    "file": "assets/P13_01_D_timeline.png",
+    "sha256": "d9c8393844cd74d4fb43e8627e112a17f3bf24c19587bbd34245356030f9ee78",
+    "start": 293.56666666666666,
+    "end": 315.73333333333335,
+    "frames": 665,
+    "encoded_file": "_work/render/P13_01_D_timeline.mp4",
+    "camera_direction": null,
+    "render_config": {
+      "image_sha256": "d9c8393844cd74d4fb43e8627e112a17f3bf24c19587bbd34245356030f9ee78",
+      "frames": 665,
+      "crf": 18,
+      "lossless_static_intermediate": true,
+      "filter": "[0:v]format=yuv420p[v]"
+    }
+  },
+  {
+    "key": "V04",
+    "base_asset": "V04",
+    "source": "",
+    "label": "AI RECONSTRUCTION｜AIによる再現",
+    "texts": [
+      {
+        "text": "QUIET ORIGINS  /  EP007",
+        "bbox": [
+          92,
+          24,
+          431,
+          46
+        ]
+      },
+      {
+        "text": "AI RECONSTRUCTION｜AIによる再現",
+        "bbox": [
+          1332.0,
+          21,
+          1820.0,
+          48
+        ]
+      }
+    ],
+    "art_boxes": [
+      [
+        0,
+        110,
+        1920,
+        1080
+      ]
+    ],
+    "camera_band": [
+      110,
+      1080
+    ],
+    "full_bleed": true,
+    "segment_id": "P14",
+    "file": "assets/P14_01_V04.png",
+    "sha256": "fccbc7cc83fcb749fe171534e656adf3ed1ff3dd1172bf77b4f3c9eea47b72ae",
+    "start": 315.73333333333335,
+    "end": 322.8,
+    "frames": 212,
+    "encoded_file": "_work/render/P14_01_V04.mp4",
+    "camera_direction": null,
+    "render_config": {
+      "image_sha256": "fccbc7cc83fcb749fe171534e656adf3ed1ff3dd1172bf77b4f3c9eea47b72ae",
+      "frames": 212,
+      "crf": 18,
+      "video_sha256": "3645b2140b1a68d3f2092011afe6d28875d15befb15d624d7670096c090dd03e",
+      "source_start_frame": 0,
+      "source_frames_used": 170,
+      "time_scale": 0.9976470588235294,
+      "full_bleed": true,
+      "filter": "[1:v]trim=start_frame=0:end_frame=170,setpts=(PTS-STARTPTS)*0.997647058824,scale=1280:720:flags=lanczos,minterpolate=fps=30:mi_mode=mci:mc_mode=aobmc:me_mode=bidir:vsbmc=1,scale=1920:1080:flags=lanczos,tpad=start_mode=clone:start_duration=0.034:stop_mode=clone:stop_duration=0.25[art];[0:v]crop=1920:110:0:0[header];[art][header]overlay=0:0:shortest=1,format=yuv420p[v]"
+    }
+  },
+  {
+    "key": "credits",
+    "base_asset": null,
+    "source": "",
+    "label": "",
+    "texts": [
+      {
+        "text": "QUIET ORIGINS  /  EP007",
+        "bbox": [
+          92,
+          24,
+          431,
+          46
+        ]
+      },
+      {
+        "text": "English",
+        "bbox": [
+          135,
+          180,
+          219,
+          204
+        ]
+      },
+      {
+        "text": "Kokoro / Heart (af_heart)",
+        "bbox": [
+          390,
+          180,
+          673,
+          204
+        ]
+      },
+      {
+        "text": "日本語",
+        "bbox": [
+          135,
+          246,
+          213,
+          272
+        ]
+      },
+      {
+        "text": "VOICEVOX:冥鳴ひまり",
+        "bbox": [
+          390,
+          246,
+          668,
+          272
+        ]
+      },
+      {
+        "text": "Collections",
+        "bbox": [
+          135,
+          322,
+          261,
+          341
+        ]
+      },
+      {
+        "text": "Boston Public Library • The Metropolitan Museum of Art",
+        "bbox": [
+          390,
+          322,
+          1022,
+          346
+        ]
+      },
+      {
+        "text": "Collections",
+        "bbox": [
+          135,
+          393,
+          261,
+          412
+        ]
+      },
+      {
+        "text": "University of South Carolina Libraries • National Archives",
+        "bbox": [
+          390,
+          393,
+          1037,
+          417
+        ]
+      },
+      {
+        "text": "Collections",
+        "bbox": [
+          135,
+          464,
+          261,
+          483
+        ]
+      },
+      {
+        "text": "Library of Congress",
+        "bbox": [
+          390,
+          464,
+          614,
+          488
+        ]
+      },
+      {
+        "text": "AI video",
+        "bbox": [
+          134,
+          535,
+          227,
+          554
+        ]
+      },
+      {
+        "text": "Kling AI",
+        "bbox": [
+          390,
+          535,
+          478,
+          559
+        ]
+      },
+      {
+        "text": "Music",
+        "bbox": [
+          135,
+          606,
+          203,
+          625
+        ]
+      },
+      {
+        "text": "Suno • QO_THEME_A02 / QO_AMERICA01",
+        "bbox": [
+          390,
+          606,
+          897,
+          630
+        ]
+      }
+    ],
+    "art_boxes": [],
+    "camera_band": [
+      110,
+      700
+    ],
+    "segment_id": "P15",
+    "file": "assets/P15_01_credits.png",
+    "sha256": "1c073d544ffc29af75800014139815916a5599237bea21fafbc57cab0ee76b4f",
+    "start": 322.8,
+    "end": 349.1333333333333,
+    "frames": 790,
+    "encoded_file": "_work/render/P15_01_credits.mp4",
+    "camera_direction": null,
+    "render_config": {
+      "image_sha256": "1c073d544ffc29af75800014139815916a5599237bea21fafbc57cab0ee76b4f",
+      "frames": 790,
+      "crf": 18,
+      "lossless_static_intermediate": true,
+      "filter": "[0:v]format=yuv420p[v]"
+    }
+  },
+  {
+    "key": "endcard",
+    "segment_id": "BRAND",
+    "start": 349.1333333333333,
+    "end": 359.1333333333333,
+    "frames": 300,
+    "encoded_file": "/Users/ryo/Desktop/新チャンネル/ブランド素材/エンドカード_共通版_v02_20261023/deliverables/Quiet_Origins_endcard_v02.mp4",
+    "original_source": "/Users/ryo/Desktop/新チャンネル/ブランド素材/エンドカード_共通版_v02_20261023/deliverables/Quiet_Origins_endcard_v02.mp4",
+    "original_sha256": "3cd254cdd387d0ca8e3ef3c2f74ca3650dc64fb02609bcd09a21b3e36a3513a2"
+  }
+]

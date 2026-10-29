@@ -1,0 +1,78 @@
+{
+  "passed": true,
+  "movie_timescale": 48000,
+  "video_frames": 10774,
+  "audio_samples": 17238400,
+  "files": [
+    {
+      "name": "EP007_audio_en.m4a",
+      "before_sha256": "54f396d809d63ae4e5042ac6a53db0bad73b23f60ae80cf7f71e05f668fba32e",
+      "after_sha256": "54f396d809d63ae4e5042ac6a53db0bad73b23f60ae80cf7f71e05f668fba32e",
+      "already_sample_exact": true,
+      "encoded_streams_identical": true,
+      "stream_hashes": {
+        "audio": "SHA256=2d32e734284b39c937a66856f3724e190b8b74a72598d2592a63c11cb894e013"
+      },
+      "duration_seconds": "359.133333"
+    },
+    {
+      "name": "EP007_audio_ja.m4a",
+      "before_sha256": "197ff252136e8d18fa04b93b3178f4e3788d38265cafa911343d5839bb34bdd4",
+      "after_sha256": "197ff252136e8d18fa04b93b3178f4e3788d38265cafa911343d5839bb34bdd4",
+      "already_sample_exact": true,
+      "encoded_streams_identical": true,
+      "stream_hashes": {
+        "audio": "SHA256=0907a92e907d9ed896ba525c01608f395273d036a7cd52d5167e49168df18869"
+      },
+      "duration_seconds": "359.133333"
+    },
+    {
+      "name": "EP007_Thanksgiving_en_v01_1080p30.mp4",
+      "before_sha256": "3c9aac6b46facac85edcdca2936c0a923d55d16a56b1bfcb6d25d5f3e6bdfa45",
+      "after_sha256": "3c9aac6b46facac85edcdca2936c0a923d55d16a56b1bfcb6d25d5f3e6bdfa45",
+      "already_sample_exact": true,
+      "encoded_streams_identical": true,
+      "stream_hashes": {
+        "video": "SHA256=51f251ea1560bbed253c9ee73c4541bf8029f4aba25a9acaa3affd9bce77937b",
+        "audio": "SHA256=2d32e734284b39c937a66856f3724e190b8b74a72598d2592a63c11cb894e013"
+      },
+      "duration_seconds": "359.133333"
+    },
+    {
+      "name": "EP007_Thanksgiving_en_v01_subtitled_review_1080p30.mp4",
+      "before_sha256": "e611a6074783b710ecb945ce97b9ac4737bb2679462d5e1bc928eb72bb44e89a",
+      "after_sha256": "e611a6074783b710ecb945ce97b9ac4737bb2679462d5e1bc928eb72bb44e89a",
+      "already_sample_exact": true,
+      "encoded_streams_identical": true,
+      "stream_hashes": {
+        "video": "SHA256=1ed88dda3d4dd924a893e99cf79862efa38734ed25e45b4a93a0401f24d36adb",
+        "audio": "SHA256=2d32e734284b39c937a66856f3724e190b8b74a72598d2592a63c11cb894e013"
+      },
+      "duration_seconds": "359.133333"
+    },
+    {
+      "name": "EP007_Thanksgiving_ja_v01_1080p30.mp4",
+      "before_sha256": "8dab6b136d7bc96db33bbfdff54f15a3645e445289a05cc4fcd49e49b5ad9515",
+      "after_sha256": "8dab6b136d7bc96db33bbfdff54f15a3645e445289a05cc4fcd49e49b5ad9515",
+      "already_sample_exact": true,
+      "encoded_streams_identical": true,
+      "stream_hashes": {
+        "video": "SHA256=51f251ea1560bbed253c9ee73c4541bf8029f4aba25a9acaa3affd9bce77937b",
+        "audio": "SHA256=0907a92e907d9ed896ba525c01608f395273d036a7cd52d5167e49168df18869"
+      },
+      "duration_seconds": "359.133333"
+    },
+    {
+      "name": "EP007_Thanksgiving_ja_v01_subtitled_review_1080p30.mp4",
+      "before_sha256": "97a7f027c62d08973653d71ddc4e6a42cdb64cf235e3e7aa3672944b2e11d040",
+      "after_sha256": "97a7f027c62d08973653d71ddc4e6a42cdb64cf235e3e7aa3672944b2e11d040",
+      "already_sample_exact": true,
+      "encoded_streams_identical": true,
+      "stream_hashes": {
+        "video": "SHA256=e64140cf434f62d7305fc3724a1129b4f112e08d746b8e4ca66f73f1fca7eafb",
+        "audio": "SHA256=0907a92e907d9ed896ba525c01608f395273d036a7cd52d5167e49168df18869"
+      },
+      "duration_seconds": "359.133333"
+    }
+  ]
+}

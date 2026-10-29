@@ -56,6 +56,7 @@ def build_audio():
   dry=ROOT/f'audio/{lang}/narration.wav';q=measure(dry);normal=ROOT/f'audio/{lang}/normalized.wav'
   filt=f"loudnorm=I=-16:TP=-3:LRA=7:linear=true:measured_I={q['input_i']}:measured_TP={q['input_tp']}:measured_LRA={q['input_lra']}:measured_thresh={q['input_thresh']}:offset={q['target_offset']}"
   ff(['-i',dry,'-af',filt,'-ar',SR,'-c:a','pcm_f32le',normal]);voice,sr=sf.read(normal,dtype='float32');voice=np.pad(voice[:n],(0,max(0,n-len(voice))))
+  voice[brandmask]=0 # Resampler pre-ringing must not enter the unchanged brand intervals.
   speechmask=mask&~brandmask;target=rms(voice[speechmask])-18
   bgm=common*10**((target-rms(common[speechmask]))/20)*10**((6*envelope[:,None])/20)
   mix=ROOT/f'audio/{lang}/mix.wav';gain=0

@@ -1,0 +1,1144 @@
+{
+  "passed": true,
+  "checks": [
+    {
+      "language": "en",
+      "video_sha256": "3c9aac6b46facac85edcdca2936c0a923d55d16a56b1bfcb6d25d5f3e6bdfa45",
+      "decoded_frames": 10774,
+      "decoded_pixel_formats": [
+        [
+          1920,
+          1080,
+          "yuv420p"
+        ]
+      ],
+      "sps_profile_idc": [
+        "100"
+      ],
+      "decode_warnings": 0,
+      "no_seeking": true,
+      "records": [
+        {
+          "key": "V01",
+          "frames": [
+            0,
+            528,
+            1056
+          ],
+          "triptych": "review/continuous_en_shot_01.jpg",
+          "center": "review/center_en_01.jpg",
+          "source": "",
+          "label": "AI RECONSTRUCTION｜AIによる再現",
+          "source_header_checks": [
+            {
+              "rgb_mean_absolute_error": 4.083777573529412,
+              "glyph_intersection_over_union": 0.9526242452392011
+            },
+            {
+              "rgb_mean_absolute_error": 4.059643075980392,
+              "glyph_intersection_over_union": 0.9517177344475395
+            },
+            {
+              "rgb_mean_absolute_error": 4.062358302696079,
+              "glyph_intersection_over_union": 0.9517177344475395
+            }
+          ]
+        },
+        {
+          "key": "G08-01",
+          "frames": [
+            1057,
+            1298,
+            1540
+          ],
+          "triptych": "review/continuous_en_shot_02.jpg",
+          "center": "review/center_en_02.jpg",
+          "source": "Harper's Weekly, 27 Nov 1858 (after Winslow Homer) • The Metropolitan Museum of Art",
+          "label": "WOOD ENGRAVING｜木版画",
+          "source_header_checks": [
+            {
+              "rgb_mean_absolute_error": 4.1223881740196076,
+              "glyph_intersection_over_union": 0.96
+            },
+            {
+              "rgb_mean_absolute_error": 4.121894148284314,
+              "glyph_intersection_over_union": 0.9616590306245478
+            },
+            {
+              "rgb_mean_absolute_error": 4.095136335784313,
+              "glyph_intersection_over_union": 0.9583132530120482
+            }
+          ]
+        },
+        {
+          "key": "opening",
+          "frames": [
+            1541,
+            1600,
+            1660
+          ],
+          "triptych": "review/continuous_en_shot_03.jpg",
+          "center": "review/center_en_03.jpg",
+          "source": null,
+          "label": null,
+          "source_header_checks": []
+        },
+        {
+          "key": "G01-01",
+          "frames": [
+            1661,
+            1747,
+            1833
+          ],
+          "triptych": "review/continuous_en_shot_04.jpg",
+          "center": "review/center_en_04.jpg",
+          "source": "Mourt's Relation, London 1622 • Boston Public Library / Internet Archive",
+          "label": "PRINTED BOOK｜刊本",
+          "source_header_checks": [
+            {
+              "rgb_mean_absolute_error": 4.039483762254902,
+              "glyph_intersection_over_union": 0.9704433497536946
+            },
+            {
+              "rgb_mean_absolute_error": 4.037040441176471,
+              "glyph_intersection_over_union": 0.9710228919153868
+            },
+            {
+              "rgb_mean_absolute_error": 4.043673406862745,
+              "glyph_intersection_over_union": 0.9710228919153868
+            }
+          ]
+        },
+        {
+          "key": "G02-02",
+          "frames": [
+            1834,
+            2028,
+            2222
+          ],
+          "triptych": "review/continuous_en_shot_05.jpg",
+          "center": "review/center_en_05.jpg",
+          "source": "Mourt's Relation, London 1622 • p. 60 • Boston Public Library / Internet Archive",
+          "label": "PRINTED BOOK｜刊本",
+          "source_header_checks": [
+            {
+              "rgb_mean_absolute_error": 4.0403569240196076,
+              "glyph_intersection_over_union": 0.9722766732007841
+            },
+            {
+              "rgb_mean_absolute_error": 4.037090226715686,
+              "glyph_intersection_over_union": 0.9725567068048165
+            },
+            {
+              "rgb_mean_absolute_error": 4.004231770833333,
+              "glyph_intersection_over_union": 0.9705882352941176
+            }
+          ]
+        },
+        {
+          "key": "G02-01",
+          "frames": [
+            2223,
+            2650,
+            3077
+          ],
+          "triptych": "review/continuous_en_shot_06.jpg",
+          "center": "review/center_en_06.jpg",
+          "source": "Mourt's Relation, London 1622 • p. 61 • Boston Public Library / Internet Archive",
+          "label": "PRINTED BOOK｜刊本",
+          "source_header_checks": [
+            {
+              "rgb_mean_absolute_error": 4.039506740196078,
+              "glyph_intersection_over_union": 0.971010413734872
+            },
+            {
+              "rgb_mean_absolute_error": 4.003488817401961,
+              "glyph_intersection_over_union": 0.9704475091471996
+            },
+            {
+              "rgb_mean_absolute_error": 4.003105851715686,
+              "glyph_intersection_over_union": 0.9707207207207207
+            }
+          ]
+        },
+        {
+          "key": "V02",
+          "frames": [
+            3078,
+            3426,
+            3775
+          ],
+          "triptych": "review/continuous_en_shot_07.jpg",
+          "center": "review/center_en_07.jpg",
+          "source": "",
+          "label": "AI RECONSTRUCTION｜AIによる再現",
+          "source_header_checks": [
+            {
+              "rgb_mean_absolute_error": 4.080537683823529,
+              "glyph_intersection_over_union": 0.949814126394052
+            },
+            {
+              "rgb_mean_absolute_error": 4.060098805147059,
+              "glyph_intersection_over_union": 0.9508120649651972
+            },
+            {
+              "rgb_mean_absolute_error": 4.061450674019608,
+              "glyph_intersection_over_union": 0.9508120649651972
+            }
+          ]
+        },
+        {
+          "key": "G09-01",
+          "frames": [
+            3776,
+            4102,
+            4428
+          ],
+          "triptych": "review/continuous_en_shot_08.jpg",
+          "center": "review/center_en_08.jpg",
+          "source": "Audubon, The Birds of America, Plate I (1827–30) • University of South Carolina Libraries",
+          "label": "ENGRAVING｜銅版画",
+          "source_header_checks": [
+            {
+              "rgb_mean_absolute_error": 4.070848651960785,
+              "glyph_intersection_over_union": 0.9585995399948888
+            },
+            {
+              "rgb_mean_absolute_error": 4.046821384803922,
+              "glyph_intersection_over_union": 0.9596320899335717
+            },
+            {
+              "rgb_mean_absolute_error": 4.04715456495098,
+              "glyph_intersection_over_union": 0.9591315453384419
+            }
+          ]
+        },
+        {
+          "key": "G14-01",
+          "frames": [
+            4429,
+            4572,
+            4716
+          ],
+          "triptych": "review/continuous_en_shot_09.jpg",
+          "center": "review/center_en_09.jpg",
+          "source": "Winslow, Good Newes, London 1624 • Boston Public Library / Internet Archive",
+          "label": "PRINTED BOOK｜刊本",
+          "source_header_checks": [
+            {
+              "rgb_mean_absolute_error": 4.039093137254902,
+              "glyph_intersection_over_union": 0.9713475177304964
+            },
+            {
+              "rgb_mean_absolute_error": 4.0351332720588236,
+              "glyph_intersection_over_union": 0.9727582292849035
+            },
+            {
+              "rgb_mean_absolute_error": 3.9928385416666665,
+              "glyph_intersection_over_union": 0.9696969696969697
+            }
+          ]
+        },
+        {
+          "key": "G14-02",
+          "frames": [
+            4717,
+            4841,
+            4966
+          ],
+          "triptych": "review/continuous_en_shot_10.jpg",
+          "center": "review/center_en_10.jpg",
+          "source": "Winslow, Good Newes, London 1624 • p. 49 • Boston Public Library / Internet Archive",
+          "label": "PRINTED BOOK｜刊本",
+          "source_header_checks": [
+            {
+              "rgb_mean_absolute_error": 4.036439185049019,
+              "glyph_intersection_over_union": 0.9735464315238358
+            },
+            {
+              "rgb_mean_absolute_error": 4.0328125,
+              "glyph_intersection_over_union": 0.9757174392935982
+            },
+            {
+              "rgb_mean_absolute_error": 4.033505667892157,
+              "glyph_intersection_over_union": 0.975448275862069
+            }
+          ]
+        },
+        {
+          "key": "G14-04",
+          "frames": [
+            4967,
+            5169,
+            5371
+          ],
+          "triptych": "review/continuous_en_shot_11.jpg",
+          "center": "review/center_en_11.jpg",
+          "source": "Winslow, Good Newes, London 1624 • p. 51 • Boston Public Library / Internet Archive",
+          "label": "PRINTED BOOK｜刊本",
+          "source_header_checks": [
+            {
+              "rgb_mean_absolute_error": 4.055039828431372,
+              "glyph_intersection_over_union": 0.9734806629834254
+            },
+            {
+              "rgb_mean_absolute_error": 4.0333984375,
+              "glyph_intersection_over_union": 0.9734366353071389
+            },
+            {
+              "rgb_mean_absolute_error": 4.002780330882353,
+              "glyph_intersection_over_union": 0.973174778761062
+            }
+          ]
+        },
+        {
+          "key": "G11-02",
+          "frames": [
+            5372,
+            5655,
+            5939
+          ],
+          "triptych": "review/continuous_en_shot_12.jpg",
+          "center": "review/center_en_12.jpg",
+          "source": "Mourt's Relation, London 1622 • p. 37 • Boston Public Library / Internet Archive",
+          "label": "PRINTED BOOK｜刊本",
+          "source_header_checks": [
+            {
+              "rgb_mean_absolute_error": 4.040395220588235,
+              "glyph_intersection_over_union": 0.9723943661971831
+            },
+            {
+              "rgb_mean_absolute_error": 4.011450674019608,
+              "glyph_intersection_over_union": 0.9679324894514768
+            },
+            {
+              "rgb_mean_absolute_error": 4.003427542892157,
+              "glyph_intersection_over_union": 0.9715573078006196
+            }
+          ]
+        },
+        {
+          "key": "D_young",
+          "frames": [
+            5940,
+            6310,
+            6681
+          ],
+          "triptych": "review/continuous_en_shot_13.jpg",
+          "center": "review/center_en_13.jpg",
+          "source": "",
+          "label": "SCHEMATIC｜模式図",
+          "source_header_checks": [
+            {
+              "rgb_mean_absolute_error": 3.9372587316176473,
+              "glyph_intersection_over_union": 0.9550698239222829
+            },
+            {
+              "rgb_mean_absolute_error": 3.9372587316176473,
+              "glyph_intersection_over_union": 0.9550698239222829
+            },
+            {
+              "rgb_mean_absolute_error": 3.936301317401961,
+              "glyph_intersection_over_union": 0.955015197568389
+            }
+          ]
+        },
+        {
+          "key": "G08-02",
+          "frames": [
+            6682,
+            6927,
+            7172
+          ],
+          "triptych": "review/continuous_en_shot_14.jpg",
+          "center": "review/center_en_14.jpg",
+          "source": "Harper's Weekly, 29 Nov 1862 (after Winslow Homer) • The Metropolitan Museum of Art",
+          "label": "WOOD ENGRAVING｜木版画",
+          "source_header_checks": [
+            {
+              "rgb_mean_absolute_error": 4.125248927696078,
+              "glyph_intersection_over_union": 0.9598557692307692
+            },
+            {
+              "rgb_mean_absolute_error": 4.13094362745098,
+              "glyph_intersection_over_union": 0.9615199615199616
+            },
+            {
+              "rgb_mean_absolute_error": 4.094370404411765,
+              "glyph_intersection_over_union": 0.958643904784804
+            }
+          ]
+        },
+        {
+          "key": "G06-01",
+          "frames": [
+            7173,
+            7397,
+            7622
+          ],
+          "triptych": "review/continuous_en_shot_15.jpg",
+          "center": "review/center_en_15.jpg",
+          "source": "Proclamation, 3 Oct 1863, National Archives • first page",
+          "label": "ARCHIVAL DOCUMENT｜公文書",
+          "source_header_checks": [
+            {
+              "rgb_mean_absolute_error": 4.094075520833333,
+              "glyph_intersection_over_union": 0.9641693811074918
+            },
+            {
+              "rgb_mean_absolute_error": 4.090984987745098,
+              "glyph_intersection_over_union": 0.9644655019247853
+            },
+            {
+              "rgb_mean_absolute_error": 4.060068167892157,
+              "glyph_intersection_over_union": 0.9639266706091071
+            }
+          ]
+        },
+        {
+          "key": "G07-01",
+          "frames": [
+            7623,
+            7968,
+            8313
+          ],
+          "triptych": "review/continuous_en_shot_16.jpg",
+          "center": "review/center_en_16.jpg",
+          "source": "J. L. G. Ferris, The First Thanksgiving 1621 — reproduction print c. 1932, Library of Congress (No known restrictions on publication)",
+          "label": "LATER PAINTING｜後世の想像図",
+          "source_header_checks": [
+            {
+              "rgb_mean_absolute_error": 4.175869332107843,
+              "glyph_intersection_over_union": 0.9616270145817345
+            },
+            {
+              "rgb_mean_absolute_error": 4.130499387254902,
+              "glyph_intersection_over_union": 0.9650604722595508
+            },
+            {
+              "rgb_mean_absolute_error": 4.134666053921569,
+              "glyph_intersection_over_union": 0.9661928543987707
+            }
+          ]
+        },
+        {
+          "key": "V03",
+          "frames": [
+            8314,
+            8560,
+            8806
+          ],
+          "triptych": "review/continuous_en_shot_17.jpg",
+          "center": "review/center_en_17.jpg",
+          "source": "",
+          "label": "AI RECONSTRUCTION｜AIによる再現",
+          "source_header_checks": [
+            {
+              "rgb_mean_absolute_error": 4.076953125,
+              "glyph_intersection_over_union": 0.949814126394052
+            },
+            {
+              "rgb_mean_absolute_error": 4.07426087622549,
+              "glyph_intersection_over_union": 0.9516503951650395
+            },
+            {
+              "rgb_mean_absolute_error": 4.058352481617647,
+              "glyph_intersection_over_union": 0.9531322505800464
+            }
+          ]
+        },
+        {
+          "key": "D_timeline",
+          "frames": [
+            8807,
+            9139,
+            9471
+          ],
+          "triptych": "review/continuous_en_shot_18.jpg",
+          "center": "review/center_en_18.jpg",
+          "source": "",
+          "label": "SCHEMATIC｜模式図",
+          "source_header_checks": [
+            {
+              "rgb_mean_absolute_error": 3.9460554534313728,
+              "glyph_intersection_over_union": 0.9616788321167883
+            },
+            {
+              "rgb_mean_absolute_error": 3.9372587316176473,
+              "glyph_intersection_over_union": 0.9550698239222829
+            },
+            {
+              "rgb_mean_absolute_error": 3.9362821691176473,
+              "glyph_intersection_over_union": 0.9556769884638737
+            }
+          ]
+        },
+        {
+          "key": "V04",
+          "frames": [
+            9472,
+            9577,
+            9683
+          ],
+          "triptych": "review/continuous_en_shot_19.jpg",
+          "center": "review/center_en_19.jpg",
+          "source": "",
+          "label": "AI RECONSTRUCTION｜AIによる再現",
+          "source_header_checks": [
+            {
+              "rgb_mean_absolute_error": 4.080319393382353,
+              "glyph_intersection_over_union": 0.949814126394052
+            },
+            {
+              "rgb_mean_absolute_error": 4.076616115196078,
+              "glyph_intersection_over_union": 0.9511854951185496
+            },
+            {
+              "rgb_mean_absolute_error": 4.076589307598039,
+              "glyph_intersection_over_union": 0.9497907949790795
+            }
+          ]
+        },
+        {
+          "key": "credits",
+          "frames": [
+            9684,
+            10078,
+            10473
+          ],
+          "triptych": "review/continuous_en_shot_20.jpg",
+          "center": "review/center_en_20.jpg",
+          "source": "",
+          "label": "",
+          "source_header_checks": [
+            {
+              "rgb_mean_absolute_error": 3.8010876225490198,
+              "glyph_intersection_over_union": 0.966396292004635
+            },
+            {
+              "rgb_mean_absolute_error": 3.8010876225490198,
+              "glyph_intersection_over_union": 0.966396292004635
+            },
+            {
+              "rgb_mean_absolute_error": 3.803680300245098,
+              "glyph_intersection_over_union": 0.9709639953542393
+            }
+          ]
+        },
+        {
+          "key": "endcard",
+          "frames": [
+            10474,
+            10623,
+            10773
+          ],
+          "triptych": "review/continuous_en_shot_21.jpg",
+          "center": "review/center_en_21.jpg",
+          "source": null,
+          "label": null,
+          "source_header_checks": []
+        }
+      ],
+      "audio_only_remux_video_evidence": {
+        "name": "EP007_Thanksgiving_en_v01_1080p30.mp4",
+        "old_sha256": "3e9a57f1ef7a69d35f27985ecb661a8c13f64add1bdf13cc10ba6ecc2ebff17d",
+        "new_sha256": "3c9aac6b46facac85edcdca2936c0a923d55d16a56b1bfcb6d25d5f3e6bdfa45",
+        "unchanged_video_stream_sha256": "SHA256=51f251ea1560bbed253c9ee73c4541bf8029f4aba25a9acaa3affd9bce77937b"
+      }
+    },
+    {
+      "language": "ja",
+      "video_sha256": "8dab6b136d7bc96db33bbfdff54f15a3645e445289a05cc4fcd49e49b5ad9515",
+      "decoded_frames": 10774,
+      "decoded_pixel_formats": [
+        [
+          1920,
+          1080,
+          "yuv420p"
+        ]
+      ],
+      "sps_profile_idc": [
+        "100"
+      ],
+      "decode_warnings": 0,
+      "no_seeking": true,
+      "records": [
+        {
+          "key": "V01",
+          "frames": [
+            0,
+            528,
+            1056
+          ],
+          "triptych": "review/continuous_ja_shot_01.jpg",
+          "center": "review/center_ja_01.jpg",
+          "source": "",
+          "label": "AI RECONSTRUCTION｜AIによる再現",
+          "source_header_checks": [
+            {
+              "rgb_mean_absolute_error": 4.083777573529412,
+              "glyph_intersection_over_union": 0.9526242452392011
+            },
+            {
+              "rgb_mean_absolute_error": 4.059643075980392,
+              "glyph_intersection_over_union": 0.9517177344475395
+            },
+            {
+              "rgb_mean_absolute_error": 4.062358302696079,
+              "glyph_intersection_over_union": 0.9517177344475395
+            }
+          ]
+        },
+        {
+          "key": "G08-01",
+          "frames": [
+            1057,
+            1298,
+            1540
+          ],
+          "triptych": "review/continuous_ja_shot_02.jpg",
+          "center": "review/center_ja_02.jpg",
+          "source": "Harper's Weekly, 27 Nov 1858 (after Winslow Homer) • The Metropolitan Museum of Art",
+          "label": "WOOD ENGRAVING｜木版画",
+          "source_header_checks": [
+            {
+              "rgb_mean_absolute_error": 4.1223881740196076,
+              "glyph_intersection_over_union": 0.96
+            },
+            {
+              "rgb_mean_absolute_error": 4.121894148284314,
+              "glyph_intersection_over_union": 0.9616590306245478
+            },
+            {
+              "rgb_mean_absolute_error": 4.095136335784313,
+              "glyph_intersection_over_union": 0.9583132530120482
+            }
+          ]
+        },
+        {
+          "key": "opening",
+          "frames": [
+            1541,
+            1600,
+            1660
+          ],
+          "triptych": "review/continuous_ja_shot_03.jpg",
+          "center": "review/center_ja_03.jpg",
+          "source": null,
+          "label": null,
+          "source_header_checks": []
+        },
+        {
+          "key": "G01-01",
+          "frames": [
+            1661,
+            1747,
+            1833
+          ],
+          "triptych": "review/continuous_ja_shot_04.jpg",
+          "center": "review/center_ja_04.jpg",
+          "source": "Mourt's Relation, London 1622 • Boston Public Library / Internet Archive",
+          "label": "PRINTED BOOK｜刊本",
+          "source_header_checks": [
+            {
+              "rgb_mean_absolute_error": 4.039483762254902,
+              "glyph_intersection_over_union": 0.9704433497536946
+            },
+            {
+              "rgb_mean_absolute_error": 4.037040441176471,
+              "glyph_intersection_over_union": 0.9710228919153868
+            },
+            {
+              "rgb_mean_absolute_error": 4.043673406862745,
+              "glyph_intersection_over_union": 0.9710228919153868
+            }
+          ]
+        },
+        {
+          "key": "G02-02",
+          "frames": [
+            1834,
+            2028,
+            2222
+          ],
+          "triptych": "review/continuous_ja_shot_05.jpg",
+          "center": "review/center_ja_05.jpg",
+          "source": "Mourt's Relation, London 1622 • p. 60 • Boston Public Library / Internet Archive",
+          "label": "PRINTED BOOK｜刊本",
+          "source_header_checks": [
+            {
+              "rgb_mean_absolute_error": 4.0403569240196076,
+              "glyph_intersection_over_union": 0.9722766732007841
+            },
+            {
+              "rgb_mean_absolute_error": 4.037090226715686,
+              "glyph_intersection_over_union": 0.9725567068048165
+            },
+            {
+              "rgb_mean_absolute_error": 4.004231770833333,
+              "glyph_intersection_over_union": 0.9705882352941176
+            }
+          ]
+        },
+        {
+          "key": "G02-01",
+          "frames": [
+            2223,
+            2650,
+            3077
+          ],
+          "triptych": "review/continuous_ja_shot_06.jpg",
+          "center": "review/center_ja_06.jpg",
+          "source": "Mourt's Relation, London 1622 • p. 61 • Boston Public Library / Internet Archive",
+          "label": "PRINTED BOOK｜刊本",
+          "source_header_checks": [
+            {
+              "rgb_mean_absolute_error": 4.039506740196078,
+              "glyph_intersection_over_union": 0.971010413734872
+            },
+            {
+              "rgb_mean_absolute_error": 4.003488817401961,
+              "glyph_intersection_over_union": 0.9704475091471996
+            },
+            {
+              "rgb_mean_absolute_error": 4.003105851715686,
+              "glyph_intersection_over_union": 0.9707207207207207
+            }
+          ]
+        },
+        {
+          "key": "V02",
+          "frames": [
+            3078,
+            3426,
+            3775
+          ],
+          "triptych": "review/continuous_ja_shot_07.jpg",
+          "center": "review/center_ja_07.jpg",
+          "source": "",
+          "label": "AI RECONSTRUCTION｜AIによる再現",
+          "source_header_checks": [
+            {
+              "rgb_mean_absolute_error": 4.080537683823529,
+              "glyph_intersection_over_union": 0.949814126394052
+            },
+            {
+              "rgb_mean_absolute_error": 4.060098805147059,
+              "glyph_intersection_over_union": 0.9508120649651972
+            },
+            {
+              "rgb_mean_absolute_error": 4.061450674019608,
+              "glyph_intersection_over_union": 0.9508120649651972
+            }
+          ]
+        },
+        {
+          "key": "G09-01",
+          "frames": [
+            3776,
+            4102,
+            4428
+          ],
+          "triptych": "review/continuous_ja_shot_08.jpg",
+          "center": "review/center_ja_08.jpg",
+          "source": "Audubon, The Birds of America, Plate I (1827–30) • University of South Carolina Libraries",
+          "label": "ENGRAVING｜銅版画",
+          "source_header_checks": [
+            {
+              "rgb_mean_absolute_error": 4.070848651960785,
+              "glyph_intersection_over_union": 0.9585995399948888
+            },
+            {
+              "rgb_mean_absolute_error": 4.046821384803922,
+              "glyph_intersection_over_union": 0.9596320899335717
+            },
+            {
+              "rgb_mean_absolute_error": 4.04715456495098,
+              "glyph_intersection_over_union": 0.9591315453384419
+            }
+          ]
+        },
+        {
+          "key": "G14-01",
+          "frames": [
+            4429,
+            4572,
+            4716
+          ],
+          "triptych": "review/continuous_ja_shot_09.jpg",
+          "center": "review/center_ja_09.jpg",
+          "source": "Winslow, Good Newes, London 1624 • Boston Public Library / Internet Archive",
+          "label": "PRINTED BOOK｜刊本",
+          "source_header_checks": [
+            {
+              "rgb_mean_absolute_error": 4.039093137254902,
+              "glyph_intersection_over_union": 0.9713475177304964
+            },
+            {
+              "rgb_mean_absolute_error": 4.0351332720588236,
+              "glyph_intersection_over_union": 0.9727582292849035
+            },
+            {
+              "rgb_mean_absolute_error": 3.9928385416666665,
+              "glyph_intersection_over_union": 0.9696969696969697
+            }
+          ]
+        },
+        {
+          "key": "G14-02",
+          "frames": [
+            4717,
+            4841,
+            4966
+          ],
+          "triptych": "review/continuous_ja_shot_10.jpg",
+          "center": "review/center_ja_10.jpg",
+          "source": "Winslow, Good Newes, London 1624 • p. 49 • Boston Public Library / Internet Archive",
+          "label": "PRINTED BOOK｜刊本",
+          "source_header_checks": [
+            {
+              "rgb_mean_absolute_error": 4.036439185049019,
+              "glyph_intersection_over_union": 0.9735464315238358
+            },
+            {
+              "rgb_mean_absolute_error": 4.0328125,
+              "glyph_intersection_over_union": 0.9757174392935982
+            },
+            {
+              "rgb_mean_absolute_error": 4.033505667892157,
+              "glyph_intersection_over_union": 0.975448275862069
+            }
+          ]
+        },
+        {
+          "key": "G14-04",
+          "frames": [
+            4967,
+            5169,
+            5371
+          ],
+          "triptych": "review/continuous_ja_shot_11.jpg",
+          "center": "review/center_ja_11.jpg",
+          "source": "Winslow, Good Newes, London 1624 • p. 51 • Boston Public Library / Internet Archive",
+          "label": "PRINTED BOOK｜刊本",
+          "source_header_checks": [
+            {
+              "rgb_mean_absolute_error": 4.055039828431372,
+              "glyph_intersection_over_union": 0.9734806629834254
+            },
+            {
+              "rgb_mean_absolute_error": 4.0333984375,
+              "glyph_intersection_over_union": 0.9734366353071389
+            },
+            {
+              "rgb_mean_absolute_error": 4.002780330882353,
+              "glyph_intersection_over_union": 0.973174778761062
+            }
+          ]
+        },
+        {
+          "key": "G11-02",
+          "frames": [
+            5372,
+            5655,
+            5939
+          ],
+          "triptych": "review/continuous_ja_shot_12.jpg",
+          "center": "review/center_ja_12.jpg",
+          "source": "Mourt's Relation, London 1622 • p. 37 • Boston Public Library / Internet Archive",
+          "label": "PRINTED BOOK｜刊本",
+          "source_header_checks": [
+            {
+              "rgb_mean_absolute_error": 4.040395220588235,
+              "glyph_intersection_over_union": 0.9723943661971831
+            },
+            {
+              "rgb_mean_absolute_error": 4.011450674019608,
+              "glyph_intersection_over_union": 0.9679324894514768
+            },
+            {
+              "rgb_mean_absolute_error": 4.003427542892157,
+              "glyph_intersection_over_union": 0.9715573078006196
+            }
+          ]
+        },
+        {
+          "key": "D_young",
+          "frames": [
+            5940,
+            6310,
+            6681
+          ],
+          "triptych": "review/continuous_ja_shot_13.jpg",
+          "center": "review/center_ja_13.jpg",
+          "source": "",
+          "label": "SCHEMATIC｜模式図",
+          "source_header_checks": [
+            {
+              "rgb_mean_absolute_error": 3.9372587316176473,
+              "glyph_intersection_over_union": 0.9550698239222829
+            },
+            {
+              "rgb_mean_absolute_error": 3.9372587316176473,
+              "glyph_intersection_over_union": 0.9550698239222829
+            },
+            {
+              "rgb_mean_absolute_error": 3.936301317401961,
+              "glyph_intersection_over_union": 0.955015197568389
+            }
+          ]
+        },
+        {
+          "key": "G08-02",
+          "frames": [
+            6682,
+            6927,
+            7172
+          ],
+          "triptych": "review/continuous_ja_shot_14.jpg",
+          "center": "review/center_ja_14.jpg",
+          "source": "Harper's Weekly, 29 Nov 1862 (after Winslow Homer) • The Metropolitan Museum of Art",
+          "label": "WOOD ENGRAVING｜木版画",
+          "source_header_checks": [
+            {
+              "rgb_mean_absolute_error": 4.125248927696078,
+              "glyph_intersection_over_union": 0.9598557692307692
+            },
+            {
+              "rgb_mean_absolute_error": 4.13094362745098,
+              "glyph_intersection_over_union": 0.9615199615199616
+            },
+            {
+              "rgb_mean_absolute_error": 4.094370404411765,
+              "glyph_intersection_over_union": 0.958643904784804
+            }
+          ]
+        },
+        {
+          "key": "G06-01",
+          "frames": [
+            7173,
+            7397,
+            7622
+          ],
+          "triptych": "review/continuous_ja_shot_15.jpg",
+          "center": "review/center_ja_15.jpg",
+          "source": "Proclamation, 3 Oct 1863, National Archives • first page",
+          "label": "ARCHIVAL DOCUMENT｜公文書",
+          "source_header_checks": [
+            {
+              "rgb_mean_absolute_error": 4.094075520833333,
+              "glyph_intersection_over_union": 0.9641693811074918
+            },
+            {
+              "rgb_mean_absolute_error": 4.090984987745098,
+              "glyph_intersection_over_union": 0.9644655019247853
+            },
+            {
+              "rgb_mean_absolute_error": 4.060068167892157,
+              "glyph_intersection_over_union": 0.9639266706091071
+            }
+          ]
+        },
+        {
+          "key": "G07-01",
+          "frames": [
+            7623,
+            7968,
+            8313
+          ],
+          "triptych": "review/continuous_ja_shot_16.jpg",
+          "center": "review/center_ja_16.jpg",
+          "source": "J. L. G. Ferris, The First Thanksgiving 1621 — reproduction print c. 1932, Library of Congress (No known restrictions on publication)",
+          "label": "LATER PAINTING｜後世の想像図",
+          "source_header_checks": [
+            {
+              "rgb_mean_absolute_error": 4.175869332107843,
+              "glyph_intersection_over_union": 0.9616270145817345
+            },
+            {
+              "rgb_mean_absolute_error": 4.130499387254902,
+              "glyph_intersection_over_union": 0.9650604722595508
+            },
+            {
+              "rgb_mean_absolute_error": 4.134666053921569,
+              "glyph_intersection_over_union": 0.9661928543987707
+            }
+          ]
+        },
+        {
+          "key": "V03",
+          "frames": [
+            8314,
+            8560,
+            8806
+          ],
+          "triptych": "review/continuous_ja_shot_17.jpg",
+          "center": "review/center_ja_17.jpg",
+          "source": "",
+          "label": "AI RECONSTRUCTION｜AIによる再現",
+          "source_header_checks": [
+            {
+              "rgb_mean_absolute_error": 4.076953125,
+              "glyph_intersection_over_union": 0.949814126394052
+            },
+            {
+              "rgb_mean_absolute_error": 4.07426087622549,
+              "glyph_intersection_over_union": 0.9516503951650395
+            },
+            {
+              "rgb_mean_absolute_error": 4.058352481617647,
+              "glyph_intersection_over_union": 0.9531322505800464
+            }
+          ]
+        },
+        {
+          "key": "D_timeline",
+          "frames": [
+            8807,
+            9139,
+            9471
+          ],
+          "triptych": "review/continuous_ja_shot_18.jpg",
+          "center": "review/center_ja_18.jpg",
+          "source": "",
+          "label": "SCHEMATIC｜模式図",
+          "source_header_checks": [
+            {
+              "rgb_mean_absolute_error": 3.9460554534313728,
+              "glyph_intersection_over_union": 0.9616788321167883
+            },
+            {
+              "rgb_mean_absolute_error": 3.9372587316176473,
+              "glyph_intersection_over_union": 0.9550698239222829
+            },
+            {
+              "rgb_mean_absolute_error": 3.9362821691176473,
+              "glyph_intersection_over_union": 0.9556769884638737
+            }
+          ]
+        },
+        {
+          "key": "V04",
+          "frames": [
+            9472,
+            9577,
+            9683
+          ],
+          "triptych": "review/continuous_ja_shot_19.jpg",
+          "center": "review/center_ja_19.jpg",
+          "source": "",
+          "label": "AI RECONSTRUCTION｜AIによる再現",
+          "source_header_checks": [
+            {
+              "rgb_mean_absolute_error": 4.080319393382353,
+              "glyph_intersection_over_union": 0.949814126394052
+            },
+            {
+              "rgb_mean_absolute_error": 4.076616115196078,
+              "glyph_intersection_over_union": 0.9511854951185496
+            },
+            {
+              "rgb_mean_absolute_error": 4.076589307598039,
+              "glyph_intersection_over_union": 0.9497907949790795
+            }
+          ]
+        },
+        {
+          "key": "credits",
+          "frames": [
+            9684,
+            10078,
+            10473
+          ],
+          "triptych": "review/continuous_ja_shot_20.jpg",
+          "center": "review/center_ja_20.jpg",
+          "source": "",
+          "label": "",
+          "source_header_checks": [
+            {
+              "rgb_mean_absolute_error": 3.8010876225490198,
+              "glyph_intersection_over_union": 0.966396292004635
+            },
+            {
+              "rgb_mean_absolute_error": 3.8010876225490198,
+              "glyph_intersection_over_union": 0.966396292004635
+            },
+            {
+              "rgb_mean_absolute_error": 3.803680300245098,
+              "glyph_intersection_over_union": 0.9709639953542393
+            }
+          ]
+        },
+        {
+          "key": "endcard",
+          "frames": [
+            10474,
+            10623,
+            10773
+          ],
+          "triptych": "review/continuous_ja_shot_21.jpg",
+          "center": "review/center_ja_21.jpg",
+          "source": null,
+          "label": null,
+          "source_header_checks": []
+        }
+      ]
+    }
+  ],
+  "script_unchanged": true,
+  "unique_originals": [
+    "G08-01",
+    "G01-01",
+    "G02-02",
+    "G02-01",
+    "G09-01",
+    "G14-01",
+    "G14-02",
+    "G14-04",
+    "G11-02",
+    "G08-02",
+    "G06-01",
+    "G07-01"
+  ],
+  "ferris_fixed_crop": [
+    0.116,
+    0.185,
+    0.854,
+    0.763
+  ],
+  "ferris_no_uncropped_source_in_background": true,
+  "endcard_exact_last_10_seconds": true,
+  "opening_frames": [
+    {
+      "language": "en",
+      "source_frames": [
+        0,
+        30,
+        60,
+        90
+      ],
+      "files": [
+        "review/opening_en_01.jpg",
+        "review/opening_en_02.jpg",
+        "review/opening_en_03.jpg",
+        "review/opening_en_04.jpg"
+      ]
+    },
+    {
+      "language": "ja",
+      "source_frames": [
+        0,
+        30,
+        60,
+        90
+      ],
+      "files": [
+        "review/opening_ja_01.jpg",
+        "review/opening_ja_02.jpg",
+        "review/opening_ja_03.jpg",
+        "review/opening_ja_04.jpg"
+      ]
+    }
+  ]
+}

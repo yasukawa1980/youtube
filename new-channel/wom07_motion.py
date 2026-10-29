@@ -11,9 +11,9 @@ def roi(shot):
  return [200,200,1520,480]
 
 def motion_stats(path,rect):
- signature=hashlib.sha256((sha(path)+json.dumps(rect)+'gray-exact-fullrate-v1').encode()).hexdigest();cache=ROOT/'_work/motion_cache'/f'{signature}.json'
+ signature=hashlib.sha256((sha(path)+json.dumps(rect)+'gray-exact-passthrough-v2').encode()).hexdigest();cache=ROOT/'_work/motion_cache'/f'{signature}.json'
  if cache.exists():return read(cache)
- x,y,w,h=rect;cmd=['ffmpeg','-nostdin','-v','error','-threads','2','-i',str(path),'-vf',f'format=gray,crop={w}:{h}:{x}:{y}:exact=1','-f','rawvideo','-pix_fmt','gray','-'];p=subprocess.Popen(cmd,stdout=subprocess.PIPE);prior=None;ds=[];n=w*h
+ x,y,w,h=rect;cmd=['ffmpeg','-nostdin','-v','error','-threads','2','-i',str(path),'-vf',f'format=gray,crop={w}:{h}:{x}:{y}:exact=1','-fps_mode','passthrough','-f','rawvideo','-pix_fmt','gray','-'];p=subprocess.Popen(cmd,stdout=subprocess.PIPE);prior=None;ds=[];n=w*h
  while True:
   data=p.stdout.read(n)
   if not data:break

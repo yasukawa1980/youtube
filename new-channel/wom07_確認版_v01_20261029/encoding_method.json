@@ -1,0 +1,165 @@
+{
+  "method": "Independent shot decoders feeding one raw-video encoder",
+  "shots": [
+    {
+      "key": "V01",
+      "frames": 1057,
+      "input_profile": "High"
+    },
+    {
+      "key": "G08-01",
+      "frames": 484,
+      "input_profile": "High"
+    },
+    {
+      "key": "opening",
+      "frames": 120,
+      "input_profile": "High"
+    },
+    {
+      "key": "G01-01",
+      "frames": 173,
+      "input_profile": "High"
+    },
+    {
+      "key": "G02-02",
+      "frames": 389,
+      "input_profile": "High"
+    },
+    {
+      "key": "G02-01",
+      "frames": 855,
+      "input_profile": "High"
+    },
+    {
+      "key": "V02",
+      "frames": 698,
+      "input_profile": "High"
+    },
+    {
+      "key": "G09-01",
+      "frames": 653,
+      "input_profile": "High"
+    },
+    {
+      "key": "G14-01",
+      "frames": 288,
+      "input_profile": "High"
+    },
+    {
+      "key": "G14-02",
+      "frames": 250,
+      "input_profile": "High"
+    },
+    {
+      "key": "G14-04",
+      "frames": 405,
+      "input_profile": "High"
+    },
+    {
+      "key": "G11-02",
+      "frames": 568,
+      "input_profile": "High"
+    },
+    {
+      "key": "D_young",
+      "frames": 742,
+      "input_profile": "High 4:4:4 Predictive"
+    },
+    {
+      "key": "G08-02",
+      "frames": 491,
+      "input_profile": "High"
+    },
+    {
+      "key": "G06-01",
+      "frames": 450,
+      "input_profile": "High"
+    },
+    {
+      "key": "G07-01",
+      "frames": 691,
+      "input_profile": "High"
+    },
+    {
+      "key": "V03",
+      "frames": 493,
+      "input_profile": "High"
+    },
+    {
+      "key": "D_timeline",
+      "frames": 665,
+      "input_profile": "High 4:4:4 Predictive"
+    },
+    {
+      "key": "V04",
+      "frames": 212,
+      "input_profile": "High"
+    },
+    {
+      "key": "credits",
+      "frames": 790,
+      "input_profile": "High 4:4:4 Predictive"
+    },
+    {
+      "key": "endcard",
+      "frames": 300,
+      "input_profile": "High"
+    }
+  ],
+  "command": [
+    "ffmpeg",
+    "-nostdin",
+    "-y",
+    "-v",
+    "warning",
+    "-f",
+    "rawvideo",
+    "-pixel_format",
+    "yuv420p",
+    "-video_size",
+    "1920x1080",
+    "-framerate",
+    "30",
+    "-i",
+    "pipe:0",
+    "-an",
+    "-c:v",
+    "libx264",
+    "-threads",
+    "3",
+    "-preset",
+    "medium",
+    "-crf",
+    "16",
+    "-profile:v",
+    "high",
+    "-level:v",
+    "4.1",
+    "-pix_fmt",
+    "yuv420p",
+    "-g",
+    "60",
+    "-bf",
+    "2",
+    "-maxrate",
+    "20M",
+    "-bufsize",
+    "30M",
+    "-fps_mode",
+    "passthrough",
+    "-video_track_timescale",
+    "15360",
+    "-movie_timescale",
+    "48000",
+    "-color_primaries",
+    "bt709",
+    "-color_trc",
+    "bt709",
+    "-colorspace",
+    "bt709",
+    "-movflags",
+    "+faststart",
+    "/Users/ryo/Desktop/新チャンネル/EP007_Thanksgiving/確認版_v01_20261029/_work/picture_master.mp4"
+  ]
+}

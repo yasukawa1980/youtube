@@ -1,0 +1,29 @@
+{
+  "corrections": [
+    {
+      "interval": "opening",
+      "changed_samples": 32,
+      "max_absolute_difference": 3.1672184377384838e-06
+    },
+    {
+      "interval": "endcard",
+      "changed_samples": 0,
+      "max_absolute_difference": 0.0
+    }
+  ],
+  "picture_packets_unchanged": [
+    {
+      "name": "EP007_Thanksgiving_en_v01_1080p30.mp4",
+      "old_sha256": "3e9a57f1ef7a69d35f27985ecb661a8c13f64add1bdf13cc10ba6ecc2ebff17d",
+      "new_sha256": "3c9aac6b46facac85edcdca2936c0a923d55d16a56b1bfcb6d25d5f3e6bdfa45",
+      "unchanged_video_stream_sha256": "SHA256=51f251ea1560bbed253c9ee73c4541bf8029f4aba25a9acaa3affd9bce77937b"
+    },
+    {
+      "name": "EP007_Thanksgiving_en_v01_subtitled_review_1080p30.mp4",
+      "old_sha256": "de1f5f85a593712a58a13be614a62d66d0218976ec9f89d19a4439aeae7a56a9",
+      "new_sha256": "e611a6074783b710ecb945ce97b9ac4737bb2679462d5e1bc928eb72bb44e89a",
+      "unchanged_video_stream_sha256": "SHA256=1ed88dda3d4dd924a893e99cf79862efa38734ed25e45b4a93a0401f24d36adb"
+    }
+  ],
+  "scope": "English mix only. Original inputs retained. Full final container decode and audio QA will be rerun; visual frame evidence reused only after encoded video SHA equality."
+}

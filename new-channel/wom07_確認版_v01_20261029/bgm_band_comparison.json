@@ -1,0 +1,23 @@
+{
+  "method": "Mono mean, 32768-sample Hann windows, non-overlapping FFT power, common music excluding OP/endcard; same method for EP006 and EP007.",
+  "ep006": {
+    "below_200Hz": 44.51572432225064,
+    "200_to_2000Hz": 55.484275675481555,
+    "at_or_above_2000Hz": 2.267787973131479e-09
+  },
+  "ep007": {
+    "below_200Hz": 24.24276700267914,
+    "200_to_2000Hz": 75.05453346533963,
+    "at_or_above_2000Hz": 0.7026995319812223
+  },
+  "handoff_reference_below_200Hz_percent": 58,
+  "ep006_source": {
+    "path": "/Users/ryo/Desktop/新チャンネル/EP006_Sphinx/確認版_v01_20261026/audio/common_bgm_and_brand.wav",
+    "sha256": "5d09acfd12e01933b02a8a6180fd600a4e6b82cb435ca3652a308caaaa475c78",
+    "note": "Existing common mix in the EP006 v01 folder; do not equate this measurement with the handoff’s 58% without its original method."
+  },
+  "ep007_source": {
+    "path": "/Users/ryo/Desktop/新チャンネル/EP007_Thanksgiving/確認版_v01_20261029/audio/common_selected_bgm.wav",
+    "sha256": "fcbf1378b80bffb766add93b443403efe177496fcc9235ecc95fcd5e46ef4212"
+  }
+}

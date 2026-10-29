@@ -1,0 +1,217 @@
+{
+  "passed": true,
+  "unique_source_asset_count": 16,
+  "source_occurrences": [
+    {
+      "segment_id": "P01",
+      "key": "V01",
+      "start": 0.0,
+      "end": 35.233333333333334
+    },
+    {
+      "segment_id": "P02",
+      "key": "G08-01",
+      "start": 35.233333333333334,
+      "end": 51.36666666666667
+    },
+    {
+      "segment_id": "BRAND",
+      "key": "opening",
+      "start": 51.36666666666667,
+      "end": 55.36666666666667
+    },
+    {
+      "segment_id": "P03",
+      "key": "G01-01",
+      "start": 55.36666666666667,
+      "end": 61.13333333333333
+    },
+    {
+      "segment_id": "P03",
+      "key": "G02-02",
+      "start": 61.13333333333333,
+      "end": 74.1
+    },
+    {
+      "segment_id": "P04",
+      "key": "G02-01",
+      "start": 74.1,
+      "end": 102.6
+    },
+    {
+      "segment_id": "P05",
+      "key": "V02",
+      "start": 102.6,
+      "end": 125.86666666666666
+    },
+    {
+      "segment_id": "P06",
+      "key": "G09-01",
+      "start": 125.86666666666666,
+      "end": 147.63333333333333
+    },
+    {
+      "segment_id": "P07",
+      "key": "G14-01",
+      "start": 147.63333333333333,
+      "end": 157.23333333333332
+    },
+    {
+      "segment_id": "P07",
+      "key": "G14-02",
+      "start": 157.23333333333332,
+      "end": 165.56666666666666
+    },
+    {
+      "segment_id": "P07",
+      "key": "G14-04",
+      "start": 165.56666666666666,
+      "end": 179.06666666666666
+    },
+    {
+      "segment_id": "P08",
+      "key": "G11-02",
+      "start": 179.06666666666666,
+      "end": 198.0
+    },
+    {
+      "segment_id": "P09",
+      "key": "D_young",
+      "start": 198.0,
+      "end": 222.73333333333332
+    },
+    {
+      "segment_id": "P10",
+      "key": "G08-02",
+      "start": 222.73333333333332,
+      "end": 239.1
+    },
+    {
+      "segment_id": "P10",
+      "key": "G06-01",
+      "start": 239.1,
+      "end": 254.1
+    },
+    {
+      "segment_id": "P11",
+      "key": "G07-01",
+      "start": 254.1,
+      "end": 277.1333333333333
+    },
+    {
+      "segment_id": "P12",
+      "key": "V03",
+      "start": 277.1333333333333,
+      "end": 293.56666666666666
+    },
+    {
+      "segment_id": "P13",
+      "key": "D_timeline",
+      "start": 293.56666666666666,
+      "end": 315.73333333333335
+    },
+    {
+      "segment_id": "P14",
+      "key": "V04",
+      "start": 315.73333333333335,
+      "end": 322.8
+    },
+    {
+      "segment_id": "P15",
+      "key": "credits",
+      "start": 322.8,
+      "end": 349.1333333333333
+    },
+    {
+      "segment_id": "BRAND",
+      "key": "endcard",
+      "start": 349.1333333333333,
+      "end": 359.1333333333333
+    }
+  ],
+  "book_order_passed": true,
+  "japanese_end_wait_seconds": {
+    "P01": 0.9106666666666712,
+    "P02": 1.4253333333333345,
+    "P03": 0.9306666666666672,
+    "P04": 0.9159999999999968,
+    "P05": 0.8999999999999915,
+    "P06": 1.804000000000002,
+    "P07": 0.9053333333333455,
+    "P08": 1.8133333333333326,
+    "P09": 0.9146666666666476,
+    "P10": 0.9133333333333269,
+    "P11": 1.8173333333333517,
+    "P12": 0.9026666666666756,
+    "P13": 0.9026666666666756,
+    "P14": 1.2906666666666524,
+    "P15": 2.4399999999999977
+  },
+  "max_ja_wait_seconds": 2.4399999999999977,
+  "brand_sources_unchanged": true,
+  "audio": [
+    {
+      "language": "en",
+      "wav_frames": 17238400,
+      "wav_sample_rate": 48000,
+      "wav_subtype": "PCM_24",
+      "brand_audio_matches_24k_mix_reference": true
+    },
+    {
+      "language": "ja",
+      "wav_frames": 17238400,
+      "wav_sample_rate": 48000,
+      "wav_subtype": "PCM_24",
+      "brand_audio_matches_24k_mix_reference": true
+    }
+  ],
+  "ferris_original_guard_roi": [
+    0.18,
+    0.39,
+    0.43,
+    0.57
+  ],
+  "ferris_endpoint_guard_bbox": [
+    396.2097777777777,
+    379.3799307958477,
+    920.6542222222221,
+    680.708650519031
+  ],
+  "ferris_endpoint_scope_preserved": true,
+  "opening_checks": [
+    {
+      "language": "en",
+      "sample_times": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "adjacent_sample_rgb_MAD": [
+        6.78156774870801,
+        7.785019379844961,
+        7.507911014211886
+      ],
+      "first_image_nonblack_fraction": 0.9302277131782946,
+      "full_bleed_source": true
+    },
+    {
+      "language": "ja",
+      "sample_times": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "adjacent_sample_rgb_MAD": [
+        6.78156774870801,
+        7.785019379844961,
+        7.507911014211886
+      ],
+      "first_image_nonblack_fraction": 0.9302277131782946,
+      "full_bleed_source": true
+    }
+  ],
+  "style_requirement": "NOT PASSED: see visual_style_review.json",
+  "human_listening": "pending"
+}

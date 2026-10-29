@@ -1,0 +1,130 @@
+{
+  "selection": {
+    "common": "QO_THEME_A02",
+    "america": "QO_AMERICA01"
+  },
+  "sources": {
+    "QO_THEME_A02": {
+      "path": "/Users/ryo/Desktop/新チャンネル/_共通/BGM/20261029_Suno/QO_THEME_A02.wav",
+      "sha256": "5b52d6aa9eacb441ae4e28a62dcede30c542161c7a2a585e49f62977685dc31d"
+    },
+    "QO_AMERICA01": {
+      "path": "/Users/ryo/Desktop/新チャンネル/_共通/BGM/20261029_Suno/QO_AMERICA01.wav",
+      "sha256": "7e1dca4a6f0cd7216cb04229cb492a2a56d6665411e35b43171ca98baa1cedad"
+    }
+  },
+  "source_spans": [
+    {
+      "track": "QO_THEME_A02",
+      "source_start": 10,
+      "source_end": 170.0,
+      "timeline_start": 0,
+      "timeline_end": 160.0,
+      "crossfade_seconds": 3.0
+    },
+    {
+      "track": "QO_THEME_A02",
+      "source_start": 10,
+      "source_end": 170.0,
+      "timeline_start": 157.0,
+      "timeline_end": 317.0,
+      "crossfade_seconds": 3.0
+    },
+    {
+      "track": "QO_THEME_A02",
+      "source_start": 10,
+      "source_end": 55.13333333333333,
+      "timeline_start": 314.0,
+      "timeline_end": 359.1333333333333,
+      "crossfade_seconds": 3.0
+    },
+    {
+      "track": "QO_AMERICA01",
+      "source_start": 45.0,
+      "source_end": 120.03333333333333,
+      "timeline_start": 72.6,
+      "timeline_end": 147.63333333333333,
+      "crossfade_seconds": 3.0
+    },
+    {
+      "track": "QO_AMERICA01",
+      "source_start": 90.0,
+      "source_end": 147.6,
+      "timeline_start": 196.5,
+      "timeline_end": 254.1,
+      "crossfade_seconds": 3.0
+    }
+  ],
+  "filters": "highpass 100 Hz, 2 poles; equalizer 2828 Hz, one octave, -3.5 dB",
+  "pause_boost_db": 6,
+  "crossfade_seconds": 3,
+  "bgm_bands_percent": {
+    "below_200Hz": 24.24276700267914,
+    "200_to_2000Hz": 75.05453346533963,
+    "at_or_above_2000Hz": 0.7026995319812223
+  },
+  "languages": {
+    "en": {
+      "levels": {
+        "input_i": "-16.01",
+        "input_tp": "-3.56",
+        "input_lra": "7.10",
+        "input_thresh": "-27.04",
+        "output_i": "-16.33",
+        "output_tp": "-3.00",
+        "output_lra": "5.70",
+        "output_thresh": "-26.91",
+        "normalization_type": "dynamic",
+        "target_offset": "0.33"
+      },
+      "voice_during_narration_dbfs": -17.713363860095818,
+      "bgm_during_narration_dbfs": -35.713363582270276,
+      "bgm_during_full_boost_breaks_dbfs": -29.631875014234936,
+      "voice_minus_bgm_db": 17.999999722174458,
+      "break_samples": 1012436,
+      "band_percent": {
+        "below_200Hz": 24.329673157119984,
+        "200_to_2000Hz": 74.97221251540694,
+        "at_or_above_2000Hz": 0.6981143274730842
+      },
+      "brand_samples_unchanged": true
+    },
+    "ja": {
+      "levels": {
+        "input_i": "-16.00",
+        "input_tp": "-5.01",
+        "input_lra": "3.30",
+        "input_thresh": "-26.59",
+        "output_i": "-15.92",
+        "output_tp": "-4.34",
+        "output_lra": "3.30",
+        "output_thresh": "-26.37",
+        "normalization_type": "dynamic",
+        "target_offset": "-0.08"
+      },
+      "voice_during_narration_dbfs": -18.265733329202813,
+      "bgm_during_narration_dbfs": -36.265733638636924,
+      "bgm_during_full_boost_breaks_dbfs": -30.40141877998568,
+      "voice_minus_bgm_db": 18.00000030943411,
+      "break_samples": 380201,
+      "band_percent": {
+        "below_200Hz": 24.544479228030166,
+        "200_to_2000Hz": 74.75187275394866,
+        "at_or_above_2000Hz": 0.7036480180211832
+      },
+      "brand_samples_unchanged": true
+    }
+  },
+  "brand_boundary_correction": [
+    {
+      "interval": "opening",
+      "changed_samples": 32,
+      "max_absolute_difference": 3.1672184377384838e-06
+    },
+    {
+      "interval": "endcard",
+      "changed_samples": 0,
+      "max_absolute_difference": 0.0
+    }
+  ]
+}

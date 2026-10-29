@@ -68,6 +68,14 @@ def pictures(partial=False,ai_only=False):
    if not(out.exists() and stamp.exists() and read(stamp)==cfg):
     quality=['-qp',0,'-profile:v','high444'] if static else ['-crf',18,'-profile:v','high']
     ff([*args,'-filter_complex_threads',2,'-filter_complex',filt,'-map','[v]','-frames:v',n,'-an','-c:v','libx264','-threads',2,'-preset','veryfast',*quality,'-pix_fmt','yuv420p','-video_track_timescale',15360,out]);save(stamp,cfg)
+   actual=int(next(v for v in probe(out)['streams'] if v['codec_type']=='video')['nb_frames'])
+   if actual<n:
+    assert key.startswith('V') and n-actual<=30,(key,actual,n)
+    backup=ROOT/f'_work/{out.stem}_before_tail_pad.mp4'
+    if not backup.exists():shutil.copy2(out,backup)
+    ff(['-i',backup,'-vf','setpts=N/(30*TB),tpad=stop_mode=clone:stop_duration=1','-frames:v',n,'-fps_mode','passthrough','-an','-c:v','libx264','-threads',2,'-preset','veryfast','-crf',18,'-profile:v','high','-pix_fmt','yuv420p','-video_track_timescale',15360,out])
+    save(ROOT/f'records/{key}_tail_normalization.json',{'input_frames':actual,'output_frames':n,'held_tail_frames':n-actual,'reason':'Optical-flow boundary frames; exact common timeline'})
+   assert int(next(v for v in probe(out)['streams'] if v['codec_type']=='video')['nb_frames'])==n
    shots.append({**s,'start':int(bounds[j])/30,'end':int(bounds[j+1])/30,'frames':n,'encoded_file':str(out.relative_to(ROOT)),'camera_direction':direction,'render_config':cfg})
    print('RENDERED',seg['id'],key,n,flush=True)
   if i==1:card('opening',OP)
