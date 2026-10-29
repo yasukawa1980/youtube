@@ -1,0 +1,185 @@
+{
+  "method": "Independent shot decoders feeding one raw-video encoder",
+  "shots": [
+    {
+      "key": "B286",
+      "frames": 1069,
+      "input_profile": "High"
+    },
+    {
+      "key": "N03",
+      "frames": 411,
+      "input_profile": "High"
+    },
+    {
+      "key": "opening",
+      "frames": 120,
+      "input_profile": "High"
+    },
+    {
+      "key": "B151",
+      "frames": 410,
+      "input_profile": "High"
+    },
+    {
+      "key": "B157",
+      "frames": 235,
+      "input_profile": "High"
+    },
+    {
+      "key": "B170",
+      "frames": 262,
+      "input_profile": "High"
+    },
+    {
+      "key": "B164",
+      "frames": 252,
+      "input_profile": "High"
+    },
+    {
+      "key": "B183",
+      "frames": 167,
+      "input_profile": "High"
+    },
+    {
+      "key": "B299",
+      "frames": 201,
+      "input_profile": "High"
+    },
+    {
+      "key": "B300",
+      "frames": 324,
+      "input_profile": "High"
+    },
+    {
+      "key": "B237",
+      "frames": 103,
+      "input_profile": "High"
+    },
+    {
+      "key": "B241",
+      "frames": 429,
+      "input_profile": "High"
+    },
+    {
+      "key": "D_illness",
+      "frames": 379,
+      "input_profile": "High 4:4:4 Predictive"
+    },
+    {
+      "key": "N01",
+      "frames": 341,
+      "input_profile": "High"
+    },
+    {
+      "key": "N02",
+      "frames": 390,
+      "input_profile": "High"
+    },
+    {
+      "key": "B313",
+      "frames": 443,
+      "input_profile": "High"
+    },
+    {
+      "key": "B312",
+      "frames": 276,
+      "input_profile": "High"
+    },
+    {
+      "key": "D_novels",
+      "frames": 960,
+      "input_profile": "High 4:4:4 Predictive"
+    },
+    {
+      "key": "D_warning",
+      "frames": 742,
+      "input_profile": "High 4:4:4 Predictive"
+    },
+    {
+      "key": "B246",
+      "frames": 301,
+      "input_profile": "High"
+    },
+    {
+      "key": "D_bmj",
+      "frames": 669,
+      "input_profile": "High 4:4:4 Predictive"
+    },
+    {
+      "key": "D_summary",
+      "frames": 639,
+      "input_profile": "High 4:4:4 Predictive"
+    },
+    {
+      "key": "V01",
+      "frames": 237,
+      "input_profile": "High"
+    },
+    {
+      "key": "credits",
+      "frames": 767,
+      "input_profile": "High 4:4:4 Predictive"
+    },
+    {
+      "key": "endcard",
+      "frames": 300,
+      "input_profile": "High"
+    }
+  ],
+  "command": [
+    "ffmpeg",
+    "-nostdin",
+    "-y",
+    "-v",
+    "warning",
+    "-f",
+    "rawvideo",
+    "-pixel_format",
+    "yuv420p",
+    "-video_size",
+    "1920x1080",
+    "-framerate",
+    "30",
+    "-i",
+    "pipe:0",
+    "-an",
+    "-c:v",
+    "libx264",
+    "-threads",
+    "3",
+    "-preset",
+    "medium",
+    "-crf",
+    "16",
+    "-profile:v",
+    "high",
+    "-level:v",
+    "4.1",
+    "-pix_fmt",
+    "yuv420p",
+    "-g",
+    "60",
+    "-bf",
+    "2",
+    "-maxrate",
+    "20M",
+    "-bufsize",
+    "30M",
+    "-fps_mode",
+    "passthrough",
+    "-video_track_timescale",
+    "15360",
+    "-movie_timescale",
+    "48000",
+    "-color_primaries",
+    "bt709",
+    "-color_trc",
+    "bt709",
+    "-colorspace",
+    "bt709",
+    "-movflags",
+    "+faststart",
+    "/Users/ryo/Desktop/新チャンネル/EP008_Tutankhamun/確認版_v01_20261029/_work/picture_master.mp4"
+  ]
+}

@@ -1,0 +1,275 @@
+{
+ "episode_id": "EP008",
+ "series": "Quiet Origins",
+ "language": "ja",
+ "title": "ツタンカーメンの呪いはどこから来たのか",
+ "subtitle": "封印された墓と突然の死、そして呪いを形づくった新聞と物語",
+ "script_version": "v02.1 (2026-10-29, v02 approved + Codex review accepted by Claude)",
+ "opening_after": "P02",
+ "chapters": [
+  {
+   "id": "C01",
+   "title": "だれもが知る呪い"
+  },
+  {
+   "id": "C02",
+   "title": "すばらしいもの"
+  },
+  {
+   "id": "C03",
+   "title": "新聞が語った物語"
+  },
+  {
+   "id": "C04",
+   "title": "墓より古い物語"
+  },
+  {
+   "id": "C05",
+   "title": "ろうそくと呪い"
+  }
+ ],
+ "sources": [
+  {
+   "id": "T-S01",
+   "title": "Howard Carter and A. C. Mace, The Tomb of Tut.ankh.Amen, vol. I, New York: George H. Doran, 1923 (MIT Libraries copy, IA tomboftutankhame00cart_1; 'No Copyright- United States')",
+   "kind": "primary_text",
+   "status": "checked by Codex 2026-10-29 (book image): p132 step found 4 Nov; p136 telegram (dated 6 Nov in the book); p138 ancient robbery and resealing; pp140-142 26 Nov, 'Yes, wonderful things.'; p201 publicity placed 'in the hands of The Times'; p245 Friday 16th, invited guests; p258 wishing cup 'May thy Ka live...'"
+  },
+  {
+   "id": "T-S02",
+   "title": "Howard Carter, journal, season 1 (Griffith Institute online transcription)",
+   "kind": "primary_text",
+   "status": "checked by Codex 2026-10-29 (institutional transcription): 26 Nov 'Yes, it is wonderful'; telegram under 5 Nov; 21 Mar erysipelas / blood poisoning; 26 Mar pneumonia; 5 Apr died in the early hours"
+  },
+  {
+   "id": "T-S03",
+   "title": "The Albany Democrat, 5 Apr 1923, p1; The Eugene Daily Guard, 6 Apr 1923, p1; Morning Register, 6 Apr 1923, p1 (University of Oregon Libraries, Public Domain Mark 1.0)",
+   "kind": "primary_text",
+   "status": "checked by Codex 2026-10-29 (page images): death and pneumonia reported; Conan Doyle's 'elemental' theory; Marie Corelli reported as speaking of ancient powers protecting the tomb; opposing views on the same pages"
+  },
+  {
+   "id": "T-S04",
+   "title": "The 'swift wings' warning",
+   "kind": "research",
+   "status": "origin and exact wording unconfirmed (Codex 2026-10-29); not found in the 1923 book passages, the journal entries checked, or Carter object 263. Not quoted verbatim; not a proof of absence from every record"
+  },
+  {
+   "id": "T-S05",
+   "title": "Louisa May Alcott, 'Lost in a Pyramid; or, The Mummy's Curse', The New World, 1869 (first publication per secondary literature)",
+   "kind": "research",
+   "status": "checked by Codex 2026-10-29 (transcription and scholarship): seeds taken from a tomb bring misfortune"
+  },
+  {
+   "id": "T-S06",
+   "title": "Arthur Conan Doyle, 'Lot No. 249', Harper's New Monthly Magazine, Sept 1892, pp. 525-544",
+   "kind": "primary_text",
+   "status": "checked by Codex 2026-10-29 (metadata/OCR): a mummy brought back to life. Page images not used (no PD/CC0 statement)"
+  },
+  {
+   "id": "T-S07",
+   "title": "Offering chapel of Hetepherakhty, 5th Dynasty, c. 2400 BC, Saqqara (Rijksmuseum van Oudheden, Leiden); J. H. Breasted, Ancient Records of Egypt I (1906), §253",
+   "kind": "research",
+   "status": "checked by Codex 2026-10-29 (museum description, 1906 translation): warning that those who enter unclean and do harm will be judged by the great god. Image not used"
+  },
+  {
+   "id": "T-S08",
+   "title": "Griffith Institute, person record: Howard Carter",
+   "kind": "research",
+   "status": "checked by Codex 2026-10-29: died 2 Mar 1939; work on the tomb about ten years"
+  },
+  {
+   "id": "T-S09",
+   "title": "Mark R. Nelson, 'The mummy's curse: historical cohort study', BMJ 2002;325:1482-1484, doi:10.1136/bmj.325.7378.1482",
+   "kind": "research",
+   "status": "checked by Codex 2026-10-29 (full text): 44 identified, 25 exposed, death data compared 25 vs 11; 'no significant association between exposure to the mummy's curse and survival'"
+  }
+ ],
+ "segments": [
+  {
+   "id": "P01",
+   "chapter": "C01",
+   "sources": [
+    "T-S04"
+   ],
+   "classification": "editorial_question",
+   "visuals": [
+    "B286"
+   ],
+   "text": "王家の谷の、封印された墓。その入口には、ある警告があったといいます。王の眠りを妨げる者には、死がすばやく訪れる、と。そして墓が開かれて五か月もたたないうちに、発掘の費用を出した人物が亡くなりました。百年にわたって語られてきた、ツタンカーメンの呪いです。けれど、今回確かめた記録では、その警告を墓の実際の碑文として示す出典は見つかりませんでした。では、呪いの話はどこから来たのでしょう。"
+  },
+  {
+   "id": "P02",
+   "chapter": "C01",
+   "sources": [],
+   "classification": "editorial_question",
+   "visuals": [
+    "N03"
+   ],
+   "text": "今回は、砂の中の一段の階段から、1923年の新聞へ、そして墓が見つかるずっと前に書かれたミイラの物語へと、話をたどります。"
+  },
+  {
+   "id": "P03",
+   "chapter": "C02",
+   "sources": [
+    "T-S01",
+    "T-S02"
+   ],
+   "classification": "sourced_narration",
+   "visuals": [
+    "B151",
+    "B157"
+   ],
+   "text": "1922年11月4日、考古学者ハワード・カーターのもとで掘っていたエジプト人の作業員たちが、岩を刻んだ階段の一段目を見つけました。場所はルクソールに近い王家の谷。カーターは階段をいったん埋め戻し、イギリスにいる出資者、カーナヴォン卿に電報を送りました。"
+  },
+  {
+   "id": "P04",
+   "chapter": "C02",
+   "sources": [
+    "T-S01",
+    "T-S02"
+   ],
+   "classification": "sourced_narration",
+   "visuals": [
+    "B164",
+    "B170"
+   ],
+   "text": "11月26日、カーナヴォン卿が見守るなか、カーターは封印された入口に小さな穴を開け、ろうそくをかざしました。何か見えるかと聞かれ、彼はこう答えた、と後に著書に書いています。「ええ、すばらしいものが」。"
+  },
+  {
+   "id": "P05",
+   "chapter": "C02",
+   "sources": [
+    "T-S01"
+   ],
+   "classification": "sourced_narration",
+   "visuals": [
+    "B183",
+    "B299",
+    "B300"
+   ],
+   "text": "それは、三千年以上前に国を治めた若い王の墓でした。古代に盗掘を受けた跡はあったものの、王とともに納められた品々の多くが残っていました。1923年2月16日、招かれた人々の前で、埋葬室の封印された扉が開かれます。"
+  },
+  {
+   "id": "P06",
+   "chapter": "C03",
+   "sources": [
+    "T-S01"
+   ],
+   "classification": "sourced_narration",
+   "visuals": [
+    "B237",
+    "B241"
+   ],
+   "text": "発見は世界中で大きく報じられました。カーナヴォン卿は、発掘の報道を、ロンドンの一つの新聞、タイムズ紙に任せます。ニュースを競うなかで、墓の外の話題も紙面をにぎわせるようになりました。"
+  },
+  {
+   "id": "P07",
+   "chapter": "C03",
+   "sources": [
+    "T-S02",
+    "T-S03"
+   ],
+   "classification": "sourced_narration",
+   "visuals": [
+    "D_illness"
+   ],
+   "text": "1923年3月、カーナヴォン卿は感染症にかかり、やがて肺炎も起こしました。4月5日、カイロで亡くなります。56歳でした。"
+  },
+  {
+   "id": "P08",
+   "chapter": "C03",
+   "sources": [
+    "T-S03"
+   ],
+   "classification": "sourced_narration",
+   "visuals": [
+    "N01",
+    "N02"
+   ],
+   "text": "世界中の新聞が、その死を墓と結びつけました。小説家マリー・コレリが、墓は古代の力に守られていると信じていたことも報じられました。作家アーサー・コナン・ドイルは、墓を守る霊のような力のせいかもしれない、と語ったと報じられています。同じ紙面には、それに反対する専門家の声も載っていました。"
+  },
+  {
+   "id": "P09",
+   "chapter": "C03",
+   "sources": [
+    "T-S04",
+    "T-S01"
+   ],
+   "classification": "sourced_narration",
+   "visuals": [
+    "B313",
+    "B312"
+   ],
+   "text": "あの有名な警告は、話が語り直されるなかで現れたものです。墓の中にその言葉があったことを示す、確かな出典は見つかっていません。墓に残る本物の文には、王の永遠の命を願う言葉があります。アラバスターの杯の一つには、王が幾百万年もの時を生きるよう願う言葉が刻まれています。"
+  },
+  {
+   "id": "P10",
+   "chapter": "C04",
+   "sources": [
+    "T-S05",
+    "T-S06"
+   ],
+   "classification": "sourced_narration",
+   "visuals": [
+    "D_novels"
+   ],
+   "text": "ミイラや、その墓にまつわる災いの物語は、発見のずっと前から読まれていました。1869年、『若草物語』の作者ルイザ・メイ・オルコットは、「ピラミッドで迷って、あるいはミイラの呪い」を発表します。墓から持ち出された種が、災いをもたらす物語です。1892年には、コナン・ドイル自身が、ミイラがよみがえる物語「競売番号249」を発表しました。"
+  },
+  {
+   "id": "P11",
+   "chapter": "C04",
+   "sources": [
+    "T-S07"
+   ],
+   "classification": "sourced_narration",
+   "visuals": [
+    "D_warning"
+   ],
+   "text": "古代エジプトにも、警告の言葉はありました。紀元前2400年ごろ、ツタンカーメンより千年以上前の墓の礼拝室には、身を清めずに入り、墓を損なう者は大いなる神に裁かれる、と記されています。そうした警告は本物です。ただ、それは別の墓のものでした。"
+  },
+  {
+   "id": "P12",
+   "chapter": "C05",
+   "sources": [
+    "T-S08",
+    "T-S09"
+   ],
+   "classification": "sourced_narration",
+   "visuals": [
+    "B246",
+    "D_bmj"
+   ],
+   "text": "では、墓の周りにいた人々は。墓の記録と片づけは十年ほど続き、ハワード・カーターは1939年まで生きました。2002年、イギリスの医学誌BMJに載った研究は、カーターの記録に名前のある欧米の人々を調べました。研究で対象とした開封などに立ち会ったことと、その後の生存期間とのあいだに、統計的に有意な関連は見つかりませんでした。小規模で、記録の欠けた部分もある調査です。"
+  },
+  {
+   "id": "P13",
+   "chapter": "C05",
+   "sources": [],
+   "classification": "editorial_summary",
+   "visuals": [
+    "D_summary"
+   ],
+   "text": "では、呪いはどこから来たのでしょう。古くからあったミイラの物語。突然の、痛ましい死。そして、新聞で交わされた議論。それらを重ねながら、呪いの話は広がっていきました。墓そのものに眠っていたのは、若い王と、彼の永遠の命を願う言葉でした。"
+  },
+  {
+   "id": "P14",
+   "chapter": "C05",
+   "sources": [],
+   "classification": "editorial_closing",
+   "visuals": [
+    "V01"
+   ],
+   "text": "どの物語にも由来がある。ときには、それは暗闇にかざされた一本のろうそくから始まります。"
+  },
+  {
+   "id": "P15",
+   "chapter": "C05",
+   "sources": [],
+   "classification": "credits",
+   "visuals": [
+    "credits"
+   ],
+   "text": "この動画は、歴史上の文献と公開された美術館のコレクションをもとに構成しました。ナレーションには音声合成を、一部の映像にはAI生成映像を使っています。出典と利用条件は概要欄にまとめています。楽しんでいただけたら、高評価とチャンネル登録をお願いします。ご覧いただき、ありがとうございました。"
+  }
+ ]
+}

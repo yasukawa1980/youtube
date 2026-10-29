@@ -1,0 +1,946 @@
+{
+  "language": "ja",
+  "voice": "VOICEVOX:冥鳴ひまり",
+  "sample_rate": 24000,
+  "human_auditory_review_completed": false,
+  "segments": [
+    {
+      "id": "P01",
+      "chapter": "C01",
+      "sources": [
+        "T-S04"
+      ],
+      "classification": "editorial_question",
+      "visuals": [
+        "B286"
+      ],
+      "text": "王家の谷の、封印された墓。その入口には、ある警告があったといいます。王の眠りを妨げる者には、死がすばやく訪れる、と。そして墓が開かれて五か月もたたないうちに、発掘の費用を出した人物が亡くなりました。百年にわたって語られてきた、ツタンカーメンの呪いです。けれど、今回確かめた記録では、その警告を墓の実際の碑文として示す出典は見つかりませんでした。では、呪いの話はどこから来たのでしょう。",
+      "cues": [
+        {
+          "id": "P01-01",
+          "text": "王家の谷の、封印された墓。",
+          "spoken_text": "王家の谷の、封印された墓。",
+          "start": 0.0,
+          "end": 2.4426666666666668,
+          "audio_file": "audio/ja/sentences/P01-01.wav",
+          "audio_sha256": "96787e24c95acb84a05cb47a94579cd289407f2e1fdedc27bd4398ba89c4ac8f",
+          "replacements": [],
+          "role": "opening"
+        },
+        {
+          "id": "P01-02",
+          "text": "その入口には、ある警告があったといいます。",
+          "spoken_text": "その入口には、ある警告があったといいます。",
+          "start": 2.8426666666666667,
+          "end": 6.053333333333334,
+          "audio_file": "audio/ja/sentences/P01-02.wav",
+          "audio_sha256": "64268a52e1295026a0143f6c64816798138dffee789a79e85a9272f66d3e30b6",
+          "replacements": [],
+          "role": "plain"
+        },
+        {
+          "id": "P01-03",
+          "text": "王の眠りを妨げる者には、死がすばやく訪れる、と。",
+          "spoken_text": "王の眠りを妨げる者には、死がすばやく訪れる、と。",
+          "start": 6.373333333333333,
+          "end": 10.597333333333333,
+          "audio_file": "audio/ja/sentences/P01-03.wav",
+          "audio_sha256": "7f74f44c2a786794720c6dd4f3cbcedf550fc9e30d739a4859deac012d0de307",
+          "replacements": [],
+          "role": "plain"
+        },
+        {
+          "id": "P01-04",
+          "text": "そして墓が開かれて五か月もたたないうちに、発掘の費用を出した人物が亡くなりました。",
+          "spoken_text": "そして墓が開かれて五か月もたたないうちに、発掘の費用を出した人物が亡くなりました。",
+          "start": 10.917333333333334,
+          "end": 17.136,
+          "audio_file": "audio/ja/sentences/P01-04.wav",
+          "audio_sha256": "e0622f412db6e5c5baaceda856b2d1729f097174de7c934f0c9e22831c282e4a",
+          "replacements": [],
+          "role": "plain"
+        },
+        {
+          "id": "P01-05",
+          "text": "百年にわたって語られてきた、ツタンカーメンの呪いです。",
+          "spoken_text": "百年にわたって語られてきた、ツタンカーメンの呪いです。",
+          "start": 17.456,
+          "end": 21.413333333333334,
+          "audio_file": "audio/ja/sentences/P01-05.wav",
+          "audio_sha256": "aef2beafcc8d86ea599a71ecc58ae3016a5eb7308f9893bd05a3de5d263d2c87",
+          "replacements": [],
+          "role": "explanation"
+        },
+        {
+          "id": "P01-06",
+          "text": "けれど、今回確かめた記録では、その警告を墓の実際の碑文として示す出典は見つかりませんでした。",
+          "spoken_text": "けれど、今回確かめた記録では、その警告を墓の実際の碑文として示す出典は見つかりませんでした。",
+          "start": 21.733333333333334,
+          "end": 29.402666666666665,
+          "audio_file": "audio/ja/sentences/P01-06.wav",
+          "audio_sha256": "0119cd28df3e77a826a0bf3d5b13999976282f98bbec9225a8eb96de9250ff1b",
+          "replacements": [],
+          "role": "contrast"
+        },
+        {
+          "id": "P01-07",
+          "text": "では、呪いの話はどこから来たのでしょう。",
+          "spoken_text": "では、呪いの話はどこから来たのでしょう。",
+          "start": 29.802666666666667,
+          "end": 32.928,
+          "audio_file": "audio/ja/sentences/P01-07.wav",
+          "audio_sha256": "37d4838e44442a76c2a2c744986d35e16cc3f285043a6899f4578a93a2f3a8ce",
+          "replacements": [],
+          "role": "question"
+        }
+      ],
+      "audio_file": "audio/ja/P01.wav",
+      "duration_seconds": 32.928,
+      "native_speed": "role-based C"
+    },
+    {
+      "id": "P02",
+      "chapter": "C01",
+      "sources": [],
+      "classification": "editorial_question",
+      "visuals": [
+        "N03"
+      ],
+      "text": "今回は、砂の中の一段の階段から、1923年の新聞へ、そして墓が見つかるずっと前に書かれたミイラの物語へと、話をたどります。",
+      "cues": [
+        {
+          "id": "P02-01",
+          "text": "今回は、",
+          "spoken_text": "今回は、",
+          "start": 0.0,
+          "end": 0.8533333333333334,
+          "audio_file": "audio/ja/sentences/P02-01.wav",
+          "audio_sha256": "e478a38cf468179dec8c71d88de60ce12b0298ab25aad09168b2c8b734aaa3e6",
+          "replacements": [],
+          "role": "transition"
+        },
+        {
+          "id": "P02-02",
+          "text": "砂の中の一段の階段から、",
+          "spoken_text": "砂の中の一段の階段から、",
+          "start": 1.45,
+          "end": 3.7006666666666668,
+          "audio_file": "audio/ja/sentences/P02-02.wav",
+          "audio_sha256": "fbbfd4499fc32799b400a90fb0f04061584e375030957b443f864536536779c3",
+          "replacements": [],
+          "role": "plain"
+        },
+        {
+          "id": "P02-03",
+          "text": "1923年の新聞へ、",
+          "spoken_text": "1923年の新聞へ、",
+          "start": 4.020666666666667,
+          "end": 6.4206666666666665,
+          "audio_file": "audio/ja/sentences/P02-03.wav",
+          "audio_sha256": "a43be5aa7e893f53fbbd43163f2d504f2cc47c80170132d3fc23ee20a6b951eb",
+          "replacements": [],
+          "role": "plain"
+        },
+        {
+          "id": "P02-04",
+          "text": "そして墓が見つかるずっと前に書かれたミイラの物語へと、",
+          "spoken_text": "そして墓が見つかるずっと前に書かれたミイラの物語へと、",
+          "start": 6.740666666666667,
+          "end": 10.708666666666666,
+          "audio_file": "audio/ja/sentences/P02-04.wav",
+          "audio_sha256": "a5ac6ee7526e6666ba252ae98686084635cbb985faf85f5d521079773f91570a",
+          "replacements": [],
+          "role": "plain"
+        },
+        {
+          "id": "P02-05",
+          "text": "話をたどります。",
+          "spoken_text": "話をたどります。",
+          "start": 11.028666666666666,
+          "end": 12.287333333333333,
+          "audio_file": "audio/ja/sentences/P02-05.wav",
+          "audio_sha256": "739227b99bbcb2d4fa92bfd875cb162fa3675a1f6f5373995568f3b24421f41b",
+          "replacements": [],
+          "role": "plain"
+        }
+      ],
+      "audio_file": "audio/ja/P02.wav",
+      "duration_seconds": 12.287333333333333,
+      "native_speed": "role-based C"
+    },
+    {
+      "id": "P03",
+      "chapter": "C02",
+      "sources": [
+        "T-S01",
+        "T-S02"
+      ],
+      "classification": "sourced_narration",
+      "visuals": [
+        "B151",
+        "B157"
+      ],
+      "text": "1922年11月4日、考古学者ハワード・カーターのもとで掘っていたエジプト人の作業員たちが、岩を刻んだ階段の一段目を見つけました。場所はルクソールに近い王家の谷。カーターは階段をいったん埋め戻し、イギリスにいる出資者、カーナヴォン卿に電報を送りました。",
+      "cues": [
+        {
+          "id": "P03-01",
+          "text": "1922年11月4日、考古学者ハワード・カーターのもとで掘っていたエジプト人の作業員たちが、岩を刻んだ階段の一段目を見つけました。",
+          "spoken_text": "1922年11月4日、考古学者ハワード・カーターのもとで掘っていたエジプト人の作業員たちが、岩を刻んだ階段の一段目を見つけました。",
+          "start": 0.0,
+          "end": 10.944,
+          "audio_file": "audio/ja/sentences/P03-01.wav",
+          "audio_sha256": "7f51a1467cbb7f76205b982b708f6309e886ec49e90544f5de4fb920ceecfeb4",
+          "replacements": [],
+          "role": "plain"
+        },
+        {
+          "id": "P03-02",
+          "text": "場所はルクソールに近い王家の谷。",
+          "spoken_text": "場所はルクソールに近い王家の谷。",
+          "start": 11.264,
+          "end": 13.632,
+          "audio_file": "audio/ja/sentences/P03-02.wav",
+          "audio_sha256": "2336ba322d94559e9f0d9fddbd4dba0b7daf5ead6b3c78a499838e481c7f8a98",
+          "replacements": [],
+          "role": "plain"
+        },
+        {
+          "id": "P03-03",
+          "text": "カーターは階段をいったん埋め戻し、イギリスにいる出資者、カーナヴォン卿に電報を送りました。",
+          "spoken_text": "カーターは階段をいったん埋め戻し、イギリスにいる出資者、カーナヴォン卿に電報を送りました。",
+          "start": 13.952,
+          "end": 20.448,
+          "audio_file": "audio/ja/sentences/P03-03.wav",
+          "audio_sha256": "64d289557cc000dd426ed8dfad835261b67c70fdc1fb9652db89df3bc6f01046",
+          "replacements": [],
+          "role": "plain"
+        }
+      ],
+      "audio_file": "audio/ja/P03.wav",
+      "duration_seconds": 20.448,
+      "native_speed": "role-based C"
+    },
+    {
+      "id": "P04",
+      "chapter": "C02",
+      "sources": [
+        "T-S01",
+        "T-S02"
+      ],
+      "classification": "sourced_narration",
+      "visuals": [
+        "B164",
+        "B170"
+      ],
+      "text": "11月26日、カーナヴォン卿が見守るなか、カーターは封印された入口に小さな穴を開け、ろうそくをかざしました。何か見えるかと聞かれ、彼はこう答えた、と後に著書に書いています。「ええ、すばらしいものが」。",
+      "cues": [
+        {
+          "id": "P04-01",
+          "text": "11月26日、カーナヴォン卿が見守るなか、カーターは封印された入口に小さな穴を開け、ろうそくをかざしました。",
+          "spoken_text": "11月26日、カーナヴォン卿が見守るなか、カーターは封印された入口に小さな穴を開け、ろうそくをかざしました。",
+          "start": 0.0,
+          "end": 8.938666666666666,
+          "audio_file": "audio/ja/sentences/P04-01.wav",
+          "audio_sha256": "96668f12b9123532f11f7f707c5df868930fd74513eb424b2941d070d0519cdf",
+          "replacements": [],
+          "role": "plain"
+        },
+        {
+          "id": "P04-02",
+          "text": "何か見えるかと聞かれ、彼はこう答えた、と後に著書に書いています。",
+          "spoken_text": "何か見えるかと聞かれ、彼はこう答えた、と後に著書に書いています。",
+          "start": 9.258666666666667,
+          "end": 14.144,
+          "audio_file": "audio/ja/sentences/P04-02.wav",
+          "audio_sha256": "c9b379b8b2125a1885365cc2bd4496731fafc400fa986c01bbbcf66553a4ed68",
+          "replacements": [],
+          "role": "plain"
+        },
+        {
+          "id": "P04-03",
+          "text": "「ええ、すばらしいものが」。",
+          "spoken_text": "「ええ、すばらしいものが」。",
+          "start": 14.464,
+          "end": 16.202666666666666,
+          "audio_file": "audio/ja/sentences/P04-03.wav",
+          "audio_sha256": "3d1d93564b08540814d3cf5ab96869c254f7095a0e716f279c449ffd46d77938",
+          "replacements": [],
+          "role": "plain"
+        }
+      ],
+      "audio_file": "audio/ja/P04.wav",
+      "duration_seconds": 16.202666666666666,
+      "native_speed": "role-based C"
+    },
+    {
+      "id": "P05",
+      "chapter": "C02",
+      "sources": [
+        "T-S01"
+      ],
+      "classification": "sourced_narration",
+      "visuals": [
+        "B183",
+        "B299",
+        "B300"
+      ],
+      "text": "それは、三千年以上前に国を治めた若い王の墓でした。古代に盗掘を受けた跡はあったものの、王とともに納められた品々の多くが残っていました。1923年2月16日、招かれた人々の前で、埋葬室の封印された扉が開かれます。",
+      "cues": [
+        {
+          "id": "P05-01",
+          "text": "それは、三千年以上前に国を治めた若い王の墓でした。",
+          "spoken_text": "それは、三千年以上前に国を治めた若い王の墓でした。",
+          "start": 0.0,
+          "end": 4.384,
+          "audio_file": "audio/ja/sentences/P05-01.wav",
+          "audio_sha256": "cf81bea665edaef42729c80d02e3023786f96e0176529777ffba53863553cec6",
+          "replacements": [],
+          "role": "plain"
+        },
+        {
+          "id": "P05-02",
+          "text": "古代に盗掘を受けた跡はあったものの、王とともに納められた品々の多くが残っていました。",
+          "spoken_text": "古代に盗掘を受けた跡はあったものの、王とともに納められた品々の多くが残っていました。",
+          "start": 4.704,
+          "end": 10.965333333333334,
+          "audio_file": "audio/ja/sentences/P05-02.wav",
+          "audio_sha256": "f3f8e7d5f737dfea031c4dd0087d246604b97e4ffdd8a8d72825610aa1896ec5",
+          "replacements": [],
+          "role": "plain"
+        },
+        {
+          "id": "P05-03",
+          "text": "1923年2月16日、招かれた人々の前で、埋葬室の封印された扉が開かれます。",
+          "spoken_text": "1923年2月16日、招かれた人々の前で、埋葬室の封印された扉が開かれます。",
+          "start": 11.285333333333334,
+          "end": 19.21066666666667,
+          "audio_file": "audio/ja/sentences/P05-03.wav",
+          "audio_sha256": "296af59dd6380fe8bec0a003d1d84ba6a4121f87260c2b2a781fbfcf891fd04a",
+          "replacements": [],
+          "role": "plain"
+        }
+      ],
+      "audio_file": "audio/ja/P05.wav",
+      "duration_seconds": 19.21066666666667,
+      "native_speed": "role-based C"
+    },
+    {
+      "id": "P06",
+      "chapter": "C03",
+      "sources": [
+        "T-S01"
+      ],
+      "classification": "sourced_narration",
+      "visuals": [
+        "B237",
+        "B241"
+      ],
+      "text": "発見は世界中で大きく報じられました。カーナヴォン卿は、発掘の報道を、ロンドンの一つの新聞、タイムズ紙に任せます。ニュースを競うなかで、墓の外の話題も紙面をにぎわせるようになりました。",
+      "cues": [
+        {
+          "id": "P06-01",
+          "text": "発見は世界中で大きく報じられました。",
+          "spoken_text": "発見は世界中で大きく報じられました。",
+          "start": 0.0,
+          "end": 2.8373333333333335,
+          "audio_file": "audio/ja/sentences/P06-01.wav",
+          "audio_sha256": "b84ca057792713d0695f393b0bdd9d65250c198ceb141d029d0119fae94eff5d",
+          "replacements": [],
+          "role": "plain"
+        },
+        {
+          "id": "P06-02",
+          "text": "カーナヴォン卿は、発掘の報道を、ロンドンの一つの新聞、タイムズ紙に任せます。",
+          "spoken_text": "カーナヴォン卿は、発掘の報道を、ロンドンの一つの新聞、タイムズ紙に任せます。",
+          "start": 3.1573333333333333,
+          "end": 9.152,
+          "audio_file": "audio/ja/sentences/P06-02.wav",
+          "audio_sha256": "775cff6d7c5963b3a6b70258ef03e9261f08fdf2d916569f9f7025580b455075",
+          "replacements": [],
+          "role": "plain"
+        },
+        {
+          "id": "P06-03",
+          "text": "ニュースを競うなかで、墓の外の話題も紙面をにぎわせるようになりました。",
+          "spoken_text": "ニュースを競うなかで、墓の外の話題も紙面をにぎわせるようになりました。",
+          "start": 9.472,
+          "end": 14.421333333333333,
+          "audio_file": "audio/ja/sentences/P06-03.wav",
+          "audio_sha256": "699d3b7d625a92dc11096dc09e1676ec61f4551372e7a65a0d9a46e99c5150f7",
+          "replacements": [],
+          "role": "plain"
+        }
+      ],
+      "audio_file": "audio/ja/P06.wav",
+      "duration_seconds": 14.421333333333333,
+      "native_speed": "role-based C"
+    },
+    {
+      "id": "P07",
+      "chapter": "C03",
+      "sources": [
+        "T-S02",
+        "T-S03"
+      ],
+      "classification": "sourced_narration",
+      "visuals": [
+        "D_illness"
+      ],
+      "text": "1923年3月、カーナヴォン卿は感染症にかかり、やがて肺炎も起こしました。4月5日、カイロで亡くなります。56歳でした。",
+      "cues": [
+        {
+          "id": "P07-01",
+          "text": "1923年3月、カーナヴォン卿は感染症にかかり、やがて肺炎も起こしました。",
+          "spoken_text": "1923年3月、カーナヴォン卿は感染症にかかり、やがて肺炎も起こしました。",
+          "start": 0.0,
+          "end": 6.677333333333333,
+          "audio_file": "audio/ja/sentences/P07-01.wav",
+          "audio_sha256": "593649a60a3c471ac6dc804dddab5d8a27338b1f7ddfd7964a96b93e9271d1f1",
+          "replacements": [],
+          "role": "plain"
+        },
+        {
+          "id": "P07-02",
+          "text": "4月5日、カイロで亡くなります。",
+          "spoken_text": "4月5日、カイロで亡くなります。",
+          "start": 6.997333333333334,
+          "end": 9.514666666666667,
+          "audio_file": "audio/ja/sentences/P07-02.wav",
+          "audio_sha256": "46f12ef6e4fcdabdbd514095ad628cd7762b65a3cb965fb4096a524eda2f800f",
+          "replacements": [],
+          "role": "plain"
+        },
+        {
+          "id": "P07-03",
+          "text": "56歳でした。",
+          "spoken_text": "56歳でした。",
+          "start": 9.834666666666667,
+          "end": 11.232,
+          "audio_file": "audio/ja/sentences/P07-03.wav",
+          "audio_sha256": "e3a6b958024aaf08eadd450fb52772be73e44a2f0f7903fe0af0b4819c2ed40f",
+          "replacements": [],
+          "role": "plain"
+        }
+      ],
+      "audio_file": "audio/ja/P07.wav",
+      "duration_seconds": 11.232,
+      "native_speed": "role-based C"
+    },
+    {
+      "id": "P08",
+      "chapter": "C03",
+      "sources": [
+        "T-S03"
+      ],
+      "classification": "sourced_narration",
+      "visuals": [
+        "N01",
+        "N02"
+      ],
+      "text": "世界中の新聞が、その死を墓と結びつけました。小説家マリー・コレリが、墓は古代の力に守られていると信じていたことも報じられました。作家アーサー・コナン・ドイルは、墓を守る霊のような力のせいかもしれない、と語ったと報じられています。同じ紙面には、それに反対する専門家の声も載っていました。",
+      "cues": [
+        {
+          "id": "P08-01",
+          "text": "世界中の新聞が、その死を墓と結びつけました。",
+          "spoken_text": "世界中の新聞が、その死を墓と結びつけました。",
+          "start": 0.0,
+          "end": 3.7546666666666666,
+          "audio_file": "audio/ja/sentences/P08-01.wav",
+          "audio_sha256": "e834e0ea55b7a76ed07f0d1cc13bd4e8c3beaa7ad72d503b87fd8937e9448925",
+          "replacements": [],
+          "role": "plain"
+        },
+        {
+          "id": "P08-02",
+          "text": "小説家マリー・コレリが、墓は古代の力に守られていると信じていたことも報じられました。",
+          "spoken_text": "小説家マリー・コレリが、墓は古代の力に守られていると信じていたことも報じられました。",
+          "start": 4.074666666666666,
+          "end": 10.357333333333333,
+          "audio_file": "audio/ja/sentences/P08-02.wav",
+          "audio_sha256": "533b0f18833a34d09947eb31c866a3c7a599fc52aa8cfbf0cb97cfd7e8f58277",
+          "replacements": [],
+          "role": "plain"
+        },
+        {
+          "id": "P08-03",
+          "text": "作家アーサー・コナン・ドイルは、墓を守る霊のような力のせいかもしれない、と語ったと報じられています。",
+          "spoken_text": "作家アーサー・コナン・ドイルは、墓を守る霊のような力のせいかもしれない、と語ったと報じられています。",
+          "start": 10.677333333333333,
+          "end": 18.496,
+          "audio_file": "audio/ja/sentences/P08-03.wav",
+          "audio_sha256": "03509e94f56d8adea9d0cb3dd2d281dbec693cd1b480e0b511e953580027ccb6",
+          "replacements": [],
+          "role": "plain"
+        },
+        {
+          "id": "P08-04",
+          "text": "同じ紙面には、それに反対する専門家の声も載っていました。",
+          "spoken_text": "同じ紙面には、それに反対する専門家の声も載っていました。",
+          "start": 18.816,
+          "end": 23.221333333333334,
+          "audio_file": "audio/ja/sentences/P08-04.wav",
+          "audio_sha256": "bdaab4c3ee8ff23dedd5a53617426df6d6ec58a5ba26689f1877f884b1feb03c",
+          "replacements": [],
+          "role": "plain"
+        }
+      ],
+      "audio_file": "audio/ja/P08.wav",
+      "duration_seconds": 23.221333333333334,
+      "native_speed": "role-based C"
+    },
+    {
+      "id": "P09",
+      "chapter": "C03",
+      "sources": [
+        "T-S04",
+        "T-S01"
+      ],
+      "classification": "sourced_narration",
+      "visuals": [
+        "B313",
+        "B312"
+      ],
+      "text": "あの有名な警告は、話が語り直されるなかで現れたものです。墓の中にその言葉があったことを示す、確かな出典は見つかっていません。墓に残る本物の文には、王の永遠の命を願う言葉があります。アラバスターの杯の一つには、王が幾百万年もの時を生きるよう願う言葉が刻まれています。",
+      "cues": [
+        {
+          "id": "P09-01",
+          "text": "あの有名な警告は、話が語り直されるなかで現れたものです。",
+          "spoken_text": "あの有名な警告は、話が語り直されるなかで現れたものです。",
+          "start": 0.0,
+          "end": 4.778666666666667,
+          "audio_file": "audio/ja/sentences/P09-01.wav",
+          "audio_sha256": "82aa0cda720ee3087613818e8eddb7fbc2ed84cac6e9a354552441680e083d7d",
+          "replacements": [],
+          "role": "plain"
+        },
+        {
+          "id": "P09-02",
+          "text": "墓の中にその言葉があったことを示す、確かな出典は見つかっていません。",
+          "spoken_text": "墓の中にその言葉があったことを示す、確かな出典は見つかっていません。",
+          "start": 5.0986666666666665,
+          "end": 10.346666666666666,
+          "audio_file": "audio/ja/sentences/P09-02.wav",
+          "audio_sha256": "c92650a60482cd87b73d8b80a8f732b8f9125642824851518e7ceeaf71e78339",
+          "replacements": [],
+          "role": "plain"
+        },
+        {
+          "id": "P09-03",
+          "text": "墓に残る本物の文には、王の永遠の命を願う言葉があります。",
+          "spoken_text": "墓に残る本物の文には、王の永遠の命を願う言葉があります。",
+          "start": 10.666666666666666,
+          "end": 15.445333333333334,
+          "audio_file": "audio/ja/sentences/P09-03.wav",
+          "audio_sha256": "a3b96e327305d1afff56db09e76089a037fa4d0d4bceccbee40cba35d431cec5",
+          "replacements": [],
+          "role": "plain"
+        },
+        {
+          "id": "P09-04",
+          "text": "アラバスターの杯の一つには、王が幾百万年もの時を生きるよう願う言葉が刻まれています。",
+          "spoken_text": "アラバスターの杯の一つには、王が幾百万年もの時を生きるよう願う言葉が刻まれています。",
+          "start": 15.765333333333333,
+          "end": 22.133333333333333,
+          "audio_file": "audio/ja/sentences/P09-04.wav",
+          "audio_sha256": "e1c556439b8db5f3f7b4dfe30ae2df300e837e40955073e968b314303f7255c9",
+          "replacements": [],
+          "role": "plain"
+        }
+      ],
+      "audio_file": "audio/ja/P09.wav",
+      "duration_seconds": 22.133333333333333,
+      "native_speed": "role-based C"
+    },
+    {
+      "id": "P10",
+      "chapter": "C04",
+      "sources": [
+        "T-S05",
+        "T-S06"
+      ],
+      "classification": "sourced_narration",
+      "visuals": [
+        "D_novels"
+      ],
+      "text": "ミイラや、その墓にまつわる災いの物語は、発見のずっと前から読まれていました。1869年、『若草物語』の作者ルイザ・メイ・オルコットは、「ピラミッドで迷って、あるいはミイラの呪い」を発表します。墓から持ち出された種が、災いをもたらす物語です。1892年には、コナン・ドイル自身が、ミイラがよみがえる物語「競売番号249」を発表しました。",
+      "cues": [
+        {
+          "id": "P10-01",
+          "text": "ミイラや、その墓にまつわる災いの物語は、発見のずっと前から読まれていました。",
+          "spoken_text": "ミイラや、その墓にまつわる災いの物語は、発見のずっと前から読まれていました。",
+          "start": 0.0,
+          "end": 6.176,
+          "audio_file": "audio/ja/sentences/P10-01.wav",
+          "audio_sha256": "4b2972f810eadb94e0e86b0315fa9f9c96a109265f89dc10a4c6da538cebed30",
+          "replacements": [],
+          "role": "plain"
+        },
+        {
+          "id": "P10-02",
+          "text": "1869年、『若草物語』の作者ルイザ・メイ・オルコットは、「ピラミッドで迷って、あるいはミイラの呪い」を発表します。",
+          "spoken_text": "1869年、『若草物語』の作者ルイザ・メイ・オルコットは、「ピラミッドで迷って、あるいはミイラの呪い」を発表します。",
+          "start": 6.496,
+          "end": 16.874666666666666,
+          "audio_file": "audio/ja/sentences/P10-02.wav",
+          "audio_sha256": "0a4b364b293faa0a3f67fa573251356bcdda2422c903298fa2fddf33c8c1b57c",
+          "replacements": [],
+          "role": "plain"
+        },
+        {
+          "id": "P10-03",
+          "text": "墓から持ち出された種が、災いをもたらす物語です。",
+          "spoken_text": "墓から持ち出された種が、災いをもたらす物語です。",
+          "start": 17.194666666666667,
+          "end": 21.312,
+          "audio_file": "audio/ja/sentences/P10-03.wav",
+          "audio_sha256": "5df989309d89a441ccf1f60e37b5e464e8533b98fcc903bb1411b568fed57aa9",
+          "replacements": [],
+          "role": "plain"
+        },
+        {
+          "id": "P10-04",
+          "text": "1892年には、コナン・ドイル自身が、ミイラがよみがえる物語「競売番号249」を発表しました。",
+          "spoken_text": "1892年には、コナン・ドイル自身が、ミイラがよみがえる物語「きょうばいばんごうにひゃくよんじゅうきゅう」を発表しました。",
+          "start": 21.632,
+          "end": 31.093333333333334,
+          "audio_file": "audio/ja/sentences/P10-04.wav",
+          "audio_sha256": "461160954c8edce916a123ba3a406f812d2d409d5c88aed20027987a5ac77d6f",
+          "replacements": [
+            {
+              "display": "競売番号249",
+              "spoken": "きょうばいばんごうにひゃくよんじゅうきゅう",
+              "count": 1
+            }
+          ],
+          "role": "explanation"
+        }
+      ],
+      "audio_file": "audio/ja/P10.wav",
+      "duration_seconds": 31.093333333333334,
+      "native_speed": "role-based C"
+    },
+    {
+      "id": "P11",
+      "chapter": "C04",
+      "sources": [
+        "T-S07"
+      ],
+      "classification": "sourced_narration",
+      "visuals": [
+        "D_warning"
+      ],
+      "text": "古代エジプトにも、警告の言葉はありました。紀元前2400年ごろ、ツタンカーメンより千年以上前の墓の礼拝室には、身を清めずに入り、墓を損なう者は大いなる神に裁かれる、と記されています。そうした警告は本物です。ただ、それは別の墓のものでした。",
+      "cues": [
+        {
+          "id": "P11-01",
+          "text": "古代エジプトにも、警告の言葉はありました。",
+          "spoken_text": "古代エジプトにも、警告の言葉はありました。",
+          "start": 0.0,
+          "end": 3.328,
+          "audio_file": "audio/ja/sentences/P11-01.wav",
+          "audio_sha256": "aeaeccb643e7c113abb7d29a6246e53320f8ef32b72e915d826f222a84d603b6",
+          "replacements": [],
+          "role": "plain"
+        },
+        {
+          "id": "P11-02",
+          "text": "紀元前2400年ごろ、ツタンカーメンより千年以上前の墓の礼拝室には、身を清めずに入り、墓を損なう者は大いなる神に裁かれる、と記されています。",
+          "spoken_text": "紀元前2400年ごろ、ツタンカーメンより千年以上前の墓の礼拝室には、身を清めずに入り、墓を損なう者は大いなる神に裁かれる、と記されています。",
+          "start": 3.648,
+          "end": 15.477333333333334,
+          "audio_file": "audio/ja/sentences/P11-02.wav",
+          "audio_sha256": "ff9cf7421eac8494d638bae94c8ce442f7006f9532a625ce69a95de46873c990",
+          "replacements": [],
+          "role": "explanation"
+        },
+        {
+          "id": "P11-03",
+          "text": "そうした警告は本物です。",
+          "spoken_text": "そうした警告は本物です。",
+          "start": 15.797333333333333,
+          "end": 17.813333333333333,
+          "audio_file": "audio/ja/sentences/P11-03.wav",
+          "audio_sha256": "de433c4cae55425b98afda4d66155b94e26800b798e988cd1f5fd6bb087e74f7",
+          "replacements": [],
+          "role": "plain"
+        },
+        {
+          "id": "P11-04",
+          "text": "ただ、それは別の墓のものでした。",
+          "spoken_text": "ただ、それは別の墓のものでした。",
+          "start": 18.133333333333333,
+          "end": 20.736,
+          "audio_file": "audio/ja/sentences/P11-04.wav",
+          "audio_sha256": "62ec1ea1cdf5d1f851ba2520abb5d0ba01121eb6629de1a4cc9842633e1718a0",
+          "replacements": [],
+          "role": "plain"
+        }
+      ],
+      "audio_file": "audio/ja/P11.wav",
+      "duration_seconds": 20.736,
+      "native_speed": "role-based C"
+    },
+    {
+      "id": "P12",
+      "chapter": "C05",
+      "sources": [
+        "T-S08",
+        "T-S09"
+      ],
+      "classification": "sourced_narration",
+      "visuals": [
+        "B246",
+        "D_bmj"
+      ],
+      "text": "では、墓の周りにいた人々は。墓の記録と片づけは十年ほど続き、ハワード・カーターは1939年まで生きました。2002年、イギリスの医学誌BMJに載った研究は、カーターの記録に名前のある欧米の人々を調べました。研究で対象とした開封などに立ち会ったことと、その後の生存期間とのあいだに、統計的に有意な関連は見つかりませんでした。小規模で、記録の欠けた部分もある調査です。",
+      "cues": [
+        {
+          "id": "P12-01",
+          "text": "では、墓の周りにいた人々は。",
+          "spoken_text": "では、墓の周りにいた人々は。",
+          "start": 0.0,
+          "end": 2.6133333333333333,
+          "audio_file": "audio/ja/sentences/P12-01.wav",
+          "audio_sha256": "542ec7d328a7025eaeed814d34d4bb816de0f39c3086299326db19e956e1b603",
+          "replacements": [],
+          "role": "transition"
+        },
+        {
+          "id": "P12-02",
+          "text": "墓の記録と片づけは十年ほど続き、ハワード・カーターは1939年まで生きました。",
+          "spoken_text": "墓の記録と片づけは十年ほど続き、ハワード・カーターは1939年まで生きました。",
+          "start": 2.933333333333333,
+          "end": 10.016,
+          "audio_file": "audio/ja/sentences/P12-02.wav",
+          "audio_sha256": "a744168c75d29f36b491f218378b071534b5a0c736e91f42900d0f564220224f",
+          "replacements": [],
+          "role": "plain"
+        },
+        {
+          "id": "P12-03",
+          "text": "2002年、イギリスの医学誌BMJに載った研究は、カーターの記録に名前のある欧米の人々を調べました。",
+          "spoken_text": "2002年、イギリスの医学誌BMJに載った研究は、カーターの記録に名前のある欧米の人々を調べました。",
+          "start": 10.336,
+          "end": 18.314666666666668,
+          "audio_file": "audio/ja/sentences/P12-03.wav",
+          "audio_sha256": "558609ba69a6fd45cea75d01facccee9911c9f466d1d989739bf78834de4c22e",
+          "replacements": [],
+          "role": "plain"
+        },
+        {
+          "id": "P12-04",
+          "text": "研究で対象とした開封などに立ち会ったことと、その後の生存期間とのあいだに、統計的に有意な関連は見つかりませんでした。",
+          "spoken_text": "研究で対象とした開封などに立ち会ったことと、その後の生存期間とのあいだに、統計的に有意な関連は見つかりませんでした。",
+          "start": 18.634666666666668,
+          "end": 27.722666666666665,
+          "audio_file": "audio/ja/sentences/P12-04.wav",
+          "audio_sha256": "0148e12efc3ff628584b3b4dfdf99f53a829d4efb8cba85a69fcd216b52eaa13",
+          "replacements": [],
+          "role": "plain"
+        },
+        {
+          "id": "P12-05",
+          "text": "小規模で、記録の欠けた部分もある調査です。",
+          "spoken_text": "小規模で、記録の欠けた部分もある調査です。",
+          "start": 28.042666666666666,
+          "end": 31.424,
+          "audio_file": "audio/ja/sentences/P12-05.wav",
+          "audio_sha256": "89750af58c836a1612351d30823f58d242787aa9010364105b8172383f89754e",
+          "replacements": [],
+          "role": "plain"
+        }
+      ],
+      "audio_file": "audio/ja/P12.wav",
+      "duration_seconds": 31.424,
+      "native_speed": "role-based C"
+    },
+    {
+      "id": "P13",
+      "chapter": "C05",
+      "sources": [],
+      "classification": "editorial_summary",
+      "visuals": [
+        "D_summary"
+      ],
+      "text": "では、呪いはどこから来たのでしょう。古くからあったミイラの物語。突然の、痛ましい死。そして、新聞で交わされた議論。それらを重ねながら、呪いの話は広がっていきました。墓そのものに眠っていたのは、若い王と、彼の永遠の命を願う言葉でした。",
+      "cues": [
+        {
+          "id": "P13-01",
+          "text": "では、呪いはどこから来たのでしょう。",
+          "spoken_text": "では、呪いはどこから来たのでしょう。",
+          "start": 0.0,
+          "end": 2.6133333333333333,
+          "audio_file": "audio/ja/sentences/P13-01.wav",
+          "audio_sha256": "0d0f071b4d5c4d28a3f855df5a89c11c7ed8e3ae78f8603d9b6ff884030ab2cc",
+          "replacements": [],
+          "role": "question"
+        },
+        {
+          "id": "P13-02",
+          "text": "古くからあったミイラの物語。",
+          "spoken_text": "古くからあったミイラの物語。",
+          "start": 3.013333333333333,
+          "end": 5.157333333333334,
+          "audio_file": "audio/ja/sentences/P13-02.wav",
+          "audio_sha256": "5178c3bd0552da645f153abe0c2ad8ab6b9549817bffb1e750365e7fe58ad6ad",
+          "replacements": [],
+          "role": "plain"
+        },
+        {
+          "id": "P13-03",
+          "text": "突然の、痛ましい死。",
+          "spoken_text": "突然の、痛ましい死。",
+          "start": 5.477333333333333,
+          "end": 7.354666666666667,
+          "audio_file": "audio/ja/sentences/P13-03.wav",
+          "audio_sha256": "3c4721b89af1ecc708079044ec717b8083c72baefaef46ed1088bf70293ac6e1",
+          "replacements": [],
+          "role": "plain"
+        },
+        {
+          "id": "P13-04",
+          "text": "そして、新聞で交わされた議論。",
+          "spoken_text": "そして、新聞で交わされた議論。",
+          "start": 7.674666666666667,
+          "end": 10.117333333333333,
+          "audio_file": "audio/ja/sentences/P13-04.wav",
+          "audio_sha256": "34881054b93f01cb4facd48d718051fae396b2bd096bdfb55cda41accb702e6a",
+          "replacements": [],
+          "role": "transition"
+        },
+        {
+          "id": "P13-05",
+          "text": "それらを重ねながら、呪いの話は広がっていきました。",
+          "spoken_text": "それらを重ねながら、呪いの話は広がっていきました。",
+          "start": 10.437333333333333,
+          "end": 14.32,
+          "audio_file": "audio/ja/sentences/P13-05.wav",
+          "audio_sha256": "ae2b01a264988e8694d81dd2b9584a88022b55106ca0d84131fbaa3b980e7630",
+          "replacements": [],
+          "role": "plain"
+        },
+        {
+          "id": "P13-06",
+          "text": "墓そのものに眠っていたのは、若い王と、彼の永遠の命を願う言葉でした。",
+          "spoken_text": "墓そのものに眠っていたのは、若い王と、彼の永遠の命を願う言葉でした。",
+          "start": 14.64,
+          "end": 20.4,
+          "audio_file": "audio/ja/sentences/P13-06.wav",
+          "audio_sha256": "97ab79c96cf3d26968d5241577ef13ac2ac803eee2aa1a12c0298ec798e48910",
+          "replacements": [],
+          "role": "plain"
+        }
+      ],
+      "audio_file": "audio/ja/P13.wav",
+      "duration_seconds": 20.4,
+      "native_speed": "role-based C"
+    },
+    {
+      "id": "P14",
+      "chapter": "C05",
+      "sources": [],
+      "classification": "editorial_closing",
+      "visuals": [
+        "V01"
+      ],
+      "text": "どの物語にも由来がある。ときには、それは暗闇にかざされた一本のろうそくから始まります。",
+      "cues": [
+        {
+          "id": "P14-01",
+          "text": "どの物語にも由来がある。",
+          "spoken_text": "どの物語にも由来がある。",
+          "start": 0.0,
+          "end": 1.92,
+          "audio_file": "audio/ja/sentences/P14-01.wav",
+          "audio_sha256": "8a42a52795347ffd99f9a63a0a696c82aab71e615495f27337ac0724b7e0d395",
+          "replacements": [],
+          "role": "conclusion"
+        },
+        {
+          "id": "P14-02",
+          "text": "ときには、それは暗闇にかざされた一本のろうそくから始まります。",
+          "spoken_text": "ときには、それは暗闇にかざされた一本のろうそくから始まります。",
+          "start": 2.32,
+          "end": 6.970666666666666,
+          "audio_file": "audio/ja/sentences/P14-02.wav",
+          "audio_sha256": "c28e50464dc357c03dbcfa3c5c430a50d7f4c796e6a924bfd6de2588a1fdf1af",
+          "replacements": [],
+          "role": "conclusion"
+        }
+      ],
+      "audio_file": "audio/ja/P14.wav",
+      "duration_seconds": 6.970666666666666,
+      "native_speed": "role-based C"
+    },
+    {
+      "id": "P15",
+      "chapter": "C05",
+      "sources": [],
+      "classification": "credits",
+      "visuals": [
+        "credits"
+      ],
+      "text": "この動画は、歴史上の文献と公開された美術館のコレクションをもとに構成しました。ナレーションには音声合成を、一部の映像にはAI生成映像を使っています。出典と利用条件は概要欄にまとめています。楽しんでいただけたら、高評価とチャンネル登録をお願いします。ご覧いただき、ありがとうございました。",
+      "cues": [
+        {
+          "id": "P15-01",
+          "text": "この動画は、歴史上の文献と公開された美術館のコレクションをもとに構成しました。",
+          "spoken_text": "この動画は、歴史上の文献と公開された美術館のコレクションをもとに構成しました。",
+          "start": 0.0,
+          "end": 6.144,
+          "audio_file": "audio/ja/sentences/P15-01.wav",
+          "audio_sha256": "b899db6595bf02d29214948f454c33958d63bb5362da8a7ce95b8be407416e8c",
+          "replacements": [],
+          "role": "conclusion"
+        },
+        {
+          "id": "P15-02",
+          "text": "ナレーションには音声合成を、一部の映像にはAI生成映像を使っています。",
+          "spoken_text": "ナレーションには音声合成を、一部の映像にはAI生成映像を使っています。",
+          "start": 6.544,
+          "end": 12.218666666666667,
+          "audio_file": "audio/ja/sentences/P15-02.wav",
+          "audio_sha256": "60c8e83d30b7f9b1573e8d1bebc65ce110b2039e5fe089c1ea68845c893224c8",
+          "replacements": [],
+          "role": "conclusion"
+        },
+        {
+          "id": "P15-03",
+          "text": "出典と利用条件は概要欄にまとめています。",
+          "spoken_text": "出典と利用条件は概要欄にまとめています。",
+          "start": 12.618666666666666,
+          "end": 16.0,
+          "audio_file": "audio/ja/sentences/P15-03.wav",
+          "audio_sha256": "eb96efa70d3cf9b6ea81080136f36fc88a6ef32a47615b0b6513a9da1769b0c9",
+          "replacements": [],
+          "role": "conclusion"
+        },
+        {
+          "id": "P15-04",
+          "text": "楽しんでいただけたら、高評価とチャンネル登録をお願いします。",
+          "spoken_text": "楽しんでいただけたら、高評価とチャンネル登録をお願いします。",
+          "start": 16.4,
+          "end": 20.784,
+          "audio_file": "audio/ja/sentences/P15-04.wav",
+          "audio_sha256": "5b6457795ae8f89d7bfb9248c6a00db4cf07ae3c76949f00cdc3ff86479d503d",
+          "replacements": [],
+          "role": "conclusion"
+        },
+        {
+          "id": "P15-05",
+          "text": "ご覧いただき、ありがとうございました。",
+          "spoken_text": "ご覧いただき、ありがとうございました。",
+          "start": 21.184,
+          "end": 23.808,
+          "audio_file": "audio/ja/sentences/P15-05.wav",
+          "audio_sha256": "14843ff1bc0b66ba950c12c8ccabe4c30545cb09289c28efe69c874c68f61fdb",
+          "replacements": [],
+          "role": "conclusion"
+        }
+      ],
+      "audio_file": "audio/ja/P15.wav",
+      "duration_seconds": 23.808,
+      "native_speed": "role-based C"
+    }
+  ]
+}

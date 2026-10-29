@@ -1,0 +1,289 @@
+{
+  "passed": true,
+  "script_hashes": {
+    "content.json": "964f83717ec9f88ca2059e25476500471d0f7ff8a773089e7e62df19b59ee2bf",
+    "content_en.json": "f560cc9a5b1f16ddf9bed5a331e4760b92b1dc0af85f074285cc68e79af46d67"
+  },
+  "shot_count": 25,
+  "source_usage": [
+    {
+      "key": "B286",
+      "segment_id": "P01",
+      "start": 0.0,
+      "end": 35.63333333333333
+    },
+    {
+      "key": "N03",
+      "segment_id": "P02",
+      "start": 35.63333333333333,
+      "end": 49.333333333333336
+    },
+    {
+      "key": "opening",
+      "segment_id": "BRAND",
+      "start": 49.333333333333336,
+      "end": 53.333333333333336
+    },
+    {
+      "key": "B151",
+      "segment_id": "P03",
+      "start": 53.333333333333336,
+      "end": 67.0
+    },
+    {
+      "key": "B157",
+      "segment_id": "P03",
+      "start": 67.0,
+      "end": 74.83333333333333
+    },
+    {
+      "key": "B170",
+      "segment_id": "P04",
+      "start": 74.83333333333333,
+      "end": 83.56666666666666
+    },
+    {
+      "key": "B164",
+      "segment_id": "P04",
+      "start": 83.56666666666666,
+      "end": 91.96666666666667
+    },
+    {
+      "key": "B183",
+      "segment_id": "P05",
+      "start": 91.96666666666667,
+      "end": 97.53333333333333
+    },
+    {
+      "key": "B299",
+      "segment_id": "P05",
+      "start": 97.53333333333333,
+      "end": 104.23333333333333
+    },
+    {
+      "key": "B300",
+      "segment_id": "P05",
+      "start": 104.23333333333333,
+      "end": 115.03333333333333
+    },
+    {
+      "key": "B237",
+      "segment_id": "P06",
+      "start": 115.03333333333333,
+      "end": 118.46666666666667
+    },
+    {
+      "key": "B241",
+      "segment_id": "P06",
+      "start": 118.46666666666667,
+      "end": 132.76666666666668
+    },
+    {
+      "key": "D_illness",
+      "segment_id": "P07",
+      "start": 132.76666666666668,
+      "end": 145.4
+    },
+    {
+      "key": "N01",
+      "segment_id": "P08",
+      "start": 145.4,
+      "end": 156.76666666666668
+    },
+    {
+      "key": "N02",
+      "segment_id": "P08",
+      "start": 156.76666666666668,
+      "end": 169.76666666666668
+    },
+    {
+      "key": "B313",
+      "segment_id": "P09",
+      "start": 169.76666666666668,
+      "end": 184.53333333333333
+    },
+    {
+      "key": "B312",
+      "segment_id": "P09",
+      "start": 184.53333333333333,
+      "end": 193.73333333333332
+    },
+    {
+      "key": "D_novels",
+      "segment_id": "P10",
+      "start": 193.73333333333332,
+      "end": 225.73333333333332
+    },
+    {
+      "key": "D_warning",
+      "segment_id": "P11",
+      "start": 225.73333333333332,
+      "end": 250.46666666666667
+    },
+    {
+      "key": "B246",
+      "segment_id": "P12",
+      "start": 250.46666666666667,
+      "end": 260.5
+    },
+    {
+      "key": "D_bmj",
+      "segment_id": "P12",
+      "start": 260.5,
+      "end": 282.8
+    },
+    {
+      "key": "D_summary",
+      "segment_id": "P13",
+      "start": 282.8,
+      "end": 304.1
+    },
+    {
+      "key": "V01",
+      "segment_id": "P14",
+      "start": 304.1,
+      "end": 312.0
+    },
+    {
+      "key": "credits",
+      "segment_id": "P15",
+      "start": 312.0,
+      "end": 337.56666666666666
+    },
+    {
+      "key": "endcard",
+      "segment_id": "BRAND",
+      "start": 337.56666666666666,
+      "end": 347.56666666666666
+    }
+  ],
+  "base_assets_each_used_once": [
+    "B286",
+    "N03",
+    "B151",
+    "B157",
+    "B170",
+    "B164",
+    "B183",
+    "B299",
+    "B300",
+    "B237",
+    "B241",
+    "N01",
+    "N02",
+    "B313",
+    "B312",
+    "B246",
+    "V01"
+  ],
+  "japanese_end_wait_seconds": {
+    "P01": 0.9053333333333384,
+    "P02": 1.4126666666666736,
+    "P03": 1.0519999999999925,
+    "P04": 0.9306666666666672,
+    "P05": 2.8220000000000027,
+    "P06": 1.9020833333333371,
+    "P07": 1.4013333333333264,
+    "P08": 1.1453333333333546,
+    "P09": 1.8333333333333144,
+    "P10": 0.9066666666666663,
+    "P11": 2.830083333333363,
+    "P12": 0.9093333333333362,
+    "P13": 0.9000000000000341,
+    "P14": 0.929333333333318,
+    "P15": 1.7586666666666702
+  },
+  "max_ja_wait_seconds": 2.830083333333363,
+  "audio": [
+    {
+      "language": "en",
+      "wav_frames": 16683200,
+      "brand_audio_sample_identical": true,
+      "P07_boost_db": 0
+    },
+    {
+      "language": "ja",
+      "wav_frames": 16683200,
+      "brand_audio_sample_identical": true,
+      "P07_boost_db": 0
+    }
+  ],
+  "opening": [
+    {
+      "language": "en",
+      "rgb_MAD_between_0_1_2_3s": [
+        6.166835432816537,
+        6.35469274870801,
+        5.980731992894057
+      ],
+      "nonblack_fraction": 0.9827180232558139,
+      "source": "B286",
+      "full_bleed": true
+    },
+    {
+      "language": "ja",
+      "rgb_MAD_between_0_1_2_3s": [
+        6.166835432816537,
+        6.35469274870801,
+        5.980731992894057
+      ],
+      "nonblack_fraction": 0.9827180232558139,
+      "source": "B286",
+      "full_bleed": true
+    }
+  ],
+  "newspaper_crops": [
+    {
+      "key": "N03",
+      "crop_normalized": [
+        0.6,
+        0.102,
+        0.72,
+        0.985
+      ],
+      "detail_crop_normalized": [
+        0.6,
+        0.102,
+        0.72,
+        0.172
+      ],
+      "background_also_uses_only_crop": true
+    },
+    {
+      "key": "N01",
+      "crop_normalized": [
+        0.309,
+        0.144,
+        0.438,
+        0.716
+      ],
+      "detail_crop_normalized": [
+        0.309,
+        0.144,
+        0.438,
+        0.221
+      ],
+      "background_also_uses_only_crop": true
+    },
+    {
+      "key": "N02",
+      "crop_normalized": [
+        0.278,
+        0.16,
+        0.414,
+        0.754
+      ],
+      "detail_crop_normalized": [
+        0.278,
+        0.594,
+        0.414,
+        0.69
+      ],
+      "background_also_uses_only_crop": true
+    }
+  ],
+  "crop_rule": "All visible foreground and blurred background derive solely from documented crop; camera operates on that composition, never on the full newspaper.",
+  "human_full_listening": "pending",
+  "AI_semantic_review": "1-second interval samples inspected: single candle, no person, writing, tomb or modern object. This is sampled visual inspection, not automated semantic certification of every frame.",
+  "p258_note": "The actual printed wish begins Live thy Ka. Earlier research shorthand May thy Ka is corrected by the source image itself; approved narration is a meaning summary and unchanged."
+}
