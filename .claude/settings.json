@@ -1,3 +1,15 @@
 {
-  "language": "japanese"
+  "language": "japanese",
+  "hooks": {
+    "UserPromptSubmit": [
+      {
+        "hooks": [
+          {
+            "type": "command",
+            "command": "printf '%s' '{\"hookSpecificOutput\":{\"hookEventName\":\"UserPromptSubmit\",\"additionalContext\":\"本人への返答・報告・質問はすべて日本語で書く。英語で返答しない。英語の題・台本本文・ファイル名・ID・コマンドなど原文のまま示すものだけ英語で残し、説明は日本語で添える（AGENTS.md「使う言語」）。\"}}'"
+          }
+        ]
+      }
+    ]
+  }
 }
