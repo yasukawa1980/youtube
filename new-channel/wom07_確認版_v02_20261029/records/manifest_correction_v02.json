@@ -1,0 +1,11 @@
+{
+  "date_jst": "2026-10-29",
+  "field": "render_shots.json / P05 / sha256",
+  "previous_value": "72816a6669d35fc0e8ac7b483688f3e3f43720ef84dc2ee272dd61ce30de0009",
+  "corrected_value": "39319d45c2747346c81671e6b594b5ef28f24243005618c40c8f12fb54ba6166",
+  "reason": "V01 poster hash was inherited when changing the asset and file path. Only the metadata checksum was stale.",
+  "video_and_audio_changed": false,
+  "pixel_comparison_and_audio_checks_unchanged": true,
+  "canonical_qa_asset": "EP007_v02_QA_records.zip",
+  "historical_qa_asset": "EP007_v02_QA_records_original_snapshot.zip"
+}

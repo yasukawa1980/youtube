@@ -1,0 +1,108 @@
+{
+  "passed": true,
+  "duration_seconds": 359.1333333333333,
+  "frames": 10774,
+  "changed_frames": 698,
+  "unchanged_frames": 10076,
+  "srt_wav_m4a_unchanged": true,
+  "thumbnail_B_original_unchanged": true,
+  "same_video_en_ja": true,
+  "checks": [
+    {
+      "name": "EP007_Thanksgiving_en_v02_1080p30.mp4",
+      "sha256": "1bd1e509af341444d32403231cbcc82e973b5c3d9d0fa01dd988089d64fdd3b4",
+      "bytes": 219413341,
+      "decode_warnings": 0,
+      "decoded_frames": 10774,
+      "profile": "High",
+      "pix_fmt": "yuv420p",
+      "sps_profile_idc": [
+        100
+      ],
+      "exact_30fps_pts": true,
+      "duration_seconds": 359.1333333333333,
+      "outside_P05_pixel_identical": true,
+      "unchanged_frames": 10076,
+      "changed_frames": 698,
+      "changed_interval_half_open": [
+        3078,
+        3776
+      ],
+      "v01_audio_stream_sha256": "SHA256=2d32e734284b39c937a66856f3724e190b8b74a72598d2592a63c11cb894e013",
+      "audio_stream_unchanged": true,
+      "video_stream_sha256": "SHA256=36121fa9e260f6cd4d207095c5115814e64461cfac6e7c0cf95d613985113f46"
+    },
+    {
+      "name": "EP007_Thanksgiving_en_v02_subtitled_review_1080p30.mp4",
+      "sha256": "28c6fef5ed7d607fa7496b4b528b3bcfd769906e5fa1c004e489537eeaeac8bf",
+      "bytes": 116390821,
+      "decode_warnings": 0,
+      "decoded_frames": 10774,
+      "profile": "High",
+      "pix_fmt": "yuv420p",
+      "sps_profile_idc": [
+        100
+      ],
+      "exact_30fps_pts": true,
+      "duration_seconds": 359.1333333333333,
+      "outside_P05_pixel_identical": true,
+      "unchanged_frames": 10076,
+      "changed_frames": 698,
+      "changed_interval_half_open": [
+        3078,
+        3776
+      ],
+      "v01_audio_stream_sha256": "SHA256=2d32e734284b39c937a66856f3724e190b8b74a72598d2592a63c11cb894e013",
+      "audio_stream_unchanged": true,
+      "video_stream_sha256": "SHA256=e2d8c1dab4a800fcf8d865f3f2eaf5ac2a27eefcb555b9c0f9b248c9e872f8f3"
+    },
+    {
+      "name": "EP007_Thanksgiving_ja_v02_1080p30.mp4",
+      "sha256": "8e9714164a3ac7d6e33e79abefffc3ba744e810b22b72116a810d8e93b1e3f1f",
+      "bytes": 219315104,
+      "decode_warnings": 0,
+      "decoded_frames": 10774,
+      "profile": "High",
+      "pix_fmt": "yuv420p",
+      "sps_profile_idc": [
+        100
+      ],
+      "exact_30fps_pts": true,
+      "duration_seconds": 359.1333333333333,
+      "outside_P05_pixel_identical": true,
+      "unchanged_frames": 10076,
+      "changed_frames": 698,
+      "changed_interval_half_open": [
+        3078,
+        3776
+      ],
+      "v01_audio_stream_sha256": "SHA256=0907a92e907d9ed896ba525c01608f395273d036a7cd52d5167e49168df18869",
+      "audio_stream_unchanged": true,
+      "video_stream_sha256": "SHA256=36121fa9e260f6cd4d207095c5115814e64461cfac6e7c0cf95d613985113f46"
+    },
+    {
+      "name": "EP007_Thanksgiving_ja_v02_subtitled_review_1080p30.mp4",
+      "sha256": "90676dd25e732d48fc866cc0f03dee3fa47bc2d84bfe0ca98c841f96df3b4ffd",
+      "bytes": 116601444,
+      "decode_warnings": 0,
+      "decoded_frames": 10774,
+      "profile": "High",
+      "pix_fmt": "yuv420p",
+      "sps_profile_idc": [
+        100
+      ],
+      "exact_30fps_pts": true,
+      "duration_seconds": 359.1333333333333,
+      "outside_P05_pixel_identical": true,
+      "unchanged_frames": 10076,
+      "changed_frames": 698,
+      "changed_interval_half_open": [
+        3078,
+        3776
+      ],
+      "v01_audio_stream_sha256": "SHA256=0907a92e907d9ed896ba525c01608f395273d036a7cd52d5167e49168df18869",
+      "audio_stream_unchanged": true,
+      "video_stream_sha256": "SHA256=8531a3005c8ff07ac5c16604b9000aabb1847768093da5271d6879b36ae725ca"
+    }
+  ]
+}
