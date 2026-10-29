@@ -1,0 +1,27 @@
+{
+  "method": "Both records use 32768-sample Hann-window FFT at 24 kHz; compare the recorded final ducked BGM streams, with different track selections and narrative timing.",
+  "EP007": {
+    "en": {
+      "below_200Hz": 24.329673157119984,
+      "200_to_2000Hz": 74.97221251540694,
+      "at_or_above_2000Hz": 0.6981143274730842
+    },
+    "ja": {
+      "below_200Hz": 24.544479228030166,
+      "200_to_2000Hz": 74.75187275394866,
+      "at_or_above_2000Hz": 0.7036480180211832
+    }
+  },
+  "EP008": {
+    "en": {
+      "below_200Hz": 26.517291247117818,
+      "200_to_2000Hz": 73.03585805687491,
+      "at_or_above_2000Hz": 0.4468506960072378
+    },
+    "ja": {
+      "below_200Hz": 27.09336306388625,
+      "200_to_2000Hz": 72.46997198950302,
+      "at_or_above_2000Hz": 0.4366649466107221
+    }
+  }
+}

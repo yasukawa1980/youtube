@@ -1,0 +1,78 @@
+{
+  "passed": true,
+  "movie_timescale": 48000,
+  "video_frames": 10427,
+  "audio_samples": 16683200,
+  "files": [
+    {
+      "name": "EP008_audio_en.m4a",
+      "before_sha256": "f64f5ebe5eccc7e3525e7e8740804734916fc6321c55490abe9db900726e9590",
+      "after_sha256": "f64f5ebe5eccc7e3525e7e8740804734916fc6321c55490abe9db900726e9590",
+      "already_sample_exact": true,
+      "encoded_streams_identical": true,
+      "stream_hashes": {
+        "audio": "SHA256=6f8023e8ec11563db2b99fe9001e7a44a4abcafb002bfead1c407bf40175f010"
+      },
+      "duration_seconds": "347.566667"
+    },
+    {
+      "name": "EP008_audio_ja.m4a",
+      "before_sha256": "4ea67d8898195429327c70757dbb1f1919f436cd9a6a2fc64eea84af376a6d30",
+      "after_sha256": "4ea67d8898195429327c70757dbb1f1919f436cd9a6a2fc64eea84af376a6d30",
+      "already_sample_exact": true,
+      "encoded_streams_identical": true,
+      "stream_hashes": {
+        "audio": "SHA256=164c10fb1826101d9e84ccf0a84c5a4f91987b26e424c1d6cce4ed60364fb0c1"
+      },
+      "duration_seconds": "347.566667"
+    },
+    {
+      "name": "EP008_Tutankhamun_en_v02_1080p30.mp4",
+      "before_sha256": "645ee3253e9681c58a91b945d9095fc790acd88a6568431828b29c5e4dd7e961",
+      "after_sha256": "645ee3253e9681c58a91b945d9095fc790acd88a6568431828b29c5e4dd7e961",
+      "already_sample_exact": true,
+      "encoded_streams_identical": true,
+      "stream_hashes": {
+        "video": "SHA256=4b41519143954379724cbc3edc767a32d2e991d745eb1c34fc311b7a9896a253",
+        "audio": "SHA256=6f8023e8ec11563db2b99fe9001e7a44a4abcafb002bfead1c407bf40175f010"
+      },
+      "duration_seconds": "347.566667"
+    },
+    {
+      "name": "EP008_Tutankhamun_en_v02_subtitled_review_1080p30.mp4",
+      "before_sha256": "350daa8cc15070d916ca3391b01cf04309499822961958b5bad394956b035328",
+      "after_sha256": "350daa8cc15070d916ca3391b01cf04309499822961958b5bad394956b035328",
+      "already_sample_exact": true,
+      "encoded_streams_identical": true,
+      "stream_hashes": {
+        "video": "SHA256=8b8f830c7144c3c3c49fd3f0ed58216a9b2c6c98a20d3f5ed52b73300cd40fc2",
+        "audio": "SHA256=6f8023e8ec11563db2b99fe9001e7a44a4abcafb002bfead1c407bf40175f010"
+      },
+      "duration_seconds": "347.566667"
+    },
+    {
+      "name": "EP008_Tutankhamun_ja_v02_1080p30.mp4",
+      "before_sha256": "3be446adee35363c51797303409cbb7143f5c34290c025254391477cb416b27c",
+      "after_sha256": "3be446adee35363c51797303409cbb7143f5c34290c025254391477cb416b27c",
+      "already_sample_exact": true,
+      "encoded_streams_identical": true,
+      "stream_hashes": {
+        "video": "SHA256=4b41519143954379724cbc3edc767a32d2e991d745eb1c34fc311b7a9896a253",
+        "audio": "SHA256=164c10fb1826101d9e84ccf0a84c5a4f91987b26e424c1d6cce4ed60364fb0c1"
+      },
+      "duration_seconds": "347.566667"
+    },
+    {
+      "name": "EP008_Tutankhamun_ja_v02_subtitled_review_1080p30.mp4",
+      "before_sha256": "3241dd1776d1d80c9ec734e94a5e10efd48c7eb1d4f3cc430906323a818415eb",
+      "after_sha256": "3241dd1776d1d80c9ec734e94a5e10efd48c7eb1d4f3cc430906323a818415eb",
+      "already_sample_exact": true,
+      "encoded_streams_identical": true,
+      "stream_hashes": {
+        "video": "SHA256=536f7c67462fdbd624f8d399884b52bf830176afc1fb6cb2d714226ee3d4bf58",
+        "audio": "SHA256=164c10fb1826101d9e84ccf0a84c5a4f91987b26e424c1d6cce4ed60364fb0c1"
+      },
+      "duration_seconds": "347.566667"
+    }
+  ]
+}

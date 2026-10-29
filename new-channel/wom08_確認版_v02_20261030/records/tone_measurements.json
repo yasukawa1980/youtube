@@ -1,0 +1,193 @@
+{
+  "photo_target": "元のクロップ内Rec.709平均輝度を10–15%上げる",
+  "photos": [
+    "B286",
+    "B151",
+    "B157",
+    "B170",
+    "B183",
+    "B299",
+    "B300",
+    "B237",
+    "B313",
+    "B246"
+  ],
+  "measurements": [
+    {
+      "key": "B286",
+      "old_mean": 124.58041522078187,
+      "new_mean": 140.62512000875773,
+      "increase_percent": 12.878994470793327,
+      "old_black": 10206,
+      "new_black": 10206,
+      "old_white": 0,
+      "new_white": 0,
+      "method": "全画素共通の単色セピア曲線"
+    },
+    {
+      "key": "N03",
+      "old_mean": 195.4480860215054,
+      "new_mean": 197.22696774193548,
+      "increase_percent": 0.9101556104439634,
+      "old_black": 15975,
+      "new_black": 15975,
+      "old_white": 8980,
+      "new_white": 8980,
+      "method": "紙面の輝度曲線"
+    },
+    {
+      "key": "B151",
+      "old_mean": 108.89284048150412,
+      "new_mean": 121.8399010793593,
+      "increase_percent": 11.889726212123453,
+      "old_black": 982,
+      "new_black": 982,
+      "old_white": 0,
+      "new_white": 0,
+      "method": "全画素共通の単色セピア曲線"
+    },
+    {
+      "key": "B157",
+      "old_mean": 104.63550905128203,
+      "new_mean": 117.17625801999654,
+      "increase_percent": 11.985175092490131,
+      "old_black": 2529,
+      "new_black": 2529,
+      "old_white": 0,
+      "new_white": 0,
+      "method": "全画素共通の単色セピア曲線"
+    },
+    {
+      "key": "B170",
+      "old_mean": 114.48790876314641,
+      "new_mean": 128.2036288239564,
+      "increase_percent": 11.980059911117058,
+      "old_black": 35037,
+      "new_black": 35037,
+      "old_white": 0,
+      "new_white": 0,
+      "method": "全画素共通の単色セピア曲線"
+    },
+    {
+      "key": "B164",
+      "old_mean": 150.32557800709893,
+      "new_mean": 153.64057339499757,
+      "increase_percent": 2.2052104717283028,
+      "old_black": 7256,
+      "new_black": 6532,
+      "old_white": 0,
+      "new_white": 0,
+      "method": "紙面の輝度曲線"
+    },
+    {
+      "key": "B183",
+      "old_mean": 114.51046897379616,
+      "new_mean": 127.4732374213232,
+      "increase_percent": 11.320160124829592,
+      "old_black": 10254,
+      "new_black": 10254,
+      "old_white": 0,
+      "new_white": 0,
+      "method": "全画素共通の単色セピア曲線"
+    },
+    {
+      "key": "B299",
+      "old_mean": 107.41481692002675,
+      "new_mean": 120.56262081407046,
+      "increase_percent": 12.240214405273896,
+      "old_black": 1970,
+      "new_black": 1970,
+      "old_white": 0,
+      "new_white": 0,
+      "method": "全画素共通の単色セピア曲線"
+    },
+    {
+      "key": "B300",
+      "old_mean": 108.79935090061885,
+      "new_mean": 121.51249515035084,
+      "increase_percent": 11.684944941762222,
+      "old_black": 50769,
+      "new_black": 50769,
+      "old_white": 19,
+      "new_white": 19,
+      "method": "全画素共通の単色セピア曲線"
+    },
+    {
+      "key": "B237",
+      "old_mean": 128.9735193946694,
+      "new_mean": 144.66958684101485,
+      "increase_percent": 12.169992351929393,
+      "old_black": 12131,
+      "new_black": 12131,
+      "old_white": 0,
+      "new_white": 0,
+      "method": "全画素共通の単色セピア曲線"
+    },
+    {
+      "key": "B241",
+      "old_mean": 158.71022003644396,
+      "new_mean": 161.99050997149897,
+      "increase_percent": 2.066842282936654,
+      "old_black": 2668,
+      "new_black": 2239,
+      "old_white": 0,
+      "new_white": 0,
+      "method": "紙面の輝度曲線"
+    },
+    {
+      "key": "N01",
+      "old_mean": 193.4165028142589,
+      "new_mean": 195.20315196998123,
+      "increase_percent": 0.9237314963956633,
+      "old_black": 31327,
+      "new_black": 31327,
+      "old_white": 401,
+      "new_white": 401,
+      "method": "紙面の輝度曲線"
+    },
+    {
+      "key": "N02",
+      "old_mean": 199.36855289421158,
+      "new_mean": 201.1008489687292,
+      "increase_percent": 0.8688913318424918,
+      "old_black": 22015,
+      "new_black": 22015,
+      "old_white": 3258,
+      "new_white": 3258,
+      "method": "紙面の輝度曲線"
+    },
+    {
+      "key": "B313",
+      "old_mean": 103.99698872226318,
+      "new_mean": 116.63042333556106,
+      "increase_percent": 12.147885019091298,
+      "old_black": 18164,
+      "new_black": 18164,
+      "old_white": 0,
+      "new_white": 0,
+      "method": "全画素共通の単色セピア曲線"
+    },
+    {
+      "key": "B312",
+      "old_mean": 157.94919258992203,
+      "new_mean": 161.28541461302893,
+      "increase_percent": 2.112212141386882,
+      "old_black": 11101,
+      "new_black": 10458,
+      "old_white": 0,
+      "new_white": 0,
+      "method": "紙面の輝度曲線"
+    },
+    {
+      "key": "B246",
+      "old_mean": 118.40171265371572,
+      "new_mean": 131.97752670737938,
+      "increase_percent": 11.465893313020104,
+      "old_black": 18560,
+      "new_black": 18560,
+      "old_white": 0,
+      "new_white": 0,
+      "method": "全画素共通の単色セピア曲線"
+    }
+  ]
+}

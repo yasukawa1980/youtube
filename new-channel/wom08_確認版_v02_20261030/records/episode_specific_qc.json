@@ -1,0 +1,270 @@
+{
+  "passed": true,
+  "shot_count": 30,
+  "base_assets_each_used_once": [
+    "B286",
+    "N03",
+    "B151",
+    "B157",
+    "B170",
+    "B164",
+    "B183",
+    "C01",
+    "B299",
+    "B300",
+    "B237",
+    "B241",
+    "N01",
+    "N02",
+    "B313",
+    "C02",
+    "B312",
+    "C03",
+    "B246",
+    "C04",
+    "V01"
+  ],
+  "preservation_checks": [
+    {
+      "name": "content.json",
+      "sha256": "964f83717ec9f88ca2059e25476500471d0f7ff8a773089e7e62df19b59ee2bf",
+      "v01_byte_identical": true
+    },
+    {
+      "name": "content_en.json",
+      "sha256": "f560cc9a5b1f16ddf9bed5a331e4760b92b1dc0af85f074285cc68e79af46d67",
+      "v01_byte_identical": true
+    },
+    {
+      "name": "master_timeline.json",
+      "sha256": "eba80a05c3c5a8a5a7e4fd462aba060b362feb2123021711a6ea12642344f5d6",
+      "v01_byte_identical": true
+    },
+    {
+      "name": "narration_timeline_en.json",
+      "sha256": "3b7b4d419c4501f21320658914cf910ff5184e01d46cd36a54e7a6e1ae0f6693",
+      "v01_byte_identical": true
+    },
+    {
+      "name": "narration_timeline_ja.json",
+      "sha256": "c50f8006b8b2d9309aa095495bf92f04340e67843ea40b709c1958d82b17ac1b",
+      "v01_byte_identical": true
+    },
+    {
+      "name": "subtitle_cues_en.json",
+      "sha256": "44a27be369f3be4b4bed223702fcaf509691ffff33ffe8ad8d58ea8318102fa5",
+      "v01_byte_identical": true
+    },
+    {
+      "name": "subtitle_cues_ja.json",
+      "sha256": "c8d31412a23bc0c368eff4ded643f211a865a5559b7402d9d2ae683e6b2bc075",
+      "v01_byte_identical": true
+    },
+    {
+      "name": "audio_qc.json",
+      "sha256": "60714af2a92b6fe9c9a5f00e8f354c5ceb6846b3474556013b8fd68494317403",
+      "v01_byte_identical": true
+    },
+    {
+      "language": "en",
+      "audio_stream_sha256": "SHA256=6f8023e8ec11563db2b99fe9001e7a44a4abcafb002bfead1c407bf40175f010",
+      "v01_audio_identical": true,
+      "srt_sha256": "f584af1e886a9fddf750f3afc08bcbade8961f864c0ee41f8e2a451a3ed7ce72",
+      "v01_srt_byte_identical": true
+    },
+    {
+      "language": "ja",
+      "audio_stream_sha256": "SHA256=164c10fb1826101d9e84ccf0a84c5a4f91987b26e424c1d6cce4ed60364fb0c1",
+      "v01_audio_identical": true,
+      "srt_sha256": "4299ffe60a01696dc2933276f7887be549b08a94ed135e007e3f0116eff63ca6",
+      "v01_srt_byte_identical": true
+    }
+  ],
+  "brand_and_candle_original_intermediates_sha_identical": true,
+  "endcard_exact_last_10_seconds": true,
+  "C03_explicit_other_tomb": true,
+  "no_new_generation_or_spend": true,
+  "human_full_listening": "音声v01と同一。本人によるv02全編視聴待ち。",
+  "source_usage": [
+    {
+      "key": "B286",
+      "segment_id": "P01",
+      "start": 0.0,
+      "end": 35.63333333333333
+    },
+    {
+      "key": "N03",
+      "segment_id": "P02",
+      "start": 35.63333333333333,
+      "end": 49.333333333333336
+    },
+    {
+      "key": "opening",
+      "segment_id": "BRAND",
+      "start": 49.333333333333336,
+      "end": 53.333333333333336
+    },
+    {
+      "key": "B151",
+      "segment_id": "P03",
+      "start": 53.333333333333336,
+      "end": 67.0
+    },
+    {
+      "key": "B157",
+      "segment_id": "P03",
+      "start": 67.0,
+      "end": 74.83333333333333
+    },
+    {
+      "key": "B170",
+      "segment_id": "P04",
+      "start": 74.83333333333333,
+      "end": 83.56666666666666
+    },
+    {
+      "key": "B164",
+      "segment_id": "P04",
+      "start": 83.56666666666666,
+      "end": 91.96666666666667
+    },
+    {
+      "key": "B183",
+      "segment_id": "P05",
+      "start": 91.96666666666667,
+      "end": 93.46666666666667
+    },
+    {
+      "key": "C01",
+      "segment_id": "P05",
+      "start": 93.46666666666667,
+      "end": 97.53333333333333
+    },
+    {
+      "key": "B299",
+      "segment_id": "P05",
+      "start": 97.53333333333333,
+      "end": 104.23333333333333
+    },
+    {
+      "key": "B300",
+      "segment_id": "P05",
+      "start": 104.23333333333333,
+      "end": 115.03333333333333
+    },
+    {
+      "key": "B237",
+      "segment_id": "P06",
+      "start": 115.03333333333333,
+      "end": 118.46666666666667
+    },
+    {
+      "key": "B241",
+      "segment_id": "P06",
+      "start": 118.46666666666667,
+      "end": 132.76666666666668
+    },
+    {
+      "key": "D_illness",
+      "segment_id": "P07",
+      "start": 132.76666666666668,
+      "end": 145.4
+    },
+    {
+      "key": "N01",
+      "segment_id": "P08",
+      "start": 145.4,
+      "end": 156.76666666666668
+    },
+    {
+      "key": "N02",
+      "segment_id": "P08",
+      "start": 156.76666666666668,
+      "end": 169.76666666666668
+    },
+    {
+      "key": "B313",
+      "segment_id": "P09",
+      "start": 169.76666666666668,
+      "end": 179.26666666666668
+    },
+    {
+      "key": "C02",
+      "segment_id": "P09",
+      "start": 179.26666666666668,
+      "end": 184.53333333333333
+    },
+    {
+      "key": "B312",
+      "segment_id": "P09",
+      "start": 184.53333333333333,
+      "end": 193.73333333333332
+    },
+    {
+      "key": "D_novels_1869",
+      "segment_id": "P10",
+      "start": 193.73333333333332,
+      "end": 214.86666666666667
+    },
+    {
+      "key": "D_novels_1892",
+      "segment_id": "P10",
+      "start": 214.86666666666667,
+      "end": 225.73333333333332
+    },
+    {
+      "key": "D_warning",
+      "segment_id": "P11",
+      "start": 225.73333333333332,
+      "end": 229.26666666666668
+    },
+    {
+      "key": "C03",
+      "segment_id": "P11",
+      "start": 229.26666666666668,
+      "end": 250.46666666666667
+    },
+    {
+      "key": "B246",
+      "segment_id": "P12",
+      "start": 250.46666666666667,
+      "end": 260.5
+    },
+    {
+      "key": "D_bmj",
+      "segment_id": "P12",
+      "start": 260.5,
+      "end": 282.8
+    },
+    {
+      "key": "D_summary",
+      "segment_id": "P13",
+      "start": 282.8,
+      "end": 292.8333333333333
+    },
+    {
+      "key": "C04",
+      "segment_id": "P13",
+      "start": 292.8333333333333,
+      "end": 304.1
+    },
+    {
+      "key": "V01",
+      "segment_id": "P14",
+      "start": 304.1,
+      "end": 312.0
+    },
+    {
+      "key": "credits",
+      "segment_id": "P15",
+      "start": 312.0,
+      "end": 337.56666666666666
+    },
+    {
+      "key": "endcard",
+      "segment_id": "BRAND",
+      "start": 337.56666666666666,
+      "end": 347.56666666666666
+    }
+  ]
+}

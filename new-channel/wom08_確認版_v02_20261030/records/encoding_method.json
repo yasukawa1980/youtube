@@ -1,0 +1,180 @@
+{
+  "method": "Independent shot decoders feeding one raw-video encoder",
+  "shots": [
+    {
+      "key": "B286",
+      "frames": 1069
+    },
+    {
+      "key": "N03",
+      "frames": 411
+    },
+    {
+      "key": "opening",
+      "frames": 120
+    },
+    {
+      "key": "B151",
+      "frames": 410
+    },
+    {
+      "key": "B157",
+      "frames": 235
+    },
+    {
+      "key": "B170",
+      "frames": 262
+    },
+    {
+      "key": "B164",
+      "frames": 252
+    },
+    {
+      "key": "B183",
+      "frames": 45
+    },
+    {
+      "key": "C01",
+      "frames": 122
+    },
+    {
+      "key": "B299",
+      "frames": 201
+    },
+    {
+      "key": "B300",
+      "frames": 324
+    },
+    {
+      "key": "B237",
+      "frames": 103
+    },
+    {
+      "key": "B241",
+      "frames": 429
+    },
+    {
+      "key": "D_illness",
+      "frames": 379
+    },
+    {
+      "key": "N01",
+      "frames": 341
+    },
+    {
+      "key": "N02",
+      "frames": 390
+    },
+    {
+      "key": "B313",
+      "frames": 285
+    },
+    {
+      "key": "C02",
+      "frames": 158
+    },
+    {
+      "key": "B312",
+      "frames": 276
+    },
+    {
+      "key": "D_novels_1869",
+      "frames": 634
+    },
+    {
+      "key": "D_novels_1892",
+      "frames": 326
+    },
+    {
+      "key": "D_warning",
+      "frames": 106
+    },
+    {
+      "key": "C03",
+      "frames": 636
+    },
+    {
+      "key": "B246",
+      "frames": 301
+    },
+    {
+      "key": "D_bmj",
+      "frames": 669
+    },
+    {
+      "key": "D_summary",
+      "frames": 301
+    },
+    {
+      "key": "C04",
+      "frames": 338
+    },
+    {
+      "key": "V01",
+      "frames": 237
+    },
+    {
+      "key": "credits",
+      "frames": 767
+    },
+    {
+      "key": "endcard",
+      "frames": 300
+    }
+  ],
+  "command": [
+    "ffmpeg",
+    "-nostdin",
+    "-y",
+    "-v",
+    "warning",
+    "-f",
+    "rawvideo",
+    "-pixel_format",
+    "yuv420p",
+    "-video_size",
+    "1920x1080",
+    "-framerate",
+    "30",
+    "-i",
+    "pipe:0",
+    "-an",
+    "-c:v",
+    "libx264",
+    "-threads",
+    "3",
+    "-preset",
+    "medium",
+    "-crf",
+    "16",
+    "-profile:v",
+    "high",
+    "-level:v",
+    "4.1",
+    "-pix_fmt",
+    "yuv420p",
+    "-g",
+    "60",
+    "-bf",
+    "2",
+    "-maxrate",
+    "20M",
+    "-bufsize",
+    "30M",
+    "-fps_mode",
+    "passthrough",
+    "-video_track_timescale",
+    "15360",
+    "-movie_timescale",
+    "48000",
+    "-color_primaries",
+    "bt709",
+    "-color_trc",
+    "bt709",
+    "-colorspace",
+    "bt709",
+    "-movflags",
+    "+faststart",
+    "/Users/ryo/Desktop/新チャンネル/EP008_Tutankhamun/確認版_v02_20261030/_work/picture_master.mp4"
+  ]
+}
