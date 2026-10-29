@@ -1,0 +1,70 @@
+{
+  "passed": true,
+  "unique_sources": 7,
+  "rows": [
+    {
+      "short_id": "F1",
+      "episode": "EP007",
+      "asset_id": "G09-01",
+      "start_seconds": 0.0,
+      "end_seconds": 6.6,
+      "use_count": 1,
+      "source_sha256": "0014e888ff8090fe24c5bea0c679163cbea847baf210e207acc64e55f9a64d04"
+    },
+    {
+      "short_id": "F1",
+      "episode": "EP007",
+      "asset_id": "G02-01",
+      "start_seconds": 6.6,
+      "end_seconds": 10.966666666666667,
+      "use_count": 1,
+      "source_sha256": "51bad5ca28ebf3bf949a52839637de526f0b2793d75e121ef6278ba6d14598e8"
+    },
+    {
+      "short_id": "F1",
+      "episode": "EP007",
+      "asset_id": "D_young",
+      "start_seconds": 10.966666666666667,
+      "end_seconds": 21.5,
+      "use_count": 1,
+      "source_sha256": "a3e9a30fee3a99f9ce455325c415d5b8eacc04abe7ce719395c1f90b2030b77d"
+    },
+    {
+      "short_id": "F2",
+      "episode": "EP007",
+      "asset_id": "G08-02",
+      "start_seconds": 0.0,
+      "end_seconds": 9.633333333333333,
+      "use_count": 1,
+      "source_sha256": "1622653a8c4c044ccff1655baa930176c5068620857fde2944cde2c918e666b8"
+    },
+    {
+      "short_id": "F2",
+      "episode": "EP007",
+      "asset_id": "G06-01",
+      "start_seconds": 9.633333333333333,
+      "end_seconds": 19.9,
+      "use_count": 1,
+      "source_sha256": "a03f02a04a63df7c0e59c86e0bad70839607179cdea3d5f3e6e338be155f505a"
+    },
+    {
+      "short_id": "F3",
+      "episode": "EP007",
+      "asset_id": "G07-01",
+      "start_seconds": 0.0,
+      "end_seconds": 13.333333333333334,
+      "use_count": 1,
+      "source_sha256": "662a2c3582ca369a61474890a9a118e1ce053f490d8748fc293dd0536125459e"
+    },
+    {
+      "short_id": "F3",
+      "episode": "EP007",
+      "asset_id": "G02-02",
+      "start_seconds": 13.333333333333334,
+      "end_seconds": 19.1,
+      "use_count": 1,
+      "source_sha256": "83c408fa01ff8c7c09a61d19c113bb43be1dbfda2a3db01a9821783e18bcd04c"
+    }
+  ],
+  "same_source_not_repeated_within_episode": true
+}

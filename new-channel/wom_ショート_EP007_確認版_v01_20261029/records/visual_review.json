@@ -1,0 +1,21 @@
+{
+  "passed": true,
+  "video_sha256": {
+    "F1": "3dcf1ed74561239ba651f376c9637990818793fc9fa7bc5f7b5c016b9f112ca0",
+    "F2": "b5fb58e03b3951d5050d3c8e2329c498249fdaea109f426e56bbb5a85106038a",
+    "F3": "f5aade3cb781044092baca5e716f69a2f59aea5bde8a17d6c373ed7d9ebcfb5c"
+  },
+  "inspected": "Final MP4 continuous-decode opening frames 0,15,30,45,60,75 and every 60 frames; full-resolution representative document and diagram frames.",
+  "findings": [
+    "All headlines visible at 0; fade at 2.0–2.3 seconds; 0–2.5 second contact sheets reviewed.",
+    "Same bilingual labels and source strings as EP007 main v02, no PD/CC0 claim for Ferris.",
+    "F1 header narrowed to leave the turkey head visible; source text retained in two lines.",
+    "D_young reuses exact main-film diagram pixels; the two dated blocks are stacked for portrait legibility.",
+    "G02-01 uses the union of the main-film start/end detail rectangles, keeping fowle through fiue Deere visible.",
+    "Ferris color target excluded; group retained in every camera window; no individual face fills the frame.",
+    "F2 proclamation shown as whole first page; camera does not target last Thursday, which is absent from that page."
+  ],
+  "human_full_listening": false,
+  "ai_assets_used": false,
+  "new_generation": false
+}
