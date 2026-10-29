@@ -15,7 +15,7 @@
   6. 1869年オルコット「Lost in a Pyramid; or, The Mummy's Curse」（墓から持ち出された種の災い）、1892年ドイル「Lot No. 249」（ミイラの蘇生）。
   7. 前2400年ごろのヘテプヘルアクティの礼拝室（ライデン国立古代博物館）には、不浄のまま入り損なう者を大いなる神が裁く、という警告がある。
   8. カーターは1939年に没。2002年のBMJの研究：立ち会いと生存期間に統計的に有意な関連なし。
-- 尺の目標：**約6分**（v02で英語698語、日本語約1,730字）。
+- 尺の目標：**約6分**（v02.1で英語712語、日本語約1,779字）。
 - 公開日（本人了承）：**11/4（水）09:00**を目指す（階段の発見から104年の日）。間に合わなければ次の空いている日の09:00。
 
 ## 注意して扱う点
@@ -52,7 +52,7 @@
 
 ### C01 The Curse Everyone Knows
 
-**P01** A sealed tomb in the Valley of the Kings. A warning, it is said, guarded its door: death would come swiftly to anyone who disturbed the king. And within five months of the tomb's opening, the man who had paid for the search was dead. This is the curse of Tutankhamun, as it has been told for a hundred years. But no reliable record shows that warning among the tomb's real inscriptions. So where did the curse come from?
+**P01** A sealed tomb in the Valley of the Kings. A warning, it is said, guarded its door: death would come swiftly to anyone who disturbed the king. And within five months of the tomb's opening, the man who had paid for the search was dead. This is the curse of Tutankhamun, as it has been told for a hundred years. But in the records we checked, we could not find that warning as an inscription from the tomb. So where did the curse come from?
 
 **P02** In this episode, we follow the story from a step in the sand, to the newspapers of 1923, and back to tales of mummies written long before the tomb was found.
 
@@ -72,9 +72,9 @@
 
 **P07** In March 1923, Carnarvon fell ill with an infection, and then pneumonia. On the fifth of April, he died in Cairo, at the age of fifty-six.
 
-**P08** Newspapers around the world linked his death to the tomb. They reported that the novelist Marie Corelli had warned of ancient powers protecting it. The writer Arthur Conan Doyle was quoted as suggesting that a spirit-like force guarding the tomb might be to blame. On the same pages, other experts disagreed.
+**P08** Newspapers around the world linked his death to the tomb. They also reported the novelist Marie Corelli's belief in ancient powers protecting the tomb. The writer Arthur Conan Doyle was quoted as suggesting that a spirit-like force guarding the tomb might be to blame. On the same pages, other experts disagreed.
 
-**P09** The famous warning appeared as the story was retold. But no reliable source shows those words in the tomb itself. Among the tomb's real texts are words for the king's protection and his eternal life. One alabaster cup carries a wish: may your spirit live, and may you spend millions of years.
+**P09** The famous warning appeared as the story was retold. We have not found a reliable source placing those words in the tomb itself. Among the tomb's real texts are wishes for the king's eternal life. One alabaster cup carries a wish for him to live for millions of years.
 
 ### C04 Older Than the Tomb
 
@@ -84,17 +84,17 @@
 
 ### C05 The Candle and the Curse
 
-**P12** And the people around the tomb? The work of recording and clearing it went on for about ten years, and Howard Carter lived until 1939. In 2002, a study in the British Medical Journal looked at the Westerners named in Carter's records. It found no statistically significant link between being present at the tomb's openings and how long people lived.
+**P12** And the people around the tomb? The work of recording and clearing it went on for about ten years, and Howard Carter lived until 1939. In 2002, a study in the British Medical Journal looked at the Westerners named in Carter's records. It found no statistically significant link between attending the opening events defined by the study and how long people lived. It was a small study with incomplete records.
 
-**P13** So where did the curse come from? From older tales of mummies, a sudden and tragic death, and newspapers eager for a story. The tomb itself held a young king, and words meant to keep him safe.
+**P13** So where did the curse come from? The story grew around older tales of mummies, a sudden and tragic death, and arguments in the newspapers. The tomb itself held a young king, and words wishing him eternal life.
 
 **P14** Every story has an origin. Sometimes, it begins with a candle held up in the dark.
 
-**P15** This video is based on historical texts and public museum collections. The narration uses synthetic speech, and some images are AI-generated reconstructions. Sources and terms of use are listed in the description. If you enjoyed this story, please like the video and subscribe for more quiet origins. Thank you for watching.
+**P15** This video is based on historical texts and public museum collections. The narration uses synthetic speech, and one scene uses AI-generated imagery. Sources and terms of use are listed in the description. If you enjoyed this story, please like the video and subscribe for more quiet origins. Thank you for watching.
 
 ## 台本（日本語）v02
 
-**P01** 王家の谷の、封印された墓。その入口には、ある警告があったといいます。王の眠りを妨げる者には、死がすばやく訪れる、と。そして墓が開かれて五か月もたたないうちに、発掘の費用を出した人物が亡くなりました。百年にわたって語られてきた、ツタンカーメンの呪いです。けれど、その警告が墓の実際の碑文にあったことを示す、確かな記録はありません。では、呪いの話はどこから来たのでしょう。
+**P01** 王家の谷の、封印された墓。その入口には、ある警告があったといいます。王の眠りを妨げる者には、死がすばやく訪れる、と。そして墓が開かれて五か月もたたないうちに、発掘の費用を出した人物が亡くなりました。百年にわたって語られてきた、ツタンカーメンの呪いです。けれど、今回確かめた記録では、その警告を墓の実際の碑文として示す出典は見つかりませんでした。では、呪いの話はどこから来たのでしょう。
 
 **P02** 今回は、砂の中の一段の階段から、1923年の新聞へ、そして墓が見つかるずっと前に書かれたミイラの物語へと、話をたどります。
 
@@ -108,21 +108,21 @@
 
 **P07** 1923年3月、カーナヴォン卿は感染症にかかり、やがて肺炎も起こしました。4月5日、カイロで亡くなります。56歳でした。
 
-**P08** 世界中の新聞が、その死を墓と結びつけました。小説家マリー・コレリが、墓は古代の力に守られていると警告していた、と伝えた新聞もありました。作家アーサー・コナン・ドイルは、墓を守る霊のような力のせいかもしれない、と語ったと報じられています。同じ紙面には、それに反対する専門家の声も載っていました。
+**P08** 世界中の新聞が、その死を墓と結びつけました。小説家マリー・コレリが、墓は古代の力に守られていると信じていたことも報じられました。作家アーサー・コナン・ドイルは、墓を守る霊のような力のせいかもしれない、と語ったと報じられています。同じ紙面には、それに反対する専門家の声も載っていました。
 
-**P09** あの有名な警告は、話が語り直されるなかで現れたものです。墓の中にその言葉があったことを示す、確かな出典はありません。墓に残る本物の文には、王を守り、永遠の命を願う言葉があります。アラバスターの杯の一つには、こんな願いが刻まれています。あなたの魂が生き、幾百万年を過ごせますように。
+**P09** あの有名な警告は、話が語り直されるなかで現れたものです。墓の中にその言葉があったことを示す、確かな出典は見つかっていません。墓に残る本物の文には、王の永遠の命を願う言葉があります。アラバスターの杯の一つには、王が幾百万年もの時を生きるよう願う言葉が刻まれています。
 
 **P10** ミイラや、その墓にまつわる災いの物語は、発見のずっと前から読まれていました。1869年、『若草物語』の作者ルイザ・メイ・オルコットは、「ピラミッドで迷って、あるいはミイラの呪い」を発表します。墓から持ち出された種が、災いをもたらす物語です。1892年には、コナン・ドイル自身が、ミイラがよみがえる物語「競売番号249」を発表しました。
 
 **P11** 古代エジプトにも、警告の言葉はありました。紀元前2400年ごろ、ツタンカーメンより千年以上前の墓の礼拝室には、身を清めずに入り、墓を損なう者は大いなる神に裁かれる、と記されています。そうした警告は本物です。ただ、それは別の墓のものでした。
 
-**P12** では、墓の周りにいた人々は。墓の記録と片づけは十年ほど続き、ハワード・カーターは1939年まで生きました。2002年、イギリスの医学誌BMJに載った研究は、カーターの記録に名前のある欧米の人々を調べました。墓の開封に立ち会ったことと、その後の生存期間とのあいだに、統計的に有意な関連は見つかりませんでした。
+**P12** では、墓の周りにいた人々は。墓の記録と片づけは十年ほど続き、ハワード・カーターは1939年まで生きました。2002年、イギリスの医学誌BMJに載った研究は、カーターの記録に名前のある欧米の人々を調べました。研究で対象とした開封などに立ち会ったことと、その後の生存期間とのあいだに、統計的に有意な関連は見つかりませんでした。小規模で、記録の欠けた部分もある調査です。
 
-**P13** では、呪いはどこから来たのでしょう。それより前からあったミイラの物語。突然の、痛ましい死。そして、話題を求めた新聞。墓そのものに眠っていたのは、若い王と、彼を守るための言葉でした。
+**P13** では、呪いはどこから来たのでしょう。古くからあったミイラの物語。突然の、痛ましい死。そして、新聞で交わされた議論。それらを重ねながら、呪いの話は広がっていきました。墓そのものに眠っていたのは、若い王と、彼の永遠の命を願う言葉でした。
 
 **P14** どの物語にも由来がある。ときには、それは暗闇にかざされた一本のろうそくから始まります。
 
-**P15** この動画は、歴史上の文献と公開された美術館のコレクションをもとに構成しました。ナレーションには音声合成を、一部の映像にはAIによる再現画を使っています。出典と利用条件は概要欄にまとめています。楽しんでいただけたら、高評価とチャンネル登録をお願いします。ご覧いただき、ありがとうございました。
+**P15** この動画は、歴史上の文献と公開された美術館のコレクションをもとに構成しました。ナレーションには音声合成を、一部の映像にはAI生成映像を使っています。出典と利用条件は概要欄にまとめています。楽しんでいただけたら、高評価とチャンネル登録をお願いします。ご覧いただき、ありがとうございました。
 
 ## 画面の構成（v02案）
 
@@ -164,6 +164,17 @@
 1. **台本v02の内容**：この内容でよいか。特に、(a) 有名な警告文は逐語で引用せず「確かな記録はない」とする、(b) カーナヴォン卿の死は「感染症、のちに肺炎」まで（虫刺されは入れない）、(c) P09は墓の本物の文として願いの杯の祝福の言葉を見せる、の3点。
 2. **画像のない区間**：P07（死去）・P10（小説）・P11（古い墓の警告）は、条件に合う画像がないため文字カードと模式図にする。Codexに追加の調査を頼むより、11/4公開を優先してこのまま進めるのがClaudeのおすすめ。
 3. よければ台本JSONと制作依頼を作る。
+
+## v02.1：Codexの追加照合を反映（2026-10-29 Claude）
+
+Codexの[追加修正案](wom08_台本v02_追加修正案_20261029.md)（6区間）を、本人の委任（「問題なければCodexで制作してもらいます」）によりClaudeが確認し、すべて採用。英語712語・日本語約1,779字。台本JSONも同じ文に更新済み。
+
+- P01：「確かな記録はない」→「今回確かめた記録では、碑文として示す出典は見つからなかった」（調べた範囲を明示）。
+- P08：コレリは「警告していた」→「信じていたことも報じられた」（原書簡・初出日付が未確認のため）。
+- P09：「あなたの魂が生き」（Kaを魂と訳す直接引用風）→「王が幾百万年もの時を生きるよう願う言葉」。「王を守り」も外した。画面のB312は刊本の原文（May thy Ka live…）のまま見せてよい。
+- P12：対象は「研究で定義した開封などへの立ち会い」。「小規模で、記録の欠けた部分もある調査」を加えた。
+- P13：「話題を求めた新聞」（動機の断定）→「新聞で交わされた議論」。最後の「彼を守るための言葉」は、P09に合わせて**「彼の永遠の命を願う言葉」に変えた（Claudeの追加修正。Codex案の文ではP09と食い違うため）**。
+- P15：「一部の映像にはAIによる再現画」→ 英語「one scene uses AI-generated imagery」、日本語「一部の映像にはAI生成映像」（AIはろうそくの1場面だけで、歴史の再現ではないため）。
 
 ## v01からの変更（v02、2026-10-29）
 
