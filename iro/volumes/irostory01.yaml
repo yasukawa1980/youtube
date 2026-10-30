@@ -26,3 +26,17 @@ thumbnail: 投稿用/irostory01_サムネ_v2.jpg
 render_script: iro/irostory01_仕上げ.py
 qc_report: iro/irostory01_完成検品_v2.json
 subjective_audio_review: pending_user_listening
+
+short:
+  status: completed_unpublished
+  date: '2026-10-31'
+  duration_seconds: 36
+  width: 1080
+  height: 1920
+  fps: 24
+  main: 投稿用/irostory01_ショート_あと一ページのはずだった_v1.mp4
+  cover: 投稿用/irostory01_ショート_カバー候補.jpg
+  render_script: iro/irostory01_ショート制作.py
+  qc_report: iro/irostory01_ショート_完成検品.json
+  upload_info: iro/irostory01_ショート_アップロード情報.md
+  additional_generation_credits: 0

@@ -1,0 +1,76 @@
+{
+  "id": "irostory01",
+  "version": "short_v1",
+  "duration_seconds": 36.0,
+  "width": 1080,
+  "height": 1920,
+  "fps": "24/1",
+  "video_codec": "h264",
+  "audio_codec": "aac",
+  "sample_rate": "48000",
+  "channels": 2,
+  "size_bytes": 16121879,
+  "sha256": "47a8493418689f95c29fe2d76c06bc87511ef831c697fa4fd78d883eb81f26ce",
+  "integrated_lufs": -24.12,
+  "true_peak_dbtp": -4.87,
+  "loudness_range": 14.0,
+  "full_decode_errors": "",
+  "new_generation_credits": 0,
+  "music": false,
+  "dialogue": false,
+  "subjective_audio_review": "直接聴取は未実施。数値検品済み。",
+  "shots": [
+    {
+      "start": 0,
+      "end": 3,
+      "source": "S1_reading.png",
+      "center_x": 0.705,
+      "audio_source_start": 15
+    },
+    {
+      "start": 3,
+      "end": 9,
+      "source": "dog",
+      "center_x": 0.5,
+      "audio_source_start": 24
+    },
+    {
+      "start": 9,
+      "end": 15,
+      "source": "woman",
+      "center_x": 0.705,
+      "audio_source_start": 34
+    },
+    {
+      "start": 15,
+      "end": 19,
+      "source": "S3_waiting.png",
+      "center_x": 0.655,
+      "audio_source_start": 41
+    },
+    {
+      "start": 19,
+      "end": 22,
+      "source": "S4_bookmark.png",
+      "center_x": 0.565,
+      "audio_source_start": 55
+    },
+    {
+      "start": 22,
+      "end": 26,
+      "source": "S5_doorway.png",
+      "center_x": 0.49,
+      "audio_source_start": 63
+    },
+    {
+      "start": 26,
+      "end": 36,
+      "source": "S6_walk.png",
+      "center_x": 0.47,
+      "audio_source_start": 72
+    }
+  ],
+  "date": "2026-10-31",
+  "visual_review": "書き出した動画の1・4・8・10・14・17・20・24・28・33秒を画像で目視確認。顔・題字・場面順を確認。",
+  "cover_bytes": 212401
+}
