@@ -1,0 +1,37 @@
+{
+  "status": "generated_and_downloaded",
+  "credit_spent": 96,
+  "clips": [
+    {
+      "id": "dog",
+      "start": "S1_reading.png",
+      "end": "S1b_dog_awake_reading.png",
+      "seconds": 6,
+      "prompt": "Locked-off camera, one continuous gentle action in the exact hand-painted illustrated style of the reference. The large adult golden retriever lying on the rug opens its eyes and slowly lifts only its head to look up at the woman, then holds that relaxed pose. Its body, legs, paws, tail and size stay fixed on the rug. The woman remains reading, head and hands unchanged. No standing, no walking, no talking, no mouth movement, no camera motion, no zoom, no cuts, no new objects. Preserve the same dog identity, broad pale muzzle and golden coat, woman identity, all furniture and lighting. Match the supplied end frame. Motion is subtle and natural, not a dramatic stretch. Silent.",
+      "displayed_credits": 48,
+      "actual_duration_seconds": 6.041666666666667,
+      "local_path": "/Volumes/ESD-EPB/BGM/IRO/Stories/01_あと一ページのはずだった/動作素材/dog_6s.mp4",
+      "page_url": "https://kling.ai/app/creations/grid?ac=11&project=939738663515209766&slotId=945150804779614255&materialId=325341511536825",
+      "download_name": "34fceeef-2f86-4e47-bc69-7995a3e138bc-dT002nwqNuCxnPwg6bA5UA-output.mp4"
+    },
+    {
+      "id": "woman",
+      "start": "S1b_dog_awake_reading.png",
+      "end": "S2_awake.png",
+      "seconds": 6,
+      "prompt": "Locked-off camera, one continuous gentle action in the exact hand-painted illustrated style of the reference. The seated adult woman pauses her reading, slowly turns her head and gaze away from the open green book toward the golden retriever at her feet, and gives a tiny closed-mouth affectionate smile. Keep the book open and her hands steady, no page turning. The dog is already awake with its head raised and remains in that lying position with only very subtle breathing. Preserve the woman's chin-length wavy dark-brown bob, amber hairclip, face, teal shirt, navy trousers and body proportions. No speaking, no standing, no exaggerated facial motion, no camera movement, no zoom, no cuts, no new objects. Furniture and window geometry remain fixed. Match the supplied end frame. Silent.",
+      "displayed_credits": 48,
+      "actual_duration_seconds": 6.041666666666667,
+      "local_path": "/Volumes/ESD-EPB/BGM/IRO/Stories/01_あと一ページのはずだった/動作素材/woman_6s.mp4",
+      "page_url": "https://kling.ai/app/creations/grid?ac=11&project=939738663515209766&slotId=945151239896051787&materialId=325341615533624",
+      "download_name": "eb307f73-484e-481f-9fce-9d36b1afa0a7-dT002nwqNuD57asr_0yRSQ-output.mp4"
+    }
+  ],
+  "middle_image_prompt": "Use case: precise-object-edit / identity-preserve. Image 1 is the EDIT TARGET; image 2 is a supporting reference for the DOG POSE ONLY. Make one extremely precise change to image 1: the golden retriever has woken up and lifted its head to look upward toward the woman, matching the dog's resting-body/head-raised pose in image 2. Keep its entire body lying on the same rug with the same size, pale muzzle, honey fur, paws, tail and identity. Crucially leave the WOMAN EXACTLY AS IN IMAGE 1, still looking down at her open dark-green book, original head angle, eyes, hands, clothes, hairclip and posture. Do not use the woman's looking-at-dog pose from image 2 yet. Preserve EVERY furniture edge, armchair, rug, window, frame, book, lighting and camera position of image 1. Do not alter weather or exposure. This is a matching middle keyframe between asleep-dog/reading-woman and awake-dog/looking-woman. One full-bleed 16:9 image, same dimensions and painterly cinematic texture, no text.",
+  "model": "Kling 3.0",
+  "resolution": "1080p",
+  "native_audio": false,
+  "multishot": false,
+  "credit_before": 340,
+  "credit_after": 244
+}

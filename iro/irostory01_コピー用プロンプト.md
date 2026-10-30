@@ -39,3 +39,7 @@ Use case: illustration-story. Create the transition shot of this quiet film, exa
 ```text
 Use case: illustration-story. Final shot of a quiet IRO SOUNDS short film. Input reference is exact identity, wardrobe and hand-painted cinematic style. New outdoor scene after the rain: wide shot from behind of this same adult woman (chin-length wavy dark brown bob, amber rectangular hairclip, teal overshirt, cream tee, navy wide trousers, brown ankle boots) and same large mature golden retriever with pale broad muzzle and honey coat, taking a gentle walk AWAY from camera along a wet stone path. Woman near center-left, dog at her right, both full bodies occupy only 40 percent of image height. Her right hand holds tan leash loosely and continuously attached to dog's plain tan collar. Quiet residential garden lane, low stone wall, autumn orange and copper leaves, a foreground shallow puddle reflecting pale sky and leaf branches. Soft blue-gray clearing sky with diffuse afternoon light, only gentle warm accents, NOT an overpowering golden sunset. Small cozy house with teal doorway far behind to side. Calm understated conclusion, no people other than them, no words, no logo, no border, no collage. Landscape 16:9. Natural walking poses, four dog legs, two human legs.
 ```
+
+
+## 完成v2の追加生成
+中間画像「女性は読書中、犬だけ顔を上げた状態」と、Kling 3.0による犬・女性各6秒のプロンプト全文は `irostory01_動作プロンプト.json` を参照。生成済み2本で完成v2を制作。再生成は不要。
