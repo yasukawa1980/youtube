@@ -1,0 +1,37 @@
+{
+  "passed": true,
+  "checks": [
+    {
+      "id": "K1",
+      "original_ASS_main_style_and_events_byte_identical": true,
+      "srt_sha256": "31222754e3224f9ea148623f2042ee0b97b0134bc6276e6dcdd398c40bd8ac93",
+      "srt_identical_to_v01": true,
+      "same_camera_shot_files_and_order": true,
+      "same_encoder_command_except_new_plate_assets_ass_output_paths": true,
+      "same_headline_rgb_and_opaque_text": true,
+      "only_headline_alpha_changed": false
+    },
+    {
+      "id": "K2",
+      "original_ASS_main_style_and_events_byte_identical": true,
+      "srt_sha256": "1384255a39c25d1c6703dff23f06886461f58096ca6e262c5b63b753074f4e33",
+      "srt_identical_to_v01": true,
+      "same_camera_shot_files_and_order": true,
+      "same_encoder_command_except_new_plate_assets_ass_output_paths": true,
+      "same_headline_rgb_and_opaque_text": true,
+      "only_headline_alpha_changed": true
+    },
+    {
+      "id": "K3",
+      "original_ASS_main_style_and_events_byte_identical": true,
+      "srt_sha256": "41158edc7b98b46bbf3f7ac12eca675b94c33c3c282c815d50225e337c6f0b19",
+      "srt_identical_to_v01": true,
+      "same_camera_shot_files_and_order": true,
+      "same_encoder_command_except_new_plate_assets_ass_output_paths": true,
+      "same_headline_rgb_and_opaque_text": true,
+      "only_headline_alpha_changed": false
+    }
+  ],
+  "same_headline_fade_filter": "fade=t=out:st=2:d=0.3:alpha=1; overlay enable lt(t,2.3)",
+  "v01_base_release_id": 428689871
+}

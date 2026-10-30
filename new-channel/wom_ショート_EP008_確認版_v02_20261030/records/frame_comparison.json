@@ -1,0 +1,406 @@
+{
+  "continuous_decode_from_zero": true,
+  "no_seek": true,
+  "opening_seconds": [
+    0,
+    0.5,
+    1,
+    1.5,
+    2,
+    2.5
+  ],
+  "comparisons": [
+    {
+      "id": "K1",
+      "kind": "opening",
+      "frame": 0,
+      "seconds": 0.0,
+      "file": "review/K1/opening_0000.jpg",
+      "sha256": "f841502e06d1014668444a40faf8b7b6d7f445fd019c5e00c1891a8ff61b0f71"
+    },
+    {
+      "id": "K1",
+      "kind": "opening",
+      "frame": 15,
+      "seconds": 0.5,
+      "file": "review/K1/opening_0015.jpg",
+      "sha256": "4e995f839159e453d0f0bdb335ca7bc47ec2698ef0d214ae766a2370940c357a"
+    },
+    {
+      "id": "K1",
+      "kind": "opening",
+      "frame": 30,
+      "seconds": 1.0,
+      "file": "review/K1/opening_0030.jpg",
+      "sha256": "0afd3c922c0fa6514504fd1fa17e823b3321bc7d6420daf88fe038ef9fc28cea"
+    },
+    {
+      "id": "K1",
+      "kind": "opening",
+      "frame": 45,
+      "seconds": 1.5,
+      "file": "review/K1/opening_0045.jpg",
+      "sha256": "7392e3ae93bb5c7a791b411793e73356166bdf9581362b316176f621263ee434"
+    },
+    {
+      "id": "K1",
+      "kind": "opening",
+      "frame": 60,
+      "seconds": 2.0,
+      "file": "review/K1/opening_0060.jpg",
+      "sha256": "383509d0a3038a8679a7187c3ad5c9e56785074461cfb5dce65cf1e65b96110a"
+    },
+    {
+      "id": "K1",
+      "kind": "opening",
+      "frame": 75,
+      "seconds": 2.5,
+      "file": "review/K1/opening_0075.jpg",
+      "sha256": "cf4d69324fd998ef30e70fc5d859db2003526eb4de7b73c80e8cc997c135ef61"
+    },
+    {
+      "id": "K1",
+      "kind": "every2s",
+      "frame": 0,
+      "seconds": 0.0,
+      "file": "review/K1/every2s_0000.jpg",
+      "sha256": "f841502e06d1014668444a40faf8b7b6d7f445fd019c5e00c1891a8ff61b0f71"
+    },
+    {
+      "id": "K1",
+      "kind": "every2s",
+      "frame": 60,
+      "seconds": 2.0,
+      "file": "review/K1/every2s_0060.jpg",
+      "sha256": "383509d0a3038a8679a7187c3ad5c9e56785074461cfb5dce65cf1e65b96110a"
+    },
+    {
+      "id": "K1",
+      "kind": "every2s",
+      "frame": 120,
+      "seconds": 4.0,
+      "file": "review/K1/every2s_0120.jpg",
+      "sha256": "b9dc64e1784b620167cac64d5a645d51e0b51c3104dae51faead88fe5e45b3e9"
+    },
+    {
+      "id": "K1",
+      "kind": "every2s",
+      "frame": 180,
+      "seconds": 6.0,
+      "file": "review/K1/every2s_0180.jpg",
+      "sha256": "f72ae483c5822ddb460f34147c7bafc1b7d576c2189b7b70f35aa53f62197a82"
+    },
+    {
+      "id": "K1",
+      "kind": "every2s",
+      "frame": 240,
+      "seconds": 8.0,
+      "file": "review/K1/every2s_0240.jpg",
+      "sha256": "808881410ad418d087754bf118071d7efdef8f0e3c27ded70532e0751fb4b634"
+    },
+    {
+      "id": "K1",
+      "kind": "every2s",
+      "frame": 300,
+      "seconds": 10.0,
+      "file": "review/K1/every2s_0300.jpg",
+      "sha256": "3f9b18aeee7b2daea3bd606d971547317c18e5cd090cca80a3e9a9b3777c4085"
+    },
+    {
+      "id": "K1",
+      "kind": "every2s",
+      "frame": 360,
+      "seconds": 12.0,
+      "file": "review/K1/every2s_0360.jpg",
+      "sha256": "1b789b00b6ba1b73221e303bba51ec03c8bb8cb23cedf8bd94cbf6b6106de238"
+    },
+    {
+      "id": "K1",
+      "kind": "every2s",
+      "frame": 420,
+      "seconds": 14.0,
+      "file": "review/K1/every2s_0420.jpg",
+      "sha256": "acadfb6d2e5ec4845d1629dd06af51a0f7cb7cab6ac4871b247fa661fa394fc7"
+    },
+    {
+      "id": "K1",
+      "kind": "every2s",
+      "frame": 480,
+      "seconds": 16.0,
+      "file": "review/K1/every2s_0480.jpg",
+      "sha256": "fdd76b23b17f5fbbdb967c40036fa6ac4d296e26d20c70d41025e491949b5013"
+    },
+    {
+      "id": "K2",
+      "kind": "opening",
+      "frame": 0,
+      "seconds": 0.0,
+      "file": "review/K2/opening_0000.jpg",
+      "sha256": "3994745c19f6e4f6fee46e718b69070135b558232c095b3094867651779dcf84"
+    },
+    {
+      "id": "K2",
+      "kind": "opening",
+      "frame": 15,
+      "seconds": 0.5,
+      "file": "review/K2/opening_0015.jpg",
+      "sha256": "6fc5e3e9dad9b04def922b6000c2c0978610f8a5a3d55385e24f800a39c7f8ef"
+    },
+    {
+      "id": "K2",
+      "kind": "opening",
+      "frame": 30,
+      "seconds": 1.0,
+      "file": "review/K2/opening_0030.jpg",
+      "sha256": "bbee9ca05ce1ffa1209a177452b8f481dac0ef028db4b4377dede3f00917f6f3"
+    },
+    {
+      "id": "K2",
+      "kind": "opening",
+      "frame": 45,
+      "seconds": 1.5,
+      "file": "review/K2/opening_0045.jpg",
+      "sha256": "c2b6b431c669e95c9acb8f37fe6422341f70be947be0db3ef4290f8af3b52445"
+    },
+    {
+      "id": "K2",
+      "kind": "opening",
+      "frame": 60,
+      "seconds": 2.0,
+      "file": "review/K2/opening_0060.jpg",
+      "sha256": "4937a45ed8d5592cc934581ecee5fc4382ce51b4bfc4dbb349db6ab7a3302f3b"
+    },
+    {
+      "id": "K2",
+      "kind": "opening",
+      "frame": 75,
+      "seconds": 2.5,
+      "file": "review/K2/opening_0075.jpg",
+      "sha256": "55ba4760314eba01b5683db1661dcc6b54ddfc15d6e7b50e743d255b2e76ed28"
+    },
+    {
+      "id": "K2",
+      "kind": "every2s",
+      "frame": 0,
+      "seconds": 0.0,
+      "file": "review/K2/every2s_0000.jpg",
+      "sha256": "3994745c19f6e4f6fee46e718b69070135b558232c095b3094867651779dcf84"
+    },
+    {
+      "id": "K2",
+      "kind": "every2s",
+      "frame": 60,
+      "seconds": 2.0,
+      "file": "review/K2/every2s_0060.jpg",
+      "sha256": "4937a45ed8d5592cc934581ecee5fc4382ce51b4bfc4dbb349db6ab7a3302f3b"
+    },
+    {
+      "id": "K2",
+      "kind": "every2s",
+      "frame": 120,
+      "seconds": 4.0,
+      "file": "review/K2/every2s_0120.jpg",
+      "sha256": "62a35501f6bba66d5ecb1820ae9428b22d764144ddd42473bb69c36743001362"
+    },
+    {
+      "id": "K2",
+      "kind": "every2s",
+      "frame": 180,
+      "seconds": 6.0,
+      "file": "review/K2/every2s_0180.jpg",
+      "sha256": "6c3c0ecae016309eed3e922e29c67159d16083939c196f1a071706d32a760011"
+    },
+    {
+      "id": "K2",
+      "kind": "every2s",
+      "frame": 240,
+      "seconds": 8.0,
+      "file": "review/K2/every2s_0240.jpg",
+      "sha256": "c8cbcab19dd034aff1d46a6715a428d7afe79aacb7df8271c0a2890cd6368713"
+    },
+    {
+      "id": "K2",
+      "kind": "every2s",
+      "frame": 300,
+      "seconds": 10.0,
+      "file": "review/K2/every2s_0300.jpg",
+      "sha256": "d675533ed3e34f7e091cf3fe2acd809304c31ce38bd9182b49ebf635aac696d0"
+    },
+    {
+      "id": "K2",
+      "kind": "every2s",
+      "frame": 360,
+      "seconds": 12.0,
+      "file": "review/K2/every2s_0360.jpg",
+      "sha256": "3df9af0e5166293093cd873135e6a981f373d4266f537c1de8b8f6f656acbbb3"
+    },
+    {
+      "id": "K2",
+      "kind": "every2s",
+      "frame": 420,
+      "seconds": 14.0,
+      "file": "review/K2/every2s_0420.jpg",
+      "sha256": "f1dba8192104bfd070b4253b5e424c9bb4790aea2be5c197373332011b0c6580"
+    },
+    {
+      "id": "K2",
+      "kind": "every2s",
+      "frame": 480,
+      "seconds": 16.0,
+      "file": "review/K2/every2s_0480.jpg",
+      "sha256": "97ca6166a434e706872be81a0cb00ba572c86e88601d3af6a8ee1fef40f42744"
+    },
+    {
+      "id": "K2",
+      "kind": "every2s",
+      "frame": 540,
+      "seconds": 18.0,
+      "file": "review/K2/every2s_0540.jpg",
+      "sha256": "143083a65016abd56e4546a9ce3b327583258e282fd0723e88ee7fe7c77fcaa0"
+    },
+    {
+      "id": "K2",
+      "kind": "every2s",
+      "frame": 600,
+      "seconds": 20.0,
+      "file": "review/K2/every2s_0600.jpg",
+      "sha256": "3f0aa0f45a063defafc46282fee4e4582f0fd9fb22d3570f0563b05a14666bca"
+    },
+    {
+      "id": "K3",
+      "kind": "opening",
+      "frame": 0,
+      "seconds": 0.0,
+      "file": "review/K3/opening_0000.jpg",
+      "sha256": "1781a1164835f984dcc8d9924c94e672782ed916a590826bd6512ba789dc33a7"
+    },
+    {
+      "id": "K3",
+      "kind": "opening",
+      "frame": 15,
+      "seconds": 0.5,
+      "file": "review/K3/opening_0015.jpg",
+      "sha256": "efc7ce5e5e731f6184d9820907188cd0a1866b3cda1ab48e529f205d9302fcec"
+    },
+    {
+      "id": "K3",
+      "kind": "opening",
+      "frame": 30,
+      "seconds": 1.0,
+      "file": "review/K3/opening_0030.jpg",
+      "sha256": "e0dc1c8eabddaa2d1463468ca5828c2c8bc41dcbedd3495408be537baabafcfd"
+    },
+    {
+      "id": "K3",
+      "kind": "opening",
+      "frame": 45,
+      "seconds": 1.5,
+      "file": "review/K3/opening_0045.jpg",
+      "sha256": "77e07c66d43921a51df27768a24c22c66bd17d15c71bb4b52503ac143fcb1e7d"
+    },
+    {
+      "id": "K3",
+      "kind": "opening",
+      "frame": 60,
+      "seconds": 2.0,
+      "file": "review/K3/opening_0060.jpg",
+      "sha256": "bdeed268679b842f7d82572d5ecbf7abe9bb7b96a72a7e72d54bf3b9fe0c913b"
+    },
+    {
+      "id": "K3",
+      "kind": "opening",
+      "frame": 75,
+      "seconds": 2.5,
+      "file": "review/K3/opening_0075.jpg",
+      "sha256": "73a909d05e039095184f7d0efdcd07d92148f583e10a6ec0923e5dc73ef9d208"
+    },
+    {
+      "id": "K3",
+      "kind": "every2s",
+      "frame": 0,
+      "seconds": 0.0,
+      "file": "review/K3/every2s_0000.jpg",
+      "sha256": "1781a1164835f984dcc8d9924c94e672782ed916a590826bd6512ba789dc33a7"
+    },
+    {
+      "id": "K3",
+      "kind": "every2s",
+      "frame": 60,
+      "seconds": 2.0,
+      "file": "review/K3/every2s_0060.jpg",
+      "sha256": "bdeed268679b842f7d82572d5ecbf7abe9bb7b96a72a7e72d54bf3b9fe0c913b"
+    },
+    {
+      "id": "K3",
+      "kind": "every2s",
+      "frame": 120,
+      "seconds": 4.0,
+      "file": "review/K3/every2s_0120.jpg",
+      "sha256": "73e7cd414dcc435e81b24e344fc25fc39934343deb1afcdde397f82c85cda1d8"
+    },
+    {
+      "id": "K3",
+      "kind": "every2s",
+      "frame": 180,
+      "seconds": 6.0,
+      "file": "review/K3/every2s_0180.jpg",
+      "sha256": "95fe953bb9e357b649c79c5f29ddd09ffe7f08de5df283bd8eb8ba55c51b72cd"
+    },
+    {
+      "id": "K3",
+      "kind": "every2s",
+      "frame": 240,
+      "seconds": 8.0,
+      "file": "review/K3/every2s_0240.jpg",
+      "sha256": "00b73c54b121a39a51b5041cce6186dd41865a58d676c522711ffcc473a7d789"
+    },
+    {
+      "id": "K3",
+      "kind": "every2s",
+      "frame": 300,
+      "seconds": 10.0,
+      "file": "review/K3/every2s_0300.jpg",
+      "sha256": "b22fa3f0bcd2297f17503ed5e43f257b82b873b3993add5754894748ce0eefc0"
+    },
+    {
+      "id": "K3",
+      "kind": "every2s",
+      "frame": 360,
+      "seconds": 12.0,
+      "file": "review/K3/every2s_0360.jpg",
+      "sha256": "1158f1417e3a454fac66c4ef67a217b0763a106def7685f6c7fa1196a00e8a8c"
+    },
+    {
+      "id": "K3",
+      "kind": "every2s",
+      "frame": 420,
+      "seconds": 14.0,
+      "file": "review/K3/every2s_0420.jpg",
+      "sha256": "438fb9a6e8d9de80adda0c8d249da45028d74d1092f5ca7932fa442058069abf"
+    },
+    {
+      "id": "K3",
+      "kind": "every2s",
+      "frame": 480,
+      "seconds": 16.0,
+      "file": "review/K3/every2s_0480.jpg",
+      "sha256": "09046924d1a6eb595828d8845b1bdb7ea3242b58c7950b0b5270531f5c601b20"
+    },
+    {
+      "id": "K3",
+      "kind": "every2s",
+      "frame": 540,
+      "seconds": 18.0,
+      "file": "review/K3/every2s_0540.jpg",
+      "sha256": "94925a26285360474da21d2e2d439bb4fe3dc5e1757c32a54de076ce773a8260"
+    },
+    {
+      "id": "K3",
+      "kind": "every2s",
+      "frame": 600,
+      "seconds": 20.0,
+      "file": "review/K3/every2s_0600.jpg",
+      "sha256": "0dd29040fe03e9d97148b3726d66de2df3b1f1538727dea54d59cd09c8d8fee7"
+    }
+  ]
+}

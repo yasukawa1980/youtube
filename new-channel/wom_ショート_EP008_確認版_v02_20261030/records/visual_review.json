@@ -1,0 +1,18 @@
+{
+  "passed": true,
+  "video_sha256": {
+    "K1": "e9a2aa62c0d0ba8d108679f96ff9d6ca0173964f9068dfaa387e088dfcc35533",
+    "K2": "30503366770d7cf3a8d6a457ea070150ac34582e6578701484fdccf7139a2469",
+    "K3": "bb9f4f440ec4b9f28bdd404a0fba7b00f80f3b59c023cdced86fd1ea9a6a4618"
+  },
+  "inspected": "完成MP4の冒頭0/0.5/1/1.5/2/2.5秒、2秒おき全31時点のv01/v02比較一覧、字幕中央フレームの拡大比較。",
+  "findings": [
+    "字幕の各行の後ろに角丸黒下地が付き、新聞・明るい壁面でも読める。",
+    "K2見出し下地を濃くし、紙面の黒文字の透けが減った。字体・字色・大きさ・位置と2.0〜2.3秒の消え方は同じ。",
+    "K1/K3見出し、札・出典、CTA、資料の切り出しと並びは同じ。文字の欠けや固定札との重なりなし。"
+  ],
+  "human_full_listening": false,
+  "audio_stream_sha_matches_v01": true,
+  "ai_visual_assets_used": false,
+  "new_visual_generation": false
+}
