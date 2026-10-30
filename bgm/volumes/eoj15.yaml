@@ -20,8 +20,18 @@ dir: "/Volumes/ESD-02/BGM/5_Echoes of Old Japan/EOJ15_素材_月に寄す"
 
 runtime: "56 MIN"   # ★manifest の 3369.3秒（56分09秒）
 title_lines: [静かな夜に, 月に寄す]
+# ★10/30 本人決定（案B）：題字の下に小さく作曲家名。「月に寄す」は曲名だけでは伝わりにくいため。
+#   168pxではほぼ読めないが題字の級数は変わらない。ホーム・検索の大きい表示で効く。
+#   ★EOJ のジャンル設定には sub の級数・位置が無いので、この巻の thumb に書いた（既刊は変わらない）。
+thumb_sub: シューベルト
+thumb_layout:
+  sub: 680
 thumb:
   title_family: jp
+  sub_family: jp
+  sizes: {sub: 64}
+  font_index: {sub: 0}
+  tracking: {sub: 10}
   title_fit: 760
   tracking:
     brand: 4
