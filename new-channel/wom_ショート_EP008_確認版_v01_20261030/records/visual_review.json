@@ -1,0 +1,28 @@
+{
+  "passed": true,
+  "video_sha256": {
+    "K1": "7acd3ecde8f87c3b524514d927afc2706221a80066a76309db077cb7e6473365",
+    "K2": "6129adaf60985f74cf4a0544e9d16b7d7b135fca86ae75f31d4136412e568829",
+    "K3": "ed82e58e185914b86a8df200e641384d8f66031aa9216eb4c08b4bba34131e48"
+  },
+  "inspected": "最終MP4の0/0.5/1/1.5/2/2.5秒の18枚、2秒おきの全3本の一覧、および資料の原画像。",
+  "findings": [
+    "冒頭見出しは3本とも字が欠けず、札・字幕と非重複。2.0〜2.3秒で消える。",
+    "K1は封鎖扉と右側の守護像を縦に切り出し、像の頭部を残す。杯→刊本p258で終わる。",
+    "K2はN03の見出し全体を残す。N02は同じ記事内のドイル説とバッジの反論を2つの抜粋で提示。N01は見出しの段だけ。顔写真・事故の大見出しなし。",
+    "K3は1923–27年の模写、フイTT40の別墓でKV62でない札を維持。1869カードは本編v03の文字の画素を縦に並べ替え、1892行を含めない。",
+    "K3は最後にB157階段へ切り替え、3本とも最後まで絵か紙面が残る。",
+    "字幕は承認済みの台本と一致し、各行4〜5語、最大2行。年号だけの画面なし。"
+  ],
+  "human_full_listening": false,
+  "ai_visual_assets_used": false,
+  "new_visual_generation": false,
+  "K3_script_approval": {
+    "approved_date_jst": "2026-10-30",
+    "authority": "同じチャットの本人回答「墓の発見より古い」に修正する（推奨）",
+    "id": "K3",
+    "old": "The mummy's curse is older than Tutankhamun's tomb.",
+    "new": "The mummy's curse is older than the discovery of Tutankhamun's tomb.",
+    "scope": "冒頭1文だけ。ほかの台本文と画面見出しは維持。"
+  }
+}
