@@ -4,11 +4,15 @@ Kling が無いので、動きは湯気・灯りのゆらぎと、15秒で3%の�
 ★IRO21 の本人指摘（同じ切り抜きだと絵がほぼ同じ）→ 4本とも場面と寄り引きを変える：
   A＝S2 雨の窓とマグを持つ女性（608×1080）／B＝S3 手元の寄りと湯気（608×1080）／C＝S4 撫でられて眠る犬の寄り（456×810）／D＝S5 夜の窓越し（540×960）
 音は4本とも別の楽器の曲の30秒目から15秒。
+★10/30 本人「ショートが全部同じ画面」→ 縦サムネも1本ずつ（場面の元のコマに用途＋そのショートの一言・irokit/short_thumb.py）。
 """
 import json, re, subprocess, sys
 from pathlib import Path
 import numpy as np
 from PIL import Image, ImageDraw, ImageFont, ImageFilter
+
+sys.path.insert(0, str(Path(__file__).resolve().parents[1] / 'bgm/IRO/irokit'))
+import short_thumb as st
 
 MAC = Path('/Users/ryo/Desktop/BGM/IRO/Cafe/23_雨やどりのつもりだった'); SSD = Path('/Volumes/ESD-02/IRO/IRO23_素材_雨やどりのカフェ2時間')
 LOOPS = SSD / '_映像作業/loops'; OUT = MAC / '投稿用'; W = MAC / '_work'; SONGS = Path('/Volumes/ESD-02/Suno書き出し/IRO23_全48曲/wav')
@@ -59,6 +63,7 @@ if __name__ == '__main__':
         I = float(re.findall(r'I:\s+(-?[\d.]+) LUFS', m)[-1]); TP = float(re.findall(r'Peak:\s+(-?[\d.]+)', m)[-1])
         yavg = subprocess.run(f"ffmpeg -v error -i '{fin}' -vf fps=1,signalstats,metadata=print:file=- -f null - | awk -F= '/YAVG/{{s+=$2;n++}} END{{print s/n}}'",
                               shell=True, capture_output=True, text=True).stdout.strip()
+        st.make(st.clean_frame(LOOPS / f'{scene}.mp4', 1, (x, y, w, h)), 'カフェBGM', lines, where, OUT / f'iro23_ショート_{tag}_サムネ.jpg')
         info.append({'tag': tag, 'scene': scene, 'crop': [x, y, w, h], 'title': ''.join(lines), 'song': song, 'LUFS': I, 'TP': TP, '平均輝度': float(yavg)})
         print(info[-1], flush=True)
     (W / 'ショート設定.json').write_text(json.dumps(info, ensure_ascii=False, indent=1))
