@@ -1,0 +1,608 @@
+{
+  "passed": true,
+  "method": "WCAG相対輝度：sRGBを線形化し(.2126,.7152,.0722)で加重、(L明+.05)/(L暗+.05)。実際に描画した文字色と、描画前の同じ背景画像の各文字bbox内全画素から最小値を測定。アンチエイリアス縁の混色は文字色にはしない。紺のヘッダーは変更なし。",
+  "accent": "#5a3a1a",
+  "body": "#3b2c21",
+  "novel_english_title_size": 69,
+  "v02_english_title_size": 43,
+  "enlargement": 1.6046511627906976,
+  "minimum": 5.52257525844883,
+  "rows": [
+    {
+      "key": "D_illness",
+      "text": "MARCH 1923｜1923年3月",
+      "foreground": "#5a3a1a",
+      "font_size": 50,
+      "bbox": [
+        629.0,
+        261,
+        1291.0,
+        309
+      ],
+      "background_min_luminance": 0.517408857708883,
+      "minimum_contrast_ratio": 5.52257525844883,
+      "median_contrast_ratio": 5.52257525844883,
+      "passed": true
+    },
+    {
+      "key": "D_illness",
+      "text": "INFECTION, THEN PNEUMONIA",
+      "foreground": "#3b2c21",
+      "font_size": 49,
+      "bbox": [
+        592.0078125,
+        359,
+        1328.0078125,
+        403
+      ],
+      "background_min_luminance": 0.517408857708883,
+      "minimum_contrast_ratio": 7.236456647780868,
+      "median_contrast_ratio": 7.236456647780868,
+      "passed": true
+    },
+    {
+      "key": "D_illness",
+      "text": "感染症、のちに肺炎",
+      "foreground": "#3b2c21",
+      "font_size": 44,
+      "bbox": [
+        762.0,
+        421,
+        1158.0,
+        463
+      ],
+      "background_min_luminance": 0.517408857708883,
+      "minimum_contrast_ratio": 7.236456647780868,
+      "median_contrast_ratio": 7.236456647780868,
+      "passed": true
+    },
+    {
+      "key": "D_illness",
+      "text": "5 APRIL 1923, CAIRO｜1923年4月5日 カイロ",
+      "foreground": "#5a3a1a",
+      "font_size": 43,
+      "bbox": [
+        488.0,
+        571,
+        1432.0,
+        614
+      ],
+      "background_min_luminance": 0.517408857708883,
+      "minimum_contrast_ratio": 5.52257525844883,
+      "median_contrast_ratio": 5.52257525844883,
+      "passed": true
+    },
+    {
+      "key": "D_novels_1869",
+      "text": "1869  Louisa May Alcott",
+      "foreground": "#5a3a1a",
+      "font_size": 48,
+      "bbox": [
+        703.0234375,
+        229,
+        1217.0234375,
+        274
+      ],
+      "background_min_luminance": 0.6733715328666849,
+      "minimum_contrast_ratio": 7.0405558105076045,
+      "median_contrast_ratio": 7.3192358964677595,
+      "passed": true
+    },
+    {
+      "key": "D_novels_1869",
+      "text": "Lost in a Pyramid; or, The Mummy’s Curse",
+      "foreground": "#3b2c21",
+      "font_size": 69,
+      "bbox": [
+        304.5,
+        292,
+        1615.5,
+        359
+      ],
+      "background_min_luminance": 0.6733715328666849,
+      "minimum_contrast_ratio": 9.225528764153108,
+      "median_contrast_ratio": 9.59069469965852,
+      "passed": true
+    },
+    {
+      "key": "D_novels_1869",
+      "text": "ルイザ・メイ・オルコット",
+      "foreground": "#3b2c21",
+      "font_size": 40,
+      "bbox": [
+        720.0,
+        370,
+        1200.0,
+        409
+      ],
+      "background_min_luminance": 0.6733715328666849,
+      "minimum_contrast_ratio": 9.225528764153108,
+      "median_contrast_ratio": 9.498569182655864,
+      "passed": true
+    },
+    {
+      "key": "D_novels_1869",
+      "text": "「ピラミッドで迷って、あるいはミイラの呪い」",
+      "foreground": "#3b2c21",
+      "font_size": 40,
+      "bbox": [
+        520.0,
+        427,
+        1400.0,
+        465
+      ],
+      "background_min_luminance": 0.6733715328666849,
+      "minimum_contrast_ratio": 9.225528764153108,
+      "median_contrast_ratio": 9.498569182655864,
+      "passed": true
+    },
+    {
+      "key": "D_novels_1892",
+      "text": "1869  Louisa May Alcott",
+      "foreground": "#5a3a1a",
+      "font_size": 48,
+      "bbox": [
+        703.0234375,
+        229,
+        1217.0234375,
+        274
+      ],
+      "background_min_luminance": 0.6052511478681648,
+      "minimum_contrast_ratio": 6.377541922589326,
+      "median_contrast_ratio": 6.573336901122972,
+      "passed": true
+    },
+    {
+      "key": "D_novels_1892",
+      "text": "Lost in a Pyramid; or, The Mummy’s Curse",
+      "foreground": "#3b2c21",
+      "font_size": 69,
+      "bbox": [
+        304.5,
+        292,
+        1615.5,
+        359
+      ],
+      "background_min_luminance": 0.6052511478681648,
+      "minimum_contrast_ratio": 8.356754499926081,
+      "median_contrast_ratio": 8.699924425526046,
+      "passed": true
+    },
+    {
+      "key": "D_novels_1892",
+      "text": "ルイザ・メイ・オルコット",
+      "foreground": "#3b2c21",
+      "font_size": 40,
+      "bbox": [
+        720.0,
+        370,
+        1200.0,
+        409
+      ],
+      "background_min_luminance": 0.6119139560764403,
+      "minimum_contrast_ratio": 8.441728715778737,
+      "median_contrast_ratio": 8.613312682966557,
+      "passed": true
+    },
+    {
+      "key": "D_novels_1892",
+      "text": "「ピラミッドで迷って、あるいはミイラの呪い」",
+      "foreground": "#3b2c21",
+      "font_size": 40,
+      "bbox": [
+        520.0,
+        427,
+        1400.0,
+        465
+      ],
+      "background_min_luminance": 0.6052511478681648,
+      "minimum_contrast_ratio": 8.356754499926081,
+      "median_contrast_ratio": 8.613312682966557,
+      "passed": true
+    },
+    {
+      "key": "D_novels_1892",
+      "text": "1892  Arthur Conan Doyle",
+      "foreground": "#5a3a1a",
+      "font_size": 48,
+      "bbox": [
+        681.0234375,
+        508,
+        1239.0234375,
+        554
+      ],
+      "background_min_luminance": 0.6052511478681648,
+      "minimum_contrast_ratio": 6.377541922589326,
+      "median_contrast_ratio": 6.573336901122972,
+      "passed": true
+    },
+    {
+      "key": "D_novels_1892",
+      "text": "Lot No. 249",
+      "foreground": "#3b2c21",
+      "font_size": 69,
+      "bbox": [
+        778.5,
+        576,
+        1141.5,
+        636
+      ],
+      "background_min_luminance": 0.6052511478681648,
+      "minimum_contrast_ratio": 8.356754499926081,
+      "median_contrast_ratio": 8.6566185542463,
+      "passed": true
+    },
+    {
+      "key": "D_novels_1892",
+      "text": "アーサー・コナン・ドイル「競売番号249」",
+      "foreground": "#3b2c21",
+      "font_size": 40,
+      "bbox": [
+        561.0,
+        647,
+        1359.0,
+        685
+      ],
+      "background_min_luminance": 0.6052511478681648,
+      "minimum_contrast_ratio": 8.356754499926081,
+      "median_contrast_ratio": 8.613312682966557,
+      "passed": true
+    },
+    {
+      "key": "D_warning",
+      "text": "c. 2400 BC",
+      "foreground": "#5a3a1a",
+      "font_size": 49,
+      "bbox": [
+        243.5,
+        374,
+        486.5,
+        411
+      ],
+      "background_min_luminance": 0.680464356208232,
+      "minimum_contrast_ratio": 7.109590070664807,
+      "median_contrast_ratio": 7.2489293741414365,
+      "passed": true
+    },
+    {
+      "key": "D_warning",
+      "text": "TOMB CHAPEL WARNING",
+      "foreground": "#5a3a1a",
+      "font_size": 32,
+      "bbox": [
+        169.0234375,
+        445,
+        561.0234375,
+        468
+      ],
+      "background_min_luminance": 0.6733715328666849,
+      "minimum_contrast_ratio": 7.0405558105076045,
+      "median_contrast_ratio": 7.3192358964677595,
+      "passed": true
+    },
+    {
+      "key": "D_warning",
+      "text": "前2400年ごろ 墓の礼拝室の警告",
+      "foreground": "#5a3a1a",
+      "font_size": 27,
+      "bbox": [
+        162.5,
+        495,
+        567.5,
+        522
+      ],
+      "background_min_luminance": 0.6733715328666849,
+      "minimum_contrast_ratio": 7.0405558105076045,
+      "median_contrast_ratio": 7.2489293741414365,
+      "passed": true
+    },
+    {
+      "key": "D_warning",
+      "text": "c. 1330 BC",
+      "foreground": "#3b2c21",
+      "font_size": 49,
+      "bbox": [
+        838.5,
+        374,
+        1081.5,
+        411
+      ],
+      "background_min_luminance": 0.6733715328666849,
+      "minimum_contrast_ratio": 9.225528764153108,
+      "median_contrast_ratio": 9.498569182655864,
+      "passed": true
+    },
+    {
+      "key": "D_warning",
+      "text": "TUTANKHAMUN",
+      "foreground": "#3b2c21",
+      "font_size": 32,
+      "bbox": [
+        837.515625,
+        445,
+        1082.515625,
+        468
+      ],
+      "background_min_luminance": 0.6733715328666849,
+      "minimum_contrast_ratio": 9.225528764153108,
+      "median_contrast_ratio": 9.59069469965852,
+      "passed": true
+    },
+    {
+      "key": "D_warning",
+      "text": "前1330年ごろ ツタンカーメン",
+      "foreground": "#3b2c21",
+      "font_size": 27,
+      "bbox": [
+        771.0,
+        495,
+        1149.0,
+        522
+      ],
+      "background_min_luminance": 0.6733715328666849,
+      "minimum_contrast_ratio": 9.225528764153108,
+      "median_contrast_ratio": 9.59069469965852,
+      "passed": true
+    },
+    {
+      "key": "D_warning",
+      "text": "1922",
+      "foreground": "#3b2c21",
+      "font_size": 49,
+      "bbox": [
+        1501.0,
+        375,
+        1609.0,
+        410
+      ],
+      "background_min_luminance": 0.6733715328666849,
+      "minimum_contrast_ratio": 9.225528764153108,
+      "median_contrast_ratio": 9.498569182655864,
+      "passed": true
+    },
+    {
+      "key": "D_warning",
+      "text": "DISCOVERY",
+      "foreground": "#3b2c21",
+      "font_size": 32,
+      "bbox": [
+        1461.5078125,
+        445,
+        1649.5078125,
+        468
+      ],
+      "background_min_luminance": 0.6733715328666849,
+      "minimum_contrast_ratio": 9.225528764153108,
+      "median_contrast_ratio": 9.498569182655864,
+      "passed": true
+    },
+    {
+      "key": "D_warning",
+      "text": "1922年 発見",
+      "foreground": "#3b2c21",
+      "font_size": 27,
+      "bbox": [
+        1474.0,
+        495,
+        1636.0,
+        522
+      ],
+      "background_min_luminance": 0.680464356208232,
+      "minimum_contrast_ratio": 9.315987183904827,
+      "median_contrast_ratio": 9.498569182655864,
+      "passed": true
+    },
+    {
+      "key": "D_bmj",
+      "text": "PRESENT AT KEY OPENINGS",
+      "foreground": "#5a3a1a",
+      "font_size": 34,
+      "bbox": [
+        278.5625,
+        216,
+        761.5625,
+        241
+      ],
+      "background_min_luminance": 0.6733715328666849,
+      "minimum_contrast_ratio": 7.0405558105076045,
+      "median_contrast_ratio": 7.3192358964677595,
+      "passed": true
+    },
+    {
+      "key": "D_bmj",
+      "text": "開封に立ち会った人",
+      "foreground": "#3b2c21",
+      "font_size": 34,
+      "bbox": [
+        367.0,
+        271,
+        673.0,
+        304
+      ],
+      "background_min_luminance": 0.6733715328666849,
+      "minimum_contrast_ratio": 9.225528764153108,
+      "median_contrast_ratio": 9.59069469965852,
+      "passed": true
+    },
+    {
+      "key": "D_bmj",
+      "text": "25",
+      "foreground": "#3b2c21",
+      "font_size": 92,
+      "bbox": [
+        469.0,
+        343,
+        571.0,
+        410
+      ],
+      "background_min_luminance": 0.6733715328666849,
+      "minimum_contrast_ratio": 9.225528764153108,
+      "median_contrast_ratio": 9.59069469965852,
+      "passed": true
+    },
+    {
+      "key": "D_bmj",
+      "text": "NOT PRESENT",
+      "foreground": "#5a3a1a",
+      "font_size": 34,
+      "bbox": [
+        1278.0078125,
+        216,
+        1522.0078125,
+        241
+      ],
+      "background_min_luminance": 0.680464356208232,
+      "minimum_contrast_ratio": 7.109590070664807,
+      "median_contrast_ratio": 7.3192358964677595,
+      "passed": true
+    },
+    {
+      "key": "D_bmj",
+      "text": "立ち会わなかった人",
+      "foreground": "#3b2c21",
+      "font_size": 34,
+      "bbox": [
+        1247.0,
+        271,
+        1553.0,
+        304
+      ],
+      "background_min_luminance": 0.6733715328666849,
+      "minimum_contrast_ratio": 9.225528764153108,
+      "median_contrast_ratio": 9.59069469965852,
+      "passed": true
+    },
+    {
+      "key": "D_bmj",
+      "text": "11",
+      "foreground": "#3b2c21",
+      "font_size": 92,
+      "bbox": [
+        1349.0546875,
+        343,
+        1451.0546875,
+        409
+      ],
+      "background_min_luminance": 0.6733715328666849,
+      "minimum_contrast_ratio": 9.225528764153108,
+      "median_contrast_ratio": 9.59069469965852,
+      "passed": true
+    },
+    {
+      "key": "D_bmj",
+      "text": "NO STATISTICALLY SIGNIFICANT LINK",
+      "foreground": "#5a3a1a",
+      "font_size": 43,
+      "bbox": [
+        563.0859375,
+        533,
+        1357.0859375,
+        564
+      ],
+      "background_min_luminance": 0.6733715328666849,
+      "minimum_contrast_ratio": 7.0405558105076045,
+      "median_contrast_ratio": 7.3192358964677595,
+      "passed": true
+    },
+    {
+      "key": "D_bmj",
+      "text": "統計的に有意な関連なし",
+      "foreground": "#3b2c21",
+      "font_size": 38,
+      "bbox": [
+        751.0,
+        581,
+        1169.0,
+        618
+      ],
+      "background_min_luminance": 0.680464356208232,
+      "minimum_contrast_ratio": 9.315987183904827,
+      "median_contrast_ratio": 9.59069469965852,
+      "passed": true
+    },
+    {
+      "key": "D_bmj",
+      "text": "Nelson, BMJ 2002 • 死亡情報が分かった36人",
+      "foreground": "#3b2c21",
+      "font_size": 26,
+      "bbox": [
+        680.0,
+        648,
+        1240.0,
+        676
+      ],
+      "background_min_luminance": 0.680464356208232,
+      "minimum_contrast_ratio": 9.315987183904827,
+      "median_contrast_ratio": 9.498569182655864,
+      "passed": true
+    },
+    {
+      "key": "D_summary",
+      "text": "1869–1892 STORIES｜物語",
+      "foreground": "#3b2c21",
+      "font_size": 44,
+      "bbox": [
+        663.0,
+        231,
+        1257.0,
+        273
+      ],
+      "background_min_luminance": 0.6733715328666849,
+      "minimum_contrast_ratio": 9.225528764153108,
+      "median_contrast_ratio": 9.59069469965852,
+      "passed": true
+    },
+    {
+      "key": "D_summary",
+      "text": "APRIL 1923 A DEATH｜1923年4月 死去",
+      "foreground": "#3b2c21",
+      "font_size": 44,
+      "bbox": [
+        529.0,
+        331,
+        1391.0,
+        373
+      ],
+      "background_min_luminance": 0.6733715328666849,
+      "minimum_contrast_ratio": 9.225528764153108,
+      "median_contrast_ratio": 9.498569182655864,
+      "passed": true
+    },
+    {
+      "key": "D_summary",
+      "text": "NEWSPAPERS｜新聞",
+      "foreground": "#3b2c21",
+      "font_size": 44,
+      "bbox": [
+        736.5,
+        431,
+        1183.5,
+        473
+      ],
+      "background_min_luminance": 0.6733715328666849,
+      "minimum_contrast_ratio": 9.225528764153108,
+      "median_contrast_ratio": 9.498569182655864,
+      "passed": true
+    },
+    {
+      "key": "D_summary",
+      "text": "“THE CURSE”｜「呪い」",
+      "foreground": "#5a3a1a",
+      "font_size": 64,
+      "bbox": [
+        584.5,
+        588,
+        1335.5,
+        648
+      ],
+      "background_min_luminance": 0.6733715328666849,
+      "minimum_contrast_ratio": 7.0405558105076045,
+      "median_contrast_ratio": 7.3192358964677595,
+      "passed": true
+    }
+  ],
+  "reference_urls": [
+    "https://www.w3.org/WAI/WCAG22/Understanding/contrast-minimum.html",
+    "https://www.w3.org/TR/WCAG22/#dfn-relative-luminance"
+  ]
+}

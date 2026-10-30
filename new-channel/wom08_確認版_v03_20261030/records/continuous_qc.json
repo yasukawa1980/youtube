@@ -1,0 +1,1607 @@
+{
+  "passed": true,
+  "checks": [
+    {
+      "language": "en",
+      "video_sha256": "208612748f6005d20b4262da1801b9829d4ac3f0faba481470b27c99f67eb9c8",
+      "decoded_frames": 10427,
+      "decoded_pixel_formats": [
+        [
+          1920,
+          1080,
+          "yuv420p"
+        ]
+      ],
+      "sps_profile_idc": [
+        "100"
+      ],
+      "decode_warnings": 0,
+      "no_seeking": true,
+      "records": [
+        {
+          "key": "B286",
+          "frames": [
+            0,
+            534,
+            1068
+          ],
+          "triptych": "review/continuous_en_shot_01.jpg",
+          "center": "review/center_en_01.jpg",
+          "source": "Carter & Mace, The Tomb of Tut.ankh.Amen, vol. I (1923) • photo: Harry Burton • MIT Libraries",
+          "label": "EXCAVATION PHOTO｜発掘写真",
+          "source_header_checks": [
+            {
+              "rgb_mean_absolute_error": 4.119960171568628,
+              "glyph_intersection_over_union": 0.9611332240693046
+            },
+            {
+              "rgb_mean_absolute_error": 4.089981617647059,
+              "glyph_intersection_over_union": 0.9634489222118088
+            },
+            {
+              "rgb_mean_absolute_error": 4.090460324754902,
+              "glyph_intersection_over_union": 0.9634489222118088
+            }
+          ]
+        },
+        {
+          "key": "N03",
+          "frames": [
+            1069,
+            1274,
+            1479
+          ],
+          "triptych": "review/continuous_en_shot_02.jpg",
+          "center": "review/center_en_02.jpg",
+          "source": "Morning Register • 1923-04-06 • University of Oregon Libraries",
+          "label": "NEWSPAPER｜新聞",
+          "source_header_checks": [
+            {
+              "rgb_mean_absolute_error": 4.038683363970589,
+              "glyph_intersection_over_union": 0.9655172413793104
+            },
+            {
+              "rgb_mean_absolute_error": 4.039123774509804,
+              "glyph_intersection_over_union": 0.965212084223375
+            },
+            {
+              "rgb_mean_absolute_error": 4.006950827205882,
+              "glyph_intersection_over_union": 0.9628501827040195
+            }
+          ]
+        },
+        {
+          "key": "opening",
+          "frames": [
+            1480,
+            1539,
+            1599
+          ],
+          "triptych": "review/continuous_en_shot_03.jpg",
+          "center": "review/center_en_03.jpg",
+          "source": null,
+          "label": null,
+          "source_header_checks": []
+        },
+        {
+          "key": "B151",
+          "frames": [
+            1600,
+            1804,
+            2009
+          ],
+          "triptych": "review/continuous_en_shot_04.jpg",
+          "center": "review/center_en_04.jpg",
+          "source": "Carter & Mace, The Tomb of Tut.ankh.Amen, vol. I (1923) • photo: Harry Burton • MIT Libraries",
+          "label": "EXCAVATION PHOTO｜発掘写真",
+          "source_header_checks": [
+            {
+              "rgb_mean_absolute_error": 4.115364583333333,
+              "glyph_intersection_over_union": 0.962502929458636
+            },
+            {
+              "rgb_mean_absolute_error": 4.1127719056372545,
+              "glyph_intersection_over_union": 0.9632059995312866
+            },
+            {
+              "rgb_mean_absolute_error": 4.089908854166667,
+              "glyph_intersection_over_union": 0.9632146204311153
+            }
+          ]
+        },
+        {
+          "key": "B157",
+          "frames": [
+            2010,
+            2127,
+            2244
+          ],
+          "triptych": "review/continuous_en_shot_05.jpg",
+          "center": "review/center_en_05.jpg",
+          "source": "Carter & Mace, The Tomb of Tut.ankh.Amen, vol. I (1923) • photo: Harry Burton • MIT Libraries",
+          "label": "EXCAVATION PHOTO｜発掘写真",
+          "source_header_checks": [
+            {
+              "rgb_mean_absolute_error": 4.1182598039215685,
+              "glyph_intersection_over_union": 0.9624941397093296
+            },
+            {
+              "rgb_mean_absolute_error": 4.115238204656863,
+              "glyph_intersection_over_union": 0.9634317862165963
+            },
+            {
+              "rgb_mean_absolute_error": 4.116620710784313,
+              "glyph_intersection_over_union": 0.9634317862165963
+            }
+          ]
+        },
+        {
+          "key": "B170",
+          "frames": [
+            2245,
+            2375,
+            2506
+          ],
+          "triptych": "review/continuous_en_shot_06.jpg",
+          "center": "review/center_en_06.jpg",
+          "source": "Carter & Mace, The Tomb of Tut.ankh.Amen, vol. I (1923) • photo: Harry Burton • MIT Libraries",
+          "label": "EXCAVATION PHOTO｜発掘写真",
+          "source_header_checks": [
+            {
+              "rgb_mean_absolute_error": 4.116727941176471,
+              "glyph_intersection_over_union": 0.9629629629629629
+            },
+            {
+              "rgb_mean_absolute_error": 4.112982536764706,
+              "glyph_intersection_over_union": 0.9632059995312866
+            },
+            {
+              "rgb_mean_absolute_error": 4.0989659926470585,
+              "glyph_intersection_over_union": 0.9629803186504218
+            }
+          ]
+        },
+        {
+          "key": "B164",
+          "frames": [
+            2507,
+            2632,
+            2758
+          ],
+          "triptych": "review/continuous_en_shot_07.jpg",
+          "center": "review/center_en_07.jpg",
+          "source": "Carter & Mace, The Tomb of Tut.ankh.Amen, vol. I (1923) • p. 142 • MIT Libraries",
+          "label": "PRINTED BOOK｜刊本",
+          "source_header_checks": [
+            {
+              "rgb_mean_absolute_error": 4.03491881127451,
+              "glyph_intersection_over_union": 0.9718187100522951
+            },
+            {
+              "rgb_mean_absolute_error": 4.032329963235294,
+              "glyph_intersection_over_union": 0.9706736353077816
+            },
+            {
+              "rgb_mean_absolute_error": 4.046890318627451,
+              "glyph_intersection_over_union": 0.9735388194242512
+            }
+          ]
+        },
+        {
+          "key": "B183",
+          "frames": [
+            2759,
+            2781,
+            2803
+          ],
+          "triptych": "review/continuous_en_shot_08.jpg",
+          "center": "review/center_en_08.jpg",
+          "source": "Carter & Mace, The Tomb of Tut.ankh.Amen, vol. I (1923) • photo: Harry Burton • MIT Libraries",
+          "label": "EXCAVATION PHOTO｜発掘写真",
+          "source_header_checks": [
+            {
+              "rgb_mean_absolute_error": 4.118152573529412,
+              "glyph_intersection_over_union": 0.9624941397093296
+            },
+            {
+              "rgb_mean_absolute_error": 4.114824601715687,
+              "glyph_intersection_over_union": 0.9627285513361463
+            },
+            {
+              "rgb_mean_absolute_error": 4.114824601715687,
+              "glyph_intersection_over_union": 0.9627285513361463
+            }
+          ]
+        },
+        {
+          "key": "C01",
+          "frames": [
+            2804,
+            2864,
+            2925
+          ],
+          "triptych": "review/continuous_en_shot_09.jpg",
+          "center": "review/center_en_09.jpg",
+          "source": "Charles K. Wilkinson, 1923–27 • Tomb of Huy (TT40) • The Met 30.4.21 • CC0",
+          "label": "FACSIMILE｜1923–27年の模写",
+          "source_header_checks": [
+            {
+              "rgb_mean_absolute_error": 4.094374234068628,
+              "glyph_intersection_over_union": 0.9573105656350054
+            },
+            {
+              "rgb_mean_absolute_error": 4.093669577205882,
+              "glyph_intersection_over_union": 0.9572991726714705
+            },
+            {
+              "rgb_mean_absolute_error": 4.097882199754902,
+              "glyph_intersection_over_union": 0.9588785046728971
+            }
+          ]
+        },
+        {
+          "key": "B299",
+          "frames": [
+            2926,
+            3026,
+            3126
+          ],
+          "triptych": "review/continuous_en_shot_10.jpg",
+          "center": "review/center_en_10.jpg",
+          "source": "Carter & Mace, The Tomb of Tut.ankh.Amen, vol. I (1923) • photo: Harry Burton • MIT Libraries",
+          "label": "EXCAVATION PHOTO｜発掘写真",
+          "source_header_checks": [
+            {
+              "rgb_mean_absolute_error": 4.113166360294118,
+              "glyph_intersection_over_union": 0.9627198124267292
+            },
+            {
+              "rgb_mean_absolute_error": 4.112982536764706,
+              "glyph_intersection_over_union": 0.9632059995312866
+            },
+            {
+              "rgb_mean_absolute_error": 4.1129633884803924,
+              "glyph_intersection_over_union": 0.9632059995312866
+            }
+          ]
+        },
+        {
+          "key": "B300",
+          "frames": [
+            3127,
+            3288,
+            3450
+          ],
+          "triptych": "review/continuous_en_shot_11.jpg",
+          "center": "review/center_en_11.jpg",
+          "source": "Carter & Mace, The Tomb of Tut.ankh.Amen, vol. I (1923) • photo: Harry Burton • MIT Libraries",
+          "label": "EXCAVATION PHOTO｜発掘写真",
+          "source_header_checks": [
+            {
+              "rgb_mean_absolute_error": 4.119244025735294,
+              "glyph_intersection_over_union": 0.962971642840403
+            },
+            {
+              "rgb_mean_absolute_error": 4.112982536764706,
+              "glyph_intersection_over_union": 0.9632059995312866
+            },
+            {
+              "rgb_mean_absolute_error": 4.0892003676470585,
+              "glyph_intersection_over_union": 0.9632146204311153
+            }
+          ]
+        },
+        {
+          "key": "B237",
+          "frames": [
+            3451,
+            3502,
+            3553
+          ],
+          "triptych": "review/continuous_en_shot_12.jpg",
+          "center": "review/center_en_12.jpg",
+          "source": "Carter & Mace, The Tomb of Tut.ankh.Amen, vol. I (1923) • photo: Harry Burton • MIT Libraries",
+          "label": "EXCAVATION PHOTO｜発掘写真",
+          "source_header_checks": [
+            {
+              "rgb_mean_absolute_error": 4.116727941176471,
+              "glyph_intersection_over_union": 0.9629629629629629
+            },
+            {
+              "rgb_mean_absolute_error": 4.113074448529412,
+              "glyph_intersection_over_union": 0.9631973745897796
+            },
+            {
+              "rgb_mean_absolute_error": 4.112982536764706,
+              "glyph_intersection_over_union": 0.9632059995312866
+            }
+          ]
+        },
+        {
+          "key": "B241",
+          "frames": [
+            3554,
+            3768,
+            3982
+          ],
+          "triptych": "review/continuous_en_shot_13.jpg",
+          "center": "review/center_en_13.jpg",
+          "source": "Carter & Mace, The Tomb of Tut.ankh.Amen, vol. I (1923) • p. 201 • MIT Libraries",
+          "label": "PRINTED BOOK｜刊本",
+          "source_header_checks": [
+            {
+              "rgb_mean_absolute_error": 4.033716299019608,
+              "glyph_intersection_over_union": 0.9712793733681462
+            },
+            {
+              "rgb_mean_absolute_error": 4.031514246323529,
+              "glyph_intersection_over_union": 0.9715694807078619
+            },
+            {
+              "rgb_mean_absolute_error": 4.003940716911765,
+              "glyph_intersection_over_union": 0.970707656612529
+            }
+          ]
+        },
+        {
+          "key": "D_illness",
+          "frames": [
+            3983,
+            4172,
+            4361
+          ],
+          "triptych": "review/continuous_en_shot_14.jpg",
+          "center": "review/center_en_14.jpg",
+          "source": "",
+          "label": "SCHEMATIC｜模式図",
+          "source_header_checks": [
+            {
+              "rgb_mean_absolute_error": 3.9766620710784313,
+              "glyph_intersection_over_union": 0.9652421652421652
+            },
+            {
+              "rgb_mean_absolute_error": 3.976516544117647,
+              "glyph_intersection_over_union": 0.9652421652421652
+            },
+            {
+              "rgb_mean_absolute_error": 3.9746476715686274,
+              "glyph_intersection_over_union": 0.9646723646723647
+            }
+          ]
+        },
+        {
+          "key": "N01",
+          "frames": [
+            4362,
+            4532,
+            4702
+          ],
+          "triptych": "review/continuous_en_shot_15.jpg",
+          "center": "review/center_en_15.jpg",
+          "source": "The Albany Democrat • 1923-04-05 • University of Oregon Libraries",
+          "label": "NEWSPAPER｜新聞",
+          "source_header_checks": [
+            {
+              "rgb_mean_absolute_error": 4.035669424019608,
+              "glyph_intersection_over_union": 0.9693140794223827
+            },
+            {
+              "rgb_mean_absolute_error": 4.0316865808823525,
+              "glyph_intersection_over_union": 0.9699248120300752
+            },
+            {
+              "rgb_mean_absolute_error": 4.008612898284314,
+              "glyph_intersection_over_union": 0.9681586061880445
+            }
+          ]
+        },
+        {
+          "key": "N02",
+          "frames": [
+            4703,
+            4897,
+            5092
+          ],
+          "triptych": "review/continuous_en_shot_16.jpg",
+          "center": "review/center_en_16.jpg",
+          "source": "The Eugene Daily Guard • 1923-04-06 • University of Oregon Libraries",
+          "label": "NEWSPAPER｜新聞",
+          "source_header_checks": [
+            {
+              "rgb_mean_absolute_error": 4.0468979779411764,
+              "glyph_intersection_over_union": 0.9619186046511627
+            },
+            {
+              "rgb_mean_absolute_error": 4.041586243872549,
+              "glyph_intersection_over_union": 0.9630384167636787
+            },
+            {
+              "rgb_mean_absolute_error": 4.013652726715686,
+              "glyph_intersection_over_union": 0.9613596746077862
+            }
+          ]
+        },
+        {
+          "key": "B313",
+          "frames": [
+            5093,
+            5235,
+            5377
+          ],
+          "triptych": "review/continuous_en_shot_17.jpg",
+          "center": "review/center_en_17.jpg",
+          "source": "Carter & Mace, The Tomb of Tut.ankh.Amen, vol. I (1923) • photo: Harry Burton • MIT Libraries",
+          "label": "EXCAVATION PHOTO｜発掘写真",
+          "source_header_checks": [
+            {
+              "rgb_mean_absolute_error": 4.1167202818627455,
+              "glyph_intersection_over_union": 0.9629629629629629
+            },
+            {
+              "rgb_mean_absolute_error": 4.1130361519607845,
+              "glyph_intersection_over_union": 0.9632059995312866
+            },
+            {
+              "rgb_mean_absolute_error": 4.091930912990196,
+              "glyph_intersection_over_union": 0.9616104868913857
+            }
+          ]
+        },
+        {
+          "key": "C02",
+          "frames": [
+            5378,
+            5456,
+            5535
+          ],
+          "triptych": "review/continuous_en_shot_18.jpg",
+          "center": "review/center_en_18.jpg",
+          "source": "Signet ring, ca. 1328–1318 BCE • The Met 22.9.3 • CC0",
+          "label": "PERIOD OBJECT｜同時代の品",
+          "source_header_checks": [
+            {
+              "rgb_mean_absolute_error": 4.085623468137255,
+              "glyph_intersection_over_union": 0.9585239402256786
+            },
+            {
+              "rgb_mean_absolute_error": 4.083425245098039,
+              "glyph_intersection_over_union": 0.9591338822811832
+            },
+            {
+              "rgb_mean_absolute_error": 4.081123621323529,
+              "glyph_intersection_over_union": 0.9606467358145211
+            }
+          ]
+        },
+        {
+          "key": "B312",
+          "frames": [
+            5536,
+            5673,
+            5811
+          ],
+          "triptych": "review/continuous_en_shot_19.jpg",
+          "center": "review/center_en_19.jpg",
+          "source": "Carter & Mace, The Tomb of Tut.ankh.Amen, vol. I (1923) • p. 258 • MIT Libraries",
+          "label": "PRINTED BOOK｜刊本",
+          "source_header_checks": [
+            {
+              "rgb_mean_absolute_error": 4.044669117647059,
+              "glyph_intersection_over_union": 0.9719815135759676
+            },
+            {
+              "rgb_mean_absolute_error": 4.034344362745098,
+              "glyph_intersection_over_union": 0.9719976905311778
+            },
+            {
+              "rgb_mean_absolute_error": 4.010412837009804,
+              "glyph_intersection_over_union": 0.9688581314878892
+            }
+          ]
+        },
+        {
+          "key": "D_novels_1869",
+          "frames": [
+            5812,
+            6128,
+            6445
+          ],
+          "triptych": "review/continuous_en_shot_20.jpg",
+          "center": "review/center_en_20.jpg",
+          "source": "",
+          "label": "TITLE CARD｜文字カード",
+          "source_header_checks": [
+            {
+              "rgb_mean_absolute_error": 4.020994178921568,
+              "glyph_intersection_over_union": 0.9659318637274549
+            },
+            {
+              "rgb_mean_absolute_error": 3.9958295036764704,
+              "glyph_intersection_over_union": 0.9646666666666667
+            },
+            {
+              "rgb_mean_absolute_error": 3.9953699448529414,
+              "glyph_intersection_over_union": 0.9646666666666667
+            }
+          ]
+        },
+        {
+          "key": "D_novels_1892",
+          "frames": [
+            6446,
+            6608,
+            6771
+          ],
+          "triptych": "review/continuous_en_shot_21.jpg",
+          "center": "review/center_en_21.jpg",
+          "source": "",
+          "label": "TITLE CARD｜文字カード",
+          "source_header_checks": [
+            {
+              "rgb_mean_absolute_error": 4.17015931372549,
+              "glyph_intersection_over_union": 0.9649883294431477
+            },
+            {
+              "rgb_mean_absolute_error": 4.022748161764706,
+              "glyph_intersection_over_union": 0.9649766511007338
+            },
+            {
+              "rgb_mean_absolute_error": 3.995580575980392,
+              "glyph_intersection_over_union": 0.9646666666666667
+            }
+          ]
+        },
+        {
+          "key": "D_warning",
+          "frames": [
+            6772,
+            6824,
+            6877
+          ],
+          "triptych": "review/continuous_en_shot_22.jpg",
+          "center": "review/center_en_22.jpg",
+          "source": "",
+          "label": "SCHEMATIC｜模式図",
+          "source_header_checks": [
+            {
+              "rgb_mean_absolute_error": 3.9758386948529414,
+              "glyph_intersection_over_union": 0.9669540229885057
+            },
+            {
+              "rgb_mean_absolute_error": 3.9758386948529414,
+              "glyph_intersection_over_union": 0.9669540229885057
+            },
+            {
+              "rgb_mean_absolute_error": 3.9758386948529414,
+              "glyph_intersection_over_union": 0.9669540229885057
+            }
+          ]
+        },
+        {
+          "key": "C03",
+          "frames": [
+            6878,
+            7195,
+            7513
+          ],
+          "triptych": "review/continuous_en_shot_23.jpg",
+          "center": "review/center_en_23.jpg",
+          "source": "Mastaba of Perneb, ca. 2381–2323 BCE • The Met 13.183.3 • CC0",
+          "label": "TOMB CHAPEL, 5TH DYNASTY｜第5王朝の礼拝室",
+          "source_header_checks": [
+            {
+              "rgb_mean_absolute_error": 4.221966911764706,
+              "glyph_intersection_over_union": 0.9669755286291281
+            },
+            {
+              "rgb_mean_absolute_error": 4.179484528186275,
+              "glyph_intersection_over_union": 0.9665162669199715
+            },
+            {
+              "rgb_mean_absolute_error": 4.178714767156863,
+              "glyph_intersection_over_union": 0.9667695229052932
+            }
+          ]
+        },
+        {
+          "key": "B246",
+          "frames": [
+            7514,
+            7664,
+            7814
+          ],
+          "triptych": "review/continuous_en_shot_24.jpg",
+          "center": "review/center_en_24.jpg",
+          "source": "Carter & Mace, The Tomb of Tut.ankh.Amen, vol. I (1923) • photo: Harry Burton • MIT Libraries",
+          "label": "EXCAVATION PHOTO｜発掘写真",
+          "source_header_checks": [
+            {
+              "rgb_mean_absolute_error": 4.116570925245098,
+              "glyph_intersection_over_union": 0.9629629629629629
+            },
+            {
+              "rgb_mean_absolute_error": 4.1128293504901965,
+              "glyph_intersection_over_union": 0.9632059995312866
+            },
+            {
+              "rgb_mean_absolute_error": 4.107632506127451,
+              "glyph_intersection_over_union": 0.9646452821353313
+            }
+          ]
+        },
+        {
+          "key": "D_bmj",
+          "frames": [
+            7815,
+            8149,
+            8483
+          ],
+          "triptych": "review/continuous_en_shot_25.jpg",
+          "center": "review/center_en_25.jpg",
+          "source": "",
+          "label": "SCHEMATIC｜模式図",
+          "source_header_checks": [
+            {
+              "rgb_mean_absolute_error": 3.9812270220588237,
+              "glyph_intersection_over_union": 0.9629746835443038
+            },
+            {
+              "rgb_mean_absolute_error": 3.9693895526960783,
+              "glyph_intersection_over_union": 0.961051298290057
+            },
+            {
+              "rgb_mean_absolute_error": 3.9707069546568627,
+              "glyph_intersection_over_union": 0.9613924050632912
+            }
+          ]
+        },
+        {
+          "key": "D_summary",
+          "frames": [
+            8484,
+            8634,
+            8784
+          ],
+          "triptych": "review/continuous_en_shot_26.jpg",
+          "center": "review/center_en_26.jpg",
+          "source": "",
+          "label": "SCHEMATIC｜模式図",
+          "source_header_checks": [
+            {
+              "rgb_mean_absolute_error": 3.9780598958333333,
+              "glyph_intersection_over_union": 0.9650954653937948
+            },
+            {
+              "rgb_mean_absolute_error": 3.9740157781862746,
+              "glyph_intersection_over_union": 0.9674626865671642
+            },
+            {
+              "rgb_mean_absolute_error": 3.976773131127451,
+              "glyph_intersection_over_union": 0.9697966507177034
+            }
+          ]
+        },
+        {
+          "key": "C04",
+          "frames": [
+            8785,
+            8953,
+            9122
+          ],
+          "triptych": "review/continuous_en_shot_27.jpg",
+          "center": "review/center_en_27.jpg",
+          "source": "Necklace with Tutankhamun bead, ca. 1328–1318 BCE • The Met 66.99.163 • CC0",
+          "label": "PERIOD OBJECT｜同時代の品",
+          "source_header_checks": [
+            {
+              "rgb_mean_absolute_error": 4.103477328431373,
+              "glyph_intersection_over_union": 0.9598191863385234
+            },
+            {
+              "rgb_mean_absolute_error": 4.099877450980392,
+              "glyph_intersection_over_union": 0.9598191863385234
+            },
+            {
+              "rgb_mean_absolute_error": 4.075689338235295,
+              "glyph_intersection_over_union": 0.9605824755209641
+            }
+          ]
+        },
+        {
+          "key": "V01",
+          "frames": [
+            9123,
+            9241,
+            9359
+          ],
+          "triptych": "review/continuous_en_shot_28.jpg",
+          "center": "review/center_en_28.jpg",
+          "source": "",
+          "label": "AI IMAGE｜AI映像",
+          "source_header_checks": [
+            {
+              "rgb_mean_absolute_error": 3.9813610600490197,
+              "glyph_intersection_over_union": 0.968804920913884
+            },
+            {
+              "rgb_mean_absolute_error": 3.9809436274509804,
+              "glyph_intersection_over_union": 0.968804920913884
+            },
+            {
+              "rgb_mean_absolute_error": 3.9809436274509804,
+              "glyph_intersection_over_union": 0.968804920913884
+            }
+          ]
+        },
+        {
+          "key": "credits",
+          "frames": [
+            9360,
+            9743,
+            10126
+          ],
+          "triptych": "review/continuous_en_shot_29.jpg",
+          "center": "review/center_en_29.jpg",
+          "source": "",
+          "label": "",
+          "source_header_checks": [
+            {
+              "rgb_mean_absolute_error": 3.8036305147058824,
+              "glyph_intersection_over_union": 0.9663299663299664
+            },
+            {
+              "rgb_mean_absolute_error": 3.8036305147058824,
+              "glyph_intersection_over_union": 0.9663299663299664
+            },
+            {
+              "rgb_mean_absolute_error": 3.8036305147058824,
+              "glyph_intersection_over_union": 0.9663299663299664
+            }
+          ]
+        },
+        {
+          "key": "endcard",
+          "frames": [
+            10127,
+            10276,
+            10426
+          ],
+          "triptych": "review/continuous_en_shot_30.jpg",
+          "center": "review/center_en_30.jpg",
+          "source": null,
+          "label": null,
+          "source_header_checks": []
+        }
+      ]
+    },
+    {
+      "language": "ja",
+      "video_sha256": "9e2687e3ae3763f86d0d06a72e01081e4e07e4b4925f625d8db5516eb57fdc58",
+      "decoded_frames": 10427,
+      "decoded_pixel_formats": [
+        [
+          1920,
+          1080,
+          "yuv420p"
+        ]
+      ],
+      "sps_profile_idc": [
+        "100"
+      ],
+      "decode_warnings": 0,
+      "no_seeking": true,
+      "records": [
+        {
+          "key": "B286",
+          "frames": [
+            0,
+            534,
+            1068
+          ],
+          "triptych": "review/continuous_ja_shot_01.jpg",
+          "center": "review/center_ja_01.jpg",
+          "source": "Carter & Mace, The Tomb of Tut.ankh.Amen, vol. I (1923) • photo: Harry Burton • MIT Libraries",
+          "label": "EXCAVATION PHOTO｜発掘写真",
+          "source_header_checks": [
+            {
+              "rgb_mean_absolute_error": 4.119960171568628,
+              "glyph_intersection_over_union": 0.9611332240693046
+            },
+            {
+              "rgb_mean_absolute_error": 4.089981617647059,
+              "glyph_intersection_over_union": 0.9634489222118088
+            },
+            {
+              "rgb_mean_absolute_error": 4.090460324754902,
+              "glyph_intersection_over_union": 0.9634489222118088
+            }
+          ]
+        },
+        {
+          "key": "N03",
+          "frames": [
+            1069,
+            1274,
+            1479
+          ],
+          "triptych": "review/continuous_ja_shot_02.jpg",
+          "center": "review/center_ja_02.jpg",
+          "source": "Morning Register • 1923-04-06 • University of Oregon Libraries",
+          "label": "NEWSPAPER｜新聞",
+          "source_header_checks": [
+            {
+              "rgb_mean_absolute_error": 4.038683363970589,
+              "glyph_intersection_over_union": 0.9655172413793104
+            },
+            {
+              "rgb_mean_absolute_error": 4.039123774509804,
+              "glyph_intersection_over_union": 0.965212084223375
+            },
+            {
+              "rgb_mean_absolute_error": 4.006950827205882,
+              "glyph_intersection_over_union": 0.9628501827040195
+            }
+          ]
+        },
+        {
+          "key": "opening",
+          "frames": [
+            1480,
+            1539,
+            1599
+          ],
+          "triptych": "review/continuous_ja_shot_03.jpg",
+          "center": "review/center_ja_03.jpg",
+          "source": null,
+          "label": null,
+          "source_header_checks": []
+        },
+        {
+          "key": "B151",
+          "frames": [
+            1600,
+            1804,
+            2009
+          ],
+          "triptych": "review/continuous_ja_shot_04.jpg",
+          "center": "review/center_ja_04.jpg",
+          "source": "Carter & Mace, The Tomb of Tut.ankh.Amen, vol. I (1923) • photo: Harry Burton • MIT Libraries",
+          "label": "EXCAVATION PHOTO｜発掘写真",
+          "source_header_checks": [
+            {
+              "rgb_mean_absolute_error": 4.115364583333333,
+              "glyph_intersection_over_union": 0.962502929458636
+            },
+            {
+              "rgb_mean_absolute_error": 4.1127719056372545,
+              "glyph_intersection_over_union": 0.9632059995312866
+            },
+            {
+              "rgb_mean_absolute_error": 4.089908854166667,
+              "glyph_intersection_over_union": 0.9632146204311153
+            }
+          ]
+        },
+        {
+          "key": "B157",
+          "frames": [
+            2010,
+            2127,
+            2244
+          ],
+          "triptych": "review/continuous_ja_shot_05.jpg",
+          "center": "review/center_ja_05.jpg",
+          "source": "Carter & Mace, The Tomb of Tut.ankh.Amen, vol. I (1923) • photo: Harry Burton • MIT Libraries",
+          "label": "EXCAVATION PHOTO｜発掘写真",
+          "source_header_checks": [
+            {
+              "rgb_mean_absolute_error": 4.1182598039215685,
+              "glyph_intersection_over_union": 0.9624941397093296
+            },
+            {
+              "rgb_mean_absolute_error": 4.115238204656863,
+              "glyph_intersection_over_union": 0.9634317862165963
+            },
+            {
+              "rgb_mean_absolute_error": 4.116620710784313,
+              "glyph_intersection_over_union": 0.9634317862165963
+            }
+          ]
+        },
+        {
+          "key": "B170",
+          "frames": [
+            2245,
+            2375,
+            2506
+          ],
+          "triptych": "review/continuous_ja_shot_06.jpg",
+          "center": "review/center_ja_06.jpg",
+          "source": "Carter & Mace, The Tomb of Tut.ankh.Amen, vol. I (1923) • photo: Harry Burton • MIT Libraries",
+          "label": "EXCAVATION PHOTO｜発掘写真",
+          "source_header_checks": [
+            {
+              "rgb_mean_absolute_error": 4.116727941176471,
+              "glyph_intersection_over_union": 0.9629629629629629
+            },
+            {
+              "rgb_mean_absolute_error": 4.112982536764706,
+              "glyph_intersection_over_union": 0.9632059995312866
+            },
+            {
+              "rgb_mean_absolute_error": 4.0989659926470585,
+              "glyph_intersection_over_union": 0.9629803186504218
+            }
+          ]
+        },
+        {
+          "key": "B164",
+          "frames": [
+            2507,
+            2632,
+            2758
+          ],
+          "triptych": "review/continuous_ja_shot_07.jpg",
+          "center": "review/center_ja_07.jpg",
+          "source": "Carter & Mace, The Tomb of Tut.ankh.Amen, vol. I (1923) • p. 142 • MIT Libraries",
+          "label": "PRINTED BOOK｜刊本",
+          "source_header_checks": [
+            {
+              "rgb_mean_absolute_error": 4.03491881127451,
+              "glyph_intersection_over_union": 0.9718187100522951
+            },
+            {
+              "rgb_mean_absolute_error": 4.032329963235294,
+              "glyph_intersection_over_union": 0.9706736353077816
+            },
+            {
+              "rgb_mean_absolute_error": 4.046890318627451,
+              "glyph_intersection_over_union": 0.9735388194242512
+            }
+          ]
+        },
+        {
+          "key": "B183",
+          "frames": [
+            2759,
+            2781,
+            2803
+          ],
+          "triptych": "review/continuous_ja_shot_08.jpg",
+          "center": "review/center_ja_08.jpg",
+          "source": "Carter & Mace, The Tomb of Tut.ankh.Amen, vol. I (1923) • photo: Harry Burton • MIT Libraries",
+          "label": "EXCAVATION PHOTO｜発掘写真",
+          "source_header_checks": [
+            {
+              "rgb_mean_absolute_error": 4.118152573529412,
+              "glyph_intersection_over_union": 0.9624941397093296
+            },
+            {
+              "rgb_mean_absolute_error": 4.114824601715687,
+              "glyph_intersection_over_union": 0.9627285513361463
+            },
+            {
+              "rgb_mean_absolute_error": 4.114824601715687,
+              "glyph_intersection_over_union": 0.9627285513361463
+            }
+          ]
+        },
+        {
+          "key": "C01",
+          "frames": [
+            2804,
+            2864,
+            2925
+          ],
+          "triptych": "review/continuous_ja_shot_09.jpg",
+          "center": "review/center_ja_09.jpg",
+          "source": "Charles K. Wilkinson, 1923–27 • Tomb of Huy (TT40) • The Met 30.4.21 • CC0",
+          "label": "FACSIMILE｜1923–27年の模写",
+          "source_header_checks": [
+            {
+              "rgb_mean_absolute_error": 4.094374234068628,
+              "glyph_intersection_over_union": 0.9573105656350054
+            },
+            {
+              "rgb_mean_absolute_error": 4.093669577205882,
+              "glyph_intersection_over_union": 0.9572991726714705
+            },
+            {
+              "rgb_mean_absolute_error": 4.097882199754902,
+              "glyph_intersection_over_union": 0.9588785046728971
+            }
+          ]
+        },
+        {
+          "key": "B299",
+          "frames": [
+            2926,
+            3026,
+            3126
+          ],
+          "triptych": "review/continuous_ja_shot_10.jpg",
+          "center": "review/center_ja_10.jpg",
+          "source": "Carter & Mace, The Tomb of Tut.ankh.Amen, vol. I (1923) • photo: Harry Burton • MIT Libraries",
+          "label": "EXCAVATION PHOTO｜発掘写真",
+          "source_header_checks": [
+            {
+              "rgb_mean_absolute_error": 4.113166360294118,
+              "glyph_intersection_over_union": 0.9627198124267292
+            },
+            {
+              "rgb_mean_absolute_error": 4.112982536764706,
+              "glyph_intersection_over_union": 0.9632059995312866
+            },
+            {
+              "rgb_mean_absolute_error": 4.1129633884803924,
+              "glyph_intersection_over_union": 0.9632059995312866
+            }
+          ]
+        },
+        {
+          "key": "B300",
+          "frames": [
+            3127,
+            3288,
+            3450
+          ],
+          "triptych": "review/continuous_ja_shot_11.jpg",
+          "center": "review/center_ja_11.jpg",
+          "source": "Carter & Mace, The Tomb of Tut.ankh.Amen, vol. I (1923) • photo: Harry Burton • MIT Libraries",
+          "label": "EXCAVATION PHOTO｜発掘写真",
+          "source_header_checks": [
+            {
+              "rgb_mean_absolute_error": 4.119244025735294,
+              "glyph_intersection_over_union": 0.962971642840403
+            },
+            {
+              "rgb_mean_absolute_error": 4.112982536764706,
+              "glyph_intersection_over_union": 0.9632059995312866
+            },
+            {
+              "rgb_mean_absolute_error": 4.0892003676470585,
+              "glyph_intersection_over_union": 0.9632146204311153
+            }
+          ]
+        },
+        {
+          "key": "B237",
+          "frames": [
+            3451,
+            3502,
+            3553
+          ],
+          "triptych": "review/continuous_ja_shot_12.jpg",
+          "center": "review/center_ja_12.jpg",
+          "source": "Carter & Mace, The Tomb of Tut.ankh.Amen, vol. I (1923) • photo: Harry Burton • MIT Libraries",
+          "label": "EXCAVATION PHOTO｜発掘写真",
+          "source_header_checks": [
+            {
+              "rgb_mean_absolute_error": 4.116727941176471,
+              "glyph_intersection_over_union": 0.9629629629629629
+            },
+            {
+              "rgb_mean_absolute_error": 4.113074448529412,
+              "glyph_intersection_over_union": 0.9631973745897796
+            },
+            {
+              "rgb_mean_absolute_error": 4.112982536764706,
+              "glyph_intersection_over_union": 0.9632059995312866
+            }
+          ]
+        },
+        {
+          "key": "B241",
+          "frames": [
+            3554,
+            3768,
+            3982
+          ],
+          "triptych": "review/continuous_ja_shot_13.jpg",
+          "center": "review/center_ja_13.jpg",
+          "source": "Carter & Mace, The Tomb of Tut.ankh.Amen, vol. I (1923) • p. 201 • MIT Libraries",
+          "label": "PRINTED BOOK｜刊本",
+          "source_header_checks": [
+            {
+              "rgb_mean_absolute_error": 4.033716299019608,
+              "glyph_intersection_over_union": 0.9712793733681462
+            },
+            {
+              "rgb_mean_absolute_error": 4.031514246323529,
+              "glyph_intersection_over_union": 0.9715694807078619
+            },
+            {
+              "rgb_mean_absolute_error": 4.003940716911765,
+              "glyph_intersection_over_union": 0.970707656612529
+            }
+          ]
+        },
+        {
+          "key": "D_illness",
+          "frames": [
+            3983,
+            4172,
+            4361
+          ],
+          "triptych": "review/continuous_ja_shot_14.jpg",
+          "center": "review/center_ja_14.jpg",
+          "source": "",
+          "label": "SCHEMATIC｜模式図",
+          "source_header_checks": [
+            {
+              "rgb_mean_absolute_error": 3.9766620710784313,
+              "glyph_intersection_over_union": 0.9652421652421652
+            },
+            {
+              "rgb_mean_absolute_error": 3.976516544117647,
+              "glyph_intersection_over_union": 0.9652421652421652
+            },
+            {
+              "rgb_mean_absolute_error": 3.9746476715686274,
+              "glyph_intersection_over_union": 0.9646723646723647
+            }
+          ]
+        },
+        {
+          "key": "N01",
+          "frames": [
+            4362,
+            4532,
+            4702
+          ],
+          "triptych": "review/continuous_ja_shot_15.jpg",
+          "center": "review/center_ja_15.jpg",
+          "source": "The Albany Democrat • 1923-04-05 • University of Oregon Libraries",
+          "label": "NEWSPAPER｜新聞",
+          "source_header_checks": [
+            {
+              "rgb_mean_absolute_error": 4.035669424019608,
+              "glyph_intersection_over_union": 0.9693140794223827
+            },
+            {
+              "rgb_mean_absolute_error": 4.0316865808823525,
+              "glyph_intersection_over_union": 0.9699248120300752
+            },
+            {
+              "rgb_mean_absolute_error": 4.008612898284314,
+              "glyph_intersection_over_union": 0.9681586061880445
+            }
+          ]
+        },
+        {
+          "key": "N02",
+          "frames": [
+            4703,
+            4897,
+            5092
+          ],
+          "triptych": "review/continuous_ja_shot_16.jpg",
+          "center": "review/center_ja_16.jpg",
+          "source": "The Eugene Daily Guard • 1923-04-06 • University of Oregon Libraries",
+          "label": "NEWSPAPER｜新聞",
+          "source_header_checks": [
+            {
+              "rgb_mean_absolute_error": 4.0468979779411764,
+              "glyph_intersection_over_union": 0.9619186046511627
+            },
+            {
+              "rgb_mean_absolute_error": 4.041586243872549,
+              "glyph_intersection_over_union": 0.9630384167636787
+            },
+            {
+              "rgb_mean_absolute_error": 4.013652726715686,
+              "glyph_intersection_over_union": 0.9613596746077862
+            }
+          ]
+        },
+        {
+          "key": "B313",
+          "frames": [
+            5093,
+            5235,
+            5377
+          ],
+          "triptych": "review/continuous_ja_shot_17.jpg",
+          "center": "review/center_ja_17.jpg",
+          "source": "Carter & Mace, The Tomb of Tut.ankh.Amen, vol. I (1923) • photo: Harry Burton • MIT Libraries",
+          "label": "EXCAVATION PHOTO｜発掘写真",
+          "source_header_checks": [
+            {
+              "rgb_mean_absolute_error": 4.1167202818627455,
+              "glyph_intersection_over_union": 0.9629629629629629
+            },
+            {
+              "rgb_mean_absolute_error": 4.1130361519607845,
+              "glyph_intersection_over_union": 0.9632059995312866
+            },
+            {
+              "rgb_mean_absolute_error": 4.091930912990196,
+              "glyph_intersection_over_union": 0.9616104868913857
+            }
+          ]
+        },
+        {
+          "key": "C02",
+          "frames": [
+            5378,
+            5456,
+            5535
+          ],
+          "triptych": "review/continuous_ja_shot_18.jpg",
+          "center": "review/center_ja_18.jpg",
+          "source": "Signet ring, ca. 1328–1318 BCE • The Met 22.9.3 • CC0",
+          "label": "PERIOD OBJECT｜同時代の品",
+          "source_header_checks": [
+            {
+              "rgb_mean_absolute_error": 4.085623468137255,
+              "glyph_intersection_over_union": 0.9585239402256786
+            },
+            {
+              "rgb_mean_absolute_error": 4.083425245098039,
+              "glyph_intersection_over_union": 0.9591338822811832
+            },
+            {
+              "rgb_mean_absolute_error": 4.081123621323529,
+              "glyph_intersection_over_union": 0.9606467358145211
+            }
+          ]
+        },
+        {
+          "key": "B312",
+          "frames": [
+            5536,
+            5673,
+            5811
+          ],
+          "triptych": "review/continuous_ja_shot_19.jpg",
+          "center": "review/center_ja_19.jpg",
+          "source": "Carter & Mace, The Tomb of Tut.ankh.Amen, vol. I (1923) • p. 258 • MIT Libraries",
+          "label": "PRINTED BOOK｜刊本",
+          "source_header_checks": [
+            {
+              "rgb_mean_absolute_error": 4.044669117647059,
+              "glyph_intersection_over_union": 0.9719815135759676
+            },
+            {
+              "rgb_mean_absolute_error": 4.034344362745098,
+              "glyph_intersection_over_union": 0.9719976905311778
+            },
+            {
+              "rgb_mean_absolute_error": 4.010412837009804,
+              "glyph_intersection_over_union": 0.9688581314878892
+            }
+          ]
+        },
+        {
+          "key": "D_novels_1869",
+          "frames": [
+            5812,
+            6128,
+            6445
+          ],
+          "triptych": "review/continuous_ja_shot_20.jpg",
+          "center": "review/center_ja_20.jpg",
+          "source": "",
+          "label": "TITLE CARD｜文字カード",
+          "source_header_checks": [
+            {
+              "rgb_mean_absolute_error": 4.020994178921568,
+              "glyph_intersection_over_union": 0.9659318637274549
+            },
+            {
+              "rgb_mean_absolute_error": 3.9958295036764704,
+              "glyph_intersection_over_union": 0.9646666666666667
+            },
+            {
+              "rgb_mean_absolute_error": 3.9953699448529414,
+              "glyph_intersection_over_union": 0.9646666666666667
+            }
+          ]
+        },
+        {
+          "key": "D_novels_1892",
+          "frames": [
+            6446,
+            6608,
+            6771
+          ],
+          "triptych": "review/continuous_ja_shot_21.jpg",
+          "center": "review/center_ja_21.jpg",
+          "source": "",
+          "label": "TITLE CARD｜文字カード",
+          "source_header_checks": [
+            {
+              "rgb_mean_absolute_error": 4.17015931372549,
+              "glyph_intersection_over_union": 0.9649883294431477
+            },
+            {
+              "rgb_mean_absolute_error": 4.022748161764706,
+              "glyph_intersection_over_union": 0.9649766511007338
+            },
+            {
+              "rgb_mean_absolute_error": 3.995580575980392,
+              "glyph_intersection_over_union": 0.9646666666666667
+            }
+          ]
+        },
+        {
+          "key": "D_warning",
+          "frames": [
+            6772,
+            6824,
+            6877
+          ],
+          "triptych": "review/continuous_ja_shot_22.jpg",
+          "center": "review/center_ja_22.jpg",
+          "source": "",
+          "label": "SCHEMATIC｜模式図",
+          "source_header_checks": [
+            {
+              "rgb_mean_absolute_error": 3.9758386948529414,
+              "glyph_intersection_over_union": 0.9669540229885057
+            },
+            {
+              "rgb_mean_absolute_error": 3.9758386948529414,
+              "glyph_intersection_over_union": 0.9669540229885057
+            },
+            {
+              "rgb_mean_absolute_error": 3.9758386948529414,
+              "glyph_intersection_over_union": 0.9669540229885057
+            }
+          ]
+        },
+        {
+          "key": "C03",
+          "frames": [
+            6878,
+            7195,
+            7513
+          ],
+          "triptych": "review/continuous_ja_shot_23.jpg",
+          "center": "review/center_ja_23.jpg",
+          "source": "Mastaba of Perneb, ca. 2381–2323 BCE • The Met 13.183.3 • CC0",
+          "label": "TOMB CHAPEL, 5TH DYNASTY｜第5王朝の礼拝室",
+          "source_header_checks": [
+            {
+              "rgb_mean_absolute_error": 4.221966911764706,
+              "glyph_intersection_over_union": 0.9669755286291281
+            },
+            {
+              "rgb_mean_absolute_error": 4.179484528186275,
+              "glyph_intersection_over_union": 0.9665162669199715
+            },
+            {
+              "rgb_mean_absolute_error": 4.178714767156863,
+              "glyph_intersection_over_union": 0.9667695229052932
+            }
+          ]
+        },
+        {
+          "key": "B246",
+          "frames": [
+            7514,
+            7664,
+            7814
+          ],
+          "triptych": "review/continuous_ja_shot_24.jpg",
+          "center": "review/center_ja_24.jpg",
+          "source": "Carter & Mace, The Tomb of Tut.ankh.Amen, vol. I (1923) • photo: Harry Burton • MIT Libraries",
+          "label": "EXCAVATION PHOTO｜発掘写真",
+          "source_header_checks": [
+            {
+              "rgb_mean_absolute_error": 4.116570925245098,
+              "glyph_intersection_over_union": 0.9629629629629629
+            },
+            {
+              "rgb_mean_absolute_error": 4.1128293504901965,
+              "glyph_intersection_over_union": 0.9632059995312866
+            },
+            {
+              "rgb_mean_absolute_error": 4.107632506127451,
+              "glyph_intersection_over_union": 0.9646452821353313
+            }
+          ]
+        },
+        {
+          "key": "D_bmj",
+          "frames": [
+            7815,
+            8149,
+            8483
+          ],
+          "triptych": "review/continuous_ja_shot_25.jpg",
+          "center": "review/center_ja_25.jpg",
+          "source": "",
+          "label": "SCHEMATIC｜模式図",
+          "source_header_checks": [
+            {
+              "rgb_mean_absolute_error": 3.9812270220588237,
+              "glyph_intersection_over_union": 0.9629746835443038
+            },
+            {
+              "rgb_mean_absolute_error": 3.9693895526960783,
+              "glyph_intersection_over_union": 0.961051298290057
+            },
+            {
+              "rgb_mean_absolute_error": 3.9707069546568627,
+              "glyph_intersection_over_union": 0.9613924050632912
+            }
+          ]
+        },
+        {
+          "key": "D_summary",
+          "frames": [
+            8484,
+            8634,
+            8784
+          ],
+          "triptych": "review/continuous_ja_shot_26.jpg",
+          "center": "review/center_ja_26.jpg",
+          "source": "",
+          "label": "SCHEMATIC｜模式図",
+          "source_header_checks": [
+            {
+              "rgb_mean_absolute_error": 3.9780598958333333,
+              "glyph_intersection_over_union": 0.9650954653937948
+            },
+            {
+              "rgb_mean_absolute_error": 3.9740157781862746,
+              "glyph_intersection_over_union": 0.9674626865671642
+            },
+            {
+              "rgb_mean_absolute_error": 3.976773131127451,
+              "glyph_intersection_over_union": 0.9697966507177034
+            }
+          ]
+        },
+        {
+          "key": "C04",
+          "frames": [
+            8785,
+            8953,
+            9122
+          ],
+          "triptych": "review/continuous_ja_shot_27.jpg",
+          "center": "review/center_ja_27.jpg",
+          "source": "Necklace with Tutankhamun bead, ca. 1328–1318 BCE • The Met 66.99.163 • CC0",
+          "label": "PERIOD OBJECT｜同時代の品",
+          "source_header_checks": [
+            {
+              "rgb_mean_absolute_error": 4.103477328431373,
+              "glyph_intersection_over_union": 0.9598191863385234
+            },
+            {
+              "rgb_mean_absolute_error": 4.099877450980392,
+              "glyph_intersection_over_union": 0.9598191863385234
+            },
+            {
+              "rgb_mean_absolute_error": 4.075689338235295,
+              "glyph_intersection_over_union": 0.9605824755209641
+            }
+          ]
+        },
+        {
+          "key": "V01",
+          "frames": [
+            9123,
+            9241,
+            9359
+          ],
+          "triptych": "review/continuous_ja_shot_28.jpg",
+          "center": "review/center_ja_28.jpg",
+          "source": "",
+          "label": "AI IMAGE｜AI映像",
+          "source_header_checks": [
+            {
+              "rgb_mean_absolute_error": 3.9813610600490197,
+              "glyph_intersection_over_union": 0.968804920913884
+            },
+            {
+              "rgb_mean_absolute_error": 3.9809436274509804,
+              "glyph_intersection_over_union": 0.968804920913884
+            },
+            {
+              "rgb_mean_absolute_error": 3.9809436274509804,
+              "glyph_intersection_over_union": 0.968804920913884
+            }
+          ]
+        },
+        {
+          "key": "credits",
+          "frames": [
+            9360,
+            9743,
+            10126
+          ],
+          "triptych": "review/continuous_ja_shot_29.jpg",
+          "center": "review/center_ja_29.jpg",
+          "source": "",
+          "label": "",
+          "source_header_checks": [
+            {
+              "rgb_mean_absolute_error": 3.8036305147058824,
+              "glyph_intersection_over_union": 0.9663299663299664
+            },
+            {
+              "rgb_mean_absolute_error": 3.8036305147058824,
+              "glyph_intersection_over_union": 0.9663299663299664
+            },
+            {
+              "rgb_mean_absolute_error": 3.8036305147058824,
+              "glyph_intersection_over_union": 0.9663299663299664
+            }
+          ]
+        },
+        {
+          "key": "endcard",
+          "frames": [
+            10127,
+            10276,
+            10426
+          ],
+          "triptych": "review/continuous_ja_shot_30.jpg",
+          "center": "review/center_ja_30.jpg",
+          "source": null,
+          "label": null,
+          "source_header_checks": []
+        }
+      ]
+    }
+  ],
+  "script_unchanged": true,
+  "unique_originals": [
+    "B286",
+    "N03",
+    "B151",
+    "B157",
+    "B170",
+    "B164",
+    "B183",
+    "C01",
+    "B299",
+    "B300",
+    "B237",
+    "B241",
+    "N01",
+    "N02",
+    "B313",
+    "C02",
+    "B312",
+    "C03",
+    "B246",
+    "C04"
+  ],
+  "endcard_exact_last_10_seconds": true,
+  "opening_frames": [
+    {
+      "language": "en",
+      "source_frames": [
+        0,
+        30,
+        60,
+        90
+      ],
+      "files": [
+        "review/opening_en_01.jpg",
+        "review/opening_en_02.jpg",
+        "review/opening_en_03.jpg",
+        "review/opening_en_04.jpg"
+      ]
+    },
+    {
+      "language": "ja",
+      "source_frames": [
+        0,
+        30,
+        60,
+        90
+      ],
+      "files": [
+        "review/opening_ja_01.jpg",
+        "review/opening_ja_02.jpg",
+        "review/opening_ja_03.jpg",
+        "review/opening_ja_04.jpg"
+      ]
+    }
+  ]
+}

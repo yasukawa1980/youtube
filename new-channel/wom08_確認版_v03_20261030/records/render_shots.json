@@ -1,0 +1,3040 @@
+[
+  {
+    "key": "B286",
+    "base_asset": "B286",
+    "source": "Carter & Mace, The Tomb of Tut.ankh.Amen, vol. I (1923) • photo: Harry Burton • MIT Libraries",
+    "label": "EXCAVATION PHOTO｜発掘写真",
+    "texts": [
+      {
+        "text": "QUIET ORIGINS  /  EP008",
+        "bbox": [
+          92,
+          24,
+          431,
+          46
+        ]
+      },
+      {
+        "text": "EXCAVATION PHOTO｜発掘写真",
+        "bbox": [
+          1394.0,
+          21,
+          1820.0,
+          48
+        ]
+      },
+      {
+        "text": "Carter & Mace, The Tomb of Tut.ankh.Amen, vol. I (1923) • photo: Harry Burton • MIT Libraries",
+        "bbox": [
+          92,
+          72,
+          1056,
+          95
+        ]
+      }
+    ],
+    "art_boxes": [
+      [
+        0,
+        110,
+        1920,
+        1080
+      ]
+    ],
+    "camera_band": [
+      110,
+      1080
+    ],
+    "crop_normalized": [
+      0.1,
+      0.1,
+      0.88,
+      0.81
+    ],
+    "rotation_degrees_ccw": 270,
+    "post_rotation_crop_top_fraction": 0,
+    "background_also_uses_only_crop": true,
+    "full_bleed": true,
+    "segment_id": "P01",
+    "file": "/Users/ryo/Desktop/新チャンネル/EP008_Tutankhamun/確認版_v02_20261030/assets/P01_01_B286.png",
+    "sha256": "b20ce9c8960eeb6dff8f316b5d919882958f93ee7c66ecaca8e9e5922de15bd9",
+    "start": 0.0,
+    "end": 35.63333333333333,
+    "frames": 1069,
+    "encoded_file": "/Users/ryo/Desktop/新チャンネル/EP008_Tutankhamun/確認版_v02_20261030/_work/render/P01_01_B286.mp4",
+    "render_config": {
+      "frames": 1069,
+      "filter": "[0:v]split=2[base][art];[art]crop=1920:970:0:110,format=yuv444p,perspective=x0='(W-W/(1+0.03*on/1068))/2':y0='(H-H/(1+0.03*on/1068))/2':x1='(W-W/(1+0.03*on/1068))/2+W/(1+0.03*on/1068)':y1='(H-H/(1+0.03*on/1068))/2':x2='(W-W/(1+0.03*on/1068))/2':y2='(H-H/(1+0.03*on/1068))/2+H/(1+0.03*on/1068)':x3='(W-W/(1+0.03*on/1068))/2+W/(1+0.03*on/1068)':y3='(H-H/(1+0.03*on/1068))/2+H/(1+0.03*on/1068)':sense=source:eval=frame:interpolation=cubic[moving];[base][moving]overlay=0:110:format=yuv444,format=yuv420p[v]",
+      "image_sha256": "b20ce9c8960eeb6dff8f316b5d919882958f93ee7c66ecaca8e9e5922de15bd9",
+      "lossless_intermediate": false
+    },
+    "v02_intermediate_sha256": "8007d2f056e196a5c831ff725830f06c20d54d8c82db6d7cf008b8653b4fefc3"
+  },
+  {
+    "key": "N03",
+    "base_asset": "N03",
+    "source": "Morning Register • 1923-04-06 • University of Oregon Libraries",
+    "label": "NEWSPAPER｜新聞",
+    "texts": [
+      {
+        "text": "QUIET ORIGINS  /  EP008",
+        "bbox": [
+          92,
+          24,
+          431,
+          46
+        ]
+      },
+      {
+        "text": "NEWSPAPER｜新聞",
+        "bbox": [
+          1563.0,
+          21,
+          1820.0,
+          48
+        ]
+      },
+      {
+        "text": "Morning Register • 1923-04-06 • University of Oregon Libraries",
+        "bbox": [
+          92,
+          72,
+          737,
+          95
+        ]
+      }
+    ],
+    "art_boxes": [
+      [
+        264,
+        125,
+        346,
+        920
+      ],
+      [
+        797,
+        150,
+        1643,
+        800
+      ]
+    ],
+    "camera_band": [
+      110,
+      930
+    ],
+    "detail_crop_normalized": [
+      0.6,
+      0.102,
+      0.72,
+      0.172
+    ],
+    "crop_normalized": [
+      0.6,
+      0.102,
+      0.72,
+      0.985
+    ],
+    "rotation_degrees_ccw": 0,
+    "post_rotation_crop_top_fraction": 0,
+    "background_also_uses_only_crop": true,
+    "full_bleed": false,
+    "segment_id": "P02",
+    "file": "/Users/ryo/Desktop/新チャンネル/EP008_Tutankhamun/確認版_v02_20261030/assets/P02_01_N03.png",
+    "sha256": "ad990d00bef6d2ddb22c1e652bfeba7b32572a2e3a162430bef8a65c5c0cb735",
+    "start": 35.63333333333333,
+    "end": 49.333333333333336,
+    "frames": 411,
+    "encoded_file": "/Users/ryo/Desktop/新チャンネル/EP008_Tutankhamun/確認版_v02_20261030/_work/render/P02_01_N03.mp4",
+    "render_config": {
+      "frames": 411,
+      "filter": "[0:v]split=2[base][art];[art]crop=1920:820:0:110,format=yuv444p,perspective=x0='(W-W/(1+0.03*on/410))/2':y0='(H-H/(1+0.03*on/410))/2':x1='(W-W/(1+0.03*on/410))/2+W/(1+0.03*on/410)':y1='(H-H/(1+0.03*on/410))/2':x2='(W-W/(1+0.03*on/410))/2':y2='(H-H/(1+0.03*on/410))/2+H/(1+0.03*on/410)':x3='(W-W/(1+0.03*on/410))/2+W/(1+0.03*on/410)':y3='(H-H/(1+0.03*on/410))/2+H/(1+0.03*on/410)':sense=source:eval=frame:interpolation=cubic[moving];[base][moving]overlay=0:110:format=yuv444,format=yuv420p[v]",
+      "image_sha256": "ad990d00bef6d2ddb22c1e652bfeba7b32572a2e3a162430bef8a65c5c0cb735",
+      "lossless_intermediate": false
+    },
+    "v02_intermediate_sha256": "6f65968ca860909da6a2a99edc13a833b9bdf0859ab00f31c264f1d89dc344a8"
+  },
+  {
+    "key": "opening",
+    "segment_id": "BRAND",
+    "start": 49.333333333333336,
+    "end": 53.333333333333336,
+    "frames": 120,
+    "encoded_file": "/Users/ryo/Desktop/新チャンネル/ブランド素材/オープニング_エンドカード_動画試作_v02_20261021/deliverables/Quiet_Origins_opening_trial_v02.mp4",
+    "original_source": "/Users/ryo/Desktop/新チャンネル/ブランド素材/オープニング_エンドカード_動画試作_v02_20261021/deliverables/Quiet_Origins_opening_trial_v02.mp4",
+    "original_sha256": "4f8e95fd166e52b6c601c87440006ded2eec298f54c3d6d6a951738b54f721a9",
+    "v02_intermediate_sha256": "4f8e95fd166e52b6c601c87440006ded2eec298f54c3d6d6a951738b54f721a9"
+  },
+  {
+    "key": "B151",
+    "base_asset": "B151",
+    "source": "Carter & Mace, The Tomb of Tut.ankh.Amen, vol. I (1923) • photo: Harry Burton • MIT Libraries",
+    "label": "EXCAVATION PHOTO｜発掘写真",
+    "texts": [
+      {
+        "text": "QUIET ORIGINS  /  EP008",
+        "bbox": [
+          92,
+          24,
+          431,
+          46
+        ]
+      },
+      {
+        "text": "EXCAVATION PHOTO｜発掘写真",
+        "bbox": [
+          1394.0,
+          21,
+          1820.0,
+          48
+        ]
+      },
+      {
+        "text": "Carter & Mace, The Tomb of Tut.ankh.Amen, vol. I (1923) • photo: Harry Burton • MIT Libraries",
+        "bbox": [
+          92,
+          72,
+          1056,
+          95
+        ]
+      }
+    ],
+    "art_boxes": [
+      [
+        674,
+        125,
+        1246,
+        920
+      ]
+    ],
+    "camera_band": [
+      110,
+      930
+    ],
+    "crop_normalized": [
+      0.1,
+      0.1,
+      0.9,
+      0.835
+    ],
+    "rotation_degrees_ccw": 0,
+    "post_rotation_crop_top_fraction": 0,
+    "background_also_uses_only_crop": true,
+    "full_bleed": false,
+    "segment_id": "P03",
+    "file": "/Users/ryo/Desktop/新チャンネル/EP008_Tutankhamun/確認版_v02_20261030/assets/P03_01_B151.png",
+    "sha256": "48be9d737024c736715dfefa4f327ba12d377fe3eb37f77494a15192fb4fd8f1",
+    "start": 53.333333333333336,
+    "end": 67.0,
+    "frames": 410,
+    "encoded_file": "/Users/ryo/Desktop/新チャンネル/EP008_Tutankhamun/確認版_v02_20261030/_work/render/P03_01_B151.mp4",
+    "render_config": {
+      "frames": 410,
+      "filter": "[0:v]split=2[base][art];[art]crop=1920:820:0:110,format=yuv444p,perspective=x0='(W-W/(1+0.03*on/409))/2':y0='(H-H/(1+0.03*on/409))/2':x1='(W-W/(1+0.03*on/409))/2+W/(1+0.03*on/409)':y1='(H-H/(1+0.03*on/409))/2':x2='(W-W/(1+0.03*on/409))/2':y2='(H-H/(1+0.03*on/409))/2+H/(1+0.03*on/409)':x3='(W-W/(1+0.03*on/409))/2+W/(1+0.03*on/409)':y3='(H-H/(1+0.03*on/409))/2+H/(1+0.03*on/409)':sense=source:eval=frame:interpolation=cubic[moving];[base][moving]overlay=0:110:format=yuv444,format=yuv420p[v]",
+      "image_sha256": "48be9d737024c736715dfefa4f327ba12d377fe3eb37f77494a15192fb4fd8f1",
+      "lossless_intermediate": false
+    },
+    "v02_intermediate_sha256": "4ff36ff921e443b2b469b760db47db525cce3271e1cbae2ac183c08cfdf8ef0c"
+  },
+  {
+    "key": "B157",
+    "base_asset": "B157",
+    "source": "Carter & Mace, The Tomb of Tut.ankh.Amen, vol. I (1923) • photo: Harry Burton • MIT Libraries",
+    "label": "EXCAVATION PHOTO｜発掘写真",
+    "texts": [
+      {
+        "text": "QUIET ORIGINS  /  EP008",
+        "bbox": [
+          92,
+          24,
+          431,
+          46
+        ]
+      },
+      {
+        "text": "EXCAVATION PHOTO｜発掘写真",
+        "bbox": [
+          1394.0,
+          21,
+          1820.0,
+          48
+        ]
+      },
+      {
+        "text": "Carter & Mace, The Tomb of Tut.ankh.Amen, vol. I (1923) • photo: Harry Burton • MIT Libraries",
+        "bbox": [
+          92,
+          72,
+          1056,
+          95
+        ]
+      }
+    ],
+    "art_boxes": [
+      [
+        703,
+        125,
+        1216,
+        920
+      ]
+    ],
+    "camera_band": [
+      110,
+      930
+    ],
+    "crop_normalized": [
+      0.1,
+      0.07,
+      0.9,
+      0.89
+    ],
+    "rotation_degrees_ccw": 0,
+    "post_rotation_crop_top_fraction": 0,
+    "background_also_uses_only_crop": true,
+    "full_bleed": false,
+    "segment_id": "P03",
+    "file": "/Users/ryo/Desktop/新チャンネル/EP008_Tutankhamun/確認版_v02_20261030/assets/P03_02_B157.png",
+    "sha256": "8ec3aa98b184488c478e9562fab483d48c4343c09a52623176d62bda50849aa1",
+    "start": 67.0,
+    "end": 74.83333333333333,
+    "frames": 235,
+    "encoded_file": "/Users/ryo/Desktop/新チャンネル/EP008_Tutankhamun/確認版_v02_20261030/_work/render/P03_02_B157.mp4",
+    "render_config": {
+      "frames": 235,
+      "filter": "[0:v]split=2[base][art];[art]crop=1920:820:0:110,format=yuv444p,perspective=x0='(W-W/1.08)/2':y0='(H-H/1.08)*(1-on/234)':x1='(W-W/1.08)/2+W/1.08':y1='(H-H/1.08)*(1-on/234)':x2='(W-W/1.08)/2':y2='(H-H/1.08)*(1-on/234)+H/1.08':x3='(W-W/1.08)/2+W/1.08':y3='(H-H/1.08)*(1-on/234)+H/1.08':sense=source:eval=frame:interpolation=cubic[moving];[base][moving]overlay=0:110:format=yuv444,format=yuv420p[v]",
+      "image_sha256": "8ec3aa98b184488c478e9562fab483d48c4343c09a52623176d62bda50849aa1",
+      "lossless_intermediate": false
+    },
+    "v02_intermediate_sha256": "916f07d4c66ebe681d238024e8442c0c582e8b999710490c9044225b45085fcf"
+  },
+  {
+    "key": "B170",
+    "base_asset": "B170",
+    "source": "Carter & Mace, The Tomb of Tut.ankh.Amen, vol. I (1923) • photo: Harry Burton • MIT Libraries",
+    "label": "EXCAVATION PHOTO｜発掘写真",
+    "texts": [
+      {
+        "text": "QUIET ORIGINS  /  EP008",
+        "bbox": [
+          92,
+          24,
+          431,
+          46
+        ]
+      },
+      {
+        "text": "EXCAVATION PHOTO｜発掘写真",
+        "bbox": [
+          1394.0,
+          21,
+          1820.0,
+          48
+        ]
+      },
+      {
+        "text": "Carter & Mace, The Tomb of Tut.ankh.Amen, vol. I (1923) • photo: Harry Burton • MIT Libraries",
+        "bbox": [
+          92,
+          72,
+          1056,
+          95
+        ]
+      }
+    ],
+    "art_boxes": [
+      [
+        403,
+        125,
+        1517,
+        920
+      ]
+    ],
+    "camera_band": [
+      110,
+      930
+    ],
+    "crop_normalized": [
+      0.085,
+      0.085,
+      0.915,
+      0.89
+    ],
+    "rotation_degrees_ccw": 270,
+    "post_rotation_crop_top_fraction": 0,
+    "background_also_uses_only_crop": true,
+    "full_bleed": false,
+    "segment_id": "P04",
+    "file": "/Users/ryo/Desktop/新チャンネル/EP008_Tutankhamun/確認版_v02_20261030/assets/P04_01_B170.png",
+    "sha256": "2991d55b4d5ae98fd744d219f1ad3a3598f41696c54066207b0dc1c502e8825f",
+    "start": 74.83333333333333,
+    "end": 83.56666666666666,
+    "frames": 262,
+    "encoded_file": "/Users/ryo/Desktop/新チャンネル/EP008_Tutankhamun/確認版_v02_20261030/_work/render/P04_01_B170.mp4",
+    "render_config": {
+      "frames": 262,
+      "filter": "[0:v]split=2[base][art];[art]crop=1920:820:0:110,format=yuv444p,perspective=x0='(W-W/(1+0.03*on/261))/2':y0='(H-H/(1+0.03*on/261))/2':x1='(W-W/(1+0.03*on/261))/2+W/(1+0.03*on/261)':y1='(H-H/(1+0.03*on/261))/2':x2='(W-W/(1+0.03*on/261))/2':y2='(H-H/(1+0.03*on/261))/2+H/(1+0.03*on/261)':x3='(W-W/(1+0.03*on/261))/2+W/(1+0.03*on/261)':y3='(H-H/(1+0.03*on/261))/2+H/(1+0.03*on/261)':sense=source:eval=frame:interpolation=cubic[moving];[base][moving]overlay=0:110:format=yuv444,format=yuv420p[v]",
+      "image_sha256": "2991d55b4d5ae98fd744d219f1ad3a3598f41696c54066207b0dc1c502e8825f",
+      "lossless_intermediate": false
+    },
+    "v02_intermediate_sha256": "99f4ed1a8afdaee43da7b084da3152e60426afd06b2a8330818091363cf9cb1f"
+  },
+  {
+    "key": "B164",
+    "base_asset": "B164",
+    "source": "Carter & Mace, The Tomb of Tut.ankh.Amen, vol. I (1923) • p. 142 • MIT Libraries",
+    "label": "PRINTED BOOK｜刊本",
+    "texts": [
+      {
+        "text": "QUIET ORIGINS  /  EP008",
+        "bbox": [
+          92,
+          24,
+          431,
+          46
+        ]
+      },
+      {
+        "text": "PRINTED BOOK｜刊本",
+        "bbox": [
+          1529.0,
+          21,
+          1820.0,
+          48
+        ]
+      },
+      {
+        "text": "Carter & Mace, The Tomb of Tut.ankh.Amen, vol. I (1923) • p. 142 • MIT Libraries",
+        "bbox": [
+          92,
+          72,
+          918,
+          95
+        ]
+      }
+    ],
+    "art_boxes": [
+      [
+        80,
+        358,
+        1840,
+        687
+      ]
+    ],
+    "camera_band": [
+      110,
+      930
+    ],
+    "crop_normalized": [
+      0.22,
+      0.085,
+      0.97,
+      0.182
+    ],
+    "rotation_degrees_ccw": 0,
+    "post_rotation_crop_top_fraction": 0,
+    "background_also_uses_only_crop": true,
+    "full_bleed": false,
+    "segment_id": "P04",
+    "file": "/Users/ryo/Desktop/新チャンネル/EP008_Tutankhamun/確認版_v02_20261030/assets/P04_02_B164.png",
+    "sha256": "398ef9c05ee5dfac6b268b621db5842a9e471dd53f1767e2b018466e7d4af531",
+    "start": 83.56666666666666,
+    "end": 91.96666666666667,
+    "frames": 252,
+    "encoded_file": "/Users/ryo/Desktop/新チャンネル/EP008_Tutankhamun/確認版_v02_20261030/_work/render/P04_02_B164.mp4",
+    "render_config": {
+      "frames": 252,
+      "filter": "[0:v]split=2[base][art];[art]crop=1920:820:0:110,format=yuv444p,perspective=x0='(W-W/(1+0.03*on/251))/2':y0='(H-H/(1+0.03*on/251))/2':x1='(W-W/(1+0.03*on/251))/2+W/(1+0.03*on/251)':y1='(H-H/(1+0.03*on/251))/2':x2='(W-W/(1+0.03*on/251))/2':y2='(H-H/(1+0.03*on/251))/2+H/(1+0.03*on/251)':x3='(W-W/(1+0.03*on/251))/2+W/(1+0.03*on/251)':y3='(H-H/(1+0.03*on/251))/2+H/(1+0.03*on/251)':sense=source:eval=frame:interpolation=cubic[moving];[base][moving]overlay=0:110:format=yuv444,format=yuv420p[v]",
+      "image_sha256": "398ef9c05ee5dfac6b268b621db5842a9e471dd53f1767e2b018466e7d4af531",
+      "lossless_intermediate": false
+    },
+    "v02_intermediate_sha256": "0a8b12ca04b55ae077e608f560c2c0149c20f1dc3d0f55ac10671605e46374a4"
+  },
+  {
+    "key": "B183",
+    "base_asset": "B183",
+    "source": "Carter & Mace, The Tomb of Tut.ankh.Amen, vol. I (1923) • photo: Harry Burton • MIT Libraries",
+    "label": "EXCAVATION PHOTO｜発掘写真",
+    "texts": [
+      {
+        "text": "QUIET ORIGINS  /  EP008",
+        "bbox": [
+          92,
+          24,
+          431,
+          46
+        ]
+      },
+      {
+        "text": "EXCAVATION PHOTO｜発掘写真",
+        "bbox": [
+          1394.0,
+          21,
+          1820.0,
+          48
+        ]
+      },
+      {
+        "text": "Carter & Mace, The Tomb of Tut.ankh.Amen, vol. I (1923) • photo: Harry Burton • MIT Libraries",
+        "bbox": [
+          92,
+          72,
+          1056,
+          95
+        ]
+      }
+    ],
+    "art_boxes": [
+      [
+        418,
+        125,
+        1502,
+        920
+      ]
+    ],
+    "camera_band": [
+      110,
+      930
+    ],
+    "crop_normalized": [
+      0.09,
+      0.1,
+      0.91,
+      0.84
+    ],
+    "rotation_degrees_ccw": 90,
+    "post_rotation_crop_top_fraction": 0,
+    "background_also_uses_only_crop": true,
+    "full_bleed": false,
+    "segment_id": "P05",
+    "file": "/Users/ryo/Desktop/新チャンネル/EP008_Tutankhamun/確認版_v02_20261030/assets/P05_01_B183.png",
+    "sha256": "a4a00f795c142b5ccafd6eb0b4f1c07decc611c657f43f9d1615d752e92181be",
+    "start": 91.96666666666667,
+    "end": 93.46666666666667,
+    "frames": 45,
+    "encoded_file": "/Users/ryo/Desktop/新チャンネル/EP008_Tutankhamun/確認版_v02_20261030/_work/render/P05_01_B183.mp4",
+    "render_config": {
+      "frames": 45,
+      "filter": "[0:v]split=2[base][art];[art]crop=1920:820:0:110,format=yuv444p,perspective=x0='(W-W/(1+0.03*on/44))/2':y0='(H-H/(1+0.03*on/44))/2':x1='(W-W/(1+0.03*on/44))/2+W/(1+0.03*on/44)':y1='(H-H/(1+0.03*on/44))/2':x2='(W-W/(1+0.03*on/44))/2':y2='(H-H/(1+0.03*on/44))/2+H/(1+0.03*on/44)':x3='(W-W/(1+0.03*on/44))/2+W/(1+0.03*on/44)':y3='(H-H/(1+0.03*on/44))/2+H/(1+0.03*on/44)':sense=source:eval=frame:interpolation=cubic[moving];[base][moving]overlay=0:110:format=yuv444,format=yuv420p[v]",
+      "image_sha256": "a4a00f795c142b5ccafd6eb0b4f1c07decc611c657f43f9d1615d752e92181be",
+      "lossless_intermediate": false
+    },
+    "v02_intermediate_sha256": "6663e7e84fadf00244d0b24bb709d0d19c0109f2908c2c12cf8363d75ef3afaa"
+  },
+  {
+    "key": "C01",
+    "base_asset": "C01",
+    "source": "Charles K. Wilkinson, 1923–27 • Tomb of Huy (TT40) • The Met 30.4.21 • CC0",
+    "label": "FACSIMILE｜1923–27年の模写",
+    "texts": [
+      {
+        "text": "QUIET ORIGINS  /  EP008",
+        "bbox": [
+          92,
+          24,
+          431,
+          46
+        ]
+      },
+      {
+        "text": "FACSIMILE｜1923–27年の模写",
+        "bbox": [
+          1416.0,
+          21,
+          1820.0,
+          48
+        ]
+      },
+      {
+        "text": "Charles K. Wilkinson, 1923–27 • Tomb of Huy (TT40) • The Met 30.4.21 • CC0",
+        "bbox": [
+          92,
+          72,
+          891,
+          95
+        ]
+      },
+      {
+        "text": "TOMB OF HUY, NOT KV62｜フイの墓（TT40）の壁画を写したもの",
+        "bbox": [
+          497.0,
+          132,
+          1423.0,
+          162
+        ]
+      }
+    ],
+    "art_boxes": [
+      [
+        100,
+        247,
+        1820,
+        853
+      ]
+    ],
+    "camera_band": [
+      205,
+      930
+    ],
+    "met_id": 548571,
+    "object_number": "30.4.21",
+    "rights": "CC0",
+    "original_sha256": "64b7db57c718c9d677b6d2398106b943ab6907e3c1c799456d48807122041956",
+    "crop_is_not_recoloring": true,
+    "segment_id": "P05",
+    "file": "/Users/ryo/Desktop/新チャンネル/EP008_Tutankhamun/確認版_v02_20261030/assets/P05_02_C01.png",
+    "sha256": "c21e756882d0ce5c6d741a0d81648beb8e5346356b88140e946b875a70bc3394",
+    "start": 93.46666666666667,
+    "end": 97.53333333333333,
+    "frames": 122,
+    "encoded_file": "/Users/ryo/Desktop/新チャンネル/EP008_Tutankhamun/確認版_v02_20261030/_work/render/P05_02_C01.mp4",
+    "render_config": {
+      "frames": 122,
+      "filter": "[0:v]split=2[base][art];[art]crop=1920:725:0:205,format=yuv444p,perspective=x0='(W-W/(1+0.03*on/121))/2':y0='(H-H/(1+0.03*on/121))/2':x1='(W-W/(1+0.03*on/121))/2+W/(1+0.03*on/121)':y1='(H-H/(1+0.03*on/121))/2':x2='(W-W/(1+0.03*on/121))/2':y2='(H-H/(1+0.03*on/121))/2+H/(1+0.03*on/121)':x3='(W-W/(1+0.03*on/121))/2+W/(1+0.03*on/121)':y3='(H-H/(1+0.03*on/121))/2+H/(1+0.03*on/121)':sense=source:eval=frame:interpolation=cubic[moving];[base][moving]overlay=0:205:format=yuv444,format=yuv420p[v]",
+      "image_sha256": "c21e756882d0ce5c6d741a0d81648beb8e5346356b88140e946b875a70bc3394",
+      "lossless_intermediate": false
+    },
+    "v02_intermediate_sha256": "7bb85f7a1609bdce4a81338ee63a0b88d11d9da171b505a89986998dd7386d6e"
+  },
+  {
+    "key": "B299",
+    "base_asset": "B299",
+    "source": "Carter & Mace, The Tomb of Tut.ankh.Amen, vol. I (1923) • photo: Harry Burton • MIT Libraries",
+    "label": "EXCAVATION PHOTO｜発掘写真",
+    "texts": [
+      {
+        "text": "QUIET ORIGINS  /  EP008",
+        "bbox": [
+          92,
+          24,
+          431,
+          46
+        ]
+      },
+      {
+        "text": "EXCAVATION PHOTO｜発掘写真",
+        "bbox": [
+          1394.0,
+          21,
+          1820.0,
+          48
+        ]
+      },
+      {
+        "text": "Carter & Mace, The Tomb of Tut.ankh.Amen, vol. I (1923) • photo: Harry Burton • MIT Libraries",
+        "bbox": [
+          92,
+          72,
+          1056,
+          95
+        ]
+      }
+    ],
+    "art_boxes": [
+      [
+        686,
+        125,
+        1233,
+        920
+      ]
+    ],
+    "camera_band": [
+      110,
+      930
+    ],
+    "crop_normalized": [
+      0.1,
+      0.08,
+      0.9,
+      0.85
+    ],
+    "rotation_degrees_ccw": 0,
+    "post_rotation_crop_top_fraction": 0,
+    "background_also_uses_only_crop": true,
+    "full_bleed": false,
+    "segment_id": "P05",
+    "file": "/Users/ryo/Desktop/新チャンネル/EP008_Tutankhamun/確認版_v02_20261030/assets/P05_03_B299.png",
+    "sha256": "d162b7367f83bbfd91dc1e7f0de49e649b89b3b118f8d163243f7c9da8c020cb",
+    "start": 97.53333333333333,
+    "end": 104.23333333333333,
+    "frames": 201,
+    "encoded_file": "/Users/ryo/Desktop/新チャンネル/EP008_Tutankhamun/確認版_v02_20261030/_work/render/P05_03_B299.mp4",
+    "render_config": {
+      "frames": 201,
+      "filter": "[0:v]split=2[base][art];[art]crop=1920:820:0:110,format=yuv444p,perspective=x0='(W-W/(1+0.03*on/200))/2':y0='(H-H/(1+0.03*on/200))/2':x1='(W-W/(1+0.03*on/200))/2+W/(1+0.03*on/200)':y1='(H-H/(1+0.03*on/200))/2':x2='(W-W/(1+0.03*on/200))/2':y2='(H-H/(1+0.03*on/200))/2+H/(1+0.03*on/200)':x3='(W-W/(1+0.03*on/200))/2+W/(1+0.03*on/200)':y3='(H-H/(1+0.03*on/200))/2+H/(1+0.03*on/200)':sense=source:eval=frame:interpolation=cubic[moving];[base][moving]overlay=0:110:format=yuv444,format=yuv420p[v]",
+      "image_sha256": "d162b7367f83bbfd91dc1e7f0de49e649b89b3b118f8d163243f7c9da8c020cb",
+      "lossless_intermediate": false
+    },
+    "v02_intermediate_sha256": "9a63eda0bf3a255db0fd9900c31ebedc08b2ababf3742a2c091fade587a85c8f"
+  },
+  {
+    "key": "B300",
+    "base_asset": "B300",
+    "source": "Carter & Mace, The Tomb of Tut.ankh.Amen, vol. I (1923) • photo: Harry Burton • MIT Libraries",
+    "label": "EXCAVATION PHOTO｜発掘写真",
+    "texts": [
+      {
+        "text": "QUIET ORIGINS  /  EP008",
+        "bbox": [
+          92,
+          24,
+          431,
+          46
+        ]
+      },
+      {
+        "text": "EXCAVATION PHOTO｜発掘写真",
+        "bbox": [
+          1394.0,
+          21,
+          1820.0,
+          48
+        ]
+      },
+      {
+        "text": "Carter & Mace, The Tomb of Tut.ankh.Amen, vol. I (1923) • photo: Harry Burton • MIT Libraries",
+        "bbox": [
+          92,
+          72,
+          1056,
+          95
+        ]
+      }
+    ],
+    "art_boxes": [
+      [
+        675,
+        125,
+        1244,
+        920
+      ]
+    ],
+    "camera_band": [
+      110,
+      930
+    ],
+    "crop_normalized": [
+      0.1,
+      0.1,
+      0.9,
+      0.84
+    ],
+    "rotation_degrees_ccw": 0,
+    "post_rotation_crop_top_fraction": 0,
+    "background_also_uses_only_crop": true,
+    "full_bleed": false,
+    "segment_id": "P05",
+    "file": "/Users/ryo/Desktop/新チャンネル/EP008_Tutankhamun/確認版_v02_20261030/assets/P05_04_B300.png",
+    "sha256": "642f3b5f8fe5923049cedd523d04258d82c63b2a3a687f169bb05fc45a883e18",
+    "start": 104.23333333333333,
+    "end": 115.03333333333333,
+    "frames": 324,
+    "encoded_file": "/Users/ryo/Desktop/新チャンネル/EP008_Tutankhamun/確認版_v02_20261030/_work/render/P05_04_B300.mp4",
+    "render_config": {
+      "frames": 324,
+      "filter": "[0:v]split=2[base][art];[art]crop=1920:820:0:110,format=yuv444p,perspective=x0='(W-W/(1+0.03*on/323))/2':y0='(H-H/(1+0.03*on/323))/2':x1='(W-W/(1+0.03*on/323))/2+W/(1+0.03*on/323)':y1='(H-H/(1+0.03*on/323))/2':x2='(W-W/(1+0.03*on/323))/2':y2='(H-H/(1+0.03*on/323))/2+H/(1+0.03*on/323)':x3='(W-W/(1+0.03*on/323))/2+W/(1+0.03*on/323)':y3='(H-H/(1+0.03*on/323))/2+H/(1+0.03*on/323)':sense=source:eval=frame:interpolation=cubic[moving];[base][moving]overlay=0:110:format=yuv444,format=yuv420p[v]",
+      "image_sha256": "642f3b5f8fe5923049cedd523d04258d82c63b2a3a687f169bb05fc45a883e18",
+      "lossless_intermediate": false
+    },
+    "v02_intermediate_sha256": "939edeeeddc9a6684747bb8420ed6965afe3d5a0aeba66ba95fb9e870e16c5cb"
+  },
+  {
+    "key": "B237",
+    "base_asset": "B237",
+    "source": "Carter & Mace, The Tomb of Tut.ankh.Amen, vol. I (1923) • photo: Harry Burton • MIT Libraries",
+    "label": "EXCAVATION PHOTO｜発掘写真",
+    "texts": [
+      {
+        "text": "QUIET ORIGINS  /  EP008",
+        "bbox": [
+          92,
+          24,
+          431,
+          46
+        ]
+      },
+      {
+        "text": "EXCAVATION PHOTO｜発掘写真",
+        "bbox": [
+          1394.0,
+          21,
+          1820.0,
+          48
+        ]
+      },
+      {
+        "text": "Carter & Mace, The Tomb of Tut.ankh.Amen, vol. I (1923) • photo: Harry Burton • MIT Libraries",
+        "bbox": [
+          92,
+          72,
+          1056,
+          95
+        ]
+      }
+    ],
+    "art_boxes": [
+      [
+        655,
+        125,
+        1265,
+        920
+      ]
+    ],
+    "camera_band": [
+      110,
+      930
+    ],
+    "crop_normalized": [
+      0.1,
+      0.11,
+      0.9,
+      0.8
+    ],
+    "rotation_degrees_ccw": 0,
+    "post_rotation_crop_top_fraction": 0,
+    "background_also_uses_only_crop": true,
+    "full_bleed": false,
+    "segment_id": "P06",
+    "file": "/Users/ryo/Desktop/新チャンネル/EP008_Tutankhamun/確認版_v02_20261030/assets/P06_01_B237.png",
+    "sha256": "6bf28f44b3b5d7c8ce279dc0abe95f7da4fbd91ca948f0ccb4a731e5449066e4",
+    "start": 115.03333333333333,
+    "end": 118.46666666666667,
+    "frames": 103,
+    "encoded_file": "/Users/ryo/Desktop/新チャンネル/EP008_Tutankhamun/確認版_v02_20261030/_work/render/P06_01_B237.mp4",
+    "render_config": {
+      "frames": 103,
+      "filter": "[0:v]split=2[base][art];[art]crop=1920:820:0:110,format=yuv444p,perspective=x0='(W-W/(1+0.03*on/102))/2':y0='(H-H/(1+0.03*on/102))/2':x1='(W-W/(1+0.03*on/102))/2+W/(1+0.03*on/102)':y1='(H-H/(1+0.03*on/102))/2':x2='(W-W/(1+0.03*on/102))/2':y2='(H-H/(1+0.03*on/102))/2+H/(1+0.03*on/102)':x3='(W-W/(1+0.03*on/102))/2+W/(1+0.03*on/102)':y3='(H-H/(1+0.03*on/102))/2+H/(1+0.03*on/102)':sense=source:eval=frame:interpolation=cubic[moving];[base][moving]overlay=0:110:format=yuv444,format=yuv420p[v]",
+      "image_sha256": "6bf28f44b3b5d7c8ce279dc0abe95f7da4fbd91ca948f0ccb4a731e5449066e4",
+      "lossless_intermediate": false
+    },
+    "v02_intermediate_sha256": "cdd74ce266bbb1597c6ce1d04e550a39cdab84eb39687438c4df4d0cb4d24ee6"
+  },
+  {
+    "key": "B241",
+    "base_asset": "B241",
+    "source": "Carter & Mace, The Tomb of Tut.ankh.Amen, vol. I (1923) • p. 201 • MIT Libraries",
+    "label": "PRINTED BOOK｜刊本",
+    "texts": [
+      {
+        "text": "QUIET ORIGINS  /  EP008",
+        "bbox": [
+          92,
+          24,
+          431,
+          46
+        ]
+      },
+      {
+        "text": "PRINTED BOOK｜刊本",
+        "bbox": [
+          1529.0,
+          21,
+          1820.0,
+          48
+        ]
+      },
+      {
+        "text": "Carter & Mace, The Tomb of Tut.ankh.Amen, vol. I (1923) • p. 201 • MIT Libraries",
+        "bbox": [
+          92,
+          72,
+          918,
+          95
+        ]
+      }
+    ],
+    "art_boxes": [
+      [
+        80,
+        383,
+        1840,
+        661
+      ]
+    ],
+    "camera_band": [
+      110,
+      930
+    ],
+    "crop_normalized": [
+      0.025,
+      0.242,
+      0.82,
+      0.325
+    ],
+    "rotation_degrees_ccw": 0,
+    "post_rotation_crop_top_fraction": 0,
+    "background_also_uses_only_crop": true,
+    "full_bleed": false,
+    "segment_id": "P06",
+    "file": "/Users/ryo/Desktop/新チャンネル/EP008_Tutankhamun/確認版_v02_20261030/assets/P06_02_B241.png",
+    "sha256": "84730a79fa07ced1dc0b61f2710f5c2d1eb3c37e1a6289180e3c1f133227f4e2",
+    "start": 118.46666666666667,
+    "end": 132.76666666666668,
+    "frames": 429,
+    "encoded_file": "/Users/ryo/Desktop/新チャンネル/EP008_Tutankhamun/確認版_v02_20261030/_work/render/P06_02_B241.mp4",
+    "render_config": {
+      "frames": 429,
+      "filter": "[0:v]split=2[base][art];[art]crop=1920:820:0:110,format=yuv444p,perspective=x0='(W-W/(1+0.03*on/428))/2':y0='(H-H/(1+0.03*on/428))/2':x1='(W-W/(1+0.03*on/428))/2+W/(1+0.03*on/428)':y1='(H-H/(1+0.03*on/428))/2':x2='(W-W/(1+0.03*on/428))/2':y2='(H-H/(1+0.03*on/428))/2+H/(1+0.03*on/428)':x3='(W-W/(1+0.03*on/428))/2+W/(1+0.03*on/428)':y3='(H-H/(1+0.03*on/428))/2+H/(1+0.03*on/428)':sense=source:eval=frame:interpolation=cubic[moving];[base][moving]overlay=0:110:format=yuv444,format=yuv420p[v]",
+      "image_sha256": "84730a79fa07ced1dc0b61f2710f5c2d1eb3c37e1a6289180e3c1f133227f4e2",
+      "lossless_intermediate": false
+    },
+    "v02_intermediate_sha256": "8bf593ad7e1f1b7e06552484aa47276e7489314af99824f384497ce18560447f"
+  },
+  {
+    "key": "D_illness",
+    "base_asset": null,
+    "source": "",
+    "label": "SCHEMATIC｜模式図",
+    "texts": [
+      {
+        "text": "QUIET ORIGINS  /  EP008",
+        "bbox": [
+          92,
+          24,
+          431,
+          46
+        ]
+      },
+      {
+        "text": "SCHEMATIC｜模式図",
+        "bbox": [
+          1545.0,
+          21,
+          1820.0,
+          48
+        ]
+      },
+      {
+        "text": "Howard Carter, journal, March–April 1923 • Griffith Institute transcription",
+        "bbox": [
+          92,
+          72,
+          826,
+          95
+        ]
+      },
+      {
+        "text": "MARCH 1923｜1923年3月",
+        "bbox": [
+          629.0,
+          261,
+          1291.0,
+          309
+        ],
+        "font_size": 50,
+        "fill": "#5a3a1a",
+        "centered": true,
+        "serif": false
+      },
+      {
+        "text": "INFECTION, THEN PNEUMONIA",
+        "bbox": [
+          592.0078125,
+          359,
+          1328.0078125,
+          403
+        ],
+        "font_size": 49,
+        "fill": "#3b2c21",
+        "centered": true,
+        "serif": false
+      },
+      {
+        "text": "感染症、のちに肺炎",
+        "bbox": [
+          762.0,
+          421,
+          1158.0,
+          463
+        ],
+        "font_size": 44,
+        "fill": "#3b2c21",
+        "centered": true,
+        "serif": false
+      },
+      {
+        "text": "5 APRIL 1923, CAIRO｜1923年4月5日 カイロ",
+        "bbox": [
+          488.0,
+          571,
+          1432.0,
+          614
+        ],
+        "font_size": 43,
+        "fill": "#5a3a1a",
+        "centered": true,
+        "serif": false
+      }
+    ],
+    "art_boxes": [],
+    "camera_band": [
+      110,
+      700
+    ],
+    "static_source": true,
+    "intentional_reveal": false,
+    "segment_id": "P07",
+    "file": "assets/P07_D_illness.png",
+    "sha256": "95c81298335ab339a581ca3fa444849a2ddb2f6139317679447f8936bf009bbc",
+    "start": 132.76666666666668,
+    "end": 145.4,
+    "frames": 379,
+    "encoded_file": "_work/render/P07_D_illness.mp4",
+    "render_config": {
+      "frames": 379,
+      "filter": "[0:v]format=yuv420p[v]",
+      "image_sha256": "95c81298335ab339a581ca3fa444849a2ddb2f6139317679447f8936bf009bbc",
+      "lossless_intermediate": true
+    },
+    "body_texts": [
+      {
+        "text": "MARCH 1923｜1923年3月",
+        "bbox": [
+          629.0,
+          261,
+          1291.0,
+          309
+        ],
+        "font_size": 50,
+        "fill": "#5a3a1a",
+        "centered": true,
+        "serif": false
+      },
+      {
+        "text": "INFECTION, THEN PNEUMONIA",
+        "bbox": [
+          592.0078125,
+          359,
+          1328.0078125,
+          403
+        ],
+        "font_size": 49,
+        "fill": "#3b2c21",
+        "centered": true,
+        "serif": false
+      },
+      {
+        "text": "感染症、のちに肺炎",
+        "bbox": [
+          762.0,
+          421,
+          1158.0,
+          463
+        ],
+        "font_size": 44,
+        "fill": "#3b2c21",
+        "centered": true,
+        "serif": false
+      },
+      {
+        "text": "5 APRIL 1923, CAIRO｜1923年4月5日 カイロ",
+        "bbox": [
+          488.0,
+          571,
+          1432.0,
+          614
+        ],
+        "font_size": 43,
+        "fill": "#5a3a1a",
+        "centered": true,
+        "serif": false
+      }
+    ],
+    "nontext_pixels_identical_to_v02": true,
+    "revision": "v03: body ink contrast / larger centered titles"
+  },
+  {
+    "key": "N01",
+    "base_asset": "N01",
+    "source": "The Albany Democrat • 1923-04-05 • University of Oregon Libraries",
+    "label": "NEWSPAPER｜新聞",
+    "texts": [
+      {
+        "text": "QUIET ORIGINS  /  EP008",
+        "bbox": [
+          92,
+          24,
+          431,
+          46
+        ]
+      },
+      {
+        "text": "NEWSPAPER｜新聞",
+        "bbox": [
+          1563.0,
+          21,
+          1820.0,
+          48
+        ]
+      },
+      {
+        "text": "The Albany Democrat • 1923-04-05 • University of Oregon Libraries",
+        "bbox": [
+          92,
+          72,
+          784,
+          95
+        ]
+      }
+    ],
+    "art_boxes": [
+      [
+        234,
+        125,
+        375,
+        920
+      ],
+      [
+        791,
+        150,
+        1648,
+        800
+      ]
+    ],
+    "camera_band": [
+      110,
+      930
+    ],
+    "detail_crop_normalized": [
+      0.309,
+      0.144,
+      0.438,
+      0.221
+    ],
+    "crop_normalized": [
+      0.309,
+      0.144,
+      0.438,
+      0.716
+    ],
+    "rotation_degrees_ccw": 0,
+    "post_rotation_crop_top_fraction": 0,
+    "background_also_uses_only_crop": true,
+    "full_bleed": false,
+    "segment_id": "P08",
+    "file": "/Users/ryo/Desktop/新チャンネル/EP008_Tutankhamun/確認版_v02_20261030/assets/P08_01_N01.png",
+    "sha256": "79bdf9a2bba5373a53b8e79380ec8ea407fe078d19145c75a187c6e472390dc1",
+    "start": 145.4,
+    "end": 156.76666666666668,
+    "frames": 341,
+    "encoded_file": "/Users/ryo/Desktop/新チャンネル/EP008_Tutankhamun/確認版_v02_20261030/_work/render/P08_01_N01.mp4",
+    "render_config": {
+      "frames": 341,
+      "filter": "[0:v]split=2[base][art];[art]crop=1920:820:0:110,format=yuv444p,perspective=x0='(W-W/(1+0.03*on/340))/2':y0='(H-H/(1+0.03*on/340))/2':x1='(W-W/(1+0.03*on/340))/2+W/(1+0.03*on/340)':y1='(H-H/(1+0.03*on/340))/2':x2='(W-W/(1+0.03*on/340))/2':y2='(H-H/(1+0.03*on/340))/2+H/(1+0.03*on/340)':x3='(W-W/(1+0.03*on/340))/2+W/(1+0.03*on/340)':y3='(H-H/(1+0.03*on/340))/2+H/(1+0.03*on/340)':sense=source:eval=frame:interpolation=cubic[moving];[base][moving]overlay=0:110:format=yuv444,format=yuv420p[v]",
+      "image_sha256": "79bdf9a2bba5373a53b8e79380ec8ea407fe078d19145c75a187c6e472390dc1",
+      "lossless_intermediate": false
+    },
+    "v02_intermediate_sha256": "047b996e21ac3c805403d066e2a8005bed1418f3b2bf0a292a0779cad1aee4bf"
+  },
+  {
+    "key": "N02",
+    "base_asset": "N02",
+    "source": "The Eugene Daily Guard • 1923-04-06 • University of Oregon Libraries",
+    "label": "NEWSPAPER｜新聞",
+    "texts": [
+      {
+        "text": "QUIET ORIGINS  /  EP008",
+        "bbox": [
+          92,
+          24,
+          431,
+          46
+        ]
+      },
+      {
+        "text": "NEWSPAPER｜新聞",
+        "bbox": [
+          1563.0,
+          21,
+          1820.0,
+          48
+        ]
+      },
+      {
+        "text": "The Eugene Daily Guard • 1923-04-06 • University of Oregon Libraries",
+        "bbox": [
+          92,
+          72,
+          815,
+          95
+        ]
+      }
+    ],
+    "art_boxes": [
+      [
+        238,
+        125,
+        371,
+        920
+      ],
+      [
+        883,
+        150,
+        1556,
+        800
+      ]
+    ],
+    "camera_band": [
+      110,
+      930
+    ],
+    "detail_crop_normalized": [
+      0.278,
+      0.594,
+      0.414,
+      0.69
+    ],
+    "crop_normalized": [
+      0.278,
+      0.16,
+      0.414,
+      0.754
+    ],
+    "rotation_degrees_ccw": 0,
+    "post_rotation_crop_top_fraction": 0,
+    "background_also_uses_only_crop": true,
+    "full_bleed": false,
+    "segment_id": "P08",
+    "file": "/Users/ryo/Desktop/新チャンネル/EP008_Tutankhamun/確認版_v02_20261030/assets/P08_02_N02.png",
+    "sha256": "6ca1015acaadef21f1c38f7a86bcb4835796764b79ee608d3fd2edf73b1c14c5",
+    "start": 156.76666666666668,
+    "end": 169.76666666666668,
+    "frames": 390,
+    "encoded_file": "/Users/ryo/Desktop/新チャンネル/EP008_Tutankhamun/確認版_v02_20261030/_work/render/P08_02_N02.mp4",
+    "render_config": {
+      "frames": 390,
+      "filter": "[0:v]split=2[base][art];[art]crop=1920:820:0:110,format=yuv444p,perspective=x0='(W-W/(1+0.03*on/389))/2':y0='(H-H/(1+0.03*on/389))/2':x1='(W-W/(1+0.03*on/389))/2+W/(1+0.03*on/389)':y1='(H-H/(1+0.03*on/389))/2':x2='(W-W/(1+0.03*on/389))/2':y2='(H-H/(1+0.03*on/389))/2+H/(1+0.03*on/389)':x3='(W-W/(1+0.03*on/389))/2+W/(1+0.03*on/389)':y3='(H-H/(1+0.03*on/389))/2+H/(1+0.03*on/389)':sense=source:eval=frame:interpolation=cubic[moving];[base][moving]overlay=0:110:format=yuv444,format=yuv420p[v]",
+      "image_sha256": "6ca1015acaadef21f1c38f7a86bcb4835796764b79ee608d3fd2edf73b1c14c5",
+      "lossless_intermediate": false
+    },
+    "v02_intermediate_sha256": "ed92bd5289391adee44670cdf39d0c1d9a3695b968537f8b5aaf7d626fc22157"
+  },
+  {
+    "key": "B313",
+    "base_asset": "B313",
+    "source": "Carter & Mace, The Tomb of Tut.ankh.Amen, vol. I (1923) • photo: Harry Burton • MIT Libraries",
+    "label": "EXCAVATION PHOTO｜発掘写真",
+    "texts": [
+      {
+        "text": "QUIET ORIGINS  /  EP008",
+        "bbox": [
+          92,
+          24,
+          431,
+          46
+        ]
+      },
+      {
+        "text": "EXCAVATION PHOTO｜発掘写真",
+        "bbox": [
+          1394.0,
+          21,
+          1820.0,
+          48
+        ]
+      },
+      {
+        "text": "Carter & Mace, The Tomb of Tut.ankh.Amen, vol. I (1923) • photo: Harry Burton • MIT Libraries",
+        "bbox": [
+          92,
+          72,
+          1056,
+          95
+        ]
+      }
+    ],
+    "art_boxes": [
+      [
+        411,
+        125,
+        1508,
+        920
+      ]
+    ],
+    "camera_band": [
+      110,
+      930
+    ],
+    "crop_normalized": [
+      0.11,
+      0.16,
+      0.88,
+      0.81
+    ],
+    "rotation_degrees_ccw": 90,
+    "post_rotation_crop_top_fraction": 0.075,
+    "background_also_uses_only_crop": true,
+    "full_bleed": false,
+    "segment_id": "P09",
+    "file": "/Users/ryo/Desktop/新チャンネル/EP008_Tutankhamun/確認版_v02_20261030/assets/P09_01_B313.png",
+    "sha256": "306cef6fd8cfb760cf150cc9f91687d07f51d324e0588c9b8704080dc48bc091",
+    "start": 169.76666666666668,
+    "end": 179.26666666666668,
+    "frames": 285,
+    "encoded_file": "/Users/ryo/Desktop/新チャンネル/EP008_Tutankhamun/確認版_v02_20261030/_work/render/P09_01_B313.mp4",
+    "render_config": {
+      "frames": 285,
+      "filter": "[0:v]split=2[base][art];[art]crop=1920:820:0:110,format=yuv444p,perspective=x0='(W-W/(1+0.03*on/284))/2':y0='(H-H/(1+0.03*on/284))/2':x1='(W-W/(1+0.03*on/284))/2+W/(1+0.03*on/284)':y1='(H-H/(1+0.03*on/284))/2':x2='(W-W/(1+0.03*on/284))/2':y2='(H-H/(1+0.03*on/284))/2+H/(1+0.03*on/284)':x3='(W-W/(1+0.03*on/284))/2+W/(1+0.03*on/284)':y3='(H-H/(1+0.03*on/284))/2+H/(1+0.03*on/284)':sense=source:eval=frame:interpolation=cubic[moving];[base][moving]overlay=0:110:format=yuv444,format=yuv420p[v]",
+      "image_sha256": "306cef6fd8cfb760cf150cc9f91687d07f51d324e0588c9b8704080dc48bc091",
+      "lossless_intermediate": false
+    },
+    "v02_intermediate_sha256": "a11f74af01fd93744cc75b39556778104dfa74efbb93d6597a3799ff8c210da1"
+  },
+  {
+    "key": "C02",
+    "base_asset": "C02",
+    "source": "Signet ring, ca. 1328–1318 BCE • The Met 22.9.3 • CC0",
+    "label": "PERIOD OBJECT｜同時代の品",
+    "texts": [
+      {
+        "text": "QUIET ORIGINS  /  EP008",
+        "bbox": [
+          92,
+          24,
+          431,
+          46
+        ]
+      },
+      {
+        "text": "PERIOD OBJECT｜同時代の品",
+        "bbox": [
+          1437.0,
+          21,
+          1820.0,
+          48
+        ]
+      },
+      {
+        "text": "Signet ring, ca. 1328–1318 BCE • The Met 22.9.3 • CC0",
+        "bbox": [
+          92,
+          72,
+          662,
+          95
+        ]
+      },
+      {
+        "text": "CONTEMPORARY OBJECT, NOT A KV62 FIND｜同時代の品・KV62出土品ではない",
+        "bbox": [
+          383.0,
+          132,
+          1537.0,
+          162
+        ]
+      }
+    ],
+    "art_boxes": [
+      [
+        487,
+        205,
+        1432,
+        895
+      ]
+    ],
+    "camera_band": [
+      205,
+      930
+    ],
+    "met_id": 549200,
+    "object_number": "22.9.3",
+    "rights": "CC0",
+    "original_sha256": "c7a1783163ec00b03ee488aaca6b6318dce7117ca713cdd02d589e5a995737cf",
+    "crop_is_not_recoloring": true,
+    "segment_id": "P09",
+    "file": "/Users/ryo/Desktop/新チャンネル/EP008_Tutankhamun/確認版_v02_20261030/assets/P09_02_C02.png",
+    "sha256": "bf7db8608d9847c40f517b8cc8483dbbcb7b37b8cbef55af633250b070df7fa2",
+    "start": 179.26666666666668,
+    "end": 184.53333333333333,
+    "frames": 158,
+    "encoded_file": "/Users/ryo/Desktop/新チャンネル/EP008_Tutankhamun/確認版_v02_20261030/_work/render/P09_02_C02.mp4",
+    "render_config": {
+      "frames": 158,
+      "filter": "[0:v]split=2[base][art];[art]crop=1920:725:0:205,format=yuv444p,perspective=x0='(W-W/(1+0.03*on/157))/2':y0='(H-H/(1+0.03*on/157))/2':x1='(W-W/(1+0.03*on/157))/2+W/(1+0.03*on/157)':y1='(H-H/(1+0.03*on/157))/2':x2='(W-W/(1+0.03*on/157))/2':y2='(H-H/(1+0.03*on/157))/2+H/(1+0.03*on/157)':x3='(W-W/(1+0.03*on/157))/2+W/(1+0.03*on/157)':y3='(H-H/(1+0.03*on/157))/2+H/(1+0.03*on/157)':sense=source:eval=frame:interpolation=cubic[moving];[base][moving]overlay=0:205:format=yuv444,format=yuv420p[v]",
+      "image_sha256": "bf7db8608d9847c40f517b8cc8483dbbcb7b37b8cbef55af633250b070df7fa2",
+      "lossless_intermediate": false
+    },
+    "v02_intermediate_sha256": "58964195b16c7748f001975935aa5057c4549b61d192957fdd481329b4f55d9d"
+  },
+  {
+    "key": "B312",
+    "base_asset": "B312",
+    "source": "Carter & Mace, The Tomb of Tut.ankh.Amen, vol. I (1923) • p. 258 • MIT Libraries",
+    "label": "PRINTED BOOK｜刊本",
+    "texts": [
+      {
+        "text": "QUIET ORIGINS  /  EP008",
+        "bbox": [
+          92,
+          24,
+          431,
+          46
+        ]
+      },
+      {
+        "text": "PRINTED BOOK｜刊本",
+        "bbox": [
+          1529.0,
+          21,
+          1820.0,
+          48
+        ]
+      },
+      {
+        "text": "Carter & Mace, The Tomb of Tut.ankh.Amen, vol. I (1923) • p. 258 • MIT Libraries",
+        "bbox": [
+          92,
+          72,
+          918,
+          95
+        ]
+      }
+    ],
+    "art_boxes": [
+      [
+        80,
+        326,
+        1840,
+        718
+      ]
+    ],
+    "camera_band": [
+      110,
+      930
+    ],
+    "crop_normalized": [
+      0.245,
+      0.588,
+      0.965,
+      0.694
+    ],
+    "rotation_degrees_ccw": 0,
+    "post_rotation_crop_top_fraction": 0,
+    "background_also_uses_only_crop": true,
+    "full_bleed": false,
+    "segment_id": "P09",
+    "file": "/Users/ryo/Desktop/新チャンネル/EP008_Tutankhamun/確認版_v02_20261030/assets/P09_03_B312.png",
+    "sha256": "0162de6e31be0bf5a6060a1619f60da7b4f462ae9582e4d1bcf336657d604a5e",
+    "start": 184.53333333333333,
+    "end": 193.73333333333332,
+    "frames": 276,
+    "encoded_file": "/Users/ryo/Desktop/新チャンネル/EP008_Tutankhamun/確認版_v02_20261030/_work/render/P09_03_B312.mp4",
+    "render_config": {
+      "frames": 276,
+      "filter": "[0:v]split=2[base][art];[art]crop=1920:820:0:110,format=yuv444p,perspective=x0='(W-W/(1+0.03*on/275))/2':y0='(H-H/(1+0.03*on/275))/2':x1='(W-W/(1+0.03*on/275))/2+W/(1+0.03*on/275)':y1='(H-H/(1+0.03*on/275))/2':x2='(W-W/(1+0.03*on/275))/2':y2='(H-H/(1+0.03*on/275))/2+H/(1+0.03*on/275)':x3='(W-W/(1+0.03*on/275))/2+W/(1+0.03*on/275)':y3='(H-H/(1+0.03*on/275))/2+H/(1+0.03*on/275)':sense=source:eval=frame:interpolation=cubic[moving];[base][moving]overlay=0:110:format=yuv444,format=yuv420p[v]",
+      "image_sha256": "0162de6e31be0bf5a6060a1619f60da7b4f462ae9582e4d1bcf336657d604a5e",
+      "lossless_intermediate": false
+    },
+    "v02_intermediate_sha256": "996c38fbe85f22c90c6815ae799df5efced22916194280ab05cd9e541ba930d0"
+  },
+  {
+    "key": "D_novels_1869",
+    "base_asset": null,
+    "source": "",
+    "label": "TITLE CARD｜文字カード",
+    "texts": [
+      {
+        "text": "QUIET ORIGINS  /  EP008",
+        "bbox": [
+          92,
+          24,
+          431,
+          46
+        ]
+      },
+      {
+        "text": "TITLE CARD｜文字カード",
+        "bbox": [
+          1493.0,
+          21,
+          1820.0,
+          48
+        ]
+      },
+      {
+        "text": "Alcott (1869) / Doyle (1892) • titles, not facsimile pages",
+        "bbox": [
+          91,
+          72,
+          652,
+          95
+        ]
+      },
+      {
+        "text": "1869  Louisa May Alcott",
+        "bbox": [
+          703.0234375,
+          229,
+          1217.0234375,
+          274
+        ],
+        "font_size": 48,
+        "fill": "#5a3a1a",
+        "centered": true,
+        "serif": false
+      },
+      {
+        "text": "Lost in a Pyramid; or, The Mummy’s Curse",
+        "bbox": [
+          304.5,
+          292,
+          1615.5,
+          359
+        ],
+        "font_size": 69,
+        "fill": "#3b2c21",
+        "centered": true,
+        "serif": true
+      },
+      {
+        "text": "ルイザ・メイ・オルコット",
+        "bbox": [
+          720.0,
+          370,
+          1200.0,
+          409
+        ],
+        "font_size": 40,
+        "fill": "#3b2c21",
+        "centered": true,
+        "serif": false
+      },
+      {
+        "text": "「ピラミッドで迷って、あるいはミイラの呪い」",
+        "bbox": [
+          520.0,
+          427,
+          1400.0,
+          465
+        ],
+        "font_size": 40,
+        "fill": "#3b2c21",
+        "centered": true,
+        "serif": false
+      }
+    ],
+    "art_boxes": [],
+    "camera_band": [
+      110,
+      700
+    ],
+    "static_source": false,
+    "intentional_reveal": false,
+    "segment_id": "P10",
+    "file": "assets/P10_D_novels_1869.png",
+    "sha256": "9e2594989eeb6726b70e0fa1b64459f9e94fcfdc3a71e8a658ee8e8ed09c237b",
+    "start": 193.73333333333332,
+    "end": 214.86666666666667,
+    "frames": 634,
+    "encoded_file": "_work/render/P10_D_novels_1869.mp4",
+    "render_config": {
+      "frames": 634,
+      "filter": "[0:v]split=2[base][art];[art]crop=1920:590:0:110,format=yuv444p,perspective=x0='(W-W/(1+0.03*on/633))/2':y0='(H-H/(1+0.03*on/633))/2':x1='(W-W/(1+0.03*on/633))/2+W/(1+0.03*on/633)':y1='(H-H/(1+0.03*on/633))/2':x2='(W-W/(1+0.03*on/633))/2':y2='(H-H/(1+0.03*on/633))/2+H/(1+0.03*on/633)':x3='(W-W/(1+0.03*on/633))/2+W/(1+0.03*on/633)':y3='(H-H/(1+0.03*on/633))/2+H/(1+0.03*on/633)':sense=source:eval=frame:interpolation=cubic[moving];[base][moving]overlay=0:110:format=yuv444,format=yuv420p[v]",
+      "image_sha256": "9e2594989eeb6726b70e0fa1b64459f9e94fcfdc3a71e8a658ee8e8ed09c237b",
+      "lossless_intermediate": false
+    },
+    "body_texts": [
+      {
+        "text": "1869  Louisa May Alcott",
+        "bbox": [
+          703.0234375,
+          229,
+          1217.0234375,
+          274
+        ],
+        "font_size": 48,
+        "fill": "#5a3a1a",
+        "centered": true,
+        "serif": false
+      },
+      {
+        "text": "Lost in a Pyramid; or, The Mummy’s Curse",
+        "bbox": [
+          304.5,
+          292,
+          1615.5,
+          359
+        ],
+        "font_size": 69,
+        "fill": "#3b2c21",
+        "centered": true,
+        "serif": true
+      },
+      {
+        "text": "ルイザ・メイ・オルコット",
+        "bbox": [
+          720.0,
+          370,
+          1200.0,
+          409
+        ],
+        "font_size": 40,
+        "fill": "#3b2c21",
+        "centered": true,
+        "serif": false
+      },
+      {
+        "text": "「ピラミッドで迷って、あるいはミイラの呪い」",
+        "bbox": [
+          520.0,
+          427,
+          1400.0,
+          465
+        ],
+        "font_size": 40,
+        "fill": "#3b2c21",
+        "centered": true,
+        "serif": false
+      }
+    ],
+    "nontext_pixels_identical_to_v02": true,
+    "revision": "v03: body ink contrast / larger centered titles"
+  },
+  {
+    "key": "D_novels_1892",
+    "base_asset": null,
+    "source": "",
+    "label": "TITLE CARD｜文字カード",
+    "texts": [
+      {
+        "text": "QUIET ORIGINS  /  EP008",
+        "bbox": [
+          92,
+          24,
+          431,
+          46
+        ]
+      },
+      {
+        "text": "TITLE CARD｜文字カード",
+        "bbox": [
+          1493.0,
+          21,
+          1820.0,
+          48
+        ]
+      },
+      {
+        "text": "Alcott (1869) / Doyle (1892) • titles, not facsimile pages",
+        "bbox": [
+          91,
+          72,
+          652,
+          95
+        ]
+      },
+      {
+        "text": "1869  Louisa May Alcott",
+        "bbox": [
+          703.0234375,
+          229,
+          1217.0234375,
+          274
+        ],
+        "font_size": 48,
+        "fill": "#5a3a1a",
+        "centered": true,
+        "serif": false
+      },
+      {
+        "text": "Lost in a Pyramid; or, The Mummy’s Curse",
+        "bbox": [
+          304.5,
+          292,
+          1615.5,
+          359
+        ],
+        "font_size": 69,
+        "fill": "#3b2c21",
+        "centered": true,
+        "serif": true
+      },
+      {
+        "text": "ルイザ・メイ・オルコット",
+        "bbox": [
+          720.0,
+          370,
+          1200.0,
+          409
+        ],
+        "font_size": 40,
+        "fill": "#3b2c21",
+        "centered": true,
+        "serif": false
+      },
+      {
+        "text": "「ピラミッドで迷って、あるいはミイラの呪い」",
+        "bbox": [
+          520.0,
+          427,
+          1400.0,
+          465
+        ],
+        "font_size": 40,
+        "fill": "#3b2c21",
+        "centered": true,
+        "serif": false
+      },
+      {
+        "text": "1892  Arthur Conan Doyle",
+        "bbox": [
+          681.0234375,
+          508,
+          1239.0234375,
+          554
+        ],
+        "font_size": 48,
+        "fill": "#5a3a1a",
+        "centered": true,
+        "serif": false
+      },
+      {
+        "text": "Lot No. 249",
+        "bbox": [
+          778.5,
+          576,
+          1141.5,
+          636
+        ],
+        "font_size": 69,
+        "fill": "#3b2c21",
+        "centered": true,
+        "serif": true
+      },
+      {
+        "text": "アーサー・コナン・ドイル「競売番号249」",
+        "bbox": [
+          561.0,
+          647,
+          1359.0,
+          685
+        ],
+        "font_size": 40,
+        "fill": "#3b2c21",
+        "centered": true,
+        "serif": false
+      }
+    ],
+    "art_boxes": [],
+    "camera_band": [
+      110,
+      700
+    ],
+    "static_source": false,
+    "intentional_reveal": false,
+    "segment_id": "P10",
+    "file": "assets/P10_D_novels_1892.png",
+    "sha256": "0f1d828f52ae7f0095d82e59787d0ef611cfc7852b841f5f847e9b03acddfc6f",
+    "start": 214.86666666666667,
+    "end": 225.73333333333332,
+    "frames": 326,
+    "encoded_file": "_work/render/P10_D_novels_1892.mp4",
+    "render_config": {
+      "frames": 326,
+      "filter": "[0:v]split=2[base][art];[art]crop=1920:590:0:110,format=yuv444p,perspective=x0='(W-W/(1+0.03*on/325))/2':y0='(H-H/(1+0.03*on/325))/2':x1='(W-W/(1+0.03*on/325))/2+W/(1+0.03*on/325)':y1='(H-H/(1+0.03*on/325))/2':x2='(W-W/(1+0.03*on/325))/2':y2='(H-H/(1+0.03*on/325))/2+H/(1+0.03*on/325)':x3='(W-W/(1+0.03*on/325))/2+W/(1+0.03*on/325)':y3='(H-H/(1+0.03*on/325))/2+H/(1+0.03*on/325)':sense=source:eval=frame:interpolation=cubic[moving];[base][moving]overlay=0:110:format=yuv444,format=yuv420p[v]",
+      "image_sha256": "0f1d828f52ae7f0095d82e59787d0ef611cfc7852b841f5f847e9b03acddfc6f",
+      "lossless_intermediate": false
+    },
+    "body_texts": [
+      {
+        "text": "1869  Louisa May Alcott",
+        "bbox": [
+          703.0234375,
+          229,
+          1217.0234375,
+          274
+        ],
+        "font_size": 48,
+        "fill": "#5a3a1a",
+        "centered": true,
+        "serif": false
+      },
+      {
+        "text": "Lost in a Pyramid; or, The Mummy’s Curse",
+        "bbox": [
+          304.5,
+          292,
+          1615.5,
+          359
+        ],
+        "font_size": 69,
+        "fill": "#3b2c21",
+        "centered": true,
+        "serif": true
+      },
+      {
+        "text": "ルイザ・メイ・オルコット",
+        "bbox": [
+          720.0,
+          370,
+          1200.0,
+          409
+        ],
+        "font_size": 40,
+        "fill": "#3b2c21",
+        "centered": true,
+        "serif": false
+      },
+      {
+        "text": "「ピラミッドで迷って、あるいはミイラの呪い」",
+        "bbox": [
+          520.0,
+          427,
+          1400.0,
+          465
+        ],
+        "font_size": 40,
+        "fill": "#3b2c21",
+        "centered": true,
+        "serif": false
+      },
+      {
+        "text": "1892  Arthur Conan Doyle",
+        "bbox": [
+          681.0234375,
+          508,
+          1239.0234375,
+          554
+        ],
+        "font_size": 48,
+        "fill": "#5a3a1a",
+        "centered": true,
+        "serif": false
+      },
+      {
+        "text": "Lot No. 249",
+        "bbox": [
+          778.5,
+          576,
+          1141.5,
+          636
+        ],
+        "font_size": 69,
+        "fill": "#3b2c21",
+        "centered": true,
+        "serif": true
+      },
+      {
+        "text": "アーサー・コナン・ドイル「競売番号249」",
+        "bbox": [
+          561.0,
+          647,
+          1359.0,
+          685
+        ],
+        "font_size": 40,
+        "fill": "#3b2c21",
+        "centered": true,
+        "serif": false
+      }
+    ],
+    "nontext_pixels_identical_to_v02": true,
+    "revision": "v03: body ink contrast / larger centered titles"
+  },
+  {
+    "key": "D_warning",
+    "base_asset": null,
+    "source": "",
+    "label": "SCHEMATIC｜模式図",
+    "texts": [
+      {
+        "text": "QUIET ORIGINS  /  EP008",
+        "bbox": [
+          92,
+          24,
+          431,
+          46
+        ]
+      },
+      {
+        "text": "SCHEMATIC｜模式図",
+        "bbox": [
+          1545.0,
+          21,
+          1820.0,
+          48
+        ]
+      },
+      {
+        "text": "Hetepherakhty, c. 2400 BC • Rijksmuseum van Oudheden commentary",
+        "bbox": [
+          92,
+          72,
+          823,
+          95
+        ]
+      },
+      {
+        "text": "c. 2400 BC",
+        "bbox": [
+          243.5,
+          374,
+          486.5,
+          411
+        ],
+        "font_size": 49,
+        "fill": "#5a3a1a",
+        "centered": true,
+        "serif": false
+      },
+      {
+        "text": "TOMB CHAPEL WARNING",
+        "bbox": [
+          169.0234375,
+          445,
+          561.0234375,
+          468
+        ],
+        "font_size": 32,
+        "fill": "#5a3a1a",
+        "centered": true,
+        "serif": false
+      },
+      {
+        "text": "前2400年ごろ 墓の礼拝室の警告",
+        "bbox": [
+          162.5,
+          495,
+          567.5,
+          522
+        ],
+        "font_size": 27,
+        "fill": "#5a3a1a",
+        "centered": true,
+        "serif": false
+      },
+      {
+        "text": "c. 1330 BC",
+        "bbox": [
+          838.5,
+          374,
+          1081.5,
+          411
+        ],
+        "font_size": 49,
+        "fill": "#3b2c21",
+        "centered": true,
+        "serif": false
+      },
+      {
+        "text": "TUTANKHAMUN",
+        "bbox": [
+          837.515625,
+          445,
+          1082.515625,
+          468
+        ],
+        "font_size": 32,
+        "fill": "#3b2c21",
+        "centered": true,
+        "serif": false
+      },
+      {
+        "text": "前1330年ごろ ツタンカーメン",
+        "bbox": [
+          771.0,
+          495,
+          1149.0,
+          522
+        ],
+        "font_size": 27,
+        "fill": "#3b2c21",
+        "centered": true,
+        "serif": false
+      },
+      {
+        "text": "1922",
+        "bbox": [
+          1501.0,
+          375,
+          1609.0,
+          410
+        ],
+        "font_size": 49,
+        "fill": "#3b2c21",
+        "centered": true,
+        "serif": false
+      },
+      {
+        "text": "DISCOVERY",
+        "bbox": [
+          1461.5078125,
+          445,
+          1649.5078125,
+          468
+        ],
+        "font_size": 32,
+        "fill": "#3b2c21",
+        "centered": true,
+        "serif": false
+      },
+      {
+        "text": "1922年 発見",
+        "bbox": [
+          1474.0,
+          495,
+          1636.0,
+          522
+        ],
+        "font_size": 27,
+        "fill": "#3b2c21",
+        "centered": true,
+        "serif": false
+      }
+    ],
+    "art_boxes": [],
+    "camera_band": [
+      110,
+      700
+    ],
+    "static_source": true,
+    "intentional_reveal": false,
+    "segment_id": "P11",
+    "file": "assets/P11_D_warning.png",
+    "sha256": "a56a6dc020013807715a21bc1c1959ce7f5b7030f91dd1680a437aac8d4420db",
+    "start": 225.73333333333332,
+    "end": 229.26666666666668,
+    "frames": 106,
+    "encoded_file": "_work/render/P11_D_warning.mp4",
+    "render_config": {
+      "frames": 106,
+      "filter": "[0:v]format=yuv420p[v]",
+      "image_sha256": "a56a6dc020013807715a21bc1c1959ce7f5b7030f91dd1680a437aac8d4420db",
+      "lossless_intermediate": true
+    },
+    "body_texts": [
+      {
+        "text": "c. 2400 BC",
+        "bbox": [
+          243.5,
+          374,
+          486.5,
+          411
+        ],
+        "font_size": 49,
+        "fill": "#5a3a1a",
+        "centered": true,
+        "serif": false
+      },
+      {
+        "text": "TOMB CHAPEL WARNING",
+        "bbox": [
+          169.0234375,
+          445,
+          561.0234375,
+          468
+        ],
+        "font_size": 32,
+        "fill": "#5a3a1a",
+        "centered": true,
+        "serif": false
+      },
+      {
+        "text": "前2400年ごろ 墓の礼拝室の警告",
+        "bbox": [
+          162.5,
+          495,
+          567.5,
+          522
+        ],
+        "font_size": 27,
+        "fill": "#5a3a1a",
+        "centered": true,
+        "serif": false
+      },
+      {
+        "text": "c. 1330 BC",
+        "bbox": [
+          838.5,
+          374,
+          1081.5,
+          411
+        ],
+        "font_size": 49,
+        "fill": "#3b2c21",
+        "centered": true,
+        "serif": false
+      },
+      {
+        "text": "TUTANKHAMUN",
+        "bbox": [
+          837.515625,
+          445,
+          1082.515625,
+          468
+        ],
+        "font_size": 32,
+        "fill": "#3b2c21",
+        "centered": true,
+        "serif": false
+      },
+      {
+        "text": "前1330年ごろ ツタンカーメン",
+        "bbox": [
+          771.0,
+          495,
+          1149.0,
+          522
+        ],
+        "font_size": 27,
+        "fill": "#3b2c21",
+        "centered": true,
+        "serif": false
+      },
+      {
+        "text": "1922",
+        "bbox": [
+          1501.0,
+          375,
+          1609.0,
+          410
+        ],
+        "font_size": 49,
+        "fill": "#3b2c21",
+        "centered": true,
+        "serif": false
+      },
+      {
+        "text": "DISCOVERY",
+        "bbox": [
+          1461.5078125,
+          445,
+          1649.5078125,
+          468
+        ],
+        "font_size": 32,
+        "fill": "#3b2c21",
+        "centered": true,
+        "serif": false
+      },
+      {
+        "text": "1922年 発見",
+        "bbox": [
+          1474.0,
+          495,
+          1636.0,
+          522
+        ],
+        "font_size": 27,
+        "fill": "#3b2c21",
+        "centered": true,
+        "serif": false
+      }
+    ],
+    "nontext_pixels_identical_to_v02": true,
+    "revision": "v03: body ink contrast / larger centered titles"
+  },
+  {
+    "key": "C03",
+    "base_asset": "C03",
+    "source": "Mastaba of Perneb, ca. 2381–2323 BCE • The Met 13.183.3 • CC0",
+    "label": "TOMB CHAPEL, 5TH DYNASTY｜第5王朝の礼拝室",
+    "texts": [
+      {
+        "text": "QUIET ORIGINS  /  EP008",
+        "bbox": [
+          92,
+          24,
+          431,
+          46
+        ]
+      },
+      {
+        "text": "TOMB CHAPEL, 5TH DYNASTY｜第5王朝の礼拝室",
+        "bbox": [
+          1165.0,
+          21,
+          1820.0,
+          49
+        ]
+      },
+      {
+        "text": "Mastaba of Perneb, ca. 2381–2323 BCE • The Met 13.183.3 • CC0",
+        "bbox": [
+          92,
+          72,
+          773,
+          93
+        ]
+      },
+      {
+        "text": "NOT THE ONE QUOTED｜引用された礼拝室とは別の墓",
+        "bbox": [
+          583.5,
+          132,
+          1336.5,
+          161
+        ]
+      },
+      {
+        "text": "同時代の別の墓の礼拝室",
+        "bbox": [
+          800.5,
+          181,
+          1119.5,
+          210
+        ]
+      }
+    ],
+    "art_boxes": [
+      [
+        674,
+        235,
+        1245,
+        925
+      ]
+    ],
+    "camera_band": [
+      235,
+      930
+    ],
+    "met_id": 543937,
+    "object_number": "13.183.3",
+    "rights": "CC0",
+    "original_sha256": "273c3ee323c2af74840d78f3090353db03abaae87835e98cb0e5f7c04ceef06a",
+    "crop_is_not_recoloring": true,
+    "segment_id": "P11",
+    "file": "/Users/ryo/Desktop/新チャンネル/EP008_Tutankhamun/確認版_v02_20261030/assets/P11_02_C03.png",
+    "sha256": "665256323a5f89dbaffc7dd445c841a79e3f72183bad8ed3b244d1e35055ee3c",
+    "start": 229.26666666666668,
+    "end": 250.46666666666667,
+    "frames": 636,
+    "encoded_file": "/Users/ryo/Desktop/新チャンネル/EP008_Tutankhamun/確認版_v02_20261030/_work/render/P11_02_C03.mp4",
+    "render_config": {
+      "frames": 636,
+      "filter": "[0:v]split=2[base][art];[art]crop=1920:695:0:235,format=yuv444p,perspective=x0='(W-W/(1+0.03*on/635))/2':y0='(H-H/(1+0.03*on/635))/2':x1='(W-W/(1+0.03*on/635))/2+W/(1+0.03*on/635)':y1='(H-H/(1+0.03*on/635))/2':x2='(W-W/(1+0.03*on/635))/2':y2='(H-H/(1+0.03*on/635))/2+H/(1+0.03*on/635)':x3='(W-W/(1+0.03*on/635))/2+W/(1+0.03*on/635)':y3='(H-H/(1+0.03*on/635))/2+H/(1+0.03*on/635)':sense=source:eval=frame:interpolation=cubic[moving];[base][moving]overlay=0:235:format=yuv444,format=yuv420p[v]",
+      "image_sha256": "665256323a5f89dbaffc7dd445c841a79e3f72183bad8ed3b244d1e35055ee3c",
+      "lossless_intermediate": false
+    },
+    "v02_intermediate_sha256": "c4c642f60b3e53425e0ad7e603c06d34eb111f635c96e063be740feb853b464c"
+  },
+  {
+    "key": "B246",
+    "base_asset": "B246",
+    "source": "Carter & Mace, The Tomb of Tut.ankh.Amen, vol. I (1923) • photo: Harry Burton • MIT Libraries",
+    "label": "EXCAVATION PHOTO｜発掘写真",
+    "texts": [
+      {
+        "text": "QUIET ORIGINS  /  EP008",
+        "bbox": [
+          92,
+          24,
+          431,
+          46
+        ]
+      },
+      {
+        "text": "EXCAVATION PHOTO｜発掘写真",
+        "bbox": [
+          1394.0,
+          21,
+          1820.0,
+          48
+        ]
+      },
+      {
+        "text": "Carter & Mace, The Tomb of Tut.ankh.Amen, vol. I (1923) • photo: Harry Burton • MIT Libraries",
+        "bbox": [
+          92,
+          72,
+          1056,
+          95
+        ]
+      }
+    ],
+    "art_boxes": [
+      [
+        425,
+        125,
+        1495,
+        920
+      ]
+    ],
+    "camera_band": [
+      110,
+      930
+    ],
+    "crop_normalized": [
+      0.09,
+      0.09,
+      0.91,
+      0.82
+    ],
+    "rotation_degrees_ccw": 270,
+    "post_rotation_crop_top_fraction": 0,
+    "background_also_uses_only_crop": true,
+    "full_bleed": false,
+    "segment_id": "P12",
+    "file": "/Users/ryo/Desktop/新チャンネル/EP008_Tutankhamun/確認版_v02_20261030/assets/P12_01_B246.png",
+    "sha256": "dcfd9b5d74831cb0c1ec1097eb05d39af4b2081eca1ab780a1da761f666b1916",
+    "start": 250.46666666666667,
+    "end": 260.5,
+    "frames": 301,
+    "encoded_file": "/Users/ryo/Desktop/新チャンネル/EP008_Tutankhamun/確認版_v02_20261030/_work/render/P12_01_B246.mp4",
+    "render_config": {
+      "frames": 301,
+      "filter": "[0:v]split=2[base][art];[art]crop=1920:820:0:110,format=yuv444p,perspective=x0='(W-W/(1+0.03*on/300))/2':y0='(H-H/(1+0.03*on/300))/2':x1='(W-W/(1+0.03*on/300))/2+W/(1+0.03*on/300)':y1='(H-H/(1+0.03*on/300))/2':x2='(W-W/(1+0.03*on/300))/2':y2='(H-H/(1+0.03*on/300))/2+H/(1+0.03*on/300)':x3='(W-W/(1+0.03*on/300))/2+W/(1+0.03*on/300)':y3='(H-H/(1+0.03*on/300))/2+H/(1+0.03*on/300)':sense=source:eval=frame:interpolation=cubic[moving];[base][moving]overlay=0:110:format=yuv444,format=yuv420p[v]",
+      "image_sha256": "dcfd9b5d74831cb0c1ec1097eb05d39af4b2081eca1ab780a1da761f666b1916",
+      "lossless_intermediate": false
+    },
+    "v02_intermediate_sha256": "a4acca4807cfaea5cb6730dbf76891ea6a2bfe2b2d8c6b8049109e9f14e47f9d"
+  },
+  {
+    "key": "D_bmj",
+    "base_asset": null,
+    "source": "",
+    "label": "SCHEMATIC｜模式図",
+    "texts": [
+      {
+        "text": "QUIET ORIGINS  /  EP008",
+        "bbox": [
+          92,
+          24,
+          431,
+          46
+        ]
+      },
+      {
+        "text": "SCHEMATIC｜模式図",
+        "bbox": [
+          1545.0,
+          21,
+          1820.0,
+          48
+        ]
+      },
+      {
+        "text": "Nelson, BMJ 2002;325:1482–1484 • historical cohort study",
+        "bbox": [
+          92,
+          72,
+          694,
+          95
+        ]
+      },
+      {
+        "text": "PRESENT AT KEY OPENINGS",
+        "bbox": [
+          278.5625,
+          216,
+          761.5625,
+          241
+        ],
+        "font_size": 34,
+        "fill": "#5a3a1a",
+        "centered": true,
+        "serif": false
+      },
+      {
+        "text": "開封に立ち会った人",
+        "bbox": [
+          367.0,
+          271,
+          673.0,
+          304
+        ],
+        "font_size": 34,
+        "fill": "#3b2c21",
+        "centered": true,
+        "serif": false
+      },
+      {
+        "text": "25",
+        "bbox": [
+          469.0,
+          343,
+          571.0,
+          410
+        ],
+        "font_size": 92,
+        "fill": "#3b2c21",
+        "centered": true,
+        "serif": false
+      },
+      {
+        "text": "NOT PRESENT",
+        "bbox": [
+          1278.0078125,
+          216,
+          1522.0078125,
+          241
+        ],
+        "font_size": 34,
+        "fill": "#5a3a1a",
+        "centered": true,
+        "serif": false
+      },
+      {
+        "text": "立ち会わなかった人",
+        "bbox": [
+          1247.0,
+          271,
+          1553.0,
+          304
+        ],
+        "font_size": 34,
+        "fill": "#3b2c21",
+        "centered": true,
+        "serif": false
+      },
+      {
+        "text": "11",
+        "bbox": [
+          1349.0546875,
+          343,
+          1451.0546875,
+          409
+        ],
+        "font_size": 92,
+        "fill": "#3b2c21",
+        "centered": true,
+        "serif": false
+      },
+      {
+        "text": "NO STATISTICALLY SIGNIFICANT LINK",
+        "bbox": [
+          563.0859375,
+          533,
+          1357.0859375,
+          564
+        ],
+        "font_size": 43,
+        "fill": "#5a3a1a",
+        "centered": true,
+        "serif": false
+      },
+      {
+        "text": "統計的に有意な関連なし",
+        "bbox": [
+          751.0,
+          581,
+          1169.0,
+          618
+        ],
+        "font_size": 38,
+        "fill": "#3b2c21",
+        "centered": true,
+        "serif": false
+      },
+      {
+        "text": "Nelson, BMJ 2002 • 死亡情報が分かった36人",
+        "bbox": [
+          680.0,
+          648,
+          1240.0,
+          676
+        ],
+        "font_size": 26,
+        "fill": "#3b2c21",
+        "centered": true,
+        "serif": false
+      }
+    ],
+    "art_boxes": [],
+    "camera_band": [
+      110,
+      700
+    ],
+    "static_source": false,
+    "intentional_reveal": true,
+    "segment_id": "P12",
+    "file": "assets/P12_D_bmj.png",
+    "sha256": "61d4de9ac1c2a7ffbc2726a39313bba38ad6a7a4cb6671b52ea888ce9d2f6314",
+    "start": 260.5,
+    "end": 282.8,
+    "frames": 669,
+    "encoded_file": "_work/render/P12_D_bmj.mp4",
+    "render_config": {
+      "frames": 669,
+      "filter": "[0:v][1:v]overlay=enable='gte(n,60)'[a];[a][2:v]overlay=enable='gte(n,150)',format=yuv420p[v]",
+      "image_sha256": "61d4de9ac1c2a7ffbc2726a39313bba38ad6a7a4cb6671b52ea888ce9d2f6314",
+      "lossless_intermediate": true
+    },
+    "body_texts": [
+      {
+        "text": "PRESENT AT KEY OPENINGS",
+        "bbox": [
+          278.5625,
+          216,
+          761.5625,
+          241
+        ],
+        "font_size": 34,
+        "fill": "#5a3a1a",
+        "centered": true,
+        "serif": false
+      },
+      {
+        "text": "開封に立ち会った人",
+        "bbox": [
+          367.0,
+          271,
+          673.0,
+          304
+        ],
+        "font_size": 34,
+        "fill": "#3b2c21",
+        "centered": true,
+        "serif": false
+      },
+      {
+        "text": "25",
+        "bbox": [
+          469.0,
+          343,
+          571.0,
+          410
+        ],
+        "font_size": 92,
+        "fill": "#3b2c21",
+        "centered": true,
+        "serif": false
+      },
+      {
+        "text": "NOT PRESENT",
+        "bbox": [
+          1278.0078125,
+          216,
+          1522.0078125,
+          241
+        ],
+        "font_size": 34,
+        "fill": "#5a3a1a",
+        "centered": true,
+        "serif": false
+      },
+      {
+        "text": "立ち会わなかった人",
+        "bbox": [
+          1247.0,
+          271,
+          1553.0,
+          304
+        ],
+        "font_size": 34,
+        "fill": "#3b2c21",
+        "centered": true,
+        "serif": false
+      },
+      {
+        "text": "11",
+        "bbox": [
+          1349.0546875,
+          343,
+          1451.0546875,
+          409
+        ],
+        "font_size": 92,
+        "fill": "#3b2c21",
+        "centered": true,
+        "serif": false
+      },
+      {
+        "text": "NO STATISTICALLY SIGNIFICANT LINK",
+        "bbox": [
+          563.0859375,
+          533,
+          1357.0859375,
+          564
+        ],
+        "font_size": 43,
+        "fill": "#5a3a1a",
+        "centered": true,
+        "serif": false
+      },
+      {
+        "text": "統計的に有意な関連なし",
+        "bbox": [
+          751.0,
+          581,
+          1169.0,
+          618
+        ],
+        "font_size": 38,
+        "fill": "#3b2c21",
+        "centered": true,
+        "serif": false
+      },
+      {
+        "text": "Nelson, BMJ 2002 • 死亡情報が分かった36人",
+        "bbox": [
+          680.0,
+          648,
+          1240.0,
+          676
+        ],
+        "font_size": 26,
+        "fill": "#3b2c21",
+        "centered": true,
+        "serif": false
+      }
+    ],
+    "nontext_pixels_identical_to_v02": true,
+    "revision": "v03: body ink contrast / larger centered titles"
+  },
+  {
+    "key": "D_summary",
+    "base_asset": null,
+    "source": "",
+    "label": "SCHEMATIC｜模式図",
+    "texts": [
+      {
+        "text": "QUIET ORIGINS  /  EP008",
+        "bbox": [
+          92,
+          24,
+          431,
+          46
+        ]
+      },
+      {
+        "text": "SCHEMATIC｜模式図",
+        "bbox": [
+          1545.0,
+          21,
+          1820.0,
+          48
+        ]
+      },
+      {
+        "text": "Carter & Mace (1923) / US newspapers (April 1923) / earlier fiction",
+        "bbox": [
+          92,
+          72,
+          773,
+          95
+        ]
+      },
+      {
+        "text": "1869–1892 STORIES｜物語",
+        "bbox": [
+          663.0,
+          231,
+          1257.0,
+          273
+        ],
+        "font_size": 44,
+        "fill": "#3b2c21",
+        "centered": true,
+        "serif": false
+      },
+      {
+        "text": "APRIL 1923 A DEATH｜1923年4月 死去",
+        "bbox": [
+          529.0,
+          331,
+          1391.0,
+          373
+        ],
+        "font_size": 44,
+        "fill": "#3b2c21",
+        "centered": true,
+        "serif": false
+      },
+      {
+        "text": "NEWSPAPERS｜新聞",
+        "bbox": [
+          736.5,
+          431,
+          1183.5,
+          473
+        ],
+        "font_size": 44,
+        "fill": "#3b2c21",
+        "centered": true,
+        "serif": false
+      },
+      {
+        "text": "“THE CURSE”｜「呪い」",
+        "bbox": [
+          584.5,
+          588,
+          1335.5,
+          648
+        ],
+        "font_size": 64,
+        "fill": "#5a3a1a",
+        "centered": true,
+        "serif": false
+      }
+    ],
+    "art_boxes": [],
+    "camera_band": [
+      110,
+      700
+    ],
+    "static_source": true,
+    "intentional_reveal": false,
+    "segment_id": "P13",
+    "file": "assets/P13_D_summary.png",
+    "sha256": "780e90f3d3642efe68b3ffab6da30474faa850ea1c12460ff6852b0a0393ef8e",
+    "start": 282.8,
+    "end": 292.8333333333333,
+    "frames": 301,
+    "encoded_file": "_work/render/P13_D_summary.mp4",
+    "render_config": {
+      "frames": 301,
+      "filter": "[0:v]format=yuv420p[v]",
+      "image_sha256": "780e90f3d3642efe68b3ffab6da30474faa850ea1c12460ff6852b0a0393ef8e",
+      "lossless_intermediate": true
+    },
+    "body_texts": [
+      {
+        "text": "1869–1892 STORIES｜物語",
+        "bbox": [
+          663.0,
+          231,
+          1257.0,
+          273
+        ],
+        "font_size": 44,
+        "fill": "#3b2c21",
+        "centered": true,
+        "serif": false
+      },
+      {
+        "text": "APRIL 1923 A DEATH｜1923年4月 死去",
+        "bbox": [
+          529.0,
+          331,
+          1391.0,
+          373
+        ],
+        "font_size": 44,
+        "fill": "#3b2c21",
+        "centered": true,
+        "serif": false
+      },
+      {
+        "text": "NEWSPAPERS｜新聞",
+        "bbox": [
+          736.5,
+          431,
+          1183.5,
+          473
+        ],
+        "font_size": 44,
+        "fill": "#3b2c21",
+        "centered": true,
+        "serif": false
+      },
+      {
+        "text": "“THE CURSE”｜「呪い」",
+        "bbox": [
+          584.5,
+          588,
+          1335.5,
+          648
+        ],
+        "font_size": 64,
+        "fill": "#5a3a1a",
+        "centered": true,
+        "serif": false
+      }
+    ],
+    "nontext_pixels_identical_to_v02": true,
+    "revision": "v03: body ink contrast / larger centered titles"
+  },
+  {
+    "key": "C04",
+    "base_asset": "C04",
+    "source": "Necklace with Tutankhamun bead, ca. 1328–1318 BCE • The Met 66.99.163 • CC0",
+    "label": "PERIOD OBJECT｜同時代の品",
+    "texts": [
+      {
+        "text": "QUIET ORIGINS  /  EP008",
+        "bbox": [
+          92,
+          24,
+          431,
+          46
+        ]
+      },
+      {
+        "text": "PERIOD OBJECT｜同時代の品",
+        "bbox": [
+          1437.0,
+          21,
+          1820.0,
+          48
+        ]
+      },
+      {
+        "text": "Necklace with Tutankhamun bead, ca. 1328–1318 BCE • The Met 66.99.163 • CC0",
+        "bbox": [
+          92,
+          72,
+          941,
+          93
+        ]
+      },
+      {
+        "text": "MODERN RESTRINGING, NOT A KV62 FIND｜現代の再連結・KV62出土品ではない",
+        "bbox": [
+          389.5,
+          132,
+          1530.5,
+          162
+        ]
+      }
+    ],
+    "art_boxes": [
+      [
+        100,
+        405,
+        1820,
+        695
+      ]
+    ],
+    "camera_band": [
+      205,
+      930
+    ],
+    "met_id": 549980,
+    "object_number": "66.99.163",
+    "rights": "CC0",
+    "original_sha256": "16ef942875557ced5e4a8ec1837596616cea645add75abebdfa0513ff416b60b",
+    "crop_is_not_recoloring": true,
+    "segment_id": "P13",
+    "file": "/Users/ryo/Desktop/新チャンネル/EP008_Tutankhamun/確認版_v02_20261030/assets/P13_02_C04.png",
+    "sha256": "4eea7b8ed5d8bc8a0cb1fba7d8999630c0d6d329ab2d753efd11553e691b7c5f",
+    "start": 292.8333333333333,
+    "end": 304.1,
+    "frames": 338,
+    "encoded_file": "/Users/ryo/Desktop/新チャンネル/EP008_Tutankhamun/確認版_v02_20261030/_work/render/P13_02_C04.mp4",
+    "render_config": {
+      "frames": 338,
+      "filter": "[0:v]split=2[base][art];[art]crop=1920:725:0:205,format=yuv444p,perspective=x0='(W-W/(1+0.03*on/337))/2':y0='(H-H/(1+0.03*on/337))/2':x1='(W-W/(1+0.03*on/337))/2+W/(1+0.03*on/337)':y1='(H-H/(1+0.03*on/337))/2':x2='(W-W/(1+0.03*on/337))/2':y2='(H-H/(1+0.03*on/337))/2+H/(1+0.03*on/337)':x3='(W-W/(1+0.03*on/337))/2+W/(1+0.03*on/337)':y3='(H-H/(1+0.03*on/337))/2+H/(1+0.03*on/337)':sense=source:eval=frame:interpolation=cubic[moving];[base][moving]overlay=0:205:format=yuv444,format=yuv420p[v]",
+      "image_sha256": "4eea7b8ed5d8bc8a0cb1fba7d8999630c0d6d329ab2d753efd11553e691b7c5f",
+      "lossless_intermediate": false
+    },
+    "v02_intermediate_sha256": "1f58e91dcd82432f21be46706fb9b5c6b14ff3b343e220188b61706cfcd7b3b6"
+  },
+  {
+    "key": "V01",
+    "base_asset": "V01",
+    "source": "",
+    "label": "AI IMAGE｜AI映像",
+    "texts": [
+      {
+        "text": "QUIET ORIGINS  /  EP008",
+        "bbox": [
+          92,
+          24,
+          431,
+          46
+        ]
+      },
+      {
+        "text": "AI IMAGE｜AI映像",
+        "bbox": [
+          1586.0,
+          21,
+          1820.0,
+          48
+        ]
+      },
+      {
+        "text": "Kling AI • candle scene only",
+        "bbox": [
+          92,
+          73,
+          377,
+          95
+        ]
+      }
+    ],
+    "art_boxes": [
+      [
+        0,
+        110,
+        1920,
+        1080
+      ]
+    ],
+    "camera_band": [
+      110,
+      1080
+    ],
+    "segment_id": "P14",
+    "file": "/Users/ryo/Desktop/新チャンネル/EP008_Tutankhamun/確認版_v02_20261030/assets/P14_01_V01.png",
+    "sha256": "ea8db196961209a0741d3c87fd21b20c0229443e21113774767c6809f5cdb053",
+    "start": 304.1,
+    "end": 312.0,
+    "frames": 237,
+    "encoded_file": "/Users/ryo/Desktop/新チャンネル/EP008_Tutankhamun/確認版_v01_20261029/_work/render/P14_01_V01.mp4",
+    "v01_reuse_sha256": "530a921eb97ab4d96cf3184aa2bb65c89dbb46c6fff9db2014099f99aadae8e8",
+    "v02_intermediate_sha256": "530a921eb97ab4d96cf3184aa2bb65c89dbb46c6fff9db2014099f99aadae8e8"
+  },
+  {
+    "key": "credits",
+    "base_asset": null,
+    "source": "",
+    "label": "",
+    "texts": [
+      {
+        "text": "QUIET ORIGINS  /  EP008",
+        "bbox": [
+          92,
+          24,
+          431,
+          46
+        ]
+      },
+      {
+        "text": "English",
+        "bbox": [
+          130,
+          185,
+          219,
+          210
+        ]
+      },
+      {
+        "text": "Kokoro / Heart (af_heart)",
+        "bbox": [
+          390,
+          185,
+          667,
+          208
+        ]
+      },
+      {
+        "text": "日本語",
+        "bbox": [
+          130,
+          256,
+          211,
+          283
+        ]
+      },
+      {
+        "text": "VOICEVOX:冥鳴ひまり",
+        "bbox": [
+          390,
+          256,
+          656,
+          281
+        ]
+      },
+      {
+        "text": "Collections",
+        "bbox": [
+          130,
+          337,
+          264,
+          357
+        ]
+      },
+      {
+        "text": "MIT Libraries • Carter & Mace (1923), photos: Harry Burton",
+        "bbox": [
+          390,
+          337,
+          1047,
+          360
+        ]
+      },
+      {
+        "text": "Collections",
+        "bbox": [
+          130,
+          413,
+          264,
+          433
+        ]
+      },
+      {
+        "text": "University of Oregon Libraries • Public Domain Mark 1.0",
+        "bbox": [
+          390,
+          413,
+          1016,
+          436
+        ]
+      },
+      {
+        "text": "AI video",
+        "bbox": [
+          129,
+          489,
+          229,
+          509
+        ]
+      },
+      {
+        "text": "Kling AI • P14 candle only",
+        "bbox": [
+          390,
+          489,
+          682,
+          512
+        ]
+      },
+      {
+        "text": "Music",
+        "bbox": [
+          130,
+          565,
+          201,
+          585
+        ]
+      },
+      {
+        "text": "Suno • QO_THEME_A02",
+        "bbox": [
+          390,
+          565,
+          671,
+          588
+        ]
+      },
+      {
+        "text": "Collections",
+        "bbox": [
+          130,
+          641,
+          264,
+          661
+        ]
+      },
+      {
+        "text": "The Metropolitan Museum of Art • Open Access (CC0)",
+        "bbox": [
+          390,
+          641,
+          997,
+          664
+        ]
+      }
+    ],
+    "art_boxes": [],
+    "camera_band": [
+      110,
+      700
+    ],
+    "static_source": true,
+    "segment_id": "P15",
+    "file": "/Users/ryo/Desktop/新チャンネル/EP008_Tutankhamun/確認版_v02_20261030/assets/P15_01_credits.png",
+    "sha256": "1c4f6f0b1c79c5840e965bd9e427f819303ef35dfb2993685a5d13882c5adbb7",
+    "start": 312.0,
+    "end": 337.56666666666666,
+    "frames": 767,
+    "encoded_file": "/Users/ryo/Desktop/新チャンネル/EP008_Tutankhamun/確認版_v02_20261030/_work/render/P15_01_credits.mp4",
+    "render_config": {
+      "frames": 767,
+      "filter": "[0:v]format=yuv420p[v]",
+      "image_sha256": "1c4f6f0b1c79c5840e965bd9e427f819303ef35dfb2993685a5d13882c5adbb7",
+      "lossless_intermediate": true
+    },
+    "v02_intermediate_sha256": "ab45645fd54efe3f8899e383ab0e869521a133fbd034cc87d20ce491261d8be0"
+  },
+  {
+    "key": "endcard",
+    "segment_id": "BRAND",
+    "start": 337.56666666666666,
+    "end": 347.56666666666666,
+    "frames": 300,
+    "encoded_file": "/Users/ryo/Desktop/新チャンネル/ブランド素材/エンドカード_共通版_v02_20261023/deliverables/Quiet_Origins_endcard_v02.mp4",
+    "original_source": "/Users/ryo/Desktop/新チャンネル/ブランド素材/エンドカード_共通版_v02_20261023/deliverables/Quiet_Origins_endcard_v02.mp4",
+    "original_sha256": "3cd254cdd387d0ca8e3ef3c2f74ca3650dc64fb02609bcd09a21b3e36a3513a2",
+    "v02_intermediate_sha256": "3cd254cdd387d0ca8e3ef3c2f74ca3650dc64fb02609bcd09a21b3e36a3513a2"
+  }
+]

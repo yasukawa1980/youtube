@@ -1,0 +1,239 @@
+{
+  "passed": true,
+  "shot_count": 30,
+  "changed_actual_shots": 6,
+  "changed_card_groups": 5,
+  "preservation_checks": [
+    {
+      "file": "content.json",
+      "v02_byte_identical": true,
+      "sha256": "964f83717ec9f88ca2059e25476500471d0f7ff8a773089e7e62df19b59ee2bf"
+    },
+    {
+      "file": "content_en.json",
+      "v02_byte_identical": true,
+      "sha256": "f560cc9a5b1f16ddf9bed5a331e4760b92b1dc0af85f074285cc68e79af46d67"
+    },
+    {
+      "file": "master_timeline.json",
+      "v02_byte_identical": true,
+      "sha256": "eba80a05c3c5a8a5a7e4fd462aba060b362feb2123021711a6ea12642344f5d6"
+    },
+    {
+      "file": "narration_timeline_en.json",
+      "v02_byte_identical": true,
+      "sha256": "3b7b4d419c4501f21320658914cf910ff5184e01d46cd36a54e7a6e1ae0f6693"
+    },
+    {
+      "file": "narration_timeline_ja.json",
+      "v02_byte_identical": true,
+      "sha256": "c50f8006b8b2d9309aa095495bf92f04340e67843ea40b709c1958d82b17ac1b"
+    },
+    {
+      "file": "subtitle_cues_en.json",
+      "v02_byte_identical": true,
+      "sha256": "44a27be369f3be4b4bed223702fcaf509691ffff33ffe8ad8d58ea8318102fa5"
+    },
+    {
+      "file": "subtitle_cues_ja.json",
+      "v02_byte_identical": true,
+      "sha256": "c8d31412a23bc0c368eff4ded643f211a865a5559b7402d9d2ae683e6b2bc075"
+    },
+    {
+      "file": "audio_qc.json",
+      "v02_byte_identical": true,
+      "sha256": "60714af2a92b6fe9c9a5f00e8f354c5ceb6846b3474556013b8fd68494317403"
+    },
+    {
+      "language": "en",
+      "audio_stream_sha256": "SHA256=6f8023e8ec11563db2b99fe9001e7a44a4abcafb002bfead1c407bf40175f010",
+      "v02_audio_identical": true,
+      "srt_sha256": "f584af1e886a9fddf750f3afc08bcbade8961f864c0ee41f8e2a451a3ed7ce72",
+      "v02_srt_byte_identical": true
+    },
+    {
+      "language": "ja",
+      "audio_stream_sha256": "SHA256=164c10fb1826101d9e84ccf0a84c5a4f91987b26e424c1d6cce4ed60364fb0c1",
+      "v02_audio_identical": true,
+      "srt_sha256": "4299ffe60a01696dc2933276f7887be549b08a94ed135e007e3f0116eff63ca6",
+      "v02_srt_byte_identical": true
+    }
+  ],
+  "unchanged_24_shots": [
+    {
+      "key": "B286",
+      "v02_intermediate_sha256": "8007d2f056e196a5c831ff725830f06c20d54d8c82db6d7cf008b8653b4fefc3",
+      "identical": true
+    },
+    {
+      "key": "N03",
+      "v02_intermediate_sha256": "6f65968ca860909da6a2a99edc13a833b9bdf0859ab00f31c264f1d89dc344a8",
+      "identical": true
+    },
+    {
+      "key": "opening",
+      "v02_intermediate_sha256": "4f8e95fd166e52b6c601c87440006ded2eec298f54c3d6d6a951738b54f721a9",
+      "identical": true
+    },
+    {
+      "key": "B151",
+      "v02_intermediate_sha256": "4ff36ff921e443b2b469b760db47db525cce3271e1cbae2ac183c08cfdf8ef0c",
+      "identical": true
+    },
+    {
+      "key": "B157",
+      "v02_intermediate_sha256": "916f07d4c66ebe681d238024e8442c0c582e8b999710490c9044225b45085fcf",
+      "identical": true
+    },
+    {
+      "key": "B170",
+      "v02_intermediate_sha256": "99f4ed1a8afdaee43da7b084da3152e60426afd06b2a8330818091363cf9cb1f",
+      "identical": true
+    },
+    {
+      "key": "B164",
+      "v02_intermediate_sha256": "0a8b12ca04b55ae077e608f560c2c0149c20f1dc3d0f55ac10671605e46374a4",
+      "identical": true
+    },
+    {
+      "key": "B183",
+      "v02_intermediate_sha256": "6663e7e84fadf00244d0b24bb709d0d19c0109f2908c2c12cf8363d75ef3afaa",
+      "identical": true
+    },
+    {
+      "key": "C01",
+      "v02_intermediate_sha256": "7bb85f7a1609bdce4a81338ee63a0b88d11d9da171b505a89986998dd7386d6e",
+      "identical": true
+    },
+    {
+      "key": "B299",
+      "v02_intermediate_sha256": "9a63eda0bf3a255db0fd9900c31ebedc08b2ababf3742a2c091fade587a85c8f",
+      "identical": true
+    },
+    {
+      "key": "B300",
+      "v02_intermediate_sha256": "939edeeeddc9a6684747bb8420ed6965afe3d5a0aeba66ba95fb9e870e16c5cb",
+      "identical": true
+    },
+    {
+      "key": "B237",
+      "v02_intermediate_sha256": "cdd74ce266bbb1597c6ce1d04e550a39cdab84eb39687438c4df4d0cb4d24ee6",
+      "identical": true
+    },
+    {
+      "key": "B241",
+      "v02_intermediate_sha256": "8bf593ad7e1f1b7e06552484aa47276e7489314af99824f384497ce18560447f",
+      "identical": true
+    },
+    {
+      "key": "N01",
+      "v02_intermediate_sha256": "047b996e21ac3c805403d066e2a8005bed1418f3b2bf0a292a0779cad1aee4bf",
+      "identical": true
+    },
+    {
+      "key": "N02",
+      "v02_intermediate_sha256": "ed92bd5289391adee44670cdf39d0c1d9a3695b968537f8b5aaf7d626fc22157",
+      "identical": true
+    },
+    {
+      "key": "B313",
+      "v02_intermediate_sha256": "a11f74af01fd93744cc75b39556778104dfa74efbb93d6597a3799ff8c210da1",
+      "identical": true
+    },
+    {
+      "key": "C02",
+      "v02_intermediate_sha256": "58964195b16c7748f001975935aa5057c4549b61d192957fdd481329b4f55d9d",
+      "identical": true
+    },
+    {
+      "key": "B312",
+      "v02_intermediate_sha256": "996c38fbe85f22c90c6815ae799df5efced22916194280ab05cd9e541ba930d0",
+      "identical": true
+    },
+    {
+      "key": "C03",
+      "v02_intermediate_sha256": "c4c642f60b3e53425e0ad7e603c06d34eb111f635c96e063be740feb853b464c",
+      "identical": true
+    },
+    {
+      "key": "B246",
+      "v02_intermediate_sha256": "a4acca4807cfaea5cb6730dbf76891ea6a2bfe2b2d8c6b8049109e9f14e47f9d",
+      "identical": true
+    },
+    {
+      "key": "C04",
+      "v02_intermediate_sha256": "1f58e91dcd82432f21be46706fb9b5c6b14ff3b343e220188b61706cfcd7b3b6",
+      "identical": true
+    },
+    {
+      "key": "V01",
+      "v02_intermediate_sha256": "530a921eb97ab4d96cf3184aa2bb65c89dbb46c6fff9db2014099f99aadae8e8",
+      "identical": true
+    },
+    {
+      "key": "credits",
+      "v02_intermediate_sha256": "ab45645fd54efe3f8899e383ab0e869521a133fbd034cc87d20ce491261d8be0",
+      "identical": true
+    },
+    {
+      "key": "endcard",
+      "v02_intermediate_sha256": "3cd254cdd387d0ca8e3ef3c2f74ca3650dc64fb02609bcd09a21b3e36a3513a2",
+      "identical": true
+    }
+  ],
+  "card_strings_unchanged": true,
+  "card_nontext_pixels_identical_to_v02": true,
+  "thumbnails": [
+    {
+      "name": "wom08_サムネ168px比較_v02_20261030.jpg",
+      "sha256": "e539d355748a1fd7805ac1af155758d4f38b198594547aa18ab7400b478d412c",
+      "v02_byte_identical": true
+    },
+    {
+      "name": "wom08_サムネC_v02_20261030.jpg",
+      "sha256": "be428d0362c4cdf2d6e85459fb518471d3f7a7a7fbbd67377dcc4cc97562d5a6",
+      "v02_byte_identical": true
+    },
+    {
+      "name": "wom08_サムネB_v02_20261030.jpg",
+      "sha256": "9629aff01275253c26e8846e938d1e4c70595530f34b918736b0b3bfa11dcf3a",
+      "v02_byte_identical": true
+    },
+    {
+      "name": "wom08_サムネA_v02_20261030.jpg",
+      "sha256": "74dbc4f1d4511b923001048a89248071537f981247c20a09e55a94f3d023b6a3",
+      "v02_byte_identical": true
+    },
+    {
+      "name": "wom08_サムネD_v02_20261030.jpg",
+      "sha256": "e331e3c612022de0189921b3f25488bca4fcf403c411055fab50fa39975562e7",
+      "v02_byte_identical": true
+    }
+  ],
+  "base_assets_each_used_once": [
+    "B286",
+    "N03",
+    "B151",
+    "B157",
+    "B170",
+    "B164",
+    "B183",
+    "C01",
+    "B299",
+    "B300",
+    "B237",
+    "B241",
+    "N01",
+    "N02",
+    "B313",
+    "C02",
+    "B312",
+    "C03",
+    "B246",
+    "C04",
+    "V01"
+  ],
+  "endcard_exact_last_10_seconds": true,
+  "no_additional_generation_purchase_or_post": true,
+  "human_visual_review": "本人・Claudeのv03文字の読みやすさの確認待ち。音声はv02で試聴可。"
+}
