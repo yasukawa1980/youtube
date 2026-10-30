@@ -3,7 +3,7 @@ channel: IRO Sounds
 series: 小さな物語
 episode: 1
 title: あと一ページ、のはずだった。
-status: completed_v2_unpublished
+status: completed_v3_unpublished
 date: '2026-10-30'
 duration_seconds: 90
 width: 1920
@@ -21,22 +21,27 @@ sample_rate: 48000
 channels: 2
 mac_root: /Users/ryo/Desktop/BGM/IRO/Stories/01_あと一ページのはずだった
 ssd_root: /Volumes/ESD-EPB/BGM/IRO/Stories/01_あと一ページのはずだった
-main: 投稿用/irostory01_あと一ページのはずだった_完成v2.mp4
+main: 投稿用/irostory01_あと一ページのはずだった_完成v3.mp4
 thumbnail: 投稿用/irostory01_サムネ_v2.jpg
 render_script: iro/irostory01_仕上げ.py
-qc_report: iro/irostory01_完成検品_v2.json
+qc_report: iro/irostory01_音修正_検品_20261031.json
+visual_qc_report: iro/irostory01_完成検品_v2.json
+postprocess_script: iro/irostory01_音修正_20261031.py
+audio_revision_date: '2026-10-31'
 subjective_audio_review: pending_user_listening
 
 short:
-  status: completed_unpublished
+  status: completed_v2_unpublished
   date: '2026-10-31'
   duration_seconds: 36
   width: 1080
   height: 1920
   fps: 24
-  main: 投稿用/irostory01_ショート_あと一ページのはずだった_v1.mp4
+  main: 投稿用/irostory01_ショート_あと一ページのはずだった_v2.mp4
   cover: 投稿用/irostory01_ショート_カバー候補.jpg
   render_script: iro/irostory01_ショート制作.py
-  qc_report: iro/irostory01_ショート_完成検品.json
+  qc_report: iro/irostory01_音修正_検品_20261031.json
+  visual_qc_report: iro/irostory01_ショート_完成検品.json
+  postprocess_script: iro/irostory01_音修正_20261031.py
   upload_info: iro/irostory01_ショート_アップロード情報.md
   additional_generation_credits: 0
