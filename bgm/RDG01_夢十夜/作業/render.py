@@ -32,7 +32,7 @@ OPENING_LABEL = (0.5, '夏目漱石　夢十夜')
 LABEL = dict(LABEL_DEFAULT, y=70)
 OPENING = dict(LABEL, hold=4.0)    # 第一夜の札（約8秒）と重ならないように短く
 CTA = dict(CTA_DEFAULT, y=88)
-OUT = HERE.parent / '完成' / 'RDG01_夢十夜_朗読_試作.mp4'
+OUT = HERE.parent / '完成' / 'RDG01_夢十夜_朗読.mp4'
 PREVIEW = float(sys.argv[1]) if len(sys.argv) > 1 else None   # 秒。頭だけ試しに書き出す
 
 

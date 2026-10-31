@@ -1,13 +1,13 @@
-# 睡眠用朗読 / 01 —— 夏目漱石『夢十夜』全十話（試作）
+# 朗読 / 01 —— 夏目漱石『夢十夜』全十話
 #
 # ★★音も映像も bgmkit の外で作っている。 bgmkit で使うのはサムネ（thumb）だけ。
-#   実装は bgm/RDG01_夢十夜_試作/作業/（prep_text.py → narrate.py → render.py）。
-# ★画題は第一夜の「丸い墓石と真珠貝の庭」。プロンプトの全文は bgm/RDG01_夢十夜_試作/画像プロンプト/
+#   実装は bgm/RDG01_夢十夜/作業/（prep_text.py → narrate.py → render.py）。
+# ★画題は第一夜の「丸い墓石と真珠貝の庭」。プロンプトの全文は bgm/RDG01_夢十夜/画像プロンプト/
 
 genre: echoesofoldjapan     # EOJ と同じ新版画・題字＋小さな添え書きの型を借りる
 volume: 1
 slug: rdg01
-dir: "/Users/ryo/youtube/bgm/RDG01_夢十夜_試作"
+dir: "/Users/ryo/youtube/bgm/RDG01_夢十夜"
 
 brand: WHISPERS OF JAPAN   # ★EOJ の型を借りるが、この巻はEOJではない
 runtime: "1 HOUR"   # 59分42秒
@@ -25,5 +25,5 @@ thumb:
   tracking:
     brand: 4
 
-background: "/Users/ryo/youtube/bgm/RDG01_夢十夜_試作/画像/rdg01_06.png"
-thumb_out: "/Users/ryo/youtube/bgm/RDG01_夢十夜_試作/rdg01_サムネ_16x9.png"
+background: "/Users/ryo/youtube/bgm/RDG01_夢十夜/画像/rdg01_06.png"
+thumb_out: "/Users/ryo/youtube/bgm/RDG01_夢十夜/rdg01_サムネ_16x9.png"
