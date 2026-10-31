@@ -1,0 +1,29 @@
+# 睡眠用朗読 / 01 —— 夏目漱石『夢十夜』全十話（試作）
+#
+# ★★音も映像も bgmkit の外で作っている。 bgmkit で使うのはサムネ（thumb）だけ。
+#   実装は bgm/RDG01_夢十夜_試作/作業/（prep_text.py → narrate.py → render.py）。
+# ★画題は第一夜の「丸い墓石と真珠貝の庭」。プロンプトの全文は bgm/RDG01_夢十夜_試作/画像プロンプト/
+
+genre: echoesofoldjapan     # EOJ と同じ新版画・題字＋小さな添え書きの型を借りる
+volume: 1
+slug: rdg01
+dir: "/Users/ryo/youtube/bgm/RDG01_夢十夜_試作"
+
+brand: WHISPERS OF JAPAN   # ★EOJ の型を借りるが、この巻はEOJではない
+runtime: "1 HOUR"   # 59分42秒
+title_lines: [眠る前の朗読, 夢十夜]
+thumb_sub: 夏目漱石
+thumb_layout:
+  sub: 680
+thumb:
+  title_family: jp
+  sub_family: jp
+  sizes: {sub: 64}
+  font_index: {sub: 0}
+  tracking: {sub: 10}
+  title_fit: 760
+  tracking:
+    brand: 4
+
+background: "/Users/ryo/youtube/bgm/RDG01_夢十夜_試作/画像/rdg01_06.png"
+thumb_out: "/Users/ryo/youtube/bgm/RDG01_夢十夜_試作/rdg01_サムネ_16x9.png"
