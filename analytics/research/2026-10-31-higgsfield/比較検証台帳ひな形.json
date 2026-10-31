@@ -1,0 +1,109 @@
+{
+  "schema_version": 1,
+  "status": "PLAN_ONLY_NOT_AUTHORIZED",
+  "generation_enabled": false,
+  "note": "記録用ひな形。自動実行ファイルではない。項目が空なら生成不可。承認の作成・推定は禁止。",
+  "benchmark": {
+    "phase1": "same_Kling_model_provider_comparison",
+    "scenes": [
+      "Whispers_fixed_water_mist",
+      "IRO_person_dog_micro_motion",
+      "Quiet_Origins_historical_still_life"
+    ],
+    "providers": [
+      "Kling_direct",
+      "Higgsfield_Kling3.0"
+    ],
+    "repetitions_per_scene_provider": 2,
+    "planned_total_video_jobs": 12,
+    "seconds": 5,
+    "resolution": "1080p",
+    "ratio": "16:9",
+    "audio": false,
+    "pilot": "one matched pair; review before remaining jobs",
+    "phase2_optional_image_jobs": 6,
+    "phase3_optional_other_model_jobs": 3
+  },
+  "job_record_template": {
+    "record_id": null,
+    "channel": null,
+    "episode": null,
+    "scene": null,
+    "provider": null,
+    "model_id": null,
+    "model_version": null,
+    "cli_version": null,
+    "prompt": null,
+    "prompt_sha256": null,
+    "input_assets": [
+      {
+        "path": null,
+        "sha256": null,
+        "upload_authorized": false
+      }
+    ],
+    "parameters": {},
+    "quantity": 1,
+    "quote": {
+      "credits": null,
+      "currency": "provider_credits",
+      "quoted_at": null,
+      "quote_source": null,
+      "request_hash": null,
+      "billing_account_or_workspace_alias": null
+    },
+    "approval": {
+      "status": "pending",
+      "approved_at": null,
+      "user_message_reference": null,
+      "approved_request_hash": null,
+      "approved_credits": null,
+      "approved_quantity": null,
+      "retry_authorized": false
+    },
+    "request_state": "not_submitted",
+    "job_id": null,
+    "timestamps": {
+      "submitted_at": null,
+      "started_at": null,
+      "completed_at": null,
+      "downloaded_at": null
+    },
+    "actual_charge": {
+      "debit_credits": null,
+      "refunded_credits": null,
+      "transaction_reference": null
+    },
+    "local_output": {
+      "path": null,
+      "bytes": null,
+      "sha256": null,
+      "full_decode_passed": null,
+      "actual_seconds": null,
+      "width": null,
+      "height": null,
+      "fps": null,
+      "audio_stream_count": null
+    },
+    "assessment": {
+      "accepted": null,
+      "blind_label": null,
+      "consistency_25": null,
+      "temporal_stability_25": null,
+      "prompt_style_20": null,
+      "edit_loop_fit_20": null,
+      "detail_10": null,
+      "fatal_defect": null,
+      "human_minutes": null,
+      "reviewer": null
+    }
+  },
+  "rules": [
+    "No generate/create, training, upscale or workflow submissions without exact per-job cost disclosure and user approval.",
+    "Requote and reapprove changed parameters or prices.",
+    "Never resubmit on timeout; inspect the existing job ID.",
+    "Do not treat plan approval, download retry, or quality rejection as generation approval.",
+    "Do not store tokens or signed result URLs in Git.",
+    "Do not sum credits across providers."
+  ]
+}

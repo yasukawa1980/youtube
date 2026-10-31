@@ -1,0 +1,284 @@
+{
+  "date_jst": "2026-10-31",
+  "scope": "research_and_preparation_only",
+  "actions": {
+    "higgsfield_installations": 0,
+    "higgsfield_auth_logins": 0,
+    "generation_submissions": 0,
+    "media_uploads": 0,
+    "purchases": 0,
+    "existing_production_config_changes": 0,
+    "existing_media_moves_or_deletions": 0
+  },
+  "mac_observed": {
+    "macos": "26.6.2",
+    "build": "25G83",
+    "arch": "arm64",
+    "python": "3.15.0",
+    "ffmpeg": "8.1.1",
+    "gh": "2.93.0",
+    "higgsfield_found_on_current_path": false,
+    "node_npm_uv_found_on_current_path": false,
+    "brew_git_ffmpeg_ffprobe_available": true,
+    "mounted_volume_names": [
+      "ESD-EPB",
+      "ESD-02"
+    ],
+    "ssd_content_sync_checked": false
+  },
+  "cli_release": {
+    "tag": "v1.2.3",
+    "published_at": "2026-10-22T12:48:32Z",
+    "url": "https://github.com/higgsfield-ai/cli/releases/tag/v1.2.3",
+    "arm64_asset": "hf_1.2.3_darwin_arm64.tar.gz",
+    "bytes": 6818045,
+    "binary_downloaded_or_executed": false
+  },
+  "skills": {
+    "tree_commit": "4d0757471a704dac8729ea3c2ef0f3f330e0d9b6",
+    "generate_skill_version": "0.14.0",
+    "installed": false
+  },
+  "live_pricing_observation": {
+    "url": "https://higgsfield.ai/ja/pricing",
+    "method": "browser_visible_page_monthly_billing_selected_no_checkout",
+    "currency": "USD",
+    "tax_included": false,
+    "plus": {
+      "monthly_price": 59,
+      "monthly_credits": 1200,
+      "annual_monthly_equivalent": 47
+    },
+    "ultra_3000": {
+      "monthly_price": 129,
+      "monthly_credits": 3000,
+      "annual_monthly_equivalent": 99
+    },
+    "indicative_model_prices": [
+      {
+        "model": "Nano Banana Pro",
+        "unit": "image",
+        "credits": 2
+      },
+      {
+        "model": "Nano Banana Pro 4K",
+        "unit": "image",
+        "credits": 4
+      },
+      {
+        "model": "Kling 3.0",
+        "seconds": 5,
+        "resolution": "1080p",
+        "credits_approx": 8
+      }
+    ],
+    "account_specific_cli_quote_obtained": false
+  },
+  "known_conflicts": [
+    {
+      "source": "https://higgsfield.ai/blog/higgsfield-pricing-explained",
+      "article_plus_usd": 49,
+      "article_plus_credits": 1000,
+      "resolution": "Use live pricing page for plan budget; use generate cost for actual generation quote"
+    }
+  ],
+  "budget_assumptions": {
+    "image_credits": 2,
+    "attempts_per_accepted_asset": 1.5,
+    "reserve_fraction": 0.2,
+    "plus_available_for_production": 960,
+    "ultra_available_for_production": 2400,
+    "video_8sec_credits": [
+      13,
+      20,
+      40
+    ],
+    "all_assumptions_not_measured": true,
+    "credit_13_origin": "round_up(8cr/5sec*8sec); proportional extrapolation only, not a quote"
+  },
+  "monthly_sensitivity": [
+    {
+      "channel": "Whispers of Japan",
+      "new_images_per_episode": 10,
+      "new_video_clips_per_episode": 4,
+      "assumed_video_seconds": 8,
+      "assumed_video_credits": 13,
+      "expected_episode_credits": 108.0,
+      "plus_episodes_with_20pct_reserve": 8,
+      "ultra_episodes_with_20pct_reserve": 22
+    },
+    {
+      "channel": "IRO Sounds",
+      "new_images_per_episode": 1,
+      "new_video_clips_per_episode": 6,
+      "assumed_video_seconds": 8,
+      "assumed_video_credits": 13,
+      "expected_episode_credits": 120.0,
+      "plus_episodes_with_20pct_reserve": 8,
+      "ultra_episodes_with_20pct_reserve": 20
+    },
+    {
+      "channel": "Quiet Origins",
+      "new_images_per_episode": 4,
+      "new_video_clips_per_episode": 4,
+      "assumed_video_seconds": 8,
+      "assumed_video_credits": 13,
+      "expected_episode_credits": 90.0,
+      "plus_episodes_with_20pct_reserve": 10,
+      "ultra_episodes_with_20pct_reserve": 26
+    },
+    {
+      "channel": "Whispers of Japan",
+      "new_images_per_episode": 10,
+      "new_video_clips_per_episode": 4,
+      "assumed_video_seconds": 8,
+      "assumed_video_credits": 20,
+      "expected_episode_credits": 150.0,
+      "plus_episodes_with_20pct_reserve": 6,
+      "ultra_episodes_with_20pct_reserve": 16
+    },
+    {
+      "channel": "IRO Sounds",
+      "new_images_per_episode": 1,
+      "new_video_clips_per_episode": 6,
+      "assumed_video_seconds": 8,
+      "assumed_video_credits": 20,
+      "expected_episode_credits": 183.0,
+      "plus_episodes_with_20pct_reserve": 5,
+      "ultra_episodes_with_20pct_reserve": 13
+    },
+    {
+      "channel": "Quiet Origins",
+      "new_images_per_episode": 4,
+      "new_video_clips_per_episode": 4,
+      "assumed_video_seconds": 8,
+      "assumed_video_credits": 20,
+      "expected_episode_credits": 132.0,
+      "plus_episodes_with_20pct_reserve": 7,
+      "ultra_episodes_with_20pct_reserve": 18
+    },
+    {
+      "channel": "Whispers of Japan",
+      "new_images_per_episode": 10,
+      "new_video_clips_per_episode": 4,
+      "assumed_video_seconds": 8,
+      "assumed_video_credits": 40,
+      "expected_episode_credits": 270.0,
+      "plus_episodes_with_20pct_reserve": 3,
+      "ultra_episodes_with_20pct_reserve": 8
+    },
+    {
+      "channel": "IRO Sounds",
+      "new_images_per_episode": 1,
+      "new_video_clips_per_episode": 6,
+      "assumed_video_seconds": 8,
+      "assumed_video_credits": 40,
+      "expected_episode_credits": 363.0,
+      "plus_episodes_with_20pct_reserve": 2,
+      "ultra_episodes_with_20pct_reserve": 6
+    },
+    {
+      "channel": "Quiet Origins",
+      "new_images_per_episode": 4,
+      "new_video_clips_per_episode": 4,
+      "assumed_video_seconds": 8,
+      "assumed_video_credits": 40,
+      "expected_episode_credits": 252.0,
+      "plus_episodes_with_20pct_reserve": 3,
+      "ultra_episodes_with_20pct_reserve": 9
+    }
+  ],
+  "existing_kling_evidence": {
+    "iro20_credits": 384,
+    "iro20_clips": 6,
+    "iro20_seconds_each": 8,
+    "ep007_credits": 296,
+    "ep007_initial_clips": 4,
+    "ep007_initial_seconds_each": 8,
+    "ep007_revision_credits": 40,
+    "ep007_revision_seconds": 5,
+    "plan_recorded_20261022": "Pro",
+    "current_monthly_price": 32.56,
+    "current_monthly_credit_allowance": 3000,
+    "currency": "USD",
+    "current_plan": "Pro",
+    "billing_source": "user reply in this chat on 2026-10-31",
+    "tax_treatment_confirmed": false
+  },
+  "public_sources": [
+    {
+      "document": "cli-readme",
+      "url": "https://raw.githubusercontent.com/higgsfield-ai/cli/main/README.md",
+      "sha256": "4d390d1f8bcd7a7a3457e3edb7ecdd0094329f46a2aeb805f131d21e933f4630",
+      "bytes": 21246,
+      "method": "public_text_download_only_not_executed"
+    },
+    {
+      "document": "models",
+      "url": "https://raw.githubusercontent.com/higgsfield-ai/cli/main/MODELS.md",
+      "sha256": "a8bc9b7d62f6e2b23ac0001c92dafd7126fb8fa583cb37213f6d17cef8796f92",
+      "bytes": 38326,
+      "method": "public_text_download_only_not_executed"
+    },
+    {
+      "document": "cli-install",
+      "url": "https://raw.githubusercontent.com/higgsfield-ai/cli/main/install.sh",
+      "sha256": "19e1be64213b9982e2fd97bfbd4d9c22a7c3fe2fd56f2c5b5bea5933a9009c81",
+      "bytes": 4181,
+      "method": "public_text_download_only_not_executed"
+    },
+    {
+      "document": "skills-install",
+      "url": "https://raw.githubusercontent.com/higgsfield-ai/skills/main/INSTALL.md",
+      "sha256": "e2668aa6ea9db41d5bd6023eadb8c743b8c4a04a8d30f7d3a1511a4d002a800a",
+      "bytes": 4389,
+      "method": "public_text_download_only_not_executed"
+    },
+    {
+      "document": "generate-skill",
+      "url": "https://raw.githubusercontent.com/higgsfield-ai/skills/4d0757471a704dac8729ea3c2ef0f3f330e0d9b6/higgsfield-generate/SKILL.md",
+      "sha256": "9e0f535769258a0f38ba5be964d29cd21a08f05405644861dffe2ae7a246b3c5",
+      "bytes": 24853,
+      "method": "public_text_download_only_not_executed"
+    },
+    {
+      "document": "catalog",
+      "url": "https://raw.githubusercontent.com/higgsfield-ai/skills/4d0757471a704dac8729ea3c2ef0f3f330e0d9b6/higgsfield-generate/references/model-catalog.md",
+      "sha256": "9b5950846a8d0fe0e8ef6289513efc233ee38e3a0fbc0620b4f9cea04d08fda6",
+      "bytes": 21761,
+      "method": "public_text_download_only_not_executed"
+    },
+    {
+      "document": "media-inputs",
+      "url": "https://raw.githubusercontent.com/higgsfield-ai/skills/4d0757471a704dac8729ea3c2ef0f3f330e0d9b6/higgsfield-generate/references/media-inputs.md",
+      "sha256": "3d5b22ceab693e953cb67dbaeae2d4946421f8b1777505c41b7c700c192684ff",
+      "bytes": 7665,
+      "method": "public_text_download_only_not_executed"
+    },
+    {
+      "document": "setup",
+      "url": "https://raw.githubusercontent.com/higgsfield-ai/skills/4d0757471a704dac8729ea3c2ef0f3f330e0d9b6/setup",
+      "sha256": "e9be631a7a4b28801a3e6f82d9b5a8c3215193513b4ab92cff2bff61a4f010c4",
+      "bytes": 6962,
+      "method": "public_text_download_only_not_executed"
+    }
+  ],
+  "pending": [
+    "installation approval",
+    "authentication and account entitlement validation",
+    "exact I2V quote",
+    "per-generation approval",
+    "quality and timing benchmark"
+  ],
+  "cost_comparison_calculated": {
+    "kling_usd_per_credit": 0.010853333333333335,
+    "plus_usd_per_credit": 0.049166666666666664,
+    "kling_5sec_at_40credits_usd": 0.43413333333333337,
+    "higgsfield_5sec_at_indicative_8credits_usd": 0.3933333333333333,
+    "higgsfield_5sec_nominal_saving_fraction": 0.09398034398034416,
+    "higgsfield_8sec_break_even_credits": 14.127728813559324,
+    "plus_and_kling_monthly_total_usd": 91.56,
+    "ultra_and_kling_monthly_total_usd": 161.56,
+    "conditions": "Full allowance consumed; equal acceptance rate; Higgsfield rate not a live quote; tax excluded/unconfirmed"
+  }
+}
