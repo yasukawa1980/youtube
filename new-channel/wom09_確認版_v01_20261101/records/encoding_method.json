@@ -1,0 +1,182 @@
+{
+  "method": "Independent shot decoders feeding one raw-video encoder",
+  "shots": [
+    {
+      "key": "met_202259",
+      "frames": 969,
+      "input_profile": "High"
+    },
+    {
+      "key": "R06",
+      "frames": 467,
+      "input_profile": "High"
+    },
+    {
+      "key": "opening",
+      "frames": 120,
+      "input_profile": "High"
+    },
+    {
+      "key": "met_437394",
+      "frames": 371,
+      "input_profile": "High"
+    },
+    {
+      "key": "met_198621",
+      "frames": 373,
+      "input_profile": "High"
+    },
+    {
+      "key": "D_lastline",
+      "frames": 370,
+      "input_profile": "High 4:4:4 Predictive"
+    },
+    {
+      "key": "D_nohorse",
+      "frames": 154,
+      "input_profile": "High 4:4:4 Predictive"
+    },
+    {
+      "key": "met_247952",
+      "frames": 500,
+      "input_profile": "High"
+    },
+    {
+      "key": "D_options",
+      "frames": 354,
+      "input_profile": "High 4:4:4 Predictive"
+    },
+    {
+      "key": "met_254876",
+      "frames": 613,
+      "input_profile": "High"
+    },
+    {
+      "key": "D_passages",
+      "frames": 606,
+      "input_profile": "High 4:4:4 Predictive"
+    },
+    {
+      "key": "D_lostpoems",
+      "frames": 858,
+      "input_profile": "High 4:4:4 Predictive"
+    },
+    {
+      "key": "MYK01",
+      "frames": 659,
+      "input_profile": "High"
+    },
+    {
+      "key": "R04",
+      "frames": 424,
+      "input_profile": "High"
+    },
+    {
+      "key": "D_gifts",
+      "frames": 231,
+      "input_profile": "High 4:4:4 Predictive"
+    },
+    {
+      "key": "R01",
+      "frames": 398,
+      "input_profile": "High"
+    },
+    {
+      "key": "D_timeline",
+      "frames": 785,
+      "input_profile": "High 4:4:4 Predictive"
+    },
+    {
+      "key": "met_341207",
+      "frames": 672,
+      "input_profile": "High"
+    },
+    {
+      "key": "D_count",
+      "frames": 304,
+      "input_profile": "High 4:4:4 Predictive"
+    },
+    {
+      "key": "D_summary",
+      "frames": 453,
+      "input_profile": "High 4:4:4 Predictive"
+    },
+    {
+      "key": "met_253376",
+      "frames": 414,
+      "input_profile": "High"
+    },
+    {
+      "key": "met_254896",
+      "frames": 234,
+      "input_profile": "High"
+    },
+    {
+      "key": "credits",
+      "frames": 664,
+      "input_profile": "High 4:4:4 Predictive"
+    },
+    {
+      "key": "endcard",
+      "frames": 300,
+      "input_profile": "High"
+    }
+  ],
+  "command": [
+    "ffmpeg",
+    "-nostdin",
+    "-y",
+    "-v",
+    "warning",
+    "-f",
+    "rawvideo",
+    "-pixel_format",
+    "yuv420p",
+    "-video_size",
+    "1920x1080",
+    "-framerate",
+    "30",
+    "-i",
+    "pipe:0",
+    "-an",
+    "-c:v",
+    "libx264",
+    "-threads",
+    "3",
+    "-preset",
+    "medium",
+    "-crf",
+    "16",
+    "-profile:v",
+    "high",
+    "-level:v",
+    "4.1",
+    "-pix_fmt",
+    "yuv420p",
+    "-g",
+    "60",
+    "-bf",
+    "2",
+    "-maxrate",
+    "20M",
+    "-bufsize",
+    "30M",
+    "-fps_mode",
+    "passthrough",
+    "-video_track_timescale",
+    "15360",
+    "-movie_timescale",
+    "48000",
+    "-color_primaries",
+    "bt709",
+    "-color_trc",
+    "bt709",
+    "-colorspace",
+    "bt709",
+    "-movflags",
+    "+faststart",
+    "/Users/ryo/Desktop/新チャンネル/EP009_TrojanHorse/確認版_v01_20261101/_work/picture_master.mp4"
+  ],
+  "cut_timing": "Synthesized sentence boundaries; phrase offset estimated by character proportion within each sentence",
+  "diagram_reveals": "Explicit whole-frame row reveals; stage frame numbers recorded"
+}

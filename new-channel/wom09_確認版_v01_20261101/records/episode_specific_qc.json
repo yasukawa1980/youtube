@@ -1,0 +1,646 @@
+{
+  "source_video_sha256": "8624796718dce164ff941e035747bf80df759ef9438c799a470e65d2dc0e4aeb",
+  "passed": true,
+  "content_shots": 22,
+  "brand_shots": 2,
+  "source_uses": {
+    "met_202259": 1,
+    "R06": 1,
+    "met_437394": 1,
+    "met_198621": 1,
+    "met_247952": 1,
+    "met_254876": 1,
+    "MYK01": 1,
+    "R04": 1,
+    "R01": 1,
+    "met_341207": 1,
+    "met_253376": 1,
+    "met_254896": 1
+  },
+  "color_summary": {
+    "color": {
+      "shots": 9,
+      "seconds": 160.16666666666669
+    },
+    "warm_monochrome": {
+      "shots": 3,
+      "seconds": 42.96666666666667
+    },
+    "brand": {
+      "shots": 2,
+      "seconds": 14.0
+    },
+    "diagram": {
+      "shots": 9,
+      "seconds": 137.16666666666666
+    },
+    "credits": {
+      "shots": 1,
+      "seconds": 22.133333333333333
+    }
+  },
+  "color_shots": [
+    {
+      "key": "met_202259",
+      "class": "color",
+      "start": 0.0,
+      "end": 32.3,
+      "seconds": 32.3
+    },
+    {
+      "key": "R06",
+      "class": "warm_monochrome",
+      "start": 32.3,
+      "end": 47.86666666666667,
+      "seconds": 15.566666666666666
+    },
+    {
+      "key": "opening",
+      "class": "brand",
+      "start": 47.86666666666667,
+      "end": 51.86666666666667,
+      "seconds": 4.0
+    },
+    {
+      "key": "met_437394",
+      "class": "color",
+      "start": 51.86666666666667,
+      "end": 64.23333333333333,
+      "seconds": 12.366666666666667
+    },
+    {
+      "key": "met_198621",
+      "class": "color",
+      "start": 64.23333333333333,
+      "end": 76.66666666666667,
+      "seconds": 12.433333333333334
+    },
+    {
+      "key": "D_lastline",
+      "class": "diagram",
+      "start": 76.66666666666667,
+      "end": 89.0,
+      "seconds": 12.333333333333334
+    },
+    {
+      "key": "D_nohorse",
+      "class": "diagram",
+      "start": 89.0,
+      "end": 94.13333333333334,
+      "seconds": 5.133333333333334
+    },
+    {
+      "key": "met_247952",
+      "class": "color",
+      "start": 94.13333333333334,
+      "end": 110.8,
+      "seconds": 16.666666666666668
+    },
+    {
+      "key": "D_options",
+      "class": "diagram",
+      "start": 110.8,
+      "end": 122.6,
+      "seconds": 11.8
+    },
+    {
+      "key": "met_254876",
+      "class": "color",
+      "start": 122.6,
+      "end": 143.03333333333333,
+      "seconds": 20.433333333333334
+    },
+    {
+      "key": "D_passages",
+      "class": "diagram",
+      "start": 143.03333333333333,
+      "end": 163.23333333333332,
+      "seconds": 20.2
+    },
+    {
+      "key": "D_lostpoems",
+      "class": "diagram",
+      "start": 163.23333333333332,
+      "end": 191.83333333333334,
+      "seconds": 28.6
+    },
+    {
+      "key": "MYK01",
+      "class": "color",
+      "start": 191.83333333333334,
+      "end": 213.8,
+      "seconds": 21.966666666666665
+    },
+    {
+      "key": "R04",
+      "class": "warm_monochrome",
+      "start": 213.8,
+      "end": 227.93333333333334,
+      "seconds": 14.133333333333333
+    },
+    {
+      "key": "D_gifts",
+      "class": "diagram",
+      "start": 227.93333333333334,
+      "end": 235.63333333333333,
+      "seconds": 7.7
+    },
+    {
+      "key": "R01",
+      "class": "warm_monochrome",
+      "start": 235.63333333333333,
+      "end": 248.9,
+      "seconds": 13.266666666666667
+    },
+    {
+      "key": "D_timeline",
+      "class": "diagram",
+      "start": 248.9,
+      "end": 275.06666666666666,
+      "seconds": 26.166666666666668
+    },
+    {
+      "key": "met_341207",
+      "class": "color",
+      "start": 275.06666666666666,
+      "end": 297.46666666666664,
+      "seconds": 22.4
+    },
+    {
+      "key": "D_count",
+      "class": "diagram",
+      "start": 297.46666666666664,
+      "end": 307.6,
+      "seconds": 10.133333333333333
+    },
+    {
+      "key": "D_summary",
+      "class": "diagram",
+      "start": 307.6,
+      "end": 322.7,
+      "seconds": 15.1
+    },
+    {
+      "key": "met_253376",
+      "class": "color",
+      "start": 322.7,
+      "end": 336.5,
+      "seconds": 13.8
+    },
+    {
+      "key": "met_254896",
+      "class": "color",
+      "start": 336.5,
+      "end": 344.3,
+      "seconds": 7.8
+    },
+    {
+      "key": "credits",
+      "class": "credits",
+      "start": 344.3,
+      "end": 366.43333333333334,
+      "seconds": 22.133333333333333
+    },
+    {
+      "key": "endcard",
+      "class": "brand",
+      "start": 366.43333333333334,
+      "end": 376.43333333333334,
+      "seconds": 10.0
+    }
+  ],
+  "native_scales": [
+    {
+      "key": "met_202259",
+      "source_pixels": [
+        1378,
+        1383
+      ],
+      "crop_pixels": [
+        0,
+        0,
+        1378,
+        1383
+      ],
+      "initial_scale": 0.658200290275762,
+      "max_scale": 0.7042743105950654
+    },
+    {
+      "key": "MYK01",
+      "source_pixels": [
+        990,
+        885
+      ],
+      "crop_pixels": [
+        0,
+        0,
+        990,
+        885
+      ],
+      "initial_scale": 0.8777777777777778,
+      "max_scale": 0.9304444444444445
+    },
+    {
+      "key": "met_253376",
+      "source_pixels": [
+        4000,
+        3000
+      ],
+      "crop_pixels": [
+        1360,
+        960,
+        2640,
+        2070
+      ],
+      "initial_scale": 0.8198198198198198,
+      "max_scale": 0.8608108108108108
+    }
+  ],
+  "opening_zoom_finish_seconds": 21.966666666666665,
+  "opening_reference_cue_start": 21.974583333333335,
+  "maximum_text_bottom_y": 675,
+  "exact_screen_quotes": {
+    "D_lastline": "\"Thus held they funeral for Hector tamer of horses.\"",
+    "D_gifts": "\"I fear the Grecians even when they offer gifts.\""
+  },
+  "japanese_gaps": [
+    {
+      "after": "P01-01",
+      "before": "P01-02",
+      "seconds": 0.40000000000000036
+    },
+    {
+      "after": "P01-02",
+      "before": "P01-03",
+      "seconds": 0.3199999999999985
+    },
+    {
+      "after": "P01-03",
+      "before": "P01-04",
+      "seconds": 0.3999999999999986
+    },
+    {
+      "after": "P01-04",
+      "before": "P01-05",
+      "seconds": 0.3999999999999986
+    },
+    {
+      "after": "P01-05",
+      "before": "P01-06",
+      "seconds": 0.3200000000000003
+    },
+    {
+      "after": "P01-06",
+      "before": "segment end",
+      "seconds": 0.9053333333333313
+    },
+    {
+      "after": "P02-01",
+      "before": "P02-02",
+      "seconds": 0.5966666666666711
+    },
+    {
+      "after": "P02-02",
+      "before": "P02-03",
+      "seconds": 0.3200000000000003
+    },
+    {
+      "after": "P02-03",
+      "before": "P02-04",
+      "seconds": 0.3200000000000003
+    },
+    {
+      "after": "P02-04",
+      "before": "P02-05",
+      "seconds": 0.3200000000000003
+    },
+    {
+      "after": "P02-05",
+      "before": "P02-06",
+      "seconds": 0.3200000000000003
+    },
+    {
+      "after": "P02-06",
+      "before": "segment end",
+      "seconds": 1.6046666666666667
+    },
+    {
+      "after": "P03-01",
+      "before": "P03-02",
+      "seconds": 0.3200000000000003
+    },
+    {
+      "after": "P03-02",
+      "before": "P03-03",
+      "seconds": 0.3200000000000003
+    },
+    {
+      "after": "P03-03",
+      "before": "P03-04",
+      "seconds": 0.3199999999999932
+    },
+    {
+      "after": "P03-04",
+      "before": "P03-05",
+      "seconds": 0.3199999999999932
+    },
+    {
+      "after": "P03-05",
+      "before": "P03-06",
+      "seconds": 0.3200000000000074
+    },
+    {
+      "after": "P03-06",
+      "before": "segment end",
+      "seconds": 0.9173333333333318
+    },
+    {
+      "after": "P04-01",
+      "before": "P04-02",
+      "seconds": 0.3200000000000074
+    },
+    {
+      "after": "P04-02",
+      "before": "P04-03",
+      "seconds": 0.3200000000000074
+    },
+    {
+      "after": "P04-03",
+      "before": "segment end",
+      "seconds": 2.7146666666666732
+    },
+    {
+      "after": "P05-01",
+      "before": "P05-02",
+      "seconds": 0.3200000000000074
+    },
+    {
+      "after": "P05-02",
+      "before": "P05-03",
+      "seconds": 0.3199999999999932
+    },
+    {
+      "after": "P05-03",
+      "before": "P05-04",
+      "seconds": 0.3199999999999932
+    },
+    {
+      "after": "P05-04",
+      "before": "P05-05",
+      "seconds": 0.3200000000000074
+    },
+    {
+      "after": "P05-05",
+      "before": "segment end",
+      "seconds": 0.9253333333333273
+    },
+    {
+      "after": "P06-01",
+      "before": "P06-02",
+      "seconds": 0.7399999999999949
+    },
+    {
+      "after": "P06-02",
+      "before": "P06-03",
+      "seconds": 0.7399999999999807
+    },
+    {
+      "after": "P06-03",
+      "before": "segment end",
+      "seconds": 1.9186666666666667
+    },
+    {
+      "after": "P07-01",
+      "before": "P07-02",
+      "seconds": 0.3199999999999932
+    },
+    {
+      "after": "P07-02",
+      "before": "P07-03",
+      "seconds": 0.3199999999999932
+    },
+    {
+      "after": "P07-03",
+      "before": "segment end",
+      "seconds": 1.8106666666666626
+    },
+    {
+      "after": "P08-01",
+      "before": "P08-02",
+      "seconds": 0.3199999999999932
+    },
+    {
+      "after": "P08-02",
+      "before": "P08-03",
+      "seconds": 0.3199999999999932
+    },
+    {
+      "after": "P08-03",
+      "before": "P08-04",
+      "seconds": 0.4000000000000057
+    },
+    {
+      "after": "P08-04",
+      "before": "P08-05",
+      "seconds": 0.3199999999999932
+    },
+    {
+      "after": "P08-05",
+      "before": "segment end",
+      "seconds": 0.9040000000000248
+    },
+    {
+      "after": "P09-01",
+      "before": "P09-02",
+      "seconds": 0.3200000000000216
+    },
+    {
+      "after": "P09-02",
+      "before": "P09-03",
+      "seconds": 0.3200000000000216
+    },
+    {
+      "after": "P09-03",
+      "before": "segment end",
+      "seconds": 1.49733333333333
+    },
+    {
+      "after": "P10-01",
+      "before": "P10-02",
+      "seconds": 0.3200000000000216
+    },
+    {
+      "after": "P10-02",
+      "before": "P10-03",
+      "seconds": 0.3200000000000216
+    },
+    {
+      "after": "P10-03",
+      "before": "P10-04",
+      "seconds": 0.3199999999999932
+    },
+    {
+      "after": "P10-04",
+      "before": "P10-05",
+      "seconds": 0.3199999999999932
+    },
+    {
+      "after": "P10-05",
+      "before": "P10-06",
+      "seconds": 0.3199999999999932
+    },
+    {
+      "after": "P10-06",
+      "before": "segment end",
+      "seconds": 0.9133333333333269
+    },
+    {
+      "after": "P11-01",
+      "before": "P11-02",
+      "seconds": 0.3199999999999932
+    },
+    {
+      "after": "P11-02",
+      "before": "P11-03",
+      "seconds": 0.3199999999999932
+    },
+    {
+      "after": "P11-03",
+      "before": "P11-04",
+      "seconds": 0.3199999999999932
+    },
+    {
+      "after": "P11-04",
+      "before": "P11-05",
+      "seconds": 0.39999999999997726
+    },
+    {
+      "after": "P11-05",
+      "before": "segment end",
+      "seconds": 1.8199999999999932
+    },
+    {
+      "after": "P12-01",
+      "before": "P12-02",
+      "seconds": 0.3387916666666797
+    },
+    {
+      "after": "P12-02",
+      "before": "P12-03",
+      "seconds": 0.3387916666666797
+    },
+    {
+      "after": "P12-03",
+      "before": "P12-04",
+      "seconds": 0.3387916666666797
+    },
+    {
+      "after": "P12-04",
+      "before": "P12-05",
+      "seconds": 0.3387916666666797
+    },
+    {
+      "after": "P12-05",
+      "before": "segment end",
+      "seconds": 1.9195000000000277
+    },
+    {
+      "after": "P13-01",
+      "before": "P13-02",
+      "seconds": 0.3199999999999932
+    },
+    {
+      "after": "P13-02",
+      "before": "P13-03",
+      "seconds": 0.3199999999999932
+    },
+    {
+      "after": "P13-03",
+      "before": "P13-04",
+      "seconds": 0.3199999999999932
+    },
+    {
+      "after": "P13-04",
+      "before": "P13-05",
+      "seconds": 0.3199999999999932
+    },
+    {
+      "after": "P13-05",
+      "before": "segment end",
+      "seconds": 0.910666666666657
+    },
+    {
+      "after": "P14-01",
+      "before": "P14-02",
+      "seconds": 0.39999999999997726
+    },
+    {
+      "after": "P14-02",
+      "before": "segment end",
+      "seconds": 0.9253333333333558
+    },
+    {
+      "after": "P15-01",
+      "before": "P15-02",
+      "seconds": 0.39999999999997726
+    },
+    {
+      "after": "P15-02",
+      "before": "P15-03",
+      "seconds": 0.39999999999997726
+    },
+    {
+      "after": "P15-03",
+      "before": "P15-04",
+      "seconds": 0.4000000000000341
+    },
+    {
+      "after": "P15-04",
+      "before": "P15-05",
+      "seconds": 0.39999999999997726
+    },
+    {
+      "after": "P15-05",
+      "before": "segment end",
+      "seconds": 1.226666666666631
+    }
+  ],
+  "maximum_japanese_wait_seconds": 2.7146666666666732,
+  "opening_frames": [
+    {
+      "language": "en",
+      "mean_frame_brightness": [
+        163.68302481192129,
+        163.48231083622684,
+        163.19071614583333,
+        162.90213722511575
+      ],
+      "1sec_adjacent_image_mad": [
+        2.764019820601852,
+        2.7914601417824074,
+        2.5697059461805556
+      ]
+    },
+    {
+      "language": "ja",
+      "mean_frame_brightness": [
+        163.68302481192129,
+        163.48231083622684,
+        163.19071614583333,
+        162.90213722511575
+      ],
+      "1sec_adjacent_image_mad": [
+        2.764019820601852,
+        2.7914601417824074,
+        2.5697059461805556
+      ]
+    }
+  ],
+  "source_images_visually_inspected": true,
+  "visual_review_notes": "Homer bust only; cameo including full mount; prints retain small figures without closeups; Mykonos lower massacre register absent. Final continuous contact sheets reviewed separately.",
+  "human_full_listening": false,
+  "reading_replacements": [],
+  "unchanged_scripts": true,
+  "ai_images_or_video": false,
+  "paid_generation": false
+}

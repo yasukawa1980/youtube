@@ -1,0 +1,44 @@
+{
+  "reviewer": "Codex image inspection",
+  "contact_sheets": [
+    {
+      "file": "review/continuous_en_sheet_01.jpg",
+      "sha256": "fd5b622c47aef4b0942975bf5e292e67c0ffae2aff19e30eef9e4f7738308578"
+    },
+    {
+      "file": "review/continuous_en_sheet_02.jpg",
+      "sha256": "f8c7122f513ea3b772630a45ae0371217b49520ab757340ea31613935ed25d0b"
+    },
+    {
+      "file": "review/continuous_en_sheet_03.jpg",
+      "sha256": "a2ad8e16410f205f6b81181d31886791c5839f5e65f30b3581b1acdac6c103c6"
+    },
+    {
+      "file": "review/continuous_en_sheet_04.jpg",
+      "sha256": "63cb037e9a1482a08b98d38eef9af22321ecd53e8f9e18f694db1adc12f9971f"
+    },
+    {
+      "file": "review/continuous_en_sheet_05.jpg",
+      "sha256": "65491528f50033389b669a953e245d4efe97c3d3f1ba04713570c25f8c0fc644"
+    },
+    {
+      "file": "review/continuous_en_sheet_06.jpg",
+      "sha256": "d0addb62adbabf0d5ab851dfdc35b9efe63b3e7da6563d0d22ad69e9728a6a67"
+    }
+  ],
+  "subtitle_samples": [
+    "review/subtitle_sample_en.jpg",
+    "review/subtitle_sample_ja.jpg"
+  ],
+  "checks": {
+    "source_labels_and_dates": true,
+    "homer_bust_only": true,
+    "cameo_mount_retained": true,
+    "no_closeup_of_print_figures": true,
+    "no_mykonos_massacre_register": true,
+    "cards_legible": true,
+    "subtitle_nonoverlap": true,
+    "thumbnail_168px_legible": true
+  },
+  "scope": "Contact sheets, source images and subtitle samples; not a claim of human real-time full playback or full-frame semantic certification. English/Japanese picture stream identity is verified separately."
+}

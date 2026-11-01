@@ -1,0 +1,1287 @@
+{
+  "passed": true,
+  "checks": [
+    {
+      "language": "en",
+      "video_sha256": "8624796718dce164ff941e035747bf80df759ef9438c799a470e65d2dc0e4aeb",
+      "decoded_frames": 11293,
+      "decoded_pixel_formats": [
+        [
+          1920,
+          1080,
+          "yuv420p"
+        ]
+      ],
+      "sps_profile_idc": [
+        "100"
+      ],
+      "decode_warnings": 0,
+      "no_seeking": true,
+      "records": [
+        {
+          "key": "met_202259",
+          "frames": [
+            0,
+            484,
+            968
+          ],
+          "triptych": "review/continuous_en_shot_01.jpg",
+          "center": "review/center_en_01.jpg",
+          "source": "https://www.metmuseum.org/art/collection/search/202259",
+          "label": "ARTWORK｜美術作品",
+          "source_header_checks": [
+            {
+              "rgb_mean_absolute_error": 4.105212162990196,
+              "glyph_intersection_over_union": 0.9502669289126159
+            },
+            {
+              "rgb_mean_absolute_error": 4.086783854166667,
+              "glyph_intersection_over_union": 0.9580973952434881
+            },
+            {
+              "rgb_mean_absolute_error": 4.088350183823529,
+              "glyph_intersection_over_union": 0.9567185289957567
+            }
+          ]
+        },
+        {
+          "key": "R06",
+          "frames": [
+            969,
+            1202,
+            1435
+          ],
+          "triptych": "review/continuous_en_shot_02.jpg",
+          "center": "review/center_en_02.jpg",
+          "source": "https://www.rijksmuseum.nl/en/collection/object/Portret%2Bvan%2BHomerus%2Ben%2Bprofil--184b4c42b2d66fd2226c666356a9b903",
+          "label": "PRINT｜版画",
+          "source_header_checks": [
+            {
+              "rgb_mean_absolute_error": 4.115399050245098,
+              "glyph_intersection_over_union": 0.9520325203252032
+            },
+            {
+              "rgb_mean_absolute_error": 4.1087622549019605,
+              "glyph_intersection_over_union": 0.9504736129905278
+            },
+            {
+              "rgb_mean_absolute_error": 4.092769607843137,
+              "glyph_intersection_over_union": 0.9586867305061559
+            }
+          ]
+        },
+        {
+          "key": "opening",
+          "frames": [
+            1436,
+            1495,
+            1555
+          ],
+          "triptych": "review/continuous_en_shot_03.jpg",
+          "center": "review/center_en_03.jpg",
+          "source": null,
+          "label": null,
+          "source_header_checks": []
+        },
+        {
+          "key": "met_437394",
+          "frames": [
+            1556,
+            1741,
+            1926
+          ],
+          "triptych": "review/continuous_en_shot_04.jpg",
+          "center": "review/center_en_04.jpg",
+          "source": "https://www.metmuseum.org/art/collection/search/437394",
+          "label": "ARTWORK｜美術作品",
+          "source_header_checks": [
+            {
+              "rgb_mean_absolute_error": 4.137515318627451,
+              "glyph_intersection_over_union": 0.9524023349797934
+            },
+            {
+              "rgb_mean_absolute_error": 4.122441789215686,
+              "glyph_intersection_over_union": 0.9547704770477048
+            },
+            {
+              "rgb_mean_absolute_error": 4.108379289215686,
+              "glyph_intersection_over_union": 0.9612771739130435
+            }
+          ]
+        },
+        {
+          "key": "met_198621",
+          "frames": [
+            1927,
+            2113,
+            2299
+          ],
+          "triptych": "review/continuous_en_shot_05.jpg",
+          "center": "review/center_en_05.jpg",
+          "source": "https://www.metmuseum.org/art/collection/search/198621",
+          "label": "ARTWORK｜美術作品",
+          "source_header_checks": [
+            {
+              "rgb_mean_absolute_error": 4.125291053921568,
+              "glyph_intersection_over_union": 0.9544088176352705
+            },
+            {
+              "rgb_mean_absolute_error": 4.113970588235294,
+              "glyph_intersection_over_union": 0.9544088176352705
+            },
+            {
+              "rgb_mean_absolute_error": 4.111224724264706,
+              "glyph_intersection_over_union": 0.9635811836115327
+            }
+          ]
+        },
+        {
+          "key": "D_lastline",
+          "frames": [
+            2300,
+            2484,
+            2669
+          ],
+          "triptych": "review/continuous_en_shot_06.jpg",
+          "center": "review/center_en_06.jpg",
+          "source": null,
+          "label": null,
+          "source_header_checks": [
+            {
+              "rgb_mean_absolute_error": 4.054963235294117,
+              "glyph_intersection_over_union": 0.9656209712075634
+            },
+            {
+              "rgb_mean_absolute_error": 4.054963235294117,
+              "glyph_intersection_over_union": 0.9656209712075634
+            },
+            {
+              "rgb_mean_absolute_error": 4.055319393382353,
+              "glyph_intersection_over_union": 0.963963963963964
+            }
+          ]
+        },
+        {
+          "key": "D_nohorse",
+          "frames": [
+            2670,
+            2746,
+            2823
+          ],
+          "triptych": "review/continuous_en_shot_07.jpg",
+          "center": "review/center_en_07.jpg",
+          "source": null,
+          "label": null,
+          "source_header_checks": [
+            {
+              "rgb_mean_absolute_error": 4.0085592830882355,
+              "glyph_intersection_over_union": 0.9629629629629629
+            },
+            {
+              "rgb_mean_absolute_error": 4.008482689950981,
+              "glyph_intersection_over_union": 0.9629629629629629
+            },
+            {
+              "rgb_mean_absolute_error": 4.008482689950981,
+              "glyph_intersection_over_union": 0.9629629629629629
+            }
+          ]
+        },
+        {
+          "key": "met_247952",
+          "frames": [
+            2824,
+            3073,
+            3323
+          ],
+          "triptych": "review/continuous_en_shot_08.jpg",
+          "center": "review/center_en_08.jpg",
+          "source": "https://www.metmuseum.org/art/collection/search/247952",
+          "label": "ARTWORK｜美術作品",
+          "source_header_checks": [
+            {
+              "rgb_mean_absolute_error": 4.098621323529412,
+              "glyph_intersection_over_union": 0.9586723071916694
+            },
+            {
+              "rgb_mean_absolute_error": 4.0895258884803924,
+              "glyph_intersection_over_union": 0.9567901234567902
+            },
+            {
+              "rgb_mean_absolute_error": 4.075080422794118,
+              "glyph_intersection_over_union": 0.9627572688663836
+            }
+          ]
+        },
+        {
+          "key": "D_options",
+          "frames": [
+            3324,
+            3500,
+            3677
+          ],
+          "triptych": "review/continuous_en_shot_09.jpg",
+          "center": "review/center_en_09.jpg",
+          "source": null,
+          "label": null,
+          "source_header_checks": [
+            {
+              "rgb_mean_absolute_error": 4.011293658088236,
+              "glyph_intersection_over_union": 0.9529780564263323
+            },
+            {
+              "rgb_mean_absolute_error": 4.011293658088236,
+              "glyph_intersection_over_union": 0.9529780564263323
+            },
+            {
+              "rgb_mean_absolute_error": 4.011293658088236,
+              "glyph_intersection_over_union": 0.9529780564263323
+            }
+          ]
+        },
+        {
+          "key": "met_254876",
+          "frames": [
+            3678,
+            3984,
+            4290
+          ],
+          "triptych": "review/continuous_en_shot_10.jpg",
+          "center": "review/center_en_10.jpg",
+          "source": "https://www.metmuseum.org/art/collection/search/254876",
+          "label": "ARTWORK｜美術作品",
+          "source_header_checks": [
+            {
+              "rgb_mean_absolute_error": 4.117601102941176,
+              "glyph_intersection_over_union": 0.9612478674140873
+            },
+            {
+              "rgb_mean_absolute_error": 4.100700827205882,
+              "glyph_intersection_over_union": 0.9620253164556962
+            },
+            {
+              "rgb_mean_absolute_error": 4.097346047794118,
+              "glyph_intersection_over_union": 0.9660229772671718
+            }
+          ]
+        },
+        {
+          "key": "D_passages",
+          "frames": [
+            4291,
+            4593,
+            4896
+          ],
+          "triptych": "review/continuous_en_shot_11.jpg",
+          "center": "review/center_en_11.jpg",
+          "source": null,
+          "label": null,
+          "source_header_checks": [
+            {
+              "rgb_mean_absolute_error": 4.011293658088236,
+              "glyph_intersection_over_union": 0.9529780564263323
+            },
+            {
+              "rgb_mean_absolute_error": 4.011293658088236,
+              "glyph_intersection_over_union": 0.9529780564263323
+            },
+            {
+              "rgb_mean_absolute_error": 4.011293658088236,
+              "glyph_intersection_over_union": 0.9529780564263323
+            }
+          ]
+        },
+        {
+          "key": "D_lostpoems",
+          "frames": [
+            4897,
+            5325,
+            5754
+          ],
+          "triptych": "review/continuous_en_shot_12.jpg",
+          "center": "review/center_en_12.jpg",
+          "source": null,
+          "label": null,
+          "source_header_checks": [
+            {
+              "rgb_mean_absolute_error": 4.011293658088236,
+              "glyph_intersection_over_union": 0.9529780564263323
+            },
+            {
+              "rgb_mean_absolute_error": 4.011293658088236,
+              "glyph_intersection_over_union": 0.9529780564263323
+            },
+            {
+              "rgb_mean_absolute_error": 4.010531556372549,
+              "glyph_intersection_over_union": 0.9559748427672956
+            }
+          ]
+        },
+        {
+          "key": "MYK01",
+          "frames": [
+            5755,
+            6084,
+            6413
+          ],
+          "triptych": "review/continuous_en_shot_13.jpg",
+          "center": "review/center_en_13.jpg",
+          "source": "https://commons.wikimedia.org/wiki/File:Mykonos_Pithos_2240_(Trojan_Horse_detail).jpg",
+          "label": "PHOTO｜写真",
+          "source_header_checks": [
+            {
+              "rgb_mean_absolute_error": 4.117386642156863,
+              "glyph_intersection_over_union": 0.9508940485721911
+            },
+            {
+              "rgb_mean_absolute_error": 4.107935049019608,
+              "glyph_intersection_over_union": 0.9517204587890103
+            },
+            {
+              "rgb_mean_absolute_error": 4.109283088235294,
+              "glyph_intersection_over_union": 0.9517204587890103
+            }
+          ]
+        },
+        {
+          "key": "R04",
+          "frames": [
+            6414,
+            6625,
+            6837
+          ],
+          "triptych": "review/continuous_en_shot_14.jpg",
+          "center": "review/center_en_14.jpg",
+          "source": "https://www.rijksmuseum.nl/en/collection/object/Paard-van-Troje-wordt-binnengehaald--616cabda85fc65987de51d297986b74d",
+          "label": "PRINT｜版画",
+          "source_header_checks": [
+            {
+              "rgb_mean_absolute_error": 4.103898590686274,
+              "glyph_intersection_over_union": 0.9488781596137461
+            },
+            {
+              "rgb_mean_absolute_error": 4.098793658088235,
+              "glyph_intersection_over_union": 0.9494318181818182
+            },
+            {
+              "rgb_mean_absolute_error": 4.094018075980392,
+              "glyph_intersection_over_union": 0.9526930749501282
+            }
+          ]
+        },
+        {
+          "key": "D_gifts",
+          "frames": [
+            6838,
+            6953,
+            7068
+          ],
+          "triptych": "review/continuous_en_shot_15.jpg",
+          "center": "review/center_en_15.jpg",
+          "source": null,
+          "label": null,
+          "source_header_checks": [
+            {
+              "rgb_mean_absolute_error": 4.047353707107843,
+              "glyph_intersection_over_union": 0.97534516765286
+            },
+            {
+              "rgb_mean_absolute_error": 4.047353707107843,
+              "glyph_intersection_over_union": 0.97534516765286
+            },
+            {
+              "rgb_mean_absolute_error": 4.047353707107843,
+              "glyph_intersection_over_union": 0.97534516765286
+            }
+          ]
+        },
+        {
+          "key": "R01",
+          "frames": [
+            7069,
+            7267,
+            7466
+          ],
+          "triptych": "review/continuous_en_shot_16.jpg",
+          "center": "review/center_en_16.jpg",
+          "source": "https://www.rijksmuseum.nl/en/collection/object/Paard-van-Troje--25864bea67a465a00341341f076b7fff",
+          "label": "PRINT｜版画",
+          "source_header_checks": [
+            {
+              "rgb_mean_absolute_error": 4.094477634803922,
+              "glyph_intersection_over_union": 0.9456286685202347
+            },
+            {
+              "rgb_mean_absolute_error": 4.091681985294118,
+              "glyph_intersection_over_union": 0.9465224111282844
+            },
+            {
+              "rgb_mean_absolute_error": 4.0744140625,
+              "glyph_intersection_over_union": 0.9484792054624457
+            }
+          ]
+        },
+        {
+          "key": "D_timeline",
+          "frames": [
+            7467,
+            7859,
+            8251
+          ],
+          "triptych": "review/continuous_en_shot_17.jpg",
+          "center": "review/center_en_17.jpg",
+          "source": null,
+          "label": null,
+          "source_header_checks": [
+            {
+              "rgb_mean_absolute_error": 4.010669424019608,
+              "glyph_intersection_over_union": 0.9575471698113207
+            },
+            {
+              "rgb_mean_absolute_error": 4.010669424019608,
+              "glyph_intersection_over_union": 0.9575471698113207
+            },
+            {
+              "rgb_mean_absolute_error": 4.014135263480392,
+              "glyph_intersection_over_union": 0.9529780564263323
+            }
+          ]
+        },
+        {
+          "key": "met_341207",
+          "frames": [
+            8252,
+            8587,
+            8923
+          ],
+          "triptych": "review/continuous_en_shot_18.jpg",
+          "center": "review/center_en_18.jpg",
+          "source": "https://www.metmuseum.org/art/collection/search/341207",
+          "label": "ARTWORK｜美術作品",
+          "source_header_checks": [
+            {
+              "rgb_mean_absolute_error": 4.109524356617647,
+              "glyph_intersection_over_union": 0.9593193299654347
+            },
+            {
+              "rgb_mean_absolute_error": 4.095871629901961,
+              "glyph_intersection_over_union": 0.9605858854860186
+            },
+            {
+              "rgb_mean_absolute_error": 4.08761106004902,
+              "glyph_intersection_over_union": 0.9608834486428952
+            }
+          ]
+        },
+        {
+          "key": "D_count",
+          "frames": [
+            8924,
+            9075,
+            9227
+          ],
+          "triptych": "review/continuous_en_shot_19.jpg",
+          "center": "review/center_en_19.jpg",
+          "source": null,
+          "label": null,
+          "source_header_checks": [
+            {
+              "rgb_mean_absolute_error": 4.010669424019608,
+              "glyph_intersection_over_union": 0.9575471698113207
+            },
+            {
+              "rgb_mean_absolute_error": 4.010669424019608,
+              "glyph_intersection_over_union": 0.9575471698113207
+            },
+            {
+              "rgb_mean_absolute_error": 4.010669424019608,
+              "glyph_intersection_over_union": 0.9575471698113207
+            }
+          ]
+        },
+        {
+          "key": "D_summary",
+          "frames": [
+            9228,
+            9454,
+            9680
+          ],
+          "triptych": "review/continuous_en_shot_20.jpg",
+          "center": "review/center_en_20.jpg",
+          "source": null,
+          "label": null,
+          "source_header_checks": [
+            {
+              "rgb_mean_absolute_error": 4.010669424019608,
+              "glyph_intersection_over_union": 0.9575471698113207
+            },
+            {
+              "rgb_mean_absolute_error": 4.010669424019608,
+              "glyph_intersection_over_union": 0.9575471698113207
+            },
+            {
+              "rgb_mean_absolute_error": 4.0106464460784315,
+              "glyph_intersection_over_union": 0.9560439560439561
+            }
+          ]
+        },
+        {
+          "key": "met_253376",
+          "frames": [
+            9681,
+            9887,
+            10094
+          ],
+          "triptych": "review/continuous_en_shot_21.jpg",
+          "center": "review/center_en_21.jpg",
+          "source": "https://www.metmuseum.org/art/collection/search/253376",
+          "label": "ARTWORK｜美術作品",
+          "source_header_checks": [
+            {
+              "rgb_mean_absolute_error": 4.115188419117647,
+              "glyph_intersection_over_union": 0.9562256809338522
+            },
+            {
+              "rgb_mean_absolute_error": 4.103071384803922,
+              "glyph_intersection_over_union": 0.9568321973385264
+            },
+            {
+              "rgb_mean_absolute_error": 4.077941176470588,
+              "glyph_intersection_over_union": 0.9631080639895527
+            }
+          ]
+        },
+        {
+          "key": "met_254896",
+          "frames": [
+            10095,
+            10211,
+            10328
+          ],
+          "triptych": "review/continuous_en_shot_22.jpg",
+          "center": "review/center_en_22.jpg",
+          "source": "https://www.metmuseum.org/art/collection/search/254896",
+          "label": "ARTWORK｜美術作品",
+          "source_header_checks": [
+            {
+              "rgb_mean_absolute_error": 4.103102022058824,
+              "glyph_intersection_over_union": 0.9520905923344948
+            },
+            {
+              "rgb_mean_absolute_error": 4.092398131127451,
+              "glyph_intersection_over_union": 0.9522978475858057
+            },
+            {
+              "rgb_mean_absolute_error": 4.090628829656863,
+              "glyph_intersection_over_union": 0.9528521536670547
+            }
+          ]
+        },
+        {
+          "key": "credits",
+          "frames": [
+            10329,
+            10660,
+            10992
+          ],
+          "triptych": "review/continuous_en_shot_23.jpg",
+          "center": "review/center_en_23.jpg",
+          "source": null,
+          "label": null,
+          "source_header_checks": [
+            {
+              "rgb_mean_absolute_error": 4.008609068627451,
+              "glyph_intersection_over_union": 0.9611231101511879
+            },
+            {
+              "rgb_mean_absolute_error": 4.008609068627451,
+              "glyph_intersection_over_union": 0.9611231101511879
+            },
+            {
+              "rgb_mean_absolute_error": 4.012300857843138,
+              "glyph_intersection_over_union": 0.959051724137931
+            }
+          ]
+        },
+        {
+          "key": "endcard",
+          "frames": [
+            10993,
+            11142,
+            11292
+          ],
+          "triptych": "review/continuous_en_shot_24.jpg",
+          "center": "review/center_en_24.jpg",
+          "source": null,
+          "label": null,
+          "source_header_checks": []
+        }
+      ]
+    },
+    {
+      "language": "ja",
+      "video_sha256": "050dfdb8e0ac8426451ae9ea191c83d3f0be4b133daa9814964c1539dcc9b4bd",
+      "decoded_frames": 11293,
+      "decoded_pixel_formats": [
+        [
+          1920,
+          1080,
+          "yuv420p"
+        ]
+      ],
+      "sps_profile_idc": [
+        "100"
+      ],
+      "decode_warnings": 0,
+      "no_seeking": true,
+      "records": [
+        {
+          "key": "met_202259",
+          "frames": [
+            0,
+            484,
+            968
+          ],
+          "triptych": "review/continuous_ja_shot_01.jpg",
+          "center": "review/center_ja_01.jpg",
+          "source": "https://www.metmuseum.org/art/collection/search/202259",
+          "label": "ARTWORK｜美術作品",
+          "source_header_checks": [
+            {
+              "rgb_mean_absolute_error": 4.105212162990196,
+              "glyph_intersection_over_union": 0.9502669289126159
+            },
+            {
+              "rgb_mean_absolute_error": 4.086783854166667,
+              "glyph_intersection_over_union": 0.9580973952434881
+            },
+            {
+              "rgb_mean_absolute_error": 4.088350183823529,
+              "glyph_intersection_over_union": 0.9567185289957567
+            }
+          ]
+        },
+        {
+          "key": "R06",
+          "frames": [
+            969,
+            1202,
+            1435
+          ],
+          "triptych": "review/continuous_ja_shot_02.jpg",
+          "center": "review/center_ja_02.jpg",
+          "source": "https://www.rijksmuseum.nl/en/collection/object/Portret%2Bvan%2BHomerus%2Ben%2Bprofil--184b4c42b2d66fd2226c666356a9b903",
+          "label": "PRINT｜版画",
+          "source_header_checks": [
+            {
+              "rgb_mean_absolute_error": 4.115399050245098,
+              "glyph_intersection_over_union": 0.9520325203252032
+            },
+            {
+              "rgb_mean_absolute_error": 4.1087622549019605,
+              "glyph_intersection_over_union": 0.9504736129905278
+            },
+            {
+              "rgb_mean_absolute_error": 4.092769607843137,
+              "glyph_intersection_over_union": 0.9586867305061559
+            }
+          ]
+        },
+        {
+          "key": "opening",
+          "frames": [
+            1436,
+            1495,
+            1555
+          ],
+          "triptych": "review/continuous_ja_shot_03.jpg",
+          "center": "review/center_ja_03.jpg",
+          "source": null,
+          "label": null,
+          "source_header_checks": []
+        },
+        {
+          "key": "met_437394",
+          "frames": [
+            1556,
+            1741,
+            1926
+          ],
+          "triptych": "review/continuous_ja_shot_04.jpg",
+          "center": "review/center_ja_04.jpg",
+          "source": "https://www.metmuseum.org/art/collection/search/437394",
+          "label": "ARTWORK｜美術作品",
+          "source_header_checks": [
+            {
+              "rgb_mean_absolute_error": 4.137515318627451,
+              "glyph_intersection_over_union": 0.9524023349797934
+            },
+            {
+              "rgb_mean_absolute_error": 4.122441789215686,
+              "glyph_intersection_over_union": 0.9547704770477048
+            },
+            {
+              "rgb_mean_absolute_error": 4.108379289215686,
+              "glyph_intersection_over_union": 0.9612771739130435
+            }
+          ]
+        },
+        {
+          "key": "met_198621",
+          "frames": [
+            1927,
+            2113,
+            2299
+          ],
+          "triptych": "review/continuous_ja_shot_05.jpg",
+          "center": "review/center_ja_05.jpg",
+          "source": "https://www.metmuseum.org/art/collection/search/198621",
+          "label": "ARTWORK｜美術作品",
+          "source_header_checks": [
+            {
+              "rgb_mean_absolute_error": 4.125291053921568,
+              "glyph_intersection_over_union": 0.9544088176352705
+            },
+            {
+              "rgb_mean_absolute_error": 4.113970588235294,
+              "glyph_intersection_over_union": 0.9544088176352705
+            },
+            {
+              "rgb_mean_absolute_error": 4.111224724264706,
+              "glyph_intersection_over_union": 0.9635811836115327
+            }
+          ]
+        },
+        {
+          "key": "D_lastline",
+          "frames": [
+            2300,
+            2484,
+            2669
+          ],
+          "triptych": "review/continuous_ja_shot_06.jpg",
+          "center": "review/center_ja_06.jpg",
+          "source": null,
+          "label": null,
+          "source_header_checks": [
+            {
+              "rgb_mean_absolute_error": 4.054963235294117,
+              "glyph_intersection_over_union": 0.9656209712075634
+            },
+            {
+              "rgb_mean_absolute_error": 4.054963235294117,
+              "glyph_intersection_over_union": 0.9656209712075634
+            },
+            {
+              "rgb_mean_absolute_error": 4.055319393382353,
+              "glyph_intersection_over_union": 0.963963963963964
+            }
+          ]
+        },
+        {
+          "key": "D_nohorse",
+          "frames": [
+            2670,
+            2746,
+            2823
+          ],
+          "triptych": "review/continuous_ja_shot_07.jpg",
+          "center": "review/center_ja_07.jpg",
+          "source": null,
+          "label": null,
+          "source_header_checks": [
+            {
+              "rgb_mean_absolute_error": 4.0085592830882355,
+              "glyph_intersection_over_union": 0.9629629629629629
+            },
+            {
+              "rgb_mean_absolute_error": 4.008482689950981,
+              "glyph_intersection_over_union": 0.9629629629629629
+            },
+            {
+              "rgb_mean_absolute_error": 4.008482689950981,
+              "glyph_intersection_over_union": 0.9629629629629629
+            }
+          ]
+        },
+        {
+          "key": "met_247952",
+          "frames": [
+            2824,
+            3073,
+            3323
+          ],
+          "triptych": "review/continuous_ja_shot_08.jpg",
+          "center": "review/center_ja_08.jpg",
+          "source": "https://www.metmuseum.org/art/collection/search/247952",
+          "label": "ARTWORK｜美術作品",
+          "source_header_checks": [
+            {
+              "rgb_mean_absolute_error": 4.098621323529412,
+              "glyph_intersection_over_union": 0.9586723071916694
+            },
+            {
+              "rgb_mean_absolute_error": 4.0895258884803924,
+              "glyph_intersection_over_union": 0.9567901234567902
+            },
+            {
+              "rgb_mean_absolute_error": 4.075080422794118,
+              "glyph_intersection_over_union": 0.9627572688663836
+            }
+          ]
+        },
+        {
+          "key": "D_options",
+          "frames": [
+            3324,
+            3500,
+            3677
+          ],
+          "triptych": "review/continuous_ja_shot_09.jpg",
+          "center": "review/center_ja_09.jpg",
+          "source": null,
+          "label": null,
+          "source_header_checks": [
+            {
+              "rgb_mean_absolute_error": 4.011293658088236,
+              "glyph_intersection_over_union": 0.9529780564263323
+            },
+            {
+              "rgb_mean_absolute_error": 4.011293658088236,
+              "glyph_intersection_over_union": 0.9529780564263323
+            },
+            {
+              "rgb_mean_absolute_error": 4.011293658088236,
+              "glyph_intersection_over_union": 0.9529780564263323
+            }
+          ]
+        },
+        {
+          "key": "met_254876",
+          "frames": [
+            3678,
+            3984,
+            4290
+          ],
+          "triptych": "review/continuous_ja_shot_10.jpg",
+          "center": "review/center_ja_10.jpg",
+          "source": "https://www.metmuseum.org/art/collection/search/254876",
+          "label": "ARTWORK｜美術作品",
+          "source_header_checks": [
+            {
+              "rgb_mean_absolute_error": 4.117601102941176,
+              "glyph_intersection_over_union": 0.9612478674140873
+            },
+            {
+              "rgb_mean_absolute_error": 4.100700827205882,
+              "glyph_intersection_over_union": 0.9620253164556962
+            },
+            {
+              "rgb_mean_absolute_error": 4.097346047794118,
+              "glyph_intersection_over_union": 0.9660229772671718
+            }
+          ]
+        },
+        {
+          "key": "D_passages",
+          "frames": [
+            4291,
+            4593,
+            4896
+          ],
+          "triptych": "review/continuous_ja_shot_11.jpg",
+          "center": "review/center_ja_11.jpg",
+          "source": null,
+          "label": null,
+          "source_header_checks": [
+            {
+              "rgb_mean_absolute_error": 4.011293658088236,
+              "glyph_intersection_over_union": 0.9529780564263323
+            },
+            {
+              "rgb_mean_absolute_error": 4.011293658088236,
+              "glyph_intersection_over_union": 0.9529780564263323
+            },
+            {
+              "rgb_mean_absolute_error": 4.011293658088236,
+              "glyph_intersection_over_union": 0.9529780564263323
+            }
+          ]
+        },
+        {
+          "key": "D_lostpoems",
+          "frames": [
+            4897,
+            5325,
+            5754
+          ],
+          "triptych": "review/continuous_ja_shot_12.jpg",
+          "center": "review/center_ja_12.jpg",
+          "source": null,
+          "label": null,
+          "source_header_checks": [
+            {
+              "rgb_mean_absolute_error": 4.011293658088236,
+              "glyph_intersection_over_union": 0.9529780564263323
+            },
+            {
+              "rgb_mean_absolute_error": 4.011293658088236,
+              "glyph_intersection_over_union": 0.9529780564263323
+            },
+            {
+              "rgb_mean_absolute_error": 4.010531556372549,
+              "glyph_intersection_over_union": 0.9559748427672956
+            }
+          ]
+        },
+        {
+          "key": "MYK01",
+          "frames": [
+            5755,
+            6084,
+            6413
+          ],
+          "triptych": "review/continuous_ja_shot_13.jpg",
+          "center": "review/center_ja_13.jpg",
+          "source": "https://commons.wikimedia.org/wiki/File:Mykonos_Pithos_2240_(Trojan_Horse_detail).jpg",
+          "label": "PHOTO｜写真",
+          "source_header_checks": [
+            {
+              "rgb_mean_absolute_error": 4.117386642156863,
+              "glyph_intersection_over_union": 0.9508940485721911
+            },
+            {
+              "rgb_mean_absolute_error": 4.107935049019608,
+              "glyph_intersection_over_union": 0.9517204587890103
+            },
+            {
+              "rgb_mean_absolute_error": 4.109283088235294,
+              "glyph_intersection_over_union": 0.9517204587890103
+            }
+          ]
+        },
+        {
+          "key": "R04",
+          "frames": [
+            6414,
+            6625,
+            6837
+          ],
+          "triptych": "review/continuous_ja_shot_14.jpg",
+          "center": "review/center_ja_14.jpg",
+          "source": "https://www.rijksmuseum.nl/en/collection/object/Paard-van-Troje-wordt-binnengehaald--616cabda85fc65987de51d297986b74d",
+          "label": "PRINT｜版画",
+          "source_header_checks": [
+            {
+              "rgb_mean_absolute_error": 4.103898590686274,
+              "glyph_intersection_over_union": 0.9488781596137461
+            },
+            {
+              "rgb_mean_absolute_error": 4.098793658088235,
+              "glyph_intersection_over_union": 0.9494318181818182
+            },
+            {
+              "rgb_mean_absolute_error": 4.094018075980392,
+              "glyph_intersection_over_union": 0.9526930749501282
+            }
+          ]
+        },
+        {
+          "key": "D_gifts",
+          "frames": [
+            6838,
+            6953,
+            7068
+          ],
+          "triptych": "review/continuous_ja_shot_15.jpg",
+          "center": "review/center_ja_15.jpg",
+          "source": null,
+          "label": null,
+          "source_header_checks": [
+            {
+              "rgb_mean_absolute_error": 4.047353707107843,
+              "glyph_intersection_over_union": 0.97534516765286
+            },
+            {
+              "rgb_mean_absolute_error": 4.047353707107843,
+              "glyph_intersection_over_union": 0.97534516765286
+            },
+            {
+              "rgb_mean_absolute_error": 4.047353707107843,
+              "glyph_intersection_over_union": 0.97534516765286
+            }
+          ]
+        },
+        {
+          "key": "R01",
+          "frames": [
+            7069,
+            7267,
+            7466
+          ],
+          "triptych": "review/continuous_ja_shot_16.jpg",
+          "center": "review/center_ja_16.jpg",
+          "source": "https://www.rijksmuseum.nl/en/collection/object/Paard-van-Troje--25864bea67a465a00341341f076b7fff",
+          "label": "PRINT｜版画",
+          "source_header_checks": [
+            {
+              "rgb_mean_absolute_error": 4.094477634803922,
+              "glyph_intersection_over_union": 0.9456286685202347
+            },
+            {
+              "rgb_mean_absolute_error": 4.091681985294118,
+              "glyph_intersection_over_union": 0.9465224111282844
+            },
+            {
+              "rgb_mean_absolute_error": 4.0744140625,
+              "glyph_intersection_over_union": 0.9484792054624457
+            }
+          ]
+        },
+        {
+          "key": "D_timeline",
+          "frames": [
+            7467,
+            7859,
+            8251
+          ],
+          "triptych": "review/continuous_ja_shot_17.jpg",
+          "center": "review/center_ja_17.jpg",
+          "source": null,
+          "label": null,
+          "source_header_checks": [
+            {
+              "rgb_mean_absolute_error": 4.010669424019608,
+              "glyph_intersection_over_union": 0.9575471698113207
+            },
+            {
+              "rgb_mean_absolute_error": 4.010669424019608,
+              "glyph_intersection_over_union": 0.9575471698113207
+            },
+            {
+              "rgb_mean_absolute_error": 4.014135263480392,
+              "glyph_intersection_over_union": 0.9529780564263323
+            }
+          ]
+        },
+        {
+          "key": "met_341207",
+          "frames": [
+            8252,
+            8587,
+            8923
+          ],
+          "triptych": "review/continuous_ja_shot_18.jpg",
+          "center": "review/center_ja_18.jpg",
+          "source": "https://www.metmuseum.org/art/collection/search/341207",
+          "label": "ARTWORK｜美術作品",
+          "source_header_checks": [
+            {
+              "rgb_mean_absolute_error": 4.109524356617647,
+              "glyph_intersection_over_union": 0.9593193299654347
+            },
+            {
+              "rgb_mean_absolute_error": 4.095871629901961,
+              "glyph_intersection_over_union": 0.9605858854860186
+            },
+            {
+              "rgb_mean_absolute_error": 4.08761106004902,
+              "glyph_intersection_over_union": 0.9608834486428952
+            }
+          ]
+        },
+        {
+          "key": "D_count",
+          "frames": [
+            8924,
+            9075,
+            9227
+          ],
+          "triptych": "review/continuous_ja_shot_19.jpg",
+          "center": "review/center_ja_19.jpg",
+          "source": null,
+          "label": null,
+          "source_header_checks": [
+            {
+              "rgb_mean_absolute_error": 4.010669424019608,
+              "glyph_intersection_over_union": 0.9575471698113207
+            },
+            {
+              "rgb_mean_absolute_error": 4.010669424019608,
+              "glyph_intersection_over_union": 0.9575471698113207
+            },
+            {
+              "rgb_mean_absolute_error": 4.010669424019608,
+              "glyph_intersection_over_union": 0.9575471698113207
+            }
+          ]
+        },
+        {
+          "key": "D_summary",
+          "frames": [
+            9228,
+            9454,
+            9680
+          ],
+          "triptych": "review/continuous_ja_shot_20.jpg",
+          "center": "review/center_ja_20.jpg",
+          "source": null,
+          "label": null,
+          "source_header_checks": [
+            {
+              "rgb_mean_absolute_error": 4.010669424019608,
+              "glyph_intersection_over_union": 0.9575471698113207
+            },
+            {
+              "rgb_mean_absolute_error": 4.010669424019608,
+              "glyph_intersection_over_union": 0.9575471698113207
+            },
+            {
+              "rgb_mean_absolute_error": 4.0106464460784315,
+              "glyph_intersection_over_union": 0.9560439560439561
+            }
+          ]
+        },
+        {
+          "key": "met_253376",
+          "frames": [
+            9681,
+            9887,
+            10094
+          ],
+          "triptych": "review/continuous_ja_shot_21.jpg",
+          "center": "review/center_ja_21.jpg",
+          "source": "https://www.metmuseum.org/art/collection/search/253376",
+          "label": "ARTWORK｜美術作品",
+          "source_header_checks": [
+            {
+              "rgb_mean_absolute_error": 4.115188419117647,
+              "glyph_intersection_over_union": 0.9562256809338522
+            },
+            {
+              "rgb_mean_absolute_error": 4.103071384803922,
+              "glyph_intersection_over_union": 0.9568321973385264
+            },
+            {
+              "rgb_mean_absolute_error": 4.077941176470588,
+              "glyph_intersection_over_union": 0.9631080639895527
+            }
+          ]
+        },
+        {
+          "key": "met_254896",
+          "frames": [
+            10095,
+            10211,
+            10328
+          ],
+          "triptych": "review/continuous_ja_shot_22.jpg",
+          "center": "review/center_ja_22.jpg",
+          "source": "https://www.metmuseum.org/art/collection/search/254896",
+          "label": "ARTWORK｜美術作品",
+          "source_header_checks": [
+            {
+              "rgb_mean_absolute_error": 4.103102022058824,
+              "glyph_intersection_over_union": 0.9520905923344948
+            },
+            {
+              "rgb_mean_absolute_error": 4.092398131127451,
+              "glyph_intersection_over_union": 0.9522978475858057
+            },
+            {
+              "rgb_mean_absolute_error": 4.090628829656863,
+              "glyph_intersection_over_union": 0.9528521536670547
+            }
+          ]
+        },
+        {
+          "key": "credits",
+          "frames": [
+            10329,
+            10660,
+            10992
+          ],
+          "triptych": "review/continuous_ja_shot_23.jpg",
+          "center": "review/center_ja_23.jpg",
+          "source": null,
+          "label": null,
+          "source_header_checks": [
+            {
+              "rgb_mean_absolute_error": 4.008609068627451,
+              "glyph_intersection_over_union": 0.9611231101511879
+            },
+            {
+              "rgb_mean_absolute_error": 4.008609068627451,
+              "glyph_intersection_over_union": 0.9611231101511879
+            },
+            {
+              "rgb_mean_absolute_error": 4.012300857843138,
+              "glyph_intersection_over_union": 0.959051724137931
+            }
+          ]
+        },
+        {
+          "key": "endcard",
+          "frames": [
+            10993,
+            11142,
+            11292
+          ],
+          "triptych": "review/continuous_ja_shot_24.jpg",
+          "center": "review/center_ja_24.jpg",
+          "source": null,
+          "label": null,
+          "source_header_checks": []
+        }
+      ]
+    }
+  ],
+  "script_unchanged": true,
+  "unique_originals": [
+    "met_202259",
+    "R06",
+    "met_437394",
+    "met_198621",
+    "met_247952",
+    "met_254876",
+    "MYK01",
+    "R04",
+    "R01",
+    "met_341207",
+    "met_253376",
+    "met_254896"
+  ],
+  "endcard_exact_last_10_seconds": true,
+  "opening_frames": [
+    {
+      "language": "en",
+      "source_frames": [
+        0,
+        30,
+        60,
+        90
+      ],
+      "files": [
+        "review/opening_en_01.jpg",
+        "review/opening_en_02.jpg",
+        "review/opening_en_03.jpg",
+        "review/opening_en_04.jpg"
+      ]
+    },
+    {
+      "language": "ja",
+      "source_frames": [
+        0,
+        30,
+        60,
+        90
+      ],
+      "files": [
+        "review/opening_ja_01.jpg",
+        "review/opening_ja_02.jpg",
+        "review/opening_ja_03.jpg",
+        "review/opening_ja_04.jpg"
+      ]
+    }
+  ]
+}
