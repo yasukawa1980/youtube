@@ -1,0 +1,17 @@
+{
+  "roi_xyxy": [
+    697,
+    142,
+    1222,
+    1052
+  ],
+  "v01_mean_luma_8bit": 40.550042337205646,
+  "v02_mean_luma_8bit": 44.60501370381999,
+  "increase_percent": 9.999918946801722,
+  "gain_parameter": 0.10918944930162981,
+  "v01_black_channels": 50,
+  "v02_black_channels": 50,
+  "v01_white_channels": 0,
+  "v02_white_channels": 0,
+  "method": "Smooth luminance-dependent common RGB multiplier; original RGB ratios retained before 8-bit rounding. Pixels outside the art box unchanged."
+}

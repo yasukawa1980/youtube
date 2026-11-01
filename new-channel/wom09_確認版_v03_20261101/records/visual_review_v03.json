@@ -1,0 +1,19 @@
+{
+  "passed": true,
+  "reviewer": "Codex visual inspection",
+  "reviewed_files": [
+    "review/D_summary_v03.jpg",
+    "review/compare_D_summary_v02_v03.jpg",
+    "review/D_summary_v03_final.jpg",
+    "review/compare_compression_D_count.jpg"
+  ],
+  "observations": [
+    "All four English and Japanese groups fit within their own boxes with visible padding",
+    "Three arrowheads and their spacing are clearly visible",
+    "Diagram remains horizontally symmetric and centered at y404",
+    "No wording or header changes visible in matched-time comparison",
+    "D_count at307.500s remains visually consistent at the comparison size; exact decoded pixels differ as quantified separately, not declared equal."
+  ],
+  "measurement_reference": "summary_layout_v03.json; all box clearances >=27px, arrows 40px with 20px gaps",
+  "limitations": "Matched-frame visual review; whole-stream technical checks recorded separately. Human audio listening pending."
+}

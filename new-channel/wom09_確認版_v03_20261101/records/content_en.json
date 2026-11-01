@@ -1,0 +1,289 @@
+{
+  "episode_id": "EP009",
+  "series": "Quiet Origins",
+  "language": "en",
+  "title": "The Trojan Horse: Is It in the Iliad?",
+  "subtitle": "A famous trick, a funeral, a song at a feast, and the poems that carried the horse to us",
+  "script_version": "v02 (2026-11-01, approved by the owner)",
+  "opening_after": "P02",
+  "chapters": [
+    {
+      "id": "C01",
+      "title": "The Most Famous Trick"
+    },
+    {
+      "id": "C02",
+      "title": "Where the Iliad Ends"
+    },
+    {
+      "id": "C03",
+      "title": "A Song at a Feast"
+    },
+    {
+      "id": "C04",
+      "title": "Lost Poems, and a Roman Poet"
+    },
+    {
+      "id": "C05",
+      "title": "A Gift Remembered"
+    }
+  ],
+  "sources": [
+    {
+      "id": "T-S01",
+      "title": "Homer, Iliad, trans. A. Lang, W. Leaf and E. Myers, London: Macmillan, 1883",
+      "kind": "primary_text",
+      "status": "checked by Codex 2026-11-01 (book image p503): final line 'Thus held they funeral for Hector tamer of horses.'; Book 1 opens with the anger of Achilles; Achilles' death foretold only (18.95-96, 22.358-360, web text)"
+    },
+    {
+      "id": "T-S02",
+      "title": "Homer, Odyssey 4.271-289, trans. S. H. Butcher and A. Lang, London: Macmillan, 1879",
+      "kind": "primary_text",
+      "status": "checked by Codex 2026-11-01 (book images pp56-57): Menelaus narrates; Helen circles the horse, calls the leaders by name, imitates their wives' voices; Odysseus closes Anticlus' mouth with his hands"
+    },
+    {
+      "id": "T-S03",
+      "title": "Homer, Odyssey 8.63-64, 8.492-520, trans. Butcher and Lang, 1879",
+      "kind": "primary_text",
+      "status": "checked by Codex 2026-11-01 (book images pp117, 131): Muse took the singer's sight and gave sweet song; horse made by Epeius with Athene's aid; three counsels (cleave, cast down on the rocks, leave as offering to the gods)"
+    },
+    {
+      "id": "T-S04",
+      "title": "Homer, Odyssey 11.523-532, trans. Butcher and Lang, 1879",
+      "kind": "primary_text",
+      "status": "checked by Codex 2026-11-01 (book image partial + web text): Neoptolemus never paled; selected passages total 58 lines; no number of men given"
+    },
+    {
+      "id": "T-S05",
+      "title": "Proclus, Chrestomathy, summaries of the Little Iliad and the Sack of Ilium, trans. H. G. Evelyn-White, 1914",
+      "kind": "primary_text",
+      "status": "checked by Codex 2026-11-01 (web transcription): Epeius builds the horse; Trojans breach part of the wall to bring it in; serpents kill Laocoon and one of his two sons; Sinon's fire-signal. Identity and date of Proclus debated"
+    },
+    {
+      "id": "T-S06",
+      "title": "Relief pithos, Archaeological Museum of Mykonos 2240 (found 1961), c. 670 BC / second quarter of 7th c. BC",
+      "kind": "research",
+      "status": "checked by Codex 2026-11-01 (museum/university pages, Ervin 1963): one of the oldest known depictions, not 'the oldest'; image MYK01 is photographer's own CC0 (Wikimedia Commons, AbelDionis)"
+    },
+    {
+      "id": "T-S07",
+      "title": "Virgil, Aeneid 2, trans. J. W. Mackail, London: Macmillan, 1885; Latin text 2.49",
+      "kind": "primary_text",
+      "status": "checked by Codex 2026-11-01 (book image p25): 'Be it what it may, I fear the Grecians even when they offer gifts.'; 'he hurled his mighty spear'; Latin 'timeo Danaos et dona ferentes' (web); Sinon 57-198, serpents 199-227, wall 234. Written c. 29-19 BC, published after Virgil's death"
+    },
+    {
+      "id": "T-S08",
+      "title": "Dating of the Homeric poems",
+      "kind": "research",
+      "status": "checked by Codex 2026-11-01 (University of Chicago Library, Ashmolean): 8th to mid-7th c. BC; difference to Virgil described as 'many centuries'"
+    },
+    {
+      "id": "T-S09",
+      "title": "Pausanias, Description of Greece 1.23.8, trans. W. H. S. Jones, 1918",
+      "kind": "primary_text",
+      "status": "checked by Codex 2026-11-01 (web transcription): 'There is the horse called Wooden set up in bronze.'; 'a contrivance to make a breach in the Trojan wall'. Sculptor's name not in this passage; not used"
+    },
+    {
+      "id": "T-S10",
+      "title": "Apollodorus, Epitome 5.14, trans. J. G. Frazer, 1921",
+      "kind": "primary_text",
+      "status": "checked by Codex 2026-11-01 (web transcription): 'fifty (or, according to the author of the Little Iliad, three thousand)'"
+    },
+    {
+      "id": "T-S11",
+      "title": "Merriam-Webster, 'Trojan horse'",
+      "kind": "research",
+      "status": "checked by Codex 2026-11-01: computer sense, a seemingly useful program that hides harmful instructions; no date of first use stated"
+    }
+  ],
+  "segments": [
+    {
+      "id": "P01",
+      "chapter": "C01",
+      "sources": [
+        "T-S01"
+      ],
+      "classification": "editorial_question",
+      "visuals": [
+        "met_202259"
+      ],
+      "text": "Outside the walls of Troy stands a giant wooden horse. The Greeks, it seems, have sailed away and left it behind as a gift. But inside, soldiers are waiting for the night. It is one of the most famous stories ever told, and many people remember it from Homer's Iliad. Yet the Iliad ends before the horse is ever built. So where does the story of the Trojan horse come from?"
+    },
+    {
+      "id": "P02",
+      "chapter": "C01",
+      "sources": [],
+      "classification": "editorial_question",
+      "visuals": [
+        "R06"
+      ],
+      "text": "In this episode, we follow the horse from the last line of the Iliad, to a song in the Odyssey, to poems now mostly lost, and to a Roman poet who gave the story one of its most famous tellings."
+    },
+    {
+      "id": "P03",
+      "chapter": "C02",
+      "sources": [
+        "T-S01",
+        "T-S08"
+      ],
+      "classification": "sourced_narration",
+      "visuals": [
+        "met_437394",
+        "met_198621"
+      ],
+      "text": "The Iliad is one of the oldest works of Greek literature. It tells of only a short time in the tenth year of the Trojan War, beginning with the anger of the hero Achilles. It ends not with the fall of Troy, but with a funeral. In one old translation, its final line reads: \"Thus held they funeral for Hector tamer of horses.\""
+    },
+    {
+      "id": "P04",
+      "chapter": "C02",
+      "sources": [
+        "T-S01"
+      ],
+      "classification": "sourced_narration",
+      "visuals": [
+        "D_lastline",
+        "D_nohorse"
+      ],
+      "text": "The Iliad does not tell of a wooden horse, or of the city's fall. Even the death of Achilles is foretold, but never shown. The horse, the trick, the burning of Troy: all of that lies beyond the poem's last page."
+    },
+    {
+      "id": "P05",
+      "chapter": "C03",
+      "sources": [
+        "T-S03"
+      ],
+      "classification": "sourced_narration",
+      "visuals": [
+        "met_247952",
+        "D_options"
+      ],
+      "text": "The horse does appear in Homer's other great poem, the Odyssey. Far from home, Odysseus sits at a feast and asks the blind singer Demodocus to sing of the wooden horse, which Epeius built with the help of the goddess Athena. In the song, the Trojans argue over what to do with it: break it open, throw it down onto the rocks, or keep it as an offering to the gods."
+    },
+    {
+      "id": "P06",
+      "chapter": "C03",
+      "sources": [
+        "T-S02"
+      ],
+      "classification": "sourced_narration",
+      "visuals": [
+        "met_254876"
+      ],
+      "text": "Earlier in the poem, King Menelaus remembers how Helen walked around the horse, calling out the names of the Greek leaders hidden inside, and imitating the voices of their wives. Odysseus held the men back, and covered one man's mouth with his hands, so that no one would answer."
+    },
+    {
+      "id": "P07",
+      "chapter": "C03",
+      "sources": [
+        "T-S04"
+      ],
+      "classification": "sourced_narration",
+      "visuals": [
+        "D_passages"
+      ],
+      "text": "And in the land of the dead, Odysseus tells the ghost of Achilles that his son was among the men inside, and never once turned pale. In Homer, the horse is a memory, told in a few dozen lines. None of these passages says how many men were inside."
+    },
+    {
+      "id": "P08",
+      "chapter": "C04",
+      "sources": [
+        "T-S05"
+      ],
+      "classification": "sourced_narration",
+      "visuals": [
+        "D_lostpoems"
+      ],
+      "text": "Other early Greek poems told the end of the war, such as the Little Iliad and the Sack of Troy. They do not survive in full. We know them mainly through short summaries written centuries later. Yet those summaries already have the horse taken into the city through a broken wall, the Trojan priest Laocoön killed by serpents, and Sinon, a Greek who helps to deceive the Trojans."
+    },
+    {
+      "id": "P09",
+      "chapter": "C04",
+      "sources": [
+        "T-S06"
+      ],
+      "classification": "sourced_narration",
+      "visuals": [
+        "MYK01"
+      ],
+      "text": "Artists knew the story early, too. A large clay jar found on the Greek island of Mykonos, made around 670 BC, shows a horse on wheels, with the faces of warriors looking out of small windows in its side. It is one of the oldest known pictures of the Trojan horse."
+    },
+    {
+      "id": "P10",
+      "chapter": "C04",
+      "sources": [
+        "T-S07"
+      ],
+      "classification": "sourced_narration",
+      "visuals": [
+        "R04",
+        "D_gifts",
+        "R01"
+      ],
+      "text": "The version most of us know comes from Rome. About two thousand years ago, the poet Virgil wrote the Aeneid. In its second book, the Trojan hero Aeneas tells a queen of his city's last night. The priest Laocoön warns, in one old translation, \"I fear the Grecians even when they offer gifts,\" and hurls his spear at the horse. Sinon tells a convincing lie. Serpents come from the sea. And the Trojans open their own walls to pull the horse inside."
+    },
+    {
+      "id": "P11",
+      "chapter": "C04",
+      "sources": [
+        "T-S05",
+        "T-S07",
+        "T-S08"
+      ],
+      "classification": "sourced_narration",
+      "visuals": [
+        "D_timeline"
+      ],
+      "text": "Virgil wrote many centuries after Homer's poems, and he told the story from the side of the defeated. He did not invent the horse, the serpents, or Sinon. But many of the scenes we picture today, the warning, the lie, the opened wall, come to us most vividly through his telling."
+    },
+    {
+      "id": "P12",
+      "chapter": "C05",
+      "sources": [
+        "T-S09",
+        "T-S10"
+      ],
+      "classification": "sourced_narration",
+      "visuals": [
+        "met_341207",
+        "D_count"
+      ],
+      "text": "At least one ancient writer offered another explanation. In the second century AD, the travel writer Pausanias saw a bronze statue in Athens, called the Wooden Horse. He wrote that anyone who did not think the Trojans utterly foolish knew the horse had really been a machine for breaking through the wall. And how many men were inside? One later handbook gives fifty, but adds that the author of the Little Iliad said three thousand."
+    },
+    {
+      "id": "P13",
+      "chapter": "C05",
+      "sources": [
+        "T-S04",
+        "T-S05",
+        "T-S07",
+        "T-S11"
+      ],
+      "classification": "editorial_summary",
+      "visuals": [
+        "D_summary",
+        "met_253376"
+      ],
+      "text": "So, is the Trojan horse in the Iliad? No. It appears briefly in the Odyssey, grew in poems now mostly lost and in pictures, and survives in rich detail in Virgil's Aeneid. Today, even computer programs that look useful but hide something harmful are called Trojan horses. The gift is still remembered, and still not trusted."
+    },
+    {
+      "id": "P14",
+      "chapter": "C05",
+      "sources": [],
+      "classification": "editorial_closing",
+      "visuals": [
+        "met_254896"
+      ],
+      "text": "Every story has an origin. Sometimes, it begins with a song sung at a feast."
+    },
+    {
+      "id": "P15",
+      "chapter": "C05",
+      "sources": [],
+      "classification": "credits",
+      "visuals": [
+        "credits"
+      ],
+      "text": "This video is based on historical texts and public museum collections. The narration uses synthetic speech. Sources and terms of use are listed in the description. If you enjoyed this story, please like the video and subscribe for more quiet origins. Thank you for watching."
+    }
+  ]
+}

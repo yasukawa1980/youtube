@@ -1,0 +1,4291 @@
+[
+  {
+    "key": "met_202259",
+    "segment_id": "P01",
+    "file": "assets/met_202259.png",
+    "text_boxes": [
+      {
+        "text": "ARTWORK｜美術作品",
+        "bbox": [
+          48,
+          15,
+          286,
+          38
+        ],
+        "font_size": 23,
+        "color": "#5a3a1a"
+      },
+      {
+        "text": "Dish depicting the Trojan Horse, Italy, mid-16th c. — The Met, 59.23.2",
+        "bbox": [
+          48,
+          46,
+          841,
+          70
+        ],
+        "font_size": 26,
+        "color": "#3b2c21"
+      },
+      {
+        "text": "Later imagining｜後世の想像図",
+        "bbox": [
+          48,
+          80,
+          344,
+          103
+        ],
+        "font_size": 20,
+        "color": "#3b2c21"
+      }
+    ],
+    "source": "https://www.metmuseum.org/art/collection/search/202259",
+    "label": "ARTWORK｜美術作品",
+    "source_text": [
+      "ARTWORK｜美術作品",
+      "Dish depicting the Trojan Horse, Italy, mid-16th c. — The Met, 59.23.2",
+      "Later imagining｜後世の想像図"
+    ],
+    "original_sha256": "d8f8674c7b4ee7cd1812df1af12ab17834a4dae536b30a8b3d191c93f05145f9",
+    "original_pixels": [
+      1378,
+      1383
+    ],
+    "crop_pixels": [
+      0,
+      0,
+      1378,
+      1383
+    ],
+    "crop_normalized": [
+      0,
+      0,
+      1,
+      1
+    ],
+    "art_boxes": [
+      [
+        506,
+        142,
+        1413,
+        1052
+      ]
+    ],
+    "camera_band": [
+      110,
+      1080
+    ],
+    "zoom_amount": 0.07,
+    "native_initial_scale": 0.658200290275762,
+    "native_max_scale": 0.7042743105950654,
+    "color_class": "color",
+    "original_asset_id": "met_202259",
+    "start": 0.0,
+    "end": 32.3,
+    "frames": 969,
+    "encoded_file": "_work/render/P01_01_met_202259.mp4",
+    "render_config": {
+      "image_sha256": "f9017a9a27103220f3d2d1b134237a689566f8854774e2a17e249a9b09e8b07f",
+      "stages": [],
+      "frames": 969,
+      "filter": "[0:v]split=2[base][art];[art]crop=1920:970:0:110,format=yuv444p,perspective=x0='(W-W/(1+0.07*min(on/659,1)))/2':y0='(H-H/(1+0.07*min(on/659,1)))/2':x1='(W-W/(1+0.07*min(on/659,1)))/2+W/(1+0.07*min(on/659,1))':y1='(H-H/(1+0.07*min(on/659,1)))/2':x2='(W-W/(1+0.07*min(on/659,1)))/2':y2='(H-H/(1+0.07*min(on/659,1)))/2+H/(1+0.07*min(on/659,1))':x3='(W-W/(1+0.07*min(on/659,1)))/2+W/(1+0.07*min(on/659,1))':y3='(H-H/(1+0.07*min(on/659,1)))/2+H/(1+0.07*min(on/659,1))':sense=source:eval=frame:interpolation=cubic[moving];[base][moving]overlay=0:110:format=yuv444,format=yuv420p[v]",
+      "lossless_static_intermediate": false,
+      "stage_change_frames": []
+    },
+    "stage_change_frames": []
+  },
+  {
+    "key": "R06",
+    "segment_id": "P02",
+    "file": "assets/R06.png",
+    "text_boxes": [
+      {
+        "text": "PRINT｜版画",
+        "bbox": [
+          48,
+          15,
+          188,
+          38
+        ],
+        "font_size": 23,
+        "color": "#5a3a1a"
+      },
+      {
+        "text": "After John Flaxman, Odyssey title page, 1805 — Rijksmuseum, RP-P-1975-75-41",
+        "bbox": [
+          47,
+          46,
+          975,
+          70
+        ],
+        "font_size": 26,
+        "color": "#3b2c21"
+      },
+      {
+        "text": "Later imagining｜後世の想像図",
+        "bbox": [
+          48,
+          80,
+          344,
+          103
+        ],
+        "font_size": 20,
+        "color": "#3b2c21"
+      }
+    ],
+    "source": "https://www.rijksmuseum.nl/en/collection/object/Portret%2Bvan%2BHomerus%2Ben%2Bprofil--184b4c42b2d66fd2226c666356a9b903",
+    "label": "PRINT｜版画",
+    "source_text": [
+      "PRINT｜版画",
+      "After John Flaxman, Odyssey title page, 1805 — Rijksmuseum, RP-P-1975-75-41",
+      "Later imagining｜後世の想像図"
+    ],
+    "original_sha256": "c3e24a686f9131d694eb6f43d1a041748156abecbc606b9f961deb3ee34dd715",
+    "original_pixels": [
+      4076,
+      2717
+    ],
+    "crop_pixels": [
+      469,
+      421,
+      3587,
+      2337
+    ],
+    "crop_normalized": [
+      0.115,
+      0.155,
+      0.88,
+      0.86
+    ],
+    "art_boxes": [
+      [
+        219,
+        142,
+        1700,
+        1052
+      ]
+    ],
+    "camera_band": [
+      110,
+      1080
+    ],
+    "zoom_amount": 0.1,
+    "native_initial_scale": 0.4749839640795382,
+    "native_max_scale": 0.5224823604874921,
+    "color_class": "warm_monochrome",
+    "original_asset_id": "R06",
+    "start": 32.3,
+    "end": 47.86666666666667,
+    "frames": 467,
+    "encoded_file": "_work/render/P02_01_R06.mp4",
+    "render_config": {
+      "image_sha256": "1edf2fb45837974901c5e3e40fddb6f5b9011007d0a4d4596f5ef9459cf89368",
+      "stages": [],
+      "frames": 467,
+      "filter": "[0:v]split=2[base][art];[art]crop=1920:970:0:110,format=yuv444p,perspective=x0='(W-W/(1+0.1*on/466))*0.5':y0='(H-H/(1+0.1*on/466))*0.22':x1='(W-W/(1+0.1*on/466))*0.5+W/(1+0.1*on/466)':y1='(H-H/(1+0.1*on/466))*0.22':x2='(W-W/(1+0.1*on/466))*0.5':y2='(H-H/(1+0.1*on/466))*0.22+H/(1+0.1*on/466)':x3='(W-W/(1+0.1*on/466))*0.5+W/(1+0.1*on/466)':y3='(H-H/(1+0.1*on/466))*0.22+H/(1+0.1*on/466)':sense=source:eval=frame:interpolation=cubic[moving];[base][moving]overlay=0:110:format=yuv444,format=yuv420p[v]",
+      "lossless_static_intermediate": false,
+      "stage_change_frames": []
+    },
+    "stage_change_frames": []
+  },
+  {
+    "key": "opening",
+    "segment_id": "BRAND",
+    "start": 47.86666666666667,
+    "end": 51.86666666666667,
+    "frames": 120,
+    "encoded_file": "/Users/ryo/Desktop/新チャンネル/ブランド素材/オープニング_エンドカード_動画試作_v02_20261021/deliverables/Quiet_Origins_opening_trial_v02.mp4",
+    "original_source": "/Users/ryo/Desktop/新チャンネル/ブランド素材/オープニング_エンドカード_動画試作_v02_20261021/deliverables/Quiet_Origins_opening_trial_v02.mp4",
+    "original_sha256": "4f8e95fd166e52b6c601c87440006ded2eec298f54c3d6d6a951738b54f721a9"
+  },
+  {
+    "key": "met_437394",
+    "segment_id": "P03",
+    "file": "assets/met_437394.png",
+    "text_boxes": [
+      {
+        "text": "ARTWORK｜美術作品",
+        "bbox": [
+          48,
+          15,
+          286,
+          38
+        ],
+        "font_size": 23,
+        "color": "#5a3a1a"
+      },
+      {
+        "text": "Rembrandt, Aristotle with a Bust of Homer, 1653 — The Met, 61.198",
+        "bbox": [
+          48,
+          46,
+          822,
+          69
+        ],
+        "font_size": 26,
+        "color": "#3b2c21"
+      },
+      {
+        "text": "Homer bust detail｜ホメロスの胸像部分　·　Later imagining｜後世の想像図",
+        "bbox": [
+          48,
+          80,
+          771,
+          103
+        ],
+        "font_size": 20,
+        "color": "#3b2c21"
+      }
+    ],
+    "source": "https://www.metmuseum.org/art/collection/search/437394",
+    "label": "ARTWORK｜美術作品",
+    "source_text": [
+      "ARTWORK｜美術作品",
+      "Rembrandt, Aristotle with a Bust of Homer, 1653 — The Met, 61.198",
+      "Homer bust detail｜ホメロスの胸像部分　·　Later imagining｜後世の想像図"
+    ],
+    "original_sha256": "55dc9232dd6b412cea4964f19e98a56f6bd1fa7213e4e947834413cf65d8776a",
+    "original_pixels": [
+      3792,
+      4000
+    ],
+    "crop_pixels": [
+      171,
+      1740,
+      1232,
+      3580
+    ],
+    "crop_normalized": [
+      0.045,
+      0.435,
+      0.325,
+      0.895
+    ],
+    "art_boxes": [
+      [
+        697,
+        142,
+        1222,
+        1052
+      ]
+    ],
+    "camera_band": [
+      110,
+      1080
+    ],
+    "zoom_amount": 0.07,
+    "native_initial_scale": 0.4948162111215834,
+    "native_max_scale": 0.5294533459000943,
+    "color_class": "color",
+    "original_asset_id": "met_437394",
+    "start": 51.86666666666667,
+    "end": 64.23333333333333,
+    "frames": 371,
+    "encoded_file": "_work/render/P03_01_met_437394.mp4",
+    "render_config": {
+      "image_sha256": "d5a7c6fc1f2a45811ac6996cf92ee68a8a90519d8d44eb0ab0455b4ef7cc0bba",
+      "stages": [],
+      "frames": 371,
+      "filter": "[0:v]split=2[base][art];[art]crop=1920:970:0:110,format=yuv444p,perspective=x0='(W-W/(1+0.07*on/370))/2':y0='(H-H/(1+0.07*on/370))/2':x1='(W-W/(1+0.07*on/370))/2+W/(1+0.07*on/370)':y1='(H-H/(1+0.07*on/370))/2':x2='(W-W/(1+0.07*on/370))/2':y2='(H-H/(1+0.07*on/370))/2+H/(1+0.07*on/370)':x3='(W-W/(1+0.07*on/370))/2+W/(1+0.07*on/370)':y3='(H-H/(1+0.07*on/370))/2+H/(1+0.07*on/370)':sense=source:eval=frame:interpolation=cubic[moving];[base][moving]overlay=0:110:format=yuv444,format=yuv420p[v]",
+      "lossless_static_intermediate": false,
+      "stage_change_frames": []
+    },
+    "stage_change_frames": []
+  },
+  {
+    "key": "met_198621",
+    "segment_id": "P03",
+    "file": "assets/met_198621.png",
+    "text_boxes": [
+      {
+        "text": "ARTWORK｜美術作品",
+        "bbox": [
+          48,
+          15,
+          286,
+          38
+        ],
+        "font_size": 23,
+        "color": "#5a3a1a"
+      },
+      {
+        "text": "Priam Supplicating Achilles for the Body of Hector, c. 1815–25 — The Met, 40.20.40",
+        "bbox": [
+          48,
+          46,
+          998,
+          70
+        ],
+        "font_size": 26,
+        "color": "#3b2c21"
+      },
+      {
+        "text": "Later imagining｜後世の想像図",
+        "bbox": [
+          48,
+          80,
+          344,
+          103
+        ],
+        "font_size": 20,
+        "color": "#3b2c21"
+      }
+    ],
+    "source": "https://www.metmuseum.org/art/collection/search/198621",
+    "label": "ARTWORK｜美術作品",
+    "source_text": [
+      "ARTWORK｜美術作品",
+      "Priam Supplicating Achilles for the Body of Hector, c. 1815–25 — The Met, 40.20.40",
+      "Later imagining｜後世の想像図"
+    ],
+    "original_sha256": "686e898b010a80829b3f5ba9c8ed69cd9c18d71aad32483a3ab2f2d455befd8f",
+    "original_pixels": [
+      4000,
+      3000
+    ],
+    "crop_pixels": [
+      0,
+      0,
+      4000,
+      3000
+    ],
+    "crop_normalized": [
+      0,
+      0,
+      1,
+      1
+    ],
+    "art_boxes": [
+      [
+        353,
+        142,
+        1566,
+        1052
+      ]
+    ],
+    "camera_band": [
+      110,
+      1080
+    ],
+    "zoom_amount": 0.025,
+    "native_initial_scale": 0.30333333333333334,
+    "native_max_scale": 0.3109166666666667,
+    "color_class": "color",
+    "original_asset_id": "met_198621",
+    "start": 64.23333333333333,
+    "end": 76.66666666666667,
+    "frames": 373,
+    "encoded_file": "_work/render/P03_02_met_198621.mp4",
+    "render_config": {
+      "image_sha256": "9734548a1c496c6da15182f99e36dd0bef6b85f41c85cf5d7c41d1a2f690c432",
+      "stages": [],
+      "frames": 373,
+      "filter": "[0:v]split=2[base][art];[art]crop=1920:970:0:110,format=yuv444p,perspective=x0='(W-W/(1+0.025*on/372))/2':y0='(H-H/(1+0.025*on/372))/2':x1='(W-W/(1+0.025*on/372))/2+W/(1+0.025*on/372)':y1='(H-H/(1+0.025*on/372))/2':x2='(W-W/(1+0.025*on/372))/2':y2='(H-H/(1+0.025*on/372))/2+H/(1+0.025*on/372)':x3='(W-W/(1+0.025*on/372))/2+W/(1+0.025*on/372)':y3='(H-H/(1+0.025*on/372))/2+H/(1+0.025*on/372)':sense=source:eval=frame:interpolation=cubic[moving];[base][moving]overlay=0:110:format=yuv444,format=yuv420p[v]",
+      "lossless_static_intermediate": false,
+      "stage_change_frames": []
+    },
+    "stage_change_frames": []
+  },
+  {
+    "key": "D_lastline",
+    "segment_id": "P04",
+    "file": "assets/D_lastline.png",
+    "text_boxes": [
+      {
+        "text": "TITLE CARD｜文字カード",
+        "bbox": [
+          48,
+          15,
+          327,
+          38
+        ],
+        "font_size": 23,
+        "color": "#5a3a1a"
+      },
+      {
+        "text": "Iliad, Book 24 — trans. Lang, Leaf & Myers (1883)",
+        "bbox": [
+          48,
+          53,
+          657,
+          78
+        ],
+        "font_size": 27,
+        "color": "#3b2c21"
+      },
+      {
+        "text": "\"Thus held they funeral for",
+        "bbox": [
+          450,
+          258,
+          1470,
+          342
+        ],
+        "font_size": 86,
+        "font_style": "serif",
+        "color": "#3b2c21"
+      },
+      {
+        "text": "Hector tamer of horses.\"",
+        "bbox": [
+          495,
+          368,
+          1425,
+          434
+        ],
+        "font_size": 86,
+        "font_style": "serif",
+        "color": "#3b2c21"
+      },
+      {
+        "text": "こうして彼らは、馬を馴らすヘクトルの葬儀を営んだ。",
+        "bbox": [
+          347,
+          503,
+          1572,
+          550
+        ],
+        "font_size": 49,
+        "font_style": "ja",
+        "color": "#3b2c21"
+      }
+    ],
+    "color_class": "diagram",
+    "camera_band": [
+      110,
+      1080
+    ],
+    "stages": [
+      {
+        "stage": 0,
+        "file": "assets/D_lastline_stage0.png",
+        "text_boxes": [
+          {
+            "text": "TITLE CARD｜文字カード",
+            "bbox": [
+              48,
+              15,
+              327,
+              38
+            ],
+            "font_size": 23,
+            "color": "#5a3a1a"
+          },
+          {
+            "text": "Iliad, Book 24 — trans. Lang, Leaf & Myers (1883)",
+            "bbox": [
+              48,
+              53,
+              657,
+              78
+            ],
+            "font_size": 27,
+            "color": "#3b2c21"
+          },
+          {
+            "text": "\"Thus held they funeral for",
+            "bbox": [
+              450,
+              258,
+              1470,
+              342
+            ],
+            "font_size": 86,
+            "font_style": "serif",
+            "color": "#3b2c21"
+          },
+          {
+            "text": "Hector tamer of horses.\"",
+            "bbox": [
+              495,
+              368,
+              1425,
+              434
+            ],
+            "font_size": 86,
+            "font_style": "serif",
+            "color": "#3b2c21"
+          },
+          {
+            "text": "こうして彼らは、馬を馴らすヘクトルの葬儀を営んだ。",
+            "bbox": [
+              347,
+              503,
+              1572,
+              550
+            ],
+            "font_size": 49,
+            "font_style": "ja",
+            "color": "#3b2c21"
+          }
+        ]
+      }
+    ],
+    "start": 76.66666666666667,
+    "end": 89.0,
+    "frames": 370,
+    "encoded_file": "_work/render/P04_01_D_lastline.mp4",
+    "render_config": {
+      "image_sha256": "04812aab88f6aac1c09660a666486de244f7d2a52863a0a6b19bdb8a062b1b8d",
+      "stages": [
+        {
+          "sha256": "04812aab88f6aac1c09660a666486de244f7d2a52863a0a6b19bdb8a062b1b8d",
+          "stage": 0
+        }
+      ],
+      "frames": 370,
+      "filter": "[0:v]format=yuv420p[v]",
+      "lossless_static_intermediate": true,
+      "stage_change_frames": []
+    },
+    "stage_change_frames": []
+  },
+  {
+    "key": "D_nohorse",
+    "segment_id": "P04",
+    "file": "assets/D_nohorse.png",
+    "text_boxes": [
+      {
+        "text": "TITLE CARD｜文字カード",
+        "bbox": [
+          48,
+          15,
+          327,
+          38
+        ],
+        "font_size": 23,
+        "color": "#5a3a1a"
+      },
+      {
+        "text": "NO HORSE",
+        "bbox": [
+          579,
+          202,
+          1340,
+          309
+        ],
+        "font_size": 143,
+        "font_style": "bold",
+        "color": "#3b2c21"
+      },
+      {
+        "text": "IN THE ILIAD",
+        "bbox": [
+          537,
+          366,
+          1382,
+          464
+        ],
+        "font_size": 137,
+        "font_style": "bold",
+        "color": "#3b2c21"
+      },
+      {
+        "text": "『イリアス』に木馬は出てこない",
+        "bbox": [
+          495,
+          546,
+          1425,
+          606
+        ],
+        "font_size": 62,
+        "font_style": "ja",
+        "color": "#3b2c21"
+      }
+    ],
+    "color_class": "diagram",
+    "camera_band": [
+      110,
+      1080
+    ],
+    "stages": [
+      {
+        "stage": 0,
+        "file": "assets/D_nohorse_stage0.png",
+        "text_boxes": [
+          {
+            "text": "TITLE CARD｜文字カード",
+            "bbox": [
+              48,
+              15,
+              327,
+              38
+            ],
+            "font_size": 23,
+            "color": "#5a3a1a"
+          },
+          {
+            "text": "NO HORSE",
+            "bbox": [
+              579,
+              202,
+              1340,
+              309
+            ],
+            "font_size": 143,
+            "font_style": "bold",
+            "color": "#3b2c21"
+          },
+          {
+            "text": "IN THE ILIAD",
+            "bbox": [
+              537,
+              366,
+              1382,
+              464
+            ],
+            "font_size": 137,
+            "font_style": "bold",
+            "color": "#3b2c21"
+          },
+          {
+            "text": "『イリアス』に木馬は出てこない",
+            "bbox": [
+              495,
+              546,
+              1425,
+              606
+            ],
+            "font_size": 62,
+            "font_style": "ja",
+            "color": "#3b2c21"
+          }
+        ]
+      }
+    ],
+    "start": 89.0,
+    "end": 94.13333333333334,
+    "frames": 154,
+    "encoded_file": "_work/render/P04_02_D_nohorse.mp4",
+    "render_config": {
+      "image_sha256": "98fc4c95fe7b2a03caaeb1e51e77ec3b740958ee9cc40a4820b09a94ca87edd5",
+      "stages": [
+        {
+          "sha256": "98fc4c95fe7b2a03caaeb1e51e77ec3b740958ee9cc40a4820b09a94ca87edd5",
+          "stage": 0
+        }
+      ],
+      "frames": 154,
+      "filter": "[0:v]format=yuv420p[v]",
+      "lossless_static_intermediate": true,
+      "stage_change_frames": []
+    },
+    "stage_change_frames": []
+  },
+  {
+    "key": "met_247952",
+    "segment_id": "P05",
+    "file": "assets/met_247952.png",
+    "text_boxes": [
+      {
+        "text": "ARTWORK｜美術作品",
+        "bbox": [
+          48,
+          15,
+          286,
+          38
+        ],
+        "font_size": 23,
+        "color": "#5a3a1a"
+      },
+      {
+        "text": "Kithara player, terracotta neck-pelike, c. 500 BC — The Met, 07.286.72",
+        "bbox": [
+          48,
+          46,
+          851,
+          70
+        ],
+        "font_size": 26,
+        "color": "#3b2c21"
+      },
+      {
+        "text": "キタラ奏者",
+        "bbox": [
+          48,
+          80,
+          148,
+          100
+        ],
+        "font_size": 20,
+        "color": "#3b2c21"
+      }
+    ],
+    "source": "https://www.metmuseum.org/art/collection/search/247952",
+    "label": "ARTWORK｜美術作品",
+    "source_text": [
+      "ARTWORK｜美術作品",
+      "Kithara player, terracotta neck-pelike, c. 500 BC — The Met, 07.286.72",
+      "キタラ奏者"
+    ],
+    "original_sha256": "3fe4d04727454a81960dc0420adcde57f178bab92f46e669f15feee9902c377d",
+    "original_pixels": [
+      2951,
+      3722
+    ],
+    "crop_pixels": [
+      0,
+      0,
+      2951,
+      3722
+    ],
+    "crop_normalized": [
+      0,
+      0,
+      1,
+      1
+    ],
+    "art_boxes": [
+      [
+        599,
+        142,
+        1320,
+        1052
+      ]
+    ],
+    "camera_band": [
+      110,
+      1080
+    ],
+    "zoom_amount": 0.1,
+    "native_initial_scale": 0.24449220849005912,
+    "native_max_scale": 0.26894142933906506,
+    "color_class": "color",
+    "original_asset_id": "met_247952",
+    "start": 94.13333333333334,
+    "end": 110.8,
+    "frames": 500,
+    "encoded_file": "_work/render/P05_01_met_247952.mp4",
+    "render_config": {
+      "image_sha256": "195263d77d4a5f57747c7b210880b56d20d8488178494417a7361f533d0c324e",
+      "stages": [],
+      "frames": 500,
+      "filter": "[0:v]split=2[base][art];[art]crop=1920:970:0:110,format=yuv444p,perspective=x0='(W-W/(1+0.1*on/499))/2':y0='(H-H/(1+0.1*on/499))/2':x1='(W-W/(1+0.1*on/499))/2+W/(1+0.1*on/499)':y1='(H-H/(1+0.1*on/499))/2':x2='(W-W/(1+0.1*on/499))/2':y2='(H-H/(1+0.1*on/499))/2+H/(1+0.1*on/499)':x3='(W-W/(1+0.1*on/499))/2+W/(1+0.1*on/499)':y3='(H-H/(1+0.1*on/499))/2+H/(1+0.1*on/499)':sense=source:eval=frame:interpolation=cubic[moving];[base][moving]overlay=0:110:format=yuv444,format=yuv420p[v]",
+      "lossless_static_intermediate": false,
+      "stage_change_frames": []
+    },
+    "stage_change_frames": []
+  },
+  {
+    "key": "D_options",
+    "segment_id": "P05",
+    "file": "assets/D_options.png",
+    "text_boxes": [
+      {
+        "text": "SCHEMATIC｜模式図",
+        "bbox": [
+          48,
+          15,
+          282,
+          38
+        ],
+        "font_size": 23,
+        "color": "#5a3a1a"
+      },
+      {
+        "text": "Odyssey, Book 8｜『オデュッセイア』8巻",
+        "bbox": [
+          411,
+          172,
+          1508,
+          233
+        ],
+        "font_size": 55,
+        "font_style": "ja",
+        "color": "#3b2c21"
+      },
+      {
+        "text": "BREAK IT OPEN",
+        "bbox": [
+          725,
+          267,
+          1195,
+          312
+        ],
+        "font_size": 60,
+        "font_style": "bold",
+        "color": "#3b2c21"
+      },
+      {
+        "text": "打ち割る",
+        "bbox": [
+          874,
+          333,
+          1046,
+          374
+        ],
+        "font_size": 43,
+        "font_style": "ja",
+        "color": "#3b2c21"
+      },
+      {
+        "text": "THROW IT ONTO THE ROCKS",
+        "bbox": [
+          531,
+          397,
+          1390,
+          442
+        ],
+        "font_size": 60,
+        "font_style": "bold",
+        "color": "#3b2c21"
+      },
+      {
+        "text": "岩の上へ投げ落とす",
+        "bbox": [
+          766,
+          463,
+          1153,
+          506
+        ],
+        "font_size": 43,
+        "font_style": "ja",
+        "color": "#3b2c21"
+      },
+      {
+        "text": "KEEP IT FOR THE GODS",
+        "bbox": [
+          606,
+          527,
+          1315,
+          572
+        ],
+        "font_size": 60,
+        "font_style": "bold",
+        "color": "#3b2c21"
+      },
+      {
+        "text": "神々への捧げ物に",
+        "bbox": [
+          788,
+          593,
+          1132,
+          636
+        ],
+        "font_size": 43,
+        "font_style": "ja",
+        "color": "#3b2c21"
+      }
+    ],
+    "color_class": "diagram",
+    "camera_band": [
+      110,
+      1080
+    ],
+    "stages": [
+      {
+        "stage": 0,
+        "file": "assets/D_options_stage0.png",
+        "text_boxes": [
+          {
+            "text": "SCHEMATIC｜模式図",
+            "bbox": [
+              48,
+              15,
+              282,
+              38
+            ],
+            "font_size": 23,
+            "color": "#5a3a1a"
+          },
+          {
+            "text": "Odyssey, Book 8｜『オデュッセイア』8巻",
+            "bbox": [
+              411,
+              172,
+              1508,
+              233
+            ],
+            "font_size": 55,
+            "font_style": "ja",
+            "color": "#3b2c21"
+          }
+        ]
+      },
+      {
+        "stage": 1,
+        "file": "assets/D_options_stage1.png",
+        "text_boxes": [
+          {
+            "text": "SCHEMATIC｜模式図",
+            "bbox": [
+              48,
+              15,
+              282,
+              38
+            ],
+            "font_size": 23,
+            "color": "#5a3a1a"
+          },
+          {
+            "text": "Odyssey, Book 8｜『オデュッセイア』8巻",
+            "bbox": [
+              411,
+              172,
+              1508,
+              233
+            ],
+            "font_size": 55,
+            "font_style": "ja",
+            "color": "#3b2c21"
+          },
+          {
+            "text": "BREAK IT OPEN",
+            "bbox": [
+              725,
+              267,
+              1195,
+              312
+            ],
+            "font_size": 60,
+            "font_style": "bold",
+            "color": "#3b2c21"
+          },
+          {
+            "text": "打ち割る",
+            "bbox": [
+              874,
+              333,
+              1046,
+              374
+            ],
+            "font_size": 43,
+            "font_style": "ja",
+            "color": "#3b2c21"
+          }
+        ]
+      },
+      {
+        "stage": 2,
+        "file": "assets/D_options_stage2.png",
+        "text_boxes": [
+          {
+            "text": "SCHEMATIC｜模式図",
+            "bbox": [
+              48,
+              15,
+              282,
+              38
+            ],
+            "font_size": 23,
+            "color": "#5a3a1a"
+          },
+          {
+            "text": "Odyssey, Book 8｜『オデュッセイア』8巻",
+            "bbox": [
+              411,
+              172,
+              1508,
+              233
+            ],
+            "font_size": 55,
+            "font_style": "ja",
+            "color": "#3b2c21"
+          },
+          {
+            "text": "BREAK IT OPEN",
+            "bbox": [
+              725,
+              267,
+              1195,
+              312
+            ],
+            "font_size": 60,
+            "font_style": "bold",
+            "color": "#3b2c21"
+          },
+          {
+            "text": "打ち割る",
+            "bbox": [
+              874,
+              333,
+              1046,
+              374
+            ],
+            "font_size": 43,
+            "font_style": "ja",
+            "color": "#3b2c21"
+          },
+          {
+            "text": "THROW IT ONTO THE ROCKS",
+            "bbox": [
+              531,
+              397,
+              1390,
+              442
+            ],
+            "font_size": 60,
+            "font_style": "bold",
+            "color": "#3b2c21"
+          },
+          {
+            "text": "岩の上へ投げ落とす",
+            "bbox": [
+              766,
+              463,
+              1153,
+              506
+            ],
+            "font_size": 43,
+            "font_style": "ja",
+            "color": "#3b2c21"
+          }
+        ]
+      },
+      {
+        "stage": 3,
+        "file": "assets/D_options_stage3.png",
+        "text_boxes": [
+          {
+            "text": "SCHEMATIC｜模式図",
+            "bbox": [
+              48,
+              15,
+              282,
+              38
+            ],
+            "font_size": 23,
+            "color": "#5a3a1a"
+          },
+          {
+            "text": "Odyssey, Book 8｜『オデュッセイア』8巻",
+            "bbox": [
+              411,
+              172,
+              1508,
+              233
+            ],
+            "font_size": 55,
+            "font_style": "ja",
+            "color": "#3b2c21"
+          },
+          {
+            "text": "BREAK IT OPEN",
+            "bbox": [
+              725,
+              267,
+              1195,
+              312
+            ],
+            "font_size": 60,
+            "font_style": "bold",
+            "color": "#3b2c21"
+          },
+          {
+            "text": "打ち割る",
+            "bbox": [
+              874,
+              333,
+              1046,
+              374
+            ],
+            "font_size": 43,
+            "font_style": "ja",
+            "color": "#3b2c21"
+          },
+          {
+            "text": "THROW IT ONTO THE ROCKS",
+            "bbox": [
+              531,
+              397,
+              1390,
+              442
+            ],
+            "font_size": 60,
+            "font_style": "bold",
+            "color": "#3b2c21"
+          },
+          {
+            "text": "岩の上へ投げ落とす",
+            "bbox": [
+              766,
+              463,
+              1153,
+              506
+            ],
+            "font_size": 43,
+            "font_style": "ja",
+            "color": "#3b2c21"
+          },
+          {
+            "text": "KEEP IT FOR THE GODS",
+            "bbox": [
+              606,
+              527,
+              1315,
+              572
+            ],
+            "font_size": 60,
+            "font_style": "bold",
+            "color": "#3b2c21"
+          },
+          {
+            "text": "神々への捧げ物に",
+            "bbox": [
+              788,
+              593,
+              1132,
+              636
+            ],
+            "font_size": 43,
+            "font_style": "ja",
+            "color": "#3b2c21"
+          }
+        ]
+      }
+    ],
+    "start": 110.8,
+    "end": 122.6,
+    "frames": 354,
+    "encoded_file": "_work/render/P05_02_D_options.mp4",
+    "render_config": {
+      "image_sha256": "02eec93398c8b24fda18ec8233ad3923e62fdfe5bb9200077ec16655c08fcc31",
+      "stages": [
+        {
+          "sha256": "9f3edd361ea5d183e36345db0ea2924c314ab80d814a04a4591cc540202c89f4",
+          "stage": 0
+        },
+        {
+          "sha256": "538759fd6163c3c91871704b582942a0d4135f326010038be6352781e73bb299",
+          "stage": 1
+        },
+        {
+          "sha256": "8896197c031d0a2ec638ac537e52921e38485638c9fac7cbfc6a27fe76fcd62d",
+          "stage": 2
+        },
+        {
+          "sha256": "02eec93398c8b24fda18ec8233ad3923e62fdfe5bb9200077ec16655c08fcc31",
+          "stage": 3
+        }
+      ],
+      "frames": 354,
+      "filter": "[0:v][1:v]overlay=0:0:enable='gte(n,116)':format=yuv444[s1];[s1][2:v]overlay=0:0:enable='gte(n,147)':format=yuv444[s2];[s2][3:v]overlay=0:0:enable='gte(n,210)':format=yuv444[s3];[s3]format=yuv420p[v]",
+      "lossless_static_intermediate": true,
+      "stage_change_frames": [
+        116,
+        147,
+        210
+      ]
+    },
+    "stage_change_frames": [
+      116,
+      147,
+      210
+    ]
+  },
+  {
+    "key": "met_254876",
+    "segment_id": "P06",
+    "file": "assets/met_254876.png",
+    "text_boxes": [
+      {
+        "text": "ARTWORK｜美術作品",
+        "bbox": [
+          48,
+          15,
+          286,
+          38
+        ],
+        "font_size": 23,
+        "color": "#5a3a1a"
+      },
+      {
+        "text": "Terracotta neck-amphora, c. 540 BC — The Met, 56.171.18",
+        "bbox": [
+          48,
+          46,
+          722,
+          70
+        ],
+        "font_size": 26,
+        "color": "#3b2c21"
+      },
+      {
+        "text": "Menelaus and Helen (as identified by the museum)｜メネラオスとヘレネとされる場面",
+        "bbox": [
+          48,
+          80,
+          877,
+          103
+        ],
+        "font_size": 20,
+        "color": "#3b2c21"
+      }
+    ],
+    "source": "https://www.metmuseum.org/art/collection/search/254876",
+    "label": "ARTWORK｜美術作品",
+    "source_text": [
+      "ARTWORK｜美術作品",
+      "Terracotta neck-amphora, c. 540 BC — The Met, 56.171.18",
+      "Menelaus and Helen (as identified by the museum)｜メネラオスとヘレネとされる場面"
+    ],
+    "original_sha256": "196820fc28ca5841a57b57b2f82b11540cab0dd6b3a6ca2c281e1453868c4b28",
+    "original_pixels": [
+      2280,
+      2886
+    ],
+    "crop_pixels": [
+      0,
+      0,
+      2280,
+      2886
+    ],
+    "crop_normalized": [
+      0,
+      0,
+      1,
+      1
+    ],
+    "art_boxes": [
+      [
+        600,
+        142,
+        1319,
+        1052
+      ]
+    ],
+    "camera_band": [
+      110,
+      1080
+    ],
+    "zoom_amount": 0.08,
+    "native_initial_scale": 0.31535087719298244,
+    "native_max_scale": 0.34057894736842104,
+    "color_class": "color",
+    "original_asset_id": "met_254876",
+    "start": 122.6,
+    "end": 143.03333333333333,
+    "frames": 613,
+    "encoded_file": "_work/render/P06_01_met_254876.mp4",
+    "render_config": {
+      "image_sha256": "533fcb5b85dad0a64885149c58d265e9755adf9199ec48549a5227804fc930c8",
+      "stages": [],
+      "frames": 613,
+      "filter": "[0:v]split=2[base][art];[art]crop=1920:970:0:110,format=yuv444p,perspective=x0='(W-W/(1+0.08*on/612))/2':y0='(H-H/(1+0.08*on/612))/2':x1='(W-W/(1+0.08*on/612))/2+W/(1+0.08*on/612)':y1='(H-H/(1+0.08*on/612))/2':x2='(W-W/(1+0.08*on/612))/2':y2='(H-H/(1+0.08*on/612))/2+H/(1+0.08*on/612)':x3='(W-W/(1+0.08*on/612))/2+W/(1+0.08*on/612)':y3='(H-H/(1+0.08*on/612))/2+H/(1+0.08*on/612)':sense=source:eval=frame:interpolation=cubic[moving];[base][moving]overlay=0:110:format=yuv444,format=yuv420p[v]",
+      "lossless_static_intermediate": false,
+      "stage_change_frames": []
+    },
+    "stage_change_frames": []
+  },
+  {
+    "key": "D_passages",
+    "segment_id": "P07",
+    "file": "assets/D_passages.png",
+    "text_boxes": [
+      {
+        "text": "SCHEMATIC｜模式図",
+        "bbox": [
+          48,
+          15,
+          282,
+          38
+        ],
+        "font_size": 23,
+        "color": "#5a3a1a"
+      },
+      {
+        "text": "Odyssey 4  Helen and the voices",
+        "bbox": [
+          523,
+          158,
+          1397,
+          214
+        ],
+        "font_size": 60,
+        "font_style": "en",
+        "color": "#3b2c21"
+      },
+      {
+        "text": "4巻 ヘレネと妻たちの声",
+        "bbox": [
+          729,
+          223,
+          1191,
+          264
+        ],
+        "font_size": 42,
+        "font_style": "ja",
+        "color": "#3b2c21"
+      },
+      {
+        "text": "Odyssey 8  The song of Demodocus",
+        "bbox": [
+          476,
+          280,
+          1444,
+          336
+        ],
+        "font_size": 60,
+        "font_style": "en",
+        "color": "#3b2c21"
+      },
+      {
+        "text": "8巻 デモドコスの歌",
+        "bbox": [
+          771,
+          345,
+          1149,
+          387
+        ],
+        "font_size": 42,
+        "font_style": "ja",
+        "color": "#3b2c21"
+      },
+      {
+        "text": "Odyssey 11  Achilles' son",
+        "bbox": [
+          621,
+          402,
+          1300,
+          458
+        ],
+        "font_size": 60,
+        "font_style": "en",
+        "color": "#3b2c21"
+      },
+      {
+        "text": "11巻 アキレウスの息子",
+        "bbox": [
+          736,
+          467,
+          1184,
+          506
+        ],
+        "font_size": 42,
+        "font_style": "ja",
+        "color": "#3b2c21"
+      },
+      {
+        "text": "A FEW DOZEN LINES · NO NUMBER OF MEN",
+        "bbox": [
+          316,
+          537,
+          1605,
+          582
+        ],
+        "font_size": 60,
+        "font_style": "bold",
+        "color": "#3b2c21"
+      },
+      {
+        "text": "合わせて数十行・人数の記述なし",
+        "bbox": [
+          630,
+          606,
+          1290,
+          649
+        ],
+        "font_size": 44,
+        "font_style": "ja_bold",
+        "color": "#3b2c21"
+      }
+    ],
+    "color_class": "diagram",
+    "camera_band": [
+      110,
+      1080
+    ],
+    "stages": [
+      {
+        "stage": 0,
+        "file": "assets/D_passages_stage0.png",
+        "text_boxes": [
+          {
+            "text": "SCHEMATIC｜模式図",
+            "bbox": [
+              48,
+              15,
+              282,
+              38
+            ],
+            "font_size": 23,
+            "color": "#5a3a1a"
+          },
+          {
+            "text": "Odyssey 4  Helen and the voices",
+            "bbox": [
+              523,
+              158,
+              1397,
+              214
+            ],
+            "font_size": 60,
+            "font_style": "en",
+            "color": "#3b2c21"
+          },
+          {
+            "text": "4巻 ヘレネと妻たちの声",
+            "bbox": [
+              729,
+              223,
+              1191,
+              264
+            ],
+            "font_size": 42,
+            "font_style": "ja",
+            "color": "#3b2c21"
+          },
+          {
+            "text": "Odyssey 8  The song of Demodocus",
+            "bbox": [
+              476,
+              280,
+              1444,
+              336
+            ],
+            "font_size": 60,
+            "font_style": "en",
+            "color": "#3b2c21"
+          },
+          {
+            "text": "8巻 デモドコスの歌",
+            "bbox": [
+              771,
+              345,
+              1149,
+              387
+            ],
+            "font_size": 42,
+            "font_style": "ja",
+            "color": "#3b2c21"
+          },
+          {
+            "text": "Odyssey 11  Achilles' son",
+            "bbox": [
+              621,
+              402,
+              1300,
+              458
+            ],
+            "font_size": 60,
+            "font_style": "en",
+            "color": "#3b2c21"
+          },
+          {
+            "text": "11巻 アキレウスの息子",
+            "bbox": [
+              736,
+              467,
+              1184,
+              506
+            ],
+            "font_size": 42,
+            "font_style": "ja",
+            "color": "#3b2c21"
+          }
+        ]
+      },
+      {
+        "stage": 1,
+        "file": "assets/D_passages_stage1.png",
+        "text_boxes": [
+          {
+            "text": "SCHEMATIC｜模式図",
+            "bbox": [
+              48,
+              15,
+              282,
+              38
+            ],
+            "font_size": 23,
+            "color": "#5a3a1a"
+          },
+          {
+            "text": "Odyssey 4  Helen and the voices",
+            "bbox": [
+              523,
+              158,
+              1397,
+              214
+            ],
+            "font_size": 60,
+            "font_style": "en",
+            "color": "#3b2c21"
+          },
+          {
+            "text": "4巻 ヘレネと妻たちの声",
+            "bbox": [
+              729,
+              223,
+              1191,
+              264
+            ],
+            "font_size": 42,
+            "font_style": "ja",
+            "color": "#3b2c21"
+          },
+          {
+            "text": "Odyssey 8  The song of Demodocus",
+            "bbox": [
+              476,
+              280,
+              1444,
+              336
+            ],
+            "font_size": 60,
+            "font_style": "en",
+            "color": "#3b2c21"
+          },
+          {
+            "text": "8巻 デモドコスの歌",
+            "bbox": [
+              771,
+              345,
+              1149,
+              387
+            ],
+            "font_size": 42,
+            "font_style": "ja",
+            "color": "#3b2c21"
+          },
+          {
+            "text": "Odyssey 11  Achilles' son",
+            "bbox": [
+              621,
+              402,
+              1300,
+              458
+            ],
+            "font_size": 60,
+            "font_style": "en",
+            "color": "#3b2c21"
+          },
+          {
+            "text": "11巻 アキレウスの息子",
+            "bbox": [
+              736,
+              467,
+              1184,
+              506
+            ],
+            "font_size": 42,
+            "font_style": "ja",
+            "color": "#3b2c21"
+          },
+          {
+            "text": "A FEW DOZEN LINES · NO NUMBER OF MEN",
+            "bbox": [
+              316,
+              537,
+              1605,
+              582
+            ],
+            "font_size": 60,
+            "font_style": "bold",
+            "color": "#3b2c21"
+          },
+          {
+            "text": "合わせて数十行・人数の記述なし",
+            "bbox": [
+              630,
+              606,
+              1290,
+              649
+            ],
+            "font_size": 44,
+            "font_style": "ja_bold",
+            "color": "#3b2c21"
+          }
+        ]
+      }
+    ],
+    "start": 143.03333333333333,
+    "end": 163.23333333333332,
+    "frames": 606,
+    "encoded_file": "_work/render/P07_01_D_passages.mp4",
+    "render_config": {
+      "image_sha256": "7a1134f28ace973b5f302e2a1f12baccf0202193226081d8ba34859798c90cd4",
+      "stages": [
+        {
+          "sha256": "00b5a2e4a86ef16a8f852645efbb9dd47617db0bbac7adeefa3cddf97c2abb02",
+          "stage": 0
+        },
+        {
+          "sha256": "7a1134f28ace973b5f302e2a1f12baccf0202193226081d8ba34859798c90cd4",
+          "stage": 1
+        }
+      ],
+      "frames": 606,
+      "filter": "[0:v][1:v]overlay=0:0:enable='gte(n,284)':format=yuv444[s1];[s1]format=yuv420p[v]",
+      "lossless_static_intermediate": true,
+      "stage_change_frames": [
+        284
+      ]
+    },
+    "stage_change_frames": [
+      284
+    ]
+  },
+  {
+    "key": "D_lostpoems",
+    "segment_id": "P08",
+    "file": "assets/D_lostpoems.png",
+    "text_boxes": [
+      {
+        "text": "SCHEMATIC｜模式図",
+        "bbox": [
+          48,
+          15,
+          282,
+          38
+        ],
+        "font_size": 23,
+        "color": "#5a3a1a"
+      },
+      {
+        "text": "LITTLE ILIAD ·",
+        "bbox": [
+          272,
+          298,
+          688,
+          341
+        ],
+        "font_size": 60,
+        "font_style": "bold",
+        "color": "#3b2c21"
+      },
+      {
+        "text": "SACK OF TROY",
+        "bbox": [
+          253,
+          373,
+          708,
+          418
+        ],
+        "font_size": 60,
+        "font_style": "bold",
+        "color": "#3b2c21"
+      },
+      {
+        "text": "『小イリアス』『イリオスの陥落』",
+        "bbox": [
+          176,
+          468,
+          784,
+          506
+        ],
+        "font_size": 38,
+        "font_style": "ja",
+        "color": "#3b2c21"
+      },
+      {
+        "text": "(not surviving in full｜全文は残らない)",
+        "bbox": [
+          154,
+          528,
+          806,
+          567
+        ],
+        "font_size": 36,
+        "font_style": "ja",
+        "color": "#3b2c21"
+      },
+      {
+        "text": "LATER SUMMARIES｜後世の要約",
+        "bbox": [
+          1045,
+          168,
+          1835,
+          215
+        ],
+        "font_size": 49,
+        "font_style": "ja",
+        "color": "#3b2c21"
+      },
+      {
+        "text": "THE HORSE",
+        "bbox": [
+          1317,
+          256,
+          1562,
+          286
+        ],
+        "font_size": 42,
+        "font_style": "bold",
+        "color": "#3b2c21"
+      },
+      {
+        "text": "木馬",
+        "bbox": [
+          1405,
+          308,
+          1475,
+          341
+        ],
+        "font_size": 35,
+        "font_style": "ja",
+        "color": "#3b2c21"
+      },
+      {
+        "text": "A BROKEN WALL",
+        "bbox": [
+          1262,
+          357,
+          1619,
+          387
+        ],
+        "font_size": 42,
+        "font_style": "bold",
+        "color": "#3b2c21"
+      },
+      {
+        "text": "崩された城壁",
+        "bbox": [
+          1335,
+          409,
+          1545,
+          443
+        ],
+        "font_size": 35,
+        "font_style": "ja",
+        "color": "#3b2c21"
+      },
+      {
+        "text": "LAOCOÖN AND THE SERPENTS",
+        "bbox": [
+          1115,
+          458,
+          1766,
+          495
+        ],
+        "font_size": 42,
+        "font_style": "bold",
+        "color": "#3b2c21"
+      },
+      {
+        "text": "ラオコーンと大蛇",
+        "bbox": [
+          1300,
+          510,
+          1580,
+          543
+        ],
+        "font_size": 35,
+        "font_style": "ja",
+        "color": "#3b2c21"
+      },
+      {
+        "text": "SINON",
+        "bbox": [
+          1373,
+          559,
+          1506,
+          589
+        ],
+        "font_size": 42,
+        "font_style": "bold",
+        "color": "#3b2c21"
+      },
+      {
+        "text": "シノン",
+        "bbox": [
+          1387,
+          611,
+          1492,
+          640
+        ],
+        "font_size": 35,
+        "font_style": "ja",
+        "color": "#3b2c21"
+      }
+    ],
+    "color_class": "diagram",
+    "camera_band": [
+      110,
+      1080
+    ],
+    "stages": [
+      {
+        "stage": 0,
+        "file": "assets/D_lostpoems_stage0.png",
+        "text_boxes": [
+          {
+            "text": "SCHEMATIC｜模式図",
+            "bbox": [
+              48,
+              15,
+              282,
+              38
+            ],
+            "font_size": 23,
+            "color": "#5a3a1a"
+          },
+          {
+            "text": "LITTLE ILIAD ·",
+            "bbox": [
+              272,
+              298,
+              688,
+              341
+            ],
+            "font_size": 60,
+            "font_style": "bold",
+            "color": "#3b2c21"
+          },
+          {
+            "text": "SACK OF TROY",
+            "bbox": [
+              253,
+              373,
+              708,
+              418
+            ],
+            "font_size": 60,
+            "font_style": "bold",
+            "color": "#3b2c21"
+          },
+          {
+            "text": "『小イリアス』『イリオスの陥落』",
+            "bbox": [
+              176,
+              468,
+              784,
+              506
+            ],
+            "font_size": 38,
+            "font_style": "ja",
+            "color": "#3b2c21"
+          },
+          {
+            "text": "(not surviving in full｜全文は残らない)",
+            "bbox": [
+              154,
+              528,
+              806,
+              567
+            ],
+            "font_size": 36,
+            "font_style": "ja",
+            "color": "#3b2c21"
+          },
+          {
+            "text": "LATER SUMMARIES｜後世の要約",
+            "bbox": [
+              1045,
+              168,
+              1835,
+              215
+            ],
+            "font_size": 49,
+            "font_style": "ja",
+            "color": "#3b2c21"
+          }
+        ]
+      },
+      {
+        "stage": 1,
+        "file": "assets/D_lostpoems_stage1.png",
+        "text_boxes": [
+          {
+            "text": "SCHEMATIC｜模式図",
+            "bbox": [
+              48,
+              15,
+              282,
+              38
+            ],
+            "font_size": 23,
+            "color": "#5a3a1a"
+          },
+          {
+            "text": "LITTLE ILIAD ·",
+            "bbox": [
+              272,
+              298,
+              688,
+              341
+            ],
+            "font_size": 60,
+            "font_style": "bold",
+            "color": "#3b2c21"
+          },
+          {
+            "text": "SACK OF TROY",
+            "bbox": [
+              253,
+              373,
+              708,
+              418
+            ],
+            "font_size": 60,
+            "font_style": "bold",
+            "color": "#3b2c21"
+          },
+          {
+            "text": "『小イリアス』『イリオスの陥落』",
+            "bbox": [
+              176,
+              468,
+              784,
+              506
+            ],
+            "font_size": 38,
+            "font_style": "ja",
+            "color": "#3b2c21"
+          },
+          {
+            "text": "(not surviving in full｜全文は残らない)",
+            "bbox": [
+              154,
+              528,
+              806,
+              567
+            ],
+            "font_size": 36,
+            "font_style": "ja",
+            "color": "#3b2c21"
+          },
+          {
+            "text": "LATER SUMMARIES｜後世の要約",
+            "bbox": [
+              1045,
+              168,
+              1835,
+              215
+            ],
+            "font_size": 49,
+            "font_style": "ja",
+            "color": "#3b2c21"
+          },
+          {
+            "text": "THE HORSE",
+            "bbox": [
+              1317,
+              256,
+              1562,
+              286
+            ],
+            "font_size": 42,
+            "font_style": "bold",
+            "color": "#3b2c21"
+          },
+          {
+            "text": "木馬",
+            "bbox": [
+              1405,
+              308,
+              1475,
+              341
+            ],
+            "font_size": 35,
+            "font_style": "ja",
+            "color": "#3b2c21"
+          }
+        ]
+      },
+      {
+        "stage": 2,
+        "file": "assets/D_lostpoems_stage2.png",
+        "text_boxes": [
+          {
+            "text": "SCHEMATIC｜模式図",
+            "bbox": [
+              48,
+              15,
+              282,
+              38
+            ],
+            "font_size": 23,
+            "color": "#5a3a1a"
+          },
+          {
+            "text": "LITTLE ILIAD ·",
+            "bbox": [
+              272,
+              298,
+              688,
+              341
+            ],
+            "font_size": 60,
+            "font_style": "bold",
+            "color": "#3b2c21"
+          },
+          {
+            "text": "SACK OF TROY",
+            "bbox": [
+              253,
+              373,
+              708,
+              418
+            ],
+            "font_size": 60,
+            "font_style": "bold",
+            "color": "#3b2c21"
+          },
+          {
+            "text": "『小イリアス』『イリオスの陥落』",
+            "bbox": [
+              176,
+              468,
+              784,
+              506
+            ],
+            "font_size": 38,
+            "font_style": "ja",
+            "color": "#3b2c21"
+          },
+          {
+            "text": "(not surviving in full｜全文は残らない)",
+            "bbox": [
+              154,
+              528,
+              806,
+              567
+            ],
+            "font_size": 36,
+            "font_style": "ja",
+            "color": "#3b2c21"
+          },
+          {
+            "text": "LATER SUMMARIES｜後世の要約",
+            "bbox": [
+              1045,
+              168,
+              1835,
+              215
+            ],
+            "font_size": 49,
+            "font_style": "ja",
+            "color": "#3b2c21"
+          },
+          {
+            "text": "THE HORSE",
+            "bbox": [
+              1317,
+              256,
+              1562,
+              286
+            ],
+            "font_size": 42,
+            "font_style": "bold",
+            "color": "#3b2c21"
+          },
+          {
+            "text": "木馬",
+            "bbox": [
+              1405,
+              308,
+              1475,
+              341
+            ],
+            "font_size": 35,
+            "font_style": "ja",
+            "color": "#3b2c21"
+          },
+          {
+            "text": "A BROKEN WALL",
+            "bbox": [
+              1262,
+              357,
+              1619,
+              387
+            ],
+            "font_size": 42,
+            "font_style": "bold",
+            "color": "#3b2c21"
+          },
+          {
+            "text": "崩された城壁",
+            "bbox": [
+              1335,
+              409,
+              1545,
+              443
+            ],
+            "font_size": 35,
+            "font_style": "ja",
+            "color": "#3b2c21"
+          }
+        ]
+      },
+      {
+        "stage": 3,
+        "file": "assets/D_lostpoems_stage3.png",
+        "text_boxes": [
+          {
+            "text": "SCHEMATIC｜模式図",
+            "bbox": [
+              48,
+              15,
+              282,
+              38
+            ],
+            "font_size": 23,
+            "color": "#5a3a1a"
+          },
+          {
+            "text": "LITTLE ILIAD ·",
+            "bbox": [
+              272,
+              298,
+              688,
+              341
+            ],
+            "font_size": 60,
+            "font_style": "bold",
+            "color": "#3b2c21"
+          },
+          {
+            "text": "SACK OF TROY",
+            "bbox": [
+              253,
+              373,
+              708,
+              418
+            ],
+            "font_size": 60,
+            "font_style": "bold",
+            "color": "#3b2c21"
+          },
+          {
+            "text": "『小イリアス』『イリオスの陥落』",
+            "bbox": [
+              176,
+              468,
+              784,
+              506
+            ],
+            "font_size": 38,
+            "font_style": "ja",
+            "color": "#3b2c21"
+          },
+          {
+            "text": "(not surviving in full｜全文は残らない)",
+            "bbox": [
+              154,
+              528,
+              806,
+              567
+            ],
+            "font_size": 36,
+            "font_style": "ja",
+            "color": "#3b2c21"
+          },
+          {
+            "text": "LATER SUMMARIES｜後世の要約",
+            "bbox": [
+              1045,
+              168,
+              1835,
+              215
+            ],
+            "font_size": 49,
+            "font_style": "ja",
+            "color": "#3b2c21"
+          },
+          {
+            "text": "THE HORSE",
+            "bbox": [
+              1317,
+              256,
+              1562,
+              286
+            ],
+            "font_size": 42,
+            "font_style": "bold",
+            "color": "#3b2c21"
+          },
+          {
+            "text": "木馬",
+            "bbox": [
+              1405,
+              308,
+              1475,
+              341
+            ],
+            "font_size": 35,
+            "font_style": "ja",
+            "color": "#3b2c21"
+          },
+          {
+            "text": "A BROKEN WALL",
+            "bbox": [
+              1262,
+              357,
+              1619,
+              387
+            ],
+            "font_size": 42,
+            "font_style": "bold",
+            "color": "#3b2c21"
+          },
+          {
+            "text": "崩された城壁",
+            "bbox": [
+              1335,
+              409,
+              1545,
+              443
+            ],
+            "font_size": 35,
+            "font_style": "ja",
+            "color": "#3b2c21"
+          },
+          {
+            "text": "LAOCOÖN AND THE SERPENTS",
+            "bbox": [
+              1115,
+              458,
+              1766,
+              495
+            ],
+            "font_size": 42,
+            "font_style": "bold",
+            "color": "#3b2c21"
+          },
+          {
+            "text": "ラオコーンと大蛇",
+            "bbox": [
+              1300,
+              510,
+              1580,
+              543
+            ],
+            "font_size": 35,
+            "font_style": "ja",
+            "color": "#3b2c21"
+          }
+        ]
+      },
+      {
+        "stage": 4,
+        "file": "assets/D_lostpoems_stage4.png",
+        "text_boxes": [
+          {
+            "text": "SCHEMATIC｜模式図",
+            "bbox": [
+              48,
+              15,
+              282,
+              38
+            ],
+            "font_size": 23,
+            "color": "#5a3a1a"
+          },
+          {
+            "text": "LITTLE ILIAD ·",
+            "bbox": [
+              272,
+              298,
+              688,
+              341
+            ],
+            "font_size": 60,
+            "font_style": "bold",
+            "color": "#3b2c21"
+          },
+          {
+            "text": "SACK OF TROY",
+            "bbox": [
+              253,
+              373,
+              708,
+              418
+            ],
+            "font_size": 60,
+            "font_style": "bold",
+            "color": "#3b2c21"
+          },
+          {
+            "text": "『小イリアス』『イリオスの陥落』",
+            "bbox": [
+              176,
+              468,
+              784,
+              506
+            ],
+            "font_size": 38,
+            "font_style": "ja",
+            "color": "#3b2c21"
+          },
+          {
+            "text": "(not surviving in full｜全文は残らない)",
+            "bbox": [
+              154,
+              528,
+              806,
+              567
+            ],
+            "font_size": 36,
+            "font_style": "ja",
+            "color": "#3b2c21"
+          },
+          {
+            "text": "LATER SUMMARIES｜後世の要約",
+            "bbox": [
+              1045,
+              168,
+              1835,
+              215
+            ],
+            "font_size": 49,
+            "font_style": "ja",
+            "color": "#3b2c21"
+          },
+          {
+            "text": "THE HORSE",
+            "bbox": [
+              1317,
+              256,
+              1562,
+              286
+            ],
+            "font_size": 42,
+            "font_style": "bold",
+            "color": "#3b2c21"
+          },
+          {
+            "text": "木馬",
+            "bbox": [
+              1405,
+              308,
+              1475,
+              341
+            ],
+            "font_size": 35,
+            "font_style": "ja",
+            "color": "#3b2c21"
+          },
+          {
+            "text": "A BROKEN WALL",
+            "bbox": [
+              1262,
+              357,
+              1619,
+              387
+            ],
+            "font_size": 42,
+            "font_style": "bold",
+            "color": "#3b2c21"
+          },
+          {
+            "text": "崩された城壁",
+            "bbox": [
+              1335,
+              409,
+              1545,
+              443
+            ],
+            "font_size": 35,
+            "font_style": "ja",
+            "color": "#3b2c21"
+          },
+          {
+            "text": "LAOCOÖN AND THE SERPENTS",
+            "bbox": [
+              1115,
+              458,
+              1766,
+              495
+            ],
+            "font_size": 42,
+            "font_style": "bold",
+            "color": "#3b2c21"
+          },
+          {
+            "text": "ラオコーンと大蛇",
+            "bbox": [
+              1300,
+              510,
+              1580,
+              543
+            ],
+            "font_size": 35,
+            "font_style": "ja",
+            "color": "#3b2c21"
+          },
+          {
+            "text": "SINON",
+            "bbox": [
+              1373,
+              559,
+              1506,
+              589
+            ],
+            "font_size": 42,
+            "font_style": "bold",
+            "color": "#3b2c21"
+          },
+          {
+            "text": "シノン",
+            "bbox": [
+              1387,
+              611,
+              1492,
+              640
+            ],
+            "font_size": 35,
+            "font_style": "ja",
+            "color": "#3b2c21"
+          }
+        ]
+      }
+    ],
+    "start": 163.23333333333332,
+    "end": 191.83333333333334,
+    "frames": 858,
+    "encoded_file": "_work/render/P08_01_D_lostpoems.mp4",
+    "render_config": {
+      "image_sha256": "031f6d3860f4fe6d52b2757b792cf89d1b665ac224918e7c1629771026a62769",
+      "stages": [
+        {
+          "sha256": "fc6ef7afe4e4c9d0e237c00bda0f1523ba12e21d709203bf762046fe3ad09a78",
+          "stage": 0
+        },
+        {
+          "sha256": "6e4bc944f54ecb2b83ed75f0756c30fe1325a497705a92e455dc04edabc4ec70",
+          "stage": 1
+        },
+        {
+          "sha256": "5d260ec0385b6642927d8bf0d88df2c6f5cb4e6aa31f15978bcb3e893eae4c3b",
+          "stage": 2
+        },
+        {
+          "sha256": "6f3968181e92913b2a161ed3ee9089a6a6422f445e36f5ad4b8c0f936762a0b1",
+          "stage": 3
+        },
+        {
+          "sha256": "031f6d3860f4fe6d52b2757b792cf89d1b665ac224918e7c1629771026a62769",
+          "stage": 4
+        }
+      ],
+      "frames": 858,
+      "filter": "[0:v][1:v]overlay=0:0:enable='gte(n,490)':format=yuv444[s1];[s1][2:v]overlay=0:0:enable='gte(n,571)':format=yuv444[s2];[s2][3:v]overlay=0:0:enable='gte(n,603)':format=yuv444[s3];[s3][4:v]overlay=0:0:enable='gte(n,701)':format=yuv444[s4];[s4]format=yuv420p[v]",
+      "lossless_static_intermediate": true,
+      "stage_change_frames": [
+        490,
+        571,
+        603,
+        701
+      ]
+    },
+    "stage_change_frames": [
+      490,
+      571,
+      603,
+      701
+    ]
+  },
+  {
+    "key": "MYK01",
+    "segment_id": "P09",
+    "file": "assets/MYK01.png",
+    "text_boxes": [
+      {
+        "text": "PHOTO｜写真",
+        "bbox": [
+          48,
+          15,
+          201,
+          38
+        ],
+        "font_size": 23,
+        "color": "#5a3a1a"
+      },
+      {
+        "text": "Relief pithos, Mykonos, c. 670 BC — Archaeological Museum of Mykonos 2240. Photo: AbelDionis (CC0)",
+        "bbox": [
+          48,
+          46,
+          1241,
+          70
+        ],
+        "font_size": 26,
+        "color": "#3b2c21"
+      }
+    ],
+    "source": "https://commons.wikimedia.org/wiki/File:Mykonos_Pithos_2240_(Trojan_Horse_detail).jpg",
+    "label": "PHOTO｜写真",
+    "source_text": [
+      "PHOTO｜写真",
+      "Relief pithos, Mykonos, c. 670 BC — Archaeological Museum of Mykonos 2240. Photo: AbelDionis (CC0)",
+      null
+    ],
+    "original_sha256": "210071f67ebaa2650c1db90786ba115fa11fd8188f0de375a1cfc6ae8ed63ba5",
+    "original_pixels": [
+      990,
+      885
+    ],
+    "crop_pixels": [
+      0,
+      0,
+      990,
+      885
+    ],
+    "crop_normalized": [
+      0,
+      0,
+      1,
+      1
+    ],
+    "art_boxes": [
+      [
+        525,
+        209,
+        1394,
+        985
+      ]
+    ],
+    "camera_band": [
+      110,
+      1080
+    ],
+    "zoom_amount": 0.06,
+    "native_initial_scale": 0.8777777777777778,
+    "native_max_scale": 0.9304444444444445,
+    "color_class": "color",
+    "original_asset_id": "MYK01",
+    "start": 191.83333333333334,
+    "end": 213.8,
+    "frames": 659,
+    "encoded_file": "_work/render/P09_01_MYK01.mp4",
+    "render_config": {
+      "image_sha256": "91e5f79702a5e20aa7307357ee502ada9038d9f4f87557908a3e72fcacb6abdf",
+      "stages": [],
+      "frames": 659,
+      "filter": "[0:v]split=2[base][art];[art]crop=1920:970:0:110,format=yuv444p,perspective=x0='(W-W/(1+0.06*on/658))/2':y0='(H-H/(1+0.06*on/658))/2':x1='(W-W/(1+0.06*on/658))/2+W/(1+0.06*on/658)':y1='(H-H/(1+0.06*on/658))/2':x2='(W-W/(1+0.06*on/658))/2':y2='(H-H/(1+0.06*on/658))/2+H/(1+0.06*on/658)':x3='(W-W/(1+0.06*on/658))/2+W/(1+0.06*on/658)':y3='(H-H/(1+0.06*on/658))/2+H/(1+0.06*on/658)':sense=source:eval=frame:interpolation=cubic[moving];[base][moving]overlay=0:110:format=yuv444,format=yuv420p[v]",
+      "lossless_static_intermediate": false,
+      "stage_change_frames": []
+    },
+    "stage_change_frames": []
+  },
+  {
+    "key": "R04",
+    "segment_id": "P10",
+    "file": "assets/R04.png",
+    "text_boxes": [
+      {
+        "text": "PRINT｜版画",
+        "bbox": [
+          48,
+          15,
+          188,
+          38
+        ],
+        "font_size": 23,
+        "color": "#5a3a1a"
+      },
+      {
+        "text": "The Trojan Horse brought into Troy, 1663 — Rijksmuseum, RP-P-OB-207.716",
+        "bbox": [
+          48,
+          46,
+          936,
+          70
+        ],
+        "font_size": 26,
+        "color": "#3b2c21"
+      },
+      {
+        "text": "Later imagining｜後世の想像図",
+        "bbox": [
+          48,
+          80,
+          344,
+          103
+        ],
+        "font_size": 20,
+        "color": "#3b2c21"
+      }
+    ],
+    "source": "https://www.rijksmuseum.nl/en/collection/object/Paard-van-Troje-wordt-binnengehaald--616cabda85fc65987de51d297986b74d",
+    "label": "PRINT｜版画",
+    "source_text": [
+      "PRINT｜版画",
+      "The Trojan Horse brought into Troy, 1663 — Rijksmuseum, RP-P-OB-207.716",
+      "Later imagining｜後世の想像図"
+    ],
+    "original_sha256": "bb82e98a7b1fc9966ce9689c50873fc1cdf856b2c85a488f588f70ec4112c046",
+    "original_pixels": [
+      5856,
+      3576
+    ],
+    "crop_pixels": [
+      0,
+      0,
+      5856,
+      3576
+    ],
+    "crop_normalized": [
+      0,
+      0,
+      1,
+      1
+    ],
+    "art_boxes": [
+      [
+        215,
+        142,
+        1705,
+        1052
+      ]
+    ],
+    "camera_band": [
+      110,
+      1080
+    ],
+    "zoom_amount": 0.025,
+    "native_initial_scale": 0.2544742729306488,
+    "native_max_scale": 0.26083612975391496,
+    "color_class": "warm_monochrome",
+    "original_asset_id": "R04",
+    "start": 213.8,
+    "end": 227.93333333333334,
+    "frames": 424,
+    "encoded_file": "_work/render/P10_01_R04.mp4",
+    "render_config": {
+      "image_sha256": "b0a03b1cf47f80397d56045a4b36728e305332e9107c4160a92ef7164560b5b0",
+      "stages": [],
+      "frames": 424,
+      "filter": "[0:v]split=2[base][art];[art]crop=1920:970:0:110,format=yuv444p,perspective=x0='(W-W/(1+0.025*on/423))/2':y0='(H-H/(1+0.025*on/423))/2':x1='(W-W/(1+0.025*on/423))/2+W/(1+0.025*on/423)':y1='(H-H/(1+0.025*on/423))/2':x2='(W-W/(1+0.025*on/423))/2':y2='(H-H/(1+0.025*on/423))/2+H/(1+0.025*on/423)':x3='(W-W/(1+0.025*on/423))/2+W/(1+0.025*on/423)':y3='(H-H/(1+0.025*on/423))/2+H/(1+0.025*on/423)':sense=source:eval=frame:interpolation=cubic[moving];[base][moving]overlay=0:110:format=yuv444,format=yuv420p[v]",
+      "lossless_static_intermediate": false,
+      "stage_change_frames": []
+    },
+    "stage_change_frames": []
+  },
+  {
+    "key": "D_gifts",
+    "segment_id": "P10",
+    "file": "assets/D_gifts.png",
+    "text_boxes": [
+      {
+        "text": "TITLE CARD｜文字カード",
+        "bbox": [
+          48,
+          15,
+          327,
+          38
+        ],
+        "font_size": 23,
+        "color": "#5a3a1a"
+      },
+      {
+        "text": "Aeneid 2.49 — trans. J. W. Mackail (1885)",
+        "bbox": [
+          47,
+          53,
+          562,
+          78
+        ],
+        "font_size": 27,
+        "color": "#3b2c21"
+      },
+      {
+        "text": "\"I fear the Grecians even",
+        "bbox": [
+          482,
+          216,
+          1437,
+          284
+        ],
+        "font_size": 88,
+        "font_style": "serif",
+        "color": "#3b2c21"
+      },
+      {
+        "text": "when they offer gifts.\"",
+        "bbox": [
+          532,
+          328,
+          1386,
+          414
+        ],
+        "font_size": 88,
+        "font_style": "serif",
+        "color": "#3b2c21"
+      },
+      {
+        "text": "timeo Danaos et dona ferentes",
+        "bbox": [
+          645,
+          461,
+          1274,
+          498
+        ],
+        "font_size": 47,
+        "font_style": "serif",
+        "color": "#3b2c21"
+      },
+      {
+        "text": "私は、贈り物を携えたギリシャ人さえ恐れる",
+        "bbox": [
+          440,
+          540,
+          1480,
+          591
+        ],
+        "font_size": 52,
+        "font_style": "ja",
+        "color": "#3b2c21"
+      }
+    ],
+    "color_class": "diagram",
+    "camera_band": [
+      110,
+      1080
+    ],
+    "stages": [
+      {
+        "stage": 0,
+        "file": "assets/D_gifts_stage0.png",
+        "text_boxes": [
+          {
+            "text": "TITLE CARD｜文字カード",
+            "bbox": [
+              48,
+              15,
+              327,
+              38
+            ],
+            "font_size": 23,
+            "color": "#5a3a1a"
+          },
+          {
+            "text": "Aeneid 2.49 — trans. J. W. Mackail (1885)",
+            "bbox": [
+              47,
+              53,
+              562,
+              78
+            ],
+            "font_size": 27,
+            "color": "#3b2c21"
+          },
+          {
+            "text": "\"I fear the Grecians even",
+            "bbox": [
+              482,
+              216,
+              1437,
+              284
+            ],
+            "font_size": 88,
+            "font_style": "serif",
+            "color": "#3b2c21"
+          },
+          {
+            "text": "when they offer gifts.\"",
+            "bbox": [
+              532,
+              328,
+              1386,
+              414
+            ],
+            "font_size": 88,
+            "font_style": "serif",
+            "color": "#3b2c21"
+          },
+          {
+            "text": "timeo Danaos et dona ferentes",
+            "bbox": [
+              645,
+              461,
+              1274,
+              498
+            ],
+            "font_size": 47,
+            "font_style": "serif",
+            "color": "#3b2c21"
+          },
+          {
+            "text": "私は、贈り物を携えたギリシャ人さえ恐れる",
+            "bbox": [
+              440,
+              540,
+              1480,
+              591
+            ],
+            "font_size": 52,
+            "font_style": "ja",
+            "color": "#3b2c21"
+          }
+        ]
+      }
+    ],
+    "start": 227.93333333333334,
+    "end": 235.63333333333333,
+    "frames": 231,
+    "encoded_file": "_work/render/P10_02_D_gifts.mp4",
+    "render_config": {
+      "image_sha256": "48a38f46ba92da3a7b50ddae5c34e06d50a0927e5a2051b5793cd38474a4e06c",
+      "stages": [
+        {
+          "sha256": "48a38f46ba92da3a7b50ddae5c34e06d50a0927e5a2051b5793cd38474a4e06c",
+          "stage": 0
+        }
+      ],
+      "frames": 231,
+      "filter": "[0:v]format=yuv420p[v]",
+      "lossless_static_intermediate": true,
+      "stage_change_frames": []
+    },
+    "stage_change_frames": []
+  },
+  {
+    "key": "R01",
+    "segment_id": "P10",
+    "file": "assets/R01.png",
+    "text_boxes": [
+      {
+        "text": "PRINT｜版画",
+        "bbox": [
+          48,
+          15,
+          188,
+          38
+        ],
+        "font_size": 23,
+        "color": "#5a3a1a"
+      },
+      {
+        "text": "The Trojan Horse, in or before 1571 — Rijksmuseum, RP-P-2007-160",
+        "bbox": [
+          48,
+          46,
+          842,
+          70
+        ],
+        "font_size": 26,
+        "color": "#3b2c21"
+      },
+      {
+        "text": "Later imagining｜後世の想像図",
+        "bbox": [
+          48,
+          80,
+          344,
+          103
+        ],
+        "font_size": 20,
+        "color": "#3b2c21"
+      }
+    ],
+    "source": "https://www.rijksmuseum.nl/en/collection/object/Paard-van-Troje--25864bea67a465a00341341f076b7fff",
+    "label": "PRINT｜版画",
+    "source_text": [
+      "PRINT｜版画",
+      "The Trojan Horse, in or before 1571 — Rijksmuseum, RP-P-2007-160",
+      "Later imagining｜後世の想像図"
+    ],
+    "original_sha256": "dfb104c43418b7c0dfdf88ee429f33e7772fd7ddb5ff3ac558bcf67f4cc7b7c9",
+    "original_pixels": [
+      5664,
+      4404
+    ],
+    "crop_pixels": [
+      0,
+      0,
+      5664,
+      4404
+    ],
+    "crop_normalized": [
+      0,
+      0,
+      1,
+      1
+    ],
+    "art_boxes": [
+      [
+        375,
+        142,
+        1545,
+        1052
+      ]
+    ],
+    "camera_band": [
+      110,
+      1080
+    ],
+    "zoom_amount": 0.035,
+    "native_initial_scale": 0.20663033605812897,
+    "native_max_scale": 0.21386239782016347,
+    "color_class": "warm_monochrome",
+    "original_asset_id": "R01",
+    "start": 235.63333333333333,
+    "end": 248.9,
+    "frames": 398,
+    "encoded_file": "_work/render/P10_03_R01.mp4",
+    "render_config": {
+      "image_sha256": "515f16b41392a3d8da74bb10a15d74f1c5b4019bbbab951e68af4003a3365e23",
+      "stages": [],
+      "frames": 398,
+      "filter": "[0:v]split=2[base][art];[art]crop=1920:970:0:110,format=yuv444p,perspective=x0='(W-W/(1+0.035*on/397))*0.44':y0='(H-H/(1+0.035*on/397))*0.36':x1='(W-W/(1+0.035*on/397))*0.44+W/(1+0.035*on/397)':y1='(H-H/(1+0.035*on/397))*0.36':x2='(W-W/(1+0.035*on/397))*0.44':y2='(H-H/(1+0.035*on/397))*0.36+H/(1+0.035*on/397)':x3='(W-W/(1+0.035*on/397))*0.44+W/(1+0.035*on/397)':y3='(H-H/(1+0.035*on/397))*0.36+H/(1+0.035*on/397)':sense=source:eval=frame:interpolation=cubic[moving];[base][moving]overlay=0:110:format=yuv444,format=yuv420p[v]",
+      "lossless_static_intermediate": false,
+      "stage_change_frames": []
+    },
+    "stage_change_frames": []
+  },
+  {
+    "key": "D_timeline",
+    "segment_id": "P11",
+    "file": "assets/D_timeline.png",
+    "text_boxes": [
+      {
+        "text": "SCHEMATIC｜模式図",
+        "bbox": [
+          48,
+          15,
+          282,
+          38
+        ],
+        "font_size": 23,
+        "color": "#5a3a1a"
+      },
+      {
+        "text": "HOMER'S POEMS",
+        "bbox": [
+          94,
+          242,
+          605,
+          287
+        ],
+        "font_size": 60,
+        "font_style": "bold",
+        "color": "#3b2c21"
+      },
+      {
+        "text": "8th–7th c. BC",
+        "bbox": [
+          209,
+          324,
+          491,
+          359
+        ],
+        "font_size": 46,
+        "font_style": "en",
+        "color": "#3b2c21"
+      },
+      {
+        "text": "ホメロスの詩",
+        "bbox": [
+          212,
+          447,
+          488,
+          490
+        ],
+        "font_size": 46,
+        "font_style": "ja",
+        "color": "#3b2c21"
+      },
+      {
+        "text": "前8〜7世紀ごろ",
+        "bbox": [
+          207,
+          527,
+          493,
+          565
+        ],
+        "font_size": 39,
+        "font_style": "ja",
+        "color": "#3b2c21"
+      },
+      {
+        "text": "MYKONOS JAR",
+        "bbox": [
+          737,
+          242,
+          1184,
+          287
+        ],
+        "font_size": 60,
+        "font_style": "bold",
+        "color": "#3b2c21"
+      },
+      {
+        "text": "c. 670 BC",
+        "bbox": [
+          858,
+          324,
+          1062,
+          359
+        ],
+        "font_size": 46,
+        "font_style": "en",
+        "color": "#3b2c21"
+      },
+      {
+        "text": "ミコノスの甕",
+        "bbox": [
+          822,
+          447,
+          1098,
+          490
+        ],
+        "font_size": 46,
+        "font_style": "ja",
+        "color": "#3b2c21"
+      },
+      {
+        "text": "前670年ごろ",
+        "bbox": [
+          843,
+          527,
+          1077,
+          565
+        ],
+        "font_size": 39,
+        "font_style": "ja",
+        "color": "#3b2c21"
+      },
+      {
+        "text": "AENEID",
+        "bbox": [
+          1457,
+          242,
+          1683,
+          285
+        ],
+        "font_size": 60,
+        "font_style": "bold",
+        "color": "#3b2c21"
+      },
+      {
+        "text": "c. 29–19 BC",
+        "bbox": [
+          1442,
+          324,
+          1698,
+          359
+        ],
+        "font_size": 46,
+        "font_style": "en",
+        "color": "#3b2c21"
+      },
+      {
+        "text": "アエネーイス",
+        "bbox": [
+          1432,
+          447,
+          1708,
+          489
+        ],
+        "font_size": 46,
+        "font_style": "ja",
+        "color": "#3b2c21"
+      },
+      {
+        "text": "前29〜19年ごろ",
+        "bbox": [
+          1420,
+          527,
+          1719,
+          565
+        ],
+        "font_size": 39,
+        "font_style": "ja",
+        "color": "#3b2c21"
+      }
+    ],
+    "color_class": "diagram",
+    "camera_band": [
+      110,
+      1080
+    ],
+    "stages": [
+      {
+        "stage": 0,
+        "file": "assets/D_timeline_stage0.png",
+        "text_boxes": [
+          {
+            "text": "SCHEMATIC｜模式図",
+            "bbox": [
+              48,
+              15,
+              282,
+              38
+            ],
+            "font_size": 23,
+            "color": "#5a3a1a"
+          },
+          {
+            "text": "HOMER'S POEMS",
+            "bbox": [
+              94,
+              242,
+              605,
+              287
+            ],
+            "font_size": 60,
+            "font_style": "bold",
+            "color": "#3b2c21"
+          },
+          {
+            "text": "8th–7th c. BC",
+            "bbox": [
+              209,
+              324,
+              491,
+              359
+            ],
+            "font_size": 46,
+            "font_style": "en",
+            "color": "#3b2c21"
+          },
+          {
+            "text": "ホメロスの詩",
+            "bbox": [
+              212,
+              447,
+              488,
+              490
+            ],
+            "font_size": 46,
+            "font_style": "ja",
+            "color": "#3b2c21"
+          },
+          {
+            "text": "前8〜7世紀ごろ",
+            "bbox": [
+              207,
+              527,
+              493,
+              565
+            ],
+            "font_size": 39,
+            "font_style": "ja",
+            "color": "#3b2c21"
+          },
+          {
+            "text": "MYKONOS JAR",
+            "bbox": [
+              737,
+              242,
+              1184,
+              287
+            ],
+            "font_size": 60,
+            "font_style": "bold",
+            "color": "#3b2c21"
+          },
+          {
+            "text": "c. 670 BC",
+            "bbox": [
+              858,
+              324,
+              1062,
+              359
+            ],
+            "font_size": 46,
+            "font_style": "en",
+            "color": "#3b2c21"
+          },
+          {
+            "text": "ミコノスの甕",
+            "bbox": [
+              822,
+              447,
+              1098,
+              490
+            ],
+            "font_size": 46,
+            "font_style": "ja",
+            "color": "#3b2c21"
+          },
+          {
+            "text": "前670年ごろ",
+            "bbox": [
+              843,
+              527,
+              1077,
+              565
+            ],
+            "font_size": 39,
+            "font_style": "ja",
+            "color": "#3b2c21"
+          },
+          {
+            "text": "AENEID",
+            "bbox": [
+              1457,
+              242,
+              1683,
+              285
+            ],
+            "font_size": 60,
+            "font_style": "bold",
+            "color": "#3b2c21"
+          },
+          {
+            "text": "c. 29–19 BC",
+            "bbox": [
+              1442,
+              324,
+              1698,
+              359
+            ],
+            "font_size": 46,
+            "font_style": "en",
+            "color": "#3b2c21"
+          },
+          {
+            "text": "アエネーイス",
+            "bbox": [
+              1432,
+              447,
+              1708,
+              489
+            ],
+            "font_size": 46,
+            "font_style": "ja",
+            "color": "#3b2c21"
+          },
+          {
+            "text": "前29〜19年ごろ",
+            "bbox": [
+              1420,
+              527,
+              1719,
+              565
+            ],
+            "font_size": 39,
+            "font_style": "ja",
+            "color": "#3b2c21"
+          }
+        ]
+      }
+    ],
+    "start": 248.9,
+    "end": 275.06666666666666,
+    "frames": 785,
+    "encoded_file": "_work/render/P11_01_D_timeline.mp4",
+    "render_config": {
+      "image_sha256": "42e97733d93a738cb9e2ac5801f750040c3d4dc6391591f0d0d8484b4ce9005c",
+      "stages": [
+        {
+          "sha256": "42e97733d93a738cb9e2ac5801f750040c3d4dc6391591f0d0d8484b4ce9005c",
+          "stage": 0
+        }
+      ],
+      "frames": 785,
+      "filter": "[0:v]format=yuv420p[v]",
+      "lossless_static_intermediate": true,
+      "stage_change_frames": []
+    },
+    "stage_change_frames": []
+  },
+  {
+    "key": "met_341207",
+    "segment_id": "P12",
+    "file": "assets/met_341207.png",
+    "text_boxes": [
+      {
+        "text": "ARTWORK｜美術作品",
+        "bbox": [
+          48,
+          15,
+          286,
+          38
+        ],
+        "font_size": 23,
+        "color": "#5a3a1a"
+      },
+      {
+        "text": "The Acropolis from the West, 1834 — The Met, 1972.92.4",
+        "bbox": [
+          48,
+          46,
+          702,
+          70
+        ],
+        "font_size": 26,
+        "color": "#3b2c21"
+      },
+      {
+        "text": "The bronze horse does not survive｜青銅の木馬像は現存しない",
+        "bbox": [
+          48,
+          80,
+          659,
+          100
+        ],
+        "font_size": 20,
+        "color": "#3b2c21"
+      }
+    ],
+    "source": "https://www.metmuseum.org/art/collection/search/341207",
+    "label": "ARTWORK｜美術作品",
+    "source_text": [
+      "ARTWORK｜美術作品",
+      "The Acropolis from the West, 1834 — The Met, 1972.92.4",
+      "The bronze horse does not survive｜青銅の木馬像は現存しない"
+    ],
+    "original_sha256": "ee6bf20b6d74396bec707bbff560a2e50ff7caf6a026bc1df7cda25066954645",
+    "original_pixels": [
+      3761,
+      2227
+    ],
+    "crop_pixels": [
+      0,
+      0,
+      3761,
+      2227
+    ],
+    "crop_normalized": [
+      0,
+      0,
+      1,
+      1
+    ],
+    "art_boxes": [
+      [
+        191,
+        142,
+        1728,
+        1052
+      ]
+    ],
+    "camera_band": [
+      110,
+      1080
+    ],
+    "zoom_amount": 0.04,
+    "native_initial_scale": 0.4086679074714172,
+    "native_max_scale": 0.4250146237702739,
+    "color_class": "color",
+    "original_asset_id": "met_341207",
+    "start": 275.06666666666666,
+    "end": 297.46666666666664,
+    "frames": 672,
+    "encoded_file": "_work/render/P12_01_met_341207.mp4",
+    "render_config": {
+      "image_sha256": "a9f74e332d0163eb262b86782c5e135a34c08dfe923e608d7a9272b5f9cf58fd",
+      "stages": [],
+      "frames": 672,
+      "filter": "[0:v]split=2[base][art];[art]crop=1920:970:0:110,format=yuv444p,perspective=x0='(W-W/(1+0.04*on/671))/2':y0='(H-H/(1+0.04*on/671))/2':x1='(W-W/(1+0.04*on/671))/2+W/(1+0.04*on/671)':y1='(H-H/(1+0.04*on/671))/2':x2='(W-W/(1+0.04*on/671))/2':y2='(H-H/(1+0.04*on/671))/2+H/(1+0.04*on/671)':x3='(W-W/(1+0.04*on/671))/2+W/(1+0.04*on/671)':y3='(H-H/(1+0.04*on/671))/2+H/(1+0.04*on/671)':sense=source:eval=frame:interpolation=cubic[moving];[base][moving]overlay=0:110:format=yuv444,format=yuv420p[v]",
+      "lossless_static_intermediate": false,
+      "stage_change_frames": []
+    },
+    "stage_change_frames": []
+  },
+  {
+    "key": "D_count",
+    "segment_id": "P12",
+    "file": "assets/D_count.png",
+    "text_boxes": [
+      {
+        "text": "SCHEMATIC｜模式図",
+        "bbox": [
+          48,
+          15,
+          282,
+          38
+        ],
+        "font_size": 23,
+        "color": "#5a3a1a"
+      },
+      {
+        "text": "50?",
+        "bbox": [
+          333,
+          206,
+          726,
+          375
+        ],
+        "font_size": 228,
+        "font_style": "bold",
+        "color": "#3b2c21"
+      },
+      {
+        "text": "3,000?",
+        "bbox": [
+          1035,
+          206,
+          1745,
+          409
+        ],
+        "font_size": 228,
+        "font_style": "bold",
+        "color": "#3b2c21"
+      },
+      {
+        "text": "Apollodorus, Epitome 5.14 (citing the Little Iliad for 3,000)",
+        "bbox": [
+          369,
+          481,
+          1550,
+          523
+        ],
+        "font_size": 46,
+        "font_style": "en",
+        "color": "#3b2c21"
+      },
+      {
+        "text": "アポロドーロス『摘要』（3000人は『小イリアス』の作者による）",
+        "bbox": [
+          302,
+          558,
+          1618,
+          601
+        ],
+        "font_size": 43,
+        "font_style": "ja",
+        "color": "#3b2c21"
+      }
+    ],
+    "color_class": "diagram",
+    "camera_band": [
+      110,
+      1080
+    ],
+    "stages": [
+      {
+        "stage": 0,
+        "file": "assets/D_count_stage0.png",
+        "text_boxes": [
+          {
+            "text": "SCHEMATIC｜模式図",
+            "bbox": [
+              48,
+              15,
+              282,
+              38
+            ],
+            "font_size": 23,
+            "color": "#5a3a1a"
+          },
+          {
+            "text": "50?",
+            "bbox": [
+              333,
+              206,
+              726,
+              375
+            ],
+            "font_size": 228,
+            "font_style": "bold",
+            "color": "#3b2c21"
+          },
+          {
+            "text": "3,000?",
+            "bbox": [
+              1035,
+              206,
+              1745,
+              409
+            ],
+            "font_size": 228,
+            "font_style": "bold",
+            "color": "#3b2c21"
+          },
+          {
+            "text": "Apollodorus, Epitome 5.14 (citing the Little Iliad for 3,000)",
+            "bbox": [
+              369,
+              481,
+              1550,
+              523
+            ],
+            "font_size": 46,
+            "font_style": "en",
+            "color": "#3b2c21"
+          },
+          {
+            "text": "アポロドーロス『摘要』（3000人は『小イリアス』の作者による）",
+            "bbox": [
+              302,
+              558,
+              1618,
+              601
+            ],
+            "font_size": 43,
+            "font_style": "ja",
+            "color": "#3b2c21"
+          }
+        ]
+      }
+    ],
+    "start": 297.46666666666664,
+    "end": 307.6,
+    "frames": 304,
+    "encoded_file": "_work/render/P12_02_D_count.mp4",
+    "render_config": {
+      "image_sha256": "4c96cf6f2e62b004a7a5e637f9c79c0c812cf0df6d54893d2483129fe6074082",
+      "stages": [
+        {
+          "sha256": "4c96cf6f2e62b004a7a5e637f9c79c0c812cf0df6d54893d2483129fe6074082",
+          "stage": 0
+        }
+      ],
+      "frames": 304,
+      "filter": "[0:v]format=yuv420p[v]",
+      "lossless_static_intermediate": true,
+      "stage_change_frames": []
+    },
+    "stage_change_frames": []
+  },
+  {
+    "key": "D_summary",
+    "segment_id": "P13",
+    "file": "assets/D_summary.png",
+    "text_boxes": [
+      {
+        "text": "SCHEMATIC｜模式図",
+        "bbox": [
+          48,
+          15,
+          282,
+          38
+        ],
+        "font_size": 23,
+        "color": "#5a3a1a"
+      },
+      {
+        "text": "ILIAD —",
+        "bbox": [
+          153.0,
+          238,
+          339.0,
+          273
+        ],
+        "font_size": 48,
+        "font_style": "bold",
+        "color": "#3b2c21",
+        "box": 1
+      },
+      {
+        "text": "NONE",
+        "bbox": [
+          176.0,
+          304,
+          315.0,
+          341
+        ],
+        "font_size": 48,
+        "font_style": "bold",
+        "color": "#3b2c21",
+        "box": 1
+      },
+      {
+        "text": "イリアス：なし",
+        "bbox": [
+          123.0,
+          488,
+          368.0,
+          519
+        ],
+        "font_size": 35,
+        "font_style": "ja",
+        "color": "#3b2c21",
+        "box": 1
+      },
+      {
+        "text": "ODYSSEY —",
+        "bbox": [
+          576.0,
+          238,
+          869.0,
+          275
+        ],
+        "font_size": 48,
+        "font_style": "bold",
+        "color": "#3b2c21",
+        "box": 2
+      },
+      {
+        "text": "A FEW DOZEN",
+        "bbox": [
+          555.0,
+          304,
+          890.0,
+          341
+        ],
+        "font_size": 48,
+        "font_style": "bold",
+        "color": "#3b2c21",
+        "box": 2
+      },
+      {
+        "text": "LINES",
+        "bbox": [
+          651.0,
+          370,
+          792.0,
+          407
+        ],
+        "font_size": 48,
+        "font_style": "bold",
+        "color": "#3b2c21",
+        "box": 2
+      },
+      {
+        "text": "オデュッセイア：",
+        "bbox": [
+          582.0,
+          488,
+          862.0,
+          522
+        ],
+        "font_size": 35,
+        "font_style": "ja",
+        "color": "#3b2c21",
+        "box": 2
+      },
+      {
+        "text": "数十行",
+        "bbox": [
+          669.0,
+          536,
+          774.0,
+          569
+        ],
+        "font_size": 35,
+        "font_style": "ja",
+        "color": "#3b2c21",
+        "box": 2
+      },
+      {
+        "text": "LOST POEMS",
+        "bbox": [
+          1041.0,
+          238,
+          1354.0,
+          275
+        ],
+        "font_size": 48,
+        "font_style": "bold",
+        "color": "#3b2c21",
+        "box": 3
+      },
+      {
+        "text": "& PICTURES",
+        "bbox": [
+          1052.0,
+          304,
+          1343.0,
+          341
+        ],
+        "font_size": 48,
+        "font_style": "bold",
+        "color": "#3b2c21",
+        "box": 3
+      },
+      {
+        "text": "失われた詩と絵",
+        "bbox": [
+          1075.0,
+          488,
+          1320.0,
+          522
+        ],
+        "font_size": 35,
+        "font_style": "ja",
+        "color": "#3b2c21",
+        "box": 3
+      },
+      {
+        "text": "AENEID —",
+        "bbox": [
+          1552.0,
+          238,
+          1795.0,
+          273
+        ],
+        "font_size": 48,
+        "font_style": "bold",
+        "color": "#3b2c21",
+        "box": 4
+      },
+      {
+        "text": "A DETAILED",
+        "bbox": [
+          1530.0,
+          304,
+          1818.0,
+          339
+        ],
+        "font_size": 48,
+        "font_style": "bold",
+        "color": "#3b2c21",
+        "box": 4
+      },
+      {
+        "text": "STORY",
+        "bbox": [
+          1592.0,
+          370,
+          1758.0,
+          407
+        ],
+        "font_size": 48,
+        "font_style": "bold",
+        "color": "#3b2c21",
+        "box": 4
+      },
+      {
+        "text": "アエネーイス：",
+        "bbox": [
+          1551.0,
+          488,
+          1796.0,
+          521
+        ],
+        "font_size": 35,
+        "font_style": "ja",
+        "color": "#3b2c21",
+        "box": 4
+      },
+      {
+        "text": "詳しい物語",
+        "bbox": [
+          1586.0,
+          536,
+          1761.0,
+          570
+        ],
+        "font_size": 35,
+        "font_style": "ja",
+        "color": "#3b2c21",
+        "box": 4
+      }
+    ],
+    "color_class": "diagram",
+    "camera_band": [
+      110,
+      1080
+    ],
+    "stages": [
+      {
+        "stage": 0,
+        "file": "assets/D_summary_stage0.png",
+        "text_boxes": [
+          {
+            "text": "SCHEMATIC｜模式図",
+            "bbox": [
+              48,
+              15,
+              282,
+              38
+            ],
+            "font_size": 23,
+            "color": "#5a3a1a"
+          },
+          {
+            "text": "ILIAD —",
+            "bbox": [
+              153.0,
+              238,
+              339.0,
+              273
+            ],
+            "font_size": 48,
+            "font_style": "bold",
+            "color": "#3b2c21",
+            "box": 1
+          },
+          {
+            "text": "NONE",
+            "bbox": [
+              176.0,
+              304,
+              315.0,
+              341
+            ],
+            "font_size": 48,
+            "font_style": "bold",
+            "color": "#3b2c21",
+            "box": 1
+          },
+          {
+            "text": "イリアス：なし",
+            "bbox": [
+              123.0,
+              488,
+              368.0,
+              519
+            ],
+            "font_size": 35,
+            "font_style": "ja",
+            "color": "#3b2c21",
+            "box": 1
+          },
+          {
+            "text": "ODYSSEY —",
+            "bbox": [
+              576.0,
+              238,
+              869.0,
+              275
+            ],
+            "font_size": 48,
+            "font_style": "bold",
+            "color": "#3b2c21",
+            "box": 2
+          },
+          {
+            "text": "A FEW DOZEN",
+            "bbox": [
+              555.0,
+              304,
+              890.0,
+              341
+            ],
+            "font_size": 48,
+            "font_style": "bold",
+            "color": "#3b2c21",
+            "box": 2
+          },
+          {
+            "text": "LINES",
+            "bbox": [
+              651.0,
+              370,
+              792.0,
+              407
+            ],
+            "font_size": 48,
+            "font_style": "bold",
+            "color": "#3b2c21",
+            "box": 2
+          },
+          {
+            "text": "オデュッセイア：",
+            "bbox": [
+              582.0,
+              488,
+              862.0,
+              522
+            ],
+            "font_size": 35,
+            "font_style": "ja",
+            "color": "#3b2c21",
+            "box": 2
+          },
+          {
+            "text": "数十行",
+            "bbox": [
+              669.0,
+              536,
+              774.0,
+              569
+            ],
+            "font_size": 35,
+            "font_style": "ja",
+            "color": "#3b2c21",
+            "box": 2
+          },
+          {
+            "text": "LOST POEMS",
+            "bbox": [
+              1041.0,
+              238,
+              1354.0,
+              275
+            ],
+            "font_size": 48,
+            "font_style": "bold",
+            "color": "#3b2c21",
+            "box": 3
+          },
+          {
+            "text": "& PICTURES",
+            "bbox": [
+              1052.0,
+              304,
+              1343.0,
+              341
+            ],
+            "font_size": 48,
+            "font_style": "bold",
+            "color": "#3b2c21",
+            "box": 3
+          },
+          {
+            "text": "失われた詩と絵",
+            "bbox": [
+              1075.0,
+              488,
+              1320.0,
+              522
+            ],
+            "font_size": 35,
+            "font_style": "ja",
+            "color": "#3b2c21",
+            "box": 3
+          },
+          {
+            "text": "AENEID —",
+            "bbox": [
+              1552.0,
+              238,
+              1795.0,
+              273
+            ],
+            "font_size": 48,
+            "font_style": "bold",
+            "color": "#3b2c21",
+            "box": 4
+          },
+          {
+            "text": "A DETAILED",
+            "bbox": [
+              1530.0,
+              304,
+              1818.0,
+              339
+            ],
+            "font_size": 48,
+            "font_style": "bold",
+            "color": "#3b2c21",
+            "box": 4
+          },
+          {
+            "text": "STORY",
+            "bbox": [
+              1592.0,
+              370,
+              1758.0,
+              407
+            ],
+            "font_size": 48,
+            "font_style": "bold",
+            "color": "#3b2c21",
+            "box": 4
+          },
+          {
+            "text": "アエネーイス：",
+            "bbox": [
+              1551.0,
+              488,
+              1796.0,
+              521
+            ],
+            "font_size": 35,
+            "font_style": "ja",
+            "color": "#3b2c21",
+            "box": 4
+          },
+          {
+            "text": "詳しい物語",
+            "bbox": [
+              1586.0,
+              536,
+              1761.0,
+              570
+            ],
+            "font_size": 35,
+            "font_style": "ja",
+            "color": "#3b2c21",
+            "box": 4
+          }
+        ]
+      }
+    ],
+    "start": 307.6,
+    "end": 322.7,
+    "frames": 453,
+    "encoded_file": "_work/render/P13_01_D_summary.mp4",
+    "render_config": {
+      "image_sha256": "876daf7a170c28775fe1de600c845e46dac7e2790fab5382c7ab233aa3097bec",
+      "stages": [
+        {
+          "sha256": "876daf7a170c28775fe1de600c845e46dac7e2790fab5382c7ab233aa3097bec",
+          "stage": 0
+        }
+      ],
+      "frames": 453,
+      "filter": "[0:v]format=yuv420p[v]",
+      "lossless_static_intermediate": true,
+      "stage_change_frames": []
+    },
+    "stage_change_frames": []
+  },
+  {
+    "key": "met_253376",
+    "segment_id": "P13",
+    "file": "assets/met_253376.png",
+    "text_boxes": [
+      {
+        "text": "ARTWORK｜美術作品",
+        "bbox": [
+          48,
+          15,
+          286,
+          38
+        ],
+        "font_size": 23,
+        "color": "#5a3a1a"
+      },
+      {
+        "text": "Carnelian scarab with the Trojan Horse, Etruscan, 500–475 BC — The Met, 32.11.7",
+        "bbox": [
+          48,
+          46,
+          995,
+          70
+        ],
+        "font_size": 26,
+        "color": "#3b2c21"
+      }
+    ],
+    "source": "https://www.metmuseum.org/art/collection/search/253376",
+    "label": "ARTWORK｜美術作品",
+    "source_text": [
+      "ARTWORK｜美術作品",
+      "Carnelian scarab with the Trojan Horse, Etruscan, 500–475 BC — The Met, 32.11.7",
+      null
+    ],
+    "original_sha256": "cebd4e004b53d9165dded2c4295890319cc6c5f708cd7e8017b0926ca8839336",
+    "original_pixels": [
+      4000,
+      3000
+    ],
+    "crop_pixels": [
+      1360,
+      960,
+      2640,
+      2070
+    ],
+    "crop_normalized": [
+      0.34,
+      0.32,
+      0.66,
+      0.69
+    ],
+    "art_boxes": [
+      [
+        435,
+        142,
+        1484,
+        1052
+      ]
+    ],
+    "camera_band": [
+      110,
+      1080
+    ],
+    "zoom_amount": 0.05,
+    "native_initial_scale": 0.8198198198198198,
+    "native_max_scale": 0.8608108108108108,
+    "color_class": "color",
+    "original_asset_id": "met_253376",
+    "start": 322.7,
+    "end": 336.5,
+    "frames": 414,
+    "encoded_file": "_work/render/P13_02_met_253376.mp4",
+    "render_config": {
+      "image_sha256": "e6735524451f54f22f254d1d96d7a4611bd6ebba5e2b26478a811ef6c5c98590",
+      "stages": [],
+      "frames": 414,
+      "filter": "[0:v]split=2[base][art];[art]crop=1920:970:0:110,format=yuv444p,perspective=x0='(W-W/(1+0.05*on/413))/2':y0='(H-H/(1+0.05*on/413))/2':x1='(W-W/(1+0.05*on/413))/2+W/(1+0.05*on/413)':y1='(H-H/(1+0.05*on/413))/2':x2='(W-W/(1+0.05*on/413))/2':y2='(H-H/(1+0.05*on/413))/2+H/(1+0.05*on/413)':x3='(W-W/(1+0.05*on/413))/2+W/(1+0.05*on/413)':y3='(H-H/(1+0.05*on/413))/2+H/(1+0.05*on/413)':sense=source:eval=frame:interpolation=cubic[moving];[base][moving]overlay=0:110:format=yuv444,format=yuv420p[v]",
+      "lossless_static_intermediate": false,
+      "stage_change_frames": []
+    },
+    "stage_change_frames": []
+  },
+  {
+    "key": "met_254896",
+    "segment_id": "P14",
+    "file": "assets/met_254896.png",
+    "text_boxes": [
+      {
+        "text": "ARTWORK｜美術作品",
+        "bbox": [
+          48,
+          15,
+          286,
+          38
+        ],
+        "font_size": 23,
+        "color": "#5a3a1a"
+      },
+      {
+        "text": "Kithara player, terracotta amphora, Berlin Painter, c. 490 BC — The Met, 56.171.38",
+        "bbox": [
+          48,
+          46,
+          990,
+          70
+        ],
+        "font_size": 26,
+        "color": "#3b2c21"
+      },
+      {
+        "text": "キタラ奏者",
+        "bbox": [
+          48,
+          80,
+          148,
+          100
+        ],
+        "font_size": 20,
+        "color": "#3b2c21"
+      }
+    ],
+    "source": "https://www.metmuseum.org/art/collection/search/254896",
+    "label": "ARTWORK｜美術作品",
+    "source_text": [
+      "ARTWORK｜美術作品",
+      "Kithara player, terracotta amphora, Berlin Painter, c. 490 BC — The Met, 56.171.38",
+      "キタラ奏者"
+    ],
+    "original_sha256": "8d70ce67d5bef78a9f7a7af8d6efbee194fafaef21208545c52db8f5b48ba9ac",
+    "original_pixels": [
+      3072,
+      4000
+    ],
+    "crop_pixels": [
+      0,
+      0,
+      3072,
+      4000
+    ],
+    "crop_normalized": [
+      0,
+      0,
+      1,
+      1
+    ],
+    "art_boxes": [
+      [
+        610,
+        142,
+        1309,
+        1052
+      ]
+    ],
+    "camera_band": [
+      110,
+      1080
+    ],
+    "zoom_amount": 0.1,
+    "native_initial_scale": 0.2275390625,
+    "native_max_scale": 0.25029296875,
+    "color_class": "color",
+    "original_asset_id": "met_254896",
+    "start": 336.5,
+    "end": 344.3,
+    "frames": 234,
+    "encoded_file": "_work/render/P14_01_met_254896.mp4",
+    "render_config": {
+      "image_sha256": "01c8f7e178397937a72ef5e780b1caeb3215fd871008f7d718f56926b9a8e7aa",
+      "stages": [],
+      "frames": 234,
+      "filter": "[0:v]split=2[base][art];[art]crop=1920:970:0:110,format=yuv444p,perspective=x0='(W-W/(1+0.1*on/233))/2':y0='(H-H/(1+0.1*on/233))/2':x1='(W-W/(1+0.1*on/233))/2+W/(1+0.1*on/233)':y1='(H-H/(1+0.1*on/233))/2':x2='(W-W/(1+0.1*on/233))/2':y2='(H-H/(1+0.1*on/233))/2+H/(1+0.1*on/233)':x3='(W-W/(1+0.1*on/233))/2+W/(1+0.1*on/233)':y3='(H-H/(1+0.1*on/233))/2+H/(1+0.1*on/233)':sense=source:eval=frame:interpolation=cubic[moving];[base][moving]overlay=0:110:format=yuv444,format=yuv420p[v]",
+      "lossless_static_intermediate": false,
+      "stage_change_frames": []
+    },
+    "stage_change_frames": []
+  },
+  {
+    "key": "credits",
+    "segment_id": "P15",
+    "file": "assets/credits.png",
+    "text_boxes": [
+      {
+        "text": "CREDITS｜クレジット",
+        "bbox": [
+          48,
+          15,
+          288,
+          39
+        ],
+        "font_size": 23,
+        "color": "#5a3a1a"
+      },
+      {
+        "text": "QUIET ORIGINS",
+        "bbox": [
+          788,
+          170,
+          1131,
+          205
+        ],
+        "font_size": 45,
+        "color": "#3b2c21"
+      },
+      {
+        "text": "Narration: Kokoro / Heart (af_heart)",
+        "bbox": [
+          694,
+          270,
+          1225,
+          302
+        ],
+        "font_size": 34,
+        "color": "#3b2c21"
+      },
+      {
+        "text": "日本語音声：VOICEVOX:冥鳴ひまり",
+        "bbox": [
+          718,
+          320,
+          1201,
+          349
+        ],
+        "font_size": 29,
+        "color": "#3b2c21"
+      },
+      {
+        "text": "The Metropolitan Museum of Art · Rijksmuseum",
+        "bbox": [
+          602,
+          390,
+          1319,
+          422
+        ],
+        "font_size": 34,
+        "color": "#3b2c21"
+      },
+      {
+        "text": "Archaeological Museum of Mykonos",
+        "bbox": [
+          726,
+          440,
+          1192,
+          467
+        ],
+        "font_size": 29,
+        "color": "#3b2c21"
+      },
+      {
+        "text": "Mykonos photograph: AbelDionis · CC0",
+        "bbox": [
+          661,
+          500,
+          1259,
+          532
+        ],
+        "font_size": 34,
+        "color": "#3b2c21"
+      },
+      {
+        "text": "Music: QO_THEME_A02 · Suno",
+        "bbox": [
+          716,
+          590,
+          1203,
+          622
+        ],
+        "font_size": 34,
+        "color": "#3b2c21"
+      }
+    ],
+    "color_class": "credits",
+    "camera_band": [
+      110,
+      1080
+    ],
+    "start": 344.3,
+    "end": 366.43333333333334,
+    "frames": 664,
+    "encoded_file": "_work/render/P15_01_credits.mp4",
+    "render_config": {
+      "image_sha256": "0b10ad130a3933833508976a1ad6a4af0e0e2e16dfa84be09669e133f1563fcf",
+      "stages": [],
+      "frames": 664,
+      "filter": "[0:v]format=yuv420p[v]",
+      "lossless_static_intermediate": true,
+      "stage_change_frames": []
+    },
+    "stage_change_frames": []
+  },
+  {
+    "key": "endcard",
+    "segment_id": "BRAND",
+    "start": 366.43333333333334,
+    "end": 376.43333333333334,
+    "frames": 300,
+    "encoded_file": "/Users/ryo/Desktop/新チャンネル/ブランド素材/エンドカード_共通版_v02_20261023/deliverables/Quiet_Origins_endcard_v02.mp4",
+    "original_source": "/Users/ryo/Desktop/新チャンネル/ブランド素材/エンドカード_共通版_v02_20261023/deliverables/Quiet_Origins_endcard_v02.mp4",
+    "original_sha256": "3cd254cdd387d0ca8e3ef3c2f74ca3650dc64fb02609bcd09a21b3e36a3513a2"
+  }
+]
