@@ -1,0 +1,55 @@
+{
+  "request_sha256": "51f06e6bf1f47bda677480d6e0c1ee1e5cfcb832caccb77519309f2fb920ccd3",
+  "reading_replacements_sha256": "37517e5f3dc66819f61f5a7bb8ace1921282415f10551d2defa5c3eb0985b570",
+  "scripts": [
+    {
+      "id": "T1",
+      "title": "Not in the Iliad（『イリアス』に木馬は出てこない）",
+      "text": "The Trojan horse is not in the Iliad. Homer's Iliad ends before the horse is even built. In one old translation, its last line reads: \"Thus held they funeral for Hector tamer of horses.\" The wooden horse appears later, in the Odyssey.",
+      "words": 42,
+      "audio_file": "/Volumes/ESD-02/新チャンネル/ショート/EP009_v01_20261102/audio/T1_native.wav",
+      "audio_sha256": "b8e5747fdede87dd89dfd5aeace3af09772daebc072a121cfec70a07cae152f1",
+      "native_audio_duration": 18.040625,
+      "voice_onset_seconds": 0.08,
+      "last_voice_activity_seconds": 17.73,
+      "final_duration_seconds": 20.566666666666666,
+      "within_24_seconds": true,
+      "readings_applied": []
+    },
+    {
+      "id": "T2",
+      "title": "Faces in the windows（窓からのぞく顔）",
+      "text": "This is one of the oldest known pictures of the Trojan horse. It is on a clay jar from the Greek island of Mykonos, made around 670 BC. The horse stands on wheels. And in its side, small windows show the faces of warriors hidden inside.",
+      "words": 46,
+      "audio_file": "/Volumes/ESD-02/新チャンネル/ショート/EP009_v01_20261102/audio/T2_native.wav",
+      "audio_sha256": "14e8aaa4c69017fda0775a2d321ebec13f1c72393cf8023a3140f780da7159d9",
+      "native_audio_duration": 19.07,
+      "voice_onset_seconds": 0.06,
+      "last_voice_activity_seconds": 18.76,
+      "final_duration_seconds": 21.6,
+      "within_24_seconds": true,
+      "readings_applied": []
+    },
+    {
+      "id": "T3",
+      "title": "Beware of gifts（贈り物の警告）",
+      "text": "\"I fear the Grecians even when they offer gifts.\" This famous warning is not from Homer. It comes from Virgil's Aeneid, written about two thousand years ago. There, the Trojan priest Laocoön says it, and then hurls his spear at the wooden horse.",
+      "words": 43,
+      "audio_file": "/Volumes/ESD-02/新チャンネル/ショート/EP009_v01_20261102/audio/T3_native.wav",
+      "audio_sha256": "48124ce0a5baf6d5d6912d1954939fd8f0a787906b434d9661625a8e720c2b29",
+      "native_audio_duration": 18.30125,
+      "voice_onset_seconds": 0.13,
+      "last_voice_activity_seconds": 17.99,
+      "final_duration_seconds": 20.833333333333332,
+      "within_24_seconds": true,
+      "readings_applied": []
+    }
+  ],
+  "all_within_24_seconds": true,
+  "text_unchanged": true,
+  "unapproved_text_changes": false,
+  "matches_approved_scripts": true,
+  "speech_speed_modified_to_fit": false,
+  "human_full_listening": false,
+  "gate": "Stop picture production and report if any native read exceeds 24 seconds including 2.5-second CTA."
+}

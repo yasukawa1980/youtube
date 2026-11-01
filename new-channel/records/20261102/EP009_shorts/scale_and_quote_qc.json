@@ -1,0 +1,97 @@
+{
+  "passed": true,
+  "scales": [
+    {
+      "short": "T1",
+      "asset": "met_202259",
+      "initial_scale": 1.399046104928458,
+      "maximum_scale": 1.5109697933227346,
+      "original_pixels": [
+        1378,
+        1383
+      ],
+      "opening_height_fraction": 0.9166666666666666
+    },
+    {
+      "short": "T1",
+      "asset": "D_lastline",
+      "initial_scale": 0.9651162790697675,
+      "maximum_scale": 0.9940697674418606,
+      "original_pixels": [
+        1920,
+        1080
+      ],
+      "opening_height_fraction": null
+    },
+    {
+      "short": "T1",
+      "asset": "met_247952",
+      "initial_scale": 0.2229983879634605,
+      "maximum_scale": 0.22968833960236432,
+      "original_pixels": [
+        2951,
+        3722
+      ],
+      "opening_height_fraction": null
+    },
+    {
+      "short": "T2",
+      "asset": "MYK01",
+      "initial_scale": 1.0305084745762711,
+      "maximum_scale": 1.5457627118644068,
+      "original_pixels": [
+        990,
+        885
+      ],
+      "opening_height_fraction": 0.475
+    },
+    {
+      "short": "T3",
+      "asset": "R04",
+      "initial_scale": 0.5123339658444023,
+      "maximum_scale": 0.5533206831119545,
+      "original_pixels": [
+        5856,
+        3576
+      ],
+      "opening_height_fraction": 0.7635416666666667
+    },
+    {
+      "short": "T3",
+      "asset": "D_gifts",
+      "initial_scale": 0.9651162790697675,
+      "maximum_scale": 0.9940697674418606,
+      "original_pixels": [
+        1920,
+        1080
+      ],
+      "opening_height_fraction": null
+    },
+    {
+      "short": "T3",
+      "asset": "R01",
+      "initial_scale": 0.18008474576271186,
+      "maximum_scale": 0.1854872881355932,
+      "original_pixels": [
+        5664,
+        4404
+      ],
+      "opening_height_fraction": null
+    }
+  ],
+  "cards": [
+    {
+      "asset": "D_lastline",
+      "exact_text": "\"Thus held they funeral for Hector tamer of horses.\"",
+      "source": "Iliad, Book 24 — trans. Lang, Leaf & Myers (1883)",
+      "passed": true
+    },
+    {
+      "asset": "D_gifts",
+      "exact_text": "\"I fear the Grecians even when they offer gifts.\" timeo Danaos et dona ferentes",
+      "source": "Aeneid 2.49 — trans. J. W. Mackail (1885)",
+      "passed": true
+    }
+  ],
+  "T2_opening_note": "990×885の原寸から首・胴・脚の全体と縦横比を守るため、最初の実画像高は912/1920=47.5%。80%は目安として扱い、原寸1.6倍上限と全体提示を優先。背景は同じ写真のぼかし。語に合わせた脚元・窓への移動でも最大1.54576倍。"
+}
