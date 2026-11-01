@@ -15,58 +15,131 @@
       "id": "rdg02_01",
       "role": "main_video",
       "path": "画像/rdg02_01.png",
-      "prompt": "The lotus pond of the Buddhist paradise (gokuraku), seen from just above the water at its edge. The still water is almost entirely covered with large round lotus leaves of soft jade green, and among them stand many lotus flowers, every one pure white like polished jewels, each with a golden centre. The far bank is lost in a soft luminous haze; there are no buildings, no temples, no pagodas, no bridges, no boats, no stone lanterns. It is early morning in paradise: the whole sky and the haze are a pale, clear gold-and-cream light, softly gradated, and the white flowers glow gently in it. A faint, fragrant calm hangs over the water. No people, no figures, no faces, no hands, no animals, no birds, no insects, no cats. No Buddha, no deity figures. Colours: pale gold, cream white, soft jade green, a little pale aqua in the water. Japanese shin-hanga woodblock print in the manner of the 1920s-30s revival: flat layered areas of colour, visible woodgrain in the flat passages, softly gradated sky (bokashi), Western perspective and cast light held inside Japanese printmaking. Everything in the scene is drawn as part of the print, in the same flat woodblock manner, never photographic. Calm, dreamlike and hushed. Strong clear difference between the light and dark masses so the image still reads when reduced to a thumbnail. No text, no signature, no seal stamp, no lettering of any kind. No modern objects: no power lines, no utility poles, no electric lamps, no vehicles, no plastic. Wide 16:9 landscape. Exposed so that texture is clearly visible everywhere. Shadows are lifted and open, full of visible detail, nothing crushed to pure black. High dynamic range, rich texture even in the darkest areas.",
+      "prompt": "The lotus pond of the Buddhist paradise (gokuraku), seen from just above the water at its edge. The still water is almost entirely covered with large round lotus leaves of soft jade green, and among them stand many lotus flowers, every one pure white like polished jewels, each with a golden centre. The far bank is lost in a soft luminous haze; there are no buildings, no temples, no pagodas, no bridges, no boats, no stone lanterns. It is the quiet hour just before dawn in paradise: the sky is a deep, soft blue-violet, softly gradated, and only the far horizon behind the haze holds one thin, faint band of pale gold, softly reflected in the still water. The white flowers glow gently as if lit from within, clearly readable against the darker leaves. A faint, fragrant calm hangs over the water. No people, no figures, no faces, no hands, no animals, no birds, no insects, no cats. No Buddha, no deity figures. Colours: deep blue-violet, soft indigo-green leaves, glowing pure white flowers with golden centres, one thin line of pale gold at the horizon. Japanese shin-hanga woodblock print in the manner of the 1920s-30s revival: flat layered areas of colour, visible woodgrain in the flat passages, softly gradated sky (bokashi), Western perspective and cast light held inside Japanese printmaking. Everything in the scene is drawn as part of the print, in the same flat woodblock manner, never photographic. Calm, dreamlike and hushed. Strong clear difference between the light and dark masses so the image still reads when reduced to a thumbnail. No text, no signature, no seal stamp, no lettering of any kind. No modern objects: no power lines, no utility poles, no electric lamps, no vehicles, no plastic. Wide 16:9 landscape. Exposed so that texture is clearly visible everywhere. Shadows are lifted and open, full of visible detail, nothing crushed to pure black. High dynamic range, rich texture even in the darkest areas.",
       "prompt_verbatim": true,
-      "generation_completed_at": "2026-11-01T01:32:13.551Z",
+      "generation_completed_at": "2026-11-01T04:06:19.583Z",
       "regeneration_count": 0,
       "selected_attempt": 1,
       "attempts": [
         {
           "attempt": 1,
-          "started_at": "2026-11-01T01:31:57.263Z",
-          "completed_at": "2026-11-01T01:32:13.551Z",
-          "source_path": "/Users/ryo/.codex/generated_images/01a194bb-ae51-7202-bbca-c9123ea440bb/exec-7a81311b-fa97-4272-b3d2-7cfeacbf028b.png",
-          "original_path": "画像/生成直後/rdg02_01_attempt01.png",
+          "version": "v2",
+          "started_at": "2026-11-01T04:06:02.153Z",
+          "completed_at": "2026-11-01T04:06:19.583Z",
+          "source_path": "/Users/ryo/.codex/generated_images/01a19548-be3f-7913-971b-78ca88fc5e2b/exec-2c45ff2d-62cc-4b1f-a1c8-d52424fe29b8.png",
+          "original_path": "画像/生成直後/rdg02_01_v2_attempt01.png",
           "accepted": true,
           "rejection_reason": null,
-          "sha256": "8a7162aff7476378af6a9a2ff9fec382c9f034f81bfe7fb740922dab8b2810f8",
+          "sha256": "e8478938ddcd6320f54d81cead8d04afa11dc621d677d45714b0bfbc4f05ed31",
           "dimensions": [
             1672,
             941
           ],
-          "bytes": 2995512,
-          "metrics": {
-            "mean_luminance": 180.57203626639176,
-            "luminance_below_16_ratio": 0.0,
-            "luminance_below_16_percent": 0.0
-          }
+          "bytes": 3076318
         }
       ],
       "visual_check": {
         "status": "passed",
-        "method": "生成画像全体の目視。05は門部分も拡大確認。",
-        "notes": "白い蓮・金色の中心・翡翠色の葉と朝の光。人物、顔、手、動物、虫、仏像、建物、橋、船、石灯籠、文字、署名、印、現代物は目視で認めず。"
+        "method": "生成原本全体の目視確認",
+        "notes": "夜明け前の青紫の空、白い蓮と金色の中心、暗い葉と水面。人物・顔・手・動物・鳥・虫・仏像・神像・建物・寺・塔・橋・船・石灯籠・文字・署名・印・現代物は目視で認めず。"
       },
-      "prompt_sha256": "7b16078547a2d10bd35fa4392b99391c77ade4fe20bfa35ae03e83e65a61016a",
-      "generation_completed_at_jst": "2026-11-01T10:32:13.551000+09:00",
+      "prompt_sha256": "65aa7d0afec3570719ccfd2b0de2f7ccb4b0e0119725730bc8e0c216b789f8de",
+      "generation_completed_at_jst": "2026-11-01T13:06:19.583000+09:00",
       "source_crop_box_xyxy": [
-        0.0,
+        0,
         0.25,
-        1672.0,
+        1672,
         940.75
       ],
       "dimensions": [
         1920,
         1080
       ],
-      "sha256": "28ab50ff90c0dda85f4bc83f71e284fffb1e6532a93a539e327f471987d442d5",
-      "bytes": 3534239,
-      "metrics": {
-        "mean_luminance": 180.57787964043217,
-        "luminance_below_16_ratio": 0.0,
-        "luminance_below_16_percent": 0.0
+      "sha256": "06bfefdc5398012a0d65f518b7706fa03b2c4b0e03cc708bf90741b38fab86b2",
+      "bytes": 3535454,
+      "original_path": "画像/生成直後/rdg02_01_v2_attempt01.png",
+      "previous_versions": [
+        {
+          "id": "rdg02_01",
+          "role": "main_video",
+          "path": "画像/rdg02_01.png",
+          "prompt": "The lotus pond of the Buddhist paradise (gokuraku), seen from just above the water at its edge. The still water is almost entirely covered with large round lotus leaves of soft jade green, and among them stand many lotus flowers, every one pure white like polished jewels, each with a golden centre. The far bank is lost in a soft luminous haze; there are no buildings, no temples, no pagodas, no bridges, no boats, no stone lanterns. It is early morning in paradise: the whole sky and the haze are a pale, clear gold-and-cream light, softly gradated, and the white flowers glow gently in it. A faint, fragrant calm hangs over the water. No people, no figures, no faces, no hands, no animals, no birds, no insects, no cats. No Buddha, no deity figures. Colours: pale gold, cream white, soft jade green, a little pale aqua in the water. Japanese shin-hanga woodblock print in the manner of the 1920s-30s revival: flat layered areas of colour, visible woodgrain in the flat passages, softly gradated sky (bokashi), Western perspective and cast light held inside Japanese printmaking. Everything in the scene is drawn as part of the print, in the same flat woodblock manner, never photographic. Calm, dreamlike and hushed. Strong clear difference between the light and dark masses so the image still reads when reduced to a thumbnail. No text, no signature, no seal stamp, no lettering of any kind. No modern objects: no power lines, no utility poles, no electric lamps, no vehicles, no plastic. Wide 16:9 landscape. Exposed so that texture is clearly visible everywhere. Shadows are lifted and open, full of visible detail, nothing crushed to pure black. High dynamic range, rich texture even in the darkest areas.",
+          "prompt_verbatim": true,
+          "generation_completed_at": "2026-11-01T01:32:13.551Z",
+          "regeneration_count": 0,
+          "selected_attempt": 1,
+          "attempts": [
+            {
+              "attempt": 1,
+              "started_at": "2026-11-01T01:31:57.263Z",
+              "completed_at": "2026-11-01T01:32:13.551Z",
+              "source_path": "/Users/ryo/.codex/generated_images/01a194bb-ae51-7202-bbca-c9123ea440bb/exec-7a81311b-fa97-4272-b3d2-7cfeacbf028b.png",
+              "original_path": "画像/生成直後/rdg02_01_attempt01.png",
+              "accepted": true,
+              "rejection_reason": null,
+              "sha256": "8a7162aff7476378af6a9a2ff9fec382c9f034f81bfe7fb740922dab8b2810f8",
+              "dimensions": [
+                1672,
+                941
+              ],
+              "bytes": 2995512,
+              "metrics": {
+                "mean_luminance": 180.57203626639176,
+                "luminance_below_16_ratio": 0.0,
+                "luminance_below_16_percent": 0.0
+              }
+            }
+          ],
+          "visual_check": {
+            "status": "passed",
+            "method": "生成画像全体の目視。05は門部分も拡大確認。",
+            "notes": "白い蓮・金色の中心・翡翠色の葉と朝の光。人物、顔、手、動物、虫、仏像、建物、橋、船、石灯籠、文字、署名、印、現代物は目視で認めず。"
+          },
+          "prompt_sha256": "7b16078547a2d10bd35fa4392b99391c77ade4fe20bfa35ae03e83e65a61016a",
+          "generation_completed_at_jst": "2026-11-01T10:32:13.551000+09:00",
+          "source_crop_box_xyxy": [
+            0.0,
+            0.25,
+            1672.0,
+            940.75
+          ],
+          "dimensions": [
+            1920,
+            1080
+          ],
+          "sha256": "28ab50ff90c0dda85f4bc83f71e284fffb1e6532a93a539e327f471987d442d5",
+          "bytes": 3534239,
+          "metrics": {
+            "mean_luminance": 180.57787964043217,
+            "luminance_below_16_ratio": 0.0,
+            "luminance_below_16_percent": 0.0
+          },
+          "original_path": "画像/生成直後/rdg02_01_attempt01.png",
+          "archived_current_file": {
+            "path": "画像/差し替え前/rdg02_01.png",
+            "sha256": "a36d6c198942b61006b9aa5dcb0dfa3664cf4191410ee4ede156db56fdf6229e",
+            "dimensions": [
+              1920,
+              1080
+            ],
+            "bytes": 2656853,
+            "note": "差し替え前の実ファイル。旧素材一覧のsha256と異なるため、旧記録は変更せず、この実測情報を併記。"
+          }
+        }
+      ],
+      "version": "v2",
+      "generation_calls_this_version": 1,
+      "exposure_correction": false,
+      "color_or_contrast_adjustment": false,
+      "processing": {
+        "method": "Pillow ImageOps.fit, centered minimal aspect-ratio crop and LANCZOS resampling",
+        "target_size": [
+          1920,
+          1080
+        ],
+        "note": "サイズ・縦横比の整形のみ。露出・色・コントラスト補正、シャープ処理、描き足し・消去なし。"
       },
-      "original_path": "画像/生成直後/rdg02_01_attempt01.png"
+      "metrics_status": "v2の輝度測定・露出合わせはClaudeに委ねる。旧版の測定値はprevious_versionsに保存。"
     },
     {
       "id": "rdg02_02",
@@ -437,58 +510,131 @@
       "id": "rdg02_07",
       "role": "main_video",
       "path": "画像/rdg02_07.png",
-      "prompt": "At the southern foot of Mount Tai in ancient China, in spring. A single small, simple farmhouse with whitewashed earthen walls and a grey tiled roof stands among fields, and all around it peach trees are in full bloom, a soft cloud of pink blossom surrounding the house. A narrow footpath leads to the house from the lower left. Behind, the gentle blue slopes of the mountain rise into a soft hazy sky lit by warm late afternoon light. Peaceful, open and kind. This is Chinese countryside, not Japanese: no torii, no shrines, no pagodas. No people, no figures, no faces, no hands, no animals, no birds, no insects, no cats. No cherry blossoms (the blossoms are peach blossoms, rounder and deeper pink, on bare dark branches). Colours: soft peach pink, cream white walls, grey tiles, fresh spring green, pale blue mountain. Japanese shin-hanga woodblock print in the manner of the 1920s-30s revival: flat layered areas of colour, visible woodgrain in the flat passages, softly gradated sky (bokashi), Western perspective and cast light held inside Japanese printmaking. Everything in the scene is drawn as part of the print, in the same flat woodblock manner, never photographic. Calm, dreamlike and hushed. Strong clear difference between the light and dark masses so the image still reads when reduced to a thumbnail. No text, no signature, no seal stamp, no lettering of any kind. No modern objects: no power lines, no utility poles, no electric lamps, no vehicles, no plastic. Wide 16:9 landscape. Exposed so that texture is clearly visible everywhere. Shadows are lifted and open, full of visible detail, nothing crushed to pure black. High dynamic range, rich texture even in the darkest areas.",
+      "prompt": "At the southern foot of Mount Tai in ancient China, in spring. A single small, simple farmhouse with whitewashed earthen walls and a grey tiled roof stands among fields, and all around it peach trees are in full bloom, a soft cloud of pink blossom surrounding the house. A narrow footpath leads to the house from the lower left. Behind, the gentle slopes of the mountain rise as a dark blue silhouette. It is dusk on a spring evening: the sun has just set behind the ridge, the sky is a deep dusky blue fading to a soft rose-orange glow low above the mountain, the peach blossoms are softened into dusky pink, and one small window of the farmhouse glows with warm yellow lamplight. Peaceful, quiet and kind. This is Chinese countryside, not Japanese: no torii, no shrines, no pagodas. No people, no figures, no faces, no hands, no animals, no birds, no insects, no cats. No cherry blossoms (the blossoms are peach blossoms, rounder and deeper pink, on bare dark branches). Colours: dusky blue, soft rose-orange afterglow, muted peach pink, dim cream walls, one small warm yellow window light. Japanese shin-hanga woodblock print in the manner of the 1920s-30s revival: flat layered areas of colour, visible woodgrain in the flat passages, softly gradated sky (bokashi), Western perspective and cast light held inside Japanese printmaking. Everything in the scene is drawn as part of the print, in the same flat woodblock manner, never photographic. Calm, dreamlike and hushed. Strong clear difference between the light and dark masses so the image still reads when reduced to a thumbnail. No text, no signature, no seal stamp, no lettering of any kind. No modern objects: no power lines, no utility poles, no electric lamps, no vehicles, no plastic. Wide 16:9 landscape. Exposed so that texture is clearly visible everywhere. Shadows are lifted and open, full of visible detail, nothing crushed to pure black. High dynamic range, rich texture even in the darkest areas.",
       "prompt_verbatim": true,
-      "generation_completed_at": "2026-11-01T01:37:03.318Z",
+      "generation_completed_at": "2026-11-01T04:06:47.180Z",
       "regeneration_count": 0,
       "selected_attempt": 1,
       "attempts": [
         {
           "attempt": 1,
-          "started_at": "2026-11-01T01:36:45.258Z",
-          "completed_at": "2026-11-01T01:37:03.318Z",
-          "source_path": "/Users/ryo/.codex/generated_images/01a194bb-ae51-7202-bbca-c9123ea440bb/exec-8833ae5b-7e05-4fff-a50f-23541e53323f.png",
-          "original_path": "画像/生成直後/rdg02_07_attempt01.png",
+          "version": "v2",
+          "started_at": "2026-11-01T04:06:26.614Z",
+          "completed_at": "2026-11-01T04:06:47.180Z",
+          "source_path": "/Users/ryo/.codex/generated_images/01a19548-be3f-7913-971b-78ca88fc5e2b/exec-2b2811d6-c96a-4973-b293-d65946feeb1e.png",
+          "original_path": "画像/生成直後/rdg02_07_v2_attempt01.png",
           "accepted": true,
           "rejection_reason": null,
-          "sha256": "75f2e4117555dd52d8ae0d1d1b51742a92af20bd29d1cc1098ec02603b1da15f",
+          "sha256": "001cd35b6ce09abdb5dd84b000edec49ccab79f899fe5c70d5062a752740f2a4",
           "dimensions": [
             1672,
             941
           ],
-          "bytes": 3596371,
-          "metrics": {
-            "mean_luminance": 138.83633097196298,
-            "luminance_below_16_ratio": 0.002255057990837397,
-            "luminance_below_16_percent": 0.2255057990837397
-          }
+          "bytes": 3407192
         }
       ],
       "visual_check": {
         "status": "passed",
-        "method": "生成画像全体の目視。05は門部分も拡大確認。",
-        "notes": "桃色の花が裸枝に直接つく木々と中国風の農家。人物、顔、手、動物、虫、鳥居、神社、仏塔、文字、署名、印、現代物は目視で認めず。花は丸い濃桃色の描写で、桜と明確に判別される描写なし。"
+        "method": "生成原本全体の目視確認",
+        "notes": "夕暮れの青い空と橙色の残照、農家の暖かい窓明かり。裸枝に丸い濃桃色の花が直接付く桃の描写で、桜と明確に判別される描写は認めず。人物・顔・手・動物・鳥・虫・鳥居・神社・塔・文字・署名・印・現代物は目視で認めず。"
       },
-      "prompt_sha256": "391224585441323df53c666d9fea08715305717c5356a27be8c55a2471cf36f9",
-      "generation_completed_at_jst": "2026-11-01T10:37:03.318000+09:00",
+      "prompt_sha256": "7e0c446c445b5388b8cbbfe21b90e47def02361611bb0dd6d3a9a8a6ef4421a5",
+      "generation_completed_at_jst": "2026-11-01T13:06:47.180000+09:00",
       "source_crop_box_xyxy": [
-        0.0,
+        0,
         0.25,
-        1672.0,
+        1672,
         940.75
       ],
       "dimensions": [
         1920,
         1080
       ],
-      "sha256": "343f406dc44d6a3962ffede7965cbad657bc3792daf5caed7f9a1ae4fe89f8fd",
-      "bytes": 4118308,
-      "metrics": {
-        "mean_luminance": 138.83481216734182,
-        "luminance_below_16_ratio": 0.0024517746913580245,
-        "luminance_below_16_percent": 0.24517746913580246
+      "sha256": "53c5ccd8f40436fb663ee05ea85d8ae102a7003f0439245de1d8bd8e8862a95b",
+      "bytes": 3904605,
+      "original_path": "画像/生成直後/rdg02_07_v2_attempt01.png",
+      "previous_versions": [
+        {
+          "id": "rdg02_07",
+          "role": "main_video",
+          "path": "画像/rdg02_07.png",
+          "prompt": "At the southern foot of Mount Tai in ancient China, in spring. A single small, simple farmhouse with whitewashed earthen walls and a grey tiled roof stands among fields, and all around it peach trees are in full bloom, a soft cloud of pink blossom surrounding the house. A narrow footpath leads to the house from the lower left. Behind, the gentle blue slopes of the mountain rise into a soft hazy sky lit by warm late afternoon light. Peaceful, open and kind. This is Chinese countryside, not Japanese: no torii, no shrines, no pagodas. No people, no figures, no faces, no hands, no animals, no birds, no insects, no cats. No cherry blossoms (the blossoms are peach blossoms, rounder and deeper pink, on bare dark branches). Colours: soft peach pink, cream white walls, grey tiles, fresh spring green, pale blue mountain. Japanese shin-hanga woodblock print in the manner of the 1920s-30s revival: flat layered areas of colour, visible woodgrain in the flat passages, softly gradated sky (bokashi), Western perspective and cast light held inside Japanese printmaking. Everything in the scene is drawn as part of the print, in the same flat woodblock manner, never photographic. Calm, dreamlike and hushed. Strong clear difference between the light and dark masses so the image still reads when reduced to a thumbnail. No text, no signature, no seal stamp, no lettering of any kind. No modern objects: no power lines, no utility poles, no electric lamps, no vehicles, no plastic. Wide 16:9 landscape. Exposed so that texture is clearly visible everywhere. Shadows are lifted and open, full of visible detail, nothing crushed to pure black. High dynamic range, rich texture even in the darkest areas.",
+          "prompt_verbatim": true,
+          "generation_completed_at": "2026-11-01T01:37:03.318Z",
+          "regeneration_count": 0,
+          "selected_attempt": 1,
+          "attempts": [
+            {
+              "attempt": 1,
+              "started_at": "2026-11-01T01:36:45.258Z",
+              "completed_at": "2026-11-01T01:37:03.318Z",
+              "source_path": "/Users/ryo/.codex/generated_images/01a194bb-ae51-7202-bbca-c9123ea440bb/exec-8833ae5b-7e05-4fff-a50f-23541e53323f.png",
+              "original_path": "画像/生成直後/rdg02_07_attempt01.png",
+              "accepted": true,
+              "rejection_reason": null,
+              "sha256": "75f2e4117555dd52d8ae0d1d1b51742a92af20bd29d1cc1098ec02603b1da15f",
+              "dimensions": [
+                1672,
+                941
+              ],
+              "bytes": 3596371,
+              "metrics": {
+                "mean_luminance": 138.83633097196298,
+                "luminance_below_16_ratio": 0.002255057990837397,
+                "luminance_below_16_percent": 0.2255057990837397
+              }
+            }
+          ],
+          "visual_check": {
+            "status": "passed",
+            "method": "生成画像全体の目視。05は門部分も拡大確認。",
+            "notes": "桃色の花が裸枝に直接つく木々と中国風の農家。人物、顔、手、動物、虫、鳥居、神社、仏塔、文字、署名、印、現代物は目視で認めず。花は丸い濃桃色の描写で、桜と明確に判別される描写なし。"
+          },
+          "prompt_sha256": "391224585441323df53c666d9fea08715305717c5356a27be8c55a2471cf36f9",
+          "generation_completed_at_jst": "2026-11-01T10:37:03.318000+09:00",
+          "source_crop_box_xyxy": [
+            0.0,
+            0.25,
+            1672.0,
+            940.75
+          ],
+          "dimensions": [
+            1920,
+            1080
+          ],
+          "sha256": "343f406dc44d6a3962ffede7965cbad657bc3792daf5caed7f9a1ae4fe89f8fd",
+          "bytes": 4118308,
+          "metrics": {
+            "mean_luminance": 138.83481216734182,
+            "luminance_below_16_ratio": 0.0024517746913580245,
+            "luminance_below_16_percent": 0.24517746913580246
+          },
+          "original_path": "画像/生成直後/rdg02_07_attempt01.png",
+          "archived_current_file": {
+            "path": "画像/差し替え前/rdg02_07.png",
+            "sha256": "8e1188381e67c7226fac0af62501bc6143cc5fd5df4fbec20cb3cc42270cf875",
+            "dimensions": [
+              1920,
+              1080
+            ],
+            "bytes": 3145255,
+            "note": "差し替え前の実ファイル。旧素材一覧のsha256と異なるため、旧記録は変更せず、この実測情報を併記。"
+          }
+        }
+      ],
+      "version": "v2",
+      "generation_calls_this_version": 1,
+      "exposure_correction": false,
+      "color_or_contrast_adjustment": false,
+      "processing": {
+        "method": "Pillow ImageOps.fit, centered minimal aspect-ratio crop and LANCZOS resampling",
+        "target_size": [
+          1920,
+          1080
+        ],
+        "note": "サイズ・縦横比の整形のみ。露出・色・コントラスト補正、シャープ処理、描き足し・消去なし。"
       },
-      "original_path": "画像/生成直後/rdg02_07_attempt01.png"
+      "metrics_status": "v2の輝度測定・露出合わせはClaudeに委ねる。旧版の測定値はprevious_versionsに保存。"
     },
     {
       "id": "rdg02_08",
@@ -578,7 +724,13 @@
     "color_or_contrast_adjustment": false,
     "note": "原本はバイト同一コピーで保存。納品版はサイズ・縦横比の整形だけ。シャープ処理・描き足し・消去なし。"
   },
-  "completed_at": "2026-11-01T01:38:30.158456+00:00",
-  "total_generation_calls": 12,
-  "total_regenerations": 4
+  "completed_at": "2026-11-01T04:07:47.667130+00:00",
+  "total_generation_calls": 14,
+  "total_regenerations": 4,
+  "previous_generation_summary": {
+    "completed_at": "2026-11-01T01:38:30.158456+00:00",
+    "total_generation_calls": 12,
+    "total_regenerations": 4
+  },
+  "revision_note": "2026-11-01: RDG02の01・07のみ、指定v2プロンプトを全文そのまま内蔵image_genで各1回生成（v2再生成0回）。旧画像と旧記録を保全。露出補正なし。"
 }

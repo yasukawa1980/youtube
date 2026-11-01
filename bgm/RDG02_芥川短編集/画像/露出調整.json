@@ -1,9 +1,4 @@
 {
- "rdg02_01.png": {
-  "linear_rgb_scale": 0.1332,
-  "mean": 70.0,
-  "under16_pct": 0.1
- },
  "rdg02_02.png": {
   "linear_rgb_scale": 0.7518,
   "mean": 46.0,
@@ -29,9 +24,26 @@
   "mean": 36.0,
   "under16_pct": 23.3
  },
- "rdg02_07.png": {
+ "v1_rdg02_01.png": {
+  "linear_rgb_scale": 0.1332,
+  "mean": 70.0,
+  "under16_pct": 0.1
+ },
+ "rdg02_01.png": {
+  "version": "v2",
+  "linear_rgb_scale": 0.331,
+  "mean": 55.0,
+  "under16_pct": 2.6
+ },
+ "v1_rdg02_07.png": {
   "linear_rgb_scale": 0.1146,
   "mean": 48.0,
   "under16_pct": 6.7
+ },
+ "rdg02_07.png": {
+  "version": "v2",
+  "linear_rgb_scale": 0.2055,
+  "mean": 35.0,
+  "under16_pct": 10.7
  }
 }
