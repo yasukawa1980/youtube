@@ -1,0 +1,289 @@
+{
+  "episode_id": "EP009",
+  "series": "Quiet Origins",
+  "language": "ja",
+  "title": "トロイの木馬は『イリアス』に出てくるのか",
+  "subtitle": "有名な計略、葬儀で終わる詩、宴の歌、そして木馬を伝えた詩",
+  "script_version": "v02 (2026-11-01, approved by the owner)",
+  "opening_after": "P02",
+  "chapters": [
+    {
+      "id": "C01",
+      "title": "最も有名な計略"
+    },
+    {
+      "id": "C02",
+      "title": "『イリアス』の終わり"
+    },
+    {
+      "id": "C03",
+      "title": "宴の歌"
+    },
+    {
+      "id": "C04",
+      "title": "失われた詩と、ローマの詩人"
+    },
+    {
+      "id": "C05",
+      "title": "覚えられた贈り物"
+    }
+  ],
+  "sources": [
+    {
+      "id": "T-S01",
+      "title": "Homer, Iliad, trans. A. Lang, W. Leaf and E. Myers, London: Macmillan, 1883",
+      "kind": "primary_text",
+      "status": "checked by Codex 2026-11-01 (book image p503): final line 'Thus held they funeral for Hector tamer of horses.'; Book 1 opens with the anger of Achilles; Achilles' death foretold only (18.95-96, 22.358-360, web text)"
+    },
+    {
+      "id": "T-S02",
+      "title": "Homer, Odyssey 4.271-289, trans. S. H. Butcher and A. Lang, London: Macmillan, 1879",
+      "kind": "primary_text",
+      "status": "checked by Codex 2026-11-01 (book images pp56-57): Menelaus narrates; Helen circles the horse, calls the leaders by name, imitates their wives' voices; Odysseus closes Anticlus' mouth with his hands"
+    },
+    {
+      "id": "T-S03",
+      "title": "Homer, Odyssey 8.63-64, 8.492-520, trans. Butcher and Lang, 1879",
+      "kind": "primary_text",
+      "status": "checked by Codex 2026-11-01 (book images pp117, 131): Muse took the singer's sight and gave sweet song; horse made by Epeius with Athene's aid; three counsels (cleave, cast down on the rocks, leave as offering to the gods)"
+    },
+    {
+      "id": "T-S04",
+      "title": "Homer, Odyssey 11.523-532, trans. Butcher and Lang, 1879",
+      "kind": "primary_text",
+      "status": "checked by Codex 2026-11-01 (book image partial + web text): Neoptolemus never paled; selected passages total 58 lines; no number of men given"
+    },
+    {
+      "id": "T-S05",
+      "title": "Proclus, Chrestomathy, summaries of the Little Iliad and the Sack of Ilium, trans. H. G. Evelyn-White, 1914",
+      "kind": "primary_text",
+      "status": "checked by Codex 2026-11-01 (web transcription): Epeius builds the horse; Trojans breach part of the wall to bring it in; serpents kill Laocoon and one of his two sons; Sinon's fire-signal. Identity and date of Proclus debated"
+    },
+    {
+      "id": "T-S06",
+      "title": "Relief pithos, Archaeological Museum of Mykonos 2240 (found 1961), c. 670 BC / second quarter of 7th c. BC",
+      "kind": "research",
+      "status": "checked by Codex 2026-11-01 (museum/university pages, Ervin 1963): one of the oldest known depictions, not 'the oldest'; image MYK01 is photographer's own CC0 (Wikimedia Commons, AbelDionis)"
+    },
+    {
+      "id": "T-S07",
+      "title": "Virgil, Aeneid 2, trans. J. W. Mackail, London: Macmillan, 1885; Latin text 2.49",
+      "kind": "primary_text",
+      "status": "checked by Codex 2026-11-01 (book image p25): 'Be it what it may, I fear the Grecians even when they offer gifts.'; 'he hurled his mighty spear'; Latin 'timeo Danaos et dona ferentes' (web); Sinon 57-198, serpents 199-227, wall 234. Written c. 29-19 BC, published after Virgil's death"
+    },
+    {
+      "id": "T-S08",
+      "title": "Dating of the Homeric poems",
+      "kind": "research",
+      "status": "checked by Codex 2026-11-01 (University of Chicago Library, Ashmolean): 8th to mid-7th c. BC; difference to Virgil described as 'many centuries'"
+    },
+    {
+      "id": "T-S09",
+      "title": "Pausanias, Description of Greece 1.23.8, trans. W. H. S. Jones, 1918",
+      "kind": "primary_text",
+      "status": "checked by Codex 2026-11-01 (web transcription): 'There is the horse called Wooden set up in bronze.'; 'a contrivance to make a breach in the Trojan wall'. Sculptor's name not in this passage; not used"
+    },
+    {
+      "id": "T-S10",
+      "title": "Apollodorus, Epitome 5.14, trans. J. G. Frazer, 1921",
+      "kind": "primary_text",
+      "status": "checked by Codex 2026-11-01 (web transcription): 'fifty (or, according to the author of the Little Iliad, three thousand)'"
+    },
+    {
+      "id": "T-S11",
+      "title": "Merriam-Webster, 'Trojan horse'",
+      "kind": "research",
+      "status": "checked by Codex 2026-11-01: computer sense, a seemingly useful program that hides harmful instructions; no date of first use stated"
+    }
+  ],
+  "segments": [
+    {
+      "id": "P01",
+      "chapter": "C01",
+      "sources": [
+        "T-S01"
+      ],
+      "classification": "editorial_question",
+      "visuals": [
+        "met_202259"
+      ],
+      "text": "トロイの城壁の外に、巨大な木の馬が立っています。ギリシャ軍は船で去り、贈り物として馬を残していったように見えます。けれど馬の中では、兵士たちが夜を待っていました。世界で最も有名な物語の一つで、ホメロスの『イリアス』の場面として覚えている人も多いでしょう。ところが『イリアス』は、木馬が作られる前に終わっています。では、トロイの木馬の話はどこから来たのでしょう。"
+    },
+    {
+      "id": "P02",
+      "chapter": "C01",
+      "sources": [],
+      "classification": "editorial_question",
+      "visuals": [
+        "R06"
+      ],
+      "text": "今回は、『イリアス』の最後の一行から、『オデュッセイア』の中の歌へ、ほとんど失われた詩へ、そしてこの物語を後世に広く伝えたローマの詩人へと、木馬をたどります。"
+    },
+    {
+      "id": "P03",
+      "chapter": "C02",
+      "sources": [
+        "T-S01",
+        "T-S08"
+      ],
+      "classification": "sourced_narration",
+      "visuals": [
+        "met_437394",
+        "met_198621"
+      ],
+      "text": "『イリアス』は、ギリシャ文学で最も古い作品の一つです。描かれるのは、トロイ戦争の十年目の、短い期間。英雄アキレウスの怒りから始まります。そして物語は、トロイの陥落ではなく、葬儀で終わります。古い英訳では、最後の一行はこうです。「こうして彼らは、馬を馴らすヘクトルの葬儀を営んだ」。"
+    },
+    {
+      "id": "P04",
+      "chapter": "C02",
+      "sources": [
+        "T-S01"
+      ],
+      "classification": "sourced_narration",
+      "visuals": [
+        "D_lastline",
+        "D_nohorse"
+      ],
+      "text": "『イリアス』は、木の馬も、町の陥落も語りません。アキレウスの死でさえ、予告されるだけで、描かれはしないのです。木馬も、計略も、燃えるトロイも、すべては詩の最後のページの先にあります。"
+    },
+    {
+      "id": "P05",
+      "chapter": "C03",
+      "sources": [
+        "T-S03"
+      ],
+      "classification": "sourced_narration",
+      "visuals": [
+        "met_247952",
+        "D_options"
+      ],
+      "text": "木馬が登場するのは、ホメロスのもう一つの大きな詩、『オデュッセイア』です。故郷から遠く離れた宴の席で、オデュッセウスは盲目の歌い手デモドコスに、木の馬の歌を頼みます。女神アテナの助けを得て、エペイオスが作った馬です。歌の中で、トロイの人々はその扱いを言い争います。打ち割るか、岩の上へ投げ落とすか、それとも神々への捧げ物として残すか。"
+    },
+    {
+      "id": "P06",
+      "chapter": "C03",
+      "sources": [
+        "T-S02"
+      ],
+      "classification": "sourced_narration",
+      "visuals": [
+        "met_254876"
+      ],
+      "text": "それより前の場面では、メネラオス王が思い出を語ります。ヘレネが木馬の周りを歩き、中に隠れたギリシャの将たちの名を呼んで、その妻たちの声をまねたこと。オデュッセウスは仲間を押しとどめ、一人の口を手でふさいで、誰も答えないようにしました。"
+    },
+    {
+      "id": "P07",
+      "chapter": "C03",
+      "sources": [
+        "T-S04"
+      ],
+      "classification": "sourced_narration",
+      "visuals": [
+        "D_passages"
+      ],
+      "text": "さらに冥界では、オデュッセウスがアキレウスの霊に、あなたの息子も馬の中にいて、一度も青ざめなかったと語ります。ホメロスの中で、木馬は思い出として、合わせて数十行で語られるだけです。中に何人いたのかは、これらのどの箇所にも書かれていません。"
+    },
+    {
+      "id": "P08",
+      "chapter": "C04",
+      "sources": [
+        "T-S05"
+      ],
+      "classification": "sourced_narration",
+      "visuals": [
+        "D_lostpoems"
+      ],
+      "text": "戦争の終わりを語った初期のギリシャの詩は、ほかにもありました。『小イリアス』や『イリオスの陥落』です。けれど、その全文は残っていません。主に、何世紀も後に書かれた短い要約で知られています。その要約にはすでに、城壁を崩して町に入れられる木馬や、大蛇に殺されるトロイの神官ラオコーン、トロイの人々をだます手助けをするギリシャ人シノンが登場します。"
+    },
+    {
+      "id": "P09",
+      "chapter": "C04",
+      "sources": [
+        "T-S06"
+      ],
+      "classification": "sourced_narration",
+      "visuals": [
+        "MYK01"
+      ],
+      "text": "画家や職人たちも、早くからこの話を知っていました。ギリシャのミコノス島で見つかった、紀元前670年ごろの大きな土の甕には、車輪のついた馬が描かれ、脇腹の小さな窓から戦士たちの顔がのぞいています。知られている中で最も古い、トロイの木馬の絵の一つです。"
+    },
+    {
+      "id": "P10",
+      "chapter": "C04",
+      "sources": [
+        "T-S07"
+      ],
+      "classification": "sourced_narration",
+      "visuals": [
+        "R04",
+        "D_gifts",
+        "R01"
+      ],
+      "text": "私たちの多くが知っている筋書きは、ローマから来ました。およそ二千年前、詩人ウェルギリウスが『アエネーイス』を書きます。その第二巻で、トロイの英雄アエネアスが、ある女王に、町の最後の夜を語ります。神官ラオコーンは「私は、贈り物を携えたギリシャ人さえ恐れる」と警告し、馬に槍を投げつけます。シノンはもっともらしいうそをつき、海から大蛇が現れます。そしてトロイの人々は、自分たちの城壁を開き、馬を町に引き入れるのです。"
+    },
+    {
+      "id": "P11",
+      "chapter": "C04",
+      "sources": [
+        "T-S05",
+        "T-S07",
+        "T-S08"
+      ],
+      "classification": "sourced_narration",
+      "visuals": [
+        "D_timeline"
+      ],
+      "text": "ウェルギリウスが書いたのは、ホメロスの詩から何世紀も後のこと。しかも、敗れた側から物語を語りました。木馬も、大蛇も、シノンも、彼が考え出したものではありません。けれど、警告、うそ、開かれた城壁。今の私たちが思い浮かべる場面の多くは、彼の語りを通して、最も鮮やかに伝わっています。"
+    },
+    {
+      "id": "P12",
+      "chapter": "C05",
+      "sources": [
+        "T-S09",
+        "T-S10"
+      ],
+      "classification": "sourced_narration",
+      "visuals": [
+        "met_341207",
+        "D_count"
+      ],
+      "text": "古代にも、別の説明を示した書き手がいました。2世紀の旅行作家パウサニアスは、アテナイで「木の馬」と呼ばれる青銅の像を見て、こう書いています。トロイの人々をまったくの愚か者だと思わない人なら、あの馬は本当は城壁を破るための仕掛けだったと知っている、と。では、中には何人いたのか。後の時代の手引き書は五十人と記し、『小イリアス』の作者によれば三千人だった、とも伝えています。"
+    },
+    {
+      "id": "P13",
+      "chapter": "C05",
+      "sources": [
+        "T-S04",
+        "T-S05",
+        "T-S07",
+        "T-S11"
+      ],
+      "classification": "editorial_summary",
+      "visuals": [
+        "D_summary",
+        "met_253376"
+      ],
+      "text": "では、トロイの木馬は『イリアス』に出てくるのか。答えは、いいえ。『オデュッセイア』に短く現れ、ほとんど失われた詩や絵の中で育ち、ウェルギリウスの『アエネーイス』に、詳しい物語として残りました。今では、役に立つふりをして害になるものを隠したコンピュータのプログラムまで、トロイの木馬と呼ばれます。その贈り物は今も覚えられ、そして今も信用されていません。"
+    },
+    {
+      "id": "P14",
+      "chapter": "C05",
+      "sources": [],
+      "classification": "editorial_closing",
+      "visuals": [
+        "met_254896"
+      ],
+      "text": "どの物語にも由来がある。ときには、それは宴の席で歌われた一つの歌から始まります。"
+    },
+    {
+      "id": "P15",
+      "chapter": "C05",
+      "sources": [],
+      "classification": "credits",
+      "visuals": [
+        "credits"
+      ],
+      "text": "この動画は、歴史上の文献と公開された美術館のコレクションをもとに構成しました。ナレーションには音声合成を使っています。出典と利用条件は概要欄にまとめています。楽しんでいただけたら、高評価とチャンネル登録をお願いします。ご覧いただき、ありがとうございました。"
+    }
+  ]
+}
