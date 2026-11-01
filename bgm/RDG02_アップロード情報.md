@@ -12,7 +12,7 @@
 ```
 
 - RDG01と同じ型（作者『作品』🌙 睡眠用朗読｜静かな女性の声とやさしいBGM｜1時間）。音声が日本語なので題名・説明文は日本語が主。「動画の言語」は日本語。
-- 英語の題名を足すなら（多言語の設定）：`Akutagawa Ryūnosuke "The Spider's Thread", "The Trolley", "Toshishun" 🌙 Japanese Sleep Reading (Japanese audio) | 1 Hour`
+- 英語の題名を足すなら（多言語の設定）：`Akutagawa "The Spider's Thread", "The Trolley", "Toshishun" 🌙 Japanese Sleep Reading | 1 Hour`（93字。初案は120字で上限100字を超えたため「Ryūnosuke」「(Japanese audio)」を外した）
 
 ## 説明文（巻ごとの冒頭。この下にStudioの既定の共通文が続く）
 
