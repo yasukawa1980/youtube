@@ -1,0 +1,30 @@
+{
+  "passed": true,
+  "checks": [
+    {
+      "language": "en",
+      "brand": "opening",
+      "samples": 96000,
+      "identical_decoded_24khz_samples_in_mix": true
+    },
+    {
+      "language": "en",
+      "brand": "endcard",
+      "samples": 240000,
+      "identical_decoded_24khz_samples_in_mix": true
+    },
+    {
+      "language": "ja",
+      "brand": "opening",
+      "samples": 96000,
+      "identical_decoded_24khz_samples_in_mix": true
+    },
+    {
+      "language": "ja",
+      "brand": "endcard",
+      "samples": 240000,
+      "identical_decoded_24khz_samples_in_mix": true
+    }
+  ],
+  "note": "Comparison before output resampling/AAC; 24kHz float mix against decoded unchanged brand sources"
+}

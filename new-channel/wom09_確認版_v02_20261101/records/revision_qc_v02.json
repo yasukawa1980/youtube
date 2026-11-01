@@ -1,0 +1,264 @@
+{
+  "passed": true,
+  "changed_visuals": [
+    "met_437394",
+    "D_lastline",
+    "D_nohorse",
+    "D_options",
+    "D_passages",
+    "D_lostpoems",
+    "D_gifts",
+    "D_timeline",
+    "D_count",
+    "D_summary"
+  ],
+  "unchanged_header_count": 22,
+  "v01_deliverables_preserved": true,
+  "timing_and_reveal_frames_unchanged": true,
+  "same_audio_and_srt": [
+    {
+      "name": "EP009_audio_en.wav",
+      "sha256": "6b864ae7b824a93c23b696e3b268397d3dbcf48cd7370fc5214e051a306988ec"
+    },
+    {
+      "name": "EP009_audio_en.m4a",
+      "sha256": "ec51946d8250202f4bc6a3a8dd2f9f281c728a91f7b99f32a42224f9f4749d0e"
+    },
+    {
+      "name": "EP009_TrojanHorse_en_v02_1080p30.srt",
+      "v01_name": "EP009_TrojanHorse_en_v01_1080p30.srt",
+      "sha256": "6239e53fe5daeb04dc806bbcdd5a112579d745684d7dff1a1ab7f8d2ce7a6c47"
+    },
+    {
+      "name": "EP009_TrojanHorse_en_v02_1080p30.mp4",
+      "audio_stream_sha256": "SHA256=2317851e9baa14b3a1054ec690d7c565fbc3f9601d25a8cfc6e255becac07dd3"
+    },
+    {
+      "name": "EP009_TrojanHorse_en_v02_subtitled_review_1080p30.mp4",
+      "audio_stream_sha256": "SHA256=2317851e9baa14b3a1054ec690d7c565fbc3f9601d25a8cfc6e255becac07dd3"
+    },
+    {
+      "name": "EP009_audio_ja.wav",
+      "sha256": "5ed1c425ff505c0a9e170a911f69cf44418938f00ebf269220e56d6b69228484"
+    },
+    {
+      "name": "EP009_audio_ja.m4a",
+      "sha256": "d0f871903fabd98278a63d8fb76d60deb8fcbc9f53e5251ef4cc1350373ded80"
+    },
+    {
+      "name": "EP009_TrojanHorse_ja_v02_1080p30.srt",
+      "v01_name": "EP009_TrojanHorse_ja_v01_1080p30.srt",
+      "sha256": "1fc46bef82bcfebf8d9e57bccaf7d695da49d80e0ff94a4d6bb72b5825617058"
+    },
+    {
+      "name": "EP009_TrojanHorse_ja_v02_1080p30.mp4",
+      "audio_stream_sha256": "SHA256=0167b96101829d18b96bd9ba296198a773d7c004373340ea0a6204728170e09a"
+    },
+    {
+      "name": "EP009_TrojanHorse_ja_v02_subtitled_review_1080p30.mp4",
+      "audio_stream_sha256": "SHA256=0167b96101829d18b96bd9ba296198a773d7c004373340ea0a6204728170e09a"
+    }
+  ],
+  "layout_rows": [
+    {
+      "key": "D_lastline",
+      "v01_top_y": 285,
+      "v01_bottom_y": 557,
+      "v02_top_y": 258,
+      "v02_bottom_y": 550,
+      "v02_center_y": 404.0,
+      "v01_font_min": 38,
+      "v01_font_max": 66,
+      "v02_font_min": 49,
+      "v02_font_max": 86,
+      "body_contrast": 9.59069469965852,
+      "accent_contrast": 7.3192358964677595
+    },
+    {
+      "key": "D_nohorse",
+      "v01_top_y": 280,
+      "v01_bottom_y": 623,
+      "v02_top_y": 202,
+      "v02_bottom_y": 606,
+      "v02_center_y": 404.0,
+      "v01_font_min": 48,
+      "v01_font_max": 110,
+      "v02_font_min": 62,
+      "v02_font_max": 143,
+      "body_contrast": 9.59069469965852,
+      "accent_contrast": 7.3192358964677595
+    },
+    {
+      "key": "D_options",
+      "v01_top_y": 170,
+      "v01_bottom_y": 623,
+      "v02_top_y": 172,
+      "v02_bottom_y": 636,
+      "v02_center_y": 404.0,
+      "v01_font_min": 33,
+      "v01_font_max": 43,
+      "v02_font_min": 43,
+      "v02_font_max": 60,
+      "body_contrast": 9.59069469965852,
+      "accent_contrast": 7.3192358964677595
+    },
+    {
+      "key": "D_passages",
+      "v01_top_y": 170,
+      "v01_bottom_y": 675,
+      "v02_top_y": 158,
+      "v02_bottom_y": 649,
+      "v02_center_y": 403.5,
+      "v01_font_min": 30,
+      "v01_font_max": 44,
+      "v02_font_min": 42,
+      "v02_font_max": 60,
+      "body_contrast": 9.59069469965852,
+      "accent_contrast": 7.3192358964677595
+    },
+    {
+      "key": "D_lostpoems",
+      "v01_top_y": 165,
+      "v01_bottom_y": 632,
+      "v02_top_y": 168,
+      "v02_bottom_y": 640,
+      "v02_center_y": 404.0,
+      "v01_font_min": 27,
+      "v01_font_max": 41,
+      "v02_font_min": 35,
+      "v02_font_max": 60,
+      "body_contrast": 9.59069469965852,
+      "accent_contrast": 7.3192358964677595
+    },
+    {
+      "key": "D_gifts",
+      "v01_top_y": 270,
+      "v01_bottom_y": 604,
+      "v02_top_y": 216,
+      "v02_bottom_y": 591,
+      "v02_center_y": 403.5,
+      "v01_font_min": 36,
+      "v01_font_max": 68,
+      "v02_font_min": 47,
+      "v02_font_max": 88,
+      "body_contrast": 9.59069469965852,
+      "accent_contrast": 7.3192358964677595
+    },
+    {
+      "key": "D_timeline",
+      "v01_top_y": 230,
+      "v01_bottom_y": 483,
+      "v02_top_y": 242,
+      "v02_bottom_y": 565,
+      "v02_center_y": 403.5,
+      "v01_font_min": 30,
+      "v01_font_max": 40,
+      "v02_font_min": 39,
+      "v02_font_max": 60,
+      "body_contrast": 9.59069469965852,
+      "accent_contrast": 7.3192358964677595
+    },
+    {
+      "key": "D_count",
+      "v01_top_y": 235,
+      "v01_bottom_y": 603,
+      "v02_top_y": 206,
+      "v02_bottom_y": 601,
+      "v02_center_y": 403.5,
+      "v01_font_min": 33,
+      "v01_font_max": 175,
+      "v02_font_min": 43,
+      "v02_font_max": 228,
+      "body_contrast": 9.59069469965852,
+      "accent_contrast": 7.3192358964677595
+    },
+    {
+      "key": "D_summary",
+      "v01_top_y": 280,
+      "v01_bottom_y": 566,
+      "v02_top_y": 228,
+      "v02_bottom_y": 580,
+      "v02_center_y": 404.0,
+      "v01_font_min": 27,
+      "v01_font_max": 37,
+      "v02_font_min": 35,
+      "v02_font_max": 60,
+      "body_contrast": 9.59069469965852,
+      "accent_contrast": 7.3192358964677595
+    }
+  ],
+  "comparisons": [
+    {
+      "key": "met_437394",
+      "frame": 1741,
+      "seconds": 58.03333333333333,
+      "file": "review/compare_met_437394.jpg",
+      "sha256": "e8088a9c0605675a66fe5ba942cde6e209df9552f368d965b7229947b79d4506"
+    },
+    {
+      "key": "D_lastline",
+      "frame": 2484,
+      "seconds": 82.80000000000001,
+      "file": "review/compare_D_lastline.jpg",
+      "sha256": "8790ef2d5509c44bb3e7aa9f7e67dc2e5945666a56f9299f796f1776c9bd886c"
+    },
+    {
+      "key": "D_nohorse",
+      "frame": 2746,
+      "seconds": 91.53333333333333,
+      "file": "review/compare_D_nohorse.jpg",
+      "sha256": "5e23abb7b2f23493d576813d732c63e9a81b1f04facbdb102684b3e38b255778"
+    },
+    {
+      "key": "D_options",
+      "frame": 3564,
+      "seconds": 118.8,
+      "file": "review/compare_D_options.jpg",
+      "sha256": "86ec7e98daa281c9003576cd7052c9674c4e4fa3d470e10572b17336ca5df06b"
+    },
+    {
+      "key": "D_passages",
+      "frame": 4605,
+      "seconds": 153.5,
+      "file": "review/compare_D_passages.jpg",
+      "sha256": "d3cfe9ab602654750e8701d50c5f6e1186617dab0f0bb4b62ccfb7be8c8c6b10"
+    },
+    {
+      "key": "D_lostpoems",
+      "frame": 5628,
+      "seconds": 187.6,
+      "file": "review/compare_D_lostpoems.jpg",
+      "sha256": "522f372532145cdeef3ea5129e4fb9b57321e61f7be4e9314169704032a3cf33"
+    },
+    {
+      "key": "D_gifts",
+      "frame": 6953,
+      "seconds": 231.76666666666668,
+      "file": "review/compare_D_gifts.jpg",
+      "sha256": "052775ecf4137cdf945a9ad7802eab3192b1eaa19feff77b1c5ed9591653cfeb"
+    },
+    {
+      "key": "D_timeline",
+      "frame": 7859,
+      "seconds": 261.9666666666667,
+      "file": "review/compare_D_timeline.jpg",
+      "sha256": "289daddf9ed6a6c9ae0f93eb40228269b44bad8c1d72b7e81465243efd2c668f"
+    },
+    {
+      "key": "D_count",
+      "frame": 9075,
+      "seconds": 302.5,
+      "file": "review/compare_D_count.jpg",
+      "sha256": "f5537e7a7d71d7c36e013cb92c0d44fde6ab15a0b07d2129334342d4e900d120"
+    },
+    {
+      "key": "D_summary",
+      "frame": 9454,
+      "seconds": 315.1333333333334,
+      "file": "review/compare_D_summary.jpg",
+      "sha256": "eef9ae1413d15629a56aaaf22560484e85ef9c0c131cc1c60de71d29a15c5b39"
+    }
+  ],
+  "human_full_listening": false,
+  "comparison_extraction": "Continuous decode, same absolute frame in v01 and v02, later than final row reveal for animated cards"
+}

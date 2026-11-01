@@ -1,0 +1,78 @@
+{
+  "passed": true,
+  "movie_timescale": 48000,
+  "video_frames": 11293,
+  "audio_samples": 18068800,
+  "files": [
+    {
+      "name": "EP009_audio_en.m4a",
+      "before_sha256": "ec51946d8250202f4bc6a3a8dd2f9f281c728a91f7b99f32a42224f9f4749d0e",
+      "after_sha256": "ec51946d8250202f4bc6a3a8dd2f9f281c728a91f7b99f32a42224f9f4749d0e",
+      "already_sample_exact": true,
+      "encoded_streams_identical": true,
+      "stream_hashes": {
+        "audio": "SHA256=2317851e9baa14b3a1054ec690d7c565fbc3f9601d25a8cfc6e255becac07dd3"
+      },
+      "duration_seconds": "376.433333"
+    },
+    {
+      "name": "EP009_audio_ja.m4a",
+      "before_sha256": "d0f871903fabd98278a63d8fb76d60deb8fcbc9f53e5251ef4cc1350373ded80",
+      "after_sha256": "d0f871903fabd98278a63d8fb76d60deb8fcbc9f53e5251ef4cc1350373ded80",
+      "already_sample_exact": true,
+      "encoded_streams_identical": true,
+      "stream_hashes": {
+        "audio": "SHA256=0167b96101829d18b96bd9ba296198a773d7c004373340ea0a6204728170e09a"
+      },
+      "duration_seconds": "376.433333"
+    },
+    {
+      "name": "EP009_TrojanHorse_en_v02_1080p30.mp4",
+      "before_sha256": "b7e50792c704818e2fa2f5abbfda5096e26b69fa28b96764bb96a0f77cd56772",
+      "after_sha256": "b7e50792c704818e2fa2f5abbfda5096e26b69fa28b96764bb96a0f77cd56772",
+      "already_sample_exact": true,
+      "encoded_streams_identical": true,
+      "stream_hashes": {
+        "video": "SHA256=591bbe7e3c04158ed1271371d8e448d7f65499147f272cfd214d9296dbeaad56",
+        "audio": "SHA256=2317851e9baa14b3a1054ec690d7c565fbc3f9601d25a8cfc6e255becac07dd3"
+      },
+      "duration_seconds": "376.433333"
+    },
+    {
+      "name": "EP009_TrojanHorse_en_v02_subtitled_review_1080p30.mp4",
+      "before_sha256": "844d65b96265325959ee2552260de19609a04a5862e2676bf61ec46f9779cca5",
+      "after_sha256": "844d65b96265325959ee2552260de19609a04a5862e2676bf61ec46f9779cca5",
+      "already_sample_exact": true,
+      "encoded_streams_identical": true,
+      "stream_hashes": {
+        "video": "SHA256=47dc5cfa5bfc1415da5fa897660b491007f4c5117e5e036632a8e7d0deaa96a0",
+        "audio": "SHA256=2317851e9baa14b3a1054ec690d7c565fbc3f9601d25a8cfc6e255becac07dd3"
+      },
+      "duration_seconds": "376.433333"
+    },
+    {
+      "name": "EP009_TrojanHorse_ja_v02_1080p30.mp4",
+      "before_sha256": "10301857d57a116f0f9424e1b3de9b5710f56ef6874ce70fc376f10f4b4671ef",
+      "after_sha256": "10301857d57a116f0f9424e1b3de9b5710f56ef6874ce70fc376f10f4b4671ef",
+      "already_sample_exact": true,
+      "encoded_streams_identical": true,
+      "stream_hashes": {
+        "video": "SHA256=591bbe7e3c04158ed1271371d8e448d7f65499147f272cfd214d9296dbeaad56",
+        "audio": "SHA256=0167b96101829d18b96bd9ba296198a773d7c004373340ea0a6204728170e09a"
+      },
+      "duration_seconds": "376.433333"
+    },
+    {
+      "name": "EP009_TrojanHorse_ja_v02_subtitled_review_1080p30.mp4",
+      "before_sha256": "64722405a5377ffcfdf4565f1c238a26067ba2702ad6b217a5709fa482687c9b",
+      "after_sha256": "64722405a5377ffcfdf4565f1c238a26067ba2702ad6b217a5709fa482687c9b",
+      "already_sample_exact": true,
+      "encoded_streams_identical": true,
+      "stream_hashes": {
+        "video": "SHA256=8fce0800224ce63306936a03785609d007644e4993f4eb15a57ae3a51da50e39",
+        "audio": "SHA256=0167b96101829d18b96bd9ba296198a773d7c004373340ea0a6204728170e09a"
+      },
+      "duration_seconds": "376.433333"
+    }
+  ]
+}
