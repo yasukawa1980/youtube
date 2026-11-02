@@ -1,0 +1,28 @@
+{
+  "channel": "Quiet Origins",
+  "channel_id": "UCfLJOojEY9VB3rvrjICk90Q",
+  "main_list_total": 11,
+  "short_list_total": 24,
+  "before_upload": {
+    "2026-11-06": {
+      "main": 1,
+      "shorts": 0
+    },
+    "2026-11-07": {
+      "main": 0,
+      "shorts": 0
+    }
+  },
+  "expected_after": {
+    "2026-11-06": {
+      "main": 1,
+      "shorts": 1
+    },
+    "2026-11-07": {
+      "main": 0,
+      "shorts": 2
+    }
+  },
+  "evidence": "Studio動画全11件・ショート全24件のUI一覧を確認、次ページなし",
+  "source_commit": "e8e32f2"
+}
