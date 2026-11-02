@@ -7,7 +7,7 @@ import hashlib, json, subprocess, sys
 from pathlib import Path
 
 BASE = Path('/Volumes/ESD-02/新チャンネル/EP010_Krampus')
-FOLDERS = {'v01': '確認版_v01_20261102'}
+FOLDERS = {'v01': '確認版_v01_20261102', 'v02': '確認版_v02_20261103'}
 VF = 'scale=3840:2160:flags=lanczos'
 ENCODE = ['-c:v', 'libx264', '-preset', 'veryfast', '-profile:v', 'high', '-pix_fmt', 'yuv420p',
           '-b:v', '40M', '-maxrate', '45M', '-bufsize', '80M', '-g', '15', '-bf', '2',
