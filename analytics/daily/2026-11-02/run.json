@@ -1,0 +1,35 @@
+{
+  "automation_id": "youtube-2",
+  "date_jst": "2026-11-02",
+  "status": "completed",
+  "completed_at_utc": "2026-11-02T12:07:14.144228+00:00",
+  "original_channel": "Quiet Origins",
+  "original_channel_id": "UCfLJOojEY9VB3rvrjICk90Q",
+  "restored_channel": "Quiet Origins",
+  "restored_channel_id": "UCfLJOojEY9VB3rvrjICk90Q",
+  "restoration_verified": true,
+  "restoration_evidence": [
+    "original-channel.txt",
+    "restoration.txt",
+    "restored-quiet-origins.jpg"
+  ],
+  "analysis_tab_ids": [
+    "604609995"
+  ],
+  "user_tabs_changed": false,
+  "studio_content_settings_or_publication_changes": false,
+  "source_files_count": 20,
+  "unresolved_failures": [],
+  "recovered_acquisition_issues": [
+    "Whispersの28日切替後の読み込み停滞を分析専用タブの再読み込みで解消。期間と4形式を再検証して取得。"
+  ],
+  "notification_reason": [
+    "Whispersの48時間794→346回（56.4%減）。灯のともる駅は48時間333→50回、一方7日333回で同じ。初期視聴が窓から外れた可能性を記録。"
+  ],
+  "notification_decision": "NOTIFY",
+  "recommendations_count": 2,
+  "new_recommendations_count": 0,
+  "user_action_required": false,
+  "sharing_scope": "本日分2チャンネルのreport.jsonとrun.jsonのみ。既存未送信履歴を含めず最新リモート履歴に追加。",
+  "parser_verification": "再起動で一時ヘルパーが消失したため再構成。11/1原文20件で既存記録と照合し、全数値・期間別指標・最新指標・上位40行の数値一致を確認。"
+}
