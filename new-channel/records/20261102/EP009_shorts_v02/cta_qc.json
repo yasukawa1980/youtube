@@ -1,0 +1,52 @@
+{
+  "passed": true,
+  "rows": [
+    {
+      "id": "T1",
+      "last_voice_activity": 17.73,
+      "native_end": 18.040625,
+      "cta_start": 18.066666666666666,
+      "cta_end": 20.566666666666666,
+      "cta_duration": 2.5,
+      "no_voice_overlap": true
+    },
+    {
+      "id": "T2",
+      "last_voice_activity": 18.76,
+      "native_end": 19.07,
+      "cta_start": 19.1,
+      "cta_end": 21.6,
+      "cta_duration": 2.5,
+      "no_voice_overlap": true
+    },
+    {
+      "id": "T3",
+      "last_voice_activity": 17.99,
+      "native_end": 18.30125,
+      "cta_start": 18.333333333333332,
+      "cta_end": 20.833333333333332,
+      "cta_duration": 2.5,
+      "no_voice_overlap": true
+    }
+  ],
+  "picture_tails": [
+    {
+      "id": "T1",
+      "art_seconds_in_last10": 5.666666666666667,
+      "last_asset": "met_247952",
+      "through_end": true
+    },
+    {
+      "id": "T2",
+      "art_seconds_in_last10": 10.0,
+      "last_asset": "MYK01",
+      "through_end": true
+    },
+    {
+      "id": "T3",
+      "art_seconds_in_last10": 8.833333333333334,
+      "last_asset": "R01",
+      "through_end": true
+    }
+  ]
+}

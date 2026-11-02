@@ -74,15 +74,15 @@ def make_ass(s):
     def tm(frame):
         ticks=round(frame/FPS*100);return f'{ticks//360000}:{ticks//6000%60:02}:{ticks//100%60:02}.{ticks%100:02}'
     for i,p in enumerate(pages):
-        words=p['text'].split();d=ImageDraw.Draw(Image.new('RGB',(1,1)));lines=[]
+        words=p['text'].split();minimum_words=3 if CONFIG.get('minimum_line_words',4)==3 and len(words) in (6,7) else 4;d=ImageDraw.Draw(Image.new('RGB',(1,1)));lines=[]
         for size in ([42 if p.get('cta_line')==1 else 36] if p.get('brand') else range(68,39,-2)):
             f=font(size,bold=True)
             if len(words)<=5 and d.textlength(p['text'],font=f)<=770:lines=[p['text']];break
-            candidates=[[' '.join(words[:cut]),' '.join(words[cut:])] for cut in range(1,len(words)) if 4<=cut<=5 and 4<=len(words)-cut<=5]
+            candidates=[[' '.join(words[:cut]),' '.join(words[cut:])] for cut in range(1,len(words)) if minimum_words<=cut<=5 and minimum_words<=len(words)-cut<=5]
             if not candidates:continue
             best=min(candidates,key=lambda lines:max(d.textlength(line,font=f) for line in lines))
             if max(d.textlength(line,font=f) for line in best)<=770:lines=best;break
-        assert lines and len(lines)<=2 and all(4<=len(x.split())<=5 for x in lines)
+        assert lines and len(lines)<=2 and all(minimum_words<=len(x.split())<=5 for x in lines)
         ypos=(1230 if p.get('cta_line')==1 else 1330) if p.get('brand') else 1250
         content='\\N'.join(lines);override=f'{{\\an5\\pos(480,{ypos})\\fs{size}}}'
         if p.get('cta_line')==1:override=override[:-1]+r'\fnGeorgia\b1}'
@@ -100,6 +100,11 @@ def render():
     rendered=[];captionrecords=[];encoding=[]
     for s in shots:
         path=ROOT/f'_work/{s["short_id"]}_{s["asset_id"]}.mp4';stamp=path.with_suffix('.json')
+        if s.get('preencoded_file'):
+            assert sha(Path(s['preencoded_file']))==s['preencoded_sha256']
+            rendered.append(dict(**s,encoded_file=s['preencoded_file'],encoded_sha256=s['preencoded_sha256']))
+            print('SHOT PRESERVED',s['short_id'],s['asset_id'],flush=True)
+            continue
         cfg=dict(image=s['sha256'],header_sha256=sha(Path(s['header_file'])),frames=s['frames'],camera=camera(s),source_sha=s['source']['sha256'],crf=18)
         if not(path.exists() and stamp.exists() and read(stamp)==cfg):
             ff(['-loop',1,'-framerate',30,'-i',s['file'],'-loop',1,'-framerate',30,'-i',s['header_file'],'-filter_complex_threads',2,'-filter_complex',camera(s),'-map','[v]',

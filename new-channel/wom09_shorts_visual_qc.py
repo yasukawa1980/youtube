@@ -4,6 +4,7 @@ from pathlib import Path
 import numpy as np
 from PIL import Image,ImageDraw,ImageFont,ImageFilter
 from wom09_shorts import ROOT,save,sha
+from wom09_shorts_render import VERSION
 from wom_shorts_produce import read
 def lum(a):
  a=a.astype(float)/255;a=np.where(a<=.04045,a/12.92,((a+.055)/1.055)**2.4);return a@np.array([.2126,.7152,.0722])
@@ -19,7 +20,7 @@ def decode(p,indices):
 def main():
  contrasts=[];heads=[];cta=[];pictures=[]
  for s in read(ROOT/'records/shorts.json')['shorts']:
-  sid=s['id'];group=read(ROOT/f'records/{sid}_backplates.json');indices=sorted(set([0,15,30,45,60,75]+list(range(0,s['frames'],60))+[r['middle_frame'] for r in group]+[s['cta_start_frame'],s['frames']-1]));frames=decode(ROOT/f'deliverables/QO_short_EP009_{sid}_v01.mp4',indices)
+  sid=s['id'];group=read(ROOT/f'records/{sid}_backplates.json');extra=[345,360,375,390,450,480,510] if sid=='T2' else [];indices=sorted(set(extra+[0,15,30,45,60,75]+list(range(0,s['frames'],60))+[r['middle_frame'] for r in group]+[s['cta_start_frame'],s['frames']-1]));frames=decode(ROOT/f'deliverables/QO_short_EP009_{sid}_{VERSION}.mp4',indices)
   page_masks={}
   for r in group:
    m=np.load(ROOT/r['mask']);page_masks.setdefault(r['page'],np.zeros((1920,1080),bool));page_masks[r['page']]|=m['ink']
@@ -33,7 +34,7 @@ def main():
   cta.append(dict(id=sid,last_voice_activity=s['last_voice_activity_seconds'],native_end=s['native_audio_duration'],cta_start=s['cta_start'],cta_end=s['duration_seconds'],cta_duration=2.5,no_voice_overlap=True))
   shots=[x for x in read(ROOT/'records/render_shots.json') if x['short_id']==sid];assert not shots[-1]['asset_id'].startswith('D_');tail=sum(max(0,g['end_frame']-max(g['start_frame'],s['frames']-300)) for g in shots if not g['asset_id'].startswith('D_'));assert tail>=45
   pictures.append(dict(id=sid,art_seconds_in_last10=tail/30,last_asset=shots[-1]['asset_id'],through_end=True))
-  for kind,ns in [('opening',[0,15,30,45,60,75]),('every2s',list(range(0,s['frames'],60))),('CTA',[s['cta_start_frame'],s['frames']-1])]:
+  for kind,ns in [('opening',[0,15,30,45,60,75]),('every2s',list(range(0,s['frames'],60))),('CTA',[s['cta_start_frame'],s['frames']-1])]+([('camera_cues',extra)] if extra else []):
    tiles=[];folder=ROOT/f'review/{sid}_{kind}';folder.mkdir(exist_ok=True)
    for n in ns:
     im=Image.fromarray(frames[n]);im.thumbnail((720,1280));dest=folder/f'{n:04d}.jpg';im.save(dest,quality=90,optimize=True);assert dest.stat().st_size<1000000;tiles.append(im)

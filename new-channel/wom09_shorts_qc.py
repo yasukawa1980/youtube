@@ -47,7 +47,7 @@ def motion():
             hb=hooks[sid]['overlay_bbox'];exclusions.append([hb[0]-24,hb[1]-24,hb[2]+24,hb[3]+24])
             for a,b1,c,d in exclusions:mask[max(0,b1-y):max(0,min(h,d-y)),max(0,a-x):max(0,min(w,c-x))]=False
         assert mask.sum()>10000
-        p=ROOT/f'deliverables/QO_short_EP009_{sid}_v01.mp4';sig=sha(p)
+        p=ROOT/f'deliverables/QO_short_EP009_{sid}_{VERSION}.mp4';sig=sha(p)
         filt=f'trim=start_frame={s["start_frame"]}:end_frame={s["end_frame"]},format=gray,crop={w}:{h}:{x}:{y}:exact=1'
         proc=subprocess.Popen(['ffmpeg','-nostdin','-v','error','-threads','2','-i',str(p),'-vf',filt,'-pix_fmt','gray','-fps_mode','passthrough','-f','rawvideo','-'],stdout=subprocess.PIPE)
         prior=None;ds=[]
