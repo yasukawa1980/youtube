@@ -1,0 +1,160 @@
+{
+  "observed_at": "2026-11-02T15:00:00+09:00",
+  "time_precision": "hour",
+  "environment": "Mac Chrome, manually observed YouTube player UI",
+  "local_files": {
+    "qo02": {
+      "file": "/Users/ryo/Desktop/新チャンネル/EP002_Halloween/確認版_v04_20261022/deliverables/EP002_Halloween_en_v04_1080p30.mp4",
+      "probe": {
+        "programs": [],
+        "stream_groups": [],
+        "streams": [
+          {
+            "codec_name": "h264",
+            "width": 1920,
+            "height": 1080,
+            "pix_fmt": "yuv420p",
+            "color_space": "bt709",
+            "avg_frame_rate": "30/1",
+            "bit_rate": "2934078"
+          },
+          {
+            "codec_name": "aac",
+            "avg_frame_rate": "0/0",
+            "bit_rate": "181141"
+          }
+        ],
+        "format": {
+          "duration": "397.666667",
+          "size": "155236312"
+        }
+      }
+    },
+    "iro21": {
+      "file": "/Users/ryo/Desktop/BGM/IRO/Drive/21_遠回りして帰ろうか/投稿用/iro21_遠回りして帰ろうか_本編_扉入り.mp4",
+      "probe": {
+        "programs": [],
+        "stream_groups": [],
+        "streams": [
+          {
+            "codec_name": "h264",
+            "width": 1920,
+            "height": 1080,
+            "pix_fmt": "yuv420p",
+            "color_space": "bt709",
+            "avg_frame_rate": "24/1",
+            "bit_rate": "3664763"
+          },
+          {
+            "codec_name": "aac",
+            "avg_frame_rate": "0/0",
+            "bit_rate": "320000"
+          }
+        ],
+        "format": {
+          "duration": "7217.643000",
+          "size": "3599965881"
+        }
+      }
+    },
+    "ykl03": {
+      "file": "/Volumes/ESD-02/BGM/YKL03_素材_金魚屋/アニメ版/ykl03_完成_アニメ.mp4",
+      "probe": {
+        "programs": [],
+        "stream_groups": [],
+        "streams": [
+          {
+            "codec_name": "h264",
+            "width": 1920,
+            "height": 1080,
+            "pix_fmt": "yuv420p",
+            "avg_frame_rate": "24/1",
+            "bit_rate": "2696078"
+          },
+          {
+            "codec_name": "aac",
+            "avg_frame_rate": "0/0",
+            "bit_rate": "309179"
+          }
+        ],
+        "format": {
+          "duration": "3757.958333",
+          "size": "1414124862"
+        }
+      }
+    }
+  },
+  "youtube": [
+    {
+      "video_id": "cKOVplspPvE",
+      "initial_auto_quality_p": 360,
+      "manual_quality_p": 1080,
+      "current_resolution": [
+        1920,
+        1080
+      ],
+      "fps": 30,
+      "codec": "av01.0.08M.08 (399)",
+      "audio_codec": "opus (251)",
+      "dropped_frames_observed": 0,
+      "total_frames_at_observation": 460
+    },
+    {
+      "video_id": "HZsl96AigLY",
+      "initial_auto_quality_p": 240,
+      "manual_quality_p": 1080,
+      "current_resolution": [
+        1920,
+        1080
+      ],
+      "fps": 30,
+      "codec": "av01.0.08M.08 (399)",
+      "audio_codec": "opus (251)",
+      "dropped_frames_observed": 0,
+      "total_frames_at_observation": 572
+    },
+    {
+      "video_id": "VZzf2t2yWD8",
+      "initial_auto_quality_p": 240,
+      "manual_quality_p": 1080,
+      "current_resolution": [
+        1920,
+        1080
+      ],
+      "fps": 24,
+      "codec": "av01.0.08M.08 (399)",
+      "audio_codec": "opus (251)",
+      "dropped_frames_observed": 0,
+      "total_frames_at_observation": 428
+    },
+    {
+      "video_id": "5mUe3ZtD6xQ",
+      "initial_auto_quality_p": 240,
+      "manual_quality_p": 1080,
+      "current_resolution": [
+        1920,
+        1080
+      ],
+      "fps": 24,
+      "codec": "av01.0.08M.08 (399)",
+      "audio_codec": "opus (251)",
+      "dropped_frames_observed": 0,
+      "total_frames_at_observation": 229
+    },
+    {
+      "video_id": "yGJzaLLCHrg",
+      "initial_auto_quality_p": 240,
+      "manual_quality_p": 1080,
+      "current_resolution": [
+        1920,
+        1080
+      ],
+      "fps": 30,
+      "codec": "av01.0.08M.08 (399)",
+      "audio_codec": "opus (251)",
+      "dropped_frames_observed": 0,
+      "total_frames_at_observation": 220
+    }
+  ],
+  "scope": "Five main videos; short playback not audited. User device 1080p comparison pending."
+}
