@@ -1,0 +1,155 @@
+{
+  "passed": true,
+  "rows": [
+    {
+      "id": "T1",
+      "v01_audio_stream_hash": "SHA256=00ab1db635c118895a2ed7ef40990bf85aa74b6adc83b314f84fe9b1b8b17b36",
+      "v02_audio_stream_hash": "SHA256=00ab1db635c118895a2ed7ef40990bf85aa74b6adc83b314f84fe9b1b8b17b36",
+      "audio_identical": true,
+      "script_frames_cta_identical": true,
+      "cross_sentence_caption_count": 0,
+      "minimum_caption_seconds": 3.1666666666666665,
+      "three_word_line_exceptions": [],
+      "caption_list": [
+        {
+          "text": "The Trojan horse is not in the Iliad.",
+          "start": 0.0,
+          "end": 3.2333333333333334
+        },
+        {
+          "text": "Homer's Iliad ends before the horse is even built.",
+          "start": 3.2333333333333334,
+          "end": 7.2
+        },
+        {
+          "text": "In one old translation, its last line reads:",
+          "start": 7.2,
+          "end": 11.1
+        },
+        {
+          "text": "\"Thus held they funeral for Hector tamer of horses.\"",
+          "start": 11.1,
+          "end": 14.9
+        },
+        {
+          "text": "The wooden horse appears later, in the Odyssey.",
+          "start": 14.9,
+          "end": 18.066666666666666
+        }
+      ]
+    },
+    {
+      "id": "T2",
+      "v01_audio_stream_hash": "SHA256=81aaafb6f48e705fa22a5b4ceffe0c6a34a864e3ba801fc54ebdf18456f57db2",
+      "v02_audio_stream_hash": "SHA256=81aaafb6f48e705fa22a5b4ceffe0c6a34a864e3ba801fc54ebdf18456f57db2",
+      "audio_identical": true,
+      "script_frames_cta_identical": true,
+      "cross_sentence_caption_count": 0,
+      "minimum_caption_seconds": 1.4,
+      "three_word_line_exceptions": [],
+      "caption_list": [
+        {
+          "text": "This is one of the oldest known pictures",
+          "start": 0.0,
+          "end": 2.466666666666667
+        },
+        {
+          "text": "of the Trojan horse.",
+          "start": 2.466666666666667,
+          "end": 4.333333333333333
+        },
+        {
+          "text": "It is on a clay jar from the",
+          "start": 4.333333333333333,
+          "end": 6.1
+        },
+        {
+          "text": "Greek island of Mykonos,",
+          "start": 6.1,
+          "end": 8.3
+        },
+        {
+          "text": "made around 670 BC.",
+          "start": 8.3,
+          "end": 11.533333333333333
+        },
+        {
+          "text": "The horse stands on wheels.",
+          "start": 11.533333333333333,
+          "end": 13.666666666666666
+        },
+        {
+          "text": "And in its side,",
+          "start": 13.666666666666666,
+          "end": 15.066666666666666
+        },
+        {
+          "text": "small windows show the faces",
+          "start": 15.066666666666666,
+          "end": 17.033333333333335
+        },
+        {
+          "text": "of warriors hidden inside.",
+          "start": 17.033333333333335,
+          "end": 19.1
+        }
+      ]
+    },
+    {
+      "id": "T3",
+      "v01_audio_stream_hash": "SHA256=651c64d2a9a4df377ea7f213df1948a17af96d17bf04e2d63a2b6822ae9c4edd",
+      "v02_audio_stream_hash": "SHA256=651c64d2a9a4df377ea7f213df1948a17af96d17bf04e2d63a2b6822ae9c4edd",
+      "audio_identical": true,
+      "script_frames_cta_identical": true,
+      "cross_sentence_caption_count": 0,
+      "minimum_caption_seconds": 2.1,
+      "three_word_line_exceptions": [
+        {
+          "text": "This famous warning",
+          "words": 3
+        },
+        {
+          "text": "written about two",
+          "words": 3
+        },
+        {
+          "text": "thousand years ago.",
+          "words": 3
+        }
+      ],
+      "caption_list": [
+        {
+          "text": "\"I fear the Grecians even when they offer gifts.\"",
+          "start": 0.0,
+          "end": 3.8
+        },
+        {
+          "text": "This famous warning is not from Homer.",
+          "start": 3.8,
+          "end": 6.9
+        },
+        {
+          "text": "It comes from Virgil's Aeneid,",
+          "start": 6.9,
+          "end": 9.0
+        },
+        {
+          "text": "written about two thousand years ago.",
+          "start": 9.0,
+          "end": 12.0
+        },
+        {
+          "text": "There, the Trojan priest Laocoön says it, and",
+          "start": 12.0,
+          "end": 15.566666666666666
+        },
+        {
+          "text": "then hurls his spear at the wooden horse.",
+          "start": 15.566666666666666,
+          "end": 18.333333333333332
+        }
+      ]
+    }
+  ],
+  "exception_reason": "文末分離・台本不変が優先。T3の7語文は3+4、6語節は3+3。その他は4〜5語/行。T1/T3の字幕なし中間動画はv01のSHA一致ファイルをそのまま使用。"
+}

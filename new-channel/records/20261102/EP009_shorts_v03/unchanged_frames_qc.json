@@ -1,0 +1,246 @@
+{
+  "comparison_space": "decoded 8-bit YUV420p; all pre-CTA frames",
+  "authorization": "2026-11-02 本人：通常の投稿形式を優先し、再圧縮による微小な差は記録する",
+  "rows": [
+    {
+      "id": "T1",
+      "compared_frames": 542,
+      "pixel_identical_frames": 532,
+      "changed_frames": 10,
+      "first_changed_frame": 532,
+      "last_changed_frame": 541,
+      "mean_absolute_difference_all_pre_cta_frames": 0.00016086313930268933,
+      "maximum_component_difference": 19,
+      "changed_rows": [
+        {
+          "frame": 532,
+          "seconds": 17.733333333333334,
+          "mean_absolute_yuv_difference": 0.000607960390946502,
+          "maximum_component_difference": 3,
+          "changed_components": 1769
+        },
+        {
+          "frame": 533,
+          "seconds": 17.766666666666666,
+          "mean_absolute_yuv_difference": 0.0010294495884773662,
+          "maximum_component_difference": 6,
+          "changed_components": 2491
+        },
+        {
+          "frame": 534,
+          "seconds": 17.8,
+          "mean_absolute_yuv_difference": 0.002572659465020576,
+          "maximum_component_difference": 8,
+          "changed_components": 7104
+        },
+        {
+          "frame": 535,
+          "seconds": 17.833333333333332,
+          "mean_absolute_yuv_difference": 0.004235146604938272,
+          "maximum_component_difference": 17,
+          "changed_components": 10107
+        },
+        {
+          "frame": 536,
+          "seconds": 17.866666666666667,
+          "mean_absolute_yuv_difference": 0.006159979423868313,
+          "maximum_component_difference": 8,
+          "changed_components": 15917
+        },
+        {
+          "frame": 537,
+          "seconds": 17.9,
+          "mean_absolute_yuv_difference": 0.008958654835390947,
+          "maximum_component_difference": 15,
+          "changed_components": 20364
+        },
+        {
+          "frame": 538,
+          "seconds": 17.933333333333334,
+          "mean_absolute_yuv_difference": 0.010713091563786008,
+          "maximum_component_difference": 8,
+          "changed_components": 26644
+        },
+        {
+          "frame": 539,
+          "seconds": 17.966666666666665,
+          "mean_absolute_yuv_difference": 0.01454539609053498,
+          "maximum_component_difference": 19,
+          "changed_components": 32195
+        },
+        {
+          "frame": 540,
+          "seconds": 18.0,
+          "mean_absolute_yuv_difference": 0.016999421296296297,
+          "maximum_component_difference": 10,
+          "changed_components": 38926
+        },
+        {
+          "frame": 541,
+          "seconds": 18.033333333333335,
+          "mean_absolute_yuv_difference": 0.021366062242798353,
+          "maximum_component_difference": 19,
+          "changed_components": 42678
+        }
+      ],
+      "v02_audio_hash": "SHA256=00ab1db635c118895a2ed7ef40990bf85aa74b6adc83b314f84fe9b1b8b17b36",
+      "v03_audio_hash": "SHA256=00ab1db635c118895a2ed7ef40990bf85aa74b6adc83b314f84fe9b1b8b17b36",
+      "audio_identical": true,
+      "exact_pixel_equality": false,
+      "user_authorized_recompression": true
+    },
+    {
+      "id": "T2",
+      "compared_frames": 573,
+      "pixel_identical_frames": 565,
+      "changed_frames": 8,
+      "first_changed_frame": 565,
+      "last_changed_frame": 572,
+      "mean_absolute_difference_all_pre_cta_frames": 0.001151628786654601,
+      "maximum_component_difference": 21,
+      "changed_rows": [
+        {
+          "frame": 565,
+          "seconds": 18.833333333333332,
+          "mean_absolute_yuv_difference": 0.06481674382716049,
+          "maximum_component_difference": 18,
+          "changed_components": 133140
+        },
+        {
+          "frame": 566,
+          "seconds": 18.866666666666667,
+          "mean_absolute_yuv_difference": 0.019654706790123457,
+          "maximum_component_difference": 12,
+          "changed_components": 44686
+        },
+        {
+          "frame": 567,
+          "seconds": 18.9,
+          "mean_absolute_yuv_difference": 0.05665734310699588,
+          "maximum_component_difference": 16,
+          "changed_components": 117413
+        },
+        {
+          "frame": 568,
+          "seconds": 18.933333333333334,
+          "mean_absolute_yuv_difference": 0.014828317901234568,
+          "maximum_component_difference": 16,
+          "changed_components": 30565
+        },
+        {
+          "frame": 569,
+          "seconds": 18.966666666666665,
+          "mean_absolute_yuv_difference": 0.10844650205761316,
+          "maximum_component_difference": 18,
+          "changed_components": 221238
+        },
+        {
+          "frame": 570,
+          "seconds": 19.0,
+          "mean_absolute_yuv_difference": 0.043984696502057614,
+          "maximum_component_difference": 17,
+          "changed_components": 88180
+        },
+        {
+          "frame": 571,
+          "seconds": 19.033333333333335,
+          "mean_absolute_yuv_difference": 0.17674672067901234,
+          "maximum_component_difference": 21,
+          "changed_components": 378200
+        },
+        {
+          "frame": 572,
+          "seconds": 19.066666666666666,
+          "mean_absolute_yuv_difference": 0.1747482638888889,
+          "maximum_component_difference": 20,
+          "changed_components": 360925
+        }
+      ],
+      "v02_audio_hash": "SHA256=81aaafb6f48e705fa22a5b4ceffe0c6a34a864e3ba801fc54ebdf18456f57db2",
+      "v03_audio_hash": "SHA256=81aaafb6f48e705fa22a5b4ceffe0c6a34a864e3ba801fc54ebdf18456f57db2",
+      "audio_identical": true,
+      "exact_pixel_equality": false,
+      "user_authorized_recompression": true
+    },
+    {
+      "id": "T3",
+      "compared_frames": 550,
+      "pixel_identical_frames": 541,
+      "changed_frames": 9,
+      "first_changed_frame": 541,
+      "last_changed_frame": 549,
+      "mean_absolute_difference_all_pre_cta_frames": 0.00011678357650579873,
+      "maximum_component_difference": 12,
+      "changed_rows": [
+        {
+          "frame": 541,
+          "seconds": 18.033333333333335,
+          "mean_absolute_yuv_difference": 0.0012522505144032922,
+          "maximum_component_difference": 9,
+          "changed_components": 2756
+        },
+        {
+          "frame": 542,
+          "seconds": 18.066666666666666,
+          "mean_absolute_yuv_difference": 0.0021331661522633744,
+          "maximum_component_difference": 9,
+          "changed_components": 5076
+        },
+        {
+          "frame": 543,
+          "seconds": 18.1,
+          "mean_absolute_yuv_difference": 0.003472222222222222,
+          "maximum_component_difference": 9,
+          "changed_components": 9231
+        },
+        {
+          "frame": 544,
+          "seconds": 18.133333333333333,
+          "mean_absolute_yuv_difference": 0.005002572016460905,
+          "maximum_component_difference": 9,
+          "changed_components": 12805
+        },
+        {
+          "frame": 545,
+          "seconds": 18.166666666666668,
+          "mean_absolute_yuv_difference": 0.00629050925925926,
+          "maximum_component_difference": 9,
+          "changed_components": 16675
+        },
+        {
+          "frame": 546,
+          "seconds": 18.2,
+          "mean_absolute_yuv_difference": 0.007811856995884774,
+          "maximum_component_difference": 9,
+          "changed_components": 19943
+        },
+        {
+          "frame": 547,
+          "seconds": 18.233333333333334,
+          "mean_absolute_yuv_difference": 0.010443029835390947,
+          "maximum_component_difference": 9,
+          "changed_components": 27168
+        },
+        {
+          "frame": 548,
+          "seconds": 18.266666666666666,
+          "mean_absolute_yuv_difference": 0.01219457304526749,
+          "maximum_component_difference": 9,
+          "changed_components": 31999
+        },
+        {
+          "frame": 549,
+          "seconds": 18.3,
+          "mean_absolute_yuv_difference": 0.015630787037037037,
+          "maximum_component_difference": 12,
+          "changed_components": 37622
+        }
+      ],
+      "v02_audio_hash": "SHA256=651c64d2a9a4df377ea7f213df1948a17af96d17bf04e2d63a2b6822ae9c4edd",
+      "v03_audio_hash": "SHA256=651c64d2a9a4df377ea7f213df1948a17af96d17bf04e2d63a2b6822ae9c4edd",
+      "audio_identical": true,
+      "exact_pixel_equality": false,
+      "user_authorized_recompression": true
+    }
+  ]
+}
