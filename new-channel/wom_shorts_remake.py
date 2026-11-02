@@ -13,7 +13,8 @@ import numpy as np
 import soundfile as sf
 
 REPO = Path(__file__).resolve().parent
-REQUEST = REPO / 'wom_ショート作り直し依頼_旧型5本_20261102.md'
+# Freeze the approved 49-word P1R; later unapproved proposals must not replace it.
+REQUEST = REPO / 'research/wom_ショート作り直し_承認台本_v01_20261102.md'
 ROOT = Path('/Volumes/ESD-02/新チャンネル/ショート/作り直し_v01_20261102')
 MODELS = Path('/Users/ryo/Desktop/BGM/_共通/音声モデル/Kokoro82M_v1')
 MEDIA = Path('/Users/ryo/Desktop/新チャンネル')

@@ -1,0 +1,773 @@
+[
+  {
+    "id": "A1R",
+    "path": "/Volumes/ESD-02/新チャンネル/ショート/作り直し_v01_20261102/deliverables/QO_short_remake_A1R_v01.mp4",
+    "sha256": "07d5ddad427626492426a25a54b621043c71743cffbb8f4ba9572b6a72fd6da2",
+    "bytes": 14771447,
+    "video_duration": 22.366666666666667,
+    "container_duration": 22.366667,
+    "video_format": {
+      "codec_name": "h264",
+      "profile": "High",
+      "pix_fmt": "yuv420p",
+      "width": 1080,
+      "height": 1920,
+      "r_frame_rate": "30/1",
+      "nb_frames": "671"
+    },
+    "continuous_decode_warning_count": 0,
+    "audio": {
+      "input_i": "-14.02",
+      "input_tp": "-1.86",
+      "input_lra": "16.30",
+      "input_thresh": "-25.36",
+      "output_i": "-14.11",
+      "output_tp": "-1.66",
+      "output_lra": "2.30",
+      "output_thresh": "-24.95",
+      "normalization_type": "dynamic",
+      "target_offset": "0.11"
+    },
+    "voice_onset": 0.08,
+    "native_voice_end": 19.84125,
+    "last_voice_activity": 19.53,
+    "cta_start": 19.866666666666667,
+    "cta_end": 22.366666666666667,
+    "cta_duration": 2.5,
+    "cta_horizontal_scale": 1,
+    "caption_text_exact": true,
+    "cross_sentence_caption_count": 0,
+    "subtitle_contrast": [
+      {
+        "page": 0,
+        "text": "Who really judged the dead?",
+        "frame": 29,
+        "contrast_ratio": 6.55051974918388,
+        "minimum_text_luminance": 0.7496924156500642,
+        "maximum_background_luminance": 0.0720807579046986
+      },
+      {
+        "page": 1,
+        "text": "Not Anubis alone.",
+        "frame": 86,
+        "contrast_ratio": 5.873308307440708,
+        "minimum_text_luminance": 0.681752441024277,
+        "maximum_background_luminance": 0.0745894822339299
+      },
+      {
+        "page": 2,
+        "text": "On this",
+        "frame": 119,
+        "contrast_ratio": 15.561798315991473,
+        "minimum_text_luminance": 0.7852071624814094,
+        "maximum_background_luminance": 0.003670350014955629
+      },
+      {
+        "page": 3,
+        "text": "Egyptian papyrus, the heart is weighed on a scale.",
+        "frame": 181,
+        "contrast_ratio": 14.204699256910358,
+        "minimum_text_luminance": 0.7467247121634651,
+        "maximum_background_luminance": 0.006088812424231468
+      },
+      {
+        "page": 4,
+        "text": "Anubis weighs.",
+        "frame": 262,
+        "contrast_ratio": 12.989903268827591,
+        "minimum_text_luminance": 0.7275509768781555,
+        "maximum_background_luminance": 0.00985810369689794
+      },
+      {
+        "page": 5,
+        "text": "Thoth, the ibis-headed god, records the result.",
+        "frame": 344,
+        "contrast_ratio": 15.461629297263828,
+        "minimum_text_luminance": 0.7784757115182925,
+        "maximum_background_luminance": 0.0035826914221067244
+      },
+      {
+        "page": 6,
+        "text": "And if the scale balanced, Osiris received the dead.",
+        "frame": 461,
+        "contrast_ratio": 11.32474497909036,
+        "minimum_text_luminance": 0.7014257951354087,
+        "maximum_background_luminance": 0.016352557741725473
+      },
+      {
+        "page": 7,
+        "text": "Judgment was a scene with many gods.",
+        "frame": 558,
+        "contrast_ratio": 15.524227943172408,
+        "minimum_text_luminance": 0.7804946744123615,
+        "maximum_background_luminance": 0.00349668128118507
+      }
+    ],
+    "minimum_contrast": 5.873308307440708,
+    "headline_contrast": {
+      "contrast_ratio": 6.194126185295184,
+      "minimum_text_luminance": 0.7584456089158831,
+      "maximum_background_luminance": 0.08051810452863031
+    },
+    "word_count_exceptions": [
+      {
+        "text": "Not Anubis alone.",
+        "lines": [
+          "Not Anubis alone."
+        ],
+        "reason": "Exact sentence boundary takes precedence for short sentences / remainders."
+      },
+      {
+        "text": "On this",
+        "lines": [
+          "On this"
+        ],
+        "reason": "Exact sentence boundary takes precedence for short sentences / remainders."
+      },
+      {
+        "text": "Anubis weighs.",
+        "lines": [
+          "Anubis weighs."
+        ],
+        "reason": "Exact sentence boundary takes precedence for short sentences / remainders."
+      },
+      {
+        "text": "Thoth, the ibis-headed god, records the result.",
+        "lines": [
+          "Thoth, the ibis-headed"
+        ],
+        "reason": "Exact sentence boundary takes precedence for short sentences / remainders."
+      },
+      {
+        "text": "Judgment was a scene with many gods.",
+        "lines": [
+          "with many gods."
+        ],
+        "reason": "Exact sentence boundary takes precedence for short sentences / remainders."
+      }
+    ],
+    "foreground_height_fraction": 0.7708333333333334,
+    "first_evidence_cut": 3.8,
+    "cut_timing_note": "The individual approved phrase cues take precedence over the generic approximately-1.5-second guidance.",
+    "cuts": [
+      {
+        "asset": "met_590939",
+        "start": 0.0,
+        "end": 3.8,
+        "cue": null
+      },
+      {
+        "asset": "met_557657",
+        "start": 3.8,
+        "end": 9.533333333333333,
+        "cue": "On this Egyptian papyrus"
+      },
+      {
+        "asset": "met_552247",
+        "start": 9.533333333333333,
+        "end": 22.366666666666667,
+        "cue": "Thoth the ibisheaded god"
+      }
+    ],
+    "motion": [
+      {
+        "asset_id": "met_590939",
+        "p95_over_median": 1.0349219799181926,
+        "method": "Rendered camera source-coordinate trajectory, per-frame Euclidean displacement; shot boundaries excluded. Not optical flow.",
+        "native_max_scale": 1.037922077922078
+      },
+      {
+        "asset_id": "met_557657",
+        "p95_over_median": 1.0003508440961455,
+        "method": "Rendered camera source-coordinate trajectory, per-frame Euclidean displacement; shot boundaries excluded. Not optical flow.",
+        "native_max_scale": 0.8815588235294117
+      },
+      {
+        "asset_id": "met_552247",
+        "p95_over_median": 1.0133552161729946,
+        "method": "Rendered camera source-coordinate trajectory, per-frame Euclidean displacement; shot boundaries excluded. Not optical flow.",
+        "native_max_scale": 0.8730023094688222
+      }
+    ],
+    "human_full_listening": false,
+    "youtube_posted": false
+  },
+  {
+    "id": "M1R",
+    "path": "/Volumes/ESD-02/新チャンネル/ショート/作り直し_v01_20261102/deliverables/QO_short_remake_M1R_v01.mp4",
+    "sha256": "520116a193df970c7c57f01ce8617b25ee965af33d1af3c7e5f1666e870b0de4",
+    "bytes": 11613723,
+    "video_duration": 22.0,
+    "container_duration": 22.0,
+    "video_format": {
+      "codec_name": "h264",
+      "profile": "High",
+      "pix_fmt": "yuv420p",
+      "width": 1080,
+      "height": 1920,
+      "r_frame_rate": "30/1",
+      "nb_frames": "660"
+    },
+    "continuous_decode_warning_count": 0,
+    "audio": {
+      "input_i": "-14.02",
+      "input_tp": "-2.19",
+      "input_lra": "16.10",
+      "input_thresh": "-25.28",
+      "output_i": "-14.04",
+      "output_tp": "-2.10",
+      "output_lra": "5.00",
+      "output_thresh": "-24.82",
+      "normalization_type": "dynamic",
+      "target_offset": "0.04"
+    },
+    "voice_onset": 0.13,
+    "native_voice_end": 19.472583333333333,
+    "last_voice_activity": 19.16,
+    "cta_start": 19.5,
+    "cta_end": 22.0,
+    "cta_duration": 2.5,
+    "cta_horizontal_scale": 1,
+    "caption_text_exact": true,
+    "cross_sentence_caption_count": 0,
+    "subtitle_contrast": [
+      {
+        "page": 0,
+        "text": "In one of the",
+        "frame": 12,
+        "contrast_ratio": 6.156372171234397,
+        "minimum_text_luminance": 0.7738202589499941,
+        "maximum_background_luminance": 0.08381586363463994
+      },
+      {
+        "page": 1,
+        "text": "oldest accounts of Medusa, there is no curse.",
+        "frame": 81,
+        "contrast_ratio": 5.7563589539753215,
+        "minimum_text_luminance": 0.7322834120508306,
+        "maximum_background_luminance": 0.0858989976659792
+      },
+      {
+        "page": 2,
+        "text": "Around 700 BC, the poet Hesiod says she is simply",
+        "frame": 202,
+        "contrast_ratio": 15.671644749500013,
+        "minimum_text_luminance": 0.7722919544500608,
+        "maximum_background_luminance": 0.0024700481406902163
+      },
+      {
+        "page": 3,
+        "text": "born a Gorgon, the only mortal one of three sisters.",
+        "frame": 336,
+        "contrast_ratio": 12.540565220572143,
+        "minimum_text_luminance": 0.6903612861799218,
+        "maximum_background_luminance": 0.009037313961367366
+      },
+      {
+        "page": 4,
+        "text": "The beautiful young woman whose",
+        "frame": 429,
+        "contrast_ratio": 15.238122907945328,
+        "minimum_text_luminance": 0.7516158409549956,
+        "maximum_background_luminance": 0.002605944039014418
+      },
+      {
+        "page": 5,
+        "text": "hair became snakes comes later, from the Roman poet Ovid.",
+        "frame": 518,
+        "contrast_ratio": 10.566734740247405,
+        "minimum_text_luminance": 0.7054018184662856,
+        "maximum_background_luminance": 0.021488670534053643
+      }
+    ],
+    "minimum_contrast": 5.7563589539753215,
+    "headline_contrast": {
+      "contrast_ratio": 6.289162805443306,
+      "minimum_text_luminance": 0.7497210809227085,
+      "maximum_background_luminance": 0.077158591002056
+    },
+    "word_count_exceptions": [],
+    "foreground_height_fraction": 0.7708333333333334,
+    "first_evidence_cut": 4.6,
+    "cut_timing_note": "The individual approved phrase cues take precedence over the generic approximately-1.5-second guidance.",
+    "cuts": [
+      {
+        "asset": "A24",
+        "start": 0.0,
+        "end": 4.6,
+        "cue": null
+      },
+      {
+        "asset": "A07",
+        "start": 4.6,
+        "end": 16.466666666666665,
+        "cue": "Around 700 BC"
+      },
+      {
+        "asset": "D_timeline",
+        "start": 16.466666666666665,
+        "end": 22.0,
+        "cue": "comes later"
+      }
+    ],
+    "motion": [
+      {
+        "asset_id": "A24",
+        "p95_over_median": 1.0349775151816996,
+        "method": "Rendered camera source-coordinate trajectory, per-frame Euclidean displacement; shot boundaries excluded. Not optical flow.",
+        "native_max_scale": 1.141714285714286
+      },
+      {
+        "asset_id": "A07",
+        "p95_over_median": 1.0133523498093746,
+        "method": "Rendered camera source-coordinate trajectory, per-frame Euclidean displacement; shot boundaries excluded. Not optical flow.",
+        "native_max_scale": 0.36534188034188037
+      },
+      {
+        "asset_id": "D_timeline",
+        "p95_over_median": 1.0133086305034205,
+        "method": "Rendered camera source-coordinate trajectory, per-frame Euclidean displacement; shot boundaries excluded. Not optical flow.",
+        "native_max_scale": 1.03
+      }
+    ],
+    "human_full_listening": false,
+    "youtube_posted": false
+  },
+  {
+    "id": "P1R",
+    "path": "/Volumes/ESD-02/新チャンネル/ショート/作り直し_v01_20261102/deliverables/QO_short_remake_P1R_v01.mp4",
+    "sha256": "bf3c0fb8a6123a6f9d6e619fc8c0e2319e534fddfb5ac5a067f510dae5103e5d",
+    "bytes": 15482952,
+    "video_duration": 24.733333333333334,
+    "container_duration": 24.733333,
+    "video_format": {
+      "codec_name": "h264",
+      "profile": "High",
+      "pix_fmt": "yuv420p",
+      "width": 1080,
+      "height": 1920,
+      "r_frame_rate": "30/1",
+      "nb_frames": "742"
+    },
+    "continuous_decode_warning_count": 0,
+    "audio": {
+      "input_i": "-14.02",
+      "input_tp": "-1.55",
+      "input_lra": "17.40",
+      "input_thresh": "-25.25",
+      "output_i": "-14.19",
+      "output_tp": "-1.66",
+      "output_lra": "2.70",
+      "output_thresh": "-24.97",
+      "normalization_type": "dynamic",
+      "target_offset": "0.19"
+    },
+    "voice_onset": 0.09,
+    "native_voice_end": 22.203958333333333,
+    "last_voice_activity": 21.89,
+    "cta_start": 22.233333333333334,
+    "cta_end": 24.733333333333334,
+    "cta_duration": 2.5,
+    "cta_horizontal_scale": 1,
+    "caption_text_exact": true,
+    "cross_sentence_caption_count": 0,
+    "subtitle_contrast": [
+      {
+        "page": 0,
+        "text": "It was never a box.",
+        "frame": 30,
+        "contrast_ratio": 8.209150343320042,
+        "minimum_text_luminance": 0.7631980012992814,
+        "maximum_background_luminance": 0.04905994741112249
+      },
+      {
+        "page": 1,
+        "text": "In Hesiod's poem, from",
+        "frame": 88,
+        "contrast_ratio": 7.784196421364424,
+        "minimum_text_luminance": 0.748052273044089,
+        "maximum_background_luminance": 0.05252211401728804
+      },
+      {
+        "page": 2,
+        "text": "around 700 BC, Pandora lifts the great lid",
+        "frame": 172,
+        "contrast_ratio": 7.526759780131667,
+        "minimum_text_luminance": 0.7287591029624017,
+        "maximum_background_luminance": 0.053465385599004565
+      },
+      {
+        "page": 3,
+        "text": "of a pithos, a storage jar like this one.",
+        "frame": 287,
+        "contrast_ratio": 8.057929429888917,
+        "minimum_text_luminance": 0.7680834633536369,
+        "maximum_background_luminance": 0.051525270290796614
+      },
+      {
+        "page": 4,
+        "text": "The box came more than two thousand years later.",
+        "frame": 396,
+        "contrast_ratio": 14.803913799816092,
+        "minimum_text_luminance": 0.7722919544500608,
+        "maximum_background_luminance": 0.005545578390241373
+      },
+      {
+        "page": 5,
+        "text": "In 1508, the scholar",
+        "frame": 489,
+        "contrast_ratio": 14.019982087073318,
+        "minimum_text_luminance": 0.7196797433656066,
+        "maximum_background_luminance": 0.004898767957433088
+      },
+      {
+        "page": 6,
+        "text": "Erasmus wrote pyxis, a small box, and the word stuck.",
+        "frame": 599,
+        "contrast_ratio": 14.682397548811604,
+        "minimum_text_luminance": 0.7722919544500608,
+        "maximum_background_luminance": 0.00600529148705807
+      }
+    ],
+    "minimum_contrast": 7.526759780131667,
+    "headline_contrast": {
+      "contrast_ratio": 7.4705396622414915,
+      "minimum_text_luminance": 0.7516158409549956,
+      "maximum_background_luminance": 0.05730360552218466
+    },
+    "word_count_exceptions": [],
+    "foreground_height_fraction": 0.7708333333333334,
+    "first_evidence_cut": 11.466666666666667,
+    "cut_timing_note": "The individual approved phrase cues take precedence over the generic approximately-1.5-second guidance.",
+    "cuts": [
+      {
+        "asset": "A01",
+        "start": 0.0,
+        "end": 11.466666666666667,
+        "cue": null
+      },
+      {
+        "asset": "A12",
+        "start": 11.466666666666667,
+        "end": 21.0,
+        "cue": "The box came"
+      },
+      {
+        "asset": "A10",
+        "start": 21.0,
+        "end": 24.733333333333334,
+        "cue": "and the word stuck"
+      }
+    ],
+    "motion": [
+      {
+        "asset_id": "A01",
+        "p95_over_median": 1.0351346361355735,
+        "method": "Rendered camera source-coordinate trajectory, per-frame Euclidean displacement; shot boundaries excluded. Not optical flow.",
+        "native_max_scale": 0.7135714285714286
+      },
+      {
+        "asset_id": "A12",
+        "p95_over_median": 1.0133430242152506,
+        "method": "Rendered camera source-coordinate trajectory, per-frame Euclidean displacement; shot boundaries excluded. Not optical flow.",
+        "native_max_scale": 1.0724511930585683
+      },
+      {
+        "asset_id": "A10",
+        "p95_over_median": 1.0132688976585407,
+        "method": "Rendered camera source-coordinate trajectory, per-frame Euclidean displacement; shot boundaries excluded. Not optical flow.",
+        "native_max_scale": 0.2268842887473461
+      }
+    ],
+    "human_full_listening": false,
+    "youtube_posted": false
+  },
+  {
+    "id": "T1R",
+    "path": "/Volumes/ESD-02/新チャンネル/ショート/作り直し_v01_20261102/deliverables/QO_short_remake_T1R_v01.mp4",
+    "sha256": "cae24bbc922558c34479b426d6044807787505a67701e1dded4a177faf1b0b5d",
+    "bytes": 12572399,
+    "video_duration": 23.2,
+    "container_duration": 23.2,
+    "video_format": {
+      "codec_name": "h264",
+      "profile": "High",
+      "pix_fmt": "yuv420p",
+      "width": 1080,
+      "height": 1920,
+      "r_frame_rate": "30/1",
+      "nb_frames": "696"
+    },
+    "continuous_decode_warning_count": 0,
+    "audio": {
+      "input_i": "-14.01",
+      "input_tp": "-2.10",
+      "input_lra": "17.10",
+      "input_thresh": "-25.34",
+      "output_i": "-14.15",
+      "output_tp": "-2.17",
+      "output_lra": "3.30",
+      "output_thresh": "-24.97",
+      "normalization_type": "dynamic",
+      "target_offset": "0.15"
+    },
+    "voice_onset": 0.07,
+    "native_voice_end": 20.69325,
+    "last_voice_activity": 20.38,
+    "cta_start": 20.7,
+    "cta_end": 23.2,
+    "cta_duration": 2.5,
+    "cta_horizontal_scale": 1,
+    "caption_text_exact": true,
+    "cross_sentence_caption_count": 0,
+    "subtitle_contrast": [
+      {
+        "page": 0,
+        "text": "Before the long nose, the first tengu was a star.",
+        "frame": 59,
+        "contrast_ratio": 6.824568016334065,
+        "minimum_text_luminance": 0.7591885548801977,
+        "maximum_background_luminance": 0.06856993042540843
+      },
+      {
+        "page": 1,
+        "text": "In the Nihon Shoki, finished in 720, a great star",
+        "frame": 191,
+        "contrast_ratio": 14.351928881542193,
+        "minimum_text_luminance": 0.7722919544500608,
+        "maximum_background_luminance": 0.007294873827559061
+      },
+      {
+        "page": 2,
+        "text": "crosses the sky in 637, with a sound like thunder.",
+        "frame": 346,
+        "contrast_ratio": 11.160369346031393,
+        "minimum_text_luminance": 0.6706189440785573,
+        "maximum_background_luminance": 0.014569453011410244
+      },
+      {
+        "page": 3,
+        "text": "A monk",
+        "frame": 433,
+        "contrast_ratio": 12.674554517059372,
+        "minimum_text_luminance": 0.6907507747967377,
+        "maximum_background_luminance": 0.00844392982804414
+      },
+      {
+        "page": 4,
+        "text": "named Bin says it is not a falling star.",
+        "frame": 487,
+        "contrast_ratio": 11.878144777202278,
+        "minimum_text_luminance": 0.6442054598461588,
+        "maximum_background_luminance": 0.00844392982804414
+      },
+      {
+        "page": 5,
+        "text": "It is a tengu, a celestial dog.",
+        "frame": 578,
+        "contrast_ratio": 10.95307202978458,
+        "minimum_text_luminance": 0.6767643443055597,
+        "maximum_background_luminance": 0.016352557741725473
+      }
+    ],
+    "minimum_contrast": 6.824568016334065,
+    "headline_contrast": {
+      "contrast_ratio": 6.523222449404679,
+      "minimum_text_luminance": 0.7526190697242957,
+      "maximum_background_luminance": 0.07304027280221667
+    },
+    "word_count_exceptions": [
+      {
+        "text": "A monk",
+        "lines": [
+          "A monk"
+        ],
+        "reason": "Exact sentence boundary takes precedence for short sentences / remainders."
+      },
+      {
+        "text": "It is a tengu, a celestial dog.",
+        "lines": [
+          "a celestial dog."
+        ],
+        "reason": "Exact sentence boundary takes precedence for short sentences / remainders."
+      }
+    ],
+    "foreground_height_fraction": 0.7708333333333334,
+    "first_evidence_cut": 3.933333333333333,
+    "cut_timing_note": "The individual approved phrase cues take precedence over the generic approximately-1.5-second guidance.",
+    "cuts": [
+      {
+        "asset": "met_40011_DP206881",
+        "start": 0.0,
+        "end": 3.933333333333333,
+        "cue": null
+      },
+      {
+        "asset": "ndl_1182143_010",
+        "start": 3.933333333333333,
+        "end": 23.2,
+        "cue": "In the Nihon Shoki"
+      }
+    ],
+    "motion": [
+      {
+        "asset_id": "met_40011_DP206881",
+        "p95_over_median": 1.034932802124397,
+        "method": "Rendered camera source-coordinate trajectory, per-frame Euclidean displacement; shot boundaries excluded. Not optical flow.",
+        "native_max_scale": 0.4876651982378855
+      },
+      {
+        "asset_id": "ndl_1182143_010",
+        "p95_over_median": 1.0133669579891293,
+        "method": "Rendered camera source-coordinate trajectory, per-frame Euclidean displacement; shot boundaries excluded. Not optical flow.",
+        "native_max_scale": 0.8877466251298027
+      }
+    ],
+    "human_full_listening": false,
+    "youtube_posted": false
+  },
+  {
+    "id": "A3R",
+    "path": "/Volumes/ESD-02/新チャンネル/ショート/作り直し_v01_20261102/deliverables/QO_short_remake_A3R_v01.mp4",
+    "sha256": "1eedcf6444730d75f34fb1b106c4dce9f9a6bb77af865d3a60b52fa783077185",
+    "bytes": 9873119,
+    "video_duration": 23.2,
+    "container_duration": 23.2,
+    "video_format": {
+      "codec_name": "h264",
+      "profile": "High",
+      "pix_fmt": "yuv420p",
+      "width": 1080,
+      "height": 1920,
+      "r_frame_rate": "30/1",
+      "nb_frames": "696"
+    },
+    "continuous_decode_warning_count": 0,
+    "audio": {
+      "input_i": "-14.02",
+      "input_tp": "-2.04",
+      "input_lra": "17.40",
+      "input_thresh": "-25.27",
+      "output_i": "-14.17",
+      "output_tp": "-2.30",
+      "output_lra": "3.10",
+      "output_thresh": "-24.91",
+      "normalization_type": "dynamic",
+      "target_offset": "0.17"
+    },
+    "voice_onset": 0.07,
+    "native_voice_end": 20.699958333333335,
+    "last_voice_activity": 20.38,
+    "cta_start": 20.7,
+    "cta_end": 23.2,
+    "cta_duration": 2.5,
+    "cta_horizontal_scale": 1,
+    "caption_text_exact": true,
+    "cross_sentence_caption_count": 0,
+    "subtitle_contrast": [
+      {
+        "page": 0,
+        "text": "Why does Anubis have the head of a canine?",
+        "frame": 48,
+        "contrast_ratio": 7.178341097767039,
+        "minimum_text_luminance": 0.7450843812992807,
+        "maximum_background_luminance": 0.060761577148598714
+      },
+      {
+        "page": 1,
+        "text": "One idea, noted by the museum, starts in the cemeteries.",
+        "frame": 173,
+        "contrast_ratio": 6.741450411419918,
+        "minimum_text_luminance": 0.6950285443637824,
+        "maximum_background_luminance": 0.0605145775605966
+      },
+      {
+        "page": 2,
+        "text": "Canines roamed ancient burial grounds and could disturb the dead.",
+        "frame": 322,
+        "contrast_ratio": 14.626382738847068,
+        "minimum_text_luminance": 0.7722919544500608,
+        "maximum_background_luminance": 0.006219775533843197
+      },
+      {
+        "page": 3,
+        "text": "But a",
+        "frame": 399,
+        "contrast_ratio": 10.413602085983335,
+        "minimum_text_luminance": 0.6802057989519166,
+        "maximum_background_luminance": 0.020120386099135718
+      },
+      {
+        "page": 4,
+        "text": "watchful canine could also be imagined as their guardian.",
+        "frame": 469,
+        "contrast_ratio": 14.160541926162589,
+        "minimum_text_luminance": 0.7470051806654184,
+        "maximum_background_luminance": 0.006283522538985307
+      },
+      {
+        "page": 5,
+        "text": "It is an interpretation, not proof.",
+        "frame": 578,
+        "contrast_ratio": 11.54731892561441,
+        "minimum_text_luminance": 0.6786593703718942,
+        "maximum_background_luminance": 0.013102039102390477
+      }
+    ],
+    "minimum_contrast": 6.741450411419918,
+    "headline_contrast": {
+      "contrast_ratio": 12.189045753073806,
+      "minimum_text_luminance": 0.7530656073378726,
+      "maximum_background_luminance": 0.015884206492157715
+    },
+    "word_count_exceptions": [
+      {
+        "text": "But a",
+        "lines": [
+          "But a"
+        ],
+        "reason": "Exact sentence boundary takes precedence for short sentences / remainders."
+      },
+      {
+        "text": "It is an interpretation, not proof.",
+        "lines": [
+          "not proof."
+        ],
+        "reason": "Exact sentence boundary takes precedence for short sentences / remainders."
+      }
+    ],
+    "foreground_height_fraction": 0.7708333333333334,
+    "first_evidence_cut": 8.333333333333334,
+    "cut_timing_note": "The individual approved phrase cues take precedence over the generic approximately-1.5-second guidance.",
+    "cuts": [
+      {
+        "asset": "met_570223",
+        "start": 0.0,
+        "end": 8.333333333333334,
+        "cue": null
+      },
+      {
+        "asset": "met_544075",
+        "start": 8.333333333333334,
+        "end": 23.2,
+        "cue": "Canines roamed"
+      }
+    ],
+    "motion": [
+      {
+        "asset_id": "met_570223",
+        "p95_over_median": 1.0350951902612324,
+        "method": "Rendered camera source-coordinate trajectory, per-frame Euclidean displacement; shot boundaries excluded. Not optical flow.",
+        "native_max_scale": 1.5678
+      },
+      {
+        "asset_id": "met_544075",
+        "p95_over_median": 1.000000000000077,
+        "method": "Rendered camera source-coordinate trajectory, per-frame Euclidean displacement; shot boundaries excluded. Not optical flow.",
+        "native_max_scale": 0.5263157894736842
+      }
+    ],
+    "human_full_listening": false,
+    "youtube_posted": false
+  }
+]
