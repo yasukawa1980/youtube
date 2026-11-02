@@ -63,6 +63,8 @@ def audit(ids):
   assert all(r['glyph_height']==52 for c in cs for r in c['rows'])
   result[-1]['caption_glyph_height']=52
   result[-1]['caption_rows']=[dict(text=r['text'],first_word=r['text'].split()[0],last_word=r['text'].split()[-1],glyph_height=r['glyph_height'],bbox=r['glyph_bbox']) for c in cs for r in c['rows']]
+  result[-1]['source_coordinate_velocity_diagnostic']=result[-1].pop('motion')
+  result[-1]['motion_note']='Final displayed-pixel smoothness is evaluated separately in final_pixel_motion.json. Source-coordinate velocity changes during a zoom are not equivalent to displayed-pixel speed.'
   print('QC',sid,'PASS',min(c['contrast_ratio'] for c in cr),audio['input_i'],audio['input_tp'],flush=True)
  prior=read(ROOT/'records/final_qc.json') if (ROOT/'records/final_qc.json').exists() else []
  save(ROOT/'records/final_qc.json',[r for r in prior if r['id'] not in ids]+result)

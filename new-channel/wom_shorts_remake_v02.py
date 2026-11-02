@@ -85,12 +85,12 @@ def visuals():
    im=Image.open(g['source']['path']).convert('RGB');im=ImageOps.colorize(ImageOps.autocontrast(ImageOps.grayscale(im),cutoff=.2),black='#443422',white='#f1e4c7');im.save(g['file']);w,h=im.size
    full=[0,0,w,h];band=[round(v*d) for v,d in zip(g['source']['main']['detail_crop_normalized'],[w,h,w,h])]
    close=[360,1133,990,1287];when=v1.phrase_frame(s,'In 1508')
-   g['keyframes']=[dict(frame=g['start_frame'],rect=full,viewport=view(full)),dict(frame=max(g['start_frame']+30,when-30),rect=band,viewport=view(band)),dict(frame=when+15,rect=close,viewport=view(close)),dict(frame=g['end_frame']-1,rect=[365,1135,995,1289],viewport=view(close))];g['zoom_end']=1
+   g['keyframes']=[dict(frame=g['start_frame'],rect=full,viewport=view(full)),dict(frame=max(g['start_frame']+30,when-30),rect=band,viewport=view(band)),dict(frame=when+15,rect=close,viewport=view(close)),dict(frame=g['end_frame']-1,rect=[560,1133,1190,1287],viewport=view(close))];g['zoom_end']=1
    details.append(dict(id=sid,asset=aid,main_crop=band,keyframes=g['keyframes'],note='Original shows inflected Pixide / Pixidem, not the dictionary form pyxis. Both lie in the main-film detail rectangle.'))
   elif aid=='ndl_1182143_010':
-   full=[4200,900,5820,4650];monk=[4400,1400,5020,3350];tengu=[round(v*d) for v,d in zip([.60,.565,.655,.745],[7616,5352,7616,5352])]
+   full=[3900,700,6100,5000];monk=[4400,1400,5020,3350];tengu=[round(v*d) for v,d in zip([.60,.565,.655,.745],[7616,5352,7616,5352])]
    a=v1.phrase_frame(s,'A monk named Bin');b=v1.phrase_frame(s,'It is a tengu')
-   g['keyframes']=[dict(frame=g['start_frame'],rect=full,viewport=view(full)),dict(frame=a,rect=monk,viewport=view(monk)),dict(frame=b,rect=tengu,viewport=view(tengu)),dict(frame=g['end_frame']-1,rect=[tengu[0]+4,tengu[1]+5,tengu[2]-4,tengu[3]-5],viewport=view(tengu))];g['zoom_end']=1
+   g['keyframes']=[dict(frame=g['start_frame'],rect=full,viewport=view(full)),dict(frame=a,rect=monk,viewport=view(monk)),dict(frame=b,rect=tengu,viewport=view(tengu)),dict(frame=g['end_frame']-1,rect=full,viewport=view(full))];g['zoom_end']=1
    details.append(dict(id=sid,asset=aid,main_crop=tengu,keyframes=g['keyframes'],note='九年春二月…大星從東流西 / 時人曰…僧旻曰非流星是天狗也. Original page read visually.'))
   if 'keyframes' in g:
    g['native_max_scale']=max(max(k['viewport'][2]/(k['rect'][2]-k['rect'][0]),k['viewport'][3]/(k['rect'][3]-k['rect'][1])) for k in g['keyframes']);assert g['native_max_scale']<=1.601
@@ -111,6 +111,8 @@ def frame_art(g,frac,loaded):
  if 'keyframes' in g:
   n=g['start_frame']+frac*(g['frames']-1);ks=g['keyframes'];i=min(len(ks)-2,max(0,next((j-1 for j,k in enumerate(ks) if k['frame']>n),len(ks)-2)))
   a,b=ks[i],ks[i+1];t=np.clip((n-a['frame'])/max(1,b['frame']-a['frame']),0,1)
+  if g['asset_id']=='ndl_1182143_010':
+   ah=a['rect'][3]-a['rect'][1];bh=b['rect'][3]-b['rect'][1];t=ah*t/(bh+(ah-bh)*t)
   rect=np.array(a['rect'])+(np.array(b['rect'])-a['rect'])*t;vp=np.array(a['viewport'])+(np.array(b['viewport'])-a['viewport'])*t;x,y,w,h=map(lambda v:round(float(v)),vp)
  else:
   x,y,w,h=g['viewport'];a=np.array(g['crop_start'],float);b=np.array(g['crop_end'],float);c=a+(b-a)*frac;z=math.exp(math.log(g['zoom_end'])*frac);cx=(c[0]+c[2])/2;cy=(c[1]+c[3])/2;cw=(c[2]-c[0])/z;ch=(c[3]-c[1])/z;rect=[cx-cw/2,cy-ch/2,cx+cw/2,cy+ch/2]
