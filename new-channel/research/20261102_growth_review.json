@@ -1,0 +1,1766 @@
+{
+  "schema_version": 1,
+  "document_type": "one_off_read_only_audit_not_production_configuration",
+  "channel_id": "UCfLJOojEY9VB3rvrjICk90Q",
+  "observed_date_jst": "2026-11-02",
+  "observation_time_note": "15時台JSTの同一調査セッション。各画面の正確な取得秒は保存していない。",
+  "source_commit": "c738d324b5aace4a7d0dc4a382e68f71787b6e49",
+  "sources": [
+    "YouTube Studio rendered analytics tables read through browser UI",
+    "GitHub bgm/production posting and production records",
+    "Local filesystem read-only media checks"
+  ],
+  "windows": {
+    "studio_28d_display": {
+      "label": "2026/10/04〜2026/10/31 過去28日間",
+      "note": "Includes later-published or private videos on screen. Boundary not corrected by inference; not age-matched."
+    },
+    "S3_since_publish": {
+      "label": "2026/11/01〜現在 公開後"
+    }
+  },
+  "user_supplied_snapshot": {
+    "overview_views": 4363,
+    "monthly_audience": 859,
+    "watch_hours": 8.8,
+    "shorts_engaged_views": 882,
+    "likes": 44,
+    "subscribers_net_change": 4,
+    "stayed_pct": 19.9,
+    "realtime_48h_views": 2374,
+    "note": "Different periods and definitions; preserved separately."
+  },
+  "channel_observed": {
+    "shorts_views": 4293,
+    "shorts_engaged_views": 882,
+    "shorts_stayed_pct": 20.0,
+    "shorts_likes": 44,
+    "shorts_subscribers_net_change": 3,
+    "shorts_subscribers_gained": 5,
+    "main_views": 73,
+    "main_thumbnail_impressions": 1030,
+    "main_thumbnail_ctr_pct": 2.2,
+    "main_average_view_duration_seconds_displayed": 145
+  },
+  "shorts": [
+    {
+      "episode_id": "EP001",
+      "short_id": "A1",
+      "youtube_video_id": "aRnxgw2Xykg",
+      "title": "Anubis Never Judged the Dead Alone",
+      "views": 1142,
+      "engaged_views": 61,
+      "stayed_to_watch_pct": 4.8,
+      "average_view_duration_seconds_displayed": 19,
+      "average_view_percentage": 102.9,
+      "thumbnail_impressions": 528,
+      "thumbnail_ctr_pct": 0.6,
+      "subscribers_gained": 0,
+      "scheduled_publication_jst_from_records": "2026-10-24T18:00:00+09:00",
+      "parent_video_id": "AanbRJfeGxo",
+      "format": "short",
+      "window_id": "studio_28d_display",
+      "likes": null,
+      "comments": null,
+      "shorts_feed_opportunities": null,
+      "direct_parent_clicks": null,
+      "opening_style_from_production_records": "legacy"
+    },
+    {
+      "episode_id": "EP001",
+      "short_id": "A2",
+      "youtube_video_id": "ZhmZBqhWq4Q",
+      "title": "Not Just a Feather on the Scale of Judgment",
+      "views": 171,
+      "engaged_views": 14,
+      "stayed_to_watch_pct": 7.3,
+      "average_view_duration_seconds_displayed": 11,
+      "average_view_percentage": 63.6,
+      "thumbnail_impressions": 17,
+      "thumbnail_ctr_pct": 0,
+      "subscribers_gained": 0,
+      "scheduled_publication_jst_from_records": "2026-10-26T12:00:00+09:00",
+      "parent_video_id": "AanbRJfeGxo",
+      "format": "short",
+      "window_id": "studio_28d_display",
+      "likes": null,
+      "comments": null,
+      "shorts_feed_opportunities": null,
+      "direct_parent_clicks": null,
+      "opening_style_from_production_records": "legacy"
+    },
+    {
+      "episode_id": "EP001",
+      "short_id": "A3",
+      "youtube_video_id": "THd4RPvFtxk",
+      "title": "Why Does Anubis Have a Canine Head?",
+      "views": 42,
+      "engaged_views": 12,
+      "stayed_to_watch_pct": 29.3,
+      "average_view_duration_seconds_displayed": 11,
+      "average_view_percentage": 60.9,
+      "thumbnail_impressions": 313,
+      "thumbnail_ctr_pct": 0.3,
+      "subscribers_gained": 0,
+      "scheduled_publication_jst_from_records": "2026-10-27T18:00:00+09:00",
+      "parent_video_id": "AanbRJfeGxo",
+      "format": "short",
+      "window_id": "studio_28d_display",
+      "likes": null,
+      "comments": null,
+      "shorts_feed_opportunities": null,
+      "direct_parent_clicks": null,
+      "opening_style_from_production_records": "legacy"
+    },
+    {
+      "episode_id": "EP002",
+      "short_id": "H1",
+      "youtube_video_id": "4OQKyH8HzhU",
+      "title": "There Was No Celtic God Called Samhain",
+      "views": 202,
+      "engaged_views": 17,
+      "stayed_to_watch_pct": 6.6,
+      "average_view_duration_seconds_displayed": 9,
+      "average_view_percentage": 47.7,
+      "thumbnail_impressions": 615,
+      "thumbnail_ctr_pct": 1.1,
+      "subscribers_gained": 0,
+      "scheduled_publication_jst_from_records": "2026-10-24T12:00:00+09:00",
+      "parent_video_id": "cKOVplspPvE",
+      "format": "short",
+      "window_id": "studio_28d_display",
+      "likes": null,
+      "comments": null,
+      "shorts_feed_opportunities": null,
+      "direct_parent_clicks": null,
+      "opening_style_from_production_records": "legacy"
+    },
+    {
+      "episode_id": "EP002",
+      "short_id": "H2",
+      "youtube_video_id": "tWYc1dg_GkU",
+      "title": "The First Jack-o'-Lanterns Weren't Pumpkins",
+      "views": 118,
+      "engaged_views": 12,
+      "stayed_to_watch_pct": 10.1,
+      "average_view_duration_seconds_displayed": 10,
+      "average_view_percentage": 60,
+      "thumbnail_impressions": 126,
+      "thumbnail_ctr_pct": 1.6,
+      "subscribers_gained": 0,
+      "scheduled_publication_jst_from_records": "2026-10-25T18:00:00+09:00",
+      "parent_video_id": "cKOVplspPvE",
+      "format": "short",
+      "window_id": "studio_28d_display",
+      "likes": null,
+      "comments": null,
+      "shorts_feed_opportunities": null,
+      "direct_parent_clicks": null,
+      "opening_style_from_production_records": "legacy"
+    },
+    {
+      "episode_id": "EP002",
+      "short_id": "H3",
+      "youtube_video_id": "HQPJsvC7-9Q",
+      "title": "Why Is It Called Halloween?",
+      "views": 188,
+      "engaged_views": 16,
+      "stayed_to_watch_pct": 6.7,
+      "average_view_duration_seconds_displayed": 19,
+      "average_view_percentage": 110.2,
+      "thumbnail_impressions": 716,
+      "thumbnail_ctr_pct": 0.7,
+      "subscribers_gained": 0,
+      "scheduled_publication_jst_from_records": "2026-10-26T18:00:00+09:00",
+      "parent_video_id": "cKOVplspPvE",
+      "format": "short",
+      "window_id": "studio_28d_display",
+      "likes": null,
+      "comments": null,
+      "shorts_feed_opportunities": null,
+      "direct_parent_clicks": null,
+      "opening_style_from_production_records": "legacy"
+    },
+    {
+      "episode_id": "EP003",
+      "short_id": "M1",
+      "youtube_video_id": "bpYa64ygMpk",
+      "title": "Medusa Wasn't Always Cursed",
+      "views": 208,
+      "engaged_views": 21,
+      "stayed_to_watch_pct": 9.2,
+      "average_view_duration_seconds_displayed": 16,
+      "average_view_percentage": 84.4,
+      "thumbnail_impressions": 364,
+      "thumbnail_ctr_pct": 1.1,
+      "subscribers_gained": 0,
+      "scheduled_publication_jst_from_records": "2026-10-25T12:00:00+09:00",
+      "parent_video_id": "uUMStOFL-68",
+      "format": "short",
+      "window_id": "studio_28d_display",
+      "likes": null,
+      "comments": null,
+      "shorts_feed_opportunities": null,
+      "direct_parent_clicks": null,
+      "opening_style_from_production_records": "legacy"
+    },
+    {
+      "episode_id": "EP003",
+      "short_id": "M2",
+      "youtube_video_id": "yp54F7xY1C0",
+      "title": "Why Put a Monster's Face on a Roof?",
+      "views": 304,
+      "engaged_views": 35,
+      "stayed_to_watch_pct": 10.8,
+      "average_view_duration_seconds_displayed": 12,
+      "average_view_percentage": 69.6,
+      "thumbnail_impressions": 65,
+      "thumbnail_ctr_pct": 4.6,
+      "subscribers_gained": 0,
+      "scheduled_publication_jst_from_records": "2026-10-27T12:00:00+09:00",
+      "parent_video_id": "uUMStOFL-68",
+      "format": "short",
+      "window_id": "studio_28d_display",
+      "likes": null,
+      "comments": null,
+      "shorts_feed_opportunities": null,
+      "direct_parent_clicks": null,
+      "opening_style_from_production_records": "legacy"
+    },
+    {
+      "episode_id": "EP003",
+      "short_id": "M3",
+      "youtube_video_id": "Z9aVsJcQ7e8",
+      "title": "The Beautiful, Sleeping Medusa",
+      "views": 161,
+      "engaged_views": 59,
+      "stayed_to_watch_pct": 38.3,
+      "average_view_duration_seconds_displayed": 13,
+      "average_view_percentage": 63.5,
+      "thumbnail_impressions": 129,
+      "thumbnail_ctr_pct": 0.8,
+      "subscribers_gained": 1,
+      "scheduled_publication_jst_from_records": "2026-10-28T12:00:00+09:00",
+      "parent_video_id": "uUMStOFL-68",
+      "format": "short",
+      "window_id": "studio_28d_display",
+      "likes": null,
+      "comments": null,
+      "shorts_feed_opportunities": null,
+      "direct_parent_clicks": null,
+      "opening_style_from_production_records": "legacy"
+    },
+    {
+      "episode_id": "EP004",
+      "short_id": "P1",
+      "youtube_video_id": "QZaXbtgMum8",
+      "title": "Pandora's Box Was a Jar",
+      "views": 204,
+      "engaged_views": 67,
+      "stayed_to_watch_pct": 36.4,
+      "average_view_duration_seconds_displayed": 15,
+      "average_view_percentage": 76.4,
+      "thumbnail_impressions": 58,
+      "thumbnail_ctr_pct": 0,
+      "subscribers_gained": 2,
+      "scheduled_publication_jst_from_records": "2026-10-28T18:00:00+09:00",
+      "parent_video_id": "iZl_31zW2sU",
+      "format": "short",
+      "window_id": "studio_28d_display",
+      "likes": null,
+      "comments": null,
+      "shorts_feed_opportunities": null,
+      "direct_parent_clicks": null,
+      "opening_style_from_production_records": "legacy"
+    },
+    {
+      "episode_id": "EP004",
+      "short_id": "P2",
+      "youtube_video_id": "7HIhIHSKK7M",
+      "title": "How Pandora's Jar Became a Box",
+      "views": 67,
+      "engaged_views": 20,
+      "stayed_to_watch_pct": 31.8,
+      "average_view_duration_seconds_displayed": 16,
+      "average_view_percentage": 79.6,
+      "thumbnail_impressions": 165,
+      "thumbnail_ctr_pct": 1.2,
+      "subscribers_gained": 0,
+      "scheduled_publication_jst_from_records": "2026-10-29T12:00:00+09:00",
+      "parent_video_id": "iZl_31zW2sU",
+      "format": "short",
+      "window_id": "studio_28d_display",
+      "likes": null,
+      "comments": null,
+      "shorts_feed_opportunities": null,
+      "direct_parent_clicks": null,
+      "opening_style_from_production_records": "legacy"
+    },
+    {
+      "episode_id": "EP004",
+      "short_id": "P3",
+      "youtube_video_id": "WjlsWa2Md7Q",
+      "title": "Why Did Hope Stay in Pandora's Jar?",
+      "views": 373,
+      "engaged_views": 111,
+      "stayed_to_watch_pct": 28.4,
+      "average_view_duration_seconds_displayed": 14,
+      "average_view_percentage": 70.1,
+      "thumbnail_impressions": 78,
+      "thumbnail_ctr_pct": 2.6,
+      "subscribers_gained": 0,
+      "scheduled_publication_jst_from_records": "2026-10-29T18:00:00+09:00",
+      "parent_video_id": "iZl_31zW2sU",
+      "format": "short",
+      "window_id": "studio_28d_display",
+      "likes": null,
+      "comments": null,
+      "shorts_feed_opportunities": null,
+      "direct_parent_clicks": null,
+      "opening_style_from_production_records": "legacy"
+    },
+    {
+      "episode_id": "EP005",
+      "short_id": "T1",
+      "youtube_video_id": "L2GOO_QTrqo",
+      "title": "The First Tengu Was a Star",
+      "views": 26,
+      "engaged_views": 9,
+      "stayed_to_watch_pct": 60,
+      "average_view_duration_seconds_displayed": 28,
+      "average_view_percentage": 138.1,
+      "thumbnail_impressions": 81,
+      "thumbnail_ctr_pct": 4.9,
+      "subscribers_gained": 0,
+      "scheduled_publication_jst_from_records": "2026-10-30T12:00:00+09:00",
+      "parent_video_id": "poT3TlC7iWI",
+      "format": "short",
+      "window_id": "studio_28d_display",
+      "likes": null,
+      "comments": null,
+      "shorts_feed_opportunities": null,
+      "direct_parent_clicks": null,
+      "opening_style_from_production_records": "legacy"
+    },
+    {
+      "episode_id": "EP005",
+      "short_id": "T2",
+      "youtube_video_id": "vwwpF1seseI",
+      "title": "The Tengu Never Stopped Being a Bird",
+      "views": 64,
+      "engaged_views": 9,
+      "stayed_to_watch_pct": 11.7,
+      "average_view_duration_seconds_displayed": 11,
+      "average_view_percentage": 56.9,
+      "thumbnail_impressions": 58,
+      "thumbnail_ctr_pct": 3.5,
+      "subscribers_gained": 0,
+      "scheduled_publication_jst_from_records": "2026-10-30T18:00:00+09:00",
+      "parent_video_id": "poT3TlC7iWI",
+      "format": "short",
+      "window_id": "studio_28d_display",
+      "likes": null,
+      "comments": null,
+      "shorts_feed_opportunities": null,
+      "direct_parent_clicks": null,
+      "opening_style_from_production_records": "legacy"
+    },
+    {
+      "episode_id": "EP005",
+      "short_id": "T3",
+      "youtube_video_id": "S66NV_CTVZY",
+      "title": "The Buddha in the Persimmon Tree",
+      "views": 2,
+      "engaged_views": 0,
+      "stayed_to_watch_pct": null,
+      "average_view_duration_seconds_displayed": null,
+      "average_view_percentage": null,
+      "thumbnail_impressions": 49,
+      "thumbnail_ctr_pct": 0,
+      "subscribers_gained": 0,
+      "scheduled_publication_jst_from_records": "2026-10-31T12:00:00+09:00",
+      "parent_video_id": "poT3TlC7iWI",
+      "format": "short",
+      "window_id": "studio_28d_display",
+      "likes": null,
+      "comments": null,
+      "shorts_feed_opportunities": null,
+      "direct_parent_clicks": null,
+      "opening_style_from_production_records": "legacy"
+    },
+    {
+      "episode_id": "EP006",
+      "short_id": "S1",
+      "youtube_video_id": "R-p7fqxAWwE",
+      "title": "The Sphinx's Riddle Isn't in the Play",
+      "views": 179,
+      "engaged_views": 38,
+      "stayed_to_watch_pct": 19.6,
+      "average_view_duration_seconds_displayed": 11,
+      "average_view_percentage": 54.5,
+      "thumbnail_impressions": 23,
+      "thumbnail_ctr_pct": 4.4,
+      "subscribers_gained": 0,
+      "scheduled_publication_jst_from_records": "2026-10-31T18:00:00+09:00",
+      "parent_video_id": "YKM_fjRLt9E",
+      "format": "short",
+      "window_id": "studio_28d_display",
+      "likes": null,
+      "comments": null,
+      "shorts_feed_opportunities": null,
+      "direct_parent_clicks": null,
+      "opening_style_from_production_records": "conclusion_headline_full_frame"
+    },
+    {
+      "episode_id": "EP006",
+      "short_id": "S2",
+      "youtube_video_id": "vGCbrzm6MIo",
+      "title": "The Great Sphinx Isn't a Woman",
+      "views": 842,
+      "engaged_views": 381,
+      "stayed_to_watch_pct": 51.6,
+      "average_view_duration_seconds_displayed": 37,
+      "average_view_percentage": 196.9,
+      "thumbnail_impressions": 10,
+      "thumbnail_ctr_pct": 0,
+      "subscribers_gained": 2,
+      "scheduled_publication_jst_from_records": "2026-11-01T12:00:00+09:00",
+      "parent_video_id": "YKM_fjRLt9E",
+      "format": "short",
+      "window_id": "studio_28d_display",
+      "likes": null,
+      "comments": null,
+      "shorts_feed_opportunities": null,
+      "direct_parent_clicks": null,
+      "opening_style_from_production_records": "conclusion_headline_full_frame"
+    },
+    {
+      "episode_id": "EP006",
+      "short_id": "S3",
+      "youtube_video_id": "gB1Fq47ErW0",
+      "title": "The Sphinx Lost Its Nose Before Napoleon",
+      "views": 1109,
+      "engaged_views": 406,
+      "stayed_to_watch_pct": 39.8,
+      "average_view_duration_seconds_displayed": 17,
+      "average_view_percentage": null,
+      "subscribers_gained": null,
+      "thumbnail_impressions": null,
+      "thumbnail_ctr_pct": null,
+      "likes": null,
+      "comments": null,
+      "shorts_feed_opportunities": null,
+      "direct_parent_clicks": null,
+      "scheduled_publication_jst_from_records": "2026-11-01T18:00:00+09:00",
+      "parent_video_id": "YKM_fjRLt9E",
+      "format": "short",
+      "window_id": "S3_since_publish",
+      "opening_style_from_production_records": "conclusion_headline_full_frame"
+    },
+    {
+      "episode_id": "EP007",
+      "short_id": "F1",
+      "youtube_video_id": "ebPpocRxNZk",
+      "title": "There's No Turkey in the First Thanksgiving Letter",
+      "format": "short",
+      "parent_video_id": "HZsl96AigLY",
+      "scheduled_publication_jst_from_records": "2026-11-02T18:00:00+09:00",
+      "window_id": null,
+      "metrics_status": "not_collected_scheduled_as_of_audit",
+      "views": null,
+      "engaged_views": null,
+      "stayed_to_watch_pct": null,
+      "average_view_duration_seconds_displayed": null,
+      "average_view_percentage": null,
+      "thumbnail_impressions": null,
+      "thumbnail_ctr_pct": null,
+      "subscribers_gained": null,
+      "likes": null,
+      "comments": null,
+      "shorts_feed_opportunities": null,
+      "direct_parent_clicks": null,
+      "opening_style_from_production_records": "conclusion_headline_full_frame"
+    },
+    {
+      "episode_id": "EP007",
+      "short_id": "F2",
+      "youtube_video_id": "a-mbby46J5w",
+      "title": "Lincoln's Thanksgiving Never Mentioned the Pilgrims",
+      "format": "short",
+      "parent_video_id": "HZsl96AigLY",
+      "scheduled_publication_jst_from_records": "2026-11-03T12:00:00+09:00",
+      "window_id": null,
+      "metrics_status": "not_collected_scheduled_as_of_audit",
+      "views": null,
+      "engaged_views": null,
+      "stayed_to_watch_pct": null,
+      "average_view_duration_seconds_displayed": null,
+      "average_view_percentage": null,
+      "thumbnail_impressions": null,
+      "thumbnail_ctr_pct": null,
+      "subscribers_gained": null,
+      "likes": null,
+      "comments": null,
+      "shorts_feed_opportunities": null,
+      "direct_parent_clicks": null,
+      "opening_style_from_production_records": "conclusion_headline_full_frame"
+    },
+    {
+      "episode_id": "EP007",
+      "short_id": "F3",
+      "youtube_video_id": "h_HF0VPtL_8",
+      "title": "Plains Headdresses at the First Thanksgiving?",
+      "format": "short",
+      "parent_video_id": "HZsl96AigLY",
+      "scheduled_publication_jst_from_records": "2026-11-03T18:00:00+09:00",
+      "window_id": null,
+      "metrics_status": "not_collected_scheduled_as_of_audit",
+      "views": null,
+      "engaged_views": null,
+      "stayed_to_watch_pct": null,
+      "average_view_duration_seconds_displayed": null,
+      "average_view_percentage": null,
+      "thumbnail_impressions": null,
+      "thumbnail_ctr_pct": null,
+      "subscribers_gained": null,
+      "likes": null,
+      "comments": null,
+      "shorts_feed_opportunities": null,
+      "direct_parent_clicks": null,
+      "opening_style_from_production_records": "conclusion_headline_full_frame"
+    },
+    {
+      "episode_id": "EP008",
+      "short_id": "K1",
+      "youtube_video_id": "tLi8_tvARd4",
+      "title": "Tutankhamun's Curse: Not Found in the Tomb Records",
+      "format": "short",
+      "parent_video_id": "Mj4GEptA_fM",
+      "scheduled_publication_jst_from_records": "2026-11-04T18:00:00+09:00",
+      "window_id": null,
+      "metrics_status": "not_collected_scheduled_as_of_audit",
+      "views": null,
+      "engaged_views": null,
+      "stayed_to_watch_pct": null,
+      "average_view_duration_seconds_displayed": null,
+      "average_view_percentage": null,
+      "thumbnail_impressions": null,
+      "thumbnail_ctr_pct": null,
+      "subscribers_gained": null,
+      "likes": null,
+      "comments": null,
+      "shorts_feed_opportunities": null,
+      "direct_parent_clicks": null,
+      "opening_style_from_production_records": "conclusion_headline_full_frame"
+    },
+    {
+      "episode_id": "EP008",
+      "short_id": "K2",
+      "youtube_video_id": "UCV-fU0BmUI",
+      "title": "How 1923 Newspapers Spread Tutankhamun's Curse",
+      "format": "short",
+      "parent_video_id": "Mj4GEptA_fM",
+      "scheduled_publication_jst_from_records": "2026-11-05T12:00:00+09:00",
+      "window_id": null,
+      "metrics_status": "not_collected_scheduled_as_of_audit",
+      "views": null,
+      "engaged_views": null,
+      "stayed_to_watch_pct": null,
+      "average_view_duration_seconds_displayed": null,
+      "average_view_percentage": null,
+      "thumbnail_impressions": null,
+      "thumbnail_ctr_pct": null,
+      "subscribers_gained": null,
+      "likes": null,
+      "comments": null,
+      "shorts_feed_opportunities": null,
+      "direct_parent_clicks": null,
+      "opening_style_from_production_records": "conclusion_headline_full_frame"
+    },
+    {
+      "episode_id": "EP008",
+      "short_id": "K3",
+      "youtube_video_id": "DaVq9QzBPMQ",
+      "title": "The Mummy's Curse Is Older Than the Discovery of Tutankhamun's Tomb",
+      "format": "short",
+      "parent_video_id": "Mj4GEptA_fM",
+      "scheduled_publication_jst_from_records": "2026-11-05T18:00:00+09:00",
+      "window_id": null,
+      "metrics_status": "not_collected_scheduled_as_of_audit",
+      "views": null,
+      "engaged_views": null,
+      "stayed_to_watch_pct": null,
+      "average_view_duration_seconds_displayed": null,
+      "average_view_percentage": null,
+      "thumbnail_impressions": null,
+      "thumbnail_ctr_pct": null,
+      "subscribers_gained": null,
+      "likes": null,
+      "comments": null,
+      "shorts_feed_opportunities": null,
+      "direct_parent_clicks": null,
+      "opening_style_from_production_records": "conclusion_headline_full_frame"
+    },
+    {
+      "episode_id": "EP009",
+      "short_id": "T1",
+      "youtube_video_id": "HrWI_c67Kw0",
+      "title": "The Trojan Horse Isn't in the Iliad",
+      "format": "short",
+      "parent_video_id": "WSipndkxiiE",
+      "scheduled_publication_jst_from_records": "2026-11-06T18:00:00+09:00",
+      "window_id": null,
+      "metrics_status": "not_collected_scheduled_as_of_audit",
+      "views": null,
+      "engaged_views": null,
+      "stayed_to_watch_pct": null,
+      "average_view_duration_seconds_displayed": null,
+      "average_view_percentage": null,
+      "thumbnail_impressions": null,
+      "thumbnail_ctr_pct": null,
+      "subscribers_gained": null,
+      "likes": null,
+      "comments": null,
+      "shorts_feed_opportunities": null,
+      "direct_parent_clicks": null,
+      "opening_style_from_production_records": "conclusion_headline_full_frame"
+    },
+    {
+      "episode_id": "EP009",
+      "short_id": "T2",
+      "youtube_video_id": "HLvuRtKFxJU",
+      "title": "One of the Oldest Pictures of the Trojan Horse",
+      "format": "short",
+      "parent_video_id": "WSipndkxiiE",
+      "scheduled_publication_jst_from_records": "2026-11-07T12:00:00+09:00",
+      "window_id": null,
+      "metrics_status": "not_collected_scheduled_as_of_audit",
+      "views": null,
+      "engaged_views": null,
+      "stayed_to_watch_pct": null,
+      "average_view_duration_seconds_displayed": null,
+      "average_view_percentage": null,
+      "thumbnail_impressions": null,
+      "thumbnail_ctr_pct": null,
+      "subscribers_gained": null,
+      "likes": null,
+      "comments": null,
+      "shorts_feed_opportunities": null,
+      "direct_parent_clicks": null,
+      "opening_style_from_production_records": "conclusion_headline_full_frame"
+    },
+    {
+      "episode_id": "EP009",
+      "short_id": "T3",
+      "youtube_video_id": "ATdiw5sT2Oc",
+      "title": "\"Beware of Greeks Bearing Gifts\" Isn't From Homer",
+      "format": "short",
+      "parent_video_id": "WSipndkxiiE",
+      "scheduled_publication_jst_from_records": "2026-11-07T18:00:00+09:00",
+      "window_id": null,
+      "metrics_status": "not_collected_scheduled_as_of_audit",
+      "views": null,
+      "engaged_views": null,
+      "stayed_to_watch_pct": null,
+      "average_view_duration_seconds_displayed": null,
+      "average_view_percentage": null,
+      "thumbnail_impressions": null,
+      "thumbnail_ctr_pct": null,
+      "subscribers_gained": null,
+      "likes": null,
+      "comments": null,
+      "shorts_feed_opportunities": null,
+      "direct_parent_clicks": null,
+      "opening_style_from_production_records": "conclusion_headline_full_frame"
+    }
+  ],
+  "published_main_rows_matched_to_posting_records": [
+    {
+      "episode_id": "EP001",
+      "youtube_video_id": "AanbRJfeGxo",
+      "title": "Anubis: Judge of the Dead, or Protector? | What Museum Objects Reveal",
+      "format": "main",
+      "views": 39,
+      "thumbnail_impressions": 545,
+      "thumbnail_ctr_pct": 3.3,
+      "average_view_duration_seconds_displayed": 147,
+      "average_view_percentage": null,
+      "subscribers_gained": null,
+      "likes": null,
+      "comments": null,
+      "shorts_origin_views": null,
+      "window_id": "studio_28d_display",
+      "scheduled_publication_jst_from_records": "2026-10-22T09:00:00+09:00"
+    },
+    {
+      "episode_id": "EP002",
+      "youtube_video_id": "cKOVplspPvE",
+      "title": "Halloween: Ancient Celtic Festival, or Something Else? | What the Sources Reveal",
+      "format": "main",
+      "views": 11,
+      "thumbnail_impressions": 58,
+      "thumbnail_ctr_pct": 3.5,
+      "average_view_duration_seconds_displayed": 63,
+      "average_view_percentage": null,
+      "subscribers_gained": null,
+      "likes": null,
+      "comments": null,
+      "shorts_origin_views": null,
+      "window_id": "studio_28d_display",
+      "scheduled_publication_jst_from_records": "2026-10-24T09:00:00+09:00"
+    },
+    {
+      "episode_id": "EP003",
+      "youtube_video_id": "uUMStOFL-68",
+      "title": "Medusa: Monster or Victim? | What the Ancient Sources Say",
+      "format": "main",
+      "views": 6,
+      "thumbnail_impressions": 256,
+      "thumbnail_ctr_pct": 0.8,
+      "average_view_duration_seconds_displayed": 185,
+      "average_view_percentage": null,
+      "subscribers_gained": null,
+      "likes": null,
+      "comments": null,
+      "shorts_origin_views": null,
+      "window_id": "studio_28d_display",
+      "scheduled_publication_jst_from_records": "2026-10-25T09:00:00+09:00"
+    },
+    {
+      "episode_id": "EP004",
+      "youtube_video_id": "iZl_31zW2sU",
+      "title": "Pandora's Box Was Never a Box | What the Ancient Sources Say",
+      "format": "main",
+      "views": 3,
+      "thumbnail_impressions": 43,
+      "thumbnail_ctr_pct": 0,
+      "average_view_duration_seconds_displayed": 421,
+      "average_view_percentage": null,
+      "subscribers_gained": null,
+      "likes": null,
+      "comments": null,
+      "shorts_origin_views": null,
+      "window_id": "studio_28d_display",
+      "scheduled_publication_jst_from_records": "2026-10-26T09:00:00+09:00"
+    },
+    {
+      "episode_id": "EP005",
+      "youtube_video_id": "poT3TlC7iWI",
+      "title": "The First Tengu Was a Star | What the Oldest Sources Say",
+      "format": "main",
+      "views": 5,
+      "thumbnail_impressions": 44,
+      "thumbnail_ctr_pct": 0,
+      "average_view_duration_seconds_displayed": 149,
+      "average_view_percentage": null,
+      "subscribers_gained": null,
+      "likes": null,
+      "comments": null,
+      "shorts_origin_views": null,
+      "window_id": "studio_28d_display",
+      "scheduled_publication_jst_from_records": "2026-10-27T09:00:00+09:00"
+    },
+    {
+      "episode_id": "EP006",
+      "youtube_video_id": "YKM_fjRLt9E",
+      "title": "Egypt's Sphinx Never Asked a Riddle | What the Oldest Sources Say",
+      "format": "main",
+      "views": 3,
+      "thumbnail_impressions": 87,
+      "thumbnail_ctr_pct": 1.2,
+      "average_view_duration_seconds_displayed": 168,
+      "average_view_percentage": null,
+      "subscribers_gained": null,
+      "likes": null,
+      "comments": null,
+      "shorts_origin_views": null,
+      "window_id": "studio_28d_display",
+      "scheduled_publication_jst_from_records": "2026-10-29T09:00:00+09:00"
+    }
+  ],
+  "excluded_main_rows_note": "Detailed table also contained EP007 (3 views), EP008 (1 view) and two old Tengu copies (1 view each). Not treated as mature published works; exact old IDs not collected.",
+  "candidates": [
+    {
+      "candidate_key": "EP001_A1",
+      "youtube_video_id": "aRnxgw2Xykg",
+      "parent_video_id": "AanbRJfeGxo",
+      "version": "v02",
+      "script": "Anubis is famous as the judge of the dead. But look at the ancient papyri. Anubis weighs the heart. Thoth, the ibis-headed god, records the result. Osiris receives the dead. Anubis never judged alone.",
+      "script_record": {
+        "path": "/Users/ryo/Desktop/新チャンネル/ショート/確認版_v01_20261022/records/shorts.json",
+        "exists": true,
+        "bytes": 40911
+      },
+      "audio": {
+        "path": "/Users/ryo/Desktop/新チャンネル/ショート/確認版_v01_20261022/audio/A1_native.wav",
+        "exists": true,
+        "bytes": 779626
+      },
+      "visual_manifest": {
+        "path": "/Users/ryo/Desktop/新チャンネル/ショート/確認版_v01_20261022/records/visual_manifest.json",
+        "exists": true,
+        "bytes": 46018
+      },
+      "visual_inputs": [
+        {
+          "asset_id": "MET-557830",
+          "path": "/Users/ryo/Desktop/新チャンネル/ショート/確認版_v01_20261022/assets/A1_01_MET-557830.png",
+          "exists": true,
+          "bytes": 1393064
+        },
+        {
+          "asset_id": "MET-552247",
+          "path": "/Users/ryo/Desktop/新チャンネル/ショート/確認版_v01_20261022/assets/A1_02_MET-552247.png",
+          "exists": true,
+          "bytes": 885239
+        }
+      ],
+      "finished_mp4": {
+        "path": "/Users/ryo/Desktop/新チャンネル/ショート/確認版_v02_20261022/deliverables/QO_short_EP001_A1_v02.mp4",
+        "exists": true,
+        "bytes": 7648501
+      }
+    },
+    {
+      "candidate_key": "EP003_M1",
+      "youtube_video_id": "bpYa64ygMpk",
+      "parent_video_id": "uUMStOFL-68",
+      "version": "v02",
+      "script": "In the best-known story, Medusa is cursed. But in one of the oldest accounts, Hesiod's Theogony, from around 700 BCE, there is no curse at all. Medusa is simply born a Gorgon, the only mortal one of three sisters.",
+      "script_record": {
+        "path": "/Users/ryo/Desktop/新チャンネル/ショート/EP003_確認版_v02_20261023/records/shorts.json",
+        "exists": true,
+        "bytes": 22804
+      },
+      "audio": {
+        "path": "/Users/ryo/Desktop/新チャンネル/ショート/EP003_確認版_v01_20261023/audio/M1_native.wav",
+        "exists": true,
+        "bytes": 831532
+      },
+      "visual_manifest": {
+        "path": "/Users/ryo/Desktop/新チャンネル/ショート/EP003_確認版_v02_20261023/records/visual_manifest.json",
+        "exists": true,
+        "bytes": 55372
+      },
+      "visual_inputs": [
+        {
+          "asset_id": "R03",
+          "path": "/Users/ryo/Desktop/新チャンネル/ショート/EP003_確認版_v01_20261023/assets/M1_R03.png",
+          "exists": true,
+          "bytes": 1737239
+        },
+        {
+          "asset_id": "A05",
+          "path": "/Users/ryo/Desktop/新チャンネル/ショート/EP003_確認版_v01_20261023/assets/M1_A05.png",
+          "exists": true,
+          "bytes": 1621368
+        }
+      ],
+      "finished_mp4": {
+        "path": "/Users/ryo/Desktop/新チャンネル/ショート/EP003_確認版_v02_20261023/deliverables/QO_short_EP003_M1_v02.mp4",
+        "exists": true,
+        "bytes": 8385611
+      }
+    },
+    {
+      "candidate_key": "EP006_S1",
+      "youtube_video_id": "R-p7fqxAWwE",
+      "parent_video_id": "YKM_fjRLt9E",
+      "version": "v03",
+      "script": "The Sphinx's riddle is never quoted in Sophocles' Oedipus the King. Later writers give it: what has one voice, and becomes four-footed, two-footed, and three-footed? A human being. In these texts, there is no morning, noon, or evening.",
+      "script_record": {
+        "path": "/Users/ryo/Desktop/新チャンネル/ショート/EP006_冒頭_v03_20261027/records/shorts.json",
+        "exists": true,
+        "bytes": 23861
+      },
+      "audio": {
+        "path": "/Users/ryo/Desktop/新チャンネル/ショート/EP006_冒頭比較_v02_20261027/audio/S1_native.wav",
+        "exists": true,
+        "bytes": 852740
+      },
+      "visual_manifest": {
+        "path": "/Users/ryo/Desktop/新チャンネル/ショート/EP006_冒頭_v03_20261027/records/visual_manifest.json",
+        "exists": true,
+        "bytes": 23907
+      },
+      "visual_inputs": [
+        {
+          "asset_id": "met_437153",
+          "path": "/Users/ryo/Desktop/新チャンネル/ショート/EP006_冒頭_v03_20261027/assets/S1_portrait.png",
+          "exists": true,
+          "bytes": 1586496
+        },
+        {
+          "asset_id": "jebb1904_15",
+          "path": "/Users/ryo/Desktop/新チャンネル/ショート/EP006_冒頭比較_v02_20261027/assets/S1_jebb1904_15.png",
+          "exists": true,
+          "bytes": 172265
+        },
+        {
+          "asset_id": "D_riddle",
+          "path": "/Users/ryo/Desktop/新チャンネル/ショート/EP006_冒頭比較_v02_20261027/assets/S1_D_riddle.png",
+          "exists": true,
+          "bytes": 156377
+        }
+      ],
+      "finished_mp4": {
+        "path": "/Users/ryo/Desktop/新チャンネル/ショート/EP006_冒頭_v03_20261027/deliverables/QO_short_EP006_S1_v03.mp4",
+        "exists": true,
+        "bytes": 2369734
+      }
+    },
+    {
+      "candidate_key": "EP006_S3",
+      "youtube_video_id": "gB1Fq47ErW0",
+      "parent_video_id": "YKM_fjRLt9E",
+      "version": "v03",
+      "script": "The Sphinx's nose was already gone before Napoleon. Drawings by the Danish traveler Frederic Norden, who visited in the 1730s, already show the face without its nose. They were printed long before Napoleon came to Egypt in 1798.",
+      "script_record": {
+        "path": "/Users/ryo/Desktop/新チャンネル/ショート/EP006_冒頭_v03_20261027/records/shorts.json",
+        "exists": true,
+        "bytes": 23861
+      },
+      "audio": {
+        "path": "/Users/ryo/Desktop/新チャンネル/ショート/EP006_冒頭比較_v02_20261027/audio/S3_native.wav",
+        "exists": true,
+        "bytes": 935340
+      },
+      "visual_manifest": {
+        "path": "/Users/ryo/Desktop/新チャンネル/ショート/EP006_冒頭_v03_20261027/records/visual_manifest.json",
+        "exists": true,
+        "bytes": 23907
+      },
+      "visual_inputs": [
+        {
+          "asset_id": "museo_Inv27_001",
+          "path": "/Users/ryo/Desktop/新チャンネル/ショート/EP006_冒頭_v03_20261027/assets/S3_portrait.png",
+          "exists": true,
+          "bytes": 3714625
+        },
+        {
+          "asset_id": "norden_109",
+          "path": "/Users/ryo/Desktop/新チャンネル/ショート/EP006_冒頭比較_v02_20261027/assets/S3_norden_109.png",
+          "exists": true,
+          "bytes": 1226444
+        },
+        {
+          "asset_id": "norden_105",
+          "path": "/Users/ryo/Desktop/新チャンネル/ショート/EP006_冒頭比較_v02_20261027/assets/S3_norden_105.png",
+          "exists": true,
+          "bytes": 1033483
+        }
+      ],
+      "finished_mp4": {
+        "path": "/Users/ryo/Desktop/新チャンネル/ショート/EP006_冒頭_v03_20261027/deliverables/QO_short_EP006_S3_v03.mp4",
+        "exists": true,
+        "bytes": 10201062
+      }
+    },
+    {
+      "candidate_key": "EP006_S2",
+      "youtube_video_id": "vGCbrzm6MIo",
+      "parent_video_id": "YKM_fjRLt9E",
+      "version": "v03",
+      "script": "The Great Sphinx of Giza is not a woman. It has a lion's body and the face of a king, in the royal headcloth of a pharaoh. Hatshepsut, a woman who ruled as pharaoh, appears as a sphinx too, with a king's ceremonial beard.",
+      "script_record": {
+        "path": "/Users/ryo/Desktop/新チャンネル/ショート/EP006_冒頭_v03_20261027/records/shorts.json",
+        "exists": true,
+        "bytes": 23861
+      },
+      "audio": {
+        "path": "/Users/ryo/Desktop/新チャンネル/ショート/EP006_冒頭比較_v02_20261027/audio/S2_native.wav",
+        "exists": true,
+        "bytes": 802376
+      },
+      "visual_manifest": {
+        "path": "/Users/ryo/Desktop/新チャンネル/ショート/EP006_冒頭_v03_20261027/records/visual_manifest.json",
+        "exists": true,
+        "bytes": 23907
+      },
+      "visual_inputs": [
+        {
+          "asset_id": "museo_Inv02_008",
+          "path": "/Users/ryo/Desktop/新チャンネル/ショート/EP006_冒頭_v03_20261027/assets/S2_portrait.png",
+          "exists": true,
+          "bytes": 3344972
+        },
+        {
+          "asset_id": "museo_Album1_004",
+          "path": "/Users/ryo/Desktop/新チャンネル/ショート/EP006_冒頭比較_v02_20261027/assets/S2_museo_Album1_004.png",
+          "exists": true,
+          "bytes": 1581159
+        },
+        {
+          "asset_id": "met_544442",
+          "path": "/Users/ryo/Desktop/新チャンネル/ショート/EP006_冒頭比較_v02_20261027/assets/S2_met_544442.png",
+          "exists": true,
+          "bytes": 1282884
+        }
+      ],
+      "finished_mp4": {
+        "path": "/Users/ryo/Desktop/新チャンネル/ショート/EP006_冒頭_v03_20261027/deliverables/QO_short_EP006_S2_v03.mp4",
+        "exists": true,
+        "bytes": 6930924
+      }
+    },
+    {
+      "candidate_key": "EP004_P1",
+      "youtube_video_id": "QZaXbtgMum8",
+      "parent_video_id": "iZl_31zW2sU",
+      "version": "v02",
+      "script": "Pandora never opened a box. In Hesiod's poem, from around 700 BCE, she lifts the great lid of a jar. The Greek word is pithos, a storage jar like this one, made on Crete, about one and a half meters tall.",
+      "script_record": {
+        "path": "/Users/ryo/Desktop/新チャンネル/ショート/EP004_確認版_v02_20261024/records/shorts.json",
+        "exists": true,
+        "bytes": 21663
+      },
+      "audio": {
+        "path": "/Users/ryo/Desktop/新チャンネル/ショート/EP004_確認版_v01_20261024/audio/P1_native.wav",
+        "exists": true,
+        "bytes": 815692
+      },
+      "visual_manifest": {
+        "path": "/Users/ryo/Desktop/新チャンネル/ショート/EP004_確認版_v02_20261024/records/visual_manifest.json",
+        "exists": true,
+        "bytes": 39800
+      },
+      "visual_inputs": [
+        {
+          "asset_id": "R04",
+          "path": "/Users/ryo/Desktop/新チャンネル/ショート/EP004_確認版_v01_20261024/assets/P1_R04.png",
+          "exists": true,
+          "bytes": 1693526
+        },
+        {
+          "asset_id": "A01",
+          "path": "/Users/ryo/Desktop/新チャンネル/ショート/EP004_確認版_v01_20261024/assets/P1_A01.png",
+          "exists": true,
+          "bytes": 1020410
+        }
+      ],
+      "finished_mp4": {
+        "path": "/Users/ryo/Desktop/新チャンネル/ショート/EP004_確認版_v02_20261024/deliverables/QO_short_EP004_P1_v02.mp4",
+        "exists": true,
+        "bytes": 4858851
+      }
+    },
+    {
+      "candidate_key": "EP003_M3",
+      "youtube_video_id": "Z9aVsJcQ7e8",
+      "parent_video_id": "uUMStOFL-68",
+      "version": "v02",
+      "script": "In art, Medusa was not always a monster. On this vase, painted in Athens around 450 BCE, she sleeps with a young, calm face. The Met describes it as one of the earliest images of Medusa as a beautiful young woman.",
+      "script_record": {
+        "path": "/Users/ryo/Desktop/新チャンネル/ショート/EP003_確認版_v02_20261023/records/shorts.json",
+        "exists": true,
+        "bytes": 22804
+      },
+      "audio": {
+        "path": "/Users/ryo/Desktop/新チャンネル/ショート/EP003_確認版_v01_20261023/audio/M3_native.wav",
+        "exists": true,
+        "bytes": 884972
+      },
+      "visual_manifest": {
+        "path": "/Users/ryo/Desktop/新チャンネル/ショート/EP003_確認版_v02_20261023/records/visual_manifest.json",
+        "exists": true,
+        "bytes": 55372
+      },
+      "visual_inputs": [
+        {
+          "asset_id": "A01",
+          "path": "/Users/ryo/Desktop/新チャンネル/ショート/EP003_確認版_v01_20261023/assets/M3_A01.png",
+          "exists": true,
+          "bytes": 1196499
+        },
+        {
+          "asset_id": "A17",
+          "path": "/Users/ryo/Desktop/新チャンネル/ショート/EP003_確認版_v01_20261023/assets/M3_A17.png",
+          "exists": true,
+          "bytes": 1075482
+        }
+      ],
+      "finished_mp4": {
+        "path": "/Users/ryo/Desktop/新チャンネル/ショート/EP003_確認版_v02_20261023/deliverables/QO_short_EP003_M3_v02.mp4",
+        "exists": true,
+        "bytes": 3715704
+      }
+    },
+    {
+      "candidate_key": "EP002_H3",
+      "youtube_video_id": "HQPJsvC7-9Q",
+      "parent_video_id": "cKOVplspPvE",
+      "version": "v02",
+      "script": "Halloween is a Christian word. All Hallows means all saints. The night before All Saints' Day, the first of November, was All Hallows' Eve, shortened over time to Hallowe'en. The name comes from a church feast.",
+      "script_record": {
+        "path": "/Users/ryo/Desktop/新チャンネル/ショート/確認版_v01_20261022/records/shorts.json",
+        "exists": true,
+        "bytes": 40911
+      },
+      "audio": {
+        "path": "/Users/ryo/Desktop/新チャンネル/ショート/確認版_v01_20261022/audio/H3_native.wav",
+        "exists": true,
+        "bytes": 744202
+      },
+      "visual_manifest": {
+        "path": "/Users/ryo/Desktop/新チャンネル/ショート/確認版_v01_20261022/records/visual_manifest.json",
+        "exists": true,
+        "bytes": 46018
+      },
+      "visual_inputs": [
+        {
+          "asset_id": "A03",
+          "path": "/Users/ryo/Desktop/新チャンネル/ショート/確認版_v01_20261022/assets/H3_01_A03.png",
+          "exists": true,
+          "bytes": 1297982
+        },
+        {
+          "asset_id": "N08",
+          "path": "/Users/ryo/Desktop/新チャンネル/ショート/確認版_v01_20261022/assets/H3_02_N08.png",
+          "exists": true,
+          "bytes": 1096907
+        }
+      ],
+      "finished_mp4": {
+        "path": "/Users/ryo/Desktop/新チャンネル/ショート/確認版_v02_20261022/deliverables/QO_short_EP002_H3_v02.mp4",
+        "exists": true,
+        "bytes": 8685252
+      }
+    },
+    {
+      "candidate_key": "EP001_main",
+      "youtube_video_id": "AanbRJfeGxo",
+      "version": "v09",
+      "timeline": {
+        "path": "/Users/ryo/Desktop/新チャンネル/EP001_Anubis/Quiet_Origins_v09_20261021/records/master_timeline.json",
+        "exists": true,
+        "bytes": 12298
+      },
+      "finished_mp4": {
+        "path": "/Users/ryo/Desktop/新チャンネル/EP001_Anubis/Quiet_Origins_v09_20261021/deliverables/EP001_Anubis_en_v09_1080p30.mp4",
+        "exists": true,
+        "bytes": 183154458
+      }
+    },
+    {
+      "candidate_key": "EP006_main",
+      "youtube_video_id": "YKM_fjRLt9E",
+      "version": "v02",
+      "timeline": {
+        "path": "/Users/ryo/Desktop/新チャンネル/EP006_Sphinx/確認版_v02_20261027/records/master_timeline.json",
+        "exists": true,
+        "bytes": 3977
+      },
+      "finished_mp4": {
+        "path": "/Users/ryo/Desktop/新チャンネル/EP006_Sphinx/確認版_v02_20261027/deliverables/EP006_Sphinx_en_v02_1080p30.mp4",
+        "exists": true,
+        "bytes": 150173048
+      }
+    }
+  ],
+  "visual_input_checks": [
+    {
+      "manifest": "/Users/ryo/Desktop/新チャンネル/ショート/確認版_v01_20261022/records/visual_manifest.json",
+      "asset_id": "MET-557830",
+      "path": "/Users/ryo/Desktop/新チャンネル/ショート/確認版_v01_20261022/assets/A1_01_MET-557830.png",
+      "exists": true,
+      "bytes": 1393064
+    },
+    {
+      "manifest": "/Users/ryo/Desktop/新チャンネル/ショート/確認版_v01_20261022/records/visual_manifest.json",
+      "asset_id": "MET-552247",
+      "path": "/Users/ryo/Desktop/新チャンネル/ショート/確認版_v01_20261022/assets/A1_02_MET-552247.png",
+      "exists": true,
+      "bytes": 885239
+    },
+    {
+      "manifest": "/Users/ryo/Desktop/新チャンネル/ショート/確認版_v01_20261022/records/visual_manifest.json",
+      "asset_id": "MET-548344",
+      "path": "/Users/ryo/Desktop/新チャンネル/ショート/確認版_v01_20261022/assets/A2_01_MET-548344.png",
+      "exists": true,
+      "bytes": 1329083
+    },
+    {
+      "manifest": "/Users/ryo/Desktop/新チャンネル/ショート/確認版_v01_20261022/records/visual_manifest.json",
+      "asset_id": "MET-544075",
+      "path": "/Users/ryo/Desktop/新チャンネル/ショート/確認版_v01_20261022/assets/A3_01_MET-544075.png",
+      "exists": true,
+      "bytes": 589728
+    },
+    {
+      "manifest": "/Users/ryo/Desktop/新チャンネル/ショート/確認版_v01_20261022/records/visual_manifest.json",
+      "asset_id": "A06",
+      "path": "/Users/ryo/Desktop/新チャンネル/ショート/確認版_v01_20261022/assets/H1_01_A06.png",
+      "exists": true,
+      "bytes": 669742
+    },
+    {
+      "manifest": "/Users/ryo/Desktop/新チャンネル/ショート/確認版_v01_20261022/records/visual_manifest.json",
+      "asset_id": "N06",
+      "path": "/Users/ryo/Desktop/新チャンネル/ショート/確認版_v01_20261022/assets/H1_02_N06.png",
+      "exists": true,
+      "bytes": 639215
+    },
+    {
+      "manifest": "/Users/ryo/Desktop/新チャンネル/ショート/確認版_v01_20261022/records/visual_manifest.json",
+      "asset_id": "R02",
+      "path": "/Users/ryo/Desktop/新チャンネル/ショート/確認版_v01_20261022/assets/H2_01_R02.png",
+      "exists": true,
+      "bytes": 1019542
+    },
+    {
+      "manifest": "/Users/ryo/Desktop/新チャンネル/ショート/確認版_v01_20261022/records/visual_manifest.json",
+      "asset_id": "N12",
+      "path": "/Users/ryo/Desktop/新チャンネル/ショート/確認版_v01_20261022/assets/H2_02_N12.png",
+      "exists": true,
+      "bytes": 683966
+    },
+    {
+      "manifest": "/Users/ryo/Desktop/新チャンネル/ショート/確認版_v01_20261022/records/visual_manifest.json",
+      "asset_id": "A03",
+      "path": "/Users/ryo/Desktop/新チャンネル/ショート/確認版_v01_20261022/assets/H3_01_A03.png",
+      "exists": true,
+      "bytes": 1297982
+    },
+    {
+      "manifest": "/Users/ryo/Desktop/新チャンネル/ショート/確認版_v01_20261022/records/visual_manifest.json",
+      "asset_id": "N08",
+      "path": "/Users/ryo/Desktop/新チャンネル/ショート/確認版_v01_20261022/assets/H3_02_N08.png",
+      "exists": true,
+      "bytes": 1096907
+    },
+    {
+      "manifest": "/Users/ryo/Desktop/新チャンネル/ショート/EP003_確認版_v02_20261023/records/visual_manifest.json",
+      "asset_id": "R03",
+      "path": "/Users/ryo/Desktop/新チャンネル/ショート/EP003_確認版_v01_20261023/assets/M1_R03.png",
+      "exists": true,
+      "bytes": 1737239
+    },
+    {
+      "manifest": "/Users/ryo/Desktop/新チャンネル/ショート/EP003_確認版_v02_20261023/records/visual_manifest.json",
+      "asset_id": "A05",
+      "path": "/Users/ryo/Desktop/新チャンネル/ショート/EP003_確認版_v01_20261023/assets/M1_A05.png",
+      "exists": true,
+      "bytes": 1621368
+    },
+    {
+      "manifest": "/Users/ryo/Desktop/新チャンネル/ショート/EP003_確認版_v02_20261023/records/visual_manifest.json",
+      "asset_id": "A04",
+      "path": "/Users/ryo/Desktop/新チャンネル/ショート/EP003_確認版_v01_20261023/assets/M2_A04.png",
+      "exists": true,
+      "bytes": 1023208
+    },
+    {
+      "manifest": "/Users/ryo/Desktop/新チャンネル/ショート/EP003_確認版_v02_20261023/records/visual_manifest.json",
+      "asset_id": "A08",
+      "path": "/Users/ryo/Desktop/新チャンネル/ショート/EP003_確認版_v01_20261023/assets/M2_A08.png",
+      "exists": true,
+      "bytes": 861670
+    },
+    {
+      "manifest": "/Users/ryo/Desktop/新チャンネル/ショート/EP003_確認版_v02_20261023/records/visual_manifest.json",
+      "asset_id": "A26",
+      "path": "/Users/ryo/Desktop/新チャンネル/ショート/EP003_確認版_v01_20261023/assets/M2_A26.png",
+      "exists": true,
+      "bytes": 966406
+    },
+    {
+      "manifest": "/Users/ryo/Desktop/新チャンネル/ショート/EP003_確認版_v02_20261023/records/visual_manifest.json",
+      "asset_id": "A01",
+      "path": "/Users/ryo/Desktop/新チャンネル/ショート/EP003_確認版_v01_20261023/assets/M3_A01.png",
+      "exists": true,
+      "bytes": 1196499
+    },
+    {
+      "manifest": "/Users/ryo/Desktop/新チャンネル/ショート/EP003_確認版_v02_20261023/records/visual_manifest.json",
+      "asset_id": "A17",
+      "path": "/Users/ryo/Desktop/新チャンネル/ショート/EP003_確認版_v01_20261023/assets/M3_A17.png",
+      "exists": true,
+      "bytes": 1075482
+    },
+    {
+      "manifest": "/Users/ryo/Desktop/新チャンネル/ショート/EP004_確認版_v02_20261024/records/visual_manifest.json",
+      "asset_id": "R04",
+      "path": "/Users/ryo/Desktop/新チャンネル/ショート/EP004_確認版_v01_20261024/assets/P1_R04.png",
+      "exists": true,
+      "bytes": 1693526
+    },
+    {
+      "manifest": "/Users/ryo/Desktop/新チャンネル/ショート/EP004_確認版_v02_20261024/records/visual_manifest.json",
+      "asset_id": "A01",
+      "path": "/Users/ryo/Desktop/新チャンネル/ショート/EP004_確認版_v01_20261024/assets/P1_A01.png",
+      "exists": true,
+      "bytes": 1020410
+    },
+    {
+      "manifest": "/Users/ryo/Desktop/新チャンネル/ショート/EP004_確認版_v02_20261024/records/visual_manifest.json",
+      "asset_id": "A11",
+      "path": "/Users/ryo/Desktop/新チャンネル/ショート/EP004_確認版_v01_20261024/assets/P2_A11.png",
+      "exists": true,
+      "bytes": 1426795
+    },
+    {
+      "manifest": "/Users/ryo/Desktop/新チャンネル/ショート/EP004_確認版_v02_20261024/records/visual_manifest.json",
+      "asset_id": "A12",
+      "path": "/Users/ryo/Desktop/新チャンネル/ショート/EP004_確認版_v02_20261024/assets/P2_A12.png",
+      "exists": true,
+      "bytes": 1557712
+    },
+    {
+      "manifest": "/Users/ryo/Desktop/新チャンネル/ショート/EP004_確認版_v02_20261024/records/visual_manifest.json",
+      "asset_id": "A10",
+      "path": "/Users/ryo/Desktop/新チャンネル/ショート/EP004_確認版_v01_20261024/assets/P2_A10.png",
+      "exists": true,
+      "bytes": 1080003
+    },
+    {
+      "manifest": "/Users/ryo/Desktop/新チャンネル/ショート/EP004_確認版_v02_20261024/records/visual_manifest.json",
+      "asset_id": "A21",
+      "path": "/Users/ryo/Desktop/新チャンネル/ショート/EP004_確認版_v01_20261024/assets/P3_A21.png",
+      "exists": true,
+      "bytes": 1844636
+    },
+    {
+      "manifest": "/Users/ryo/Desktop/新チャンネル/ショート/EP004_確認版_v02_20261024/records/visual_manifest.json",
+      "asset_id": "A02",
+      "path": "/Users/ryo/Desktop/新チャンネル/ショート/EP004_確認版_v02_20261024/assets/P3_A02.png",
+      "exists": true,
+      "bytes": 1505485
+    },
+    {
+      "manifest": "/Users/ryo/Desktop/新チャンネル/ショート/EP006_冒頭_v03_20261027/records/visual_manifest.json",
+      "asset_id": "met_437153",
+      "path": "/Users/ryo/Desktop/新チャンネル/ショート/EP006_冒頭_v03_20261027/assets/S1_portrait.png",
+      "exists": true,
+      "bytes": 1586496
+    },
+    {
+      "manifest": "/Users/ryo/Desktop/新チャンネル/ショート/EP006_冒頭_v03_20261027/records/visual_manifest.json",
+      "asset_id": "jebb1904_15",
+      "path": "/Users/ryo/Desktop/新チャンネル/ショート/EP006_冒頭比較_v02_20261027/assets/S1_jebb1904_15.png",
+      "exists": true,
+      "bytes": 172265
+    },
+    {
+      "manifest": "/Users/ryo/Desktop/新チャンネル/ショート/EP006_冒頭_v03_20261027/records/visual_manifest.json",
+      "asset_id": "D_riddle",
+      "path": "/Users/ryo/Desktop/新チャンネル/ショート/EP006_冒頭比較_v02_20261027/assets/S1_D_riddle.png",
+      "exists": true,
+      "bytes": 156377
+    },
+    {
+      "manifest": "/Users/ryo/Desktop/新チャンネル/ショート/EP006_冒頭_v03_20261027/records/visual_manifest.json",
+      "asset_id": "museo_Inv02_008",
+      "path": "/Users/ryo/Desktop/新チャンネル/ショート/EP006_冒頭_v03_20261027/assets/S2_portrait.png",
+      "exists": true,
+      "bytes": 3344972
+    },
+    {
+      "manifest": "/Users/ryo/Desktop/新チャンネル/ショート/EP006_冒頭_v03_20261027/records/visual_manifest.json",
+      "asset_id": "museo_Album1_004",
+      "path": "/Users/ryo/Desktop/新チャンネル/ショート/EP006_冒頭比較_v02_20261027/assets/S2_museo_Album1_004.png",
+      "exists": true,
+      "bytes": 1581159
+    },
+    {
+      "manifest": "/Users/ryo/Desktop/新チャンネル/ショート/EP006_冒頭_v03_20261027/records/visual_manifest.json",
+      "asset_id": "met_544442",
+      "path": "/Users/ryo/Desktop/新チャンネル/ショート/EP006_冒頭比較_v02_20261027/assets/S2_met_544442.png",
+      "exists": true,
+      "bytes": 1282884
+    },
+    {
+      "manifest": "/Users/ryo/Desktop/新チャンネル/ショート/EP006_冒頭_v03_20261027/records/visual_manifest.json",
+      "asset_id": "museo_Inv27_001",
+      "path": "/Users/ryo/Desktop/新チャンネル/ショート/EP006_冒頭_v03_20261027/assets/S3_portrait.png",
+      "exists": true,
+      "bytes": 3714625
+    },
+    {
+      "manifest": "/Users/ryo/Desktop/新チャンネル/ショート/EP006_冒頭_v03_20261027/records/visual_manifest.json",
+      "asset_id": "norden_109",
+      "path": "/Users/ryo/Desktop/新チャンネル/ショート/EP006_冒頭比較_v02_20261027/assets/S3_norden_109.png",
+      "exists": true,
+      "bytes": 1226444
+    },
+    {
+      "manifest": "/Users/ryo/Desktop/新チャンネル/ショート/EP006_冒頭_v03_20261027/records/visual_manifest.json",
+      "asset_id": "norden_105",
+      "path": "/Users/ryo/Desktop/新チャンネル/ショート/EP006_冒頭比較_v02_20261027/assets/S3_norden_105.png",
+      "exists": true,
+      "bytes": 1033483
+    }
+  ],
+  "coverage": {
+    "candidate_count": 10,
+    "shorts_common_window_count": 17,
+    "additional_short_window_count": 1,
+    "visual_input_path_count": 33,
+    "visual_input_paths_missing": 0,
+    "all_published_and_scheduled_videos_live_inventory_complete": false,
+    "production_inventory_current_versions": 36,
+    "main_episode_count_from_records": 9,
+    "short_count_from_records": 27
+  },
+  "uncollected": [
+    "individual likes",
+    "individual comments",
+    "feed opportunities",
+    "30s retention",
+    "direct short-to-main link clicks",
+    "short-to-main-to-subscription attribution",
+    "timed rendering benchmark",
+    "all original asset rights revalidation"
+  ],
+  "changes_to_production_or_posting": false,
+  "additional_source_commits": [
+    "704e3b5",
+    "071ef79"
+  ],
+  "claude_proposal_reviewed": true,
+  "latest_other_task_status": {
+    "EP009_shorts_scheduled": [
+      "HrWI_c67Kw0",
+      "HLvuRtKFxJU",
+      "ATdiw5sT2Oc"
+    ],
+    "related_video_and_pinned_comments": "pending_publication_followups",
+    "EP008_K3_title": "corrected_in_other_task",
+    "changes_performed_by_this_audit": false
+  },
+  "production_inventory_from_posting_records": [
+    {
+      "episode_id": "EP001",
+      "short_id": "A1",
+      "youtube_video_id": "aRnxgw2Xykg",
+      "title": "Anubis Never Judged the Dead Alone",
+      "format": "short",
+      "parent_video_id": "AanbRJfeGxo",
+      "scheduled_publication_jst_from_records": "2026-10-24T18:00:00+09:00",
+      "opening_style_from_production_records": "legacy"
+    },
+    {
+      "episode_id": "EP001",
+      "short_id": "A2",
+      "youtube_video_id": "ZhmZBqhWq4Q",
+      "title": "Not Just a Feather on the Scale of Judgment",
+      "format": "short",
+      "parent_video_id": "AanbRJfeGxo",
+      "scheduled_publication_jst_from_records": "2026-10-26T12:00:00+09:00",
+      "opening_style_from_production_records": "legacy"
+    },
+    {
+      "episode_id": "EP001",
+      "short_id": "A3",
+      "youtube_video_id": "THd4RPvFtxk",
+      "title": "Why Does Anubis Have a Canine Head?",
+      "format": "short",
+      "parent_video_id": "AanbRJfeGxo",
+      "scheduled_publication_jst_from_records": "2026-10-27T18:00:00+09:00",
+      "opening_style_from_production_records": "legacy"
+    },
+    {
+      "episode_id": "EP002",
+      "short_id": "H1",
+      "youtube_video_id": "4OQKyH8HzhU",
+      "title": "There Was No Celtic God Called Samhain",
+      "format": "short",
+      "parent_video_id": "cKOVplspPvE",
+      "scheduled_publication_jst_from_records": "2026-10-24T12:00:00+09:00",
+      "opening_style_from_production_records": "legacy"
+    },
+    {
+      "episode_id": "EP002",
+      "short_id": "H2",
+      "youtube_video_id": "tWYc1dg_GkU",
+      "title": "The First Jack-o'-Lanterns Weren't Pumpkins",
+      "format": "short",
+      "parent_video_id": "cKOVplspPvE",
+      "scheduled_publication_jst_from_records": "2026-10-25T18:00:00+09:00",
+      "opening_style_from_production_records": "legacy"
+    },
+    {
+      "episode_id": "EP002",
+      "short_id": "H3",
+      "youtube_video_id": "HQPJsvC7-9Q",
+      "title": "Why Is It Called Halloween?",
+      "format": "short",
+      "parent_video_id": "cKOVplspPvE",
+      "scheduled_publication_jst_from_records": "2026-10-26T18:00:00+09:00",
+      "opening_style_from_production_records": "legacy"
+    },
+    {
+      "episode_id": "EP003",
+      "short_id": "M1",
+      "youtube_video_id": "bpYa64ygMpk",
+      "title": "Medusa Wasn't Always Cursed",
+      "format": "short",
+      "parent_video_id": "uUMStOFL-68",
+      "scheduled_publication_jst_from_records": "2026-10-25T12:00:00+09:00",
+      "opening_style_from_production_records": "legacy"
+    },
+    {
+      "episode_id": "EP003",
+      "short_id": "M2",
+      "youtube_video_id": "yp54F7xY1C0",
+      "title": "Why Put a Monster's Face on a Roof?",
+      "format": "short",
+      "parent_video_id": "uUMStOFL-68",
+      "scheduled_publication_jst_from_records": "2026-10-27T12:00:00+09:00",
+      "opening_style_from_production_records": "legacy"
+    },
+    {
+      "episode_id": "EP003",
+      "short_id": "M3",
+      "youtube_video_id": "Z9aVsJcQ7e8",
+      "title": "The Beautiful, Sleeping Medusa",
+      "format": "short",
+      "parent_video_id": "uUMStOFL-68",
+      "scheduled_publication_jst_from_records": "2026-10-28T12:00:00+09:00",
+      "opening_style_from_production_records": "legacy"
+    },
+    {
+      "episode_id": "EP004",
+      "short_id": "P1",
+      "youtube_video_id": "QZaXbtgMum8",
+      "title": "Pandora's Box Was a Jar",
+      "format": "short",
+      "parent_video_id": "iZl_31zW2sU",
+      "scheduled_publication_jst_from_records": "2026-10-28T18:00:00+09:00",
+      "opening_style_from_production_records": "legacy"
+    },
+    {
+      "episode_id": "EP004",
+      "short_id": "P2",
+      "youtube_video_id": "7HIhIHSKK7M",
+      "title": "How Pandora's Jar Became a Box",
+      "format": "short",
+      "parent_video_id": "iZl_31zW2sU",
+      "scheduled_publication_jst_from_records": "2026-10-29T12:00:00+09:00",
+      "opening_style_from_production_records": "legacy"
+    },
+    {
+      "episode_id": "EP004",
+      "short_id": "P3",
+      "youtube_video_id": "WjlsWa2Md7Q",
+      "title": "Why Did Hope Stay in Pandora's Jar?",
+      "format": "short",
+      "parent_video_id": "iZl_31zW2sU",
+      "scheduled_publication_jst_from_records": "2026-10-29T18:00:00+09:00",
+      "opening_style_from_production_records": "legacy"
+    },
+    {
+      "episode_id": "EP005",
+      "short_id": "T1",
+      "youtube_video_id": "L2GOO_QTrqo",
+      "title": "The First Tengu Was a Star",
+      "format": "short",
+      "parent_video_id": "poT3TlC7iWI",
+      "scheduled_publication_jst_from_records": "2026-10-30T12:00:00+09:00",
+      "opening_style_from_production_records": "legacy"
+    },
+    {
+      "episode_id": "EP005",
+      "short_id": "T2",
+      "youtube_video_id": "vwwpF1seseI",
+      "title": "The Tengu Never Stopped Being a Bird",
+      "format": "short",
+      "parent_video_id": "poT3TlC7iWI",
+      "scheduled_publication_jst_from_records": "2026-10-30T18:00:00+09:00",
+      "opening_style_from_production_records": "legacy"
+    },
+    {
+      "episode_id": "EP005",
+      "short_id": "T3",
+      "youtube_video_id": "S66NV_CTVZY",
+      "title": "The Buddha in the Persimmon Tree",
+      "format": "short",
+      "parent_video_id": "poT3TlC7iWI",
+      "scheduled_publication_jst_from_records": "2026-10-31T12:00:00+09:00",
+      "opening_style_from_production_records": "legacy"
+    },
+    {
+      "episode_id": "EP006",
+      "short_id": "S1",
+      "youtube_video_id": "R-p7fqxAWwE",
+      "title": "The Sphinx's Riddle Isn't in the Play",
+      "format": "short",
+      "parent_video_id": "YKM_fjRLt9E",
+      "scheduled_publication_jst_from_records": "2026-10-31T18:00:00+09:00",
+      "opening_style_from_production_records": "conclusion_headline_full_frame"
+    },
+    {
+      "episode_id": "EP006",
+      "short_id": "S2",
+      "youtube_video_id": "vGCbrzm6MIo",
+      "title": "The Great Sphinx Isn't a Woman",
+      "format": "short",
+      "parent_video_id": "YKM_fjRLt9E",
+      "scheduled_publication_jst_from_records": "2026-11-01T12:00:00+09:00",
+      "opening_style_from_production_records": "conclusion_headline_full_frame"
+    },
+    {
+      "episode_id": "EP006",
+      "short_id": "S3",
+      "youtube_video_id": "gB1Fq47ErW0",
+      "title": "The Sphinx Lost Its Nose Before Napoleon",
+      "format": "short",
+      "parent_video_id": "YKM_fjRLt9E",
+      "scheduled_publication_jst_from_records": "2026-11-01T18:00:00+09:00",
+      "opening_style_from_production_records": "conclusion_headline_full_frame"
+    },
+    {
+      "episode_id": "EP007",
+      "short_id": "F1",
+      "youtube_video_id": "ebPpocRxNZk",
+      "title": "There's No Turkey in the First Thanksgiving Letter",
+      "format": "short",
+      "parent_video_id": "HZsl96AigLY",
+      "scheduled_publication_jst_from_records": "2026-11-02T18:00:00+09:00",
+      "opening_style_from_production_records": "conclusion_headline_full_frame"
+    },
+    {
+      "episode_id": "EP007",
+      "short_id": "F2",
+      "youtube_video_id": "a-mbby46J5w",
+      "title": "Lincoln's Thanksgiving Never Mentioned the Pilgrims",
+      "format": "short",
+      "parent_video_id": "HZsl96AigLY",
+      "scheduled_publication_jst_from_records": "2026-11-03T12:00:00+09:00",
+      "opening_style_from_production_records": "conclusion_headline_full_frame"
+    },
+    {
+      "episode_id": "EP007",
+      "short_id": "F3",
+      "youtube_video_id": "h_HF0VPtL_8",
+      "title": "Plains Headdresses at the First Thanksgiving?",
+      "format": "short",
+      "parent_video_id": "HZsl96AigLY",
+      "scheduled_publication_jst_from_records": "2026-11-03T18:00:00+09:00",
+      "opening_style_from_production_records": "conclusion_headline_full_frame"
+    },
+    {
+      "episode_id": "EP008",
+      "short_id": "K1",
+      "youtube_video_id": "tLi8_tvARd4",
+      "title": "Tutankhamun's Curse: Not Found in the Tomb Records",
+      "format": "short",
+      "parent_video_id": "Mj4GEptA_fM",
+      "scheduled_publication_jst_from_records": "2026-11-04T18:00:00+09:00",
+      "opening_style_from_production_records": "conclusion_headline_full_frame"
+    },
+    {
+      "episode_id": "EP008",
+      "short_id": "K2",
+      "youtube_video_id": "UCV-fU0BmUI",
+      "title": "How 1923 Newspapers Spread Tutankhamun's Curse",
+      "format": "short",
+      "parent_video_id": "Mj4GEptA_fM",
+      "scheduled_publication_jst_from_records": "2026-11-05T12:00:00+09:00",
+      "opening_style_from_production_records": "conclusion_headline_full_frame"
+    },
+    {
+      "episode_id": "EP008",
+      "short_id": "K3",
+      "youtube_video_id": "DaVq9QzBPMQ",
+      "title": "The Mummy's Curse Is Older Than the Discovery of Tutankhamun's Tomb",
+      "format": "short",
+      "parent_video_id": "Mj4GEptA_fM",
+      "scheduled_publication_jst_from_records": "2026-11-05T18:00:00+09:00",
+      "opening_style_from_production_records": "conclusion_headline_full_frame"
+    },
+    {
+      "episode_id": "EP009",
+      "short_id": "T1",
+      "youtube_video_id": "HrWI_c67Kw0",
+      "title": "The Trojan Horse Isn't in the Iliad",
+      "format": "short",
+      "parent_video_id": "WSipndkxiiE",
+      "scheduled_publication_jst_from_records": "2026-11-06T18:00:00+09:00",
+      "opening_style_from_production_records": "conclusion_headline_full_frame"
+    },
+    {
+      "episode_id": "EP009",
+      "short_id": "T2",
+      "youtube_video_id": "HLvuRtKFxJU",
+      "title": "One of the Oldest Pictures of the Trojan Horse",
+      "format": "short",
+      "parent_video_id": "WSipndkxiiE",
+      "scheduled_publication_jst_from_records": "2026-11-07T12:00:00+09:00",
+      "opening_style_from_production_records": "conclusion_headline_full_frame"
+    },
+    {
+      "episode_id": "EP009",
+      "short_id": "T3",
+      "youtube_video_id": "ATdiw5sT2Oc",
+      "title": "\"Beware of Greeks Bearing Gifts\" Isn't From Homer",
+      "format": "short",
+      "parent_video_id": "WSipndkxiiE",
+      "scheduled_publication_jst_from_records": "2026-11-07T18:00:00+09:00",
+      "opening_style_from_production_records": "conclusion_headline_full_frame"
+    },
+    {
+      "episode_id": "EP001",
+      "youtube_video_id": "AanbRJfeGxo",
+      "title": "Anubis: Judge of the Dead, or Protector? | What Museum Objects Reveal",
+      "format": "main",
+      "scheduled_publication_jst_from_records": "2026-10-22T09:00:00+09:00"
+    },
+    {
+      "episode_id": "EP002",
+      "youtube_video_id": "cKOVplspPvE",
+      "title": "Halloween: Ancient Celtic Festival, or Something Else? | What the Sources Reveal",
+      "format": "main",
+      "scheduled_publication_jst_from_records": "2026-10-24T09:00:00+09:00"
+    },
+    {
+      "episode_id": "EP003",
+      "youtube_video_id": "uUMStOFL-68",
+      "title": "Medusa: Monster or Victim? | What the Ancient Sources Say",
+      "format": "main",
+      "scheduled_publication_jst_from_records": "2026-10-25T09:00:00+09:00"
+    },
+    {
+      "episode_id": "EP004",
+      "youtube_video_id": "iZl_31zW2sU",
+      "title": "Pandora's Box Was Never a Box | What the Ancient Sources Say",
+      "format": "main",
+      "scheduled_publication_jst_from_records": "2026-10-26T09:00:00+09:00"
+    },
+    {
+      "episode_id": "EP005",
+      "youtube_video_id": "poT3TlC7iWI",
+      "title": "The First Tengu Was a Star | What the Oldest Sources Say",
+      "format": "main",
+      "scheduled_publication_jst_from_records": "2026-10-27T09:00:00+09:00"
+    },
+    {
+      "episode_id": "EP006",
+      "youtube_video_id": "YKM_fjRLt9E",
+      "title": "Egypt's Sphinx Never Asked a Riddle | What the Oldest Sources Say",
+      "format": "main",
+      "scheduled_publication_jst_from_records": "2026-10-29T09:00:00+09:00"
+    },
+    {
+      "episode_id": "EP007",
+      "youtube_video_id": "HZsl96AigLY",
+      "title": "The First Thanksgiving: What the 1621 Letter Actually Says",
+      "format": "main",
+      "scheduled_publication_jst_from_records": "2026-11-02T09:00:00+09:00"
+    },
+    {
+      "episode_id": "EP008",
+      "youtube_video_id": "Mj4GEptA_fM",
+      "title": "The Curse of Tutankhamun: Where Did It Come From?",
+      "format": "main",
+      "scheduled_publication_jst_from_records": "2026-11-04T09:00:00+09:00"
+    },
+    {
+      "episode_id": "EP009",
+      "youtube_video_id": "WSipndkxiiE",
+      "title": "The Trojan Horse: Is It in the Iliad?",
+      "format": "main",
+      "scheduled_publication_jst_from_records": "2026-11-06T09:00:00+09:00"
+    }
+  ],
+  "inventory_note": "9 current main versions + 27 shorts from posting records; excludes two old Tengu copies. Live status, all historical/deleted/private items, all metrics and asset paths are not fully audited. Publication times are records, not verified current public state."
+}
