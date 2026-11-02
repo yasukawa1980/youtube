@@ -1,0 +1,263 @@
+{
+  "episode_id": "EP010",
+  "series": "Quiet Origins",
+  "language": "ja",
+  "title": "クランプスは本当にクリスマスより古いのか",
+  "subtitle": "司教の伝説、聖人に仕える悪魔、絵はがきの流行、そして異教の過去を探した人々",
+  "script_version": "v02 (2026-11-02, approved by the owner)",
+  "opening_after": "P02",
+  "chapters": [
+    {
+      "id": "C01",
+      "title": "暗い連れ"
+    },
+    {
+      "id": "C02",
+      "title": "贈り物を届けた司教"
+    },
+    {
+      "id": "C03",
+      "title": "聖人に仕える悪魔"
+    },
+    {
+      "id": "C04",
+      "title": "絵はがきの悪魔"
+    },
+    {
+      "id": "C05",
+      "title": "クリスマスより古いのか"
+    }
+  ],
+  "sources": [
+    {
+      "id": "K-S01",
+      "title": "Michael Ott, \"St. Nicholas of Myra,\" The Catholic Encyclopedia, vol. 11, New York: Robert Appleton, 1911",
+      "kind": "primary_text",
+      "status": "checked by Codex 2026-11-02 (web transcription, New Advent): 'there is scarcely anything historically certain about him except that he was Bishop of Myra in the fourth century'; Myra = modern Demre, Turkey (UNESCO tentative list)"
+    },
+    {
+      "id": "K-S02",
+      "title": "Jacobus de Voragine, The Golden Legend, trans. William Caxton, ed. F. S. Ellis, Temple Classics, 1900, vol. 2, pp. 110-111",
+      "kind": "primary_text",
+      "status": "checked by Codex 2026-11-02 (book images pp110-111, IA TheGoldenLegendV2, text check only): gold thrown by night into the man's house, three times, three daughters; no window in this text. c. 1260"
+    },
+    {
+      "id": "K-S03",
+      "title": "Susanne Breuss, \"Der Krampus,\" Wien Museum Magazin, 2020-12-03",
+      "kind": "research",
+      "status": "checked by Codex 2026-11-02: origins unclear; 17th-c. Vienna house visits mentioned without archival reference. Earliest dates not used in the script"
+    },
+    {
+      "id": "K-S04",
+      "title": "University of Innsbruck, \"Klaubauf\" (Feste und Bräuche database)",
+      "kind": "research",
+      "status": "checked by Codex 2026-11-02: Klaubauf in East Tyrol, Upper Carinthia, Vinschgau; Perchten (around 6 January) mixed with Nicholas customs by at least the 18th century; Matrei complaints 1736/1744 (not treated as first record)"
+    },
+    {
+      "id": "K-S05",
+      "title": "Stephen Winick, \"Krampus: Origins and Development of a Winter Devil,\" Library of Congress Folklife Today, 2025-12-03",
+      "kind": "research",
+      "status": "checked by Codex 2026-11-02: etymology uncertain (Krampe etc.); 1935 newspaper criticism; postcards 1885-WWI; 21st-c. spread in the US (1962 Krampus Ball also noted)"
+    },
+    {
+      "id": "K-S06",
+      "title": "Austrian Post history; USPS history of postcards; CSB/SJU Libraries exhibit",
+      "kind": "research",
+      "status": "checked by Codex 2026-11-02: Austria-Hungary introduced the Correspondenz-Karte in 1869 (1 October), often called the first official postcard"
+    },
+    {
+      "id": "K-S07",
+      "title": "Wiener Werkstätte postcards nos. 238, 247, 541, 542 (1909-1911), Wien Museum, CC0",
+      "kind": "museum_object",
+      "status": "checked by Codex 2026-11-02: color lithographs; long tongue, chains, bundle of twigs, figures carried on the back. Print runs not known"
+    },
+    {
+      "id": "K-S08",
+      "title": "Jacob Grimm, Teutonic Mythology, trans. J. S. Stallybrass, vol. II, London: George Bell, 1883, p. 515",
+      "kind": "primary_text",
+      "status": "checked by Codex 2026-11-02 (book image p515, IA, text check only): 'I can well imagine that even in heathen times the divinity, whose appearing heralded a happy time, had at his side some merry elf or dwarf as his attendant'. Not confirmed in the 1835 first edition"
+    },
+    {
+      "id": "K-S09",
+      "title": "Breuss 2020 (citing Die Frau and Arbeiter-Zeitung, 1929); Waterbury Democrat, 1935-12-20 (via Winick)",
+      "kind": "research",
+      "status": "checked by Codex 2026-11-02: criticism of frightening children; no state ban confirmed"
+    }
+  ],
+  "segments": [
+    {
+      "id": "P01",
+      "chapter": "C01",
+      "sources": [],
+      "classification": "editorial_question",
+      "visuals": [
+        "K01a"
+      ],
+      "text": "12月5日の夜、アルプスの町々を、角を生やし、長く赤い舌を垂らした毛むくじゃらの姿が、鎖を鳴らしながら通りを歩きます。その名はクランプス。贈り物を届けるやさしい司教、聖ニコラウスのそばを歩き、悪い子どもたちのもとへやって来ます。クランプスはクリスマスよりずっと古い、冬の異教の精霊だ、とよく言われます。では、いちばん古い記録には、何が書かれているのでしょう。"
+    },
+    {
+      "id": "P02",
+      "chapter": "C01",
+      "sources": [],
+      "classification": "editorial_question",
+      "visuals": [
+        "K06a"
+      ],
+      "text": "今回は、一人の司教の伝説から、昔のニコラウスの行事に出てくる悪魔たちへ、色あざやかな絵はがきの流行へ、そして最後に、クランプスは本当はどれほど古いのかという問いへと、たどっていきます。"
+    },
+    {
+      "id": "P03",
+      "chapter": "C02",
+      "sources": [
+        "K-S01",
+        "K-S02"
+      ],
+      "classification": "sourced_narration",
+      "visuals": [
+        "K05b",
+        "K04a"
+      ],
+      "text": "クランプスの話は、その連れから始まります。聖ニコラウスは、4世紀、今のトルコにあったミュラの町の司教だったと伝えられます。その生涯について確かなことは、ほとんど分かっていません。けれど彼の伝説は、ヨーロッパ中に広まりました。よく知られた話の一つが、13世紀の『黄金伝説』に語られています。ニコラウスは夜、人知れず貧しい男の家に金を投げ入れ、その三人の娘が嫁げるようにしたのです。それも、三度にわたって。"
+    },
+    {
+      "id": "P04",
+      "chapter": "C02",
+      "sources": [
+        "K-S03"
+      ],
+      "classification": "sourced_narration",
+      "visuals": [
+        "K05c",
+        "D_dec6"
+      ],
+      "text": "やがて、聖人の祝日である12月6日は、子どもへの贈り物と結びつきます。土地によっては、聖人の訪問に、ひとつの問いがついてきました。子どもたちは、良い子にしていたか。贈り物をくれる人は、裁く人にもなったのです。そして裁く人には、どうやら罰を下す役が必要でした。"
+    },
+    {
+      "id": "P05",
+      "chapter": "C03",
+      "sources": [
+        "K-S03",
+        "K-S04"
+      ],
+      "classification": "sourced_narration",
+      "visuals": [
+        "K09b"
+      ],
+      "text": "ニコラウスの暗い連れが記録に現れるとき、彼らはこうしたキリスト教の行事の中にいます。劇や、家々を回る訪問です。ニコラウスは、仮面をつけ、毛皮をまとい、鈴を下げた悪魔の姿の者たちを連れてやって来ます。こうしたキリスト教の場では、悪魔は聖人の権威の下に置かれます。恐ろしい連れでさえ、聖人のために働いているのです。"
+    },
+    {
+      "id": "P06",
+      "chapter": "C03",
+      "sources": [
+        "K-S04",
+        "K-S05"
+      ],
+      "classification": "sourced_narration",
+      "visuals": [
+        "D_names"
+      ],
+      "text": "連れの名前は、さまざまでした。ドイツの多くの地域ではクネヒト・ループレヒト。チロルやケルンテンの一部ではクラウバウフ。オーストリアではクランプス。この名の由来ははっきりしませんが、かぎや、かぎ爪を表す古い言葉と結びつけて説明されることが多い名前です。名前も、衣装も、役目も、谷ごとに違っていました。クランプスは、一人ではなかったのです。"
+    },
+    {
+      "id": "P07",
+      "chapter": "C04",
+      "sources": [
+        "K-S06",
+        "K-S07"
+      ],
+      "classification": "sourced_narration",
+      "visuals": [
+        "D_1869",
+        "K06b"
+      ],
+      "text": "今、多くの人が思い浮かべるクランプスの姿は、絵はがきに負うところが大きいのです。1869年、オーストリア＝ハンガリーは、世界初の公式のはがきとよく言われるものを導入しました。それから数十年のうちに、ニコラウスの季節の色あざやかなはがきが数多く刷られ、その多くにクランプスが登場しました。"
+    },
+    {
+      "id": "P08",
+      "chapter": "C04",
+      "sources": [
+        "K-S07"
+      ],
+      "classification": "sourced_narration",
+      "visuals": [
+        "K03a"
+      ],
+      "text": "はがきの上で、クランプスはおなじみの姿になっていきます。黒っぽい毛皮、角、長く赤い舌、鎖、小枝の束。ときには、子どもたちを背負って連れ去る姿も。怖がらせるためのはがきもありました。一方で、目を引くデザインの作品になったはがきもあります。ここに映る、1910年ごろにウィーンの工房で作られたはがきは、今、市の博物館に収められています。"
+    },
+    {
+      "id": "P09",
+      "chapter": "C05",
+      "sources": [
+        "K-S08",
+        "K-S04"
+      ],
+      "classification": "sourced_narration",
+      "visuals": [
+        "D_grimm",
+        "K09a"
+      ],
+      "text": "では、異教のクランプスという考えは、どこから来たのでしょう。19世紀、ヤーコプ・グリムのような書き手たちは、後の時代の行事の中に、キリスト教以前の過去の名残を探しました。グリムは、異教の時代にも、幸せな時の訪れを告げる神が、愉快な妖精や小人をそばに従えていたことは十分想像できる、と書いています。それは想像であって、記録の引用ではありません。年明けごろに行われるペルヒテンのような、仮面をつけた冬の行列は、こうした考えにぴったり合うように見えました。そして土地によっては、こうした行事は、18世紀にはすでにニコラウスの行事と混ざり合っていたのです。"
+    },
+    {
+      "id": "P10",
+      "chapter": "C05",
+      "sources": [
+        "K-S04"
+      ],
+      "classification": "sourced_narration",
+      "visuals": [
+        "D_noancient"
+      ],
+      "text": "より古い冬の習わしが、仮面や毛皮の姿に影響した可能性はあります。けれど、クランプスの名を記した古代の文献はありません。そして残る記録は、彼をキリスト教のニコラウスの行事の中に置いています。"
+    },
+    {
+      "id": "P11",
+      "chapter": "C05",
+      "sources": [
+        "K-S09",
+        "K-S05"
+      ],
+      "classification": "sourced_narration",
+      "visuals": [
+        "K07b"
+      ],
+      "text": "20世紀には、クランプスで子どもを怖がらせることへの批判も出ました。それでも、行事は続きました。今では、アルプスでクランプスの行列が大勢の人を集め、ここ数十年で、アルプスの外でも新たな人々に知られるようになりました。"
+    },
+    {
+      "id": "P12",
+      "chapter": "C05",
+      "sources": [
+        "K-S01",
+        "K-S02",
+        "K-S04",
+        "K-S06",
+        "K-S08"
+      ],
+      "classification": "editorial_summary",
+      "visuals": [
+        "D_summary"
+      ],
+      "text": "では、クランプスはクリスマスより古いのか。記録が語るのは、別の物語です。聖人に仕える悪魔として現れ、アルプスでさまざまな名で呼ばれ、刷られたはがきでおなじみの顔になった。その根は、もっと深いところにあるのかもしれません。けれど資料でたどれるかぎり、彼の物語は、贈り物を届けた一人の司教から始まっています。"
+    },
+    {
+      "id": "P13",
+      "chapter": "C05",
+      "sources": [],
+      "classification": "editorial_closing",
+      "visuals": [
+        "K10a"
+      ],
+      "text": "どの物語にも由来がある。ときには、それは冬の夜に戸をたたく音から始まります。"
+    },
+    {
+      "id": "P14",
+      "chapter": "C05",
+      "sources": [],
+      "classification": "credits",
+      "visuals": [
+        "credits"
+      ],
+      "text": "この動画は、歴史上の文献と公開された美術館のコレクションをもとに構成しました。ナレーションには音声合成を使っています。出典と利用条件は概要欄にまとめています。楽しんでいただけたら、高評価とチャンネル登録をお願いします。ご覧いただき、ありがとうございました。"
+    }
+  ]
+}
