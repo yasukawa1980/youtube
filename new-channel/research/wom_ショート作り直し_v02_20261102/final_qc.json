@@ -1,0 +1,366 @@
+[
+  {
+    "id": "A1R",
+    "path": "/Volumes/ESD-02/新チャンネル/ショート/作り直し_v02_20261102/deliverables/QO_short_remake_A1R_v02.mp4",
+    "sha256": "d898a3370968cf7541c6a0b1b0c0b7249973b630f4142166876e7c9d113cf4ab",
+    "bytes": 14028196,
+    "video_duration": 22.366666666666667,
+    "container_duration": 22.366667,
+    "video_format": {
+      "codec_name": "h264",
+      "profile": "High",
+      "pix_fmt": "yuv420p",
+      "width": 1080,
+      "height": 1920,
+      "r_frame_rate": "30/1",
+      "nb_frames": "671"
+    },
+    "continuous_decode_warning_count": 0,
+    "audio": {
+      "input_i": "-14.02",
+      "input_tp": "-1.86",
+      "input_lra": "16.30",
+      "input_thresh": "-25.36",
+      "output_i": "-14.11",
+      "output_tp": "-1.66",
+      "output_lra": "2.30",
+      "output_thresh": "-24.95",
+      "normalization_type": "dynamic",
+      "target_offset": "0.11"
+    },
+    "voice_onset": 0.08,
+    "native_voice_end": 19.84125,
+    "last_voice_activity": 19.53,
+    "cta_start": 19.866666666666667,
+    "cta_end": 22.366666666666667,
+    "cta_duration": 2.5,
+    "cta_horizontal_scale": 1,
+    "caption_text_exact": true,
+    "cross_sentence_caption_count": 0,
+    "subtitle_contrast": [
+      {
+        "page": 0,
+        "text": "Who really judged the dead?",
+        "frame": 29,
+        "contrast_ratio": 6.122775697007163,
+        "minimum_text_luminance": 0.7680834633536369,
+        "maximum_background_luminance": 0.08361316890205847
+      },
+      {
+        "page": 1,
+        "text": "Not Anubis alone.",
+        "frame": 86,
+        "contrast_ratio": 6.708927289821937,
+        "minimum_text_luminance": 0.7467247121634651,
+        "maximum_background_luminance": 0.0687559020608511
+      },
+      {
+        "page": 2,
+        "text": "On this Egyptian papyrus, the heart is weighed",
+        "frame": 155,
+        "contrast_ratio": 15.618225598546855,
+        "minimum_text_luminance": 0.7882356344865497,
+        "maximum_background_luminance": 0.003670350014955629
+      },
+      {
+        "page": 3,
+        "text": "on a scale.",
+        "frame": 217,
+        "contrast_ratio": 13.866049264188533,
+        "minimum_text_luminance": 0.6941957173336165,
+        "maximum_background_luminance": 0.003670350014955629
+      },
+      {
+        "page": 4,
+        "text": "Anubis weighs.",
+        "frame": 262,
+        "contrast_ratio": 13.11143540470365,
+        "minimum_text_luminance": 0.7226334501749901,
+        "maximum_background_luminance": 0.00892821238304789
+      },
+      {
+        "page": 5,
+        "text": "Thoth, the ibis-headed god, records the result.",
+        "frame": 344,
+        "contrast_ratio": 15.643776231455163,
+        "minimum_text_luminance": 0.7882356344865497,
+        "maximum_background_luminance": 0.0035826914221067244
+      },
+      {
+        "page": 6,
+        "text": "And if the scale balanced, Osiris received the dead.",
+        "frame": 461,
+        "contrast_ratio": 13.078887134618466,
+        "minimum_text_luminance": 0.6951493708845957,
+        "maximum_background_luminance": 0.00697345372086454
+      },
+      {
+        "page": 7,
+        "text": "Judgment was a scene with many gods.",
+        "frame": 558,
+        "contrast_ratio": 15.852056464912357,
+        "minimum_text_luminance": 0.7916209290356981,
+        "maximum_background_luminance": 0.003092223769110279
+      }
+    ],
+    "minimum_contrast": 6.122775697007163,
+    "headline_contrast": {
+      "contrast_ratio": 6.194126185295184,
+      "minimum_text_luminance": 0.7584456089158831,
+      "maximum_background_luminance": 0.08051810452863031
+    },
+    "word_count_exceptions": [
+      {
+        "text": "Who really judged the dead?",
+        "lines": [
+          "Who really judged",
+          "the dead?"
+        ],
+        "reason": "Exact sentence boundary takes precedence for short sentences / remainders."
+      },
+      {
+        "text": "Not Anubis alone.",
+        "lines": [
+          "Not Anubis alone."
+        ],
+        "reason": "Exact sentence boundary takes precedence for short sentences / remainders."
+      },
+      {
+        "text": "on a scale.",
+        "lines": [
+          "on a scale."
+        ],
+        "reason": "Exact sentence boundary takes precedence for short sentences / remainders."
+      },
+      {
+        "text": "Anubis weighs.",
+        "lines": [
+          "Anubis weighs."
+        ],
+        "reason": "Exact sentence boundary takes precedence for short sentences / remainders."
+      },
+      {
+        "text": "Thoth, the ibis-headed god, records the result.",
+        "lines": [
+          "records the result."
+        ],
+        "reason": "Exact sentence boundary takes precedence for short sentences / remainders."
+      },
+      {
+        "text": "Judgment was a scene with many gods.",
+        "lines": [
+          "with many gods."
+        ],
+        "reason": "Exact sentence boundary takes precedence for short sentences / remainders."
+      }
+    ],
+    "foreground_height_fraction": 0.7708333333333334,
+    "first_evidence_cut": 3.8,
+    "cut_timing_note": "The individual approved phrase cues take precedence over the generic approximately-1.5-second guidance.",
+    "cuts": [
+      {
+        "asset": "met_590939",
+        "start": 0.0,
+        "end": 3.8,
+        "cue": null
+      },
+      {
+        "asset": "met_557657",
+        "start": 3.8,
+        "end": 9.533333333333333,
+        "cue": "On this Egyptian papyrus"
+      },
+      {
+        "asset": "met_552247",
+        "start": 9.533333333333333,
+        "end": 22.366666666666667,
+        "cue": "Thoth the ibisheaded god"
+      }
+    ],
+    "motion": [
+      {
+        "asset_id": "met_590939",
+        "p95_over_median": 1.0349219799181926,
+        "method": "Rendered camera source-coordinate trajectory, per-frame Euclidean displacement; shot boundaries excluded. Not optical flow.",
+        "native_max_scale": 1.037922077922078,
+        "passed": true
+      },
+      {
+        "asset_id": "met_557657",
+        "p95_over_median": 1.0000000000001499,
+        "method": "Rendered camera source-coordinate trajectory, per-frame Euclidean displacement; shot boundaries excluded. Not optical flow.",
+        "native_max_scale": 1.5869980879541108,
+        "passed": true
+      },
+      {
+        "asset_id": "met_552247",
+        "p95_over_median": 1.0133552161729946,
+        "method": "Rendered camera source-coordinate trajectory, per-frame Euclidean displacement; shot boundaries excluded. Not optical flow.",
+        "native_max_scale": 0.8730023094688222,
+        "passed": true
+      }
+    ],
+    "human_full_listening": false,
+    "youtube_posted": false,
+    "audio_stream_identical_to_v01": true,
+    "caption_glyph_height": 52,
+    "caption_rows": [
+      {
+        "text": "Who really judged",
+        "first_word": "Who",
+        "last_word": "judged",
+        "glyph_height": 52,
+        "bbox": [
+          282,
+          1198,
+          679,
+          1250
+        ]
+      },
+      {
+        "text": "the dead?",
+        "first_word": "the",
+        "last_word": "dead?",
+        "glyph_height": 52,
+        "bbox": [
+          343,
+          1294,
+          617,
+          1346
+        ]
+      },
+      {
+        "text": "Not Anubis alone.",
+        "first_word": "Not",
+        "last_word": "alone.",
+        "glyph_height": 52,
+        "bbox": [
+          231,
+          1240,
+          729,
+          1292
+        ]
+      },
+      {
+        "text": "On this Egyptian papyrus,",
+        "first_word": "On",
+        "last_word": "papyrus,",
+        "glyph_height": 52,
+        "bbox": [
+          196,
+          1198,
+          763,
+          1250
+        ]
+      },
+      {
+        "text": "the heart is weighed",
+        "first_word": "the",
+        "last_word": "weighed",
+        "glyph_height": 52,
+        "bbox": [
+          258,
+          1294,
+          701,
+          1346
+        ]
+      },
+      {
+        "text": "on a scale.",
+        "first_word": "on",
+        "last_word": "scale.",
+        "glyph_height": 52,
+        "bbox": [
+          329,
+          1240,
+          631,
+          1292
+        ]
+      },
+      {
+        "text": "Anubis weighs.",
+        "first_word": "Anubis",
+        "last_word": "weighs.",
+        "glyph_height": 52,
+        "bbox": [
+          311,
+          1240,
+          649,
+          1292
+        ]
+      },
+      {
+        "text": "Thoth, the ibis-headed god,",
+        "first_word": "Thoth,",
+        "last_word": "god,",
+        "glyph_height": 52,
+        "bbox": [
+          180,
+          1198,
+          781,
+          1250
+        ]
+      },
+      {
+        "text": "records the result.",
+        "first_word": "records",
+        "last_word": "result.",
+        "glyph_height": 52,
+        "bbox": [
+          223,
+          1294,
+          737,
+          1346
+        ]
+      },
+      {
+        "text": "And if the scale balanced,",
+        "first_word": "And",
+        "last_word": "balanced,",
+        "glyph_height": 52,
+        "bbox": [
+          184,
+          1198,
+          777,
+          1250
+        ]
+      },
+      {
+        "text": "Osiris received the dead.",
+        "first_word": "Osiris",
+        "last_word": "dead.",
+        "glyph_height": 52,
+        "bbox": [
+          136,
+          1294,
+          825,
+          1346
+        ]
+      },
+      {
+        "text": "Judgment was a scene",
+        "first_word": "Judgment",
+        "last_word": "scene",
+        "glyph_height": 52,
+        "bbox": [
+          228,
+          1198,
+          733,
+          1250
+        ]
+      },
+      {
+        "text": "with many gods.",
+        "first_word": "with",
+        "last_word": "gods.",
+        "glyph_height": 52,
+        "bbox": [
+          300,
+          1294,
+          661,
+          1346
+        ]
+      }
+    ]
+  }
+]

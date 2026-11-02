@@ -288,12 +288,12 @@ def frame_art(shot,frac,loaded):
  crop=im.transform((w,h),Image.Transform.EXTENT,(cx-cw/2,cy-ch/2,cx+cw/2,cy+ch/2),Image.Resampling.BICUBIC)
  frame=bg.copy();frame.paste(crop,(x,y));return Image.alpha_composite(frame.convert('RGBA'),header)
 
-def render(ids):
+def render(ids,version="v01"):
  rows=read(ROOT/'records/shorts.json')['shorts'];shots=read(ROOT/'records/visual_manifest.json')['shots'];caps=read(ROOT/'records/caption_manifest.json');cta=Image.open(ROOT/'assets/common_cta.png').convert('RGBA');reports=[]
  for s in rows:
   sid=s['id']
   if sid not in ids:continue
-  out=ROOT/f'deliverables/QO_short_remake_{sid}_v01.mp4';group=[x for x in shots if x['short_id']==sid];caption=[x for x in caps if x['short_id']==sid];cp=[Image.open(x['file']).convert('RGBA') for x in caption];headline=Image.open(ROOT/f'assets/{sid}_headline.png').convert('RGBA')
+  out=ROOT/f'deliverables/QO_short_remake_{sid}_{version}.mp4';group=[x for x in shots if x['short_id']==sid];caption=[x for x in caps if x['short_id']==sid];cp=[Image.open(x['file']).convert('RGBA') for x in caption];headline=Image.open(ROOT/f'assets/{sid}_headline.png').convert('RGBA')
   cmd=[BIN,'-nostdin','-y','-v','warning','-f','rawvideo','-pix_fmt','rgb24','-s','1080x1920','-r','30','-i','pipe:0','-i',str(ROOT/f'audio/{sid}_final.m4a'),'-map','0:v','-map','1:a','-c:v','libx264','-threads','4','-preset','veryfast','-crf','18','-profile:v','high','-pix_fmt','yuv420p','-frames:v',str(s['frames']),'-fps_mode','passthrough','-video_track_timescale','15360','-color_primaries','bt709','-color_trc','bt709','-colorspace','bt709','-c:a','copy','-movflags','+faststart',str(out)]
   with (ROOT/f'records/{sid}_encode.log').open('w') as log:
    proc=subprocess.Popen(cmd,stdin=subprocess.PIPE,stderr=log)
