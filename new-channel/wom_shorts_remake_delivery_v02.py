@@ -11,7 +11,7 @@ def main():
  photos=REPO/'new-channel/サムネ確認用/shorts_remake_v02';photos.mkdir(exist_ok=True,parents=True)
  for p in ROOT.glob('review/*.jpg'):shutil.copy2(p,photos/p.name)
  rows=[dict(id=sid,**r) for sid in ['A1R','M1R','P1R','T1R','A3R'] for r in qc[sid]['caption_rows']]
- with (target/'caption_rows.csv').open('w',newline='') as f:w=csv.DictWriter(f,fieldnames=list(rows[0]));w.writeheader();w.writerows(rows)
+ with (target/'caption_rows.csv').open('w',newline='') as f:w=csv.DictWriter(f,fieldnames=list(rows[0]),lineterminator="\n");w.writeheader();w.writerows(rows)
  text='''# 旧型ショート5本 v02 修正結果
 
 2026-11-02制作開始、11-03完了。5本ともClaude確認・本人試聴待ち。A1Rは先行コミット `fce63d1` で共有済み、その完成MP4は変更していない。

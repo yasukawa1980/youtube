@@ -1,0 +1,739 @@
+{
+  "source_video_sha256": "b0a691868f42e3b155e474c0dd9b6595cb7c0de447b18ba21f2371fc9d2230b9",
+  "passed": true,
+  "content_shots": 18,
+  "brand_shots": 2,
+  "source_uses": {
+    "K01a": 1,
+    "K06a": 1,
+    "K05b": 1,
+    "K04a": 1,
+    "K05c": 1,
+    "K09b": 1,
+    "K06b": 1,
+    "K03a": 1,
+    "K09a": 1,
+    "K07b": 1,
+    "K10a": 1
+  },
+  "color_summary": {
+    "color": {
+      "shots": 8,
+      "seconds": 143.26666666666665
+    },
+    "brand": {
+      "shots": 2,
+      "seconds": 14.0
+    },
+    "diagram": {
+      "shots": 6,
+      "seconds": 124.49999999999999
+    },
+    "warm_monochrome": {
+      "shots": 3,
+      "seconds": 63.36666666666666
+    },
+    "credits": {
+      "shots": 1,
+      "seconds": 22.133333333333333
+    }
+  },
+  "color_shots": [
+    {
+      "key": "K01a",
+      "class": "color",
+      "start": 0.0,
+      "end": 33.7,
+      "seconds": 33.7
+    },
+    {
+      "key": "K06a",
+      "class": "color",
+      "start": 33.7,
+      "end": 51.0,
+      "seconds": 17.3
+    },
+    {
+      "key": "opening",
+      "class": "brand",
+      "start": 51.0,
+      "end": 55.0,
+      "seconds": 4.0
+    },
+    {
+      "key": "K05b",
+      "class": "color",
+      "start": 55.0,
+      "end": 73.33333333333333,
+      "seconds": 18.333333333333332
+    },
+    {
+      "key": "K04a",
+      "class": "color",
+      "start": 73.33333333333333,
+      "end": 89.9,
+      "seconds": 16.566666666666666
+    },
+    {
+      "key": "K05c",
+      "class": "color",
+      "start": 89.9,
+      "end": 100.06666666666666,
+      "seconds": 10.166666666666666
+    },
+    {
+      "key": "D_dec6",
+      "class": "diagram",
+      "start": 100.06666666666666,
+      "end": 113.6,
+      "seconds": 13.533333333333333
+    },
+    {
+      "key": "K09b",
+      "class": "warm_monochrome",
+      "start": 113.6,
+      "end": 140.16666666666666,
+      "seconds": 26.566666666666666
+    },
+    {
+      "key": "D_names",
+      "class": "diagram",
+      "start": 140.16666666666666,
+      "end": 168.7,
+      "seconds": 28.533333333333335
+    },
+    {
+      "key": "D_1869",
+      "class": "diagram",
+      "start": 168.7,
+      "end": 182.96666666666667,
+      "seconds": 14.266666666666667
+    },
+    {
+      "key": "K06b",
+      "class": "color",
+      "start": 182.96666666666667,
+      "end": 192.53333333333333,
+      "seconds": 9.566666666666666
+    },
+    {
+      "key": "K03a",
+      "class": "color",
+      "start": 192.53333333333333,
+      "end": 222.3,
+      "seconds": 29.766666666666666
+    },
+    {
+      "key": "D_grimm",
+      "class": "diagram",
+      "start": 222.3,
+      "end": 248.56666666666666,
+      "seconds": 26.266666666666666
+    },
+    {
+      "key": "K09a",
+      "class": "warm_monochrome",
+      "start": 248.56666666666666,
+      "end": 267.3,
+      "seconds": 18.733333333333334
+    },
+    {
+      "key": "D_noancient",
+      "class": "diagram",
+      "start": 267.3,
+      "end": 283.6333333333333,
+      "seconds": 16.333333333333332
+    },
+    {
+      "key": "K07b",
+      "class": "warm_monochrome",
+      "start": 283.6333333333333,
+      "end": 301.7,
+      "seconds": 18.066666666666666
+    },
+    {
+      "key": "D_summary",
+      "class": "diagram",
+      "start": 301.7,
+      "end": 327.26666666666665,
+      "seconds": 25.566666666666666
+    },
+    {
+      "key": "K10a",
+      "class": "color",
+      "start": 327.26666666666665,
+      "end": 335.1333333333333,
+      "seconds": 7.866666666666666
+    },
+    {
+      "key": "credits",
+      "class": "credits",
+      "start": 335.1333333333333,
+      "end": 357.26666666666665,
+      "seconds": 22.133333333333333
+    },
+    {
+      "key": "endcard",
+      "class": "brand",
+      "start": 357.26666666666665,
+      "end": 367.26666666666665,
+      "seconds": 10.0
+    }
+  ],
+  "native_scales": [
+    {
+      "key": "K01a",
+      "source_pixels": [
+        3500,
+        5460
+      ],
+      "crop_pixels": [
+        0,
+        0,
+        3500,
+        5460
+      ],
+      "initial_scale": 0.17399267399267399,
+      "max_scale": 0.18182999999999996
+    },
+    {
+      "key": "K06a",
+      "source_pixels": [
+        3500,
+        5505
+      ],
+      "crop_pixels": [
+        0,
+        0,
+        3500,
+        5505
+      ],
+      "initial_scale": 0.17257039055404177,
+      "max_scale": 0.18033714285714283
+    },
+    {
+      "key": "K05b",
+      "source_pixels": [
+        1369,
+        2400
+      ],
+      "crop_pixels": [
+        0,
+        0,
+        1369,
+        2400
+      ],
+      "initial_scale": 0.3958333333333333,
+      "max_scale": 0.4137253469685902
+    },
+    {
+      "key": "K04a",
+      "source_pixels": [
+        3811,
+        2101
+      ],
+      "crop_pixels": [
+        0,
+        0,
+        3811,
+        2101
+      ],
+      "initial_scale": 0.45216563541170873,
+      "max_scale": 0.4725130890052356
+    },
+    {
+      "key": "K05c",
+      "source_pixels": [
+        1899,
+        3839
+      ],
+      "crop_pixels": [
+        0,
+        0,
+        1899,
+        3839
+      ],
+      "initial_scale": 0.24746027611357124,
+      "max_scale": 0.2586361242759347
+    },
+    {
+      "key": "K09b",
+      "source_pixels": [
+        5194,
+        5969
+      ],
+      "crop_pixels": [
+        831,
+        1074,
+        5090,
+        4895
+      ],
+      "initial_scale": 0.24862601413242608,
+      "max_scale": 0.25983916412303354
+    },
+    {
+      "key": "K06b",
+      "source_pixels": [
+        3500,
+        5358
+      ],
+      "crop_pixels": [
+        70,
+        107,
+        3430,
+        3536
+      ],
+      "initial_scale": 0.2770487022455526,
+      "max_scale": 0.2895520833333333
+    },
+    {
+      "key": "K03a",
+      "source_pixels": [
+        3500,
+        5435
+      ],
+      "crop_pixels": [
+        88,
+        136,
+        2450,
+        1196
+      ],
+      "initial_scale": 0.7578323454699407,
+      "max_scale": 0.7767781541066892
+    },
+    {
+      "key": "K09a",
+      "source_pixels": [
+        3696,
+        5114
+      ],
+      "crop_pixels": [
+        296,
+        409,
+        3400,
+        4603
+      ],
+      "initial_scale": 0.22651406771578445,
+      "max_scale": 0.23670720076299473
+    },
+    {
+      "key": "K07b",
+      "source_pixels": [
+        3500,
+        2976
+      ],
+      "crop_pixels": [
+        88,
+        74,
+        3412,
+        2619
+      ],
+      "initial_scale": 0.37328094302554027,
+      "max_scale": 0.39014590854392295
+    },
+    {
+      "key": "K10a",
+      "source_pixels": [
+        3811,
+        2998
+      ],
+      "crop_pixels": [
+        0,
+        0,
+        3811,
+        2998
+      ],
+      "initial_scale": 0.31687791861240827,
+      "max_scale": 0.331241144056678
+    }
+  ],
+  "maximum_text_bottom_y": 698,
+  "exact_screen_quotes": {
+    "D_grimm": "\"I can well imagine that even in heathen times...\""
+  },
+  "japanese_gaps": [
+    {
+      "after": "P01-01",
+      "before": "P01-02",
+      "seconds": 0.5788333333333338
+    },
+    {
+      "after": "P01-02",
+      "before": "P01-03",
+      "seconds": 0.4988333333333337
+    },
+    {
+      "after": "P01-03",
+      "before": "P01-04",
+      "seconds": 0.4988333333333337
+    },
+    {
+      "after": "P01-04",
+      "before": "P01-05",
+      "seconds": 0.4988333333333337
+    },
+    {
+      "after": "P01-05",
+      "before": "segment end",
+      "seconds": 1.9206666666666692
+    },
+    {
+      "after": "P02-01",
+      "before": "P02-02",
+      "seconds": 0.5966666666666711
+    },
+    {
+      "after": "P02-02",
+      "before": "P02-03",
+      "seconds": 0.3200000000000003
+    },
+    {
+      "after": "P02-03",
+      "before": "P02-04",
+      "seconds": 0.3200000000000003
+    },
+    {
+      "after": "P02-04",
+      "before": "P02-05",
+      "seconds": 0.3199999999999932
+    },
+    {
+      "after": "P02-05",
+      "before": "P02-06",
+      "seconds": 0.36199999999999477
+    },
+    {
+      "after": "P02-06",
+      "before": "P02-07",
+      "seconds": 0.3200000000000003
+    },
+    {
+      "after": "P02-07",
+      "before": "segment end",
+      "seconds": 1.4080000000000013
+    },
+    {
+      "after": "P03-01",
+      "before": "P03-02",
+      "seconds": 0.3200000000000003
+    },
+    {
+      "after": "P03-02",
+      "before": "P03-03",
+      "seconds": 0.3199999999999932
+    },
+    {
+      "after": "P03-03",
+      "before": "P03-04",
+      "seconds": 0.3199999999999932
+    },
+    {
+      "after": "P03-04",
+      "before": "P03-05",
+      "seconds": 0.3999999999999915
+    },
+    {
+      "after": "P03-05",
+      "before": "P03-06",
+      "seconds": 0.3199999999999932
+    },
+    {
+      "after": "P03-06",
+      "before": "P03-07",
+      "seconds": 0.3199999999999932
+    },
+    {
+      "after": "P03-07",
+      "before": "segment end",
+      "seconds": 0.9106666666666712
+    },
+    {
+      "after": "P04-01",
+      "before": "P04-02",
+      "seconds": 0.3199999999999932
+    },
+    {
+      "after": "P04-02",
+      "before": "P04-03",
+      "seconds": 0.3200000000000074
+    },
+    {
+      "after": "P04-03",
+      "before": "P04-04",
+      "seconds": 0.3200000000000074
+    },
+    {
+      "after": "P04-04",
+      "before": "P04-05",
+      "seconds": 0.3200000000000074
+    },
+    {
+      "after": "P04-05",
+      "before": "segment end",
+      "seconds": 1.801333333333318
+    },
+    {
+      "after": "P05-01",
+      "before": "P05-02",
+      "seconds": 0.3199999999999932
+    },
+    {
+      "after": "P05-02",
+      "before": "P05-03",
+      "seconds": 0.3200000000000074
+    },
+    {
+      "after": "P05-03",
+      "before": "P05-04",
+      "seconds": 0.3199999999999932
+    },
+    {
+      "after": "P05-04",
+      "before": "P05-05",
+      "seconds": 0.3199999999999932
+    },
+    {
+      "after": "P05-05",
+      "before": "segment end",
+      "seconds": 0.9026666666666472
+    },
+    {
+      "after": "P06-01",
+      "before": "P06-02",
+      "seconds": 0.3199999999999932
+    },
+    {
+      "after": "P06-02",
+      "before": "P06-03",
+      "seconds": 0.3199999999999932
+    },
+    {
+      "after": "P06-03",
+      "before": "P06-04",
+      "seconds": 0.3199999999999932
+    },
+    {
+      "after": "P06-04",
+      "before": "P06-05",
+      "seconds": 0.3199999999999932
+    },
+    {
+      "after": "P06-05",
+      "before": "P06-06",
+      "seconds": 0.3200000000000216
+    },
+    {
+      "after": "P06-06",
+      "before": "P06-07",
+      "seconds": 0.3199999999999932
+    },
+    {
+      "after": "P06-07",
+      "before": "segment end",
+      "seconds": 1.8026666666666529
+    },
+    {
+      "after": "P07-01",
+      "before": "P07-02",
+      "seconds": 0.3199999999999932
+    },
+    {
+      "after": "P07-02",
+      "before": "P07-03",
+      "seconds": 0.3199999999999932
+    },
+    {
+      "after": "P07-03",
+      "before": "segment end",
+      "seconds": 0.9320000000000164
+    },
+    {
+      "after": "P08-01",
+      "before": "P08-02",
+      "seconds": 0.3199999999999932
+    },
+    {
+      "after": "P08-02",
+      "before": "P08-03",
+      "seconds": 0.3199999999999932
+    },
+    {
+      "after": "P08-03",
+      "before": "P08-04",
+      "seconds": 0.3199999999999932
+    },
+    {
+      "after": "P08-04",
+      "before": "P08-05",
+      "seconds": 0.3199999999999932
+    },
+    {
+      "after": "P08-05",
+      "before": "P08-06",
+      "seconds": 0.3199999999999932
+    },
+    {
+      "after": "P08-06",
+      "before": "segment end",
+      "seconds": 1.8200000000000216
+    },
+    {
+      "after": "P09-01",
+      "before": "P09-02",
+      "seconds": 0.4000000000000057
+    },
+    {
+      "after": "P09-02",
+      "before": "P09-03",
+      "seconds": 0.3199999999999932
+    },
+    {
+      "after": "P09-03",
+      "before": "P09-04",
+      "seconds": 0.3199999999999932
+    },
+    {
+      "after": "P09-04",
+      "before": "P09-05",
+      "seconds": 0.3199999999999932
+    },
+    {
+      "after": "P09-05",
+      "before": "P09-06",
+      "seconds": 0.3199999999999932
+    },
+    {
+      "after": "P09-06",
+      "before": "segment end",
+      "seconds": 0.9200000000000159
+    },
+    {
+      "after": "P10-01",
+      "before": "P10-02",
+      "seconds": 0.3199999999999932
+    },
+    {
+      "after": "P10-02",
+      "before": "P10-03",
+      "seconds": 0.4000000000000341
+    },
+    {
+      "after": "P10-03",
+      "before": "segment end",
+      "seconds": 0.9039999999999964
+    },
+    {
+      "after": "P11-01",
+      "before": "P11-02",
+      "seconds": 0.3199999999999932
+    },
+    {
+      "after": "P11-02",
+      "before": "P11-03",
+      "seconds": 0.39999999999997726
+    },
+    {
+      "after": "P11-03",
+      "before": "segment end",
+      "seconds": 0.9200000000000159
+    },
+    {
+      "after": "P12-01",
+      "before": "P12-02",
+      "seconds": 0.3199999999999932
+    },
+    {
+      "after": "P12-02",
+      "before": "P12-03",
+      "seconds": 0.3199999999999932
+    },
+    {
+      "after": "P12-03",
+      "before": "P12-04",
+      "seconds": 0.3199999999999932
+    },
+    {
+      "after": "P12-04",
+      "before": "P12-05",
+      "seconds": 0.3199999999999932
+    },
+    {
+      "after": "P12-05",
+      "before": "segment end",
+      "seconds": 0.9159999999999968
+    },
+    {
+      "after": "P13-01",
+      "before": "P13-02",
+      "seconds": 0.3199999999999932
+    },
+    {
+      "after": "P13-02",
+      "before": "segment end",
+      "seconds": 1.6586666666666474
+    },
+    {
+      "after": "P14-01",
+      "before": "P14-02",
+      "seconds": 0.39999999999997726
+    },
+    {
+      "after": "P14-02",
+      "before": "P14-03",
+      "seconds": 0.39999999999997726
+    },
+    {
+      "after": "P14-03",
+      "before": "P14-04",
+      "seconds": 0.4000000000000341
+    },
+    {
+      "after": "P14-04",
+      "before": "P14-05",
+      "seconds": 0.4000000000000341
+    },
+    {
+      "after": "P14-05",
+      "before": "segment end",
+      "seconds": 1.2266666666666879
+    }
+  ],
+  "maximum_japanese_wait_seconds": 1.9206666666666692,
+  "opening_frames": [
+    {
+      "language": "en",
+      "mean_frame_brightness": [
+        187.26229817708332,
+        187.23930953414353,
+        187.18054506655093,
+        187.12736219618054
+      ],
+      "1sec_adjacent_image_mad": [
+        2.7025466579861113,
+        2.7228392650462965,
+        2.609021990740741
+      ]
+    },
+    {
+      "language": "ja",
+      "mean_frame_brightness": [
+        187.26229817708332,
+        187.23930953414353,
+        187.18054506655093,
+        187.12736219618054
+      ],
+      "1sec_adjacent_image_mad": [
+        2.7025466579861113,
+        2.7228392650462965,
+        2.609021990740741
+      ]
+    }
+  ],
+  "source_images_visually_inspected": true,
+  "visual_review_notes": "K03a restricted to horns, head and upper branches, without enlarged child or full tongue. K09b excludes left weapon; K07b color chart cropped out. K01a retains the whole postcard; figures remain small. Thumbnails and final contact sheets reviewed separately.",
+  "human_full_listening": false,
+  "reading_replacements": [],
+  "unchanged_scripts": true,
+  "ai_images_or_video": false,
+  "paid_generation": false
+}

@@ -1,0 +1,879 @@
+{
+  "language": "en",
+  "voice": "Kokoro / Heart (af_heart)",
+  "sample_rate": 24000,
+  "human_auditory_review_completed": false,
+  "segments": [
+    {
+      "id": "P01",
+      "chapter": "C01",
+      "sources": [],
+      "classification": "editorial_question",
+      "visuals": [
+        "K01a"
+      ],
+      "text": "On the night of December fifth, in towns across the Alps, a shaggy figure with horns, a long red tongue, and rattling chains comes through the streets. His name is Krampus. He walks beside Saint Nicholas, the kind bishop who brings gifts, and he has come for the children who misbehaved. People often say that Krampus is far older than Christmas, an ancient pagan spirit of winter. But what do the oldest records actually show?",
+      "cues": [
+        {
+          "id": "P01-01",
+          "text": "On the night of December fifth, in towns across the Alps, a shaggy figure with horns, a long red tongue, and rattling chains comes through the streets.",
+          "spoken_text": "On the night of December fifth, in towns across the Alps, a shaggy figure with horns, a long red tongue, and rattling chains comes through the streets.",
+          "start": 0.0,
+          "end": 10.619333333333334,
+          "audio_file": "audio/en/sentences/P01-01.wav",
+          "audio_sha256": "cdd32d319e04a695bb1232a6078dd97da24b178416e3292e78eb90db7761ffa1",
+          "replacements": [],
+          "role": "opening"
+        },
+        {
+          "id": "P01-02",
+          "text": "His name is Krampus.",
+          "spoken_text": "His name is Krampus.",
+          "start": 10.919333333333332,
+          "end": 12.754666666666667,
+          "audio_file": "audio/en/sentences/P01-02.wav",
+          "audio_sha256": "440e5fd94aba67fbe024e5f723a52997e25736a0fa8d84f8a220d00688e2b710",
+          "replacements": [],
+          "role": "plain"
+        },
+        {
+          "id": "P01-03",
+          "text": "He walks beside Saint Nicholas, the kind bishop who brings gifts, and he has come for the children who misbehaved.",
+          "spoken_text": "He walks beside Saint Nicholas, the kind bishop who brings gifts, and he has come for the children who misbehaved.",
+          "start": 13.054666666666666,
+          "end": 20.477958333333333,
+          "audio_file": "audio/en/sentences/P01-03.wav",
+          "audio_sha256": "a3dfc50335edb3fcecd877e1d7c532530f9edd8e89d8d4407047df9a6df3e773",
+          "replacements": [],
+          "role": "plain"
+        },
+        {
+          "id": "P01-04",
+          "text": "People often say that Krampus is far older than Christmas, an ancient pagan spirit of winter.",
+          "spoken_text": "People often say that Krampus is far older than Christmas, an ancient pagan spirit of winter.",
+          "start": 20.777958333333334,
+          "end": 27.721916666666665,
+          "audio_file": "audio/en/sentences/P01-04.wav",
+          "audio_sha256": "65f8423e9096718658b0ff373c611bc0288d52ed89bef300a4ce6ac2a7b4a526",
+          "replacements": [],
+          "role": "plain"
+        },
+        {
+          "id": "P01-05",
+          "text": "But what do the oldest records actually show?",
+          "spoken_text": "But what do the oldest records actually show?",
+          "start": 28.021916666666666,
+          "end": 30.97925,
+          "audio_file": "audio/en/sentences/P01-05.wav",
+          "audio_sha256": "eb359a3f3d3a9a4498cc453bf693757f64dd20bc850dde2ea538312170860045",
+          "replacements": [],
+          "role": "question"
+        }
+      ],
+      "audio_file": "audio/en/P01.wav",
+      "duration_seconds": 30.97925,
+      "native_speed": 0.82
+    },
+    {
+      "id": "P02",
+      "chapter": "C01",
+      "sources": [],
+      "classification": "editorial_question",
+      "visuals": [
+        "K06a"
+      ],
+      "text": "In this episode, we follow Krampus from a bishop's legend, to the devils of old Nicholas customs, to a wave of colorful postcards, and finally to the question of how old he really is.",
+      "cues": [
+        {
+          "id": "P02-01",
+          "text": "In this episode, we follow Krampus from a bishop's legend, to the devils of old Nicholas customs, to a wave of colorful postcards, and finally to the question of how old he really is.",
+          "spoken_text": "In this episode, we follow Krampus from a bishop's legend, to the devils of old Nicholas customs, to a wave of colorful postcards, and finally to the question of how old he really is.",
+          "start": 0.0,
+          "end": 14.331333333333333,
+          "audio_file": "audio/en/sentences/P02-01.wav",
+          "audio_sha256": "cd41af3a459f398ee53b70a3dc97ce64ee9916e09d8dc9ce180ff8889ebdf65a",
+          "replacements": [],
+          "role": "plain"
+        }
+      ],
+      "audio_file": "audio/en/P02.wav",
+      "duration_seconds": 14.331333333333333,
+      "native_speed": 0.82
+    },
+    {
+      "id": "P03",
+      "chapter": "C02",
+      "sources": [
+        "K-S01",
+        "K-S02"
+      ],
+      "classification": "sourced_narration",
+      "visuals": [
+        "K05b",
+        "K04a"
+      ],
+      "text": "Krampus begins with his companion. Saint Nicholas is said to have been a bishop of Myra, in what is now Turkey, in the fourth century. Almost nothing about his life is known for certain. But his legends spread across Europe. In one of the best known, told in the thirteenth-century Golden Legend, Nicholas secretly throws gold into a poor man's house at night, so that his three daughters can marry. He does it three times.",
+      "cues": [
+        {
+          "id": "P03-01",
+          "text": "Krampus begins with his companion.",
+          "spoken_text": "Krampus begins with his companion.",
+          "start": 0.0,
+          "end": 2.6772916666666666,
+          "audio_file": "audio/en/sentences/P03-01.wav",
+          "audio_sha256": "d48625237e44cb940b34ec1fdb66d0c189bea62bf28142b656bce18687ce562c",
+          "replacements": [],
+          "role": "plain"
+        },
+        {
+          "id": "P03-02",
+          "text": "Saint Nicholas is said to have been a bishop of Myra, in what is now Turkey, in the fourth century.",
+          "spoken_text": "Saint Nicholas is said to have been a bishop of Myra, in what is now Turkey, in the fourth century.",
+          "start": 2.9772916666666664,
+          "end": 9.558583333333333,
+          "audio_file": "audio/en/sentences/P03-02.wav",
+          "audio_sha256": "959ef262e671145885a49392ffc6075e34718b973c981e4f1ed59fb7845aa3ff",
+          "replacements": [],
+          "role": "plain"
+        },
+        {
+          "id": "P03-03",
+          "text": "Almost nothing about his life is known for certain.",
+          "spoken_text": "Almost nothing about his life is known for certain.",
+          "start": 9.858583333333334,
+          "end": 13.423208333333333,
+          "audio_file": "audio/en/sentences/P03-03.wav",
+          "audio_sha256": "9a661e313c31284cc0fecf057761896466eace976c7cccd46dbf1b6e4c8cbe68",
+          "replacements": [],
+          "role": "plain"
+        },
+        {
+          "id": "P03-04",
+          "text": "But his legends spread across Europe.",
+          "spoken_text": "But his legends spread across Europe.",
+          "start": 13.723208333333334,
+          "end": 16.221166666666665,
+          "audio_file": "audio/en/sentences/P03-04.wav",
+          "audio_sha256": "5677ae35c44459e5a16192069a5a45d827955669a7502f32c702ad36b44043b0",
+          "replacements": [],
+          "role": "plain"
+        },
+        {
+          "id": "P03-05",
+          "text": "In one of the best known, told in the thirteenth-century Golden Legend, Nicholas secretly throws gold into a poor man's house at night, so that his three daughters can marry.",
+          "spoken_text": "In one of the best known, told in the thirteenth-century Golden Legend, Nicholas secretly throws gold into a poor man's house at night, so that his three daughters can marry.",
+          "start": 16.521166666666666,
+          "end": 28.7545,
+          "audio_file": "audio/en/sentences/P03-05.wav",
+          "audio_sha256": "5500ae1ac306a94cc77059458efbb68612bcdfc3f82137473d78d38ad7e4bf34",
+          "replacements": [],
+          "role": "plain"
+        },
+        {
+          "id": "P03-06",
+          "text": "He does it three times.",
+          "spoken_text": "He does it three times.",
+          "start": 29.0545,
+          "end": 30.931125,
+          "audio_file": "audio/en/sentences/P03-06.wav",
+          "audio_sha256": "11f04260a45f69a866d39bd1dce2630b6a8bba0f186bc7a13729f86b5c1dbc5f",
+          "replacements": [],
+          "role": "plain"
+        }
+      ],
+      "audio_file": "audio/en/P03.wav",
+      "duration_seconds": 30.931125,
+      "native_speed": 0.82
+    },
+    {
+      "id": "P04",
+      "chapter": "C02",
+      "sources": [
+        "K-S03"
+      ],
+      "classification": "sourced_narration",
+      "visuals": [
+        "K05c",
+        "D_dec6"
+      ],
+      "text": "Over time, the saint's feast day, December sixth, became linked with gifts for children. In some places, his visit also came with a question: had the children been good? The giver of gifts had also become a judge. And a judge, it seems, needed someone to carry out the sentence.",
+      "cues": [
+        {
+          "id": "P04-01",
+          "text": "Over time, the saint's feast day, December sixth, became linked with gifts for children.",
+          "spoken_text": "Over time, the saint's feast day, December sixth, became linked with gifts for children.",
+          "start": 0.0,
+          "end": 6.055291666666666,
+          "audio_file": "audio/en/sentences/P04-01.wav",
+          "audio_sha256": "dc2cd598a80338884b0b6550307818291f50b73367382a61d55fa63644986526",
+          "replacements": [],
+          "role": "plain"
+        },
+        {
+          "id": "P04-02",
+          "text": "In some places, his visit also came with a question: had the children been good?",
+          "spoken_text": "In some places, his visit also came with a question: had the children been good?",
+          "start": 6.355291666666667,
+          "end": 12.105916666666667,
+          "audio_file": "audio/en/sentences/P04-02.wav",
+          "audio_sha256": "ddd7eabc43fc7b21a9e080c2f781d3fc6a214f5cc2c275dab6a889ec507680b8",
+          "replacements": [],
+          "role": "question"
+        },
+        {
+          "id": "P04-03",
+          "text": "The giver of gifts had also become a judge.",
+          "spoken_text": "The giver of gifts had also become a judge.",
+          "start": 12.405916666666666,
+          "end": 15.404541666666667,
+          "audio_file": "audio/en/sentences/P04-03.wav",
+          "audio_sha256": "5f76bd57f346932d45561131cffc7dcb81c88793c3ecc6b8f100b2211020677b",
+          "replacements": [],
+          "role": "plain"
+        },
+        {
+          "id": "P04-04",
+          "text": "And a judge, it seems, needed someone to carry out the sentence.",
+          "spoken_text": "And a judge, it seems, needed someone to carry out the sentence.",
+          "start": 15.704541666666668,
+          "end": 20.107208333333332,
+          "audio_file": "audio/en/sentences/P04-04.wav",
+          "audio_sha256": "5cdce7814837f0a86d608aa6363c4feff7a60fe6f80c0980f74c18694b333b4a",
+          "replacements": [],
+          "role": "plain"
+        }
+      ],
+      "audio_file": "audio/en/P04.wav",
+      "duration_seconds": 20.107208333333332,
+      "native_speed": 0.82
+    },
+    {
+      "id": "P05",
+      "chapter": "C03",
+      "sources": [
+        "K-S03",
+        "K-S04"
+      ],
+      "classification": "sourced_narration",
+      "visuals": [
+        "K09b"
+      ],
+      "text": "When Nicholas's dark companions appear in historical accounts, they belong to these Christian customs: plays, and visits to homes. Nicholas arrives with figures dressed as devils, in masks, furs, and bells. In these Christian settings, the devil is brought under the saint's authority. Even the frightening companion works for the saint.",
+      "cues": [
+        {
+          "id": "P05-01",
+          "text": "When Nicholas's dark companions appear in historical accounts, they belong to these Christian customs: plays, and visits to homes.",
+          "spoken_text": "When Nicholas's dark companions appear in historical accounts, they belong to these Christian customs: plays, and visits to homes.",
+          "start": 0.0,
+          "end": 9.908,
+          "audio_file": "audio/en/sentences/P05-01.wav",
+          "audio_sha256": "9849a1495ee1c4e644441b95f5531e91380de82314c001990656bf16dffd4284",
+          "replacements": [],
+          "role": "plain"
+        },
+        {
+          "id": "P05-02",
+          "text": "Nicholas arrives with figures dressed as devils, in masks, furs, and bells.",
+          "spoken_text": "Nicholas arrives with figures dressed as devils, in masks, furs, and bells.",
+          "start": 10.208,
+          "end": 15.986,
+          "audio_file": "audio/en/sentences/P05-02.wav",
+          "audio_sha256": "9f2958b9a2a0ec4db08fffad22d0c897170fbd7599e003edbc38e5411413fe37",
+          "replacements": [],
+          "role": "plain"
+        },
+        {
+          "id": "P05-03",
+          "text": "In these Christian settings, the devil is brought under the saint's authority.",
+          "spoken_text": "In these Christian settings, the devil is brought under the saint's authority.",
+          "start": 16.286,
+          "end": 21.223333333333333,
+          "audio_file": "audio/en/sentences/P05-03.wav",
+          "audio_sha256": "f4783b17b276004787516d9e9e268428fc0d2bba4d69713c7e7bec71b65a6471",
+          "replacements": [],
+          "role": "plain"
+        },
+        {
+          "id": "P05-04",
+          "text": "Even the frightening companion works for the saint.",
+          "spoken_text": "Even the frightening companion works for the saint.",
+          "start": 21.523333333333333,
+          "end": 24.702666666666666,
+          "audio_file": "audio/en/sentences/P05-04.wav",
+          "audio_sha256": "626509e3765db02aa22c5131debd5adad4dfd1213b97380dbacf9be092253c6d",
+          "replacements": [],
+          "role": "plain"
+        }
+      ],
+      "audio_file": "audio/en/P05.wav",
+      "duration_seconds": 24.702666666666666,
+      "native_speed": 0.82
+    },
+    {
+      "id": "P06",
+      "chapter": "C03",
+      "sources": [
+        "K-S04",
+        "K-S05"
+      ],
+      "classification": "sourced_narration",
+      "visuals": [
+        "D_names"
+      ],
+      "text": "The companions had many names. In much of Germany, Knecht Ruprecht. In parts of Tyrol and Carinthia, Klaubauf. In Austria, Krampus. The origin of that name is uncertain, though it is often linked to an old word for a hook or a claw. The name, the costume, and the role changed from valley to valley. There was never just one Krampus.",
+      "cues": [
+        {
+          "id": "P06-01",
+          "text": "The companions had many names.",
+          "spoken_text": "The companions had many names.",
+          "start": 0.0,
+          "end": 2.335958333333333,
+          "audio_file": "audio/en/sentences/P06-01.wav",
+          "audio_sha256": "f8f8cf5a17cbea5b458822918c890318100a916fbef3ef05bcfc42dc4e213293",
+          "replacements": [],
+          "role": "plain"
+        },
+        {
+          "id": "P06-02",
+          "text": "In much of Germany, Knecht Ruprecht.",
+          "spoken_text": "In much of Germany, Knecht Ruprecht.",
+          "start": 2.6359583333333334,
+          "end": 5.290625,
+          "audio_file": "audio/en/sentences/P06-02.wav",
+          "audio_sha256": "58db3b13926efafbda678a1d152d9dd045775fa6574621cc9f6b5d29da8b1b26",
+          "replacements": [],
+          "role": "plain"
+        },
+        {
+          "id": "P06-03",
+          "text": "In parts of Tyrol and Carinthia, Klaubauf.",
+          "spoken_text": "In parts of Tyrol and Carinthia, Klaubauf.",
+          "start": 5.590625,
+          "end": 8.849958333333333,
+          "audio_file": "audio/en/sentences/P06-03.wav",
+          "audio_sha256": "164f3ac9ef69b20742f511c25e8cee03db51867c07a7cb780a4b8b8d2cbd5f60",
+          "replacements": [],
+          "role": "plain"
+        },
+        {
+          "id": "P06-04",
+          "text": "In Austria, Krampus.",
+          "spoken_text": "In Austria, Krampus.",
+          "start": 9.149958333333334,
+          "end": 11.087875,
+          "audio_file": "audio/en/sentences/P06-04.wav",
+          "audio_sha256": "531dfec2bf73e91c17b61f851f1d37a1046fab11fdcc3719f60409bd5427bef0",
+          "replacements": [],
+          "role": "plain"
+        },
+        {
+          "id": "P06-05",
+          "text": "The origin of that name is uncertain, though it is often linked to an old word for a hook or a claw.",
+          "spoken_text": "The origin of that name is uncertain, though it is often linked to an old word for a hook or a claw.",
+          "start": 11.387875,
+          "end": 18.094541666666668,
+          "audio_file": "audio/en/sentences/P06-05.wav",
+          "audio_sha256": "1facc02fba838b21d80b998fc66cfd05b42b32ac49a693aba54ffbe3b2aa4b37",
+          "replacements": [],
+          "role": "plain"
+        },
+        {
+          "id": "P06-06",
+          "text": "The name, the costume, and the role changed from valley to valley.",
+          "spoken_text": "The name, the costume, and the role changed from valley to valley.",
+          "start": 18.394541666666665,
+          "end": 22.949166666666667,
+          "audio_file": "audio/en/sentences/P06-06.wav",
+          "audio_sha256": "76b8cda3464de6206f46838bd16fbc9ea0b8cee5972705d4e39386e4c3b10f28",
+          "replacements": [],
+          "role": "plain"
+        },
+        {
+          "id": "P06-07",
+          "text": "There was never just one Krampus.",
+          "spoken_text": "There was never just one Krampus.",
+          "start": 23.249166666666667,
+          "end": 25.639166666666668,
+          "audio_file": "audio/en/sentences/P06-07.wav",
+          "audio_sha256": "8b14db8baccac495dedc53cad93a7459a2d4dde20afe6c45f995e16a3322193d",
+          "replacements": [],
+          "role": "plain"
+        }
+      ],
+      "audio_file": "audio/en/P06.wav",
+      "duration_seconds": 25.639166666666668,
+      "native_speed": 0.82
+    },
+    {
+      "id": "P07",
+      "chapter": "C04",
+      "sources": [
+        "K-S06",
+        "K-S07"
+      ],
+      "classification": "sourced_narration",
+      "visuals": [
+        "D_1869",
+        "K06b"
+      ],
+      "text": "The Krampus most people picture today owes a great deal to the postcard. In 1869, Austria-Hungary introduced what is often called the world's first official postcard. In the decades that followed, many colorful cards for the Nicholas season were printed, and Krampus appeared on many of them.",
+      "cues": [
+        {
+          "id": "P07-01",
+          "text": "The Krampus most people picture today owes a great deal to the postcard.",
+          "spoken_text": "The Krampus most people picture today owes a great deal to the postcard.",
+          "start": 0.0,
+          "end": 5.011333333333333,
+          "audio_file": "audio/en/sentences/P07-01.wav",
+          "audio_sha256": "22cd4de23f118cce28d993a61be502996379230b023615191998b93a149183d7",
+          "replacements": [],
+          "role": "plain"
+        },
+        {
+          "id": "P07-02",
+          "text": "In 1869, Austria-Hungary introduced what is often called the world's first official postcard.",
+          "spoken_text": "In 1869, Austria-Hungary introduced what is often called the world's first official postcard.",
+          "start": 5.311333333333334,
+          "end": 13.957958333333334,
+          "audio_file": "audio/en/sentences/P07-02.wav",
+          "audio_sha256": "a49fd096c3c7f42460c55ffb6dfd73fbafafbac669c986cc82e812a1cb1ddd33",
+          "replacements": [],
+          "role": "plain"
+        },
+        {
+          "id": "P07-03",
+          "text": "In the decades that followed, many colorful cards for the Nicholas season were printed, and Krampus appeared on many of them.",
+          "spoken_text": "In the decades that followed, many colorful cards for the Nicholas season were printed, and Krampus appeared on many of them.",
+          "start": 14.257958333333333,
+          "end": 22.75525,
+          "audio_file": "audio/en/sentences/P07-03.wav",
+          "audio_sha256": "174366963dad17cb17812330b6cb9356c97a1fdc5109e19f571f6c0882a88c8a",
+          "replacements": [],
+          "role": "plain"
+        }
+      ],
+      "audio_file": "audio/en/P07.wav",
+      "duration_seconds": 22.75525,
+      "native_speed": 0.82
+    },
+    {
+      "id": "P08",
+      "chapter": "C04",
+      "sources": [
+        "K-S07"
+      ],
+      "classification": "sourced_narration",
+      "visuals": [
+        "K03a"
+      ],
+      "text": "On these cards, Krampus took a familiar shape: dark fur, horns, a long red tongue, chains, a bundle of twigs, and sometimes children carried off on his back. Some cards were meant to frighten. Others turned him into a striking piece of design. These cards, from a Vienna workshop around 1910, are now kept in a city museum.",
+      "cues": [
+        {
+          "id": "P08-01",
+          "text": "On these cards, Krampus took a familiar shape: dark fur, horns, a long red tongue, chains, a bundle of twigs, and sometimes children carried off on his back.",
+          "spoken_text": "On these cards, Krampus took a familiar shape: dark fur, horns, a long red tongue, chains, a bundle of twigs, and sometimes children carried off on his back.",
+          "start": 0.0,
+          "end": 12.071333333333333,
+          "audio_file": "audio/en/sentences/P08-01.wav",
+          "audio_sha256": "39d9eec091608e1011bb1c8dbf9c9d5023c17a643dfcb1a2fa320f2f22492c66",
+          "replacements": [],
+          "role": "plain"
+        },
+        {
+          "id": "P08-02",
+          "text": "Some cards were meant to frighten.",
+          "spoken_text": "Some cards were meant to frighten.",
+          "start": 12.371333333333334,
+          "end": 14.634625,
+          "audio_file": "audio/en/sentences/P08-02.wav",
+          "audio_sha256": "1f8773ebbda7bcf3098d888c461f1ca7ee6297632b6419b0ce16bf3ff2f06229",
+          "replacements": [],
+          "role": "plain"
+        },
+        {
+          "id": "P08-03",
+          "text": "Others turned him into a striking piece of design.",
+          "spoken_text": "Others turned him into a striking piece of design.",
+          "start": 14.934625,
+          "end": 18.294583333333332,
+          "audio_file": "audio/en/sentences/P08-03.wav",
+          "audio_sha256": "e6fa8a0c69fdff3d573a0aa1f5efa4f21ae815bd88b22d1eaad1753f4bcd179e",
+          "replacements": [],
+          "role": "plain"
+        },
+        {
+          "id": "P08-04",
+          "text": "These cards, from a Vienna workshop around 1910, are now kept in a city museum.",
+          "spoken_text": "These cards, from a Vienna workshop around 1910, are now kept in a city museum.",
+          "start": 18.594583333333333,
+          "end": 25.221916666666665,
+          "audio_file": "audio/en/sentences/P08-04.wav",
+          "audio_sha256": "666200ffe31a31099d09bb385d88ec71d94f765bd8134cfcf020b585015bbe98",
+          "replacements": [],
+          "role": "plain"
+        }
+      ],
+      "audio_file": "audio/en/P08.wav",
+      "duration_seconds": 25.221916666666665,
+      "native_speed": 0.82
+    },
+    {
+      "id": "P09",
+      "chapter": "C05",
+      "sources": [
+        "K-S08",
+        "K-S04"
+      ],
+      "classification": "sourced_narration",
+      "visuals": [
+        "D_grimm",
+        "K09a"
+      ],
+      "text": "So where does the idea of a pagan Krampus come from? In the nineteenth century, writers such as Jacob Grimm looked for traces of a pre-Christian past in later customs. Grimm wrote that he could well imagine that even in heathen times, a god whose coming heralded a happy time had a merry elf or dwarf at his side. He was imagining, not quoting a record. Masked winter processions, like the Perchten runs held around early January, seemed to fit such ideas. And in some places, these customs had already mixed with the Nicholas custom by the eighteenth century.",
+      "cues": [
+        {
+          "id": "P09-01",
+          "text": "So where does the idea of a pagan Krampus come from?",
+          "spoken_text": "So where does the idea of a pagan Krampus come from?",
+          "start": 0.0,
+          "end": 3.403958333333333,
+          "audio_file": "audio/en/sentences/P09-01.wav",
+          "audio_sha256": "a0ac50d2322a962eb962c5c8b418e7b28bc274b37b40ccfa06d89f9afbefc0e9",
+          "replacements": [],
+          "role": "question"
+        },
+        {
+          "id": "P09-02",
+          "text": "In the nineteenth century, writers such as Jacob Grimm looked for traces of a pre-Christian past in later customs.",
+          "spoken_text": "In the nineteenth century, writers such as Jacob Grimm looked for traces of a pre-Christian past in later customs.",
+          "start": 3.7039583333333335,
+          "end": 12.094583333333333,
+          "audio_file": "audio/en/sentences/P09-02.wav",
+          "audio_sha256": "476d67f7969f5926d30d8d18a2d42f8ccbbba8a35ec4995d8d0a207f862c5526",
+          "replacements": [],
+          "role": "plain"
+        },
+        {
+          "id": "P09-03",
+          "text": "Grimm wrote that he could well imagine that even in heathen times, a god whose coming heralded a happy time had a merry elf or dwarf at his side.",
+          "spoken_text": "Grimm wrote that he could well imagine that even in heathen times, a god whose coming heralded a happy time had a merry elf or dwarf at his side.",
+          "start": 12.394583333333333,
+          "end": 22.716583333333332,
+          "audio_file": "audio/en/sentences/P09-03.wav",
+          "audio_sha256": "e39350b244e4a504dd51c143713c0145381c3c84830d84aa8caf49ed26a68175",
+          "replacements": [],
+          "role": "plain"
+        },
+        {
+          "id": "P09-04",
+          "text": "He was imagining, not quoting a record.",
+          "spoken_text": "He was imagining, not quoting a record.",
+          "start": 23.016583333333333,
+          "end": 25.981208333333335,
+          "audio_file": "audio/en/sentences/P09-04.wav",
+          "audio_sha256": "f6f1c9a93c63372b4980714869348893abaf2ee46d5e3bb3d503e43a5c400600",
+          "replacements": [],
+          "role": "plain"
+        },
+        {
+          "id": "P09-05",
+          "text": "Masked winter processions, like the Perchten runs held around early January, seemed to fit such ideas.",
+          "spoken_text": "Masked winter processions, like the Perchten runs held around early January, seemed to fit such ideas.",
+          "start": 26.281208333333332,
+          "end": 34.097208333333334,
+          "audio_file": "audio/en/sentences/P09-05.wav",
+          "audio_sha256": "af44fbc94c154d0faf73191da71987555b4f5d09f79ef93d08dee25bbef08837",
+          "replacements": [],
+          "role": "plain"
+        },
+        {
+          "id": "P09-06",
+          "text": "And in some places, these customs had already mixed with the Nicholas custom by the eighteenth century.",
+          "spoken_text": "And in some places, these customs had already mixed with the Nicholas custom by the eighteenth century.",
+          "start": 34.39720833333333,
+          "end": 41.479166666666664,
+          "audio_file": "audio/en/sentences/P09-06.wav",
+          "audio_sha256": "b82c05532772c0223bc11b5c97ea2ca113ace2c4fdec3dbe526824f572a69b78",
+          "replacements": [],
+          "role": "plain"
+        }
+      ],
+      "audio_file": "audio/en/P09.wav",
+      "duration_seconds": 41.479166666666664,
+      "native_speed": 0.82
+    },
+    {
+      "id": "P10",
+      "chapter": "C05",
+      "sources": [
+        "K-S04"
+      ],
+      "classification": "sourced_narration",
+      "visuals": [
+        "D_noancient"
+      ],
+      "text": "It is possible that older winter customs shaped the masks and furs. But no ancient text names Krampus, and the accounts we have place him inside the Christian Nicholas custom.",
+      "cues": [
+        {
+          "id": "P10-01",
+          "text": "It is possible that older winter customs shaped the masks and furs.",
+          "spoken_text": "It is possible that older winter customs shaped the masks and furs.",
+          "start": 0.0,
+          "end": 4.914666666666666,
+          "audio_file": "audio/en/sentences/P10-01.wav",
+          "audio_sha256": "82c82493a439ee58b95b571ee6770638c3af53766a54252db7104e3f40058dae",
+          "replacements": [],
+          "role": "plain"
+        },
+        {
+          "id": "P10-02",
+          "text": "But no ancient text names Krampus, and the accounts we have place him inside the Christian Nicholas custom.",
+          "spoken_text": "But no ancient text names Krampus, and the accounts we have place him inside the Christian Nicholas custom.",
+          "start": 5.214666666666667,
+          "end": 12.454666666666666,
+          "audio_file": "audio/en/sentences/P10-02.wav",
+          "audio_sha256": "35c9f0b8e0fc37b33d2df3f72ecaf92a3d8bd420985b0335ea52c327fbe11d6f",
+          "replacements": [],
+          "role": "plain"
+        }
+      ],
+      "audio_file": "audio/en/P10.wav",
+      "duration_seconds": 12.454666666666666,
+      "native_speed": 0.82
+    },
+    {
+      "id": "P11",
+      "chapter": "C05",
+      "sources": [
+        "K-S09",
+        "K-S05"
+      ],
+      "classification": "sourced_narration",
+      "visuals": [
+        "K07b"
+      ],
+      "text": "In the twentieth century, some critics questioned the use of Krampus to frighten children. Yet the custom lived on. Today, Krampus runs draw large crowds in the Alps, and in recent decades he has found new audiences far beyond them.",
+      "cues": [
+        {
+          "id": "P11-01",
+          "text": "In the twentieth century, some critics questioned the use of Krampus to frighten children.",
+          "spoken_text": "In the twentieth century, some critics questioned the use of Krampus to frighten children.",
+          "start": 0.0,
+          "end": 5.523333333333333,
+          "audio_file": "audio/en/sentences/P11-01.wav",
+          "audio_sha256": "22e9eef456a5f4ac08b96e9db9111a5b65c6b4a35c5e117eea0999ea14cbdb9f",
+          "replacements": [],
+          "role": "plain"
+        },
+        {
+          "id": "P11-02",
+          "text": "Yet the custom lived on.",
+          "spoken_text": "Yet the custom lived on.",
+          "start": 5.823333333333333,
+          "end": 7.701333333333333,
+          "audio_file": "audio/en/sentences/P11-02.wav",
+          "audio_sha256": "1b8dfe2ec12d6baac47f88021f6cbdf39e49dedf2f132cc4383b728ff7d4e8fb",
+          "replacements": [],
+          "role": "plain"
+        },
+        {
+          "id": "P11-03",
+          "text": "Today, Krampus runs draw large crowds in the Alps, and in recent decades he has found new audiences far beyond them.",
+          "spoken_text": "Today, Krampus runs draw large crowds in the Alps, and in recent decades he has found new audiences far beyond them.",
+          "start": 8.001333333333333,
+          "end": 17.064666666666668,
+          "audio_file": "audio/en/sentences/P11-03.wav",
+          "audio_sha256": "7e1ecc4029c362132ed39e59430bffc88a00c7e75d1510ce73ec177fc3eac687",
+          "replacements": [],
+          "role": "plain"
+        }
+      ],
+      "audio_file": "audio/en/P11.wav",
+      "duration_seconds": 17.064666666666668,
+      "native_speed": 0.82
+    },
+    {
+      "id": "P12",
+      "chapter": "C05",
+      "sources": [
+        "K-S01",
+        "K-S02",
+        "K-S04",
+        "K-S06",
+        "K-S08"
+      ],
+      "classification": "editorial_summary",
+      "visuals": [
+        "D_summary"
+      ],
+      "text": "So, is Krampus older than Christmas? The records tell a different story. He appears as a devil in the service of a saint, goes by many names in the Alps, and gets his famous face from printed cards. His roots may run deeper. But as far as the sources can show, his story begins with a bishop who brought gifts.",
+      "cues": [
+        {
+          "id": "P12-01",
+          "text": "So, is Krampus older than Christmas?",
+          "spoken_text": "So, is Krampus older than Christmas?",
+          "start": 0.0,
+          "end": 2.661958333333333,
+          "audio_file": "audio/en/sentences/P12-01.wav",
+          "audio_sha256": "ee9583691ae37e8f2123f85039ebfede895b71a6d294bbd51d9d82cda5a6e7b0",
+          "replacements": [],
+          "role": "question"
+        },
+        {
+          "id": "P12-02",
+          "text": "The records tell a different story.",
+          "spoken_text": "The records tell a different story.",
+          "start": 2.9619583333333335,
+          "end": 5.129958333333334,
+          "audio_file": "audio/en/sentences/P12-02.wav",
+          "audio_sha256": "7981683abd2bff6046e22a2e42ac6793f30ba0123d23e2533b120e62855bff2c",
+          "replacements": [],
+          "role": "plain"
+        },
+        {
+          "id": "P12-03",
+          "text": "He appears as a devil in the service of a saint, goes by many names in the Alps, and gets his famous face from printed cards.",
+          "spoken_text": "He appears as a devil in the service of a saint, goes by many names in the Alps, and gets his famous face from printed cards.",
+          "start": 5.429958333333333,
+          "end": 14.342625,
+          "audio_file": "audio/en/sentences/P12-03.wav",
+          "audio_sha256": "31b1d056b5a07bdf9a50eb12ac6a3850ca09139cbafb8c1c67bf6d58c41ffd0d",
+          "replacements": [],
+          "role": "plain"
+        },
+        {
+          "id": "P12-04",
+          "text": "His roots may run deeper.",
+          "spoken_text": "His roots may run deeper.",
+          "start": 14.642625,
+          "end": 16.627291666666668,
+          "audio_file": "audio/en/sentences/P12-04.wav",
+          "audio_sha256": "f8ffe8e461b511528948744030392f7fe4220962101d50dfd2f80829321f68ad",
+          "replacements": [],
+          "role": "plain"
+        },
+        {
+          "id": "P12-05",
+          "text": "But as far as the sources can show, his story begins with a bishop who brought gifts.",
+          "spoken_text": "But as far as the sources can show, his story begins with a bishop who brought gifts.",
+          "start": 16.927291666666665,
+          "end": 22.705291666666668,
+          "audio_file": "audio/en/sentences/P12-05.wav",
+          "audio_sha256": "358e58b02347a0fc030515f2e12a2690f0687e17c1d3c671da09fa6aedca77ea",
+          "replacements": [],
+          "role": "plain"
+        }
+      ],
+      "audio_file": "audio/en/P12.wav",
+      "duration_seconds": 22.705291666666668,
+      "native_speed": 0.82
+    },
+    {
+      "id": "P13",
+      "chapter": "C05",
+      "sources": [],
+      "classification": "editorial_closing",
+      "visuals": [
+        "K10a"
+      ],
+      "text": "Every story has an origin. Sometimes, it begins with a knock at the door on a winter night.",
+      "cues": [
+        {
+          "id": "P13-01",
+          "text": "Every story has an origin.",
+          "spoken_text": "Every story has an origin.",
+          "start": 0.0,
+          "end": 2.3272916666666665,
+          "audio_file": "audio/en/sentences/P13-01.wav",
+          "audio_sha256": "790457178932e11b2ca4166b38a3b6256afd7fee9ffa9609bb17afa4c03691b8",
+          "replacements": [],
+          "role": "plain"
+        },
+        {
+          "id": "P13-02",
+          "text": "Sometimes, it begins with a knock at the door on a winter night.",
+          "spoken_text": "Sometimes, it begins with a knock at the door on a winter night.",
+          "start": 2.627291666666667,
+          "end": 6.9359166666666665,
+          "audio_file": "audio/en/sentences/P13-02.wav",
+          "audio_sha256": "efb46f6f8f14e7eecf29e65dc12682a3d20759028a748c0e92284c027d6c04f4",
+          "replacements": [],
+          "role": "plain"
+        }
+      ],
+      "audio_file": "audio/en/P13.wav",
+      "duration_seconds": 6.9359166666666665,
+      "native_speed": 0.82
+    },
+    {
+      "id": "P14",
+      "chapter": "C05",
+      "sources": [],
+      "classification": "credits",
+      "visuals": [
+        "credits"
+      ],
+      "text": "This video is based on historical texts and public museum collections. The narration uses synthetic speech. Sources and terms of use are listed in the description. If you enjoyed this story, please like the video and subscribe for more quiet origins. Thank you for watching.",
+      "cues": [
+        {
+          "id": "P14-01",
+          "text": "This video is based on historical texts and public museum collections.",
+          "spoken_text": "This video is based on historical texts and public museum collections.",
+          "start": 0.0,
+          "end": 5.1593333333333335,
+          "audio_file": "audio/en/sentences/P14-01.wav",
+          "audio_sha256": "cfafab570cf6109ffdd63a8a10b827c1f851aa2907f2cca181a9ff89b9876902",
+          "replacements": [],
+          "role": "conclusion"
+        },
+        {
+          "id": "P14-02",
+          "text": "The narration uses synthetic speech.",
+          "spoken_text": "The narration uses synthetic speech.",
+          "start": 5.459333333333333,
+          "end": 8.179291666666666,
+          "audio_file": "audio/en/sentences/P14-02.wav",
+          "audio_sha256": "e073813be725ac1714b7430ad9afdda830d4dcc1fe57fc4e45bb71275e3daf57",
+          "replacements": [],
+          "role": "conclusion"
+        },
+        {
+          "id": "P14-03",
+          "text": "Sources and terms of use are listed in the description.",
+          "spoken_text": "Sources and terms of use are listed in the description.",
+          "start": 8.479291666666667,
+          "end": 12.435291666666666,
+          "audio_file": "audio/en/sentences/P14-03.wav",
+          "audio_sha256": "5b2f2a127acb253676cbf82f7ed1a5e9c309c2fb909e6b6abae34e89497460cb",
+          "replacements": [],
+          "role": "conclusion"
+        },
+        {
+          "id": "P14-04",
+          "text": "If you enjoyed this story, please like the video and subscribe for more quiet origins.",
+          "spoken_text": "If you enjoyed this story, please like the video and subscribe for more quiet origins.",
+          "start": 12.735291666666667,
+          "end": 18.855958333333334,
+          "audio_file": "audio/en/sentences/P14-04.wav",
+          "audio_sha256": "e7306ec08846ac2d46f54b7a073284afc1dd3281d2785876dc362da62f9b204b",
+          "replacements": [],
+          "role": "conclusion"
+        },
+        {
+          "id": "P14-05",
+          "text": "Thank you for watching.",
+          "spoken_text": "Thank you for watching.",
+          "start": 19.155958333333334,
+          "end": 20.90725,
+          "audio_file": "audio/en/sentences/P14-05.wav",
+          "audio_sha256": "b66b760fd870e959007df1209612aa00aaa688863d3675e3c8c69a25f42c0c60",
+          "replacements": [],
+          "role": "conclusion"
+        }
+      ],
+      "audio_file": "audio/en/P14.wav",
+      "duration_seconds": 20.90725,
+      "native_speed": 0.82
+    }
+  ]
+}
