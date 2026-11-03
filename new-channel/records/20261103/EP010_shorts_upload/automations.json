@@ -1,0 +1,26 @@
+[
+  {
+    "id": "quiet-origins-ep010-3",
+    "name": "Quiet Origins EP010ショート3本の関連動画",
+    "status": "ACTIVE",
+    "kind": "heartbeat",
+    "scheduled_runs": [
+      "2026-11-08T09:10:00+09:00"
+    ],
+    "timezone": "Asia/Tokyo",
+    "prompt": "2026年11月8日09:10 JSTに一度、Quiet Origins第10話の本編 hqYSHCpQNLw が一般公開済みであることを確認し、第10話ショートK1 Z0oxzXC0y6Y、K2 kC8beWOIr7o、K3 WJ75bKYgxZU の関連動画を3本とも hqYSHCpQNLw に設定する。K1は当日12:00公開なので09:10〜11:50 JSTに完了させる。操作直前に投稿先Quiet Origins（@QuietOriginsJP、UCfLJOojEY9VB3rvrjICk90Q）と各IDを確認する。既に正しい関連動画なら変更せず確認だけ行い、空欄の場合に補完する。別動画が設定されていたら置換せず相違を報告する。本編が未公開・認証要求・想定外の画面なら公開設定や予約を変えず未完了を報告する。3本とも保存後の再表示で関連動画を確認し、長辺1280px以下・1MB未満のJPG証拠を残す。日時・タイトル・説明・翻訳・他動画の設定は変更しない。new-channel/wom_ショート投稿結果_EP010_20261103.md へ結果を追記し、yasukawa1980/youtube の最新origin/bgm/productionを起点とする安全なworktreeでコミット・pushする。既存の分岐履歴はpushせず、reset/force-pushしない。一度の実行で終了する。"
+  },
+  {
+    "id": "quiet-origins-ep010",
+    "name": "Quiet Origins EP010ショート公開後固定コメント",
+    "status": "ACTIVE",
+    "kind": "heartbeat",
+    "scheduled_runs": [
+      "2026-11-08T12:10:00+09:00",
+      "2026-11-09T12:10:00+09:00",
+      "2026-11-10T12:10:00+09:00"
+    ],
+    "timezone": "Asia/Tokyo",
+    "prompt": "2026年11月8日・9日・10日の各12:10 JSTに、Quiet Origins第10話のショートへ公開後の固定コメントを付ける。11/8 K1 Z0oxzXC0y6Y、11/9 K2 kC8beWOIr7o、11/10 K3 WJ75bKYgxZU。文面は New origin stories every few days. Subscribe so you don't miss the next one. と一字一句同じにする。実行日の対象と、それより前の未完了対象について公開済みを確認した場合だけ処理する。操作直前にQuiet Origins（@QuietOriginsJP、UCfLJOojEY9VB3rvrjICk90Q）と対象IDを確認。同文の既存コメントがあれば重複投稿せず、そのコメントを固定する。投稿済み・固定済み表示を画面で確認し、長辺1280px以下・1MB未満のJPG証拠を保存する。非公開・コメント不可・認証要求があれば公開設定などを変更せず未完了を報告する。他動画、予約日時、タイトル、説明、翻訳を変えない。new-channel/wom_ショート投稿結果_EP010_20261103.md と new-channel/wom_公開後作業結果_<実行日>.md にコメントID・固定の成否を記録し、最新origin/bgm/production起点の安全なworktreeからコミット・pushする。リポジトリはyasukawa1980/youtube。既存の分岐履歴をpushせずreset/force-pushしない。既存の作り直し5本用自動実行quiet-origins-5は変更しない。3本完了後はこの自動実行を終了する。"
+  }
+]
