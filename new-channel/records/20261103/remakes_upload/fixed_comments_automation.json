@@ -1,0 +1,17 @@
+{
+  "automation_id": "quiet-origins-5",
+  "status": "ACTIVE",
+  "kind": "heartbeat",
+  "timezone": "Asia/Tokyo",
+  "scheduled_runs": [
+    "2026-11-08T18:10:00+09:00",
+    "2026-11-09T18:10:00+09:00",
+    "2026-11-10T18:10:00+09:00",
+    "2026-11-11T18:10:00+09:00",
+    "2026-11-12T18:10:00+09:00"
+  ],
+  "prompt": "2026年11月8日から12日までの各日18:10 JSTに、Quiet Originsの作り直しショートへ公開後の固定コメントを付ける。11/8 A1R ApmyXXdvOhI、11/9 P1R UwgahJ4Q6No、11/10 T1R GFz8hO6dzts、11/11 M1R -ABTbIePw-0、11/12 A3R zBcVIQu7vIA。文面は New origin stories every few days. Subscribe so you don't miss the next one. と一字一句同じにする。実行日の対象と以前の未完了対象を、公開済みの場合だけ処理する。同文の既存コメントを最初に探し、重複投稿せずそのコメントを固定する。操作直前にQuiet Origins（@QuietOriginsJP、UCfLJOojEY9VB3rvrjICk90Q）と動画IDを確認する。投稿済み・固定済み表示を画面で確認し、長辺1280px以下・1MB未満のJPGを保存する。非公開・コメント不可・認証要求があれば設定を変更せず未完了の理由を報告する。他動画・予約日時・公開設定・タイトル・説明・翻訳は変更しない。結果とコメントIDを new-channel/wom_公開後作業結果_<実行日>.md および new-channel/wom_ショート投稿結果_作り直し5本_20261103.md に記録し、yasukawa1980/youtube の最新origin/bgm/production起点の安全なworktreeでコミット・pushする。既存の分岐履歴をpushせずreset/force-pushしない。5本完了後はこの自動実行を終了する。",
+  "created_at_jst": "2026-11-03T21:27:23.520000+09:00",
+  "requested_by_user": true,
+  "docs": "https://developers.openai.com/training/walkthroughs/scheduled-tasks"
+}

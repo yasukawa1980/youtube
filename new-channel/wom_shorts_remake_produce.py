@@ -49,7 +49,9 @@ def caption_texts(text):
  return out
 CAPTIONS={s['id']:caption_texts(s['text']) for s in read(ROOT/'records/narration.json')['scripts']}
 
-def captions():
+def captions(duration_limits=None):
+ limits={'P1R':24.733334}
+ if duration_limits:limits.update(duration_limits)
  from kokoro_onnx.tokenizer import Tokenizer
  # Use the same tokenizer through the existing model session, without synthesizing again.
  import onnxruntime as ort
@@ -57,7 +59,7 @@ def captions():
  from kokoro_onnx import Kokoro
  opt=ort.SessionOptions();opt.intra_op_num_threads=2
  tts=Kokoro.from_session(ort.InferenceSession(str(MODELS/'kokoro-v1.0.onnx'),opt,providers=['CPUExecutionProvider']),str(MODELS/'voices-v1.0.bin'))
- nar=read(ROOT/'records/narration.json');assert all(s['within_24_seconds'] or (s['id']=='P1R' and s['final_duration_seconds']<=24.733334) for s in nar['scripts']);allrows=[]
+ nar=read(ROOT/'records/narration.json');assert all(s['final_duration_seconds']<=limits.get(s['id'],24) for s in nar['scripts']);allrows=[]
  for s in nar['scripts']:
   cfg=read(ROOT/f'audio/{s["id"]}_native.json');PHONEMES={r['display']:r['phonemes'] for r in cfg['applied_readings'] if 'phonemes' in r};REPLACEMENTS={r['display']:r['spoken'] for r in cfg['applied_readings']}
   times=read(ROOT/f'records/{s["id"]}_phoneme_timings.json')['timings'];words=s['text'].split();ignored=set(' \t\nˈˌː.,;:!?—-()');expected=[];owners=[]
@@ -85,7 +87,7 @@ def captions():
    end=pos+len(text.split());groups.append({'text':text,'word_start':pos,'word_end':end});pos=end
   for protected in ['670 BC.']:
    if protected in s['text']:assert any(protected in g['text'] for g in groups),protected
-  cta_frame=math.ceil(s['native_audio_duration']*FPS);nframes=cta_frame+75;assert nframes<= (742 if s['id']=='P1R' else 720)
+  cta_frame=math.ceil(s['native_audio_duration']*FPS);nframes=cta_frame+75;assert nframes<=math.floor(limits.get(s['id'],24)*FPS+1e-6)
   for i,g in enumerate(groups):
    g['start_frame']=max(0,round(wordtimes[g['word_start']]['start']*FPS)) if i else 0
    g['end_frame']=max(g['start_frame']+1,round(wordtimes[groups[i+1]['word_start']]['start']*FPS)) if i+1<len(groups) else math.ceil(s['native_audio_duration']*FPS)
@@ -101,7 +103,7 @@ def phrase_frame(s, phrase):
     j=next(j for j in range(len(words)) if words[j:j+len(needle)]==needle)
     return round(s['words_timed'][j]['start']*FPS)
 
-def audio():
+def audio(bgm_sources=None,bgm_start_seconds=100):
     reports=[]
     musicroot=Path('/Users/ryo/Desktop/新チャンネル/_共通/BGM/20261029_Suno')
     for i,s in enumerate(read(ROOT/'records/shorts.json')['shorts']):
@@ -112,10 +114,12 @@ def audio():
         ff(['-i',s['audio_file'],'-af',filt,'-ar',SR,'-c:a','pcm_f32le',normal])
         voice,sr=sf.read(normal,dtype='float32');assert sr==SR and len(voice)<=n
         voice=np.pad(voice,(0,n-len(voice)))
-        source=MAIN[s['episode']]/'audio'/('common_bgm.wav' if s['episode']=='EP001' else 'common_bgm_and_brand.wav')
-        if s['episode']=='EP005':source=MEDIA/'EP005_Tengu/確認版_v01_20261024/audio/common_bgm_and_brand.wav'
+        if bgm_sources and s['episode'] in bgm_sources:source=Path(bgm_sources[s['episode']])
+        else:
+            source=MAIN[s['episode']]/'audio'/('common_bgm.wav' if s['episode']=='EP001' else 'common_bgm_and_brand.wav')
+            if s['episode']=='EP005':source=MEDIA/'EP005_Tengu/確認版_v01_20261024/audio/common_bgm_and_brand.wav'
         assert source.exists()
-        start=100;musicpath=ROOT/f'audio/{sid}_filtered_music.wav'
+        start=bgm_start_seconds;musicpath=ROOT/f'audio/{sid}_filtered_music.wav'
         ff(['-ss',start,'-i',source,'-t',n/SR,'-af','highpass=f=100,equalizer=f=2828:t=o:w=1:g=-3.5','-ar',SR,'-ac',2,'-c:a','pcm_f32le',musicpath])
         music,sr=sf.read(musicpath,dtype='float32');assert sr==SR and len(music)>=n
         music=music[:n];active=np.zeros(n,bool);active[round(s['voice_onset_seconds']*SR):round(s['last_voice_activity_seconds']*SR)]=True
@@ -288,12 +292,12 @@ def frame_art(shot,frac,loaded):
  crop=im.transform((w,h),Image.Transform.EXTENT,(cx-cw/2,cy-ch/2,cx+cw/2,cy+ch/2),Image.Resampling.BICUBIC)
  frame=bg.copy();frame.paste(crop,(x,y));return Image.alpha_composite(frame.convert('RGBA'),header)
 
-def render(ids,version="v01"):
+def render(ids,version="v01",prefix="QO_short_remake"):
  rows=read(ROOT/'records/shorts.json')['shorts'];shots=read(ROOT/'records/visual_manifest.json')['shots'];caps=read(ROOT/'records/caption_manifest.json');cta=Image.open(ROOT/'assets/common_cta.png').convert('RGBA');reports=[]
  for s in rows:
   sid=s['id']
   if sid not in ids:continue
-  out=ROOT/f'deliverables/QO_short_remake_{sid}_{version}.mp4';group=[x for x in shots if x['short_id']==sid];caption=[x for x in caps if x['short_id']==sid];cp=[Image.open(x['file']).convert('RGBA') for x in caption];headline=Image.open(ROOT/f'assets/{sid}_headline.png').convert('RGBA')
+  out=ROOT/f'deliverables/{prefix}_{sid}_{version}.mp4';group=[x for x in shots if x['short_id']==sid];caption=[x for x in caps if x['short_id']==sid];cp=[Image.open(x['file']).convert('RGBA') for x in caption];headline=Image.open(ROOT/f'assets/{sid}_headline.png').convert('RGBA')
   cmd=[BIN,'-nostdin','-y','-v','warning','-f','rawvideo','-pix_fmt','rgb24','-s','1080x1920','-r','30','-i','pipe:0','-i',str(ROOT/f'audio/{sid}_final.m4a'),'-map','0:v','-map','1:a','-c:v','libx264','-threads','4','-preset','veryfast','-crf','18','-profile:v','high','-pix_fmt','yuv420p','-frames:v',str(s['frames']),'-fps_mode','passthrough','-video_track_timescale','15360','-color_primaries','bt709','-color_trc','bt709','-colorspace','bt709','-c:a','copy','-movflags','+faststart',str(out)]
   with (ROOT/f'records/{sid}_encode.log').open('w') as log:
    proc=subprocess.Popen(cmd,stdin=subprocess.PIPE,stderr=log)
@@ -314,7 +318,7 @@ def render(ids,version="v01"):
       if n%150==0:print('FRAME',sid,n,'/',s['frames'],flush=True)
     proc.stdin.close();assert proc.wait()==0
    except BaseException:proc.kill();proc.wait();raise
-  reports.append(dict(id=sid,path=str(out),sha256=sha(out),command=cmd,method='13 still sources independently decoded by Pillow; RGB frames composited; one H.264 encoder per final short. No bitstream concatenation.'))
+  reports.append(dict(id=sid,path=str(out),sha256=sha(out),command=cmd,method=f'{len(shots)} still sources independently decoded by Pillow; RGB frames composited; one H.264 encoder per final short. No bitstream concatenation.'))
   print('RENDERED',sid,flush=True)
  existing=read(ROOT/'records/encoding.json') if (ROOT/'records/encoding.json').exists() else []
  save(ROOT/'records/encoding.json',[r for r in existing if r['id'] not in ids]+reports)

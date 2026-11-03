@@ -1,0 +1,67 @@
+{
+  "request_sha256": "f481badfe3e45bfa9a09d9a792d4af89fb6e4b3df93f409ea6b7eaf40f3889c3",
+  "scripts": [
+    {
+      "id": "K1",
+      "title": "Krampus works for a saint",
+      "headline": "KRAMPUS WORKS FOR A SAINT",
+      "text": "Krampus is often called a pagan spirit of winter. But when he appears in historical accounts, he belongs to Christian Nicholas customs. Nicholas arrives with figures dressed as devils. And in these settings, even the frightening companion works for the saint.",
+      "words": 41,
+      "audio_file": "/Volumes/ESD-02/新チャンネル/ショート/EP010_v01_20261103/audio/K1_native.wav",
+      "audio_sha256": "aacffbef1eb0a9aad307c3e84a4c60ed4ef8601c2028790a5a1b843adfd4053e",
+      "native_audio_duration": 19.006,
+      "voice_onset_seconds": 0.06,
+      "last_voice_activity_seconds": 18.69,
+      "frames": 646,
+      "final_duration_seconds": 21.533333333333335,
+      "within_24_seconds": true,
+      "readings_applied": []
+    },
+    {
+      "id": "K2",
+      "title": "The postcard that made Krampus",
+      "headline": "THE POSTCARD THAT MADE KRAMPUS",
+      "text": "The Krampus most people picture today owes a great deal to the postcard. In 1869, Austria-Hungary introduced what is often called the world's first official postcard. Within decades, Krampus appeared on many colorful cards: dark fur, horns, a long red tongue, and chains.",
+      "words": 43,
+      "audio_file": "/Volumes/ESD-02/新チャンネル/ショート/EP010_v01_20261103/audio/K2_native.wav",
+      "audio_sha256": "00af2dd530249ccdcd9d5ef61db34e74d0431cd1d52be64406a82ac832494044",
+      "native_audio_duration": 22.001291666666667,
+      "voice_onset_seconds": 0.06,
+      "last_voice_activity_seconds": 21.69,
+      "frames": 736,
+      "final_duration_seconds": 24.533333333333335,
+      "within_24_seconds": false,
+      "readings_applied": []
+    },
+    {
+      "id": "K3",
+      "title": "Gold through the window?",
+      "headline": "GOLD THROUGH THE WINDOW?",
+      "text": "In this painting from the 1430s, Saint Nicholas throws gold through a window. But in an old English translation of the Golden Legend, he throws it into a poor man's house at night, three times, so that the man's three daughters can marry.",
+      "words": 43,
+      "audio_file": "/Volumes/ESD-02/新チャンネル/ショート/EP010_v01_20261103/audio/K3_native.wav",
+      "audio_sha256": "5c097a4dd8a4bf3c4e93ded83ef6be56bfe03945613c34db3b68fd247601ab09",
+      "native_audio_duration": 18.42,
+      "voice_onset_seconds": 0.13,
+      "last_voice_activity_seconds": 18.11,
+      "frames": 628,
+      "final_duration_seconds": 20.933333333333334,
+      "within_24_seconds": true,
+      "readings_applied": []
+    }
+  ],
+  "all_within_24_seconds": false,
+  "text_unchanged": true,
+  "speech_speed_modified_to_fit": false,
+  "human_full_listening": false,
+  "gate": "24 seconds including 2.5-second CTA; stop picture production and report on failure",
+  "all_within_approved_limits": true,
+  "duration_exception": {
+    "id": "K2",
+    "approved_maximum_seconds": 24.533334,
+    "approved_final_frames": 736,
+    "user_instruction": "K2だけ24.533秒を許可し、3本とも進める",
+    "approved_date": "2026-11-03",
+    "voice_and_script_changes": false
+  }
+}
