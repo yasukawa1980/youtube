@@ -1,0 +1,13 @@
+    - radio "いいえ、子ども向けではありません" [checked]:
+    - radio "いいえ、この動画には有料プロモーションは含まれていません" [checked]:
+  - radio "はい、AI を使用しました" [checked]:
+  - generic: 動画の言語と、必要に応じて字幕の認定を選択します。
+  - button "動画の言語 英語":
+    - button "動画の言語 英語":
+      - generic: 動画の言語
+    - radio "動画と音声のリミックスを許可" [checked]:
+  - button "教育":
+    - button "教育":
+  - button "関連動画 この動画に関連するコンテンツに視聴者を案内します。 The First Tengu Was a Star | What the Oldest Sources Say":
+    - button "関連動画 この動画に関連するコンテンツに視聴者を案内します。 The First Tengu Was a Star | What the Oldest Sources Say":
+      - generic: 関連動画
