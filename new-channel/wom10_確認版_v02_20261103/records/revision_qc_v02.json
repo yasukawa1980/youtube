@@ -1,0 +1,106 @@
+{
+  "passed": true,
+  "changed_assets": [
+    "D_1869",
+    "D_dec6",
+    "D_grimm",
+    "D_names",
+    "D_noancient",
+    "D_summary",
+    "K03a"
+  ],
+  "shot_checks": [
+    {
+      "key": "K01a",
+      "input_pixels_same": true
+    },
+    {
+      "key": "K06a",
+      "input_pixels_same": true
+    },
+    {
+      "key": "K05b",
+      "input_pixels_same": true
+    },
+    {
+      "key": "K04a",
+      "input_pixels_same": true
+    },
+    {
+      "key": "K05c",
+      "input_pixels_same": true
+    },
+    {
+      "key": "D_dec6",
+      "input_pixels_same": false
+    },
+    {
+      "key": "K09b",
+      "input_pixels_same": true
+    },
+    {
+      "key": "D_names",
+      "input_pixels_same": false
+    },
+    {
+      "key": "D_1869",
+      "input_pixels_same": false
+    },
+    {
+      "key": "K06b",
+      "input_pixels_same": true
+    },
+    {
+      "key": "K03a",
+      "input_pixels_same": false
+    },
+    {
+      "key": "D_grimm",
+      "input_pixels_same": false
+    },
+    {
+      "key": "K09a",
+      "input_pixels_same": true
+    },
+    {
+      "key": "D_noancient",
+      "input_pixels_same": false
+    },
+    {
+      "key": "K07b",
+      "input_pixels_same": true
+    },
+    {
+      "key": "D_summary",
+      "input_pixels_same": false
+    },
+    {
+      "key": "K10a",
+      "input_pixels_same": true
+    },
+    {
+      "key": "credits",
+      "input_pixels_same": true
+    }
+  ],
+  "script_audio_srt_timing_identical": true,
+  "subtitle_font_size": 14,
+  "subtitle_minimum_top": 936,
+  "card_maximum_text_bottom": 927,
+  "clearance_px": 9,
+  "summary_minimum_padding": 32,
+  "human_full_listening": false,
+  "K03a": {
+    "status": "approved",
+    "user_answer": "上半身を広く見せる構図で進める",
+    "crop_pixels": [
+      150,
+      100,
+      3350,
+      2500
+    ],
+    "child_excluded": true,
+    "original_artwork_altered": false,
+    "native_max_scale": 0.36899999999999994
+  }
+}

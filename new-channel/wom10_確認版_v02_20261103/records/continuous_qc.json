@@ -1,0 +1,1078 @@
+{
+  "passed": true,
+  "checks": [
+    {
+      "language": "en",
+      "video_sha256": "4de5cabca88f04a520f7f9f60299e3aa80406b6734148ec571c56a49a777b6a3",
+      "decoded_frames": 11018,
+      "decoded_pixel_formats": [
+        [
+          1920,
+          1080,
+          "yuv420p"
+        ]
+      ],
+      "sps_profile_idc": [
+        "100"
+      ],
+      "decode_warnings": 0,
+      "no_seeking": true,
+      "records": [
+        {
+          "key": "K01a",
+          "frames": [
+            0,
+            505,
+            1010
+          ],
+          "triptych": "review/continuous_en_shot_01.jpg",
+          "center": "review/center_en_01.jpg",
+          "source": null,
+          "label": null,
+          "source_header_checks": [
+            {
+              "rgb_mean_absolute_error": 4.094132965686274,
+              "glyph_intersection_over_union": 0.9678420310296192
+            },
+            {
+              "rgb_mean_absolute_error": 4.064288449754902,
+              "glyph_intersection_over_union": 0.9692177351030782
+            },
+            {
+              "rgb_mean_absolute_error": 4.063740808823529,
+              "glyph_intersection_over_union": 0.9694915254237289
+            }
+          ]
+        },
+        {
+          "key": "K06a",
+          "frames": [
+            1011,
+            1270,
+            1529
+          ],
+          "triptych": "review/continuous_en_shot_02.jpg",
+          "center": "review/center_en_02.jpg",
+          "source": null,
+          "label": null,
+          "source_header_checks": [
+            {
+              "rgb_mean_absolute_error": 4.083344822303921,
+              "glyph_intersection_over_union": 0.9706774519716885
+            },
+            {
+              "rgb_mean_absolute_error": 4.055526194852941,
+              "glyph_intersection_over_union": 0.9729638391348429
+            },
+            {
+              "rgb_mean_absolute_error": 4.052864583333333,
+              "glyph_intersection_over_union": 0.9703504043126685
+            }
+          ]
+        },
+        {
+          "key": "opening",
+          "frames": [
+            1530,
+            1589,
+            1649
+          ],
+          "triptych": "review/continuous_en_shot_03.jpg",
+          "center": "review/center_en_03.jpg",
+          "source": null,
+          "label": null,
+          "source_header_checks": []
+        },
+        {
+          "key": "K05b",
+          "frames": [
+            1650,
+            1924,
+            2199
+          ],
+          "triptych": "review/continuous_en_shot_04.jpg",
+          "center": "review/center_en_04.jpg",
+          "source": null,
+          "label": null,
+          "source_header_checks": [
+            {
+              "rgb_mean_absolute_error": 4.074923406862745,
+              "glyph_intersection_over_union": 0.9673024523160763
+            },
+            {
+              "rgb_mean_absolute_error": 4.059995404411764,
+              "glyph_intersection_over_union": 0.9669843430905378
+            },
+            {
+              "rgb_mean_absolute_error": 4.061446844362745,
+              "glyph_intersection_over_union": 0.9676430517711172
+            }
+          ]
+        },
+        {
+          "key": "K04a",
+          "frames": [
+            2200,
+            2448,
+            2696
+          ],
+          "triptych": "review/continuous_en_shot_05.jpg",
+          "center": "review/center_en_05.jpg",
+          "source": null,
+          "label": null,
+          "source_header_checks": [
+            {
+              "rgb_mean_absolute_error": 4.085765165441177,
+              "glyph_intersection_over_union": 0.9665863937387116
+            },
+            {
+              "rgb_mean_absolute_error": 4.08046875,
+              "glyph_intersection_over_union": 0.9665863937387116
+            },
+            {
+              "rgb_mean_absolute_error": 4.070944393382353,
+              "glyph_intersection_over_union": 0.9668874172185431
+            }
+          ]
+        },
+        {
+          "key": "K05c",
+          "frames": [
+            2697,
+            2849,
+            3001
+          ],
+          "triptych": "review/continuous_en_shot_06.jpg",
+          "center": "review/center_en_06.jpg",
+          "source": null,
+          "label": null,
+          "source_header_checks": [
+            {
+              "rgb_mean_absolute_error": 4.081518075980392,
+              "glyph_intersection_over_union": 0.9645742697327533
+            },
+            {
+              "rgb_mean_absolute_error": 4.077849264705883,
+              "glyph_intersection_over_union": 0.964874106310227
+            },
+            {
+              "rgb_mean_absolute_error": 4.059734987745098,
+              "glyph_intersection_over_union": 0.9652065858962411
+            }
+          ]
+        },
+        {
+          "key": "D_dec6",
+          "frames": [
+            3002,
+            3204,
+            3407
+          ],
+          "triptych": "review/continuous_en_shot_07.jpg",
+          "center": "review/center_en_07.jpg",
+          "source": null,
+          "label": null,
+          "source_header_checks": [
+            {
+              "rgb_mean_absolute_error": 4.013583792892157,
+              "glyph_intersection_over_union": 0.986764705882353
+            },
+            {
+              "rgb_mean_absolute_error": 4.013583792892157,
+              "glyph_intersection_over_union": 0.986764705882353
+            },
+            {
+              "rgb_mean_absolute_error": 4.013583792892157,
+              "glyph_intersection_over_union": 0.986764705882353
+            }
+          ]
+        },
+        {
+          "key": "K09b",
+          "frames": [
+            3408,
+            3806,
+            4204
+          ],
+          "triptych": "review/continuous_en_shot_08.jpg",
+          "center": "review/center_en_08.jpg",
+          "source": null,
+          "label": null,
+          "source_header_checks": [
+            {
+              "rgb_mean_absolute_error": 4.092807904411765,
+              "glyph_intersection_over_union": 0.9679144385026738
+            },
+            {
+              "rgb_mean_absolute_error": 4.077094822303922,
+              "glyph_intersection_over_union": 0.9702380952380952
+            },
+            {
+              "rgb_mean_absolute_error": 4.074988511029412,
+              "glyph_intersection_over_union": 0.9705357142857143
+            }
+          ]
+        },
+        {
+          "key": "D_names",
+          "frames": [
+            4205,
+            4632,
+            5060
+          ],
+          "triptych": "review/continuous_en_shot_09.jpg",
+          "center": "review/center_en_09.jpg",
+          "source": null,
+          "label": null,
+          "source_header_checks": [
+            {
+              "rgb_mean_absolute_error": 4.016670496323529,
+              "glyph_intersection_over_union": 0.9730769230769231
+            },
+            {
+              "rgb_mean_absolute_error": 4.016670496323529,
+              "glyph_intersection_over_union": 0.9730769230769231
+            },
+            {
+              "rgb_mean_absolute_error": 4.016773897058823,
+              "glyph_intersection_over_union": 0.9730769230769231
+            }
+          ]
+        },
+        {
+          "key": "D_1869",
+          "frames": [
+            5061,
+            5274,
+            5488
+          ],
+          "triptych": "review/continuous_en_shot_10.jpg",
+          "center": "review/center_en_10.jpg",
+          "source": null,
+          "label": null,
+          "source_header_checks": [
+            {
+              "rgb_mean_absolute_error": 4.013583792892157,
+              "glyph_intersection_over_union": 0.986764705882353
+            },
+            {
+              "rgb_mean_absolute_error": 4.013583792892157,
+              "glyph_intersection_over_union": 0.986764705882353
+            },
+            {
+              "rgb_mean_absolute_error": 4.0142118566176475,
+              "glyph_intersection_over_union": 0.9809941520467836
+            }
+          ]
+        },
+        {
+          "key": "K06b",
+          "frames": [
+            5489,
+            5632,
+            5775
+          ],
+          "triptych": "review/continuous_en_shot_11.jpg",
+          "center": "review/center_en_11.jpg",
+          "source": null,
+          "label": null,
+          "source_header_checks": [
+            {
+              "rgb_mean_absolute_error": 4.09609375,
+              "glyph_intersection_over_union": 0.9684737772539777
+            },
+            {
+              "rgb_mean_absolute_error": 4.092283241421568,
+              "glyph_intersection_over_union": 0.9684737772539777
+            },
+            {
+              "rgb_mean_absolute_error": 4.066268382352941,
+              "glyph_intersection_over_union": 0.9739413680781759
+            }
+          ]
+        },
+        {
+          "key": "K03a",
+          "frames": [
+            5776,
+            6222,
+            6668
+          ],
+          "triptych": "review/continuous_en_shot_12.jpg",
+          "center": "review/center_en_12.jpg",
+          "source": null,
+          "label": null,
+          "source_header_checks": [
+            {
+              "rgb_mean_absolute_error": 4.0845971200980395,
+              "glyph_intersection_over_union": 0.9727088948787062
+            },
+            {
+              "rgb_mean_absolute_error": 4.059876685049019,
+              "glyph_intersection_over_union": 0.9736930860033727
+            },
+            {
+              "rgb_mean_absolute_error": 4.059876685049019,
+              "glyph_intersection_over_union": 0.9736930860033727
+            }
+          ]
+        },
+        {
+          "key": "D_grimm",
+          "frames": [
+            6669,
+            7062,
+            7456
+          ],
+          "triptych": "review/continuous_en_shot_13.jpg",
+          "center": "review/center_en_13.jpg",
+          "source": null,
+          "label": null,
+          "source_header_checks": [
+            {
+              "rgb_mean_absolute_error": 4.013583792892157,
+              "glyph_intersection_over_union": 0.986764705882353
+            },
+            {
+              "rgb_mean_absolute_error": 4.013583792892157,
+              "glyph_intersection_over_union": 0.986764705882353
+            },
+            {
+              "rgb_mean_absolute_error": 4.015996476715686,
+              "glyph_intersection_over_union": 0.9824304538799414
+            }
+          ]
+        },
+        {
+          "key": "K09a",
+          "frames": [
+            7457,
+            7737,
+            8018
+          ],
+          "triptych": "review/continuous_en_shot_14.jpg",
+          "center": "review/center_en_14.jpg",
+          "source": null,
+          "label": null,
+          "source_header_checks": [
+            {
+              "rgb_mean_absolute_error": 4.1016582414215685,
+              "glyph_intersection_over_union": 0.9717546362339515
+            },
+            {
+              "rgb_mean_absolute_error": 4.072736672794117,
+              "glyph_intersection_over_union": 0.9734285714285714
+            },
+            {
+              "rgb_mean_absolute_error": 4.074073223039216,
+              "glyph_intersection_over_union": 0.9737142857142858
+            }
+          ]
+        },
+        {
+          "key": "D_noancient",
+          "frames": [
+            8019,
+            8263,
+            8508
+          ],
+          "triptych": "review/continuous_en_shot_15.jpg",
+          "center": "review/center_en_15.jpg",
+          "source": null,
+          "label": null,
+          "source_header_checks": [
+            {
+              "rgb_mean_absolute_error": 4.013583792892157,
+              "glyph_intersection_over_union": 0.986764705882353
+            },
+            {
+              "rgb_mean_absolute_error": 4.013583792892157,
+              "glyph_intersection_over_union": 0.986764705882353
+            },
+            {
+              "rgb_mean_absolute_error": 4.016498161764706,
+              "glyph_intersection_over_union": 0.978134110787172
+            }
+          ]
+        },
+        {
+          "key": "K07b",
+          "frames": [
+            8509,
+            8779,
+            9050
+          ],
+          "triptych": "review/continuous_en_shot_16.jpg",
+          "center": "review/center_en_16.jpg",
+          "source": null,
+          "label": null,
+          "source_header_checks": [
+            {
+              "rgb_mean_absolute_error": 4.089456954656863,
+              "glyph_intersection_over_union": 0.9699789852897028
+            },
+            {
+              "rgb_mean_absolute_error": 4.068271292892157,
+              "glyph_intersection_over_union": 0.9693877551020408
+            },
+            {
+              "rgb_mean_absolute_error": 4.102351409313726,
+              "glyph_intersection_over_union": 0.9711451758340848
+            }
+          ]
+        },
+        {
+          "key": "D_summary",
+          "frames": [
+            9051,
+            9434,
+            9817
+          ],
+          "triptych": "review/continuous_en_shot_17.jpg",
+          "center": "review/center_en_17.jpg",
+          "source": null,
+          "label": null,
+          "source_header_checks": [
+            {
+              "rgb_mean_absolute_error": 4.017275582107843,
+              "glyph_intersection_over_union": 0.9693486590038314
+            },
+            {
+              "rgb_mean_absolute_error": 4.017275582107843,
+              "glyph_intersection_over_union": 0.9693486590038314
+            },
+            {
+              "rgb_mean_absolute_error": 4.017275582107843,
+              "glyph_intersection_over_union": 0.9693486590038314
+            }
+          ]
+        },
+        {
+          "key": "K10a",
+          "frames": [
+            9818,
+            9935,
+            10053
+          ],
+          "triptych": "review/continuous_en_shot_18.jpg",
+          "center": "review/center_en_18.jpg",
+          "source": null,
+          "label": null,
+          "source_header_checks": [
+            {
+              "rgb_mean_absolute_error": 4.07039675245098,
+              "glyph_intersection_over_union": 0.9669843430905378
+            },
+            {
+              "rgb_mean_absolute_error": 4.06957337622549,
+              "glyph_intersection_over_union": 0.9673135852911133
+            },
+            {
+              "rgb_mean_absolute_error": 4.069921875,
+              "glyph_intersection_over_union": 0.9673135852911133
+            }
+          ]
+        },
+        {
+          "key": "credits",
+          "frames": [
+            10054,
+            10385,
+            10717
+          ],
+          "triptych": "review/continuous_en_shot_19.jpg",
+          "center": "review/center_en_19.jpg",
+          "source": null,
+          "label": null,
+          "source_header_checks": [
+            {
+              "rgb_mean_absolute_error": 4.01219362745098,
+              "glyph_intersection_over_union": 0.9787234042553191
+            },
+            {
+              "rgb_mean_absolute_error": 4.01219362745098,
+              "glyph_intersection_over_union": 0.9787234042553191
+            },
+            {
+              "rgb_mean_absolute_error": 4.013105085784313,
+              "glyph_intersection_over_union": 0.9547169811320755
+            }
+          ]
+        },
+        {
+          "key": "endcard",
+          "frames": [
+            10718,
+            10867,
+            11017
+          ],
+          "triptych": "review/continuous_en_shot_20.jpg",
+          "center": "review/center_en_20.jpg",
+          "source": null,
+          "label": null,
+          "source_header_checks": []
+        }
+      ]
+    },
+    {
+      "language": "ja",
+      "video_sha256": "b30f167f19d5a97b7b8fc3faa097dbfc2421b63c4daef756ce133cad0345c4fd",
+      "decoded_frames": 11018,
+      "decoded_pixel_formats": [
+        [
+          1920,
+          1080,
+          "yuv420p"
+        ]
+      ],
+      "sps_profile_idc": [
+        "100"
+      ],
+      "decode_warnings": 0,
+      "no_seeking": true,
+      "records": [
+        {
+          "key": "K01a",
+          "frames": [
+            0,
+            505,
+            1010
+          ],
+          "triptych": "review/continuous_ja_shot_01.jpg",
+          "center": "review/center_ja_01.jpg",
+          "source": null,
+          "label": null,
+          "source_header_checks": [
+            {
+              "rgb_mean_absolute_error": 4.094132965686274,
+              "glyph_intersection_over_union": 0.9678420310296192
+            },
+            {
+              "rgb_mean_absolute_error": 4.064288449754902,
+              "glyph_intersection_over_union": 0.9692177351030782
+            },
+            {
+              "rgb_mean_absolute_error": 4.063740808823529,
+              "glyph_intersection_over_union": 0.9694915254237289
+            }
+          ]
+        },
+        {
+          "key": "K06a",
+          "frames": [
+            1011,
+            1270,
+            1529
+          ],
+          "triptych": "review/continuous_ja_shot_02.jpg",
+          "center": "review/center_ja_02.jpg",
+          "source": null,
+          "label": null,
+          "source_header_checks": [
+            {
+              "rgb_mean_absolute_error": 4.083344822303921,
+              "glyph_intersection_over_union": 0.9706774519716885
+            },
+            {
+              "rgb_mean_absolute_error": 4.055526194852941,
+              "glyph_intersection_over_union": 0.9729638391348429
+            },
+            {
+              "rgb_mean_absolute_error": 4.052864583333333,
+              "glyph_intersection_over_union": 0.9703504043126685
+            }
+          ]
+        },
+        {
+          "key": "opening",
+          "frames": [
+            1530,
+            1589,
+            1649
+          ],
+          "triptych": "review/continuous_ja_shot_03.jpg",
+          "center": "review/center_ja_03.jpg",
+          "source": null,
+          "label": null,
+          "source_header_checks": []
+        },
+        {
+          "key": "K05b",
+          "frames": [
+            1650,
+            1924,
+            2199
+          ],
+          "triptych": "review/continuous_ja_shot_04.jpg",
+          "center": "review/center_ja_04.jpg",
+          "source": null,
+          "label": null,
+          "source_header_checks": [
+            {
+              "rgb_mean_absolute_error": 4.074923406862745,
+              "glyph_intersection_over_union": 0.9673024523160763
+            },
+            {
+              "rgb_mean_absolute_error": 4.059995404411764,
+              "glyph_intersection_over_union": 0.9669843430905378
+            },
+            {
+              "rgb_mean_absolute_error": 4.061446844362745,
+              "glyph_intersection_over_union": 0.9676430517711172
+            }
+          ]
+        },
+        {
+          "key": "K04a",
+          "frames": [
+            2200,
+            2448,
+            2696
+          ],
+          "triptych": "review/continuous_ja_shot_05.jpg",
+          "center": "review/center_ja_05.jpg",
+          "source": null,
+          "label": null,
+          "source_header_checks": [
+            {
+              "rgb_mean_absolute_error": 4.085765165441177,
+              "glyph_intersection_over_union": 0.9665863937387116
+            },
+            {
+              "rgb_mean_absolute_error": 4.08046875,
+              "glyph_intersection_over_union": 0.9665863937387116
+            },
+            {
+              "rgb_mean_absolute_error": 4.070944393382353,
+              "glyph_intersection_over_union": 0.9668874172185431
+            }
+          ]
+        },
+        {
+          "key": "K05c",
+          "frames": [
+            2697,
+            2849,
+            3001
+          ],
+          "triptych": "review/continuous_ja_shot_06.jpg",
+          "center": "review/center_ja_06.jpg",
+          "source": null,
+          "label": null,
+          "source_header_checks": [
+            {
+              "rgb_mean_absolute_error": 4.081518075980392,
+              "glyph_intersection_over_union": 0.9645742697327533
+            },
+            {
+              "rgb_mean_absolute_error": 4.077849264705883,
+              "glyph_intersection_over_union": 0.964874106310227
+            },
+            {
+              "rgb_mean_absolute_error": 4.059734987745098,
+              "glyph_intersection_over_union": 0.9652065858962411
+            }
+          ]
+        },
+        {
+          "key": "D_dec6",
+          "frames": [
+            3002,
+            3204,
+            3407
+          ],
+          "triptych": "review/continuous_ja_shot_07.jpg",
+          "center": "review/center_ja_07.jpg",
+          "source": null,
+          "label": null,
+          "source_header_checks": [
+            {
+              "rgb_mean_absolute_error": 4.013583792892157,
+              "glyph_intersection_over_union": 0.986764705882353
+            },
+            {
+              "rgb_mean_absolute_error": 4.013583792892157,
+              "glyph_intersection_over_union": 0.986764705882353
+            },
+            {
+              "rgb_mean_absolute_error": 4.013583792892157,
+              "glyph_intersection_over_union": 0.986764705882353
+            }
+          ]
+        },
+        {
+          "key": "K09b",
+          "frames": [
+            3408,
+            3806,
+            4204
+          ],
+          "triptych": "review/continuous_ja_shot_08.jpg",
+          "center": "review/center_ja_08.jpg",
+          "source": null,
+          "label": null,
+          "source_header_checks": [
+            {
+              "rgb_mean_absolute_error": 4.092807904411765,
+              "glyph_intersection_over_union": 0.9679144385026738
+            },
+            {
+              "rgb_mean_absolute_error": 4.077094822303922,
+              "glyph_intersection_over_union": 0.9702380952380952
+            },
+            {
+              "rgb_mean_absolute_error": 4.074988511029412,
+              "glyph_intersection_over_union": 0.9705357142857143
+            }
+          ]
+        },
+        {
+          "key": "D_names",
+          "frames": [
+            4205,
+            4632,
+            5060
+          ],
+          "triptych": "review/continuous_ja_shot_09.jpg",
+          "center": "review/center_ja_09.jpg",
+          "source": null,
+          "label": null,
+          "source_header_checks": [
+            {
+              "rgb_mean_absolute_error": 4.016670496323529,
+              "glyph_intersection_over_union": 0.9730769230769231
+            },
+            {
+              "rgb_mean_absolute_error": 4.016670496323529,
+              "glyph_intersection_over_union": 0.9730769230769231
+            },
+            {
+              "rgb_mean_absolute_error": 4.016773897058823,
+              "glyph_intersection_over_union": 0.9730769230769231
+            }
+          ]
+        },
+        {
+          "key": "D_1869",
+          "frames": [
+            5061,
+            5274,
+            5488
+          ],
+          "triptych": "review/continuous_ja_shot_10.jpg",
+          "center": "review/center_ja_10.jpg",
+          "source": null,
+          "label": null,
+          "source_header_checks": [
+            {
+              "rgb_mean_absolute_error": 4.013583792892157,
+              "glyph_intersection_over_union": 0.986764705882353
+            },
+            {
+              "rgb_mean_absolute_error": 4.013583792892157,
+              "glyph_intersection_over_union": 0.986764705882353
+            },
+            {
+              "rgb_mean_absolute_error": 4.0142118566176475,
+              "glyph_intersection_over_union": 0.9809941520467836
+            }
+          ]
+        },
+        {
+          "key": "K06b",
+          "frames": [
+            5489,
+            5632,
+            5775
+          ],
+          "triptych": "review/continuous_ja_shot_11.jpg",
+          "center": "review/center_ja_11.jpg",
+          "source": null,
+          "label": null,
+          "source_header_checks": [
+            {
+              "rgb_mean_absolute_error": 4.09609375,
+              "glyph_intersection_over_union": 0.9684737772539777
+            },
+            {
+              "rgb_mean_absolute_error": 4.092283241421568,
+              "glyph_intersection_over_union": 0.9684737772539777
+            },
+            {
+              "rgb_mean_absolute_error": 4.066268382352941,
+              "glyph_intersection_over_union": 0.9739413680781759
+            }
+          ]
+        },
+        {
+          "key": "K03a",
+          "frames": [
+            5776,
+            6222,
+            6668
+          ],
+          "triptych": "review/continuous_ja_shot_12.jpg",
+          "center": "review/center_ja_12.jpg",
+          "source": null,
+          "label": null,
+          "source_header_checks": [
+            {
+              "rgb_mean_absolute_error": 4.0845971200980395,
+              "glyph_intersection_over_union": 0.9727088948787062
+            },
+            {
+              "rgb_mean_absolute_error": 4.059876685049019,
+              "glyph_intersection_over_union": 0.9736930860033727
+            },
+            {
+              "rgb_mean_absolute_error": 4.059876685049019,
+              "glyph_intersection_over_union": 0.9736930860033727
+            }
+          ]
+        },
+        {
+          "key": "D_grimm",
+          "frames": [
+            6669,
+            7062,
+            7456
+          ],
+          "triptych": "review/continuous_ja_shot_13.jpg",
+          "center": "review/center_ja_13.jpg",
+          "source": null,
+          "label": null,
+          "source_header_checks": [
+            {
+              "rgb_mean_absolute_error": 4.013583792892157,
+              "glyph_intersection_over_union": 0.986764705882353
+            },
+            {
+              "rgb_mean_absolute_error": 4.013583792892157,
+              "glyph_intersection_over_union": 0.986764705882353
+            },
+            {
+              "rgb_mean_absolute_error": 4.015996476715686,
+              "glyph_intersection_over_union": 0.9824304538799414
+            }
+          ]
+        },
+        {
+          "key": "K09a",
+          "frames": [
+            7457,
+            7737,
+            8018
+          ],
+          "triptych": "review/continuous_ja_shot_14.jpg",
+          "center": "review/center_ja_14.jpg",
+          "source": null,
+          "label": null,
+          "source_header_checks": [
+            {
+              "rgb_mean_absolute_error": 4.1016582414215685,
+              "glyph_intersection_over_union": 0.9717546362339515
+            },
+            {
+              "rgb_mean_absolute_error": 4.072736672794117,
+              "glyph_intersection_over_union": 0.9734285714285714
+            },
+            {
+              "rgb_mean_absolute_error": 4.074073223039216,
+              "glyph_intersection_over_union": 0.9737142857142858
+            }
+          ]
+        },
+        {
+          "key": "D_noancient",
+          "frames": [
+            8019,
+            8263,
+            8508
+          ],
+          "triptych": "review/continuous_ja_shot_15.jpg",
+          "center": "review/center_ja_15.jpg",
+          "source": null,
+          "label": null,
+          "source_header_checks": [
+            {
+              "rgb_mean_absolute_error": 4.013583792892157,
+              "glyph_intersection_over_union": 0.986764705882353
+            },
+            {
+              "rgb_mean_absolute_error": 4.013583792892157,
+              "glyph_intersection_over_union": 0.986764705882353
+            },
+            {
+              "rgb_mean_absolute_error": 4.016498161764706,
+              "glyph_intersection_over_union": 0.978134110787172
+            }
+          ]
+        },
+        {
+          "key": "K07b",
+          "frames": [
+            8509,
+            8779,
+            9050
+          ],
+          "triptych": "review/continuous_ja_shot_16.jpg",
+          "center": "review/center_ja_16.jpg",
+          "source": null,
+          "label": null,
+          "source_header_checks": [
+            {
+              "rgb_mean_absolute_error": 4.089456954656863,
+              "glyph_intersection_over_union": 0.9699789852897028
+            },
+            {
+              "rgb_mean_absolute_error": 4.068271292892157,
+              "glyph_intersection_over_union": 0.9693877551020408
+            },
+            {
+              "rgb_mean_absolute_error": 4.102351409313726,
+              "glyph_intersection_over_union": 0.9711451758340848
+            }
+          ]
+        },
+        {
+          "key": "D_summary",
+          "frames": [
+            9051,
+            9434,
+            9817
+          ],
+          "triptych": "review/continuous_ja_shot_17.jpg",
+          "center": "review/center_ja_17.jpg",
+          "source": null,
+          "label": null,
+          "source_header_checks": [
+            {
+              "rgb_mean_absolute_error": 4.017275582107843,
+              "glyph_intersection_over_union": 0.9693486590038314
+            },
+            {
+              "rgb_mean_absolute_error": 4.017275582107843,
+              "glyph_intersection_over_union": 0.9693486590038314
+            },
+            {
+              "rgb_mean_absolute_error": 4.017275582107843,
+              "glyph_intersection_over_union": 0.9693486590038314
+            }
+          ]
+        },
+        {
+          "key": "K10a",
+          "frames": [
+            9818,
+            9935,
+            10053
+          ],
+          "triptych": "review/continuous_ja_shot_18.jpg",
+          "center": "review/center_ja_18.jpg",
+          "source": null,
+          "label": null,
+          "source_header_checks": [
+            {
+              "rgb_mean_absolute_error": 4.07039675245098,
+              "glyph_intersection_over_union": 0.9669843430905378
+            },
+            {
+              "rgb_mean_absolute_error": 4.06957337622549,
+              "glyph_intersection_over_union": 0.9673135852911133
+            },
+            {
+              "rgb_mean_absolute_error": 4.069921875,
+              "glyph_intersection_over_union": 0.9673135852911133
+            }
+          ]
+        },
+        {
+          "key": "credits",
+          "frames": [
+            10054,
+            10385,
+            10717
+          ],
+          "triptych": "review/continuous_ja_shot_19.jpg",
+          "center": "review/center_ja_19.jpg",
+          "source": null,
+          "label": null,
+          "source_header_checks": [
+            {
+              "rgb_mean_absolute_error": 4.01219362745098,
+              "glyph_intersection_over_union": 0.9787234042553191
+            },
+            {
+              "rgb_mean_absolute_error": 4.01219362745098,
+              "glyph_intersection_over_union": 0.9787234042553191
+            },
+            {
+              "rgb_mean_absolute_error": 4.013105085784313,
+              "glyph_intersection_over_union": 0.9547169811320755
+            }
+          ]
+        },
+        {
+          "key": "endcard",
+          "frames": [
+            10718,
+            10867,
+            11017
+          ],
+          "triptych": "review/continuous_ja_shot_20.jpg",
+          "center": "review/center_ja_20.jpg",
+          "source": null,
+          "label": null,
+          "source_header_checks": []
+        }
+      ]
+    }
+  ],
+  "script_unchanged": true,
+  "unique_originals": [
+    "K01a",
+    "K06a",
+    "K05b",
+    "K04a",
+    "K05c",
+    "K09b",
+    "K06b",
+    "K03a",
+    "K09a",
+    "K07b",
+    "K10a"
+  ],
+  "endcard_exact_last_10_seconds": true,
+  "opening_frames": [
+    {
+      "language": "en",
+      "source_frames": [
+        0,
+        30,
+        60,
+        90
+      ],
+      "files": [
+        "review/opening_en_01.jpg",
+        "review/opening_en_02.jpg",
+        "review/opening_en_03.jpg",
+        "review/opening_en_04.jpg"
+      ]
+    },
+    {
+      "language": "ja",
+      "source_frames": [
+        0,
+        30,
+        60,
+        90
+      ],
+      "files": [
+        "review/opening_ja_01.jpg",
+        "review/opening_ja_02.jpg",
+        "review/opening_ja_03.jpg",
+        "review/opening_ja_04.jpg"
+      ]
+    }
+  ]
+}

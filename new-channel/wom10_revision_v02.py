@@ -9,6 +9,8 @@ from PIL import Image,ImageDraw,ImageFont
 from wom10_produce import read,save,sha
 
 def prepare():
+ if (ROOT/'records/master_timeline.json').exists():
+  print('Existing v02 retained; use layout or apply_k03 to revise',flush=True);return
  for name in ['records','assets','audio','_work/render']:shutil.copytree(OLD/name,ROOT/name,dirs_exist_ok=True)
  for n in ['review','deliverables','_work/render']:(ROOT/n).mkdir(parents=True,exist_ok=True)
  for p in (OLD/'deliverables').iterdir():
@@ -62,6 +64,14 @@ def layout():
   if s['key'].startswith('D_'):
    im=Image.open(ROOT/s['file']);im.thumbnail((1280,720));im.save(ROOT/f'review/{s["key"]}_v02.jpg',quality=92)
  print('LAYOUT COMPLETE',flush=True)
+def apply_k03():
+ m=read(ROOT/'records/visual_manifest.json');s=next(s for s in m['shots'] if s['key']=='K03a');crop=[150,100,3350,2500];a=Image.open(s['original_source']).convert('RGB').crop(crop);scale=864/a.height;w=round(a.width*scale);im=v.base(*v.SOURCES['K03a']);im.paste(a.resize((w,864),Image.Resampling.LANCZOS),((1920-w)//2,150));im.save(ROOT/s['file']);s.update(crop_pixels=crop,art_boxes=[[(1920-w)//2,150,(1920+w)//2,1014]],native_initial_scale=scale,native_max_scale=scale*(1+s['zoom_amount']))
+ save(ROOT/'records/visual_manifest.json',m)
+ approval=dict(status='approved',user_answer='上半身を広く見せる構図で進める',crop_pixels=crop,child_excluded=True,original_artwork_altered=False,native_max_scale=s['native_max_scale'])
+ save(ROOT/'records/K03a_pending.json',approval);save(ROOT/'records/v02_owner_approval.json',approval)
+ im.thumbnail((1280,720));im.save(ROOT/'review/K03a_approved_v02.jpg',quality=92)
+ print('K03a APPROVED APPLIED',flush=True)
+
 if __name__=='__main__':
  import sys
  globals()[sys.argv[1]]()

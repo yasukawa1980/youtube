@@ -1,5 +1,5 @@
 import os
-os.environ.setdefault('WOM10_ROOT','/Volumes/ESD-02/新チャンネル/EP010_Krampus/確認版_v02_20261102')
+os.environ.setdefault('WOM10_ROOT','/Volumes/ESD-02/新チャンネル/EP010_Krampus/確認版_v02_20261103')
 """Unfiltered consecutive-frame motion check; explicit diagram reveals checked separately."""
 import csv,subprocess
 import numpy as np

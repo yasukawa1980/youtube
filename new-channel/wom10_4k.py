@@ -1,7 +1,7 @@
 #!/usr/bin/env python3
 """第10話の完成版を4Kへ拡大する。QT-Cと同じ設定。元の1080p版は変更しない。
 
-使い方: python3 wom10_4k.py [v01] [en ja]
+使い方: python3 wom10_4k.py [v02] [en ja]
 """
 import hashlib, json, subprocess, sys
 from pathlib import Path
@@ -20,7 +20,7 @@ def run(*args):
 
 def probe(path):
     return json.loads(run('ffprobe', '-v', 'error', '-count_frames', '-show_entries',
-                          'format=duration,size,bit_rate:stream=codec_type,codec_name,width,height,avg_frame_rate,nb_read_frames',
+                          'format=duration,size,bit_rate:stream=codec_type,codec_name,profile,pix_fmt,width,height,avg_frame_rate,nb_read_frames',
                           '-of', 'json', str(path)))
 
 
@@ -40,22 +40,24 @@ def convert(version, language):
     out = root / f'deliverables_4k/EP010_Krampus_{language}_{version}_2160p30.mp4'
     out.parent.mkdir(exist_ok=True)
     run('ffmpeg', '-nostdin', '-y', '-v', 'error', '-i', str(src), '-map', '0:v:0', '-map', '0:a:0', '-vf', VF, *ENCODE,
-        '-c:a', 'copy', '-movflags', '+faststart', str(out))
-    run('ffmpeg', '-nostdin', '-v', 'error', '-xerror', '-i', str(out), '-map', '0:v:0', '-f', 'null', '-')
+        '-threads', '4', '-progress', str(root / '_work/4k_progress.txt'), '-c:a', 'copy', '-movflags', '+faststart', str(out))
+    decoded = subprocess.run(['ffmpeg','-nostdin','-v','warning','-xerror','-i',str(out),'-map','0:v:0','-f','null','-'],check=True,capture_output=True,text=True)
+    assert not decoded.stderr.strip(), decoded.stderr
     before, after = probe(src), probe(out)
     v0, v1 = video_stream(before), video_stream(after)
     assert [v1['width'], v1['height'], v1['avg_frame_rate']] == [3840, 2160, '30/1']
     assert v1['nb_read_frames'] == v0['nb_read_frames']
+    assert [v1['profile'],v1['pix_fmt']] == ['High','yuv420p']
     assert audio_sha(src) == audio_sha(out)
     record = {'language': language, 'source': src.name, 'output': out.name, 'frames': int(v1['nb_read_frames']),
               'duration': float(after['format']['duration']), 'bytes': int(after['format']['size']),
-              'bit_rate': int(after['format']['bit_rate']), 'audio_same': True}
+              'bit_rate': int(after['format']['bit_rate']), 'audio_same': True, 'decode_warnings': 0, 'source_sha256': hashlib.file_digest(src.open('rb'),'sha256').hexdigest(), 'output_sha256': hashlib.file_digest(out.open('rb'),'sha256').hexdigest()}
     print(json.dumps(record, ensure_ascii=False), flush=True)
     return record
 
 
 if __name__ == '__main__':
-    version = sys.argv[1] if len(sys.argv) > 1 else 'v01'
+    version = sys.argv[1] if len(sys.argv) > 1 else 'v02'
     languages = sys.argv[2:] or ['en']
     records = [convert(version, language) for language in languages]
     state = BASE / FOLDERS[version] / 'deliverables_4k/encoding.json'

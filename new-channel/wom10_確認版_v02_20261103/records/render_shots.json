@@ -1,0 +1,3417 @@
+[
+  {
+    "key": "K01a",
+    "segment_id": "P01",
+    "file": "assets/K01a.png",
+    "text_boxes": [
+      {
+        "text": "POSTCARD｜絵はがき",
+        "bbox": [
+          830,
+          20,
+          1089,
+          43
+        ],
+        "glyph_height": 23,
+        "font": "/System/Library/Fonts/ヒラギノ角ゴシック W3.ttc",
+        "major": false,
+        "color": "#3b2c21"
+      },
+      {
+        "text": "Wiener Werkstätte postcard no. 247, Josef von Divéky, 1909 — Wien Museum, 101968/101 (CC0)",
+        "bbox": [
+          427,
+          60,
+          1493,
+          83
+        ],
+        "glyph_height": 23,
+        "font": "/System/Library/Fonts/Supplemental/Arial.ttf",
+        "major": false,
+        "color": "#3b2c21"
+      }
+    ],
+    "original_asset_id": "K01a",
+    "original_source": "/Volumes/ESD-02/新チャンネル/EP010_Krampus/素材/WM178961_front_original.jpg",
+    "original_sha256": "794be9692907c6206b32691880ce9567ffbe492885308637fd960ca06266a7a7",
+    "source_text": [
+      "POSTCARD｜絵はがき",
+      "Wiener Werkstätte postcard no. 247, Josef von Divéky, 1909 — Wien Museum, 101968/101 (CC0)"
+    ],
+    "original_pixels": [
+      3500,
+      5460
+    ],
+    "crop_pixels": [
+      0,
+      0,
+      3500,
+      5460
+    ],
+    "art_boxes": [
+      [
+        655,
+        120,
+        1264,
+        1070
+      ]
+    ],
+    "camera_band": [
+      110,
+      1080
+    ],
+    "zoom_amount": 0.045,
+    "native_initial_scale": 0.17399267399267399,
+    "native_max_scale": 0.18182999999999996,
+    "color_class": "color",
+    "start": 0.0,
+    "end": 33.7,
+    "frames": 1011,
+    "encoded_file": "_work/render/P01_01_K01a.mp4",
+    "render_config": {
+      "image_sha256": "816916ac7768bd423d022f013bce1273d7ed17830dea97e2f703ef1f295e3fb3",
+      "stages": [],
+      "frames": 1011,
+      "filter": "[0:v]split=2[base][art];[art]crop=1920:970:0:110,format=yuv444p,perspective=x0='(W-W/(1+0.045*on/1010))/2':y0='0':x1='(W-W/(1+0.045*on/1010))/2+W/(1+0.045*on/1010)':y1='0':x2='(W-W/(1+0.045*on/1010))/2':y2='0+H/(1+0.045*on/1010)':x3='(W-W/(1+0.045*on/1010))/2+W/(1+0.045*on/1010)':y3='0+H/(1+0.045*on/1010)':sense=source:eval=frame:interpolation=cubic[moving];[base][moving]overlay=0:110:format=yuv444,format=yuv420p[v]",
+      "lossless_static_intermediate": false,
+      "stage_change_frames": []
+    },
+    "stage_change_frames": []
+  },
+  {
+    "key": "K06a",
+    "segment_id": "P02",
+    "file": "assets/K06a.png",
+    "text_boxes": [
+      {
+        "text": "POSTCARD｜絵はがき",
+        "bbox": [
+          830,
+          20,
+          1089,
+          43
+        ],
+        "glyph_height": 23,
+        "font": "/System/Library/Fonts/ヒラギノ角ゴシック W3.ttc",
+        "major": false,
+        "color": "#3b2c21"
+      },
+      {
+        "text": "Wiener Werkstätte postcard no. 541, 1911 — Wien Museum, 101968/146 (CC0)",
+        "bbox": [
+          526,
+          60,
+          1394,
+          83
+        ],
+        "glyph_height": 23,
+        "font": "/System/Library/Fonts/Supplemental/Arial.ttf",
+        "major": false,
+        "color": "#3b2c21"
+      }
+    ],
+    "original_asset_id": "K06a",
+    "original_source": "/Volumes/ESD-02/新チャンネル/EP010_Krampus/素材/WM179028_front_original.jpg",
+    "original_sha256": "f1b3eb5e88146941209b856291936c6b0a57fb5b5cd4040a20dabc43cbc987a1",
+    "source_text": [
+      "POSTCARD｜絵はがき",
+      "Wiener Werkstätte postcard no. 541, 1911 — Wien Museum, 101968/146 (CC0)"
+    ],
+    "original_pixels": [
+      3500,
+      5505
+    ],
+    "crop_pixels": [
+      0,
+      0,
+      3500,
+      5505
+    ],
+    "art_boxes": [
+      [
+        658,
+        120,
+        1262,
+        1070
+      ]
+    ],
+    "camera_band": [
+      110,
+      1080
+    ],
+    "zoom_amount": 0.045,
+    "native_initial_scale": 0.17257039055404177,
+    "native_max_scale": 0.18033714285714283,
+    "color_class": "color",
+    "start": 33.7,
+    "end": 51.0,
+    "frames": 519,
+    "encoded_file": "_work/render/P02_01_K06a.mp4",
+    "render_config": {
+      "image_sha256": "2f8c135be8614b730338ff84caa301398d084ec146db37b9ba0cfaf65094dca6",
+      "stages": [],
+      "frames": 519,
+      "filter": "[0:v]split=2[base][art];[art]crop=1920:970:0:110,format=yuv444p,perspective=x0='(W-W/(1+0.045*on/518))/2':y0='(H-H/(1+0.045*on/518))/2':x1='(W-W/(1+0.045*on/518))/2+W/(1+0.045*on/518)':y1='(H-H/(1+0.045*on/518))/2':x2='(W-W/(1+0.045*on/518))/2':y2='(H-H/(1+0.045*on/518))/2+H/(1+0.045*on/518)':x3='(W-W/(1+0.045*on/518))/2+W/(1+0.045*on/518)':y3='(H-H/(1+0.045*on/518))/2+H/(1+0.045*on/518)':sense=source:eval=frame:interpolation=cubic[moving];[base][moving]overlay=0:110:format=yuv444,format=yuv420p[v]",
+      "lossless_static_intermediate": false,
+      "stage_change_frames": []
+    },
+    "stage_change_frames": []
+  },
+  {
+    "key": "opening",
+    "segment_id": "BRAND",
+    "start": 51.0,
+    "end": 55.0,
+    "frames": 120,
+    "encoded_file": "/Users/ryo/Desktop/新チャンネル/ブランド素材/オープニング_エンドカード_動画試作_v02_20261021/deliverables/Quiet_Origins_opening_trial_v02.mp4",
+    "original_source": "/Users/ryo/Desktop/新チャンネル/ブランド素材/オープニング_エンドカード_動画試作_v02_20261021/deliverables/Quiet_Origins_opening_trial_v02.mp4",
+    "original_sha256": "4f8e95fd166e52b6c601c87440006ded2eec298f54c3d6d6a951738b54f721a9"
+  },
+  {
+    "key": "K05b",
+    "segment_id": "P03",
+    "file": "assets/K05b.png",
+    "text_boxes": [
+      {
+        "text": "ARTWORK｜美術作品",
+        "bbox": [
+          832,
+          20,
+          1089,
+          43
+        ],
+        "glyph_height": 23,
+        "font": "/System/Library/Fonts/ヒラギノ角ゴシック W3.ttc",
+        "major": false,
+        "color": "#3b2c21"
+      },
+      {
+        "text": "Saint Nicholas, stained glass, Austria, 1340–50 — The Met, 65.97.5 (CC0)",
+        "bbox": [
+          557,
+          60,
+          1363,
+          83
+        ],
+        "glyph_height": 23,
+        "font": "/System/Library/Fonts/Supplemental/Arial.ttf",
+        "major": false,
+        "color": "#3b2c21"
+      }
+    ],
+    "original_asset_id": "K05b",
+    "original_source": "/Volumes/ESD-02/新チャンネル/EP010_Krampus/素材/met471939_original.jpg",
+    "original_sha256": "320d402db74e0f58e583302d0e8fb945b7f03ce8a768e2eb0b0dc5535514e148",
+    "source_text": [
+      "ARTWORK｜美術作品",
+      "Saint Nicholas, stained glass, Austria, 1340–50 — The Met, 65.97.5 (CC0)"
+    ],
+    "original_pixels": [
+      1369,
+      2400
+    ],
+    "crop_pixels": [
+      0,
+      0,
+      1369,
+      2400
+    ],
+    "art_boxes": [
+      [
+        689,
+        120,
+        1231,
+        1070
+      ]
+    ],
+    "camera_band": [
+      110,
+      1080
+    ],
+    "zoom_amount": 0.045,
+    "native_initial_scale": 0.3958333333333333,
+    "native_max_scale": 0.4137253469685902,
+    "color_class": "color",
+    "start": 55.0,
+    "end": 73.33333333333333,
+    "frames": 550,
+    "encoded_file": "_work/render/P03_01_K05b.mp4",
+    "render_config": {
+      "image_sha256": "971b1594052cc45cd61a0a9981f12f2cb77f7881c77f1617d521e0690a971abe",
+      "stages": [],
+      "frames": 550,
+      "filter": "[0:v]split=2[base][art];[art]crop=1920:970:0:110,format=yuv444p,perspective=x0='(W-W/(1+0.045*on/549))/2':y0='(H-H/(1+0.045*on/549))/2':x1='(W-W/(1+0.045*on/549))/2+W/(1+0.045*on/549)':y1='(H-H/(1+0.045*on/549))/2':x2='(W-W/(1+0.045*on/549))/2':y2='(H-H/(1+0.045*on/549))/2+H/(1+0.045*on/549)':x3='(W-W/(1+0.045*on/549))/2+W/(1+0.045*on/549)':y3='(H-H/(1+0.045*on/549))/2+H/(1+0.045*on/549)':sense=source:eval=frame:interpolation=cubic[moving];[base][moving]overlay=0:110:format=yuv444,format=yuv420p[v]",
+      "lossless_static_intermediate": false,
+      "stage_change_frames": []
+    },
+    "stage_change_frames": []
+  },
+  {
+    "key": "K04a",
+    "segment_id": "P03",
+    "file": "assets/K04a.png",
+    "text_boxes": [
+      {
+        "text": "ARTWORK｜美術作品",
+        "bbox": [
+          832,
+          20,
+          1089,
+          43
+        ],
+        "glyph_height": 23,
+        "font": "/System/Library/Fonts/ヒラギノ角ゴシック W3.ttc",
+        "major": false,
+        "color": "#3b2c21"
+      },
+      {
+        "text": "Bicci di Lorenzo, Saint Nicholas Providing Dowries, 1433–35 — The Met, 88.3.89 (CC0)",
+        "bbox": [
+          485,
+          60,
+          1435,
+          83
+        ],
+        "glyph_height": 23,
+        "font": "/System/Library/Fonts/Supplemental/Arial.ttf",
+        "major": false,
+        "color": "#3b2c21"
+      }
+    ],
+    "original_asset_id": "K04a",
+    "original_source": "/Volumes/ESD-02/新チャンネル/EP010_Krampus/素材/met435668_original.jpg",
+    "original_sha256": "23df90ab01984956b021025261caf40250a4df8761053fe401b43adc504d0410",
+    "source_text": [
+      "ARTWORK｜美術作品",
+      "Bicci di Lorenzo, Saint Nicholas Providing Dowries, 1433–35 — The Met, 88.3.89 (CC0)"
+    ],
+    "original_pixels": [
+      3811,
+      2101
+    ],
+    "crop_pixels": [
+      0,
+      0,
+      3811,
+      2101
+    ],
+    "art_boxes": [
+      [
+        98,
+        120,
+        1821,
+        1070
+      ]
+    ],
+    "camera_band": [
+      110,
+      1080
+    ],
+    "zoom_amount": 0.045,
+    "native_initial_scale": 0.45216563541170873,
+    "native_max_scale": 0.4725130890052356,
+    "color_class": "color",
+    "start": 73.33333333333333,
+    "end": 89.9,
+    "frames": 497,
+    "encoded_file": "_work/render/P03_02_K04a.mp4",
+    "render_config": {
+      "image_sha256": "022adaa1ff2381617a9fdb6e5409e106c002e9e7f4c58f108f6ff8ef54d60ee7",
+      "stages": [],
+      "frames": 497,
+      "filter": "[0:v]split=2[base][art];[art]crop=1920:970:0:110,format=yuv444p,perspective=x0='(W-W/(1+0.045*on/496))*0.75':y0='(H-H/(1+0.045*on/496))*0.55':x1='(W-W/(1+0.045*on/496))*0.75+W/(1+0.045*on/496)':y1='(H-H/(1+0.045*on/496))*0.55':x2='(W-W/(1+0.045*on/496))*0.75':y2='(H-H/(1+0.045*on/496))*0.55+H/(1+0.045*on/496)':x3='(W-W/(1+0.045*on/496))*0.75+W/(1+0.045*on/496)':y3='(H-H/(1+0.045*on/496))*0.55+H/(1+0.045*on/496)':sense=source:eval=frame:interpolation=cubic[moving];[base][moving]overlay=0:110:format=yuv444,format=yuv420p[v]",
+      "lossless_static_intermediate": false,
+      "stage_change_frames": []
+    },
+    "stage_change_frames": []
+  },
+  {
+    "key": "K05c",
+    "segment_id": "P04",
+    "file": "assets/K05c.png",
+    "text_boxes": [
+      {
+        "text": "ARTWORK｜美術作品",
+        "bbox": [
+          832,
+          20,
+          1089,
+          43
+        ],
+        "glyph_height": 23,
+        "font": "/System/Library/Fonts/ヒラギノ角ゴシック W3.ttc",
+        "major": false,
+        "color": "#3b2c21"
+      },
+      {
+        "text": "Blessing Bishop (Saint Nicholas of Bari), c. 1350–75 — The Met, 25.120.218 (CC0)",
+        "bbox": [
+          510,
+          60,
+          1411,
+          83
+        ],
+        "glyph_height": 23,
+        "font": "/System/Library/Fonts/Supplemental/Arial.ttf",
+        "major": false,
+        "color": "#3b2c21"
+      }
+    ],
+    "original_asset_id": "K05c",
+    "original_source": "/Volumes/ESD-02/新チャンネル/EP010_Krampus/素材/met472312_original.jpg",
+    "original_sha256": "7914f23a1b0f48af35d2552fa3d5b410d2eba15b1fcb87b7a1b7cb7a93a07952",
+    "source_text": [
+      "ARTWORK｜美術作品",
+      "Blessing Bishop (Saint Nicholas of Bari), c. 1350–75 — The Met, 25.120.218 (CC0)"
+    ],
+    "original_pixels": [
+      1899,
+      3839
+    ],
+    "crop_pixels": [
+      0,
+      0,
+      1899,
+      3839
+    ],
+    "art_boxes": [
+      [
+        725,
+        120,
+        1195,
+        1070
+      ]
+    ],
+    "camera_band": [
+      110,
+      1080
+    ],
+    "zoom_amount": 0.045,
+    "native_initial_scale": 0.24746027611357124,
+    "native_max_scale": 0.2586361242759347,
+    "color_class": "color",
+    "start": 89.9,
+    "end": 100.06666666666666,
+    "frames": 305,
+    "encoded_file": "_work/render/P04_01_K05c.mp4",
+    "render_config": {
+      "image_sha256": "cea08c7fe42b9e6cc0035bdd93518ca8121b7a886b7f82e0c914739cc7ec8e6c",
+      "stages": [],
+      "frames": 305,
+      "filter": "[0:v]split=2[base][art];[art]crop=1920:970:0:110,format=yuv444p,perspective=x0='(W-W/(1+0.045*on/304))/2':y0='(H-H/(1+0.045*on/304))/2':x1='(W-W/(1+0.045*on/304))/2+W/(1+0.045*on/304)':y1='(H-H/(1+0.045*on/304))/2':x2='(W-W/(1+0.045*on/304))/2':y2='(H-H/(1+0.045*on/304))/2+H/(1+0.045*on/304)':x3='(W-W/(1+0.045*on/304))/2+W/(1+0.045*on/304)':y3='(H-H/(1+0.045*on/304))/2+H/(1+0.045*on/304)':sense=source:eval=frame:interpolation=cubic[moving];[base][moving]overlay=0:110:format=yuv444,format=yuv420p[v]",
+      "lossless_static_intermediate": false,
+      "stage_change_frames": []
+    },
+    "stage_change_frames": []
+  },
+  {
+    "key": "D_dec6",
+    "segment_id": "P04",
+    "file": "assets/D_dec6.png",
+    "text_boxes": [
+      {
+        "text": "TITLE CARD｜文字カード",
+        "bbox": [
+          808,
+          20,
+          1111,
+          43
+        ],
+        "glyph_height": 23,
+        "font": "/System/Library/Fonts/ヒラギノ角ゴシック W3.ttc",
+        "major": false,
+        "color": "#3b2c21"
+      },
+      {
+        "text": "DECEMBER 6",
+        "bbox": [
+          515,
+          363,
+          1405,
+          463
+        ],
+        "glyph_height": 100,
+        "font": "/System/Library/Fonts/Supplemental/Arial Bold.ttf",
+        "major": true,
+        "color": "#3b2c21"
+      },
+      {
+        "text": "12月6日",
+        "bbox": [
+          824,
+          493,
+          1097,
+          553
+        ],
+        "glyph_height": 60,
+        "font": "/System/Library/Fonts/ヒラギノ角ゴシック W3.ttc",
+        "major": true,
+        "color": "#3b2c21"
+      },
+      {
+        "text": "SAINT NICHOLAS'S FEAST DAY",
+        "bbox": [
+          582,
+          598,
+          1337,
+          658
+        ],
+        "glyph_height": 60,
+        "font": "/System/Library/Fonts/Supplemental/DIN Condensed Bold.ttf",
+        "major": true,
+        "color": "#3b2c21"
+      },
+      {
+        "text": "聖ニコラウスの祝日",
+        "bbox": [
+          748,
+          693,
+          1171,
+          736
+        ],
+        "glyph_height": 43,
+        "font": "/System/Library/Fonts/ヒラギノ角ゴシック W3.ttc",
+        "major": false,
+        "color": "#3b2c21"
+      }
+    ],
+    "color_class": "diagram",
+    "camera_band": [
+      110,
+      1080
+    ],
+    "stages": [
+      {
+        "stage": 99,
+        "file": "assets/D_dec6_stage99.png",
+        "text_boxes": [
+          {
+            "text": "TITLE CARD｜文字カード",
+            "bbox": [
+              808,
+              20,
+              1111,
+              43
+            ],
+            "glyph_height": 23,
+            "font": "/System/Library/Fonts/ヒラギノ角ゴシック W3.ttc",
+            "major": false,
+            "color": "#3b2c21"
+          },
+          {
+            "text": "DECEMBER 6",
+            "bbox": [
+              515,
+              363,
+              1405,
+              463
+            ],
+            "glyph_height": 100,
+            "font": "/System/Library/Fonts/Supplemental/Arial Bold.ttf",
+            "major": true,
+            "color": "#3b2c21"
+          },
+          {
+            "text": "12月6日",
+            "bbox": [
+              824,
+              493,
+              1097,
+              553
+            ],
+            "glyph_height": 60,
+            "font": "/System/Library/Fonts/ヒラギノ角ゴシック W3.ttc",
+            "major": true,
+            "color": "#3b2c21"
+          },
+          {
+            "text": "SAINT NICHOLAS'S FEAST DAY",
+            "bbox": [
+              582,
+              598,
+              1337,
+              658
+            ],
+            "glyph_height": 60,
+            "font": "/System/Library/Fonts/Supplemental/DIN Condensed Bold.ttf",
+            "major": true,
+            "color": "#3b2c21"
+          },
+          {
+            "text": "聖ニコラウスの祝日",
+            "bbox": [
+              748,
+              693,
+              1171,
+              736
+            ],
+            "glyph_height": 43,
+            "font": "/System/Library/Fonts/ヒラギノ角ゴシック W3.ttc",
+            "major": false,
+            "color": "#3b2c21"
+          }
+        ]
+      }
+    ],
+    "start": 100.06666666666666,
+    "end": 113.6,
+    "frames": 406,
+    "encoded_file": "_work/render/P04_02_D_dec6.mp4",
+    "render_config": {
+      "image_sha256": "2633afcc604c1d71973f954b056ccaa4aae1336495124e0e35f49d66377fe2e9",
+      "stages": [
+        {
+          "sha256": "2633afcc604c1d71973f954b056ccaa4aae1336495124e0e35f49d66377fe2e9",
+          "stage": 99
+        }
+      ],
+      "frames": 406,
+      "filter": "[0:v]format=yuv420p[v]",
+      "lossless_static_intermediate": true,
+      "stage_change_frames": []
+    },
+    "stage_change_frames": []
+  },
+  {
+    "key": "K09b",
+    "segment_id": "P05",
+    "file": "assets/K09b.png",
+    "text_boxes": [
+      {
+        "text": "PHOTO｜写真",
+        "bbox": [
+          877,
+          20,
+          1043,
+          43
+        ],
+        "glyph_height": 23,
+        "font": "/System/Library/Fonts/ヒラギノ角ゴシック W3.ttc",
+        "major": false,
+        "color": "#3b2c21"
+      },
+      {
+        "text": "Nikolo play, Ennstal, Styria, photo 1896 — Volkskundemuseum Wien, pos/409 (Public Domain)",
+        "bbox": [
+          446,
+          60,
+          1475,
+          83
+        ],
+        "glyph_height": 23,
+        "font": "/System/Library/Fonts/Supplemental/Arial.ttf",
+        "major": false,
+        "color": "#3b2c21"
+      }
+    ],
+    "original_asset_id": "K09b",
+    "original_source": "/Volumes/ESD-02/新チャンネル/EP010_Krampus/素材/VK216001_original.jpg",
+    "original_sha256": "60dc6000c6e56f2ac883dae271b50300415d49b812c222cd1c08022cd1d5bd13",
+    "source_text": [
+      "PHOTO｜写真",
+      "Nikolo play, Ennstal, Styria, photo 1896 — Volkskundemuseum Wien, pos/409 (Public Domain)"
+    ],
+    "original_pixels": [
+      5194,
+      5969
+    ],
+    "crop_pixels": [
+      831,
+      1074,
+      5090,
+      4895
+    ],
+    "art_boxes": [
+      [
+        430,
+        120,
+        1489,
+        1070
+      ]
+    ],
+    "camera_band": [
+      110,
+      1080
+    ],
+    "zoom_amount": 0.045,
+    "native_initial_scale": 0.24862601413242608,
+    "native_max_scale": 0.25983916412303354,
+    "color_class": "warm_monochrome",
+    "start": 113.6,
+    "end": 140.16666666666666,
+    "frames": 797,
+    "encoded_file": "_work/render/P05_01_K09b.mp4",
+    "render_config": {
+      "image_sha256": "60a25ba2ebc573c909113a30e191e71cde638bcbf7fa595c9c75cd95b5175cdf",
+      "stages": [],
+      "frames": 797,
+      "filter": "[0:v]split=2[base][art];[art]crop=1920:970:0:110,format=yuv444p,perspective=x0='(W-W/(1+0.045))*on/796':y0='(H-H/(1+0.045))/2':x1='(W-W/(1+0.045))*on/796+W/(1+0.045)':y1='(H-H/(1+0.045))/2':x2='(W-W/(1+0.045))*on/796':y2='(H-H/(1+0.045))/2+H/(1+0.045)':x3='(W-W/(1+0.045))*on/796+W/(1+0.045)':y3='(H-H/(1+0.045))/2+H/(1+0.045)':sense=source:eval=frame:interpolation=cubic[moving];[base][moving]overlay=0:110:format=yuv444,format=yuv420p[v]",
+      "lossless_static_intermediate": false,
+      "stage_change_frames": []
+    },
+    "stage_change_frames": []
+  },
+  {
+    "key": "D_names",
+    "segment_id": "P06",
+    "file": "assets/D_names.png",
+    "text_boxes": [
+      {
+        "text": "SCHEMATIC｜模式図",
+        "bbox": [
+          833,
+          20,
+          1087,
+          43
+        ],
+        "glyph_height": 23,
+        "font": "/System/Library/Fonts/ヒラギノ角ゴシック W3.ttc",
+        "major": false,
+        "color": "#3b2c21"
+      },
+      {
+        "text": "GERMANY",
+        "bbox": [
+          258,
+          410,
+          473,
+          440
+        ],
+        "font": "/System/Library/Fonts/Supplemental/Arial Bold.ttf",
+        "font_size": 42,
+        "glyph_height": 30,
+        "cap_height": 30,
+        "major": true,
+        "color": "#3b2c21"
+      },
+      {
+        "text": "ドイツ",
+        "bbox": [
+          317,
+          465,
+          413,
+          494
+        ],
+        "font": "/System/Library/Fonts/ヒラギノ角ゴシック W3.ttc",
+        "font_size": 32,
+        "glyph_height": 29,
+        "cap_height": 25,
+        "major": false,
+        "color": "#3b2c21"
+      },
+      {
+        "text": "AUSTRIA",
+        "bbox": [
+          378,
+          750,
+          512,
+          772
+        ],
+        "font": "/System/Library/Fonts/Supplemental/Arial Bold.ttf",
+        "font_size": 30,
+        "glyph_height": 22,
+        "cap_height": 22,
+        "major": false,
+        "color": "#3b2c21"
+      },
+      {
+        "text": "オーストリア",
+        "bbox": [
+          379,
+          782,
+          511,
+          802
+        ],
+        "font": "/System/Library/Fonts/ヒラギノ角ゴシック W3.ttc",
+        "font_size": 22,
+        "glyph_height": 20,
+        "cap_height": 17,
+        "major": false,
+        "color": "#3b2c21"
+      },
+      {
+        "text": "KNECHT RUPRECHT",
+        "bbox": [
+          1078,
+          230,
+          1582,
+          293
+        ],
+        "font": "/System/Library/Fonts/Supplemental/DIN Condensed Bold.ttf",
+        "font_size": 86,
+        "glyph_height": 63,
+        "cap_height": 61,
+        "major": true,
+        "color": "#3b2c21"
+      },
+      {
+        "text": "— much of Germany",
+        "bbox": [
+          1154,
+          318,
+          1507,
+          353
+        ],
+        "font": "/System/Library/Fonts/Supplemental/Arial.ttf",
+        "font_size": 38,
+        "glyph_height": 35,
+        "cap_height": 27,
+        "major": false,
+        "color": "#3b2c21"
+      },
+      {
+        "text": "ドイツの多くの地域",
+        "bbox": [
+          1168,
+          370,
+          1492,
+          406
+        ],
+        "font": "/System/Library/Fonts/ヒラギノ角ゴシック W3.ttc",
+        "font_size": 36,
+        "glyph_height": 36,
+        "cap_height": 28,
+        "major": false,
+        "color": "#3b2c21"
+      },
+      {
+        "text": "KLAUBAUF",
+        "bbox": [
+          1189,
+          430,
+          1471,
+          492
+        ],
+        "font": "/System/Library/Fonts/Supplemental/DIN Condensed Bold.ttf",
+        "font_size": 86,
+        "glyph_height": 62,
+        "cap_height": 61,
+        "major": true,
+        "color": "#3b2c21"
+      },
+      {
+        "text": "— parts of Tyrol and Carinthia",
+        "bbox": [
+          1076,
+          518,
+          1584,
+          553
+        ],
+        "font": "/System/Library/Fonts/Supplemental/Arial.ttf",
+        "font_size": 38,
+        "glyph_height": 35,
+        "cap_height": 27,
+        "major": false,
+        "color": "#3b2c21"
+      },
+      {
+        "text": "チロル・ケルンテンの一部",
+        "bbox": [
+          1114,
+          570,
+          1546,
+          604
+        ],
+        "font": "/System/Library/Fonts/ヒラギノ角ゴシック W3.ttc",
+        "font_size": 36,
+        "glyph_height": 34,
+        "cap_height": 28,
+        "major": false,
+        "color": "#3b2c21"
+      },
+      {
+        "text": "KRAMPUS",
+        "bbox": [
+          1198,
+          630,
+          1461,
+          693
+        ],
+        "font": "/System/Library/Fonts/Supplemental/DIN Condensed Bold.ttf",
+        "font_size": 86,
+        "glyph_height": 63,
+        "cap_height": 61,
+        "major": true,
+        "color": "#3b2c21"
+      },
+      {
+        "text": "— Austria",
+        "bbox": [
+          1246,
+          718,
+          1413,
+          745
+        ],
+        "font": "/System/Library/Fonts/Supplemental/Arial.ttf",
+        "font_size": 38,
+        "glyph_height": 27,
+        "cap_height": 27,
+        "major": false,
+        "color": "#3b2c21"
+      },
+      {
+        "text": "オーストリア",
+        "bbox": [
+          1222,
+          770,
+          1438,
+          802
+        ],
+        "font": "/System/Library/Fonts/ヒラギノ角ゴシック W3.ttc",
+        "font_size": 36,
+        "glyph_height": 32,
+        "cap_height": 28,
+        "major": false,
+        "color": "#3b2c21"
+      },
+      {
+        "text": "Names and roles varied from valley to valley",
+        "bbox": [
+          478,
+          850,
+          1442,
+          895
+        ],
+        "font": "/System/Library/Fonts/Supplemental/Arial.ttf",
+        "font_size": 49,
+        "glyph_height": 45,
+        "cap_height": 35,
+        "major": false,
+        "color": "#3b2c21"
+      },
+      {
+        "text": "名前も役目も谷ごとに違った",
+        "bbox": [
+          713,
+          890,
+          1207,
+          927
+        ],
+        "font": "/System/Library/Fonts/ヒラギノ角ゴシック W3.ttc",
+        "font_size": 38,
+        "glyph_height": 37,
+        "cap_height": 29,
+        "major": false,
+        "color": "#3b2c21"
+      }
+    ],
+    "color_class": "diagram",
+    "camera_band": [
+      110,
+      1080
+    ],
+    "stages": [
+      {
+        "stage": 0,
+        "file": "assets/D_names_stage0.png",
+        "text_boxes": [
+          {
+            "text": "SCHEMATIC｜模式図",
+            "bbox": [
+              833,
+              20,
+              1087,
+              43
+            ],
+            "glyph_height": 23,
+            "font": "/System/Library/Fonts/ヒラギノ角ゴシック W3.ttc",
+            "major": false,
+            "color": "#3b2c21"
+          },
+          {
+            "text": "GERMANY",
+            "bbox": [
+              258,
+              410,
+              473,
+              440
+            ],
+            "font": "/System/Library/Fonts/Supplemental/Arial Bold.ttf",
+            "font_size": 42,
+            "glyph_height": 30,
+            "cap_height": 30,
+            "major": true,
+            "color": "#3b2c21"
+          },
+          {
+            "text": "ドイツ",
+            "bbox": [
+              317,
+              465,
+              413,
+              494
+            ],
+            "font": "/System/Library/Fonts/ヒラギノ角ゴシック W3.ttc",
+            "font_size": 32,
+            "glyph_height": 29,
+            "cap_height": 25,
+            "major": false,
+            "color": "#3b2c21"
+          },
+          {
+            "text": "AUSTRIA",
+            "bbox": [
+              378,
+              750,
+              512,
+              772
+            ],
+            "font": "/System/Library/Fonts/Supplemental/Arial Bold.ttf",
+            "font_size": 30,
+            "glyph_height": 22,
+            "cap_height": 22,
+            "major": false,
+            "color": "#3b2c21"
+          },
+          {
+            "text": "オーストリア",
+            "bbox": [
+              379,
+              782,
+              511,
+              802
+            ],
+            "font": "/System/Library/Fonts/ヒラギノ角ゴシック W3.ttc",
+            "font_size": 22,
+            "glyph_height": 20,
+            "cap_height": 17,
+            "major": false,
+            "color": "#3b2c21"
+          },
+          {
+            "text": "Names and roles varied from valley to valley",
+            "bbox": [
+              478,
+              850,
+              1442,
+              895
+            ],
+            "font": "/System/Library/Fonts/Supplemental/Arial.ttf",
+            "font_size": 49,
+            "glyph_height": 45,
+            "cap_height": 35,
+            "major": false,
+            "color": "#3b2c21"
+          },
+          {
+            "text": "名前も役目も谷ごとに違った",
+            "bbox": [
+              713,
+              890,
+              1207,
+              927
+            ],
+            "font": "/System/Library/Fonts/ヒラギノ角ゴシック W3.ttc",
+            "font_size": 38,
+            "glyph_height": 37,
+            "cap_height": 29,
+            "major": false,
+            "color": "#3b2c21"
+          }
+        ]
+      },
+      {
+        "stage": 1,
+        "file": "assets/D_names_stage1.png",
+        "text_boxes": [
+          {
+            "text": "SCHEMATIC｜模式図",
+            "bbox": [
+              833,
+              20,
+              1087,
+              43
+            ],
+            "glyph_height": 23,
+            "font": "/System/Library/Fonts/ヒラギノ角ゴシック W3.ttc",
+            "major": false,
+            "color": "#3b2c21"
+          },
+          {
+            "text": "GERMANY",
+            "bbox": [
+              258,
+              410,
+              473,
+              440
+            ],
+            "font": "/System/Library/Fonts/Supplemental/Arial Bold.ttf",
+            "font_size": 42,
+            "glyph_height": 30,
+            "cap_height": 30,
+            "major": true,
+            "color": "#3b2c21"
+          },
+          {
+            "text": "ドイツ",
+            "bbox": [
+              317,
+              465,
+              413,
+              494
+            ],
+            "font": "/System/Library/Fonts/ヒラギノ角ゴシック W3.ttc",
+            "font_size": 32,
+            "glyph_height": 29,
+            "cap_height": 25,
+            "major": false,
+            "color": "#3b2c21"
+          },
+          {
+            "text": "AUSTRIA",
+            "bbox": [
+              378,
+              750,
+              512,
+              772
+            ],
+            "font": "/System/Library/Fonts/Supplemental/Arial Bold.ttf",
+            "font_size": 30,
+            "glyph_height": 22,
+            "cap_height": 22,
+            "major": false,
+            "color": "#3b2c21"
+          },
+          {
+            "text": "オーストリア",
+            "bbox": [
+              379,
+              782,
+              511,
+              802
+            ],
+            "font": "/System/Library/Fonts/ヒラギノ角ゴシック W3.ttc",
+            "font_size": 22,
+            "glyph_height": 20,
+            "cap_height": 17,
+            "major": false,
+            "color": "#3b2c21"
+          },
+          {
+            "text": "KNECHT RUPRECHT",
+            "bbox": [
+              1078,
+              230,
+              1582,
+              293
+            ],
+            "font": "/System/Library/Fonts/Supplemental/DIN Condensed Bold.ttf",
+            "font_size": 86,
+            "glyph_height": 63,
+            "cap_height": 61,
+            "major": true,
+            "color": "#3b2c21"
+          },
+          {
+            "text": "— much of Germany",
+            "bbox": [
+              1154,
+              318,
+              1507,
+              353
+            ],
+            "font": "/System/Library/Fonts/Supplemental/Arial.ttf",
+            "font_size": 38,
+            "glyph_height": 35,
+            "cap_height": 27,
+            "major": false,
+            "color": "#3b2c21"
+          },
+          {
+            "text": "ドイツの多くの地域",
+            "bbox": [
+              1168,
+              370,
+              1492,
+              406
+            ],
+            "font": "/System/Library/Fonts/ヒラギノ角ゴシック W3.ttc",
+            "font_size": 36,
+            "glyph_height": 36,
+            "cap_height": 28,
+            "major": false,
+            "color": "#3b2c21"
+          },
+          {
+            "text": "Names and roles varied from valley to valley",
+            "bbox": [
+              478,
+              850,
+              1442,
+              895
+            ],
+            "font": "/System/Library/Fonts/Supplemental/Arial.ttf",
+            "font_size": 49,
+            "glyph_height": 45,
+            "cap_height": 35,
+            "major": false,
+            "color": "#3b2c21"
+          },
+          {
+            "text": "名前も役目も谷ごとに違った",
+            "bbox": [
+              713,
+              890,
+              1207,
+              927
+            ],
+            "font": "/System/Library/Fonts/ヒラギノ角ゴシック W3.ttc",
+            "font_size": 38,
+            "glyph_height": 37,
+            "cap_height": 29,
+            "major": false,
+            "color": "#3b2c21"
+          }
+        ]
+      },
+      {
+        "stage": 2,
+        "file": "assets/D_names_stage2.png",
+        "text_boxes": [
+          {
+            "text": "SCHEMATIC｜模式図",
+            "bbox": [
+              833,
+              20,
+              1087,
+              43
+            ],
+            "glyph_height": 23,
+            "font": "/System/Library/Fonts/ヒラギノ角ゴシック W3.ttc",
+            "major": false,
+            "color": "#3b2c21"
+          },
+          {
+            "text": "GERMANY",
+            "bbox": [
+              258,
+              410,
+              473,
+              440
+            ],
+            "font": "/System/Library/Fonts/Supplemental/Arial Bold.ttf",
+            "font_size": 42,
+            "glyph_height": 30,
+            "cap_height": 30,
+            "major": true,
+            "color": "#3b2c21"
+          },
+          {
+            "text": "ドイツ",
+            "bbox": [
+              317,
+              465,
+              413,
+              494
+            ],
+            "font": "/System/Library/Fonts/ヒラギノ角ゴシック W3.ttc",
+            "font_size": 32,
+            "glyph_height": 29,
+            "cap_height": 25,
+            "major": false,
+            "color": "#3b2c21"
+          },
+          {
+            "text": "AUSTRIA",
+            "bbox": [
+              378,
+              750,
+              512,
+              772
+            ],
+            "font": "/System/Library/Fonts/Supplemental/Arial Bold.ttf",
+            "font_size": 30,
+            "glyph_height": 22,
+            "cap_height": 22,
+            "major": false,
+            "color": "#3b2c21"
+          },
+          {
+            "text": "オーストリア",
+            "bbox": [
+              379,
+              782,
+              511,
+              802
+            ],
+            "font": "/System/Library/Fonts/ヒラギノ角ゴシック W3.ttc",
+            "font_size": 22,
+            "glyph_height": 20,
+            "cap_height": 17,
+            "major": false,
+            "color": "#3b2c21"
+          },
+          {
+            "text": "KNECHT RUPRECHT",
+            "bbox": [
+              1078,
+              230,
+              1582,
+              293
+            ],
+            "font": "/System/Library/Fonts/Supplemental/DIN Condensed Bold.ttf",
+            "font_size": 86,
+            "glyph_height": 63,
+            "cap_height": 61,
+            "major": true,
+            "color": "#3b2c21"
+          },
+          {
+            "text": "— much of Germany",
+            "bbox": [
+              1154,
+              318,
+              1507,
+              353
+            ],
+            "font": "/System/Library/Fonts/Supplemental/Arial.ttf",
+            "font_size": 38,
+            "glyph_height": 35,
+            "cap_height": 27,
+            "major": false,
+            "color": "#3b2c21"
+          },
+          {
+            "text": "ドイツの多くの地域",
+            "bbox": [
+              1168,
+              370,
+              1492,
+              406
+            ],
+            "font": "/System/Library/Fonts/ヒラギノ角ゴシック W3.ttc",
+            "font_size": 36,
+            "glyph_height": 36,
+            "cap_height": 28,
+            "major": false,
+            "color": "#3b2c21"
+          },
+          {
+            "text": "KLAUBAUF",
+            "bbox": [
+              1189,
+              430,
+              1471,
+              492
+            ],
+            "font": "/System/Library/Fonts/Supplemental/DIN Condensed Bold.ttf",
+            "font_size": 86,
+            "glyph_height": 62,
+            "cap_height": 61,
+            "major": true,
+            "color": "#3b2c21"
+          },
+          {
+            "text": "— parts of Tyrol and Carinthia",
+            "bbox": [
+              1076,
+              518,
+              1584,
+              553
+            ],
+            "font": "/System/Library/Fonts/Supplemental/Arial.ttf",
+            "font_size": 38,
+            "glyph_height": 35,
+            "cap_height": 27,
+            "major": false,
+            "color": "#3b2c21"
+          },
+          {
+            "text": "チロル・ケルンテンの一部",
+            "bbox": [
+              1114,
+              570,
+              1546,
+              604
+            ],
+            "font": "/System/Library/Fonts/ヒラギノ角ゴシック W3.ttc",
+            "font_size": 36,
+            "glyph_height": 34,
+            "cap_height": 28,
+            "major": false,
+            "color": "#3b2c21"
+          },
+          {
+            "text": "Names and roles varied from valley to valley",
+            "bbox": [
+              478,
+              850,
+              1442,
+              895
+            ],
+            "font": "/System/Library/Fonts/Supplemental/Arial.ttf",
+            "font_size": 49,
+            "glyph_height": 45,
+            "cap_height": 35,
+            "major": false,
+            "color": "#3b2c21"
+          },
+          {
+            "text": "名前も役目も谷ごとに違った",
+            "bbox": [
+              713,
+              890,
+              1207,
+              927
+            ],
+            "font": "/System/Library/Fonts/ヒラギノ角ゴシック W3.ttc",
+            "font_size": 38,
+            "glyph_height": 37,
+            "cap_height": 29,
+            "major": false,
+            "color": "#3b2c21"
+          }
+        ]
+      },
+      {
+        "stage": 3,
+        "file": "assets/D_names_stage3.png",
+        "text_boxes": [
+          {
+            "text": "SCHEMATIC｜模式図",
+            "bbox": [
+              833,
+              20,
+              1087,
+              43
+            ],
+            "glyph_height": 23,
+            "font": "/System/Library/Fonts/ヒラギノ角ゴシック W3.ttc",
+            "major": false,
+            "color": "#3b2c21"
+          },
+          {
+            "text": "GERMANY",
+            "bbox": [
+              258,
+              410,
+              473,
+              440
+            ],
+            "font": "/System/Library/Fonts/Supplemental/Arial Bold.ttf",
+            "font_size": 42,
+            "glyph_height": 30,
+            "cap_height": 30,
+            "major": true,
+            "color": "#3b2c21"
+          },
+          {
+            "text": "ドイツ",
+            "bbox": [
+              317,
+              465,
+              413,
+              494
+            ],
+            "font": "/System/Library/Fonts/ヒラギノ角ゴシック W3.ttc",
+            "font_size": 32,
+            "glyph_height": 29,
+            "cap_height": 25,
+            "major": false,
+            "color": "#3b2c21"
+          },
+          {
+            "text": "AUSTRIA",
+            "bbox": [
+              378,
+              750,
+              512,
+              772
+            ],
+            "font": "/System/Library/Fonts/Supplemental/Arial Bold.ttf",
+            "font_size": 30,
+            "glyph_height": 22,
+            "cap_height": 22,
+            "major": false,
+            "color": "#3b2c21"
+          },
+          {
+            "text": "オーストリア",
+            "bbox": [
+              379,
+              782,
+              511,
+              802
+            ],
+            "font": "/System/Library/Fonts/ヒラギノ角ゴシック W3.ttc",
+            "font_size": 22,
+            "glyph_height": 20,
+            "cap_height": 17,
+            "major": false,
+            "color": "#3b2c21"
+          },
+          {
+            "text": "KNECHT RUPRECHT",
+            "bbox": [
+              1078,
+              230,
+              1582,
+              293
+            ],
+            "font": "/System/Library/Fonts/Supplemental/DIN Condensed Bold.ttf",
+            "font_size": 86,
+            "glyph_height": 63,
+            "cap_height": 61,
+            "major": true,
+            "color": "#3b2c21"
+          },
+          {
+            "text": "— much of Germany",
+            "bbox": [
+              1154,
+              318,
+              1507,
+              353
+            ],
+            "font": "/System/Library/Fonts/Supplemental/Arial.ttf",
+            "font_size": 38,
+            "glyph_height": 35,
+            "cap_height": 27,
+            "major": false,
+            "color": "#3b2c21"
+          },
+          {
+            "text": "ドイツの多くの地域",
+            "bbox": [
+              1168,
+              370,
+              1492,
+              406
+            ],
+            "font": "/System/Library/Fonts/ヒラギノ角ゴシック W3.ttc",
+            "font_size": 36,
+            "glyph_height": 36,
+            "cap_height": 28,
+            "major": false,
+            "color": "#3b2c21"
+          },
+          {
+            "text": "KLAUBAUF",
+            "bbox": [
+              1189,
+              430,
+              1471,
+              492
+            ],
+            "font": "/System/Library/Fonts/Supplemental/DIN Condensed Bold.ttf",
+            "font_size": 86,
+            "glyph_height": 62,
+            "cap_height": 61,
+            "major": true,
+            "color": "#3b2c21"
+          },
+          {
+            "text": "— parts of Tyrol and Carinthia",
+            "bbox": [
+              1076,
+              518,
+              1584,
+              553
+            ],
+            "font": "/System/Library/Fonts/Supplemental/Arial.ttf",
+            "font_size": 38,
+            "glyph_height": 35,
+            "cap_height": 27,
+            "major": false,
+            "color": "#3b2c21"
+          },
+          {
+            "text": "チロル・ケルンテンの一部",
+            "bbox": [
+              1114,
+              570,
+              1546,
+              604
+            ],
+            "font": "/System/Library/Fonts/ヒラギノ角ゴシック W3.ttc",
+            "font_size": 36,
+            "glyph_height": 34,
+            "cap_height": 28,
+            "major": false,
+            "color": "#3b2c21"
+          },
+          {
+            "text": "KRAMPUS",
+            "bbox": [
+              1198,
+              630,
+              1461,
+              693
+            ],
+            "font": "/System/Library/Fonts/Supplemental/DIN Condensed Bold.ttf",
+            "font_size": 86,
+            "glyph_height": 63,
+            "cap_height": 61,
+            "major": true,
+            "color": "#3b2c21"
+          },
+          {
+            "text": "— Austria",
+            "bbox": [
+              1246,
+              718,
+              1413,
+              745
+            ],
+            "font": "/System/Library/Fonts/Supplemental/Arial.ttf",
+            "font_size": 38,
+            "glyph_height": 27,
+            "cap_height": 27,
+            "major": false,
+            "color": "#3b2c21"
+          },
+          {
+            "text": "オーストリア",
+            "bbox": [
+              1222,
+              770,
+              1438,
+              802
+            ],
+            "font": "/System/Library/Fonts/ヒラギノ角ゴシック W3.ttc",
+            "font_size": 36,
+            "glyph_height": 32,
+            "cap_height": 28,
+            "major": false,
+            "color": "#3b2c21"
+          },
+          {
+            "text": "Names and roles varied from valley to valley",
+            "bbox": [
+              478,
+              850,
+              1442,
+              895
+            ],
+            "font": "/System/Library/Fonts/Supplemental/Arial.ttf",
+            "font_size": 49,
+            "glyph_height": 45,
+            "cap_height": 35,
+            "major": false,
+            "color": "#3b2c21"
+          },
+          {
+            "text": "名前も役目も谷ごとに違った",
+            "bbox": [
+              713,
+              890,
+              1207,
+              927
+            ],
+            "font": "/System/Library/Fonts/ヒラギノ角ゴシック W3.ttc",
+            "font_size": 38,
+            "glyph_height": 37,
+            "cap_height": 29,
+            "major": false,
+            "color": "#3b2c21"
+          }
+        ]
+      }
+    ],
+    "start": 140.16666666666666,
+    "end": 168.7,
+    "frames": 856,
+    "encoded_file": "_work/render/P06_01_D_names.mp4",
+    "render_config": {
+      "image_sha256": "dc93a93332d05ab7080b318cbc48c6726a607e078d705aae11d8f7b2f7da93fb",
+      "stages": [
+        {
+          "sha256": "f10652dc703c6d7f642e4e871ce3409429df6063d02a75d54a777c221516bcba",
+          "stage": 0
+        },
+        {
+          "sha256": "f00de5390feb6b479da6a28f889d01fd11e242e7ed3b5422874d24c4eaaaa7bd",
+          "stage": 1
+        },
+        {
+          "sha256": "16169e47f8d2813b27c116e48d4b56d913500a85f56edd7f564522d0abb686b9",
+          "stage": 2
+        },
+        {
+          "sha256": "dc93a93332d05ab7080b318cbc48c6726a607e078d705aae11d8f7b2f7da93fb",
+          "stage": 3
+        }
+      ],
+      "frames": 856,
+      "filter": "[0:v][1:v]overlay=0:0:enable='gte(n,123)':format=yuv444[s1];[s1][2:v]overlay=0:0:enable='gte(n,245)':format=yuv444[s2];[s2][3:v]overlay=0:0:enable='gte(n,309)':format=yuv444[s3];[s3]format=yuv420p[v]",
+      "lossless_static_intermediate": true,
+      "stage_change_frames": [
+        123,
+        245,
+        309
+      ]
+    },
+    "stage_change_frames": [
+      123,
+      245,
+      309
+    ]
+  },
+  {
+    "key": "D_1869",
+    "segment_id": "P07",
+    "file": "assets/D_1869.png",
+    "text_boxes": [
+      {
+        "text": "TITLE CARD｜文字カード",
+        "bbox": [
+          808,
+          20,
+          1111,
+          43
+        ],
+        "glyph_height": 23,
+        "font": "/System/Library/Fonts/ヒラギノ角ゴシック W3.ttc",
+        "major": false,
+        "color": "#3b2c21"
+      },
+      {
+        "text": "1869",
+        "bbox": [
+          768,
+          299,
+          1151,
+          424
+        ],
+        "glyph_height": 125,
+        "font": "/System/Library/Fonts/Supplemental/Arial Bold.ttf",
+        "major": true,
+        "color": "#3b2c21"
+      },
+      {
+        "text": "THE FIRST OFFICIAL POSTCARD",
+        "bbox": [
+          570,
+          474,
+          1350,
+          534
+        ],
+        "glyph_height": 60,
+        "font": "/System/Library/Fonts/Supplemental/DIN Condensed Bold.ttf",
+        "major": true,
+        "color": "#3b2c21"
+      },
+      {
+        "text": "(AUSTRIA-HUNGARY)",
+        "bbox": [
+          727,
+          554,
+          1193,
+          614
+        ],
+        "glyph_height": 60,
+        "font": "/System/Library/Fonts/Supplemental/DIN Condensed Bold.ttf",
+        "major": true,
+        "color": "#3b2c21"
+      },
+      {
+        "text": "世界初の公式はがき（オーストリア＝ハンガリー）",
+        "bbox": [
+          529,
+          649,
+          1391,
+          685
+        ],
+        "glyph_height": 36,
+        "font": "/System/Library/Fonts/ヒラギノ角ゴシック W3.ttc",
+        "major": false,
+        "color": "#3b2c21"
+      },
+      {
+        "text": "as it is often called",
+        "bbox": [
+          781,
+          724,
+          1139,
+          756
+        ],
+        "glyph_height": 32,
+        "font": "/System/Library/Fonts/Supplemental/Arial.ttf",
+        "major": false,
+        "color": "#3b2c21"
+      },
+      {
+        "text": "とよく言われる",
+        "bbox": [
+          858,
+          774,
+          1062,
+          800
+        ],
+        "glyph_height": 26,
+        "font": "/System/Library/Fonts/ヒラギノ角ゴシック W3.ttc",
+        "major": false,
+        "color": "#3b2c21"
+      }
+    ],
+    "color_class": "diagram",
+    "camera_band": [
+      110,
+      1080
+    ],
+    "stages": [
+      {
+        "stage": 99,
+        "file": "assets/D_1869_stage99.png",
+        "text_boxes": [
+          {
+            "text": "TITLE CARD｜文字カード",
+            "bbox": [
+              808,
+              20,
+              1111,
+              43
+            ],
+            "glyph_height": 23,
+            "font": "/System/Library/Fonts/ヒラギノ角ゴシック W3.ttc",
+            "major": false,
+            "color": "#3b2c21"
+          },
+          {
+            "text": "1869",
+            "bbox": [
+              768,
+              299,
+              1151,
+              424
+            ],
+            "glyph_height": 125,
+            "font": "/System/Library/Fonts/Supplemental/Arial Bold.ttf",
+            "major": true,
+            "color": "#3b2c21"
+          },
+          {
+            "text": "THE FIRST OFFICIAL POSTCARD",
+            "bbox": [
+              570,
+              474,
+              1350,
+              534
+            ],
+            "glyph_height": 60,
+            "font": "/System/Library/Fonts/Supplemental/DIN Condensed Bold.ttf",
+            "major": true,
+            "color": "#3b2c21"
+          },
+          {
+            "text": "(AUSTRIA-HUNGARY)",
+            "bbox": [
+              727,
+              554,
+              1193,
+              614
+            ],
+            "glyph_height": 60,
+            "font": "/System/Library/Fonts/Supplemental/DIN Condensed Bold.ttf",
+            "major": true,
+            "color": "#3b2c21"
+          },
+          {
+            "text": "世界初の公式はがき（オーストリア＝ハンガリー）",
+            "bbox": [
+              529,
+              649,
+              1391,
+              685
+            ],
+            "glyph_height": 36,
+            "font": "/System/Library/Fonts/ヒラギノ角ゴシック W3.ttc",
+            "major": false,
+            "color": "#3b2c21"
+          },
+          {
+            "text": "as it is often called",
+            "bbox": [
+              781,
+              724,
+              1139,
+              756
+            ],
+            "glyph_height": 32,
+            "font": "/System/Library/Fonts/Supplemental/Arial.ttf",
+            "major": false,
+            "color": "#3b2c21"
+          },
+          {
+            "text": "とよく言われる",
+            "bbox": [
+              858,
+              774,
+              1062,
+              800
+            ],
+            "glyph_height": 26,
+            "font": "/System/Library/Fonts/ヒラギノ角ゴシック W3.ttc",
+            "major": false,
+            "color": "#3b2c21"
+          }
+        ]
+      }
+    ],
+    "start": 168.7,
+    "end": 182.96666666666667,
+    "frames": 428,
+    "encoded_file": "_work/render/P07_01_D_1869.mp4",
+    "render_config": {
+      "image_sha256": "0f8589a376ff779d5ee6928aaf93ad15257e930dcee49d572bd986ee1a81751a",
+      "stages": [
+        {
+          "sha256": "0f8589a376ff779d5ee6928aaf93ad15257e930dcee49d572bd986ee1a81751a",
+          "stage": 99
+        }
+      ],
+      "frames": 428,
+      "filter": "[0:v]format=yuv420p[v]",
+      "lossless_static_intermediate": true,
+      "stage_change_frames": []
+    },
+    "stage_change_frames": []
+  },
+  {
+    "key": "K06b",
+    "segment_id": "P07",
+    "file": "assets/K06b.png",
+    "text_boxes": [
+      {
+        "text": "POSTCARD｜絵はがき",
+        "bbox": [
+          830,
+          20,
+          1089,
+          43
+        ],
+        "glyph_height": 23,
+        "font": "/System/Library/Fonts/ヒラギノ角ゴシック W3.ttc",
+        "major": false,
+        "color": "#3b2c21"
+      },
+      {
+        "text": "Wiener Werkstätte postcard no. 238, Josef von Divéky, 1909 — Wien Museum, 311065 (CC0)",
+        "bbox": [
+          450,
+          60,
+          1469,
+          83
+        ],
+        "glyph_height": 23,
+        "font": "/System/Library/Fonts/Supplemental/Arial.ttf",
+        "major": false,
+        "color": "#3b2c21"
+      }
+    ],
+    "original_asset_id": "K06b",
+    "original_source": "/Volumes/ESD-02/新チャンネル/EP010_Krampus/素材/WM2216650_front_original.jpg",
+    "original_sha256": "1bdceffd207b3ce308b282ce2761c9549dfaaf99301a5b163735a14c2f1a686e",
+    "source_text": [
+      "POSTCARD｜絵はがき",
+      "Wiener Werkstätte postcard no. 238, Josef von Divéky, 1909 — Wien Museum, 311065 (CC0)"
+    ],
+    "original_pixels": [
+      3500,
+      5358
+    ],
+    "crop_pixels": [
+      70,
+      107,
+      3430,
+      3536
+    ],
+    "art_boxes": [
+      [
+        494,
+        120,
+        1425,
+        1070
+      ]
+    ],
+    "camera_band": [
+      110,
+      1080
+    ],
+    "zoom_amount": 0.045,
+    "native_initial_scale": 0.2770487022455526,
+    "native_max_scale": 0.2895520833333333,
+    "color_class": "color",
+    "start": 182.96666666666667,
+    "end": 192.53333333333333,
+    "frames": 287,
+    "encoded_file": "_work/render/P07_02_K06b.mp4",
+    "render_config": {
+      "image_sha256": "a76680338601b132ed2bf0646dc2579268fa1c8a54f4bf45fe71fd5473198781",
+      "stages": [],
+      "frames": 287,
+      "filter": "[0:v]split=2[base][art];[art]crop=1920:970:0:110,format=yuv444p,perspective=x0='(W-W/(1+0.045*on/286))/2':y0='(H-H/(1+0.045*on/286))/2':x1='(W-W/(1+0.045*on/286))/2+W/(1+0.045*on/286)':y1='(H-H/(1+0.045*on/286))/2':x2='(W-W/(1+0.045*on/286))/2':y2='(H-H/(1+0.045*on/286))/2+H/(1+0.045*on/286)':x3='(W-W/(1+0.045*on/286))/2+W/(1+0.045*on/286)':y3='(H-H/(1+0.045*on/286))/2+H/(1+0.045*on/286)':sense=source:eval=frame:interpolation=cubic[moving];[base][moving]overlay=0:110:format=yuv444,format=yuv420p[v]",
+      "lossless_static_intermediate": false,
+      "stage_change_frames": []
+    },
+    "stage_change_frames": []
+  },
+  {
+    "key": "K03a",
+    "segment_id": "P08",
+    "file": "assets/K03a.png",
+    "text_boxes": [
+      {
+        "text": "POSTCARD｜絵はがき",
+        "bbox": [
+          830,
+          20,
+          1089,
+          43
+        ],
+        "glyph_height": 23,
+        "font": "/System/Library/Fonts/ヒラギノ角ゴシック W3.ttc",
+        "major": false,
+        "color": "#3b2c21"
+      },
+      {
+        "text": "Wiener Werkstätte postcard no. 542, 1911 — Wien Museum, 101968/147 (CC0)",
+        "bbox": [
+          526,
+          60,
+          1394,
+          83
+        ],
+        "glyph_height": 23,
+        "font": "/System/Library/Fonts/Supplemental/Arial.ttf",
+        "major": false,
+        "color": "#3b2c21"
+      }
+    ],
+    "original_asset_id": "K03a",
+    "original_source": "/Volumes/ESD-02/新チャンネル/EP010_Krampus/素材/WM179029_front_original.jpg",
+    "original_sha256": "994b83704d16255c010dc9f93ed2e93ab26f2eb192f6594e8bb1d11571261472",
+    "source_text": [
+      "POSTCARD｜絵はがき",
+      "Wiener Werkstätte postcard no. 542, 1911 — Wien Museum, 101968/147 (CC0)"
+    ],
+    "original_pixels": [
+      3500,
+      5435
+    ],
+    "crop_pixels": [
+      150,
+      100,
+      3350,
+      2500
+    ],
+    "art_boxes": [
+      [
+        384,
+        150,
+        1536,
+        1014
+      ]
+    ],
+    "camera_band": [
+      110,
+      1080
+    ],
+    "zoom_amount": 0.025,
+    "native_initial_scale": 0.36,
+    "native_max_scale": 0.36899999999999994,
+    "color_class": "color",
+    "start": 192.53333333333333,
+    "end": 222.3,
+    "frames": 893,
+    "encoded_file": "_work/render/P08_01_K03a.mp4",
+    "render_config": {
+      "image_sha256": "9c9e3b1e79e92b15e15906a0cbbe95ac239ca1f3632bcb1574c5dec330dc6a72",
+      "stages": [],
+      "frames": 893,
+      "filter": "[0:v]split=2[base][art];[art]crop=1920:970:0:110,format=yuv444p,perspective=x0='(W-W/(1+0.025*on/892))/2':y0='(H-H/(1+0.025*on/892))/2':x1='(W-W/(1+0.025*on/892))/2+W/(1+0.025*on/892)':y1='(H-H/(1+0.025*on/892))/2':x2='(W-W/(1+0.025*on/892))/2':y2='(H-H/(1+0.025*on/892))/2+H/(1+0.025*on/892)':x3='(W-W/(1+0.025*on/892))/2+W/(1+0.025*on/892)':y3='(H-H/(1+0.025*on/892))/2+H/(1+0.025*on/892)':sense=source:eval=frame:interpolation=cubic[moving];[base][moving]overlay=0:110:format=yuv444,format=yuv420p[v]",
+      "lossless_static_intermediate": false,
+      "stage_change_frames": []
+    },
+    "stage_change_frames": []
+  },
+  {
+    "key": "D_grimm",
+    "segment_id": "P09",
+    "file": "assets/D_grimm.png",
+    "text_boxes": [
+      {
+        "text": "TITLE CARD｜文字カード",
+        "bbox": [
+          808,
+          20,
+          1111,
+          43
+        ],
+        "glyph_height": 23,
+        "font": "/System/Library/Fonts/ヒラギノ角ゴシック W3.ttc",
+        "major": false,
+        "color": "#3b2c21"
+      },
+      {
+        "text": "Jacob Grimm, Teutonic Mythology, trans. Stallybrass (1883), p. 515",
+        "bbox": [
+          546,
+          287,
+          1373,
+          313
+        ],
+        "glyph_height": 26,
+        "font": "/System/Library/Fonts/Supplemental/Arial.ttf",
+        "major": false,
+        "color": "#3b2c21"
+      },
+      {
+        "text": "\"I can well imagine that even",
+        "bbox": [
+          517,
+          399,
+          1403,
+          459
+        ],
+        "glyph_height": 60,
+        "font": "/System/Library/Fonts/Supplemental/Arial Bold.ttf",
+        "major": true,
+        "color": "#3b2c21"
+      },
+      {
+        "text": "in heathen times...\"",
+        "bbox": [
+          579,
+          483,
+          1341,
+          543
+        ],
+        "glyph_height": 60,
+        "font": "/System/Library/Fonts/Supplemental/Arial Bold.ttf",
+        "major": true,
+        "color": "#3b2c21"
+      },
+      {
+        "text": "異教の時代にも……と十分想像できる",
+        "bbox": [
+          576,
+          589,
+          1344,
+          631
+        ],
+        "glyph_height": 42,
+        "font": "/System/Library/Fonts/ヒラギノ角ゴシック W3.ttc",
+        "major": false,
+        "color": "#3b2c21"
+      },
+      {
+        "text": "IMAGINED, NOT RECORDED",
+        "bbox": [
+          658,
+          689,
+          1263,
+          749
+        ],
+        "glyph_height": 60,
+        "font": "/System/Library/Fonts/Supplemental/DIN Condensed Bold.ttf",
+        "major": true,
+        "color": "#3b2c21"
+      },
+      {
+        "text": "想像であって、記録ではない",
+        "bbox": [
+          707,
+          776,
+          1213,
+          812
+        ],
+        "glyph_height": 36,
+        "font": "/System/Library/Fonts/ヒラギノ角ゴシック W3.ttc",
+        "major": false,
+        "color": "#3b2c21"
+      }
+    ],
+    "color_class": "diagram",
+    "camera_band": [
+      110,
+      1080
+    ],
+    "stages": [
+      {
+        "stage": 99,
+        "file": "assets/D_grimm_stage99.png",
+        "text_boxes": [
+          {
+            "text": "TITLE CARD｜文字カード",
+            "bbox": [
+              808,
+              20,
+              1111,
+              43
+            ],
+            "glyph_height": 23,
+            "font": "/System/Library/Fonts/ヒラギノ角ゴシック W3.ttc",
+            "major": false,
+            "color": "#3b2c21"
+          },
+          {
+            "text": "Jacob Grimm, Teutonic Mythology, trans. Stallybrass (1883), p. 515",
+            "bbox": [
+              546,
+              287,
+              1373,
+              313
+            ],
+            "glyph_height": 26,
+            "font": "/System/Library/Fonts/Supplemental/Arial.ttf",
+            "major": false,
+            "color": "#3b2c21"
+          },
+          {
+            "text": "\"I can well imagine that even",
+            "bbox": [
+              517,
+              399,
+              1403,
+              459
+            ],
+            "glyph_height": 60,
+            "font": "/System/Library/Fonts/Supplemental/Arial Bold.ttf",
+            "major": true,
+            "color": "#3b2c21"
+          },
+          {
+            "text": "in heathen times...\"",
+            "bbox": [
+              579,
+              483,
+              1341,
+              543
+            ],
+            "glyph_height": 60,
+            "font": "/System/Library/Fonts/Supplemental/Arial Bold.ttf",
+            "major": true,
+            "color": "#3b2c21"
+          },
+          {
+            "text": "異教の時代にも……と十分想像できる",
+            "bbox": [
+              576,
+              589,
+              1344,
+              631
+            ],
+            "glyph_height": 42,
+            "font": "/System/Library/Fonts/ヒラギノ角ゴシック W3.ttc",
+            "major": false,
+            "color": "#3b2c21"
+          },
+          {
+            "text": "IMAGINED, NOT RECORDED",
+            "bbox": [
+              658,
+              689,
+              1263,
+              749
+            ],
+            "glyph_height": 60,
+            "font": "/System/Library/Fonts/Supplemental/DIN Condensed Bold.ttf",
+            "major": true,
+            "color": "#3b2c21"
+          },
+          {
+            "text": "想像であって、記録ではない",
+            "bbox": [
+              707,
+              776,
+              1213,
+              812
+            ],
+            "glyph_height": 36,
+            "font": "/System/Library/Fonts/ヒラギノ角ゴシック W3.ttc",
+            "major": false,
+            "color": "#3b2c21"
+          }
+        ]
+      }
+    ],
+    "start": 222.3,
+    "end": 248.56666666666666,
+    "frames": 788,
+    "encoded_file": "_work/render/P09_01_D_grimm.mp4",
+    "render_config": {
+      "image_sha256": "1f7b418af24cbbcf3c97b939feb57f40c7ad6e7a7f349934d0f5e29dda367cbf",
+      "stages": [
+        {
+          "sha256": "1f7b418af24cbbcf3c97b939feb57f40c7ad6e7a7f349934d0f5e29dda367cbf",
+          "stage": 99
+        }
+      ],
+      "frames": 788,
+      "filter": "[0:v]format=yuv420p[v]",
+      "lossless_static_intermediate": true,
+      "stage_change_frames": []
+    },
+    "stage_change_frames": []
+  },
+  {
+    "key": "K09a",
+    "segment_id": "P09",
+    "file": "assets/K09a.png",
+    "text_boxes": [
+      {
+        "text": "PHOTO｜写真",
+        "bbox": [
+          877,
+          20,
+          1043,
+          43
+        ],
+        "glyph_height": 23,
+        "font": "/System/Library/Fonts/ヒラギノ角ゴシック W3.ttc",
+        "major": false,
+        "color": "#3b2c21"
+      },
+      {
+        "text": "Jagdpercht, St. Johann im Pongau, photo 1892 — Volkskundemuseum Wien, pos/167 (Public Domain)",
+        "bbox": [
+          403,
+          60,
+          1517,
+          83
+        ],
+        "glyph_height": 23,
+        "font": "/System/Library/Fonts/Supplemental/Arial.ttf",
+        "major": false,
+        "color": "#3b2c21"
+      }
+    ],
+    "original_asset_id": "K09a",
+    "original_source": "/Volumes/ESD-02/新チャンネル/EP010_Krampus/素材/VK215747_original.jpg",
+    "original_sha256": "b99ee22169463f042b1e8719e35be1bbf10666eb2551ac873f8157ea0769f23c",
+    "source_text": [
+      "PHOTO｜写真",
+      "Jagdpercht, St. Johann im Pongau, photo 1892 — Volkskundemuseum Wien, pos/167 (Public Domain)"
+    ],
+    "original_pixels": [
+      3696,
+      5114
+    ],
+    "crop_pixels": [
+      296,
+      409,
+      3400,
+      4603
+    ],
+    "art_boxes": [
+      [
+        608,
+        120,
+        1311,
+        1070
+      ]
+    ],
+    "camera_band": [
+      110,
+      1080
+    ],
+    "zoom_amount": 0.045,
+    "native_initial_scale": 0.22651406771578445,
+    "native_max_scale": 0.23670720076299473,
+    "color_class": "warm_monochrome",
+    "start": 248.56666666666666,
+    "end": 267.3,
+    "frames": 562,
+    "encoded_file": "_work/render/P09_02_K09a.mp4",
+    "render_config": {
+      "image_sha256": "c8c615cbb46d1fc42e3670785619fe24c8f080fc6d0e73d72236e7b2ef604b75",
+      "stages": [],
+      "frames": 562,
+      "filter": "[0:v]split=2[base][art];[art]crop=1920:970:0:110,format=yuv444p,perspective=x0='(W-W/(1+0.045*on/561))/2':y0='(H-H/(1+0.045*on/561))/2':x1='(W-W/(1+0.045*on/561))/2+W/(1+0.045*on/561)':y1='(H-H/(1+0.045*on/561))/2':x2='(W-W/(1+0.045*on/561))/2':y2='(H-H/(1+0.045*on/561))/2+H/(1+0.045*on/561)':x3='(W-W/(1+0.045*on/561))/2+W/(1+0.045*on/561)':y3='(H-H/(1+0.045*on/561))/2+H/(1+0.045*on/561)':sense=source:eval=frame:interpolation=cubic[moving];[base][moving]overlay=0:110:format=yuv444,format=yuv420p[v]",
+      "lossless_static_intermediate": false,
+      "stage_change_frames": []
+    },
+    "stage_change_frames": []
+  },
+  {
+    "key": "D_noancient",
+    "segment_id": "P10",
+    "file": "assets/D_noancient.png",
+    "text_boxes": [
+      {
+        "text": "TITLE CARD｜文字カード",
+        "bbox": [
+          808,
+          20,
+          1111,
+          43
+        ],
+        "glyph_height": 23,
+        "font": "/System/Library/Fonts/ヒラギノ角ゴシック W3.ttc",
+        "major": false,
+        "color": "#3b2c21"
+      },
+      {
+        "text": "NO ANCIENT TEXT",
+        "bbox": [
+          651,
+          393,
+          1269,
+          478
+        ],
+        "glyph_height": 85,
+        "font": "/System/Library/Fonts/Supplemental/DIN Condensed Bold.ttf",
+        "major": true,
+        "color": "#3b2c21"
+      },
+      {
+        "text": "NAMES KRAMPUS",
+        "bbox": [
+          642,
+          506,
+          1277,
+          591
+        ],
+        "glyph_height": 85,
+        "font": "/System/Library/Fonts/Supplemental/DIN Condensed Bold.ttf",
+        "major": true,
+        "color": "#3b2c21"
+      },
+      {
+        "text": "クランプスの名を記した古代の文献はない",
+        "bbox": [
+          516,
+          663,
+          1405,
+          707
+        ],
+        "glyph_height": 44,
+        "font": "/System/Library/Fonts/ヒラギノ角ゴシック W3.ttc",
+        "major": false,
+        "color": "#3b2c21"
+      }
+    ],
+    "color_class": "diagram",
+    "camera_band": [
+      110,
+      1080
+    ],
+    "stages": [
+      {
+        "stage": 99,
+        "file": "assets/D_noancient_stage99.png",
+        "text_boxes": [
+          {
+            "text": "TITLE CARD｜文字カード",
+            "bbox": [
+              808,
+              20,
+              1111,
+              43
+            ],
+            "glyph_height": 23,
+            "font": "/System/Library/Fonts/ヒラギノ角ゴシック W3.ttc",
+            "major": false,
+            "color": "#3b2c21"
+          },
+          {
+            "text": "NO ANCIENT TEXT",
+            "bbox": [
+              651,
+              393,
+              1269,
+              478
+            ],
+            "glyph_height": 85,
+            "font": "/System/Library/Fonts/Supplemental/DIN Condensed Bold.ttf",
+            "major": true,
+            "color": "#3b2c21"
+          },
+          {
+            "text": "NAMES KRAMPUS",
+            "bbox": [
+              642,
+              506,
+              1277,
+              591
+            ],
+            "glyph_height": 85,
+            "font": "/System/Library/Fonts/Supplemental/DIN Condensed Bold.ttf",
+            "major": true,
+            "color": "#3b2c21"
+          },
+          {
+            "text": "クランプスの名を記した古代の文献はない",
+            "bbox": [
+              516,
+              663,
+              1405,
+              707
+            ],
+            "glyph_height": 44,
+            "font": "/System/Library/Fonts/ヒラギノ角ゴシック W3.ttc",
+            "major": false,
+            "color": "#3b2c21"
+          }
+        ]
+      }
+    ],
+    "start": 267.3,
+    "end": 283.6333333333333,
+    "frames": 490,
+    "encoded_file": "_work/render/P10_01_D_noancient.mp4",
+    "render_config": {
+      "image_sha256": "771b182dab43f0c05aac47b0393ec80c618aaf1c59916b5b003173dabc4d3aca",
+      "stages": [
+        {
+          "sha256": "771b182dab43f0c05aac47b0393ec80c618aaf1c59916b5b003173dabc4d3aca",
+          "stage": 99
+        }
+      ],
+      "frames": 490,
+      "filter": "[0:v]format=yuv420p[v]",
+      "lossless_static_intermediate": true,
+      "stage_change_frames": []
+    },
+    "stage_change_frames": []
+  },
+  {
+    "key": "K07b",
+    "segment_id": "P11",
+    "file": "assets/K07b.png",
+    "text_boxes": [
+      {
+        "text": "PHOTO｜写真",
+        "bbox": [
+          877,
+          20,
+          1043,
+          43
+        ],
+        "glyph_height": 23,
+        "font": "/System/Library/Fonts/ヒラギノ角ゴシック W3.ttc",
+        "major": false,
+        "color": "#3b2c21"
+      },
+      {
+        "text": "Krampus and Nicholas figures, Naschmarkt, Vienna, photo 1915 — Wien Museum, 40607 (CC0)",
+        "bbox": [
+          438,
+          60,
+          1482,
+          83
+        ],
+        "glyph_height": 23,
+        "font": "/System/Library/Fonts/Supplemental/Arial.ttf",
+        "major": false,
+        "color": "#3b2c21"
+      }
+    ],
+    "original_asset_id": "K07b",
+    "original_source": "/Volumes/ESD-02/新チャンネル/EP010_Krampus/素材/WM110325_original.jpg",
+    "original_sha256": "b3b94993b1c834726a197e5c917cb58ef88a3172a22753561c0a2cccfa33b753",
+    "source_text": [
+      "PHOTO｜写真",
+      "Krampus and Nicholas figures, Naschmarkt, Vienna, photo 1915 — Wien Museum, 40607 (CC0)"
+    ],
+    "original_pixels": [
+      3500,
+      2976
+    ],
+    "crop_pixels": [
+      88,
+      74,
+      3412,
+      2619
+    ],
+    "art_boxes": [
+      [
+        339,
+        120,
+        1580,
+        1070
+      ]
+    ],
+    "camera_band": [
+      110,
+      1080
+    ],
+    "zoom_amount": 0.045,
+    "native_initial_scale": 0.37328094302554027,
+    "native_max_scale": 0.39014590854392295,
+    "color_class": "warm_monochrome",
+    "start": 283.6333333333333,
+    "end": 301.7,
+    "frames": 542,
+    "encoded_file": "_work/render/P11_01_K07b.mp4",
+    "render_config": {
+      "image_sha256": "f360fa2d0b38fee7b42e91abf870b43bb8e6588589483bafd3e83f194fb8ea90",
+      "stages": [],
+      "frames": 542,
+      "filter": "[0:v]split=2[base][art];[art]crop=1920:970:0:110,format=yuv444p,perspective=x0='(W-W/(1+0.045*on/541))/2':y0='(H-H/(1+0.045*on/541))/2':x1='(W-W/(1+0.045*on/541))/2+W/(1+0.045*on/541)':y1='(H-H/(1+0.045*on/541))/2':x2='(W-W/(1+0.045*on/541))/2':y2='(H-H/(1+0.045*on/541))/2+H/(1+0.045*on/541)':x3='(W-W/(1+0.045*on/541))/2+W/(1+0.045*on/541)':y3='(H-H/(1+0.045*on/541))/2+H/(1+0.045*on/541)':sense=source:eval=frame:interpolation=cubic[moving];[base][moving]overlay=0:110:format=yuv444,format=yuv420p[v]",
+      "lossless_static_intermediate": false,
+      "stage_change_frames": []
+    },
+    "stage_change_frames": []
+  },
+  {
+    "key": "D_summary",
+    "segment_id": "P12",
+    "file": "assets/D_summary.png",
+    "text_boxes": [
+      {
+        "text": "SCHEMATIC｜模式図",
+        "bbox": [
+          833,
+          20,
+          1087,
+          43
+        ],
+        "glyph_height": 23,
+        "font": "/System/Library/Fonts/ヒラギノ角ゴシック W3.ttc",
+        "major": false,
+        "color": "#3b2c21"
+      },
+      {
+        "text": "4th c. —",
+        "bbox": [
+          170,
+          162,
+          493,
+          223
+        ],
+        "font": "/System/Library/Fonts/Supplemental/Arial Bold.ttf",
+        "font_size": 83,
+        "glyph_height": 61,
+        "cap_height": 60,
+        "major": true,
+        "color": "#3b2c21"
+      },
+      {
+        "text": "NICHOLAS,",
+        "bbox": [
+          104,
+          230,
+          561,
+          305
+        ],
+        "font": "/System/Library/Fonts/Supplemental/Arial Bold.ttf",
+        "font_size": 83,
+        "glyph_height": 75,
+        "cap_height": 60,
+        "major": true,
+        "color": "#3b2c21"
+      },
+      {
+        "text": "BISHOP OF",
+        "bbox": [
+          104,
+          298,
+          561,
+          360
+        ],
+        "font": "/System/Library/Fonts/Supplemental/Arial Bold.ttf",
+        "font_size": 83,
+        "glyph_height": 62,
+        "cap_height": 60,
+        "major": true,
+        "color": "#3b2c21"
+      },
+      {
+        "text": "MYRA",
+        "bbox": [
+          210,
+          366,
+          454,
+          426
+        ],
+        "font": "/System/Library/Fonts/Supplemental/Arial Bold.ttf",
+        "font_size": 83,
+        "glyph_height": 60,
+        "cap_height": 60,
+        "major": true,
+        "color": "#3b2c21"
+      },
+      {
+        "text": "4世紀 ミュラの司教ニコラウス",
+        "bbox": [
+          136,
+          442,
+          528,
+          470
+        ],
+        "font": "/System/Library/Fonts/ヒラギノ角ゴシック W3.ttc",
+        "font_size": 28,
+        "glyph_height": 28,
+        "cap_height": 22,
+        "major": false,
+        "color": "#3b2c21"
+      },
+      {
+        "text": "13th c. —",
+        "bbox": [
+          768,
+          196,
+          1137,
+          257
+        ],
+        "font": "/System/Library/Fonts/Supplemental/Arial Bold.ttf",
+        "font_size": 83,
+        "glyph_height": 61,
+        "cap_height": 60,
+        "major": true,
+        "color": "#3b2c21"
+      },
+      {
+        "text": "GOLDEN",
+        "bbox": [
+          774,
+          264,
+          1130,
+          326
+        ],
+        "font": "/System/Library/Fonts/Supplemental/Arial Bold.ttf",
+        "font_size": 83,
+        "glyph_height": 62,
+        "cap_height": 60,
+        "major": true,
+        "color": "#3b2c21"
+      },
+      {
+        "text": "LEGEND",
+        "bbox": [
+          779,
+          332,
+          1125,
+          394
+        ],
+        "font": "/System/Library/Fonts/Supplemental/Arial Bold.ttf",
+        "font_size": 83,
+        "glyph_height": 62,
+        "cap_height": 60,
+        "major": true,
+        "color": "#3b2c21"
+      },
+      {
+        "text": "13世紀『黄金伝説』",
+        "bbox": [
+          822,
+          408,
+          1082,
+          436
+        ],
+        "font": "/System/Library/Fonts/ヒラギノ角ゴシック W3.ttc",
+        "font_size": 28,
+        "glyph_height": 28,
+        "cap_height": 22,
+        "major": false,
+        "color": "#3b2c21"
+      },
+      {
+        "text": "DEVILS IN",
+        "bbox": [
+          1370,
+          196,
+          1775,
+          258
+        ],
+        "font": "/System/Library/Fonts/Supplemental/Arial Bold.ttf",
+        "font_size": 83,
+        "glyph_height": 62,
+        "cap_height": 60,
+        "major": true,
+        "color": "#3b2c21"
+      },
+      {
+        "text": "THE SAINT'S",
+        "bbox": [
+          1316,
+          264,
+          1829,
+          326
+        ],
+        "font": "/System/Library/Fonts/Supplemental/Arial Bold.ttf",
+        "font_size": 83,
+        "glyph_height": 62,
+        "cap_height": 60,
+        "major": true,
+        "color": "#3b2c21"
+      },
+      {
+        "text": "SERVICE",
+        "bbox": [
+          1390,
+          332,
+          1753,
+          394
+        ],
+        "font": "/System/Library/Fonts/Supplemental/Arial Bold.ttf",
+        "font_size": 83,
+        "glyph_height": 62,
+        "cap_height": 60,
+        "major": true,
+        "color": "#3b2c21"
+      },
+      {
+        "text": "聖人に仕える悪魔",
+        "bbox": [
+          1460,
+          408,
+          1684,
+          436
+        ],
+        "font": "/System/Library/Fonts/ヒラギノ角ゴシック W3.ttc",
+        "font_size": 28,
+        "glyph_height": 28,
+        "cap_height": 22,
+        "major": false,
+        "color": "#3b2c21"
+      },
+      {
+        "text": "1869 → c. 1910 —",
+        "bbox": [
+          132,
+          640,
+          827,
+          701
+        ],
+        "font": "/System/Library/Fonts/Supplemental/Arial Bold.ttf",
+        "font_size": 83,
+        "glyph_height": 61,
+        "cap_height": 60,
+        "major": true,
+        "color": "#3b2c21"
+      },
+      {
+        "text": "POSTCARDS",
+        "bbox": [
+          220,
+          708,
+          741,
+          770
+        ],
+        "font": "/System/Library/Fonts/Supplemental/Arial Bold.ttf",
+        "font_size": 83,
+        "glyph_height": 62,
+        "cap_height": 60,
+        "major": true,
+        "color": "#3b2c21"
+      },
+      {
+        "text": "1869〜1910年ごろ 絵はがき",
+        "bbox": [
+          292,
+          784,
+          669,
+          813
+        ],
+        "font": "/System/Library/Fonts/ヒラギノ角ゴシック W3.ttc",
+        "font_size": 28,
+        "glyph_height": 29,
+        "cap_height": 22,
+        "major": false,
+        "color": "#3b2c21"
+      },
+      {
+        "text": "19th c. —",
+        "bbox": [
+          1216,
+          606,
+          1585,
+          667
+        ],
+        "font": "/System/Library/Fonts/Supplemental/Arial Bold.ttf",
+        "font_size": 83,
+        "glyph_height": 61,
+        "cap_height": 60,
+        "major": true,
+        "color": "#3b2c21"
+      },
+      {
+        "text": "GRIMM IMAGINES",
+        "bbox": [
+          1040,
+          674,
+          1759,
+          736
+        ],
+        "font": "/System/Library/Fonts/Supplemental/Arial Bold.ttf",
+        "font_size": 83,
+        "glyph_height": 62,
+        "cap_height": 60,
+        "major": true,
+        "color": "#3b2c21"
+      },
+      {
+        "text": "A PAGAN PAST",
+        "bbox": [
+          1086,
+          742,
+          1713,
+          804
+        ],
+        "font": "/System/Library/Fonts/Supplemental/Arial Bold.ttf",
+        "font_size": 83,
+        "glyph_height": 62,
+        "cap_height": 60,
+        "major": true,
+        "color": "#3b2c21"
+      },
+      {
+        "text": "19世紀 グリムが異教の過去を想像",
+        "bbox": [
+          1182,
+          818,
+          1619,
+          847
+        ],
+        "font": "/System/Library/Fonts/ヒラギノ角ゴシック W3.ttc",
+        "font_size": 28,
+        "glyph_height": 29,
+        "cap_height": 22,
+        "major": false,
+        "color": "#3b2c21"
+      }
+    ],
+    "color_class": "diagram",
+    "camera_band": [
+      110,
+      1080
+    ],
+    "stages": [
+      {
+        "stage": 99,
+        "file": "assets/D_summary_stage99.png",
+        "text_boxes": [
+          {
+            "text": "SCHEMATIC｜模式図",
+            "bbox": [
+              833,
+              20,
+              1087,
+              43
+            ],
+            "glyph_height": 23,
+            "font": "/System/Library/Fonts/ヒラギノ角ゴシック W3.ttc",
+            "major": false,
+            "color": "#3b2c21"
+          },
+          {
+            "text": "4th c. —",
+            "bbox": [
+              170,
+              162,
+              493,
+              223
+            ],
+            "font": "/System/Library/Fonts/Supplemental/Arial Bold.ttf",
+            "font_size": 83,
+            "glyph_height": 61,
+            "cap_height": 60,
+            "major": true,
+            "color": "#3b2c21"
+          },
+          {
+            "text": "NICHOLAS,",
+            "bbox": [
+              104,
+              230,
+              561,
+              305
+            ],
+            "font": "/System/Library/Fonts/Supplemental/Arial Bold.ttf",
+            "font_size": 83,
+            "glyph_height": 75,
+            "cap_height": 60,
+            "major": true,
+            "color": "#3b2c21"
+          },
+          {
+            "text": "BISHOP OF",
+            "bbox": [
+              104,
+              298,
+              561,
+              360
+            ],
+            "font": "/System/Library/Fonts/Supplemental/Arial Bold.ttf",
+            "font_size": 83,
+            "glyph_height": 62,
+            "cap_height": 60,
+            "major": true,
+            "color": "#3b2c21"
+          },
+          {
+            "text": "MYRA",
+            "bbox": [
+              210,
+              366,
+              454,
+              426
+            ],
+            "font": "/System/Library/Fonts/Supplemental/Arial Bold.ttf",
+            "font_size": 83,
+            "glyph_height": 60,
+            "cap_height": 60,
+            "major": true,
+            "color": "#3b2c21"
+          },
+          {
+            "text": "4世紀 ミュラの司教ニコラウス",
+            "bbox": [
+              136,
+              442,
+              528,
+              470
+            ],
+            "font": "/System/Library/Fonts/ヒラギノ角ゴシック W3.ttc",
+            "font_size": 28,
+            "glyph_height": 28,
+            "cap_height": 22,
+            "major": false,
+            "color": "#3b2c21"
+          },
+          {
+            "text": "13th c. —",
+            "bbox": [
+              768,
+              196,
+              1137,
+              257
+            ],
+            "font": "/System/Library/Fonts/Supplemental/Arial Bold.ttf",
+            "font_size": 83,
+            "glyph_height": 61,
+            "cap_height": 60,
+            "major": true,
+            "color": "#3b2c21"
+          },
+          {
+            "text": "GOLDEN",
+            "bbox": [
+              774,
+              264,
+              1130,
+              326
+            ],
+            "font": "/System/Library/Fonts/Supplemental/Arial Bold.ttf",
+            "font_size": 83,
+            "glyph_height": 62,
+            "cap_height": 60,
+            "major": true,
+            "color": "#3b2c21"
+          },
+          {
+            "text": "LEGEND",
+            "bbox": [
+              779,
+              332,
+              1125,
+              394
+            ],
+            "font": "/System/Library/Fonts/Supplemental/Arial Bold.ttf",
+            "font_size": 83,
+            "glyph_height": 62,
+            "cap_height": 60,
+            "major": true,
+            "color": "#3b2c21"
+          },
+          {
+            "text": "13世紀『黄金伝説』",
+            "bbox": [
+              822,
+              408,
+              1082,
+              436
+            ],
+            "font": "/System/Library/Fonts/ヒラギノ角ゴシック W3.ttc",
+            "font_size": 28,
+            "glyph_height": 28,
+            "cap_height": 22,
+            "major": false,
+            "color": "#3b2c21"
+          },
+          {
+            "text": "DEVILS IN",
+            "bbox": [
+              1370,
+              196,
+              1775,
+              258
+            ],
+            "font": "/System/Library/Fonts/Supplemental/Arial Bold.ttf",
+            "font_size": 83,
+            "glyph_height": 62,
+            "cap_height": 60,
+            "major": true,
+            "color": "#3b2c21"
+          },
+          {
+            "text": "THE SAINT'S",
+            "bbox": [
+              1316,
+              264,
+              1829,
+              326
+            ],
+            "font": "/System/Library/Fonts/Supplemental/Arial Bold.ttf",
+            "font_size": 83,
+            "glyph_height": 62,
+            "cap_height": 60,
+            "major": true,
+            "color": "#3b2c21"
+          },
+          {
+            "text": "SERVICE",
+            "bbox": [
+              1390,
+              332,
+              1753,
+              394
+            ],
+            "font": "/System/Library/Fonts/Supplemental/Arial Bold.ttf",
+            "font_size": 83,
+            "glyph_height": 62,
+            "cap_height": 60,
+            "major": true,
+            "color": "#3b2c21"
+          },
+          {
+            "text": "聖人に仕える悪魔",
+            "bbox": [
+              1460,
+              408,
+              1684,
+              436
+            ],
+            "font": "/System/Library/Fonts/ヒラギノ角ゴシック W3.ttc",
+            "font_size": 28,
+            "glyph_height": 28,
+            "cap_height": 22,
+            "major": false,
+            "color": "#3b2c21"
+          },
+          {
+            "text": "1869 → c. 1910 —",
+            "bbox": [
+              132,
+              640,
+              827,
+              701
+            ],
+            "font": "/System/Library/Fonts/Supplemental/Arial Bold.ttf",
+            "font_size": 83,
+            "glyph_height": 61,
+            "cap_height": 60,
+            "major": true,
+            "color": "#3b2c21"
+          },
+          {
+            "text": "POSTCARDS",
+            "bbox": [
+              220,
+              708,
+              741,
+              770
+            ],
+            "font": "/System/Library/Fonts/Supplemental/Arial Bold.ttf",
+            "font_size": 83,
+            "glyph_height": 62,
+            "cap_height": 60,
+            "major": true,
+            "color": "#3b2c21"
+          },
+          {
+            "text": "1869〜1910年ごろ 絵はがき",
+            "bbox": [
+              292,
+              784,
+              669,
+              813
+            ],
+            "font": "/System/Library/Fonts/ヒラギノ角ゴシック W3.ttc",
+            "font_size": 28,
+            "glyph_height": 29,
+            "cap_height": 22,
+            "major": false,
+            "color": "#3b2c21"
+          },
+          {
+            "text": "19th c. —",
+            "bbox": [
+              1216,
+              606,
+              1585,
+              667
+            ],
+            "font": "/System/Library/Fonts/Supplemental/Arial Bold.ttf",
+            "font_size": 83,
+            "glyph_height": 61,
+            "cap_height": 60,
+            "major": true,
+            "color": "#3b2c21"
+          },
+          {
+            "text": "GRIMM IMAGINES",
+            "bbox": [
+              1040,
+              674,
+              1759,
+              736
+            ],
+            "font": "/System/Library/Fonts/Supplemental/Arial Bold.ttf",
+            "font_size": 83,
+            "glyph_height": 62,
+            "cap_height": 60,
+            "major": true,
+            "color": "#3b2c21"
+          },
+          {
+            "text": "A PAGAN PAST",
+            "bbox": [
+              1086,
+              742,
+              1713,
+              804
+            ],
+            "font": "/System/Library/Fonts/Supplemental/Arial Bold.ttf",
+            "font_size": 83,
+            "glyph_height": 62,
+            "cap_height": 60,
+            "major": true,
+            "color": "#3b2c21"
+          },
+          {
+            "text": "19世紀 グリムが異教の過去を想像",
+            "bbox": [
+              1182,
+              818,
+              1619,
+              847
+            ],
+            "font": "/System/Library/Fonts/ヒラギノ角ゴシック W3.ttc",
+            "font_size": 28,
+            "glyph_height": 29,
+            "cap_height": 22,
+            "major": false,
+            "color": "#3b2c21"
+          }
+        ]
+      }
+    ],
+    "start": 301.7,
+    "end": 327.26666666666665,
+    "frames": 767,
+    "encoded_file": "_work/render/P12_01_D_summary.mp4",
+    "render_config": {
+      "image_sha256": "a10a0d72d3786dd7857eb1006fc321364c44242c95377a80e848f3c6ad279f17",
+      "stages": [
+        {
+          "sha256": "a10a0d72d3786dd7857eb1006fc321364c44242c95377a80e848f3c6ad279f17",
+          "stage": 99
+        }
+      ],
+      "frames": 767,
+      "filter": "[0:v]format=yuv420p[v]",
+      "lossless_static_intermediate": true,
+      "stage_change_frames": []
+    },
+    "stage_change_frames": []
+  },
+  {
+    "key": "K10a",
+    "segment_id": "P13",
+    "file": "assets/K10a.png",
+    "text_boxes": [
+      {
+        "text": "ARTWORK｜美術作品",
+        "bbox": [
+          832,
+          20,
+          1089,
+          43
+        ],
+        "glyph_height": 23,
+        "font": "/System/Library/Fonts/ヒラギノ角ゴシック W3.ttc",
+        "major": false,
+        "color": "#3b2c21"
+      },
+      {
+        "text": "Henry Farrer, Winter Scene in Moonlight, 1869 — The Met, 1999.19 (CC0)",
+        "bbox": [
+          556,
+          60,
+          1364,
+          83
+        ],
+        "glyph_height": 23,
+        "font": "/System/Library/Fonts/Supplemental/Arial.ttf",
+        "major": false,
+        "color": "#3b2c21"
+      }
+    ],
+    "original_asset_id": "K10a",
+    "original_source": "/Volumes/ESD-02/新チャンネル/EP010_Krampus/素材/met16577_original.jpg",
+    "original_sha256": "e0f18858f7ac0f7dc186f8f4aaa4a386679aa59539b8e2108b48bcd240f539d7",
+    "source_text": [
+      "ARTWORK｜美術作品",
+      "Henry Farrer, Winter Scene in Moonlight, 1869 — The Met, 1999.19 (CC0)"
+    ],
+    "original_pixels": [
+      3811,
+      2998
+    ],
+    "crop_pixels": [
+      0,
+      0,
+      3811,
+      2998
+    ],
+    "art_boxes": [
+      [
+        356,
+        120,
+        1564,
+        1070
+      ]
+    ],
+    "camera_band": [
+      110,
+      1080
+    ],
+    "zoom_amount": 0.045,
+    "native_initial_scale": 0.31687791861240827,
+    "native_max_scale": 0.331241144056678,
+    "color_class": "color",
+    "start": 327.26666666666665,
+    "end": 335.1333333333333,
+    "frames": 236,
+    "encoded_file": "_work/render/P13_01_K10a.mp4",
+    "render_config": {
+      "image_sha256": "553422226babd87b72b3e66ff198238a2a6ce6525b9ca9ba061d2a88b664323f",
+      "stages": [],
+      "frames": 236,
+      "filter": "[0:v]split=2[base][art];[art]crop=1920:970:0:110,format=yuv444p,perspective=x0='(W-W/(1+0.045*on/235))/2':y0='(H-H/(1+0.045*on/235))/2':x1='(W-W/(1+0.045*on/235))/2+W/(1+0.045*on/235)':y1='(H-H/(1+0.045*on/235))/2':x2='(W-W/(1+0.045*on/235))/2':y2='(H-H/(1+0.045*on/235))/2+H/(1+0.045*on/235)':x3='(W-W/(1+0.045*on/235))/2+W/(1+0.045*on/235)':y3='(H-H/(1+0.045*on/235))/2+H/(1+0.045*on/235)':sense=source:eval=frame:interpolation=cubic[moving];[base][moving]overlay=0:110:format=yuv444,format=yuv420p[v]",
+      "lossless_static_intermediate": false,
+      "stage_change_frames": []
+    },
+    "stage_change_frames": []
+  },
+  {
+    "key": "credits",
+    "segment_id": "P14",
+    "file": "assets/credits.png",
+    "text_boxes": [
+      {
+        "text": "CREDITS｜クレジット",
+        "bbox": [
+          834,
+          20,
+          1087,
+          43
+        ],
+        "glyph_height": 23,
+        "font": "/System/Library/Fonts/ヒラギノ角ゴシック W3.ttc",
+        "major": false,
+        "color": "#3b2c21"
+      },
+      {
+        "text": "QUIET ORIGINS",
+        "bbox": [
+          651,
+          175,
+          1269,
+          240
+        ],
+        "glyph_height": 65,
+        "font": "/System/Library/Fonts/Supplemental/Arial Bold.ttf",
+        "major": false,
+        "color": "#3b2c21"
+      },
+      {
+        "text": "Narration: Kokoro / Heart (af_heart)",
+        "bbox": [
+          667,
+          285,
+          1253,
+          320
+        ],
+        "glyph_height": 35,
+        "font": "/System/Library/Fonts/Supplemental/Arial.ttf",
+        "major": false,
+        "color": "#3b2c21"
+      },
+      {
+        "text": "日本語音声：VOICEVOX:冥鳴ひまり",
+        "bbox": [
+          659,
+          345,
+          1261,
+          379
+        ],
+        "glyph_height": 34,
+        "font": "/System/Library/Fonts/ヒラギノ角ゴシック W3.ttc",
+        "major": false,
+        "color": "#3b2c21"
+      },
+      {
+        "text": "Wien Museum · The Metropolitan Museum of Art",
+        "bbox": [
+          564,
+          445,
+          1357,
+          479
+        ],
+        "glyph_height": 34,
+        "font": "/System/Library/Fonts/Supplemental/Arial.ttf",
+        "major": false,
+        "color": "#3b2c21"
+      },
+      {
+        "text": "Volkskundemuseum Wien",
+        "bbox": [
+          689,
+          505,
+          1231,
+          539
+        ],
+        "glyph_height": 34,
+        "font": "/System/Library/Fonts/Supplemental/Arial.ttf",
+        "major": false,
+        "color": "#3b2c21"
+      },
+      {
+        "text": "Music: QO_THEME_A02 · Suno",
+        "bbox": [
+          681,
+          610,
+          1239,
+          646
+        ],
+        "glyph_height": 36,
+        "font": "/System/Library/Fonts/Supplemental/Arial.ttf",
+        "major": false,
+        "color": "#3b2c21"
+      }
+    ],
+    "color_class": "credits",
+    "camera_band": [
+      110,
+      1080
+    ],
+    "start": 335.1333333333333,
+    "end": 357.26666666666665,
+    "frames": 664,
+    "encoded_file": "_work/render/P14_01_credits.mp4",
+    "render_config": {
+      "image_sha256": "0f29812312f963f00722c6fd300434afd9cb4279f9ffa8e3d7868816a3a964f5",
+      "stages": [],
+      "frames": 664,
+      "filter": "[0:v]format=yuv420p[v]",
+      "lossless_static_intermediate": true,
+      "stage_change_frames": []
+    },
+    "stage_change_frames": []
+  },
+  {
+    "key": "endcard",
+    "segment_id": "BRAND",
+    "start": 357.26666666666665,
+    "end": 367.26666666666665,
+    "frames": 300,
+    "encoded_file": "/Users/ryo/Desktop/新チャンネル/ブランド素材/エンドカード_共通版_v02_20261023/deliverables/Quiet_Origins_endcard_v02.mp4",
+    "original_source": "/Users/ryo/Desktop/新チャンネル/ブランド素材/エンドカード_共通版_v02_20261023/deliverables/Quiet_Origins_endcard_v02.mp4",
+    "original_sha256": "3cd254cdd387d0ca8e3ef3c2f74ca3650dc64fb02609bcd09a21b3e36a3513a2"
+  }
+]

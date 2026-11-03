@@ -1,0 +1,78 @@
+{
+  "passed": true,
+  "movie_timescale": 48000,
+  "video_frames": 11018,
+  "audio_samples": 17628800,
+  "files": [
+    {
+      "name": "EP010_audio_en.m4a",
+      "before_sha256": "078cf4dbe4acebb1f39ee81af8f3bf0a416e65e1f443a65c61b3b982a334244b",
+      "after_sha256": "078cf4dbe4acebb1f39ee81af8f3bf0a416e65e1f443a65c61b3b982a334244b",
+      "already_sample_exact": true,
+      "encoded_streams_identical": true,
+      "stream_hashes": {
+        "audio": "SHA256=fc686c1828e3ccdd79e8e0aecb750dc621a1ffc1c3e746f0d5d9919221f8e2fc"
+      },
+      "duration_seconds": "367.266667"
+    },
+    {
+      "name": "EP010_audio_ja.m4a",
+      "before_sha256": "da262347de1c62edfc055f48f6f8c3116d7a3ede81c6c7ff189e4502a23ef547",
+      "after_sha256": "da262347de1c62edfc055f48f6f8c3116d7a3ede81c6c7ff189e4502a23ef547",
+      "already_sample_exact": true,
+      "encoded_streams_identical": true,
+      "stream_hashes": {
+        "audio": "SHA256=6c486f1b34dfc1d07931c538e4678aa5499d94fef9f55ae2b22bb663af91bfd4"
+      },
+      "duration_seconds": "367.266667"
+    },
+    {
+      "name": "EP010_Krampus_en_v02_1080p30.mp4",
+      "before_sha256": "4de5cabca88f04a520f7f9f60299e3aa80406b6734148ec571c56a49a777b6a3",
+      "after_sha256": "4de5cabca88f04a520f7f9f60299e3aa80406b6734148ec571c56a49a777b6a3",
+      "already_sample_exact": true,
+      "encoded_streams_identical": true,
+      "stream_hashes": {
+        "video": "SHA256=6076e568f9858bcfd1602390ab293311c076fbe1e9ca3ff1d7ea4ee37864432d",
+        "audio": "SHA256=fc686c1828e3ccdd79e8e0aecb750dc621a1ffc1c3e746f0d5d9919221f8e2fc"
+      },
+      "duration_seconds": "367.266667"
+    },
+    {
+      "name": "EP010_Krampus_en_v02_subtitled_review_1080p30.mp4",
+      "before_sha256": "31454e59b07035da1035d889a82c6f4ccc270832c4259b7ef754cfd863a98dea",
+      "after_sha256": "31454e59b07035da1035d889a82c6f4ccc270832c4259b7ef754cfd863a98dea",
+      "already_sample_exact": true,
+      "encoded_streams_identical": true,
+      "stream_hashes": {
+        "video": "SHA256=06eb149ffb2c6878299affe3d20fd9f4ab015170188c9f584e88f710405cdab1",
+        "audio": "SHA256=fc686c1828e3ccdd79e8e0aecb750dc621a1ffc1c3e746f0d5d9919221f8e2fc"
+      },
+      "duration_seconds": "367.266667"
+    },
+    {
+      "name": "EP010_Krampus_ja_v02_1080p30.mp4",
+      "before_sha256": "b30f167f19d5a97b7b8fc3faa097dbfc2421b63c4daef756ce133cad0345c4fd",
+      "after_sha256": "b30f167f19d5a97b7b8fc3faa097dbfc2421b63c4daef756ce133cad0345c4fd",
+      "already_sample_exact": true,
+      "encoded_streams_identical": true,
+      "stream_hashes": {
+        "video": "SHA256=6076e568f9858bcfd1602390ab293311c076fbe1e9ca3ff1d7ea4ee37864432d",
+        "audio": "SHA256=6c486f1b34dfc1d07931c538e4678aa5499d94fef9f55ae2b22bb663af91bfd4"
+      },
+      "duration_seconds": "367.266667"
+    },
+    {
+      "name": "EP010_Krampus_ja_v02_subtitled_review_1080p30.mp4",
+      "before_sha256": "f4d6bcf9e3cb813e18545d7ad5f8431db23cb1f3bd3f4336bbc147d10e2a1e5f",
+      "after_sha256": "f4d6bcf9e3cb813e18545d7ad5f8431db23cb1f3bd3f4336bbc147d10e2a1e5f",
+      "already_sample_exact": true,
+      "encoded_streams_identical": true,
+      "stream_hashes": {
+        "video": "SHA256=470ed7bd6b6402ddd3b62f8aae8b49ce0e07484efd71885e4ab47d1fc25327b3",
+        "audio": "SHA256=6c486f1b34dfc1d07931c538e4678aa5499d94fef9f55ae2b22bb663af91bfd4"
+      },
+      "duration_seconds": "367.266667"
+    }
+  ]
+}

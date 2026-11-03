@@ -1,5 +1,5 @@
 import os
-os.environ.setdefault('WOM10_ROOT','/Volumes/ESD-02/新チャンネル/EP010_Krampus/確認版_v02_20261102')
+os.environ.setdefault('WOM10_ROOT','/Volumes/ESD-02/新チャンネル/EP010_Krampus/確認版_v02_20261103')
 """EP010 video assembly and technical QA. Existing approved brand clips are read-only."""
 import argparse,math,re,json,subprocess,shutil
 from pathlib import Path
@@ -41,7 +41,7 @@ def reviews():
 def precision():
  """Preserve encoded packets while making movie and track durations sample-exact."""
  state=ROOT/'records/container_precision.json'
- if state.exists() and all(sha(ROOT/'deliverables'/x['name'])==x['after_sha256'] for x in read(state)['files']):return
+ if state.exists() and all((ROOT/'deliverables'/x['name']).exists() and sha(ROOT/'deliverables'/x['name'])==x['after_sha256'] for x in read(state)['files']):return
  m=read(ROOT/'records/master_timeline.json');samples=round(m['duration_seconds']*48000);frames=round(m['duration_seconds']*30);records=[]
  files=[ROOT/f'deliverables/EP010_audio_{l}.m4a' for l in ['en','ja']]+sorted((ROOT/'deliverables').glob('EP010_Krampus_*.mp4'))
  for p in files:

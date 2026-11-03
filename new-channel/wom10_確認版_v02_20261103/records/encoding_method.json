@@ -1,0 +1,162 @@
+{
+  "method": "Independent shot decoders feeding one raw-video encoder",
+  "shots": [
+    {
+      "key": "K01a",
+      "frames": 1011,
+      "input_profile": "High"
+    },
+    {
+      "key": "K06a",
+      "frames": 519,
+      "input_profile": "High"
+    },
+    {
+      "key": "opening",
+      "frames": 120,
+      "input_profile": "High"
+    },
+    {
+      "key": "K05b",
+      "frames": 550,
+      "input_profile": "High"
+    },
+    {
+      "key": "K04a",
+      "frames": 497,
+      "input_profile": "High"
+    },
+    {
+      "key": "K05c",
+      "frames": 305,
+      "input_profile": "High"
+    },
+    {
+      "key": "D_dec6",
+      "frames": 406,
+      "input_profile": "High 4:4:4 Predictive"
+    },
+    {
+      "key": "K09b",
+      "frames": 797,
+      "input_profile": "High"
+    },
+    {
+      "key": "D_names",
+      "frames": 856,
+      "input_profile": "High 4:4:4 Predictive"
+    },
+    {
+      "key": "D_1869",
+      "frames": 428,
+      "input_profile": "High 4:4:4 Predictive"
+    },
+    {
+      "key": "K06b",
+      "frames": 287,
+      "input_profile": "High"
+    },
+    {
+      "key": "K03a",
+      "frames": 893,
+      "input_profile": "High"
+    },
+    {
+      "key": "D_grimm",
+      "frames": 788,
+      "input_profile": "High 4:4:4 Predictive"
+    },
+    {
+      "key": "K09a",
+      "frames": 562,
+      "input_profile": "High"
+    },
+    {
+      "key": "D_noancient",
+      "frames": 490,
+      "input_profile": "High 4:4:4 Predictive"
+    },
+    {
+      "key": "K07b",
+      "frames": 542,
+      "input_profile": "High"
+    },
+    {
+      "key": "D_summary",
+      "frames": 767,
+      "input_profile": "High 4:4:4 Predictive"
+    },
+    {
+      "key": "K10a",
+      "frames": 236,
+      "input_profile": "High"
+    },
+    {
+      "key": "credits",
+      "frames": 664,
+      "input_profile": "High 4:4:4 Predictive"
+    },
+    {
+      "key": "endcard",
+      "frames": 300,
+      "input_profile": "High"
+    }
+  ],
+  "command": [
+    "ffmpeg",
+    "-nostdin",
+    "-y",
+    "-v",
+    "warning",
+    "-f",
+    "rawvideo",
+    "-pixel_format",
+    "yuv420p",
+    "-video_size",
+    "1920x1080",
+    "-framerate",
+    "30",
+    "-i",
+    "pipe:0",
+    "-an",
+    "-c:v",
+    "libx264",
+    "-threads",
+    "3",
+    "-preset",
+    "medium",
+    "-crf",
+    "16",
+    "-profile:v",
+    "high",
+    "-level:v",
+    "4.1",
+    "-pix_fmt",
+    "yuv420p",
+    "-g",
+    "60",
+    "-bf",
+    "2",
+    "-maxrate",
+    "20M",
+    "-bufsize",
+    "30M",
+    "-fps_mode",
+    "passthrough",
+    "-video_track_timescale",
+    "15360",
+    "-movie_timescale",
+    "48000",
+    "-color_primaries",
+    "bt709",
+    "-color_trc",
+    "bt709",
+    "-colorspace",
+    "bt709",
+    "-movflags",
+    "+faststart",
+    "/Volumes/ESD-02/新チャンネル/EP010_Krampus/確認版_v02_20261103/_work/picture_master.mp4"
+  ],
+  "cut_timing": "Synthesized sentence boundaries; phrase offset estimated by character proportion within each sentence",
+  "diagram_reveals": "Explicit whole-frame row reveals; stage frame numbers recorded"
+}
