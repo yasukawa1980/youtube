@@ -1,5 +1,5 @@
 {
-  "status": "needs_owner_choice",
+  "status": "owner_approved_B",
   "source": "/Volumes/ESD-02/新チャンネル/EP011_WeighingOfTheHeart/素材/met551786_10.jpg",
   "source_dimensions": [
     4000,
@@ -101,5 +101,12 @@
   },
   "video_rendered": false,
   "release_created": false,
-  "youtube_posted": false
+  "youtube_posted": false,
+  "owner_answer": "B：比較画像の大きさで進める（推奨）",
+  "approval_scope": {
+    "P01_native_max": 1.7,
+    "P10_native_max": 3.4,
+    "P10_relative_to_P01": 2,
+    "ai_processing": false
+  }
 }
