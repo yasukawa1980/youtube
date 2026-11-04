@@ -1,0 +1,389 @@
+{
+  "channel_name": "IRO Sounds",
+  "channel_id": "UCkmt7bOABac3-NZUS-WpgKQ",
+  "handle": "@irosounds",
+  "limitations": [
+    "丸め表示から正確な件数を推定しない。欠測はnull。",
+    "形式別平均時間から総再生時間や全体への寄与を逆算しない。",
+    "画面の期間末日と公開日表示には日界・反映時差がある可能性。表示を保持し、公開後・48時間・7日・28日の数値を相互補完しない。",
+    "上位表・公開後・48時間・全体ファネルの指標を混同しない。",
+    "動画の形式は形式別画面・過去確認済み分類を使用。分類できないものはnot_classified。平均時間・割合だけで形式を断定しない。"
+  ],
+  "date_jst": "2026-11-04",
+  "status": "completed_with_limitations",
+  "source": "ログイン済みChromeのYouTube Studio新インサイト画面。数値は保存したスクリーンショットを目視確認、画面名・チャンネル・選択タブ・補助カードはAXと照合。",
+  "periods": {
+    "7d": {
+      "start": "2026-10-28",
+      "end": "2026-11-03"
+    },
+    "28d": {
+      "start": "2026-10-07",
+      "end": "2026-11-03"
+    }
+  },
+  "overview": {
+    "7d": {
+      "views": 1264,
+      "watch_time_hours": 6.9,
+      "net_subscribers": 0
+    },
+    "28d": {
+      "views": 7064,
+      "watch_time_hours": 38.5,
+      "net_subscribers": 9
+    },
+    "current_subscribers": 11,
+    "realtime_48h_views": 131,
+    "realtime_top_content": [
+      {
+        "title": "西日の中で、のびをひとつ。📚 勉強用BGM #shorts",
+        "views_48h": 48,
+        "video_id": null
+      },
+      {
+        "title": "休憩の合図は、この手のひら。📚 勉強用BGM #shorts",
+        "views_48h": 41,
+        "video_id": null
+      },
+      {
+        "title": "ぱちっと鳴って、ちらり。🔥 焚き火BGM #shorts",
+        "views_48h": 6,
+        "video_id": "CMzBe9XSD80"
+      }
+    ]
+  },
+  "format_metrics": {
+    "7d": {
+      "videos": {
+        "views": 44,
+        "impressions": 251,
+        "impressions_display": "251",
+        "ctr_percent": 8.4,
+        "average_view_duration": "9:26",
+        "traffic_percent": {}
+      },
+      "shorts": {
+        "views": 1224,
+        "engaged_views": 163,
+        "likes_net": 4,
+        "net_subscribers": 0,
+        "continued_viewing_percent": null,
+        "swiped_away_percent": null,
+        "traffic_percent": {}
+      },
+      "live": {
+        "views": 3,
+        "impressions": 26,
+        "impressions_display": "26",
+        "ctr_percent": 3.8,
+        "average_view_duration": "0:52",
+        "traffic_percent": {}
+      },
+      "views_by_format_card": {
+        "videos": 44,
+        "shorts": 1224,
+        "live": 3
+      },
+      "all_funnel": {},
+      "all_traffic_percent": {},
+      "published_content": {},
+      "net_subscribers_by_format_card": {}
+    },
+    "28d": {
+      "videos": {
+        "views": 229,
+        "impressions": 1839,
+        "impressions_display": "1839",
+        "ctr_percent": 5.2,
+        "average_view_duration": "9:52",
+        "traffic_percent": {
+          "関連動画": 53.3,
+          "YouTube 検索": 15.7,
+          "チャンネル ページ": 11.3,
+          "直接入力または不明": 7.4,
+          "ブラウジング機能": 7.4
+        }
+      },
+      "shorts": {
+        "views": 6831,
+        "engaged_views": 946,
+        "likes_net": 34,
+        "net_subscribers": 5,
+        "continued_viewing_percent": 13.2,
+        "swiped_away_percent": 86.8,
+        "traffic_percent": {
+          "ショート フィード": 86.2,
+          "YouTube 検索": 12.8,
+          "その他の YouTube 機能": 0.5,
+          "チャンネル ページ": 0.4,
+          "ブラウジング機能": 0.1
+        }
+      },
+      "live": {
+        "views": 11,
+        "impressions": 53,
+        "impressions_display": "53",
+        "ctr_percent": 7.6,
+        "average_view_duration": "0:22",
+        "traffic_percent": {
+          "YouTube 検索": 54.6,
+          "外部": 18.2,
+          "直接入力または不明": 9.1,
+          "ブラウジング機能": 9.1,
+          "その他の YouTube 機能": 9.1
+        }
+      },
+      "views_by_format_card": {
+        "videos": 229,
+        "shorts": 6831,
+        "live": 11
+      },
+      "all_funnel": {},
+      "all_traffic_percent": {
+        "ショート フィード": 83.3,
+        "YouTube 検索": 13.0,
+        "関連動画": 1.7,
+        "チャンネル ページ": 0.7,
+        "その他": 1.3
+      },
+      "published_content": {},
+      "net_subscribers_by_format_card": {
+        "YouTube ショート": 5,
+        "動画": 2,
+        "ライブ配信": 0
+      }
+    }
+  },
+  "top_content_with_retention": {
+    "7d": [],
+    "28d": []
+  },
+  "latest_content": {
+    "7d": {
+      "title": "冷めないうちに、ひと口。📚 勉強用BGM #shorts",
+      "video_id": null,
+      "elapsed_time_display": "最初の 6 分",
+      "views": 2,
+      "average_view_percentage": null,
+      "average_view_duration": null,
+      "ctr_percent": null,
+      "likes": null,
+      "decision": "公開直後。新画面のカードに平均視聴時間・平均割合・高評価は未表示で評価保留。"
+    },
+    "28d": {
+      "title": "冷めないうちに、ひと口。📚 勉強用BGM #shorts",
+      "video_id": null,
+      "elapsed_time_display": "最初の 6 分",
+      "views": 2,
+      "average_view_percentage": null,
+      "average_view_duration": null,
+      "ctr_percent": null,
+      "likes": null,
+      "decision": "公開直後。新画面のカードに平均視聴時間・平均割合・高評価は未表示で評価保留。"
+    }
+  },
+  "raw_sources": [
+    {
+      "file": "content-all-28d.txt",
+      "captured_at_utc": "2026-11-04T12:07:21.194Z",
+      "identity_verified": true,
+      "captured_at_jst": "2026-11-04T21:07:21.194000+09:00",
+      "visible_period": "2026/10/07～2026/11/03",
+      "period_evidence": "主要指標グラフの横軸始終日と選択タブを保存画像で確認。下段の固定28日カードと区別。",
+      "screenshot": "content-all-28d.jpg"
+    },
+    {
+      "file": "content-all-7d.txt",
+      "captured_at_utc": "2026-11-04T12:09:03.785Z",
+      "identity_verified": true,
+      "captured_at_jst": "2026-11-04T21:09:03.785000+09:00",
+      "visible_period": "2026/10/28～2026/11/03",
+      "period_evidence": "主要指標グラフの横軸始終日と選択タブを保存画像で確認。下段の固定28日カードと区別。",
+      "screenshot": "content-all-7d.jpg"
+    },
+    {
+      "file": "content-live-28d.txt",
+      "captured_at_utc": "2026-11-04T12:08:01.028Z",
+      "identity_verified": true,
+      "captured_at_jst": "2026-11-04T21:08:01.028000+09:00",
+      "visible_period": "2026/10/07～2026/11/03",
+      "period_evidence": "主要指標グラフの横軸始終日と選択タブを保存画像で確認。下段の固定28日カードと区別。",
+      "screenshot": "content-live-28d.jpg"
+    },
+    {
+      "file": "content-live-7d.txt",
+      "captured_at_utc": "2026-11-04T12:08:08.899Z",
+      "identity_verified": true,
+      "captured_at_jst": "2026-11-04T21:08:08.899000+09:00",
+      "visible_period": "2026/10/28～2026/11/03",
+      "period_evidence": "主要指標グラフの横軸始終日と選択タブを保存画像で確認。下段の固定28日カードと区別。",
+      "screenshot": "content-live-7d.jpg"
+    },
+    {
+      "file": "content-shorts-28d.txt",
+      "captured_at_utc": "2026-11-04T12:07:47.972Z",
+      "identity_verified": true,
+      "captured_at_jst": "2026-11-04T21:07:47.972000+09:00",
+      "visible_period": "2026/10/07～2026/11/03",
+      "period_evidence": "主要指標グラフの横軸始終日と選択タブを保存画像で確認。下段の固定28日カードと区別。",
+      "screenshot": "content-shorts-28d.jpg"
+    },
+    {
+      "file": "content-shorts-7d.txt",
+      "captured_at_utc": "2026-11-04T12:08:49.025Z",
+      "identity_verified": true,
+      "captured_at_jst": "2026-11-04T21:08:49.025000+09:00",
+      "visible_period": "2026/10/28～2026/11/03",
+      "period_evidence": "主要指標グラフの横軸始終日と選択タブを保存画像で確認。下段の固定28日カードと区別。",
+      "screenshot": "content-shorts-7d.jpg"
+    },
+    {
+      "file": "content-videos-28d.txt",
+      "captured_at_utc": "2026-11-04T12:07:28.316Z",
+      "identity_verified": true,
+      "captured_at_jst": "2026-11-04T21:07:28.316000+09:00",
+      "visible_period": "2026/10/07～2026/11/03",
+      "period_evidence": "主要指標グラフの横軸始終日と選択タブを保存画像で確認。下段の固定28日カードと区別。",
+      "screenshot": "content-videos-28d.jpg"
+    },
+    {
+      "file": "content-videos-7d.txt",
+      "captured_at_utc": "2026-11-04T12:08:34.104Z",
+      "identity_verified": true,
+      "captured_at_jst": "2026-11-04T21:08:34.104000+09:00",
+      "visible_period": "2026/10/28～2026/11/03",
+      "period_evidence": "主要指標グラフの横軸始終日と選択タブを保存画像で確認。下段の固定28日カードと区別。",
+      "screenshot": "content-videos-7d.jpg"
+    },
+    {
+      "file": "insights-interface-observation.txt",
+      "captured_at_utc": "2026-11-04T12:06:10.491Z",
+      "identity_verified": true,
+      "captured_at_jst": "2026-11-04T21:06:10.491000+09:00",
+      "visible_period": null
+    },
+    {
+      "file": "overview-28d.txt",
+      "captured_at_utc": "2026-11-04T12:06:40.270Z",
+      "identity_verified": true,
+      "captured_at_jst": "2026-11-04T21:06:40.270000+09:00",
+      "visible_period": "2026/10/07～2026/11/03",
+      "period_evidence": "主要指標グラフの横軸始終日と選択タブを保存画像で確認。下段の固定28日カードと区別。",
+      "screenshot": "overview-28d.jpg"
+    },
+    {
+      "file": "overview-7d.txt",
+      "captured_at_utc": "2026-11-04T12:07:02.430Z",
+      "identity_verified": true,
+      "captured_at_jst": "2026-11-04T21:07:02.430000+09:00",
+      "visible_period": "2026/10/28～2026/11/03",
+      "period_evidence": "主要指標グラフの横軸始終日と選択タブを保存画像で確認。下段の固定28日カードと区別。",
+      "screenshot": "overview-7d.jpg"
+    }
+  ],
+  "capture_window_utc": {
+    "start": "2026-11-04T12:06:10.491Z",
+    "end": "2026-11-04T12:09:03.785Z"
+  },
+  "acquired_at_jst": {
+    "start": "2026-11-04T21:06:10.491000+09:00",
+    "end": "2026-11-04T21:09:03.785000+09:00"
+  },
+  "comparison_to_previous_record": {
+    "previous_date_jst": "2026-11-03",
+    "note": "移動窓・新旧画面の集計範囲・反映時差を考慮。前日差を当日単独の実績と解釈しない。",
+    "overview": {
+      "7d": {
+        "views": -63,
+        "watch_time_hours": -1.1,
+        "net_subscribers": null
+      },
+      "28d": {
+        "views": -68,
+        "watch_time_hours": 0.0,
+        "net_subscribers": 0
+      }
+    },
+    "format_7d": {
+      "videos": {
+        "views": -5,
+        "impressions": -41,
+        "ctr_percent": 0.5
+      },
+      "shorts": {
+        "views": -62,
+        "engaged_views": -4,
+        "likes_net": 0,
+        "net_subscribers": null
+      },
+      "live": {
+        "views": 0,
+        "impressions": 2,
+        "ctr_percent": -0.4
+      }
+    },
+    "current_subscribers_delta": 0,
+    "realtime_48h_views_delta": -63
+  },
+  "supplementary_cards": {
+    "scope": "過去28日間（主要指標を7日にしてもカード自体の期間表示は28日間）",
+    "source": "content-videos-7d.txt",
+    "impression_funnel": {
+      "impressions_display": "2.7万",
+      "impressions": null,
+      "ctr_percent": 0.9,
+      "engaged_views_from_impressions": 238,
+      "average_view_duration": "3:15",
+      "watch_time_from_impressions_hours": 12.9
+    },
+    "notes": "長尺主要指標の1839インプレッションと範囲が異なる可能性がある。形式別主値へ置換しない。"
+  },
+  "sharing": {
+    "repository": "yasukawa1980/youtube",
+    "branch": "bgm/production",
+    "shared_scope": "数値と検証結果のreport.json。原文・画面証拠はMac内に保存。",
+    "raw_sources_location": "/Users/ryo/youtube/analytics/daily/2026-11-04/iro-sounds"
+  },
+  "data_quality": {
+    "channel_identity_verified_on_all_sources": true,
+    "expected_core_sources": 10,
+    "core_sources_validated": 10,
+    "additional_interface_observations": 1,
+    "period_and_format_selection_validated": true,
+    "numeric_source": "保存した新インサイト画面のスクリーンショットを目視。",
+    "top_content_rows": {
+      "7d": 0,
+      "28d": 0
+    },
+    "missing_values_policy": "未表示はnullまたは空配列。前日や別期間で補完しない。",
+    "flags": [
+      "IROは新インサイト画面へ遷移。従来概要URLも新画面へ転送され、AXには主要カード数値が含まれないため画像で読取。",
+      "形式変更で主要指標の期間が28日に戻るため各7日形式を設定し直し、画像グラフ日付も照合。",
+      "主要指標7日でも下段の流入・継続率・人気コンテンツは28日表示。7日流入と継続・スワイプは未取得として保持。",
+      "平均時間・平均割合付き上位10件表および最新の平均割合は新画面に表示されず未取得。前日値を流用しない。",
+      "全体1264回と形式1224・44・3回の合計は一致しない。補正しない。",
+      "概要28日の7064回と形式合計7071回も集計・更新差を未確定として保持。"
+    ]
+  },
+  "facts": [
+    "新インサイト画面の28日グラフは10/7～11/3、7日グラフは10/28～11/3。全原文にチャンネル名とIDを確認。",
+    "7日1264回・6.9時間・純増0。28日7064回・38.5時間・純増+9。登録者11人。",
+    "48時間194→131回（63回減）。上位は西日の中でのびをひとつ48回、休憩の合図41回、ぱちっと鳴ってちらり6回。",
+    "長尺7日49→44回、292→251インプレッション、CTR7.9→8.4%、平均10:02→9:26。28日229回・1839インプレッション・CTR5.2%・平均9:52。",
+    "ショート7日1286→1224回・167→163エンゲージビュー・高評価4・純増0。7日継続率はカードに未表示。",
+    "ショート継続13.2%・スワイプ86.8%はカードに明示された28日値。7日値として扱わない。",
+    "ライブ7日3回・26インプレッション・CTR3.8%・平均0:52。28日11回・53インプレッション・CTR7.6%・平均0:22。",
+    "最新の冷めないうちにひと口は公開6分・2回。平均時間・平均割合は未表示。"
+  ],
+  "hypotheses": [
+    "48時間減少には新規投稿の初期視聴や期間窓の入れ替わりが関係し得る。時間別・同じ公開後経過が揃わず原因は未確定。",
+    "新旧UIの指標定義や反映範囲に差がある可能性を考慮し、数値低下を設定不具合や動画品質と結び付けない。"
+  ],
+  "recommendations": [],
+  "deferred_decisions": [
+    "7日ショート継続率・流入、最新投稿の平均時間と平均割合は未取得として判断保留。",
+    "44回の長尺CTRや平均時間だけで変更候補を追加しない。"
+  ],
+  "publication_constraints_respected": "提案記録のみ。Studioの動画・設定・公開状態・予約・コメントを変更しない。各チャンネル日本時間1日合計3本・ショート2本まで。"
+}
