@@ -1,0 +1,251 @@
+{
+  "episode_id": "EP011",
+  "series": "Quiet Origins",
+  "language": "ja",
+  "title": "心臓の計量で、落ちることはあったのか",
+  "subtitle": "死者の書の本当の名前、しなかった悪事の一覧、42柱の神々、心臓に語りかける呪文",
+  "script_version": "v02 (2026-11-04, approved by the owner)",
+  "opening_after": "P02",
+  "chapters": [
+    {
+      "id": "C01",
+      "title": "天秤"
+    },
+    {
+      "id": "C02",
+      "title": "一冊の本ではなかった"
+    },
+    {
+      "id": "C03",
+      "title": "42の否定"
+    },
+    {
+      "id": "C04",
+      "title": "心臓への呪文"
+    },
+    {
+      "id": "C05",
+      "title": "落ちることはあったのか"
+    }
+  ],
+  "sources": [
+    {
+      "id": "H-S01",
+      "title": "E. A. Wallis Budge, The Book of the Dead: The Papyrus of Ani in the British Museum, London, 1895",
+      "kind": "primary_text",
+      "status": "checked by Codex 2026-11-04 (book page images, IA TheBookOfTheDead-Budge-1895, text check only; page images not used in video): Hall of Double Right and Truth p.344; usual introduction appendix pp.345-346 ('I have made [no man] to weep', 'I have not turned back water at its springtide'); Negative Confession p.347-348 ('I have not stolen', 'I have done no murder', 'I have spoken no lies'); first god 'thou whose strides are long, who comest forth from Annu' p.347; Nebseni ending 'I know you, and I know your names' p.351; Chapter XXXB 'My heart my mother' p.258; Ammit p.257 n.4; maa-kheru pp.lxxiv-lxxv"
+    },
+    {
+      "id": "H-S02",
+      "title": "Foy Scalf (ed.), Book of the Dead: Becoming God in Ancient Egypt, Oriental Institute Museum Publications 39, 2017",
+      "kind": "research",
+      "status": "checked by Codex 2026-11-04: selection and length of scrolls, names added later, short scrolls to over 150 spells (Dorman p.29, Kockelmann pp.72-73); Turin 1791 and numbering (Lusher p.154, Munro p.54)"
+    },
+    {
+      "id": "H-S03",
+      "title": "Richard Lepsius, Das Todtenbuch der Ägypter nach dem hieroglyphischen Papyrus in Turin, Leipzig, 1842",
+      "kind": "primary_text",
+      "status": "bibliographic check by Codex 2026-11-04; title page not viewed; no image used"
+    },
+    {
+      "id": "H-S04",
+      "title": "The Metropolitan Museum of Art, object descriptions: 35.9.20a-w (Imhotep), 66.99.142 (judgment before Osiris), 30.8.1080 (heart scarab with a human head)",
+      "kind": "museum",
+      "status": "checked by Codex 2026-11-04: Book of Coming forth by Day; Hall of the Two Truths; heart as center of intelligence and emotion; balance with Maat; ten lines of Spell 30B on the base of 30.8.1080"
+    },
+    {
+      "id": "H-S05",
+      "title": "UCL Digital Egypt (Book of the Dead questions); Museo Egizio, Book of the Dead of Kha; Walters Art Museum 42.30",
+      "kind": "research",
+      "status": "checked by Codex 2026-11-04: names from phrases; papyrus examples not before Hatshepsut/Thutmose III; blank name spaces; modern reading of Spell 30B (not quoted)"
+    },
+    {
+      "id": "H-S06",
+      "title": "British Museum, Papyrus from the Book of the Dead of Ani (Google Arts & Culture text; image not used)",
+      "kind": "museum",
+      "status": "checked by Codex 2026-11-04: failure unlikely to be shown; true of voice / justified"
+    }
+  ],
+  "segments": [
+    {
+      "id": "P01",
+      "chapter": "C01",
+      "sources": [
+        "H-S04"
+      ],
+      "classification": "editorial_question",
+      "visuals": [
+        "E01A_10_scale"
+      ],
+      "text": "ひとつの心臓が、天秤にのせられます。反対側には、一枚の羽根。真理と正しい秩序を表す、マアトのしるしです。心臓は羽根より軽くなければならず、もし重ければ、怪物に食べられてしまう。そう、よく言われます。エジプトの死者の書に描かれた、名高い「心臓の計量」です。恐ろしい最後の試験のように聞こえます。では、死者の書そのものには、本当は何が書かれているのでしょう。"
+    },
+    {
+      "id": "P02",
+      "chapter": "C01",
+      "sources": [],
+      "classification": "editorial_question",
+      "visuals": [
+        "E01A_05"
+      ],
+      "text": "今回は、死者の書を開いてみます。その本当の名前、決してしなかった悪事の一覧、42柱の神々、心臓に語りかける呪文。そして、落ちることは、そもそも想定されていたのかという問いへ。"
+    },
+    {
+      "id": "P03",
+      "chapter": "C02",
+      "sources": [
+        "H-S02",
+        "H-S04",
+        "H-S05"
+      ],
+      "classification": "historical_fact",
+      "visuals": [
+        "E01A_13",
+        "D_goingforth"
+      ],
+      "text": "まず、死者の書という一冊の本は、ありませんでした。これらの文書には、「日のもとに出る」という言葉にちなむ呼び名がありました。新王国時代になると、選ばれた呪文をパピルスの巻物に書き、亡くなった人とともに葬るようになります。収める呪文と、その並べ方は、巻物ごとに異なりました。空けておいた欄に、あとから持ち主の名前を書き入れた巻物もあります。呪文がわずかしかない巻物もあれば、150を超える巻物もありました。"
+    },
+    {
+      "id": "P04",
+      "chapter": "C02",
+      "sources": [
+        "H-S02",
+        "H-S03"
+      ],
+      "classification": "historical_fact",
+      "visuals": [
+        "D_1842",
+        "D_spell125"
+      ],
+      "text": "「死者の書」という名前は、近代のものです。1842年、ドイツの学者カール・リヒャルト・レプシウスは、トリノに収められた長いパピルスを、『死者の書』という題で出版しました。彼が呪文に付けた番号は、今も研究者が使う番号の土台になっています。私たちが探している裁きの場面は、おもに125章にあります。"
+    },
+    {
+      "id": "P05",
+      "chapter": "C03",
+      "sources": [
+        "H-S01",
+        "H-S04"
+      ],
+      "classification": "myth_text",
+      "visuals": [
+        "E01A_10_osiris"
+      ],
+      "text": "125章は、亡くなった人を大きな広間へ導きます。「二つの真理の間」です。そこで死者は、自ら語ります。真理の主である偉大な神にあいさつし、あなたを知っていると述べ、そして、自分が決してしなかった悪事を並べていくのです。"
+    },
+    {
+      "id": "P06",
+      "chapter": "C03",
+      "sources": [
+        "H-S01"
+      ],
+      "classification": "myth_text",
+      "visuals": [
+        "D_denials",
+        "E10B"
+      ],
+      "text": "研究者はこれを「否定告白」と呼びます。一つ一つの文は、短く、飾りがありません。いくつかの写本から、古い英訳で、その一部を紹介しましょう。私は盗まなかった。私は人を殺めなかった。私はうそを語らなかった。私は誰も泣かせなかった。私は、増水の時に水をせき止めなかった。"
+    },
+    {
+      "id": "P07",
+      "chapter": "C03",
+      "sources": [
+        "H-S01",
+        "H-S04"
+      ],
+      "classification": "myth_text",
+      "visuals": [
+        "R01"
+      ],
+      "text": "続いて死者は、42柱の神々に向き直り、一柱ずつ、その名と土地の名を呼んであいさつします。最初の神は、「大きく歩む者、アンヌから来る者」。アンヌは、ギリシャの人々がヘリオポリスと呼んだ町です。死者は神々の一柱ごとに、自分がしなかった悪事を、もう一つずつ述べていきます。名前を知っていることが、大切でした。ある写本は、こう結ばれています。私はあなたがたを知り、あなたがたの名を知っている。"
+    },
+    {
+      "id": "P08",
+      "chapter": "C04",
+      "sources": [
+        "H-S01",
+        "H-S04",
+        "H-S05"
+      ],
+      "classification": "myth_text",
+      "visuals": [
+        "E06A",
+        "E06B"
+      ],
+      "text": "けれど、もし心臓が、別のことを言い出したら。エジプトの人々にとって、心臓は、考えと感情の中心でした。その人がしてきたことを、覚えていると考えられていたのです。そこで、別の呪文、30B章は、心臓に直接語りかけます。古い英訳では、「わが心臓、わが母よ」と始まります。そして、裁きの場で自分を妨げるものがないように、秤を守る者の前で、心臓が自分から離れないようにと願います。現代の訳では、心臓が持ち主に不利なことを言わないように、という願いとして読まれています。"
+    },
+    {
+      "id": "P09",
+      "chapter": "C04",
+      "sources": [
+        "H-S04"
+      ],
+      "classification": "historical_fact",
+      "visuals": [
+        "E07A_03",
+        "E07A_01"
+      ],
+      "text": "この呪文は、よく「心臓スカラベ」に刻まれました。甲虫の形をした護符で、しばしばミイラの胸の上に置かれました。人の頭をもつこのスカラベでは、底に刻まれた10行を、美術館が30B章と特定しています。死者は、ひとりきりで天秤に向かったのではありません。心臓にかける言葉を、自分で用意して臨んだのです。"
+    },
+    {
+      "id": "P10",
+      "chapter": "C05",
+      "sources": [
+        "H-S01",
+        "H-S04",
+        "H-S06"
+      ],
+      "classification": "myth_text",
+      "visuals": [
+        "E01A_10_beam",
+        "E08A",
+        "E01A_10_ammit"
+      ],
+      "text": "もう一度、天秤を見てみましょう。ここでは、心臓は羽根より軽く描かれてはいません。天秤の両側は、つり合っています。美術館の解説も、心臓がマアトとつり合うことを説明しています。トトが結果を書き記します。そしてそばには、むさぼり食う者、アメミトが待っています。古い記述では、ワニとライオンとカバが合わさった姿とされます。"
+    },
+    {
+      "id": "P11",
+      "chapter": "C05",
+      "sources": [
+        "H-S01",
+        "H-S06"
+      ],
+      "classification": "scholarly_interpretation",
+      "visuals": [
+        "E11B",
+        "D_truevoice"
+      ],
+      "text": "けれど、死者が生き続けることを助けるために作られた巻物に、その持ち主が食べられる結末は、描かれにくいのです。本文では、心臓は正しいと認められ、死者はオシリスの前へ進むことを許されます。巻物は、よい結果を確かなものにするために作られました。亡くなった人の名のあとには、よく「声正しき者」という言葉が添えられました。"
+    },
+    {
+      "id": "P12",
+      "chapter": "C05",
+      "sources": [
+        "H-S01"
+      ],
+      "classification": "editorial_conclusion",
+      "visuals": [
+        "D_summary"
+      ],
+      "text": "では、心臓の計量で、落ちることはあったのでしょうか。恐れとしては、ありました。だからこそ、アメミトが描かれているのです。けれど死者の書は、通るために作られたものでした。そして、その否定の言葉は、よい生き方の姿も伝えています。盗まないこと。うそをつかないこと。人を泣かせないこと。"
+    },
+    {
+      "id": "P13",
+      "chapter": "C05",
+      "sources": [],
+      "classification": "closing",
+      "visuals": [
+        "E10A"
+      ],
+      "text": "どの物語にも由来がある。ときには、それは一つの心臓と、一枚の羽根と、前もって用意された、いくつかの言葉から始まります。"
+    },
+    {
+      "id": "P14",
+      "chapter": "C05",
+      "sources": [],
+      "classification": "credits",
+      "visuals": [
+        "credits"
+      ],
+      "text": "この動画は、歴史上の文献と公開された美術館のコレクションをもとに構成しました。ナレーションには音声合成を使っています。出典と利用条件は概要欄にまとめています。楽しんでいただけたら、高評価とチャンネル登録をお願いします。ご覧いただき、ありがとうございました。"
+    }
+  ]
+}

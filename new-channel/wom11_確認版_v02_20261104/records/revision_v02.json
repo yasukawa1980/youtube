@@ -1,0 +1,396 @@
+{
+  "passed": true,
+  "immutable_files": [
+    {
+      "file": "records/content.json",
+      "sha256": "9a80b211800c06634dae3ef727395578d7a30d116fa52fe30281c3fc477e633f",
+      "matches_v01": true
+    },
+    {
+      "file": "records/content_en.json",
+      "sha256": "70cfd5f4aaa29776ffc2871730c0f2645227d4f6758f753d65c71447ac88a9d7",
+      "matches_v01": true
+    },
+    {
+      "file": "deliverables/EP011_pronunciation_ja.m4a",
+      "sha256": "84b187bcae33bc20957969da64f762a69f3966912862e3bbcd7b043f8bac019c",
+      "matches_v01": true
+    },
+    {
+      "file": "deliverables/EP011_pronunciation_en.m4a",
+      "sha256": "4d8beea31fc4d3e52113bdd097f84c6aeb5a851338ec22d43d64b1afdcd9025c",
+      "matches_v01": true
+    },
+    {
+      "file": "deliverables/EP011_audio_ja.wav",
+      "sha256": "a4e5669a5b520c79057c10a20508a36824eab9d205f9bef3e5f13d54e03fb1ec",
+      "matches_v01": true
+    },
+    {
+      "file": "deliverables/EP011_audio_en.wav",
+      "sha256": "b195dc0e5d34fb79f7ba41d005b94422134d897d9d35b1ad817c1dc8659779b9",
+      "matches_v01": true
+    },
+    {
+      "file": "deliverables/EP011_WeighingOfTheHeart_en_v02_1080p30.srt",
+      "sha256": "811ba3241f25d24c2d8b3ceed3fb7e25ea563dd69caaac39713e59f8729a8365",
+      "matches_v01": true
+    },
+    {
+      "file": "deliverables/EP011_WeighingOfTheHeart_ja_v02_1080p30.srt",
+      "sha256": "a8af9bf729f523dd91567d0f66f96d9b56f1886ba3fcf413a0594d58f9cd35a6",
+      "matches_v01": true
+    },
+    {
+      "file": "deliverables/EP011_audio_ja.m4a",
+      "sha256": "6eaf03a21ce01bd02729aec4a6b6b26a550d326b19a079283b16267fe1993236",
+      "matches_v01": true
+    },
+    {
+      "file": "deliverables/EP011_audio_en.m4a",
+      "sha256": "3b730756d022a1169fedee9830813ebf5592712889f31b1c0b3b17ffeb5e3d93",
+      "matches_v01": true
+    }
+  ],
+  "input_images": [
+    {
+      "key": "E01A_10_scale",
+      "sha256": "4ab2e373bf3f3211767706a2333dc31a25fc3664fa2c84735a821bd71885ddca",
+      "matches_v01": true
+    },
+    {
+      "key": "E01A_05",
+      "sha256": "b298dbf3f2548955b62380e57722012afaa1b0d91b43016d5509eefef00784ad",
+      "matches_v01": true
+    },
+    {
+      "key": "E01A_13",
+      "sha256": "efeb8cae014e9b6c4f55fce3d3f2edbb7a98f2bae22a126664b3d63de61999e4",
+      "matches_v01": true
+    },
+    {
+      "key": "D_goingforth",
+      "sha256": "c417d03d3e7cc3629824fcca8c4807f8991132980f56c3a2bcb9f61c54556ab1",
+      "matches_v01": true
+    },
+    {
+      "key": "D_1842",
+      "sha256": "2a94f0acca54173380feb5044016b25ba6c894f7dec9acde5928e90754931d35",
+      "matches_v01": true
+    },
+    {
+      "key": "D_spell125",
+      "sha256": "5fb220c26b1542a8011d80d189cb79775ac6802e799e4eb19f9f38aeb668a819",
+      "matches_v01": true
+    },
+    {
+      "key": "E01A_10_osiris",
+      "sha256": "2b55e0512f19b24f2b252a0df55e2c1ec8d950312b16a55b3f4a0655322155dc",
+      "matches_v01": true
+    },
+    {
+      "key": "D_denials",
+      "sha256": "71a9d40584322905e3b9886b9c7e0da1c176905506446ebacbcb2b240073f886",
+      "matches_v01": true
+    },
+    {
+      "key": "R01",
+      "sha256": "5034cb96f7fba5bf31465bfd24e9c874b0937e72df4ffc1f0beaa87c2166a9d4",
+      "matches_v01": true
+    },
+    {
+      "key": "E06A",
+      "sha256": "e2d1d6c3d60071aed0cf6e1841281f4d9085b1c75f79eff4aba10ac23fa7cd90",
+      "matches_v01": true
+    },
+    {
+      "key": "E06B",
+      "sha256": "eedbcdd87bb9f3fd1154904401f784bb5f4475b71d29c6c9b8af6a7001195882",
+      "matches_v01": true
+    },
+    {
+      "key": "E07A_03",
+      "sha256": "bbfa2e27f9b7217a7e80bd2c8a140bd03eb4f043400bb81939865e2747fa39aa",
+      "matches_v01": true
+    },
+    {
+      "key": "E07A_01",
+      "sha256": "5a34d74a15aecaea552d1edd0589a1a69e312deb3ec5680af260f412f5cbcd3f",
+      "matches_v01": true
+    },
+    {
+      "key": "E01A_10_beam",
+      "sha256": "347d89c5369790fe84eccd9ba046a366017f15888537d6bc4e6bf9777c2c3edb",
+      "matches_v01": true
+    },
+    {
+      "key": "E08A",
+      "sha256": "76df07ffbb04b312f2ea27c2b91de487ca174115129927246fbbcd174fd0a01f",
+      "matches_v01": true
+    },
+    {
+      "key": "E01A_10_ammit",
+      "sha256": "1b68072e60f678dbcf282e4d1aa72dc2fca83f0966624cf788186c3d596d31f8",
+      "matches_v01": false
+    },
+    {
+      "key": "E11B",
+      "sha256": "1062109ab3e6ad2615d7054c7597849502023d6e5c934a70af7b16db75e9d5e5",
+      "matches_v01": true
+    },
+    {
+      "key": "D_truevoice",
+      "sha256": "88c5752e342dae994c1db2e9c7a99439f6be452699c1057362c2dfa77ced4e8f",
+      "matches_v01": true
+    },
+    {
+      "key": "D_summary",
+      "sha256": "e00b4037b2a8a18e7e5e062d7c37e8c456fb4d28fd945f0142187a6c7053f61d",
+      "matches_v01": false
+    },
+    {
+      "key": "E10A",
+      "sha256": "79fb04d609d34819c457ac2b2fbbc9148c5837dc57e0948624b8952298f66e8f",
+      "matches_v01": true
+    },
+    {
+      "key": "credits",
+      "sha256": "7ea02b915240ce9387026c295e5cfe14dea6b5bed91478066d6776cd0787443a",
+      "matches_v01": true
+    }
+  ],
+  "thumbnail_A_sha256": "402c83eb90d61baad5fb12f99338f046656e9bfbd2f350c8725589705bf5cafe",
+  "thumbnail_selected": "A",
+  "audio_stream_identity": [
+    {
+      "language": "en",
+      "audio_stream_sha256": "SHA256=393001f1579afa596a0f75d8a6f17665579d6ce3c74ce7454a5726f4643ad462",
+      "matches_v01": true
+    },
+    {
+      "language": "ja",
+      "audio_stream_sha256": "SHA256=905ca4150ae8d2b42ede7ecff7212b87d5ca2705ded89dad3c2daa20e961ccf2",
+      "matches_v01": true
+    }
+  ],
+  "P06": {
+    "start": 135.46666666666667,
+    "end": 160.86666666666667,
+    "central_heading_glyph_heights": [
+      72,
+      60
+    ],
+    "all_five_lines_from": 154.9,
+    "all_five_lines_hold_seconds": 5.966666666666669,
+    "E10B_removed": true
+  },
+  "P10": {
+    "thoth_start": 274.0,
+    "thoth_end": 279.53333333333336,
+    "thoth_seconds": 5.53333333333336,
+    "ammit_start": 279.53333333333336,
+    "ammit_image_initial_size": [
+      1019,
+      655
+    ],
+    "ammit_native_initial_scale": 2.4271844660194173,
+    "ammit_native_max_scale": 2.5,
+    "ammit_max_image_size": [
+      1050,
+      675
+    ],
+    "english_sentences": [
+      {
+        "id": "P10-05",
+        "text": "Thoth writes down the result.",
+        "spoken_text": "Thoth writes down the result.",
+        "start": 274.00191666666666,
+        "end": 276.09454166666666,
+        "audio_file": "audio/en/sentences/P10-05.wav",
+        "audio_sha256": "55bec4a98977c26bda212dca9d38da7ebc9d17e75fe7756192ce1b53f6b83130",
+        "replacements": [],
+        "role": "plain"
+      },
+      {
+        "id": "P10-06",
+        "text": "And nearby waits Ammit, the Devourer.",
+        "spoken_text": "And nearby waits Ammit, the Devourer.",
+        "start": 276.39454166666667,
+        "end": 279.22249999999997,
+        "audio_file": "audio/en/sentences/P10-06.wav",
+        "audio_sha256": "8ae8812fe0f923d55aa5154e5e282ff9bb372b43086b5681d7f78d8ec5efa1fa",
+        "replacements": [],
+        "role": "plain"
+      },
+      {
+        "id": "P10-07",
+        "text": "One old description calls her part crocodile, part lion, and part hippopotamus.",
+        "spoken_text": "One old description calls her part crocodile, part lion, and part hippopotamus.",
+        "start": 279.5225,
+        "end": 285.65179166666667,
+        "audio_file": "audio/en/sentences/P10-07.wav",
+        "audio_sha256": "ced04299e2793815fa1a6faad034f2f0d0d6de02f686ee226280721d3f5371ba",
+        "replacements": [],
+        "role": "plain"
+      }
+    ],
+    "japanese_sentences": [
+      {
+        "id": "P10-05",
+        "text": "トトが結果を書き記します。",
+        "spoken_text": "トトが結果を書き記します。",
+        "start": 276.096,
+        "end": 277.9626666666667,
+        "audio_file": "audio/ja/sentences/P10-05.wav",
+        "audio_sha256": "ffd7ab97fe60c417d3bdb89104f0e81f33b3bc98bea7ab5397e12c3f7f7df8b8",
+        "replacements": [],
+        "role": "plain"
+      },
+      {
+        "id": "P10-06",
+        "text": "そしてそばには、むさぼり食う者、アメミトが待っています。",
+        "spoken_text": "そしてそばには、むさぼり食う者、アメミトが待っています。",
+        "start": 278.28266666666667,
+        "end": 282.272,
+        "audio_file": "audio/ja/sentences/P10-06.wav",
+        "audio_sha256": "d1d65c4fa018c3f98405fe1fa501e9c916d3931bd93292e0b51529f5db2a637a",
+        "replacements": [],
+        "role": "plain"
+      },
+      {
+        "id": "P10-07",
+        "text": "古い記述では、ワニとライオンとカバが合わさった姿とされます。",
+        "spoken_text": "古い記述では、ワニとライオンとカバが合わさった姿とされます。",
+        "start": 282.592,
+        "end": 286.9013333333333,
+        "audio_file": "audio/ja/sentences/P10-07.wav",
+        "audio_sha256": "4ab53a829ba072e4881be5d817d98b83883ea716bb892eb6dfc99255fe42dcf9",
+        "replacements": [],
+        "role": "plain"
+      }
+    ],
+    "japanese_Ammit_sentence_start_minus_visual_start": -1.2506666666666888
+  },
+  "D_summary": {
+    "rows": [
+      3,
+      2
+    ],
+    "edge_margin_px": 96,
+    "minimum_inner_padding_px": 42,
+    "major_glyph_height": 60,
+    "contrast": 9.59069469965852,
+    "boxes": [
+      {
+        "index": 1,
+        "box": [
+          96,
+          190,
+          588,
+          480
+        ],
+        "text_bbox": [
+          181,
+          235,
+          503,
+          426
+        ],
+        "padding_px": [
+          82,
+          42,
+          82,
+          51
+        ],
+        "min_padding_px": 42
+      },
+      {
+        "index": 2,
+        "box": [
+          620,
+          190,
+          1000,
+          480
+        ],
+        "text_bbox": [
+          702,
+          274,
+          917,
+          387
+        ],
+        "padding_px": [
+          79,
+          81,
+          80,
+          90
+        ],
+        "min_padding_px": 79
+      },
+      {
+        "index": 3,
+        "box": [
+          1032,
+          190,
+          1824,
+          480
+        ],
+        "text_bbox": [
+          1142,
+          235,
+          1714,
+          426
+        ],
+        "padding_px": [
+          107,
+          42,
+          107,
+          51
+        ],
+        "min_padding_px": 42
+      },
+      {
+        "index": 4,
+        "box": [
+          272,
+          550,
+          912,
+          840
+        ],
+        "text_bbox": [
+          441,
+          595,
+          743,
+          786
+        ],
+        "padding_px": [
+          166,
+          42,
+          166,
+          51
+        ],
+        "min_padding_px": 42
+      },
+      {
+        "index": 5,
+        "box": [
+          1008,
+          550,
+          1648,
+          840
+        ],
+        "text_bbox": [
+          1136,
+          634,
+          1521,
+          747
+        ],
+        "padding_px": [
+          125,
+          81,
+          124,
+          90
+        ],
+        "min_padding_px": 81
+      }
+    ]
+  }
+}

@@ -1,0 +1,76 @@
+{
+  "stage": "Complete: focused samples and all EN/JA contact sheets reviewed; see visual_review.json",
+  "passed": true,
+  "files": [
+    {
+      "file": "review/comparison_P10_Ammit.jpg",
+      "sha256": "833d8eab5c6c74bde494f112071959090907d92effa610671bd49a8f33752257"
+    },
+    {
+      "file": "review/comparison_P06_five_lines.jpg",
+      "sha256": "a137fcd9dadde22e20c70cacc765fa3934a6b5a9686c18d2d912119d4c202d30"
+    },
+    {
+      "file": "review/comparison_P10_Thoth.jpg",
+      "sha256": "51b839b7d438548314d08ba16ca0fa5fb647da24d13ca6e71682339a02d031e7"
+    },
+    {
+      "file": "review/comparison_P12_summary.jpg",
+      "sha256": "0bd28f7a36a87f4be83cbbb36b0b1b46bfaebaa727a42c71a7f19cea82adf7bf"
+    },
+    {
+      "file": "review/comparison_P06_heading.jpg",
+      "sha256": "4af38737b87ec3e019fee205ff7f856a43d535154f7d00f461c9dc4ef8355e58"
+    },
+    {
+      "file": "review/subtitled_ja_P06_five_lines.jpg",
+      "sha256": "f497e3cf0b6cce374d442cc94ca56936f62ad04121308341af84136797f3e5c6"
+    },
+    {
+      "file": "review/subtitled_ja_P10_Thoth.jpg",
+      "sha256": "00d2ae44e3d923bd0adb9425f5acb2a92532c3e6e02715745087494806dc2b04"
+    },
+    {
+      "file": "review/subtitled_en_P10_Ammit.jpg",
+      "sha256": "d0c0cf70e7a9d514ffd4d2a4a6da24fabd3e66f35097fdfcaa8413cf8192acb9"
+    },
+    {
+      "file": "review/subtitled_en_P06_five_lines.jpg",
+      "sha256": "da45ee37bf91074d9942ae9c270aae54a489d3fd8b7e3bf04275ff47cd3c8820"
+    },
+    {
+      "file": "review/subtitled_en_P06_heading.jpg",
+      "sha256": "7a4125bc9e75df40c285c8d198ca952c6ce60bbb8c0952b1861eb57c1457940f"
+    },
+    {
+      "file": "review/subtitled_ja_P12_summary.jpg",
+      "sha256": "274079f4ec0d637e7222d2cae70776e127d714b9083bc792ee7d30899dcb41b0"
+    },
+    {
+      "file": "review/subtitled_en_P10_Thoth.jpg",
+      "sha256": "054939985eb2813c41e3dde71d4c0f69e4d81bb2035d573a138f1ff663ec01f1"
+    },
+    {
+      "file": "review/subtitled_en_P12_summary.jpg",
+      "sha256": "6591c2836cbfc101847dffbc8fd8360325ad82eb025d865fd2d5fbcea12dbcfc"
+    },
+    {
+      "file": "review/subtitled_ja_P10_Ammit.jpg",
+      "sha256": "55c56f2e87e51b68bf4b87702b6a795dbe998b130c31e23dbdbfbcc5f75fed18"
+    },
+    {
+      "file": "review/subtitled_ja_P06_heading.jpg",
+      "sha256": "73e4c883949d6fb087626ded66fa5045895ebdbdb56d0ba08b627bde84fc6b20"
+    }
+  ],
+  "findings": [
+    "P06 at 140s has the new central bilingual heading.",
+    "P06 at 159s retains all five exact quotations instead of E10B.",
+    "Thoth is still visible at 278s.",
+    "Ammit is larger at 282s with its complete head, body and legs visible.",
+    "Summary at 325s has three upper boxes and two lower boxes, clear arrows, and two lines for Spell 30B.",
+    "All ten actual EN/JA burned-subtitle sample frames inspected: headings, full quote card and two-row summary remain readable and do not overlap subtitle text; speech and captions are unchanged."
+  ],
+  "human_listening": false,
+  "subtitle_samples_reviewed": 10
+}

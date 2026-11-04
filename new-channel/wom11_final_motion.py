@@ -1,6 +1,6 @@
 import os
 """Unfiltered consecutive-frame motion check; explicit diagram reveals checked separately."""
-import csv,subprocess
+import csv,subprocess,fcntl
 import numpy as np
 from wom11_produce import VERSION,ROOT,read,save,sha
 from wom11_motion import roi,motion_stats
@@ -28,7 +28,7 @@ def finalize(result,shots):
  assert result['passed'],[(x['key'],x['ratio'],x.get('actual_change_frames')) for x in result['checks'] if not x['passed']]
  print('FINAL MOTION VERIFIED',len(rows),flush=True)
 
-def main():
+def measure_all():
  src=ROOT/f'deliverables/EP011_WeighingOfTheHeart_en_{VERSION}_1080p30.mp4';shots=read(ROOT/'records/render_shots.json')
  state=ROOT/'records/final_video_motion.json'
  if state.exists() and read(state).get('video_sha256')==sha(src):
@@ -46,7 +46,7 @@ def main():
    prior=a
   if not diffs:continue
   med=float(np.median(diffs));q95=float(np.quantile(diffs,.95));ratio=q95/med if med else None
-  static=s['key'].startswith('D_') or s['key']=='credits';q=motion_stats(ROOT/s['encoded_file'],rect)
+  static=s['key'].startswith('D_') or s['key']=='credits';q=motion_stats(ROOT/s['encoded_file'],[0,0,1920,1080] if static else rect)
   row={'key':s['key'],'roi_xywh':rect,'frame_pairs':len(diffs),'median':med,'p95':q95,'ratio':ratio,'maximum_mad':max(diffs),'static_source':static,'frame_differences':diffs,'intermediate':q,'motion_ratio_applicable':not static}
   if static:
    expected=s.get('stage_change_frames',[]);actual=[i+1 for i,v in enumerate(q['frame_differences']) if v!=0]
@@ -56,4 +56,8 @@ def main():
  assert not p.stdout.read(1) and p.wait()==0 and total==round(read(ROOT/'records/master_timeline.json')['duration_seconds']*30)
  result={'passed':all(c['passed'] for c in checks),'video_sha256':sha(src),'decoded_frames':total,'checks':checks,'method':'Continuous completed-video decode with no seeking. Art: unfiltered p95/median <=2.5. Cards: lossless intermediate changes only at explicitly requested reveal frames. Brand excluded; static/card ratios are inapplicable.'};save(ROOT/'records/final_video_motion.json',result)
  finalize(result,shots)
+def main():
+ with (ROOT/'_work/motion.lock').open('a') as lock:
+  fcntl.flock(lock.fileno(),fcntl.LOCK_EX)
+  measure_all()
 if __name__=='__main__':main()

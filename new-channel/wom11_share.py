@@ -5,6 +5,7 @@ import json
 import shutil
 import subprocess
 import os
+import time
 from pathlib import Path
 
 REPO='yasukawa1980/youtube'
@@ -49,7 +50,9 @@ def main():
     assert r['draft'] is True
     # Empty draft is checked before any media is uploaded. Never publish it.
     assert_anonymous_hidden(f'repos/{REPO}/releases/{r["id"]}')
-    state={'release_id':r['id'],'tag':TAG,'draft':True,'release_url':r['html_url'],'status':'uploading'}
+    previous=json.loads(a.record.read_text()) if a.record.exists() else {}
+    cached_checks=previous.get('assets',[]) if previous.get('release_id')==r['id'] else []
+    state={'release_id':r['id'],'tag':TAG,'draft':True,'release_url':r['html_url'],'status':'uploading','assets':cached_checks}
     a.record.write_text(json.dumps(state,indent=2)+'\n')
     for p in files:
         old=next((v for v in r['assets'] if v['name']==p.name or v['digest']=='sha256:'+sha(p)),None)
@@ -65,18 +68,31 @@ def main():
     checks=[]
     for p in files:
         asset=next(v for v in r['assets'] if v['name']==p.name)
-        h=hashlib.sha256();n=0
-        proc=subprocess.Popen(['gh','api','-H','Accept: application/octet-stream',
-                               f'repos/{REPO}/releases/assets/{asset["id"]}'],stdout=subprocess.PIPE)
-        for b in iter(lambda:proc.stdout.read(1048576),b''):h.update(b);n+=len(b)
-        assert proc.wait()==0
-        assert n==p.stat().st_size and h.hexdigest()==sha(p)
-        assert asset['digest']=='sha256:'+h.hexdigest()
+        expected_sha=sha(p)
+        cached=next((c for c in cached_checks if c['asset_id']==asset['id'] and c['name']==p.name
+                     and c['bytes']==p.stat().st_size and c['sha256']==expected_sha
+                     and c.get('rest_download_verified') is True),None)
+        assert asset['digest']=='sha256:'+expected_sha and asset['size']==p.stat().st_size
+        if not cached:
+            for attempt in range(3):
+                h=hashlib.sha256();n=0;next_progress=64*1048576
+                proc=subprocess.Popen(['gh','api','-H','Accept: application/octet-stream',
+                                       f'repos/{REPO}/releases/assets/{asset["id"]}'],stdout=subprocess.PIPE)
+                for b in iter(lambda:proc.stdout.read(1048576),b''):
+                    h.update(b);n+=len(b)
+                    if n>=next_progress:
+                        print('REST PROGRESS',p.name,n,'/',p.stat().st_size,flush=True);next_progress+=64*1048576
+                success=proc.wait()==0 and n==p.stat().st_size and h.hexdigest()==expected_sha
+                if success:break
+                print('REST RETRY',p.name,attempt+1,flush=True);time.sleep(2)
+            assert success,f'REST verification failed after three attempts: {p.name}'
         assert_anonymous_hidden(f'repos/{REPO}/releases/assets/{asset["id"]}')
-        checks.append({'name':p.name,'asset_id':asset['id'],'bytes':n,'sha256':h.hexdigest(),
+        checks.append({'name':p.name,'asset_id':asset['id'],'bytes':p.stat().st_size,'sha256':expected_sha,
                        'rest_download_verified':True,'anonymous_http_status':404,
                        'browser_download_url':asset['browser_download_url']})
-        print('REST VERIFIED',p.name,flush=True)
+        state.update(status='verifying',assets=checks)
+        a.record.write_text(json.dumps(state,ensure_ascii=False,indent=2)+'\n')
+        print('REST CHECKPOINT VERIFIED' if cached else 'REST VERIFIED',p.name,flush=True)
     state.update(status='verified',assets=checks)
     a.record.write_text(json.dumps(state,ensure_ascii=False,indent=2)+'\n')
     print('SHARED',r['id'],len(checks),flush=True)

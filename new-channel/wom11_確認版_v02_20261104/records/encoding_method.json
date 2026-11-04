@@ -1,0 +1,177 @@
+{
+  "method": "Independent shot decoders feeding one raw-video encoder",
+  "shots": [
+    {
+      "key": "E01A_10_scale",
+      "frames": 999,
+      "input_profile": "High"
+    },
+    {
+      "key": "E01A_05",
+      "frames": 566,
+      "input_profile": "High"
+    },
+    {
+      "key": "opening",
+      "frames": 120,
+      "input_profile": "High"
+    },
+    {
+      "key": "E01A_13",
+      "frames": 600,
+      "input_profile": "High"
+    },
+    {
+      "key": "D_goingforth",
+      "frames": 397,
+      "input_profile": "High 4:4:4 Predictive"
+    },
+    {
+      "key": "D_1842",
+      "frames": 613,
+      "input_profile": "High 4:4:4 Predictive"
+    },
+    {
+      "key": "D_spell125",
+      "frames": 207,
+      "input_profile": "High 4:4:4 Predictive"
+    },
+    {
+      "key": "E01A_10_osiris",
+      "frames": 562,
+      "input_profile": "High"
+    },
+    {
+      "key": "D_denials",
+      "frames": 762,
+      "input_profile": "High 4:4:4 Predictive"
+    },
+    {
+      "key": "R01",
+      "frames": 1000,
+      "input_profile": "High"
+    },
+    {
+      "key": "E06A",
+      "frames": 330,
+      "input_profile": "High"
+    },
+    {
+      "key": "E06B",
+      "frames": 886,
+      "input_profile": "High"
+    },
+    {
+      "key": "E07A_03",
+      "frames": 385,
+      "input_profile": "High"
+    },
+    {
+      "key": "E07A_01",
+      "frames": 413,
+      "input_profile": "High"
+    },
+    {
+      "key": "E01A_10_beam",
+      "frames": 380,
+      "input_profile": "High"
+    },
+    {
+      "key": "E08A",
+      "frames": 166,
+      "input_profile": "High"
+    },
+    {
+      "key": "E01A_10_ammit",
+      "frames": 249,
+      "input_profile": "High"
+    },
+    {
+      "key": "E11B",
+      "frames": 510,
+      "input_profile": "High"
+    },
+    {
+      "key": "D_truevoice",
+      "frames": 286,
+      "input_profile": "High 4:4:4 Predictive"
+    },
+    {
+      "key": "D_summary",
+      "frames": 723,
+      "input_profile": "High 4:4:4 Predictive"
+    },
+    {
+      "key": "E10A",
+      "frames": 323,
+      "input_profile": "High"
+    },
+    {
+      "key": "credits",
+      "frames": 664,
+      "input_profile": "High 4:4:4 Predictive"
+    },
+    {
+      "key": "endcard",
+      "frames": 300,
+      "input_profile": "High"
+    }
+  ],
+  "command": [
+    "ffmpeg",
+    "-nostdin",
+    "-y",
+    "-v",
+    "warning",
+    "-f",
+    "rawvideo",
+    "-pixel_format",
+    "yuv420p",
+    "-video_size",
+    "1920x1080",
+    "-framerate",
+    "30",
+    "-i",
+    "pipe:0",
+    "-an",
+    "-c:v",
+    "libx264",
+    "-threads",
+    "3",
+    "-preset",
+    "medium",
+    "-crf",
+    "16",
+    "-profile:v",
+    "high",
+    "-level:v",
+    "4.1",
+    "-pix_fmt",
+    "yuv420p",
+    "-g",
+    "60",
+    "-bf",
+    "2",
+    "-maxrate",
+    "20M",
+    "-bufsize",
+    "30M",
+    "-fps_mode",
+    "passthrough",
+    "-video_track_timescale",
+    "15360",
+    "-movie_timescale",
+    "48000",
+    "-color_primaries",
+    "bt709",
+    "-color_trc",
+    "bt709",
+    "-colorspace",
+    "bt709",
+    "-movflags",
+    "+faststart",
+    "/Volumes/ESD-02/新チャンネル/EP011_WeighingOfTheHeart/確認版_v02_20261104/_work/picture_master.mp4"
+  ],
+  "cut_timing": "Synthesized sentence boundaries; phrase offset estimated by character proportion within each sentence",
+  "diagram_reveals": "Explicit whole-frame row reveals; stage frame numbers recorded"
+}

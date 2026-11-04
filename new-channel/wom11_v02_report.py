@@ -35,6 +35,8 @@ gh api -H 'Accept: application/octet-stream' repos/yasukawa1980/youtube/releases
 |---|---:|---:|
 '''
  for a in share['assets']:note+=f"| {a['name']} | {a['asset_id']} | {a['bytes']} |\n"
+ for a in share['assets']:
+  if a.get('range_count'):note+=f"\n4K版はRESTのRange指定で全{a['range_count']}範囲を取得し、欠落・重複のない全体のサイズとSHA-256を照合済み。\n"
  note+='\n[SHA-256一覧](SHA256SUMS_shared.txt)／[修正結果](../wom11_制作結果_v02_20261104.md)／[採用サムネA](EP011_thumbnail_A.jpg)。音声・字幕ZIP内の発音抜粋はv01と同一なので、試聴はどちらの版でもよい。\n'
  (out/'README.md').write_text(note)
  ratio=max(x['ratio'] for x in motion['checks'] if not x['static_source'])
