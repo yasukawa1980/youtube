@@ -1,0 +1,852 @@
+{
+  "schema_version": 1,
+  "channel": "Whispers of Japan",
+  "series": "朗読",
+  "volume": "RDG03",
+  "title": "宮沢賢治『銀河鉄道の夜』",
+  "generator": "built-in image_gen",
+  "generation_mode": "independent_generation_one_image_per_call_no_reference_images",
+  "prompt_source": "bgm/RDG03_コピー用プロンプト.md",
+  "exposure_correction": false,
+  "generated_at_definition": "各image_gen呼び出しが完了した観測時刻（UTC）。モデル内部の生成時刻ではない。",
+  "status": "complete",
+  "assets": [
+    {
+      "id": "rdg03_01",
+      "role": "main_video",
+      "path": "画像/rdg03_01.png",
+      "prompt": "A small imaginary hillside town of an unnamed country in the early twentieth century, at dusk on a late summer evening. A narrow cobbled street climbs gently between low houses of plaster and dark timber with slate roofs, neither clearly Japanese nor clearly European. On the right a small old printing shop has one tall window glowing warm yellow. Down the slope on the left, far below the roofs, a broad pale river shines softly. The sky is a deep dusky blue fading to a thin band of soft rose above the far hills, with the very first faint stars. Colours: dusky blue, plaster grey-cream, warm yellow window light, a touch of rose. No people, no figures, no silhouettes of people, no faces, no hands, no animals except those named above, no cats. Japanese shin-hanga woodblock print in the manner of the 1920s-30s revival: flat layered areas of colour, visible woodgrain in the flat passages, softly gradated sky (bokashi), Western perspective and cast light held inside Japanese printmaking. Everything in the scene is drawn as part of the print, in the same flat woodblock manner, never photographic. Calm, dreamlike and hushed. Strong clear difference between the light and dark masses so the image still reads when reduced to a thumbnail. No text, no signature, no seal stamp, no lettering of any kind. No modern objects: no power lines, no cars, no trucks, no plastic. Wide 16:9 landscape. Exposed so that texture is clearly visible everywhere. Shadows are lifted and open, full of visible detail, nothing crushed to pure black. High dynamic range, rich texture even in the darkest areas.",
+      "prompt_verbatim": true,
+      "generation_completed_at": "2026-11-04T08:19:56.780Z",
+      "regeneration_count": 0,
+      "selected_attempt": 1,
+      "attempts": [
+        {
+          "attempt": 1,
+          "started_at": "2026-11-04T08:19:13.554Z",
+          "completed_at": "2026-11-04T08:19:56.780Z",
+          "source_path": "/Users/ryo/.codex/generated_images/01a1a5a3-4dfe-7b22-8a88-0bb2b99685dd/exec-20c77d87-8885-4840-b3d8-492ce1613e91.png",
+          "original_path": "画像/生成直後/rdg03_01_attempt01.png",
+          "accepted": true,
+          "rejection_reason": null,
+          "sha256": "d2787eb16e060c748e04ba9dfab3fa34bf94c1b869472ca90addd23ca9e0b450",
+          "dimensions": [
+            1672,
+            941
+          ],
+          "bytes": 3714503,
+          "metrics": {
+            "mean_luminance": 110.06514673474214,
+            "luminance_below_16_ratio": 1.2711713589838765e-06,
+            "luminance_below_16_percent": 0.00012711713589838765
+          }
+        }
+      ],
+      "visual_check": {
+        "status": "passed",
+        "method": "生成原本全体を目視確認。02の店舗内・11の機関車を追加拡大確認。",
+        "notes": "夕暮れの坂道、右側の暖かい印刷所の窓、左奥の川を確認。 人物・人影・顔・手・指定外の動物・猫・文字・署名・印・禁止された現代物は目視で認めず。"
+      },
+      "original_path": "画像/生成直後/rdg03_01_attempt01.png",
+      "prompt_sha256": "4f2a28388d8cd31747b5c60987cf4773cef042fa8a7811a52b1acaefa24fb0d5",
+      "generation_completed_at_jst": "2026-11-04T17:19:56.780000+09:00",
+      "source_crop_box_xyxy": [
+        0,
+        0.25,
+        1672,
+        940.75
+      ],
+      "dimensions": [
+        1920,
+        1080
+      ],
+      "sha256": "81d24805a5281e7adb2184e2c4a52d926a8def2d6e0ccb18319a312ceebbbfc2",
+      "bytes": 4092370,
+      "metrics": {
+        "mean_luminance": 110.06930147318673,
+        "luminance_below_16_ratio": 1.4467592592592592e-06,
+        "luminance_below_16_percent": 0.00014467592592592592
+      }
+    },
+    {
+      "id": "rdg03_02",
+      "role": "main_video",
+      "path": "画像/rdg03_02.png",
+      "prompt": "The same small imaginary town on the night of a star festival. A street crossing lined with low shopfronts; every street lamp is wrapped in dark green fir and cypress branches with small lights among them, and round balls of yew leaves hang from the eaves. Far down the street a small stone bridge is faintly visible. The shop windows glow, and the deep indigo night above is full of quiet stars. No paper lanterns of Japanese festival type, no torii. Colours: deep indigo, dark green boughs, small warm lights, a few cool blue-white sparks of light in the distance. No people, no figures, no silhouettes of people, no faces, no hands, no animals except those named above, no cats. Japanese shin-hanga woodblock print in the manner of the 1920s-30s revival: flat layered areas of colour, visible woodgrain in the flat passages, softly gradated sky (bokashi), Western perspective and cast light held inside Japanese printmaking. Everything in the scene is drawn as part of the print, in the same flat woodblock manner, never photographic. Calm, dreamlike and hushed. Strong clear difference between the light and dark masses so the image still reads when reduced to a thumbnail. No text, no signature, no seal stamp, no lettering of any kind. No modern objects: no power lines, no cars, no trucks, no plastic. Wide 16:9 landscape. Exposed so that texture is clearly visible everywhere. Shadows are lifted and open, full of visible detail, nothing crushed to pure black. High dynamic range, rich texture even in the darkest areas.",
+      "prompt_verbatim": true,
+      "generation_completed_at": "2026-11-04T08:34:34.988Z",
+      "regeneration_count": 4,
+      "selected_attempt": 5,
+      "attempts": [
+        {
+          "attempt": 1,
+          "started_at": "2026-11-04T08:20:27.234Z",
+          "completed_at": "2026-11-04T08:21:10.960Z",
+          "source_path": "/Users/ryo/.codex/generated_images/01a1a5a3-4dfe-7b22-8a88-0bb2b99685dd/exec-f11f7151-df98-4025-b2eb-0f23cbade6ee.png",
+          "original_path": "画像/生成直後/rdg03_02_attempt01.png",
+          "accepted": false,
+          "rejection_reason": "店内の本の背表紙に文字状の模様を拡大確認したため。",
+          "sha256": "af9fac0c72a2a01dca0000c1a4af3a652dc4246961e2e78d225d39ddd84e323c",
+          "dimensions": [
+            1672,
+            941
+          ],
+          "bytes": 3614952,
+          "metrics": {
+            "mean_luminance": 91.40646744873366,
+            "luminance_below_16_ratio": 6.610091066716157e-05,
+            "luminance_below_16_percent": 0.006610091066716157
+          }
+        },
+        {
+          "attempt": 2,
+          "started_at": "2026-11-04T08:29:25.983Z",
+          "completed_at": "2026-11-04T08:30:09.539Z",
+          "source_path": "/Users/ryo/.codex/generated_images/01a1a5a3-4dfe-7b22-8a88-0bb2b99685dd/exec-0a77fa9c-4c64-47ab-979e-aa056159ed3d.png",
+          "original_path": "画像/生成直後/rdg03_02_attempt02.png",
+          "accepted": false,
+          "rejection_reason": "店内の本の背表紙に文字状の模様を拡大確認したため。",
+          "sha256": "4b64e44f53128e5dedbafe097c944daa5e602d6500aae0224d741325c0e5c5f1",
+          "dimensions": [
+            1672,
+            941
+          ],
+          "bytes": 3709609,
+          "metrics": {
+            "mean_luminance": 90.83507900139318,
+            "luminance_below_16_ratio": 0.0004372829474904535,
+            "luminance_below_16_percent": 0.04372829474904535
+          }
+        },
+        {
+          "attempt": 3,
+          "started_at": "2026-11-04T08:30:36.777Z",
+          "completed_at": "2026-11-04T08:31:21.296Z",
+          "source_path": "/Users/ryo/.codex/generated_images/01a1a5a3-4dfe-7b22-8a88-0bb2b99685dd/exec-1831da8e-81d0-4838-b5da-47e11d393b54.png",
+          "original_path": "画像/生成直後/rdg03_02_attempt03.png",
+          "accepted": false,
+          "rejection_reason": "店内の本の背表紙に文字状の模様を拡大確認したため。",
+          "sha256": "cc01fce0cf10d4285f3b551dbf719c5b48058cfaef0f9567bf422f182bffbaf3",
+          "dimensions": [
+            1672,
+            941
+          ],
+          "bytes": 3848906,
+          "metrics": {
+            "mean_luminance": 96.53688676659766,
+            "luminance_below_16_ratio": 0.00017859957593723463,
+            "luminance_below_16_percent": 0.017859957593723462
+          }
+        },
+        {
+          "attempt": 4,
+          "started_at": "2026-11-04T08:32:33.259Z",
+          "completed_at": "2026-11-04T08:33:16.676Z",
+          "source_path": "/Users/ryo/.codex/generated_images/01a1a5a3-4dfe-7b22-8a88-0bb2b99685dd/exec-adbe59ac-3f90-46a4-84a5-0517c1f3a30e.png",
+          "original_path": "画像/生成直後/rdg03_02_attempt04.png",
+          "accepted": false,
+          "rejection_reason": "店内の本の背表紙に文字状の模様を拡大確認したため。",
+          "sha256": "8200c6baefdd44518ac727dba730edd215c0591587bbc73264a0cf40111e915a",
+          "dimensions": [
+            1672,
+            941
+          ],
+          "bytes": 3646564,
+          "metrics": {
+            "mean_luminance": 89.8122704734859,
+            "luminance_below_16_ratio": 9.15243378468391e-05,
+            "luminance_below_16_percent": 0.00915243378468391
+          }
+        },
+        {
+          "attempt": 5,
+          "started_at": "2026-11-04T08:33:50.785Z",
+          "completed_at": "2026-11-04T08:34:34.988Z",
+          "source_path": "/Users/ryo/.codex/generated_images/01a1a5a3-4dfe-7b22-8a88-0bb2b99685dd/exec-9f52662d-c3df-4799-bb83-067f69189b10.png",
+          "original_path": "画像/生成直後/rdg03_02_attempt05.png",
+          "accepted": true,
+          "rejection_reason": null,
+          "sha256": "4d4cafc56adbb8995efaf247298c5f016c8b8f0b0d2cbdf91ffab35071c50568",
+          "dimensions": [
+            1672,
+            941
+          ],
+          "bytes": 3646670,
+          "metrics": {
+            "mean_luminance": 84.19022311320035,
+            "luminance_below_16_ratio": 0.0019309092942965084,
+            "luminance_below_16_percent": 0.19309092942965084
+          }
+        }
+      ],
+      "visual_check": {
+        "status": "passed",
+        "method": "生成原本全体を目視確認。02の店舗内・11の機関車を追加拡大確認。",
+        "notes": "枝葉と小灯で飾られた街灯、軒下の葉の球、遠方の石橋を確認。和風の祭り提灯・鳥居なし。店舗内を拡大確認し、本の背表紙は罫線・無地の装飾で、文字は認めず。 人物・人影・顔・手・指定外の動物・猫・文字・署名・印・禁止された現代物は目視で認めず。"
+      },
+      "original_path": "画像/生成直後/rdg03_02_attempt05.png",
+      "prompt_sha256": "78c27982c9cbde91915481bcf2d473dc94b6a6c33e147faacc6d5878cd28f4b6",
+      "generation_completed_at_jst": "2026-11-04T17:34:34.988000+09:00",
+      "source_crop_box_xyxy": [
+        0,
+        0.25,
+        1672,
+        940.75
+      ],
+      "dimensions": [
+        1920,
+        1080
+      ],
+      "sha256": "5a4982c7e1d0194e74ad35c5bbc527bd406ed9b83da4189d55306e6155d2ff48",
+      "bytes": 4104744,
+      "metrics": {
+        "mean_luminance": 84.19464790432099,
+        "luminance_below_16_ratio": 0.0020611496913580246,
+        "luminance_below_16_percent": 0.20611496913580246
+      }
+    },
+    {
+      "id": "rdg03_03",
+      "role": "main_video",
+      "path": "画像/rdg03_03.png",
+      "prompt": "The top of a dark grassy hill at night, reached through black pine and oak woods. At the summit stands one slender, plain, weathered stone pillar with a small wheel at its top, standing alone. Beyond it the ground falls away, and the small lights of a far town lie in the valley like a handful of sparks. Overhead the sky opens wide, and the Milky Way runs across it from south to north, pale and soft, the brightest mass in the image. The grass is moved by a night wind, with a few small flowers glinting with dew. Colours: deep indigo, blue-black pines, silver-white Milky Way, tiny warm town lights. No people, no figures, no silhouettes of people, no faces, no hands, no animals except those named above, no cats. Japanese shin-hanga woodblock print in the manner of the 1920s-30s revival: flat layered areas of colour, visible woodgrain in the flat passages, softly gradated sky (bokashi), Western perspective and cast light held inside Japanese printmaking. Everything in the scene is drawn as part of the print, in the same flat woodblock manner, never photographic. Calm, dreamlike and hushed. Strong clear difference between the light and dark masses so the image still reads when reduced to a thumbnail. No text, no signature, no seal stamp, no lettering of any kind. No modern objects: no power lines, no cars, no trucks, no plastic. Wide 16:9 landscape. Exposed so that texture is clearly visible everywhere. Shadows are lifted and open, full of visible detail, nothing crushed to pure black. High dynamic range, rich texture even in the darkest areas.",
+      "prompt_verbatim": true,
+      "generation_completed_at": "2026-11-04T08:22:01.847Z",
+      "regeneration_count": 0,
+      "selected_attempt": 1,
+      "attempts": [
+        {
+          "attempt": 1,
+          "started_at": "2026-11-04T08:21:28.283Z",
+          "completed_at": "2026-11-04T08:22:01.847Z",
+          "source_path": "/Users/ryo/.codex/generated_images/01a1a5a3-4dfe-7b22-8a88-0bb2b99685dd/exec-f2782539-d73d-4053-9776-33dd6c1aeb76.png",
+          "original_path": "画像/生成直後/rdg03_03_attempt01.png",
+          "accepted": true,
+          "rejection_reason": null,
+          "sha256": "a70b60eba15dd5ba685ad02b3e86cff66bf6a78222b846c20adde7e898ad3ef6",
+          "dimensions": [
+            1672,
+            941
+          ],
+          "bytes": 3378464,
+          "metrics": {
+            "mean_luminance": 91.13241878613304,
+            "luminance_below_16_ratio": 4.449099756443567e-06,
+            "luminance_below_16_percent": 0.0004449099756443567
+          }
+        }
+      ],
+      "visual_check": {
+        "status": "passed",
+        "method": "生成原本全体を目視確認。02の店舗内・11の機関車を追加拡大確認。",
+        "notes": "輪を載せた細い石柱1本、丘、銀河、谷の町灯りを確認。 人物・人影・顔・手・指定外の動物・猫・文字・署名・印・禁止された現代物は目視で認めず。"
+      },
+      "original_path": "画像/生成直後/rdg03_03_attempt01.png",
+      "prompt_sha256": "06da7b87cb1593a96cd259a488edda3175bc9c3bf274e7f269e555f07915daf8",
+      "generation_completed_at_jst": "2026-11-04T17:22:01.847000+09:00",
+      "source_crop_box_xyxy": [
+        0,
+        0.25,
+        1672,
+        940.75
+      ],
+      "dimensions": [
+        1920,
+        1080
+      ],
+      "sha256": "aefaa13be4621bf544a894a31bba24b6f11dd9fa7edc88906502f8ef5ec549de",
+      "bytes": 3905630,
+      "metrics": {
+        "mean_luminance": 91.13798359722222,
+        "luminance_below_16_ratio": 1.109182098765432e-05,
+        "luminance_below_16_percent": 0.001109182098765432
+      }
+    },
+    {
+      "id": "rdg03_04",
+      "role": "main_video",
+      "path": "画像/rdg03_04.png",
+      "prompt": "Inside an empty railway carriage of about 1920 at night, looking toward its window. Seats of deep blue velvet run along the sides, the wall is mouse-grey varnished wood with two large brass buttons, and small yellow lamps glow overhead. Through the wide window, the river of the Milky Way flows past: a clear pale blue-white stream of light without visible water, with silver grass waving along its bank, and small glowing triangular survey markers standing in the plain, some blue-white, some orange. Colours: deep blue velvet, grey wood, small warm yellow lamps, pale silver-blue outside. The carriage is empty. No people, no figures, no silhouettes of people, no faces, no hands, no animals except those named above, no cats. Japanese shin-hanga woodblock print in the manner of the 1920s-30s revival: flat layered areas of colour, visible woodgrain in the flat passages, softly gradated sky (bokashi), Western perspective and cast light held inside Japanese printmaking. Everything in the scene is drawn as part of the print, in the same flat woodblock manner, never photographic. Calm, dreamlike and hushed. Strong clear difference between the light and dark masses so the image still reads when reduced to a thumbnail. No text, no signature, no seal stamp, no lettering of any kind. No modern objects: no power lines, no cars, no trucks, no plastic. Wide 16:9 landscape. Exposed so that texture is clearly visible everywhere. Shadows are lifted and open, full of visible detail, nothing crushed to pure black. High dynamic range, rich texture even in the darkest areas.",
+      "prompt_verbatim": true,
+      "generation_completed_at": "2026-11-04T08:22:42.638Z",
+      "regeneration_count": 0,
+      "selected_attempt": 1,
+      "attempts": [
+        {
+          "attempt": 1,
+          "started_at": "2026-11-04T08:22:16.873Z",
+          "completed_at": "2026-11-04T08:22:42.638Z",
+          "source_path": "/Users/ryo/.codex/generated_images/01a1a5a3-4dfe-7b22-8a88-0bb2b99685dd/exec-c3c6c365-c11a-4831-91e3-401d85d09873.png",
+          "original_path": "画像/生成直後/rdg03_04_attempt01.png",
+          "accepted": true,
+          "rejection_reason": null,
+          "sha256": "0070b695114fb6d670db656fac854116f1ea119792cd5099dcebd2e946f9eb8c",
+          "dimensions": [
+            1672,
+            941
+          ],
+          "bytes": 3519370,
+          "metrics": {
+            "mean_luminance": 94.94130121384153,
+            "luminance_below_16_ratio": 0.0001347441640522909,
+            "luminance_below_16_percent": 0.013474416405229091
+          }
+        }
+      ],
+      "visual_check": {
+        "status": "passed",
+        "method": "生成原本全体を目視確認。02の店舗内・11の機関車を追加拡大確認。",
+        "notes": "無人の車内、青い座席、真鍮ボタン2個、暖色灯、車窓の銀河と三角標を確認。 人物・人影・顔・手・指定外の動物・猫・文字・署名・印・禁止された現代物は目視で認めず。"
+      },
+      "original_path": "画像/生成直後/rdg03_04_attempt01.png",
+      "prompt_sha256": "0120c12f3441115280839da68f14a093840347d0676860f9aba2fd20d5b811b4",
+      "generation_completed_at_jst": "2026-11-04T17:22:42.638000+09:00",
+      "source_crop_box_xyxy": [
+        0,
+        0.25,
+        1672,
+        940.75
+      ],
+      "dimensions": [
+        1920,
+        1080
+      ],
+      "sha256": "aa693475ddf8a8a0afac89e65c12ae4aa2c0023e7d1c32a49df56b1961934cb4",
+      "bytes": 3942149,
+      "metrics": {
+        "mean_luminance": 94.93619150125386,
+        "luminance_below_16_ratio": 0.00014515817901234569,
+        "luminance_below_16_percent": 0.014515817901234568
+      }
+    },
+    {
+      "id": "rdg03_05",
+      "role": "main_video",
+      "path": "画像/rdg03_05.png",
+      "prompt": "A shore on the bank of the Milky Way at night. In the foreground stretches a flat white rock shore, its sand made of tiny clear crystals that glint softly, with a few dark fossil walnuts lying on it. The river beyond is a sheet of clear, silent, pale light. In the middle of the river stands a small flat island, and on its top a tall pure white cross stands alone, shining quietly with a cold pale halo, as if frozen from the northern clouds. The sky is deep indigo, thick with stars. Colours: deep indigo, chalk white, pale silver-blue, the white cross clearly the brightest shape. This is not a graveyard and not a church; only the single cross. No people, no figures, no silhouettes of people, no faces, no hands, no animals except those named above, no cats. Japanese shin-hanga woodblock print in the manner of the 1920s-30s revival: flat layered areas of colour, visible woodgrain in the flat passages, softly gradated sky (bokashi), Western perspective and cast light held inside Japanese printmaking. Everything in the scene is drawn as part of the print, in the same flat woodblock manner, never photographic. Calm, dreamlike and hushed. Strong clear difference between the light and dark masses so the image still reads when reduced to a thumbnail. No text, no signature, no seal stamp, no lettering of any kind. No modern objects: no power lines, no cars, no trucks, no plastic. Wide 16:9 landscape. Exposed so that texture is clearly visible everywhere. Shadows are lifted and open, full of visible detail, nothing crushed to pure black. High dynamic range, rich texture even in the darkest areas.",
+      "prompt_verbatim": true,
+      "generation_completed_at": "2026-11-04T08:23:24.151Z",
+      "regeneration_count": 0,
+      "selected_attempt": 1,
+      "attempts": [
+        {
+          "attempt": 1,
+          "started_at": "2026-11-04T08:22:54.831Z",
+          "completed_at": "2026-11-04T08:23:24.151Z",
+          "source_path": "/Users/ryo/.codex/generated_images/01a1a5a3-4dfe-7b22-8a88-0bb2b99685dd/exec-61729f2b-90e3-49e8-807b-c32def5639c9.png",
+          "original_path": "画像/生成直後/rdg03_05_attempt01.png",
+          "accepted": true,
+          "rejection_reason": null,
+          "sha256": "755342dc8576e7227c8425c8e7b6d74d7d561588ac2a897170eaca4fb4ff6117",
+          "dimensions": [
+            1672,
+            941
+          ],
+          "bytes": 3430730,
+          "metrics": {
+            "mean_luminance": 119.80832814792876,
+            "luminance_below_16_ratio": 0.0003457586096436144,
+            "luminance_below_16_percent": 0.03457586096436144
+          }
+        }
+      ],
+      "visual_check": {
+        "status": "passed",
+        "method": "生成原本全体を目視確認。02の店舗内・11の機関車を追加拡大確認。",
+        "notes": "白い岩岸と結晶、化石の胡桃、小島に立つ白い十字架1本を確認。墓地・教会なし。 人物・人影・顔・手・指定外の動物・猫・文字・署名・印・禁止された現代物は目視で認めず。"
+      },
+      "original_path": "画像/生成直後/rdg03_05_attempt01.png",
+      "prompt_sha256": "d400d0456b06898081c062550a6e4c67693efcaa63fe3fad6dc00b5a98aa8680",
+      "generation_completed_at_jst": "2026-11-04T17:23:24.151000+09:00",
+      "source_crop_box_xyxy": [
+        0,
+        0.25,
+        1672,
+        940.75
+      ],
+      "dimensions": [
+        1920,
+        1080
+      ],
+      "sha256": "6edffd0776e4d6b810421414175b3b23466714b8c8544b0118d3f120a8f476d2",
+      "bytes": 3848959,
+      "metrics": {
+        "mean_luminance": 119.80596170717591,
+        "luminance_below_16_ratio": 0.00044656635802469135,
+        "luminance_below_16_percent": 0.04465663580246913
+      }
+    },
+    {
+      "id": "rdg03_06",
+      "role": "main_video",
+      "path": "画像/露出前/rdg03_06.png",
+      "prompt": "A wide riverbank deep in the night, drawn as a true night scene and not as a darkened daytime scene. The sky is a deep clear indigo, thick with small stars, with the Milky Way a soft pale band along the right. Countless white herons descend from the high dark sky with folded black legs, falling gently like a fall of snow, thick above and sparser near the ground; each bird is a small clean shape of glowing white, clearly the brightest things in the image, standing out strongly against the dark sky. A few have settled on the dark grey-blue sand and are fading softly into it. The river of light along the right is dim silver. A long low line of near-black silver grass lies at the far side. Colours: deep indigo, blue-black sand, many small glowing white birds, dim silver river. Most of the image is dark. Herons are the only living things in the image. No people, no figures, no silhouettes of people, no faces, no hands, no animals except those named above, no cats. Japanese shin-hanga woodblock print in the manner of the 1920s-30s revival: flat layered areas of colour, visible woodgrain in the flat passages, softly gradated sky (bokashi), Western perspective and cast light held inside Japanese printmaking. Everything in the scene is drawn as part of the print, in the same flat woodblock manner, never photographic. Calm, dreamlike and hushed. Strong clear difference between the light and dark masses so the image still reads when reduced to a thumbnail. No text, no signature, no seal stamp, no lettering of any kind. No modern objects: no power lines, no cars, no trucks, no plastic. Wide 16:9 landscape. Exposed so that texture is clearly visible everywhere. Shadows are lifted and open, full of visible detail, nothing crushed to pure black. High dynamic range, rich texture even in the darkest areas.\n",
+      "prompt_verbatim": true,
+      "generation_completed_at": "2026-11-04T08:39:24.999Z",
+      "regeneration_count": 0,
+      "selected_attempt": 1,
+      "attempts": [
+        {
+          "attempt": 1,
+          "started_at": "2026-11-04T08:38:55.506Z",
+          "completed_at": "2026-11-04T08:39:24.999Z",
+          "source_path": "/Users/ryo/.codex/generated_images/01a1a5b5-7442-7c70-ad96-2a6bd7a40818/exec-e6872f95-e299-4ab1-a0b5-34706ba315dd.png",
+          "original_path": "画像/生成直後/rdg03_06_v2_attempt01.png",
+          "accepted": true,
+          "rejection_reason": null,
+          "sha256": "4d576397e832449d0be4e308bbb9eefb245e38f39064e693fa286265d411ad8e",
+          "dimensions": [
+            1672,
+            941
+          ],
+          "bytes": 3243039,
+          "metrics": {
+            "mean_luminance": 67.33508935203312,
+            "luminance_below_16_ratio": 0.000545968098683575,
+            "luminance_below_16_percent": 0.05459680986835749
+          }
+        }
+      ],
+      "visual_check": {
+        "status": "passed",
+        "method": "生成原本全体を目視確認。納品版も保存後に確認。",
+        "notes": "深い藍色の星空と、空に対して明るく際立つ白い鷺を確認。青黒い河原、右側の銀色の川、遠岸の草を確認。人物・人影・猫・文字・署名・印は目視で認めず。"
+      },
+      "original_path": "画像/生成直後/rdg03_06_v2_attempt01.png",
+      "prompt_sha256": "50c0d41ad52dd9b57727fbbcf37ea28d0fa19e4156c89011f3f5d52e1939268f",
+      "generation_completed_at_jst": "2026-11-04T17:39:24.999000+09:00",
+      "source_crop_box_xyxy": [
+        0,
+        0.25,
+        1672,
+        940.75
+      ],
+      "dimensions": [
+        1920,
+        1080
+      ],
+      "sha256": "5d67fea8aa1be7e34b156b694310f621a7a3840f109fa1c72381abb9fdffc690",
+      "bytes": 3761083,
+      "metrics": {
+        "mean_luminance": 67.33600022309028,
+        "luminance_below_16_ratio": 0.0007865547839506173,
+        "luminance_below_16_percent": 0.07865547839506173
+      },
+      "version": 2,
+      "prompt_source": "画像プロンプト/06_鷺の降る河原.txt",
+      "generation_call_count": 1,
+      "exposure_correction": false,
+      "color_or_contrast_adjustment": false,
+      "processing": {
+        "target_size": [
+          1920,
+          1080
+        ],
+        "aspect_ratio": "16:9",
+        "method": "Pillow ImageOps.fit, centered minimal aspect-ratio crop and LANCZOS resampling",
+        "exposure_correction": false,
+        "color_or_contrast_adjustment": false,
+        "note": "原本はバイト同一コピーで保存。納品版はサイズ・縦横比の整形だけ。シャープ処理・描き足し・消去なし。"
+      },
+      "revision_reason": "前回は昼のように明るく、暗く補正すると泥色にくすむため、夜景用に書き直された指定プロンプト全文で再生成。",
+      "revision_note": "v2で生成1回、再試行0回。画像/rdg03_06.pngは変更せず、露出前の納品版だけを上書き。",
+      "previous_versions": [
+        {
+          "id": "rdg03_06",
+          "role": "main_video",
+          "path": "画像/rdg03_06.png",
+          "prompt": "A wide pale riverbank under a soft, strange blue-ivory glow in the night sky. Countless white herons descend from the high sky with folded black legs, falling gently like a fall of snow, thick above and sparser near the ground; some are already settling on the sand and fading softly into it. The river of light runs along the right. A long low line of dark silver grass lies at the far side. Colours: deep blue-ivory sky, many soft white birds, pale sand, dark silver grass. Herons are the only living things in the image. No people, no figures, no silhouettes of people, no faces, no hands, no animals except those named above, no cats. Japanese shin-hanga woodblock print in the manner of the 1920s-30s revival: flat layered areas of colour, visible woodgrain in the flat passages, softly gradated sky (bokashi), Western perspective and cast light held inside Japanese printmaking. Everything in the scene is drawn as part of the print, in the same flat woodblock manner, never photographic. Calm, dreamlike and hushed. Strong clear difference between the light and dark masses so the image still reads when reduced to a thumbnail. No text, no signature, no seal stamp, no lettering of any kind. No modern objects: no power lines, no cars, no trucks, no plastic. Wide 16:9 landscape. Exposed so that texture is clearly visible everywhere. Shadows are lifted and open, full of visible detail, nothing crushed to pure black. High dynamic range, rich texture even in the darkest areas.",
+          "prompt_verbatim": true,
+          "generation_completed_at": "2026-11-04T08:24:15.862Z",
+          "regeneration_count": 0,
+          "selected_attempt": 1,
+          "attempts": [
+            {
+              "attempt": 1,
+              "started_at": "2026-11-04T08:23:37.388Z",
+              "completed_at": "2026-11-04T08:24:15.862Z",
+              "source_path": "/Users/ryo/.codex/generated_images/01a1a5a3-4dfe-7b22-8a88-0bb2b99685dd/exec-aaa5d9e5-6a62-4a76-ba8f-9bb58904d14c.png",
+              "original_path": "画像/生成直後/rdg03_06_attempt01.png",
+              "accepted": true,
+              "rejection_reason": null,
+              "sha256": "c570fbcb414dcf2f1846c6a79d5126c3bb063f08dc80d4997524c7d4b08e6d01",
+              "dimensions": [
+                1672,
+                941
+              ],
+              "bytes": 3395473,
+              "metrics": {
+                "mean_luminance": 156.48206682763933,
+                "luminance_below_16_ratio": 0.0,
+                "luminance_below_16_percent": 0.0
+              }
+            }
+          ],
+          "visual_check": {
+            "status": "passed",
+            "method": "生成原本全体を目視確認。02の店舗内・11の機関車を追加拡大確認。",
+            "notes": "白い鷺の群れが降る河原、右側の光の川を確認。動物は指定の鷺のみ。 人物・人影・顔・手・指定外の動物・猫・文字・署名・印・禁止された現代物は目視で認めず。"
+          },
+          "original_path": "画像/生成直後/rdg03_06_attempt01.png",
+          "prompt_sha256": "5fbcd5d89afd3bb561f5328346eb72939924ee5bd6f06673da65895037ea4b24",
+          "generation_completed_at_jst": "2026-11-04T17:24:15.862000+09:00",
+          "source_crop_box_xyxy": [
+            0,
+            0.25,
+            1672,
+            940.75
+          ],
+          "dimensions": [
+            1920,
+            1080
+          ],
+          "sha256": "a5261ba7ceffff9695c382daa10d1351dcd1e8c74af92390fe2fabb929f61b58",
+          "bytes": 3818841,
+          "metrics": {
+            "mean_luminance": 156.48255122472992,
+            "luminance_below_16_ratio": 0.0,
+            "luminance_below_16_percent": 0.0
+          }
+        }
+      ]
+    },
+    {
+      "id": "rdg03_07",
+      "role": "main_video",
+      "path": "画像/rdg03_07.png",
+      "prompt": "Inside the same empty railway carriage at night, close to a window seat. On the deep blue velvet seat rest two or three large apples, gold and crimson, clearly glowing as if holding their own soft light, the warmest and brightest objects in the image. On the window sill lies a small folded sheet of pale green paper. Through the window, a far away lighthouse sends one thin ray across a dark plain, and a thin line of pale ice-blue mist hangs on the horizon. The small yellow lamps glow overhead. Colours: deep blue velvet, gold and crimson apples, grey wood, cool blue-black night outside. The carriage is empty. No people, no figures, no silhouettes of people, no faces, no hands, no animals except those named above, no cats. Japanese shin-hanga woodblock print in the manner of the 1920s-30s revival: flat layered areas of colour, visible woodgrain in the flat passages, softly gradated sky (bokashi), Western perspective and cast light held inside Japanese printmaking. Everything in the scene is drawn as part of the print, in the same flat woodblock manner, never photographic. Calm, dreamlike and hushed. Strong clear difference between the light and dark masses so the image still reads when reduced to a thumbnail. No text, no signature, no seal stamp, no lettering of any kind. No modern objects: no power lines, no cars, no trucks, no plastic. Wide 16:9 landscape. Exposed so that texture is clearly visible everywhere. Shadows are lifted and open, full of visible detail, nothing crushed to pure black. High dynamic range, rich texture even in the darkest areas.",
+      "prompt_verbatim": true,
+      "generation_completed_at": "2026-11-04T08:25:22.128Z",
+      "regeneration_count": 0,
+      "selected_attempt": 1,
+      "attempts": [
+        {
+          "attempt": 1,
+          "started_at": "2026-11-04T08:24:46.608Z",
+          "completed_at": "2026-11-04T08:25:22.128Z",
+          "source_path": "/Users/ryo/.codex/generated_images/01a1a5a3-4dfe-7b22-8a88-0bb2b99685dd/exec-776f21e2-4f18-48ba-92f8-ef34d5741b02.png",
+          "original_path": "画像/生成直後/rdg03_07_attempt01.png",
+          "accepted": true,
+          "rejection_reason": null,
+          "sha256": "9bf1a76e6cf796e8865256412356bcd270874757c6a077ac42cdf1c1b13aeee2",
+          "dimensions": [
+            1672,
+            941
+          ],
+          "bytes": 3300166,
+          "metrics": {
+            "mean_luminance": 85.13278266884969,
+            "luminance_below_16_ratio": 2.4152255820693654e-05,
+            "luminance_below_16_percent": 0.0024152255820693654
+          }
+        }
+      ],
+      "visual_check": {
+        "status": "passed",
+        "method": "生成原本全体を目視確認。02の店舗内・11の機関車を追加拡大確認。",
+        "notes": "無人の車内、光る苹果3個、無地の薄緑の折り紙、窓外の灯台を確認。 人物・人影・顔・手・指定外の動物・猫・文字・署名・印・禁止された現代物は目視で認めず。"
+      },
+      "original_path": "画像/生成直後/rdg03_07_attempt01.png",
+      "prompt_sha256": "a633bffb6f489d7242da224aea7f3dbfe1bec740962601e242d6da917bbffe8f",
+      "generation_completed_at_jst": "2026-11-04T17:25:22.128000+09:00",
+      "source_crop_box_xyxy": [
+        0,
+        0.25,
+        1672,
+        940.75
+      ],
+      "dimensions": [
+        1920,
+        1080
+      ],
+      "sha256": "af27791520fffdc4e88afca24df33e5c41c7dc17a026dfeb231bd77f08047556",
+      "bytes": 3753470,
+      "metrics": {
+        "mean_luminance": 85.13263418074845,
+        "luminance_below_16_ratio": 4.099151234567901e-05,
+        "luminance_below_16_percent": 0.004099151234567901
+      }
+    },
+    {
+      "id": "rdg03_08",
+      "role": "main_video",
+      "path": "画像/rdg03_08.png",
+      "prompt": "A vast night plain beside the Milky Way, seen as if from a passing train. In the middle distance on the left stands a dark round forest island above the river, with a soft blue-white shimmer flickering above it like a peacock opening its fan. Far off to the right, low over the horizon, one small fire burns quietly in the dark without smoke, deep ruby red and very clear, reflected in the still river of light. A few glowing triangular survey markers stand across the plain. Colours: deep blue-black, emerald-dark forest, blue-white shimmer, one clear ruby-red fire. Do not draw a scorpion, a bird or flames spreading; only the small steady fire. No people, no figures, no silhouettes of people, no faces, no hands, no animals except those named above, no cats. Japanese shin-hanga woodblock print in the manner of the 1920s-30s revival: flat layered areas of colour, visible woodgrain in the flat passages, softly gradated sky (bokashi), Western perspective and cast light held inside Japanese printmaking. Everything in the scene is drawn as part of the print, in the same flat woodblock manner, never photographic. Calm, dreamlike and hushed. Strong clear difference between the light and dark masses so the image still reads when reduced to a thumbnail. No text, no signature, no seal stamp, no lettering of any kind. No modern objects: no power lines, no cars, no trucks, no plastic. Wide 16:9 landscape. Exposed so that texture is clearly visible everywhere. Shadows are lifted and open, full of visible detail, nothing crushed to pure black. High dynamic range, rich texture even in the darkest areas.",
+      "prompt_verbatim": true,
+      "generation_completed_at": "2026-11-04T08:26:25.840Z",
+      "regeneration_count": 0,
+      "selected_attempt": 1,
+      "attempts": [
+        {
+          "attempt": 1,
+          "started_at": "2026-11-04T08:25:45.006Z",
+          "completed_at": "2026-11-04T08:26:25.840Z",
+          "source_path": "/Users/ryo/.codex/generated_images/01a1a5a3-4dfe-7b22-8a88-0bb2b99685dd/exec-5f4fc5c2-ca1a-4f51-a7a4-8e658bce9020.png",
+          "original_path": "画像/生成直後/rdg03_08_attempt01.png",
+          "accepted": true,
+          "rejection_reason": null,
+          "sha256": "eb255246dcab17539d4e65c6c41fcdbef413b9c4b962e5915f8e4dd5ed5f0a48",
+          "dimensions": [
+            1672,
+            941
+          ],
+          "bytes": 3664418,
+          "metrics": {
+            "mean_luminance": 97.06384191064683,
+            "luminance_below_16_ratio": 3.686396941053242e-05,
+            "luminance_below_16_percent": 0.003686396941053242
+          }
+        }
+      ],
+      "visual_check": {
+        "status": "passed",
+        "method": "生成原本全体を目視確認。02の店舗内・11の機関車を追加拡大確認。",
+        "notes": "左の森の上に扇状の青白い光、右遠方に小さな赤い火と水面の反射、三角標を確認。鳥の胴体・蝎・煙・延焼なし。 人物・人影・顔・手・指定外の動物・猫・文字・署名・印・禁止された現代物は目視で認めず。"
+      },
+      "original_path": "画像/生成直後/rdg03_08_attempt01.png",
+      "prompt_sha256": "78df51fcc625bf3fa62b5ac3a226b1e936153c712fdbeb18e77fb351578cdc2a",
+      "generation_completed_at_jst": "2026-11-04T17:26:25.840000+09:00",
+      "source_crop_box_xyxy": [
+        0,
+        0.25,
+        1672,
+        940.75
+      ],
+      "dimensions": [
+        1920,
+        1080
+      ],
+      "sha256": "6e351a2910e50935be2353a8294f79d55ef2118c9508347425a356eefae07843",
+      "bytes": 4071553,
+      "metrics": {
+        "mean_luminance": 97.07013887548226,
+        "luminance_below_16_ratio": 4.3885030864197534e-05,
+        "luminance_below_16_percent": 0.0043885030864197535
+      }
+    },
+    {
+      "id": "rdg03_09",
+      "role": "main_video",
+      "path": "画像/rdg03_09.png",
+      "prompt": "Far down the Milky Way, a great cross of many coloured lights stands up from the river like a single tree, jewelled with blue, orange and every soft colour, with a pale ring of cloud slowly circling above it like a halo. To the left in the sky, right beside the river of stars, is a great dark hole in the Milky Way, a soft-edged deep black-blue void with no stars inside it, the darkest area of the image but still showing texture at its edges. The river below is silent and pale. Colours: deep indigo, jewelled blue and orange, pale ring of cloud, one deep soft void. No people kneeling, no church. No people, no figures, no silhouettes of people, no faces, no hands, no animals except those named above, no cats. Japanese shin-hanga woodblock print in the manner of the 1920s-30s revival: flat layered areas of colour, visible woodgrain in the flat passages, softly gradated sky (bokashi), Western perspective and cast light held inside Japanese printmaking. Everything in the scene is drawn as part of the print, in the same flat woodblock manner, never photographic. Calm, dreamlike and hushed. Strong clear difference between the light and dark masses so the image still reads when reduced to a thumbnail. No text, no signature, no seal stamp, no lettering of any kind. No modern objects: no power lines, no cars, no trucks, no plastic. Wide 16:9 landscape. Exposed so that texture is clearly visible everywhere. Shadows are lifted and open, full of visible detail, nothing crushed to pure black. High dynamic range, rich texture even in the darkest areas.",
+      "prompt_verbatim": true,
+      "generation_completed_at": "2026-11-04T08:27:18.989Z",
+      "regeneration_count": 0,
+      "selected_attempt": 1,
+      "attempts": [
+        {
+          "attempt": 1,
+          "started_at": "2026-11-04T08:26:51.594Z",
+          "completed_at": "2026-11-04T08:27:18.989Z",
+          "source_path": "/Users/ryo/.codex/generated_images/01a1a5a3-4dfe-7b22-8a88-0bb2b99685dd/exec-6dd0bf3e-3291-45b4-a799-f5d6ae8ac69d.png",
+          "original_path": "画像/生成直後/rdg03_09_attempt01.png",
+          "accepted": true,
+          "rejection_reason": null,
+          "sha256": "513ff76f551bb9d6abf3e1202b4570b7601b66ce8dda562479eab22c60d7b952",
+          "dimensions": [
+            1672,
+            941
+          ],
+          "bytes": 3482014,
+          "metrics": {
+            "mean_luminance": 112.578502571961,
+            "luminance_below_16_ratio": 1.9703156064250086e-05,
+            "luminance_below_16_percent": 0.0019703156064250086
+          }
+        }
+      ],
+      "visual_check": {
+        "status": "passed",
+        "method": "生成原本全体を目視確認。02の店舗内・11の機関車を追加拡大確認。",
+        "notes": "多色の光の十字架と輪状の雲、左の空に星のない暗い孔を確認。教会・跪く人物なし。 人物・人影・顔・手・指定外の動物・猫・文字・署名・印・禁止された現代物は目視で認めず。"
+      },
+      "original_path": "画像/生成直後/rdg03_09_attempt01.png",
+      "prompt_sha256": "a3370756b5cc0c584c3f13cd61836ff8210fe2793f7c598c31e500f5dc03f35e",
+      "generation_completed_at_jst": "2026-11-04T17:27:18.989000+09:00",
+      "source_crop_box_xyxy": [
+        0,
+        0.25,
+        1672,
+        940.75
+      ],
+      "dimensions": [
+        1920,
+        1080
+      ],
+      "sha256": "4186bc0f2874ca82e8e913e706664f65679e064d018ef7b72e0946a0e8126b74",
+      "bytes": 3951054,
+      "metrics": {
+        "mean_luminance": 112.58340277035107,
+        "luminance_below_16_ratio": 2.218364197530864e-05,
+        "luminance_below_16_percent": 0.002218364197530864
+      }
+    },
+    {
+      "id": "rdg03_10",
+      "role": "main_video",
+      "path": "画像/rdg03_10.png",
+      "prompt": "The real river below the small town, late at night, seen from the low bank. A dark bridge crosses in the middle distance with a few small lamps. Down river to the right, the water widens and the whole Milky Way is reflected in it so completely that it looks like sky with no water at all. A very few small blue lights drift far off on the water, nearly gone. Long dark grass in the foreground. The town lights are small and few behind the bridge. Colours: deep indigo, silver-white reflected Milky Way, black-green grass, a few small blue lights. Quiet, still and very gentle; the image is empty of people. No people, no figures, no silhouettes of people, no faces, no hands, no animals except those named above, no cats. Japanese shin-hanga woodblock print in the manner of the 1920s-30s revival: flat layered areas of colour, visible woodgrain in the flat passages, softly gradated sky (bokashi), Western perspective and cast light held inside Japanese printmaking. Everything in the scene is drawn as part of the print, in the same flat woodblock manner, never photographic. Calm, dreamlike and hushed. Strong clear difference between the light and dark masses so the image still reads when reduced to a thumbnail. No text, no signature, no seal stamp, no lettering of any kind. No modern objects: no power lines, no cars, no trucks, no plastic. Wide 16:9 landscape. Exposed so that texture is clearly visible everywhere. Shadows are lifted and open, full of visible detail, nothing crushed to pure black. High dynamic range, rich texture even in the darkest areas.",
+      "prompt_verbatim": true,
+      "generation_completed_at": "2026-11-04T08:28:08.013Z",
+      "regeneration_count": 0,
+      "selected_attempt": 1,
+      "attempts": [
+        {
+          "attempt": 1,
+          "started_at": "2026-11-04T08:27:34.526Z",
+          "completed_at": "2026-11-04T08:28:08.013Z",
+          "source_path": "/Users/ryo/.codex/generated_images/01a1a5a3-4dfe-7b22-8a88-0bb2b99685dd/exec-bd12e160-d03b-49f5-bc13-5ae925e756da.png",
+          "original_path": "画像/生成直後/rdg03_10_attempt01.png",
+          "accepted": true,
+          "rejection_reason": null,
+          "sha256": "c546906090059b761b84673e1298627c80f9c453c6c60e2b3e3d05e4150b91b8",
+          "dimensions": [
+            1672,
+            941
+          ],
+          "bytes": 3545387,
+          "metrics": {
+            "mean_luminance": 82.43697572304227,
+            "luminance_below_16_ratio": 2.6694598538661405e-05,
+            "luminance_below_16_percent": 0.0026694598538661404
+          }
+        }
+      ],
+      "visual_check": {
+        "status": "passed",
+        "method": "生成原本全体を目視確認。02の店舗内・11の機関車を追加拡大確認。",
+        "notes": "夜の川、橋、少数の町灯り、水面に広く映る銀河と小さな青い光を確認。 人物・人影・顔・手・指定外の動物・猫・文字・署名・印・禁止された現代物は目視で認めず。"
+      },
+      "original_path": "画像/生成直後/rdg03_10_attempt01.png",
+      "prompt_sha256": "5660e405645970b8c543b84fb094743667557197507b2bf6c303e5db5d0ebbdc",
+      "generation_completed_at_jst": "2026-11-04T17:28:08.013000+09:00",
+      "source_crop_box_xyxy": [
+        0,
+        0.25,
+        1672,
+        940.75
+      ],
+      "dimensions": [
+        1920,
+        1080
+      ],
+      "sha256": "a8b960e50c9b8248f347c91d2fa1b8a20e0b0d694b83dd59e98211e37dd33e06",
+      "bytes": 4017153,
+      "metrics": {
+        "mean_luminance": 82.44661673167438,
+        "luminance_below_16_ratio": 4.340277777777778e-05,
+        "luminance_below_16_percent": 0.004340277777777778
+      }
+    },
+    {
+      "id": "rdg03_11",
+      "role": "thumbnail_only",
+      "path": "画像/rdg03_11.png",
+      "prompt": "Composed for a thumbnail. The left third of the image is a calm, dark, simple area of deep indigo night sky with only a few small stars, with almost no detail that would compete with lettering placed over it. In the right two thirds, the Milky Way sweeps diagonally as a broad pale silver-white river of stars, and one small old steam train with a short line of carriages runs along it toward the upper right, its small windows glowing warm yellow, seen in clear silhouette, the warmest spot in the image. Strong contrast, so it still reads at the size of a postage stamp. The train runs on no visible rails, close above a thin line of silver grass at the bottom. Colours: deep indigo, silver-white stars, warm yellow windows, dark train. No people, no figures, no silhouettes of people, no faces, no hands, no animals except those named above, no cats. Japanese shin-hanga woodblock print in the manner of the 1920s-30s revival: flat layered areas of colour, visible woodgrain in the flat passages, softly gradated sky (bokashi), Western perspective and cast light held inside Japanese printmaking. Everything in the scene is drawn as part of the print, in the same flat woodblock manner, never photographic. Calm, dreamlike and hushed. Strong clear difference between the light and dark masses so the image still reads when reduced to a thumbnail. No text, no signature, no seal stamp, no lettering of any kind. No modern objects: no power lines, no cars, no trucks, no plastic. Wide 16:9 landscape. Exposed so that texture is clearly visible everywhere. Shadows are lifted and open, full of visible detail, nothing crushed to pure black. High dynamic range, rich texture even in the darkest areas.",
+      "prompt_verbatim": true,
+      "generation_completed_at": "2026-11-04T08:32:05.240Z",
+      "regeneration_count": 1,
+      "selected_attempt": 2,
+      "attempts": [
+        {
+          "attempt": 1,
+          "started_at": "2026-11-04T08:28:24.066Z",
+          "completed_at": "2026-11-04T08:28:48.109Z",
+          "source_path": "/Users/ryo/.codex/generated_images/01a1a5a3-4dfe-7b22-8a88-0bb2b99685dd/exec-06496e7c-6fb3-4c7b-9177-6d867c2f62ff.png",
+          "original_path": "画像/生成直後/rdg03_11_attempt01.png",
+          "accepted": false,
+          "rejection_reason": "機関車側面に文字状の模様を拡大確認したため。",
+          "sha256": "8c9cb6fe5458f36250aa10620a8984e36abb6ed326cc8884a74ccd41606e349c",
+          "dimensions": [
+            1672,
+            941
+          ],
+          "bytes": 3538868,
+          "metrics": {
+            "mean_luminance": 94.74373504377914,
+            "luminance_below_16_ratio": 3.8135140769516295e-06,
+            "luminance_below_16_percent": 0.00038135140769516294
+          }
+        },
+        {
+          "attempt": 2,
+          "started_at": "2026-11-04T08:31:42.852Z",
+          "completed_at": "2026-11-04T08:32:05.240Z",
+          "source_path": "/Users/ryo/.codex/generated_images/01a1a5a3-4dfe-7b22-8a88-0bb2b99685dd/exec-643070d8-43b7-4377-93cd-53447551edf7.png",
+          "original_path": "画像/生成直後/rdg03_11_attempt02.png",
+          "accepted": true,
+          "rejection_reason": null,
+          "sha256": "9153109c5fb8d5d4d7f79600905238b0567288f9e9334edf0817331a59afa661",
+          "dimensions": [
+            1672,
+            941
+          ],
+          "bytes": 3531832,
+          "metrics": {
+            "mean_luminance": 98.82366715966928,
+            "luminance_below_16_ratio": 0.0,
+            "luminance_below_16_percent": 0.0
+          }
+        }
+      ],
+      "visual_check": {
+        "status": "passed",
+        "method": "生成原本全体を目視確認。02の店舗内・11の機関車を追加拡大確認。",
+        "notes": "右上へ進む蒸気機関車と客車、暖かい窓灯、左1/3の暗い余白、下端の銀色の草を確認。可視のレールなし。汽車を拡大確認し、番号・文字・人物なし。 人物・人影・顔・手・指定外の動物・猫・文字・署名・印・禁止された現代物は目視で認めず。"
+      },
+      "original_path": "画像/生成直後/rdg03_11_attempt02.png",
+      "prompt_sha256": "d4aa7c913f863bc1c54d31a88b05eb6273da29a41d4b77b3f4c7fc5545a862d8",
+      "generation_completed_at_jst": "2026-11-04T17:32:05.240000+09:00",
+      "source_crop_box_xyxy": [
+        0,
+        0.25,
+        1672,
+        940.75
+      ],
+      "dimensions": [
+        1920,
+        1080
+      ],
+      "sha256": "7765a73799749f6359a17c8bf7520890de46dfbf4c602cf32177e272c4842b23",
+      "bytes": 3983983,
+      "metrics": {
+        "mean_luminance": 98.81721426244214,
+        "luminance_below_16_ratio": 0.0,
+        "luminance_below_16_percent": 0.0
+      },
+      "thumbnail_168px": {
+        "dimensions": [
+          168,
+          95
+        ],
+        "left_third_box_xyxy": [
+          0,
+          0,
+          56,
+          95
+        ],
+        "left_third_median_luminance": 50.608399999999996
+      }
+    }
+  ],
+  "measurement": {
+    "luminance_formula": "Y′ = 0.2126 R + 0.7152 G + 0.0722 B; sRGB encoded RGB values, 0–255, float64. No gamma linearization.",
+    "dark_threshold": "strictly Y′ < 16",
+    "ratio_unit": "0–1; percent field additionally provided",
+    "thumbnail_measurement": "Resize delivered RGB image to 168×95 using Pillow LANCZOS; left third is columns 0–55 across all 95 rows; median uses the same Y′ formula."
+  },
+  "processing": {
+    "target_size": [
+      1920,
+      1080
+    ],
+    "aspect_ratio": "16:9",
+    "method": "Pillow ImageOps.fit, centered minimal aspect-ratio crop and LANCZOS resampling",
+    "exposure_correction": false,
+    "color_or_contrast_adjustment": false,
+    "note": "原本はバイト同一コピーで保存。納品版はサイズ・縦横比の整形だけ。シャープ処理・描き足し・消去なし。"
+  },
+  "completed_at": "2026-11-04T08:36:00.196573+00:00",
+  "total_generation_calls": 16,
+  "total_regenerations": 5
+}
