@@ -1,0 +1,63 @@
+"""RDG03の絵のプロンプト全文を書き出す（コピー用md と 場面ごとのtxt）。生成は本人かCodex。"""
+from pathlib import Path
+
+HERE = Path(__file__).resolve().parent
+OUT_DIR = HERE.parent / '画像プロンプト'
+MD = HERE.parent.parent / 'RDG03_コピー用プロンプト.md'
+
+NOBODY = 'No people, no figures, no silhouettes of people, no faces, no hands, no animals except those named above, no cats.'
+STYLE = ('Japanese shin-hanga woodblock print in the manner of the 1920s-30s revival: flat layered areas of colour, '
+         'visible woodgrain in the flat passages, softly gradated sky (bokashi), Western perspective and cast light held '
+         'inside Japanese printmaking. Everything in the scene is drawn as part of the print, in the same flat woodblock '
+         'manner, never photographic. Calm, dreamlike and hushed. Strong clear difference between the light and dark masses '
+         'so the image still reads when reduced to a thumbnail. No text, no signature, no seal stamp, no lettering of any '
+         'kind. No modern objects: no power lines, no cars, no trucks, no plastic. Wide 16:9 landscape. Exposed so that '
+         'texture is clearly visible everywhere. Shadows are lifted and open, full of visible detail, nothing crushed to '
+         'pure black. High dynamic range, rich texture even in the darkest areas.')
+
+SCENES = [
+ ('01', '夕暮れの坂の町', '一〜三章 0:00〜14:55',
+  'A small imaginary hillside town of an unnamed country in the early twentieth century, at dusk on a late summer evening. A narrow cobbled street climbs gently between low houses of plaster and dark timber with slate roofs, neither clearly Japanese nor clearly European. On the right a small old printing shop has one tall window glowing warm yellow. Down the slope on the left, far below the roofs, a broad pale river shines softly. The sky is a deep dusky blue fading to a thin band of soft rose above the far hills, with the very first faint stars. Colours: dusky blue, plaster grey-cream, warm yellow window light, a touch of rose.'),
+ ('02', 'ケンタウル祭の夜', '四章 14:55〜23:36',
+  'The same small imaginary town on the night of a star festival. A street crossing lined with low shopfronts; every street lamp is wrapped in dark green fir and cypress branches with small lights among them, and round balls of yew leaves hang from the eaves. Far down the street a small stone bridge is faintly visible. The shop windows glow, and the deep indigo night above is full of quiet stars. No paper lanterns of Japanese festival type, no torii. Colours: deep indigo, dark green boughs, small warm lights, a few cool blue-white sparks of light in the distance.'),
+ ('03', '天気輪の柱の丘', '五章 23:36〜26:45',
+  'The top of a dark grassy hill at night, reached through black pine and oak woods. At the summit stands one slender, plain, weathered stone pillar with a small wheel at its top, standing alone. Beyond it the ground falls away, and the small lights of a far town lie in the valley like a handful of sparks. Overhead the sky opens wide, and the Milky Way runs across it from south to north, pale and soft, the brightest mass in the image. The grass is moved by a night wind, with a few small flowers glinting with dew. Colours: deep indigo, blue-black pines, silver-white Milky Way, tiny warm town lights.'),
+ ('04', '銀河ステーション', '六章 26:45〜35:36',
+  'Inside an empty railway carriage of about 1920 at night, looking toward its window. Seats of deep blue velvet run along the sides, the wall is mouse-grey varnished wood with two large brass buttons, and small yellow lamps glow overhead. Through the wide window, the river of the Milky Way flows past: a clear pale blue-white stream of light without visible water, with silver grass waving along its bank, and small glowing triangular survey markers standing in the plain, some blue-white, some orange. Colours: deep blue velvet, grey wood, small warm yellow lamps, pale silver-blue outside. The carriage is empty.'),
+ ('05', '北十字とプリオシン海岸', '七章 35:36〜48:54',
+  'A shore on the bank of the Milky Way at night. In the foreground stretches a flat white rock shore, its sand made of tiny clear crystals that glint softly, with a few dark fossil walnuts lying on it. The river beyond is a sheet of clear, silent, pale light. In the middle of the river stands a small flat island, and on its top a tall pure white cross stands alone, shining quietly with a cold pale halo, as if frozen from the northern clouds. The sky is deep indigo, thick with stars. Colours: deep indigo, chalk white, pale silver-blue, the white cross clearly the brightest shape. This is not a graveyard and not a church; only the single cross.'),
+ ('06', '鷺の降る河原', '八章 48:54〜1:02:05',
+  'A wide pale riverbank under a soft, strange blue-ivory glow in the night sky. Countless white herons descend from the high sky with folded black legs, falling gently like a fall of snow, thick above and sparser near the ground; some are already settling on the sand and fading softly into it. The river of light runs along the right. A long low line of dark silver grass lies at the far side. Colours: deep blue-ivory sky, many soft white birds, pale sand, dark silver grass. Herons are the only living things in the image.'),
+ ('07', '夜の車内と苹果', '九章 1:02:05〜1:25:18',
+  'Inside the same empty railway carriage at night, close to a window seat. On the deep blue velvet seat rest two or three large apples, gold and crimson, clearly glowing as if holding their own soft light, the warmest and brightest objects in the image. On the window sill lies a small folded sheet of pale green paper. Through the window, a far away lighthouse sends one thin ray across a dark plain, and a thin line of pale ice-blue mist hangs on the horizon. The small yellow lamps glow overhead. Colours: deep blue velvet, gold and crimson apples, grey wood, cool blue-black night outside. The carriage is empty.'),
+ ('08', '孔雀の森と蝎の火', '九章 1:25:18〜1:45:04',
+  'A vast night plain beside the Milky Way, seen as if from a passing train. In the middle distance on the left stands a dark round forest island above the river, with a soft blue-white shimmer flickering above it like a peacock opening its fan. Far off to the right, low over the horizon, one small fire burns quietly in the dark without smoke, deep ruby red and very clear, reflected in the still river of light. A few glowing triangular survey markers stand across the plain. Colours: deep blue-black, emerald-dark forest, blue-white shimmer, one clear ruby-red fire. Do not draw a scorpion, a bird or flames spreading; only the small steady fire.'),
+ ('09', 'サウザンクロスと石炭袋', '九章 1:45:04〜1:53:59',
+  'Far down the Milky Way, a great cross of many coloured lights stands up from the river like a single tree, jewelled with blue, orange and every soft colour, with a pale ring of cloud slowly circling above it like a halo. To the left in the sky, right beside the river of stars, is a great dark hole in the Milky Way, a soft-edged deep black-blue void with no stars inside it, the darkest area of the image but still showing texture at its edges. The river below is silent and pale. Colours: deep indigo, jewelled blue and orange, pale ring of cloud, one deep soft void. No people kneeling, no church.'),
+ ('10', '銀河の映る川', '九章 1:53:59〜末尾',
+  'The real river below the small town, late at night, seen from the low bank. A dark bridge crosses in the middle distance with a few small lamps. Down river to the right, the water widens and the whole Milky Way is reflected in it so completely that it looks like sky with no water at all. A very few small blue lights drift far off on the water, nearly gone. Long dark grass in the foreground. The town lights are small and few behind the bridge. Colours: deep indigo, silver-white reflected Milky Way, black-green grass, a few small blue lights. Quiet, still and very gentle; the image is empty of people.'),
+ ('11', 'サムネ専用（本編には使わない）', 'サムネ',
+  'Composed for a thumbnail. The left third of the image is a calm, dark, simple area of deep indigo night sky with only a few small stars, with almost no detail that would compete with lettering placed over it. In the right two thirds, the Milky Way sweeps diagonally as a broad pale silver-white river of stars, and one small old steam train with a short line of carriages runs along it toward the upper right, its small windows glowing warm yellow, seen in clear silhouette, the warmest spot in the image. Strong contrast, so it still reads at the size of a postage stamp. The train runs on no visible rails, close above a thin line of silver grass at the bottom. Colours: deep indigo, silver-white stars, warm yellow windows, dark train.'),
+]
+
+
+def full(body):
+    return f'{body} {NOBODY} {STYLE}'
+
+
+def main():
+    OUT_DIR.mkdir(exist_ok=True)
+    out = ['# RDG03 コピー用プロンプト — 宮沢賢治『銀河鉄道の夜』（新版画・10場面＋サムネ）', '',
+           '生成は本人かCodex。各ブロックを**そのまま全文**貼る（画風と露出の文まで含む）。16:9・横長。',
+           '置き場：`bgm/RDG03_銀河鉄道の夜/画像/rdg03_NN.png`（NN＝下の番号。サムネは rdg03_11.png）。',
+           '全場面に人物を描かない。受け取ったら明るさの並びと潰れを測る。', '']
+    for n, name, where, body in SCENES:
+        text = full(body)
+        (OUT_DIR / f'{n}_{name}.txt').write_text(text + '\n')
+        out += [f'## {n}_{name}（{where}）', '', '```', text, '```', '']
+    MD.write_text('\n'.join(out))
+    print(len(SCENES), max(len(full(s[3])) for s in SCENES))
+
+
+if __name__ == '__main__':
+    main()

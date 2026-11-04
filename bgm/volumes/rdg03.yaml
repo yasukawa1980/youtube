@@ -1,0 +1,30 @@
+# 朗読 / 03 —— 宮沢賢治『銀河鉄道の夜』
+#
+# ★★音も映像も bgmkit の外で作っている。 bgmkit で使うのはサムネ（thumb）だけ。
+#   実装は bgm/RDG03_銀河鉄道の夜/作業/（prep_text.py → narrate.py → render.py）。
+# ★画題は10場面（新版画）。プロンプトの全文は bgm/RDG03_銀河鉄道の夜/画像プロンプト/ と bgm/RDG03_コピー用プロンプト.md
+# ★背景 rdg03_11.png はまだ無い（生成待ち）。置かれたら潰れを測ってからサムネを作る。
+
+genre: echoesofoldjapan     # RDG01・02と同じく EOJ の新版画・題字の型を借りる
+volume: 3
+slug: rdg03
+dir: "/Users/ryo/youtube/bgm/RDG03_銀河鉄道の夜"
+
+brand: WHISPERS OF JAPAN   # ★EOJ の型を借りるが、この巻はEOJではない
+runtime: "2 HOURS"   # 2時間2分50秒（声の合成の実測）
+title_lines: [眠る前の朗読, 銀河鉄道の夜]
+thumb_sub: 宮沢賢治
+thumb_layout:
+  sub: 680
+thumb:
+  title_family: jp
+  sub_family: jp
+  sizes: {sub: 64}
+  font_index: {sub: 0}
+  tracking: {sub: 10}
+  title_fit: 760
+  tracking:
+    brand: 4
+
+background: "/Users/ryo/youtube/bgm/RDG03_銀河鉄道の夜/画像/rdg03_11.png"
+thumb_out: "/Users/ryo/youtube/bgm/RDG03_銀河鉄道の夜/rdg03_サムネ_16x9.png"
