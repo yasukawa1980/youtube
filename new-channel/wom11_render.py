@@ -1,5 +1,4 @@
 import os
-os.environ.setdefault('WOM11_ROOT','/Volumes/ESD-02/新チャンネル/EP011_WeighingOfTheHeart/確認版_v01_20261104')
 """EP011 video assembly and technical QA. Existing approved brand clips are read-only."""
 import argparse,math,re,json,subprocess,shutil
 from pathlib import Path
@@ -7,7 +6,7 @@ import numpy as np
 from fractions import Fraction
 import imageio_ffmpeg
 from PIL import Image,ImageDraw,ImageFont
-from wom11_produce import ROOT,REPO,OP,END,FPS,SR,read,save,sha,ff,probe,measure,content
+from wom11_produce import VERSION,ROOT,REPO,OP,END,FPS,SR,read,save,sha,ff,probe,measure,content
 from wom01_quiet_origins import stream_hash
 
 def camera(count,band=(110,930),rim=False,amount=.03,direction=None,finish_frame=None):
@@ -31,14 +30,14 @@ def camera(count,band=(110,930),rim=False,amount=.03,direction=None,finish_frame
 
 def package():
  for l in ['en','ja']:
-  out=ROOT/f'deliverables/EP011_WeighingOfTheHeart_{l}_v01_1080p30.mp4'
+  out=ROOT/f'deliverables/EP011_WeighingOfTheHeart_{l}_{VERSION}_1080p30.mp4'
   ff(['-i',ROOT/'_work/picture_master.mp4','-i',ROOT/f'deliverables/EP011_audio_{l}.m4a','-map','0:v:0','-map','1:a:0','-c','copy','-metadata:s:a:0','language='+('eng' if l=='en' else 'jpn'),'-metadata','title=Quiet Origins / Weighing of the Heart','-metadata','comment=English: Kokoro/af_heart. Japanese: VOICEVOX:冥鳴ひまり. No AI imagery. External subtitles.','-movie_timescale',48000,'-movflags','+faststart',out])
   print('PACKAGED',l,flush=True)
 
 def reviews():
  binary=imageio_ffmpeg.get_ffmpeg_exe()
  for l in ['en','ja']:
-  src=ROOT/f'deliverables/EP011_WeighingOfTheHeart_{l}_v01_1080p30.mp4';out=ROOT/f'deliverables/EP011_WeighingOfTheHeart_{l}_v01_subtitled_review_1080p30.mp4';srt=ROOT/f'_work/{l}.srt';shutil.copy2(src.with_suffix('.srt'),srt)
+  src=ROOT/f'deliverables/EP011_WeighingOfTheHeart_{l}_{VERSION}_1080p30.mp4';out=ROOT/f'deliverables/EP011_WeighingOfTheHeart_{l}_{VERSION}_subtitled_review_1080p30.mp4';srt=ROOT/f'_work/{l}.srt';shutil.copy2(src.with_suffix('.srt'),srt)
   vf=f"subtitles='{srt}':original_size=1920x1080:force_style='FontSize=14,BorderStyle=3,MarginV=12'"
   subprocess.run([binary,'-nostdin','-y','-v','error','-i',str(src),'-vf',vf,'-c:v','libx264','-threads','4','-preset','veryfast','-crf','18','-pix_fmt','yuv420p','-fps_mode','passthrough','-video_track_timescale','15360','-c:a','copy','-movie_timescale','48000','-movflags','+faststart','-progress',str(ROOT/f'_work/subtitles_{l}_progress.txt'),str(out)],check=True)
   assert stream_hash(src,'a')==stream_hash(out,'a');print('SUBTITLE REVIEW',l,flush=True)
@@ -70,7 +69,7 @@ def verify():
  master=read(ROOT/'records/master_timeline.json');frames=round(master['duration_seconds']*30);files=[]
  for l in ['en','ja']:
   for review in [False,True]:
-   out=ROOT/f'deliverables/EP011_WeighingOfTheHeart_{l}_v01{"_subtitled_review" if review else ""}_1080p30.mp4'
+   out=ROOT/f'deliverables/EP011_WeighingOfTheHeart_{l}_{VERSION}{"_subtitled_review" if review else ""}_1080p30.mp4'
    decoded=subprocess.run(['ffmpeg','-nostdin','-v','warning','-i',str(out),'-f','null','-'],capture_output=True,text=True,check=True)
    assert not decoded.stderr.strip(),decoded.stderr
    p=probe(out);v=next(s for s in p['streams'] if s['codec_type']=='video')
@@ -90,7 +89,7 @@ def verify():
    print('VERIFIED',out.name,levels['input_i'],flush=True)
  assert files[0]['video_stream_sha256']==files[2]['video_stream_sha256']
  assert files[0]['audio_stream_sha256']==files[1]['audio_stream_sha256'] and files[2]['audio_stream_sha256']==files[3]['audio_stream_sha256']
- save(ROOT/'records/qc_v01.json',{'passed':True,'duration_seconds':master['duration_seconds'],'frames':frames,'fps':30,'human_full_listening':False,'files':files,'shared_video_stream':True,'subtitled_audio_unchanged':True})
+ save(ROOT/f'records/qc_{VERSION}.json',{'passed':True,'duration_seconds':master['duration_seconds'],'frames':frames,'fps':30,'human_full_listening':False,'files':files,'shared_video_stream':True,'subtitled_audio_unchanged':True})
 
 if __name__=='__main__':
  p=argparse.ArgumentParser();p.add_argument('stage',choices=['package','reviews','precision','verify']);a=p.parse_args();globals()[a.stage]()

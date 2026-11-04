@@ -10,7 +10,9 @@ import soundfile as sf
 from wom01_multilingual_render import read,save,sha as _file_sha,ff,probe,measure,rms
 from wom01_subtitles import pages,to_srt
 REPO=Path(__file__).resolve().parent.parent
-ROOT=Path(os.environ.get('WOM11_ROOT','/Volumes/ESD-02/新チャンネル/EP011_WeighingOfTheHeart/確認版_v01_20261104'))
+VERSION=os.environ.get('WOM11_VERSION','v01')
+assert VERSION in ['v01','v02']
+ROOT=Path(os.environ.get('WOM11_ROOT',f'/Volumes/ESD-02/新チャンネル/EP011_WeighingOfTheHeart/確認版_{VERSION}_20261104'))
 MEDIA=ROOT.parent/'素材'
 MODELS=Path('/Users/ryo/Desktop/BGM/_共通/音声モデル')
 BRAND=Path('/Users/ryo/Desktop/新チャンネル/ブランド素材/オープニング_エンドカード_動画試作_v02_20261021/deliverables')

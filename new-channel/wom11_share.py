@@ -4,10 +4,13 @@ import hashlib
 import json
 import shutil
 import subprocess
+import os
 from pathlib import Path
 
 REPO='yasukawa1980/youtube'
-TAG='quiet-origins-ep011-v01-20261104'
+VERSION=os.environ.get('WOM11_VERSION','v01')
+assert VERSION in ['v01','v02']
+TAG=f'quiet-origins-ep011-{VERSION}-20261104'
 
 def sha(path):
     h=hashlib.sha256()
@@ -32,7 +35,7 @@ def main():
     ap.add_argument('--folder',type=Path,required=True)
     ap.add_argument('--record',type=Path,required=True)
     a=ap.parse_args()
-    files=sorted([*a.folder.glob('EP011_WeighingOfTheHeart_*.mp4'),*a.folder.glob('EP011_*.zip'),*a.folder.parent.glob('deliverables_4k/*_v01_2160p30.mp4')])
+    files=sorted([*a.folder.glob(f'EP011_WeighingOfTheHeart_*_{VERSION}*.mp4'),*a.folder.glob(f'EP011_*_{VERSION}.zip'),*a.folder.parent.glob(f'deliverables_4k/*_{VERSION}_2160p30.mp4')])
     assert len(files)==8, len(files)
     assert all(p.name.isascii() for p in files)
     releases=api([f'repos/{REPO}/releases?per_page=100'])
@@ -40,8 +43,8 @@ def main():
     if r is None:
         r=api(['--method','POST',f'repos/{REPO}/releases','--input','-'],{
             'tag_name':TAG,'target_commitish':'bgm/production',
-            'name':'Quiet Origins 第11話 確認版v01（英日・非公開）',
-            'body':'Quiet Origins 第11話・心臓の計量。承認済み台本v02、Met資料9作品、文字カード6枚、既存音声とQO_THEME_A02を使用。381.366667秒。本人承認の天秤拡大B案（P01最大1.7倍・P10最大3.4倍）。英日1080pと英語4K拡大版、字幕入り確認版、音声・字幕・資料ZIP。本人試聴・サムネ選択・Claude確認待ち。Draft維持、YouTube未投稿。',
+            'name':f'Quiet Origins 第11話 確認版{VERSION}（英日・非公開）',
+            'body':('Quiet Origins 第11話・心臓の計量。確認版v02：Claude確認に基づく映像4か所の修正。P06見出し追加と5行保持・E10B除外、トト5.533秒、アメミト最大2.5倍通常拡大、まとめ図2段。Met資料8作品。音声・字幕・台本はv01とハッシュ一致。サムネA採用。381.366667秒。英日1080pと英語4K通常拡大版、字幕入り確認版、音声・字幕・資料ZIP。本人試聴・Claude確認待ち。Draft維持、YouTube未投稿。' if VERSION=='v02' else 'Quiet Origins 第11話・心臓の計量。承認済み台本v02、Met資料9作品、文字カード6枚、既存音声とQO_THEME_A02を使用。381.366667秒。本人承認の天秤拡大B案（P01最大1.7倍・P10最大3.4倍）。英日1080pと英語4K拡大版、字幕入り確認版、音声・字幕・資料ZIP。本人試聴・サムネ選択・Claude確認待ち。Draft維持、YouTube未投稿。'),
             'draft':True})
     assert r['draft'] is True
     # Empty draft is checked before any media is uploaded. Never publish it.

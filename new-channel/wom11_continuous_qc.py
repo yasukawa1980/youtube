@@ -1,27 +1,26 @@
 import os
-os.environ.setdefault('WOM11_ROOT','/Volumes/ESD-02/新チャンネル/EP011_WeighingOfTheHeart/確認版_v01_20261104')
 """EP011 full-stream verification; frame selection never uses seeking."""
 import json,re,subprocess,math
 import numpy as np
 from pathlib import Path
 from PIL import Image,ImageDraw,ImageFont
-from wom11_produce import ROOT,REPO,read,save,sha,probe
+from wom11_produce import VERSION,ROOT,REPO,read,save,sha,probe
 FONT='/System/Library/Fonts/Supplemental/Arial.ttf'
 def main():
  state=ROOT/'records/continuous_qc.json'
  if state.exists():
   old=read(state)
-  if old.get('passed') and all(sha(ROOT/f"deliverables/EP011_WeighingOfTheHeart_{q['language']}_v01_1080p30.mp4")==q['video_sha256'] for q in old['checks']) and all((ROOT/r['triptych']).exists() and (ROOT/r['center']).exists() for q in old['checks'] for r in q['records']):
+  if old.get('passed') and all(sha(ROOT/f"deliverables/EP011_WeighingOfTheHeart_{q['language']}_{VERSION}_1080p30.mp4")==q['video_sha256'] for q in old['checks']) and all((ROOT/r['triptych']).exists() and (ROOT/r['center']).exists() for q in old['checks'] for r in q['records']):
    print('CONTINUOUS QC CACHE VERIFIED',flush=True);return
  shots=read(ROOT/'records/render_shots.json');m=read(ROOT/'records/master_timeline.json');total=round(m['duration_seconds']*30)
- assert len(shots)==24 and sum(s['frames'] for s in shots)==total
+ assert len(shots)==len(read(ROOT/'records/visual_manifest.json')['shots'])+2 and sum(s['frames'] for s in shots)==total
  assert all(round(a['end']*30)==round(b['start']*30) for a,b in zip(shots,shots[1:]))
  selected=[];triples=[]
  for s in shots:
   a=round(s['start']*30);ns=[a,a+(s['frames']-1)//2,a+s['frames']-1];selected.extend(ns);triples.append(ns)
  expr='+'.join(f'eq(n\\,{n})' for n in selected);checks=[];font=ImageFont.truetype(FONT,17)
  for lang in ['en','ja']:
-  src=ROOT/f'deliverables/EP011_WeighingOfTheHeart_{lang}_v01_1080p30.mp4';folder=ROOT/f'_work/continuous_{lang}';folder.mkdir(exist_ok=True)
+  src=ROOT/f'deliverables/EP011_WeighingOfTheHeart_{lang}_{VERSION}_1080p30.mp4';folder=ROOT/f'_work/continuous_{lang}';folder.mkdir(exist_ok=True)
   cmd=['ffmpeg','-nostdin','-y','-v','warning','-threads','2','-i',str(src),'-vf',f'select={expr},scale=1280:720','-fps_mode','passthrough','-c:v','png','-pix_fmt','rgb24',str(folder/'%03d.png')]
   q=subprocess.run(cmd,capture_output=True,text=True,check=True);assert not q.stderr.strip(),q.stderr
   ims=sorted(folder.glob('*.png'));assert len(ims)==len(selected)
@@ -60,10 +59,10 @@ def main():
   print('CONTINUOUS QC',lang,total,len(ims),flush=True)
  assert abs(m['brand_intervals']['endcard'][1]-m['brand_intervals']['endcard'][0]-10)<1e-8
  for name in ['content.json','content_en.json']:assert sha(ROOT/'records'/name)==sha(REPO/'new-channel/episodes/EP011_WeighingOfTheHeart/records'/name)
- used=read(ROOT/'records/visual_manifest.json')['unique_originals'];assert len(used)==len(set(used))==9
+ used=read(ROOT/'records/visual_manifest.json')['unique_originals'];assert len(used)==len(set(used))==(8 if VERSION=='v02' else 9)
  opening_frames=[]
  for lang in ['en','ja']:
-  src=ROOT/f'deliverables/EP011_WeighingOfTheHeart_{lang}_v01_1080p30.mp4'
+  src=ROOT/f'deliverables/EP011_WeighingOfTheHeart_{lang}_{VERSION}_1080p30.mp4'
   cmd=['ffmpeg','-nostdin','-y','-v','warning','-i',str(src),'-vf',r'select=eq(n\,0)+eq(n\,30)+eq(n\,60)+eq(n\,90),scale=1280:720','-frames:v','4','-fps_mode','passthrough',str(ROOT/f'review/opening_{lang}_%02d.jpg')]
   q=subprocess.run(cmd,capture_output=True,text=True,check=True);assert not q.stderr.strip()
   opening_frames.append({'language':lang,'source_frames':[0,30,60,90],'files':[f'review/opening_{lang}_{i:02d}.jpg' for i in range(1,5)]})

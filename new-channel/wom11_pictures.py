@@ -1,10 +1,13 @@
 """EP011: 22 content shots plus unchanged brand clips; independent decoders, one encoder."""
 import subprocess,json
 import numpy as np
-from wom11_produce import ROOT,OP,END,read,save,sha,ff,probe
+from wom11_produce import ROOT,OP,END,read,save,sha,ff,probe,VERSION
 from wom11_render import camera
 CUTS={'P03':["On some, the owner's name"], 'P04':['The judgment we are looking for'], 'P06':['I have not turned back water'], 'P08':['So another spell'], 'P09':['the museum identifies'], 'P10':['Thoth writes down the result','And nearby waits Ammit'], 'P11':['After their names']}
 REVEALS={'D_denials':['I have not stolen.','I have done no murder.','I have spoken no lies.','I have made no man to weep.','I have not turned back water']}
+if VERSION=='v02':
+ CUTS.pop('P06')
+ CUTS['P10']=['Thoth writes down the result','One old description calls her']
 def phrase_frame(cues,phrase):
  cue=next(c for c in cues if phrase in c['text']);fraction=len(cue['text'].split(phrase)[0])/len(cue['text'])
  return round((cue['start']+(cue['end']-cue['start'])*fraction)*30)
@@ -16,7 +19,7 @@ def main():
   shots.append({'key':key,'segment_id':'BRAND','start':a,'end':b,'frames':n,'encoded_file':str(path),'original_source':str(path),'original_sha256':sha(path)})
  for i,seg in enumerate(master['segments']):
   group=[s for s in manifest if s['segment_id']==seg['id']];a=0 if i==0 else round(seg['start']*30);b=round(seg['end']*30);bounds=[a,*[phrase_frame(narr[i]['cues'],p) for p in CUTS.get(seg['id'],[])],b];assert len(bounds)==len(group)+1
-  if seg['id']=='P06':bounds[1]+=60 # Show the fifth exact quotation for two seconds before the water picture.
+  if seg['id']=='P06' and VERSION=='v01':bounds[1]+=60
   for j,s in enumerate(group):
    key=s['key'];n=int(bounds[j+1]-bounds[j]);assert n>0;out=ROOT/f'_work/render/{seg["id"]}_{j+1:02}_{key}.mp4';stamp=out.with_suffix('.json');static=key.startswith('D_') or key=='credits';stages=s.get('stages',[])
    args=['-loop',1,'-framerate',30,'-i',ROOT/(stages[0]['file'] if key in REVEALS else s['file'])]
@@ -39,7 +42,7 @@ def main():
    print('RENDERED',seg['id'],key,n,flush=True)
   if i==1:brand('opening',OP)
  brand('endcard',END)
- assert len(shots)==24 and sum(s['frames'] for s in shots)==round(master['duration_seconds']*30)
+ assert len(shots)==len(manifest)+2 and sum(s['frames'] for s in shots)==round(master['duration_seconds']*30)
  save(ROOT/'records/render_shots.json',shots)
  out=ROOT/'_work/picture_master.mp4';records=[]
  cmd=['ffmpeg','-nostdin','-y','-v','warning','-f','rawvideo','-pixel_format','yuv420p','-video_size','1920x1080','-framerate','30','-i','pipe:0','-an','-c:v','libx264','-threads','3','-preset','medium','-crf','16','-profile:v','high','-level:v','4.1','-pix_fmt','yuv420p','-g','60','-bf','2','-maxrate','20M','-bufsize','30M','-fps_mode','passthrough','-video_track_timescale','15360','-movie_timescale','48000','-color_primaries','bt709','-color_trc','bt709','-colorspace','bt709','-movflags','+faststart',str(out)]

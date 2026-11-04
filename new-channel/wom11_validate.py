@@ -1,12 +1,11 @@
 import os
-os.environ.setdefault('WOM11_ROOT','/Volumes/ESD-02/新チャンネル/EP011_WeighingOfTheHeart/確認版_v01_20261104')
 """Pixel-check every subtitle at both requested sizes and extract every rendered shot."""
 import argparse,math,re,subprocess
 from pathlib import Path
 import numpy as np
 from PIL import Image,ImageDraw,ImageFont
 import imageio_ffmpeg
-from wom11_produce import ROOT,REPO,read,save,sha,ff,content,SR
+from wom11_produce import VERSION,ROOT,REPO,read,save,sha,ff,content,SR
 from wom01_subtitles import to_srt
 FONT='/System/Library/Fonts/Supplemental/Arial.ttf'
 
@@ -20,7 +19,7 @@ def layout():
  srt_checks={}
  for lang in ['en','ja']:
   cues=read(ROOT/f'records/subtitle_cues_{lang}.json')['cues']
-  actual=parse_srt(ROOT/f'deliverables/EP011_WeighingOfTheHeart_{lang}_v01_1080p30.srt')
+  actual=parse_srt(ROOT/f'deliverables/EP011_WeighingOfTheHeart_{lang}_{VERSION}_1080p30.srt')
   normalize=lambda s:re.sub(r'\s+','',s)
   assert normalize(''.join(x['text'] for x in actual))==normalize(''.join(s['text'] for s in content(lang)['segments']))
   assert len(actual)==len(cues) and min(x['end']-x['start'] for x in actual)>=1.3999

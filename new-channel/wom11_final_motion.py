@@ -1,9 +1,8 @@
 import os
-os.environ.setdefault('WOM11_ROOT','/Volumes/ESD-02/新チャンネル/EP011_WeighingOfTheHeart/確認版_v01_20261104')
 """Unfiltered consecutive-frame motion check; explicit diagram reveals checked separately."""
 import csv,subprocess
 import numpy as np
-from wom11_produce import ROOT,read,save,sha
+from wom11_produce import VERSION,ROOT,read,save,sha
 from wom11_motion import roi,motion_stats
 
 def finalize(result,shots):
@@ -24,13 +23,13 @@ def finalize(result,shots):
  result.update(passed=all(x['passed'] for x in result['checks']),validation_version=2)
  save(ROOT/'records/final_video_motion.json',result)
  rows=[{k:c[k] for k in ['key','median','p95','ratio','static_source','motion_ratio_applicable','passed']} for c in result['checks']]
- with (ROOT/'deliverables/EP011_motion_v01.csv').open('w',newline='') as f:
+ with (ROOT/f'deliverables/EP011_motion_{VERSION}.csv').open('w',newline='') as f:
   w=csv.DictWriter(f,fieldnames=list(rows[0]));w.writeheader();w.writerows(rows)
  assert result['passed'],[(x['key'],x['ratio'],x.get('actual_change_frames')) for x in result['checks'] if not x['passed']]
  print('FINAL MOTION VERIFIED',len(rows),flush=True)
 
 def main():
- src=ROOT/'deliverables/EP011_WeighingOfTheHeart_en_v01_1080p30.mp4';shots=read(ROOT/'records/render_shots.json')
+ src=ROOT/f'deliverables/EP011_WeighingOfTheHeart_en_{VERSION}_1080p30.mp4';shots=read(ROOT/'records/render_shots.json')
  state=ROOT/'records/final_video_motion.json'
  if state.exists() and read(state).get('video_sha256')==sha(src):
   cached=read(state)

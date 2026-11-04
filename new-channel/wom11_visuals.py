@@ -2,7 +2,7 @@
 import math,copy
 from pathlib import Path
 from PIL import Image,ImageDraw,ImageFont
-from wom11_produce import ROOT,REPO,read,save,sha,content
+from wom11_produce import ROOT,REPO,read,save,sha,content,VERSION
 from wom09_visuals import contrast
 BG='#e8d9b7';INK='#3b2c21';ACCENT='#5a3a1a'
 EN='/System/Library/Fonts/Supplemental/Arial.ttf';BOLD='/System/Library/Fonts/Supplemental/Arial Bold.ttf';COND='/System/Library/Fonts/Supplemental/DIN Condensed Bold.ttf';JA='/System/Library/Fonts/ヒラギノ角ゴシック W3.ttc'
@@ -28,6 +28,8 @@ CONFIG={
 'E08A':(558378,0,'AMULET｜護符',None),'E11B':(545802,0,'STATUETTE｜小像',None),
 'E10A':(420448,0,'ARTWORK｜美術作品',None),'E10B':(12074,0,'ARTWORK｜美術作品',None),
 'R01':(557657,0,'PAPYRUS｜パピルス',None)}
+if VERSION=='v02':
+ CONFIG['E01A_10_ammit']=(551786,10,'PAPYRUS｜パピルス',[2300,1040,2720,1310])
 def art(key,assets):
  n,idx,label,crop=CONFIG[key];a=assets[n];src=a['images'][idx];orig=Image.open(src['file']).convert('RGB')
  title=a['title'].replace('Book of the Dead of the Priest of Horus, Imhotep (Imuthes)','Book of the Dead of Imhotep (Imuthes)')
@@ -43,12 +45,13 @@ def art(key,assets):
  part=orig.crop(crop);zoom=.03
  if key=='E01A_10_scale':scale=1.7;zoom=-.035
  elif key=='E01A_10_beam':scale=3.4/(1+.02);zoom=.02
+ elif key=='E01A_10_ammit' and VERSION=='v02':scale=2.5/(1+zoom)
  else:scale=min(1790/part.width,930/part.height,.965/(1+zoom))
  w,h=round(part.width*scale),round(part.height*scale);x=(1920-w)//2;y=110+(970-h)//2;im.paste(part.resize((w,h),Image.Resampling.LANCZOS),(x,y))
  maxscale=scale*max(1,1+zoom)
  if key in ['E01A_05','E01A_13']:maxscale=scale*2
  if key=='R01':maxscale=scale*2.2
- return im,dict(original_asset_id=str(n),original_source=src['file'],original_sha256=src['sha256'],source_text=[label,source],original_pixels=list(orig.size),crop_pixels=crop,art_boxes=[[x,y,x+w,y+h]],camera_band=[110,1080],zoom_amount=zoom,native_initial_scale=scale,native_max_scale=maxscale,color_class='color',approved_upscale_exception=key in ['E01A_10_scale','E01A_10_beam'],section_index=idx)
+ return im,dict(original_asset_id=str(n),original_source=src['file'],original_sha256=src['sha256'],source_text=[label,source],original_pixels=list(orig.size),crop_pixels=crop,art_boxes=[[x,y,x+w,y+h]],camera_band=[110,1080],zoom_amount=zoom,native_initial_scale=scale,native_max_scale=maxscale,color_class='color',approved_upscale_exception=key in ['E01A_10_scale','E01A_10_beam'] or (VERSION=='v02' and key=='E01A_10_ammit'),section_index=idx)
 DENIALS=['I have not stolen.','I have done no murder.','I have spoken no lies.','I have made [no man] to weep.','I have not turned back water at its springtide.']
 DENIALS_JA=['盗まなかった','人を殺めなかった','うそを語らなかった','誰も泣かせなかった','増水の時に水をせき止めなかった']
 def card(key,stage=99):
@@ -62,11 +65,27 @@ def card(key,stage=99):
  elif key=='D_denials':
   draw(im,'The Negative Confession · E. A. Wallis Budge, 1895 · from different versions',960,140,25,EN,major=False)
   draw(im,'否定告白（バッジ英訳1895、いくつかの写本から）',960,185,25,JA,major=False)
+  if VERSION=='v02' and stage==0:
+   draw(im,'THE NEGATIVE CONFESSION',960,400,72,BOLD)
+   draw(im,'否定告白',960,520,60,JA)
   for i,(en,ja) in enumerate(zip(DENIALS,DENIALS_JA)):
    if i>=stage:continue
    y=255+i*115;draw(im,en,960,y,60,COND);draw(im,ja,960,y+75,27,JA,major=False)
  elif key=='D_truevoice':
   for text,y,h,f in [('TRUE OF VOICE',330,90,BOLD),('声正しき者',460,60,JA),('a title added after the names of the dead',610,44,EN),('死者の名のあとに添えられた言葉',685,38,JA)]:draw(im,text,960,y,h,f,major=h>=60)
+ elif key=='D_summary' and VERSION=='v02':
+  rows=[(['NEGATIVE','CONFESSION'],['否定告白']),(['42 GODS'],['42柱の神々']),(['SPELL 30B — WORDS','FOR THE HEART'],['30B章 心臓への言葉']),(['THE SCALE','IN BALANCE'],['天秤がつり合う']),(['BEFORE OSIRIS'],['オシリスの前へ'])]
+  rects=[[96,190,588,480],[620,190,1000,480],[1032,190,1824,480],[272,550,912,840],[1008,550,1648,840]]
+  for i,((en,ja),box) in enumerate(zip(rows,rects)):
+   x,y0,x1,y1=box;d.rounded_rectangle(box,12,outline=ACCENT,width=3);start=len(TEXT);height=len(en)*78-18+25+len(ja)*37;y=round((y0+y1-height)/2);cx=(x+x1)/2
+   for line in en:draw(im,line,cx,y,60,COND,width=x1-x-70);y+=78
+   y+=7
+   for line in ja:draw(im,line,cx,y,28,JA,width=x1-x-70,major=False);y+=37
+   ts=TEXT[start:];bb=[min(t['bbox'][0] for t in ts),min(t['bbox'][1] for t in ts),max(t['bbox'][2] for t in ts),max(t['bbox'][3] for t in ts)];gaps=[bb[0]-x-3,bb[1]-y0-3,x1-3-bb[2],y1-3-bb[3]];assert min(gaps)>=32,(i,gaps)
+   BOXES.append(dict(index=i+1,box=box,text_bbox=bb,padding_px=gaps,min_padding_px=min(gaps)))
+  for a,b,y in [(594,614,335),(1006,1026,335),(924,996,695)]:
+   d.line((a,y,b,y),fill=ACCENT,width=3);d.polygon([(b,y),(b-8,y-6),(b-8,y+6)],fill=ACCENT)
+  d.line([(1428,488),(1428,515),(592,515),(592,542)],fill=ACCENT,width=3);d.polygon([(592,542),(586,534),(598,534)],fill=ACCENT)
  elif key=='D_summary':
   rows=[(['NEGATIVE','CONFESSION'],['否定告白']),(['42 GODS'],['42柱の神々']),(['SPELL 30B','— WORDS','FOR THE','HEART'],['30B章','心臓への言葉']),(['THE SCALE','IN BALANCE'],['天秤がつり合う']),(['BEFORE','OSIRIS'],['オシリスの前へ'])]
   for i,(en,ja) in enumerate(rows):
@@ -86,6 +105,7 @@ def main():
  assets={a['met_object_id']:a for a in read(ROOT/'records/source_assets.json')['assets']};shots=[];cards=[]
  for seg in content('en')['segments']:
   for key in seg['visuals']:
+   if VERSION=='v02' and key=='E10B':continue
    TEXT.clear();BOXES.clear();meta={}
    if key in CONFIG:im,meta=art(key,assets)
    elif key=='credits':im=credits();meta=dict(color_class='credits',camera_band=[110,1080])

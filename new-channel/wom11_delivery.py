@@ -2,7 +2,7 @@
 import numpy as np
 import soundfile as sf
 from PIL import Image,ImageDraw,ImageFont,ImageOps,ImageFilter
-from wom11_produce import ROOT,REPO,read,save,sha,ff,content,SR
+from wom11_produce import ROOT,REPO,read,save,sha,ff,content,SR,VERSION
 from wom11_visuals import BG,INK,BOLD
 SOURCES=[
 ('E. A. Wallis Budge, The Book of the Dead: The Papyrus of Ani (1895), pp. 257–259, 344–351; text reference only','https://archive.org/details/TheBookOfTheDead-Budge-1895'),
@@ -61,5 +61,10 @@ def main():
   body+='\n\nEnglish voice: Kokoro / Heart (af_heart)\n日本語音声：VOICEVOX:冥鳴ひまり\nhttps://www.meimeihimari.com/terms-of-use\nhttps://voicevox.hiroshiba.jp/\nMusic: QO_THEME_A02 — Suno.\nDiagrams and editing: Quiet Origins.\n\n#BookOfTheDead #AncientEgypt #QuietOrigins\n';assert len(body)<=5000,(lang,len(body))
   info=f"# EP011 投稿情報・下書き\n\n## Title\n\n{c[lang]['title']}\n\n## Description\n\n{body}\n## 制作メモ（概要欄に含めない）\n\n共通尺 {m['duration_seconds']:.6f}秒。概要欄 {len(body)}字。本人の全編試聴とサムネA/B選択待ち。公開予定2026-11-10 09:00 JST（予約・投稿は未実施）。\n"
   (ROOT/f'deliverables/EP011_upload_info_{lang}.md').write_text(info)
- auditions();thumbnails();print('DELIVERY COMPLETE',flush=True)
+ if VERSION=='v01':auditions();thumbnails()
+ else:
+  p=ROOT/'deliverables/EP011_source_credits.md';p.write_text(p.read_text().replace('P10 3.4× maximum.','P10 scale 3.4×, Ammit 2.5× maximum.'))
+  for lang in ['en','ja']:
+   p=ROOT/f'deliverables/EP011_upload_info_{lang}.md';p.write_text(p.read_text().replace('本人の全編試聴とサムネA/B選択待ち。','本人の全編試聴待ち。サムネは本人承認済みのA。'))
+ print('DELIVERY COMPLETE',flush=True)
 if __name__=='__main__':main()
