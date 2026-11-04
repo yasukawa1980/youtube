@@ -28,6 +28,7 @@ HERE = Path(__file__).resolve().parent
 SSD = Path("/Volumes/ESD-EPB/BGM/4_Waves of Japan")
 TARGETS = {
     # ★ESD-EPBが外れているときは、内蔵の作業フォルダを見る（先に見つかったほうを使う）
+    "wave12": HERE.parent / "WAVE12_川霧の渡し場" / "本編映像" / "wave12_川霧の渡し場_3時間.mp4",
     "wave11": HERE.parent / "WAVE11_雪の無人駅" / "本編映像" / "wave11_雪の無人駅_3時間.mp4",
     "wave10": HERE.parent / "WAVE10_時雨の山寺" / "本編映像" / "wave10_時雨の山寺_3時間.mp4",
     "wave09": HERE.parent / "WAVE09_天の川の高原" / "本編映像" / "wave09_天の川の高原_3時間.mp4",

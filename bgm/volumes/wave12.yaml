@@ -1,0 +1,49 @@
+genre: waves
+volume: 12
+slug: wave12
+dir: /Users/ryo/youtube/bgm/WAVE12_川霧の渡し場
+# ★2026/10/8〜の標準：題字は [用途, 名前]（太い明朝W6はジャンル側で既定オン）。
+#   水音・環境音は入っていないので「川の音」とは書かない。
+#   「霧の夜に眠る」は「霧」が2回続き、「川辺で眠る」は「川」が2回続くので「水辺で眠る」にする。
+title_lines:
+- 水辺で眠る
+- 川霧の渡し場
+thumb_sub: 6→2Hz シータ波〜デルタ波 バイノーラルビート
+thumb:
+  sub_family: jp
+  title_fit: 730   # 「場」が舟の艫（x≈817）にかからないように
+runtime: 3 HOURS
+# ★画題は「晩秋の夜、広い川の古い渡し場（柱の灯り1つ・つないだ小舟1艘）」。月を出さない巻。
+#   霧の巻は WAVE02「霧の水庭」があるが、庭ではなく川。渡し場はどのラインでも初めて。
+# ★サムネの地は本編と別に起こした専用画（Codexの生成後に置く）。
+background: /Users/ryo/youtube/bgm/WAVE12_川霧の渡し場/画像/wave12_サムネ_v1.png
+cta: true
+thumb_layout:
+  brand: 260
+  t1: 370
+  sub: 840
+images:
+- wave12_01_暮れ方の川.png
+- wave12_02_灯ともる渡し場.png
+- wave12_03_霧の立つ夜.png
+- wave12_04_夜更けの川霧.png
+- wave12_05_未明の水面.png
+scenes:
+- 暮れ方の川
+- 灯ともる渡し場
+- 霧の立つ夜
+- 夜更けの川霧
+- 未明の水面
+
+video:
+  still: true
+  card: /Users/ryo/youtube/bgm/WAVE05_雪明かりの書院/画像/エンドカード_waves.png
+  xfade: 10
+  supersample: [1920, 1080]
+  zoom_max: 1.0
+  encode: {vcodec: libx264, preset: fast, crf: 18}
+  card_len: 15
+  card_xfade: 2
+
+# ★実際の本編は bgmkit ではなく wavekit/連続合成.py（音）と wavekit/静止本編.py（映像）で作る。
+#   この yaml はサムネ生成と設定の記録のためだけに置いている。

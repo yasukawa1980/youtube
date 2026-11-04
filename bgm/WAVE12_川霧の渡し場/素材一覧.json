@@ -1,0 +1,911 @@
+{
+  "volume": "WAVE12",
+  "title": "川霧の渡し場",
+  "brand": "Whispers of Japan",
+  "line": "Waves of Japan",
+  "scope": "承認済み第3場面を直接編集元に、第1・第2・第4・第5場面を各1回編集生成し露出調整。第3場面・サムネは変更なし。音声作業・commit・pushなし。",
+  "generation_tool": "built-in image_gen",
+  "prompt_source": "bgm/WAVE12_川霧の渡し場/画像プロンプト.md",
+  "prompt_policy": "該当するtextコードブロック全文を改変・追加せず使用（コードフェンスと終端改行を除く）。",
+  "generation_count": 6,
+  "assets": [
+    {
+      "id": "scene3",
+      "filename": "wave12_03_霧の立つ夜.png",
+      "prompt": "Use case: photorealistic-natural\nAsset type: WAVE12 \"川霧の渡し場 / River Mist at an Old Ferry\" scene 3 master background for a three-hour Japanese ambient sleep film, full-bleed wide 16:9 landscape. This image is the reference from which four other scenes will be edited, so every element must be clear, stable and well defined.\nPrimary request: Create one polished, restrained photorealistic image of an old rural ferry crossing on a wide, slow river in Japan, at night in late autumn, as low river mist begins to rise from the water. One paper lantern on a wooden post gives the only warm light. One small empty wooden ferry boat is moored at a short timber jetty. This is the visual definition image of the volume, not a generic misty lake postcard.\nScene/backdrop: A wide calm river fills the lower half and more of the frame. From the right edge, a short low jetty of old dark timber on wooden piles reaches out over the water to about fifty-five percent of the frame width. At the end of the jetty stands one weathered wooden post, at roughly sixty to sixty-five percent of the frame width. A small, plain, empty, flat-bottomed wooden boat is moored alongside the jetty with its bow pointing toward the left, between about forty-eight and sixty-five percent of the frame width. A few old mooring piles stand in the shallow water near the jetty. Beyond the river, the far bank is a long low dark line of reeds and trees, and behind it soft layered hills fade into a low, even overcast sky. Thin layers of mist drift low over the water, thicker toward the far bank, while the far hills remain visible as soft silhouettes.\nSubject: One small traditional Japanese paper lantern, plain with no writing, hangs from the top of the wooden post and glows warm amber. Its long soft reflection falls straight down across the still water toward the camera. The lantern and the boat must be distinct and clearly placed, because their positions will be held fixed in every later scene.\nStyle/medium: Highly natural cinematic night photography on a tripod, long exposure that smooths the water, believable rural Japanese river atmosphere, restrained realism, gentle telephoto compression. Not an illustration, not anime, not fantasy, not a poster, not HDR.\nComposition/framing: The camera is very low, just above the surface of the water, out on the river, looking toward the jetty and the far bank, wide 16:9. The whole foreground and at least the lower half of the frame is unbroken water with no shore, pebbles or ground in the foreground. The LEFT THIRD holds only still water, low mist and the faint far bank — no lantern, no boat and no jetty in it — so it stays calm negative space for a later title; add no text. The jetty, post, lantern and boat sit from the centre to the right so that a later 9:16 portrait crop taken around sixty to sixty-five percent of the width contains the lantern, the bow of the boat and the end of the jetty.\nLighting/mood: Night under a thin overcast. The only light sources are the one lantern and the faint cool blue-grey glow of the sky diffused in the mist. Warm amber lantern light against cool blue-grey mist and dark water. Calm, hushed, soft, lonely but gentle, premium, sleepy. Keep tones READABLE: the timber grain, the boat planks, the piles and the far hills must stay visible; no flat grey fog over the whole frame and no crushed featureless black. The lantern must not clip to a large white blob: keep it as a small warm glow with the paper and frame visible.\nMaterials/textures: Still dark water with only the faintest ripples, old grey-brown timber, weathered boat planks, a plain rope mooring line, washi paper lantern, soft layered mist, dry late-autumn reeds on the far bank.\nConstraints: No moon, no stars, no visible sun, no people, no boatman, no oar in use, no cargo, no footprints, no umbrellas, no hands, no animals, no birds, no bridge, no cars, no electric poles, no power lines, no city lights, no other lanterns, no lit windows, no signboards, no notice boards, no name plates, no readable characters, no text, no logo, no watermark, no snow, no cherry blossom, no red autumn leaves, no bamboo, no torii, no temple, no pagoda, no bokeh balls, no lens flare, no light rays, no sparkle, no strong vignette.\nOutput intent: A calm reference image whose geometry — jetty, piles, post, lantern, boat, far bank and hills — will be kept pixel-identical while light and mist are changed in four later scenes.",
+      "generation_started_at_utc": "2026-11-04 04:53:53 UTC",
+      "generation_completed_at_utc": "2026-11-04 04:54:21 UTC",
+      "tool_original_path": "/Users/ryo/.codex/generated_images/01a1a4e7-a3c1-77d3-b365-6d1f6aeb67b0/exec-855be47a-5598-44a7-9ae1-2a17b9a311f8.png",
+      "prompt_sha256": "aedb973898c8f271b2f128ff2202e703ad9c910a86a8373aed79b7cc4759da92",
+      "original": {
+        "file": "bgm/WAVE12_川霧の渡し場/画像/生成直後/wave12_03_霧の立つ夜.png",
+        "sha256": "ec17fb8417683d38fbbf121c54af580edc3ac7839383e8713b58467f7c946a00",
+        "bytes": 1803614,
+        "measurements": {
+          "width": 1672,
+          "height": 941,
+          "mean_luma_0_255": 66.09027947198084,
+          "luma_lt16_percent": 1.5808287020323486,
+          "luma_ge250_percent": 0.0,
+          "left_third_median_at_168x95": 58.029799999999994
+        }
+      },
+      "resized_before_exposure": {
+        "width": 1920,
+        "height": 1080,
+        "mean_luma_0_255": 66.09020649459875,
+        "luma_lt16_percent": 1.5776427469135803,
+        "luma_ge250_percent": 0.0,
+        "left_third_median_at_168x95": 58.0573
+      },
+      "exposure": {
+        "type": "uniform_linear_RGB_gain",
+        "multiplier": 0.33757507727568736,
+        "target_statistic": "mean_luma_0_255",
+        "target_value": 37.0,
+        "reason": "Original measurement above requested range. Applied after resize; no local masks, compositing, object edits, or regeneration."
+      },
+      "final": {
+        "file": "bgm/WAVE12_川霧の渡し場/画像/wave12_03_霧の立つ夜.png",
+        "sha256": "099eac4ae0c930cd9c12f1572d8465519578ecbc506a652b5a8f4ba57635273d",
+        "bytes": 1728140,
+        "measurements": {
+          "width": 1920,
+          "height": 1080,
+          "mean_luma_0_255": 36.99383576832562,
+          "luma_lt16_percent": 4.618730709876543,
+          "luma_ge250_percent": 0.0,
+          "left_third_median_at_168x95": 31.863599999999998
+        }
+      },
+      "targets": {
+        "mean_luma_0_255": [
+          34,
+          40
+        ],
+        "luma_lt16_percent_max": 20,
+        "luma_ge250_percent_max": 0.05
+      },
+      "targets_pass": true,
+      "visual_review": {
+        "method": "Assistant visual inspection of both generated original and final 1920x1080 image.",
+        "prohibited_objects_observed": [],
+        "lantern_count_observed": 1,
+        "foreground_land_observed": false,
+        "note": "舟と桟橋が下半分の上部にかかるため、下半分すべてを途切れない水面にする構図指定は未達。左1/3内に小さな係留杭も見える。再生成していない。",
+        "reviewed_at": "2026-11-04T04:56:49.133539+00:00"
+      }
+    },
+    {
+      "id": "thumbnail",
+      "filename": "wave12_サムネ_v1.png",
+      "prompt": "Use case: photorealistic-natural\nAsset type: WAVE12 \"川霧の渡し場\" thumbnail-only master, wide 16:9, never used inside the video.\nPrimary request: Create one photorealistic thumbnail image of an old ferry crossing on a wide Japanese river at night, with one warm paper lantern on a wooden post, its long reflection on still dark water, one small empty wooden boat moored at a short timber jetty, and soft low mist behind, composed so that a two-line title can sit in the left third.\nScene/backdrop: A quiet river in late autumn. The LEFT THIRD of the frame is filled by dark still water and the deep shadow of near dry reeds, reading as dark blue-grey with faint texture. The jetty, lantern and boat occupy the centre and right, with soft layered mist and dim hills behind.\nSubject: One plain washi paper lantern with no writing, hanging from a weathered wooden post, and one small empty flat-bottomed wooden boat tied beside the jetty.\nStyle/medium: Cinematic night photography, restrained realism, premium, no illustration or anime, no HDR.\nComposition/framing: Wide 16:9, camera low just above the water. The LEFT THIRD must be deliberately dark and quiet as a clean bed for a later title, but add no text. All bright elements — the lantern, its reflection and the mist glow — sit in the centre and right.\nLighting/mood: Warm amber lantern light against cool blue-grey mist, hushed and gentle. Keep the left third dark but not pure black. The lantern must not clip to a large white blob.\nMaterials/textures: Still dark water, old timber, weathered boat planks, washi paper, soft low mist, dry reeds.\nConstraints: No moon, stars, people, boatman, animals, birds, bridge, signboards, readable characters, text, logo, watermark, electric poles, power lines, city lights, other lights, snow, cherry blossom, red autumn leaves, bamboo, torii, temple, bokeh balls, lens flare, light rays or sparkle.\nOutput intent: A thumbnail master that still reads at 168 pixels wide: one warm lantern and its reflection at a lonely misty river crossing, against a dark left side reserved for the title.",
+      "generation_started_at_utc": "2026-11-04 04:54:37 UTC",
+      "generation_completed_at_utc": "2026-11-04 04:54:59 UTC",
+      "tool_original_path": "/Users/ryo/.codex/generated_images/01a1a4e7-a3c1-77d3-b365-6d1f6aeb67b0/exec-51cda019-b504-46f4-899d-8838951a0577.png",
+      "prompt_sha256": "93d55d91347414d40ea96b62a8b23b050c44fc6a6469c524bd35c9d109caa96e",
+      "original": {
+        "file": "bgm/WAVE12_川霧の渡し場/画像/生成直後/wave12_サムネ_v1.png",
+        "sha256": "694643b454d06984850e5fe1378ea7b740bf9e2ff7f1a8901a9962784f2512b5",
+        "bytes": 1797417,
+        "measurements": {
+          "width": 1672,
+          "height": 941,
+          "mean_luma_0_255": 42.524556869664266,
+          "luma_lt16_percent": 5.352584799841358,
+          "luma_ge250_percent": 0.0016525227666790393,
+          "left_third_median_at_168x95": 27.089399999999998
+        }
+      },
+      "resized_before_exposure": {
+        "width": 1920,
+        "height": 1080,
+        "mean_luma_0_255": 42.52388432330243,
+        "luma_lt16_percent": 5.345920138888889,
+        "luma_ge250_percent": 0.0017843364197530865,
+        "left_third_median_at_168x95": 27.089399999999998
+      },
+      "exposure": {
+        "type": "uniform_linear_RGB_gain",
+        "multiplier": 0.6238817997727892,
+        "target_statistic": "left_third_median_at_168x95",
+        "target_value": 20.0,
+        "reason": "Original measurement above requested range. Applied after resize; no local masks, compositing, object edits, or regeneration."
+      },
+      "final": {
+        "file": "bgm/WAVE12_川霧の渡し場/画像/wave12_サムネ_v1.png",
+        "sha256": "dd7601c85b0738bdcad1f5fa4faa7688ea2462a4638b202c8817f15aa4d7b9c9",
+        "bytes": 1963397,
+        "measurements": {
+          "width": 1920,
+          "height": 1080,
+          "mean_luma_0_255": 32.48493258410493,
+          "luma_lt16_percent": 13.43354552469136,
+          "luma_ge250_percent": 0.0,
+          "left_third_median_at_168x95": 20.0172
+        }
+      },
+      "targets": {
+        "left_third_median_at_168x95": [
+          15,
+          25
+        ]
+      },
+      "targets_pass": true,
+      "visual_review": {
+        "method": "Assistant visual inspection of both generated original and final 1920x1080 image.",
+        "prohibited_objects_observed": [],
+        "lantern_count_observed": 1,
+        "foreground_land_observed": false,
+        "note": "サムネ左手前の枯れ葦は指定プロンプトの要素。見える地面は確認していない。",
+        "reviewed_at": "2026-11-04T04:56:49.149877+00:00"
+      }
+    },
+    {
+      "id": "scene1",
+      "filename": "wave12_01_暮れ方の川.png",
+      "prompt": "Edit the supplied scene 3 image. Keep the jetty, the piles, the wooden post, the lantern, the moored boat, the far bank, the hills, the water line and the camera position EXACTLY as they are, pixel for pixel. Do not add, remove or move any light or object. Change only the light and the mist. It is late-autumn dusk: the overcast sky is a soft pale blue-grey with a little remaining daylight, the whole scene is lit by that dim, even, cool daylight, the water reflects the pale sky, and only a very thin trace of mist lies along the far bank. The lantern has just been lit and glows only faintly. Brighter than scene 3 but still a dim dusk: timber, boat planks and reeds readable, nothing clipped. Do not add a moon, stars, a visible sun, people, animals, birds, text, other lights, bokeh balls, lens flare or light rays.",
+      "generation_started_at_utc": "2026-11-04 04:57:52 UTC",
+      "generation_completed_at_utc": "2026-11-04 04:58:21 UTC",
+      "tool_original_path": "/Users/ryo/.codex/generated_images/01a1a4e7-a3c1-77d3-b365-6d1f6aeb67b0/exec-21520433-439b-4d34-8ed5-283847b0e9da.png",
+      "prompt_sha256": "6de89227797065e292ae985449d2fa1214a07e2403e1ceedf18d1806c15eab7e",
+      "generation_mode": "edit",
+      "edit_source": {
+        "file": "bgm/WAVE12_川霧の渡し場/画像/wave12_03_霧の立つ夜.png",
+        "sha256": "099eac4ae0c930cd9c12f1572d8465519578ecbc506a652b5a8f4ba57635273d",
+        "approved_by_user": true,
+        "note": "ユーザーよりClaudeの承認を受領。左の杭2本は現状維持。全4場面ともこの第3場面を直接編集元にした。"
+      },
+      "original": {
+        "file": "bgm/WAVE12_川霧の渡し場/画像/生成直後/wave12_01_暮れ方の川.png",
+        "sha256": "7573a8c4376f99382bc8b7799d2130268bf8c200dcad1897cb27e26763be3dbb",
+        "bytes": 2032104,
+        "measurements": {
+          "width": 1672,
+          "height": 941,
+          "mean_luma_0_255": 85.29854400629986,
+          "luma_lt16_percent": 2.105314004749096,
+          "luma_ge250_percent": 0.0
+        }
+      },
+      "resized_before_exposure": {
+        "width": 1920,
+        "height": 1080,
+        "mean_luma_0_255": 85.2994488178047,
+        "luma_lt16_percent": 2.093460648148148,
+        "luma_ge250_percent": 0.0
+      },
+      "final": {
+        "file": "bgm/WAVE12_川霧の渡し場/画像/wave12_01_暮れ方の川.png",
+        "sha256": "23546ecf153e6faa01b12410a8aa0fa1852dcd003c7aadb83ca1d0d949a7bbc6",
+        "bytes": 1986203,
+        "measurements": {
+          "width": 1920,
+          "height": 1080,
+          "mean_luma_0_255": 49.001634900366504,
+          "luma_lt16_percent": 5.475742669753086,
+          "luma_ge250_percent": 0.0
+        }
+      },
+      "exposure": {
+        "type": "uniform_linear_RGB_gain",
+        "multiplier": 0.3348880664270837,
+        "target_mean": 49,
+        "reason": "Requested luminance range not met before adjustment; applied a single global linear-RGB multiplier after LANCZOS resize. No geometry correction or compositing."
+      },
+      "targets": {
+        "mean_luma_0_255": [
+          46,
+          52
+        ],
+        "luma_lt16_percent_max": 10
+      },
+      "targets_pass": true,
+      "registration_check": {
+        "reference": "bgm/WAVE12_川霧の渡し場/画像/wave12_03_霧の立つ夜.png",
+        "method": "Local Sobel magnitude template matching with TM_CCOEFF_NORMED; +/-12px search; parabolic subpixel interpolation. Approximate translation only; lighting and mist affect estimates; NCC is not proof of identical shape. No image alignment applied.",
+        "rois_xywh": {
+          "提灯": [
+            1288,
+            267,
+            80,
+            97
+          ],
+          "舟の舳先": [
+            747,
+            542,
+            170,
+            110
+          ],
+          "舟全体": [
+            750,
+            540,
+            615,
+            115
+          ],
+          "左の杭2本": [
+            583,
+            536,
+            133,
+            117
+          ],
+          "提灯の柱": [
+            1380,
+            190,
+            65,
+            350
+          ],
+          "桟橋": [
+            1440,
+            535,
+            460,
+            130
+          ]
+        },
+        "measurements": {
+          "提灯": {
+            "dx_px": -0.04089526832103729,
+            "dy_px": -0.4935276508331299,
+            "edge_ncc": 0.6968838572502136,
+            "integer_dx_px": 0,
+            "integer_dy_px": 0,
+            "peak_at_search_boundary": false,
+            "translation_estimate_valid": true
+          },
+          "舟の舳先": {
+            "dx_px": -0.07548531144857407,
+            "dy_px": -0.058104511350393295,
+            "edge_ncc": 0.8899811506271362,
+            "integer_dx_px": 0,
+            "integer_dy_px": 0,
+            "peak_at_search_boundary": false,
+            "translation_estimate_valid": true
+          },
+          "舟全体": {
+            "dx_px": -0.4156845808029175,
+            "dy_px": -0.0627019926905632,
+            "edge_ncc": 0.8832522034645081,
+            "integer_dx_px": 0,
+            "integer_dy_px": 0,
+            "peak_at_search_boundary": false,
+            "translation_estimate_valid": true
+          },
+          "左の杭2本": {
+            "dx_px": -0.7851493507623672,
+            "dy_px": -0.06819075345993042,
+            "edge_ncc": 0.7702048420906067,
+            "integer_dx_px": -1,
+            "integer_dy_px": 0,
+            "peak_at_search_boundary": false,
+            "translation_estimate_valid": true
+          },
+          "提灯の柱": {
+            "dx_px": -0.10564155131578445,
+            "dy_px": 0.14305062592029572,
+            "edge_ncc": 0.7151942253112793,
+            "integer_dx_px": 0,
+            "integer_dy_px": 0,
+            "peak_at_search_boundary": false,
+            "translation_estimate_valid": true
+          },
+          "桟橋": {
+            "dx_px": -0.3109889328479767,
+            "dy_px": -0.008126883767545223,
+            "edge_ncc": 0.7990811467170715,
+            "integer_dx_px": 0,
+            "integer_dy_px": 0,
+            "peak_at_search_boundary": false,
+            "translation_estimate_valid": true
+          }
+        },
+        "pixel_identical_geometry_confirmed": false,
+        "correction_applied": false
+      },
+      "visual_review": {
+        "method": "Assistant inspected generated original and final 1920x1080 image; supplemented by local edge registration.",
+        "prohibited_objects_observed": [],
+        "lantern_count_observed": 1,
+        "geometry_notes": [
+          "局所輪郭照合で左の杭2本が約0.79px左（整数探索の最良値は左1px）。露出差の影響を含む推定。位置補正なし。"
+        ],
+        "approval_status": "awaiting_review",
+        "reviewed_at": "2026-11-04T05:02:17.824124+00:00"
+      },
+      "resize": {
+        "from": [
+          1672,
+          941
+        ],
+        "to": [
+          1920,
+          1080
+        ],
+        "method": "Pillow LANCZOS, no crop/pad"
+      }
+    },
+    {
+      "id": "scene2",
+      "filename": "wave12_02_灯ともる渡し場.png",
+      "prompt": "Edit the supplied scene 3 image. Keep the jetty, the piles, the wooden post, the lantern, the moored boat, the far bank, the hills, the water line and the camera position EXACTLY as they are, pixel for pixel. Do not add, remove or move any light or object. Change only the light and the mist. It is the last of the blue hour: the sky is a deep blue, the first thin mist is starting to lift from the water, and the lantern now glows warmly at full strength with a clear warm reflection on the water. Slightly brighter and bluer than scene 3. Keep timber and water readable; no crushed black and no clipped lantern. Do not add a moon, stars, a visible sun, people, animals, birds, text, other lights, bokeh balls, lens flare or light rays.",
+      "generation_started_at_utc": "2026-11-04 04:58:34 UTC",
+      "generation_completed_at_utc": "2026-11-04 04:58:58 UTC",
+      "tool_original_path": "/Users/ryo/.codex/generated_images/01a1a4e7-a3c1-77d3-b365-6d1f6aeb67b0/exec-379dd578-54ef-4ab4-853e-71ba5dadcf68.png",
+      "prompt_sha256": "c71b908f006c9389ee322cce16d1e41c8d9eac5223bc9e1fa2ea0337e94fead8",
+      "generation_mode": "edit",
+      "edit_source": {
+        "file": "bgm/WAVE12_川霧の渡し場/画像/wave12_03_霧の立つ夜.png",
+        "sha256": "099eac4ae0c930cd9c12f1572d8465519578ecbc506a652b5a8f4ba57635273d",
+        "approved_by_user": true,
+        "note": "ユーザーよりClaudeの承認を受領。左の杭2本は現状維持。全4場面ともこの第3場面を直接編集元にした。"
+      },
+      "original": {
+        "file": "bgm/WAVE12_川霧の渡し場/画像/生成直後/wave12_02_灯ともる渡し場.png",
+        "sha256": "57bd4ad9c33f90f8b5c32e54ade1838b38d6cec230b200d8746e1d6d832e7f69",
+        "bytes": 1839894,
+        "measurements": {
+          "width": 1672,
+          "height": 941,
+          "mean_luma_0_255": 49.24244895128364,
+          "luma_lt16_percent": 2.6160070982208685,
+          "luma_ge250_percent": 0.0
+        }
+      },
+      "resized_before_exposure": {
+        "width": 1920,
+        "height": 1080,
+        "mean_luma_0_255": 49.24308561419755,
+        "luma_lt16_percent": 2.5989583333333335,
+        "luma_ge250_percent": 0.0
+      },
+      "final": {
+        "file": "bgm/WAVE12_川霧の渡し場/画像/wave12_02_灯ともる渡し場.png",
+        "sha256": "d0c8435e125bef05b68180add476179fa0ef33c5f278f03185444cf167b90044",
+        "bytes": 2077624,
+        "measurements": {
+          "width": 1920,
+          "height": 1080,
+          "mean_luma_0_255": 40.99201904947918,
+          "luma_lt16_percent": 3.708381558641975,
+          "luma_ge250_percent": 0.0
+        }
+      },
+      "exposure": {
+        "type": "uniform_linear_RGB_gain",
+        "multiplier": 0.7144708331907168,
+        "target_mean": 41,
+        "reason": "Requested luminance range not met before adjustment; applied a single global linear-RGB multiplier after LANCZOS resize. No geometry correction or compositing."
+      },
+      "targets": {
+        "mean_luma_0_255": [
+          38,
+          44
+        ],
+        "luma_lt16_percent_max": 15
+      },
+      "targets_pass": true,
+      "registration_check": {
+        "reference": "bgm/WAVE12_川霧の渡し場/画像/wave12_03_霧の立つ夜.png",
+        "method": "Local Sobel magnitude template matching with TM_CCOEFF_NORMED; +/-12px search; parabolic subpixel interpolation. Approximate translation only; lighting and mist affect estimates; NCC is not proof of identical shape. No image alignment applied.",
+        "rois_xywh": {
+          "提灯": [
+            1288,
+            267,
+            80,
+            97
+          ],
+          "舟の舳先": [
+            747,
+            542,
+            170,
+            110
+          ],
+          "舟全体": [
+            750,
+            540,
+            615,
+            115
+          ],
+          "左の杭2本": [
+            583,
+            536,
+            133,
+            117
+          ],
+          "提灯の柱": [
+            1380,
+            190,
+            65,
+            350
+          ],
+          "桟橋": [
+            1440,
+            535,
+            460,
+            130
+          ]
+        },
+        "measurements": {
+          "提灯": {
+            "dx_px": -0.07761666178703308,
+            "dy_px": -0.2666323184967041,
+            "edge_ncc": 0.9033489227294922,
+            "integer_dx_px": 0,
+            "integer_dy_px": 0,
+            "peak_at_search_boundary": false,
+            "translation_estimate_valid": true
+          },
+          "舟の舳先": {
+            "dx_px": 0.21407683193683624,
+            "dy_px": -0.05259770154953003,
+            "edge_ncc": 0.8921049237251282,
+            "integer_dx_px": 0,
+            "integer_dy_px": 0,
+            "peak_at_search_boundary": false,
+            "translation_estimate_valid": true
+          },
+          "舟全体": {
+            "dx_px": -0.06075502932071686,
+            "dy_px": -0.05340031906962395,
+            "edge_ncc": 0.922517716884613,
+            "integer_dx_px": 0,
+            "integer_dy_px": 0,
+            "peak_at_search_boundary": false,
+            "translation_estimate_valid": true
+          },
+          "左の杭2本": {
+            "dx_px": -0.09577707946300507,
+            "dy_px": 0.027396254241466522,
+            "edge_ncc": 0.7671984434127808,
+            "integer_dx_px": 0,
+            "integer_dy_px": 0,
+            "peak_at_search_boundary": false,
+            "translation_estimate_valid": true
+          },
+          "提灯の柱": {
+            "dx_px": 0.06483107060194016,
+            "dy_px": 0.09274229407310486,
+            "edge_ncc": 0.8511220812797546,
+            "integer_dx_px": 0,
+            "integer_dy_px": 0,
+            "peak_at_search_boundary": false,
+            "translation_estimate_valid": true
+          },
+          "桟橋": {
+            "dx_px": -0.009257015772163868,
+            "dy_px": -0.026850873604416847,
+            "edge_ncc": 0.869097113609314,
+            "integer_dx_px": 0,
+            "integer_dy_px": 0,
+            "peak_at_search_boundary": false,
+            "translation_estimate_valid": true
+          }
+        },
+        "pixel_identical_geometry_confirmed": false,
+        "correction_applied": false
+      },
+      "visual_review": {
+        "method": "Assistant inspected generated original and final 1920x1080 image; supplemented by local edge registration.",
+        "prohibited_objects_observed": [],
+        "lantern_count_observed": 1,
+        "geometry_notes": [
+          "測定ROIの並進推定はいずれも各軸0.3px未満。ただし輪郭・形状のピクセル完全一致を保証する測定ではない。"
+        ],
+        "approval_status": "awaiting_review",
+        "reviewed_at": "2026-11-04T05:02:17.824124+00:00"
+      },
+      "resize": {
+        "from": [
+          1672,
+          941
+        ],
+        "to": [
+          1920,
+          1080
+        ],
+        "method": "Pillow LANCZOS, no crop/pad"
+      }
+    },
+    {
+      "id": "scene4",
+      "filename": "wave12_04_夜更けの川霧.png",
+      "prompt": "Edit the supplied scene 3 image. Keep the jetty, the piles, the wooden post, the lantern, the moored boat, the far bank, the hills, the water line and the camera position EXACTLY as they are, pixel for pixel. Do not add, remove or move any light or object. Change only the light and the mist. It is deep night: the sky is very dark, and the river mist has thickened into soft low layers that hide the foot of the far bank, while the jetty, the boat and the lantern stay clear. The lantern makes a small warm halo in the mist. The far hills must remain visible as very soft silhouettes, and the mist must stay in layers rather than a flat grey sheet. Do not add a moon, stars, people, animals, birds, text, other lights, bokeh balls, lens flare or light rays.",
+      "generation_started_at_utc": "2026-11-04 04:59:11 UTC",
+      "generation_completed_at_utc": "2026-11-04 04:59:38 UTC",
+      "tool_original_path": "/Users/ryo/.codex/generated_images/01a1a4e7-a3c1-77d3-b365-6d1f6aeb67b0/exec-7ed76d31-296f-4dc8-a2ae-d3ed6e253811.png",
+      "prompt_sha256": "2c447fa723802029fcf926e5c094cb7c35e36041c9bef99677470f8e602ddabe",
+      "generation_mode": "edit",
+      "edit_source": {
+        "file": "bgm/WAVE12_川霧の渡し場/画像/wave12_03_霧の立つ夜.png",
+        "sha256": "099eac4ae0c930cd9c12f1572d8465519578ecbc506a652b5a8f4ba57635273d",
+        "approved_by_user": true,
+        "note": "ユーザーよりClaudeの承認を受領。左の杭2本は現状維持。全4場面ともこの第3場面を直接編集元にした。"
+      },
+      "original": {
+        "file": "bgm/WAVE12_川霧の渡し場/画像/生成直後/wave12_04_夜更けの川霧.png",
+        "sha256": "cecdc2c1b0fb6f94f9376e23bacc865b5547668af5b64c915dda64d8fccafe0e",
+        "bytes": 1503882,
+        "measurements": {
+          "width": 1672,
+          "height": 941,
+          "mean_luma_0_255": 23.579322130966244,
+          "luma_lt16_percent": 41.19682054619691,
+          "luma_ge250_percent": 0.0
+        }
+      },
+      "resized_before_exposure": {
+        "width": 1920,
+        "height": 1080,
+        "mean_luma_0_255": 23.579732497685175,
+        "luma_lt16_percent": 41.22087191358025,
+        "luma_ge250_percent": 0.0
+      },
+      "final": {
+        "file": "bgm/WAVE12_川霧の渡し場/画像/wave12_04_夜更けの川霧.png",
+        "sha256": "23e278f7405ce047ba8af8272c7ac026338b65460d53c05e73ec3e36f2cfa0e0",
+        "bytes": 1826748,
+        "measurements": {
+          "width": 1920,
+          "height": 1080,
+          "mean_luma_0_255": 34.99989994184029,
+          "luma_lt16_percent": 10.880208333333332,
+          "luma_ge250_percent": 4.822530864197531e-05
+        }
+      },
+      "exposure": {
+        "type": "uniform_linear_RGB_gain",
+        "multiplier": 1.9014630398305599,
+        "target_mean": 35,
+        "reason": "Requested luminance range not met before adjustment; applied a single global linear-RGB multiplier after LANCZOS resize. No geometry correction or compositing."
+      },
+      "targets": {
+        "mean_luma_0_255": [
+          32,
+          38
+        ],
+        "luma_lt16_percent_max": 20
+      },
+      "targets_pass": true,
+      "registration_check": {
+        "reference": "bgm/WAVE12_川霧の渡し場/画像/wave12_03_霧の立つ夜.png",
+        "method": "Local Sobel magnitude template matching with TM_CCOEFF_NORMED; +/-12px search; parabolic subpixel interpolation. Approximate translation only; lighting and mist affect estimates; NCC is not proof of identical shape. No image alignment applied.",
+        "rois_xywh": {
+          "提灯": [
+            1288,
+            267,
+            80,
+            97
+          ],
+          "舟の舳先": [
+            747,
+            542,
+            170,
+            110
+          ],
+          "舟全体": [
+            750,
+            540,
+            615,
+            115
+          ],
+          "左の杭2本": [
+            583,
+            536,
+            133,
+            117
+          ],
+          "提灯の柱": [
+            1380,
+            190,
+            65,
+            350
+          ],
+          "桟橋": [
+            1440,
+            535,
+            460,
+            130
+          ]
+        },
+        "measurements": {
+          "提灯": {
+            "dx_px": -0.7371273934841156,
+            "dy_px": 0.41271352767944336,
+            "edge_ncc": 0.8898116946220398,
+            "integer_dx_px": -1,
+            "integer_dy_px": 0,
+            "peak_at_search_boundary": false,
+            "translation_estimate_valid": true
+          },
+          "舟の舳先": {
+            "dx_px": -0.2847612500190735,
+            "dy_px": 0.11496719717979431,
+            "edge_ncc": 0.9210514426231384,
+            "integer_dx_px": 0,
+            "integer_dy_px": 0,
+            "peak_at_search_boundary": false,
+            "translation_estimate_valid": true
+          },
+          "舟全体": {
+            "dx_px": -0.6104727387428284,
+            "dy_px": 0.10349830240011215,
+            "edge_ncc": 0.9427876472473145,
+            "integer_dx_px": -1,
+            "integer_dy_px": 0,
+            "peak_at_search_boundary": false,
+            "translation_estimate_valid": true
+          },
+          "左の杭2本": {
+            "dx_px": 0.058857403695583344,
+            "dy_px": 0.09278944879770279,
+            "edge_ncc": 0.8386213183403015,
+            "integer_dx_px": 0,
+            "integer_dy_px": 0,
+            "peak_at_search_boundary": false,
+            "translation_estimate_valid": true
+          },
+          "提灯の柱": {
+            "dx_px": -0.5819776952266693,
+            "dy_px": 0.32370707392692566,
+            "edge_ncc": 0.8061495423316956,
+            "integer_dx_px": -1,
+            "integer_dy_px": 0,
+            "peak_at_search_boundary": false,
+            "translation_estimate_valid": true
+          },
+          "桟橋": {
+            "dx_px": -0.36878490447998047,
+            "dy_px": 0.06744799762964249,
+            "edge_ncc": 0.8874264359474182,
+            "integer_dx_px": 0,
+            "integer_dy_px": 0,
+            "peak_at_search_boundary": false,
+            "translation_estimate_valid": true
+          }
+        },
+        "pixel_identical_geometry_confirmed": false,
+        "correction_applied": false
+      },
+      "visual_review": {
+        "method": "Assistant inspected generated original and final 1920x1080 image; supplemented by local edge registration.",
+        "prohibited_objects_observed": [],
+        "lantern_count_observed": 1,
+        "geometry_notes": [
+          "局所輪郭照合で提灯が左0.74px・下0.41px、舟全体が左0.61px、柱が左0.58px・下0.32pxと推定。提灯の1画素も動かさない要件について完全一致は確認できない。位置補正なし。"
+        ],
+        "approval_status": "awaiting_review",
+        "reviewed_at": "2026-11-04T05:02:17.824124+00:00"
+      },
+      "resize": {
+        "from": [
+          1672,
+          941
+        ],
+        "to": [
+          1920,
+          1080
+        ],
+        "method": "Pillow LANCZOS, no crop/pad"
+      }
+    },
+    {
+      "id": "scene5",
+      "filename": "wave12_05_未明の水面.png",
+      "prompt": "Edit the supplied scene 3 image. Keep the jetty, the piles, the wooden post, the lantern, the moored boat, the far bank, the hills, the water line and the camera position EXACTLY as they are, pixel for pixel. Do not add, remove or move any light or object. Change only the light and the mist. It is the stillest hour before dawn: the mist has thinned and settled to a faint veil on the water, the sky above the hills is the first very dark indigo of pre-dawn, the water takes a deep cool blue tone, and the lantern glows low and small. This is the darkest image of the volume, but it must NOT be crushed: the boat planks, the jetty timbers, the piles and the far bank must stay legible. No large featureless black areas. Do not add a moon, stars, a visible sun, people, animals, birds, text, other lights, bokeh balls, lens flare or light rays.",
+      "generation_started_at_utc": "2026-11-04 04:59:50 UTC",
+      "generation_completed_at_utc": "2026-11-04 05:00:22 UTC",
+      "tool_original_path": "/Users/ryo/.codex/generated_images/01a1a4e7-a3c1-77d3-b365-6d1f6aeb67b0/exec-f98f1a7e-c88c-4596-9e8f-710203e18fc3.png",
+      "prompt_sha256": "52fb2c5d1de4ea85a7d8b5ad39e81439499a967dd6e0ec50f23d5604e6500359",
+      "generation_mode": "edit",
+      "edit_source": {
+        "file": "bgm/WAVE12_川霧の渡し場/画像/wave12_03_霧の立つ夜.png",
+        "sha256": "099eac4ae0c930cd9c12f1572d8465519578ecbc506a652b5a8f4ba57635273d",
+        "approved_by_user": true,
+        "note": "ユーザーよりClaudeの承認を受領。左の杭2本は現状維持。全4場面ともこの第3場面を直接編集元にした。"
+      },
+      "original": {
+        "file": "bgm/WAVE12_川霧の渡し場/画像/生成直後/wave12_05_未明の水面.png",
+        "sha256": "c0933e99ef44dcc5fa45725f44de27847fe5673fe1352d86ea2ae3c92b70903c",
+        "bytes": 1648524,
+        "measurements": {
+          "width": 1672,
+          "height": 941,
+          "mean_luma_0_255": 21.34703065175498,
+          "luma_lt16_percent": 17.373416756072384,
+          "luma_ge250_percent": 0.0
+        }
+      },
+      "resized_before_exposure": {
+        "width": 1920,
+        "height": 1080,
+        "mean_luma_0_255": 21.34717897897376,
+        "luma_lt16_percent": 17.36159336419753,
+        "luma_ge250_percent": 0.0
+      },
+      "final": {
+        "file": "bgm/WAVE12_川霧の渡し場/画像/wave12_05_未明の水面.png",
+        "sha256": "9eae2cb6c987492e019e3fb9dfbce8fe1ef27d2e8834348b45fc617ddbf660b5",
+        "bytes": 2099373,
+        "measurements": {
+          "width": 1920,
+          "height": 1080,
+          "mean_luma_0_255": 31.002341581307853,
+          "luma_lt16_percent": 4.6732253086419755,
+          "luma_ge250_percent": 0.0
+        }
+      },
+      "exposure": {
+        "type": "uniform_linear_RGB_gain",
+        "multiplier": 1.7953584546921775,
+        "target_mean": 31,
+        "reason": "Requested luminance range not met before adjustment; applied a single global linear-RGB multiplier after LANCZOS resize. No geometry correction or compositing."
+      },
+      "targets": {
+        "mean_luma_0_255": [
+          28,
+          34
+        ],
+        "luma_lt16_percent_max": 25
+      },
+      "targets_pass": true,
+      "registration_check": {
+        "reference": "bgm/WAVE12_川霧の渡し場/画像/wave12_03_霧の立つ夜.png",
+        "method": "Local Sobel magnitude template matching with TM_CCOEFF_NORMED; +/-12px search; parabolic subpixel interpolation. Approximate translation only; lighting and mist affect estimates; NCC is not proof of identical shape. No image alignment applied.",
+        "rois_xywh": {
+          "提灯": [
+            1288,
+            267,
+            80,
+            97
+          ],
+          "舟の舳先": [
+            747,
+            542,
+            170,
+            110
+          ],
+          "舟全体": [
+            750,
+            540,
+            615,
+            115
+          ],
+          "左の杭2本": [
+            583,
+            536,
+            133,
+            117
+          ],
+          "提灯の柱": [
+            1380,
+            190,
+            65,
+            350
+          ],
+          "桟橋": [
+            1440,
+            535,
+            460,
+            130
+          ]
+        },
+        "measurements": {
+          "提灯": {
+            "dx_px": 12.0,
+            "dy_px": 3.1004856005311012,
+            "edge_ncc": 0.1682661920785904,
+            "integer_dx_px": 12,
+            "integer_dy_px": 3,
+            "peak_at_search_boundary": true,
+            "translation_estimate_valid": false
+          },
+          "舟の舳先": {
+            "dx_px": 0.2625356614589691,
+            "dy_px": -0.08897393941879272,
+            "edge_ncc": 0.8645846843719482,
+            "integer_dx_px": 0,
+            "integer_dy_px": 0,
+            "peak_at_search_boundary": false,
+            "translation_estimate_valid": true
+          },
+          "舟全体": {
+            "dx_px": -0.5350411236286163,
+            "dy_px": -0.08880649507045746,
+            "edge_ncc": 0.8682634234428406,
+            "integer_dx_px": -1,
+            "integer_dy_px": 0,
+            "peak_at_search_boundary": false,
+            "translation_estimate_valid": true
+          },
+          "左の杭2本": {
+            "dx_px": -0.05885833874344826,
+            "dy_px": -0.08468164503574371,
+            "edge_ncc": 0.7072767615318298,
+            "integer_dx_px": 0,
+            "integer_dy_px": 0,
+            "peak_at_search_boundary": false,
+            "translation_estimate_valid": true
+          },
+          "提灯の柱": {
+            "dx_px": -0.6135758459568024,
+            "dy_px": 0.010019670240581036,
+            "edge_ncc": 0.7606937289237976,
+            "integer_dx_px": -1,
+            "integer_dy_px": 0,
+            "peak_at_search_boundary": false,
+            "translation_estimate_valid": true
+          },
+          "桟橋": {
+            "dx_px": -0.21023249626159668,
+            "dy_px": -0.07012075185775757,
+            "edge_ncc": 0.7710675001144409,
+            "integer_dx_px": 0,
+            "integer_dy_px": 0,
+            "peak_at_search_boundary": false,
+            "translation_estimate_valid": true
+          }
+        },
+        "pixel_identical_geometry_confirmed": false,
+        "correction_applied": false
+      },
+      "visual_review": {
+        "method": "Assistant inspected generated original and final 1920x1080 image; supplemented by local edge registration.",
+        "prohibited_objects_observed": [],
+        "lantern_count_observed": 1,
+        "geometry_notes": [
+          "提灯本体が明確に小さくなり、下寄りになっている。基準との形状一致要件は未達。再生成・形状修正なし。",
+          "提灯は形状変化のため局所並進照合が不成立（NCC 0.168、探索端）。記録上のdx=12pxは有効な移動量ではない。",
+          "舟全体は約0.54px左、柱は約0.61px左と推定。位置補正なし。"
+        ],
+        "approval_status": "awaiting_review",
+        "reviewed_at": "2026-11-04T05:02:17.824124+00:00"
+      },
+      "resize": {
+        "from": [
+          1672,
+          941
+        ],
+        "to": [
+          1920,
+          1080
+        ],
+        "method": "Pillow LANCZOS, no crop/pad"
+      }
+    }
+  ],
+  "prompt_source_sha256": "0f8f67a743451b10a41da729da7ed0339391df664be8b6bf908f27466de1e390",
+  "measurement_method": {
+    "luma": "Encoded sRGB 8-bit RGB: Yprime=0.2126 R+0.7152 G+0.0722 B, float64, no rounding before thresholds. Percent units are 0-100.",
+    "thumbnail": "Pillow LANCZOS to 168x95, compute Yprime, median of columns 0 through 55 inclusive over all 95 rows.",
+    "resize": "Pillow LANCZOS from 1672x941 to 1920x1080; no cropping or padding.",
+    "exposure": "Decode IEC sRGB to linear RGB, multiply all channels by one constant global gain, clip to [0,1], encode IEC sRGB, round to uint8 using numpy.rint. Geometry unchanged.",
+    "software": {
+      "Pillow": "11.3.0",
+      "numpy": "2.0.2"
+    }
+  },
+  "updated_at": "2026-11-04T05:02:17.824124+00:00",
+  "generation_time_note": "Tool-call start/end times recorded; exact model-side rendering instant is unavailable.",
+  "total_deliverable_bytes": 22306920,
+  "approval_history": [
+    {
+      "recorded_at": "2026-11-04T05:01:37.231561+00:00",
+      "assets": [
+        "scene3",
+        "thumbnail"
+      ],
+      "source": "ユーザーのメッセージでClaudeによる承認を確認。左の杭2本（幅31〜36%）をそのまま残す指示。"
+    }
+  ],
+  "verification": {
+    "checked_at": "2026-11-04T05:02:17.824124+00:00",
+    "all_recorded_image_sha256_verified": true,
+    "all_final_dimensions_1920x1080": true,
+    "all_prompts_match_source_blocks": true,
+    "approved_scene3_and_thumbnail_unchanged": true,
+    "new_edit_calls": 4,
+    "retries": 0,
+    "audio_work_performed": false,
+    "commit_performed": false,
+    "push_performed": false
+  }
+}
