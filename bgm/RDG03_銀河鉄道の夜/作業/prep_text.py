@@ -80,7 +80,8 @@ def main():
         para += 1
         disp = to_display(raw).strip('　 ')
         s_parts = split(to_spoken(raw, fixes))
-        d_sent = split(flat(disp))
+        d_sent = [re.sub(r'([、？！])。$', lambda m: '。' if m.group(1) == '、' else m.group(1), d)
+                  for d in split(flat(disp))]   # 字幕に「さあ、。」「？。」を出さない
         assert len(d_sent) == len(s_parts), (disp, s_parts)
         o = {'kind': 'para', 'para': para, 'display': disp,
              'sentences': s_parts, 'display_sentences': d_sent}
