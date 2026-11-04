@@ -1,0 +1,66 @@
+{
+  "request_sha256": "00836b2868e2612a7154b7586dc9a9c26b0b2db995d7704b4fb48c36636022c9",
+  "main_queries_sha256": "d043febbb50c5533d7358e667d0844d44a85bc70667c43e71331b22b645c853f",
+  "model_sha256": "beb0d1848dee9a49da392cc3df26958d46cfa35d321edf434f52949153f0df3a",
+  "voices_sha256": "bca610b8308e8d99f32e6fe4197e7ec01679264efed0cac9140fe9c29f1fbf7d",
+  "versions": {
+    "kokoro-onnx": "0.6.1",
+    "onnxruntime": "1.31.0",
+    "numpy": "2.3.5"
+  },
+  "scripts": [
+    {
+      "id": "H1",
+      "title": "A spell spoken to the heart",
+      "headline": "A SPELL SPOKEN TO THE HEART",
+      "text": "Spell 30B speaks directly to the heart. In an old translation, it begins, My heart my mother. Modern translators read it as a plea that the heart not speak against its owner. On this heart scarab, the museum identifies ten lines as Spell 30B.",
+      "words": 44,
+      "audio_file": "/Volumes/ESD-02/新チャンネル/ショート/EP011_v01_20261104/audio/H1_native.wav",
+      "audio_sha256": "5c09dbd295020b8c7bc5f8123be6b8ff82ad4ad4457fab65d90e26aa275e6ea5",
+      "native_audio_duration": 19.277958333333334,
+      "voice_onset_seconds": 0.04,
+      "last_voice_activity_seconds": 18.96,
+      "frames": 654,
+      "final_duration_seconds": 21.8,
+      "within_24_seconds": true,
+      "readings_applied": []
+    },
+    {
+      "id": "H2",
+      "title": "Heart and feather in balance",
+      "headline": "HEART AND FEATHER IN BALANCE",
+      "text": "People often say the heart had to be lighter than the feather. Here, the heart is not shown lighter than the feather. The two sides hang in balance. Museum descriptions speak of the heart balancing with Maat, truth and right order.",
+      "words": 41,
+      "audio_file": "/Volumes/ESD-02/新チャンネル/ショート/EP011_v01_20261104/audio/H2_native.wav",
+      "audio_sha256": "16ba3668af946d0e231a9c5d9fe6ae34f263393104ba22516d464d0453f4be20",
+      "native_audio_duration": 15.662625,
+      "voice_onset_seconds": 0.1,
+      "last_voice_activity_seconds": 15.34,
+      "frames": 545,
+      "final_duration_seconds": 18.166666666666668,
+      "within_24_seconds": true,
+      "readings_applied": []
+    },
+    {
+      "id": "H3",
+      "title": "42 gods, 42 denials",
+      "headline": "42 GODS, 42 DENIALS",
+      "text": "In Spell 125, the dead person lists the wrongs they never did. I have not stolen. Then they greet forty-two gods, each by name. Could you fail? Papyri made to help the dead live on are unlikely to show their owner being devoured.",
+      "words": 43,
+      "audio_file": "/Volumes/ESD-02/新チャンネル/ショート/EP011_v01_20261104/audio/H3_native.wav",
+      "audio_sha256": "12cc5ec6f1adc400717d582bfed53aa9fe8629b228f89734ccb46750d96afb68",
+      "native_audio_duration": 18.105958333333334,
+      "voice_onset_seconds": 0.13,
+      "last_voice_activity_seconds": 17.78,
+      "frames": 619,
+      "final_duration_seconds": 20.633333333333333,
+      "within_24_seconds": true,
+      "readings_applied": []
+    }
+  ],
+  "all_within_24_seconds": true,
+  "text_unchanged": true,
+  "speech_speed_modified_to_fit": false,
+  "human_full_listening": false,
+  "gate": "24 seconds including 2.5-second CTA; stop picture production and report on failure"
+}

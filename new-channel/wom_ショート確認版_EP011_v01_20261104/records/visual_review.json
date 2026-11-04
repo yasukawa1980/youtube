@@ -1,0 +1,93 @@
+{
+  "passed": true,
+  "reviewer": "Codex visual inspection of actual completed-MP4 sample images",
+  "reviewed_contact_sheets": 15,
+  "opening_frames_reviewed": 18,
+  "caption_pages_reviewed": 18,
+  "files": [
+    {
+      "file": "review/H1_all_captions.jpg",
+      "sha256": "7fb36ca5145b4f1f83385a9fcbe10bfde6e6415ef3661a20f2f74cf30938a417"
+    },
+    {
+      "file": "review/H1_opening.jpg",
+      "sha256": "91345794790623d836c0a1f435a2f9f1a79a5704b407629c88ba84cf61cad9b1"
+    },
+    {
+      "file": "review/H1_every2s.jpg",
+      "sha256": "b17cd79402f9ad43a55ff2d43c5e8b3214416aee48c229cb15a0b30cd71f297e"
+    },
+    {
+      "file": "review/H1_CTA.jpg",
+      "sha256": "dd4b972f2380272d63f83b65e33f9798d47ba0e0f558813de6b10b990c572921"
+    },
+    {
+      "file": "review/H1_cuts.jpg",
+      "sha256": "ecf58ab32f56d40f06ebea6a9c03f9cf837843ce15e3923bbdc9e67e42971753"
+    },
+    {
+      "file": "review/H2_all_captions.jpg",
+      "sha256": "4f667cc2085a283bfe61b02a007c538016456a41062ecd95d6401dfa4fab013e"
+    },
+    {
+      "file": "review/H2_opening.jpg",
+      "sha256": "5bc1d8bc21df11e6d5302ac56a421a92980ec2a1c8836d159c025ee1173660c6"
+    },
+    {
+      "file": "review/H2_every2s.jpg",
+      "sha256": "5aafc6278994b0f11e74b6c9f4598d184d172c9c9e1dac913e161e1c79041dcf"
+    },
+    {
+      "file": "review/H2_CTA.jpg",
+      "sha256": "aa2ec0d311848a96423285ae9edcd2f30e8901e316e7c7fe8a69eeb5824da554"
+    },
+    {
+      "file": "review/H2_cuts.jpg",
+      "sha256": "020e25e3ebd4668b948a253a756a8354603c1c9e619d4c6f7b13bfeef3953115"
+    },
+    {
+      "file": "review/H3_all_captions.jpg",
+      "sha256": "880bddd2c9381dbeff15cf58612c9464663fa4822091753a35a2d652c405edf3"
+    },
+    {
+      "file": "review/H3_opening.jpg",
+      "sha256": "c728ac76b732a7a8cbe321acb6a5336349b1964dcde09aca3cde40cfe8b06428"
+    },
+    {
+      "file": "review/H3_every2s.jpg",
+      "sha256": "563a1b149657cb61b6d79905f3a9a68ce893505972cad6ce88e68f82eec6a5cd"
+    },
+    {
+      "file": "review/H3_CTA.jpg",
+      "sha256": "e14c714eccefb52da85a9cae33333f064049ce5566a5f8132586263eeb33327b"
+    },
+    {
+      "file": "review/H3_cuts.jpg",
+      "sha256": "3f66e81ec8b981f736d93509c4ac642df33876bc3ac0ff24ea2be42107f31fa7"
+    }
+  ],
+  "source_videos": [
+    {
+      "id": "H1",
+      "sha256": "8e4dbc7aeb2cc2e0ce6fbff9d7daa2366e2ac9eed5db3fd570a0efb9badda56c"
+    },
+    {
+      "id": "H2",
+      "sha256": "96d5f5cc367919ccb3057a3d305457ee01f6c97e92506b9bb5b544c7a039e67b"
+    },
+    {
+      "id": "H3",
+      "sha256": "042bf32f4394f5590b30f0329621d7adf0473a32f4f4cda146b5f8d4503d6a5e"
+    }
+  ],
+  "findings": [
+    "All captions and source labels are readable without clipping or overlap.",
+    "H2 keeps both scale pans in view, then reveals the specified lower-register region without the shrine or Ammit.",
+    "H3 uses the two upper rows and the separate Ammit area; complete head, body and legs remain visible.",
+    "Exact D_balance/D_stolen wording inspected; captions and CTA stay below the card text.",
+    "All first-2.5-second, every-two-second, cut and CTA contact sheets inspected; no unexpected or blank frames observed."
+  ],
+  "human_full_listening": false,
+  "claude_review_pending": true,
+  "youtube_posted": false
+}
