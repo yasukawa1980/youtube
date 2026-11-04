@@ -1,0 +1,37 @@
+{
+  "passed": true,
+  "reviewed_images": [
+    {
+      "file": "D_balance_card.jpg",
+      "sha256": "6d84f7750620913ad5c438c8a96457f8e3710a406f9590dfd77e0ab845beecac"
+    },
+    {
+      "file": "D_stolen_card.jpg",
+      "sha256": "d1b37493cea00d44bd08ae557004abb4ba6bbfbb666e73519289853f4c5ad201"
+    },
+    {
+      "file": "H2_0303.jpg",
+      "sha256": "a45bc74bed39b4849a807d0f60b0d42771a51db14b269e6ad8e6cf2425e0f693"
+    },
+    {
+      "file": "H2_0470.jpg",
+      "sha256": "8feb52dbdabbcb9383194226e617504f4e758a8a4c27c8d07d9edcda1d0ec4dd"
+    },
+    {
+      "file": "H3_0173.jpg",
+      "sha256": "9f36c4f8f3d76a6950f4937658a62a865683c4426d6dde3302294858b897f2fd"
+    }
+  ],
+  "checks": [
+    "Removed only the three requested line-end separators",
+    "Card lines centered with unchanged fonts and font sizes",
+    "Balance card shifted uniformly upward 60 pixels",
+    "103-pixel glyph gap to CTA; no overlap with header or subtitles",
+    "Stolen card position unchanged"
+  ],
+  "videos": {
+    "H2": "3b1d744ec84ce57623c40fab4b134392ae86dd631cda7c46496745c2915de85b",
+    "H3": "76ec9fa59c7c74b9240a3117c7115a24dfde7232867abfd5abb6bb5ec59c085e"
+  },
+  "human_full_listening": false
+}
