@@ -1,0 +1,105 @@
+{
+  "status": "needs_owner_choice",
+  "source": "/Volumes/ESD-02/新チャンネル/EP011_WeighingOfTheHeart/素材/met551786_10.jpg",
+  "source_dimensions": [
+    4000,
+    1704
+  ],
+  "source_sha256": "483487d4c39bed2be37c78242cc409499572fdc3e55ca491d21ccf22bb9b56f5",
+  "rows": [
+    {
+      "option": "A：原寸上限を守る P01（P10で2倍にするため0.5倍）",
+      "crop_pixels": [
+        1200,
+        1040,
+        2240,
+        1460
+      ],
+      "native_scale_at_1080p": 0.5,
+      "display_dimensions_1080p": [
+        520,
+        210
+      ],
+      "preview": "EP011_preflight_A_P01.jpg"
+    },
+    {
+      "option": "A：原寸上限を守る P10（1.0倍）",
+      "crop_pixels": [
+        1480,
+        1050,
+        2040,
+        1320
+      ],
+      "native_scale_at_1080p": 1,
+      "display_dimensions_1080p": [
+        560,
+        270
+      ],
+      "preview": "EP011_preflight_A_P10.jpg"
+    },
+    {
+      "option": "B：見やすさ優先 P01（1.7倍・画面幅に合わせる）",
+      "crop_pixels": [
+        1200,
+        1040,
+        2240,
+        1460
+      ],
+      "native_scale_at_1080p": 1.7,
+      "display_dimensions_1080p": [
+        1768,
+        714
+      ],
+      "preview": "EP011_preflight_B_P01.jpg"
+    },
+    {
+      "option": "B：見やすさ優先 P10（3.4倍・梁と皿を拡大）",
+      "crop_pixels": [
+        1480,
+        1050,
+        2040,
+        1320
+      ],
+      "native_scale_at_1080p": 3.4,
+      "display_dimensions_1080p": [
+        1904,
+        918
+      ],
+      "preview": "EP011_preflight_B_P10.jpg"
+    }
+  ],
+  "constraint_conflict": "P01 lower register is 1040x420px. Native <=1.0, full-height display, and P10 >=2x P01 cannot all be satisfied.",
+  "note": "B is conventional Lanczos scaling, no AI restoration. P01 uses width-fit, not full-height. 4K later uses the same 1080p-to-4K upscale as EP010.",
+  "request_commit": "fe9330da",
+  "approved_script_version": "v02",
+  "selected_asset_families": 9,
+  "selected_family_original_images_rehashed": 28,
+  "hash_mismatches": 0,
+  "ssd_connected": true,
+  "available_bytes_at_preflight_approx": 147000000000,
+  "speech_environment": "/Users/ryo/youtube/_work/qo-production-python/bin/python",
+  "required_modules_available": [
+    "kokoro_onnx",
+    "voicevox_core",
+    "PIL",
+    "numpy",
+    "soundfile",
+    "onnxruntime"
+  ],
+  "common_assets_present": [
+    "QO_THEME_A02.wav",
+    "Quiet_Origins_opening_trial_v02.mp4",
+    "Quiet_Origins_endcard_v02.mp4"
+  ],
+  "papyrus_sections_review": {
+    "05_vs_10": "異なる文字列・挿絵区画を目視確認。計量場面なし。",
+    "13_vs_10": "異なる格子挿絵・文字列区画を目視確認。計量場面なし。"
+  },
+  "scripts": {
+    "content.json": "9a80b211800c06634dae3ef727395578d7a30d116fa52fe30281c3fc477e633f",
+    "content_en.json": "70cfd5f4aaa29776ffc2871730c0f2645227d4f6758f753d65c71447ac88a9d7"
+  },
+  "video_rendered": false,
+  "release_created": false,
+  "youtube_posted": false
+}
