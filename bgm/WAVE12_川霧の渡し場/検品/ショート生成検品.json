@@ -1,0 +1,114 @@
+{
+  "source": "/Volumes/ESD-02/BGM/4_Waves of Japan/WAVE12_素材_川霧の渡し場/本編映像/wave12_川霧の渡し場_3時間.mp4",
+  "source_sha256": "0fafc47f0025a2c44179aa2aa00b3fc3d1f11c68bd2ae8314928008df2307c7b",
+  "crop": {
+    "width": 608,
+    "height": 1080,
+    "x": 1030,
+    "anchor": 0.79
+  },
+  "output": {
+    "width": 1080,
+    "height": 1920,
+    "fps": 30,
+    "seconds": 45
+  },
+  "records": [
+    {
+      "tag": "A",
+      "start": 900.0,
+      "scene": "暮れ方の川",
+      "hz": 5.66,
+      "file": "/Volumes/ESD-02/BGM/4_Waves of Japan/WAVE12_素材_川霧の渡し場/ショート/wave12_ショート_A.mp4",
+      "sha256": "41283e84467501339bf7c137ec7c2623bb5e852423a2806a1647a825274f6983",
+      "probe": {
+        "programs": [],
+        "stream_groups": [],
+        "streams": [
+          {
+            "codec_name": "h264",
+            "codec_type": "video",
+            "width": 1080,
+            "height": 1920,
+            "r_frame_rate": "30/1"
+          },
+          {
+            "codec_name": "aac",
+            "codec_type": "audio",
+            "sample_rate": "48000",
+            "channels": 2,
+            "r_frame_rate": "0/0"
+          }
+        ],
+        "format": {
+          "duration": "45.000000",
+          "size": "3092470"
+        }
+      }
+    },
+    {
+      "tag": "B",
+      "start": 2700.0,
+      "scene": "灯ともる渡し場",
+      "hz": 4.99,
+      "file": "/Volumes/ESD-02/BGM/4_Waves of Japan/WAVE12_素材_川霧の渡し場/ショート/wave12_ショート_B.mp4",
+      "sha256": "13ff8971ae62272cc1c2123ff27891cd0fff26314295bea246c6007d620d215b",
+      "probe": {
+        "programs": [],
+        "stream_groups": [],
+        "streams": [
+          {
+            "codec_name": "h264",
+            "codec_type": "video",
+            "width": 1080,
+            "height": 1920,
+            "r_frame_rate": "30/1"
+          },
+          {
+            "codec_name": "aac",
+            "codec_type": "audio",
+            "sample_rate": "48000",
+            "channels": 2,
+            "r_frame_rate": "0/0"
+          }
+        ],
+        "format": {
+          "duration": "45.000000",
+          "size": "3314435"
+        }
+      }
+    },
+    {
+      "tag": "C",
+      "start": 4800.0,
+      "scene": "霧の立つ夜",
+      "hz": 4.21,
+      "file": "/Volumes/ESD-02/BGM/4_Waves of Japan/WAVE12_素材_川霧の渡し場/ショート/wave12_ショート_C.mp4",
+      "sha256": "cc22ffdbe035dba50539d0c9964f015a675f428f5b8a3df5a5701301b35ac871",
+      "probe": {
+        "programs": [],
+        "stream_groups": [],
+        "streams": [
+          {
+            "codec_name": "h264",
+            "codec_type": "video",
+            "width": 1080,
+            "height": 1920,
+            "r_frame_rate": "30/1"
+          },
+          {
+            "codec_name": "aac",
+            "codec_type": "audio",
+            "sample_rate": "48000",
+            "channels": 2,
+            "r_frame_rate": "0/0"
+          }
+        ],
+        "format": {
+          "duration": "45.000000",
+          "size": "2995653"
+        }
+      }
+    }
+  ]
+}
