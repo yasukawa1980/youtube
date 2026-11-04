@@ -1,0 +1,1449 @@
+{
+  "episode": "EP011",
+  "date": "2026-11-04",
+  "scope": "素材探し・原典照合のみ。制作・生成・購入・投稿なし。",
+  "original_directory": "/Volumes/ESD-02/新チャンネル/EP011_WeighingOfTheHeart/素材/",
+  "summary": {
+    "new_works": 20,
+    "new_color_works": 16,
+    "ep1_reserve_works": 2,
+    "original_images": 46,
+    "all_hashes_rechecked": true
+  },
+  "deduplication": {
+    "checked_date": "2026-11-04",
+    "method": "Met作品IDの数字境界付き完全一致。過去の候補掲載も保守的に除外。別館の別ID・別表記による同一作品はこの機械検索だけでは検出しない。",
+    "files": [
+      {
+        "path": "_work/wom11-share-20261104/new-channel/episodes/EP001_Anubis/records/visual_manifest.json",
+        "sha256": "780a08cc4de12f770757b65688e7d511834b5f33e09a6980c2ec3519aa60a15e"
+      },
+      {
+        "path": "_work/wom11-share-20261104/new-channel/research/wom02_素材台帳_20261021.json",
+        "sha256": "19ad2cd751ce3bb4f1652834d4f9dcdce4c0aeac4c3172a417558dd414abf6d4"
+      },
+      {
+        "path": "_work/wom11-share-20261104/new-channel/research/wom03_素材台帳_20261022.json",
+        "sha256": "2c1fa5c5392c592dc4b44f6a8d7a8281dc08749d72f3922532927d9f28f1f2ba"
+      },
+      {
+        "path": "_work/wom11-share-20261104/new-channel/research/wom04_素材台帳_20261023.json",
+        "sha256": "7e2ea32abf1b1b12b2cbf55c0ac1c67475c551a4df0485f19a1db8c483f5730e"
+      },
+      {
+        "path": "_work/wom11-share-20261104/new-channel/research/wom05_素材台帳_20261024.json",
+        "sha256": "01625e9f856d3afe2985240b333c9a06ea5afaf658a1873d634624e328eef830"
+      },
+      {
+        "path": "_work/wom11-share-20261104/new-channel/research/wom06_素材台帳_20261026.json",
+        "sha256": "076d9891dc20f6dac25b77c3aab49020ee2ffff46006689f977e020b08f357ff"
+      },
+      {
+        "path": "_work/wom11-share-20261104/new-channel/research/wom07_素材台帳_20261029.json",
+        "sha256": "d8645936458de565813e2ee84740a745308492eb7253b3cf9c8cc4301264bd31"
+      },
+      {
+        "path": "_work/wom11-share-20261104/new-channel/research/wom08_素材台帳_20261029.json",
+        "sha256": "1bb11bb4848f1631dc918fa392ac6e7d22cf5ad538f4820c3c2f9c4c075972fe"
+      },
+      {
+        "path": "_work/wom11-share-20261104/new-channel/research/wom09_素材台帳_20261101.json",
+        "sha256": "8d75fdb501b3faaf34822d742ead651a4e03e6cf54e9ef82a258fa1ddfa208ce"
+      },
+      {
+        "path": "_work/wom11-share-20261104/new-channel/research/wom10_素材台帳_20261102.json",
+        "sha256": "b1e9a607c5f47087fead18f62664f40b4f3d88b25c57318a0f82e131249e9baf"
+      },
+      {
+        "path": "_work/wom11-share-20261104/new-channel/wom02_素材候補_20261022.md",
+        "sha256": "5409ee09beaf9e6dd25dbd5668694494fc24de095dccd95803b3ac3051011f5a"
+      },
+      {
+        "path": "_work/wom11-share-20261104/new-channel/wom03_素材候補_20261022.md",
+        "sha256": "3b2068aceabc006ead5fd57a3162f6854bdf6ad6f512df970031b81e0bacfe8b"
+      },
+      {
+        "path": "_work/wom11-share-20261104/new-channel/wom04_素材候補_20261023.md",
+        "sha256": "64187fcf2c3c61e713d95ab46b1578bf81a94026388d2835d5d8a818e5f5fd2a"
+      },
+      {
+        "path": "_work/wom11-share-20261104/new-channel/wom05_素材候補_20261024.md",
+        "sha256": "8a094b99cb58aedd0aa33d29e90de0fe04df10022d11eadb971e9f9ac943030a"
+      },
+      {
+        "path": "_work/wom11-share-20261104/new-channel/wom06_素材候補_20261026.md",
+        "sha256": "028b194346ce40402d597c753b53bc3487bbdefa67c0b6155a78ff66585ec62a"
+      },
+      {
+        "path": "_work/wom11-share-20261104/new-channel/wom07_素材候補_20261029.md",
+        "sha256": "f3ca6b07b8b19d4af4574fdf8e27aceca4d7b2b89f3d55ee2af7c9b2928771d2"
+      },
+      {
+        "path": "_work/wom11-share-20261104/new-channel/wom08_素材候補_20261029.md",
+        "sha256": "cdffb4e74a5a0d015d337059dcc4c08d3bd08e8b9535cf4d8585a0aca28836d2"
+      },
+      {
+        "path": "_work/wom11-share-20261104/new-channel/wom09_素材候補_20261101.md",
+        "sha256": "c901172cea7769c68437c5bff400e43c84b85e914ef227c4bdc615a3a7c7b9dd"
+      },
+      {
+        "path": "_work/wom11-share-20261104/new-channel/wom10_素材候補_20261102.md",
+        "sha256": "244a99bba1c7fd8abd65e9ef953396ffb7b8ff039c1cf6cd69ffe5d87b209f8c"
+      },
+      {
+        "path": "new-channel/episodes/EP001_Anubis/records/visual_manifest.json",
+        "sha256": "780a08cc4de12f770757b65688e7d511834b5f33e09a6980c2ec3519aa60a15e"
+      },
+      {
+        "path": "new-channel/research/wom02_素材台帳_20261021.json",
+        "sha256": "19ad2cd751ce3bb4f1652834d4f9dcdce4c0aeac4c3172a417558dd414abf6d4"
+      },
+      {
+        "path": "new-channel/research/wom03_素材台帳_20261022.json",
+        "sha256": "2c1fa5c5392c592dc4b44f6a8d7a8281dc08749d72f3922532927d9f28f1f2ba"
+      },
+      {
+        "path": "new-channel/research/wom04_素材台帳_20261023.json",
+        "sha256": "7e2ea32abf1b1b12b2cbf55c0ac1c67475c551a4df0485f19a1db8c483f5730e"
+      },
+      {
+        "path": "new-channel/research/wom05_素材台帳_20261024.json",
+        "sha256": "01625e9f856d3afe2985240b333c9a06ea5afaf658a1873d634624e328eef830"
+      },
+      {
+        "path": "new-channel/research/wom07_素材台帳_20261029.json",
+        "sha256": "d8645936458de565813e2ee84740a745308492eb7253b3cf9c8cc4301264bd31"
+      },
+      {
+        "path": "new-channel/research/wom09_素材台帳_20261101.json",
+        "sha256": "8d75fdb501b3faaf34822d742ead651a4e03e6cf54e9ef82a258fa1ddfa208ce"
+      },
+      {
+        "path": "new-channel/research/wom10_素材台帳_20261102.json",
+        "sha256": "b1e9a607c5f47087fead18f62664f40b4f3d88b25c57318a0f82e131249e9baf"
+      },
+      {
+        "path": "new-channel/wom02_素材候補_20261022.md",
+        "sha256": "5409ee09beaf9e6dd25dbd5668694494fc24de095dccd95803b3ac3051011f5a"
+      },
+      {
+        "path": "new-channel/wom03_素材候補_20261022.md",
+        "sha256": "3b2068aceabc006ead5fd57a3162f6854bdf6ad6f512df970031b81e0bacfe8b"
+      },
+      {
+        "path": "new-channel/wom04_素材候補_20261023.md",
+        "sha256": "64187fcf2c3c61e713d95ab46b1578bf81a94026388d2835d5d8a818e5f5fd2a"
+      },
+      {
+        "path": "new-channel/wom05_素材候補_20261024.md",
+        "sha256": "8a094b99cb58aedd0aa33d29e90de0fe04df10022d11eadb971e9f9ac943030a"
+      },
+      {
+        "path": "new-channel/wom07_素材候補_20261029.md",
+        "sha256": "f3ca6b07b8b19d4af4574fdf8e27aceca4d7b2b89f3d55ee2af7c9b2928771d2"
+      },
+      {
+        "path": "new-channel/wom09_素材候補_20261101.md",
+        "sha256": "c901172cea7769c68437c5bff400e43c84b85e914ef227c4bdc615a3a7c7b9dd"
+      },
+      {
+        "path": "new-channel/wom10_素材候補_20261102.md",
+        "sha256": "244a99bba1c7fd8abd65e9ef953396ffb7b8ff039c1cf6cd69ffe5d87b209f8c"
+      }
+    ]
+  },
+  "assets": [
+    {
+      "candidate_id": "E01-A",
+      "requested_ids": [
+        "E01",
+        "E02",
+        "E03",
+        "E04",
+        "E09"
+      ],
+      "met_object_id": 551786,
+      "title": "Book of the Dead of the Priest of Horus, Imhotep (Imuthes)",
+      "artist": "作者不詳",
+      "date": "ca. 332–200 BCE",
+      "museum": "The Metropolitan Museum of Art",
+      "accession": "35.9.20a–w",
+      "object_url": "https://www.metmuseum.org/art/collection/search/551786",
+      "api_url": "https://collectionapi.metmuseum.org/public/collection/v1/objects/551786",
+      "rights": "CC0 1.0（Met Open Access）",
+      "rights_evidence": {
+        "isPublicDomain": true,
+        "policy_url": "https://www.metmuseum.org/hubs/open-access",
+        "api_metadata_date": "2026-08-01T04:49:33.94Z"
+      },
+      "retrieved_date": "2026-11-04",
+      "color": "カラー",
+      "use_segment": "P01/P02/P03/P05/P07/P10",
+      "notes": "最優先。_10が計量・広間。梁はほぼ水平。アメミトは右寄りの台上。_00は全巻ではなく一区画。_01〜14は区画写真。42柱の正確な数え上げ・文字列の章同定は未完。重なる画角の再使用を避ける。",
+      "preferred_image_index": 10,
+      "credit_line": "Gift of  Edward S. Harkness, 1935",
+      "geography": {
+        "region": "Middle Egypt",
+        "subregion": "Meir"
+      },
+      "provenance_scope": "館APIの取得・寄贈情報を記録。完全な所有履歴や合法性の独立鑑定ではない。",
+      "previous_episode_status": "過去資料の作品ID照合で一致なし",
+      "previous_id_hits": [],
+      "images": [
+        {
+          "file": "/Volumes/ESD-02/新チャンネル/EP011_WeighingOfTheHeart/素材/met551786_00.jpg",
+          "url": "https://images.metmuseum.org/CRDImages/eg/original/2-35.9.20a–w_EGDP014589-4594.jpg",
+          "sha256": "46a03fa43462372ccc7ce481f3f5b8b0627b887a97f815be10545779ec946f5e",
+          "size_bytes": 1755227,
+          "dimensions": [
+            4000,
+            970
+          ],
+          "preview_repo_path": "new-channel/サムネ確認用/wom11/met551786_00.jpg"
+        },
+        {
+          "file": "/Volumes/ESD-02/新チャンネル/EP011_WeighingOfTheHeart/素材/met551786_01.jpg",
+          "url": "https://images.metmuseum.org/CRDImages/eg/original/35.9.20a_w_Section1.jpg",
+          "sha256": "3cf50afe637a415c1ce0343d8929d804a7afcebcdd3dbd1e829f970ebb5a7566",
+          "size_bytes": 1380777,
+          "dimensions": [
+            4000,
+            1099
+          ],
+          "preview_repo_path": "new-channel/サムネ確認用/wom11/met551786_01.jpg"
+        },
+        {
+          "file": "/Volumes/ESD-02/新チャンネル/EP011_WeighingOfTheHeart/素材/met551786_02.jpg",
+          "url": "https://images.metmuseum.org/CRDImages/eg/original/35.9.20a_w_Section2.jpg",
+          "sha256": "768f8fbcb8a8d02f7f88618bff7ed70717add0e870c4bf93996830a9d8f9293a",
+          "size_bytes": 1977342,
+          "dimensions": [
+            4000,
+            1351
+          ],
+          "preview_repo_path": "new-channel/サムネ確認用/wom11/met551786_02.jpg"
+        },
+        {
+          "file": "/Volumes/ESD-02/新チャンネル/EP011_WeighingOfTheHeart/素材/met551786_03.jpg",
+          "url": "https://images.metmuseum.org/CRDImages/eg/original/35.9.20a_w_Section3.jpg",
+          "sha256": "87ffd3425ecab08cee487f40b9b07f7d0d656f9d5e2a7572dbf5905d7f75ab11",
+          "size_bytes": 1894339,
+          "dimensions": [
+            4000,
+            1406
+          ],
+          "preview_repo_path": "new-channel/サムネ確認用/wom11/met551786_03.jpg"
+        },
+        {
+          "file": "/Volumes/ESD-02/新チャンネル/EP011_WeighingOfTheHeart/素材/met551786_04.jpg",
+          "url": "https://images.metmuseum.org/CRDImages/eg/original/35.9.20a_w_Section4.jpg",
+          "sha256": "4c1b24bae888fd6aaf258b356c5f8756088a5d6959874a58b00403bb527d1373",
+          "size_bytes": 2056507,
+          "dimensions": [
+            4000,
+            1382
+          ],
+          "preview_repo_path": "new-channel/サムネ確認用/wom11/met551786_04.jpg"
+        },
+        {
+          "file": "/Volumes/ESD-02/新チャンネル/EP011_WeighingOfTheHeart/素材/met551786_05.jpg",
+          "url": "https://images.metmuseum.org/CRDImages/eg/original/35.9.20a_w_Section5.jpg",
+          "sha256": "0d917bc073ffb0580dbf4d2af53036f3d3f4bc3d3c6a31ca7dea78cc0b8c9dd4",
+          "size_bytes": 1721707,
+          "dimensions": [
+            4000,
+            1191
+          ],
+          "preview_repo_path": "new-channel/サムネ確認用/wom11/met551786_05.jpg"
+        },
+        {
+          "file": "/Volumes/ESD-02/新チャンネル/EP011_WeighingOfTheHeart/素材/met551786_06.jpg",
+          "url": "https://images.metmuseum.org/CRDImages/eg/original/35.9.20a_w_Section6.jpg",
+          "sha256": "bf45caf8dcab93aa61893ccc29f2f25e02eedf533b5a6f7dd50ee018248e4508",
+          "size_bytes": 2081892,
+          "dimensions": [
+            4000,
+            1520
+          ],
+          "preview_repo_path": "new-channel/サムネ確認用/wom11/met551786_06.jpg"
+        },
+        {
+          "file": "/Volumes/ESD-02/新チャンネル/EP011_WeighingOfTheHeart/素材/met551786_07.jpg",
+          "url": "https://images.metmuseum.org/CRDImages/eg/original/35.9.20a_w_Section7.jpg",
+          "sha256": "c58b8db942eca39f7b031a553991d80f350cc6ca6a05a2df5255f77ced1468d7",
+          "size_bytes": 1782898,
+          "dimensions": [
+            4000,
+            1236
+          ],
+          "preview_repo_path": "new-channel/サムネ確認用/wom11/met551786_07.jpg"
+        },
+        {
+          "file": "/Volumes/ESD-02/新チャンネル/EP011_WeighingOfTheHeart/素材/met551786_08.jpg",
+          "url": "https://images.metmuseum.org/CRDImages/eg/original/35.9.20a_w_Section8.jpg",
+          "sha256": "f33d7eb0d0eaa5de9c19e619aa2f17cd0b0edafa4101cca340cbc7276792f184",
+          "size_bytes": 1594709,
+          "dimensions": [
+            4000,
+            1225
+          ],
+          "preview_repo_path": "new-channel/サムネ確認用/wom11/met551786_08.jpg"
+        },
+        {
+          "file": "/Volumes/ESD-02/新チャンネル/EP011_WeighingOfTheHeart/素材/met551786_09.jpg",
+          "url": "https://images.metmuseum.org/CRDImages/eg/original/35.9.20a_w_Section9.jpg",
+          "sha256": "cd6f668de451a3169c22a59b7609542e33d02fba892f22132f3153c575dbeb05",
+          "size_bytes": 1525991,
+          "dimensions": [
+            4000,
+            1015
+          ],
+          "preview_repo_path": "new-channel/サムネ確認用/wom11/met551786_09.jpg"
+        },
+        {
+          "file": "/Volumes/ESD-02/新チャンネル/EP011_WeighingOfTheHeart/素材/met551786_10.jpg",
+          "url": "https://images.metmuseum.org/CRDImages/eg/original/35.9.20a_w_Section10.jpg",
+          "sha256": "483487d4c39bed2be37c78242cc409499572fdc3e55ca491d21ccf22bb9b56f5",
+          "size_bytes": 2496740,
+          "dimensions": [
+            4000,
+            1704
+          ],
+          "preview_repo_path": "new-channel/サムネ確認用/wom11/met551786_10.jpg"
+        },
+        {
+          "file": "/Volumes/ESD-02/新チャンネル/EP011_WeighingOfTheHeart/素材/met551786_11.jpg",
+          "url": "https://images.metmuseum.org/CRDImages/eg/original/35.9.20a_w_Section11.jpg",
+          "sha256": "5f2e423107508fd2a17f44bf9e233073644f8cc396c16f946d790811faf13a42",
+          "size_bytes": 1584100,
+          "dimensions": [
+            4000,
+            1007
+          ],
+          "preview_repo_path": "new-channel/サムネ確認用/wom11/met551786_11.jpg"
+        },
+        {
+          "file": "/Volumes/ESD-02/新チャンネル/EP011_WeighingOfTheHeart/素材/met551786_12.jpg",
+          "url": "https://images.metmuseum.org/CRDImages/eg/original/35.9.20a_w_Section12.jpg",
+          "sha256": "ef6ee4d843171c8b41841611e23c1d6f9648bd127f231a610c3b7ff7253be76b",
+          "size_bytes": 1310929,
+          "dimensions": [
+            4000,
+            895
+          ],
+          "preview_repo_path": "new-channel/サムネ確認用/wom11/met551786_12.jpg"
+        },
+        {
+          "file": "/Volumes/ESD-02/新チャンネル/EP011_WeighingOfTheHeart/素材/met551786_13.jpg",
+          "url": "https://images.metmuseum.org/CRDImages/eg/original/35.9.20a_w_Section13.jpg",
+          "sha256": "6bab78be7adc87a958887f8cfc4fc02df2819c931bdb8409732654804f0de6d1",
+          "size_bytes": 1471795,
+          "dimensions": [
+            4000,
+            1069
+          ],
+          "preview_repo_path": "new-channel/サムネ確認用/wom11/met551786_13.jpg"
+        },
+        {
+          "file": "/Volumes/ESD-02/新チャンネル/EP011_WeighingOfTheHeart/素材/met551786_14.jpg",
+          "url": "https://images.metmuseum.org/CRDImages/eg/original/35.9.20a_w_Section14.jpg",
+          "sha256": "84c47165dcad9f7148d0ddb655e771cfe6dd59d0d3f75c795934e2412e9d8138",
+          "size_bytes": 1514093,
+          "dimensions": [
+            4000,
+            1197
+          ],
+          "preview_repo_path": "new-channel/サムネ確認用/wom11/met551786_14.jpg"
+        },
+        {
+          "file": "/Volumes/ESD-02/新チャンネル/EP011_WeighingOfTheHeart/素材/met551786_15.jpg",
+          "url": "https://images.metmuseum.org/CRDImages/eg/original/LC-35_9_20_Crocodiles.jpg",
+          "sha256": "001e861b09143c96770eb67a2bb3da5bdb60203354cb15f6e3b32162b75562e8",
+          "size_bytes": 1744102,
+          "dimensions": [
+            2431,
+            1358
+          ],
+          "preview_repo_path": "new-channel/サムネ確認用/wom11/met551786_15.jpg"
+        },
+        {
+          "file": "/Volumes/ESD-02/新チャンネル/EP011_WeighingOfTheHeart/素材/met551786_16.jpg",
+          "url": "https://images.metmuseum.org/CRDImages/eg/original/LC-35_9_20_Solar_Cycle.jpg",
+          "sha256": "1c4e6344c77279bf5d3a4f82faef19bd0b5e5fac5c52b2d3f5ef0a0931b59413",
+          "size_bytes": 5074728,
+          "dimensions": [
+            4000,
+            2538
+          ],
+          "preview_repo_path": "new-channel/サムネ確認用/wom11/met551786_16.jpg"
+        }
+      ]
+    },
+    {
+      "candidate_id": "E07-A",
+      "requested_ids": [
+        "E07"
+      ],
+      "met_object_id": 550986,
+      "title": "Heart Scarab with a Human Head",
+      "artist": "作者不詳",
+      "date": "ca. 1550–1080 BCE",
+      "museum": "The Metropolitan Museum of Art",
+      "accession": "30.8.1080",
+      "object_url": "https://www.metmuseum.org/art/collection/search/550986",
+      "api_url": "https://collectionapi.metmuseum.org/public/collection/v1/objects/550986",
+      "rights": "CC0 1.0（Met Open Access）",
+      "rights_evidence": {
+        "isPublicDomain": true,
+        "policy_url": "https://www.metmuseum.org/hubs/open-access",
+        "api_metadata_date": "2026-07-31T04:50:42.63Z"
+      },
+      "retrieved_date": "2026-11-04",
+      "color": "カラー",
+      "use_segment": "P09/H1",
+      "notes": "30B章を館が特定。_01は底の10行、_03は甲、_00は側面。人頭付きという変種。文字の逐字読解は未実施。",
+      "preferred_image_index": 1,
+      "credit_line": "Theodore M. Davis Collection, Bequest of Theodore M. Davis, 1915",
+      "geography": {
+        "country": "Egypt"
+      },
+      "provenance_scope": "館APIの取得・寄贈情報を記録。完全な所有履歴や合法性の独立鑑定ではない。",
+      "previous_episode_status": "過去資料の作品ID照合で一致なし",
+      "previous_id_hits": [],
+      "images": [
+        {
+          "file": "/Volumes/ESD-02/新チャンネル/EP011_WeighingOfTheHeart/素材/met550986_00.jpg",
+          "url": "https://images.metmuseum.org/CRDImages/eg/original/30.8.1080_EGDP019018.jpg",
+          "sha256": "e7b1ee72c7e6b4219ae8e8f6ae90ff8fa6b9f080467b111d32a8bd14fd38c5dc",
+          "size_bytes": 1206395,
+          "dimensions": [
+            4000,
+            2667
+          ],
+          "preview_repo_path": "new-channel/サムネ確認用/wom11/met550986_00.jpg"
+        },
+        {
+          "file": "/Volumes/ESD-02/新チャンネル/EP011_WeighingOfTheHeart/素材/met550986_01.jpg",
+          "url": "https://images.metmuseum.org/CRDImages/eg/original/30.8.1080_EGDP019019.jpg",
+          "sha256": "fa5ec751df5cb5f537d79f001d0347b37f0e29aef760e22e74148d69f842d4c8",
+          "size_bytes": 1335389,
+          "dimensions": [
+            2667,
+            4000
+          ],
+          "preview_repo_path": "new-channel/サムネ確認用/wom11/met550986_01.jpg"
+        },
+        {
+          "file": "/Volumes/ESD-02/新チャンネル/EP011_WeighingOfTheHeart/素材/met550986_02.jpg",
+          "url": "https://images.metmuseum.org/CRDImages/eg/original/30.8.1080_EGDP019017.jpg",
+          "sha256": "713c62da31351bd7a00af7be31b76db30117ec343889a41cad1084fa496c7de8",
+          "size_bytes": 1183897,
+          "dimensions": [
+            4000,
+            2667
+          ],
+          "preview_repo_path": "new-channel/サムネ確認用/wom11/met550986_02.jpg"
+        },
+        {
+          "file": "/Volumes/ESD-02/新チャンネル/EP011_WeighingOfTheHeart/素材/met550986_03.jpg",
+          "url": "https://images.metmuseum.org/CRDImages/eg/original/30.8.1080_EGDP019016.jpg",
+          "sha256": "d51b4c1ed82bd99526bf11a3d98382fedfed6627033ff5370ab93eaf77049972",
+          "size_bytes": 1109830,
+          "dimensions": [
+            2667,
+            4000
+          ],
+          "preview_repo_path": "new-channel/サムネ確認用/wom11/met550986_03.jpg"
+        }
+      ]
+    },
+    {
+      "candidate_id": "E07-B",
+      "requested_ids": [
+        "E07"
+      ],
+      "met_object_id": 545146,
+      "title": "Heart Scarab of Hatnefer",
+      "artist": "作者不詳",
+      "date": "ca. 1491–1473 BCE",
+      "museum": "The Metropolitan Museum of Art",
+      "accession": "36.3.2",
+      "object_url": "https://www.metmuseum.org/art/collection/search/545146",
+      "api_url": "https://collectionapi.metmuseum.org/public/collection/v1/objects/545146",
+      "rights": "CC0 1.0（Met Open Access）",
+      "rights_evidence": {
+        "isPublicDomain": true,
+        "policy_url": "https://www.metmuseum.org/hubs/open-access",
+        "api_metadata_date": "2026-08-07T04:49:21.27Z"
+      },
+      "retrieved_date": "2026-11-04",
+      "color": "カラー",
+      "use_segment": "P09の補助",
+      "notes": "ハトネフェル。30A章。30B章の刻文として見せない。甲と底面を取得。名の改刻は古代の転用で、現代の来歴問題とは別。",
+      "preferred_image_index": 0,
+      "credit_line": "Rogers Fund, 1936",
+      "geography": {
+        "country": "Egypt",
+        "region": "Upper Egypt, Thebes",
+        "subregion": "Sheikh Abd el-Qurna",
+        "locale": "Tomb of Hatnefer and Ramose (below TT 71)",
+        "locus": "Mummy of Hatnefer",
+        "excavation": "MMA excavations, 1935–36"
+      },
+      "provenance_scope": "館APIの取得・寄贈情報を記録。完全な所有履歴や合法性の独立鑑定ではない。",
+      "previous_episode_status": "過去資料の作品ID照合で一致なし",
+      "previous_id_hits": [],
+      "images": [
+        {
+          "file": "/Volumes/ESD-02/新チャンネル/EP011_WeighingOfTheHeart/素材/met545146_00.jpg",
+          "url": "https://images.metmuseum.org/CRDImages/eg/original/DT535.jpg",
+          "sha256": "ec681d00348bf008e80f9b8bf455028ad244481b15c2bdca0af98b25c7bfe325",
+          "size_bytes": 1518420,
+          "dimensions": [
+            3811,
+            3049
+          ],
+          "preview_repo_path": "new-channel/サムネ確認用/wom11/met545146_00.jpg"
+        },
+        {
+          "file": "/Volumes/ESD-02/新チャンネル/EP011_WeighingOfTheHeart/素材/met545146_01.jpg",
+          "url": "https://images.metmuseum.org/CRDImages/eg/original/eg36.3.2.AV1.jpg",
+          "sha256": "342be1776ca8a9c00c5f2432fb5419df0e257a07a8c1470c79b75cf3a9ec4ead",
+          "size_bytes": 476296,
+          "dimensions": [
+            1296,
+            1776
+          ],
+          "preview_repo_path": "new-channel/サムネ確認用/wom11/met545146_01.jpg"
+        },
+        {
+          "file": "/Volumes/ESD-02/新チャンネル/EP011_WeighingOfTheHeart/素材/met545146_02.jpg",
+          "url": "https://images.metmuseum.org/CRDImages/eg/original/36.3.2_EGDP013730.jpg",
+          "sha256": "d635fd593994d58c9b9e9bb72af31e728140125cf270dfe1b6fee53f749d6bcd",
+          "size_bytes": 1844934,
+          "dimensions": [
+            3000,
+            4000
+          ],
+          "preview_repo_path": "new-channel/サムネ確認用/wom11/met545146_02.jpg"
+        },
+        {
+          "file": "/Volumes/ESD-02/新チャンネル/EP011_WeighingOfTheHeart/素材/met545146_03.jpg",
+          "url": "https://images.metmuseum.org/CRDImages/eg/original/36.3.2_EGDP013731.jpg",
+          "sha256": "76df6162be49b38887dad21f81c6d457dd676b3d68eabd80de67256155cbc3bd",
+          "size_bytes": 1807331,
+          "dimensions": [
+            3000,
+            4000
+          ],
+          "preview_repo_path": "new-channel/サムネ確認用/wom11/met545146_03.jpg"
+        },
+        {
+          "file": "/Volumes/ESD-02/新チャンネル/EP011_WeighingOfTheHeart/素材/met545146_04.jpg",
+          "url": "https://images.metmuseum.org/CRDImages/eg/original/36.3.2_01-09-17.jpg",
+          "sha256": "5de6801eacf0f894eb2062f116c84c54896f678f204ee06e36300d48f301fb6f",
+          "size_bytes": 1523201,
+          "dimensions": [
+            1821,
+            2580
+          ],
+          "preview_repo_path": "new-channel/サムネ確認用/wom11/met545146_04.jpg"
+        }
+      ]
+    },
+    {
+      "candidate_id": "E07-C",
+      "requested_ids": [
+        "E07"
+      ],
+      "met_object_id": 552512,
+      "title": "Heart Scarab",
+      "artist": "作者不詳",
+      "date": "664–525 BCE",
+      "museum": "The Metropolitan Museum of Art",
+      "accession": "22.3.64",
+      "object_url": "https://www.metmuseum.org/art/collection/search/552512",
+      "api_url": "https://collectionapi.metmuseum.org/public/collection/v1/objects/552512",
+      "rights": "CC0 1.0（Met Open Access）",
+      "rights_evidence": {
+        "isPublicDomain": true,
+        "policy_url": "https://www.metmuseum.org/hubs/open-access",
+        "api_metadata_date": "2026-07-31T04:50:42.63Z"
+      },
+      "retrieved_date": "2026-11-04",
+      "color": "カラー",
+      "use_segment": "P09の補助",
+      "notes": "ラピスラズリの青。刻文30Bは未確認。",
+      "preferred_image_index": 0,
+      "credit_line": "Rogers Fund and Edward S. Harkness Gift, 1922",
+      "geography": {
+        "country": "Egypt",
+        "region": "Upper Egypt, Thebes",
+        "subregion": "Southern Asasif",
+        "locale": "Tomb MMA 1151",
+        "excavation": "MMA excavations, 1920–22"
+      },
+      "provenance_scope": "館APIの取得・寄贈情報を記録。完全な所有履歴や合法性の独立鑑定ではない。",
+      "previous_episode_status": "過去資料の作品ID照合で一致なし",
+      "previous_id_hits": [],
+      "images": [
+        {
+          "file": "/Volumes/ESD-02/新チャンネル/EP011_WeighingOfTheHeart/素材/met552512_00.jpg",
+          "url": "https://images.metmuseum.org/CRDImages/eg/original/LC-22_3_64_EGDP036075.jpg",
+          "sha256": "51749fef0f0bfb6ecb13dc2b8cb280708df925e434a3bed8d41c66aeacbb609d",
+          "size_bytes": 1001863,
+          "dimensions": [
+            2668,
+            4000
+          ],
+          "preview_repo_path": "new-channel/サムネ確認用/wom11/met552512_00.jpg"
+        }
+      ]
+    },
+    {
+      "candidate_id": "E07-D",
+      "requested_ids": [
+        "E07"
+      ],
+      "met_object_id": 553680,
+      "title": "Heart Scarab",
+      "artist": "作者不詳",
+      "date": "ca. 1080–664 BCE",
+      "museum": "The Metropolitan Museum of Art",
+      "accession": "26.3.278",
+      "object_url": "https://www.metmuseum.org/art/collection/search/553680",
+      "api_url": "https://collectionapi.metmuseum.org/public/collection/v1/objects/553680",
+      "rights": "CC0 1.0（Met Open Access）",
+      "rights_evidence": {
+        "isPublicDomain": true,
+        "policy_url": "https://www.metmuseum.org/hubs/open-access",
+        "api_metadata_date": "2026-07-31T04:50:42.63Z"
+      },
+      "retrieved_date": "2026-11-04",
+      "color": "カラー",
+      "use_segment": "P09の補助",
+      "notes": "青色ペースト。30B章の刻文とは未確認。",
+      "preferred_image_index": 0,
+      "credit_line": "Rogers Fund, 1926",
+      "geography": {
+        "country": "Egypt",
+        "region": "Upper Egypt, Thebes",
+        "subregion": "Deir el-Bahri",
+        "excavation": "MMA excavations, 1922–24"
+      },
+      "provenance_scope": "館APIの取得・寄贈情報を記録。完全な所有履歴や合法性の独立鑑定ではない。",
+      "previous_episode_status": "過去資料の作品ID照合で一致なし",
+      "previous_id_hits": [],
+      "images": [
+        {
+          "file": "/Volumes/ESD-02/新チャンネル/EP011_WeighingOfTheHeart/素材/met553680_00.jpg",
+          "url": "https://images.metmuseum.org/CRDImages/eg/original/LC-26_3_278_EGDP031671.jpg",
+          "sha256": "6b482b7d0a9914f45995754de6cd4adafde16d9730b874d8563299536ea1ee4a",
+          "size_bytes": 1538537,
+          "dimensions": [
+            3200,
+            4000
+          ],
+          "preview_repo_path": "new-channel/サムネ確認用/wom11/met553680_00.jpg"
+        }
+      ]
+    },
+    {
+      "candidate_id": "E07-E",
+      "requested_ids": [
+        "E07"
+      ],
+      "met_object_id": 569766,
+      "title": "Heart Scarab",
+      "artist": "作者不詳",
+      "date": "ca. 1300–1080 BCE",
+      "museum": "The Metropolitan Museum of Art",
+      "accession": "26.7.735",
+      "object_url": "https://www.metmuseum.org/art/collection/search/569766",
+      "api_url": "https://collectionapi.metmuseum.org/public/collection/v1/objects/569766",
+      "rights": "CC0 1.0（Met Open Access）",
+      "rights_evidence": {
+        "isPublicDomain": true,
+        "policy_url": "https://www.metmuseum.org/hubs/open-access",
+        "api_metadata_date": "2026-07-31T04:50:42.63Z"
+      },
+      "retrieved_date": "2026-11-04",
+      "color": "カラー",
+      "use_segment": "P09の補助",
+      "notes": "両面写真。図像・刻線あり。30Bと断定しない。",
+      "preferred_image_index": 0,
+      "credit_line": "Purchase, Edward S. Harkness Gift, 1926",
+      "geography": {
+        "country": "Egypt"
+      },
+      "provenance_scope": "館APIの取得・寄贈情報を記録。完全な所有履歴や合法性の独立鑑定ではない。",
+      "previous_episode_status": "過去資料の作品ID照合で一致なし",
+      "previous_id_hits": [],
+      "images": [
+        {
+          "file": "/Volumes/ESD-02/新チャンネル/EP011_WeighingOfTheHeart/素材/met569766_00.jpg",
+          "url": "https://images.metmuseum.org/CRDImages/eg/original/26.7.735 bottom.jpg",
+          "sha256": "5806003403d87e20e3695acf0c6c08b7757bd5602e80b52d8d0bab3e8a3b7c45",
+          "size_bytes": 714533,
+          "dimensions": [
+            1701,
+            2454
+          ],
+          "preview_repo_path": "new-channel/サムネ確認用/wom11/met569766_00.jpg"
+        },
+        {
+          "file": "/Volumes/ESD-02/新チャンネル/EP011_WeighingOfTheHeart/素材/met569766_01.jpg",
+          "url": "https://images.metmuseum.org/CRDImages/eg/original/26.7.735 top.jpg",
+          "sha256": "92aa5d77af2855707adb84564695b99b59356be1e8050d282f39136eeb805477",
+          "size_bytes": 610227,
+          "dimensions": [
+            1701,
+            2454
+          ],
+          "preview_repo_path": "new-channel/サムネ確認用/wom11/met569766_01.jpg"
+        }
+      ]
+    },
+    {
+      "candidate_id": "E06-A",
+      "requested_ids": [
+        "E06"
+      ],
+      "met_object_id": 243713,
+      "title": "Lapis lazuli heart amulet",
+      "artist": "作者不詳",
+      "date": "664–334 BCE",
+      "museum": "The Metropolitan Museum of Art",
+      "accession": "74.51.4445",
+      "object_url": "https://www.metmuseum.org/art/collection/search/243713",
+      "api_url": "https://collectionapi.metmuseum.org/public/collection/v1/objects/243713",
+      "rights": "CC0 1.0（Met Open Access）",
+      "rights_evidence": {
+        "isPublicDomain": true,
+        "policy_url": "https://www.metmuseum.org/hubs/open-access",
+        "api_metadata_date": "2025-09-22T10:00:14.863Z"
+      },
+      "retrieved_date": "2026-11-04",
+      "color": "カラー",
+      "use_segment": "P08",
+      "notes": "青い心臓形。スカラベと区別。",
+      "preferred_image_index": 0,
+      "credit_line": "The Cesnola Collection, Purchased by subscription, 1874–76",
+      "geography": {},
+      "provenance_scope": "館APIの取得・寄贈情報を記録。完全な所有履歴や合法性の独立鑑定ではない。",
+      "previous_episode_status": "過去資料の作品ID照合で一致なし",
+      "previous_id_hits": [],
+      "images": [
+        {
+          "file": "/Volumes/ESD-02/新チャンネル/EP011_WeighingOfTheHeart/素材/met243713_00.jpg",
+          "url": "https://images.metmuseum.org/CRDImages/gr/original/DP121803.jpg",
+          "sha256": "e4fdb22b09d0033c2be7b1c6679ad6ec2bcb765c59ddbde4c716c1f94cc5f8aa",
+          "size_bytes": 682711,
+          "dimensions": [
+            2882,
+            3842
+          ],
+          "preview_repo_path": "new-channel/サムネ確認用/wom11/met243713_00.jpg"
+        }
+      ]
+    },
+    {
+      "candidate_id": "E06-B",
+      "requested_ids": [
+        "E06"
+      ],
+      "met_object_id": 551381,
+      "title": "Heart Amulet",
+      "artist": "作者不詳",
+      "date": "ca. 1386–1347 BCE",
+      "museum": "The Metropolitan Museum of Art",
+      "accession": "11.215.447",
+      "object_url": "https://www.metmuseum.org/art/collection/search/551381",
+      "api_url": "https://collectionapi.metmuseum.org/public/collection/v1/objects/551381",
+      "rights": "CC0 1.0（Met Open Access）",
+      "rights_evidence": {
+        "isPublicDomain": true,
+        "policy_url": "https://www.metmuseum.org/hubs/open-access",
+        "api_metadata_date": "2026-07-31T04:50:42.63Z"
+      },
+      "retrieved_date": "2026-11-04",
+      "color": "カラー",
+      "use_segment": "P08",
+      "notes": "青と白のガラス。心臓形。",
+      "preferred_image_index": 0,
+      "credit_line": "Rogers Fund, 1911",
+      "geography": {
+        "country": "Egypt",
+        "region": "Upper Egypt, Thebes",
+        "subregion": "Malqata",
+        "locale": "Palace of Amenhotep III",
+        "excavation": "MMA excavations, 1910–11"
+      },
+      "provenance_scope": "館APIの取得・寄贈情報を記録。完全な所有履歴や合法性の独立鑑定ではない。",
+      "previous_episode_status": "過去資料の作品ID照合で一致なし",
+      "previous_id_hits": [],
+      "images": [
+        {
+          "file": "/Volumes/ESD-02/新チャンネル/EP011_WeighingOfTheHeart/素材/met551381_00.jpg",
+          "url": "https://images.metmuseum.org/CRDImages/eg/original/11.215.447_view_1.jpg",
+          "sha256": "0dc6926fe10ef227f4c682577db37543ced60ccfeae6b755c0aed3251d6c03d1",
+          "size_bytes": 225310,
+          "dimensions": [
+            1916,
+            1803
+          ],
+          "preview_repo_path": "new-channel/サムネ確認用/wom11/met551381_00.jpg"
+        }
+      ]
+    },
+    {
+      "candidate_id": "E06-C",
+      "requested_ids": [
+        "E06"
+      ],
+      "met_object_id": 560632,
+      "title": "Amulet in the Shape of a Heart",
+      "artist": "作者不詳",
+      "date": "664–30 BCE",
+      "museum": "The Metropolitan Museum of Art",
+      "accession": "04.2.69",
+      "object_url": "https://www.metmuseum.org/art/collection/search/560632",
+      "api_url": "https://collectionapi.metmuseum.org/public/collection/v1/objects/560632",
+      "rights": "CC0 1.0（Met Open Access）",
+      "rights_evidence": {
+        "isPublicDomain": true,
+        "policy_url": "https://www.metmuseum.org/hubs/open-access",
+        "api_metadata_date": "2026-07-30T04:49:13.073Z"
+      },
+      "retrieved_date": "2026-11-04",
+      "color": "カラー",
+      "use_segment": "P08",
+      "notes": "暗緑色の心臓形。",
+      "preferred_image_index": 0,
+      "credit_line": "Gift of Darius Ogden Mills, 1904",
+      "geography": {
+        "country": "Egypt"
+      },
+      "provenance_scope": "館APIの取得・寄贈情報を記録。完全な所有履歴や合法性の独立鑑定ではない。",
+      "previous_episode_status": "過去資料の作品ID照合で一致なし",
+      "previous_id_hits": [],
+      "images": [
+        {
+          "file": "/Volumes/ESD-02/新チャンネル/EP011_WeighingOfTheHeart/素材/met560632_00.jpg",
+          "url": "https://images.metmuseum.org/CRDImages/eg/original/04.2.69_front.jpg",
+          "sha256": "f203e27186d1572abc1a509ab451d7d4f2fef580fa70a1a1e022c55fc38ea876",
+          "size_bytes": 278576,
+          "dimensions": [
+            1927,
+            1993
+          ],
+          "preview_repo_path": "new-channel/サムネ確認用/wom11/met560632_00.jpg"
+        }
+      ]
+    },
+    {
+      "candidate_id": "E06-D",
+      "requested_ids": [
+        "E06"
+      ],
+      "met_object_id": 545364,
+      "title": "Heart amulet",
+      "artist": "作者不詳",
+      "date": "664–30 BCE",
+      "museum": "The Metropolitan Museum of Art",
+      "accession": "10.130.1797",
+      "object_url": "https://www.metmuseum.org/art/collection/search/545364",
+      "api_url": "https://collectionapi.metmuseum.org/public/collection/v1/objects/545364",
+      "rights": "CC0 1.0（Met Open Access）",
+      "rights_evidence": {
+        "isPublicDomain": true,
+        "policy_url": "https://www.metmuseum.org/hubs/open-access",
+        "api_metadata_date": "2026-08-05T04:49:31.513Z"
+      },
+      "retrieved_date": "2026-11-04",
+      "color": "白黒",
+      "use_segment": "P08の予備",
+      "notes": "石は緑色の記載だが取得写真は白黒。",
+      "preferred_image_index": 0,
+      "credit_line": "Gift of Helen Miller Gould, 1910",
+      "geography": {
+        "country": "Egypt"
+      },
+      "provenance_scope": "館APIの取得・寄贈情報を記録。完全な所有履歴や合法性の独立鑑定ではない。",
+      "previous_episode_status": "過去資料の作品ID照合で一致なし",
+      "previous_id_hits": [],
+      "images": [
+        {
+          "file": "/Volumes/ESD-02/新チャンネル/EP011_WeighingOfTheHeart/素材/met545364_00.jpg",
+          "url": "https://images.metmuseum.org/CRDImages/eg/original/DP112590.jpg",
+          "sha256": "29e4fc6498ce1aebc01a10bd8889a7a87049dbb9dd97b96bb343953d2c2c2146",
+          "size_bytes": 1243632,
+          "dimensions": [
+            4000,
+            4000
+          ],
+          "preview_repo_path": "new-channel/サムネ確認用/wom11/met545364_00.jpg"
+        }
+      ]
+    },
+    {
+      "candidate_id": "E06-E",
+      "requested_ids": [
+        "E06"
+      ],
+      "met_object_id": 560752,
+      "title": "Heart amulet",
+      "artist": "作者不詳",
+      "date": "ca. 1080–664 BCE",
+      "museum": "The Metropolitan Museum of Art",
+      "accession": "10.130.1803",
+      "object_url": "https://www.metmuseum.org/art/collection/search/560752",
+      "api_url": "https://collectionapi.metmuseum.org/public/collection/v1/objects/560752",
+      "rights": "CC0 1.0（Met Open Access）",
+      "rights_evidence": {
+        "isPublicDomain": true,
+        "policy_url": "https://www.metmuseum.org/hubs/open-access",
+        "api_metadata_date": "2026-08-05T04:49:31.513Z"
+      },
+      "retrieved_date": "2026-11-04",
+      "color": "白黒",
+      "use_segment": "P08の予備",
+      "notes": "取得写真は白黒。",
+      "preferred_image_index": 0,
+      "credit_line": "Gift of Helen Miller Gould, 1910",
+      "geography": {
+        "country": "Egypt"
+      },
+      "provenance_scope": "館APIの取得・寄贈情報を記録。完全な所有履歴や合法性の独立鑑定ではない。",
+      "previous_episode_status": "過去資料の作品ID照合で一致なし",
+      "previous_id_hits": [],
+      "images": [
+        {
+          "file": "/Volumes/ESD-02/新チャンネル/EP011_WeighingOfTheHeart/素材/met560752_00.jpg",
+          "url": "https://images.metmuseum.org/CRDImages/eg/original/10.130.1803_front.jpg",
+          "sha256": "d6e22e5efe92876ba22eed1468a65da749990b78444250c279aced617ea7f25e",
+          "size_bytes": 455307,
+          "dimensions": [
+            1520,
+            2000
+          ],
+          "preview_repo_path": "new-channel/サムネ確認用/wom11/met560752_00.jpg"
+        }
+      ]
+    },
+    {
+      "candidate_id": "E08-A",
+      "requested_ids": [
+        "E08"
+      ],
+      "met_object_id": 558378,
+      "title": "Amulet of Thoth",
+      "artist": "作者不詳",
+      "date": "664–343 BCE",
+      "museum": "The Metropolitan Museum of Art",
+      "accession": "89.2.544",
+      "object_url": "https://www.metmuseum.org/art/collection/search/558378",
+      "api_url": "https://collectionapi.metmuseum.org/public/collection/v1/objects/558378",
+      "rights": "CC0 1.0（Met Open Access）",
+      "rights_evidence": {
+        "isPublicDomain": true,
+        "policy_url": "https://www.metmuseum.org/hubs/open-access",
+        "api_metadata_date": "2026-08-01T04:49:33.94Z"
+      },
+      "retrieved_date": "2026-11-04",
+      "color": "カラー",
+      "use_segment": "P10",
+      "notes": "緑色ファイアンスのトト。",
+      "preferred_image_index": 0,
+      "credit_line": "Gift of Joseph W. Drexel, 1889",
+      "geography": {
+        "country": "Egypt"
+      },
+      "provenance_scope": "館APIの取得・寄贈情報を記録。完全な所有履歴や合法性の独立鑑定ではない。",
+      "previous_episode_status": "過去資料の作品ID照合で一致なし",
+      "previous_id_hits": [],
+      "images": [
+        {
+          "file": "/Volumes/ESD-02/新チャンネル/EP011_WeighingOfTheHeart/素材/met558378_00.jpg",
+          "url": "https://images.metmuseum.org/CRDImages/eg/original/LC-89_2_544_EGDP031807.jpg",
+          "sha256": "0482f963bfaef383903055f7782277f225e74a6034c9f99567ac181fd564b2da",
+          "size_bytes": 500983,
+          "dimensions": [
+            2667,
+            4000
+          ],
+          "preview_repo_path": "new-channel/サムネ確認用/wom11/met558378_00.jpg"
+        }
+      ]
+    },
+    {
+      "candidate_id": "E08-B",
+      "requested_ids": [
+        "E08"
+      ],
+      "met_object_id": 546153,
+      "title": "Thoth amulet",
+      "artist": "作者不詳",
+      "date": "664–332 BCE",
+      "museum": "The Metropolitan Museum of Art",
+      "accession": "41.160.140",
+      "object_url": "https://www.metmuseum.org/art/collection/search/546153",
+      "api_url": "https://collectionapi.metmuseum.org/public/collection/v1/objects/546153",
+      "rights": "CC0 1.0（Met Open Access）",
+      "rights_evidence": {
+        "isPublicDomain": true,
+        "policy_url": "https://www.metmuseum.org/hubs/open-access",
+        "api_metadata_date": "2026-08-01T04:49:33.94Z"
+      },
+      "retrieved_date": "2026-11-04",
+      "color": "カラー",
+      "use_segment": "P10",
+      "notes": "青色ラピスラズリのトト。",
+      "preferred_image_index": 0,
+      "credit_line": "Bequest of W. Gedney Beatty, 1941",
+      "geography": {
+        "country": "Egypt"
+      },
+      "provenance_scope": "館APIの取得・寄贈情報を記録。完全な所有履歴や合法性の独立鑑定ではない。",
+      "previous_episode_status": "過去資料の作品ID照合で一致なし",
+      "previous_id_hits": [],
+      "images": [
+        {
+          "file": "/Volumes/ESD-02/新チャンネル/EP011_WeighingOfTheHeart/素材/met546153_00.jpg",
+          "url": "https://images.metmuseum.org/CRDImages/eg/original/41.160.140_view_1.jpg",
+          "sha256": "6c918c8e11d8c7032801a46789c88f18cff4dcd73529c278d99cbcfe6775f0c6",
+          "size_bytes": 581719,
+          "dimensions": [
+            1367,
+            2000
+          ],
+          "preview_repo_path": "new-channel/サムネ確認用/wom11/met546153_00.jpg"
+        }
+      ]
+    },
+    {
+      "candidate_id": "E08-C",
+      "requested_ids": [
+        "E08"
+      ],
+      "met_object_id": 560603,
+      "title": "Thoth amulet",
+      "artist": "作者不詳",
+      "date": "664–30 BCE",
+      "museum": "The Metropolitan Museum of Art",
+      "accession": "89.2.367",
+      "object_url": "https://www.metmuseum.org/art/collection/search/560603",
+      "api_url": "https://collectionapi.metmuseum.org/public/collection/v1/objects/560603",
+      "rights": "CC0 1.0（Met Open Access）",
+      "rights_evidence": {
+        "isPublicDomain": true,
+        "policy_url": "https://www.metmuseum.org/hubs/open-access",
+        "api_metadata_date": "2026-08-01T04:49:33.94Z"
+      },
+      "retrieved_date": "2026-11-04",
+      "color": "白黒",
+      "use_segment": "P10の小さな補助",
+      "notes": "白黒かつ低解像度。全画面・拡大向きではない。",
+      "preferred_image_index": 0,
+      "credit_line": "Gift of Joseph W. Drexel, 1889",
+      "geography": {
+        "country": "Egypt"
+      },
+      "provenance_scope": "館APIの取得・寄贈情報を記録。完全な所有履歴や合法性の独立鑑定ではない。",
+      "previous_episode_status": "過去資料の作品ID照合で一致なし",
+      "previous_id_hits": [],
+      "images": [
+        {
+          "file": "/Volumes/ESD-02/新チャンネル/EP011_WeighingOfTheHeart/素材/met560603_00.jpg",
+          "url": "https://images.metmuseum.org/CRDImages/eg/original/89.2.367_acc.jpg",
+          "sha256": "8030a512e1ff87e12b7f9955969acfac1c99661c7c8e4feb8a22ea6c3151ae2f",
+          "size_bytes": 13989,
+          "dimensions": [
+            194,
+            371
+          ],
+          "preview_repo_path": "new-channel/サムネ確認用/wom11/met560603_00.jpg"
+        }
+      ]
+    },
+    {
+      "candidate_id": "E08-D",
+      "requested_ids": [
+        "E08"
+      ],
+      "met_object_id": 545855,
+      "title": "Thoth amulet",
+      "artist": "作者不詳",
+      "date": "ca. 2110–2030 BCE",
+      "museum": "The Metropolitan Museum of Art",
+      "accession": "65.46.4",
+      "object_url": "https://www.metmuseum.org/art/collection/search/545855",
+      "api_url": "https://collectionapi.metmuseum.org/public/collection/v1/objects/545855",
+      "rights": "CC0 1.0（Met Open Access）",
+      "rights_evidence": {
+        "isPublicDomain": true,
+        "policy_url": "https://www.metmuseum.org/hubs/open-access",
+        "api_metadata_date": "2026-08-01T04:49:33.94Z"
+      },
+      "retrieved_date": "2026-11-04",
+      "color": "白黒",
+      "use_segment": "P10の小さな補助",
+      "notes": "象牙のトト。写真は白黒、低解像度。",
+      "preferred_image_index": 0,
+      "credit_line": "Rogers Fund, 1965",
+      "geography": {
+        "country": "Egypt"
+      },
+      "provenance_scope": "館APIの取得・寄贈情報を記録。完全な所有履歴や合法性の独立鑑定ではない。",
+      "previous_episode_status": "過去資料の作品ID照合で一致なし",
+      "previous_id_hits": [],
+      "images": [
+        {
+          "file": "/Volumes/ESD-02/新チャンネル/EP011_WeighingOfTheHeart/素材/met545855_00.jpg",
+          "url": "https://images.metmuseum.org/CRDImages/eg/original/65-46-4.jpg",
+          "sha256": "2e60e2438dc7bfdf5e0a7a6c4b0c5620df5cbc7890620686165f6ed1e5b383c3",
+          "size_bytes": 61707,
+          "dimensions": [
+            361,
+            472
+          ],
+          "preview_repo_path": "new-channel/サムネ確認用/wom11/met545855_00.jpg"
+        }
+      ]
+    },
+    {
+      "candidate_id": "E08-E",
+      "requested_ids": [
+        "E08"
+      ],
+      "met_object_id": 577401,
+      "title": "Shrine fragment with a figure of Thoth",
+      "artist": "作者不詳",
+      "date": "ca. 721–332 BCE",
+      "museum": "The Metropolitan Museum of Art",
+      "accession": "26.3.234b",
+      "object_url": "https://www.metmuseum.org/art/collection/search/577401",
+      "api_url": "https://collectionapi.metmuseum.org/public/collection/v1/objects/577401",
+      "rights": "CC0 1.0（Met Open Access）",
+      "rights_evidence": {
+        "isPublicDomain": true,
+        "policy_url": "https://www.metmuseum.org/hubs/open-access",
+        "api_metadata_date": "2026-07-31T04:50:42.63Z"
+      },
+      "retrieved_date": "2026-11-04",
+      "color": "カラー",
+      "use_segment": "P10",
+      "notes": "トトを描く彩色木片。像ではなく祠の断片。",
+      "preferred_image_index": 0,
+      "credit_line": "Rogers Fund, 1926",
+      "geography": {
+        "country": "Egypt",
+        "region": "Upper Egypt, Thebes",
+        "subregion": "Deir el-Bahri",
+        "excavation": "MMA excavations, 1922–23"
+      },
+      "provenance_scope": "館APIの取得・寄贈情報を記録。完全な所有履歴や合法性の独立鑑定ではない。",
+      "previous_episode_status": "過去資料の作品ID照合で一致なし",
+      "previous_id_hits": [],
+      "images": [
+        {
+          "file": "/Volumes/ESD-02/新チャンネル/EP011_WeighingOfTheHeart/素材/met577401_00.jpg",
+          "url": "https://images.metmuseum.org/CRDImages/eg/original/LC-26_3_234b_EGDP034940.jpg",
+          "sha256": "f7363cd3b16f73f1d18a02c79baccc33872c4a0bf922d959dd8225222fd07af9",
+          "size_bytes": 1293812,
+          "dimensions": [
+            2004,
+            4000
+          ],
+          "preview_repo_path": "new-channel/サムネ確認用/wom11/met577401_00.jpg"
+        }
+      ]
+    },
+    {
+      "candidate_id": "E11-A",
+      "requested_ids": [
+        "E11"
+      ],
+      "met_object_id": 244463,
+      "title": "Bronze statuette of Osiris",
+      "artist": "作者不詳",
+      "date": "664–31 BCE",
+      "museum": "The Metropolitan Museum of Art",
+      "accession": "74.51.5584",
+      "object_url": "https://www.metmuseum.org/art/collection/search/244463",
+      "api_url": "https://collectionapi.metmuseum.org/public/collection/v1/objects/244463",
+      "rights": "CC0 1.0（Met Open Access）",
+      "rights_evidence": {
+        "isPublicDomain": true,
+        "policy_url": "https://www.metmuseum.org/hubs/open-access",
+        "api_metadata_date": "2025-03-06T04:54:30Z"
+      },
+      "retrieved_date": "2026-11-04",
+      "color": "カラー",
+      "use_segment": "P11",
+      "notes": "青銅オシリス。",
+      "preferred_image_index": 0,
+      "credit_line": "The Cesnola Collection, Purchased by subscription, 1874–76",
+      "geography": {},
+      "provenance_scope": "館APIの取得・寄贈情報を記録。完全な所有履歴や合法性の独立鑑定ではない。",
+      "previous_episode_status": "過去資料の作品ID照合で一致なし",
+      "previous_id_hits": [],
+      "images": [
+        {
+          "file": "/Volumes/ESD-02/新チャンネル/EP011_WeighingOfTheHeart/素材/met244463_00.jpg",
+          "url": "https://images.metmuseum.org/CRDImages/gr/original/DP20092.jpg",
+          "sha256": "fcef6376a958f371062cc0a02c233f30a160551b8afc266323c9a5dc55a5ae9f",
+          "size_bytes": 275517,
+          "dimensions": [
+            1808,
+            1960
+          ],
+          "preview_repo_path": "new-channel/サムネ確認用/wom11/met244463_00.jpg"
+        }
+      ]
+    },
+    {
+      "candidate_id": "E11-B",
+      "requested_ids": [
+        "E11"
+      ],
+      "met_object_id": 545802,
+      "title": "Statuette of Osiris",
+      "artist": "作者不詳",
+      "date": "664–332 BCE",
+      "museum": "The Metropolitan Museum of Art",
+      "accession": "61.45",
+      "object_url": "https://www.metmuseum.org/art/collection/search/545802",
+      "api_url": "https://collectionapi.metmuseum.org/public/collection/v1/objects/545802",
+      "rights": "CC0 1.0（Met Open Access）",
+      "rights_evidence": {
+        "isPublicDomain": true,
+        "policy_url": "https://www.metmuseum.org/hubs/open-access",
+        "api_metadata_date": "2026-06-20T04:50:50.393Z"
+      },
+      "retrieved_date": "2026-11-04",
+      "color": "カラー",
+      "use_segment": "P11",
+      "notes": "青銅オシリス。",
+      "preferred_image_index": 0,
+      "credit_line": "Rogers Fund, 1961",
+      "geography": {
+        "country": "Egypt"
+      },
+      "provenance_scope": "館APIの取得・寄贈情報を記録。完全な所有履歴や合法性の独立鑑定ではない。",
+      "previous_episode_status": "過去資料の作品ID照合で一致なし",
+      "previous_id_hits": [],
+      "images": [
+        {
+          "file": "/Volumes/ESD-02/新チャンネル/EP011_WeighingOfTheHeart/素材/met545802_00.jpg",
+          "url": "https://images.metmuseum.org/CRDImages/eg/original/LC-61_45_EGDP028001.jpg",
+          "sha256": "db4ea87073bd7ba711004f11627eac3aebe8e7e0f201b54ac25111d41cfeace6",
+          "size_bytes": 1642326,
+          "dimensions": [
+            2667,
+            4000
+          ],
+          "preview_repo_path": "new-channel/サムネ確認用/wom11/met545802_00.jpg"
+        }
+      ]
+    },
+    {
+      "candidate_id": "E10-A",
+      "requested_ids": [
+        "E10"
+      ],
+      "met_object_id": 420448,
+      "title": "View on the Nile near Cairo",
+      "artist": "Thomas Seddon",
+      "date": "ca. 1855",
+      "museum": "The Metropolitan Museum of Art",
+      "accession": "2013.75",
+      "object_url": "https://www.metmuseum.org/art/collection/search/420448",
+      "api_url": "https://collectionapi.metmuseum.org/public/collection/v1/objects/420448",
+      "rights": "CC0 1.0（Met Open Access）",
+      "rights_evidence": {
+        "isPublicDomain": true,
+        "policy_url": "https://www.metmuseum.org/hubs/open-access",
+        "api_metadata_date": "2025-03-06T04:54:30Z"
+      },
+      "retrieved_date": "2026-11-04",
+      "color": "カラー",
+      "use_segment": "P06",
+      "notes": "19世紀水彩。日没の景色。E12の朝・日の出には使わない。",
+      "preferred_image_index": 0,
+      "credit_line": "Purchase, Brooke Russell Astor Bequest, 2013",
+      "geography": {},
+      "provenance_scope": "館APIの取得・寄贈情報を記録。完全な所有履歴や合法性の独立鑑定ではない。",
+      "previous_episode_status": "過去資料の作品ID照合で一致なし",
+      "previous_id_hits": [],
+      "images": [
+        {
+          "file": "/Volumes/ESD-02/新チャンネル/EP011_WeighingOfTheHeart/素材/met420448_00.jpg",
+          "url": "https://images.metmuseum.org/CRDImages/dp/original/DP829487.jpg",
+          "sha256": "0290e01cac844f614cc7cb490be0925e2a04732f1e5440b006482b35271a09c2",
+          "size_bytes": 1694642,
+          "dimensions": [
+            1996,
+            1096
+          ],
+          "preview_repo_path": "new-channel/サムネ確認用/wom11/met420448_00.jpg"
+        }
+      ]
+    },
+    {
+      "candidate_id": "E10-B",
+      "requested_ids": [
+        "E10"
+      ],
+      "met_object_id": 12074,
+      "title": "Egyptians Raising Water from the Nile",
+      "artist": "John Singer Sargent",
+      "date": "1890–91",
+      "museum": "The Metropolitan Museum of Art",
+      "accession": "50.130.16",
+      "object_url": "https://www.metmuseum.org/art/collection/search/12074",
+      "api_url": "https://collectionapi.metmuseum.org/public/collection/v1/objects/12074",
+      "rights": "CC0 1.0（Met Open Access）",
+      "rights_evidence": {
+        "isPublicDomain": true,
+        "policy_url": "https://www.metmuseum.org/hubs/open-access",
+        "api_metadata_date": "2026-03-07T04:55:36.053Z"
+      },
+      "retrieved_date": "2026-11-04",
+      "color": "カラー",
+      "use_segment": "P06の補助",
+      "notes": "灌漑の油彩。人物は大きいため「小さな人物」の希望には合わない。予備。",
+      "preferred_image_index": 0,
+      "credit_line": "Gift of Mrs. Francis Ormond, 1950",
+      "geography": {},
+      "provenance_scope": "館APIの取得・寄贈情報を記録。完全な所有履歴や合法性の独立鑑定ではない。",
+      "previous_episode_status": "過去資料の作品ID照合で一致なし",
+      "previous_id_hits": [],
+      "images": [
+        {
+          "file": "/Volumes/ESD-02/新チャンネル/EP011_WeighingOfTheHeart/素材/met12074_00.jpg",
+          "url": "https://images.metmuseum.org/CRDImages/ad/original/DT11903.jpg",
+          "sha256": "be7a7b6d1a87632e22f047b6bf9124b4dfc697a7470f1f032e78011b7ec7a239",
+          "size_bytes": 3372276,
+          "dimensions": [
+            3076,
+            3722
+          ],
+          "preview_repo_path": "new-channel/サムネ確認用/wom11/met12074_00.jpg"
+        }
+      ]
+    },
+    {
+      "candidate_id": "R01",
+      "requested_ids": [
+        "E04",
+        "E01"
+      ],
+      "met_object_id": 557657,
+      "title": "Part of a funerary papyrus showing the judgment before Osiris",
+      "artist": "作者不詳",
+      "date": "ca. 230–150 BCE",
+      "museum": "The Metropolitan Museum of Art",
+      "accession": "66.99.142",
+      "object_url": "https://www.metmuseum.org/art/collection/search/557657",
+      "api_url": "https://collectionapi.metmuseum.org/public/collection/v1/objects/557657",
+      "rights": "CC0 1.0（Met Open Access）",
+      "rights_evidence": {
+        "isPublicDomain": true,
+        "policy_url": "https://www.metmuseum.org/hubs/open-access",
+        "api_metadata_date": "2026-10-15T13:37:20.06Z"
+      },
+      "retrieved_date": "2026-11-04",
+      "color": "カラー",
+      "use_segment": "P07の予備",
+      "notes": "第1話使用済み。館が上部2列の42柱と説明。再使用は許可済み上限1〜2作品内だけ。",
+      "preferred_image_index": 0,
+      "credit_line": "Purchase, Fletcher Fund and The Guide Foundation Inc. Gift, 1966",
+      "geography": {
+        "country": "Egypt"
+      },
+      "provenance_scope": "館APIの取得・寄贈情報を記録。完全な所有履歴や合法性の独立鑑定ではない。",
+      "previous_episode_status": "第1話使用済み・予備",
+      "previous_id_hits": [
+        "_work/wom11-share-20261104/new-channel/episodes/EP001_Anubis/records/visual_manifest.json",
+        "_work/wom11-share-20261104/new-channel/research/wom09_素材台帳_20261101.json",
+        "new-channel/episodes/EP001_Anubis/records/visual_manifest.json",
+        "new-channel/research/wom09_素材台帳_20261101.json"
+      ],
+      "images": [
+        {
+          "file": "/Volumes/ESD-02/新チャンネル/EP011_WeighingOfTheHeart/素材/met557657_00.jpg",
+          "url": "https://images.metmuseum.org/CRDImages/eg/original/LC-66_99_142_EGDP028235.jpg",
+          "sha256": "824555922762d86a836ddb4719e2034a279bb30c9e075c6360b6a58e6f9abcbf",
+          "size_bytes": 5963567,
+          "dimensions": [
+            4000,
+            3105
+          ],
+          "preview_repo_path": "new-channel/サムネ確認用/wom11/met557657_00.jpg"
+        }
+      ]
+    },
+    {
+      "candidate_id": "R02",
+      "requested_ids": [
+        "E01"
+      ],
+      "met_object_id": 548344,
+      "title": "Book of the Dead for the Chantress of Amun, Nauny",
+      "artist": "作者不詳",
+      "date": "ca. 1050 BCE",
+      "museum": "The Metropolitan Museum of Art",
+      "accession": "30.3.31",
+      "object_url": "https://www.metmuseum.org/art/collection/search/548344",
+      "api_url": "https://collectionapi.metmuseum.org/public/collection/v1/objects/548344",
+      "rights": "CC0 1.0（Met Open Access）",
+      "rights_evidence": {
+        "isPublicDomain": true,
+        "policy_url": "https://www.metmuseum.org/hubs/open-access",
+        "api_metadata_date": "2026-07-31T04:50:42.63Z"
+      },
+      "retrieved_date": "2026-11-04",
+      "color": "カラー",
+      "use_segment": "P01/P10の予備",
+      "notes": "第1話使用済みのNany。新規E01を優先。再使用は許可済み上限1〜2作品内だけ。",
+      "preferred_image_index": 0,
+      "credit_line": "Rogers Fund, 1930",
+      "geography": {
+        "country": "Egypt",
+        "region": "Upper Egypt, Thebes",
+        "subregion": "Deir el-Bahri",
+        "locale": "Tomb of Meritamun (TT 358, MMA 65), burial of Nauny",
+        "locus": "first corridor, inside Osiris figure",
+        "excavation": "MMA excavations, 1928–29"
+      },
+      "provenance_scope": "館APIの取得・寄贈情報を記録。完全な所有履歴や合法性の独立鑑定ではない。",
+      "previous_episode_status": "第1話使用済み・予備",
+      "previous_id_hits": [
+        "_work/wom11-share-20261104/new-channel/episodes/EP001_Anubis/records/visual_manifest.json",
+        "_work/wom11-share-20261104/new-channel/research/wom09_素材台帳_20261101.json",
+        "new-channel/episodes/EP001_Anubis/records/visual_manifest.json",
+        "new-channel/research/wom09_素材台帳_20261101.json"
+      ],
+      "images": [
+        {
+          "file": "/Volumes/ESD-02/新チャンネル/EP011_WeighingOfTheHeart/素材/met548344_00.jpg",
+          "url": "https://images.metmuseum.org/CRDImages/eg/original/DT11633.jpg",
+          "sha256": "ef0fe300bf35aab230a49017c5ec3d7403de8a96ebfd2796a41dea3b4e777972",
+          "size_bytes": 3042180,
+          "dimensions": [
+            3811,
+            2828
+          ],
+          "preview_repo_path": "new-channel/サムネ確認用/wom11/met548344_00.jpg"
+        }
+      ]
+    }
+  ],
+  "gaps": [
+    "E05: 所蔵機関のPD/CC0宣言付きレプシウス画像未確保",
+    "E12: ナイルの朝・日の出の適格画像未確保",
+    "E02: 全巻一枚画像なし、区画写真のみ",
+    "E04: 新規巻物の42柱の数え上げ未完。予備R01は館説明あり"
+  ]
+}
