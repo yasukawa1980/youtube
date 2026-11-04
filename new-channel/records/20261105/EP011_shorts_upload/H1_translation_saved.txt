@@ -1,0 +1,216 @@
+Browser tab: 604610301, Title: "言語 - YouTube Studio", URL: "https://studio.youtube.com/video/99Zx7saQFdY/translations".
+1 AXWebArea 言語 - YouTube Studio, URL: studio.youtube.com/video/99Zx7saQFdY/translations
+	2 container html-body
+		3 container
+			4 text すべての変更を保存しました。
+			5 container main-container
+				6 container
+					7 button メニューを折りたたむ
+					8 link Description: YouTube Studio ダッシュボード, Value: studio.youtube.com/channel/UCfLJOojEY9VB3rvrjICk90Q, ID: home-button
+					9 button ナビゲーションをスキップ
+						10 text ナビゲーションをスキップ
+					70 container search-layer
+						71 text field (settable) query-input
+					12 button ヘルプ
+					13 button 通知
+					14 button Ask Studio
+						15 text Ask Studio
+					16 button 作成
+						17 text 作成
+					18 container アカウント
+						19 pop up button Description: Account, ID: avatar-btn
+				20 container
+					21 container left-nav
+						72 link Description: チャンネルのコンテンツ, ID: back-button, Value: studio.youtube.com/channel/UCfLJOojEY9VB3rvrjICk90Q/videos/short?filter=%5B%5D&sort=%7B%22columnType%22%3A%22date%22%2C%22sortOrder%22%3A%22DESCENDING%22%7D
+						73 container
+							74 image Description: 動画のサムネイル: A Spell Spoken to the Heart, ID: img-with-fallback
+							75 text 0:22
+							76 container entity-label-container
+								77 text 動画
+								78 text A Spell Spoken to the Heart
+						27 menu main-menu
+							79 text •
+							29 詳細, ID: menu-item-0
+								30 container menu-paper-icon-item-0
+									31 text 詳細
+							80 text •
+							33 アナリティクス, ID: menu-item-1
+								34 container menu-paper-icon-item-1
+									35 text アナリティクス
+							81 text •
+							37 エディタ, ID: menu-item-2
+								38 container menu-paper-icon-item-2
+									39 text エディタ
+							82 text •
+							41 コメント, ID: menu-item-3
+								42 container menu-paper-icon-item-3
+									43 text コメント
+							83 text •
+							45 言語, ID: menu-item-4
+								46 container menu-paper-icon-item-4
+									47 text 言語
+							84 text •
+							49 申し立て, ID: menu-item-5
+								50 container menu-paper-icon-item-5
+									51 text 申し立て
+							85 text •
+							53 クリップとショート動画, ID: menu-item-6
+								54 container menu-paper-icon-item-6
+									55 text クリップとショート動画
+						64 content list
+							65 button 設定, ID: settings-item
+								66 text 設定
+							67 button フィードバックを送信, ID: send-feedback-item
+								68 text フィードバックを送信
+					69 container main
+						86 heading 言語, Value: 1
+							87 text 言語
+						88 container 動画の言語: 英語, ID: header-section
+							89 heading 動画の言語: 英語, Value: 2, ID: default-language-title
+								90 text 動画の言語: 英語
+							91 button 詳細
+							92 text 英語の字幕が、字幕と音声を自動翻訳する際のデフォルトの翻訳元となります。
+							93 button 字幕を編集
+								94 text 字幕を編集
+							95 button 手動でアップロード
+								96 text 手動でアップロード
+						97 container 翻訳, ID: translations-section
+							98 heading 翻訳, Value: 2, ID: language-translations-header
+								99 text 翻訳
+							100 button 言語を追加
+								101 text 言語を追加
+							102 text 翻訳 1 件
+							103 container screen-size-container
+								104 table Description: 翻訳, Help: 各言語の音声、字幕、タイトルと説明の翻訳を管理できる表, ID: ytgn-video-translations-list-table
+									105 text 各言語の音声、字幕、タイトルと説明の翻訳を管理できる表
+									106 row
+										107 cell
+											108 heading Description: 言語, Value: 3, ID: language-header-name
+												109 text 言語
+										110 cell
+											111 heading Description: 音声, Value: 3, ID: audio-header-name
+												112 text 音声
+										113 cell
+											114 heading Description: 字幕, Value: 3, ID: captions-header-name
+												115 text 字幕
+										116 cell
+											117 heading Description: タイトルと説明, Value: 3, ID: metadata-header-name
+												118 text タイトルと説明
+									119 row row-container
+										120 cell
+											121 button 日本語
+										122 cell
+										123 cell
+										124 cell
+											125 text 公開済み
+		126 container Description: 日本語 の詳細, ID: dialog
+			127 container
+				128 heading 日本語, Value: 1
+					129 text 日本語
+				130 container ダイアログのコントロール
+					131 heading ダイアログのコントロール, Value: 2
+						132 text ダイアログのコントロール
+					133 button (disabled) 更新
+						134 text 更新
+					135 text 更新 ボタンが無効になっています
+					136 button キャンセル
+			137 container タイトルと説明
+				138 heading タイトルと説明, Value: 2, ID: metadata-section-header
+					139 text タイトルと説明
+				140 container container
+					141 container outer
+						142 container label
+							143 text タイトル
+							144 container Description: わかりやすいタイトルは視聴者を引きつけるためのカギです。動画のタイトルを付けるときは、その作品と似た動画を検索するときに入力すると思われるキーワードを含めるようにしましょう。 詳細 , ID: help-icon
+						145 container container-content
+							146 text entry area (settable) Description: タイトル, Value: 心臓に語りかける呪文, ID: textbox
+								147 text 心臓に語りかける呪文
+				148 container container
+					149 container outer
+						150 container label
+							151 text 説明
+							152 container Description: 説明にキーワードを含めると、視聴者が検索で動画を見つけやすくなります。説明には動画の概要を記入し、初めのほうにキーワードを含めるようにするとよいでしょう。 詳細 , ID: help-icon
+						153 container container-content
+							154 text entry area (settable) Description: 説明, ID: textbox, Value: 30B章は心臓に直接語りかけます。古い英訳では「わが心臓、わが母よ」と始まります。この心臓スカラベで、美術館は10行を30B章と特定しています。
+本編：https://youtu.be/Xa0bcKAfgJI
+
+Images
+The Metropolitan Museum of Art — Open Access, CC0.
+30.8.1080 — Heart Scarab with a Human Head
+https://www.metmuseum.org/art/collection/search/550986
+74.51.4445 — Lapis lazuli heart amulet
+https://www.metmuseum.org/art/collection/search/243713
+Narration: Kokoro / Heart (af_heart), synthetic speech.
+Music: Suno.
+
+#Shorts #歴史 #古代エジプト
+								155 text 30B章は心臓に直接語りかけます。古い英訳では「わが心臓、わが母よ」と始まります。この心臓スカラベで、美術館は10行を30B章と特定しています。
+本編：https://youtu.be/Xa0bcKAfgJI
+
+Images
+The Metropolitan Museum of Art — Open Access, CC0.
+30.8.1080 — Heart Scarab with a Human Head
+https://www.metmuseum.org/art/collection/search/550986
+74.51.4445 — Lapis lazuli heart amulet
+https://www.metmuseum.org/art/collection/search/243713
+Narration: Kokoro / Heart (af_heart), synthetic speech.
+Music: Suno.
+
+#Shorts #歴史 #古代エジプト
+			156 container メディア
+				157 heading メディア, Value: 2
+					158 text メディア
+				159 table Description: メディア, Help: 音声と字幕の種類ごとに、名前、作成方法、公開ステータス、アクションを表示するメディア テーブル
+					160 text 音声と字幕の種類ごとに、名前、作成方法、公開ステータス、アクションを表示するメディア テーブル
+					161 row
+						162 cell
+							163 text 種類
+						164 cell
+							165 text 名前
+						166 cell
+							167 text ソース
+						168 cell
+							169 text ステータス
+						170 cell
+							171 text 操作
+					172 row
+						173 cell
+							174 image 音声
+						175 cell
+							176 text 音声
+						177 cell language-details-status
+						178 cell
+							179 button 追加
+								180 text 追加
+					181 row
+						182 cell
+							183 image 字幕
+						184 cell
+							185 text 手動字幕起こし
+						186 cell language-details-status
+						187 cell
+							188 button 追加
+								189 text 追加
+			190 container プレビュー
+				191 heading プレビュー, Value: 2
+					192 text プレビュー
+				193 container language-dialog-preview-player
+					194 container
+						195 container Description: 動画プレーヤー, ID: video-container
+							196 container Description: A Spell Spoken to the Heart, ID: video
+							197 container toolbar
+								198 container button-bar
+									199 button Description: 再生, ID: play-button
+									200 container
+										201 button Description: ミュート, ID: volume-icon-button
+										202 slider Description: 音量, Value: 100, ID: volume-slider
+									203 text 0:00 / 0:22
+									204 container
+										205 button Description: 設定, ID: settings-button
+									206 button Description: 全画面表示, ID: fullscreen-icon-button
+					207 button プレビュー オリジナル音声
+						208 button プレビュー オリジナル音声
+							209 text プレビュー
+							210 text オリジナル音声
+
+The focused UI element is 126 container Description: 日本語 の詳細, ID: dialog

@@ -1,0 +1,61 @@
+:
+  - generic: "42 Gods, 42 Denials: Could You Fail?"
+  - generic: 非公開として保存済み
+  - button "フィードバックを送信":
+  - button "閉じる":
+  - tablist:
+    - tab "詳細":
+      - generic: 詳細
+    - tab "動画の要素":
+      - generic: 動画の要素
+    - tab "初期チェック":
+      - generic: 初期チェック
+    - tab "公開設定" [selected]:
+      - generic: 公開設定
+  - heading "公開設定" [level=1]
+  - generic: 動画の公開日時と、視聴できるユーザーを選択します。
+  - paragraph: 保存または公開
+  - paragraph:
+    - generic: 動画は公開、限定公開、非公開のいずれかにします。
+  - button "Click to expand":
+  - paragraph: スケジュールを設定
+  - paragraph:
+    - generic: 動画を公開する日付を選択します。
+  - paragraph: 一般公開としてスケジュール
+  - button "2026/11/13":
+    - button "2026/11/13":
+      - generic: 2026/11/13
+  - textbox: 12:00
+  - button "タイムゾーン" [active]:
+    - generic: タイムゾーン
+  - generic "デフォルトはローカル タイムゾーン（GMT+0900）":
+  - generic: 動画は公開されるまで非公開となります
+  - heading "公開する前に、以下の点をご確認ください。" [level=2]
+  - heading "この動画に子どもは登場しますか？" [level=3]
+  - text: YouTube のポリシーに従い、危害、搾取、いじめ、暴力、労働法違反から未成年を保護してください。
+  - link "詳細":
+    - /url: https://support.google.com/youtube/answer/2801999?hl=ja
+  - heading "コンテンツ全般に関するガイダンスをお探しですか？" [level=3]
+  - text: YouTube のコミュニティ ガイドラインは、トラブルを回避し、YouTube を安全で活気のあるコミュニティとして維持するうえで役立ちます。
+  - link "詳細":
+    - /url: https://www.youtube.com/yt/about/policies#community-guidelines
+  - status
+  - region "動画プレーヤー":
+    - button "再生":
+    - button "ミュート":
+    - slider "音量"
+    - generic: 0:00 / 0:21
+    - button "全画面表示":
+  - generic: "42 Gods, 42 Denials: Could You Fail?"
+  - generic: 動画リンク
+  - link "https://youtube.com/shorts/tP4xrSQ_VPM":
+    - /url: https://youtube.com/shorts/tP4xrSQ_VPM
+  - button "動画のリンクをコピー":
+  - generic "動画のアップロード完了":
+  - generic "動画を処理しています すべてのユーザーが再生できるよう 2 種類の品質レベルで動画が処理されています。 詳細 100 完了 99 もう少しで完了です":
+  - generic "著作権チェック完了 問題は検出されませんでした コミュニティ ガイドラインの確認が完了しました 問題は検出されませんでした":
+  - generic: HD までの動画を処理しています ... もう少しで完了です
+  - button "戻る":
+    - generic: 戻る
+  - button "スケジュールを設定":
+    - generic: スケジュールを設定

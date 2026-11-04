@@ -1,0 +1,30 @@
+[
+  {
+    "id": "quiet-origins-ep011-3",
+    "name": "Quiet Origins EP011ショート3本の関連動画",
+    "status": "ACTIVE",
+    "kind": "heartbeat",
+    "rrule": "FREQ=YEARLY;BYMONTH=11;BYMONTHDAY=10;BYHOUR=9;BYMINUTE=10;COUNT=1",
+    "target_thread_id": "01a1a4c4-4530-7e93-b3d6-26f73dd6d30c",
+    "scheduled_runs": [
+      "2026-11-10T09:10:00+09:00"
+    ],
+    "timezone": "Asia/Tokyo",
+    "prompt": "本人が2026年11月5日に明示承認済み。2026年11月10日09:10 JSTに一度、Quiet Origins本編 Xa0bcKAfgJI が一般公開済みであることを確認し、第11話ショート H1 99Zx7saQFdY、H2 VRTPpQOmzJ4、H3 tP4xrSQ_VPM の関連動画を3本とも Xa0bcKAfgJI に設定する。H1は11/11 12:00公開なので、依頼の11/10 09:10〜11/11 11:50 JST内に行う。正しい関連動画が既に設定されていれば変更せず確認だけ、空欄なら追加し、別動画なら置換せず報告する。本編未公開なら予約日時を変えず未完了を報告する。各保存後の再表示で設定を確認する。操作直前にQuiet Origins（@QuietOriginsJP、UCfLJOojEY9VB3rvrjICk90Q）と対象IDを確認する。既存の他チャンネル・動画・予約日時・タイトル・説明・翻訳は変更しない。認証要求や想定外の画面では状態を変えず未完了を報告する。結果と長辺1280px以下・1MB未満のJPG証拠を new-channel/records/<実行日>/EP011_shorts_followup/ に保存し、new-channel/wom_ショート投稿結果_EP011_20261105.md と new-channel/wom_公開後作業結果_<実行日>.md に追記する。yasukawa1980/youtube の最新 origin/bgm/production 起点の安全なworktreeで対象だけコミット・pushする。既存の分岐履歴をpushせずreset/force-pushしない。既存自動実行 quiet-origins-5・quiet-origins-ep010・quiet-origins-ep010-3 は変更しない。 一度の実行で終了する。"
+  },
+  {
+    "id": "quiet-origins-ep011",
+    "name": "Quiet Origins EP011ショート公開後固定コメント",
+    "status": "ACTIVE",
+    "kind": "heartbeat",
+    "rrule": "FREQ=YEARLY;BYMONTH=11;BYMONTHDAY=11,12,13;BYHOUR=12;BYMINUTE=10;COUNT=3",
+    "target_thread_id": "01a1a4c4-4530-7e93-b3d6-26f73dd6d30c",
+    "scheduled_runs": [
+      "2026-11-11T12:10:00+09:00",
+      "2026-11-12T12:10:00+09:00",
+      "2026-11-13T12:10:00+09:00"
+    ],
+    "timezone": "Asia/Tokyo",
+    "prompt": "本人が2026年11月5日に明示承認済み。2026年11月11日・12日・13日の各12:10 JSTに、第11話ショートへ公開後の固定コメントを付ける。11/11 H1 99Zx7saQFdY、11/12 H2 VRTPpQOmzJ4、11/13 H3 tP4xrSQ_VPM。実行日の対象と過去日未完了対象について一般公開済みを確認した場合だけ処理する。文面は New origin stories every few days. Subscribe so you don't miss the next one. と一字一句同じにする。同文が既にあれば重複投稿せずそのコメントを固定し、固定済みなら確認のみ行う。投稿済み・固定済みを画面で確認しコメントIDを記録する。非公開やコメント不可の場合は公開設定を変えず未完了を報告する。操作直前にQuiet Origins（@QuietOriginsJP、UCfLJOojEY9VB3rvrjICk90Q）と対象IDを確認する。既存の他チャンネル・動画・予約日時・タイトル・説明・翻訳は変更しない。認証要求や想定外の画面では状態を変えず未完了を報告する。結果と長辺1280px以下・1MB未満のJPG証拠を new-channel/records/<実行日>/EP011_shorts_followup/ に保存し、new-channel/wom_ショート投稿結果_EP011_20261105.md と new-channel/wom_公開後作業結果_<実行日>.md に追記する。yasukawa1980/youtube の最新 origin/bgm/production 起点の安全なworktreeで対象だけコミット・pushする。既存の分岐履歴をpushせずreset/force-pushしない。既存自動実行 quiet-origins-5・quiet-origins-ep010・quiet-origins-ep010-3 は変更しない。 3本完了後は終了する。"
+  }
+]
