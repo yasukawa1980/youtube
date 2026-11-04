@@ -1,7 +1,7 @@
 {
   "episode": "wom12",
   "as_of": "2026-11-05",
-  "stage": "第一次共有・調査継続",
+  "stage": "第二次共有・確認済みと未確認を分離",
   "scope": "素材探しと原典照合のみ",
   "ssd": "/Volumes/ESD-02/新チャンネル/EP012_SantaClaus/素材",
   "assets": [
@@ -40,7 +40,9 @@
       "preview_bytes": 248921,
       "visual_checked": true,
       "status": "採用候補",
-      "notes": "星柄上着・縞ズボン、北軍野営。Jeff（Jefferson Davis）の人形と首の縄を含む政治風刺。子どもの顔は小さい。文字は作品題名。AI着色なし。1933年作者の子どもから寄贈。"
+      "notes": "星柄上着・縞ズボン、北軍野営。Jeff（Jefferson Davis）の人形と首の縄を含む政治風刺。子どもの顔は小さい。文字は作品題名。AI着色なし。1933年作者の子どもから寄贈。",
+      "prior_episode_check": "既存資料45件のID・題名検索で一致なし",
+      "credit": "Thomas Nast / Santa Claus in Camp / The Metropolitan Museum of Art / Public Domain（Met Open Access）"
     },
     {
       "id": "N03-A_loc2010652186",
@@ -78,7 +80,9 @@
       "preview_bytes": 237879,
       "visual_checked": true,
       "status": "権利・画面確認済み／原寸取得待ち",
-      "notes": "NY J. Ottmann Lith. Co., Puck Bldg。女性2人がキスする場面。子どもの顔大写しなし。Puck誌名あり（企業広告ではなく誌面）。クロモリトグラフ。原寸TIFFは403/転送タイムアウト、保存は公式Large JPEG。"
+      "notes": "NY J. Ottmann Lith. Co., Puck Bldg。女性2人がキスする場面。子どもの顔大写しなし。Puck誌名あり（企業広告ではなく誌面）。クロモリトグラフ。原寸TIFFは403/転送タイムアウト、保存は公式Large JPEG。",
+      "prior_episode_check": "既存資料45件のID・題名検索で一致なし",
+      "credit": "Frank A. Nankivell / Puck Christmas 1902 / Library of Congress / No known restrictions on publication（米国1930年以前の例外）"
     },
     {
       "id": "N03-B_loc2011645591",
@@ -116,7 +120,9 @@
       "preview_bytes": 191708,
       "visual_checked": true,
       "status": "権利・画面確認済み／原寸取得待ち",
-      "notes": "NY J. Ottmann Lith. Co., Puck Bldg。女性2人と自動車、子ども・供なし。誌名Puckあり。館の技法はoffset color。原寸TIFF未取得、公式Large JPEG。"
+      "notes": "NY J. Ottmann Lith. Co., Puck Bldg。女性2人と自動車、子ども・供なし。誌名Puckあり。館の技法はoffset color。原寸TIFF未取得、公式Large JPEG。",
+      "prior_episode_check": "既存資料45件のID・題名検索で一致なし",
+      "credit": "Frank A. Nankivell / Puck Christmas 1904 / Library of Congress / No known restrictions on publication（米国1930年以前の例外）"
     },
     {
       "id": "N05-A_nga1154",
@@ -152,23 +158,546 @@
       "preview_bytes": 112359,
       "visual_checked": true,
       "status": "採用候補",
-      "notes": "単独の司教、供・子ども・広告なし。油彩板絵。Widener Collection、1942年寄贈。長い縦構図。"
+      "notes": "単独の司教、供・子ども・広告なし。油彩板絵。Widener Collection、1942年寄贈。長い縦構図。",
+      "prior_episode_check": "既存資料45件のID・題名検索で一致なし",
+      "credit": "Gerard David / Netherlandish 15th–16th Century / The Saint Anne Altarpiece: Saint Nicholas [left panel] / National Gallery of Art / Public Domain（NGA object media）"
+    },
+    {
+      "id": "N06-A_nga215550",
+      "title": "Saint Nicholas of Bari",
+      "artist": "Jacopo da Empoli",
+      "date": "c.1610",
+      "date_basis": "所蔵館作品ページ記載。幅のある年代を一点に狭めない",
+      "institution": "National Gallery of Art",
+      "accession": "2018.94.1 / 215550",
+      "work_url": "https://www.nga.gov/artworks/215550-saint-nicholas-bari",
+      "rights_url": "https://www.nga.gov/artworks/215550-saint-nicholas-bari",
+      "rights_label": "Public Domain（NGA object media）",
+      "retrieved": "2026-11-05",
+      "color": "青の淡彩・茶インク",
+      "coat_color": "司教の衣。サンタの青い服の証拠ではない",
+      "segments": [
+        "P04"
+      ],
+      "download_url": "https://api.nga.gov/iiif/a781891a-88e6-4384-988c-26812e04d489/full/full/0/default.jpg",
+      "local_path": "/Volumes/ESD-02/新チャンネル/EP012_SantaClaus/素材/N06-A_nga215550.jpg",
+      "is_full_resolution": true,
+      "dimensions": [
+        2848,
+        4096
+      ],
+      "bytes": 3030614,
+      "sha256": "d19ab70621e4d6185f3903bd28eb40be31821e7982b9b9be8caf241a1868537a",
+      "visual_checked": true,
+      "status": "採用候補",
+      "notes": "移送図の代替となる単独のニコラウス像。1087年の出来事を描いた絵とは説明しない。子ども・供・広告なし。赤い格子は原作の転写用線。2018年Krugman/Nimetz/Loper各基金により購入。",
+      "preview_repo_path": "new-channel/サムネ確認用/wom12/N06-A_nga215550.jpg",
+      "preview_dimensions": [
+        890,
+        1280
+      ],
+      "preview_bytes": 218695,
+      "prior_episode_check": "既存資料45件のID・題名検索で一致なし",
+      "credit": "Jacopo da Empoli / Saint Nicholas of Bari / National Gallery of Art / Public Domain（NGA object media）"
+    },
+    {
+      "id": "N11-A_nypl483580",
+      "title": "Christmas card depicting winter scenes; Santa Claus with reindeer and sleigh; botanical ornamentation",
+      "artist": "L. Prang & Co.（出版）",
+      "date": "1865–1899頃",
+      "date_basis": "所蔵館作品ページ記載。幅のある年代を一点に狭めない",
+      "institution": "New York Public Library",
+      "accession": "483580 / e9637520-c5c4-012f-3df1-58d385a7bc34 / MEYK+",
+      "work_url": "https://old-digitalcollections.nypl.org/items/510d47db-bc28-a3d9-e040-e00a18064a99",
+      "rights_url": "https://old-digitalcollections.nypl.org/items/510d47db-bc28-a3d9-e040-e00a18064a99",
+      "rights_label": "Public domain（NYPL、米国内の判定）",
+      "retrieved": "2026-11-05",
+      "color": "カラー",
+      "coat_color": "小さく色の判定資料にしない",
+      "segments": [
+        "P08"
+      ],
+      "download_url": "https://iiif-prod.nypl.org/index.php?id=483580&t=g",
+      "local_path": "/Volumes/ESD-02/新チャンネル/EP012_SantaClaus/素材/N11-A_nypl483580.jpg",
+      "is_full_resolution": true,
+      "dimensions": [
+        3326,
+        4578
+      ],
+      "bytes": 1312113,
+      "sha256": "1e86c1829680a9561f88ee6ff6f326beda4e5d255110009f5b4440436cc11a96",
+      "visual_checked": true,
+      "status": "採用候補",
+      "notes": "Prang proofs vol.4の貼込台紙。6図を別作品として水増ししない。雪景色・そり・植物。人物の顔は小さい。商標の大写しなし。BostonのPrang社、Mary Dana Hicks Prangから1921年寄贈。",
+      "preview_repo_path": "new-channel/サムネ確認用/wom12/N11-A_nypl483580.jpg",
+      "preview_dimensions": [
+        930,
+        1280
+      ],
+      "preview_bytes": 167207,
+      "prior_episode_check": "既存資料45件のID・題名検索で一致なし",
+      "credit": "L. Prang & Co.（出版） / Christmas card depicting winter scenes; Santa Claus with reindeer and sleigh; botanical ornamentation / New York Public Library / Public domain（NYPL、米国内の判定）"
+    },
+    {
+      "id": "N11-B_met835010",
+      "title": "Christmas Card (First Prize Winner of Louis Prang’s Christmas Card Competition, 1881)",
+      "artist": "Elihu Vedder",
+      "date": "1881",
+      "date_basis": "所蔵館作品ページ記載。幅のある年代を一点に狭めない",
+      "institution": "The Metropolitan Museum of Art",
+      "accession": "2019.469.1 / 835010",
+      "work_url": "https://www.metmuseum.org/art/collection/search/835010",
+      "rights_url": "https://www.metmuseum.org/art/collection/search/835010",
+      "rights_label": "Public Domain（Met API isPublicDomain=true）",
+      "retrieved": "2026-11-05",
+      "color": "カラー",
+      "coat_color": "サンタではない",
+      "segments": [
+        "P08"
+      ],
+      "download_url": "https://images.metmuseum.org/CRDImages/dp/original/DP890214.jpg",
+      "local_path": "/Volumes/ESD-02/新チャンネル/EP012_SantaClaus/素材/N11-B_met835010.jpg",
+      "is_full_resolution": true,
+      "dimensions": [
+        2375,
+        3667
+      ],
+      "bytes": 3206484,
+      "sha256": "c7a9b026d6cde9bba7f74f5ac0d8395ec277c3d1dcbb0f3b47d2a0cc7c9eb088",
+      "visual_checked": true,
+      "status": "採用候補",
+      "notes": "色石版、絹の房とフリンジ。全身の女性像、子ども・供・人種風刺・大きな商標なし。2019年Paul Jeromack寄贈。",
+      "preview_repo_path": "new-channel/サムネ確認用/wom12/N11-B_met835010.jpg",
+      "preview_dimensions": [
+        829,
+        1280
+      ],
+      "preview_bytes": 236144,
+      "prior_episode_check": "既存資料45件のID・題名検索で一致なし",
+      "credit": "Elihu Vedder / Christmas Card (First Prize Winner of Louis Prang’s Christmas Card Competition, 1881) / The Metropolitan Museum of Art / Public Domain（Met API isPublicDomain=true）"
+    },
+    {
+      "id": "N11-C_met393182",
+      "title": "Santa Claus and His Presents (Harper’s Weekly, Vol.II)",
+      "artist": "Winslow Homer",
+      "date": "1858-12-25",
+      "date_basis": "所蔵館作品ページ記載。幅のある年代を一点に狭めない",
+      "institution": "The Metropolitan Museum of Art",
+      "accession": "36.13.5(3) / 393182",
+      "work_url": "https://www.metmuseum.org/art/collection/search/393182",
+      "rights_url": "https://www.metmuseum.org/art/collection/search/393182",
+      "rights_label": "Public Domain（Met API isPublicDomain=true）",
+      "retrieved": "2026-11-05",
+      "color": "白黒",
+      "coat_color": "色は判定不可",
+      "segments": [
+        "P05〜P08補助"
+      ],
+      "download_url": "https://images.metmuseum.org/CRDImages/dp/original/DP875122.jpg",
+      "local_path": "/Volumes/ESD-02/新チャンネル/EP012_SantaClaus/素材/N11-C_met393182.jpg",
+      "is_full_resolution": true,
+      "dimensions": [
+        2538,
+        3650
+      ],
+      "bytes": 4782979,
+      "sha256": "5d8f88c9d1198344f30e0d2a3bfcf9beaa1d846ffa0a0cb5aa8051b217992438",
+      "visual_checked": true,
+      "status": "採用候補",
+      "notes": "木口木版。上部は寝室の子どもと贈り物、下部は別題Christmas Out of Doors。1823年の詩の挿絵とは確認していないのでN09には代用しない。顔へ寄らない。広告ではない。Harris Brisbane Dick Fund 1936。",
+      "preview_repo_path": "new-channel/サムネ確認用/wom12/N11-C_met393182.jpg",
+      "preview_dimensions": [
+        890,
+        1280
+      ],
+      "preview_bytes": 332022,
+      "prior_episode_check": "既存資料45件のID・題名検索で一致なし",
+      "credit": "Winslow Homer / Santa Claus and His Presents (Harper’s Weekly, Vol.II) / The Metropolitan Museum of Art / Public Domain（Met API isPublicDomain=true）"
+    },
+    {
+      "id": "N12-A_nga62641",
+      "title": "First Snow at Veneux-Nadon",
+      "artist": "Alfred Sisley",
+      "date": "1878",
+      "date_basis": "所蔵館作品ページ記載。幅のある年代を一点に狭めない",
+      "institution": "National Gallery of Art",
+      "accession": "1983.98.1",
+      "work_url": "https://www.nga.gov/artworks/62641-first-snow-veneux-nadon",
+      "rights_url": "https://www.nga.gov/artworks/62641-first-snow-veneux-nadon",
+      "rights_label": "Public Domain（NGA object media）",
+      "retrieved": "2026-11-05",
+      "color": "カラー",
+      "coat_color": "サンタなし",
+      "segments": [
+        "P11",
+        "P12"
+      ],
+      "download_url": "https://api.nga.gov/iiif/391cb2aa-b6d1-4417-979c-9e29337ce027/full/full/0/default.jpg",
+      "local_path": "/Volumes/ESD-02/新チャンネル/EP012_SantaClaus/素材/N12-A_nga62641.jpg",
+      "is_full_resolution": true,
+      "dimensions": [
+        4096,
+        3067
+      ],
+      "bytes": 5287388,
+      "sha256": "f872c779b6b9c1e4079ebc35c7d4114de78a4cb8d0d6251ada9837a189f6eca0",
+      "visual_checked": true,
+      "status": "採用候補",
+      "notes": "雪の農村、人物は遠景。昼景であり冬の夜とは説明しない。Lolo Sarnoff、Louis Koch記念、1983年部分寄贈・2015年完成。",
+      "preview_repo_path": "new-channel/サムネ確認用/wom12/N12-A_nga62641.jpg",
+      "preview_dimensions": [
+        1280,
+        958
+      ],
+      "preview_bytes": 358892,
+      "prior_episode_check": "既存資料45件のID・題名検索で一致なし",
+      "credit": "Alfred Sisley / First Snow at Veneux-Nadon / National Gallery of Art / Public Domain（NGA object media）"
+    },
+    {
+      "id": "N12-B_nga101749",
+      "title": "Santa Trinità dei Monti in the Snow",
+      "artist": "André Giroux",
+      "date": "1825/1830",
+      "date_basis": "所蔵館作品ページ記載。幅のある年代を一点に狭めない",
+      "institution": "National Gallery of Art",
+      "accession": "1997.65.1",
+      "work_url": "https://www.nga.gov/artworks/101749-santa-trinita-dei-monti-snow",
+      "rights_url": "https://www.nga.gov/artworks/101749-santa-trinita-dei-monti-snow",
+      "rights_label": "Public Domain（NGA object media）",
+      "retrieved": "2026-11-05",
+      "color": "カラー",
+      "coat_color": "サンタなし",
+      "segments": [
+        "P11",
+        "P12"
+      ],
+      "download_url": "https://api.nga.gov/iiif/1fc7eee8-516f-4a14-955c-e2f7e9e2f15a/full/full/0/default.jpg",
+      "local_path": "/Volumes/ESD-02/新チャンネル/EP012_SantaClaus/素材/N12-B_nga101749.jpg",
+      "is_full_resolution": true,
+      "dimensions": [
+        4096,
+        3031
+      ],
+      "bytes": 4936887,
+      "sha256": "2282ffdefecaf83ada49b8b4af446a4f0a03b293f45ae0e4fb9ce2ba77ea920f",
+      "visual_checked": true,
+      "status": "採用候補",
+      "notes": "雪のローマ、昼景。1997年Chester Dale Fundにより購入。人物の顔・広告なし。バーリ聖堂の絵に代用しない。",
+      "preview_repo_path": "new-channel/サムネ確認用/wom12/N12-B_nga101749.jpg",
+      "preview_dimensions": [
+        1280,
+        947
+      ],
+      "preview_bytes": 361158,
+      "prior_episode_check": "既存資料45件のID・題名検索で一致なし",
+      "credit": "André Giroux / Santa Trinità dei Monti in the Snow / National Gallery of Art / Public Domain（NGA object media）"
+    },
+    {
+      "id": "N12-C_nga130555",
+      "title": "Northern Landscape, Spring",
+      "artist": "Caspar David Friedrich",
+      "date": "c.1825",
+      "date_basis": "所蔵館作品ページ記載。幅のある年代を一点に狭めない",
+      "institution": "National Gallery of Art",
+      "accession": "2004.113.1",
+      "work_url": "https://www.nga.gov/artworks/130555-northern-landscape-spring",
+      "rights_url": "https://www.nga.gov/artworks/130555-northern-landscape-spring",
+      "rights_label": "Public Domain（NGA object media）",
+      "retrieved": "2026-11-05",
+      "color": "カラー",
+      "coat_color": "サンタなし",
+      "segments": [
+        "P11",
+        "P12"
+      ],
+      "download_url": "https://api.nga.gov/iiif/40bb6453-0326-4377-8ffd-872226a0e5d8/full/full/0/default.jpg",
+      "local_path": "/Volumes/ESD-02/新チャンネル/EP012_SantaClaus/素材/N12-C_nga130555.jpg",
+      "is_full_resolution": true,
+      "dimensions": [
+        4096,
+        2949
+      ],
+      "bytes": 3758318,
+      "sha256": "a827da7fec0766db3053812021988c22423bc81ddd5d248e210fe1aba0e9e034",
+      "visual_checked": true,
+      "status": "採用候補",
+      "notes": "残雪の平原、人物2人は非常に小さい。題名はSpringで、クリスマスの町とは説明しない。2004年Patrons’ Permanent Fundにより購入。",
+      "preview_repo_path": "new-channel/サムネ確認用/wom12/N12-C_nga130555.jpg",
+      "preview_dimensions": [
+        1280,
+        922
+      ],
+      "preview_bytes": 215345,
+      "prior_episode_check": "既存資料45件のID・題名検索で一致なし",
+      "credit": "Caspar David Friedrich / Northern Landscape, Spring / National Gallery of Art / Public Domain（NGA object media）"
+    },
+    {
+      "id": "N04-A_loc73169323",
+      "title": "A Visit from St. Nicholas — PDFコマ10",
+      "artist": "Clement Clarke Moore（詩）／L. Prang & Co.（出版）、挿絵作者未確認",
+      "date": "1864",
+      "date_basis": "所蔵館作品ページ記載。幅のある年代を一点に狭めない",
+      "institution": "Library of Congress",
+      "accession": "73169323 / rbc0001.2015juv69323",
+      "work_url": "https://www.loc.gov/resource/rbc0001.2015juv69323/?sp=10",
+      "rights_url": "https://www.loc.gov/resource/rbc0001.2015juv69323/?sp=10",
+      "rights_label": "The Library of Congress is not aware of any U.S. copyright or any other restrictions in the documents in this collection.",
+      "retrieved": "2026-11-05",
+      "color": "カラー",
+      "coat_color": "黄土色〜淡茶、黒い縁",
+      "segments": [
+        "P08"
+      ],
+      "download_url": "https://tile.loc.gov/storage-services/service/rbc/rbc0001/2015/2015juv69323/2015juv69323.pdf",
+      "local_path": "/Volumes/ESD-02/新チャンネル/EP012_SantaClaus/素材/N04-A_loc73169323.jpg",
+      "is_full_resolution": false,
+      "dimensions": [
+        1084,
+        1767
+      ],
+      "bytes": 374865,
+      "sha256": "fc94c728fdda2f1c39bb08ff95b3f86926f9da8f9e83ecba0e1e03fa78da6b06",
+      "visual_checked": true,
+      "status": "原頁・色確認済み／権利文言差を記録し採用保留",
+      "notes": "Boston, L. Prang & Co., 159 Washington St. [1864]。刊本著作権表示1864。公式PDFの10コマ目を1767pxに描画した派生画像で、原寸TIFFではない。画面は単独サンタ、子どもの大写し・供・人種風刺・大きな商標なし。裏表紙のPrang広告は使わない。同書をN09にも使う場合はN04と二重使用しない。LoCの権利文言は承認済みNo known restrictions on publicationと異なるため制作採用は保留。",
+      "preview_repo_path": "new-channel/サムネ確認用/wom12/N04-A_loc73169323.jpg",
+      "preview_dimensions": [
+        785,
+        1280
+      ],
+      "preview_bytes": 129486,
+      "prior_episode_check": "既存資料45件のID・題名検索で一致なし",
+      "credit": "Clement Clarke Moore（詩）／L. Prang & Co.（出版）、挿絵作者未確認 / A Visit from St. Nicholas — PDFコマ10 / Library of Congress / The Library of Congress is not aware of any U.S. copyright or any other restrictions in the documents in this collection."
     }
   ],
   "pending": [
     {
       "id": "N01",
       "title": "Merry Old Santa Claus",
-      "status": "権利条件未達／不採用のまま探索",
       "date": "初出1881-01-01",
+      "status": "制作画像未確保",
       "work_url": "https://maccullochhall.org/collections/the-thomas-nast-collection/",
-      "notes": "初出と白黒は館の解説で確認。LoC 2007683043は権利状態未評価のため不可。Getty1890再録はNOT_IN_COPYRIGHT表記のみ確認、依頼の明示PDとの対応未確認。後世の彩色版不可。"
+      "notes": "Macculloch Hall TN2015.182で初出と白黒を確認、画像PD明示未確認。LoC2007683043はRights status not evaluatedで除外。Getty IA gri_33125008808467はNOT_IN_COPYRIGHT表記、明示PD条件との対応未確認。Gutenberg72546はPD USA表記だが原所蔵館の明示条件が未確認。後世の彩色版は不可。"
     },
     {
-      "id": "N04",
-      "title": "赤以外の衣装",
-      "status": "未確保",
-      "notes": "Prang1864黄色衣装の刊本（LoC73169323）、Baum1902黒衣装の候補を調査中。実物と利用条件の両方がそろうまで緑・青・茶を台本へ追加しない。"
+      "id": "N07",
+      "title": "Ziet bisschop Sint Niklaas, ô kindren hier te paard!",
+      "artist": "A. Robyn / J. Robyn、Johan Noman出版",
+      "date": "1806–1830",
+      "date_basis": "Rijksmuseum Data欄",
+      "institution": "Rijksmuseum",
+      "accession": "RP-P-OB-205.050",
+      "work_url": "https://id.rijksmuseum.nl/200583984",
+      "rights_url": "https://creativecommons.org/publicdomain/mark/1.0/deed.en",
+      "rights_label": "Public domain（作品Data欄からPDM1.0へリンク）",
+      "retrieved": "2026-11-05",
+      "status": "権利確認済み／画像未取得・画面検品未完",
+      "notes": "Zaltbommel刊、彩色木版、382×334mm、F.G. Wallerより1923年寄贈。原寸ダウンロードにRijksmuseumアカウント要求。新規登録しない。供や子どもの顔の有無を未検品のため採用不可。"
+    },
+    {
+      "id": "N08",
+      "title": "The Children’s Friend, No.III",
+      "date": "1821",
+      "institution": "Beinecke Library, Yale",
+      "accession": "Shirley 4065 / OID2014510 / p.1 image1061148",
+      "work_url": "https://collections.library.yale.edu/catalog/2014510",
+      "status": "原頁照合済み／制作画像のPD明示未確認",
+      "notes": "赤い服、1頭のトナカイ、刊本本文を目視確認。manifestの権利欄は一般免責で明示PDではない。原典照合用へ保存、動画素材にはしない。"
+    },
+    {
+      "id": "N09",
+      "title": "Account of a Visit from St. Nicholas",
+      "date": "1823-12-23",
+      "work_url": "https://en.wikisource.org/wiki/Troy_Sentinel/1823/12/23/Account_of_a_Visit_from_St._Nicholas",
+      "status": "再掲スキャン原文照合済み／所蔵機関の画像権利未確認",
+      "notes": "Troy Sentinel p.3由来の切抜き再掲。元NY Historic Newspapersは403、所蔵館からのPD明示未確認。制作利用保留。"
+    },
+    {
+      "id": "N10",
+      "title": "A History of New York 扉と106頁",
+      "date": "1809初版／1812改訂第2版",
+      "work_url": "https://archive.org/details/ahistorynewyork31irvigoog",
+      "status": "頁画像照合済み／制作利用の権利明示未確認",
+      "notes": "NYPL1812扉・pp.106–107、Columbia1809扉。原典照合用に保存。"
+    },
+    {
+      "id": "N04-B",
+      "title": "The Life and Adventures of Santa Claus",
+      "date": "1902",
+      "artist": "Mary Cowles Clark（挿絵）",
+      "status": "候補のみ／未採用",
+      "work_url": "https://blogs.loc.gov/loc/2020/12/a-visit-from-santa-who-you-might-not-recognize/",
+      "notes": "黒衣装という館解説あり。所蔵館明示PDと原寸のセット未確保。"
+    },
+    {
+      "id": "N03-D",
+      "title": "Puck Christmas 1905",
+      "date": "1905-12-06",
+      "work_url": "https://www.loc.gov/item/2011645759/",
+      "status": "転送不完全／未採用",
+      "notes": "LoC ppmsca26013。取得JPEGが途中で切れているためSSD素材・プレビューへ加えない。"
+    },
+    {
+      "id": "N03-E",
+      "title": "Puck Christmas 1901",
+      "date": "1901-12-04",
+      "work_url": "https://www.loc.gov/pictures/item/2010651489/",
+      "status": "目視済み／予備・採用対象外",
+      "notes": "赤い服。人物は全身だが子どもが画面を大きく占める。条件適合の明瞭な1902/1904を優先。"
+    },
+    {
+      "id": "N11-D",
+      "title": "Christmas Card",
+      "artist": "Charles Caryl Coleman",
+      "date": "1881",
+      "work_url": "https://www.metmuseum.org/art/collection/search/835011",
+      "status": "除外",
+      "notes": "Met API isPublicDomain=false。サイト一般のOpen Access表示を作品単位の許諾にしない。"
+    },
+    {
+      "id": "N11-E",
+      "title": "Santa Claus banner",
+      "date": "late 19th century",
+      "institution": "Cooper Hewitt, Smithsonian",
+      "accession": "1995-50-273",
+      "work_url": "https://www.si.edu/object/chndm_1995-50-273",
+      "rights_label": "CC0",
+      "status": "候補のみ／画像・商標検品未完",
+      "notes": "Oriental Printworks製、綿のローラー印刷、Elinor Merrell遺贈。そりにメーカー名の記載情報あり、広告条件の検品が必要。公式画像取得未完。"
     }
-  ]
+  ],
+  "evidence_files": [
+    {
+      "local_path": "/Volumes/ESD-02/新チャンネル/EP012_SantaClaus/素材/原典照合用/yale1821_cover.jpg",
+      "download_url": "https://collections.library.yale.edu/iiif/2/1061146/full/full/0/default.jpg",
+      "bytes": 1344820,
+      "sha256": "c9563862770003628b038866197d539f103b148280f9d4eeefda961e23cd51c0",
+      "production_use": "保留・原典照合用"
+    },
+    {
+      "local_path": "/Volumes/ESD-02/新チャンネル/EP012_SantaClaus/素材/原典照合用/yale1821_p1.jpg",
+      "download_url": "https://collections.library.yale.edu/iiif/2/1061148/full/full/0/default.jpg",
+      "bytes": 1057029,
+      "sha256": "d5772e3fe8a7bb14ab8efe22d9ff6814305514c9e279c39f3438c4033447f9e5",
+      "production_use": "保留・原典照合用"
+    },
+    {
+      "local_path": "/Volumes/ESD-02/新チャンネル/EP012_SantaClaus/素材/原典照合用/troy1823.png",
+      "download_url": "https://upload.wikimedia.org/wikipedia/commons/7/7e/A_Visit_From_St_Nicholas_-_Troy_Sentinel.png",
+      "bytes": 707302,
+      "sha256": "f60a8448b0770c45f0ac7ebc049bf31cd316724e35289fcd52e8e473df22e93e",
+      "production_use": "保留・原典照合用"
+    },
+    {
+      "local_path": "/Volumes/ESD-02/新チャンネル/EP012_SantaClaus/素材/原典照合用/irving1812_p106.jpg",
+      "download_url": "https://archive.org/download/ahistorynewyork31irvigoog/page/n138.jpg",
+      "bytes": 989826,
+      "sha256": "5c4b7696bbff38a986a80e4684b232b1f73b0ec3fd40975bb4714eda810a1666",
+      "production_use": "保留・原典照合用"
+    },
+    {
+      "local_path": "/Volumes/ESD-02/新チャンネル/EP012_SantaClaus/素材/原典照合用/irving1812_p107.jpg",
+      "download_url": "https://archive.org/download/ahistorynewyork31irvigoog/page/n139.jpg",
+      "bytes": 1010061,
+      "sha256": "79f4a9820f4402745ba6c311ad6a4658622972dc1f97954eab73d44d06469212",
+      "production_use": "保留・原典照合用"
+    },
+    {
+      "local_path": "/Volumes/ESD-02/新チャンネル/EP012_SantaClaus/素材/原典照合用/irving1812_title.jpg",
+      "download_url": "https://archive.org/download/ahistorynewyork31irvigoog/page/n9.jpg",
+      "bytes": 549092,
+      "sha256": "6b5e97cb62937335031358dc1e719b528b8e4eb1c81a78f6652c8bf68774bc3d",
+      "production_use": "保留・原典照合用"
+    },
+    {
+      "local_path": "/Volumes/ESD-02/新チャンネル/EP012_SantaClaus/素材/原典照合用/irving1809_title.jpg",
+      "download_url": "https://archive.org/download/ldpd_11290340_000/page/n4.jpg",
+      "bytes": 522965,
+      "sha256": "dcf96c5d93948b339195bf49446e86a3995baf32786aba51d7fb5f99a9638e08",
+      "production_use": "保留・原典照合用"
+    },
+    {
+      "local_path": "/Volumes/ESD-02/新チャンネル/EP012_SantaClaus/素材/原典照合用/prang1864.pdf",
+      "download_url": "https://tile.loc.gov/storage-services/service/rbc/rbc0001/2015/2015juv69323/2015juv69323.pdf",
+      "bytes": 901644,
+      "sha256": "c0557e633848209dda24b6c454a43324fdc3b5d09b7108aacd880143543b70c2",
+      "production_use": "保留・原典照合用"
+    }
+  ],
+  "prior_episode_audit": {
+    "source_commit": "4645f682",
+    "checked_date": "2026-11-05",
+    "files": [
+      "new-channel/wom01_投稿依頼_EP001_20261021.md",
+      "new-channel/wom04_素材候補_20261023.md",
+      "new-channel/wom01_申し送り_20261021_Claude.md",
+      "new-channel/wom10_素材候補_20261102.md",
+      "new-channel/wom01_チャンネル名決定_20261021.md",
+      "new-channel/wom01_Claude視聴確認_v02_20261020.md",
+      "new-channel/wom01_Codex全編組込結果_v09_20261021.md",
+      "new-channel/wom01_Codex修正結果_v08_20261021.md",
+      "new-channel/wom09_素材候補_20261101.md",
+      "new-channel/wom01_Claude確認_v04_20261021.md",
+      "new-channel/wom01_Claude視聴確認_v01_20261020.md",
+      "new-channel/wom01_英語メイン化_手順.md",
+      "new-channel/wom05_追加素材候補_20261024.md",
+      "new-channel/wom01_Claudeレビュー修正_v02.md",
+      "new-channel/wom01_テーマ設計.md",
+      "new-channel/wom11_素材候補_20261104.md",
+      "new-channel/wom01_コピー用プロンプト.md",
+      "new-channel/wom01_Claude確認_v06_20261021.md",
+      "new-channel/wom07_素材候補_20261029.md",
+      "new-channel/wom02_素材候補_20261022.md",
+      "new-channel/wom01_投稿結果_EP001_20261021.md",
+      "new-channel/wom01_Claude確認_v03_20261021.md",
+      "new-channel/wom01_Claude確認_v09_完成版_20261021.md",
+      "new-channel/wom01_オープニング調整依頼_20261021.md",
+      "new-channel/wom05_素材候補_20261024.md",
+      "new-channel/wom06_素材候補_20261026.md",
+      "new-channel/wom08_素材候補_20261029.md",
+      "new-channel/wom01_アップロード情報.md",
+      "new-channel/wom01_画面文字削減案_20261021.md",
+      "new-channel/wom03_素材候補_20261022.md",
+      "new-channel/wom01_申し送り確認_20261020.md",
+      "new-channel/wom01_Claude確認_v08_全編組み込み依頼_20261021.md",
+      "new-channel/wom01_Claude確認_v05_20261021.md",
+      "new-channel/wom01_Claude確認_v07_ブランド映像_20261021.md",
+      "new-channel/research/wom04_素材台帳_20261023.json",
+      "new-channel/research/wom10_素材台帳_20261102.json",
+      "new-channel/research/wom07_素材台帳_20261029.json",
+      "new-channel/research/wom06_素材台帳_20261026.json",
+      "new-channel/research/wom09_素材台帳_20261101.json",
+      "new-channel/research/wom11_素材台帳_20261104.json",
+      "new-channel/research/wom08_素材台帳_20261029.json",
+      "new-channel/research/wom03_素材台帳_20261022.json",
+      "new-channel/research/wom02_素材台帳_20261021.json",
+      "new-channel/research/wom05_素材台帳_20261024.json",
+      "new-channel/volumes/wom01.yaml"
+    ],
+    "file_count": 45,
+    "matched": [],
+    "method": "作品番号・作品名の照合。過去資料に記録されていない使用や別名記載は保証しない。",
+    "excluded_known_ep10": [
+      "Met435668",
+      "Met435669",
+      "Met471939",
+      "Met472312",
+      "Met463794",
+      "Met16577",
+      "Vienna178961",
+      "Vienna179029",
+      "Vienna179028",
+      "Vienna2216650",
+      "Met391255"
+    ]
+  },
+  "counts": {
+    "saved_candidate_works": 12,
+    "full_resolution_candidate_images": 9,
+    "official_reduced_images": 2,
+    "pdf_rendered_candidate_images": 1,
+    "production_rights_hold": 1,
+    "additional_pending_or_rejected": 10,
+    "target_20_usable_met": false
+  }
 }
