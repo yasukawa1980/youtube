@@ -1,4 +1,4 @@
-"""EP011: 18 content shots plus unchanged brand clips; independent decoders, one encoder."""
+"""EP011: 22 content shots plus unchanged brand clips; independent decoders, one encoder."""
 import subprocess,json
 import numpy as np
 from wom11_produce import ROOT,OP,END,read,save,sha,ff,probe

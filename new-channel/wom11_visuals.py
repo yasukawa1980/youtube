@@ -38,7 +38,7 @@ def art(key,assets):
  if len(source)>145:source=f"{title} — {a['date']} / Met {a['accession']} (CC0)"
  im=base(label,source)
  if crop is None:
-  fractions={'E07A_01':(.19,.17,.81,.80),'E07A_03':(.23,.18,.83,.80),'E08A':(.32,.23,.66,.77),'E06A':(.15,.15,.85,.86),'E06B':(.12,.22,.9,.8)}
+  fractions={'E10B':(.23,.28,.86,.74),'E07A_01':(.19,.17,.81,.80),'E07A_03':(.23,.18,.83,.80),'E08A':(.32,.23,.66,.77),'E06A':(.15,.15,.85,.86),'E06B':(.12,.22,.9,.8)}
   crop=[round(v*d) for v,d in zip(fractions.get(key,(0,0,1,1)),[orig.width,orig.height]*2)]
  part=orig.crop(crop);zoom=.03
  if key=='E01A_10_scale':scale=1.7;zoom=-.035

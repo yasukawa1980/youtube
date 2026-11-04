@@ -8,6 +8,11 @@ from PIL import Image,ImageDraw,ImageFont
 from wom11_produce import ROOT,REPO,read,save,sha,probe
 FONT='/System/Library/Fonts/Supplemental/Arial.ttf'
 def main():
+ state=ROOT/'records/continuous_qc.json'
+ if state.exists():
+  old=read(state)
+  if old.get('passed') and all(sha(ROOT/f"deliverables/EP011_WeighingOfTheHeart_{q['language']}_v01_1080p30.mp4")==q['video_sha256'] for q in old['checks']) and all((ROOT/r['triptych']).exists() and (ROOT/r['center']).exists() for q in old['checks'] for r in q['records']):
+   print('CONTINUOUS QC CACHE VERIFIED',flush=True);return
  shots=read(ROOT/'records/render_shots.json');m=read(ROOT/'records/master_timeline.json');total=round(m['duration_seconds']*30)
  assert len(shots)==24 and sum(s['frames'] for s in shots)==total
  assert all(round(a['end']*30)==round(b['start']*30) for a,b in zip(shots,shots[1:]))

@@ -1,9 +1,9 @@
 #!/usr/bin/env python3
 """第11話の完成版を4Kへ拡大する。QT-Cと同じ設定。元の1080p版は変更しない。
 
-使い方: python3 wom10_4k.py [v02] [en ja]
+使い方: python3 wom11_4k.py [v01] [en]
 """
-import hashlib, json, subprocess, sys
+import hashlib, json, subprocess, sys, fcntl
 from pathlib import Path
 
 BASE = Path('/Volumes/ESD-02/新チャンネル/EP011_WeighingOfTheHeart')
@@ -59,6 +59,18 @@ def convert(version, language):
 if __name__ == '__main__':
     version = sys.argv[1] if len(sys.argv) > 1 else 'v01'
     languages = sys.argv[2:] or ['en']
-    records = [convert(version, language) for language in languages]
-    state = BASE / FOLDERS[version] / 'deliverables_4k/encoding.json'
-    state.write_text(json.dumps({'vf': VF, 'encode': ENCODE, 'files': records}, ensure_ascii=False, indent=2))
+    root = BASE / FOLDERS[version]
+    with (root / '_work/4k.lock').open('a') as lock:
+        fcntl.flock(lock.fileno(), fcntl.LOCK_EX)
+        state = root / 'deliverables_4k/encoding.json'
+        cached = json.loads(state.read_text()) if state.exists() else None
+        valid = cached is not None and [x['language'] for x in cached['files']] == languages
+        if valid:
+            for item in cached['files']:
+                src = root / 'deliverables' / item['source']; dst = root / 'deliverables_4k' / item['output']
+                valid = valid and dst.exists() and hashlib.file_digest(src.open('rb'),'sha256').hexdigest() == item['source_sha256'] and hashlib.file_digest(dst.open('rb'),'sha256').hexdigest() == item['output_sha256']
+        if valid:
+            print('4K CACHE VERIFIED', state, flush=True)
+        else:
+            records = [convert(version, language) for language in languages]
+            state.write_text(json.dumps({'vf': VF, 'encode': ENCODE, 'files': records}, indent=2))

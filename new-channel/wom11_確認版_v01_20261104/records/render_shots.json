@@ -1,0 +1,3437 @@
+[
+  {
+    "key": "E01A_10_scale",
+    "segment_id": "P01",
+    "file": "assets/E01A_10_scale.png",
+    "text_boxes": [
+      {
+        "text": "PAPYRUS｜パピルス",
+        "bbox": [
+          838,
+          18,
+          1082,
+          41
+        ],
+        "glyph_height": 23,
+        "font": "/System/Library/Fonts/ヒラギノ角ゴシック W3.ttc",
+        "major": false,
+        "color": "#3b2c21"
+      },
+      {
+        "text": "Book of the Dead of Imhotep (Imuthes), ca. 332–200 BCE — The Met 35.9.20a–w (CC0)",
+        "bbox": [
+          522,
+          58,
+          1399,
+          79
+        ],
+        "glyph_height": 21,
+        "font": "/System/Library/Fonts/Supplemental/Arial.ttf",
+        "major": false,
+        "color": "#3b2c21"
+      }
+    ],
+    "original_asset_id": "551786",
+    "original_source": "/Volumes/ESD-02/新チャンネル/EP011_WeighingOfTheHeart/素材/met551786_10.jpg",
+    "original_sha256": "483487d4c39bed2be37c78242cc409499572fdc3e55ca491d21ccf22bb9b56f5",
+    "source_text": [
+      "PAPYRUS｜パピルス",
+      "Book of the Dead of Imhotep (Imuthes), ca. 332–200 BCE — The Met 35.9.20a–w (CC0)"
+    ],
+    "original_pixels": [
+      4000,
+      1704
+    ],
+    "crop_pixels": [
+      1200,
+      1040,
+      2240,
+      1460
+    ],
+    "art_boxes": [
+      [
+        76,
+        238,
+        1844,
+        952
+      ]
+    ],
+    "camera_band": [
+      110,
+      1080
+    ],
+    "zoom_amount": -0.035,
+    "native_initial_scale": 1.7,
+    "native_max_scale": 1.7,
+    "color_class": "color",
+    "approved_upscale_exception": true,
+    "section_index": 10,
+    "start": 0.0,
+    "end": 33.3,
+    "frames": 999,
+    "encoded_file": "_work/render/P01_01_E01A_10_scale.mp4",
+    "render_config": {
+      "image_sha256": "4ab2e373bf3f3211767706a2333dc31a25fc3664fa2c84735a821bd71885ddca",
+      "stages": [],
+      "frames": 999,
+      "filter": "[0:v]split=2[base][art];[art]crop=1920:970:0:110,format=yuv444p,perspective=x0='(W-W/(1+-0.035*on/998))/2':y0='(H-H/(1+-0.035*on/998))/2':x1='(W-W/(1+-0.035*on/998))/2+W/(1+-0.035*on/998)':y1='(H-H/(1+-0.035*on/998))/2':x2='(W-W/(1+-0.035*on/998))/2':y2='(H-H/(1+-0.035*on/998))/2+H/(1+-0.035*on/998)':x3='(W-W/(1+-0.035*on/998))/2+W/(1+-0.035*on/998)':y3='(H-H/(1+-0.035*on/998))/2+H/(1+-0.035*on/998)':sense=source:eval=frame:interpolation=cubic[moving];[base][moving]overlay=0:110:format=yuv444,format=yuv420p[v]",
+      "lossless_static_intermediate": false,
+      "stage_change_frames": []
+    },
+    "stage_change_frames": []
+  },
+  {
+    "key": "E01A_05",
+    "segment_id": "P02",
+    "file": "assets/E01A_05.png",
+    "text_boxes": [
+      {
+        "text": "PAPYRUS｜パピルス",
+        "bbox": [
+          838,
+          18,
+          1082,
+          41
+        ],
+        "glyph_height": 23,
+        "font": "/System/Library/Fonts/ヒラギノ角ゴシック W3.ttc",
+        "major": false,
+        "color": "#3b2c21"
+      },
+      {
+        "text": "Book of the Dead of Imhotep (Imuthes), ca. 332–200 BCE — The Met 35.9.20a–w (CC0)",
+        "bbox": [
+          522,
+          58,
+          1399,
+          79
+        ],
+        "glyph_height": 21,
+        "font": "/System/Library/Fonts/Supplemental/Arial.ttf",
+        "major": false,
+        "color": "#3b2c21"
+      }
+    ],
+    "original_asset_id": "551786",
+    "original_source": "/Volumes/ESD-02/新チャンネル/EP011_WeighingOfTheHeart/素材/met551786_05.jpg",
+    "original_sha256": "0d917bc073ffb0580dbf4d2af53036f3d3f4bc3d3c6a31ca7dea78cc0b8c9dd4",
+    "source_text": [
+      "PAPYRUS｜パピルス",
+      "Book of the Dead of Imhotep (Imuthes), ca. 332–200 BCE — The Met 35.9.20a–w (CC0)"
+    ],
+    "original_pixels": [
+      4000,
+      1191
+    ],
+    "crop_pixels": [
+      0,
+      150,
+      4000,
+      1050
+    ],
+    "art_boxes": [
+      [
+        65,
+        393,
+        1855,
+        796
+      ]
+    ],
+    "camera_band": [
+      110,
+      1080
+    ],
+    "zoom_amount": 0.03,
+    "native_initial_scale": 0.4475,
+    "native_max_scale": 0.895,
+    "color_class": "color",
+    "approved_upscale_exception": false,
+    "section_index": 5,
+    "start": 33.3,
+    "end": 52.166666666666664,
+    "frames": 566,
+    "encoded_file": "_work/render/P02_01_E01A_05.mp4",
+    "render_config": {
+      "image_sha256": "b298dbf3f2548955b62380e57722012afaa1b0d91b43016d5509eefef00784ad",
+      "stages": [],
+      "frames": 566,
+      "filter": "[0:v]split=2[base][art];[art]crop=1920:970:0:110,format=yuv444p,perspective=x0='(W-W/2)*on/565':y0='(H-H/2)/2':x1='(W-W/2)*on/565+W/2':y1='(H-H/2)/2':x2='(W-W/2)*on/565':y2='(H-H/2)/2+H/2':x3='(W-W/2)*on/565+W/2':y3='(H-H/2)/2+H/2':sense=source:eval=frame:interpolation=cubic[moving];[base][moving]overlay=0:110:format=yuv444,format=yuv420p[v]",
+      "lossless_static_intermediate": false,
+      "stage_change_frames": []
+    },
+    "stage_change_frames": []
+  },
+  {
+    "key": "opening",
+    "segment_id": "BRAND",
+    "start": 52.166666666666664,
+    "end": 56.166666666666664,
+    "frames": 120,
+    "encoded_file": "/Users/ryo/Desktop/新チャンネル/ブランド素材/オープニング_エンドカード_動画試作_v02_20261021/deliverables/Quiet_Origins_opening_trial_v02.mp4",
+    "original_source": "/Users/ryo/Desktop/新チャンネル/ブランド素材/オープニング_エンドカード_動画試作_v02_20261021/deliverables/Quiet_Origins_opening_trial_v02.mp4",
+    "original_sha256": "4f8e95fd166e52b6c601c87440006ded2eec298f54c3d6d6a951738b54f721a9"
+  },
+  {
+    "key": "E01A_13",
+    "segment_id": "P03",
+    "file": "assets/E01A_13.png",
+    "text_boxes": [
+      {
+        "text": "PAPYRUS｜パピルス",
+        "bbox": [
+          838,
+          18,
+          1082,
+          41
+        ],
+        "glyph_height": 23,
+        "font": "/System/Library/Fonts/ヒラギノ角ゴシック W3.ttc",
+        "major": false,
+        "color": "#3b2c21"
+      },
+      {
+        "text": "Book of the Dead of Imhotep (Imuthes), ca. 332–200 BCE — The Met 35.9.20a–w (CC0)",
+        "bbox": [
+          522,
+          58,
+          1399,
+          79
+        ],
+        "glyph_height": 21,
+        "font": "/System/Library/Fonts/Supplemental/Arial.ttf",
+        "major": false,
+        "color": "#3b2c21"
+      }
+    ],
+    "original_asset_id": "551786",
+    "original_source": "/Volumes/ESD-02/新チャンネル/EP011_WeighingOfTheHeart/素材/met551786_13.jpg",
+    "original_sha256": "6bab78be7adc87a958887f8cfc4fc02df2819c931bdb8409732654804f0de6d1",
+    "source_text": [
+      "PAPYRUS｜パピルス",
+      "Book of the Dead of Imhotep (Imuthes), ca. 332–200 BCE — The Met 35.9.20a–w (CC0)"
+    ],
+    "original_pixels": [
+      4000,
+      1069
+    ],
+    "crop_pixels": [
+      0,
+      150,
+      4000,
+      940
+    ],
+    "art_boxes": [
+      [
+        65,
+        418,
+        1855,
+        772
+      ]
+    ],
+    "camera_band": [
+      110,
+      1080
+    ],
+    "zoom_amount": 0.03,
+    "native_initial_scale": 0.4475,
+    "native_max_scale": 0.895,
+    "color_class": "color",
+    "approved_upscale_exception": false,
+    "section_index": 13,
+    "start": 56.166666666666664,
+    "end": 76.16666666666667,
+    "frames": 600,
+    "encoded_file": "_work/render/P03_01_E01A_13.mp4",
+    "render_config": {
+      "image_sha256": "efeb8cae014e9b6c4f55fce3d3f2edbb7a98f2bae22a126664b3d63de61999e4",
+      "stages": [],
+      "frames": 600,
+      "filter": "[0:v]split=2[base][art];[art]crop=1920:970:0:110,format=yuv444p,perspective=x0='(W-W/2)*on/599':y0='(H-H/2)/2':x1='(W-W/2)*on/599+W/2':y1='(H-H/2)/2':x2='(W-W/2)*on/599':y2='(H-H/2)/2+H/2':x3='(W-W/2)*on/599+W/2':y3='(H-H/2)/2+H/2':sense=source:eval=frame:interpolation=cubic[moving];[base][moving]overlay=0:110:format=yuv444,format=yuv420p[v]",
+      "lossless_static_intermediate": false,
+      "stage_change_frames": []
+    },
+    "stage_change_frames": []
+  },
+  {
+    "key": "D_goingforth",
+    "segment_id": "P03",
+    "file": "assets/D_goingforth.png",
+    "text_boxes": [
+      {
+        "text": "TITLE CARD｜文字カード",
+        "bbox": [
+          808,
+          18,
+          1111,
+          41
+        ],
+        "glyph_height": 23,
+        "font": "/System/Library/Fonts/ヒラギノ角ゴシック W3.ttc",
+        "major": false,
+        "color": "#3b2c21"
+      },
+      {
+        "text": "“GOING FORTH BY DAY”",
+        "bbox": [
+          284,
+          330,
+          1635,
+          412
+        ],
+        "glyph_height": 82,
+        "font": "/System/Library/Fonts/Supplemental/Arial Bold.ttf",
+        "major": true,
+        "color": "#3b2c21"
+      },
+      {
+        "text": "「日のもとに出る」",
+        "bbox": [
+          670,
+          450,
+          1251,
+          510
+        ],
+        "glyph_height": 60,
+        "font": "/System/Library/Fonts/ヒラギノ角ゴシック W3.ttc",
+        "major": true,
+        "color": "#3b2c21"
+      },
+      {
+        "text": "The choice of spells varied from scroll to scroll",
+        "bbox": [
+          474,
+          600,
+          1447,
+          644
+        ],
+        "glyph_height": 44,
+        "font": "/System/Library/Fonts/Supplemental/Arial.ttf",
+        "major": false,
+        "color": "#3b2c21"
+      },
+      {
+        "text": "収める呪文は巻物ごとに異なった",
+        "bbox": [
+          670,
+          675,
+          1251,
+          711
+        ],
+        "glyph_height": 36,
+        "font": "/System/Library/Fonts/ヒラギノ角ゴシック W3.ttc",
+        "major": false,
+        "color": "#3b2c21"
+      }
+    ],
+    "color_class": "diagram",
+    "camera_band": [
+      110,
+      1080
+    ],
+    "stages": [
+      {
+        "stage": 99,
+        "file": "assets/D_goingforth_stage99.png",
+        "text_boxes": [
+          {
+            "text": "TITLE CARD｜文字カード",
+            "bbox": [
+              808,
+              18,
+              1111,
+              41
+            ],
+            "glyph_height": 23,
+            "font": "/System/Library/Fonts/ヒラギノ角ゴシック W3.ttc",
+            "major": false,
+            "color": "#3b2c21"
+          },
+          {
+            "text": "“GOING FORTH BY DAY”",
+            "bbox": [
+              284,
+              330,
+              1635,
+              412
+            ],
+            "glyph_height": 82,
+            "font": "/System/Library/Fonts/Supplemental/Arial Bold.ttf",
+            "major": true,
+            "color": "#3b2c21"
+          },
+          {
+            "text": "「日のもとに出る」",
+            "bbox": [
+              670,
+              450,
+              1251,
+              510
+            ],
+            "glyph_height": 60,
+            "font": "/System/Library/Fonts/ヒラギノ角ゴシック W3.ttc",
+            "major": true,
+            "color": "#3b2c21"
+          },
+          {
+            "text": "The choice of spells varied from scroll to scroll",
+            "bbox": [
+              474,
+              600,
+              1447,
+              644
+            ],
+            "glyph_height": 44,
+            "font": "/System/Library/Fonts/Supplemental/Arial.ttf",
+            "major": false,
+            "color": "#3b2c21"
+          },
+          {
+            "text": "収める呪文は巻物ごとに異なった",
+            "bbox": [
+              670,
+              675,
+              1251,
+              711
+            ],
+            "glyph_height": 36,
+            "font": "/System/Library/Fonts/ヒラギノ角ゴシック W3.ttc",
+            "major": false,
+            "color": "#3b2c21"
+          }
+        ]
+      }
+    ],
+    "start": 76.16666666666667,
+    "end": 89.4,
+    "frames": 397,
+    "encoded_file": "_work/render/P03_02_D_goingforth.mp4",
+    "render_config": {
+      "image_sha256": "c417d03d3e7cc3629824fcca8c4807f8991132980f56c3a2bcb9f61c54556ab1",
+      "stages": [
+        {
+          "sha256": "c417d03d3e7cc3629824fcca8c4807f8991132980f56c3a2bcb9f61c54556ab1",
+          "stage": 99
+        }
+      ],
+      "frames": 397,
+      "filter": "[0:v]format=yuv420p[v]",
+      "lossless_static_intermediate": true,
+      "stage_change_frames": []
+    },
+    "stage_change_frames": []
+  },
+  {
+    "key": "D_1842",
+    "segment_id": "P04",
+    "file": "assets/D_1842.png",
+    "text_boxes": [
+      {
+        "text": "TITLE CARD｜文字カード",
+        "bbox": [
+          808,
+          18,
+          1111,
+          41
+        ],
+        "glyph_height": 23,
+        "font": "/System/Library/Fonts/ヒラギノ角ゴシック W3.ttc",
+        "major": false,
+        "color": "#3b2c21"
+      },
+      {
+        "text": "1842",
+        "bbox": [
+          770,
+          275,
+          1150,
+          400
+        ],
+        "glyph_height": 125,
+        "font": "/System/Library/Fonts/Supplemental/Arial Bold.ttf",
+        "major": true,
+        "color": "#3b2c21"
+      },
+      {
+        "text": "KARL RICHARD LEPSIUS",
+        "bbox": [
+          462,
+          455,
+          1458,
+          515
+        ],
+        "glyph_height": 60,
+        "font": "/System/Library/Fonts/Supplemental/Arial Bold.ttf",
+        "major": true,
+        "color": "#3b2c21"
+      },
+      {
+        "text": "カール・リヒャルト・レプシウス",
+        "bbox": [
+          630,
+          550,
+          1289,
+          590
+        ],
+        "glyph_height": 40,
+        "font": "/System/Library/Fonts/ヒラギノ角ゴシック W3.ttc",
+        "major": false,
+        "color": "#3b2c21"
+      },
+      {
+        "text": "Das Todtenbuch der Ägypter — a papyrus in Turin",
+        "bbox": [
+          540,
+          650,
+          1379,
+          690
+        ],
+        "glyph_height": 40,
+        "font": "/System/Library/Fonts/Supplemental/Arial.ttf",
+        "major": false,
+        "color": "#3b2c21"
+      },
+      {
+        "text": "トリノのパピルスを『死者の書』の題で出版",
+        "bbox": [
+          606,
+          720,
+          1314,
+          754
+        ],
+        "glyph_height": 34,
+        "font": "/System/Library/Fonts/ヒラギノ角ゴシック W3.ttc",
+        "major": false,
+        "color": "#3b2c21"
+      }
+    ],
+    "color_class": "diagram",
+    "camera_band": [
+      110,
+      1080
+    ],
+    "stages": [
+      {
+        "stage": 99,
+        "file": "assets/D_1842_stage99.png",
+        "text_boxes": [
+          {
+            "text": "TITLE CARD｜文字カード",
+            "bbox": [
+              808,
+              18,
+              1111,
+              41
+            ],
+            "glyph_height": 23,
+            "font": "/System/Library/Fonts/ヒラギノ角ゴシック W3.ttc",
+            "major": false,
+            "color": "#3b2c21"
+          },
+          {
+            "text": "1842",
+            "bbox": [
+              770,
+              275,
+              1150,
+              400
+            ],
+            "glyph_height": 125,
+            "font": "/System/Library/Fonts/Supplemental/Arial Bold.ttf",
+            "major": true,
+            "color": "#3b2c21"
+          },
+          {
+            "text": "KARL RICHARD LEPSIUS",
+            "bbox": [
+              462,
+              455,
+              1458,
+              515
+            ],
+            "glyph_height": 60,
+            "font": "/System/Library/Fonts/Supplemental/Arial Bold.ttf",
+            "major": true,
+            "color": "#3b2c21"
+          },
+          {
+            "text": "カール・リヒャルト・レプシウス",
+            "bbox": [
+              630,
+              550,
+              1289,
+              590
+            ],
+            "glyph_height": 40,
+            "font": "/System/Library/Fonts/ヒラギノ角ゴシック W3.ttc",
+            "major": false,
+            "color": "#3b2c21"
+          },
+          {
+            "text": "Das Todtenbuch der Ägypter — a papyrus in Turin",
+            "bbox": [
+              540,
+              650,
+              1379,
+              690
+            ],
+            "glyph_height": 40,
+            "font": "/System/Library/Fonts/Supplemental/Arial.ttf",
+            "major": false,
+            "color": "#3b2c21"
+          },
+          {
+            "text": "トリノのパピルスを『死者の書』の題で出版",
+            "bbox": [
+              606,
+              720,
+              1314,
+              754
+            ],
+            "glyph_height": 34,
+            "font": "/System/Library/Fonts/ヒラギノ角ゴシック W3.ttc",
+            "major": false,
+            "color": "#3b2c21"
+          }
+        ]
+      }
+    ],
+    "start": 89.4,
+    "end": 109.83333333333333,
+    "frames": 613,
+    "encoded_file": "_work/render/P04_01_D_1842.mp4",
+    "render_config": {
+      "image_sha256": "2a94f0acca54173380feb5044016b25ba6c894f7dec9acde5928e90754931d35",
+      "stages": [
+        {
+          "sha256": "2a94f0acca54173380feb5044016b25ba6c894f7dec9acde5928e90754931d35",
+          "stage": 99
+        }
+      ],
+      "frames": 613,
+      "filter": "[0:v]format=yuv420p[v]",
+      "lossless_static_intermediate": true,
+      "stage_change_frames": []
+    },
+    "stage_change_frames": []
+  },
+  {
+    "key": "D_spell125",
+    "segment_id": "P04",
+    "file": "assets/D_spell125.png",
+    "text_boxes": [
+      {
+        "text": "TITLE CARD｜文字カード",
+        "bbox": [
+          808,
+          18,
+          1111,
+          41
+        ],
+        "glyph_height": 23,
+        "font": "/System/Library/Fonts/ヒラギノ角ゴシック W3.ttc",
+        "major": false,
+        "color": "#3b2c21"
+      },
+      {
+        "text": "SPELL 125",
+        "bbox": [
+          609,
+          340,
+          1311,
+          440
+        ],
+        "glyph_height": 100,
+        "font": "/System/Library/Fonts/Supplemental/Arial Bold.ttf",
+        "major": true,
+        "color": "#3b2c21"
+      },
+      {
+        "text": "125章",
+        "bbox": [
+          866,
+          480,
+          1053,
+          540
+        ],
+        "glyph_height": 60,
+        "font": "/System/Library/Fonts/ヒラギノ角ゴシック W3.ttc",
+        "major": true,
+        "color": "#3b2c21"
+      },
+      {
+        "text": "THE JUDGMENT",
+        "bbox": [
+          638,
+          600,
+          1281,
+          660
+        ],
+        "glyph_height": 60,
+        "font": "/System/Library/Fonts/Supplemental/Arial Bold.ttf",
+        "major": true,
+        "color": "#3b2c21"
+      },
+      {
+        "text": "裁きの場面",
+        "bbox": [
+          850,
+          700,
+          1069,
+          740
+        ],
+        "glyph_height": 40,
+        "font": "/System/Library/Fonts/ヒラギノ角ゴシック W3.ttc",
+        "major": false,
+        "color": "#3b2c21"
+      }
+    ],
+    "color_class": "diagram",
+    "camera_band": [
+      110,
+      1080
+    ],
+    "stages": [
+      {
+        "stage": 99,
+        "file": "assets/D_spell125_stage99.png",
+        "text_boxes": [
+          {
+            "text": "TITLE CARD｜文字カード",
+            "bbox": [
+              808,
+              18,
+              1111,
+              41
+            ],
+            "glyph_height": 23,
+            "font": "/System/Library/Fonts/ヒラギノ角ゴシック W3.ttc",
+            "major": false,
+            "color": "#3b2c21"
+          },
+          {
+            "text": "SPELL 125",
+            "bbox": [
+              609,
+              340,
+              1311,
+              440
+            ],
+            "glyph_height": 100,
+            "font": "/System/Library/Fonts/Supplemental/Arial Bold.ttf",
+            "major": true,
+            "color": "#3b2c21"
+          },
+          {
+            "text": "125章",
+            "bbox": [
+              866,
+              480,
+              1053,
+              540
+            ],
+            "glyph_height": 60,
+            "font": "/System/Library/Fonts/ヒラギノ角ゴシック W3.ttc",
+            "major": true,
+            "color": "#3b2c21"
+          },
+          {
+            "text": "THE JUDGMENT",
+            "bbox": [
+              638,
+              600,
+              1281,
+              660
+            ],
+            "glyph_height": 60,
+            "font": "/System/Library/Fonts/Supplemental/Arial Bold.ttf",
+            "major": true,
+            "color": "#3b2c21"
+          },
+          {
+            "text": "裁きの場面",
+            "bbox": [
+              850,
+              700,
+              1069,
+              740
+            ],
+            "glyph_height": 40,
+            "font": "/System/Library/Fonts/ヒラギノ角ゴシック W3.ttc",
+            "major": false,
+            "color": "#3b2c21"
+          }
+        ]
+      }
+    ],
+    "start": 109.83333333333333,
+    "end": 116.73333333333333,
+    "frames": 207,
+    "encoded_file": "_work/render/P04_02_D_spell125.mp4",
+    "render_config": {
+      "image_sha256": "5fb220c26b1542a8011d80d189cb79775ac6802e799e4eb19f9f38aeb668a819",
+      "stages": [
+        {
+          "sha256": "5fb220c26b1542a8011d80d189cb79775ac6802e799e4eb19f9f38aeb668a819",
+          "stage": 99
+        }
+      ],
+      "frames": 207,
+      "filter": "[0:v]format=yuv420p[v]",
+      "lossless_static_intermediate": true,
+      "stage_change_frames": []
+    },
+    "stage_change_frames": []
+  },
+  {
+    "key": "E01A_10_osiris",
+    "segment_id": "P05",
+    "file": "assets/E01A_10_osiris.png",
+    "text_boxes": [
+      {
+        "text": "PAPYRUS｜パピルス",
+        "bbox": [
+          838,
+          18,
+          1082,
+          41
+        ],
+        "glyph_height": 23,
+        "font": "/System/Library/Fonts/ヒラギノ角ゴシック W3.ttc",
+        "major": false,
+        "color": "#3b2c21"
+      },
+      {
+        "text": "Book of the Dead of Imhotep (Imuthes), ca. 332–200 BCE — The Met 35.9.20a–w (CC0)",
+        "bbox": [
+          522,
+          58,
+          1399,
+          79
+        ],
+        "glyph_height": 21,
+        "font": "/System/Library/Fonts/Supplemental/Arial.ttf",
+        "major": false,
+        "color": "#3b2c21"
+      }
+    ],
+    "original_asset_id": "551786",
+    "original_source": "/Volumes/ESD-02/新チャンネル/EP011_WeighingOfTheHeart/素材/met551786_10.jpg",
+    "original_sha256": "483487d4c39bed2be37c78242cc409499572fdc3e55ca491d21ccf22bb9b56f5",
+    "source_text": [
+      "PAPYRUS｜パピルス",
+      "Book of the Dead of Imhotep (Imuthes), ca. 332–200 BCE — The Met 35.9.20a–w (CC0)"
+    ],
+    "original_pixels": [
+      4000,
+      1704
+    ],
+    "crop_pixels": [
+      35,
+      450,
+      740,
+      1460
+    ],
+    "art_boxes": [
+      [
+        635,
+        130,
+        1284,
+        1060
+      ]
+    ],
+    "camera_band": [
+      110,
+      1080
+    ],
+    "zoom_amount": 0.03,
+    "native_initial_scale": 0.9207920792079208,
+    "native_max_scale": 0.9484158415841585,
+    "color_class": "color",
+    "approved_upscale_exception": false,
+    "section_index": 10,
+    "start": 116.73333333333333,
+    "end": 135.46666666666667,
+    "frames": 562,
+    "encoded_file": "_work/render/P05_01_E01A_10_osiris.mp4",
+    "render_config": {
+      "image_sha256": "2b55e0512f19b24f2b252a0df55e2c1ec8d950312b16a55b3f4a0655322155dc",
+      "stages": [],
+      "frames": 562,
+      "filter": "[0:v]split=2[base][art];[art]crop=1920:970:0:110,format=yuv444p,perspective=x0='(W-W/(1+0.03*on/561))/2':y0='(H-H/(1+0.03*on/561))/2':x1='(W-W/(1+0.03*on/561))/2+W/(1+0.03*on/561)':y1='(H-H/(1+0.03*on/561))/2':x2='(W-W/(1+0.03*on/561))/2':y2='(H-H/(1+0.03*on/561))/2+H/(1+0.03*on/561)':x3='(W-W/(1+0.03*on/561))/2+W/(1+0.03*on/561)':y3='(H-H/(1+0.03*on/561))/2+H/(1+0.03*on/561)':sense=source:eval=frame:interpolation=cubic[moving];[base][moving]overlay=0:110:format=yuv444,format=yuv420p[v]",
+      "lossless_static_intermediate": false,
+      "stage_change_frames": []
+    },
+    "stage_change_frames": []
+  },
+  {
+    "key": "D_denials",
+    "segment_id": "P06",
+    "file": "assets/D_denials.png",
+    "text_boxes": [
+      {
+        "text": "TITLE CARD｜文字カード",
+        "bbox": [
+          808,
+          18,
+          1111,
+          41
+        ],
+        "glyph_height": 23,
+        "font": "/System/Library/Fonts/ヒラギノ角ゴシック W3.ttc",
+        "major": false,
+        "color": "#3b2c21"
+      },
+      {
+        "text": "The Negative Confession · E. A. Wallis Budge, 1895 · from different versions",
+        "bbox": [
+          506,
+          140,
+          1414,
+          165
+        ],
+        "glyph_height": 25,
+        "font": "/System/Library/Fonts/Supplemental/Arial.ttf",
+        "major": false,
+        "color": "#3b2c21"
+      },
+      {
+        "text": "否定告白（バッジ英訳1895、いくつかの写本から）",
+        "bbox": [
+          651,
+          185,
+          1269,
+          210
+        ],
+        "glyph_height": 25,
+        "font": "/System/Library/Fonts/ヒラギノ角ゴシック W3.ttc",
+        "major": false,
+        "color": "#3b2c21"
+      },
+      {
+        "text": "I have not stolen.",
+        "bbox": [
+          740,
+          255,
+          1179,
+          315
+        ],
+        "glyph_height": 60,
+        "font": "/System/Library/Fonts/Supplemental/DIN Condensed Bold.ttf",
+        "major": true,
+        "color": "#3b2c21"
+      },
+      {
+        "text": "盗まなかった",
+        "bbox": [
+          868,
+          330,
+          1051,
+          357
+        ],
+        "glyph_height": 27,
+        "font": "/System/Library/Fonts/ヒラギノ角ゴシック W3.ttc",
+        "major": false,
+        "color": "#3b2c21"
+      },
+      {
+        "text": "I have done no murder.",
+        "bbox": [
+          661,
+          370,
+          1259,
+          430
+        ],
+        "glyph_height": 60,
+        "font": "/System/Library/Fonts/Supplemental/DIN Condensed Bold.ttf",
+        "major": true,
+        "color": "#3b2c21"
+      },
+      {
+        "text": "人を殺めなかった",
+        "bbox": [
+          843,
+          445,
+          1077,
+          472
+        ],
+        "glyph_height": 27,
+        "font": "/System/Library/Fonts/ヒラギノ角ゴシック W3.ttc",
+        "major": false,
+        "color": "#3b2c21"
+      },
+      {
+        "text": "I have spoken no lies.",
+        "bbox": [
+          740,
+          485,
+          1179,
+          545
+        ],
+        "glyph_height": 60,
+        "font": "/System/Library/Fonts/Supplemental/DIN Condensed Bold.ttf",
+        "major": true,
+        "color": "#3b2c21"
+      },
+      {
+        "text": "うそを語らなかった",
+        "bbox": [
+          824,
+          560,
+          1096,
+          587
+        ],
+        "glyph_height": 27,
+        "font": "/System/Library/Fonts/ヒラギノ角ゴシック W3.ttc",
+        "major": false,
+        "color": "#3b2c21"
+      },
+      {
+        "text": "I have made [no man] to weep.",
+        "bbox": [
+          650,
+          600,
+          1270,
+          660
+        ],
+        "glyph_height": 60,
+        "font": "/System/Library/Fonts/Supplemental/DIN Condensed Bold.ttf",
+        "major": true,
+        "color": "#3b2c21"
+      },
+      {
+        "text": "誰も泣かせなかった",
+        "bbox": [
+          827,
+          675,
+          1093,
+          702
+        ],
+        "glyph_height": 27,
+        "font": "/System/Library/Fonts/ヒラギノ角ゴシック W3.ttc",
+        "major": false,
+        "color": "#3b2c21"
+      },
+      {
+        "text": "I have not turned back water at its springtide.",
+        "bbox": [
+          504,
+          715,
+          1415,
+          775
+        ],
+        "glyph_height": 60,
+        "font": "/System/Library/Fonts/Supplemental/DIN Condensed Bold.ttf",
+        "major": true,
+        "color": "#3b2c21"
+      },
+      {
+        "text": "増水の時に水をせき止めなかった",
+        "bbox": [
+          738,
+          790,
+          1181,
+          817
+        ],
+        "glyph_height": 27,
+        "font": "/System/Library/Fonts/ヒラギノ角ゴシック W3.ttc",
+        "major": false,
+        "color": "#3b2c21"
+      }
+    ],
+    "color_class": "diagram",
+    "camera_band": [
+      110,
+      1080
+    ],
+    "stages": [
+      {
+        "stage": 0,
+        "file": "assets/D_denials_stage0.png",
+        "text_boxes": [
+          {
+            "text": "TITLE CARD｜文字カード",
+            "bbox": [
+              808,
+              18,
+              1111,
+              41
+            ],
+            "glyph_height": 23,
+            "font": "/System/Library/Fonts/ヒラギノ角ゴシック W3.ttc",
+            "major": false,
+            "color": "#3b2c21"
+          },
+          {
+            "text": "The Negative Confession · E. A. Wallis Budge, 1895 · from different versions",
+            "bbox": [
+              506,
+              140,
+              1414,
+              165
+            ],
+            "glyph_height": 25,
+            "font": "/System/Library/Fonts/Supplemental/Arial.ttf",
+            "major": false,
+            "color": "#3b2c21"
+          },
+          {
+            "text": "否定告白（バッジ英訳1895、いくつかの写本から）",
+            "bbox": [
+              651,
+              185,
+              1269,
+              210
+            ],
+            "glyph_height": 25,
+            "font": "/System/Library/Fonts/ヒラギノ角ゴシック W3.ttc",
+            "major": false,
+            "color": "#3b2c21"
+          }
+        ]
+      },
+      {
+        "stage": 1,
+        "file": "assets/D_denials_stage1.png",
+        "text_boxes": [
+          {
+            "text": "TITLE CARD｜文字カード",
+            "bbox": [
+              808,
+              18,
+              1111,
+              41
+            ],
+            "glyph_height": 23,
+            "font": "/System/Library/Fonts/ヒラギノ角ゴシック W3.ttc",
+            "major": false,
+            "color": "#3b2c21"
+          },
+          {
+            "text": "The Negative Confession · E. A. Wallis Budge, 1895 · from different versions",
+            "bbox": [
+              506,
+              140,
+              1414,
+              165
+            ],
+            "glyph_height": 25,
+            "font": "/System/Library/Fonts/Supplemental/Arial.ttf",
+            "major": false,
+            "color": "#3b2c21"
+          },
+          {
+            "text": "否定告白（バッジ英訳1895、いくつかの写本から）",
+            "bbox": [
+              651,
+              185,
+              1269,
+              210
+            ],
+            "glyph_height": 25,
+            "font": "/System/Library/Fonts/ヒラギノ角ゴシック W3.ttc",
+            "major": false,
+            "color": "#3b2c21"
+          },
+          {
+            "text": "I have not stolen.",
+            "bbox": [
+              740,
+              255,
+              1179,
+              315
+            ],
+            "glyph_height": 60,
+            "font": "/System/Library/Fonts/Supplemental/DIN Condensed Bold.ttf",
+            "major": true,
+            "color": "#3b2c21"
+          },
+          {
+            "text": "盗まなかった",
+            "bbox": [
+              868,
+              330,
+              1051,
+              357
+            ],
+            "glyph_height": 27,
+            "font": "/System/Library/Fonts/ヒラギノ角ゴシック W3.ttc",
+            "major": false,
+            "color": "#3b2c21"
+          }
+        ]
+      },
+      {
+        "stage": 2,
+        "file": "assets/D_denials_stage2.png",
+        "text_boxes": [
+          {
+            "text": "TITLE CARD｜文字カード",
+            "bbox": [
+              808,
+              18,
+              1111,
+              41
+            ],
+            "glyph_height": 23,
+            "font": "/System/Library/Fonts/ヒラギノ角ゴシック W3.ttc",
+            "major": false,
+            "color": "#3b2c21"
+          },
+          {
+            "text": "The Negative Confession · E. A. Wallis Budge, 1895 · from different versions",
+            "bbox": [
+              506,
+              140,
+              1414,
+              165
+            ],
+            "glyph_height": 25,
+            "font": "/System/Library/Fonts/Supplemental/Arial.ttf",
+            "major": false,
+            "color": "#3b2c21"
+          },
+          {
+            "text": "否定告白（バッジ英訳1895、いくつかの写本から）",
+            "bbox": [
+              651,
+              185,
+              1269,
+              210
+            ],
+            "glyph_height": 25,
+            "font": "/System/Library/Fonts/ヒラギノ角ゴシック W3.ttc",
+            "major": false,
+            "color": "#3b2c21"
+          },
+          {
+            "text": "I have not stolen.",
+            "bbox": [
+              740,
+              255,
+              1179,
+              315
+            ],
+            "glyph_height": 60,
+            "font": "/System/Library/Fonts/Supplemental/DIN Condensed Bold.ttf",
+            "major": true,
+            "color": "#3b2c21"
+          },
+          {
+            "text": "盗まなかった",
+            "bbox": [
+              868,
+              330,
+              1051,
+              357
+            ],
+            "glyph_height": 27,
+            "font": "/System/Library/Fonts/ヒラギノ角ゴシック W3.ttc",
+            "major": false,
+            "color": "#3b2c21"
+          },
+          {
+            "text": "I have done no murder.",
+            "bbox": [
+              661,
+              370,
+              1259,
+              430
+            ],
+            "glyph_height": 60,
+            "font": "/System/Library/Fonts/Supplemental/DIN Condensed Bold.ttf",
+            "major": true,
+            "color": "#3b2c21"
+          },
+          {
+            "text": "人を殺めなかった",
+            "bbox": [
+              843,
+              445,
+              1077,
+              472
+            ],
+            "glyph_height": 27,
+            "font": "/System/Library/Fonts/ヒラギノ角ゴシック W3.ttc",
+            "major": false,
+            "color": "#3b2c21"
+          }
+        ]
+      },
+      {
+        "stage": 3,
+        "file": "assets/D_denials_stage3.png",
+        "text_boxes": [
+          {
+            "text": "TITLE CARD｜文字カード",
+            "bbox": [
+              808,
+              18,
+              1111,
+              41
+            ],
+            "glyph_height": 23,
+            "font": "/System/Library/Fonts/ヒラギノ角ゴシック W3.ttc",
+            "major": false,
+            "color": "#3b2c21"
+          },
+          {
+            "text": "The Negative Confession · E. A. Wallis Budge, 1895 · from different versions",
+            "bbox": [
+              506,
+              140,
+              1414,
+              165
+            ],
+            "glyph_height": 25,
+            "font": "/System/Library/Fonts/Supplemental/Arial.ttf",
+            "major": false,
+            "color": "#3b2c21"
+          },
+          {
+            "text": "否定告白（バッジ英訳1895、いくつかの写本から）",
+            "bbox": [
+              651,
+              185,
+              1269,
+              210
+            ],
+            "glyph_height": 25,
+            "font": "/System/Library/Fonts/ヒラギノ角ゴシック W3.ttc",
+            "major": false,
+            "color": "#3b2c21"
+          },
+          {
+            "text": "I have not stolen.",
+            "bbox": [
+              740,
+              255,
+              1179,
+              315
+            ],
+            "glyph_height": 60,
+            "font": "/System/Library/Fonts/Supplemental/DIN Condensed Bold.ttf",
+            "major": true,
+            "color": "#3b2c21"
+          },
+          {
+            "text": "盗まなかった",
+            "bbox": [
+              868,
+              330,
+              1051,
+              357
+            ],
+            "glyph_height": 27,
+            "font": "/System/Library/Fonts/ヒラギノ角ゴシック W3.ttc",
+            "major": false,
+            "color": "#3b2c21"
+          },
+          {
+            "text": "I have done no murder.",
+            "bbox": [
+              661,
+              370,
+              1259,
+              430
+            ],
+            "glyph_height": 60,
+            "font": "/System/Library/Fonts/Supplemental/DIN Condensed Bold.ttf",
+            "major": true,
+            "color": "#3b2c21"
+          },
+          {
+            "text": "人を殺めなかった",
+            "bbox": [
+              843,
+              445,
+              1077,
+              472
+            ],
+            "glyph_height": 27,
+            "font": "/System/Library/Fonts/ヒラギノ角ゴシック W3.ttc",
+            "major": false,
+            "color": "#3b2c21"
+          },
+          {
+            "text": "I have spoken no lies.",
+            "bbox": [
+              740,
+              485,
+              1179,
+              545
+            ],
+            "glyph_height": 60,
+            "font": "/System/Library/Fonts/Supplemental/DIN Condensed Bold.ttf",
+            "major": true,
+            "color": "#3b2c21"
+          },
+          {
+            "text": "うそを語らなかった",
+            "bbox": [
+              824,
+              560,
+              1096,
+              587
+            ],
+            "glyph_height": 27,
+            "font": "/System/Library/Fonts/ヒラギノ角ゴシック W3.ttc",
+            "major": false,
+            "color": "#3b2c21"
+          }
+        ]
+      },
+      {
+        "stage": 4,
+        "file": "assets/D_denials_stage4.png",
+        "text_boxes": [
+          {
+            "text": "TITLE CARD｜文字カード",
+            "bbox": [
+              808,
+              18,
+              1111,
+              41
+            ],
+            "glyph_height": 23,
+            "font": "/System/Library/Fonts/ヒラギノ角ゴシック W3.ttc",
+            "major": false,
+            "color": "#3b2c21"
+          },
+          {
+            "text": "The Negative Confession · E. A. Wallis Budge, 1895 · from different versions",
+            "bbox": [
+              506,
+              140,
+              1414,
+              165
+            ],
+            "glyph_height": 25,
+            "font": "/System/Library/Fonts/Supplemental/Arial.ttf",
+            "major": false,
+            "color": "#3b2c21"
+          },
+          {
+            "text": "否定告白（バッジ英訳1895、いくつかの写本から）",
+            "bbox": [
+              651,
+              185,
+              1269,
+              210
+            ],
+            "glyph_height": 25,
+            "font": "/System/Library/Fonts/ヒラギノ角ゴシック W3.ttc",
+            "major": false,
+            "color": "#3b2c21"
+          },
+          {
+            "text": "I have not stolen.",
+            "bbox": [
+              740,
+              255,
+              1179,
+              315
+            ],
+            "glyph_height": 60,
+            "font": "/System/Library/Fonts/Supplemental/DIN Condensed Bold.ttf",
+            "major": true,
+            "color": "#3b2c21"
+          },
+          {
+            "text": "盗まなかった",
+            "bbox": [
+              868,
+              330,
+              1051,
+              357
+            ],
+            "glyph_height": 27,
+            "font": "/System/Library/Fonts/ヒラギノ角ゴシック W3.ttc",
+            "major": false,
+            "color": "#3b2c21"
+          },
+          {
+            "text": "I have done no murder.",
+            "bbox": [
+              661,
+              370,
+              1259,
+              430
+            ],
+            "glyph_height": 60,
+            "font": "/System/Library/Fonts/Supplemental/DIN Condensed Bold.ttf",
+            "major": true,
+            "color": "#3b2c21"
+          },
+          {
+            "text": "人を殺めなかった",
+            "bbox": [
+              843,
+              445,
+              1077,
+              472
+            ],
+            "glyph_height": 27,
+            "font": "/System/Library/Fonts/ヒラギノ角ゴシック W3.ttc",
+            "major": false,
+            "color": "#3b2c21"
+          },
+          {
+            "text": "I have spoken no lies.",
+            "bbox": [
+              740,
+              485,
+              1179,
+              545
+            ],
+            "glyph_height": 60,
+            "font": "/System/Library/Fonts/Supplemental/DIN Condensed Bold.ttf",
+            "major": true,
+            "color": "#3b2c21"
+          },
+          {
+            "text": "うそを語らなかった",
+            "bbox": [
+              824,
+              560,
+              1096,
+              587
+            ],
+            "glyph_height": 27,
+            "font": "/System/Library/Fonts/ヒラギノ角ゴシック W3.ttc",
+            "major": false,
+            "color": "#3b2c21"
+          },
+          {
+            "text": "I have made [no man] to weep.",
+            "bbox": [
+              650,
+              600,
+              1270,
+              660
+            ],
+            "glyph_height": 60,
+            "font": "/System/Library/Fonts/Supplemental/DIN Condensed Bold.ttf",
+            "major": true,
+            "color": "#3b2c21"
+          },
+          {
+            "text": "誰も泣かせなかった",
+            "bbox": [
+              827,
+              675,
+              1093,
+              702
+            ],
+            "glyph_height": 27,
+            "font": "/System/Library/Fonts/ヒラギノ角ゴシック W3.ttc",
+            "major": false,
+            "color": "#3b2c21"
+          }
+        ]
+      },
+      {
+        "stage": 5,
+        "file": "assets/D_denials_stage5.png",
+        "text_boxes": [
+          {
+            "text": "TITLE CARD｜文字カード",
+            "bbox": [
+              808,
+              18,
+              1111,
+              41
+            ],
+            "glyph_height": 23,
+            "font": "/System/Library/Fonts/ヒラギノ角ゴシック W3.ttc",
+            "major": false,
+            "color": "#3b2c21"
+          },
+          {
+            "text": "The Negative Confession · E. A. Wallis Budge, 1895 · from different versions",
+            "bbox": [
+              506,
+              140,
+              1414,
+              165
+            ],
+            "glyph_height": 25,
+            "font": "/System/Library/Fonts/Supplemental/Arial.ttf",
+            "major": false,
+            "color": "#3b2c21"
+          },
+          {
+            "text": "否定告白（バッジ英訳1895、いくつかの写本から）",
+            "bbox": [
+              651,
+              185,
+              1269,
+              210
+            ],
+            "glyph_height": 25,
+            "font": "/System/Library/Fonts/ヒラギノ角ゴシック W3.ttc",
+            "major": false,
+            "color": "#3b2c21"
+          },
+          {
+            "text": "I have not stolen.",
+            "bbox": [
+              740,
+              255,
+              1179,
+              315
+            ],
+            "glyph_height": 60,
+            "font": "/System/Library/Fonts/Supplemental/DIN Condensed Bold.ttf",
+            "major": true,
+            "color": "#3b2c21"
+          },
+          {
+            "text": "盗まなかった",
+            "bbox": [
+              868,
+              330,
+              1051,
+              357
+            ],
+            "glyph_height": 27,
+            "font": "/System/Library/Fonts/ヒラギノ角ゴシック W3.ttc",
+            "major": false,
+            "color": "#3b2c21"
+          },
+          {
+            "text": "I have done no murder.",
+            "bbox": [
+              661,
+              370,
+              1259,
+              430
+            ],
+            "glyph_height": 60,
+            "font": "/System/Library/Fonts/Supplemental/DIN Condensed Bold.ttf",
+            "major": true,
+            "color": "#3b2c21"
+          },
+          {
+            "text": "人を殺めなかった",
+            "bbox": [
+              843,
+              445,
+              1077,
+              472
+            ],
+            "glyph_height": 27,
+            "font": "/System/Library/Fonts/ヒラギノ角ゴシック W3.ttc",
+            "major": false,
+            "color": "#3b2c21"
+          },
+          {
+            "text": "I have spoken no lies.",
+            "bbox": [
+              740,
+              485,
+              1179,
+              545
+            ],
+            "glyph_height": 60,
+            "font": "/System/Library/Fonts/Supplemental/DIN Condensed Bold.ttf",
+            "major": true,
+            "color": "#3b2c21"
+          },
+          {
+            "text": "うそを語らなかった",
+            "bbox": [
+              824,
+              560,
+              1096,
+              587
+            ],
+            "glyph_height": 27,
+            "font": "/System/Library/Fonts/ヒラギノ角ゴシック W3.ttc",
+            "major": false,
+            "color": "#3b2c21"
+          },
+          {
+            "text": "I have made [no man] to weep.",
+            "bbox": [
+              650,
+              600,
+              1270,
+              660
+            ],
+            "glyph_height": 60,
+            "font": "/System/Library/Fonts/Supplemental/DIN Condensed Bold.ttf",
+            "major": true,
+            "color": "#3b2c21"
+          },
+          {
+            "text": "誰も泣かせなかった",
+            "bbox": [
+              827,
+              675,
+              1093,
+              702
+            ],
+            "glyph_height": 27,
+            "font": "/System/Library/Fonts/ヒラギノ角ゴシック W3.ttc",
+            "major": false,
+            "color": "#3b2c21"
+          },
+          {
+            "text": "I have not turned back water at its springtide.",
+            "bbox": [
+              504,
+              715,
+              1415,
+              775
+            ],
+            "glyph_height": 60,
+            "font": "/System/Library/Fonts/Supplemental/DIN Condensed Bold.ttf",
+            "major": true,
+            "color": "#3b2c21"
+          },
+          {
+            "text": "増水の時に水をせき止めなかった",
+            "bbox": [
+              738,
+              790,
+              1181,
+              817
+            ],
+            "glyph_height": 27,
+            "font": "/System/Library/Fonts/ヒラギノ角ゴシック W3.ttc",
+            "major": false,
+            "color": "#3b2c21"
+          }
+        ]
+      }
+    ],
+    "start": 135.46666666666667,
+    "end": 156.9,
+    "frames": 643,
+    "encoded_file": "_work/render/P06_01_D_denials.mp4",
+    "render_config": {
+      "image_sha256": "71a9d40584322905e3b9886b9c7e0da1c176905506446ebacbcb2b240073f886",
+      "stages": [
+        {
+          "sha256": "9a4e18731f62ef6b82d1a71e4453b4a515767fd5f916078cb8066dc323cc3be7",
+          "stage": 0
+        },
+        {
+          "sha256": "3f48b40704df3bbdd743754df0541b95e6fa2280ea0f36eb452f2e98c3befee5",
+          "stage": 1
+        },
+        {
+          "sha256": "2687cd2dd7add78bc2deda3441351ab53b7ceb78d0dcb9a5314ea0119f337c8e",
+          "stage": 2
+        },
+        {
+          "sha256": "53b79bfc3a04428d135b0dc63ffa1e220c51d09b2bf6d0ea55d5a02e989c23ce",
+          "stage": 3
+        },
+        {
+          "sha256": "15ff33c93d2b05bee915a02bcaebe21bf5a78a6e23b858bdbe97d352973cdfb4",
+          "stage": 4
+        },
+        {
+          "sha256": "71a9d40584322905e3b9886b9c7e0da1c176905506446ebacbcb2b240073f886",
+          "stage": 5
+        }
+      ],
+      "frames": 643,
+      "filter": "[0:v][1:v]overlay=0:0:enable='gte(n,324)':format=yuv444[s1];[s1][2:v]overlay=0:0:enable='gte(n,383)':format=yuv444[s2];[s2][3:v]overlay=0:0:enable='gte(n,447)':format=yuv444[s3];[s3][4:v]overlay=0:0:enable='gte(n,514)':format=yuv444[s4];[s4][5:v]overlay=0:0:enable='gte(n,583)':format=yuv444[s5];[s5]format=yuv420p[v]",
+      "lossless_static_intermediate": true,
+      "stage_change_frames": [
+        324,
+        383,
+        447,
+        514,
+        583
+      ]
+    },
+    "stage_change_frames": [
+      324,
+      383,
+      447,
+      514,
+      583
+    ]
+  },
+  {
+    "key": "E10B",
+    "segment_id": "P06",
+    "file": "assets/E10B.png",
+    "text_boxes": [
+      {
+        "text": "ARTWORK｜美術作品",
+        "bbox": [
+          832,
+          18,
+          1089,
+          41
+        ],
+        "glyph_height": 23,
+        "font": "/System/Library/Fonts/ヒラギノ角ゴシック W3.ttc",
+        "major": false,
+        "color": "#3b2c21"
+      },
+      {
+        "text": "Egyptians Raising Water from the Nile, 1890–91 — The Met 50.130.16 (CC0)",
+        "bbox": [
+          578,
+          58,
+          1343,
+          79
+        ],
+        "glyph_height": 21,
+        "font": "/System/Library/Fonts/Supplemental/Arial.ttf",
+        "major": false,
+        "color": "#3b2c21"
+      }
+    ],
+    "original_asset_id": "12074",
+    "original_source": "/Volumes/ESD-02/新チャンネル/EP011_WeighingOfTheHeart/素材/met12074_00.jpg",
+    "original_sha256": "be7a7b6d1a87632e22f047b6bf9124b4dfc697a7470f1f032e78011b7ec7a239",
+    "source_text": [
+      "ARTWORK｜美術作品",
+      "Egyptians Raising Water from the Nile, 1890–91 — The Met 50.130.16 (CC0)"
+    ],
+    "original_pixels": [
+      3076,
+      3722
+    ],
+    "crop_pixels": [
+      707,
+      1042,
+      2645,
+      2754
+    ],
+    "art_boxes": [
+      [
+        433,
+        130,
+        1486,
+        1060
+      ]
+    ],
+    "camera_band": [
+      110,
+      1080
+    ],
+    "zoom_amount": 0.03,
+    "native_initial_scale": 0.5432242990654206,
+    "native_max_scale": 0.5595210280373832,
+    "color_class": "color",
+    "approved_upscale_exception": false,
+    "section_index": 0,
+    "start": 156.9,
+    "end": 160.86666666666667,
+    "frames": 119,
+    "encoded_file": "_work/render/P06_02_E10B.mp4",
+    "render_config": {
+      "image_sha256": "de01678c31132679058999745b5cec4fcab773076fdb1de0734e5fa3181ead6a",
+      "stages": [],
+      "frames": 119,
+      "filter": "[0:v]split=2[base][art];[art]crop=1920:970:0:110,format=yuv444p,perspective=x0='(W-W/(1+0.03*on/118))*.5':y0='(H-H/(1+0.03*on/118))*.8':x1='(W-W/(1+0.03*on/118))*.5+W/(1+0.03*on/118)':y1='(H-H/(1+0.03*on/118))*.8':x2='(W-W/(1+0.03*on/118))*.5':y2='(H-H/(1+0.03*on/118))*.8+H/(1+0.03*on/118)':x3='(W-W/(1+0.03*on/118))*.5+W/(1+0.03*on/118)':y3='(H-H/(1+0.03*on/118))*.8+H/(1+0.03*on/118)':sense=source:eval=frame:interpolation=cubic[moving];[base][moving]overlay=0:110:format=yuv444,format=yuv420p[v]",
+      "lossless_static_intermediate": false,
+      "stage_change_frames": []
+    },
+    "stage_change_frames": []
+  },
+  {
+    "key": "R01",
+    "segment_id": "P07",
+    "file": "assets/R01.png",
+    "text_boxes": [
+      {
+        "text": "PAPYRUS｜パピルス",
+        "bbox": [
+          838,
+          18,
+          1082,
+          41
+        ],
+        "glyph_height": 23,
+        "font": "/System/Library/Fonts/ヒラギノ角ゴシック W3.ttc",
+        "major": false,
+        "color": "#3b2c21"
+      },
+      {
+        "text": "Funerary papyrus: judgment before Osiris (42 gods), ca. 230–150 BCE — The Met 66.99.142 (CC0)",
+        "bbox": [
+          466,
+          58,
+          1455,
+          79
+        ],
+        "glyph_height": 21,
+        "font": "/System/Library/Fonts/Supplemental/Arial.ttf",
+        "major": false,
+        "color": "#3b2c21"
+      }
+    ],
+    "original_asset_id": "557657",
+    "original_source": "/Volumes/ESD-02/新チャンネル/EP011_WeighingOfTheHeart/素材/met557657_00.jpg",
+    "original_sha256": "824555922762d86a836ddb4719e2034a279bb30c9e075c6360b6a58e6f9abcbf",
+    "source_text": [
+      "PAPYRUS｜パピルス",
+      "Funerary papyrus: judgment before Osiris (42 gods), ca. 230–150 BCE — The Met 66.99.142 (CC0)"
+    ],
+    "original_pixels": [
+      4000,
+      3105
+    ],
+    "crop_pixels": [
+      0,
+      0,
+      4000,
+      3105
+    ],
+    "art_boxes": [
+      [
+        361,
+        130,
+        1559,
+        1060
+      ]
+    ],
+    "camera_band": [
+      110,
+      1080
+    ],
+    "zoom_amount": 0.03,
+    "native_initial_scale": 0.2995169082125604,
+    "native_max_scale": 0.6589371980676328,
+    "color_class": "color",
+    "approved_upscale_exception": false,
+    "section_index": 0,
+    "start": 160.86666666666667,
+    "end": 194.2,
+    "frames": 1000,
+    "encoded_file": "_work/render/P07_01_R01.mp4",
+    "render_config": {
+      "image_sha256": "5034cb96f7fba5bf31465bfd24e9c874b0937e72df4ffc1f0beaa87c2166a9d4",
+      "stages": [],
+      "frames": 1000,
+      "filter": "[0:v]split=2[base][art];[art]crop=1920:970:0:110,format=yuv444p,perspective=x0='(W-W/(2.2-1.2*max(0,min((on-600)/399,1))))*(.35+.23*min(on/600,1))':y0='(H-H/(2.2-1.2*max(0,min((on-600)/399,1))))*.16':x1='(W-W/(2.2-1.2*max(0,min((on-600)/399,1))))*(.35+.23*min(on/600,1))+W/(2.2-1.2*max(0,min((on-600)/399,1)))':y1='(H-H/(2.2-1.2*max(0,min((on-600)/399,1))))*.16':x2='(W-W/(2.2-1.2*max(0,min((on-600)/399,1))))*(.35+.23*min(on/600,1))':y2='(H-H/(2.2-1.2*max(0,min((on-600)/399,1))))*.16+H/(2.2-1.2*max(0,min((on-600)/399,1)))':x3='(W-W/(2.2-1.2*max(0,min((on-600)/399,1))))*(.35+.23*min(on/600,1))+W/(2.2-1.2*max(0,min((on-600)/399,1)))':y3='(H-H/(2.2-1.2*max(0,min((on-600)/399,1))))*.16+H/(2.2-1.2*max(0,min((on-600)/399,1)))':sense=source:eval=frame:interpolation=cubic[moving];[base][moving]overlay=0:110:format=yuv444,format=yuv420p[v]",
+      "lossless_static_intermediate": false,
+      "stage_change_frames": []
+    },
+    "stage_change_frames": []
+  },
+  {
+    "key": "E06A",
+    "segment_id": "P08",
+    "file": "assets/E06A.png",
+    "text_boxes": [
+      {
+        "text": "AMULET｜護符",
+        "bbox": [
+          868,
+          18,
+          1052,
+          41
+        ],
+        "glyph_height": 23,
+        "font": "/System/Library/Fonts/ヒラギノ角ゴシック W3.ttc",
+        "major": false,
+        "color": "#3b2c21"
+      },
+      {
+        "text": "Lapis lazuli heart amulet, 664–334 BCE — The Met 74.51.4445 (CC0)",
+        "bbox": [
+          614,
+          58,
+          1307,
+          79
+        ],
+        "glyph_height": 21,
+        "font": "/System/Library/Fonts/Supplemental/Arial.ttf",
+        "major": false,
+        "color": "#3b2c21"
+      }
+    ],
+    "original_asset_id": "243713",
+    "original_source": "/Volumes/ESD-02/新チャンネル/EP011_WeighingOfTheHeart/素材/met243713_00.jpg",
+    "original_sha256": "e4fdb22b09d0033c2be7b1c6679ad6ec2bcb765c59ddbde4c716c1f94cc5f8aa",
+    "source_text": [
+      "AMULET｜護符",
+      "Lapis lazuli heart amulet, 664–334 BCE — The Met 74.51.4445 (CC0)"
+    ],
+    "original_pixels": [
+      2882,
+      3842
+    ],
+    "crop_pixels": [
+      432,
+      576,
+      2450,
+      3304
+    ],
+    "art_boxes": [
+      [
+        616,
+        130,
+        1304,
+        1060
+      ]
+    ],
+    "camera_band": [
+      110,
+      1080
+    ],
+    "zoom_amount": 0.03,
+    "native_initial_scale": 0.3409090909090909,
+    "native_max_scale": 0.35113636363636364,
+    "color_class": "color",
+    "approved_upscale_exception": false,
+    "section_index": 0,
+    "start": 194.2,
+    "end": 205.2,
+    "frames": 330,
+    "encoded_file": "_work/render/P08_01_E06A.mp4",
+    "render_config": {
+      "image_sha256": "e2d1d6c3d60071aed0cf6e1841281f4d9085b1c75f79eff4aba10ac23fa7cd90",
+      "stages": [],
+      "frames": 330,
+      "filter": "[0:v]split=2[base][art];[art]crop=1920:970:0:110,format=yuv444p,perspective=x0='(W-W/(1+0.03*on/329))/2':y0='(H-H/(1+0.03*on/329))/2':x1='(W-W/(1+0.03*on/329))/2+W/(1+0.03*on/329)':y1='(H-H/(1+0.03*on/329))/2':x2='(W-W/(1+0.03*on/329))/2':y2='(H-H/(1+0.03*on/329))/2+H/(1+0.03*on/329)':x3='(W-W/(1+0.03*on/329))/2+W/(1+0.03*on/329)':y3='(H-H/(1+0.03*on/329))/2+H/(1+0.03*on/329)':sense=source:eval=frame:interpolation=cubic[moving];[base][moving]overlay=0:110:format=yuv444,format=yuv420p[v]",
+      "lossless_static_intermediate": false,
+      "stage_change_frames": []
+    },
+    "stage_change_frames": []
+  },
+  {
+    "key": "E06B",
+    "segment_id": "P08",
+    "file": "assets/E06B.png",
+    "text_boxes": [
+      {
+        "text": "AMULET｜護符",
+        "bbox": [
+          868,
+          18,
+          1052,
+          41
+        ],
+        "glyph_height": 23,
+        "font": "/System/Library/Fonts/ヒラギノ角ゴシック W3.ttc",
+        "major": false,
+        "color": "#3b2c21"
+      },
+      {
+        "text": "Heart Amulet, ca. 1386–1347 BCE — The Met 11.215.447 (CC0)",
+        "bbox": [
+          638,
+          58,
+          1281,
+          79
+        ],
+        "glyph_height": 21,
+        "font": "/System/Library/Fonts/Supplemental/Arial.ttf",
+        "major": false,
+        "color": "#3b2c21"
+      }
+    ],
+    "original_asset_id": "551381",
+    "original_source": "/Volumes/ESD-02/新チャンネル/EP011_WeighingOfTheHeart/素材/met551381_00.jpg",
+    "original_sha256": "0dc6926fe10ef227f4c682577db37543ced60ccfeae6b755c0aed3251d6c03d1",
+    "source_text": [
+      "AMULET｜護符",
+      "Heart Amulet, ca. 1386–1347 BCE — The Met 11.215.447 (CC0)"
+    ],
+    "original_pixels": [
+      1916,
+      1803
+    ],
+    "crop_pixels": [
+      230,
+      397,
+      1724,
+      1442
+    ],
+    "art_boxes": [
+      [
+        295,
+        130,
+        1625,
+        1060
+      ]
+    ],
+    "camera_band": [
+      110,
+      1080
+    ],
+    "zoom_amount": 0.03,
+    "native_initial_scale": 0.8899521531100478,
+    "native_max_scale": 0.9166507177033493,
+    "color_class": "color",
+    "approved_upscale_exception": false,
+    "section_index": 0,
+    "start": 205.2,
+    "end": 234.73333333333332,
+    "frames": 886,
+    "encoded_file": "_work/render/P08_02_E06B.mp4",
+    "render_config": {
+      "image_sha256": "eedbcdd87bb9f3fd1154904401f784bb5f4475b71d29c6c9b8af6a7001195882",
+      "stages": [],
+      "frames": 886,
+      "filter": "[0:v]split=2[base][art];[art]crop=1920:970:0:110,format=yuv444p,perspective=x0='(W-W/(1+0.03*on/885))/2':y0='(H-H/(1+0.03*on/885))/2':x1='(W-W/(1+0.03*on/885))/2+W/(1+0.03*on/885)':y1='(H-H/(1+0.03*on/885))/2':x2='(W-W/(1+0.03*on/885))/2':y2='(H-H/(1+0.03*on/885))/2+H/(1+0.03*on/885)':x3='(W-W/(1+0.03*on/885))/2+W/(1+0.03*on/885)':y3='(H-H/(1+0.03*on/885))/2+H/(1+0.03*on/885)':sense=source:eval=frame:interpolation=cubic[moving];[base][moving]overlay=0:110:format=yuv444,format=yuv420p[v]",
+      "lossless_static_intermediate": false,
+      "stage_change_frames": []
+    },
+    "stage_change_frames": []
+  },
+  {
+    "key": "E07A_03",
+    "segment_id": "P09",
+    "file": "assets/E07A_03.png",
+    "text_boxes": [
+      {
+        "text": "AMULET｜護符",
+        "bbox": [
+          868,
+          18,
+          1052,
+          41
+        ],
+        "glyph_height": 23,
+        "font": "/System/Library/Fonts/ヒラギノ角ゴシック W3.ttc",
+        "major": false,
+        "color": "#3b2c21"
+      },
+      {
+        "text": "Heart Scarab with a Human Head, ca. 1550–1080 BCE — The Met 30.8.1080 (CC0)",
+        "bbox": [
+          543,
+          58,
+          1377,
+          79
+        ],
+        "glyph_height": 21,
+        "font": "/System/Library/Fonts/Supplemental/Arial.ttf",
+        "major": false,
+        "color": "#3b2c21"
+      }
+    ],
+    "original_asset_id": "550986",
+    "original_source": "/Volumes/ESD-02/新チャンネル/EP011_WeighingOfTheHeart/素材/met550986_03.jpg",
+    "original_sha256": "d51b4c1ed82bd99526bf11a3d98382fedfed6627033ff5370ab93eaf77049972",
+    "source_text": [
+      "AMULET｜護符",
+      "Heart Scarab with a Human Head, ca. 1550–1080 BCE — The Met 30.8.1080 (CC0)"
+    ],
+    "original_pixels": [
+      2667,
+      4000
+    ],
+    "crop_pixels": [
+      613,
+      720,
+      2214,
+      3200
+    ],
+    "art_boxes": [
+      [
+        660,
+        130,
+        1260,
+        1060
+      ]
+    ],
+    "camera_band": [
+      110,
+      1080
+    ],
+    "zoom_amount": 0.03,
+    "native_initial_scale": 0.375,
+    "native_max_scale": 0.38625,
+    "color_class": "color",
+    "approved_upscale_exception": false,
+    "section_index": 3,
+    "start": 234.73333333333332,
+    "end": 247.56666666666666,
+    "frames": 385,
+    "encoded_file": "_work/render/P09_01_E07A_03.mp4",
+    "render_config": {
+      "image_sha256": "bbfa2e27f9b7217a7e80bd2c8a140bd03eb4f043400bb81939865e2747fa39aa",
+      "stages": [],
+      "frames": 385,
+      "filter": "[0:v]split=2[base][art];[art]crop=1920:970:0:110,format=yuv444p,perspective=x0='(W-W/(1+0.03*on/384))/2':y0='(H-H/(1+0.03*on/384))/2':x1='(W-W/(1+0.03*on/384))/2+W/(1+0.03*on/384)':y1='(H-H/(1+0.03*on/384))/2':x2='(W-W/(1+0.03*on/384))/2':y2='(H-H/(1+0.03*on/384))/2+H/(1+0.03*on/384)':x3='(W-W/(1+0.03*on/384))/2+W/(1+0.03*on/384)':y3='(H-H/(1+0.03*on/384))/2+H/(1+0.03*on/384)':sense=source:eval=frame:interpolation=cubic[moving];[base][moving]overlay=0:110:format=yuv444,format=yuv420p[v]",
+      "lossless_static_intermediate": false,
+      "stage_change_frames": []
+    },
+    "stage_change_frames": []
+  },
+  {
+    "key": "E07A_01",
+    "segment_id": "P09",
+    "file": "assets/E07A_01.png",
+    "text_boxes": [
+      {
+        "text": "AMULET｜護符",
+        "bbox": [
+          868,
+          18,
+          1052,
+          41
+        ],
+        "glyph_height": 23,
+        "font": "/System/Library/Fonts/ヒラギノ角ゴシック W3.ttc",
+        "major": false,
+        "color": "#3b2c21"
+      },
+      {
+        "text": "Heart Scarab with a Human Head, ca. 1550–1080 BCE — The Met 30.8.1080 (CC0)",
+        "bbox": [
+          543,
+          58,
+          1377,
+          79
+        ],
+        "glyph_height": 21,
+        "font": "/System/Library/Fonts/Supplemental/Arial.ttf",
+        "major": false,
+        "color": "#3b2c21"
+      }
+    ],
+    "original_asset_id": "550986",
+    "original_source": "/Volumes/ESD-02/新チャンネル/EP011_WeighingOfTheHeart/素材/met550986_01.jpg",
+    "original_sha256": "fa5ec751df5cb5f537d79f001d0347b37f0e29aef760e22e74148d69f842d4c8",
+    "source_text": [
+      "AMULET｜護符",
+      "Heart Scarab with a Human Head, ca. 1550–1080 BCE — The Met 30.8.1080 (CC0)"
+    ],
+    "original_pixels": [
+      2667,
+      4000
+    ],
+    "crop_pixels": [
+      507,
+      680,
+      2160,
+      3200
+    ],
+    "art_boxes": [
+      [
+        655,
+        130,
+        1265,
+        1060
+      ]
+    ],
+    "camera_band": [
+      110,
+      1080
+    ],
+    "zoom_amount": 0.03,
+    "native_initial_scale": 0.36904761904761907,
+    "native_max_scale": 0.38011904761904763,
+    "color_class": "color",
+    "approved_upscale_exception": false,
+    "section_index": 1,
+    "start": 247.56666666666666,
+    "end": 261.3333333333333,
+    "frames": 413,
+    "encoded_file": "_work/render/P09_02_E07A_01.mp4",
+    "render_config": {
+      "image_sha256": "5a34d74a15aecaea552d1edd0589a1a69e312deb3ec5680af260f412f5cbcd3f",
+      "stages": [],
+      "frames": 413,
+      "filter": "[0:v]split=2[base][art];[art]crop=1920:970:0:110,format=yuv444p,perspective=x0='(W-W/(1+0.03*on/412))/2':y0='(H-H/(1+0.03*on/412))/2':x1='(W-W/(1+0.03*on/412))/2+W/(1+0.03*on/412)':y1='(H-H/(1+0.03*on/412))/2':x2='(W-W/(1+0.03*on/412))/2':y2='(H-H/(1+0.03*on/412))/2+H/(1+0.03*on/412)':x3='(W-W/(1+0.03*on/412))/2+W/(1+0.03*on/412)':y3='(H-H/(1+0.03*on/412))/2+H/(1+0.03*on/412)':sense=source:eval=frame:interpolation=cubic[moving];[base][moving]overlay=0:110:format=yuv444,format=yuv420p[v]",
+      "lossless_static_intermediate": false,
+      "stage_change_frames": []
+    },
+    "stage_change_frames": []
+  },
+  {
+    "key": "E01A_10_beam",
+    "segment_id": "P10",
+    "file": "assets/E01A_10_beam.png",
+    "text_boxes": [
+      {
+        "text": "PAPYRUS｜パピルス",
+        "bbox": [
+          838,
+          18,
+          1082,
+          41
+        ],
+        "glyph_height": 23,
+        "font": "/System/Library/Fonts/ヒラギノ角ゴシック W3.ttc",
+        "major": false,
+        "color": "#3b2c21"
+      },
+      {
+        "text": "Book of the Dead of Imhotep (Imuthes), ca. 332–200 BCE — The Met 35.9.20a–w (CC0)",
+        "bbox": [
+          522,
+          58,
+          1399,
+          79
+        ],
+        "glyph_height": 21,
+        "font": "/System/Library/Fonts/Supplemental/Arial.ttf",
+        "major": false,
+        "color": "#3b2c21"
+      }
+    ],
+    "original_asset_id": "551786",
+    "original_source": "/Volumes/ESD-02/新チャンネル/EP011_WeighingOfTheHeart/素材/met551786_10.jpg",
+    "original_sha256": "483487d4c39bed2be37c78242cc409499572fdc3e55ca491d21ccf22bb9b56f5",
+    "source_text": [
+      "PAPYRUS｜パピルス",
+      "Book of the Dead of Imhotep (Imuthes), ca. 332–200 BCE — The Met 35.9.20a–w (CC0)"
+    ],
+    "original_pixels": [
+      4000,
+      1704
+    ],
+    "crop_pixels": [
+      1480,
+      1050,
+      2040,
+      1320
+    ],
+    "art_boxes": [
+      [
+        26,
+        145,
+        1893,
+        1045
+      ]
+    ],
+    "camera_band": [
+      110,
+      1080
+    ],
+    "zoom_amount": 0.02,
+    "native_initial_scale": 3.333333333333333,
+    "native_max_scale": 3.4,
+    "color_class": "color",
+    "approved_upscale_exception": true,
+    "section_index": 10,
+    "start": 261.3333333333333,
+    "end": 274.0,
+    "frames": 380,
+    "encoded_file": "_work/render/P10_01_E01A_10_beam.mp4",
+    "render_config": {
+      "image_sha256": "347d89c5369790fe84eccd9ba046a366017f15888537d6bc4e6bf9777c2c3edb",
+      "stages": [],
+      "frames": 380,
+      "filter": "[0:v]split=2[base][art];[art]crop=1920:970:0:110,format=yuv444p,perspective=x0='(W-W/(1+0.02*on/379))/2':y0='(H-H/(1+0.02*on/379))/2':x1='(W-W/(1+0.02*on/379))/2+W/(1+0.02*on/379)':y1='(H-H/(1+0.02*on/379))/2':x2='(W-W/(1+0.02*on/379))/2':y2='(H-H/(1+0.02*on/379))/2+H/(1+0.02*on/379)':x3='(W-W/(1+0.02*on/379))/2+W/(1+0.02*on/379)':y3='(H-H/(1+0.02*on/379))/2+H/(1+0.02*on/379)':sense=source:eval=frame:interpolation=cubic[moving];[base][moving]overlay=0:110:format=yuv444,format=yuv420p[v]",
+      "lossless_static_intermediate": false,
+      "stage_change_frames": []
+    },
+    "stage_change_frames": []
+  },
+  {
+    "key": "E08A",
+    "segment_id": "P10",
+    "file": "assets/E08A.png",
+    "text_boxes": [
+      {
+        "text": "AMULET｜護符",
+        "bbox": [
+          868,
+          18,
+          1052,
+          41
+        ],
+        "glyph_height": 23,
+        "font": "/System/Library/Fonts/ヒラギノ角ゴシック W3.ttc",
+        "major": false,
+        "color": "#3b2c21"
+      },
+      {
+        "text": "Amulet of Thoth, 664–343 BCE — The Met 89.2.544 (CC0)",
+        "bbox": [
+          668,
+          58,
+          1253,
+          79
+        ],
+        "glyph_height": 21,
+        "font": "/System/Library/Fonts/Supplemental/Arial.ttf",
+        "major": false,
+        "color": "#3b2c21"
+      }
+    ],
+    "original_asset_id": "558378",
+    "original_source": "/Volumes/ESD-02/新チャンネル/EP011_WeighingOfTheHeart/素材/met558378_00.jpg",
+    "original_sha256": "0482f963bfaef383903055f7782277f225e74a6034c9f99567ac181fd564b2da",
+    "source_text": [
+      "AMULET｜護符",
+      "Amulet of Thoth, 664–343 BCE — The Met 89.2.544 (CC0)"
+    ],
+    "original_pixels": [
+      2667,
+      4000
+    ],
+    "crop_pixels": [
+      853,
+      920,
+      1760,
+      3080
+    ],
+    "art_boxes": [
+      [
+        764,
+        130,
+        1155,
+        1060
+      ]
+    ],
+    "camera_band": [
+      110,
+      1080
+    ],
+    "zoom_amount": 0.03,
+    "native_initial_scale": 0.4305555555555556,
+    "native_max_scale": 0.44347222222222227,
+    "color_class": "color",
+    "approved_upscale_exception": false,
+    "section_index": 0,
+    "start": 274.0,
+    "end": 276.4,
+    "frames": 72,
+    "encoded_file": "_work/render/P10_02_E08A.mp4",
+    "render_config": {
+      "image_sha256": "76df07ffbb04b312f2ea27c2b91de487ca174115129927246fbbcd174fd0a01f",
+      "stages": [],
+      "frames": 72,
+      "filter": "[0:v]split=2[base][art];[art]crop=1920:970:0:110,format=yuv444p,perspective=x0='(W-W/(1+0.03*on/71))/2':y0='(H-H/(1+0.03*on/71))/2':x1='(W-W/(1+0.03*on/71))/2+W/(1+0.03*on/71)':y1='(H-H/(1+0.03*on/71))/2':x2='(W-W/(1+0.03*on/71))/2':y2='(H-H/(1+0.03*on/71))/2+H/(1+0.03*on/71)':x3='(W-W/(1+0.03*on/71))/2+W/(1+0.03*on/71)':y3='(H-H/(1+0.03*on/71))/2+H/(1+0.03*on/71)':sense=source:eval=frame:interpolation=cubic[moving];[base][moving]overlay=0:110:format=yuv444,format=yuv420p[v]",
+      "lossless_static_intermediate": false,
+      "stage_change_frames": []
+    },
+    "stage_change_frames": []
+  },
+  {
+    "key": "E01A_10_ammit",
+    "segment_id": "P10",
+    "file": "assets/E01A_10_ammit.png",
+    "text_boxes": [
+      {
+        "text": "PAPYRUS｜パピルス",
+        "bbox": [
+          838,
+          18,
+          1082,
+          41
+        ],
+        "glyph_height": 23,
+        "font": "/System/Library/Fonts/ヒラギノ角ゴシック W3.ttc",
+        "major": false,
+        "color": "#3b2c21"
+      },
+      {
+        "text": "Book of the Dead of Imhotep (Imuthes), ca. 332–200 BCE — The Met 35.9.20a–w (CC0)",
+        "bbox": [
+          522,
+          58,
+          1399,
+          79
+        ],
+        "glyph_height": 21,
+        "font": "/System/Library/Fonts/Supplemental/Arial.ttf",
+        "major": false,
+        "color": "#3b2c21"
+      }
+    ],
+    "original_asset_id": "551786",
+    "original_source": "/Volumes/ESD-02/新チャンネル/EP011_WeighingOfTheHeart/素材/met551786_10.jpg",
+    "original_sha256": "483487d4c39bed2be37c78242cc409499572fdc3e55ca491d21ccf22bb9b56f5",
+    "source_text": [
+      "PAPYRUS｜パピルス",
+      "Book of the Dead of Imhotep (Imuthes), ca. 332–200 BCE — The Met 35.9.20a–w (CC0)"
+    ],
+    "original_pixels": [
+      4000,
+      1704
+    ],
+    "crop_pixels": [
+      2240,
+      1040,
+      2800,
+      1460
+    ],
+    "art_boxes": [
+      [
+        697,
+        398,
+        1222,
+        791
+      ]
+    ],
+    "camera_band": [
+      110,
+      1080
+    ],
+    "zoom_amount": 0.03,
+    "native_initial_scale": 0.9368932038834951,
+    "native_max_scale": 0.965,
+    "color_class": "color",
+    "approved_upscale_exception": false,
+    "section_index": 10,
+    "start": 276.4,
+    "end": 287.8333333333333,
+    "frames": 343,
+    "encoded_file": "_work/render/P10_03_E01A_10_ammit.mp4",
+    "render_config": {
+      "image_sha256": "63e2b397b2334c22ec976f1fd59858f57d642505f8c80550b67314c96a2a4772",
+      "stages": [],
+      "frames": 343,
+      "filter": "[0:v]split=2[base][art];[art]crop=1920:970:0:110,format=yuv444p,perspective=x0='(W-W/(1+0.03*on/342))/2':y0='(H-H/(1+0.03*on/342))/2':x1='(W-W/(1+0.03*on/342))/2+W/(1+0.03*on/342)':y1='(H-H/(1+0.03*on/342))/2':x2='(W-W/(1+0.03*on/342))/2':y2='(H-H/(1+0.03*on/342))/2+H/(1+0.03*on/342)':x3='(W-W/(1+0.03*on/342))/2+W/(1+0.03*on/342)':y3='(H-H/(1+0.03*on/342))/2+H/(1+0.03*on/342)':sense=source:eval=frame:interpolation=cubic[moving];[base][moving]overlay=0:110:format=yuv444,format=yuv420p[v]",
+      "lossless_static_intermediate": false,
+      "stage_change_frames": []
+    },
+    "stage_change_frames": []
+  },
+  {
+    "key": "E11B",
+    "segment_id": "P11",
+    "file": "assets/E11B.png",
+    "text_boxes": [
+      {
+        "text": "STATUETTE｜小像",
+        "bbox": [
+          846,
+          18,
+          1073,
+          41
+        ],
+        "glyph_height": 23,
+        "font": "/System/Library/Fonts/ヒラギノ角ゴシック W3.ttc",
+        "major": false,
+        "color": "#3b2c21"
+      },
+      {
+        "text": "Statuette of Osiris, 664–332 BCE — The Met 61.45 (CC0)",
+        "bbox": [
+          673,
+          58,
+          1247,
+          79
+        ],
+        "glyph_height": 21,
+        "font": "/System/Library/Fonts/Supplemental/Arial.ttf",
+        "major": false,
+        "color": "#3b2c21"
+      }
+    ],
+    "original_asset_id": "545802",
+    "original_source": "/Volumes/ESD-02/新チャンネル/EP011_WeighingOfTheHeart/素材/met545802_00.jpg",
+    "original_sha256": "db4ea87073bd7ba711004f11627eac3aebe8e7e0f201b54ac25111d41cfeace6",
+    "source_text": [
+      "STATUETTE｜小像",
+      "Statuette of Osiris, 664–332 BCE — The Met 61.45 (CC0)"
+    ],
+    "original_pixels": [
+      2667,
+      4000
+    ],
+    "crop_pixels": [
+      0,
+      0,
+      2667,
+      4000
+    ],
+    "art_boxes": [
+      [
+        650,
+        130,
+        1270,
+        1060
+      ]
+    ],
+    "camera_band": [
+      110,
+      1080
+    ],
+    "zoom_amount": 0.03,
+    "native_initial_scale": 0.2325,
+    "native_max_scale": 0.23947500000000002,
+    "color_class": "color",
+    "approved_upscale_exception": false,
+    "section_index": 0,
+    "start": 287.8333333333333,
+    "end": 304.8333333333333,
+    "frames": 510,
+    "encoded_file": "_work/render/P11_01_E11B.mp4",
+    "render_config": {
+      "image_sha256": "1062109ab3e6ad2615d7054c7597849502023d6e5c934a70af7b16db75e9d5e5",
+      "stages": [],
+      "frames": 510,
+      "filter": "[0:v]split=2[base][art];[art]crop=1920:970:0:110,format=yuv444p,perspective=x0='(W-W/(1+0.03*on/509))/2':y0='(H-H/(1+0.03*on/509))/2':x1='(W-W/(1+0.03*on/509))/2+W/(1+0.03*on/509)':y1='(H-H/(1+0.03*on/509))/2':x2='(W-W/(1+0.03*on/509))/2':y2='(H-H/(1+0.03*on/509))/2+H/(1+0.03*on/509)':x3='(W-W/(1+0.03*on/509))/2+W/(1+0.03*on/509)':y3='(H-H/(1+0.03*on/509))/2+H/(1+0.03*on/509)':sense=source:eval=frame:interpolation=cubic[moving];[base][moving]overlay=0:110:format=yuv444,format=yuv420p[v]",
+      "lossless_static_intermediate": false,
+      "stage_change_frames": []
+    },
+    "stage_change_frames": []
+  },
+  {
+    "key": "D_truevoice",
+    "segment_id": "P11",
+    "file": "assets/D_truevoice.png",
+    "text_boxes": [
+      {
+        "text": "TITLE CARD｜文字カード",
+        "bbox": [
+          808,
+          18,
+          1111,
+          41
+        ],
+        "glyph_height": 23,
+        "font": "/System/Library/Fonts/ヒラギノ角ゴシック W3.ttc",
+        "major": false,
+        "color": "#3b2c21"
+      },
+      {
+        "text": "TRUE OF VOICE",
+        "bbox": [
+          484,
+          330,
+          1436,
+          420
+        ],
+        "glyph_height": 90,
+        "font": "/System/Library/Fonts/Supplemental/Arial Bold.ttf",
+        "major": true,
+        "color": "#3b2c21"
+      },
+      {
+        "text": "声正しき者",
+        "bbox": [
+          798,
+          460,
+          1122,
+          520
+        ],
+        "glyph_height": 60,
+        "font": "/System/Library/Fonts/ヒラギノ角ゴシック W3.ttc",
+        "major": true,
+        "color": "#3b2c21"
+      },
+      {
+        "text": "a title added after the names of the dead",
+        "bbox": [
+          422,
+          610,
+          1497,
+          654
+        ],
+        "glyph_height": 44,
+        "font": "/System/Library/Fonts/Supplemental/Arial.ttf",
+        "major": false,
+        "color": "#3b2c21"
+      },
+      {
+        "text": "死者の名のあとに添えられた言葉",
+        "bbox": [
+          657,
+          685,
+          1263,
+          723
+        ],
+        "glyph_height": 38,
+        "font": "/System/Library/Fonts/ヒラギノ角ゴシック W3.ttc",
+        "major": false,
+        "color": "#3b2c21"
+      }
+    ],
+    "color_class": "diagram",
+    "camera_band": [
+      110,
+      1080
+    ],
+    "stages": [
+      {
+        "stage": 99,
+        "file": "assets/D_truevoice_stage99.png",
+        "text_boxes": [
+          {
+            "text": "TITLE CARD｜文字カード",
+            "bbox": [
+              808,
+              18,
+              1111,
+              41
+            ],
+            "glyph_height": 23,
+            "font": "/System/Library/Fonts/ヒラギノ角ゴシック W3.ttc",
+            "major": false,
+            "color": "#3b2c21"
+          },
+          {
+            "text": "TRUE OF VOICE",
+            "bbox": [
+              484,
+              330,
+              1436,
+              420
+            ],
+            "glyph_height": 90,
+            "font": "/System/Library/Fonts/Supplemental/Arial Bold.ttf",
+            "major": true,
+            "color": "#3b2c21"
+          },
+          {
+            "text": "声正しき者",
+            "bbox": [
+              798,
+              460,
+              1122,
+              520
+            ],
+            "glyph_height": 60,
+            "font": "/System/Library/Fonts/ヒラギノ角ゴシック W3.ttc",
+            "major": true,
+            "color": "#3b2c21"
+          },
+          {
+            "text": "a title added after the names of the dead",
+            "bbox": [
+              422,
+              610,
+              1497,
+              654
+            ],
+            "glyph_height": 44,
+            "font": "/System/Library/Fonts/Supplemental/Arial.ttf",
+            "major": false,
+            "color": "#3b2c21"
+          },
+          {
+            "text": "死者の名のあとに添えられた言葉",
+            "bbox": [
+              657,
+              685,
+              1263,
+              723
+            ],
+            "glyph_height": 38,
+            "font": "/System/Library/Fonts/ヒラギノ角ゴシック W3.ttc",
+            "major": false,
+            "color": "#3b2c21"
+          }
+        ]
+      }
+    ],
+    "start": 304.8333333333333,
+    "end": 314.3666666666667,
+    "frames": 286,
+    "encoded_file": "_work/render/P11_02_D_truevoice.mp4",
+    "render_config": {
+      "image_sha256": "88c5752e342dae994c1db2e9c7a99439f6be452699c1057362c2dfa77ced4e8f",
+      "stages": [
+        {
+          "sha256": "88c5752e342dae994c1db2e9c7a99439f6be452699c1057362c2dfa77ced4e8f",
+          "stage": 99
+        }
+      ],
+      "frames": 286,
+      "filter": "[0:v]format=yuv420p[v]",
+      "lossless_static_intermediate": true,
+      "stage_change_frames": []
+    },
+    "stage_change_frames": []
+  },
+  {
+    "key": "D_summary",
+    "segment_id": "P12",
+    "file": "assets/D_summary.png",
+    "text_boxes": [
+      {
+        "text": "SCHEMATIC｜模式図",
+        "bbox": [
+          833,
+          18,
+          1087,
+          41
+        ],
+        "glyph_height": 23,
+        "font": "/System/Library/Fonts/ヒラギノ角ゴシック W3.ttc",
+        "major": false,
+        "color": "#3b2c21"
+      },
+      {
+        "text": "NEGATIVE",
+        "bbox": [
+          72,
+          440,
+          317,
+          500
+        ],
+        "glyph_height": 60,
+        "font": "/System/Library/Fonts/Supplemental/DIN Condensed Bold.ttf",
+        "major": true,
+        "color": "#3b2c21"
+      },
+      {
+        "text": "CONFESSION",
+        "bbox": [
+          34,
+          518,
+          356,
+          578
+        ],
+        "glyph_height": 60,
+        "font": "/System/Library/Fonts/Supplemental/DIN Condensed Bold.ttf",
+        "major": true,
+        "color": "#3b2c21"
+      },
+      {
+        "text": "否定告白",
+        "bbox": [
+          134,
+          603,
+          256,
+          631
+        ],
+        "glyph_height": 28,
+        "font": "/System/Library/Fonts/ヒラギノ角ゴシック W3.ttc",
+        "major": false,
+        "color": "#3b2c21"
+      },
+      {
+        "text": "42 GODS",
+        "bbox": [
+          466,
+          479,
+          681,
+          539
+        ],
+        "glyph_height": 60,
+        "font": "/System/Library/Fonts/Supplemental/DIN Condensed Bold.ttf",
+        "major": true,
+        "color": "#3b2c21"
+      },
+      {
+        "text": "42柱の神々",
+        "bbox": [
+          492,
+          564,
+          653,
+          592
+        ],
+        "glyph_height": 28,
+        "font": "/System/Library/Fonts/ヒラギノ角ゴシック W3.ttc",
+        "major": false,
+        "color": "#3b2c21"
+      },
+      {
+        "text": "SPELL 30B",
+        "bbox": [
+          816,
+          344,
+          1087,
+          404
+        ],
+        "glyph_height": 60,
+        "font": "/System/Library/Fonts/Supplemental/DIN Condensed Bold.ttf",
+        "major": true,
+        "color": "#3b2c21"
+      },
+      {
+        "text": "— WORDS",
+        "bbox": [
+          808,
+          422,
+          1094,
+          482
+        ],
+        "glyph_height": 60,
+        "font": "/System/Library/Fonts/Supplemental/DIN Condensed Bold.ttf",
+        "major": true,
+        "color": "#3b2c21"
+      },
+      {
+        "text": "FOR THE",
+        "bbox": [
+          846,
+          500,
+          1056,
+          560
+        ],
+        "glyph_height": 60,
+        "font": "/System/Library/Fonts/Supplemental/DIN Condensed Bold.ttf",
+        "major": true,
+        "color": "#3b2c21"
+      },
+      {
+        "text": "HEART",
+        "bbox": [
+          868,
+          578,
+          1034,
+          638
+        ],
+        "glyph_height": 60,
+        "font": "/System/Library/Fonts/Supplemental/DIN Condensed Bold.ttf",
+        "major": true,
+        "color": "#3b2c21"
+      },
+      {
+        "text": "30B章",
+        "bbox": [
+          906,
+          663,
+          995,
+          691
+        ],
+        "glyph_height": 28,
+        "font": "/System/Library/Fonts/ヒラギノ角ゴシック W3.ttc",
+        "major": false,
+        "color": "#3b2c21"
+      },
+      {
+        "text": "心臓への言葉",
+        "bbox": [
+          860,
+          700,
+          1041,
+          728
+        ],
+        "glyph_height": 28,
+        "font": "/System/Library/Fonts/ヒラギノ角ゴシック W3.ttc",
+        "major": false,
+        "color": "#3b2c21"
+      },
+      {
+        "text": "THE SCALE",
+        "bbox": [
+          1194,
+          440,
+          1465,
+          500
+        ],
+        "glyph_height": 60,
+        "font": "/System/Library/Fonts/Supplemental/DIN Condensed Bold.ttf",
+        "major": true,
+        "color": "#3b2c21"
+      },
+      {
+        "text": "IN BALANCE",
+        "bbox": [
+          1178,
+          518,
+          1480,
+          578
+        ],
+        "glyph_height": 60,
+        "font": "/System/Library/Fonts/Supplemental/DIN Condensed Bold.ttf",
+        "major": true,
+        "color": "#3b2c21"
+      },
+      {
+        "text": "天秤がつり合う",
+        "bbox": [
+          1226,
+          603,
+          1431,
+          631
+        ],
+        "glyph_height": 28,
+        "font": "/System/Library/Fonts/ヒラギノ角ゴシック W3.ttc",
+        "major": false,
+        "color": "#3b2c21"
+      },
+      {
+        "text": "BEFORE",
+        "bbox": [
+          1608,
+          440,
+          1806,
+          500
+        ],
+        "glyph_height": 60,
+        "font": "/System/Library/Fonts/Supplemental/DIN Condensed Bold.ttf",
+        "major": true,
+        "color": "#3b2c21"
+      },
+      {
+        "text": "OSIRIS",
+        "bbox": [
+          1622,
+          518,
+          1793,
+          578
+        ],
+        "glyph_height": 60,
+        "font": "/System/Library/Fonts/Supplemental/DIN Condensed Bold.ttf",
+        "major": true,
+        "color": "#3b2c21"
+      },
+      {
+        "text": "オシリスの前へ",
+        "bbox": [
+          1602,
+          603,
+          1813,
+          631
+        ],
+        "glyph_height": 28,
+        "font": "/System/Library/Fonts/ヒラギノ角ゴシック W3.ttc",
+        "major": false,
+        "color": "#3b2c21"
+      }
+    ],
+    "color_class": "diagram",
+    "camera_band": [
+      110,
+      1080
+    ],
+    "stages": [
+      {
+        "stage": 99,
+        "file": "assets/D_summary_stage99.png",
+        "text_boxes": [
+          {
+            "text": "SCHEMATIC｜模式図",
+            "bbox": [
+              833,
+              18,
+              1087,
+              41
+            ],
+            "glyph_height": 23,
+            "font": "/System/Library/Fonts/ヒラギノ角ゴシック W3.ttc",
+            "major": false,
+            "color": "#3b2c21"
+          },
+          {
+            "text": "NEGATIVE",
+            "bbox": [
+              72,
+              440,
+              317,
+              500
+            ],
+            "glyph_height": 60,
+            "font": "/System/Library/Fonts/Supplemental/DIN Condensed Bold.ttf",
+            "major": true,
+            "color": "#3b2c21"
+          },
+          {
+            "text": "CONFESSION",
+            "bbox": [
+              34,
+              518,
+              356,
+              578
+            ],
+            "glyph_height": 60,
+            "font": "/System/Library/Fonts/Supplemental/DIN Condensed Bold.ttf",
+            "major": true,
+            "color": "#3b2c21"
+          },
+          {
+            "text": "否定告白",
+            "bbox": [
+              134,
+              603,
+              256,
+              631
+            ],
+            "glyph_height": 28,
+            "font": "/System/Library/Fonts/ヒラギノ角ゴシック W3.ttc",
+            "major": false,
+            "color": "#3b2c21"
+          },
+          {
+            "text": "42 GODS",
+            "bbox": [
+              466,
+              479,
+              681,
+              539
+            ],
+            "glyph_height": 60,
+            "font": "/System/Library/Fonts/Supplemental/DIN Condensed Bold.ttf",
+            "major": true,
+            "color": "#3b2c21"
+          },
+          {
+            "text": "42柱の神々",
+            "bbox": [
+              492,
+              564,
+              653,
+              592
+            ],
+            "glyph_height": 28,
+            "font": "/System/Library/Fonts/ヒラギノ角ゴシック W3.ttc",
+            "major": false,
+            "color": "#3b2c21"
+          },
+          {
+            "text": "SPELL 30B",
+            "bbox": [
+              816,
+              344,
+              1087,
+              404
+            ],
+            "glyph_height": 60,
+            "font": "/System/Library/Fonts/Supplemental/DIN Condensed Bold.ttf",
+            "major": true,
+            "color": "#3b2c21"
+          },
+          {
+            "text": "— WORDS",
+            "bbox": [
+              808,
+              422,
+              1094,
+              482
+            ],
+            "glyph_height": 60,
+            "font": "/System/Library/Fonts/Supplemental/DIN Condensed Bold.ttf",
+            "major": true,
+            "color": "#3b2c21"
+          },
+          {
+            "text": "FOR THE",
+            "bbox": [
+              846,
+              500,
+              1056,
+              560
+            ],
+            "glyph_height": 60,
+            "font": "/System/Library/Fonts/Supplemental/DIN Condensed Bold.ttf",
+            "major": true,
+            "color": "#3b2c21"
+          },
+          {
+            "text": "HEART",
+            "bbox": [
+              868,
+              578,
+              1034,
+              638
+            ],
+            "glyph_height": 60,
+            "font": "/System/Library/Fonts/Supplemental/DIN Condensed Bold.ttf",
+            "major": true,
+            "color": "#3b2c21"
+          },
+          {
+            "text": "30B章",
+            "bbox": [
+              906,
+              663,
+              995,
+              691
+            ],
+            "glyph_height": 28,
+            "font": "/System/Library/Fonts/ヒラギノ角ゴシック W3.ttc",
+            "major": false,
+            "color": "#3b2c21"
+          },
+          {
+            "text": "心臓への言葉",
+            "bbox": [
+              860,
+              700,
+              1041,
+              728
+            ],
+            "glyph_height": 28,
+            "font": "/System/Library/Fonts/ヒラギノ角ゴシック W3.ttc",
+            "major": false,
+            "color": "#3b2c21"
+          },
+          {
+            "text": "THE SCALE",
+            "bbox": [
+              1194,
+              440,
+              1465,
+              500
+            ],
+            "glyph_height": 60,
+            "font": "/System/Library/Fonts/Supplemental/DIN Condensed Bold.ttf",
+            "major": true,
+            "color": "#3b2c21"
+          },
+          {
+            "text": "IN BALANCE",
+            "bbox": [
+              1178,
+              518,
+              1480,
+              578
+            ],
+            "glyph_height": 60,
+            "font": "/System/Library/Fonts/Supplemental/DIN Condensed Bold.ttf",
+            "major": true,
+            "color": "#3b2c21"
+          },
+          {
+            "text": "天秤がつり合う",
+            "bbox": [
+              1226,
+              603,
+              1431,
+              631
+            ],
+            "glyph_height": 28,
+            "font": "/System/Library/Fonts/ヒラギノ角ゴシック W3.ttc",
+            "major": false,
+            "color": "#3b2c21"
+          },
+          {
+            "text": "BEFORE",
+            "bbox": [
+              1608,
+              440,
+              1806,
+              500
+            ],
+            "glyph_height": 60,
+            "font": "/System/Library/Fonts/Supplemental/DIN Condensed Bold.ttf",
+            "major": true,
+            "color": "#3b2c21"
+          },
+          {
+            "text": "OSIRIS",
+            "bbox": [
+              1622,
+              518,
+              1793,
+              578
+            ],
+            "glyph_height": 60,
+            "font": "/System/Library/Fonts/Supplemental/DIN Condensed Bold.ttf",
+            "major": true,
+            "color": "#3b2c21"
+          },
+          {
+            "text": "オシリスの前へ",
+            "bbox": [
+              1602,
+              603,
+              1813,
+              631
+            ],
+            "glyph_height": 28,
+            "font": "/System/Library/Fonts/ヒラギノ角ゴシック W3.ttc",
+            "major": false,
+            "color": "#3b2c21"
+          }
+        ]
+      }
+    ],
+    "start": 314.3666666666667,
+    "end": 338.46666666666664,
+    "frames": 723,
+    "encoded_file": "_work/render/P12_01_D_summary.mp4",
+    "render_config": {
+      "image_sha256": "8a40bd7adb739095c1d00e7f70f713eff36f3c1e1492da1ec33e416c90420955",
+      "stages": [
+        {
+          "sha256": "8a40bd7adb739095c1d00e7f70f713eff36f3c1e1492da1ec33e416c90420955",
+          "stage": 99
+        }
+      ],
+      "frames": 723,
+      "filter": "[0:v]format=yuv420p[v]",
+      "lossless_static_intermediate": true,
+      "stage_change_frames": []
+    },
+    "stage_change_frames": []
+  },
+  {
+    "key": "E10A",
+    "segment_id": "P13",
+    "file": "assets/E10A.png",
+    "text_boxes": [
+      {
+        "text": "ARTWORK｜美術作品",
+        "bbox": [
+          832,
+          18,
+          1089,
+          41
+        ],
+        "glyph_height": 23,
+        "font": "/System/Library/Fonts/ヒラギノ角ゴシック W3.ttc",
+        "major": false,
+        "color": "#3b2c21"
+      },
+      {
+        "text": "View on the Nile near Cairo, ca. 1855 — The Met 2013.75 (CC0)",
+        "bbox": [
+          640,
+          58,
+          1279,
+          79
+        ],
+        "glyph_height": 21,
+        "font": "/System/Library/Fonts/Supplemental/Arial.ttf",
+        "major": false,
+        "color": "#3b2c21"
+      }
+    ],
+    "original_asset_id": "420448",
+    "original_source": "/Volumes/ESD-02/新チャンネル/EP011_WeighingOfTheHeart/素材/met420448_00.jpg",
+    "original_sha256": "0290e01cac844f614cc7cb490be0925e2a04732f1e5440b006482b35271a09c2",
+    "source_text": [
+      "ARTWORK｜美術作品",
+      "View on the Nile near Cairo, ca. 1855 — The Met 2013.75 (CC0)"
+    ],
+    "original_pixels": [
+      1996,
+      1096
+    ],
+    "crop_pixels": [
+      0,
+      0,
+      1996,
+      1096
+    ],
+    "art_boxes": [
+      [
+        113,
+        130,
+        1807,
+        1060
+      ]
+    ],
+    "camera_band": [
+      110,
+      1080
+    ],
+    "zoom_amount": 0.03,
+    "native_initial_scale": 0.8485401459854015,
+    "native_max_scale": 0.8739963503649636,
+    "color_class": "color",
+    "approved_upscale_exception": false,
+    "section_index": 0,
+    "start": 338.46666666666664,
+    "end": 349.23333333333335,
+    "frames": 323,
+    "encoded_file": "_work/render/P13_01_E10A.mp4",
+    "render_config": {
+      "image_sha256": "79fb04d609d34819c457ac2b2fbbc9148c5837dc57e0948624b8952298f66e8f",
+      "stages": [],
+      "frames": 323,
+      "filter": "[0:v]split=2[base][art];[art]crop=1920:970:0:110,format=yuv444p,perspective=x0='(W-W/(1+0.03*on/322))/2':y0='(H-H/(1+0.03*on/322))/2':x1='(W-W/(1+0.03*on/322))/2+W/(1+0.03*on/322)':y1='(H-H/(1+0.03*on/322))/2':x2='(W-W/(1+0.03*on/322))/2':y2='(H-H/(1+0.03*on/322))/2+H/(1+0.03*on/322)':x3='(W-W/(1+0.03*on/322))/2+W/(1+0.03*on/322)':y3='(H-H/(1+0.03*on/322))/2+H/(1+0.03*on/322)':sense=source:eval=frame:interpolation=cubic[moving];[base][moving]overlay=0:110:format=yuv444,format=yuv420p[v]",
+      "lossless_static_intermediate": false,
+      "stage_change_frames": []
+    },
+    "stage_change_frames": []
+  },
+  {
+    "key": "credits",
+    "segment_id": "P14",
+    "file": "assets/credits.png",
+    "text_boxes": [
+      {
+        "text": "CREDITS｜クレジット",
+        "bbox": [
+          834,
+          18,
+          1087,
+          41
+        ],
+        "glyph_height": 23,
+        "font": "/System/Library/Fonts/ヒラギノ角ゴシック W3.ttc",
+        "major": false,
+        "color": "#3b2c21"
+      },
+      {
+        "text": "QUIET ORIGINS",
+        "bbox": [
+          651,
+          270,
+          1269,
+          335
+        ],
+        "glyph_height": 65,
+        "font": "/System/Library/Fonts/Supplemental/Arial Bold.ttf",
+        "major": false,
+        "color": "#3b2c21"
+      },
+      {
+        "text": "Narration: Kokoro / Heart (af_heart)",
+        "bbox": [
+          667,
+          420,
+          1253,
+          455
+        ],
+        "glyph_height": 35,
+        "font": "/System/Library/Fonts/Supplemental/Arial.ttf",
+        "major": false,
+        "color": "#3b2c21"
+      },
+      {
+        "text": "日本語音声：VOICEVOX:冥鳴ひまり",
+        "bbox": [
+          659,
+          490,
+          1261,
+          524
+        ],
+        "glyph_height": 34,
+        "font": "/System/Library/Fonts/ヒラギノ角ゴシック W3.ttc",
+        "major": false,
+        "color": "#3b2c21"
+      },
+      {
+        "text": "The Metropolitan Museum of Art · Open Access (CC0)",
+        "bbox": [
+          524,
+          600,
+          1395,
+          634
+        ],
+        "glyph_height": 34,
+        "font": "/System/Library/Fonts/Supplemental/Arial.ttf",
+        "major": false,
+        "color": "#3b2c21"
+      },
+      {
+        "text": "Music: QO_THEME_A02 · Suno",
+        "bbox": [
+          681,
+          710,
+          1239,
+          746
+        ],
+        "glyph_height": 36,
+        "font": "/System/Library/Fonts/Supplemental/Arial.ttf",
+        "major": false,
+        "color": "#3b2c21"
+      }
+    ],
+    "color_class": "credits",
+    "camera_band": [
+      110,
+      1080
+    ],
+    "start": 349.23333333333335,
+    "end": 371.3666666666667,
+    "frames": 664,
+    "encoded_file": "_work/render/P14_01_credits.mp4",
+    "render_config": {
+      "image_sha256": "7ea02b915240ce9387026c295e5cfe14dea6b5bed91478066d6776cd0787443a",
+      "stages": [],
+      "frames": 664,
+      "filter": "[0:v]format=yuv420p[v]",
+      "lossless_static_intermediate": true,
+      "stage_change_frames": []
+    },
+    "stage_change_frames": []
+  },
+  {
+    "key": "endcard",
+    "segment_id": "BRAND",
+    "start": 371.3666666666667,
+    "end": 381.3666666666667,
+    "frames": 300,
+    "encoded_file": "/Users/ryo/Desktop/新チャンネル/ブランド素材/エンドカード_共通版_v02_20261023/deliverables/Quiet_Origins_endcard_v02.mp4",
+    "original_source": "/Users/ryo/Desktop/新チャンネル/ブランド素材/エンドカード_共通版_v02_20261023/deliverables/Quiet_Origins_endcard_v02.mp4",
+    "original_sha256": "3cd254cdd387d0ca8e3ef3c2f74ca3650dc64fb02609bcd09a21b3e36a3513a2"
+  }
+]

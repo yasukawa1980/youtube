@@ -1,0 +1,21 @@
+{
+  "issue": "Initial generic art-motion ROI y=200..680 excluded fifth denial row at y=715..817.",
+  "change": "Static-card change detection now uses every pixel of the 1920x1080 lossless intermediate. Final-video motion measurements unchanged.",
+  "video_changed": false,
+  "expected_reveals": [
+    324,
+    383,
+    447,
+    514,
+    583
+  ],
+  "measured_reveals": [
+    324,
+    383,
+    447,
+    514,
+    583
+  ],
+  "passed": true,
+  "validation_version": 2
+}

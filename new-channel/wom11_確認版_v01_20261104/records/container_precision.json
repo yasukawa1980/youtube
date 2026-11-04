@@ -1,0 +1,78 @@
+{
+  "passed": true,
+  "movie_timescale": 48000,
+  "video_frames": 11441,
+  "audio_samples": 18305600,
+  "files": [
+    {
+      "name": "EP011_audio_en.m4a",
+      "before_sha256": "3b730756d022a1169fedee9830813ebf5592712889f31b1c0b3b17ffeb5e3d93",
+      "after_sha256": "3b730756d022a1169fedee9830813ebf5592712889f31b1c0b3b17ffeb5e3d93",
+      "already_sample_exact": true,
+      "encoded_streams_identical": true,
+      "stream_hashes": {
+        "audio": "SHA256=393001f1579afa596a0f75d8a6f17665579d6ce3c74ce7454a5726f4643ad462"
+      },
+      "duration_seconds": "381.366667"
+    },
+    {
+      "name": "EP011_audio_ja.m4a",
+      "before_sha256": "6eaf03a21ce01bd02729aec4a6b6b26a550d326b19a079283b16267fe1993236",
+      "after_sha256": "6eaf03a21ce01bd02729aec4a6b6b26a550d326b19a079283b16267fe1993236",
+      "already_sample_exact": true,
+      "encoded_streams_identical": true,
+      "stream_hashes": {
+        "audio": "SHA256=905ca4150ae8d2b42ede7ecff7212b87d5ca2705ded89dad3c2daa20e961ccf2"
+      },
+      "duration_seconds": "381.366667"
+    },
+    {
+      "name": "EP011_WeighingOfTheHeart_en_v01_1080p30.mp4",
+      "before_sha256": "b056ea922043cfbe2ebdc09b91688d3d75cf539e541c7c6bdd1e72ca422cadd5",
+      "after_sha256": "b056ea922043cfbe2ebdc09b91688d3d75cf539e541c7c6bdd1e72ca422cadd5",
+      "already_sample_exact": true,
+      "encoded_streams_identical": true,
+      "stream_hashes": {
+        "video": "SHA256=616c1b8c38d695fafe0202ca5bcf4825717612bc11bec0a6c8f67097eaba1471",
+        "audio": "SHA256=393001f1579afa596a0f75d8a6f17665579d6ce3c74ce7454a5726f4643ad462"
+      },
+      "duration_seconds": "381.366667"
+    },
+    {
+      "name": "EP011_WeighingOfTheHeart_en_v01_subtitled_review_1080p30.mp4",
+      "before_sha256": "8ddbe2039b8f288c0f51a1da74c2b30dec2b799a2baf4942057a08f579d0885b",
+      "after_sha256": "8ddbe2039b8f288c0f51a1da74c2b30dec2b799a2baf4942057a08f579d0885b",
+      "already_sample_exact": true,
+      "encoded_streams_identical": true,
+      "stream_hashes": {
+        "video": "SHA256=99cd2d899a892250754eeab30f52934023c9115a987c1e85800038ff1dc9cc65",
+        "audio": "SHA256=393001f1579afa596a0f75d8a6f17665579d6ce3c74ce7454a5726f4643ad462"
+      },
+      "duration_seconds": "381.366667"
+    },
+    {
+      "name": "EP011_WeighingOfTheHeart_ja_v01_1080p30.mp4",
+      "before_sha256": "e538ccedcbf029b5d35162a548219ee55a2b93639a86e12c6836a8ec4e4c7490",
+      "after_sha256": "e538ccedcbf029b5d35162a548219ee55a2b93639a86e12c6836a8ec4e4c7490",
+      "already_sample_exact": true,
+      "encoded_streams_identical": true,
+      "stream_hashes": {
+        "video": "SHA256=616c1b8c38d695fafe0202ca5bcf4825717612bc11bec0a6c8f67097eaba1471",
+        "audio": "SHA256=905ca4150ae8d2b42ede7ecff7212b87d5ca2705ded89dad3c2daa20e961ccf2"
+      },
+      "duration_seconds": "381.366667"
+    },
+    {
+      "name": "EP011_WeighingOfTheHeart_ja_v01_subtitled_review_1080p30.mp4",
+      "before_sha256": "0c05d425cff8f136c6b37b12551faaae9931eec5894086691df1a06a19badb37",
+      "after_sha256": "0c05d425cff8f136c6b37b12551faaae9931eec5894086691df1a06a19badb37",
+      "already_sample_exact": true,
+      "encoded_streams_identical": true,
+      "stream_hashes": {
+        "video": "SHA256=ec605278d4820354404fd62eb3f43f5565981a36b5c915b6df0e3392e974ebbd",
+        "audio": "SHA256=905ca4150ae8d2b42ede7ecff7212b87d5ca2705ded89dad3c2daa20e961ccf2"
+      },
+      "duration_seconds": "381.366667"
+    }
+  ]
+}

@@ -22,7 +22,7 @@ def camera(count,band=(110,930),rim=False,amount=.03,direction=None,finish_frame
  if direction=='wide_pan':z='2';x=f'(W-W/{z})*{t}';y=f'(H-H/{z})/2'
  if direction=='gods':
   turn=max(1,finish_frame or count//2);last=max(1,count-1-turn)
-  z=f'(2.2-1.2*max(0,min((on-{turn})/{last},1)))';x=f'(W-W/{z})*(.35+.2*min(on/{turn},1))';y=f'(H-H/{z})*.16'
+  z=f'(2.2-1.2*max(0,min((on-{turn})/{last},1)))';x=f'(W-W/{z})*(.35+.23*min(on/{turn},1))';y=f'(H-H/{z})*.16'
  if direction=='water':x=f'(W-W/{z})*.5';y=f'(H-H/{z})*.8'
  top,bottom=band;h=bottom-top
  p=f"perspective=x0='{x}':y0='{y}':x1='{x}+W/{z}':y1='{y}':x2='{x}':y2='{y}+H/{z}':x3='{x}+W/{z}':y3='{y}+H/{z}':sense=source:eval=frame:interpolation=cubic"
