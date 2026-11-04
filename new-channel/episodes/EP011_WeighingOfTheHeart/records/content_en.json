@@ -1,0 +1,251 @@
+{
+  "episode_id": "EP011",
+  "series": "Quiet Origins",
+  "language": "en",
+  "title": "Could You Fail the Weighing of the Heart?",
+  "subtitle": "The Book of the Dead's real name, a list of wrongs never done, forty-two gods, and a spell spoken to the heart",
+  "script_version": "v02 (2026-11-04, approved by the owner)",
+  "opening_after": "P02",
+  "chapters": [
+    {
+      "id": "C01",
+      "title": "The Scale"
+    },
+    {
+      "id": "C02",
+      "title": "Not a Single Book"
+    },
+    {
+      "id": "C03",
+      "title": "Forty-Two Denials"
+    },
+    {
+      "id": "C04",
+      "title": "A Spell for the Heart"
+    },
+    {
+      "id": "C05",
+      "title": "Could You Fail?"
+    }
+  ],
+  "sources": [
+    {
+      "id": "H-S01",
+      "title": "E. A. Wallis Budge, The Book of the Dead: The Papyrus of Ani in the British Museum, London, 1895",
+      "kind": "primary_text",
+      "status": "checked by Codex 2026-11-04 (book page images, IA TheBookOfTheDead-Budge-1895, text check only; page images not used in video): Hall of Double Right and Truth p.344; usual introduction appendix pp.345-346 ('I have made [no man] to weep', 'I have not turned back water at its springtide'); Negative Confession p.347-348 ('I have not stolen', 'I have done no murder', 'I have spoken no lies'); first god 'thou whose strides are long, who comest forth from Annu' p.347; Nebseni ending 'I know you, and I know your names' p.351; Chapter XXXB 'My heart my mother' p.258; Ammit p.257 n.4; maa-kheru pp.lxxiv-lxxv"
+    },
+    {
+      "id": "H-S02",
+      "title": "Foy Scalf (ed.), Book of the Dead: Becoming God in Ancient Egypt, Oriental Institute Museum Publications 39, 2017",
+      "kind": "research",
+      "status": "checked by Codex 2026-11-04: selection and length of scrolls, names added later, short scrolls to over 150 spells (Dorman p.29, Kockelmann pp.72-73); Turin 1791 and numbering (Lusher p.154, Munro p.54)"
+    },
+    {
+      "id": "H-S03",
+      "title": "Richard Lepsius, Das Todtenbuch der Ägypter nach dem hieroglyphischen Papyrus in Turin, Leipzig, 1842",
+      "kind": "primary_text",
+      "status": "bibliographic check by Codex 2026-11-04; title page not viewed; no image used"
+    },
+    {
+      "id": "H-S04",
+      "title": "The Metropolitan Museum of Art, object descriptions: 35.9.20a-w (Imhotep), 66.99.142 (judgment before Osiris), 30.8.1080 (heart scarab with a human head)",
+      "kind": "museum",
+      "status": "checked by Codex 2026-11-04: Book of Coming forth by Day; Hall of the Two Truths; heart as center of intelligence and emotion; balance with Maat; ten lines of Spell 30B on the base of 30.8.1080"
+    },
+    {
+      "id": "H-S05",
+      "title": "UCL Digital Egypt (Book of the Dead questions); Museo Egizio, Book of the Dead of Kha; Walters Art Museum 42.30",
+      "kind": "research",
+      "status": "checked by Codex 2026-11-04: names from phrases; papyrus examples not before Hatshepsut/Thutmose III; blank name spaces; modern reading of Spell 30B (not quoted)"
+    },
+    {
+      "id": "H-S06",
+      "title": "British Museum, Papyrus from the Book of the Dead of Ani (Google Arts & Culture text; image not used)",
+      "kind": "museum",
+      "status": "checked by Codex 2026-11-04: failure unlikely to be shown; true of voice / justified"
+    }
+  ],
+  "segments": [
+    {
+      "id": "P01",
+      "chapter": "C01",
+      "sources": [
+        "H-S04"
+      ],
+      "classification": "editorial_question",
+      "visuals": [
+        "E01A_10_scale"
+      ],
+      "text": "A heart is placed on a scale. On the other side sits a single feather, the sign of Maat, truth and right order. People often say that the heart had to be lighter than the feather, and that if it failed, a monster would devour it. This is the famous Weighing of the Heart, from the Egyptian Book of the Dead. It sounds like a terrifying final exam. But what does the book itself actually say?"
+    },
+    {
+      "id": "P02",
+      "chapter": "C01",
+      "sources": [],
+      "classification": "editorial_question",
+      "visuals": [
+        "E01A_05"
+      ],
+      "text": "In this episode, we open the Book of the Dead itself: its real name, a list of wrongs never done, forty-two gods, a spell spoken to the heart, and the question of whether anyone was expected to fail."
+    },
+    {
+      "id": "P03",
+      "chapter": "C02",
+      "sources": [
+        "H-S02",
+        "H-S04",
+        "H-S05"
+      ],
+      "classification": "historical_fact",
+      "visuals": [
+        "E01A_13",
+        "D_goingforth"
+      ],
+      "text": "First, there was no single Book of the Dead. These texts were known by phrases such as going forth by day. In the New Kingdom, selections of these spells came to be written on papyrus scrolls and buried with the dead. The choice and order of spells varied from scroll to scroll. On some, the owner's name was written in later, in spaces left blank. Some scrolls held only a few spells. Others held more than a hundred and fifty."
+    },
+    {
+      "id": "P04",
+      "chapter": "C02",
+      "sources": [
+        "H-S02",
+        "H-S03"
+      ],
+      "classification": "historical_fact",
+      "visuals": [
+        "D_1842",
+        "D_spell125"
+      ],
+      "text": "The name Book of the Dead is modern. In 1842, the German scholar Karl Richard Lepsius published a long papyrus kept in Turin, under the title the Book of the Dead. His numbering of its spells became the basis of the numbers scholars still use today. The judgment we are looking for is mainly in Spell 125."
+    },
+    {
+      "id": "P05",
+      "chapter": "C03",
+      "sources": [
+        "H-S01",
+        "H-S04"
+      ],
+      "classification": "myth_text",
+      "visuals": [
+        "E01A_10_osiris"
+      ],
+      "text": "Spell 125 takes the dead person into a great hall, the Hall of the Two Truths. There, the dead person speaks for themselves. They greet the great god, the lord of truth, and say that they know him. Then they list the wrongs they never did."
+    },
+    {
+      "id": "P06",
+      "chapter": "C03",
+      "sources": [
+        "H-S01"
+      ],
+      "classification": "myth_text",
+      "visuals": [
+        "D_denials",
+        "E10B"
+      ],
+      "text": "Scholars call this the Negative Confession. Its lines are short and plain. Here are a few, from different versions, in an old English translation. I have not stolen. I have done no murder. I have spoken no lies. I have made no man to weep. I have not turned back water at its springtide."
+    },
+    {
+      "id": "P07",
+      "chapter": "C03",
+      "sources": [
+        "H-S01",
+        "H-S04"
+      ],
+      "classification": "myth_text",
+      "visuals": [
+        "R01"
+      ],
+      "text": "Then the dead person turns to forty-two gods, and greets each one by a name and a place. The first is greeted as the one whose strides are long, who comes forth from Annu, the city the Greeks called Heliopolis. To each god, the dead person names one more wrong they did not do. Knowing the names mattered. One version ends, I know you, and I know your names."
+    },
+    {
+      "id": "P08",
+      "chapter": "C04",
+      "sources": [
+        "H-S01",
+        "H-S04",
+        "H-S05"
+      ],
+      "classification": "myth_text",
+      "visuals": [
+        "E06A",
+        "E06B"
+      ],
+      "text": "But what if the heart disagreed? For the Egyptians, the heart was the center of thought and feeling. It was believed to remember what a person had done. So another spell, Spell 30B, speaks directly to the heart. In an old translation, it begins, My heart my mother. It asks that nothing oppose the dead person at the judgment, and that the heart not be parted from them before the keeper of the scales. Modern translators read it as a plea that the heart not speak against its owner."
+    },
+    {
+      "id": "P09",
+      "chapter": "C04",
+      "sources": [
+        "H-S04"
+      ],
+      "classification": "historical_fact",
+      "visuals": [
+        "E07A_03",
+        "E07A_01"
+      ],
+      "text": "This spell was often inscribed on a heart scarab, an amulet in the shape of a beetle, and such scarabs were often placed on the mummy's chest. On this one, with a human head, the museum identifies the ten lines on the base as Spell 30B. The dead person did not face the scale alone. They brought their own words for the heart."
+    },
+    {
+      "id": "P10",
+      "chapter": "C05",
+      "sources": [
+        "H-S01",
+        "H-S04",
+        "H-S06"
+      ],
+      "classification": "myth_text",
+      "visuals": [
+        "E01A_10_beam",
+        "E08A",
+        "E01A_10_ammit"
+      ],
+      "text": "Now look again at the scale. Here, the heart is not shown lighter than the feather. The two sides hang in balance. Museum descriptions speak of the heart balancing with Maat. Thoth writes down the result. And nearby waits Ammit, the Devourer. One old description calls her part crocodile, part lion, and part hippopotamus."
+    },
+    {
+      "id": "P11",
+      "chapter": "C05",
+      "sources": [
+        "H-S01",
+        "H-S06"
+      ],
+      "classification": "scholarly_interpretation",
+      "visuals": [
+        "E11B",
+        "D_truevoice"
+      ],
+      "text": "But papyri made to help the dead live on are unlikely to show their owner being devoured. In the text, the heart is found true, and the dead person is allowed to go before Osiris. The scroll was made to help secure a good outcome. After their names, the dead were often called true of voice."
+    },
+    {
+      "id": "P12",
+      "chapter": "C05",
+      "sources": [
+        "H-S01"
+      ],
+      "classification": "editorial_conclusion",
+      "visuals": [
+        "D_summary"
+      ],
+      "text": "So, could you fail the Weighing of the Heart? As a fear, yes. That is why Ammit is there. But the Book of the Dead was made to help you pass. And its denials also describe a good life: do not steal, do not lie, do not make others weep."
+    },
+    {
+      "id": "P13",
+      "chapter": "C05",
+      "sources": [],
+      "classification": "closing",
+      "visuals": [
+        "E10A"
+      ],
+      "text": "Every story has an origin. Sometimes, it begins with a heart, a feather, and a few words prepared in advance."
+    },
+    {
+      "id": "P14",
+      "chapter": "C05",
+      "sources": [],
+      "classification": "credits",
+      "visuals": [
+        "credits"
+      ],
+      "text": "This video is based on historical texts and public museum collections. The narration uses synthetic speech. Sources and terms of use are listed in the description. If you enjoyed this story, please like the video and subscribe for more quiet origins. Thank you for watching."
+    }
+  ]
+}
