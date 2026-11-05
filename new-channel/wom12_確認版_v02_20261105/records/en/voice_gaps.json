@@ -1,0 +1,164 @@
+{
+  "gaps": [
+    {
+      "id": "P01",
+      "speech_end": 33.47770833333333,
+      "following_boundary": 34.4,
+      "gap": 0.9222916666666663,
+      "card_hold": 0,
+      "next_voice_start": 34.4,
+      "to_next_voice": 0.9222916666666663
+    },
+    {
+      "id": "P02",
+      "speech_end": 52.405249999999995,
+      "following_boundary": 53.333333333333336,
+      "gap": 0.9280833333333405,
+      "card_hold": 0,
+      "next_voice_start": 57.333333333333336,
+      "to_next_voice": 4.9280833333333405
+    },
+    {
+      "id": "P03",
+      "speech_end": 77.33654166666668,
+      "following_boundary": 78.26666666666667,
+      "gap": 0.9301249999999897,
+      "card_hold": 0,
+      "next_voice_start": 78.26666666666667,
+      "to_next_voice": 0.9301249999999897
+    },
+    {
+      "id": "P04",
+      "speech_end": 101.38858333333333,
+      "following_boundary": 102.3,
+      "gap": 0.9114166666666677,
+      "card_hold": 0,
+      "next_voice_start": 102.3,
+      "to_next_voice": 0.9114166666666677
+    },
+    {
+      "id": "P05",
+      "speech_end": 128.643875,
+      "following_boundary": 129.56666666666666,
+      "gap": 0.9227916666666545,
+      "card_hold": 0,
+      "next_voice_start": 129.56666666666666,
+      "to_next_voice": 0.9227916666666545
+    },
+    {
+      "id": "P06",
+      "speech_end": 157.49058333333332,
+      "following_boundary": 158.4,
+      "gap": 0.9094166666666865,
+      "card_hold": 0,
+      "next_voice_start": 158.4,
+      "to_next_voice": 0.9094166666666865
+    },
+    {
+      "id": "P07",
+      "speech_end": 200.63970833333335,
+      "following_boundary": 201.56666666666666,
+      "gap": 0.9269583333333173,
+      "card_hold": 0,
+      "next_voice_start": 201.56666666666666,
+      "to_next_voice": 0.9269583333333173
+    },
+    {
+      "id": "P08",
+      "speech_end": 244.48258333333334,
+      "following_boundary": 245.4,
+      "gap": 0.9174166666666679,
+      "card_hold": 0,
+      "next_voice_start": 245.4,
+      "to_next_voice": 0.9174166666666679
+    },
+    {
+      "id": "P09",
+      "speech_end": 272.3659583333333,
+      "following_boundary": 274.8,
+      "gap": 2.434041666666701,
+      "card_hold": 1.5,
+      "next_voice_start": 274.8,
+      "to_next_voice": 2.434041666666701
+    },
+    {
+      "id": "P10",
+      "speech_end": 293.628,
+      "following_boundary": 294.53333333333336,
+      "gap": 0.905333333333374,
+      "card_hold": 0,
+      "next_voice_start": 294.53333333333336,
+      "to_next_voice": 0.905333333333374
+    },
+    {
+      "id": "P11",
+      "speech_end": 314.74320833333337,
+      "following_boundary": 317.1666666666667,
+      "gap": 2.423458333333315,
+      "card_hold": 1.5,
+      "next_voice_start": 317.1666666666667,
+      "to_next_voice": 2.423458333333315
+    },
+    {
+      "id": "P12",
+      "speech_end": 345.3204166666667,
+      "following_boundary": 346.23333333333335,
+      "gap": 0.9129166666666606,
+      "card_hold": 0,
+      "next_voice_start": 346.23333333333335,
+      "to_next_voice": 0.9129166666666606
+    },
+    {
+      "id": "P13",
+      "speech_end": 352.93595833333336,
+      "following_boundary": 353.8666666666667,
+      "gap": 0.9307083333333139,
+      "card_hold": 0,
+      "next_voice_start": 353.8666666666667,
+      "to_next_voice": 0.9307083333333139
+    },
+    {
+      "id": "P14",
+      "speech_end": 375.5319166666667,
+      "following_boundary": 376.46666666666664,
+      "gap": 0.9347499999999513,
+      "card_hold": 0,
+      "next_voice_start": null,
+      "to_next_voice": null
+    }
+  ],
+  "silence": [
+    {
+      "start": 52.091083,
+      "end": 57.436917,
+      "duration": 5.3458340000000035,
+      "reason": "opening"
+    },
+    {
+      "start": 272.054542,
+      "end": 274.854667,
+      "duration": 2.80012499999998,
+      "reason": "P09"
+    },
+    {
+      "start": 314.427542,
+      "end": 317.212042,
+      "duration": 2.78449999999998,
+      "reason": "P11"
+    },
+    {
+      "start": 375.210583,
+      "end": 386.466667,
+      "duration": 11.256083999999987,
+      "reason": "endcard"
+    }
+  ],
+  "opening": [
+    53.333333333333336,
+    57.333333333333336
+  ],
+  "endcard": [
+    376.46666666666664,
+    386.46666666666664
+  ]
+}

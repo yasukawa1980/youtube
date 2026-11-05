@@ -73,7 +73,7 @@ def main():
                      and c['bytes']==p.stat().st_size and c['sha256']==expected_sha
                      and c.get('rest_download_verified') is True),None)
         assert asset['digest']=='sha256:'+expected_sha and asset['size']==p.stat().st_size
-        if not cached and p.parent.name=='deliverables_4k' and len(checks)==7 and VERSION=='v01':
+        if not cached and p.parent.name=='deliverables_4k' and len(checks)==7:
             import sys
             subprocess.run([sys.executable,str(Path(__file__).with_name('wom12_rest_recovery.py')),str(a.folder.parent)],check=True)
             return

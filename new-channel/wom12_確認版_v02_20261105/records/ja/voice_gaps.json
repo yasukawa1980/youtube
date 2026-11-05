@@ -1,0 +1,164 @@
+{
+  "gaps": [
+    {
+      "id": "P01",
+      "speech_end": 39.61333333333333,
+      "following_boundary": 40.53333333333333,
+      "gap": 0.9200000000000017,
+      "card_hold": 0,
+      "next_voice_start": 40.53333333333333,
+      "to_next_voice": 0.9200000000000017
+    },
+    {
+      "id": "P02",
+      "speech_end": 62.08933333333333,
+      "following_boundary": 63.0,
+      "gap": 0.9106666666666712,
+      "card_hold": 0,
+      "next_voice_start": 67.0,
+      "to_next_voice": 4.910666666666671
+    },
+    {
+      "id": "P03",
+      "speech_end": 87.11733333333333,
+      "following_boundary": 88.03333333333333,
+      "gap": 0.9159999999999968,
+      "card_hold": 0,
+      "next_voice_start": 88.03333333333333,
+      "to_next_voice": 0.9159999999999968
+    },
+    {
+      "id": "P04",
+      "speech_end": 111.116,
+      "following_boundary": 112.03333333333333,
+      "gap": 0.9173333333333318,
+      "card_hold": 0,
+      "next_voice_start": 112.03333333333333,
+      "to_next_voice": 0.9173333333333318
+    },
+    {
+      "id": "P05",
+      "speech_end": 137.37716666666665,
+      "following_boundary": 138.3,
+      "gap": 0.922833333333358,
+      "card_hold": 0,
+      "next_voice_start": 138.3,
+      "to_next_voice": 0.922833333333358
+    },
+    {
+      "id": "P06",
+      "speech_end": 166.18266666666668,
+      "following_boundary": 167.1,
+      "gap": 0.9173333333333176,
+      "card_hold": 0,
+      "next_voice_start": 167.1,
+      "to_next_voice": 0.9173333333333176
+    },
+    {
+      "id": "P07",
+      "speech_end": 211.04666666666665,
+      "following_boundary": 211.96666666666667,
+      "gap": 0.9200000000000159,
+      "card_hold": 0,
+      "next_voice_start": 211.96666666666667,
+      "to_next_voice": 0.9200000000000159
+    },
+    {
+      "id": "P08",
+      "speech_end": 255.476,
+      "following_boundary": 256.4,
+      "gap": 0.9239999999999782,
+      "card_hold": 0,
+      "next_voice_start": 256.4,
+      "to_next_voice": 0.9239999999999782
+    },
+    {
+      "id": "P09",
+      "speech_end": 287.5946666666666,
+      "following_boundary": 290.0,
+      "gap": 2.405333333333374,
+      "card_hold": 1.5,
+      "next_voice_start": 290.0,
+      "to_next_voice": 2.405333333333374
+    },
+    {
+      "id": "P10",
+      "speech_end": 310.704,
+      "following_boundary": 311.6333333333333,
+      "gap": 0.929333333333318,
+      "card_hold": 0,
+      "next_voice_start": 311.6333333333333,
+      "to_next_voice": 0.929333333333318
+    },
+    {
+      "id": "P11",
+      "speech_end": 333.42,
+      "following_boundary": 335.8333333333333,
+      "gap": 2.4133333333332985,
+      "card_hold": 1.5,
+      "next_voice_start": 335.8333333333333,
+      "to_next_voice": 2.4133333333332985
+    },
+    {
+      "id": "P12",
+      "speech_end": 369.7,
+      "following_boundary": 370.6333333333333,
+      "gap": 0.9333333333333371,
+      "card_hold": 0,
+      "next_voice_start": 370.6333333333333,
+      "to_next_voice": 0.9333333333333371
+    },
+    {
+      "id": "P13",
+      "speech_end": 379.00666666666666,
+      "following_boundary": 379.93333333333334,
+      "gap": 0.9266666666666765,
+      "card_hold": 0,
+      "next_voice_start": 379.93333333333334,
+      "to_next_voice": 0.9266666666666765
+    },
+    {
+      "id": "P14",
+      "speech_end": 403.048,
+      "following_boundary": 403.96666666666664,
+      "gap": 0.9186666666666383,
+      "card_hold": 0,
+      "next_voice_start": null,
+      "to_next_voice": null
+    }
+  ],
+  "silence": [
+    {
+      "start": 61.975417,
+      "end": 67.063208,
+      "duration": 5.087791000000003,
+      "reason": "opening"
+    },
+    {
+      "start": 287.444583,
+      "end": 290.076667,
+      "duration": 2.6320839999999635,
+      "reason": "P09"
+    },
+    {
+      "start": 333.259583,
+      "end": 335.884875,
+      "duration": 2.6252920000000017,
+      "reason": "P11"
+    },
+    {
+      "start": 402.917833,
+      "end": 413.966667,
+      "duration": 11.048834,
+      "reason": "endcard"
+    }
+  ],
+  "opening": [
+    63.0,
+    67.0
+  ],
+  "endcard": [
+    403.96666666666664,
+    413.96666666666664
+  ]
+}

@@ -13,7 +13,8 @@ REPO=Path(__file__).resolve().parent.parent
 VERSION=os.environ.get('WOM12_VERSION','v01')
 assert VERSION in ['v01','v02']
 ROOT=Path(os.environ.get('WOM12_ROOT',f'/Volumes/ESD-02/新チャンネル/EP012_SantaClaus/確認版_{VERSION}_20261105'))
-MEDIA=ROOT.parent/'素材'
+MEDIA=Path(os.environ.get('WOM12_MEDIA',ROOT.parent/'素材'))
+LANGUAGES=[os.environ['WOM12_LANG']] if 'WOM12_LANG' in os.environ else ['en','ja']
 MODELS=Path('/Users/ryo/Desktop/BGM/_共通/音声モデル')
 BRAND=Path('/Users/ryo/Desktop/新チャンネル/ブランド素材/オープニング_エンドカード_動画試作_v02_20261021/deliverables')
 OP=BRAND/'Quiet_Origins_opening_trial_v02.mp4';END=Path('/Users/ryo/Desktop/新チャンネル/ブランド素材/エンドカード_共通版_v02_20261023/deliverables/Quiet_Origins_endcard_v02.mp4')

@@ -27,7 +27,7 @@ def main():
         a=next(x for x in release['assets'] if x['id']==c['asset_id'])
         assert c['rest_download_verified'] and a['size']==c['bytes'] and a['digest']=='sha256:'+c['sha256']
         assert digest(root/'deliverables'/c['name'])==c['sha256']
-    asset=next(a for a in release['assets'] if a['name'].endswith('_v01_2160p30.mp4'))
+    asset=next(a for a in release['assets'] if a['name'].endswith('_2160p30.mp4'))
     src=root/'deliverables_4k'/asset['name'];expected=digest(src);size=src.stat().st_size
     assert size==asset['size'] and asset['digest']=='sha256:'+expected
     cache=root/'_work/rest_recovery'/str(asset['id']);cache.mkdir(parents=True,exist_ok=True)

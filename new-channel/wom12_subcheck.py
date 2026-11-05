@@ -6,7 +6,7 @@ from wom01_subtitles import to_srt
 STYLE='FontSize=14,BorderStyle=3,MarginV=49'
 def main():
  rows=[]
- for l in ['en','ja']:
+ for l in LANGUAGES:
   q=read(ROOT/f'records/subtitle_cues_{l}.json')['cues'];srt=ROOT/f'_work/sub_bounds_{l}.srt';test=[dict(text=c['text'],start=i,end=i+.99) for i,c in enumerate(q)];srt.write_text(to_srt(test));vf=f"subtitles='{srt}':original_size=1920x1080:force_style='{STYLE}'";p=subprocess.Popen([imageio_ffmpeg.get_ffmpeg_exe(),'-v','error','-f','lavfi','-i',f'color=c=0x00fa50:s=1920x1080:r=1:d={len(q)}','-vf',vf,'-pix_fmt','rgb24','-f','rawvideo','-'],stdout=subprocess.PIPE)
   for i,c in enumerate(q):
    b=p.stdout.read(1920*1080*3);a=np.frombuffer(b,np.uint8).reshape(1080,1920,3);mask=(np.abs(a.astype(np.int16)-a[0,0].astype(np.int16)).max(axis=2)>16);y,x=np.where(mask);assert len(y)>0;rows.append(dict(lang=l,cue=i+1,start=c['start'],end=c['end'],bbox=[int(x.min()),int(y.min()),int(x.max()+1),int(y.max()+1)],lower_gap_to_rail=915-int(y.max()+1)))

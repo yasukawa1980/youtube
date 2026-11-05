@@ -1,3 +1,4 @@
+import os
 """Render logical shots independently; join decoded raw frames through one AVC encoder."""
 import sys,subprocess,math,json,shutil
 from PIL import Image,ImageDraw
@@ -7,8 +8,12 @@ from wom12_render import camera
 FPS=30
 R=ROOT/'_work/render'; R.mkdir(exist_ok=True,parents=True)
 def run():
- t=read(ROOT/'records/master_timeline.json'); en={x['id']:x for x in read(ROOT/'records/narration_timeline_en.json')['segments']};subs=read(ROOT/'records/subtitle_cues_en.json')['cues']; segments={x['id']:x for x in t['segments']}; clock=[]; shots=[]; slide_rows=[];ticks=[]
+ lang=os.environ.get('WOM12_LANG','en')
+ t=read(ROOT/'records/master_timeline.json'); en={x['id']:x for x in read(ROOT/f'records/narration_timeline_{lang}.json')['segments']};subs=read(ROOT/f'records/subtitle_cues_{lang}.json')['cues']; segments={x['id']:x for x in t['segments']}; clock=[]; shots=[]; slide_rows=[];ticks=[]
  def phrase(p,word):
+  if 'WOM12_LANG' in os.environ:
+   from wom12_retime import phrase_frame
+   return phrase_frame(lang,p,word,en,subs,clock)
   c=next(c for c in en[p]['cues'] if word.lower() in c['text'].lower()); ss=[x for x in subs if x['sentence_id']==c['id']];line=' '.join(c['text'].lower().split());target=line.index(word.lower());pos=0
   for page in ss:
    st=' '.join(page['text'].lower().split());e=pos+len(st)
@@ -26,13 +31,14 @@ def run():
    stage=next((z for f,z in reversed(extra) if f<=a),0);yr=None if not(st('P03')<=a<ed('P12')) else next((n for f,n in reversed(ticks) if f<=a),'—');im=scene(k,stage,yr,a>=ticks[-1][0]);path=R/f'{p}_{k}_{i:02}.png';im.save(path,compress_level=2);frames.append(dict(f=a,n=b-a,p=path,yr=yr,stage=stage))
   shots.append(dict(key=k,segment_id=p,start=start/30,end=end/30,frames=end-start,file=str(frames[0]['p'].relative_to(ROOT)),stages=[dict(start_frame=v['f'],frames=v['n'],year=v['yr'],stage=v['stage'],file=str(v['p'].relative_to(ROOT))) for v in frames],source=CAT[k][1] if k in CAT else k))
  def cut(p,keys,starts):
+  if p=='P09' and 'WOM12_LANG' in os.environ and starts[2]-starts[1]<60:starts[1]=starts[2]-75
   points=[st(p)]+starts+[ed(p)]
   for k,a,b in zip(keys,points,points[1:]):shot(p,k,a,b)
  cut('P01',['N03-A','D_1931q'],[phrase('P01','many people believe')]);p='P02';shot(p,'D_timeline_intro',st(p),ed(p),[(round(st(p)+(ed(p)-st(p)-40)*i/11),i) for i in range(12)]+[(ed(p)-30+i,12+i) for i in range(30)])
  def brand(k,path):
   a,b=t['brand_intervals'][k];shots.append(dict(key=k,segment_id='BRAND',start=a,end=b,frames=round((b-a)*30),encoded_file=str(path),source='Quiet Origins common brand v02'))
  brand('opening',OP);cut('P03',['N05-A'],[]);cut('P04',['N06-A'],[]);shot('P05','D_1812',st('P05'),ed('P05'),[(phrase('P05','There is no sleigh here yet'),1)]);cut('P06',['N08_cover','N08_p1'],[phrase('P06','Its first page begins')]);shot('P07','D_1823',st('P07'),ed('P07'),[(st('P07'),-1)]+[(phrase('P07',w),i) for i,w in enumerate(['Its Saint Nicholas is chubby','He is dressed','He drives a miniature','His cheeks are like roses'])]);cut('P08',['N11-C','N02-A','D_1881'],[phrase('P08','Soon after'),phrase('P08','In eighteen eighty-one')]);cut('P09',['N04-A','N11-A','N11-B','N03-B','D_lineup2'],[phrase('P09','So his coat'),phrase('P09','But red kept'),phrase('P09','In December'),phrase('P09','decades before')]);cut('P10',['D_1931'],[]);cut('P11',['D_lineup3'],[]);shot('P12','N12-A',st('P12'),ed('P13'));cut('P14',['credits'],[]);brand('endcard',END)
- save(ROOT/'records/frame_layout.json',METR);save(ROOT/'records/rail_switches.json',dict(events=clock,ticks=ticks,subtitle_reference='English master; shared video for Japanese.'));save(ROOT/'records/art_scales.json',ARTMEAS);save(ROOT/'records/render_shots.json',shots)
+ save(ROOT/'records/frame_layout.json',METR);save(ROOT/'records/rail_switches.json',dict(events=clock,ticks=ticks,subtitle_reference=lang+' subtitle page and character offset' if 'WOM12_LANG' in os.environ else 'English master; shared video for Japanese.'));save(ROOT/'records/art_scales.json',ARTMEAS);save(ROOT/'records/render_shots.json',shots)
  if 'design' in sys.argv:return
  for s in shots:
   if s['segment_id']=='BRAND':continue

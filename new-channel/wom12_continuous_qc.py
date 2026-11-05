@@ -4,7 +4,7 @@ import json,re,subprocess,math
 import numpy as np
 from pathlib import Path
 from PIL import Image,ImageDraw,ImageFont
-from wom12_produce import VERSION,ROOT,REPO,read,save,sha,probe
+from wom12_produce import LANGUAGES,VERSION,ROOT,REPO,read,save,sha,probe
 FONT='/System/Library/Fonts/Supplemental/Arial.ttf'
 def main():
  state=ROOT/'records/continuous_qc.json'
@@ -19,7 +19,7 @@ def main():
  for s in shots:
   a=round(s['start']*30);ns=[a,a+(s['frames']-1)//2,a+s['frames']-1];selected.extend(ns);triples.append(ns)
  expr='+'.join(f'eq(n\\,{n})' for n in selected);checks=[];font=ImageFont.truetype(FONT,17)
- for lang in ['en','ja']:
+ for lang in LANGUAGES:
   src=ROOT/f'deliverables/EP012_SantaClaus_{lang}_{VERSION}_1080p30.mp4';folder=ROOT/f'_work/continuous_{lang}';folder.mkdir(exist_ok=True)
   cmd=['ffmpeg','-nostdin','-y','-v','warning','-threads','2','-i',str(src),'-vf',f'select={expr},scale=1280:720','-fps_mode','passthrough','-c:v','png','-pix_fmt','rgb24',str(folder/'%03d.png')]
   q=subprocess.run(cmd,capture_output=True,text=True,check=True);assert not q.stderr.strip(),q.stderr
@@ -61,7 +61,7 @@ def main():
  for name in ['content.json','content_en.json']:assert sha(ROOT/'records'/name)==sha(REPO/'new-channel/episodes/EP012_SantaClaus/records'/name)
  used=list(read(ROOT/'records/art_scales.json'))+['N12-B'];assert len(used)==len(set(used))==13
  opening_frames=[]
- for lang in ['en','ja']:
+ for lang in LANGUAGES:
   src=ROOT/f'deliverables/EP012_SantaClaus_{lang}_{VERSION}_1080p30.mp4'
   cmd=['ffmpeg','-nostdin','-y','-v','warning','-i',str(src),'-vf',r'select=eq(n\,0)+eq(n\,30)+eq(n\,60)+eq(n\,90),scale=1280:720','-frames:v','4','-fps_mode','passthrough',str(ROOT/f'review/opening_{lang}_%02d.jpg')]
   q=subprocess.run(cmd,capture_output=True,text=True,check=True);assert not q.stderr.strip()

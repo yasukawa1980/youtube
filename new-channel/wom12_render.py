@@ -6,7 +6,7 @@ import numpy as np
 from fractions import Fraction
 import imageio_ffmpeg
 from PIL import Image,ImageDraw,ImageFont
-from wom12_produce import VERSION,ROOT,REPO,OP,END,FPS,SR,read,save,sha,ff,probe,measure,content
+from wom12_produce import LANGUAGES,VERSION,ROOT,REPO,OP,END,FPS,SR,read,save,sha,ff,probe,measure,content
 from wom01_quiet_origins import stream_hash
 
 def camera(count,band=(110,930),rim=False,amount=.03,direction=None,finish_frame=None):
@@ -32,14 +32,14 @@ def camera(count,band=(110,930),rim=False,amount=.03,direction=None,finish_frame
 
 
 def package():
- for l in ['en','ja']:
+ for l in LANGUAGES:
   out=ROOT/f'deliverables/EP012_SantaClaus_{l}_{VERSION}_1080p30.mp4'
   ff(['-i',ROOT/'_work/picture_master.mp4','-i',ROOT/f'deliverables/EP012_audio_{l}.m4a','-map','0:v:0','-map','1:a:0','-c','copy','-metadata:s:a:0','language='+('eng' if l=='en' else 'jpn'),'-metadata','title=Quiet Origins / Santa Claus and the Red Suit','-metadata','comment=English: Kokoro/af_heart. Japanese: VOICEVOX:冥鳴ひまり. External subtitles.','-movie_timescale',48000,'-movflags','+faststart',out])
   print('PACKAGED',l,flush=True)
 
 def reviews():
  binary=imageio_ffmpeg.get_ffmpeg_exe()
- for l in ['en','ja']:
+ for l in LANGUAGES:
   src=ROOT/f'deliverables/EP012_SantaClaus_{l}_{VERSION}_1080p30.mp4';out=ROOT/f'deliverables/EP012_SantaClaus_{l}_{VERSION}_subtitled_review_1080p30.mp4';srt=ROOT/f'_work/{l}.srt';shutil.copy2(src.with_suffix('.srt'),srt)
   vf=f"subtitles='{srt}':original_size=1920x1080:force_style='FontSize=14,BorderStyle=3,MarginV=49'"
   subprocess.run([binary,'-nostdin','-y','-v','error','-i',str(src),'-vf',vf,'-c:v','libx264','-threads','4','-preset','veryfast','-crf','18','-pix_fmt','yuv420p','-fps_mode','passthrough','-video_track_timescale','15360','-c:a','copy','-movie_timescale','48000','-movflags','+faststart','-progress',str(ROOT/f'_work/subtitles_{l}_progress.txt'),str(out)],check=True)
@@ -50,7 +50,7 @@ def precision():
  state=ROOT/'records/container_precision.json'
  if state.exists() and all((ROOT/'deliverables'/x['name']).exists() and sha(ROOT/'deliverables'/x['name'])==x['after_sha256'] for x in read(state)['files']):return
  m=read(ROOT/'records/master_timeline.json');samples=round(m['duration_seconds']*48000);frames=round(m['duration_seconds']*30);records=[]
- files=[ROOT/f'deliverables/EP012_audio_{l}.m4a' for l in ['en','ja']]+sorted((ROOT/'deliverables').glob('EP012_SantaClaus_*.mp4'))
+ files=[ROOT/f'deliverables/EP012_audio_{l}.m4a' for l in LANGUAGES]+sorted((ROOT/'deliverables').glob('EP012_SantaClaus_*.mp4'))
  for p in files:
   before={s['codec_type']:stream_hash(p,'v' if s['codec_type']=='video' else 'a') for s in probe(p)['streams'] if s['codec_type'] in ['video','audio']};oldsha=sha(p)
   info=probe(p)
@@ -70,7 +70,7 @@ def precision():
 
 def verify():
  master=read(ROOT/'records/master_timeline.json');frames=round(master['duration_seconds']*30);files=[]
- for l in ['en','ja']:
+ for l in LANGUAGES:
   for review in [False,True]:
    out=ROOT/f'deliverables/EP012_SantaClaus_{l}_{VERSION}{"_subtitled_review" if review else ""}_1080p30.mp4'
    decoded=subprocess.run(['ffmpeg','-nostdin','-v','warning','-i',str(out),'-f','null','-'],capture_output=True,text=True,check=True)
@@ -90,9 +90,10 @@ def verify():
    assert not silent,('Unintended full-mix silence',l,silent)
    files.append({'name':out.name,'bytes':out.stat().st_size,'sha256':sha(out),'video_stream_sha256':stream_hash(out,'v'),'audio_stream_sha256':stream_hash(out,'a'),'full_decode':True,'decode_warnings':0,'profile':v['profile'],'pix_fmt':v['pix_fmt'],'exact_30fps_pts':True,'frames':frames,'duration':float(p['format']['duration']),'loudness':levels,'silence_over_1s_at_minus60dB':silent})
    print('VERIFIED',out.name,levels['input_i'],flush=True)
- assert files[0]['video_stream_sha256']==files[2]['video_stream_sha256']
- assert files[0]['audio_stream_sha256']==files[1]['audio_stream_sha256'] and files[2]['audio_stream_sha256']==files[3]['audio_stream_sha256']
- save(ROOT/f'records/qc_{VERSION}.json',{'passed':True,'duration_seconds':master['duration_seconds'],'frames':frames,'fps':30,'human_full_listening':False,'files':files,'shared_video_stream':True,'subtitled_audio_unchanged':True})
+ if len(LANGUAGES)==2:assert files[0]['video_stream_sha256']==files[2]['video_stream_sha256']
+ assert files[0]['audio_stream_sha256']==files[1]['audio_stream_sha256']
+ if len(LANGUAGES)==2:assert files[2]['audio_stream_sha256']==files[3]['audio_stream_sha256']
+ save(ROOT/f'records/qc_{VERSION}.json',{'passed':True,'duration_seconds':master['duration_seconds'],'frames':frames,'fps':30,'human_full_listening':False,'files':files,'shared_video_stream':len(LANGUAGES)==2,'subtitled_audio_unchanged':True})
 
 if __name__=='__main__':
  p=argparse.ArgumentParser();p.add_argument('stage',choices=['package','reviews','precision','verify']);a=p.parse_args();globals()[a.stage]()

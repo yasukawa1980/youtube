@@ -2,7 +2,7 @@
 import math
 import numpy as np
 import soundfile as sf
-from wom12_produce import ROOT,SR,OP,END,read,save,sha,ff,measure,rms
+from wom12_produce import LANGUAGES,ROOT,SR,OP,END,read,save,sha,ff,measure,rms
 from pathlib import Path
 BGM=Path('/Users/ryo/Desktop/新チャンネル/_共通/BGM/20261029_Suno')
 def band_energy(a):
@@ -39,7 +39,7 @@ def build_audio():
  common[:round(.08*SR)]*=np.linspace(.35,1,round(.08*SR))[:,None]
  report={'selection':{'common':'QO_THEME_A02','only':'QO_THEME_A02'},'sources':{k:{'path':str(BGM/(k+'.wav')),'sha256':sha(BGM/(k+'.wav'))} for k in tracks},'source_spans':spans,'filters':'highpass 100 Hz, 2 poles; equalizer 2828 Hz, one octave, -3.5 dB','pause_boost_db':6,'crossfade_seconds':3,'bgm_bands_percent':band_energy(common[~brandmask]),'languages':{}}
  sf.write(ROOT/'audio/common_selected_bgm.wav',common,SR,subtype='FLOAT')
- for lang in ['en','ja']:
+ for lang in LANGUAGES:
   cues=[c for s in read(ROOT/f'records/narration_timeline_{lang}.json')['segments'] for c in s['cues']]
   mask=np.zeros(n,bool);envelope=np.ones(n,np.float32)
   for c in cues:
