@@ -1,0 +1,257 @@
+{
+ "episode_id": "EP012",
+ "series": "Quiet Origins",
+ "language": "en",
+ "title": "Did Coca-Cola Really Make Santa Red?",
+ "subtitle": "A bishop, a New York dream, one reindeer then eight, Nast's wartime Santa, and the color of his coat before 1931",
+ "script_version": "v02 (2026-11-05, approved by the owner)",
+ "opening_after": "P02",
+ "format": "timeline (変遷型)",
+ "chapters": [
+  {
+   "id": "C01",
+   "title": "The Red Suit"
+  },
+  {
+   "id": "C02",
+   "title": "Fourth Century: A Bishop of Myra"
+  },
+  {
+   "id": "C03",
+   "title": "1812 to 1823: New York"
+  },
+  {
+   "id": "C04",
+   "title": "1858 to 1904: Ink and Color"
+  },
+  {
+   "id": "C05",
+   "title": "1931: Could a Company Make Santa Red?"
+  }
+ ],
+ "sources": [
+  {
+   "id": "N-S01",
+   "title": "Michael Ott, \"St. Nicholas of Myra,\" The Catholic Encyclopedia, vol. 11, 1911 (web transcription); St. Nicholas Center, \"Bari Sailors 1087\"",
+   "kind": "reference",
+   "status": "checked by Codex 2026-11-05: scarcely anything historically certain except bishop of Myra in the 4th century; 1087 body taken to Bari; gifts on 6 December (and eve)"
+  },
+  {
+   "id": "N-S02",
+   "title": "Washington Irving, A History of New York, second edition, New-York, 1812 (NYPL copy, Internet Archive ahistorynewyork31irvigoog)",
+   "kind": "primary_text",
+   "status": "checked by Codex 2026-11-05 on page images: p.106 \"riding over the tops of the trees, in that self same waggon wherein he brings his yearly presents to children\"; not found in 1809 OCR (not proven absent)"
+  },
+  {
+   "id": "N-S03",
+   "title": "The Children's Friend, No. III, New York: William B. Gilley, 1821 (Yale Beinecke Library, Shirley 4065)",
+   "kind": "primary_text",
+   "status": "checked by Codex 2026-11-05 on original page images: p.1 \"Old SANTECLAUS with much delight / His reindeer drives this frosty night\"; sleigh with one reindeer; red coat in this copy"
+  },
+  {
+   "id": "N-S04",
+   "title": "\"Account of a Visit from St. Nicholas,\" Troy Sentinel, 23 December 1823, p.3 (clipping scan); The Strong National Museum of Play; Library of Congress blog (2020)",
+   "kind": "primary_text",
+   "status": "checked by Codex 2026-11-05: four lines matched on image; no clothing color; editor did not know the author; Moore attribution 1837, own Poems 1844 (page images not checked)"
+  },
+  {
+   "id": "N-S05",
+   "title": "The Met 393182 (Winslow Homer, 1858), The Met 427502 (Thomas Nast, 1863); Macculloch Hall TN2015.182 (Nast, 1881); Morristown & Morris Township Library; HarpWeek",
+   "kind": "museum",
+   "status": "checked by Codex 2026-11-05: dates, black and white, stars and stripes; Nast Christmas drawings 1863-1886"
+  },
+  {
+   "id": "N-S06",
+   "title": "L. Prang & Co., A Visit from St. Nicholas, Boston, 1864 (LoC 73169323); Puck, 3 Dec 1902 (LoC 2010652186) and 7 Dec 1904 (LoC 2011645591)",
+   "kind": "primary_image",
+   "status": "checked by Codex 2026-11-05: ochre to pale brown suit (1864); red suit (1902, 1904); green/blue not confirmed"
+  },
+  {
+   "id": "N-S07",
+   "title": "The Coca-Cola Company, \"Haddon Sundblom and the Coca-Cola Santas\" (text only, no images)",
+   "kind": "company_history",
+   "status": "checked by Codex 2026-11-05: 1931 first, last painting 1964; \"Santa appeared in a red coat before Sundblom painted him.\""
+  },
+  {
+   "id": "N-S08",
+   "title": "Smithsonian National Museum of American History, \"How Santa brought Coca-Cola in from the cold\" (2015)",
+   "kind": "museum",
+   "status": "checked by Codex 2026-11-05: advertisements spread an existing red-and-white image"
+  }
+ ],
+ "segments": [
+  {
+   "id": "P01",
+   "chapter": "C01",
+   "sources": [
+    "N-S06",
+    "N-S07"
+   ],
+   "classification": "editorial_question",
+   "visuals": [
+    "N03-A_loc2010652186",
+    "D_1931q"
+   ],
+   "text": "Every December, the same story comes back. Santa Claus wears red because of Coca-Cola. In the nineteen thirties, the company's advertisements showed a warm, round Santa in a red suit, and many people believe that is where the red suit began. It is a good story. But the older pictures are still here: prints, books, poems and magazine covers. We can put them in order. So, did Coca-Cola really make Santa red?"
+  },
+  {
+   "id": "P02",
+   "chapter": "C01",
+   "sources": [],
+   "classification": "editorial_question",
+   "visuals": [
+    "D_timeline_intro"
+   ],
+   "text": "In this episode, we follow Santa through time: a bishop in the fourth century, a dream in a New York history book, a little book with a single reindeer, a poem with eight, a drawing made in wartime, and the color of his coat, long before nineteen thirty-one."
+  },
+  {
+   "id": "P03",
+   "chapter": "C02",
+   "sources": [
+    "N-S01"
+   ],
+   "classification": "historical_fact",
+   "visuals": [
+    "N05-A_nga1154"
+   ],
+   "text": "The story begins with a real name. Nicholas was a bishop of Myra, a town in what is now southern Turkey, in the fourth century. Beyond that, almost nothing about his life is historically certain. The stories of his kindness came later, and they made him a saint of gift-giving."
+  },
+  {
+   "id": "P04",
+   "chapter": "C02",
+   "sources": [
+    "N-S01"
+   ],
+   "classification": "historical_fact",
+   "visuals": [
+    "N06-A_nga215550"
+   ],
+   "text": "In ten eighty-seven, sailors from Bari, in southern Italy, took his remains from Myra and carried them home to their own city. In parts of Europe, children came to receive gifts on his feast day, December the sixth, and on the evening before. In the Netherlands, he became Sinterklaas, and he is still dressed as a bishop."
+  },
+  {
+   "id": "P05",
+   "chapter": "C03",
+   "sources": [
+    "N-S02"
+   ],
+   "classification": "historical_fact",
+   "visuals": [
+    "D_1812"
+   ],
+   "text": "Across the ocean, New York writers took up the name. In eighteen twelve, in the expanded second edition of his comic History of New York, Washington Irving described a dream. In it, the good Saint Nicholas came riding over the tops of the trees, in the same wagon in which he brings his yearly presents to children. There is no sleigh here yet, and no reindeer."
+  },
+  {
+   "id": "P06",
+   "chapter": "C03",
+   "sources": [
+    "N-S03"
+   ],
+   "classification": "historical_fact",
+   "visuals": [
+    "N08_or_D_1821"
+   ],
+   "text": "Nine years later, in eighteen twenty-one, a small illustrated book printed in New York, The Children's Friend, changed that. Its first page begins: Old Santeclaus with much delight, his reindeer drives this frosty night. The picture shows his sleigh, pulled by a single reindeer. And in one surviving copy, now at Yale University, Santeclaus is already wearing a red coat."
+  },
+  {
+   "id": "P07",
+   "chapter": "C03",
+   "sources": [
+    "N-S04"
+   ],
+   "classification": "historical_fact",
+   "visuals": [
+    "D_1823",
+    "N12-B_nga101749(background)"
+   ],
+   "text": "Two years later, in eighteen twenty-three, a newspaper in Troy, New York, printed an unsigned poem, Account of a Visit from St. Nicholas. The editor wrote that he did not know who had sent it. It was later published under Clement Clarke Moore's name, and in eighteen forty-four it appeared in his own book of poems. Its Saint Nicholas is chubby and plump, a right jolly old elf. He is dressed all in fur, from his head to his foot. He drives a miniature sleigh with eight tiny reindeer. His cheeks are like roses, his nose like a cherry. But the poem never gives his clothes a color."
+  },
+  {
+   "id": "P08",
+   "chapter": "C04",
+   "sources": [
+    "N-S05"
+   ],
+   "classification": "historical_fact",
+   "visuals": [
+    "N11-C_met393182",
+    "N02-A_met427502",
+    "D_1881"
+   ],
+   "text": "Magazines carried Santa to many more readers. In eighteen fifty-eight, Harper's Weekly printed Santa Claus and His Presents, drawn by a young Winslow Homer. Soon after, Thomas Nast began drawing Santa for the same magazine, and he kept drawing him for more than twenty years. In January eighteen sixty-three, during the American Civil War, his Santa visited a Union army camp, in a coat of stars and striped trousers. In eighteen eighty-one came his Merry Old Santa Claus: round, bearded, with a pipe and an armful of toys. These pictures were printed in black and white."
+  },
+  {
+   "id": "P09",
+   "chapter": "C04",
+   "sources": [
+    "N-S06"
+   ],
+   "classification": "historical_fact",
+   "visuals": [
+    "N04-A_loc73169323",
+    "N11-A_nypl483580",
+    "N11-B_met835010",
+    "N03-B_loc2011645591",
+    "D_lineup2"
+   ],
+   "text": "Color prints tell us more. In a book of the poem published in Boston in eighteen sixty-four, Santa's suit is a pale, earthy brown. So his coat was not fixed. But red kept coming back. In December nineteen oh two, and again in nineteen oh four, the magazine Puck put a red-suited Santa on its Christmas covers, decades before the famous soft-drink paintings."
+  },
+  {
+   "id": "P10",
+   "chapter": "C05",
+   "sources": [
+    "N-S07"
+   ],
+   "classification": "historical_fact",
+   "visuals": [
+    "D_1931"
+   ],
+   "text": "The illustrator Haddon Sundblom began painting Santa for Coca-Cola in nineteen thirty-one, and he painted his last one for the company in nineteen sixty-four. The company's own history says it plainly. Santa appeared in a red coat before Sundblom painted him."
+  },
+  {
+   "id": "P11",
+   "chapter": "C05",
+   "sources": [
+    "N-S08"
+   ],
+   "classification": "scholarly_interpretation",
+   "visuals": [
+    "D_lineup3"
+   ],
+   "text": "So Coca-Cola did not invent the red suit. But year after year, its advertisements showed the same warm, very human Santa, and helped make him familiar to a very wide audience. The color was older. What the advertisements helped spread was one friendly face."
+  },
+  {
+   "id": "P12",
+   "chapter": "C05",
+   "sources": [
+    "N-S03",
+    "N-S07",
+    "N-S08"
+   ],
+   "classification": "editorial_conclusion",
+   "visuals": [
+    "N12-A_nga62641"
+   ],
+   "text": "So, did Coca-Cola really make Santa red? No. A red coat appears more than a century earlier. What changed over time was almost everything else. A bishop became a visitor in the night. The visitor rode a wagon, then a sleigh with one reindeer, then eight. A poem dressed him in fur. And printers spread many versions of him, until one became the face most of us know."
+  },
+  {
+   "id": "P13",
+   "chapter": "C05",
+   "sources": [],
+   "classification": "closing",
+   "visuals": [
+    "N12-A_nga62641"
+   ],
+   "text": "Every story has an origin. Sometimes, it begins with a bishop, and printers finish it."
+  },
+  {
+   "id": "P14",
+   "chapter": "C05",
+   "sources": [],
+   "classification": "credits",
+   "visuals": [
+    "credits"
+   ],
+   "text": "This video is based on historical texts and public museum and library collections. The narration uses synthetic speech. Sources and terms of use are listed in the description. If you enjoyed this story, please like the video and subscribe for more quiet origins. Thank you for watching."
+  }
+ ]
+}

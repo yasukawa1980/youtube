@@ -1,0 +1,257 @@
+{
+ "episode_id": "EP012",
+ "series": "Quiet Origins",
+ "language": "ja",
+ "title": "サンタを赤くしたのは、本当にコカ・コーラなのか",
+ "subtitle": "司教、ニューヨークの夢、1頭から8頭のトナカイ、ナストの戦時のサンタ、そして1931年より前の上着の色",
+ "script_version": "v02 (2026-11-05, approved by the owner)",
+ "opening_after": "P02",
+ "format": "timeline (変遷型)",
+ "chapters": [
+  {
+   "id": "C01",
+   "title": "赤い服"
+  },
+  {
+   "id": "C02",
+   "title": "4世紀：ミュラの司教"
+  },
+  {
+   "id": "C03",
+   "title": "1812〜1823年：ニューヨーク"
+  },
+  {
+   "id": "C04",
+   "title": "1858〜1904年：インクと色"
+  },
+  {
+   "id": "C05",
+   "title": "1931年：会社がサンタを赤くしたのか"
+  }
+ ],
+ "sources": [
+  {
+   "id": "N-S01",
+   "title": "Michael Ott, \"St. Nicholas of Myra,\" The Catholic Encyclopedia, vol. 11, 1911 (web transcription); St. Nicholas Center, \"Bari Sailors 1087\"",
+   "kind": "reference",
+   "status": "checked by Codex 2026-11-05: scarcely anything historically certain except bishop of Myra in the 4th century; 1087 body taken to Bari; gifts on 6 December (and eve)"
+  },
+  {
+   "id": "N-S02",
+   "title": "Washington Irving, A History of New York, second edition, New-York, 1812 (NYPL copy, Internet Archive ahistorynewyork31irvigoog)",
+   "kind": "primary_text",
+   "status": "checked by Codex 2026-11-05 on page images: p.106 \"riding over the tops of the trees, in that self same waggon wherein he brings his yearly presents to children\"; not found in 1809 OCR (not proven absent)"
+  },
+  {
+   "id": "N-S03",
+   "title": "The Children's Friend, No. III, New York: William B. Gilley, 1821 (Yale Beinecke Library, Shirley 4065)",
+   "kind": "primary_text",
+   "status": "checked by Codex 2026-11-05 on original page images: p.1 \"Old SANTECLAUS with much delight / His reindeer drives this frosty night\"; sleigh with one reindeer; red coat in this copy"
+  },
+  {
+   "id": "N-S04",
+   "title": "\"Account of a Visit from St. Nicholas,\" Troy Sentinel, 23 December 1823, p.3 (clipping scan); The Strong National Museum of Play; Library of Congress blog (2020)",
+   "kind": "primary_text",
+   "status": "checked by Codex 2026-11-05: four lines matched on image; no clothing color; editor did not know the author; Moore attribution 1837, own Poems 1844 (page images not checked)"
+  },
+  {
+   "id": "N-S05",
+   "title": "The Met 393182 (Winslow Homer, 1858), The Met 427502 (Thomas Nast, 1863); Macculloch Hall TN2015.182 (Nast, 1881); Morristown & Morris Township Library; HarpWeek",
+   "kind": "museum",
+   "status": "checked by Codex 2026-11-05: dates, black and white, stars and stripes; Nast Christmas drawings 1863-1886"
+  },
+  {
+   "id": "N-S06",
+   "title": "L. Prang & Co., A Visit from St. Nicholas, Boston, 1864 (LoC 73169323); Puck, 3 Dec 1902 (LoC 2010652186) and 7 Dec 1904 (LoC 2011645591)",
+   "kind": "primary_image",
+   "status": "checked by Codex 2026-11-05: ochre to pale brown suit (1864); red suit (1902, 1904); green/blue not confirmed"
+  },
+  {
+   "id": "N-S07",
+   "title": "The Coca-Cola Company, \"Haddon Sundblom and the Coca-Cola Santas\" (text only, no images)",
+   "kind": "company_history",
+   "status": "checked by Codex 2026-11-05: 1931 first, last painting 1964; \"Santa appeared in a red coat before Sundblom painted him.\""
+  },
+  {
+   "id": "N-S08",
+   "title": "Smithsonian National Museum of American History, \"How Santa brought Coca-Cola in from the cold\" (2015)",
+   "kind": "museum",
+   "status": "checked by Codex 2026-11-05: advertisements spread an existing red-and-white image"
+  }
+ ],
+ "segments": [
+  {
+   "id": "P01",
+   "chapter": "C01",
+   "sources": [
+    "N-S06",
+    "N-S07"
+   ],
+   "classification": "editorial_question",
+   "visuals": [
+    "N03-A_loc2010652186",
+    "D_1931q"
+   ],
+   "text": "毎年12月になると、同じ話が戻ってきます。サンタクロースが赤い服を着ているのは、コカ・コーラのおかげだ、と。1930年代、この会社の広告には、赤い服を着た、温かく丸みのあるサンタが描かれました。赤い服はそこから始まった、と信じる人は少なくありません。よくできた話です。けれど、もっと古い絵は今も残っています。版画、本、詩、雑誌の表紙。それらを年の順に並べることができます。では、サンタを赤くしたのは、本当にコカ・コーラなのでしょうか。"
+  },
+  {
+   "id": "P02",
+   "chapter": "C01",
+   "sources": [],
+   "classification": "editorial_question",
+   "visuals": [
+    "D_timeline_intro"
+   ],
+   "text": "今回は、時代を追ってサンタをたどります。4世紀の司教、ニューヨークの歴史の本に書かれた夢、トナカイが1頭だけの小さな本、8頭が登場する詩、戦争のさなかに描かれた一枚の絵。そして、1931年よりずっと前の、彼の上着の色へ。"
+  },
+  {
+   "id": "P03",
+   "chapter": "C02",
+   "sources": [
+    "N-S01"
+   ],
+   "classification": "historical_fact",
+   "visuals": [
+    "N05-A_nga1154"
+   ],
+   "text": "物語は、実在の名前から始まります。ニコラウスは4世紀、いまのトルコ南部にあった町、ミュラの司教でした。それ以外、彼の生涯について歴史的に確かなことは、ほとんどありません。その優しさを伝える物語はのちに生まれ、彼を贈り物の聖人にしました。"
+  },
+  {
+   "id": "P04",
+   "chapter": "C02",
+   "sources": [
+    "N-S01"
+   ],
+   "classification": "historical_fact",
+   "visuals": [
+    "N06-A_nga215550"
+   ],
+   "text": "1087年、南イタリアのバーリの船乗りたちが、彼の遺骸をミュラから持ち去り、自分たちの町へ運びました。ヨーロッパの一部では、彼の祝日、12月6日と、その前の晩に、子どもたちが贈り物を受け取るようになります。オランダでは、彼はシンタクラースになりました。今も、司教の姿のままです。"
+  },
+  {
+   "id": "P05",
+   "chapter": "C03",
+   "sources": [
+    "N-S02"
+   ],
+   "classification": "historical_fact",
+   "visuals": [
+    "D_1812"
+   ],
+   "text": "海の向こうでは、ニューヨークの作家たちがこの名を取り上げました。1812年、ワシントン・アーヴィングは、滑稽な『ニューヨーク史』の改訂第2版で、ある夢を描きました。その夢の中で、善き聖ニコラスは、毎年子どもたちに贈り物を運ぶあの同じ車に乗り、木々のてっぺんの上をやって来ます。ここにはまだ、そりもトナカイもありません。"
+  },
+  {
+   "id": "P06",
+   "chapter": "C03",
+   "sources": [
+    "N-S03"
+   ],
+   "classification": "historical_fact",
+   "visuals": [
+    "N08_or_D_1821"
+   ],
+   "text": "その9年後、1821年。ニューヨークで刷られた絵入りの小さな本『子どもの友』が、それを変えました。最初の頁は、こう始まります。サンテクロースじいさんは大喜びで、霜の降りる今夜、トナカイを駆る。挿絵には、1頭のトナカイが引くそりが描かれています。そして、今イェール大学にある一冊では、サンテクロースは、もう赤い上着を着ているのです。"
+  },
+  {
+   "id": "P07",
+   "chapter": "C03",
+   "sources": [
+    "N-S04"
+   ],
+   "classification": "historical_fact",
+   "visuals": [
+    "D_1823",
+    "N12-B_nga101749(background)"
+   ],
+   "text": "その2年後、1823年。ニューヨーク州トロイの新聞が、作者の名のない一編の詩を載せました。「聖ニコラスの訪問の記」です。編集者は、誰が送ってきたのか知らない、と書いています。この詩はのちにクレメント・クラーク・ムーアの名で出版され、1844年には彼自身の詩集にも収められました。詩の聖ニコラスは、丸々と太った、まことに陽気な年寄りの妖精。頭から足まで、毛皮をまとっています。8頭の小さなトナカイが引く、小さなそりを走らせます。頬はばらのよう、鼻はさくらんぼのよう。けれど詩は、彼の服の色を、一度も言っていません。"
+  },
+  {
+   "id": "P08",
+   "chapter": "C04",
+   "sources": [
+    "N-S05"
+   ],
+   "classification": "historical_fact",
+   "visuals": [
+    "N11-C_met393182",
+    "N02-A_met427502",
+    "D_1881"
+   ],
+   "text": "雑誌が、サンタをもっと多くの読者に届けました。1858年、『ハーパーズ・ウィークリー』は、若きウィンスロー・ホーマーが描いた「サンタクロースと贈り物」を載せています。まもなく、トマス・ナストが同じ雑誌でサンタを描き始め、20年以上描き続けました。1863年1月、南北戦争のさなか、彼のサンタは北軍の野営地を訪れます。星の柄の上着と、縞のズボンで。1881年には「陽気なサンタじいさん」。丸くて、ひげをたくわえ、パイプをくわえ、おもちゃを腕いっぱいに抱えています。これらの絵は、白黒で刷られました。"
+  },
+  {
+   "id": "P09",
+   "chapter": "C04",
+   "sources": [
+    "N-S06"
+   ],
+   "classification": "historical_fact",
+   "visuals": [
+    "N04-A_loc73169323",
+    "N11-A_nypl483580",
+    "N11-B_met835010",
+    "N03-B_loc2011645591",
+    "D_lineup2"
+   ],
+   "text": "色刷りの絵は、さらに多くを教えてくれます。1864年にボストンで出版された、この詩の本では、サンタの服は淡い土のような茶色です。上着の色は、決まっていなかったのです。けれど赤は、何度も戻ってきました。1902年12月と、1904年にもふたたび、雑誌『パック』はクリスマスの表紙に、赤い服のサンタを載せています。有名な清涼飲料の絵より、何十年も前のことです。"
+  },
+  {
+   "id": "P10",
+   "chapter": "C05",
+   "sources": [
+    "N-S07"
+   ],
+   "classification": "historical_fact",
+   "visuals": [
+    "D_1931"
+   ],
+   "text": "画家ハッドン・サンドブロムがコカ・コーラのためにサンタを描き始めたのは、1931年。会社のための最後の一枚は、1964年でした。その会社自身の歴史の解説は、はっきりこう書いています。サンドブロムが描く前から、サンタは赤い上着で登場していた。"
+  },
+  {
+   "id": "P11",
+   "chapter": "C05",
+   "sources": [
+    "N-S08"
+   ],
+   "classification": "scholarly_interpretation",
+   "visuals": [
+    "D_lineup3"
+   ],
+   "text": "つまり、コカ・コーラが赤い服を発明したわけではありません。けれど、広告は毎年、同じ温かく、とても人間らしいサンタを見せ、その姿をとても多くの人に親しまれるものにするのを後押ししました。色は、もっと古いものでした。広告が広めたのは、一つの親しみやすい顔だったのです。"
+  },
+  {
+   "id": "P12",
+   "chapter": "C05",
+   "sources": [
+    "N-S03",
+    "N-S07",
+    "N-S08"
+   ],
+   "classification": "editorial_conclusion",
+   "visuals": [
+    "N12-A_nga62641"
+   ],
+   "text": "では、サンタを赤くしたのは、本当にコカ・コーラだったのか。答えは、いいえ。赤い上着は、100年以上前にもう現れています。時代とともに変わったのは、それ以外のほとんどすべてです。司教は、夜の訪問者になりました。訪問者は車に乗り、やがて1頭のトナカイのそりに、そして8頭のそりに乗りました。詩が彼に毛皮を着せました。そして印刷が、さまざまな姿の彼を広め、その中の一つが、私たちの多くが知る顔になったのです。"
+  },
+  {
+   "id": "P13",
+   "chapter": "C05",
+   "sources": [],
+   "classification": "closing",
+   "visuals": [
+    "N12-A_nga62641"
+   ],
+   "text": "すべての物語には、始まりがあります。ときにそれは一人の司教から始まり、印刷の職人たちが仕上げるのです。"
+  },
+  {
+   "id": "P14",
+   "chapter": "C05",
+   "sources": [],
+   "classification": "credits",
+   "visuals": [
+    "credits"
+   ],
+   "text": "この動画は、歴史資料と、美術館・図書館の公開コレクションにもとづいています。ナレーションには合成音声を使っています。出典と利用条件は説明欄に記載しています。楽しんでいただけたら、高評価とチャンネル登録で、これからも静かな起源の物語をお楽しみください。ご視聴ありがとうございました。"
+  }
+ ]
+}
