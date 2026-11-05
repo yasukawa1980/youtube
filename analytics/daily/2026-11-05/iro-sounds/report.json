@@ -1,0 +1,1256 @@
+{
+  "channel_name": "IRO Sounds",
+  "channel_id": "UCkmt7bOABac3-NZUS-WpgKQ",
+  "handle": "@irosounds",
+  "limitations": [
+    "丸め表示から正確な件数を推定しない。欠測はnull。",
+    "形式別平均時間から総再生時間や全体への寄与を逆算しない。",
+    "画面の期間末日と公開日表示には日界・反映時差がある可能性。表示を保持し、公開後・48時間・7日・28日の数値を相互補完しない。",
+    "上位表・公開後・48時間・全体ファネルの指標を混同しない。",
+    "動画の形式は形式別画面・過去確認済み分類を使用。分類できないものはnot_classified。平均時間・割合だけで形式を断定しない。"
+  ],
+  "date_jst": "2026-11-05",
+  "status": "completed_with_limitations",
+  "source": "ログイン済みChromeのYouTube Studio新インサイト画面を画像・AXで確認。主要指標の数値は保存画像を目視、詳細モードはAXで取得。",
+  "periods": {
+    "7d": {
+      "start": "2026-10-29",
+      "end": "2026-11-04"
+    },
+    "28d": {
+      "start": "2026-10-08",
+      "end": "2026-11-04"
+    }
+  },
+  "overview": {
+    "7d": {
+      "views": 1235,
+      "watch_time_hours": 4.9,
+      "net_subscribers": 0
+    },
+    "28d": {
+      "views": 6752,
+      "watch_time_hours": 38.1,
+      "net_subscribers": 8
+    },
+    "current_subscribers": 11,
+    "realtime_48h_views": 193,
+    "realtime_top_content": [
+      {
+        "title": "夕焼けにつられて、大あくび。📚 勉強用BGM #shorts",
+        "views_48h": 76,
+        "video_id": null
+      },
+      {
+        "title": "冷めないうちに、ひと口。📚 勉強用BGM #shorts",
+        "views_48h": 60,
+        "video_id": null
+      },
+      {
+        "title": "休憩の合図は、この手のひら。📚 勉強用BGM #shorts",
+        "views_48h": 41,
+        "video_id": null
+      }
+    ]
+  },
+  "format_metrics": {
+    "7d": {
+      "videos": {
+        "views": 36,
+        "impressions": 220,
+        "impressions_display": "220",
+        "ctr_percent": 7.3,
+        "average_view_duration": "7:11",
+        "traffic_percent": {
+          "関連動画": 41.7,
+          "YouTube 検索": 16.7,
+          "直接入力または不明": 19.4,
+          "チャンネル ページ": 5.6,
+          "ブラウジング機能": 11.1,
+          "その他の YouTube 機能": 2.8,
+          "外部": 2.8
+        },
+        "watch_time_hours": 3.5,
+        "average_view_percentage": 7.1
+      },
+      "shorts": {
+        "views": 1203,
+        "engaged_views": 147,
+        "likes_net": 5,
+        "net_subscribers": 0,
+        "continued_viewing_percent": 11.4,
+        "swiped_away_percent": null,
+        "traffic_percent": {
+          "YouTube 検索": 8.7,
+          "ショート フィード": 89.7,
+          "ブラウジング機能": null,
+          "直接入力または不明": 0.0,
+          "その他の YouTube 機能": 0.2,
+          "再生リスト": null,
+          "チャンネル ページ": 0.0
+        },
+        "watch_time_hours": 1.4,
+        "average_view_duration": "0:25",
+        "average_view_percentage": 149.2
+      },
+      "live": {
+        "views": 3,
+        "impressions": 30,
+        "impressions_display": "30",
+        "ctr_percent": 3.3,
+        "average_view_duration": "0:52",
+        "traffic_percent": {}
+      },
+      "views_by_format_card": {
+        "videos": 36,
+        "shorts": 1203,
+        "live": 3
+      },
+      "all_funnel": {},
+      "all_traffic_percent": {},
+      "published_content": {},
+      "net_subscribers_by_format_card": {}
+    },
+    "28d": {
+      "videos": {
+        "views": 224,
+        "impressions": 1850,
+        "impressions_display": "1850",
+        "ctr_percent": 5.1,
+        "average_view_duration": "10:07",
+        "traffic_percent": {
+          "関連動画": 54.9,
+          "YouTube 検索": 15.6,
+          "チャンネル ページ": 10.7,
+          "ブラウジング機能": 7.6,
+          "直接入力または不明": 6.7
+        }
+      },
+      "shorts": {
+        "views": 6506,
+        "engaged_views": 897,
+        "likes_net": 32,
+        "net_subscribers": 5,
+        "continued_viewing_percent": 13.0,
+        "swiped_away_percent": 87.0,
+        "traffic_percent": {
+          "ショート フィード": 86.2,
+          "YouTube 検索": 12.8,
+          "その他の YouTube 機能": 0.4,
+          "チャンネル ページ": 0.2,
+          "ブラウジング機能": 0.1
+        }
+      },
+      "live": {
+        "views": 11,
+        "impressions": 57,
+        "impressions_display": "57",
+        "ctr_percent": 7.0,
+        "average_view_duration": "0:22",
+        "traffic_percent": {
+          "YouTube 検索": 54.6,
+          "外部": 18.2,
+          "直接入力または不明": 9.1,
+          "ブラウジング機能": 9.1,
+          "その他の YouTube 機能": 9.1
+        }
+      },
+      "views_by_format_card": {
+        "videos": 224,
+        "shorts": 6506,
+        "live": 11
+      },
+      "all_funnel": {},
+      "all_traffic_percent": {
+        "ショート フィード": 83.1,
+        "YouTube 検索": 12.9,
+        "関連動画": 1.8,
+        "チャンネル ページ": 0.6,
+        "その他": 1.6
+      },
+      "published_content": {},
+      "net_subscribers_by_format_card": {
+        "YouTube ショート": 5,
+        "動画": 2,
+        "ライブ配信": 0
+      }
+    }
+  },
+  "top_content_with_retention": {
+    "7d": [],
+    "28d": []
+  },
+  "latest_content": {
+    "7d": {
+      "title": "雨が上がるまで、あと一杯。☕ カフェBGM #shorts",
+      "video_id": null,
+      "elapsed_time_display": "最初の 0 分",
+      "views": 0,
+      "average_view_percentage": null,
+      "average_view_duration": null,
+      "ctr_percent": null,
+      "likes": null,
+      "decision": "公開直後の0回。平均時間・割合未表示で評価保留。"
+    },
+    "28d": {
+      "title": "雨が上がるまで、あと一杯。☕ カフェBGM #shorts",
+      "video_id": null,
+      "elapsed_time_display": "最初の 0 分",
+      "views": 0,
+      "average_view_percentage": null,
+      "average_view_duration": null,
+      "ctr_percent": null,
+      "likes": null,
+      "decision": "公開直後の0回。平均時間・割合未表示で評価保留。"
+    }
+  },
+  "raw_sources": [
+    {
+      "file": "content-all-28d.txt",
+      "captured_at_utc": "2026-11-05T12:01:25.928Z",
+      "identity_verified": true,
+      "captured_at_jst": "2026-11-05T21:01:25.928000+09:00",
+      "visible_period": "2026/10/08～2026/11/04",
+      "screenshot": "content-all-28d.jpg",
+      "period_evidence": "保存画像の主要グラフ日付と選択タブを照合。下段固定28日カードと区別。"
+    },
+    {
+      "file": "content-all-7d.txt",
+      "captured_at_utc": "2026-11-05T12:05:33.271Z",
+      "identity_verified": true,
+      "captured_at_jst": "2026-11-05T21:05:33.271000+09:00",
+      "visible_period": "2026/10/29～2026/11/04",
+      "screenshot": "content-all-7d.jpg",
+      "period_evidence": "保存画像の主要グラフ日付と選択タブを照合。下段固定28日カードと区別。"
+    },
+    {
+      "file": "content-live-28d.txt",
+      "captured_at_utc": "2026-11-05T12:05:10.538Z",
+      "identity_verified": true,
+      "captured_at_jst": "2026-11-05T21:05:10.538000+09:00",
+      "visible_period": "2026/10/08～2026/11/04",
+      "screenshot": "content-live-28d.jpg",
+      "period_evidence": "保存画像の主要グラフ日付と選択タブを照合。下段固定28日カードと区別。"
+    },
+    {
+      "file": "content-live-7d.txt",
+      "captured_at_utc": "2026-11-05T12:05:21.122Z",
+      "identity_verified": true,
+      "captured_at_jst": "2026-11-05T21:05:21.122000+09:00",
+      "visible_period": "2026/10/29～2026/11/04",
+      "screenshot": "content-live-7d.jpg",
+      "period_evidence": "保存画像の主要グラフ日付と選択タブを照合。下段固定28日カードと区別。"
+    },
+    {
+      "file": "content-shorts-28d.txt",
+      "captured_at_utc": "2026-11-05T12:01:48.192Z",
+      "identity_verified": true,
+      "captured_at_jst": "2026-11-05T21:01:48.192000+09:00",
+      "visible_period": "2026/10/08～2026/11/04",
+      "screenshot": "content-shorts-28d.jpg",
+      "period_evidence": "保存画像の主要グラフ日付と選択タブを照合。下段固定28日カードと区別。"
+    },
+    {
+      "file": "content-shorts-7d.txt",
+      "captured_at_utc": "2026-11-05T12:01:54.541Z",
+      "identity_verified": true,
+      "captured_at_jst": "2026-11-05T21:01:54.541000+09:00",
+      "visible_period": "2026/10/29～2026/11/04",
+      "screenshot": "content-shorts-7d.jpg",
+      "period_evidence": "保存画像の主要グラフ日付と選択タブを照合。下段固定28日カードと区別。"
+    },
+    {
+      "file": "content-videos-28d.txt",
+      "captured_at_utc": "2026-11-05T12:01:32.800Z",
+      "identity_verified": true,
+      "captured_at_jst": "2026-11-05T21:01:32.800000+09:00",
+      "visible_period": "2026/10/08～2026/11/04",
+      "screenshot": "content-videos-28d.jpg",
+      "period_evidence": "保存画像の主要グラフ日付と選択タブを照合。下段固定28日カードと区別。"
+    },
+    {
+      "file": "content-videos-7d.txt",
+      "captured_at_utc": "2026-11-05T12:01:39.082Z",
+      "identity_verified": true,
+      "captured_at_jst": "2026-11-05T21:01:39.082000+09:00",
+      "visible_period": "2026/10/29～2026/11/04",
+      "screenshot": "content-videos-7d.jpg",
+      "period_evidence": "保存画像の主要グラフ日付と選択タブを照合。下段固定28日カードと区別。"
+    },
+    {
+      "file": "followup-short-engagement-7d.txt",
+      "captured_at_utc": "2026-11-05T12:02:24.201Z",
+      "identity_verified": true,
+      "captured_at_jst": "2026-11-05T21:02:24.201000+09:00",
+      "visible_period": "2026/10/29～2026/11/04",
+      "screenshot": "followup-short-engagement-7d.jpg"
+    },
+    {
+      "file": "followup-short-retention-7d.txt",
+      "captured_at_utc": "2026-11-05T12:03:05.726Z",
+      "identity_verified": true,
+      "captured_at_jst": "2026-11-05T21:03:05.726000+09:00",
+      "visible_period": "2026/10/29～2026/11/04",
+      "screenshot": "followup-short-retention-7d.jpg"
+    },
+    {
+      "file": "followup-short-traffic-7d.txt",
+      "captured_at_utc": "2026-11-05T12:03:46.198Z",
+      "identity_verified": true,
+      "captured_at_jst": "2026-11-05T21:03:46.198000+09:00",
+      "visible_period": "2026/10/29～2026/11/04",
+      "screenshot": "followup-short-traffic-7d.jpg"
+    },
+    {
+      "file": "followup-video-retention-7d.txt",
+      "captured_at_utc": "2026-11-05T12:04:58.329Z",
+      "identity_verified": true,
+      "captured_at_jst": "2026-11-05T21:04:58.329000+09:00",
+      "visible_period": "2026/10/29～2026/11/04",
+      "screenshot": "followup-video-retention-7d.jpg"
+    },
+    {
+      "file": "followup-video-traffic-7d.txt",
+      "captured_at_utc": "2026-11-05T12:04:13.851Z",
+      "identity_verified": true,
+      "captured_at_jst": "2026-11-05T21:04:13.851000+09:00",
+      "visible_period": "2026/10/29～2026/11/04",
+      "screenshot": "followup-video-traffic-7d.jpg"
+    },
+    {
+      "file": "overview-28d.txt",
+      "captured_at_utc": "2026-11-05T12:00:53.127Z",
+      "identity_verified": true,
+      "captured_at_jst": "2026-11-05T21:00:53.127000+09:00",
+      "visible_period": "2026/10/08～2026/11/04",
+      "screenshot": "overview-28d.jpg",
+      "period_evidence": "保存画像の主要グラフ日付と選択タブを照合。下段固定28日カードと区別。"
+    },
+    {
+      "file": "overview-7d.txt",
+      "captured_at_utc": "2026-11-05T12:01:05.807Z",
+      "identity_verified": true,
+      "captured_at_jst": "2026-11-05T21:01:05.807000+09:00",
+      "visible_period": "2026/10/29～2026/11/04",
+      "screenshot": "overview-7d.jpg",
+      "period_evidence": "保存画像の主要グラフ日付と選択タブを照合。下段固定28日カードと区別。"
+    }
+  ],
+  "detailed_traffic_7d": {
+    "shorts": {
+      "source": "followup-short-traffic-7d.txt",
+      "total": {
+        "views": 1203,
+        "watch_time_hours": 1.4,
+        "average_view_duration": "0:25",
+        "impressions": 1968,
+        "ctr_percent": 0.8
+      },
+      "rows": [
+        {
+          "source": "YouTube 検索",
+          "views": 104,
+          "views_percent": 8.7,
+          "watch_time_hours": 0.2,
+          "watch_time_percent": 13.0,
+          "average_view_duration": "0:28",
+          "impressions": 1931,
+          "ctr_percent": 0.8
+        },
+        {
+          "source": "ショート フィード",
+          "views": 1079,
+          "views_percent": 89.7,
+          "watch_time_hours": 1.2,
+          "watch_time_percent": 86.7,
+          "average_view_duration": "0:25",
+          "impressions": null,
+          "ctr_percent": null
+        },
+        {
+          "source": "ブラウジング機能",
+          "views": null,
+          "views_percent": null,
+          "watch_time_hours": null,
+          "watch_time_percent": null,
+          "average_view_duration": null,
+          "impressions": 23,
+          "ctr_percent": 0
+        },
+        {
+          "source": "直接入力または不明",
+          "views": 0,
+          "views_percent": 0.0,
+          "watch_time_hours": 0.0,
+          "watch_time_percent": 0.0,
+          "average_view_duration": null,
+          "impressions": null,
+          "ctr_percent": null
+        },
+        {
+          "source": "その他の YouTube 機能",
+          "views": 2,
+          "views_percent": 0.2,
+          "watch_time_hours": 0.0,
+          "watch_time_percent": 0.1,
+          "average_view_duration": null,
+          "impressions": null,
+          "ctr_percent": null
+        },
+        {
+          "source": "再生リスト",
+          "views": null,
+          "views_percent": null,
+          "watch_time_hours": null,
+          "watch_time_percent": null,
+          "average_view_duration": null,
+          "impressions": 14,
+          "ctr_percent": 0
+        },
+        {
+          "source": "チャンネル ページ",
+          "views": 0,
+          "views_percent": 0.0,
+          "watch_time_hours": 0.0,
+          "watch_time_percent": 0.0,
+          "average_view_duration": null,
+          "impressions": 0,
+          "ctr_percent": null
+        }
+      ],
+      "note": "ダッシュはnull。丸め表示の時間0.0は画面値として保持。流入別・全形式・エンゲージビューを相互補完しない。"
+    },
+    "videos": {
+      "source": "followup-video-traffic-7d.txt",
+      "total": {
+        "views": 36,
+        "watch_time_hours": 3.5,
+        "average_view_duration": "7:11",
+        "impressions": 220,
+        "ctr_percent": 7.3
+      },
+      "rows": [
+        {
+          "source": "関連動画",
+          "views": 15,
+          "views_percent": 41.7,
+          "watch_time_hours": 3.4,
+          "watch_time_percent": 97.8,
+          "average_view_duration": "13:36",
+          "impressions": 113,
+          "ctr_percent": 10.6
+        },
+        {
+          "source": "YouTube 検索",
+          "views": 6,
+          "views_percent": 16.7,
+          "watch_time_hours": 0.0,
+          "watch_time_percent": 0.3,
+          "average_view_duration": "0:34",
+          "impressions": 67,
+          "ctr_percent": 1.5
+        },
+        {
+          "source": "直接入力または不明",
+          "views": 7,
+          "views_percent": 19.4,
+          "watch_time_hours": 0.1,
+          "watch_time_percent": 1.5,
+          "average_view_duration": "0:27",
+          "impressions": null,
+          "ctr_percent": null
+        },
+        {
+          "source": "チャンネル ページ",
+          "views": 2,
+          "views_percent": 5.6,
+          "watch_time_hours": 0.0,
+          "watch_time_percent": 0.2,
+          "average_view_duration": "0:11",
+          "impressions": 18,
+          "ctr_percent": 11.1
+        },
+        {
+          "source": "ブラウジング機能",
+          "views": 4,
+          "views_percent": 11.1,
+          "watch_time_hours": 0.0,
+          "watch_time_percent": 0.1,
+          "average_view_duration": "0:03",
+          "impressions": 22,
+          "ctr_percent": 4.6
+        },
+        {
+          "source": "その他の YouTube 機能",
+          "views": 1,
+          "views_percent": 2.8,
+          "watch_time_hours": 0.0,
+          "watch_time_percent": 0.0,
+          "average_view_duration": "0:02",
+          "impressions": null,
+          "ctr_percent": null
+        },
+        {
+          "source": "外部",
+          "views": 1,
+          "views_percent": 2.8,
+          "watch_time_hours": 0.0,
+          "watch_time_percent": 0.0,
+          "average_view_duration": "0:00",
+          "impressions": null,
+          "ctr_percent": null
+        }
+      ],
+      "note": "ダッシュはnull。丸め表示の時間0.0は画面値として保持。流入別・全形式・エンゲージビューを相互補完しない。"
+    }
+  },
+  "detailed_format_retention": {
+    "7d": {
+      "shorts": {
+        "source": "followup-short-retention-7d.txt",
+        "sort_basis": "視聴回数順",
+        "rows": [
+          {
+            "title": "遠くの灯りに、ちょっと寄り道。🚗 ドライブBGM #shorts",
+            "duration_display": "0:16",
+            "format": "short",
+            "average_view_duration": "0:15",
+            "average_view_percentage": 99.8,
+            "views": 145,
+            "views_percent": 12.1,
+            "continued_viewing_percent": 7.8,
+            "publish_date_display": null
+          },
+          {
+            "title": "まだ読んでる？　おやすみ。🐕 読書BGM #shorts",
+            "duration_display": "0:16",
+            "format": "short",
+            "average_view_duration": "1:06",
+            "average_view_percentage": 413.8,
+            "views": 134,
+            "views_percent": 11.1,
+            "continued_viewing_percent": 9.2,
+            "publish_date_display": null
+          },
+          {
+            "title": "物語の外にも、灯りがある。📖 読書BGM #shorts",
+            "duration_display": "0:16",
+            "format": "short",
+            "average_view_duration": "0:20",
+            "average_view_percentage": 126.8,
+            "views": 125,
+            "views_percent": 10.4,
+            "continued_viewing_percent": 14.5,
+            "publish_date_display": null
+          },
+          {
+            "title": "助手席の寝息を、聞きながら。🚗 ドライブBGM #shorts",
+            "duration_display": "0:16",
+            "format": "short",
+            "average_view_duration": "1:20",
+            "average_view_percentage": 503.1,
+            "views": 96,
+            "views_percent": 8.0,
+            "continued_viewing_percent": 11.6,
+            "publish_date_display": null
+          },
+          {
+            "title": "先に眠った、読書仲間。📖 読書BGM #shorts",
+            "duration_display": "0:16",
+            "format": "short",
+            "average_view_duration": "0:08",
+            "average_view_percentage": 54.2,
+            "views": 90,
+            "views_percent": 7.5,
+            "continued_viewing_percent": 10.4,
+            "publish_date_display": null
+          },
+          {
+            "title": "夕焼けにつられて、大あくび。📚 勉強用BGM #shorts",
+            "duration_display": "0:16",
+            "format": "short",
+            "average_view_duration": "0:11",
+            "average_view_percentage": 71.4,
+            "views": 76,
+            "views_percent": 6.3,
+            "continued_viewing_percent": 12.8,
+            "publish_date_display": null
+          },
+          {
+            "title": "火の音に、ついあくび。🔥 焚き火BGM #shorts",
+            "duration_display": "0:16",
+            "format": "short",
+            "average_view_duration": "0:09",
+            "average_view_percentage": 59.8,
+            "views": 76,
+            "views_percent": 6.3,
+            "continued_viewing_percent": 15.5,
+            "publish_date_display": null
+          },
+          {
+            "title": "どこまで走る、夢のなか。",
+            "duration_display": "0:16",
+            "format": "short",
+            "average_view_duration": "0:13",
+            "average_view_percentage": 83.8,
+            "views": 71,
+            "views_percent": 5.9,
+            "continued_viewing_percent": 10.8,
+            "publish_date_display": null
+          },
+          {
+            "title": "ぱちっと鳴って、ちらり。🔥 焚き火BGM #shorts",
+            "duration_display": "0:16",
+            "format": "short",
+            "average_view_duration": "0:07",
+            "average_view_percentage": 43.9,
+            "views": 65,
+            "views_percent": 5.4,
+            "continued_viewing_percent": 13.1,
+            "publish_date_display": null
+          },
+          {
+            "title": "この一冊は、夢で読む。🐕 読書BGM #shorts",
+            "duration_display": "0:16",
+            "format": "short",
+            "average_view_duration": "0:10",
+            "average_view_percentage": 63.7,
+            "views": 65,
+            "views_percent": 5.4,
+            "continued_viewing_percent": 10.1,
+            "publish_date_display": null
+          },
+          {
+            "title": "助手席で、大きなあくび。🚗 ドライブBGM #shorts",
+            "duration_display": "0:16",
+            "format": "short",
+            "average_view_duration": "0:11",
+            "average_view_percentage": 68.9,
+            "views": 60,
+            "views_percent": 5.0,
+            "continued_viewing_percent": 8.3,
+            "publish_date_display": null
+          },
+          {
+            "title": "冷めないうちに、ひと口。📚 勉強用BGM #shorts",
+            "duration_display": "0:16",
+            "format": "short",
+            "average_view_duration": "0:14",
+            "average_view_percentage": 88.1,
+            "views": 59,
+            "views_percent": 4.9,
+            "continued_viewing_percent": 6.1,
+            "publish_date_display": null
+          },
+          {
+            "title": "西日の中で、のびをひとつ。📚 勉強用BGM #shorts",
+            "duration_display": "0:16",
+            "format": "short",
+            "average_view_duration": "0:06",
+            "average_view_percentage": 42.2,
+            "views": 48,
+            "views_percent": 4.0,
+            "continued_viewing_percent": 3.7,
+            "publish_date_display": null
+          },
+          {
+            "title": "休憩の合図は、この手のひら。📚 勉強用BGM #shorts",
+            "duration_display": "0:16",
+            "format": "short",
+            "average_view_duration": "0:08",
+            "average_view_percentage": 55.5,
+            "views": 41,
+            "views_percent": 3.4,
+            "continued_viewing_percent": 18.2,
+            "publish_date_display": null
+          },
+          {
+            "title": "ふと見上げたら、星の海。🔥 焚き火BGM #shorts",
+            "duration_display": "0:16",
+            "format": "short",
+            "average_view_duration": "0:19",
+            "average_view_percentage": 119.8,
+            "views": 20,
+            "views_percent": 1.7,
+            "continued_viewing_percent": 14.3,
+            "publish_date_display": null
+          },
+          {
+            "title": "よく晴れた日に、集中する。☀️ 昼のLo-fi #勉強用BGM",
+            "duration_display": "0:46",
+            "format": "short",
+            "average_view_duration": "6:04",
+            "average_view_percentage": 791.3,
+            "views": 8,
+            "views_percent": 0.7,
+            "continued_viewing_percent": 100,
+            "publish_date_display": null
+          },
+          {
+            "title": "葉っぱを一枚、ぴかぴかに。🌿 朝BGM #shorts",
+            "duration_display": "0:16",
+            "format": "short",
+            "average_view_duration": "0:00",
+            "average_view_percentage": 6.1,
+            "views": 6,
+            "views_percent": 0.5,
+            "continued_viewing_percent": 100,
+            "publish_date_display": null
+          },
+          {
+            "title": "夕焼けを追い越して。🚗 ドライブBGM #チルBGM",
+            "duration_display": "0:46",
+            "format": "short",
+            "average_view_duration": "0:00",
+            "average_view_percentage": 0,
+            "views": 3,
+            "views_percent": 0.3,
+            "continued_viewing_percent": 100,
+            "publish_date_display": null
+          },
+          {
+            "title": "夢の中でも、しっぽはごきげん。🐕 読書BGM #読書BGM",
+            "duration_display": "0:16",
+            "format": "short",
+            "average_view_duration": "0:14",
+            "average_view_percentage": 89.0,
+            "views": 3,
+            "views_percent": 0.3,
+            "continued_viewing_percent": 100,
+            "publish_date_display": null
+          },
+          {
+            "title": "ひと口ごとに、あたたまる。🔥 焚き火BGM #shorts",
+            "duration_display": "0:16",
+            "format": "short",
+            "average_view_duration": "0:00",
+            "average_view_percentage": 5.4,
+            "views": 2,
+            "views_percent": 0.2,
+            "continued_viewing_percent": 100,
+            "publish_date_display": null
+          },
+          {
+            "title": "月がきれいな、夜だから。🌙 夜のジャズBGM #夜景BGM",
+            "duration_display": "0:46",
+            "format": "short",
+            "average_view_duration": "0:53",
+            "average_view_percentage": 117.4,
+            "views": 2,
+            "views_percent": 0.2,
+            "continued_viewing_percent": 100,
+            "publish_date_display": null
+          },
+          {
+            "title": "25分たったら、ひと伸び。🌙 ポモドーロ #勉強用BGM",
+            "duration_display": "0:16",
+            "format": "short",
+            "average_view_duration": null,
+            "average_view_percentage": null,
+            "views": 2,
+            "views_percent": 0.2,
+            "continued_viewing_percent": null,
+            "publish_date_display": null
+          },
+          {
+            "title": "夜の高速を、もう少しだけ。🌃 #ドライブBGM",
+            "duration_display": "0:46",
+            "format": "short",
+            "average_view_duration": "0:17",
+            "average_view_percentage": 37.2,
+            "views": 1,
+            "views_percent": 0.1,
+            "continued_viewing_percent": 100,
+            "publish_date_display": null
+          },
+          {
+            "title": "25分たったら、空を見よう。☁️ ポモドーロ #勉強用BGM",
+            "duration_display": "0:46",
+            "format": "short",
+            "average_view_duration": "0:13",
+            "average_view_percentage": 28.5,
+            "views": 1,
+            "views_percent": 0.1,
+            "continued_viewing_percent": 100,
+            "publish_date_display": null
+          },
+          {
+            "title": "本を閉じる、その前に。📖 読書BGM #読書BGM",
+            "duration_display": "0:16",
+            "format": "short",
+            "average_view_duration": null,
+            "average_view_percentage": null,
+            "views": 1,
+            "views_percent": 0.1,
+            "continued_viewing_percent": null,
+            "publish_date_display": null
+          },
+          {
+            "title": "まだ着かないの？　おやすみ。🚗 ドライブBGM #shorts",
+            "duration_display": "0:16",
+            "format": "short",
+            "average_view_duration": null,
+            "average_view_percentage": null,
+            "views": 1,
+            "views_percent": 0.1,
+            "continued_viewing_percent": null,
+            "publish_date_display": null
+          },
+          {
+            "title": "となりで、しっぽがゆれる午後。🐕 カフェBGM #カフェBGM",
+            "duration_display": "0:46",
+            "format": "short",
+            "average_view_duration": null,
+            "average_view_percentage": null,
+            "views": 1,
+            "views_percent": 0.1,
+            "continued_viewing_percent": null,
+            "publish_date_display": null
+          },
+          {
+            "title": "あくびが出るくらいの、午後。🐶 カフェBGM #作業用BGM",
+            "duration_display": "0:46",
+            "format": "short",
+            "average_view_duration": "0:01",
+            "average_view_percentage": 4.0,
+            "views": 1,
+            "views_percent": 0.1,
+            "continued_viewing_percent": 100,
+            "publish_date_display": null
+          }
+        ],
+        "note": "形式内の一覧。旧概要上位10件表と範囲・並びを揃えた比較ではない。公開日セルはAXに未表示でnull。"
+      },
+      "videos": {
+        "source": "followup-video-retention-7d.txt",
+        "sort_basis": "総再生時間順",
+        "rows": [
+          {
+            "title": "小さな緑と、暮らす朝。｜朝BGM 2時間 オーガニック・ダウンテンポ 朝の支度・植物のある暮らし",
+            "duration_display": "2:00:18",
+            "format": "video",
+            "average_view_percentage": 33.6,
+            "views": 5,
+            "views_percent": 13.9,
+            "watch_time_hours": 2.0,
+            "watch_time_percent": 58.1,
+            "net_subscribers": 0,
+            "average_view_duration": "40:22",
+            "impressions": 15,
+            "ctr_percent": 13.3,
+            "publish_date_display": null
+          },
+          {
+            "title": "いってきます、の前に。｜朝BGM 1時間 明るいポップ 朝の支度・朝活",
+            "duration_display": "1:02:56",
+            "format": "video",
+            "average_view_percentage": 8.5,
+            "views": 13,
+            "views_percent": 36.1,
+            "watch_time_hours": 1.1,
+            "watch_time_percent": 30.7,
+            "net_subscribers": 0,
+            "average_view_duration": "5:19",
+            "impressions": 91,
+            "ctr_percent": 12.1,
+            "publish_date_display": null
+          },
+          {
+            "title": "あと3時間、集中する。｜ポモドーロ 25分×6 勉強用BGM タイマー付き Lo-fi",
+            "duration_display": "3:00:06",
+            "format": "video",
+            "average_view_percentage": 5.1,
+            "views": 2,
+            "views_percent": 5.6,
+            "watch_time_hours": 0.3,
+            "watch_time_percent": 8.7,
+            "net_subscribers": 0,
+            "average_view_duration": "9:05",
+            "impressions": 4,
+            "ctr_percent": 0,
+            "publish_date_display": null
+          },
+          {
+            "title": "遠回りして、帰ろうか。｜夜のドライブBGM 2時間 ナイトドライブ・チル 作業用・リラックス",
+            "duration_display": "2:00:18",
+            "format": "video",
+            "average_view_percentage": 0.4,
+            "views": 5,
+            "views_percent": 13.9,
+            "watch_time_hours": 0.0,
+            "watch_time_percent": 0.9,
+            "net_subscribers": 0,
+            "average_view_duration": "0:28",
+            "impressions": 16,
+            "ctr_percent": 6.3,
+            "publish_date_display": null
+          },
+          {
+            "title": "炎をながめて、夜がふける。｜焚き火BGM 2時間 アコースティック・フォーク 秋の夜のリラックス・作業用",
+            "duration_display": "2:00:18",
+            "format": "video",
+            "average_view_percentage": 1.2,
+            "views": 1,
+            "views_percent": 2.8,
+            "watch_time_hours": 0.0,
+            "watch_time_percent": 0.7,
+            "net_subscribers": 0,
+            "average_view_duration": "1:29",
+            "impressions": 24,
+            "ctr_percent": 4.2,
+            "publish_date_display": null
+          },
+          {
+            "title": "急がない午後に。｜カフェBGM 2時間 アコースティック 作業用・読書用 テラス席",
+            "duration_display": "2:00:56",
+            "format": "video",
+            "average_view_percentage": 0.2,
+            "views": 2,
+            "views_percent": 5.6,
+            "watch_time_hours": 0.0,
+            "watch_time_percent": 0.3,
+            "net_subscribers": 0,
+            "average_view_duration": "0:17",
+            "impressions": 1,
+            "ctr_percent": 0,
+            "publish_date_display": null
+          },
+          {
+            "title": "しおりを挟むには、まだ早い。｜夜の読書BGM 2時間・やさしい室内楽チル",
+            "duration_display": "2:00:18",
+            "format": "video",
+            "average_view_percentage": 0.4,
+            "views": 1,
+            "views_percent": 2.8,
+            "watch_time_hours": 0.0,
+            "watch_time_percent": 0.2,
+            "net_subscribers": 0,
+            "average_view_duration": "0:27",
+            "impressions": 8,
+            "ctr_percent": 0,
+            "publish_date_display": null
+          },
+          {
+            "title": "コーヒーが冷める前に。｜カフェBGM 2時間 ボサノバ・ジャズ 作業用・読書用",
+            "duration_display": "2:01:30",
+            "format": "video",
+            "average_view_percentage": 0.3,
+            "views": 1,
+            "views_percent": 2.8,
+            "watch_time_hours": 0.0,
+            "watch_time_percent": 0.2,
+            "net_subscribers": 0,
+            "average_view_duration": "0:23",
+            "impressions": 0,
+            "ctr_percent": null,
+            "publish_date_display": null
+          },
+          {
+            "title": "静かな夜に、集中する。｜ポモドーロタイマー 2時間 25分×4 勉強用BGM 夜 Lo-fi",
+            "duration_display": "2:00:22",
+            "format": "video",
+            "average_view_percentage": 0.1,
+            "views": 2,
+            "views_percent": 5.6,
+            "watch_time_hours": 0.0,
+            "watch_time_percent": 0.1,
+            "net_subscribers": 0,
+            "average_view_duration": "0:06",
+            "impressions": 2,
+            "ctr_percent": 0,
+            "publish_date_display": null
+          },
+          {
+            "title": "毛糸の季節が、やってきた。｜編み物BGM 2時間 アコースティック・チル 作業用・秋冬の手しごと",
+            "duration_display": "2:00:18",
+            "format": "video",
+            "average_view_percentage": 0.1,
+            "views": 2,
+            "views_percent": 5.6,
+            "watch_time_hours": 0.0,
+            "watch_time_percent": 0.1,
+            "net_subscribers": 0,
+            "average_view_duration": "0:04",
+            "impressions": 14,
+            "ctr_percent": 7.1,
+            "publish_date_display": null
+          },
+          {
+            "title": "あと一ページ、のはずだった。｜犬と暮らす90秒の物語",
+            "duration_display": "1:31",
+            "format": "video",
+            "average_view_percentage": null,
+            "views": 2,
+            "views_percent": 5.6,
+            "watch_time_hours": 0.0,
+            "watch_time_percent": 0.0,
+            "net_subscribers": 0,
+            "average_view_duration": null,
+            "impressions": 10,
+            "ctr_percent": 0,
+            "publish_date_display": null
+          },
+          {
+            "title": "よく晴れた日に、集中する。｜ポモドーロタイマー 2時間 25分×4 勉強用BGM Lo-fi",
+            "duration_display": "2:00:22",
+            "format": "video",
+            "average_view_percentage": null,
+            "views": 0,
+            "views_percent": 0.0,
+            "watch_time_hours": 0.0,
+            "watch_time_percent": 0.0,
+            "net_subscribers": null,
+            "average_view_duration": null,
+            "impressions": 2,
+            "ctr_percent": 0,
+            "publish_date_display": null
+          },
+          {
+            "title": "もう少しだけ、起きていよう。｜Lo-fi 2時間 夜の作業用BGM ローファイ・ヒップホップ",
+            "duration_display": "2:00:00",
+            "format": "video",
+            "average_view_percentage": null,
+            "views": null,
+            "views_percent": null,
+            "watch_time_hours": null,
+            "watch_time_percent": null,
+            "net_subscribers": null,
+            "average_view_duration": null,
+            "impressions": 3,
+            "ctr_percent": 0,
+            "publish_date_display": null
+          },
+          {
+            "title": "雨の日は、どこにも行かない。｜雨の日BGM 2時間 ギター・チェレスタ 読書 作業用",
+            "duration_display": "2:02:00",
+            "format": "video",
+            "average_view_percentage": null,
+            "views": null,
+            "views_percent": null,
+            "watch_time_hours": null,
+            "watch_time_percent": null,
+            "net_subscribers": null,
+            "average_view_duration": null,
+            "impressions": 4,
+            "ctr_percent": 0,
+            "publish_date_display": null
+          },
+          {
+            "title": "今日はもう、ゆるくていい。｜チルBGM 2時間 チルホップ・ネオソウル 休日の午後",
+            "duration_display": "2:01:43",
+            "format": "video",
+            "average_view_percentage": null,
+            "views": null,
+            "views_percent": null,
+            "watch_time_hours": null,
+            "watch_time_percent": null,
+            "net_subscribers": null,
+            "average_view_duration": null,
+            "impressions": 1,
+            "ctr_percent": 0,
+            "publish_date_display": null
+          },
+          {
+            "title": "夕焼けを追い越して。｜ドライブBGM 90分 チル・夕方・夜ドライブ",
+            "duration_display": "1:30:10",
+            "format": "video",
+            "average_view_percentage": null,
+            "views": null,
+            "views_percent": null,
+            "watch_time_hours": null,
+            "watch_time_percent": null,
+            "net_subscribers": null,
+            "average_view_duration": null,
+            "impressions": 7,
+            "ctr_percent": 0,
+            "publish_date_display": null
+          },
+          {
+            "title": "日が暮れるまで、集中する。｜ポモドーロタイマー 2時間 25分×4 勉強用BGM 夕方 Lo-fi",
+            "duration_display": "2:00:22",
+            "format": "video",
+            "average_view_percentage": null,
+            "views": null,
+            "views_percent": null,
+            "watch_time_hours": null,
+            "watch_time_percent": null,
+            "net_subscribers": null,
+            "average_view_duration": null,
+            "impressions": 8,
+            "ctr_percent": 0,
+            "publish_date_display": null
+          },
+          {
+            "title": "雨やどりの、つもりだった。｜カフェBGM 2時間 雨の午後から夜まで ジャズ Lo-fi 作業用・読書用",
+            "duration_display": "2:00:22",
+            "format": "video",
+            "average_view_percentage": null,
+            "views": null,
+            "views_percent": null,
+            "watch_time_hours": null,
+            "watch_time_percent": null,
+            "net_subscribers": null,
+            "average_view_duration": null,
+            "impressions": 1,
+            "ctr_percent": 0,
+            "publish_date_display": null
+          },
+          {
+            "title": "ひと息ついたら、また始めよう。｜ジャズホップ 2時間 休憩と作業のBGM",
+            "duration_display": "2:00:18",
+            "format": "video",
+            "average_view_percentage": null,
+            "views": null,
+            "views_percent": null,
+            "watch_time_hours": null,
+            "watch_time_percent": null,
+            "net_subscribers": null,
+            "average_view_duration": null,
+            "impressions": 2,
+            "ctr_percent": 0,
+            "publish_date_display": null
+          },
+          {
+            "title": "朝のうちに、終わらせる。｜ポモドーロ 50分×3 勉強用BGM タイマー付き 朝のLo-fi",
+            "duration_display": "3:00:19",
+            "format": "video",
+            "average_view_percentage": null,
+            "views": null,
+            "views_percent": null,
+            "watch_time_hours": null,
+            "watch_time_percent": null,
+            "net_subscribers": null,
+            "average_view_duration": null,
+            "impressions": 2,
+            "ctr_percent": 0,
+            "publish_date_display": null
+          },
+          {
+            "title": "街の灯りを、数えていた。｜夜景BGM 2時間 夜のジャズ・ローファイ 作業用 リラックス",
+            "duration_display": "2:01:54",
+            "format": "video",
+            "average_view_percentage": null,
+            "views": null,
+            "views_percent": null,
+            "watch_time_hours": null,
+            "watch_time_percent": null,
+            "net_subscribers": null,
+            "average_view_duration": null,
+            "impressions": 1,
+            "ctr_percent": 0,
+            "publish_date_display": null
+          },
+          {
+            "title": "本を閉じる、その前に。｜読書BGM 2時間 夜のアコースティック・チル",
+            "duration_display": "2:00:18",
+            "format": "video",
+            "average_view_percentage": null,
+            "views": null,
+            "views_percent": null,
+            "watch_time_hours": null,
+            "watch_time_percent": null,
+            "net_subscribers": null,
+            "average_view_duration": null,
+            "impressions": 4,
+            "ctr_percent": 0,
+            "publish_date_display": null
+          }
+        ],
+        "note": "形式内の一覧。旧概要上位10件表と範囲・並びを揃えた比較ではない。公開日セルはAXに未表示でnull。"
+      }
+    }
+  },
+  "capture_window_utc": {
+    "start": "2026-11-05T12:00:53.127Z",
+    "end": "2026-11-05T12:05:33.271Z"
+  },
+  "acquired_at_jst": {
+    "start": "2026-11-05T21:00:53.127000+09:00",
+    "end": "2026-11-05T21:05:33.271000+09:00"
+  },
+  "comparison_to_previous_record": {
+    "previous_date_jst": "2026-11-04",
+    "note": "移動窓・新旧画面の集計範囲・反映時差を考慮。前日差を当日単独の実績と解釈しない。",
+    "overview": {
+      "7d": {
+        "views": -29,
+        "watch_time_hours": -2.0,
+        "net_subscribers": 0
+      },
+      "28d": {
+        "views": -312,
+        "watch_time_hours": -0.4,
+        "net_subscribers": -1
+      }
+    },
+    "format_7d": {
+      "videos": {
+        "views": -8,
+        "impressions": -31,
+        "ctr_percent": -1.1,
+        "watch_time_hours": null,
+        "average_view_percentage": null
+      },
+      "shorts": {
+        "views": -21,
+        "engaged_views": -16,
+        "likes_net": 1,
+        "net_subscribers": 0,
+        "continued_viewing_percent": null,
+        "watch_time_hours": null,
+        "average_view_percentage": null
+      },
+      "live": {
+        "views": 0,
+        "impressions": 4,
+        "ctr_percent": -0.5
+      }
+    },
+    "current_subscribers_delta": 0,
+    "realtime_48h_views_delta": 62
+  },
+  "sharing": {
+    "repository": "yasukawa1980/youtube",
+    "branch": "bgm/production",
+    "shared_scope": "数値と検証結果のreport.json。原文・画面証拠はMac内に保存。",
+    "raw_sources_location": "/Users/ryo/youtube/analytics/daily/2026-11-05/iro-sounds"
+  },
+  "data_quality": {
+    "channel_identity_verified_on_all_sources": true,
+    "expected_core_sources": 10,
+    "core_sources_validated": 10,
+    "additional_detail_sources": 5,
+    "period_and_format_selection_validated": true,
+    "numeric_source": "主要指標は保存画像の目視、詳細モードはAXで照合。",
+    "missing_values_policy": "未表示はnull。別期間・前日で補完しない。",
+    "flags": [
+      "ショート継続率7日11.4%は詳細モードで取得できた。スワイプは選択可能指標に未表示のためnull。28日カード87.0%を7日へ流用しない。",
+      "形式別7日流入元と平均時間・割合の一覧を詳細モードで再取得。主要画面下段の固定28日カードと区別。",
+      "ショート全体平均割合149.2%、まだ読んでる413.8%、助手席の寝息503.1%を品質の成功根拠にしない。個別分母・維持グラフは未取得。",
+      "概要1235回と形式1203・36・3回の合計は一致しない。補正しない。",
+      "最新0分・0回の平均視聴時間と割合は未表示で評価保留。"
+    ]
+  },
+  "facts": [
+    "7日（10/29～11/4）1235回・4.9時間・純増0。28日（10/8～11/4）6752回・38.1時間・純増+8。登録者11人で同じ。",
+    "48時間131→193回。上位は夕焼けにつられて大あくび76回、冷めないうちにひと口60回、休憩の合図41回。",
+    "長尺7日44→36回、251→220インプレッション、CTR8.4→7.3%、平均9:26→7:11。詳細モードの7日総再生3.5時間・平均割合7.1%。",
+    "ショート7日1224→1203回、163→147エンゲージビュー、高評価4→5・純増0。詳細モードで継続11.4%・平均0:25・平均割合149.2%を取得。",
+    "長尺7日の関連動画15回・41.7%・平均13:36、検索6回・16.7%・0:34、直接入力7回・19.4%・0:27。母数が小さく流入差の因果判断はしない。",
+    "小さな緑と暮らす朝は7日5回・平均40:22・33.6%。いってきますの前には13回・5:19・8.5%。少数視聴の長い平均値として保持。",
+    "ショート7日の遠くの灯りは145回・0:15・99.8%・継続7.8%。助手席の寝息は96回・1:20・503.1%・継続11.6%。平均割合と継続は別指標。",
+    "ライブ7日3回・30インプレッション・CTR3.3%・平均0:52。28日11回・57インプレッション・CTR7.0%・平均0:22。",
+    "最新の雨が上がるまであと一杯は公開0分・0回。平均時間・割合は未表示。"
+  ],
+  "hypotheses": [
+    "短期総再生の減少には10/28が7日窓から外れた影響や動画・流入構成が関係し得る。同一動画の日別比較未取得のため原因未確定。",
+    "36回の長尺における関連と検索の平均時間差は視聴者構成の差を示す可能性があるが、各流入の少数標本からタイトル・サムネイル改善の因果効果を断定できない。"
+  ],
+  "recommendations": [],
+  "deferred_decisions": [
+    "最新0分・0回は評価保留。",
+    "36回の長尺や形式別全体の差だけで新たな施策を提案しない。",
+    "7日スワイプは未表示のため補完しない。"
+  ],
+  "publication_constraints_respected": "提案記録のみ。Studioの動画・設定・公開状態・予約・コメントは変更しない。日本時間1日合計3本・ショート2本まで。"
+}
