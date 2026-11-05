@@ -1,0 +1,415 @@
+{
+  "passed": true,
+  "contrast_and_card_padding": [
+    {
+      "key": "D_1931q",
+      "encoded_contrast": 12.44105942419411,
+      "panel_padding_min_px": 139,
+      "body_heading_height_min_px": 141
+    },
+    {
+      "key": "D_timeline_intro",
+      "encoded_contrast": 12.44105942419411,
+      "panel_padding_min_px": 82,
+      "body_heading_height_min_px": 72
+    },
+    {
+      "key": "D_1812",
+      "encoded_contrast": 12.283312963395861,
+      "panel_padding_min_px": 47,
+      "body_heading_height_min_px": 60
+    },
+    {
+      "key": "D_1823",
+      "encoded_contrast": 12.283312963395861,
+      "panel_padding_min_px": 71,
+      "body_heading_height_min_px": 62
+    },
+    {
+      "key": "D_1881",
+      "encoded_contrast": 12.44105942419411,
+      "panel_padding_min_px": 85,
+      "body_heading_height_min_px": 116
+    },
+    {
+      "key": "D_lineup2",
+      "encoded_contrast": 12.291161764332317,
+      "panel_padding_min_px": 119,
+      "body_heading_height_min_px": null
+    },
+    {
+      "key": "D_1931",
+      "encoded_contrast": 12.44105942419411,
+      "panel_padding_min_px": 69,
+      "body_heading_height_min_px": 95
+    },
+    {
+      "key": "D_lineup3",
+      "encoded_contrast": 12.283312963395861,
+      "panel_padding_min_px": 37,
+      "body_heading_height_min_px": null
+    }
+  ],
+  "active_year_ink_px": 60,
+  "usage": {
+    "N03-A": {
+      "fullscreen": 1,
+      "lineup2": 1,
+      "lineup3": 1
+    },
+    "N03-B": {
+      "fullscreen": 1,
+      "lineup2": 1,
+      "lineup3": 1
+    },
+    "N05-A": {
+      "fullscreen": 1,
+      "lineup2": 0,
+      "lineup3": 1
+    },
+    "N06-A": {
+      "fullscreen": 1,
+      "lineup2": 0,
+      "lineup3": 1
+    },
+    "N08_cover": {
+      "fullscreen": 1,
+      "lineup2": 0,
+      "lineup3": 0
+    },
+    "N08_p1": {
+      "fullscreen": 1,
+      "lineup2": 1,
+      "lineup3": 1
+    },
+    "N11-C": {
+      "fullscreen": 1,
+      "lineup2": 0,
+      "lineup3": 1
+    },
+    "N02-A": {
+      "fullscreen": 1,
+      "lineup2": 0,
+      "lineup3": 1
+    },
+    "N04-A": {
+      "fullscreen": 1,
+      "lineup2": 1,
+      "lineup3": 1
+    },
+    "N11-A": {
+      "fullscreen": 1,
+      "lineup2": 0,
+      "lineup3": 0
+    },
+    "N11-B": {
+      "fullscreen": 1,
+      "lineup2": 0,
+      "lineup3": 0
+    },
+    "N12-A": {
+      "fullscreen": 1,
+      "lineup2": 0,
+      "lineup3": 0
+    },
+    "N12-B": {
+      "fullscreen": 1,
+      "lineup2": 0,
+      "lineup3": 0
+    }
+  },
+  "lineup_geometry": [
+    {
+      "card": "D_lineup2",
+      "year": "1821",
+      "key": "N08_p1",
+      "displayed_height": 340,
+      "slot_height": 340,
+      "column_pitch": 428,
+      "box_to_box_gap": 20,
+      "horizontal_inset": 11,
+      "vertical_inset": 10
+    },
+    {
+      "card": "D_lineup2",
+      "year": "1864",
+      "key": "N04-A",
+      "displayed_height": 340,
+      "slot_height": 340,
+      "column_pitch": 428,
+      "box_to_box_gap": 20,
+      "horizontal_inset": 11,
+      "vertical_inset": 10
+    },
+    {
+      "card": "D_lineup2",
+      "year": "1902",
+      "key": "N03-A",
+      "displayed_height": 340,
+      "slot_height": 340,
+      "column_pitch": 428,
+      "box_to_box_gap": 20,
+      "horizontal_inset": 11,
+      "vertical_inset": 10
+    },
+    {
+      "card": "D_lineup2",
+      "year": "1904",
+      "key": "N03-B",
+      "displayed_height": 340,
+      "slot_height": 340,
+      "column_pitch": 428,
+      "box_to_box_gap": 20,
+      "horizontal_inset": 11,
+      "vertical_inset": 10
+    },
+    {
+      "card": "D_lineup3",
+      "year": "4th c.",
+      "key": "N05-A",
+      "displayed_height": 202,
+      "slot_height": 202,
+      "column_pitch": 285,
+      "box_to_box_gap": 21,
+      "horizontal_inset": 11,
+      "vertical_inset": 10
+    },
+    {
+      "card": "D_lineup3",
+      "year": "1087",
+      "key": "N06-A",
+      "displayed_height": 202,
+      "slot_height": 202,
+      "column_pitch": 285,
+      "box_to_box_gap": 21,
+      "horizontal_inset": 11,
+      "vertical_inset": 10
+    },
+    {
+      "card": "D_lineup3",
+      "year": "1821",
+      "key": "N08_p1",
+      "displayed_height": 202,
+      "slot_height": 202,
+      "column_pitch": 285,
+      "box_to_box_gap": 21,
+      "horizontal_inset": 11,
+      "vertical_inset": 10
+    },
+    {
+      "card": "D_lineup3",
+      "year": "1858",
+      "key": "N11-C",
+      "displayed_height": 202,
+      "slot_height": 202,
+      "column_pitch": 285,
+      "box_to_box_gap": 21,
+      "horizontal_inset": 11,
+      "vertical_inset": 10
+    },
+    {
+      "card": "D_lineup3",
+      "year": "1863",
+      "key": "N02-A",
+      "displayed_height": 202,
+      "slot_height": 202,
+      "column_pitch": 285,
+      "box_to_box_gap": 21,
+      "horizontal_inset": 11,
+      "vertical_inset": 10
+    },
+    {
+      "card": "D_lineup3",
+      "year": "1864",
+      "key": "N04-A",
+      "displayed_height": 202,
+      "slot_height": 202,
+      "column_pitch": 285,
+      "box_to_box_gap": 21,
+      "horizontal_inset": 11,
+      "vertical_inset": 10
+    },
+    {
+      "card": "D_lineup3",
+      "year": "1902",
+      "key": "N03-A",
+      "displayed_height": 202,
+      "slot_height": 202,
+      "column_pitch": 285,
+      "box_to_box_gap": 21,
+      "horizontal_inset": 11,
+      "vertical_inset": 10
+    },
+    {
+      "card": "D_lineup3",
+      "year": "1904",
+      "key": "N03-B",
+      "displayed_height": 202,
+      "slot_height": 202,
+      "column_pitch": 285,
+      "box_to_box_gap": 21,
+      "horizontal_inset": 11,
+      "vertical_inset": 10
+    }
+  ],
+  "fullframe_repeats": 0,
+  "art_zoom": {
+    "N03-A": {
+      "source": "/Volumes/ESD-02/新チャンネル/EP012_SantaClaus/素材/N03-A_loc2010652186.jpg",
+      "start_scale": 0.94921875,
+      "band": [
+        107,
+        1079
+      ],
+      "art_size": [
+        778,
+        1024
+      ],
+      "end_scale_upper_bound": 1.063125
+    },
+    "N05-A": {
+      "source": "/Volumes/ESD-02/新チャンネル/EP012_SantaClaus/素材/N05-A_nga1154.jpg",
+      "start_scale": 0.1708984375,
+      "band": [
+        110,
+        810
+      ],
+      "art_size": [
+        1266,
+        4096
+      ],
+      "end_scale_upper_bound": 0.18798828125000003
+    },
+    "N06-A": {
+      "source": "/Volumes/ESD-02/新チャンネル/EP012_SantaClaus/素材/N06-A_nga215550.jpg",
+      "start_scale": 0.1708984375,
+      "band": [
+        110,
+        810
+      ],
+      "art_size": [
+        2848,
+        4096
+      ],
+      "end_scale_upper_bound": 0.178076171875
+    },
+    "N08_cover": {
+      "source": "/Volumes/ESD-02/新チャンネル/EP012_SantaClaus/素材/N08_cover_1061146.jpg",
+      "start_scale": 0.21712158808933002,
+      "band": [
+        110,
+        810
+      ],
+      "art_size": [
+        2130,
+        3224
+      ],
+      "end_scale_upper_bound": 0.22624069478908188
+    },
+    "N08_p1": {
+      "source": "/Volumes/ESD-02/新チャンネル/EP012_SantaClaus/素材/N08_p1_1061148.jpg",
+      "start_scale": 0.22005658597925182,
+      "band": [
+        110,
+        810
+      ],
+      "art_size": [
+        2163,
+        3181
+      ],
+      "end_scale_upper_bound": 0.37409619616472806
+    },
+    "N11-C": {
+      "source": "/Volumes/ESD-02/新チャンネル/EP012_SantaClaus/素材/N11-C_met393182.jpg",
+      "start_scale": 0.36879432624113473,
+      "band": [
+        110,
+        810
+      ],
+      "art_size": [
+        2538,
+        3650
+      ],
+      "end_scale_upper_bound": 0.3842836879432624
+    },
+    "N02-A": {
+      "source": "/Volumes/ESD-02/新チャンネル/EP012_SantaClaus/素材/N02-A_met427502.jpg",
+      "start_scale": 0.1876675603217158,
+      "band": [
+        110,
+        810
+      ],
+      "art_size": [
+        3075,
+        3730
+      ],
+      "end_scale_upper_bound": 0.34718498659517427
+    },
+    "N04-A": {
+      "source": "/Volumes/ESD-02/新チャンネル/EP012_SantaClaus/素材/N04-A_loc73169323.jpg",
+      "start_scale": 0.39615166949632147,
+      "band": [
+        110,
+        810
+      ],
+      "art_size": [
+        1084,
+        1767
+      ],
+      "end_scale_upper_bound": 0.41279003961516697
+    },
+    "N11-A": {
+      "source": "/Volumes/ESD-02/新チャンネル/EP012_SantaClaus/素材/N11-A_nypl483580.jpg",
+      "start_scale": 0.1529051987767584,
+      "band": [
+        110,
+        810
+      ],
+      "art_size": [
+        3326,
+        4578
+      ]
+    },
+    "N11-B": {
+      "source": "/Volumes/ESD-02/新チャンネル/EP012_SantaClaus/素材/N11-B_met835010.jpg",
+      "start_scale": 0.19089173711480775,
+      "band": [
+        110,
+        810
+      ],
+      "art_size": [
+        2375,
+        3667
+      ],
+      "end_scale_upper_bound": 0.19890919007362967
+    },
+    "N03-B": {
+      "source": "/Volumes/ESD-02/新チャンネル/EP012_SantaClaus/素材/N03-B_loc2011645591.jpg",
+      "start_scale": 0.68359375,
+      "band": [
+        110,
+        810
+      ],
+      "art_size": [
+        781,
+        1024
+      ],
+      "end_scale_upper_bound": 0.7123046875
+    },
+    "N12-A": {
+      "source": "/Volumes/ESD-02/新チャンネル/EP012_SantaClaus/素材/N12-A_nga62641.jpg",
+      "start_scale": 0.22823606129768503,
+      "band": [
+        110,
+        810
+      ],
+      "art_size": [
+        4096,
+        3067
+      ],
+      "end_scale_upper_bound": 0.23622432344310398
+    }
+  },
+  "work_count_note": "12 distinct works, 13 source images including the two different Yale pages; N12-B is the background of D_1823.",
+  "forbidden_images_used": []
+}

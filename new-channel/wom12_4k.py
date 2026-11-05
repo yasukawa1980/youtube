@@ -3,7 +3,7 @@
 
 使い方: python3 wom12_4k.py [v01] [en]
 """
-import hashlib, json, subprocess, sys, fcntl
+import hashlib, json, subprocess, sys, fcntl, shutil
 from pathlib import Path
 
 BASE = Path('/Volumes/ESD-02/新チャンネル/EP012_SantaClaus')
@@ -37,6 +37,10 @@ def video_stream(info):
 def convert(version, language):
     root = BASE / FOLDERS[version]
     src = root / f'deliverables/EP012_SantaClaus_{language}_{version}_1080p30.mp4'
+    # Preserve the encoded 1080p source while the review muxes undergo timing checks.
+    source_file = src
+    src = root / '_work' / 'immutable_4k_input.mp4'
+    shutil.copy2(source_file, src)
     out = root / f'deliverables_4k/EP012_SantaClaus_{language}_{version}_2160p30.mp4'
     out.parent.mkdir(exist_ok=True)
     run('ffmpeg', '-nostdin', '-y', '-v', 'error', '-i', str(src), '-map', '0:v:0', '-map', '0:a:0', '-vf', VF, *ENCODE,
@@ -49,7 +53,7 @@ def convert(version, language):
     assert v1['nb_read_frames'] == v0['nb_read_frames']
     assert [v1['profile'],v1['pix_fmt']] == ['High','yuv420p']
     assert audio_sha(src) == audio_sha(out)
-    record = {'language': language, 'source': src.name, 'output': out.name, 'frames': int(v1['nb_read_frames']),
+    record = {'language': language, 'source': source_file.name, 'output': out.name, 'frames': int(v1['nb_read_frames']),
               'duration': float(after['format']['duration']), 'bytes': int(after['format']['size']),
               'bit_rate': int(after['format']['bit_rate']), 'audio_same': True, 'decode_warnings': 0, 'source_sha256': hashlib.file_digest(src.open('rb'),'sha256').hexdigest(), 'output_sha256': hashlib.file_digest(out.open('rb'),'sha256').hexdigest()}
     print(json.dumps(record, ensure_ascii=False), flush=True)

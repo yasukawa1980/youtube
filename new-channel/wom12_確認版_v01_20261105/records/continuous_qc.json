@@ -1,0 +1,1210 @@
+{
+  "passed": true,
+  "checks": [
+    {
+      "language": "en",
+      "video_sha256": "0d4da1e1621ede113aed04c487c37f9377f30c9e698061330f75eabe8c05d1c3",
+      "decoded_frames": 12555,
+      "decoded_pixel_formats": [
+        [
+          1920,
+          1080,
+          "yuv420p"
+        ]
+      ],
+      "sps_profile_idc": [
+        "100"
+      ],
+      "decode_warnings": 0,
+      "no_seeking": true,
+      "records": [
+        {
+          "key": "N03-A",
+          "frames": [
+            0,
+            242,
+            485
+          ],
+          "triptych": "review/continuous_en_shot_01.jpg",
+          "center": "review/center_en_01.jpg",
+          "source": "Frank A. Nankivell · Puck · December 3, 1902",
+          "label": null,
+          "source_header_checks": [
+            {
+              "rgb_mean_absolute_error": 4.669921875,
+              "glyph_intersection_over_union": 0.975279296410744
+            },
+            {
+              "rgb_mean_absolute_error": 4.663901654411765,
+              "glyph_intersection_over_union": 0.9808795411089866
+            },
+            {
+              "rgb_mean_absolute_error": 4.658072916666667,
+              "glyph_intersection_over_union": 0.9773755656108597
+            }
+          ]
+        },
+        {
+          "key": "D_1931q",
+          "frames": [
+            486,
+            850,
+            1215
+          ],
+          "triptych": "review/continuous_en_shot_02.jpg",
+          "center": "review/center_en_02.jpg",
+          "source": "D_1931q",
+          "label": null,
+          "source_header_checks": [
+            {
+              "rgb_mean_absolute_error": 4.658348651960784,
+              "glyph_intersection_over_union": 0.9813829787234043
+            },
+            {
+              "rgb_mean_absolute_error": 4.6521139705882355,
+              "glyph_intersection_over_union": 0.9824
+            },
+            {
+              "rgb_mean_absolute_error": 4.651930147058824,
+              "glyph_intersection_over_union": 0.9818763326226013
+            }
+          ]
+        },
+        {
+          "key": "D_timeline_intro",
+          "frames": [
+            1216,
+            1560,
+            1904
+          ],
+          "triptych": "review/continuous_en_shot_03.jpg",
+          "center": "review/center_en_03.jpg",
+          "source": "D_timeline_intro",
+          "label": null,
+          "source_header_checks": []
+        },
+        {
+          "key": "opening",
+          "frames": [
+            1905,
+            1964,
+            2024
+          ],
+          "triptych": "review/continuous_en_shot_04.jpg",
+          "center": "review/center_en_04.jpg",
+          "source": "Quiet Origins common brand v02",
+          "label": null,
+          "source_header_checks": []
+        },
+        {
+          "key": "N05-A",
+          "frames": [
+            2025,
+            2340,
+            2655
+          ],
+          "triptych": "review/continuous_en_shot_05.jpg",
+          "center": "review/center_en_05.jpg",
+          "source": "Gerard David · The Saint Anne Altarpiece: Saint Nicholas · c.1500/1520",
+          "label": null,
+          "source_header_checks": [
+            {
+              "rgb_mean_absolute_error": 4.659708180147059,
+              "glyph_intersection_over_union": 0.9756877799104287
+            },
+            {
+              "rgb_mean_absolute_error": 4.639028033088235,
+              "glyph_intersection_over_union": 0.9781958101752886
+            },
+            {
+              "rgb_mean_absolute_error": 4.633578431372549,
+              "glyph_intersection_over_union": 0.9781958101752886
+            }
+          ]
+        },
+        {
+          "key": "N06-A",
+          "frames": [
+            2656,
+            3029,
+            3403
+          ],
+          "triptych": "review/continuous_en_shot_06.jpg",
+          "center": "review/center_en_06.jpg",
+          "source": "Jacopo da Empoli · Saint Nicholas of Bari · c.1610",
+          "label": null,
+          "source_header_checks": [
+            {
+              "rgb_mean_absolute_error": 4.666616881127451,
+              "glyph_intersection_over_union": 0.971781779091642
+            },
+            {
+              "rgb_mean_absolute_error": 4.640835631127451,
+              "glyph_intersection_over_union": 0.9762994882844062
+            },
+            {
+              "rgb_mean_absolute_error": 4.636508118872549,
+              "glyph_intersection_over_union": 0.9762994882844062
+            }
+          ]
+        },
+        {
+          "key": "D_1812",
+          "frames": [
+            3404,
+            3812,
+            4221
+          ],
+          "triptych": "review/continuous_en_shot_07.jpg",
+          "center": "review/center_en_07.jpg",
+          "source": "D_1812",
+          "label": null,
+          "source_header_checks": [
+            {
+              "rgb_mean_absolute_error": 4.642643229166667,
+              "glyph_intersection_over_union": 0.9800448989773011
+            },
+            {
+              "rgb_mean_absolute_error": 4.6255246629901965,
+              "glyph_intersection_over_union": 0.9807740324594257
+            },
+            {
+              "rgb_mean_absolute_error": 4.6255246629901965,
+              "glyph_intersection_over_union": 0.9807740324594257
+            }
+          ]
+        },
+        {
+          "key": "N08_cover",
+          "frames": [
+            4222,
+            4356,
+            4491
+          ],
+          "triptych": "review/continuous_en_shot_08.jpg",
+          "center": "review/center_en_08.jpg",
+          "source": "The Children’s Friend · Cover · New York, 1821",
+          "label": null,
+          "source_header_checks": [
+            {
+              "rgb_mean_absolute_error": 4.701788449754902,
+              "glyph_intersection_over_union": 0.9798768939393939
+            },
+            {
+              "rgb_mean_absolute_error": 4.662285539215686,
+              "glyph_intersection_over_union": 0.9782608695652174
+            },
+            {
+              "rgb_mean_absolute_error": 4.6577359068627455,
+              "glyph_intersection_over_union": 0.9815122066840484
+            }
+          ]
+        },
+        {
+          "key": "N08_p1",
+          "frames": [
+            4492,
+            4789,
+            5086
+          ],
+          "triptych": "review/continuous_en_shot_09.jpg",
+          "center": "review/center_en_09.jpg",
+          "source": "The Children’s Friend · Page 1 · New York, 1821",
+          "label": null,
+          "source_header_checks": [
+            {
+              "rgb_mean_absolute_error": 4.673196231617647,
+              "glyph_intersection_over_union": 0.9796786389413988
+            },
+            {
+              "rgb_mean_absolute_error": 4.6507084865196076,
+              "glyph_intersection_over_union": 0.9796882380727444
+            },
+            {
+              "rgb_mean_absolute_error": 4.667329197303921,
+              "glyph_intersection_over_union": 0.975517890772128
+            }
+          ]
+        },
+        {
+          "key": "D_1823",
+          "frames": [
+            5087,
+            5773,
+            6459
+          ],
+          "triptych": "review/continuous_en_shot_10.jpg",
+          "center": "review/center_en_10.jpg",
+          "source": "D_1823",
+          "label": null,
+          "source_header_checks": [
+            {
+              "rgb_mean_absolute_error": 4.657264859068627,
+              "glyph_intersection_over_union": 0.9883645765998708
+            },
+            {
+              "rgb_mean_absolute_error": 4.642888327205882,
+              "glyph_intersection_over_union": 0.9842037395228884
+            },
+            {
+              "rgb_mean_absolute_error": 4.642888327205882,
+              "glyph_intersection_over_union": 0.9842037395228884
+            }
+          ]
+        },
+        {
+          "key": "N11-C",
+          "frames": [
+            6460,
+            6641,
+            6822
+          ],
+          "triptych": "review/continuous_en_shot_11.jpg",
+          "center": "review/center_en_11.jpg",
+          "source": "Winslow Homer · Santa Claus and His Presents · December 25, 1858",
+          "label": null,
+          "source_header_checks": [
+            {
+              "rgb_mean_absolute_error": 4.636416207107843,
+              "glyph_intersection_over_union": 0.9760940032414911
+            },
+            {
+              "rgb_mean_absolute_error": 4.638174019607843,
+              "glyph_intersection_over_union": 0.9764944275582573
+            },
+            {
+              "rgb_mean_absolute_error": 4.629139859068627,
+              "glyph_intersection_over_union": 0.9768903304277317
+            }
+          ]
+        },
+        {
+          "key": "N02-A",
+          "frames": [
+            6823,
+            7118,
+            7414
+          ],
+          "triptych": "review/continuous_en_shot_12.jpg",
+          "center": "review/center_en_12.jpg",
+          "source": "Thomas Nast · Santa Claus in Camp · Harper’s Weekly · January 3, 1863",
+          "label": null,
+          "source_header_checks": [
+            {
+              "rgb_mean_absolute_error": 4.661580882352941,
+              "glyph_intersection_over_union": 0.97265625
+            },
+            {
+              "rgb_mean_absolute_error": 4.64522824754902,
+              "glyph_intersection_over_union": 0.976456009913259
+            },
+            {
+              "rgb_mean_absolute_error": 4.6323031556372545,
+              "glyph_intersection_over_union": 0.9780901198842497
+            }
+          ]
+        },
+        {
+          "key": "D_1881",
+          "frames": [
+            7415,
+            7603,
+            7792
+          ],
+          "triptych": "review/continuous_en_shot_13.jpg",
+          "center": "review/center_en_13.jpg",
+          "source": "D_1881",
+          "label": null,
+          "source_header_checks": [
+            {
+              "rgb_mean_absolute_error": 4.656422334558823,
+              "glyph_intersection_over_union": 0.9798214978657354
+            },
+            {
+              "rgb_mean_absolute_error": 4.656276807598039,
+              "glyph_intersection_over_union": 0.9790535298681148
+            },
+            {
+              "rgb_mean_absolute_error": 4.64765625,
+              "glyph_intersection_over_union": 0.9794334497477687
+            }
+          ]
+        },
+        {
+          "key": "N04-A",
+          "frames": [
+            7793,
+            7943,
+            8093
+          ],
+          "triptych": "review/continuous_en_shot_14.jpg",
+          "center": "review/center_en_14.jpg",
+          "source": "A Visit from St. Nicholas · L. Prang & Co. · Boston, 1864",
+          "label": null,
+          "source_header_checks": [
+            {
+              "rgb_mean_absolute_error": 4.680610447303922,
+              "glyph_intersection_over_union": 0.9755063589260481
+            },
+            {
+              "rgb_mean_absolute_error": 4.666203278186274,
+              "glyph_intersection_over_union": 0.9752941176470589
+            },
+            {
+              "rgb_mean_absolute_error": 4.657077205882353,
+              "glyph_intersection_over_union": 0.9769248881563457
+            }
+          ]
+        },
+        {
+          "key": "N11-A",
+          "frames": [
+            8094,
+            8129,
+            8165
+          ],
+          "triptych": "review/continuous_en_shot_15.jpg",
+          "center": "review/center_en_15.jpg",
+          "source": "L. Prang & Co. · Christmas card proofs · c.1865–1899",
+          "label": null,
+          "source_header_checks": [
+            {
+              "rgb_mean_absolute_error": 4.700574448529411,
+              "glyph_intersection_over_union": 0.9747860282211427
+            },
+            {
+              "rgb_mean_absolute_error": 4.684957107843137,
+              "glyph_intersection_over_union": 0.9761518870108822
+            },
+            {
+              "rgb_mean_absolute_error": 4.659784773284314,
+              "glyph_intersection_over_union": 0.9766203703703704
+            }
+          ]
+        },
+        {
+          "key": "N11-B",
+          "frames": [
+            8166,
+            8199,
+            8232
+          ],
+          "triptych": "review/continuous_en_shot_16.jpg",
+          "center": "review/center_en_16.jpg",
+          "source": "Elihu Vedder · Christmas Card · Prang competition, 1881",
+          "label": null,
+          "source_header_checks": [
+            {
+              "rgb_mean_absolute_error": 4.680847886029412,
+              "glyph_intersection_over_union": 0.9772628843655262
+            },
+            {
+              "rgb_mean_absolute_error": 4.656200214460784,
+              "glyph_intersection_over_union": 0.9796183868169991
+            },
+            {
+              "rgb_mean_absolute_error": 4.655962775735294,
+              "glyph_intersection_over_union": 0.9796183868169991
+            }
+          ]
+        },
+        {
+          "key": "N03-B",
+          "frames": [
+            8233,
+            8366,
+            8500
+          ],
+          "triptych": "review/continuous_en_shot_17.jpg",
+          "center": "review/center_en_17.jpg",
+          "source": "Frank A. Nankivell · Puck · December 7, 1904",
+          "label": null,
+          "source_header_checks": [
+            {
+              "rgb_mean_absolute_error": 4.667761948529412,
+              "glyph_intersection_over_union": 0.9792263610315186
+            },
+            {
+              "rgb_mean_absolute_error": 4.665690104166667,
+              "glyph_intersection_over_union": 0.9796942188246536
+            },
+            {
+              "rgb_mean_absolute_error": 4.653741574754902,
+              "glyph_intersection_over_union": 0.9804062126642772
+            }
+          ]
+        },
+        {
+          "key": "D_lineup2",
+          "frames": [
+            8501,
+            8664,
+            8827
+          ],
+          "triptych": "review/continuous_en_shot_18.jpg",
+          "center": "review/center_en_18.jpg",
+          "source": "D_lineup2",
+          "label": null,
+          "source_header_checks": [
+            {
+              "rgb_mean_absolute_error": 4.674383425245098,
+              "glyph_intersection_over_union": 0.9715842740365901
+            },
+            {
+              "rgb_mean_absolute_error": 4.654783241421568,
+              "glyph_intersection_over_union": 0.9734996102883866
+            },
+            {
+              "rgb_mean_absolute_error": 4.652355238970588,
+              "glyph_intersection_over_union": 0.9757717858538492
+            }
+          ]
+        },
+        {
+          "key": "D_1931",
+          "frames": [
+            8828,
+            9152,
+            9476
+          ],
+          "triptych": "review/continuous_en_shot_19.jpg",
+          "center": "review/center_en_19.jpg",
+          "source": "D_1931",
+          "label": null,
+          "source_header_checks": [
+            {
+              "rgb_mean_absolute_error": 4.659110753676471,
+              "glyph_intersection_over_union": 0.982725527831094
+            },
+            {
+              "rgb_mean_absolute_error": 4.645362285539216,
+              "glyph_intersection_over_union": 0.9821820175438597
+            },
+            {
+              "rgb_mean_absolute_error": 4.645377604166667,
+              "glyph_intersection_over_union": 0.9821820175438597
+            }
+          ]
+        },
+        {
+          "key": "D_lineup3",
+          "frames": [
+            9477,
+            9839,
+            10202
+          ],
+          "triptych": "review/continuous_en_shot_20.jpg",
+          "center": "review/center_en_20.jpg",
+          "source": "D_lineup3",
+          "label": null,
+          "source_header_checks": [
+            {
+              "rgb_mean_absolute_error": 4.650371476715686,
+              "glyph_intersection_over_union": 0.9741320626276379
+            },
+            {
+              "rgb_mean_absolute_error": 4.650038296568628,
+              "glyph_intersection_over_union": 0.9738095238095238
+            },
+            {
+              "rgb_mean_absolute_error": 4.659443933823529,
+              "glyph_intersection_over_union": 0.9751700680272108
+            }
+          ]
+        },
+        {
+          "key": "N12-A",
+          "frames": [
+            10203,
+            10863,
+            11524
+          ],
+          "triptych": "review/continuous_en_shot_21.jpg",
+          "center": "review/center_en_21.jpg",
+          "source": "Alfred Sisley · First Snow at Veneux-Nadon · 1878",
+          "label": null,
+          "source_header_checks": [
+            {
+              "rgb_mean_absolute_error": 4.680560661764706,
+              "glyph_intersection_over_union": 0.9760348583877996
+            },
+            {
+              "rgb_mean_absolute_error": 4.643064491421568,
+              "glyph_intersection_over_union": 0.9781718963165075
+            },
+            {
+              "rgb_mean_absolute_error": 4.6456035539215685,
+              "glyph_intersection_over_union": 0.9765922700054437
+            }
+          ]
+        },
+        {
+          "key": "credits",
+          "frames": [
+            11525,
+            11889,
+            12254
+          ],
+          "triptych": "review/continuous_en_shot_22.jpg",
+          "center": "review/center_en_22.jpg",
+          "source": "credits",
+          "label": null,
+          "source_header_checks": [
+            {
+              "rgb_mean_absolute_error": 4.662829350490196,
+              "glyph_intersection_over_union": 0.979933110367893
+            },
+            {
+              "rgb_mean_absolute_error": 4.655047487745098,
+              "glyph_intersection_over_union": 0.9838817998656817
+            },
+            {
+              "rgb_mean_absolute_error": 4.653990502450981,
+              "glyph_intersection_over_union": 0.9832102081934184
+            }
+          ]
+        },
+        {
+          "key": "endcard",
+          "frames": [
+            12255,
+            12404,
+            12554
+          ],
+          "triptych": "review/continuous_en_shot_23.jpg",
+          "center": "review/center_en_23.jpg",
+          "source": "Quiet Origins common brand v02",
+          "label": null,
+          "source_header_checks": []
+        }
+      ]
+    },
+    {
+      "language": "ja",
+      "video_sha256": "b85f03ec249778623b5fa5ac92af5df87543c21b17b1013a3c46105d3e915f2e",
+      "decoded_frames": 12555,
+      "decoded_pixel_formats": [
+        [
+          1920,
+          1080,
+          "yuv420p"
+        ]
+      ],
+      "sps_profile_idc": [
+        "100"
+      ],
+      "decode_warnings": 0,
+      "no_seeking": true,
+      "records": [
+        {
+          "key": "N03-A",
+          "frames": [
+            0,
+            242,
+            485
+          ],
+          "triptych": "review/continuous_ja_shot_01.jpg",
+          "center": "review/center_ja_01.jpg",
+          "source": "Frank A. Nankivell · Puck · December 3, 1902",
+          "label": null,
+          "source_header_checks": [
+            {
+              "rgb_mean_absolute_error": 4.669921875,
+              "glyph_intersection_over_union": 0.975279296410744
+            },
+            {
+              "rgb_mean_absolute_error": 4.663901654411765,
+              "glyph_intersection_over_union": 0.9808795411089866
+            },
+            {
+              "rgb_mean_absolute_error": 4.658072916666667,
+              "glyph_intersection_over_union": 0.9773755656108597
+            }
+          ]
+        },
+        {
+          "key": "D_1931q",
+          "frames": [
+            486,
+            850,
+            1215
+          ],
+          "triptych": "review/continuous_ja_shot_02.jpg",
+          "center": "review/center_ja_02.jpg",
+          "source": "D_1931q",
+          "label": null,
+          "source_header_checks": [
+            {
+              "rgb_mean_absolute_error": 4.658348651960784,
+              "glyph_intersection_over_union": 0.9813829787234043
+            },
+            {
+              "rgb_mean_absolute_error": 4.6521139705882355,
+              "glyph_intersection_over_union": 0.9824
+            },
+            {
+              "rgb_mean_absolute_error": 4.651930147058824,
+              "glyph_intersection_over_union": 0.9818763326226013
+            }
+          ]
+        },
+        {
+          "key": "D_timeline_intro",
+          "frames": [
+            1216,
+            1560,
+            1904
+          ],
+          "triptych": "review/continuous_ja_shot_03.jpg",
+          "center": "review/center_ja_03.jpg",
+          "source": "D_timeline_intro",
+          "label": null,
+          "source_header_checks": []
+        },
+        {
+          "key": "opening",
+          "frames": [
+            1905,
+            1964,
+            2024
+          ],
+          "triptych": "review/continuous_ja_shot_04.jpg",
+          "center": "review/center_ja_04.jpg",
+          "source": "Quiet Origins common brand v02",
+          "label": null,
+          "source_header_checks": []
+        },
+        {
+          "key": "N05-A",
+          "frames": [
+            2025,
+            2340,
+            2655
+          ],
+          "triptych": "review/continuous_ja_shot_05.jpg",
+          "center": "review/center_ja_05.jpg",
+          "source": "Gerard David · The Saint Anne Altarpiece: Saint Nicholas · c.1500/1520",
+          "label": null,
+          "source_header_checks": [
+            {
+              "rgb_mean_absolute_error": 4.659708180147059,
+              "glyph_intersection_over_union": 0.9756877799104287
+            },
+            {
+              "rgb_mean_absolute_error": 4.639028033088235,
+              "glyph_intersection_over_union": 0.9781958101752886
+            },
+            {
+              "rgb_mean_absolute_error": 4.633578431372549,
+              "glyph_intersection_over_union": 0.9781958101752886
+            }
+          ]
+        },
+        {
+          "key": "N06-A",
+          "frames": [
+            2656,
+            3029,
+            3403
+          ],
+          "triptych": "review/continuous_ja_shot_06.jpg",
+          "center": "review/center_ja_06.jpg",
+          "source": "Jacopo da Empoli · Saint Nicholas of Bari · c.1610",
+          "label": null,
+          "source_header_checks": [
+            {
+              "rgb_mean_absolute_error": 4.666616881127451,
+              "glyph_intersection_over_union": 0.971781779091642
+            },
+            {
+              "rgb_mean_absolute_error": 4.640835631127451,
+              "glyph_intersection_over_union": 0.9762994882844062
+            },
+            {
+              "rgb_mean_absolute_error": 4.636508118872549,
+              "glyph_intersection_over_union": 0.9762994882844062
+            }
+          ]
+        },
+        {
+          "key": "D_1812",
+          "frames": [
+            3404,
+            3812,
+            4221
+          ],
+          "triptych": "review/continuous_ja_shot_07.jpg",
+          "center": "review/center_ja_07.jpg",
+          "source": "D_1812",
+          "label": null,
+          "source_header_checks": [
+            {
+              "rgb_mean_absolute_error": 4.642643229166667,
+              "glyph_intersection_over_union": 0.9800448989773011
+            },
+            {
+              "rgb_mean_absolute_error": 4.6255246629901965,
+              "glyph_intersection_over_union": 0.9807740324594257
+            },
+            {
+              "rgb_mean_absolute_error": 4.6255246629901965,
+              "glyph_intersection_over_union": 0.9807740324594257
+            }
+          ]
+        },
+        {
+          "key": "N08_cover",
+          "frames": [
+            4222,
+            4356,
+            4491
+          ],
+          "triptych": "review/continuous_ja_shot_08.jpg",
+          "center": "review/center_ja_08.jpg",
+          "source": "The Children’s Friend · Cover · New York, 1821",
+          "label": null,
+          "source_header_checks": [
+            {
+              "rgb_mean_absolute_error": 4.701788449754902,
+              "glyph_intersection_over_union": 0.9798768939393939
+            },
+            {
+              "rgb_mean_absolute_error": 4.662285539215686,
+              "glyph_intersection_over_union": 0.9782608695652174
+            },
+            {
+              "rgb_mean_absolute_error": 4.6577359068627455,
+              "glyph_intersection_over_union": 0.9815122066840484
+            }
+          ]
+        },
+        {
+          "key": "N08_p1",
+          "frames": [
+            4492,
+            4789,
+            5086
+          ],
+          "triptych": "review/continuous_ja_shot_09.jpg",
+          "center": "review/center_ja_09.jpg",
+          "source": "The Children’s Friend · Page 1 · New York, 1821",
+          "label": null,
+          "source_header_checks": [
+            {
+              "rgb_mean_absolute_error": 4.673196231617647,
+              "glyph_intersection_over_union": 0.9796786389413988
+            },
+            {
+              "rgb_mean_absolute_error": 4.6507084865196076,
+              "glyph_intersection_over_union": 0.9796882380727444
+            },
+            {
+              "rgb_mean_absolute_error": 4.667329197303921,
+              "glyph_intersection_over_union": 0.975517890772128
+            }
+          ]
+        },
+        {
+          "key": "D_1823",
+          "frames": [
+            5087,
+            5773,
+            6459
+          ],
+          "triptych": "review/continuous_ja_shot_10.jpg",
+          "center": "review/center_ja_10.jpg",
+          "source": "D_1823",
+          "label": null,
+          "source_header_checks": [
+            {
+              "rgb_mean_absolute_error": 4.657264859068627,
+              "glyph_intersection_over_union": 0.9883645765998708
+            },
+            {
+              "rgb_mean_absolute_error": 4.642888327205882,
+              "glyph_intersection_over_union": 0.9842037395228884
+            },
+            {
+              "rgb_mean_absolute_error": 4.642888327205882,
+              "glyph_intersection_over_union": 0.9842037395228884
+            }
+          ]
+        },
+        {
+          "key": "N11-C",
+          "frames": [
+            6460,
+            6641,
+            6822
+          ],
+          "triptych": "review/continuous_ja_shot_11.jpg",
+          "center": "review/center_ja_11.jpg",
+          "source": "Winslow Homer · Santa Claus and His Presents · December 25, 1858",
+          "label": null,
+          "source_header_checks": [
+            {
+              "rgb_mean_absolute_error": 4.636416207107843,
+              "glyph_intersection_over_union": 0.9760940032414911
+            },
+            {
+              "rgb_mean_absolute_error": 4.638174019607843,
+              "glyph_intersection_over_union": 0.9764944275582573
+            },
+            {
+              "rgb_mean_absolute_error": 4.629139859068627,
+              "glyph_intersection_over_union": 0.9768903304277317
+            }
+          ]
+        },
+        {
+          "key": "N02-A",
+          "frames": [
+            6823,
+            7118,
+            7414
+          ],
+          "triptych": "review/continuous_ja_shot_12.jpg",
+          "center": "review/center_ja_12.jpg",
+          "source": "Thomas Nast · Santa Claus in Camp · Harper’s Weekly · January 3, 1863",
+          "label": null,
+          "source_header_checks": [
+            {
+              "rgb_mean_absolute_error": 4.661580882352941,
+              "glyph_intersection_over_union": 0.97265625
+            },
+            {
+              "rgb_mean_absolute_error": 4.64522824754902,
+              "glyph_intersection_over_union": 0.976456009913259
+            },
+            {
+              "rgb_mean_absolute_error": 4.6323031556372545,
+              "glyph_intersection_over_union": 0.9780901198842497
+            }
+          ]
+        },
+        {
+          "key": "D_1881",
+          "frames": [
+            7415,
+            7603,
+            7792
+          ],
+          "triptych": "review/continuous_ja_shot_13.jpg",
+          "center": "review/center_ja_13.jpg",
+          "source": "D_1881",
+          "label": null,
+          "source_header_checks": [
+            {
+              "rgb_mean_absolute_error": 4.656422334558823,
+              "glyph_intersection_over_union": 0.9798214978657354
+            },
+            {
+              "rgb_mean_absolute_error": 4.656276807598039,
+              "glyph_intersection_over_union": 0.9790535298681148
+            },
+            {
+              "rgb_mean_absolute_error": 4.64765625,
+              "glyph_intersection_over_union": 0.9794334497477687
+            }
+          ]
+        },
+        {
+          "key": "N04-A",
+          "frames": [
+            7793,
+            7943,
+            8093
+          ],
+          "triptych": "review/continuous_ja_shot_14.jpg",
+          "center": "review/center_ja_14.jpg",
+          "source": "A Visit from St. Nicholas · L. Prang & Co. · Boston, 1864",
+          "label": null,
+          "source_header_checks": [
+            {
+              "rgb_mean_absolute_error": 4.680610447303922,
+              "glyph_intersection_over_union": 0.9755063589260481
+            },
+            {
+              "rgb_mean_absolute_error": 4.666203278186274,
+              "glyph_intersection_over_union": 0.9752941176470589
+            },
+            {
+              "rgb_mean_absolute_error": 4.657077205882353,
+              "glyph_intersection_over_union": 0.9769248881563457
+            }
+          ]
+        },
+        {
+          "key": "N11-A",
+          "frames": [
+            8094,
+            8129,
+            8165
+          ],
+          "triptych": "review/continuous_ja_shot_15.jpg",
+          "center": "review/center_ja_15.jpg",
+          "source": "L. Prang & Co. · Christmas card proofs · c.1865–1899",
+          "label": null,
+          "source_header_checks": [
+            {
+              "rgb_mean_absolute_error": 4.700574448529411,
+              "glyph_intersection_over_union": 0.9747860282211427
+            },
+            {
+              "rgb_mean_absolute_error": 4.684957107843137,
+              "glyph_intersection_over_union": 0.9761518870108822
+            },
+            {
+              "rgb_mean_absolute_error": 4.659784773284314,
+              "glyph_intersection_over_union": 0.9766203703703704
+            }
+          ]
+        },
+        {
+          "key": "N11-B",
+          "frames": [
+            8166,
+            8199,
+            8232
+          ],
+          "triptych": "review/continuous_ja_shot_16.jpg",
+          "center": "review/center_ja_16.jpg",
+          "source": "Elihu Vedder · Christmas Card · Prang competition, 1881",
+          "label": null,
+          "source_header_checks": [
+            {
+              "rgb_mean_absolute_error": 4.680847886029412,
+              "glyph_intersection_over_union": 0.9772628843655262
+            },
+            {
+              "rgb_mean_absolute_error": 4.656200214460784,
+              "glyph_intersection_over_union": 0.9796183868169991
+            },
+            {
+              "rgb_mean_absolute_error": 4.655962775735294,
+              "glyph_intersection_over_union": 0.9796183868169991
+            }
+          ]
+        },
+        {
+          "key": "N03-B",
+          "frames": [
+            8233,
+            8366,
+            8500
+          ],
+          "triptych": "review/continuous_ja_shot_17.jpg",
+          "center": "review/center_ja_17.jpg",
+          "source": "Frank A. Nankivell · Puck · December 7, 1904",
+          "label": null,
+          "source_header_checks": [
+            {
+              "rgb_mean_absolute_error": 4.667761948529412,
+              "glyph_intersection_over_union": 0.9792263610315186
+            },
+            {
+              "rgb_mean_absolute_error": 4.665690104166667,
+              "glyph_intersection_over_union": 0.9796942188246536
+            },
+            {
+              "rgb_mean_absolute_error": 4.653741574754902,
+              "glyph_intersection_over_union": 0.9804062126642772
+            }
+          ]
+        },
+        {
+          "key": "D_lineup2",
+          "frames": [
+            8501,
+            8664,
+            8827
+          ],
+          "triptych": "review/continuous_ja_shot_18.jpg",
+          "center": "review/center_ja_18.jpg",
+          "source": "D_lineup2",
+          "label": null,
+          "source_header_checks": [
+            {
+              "rgb_mean_absolute_error": 4.674383425245098,
+              "glyph_intersection_over_union": 0.9715842740365901
+            },
+            {
+              "rgb_mean_absolute_error": 4.654783241421568,
+              "glyph_intersection_over_union": 0.9734996102883866
+            },
+            {
+              "rgb_mean_absolute_error": 4.652355238970588,
+              "glyph_intersection_over_union": 0.9757717858538492
+            }
+          ]
+        },
+        {
+          "key": "D_1931",
+          "frames": [
+            8828,
+            9152,
+            9476
+          ],
+          "triptych": "review/continuous_ja_shot_19.jpg",
+          "center": "review/center_ja_19.jpg",
+          "source": "D_1931",
+          "label": null,
+          "source_header_checks": [
+            {
+              "rgb_mean_absolute_error": 4.659110753676471,
+              "glyph_intersection_over_union": 0.982725527831094
+            },
+            {
+              "rgb_mean_absolute_error": 4.645362285539216,
+              "glyph_intersection_over_union": 0.9821820175438597
+            },
+            {
+              "rgb_mean_absolute_error": 4.645377604166667,
+              "glyph_intersection_over_union": 0.9821820175438597
+            }
+          ]
+        },
+        {
+          "key": "D_lineup3",
+          "frames": [
+            9477,
+            9839,
+            10202
+          ],
+          "triptych": "review/continuous_ja_shot_20.jpg",
+          "center": "review/center_ja_20.jpg",
+          "source": "D_lineup3",
+          "label": null,
+          "source_header_checks": [
+            {
+              "rgb_mean_absolute_error": 4.650371476715686,
+              "glyph_intersection_over_union": 0.9741320626276379
+            },
+            {
+              "rgb_mean_absolute_error": 4.650038296568628,
+              "glyph_intersection_over_union": 0.9738095238095238
+            },
+            {
+              "rgb_mean_absolute_error": 4.659443933823529,
+              "glyph_intersection_over_union": 0.9751700680272108
+            }
+          ]
+        },
+        {
+          "key": "N12-A",
+          "frames": [
+            10203,
+            10863,
+            11524
+          ],
+          "triptych": "review/continuous_ja_shot_21.jpg",
+          "center": "review/center_ja_21.jpg",
+          "source": "Alfred Sisley · First Snow at Veneux-Nadon · 1878",
+          "label": null,
+          "source_header_checks": [
+            {
+              "rgb_mean_absolute_error": 4.680560661764706,
+              "glyph_intersection_over_union": 0.9760348583877996
+            },
+            {
+              "rgb_mean_absolute_error": 4.643064491421568,
+              "glyph_intersection_over_union": 0.9781718963165075
+            },
+            {
+              "rgb_mean_absolute_error": 4.6456035539215685,
+              "glyph_intersection_over_union": 0.9765922700054437
+            }
+          ]
+        },
+        {
+          "key": "credits",
+          "frames": [
+            11525,
+            11889,
+            12254
+          ],
+          "triptych": "review/continuous_ja_shot_22.jpg",
+          "center": "review/center_ja_22.jpg",
+          "source": "credits",
+          "label": null,
+          "source_header_checks": [
+            {
+              "rgb_mean_absolute_error": 4.662829350490196,
+              "glyph_intersection_over_union": 0.979933110367893
+            },
+            {
+              "rgb_mean_absolute_error": 4.655047487745098,
+              "glyph_intersection_over_union": 0.9838817998656817
+            },
+            {
+              "rgb_mean_absolute_error": 4.653990502450981,
+              "glyph_intersection_over_union": 0.9832102081934184
+            }
+          ]
+        },
+        {
+          "key": "endcard",
+          "frames": [
+            12255,
+            12404,
+            12554
+          ],
+          "triptych": "review/continuous_ja_shot_23.jpg",
+          "center": "review/center_ja_23.jpg",
+          "source": "Quiet Origins common brand v02",
+          "label": null,
+          "source_header_checks": []
+        }
+      ]
+    }
+  ],
+  "script_unchanged": true,
+  "unique_originals": [
+    "N03-A",
+    "N05-A",
+    "N06-A",
+    "N08_cover",
+    "N08_p1",
+    "N11-C",
+    "N02-A",
+    "N04-A",
+    "N11-A",
+    "N11-B",
+    "N03-B",
+    "N12-A",
+    "N12-B"
+  ],
+  "endcard_exact_last_10_seconds": true,
+  "opening_frames": [
+    {
+      "language": "en",
+      "source_frames": [
+        0,
+        30,
+        60,
+        90
+      ],
+      "files": [
+        "review/opening_en_01.jpg",
+        "review/opening_en_02.jpg",
+        "review/opening_en_03.jpg",
+        "review/opening_en_04.jpg"
+      ]
+    },
+    {
+      "language": "ja",
+      "source_frames": [
+        0,
+        30,
+        60,
+        90
+      ],
+      "files": [
+        "review/opening_ja_01.jpg",
+        "review/opening_ja_02.jpg",
+        "review/opening_ja_03.jpg",
+        "review/opening_ja_04.jpg"
+      ]
+    }
+  ]
+}

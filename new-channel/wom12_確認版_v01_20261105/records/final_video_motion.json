@@ -1,0 +1,160 @@
+{
+  "passed": true,
+  "method": "All adjacent frames of each moving content shot in the final picture master. Fixed cards, intentional reveals, static Prang sheet and common brand excluded.",
+  "checks": [
+    {
+      "shot": "N03-A",
+      "roi": [
+        702,
+        302,
+        516,
+        582
+      ],
+      "adjacent_pairs": 485,
+      "median": 1.8758391273076,
+      "p95": 2.0803251285329925,
+      "ratio": 1.1090104147251114,
+      "passed": true
+    },
+    {
+      "shot": "N05-A",
+      "roi": [
+        885,
+        250,
+        150,
+        420
+      ],
+      "adjacent_pairs": 630,
+      "median": 0.9181904761904762,
+      "p95": 1.0227992063492064,
+      "ratio": 1.1139292258756008,
+      "passed": true
+    },
+    {
+      "shot": "N06-A",
+      "roi": [
+        790,
+        250,
+        340,
+        420
+      ],
+      "adjacent_pairs": 747,
+      "median": 0.12804621848739495,
+      "p95": 0.16745308123249297,
+      "ratio": 1.3077549904293135,
+      "passed": true
+    },
+    {
+      "shot": "N08_cover",
+      "roi": [
+        798,
+        250,
+        324,
+        420
+      ],
+      "adjacent_pairs": 269,
+      "median": 0.3548133450911229,
+      "p95": 0.40514844209288653,
+      "ratio": 1.1418635958826087,
+      "passed": true
+    },
+    {
+      "shot": "N08_p1",
+      "roi": [
+        794,
+        250,
+        332,
+        420
+      ],
+      "adjacent_pairs": 594,
+      "median": 1.1195460413080895,
+      "p95": 1.5479830034423407,
+      "ratio": 1.3826881131513455,
+      "passed": true
+    },
+    {
+      "shot": "N11-C",
+      "roi": [
+        633,
+        250,
+        654,
+        420
+      ],
+      "adjacent_pairs": 362,
+      "median": 0.7218818261249453,
+      "p95": 0.7912263361001893,
+      "ratio": 1.0960607504797353,
+      "passed": true
+    },
+    {
+      "shot": "N02-A",
+      "roi": [
+        758,
+        250,
+        404,
+        420
+      ],
+      "adjacent_pairs": 591,
+      "median": 2.8056753889674684,
+      "p95": 4.006783356907119,
+      "ratio": 1.4280994061760215,
+      "passed": true
+    },
+    {
+      "shot": "N04-A",
+      "roi": [
+        810,
+        250,
+        300,
+        420
+      ],
+      "adjacent_pairs": 300,
+      "median": 0.16445238095238096,
+      "p95": 0.2267198412698413,
+      "ratio": 1.3786352010038125,
+      "passed": true
+    },
+    {
+      "shot": "N11-B",
+      "roi": [
+        802,
+        250,
+        316,
+        420
+      ],
+      "adjacent_pairs": 66,
+      "median": 1.0995290837854128,
+      "p95": 1.2315947106690777,
+      "ratio": 1.1201110810357056,
+      "passed": true
+    },
+    {
+      "shot": "N03-B",
+      "roi": [
+        773,
+        250,
+        374,
+        420
+      ],
+      "adjacent_pairs": 267,
+      "median": 0.46224853577794756,
+      "p95": 0.5002113572701808,
+      "ratio": 1.0821264288665473,
+      "passed": true
+    },
+    {
+      "shot": "N12-A",
+      "roi": [
+        633,
+        250,
+        654,
+        420
+      ],
+      "adjacent_pairs": 1321,
+      "median": 0.10152905198776759,
+      "p95": 0.16376510848987913,
+      "ratio": 1.6129876649454962,
+      "passed": true
+    }
+  ]
+}
