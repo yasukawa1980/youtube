@@ -188,3 +188,6 @@
 - 実測：Vindemiatrix 58.5秒・−20.1 LUFS／Sulafat 56.1秒・−20.3／Achernar 57.0秒・−20.4／Algieba（男声）54.7秒・−20.3／今の声 69.2秒・−20.3。
 - 話す速さは既定のまま。音の良し悪しは本人の視聴待ちで、まだ未判断。ElevenLabsは未試作。RDG03は未予約。
 - ElevenLabsも同じ本文で試作（`作業/声の聞き比べ_eleven.py`）。実測：multilingual_v2 Lily 56.2秒・−20.4 LUFS／Sarah 51.9秒・−20.1／Brian（男声）52.0秒・−20.6、v4 Lily 59.0秒・−20.7。声は英語圏向けの既定の声で、日本語話者の声の検索は未実施。読みの正誤は本人の視聴待ち。
+- 本人の感想（11/6）：ElevenLabsはv4がよい。GoogleはSulafatがましだが発音にAI感が残る。
+- ElevenLabsの日本語話者の声は、無料プランではAPIから使えない（HTTP 402 paid_plan_required）。未試作。公式見本5種（Satomi・Shizuka・Hijiri・Akane・Koichi）をSSD `声の聞き比べ/公式見本/` に取得（9.7〜26.3秒、本文は別）。
+- 公式料金ページの表示（11/6確認）：Starter 月$6（初月$1）30,000クレジット、Creator 月$22（初月$11）121,000クレジット。v4の文字単価はページに記載なし。今作の本文は38,284字。
