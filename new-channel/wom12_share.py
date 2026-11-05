@@ -54,15 +54,22 @@ def main():
     cached_checks=previous.get('assets',[]) if previous.get('release_id')==r['id'] else []
     state={'release_id':r['id'],'tag':TAG,'draft':True,'release_url':r['html_url'],'status':'uploading','assets':cached_checks}
     a.record.write_text(json.dumps(state,indent=2)+'\n')
-    for p in files:
-        old=next((v for v in r['assets'] if v['name']==p.name or v['digest']=='sha256:'+sha(p)),None)
+    def upload(p):
+        checksum = 'sha256:'+sha(p)
+        old=next((v for v in r['assets'] if v['name']==p.name or v['digest']==checksum),None)
         if old:
-            assert old['state']=='uploaded' and old['digest']=='sha256:'+sha(p)
+            assert old['state']=='uploaded' and old['digest']==checksum
             if old['name']!=p.name:
                 api(['--method','PATCH',f'repos/{REPO}/releases/assets/{old["id"]}','--input','-'],{'name':p.name})
         else:
             subprocess.run(['gh','release','upload',TAG,str(p),'--repo',REPO],check=True)
         print('UPLOADED',p.name,flush=True)
+    if VERSION=='v02':
+        from concurrent.futures import ThreadPoolExecutor
+        with ThreadPoolExecutor(max_workers=3) as pool:
+            list(pool.map(upload, sorted(files,key=lambda p:-p.stat().st_size)))
+    else:
+        for p in files:upload(p)
     r=api([f'repos/{REPO}/releases/{r["id"]}'])
     assert r['draft'] is True and len(r['assets'])==len(files)
     checks=[]

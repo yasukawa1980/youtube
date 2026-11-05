@@ -18,9 +18,9 @@ def run(*args):
     return subprocess.run(args, check=True, capture_output=True, text=True).stdout
 
 
-def probe(path):
-    return json.loads(run('ffprobe', '-v', 'error', '-count_frames', '-show_entries',
-                          'format=duration,size,bit_rate:stream=codec_type,codec_name,profile,pix_fmt,width,height,avg_frame_rate,nb_read_frames',
+def probe(path, count=True):
+    return json.loads(run('ffprobe', '-v', 'error', *(['-count_frames'] if count else []), '-show_entries',
+                          'format=duration,size,bit_rate:stream=codec_type,codec_name,profile,pix_fmt,width,height,avg_frame_rate,nb_read_frames,nb_frames',
                           '-of', 'json', str(path)))
 
 
@@ -45,9 +45,17 @@ def convert(version, language):
     out.parent.mkdir(exist_ok=True)
     run('ffmpeg', '-nostdin', '-y', '-v', 'error', '-i', str(src), '-map', '0:v:0', '-map', '0:a:0', '-vf', VF, *ENCODE,
         '-threads', '4', '-progress', str(root / '_work/4k_progress.txt'), '-c:a', 'copy', '-movflags', '+faststart', str(out))
-    decoded = subprocess.run(['ffmpeg','-nostdin','-v','warning','-xerror','-i',str(out),'-map','0:v:0','-f','null','-'],check=True,capture_output=True,text=True)
-    assert not decoded.stderr.strip(), decoded.stderr
-    before, after = probe(src), probe(out)
+    checked = {}
+    if version=='v02':
+        from wom12_v02_delivery import inspect_4k
+        before, after = probe(src, False), probe(out, False)
+        checked = inspect_4k(out, int(video_stream(before)['nb_frames']))
+        for data in [before, after]:
+            video_stream(data)['nb_read_frames'] = video_stream(data)['nb_frames']
+    else:
+        decoded = subprocess.run(['ffmpeg','-nostdin','-v','warning','-xerror','-i',str(out),'-map','0:v:0','-f','null','-'],check=True,capture_output=True,text=True)
+        assert not decoded.stderr.strip(), decoded.stderr
+        before, after = probe(src), probe(out)
     v0, v1 = video_stream(before), video_stream(after)
     assert [v1['width'], v1['height'], v1['avg_frame_rate']] == [3840, 2160, '30/1']
     assert v1['nb_read_frames'] == v0['nb_read_frames']
@@ -56,6 +64,7 @@ def convert(version, language):
     record = {'language': language, 'source': source_file.name, 'output': out.name, 'frames': int(v1['nb_read_frames']),
               'duration': float(after['format']['duration']), 'bytes': int(after['format']['size']),
               'bit_rate': int(after['format']['bit_rate']), 'audio_same': True, 'decode_warnings': 0, 'source_sha256': hashlib.file_digest(src.open('rb'),'sha256').hexdigest(), 'output_sha256': hashlib.file_digest(out.open('rb'),'sha256').hexdigest()}
+    record.update(checked)
     print(json.dumps(record, ensure_ascii=False), flush=True)
     return record
 

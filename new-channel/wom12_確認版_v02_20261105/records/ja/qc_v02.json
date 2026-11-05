@@ -1,0 +1,65 @@
+{
+  "passed": true,
+  "duration_seconds": 413.96666666666664,
+  "frames": 12419,
+  "fps": 30,
+  "human_full_listening": false,
+  "files": [
+    {
+      "name": "EP012_SantaClaus_ja_v02_1080p30.mp4",
+      "bytes": 91048193,
+      "sha256": "8441d63fd74ecebadf76b03edb325d411738511159fa8f205ad573f1a9b3316b",
+      "video_stream_sha256": "SHA256=b61cf2735b59681e544c22da293b11b19f8dd8ac9ed3b2781d0709bc96209ca3",
+      "audio_stream_sha256": "SHA256=dbe9b6fec337f1f36d907ea0dfd66b3fc6352874784c80319ab276dfa9d9b960",
+      "full_decode": true,
+      "decode_warnings": 0,
+      "profile": "High",
+      "pix_fmt": "yuv420p",
+      "exact_30fps_pts": true,
+      "frames": 12419,
+      "duration": 413.966667,
+      "loudness": {
+        "input_i": "-16.00",
+        "input_tp": "-5.05",
+        "input_lra": "2.60",
+        "input_thresh": "-26.57",
+        "output_i": "-16.08",
+        "output_tp": "-3.87",
+        "output_lra": "2.60",
+        "output_thresh": "-26.53",
+        "normalization_type": "dynamic",
+        "target_offset": "0.08"
+      },
+      "silence_over_1s_at_minus60dB": []
+    },
+    {
+      "name": "EP012_SantaClaus_ja_v02_subtitled_review_1080p30.mp4",
+      "bytes": 54005975,
+      "sha256": "9b13fc910f2fda9e1276f449a6120712c64c9cad428d3156bdf42120e171e710",
+      "video_stream_sha256": "SHA256=3c92767b307f098b490b5f4d8c62a9c4d16387982a1749e6163c1873b5c26aef",
+      "audio_stream_sha256": "SHA256=dbe9b6fec337f1f36d907ea0dfd66b3fc6352874784c80319ab276dfa9d9b960",
+      "full_decode": true,
+      "decode_warnings": 0,
+      "profile": "High",
+      "pix_fmt": "yuv420p",
+      "exact_30fps_pts": true,
+      "frames": 12419,
+      "duration": 413.966667,
+      "loudness": {
+        "input_i": "-16.00",
+        "input_tp": "-5.05",
+        "input_lra": "2.60",
+        "input_thresh": "-26.57",
+        "output_i": "-16.08",
+        "output_tp": "-3.87",
+        "output_lra": "2.60",
+        "output_thresh": "-26.53",
+        "normalization_type": "dynamic",
+        "target_offset": "0.08"
+      },
+      "silence_over_1s_at_minus60dB": []
+    }
+  ],
+  "shared_video_stream": false,
+  "subtitled_audio_unchanged": true
+}

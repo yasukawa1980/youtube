@@ -61,12 +61,9 @@ def metadata():
              segments=[{k:s[k] for k in ['id','start','speech_end','end','source_sha256','audio_file']} for s in master['segments']]))
         save(rec/'chapters.json',chapters)
 
-def sheets4k():
-    info=read(NEW/'deliverables_4k/encoding.json')['files'][0]
-    src=NEW/'deliverables_4k'/info['output']
+def inspect_4k(src, total_frames):
     shots=read(NEW/'en/records/render_shots.json')
-    assert info['audio_same'] and info['decode_warnings']==0 and info['frames']==sum(s['frames'] for s in shots)
-    assert sha(D/info['source'])==info['source_sha256']
+    assert total_frames==sum(s['frames'] for s in shots)
     frames=[]
     for s in shots:
         start=round(s['start']*30)
@@ -75,11 +72,12 @@ def sheets4k():
     folder.mkdir(exist_ok=True)
     # showinfo sees every decoded frame before selection. Disable the expensive plane checksums.
     expr='+'.join(f'eq(n\\,{f})' for f in frames)
-    cmd=['ffmpeg','-y','-nostdin','-v','info','-threads','4','-i',str(src),'-an','-vf',
+    cmd=['ffmpeg','-y','-nostdin','-v','level+info','-xerror','-threads','4','-i',str(src),'-an','-vf',
          'showinfo=checksum=0,select='+expr+',scale=426:240','-fps_mode','passthrough',str(folder/'%03d.png')]
     out=subprocess.run(cmd,check=True,capture_output=True,text=True).stderr
+    assert not re.search(r'\[(?:warning|error|fatal)\]',out),out[-2000:]
     rows=re.findall(r'\bn:\s*(\d+)\s+pts:\s*(-?\d+).*?\bfmt:(\w+).*?\bs:(\d+x\d+)',out)
-    assert len(rows)==info['frames'] and {r[2:] for r in rows}=={('yuv420p','3840x2160')}
+    assert len(rows)==total_frames and {r[2:] for r in rows}=={('yuv420p','3840x2160')}
     assert all(int(r[0])==i and int(r[1])==i*512 for i,r in enumerate(rows))
     assert len(list(folder.glob('*.png')))==len(frames)
     for b in range(6):
@@ -91,7 +89,14 @@ def sheets4k():
             for k in range(3):
                 with Image.open(folder/f'{i*3+k+1:03d}.png') as im:sheet.paste(im,(k*426,j*272+27))
         sheet.save(SHARE/f'continuous_en_4k_sheet_{b+1:02d}.jpg',quality=86)
-    save(R/'4k.json',dict(**info,formats=['3840x2160 yuv420p H.264 High'],exact_30fps_pts=True,selected_frames=frames))
+    return dict(formats=['3840x2160 yuv420p H.264 High'],exact_30fps_pts=True,selected_frames=frames)
+
+def sheets4k():
+    info=read(NEW/'deliverables_4k/encoding.json')['files'][0]
+    assert info['audio_same'] and info['decode_warnings']==0
+    assert sha(D/info['source'])==info['source_sha256']
+    assert len(info['selected_frames'])==69 and len(list(SHARE.glob('continuous_en_4k_sheet_*.jpg')))==6
+    save(R/'4k.json',info)
 
 def archive():
     metadata()
