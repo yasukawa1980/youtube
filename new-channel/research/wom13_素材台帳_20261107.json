@@ -3,7 +3,7 @@
   "episode": "EP013_NightWatch",
   "date": "2026-11-07",
   "source_remote_commit": "6805f7f2",
-  "scope": "Production restart: owner-fetched tiles verified, lossless masters assembled; D6 crop exception pending, video not started",
+  "scope": "D6 exception approved by owner; native source assets ready, production in progress",
   "ssd_mount": "/Volumes/ESD-02",
   "ssd_connected": true,
   "media_destination": "/Volumes/ESD-02/新チャンネル/EP013_NightWatch/素材",
@@ -16,9 +16,7 @@
     "assembled_pngs": 6,
     "verified_tiles": 38,
     "verified_rights_records": 6,
-    "layout_approval_pending": [
-      "D6"
-    ]
+    "layout_approval_pending": []
   },
   "assets": [
     {
@@ -34,7 +32,7 @@
         "all"
       ],
       "checked_date": "2026-11-07",
-      "status": "original_verified_layout_pending",
+      "status": "original_verified_D6_approved",
       "work_rights": "Public Domain (institution record)",
       "image_rights": "Public Domain Mark; object record plus museum photo policy",
       "rights_url": "https://data.rijksmuseum.nl/policy/information-and-data-policy",
@@ -44,7 +42,7 @@
       "production_pixel_height": 12158,
       "production_sha256": "6d7841a9170a0baf134a7e294b9de5dc1129802deaada18cfe8edd7f3655fb8e",
       "production_file_bytes": 178905904,
-      "production_ready": false,
+      "production_ready": true,
       "rights_verified_again": true,
       "rights_evidence": "wom13_画像権利照合_20261107.json",
       "original_acquisition_evidence": "wom13_原寸取得記録_20261107.json",
@@ -84,7 +82,7 @@
         "V2"
       ],
       "checked_date": "2026-11-07",
-      "status": "original_verified_layout_pending",
+      "status": "original_verified_D6_approved",
       "work_rights": "Public Domain (institution record)",
       "image_rights": "Public Domain Mark; object record plus museum photo policy",
       "rights_url": "https://data.rijksmuseum.nl/policy/information-and-data-policy",
@@ -94,7 +92,7 @@
       "production_pixel_height": 8183,
       "production_sha256": "5e6b7dd41ecaec23b12770bd07ffff936ee19d950200dba40181f3429be7828f",
       "production_file_bytes": 81019104,
-      "production_ready": false,
+      "production_ready": true,
       "owner_url": "https://www.nationalgallery.org.uk/paintings/gerrit-lundens-after-rembrandt-the-company-of-captain-banning-cocq-the-nightwatch",
       "rights_verified_again": true,
       "rights_evidence": "wom13_画像権利照合_20261107.json",
@@ -188,7 +186,7 @@
         "P03"
       ],
       "checked_date": "2026-11-07",
-      "status": "original_verified_layout_pending",
+      "status": "original_verified_D6_approved",
       "work_rights": "Public Domain (institution record)",
       "image_rights": "Public Domain Mark; object record plus museum photo policy",
       "rights_url": "https://data.rijksmuseum.nl/policy/information-and-data-policy",
@@ -198,7 +196,7 @@
       "production_pixel_height": 3022,
       "production_sha256": "bda449db00453850c4f492f4d7f992cf69bc8c0f31b6fd02d866c5934dddac8a",
       "production_file_bytes": 9710684,
-      "production_ready": false,
+      "production_ready": true,
       "note": "Current candidate 1664; first state1662, reused other state1665. Do not label1642.",
       "rights_verified_again": true,
       "rights_evidence": "wom13_画像権利照合_20261107.json",
@@ -225,7 +223,7 @@
         "P03"
       ],
       "checked_date": "2026-11-07",
-      "status": "original_verified_layout_pending",
+      "status": "original_verified_D6_approved",
       "work_rights": "Public Domain (institution record)",
       "image_rights": "Public Domain Mark; object record plus museum photo policy",
       "rights_url": "https://data.rijksmuseum.nl/policy/information-and-data-policy",
@@ -235,7 +233,7 @@
       "production_pixel_height": 4035,
       "production_sha256": "fce76a3c3196a2979b085636c93305cb1297364ee167a6e0ef31e7f8229477f9",
       "production_file_bytes": 31998130,
-      "production_ready": false,
+      "production_ready": true,
       "rights_verified_again": true,
       "rights_evidence": "wom13_画像権利照合_20261107.json",
       "original_acquisition_evidence": "wom13_原寸取得記録_20261107.json",
@@ -261,7 +259,7 @@
         "P08"
       ],
       "checked_date": "2026-11-07",
-      "status": "original_verified_layout_pending",
+      "status": "original_verified_D6_approved",
       "work_rights": "Public Domain (institution record)",
       "image_rights": "Public Domain Mark; object record plus museum photo policy",
       "rights_url": "https://data.rijksmuseum.nl/policy/information-and-data-policy",
@@ -271,7 +269,7 @@
       "production_pixel_height": 5195,
       "production_sha256": "27c3f948aade2dece4031ed33e77eef50b6295ef815db6633bc934a4c732637d",
       "production_file_bytes": 15380312,
-      "production_ready": false,
+      "production_ready": true,
       "note": "Later exterior view, not evidence of the1715 room or door dimensions.",
       "rights_verified_again": true,
       "rights_evidence": "wom13_画像権利照合_20261107.json",
@@ -298,7 +296,7 @@
         "P09"
       ],
       "checked_date": "2026-11-07",
-      "status": "original_verified_layout_pending",
+      "status": "original_verified_D6_approved",
       "work_rights": "Public Domain (institution record)",
       "image_rights": "Public Domain Mark; object record plus museum photo policy",
       "rights_url": "https://data.rijksmuseum.nl/policy/information-and-data-policy",
@@ -308,7 +306,7 @@
       "production_pixel_height": 4914,
       "production_sha256": "2f0cdab3b84e0e762fc84ea38c8eecd5afb34bdd4ba3dc8ea66068d6356c3318",
       "production_file_bytes": 23037915,
-      "production_ready": false,
+      "production_ready": true,
       "research_url": "https://bulletin.rijksmuseum.nl/article/download/9879/10375",
       "note": "Production original not inspected. Printed dark tone cannot measure varnish darkening of the original painting.",
       "rights_verified_again": true,
@@ -458,10 +456,9 @@
     }
   ],
   "remaining": [
-    "Approve D6 crop exception or provide alternate limits; current lower shield is cut even with y1 at .263",
-    "Finalize V02_L identification against museum missing-pieces explanation",
-    "Official pronunciation audio check and narration",
-    "Timeline/card/shot generation and video/audio/subtitle QA",
+    "Finish V02_L museum diagram comparison",
+    "Complete pronunciation review notes and corrected Japanese narration",
+    "Render and verify English/Japanese independent timelines, English native 4K",
     "Thumbnails, metadata, private Draft Release and REST re-download verification"
   ],
   "script_file_modified": false,
