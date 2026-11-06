@@ -1,0 +1,72 @@
+{
+  "request_sha256": "2c061e00a6f4952572b6767fac3e8fdeebaa2f6a7efeea9f7bea869f8fba413b",
+  "main_queries_sha256": "de9096e1f88dd78c457b5bf6f7a540cd7187cdafe315811853d75d6034dc0587",
+  "model_sha256": "beb0d1848dee9a49da392cc3df26958d46cfa35d321edf434f52949153f0df3a",
+  "voices_sha256": "bca610b8308e8d99f32e6fe4197e7ec01679264efed0cac9140fe9c29f1fbf7d",
+  "versions": {
+    "kokoro-onnx": "0.6.1",
+    "onnxruntime": "1.31.0",
+    "numpy": "2.3.5"
+  },
+  "scripts": [
+    {
+      "id": "N1",
+      "title": "Santa wore red in 1821",
+      "headline": "SANTA WORE RED IN 1821",
+      "text": "Many people believe Coca-Cola made Santa red in the nineteen thirties. But look at The Children's Friend, a little book printed in New York in eighteen twenty-one. In one surviving copy, now at Yale University, Santeclaus is already wearing a red coat.",
+      "words": 42,
+      "audio_file": "/Volumes/ESD-02/新チャンネル/ショート/EP012_v01_20261106/audio/N1_native.wav",
+      "audio_sha256": "15fbbd4a50a2fb4bfb4d86fddd2c257e2ceb94448c43a93cdfc6666b4a5b8514",
+      "native_audio_duration": 18.387333333333334,
+      "voice_onset_seconds": 0.09,
+      "last_voice_activity_seconds": 18.07,
+      "frames": 627,
+      "final_duration_seconds": 20.9,
+      "within_24_seconds": true,
+      "readings_applied": [
+        {
+          "display": "Santeclaus",
+          "spoken": "SAN-tee-claws",
+          "phonemes": "sˈænti klˌɔːz"
+        }
+      ]
+    },
+    {
+      "id": "N2",
+      "title": "Santa once wore the flag",
+      "headline": "SANTA ONCE WORE THE FLAG",
+      "text": "In January eighteen sixty-three, during the American Civil War, Thomas Nast drew Santa Claus for Harper's Weekly. His Santa visited a Union army camp, in a coat of stars and striped trousers. It was printed in black and white.",
+      "words": 39,
+      "audio_file": "/Volumes/ESD-02/新チャンネル/ショート/EP012_v01_20261106/audio/N2_native.wav",
+      "audio_sha256": "40e492a8082555a6789bc65847135324eb3997d668a310b4673648656f297ba4",
+      "native_audio_duration": 17.02466666666667,
+      "voice_onset_seconds": 0.1,
+      "last_voice_activity_seconds": 16.71,
+      "frames": 586,
+      "final_duration_seconds": 19.533333333333335,
+      "within_24_seconds": true,
+      "readings_applied": []
+    },
+    {
+      "id": "N3",
+      "title": "In 1821, Santa had one reindeer",
+      "headline": "IN 1821, SANTA HAD ONE REINDEER",
+      "text": "In eighteen twelve, Washington Irving pictured Saint Nicholas riding over the tops of the trees in a wagon. In eighteen twenty-one, a little book showed his sleigh pulled by a single reindeer. Two years later, a poem gave him eight tiny reindeer.",
+      "words": 42,
+      "audio_file": "/Volumes/ESD-02/新チャンネル/ショート/EP012_v01_20261106/audio/N3_native.wav",
+      "audio_sha256": "19190f1e82547f268383d2ab372247711b84bba56e1165a60e4d7c904826a5a2",
+      "native_audio_duration": 18.073291666666666,
+      "voice_onset_seconds": 0.1,
+      "last_voice_activity_seconds": 17.76,
+      "frames": 618,
+      "final_duration_seconds": 20.6,
+      "within_24_seconds": true,
+      "readings_applied": []
+    }
+  ],
+  "all_within_24_seconds": true,
+  "text_unchanged": true,
+  "speech_speed_modified_to_fit": false,
+  "human_full_listening": false,
+  "gate": "24 seconds including 2.5-second CTA; stop picture production and report on failure"
+}
