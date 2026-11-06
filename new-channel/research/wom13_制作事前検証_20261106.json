@@ -1,0 +1,98 @@
+{
+  "episode": "EP013_NightWatch",
+  "checked_date": "2026-11-06",
+  "source_remote_commit": "288c7d9c",
+  "status": "stopped_per_request_section_1_1_5",
+  "stop_reason": "V01 official IIIF info.json returned403",
+  "requests": [
+    {
+      "url": "https://id.rijksmuseum.nl/200107928",
+      "started_at_utc": "2026-11-06T14:49:43.343817+00:00",
+      "accept": "application/ld+json",
+      "status": 200,
+      "final_url": "https://id.rijksmuseum.nl/200107928",
+      "bytes": 173384,
+      "finished_at_utc": "2026-11-06T14:49:45.892942+00:00",
+      "started_at_jst": "2026-11-06T23:49:43.343817+09:00"
+    },
+    {
+      "url": "https://iiif.micr.io/PJEZO/info.json",
+      "started_at_utc": "2026-11-06T14:49:47.005636+00:00",
+      "accept": "application/json",
+      "status": 403,
+      "final_url": "https://iiif.micr.io/PJEZO/info.json",
+      "finished_at_utc": "2026-11-06T14:49:47.396905+00:00",
+      "started_at_jst": "2026-11-06T23:49:47.005636+09:00"
+    }
+  ],
+  "identity_check": {
+    "asset": "V01",
+    "expected_base": "https://iiif.micr.io/PJEZO",
+    "linked_art_images": [
+      {
+        "image_url": "https://iiif.micr.io/PJEZO/full/max/0/default.jpg",
+        "rights": [
+          "https://creativecommons.org/publicdomain/mark/1.0/"
+        ]
+      }
+    ],
+    "id_and_rights_match": true
+  },
+  "normalized_linked_art_file_sha256": "5ee93f14b11f415e6115c043b8a1dc4f7826d6550690546b0f0e204d6fc8b5f5",
+  "inputs": [
+    {
+      "path": "new-channel/wom13_制作依頼_20261106.md",
+      "sha256": "ba6f39404b1221fccad001d9cd92c06e6094832c3d01b860a3b584a4542a3f9e"
+    },
+    {
+      "path": "new-channel/episodes/EP013_NightWatch/records/content_en.json",
+      "sha256": "ac4bbc5345dab6d4a843f7fbde331fe1cd53537606d058d35b42569fb1a78e96"
+    },
+    {
+      "path": "new-channel/episodes/EP013_NightWatch/records/content.json",
+      "sha256": "49e27b9b613ffe406712e5ee4ba77eb8b48250f1e999c7c5df35422a1efa33e4"
+    }
+  ],
+  "ssd_connected": true,
+  "new_production_images_acquired": 0,
+  "image_binary_requests": 0,
+  "login_or_account_creation": false,
+  "alternative_routes_attempted": false,
+  "production_started": false,
+  "script_changed": false,
+  "draft_release_created": false,
+  "info_width": null,
+  "info_height": null,
+  "info_maxArea": null,
+  "next": "Claude to discuss Mac browser acquisition with user per request1-1(5). No browser acquisition performed in this run.",
+  "request_table_arithmetic": [
+    {
+      "id": "V05",
+      "width_claimed": 4396,
+      "height_claimed": 3022,
+      "computed_area": 13284712,
+      "exceeds_approximate_17550000": false
+    },
+    {
+      "id": "V06",
+      "width_claimed": 6120,
+      "height_claimed": 4035,
+      "computed_area": 24694200,
+      "exceeds_approximate_17550000": true
+    },
+    {
+      "id": "V07",
+      "width_claimed": 7250,
+      "height_claimed": 5195,
+      "computed_area": 37663750,
+      "exceeds_approximate_17550000": true
+    },
+    {
+      "id": "V08",
+      "width_claimed": 5572,
+      "height_claimed": 4914,
+      "computed_area": 27380808,
+      "exceeds_approximate_17550000": true
+    }
+  ]
+}
