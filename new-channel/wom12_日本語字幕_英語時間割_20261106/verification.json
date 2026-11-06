@@ -1,0 +1,126 @@
+{
+  "script_matches": true,
+  "page_text_identical_to_japanese_v02": true,
+  "cues": 101,
+  "minimum_duration": 1.4,
+  "max_lines": 2,
+  "max_line_chars": 22,
+  "all_cues_within_english_segment_speech": true,
+  "segments": [
+    {
+      "id": "P01",
+      "start": 1.8,
+      "end": 33.478,
+      "pages": 9,
+      "first_cue": 1,
+      "last_cue": 9
+    },
+    {
+      "id": "P02",
+      "start": 34.4,
+      "end": 52.405,
+      "pages": 10,
+      "first_cue": 10,
+      "last_cue": 19
+    },
+    {
+      "id": "P03",
+      "start": 57.333,
+      "end": 77.337,
+      "pages": 5,
+      "first_cue": 20,
+      "last_cue": 24
+    },
+    {
+      "id": "P04",
+      "start": 78.267,
+      "end": 101.389,
+      "pages": 6,
+      "first_cue": 25,
+      "last_cue": 30
+    },
+    {
+      "id": "P05",
+      "start": 102.3,
+      "end": 128.644,
+      "pages": 6,
+      "first_cue": 31,
+      "last_cue": 36
+    },
+    {
+      "id": "P06",
+      "start": 129.567,
+      "end": 157.491,
+      "pages": 7,
+      "first_cue": 37,
+      "last_cue": 43
+    },
+    {
+      "id": "P07",
+      "start": 158.4,
+      "end": 200.64,
+      "pages": 11,
+      "first_cue": 44,
+      "last_cue": 54
+    },
+    {
+      "id": "P08",
+      "start": 201.567,
+      "end": 244.483,
+      "pages": 10,
+      "first_cue": 55,
+      "last_cue": 64
+    },
+    {
+      "id": "P09",
+      "start": 245.4,
+      "end": 272.366,
+      "pages": 8,
+      "first_cue": 65,
+      "last_cue": 72
+    },
+    {
+      "id": "P10",
+      "start": 274.8,
+      "end": 293.628,
+      "pages": 5,
+      "first_cue": 73,
+      "last_cue": 77
+    },
+    {
+      "id": "P11",
+      "start": 294.533,
+      "end": 314.743,
+      "pages": 5,
+      "first_cue": 78,
+      "last_cue": 82
+    },
+    {
+      "id": "P12",
+      "start": 317.167,
+      "end": 345.32,
+      "pages": 10,
+      "first_cue": 83,
+      "last_cue": 92
+    },
+    {
+      "id": "P13",
+      "start": 346.233,
+      "end": 352.936,
+      "pages": 2,
+      "first_cue": 93,
+      "last_cue": 94
+    },
+    {
+      "id": "P14",
+      "start": 353.867,
+      "end": 375.532,
+      "pages": 7,
+      "first_cue": 95,
+      "last_cue": 101
+    }
+  ],
+  "srt_sha256": "910fca540e16677762239ffbbb4b4e8b746b1d73888c89924d42e69aad4f4f6b",
+  "srt_bytes": 10112,
+  "weighting": "Characters excluding line breaks, with minimum 1400 ms and rounding on cumulative millisecond boundaries"
+}
