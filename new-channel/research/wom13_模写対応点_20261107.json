@@ -1,0 +1,163 @@
+{
+  "method": "unweighted least-squares similarity; no shear, anisotropic scale, or outlier removal",
+  "coordinate_basis": "original pixel coordinates; manual landmark selection reviewed at 1:1",
+  "landmarks": [
+    {
+      "name": "captain_nose",
+      "V01_xy": [
+        7199,
+        6201
+      ],
+      "V02_xy": [
+        5752,
+        4413
+      ],
+      "predicted_V02_xy": [
+        5736.899366810632,
+        4316.2775451862635
+      ],
+      "residual_px": 97.89413868008201,
+      "residual_fraction_of_V02_width": 0.009368756692514309
+    },
+    {
+      "name": "lieutenant_nose",
+      "V01_xy": [
+        8645,
+        6783
+      ],
+      "V02_xy": [
+        6699,
+        4742
+      ],
+      "predicted_V02_xy": [
+        6691.19467042512,
+        4673.969358924713
+      ],
+      "residual_px": 68.47693987677212,
+      "residual_fraction_of_V02_width": 0.006553444336948236
+    },
+    {
+      "name": "girl_nose",
+      "V01_xy": [
+        4698,
+        7565
+      ],
+      "V02_xy": [
+        4174,
+        5230
+      ],
+      "predicted_V02_xy": [
+        4123.601477537804,
+        5247.128817335009
+      ],
+      "residual_px": 53.22976093942707,
+      "residual_fraction_of_V02_width": 0.0050942445152097875
+    },
+    {
+      "name": "drum_sound_hole_center",
+      "V01_xy": [
+        14011,
+        8824
+      ],
+      "V02_xy": [
+        10089,
+        5993
+      ],
+      "predicted_V02_xy": [
+        10230.648493536622,
+        5923.712693742688
+      ],
+      "residual_px": 157.68648175918278,
+      "residual_fraction_of_V02_width": 0.01509105959988351
+    },
+    {
+      "name": "flag_cloth_upper_attachment",
+      "V01_xy": [
+        2181,
+        339
+      ],
+      "V02_xy": [
+        2383,
+        537
+      ],
+      "predicted_V02_xy": [
+        2364.8688069809346,
+        563.5425484319193
+      ],
+      "residual_px": 32.144160240320296,
+      "residual_fraction_of_V02_width": 0.00307629057711937
+    },
+    {
+      "name": "right_spear_tip",
+      "V01_xy": [
+        13910,
+        3679
+      ],
+      "V02_xy": [
+        10134,
+        2372
+      ],
+      "predicted_V02_xy": [
+        10083.787184708353,
+        2562.3690363802593
+      ],
+      "residual_px": 196.87990459125461,
+      "residual_fraction_of_V02_width": 0.018841985318332338
+    }
+  ],
+  "matrix_2x3": [
+    [
+      0.6536308443318052,
+      0.01571323489810631,
+      933.9731488628096
+    ],
+    [
+      -0.01571323489810631,
+      0.6536308443318052,
+      376.2322575162072
+    ]
+  ],
+  "scale": 0.6538196895267621,
+  "rotation_degrees": -1.3771208573306661,
+  "residual_max_px": 196.87990459125461,
+  "residual_rms_px": 116.73740583854342,
+  "residual_max_percent_width": 1.884198531833234,
+  "pass_max_2_percent": true,
+  "V01_corners_in_V02_pixels": [
+    [
+      933.9731488628096,
+      376.2322575162072
+    ],
+    [
+      10506.396864102097,
+      146.11193243344027
+    ],
+    [
+      10697.438373993273,
+      8092.955737819528
+    ],
+    [
+      1125.0146587539862,
+      8323.076062902295
+    ]
+  ],
+  "V01_corners_in_V02_fraction": [
+    [
+      0.08938397443418601,
+      0.04597730141955361
+    ],
+    [
+      1.0054930485311606,
+      0.017855545940784586
+    ],
+    [
+      1.0237762823230234,
+      0.988996179618664
+    ],
+    [
+      0.10766720822604901,
+      1.017117935097433
+    ]
+  ],
+  "note": "Manual correspondences and a hand-painted copy imply uncertainty; this is a schematic frame, not an exact reconstruction. No points discarded."
+}

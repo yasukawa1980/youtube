@@ -1,0 +1,362 @@
+{
+  "status": "proposal_only_pending_D6_exception",
+  "requested_boxes": {
+    "D1": [
+      0.41,
+      0.46,
+      0.7,
+      0.656
+    ],
+    "D2": [
+      0.03,
+      0.4,
+      0.3,
+      0.583
+    ],
+    "D3": [
+      0.13,
+      0.25,
+      0.4,
+      0.433
+    ],
+    "D4": [
+      0.73,
+      0.6,
+      1,
+      0.783
+    ],
+    "D5": [
+      0.2,
+      0.57,
+      0.47,
+      0.753
+    ],
+    "D6": [
+      0.45,
+      0.05,
+      0.72,
+      0.233
+    ],
+    "D7": [
+      0.53,
+      0.66,
+      0.795,
+      0.84
+    ]
+  },
+  "proposed_boxes": [
+    {
+      "id": "D1",
+      "requested": [
+        0.41,
+        0.46,
+        0.7,
+        0.656
+      ],
+      "proposed": [
+        0.41,
+        0.46,
+        0.7,
+        0.6564933068761309
+      ],
+      "edge_deltas": [
+        0.0,
+        0.0,
+        0.0,
+        0.0004933068761309167
+      ],
+      "within_003": true,
+      "source_crop_width_px": 4247.049999999999,
+      "source_crop_height_px": 2388.965625,
+      "max_4k_scale": 0.904157003096267
+    },
+    {
+      "id": "D2",
+      "requested": [
+        0.03,
+        0.4,
+        0.3,
+        0.583
+      ],
+      "proposed": [
+        0.03,
+        0.43,
+        0.3,
+        0.6129420443329495
+      ],
+      "edge_deltas": [
+        0.0,
+        0.02999999999999997,
+        0.0,
+        0.029942044332949558
+      ],
+      "within_003": true,
+      "source_crop_width_px": 3954.15,
+      "source_crop_height_px": 2224.2093750000004,
+      "max_4k_scale": 0.9711315959182125
+    },
+    {
+      "id": "D3",
+      "requested": [
+        0.13,
+        0.25,
+        0.4,
+        0.433
+      ],
+      "proposed": [
+        0.13,
+        0.27,
+        0.4,
+        0.45294204433294954
+      ],
+      "edge_deltas": [
+        0.0,
+        0.020000000000000018,
+        0.0,
+        0.01994204433294955
+      ],
+      "within_003": true,
+      "source_crop_width_px": 3954.15,
+      "source_crop_height_px": 2224.2093750000004,
+      "max_4k_scale": 0.9711315959182125
+    },
+    {
+      "id": "D4",
+      "requested": [
+        0.73,
+        0.6,
+        1,
+        0.783
+      ],
+      "proposed": [
+        0.73,
+        0.6,
+        1,
+        0.7829420443329496
+      ],
+      "edge_deltas": [
+        0.0,
+        0.0,
+        0,
+        -5.795566705046884e-05
+      ],
+      "within_003": true,
+      "source_crop_width_px": 3954.15,
+      "source_crop_height_px": 2224.209375000001,
+      "max_4k_scale": 0.9711315959182125
+    },
+    {
+      "id": "D5",
+      "requested": [
+        0.2,
+        0.57,
+        0.47,
+        0.753
+      ],
+      "proposed": [
+        0.2,
+        0.59,
+        0.47,
+        0.7729420443329494
+      ],
+      "edge_deltas": [
+        0.0,
+        0.020000000000000018,
+        0.0,
+        0.019942044332949438
+      ],
+      "within_003": true,
+      "source_crop_width_px": 3954.1499999999996,
+      "source_crop_height_px": 2224.2093749999995,
+      "max_4k_scale": 0.9711315959182126
+    },
+    {
+      "id": "D6",
+      "requested": [
+        0.45,
+        0.05,
+        0.72,
+        0.233
+      ],
+      "proposed": [
+        0.42,
+        0.075,
+        0.78,
+        0.31892272577726605
+      ],
+      "edge_deltas": [
+        -0.030000000000000027,
+        0.024999999999999994,
+        0.06000000000000005,
+        0.08592272577726603
+      ],
+      "within_003": false,
+      "source_crop_width_px": 5272.200000000001,
+      "source_crop_height_px": 2965.6125000000006,
+      "max_4k_scale": 0.7283486969386593
+    },
+    {
+      "id": "D7",
+      "requested": [
+        0.53,
+        0.66,
+        0.795,
+        0.84
+      ],
+      "proposed": [
+        0.53,
+        0.66,
+        0.795,
+        0.8395542286971542
+      ],
+      "edge_deltas": [
+        0.0,
+        0.0,
+        0.0,
+        -0.0004457713028457322
+      ],
+      "within_003": true,
+      "source_crop_width_px": 3880.925,
+      "source_crop_height_px": 2183.0203125000007,
+      "max_4k_scale": 0.9894548335770467
+    }
+  ],
+  "all_21_overlap_pairs": [
+    {
+      "a": "D1",
+      "b": "D2",
+      "overlap_over_smaller": 0.0,
+      "pass_25_percent": true
+    },
+    {
+      "a": "D1",
+      "b": "D3",
+      "overlap_over_smaller": 0.0,
+      "pass_25_percent": true
+    },
+    {
+      "a": "D1",
+      "b": "D4",
+      "overlap_over_smaller": 0.0,
+      "pass_25_percent": true
+    },
+    {
+      "a": "D1",
+      "b": "D5",
+      "overlap_over_smaller": 0.08077033615097007,
+      "pass_25_percent": true
+    },
+    {
+      "a": "D1",
+      "b": "D6",
+      "overlap_over_smaller": 0.0,
+      "pass_25_percent": true
+    },
+    {
+      "a": "D1",
+      "b": "D7",
+      "overlap_over_smaller": 0.0,
+      "pass_25_percent": true
+    },
+    {
+      "a": "D2",
+      "b": "D3",
+      "overlap_over_smaller": 0.07895938262290367,
+      "pass_25_percent": true
+    },
+    {
+      "a": "D2",
+      "b": "D4",
+      "overlap_over_smaller": 0.0,
+      "pass_25_percent": true
+    },
+    {
+      "a": "D2",
+      "b": "D5",
+      "overlap_over_smaller": 0.046446695660531584,
+      "pass_25_percent": true
+    },
+    {
+      "a": "D2",
+      "b": "D6",
+      "overlap_over_smaller": 0.0,
+      "pass_25_percent": true
+    },
+    {
+      "a": "D2",
+      "b": "D7",
+      "overlap_over_smaller": 0.0,
+      "pass_25_percent": true
+    },
+    {
+      "a": "D3",
+      "b": "D4",
+      "overlap_over_smaller": 0.0,
+      "pass_25_percent": true
+    },
+    {
+      "a": "D3",
+      "b": "D5",
+      "overlap_over_smaller": 0.0,
+      "pass_25_percent": true
+    },
+    {
+      "a": "D3",
+      "b": "D6",
+      "overlap_over_smaller": 0.0,
+      "pass_25_percent": true
+    },
+    {
+      "a": "D3",
+      "b": "D7",
+      "overlap_over_smaller": 0.0,
+      "pass_25_percent": true
+    },
+    {
+      "a": "D4",
+      "b": "D5",
+      "overlap_over_smaller": 0.0,
+      "pass_25_percent": true
+    },
+    {
+      "a": "D4",
+      "b": "D6",
+      "overlap_over_smaller": 0.0,
+      "pass_25_percent": true
+    },
+    {
+      "a": "D4",
+      "b": "D7",
+      "overlap_over_smaller": 0.16794700965045017,
+      "pass_25_percent": true
+    },
+    {
+      "a": "D5",
+      "b": "D6",
+      "overlap_over_smaller": 0.0,
+      "pass_25_percent": true
+    },
+    {
+      "a": "D5",
+      "b": "D7",
+      "overlap_over_smaller": 0.0,
+      "pass_25_percent": true
+    },
+    {
+      "a": "D6",
+      "b": "D7",
+      "overlap_over_smaller": 0.0,
+      "pass_25_percent": true
+    }
+  ],
+  "maximum_overlap_fraction": 0.16794700965045017,
+  "all_overlap_pass": true,
+  "D6_issue": "With y1 capped at .263, lower shield/frame remains cut. Proposed wider region exceeds allowed edge adjustments. Do not use without approval.",
+  "V02_L_requested": [
+    0,
+    0.48,
+    0.37,
+    0.746
+  ],
+  "V02_L_source_width": 3866.13
+}
