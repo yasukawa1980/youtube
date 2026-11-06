@@ -6,13 +6,15 @@ ffmpeg に libass が入っていないので、1画面ずつ透明PNGにして1
 - 文と文の間が1秒未満なら前の字幕を残す（ちらつかせない）
 - 冒頭の題と章題は札が出すので字幕にしない
 """
+import os
 import re
 from pathlib import Path
 
 from PIL import Image, ImageDraw, ImageFilter, ImageFont
 
 HERE = Path(__file__).resolve().parent
-SSD = Path('/Volumes/ESD-EPB/BGM/9_朗読/RDG03_素材_銀河鉄道の夜/_work')   # Macの空きが少ないのでSSDへ
+SUF = f"_{os.environ['RDG_VOICE']}" if os.environ.get('RDG_VOICE') else ''   # satomi で ElevenLabs版
+SSD = Path(f'/Volumes/ESD-EPB/BGM/9_朗読/RDG03_素材_銀河鉄道の夜/_work{SUF}')   # Macの空きが少ないのでSSDへ
 OUT = SSD / 'subs'
 SIZE = (1920, 1080)
 FONT = ImageFont.truetype('/System/Library/Fonts/ヒラギノ明朝 ProN.ttc', 46, index=0)
@@ -63,7 +65,7 @@ def main():
     for old in OUT.glob('*.png'):
         old.unlink()
     cues = []
-    for block in (HERE / 'narration.srt').read_text().strip().split('\n\n'):
+    for block in (HERE / f'narration{SUF}.srt').read_text().strip().split('\n\n'):
         _, span, text = block.split('\n', 2)
         a, b = span.split(' --> ')
         cues.append((sec(a), sec(b), text.replace('\n', '')))

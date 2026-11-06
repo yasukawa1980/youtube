@@ -9,6 +9,7 @@ RDG02の render.py を直したもの。
 from __future__ import annotations
 
 import json
+import os
 import re
 import subprocess
 import sys
@@ -44,8 +45,23 @@ LABEL = dict(LABEL_DEFAULT, y=70)
 OPENING = dict(LABEL, hold=4.0)    # 「一、午后の授業」の札（約9秒）と重ならないように短く
 CTA = dict(CTA_DEFAULT, y=88)
 SSD = Path('/Volumes/ESD-EPB/BGM/9_朗読/RDG03_素材_銀河鉄道の夜')
-MIX = SSD / '_work' / 'mix.wav'
-OUT = SSD / '完成' / 'RDG03_銀河鉄道の夜_朗読.mp4'
+VOICE = os.environ.get('RDG_VOICE', '')   # 'satomi' で ElevenLabs v4・Satomi 版（11/6 本人決定）
+SUF = f'_{VOICE}' if VOICE else ''
+WORK = SSD / f'_work{SUF}'
+MIX = WORK / 'mix.wav'
+OUT = SSD / '完成' / f'RDG03_銀河鉄道の夜_朗読{SUF}.mp4'
+
+
+def _starts(name):
+    return [float(h) * 3600 + float(m) * 60 + float(sec.replace(',', '.'))
+            for h, m, sec in re.findall(r'^(\d+):(\d+):([\d,]+) -->', (HERE / name).read_text(), re.M)]
+
+
+if VOICE:   # 場面の切り替えを、冥鳴ひまり版と同じ字幕番号の位置へ移す
+    _old, _new = _starts('narration.srt'), _starts(f'narration{SUF}.srt')
+    assert len(_old) == len(_new)
+    SCENES = [(0.0, g, img) if s == 0 else
+              (_new[min(range(len(_old)), key=lambda i: abs(_old[i] - s))], g, img) for s, g, img in SCENES]
 PREVIEW = float(sys.argv[1]) if len(sys.argv) > 1 else None   # 秒。頭だけ試しに書き出す
 
 
@@ -76,7 +92,7 @@ def label_png(text, image, name, st):
 
 
 def mix(total):
-    voice = SSD / 'narration.wav'
+    voice = SSD / f'narration{SUF}.wav'
     gv = VOICE_LUFS - lufs(voice)
     gb = BED_LUFS - lufs(BED, 600)
     MIX.parent.mkdir(parents=True, exist_ok=True)
@@ -96,8 +112,8 @@ def scene_of(t):
 
 
 def main():
-    chapters = json.loads((HERE / 'chapters.json').read_text())   # 章題の位置
-    total = duration(SSD / 'narration.wav')
+    chapters = json.loads((HERE / f'chapters{SUF}.json').read_text())   # 章題の位置
+    total = duration(SSD / f'narration{SUF}.wav')
     cuts = [s - gap / 2 for s, gap, _ in SCENES[1:]]     # 転換の中心＝区切りの無音の真ん中
     starts = [0.0] + cuts
     ends = cuts + [total]
@@ -122,7 +138,7 @@ def main():
         args += ['-loop', '1', '-framerate', str(FPS), '-itsoffset', f'{at - 0.5:.3f}',
                  '-t', f'{2 * st["fade"] + st["hold"] + 1:.2f}', '-i', str(png)]
     subs = n + len(overlays)          # 字幕（subtitles.py が作る画像列）
-    args += ['-f', 'concat', '-safe', '0', '-i', str(SSD / '_work' / 'subs.txt'), '-i', str(audio)]
+    args += ['-f', 'concat', '-safe', '0', '-i', str(WORK / 'subs.txt'), '-i', str(audio)]
 
     f = [f'[{i}:v]scale={SIZE[0]}:{SIZE[1]}:flags=lanczos,setsar=1,fps={FPS},format=yuv420p[s{i}]'
          for i in range(n)]
@@ -139,7 +155,7 @@ def main():
                             ov=':eof_action=pass') + f'[c{j}]')
         base = f'c{j}'
     f.append(f'[{base}]fade=t=out:st={total - END_FADE:.3f}:d={END_FADE}[v]')
-    out = SSD / '_work' / '冒頭の試し.mp4' if PREVIEW else OUT
+    out = WORK / '冒頭の試し.mp4' if PREVIEW else OUT
     out.parent.mkdir(parents=True, exist_ok=True)
     args += ['-filter_complex', ';'.join(f), '-map', '[v]', '-map', f'{subs + 1}:a',
              '-t', f'{PREVIEW or total:.3f}', '-c:v', 'libx264', '-preset', 'medium', '-crf', '20',
