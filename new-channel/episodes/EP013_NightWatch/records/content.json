@@ -1,0 +1,256 @@
+{
+  "episode_id": "EP013",
+  "series": "Quiet Origins",
+  "language": "ja",
+  "title": "「夜警」は、本当に夜の絵なのか",
+  "subtitle": "大広間のための市民隊の肖像、行進を語る家の説明、もっと光をと願った弟子、1715年の切り詰め、1797年に現れる名前",
+  "script_version": "v02 (2026-11-06, approved by the owner)",
+  "opening_after": "P02",
+  "format": "timeline (変遷型), painting series test 1 (Origins of a Masterpiece)",
+  "chapters": [
+    {
+      "id": "C01",
+      "title": "名前"
+    },
+    {
+      "id": "C02",
+      "title": "1642年：アムステルダムの一隊"
+    },
+    {
+      "id": "C03",
+      "title": "初期の言葉"
+    },
+    {
+      "id": "C04",
+      "title": "1715年：切り詰め"
+    },
+    {
+      "id": "C05",
+      "title": "1797年：新しい名前"
+    },
+    {
+      "id": "C06",
+      "title": "そして今"
+    }
+  ],
+  "sources": [
+    {
+      "id": "V-S01",
+      "title": "Rijksmuseum, SK-C-5, Rembrandt van Rijn, The Night Watch (1642): object record and museum texts",
+      "kind": "museum",
+      "status": "checked by Codex 2026-11-06: completed 1642 for the great hall of the Kloveniersdoelen; name first found in writing in 1797 per museum (source text not seen); girl as mascot, claws and gun linked to arquebusier symbols"
+    },
+    {
+      "id": "V-S02",
+      "title": "D. C. Meijer Jr., Oud Holland IV (1886), p.204, transcription of the Banninck Cocq family album caption (RKD PDF); Dudok van Heel, Rijksmuseum Bulletin 57 (2009)",
+      "kind": "transcription",
+      "status": "checked by Codex 2026-11-06 on 1886 page image: captain orders lieutenant to have his company of citizens march (marcheren); no hour; album page itself not seen"
+    },
+    {
+      "id": "V-S03",
+      "title": "Samuel van Hoogstraten, Inleyding tot de hooge schoole der schilderkonst, Rotterdam, 1678, p.176 (Getty Research Institute copy, Internet Archive totdehoogesch00hoog)",
+      "kind": "primary_text",
+      "status": "checked by Codex 2026-11-06 on page image: criticism of whole over commissioned portraits, praise, wish for meer lichts; does not call it a night scene"
+    },
+    {
+      "id": "V-S04",
+      "title": "Rijksmuseum, \"The missing pieces\" (2021) and transcription of the resolution of 23 May 1715",
+      "kind": "museum",
+      "status": "checked by Codex 2026-11-06: cleaning and move ordered; cut down in or soon after 1715; on the left two men and a child lost"
+    },
+    {
+      "id": "V-S05",
+      "title": "Gerrit Lundens (attributed), copy after The Night Watch, Rijksmuseum SK-C-1453 / National Gallery NG289",
+      "kind": "museum",
+      "status": "checked by Codex 2026-11-06: c.1642-55, panel, 66.5x85.5 cm; shows the composition before the cut"
+    },
+    {
+      "id": "V-S06",
+      "title": "Van Duijn, Rijksmuseum Bulletin 68(3), 2020, p.259",
+      "kind": "scholarly",
+      "status": "checked by Codex 2026-11-06: January 1946 to summer 1947, most of the old varnish removed"
+    },
+    {
+      "id": "V-S07",
+      "title": "Smarthistory (Schaller); Google Arts & Culture",
+      "kind": "reference",
+      "status": "checked by Codex 2026-11-06: describes the scene as daytime; used only as \"some art historians describe it as a scene by day\""
+    }
+  ],
+  "segments": [
+    {
+      "id": "P01",
+      "chapter": "C01",
+      "sources": [
+        "V-S01",
+        "V-S02"
+      ],
+      "classification": "editorial_question",
+      "visuals": [
+        "V01_full_1"
+      ],
+      "text": "これは、世界で最も有名な絵の一つ、レンブラントの「夜警」です。深い影の中から人々が現れ、夜の闇の一場面のように見えます。けれど、この名前はレンブラントが付けたものではありません。記録に現れるのは、彼が亡くなってずっと後のことです。そして、隊長の家に伝わる古い説明が語るのは、市民の一隊と、行進の命令です。夜のことは書かれていません。"
+    },
+    {
+      "id": "P02",
+      "chapter": "C01",
+      "sources": [],
+      "classification": "editorial_question",
+      "visuals": [
+        "D_timeline_intro"
+      ],
+      "text": "今回は、この絵の歩みをたどります。そのために描かれた広間から、切り詰められた時代、そして名前を受け取ったときまで、時代の順に見ていきます。"
+    },
+    {
+      "id": "P03",
+      "chapter": "C02",
+      "sources": [
+        "V-S01",
+        "V-S03"
+      ],
+      "classification": "historical_fact",
+      "visuals": [
+        "V05",
+        "V06"
+      ],
+      "text": "1642年、レンブラントはとても大きな集団肖像画を仕上げました。アムステルダムの市民隊の一つ、火縄銃手たちの集会所の大広間に飾るためのものです。こうした絵は、この街では珍しくありませんでした。隊員たちは、一人ひとりの顔が見えるように、横に並んで描かれることが多かったのです。"
+    },
+    {
+      "id": "P04",
+      "chapter": "C02",
+      "sources": [
+        "V-S01"
+      ],
+      "classification": "historical_fact",
+      "visuals": [
+        "V01_D1",
+        "V01_D2",
+        "V01_D3",
+        "V01_D4"
+      ],
+      "text": "レンブラントは、別のことをしました。中央では、黒い服の隊長フランス・バニング・コックが、黄色い服の副官ウィレム・ファン・ライテンブルフに命令を出しています。そのまわりでは、男たちが銃に弾をこめ、旗を掲げ、太鼓を打っています。肖像画でありながら、動いている一瞬のように見えます。"
+    },
+    {
+      "id": "P05",
+      "chapter": "C02",
+      "sources": [
+        "V-S01"
+      ],
+      "classification": "museum_interpretation",
+      "visuals": [
+        "V01_D5"
+      ],
+      "text": "その後ろに、小さく明るい姿があります。腰に鶏を下げた少女です。美術館は、少女を一隊のマスコットのような存在と説明し、鶏の爪と、そばの銃を、火縄銃手たちの象徴と結びつけています。"
+    },
+    {
+      "id": "P06",
+      "chapter": "C03",
+      "sources": [
+        "V-S02"
+      ],
+      "classification": "historical_fact",
+      "visuals": [
+        "D_album"
+      ],
+      "text": "隊長の家に伝わるアルバムには、この絵の小さな写しがあり、オランダ語の説明が添えられています。プルメルラントの若い領主が、隊長として、副官であるフラールディンゲンの領主に、市民の一隊を行進させるよう命じている、と。何時ごろのことかには触れていません。"
+    },
+    {
+      "id": "P07",
+      "chapter": "C03",
+      "sources": [
+        "V-S03"
+      ],
+      "classification": "historical_fact",
+      "visuals": [
+        "D_1678"
+      ],
+      "text": "1678年、レンブラントに学んだサミュエル・ファン・ホーホストラーテンは、絵画についての本の中でこの絵を取り上げました。彼は、レンブラントが頼まれた一人ひとりの肖像よりも、絵全体を大事にしすぎた、という批判を伝えています。それでも、この絵はほかのどの作品よりも長く残るだろう、と書きました。そして、もっと光を入れてくれていたら、とも。この絵の暗さは、早くから気づかれていたのです。けれど彼も、夜の場面とは呼んでいません。"
+    },
+    {
+      "id": "P08",
+      "chapter": "C04",
+      "sources": [
+        "V-S04",
+        "V-S05"
+      ],
+      "classification": "historical_fact",
+      "visuals": [
+        "V07",
+        "D_cut",
+        "V02_L"
+      ],
+      "text": "1715年、市はこの絵を清掃し、市庁舎の一室へ移すよう命じました。そのころ絵は、新しい場所に収めるため、まわりを切り詰められます。とくに大きく失われたのは左側で、男性2人と子ども1人の姿が消えました。彼らの姿が分かるのは、切られる前に描かれた、ずっと小さな写しがあるからです。ヘリット・ルンデンスの作とされる模写です。"
+    },
+    {
+      "id": "P09",
+      "chapter": "C05",
+      "sources": [
+        "V-S01"
+      ],
+      "classification": "historical_fact",
+      "visuals": [
+        "V08",
+        "D_1797"
+      ],
+      "text": "年月とともに、ニスと汚れの層が、表面を暗くしていきました。そして18世紀の終わりには、この絵は新しい名前を持っていました。美術館によると、「夜警」という名前が文献に初めて現れるのは1797年。レンブラントが描き終えてから、およそ150年後のことです。"
+    },
+    {
+      "id": "P10",
+      "chapter": "C05",
+      "sources": [
+        "V-S06"
+      ],
+      "classification": "historical_fact",
+      "visuals": [
+        "V01_D6"
+      ],
+      "text": "1946年から47年にかけて、古いニスの多くが取り除かれました。色と光は、はっきりしました。それでも、深い明暗の対比は残りました。そして、名前も残りました。"
+    },
+    {
+      "id": "P11",
+      "chapter": "C06",
+      "sources": [
+        "V-S01"
+      ],
+      "classification": "historical_fact",
+      "visuals": [
+        "V01_D7"
+      ],
+      "text": "この絵は今も、所蔵する美術館で詳しく調べられています。表面は、展示室の床から見えるよりはるかに細かく、見られるようになりました。"
+    },
+    {
+      "id": "P12",
+      "chapter": "C06",
+      "sources": [
+        "V-S01",
+        "V-S02",
+        "V-S07"
+      ],
+      "classification": "editorial_conclusion",
+      "visuals": [
+        "V01_full_2"
+      ],
+      "text": "では、「夜警」は本当に夜の絵なのでしょうか。有名なこの名前は、レンブラントの時代のものではありません。隊長の家の説明が語るのは、隊長と一隊、そして行進の命令で、時刻には触れていません。昼の場面だと説明する美術史家もいます。名前が伝えているのは、後の人々がこの絵をどう見たかです。レンブラントが何を描いたのかを、教えてくれるわけではありません。"
+    },
+    {
+      "id": "P13",
+      "chapter": "C06",
+      "sources": [],
+      "classification": "closing",
+      "visuals": [
+        "V01_full_2"
+      ],
+      "text": "すべての物語には、始まりがあります。ときに絵は、描いた人がいなくなってずっと後に、名前を受け取るのです。"
+    },
+    {
+      "id": "P14",
+      "chapter": "C06",
+      "sources": [],
+      "classification": "credits",
+      "visuals": [
+        "credits"
+      ],
+      "text": "この動画は、歴史資料と、美術館の公開コレクションにもとづいています。ナレーションには合成音声を使っています。出典と利用条件は説明欄に記載しています。楽しんでいただけたら、高評価とチャンネル登録で、これからも静かな起源の物語をお楽しみください。ご視聴ありがとうございました。"
+    }
+  ]
+}
