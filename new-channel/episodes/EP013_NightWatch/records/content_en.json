@@ -1,0 +1,256 @@
+{
+  "episode_id": "EP013",
+  "series": "Quiet Origins",
+  "language": "en",
+  "title": "Is The Night Watch Really Set at Night?",
+  "subtitle": "A militia portrait for a great hall, a family caption about a march, a pupil who wished for more light, a cut in 1715, and a name first found in 1797",
+  "script_version": "v02 (2026-11-06, approved by the owner)",
+  "opening_after": "P02",
+  "format": "timeline (変遷型), painting series test 1 (Origins of a Masterpiece)",
+  "chapters": [
+    {
+      "id": "C01",
+      "title": "A Name"
+    },
+    {
+      "id": "C02",
+      "title": "1642: A Company in Amsterdam"
+    },
+    {
+      "id": "C03",
+      "title": "Early Words"
+    },
+    {
+      "id": "C04",
+      "title": "1715: The Cut"
+    },
+    {
+      "id": "C05",
+      "title": "1797: A New Name"
+    },
+    {
+      "id": "C06",
+      "title": "Then and Now"
+    }
+  ],
+  "sources": [
+    {
+      "id": "V-S01",
+      "title": "Rijksmuseum, SK-C-5, Rembrandt van Rijn, The Night Watch (1642): object record and museum texts",
+      "kind": "museum",
+      "status": "checked by Codex 2026-11-06: completed 1642 for the great hall of the Kloveniersdoelen; name first found in writing in 1797 per museum (source text not seen); girl as mascot, claws and gun linked to arquebusier symbols"
+    },
+    {
+      "id": "V-S02",
+      "title": "D. C. Meijer Jr., Oud Holland IV (1886), p.204, transcription of the Banninck Cocq family album caption (RKD PDF); Dudok van Heel, Rijksmuseum Bulletin 57 (2009)",
+      "kind": "transcription",
+      "status": "checked by Codex 2026-11-06 on 1886 page image: captain orders lieutenant to have his company of citizens march (marcheren); no hour; album page itself not seen"
+    },
+    {
+      "id": "V-S03",
+      "title": "Samuel van Hoogstraten, Inleyding tot de hooge schoole der schilderkonst, Rotterdam, 1678, p.176 (Getty Research Institute copy, Internet Archive totdehoogesch00hoog)",
+      "kind": "primary_text",
+      "status": "checked by Codex 2026-11-06 on page image: criticism of whole over commissioned portraits, praise, wish for meer lichts; does not call it a night scene"
+    },
+    {
+      "id": "V-S04",
+      "title": "Rijksmuseum, \"The missing pieces\" (2021) and transcription of the resolution of 23 May 1715",
+      "kind": "museum",
+      "status": "checked by Codex 2026-11-06: cleaning and move ordered; cut down in or soon after 1715; on the left two men and a child lost"
+    },
+    {
+      "id": "V-S05",
+      "title": "Gerrit Lundens (attributed), copy after The Night Watch, Rijksmuseum SK-C-1453 / National Gallery NG289",
+      "kind": "museum",
+      "status": "checked by Codex 2026-11-06: c.1642-55, panel, 66.5x85.5 cm; shows the composition before the cut"
+    },
+    {
+      "id": "V-S06",
+      "title": "Van Duijn, Rijksmuseum Bulletin 68(3), 2020, p.259",
+      "kind": "scholarly",
+      "status": "checked by Codex 2026-11-06: January 1946 to summer 1947, most of the old varnish removed"
+    },
+    {
+      "id": "V-S07",
+      "title": "Smarthistory (Schaller); Google Arts & Culture",
+      "kind": "reference",
+      "status": "checked by Codex 2026-11-06: describes the scene as daytime; used only as \"some art historians describe it as a scene by day\""
+    }
+  ],
+  "segments": [
+    {
+      "id": "P01",
+      "chapter": "C01",
+      "sources": [
+        "V-S01",
+        "V-S02"
+      ],
+      "classification": "editorial_question",
+      "visuals": [
+        "V01_full_1"
+      ],
+      "text": "This is one of the most famous paintings in the world: Rembrandt's The Night Watch. Figures step out of deep shadow, as if caught in the dark of night. But the name is not Rembrandt's. It is first recorded long after he died. And an early description, kept by the captain's own family, speaks of a company of citizens and an order to march. It says nothing about the night."
+    },
+    {
+      "id": "P02",
+      "chapter": "C01",
+      "sources": [],
+      "classification": "editorial_question",
+      "visuals": [
+        "D_timeline_intro"
+      ],
+      "text": "In this episode, we follow the painting through time: from the hall it was made for, to the years when it was cut down, to the time it received its name."
+    },
+    {
+      "id": "P03",
+      "chapter": "C02",
+      "sources": [
+        "V-S01",
+        "V-S03"
+      ],
+      "classification": "historical_fact",
+      "visuals": [
+        "V05",
+        "V06"
+      ],
+      "text": "In sixteen forty-two, Rembrandt completed a very large group portrait for the great hall of the arquebusiers, one of Amsterdam's civic militias. Paintings like this were common in the city. Members often appeared side by side, in rows, so that each face could be seen."
+    },
+    {
+      "id": "P04",
+      "chapter": "C02",
+      "sources": [
+        "V-S01"
+      ],
+      "classification": "historical_fact",
+      "visuals": [
+        "V01_D1",
+        "V01_D2",
+        "V01_D3",
+        "V01_D4"
+      ],
+      "text": "Rembrandt did something else. At the center, Captain Frans Banninck Cocq, in black, gives an order to his lieutenant, Willem van Ruytenburch, in yellow. Around them, men load their guns, raise a flag, and beat a drum. The portrait looks like a moment in motion."
+    },
+    {
+      "id": "P05",
+      "chapter": "C02",
+      "sources": [
+        "V-S01"
+      ],
+      "classification": "museum_interpretation",
+      "visuals": [
+        "V01_D5"
+      ],
+      "text": "Behind them is a small, bright figure: a girl with a chicken hanging from her belt. The museum describes her as a kind of mascot for the company, and links the chicken's claws, and the gun beside her, to the symbols of the arquebusiers."
+    },
+    {
+      "id": "P06",
+      "chapter": "C03",
+      "sources": [
+        "V-S02"
+      ],
+      "classification": "historical_fact",
+      "visuals": [
+        "D_album"
+      ],
+      "text": "In an album kept by the captain's family, a small copy of the painting appears with a caption in Dutch. It says that the young lord of Purmerland, as captain, orders his lieutenant, the lord of Vlaardingen, to have his company of citizens march. It says nothing about the hour."
+    },
+    {
+      "id": "P07",
+      "chapter": "C03",
+      "sources": [
+        "V-S03"
+      ],
+      "classification": "historical_fact",
+      "visuals": [
+        "D_1678"
+      ],
+      "text": "In sixteen seventy-eight, Samuel van Hoogstraten, who had studied with Rembrandt, wrote about the painting in a book on art. He reported a criticism: that Rembrandt had cared more for the picture as a whole than for the portraits he had been asked to paint. Even so, he believed it would outlast all its rivals. And he added that he wished Rembrandt had put more light into it. So its deep shadows were noticed early. But Hoogstraten does not call it a night scene."
+    },
+    {
+      "id": "P08",
+      "chapter": "C04",
+      "sources": [
+        "V-S04",
+        "V-S05"
+      ],
+      "classification": "historical_fact",
+      "visuals": [
+        "V07",
+        "D_cut",
+        "V02_L"
+      ],
+      "text": "In seventeen fifteen, the city ordered the painting to be cleaned and moved to a room in Amsterdam's town hall. Around that time, it was cut down at the edges to fit its new place. Most of the loss was on the left, where two men and a child disappeared. We know what they looked like from a much smaller copy, attributed to Gerrit Lundens, painted before the cut."
+    },
+    {
+      "id": "P09",
+      "chapter": "C05",
+      "sources": [
+        "V-S01"
+      ],
+      "classification": "historical_fact",
+      "visuals": [
+        "V08",
+        "D_1797"
+      ],
+      "text": "Over the years, layers of varnish and dirt made the surface darker. And by the end of the eighteenth century, the painting had a new name. According to the museum, the name the Night Watch is first found in writing in seventeen ninety-seven, about a hundred and fifty years after Rembrandt finished it."
+    },
+    {
+      "id": "P10",
+      "chapter": "C05",
+      "sources": [
+        "V-S06"
+      ],
+      "classification": "historical_fact",
+      "visuals": [
+        "V01_D6"
+      ],
+      "text": "In nineteen forty-six and nineteen forty-seven, much of the old varnish was removed. The colors and the light became clearer. Yet the painting kept its deep contrasts of light and shadow. And the name stayed."
+    },
+    {
+      "id": "P11",
+      "chapter": "C06",
+      "sources": [
+        "V-S01"
+      ],
+      "classification": "historical_fact",
+      "visuals": [
+        "V01_D7"
+      ],
+      "text": "Today, the painting is still studied closely by the museum that holds it. Its surface can now be seen in extraordinary detail, far beyond what any visitor can see from the floor."
+    },
+    {
+      "id": "P12",
+      "chapter": "C06",
+      "sources": [
+        "V-S01",
+        "V-S02",
+        "V-S07"
+      ],
+      "classification": "editorial_conclusion",
+      "visuals": [
+        "V01_full_2"
+      ],
+      "text": "So, is The Night Watch really set at night? Its famous name does not come from Rembrandt's time. The family's description speaks of a captain, a company, and an order to march, and says nothing of the hour. Some art historians describe it as a scene by day. The name tells us how later viewers saw the painting. It does not tell us what Rembrandt was painting."
+    },
+    {
+      "id": "P13",
+      "chapter": "C06",
+      "sources": [],
+      "classification": "closing",
+      "visuals": [
+        "V01_full_2"
+      ],
+      "text": "Every story has an origin. Sometimes, a painting receives its name long after its painter is gone."
+    },
+    {
+      "id": "P14",
+      "chapter": "C06",
+      "sources": [],
+      "classification": "credits",
+      "visuals": [
+        "credits"
+      ],
+      "text": "This video is based on historical texts and public museum collections. The narration uses synthetic speech. Sources and terms of use are listed in the description. If you enjoyed this story, please like the video and subscribe for more quiet origins. Thank you for watching."
+    }
+  ]
+}
