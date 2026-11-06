@@ -1,0 +1,31 @@
+{
+  "passed": true,
+  "reviewer": "Codex・完成動画からの抽出画像を目視",
+  "images": [
+    {
+      "file": "N1_requested_times.jpg",
+      "sha256": "86ff82f5802fc3e79aa97648d530799871ee49087e0fe72f0dbad8b4b061c569"
+    },
+    {
+      "file": "N3_requested_times.jpg",
+      "sha256": "88bf538500b80e92a1d50e25b8fe96edb576a75daea850d579a2e0f2b04f6aa1"
+    },
+    {
+      "file": "N1_0160.jpg",
+      "sha256": "bd4f120b488a27bdb7f8b9ae1b736bbcc2f10f256a31d798fae438af0aef0c21"
+    },
+    {
+      "file": "N3_0417.jpg",
+      "sha256": "8564b21a827756142480f2720a0ffcce064de8c3196fe90c724136a995722abc"
+    }
+  ],
+  "checks": [
+    "N1の顔・赤い上着に見出しが重ならない",
+    "N1は0秒から幅1080px、指定6時刻で表示",
+    "N3は角・足先を残し、2秒おきと寄り終点で欠けなし",
+    "N3は字幕板と重ならず最短13px",
+    "AI補間なし・原画の通常Lanczos拡大"
+  ],
+  "human_full_listening": false,
+  "claude_review_pending": true
+}

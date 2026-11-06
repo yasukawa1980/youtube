@@ -1,0 +1,100 @@
+[
+  {
+    "id": "N1",
+    "asset_id": "N08_person",
+    "before": {
+      "crop_start": [
+        900,
+        1120,
+        1650,
+        1780
+      ],
+      "viewport": [
+        40,
+        280,
+        1000,
+        530
+      ],
+      "zoom_end": 1.04,
+      "native_max_scale": 0.8351515151515151
+    },
+    "crop": [
+      900,
+      1120,
+      1650,
+      1780
+    ],
+    "viewport": [
+      0,
+      180,
+      1080,
+      951
+    ],
+    "display_bounds": [
+      0,
+      180,
+      1080,
+      1130
+    ],
+    "zoom_end": 1.06,
+    "native_max_scale": 1.5264,
+    "caption_top": 1178,
+    "caption_gap_px": 48,
+    "resampling": "Pillow Lanczos",
+    "ai_interpolation": false,
+    "note": "原画750×660の範囲を維持。表示幅1080px、0秒から1.06倍までLanczosで寄る。"
+  },
+  {
+    "id": "N3",
+    "asset_id": "N08_reindeer",
+    "before": {
+      "crop_start": [
+        270,
+        1040,
+        890,
+        1770
+      ],
+      "viewport": [
+        122,
+        344,
+        835,
+        701
+      ],
+      "zoom_end": 1.04,
+      "native_max_scale": 0.9986849315068493
+    },
+    "crop": [
+      270,
+      1105,
+      890,
+      1695
+    ],
+    "viewport": [
+      54,
+      240,
+      972,
+      925
+    ],
+    "display_bounds": [
+      54,
+      240,
+      1026,
+      1165
+    ],
+    "zoom_end": 1.0205761316872428,
+    "native_max_scale": 1.5999999999999999,
+    "caption_top": 1178,
+    "caption_gap_px": 13,
+    "resampling": "Pillow Lanczos",
+    "ai_interpolation": false,
+    "note": "原画620×730の上下背景65px・75pxを省き620×590。角・足先を保持。字幕との間隔13pxを確保。",
+    "header_bottom": 233,
+    "header_gap_px": 7,
+    "last_frame_crop": [
+      276.25,
+      1110.9475806451612,
+      883.75,
+      1689.0524193548388
+    ]
+  }
+]
