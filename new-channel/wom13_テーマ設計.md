@@ -1,8 +1,8 @@
-# Quiet Origins 第13話「夜警」：絵画シリーズ試作のテーマ設計と台本 v01（2026-11-05 Claude）
+# Quiet Origins 第13話「夜警」：絵画シリーズ試作のテーマ設計と台本 v02（2026-11-06 Claude）
 
-管理ID：`wom13`。状態：**台本v01。本人が確認5点をすべて推奨どおり了承（2026-11-06「推奨どおりで進める」）。Codexの素材探し・原典照合待ち。** 本人の方向づけ（2026-11-05）：絵画の説明を第2のシリーズにする案、「設計書を作る」。
+管理ID：`wom13`。状態：**台本v02（原典照合を反映）。本人の確認待ち（末尾の「v02の本人確認」3点）。** v01の確認5点は本人了承済み（2026-11-06「推奨どおりで進める」）。 本人の方向づけ（2026-11-05）：絵画の説明を第2のシリーズにする案、「設計書を作る」。
 
-**下の史実はすべてClaudeの知識による下調べで、まだ原典で確かめていない。** Codexの原典照合（[素材探し依頼](wom13_素材探し依頼_20261105.md)）のあとv02で直す（第5話以降と同じ流れ）。照合の結果しだいで、題や結論が変わることがある。
+v01の史実はClaudeの知識による下調べだった。v02はCodexの[原典照合](research/wom13_原典訳文_20261106.md)・[素材候補](wom13_素材候補_20261106.md)（2026-11-06）で直した。照合で確かめられなかった点は、言い切らない形にするか削った。
 
 ## シリーズの定義
 
@@ -49,137 +49,136 @@
 
 ## 狙い
 
-- 題の案（推奨はA）：
-  - **A：Is The Night Watch Really Set at Night?**／「夜警」は、本当に夜の絵なのか
-  - B：Why Is It Called The Night Watch?／なぜ「夜警」と呼ばれるのか
-  - C：Rembrandt Never Called It The Night Watch／レンブラントは「夜警」と呼ばなかった（言い切りなので、照合で確かめられた場合だけ）
-- 冒頭の問い：世界で最も有名な絵の一つ「夜警」。暗闇から人々が現れる、夜の場面に見える。では、この絵の最も古い記録は何と言っているのか。
-- 結論（照合前の見込み）：
-  1. 1642年、アムステルダムの火縄銃手組合の集会所に飾るために描かれた、市民隊の集団肖像画。
-  2. 同じころの記録には、隊長が副官に隊の出発を命じる場面と書かれ、夜とも見張りとも書かれていない。
-  3. 1678年、弟子だったホーホストラーテンがこの絵に触れ、もっと明るくしてほしかったという趣旨を書いている。
-  4. 1715年、市庁舎へ移す際に四辺を切り詰められた。元の構図は当時の模写で分かる。
-  5. 古いニスと汚れで暗くなり、18世紀末ごろに「夜警」の名が広まった。描かれてから150年ほどあと。
-  6. 1940年代の洗浄で明るくなったが、名前は残った。
-  7. 結び：**記録は夜を語っていない。ただし「昼の絵だった」と言い切るのでもない。** 暗さの一部はレンブラント自身の選択で、描かれた時刻を決める記録はない。
-- 尺の目安：**約5分**（v01の実測は英語620語・日本語1,585字。第12話の見込み「835語で約6分26秒」と同じ話速で語りは約4分47秒、オープニングとエンドカードを足した推定で、まだ音声にしていない。話速は上げず、尺に合わせて文を削らない。照合で増えてもよい）。**英日は別々の時間割**（第12話v02の修正依頼に合わせる）。
-- 公開日の案：**11/21（土）09:00**。第12話（11/14）とそのショートN1〜N3のあと。本編の間隔を1週間とり、第12話の数字を見てから出せる。
+- 題（本人了承 11/6）：**Is The Night Watch Really Set at Night?**／「夜警」は、本当に夜の絵なのか
+- 冒頭の問い：世界で最も有名な絵の一つ「夜警」。暗闇から人々が現れる、夜の場面に見える。けれど、この名前はレンブラントが付けたものではない。では、古い説明はこの場面を何と言っているのか。
+- 結論（照合後）：
+  1. 1642年、アムステルダムの火縄銃手の集会所（クローフェニールスドゥーレン）の大広間に飾るために描かれた、市民隊の集団肖像画。
+  2. 隊長の家のアルバムに残る説明は、隊長が副官に「市民の一隊を行進させるよう命じている」と書く。時刻には触れていない（1886年の翻刻で照合）。
+  3. 1678年、レンブラントに学んだホーホストラーテンは、この絵をほめつつ、個々の肖像より全体を優先しすぎたという批判を伝え、「もっと光を入れてくれていたら」と書いた。夜の場面とは呼んでいない。
+  4. 1715年、清掃と市庁舎への移設が命じられ、そのころ周囲を切り詰められた。とくに左側で男性2人と子ども1人が失われた。元の構図は、ルンデンスに帰属する小さな模写で分かる。
+  5. 古いニスと汚れが表面を暗くした。館の説明では「夜警」の名が文献に現れるのは1797年、完成から約150年後。**暗くなったことが名前の理由だとは言わない**（命名の理由を書いた原典は未確認）。
+  6. 1946〜47年に古いニスの多くが取り除かれた。それでも強い明暗は残り、名前も残った。
+  7. 結び：**有名な名前は、描かれた時代のものではない。** 隊長の家の説明は行進の命令を語り、時刻には触れない。昼の場面だと説明する美術史家もいる。名前は、後の人々がこの絵をどう見たかを伝えるもので、描かれた出来事とは分けて見る。
+- 尺の目安：**約5分半**（v02の実測は末尾。第12話v02の実測（英語386.467秒）と同じ話速で、速めない）。**英日は別々の時間割**。
+- 公開日（本人了承 11/6）：**11/21（土）09:00**。予約は11/20中。
 
 ## 注意して扱う点
 
-- **「昼の絵だった」と言わない。** 言えるのは「古い記録は夜と言っていない」まで。
-- **「注文主が怒った」「この絵でレンブラントは没落した」という俗説を事実として語らない。** この回では扱わない（照合で根拠が明確な場合のみ、俗説として一言）。
-- **報酬の額や、誰がいくら払ったかは言わない**（後世の記述に頼る部分があるため）。照合で確かめられれば検討する。
-- 少女の鶏の足については、組合の紋章との関係を「と考えられている」と主語を保って言う。少女が誰かは断定しない。
-- **切断された部分の幅・人数**は、館の説明で確かめた数字だけを使う。台本v01では「数人」としている。
-- 破壊事件（1911・1975・1990年）と大戦中の疎開は、題と関係が薄いので入れない。
-- 館の修復事業（Operation Night Watch）は短く触れるだけにし、館の宣伝のような語りにしない。2021年の館の復元展示の画像は、権利が明記されなければ文字カードにする。
-- **読み**：Rembrandt、Banninck Cocq、Van Ruytenburch、Hoogstraten、Lundens、Kloveniersdoelen、arquebusier。日本語はレンブラント、バニング・コック、ファン・ライテンブルフ、ホーホストラーテン、ルンデンス、クローフェニールスドゥーレン、火縄銃手。**読みは照合時に確かめ、音声で本人が試聴する。**
+- **「昼の絵だった」と言い切らない。** 「昼の場面だと説明する美術史家もいる」と主語を付ける（照合11：Smarthistoryは昼と明言、館の作品ページは時刻を言わない）。
+- **暗くなったことと名前を因果で結ばない。** 並べて時の順に言うだけにする（照合9）。
+- **「最も古い記録」「最も古い説明」と言わない。** 1653年のSchaepの記録など別の記録があり、どれが最古かは未確定（照合5）。アルバムの年代（1650年代ごろ）も言わない。
+- **アルバムの説明文は1886年の翻刻で照合したもの**で、原頁は誰も目視していない。画面は原文＋訳の文字カードにし、札で出典を「1886年の翻刻」と示す。
+- **「もっと明かりをともして」ではなく「もっと光を入れて」**（照合6：meer lichts は光の量）。
+- **切り詰めの日を特定しない。** 「1715年に移設が命じられ、そのころ切り詰められた」。四辺の幅の数字は使わない（照合7：館の記述に差がある）。失われた人数は館の2021年の発表の「男性2人と子ども1人」。
+- **模写は「ルンデンスに帰属」。** 作者を断定しない。所有はロンドン・ナショナルギャラリー、寄託先はアムステルダム国立美術館。
+- **洗浄は「古いニスの多く」を除いた**と言う（「暗くなった表面の多く」は絵の具まで削ったように聞こえる）。「暗い部分はレンブラントがそう描いたから」と言い切らない（照合10）。
+- 少女は「館は一隊のマスコットのような存在と説明している」、鶏の爪と銃は「館が、火縄銃手の象徴と結びつけている」。「誰を描いたか記録はない」とは言わない（照合4）。
+- 「注文主が怒った」「この絵で没落した」は扱わない（照合12）。報酬の額も言わない。
+- 破壊事件と大戦中の疎開は入れない。2021年の欠損部の復元パネルはAIで作られているので画面に使わない。
+- **読み**は照合13の作業用表記を使い、館の音声などで確かめてから収録する。英語の読み替えの記録は第12話と同じ形で残す。
 
-## 出典の候補（v01・すべて要照合）
+## 出典（照合後。詳しくは[原典照合](research/wom13_原典訳文_20261106.md)）
 
-| ID | 出典 | 台本 | 確かめること |
+| ID | 出典 | 台本 | 照合の結果と台本での扱い |
 |---|---|---|---|
-| V-S01 | アムステルダム国立美術館 SK-C-5 の作品情報 | P03〜P05 | 制作年、所蔵番号、大きさ、題の表記、権利の表記 |
-| V-S02 | バニング・コック家のアルバムの模写と説明文（1650年代ごろ） | P06 | 現在の所蔵者、年代、原文（オランダ語）と訳、画像の権利 |
-| V-S03 | Samuel van Hoogstraten, *Inleyding tot de Hooge Schoole der Schilderkonst*（1678） | P07 | 該当箇所の原文と頁、「もっと明るく」の正確な言い方 |
-| V-S04 | Gerrit Lundens による模写（1642〜55年ごろ） | P08 | 所有者（ロンドン・ナショナルギャラリー）と寄託先、権利、絵の左端の内容 |
-| V-S05 | 1715年の移設と切り詰めの記録、館の説明 | P08 | 年、場所、各辺の幅、失われた人数、理由の言い方 |
-| V-S06 | 「夜警」の呼び名の初出についての館・研究の記述 | P09 | 初出の年と文献。「18世紀末」でよいか。暗くなった原因（ニス・汚れ）の言い方 |
-| V-S07 | 1940年代の洗浄・修復の記録 | P10 | 年、作業の内容、明るさの変化の言い方。暗さのどこまでが元からかについての館の説明 |
-| V-S08 | Operation Night Watch（2019〜）の公式情報 | P11 | 開始年、公開画像の権利、2021年の復元展示 |
-| V-S09 | 火縄銃手組合の紋章と鶏の足についての館の解説 | P05 | 「紋章」とする根拠、言い方 |
+| V-S01 | アムステルダム国立美術館 SK-C-5 作品記録・10項目の解説 | P03・P04・P09 | 1642年、注文は1640年12月以前、大広間。呼び名の文献での初出1797年（文献名は館のページになく未確認）。題は現在の整理名 |
+| V-S02 | Meijer, *Oud Holland* IV（1886）p.204 の翻刻（RKD公開PDF）、Dudok van Heel 2009 | P01・P06 | 行進させるよう命じる。時刻なし。原頁は未目視。所有者は1886年当時のもの |
+| V-S03 | Hoogstraten, *Inleyding*（1678）p.176、Getty蔵・Internet Archive | P03・P07 | 列に並べた絵への批評、全体を優先しすぎたという批判、称賛、「もっと光を」。原刊画像で目視。頁画像は映像に使わない（文字カード） |
+| V-S04 | 館「The missing pieces」、2021年の発表、1715年5月23日の決議の翻刻 | P08 | 清掃・移設の命令（切断の指示はない）、移設先は小軍事評議室、1715年またはその直後、左で男性2人と子ども1人 |
+| V-S05 | ルンデンスに帰属する模写 SK-C-1453／National Gallery NG289 | P08 | c.1642–55、板、66.5×85.5cm。切り詰め前の構図を伝える資料として両館が扱う |
+| V-S06 | Van Duijn, *Rijksmuseum Bulletin* 68(3), 2020, p.259 | P10 | 1946年1月〜1947年夏、Mertensが古いニス層の大部分を除去 |
+| V-S07 | Smarthistory（Schaller）、Google Arts & Culture の記事 | P12 | 昼の場面と説明する解説。主語を付けて一文で |
 
-## 台本（英語・メイン）v01
+## 台本（英語・メイン）v02
 
 章は6つ。P02のあとにオープニング（4秒）を入れる。P03以降、画面の下に年代の帯を出す。
 
 ### C01 A Name
 
-**P01** This is one of the most famous paintings in the world: Rembrandt's The Night Watch. Figures step out of deep shadow, as if caught in the dark of night. But what do the oldest records say about this scene? They describe a company of citizens, and an order to march. They do not mention a night, or a watch.
+**P01** This is one of the most famous paintings in the world: Rembrandt's The Night Watch. Figures step out of deep shadow, as if caught in the dark of night. But the name is not Rembrandt's. It is first recorded long after he died. And an early description, kept by the captain's own family, speaks of a company of citizens and an order to march. It says nothing about the night.
 
-**P02** In this episode, we follow the painting through time: from the hall it was made for, to the day it was cut, to the moment it received its name.
+**P02** In this episode, we follow the painting through time: from the hall it was made for, to the years when it was cut down, to the time it received its name.
 
 （ここでオープニング）
 
 ### C02 1642: A Company in Amsterdam
 
-**P03** In 1642, Rembrandt completed a very large group portrait for the hall of the arquebusiers, one of Amsterdam's civic militia companies. Paintings like this were common in the city. Members appeared together, often in neat rows, so that each face could be seen.
+**P03** In 1642, Rembrandt completed a very large group portrait for the great hall of the arquebusiers, one of Amsterdam's civic militias. Paintings like this were common in the city. Members often appeared side by side, in rows, so that each face could be seen.
 
 **P04** Rembrandt did something else. At the center, Captain Frans Banninck Cocq, in black, gives an order to his lieutenant, Willem van Ruytenburch, in yellow. Around them, men load their guns, raise a flag, and beat a drum. The portrait looks like a moment in motion.
 
-**P05** Behind them is a small, bright figure: a girl with a chicken hanging from her belt. Its claws are thought to refer to the emblem of the arquebusiers. She is one of the painting's lasting puzzles. No record tells us who she was meant to be.
+**P05** Behind them is a small, bright figure: a girl with a chicken hanging from her belt. The museum describes her as a kind of mascot for the company, and links the chicken's claws, and the gun beside her, to the symbols of the arquebusiers.
 
-### C03 The 1650s to 1678: The First Words
+### C03 Early Words
 
-**P06** The oldest description we have comes from the captain's own family. In an album from around the 1650s, a small copy of the painting appears with a caption in Dutch. It says that the young lord of Purmerland, as captain, orders his lieutenant to have his company of citizens march. That is all. It says nothing about the hour.
+**P06** In an album kept by the captain's family, a small copy of the painting appears with a caption in Dutch. It says that the young lord of Purmerland, as captain, orders his lieutenant, the lord of Vlaardingen, to have his company of citizens march. It says nothing about the hour.
 
-**P07** In 1678, Samuel van Hoogstraten, who had studied with Rembrandt, praised the painting in a book on art. He also wrote that he wished Rembrandt had lit more lights in it. So the painting's strong darkness was noticed early. But Hoogstraten does not call it a night scene.
+**P07** In 1678, Samuel van Hoogstraten, who had studied with Rembrandt, wrote about the painting in a book on art. He reported a criticism: that Rembrandt had cared more for the picture as a whole than for the portraits he had been asked to paint. Even so, he believed it would outlast all its rivals. And he added that he wished Rembrandt had put more light into it. So its deep shadows were noticed early. But Hoogstraten does not call it a night scene.
 
 ### C04 1715: The Cut
 
-**P08** In 1715, the painting was moved to Amsterdam's town hall. It did not fit the wall, so it was cut down on all four sides. Most of the loss was on the left, where several figures disappeared. We know what they looked like because of a much smaller copy, painted by Gerrit Lundens while the original was still whole.
+**P08** In 1715, the city ordered the painting to be cleaned and moved to a room in Amsterdam's town hall. Around that time, it was cut down at the edges to fit its new place. Most of the loss was on the left, where two men and a child disappeared. We know what they looked like from a much smaller copy, attributed to Gerrit Lundens, painted before the cut.
 
-### C05 Around 1800: A New Name
+### C05 1797: A New Name
 
-**P09** Over the years, layers of old varnish and dirt made the surface darker. By around the end of the eighteenth century, people had begun to call the painting by a new name: the Night Watch. That was about a hundred and fifty years after Rembrandt finished it.
+**P09** Over the years, layers of varnish and dirt made the surface darker. And by the end of the eighteenth century, the painting had a new name. According to the museum, the name the Night Watch is first found in writing in 1797, about a hundred and fifty years after Rembrandt finished it.
 
-**P10** In the 1940s, the painting was cleaned, and much of that darkened surface was removed. The colors and light became clearer. Yet large areas remain dark, because Rembrandt painted them that way. And the name stayed.
+**P10** In 1946 and 1947, much of the old varnish was removed. The colors and the light became clearer. Yet the painting kept its deep contrasts of light and shadow. And the name stayed.
 
 ### C06 Then and Now
 
-**P11** Today, the painting is still studied closely, through a research project at the museum that holds it. Its surface can now be seen in extraordinary detail, far beyond what any visitor can see from the floor.
+**P11** Today, the painting is still studied closely by the museum that holds it. Its surface can now be seen in extraordinary detail, far beyond what any visitor can see from the floor.
 
-**P12** So, is The Night Watch really set at night? The oldest records do not say so. They speak of a captain, a company, and an order to march. They do not prove that it was daytime, either. Rembrandt chose his darkness. The night came later, with the varnish and the name.
+**P12** So, is The Night Watch really set at night? Its famous name does not come from Rembrandt's time. The family's description speaks of a captain, a company, and an order to march, and says nothing of the hour. Some art historians describe it as a scene by day. The name tells us how later viewers saw the painting. It does not tell us what Rembrandt was painting.
 
 **P13** Every story has an origin. Sometimes, a painting receives its name long after its painter is gone.
 
 **P14** This video is based on historical texts and public museum collections. The narration uses synthetic speech. Sources and terms of use are listed in the description. If you enjoyed this story, please like the video and subscribe for more quiet origins. Thank you for watching.
 
-## 台本（日本語）v01
+## 台本（日本語）v02
 
-**P01** これは、世界で最も有名な絵の一つ、レンブラントの「夜警」です。深い影の中から人々が現れ、夜の闇の一場面のように見えます。では、最も古い記録は、この場面について何と言っているのでしょう。そこに書かれているのは、市民の一隊と、出発の命令です。夜のことも、見張りのことも書かれていません。
+**P01** これは、世界で最も有名な絵の一つ、レンブラントの「夜警」です。深い影の中から人々が現れ、夜の闇の一場面のように見えます。けれど、この名前はレンブラントが付けたものではありません。記録に現れるのは、彼が亡くなってずっと後のことです。そして、隊長の家に伝わる古い説明が語るのは、市民の一隊と、行進の命令です。夜のことは書かれていません。
 
-**P02** 今回は、この絵の歩みをたどります。そのために描かれた広間から、切り詰められた日、そして名前を受け取ったときまで、時代の順に見ていきます。
+**P02** 今回は、この絵の歩みをたどります。そのために描かれた広間から、切り詰められた時代、そして名前を受け取ったときまで、時代の順に見ていきます。
 
-**P03** 1642年、レンブラントはとても大きな集団肖像画を仕上げました。アムステルダムの市民隊の一つ、火縄銃手の組合の広間に飾るためのものです。こうした絵は、この街では珍しくありませんでした。隊員たちは、一人ひとりの顔が見えるように、きちんと並んで描かれることが多かったのです。
+**P03** 1642年、レンブラントはとても大きな集団肖像画を仕上げました。アムステルダムの市民隊の一つ、火縄銃手たちの集会所の大広間に飾るためのものです。こうした絵は、この街では珍しくありませんでした。隊員たちは、一人ひとりの顔が見えるように、横に並んで描かれることが多かったのです。
 
 **P04** レンブラントは、別のことをしました。中央では、黒い服の隊長フランス・バニング・コックが、黄色い服の副官ウィレム・ファン・ライテンブルフに命令を出しています。そのまわりでは、男たちが銃に弾をこめ、旗を掲げ、太鼓を打っています。肖像画でありながら、動いている一瞬のように見えます。
 
-**P05** その後ろに、小さく明るい姿があります。腰に鶏を下げた少女です。鶏の足は、火縄銃手の組合の紋章を指すと考えられています。少女は、この絵に残る謎の一つです。誰を描いたのかを伝える記録はありません。
+**P05** その後ろに、小さく明るい姿があります。腰に鶏を下げた少女です。美術館は、少女を一隊のマスコットのような存在と説明し、鶏の爪と、そばの銃を、火縄銃手たちの象徴と結びつけています。
 
-**P06** 残っている最も古い説明は、隊長自身の家に伝わるものです。1650年代ごろのアルバムに、この絵の小さな写しがあり、オランダ語の説明が添えられています。プルメルラントの若い領主が、隊長として、副官に市民の一隊を出発させるよう命じている、と。書かれているのはそれだけです。何時ごろかには触れていません。
+**P06** 隊長の家に伝わるアルバムには、この絵の小さな写しがあり、オランダ語の説明が添えられています。プルメルラントの若い領主が、隊長として、副官であるフラールディンゲンの領主に、市民の一隊を行進させるよう命じている、と。何時ごろのことかには触れていません。
 
-**P07** 1678年、レンブラントに学んだサミュエル・ファン・ホーホストラーテンは、絵画についての本の中で、この絵をほめました。そして、もっと明かりをともしてくれればよかった、とも書いています。この絵の暗さは、早くから気づかれていたのです。けれど彼も、夜の場面とは呼んでいません。
+**P07** 1678年、レンブラントに学んだサミュエル・ファン・ホーホストラーテンは、絵画についての本の中でこの絵を取り上げました。彼は、レンブラントが頼まれた一人ひとりの肖像よりも、絵全体を大事にしすぎた、という批判を伝えています。それでも、この絵はほかのどの作品よりも長く残るだろう、と書きました。そして、もっと光を入れてくれていたら、とも。この絵の暗さは、早くから気づかれていたのです。けれど彼も、夜の場面とは呼んでいません。
 
-**P08** 1715年、この絵はアムステルダムの市庁舎へ移されました。壁に収まらなかったため、四辺が切り詰められます。とくに大きく失われたのは左側で、数人の姿が消えました。彼らの姿が分かるのは、元の絵がまだ切られる前に、ヘリット・ルンデンスが描いた、ずっと小さな写しがあるからです。
+**P08** 1715年、市はこの絵を清掃し、市庁舎の一室へ移すよう命じました。そのころ絵は、新しい場所に収めるため、まわりを切り詰められます。とくに大きく失われたのは左側で、男性2人と子ども1人の姿が消えました。彼らの姿が分かるのは、切られる前に描かれた、ずっと小さな写しがあるからです。ヘリット・ルンデンスの作とされる模写です。
 
-**P09** 年月とともに、古いニスと汚れの層が、表面を暗くしていきました。18世紀の終わりごろには、人々はこの絵を新しい名前で呼び始めます。「夜警」です。レンブラントが描き終えてから、およそ150年後のことでした。
+**P09** 年月とともに、ニスと汚れの層が、表面を暗くしていきました。そして18世紀の終わりには、この絵は新しい名前を持っていました。美術館によると、「夜警」という名前が文献に初めて現れるのは1797年。レンブラントが描き終えてから、およそ150年後のことです。
 
-**P10** 1940年代に絵は洗浄され、暗くなった表面の多くが取り除かれました。色と光は、はっきりしました。それでも広い部分は暗いままです。レンブラントが、そう描いたからです。そして、名前も残りました。
+**P10** 1946年から47年にかけて、古いニスの多くが取り除かれました。色と光は、はっきりしました。それでも、深い明暗の対比は残りました。そして、名前も残りました。
 
-**P11** この絵は今も、所蔵する美術館の研究事業で詳しく調べられています。表面は、展示室の床から見えるよりはるかに細かく、見られるようになりました。
+**P11** この絵は今も、所蔵する美術館で詳しく調べられています。表面は、展示室の床から見えるよりはるかに細かく、見られるようになりました。
 
-**P12** では、「夜警」は本当に夜の絵なのでしょうか。最も古い記録は、そうは言っていません。語られているのは、隊長と一隊、そして出発の命令です。かといって、昼だったと証明しているわけでもありません。暗さはレンブラントが選んだものです。夜は、ニスと名前とともに、後からやって来ました。
+**P12** では、「夜警」は本当に夜の絵なのでしょうか。有名なこの名前は、レンブラントの時代のものではありません。隊長の家の説明が語るのは、隊長と一隊、そして行進の命令で、時刻には触れていません。昼の場面だと説明する美術史家もいます。名前が伝えているのは、後の人々がこの絵をどう見たかです。レンブラントが何を描いたのかを、教えてくれるわけではありません。
 
 **P13** すべての物語には、始まりがあります。ときに絵は、描いた人がいなくなってずっと後に、名前を受け取るのです。
 
 **P14** この動画は、歴史資料と、美術館の公開コレクションにもとづいています。ナレーションには合成音声を使っています。出典と利用条件は説明欄に記載しています。楽しんでいただけたら、高評価とチャンネル登録で、これからも静かな起源の物語をお楽しみください。ご視聴ありがとうございました。
 
-## 画面の案（素材は照合のあとで確定）
+## 画面の案（素材は[素材候補](wom13_素材候補_20261106.md)から）
 
 | 区間 | 画面 | 確認点 |
 |---|---|---|
 | P01 | **全体（1回目）**。ゆっくり寄る | 全体が1回目 |
 | P02 | 模写の暗い部分から、資料の断片を短く | 後の区間と細部を重ねない |
-| P03 | 集会所の版画、同時代の並んだ集団肖像画（別の画家）1点 | 主役以外の資料 |
+| P03 | 集会所の外観（V05、1664年。1642年当日の建物の絵ではない）、ピッケノイの集団肖像画（V06、1642年） | V06は座る人と立つ人が混じる。「一直線に並ぶ例」とは札に書かない |
 | P04 | 細部：隊長と副官 → 銃・旗・太鼓を順に | 細部は各1回 |
 | P05 | 細部：少女と鶏の足 | ショートV3は別の寄りを検討 |
-| P06 | アルバムの頁（権利が未確認なら文字カード） | 文字カードは原文＋訳 |
-| P07 | 1678年の刊本の頁、または文字カード | |
-| P08 | **切り詰めの比較カード**：模写に現在の範囲の枠を重ねる | 枠は模写の上に描く図で、絵の復元ではない。札 `SCHEMATIC｜模式図` |
-| P09 | 19世紀の版画や複製（暗い印象のもの）、文字カード「c. 1800」 | 年の根拠を記録 |
-| P10 | 細部：暗い背景の部分。修復の写真は権利が明記された場合だけ | |
+| P06 | **文字カード**：アルバムの説明の原文（オランダ語）＋英日訳。出典「1886年の翻刻」 | 原頁の画像は使わない |
+| P07 | **文字カード**：1678年の原文の一文（meer lichts の文）＋英日訳 | 刊本の頁画像は使わない（Gettyの画像の権利明示なし） |
+| P08 | 市庁舎の外観（V07、後世の図）→ **切り詰めの比較カード**：模写（V02）に現在の範囲の枠を重ねる | 枠は模写の上に描く図で、絵の復元ではない。札 `SCHEMATIC｜模式図`。四辺の幅の数字は出さない |
+| P09 | ムイユロンの版画「La ronde de nuit」（V08、19世紀）、文字カード「1797」 | 版画の暗さはニスの状態の証拠にしない。年札は「19th century」 |
+| P10 | 細部：暗い背景の部分 | 修復の写真（V09）は使わない（権利の明示なし） |
 | P11 | 細部：絵肌の拡大 | 最も大きな拡大。原寸を超えない |
 | P12 | **全体（2回目）**。ゆっくり引く | 全体はここまで |
 | P13〜P14 | 共通のエンドカード（10秒） | |
@@ -189,6 +188,48 @@
 **サムネの案：**
 - A（推奨）：絵の中央の人物を大きく、見出し **NOT AT NIGHT?**、年 **1642**。人物の配置は168pxで読めるかを確認する
 - B：全体図と **1642 → c.1800** の年。第12話の年つきサムネと揃える
+
+## 画像の取得（2026-11-06 Claude確認）
+
+Codexの環境では館のIIIFのinfo.jsonが403だったが、**Claudeの環境からは6点とも取得できた**（作品のLinked Artの記録 → IIIFのinfo.json。画像本体はまだ取得していない）。館のダウンロードボタンのようなアカウントは要らない。
+
+| ID | 作品 | IIIF | 原寸（px） | 記録の権利URI |
+|---|---|---|---|---|
+| V01 | 夜警 SK-C-5 | `https://iiif.micr.io/PJEZO` | **14,645×12,158** | PDM 1.0・CC0 1.0 |
+| V02 | ルンデンスに帰属の模写 SK-C-1453 | `https://iiif.micr.io/pVyUn` | **10,449×8,183** | 同上 |
+| V05 | 集会所の外観 RP-P-AO-25-25-1 | `https://iiif.micr.io/cciGN` | 4,396×3,022 | 同上 |
+| V06 | ピッケノイ SK-C-1177 | `https://iiif.micr.io/hjJLt` | 6,120×4,035 | 同上 |
+| V07 | 市庁舎 KOG-AA-2-4-112 | `https://iiif.micr.io/jrmuj` | 7,250×5,195 | 同上 |
+| V08 | ムイユロン RP-P-1896-A-19326 | `https://iiif.micr.io/hjCVy` | 5,572×4,914 | 同上 |
+
+- 6点の記録それぞれにPDM 1.0とCC0 1.0のURIが入っている（どちらが画像に付くかは、Codexが個別ページで確かめた「Public Domain」の表記を基準にする）。
+- **1回の要求で取れるのは1,755万画素まで**（`maxArea`）。V01（約1億7,800万画素）とV02（約8,550万画素）の原寸は、IIIFの範囲指定（regionByPx）で分けて取り、つなぎ合わせる。これはIIIFの標準の使い方で、制限の回避ではない。つないだ画像の画素数とSHA-256を記録する。
+- V01・V02は長辺10,000px以上の目安を満たす。少女・銃・絵肌・模写の左端を4Kで拡大して粗くならないかは、取得後にCodexが確かめる。
+
+## v01からの主な変更（照合による）
+
+- P01：「最も古い記録は」→「名前はレンブラントのものではない」と「隊長の家に伝わる古い説明」。最古とは言わない。「出発」→「行進」（marcheren）。
+- P02：「切り詰められた日」→「切り詰められた時代」（日は特定できない）。
+- P03：「きちんと並んで」→「横に並んで」（1678年の批評の言い方に合わせる）。「大広間」を加えた。
+- P05：「誰を描いたか記録はない」を削り、館の説明（マスコット・象徴）に主語を付けた。
+- P06：「最も古い説明」「1650年代ごろ」を削り、副官の身分（フラールディンゲンの領主）を加えた。
+- P07：「もっと明かりをともして」→「もっと光を入れて」。批判（全体を優先しすぎた）と称賛（他をしのいで残る）を加えた。
+- P08：「1715年に移され切られた」→「1715年に清掃と移設が命じられ、そのころ切り詰められた」。「四辺」を外し、「数人」→「男性2人と子ども1人」。模写は「ルンデンスの作とされる」。
+- P09：「18世紀末ごろ」→館の説明による「1797年に文献に初めて現れる」。暗くなったことと名前を因果で結ばない。
+- P10：「1940年代」→「1946〜47年」、「暗くなった表面の多く」→「古いニスの多く」。「レンブラントがそう描いたから」を削った。
+- P12：「昼だったとも証明しない」「夜はニスと名前とともに来た」を削り、「昼の場面だと説明する美術史家もいる」と「名前は後の人々の見方を伝える」に変えた。
+- 章C03の題を「Early Words」、C05を「1797: A New Name」に。
+- 語数・字数は下の「v02の実測」。
+
+## v02の実測
+
+英語681語・日本語1,717字（全14区間）。第12話v02（英語835語・386.467秒の実測）と同じ話速なら英語の語りは約315秒（推定。音声はまだ作っていない）。オープニング4秒・エンドカード10秒・区間の間を足して約5分半の見込み。
+
+## v02の本人確認（3点）
+
+1. **台本v02でよいか**（とくにP12の結び：昼の場面だと説明する美術史家もいる、と一文入れる）。**推奨：このまま。**
+2. **アルバムの説明（P06）と1678年の本（P07）を文字カードにするか**。どちらも頁画像の権利が明示されていない。**推奨：文字カード（原文＋英日訳）。**
+3. **画像を館のIIIFから分けて取り、つなぐ方法で制作依頼を書いてよいか**。アカウントは作らない。**推奨：この方法で。** Codexの環境でまた403になる場合は、取得だけ本人のMacのブラウザで行う案を相談する。
 
 ## ショート案（本編合格後に別依頼）
 
@@ -210,7 +251,7 @@
 | 北斎「神奈川沖浪裏」 | 日本の象徴の青に、輸入顔料を使った | 版画は同じ図の刷りが多く、画像と刷りの選択が必要。日本の視聴者に届くかを見る回にもなる |
 | ホイッスラー「灰色と黒のアレンジメント第1番」（1871） | 「母の肖像」は画家の付けた題ではない | 所蔵のオルセー美術館の画像の権利を要確認。没後70年は過ぎている |
 
-## 本人確認（5点）
+## v01の本人確認（5点・2026-11-06 了承済み）
 
 **2026-11-06 本人了承「推奨どおりで進める」：5点とも下の推奨どおり。** 題はA、公開は11/21（土）09:00（投稿の予約は11/20中）。11/20・11/21にQOの予約がないことは、リポジトリの記録で確認した（Studioの画面では未確認。投稿の前に照合する）。
 
