@@ -1,0 +1,38 @@
+{
+  "id": "N1",
+  "asset_id": "N08_person",
+  "before": [
+    0,
+    180,
+    1080,
+    951
+  ],
+  "crop": [
+    900,
+    1120,
+    1650,
+    1780
+  ],
+  "viewport": [
+    0,
+    253,
+    1080,
+    951
+  ],
+  "display_bounds": [
+    0,
+    253,
+    1080,
+    1203
+  ],
+  "zoom_end": 1.06,
+  "native_max_scale": 1.5264,
+  "caption_top": 1178,
+  "caption_gap_px": -25,
+  "resampling": "Pillow Lanczos",
+  "ai_interpolation": false,
+  "note": "v02の大きさ・倍率・寄りを維持し、絵だけ73px下へ。絵下端の背景は字幕板に25px重なるが、人物・上着には重ならない。",
+  "shift_y_px": 73,
+  "header_bottom": 233,
+  "header_gap_px": 20
+}

@@ -11,6 +11,9 @@ from wom_shorts_ep012_v02 import ROOT,OLD,REPO,REQUEST,DEST,TAG,IDS,read,save,sh
 from wom12_share import api,assert_anonymous_hidden
 
 
+RELEASE_NAME='Quiet Origins 第12話ショート N1・N3 確認版v02（絵の拡大・未投稿）'
+RELEASE_BODY='N1の人物は表示幅1080px・最大1.5264倍、N3のトナカイは最大1.6倍・字幕との間隔13px。対象以外の全907フレーム・音声・字幕がv01と一致。N2は合格済みv01を継続。本人試聴・Claude確認待ち。YouTube未投稿・未予約。'
+
 def package():
     qc=read(ROOT/'records/final_qc.json');assert len(qc)==2
     assert all(q['outside_patch_all_frames_identical'] and q['audio_pcm_identical'] and q['warning_count']==0 for q in qc)
@@ -35,7 +38,7 @@ def share():
     for f in files:assert sha(ROOT/'deliverables'/f['file'])==f['sha256']
     releases=api([f'repos/{repo}/releases?per_page=100']);r=next((r for r in releases if r['tag_name']==TAG),None)
     if r is None:
-        r=api(['--method','POST',f'repos/{repo}/releases','--input','-'],dict(tag_name=TAG,target_commitish='bgm/production',name='Quiet Origins 第12話ショート N1・N3 確認版v02（絵の拡大・未投稿）',body='N1の人物は表示幅1080px・最大1.5264倍、N3のトナカイは最大1.6倍・字幕との間隔13px。対象以外の全907フレーム・音声・字幕がv01と一致。N2は合格済みv01を継続。本人試聴・Claude確認待ち。YouTube未投稿・未予約。',draft=True))
+        r=api(['--method','POST',f'repos/{repo}/releases','--input','-'],dict(tag_name=TAG,target_commitish='bgm/production',name=RELEASE_NAME,body=RELEASE_BODY,draft=True))
     assert r['draft'];assert_anonymous_hidden(f'repos/{repo}/releases/{r["id"]}')
     state=dict(release_id=r['id'],release_url=r['html_url'],tag=TAG,draft=True,status='uploading',assets=[]);save(ROOT/'records/sharing.json',state)
     for f in files:
@@ -43,7 +46,7 @@ def share():
         if asset:assert asset['digest']=='sha256:'+f['sha256']
         else:subprocess.run(['gh','release','upload',TAG,str(ROOT/'deliverables'/f['file']),'--repo',repo],check=True)
         print('UPLOADED',f['file'],flush=True)
-    r=api([f'repos/{repo}/releases/{r["id"]}']);assert r['draft'] and len(r['assets'])==3
+    r=api([f'repos/{repo}/releases/{r["id"]}']);assert r['draft'] and len(r['assets'])==len(files)
     for f in files:
         a=next(a for a in r['assets'] if a['name']==f['file'])
         for attempt in range(3):

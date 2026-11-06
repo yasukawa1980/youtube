@@ -18,6 +18,7 @@ ROOT=OLD.parent/'EP012_v02_20261107'
 REQUEST=REPO/'wom_ショートClaude確認_EP012_v01_20261106.md'
 DEST=REPO/'wom_ショート確認版_EP012_v02_20261107'
 TAG='quiet-origins-ep012-shorts-v02-20261107'
+OUTPUT_VERSION='v02'
 IDS=['N1','N3']
 TARGETS={'N1':'N08_person','N3':'N08_reindeer'}
 read,save,sha=base.read,base.save,base.sha
@@ -127,7 +128,7 @@ def qc():
             assert p.stat().st_size<1000000;pictures.append(dict(frame=n,seconds=n/30,file=p.name,sha256=sha(p)))
             if n<s['cta_start_frame']:
                 c=next(c for c in caps if c['short_id']==sid and c['start_frame']<=n<c['end_frame']);cr.append(dict(frame=n,page=c['page'],**contrast(arr,c['file'])))
-        hc=contrast(frames[0],OLD/'assets/N1_headline.png') if sid=='N1' else None
+        hc=contrast(frames[0],next(h['file'] for h in read(OLD/'records/headlines.json') if h['id']==sid)) if sid=='N1' else None
         sheet=Image.new('RGB',(240*len(required),448),'#0c1820');d=ImageDraw.Draw(sheet)
         for j,n in enumerate(required):
             sheet.paste(Image.fromarray(frames[n]).resize((240,427)),(240*j,0));d.text((240*j+4,430),f'{sid} {n/30:.3f}s',fill='white')
@@ -138,7 +139,7 @@ def qc():
     unchanged=read(ROOT/'records/unchanged_inputs.json');assert unchanged['n2_original_sha256']==sha(video('N2','v01'))
     assert all(sha(p['file'])==p['sha256'] for p in unchanged['layers'])
     assert all(sha(OLD/'records'/name)==value==sha(ROOT/'records'/name) for name,value in unchanged['records'].items())
-    assert all(sha(ROOT/f'deliverables/QO_short_EP012_{r["id"]}_v02.srt')==r['srt_sha256'] for r in unchanged['subtitles'])
+    assert all(sha(ROOT/f'deliverables/QO_short_EP012_{r["id"]}_{OUTPUT_VERSION}.srt')==r['srt_sha256'] for r in unchanged['subtitles'])
     save(ROOT/'records/final_qc.json',results)
 
 if __name__=='__main__':

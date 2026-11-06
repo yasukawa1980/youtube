@@ -1,0 +1,29 @@
+{
+  "passed": true,
+  "reviewer": "Codex・完成MP4から抽出した画像を目視",
+  "images": [
+    {
+      "file": "N1_requested_times.jpg",
+      "sha256": "3cc03937d548833cbd42cf82a2d0bd31d71831451c9db3d2f54cb00364b1c444"
+    },
+    {
+      "file": "N1_0015_header_detail.jpg",
+      "sha256": "5460e10d53c00d9b2dbe5aef3e29ada7b0b2e2e496112ca05ba6f0c5ba98a128"
+    },
+    {
+      "file": "N1_0160.jpg",
+      "sha256": "1a2dbba160c748064d066f122aaa960a775aea75390f485cf0eb32cdd4c1996e"
+    }
+  ],
+  "last_header_ink_pixel_y": 232,
+  "art_top_y": 253,
+  "empty_pixel_rows": 20,
+  "measurement": "原寸出典レイヤーのアルファ最下端画素y=232と絵上端y=253から計算。完成MP4の0.5秒拡大画像でも余白を目視確認。",
+  "checks": [
+    "出典は絵と重ならず、20pxの間隔がある",
+    "0・0.5・1.0・2.5秒で人物の顔・赤い上着に見出しが重ならない",
+    "幅1080px・倍率1.5264・寄り1.06を維持"
+  ],
+  "human_full_listening": false,
+  "claude_review_pending": true
+}
