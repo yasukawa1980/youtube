@@ -1,0 +1,48 @@
+{
+  "status": "stopped_at_unexpected_qc_warning",
+  "request_commit": "68eb4f819636c2e55cb4870cb372c568537ac6a8",
+  "reason": "V1の全フレームRGB変換でswscalerのNo accelerated colorspace conversion found警告が3行出て、警告0のassertで停止。",
+  "warning_log": "[swscaler @ 0xb75fd8000] No accelerated colorspace conversion found from yuv420p to rgb24.\n[swscaler @ 0xb75fd8000] [swscaler @ 0xb763dc000] No accelerated colorspace conversion found from yuv420p to rgb24.\n[swscaler @ 0xb75fd8000] [swscaler @ 0xb763ec000] No accelerated colorspace conversion found from yuv420p to rgb24.\n",
+  "decoded_video_frames_before_stop": 645,
+  "decoded_shorts_before_stop": [
+    "V1"
+  ],
+  "remaining_shorts": [
+    "V2",
+    "V3"
+  ],
+  "final_audio_measurement_completed": false,
+  "v01_v02_audio_stream_comparison_completed": false,
+  "contrast_checks_before_stop": "V1字幕・見出し・D_1797s・D_album_sの検査はassert停止なしで通過したが、測定値のJSON保存より前に停止。合格済みとして納品しない。",
+  "caption_manifest_byte_identical": true,
+  "completed_v02_mp4": [
+    {
+      "path": "/Volumes/ESD-02/新チャンネル/ショート/EP013_v02_20261108/deliverables/QO_short_EP013_V1_v02.mp4",
+      "bytes": 3088646,
+      "sha256": "b05736a582dea0d4629cede23c27d9e1179c7e921ed9d22f7ced501c624a1311",
+      "qc_complete": false
+    },
+    {
+      "path": "/Volumes/ESD-02/新チャンネル/ショート/EP013_v02_20261108/deliverables/QO_short_EP013_V2_v02.mp4",
+      "bytes": 5347456,
+      "sha256": "6b6bd558c9a46ef985ebdfe9947aa2f964963f0a7f6986cbf0641c38884717a2",
+      "qc_complete": false
+    },
+    {
+      "path": "/Volumes/ESD-02/新チャンネル/ショート/EP013_v02_20261108/deliverables/QO_short_EP013_V3_v02.mp4",
+      "bytes": 13832054,
+      "sha256": "dd08a0cfe97ec1aae93c8cc6e6e322c7c9b5969a09039f1bc207372c48f34836",
+      "qc_complete": false
+    }
+  ],
+  "draft_release_created": false,
+  "youtube_posted": false,
+  "youtube_scheduled": false,
+  "human_full_listening": false,
+  "mac_free_mib": 595.953125,
+  "ssd_free_gib": 97.86121368408203,
+  "worktree": "/private/tmp/qo-ep013-shorts-20261108",
+  "python_environment": "/Volumes/ESD-02/新チャンネル/ショート/EP013_v01_20261108/_work/python",
+  "tmpdir": "/Volumes/ESD-02/新チャンネル/ショート/EP013_v02_20261108/_work/tmp",
+  "next_step": "RGB変換機構の警告とメディアデコードの警告を区別する検品方法の検討。修正・再検品は未実施。"
+}

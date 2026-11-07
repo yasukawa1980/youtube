@@ -36,13 +36,15 @@ def card_contrast(frame,g):
             a=np.array(im.crop(box).convert('RGB')).astype(int)
             core=np.max(abs(a-[59,44,33]),axis=2)<3
             bg=np.max(abs(a-[232,217,183]),axis=2)<3
-            core=np.asarray(Image.fromarray(core.astype('uint8')*255).filter(ImageFilter.MinFilter(3)))>0
+            # 細い札を消さない。元画像の指定文字色に一致する画素を収縮せず使い、
+            # 完成MP4の同じ座標の最悪値（最も明るい文字／暗い背景）を測る。
             bg=np.asarray(Image.fromarray(bg.astype('uint8')*255).filter(ImageFilter.MinFilter(3)))>0
             assert core.sum()>0 and bg.sum()>0,row
             L=lum(frame[box[1]:box[3],box[0]:box[2]])
             ratio=(float(L[bg].min())+.05)/(float(L[core].max())+.05)
             assert ratio>=4.5,(row['text'],ratio)
-            out.append(dict(text=row['text'],contrast_ratio=ratio))
+            out.append(dict(text=row['text'],contrast_ratio=ratio,core_pixels=int(core.sum()),
+                            background_pixels=int(bg.sum()),method='指定文字色の画素を収縮なしで抽出し、完成MP4の最悪値を測定。背景のみ3x3収縮。'))
     return out
 
 def sheet(sid,kind,indices,cols):
@@ -57,11 +59,11 @@ def sheet(sid,kind,indices,cols):
 def stream_hash(path):
     return subprocess.check_output(['ffmpeg','-nostdin','-v','error','-i',str(path),'-map','0:a:0','-c','copy','-f','hash','-hash','sha256','-'],text=True).strip()
 
-def audit():
+def audit(version='v01',expected_shots=8):
     old,_=helper()
     shorts=read(ROOT/'records/shorts.json')['shorts'];visual=read(ROOT/'records/visual_manifest.json')
     shots=visual['shots'];caps=read(ROOT/'records/caption_manifest.json');results=[];motions=[]
-    assert len(shots)==8 and all(x['overlap_px2']==0 for x in visual['overlaps'])
+    assert len(shots)==expected_shots and all(x['overlap_px2']==0 for x in visual['overlaps'])
     assert all(g['native_max_scale']<=1 for g in shots)
     # 本編のカード文字と出典が、改行・組版の区切り以外は同じかを照合。
     maincode=(REQUEST.parent/'wom13_scenes.py').read_text()
@@ -70,7 +72,7 @@ def audit():
         for text in card['main_texts']:
             assert text in maincode,(key,text)
     for s in shorts:
-        guard();sid=s['id'];path=ROOT/f'deliverables/QO_short_EP013_{sid}_v01.mp4'
+        guard();sid=s['id'];path=ROOT/f'deliverables/QO_short_EP013_{sid}_{version}.mp4'
         probe=json.loads(subprocess.check_output(['ffprobe','-v','error','-show_format','-show_streams','-of','json',str(path)]))
         v=next(x for x in probe['streams'] if x['codec_type']=='video')
         assert (v['codec_name'],v['profile'],v['pix_fmt'],v['width'],v['height'],v['r_frame_rate'],int(v['nb_frames']))==('h264','High','yuv420p',1080,1920,'30/1',s['frames'])
@@ -85,7 +87,7 @@ def audit():
                 assert not re.search(r'\b(a|an|the|of|to|for|with|in|on|through|into|from|at)$',row['text'],re.I),row['text']
         assert s['voice_onset_seconds']<=.3
         indices=set([0,15,30,45,60,75,s['cta_start_frame'],s['frames']-1])
-        indices.update(range(0,s['frames'],60));indices.update((c['start_frame']+c['end_frame'])//2 for c in cs)
+        indices.update(range(0,s['frames'],30));indices.update((c['start_frame']+c['end_frame'])//2 for c in cs)
         indices.update(g['start_frame'] for g in gs)
         folder=ROOT/f'review/{sid}_frames';folder.mkdir(exist_ok=True)
         checks=[];cardchecks=[];headline=None
@@ -129,6 +131,7 @@ def audit():
         aud=old.levels(path);assert abs(float(aud['input_i'])+14)<=.15 and float(aud['input_tp'])<=-1
         assert stream_hash(path)==stream_hash(ROOT/f'audio/{sid}_final.m4a')
         for kind,inds,cols in [('opening',[0,15,30,45,60,75],3),('every2s',list(range(0,s['frames'],60)),5),
+              ('every1s_a',list(range(0,min(330,s['frames']),30)),4),('every1s_b',list(range(330,s['frames'],30)),4),
               ('all_captions',[(c['start_frame']+c['end_frame'])//2 for c in cs],4),
               ('CTA',[s['cta_start_frame'],s['frames']-1],2),('cuts',[g['start_frame'] for g in gs],3)]:sheet(sid,kind,inds,cols)
         results.append(dict(id=sid,path=str(path),sha256=sha(path),bytes=path.stat().st_size,
