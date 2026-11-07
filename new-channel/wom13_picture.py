@@ -38,7 +38,7 @@ def camera(k,count):
   left=l+(cw-cw/zz)*ax;up=top+(ch-ch/zz)*ay;return [left,up,left+cw/zz,up+ch/zz]
  a['motion_start_native_box']=bounds(0);a['motion_end_native_box']=bounds(1)
  return f'[0:v]fps=30,format=yuv444p,split[base][art];[art]crop={w}:{h}:{x}:{y}:exact=1,{p}[moving];[base][moving]overlay={x}:{y}:format=yuv444'+(',format=yuv444p[pre];[pre][1:v]overlay=format=yuv444,format=yuv420p[v]' if 'full' in k else ',format=yuv420p[v]')
-def run():
+def design():
  master=read(ROOT/'records/master_timeline.json');seg={x['id']:x for x in master['segments']};subs=read(ROOT/f'records/subtitle_cues_{LANG}.json')['cues'];events=[];shots=[]
  def st(p):return 0 if p=='P01' else round(seg[p]['start']*30)
  def ed(p):return round(seg[p]['end']*30)
@@ -74,6 +74,16 @@ def run():
  assert all(round(a['end']*30)==round(b['start']*30) for a,b in zip(shots,shots[1:]))
  for k in ['V01_full_1','V01_full_2']:
   overlay=Image.new('RGBA',(W,H),(0,0,0,0));sidebar(overlay,k);overlay.save(R/(k+'_overlay.png'))
+ return master,events,shots
+
+def run():
+ cfg={'timeline':sha(ROOT/'records/master_timeline.json'),'picture_code':sha(Path(__file__)), 'scene_code':sha(Path(__file__).with_name('wom13_scenes.py')),'scale':S,'language':LANG}
+ state=R/'design_state.json'
+ cached=read(state) if state.exists() else {}
+ if cached.get('config')==cfg and all((ROOT/e['file']).exists() for s in cached['shots'] for e in s.get('stages',[])):
+  master=cached['master'];events=cached['events'];shots=cached['shots'];ARTMEAS.update(cached['art']);METR.extend(cached['metrics']);print('DESIGN CACHE',LANG,S,flush=True)
+ else:
+  master,events,shots=design();save(state,dict(config=cfg,master=master,events=events,shots=shots,art=ARTMEAS,metrics=METR));print('DESIGN SAVED',LANG,S,flush=True)
  for s in shots:
   k=s['key']
   if s['segment_id']=='BRAND':continue
@@ -85,12 +95,17 @@ def run():
   cfg=dict(stages=[(sha(ROOT/e['file']),e['frames']) for e in entries],filter=f,scale=S,overlay=sha(R/(k+'_overlay.png')) if 'full' in k else None);stamp=out.with_suffix('.json')
   if 'design' not in sys.argv:
    if not(out.exists() and stamp.exists() and read(stamp)==json.loads(json.dumps(cfg))):
-    ff([*args,'-filter_complex_threads',2,'-filter_complex',f,'-map','[v]','-an','-frames:v',s['frames'],'-c:v','libx264','-preset','veryfast','-threads',3,'-crf',15,'-profile:v','high','-pix_fmt','yuv420p','-video_track_timescale',15360,out]);save(stamp,cfg)
+    ff([*args,'-filter_complex_threads',2,'-filter_complex',f,'-map','[v]','-an','-frames:v',s['frames'],'-c:v','libx264','-preset','veryfast','-threads',3,'-crf',15,'-profile:v','high','-pix_fmt','yuv420p','-video_track_timescale',15360,'-progress',R/(k+'_progress.txt'),out]);save(stamp,cfg)
    assert int(next(x for x in probe(out)['streams'] if x['codec_type']=='video')['nb_frames'])==s['frames']
   s['encoded_file']=str(out.relative_to(ROOT));s['moving']=moving;print('SHOT',LANG,S,k,s['frames'],flush=True)
  save(ROOT/f'records/render_shots{SUFFIX}.json',shots);save(ROOT/f'records/art_scales{SUFFIX}.json',ARTMEAS);save(ROOT/f'records/frame_layout{SUFFIX}.json',METR);save(ROOT/f'records/rail_switches{SUFFIX}.json',dict(events=events,rail_by_stage=[dict(key=s['key'],stages=[dict(frame=e['start_frame'],year=e['year']) for e in s.get('stages',[])]) for s in shots]))
  if 'design' in sys.argv:return
- out=ROOT/f'_work/picture_master{SUFFIX}.mp4';cmd=['ffmpeg','-y','-nostdin','-v','warning','-f','rawvideo','-pix_fmt','yuv420p','-s',f'{W}x{H}','-r','30','-i','pipe:0','-an','-c:v','libx264','-threads','4','-preset','veryfast','-crf','16','-profile:v','high','-pix_fmt','yuv420p','-g','60','-bf','2','-video_track_timescale','15360','-movie_timescale','48000','-colorspace','bt709','-color_trc','bt709','-color_primaries','bt709','-movflags','+faststart',str(out)]
+ out=ROOT/f'_work/picture_master{SUFFIX}.mp4';method=ROOT/f'records/encoding_method{SUFFIX}.json'
+ join_inputs=[dict(key=s['key'],sha256=sha(ROOT/s['encoded_file']),frames=s['frames']) for s in shots]
+ previous=read(method) if method.exists() else {}
+ if out.exists() and previous.get('inputs')==join_inputs and previous.get('master_sha256')==sha(out):
+  print('PICTURE CACHE',LANG,W,H,flush=True);return
+ cmd=['ffmpeg','-y','-nostdin','-v','warning','-f','rawvideo','-pix_fmt','yuv420p','-s',f'{W}x{H}','-r','30','-i','pipe:0','-an','-c:v','libx264','-threads','4','-preset','veryfast','-crf','16','-profile:v','high','-pix_fmt','yuv420p','-g','60','-bf','2','-video_track_timescale','15360','-movie_timescale','48000','-colorspace','bt709','-color_trc','bt709','-color_primaries','bt709','-movflags','+faststart','-progress',str(ROOT/f'_work/master{SUFFIX}_progress.txt'),str(out)]
  with (ROOT/f'records/encode{SUFFIX}.log').open('w') as log:
   enc=subprocess.Popen(cmd,stdin=subprocess.PIPE,stderr=log)
   try:
@@ -100,6 +115,6 @@ def run():
     subprocess.run([*args,'-frames:v',str(s['frames']),'-pix_fmt','yuv420p','-fps_mode','passthrough','-f','rawvideo','pipe:1'],stdout=enc.stdin,stderr=log,check=True)
    enc.stdin.close();assert enc.wait()==0
   except BaseException:enc.kill();enc.wait();raise
- save(ROOT/f'records/encoding_method{SUFFIX}.json',dict(method='independent shot decoders, including opening/endcard, through one raw yuv420p pipe into one AVC encoder',command=cmd,scale=S,painting_images='native verified source pixels resized directly to output plates',common_brand_4k='1080p source scaled with Lanczos' if S==2 else None))
+ save(method,dict(method='independent shot decoders, including opening/endcard, through one raw yuv420p pipe into one AVC encoder',command=cmd,scale=S,painting_images='native verified source pixels resized directly to output plates',common_brand_4k='1080p source scaled with Lanczos' if S==2 else None,inputs=join_inputs,master_sha256=sha(out)))
  print('PICTURE MASTER',LANG,W,H,flush=True)
 if __name__=='__main__':run()

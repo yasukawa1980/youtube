@@ -1,4 +1,4 @@
-"""EP013 measured comparison and review-only crop proposal; no video rendering."""
+"""EP013 measured comparison and approved crop geometry and review images; no video rendering."""
 import csv, itertools, json, math
 from pathlib import Path
 import numpy as np
@@ -75,7 +75,7 @@ def main():
     native.crop((0,900,600,1800)).save(OUT/'対応点_原寸2.jpg',quality=94)
     original={'D1':[.41,.46,.70,.656],'D2':[.03,.40,.30,.583],'D3':[.13,.25,.40,.433],'D4':[.73,.60,1,.783],'D5':[.20,.57,.47,.753],'D6':[.45,.05,.72,.233],'D7':[.53,.66,.795,.84]}
     proposed={k:list(v) for k,v in original.items()}
-    # Preserve 16:9 in native pixels. D6 is the sole requested exception, not approved.
+    # Preserve 16:9. D6 approval is recorded separately; do not overwrite its status on rerun.
     proposed['D2'][1]=.43;proposed['D3'][1]=.27;proposed['D5'][1]=.59
     proposed['D6']=[.42,.075,.78,0]
     for k,v in proposed.items():v[3]=v[1]+(v[2]-v[0])*14645/12158*9/16
@@ -84,7 +84,7 @@ def main():
         delta=[v[i]-original[k][i] for i in range(4)]
         crop_rows.append({'id':k,'requested':original[k],'proposed':v,'edge_deltas':delta,'within_003':max(map(abs,delta))<=.03+1e-9,'source_crop_width_px':(v[2]-v[0])*14645,'source_crop_height_px':(v[3]-v[1])*12158,'max_4k_scale':3840/((v[2]-v[0])*14645)})
     overlap=pairs(proposed)
-    save(RECORDS/'wom13_切り出し検証_20261107.json',{'status':'proposal_only_pending_D6_exception','requested_boxes':original,'proposed_boxes':crop_rows,'all_21_overlap_pairs':overlap,'maximum_overlap_fraction':max(x['overlap_over_smaller'] for x in overlap),'all_overlap_pass':all(x['pass_25_percent'] for x in overlap),'D6_issue':'With y1 capped at .263, lower shield/frame remains cut. Proposed wider region exceeds allowed edge adjustments. Do not use without approval.','V02_L_requested':[0,.48,.37,.746],'V02_L_source_width':10449*.37})
+    save(RECORDS/'wom13_切り出し検証_20261107.json',{'status':'approved_by_owner_20261107' if (RECORDS/'wom13_D6修正承認_20261107.json').exists() else 'proposal_only_pending_D6_exception','requested_boxes':original,'proposed_boxes':crop_rows,'all_21_overlap_pairs':overlap,'maximum_overlap_fraction':max(x['overlap_over_smaller'] for x in overlap),'all_overlap_pass':all(x['pass_25_percent'] for x in overlap),'D6_issue':'With y1 capped at .263, lower shield/frame remains cut. Proposed wider region exceeds allowed edge adjustments. Do not use without approval.','V02_L_requested':[0,.48,.37,.746],'V02_L_source_width':10449*.37})
     with (OUT/'細部重なり_修正案.csv').open('w') as f:
         w=csv.DictWriter(f,fieldnames=list(overlap[0]),lineterminator='\n');w.writeheader();w.writerows(overlap)
     # Concrete before/after card, no colour or brightness changes.

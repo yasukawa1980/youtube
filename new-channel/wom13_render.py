@@ -37,6 +37,16 @@ def package():
   ff(['-i',ROOT/'_work/picture_master.mp4','-i',ROOT/f'deliverables/EP013_audio_{l}.m4a','-map','0:v:0','-map','1:a:0','-c','copy','-metadata:s:a:0','language='+('eng' if l=='en' else 'jpn'),'-metadata','title=Quiet Origins / The Night Watch','-metadata','comment=English: Kokoro/af_heart. Japanese: VOICEVOX:冥鳴ひまり. External subtitles.','-movie_timescale',48000,'-movflags','+faststart',out])
   print('PACKAGED',l,flush=True)
 
+def package4k():
+ out=ROOT/f'deliverables/EP013_NightWatch_en_{VERSION}_2160p30.mp4'
+ ff(['-i',ROOT/'_work/picture_master_4k.mp4','-i',ROOT/'deliverables/EP013_audio_en.m4a','-map','0:v:0','-map','1:a:0','-c','copy','-metadata:s:a:0','language=eng','-metadata','title=Quiet Origins / The Night Watch','-movie_timescale',48000,'-movflags','+faststart',out])
+ original=ROOT/f'deliverables/EP013_NightWatch_en_{VERSION}_1080p30.mp4'
+ assert stream_hash(original,'a')==stream_hash(out,'a')
+ v=next(s for s in probe(out)['streams'] if s['codec_type']=='video')
+ assert (v['width'],v['height'],v['profile'],v['pix_fmt'],v['avg_frame_rate'])==(3840,2160,'High','yuv420p','30/1')
+ save(ROOT/'records/4k_audio_integrity.json',dict(audio_stream_identical_to_1080=True,audio_stream_sha256=stream_hash(out,'a'),video_sha256=sha(out),source='native original image plates; common 1080p brand clips scaled with Lanczos'))
+ print('PACKAGED 4K',flush=True)
+
 def reviews():
  binary=imageio_ffmpeg.get_ffmpeg_exe()
  for l in LANGUAGES:
@@ -48,7 +58,8 @@ def reviews():
 def precision():
  """Preserve encoded packets while making movie and track durations sample-exact."""
  state=ROOT/'records/container_precision.json'
- if state.exists() and all((ROOT/'deliverables'/x['name']).exists() and sha(ROOT/'deliverables'/x['name'])==x['after_sha256'] for x in read(state)['files']):return
+ current={f'EP013_audio_{l}.m4a' for l in LANGUAGES}|{p.name for p in (ROOT/'deliverables').glob('EP013_NightWatch_*.mp4')}
+ if state.exists() and {x['name'] for x in read(state)['files']}==current and all((ROOT/'deliverables'/x['name']).exists() and sha(ROOT/'deliverables'/x['name'])==x['after_sha256'] for x in read(state)['files']):return
  m=read(ROOT/'records/master_timeline.json');samples=round(m['duration_seconds']*48000);frames=round(m['duration_seconds']*30);records=[]
  files=[ROOT/f'deliverables/EP013_audio_{l}.m4a' for l in LANGUAGES]+sorted((ROOT/'deliverables').glob('EP013_NightWatch_*.mp4'))
  for p in files:
@@ -96,4 +107,4 @@ def verify():
  save(ROOT/f'records/qc_{VERSION}.json',{'passed':True,'duration_seconds':master['duration_seconds'],'frames':frames,'fps':30,'human_full_listening':False,'files':files,'shared_video_stream':len(LANGUAGES)==2,'subtitled_audio_unchanged':True})
 
 if __name__=='__main__':
- p=argparse.ArgumentParser();p.add_argument('stage',choices=['package','reviews','precision','verify']);a=p.parse_args();globals()[a.stage]()
+ p=argparse.ArgumentParser();p.add_argument('stage',choices=['package','package4k','reviews','precision','verify']);a=p.parse_args();globals()[a.stage]()

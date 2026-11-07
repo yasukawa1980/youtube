@@ -14,5 +14,5 @@ def main():
    if prev is not None:diff.append(float(np.abs(cur-prev).mean()))
    prev=cur
   assert pr.wait()==0;median=np.median(diff);p95=np.percentile(diff,95);ratio=float(p95/median) if median else (1 if p95==0 else None);out.append(dict(shot=k,roi=[x,y,ww,hh],adjacent_pairs=n-1,median=float(median),p95=float(p95),ratio=ratio,passed=ratio is not None and ratio<=2.5));print(k,ratio,flush=True)
- save(ROOT/'records/final_video_motion.json',dict(passed=all(i['passed'] for i in out),method='All adjacent frames of each moving content shot in the final picture master. Fixed cards, intentional reveals, static Prang sheet and common brand excluded.',checks=out))
+ save(ROOT/'records/final_video_motion.json',dict(passed=all(i['passed'] for i in out),method='All adjacent frames of each moving content shot in the final picture master. Fixed cards, schematic reveals and common brand excluded.',checks=out))
 if __name__=='__main__':main()
