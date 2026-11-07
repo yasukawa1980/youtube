@@ -1,0 +1,55 @@
+{
+  "passed": true,
+  "movie_timescale": 48000,
+  "video_frames": 9036,
+  "audio_samples": 14457600,
+  "files": [
+    {
+      "name": "EP013_audio_en.m4a",
+      "before_sha256": "4ed3ea3df6dcef01414985b77cbe35a043bd332d246669de9962f80bfbf2a093",
+      "after_sha256": "4ed3ea3df6dcef01414985b77cbe35a043bd332d246669de9962f80bfbf2a093",
+      "already_sample_exact": true,
+      "encoded_streams_identical": true,
+      "stream_hashes": {
+        "audio": "SHA256=7cfcb837fb9fa3a2eb1043c63eeeb5ea5be5871f62c1d1151b817a3f2d0650b6"
+      },
+      "duration_seconds": "301.200000"
+    },
+    {
+      "name": "EP013_NightWatch_en_v01_1080p30.mp4",
+      "before_sha256": "9f7b833177c73b93075e4646a68f17a1dec14b9404952095f05a3f9b765d23d3",
+      "after_sha256": "9f7b833177c73b93075e4646a68f17a1dec14b9404952095f05a3f9b765d23d3",
+      "already_sample_exact": true,
+      "encoded_streams_identical": true,
+      "stream_hashes": {
+        "video": "SHA256=68bf0d18beaaeb38091e9f6fa3619400efc4a90406c4929f06274b77a515de11",
+        "audio": "SHA256=7cfcb837fb9fa3a2eb1043c63eeeb5ea5be5871f62c1d1151b817a3f2d0650b6"
+      },
+      "duration_seconds": "301.200000"
+    },
+    {
+      "name": "EP013_NightWatch_en_v01_2160p30.mp4",
+      "before_sha256": "db7b1f31d5f27042a29db627bbc858ca78eb02492cf4cf17d0a62f4837de38f8",
+      "after_sha256": "db7b1f31d5f27042a29db627bbc858ca78eb02492cf4cf17d0a62f4837de38f8",
+      "already_sample_exact": true,
+      "encoded_streams_identical": true,
+      "stream_hashes": {
+        "video": "SHA256=071915db049561871a943d8e71ad72d5972250fb701186d55b5b1235635879a0",
+        "audio": "SHA256=7cfcb837fb9fa3a2eb1043c63eeeb5ea5be5871f62c1d1151b817a3f2d0650b6"
+      },
+      "duration_seconds": "301.200000"
+    },
+    {
+      "name": "EP013_NightWatch_en_v01_subtitled_review_1080p30.mp4",
+      "before_sha256": "f36e457fa53957cc8da85f28a6a397db05f9ec8639c1092dfb91e7868b6b6603",
+      "after_sha256": "f36e457fa53957cc8da85f28a6a397db05f9ec8639c1092dfb91e7868b6b6603",
+      "already_sample_exact": true,
+      "encoded_streams_identical": true,
+      "stream_hashes": {
+        "video": "SHA256=4a390fd998d9d18ed2864db6aa9e34c7397dc1a6932c8047eebcef631f48e1ae",
+        "audio": "SHA256=7cfcb837fb9fa3a2eb1043c63eeeb5ea5be5871f62c1d1151b817a3f2d0650b6"
+      },
+      "duration_seconds": "301.200000"
+    }
+  ]
+}

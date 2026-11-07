@@ -3,7 +3,7 @@
   "episode": "EP013_NightWatch",
   "date": "2026-11-07",
   "source_remote_commit": "6805f7f2",
-  "scope": "D6 exception approved by owner; native source assets ready, production in progress",
+  "scope": "D6 exception approved; native sources verified and preview v01 completed, privately shared with all eight attachments verified",
   "ssd_mount": "/Volumes/ESD-02",
   "ssd_connected": true,
   "media_destination": "/Volumes/ESD-02/新チャンネル/EP013_NightWatch/素材",
@@ -456,10 +456,17 @@
     }
   ],
   "remaining": [
-    "Complete rendering and full-stream video/audio/subtitle QA",
-    "Private Draft Release and REST re-download verification",
-    "Owner auditory review of proper names and overall pacing after preview delivery"
+    "Claude review of the completed preview",
+    "Owner listening: proper names, Japanese readings, pacing and overall playback",
+    "Owner visual preference: original dark details, three-language cards and thumbnail A/B"
   ],
   "script_file_modified": false,
-  "previous_ledger": "wom13_素材台帳_20261106.json"
+  "previous_ledger": "wom13_素材台帳_20261106.json",
+  "preview_delivery": {
+    "release_id": 437227870,
+    "draft": true,
+    "attachments": 8,
+    "rest_verified": true,
+    "result": "new-channel/wom13_制作結果_v01_20261107.md"
+  }
 }

@@ -1,0 +1,43 @@
+{
+  "passed": true,
+  "movie_timescale": 48000,
+  "video_frames": 9444,
+  "audio_samples": 15110400,
+  "files": [
+    {
+      "name": "EP013_audio_ja.m4a",
+      "before_sha256": "c171864645284a30aa74918f8c2b6c296babf6577394c40062e52a4c43924a63",
+      "after_sha256": "c171864645284a30aa74918f8c2b6c296babf6577394c40062e52a4c43924a63",
+      "already_sample_exact": true,
+      "encoded_streams_identical": true,
+      "stream_hashes": {
+        "audio": "SHA256=cf6eccfadd5c85343d140dd92f884ac5e038df560cf3aa98a92e75e87683e0f3"
+      },
+      "duration_seconds": "314.800000"
+    },
+    {
+      "name": "EP013_NightWatch_ja_v01_1080p30.mp4",
+      "before_sha256": "00bdb3f3091de1795de08032d964f45e33486968a0079e8af4052013270d454f",
+      "after_sha256": "00bdb3f3091de1795de08032d964f45e33486968a0079e8af4052013270d454f",
+      "already_sample_exact": true,
+      "encoded_streams_identical": true,
+      "stream_hashes": {
+        "video": "SHA256=18fca17cbde6c50213b3935649a3d8f6a591e4b7a7b5bfda4ea1d3f3f453ee10",
+        "audio": "SHA256=cf6eccfadd5c85343d140dd92f884ac5e038df560cf3aa98a92e75e87683e0f3"
+      },
+      "duration_seconds": "314.800000"
+    },
+    {
+      "name": "EP013_NightWatch_ja_v01_subtitled_review_1080p30.mp4",
+      "before_sha256": "d6d047785b62eab0698a1d6853b6d40e3b85084b52ca67a756a4ee553790f91c",
+      "after_sha256": "d6d047785b62eab0698a1d6853b6d40e3b85084b52ca67a756a4ee553790f91c",
+      "already_sample_exact": true,
+      "encoded_streams_identical": true,
+      "stream_hashes": {
+        "video": "SHA256=2568159f67c96ddc38198bda82087085f878897be740a29cbb9904097b52a5eb",
+        "audio": "SHA256=cf6eccfadd5c85343d140dd92f884ac5e038df560cf3aa98a92e75e87683e0f3"
+      },
+      "duration_seconds": "314.800000"
+    }
+  ]
+}

@@ -1,12 +1,11 @@
 {
-  "reviewed": false,
+  "reviewed": true,
   "completed": [
     "en_1080p",
-    "ja_1080p"
-  ],
-  "pending": [
+    "ja_1080p",
     "en_4k"
   ],
+  "pending": [],
   "review_method": "Static final-video first/middle/last contact sheets, opening 0/1/2/3 seconds, quote/schematic stages, burned-subtitle samples",
   "observed_images": [
     "en/review/continuous_en_sheet_05.jpg",
@@ -43,13 +42,24 @@
     "en/review/stage_en_D_1797_1.jpg",
     "ja/review/stage_ja_D_cut_1.jpg",
     "ja/review/stage_ja_D_1678_1.jpg",
-    "ja/review/stage_ja_D_1797_0.jpg"
+    "ja/review/stage_ja_D_1797_0.jpg",
+    "en/review/continuous_en_4k_sheet_05.jpg",
+    "en/review/continuous_en_4k_sheet_04.jpg",
+    "en/review/continuous_en_4k_sheet_06.jpg",
+    "en/review/continuous_en_4k_sheet_03.jpg",
+    "en/review/continuous_en_4k_sheet_02.jpg",
+    "en/review/continuous_en_4k_sheet_01.jpg",
+    "en/review/native_D7_4k.jpg",
+    "en/review/stage_en_4k_D_album_1.jpg",
+    "en/review/stage_en_4k_D_cut_1.jpg",
+    "en/review/opening_en_4k_03.jpg"
   ],
   "observations": [
     "No visible corrupt frames, missing labels or quotation clipping in sampled images",
     "Approved D6 includes the complete shield; original dark appearance retained",
     "Subtitle backing clears chronology rail; measured minimum 15 px",
-    "Japanese quote card breaks Vlaardingen across lines and one Japanese subtitle ends with a short second line; text intact and within size limits"
+    "Japanese quote card breaks Vlaardingen across lines and one Japanese subtitle ends with a short second line; text intact and within size limits",
+    "4K contacts retain all expected shots and labels. Encoded D7 1:1 crop shows intact cloth/embroidery detail with no obvious corruption."
   ],
   "continuous_playback_with_audio_listened": false,
   "owner_review_pending": [

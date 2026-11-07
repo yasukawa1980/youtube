@@ -1,0 +1,23 @@
+{
+  "observed_failure": "Two initial 4K first-shot ffmpeg runs ended with SIGKILL; second stalled after output frame 864 of 872.",
+  "sample_observation": {
+    "pid": 11456,
+    "physical_footprint_reported": "7.5G",
+    "active_thread": "fc0 filter graph",
+    "encoder_output_had_stopped": true
+  },
+  "cause_assessment": "End-of-input/frame buffering suspected; exact internal cause not established. No claim of source-image corruption.",
+  "changes": [
+    "Bound single-image 4K inputs and sidebar overlays to 30fps and the exact shot duration",
+    "Trim moving-source input to the exact frame count",
+    "Release original-pixel artwork cache before encoding",
+    "Limit decoder threads and encoder lookahead"
+  ],
+  "validation": {
+    "short_4k_test_frames": 120,
+    "short_4k_test_seconds": 4.0,
+    "passed": true,
+    "first_complete_full_shot_frames": 872
+  },
+  "existing_1080p_deliverables_modified": false
+}

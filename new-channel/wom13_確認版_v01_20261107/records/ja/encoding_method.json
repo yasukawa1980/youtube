@@ -1,0 +1,168 @@
+{
+  "method": "independent shot decoders, including opening/endcard, through one raw yuv420p pipe into one AVC encoder",
+  "command": [
+    "ffmpeg",
+    "-y",
+    "-nostdin",
+    "-v",
+    "warning",
+    "-f",
+    "rawvideo",
+    "-pix_fmt",
+    "yuv420p",
+    "-s",
+    "1920x1080",
+    "-r",
+    "30",
+    "-i",
+    "pipe:0",
+    "-an",
+    "-c:v",
+    "libx264",
+    "-threads",
+    "4",
+    "-preset",
+    "veryfast",
+    "-crf",
+    "16",
+    "-profile:v",
+    "high",
+    "-pix_fmt",
+    "yuv420p",
+    "-g",
+    "60",
+    "-bf",
+    "2",
+    "-video_track_timescale",
+    "15360",
+    "-movie_timescale",
+    "48000",
+    "-colorspace",
+    "bt709",
+    "-color_trc",
+    "bt709",
+    "-color_primaries",
+    "bt709",
+    "-movflags",
+    "+faststart",
+    "-progress",
+    "/Volumes/ESD-02/新チャンネル/EP013_NightWatch/確認版_v01_20261107/ja/_work/master_progress.txt",
+    "/Volumes/ESD-02/新チャンネル/EP013_NightWatch/確認版_v01_20261107/ja/_work/picture_master.mp4"
+  ],
+  "scale": 1,
+  "painting_images": "native verified source pixels resized directly to output plates",
+  "common_brand_4k": null,
+  "inputs": [
+    {
+      "key": "V01_full_1",
+      "sha256": "1950ced3af56a628a96cbcee1884fc283b67bd39a94b1431b8f66e25e9bb07b7",
+      "frames": 947
+    },
+    {
+      "key": "D_timeline_intro",
+      "sha256": "012c8734594a8c58e2622473e342bc55d58f61cb3b1175ddd5d2dedb007fe3b9",
+      "frames": 378
+    },
+    {
+      "key": "opening",
+      "sha256": "4f8e95fd166e52b6c601c87440006ded2eec298f54c3d6d6a951738b54f721a9",
+      "frames": 120
+    },
+    {
+      "key": "V05",
+      "sha256": "66806a2cdf6649c1832602ec88526ae240a5d61c6543046b4e377c91cd028a2c",
+      "frames": 371
+    },
+    {
+      "key": "V06",
+      "sha256": "2b408c3e465665b13b62e1f58c99a1d3d46851f16963340f75d9705d417ee1bf",
+      "frames": 331
+    },
+    {
+      "key": "V01_D1",
+      "sha256": "861c7752e47774ad2c202701370ffd5e86366f2d31e9ecb6d58f4d5b0bb229f2",
+      "frames": 378
+    },
+    {
+      "key": "V01_D2",
+      "sha256": "3b746caf0f9ca920bded1ae099b2f50f0418b389a2198edc078e510e7b31ec6e",
+      "frames": 94
+    },
+    {
+      "key": "V01_D3",
+      "sha256": "a41e156cd0130f3fb14f5ea07123aa2b1bde8fa0f8ee80ff87bc4dad50dea094",
+      "frames": 25
+    },
+    {
+      "key": "V01_D4",
+      "sha256": "4e59dec9a1e770536ba1f4be9ed4f63a253f3a8e8e51ae791604cce519c27a3c",
+      "frames": 200
+    },
+    {
+      "key": "V01_D5",
+      "sha256": "49af6c598512768ad0e2cab920d0452c7c2820068d568df8f106401064b88572",
+      "frames": 514
+    },
+    {
+      "key": "D_album",
+      "sha256": "abae085e104b675d91bbd3cd650a204f4c5bc9859163adeb9f77bc8a7a900e85",
+      "frames": 605
+    },
+    {
+      "key": "D_1678",
+      "sha256": "f019ff357861c3d34089b21056bbf6f4fd95210f8cda8cad15a6e149a5ee8377",
+      "frames": 1039
+    },
+    {
+      "key": "V07",
+      "sha256": "3710e15a6621823aa2c62f4aed872a09a7d203126db4b4e27ce760c262d9cedd",
+      "frames": 189
+    },
+    {
+      "key": "D_cut",
+      "sha256": "2a5547dfc469c43f0f2b9a5c0c32ecb9f8a306107860953529a28cbdf72e87a9",
+      "frames": 339
+    },
+    {
+      "key": "V02_L",
+      "sha256": "577c602256154d0f510abb9bf52aac1c04c0230d3d03ed70ff9f847e7e94eeb7",
+      "frames": 301
+    },
+    {
+      "key": "V08",
+      "sha256": "054d6249e693b5eaf7691e2f8783cbcda2c86c436e4b43e39392d3b5bb3a92d4",
+      "frames": 306
+    },
+    {
+      "key": "D_1797",
+      "sha256": "2e1672175200f6da566b6dd792da1368bb8aaff8935278de91065ed05fc6bd68",
+      "frames": 358
+    },
+    {
+      "key": "V01_D6",
+      "sha256": "ba3c26a2a3b0aa0c2304dfd692ff4e282f33de80563127e621763bb1903a427d",
+      "frames": 466
+    },
+    {
+      "key": "V01_D7",
+      "sha256": "507d1432c68ea63b225673f50af3fc7f1c2e63a02b39d20f9e74b1cdf59dae9e",
+      "frames": 337
+    },
+    {
+      "key": "V01_full_2",
+      "sha256": "5fad699e13a105025c063f95d33faa561278d31d87f0f31ca6f399bb08bcfdd7",
+      "frames": 1149
+    },
+    {
+      "key": "credits",
+      "sha256": "6fa46cdc4f8f04a65a06a428d5165342eb04277b7cffc987660994e7edaefbc4",
+      "frames": 697
+    },
+    {
+      "key": "endcard",
+      "sha256": "3cd254cdd387d0ca8e3ef3c2f74ca3650dc64fb02609bcd09a21b3e36a3513a2",
+      "frames": 300
+    }
+  ],
+  "master_sha256": "89d8fec5ad39f2405c10347ee03740ca84f5a4d5e47eb0a09613d09781b60d7d"
+}

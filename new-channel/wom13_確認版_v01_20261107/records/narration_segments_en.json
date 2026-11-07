@@ -1,0 +1,813 @@
+{
+  "language": "en",
+  "voice": "Kokoro / Heart (af_heart)",
+  "sample_rate": 24000,
+  "human_auditory_review_completed": false,
+  "segments": [
+    {
+      "id": "P01",
+      "chapter": "C01",
+      "sources": [
+        "V-S01",
+        "V-S02"
+      ],
+      "classification": "editorial_question",
+      "visuals": [
+        "V01_full_1"
+      ],
+      "text": "This is one of the most famous paintings in the world: Rembrandt's The Night Watch. Figures step out of deep shadow, as if caught in the dark of night. But the name is not Rembrandt's. It is first recorded long after he died. And an early description, kept by the captain's own family, speaks of a company of citizens and an order to march. It says nothing about the night.",
+      "cues": [
+        {
+          "id": "P01-01",
+          "text": "This is one of the most famous paintings in the world: Rembrandt's The Night Watch.",
+          "spoken_text": "This is one of the most famous paintings in the world: Rembrandt's The Night Watch.",
+          "start": 0.0,
+          "end": 5.213333333333333,
+          "audio_file": "audio/en/sentences/P01-01.wav",
+          "audio_sha256": "63e7eaf575df1f3e3ceefa17979e12600bea0af3a8820a3c00811af2fec40349",
+          "replacements": [],
+          "role": "opening"
+        },
+        {
+          "id": "P01-02",
+          "text": "Figures step out of deep shadow, as if caught in the dark of night.",
+          "spoken_text": "Figures step out of deep shadow, as if caught in the dark of night.",
+          "start": 5.513333333333334,
+          "end": 9.875958333333333,
+          "audio_file": "audio/en/sentences/P01-02.wav",
+          "audio_sha256": "c960e74fee7939d1c36f5b83842f5f98ce4b3b5573c75c4148a4cfe4a0c246a3",
+          "replacements": [],
+          "role": "plain"
+        },
+        {
+          "id": "P01-03",
+          "text": "But the name is not Rembrandt's.",
+          "spoken_text": "But the name is not Rembrandt's.",
+          "start": 10.175958333333334,
+          "end": 12.392625,
+          "audio_file": "audio/en/sentences/P01-03.wav",
+          "audio_sha256": "894053c2b558c3e88ac3932997a7c6cb731d51d11a9245b77effa9345b3591d6",
+          "replacements": [],
+          "role": "plain"
+        },
+        {
+          "id": "P01-04",
+          "text": "It is first recorded long after he died.",
+          "spoken_text": "It is first recorded long after he died.",
+          "start": 12.692625,
+          "end": 15.722625,
+          "audio_file": "audio/en/sentences/P01-04.wav",
+          "audio_sha256": "f079bdca2880b6ef81979cd700ec41a25fe75594a87373413ae98e6782b80321",
+          "replacements": [],
+          "role": "plain"
+        },
+        {
+          "id": "P01-05",
+          "text": "And an early description, kept by the captain's own family, speaks of a company of citizens and an order to march.",
+          "spoken_text": "And an early description, kept by the captain's own family, speaks of a company of citizens and an order to march.",
+          "start": 16.022625,
+          "end": 24.019291666666668,
+          "audio_file": "audio/en/sentences/P01-05.wav",
+          "audio_sha256": "5834ad9eaf17569fa92037e9d8b00e8c37cf3d444abb028fa9067928fb1cb315",
+          "replacements": [],
+          "role": "plain"
+        },
+        {
+          "id": "P01-06",
+          "text": "It says nothing about the night.",
+          "spoken_text": "It says nothing about the night.",
+          "start": 24.31929166666667,
+          "end": 26.346625,
+          "audio_file": "audio/en/sentences/P01-06.wav",
+          "audio_sha256": "c5c3ba96b8ff056490eb0918f46e760b7f110fa4cd0d430e310c18cce08f4bb1",
+          "replacements": [],
+          "role": "plain"
+        }
+      ],
+      "audio_file": "audio/en/P01.wav",
+      "duration_seconds": 26.346625,
+      "native_speed": 0.82
+    },
+    {
+      "id": "P02",
+      "chapter": "C01",
+      "sources": [],
+      "classification": "editorial_question",
+      "visuals": [
+        "D_timeline_intro"
+      ],
+      "text": "In this episode, we follow the painting through time: from the hall it was made for, to the years when it was cut down, to the time it received its name.",
+      "cues": [
+        {
+          "id": "P02-01",
+          "text": "In this episode, we follow the painting through time: from the hall it was made for, to the years when it was cut down, to the time it received its name.",
+          "spoken_text": "In this episode, we follow the painting through time: from the hall it was made for, to the years when it was cut down, to the time it received its name.",
+          "start": 0.0,
+          "end": 10.366,
+          "audio_file": "audio/en/sentences/P02-01.wav",
+          "audio_sha256": "0077044cf3224e7e919b445f7bbb218894912ebed9bd6080b277d22a2c774145",
+          "replacements": [],
+          "role": "plain"
+        }
+      ],
+      "audio_file": "audio/en/P02.wav",
+      "duration_seconds": 10.366,
+      "native_speed": 0.82
+    },
+    {
+      "id": "P03",
+      "chapter": "C02",
+      "sources": [
+        "V-S01",
+        "V-S03"
+      ],
+      "classification": "historical_fact",
+      "visuals": [
+        "V05",
+        "V06"
+      ],
+      "text": "In sixteen forty-two, Rembrandt completed a very large group portrait for the great hall of the arquebusiers, one of Amsterdam's civic militias. Paintings like this were common in the city. Members often appeared side by side, in rows, so that each face could be seen.",
+      "cues": [
+        {
+          "id": "P03-01",
+          "text": "In sixteen forty-two, Rembrandt completed a very large group portrait for the great hall of the arquebusiers, one of Amsterdam's civic militias.",
+          "spoken_text": "In sixteen forty-two, Rembrandt completed a very large group portrait for the great hall of the arquebusiers, one of Amsterdam's civic militias.",
+          "start": 0.0,
+          "end": 10.791333333333334,
+          "audio_file": "audio/en/sentences/P03-01.wav",
+          "audio_sha256": "f356f6927b1c6626c62239f47d9eda294ed1eeab8402b0b9d036b3b0fe4cfe33",
+          "replacements": [],
+          "role": "plain"
+        },
+        {
+          "id": "P03-02",
+          "text": "Paintings like this were common in the city.",
+          "spoken_text": "Paintings like this were common in the city.",
+          "start": 11.091333333333333,
+          "end": 14.216625,
+          "audio_file": "audio/en/sentences/P03-02.wav",
+          "audio_sha256": "d05b1d3e1f9c848fc25f6d7768120ae925d37690514e44294f32cfea5bf43eff",
+          "replacements": [],
+          "role": "plain"
+        },
+        {
+          "id": "P03-03",
+          "text": "Members often appeared side by side, in rows, so that each face could be seen.",
+          "spoken_text": "Members often appeared side by side, in rows, so that each face could be seen.",
+          "start": 14.516625,
+          "end": 20.295958333333335,
+          "audio_file": "audio/en/sentences/P03-03.wav",
+          "audio_sha256": "491551e01a0212fd5a7048d893db7a9786d303cdd46c587223f112223300f90e",
+          "replacements": [],
+          "role": "plain"
+        }
+      ],
+      "audio_file": "audio/en/P03.wav",
+      "duration_seconds": 20.295958333333335,
+      "native_speed": 0.82
+    },
+    {
+      "id": "P04",
+      "chapter": "C02",
+      "sources": [
+        "V-S01"
+      ],
+      "classification": "historical_fact",
+      "visuals": [
+        "V01_D1",
+        "V01_D2",
+        "V01_D3",
+        "V01_D4"
+      ],
+      "text": "Rembrandt did something else. At the center, Captain Frans Banninck Cocq, in black, gives an order to his lieutenant, Willem van Ruytenburch, in yellow. Around them, men load their guns, raise a flag, and beat a drum. The portrait looks like a moment in motion.",
+      "cues": [
+        {
+          "id": "P04-01",
+          "text": "Rembrandt did something else.",
+          "spoken_text": "Rembrandt did something else.",
+          "start": 0.0,
+          "end": 2.089958333333333,
+          "audio_file": "audio/en/sentences/P04-01.wav",
+          "audio_sha256": "dbcac01b80dff52b9fd9e68ac46bb0a90b7d754c693e440a57724ecb5924f7fa",
+          "replacements": [],
+          "role": "plain"
+        },
+        {
+          "id": "P04-02",
+          "text": "At the center, Captain Frans Banninck Cocq, in black, gives an order to his lieutenant, Willem van Ruytenburch, in yellow.",
+          "spoken_text": "At the center, Captain Frans Banninck Cocq, in black, gives an order to his lieutenant, Willem van Ruytenburch, in yellow.",
+          "start": 2.3899583333333334,
+          "end": 11.053916666666666,
+          "audio_file": "audio/en/sentences/P04-02.wav",
+          "audio_sha256": "c602e6c028c2c6b71643d89000c06e9d0757eb0b5f0b7183ca190155c7739bb7",
+          "replacements": [],
+          "role": "plain"
+        },
+        {
+          "id": "P04-03",
+          "text": "Around them, men load their guns, raise a flag, and beat a drum.",
+          "spoken_text": "Around them, men load their guns, raise a flag, and beat a drum.",
+          "start": 11.353916666666667,
+          "end": 16.06854166666667,
+          "audio_file": "audio/en/sentences/P04-03.wav",
+          "audio_sha256": "d25310da4b65382acc290ebd86809c306467d4cd6075997b6b8d521ddf11c9f7",
+          "replacements": [],
+          "role": "plain"
+        },
+        {
+          "id": "P04-04",
+          "text": "The portrait looks like a moment in motion.",
+          "spoken_text": "The portrait looks like a moment in motion.",
+          "start": 16.368541666666665,
+          "end": 19.1225,
+          "audio_file": "audio/en/sentences/P04-04.wav",
+          "audio_sha256": "9787677926e8f29fe313b7a2d50038eed5bafd91508ba84b2b293741a744fb29",
+          "replacements": [],
+          "role": "plain"
+        }
+      ],
+      "audio_file": "audio/en/P04.wav",
+      "duration_seconds": 19.1225,
+      "native_speed": 0.82
+    },
+    {
+      "id": "P05",
+      "chapter": "C02",
+      "sources": [
+        "V-S01"
+      ],
+      "classification": "museum_interpretation",
+      "visuals": [
+        "V01_D5"
+      ],
+      "text": "Behind them is a small, bright figure: a girl with a chicken hanging from her belt. The museum describes her as a kind of mascot for the company, and links the chicken's claws, and the gun beside her, to the symbols of the arquebusiers.",
+      "cues": [
+        {
+          "id": "P05-01",
+          "text": "Behind them is a small, bright figure: a girl with a chicken hanging from her belt.",
+          "spoken_text": "Behind them is a small, bright figure: a girl with a chicken hanging from her belt.",
+          "start": 0.0,
+          "end": 5.907291666666667,
+          "audio_file": "audio/en/sentences/P05-01.wav",
+          "audio_sha256": "010114185d12098c659cebf99a9d4e9161dc151b2d066eda97b5d85aa923aae1",
+          "replacements": [],
+          "role": "plain"
+        },
+        {
+          "id": "P05-02",
+          "text": "The museum describes her as a kind of mascot for the company, and links the chicken's claws, and the gun beside her, to the symbols of the arquebusiers.",
+          "spoken_text": "The museum describes her as a kind of mascot for the company, and links the chicken's claws, and the gun beside her, to the symbols of the arquebusiers.",
+          "start": 6.207291666666666,
+          "end": 16.570625,
+          "audio_file": "audio/en/sentences/P05-02.wav",
+          "audio_sha256": "95bbdbb761ec290b76c3df4d62198782fd595a2cb38a631e2bdc0759d77d36af",
+          "replacements": [],
+          "role": "plain"
+        }
+      ],
+      "audio_file": "audio/en/P05.wav",
+      "duration_seconds": 16.570625,
+      "native_speed": 0.82
+    },
+    {
+      "id": "P06",
+      "chapter": "C03",
+      "sources": [
+        "V-S02"
+      ],
+      "classification": "historical_fact",
+      "visuals": [
+        "D_album"
+      ],
+      "text": "In an album kept by the captain's family, a small copy of the painting appears with a caption in Dutch. It says that the young lord of Purmerland, as captain, orders his lieutenant, the lord of Vlaardingen, to have his company of citizens march. It says nothing about the hour.",
+      "cues": [
+        {
+          "id": "P06-01",
+          "text": "In an album kept by the captain's family, a small copy of the painting appears with a caption in Dutch.",
+          "spoken_text": "In an album kept by the captain's family, a small copy of the painting appears with a caption in Dutch.",
+          "start": 0.0,
+          "end": 6.768,
+          "audio_file": "audio/en/sentences/P06-01.wav",
+          "audio_sha256": "e24a0022a50622dfd02e33a72626088321458249f7246b2d31dca6d75d86dd9f",
+          "replacements": [],
+          "role": "plain"
+        },
+        {
+          "id": "P06-02",
+          "text": "It says that the young lord of Purmerland, as captain, orders his lieutenant, the lord of Vlaardingen, to have his company of citizens march.",
+          "spoken_text": "It says that the young lord of Purmerland, as captain, orders his lieutenant, the lord of Vlaardingen, to have his company of citizens march.",
+          "start": 7.068,
+          "end": 17.132666666666665,
+          "audio_file": "audio/en/sentences/P06-02.wav",
+          "audio_sha256": "e51b25c776bd7da0df21b85ee796280b9c749b4d2035b89b1c1872f7f6f5f90c",
+          "replacements": [],
+          "role": "plain"
+        },
+        {
+          "id": "P06-03",
+          "text": "It says nothing about the hour.",
+          "spoken_text": "It says nothing about the hour.",
+          "start": 17.432666666666666,
+          "end": 19.536666666666665,
+          "audio_file": "audio/en/sentences/P06-03.wav",
+          "audio_sha256": "1b927912929a9250d07cabb57833b1a36db79452482a8c25a2a5b0f1446e38ec",
+          "replacements": [],
+          "role": "plain"
+        }
+      ],
+      "audio_file": "audio/en/P06.wav",
+      "duration_seconds": 19.536666666666665,
+      "native_speed": 0.82
+    },
+    {
+      "id": "P07",
+      "chapter": "C03",
+      "sources": [
+        "V-S03"
+      ],
+      "classification": "historical_fact",
+      "visuals": [
+        "D_1678"
+      ],
+      "text": "In sixteen seventy-eight, Samuel van Hoogstraten, who had studied with Rembrandt, wrote about the painting in a book on art. He reported a criticism: that Rembrandt had cared more for the picture as a whole than for the portraits he had been asked to paint. Even so, he believed it would outlast all its rivals. And he added that he wished Rembrandt had put more light into it. So its deep shadows were noticed early. But Hoogstraten does not call it a night scene.",
+      "cues": [
+        {
+          "id": "P07-01",
+          "text": "In sixteen seventy-eight, Samuel van Hoogstraten, who had studied with Rembrandt, wrote about the painting in a book on art.",
+          "spoken_text": "In sixteen seventy-eight, Samuel van Hoogstraten, who had studied with Rembrandt, wrote about the painting in a book on art.",
+          "start": 0.0,
+          "end": 8.532625,
+          "audio_file": "audio/en/sentences/P07-01.wav",
+          "audio_sha256": "6ca94b3188e09d1c5a7e59f4abd5f731a8262b4b314efbed405784fd6196a206",
+          "replacements": [],
+          "role": "plain"
+        },
+        {
+          "id": "P07-02",
+          "text": "He reported a criticism: that Rembrandt had cared more for the picture as a whole than for the portraits he had been asked to paint.",
+          "spoken_text": "He reported a criticism: that Rembrandt had cared more for the picture as a whole than for the portraits he had been asked to paint.",
+          "start": 8.832625,
+          "end": 17.60258333333333,
+          "audio_file": "audio/en/sentences/P07-02.wav",
+          "audio_sha256": "0fcca254c805aab79c4f6dd2cc88cbaf5e347b5c71be40cc1b06e3f0bd2e64f8",
+          "replacements": [],
+          "role": "plain"
+        },
+        {
+          "id": "P07-03",
+          "text": "Even so, he believed it would outlast all its rivals.",
+          "spoken_text": "Even so, he believed it would outlast all its rivals.",
+          "start": 17.902583333333332,
+          "end": 21.868583333333333,
+          "audio_file": "audio/en/sentences/P07-03.wav",
+          "audio_sha256": "eafe80ada7f3841bdf0638a5eb4a7184057920ae17d15676db42d7051c6fe468",
+          "replacements": [],
+          "role": "plain"
+        },
+        {
+          "id": "P07-04",
+          "text": "And he added that he wished Rembrandt had put more light into it.",
+          "spoken_text": "And he added that he wished Rembrandt had put more light into it.",
+          "start": 22.168583333333334,
+          "end": 26.095875,
+          "audio_file": "audio/en/sentences/P07-04.wav",
+          "audio_sha256": "4609d27a8a9125af0e2fc310c4e25980c2f138cd0985d0e7357b916b18fa167a",
+          "replacements": [],
+          "role": "plain"
+        },
+        {
+          "id": "P07-05",
+          "text": "So its deep shadows were noticed early.",
+          "spoken_text": "So its deep shadows were noticed early.",
+          "start": 26.395875,
+          "end": 28.9065,
+          "audio_file": "audio/en/sentences/P07-05.wav",
+          "audio_sha256": "f3f6a02232bb6570389fd3bf08087d58715fb7cdd10777be712be6822f8257fa",
+          "replacements": [],
+          "role": "plain"
+        },
+        {
+          "id": "P07-06",
+          "text": "But Hoogstraten does not call it a night scene.",
+          "spoken_text": "But Hoogstraten does not call it a night scene.",
+          "start": 29.2065,
+          "end": 32.2665,
+          "audio_file": "audio/en/sentences/P07-06.wav",
+          "audio_sha256": "4f3091d3dd225d5fd1604dd3dd6d530a7f3865241109cec1c824d4a13e37b684",
+          "replacements": [],
+          "role": "plain"
+        }
+      ],
+      "audio_file": "audio/en/P07.wav",
+      "duration_seconds": 32.2665,
+      "native_speed": 0.82
+    },
+    {
+      "id": "P08",
+      "chapter": "C04",
+      "sources": [
+        "V-S04",
+        "V-S05"
+      ],
+      "classification": "historical_fact",
+      "visuals": [
+        "V07",
+        "D_cut",
+        "V02_L"
+      ],
+      "text": "In seventeen fifteen, the city ordered the painting to be cleaned and moved to a room in Amsterdam's town hall. Around that time, it was cut down at the edges to fit its new place. Most of the loss was on the left, where two men and a child disappeared. We know what they looked like from a much smaller copy, attributed to Gerrit Lundens, painted before the cut.",
+      "cues": [
+        {
+          "id": "P08-01",
+          "text": "In seventeen fifteen, the city ordered the painting to be cleaned and moved to a room in Amsterdam's town hall.",
+          "spoken_text": "In seventeen fifteen, the city ordered the painting to be cleaned and moved to a room in Amsterdam's town hall.",
+          "start": 0.0,
+          "end": 7.996666666666667,
+          "audio_file": "audio/en/sentences/P08-01.wav",
+          "audio_sha256": "a2de0a8b68305ae8e89af711f01401b7af46e55b995a187e26f14bc142c56f79",
+          "replacements": [],
+          "role": "plain"
+        },
+        {
+          "id": "P08-02",
+          "text": "Around that time, it was cut down at the edges to fit its new place.",
+          "spoken_text": "Around that time, it was cut down at the edges to fit its new place.",
+          "start": 8.296666666666667,
+          "end": 13.009333333333334,
+          "audio_file": "audio/en/sentences/P08-02.wav",
+          "audio_sha256": "6b874a829fdc85310eacec7291b899fccd44279ed55b51cec744607f1644a250",
+          "replacements": [],
+          "role": "plain"
+        },
+        {
+          "id": "P08-03",
+          "text": "Most of the loss was on the left, where two men and a child disappeared.",
+          "spoken_text": "Most of the loss was on the left, where two men and a child disappeared.",
+          "start": 13.309333333333333,
+          "end": 18.097333333333335,
+          "audio_file": "audio/en/sentences/P08-03.wav",
+          "audio_sha256": "14b57674f1871bcd1bf91a04607d6968d52a230cf76436b437b9daca56f635a9",
+          "replacements": [],
+          "role": "plain"
+        },
+        {
+          "id": "P08-04",
+          "text": "We know what they looked like from a much smaller copy, attributed to Gerrit Lundens, painted before the cut.",
+          "spoken_text": "We know what they looked like from a much smaller copy, attributed to Gerrit Lundens, painted before the cut.",
+          "start": 18.397333333333332,
+          "end": 25.362625,
+          "audio_file": "audio/en/sentences/P08-04.wav",
+          "audio_sha256": "0133363ccffb21820df4ac610bf82e5095988343fe68b8379726daa5a6b1f385",
+          "replacements": [],
+          "role": "plain"
+        }
+      ],
+      "audio_file": "audio/en/P08.wav",
+      "duration_seconds": 25.362625,
+      "native_speed": 0.82
+    },
+    {
+      "id": "P09",
+      "chapter": "C05",
+      "sources": [
+        "V-S01"
+      ],
+      "classification": "historical_fact",
+      "visuals": [
+        "V08",
+        "D_1797"
+      ],
+      "text": "Over the years, layers of varnish and dirt made the surface darker. And by the end of the eighteenth century, the painting had a new name. According to the museum, the name the Night Watch is first found in writing in seventeen ninety-seven, about a hundred and fifty years after Rembrandt finished it.",
+      "cues": [
+        {
+          "id": "P09-01",
+          "text": "Over the years, layers of varnish and dirt made the surface darker.",
+          "spoken_text": "Over the years, layers of varnish and dirt made the surface darker.",
+          "start": 0.0,
+          "end": 4.63,
+          "audio_file": "audio/en/sentences/P09-01.wav",
+          "audio_sha256": "4a1379606ad7b0fa16dff9b79cf1ece56bc5d5ca3e94994bf4df16ee7754fe62",
+          "replacements": [],
+          "role": "plain"
+        },
+        {
+          "id": "P09-02",
+          "text": "And by the end of the eighteenth century, the painting had a new name.",
+          "spoken_text": "And by the end of the eighteenth century, the painting had a new name.",
+          "start": 4.93,
+          "end": 9.238625,
+          "audio_file": "audio/en/sentences/P09-02.wav",
+          "audio_sha256": "b9fa9f43cf64d3c769daaf5b2ef9ab1f9e5161dd6589b37307aa6a75ca3ecfbd",
+          "replacements": [],
+          "role": "plain"
+        },
+        {
+          "id": "P09-03",
+          "text": "According to the museum, the name the Night Watch is first found in writing in seventeen ninety-seven, about a hundred and fifty years after Rembrandt finished it.",
+          "spoken_text": "According to the museum, the name the Night Watch is first found in writing in seventeen ninety-seven, about a hundred and fifty years after Rembrandt finished it.",
+          "start": 9.538625,
+          "end": 20.362625,
+          "audio_file": "audio/en/sentences/P09-03.wav",
+          "audio_sha256": "62febc9633a9676aeea221fcf4a6bbb6ceb3e74eaa0cf6c3a0c4ca95b95358d3",
+          "replacements": [],
+          "role": "plain"
+        }
+      ],
+      "audio_file": "audio/en/P09.wav",
+      "duration_seconds": 20.362625,
+      "native_speed": 0.82
+    },
+    {
+      "id": "P10",
+      "chapter": "C05",
+      "sources": [
+        "V-S06"
+      ],
+      "classification": "historical_fact",
+      "visuals": [
+        "V01_D6"
+      ],
+      "text": "In nineteen forty-six and nineteen forty-seven, much of the old varnish was removed. The colors and the light became clearer. Yet the painting kept its deep contrasts of light and shadow. And the name stayed.",
+      "cues": [
+        {
+          "id": "P10-01",
+          "text": "In nineteen forty-six and nineteen forty-seven, much of the old varnish was removed.",
+          "spoken_text": "In nineteen forty-six and nineteen forty-seven, much of the old varnish was removed.",
+          "start": 0.0,
+          "end": 5.886,
+          "audio_file": "audio/en/sentences/P10-01.wav",
+          "audio_sha256": "0d50a365221f1a0475ca68ecf1939945e9c37b9500009964d4ed8ccf30c5a71b",
+          "replacements": [],
+          "role": "plain"
+        },
+        {
+          "id": "P10-02",
+          "text": "The colors and the light became clearer.",
+          "spoken_text": "The colors and the light became clearer.",
+          "start": 6.186,
+          "end": 8.738,
+          "audio_file": "audio/en/sentences/P10-02.wav",
+          "audio_sha256": "6139bff696b714221519211b2f7f67f00fa6789dc7527bcb07b32b0d253fbacb",
+          "replacements": [],
+          "role": "plain"
+        },
+        {
+          "id": "P10-03",
+          "text": "Yet the painting kept its deep contrasts of light and shadow.",
+          "spoken_text": "Yet the painting kept its deep contrasts of light and shadow.",
+          "start": 9.038,
+          "end": 13.036666666666667,
+          "audio_file": "audio/en/sentences/P10-03.wav",
+          "audio_sha256": "303a1a3be843e7c59661ba1fce1388621c384dd0d301ac7675f46a4b5d564fdf",
+          "replacements": [],
+          "role": "plain"
+        },
+        {
+          "id": "P10-04",
+          "text": "And the name stayed.",
+          "spoken_text": "And the name stayed.",
+          "start": 13.336666666666666,
+          "end": 14.864666666666666,
+          "audio_file": "audio/en/sentences/P10-04.wav",
+          "audio_sha256": "0cd7873cf686c0f1bb34d6e46b0bdb9fce07cd5755579645c3089fb7a92f14cc",
+          "replacements": [],
+          "role": "plain"
+        }
+      ],
+      "audio_file": "audio/en/P10.wav",
+      "duration_seconds": 14.864666666666666,
+      "native_speed": 0.82
+    },
+    {
+      "id": "P11",
+      "chapter": "C06",
+      "sources": [
+        "V-S01"
+      ],
+      "classification": "historical_fact",
+      "visuals": [
+        "V01_D7"
+      ],
+      "text": "Today, the painting is still studied closely by the museum that holds it. Its surface can now be seen in extraordinary detail, far beyond what any visitor can see from the floor.",
+      "cues": [
+        {
+          "id": "P11-01",
+          "text": "Today, the painting is still studied closely by the museum that holds it.",
+          "spoken_text": "Today, the painting is still studied closely by the museum that holds it.",
+          "start": 0.0,
+          "end": 4.779333333333334,
+          "audio_file": "audio/en/sentences/P11-01.wav",
+          "audio_sha256": "951d5b92cc712435c6ad51b7c8812da5f1c9c95399084463e8e7f97013122e36",
+          "replacements": [],
+          "role": "plain"
+        },
+        {
+          "id": "P11-02",
+          "text": "Its surface can now be seen in extraordinary detail, far beyond what any visitor can see from the floor.",
+          "spoken_text": "Its surface can now be seen in extraordinary detail, far beyond what any visitor can see from the floor.",
+          "start": 5.0793333333333335,
+          "end": 12.714666666666666,
+          "audio_file": "audio/en/sentences/P11-02.wav",
+          "audio_sha256": "7d1681a33f7aecfa81bfa7a1992d426ebde2ffdc311a4a4605688a541a35b0de",
+          "replacements": [],
+          "role": "plain"
+        }
+      ],
+      "audio_file": "audio/en/P11.wav",
+      "duration_seconds": 12.714666666666666,
+      "native_speed": 0.82
+    },
+    {
+      "id": "P12",
+      "chapter": "C06",
+      "sources": [
+        "V-S01",
+        "V-S02",
+        "V-S07"
+      ],
+      "classification": "editorial_conclusion",
+      "visuals": [
+        "V01_full_2"
+      ],
+      "text": "So, is The Night Watch really set at night? Its famous name does not come from Rembrandt's time. The family's description speaks of a captain, a company, and an order to march, and says nothing of the hour. Some art historians describe it as a scene by day. The name tells us how later viewers saw the painting. It does not tell us what Rembrandt was painting.",
+      "cues": [
+        {
+          "id": "P12-01",
+          "text": "So, is The Night Watch really set at night?",
+          "spoken_text": "So, is The Night Watch really set at night?",
+          "start": 0.0,
+          "end": 2.8905833333333333,
+          "audio_file": "audio/en/sentences/P12-01.wav",
+          "audio_sha256": "5770b81b2fcdf44e4eddf4d1d9adabe9ad0e44a397bc6a76dd70d346bb6c32a3",
+          "replacements": [],
+          "role": "question"
+        },
+        {
+          "id": "P12-02",
+          "text": "Its famous name does not come from Rembrandt's time.",
+          "spoken_text": "Its famous name does not come from Rembrandt's time.",
+          "start": 3.1905833333333335,
+          "end": 6.752541666666667,
+          "audio_file": "audio/en/sentences/P12-02.wav",
+          "audio_sha256": "94e980525ac8578dcf6feb6926ae4cc6f6778b56dfe74abf4f799db5891457e5",
+          "replacements": [],
+          "role": "plain"
+        },
+        {
+          "id": "P12-03",
+          "text": "The family's description speaks of a captain, a company, and an order to march, and says nothing of the hour.",
+          "spoken_text": "The family's description speaks of a captain, a company, and an order to march, and says nothing of the hour.",
+          "start": 7.0525416666666665,
+          "end": 14.945166666666667,
+          "audio_file": "audio/en/sentences/P12-03.wav",
+          "audio_sha256": "0fa36794ad17c2a0705e2786a9cf502fade8624fa43948bccd44512f79b731ff",
+          "replacements": [],
+          "role": "plain"
+        },
+        {
+          "id": "P12-04",
+          "text": "Some art historians describe it as a scene by day.",
+          "spoken_text": "Some art historians describe it as a scene by day.",
+          "start": 15.245166666666666,
+          "end": 18.97779166666667,
+          "audio_file": "audio/en/sentences/P12-04.wav",
+          "audio_sha256": "92d86ec52fd53fd61cf440b2b4bcb39d9a6fbf262bb78bf5cb8d447b726ebd8f",
+          "replacements": [],
+          "role": "plain"
+        },
+        {
+          "id": "P12-05",
+          "text": "The name tells us how later viewers saw the painting.",
+          "spoken_text": "The name tells us how later viewers saw the painting.",
+          "start": 19.277791666666666,
+          "end": 22.669083333333333,
+          "audio_file": "audio/en/sentences/P12-05.wav",
+          "audio_sha256": "8126668240e80b3150a5127707dc6cf82104cf31640bc63a468a6084c6d66f7a",
+          "replacements": [],
+          "role": "plain"
+        },
+        {
+          "id": "P12-06",
+          "text": "It does not tell us what Rembrandt was painting.",
+          "spoken_text": "It does not tell us what Rembrandt was painting.",
+          "start": 22.969083333333334,
+          "end": 25.966375,
+          "audio_file": "audio/en/sentences/P12-06.wav",
+          "audio_sha256": "a4ed703263d494505a2961988b7b7c1c404105effab18d9ca91b5c340f9e0905",
+          "replacements": [],
+          "role": "plain"
+        }
+      ],
+      "audio_file": "audio/en/P12.wav",
+      "duration_seconds": 25.966375,
+      "native_speed": 0.82
+    },
+    {
+      "id": "P13",
+      "chapter": "C06",
+      "sources": [],
+      "classification": "closing",
+      "visuals": [
+        "V01_full_2"
+      ],
+      "text": "Every story has an origin. Sometimes, a painting receives its name long after its painter is gone.",
+      "cues": [
+        {
+          "id": "P13-01",
+          "text": "Every story has an origin.",
+          "spoken_text": "Every story has an origin.",
+          "start": 0.0,
+          "end": 2.3272916666666665,
+          "audio_file": "audio/en/sentences/P13-01.wav",
+          "audio_sha256": "bd745025511f7b9754ba40d07a0d2a65711a48a149a24eadb1987fcae2389c9c",
+          "replacements": [],
+          "role": "plain"
+        },
+        {
+          "id": "P13-02",
+          "text": "Sometimes, a painting receives its name long after its painter is gone.",
+          "spoken_text": "Sometimes, a painting receives its name long after its painter is gone.",
+          "start": 2.627291666666667,
+          "end": 7.820625,
+          "audio_file": "audio/en/sentences/P13-02.wav",
+          "audio_sha256": "ae4e4fbcfa53d3efa6bc70294079b61c6a24c7e900f863b559a8f92b29eb4375",
+          "replacements": [],
+          "role": "plain"
+        }
+      ],
+      "audio_file": "audio/en/P13.wav",
+      "duration_seconds": 7.820625,
+      "native_speed": 0.82
+    },
+    {
+      "id": "P14",
+      "chapter": "C06",
+      "sources": [],
+      "classification": "credits",
+      "visuals": [
+        "credits"
+      ],
+      "text": "This video is based on historical texts and public museum collections. The narration uses synthetic speech. Sources and terms of use are listed in the description. If you enjoyed this story, please like the video and subscribe for more quiet origins. Thank you for watching.",
+      "cues": [
+        {
+          "id": "P14-01",
+          "text": "This video is based on historical texts and public museum collections.",
+          "spoken_text": "This video is based on historical texts and public museum collections.",
+          "start": 0.0,
+          "end": 5.169291666666667,
+          "audio_file": "audio/en/sentences/P14-01.wav",
+          "audio_sha256": "5d463921909062d8afb063b9dd73eb8d93c23496fbc6d42565152d945adc8ce1",
+          "replacements": [],
+          "role": "conclusion"
+        },
+        {
+          "id": "P14-02",
+          "text": "The narration uses synthetic speech.",
+          "spoken_text": "The narration uses synthetic speech.",
+          "start": 5.469291666666667,
+          "end": 8.18925,
+          "audio_file": "audio/en/sentences/P14-02.wav",
+          "audio_sha256": "c235d07da52c4528b3f3c03bca9010249b2c4bff7785fa380a6881b74133c0bf",
+          "replacements": [],
+          "role": "conclusion"
+        },
+        {
+          "id": "P14-03",
+          "text": "Sources and terms of use are listed in the description.",
+          "spoken_text": "Sources and terms of use are listed in the description.",
+          "start": 8.48925,
+          "end": 12.435208333333334,
+          "audio_file": "audio/en/sentences/P14-03.wav",
+          "audio_sha256": "bff598e555681602d0dbd5026c5f672b1862ffc715e48bb5121ee40751f76f62",
+          "replacements": [],
+          "role": "conclusion"
+        },
+        {
+          "id": "P14-04",
+          "text": "If you enjoyed this story, please like the video and subscribe for more quiet origins.",
+          "spoken_text": "If you enjoyed this story, please like the video and subscribe for more quiet origins.",
+          "start": 12.735208333333333,
+          "end": 18.855875,
+          "audio_file": "audio/en/sentences/P14-04.wav",
+          "audio_sha256": "9641102f02f7d39e5fe49d0c1f476ce06b46335bbe609815d4aa59eb55ce7232",
+          "replacements": [],
+          "role": "conclusion"
+        },
+        {
+          "id": "P14-05",
+          "text": "Thank you for watching.",
+          "spoken_text": "Thank you for watching.",
+          "start": 19.155875,
+          "end": 20.9285,
+          "audio_file": "audio/en/sentences/P14-05.wav",
+          "audio_sha256": "04c72e2e9289c7807c87103e63e49db1fe9aba3e1782f606c3dd6bf152ef60be",
+          "replacements": [],
+          "role": "conclusion"
+        }
+      ],
+      "audio_file": "audio/en/P14.wav",
+      "duration_seconds": 20.9285,
+      "native_speed": 0.82
+    }
+  ]
+}

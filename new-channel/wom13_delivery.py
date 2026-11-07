@@ -86,6 +86,7 @@ def archive():
   for p in (r/'review').glob('opening_*.jpg'):shutil.copy2(p,SHARE)
   for p in (r/'review').glob('stage_*.jpg'):shutil.copy2(p,SHARE)
   for p in (r/'review').glob('subtitle_sample_*.jpg'):shutil.copy2(p,SHARE)
+  for p in (r/'review').glob('native_*.jpg'):shutil.copy2(p,SHARE)
  for p in (ROOT/'records').glob('*.json'):
   if p.name!='sharing.json':shutil.copy2(p,SHARE/'records')
  groups={'audio_and_subtitles':[p for p in D.iterdir() if p.suffix in ['.m4a','.wav','.srt','.txt']], 'thumbnails_and_metadata':[p for p in D.iterdir() if p.suffix in ['.jpg','.md']], 'QA_records':[p for p in (SHARE/'records').rglob('*.json') if p.name!='sharing.json']+list(SHARE.glob('*.jpg'))}
@@ -114,7 +115,7 @@ def report():
   lines.append(f"|{k}|{box(a['motion_start_native_box'])}|{box(a['motion_end_native_box'])}|{a['minimum_native_crop_width']:.2f}|{a['max_native_scale']:.4f}|")
  lines +=['','4K版は原寸画像から3840×2160の画面を作成。共通OP/EDのみ元の1080pからLanczos拡大。主役の細部の最小切出幅は3,850.20pxで原寸超えなし。','',
  '模式図は原寸6点の相似変換で作図、最大残差196.880px＝模写幅1.8842%（基準2%以下）。左端の失われた男性2人と子ども1人は館2021年説明図と目視照合。別の手前の少年とは区別。[照合記録](research/wom13_V02左端人物照合_20261107.json)。館の図は参照だけで、本編には未使用。V07は公式作品記録の種別に合わせDRAWING｜素描と表示（依頼のPRINTを訂正）、1731–1784・後世の外観図。V05は1664、V08は19th century。','',
- '## 検品','','全22ショットを個別にデコードし、非圧縮フレームを一つのエンコーダーへ入力。通常英日・字幕入り英日・英語4Kの5本を先頭から最後までデコードし警告0。通常版英日と4Kは全フレームで形式1種類、H.264 High/yuv420p/CFR30fps、PTS間隔一致。各ショットの先頭・中央・末尾、引用カード各段階、冒頭0/1/2/3秒を確認用画像に保存。','',
+ '## 検品','','全22ショットを個別にデコードし、非圧縮フレームを一つのエンコーダーへ入力。通常英日・字幕入り英日・英語4Kの5本の映像を先頭から最後までデコードし警告0。通常版・字幕入り英日は音声も全編デコード済みで、4K音声は検品済み英語1080pのストリームと一致。通常版英日と4Kは全フレームで形式1種類、H.264 High/yuv420p/CFR30fps、PTS間隔一致。各ショットの先頭・中央・末尾、引用カード各段階、冒頭0/1/2/3秒を確認用画像に保存。','',
  'SRTは台本と空白を除いて完全一致。最短1.4秒、最大2行、英42字/日23字以内。実際の字幕描画で全139ページの年代帯との最小間隔15px。引用原文・訳文は指定と一致し、本文主要行60px以上、訳文最小31px、札最小18px。引用カードの最小コントラスト6.823、最小内側余白78px。','',
  '|言語|動きの最大p95/中央値|測定ショット|','|---|---:|---:|']
  for lang in ['en','ja']:

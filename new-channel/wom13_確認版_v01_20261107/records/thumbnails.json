@@ -1,0 +1,31 @@
+{
+  "source": "verified Rijksmuseum V01",
+  "A_crop": [
+    6004,
+    5593,
+    10252,
+    7982
+  ],
+  "B": "whole verified V01, height fit",
+  "uniform_brightness": 1.1,
+  "contrast": 1.0,
+  "no_local_enhancement": true,
+  "no_AI": true,
+  "files": [
+    {
+      "name": "EP013_thumbnail_comparison_168px.jpg",
+      "bytes": 17693,
+      "sha256": "923658f730a96f47a375b3d8ddeed5774bc6dcf43ce7dac7cad00d0856b9af1b"
+    },
+    {
+      "name": "EP013_thumbnail_A.jpg",
+      "bytes": 293407,
+      "sha256": "689940cb014d1e43e6aeaae249bd70325a09d32b65eb545cb6a0ae8fb090b29a"
+    },
+    {
+      "name": "EP013_thumbnail_B.jpg",
+      "bytes": 172975,
+      "sha256": "20642e6d36122444012489e22bcacf20bc519afc80ecc4eda573326e5b8e6267"
+    }
+  ]
+}
