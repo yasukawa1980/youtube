@@ -1,0 +1,48 @@
+{
+  "automation_id": "youtube-2",
+  "date_jst": "2026-11-07",
+  "status": "completed_with_limitations",
+  "completed_at_utc": "2026-11-07T12:04:57.260130+00:00",
+  "original_channel": "Quiet Origins",
+  "original_channel_id": "UCfLJOojEY9VB3rvrjICk90Q",
+  "restored_channel": "Quiet Origins",
+  "restored_channel_id": "UCfLJOojEY9VB3rvrjICk90Q",
+  "restoration_verified": true,
+  "restoration_evidence": [
+    "original-channel.txt",
+    "restoration.txt",
+    "restored-quiet-origins.jpg"
+  ],
+  "analysis_tab_ids": [
+    "604611016"
+  ],
+  "user_tabs_changed": false,
+  "studio_content_settings_or_publication_changes": false,
+  "source_files_count": 24,
+  "core_source_files_count": 20,
+  "additional_detail_source_count": 4,
+  "unresolved_failures": [],
+  "unavailable_metrics": [
+    {
+      "channel": "IRO Sounds",
+      "metrics": [
+        "7日ショートのスワイプ率",
+        "最新投稿の平均時間・割合"
+      ],
+      "reason": "7日詳細表にスワイプなし。最新は公開直後で平均指標未表示。"
+    },
+    {
+      "channel": "Whispers of Japan",
+      "metrics": [
+        "最新投稿の平均時間・割合"
+      ],
+      "reason": "公開約3時間・2回の取得時点で未表示。"
+    }
+  ],
+  "notification_decision": "DONT_NOTIFY",
+  "notification_reason": [
+    "登録者は両方+1。48時間と7日視聴は移動窓で変動したが、両チャンネルとも7日総再生時間の差は小さく、対応が必要な変化は確認されなかった。"
+  ],
+  "new_recommendations_count": 0,
+  "user_action_required": false
+}
