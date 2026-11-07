@@ -130,7 +130,7 @@ def main():
                      CTA))
 
     audio = mix(total)
-    args = ['ffmpeg', '-hide_banner', '-loglevel', 'error', '-y']
+    args = ['ffmpeg', '-hide_banner', '-loglevel', 'error', '-y', '-filter_complex_threads', '2']  # 8GBのMacで固まったので軽く（11/7）
     for (_, _, img), sec in zip(SCENES, lens):
         args += ['-loop', '1', '-framerate', str(FPS), '-t', f'{sec:.3f}', '-i', str(IMG / img)]
     for at, png, st in overlays:
@@ -158,7 +158,7 @@ def main():
     out = WORK / '冒頭の試し.mp4' if PREVIEW else OUT
     out.parent.mkdir(parents=True, exist_ok=True)
     args += ['-filter_complex', ';'.join(f), '-map', '[v]', '-map', f'{subs + 1}:a',
-             '-t', f'{PREVIEW or total:.3f}', '-c:v', 'libx264', '-preset', 'medium', '-crf', '20',
+             '-t', f'{PREVIEW or total:.3f}', '-c:v', 'libx264', '-preset', 'medium', '-crf', '20', '-threads', '3',
              '-tune', 'stillimage', '-pix_fmt', 'yuv420p', '-r', str(FPS), '-g', str(FPS * 10),
              '-c:a', 'aac', '-b:a', '256k', '-movflags', '+faststart', str(out)]
     subprocess.run(args, check=True, stdin=subprocess.DEVNULL)
