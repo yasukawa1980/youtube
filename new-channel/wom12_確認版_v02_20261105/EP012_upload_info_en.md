@@ -34,8 +34,7 @@ André Giroux, Santa Trinità dei Monti in the Snow — National Gallery of Art,
 A Visit from St. Nicholas (Boston: L. Prang & Co., 1864), illustrator unknown — Library of Congress, 73169323 / rbc0001.2015juv69323 (The Library of Congress is not aware of any U.S. copyright or any other restrictions in the documents in this collection.). https://www.loc.gov/resource/rbc0001.2015juv69323/?sp=10
 The Children’s Friend (1821), cover & p.1 — Yale University, Beinecke Rare Book & Manuscript Library. Yale University Policy on Open Access to Digital Representations of Works in the Public Domain from Museum, Library, and Archive Collections (2011). https://collections.library.yale.edu/catalog/2014510
 
-Voice: Kokoro / Heart (af_heart) · VOICEVOX:冥鳴ひまり
-https://www.meimeihimari.com/terms-of-use
+Voice: Kokoro / Heart (af_heart)
 Music: QO_THEME_A02 / Suno.
 
 #SantaClaus #ChristmasHistory #QuietOrigins
