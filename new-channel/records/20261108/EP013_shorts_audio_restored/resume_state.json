@@ -1,0 +1,64 @@
+{
+  "status": "stopped_on_unexpected_QC_measurement_error",
+  "environment_path": "/Volumes/ESD-02/新チャンネル/ショート/EP013_v01_20261108/_work/python",
+  "python_executable": "/Volumes/ESD-02/新チャンネル/ショート/EP013_v01_20261108/_work/python/bin/python",
+  "python_version": "3.12.14 (main, Aug 25 2026, 13:50:33) [Clang 22.1.3 ]",
+  "base_python": "/Users/ryo/.cache/codex-runtimes/codex-primary-runtime/dependencies/python",
+  "cache": "/Users/ryo/youtube/_work/qo-uv-cache",
+  "offline_install": true,
+  "downloaded_packages": 0,
+  "installed_packages": 18,
+  "versions": {
+    "kokoro-onnx": "0.6.1",
+    "onnxruntime": "1.31.0",
+    "numpy": "2.3.5",
+    "phonemizer": "3.4.0",
+    "espeakng-loader": "0.2.4",
+    "soundfile": "0.14.0",
+    "pillow": "13.0.0",
+    "imageio-ffmpeg": "0.6.0"
+  },
+  "files": [
+    {
+      "path": "/Volumes/ESD-02/新チャンネル/ショート/EP013_v01_20261108/deliverables/QO_short_EP013_V1_v01.mp4",
+      "bytes": 3060930,
+      "sha256": "ff1086ad388df86a24a7e0bbdad325459f3c1ea0c7d3e693300374a7e100a09c",
+      "status": "rendered_but_final_QC_incomplete"
+    },
+    {
+      "path": "/Volumes/ESD-02/新チャンネル/ショート/EP013_v01_20261108/deliverables/QO_short_EP013_V2_v01.mp4",
+      "bytes": 2564545,
+      "sha256": "c1ddde7b1658777096b88ec8aecda3a8f441e383f7b763c30b06470c585d0cfc",
+      "status": "rendered_but_final_QC_incomplete"
+    },
+    {
+      "path": "/Volumes/ESD-02/新チャンネル/ショート/EP013_v01_20261108/deliverables/QO_short_EP013_V3_v01.mp4",
+      "bytes": 5734270,
+      "sha256": "c202fca34a105ff121a85b6222e8ec7dd83917564748e37033f87d717ebde441",
+      "status": "rendered_but_final_QC_incomplete"
+    }
+  ],
+  "mac_free_bytes": 638914560,
+  "ssd_free_bytes": 105123344384,
+  "draft_release_created": false,
+  "youtube_posted": false,
+  "stop": {
+    "stage": "wom_shorts_ep013_qc.py / card_contrast",
+    "id": "V1",
+    "frame": 236,
+    "seconds": 7.866666666666666,
+    "text": "TITLE CARD｜文字カード",
+    "font_size": 22,
+    "text_pixels_before_erosion": 409,
+    "text_pixels_after_3x3_minfilter": 0,
+    "background_pixels": 7319,
+    "reason": "3×3収縮処理で細い札文字の測定候補がなくなった。コントラスト比の算出前の停止であり、比率4.5未満を検出したものではない。"
+  },
+  "pending": [
+    "コントラスト測定方法の修正と再検品",
+    "全編デコード警告0の確認",
+    "全字幕ページ・冒頭18枚・2秒おき・CTAの完成動画画像確認",
+    "非公開Draft Release作成とREST照合",
+    "本人試聴・Claude確認"
+  ]
+}
