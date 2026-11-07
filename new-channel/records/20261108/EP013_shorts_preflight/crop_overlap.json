@@ -1,0 +1,97 @@
+{
+  "status": "stopped_before_synthesis_and_render",
+  "reason": "指定された本編D1・D5の範囲維持とショート間の重なり0が両立しない",
+  "request_commit": "eee7f13c",
+  "request_sha256": "ea9222d55bb4675728a23c042f8350b303819fea0a9135ee7b771d6cd7d90ed5",
+  "main_art_scales_path": "/Volumes/ESD-02/新チャンネル/EP013_NightWatch/確認版_v01_20261107/en/records/art_scales.json",
+  "main_art_scales_sha256": "09d60f6360540b12123f7bcf53768527d76e3dc36ece85644becf241cae4c30f",
+  "source_image": "V01",
+  "coordinate_units": "原寸画像のpx、左上x/y・右下x/y",
+  "measurements": [
+    {
+      "coordinate_field": "crop_native_px",
+      "D1": [
+        6004,
+        5593,
+        10252,
+        7982
+      ],
+      "D5": [
+        2929,
+        7173,
+        6883,
+        9397
+      ],
+      "intersection": [
+        6004,
+        7173,
+        6883,
+        7982
+      ],
+      "width_px": 879,
+      "height_px": 809,
+      "area_px2": 711111,
+      "percent_of_smaller": 8.086599764194714,
+      "passes_zero_overlap": false
+    },
+    {
+      "coordinate_field": "motion_start_native_box",
+      "D1": [
+        6004.0,
+        5593.0,
+        10252.0,
+        7982.0
+      ],
+      "D5": [
+        2967.764705882353,
+        7173.0,
+        6844.235294117647,
+        9353.392156862745
+      ],
+      "intersection": [
+        6004.0,
+        7173.0,
+        6844.235294117647,
+        7982.0
+      ],
+      "width_px": 840.2352941176468,
+      "height_px": 809.0,
+      "area_px2": 679750.3529411763,
+      "percent_of_smaller": 8.04226422200631,
+      "passes_zero_overlap": false
+    },
+    {
+      "coordinate_field": "motion_end_native_box",
+      "D1": [
+        6055.804878048781,
+        5622.134146341463,
+        10200.19512195122,
+        7952.865853658536
+      ],
+      "D5": [
+        2967.764705882353,
+        7216.607843137255,
+        6844.235294117647,
+        9397.0
+      ],
+      "intersection": [
+        6055.804878048781,
+        7216.607843137255,
+        6844.235294117647,
+        7952.865853658536
+      ],
+      "width_px": 788.4304160688662,
+      "height_px": 736.258010521281,
+      "area_px2": 580488.2095693293,
+      "percent_of_smaller": 6.867873681736671,
+      "passes_zero_overlap": false
+    }
+  ],
+  "ssd_mounted": true,
+  "audio_generated": false,
+  "video_generated": false,
+  "duration_measured": false,
+  "draft_release_created": false,
+  "youtube_posted": false,
+  "youtube_scheduled": false
+}
