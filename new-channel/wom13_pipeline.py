@@ -13,7 +13,7 @@ def step(name,script,args,env,deps,outputs):
 def main():
  state=ROOT/'records/pipeline_state.json';save(state,dict(status='running',pid=os.getpid(),publication=False))
  try:
-  for lang in ['en','ja']:
+  for lang in ([] if '--4k-only' in sys.argv else ['en','ja']):
    r=ROOT/lang;env=dict(os.environ,WOM13_ROOT=str(r),WOM13_LANG=lang,WOM13_SCALE='1');master=r/'_work/picture_master.mp4';video=r/f'deliverables/EP013_NightWatch_{lang}_v01_1080p30.mp4';review=r/f'deliverables/EP013_NightWatch_{lang}_v01_subtitled_review_1080p30.mp4';audio=r/f'deliverables/EP013_audio_{lang}.m4a'
    subprocess.run([sys.executable,str(P/'wom13_picture.py')],env=env,check=True)
    step(lang+'_package','wom13_render.py',['package'],env,[master,audio],[video])

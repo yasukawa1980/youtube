@@ -35,9 +35,11 @@ def main():
     ap=argparse.ArgumentParser(description=__doc__)
     ap.add_argument('--folder',type=Path,required=True)
     ap.add_argument('--record',type=Path,required=True)
+    ap.add_argument('--partial-1080',action='store_true',help='Stage only the four verified 1080p previews while 4K is rendering')
     a=ap.parse_args()
     files=sorted([*a.folder.glob(f'EP013_NightWatch_*_{VERSION}*.mp4'),*a.folder.glob(f'EP013_*_{VERSION}.zip')])
-    assert len(files)==8, len(files)
+    if a.partial_1080:files=[p for p in files if p.suffix=='.mp4' and '1080p30' in p.name]
+    assert len(files)==(4 if a.partial_1080 else 8), len(files)
     assert all(p.name.isascii() for p in files)
     releases=api([f'repos/{REPO}/releases?per_page=100'])
     r=next((r for r in releases if r['tag_name']==TAG),None)
@@ -100,7 +102,7 @@ def main():
         state.update(status='verifying',assets=checks)
         a.record.write_text(json.dumps(state,ensure_ascii=False,indent=2)+'\n')
         print('REST CHECKPOINT VERIFIED' if cached else 'REST VERIFIED',p.name,flush=True)
-    state.update(status='verified',assets=checks)
+    state.update(status='partial_verified' if a.partial_1080 else 'verified',assets=checks)
     a.record.write_text(json.dumps(state,ensure_ascii=False,indent=2)+'\n')
     print('SHARED',r['id'],len(checks),flush=True)
 
