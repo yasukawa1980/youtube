@@ -14,7 +14,7 @@ volume: 8
 slug: kcf08
 dir: "/Volumes/ESD-EPB/BGM/7_Kominka Cafe/KCF08_素材_囲炉裏端"
 
-runtime: "100 MIN"        # ★仮。audio のあとで実尺に直す
+runtime: "103 MIN"        # 実尺 102分48.7秒（6168.7秒）
 # ★登録のお願い（9/28決定。新しい巻は必ず。本編1:00に小さく・ショート3行目）
 cta: true
 
@@ -95,8 +95,20 @@ images:
 - kcf08_03.png
 - kcf08_04.png
 
-# ★除外は検品のあとで書く（尾が −46dB より大きい／8kHz以上が浮く＝ピアノ以外の混入／長さが3:30指定でないもの）
-exclude: []
+# ★除外（2026-11-07 `KCF08_囲炉裏端/検品.py` の実測）
+#   ★48本とも長さは 209.0〜210.0秒（3:30指定）。8kHz以上はすべて −41〜−65dB＝ピアノ以外の混入は0本。曲中の3秒以上の無音も0本
+#   ★長さ3:30で句の途中で切られたもの8本：終わる1秒前（−1.00〜−0.75秒）がまだ −36〜−47dB で鳴っていて、最後の0.5秒で急に落ちる。
+#     残り40本は同じ位置で −51dB 以下（自然に消えている）。あいだに段差があるのでここで切った
+#     A-7・A-8・B-5・F-1・F-6 は最後の1秒の平均も −46dB より大きい（KCF06 からの基準）。A-5・E-8・F-5 は平均 −49〜−53 だが1秒前の位置で鳴っている
+exclude:
+- kcf08_A-5.wav
+- kcf08_A-7.wav
+- kcf08_A-8.wav
+- kcf08_B-5.wav
+- kcf08_E-8.wav
+- kcf08_F-1.wav
+- kcf08_F-5.wav
+- kcf08_F-6.wav
 
 # ★48本から30本・約100分。1種あたり4〜6本（6×6=36で余地が残る）
 select:
@@ -123,3 +135,67 @@ short:
     full: 1450
     gamma: 1.0
     opacity: 0.86
+
+picked:
+- kcf08_E-7.wav
+- kcf08_A-6.wav
+- kcf08_A-3.wav
+- kcf08_A-4.wav
+- kcf08_C-6.wav
+- kcf08_A-1.wav
+- kcf08_B-8.wav
+- kcf08_B-7.wav
+- kcf08_B-6.wav
+- kcf08_E-5.wav
+- kcf08_C-1.wav
+- kcf08_C-7.wav
+- kcf08_C-4.wav
+- kcf08_C-8.wav
+- kcf08_C-5.wav
+- kcf08_D-6.wav
+- kcf08_D-3.wav
+- kcf08_D-2.wav
+- kcf08_D-4.wav
+- kcf08_D-7.wav
+- kcf08_D-8.wav
+- kcf08_B-3.wav
+- kcf08_E-6.wav
+- kcf08_A-2.wav
+- kcf08_E-4.wav
+- kcf08_F-3.wav
+- kcf08_E-2.wav
+- kcf08_F-8.wav
+- kcf08_F-7.wav
+- kcf08_F-2.wav
+
+order_tracks:
+- kcf08_C-1.wav
+- kcf08_D-8.wav
+- kcf08_A-6.wav
+- kcf08_E-5.wav
+- kcf08_C-8.wav
+- kcf08_D-3.wav
+- kcf08_F-3.wav
+- kcf08_B-6.wav
+- kcf08_D-7.wav
+- kcf08_A-1.wav
+- kcf08_F-2.wav
+- kcf08_C-4.wav
+- kcf08_E-7.wav
+- kcf08_D-2.wav
+- kcf08_F-7.wav
+- kcf08_B-3.wav
+- kcf08_A-4.wav
+- kcf08_E-6.wav
+- kcf08_B-7.wav
+- kcf08_C-7.wav
+- kcf08_E-4.wav
+- kcf08_D-6.wav
+- kcf08_C-5.wav
+- kcf08_B-8.wav
+- kcf08_A-3.wav
+- kcf08_C-6.wav
+- kcf08_F-8.wav
+- kcf08_E-2.wav
+- kcf08_D-4.wav
+- kcf08_A-2.wav
