@@ -12,9 +12,16 @@ def continuous():
  for s in shots:
   start=round(s['start']*30);tr=[start,start+(s['frames']-1)//2,start+s['frames']-1];triples.append(tr);selected.update(tr)
   selected.update(e['start_frame']+(e['frames']-1)//2 for e in s.get('stages',[]))
- frames=sorted(selected);folder=ROOT/f'_work/continuous{SUFFIX}';folder.mkdir(exist_ok=True);expr='+'.join(f'eq(n\\,{v})' for v in frames)
- cmd=['ffmpeg','-y','-nostdin','-v','level+info','-xerror','-threads','2','-i',str(src),'-an','-vf','showinfo=checksum=0,select='+expr+',scale=1280:720','-fps_mode','passthrough',str(folder/'%03d.png')]
- p=subprocess.run(cmd,check=True,capture_output=True,text=True);assert not re.search(r'\[(?:warning|error|fatal)\]',p.stderr),p.stderr[-3000:]
+ frames=sorted(selected);folder=ROOT/f'_work/continuous{SUFFIX}';folder.mkdir(exist_ok=True)
+ def balanced(values):
+  if len(values)==1:return f'eq(n\\,{values[0]})'
+  mid=len(values)//2;return '('+balanced(values[:mid])+'+'+balanced(values[mid:])+')'
+ expr=balanced(frames) # Keep libavutil expression-parser recursion bounded for >100 selected frames.
+ cmd=['ffmpeg','-y','-nostdin','-v','level+info','-xerror','-threads','2','-i',str(src),'-an','-filter_threads','2','-vf','showinfo=checksum=0,select='+expr+',scale=1280:720','-fps_mode','passthrough','-threads:v','2',str(folder/'%03d.png')]
+ p=subprocess.run(cmd,capture_output=True,text=True)
+ if p.returncode:
+  (ROOT/f'records/continuous_error{SUFFIX}.log').write_text(p.stderr);raise RuntimeError(p.stderr[-4000:])
+ assert not re.search(r'\[(?:warning|error|fatal)\]',p.stderr),p.stderr[-3000:]
  rows=re.findall(r'\bn:\s*(\d+)\s+pts:\s*(-?\d+).*?\bfmt:(\w+).*?\bs:(\d+x\d+)',p.stderr)
  assert len(rows)==n and {r[2:] for r in rows}=={('yuv420p',f'{1920*S}x{1080*S}')}
  assert all(int(row[0])==i and int(row[1])==i*512 for i,row in enumerate(rows))

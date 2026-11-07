@@ -90,12 +90,13 @@ def run():
   out=R/(k+'.mp4');entries=s['stages'];lst=R/(k+'.ffconcat');lines=['ffconcat version 1.0']
   for e in entries:lines += ["file '"+str(ROOT/e['file'])+"'",'option framerate 30',f"duration {e['frames']/30:.9f}"]
   lines += ["file '"+str(ROOT/entries[-1]['file'])+"'",'option framerate 30'];lst.write_text('\n'.join(lines)+'\n')
-  moving=k in ARTMEAS and k!='D_cut';f=camera(k,s['frames']) if moving else '[0:v]fps=30,format=yuv420p[v]';args=['-f','concat','-safe',0,'-i',lst]
-  if 'full' in k:args+=['-i',R/(k+'_overlay.png')]
+  moving=k in ARTMEAS and k!='D_cut';f=camera(k,s['frames']) if moving else '[0:v]fps=30,format=yuv420p[v]';args=(['-threads',1] if S==2 else [])+['-f','concat','-safe',0,'-i',lst]
+  if 'full' in k:args+=(['-threads',1] if S==2 else [])+['-i',R/(k+'_overlay.png')]
   cfg=dict(stages=[(sha(ROOT/e['file']),e['frames']) for e in entries],filter=f,scale=S,overlay=sha(R/(k+'_overlay.png')) if 'full' in k else None);stamp=out.with_suffix('.json')
+  if S==2:cfg['encoding_memory']='decoder1-filter1-encoder2-lookahead5-sync0-v1'
   if 'design' not in sys.argv:
    if not(out.exists() and stamp.exists() and read(stamp)==json.loads(json.dumps(cfg))):
-    ff([*args,'-filter_complex_threads',2,'-filter_complex',f,'-map','[v]','-an','-frames:v',s['frames'],'-c:v','libx264','-preset','veryfast','-threads',3,'-crf',15,'-profile:v','high','-pix_fmt','yuv420p','-video_track_timescale',15360,'-progress',R/(k+'_progress.txt'),out]);save(stamp,cfg)
+    ff([*args,'-filter_complex_threads',1 if S==2 else 2,'-filter_complex',f,'-map','[v]','-an','-frames:v',s['frames'],'-c:v','libx264','-preset','veryfast','-threads',2 if S==2 else 3,*(['-x264-params','rc-lookahead=5:sync-lookahead=0'] if S==2 else []),'-crf',15,'-profile:v','high','-pix_fmt','yuv420p','-video_track_timescale',15360,'-progress',R/(k+'_progress.txt'),out]);save(stamp,cfg)
    assert int(next(x for x in probe(out)['streams'] if x['codec_type']=='video')['nb_frames'])==s['frames']
   s['encoded_file']=str(out.relative_to(ROOT));s['moving']=moving;print('SHOT',LANG,S,k,s['frames'],flush=True)
  save(ROOT/f'records/render_shots{SUFFIX}.json',shots);save(ROOT/f'records/art_scales{SUFFIX}.json',ARTMEAS);save(ROOT/f'records/frame_layout{SUFFIX}.json',METR);save(ROOT/f'records/rail_switches{SUFFIX}.json',dict(events=events,rail_by_stage=[dict(key=s['key'],stages=[dict(frame=e['start_frame'],year=e['year']) for e in s.get('stages',[])]) for s in shots]))
@@ -105,7 +106,7 @@ def run():
  previous=read(method) if method.exists() else {}
  if out.exists() and previous.get('inputs')==join_inputs and previous.get('master_sha256')==sha(out):
   print('PICTURE CACHE',LANG,W,H,flush=True);return
- cmd=['ffmpeg','-y','-nostdin','-v','warning','-f','rawvideo','-pix_fmt','yuv420p','-s',f'{W}x{H}','-r','30','-i','pipe:0','-an','-c:v','libx264','-threads','4','-preset','veryfast','-crf','16','-profile:v','high','-pix_fmt','yuv420p','-g','60','-bf','2','-video_track_timescale','15360','-movie_timescale','48000','-colorspace','bt709','-color_trc','bt709','-color_primaries','bt709','-movflags','+faststart','-progress',str(ROOT/f'_work/master{SUFFIX}_progress.txt'),str(out)]
+ cmd=['ffmpeg','-y','-nostdin','-v','warning','-f','rawvideo','-pix_fmt','yuv420p','-s',f'{W}x{H}','-r','30','-i','pipe:0','-an','-c:v','libx264','-threads','2' if S==2 else '4','-preset','veryfast',*(['-x264-params','rc-lookahead=5:sync-lookahead=0'] if S==2 else []),'-crf','16','-profile:v','high','-pix_fmt','yuv420p','-g','60','-bf','2','-video_track_timescale','15360','-movie_timescale','48000','-colorspace','bt709','-color_trc','bt709','-color_primaries','bt709','-movflags','+faststart','-progress',str(ROOT/f'_work/master{SUFFIX}_progress.txt'),str(out)]
  with (ROOT/f'records/encode{SUFFIX}.log').open('w') as log:
   enc=subprocess.Popen(cmd,stdin=subprocess.PIPE,stderr=log)
   try:

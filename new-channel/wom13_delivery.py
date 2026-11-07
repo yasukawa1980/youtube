@@ -85,6 +85,7 @@ def archive():
   for p in (r/'review').glob('*sheet*.jpg'):shutil.copy2(p,SHARE)
   for p in (r/'review').glob('opening_*.jpg'):shutil.copy2(p,SHARE)
   for p in (r/'review').glob('stage_*.jpg'):shutil.copy2(p,SHARE)
+  for p in (r/'review').glob('subtitle_sample_*.jpg'):shutil.copy2(p,SHARE)
  for p in (ROOT/'records').glob('*.json'):shutil.copy2(p,SHARE/'records')
  groups={'audio_and_subtitles':[p for p in D.iterdir() if p.suffix in ['.m4a','.wav','.srt','.txt']], 'thumbnails_and_metadata':[p for p in D.iterdir() if p.suffix in ['.jpg','.md']], 'QA_records':list((SHARE/'records').rglob('*.json'))+list(SHARE.glob('*.jpg'))}
  for group,files in groups.items():

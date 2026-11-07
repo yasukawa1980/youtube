@@ -1,0 +1,65 @@
+{
+  "passed": true,
+  "duration_seconds": 301.2,
+  "frames": 9036,
+  "fps": 30,
+  "human_full_listening": false,
+  "files": [
+    {
+      "name": "EP013_NightWatch_en_v01_1080p30.mp4",
+      "bytes": 112140716,
+      "sha256": "9f7b833177c73b93075e4646a68f17a1dec14b9404952095f05a3f9b765d23d3",
+      "video_stream_sha256": "SHA256=68bf0d18beaaeb38091e9f6fa3619400efc4a90406c4929f06274b77a515de11",
+      "audio_stream_sha256": "SHA256=7cfcb837fb9fa3a2eb1043c63eeeb5ea5be5871f62c1d1151b817a3f2d0650b6",
+      "full_decode": true,
+      "decode_warnings": 0,
+      "profile": "High",
+      "pix_fmt": "yuv420p",
+      "exact_30fps_pts": true,
+      "frames": 9036,
+      "duration": 301.2,
+      "loudness": {
+        "input_i": "-15.99",
+        "input_tp": "-3.92",
+        "input_lra": "3.10",
+        "input_thresh": "-26.84",
+        "output_i": "-16.10",
+        "output_tp": "-3.00",
+        "output_lra": "2.90",
+        "output_thresh": "-26.79",
+        "normalization_type": "dynamic",
+        "target_offset": "0.10"
+      },
+      "silence_over_1s_at_minus60dB": []
+    },
+    {
+      "name": "EP013_NightWatch_en_v01_subtitled_review_1080p30.mp4",
+      "bytes": 63473046,
+      "sha256": "f36e457fa53957cc8da85f28a6a397db05f9ec8639c1092dfb91e7868b6b6603",
+      "video_stream_sha256": "SHA256=4a390fd998d9d18ed2864db6aa9e34c7397dc1a6932c8047eebcef631f48e1ae",
+      "audio_stream_sha256": "SHA256=7cfcb837fb9fa3a2eb1043c63eeeb5ea5be5871f62c1d1151b817a3f2d0650b6",
+      "full_decode": true,
+      "decode_warnings": 0,
+      "profile": "High",
+      "pix_fmt": "yuv420p",
+      "exact_30fps_pts": true,
+      "frames": 9036,
+      "duration": 301.2,
+      "loudness": {
+        "input_i": "-15.99",
+        "input_tp": "-3.92",
+        "input_lra": "3.10",
+        "input_thresh": "-26.84",
+        "output_i": "-16.10",
+        "output_tp": "-3.00",
+        "output_lra": "2.90",
+        "output_thresh": "-26.79",
+        "normalization_type": "dynamic",
+        "target_offset": "0.10"
+      },
+      "silence_over_1s_at_minus60dB": []
+    }
+  ],
+  "shared_video_stream": false,
+  "subtitled_audio_unchanged": true
+}
