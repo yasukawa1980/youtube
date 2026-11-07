@@ -1,0 +1,767 @@
+{
+  "schema_version": 1,
+  "channel": "Whispers of Japan",
+  "series": "朗読",
+  "volume": "RDG04",
+  "title": "太宰治 短編集：走れメロス・満願・黄金風景・雪の夜の話",
+  "generator": "built-in image_gen",
+  "generation_mode": "independent_generation_one_image_per_call_no_reference_images",
+  "prompt_source": "bgm/RDG04_コピー用プロンプト.md",
+  "exposure_correction": false,
+  "generated_at_definition": "各image_gen呼び出しが完了した観測時刻（UTC）。モデル内部の生成時刻ではない。",
+  "status": "complete",
+  "measurement": {
+    "luminance_formula": "Y′ = 0.2126 R + 0.7152 G + 0.0722 B; sRGB encoded RGB values, 0–255, float64. No gamma linearization.",
+    "dark_threshold": "strictly Y′ < 16",
+    "ratio_unit": "0–1; percent field additionally provided",
+    "thumbnail_measurement": "Resize delivered RGB image to 168×95 using Pillow LANCZOS; left third is columns 0–55 across all 95 rows; median uses the same Y′ formula."
+  },
+  "processing": {
+    "target_size": [
+      1920,
+      1080
+    ],
+    "aspect_ratio": "16:9",
+    "method": "Pillow ImageOps.fit, centered minimal aspect-ratio crop and LANCZOS resampling",
+    "exposure_correction": false,
+    "color_or_contrast_adjustment": false,
+    "note": "原本はバイト同一コピーで保存。納品版はサイズ・縦横比の整形だけ。シャープ処理・描き足し・消去なし。"
+  },
+  "assets": [
+    {
+      "id": "rdg04_01",
+      "role": "main_video",
+      "path": "画像/rdg04_01.png",
+      "prompt": "An ancient walled hill city of the Mediterranean, like old Syracuse in Sicily, at night after sunset. Narrow stone streets climb between pale limestone houses with flat roofs and small arched doorways; every window is dark and shuttered, and the streets are silent and empty. On the hilltop stands a stern royal castle of heavy stone with a few small torches burning on its walls, the warmest spots in the image. Above, a deep indigo sky with a thin new moon and quiet stars. Colours: deep indigo, pale grey limestone, small orange torchlight. Lonely and hushed, a little uneasy. No people, no figures, no silhouettes of people, no faces, no hands, no animals except those named above, no cats. Japanese shin-hanga woodblock print in the manner of the 1920s-30s revival: flat layered areas of colour, visible woodgrain in the flat passages, softly gradated sky (bokashi), Western perspective and cast light held inside Japanese printmaking. Everything in the scene is drawn as part of the print, in the same flat woodblock manner, never photographic. Calm, dreamlike and hushed. Strong clear difference between the light and dark masses so the image still reads when reduced to a thumbnail. No text, no signature, no seal stamp, no lettering of any kind. No modern objects: no power lines, no cars, no trucks, no plastic, no electric signs. Wide 16:9 landscape. Exposed so that texture is clearly visible everywhere. Shadows are lifted and open, full of visible detail, nothing crushed to pure black. High dynamic range, rich texture even in the darkest areas.",
+      "prompt_verbatim": true,
+      "prompt_sha256": "5ad79beeff171093e1daf87459af091bc101a7f14ba793e850ddb87f09f70c17",
+      "attempts": [
+        {
+          "attempt": 1,
+          "started_at": "2026-11-07T17:03:01.989Z",
+          "completed_at": "2026-11-07T17:03:35.158Z",
+          "source_path": "/Users/ryo/.codex/generated_images/01a1b6f6-2257-7d00-8924-a2f5b87f42dc/exec-b52c9614-4e30-4cc4-8061-afc650526fae.png",
+          "original_path": "画像/生成直後/rdg04_01_attempt01.png",
+          "accepted": true,
+          "rejection_reason": null,
+          "sha256": "ea0dd7349a12f808eb3332806e589c4c09a5c218b14a612f9d875e8ae125d397",
+          "dimensions": [
+            1672,
+            941
+          ],
+          "bytes": 3815426,
+          "metrics": {
+            "mean_luminance": 109.27086581540557,
+            "luminance_below_16_ratio": 2.16099131027259e-05,
+            "luminance_below_16_percent": 0.00216099131027259
+          }
+        }
+      ],
+      "regeneration_count": 0,
+      "generation_completed_at": "2026-11-07T17:03:35.158Z",
+      "generation_completed_at_jst": "2026-11-08T02:03:35.158000+09:00",
+      "selected_attempt": 1,
+      "original_path": "画像/生成直後/rdg04_01_attempt01.png",
+      "source_crop_box_xyxy": [
+        0,
+        0.25,
+        1672,
+        940.75
+      ],
+      "visual_check": {
+        "status": "passed",
+        "method": "生成原本全体を目視確認。",
+        "notes": "丘の上の石造りの城と壁の松明、暗く閉じた窓、無人の石畳、細い月を確認。人物・人影・人の顔・手・指定外の動物・猫・文字・署名・印・電線は目視で認めず。"
+      },
+      "sha256": "4cccadb22db43fb4f50a07745850260cd00838ab32a97968d5e8b817f7e445f2",
+      "dimensions": [
+        1920,
+        1080
+      ],
+      "bytes": 4155888,
+      "metrics": {
+        "mean_luminance": 109.22197145119593,
+        "luminance_below_16_ratio": 5.497685185185185e-05,
+        "luminance_below_16_percent": 0.005497685185185185
+      }
+    },
+    {
+      "id": "rdg04_02",
+      "role": "main_video",
+      "path": "画像/rdg04_02.png",
+      "prompt": "A small farming village of ancient Sicily deep in a rainy night just before dawn, drawn as a true night scene and not as a darkened daytime scene. The sky is a heavy deep blue-black with low rain clouds and no sun at all; only the faintest grey-blue glow lies along the far hills. Low stone farmhouses with tiled roofs, a simple stone sheepfold with a few pale sheep huddled under its roof, an olive tree, and a dark meadow running to low hills. Thin slanting lines of rain fill the air in the woodblock manner, and dark pools on the path catch reflections. One farmhouse window glows warm yellow, the brightest spot in the image, as if a small celebration is going on inside. Colours: deep blue-black, dark slate, pale sheep, one warm yellow window. Most of the image is dark. No people, no figures, no silhouettes of people, no faces, no hands, no animals except those named above, no cats. Japanese shin-hanga woodblock print in the manner of the 1920s-30s revival: flat layered areas of colour, visible woodgrain in the flat passages, softly gradated sky (bokashi), Western perspective and cast light held inside Japanese printmaking. Everything in the scene is drawn as part of the print, in the same flat woodblock manner, never photographic. Calm, dreamlike and hushed. Strong clear difference between the light and dark masses so the image still reads when reduced to a thumbnail. No text, no signature, no seal stamp, no lettering of any kind. No modern objects: no power lines, no cars, no trucks, no plastic, no electric signs. Wide 16:9 landscape. Exposed so that texture is clearly visible everywhere. Shadows are lifted and open, full of visible detail, nothing crushed to pure black. High dynamic range, rich texture even in the darkest areas.\n",
+      "prompt_source": "bgm/RDG04_太宰短編集/画像プロンプト/02_雨の村と羊の野.txt",
+      "prompt_verbatim": true,
+      "prompt_sha256": "eeae812dbc2c8e634bc880b3afd12fbbed5213c44dbf988afd6ead68b5a7491b",
+      "attempts": [
+        {
+          "attempt": 1,
+          "started_at": "2026-11-07T17:19:24.869Z",
+          "completed_at": "2026-11-07T17:20:02.895Z",
+          "source_path": "/Users/ryo/.codex/generated_images/01a1b6f6-2257-7d00-8924-a2f5b87f42dc/exec-ed300dcb-4334-405e-9cec-41d2a5977199.png",
+          "original_path": "/Users/ryo/youtube/bgm/RDG04_太宰短編集/画像/生成直後/rdg04_02_v02_attempt01.png",
+          "accepted": true,
+          "rejection_reason": null,
+          "sha256": "bb79df964c66c76dceb243cd95214e450a0507f80e023703c3ab2929ff1472a8",
+          "dimensions": [
+            1672,
+            941
+          ],
+          "bytes": 3538030,
+          "metrics": {
+            "mean_luminance": 69.75746914409487,
+            "luminance_below_16_ratio": 7.372793882106484e-05,
+            "luminance_below_16_percent": 0.007372793882106484
+          }
+        }
+      ],
+      "regeneration_count": 0,
+      "selected_attempt": 1,
+      "visual_check": {
+        "status": "passed",
+        "method": "生成原本全体を目視確認。",
+        "notes": "青黒い雨雲の夜空、薄暗い村と羊小屋、羊、斜めの雨を確認。黄色い窓あかりが最も明るく、水たまりに反射している。人物・人影・人の顔・手・指定外の動物・猫・文字・署名・印・電線は目視で認めず。"
+      },
+      "previous_versions": [
+        {
+          "id": "rdg04_02",
+          "role": "main_video",
+          "path": "画像/rdg04_02.png",
+          "prompt": "A small farming village of ancient Sicily on a dim rainy morning, drawn as a soft blue-grey dawn scene and not as a bright day. Low stone farmhouses with tiled roofs, a simple stone sheepfold with a few white sheep huddled under its roof, an olive tree, and a wide meadow running to low hills. Thin slanting lines of rain fill the air in the woodblock manner, and pools on the path reflect the grey sky. One farmhouse window glows warm yellow as if a small celebration is going on inside. Colours: blue-grey, soft green meadow, white sheep, one warm window. No people, no figures, no silhouettes of people, no faces, no hands, no animals except those named above, no cats. Japanese shin-hanga woodblock print in the manner of the 1920s-30s revival: flat layered areas of colour, visible woodgrain in the flat passages, softly gradated sky (bokashi), Western perspective and cast light held inside Japanese printmaking. Everything in the scene is drawn as part of the print, in the same flat woodblock manner, never photographic. Calm, dreamlike and hushed. Strong clear difference between the light and dark masses so the image still reads when reduced to a thumbnail. No text, no signature, no seal stamp, no lettering of any kind. No modern objects: no power lines, no cars, no trucks, no plastic, no electric signs. Wide 16:9 landscape. Exposed so that texture is clearly visible everywhere. Shadows are lifted and open, full of visible detail, nothing crushed to pure black. High dynamic range, rich texture even in the darkest areas.",
+          "prompt_verbatim": true,
+          "prompt_sha256": "32ac70d7a7892aa9c7fca4fcfaa78197da31c4f855ce591c8cf1bd684d6a4e03",
+          "attempts": [
+            {
+              "attempt": 1,
+              "started_at": "2026-11-07T17:04:10.667Z",
+              "completed_at": "2026-11-07T17:04:37.986Z",
+              "source_path": "/Users/ryo/.codex/generated_images/01a1b6f6-2257-7d00-8924-a2f5b87f42dc/exec-a33213ef-b1df-4c37-8d01-d38efc4bbf46.png",
+              "original_path": "/Volumes/ESD-EPB/BGM/9_朗読/RDG04_素材_太宰短編集/画像_生成直後/rdg04_02_attempt01.png",
+              "accepted": false,
+              "rejection_reason": "雨・羊・窓あかりはあるが、空・草原・石壁が明るく、薄暗い明け方より昼の曇天に見えるため。",
+              "sha256": "ce04a524d353c12e3380eaaa520cb25c5c9753a2836ad3ea71592fc694afa343",
+              "dimensions": [
+                1672,
+                941
+              ],
+              "bytes": 3762772,
+              "metrics": {
+                "mean_luminance": 126.50540201506085,
+                "luminance_below_16_ratio": 1.2711713589838765e-06,
+                "luminance_below_16_percent": 0.00012711713589838765
+              }
+            },
+            {
+              "attempt": 2,
+              "started_at": "2026-11-07T17:04:54.341Z",
+              "completed_at": "2026-11-07T17:05:21.037Z",
+              "source_path": "/Users/ryo/.codex/generated_images/01a1b6f6-2257-7d00-8924-a2f5b87f42dc/exec-f10d2fec-cfde-4895-8697-67688519e5e0.png",
+              "original_path": "/Volumes/ESD-EPB/BGM/9_朗読/RDG04_素材_太宰短編集/画像_生成直後/rdg04_02_attempt02.png",
+              "accepted": false,
+              "rejection_reason": "全体が明るい昼の曇天に見え、指定の薄暗い青灰色の夜明けが不足。窓内にも人影と誤認しうる複数の模様があるため。",
+              "sha256": "82a0e9b9cc1fe7efc86eceb9fcfccdeabfba894abac7c6d244c0bb632f364c5a",
+              "dimensions": [
+                1672,
+                941
+              ],
+              "bytes": 3760388,
+              "metrics": {
+                "mean_luminance": 126.6074460197081,
+                "luminance_below_16_ratio": 0.0,
+                "luminance_below_16_percent": 0.0
+              }
+            },
+            {
+              "attempt": 3,
+              "started_at": "2026-11-07T17:05:34.178Z",
+              "completed_at": "2026-11-07T17:06:01.147Z",
+              "source_path": "/Users/ryo/.codex/generated_images/01a1b6f6-2257-7d00-8924-a2f5b87f42dc/exec-4b85428f-1ddf-4693-aaf5-d938ebd7352a.png",
+              "original_path": "/Volumes/ESD-EPB/BGM/9_朗読/RDG04_素材_太宰短編集/画像_生成直後/rdg04_02_attempt03.png",
+              "accepted": false,
+              "rejection_reason": "昼の曇天に近い明るさが続いており、指定の薄暗い時間帯として採用するには不十分。",
+              "sha256": "fc2fde1aac40a64d4d9e73bc5076f9d5c78cfa7f447baad84d67528239f72acc",
+              "dimensions": [
+                1672,
+                941
+              ],
+              "bytes": 3655773,
+              "metrics": {
+                "mean_luminance": 119.50655042622382,
+                "luminance_below_16_ratio": 0.0,
+                "luminance_below_16_percent": 0.0
+              }
+            },
+            {
+              "attempt": 4,
+              "started_at": "2026-11-07T17:13:15.737Z",
+              "completed_at": "2026-11-07T17:13:43.132Z",
+              "source_path": "/Users/ryo/.codex/generated_images/01a1b6f6-2257-7d00-8924-a2f5b87f42dc/exec-04522f63-4290-4a56-a446-dc41ac192a5c.png",
+              "original_path": "/Volumes/ESD-EPB/BGM/9_朗読/RDG04_素材_太宰短編集/画像_生成直後/rdg04_02_attempt04.png",
+              "accepted": false,
+              "rejection_reason": "4回目も空・石壁・草原が明るい昼の曇天に見え、指定の薄暗い時間帯が不十分。窓内の模様も人影と誤認しうるため。",
+              "sha256": "9d892f90e5e6ec258489480caaafe6f0ee1daee5ec8ece3f6e9e4c1d48cfebd2",
+              "dimensions": [
+                1672,
+                941
+              ],
+              "bytes": 3475692,
+              "metrics": {
+                "mean_luminance": 123.59173804565036,
+                "luminance_below_16_ratio": 0.0,
+                "luminance_below_16_percent": 0.0
+              }
+            }
+          ],
+          "regeneration_count": 3,
+          "visual_check": {
+            "status": "failed",
+            "method": "全生成原本を目視確認。",
+            "notes": "指定の薄暗さを満たさないため納品版は未作成。"
+          },
+          "selected_attempt": null,
+          "generation_completed_at": "2026-11-07T17:13:43.132Z",
+          "version_status": "rejected_previous_prompt"
+        }
+      ],
+      "original_path": "/Users/ryo/youtube/bgm/RDG04_太宰短編集/画像/生成直後/rdg04_02_v02_attempt01.png",
+      "generation_completed_at": "2026-11-07T17:20:02.895Z",
+      "generation_completed_at_jst": "2026-11-08T02:20:02.895000+09:00",
+      "source_crop_box_xyxy": [
+        0,
+        0.25,
+        1672,
+        940.75
+      ],
+      "sha256": "eab5aa6d0c5f26ced019c7eeb36a11c11863957aa3e703e49a6589e064e2a197",
+      "dimensions": [
+        1920,
+        1080
+      ],
+      "bytes": 3895920,
+      "metrics": {
+        "mean_luminance": 69.76391727112266,
+        "luminance_below_16_ratio": 9.741512345679012e-05,
+        "luminance_below_16_percent": 0.009741512345679012
+      }
+    },
+    {
+      "id": "rdg04_03",
+      "role": "main_video",
+      "path": "画像/rdg04_03.png",
+      "prompt": "A wide river in flood among wooded hills under a heavy dark rain sky. The muddy torrent surges in great curling waves drawn in the bold stylised manner of Japanese woodblock prints, carrying broken branches. The remains of a wooden bridge are gone; only two broken stumps of piers stand in the water. On the far bank a narrow mountain road climbs up into dark pines toward a pass. Rain falls in fine slanting lines. Colours: dark slate blue, ochre-brown water with pale foam, black-green pines. Powerful but still drawn calmly, nothing gory. No people, no figures, no silhouettes of people, no faces, no hands, no animals except those named above, no cats. Japanese shin-hanga woodblock print in the manner of the 1920s-30s revival: flat layered areas of colour, visible woodgrain in the flat passages, softly gradated sky (bokashi), Western perspective and cast light held inside Japanese printmaking. Everything in the scene is drawn as part of the print, in the same flat woodblock manner, never photographic. Calm, dreamlike and hushed. Strong clear difference between the light and dark masses so the image still reads when reduced to a thumbnail. No text, no signature, no seal stamp, no lettering of any kind. No modern objects: no power lines, no cars, no trucks, no plastic, no electric signs. Wide 16:9 landscape. Exposed so that texture is clearly visible everywhere. Shadows are lifted and open, full of visible detail, nothing crushed to pure black. High dynamic range, rich texture even in the darkest areas.",
+      "prompt_verbatim": true,
+      "prompt_sha256": "510672284b98d58d6b0402e4491d209ffd4b4fa532e72115acebe43303f3c208",
+      "attempts": [
+        {
+          "attempt": 1,
+          "started_at": "2026-11-07T17:06:16.837Z",
+          "completed_at": "2026-11-07T17:06:42.456Z",
+          "source_path": "/Users/ryo/.codex/generated_images/01a1b6f6-2257-7d00-8924-a2f5b87f42dc/exec-4bdfba4d-6e18-44e8-b6d2-7a9538525ac8.png",
+          "original_path": "画像/生成直後/rdg04_03_attempt01.png",
+          "accepted": true,
+          "rejection_reason": null,
+          "sha256": "cd2522f3c83bc59059b3c5e0068a5c4d0133ac082e77af4754f0a4442e0f43b5",
+          "dimensions": [
+            1672,
+            941
+          ],
+          "bytes": 3669725,
+          "metrics": {
+            "mean_luminance": 113.3731519990441,
+            "luminance_below_16_ratio": 0.00026503922834813826,
+            "luminance_below_16_percent": 0.026503922834813825
+          }
+        }
+      ],
+      "regeneration_count": 0,
+      "generation_completed_at": "2026-11-07T17:06:42.456Z",
+      "generation_completed_at_jst": "2026-11-08T02:06:42.456000+09:00",
+      "selected_attempt": 1,
+      "original_path": "画像/生成直後/rdg04_03_attempt01.png",
+      "source_crop_box_xyxy": [
+        0,
+        0.25,
+        1672,
+        940.75
+      ],
+      "visual_check": {
+        "status": "passed",
+        "method": "生成原本全体を目視確認。",
+        "notes": "茶色の濁流、折れた木材を伴う2基の橋脚、流木、雨、対岸の山道と松林を確認。人物・人影・人の顔・手・指定外の動物・猫・文字・署名・印・電線は目視で認めず。"
+      },
+      "sha256": "e439d977df4175a17732e4e208ad3cbfb08b48d9ac2f61d2f4415b78c28fc2da",
+      "dimensions": [
+        1920,
+        1080
+      ],
+      "bytes": 4073256,
+      "metrics": {
+        "mean_luminance": 113.38069077941739,
+        "luminance_below_16_ratio": 0.00030574845679012347,
+        "luminance_below_16_percent": 0.030574845679012346
+      }
+    },
+    {
+      "id": "rdg04_04",
+      "role": "main_video",
+      "path": "画像/rdg04_04.png",
+      "prompt": "Late afternoon toward sunset after the rain, drawn as an evening scene. In the foreground a small clear spring trickles out of a cleft in a mossy rock beside a forest road, glinting. Beyond the trees the road runs downhill across fields toward a far walled city on a hill, its towers small and dark against the sky. The setting sun throws long low red-gold light through the leaves so that they glow as if on fire, and the sky above is deep crimson fading to violet. Colours: crimson and gold light, violet sky, dark green-black forest, a small bright spring. No people, no figures, no silhouettes of people, no faces, no hands, no animals except those named above, no cats. Japanese shin-hanga woodblock print in the manner of the 1920s-30s revival: flat layered areas of colour, visible woodgrain in the flat passages, softly gradated sky (bokashi), Western perspective and cast light held inside Japanese printmaking. Everything in the scene is drawn as part of the print, in the same flat woodblock manner, never photographic. Calm, dreamlike and hushed. Strong clear difference between the light and dark masses so the image still reads when reduced to a thumbnail. No text, no signature, no seal stamp, no lettering of any kind. No modern objects: no power lines, no cars, no trucks, no plastic, no electric signs. Wide 16:9 landscape. Exposed so that texture is clearly visible everywhere. Shadows are lifted and open, full of visible detail, nothing crushed to pure black. High dynamic range, rich texture even in the darkest areas.",
+      "prompt_verbatim": true,
+      "prompt_sha256": "92346326decb5967edde6a9b23157e16e8550b83918a6bd56991d0ddf3f3b070",
+      "attempts": [
+        {
+          "attempt": 1,
+          "started_at": "2026-11-07T17:06:54.787Z",
+          "completed_at": "2026-11-07T17:07:32.857Z",
+          "source_path": "/Users/ryo/.codex/generated_images/01a1b6f6-2257-7d00-8924-a2f5b87f42dc/exec-1da6123c-dc8d-4870-8a9c-30b29107fedc.png",
+          "original_path": "画像/生成直後/rdg04_04_attempt01.png",
+          "accepted": true,
+          "rejection_reason": null,
+          "sha256": "f4f257c6ec2714c22b18b1c7e80989282c27d8b1cf9a3fd85f97644d9a93d356",
+          "dimensions": [
+            1672,
+            941
+          ],
+          "bytes": 3753376,
+          "metrics": {
+            "mean_luminance": 93.0283989779782,
+            "luminance_below_16_ratio": 4.32198262054518e-05,
+            "luminance_below_16_percent": 0.00432198262054518
+          }
+        }
+      ],
+      "regeneration_count": 0,
+      "generation_completed_at": "2026-11-07T17:07:32.857Z",
+      "generation_completed_at_jst": "2026-11-08T02:07:32.857000+09:00",
+      "selected_attempt": 1,
+      "original_path": "画像/生成直後/rdg04_04_attempt01.png",
+      "source_crop_box_xyxy": [
+        0,
+        0.25,
+        1672,
+        940.75
+      ],
+      "visual_check": {
+        "status": "passed",
+        "method": "生成原本全体を目視確認。",
+        "notes": "前景の苔岩から流れる清水、赤金色の斜陽と葉の光、深紅から紫の空、遠い城壁の町へ続く道を確認。人物・人影・人の顔・手・指定外の動物・猫・文字・署名・印・電線は目視で認めず。"
+      },
+      "sha256": "0f75d71e70b76e54e8955c88561e22a3b794fa3dca2216b8d96ec20fa70eac66",
+      "dimensions": [
+        1920,
+        1080
+      ],
+      "bytes": 4230100,
+      "metrics": {
+        "mean_luminance": 93.02612024469518,
+        "luminance_below_16_ratio": 6.36574074074074e-05,
+        "luminance_below_16_percent": 0.00636574074074074
+      }
+    },
+    {
+      "id": "rdg04_05",
+      "role": "main_video",
+      "path": "画像/rdg04_05.png",
+      "prompt": "A quiet small town in Izu, Japan, in the 1930s, on a summer night in the last hour before dawn, drawn as a true night scene and not as a darkened daytime scene. The sky is deep indigo with a few fading stars and a low pale moon; there is no sunlight anywhere. Seen from the dark wooden veranda of an old Japanese house: beyond a low hedge, a meadow of tall summer grass and a little stream running full and slow, catching silver moonlight, with a narrow earth path along it. A few small fireflies glow green-gold above the stream. Thin mist lies low over the water. Colours: deep indigo, blue-black grass, silver moonlit water, tiny green-gold lights, dark wood veranda. Most of the image is dark, calm and quietly happy. No people, no figures, no silhouettes of people, no faces, no hands, no animals except those named above, no cats. Japanese shin-hanga woodblock print in the manner of the 1920s-30s revival: flat layered areas of colour, visible woodgrain in the flat passages, softly gradated sky (bokashi), Western perspective and cast light held inside Japanese printmaking. Everything in the scene is drawn as part of the print, in the same flat woodblock manner, never photographic. Calm, dreamlike and hushed. Strong clear difference between the light and dark masses so the image still reads when reduced to a thumbnail. No text, no signature, no seal stamp, no lettering of any kind. No modern objects: no power lines, no cars, no trucks, no plastic, no electric signs. Wide 16:9 landscape. Exposed so that texture is clearly visible everywhere. Shadows are lifted and open, full of visible detail, nothing crushed to pure black. High dynamic range, rich texture even in the darkest areas.\n",
+      "prompt_source": "bgm/RDG04_太宰短編集/画像プロンプト/05_夏の明け方の小川.txt",
+      "prompt_verbatim": true,
+      "prompt_sha256": "5bf82ee956f52dd0cbdc305319f4460ef60b328f57cefdb6484972b91f6e86e9",
+      "attempts": [
+        {
+          "attempt": 1,
+          "started_at": "2026-11-07T17:20:42.618Z",
+          "completed_at": "2026-11-07T17:21:12.318Z",
+          "source_path": "/Users/ryo/.codex/generated_images/01a1b6f6-2257-7d00-8924-a2f5b87f42dc/exec-715f9cf0-c3c3-4fdd-b2f0-947c99f5aea2.png",
+          "original_path": "/Users/ryo/youtube/bgm/RDG04_太宰短編集/画像/生成直後/rdg04_05_v02_attempt01.png",
+          "accepted": true,
+          "rejection_reason": null,
+          "sha256": "3e4e36472dd5d1a9bd624aa9f9d3e7ac6aa89ebadc00bf1d1218ab662ce61cc1",
+          "dimensions": [
+            1672,
+            941
+          ],
+          "bytes": 3473603,
+          "metrics": {
+            "mean_luminance": 66.44246735059924,
+            "luminance_below_16_ratio": 0.00031715725406647715,
+            "luminance_below_16_percent": 0.031715725406647716
+          }
+        }
+      ],
+      "regeneration_count": 0,
+      "selected_attempt": 1,
+      "visual_check": {
+        "status": "passed",
+        "method": "生成原本全体を目視確認。",
+        "notes": "深い藍色の夜空、低い月、銀色に月光を映す小川と緑金色の蛍、暗い縁側、薄い川霧を確認。月・川面の反射・蛍が明るい点となり、日光なし。人物・人影・人の顔・手・指定外の動物・猫・文字・署名・印・電線は目視で認めず。"
+      },
+      "previous_versions": [
+        {
+          "id": "rdg04_05",
+          "role": "main_video",
+          "path": "画像/rdg04_05.png",
+          "prompt": "A quiet small town in Izu, Japan, in the 1930s, at early summer dawn, drawn as a blue-hour scene and not as a bright day. Seen from the wooden veranda of an old Japanese house: beyond a low hedge, a green meadow of tall summer grass and a clear little stream running full and slow, with a narrow earth path along it. The path is empty. Morning mist lies low over the water, and a pale lemon-pink light rises behind distant hills. Colours: soft blue-green, pale mist, lemon-pink sky, dark wood veranda. Fresh, calm and quietly happy. No people, no figures, no silhouettes of people, no faces, no hands, no animals except those named above, no cats. Japanese shin-hanga woodblock print in the manner of the 1920s-30s revival: flat layered areas of colour, visible woodgrain in the flat passages, softly gradated sky (bokashi), Western perspective and cast light held inside Japanese printmaking. Everything in the scene is drawn as part of the print, in the same flat woodblock manner, never photographic. Calm, dreamlike and hushed. Strong clear difference between the light and dark masses so the image still reads when reduced to a thumbnail. No text, no signature, no seal stamp, no lettering of any kind. No modern objects: no power lines, no cars, no trucks, no plastic, no electric signs. Wide 16:9 landscape. Exposed so that texture is clearly visible everywhere. Shadows are lifted and open, full of visible detail, nothing crushed to pure black. High dynamic range, rich texture even in the darkest areas.",
+          "prompt_verbatim": true,
+          "prompt_sha256": "6dd4dd6d91853e1e88cb59aff584cb3b61bbf12f981bce5964690b010b048e9e",
+          "attempts": [
+            {
+              "attempt": 1,
+              "started_at": "2026-11-07T17:07:47.209Z",
+              "completed_at": "2026-11-07T17:08:24.225Z",
+              "source_path": "/Users/ryo/.codex/generated_images/01a1b6f6-2257-7d00-8924-a2f5b87f42dc/exec-d24cb991-3af2-4a37-9ea9-c664ad3b29ab.png",
+              "original_path": "/Volumes/ESD-EPB/BGM/9_朗読/RDG04_素材_太宰短編集/画像_生成直後/rdg04_05_attempt01.png",
+              "accepted": false,
+              "rejection_reason": "小川と縁側はあるが、草木や室内まで明るく、薄暗いブルーアワーより明るい早朝の絵に見えるため。",
+              "sha256": "05835bec941efa440ad2c1e2d3ee0991521eddeb7601661ea73703f236623fa8",
+              "dimensions": [
+                1672,
+                941
+              ],
+              "bytes": 3761361,
+              "metrics": {
+                "mean_luminance": 124.64170903612158,
+                "luminance_below_16_ratio": 0.0,
+                "luminance_below_16_percent": 0.0
+              }
+            },
+            {
+              "attempt": 2,
+              "started_at": "2026-11-07T17:08:37.025Z",
+              "completed_at": "2026-11-07T17:09:13.509Z",
+              "source_path": "/Users/ryo/.codex/generated_images/01a1b6f6-2257-7d00-8924-a2f5b87f42dc/exec-8fb425f7-f1f4-4de2-a06f-6559fcab9236.png",
+              "original_path": "/Volumes/ESD-EPB/BGM/9_朗読/RDG04_素材_太宰短編集/画像_生成直後/rdg04_05_attempt02.png",
+              "accepted": false,
+              "rejection_reason": "小川と縁側はあるが、草木が明るく鮮やかで薄暗いブルーアワーとして不十分。",
+              "sha256": "f86ab24ffc6de29f2c87fc0e42cae2899b4e13bc175e3eebb1145b7e5947159e",
+              "dimensions": [
+                1672,
+                941
+              ],
+              "bytes": 3765975,
+              "metrics": {
+                "mean_luminance": 125.177856874876,
+                "luminance_below_16_ratio": 6.99144247441132e-06,
+                "luminance_below_16_percent": 0.000699144247441132
+              }
+            },
+            {
+              "attempt": 3,
+              "started_at": "2026-11-07T17:14:01.932Z",
+              "completed_at": "2026-11-07T17:14:37.075Z",
+              "source_path": "/Users/ryo/.codex/generated_images/01a1b6f6-2257-7d00-8924-a2f5b87f42dc/exec-03345fe9-74e7-4464-aec2-d7d8b3a6d910.png",
+              "original_path": "/Volumes/ESD-EPB/BGM/9_朗読/RDG04_素材_太宰短編集/画像_生成直後/rdg04_05_attempt03.png",
+              "accepted": false,
+              "rejection_reason": "3回目も草木・家屋・水面が明るく、指定の薄暗いブルーアワーに届かないため。",
+              "sha256": "caa29259e5ec95a3e512bb11bf9ea1d79c7152a54fe0219418dfe6c1bccf1d32",
+              "dimensions": [
+                1672,
+                941
+              ],
+              "bytes": 3726720,
+              "metrics": {
+                "mean_luminance": 125.69239008905829,
+                "luminance_below_16_ratio": 0.0,
+                "luminance_below_16_percent": 0.0
+              }
+            }
+          ],
+          "regeneration_count": 2,
+          "visual_check": {
+            "status": "failed",
+            "method": "全生成原本を目視確認。",
+            "notes": "指定の薄暗さを満たさないため納品版は未作成。"
+          },
+          "selected_attempt": null,
+          "generation_completed_at": "2026-11-07T17:14:37.075Z",
+          "version_status": "rejected_previous_prompt"
+        }
+      ],
+      "original_path": "/Users/ryo/youtube/bgm/RDG04_太宰短編集/画像/生成直後/rdg04_05_v02_attempt01.png",
+      "generation_completed_at": "2026-11-07T17:21:12.318Z",
+      "generation_completed_at_jst": "2026-11-08T02:21:12.318000+09:00",
+      "source_crop_box_xyxy": [
+        0,
+        0.25,
+        1672,
+        940.75
+      ],
+      "sha256": "12fad6672306b0be45c02461de1af12bf86712260cf1ec860bcd36dc8f98f75f",
+      "dimensions": [
+        1920,
+        1080
+      ],
+      "bytes": 3847452,
+      "metrics": {
+        "mean_luminance": 66.45212125096447,
+        "luminance_below_16_ratio": 0.00032841435185185187,
+        "luminance_below_16_percent": 0.03284143518518519
+      }
+    },
+    {
+      "id": "rdg04_06",
+      "role": "main_video",
+      "path": "画像/rdg04_06.png",
+      "prompt": "A wide shallow tidal beach on Tokyo Bay near Funabashi in the 1930s, at golden evening, drawn as an evening scene. Long flat wet sand and shallow water stretch far out, reflecting the low sun so the whole surface shines like beaten gold. A few small wooden stakes of seaweed farms stand in the shallows. On the left a small old wooden house with a pink oleander bush in bloom. The sky is amber and soft rose, darkening to blue at the top. Colours: gold, amber, rose, dark blue-grey shore. Peaceful and a little wistful. No people, no figures, no silhouettes of people, no faces, no hands, no animals except those named above, no cats. Japanese shin-hanga woodblock print in the manner of the 1920s-30s revival: flat layered areas of colour, visible woodgrain in the flat passages, softly gradated sky (bokashi), Western perspective and cast light held inside Japanese printmaking. Everything in the scene is drawn as part of the print, in the same flat woodblock manner, never photographic. Calm, dreamlike and hushed. Strong clear difference between the light and dark masses so the image still reads when reduced to a thumbnail. No text, no signature, no seal stamp, no lettering of any kind. No modern objects: no power lines, no cars, no trucks, no plastic, no electric signs. Wide 16:9 landscape. Exposed so that texture is clearly visible everywhere. Shadows are lifted and open, full of visible detail, nothing crushed to pure black. High dynamic range, rich texture even in the darkest areas.",
+      "prompt_verbatim": true,
+      "prompt_sha256": "4b163a5b56f6025854ecc65071fa76e548b4d4839a7110445d82d2fcbbafe46a",
+      "attempts": [
+        {
+          "attempt": 1,
+          "started_at": "2026-11-07T17:09:28.884Z",
+          "completed_at": "2026-11-07T17:09:51.738Z",
+          "source_path": "/Users/ryo/.codex/generated_images/01a1b6f6-2257-7d00-8924-a2f5b87f42dc/exec-ebc13879-9991-424f-bc28-2d3cad4503d5.png",
+          "original_path": "画像/生成直後/rdg04_06_attempt01.png",
+          "accepted": true,
+          "rejection_reason": null,
+          "sha256": "b2cae56f0ec6d776935fbd05d5ba7e53f34772c936cc6b69e7a21df8bf942b19",
+          "dimensions": [
+            1672,
+            941
+          ],
+          "bytes": 3519115,
+          "metrics": {
+            "mean_luminance": 127.76187389547923,
+            "luminance_below_16_ratio": 0.00018177750433469433,
+            "luminance_below_16_percent": 0.018177750433469433
+          }
+        }
+      ],
+      "regeneration_count": 0,
+      "generation_completed_at": "2026-11-07T17:09:51.738Z",
+      "generation_completed_at_jst": "2026-11-08T02:09:51.738000+09:00",
+      "selected_attempt": 1,
+      "original_path": "画像/生成直後/rdg04_06_attempt01.png",
+      "source_crop_box_xyxy": [
+        0,
+        0.25,
+        1672,
+        940.75
+      ],
+      "visual_check": {
+        "status": "passed",
+        "method": "生成原本全体を目視確認。",
+        "notes": "金色に光る広い遠浅の海と濡れた砂、低い夕陽、海苔養殖の木杭、左の古い木造家屋と桃色の夾竹桃を確認。杭間の線は養殖の縄であり電線ではない。人物・人影・人の顔・手・指定外の動物・猫・文字・署名・印・電線は目視で認めず。"
+      },
+      "sha256": "aa295a34926eaca15cdf0b5d6a90f1d89921d15beb60f65e4f4926ca36bd5f1a",
+      "dimensions": [
+        1920,
+        1080
+      ],
+      "bytes": 4006326,
+      "metrics": {
+        "mean_luminance": 127.77712644656636,
+        "luminance_below_16_ratio": 0.0001982060185185185,
+        "luminance_below_16_percent": 0.01982060185185185
+      }
+    },
+    {
+      "id": "rdg04_07",
+      "role": "main_video",
+      "path": "画像/rdg04_07.png",
+      "prompt": "A quiet residential lane near Kichijoji, Tokyo, in the 1940s, on a snowy night. Deep fresh snow covers the narrow road and the low wooden fences; the trees on both sides bow under heavy snow. Snowflakes fall thickly and softly through the light of a single old street lamp, swirling like countless fireflies. A small red post box stands capped with snow. A row of footprints runs along the road. Colours: deep blue night, soft white snow, warm yellow lamplight, one small red post box. No people, no figures, no silhouettes of people, no faces, no hands, no animals except those named above, no cats. Japanese shin-hanga woodblock print in the manner of the 1920s-30s revival: flat layered areas of colour, visible woodgrain in the flat passages, softly gradated sky (bokashi), Western perspective and cast light held inside Japanese printmaking. Everything in the scene is drawn as part of the print, in the same flat woodblock manner, never photographic. Calm, dreamlike and hushed. Strong clear difference between the light and dark masses so the image still reads when reduced to a thumbnail. No text, no signature, no seal stamp, no lettering of any kind. No modern objects: no power lines, no cars, no trucks, no plastic, no electric signs. Wide 16:9 landscape. Exposed so that texture is clearly visible everywhere. Shadows are lifted and open, full of visible detail, nothing crushed to pure black. High dynamic range, rich texture even in the darkest areas.",
+      "prompt_verbatim": true,
+      "prompt_sha256": "7de2d5dfa5e896728505d3b65a67ea4dedb32d13ceb285c250b85cb2971262c8",
+      "attempts": [
+        {
+          "attempt": 1,
+          "started_at": "2026-11-07T17:10:06.806Z",
+          "completed_at": "2026-11-07T17:10:42.616Z",
+          "source_path": "/Users/ryo/.codex/generated_images/01a1b6f6-2257-7d00-8924-a2f5b87f42dc/exec-08a56da8-bdad-45ed-a9bc-4313de3d5318.png",
+          "original_path": "画像/生成直後/rdg04_07_attempt01.png",
+          "accepted": false,
+          "rejection_reason": "赤いポストの投函口下に文字・郵便記号に似た浮き彫り状の線があることを拡大確認したため。",
+          "sha256": "8e9a643bb907caf1f80cb8855619513755ff519d3fc67de7bb012add3a868761",
+          "dimensions": [
+            1672,
+            941
+          ],
+          "bytes": 3809183,
+          "metrics": {
+            "mean_luminance": 128.68102422611088,
+            "luminance_below_16_ratio": 0.00010868515119312144,
+            "luminance_below_16_percent": 0.010868515119312144
+          }
+        },
+        {
+          "attempt": 2,
+          "started_at": "2026-11-07T17:11:07.192Z",
+          "completed_at": "2026-11-07T17:11:34.324Z",
+          "source_path": "/Users/ryo/.codex/generated_images/01a1b6f6-2257-7d00-8924-a2f5b87f42dc/exec-1e48b236-1a2c-45ae-984b-84cea4bde6e4.png",
+          "original_path": "画像/生成直後/rdg04_07_attempt02.png",
+          "accepted": true,
+          "rejection_reason": null,
+          "sha256": "26390c35ade77b9799be23b20acf1947860bd9db8629ceb0b4fd963e4b5b623d",
+          "dimensions": [
+            1672,
+            941
+          ],
+          "bytes": 3607626,
+          "metrics": {
+            "mean_luminance": 131.49539604919937,
+            "luminance_below_16_ratio": 5.720271115427444e-06,
+            "luminance_below_16_percent": 0.0005720271115427444
+          }
+        }
+      ],
+      "regeneration_count": 1,
+      "generation_completed_at": "2026-11-07T17:11:34.324Z",
+      "generation_completed_at_jst": "2026-11-08T02:11:34.324000+09:00",
+      "selected_attempt": 2,
+      "original_path": "画像/生成直後/rdg04_07_attempt02.png",
+      "source_crop_box_xyxy": [
+        0,
+        0.25,
+        1672,
+        940.75
+      ],
+      "visual_check": {
+        "status": "passed",
+        "method": "生成原本全体を目視確認。",
+        "notes": "雪の夜道、暖かい街灯、赤いポスト、降雪と足跡を確認。ポストを拡大し、プレートは空白の質感で文字・記号なし。人物・人影・人の顔・手・指定外の動物・猫・文字・署名・印・電線は目視で認めず。"
+      },
+      "sha256": "93d0480272d84f72f1fd99dc6d0be9337e1a9c0f03dca8e054e295c861f9e2ac",
+      "dimensions": [
+        1920,
+        1080
+      ],
+      "bytes": 4082290,
+      "metrics": {
+        "mean_luminance": 131.4989046613618,
+        "luminance_below_16_ratio": 4.822530864197531e-06,
+        "luminance_below_16_percent": 0.00048225308641975306
+      }
+    },
+    {
+      "id": "rdg04_08",
+      "role": "main_video",
+      "path": "画像/rdg04_08.png",
+      "prompt": "A small old wooden Japanese house at night in deep snow, seen from the garden. Its sliding glass doors glow with warm yellow light from inside, falling in soft rectangles across the snow. Snow is gently falling, the trees and the roof are heavy with white, and the night sky is deep indigo. Inside, only a low table and a lamp are suggested through the glass, no one visible. Colours: deep indigo, soft white snow, warm golden window light. Tender, warm and very calm. No people, no figures, no silhouettes of people, no faces, no hands, no animals except those named above, no cats. Japanese shin-hanga woodblock print in the manner of the 1920s-30s revival: flat layered areas of colour, visible woodgrain in the flat passages, softly gradated sky (bokashi), Western perspective and cast light held inside Japanese printmaking. Everything in the scene is drawn as part of the print, in the same flat woodblock manner, never photographic. Calm, dreamlike and hushed. Strong clear difference between the light and dark masses so the image still reads when reduced to a thumbnail. No text, no signature, no seal stamp, no lettering of any kind. No modern objects: no power lines, no cars, no trucks, no plastic, no electric signs. Wide 16:9 landscape. Exposed so that texture is clearly visible everywhere. Shadows are lifted and open, full of visible detail, nothing crushed to pure black. High dynamic range, rich texture even in the darkest areas.",
+      "prompt_verbatim": true,
+      "prompt_sha256": "943010d6410ef160554d1f6cf56b822cadca542c60539a1bd56416fe12aa0eeb",
+      "attempts": [
+        {
+          "attempt": 1,
+          "started_at": "2026-11-07T17:11:59.304Z",
+          "completed_at": "2026-11-07T17:12:24.496Z",
+          "source_path": "/Users/ryo/.codex/generated_images/01a1b6f6-2257-7d00-8924-a2f5b87f42dc/exec-7da6f502-8a54-47cb-9bc5-9b7569b901a9.png",
+          "original_path": "画像/生成直後/rdg04_08_attempt01.png",
+          "accepted": true,
+          "rejection_reason": null,
+          "sha256": "386c38b86f87ae82ed744e792ab7982817ee283566c19b91a27a34f7db71dc09",
+          "dimensions": [
+            1672,
+            941
+          ],
+          "bytes": 3325958,
+          "metrics": {
+            "mean_luminance": 120.7225928089835,
+            "luminance_below_16_ratio": 6.355856794919382e-07,
+            "luminance_below_16_percent": 6.355856794919382e-05
+          }
+        }
+      ],
+      "regeneration_count": 0,
+      "generation_completed_at": "2026-11-07T17:12:24.496Z",
+      "generation_completed_at_jst": "2026-11-08T02:12:24.496000+09:00",
+      "selected_attempt": 1,
+      "original_path": "画像/生成直後/rdg04_08_attempt01.png",
+      "source_crop_box_xyxy": [
+        0,
+        0.25,
+        1672,
+        940.75
+      ],
+      "visual_check": {
+        "status": "passed",
+        "method": "生成原本全体を目視確認。",
+        "notes": "深雪の木造家屋、暖かい窓あかりと雪面の四角い光、室内の低い机と灯りを確認。室内に人影なし。人物・人影・人の顔・手・指定外の動物・猫・文字・署名・印・電線は目視で認めず。"
+      },
+      "sha256": "822f49dbd05da9bd928ea8d1d881a51ad7f0000b7bf03d851d44cfc445419b24",
+      "dimensions": [
+        1920,
+        1080
+      ],
+      "bytes": 3828628,
+      "metrics": {
+        "mean_luminance": 120.72584666222996,
+        "luminance_below_16_ratio": 2.4112654320987654e-06,
+        "luminance_below_16_percent": 0.00024112654320987653
+      }
+    },
+    {
+      "id": "rdg04_09",
+      "role": "thumbnail_only",
+      "path": "画像/rdg04_09.png",
+      "prompt": "Composed for a thumbnail. The left third of the image is a calm, dark, simple area of deep violet evening sky with almost no detail, so lettering can be placed over it. In the right two thirds, a long road runs straight toward an ancient walled hill city of the Mediterranean, its towers dark against an enormous setting sun that is a clean round disc of deep red-orange, the brightest and warmest shape in the image. Long red light lies across the road and the fields. Strong contrast, so it still reads at the size of a postage stamp. Colours: deep violet, red-orange sun, dark silhouetted city, golden road. No people, no figures, no silhouettes of people, no faces, no hands, no animals except those named above, no cats. Japanese shin-hanga woodblock print in the manner of the 1920s-30s revival: flat layered areas of colour, visible woodgrain in the flat passages, softly gradated sky (bokashi), Western perspective and cast light held inside Japanese printmaking. Everything in the scene is drawn as part of the print, in the same flat woodblock manner, never photographic. Calm, dreamlike and hushed. Strong clear difference between the light and dark masses so the image still reads when reduced to a thumbnail. No text, no signature, no seal stamp, no lettering of any kind. No modern objects: no power lines, no cars, no trucks, no plastic, no electric signs. Wide 16:9 landscape. Exposed so that texture is clearly visible everywhere. Shadows are lifted and open, full of visible detail, nothing crushed to pure black. High dynamic range, rich texture even in the darkest areas.",
+      "prompt_verbatim": true,
+      "prompt_sha256": "b8f41695821bd0b06a2bc26db44a43d2dafa338d139004af011041734d26f690",
+      "attempts": [
+        {
+          "attempt": 1,
+          "started_at": "2026-11-07T17:12:37.895Z",
+          "completed_at": "2026-11-07T17:12:56.827Z",
+          "source_path": "/Users/ryo/.codex/generated_images/01a1b6f6-2257-7d00-8924-a2f5b87f42dc/exec-8ba18a8a-b6c9-4699-963e-8eadb32bdf44.png",
+          "original_path": "画像/生成直後/rdg04_09_attempt01.png",
+          "accepted": true,
+          "rejection_reason": null,
+          "sha256": "56a282e5794ace5e24b2e32fe599a0c6c18670a807baa9222f2f57e3df41a34b",
+          "dimensions": [
+            1672,
+            941
+          ],
+          "bytes": 3173145,
+          "metrics": {
+            "mean_luminance": 85.20030523315823,
+            "luminance_below_16_ratio": 3.686396941053242e-05,
+            "luminance_below_16_percent": 0.003686396941053242
+          }
+        }
+      ],
+      "regeneration_count": 0,
+      "thumbnail_168px": {
+        "dimensions": [
+          168,
+          95
+        ],
+        "left_third_box_xyxy": [
+          0,
+          0,
+          56,
+          95
+        ],
+        "left_third_median_luminance": 60.97599999999999
+      },
+      "generation_completed_at": "2026-11-07T17:12:56.827Z",
+      "generation_completed_at_jst": "2026-11-08T02:12:56.827000+09:00",
+      "selected_attempt": 1,
+      "original_path": "画像/生成直後/rdg04_09_attempt01.png",
+      "source_crop_box_xyxy": [
+        0,
+        0.25,
+        1672,
+        940.75
+      ],
+      "visual_check": {
+        "status": "passed",
+        "method": "生成原本全体を目視確認。",
+        "notes": "右の大きな赤橙色の丸い夕陽、城壁の町とまっすぐな道、左1/3の大部分に暗い紫の低密度の空を確認（下部には畑・木あり）。人物・人影・人の顔・手・指定外の動物・猫・文字・署名・印・電線は目視で認めず。"
+      },
+      "sha256": "626f4fe14bc6a78b098b0f2e0aa27711e0b0ed874bf4fe8068edbf979137cfca",
+      "dimensions": [
+        1920,
+        1080
+      ],
+      "bytes": 3650546,
+      "metrics": {
+        "mean_luminance": 85.20262745553624,
+        "luminance_below_16_ratio": 4.050925925925926e-05,
+        "luminance_below_16_percent": 0.004050925925925926
+      }
+    }
+  ],
+  "total_generation_calls": 17,
+  "total_regenerations": 6,
+  "pending_assets": [],
+  "status_note": "02・05は改訂済みtxt全文を内蔵image_genに渡し、各1回で検品合格。今回の再生成0回。原本2枚をMacの画像/生成直後に保存、納品版2枚は1920×1080。露出・色・コントラスト補正なし。旧不採用7枚の履歴はprevious_versionsに保持。",
+  "completed_at": "2026-11-07T17:21:36.322452+00:00"
+}

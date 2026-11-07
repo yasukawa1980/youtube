@@ -1,0 +1,29 @@
+# 朗読 / 04 —— 太宰治 短編集（走れメロス・満願・黄金風景・雪の夜の話）
+#
+# ★★音も映像も bgmkit の外で作っている。 bgmkit で使うのはサムネ（thumb）だけ。
+#   実装は bgm/RDG04_太宰短編集/作業/（prep_text.py → narrate_satomi.py → render.py）。
+# ★画題は8場面＋サムネ（新版画）。プロンプトの全文は bgm/RDG04_太宰短編集/画像プロンプト/ と bgm/RDG04_コピー用プロンプト.md
+
+genre: echoesofoldjapan     # RDG01・02と同じく EOJ の新版画・題字の型を借りる
+volume: 4
+slug: rdg04
+dir: "/Users/ryo/youtube/bgm/RDG04_太宰短編集"
+
+brand: WHISPERS OF JAPAN   # ★EOJ の型を借りるが、この巻はEOJではない
+runtime: "1 HOUR"   # 77分（Satomiの合成の実測・末尾の無音40秒込み）
+title_lines: [眠る前の朗読, 走れメロス]
+thumb_sub: 太宰治
+thumb_layout:
+  sub: 680
+thumb:
+  title_family: jp
+  sub_family: jp
+  sizes: {sub: 64}
+  font_index: {sub: 0}
+  tracking: {sub: 10}
+  title_fit: 760
+  tracking:
+    brand: 4
+
+background: "/Users/ryo/youtube/bgm/RDG04_太宰短編集/画像/rdg04_09.png"
+thumb_out: "/Users/ryo/youtube/bgm/RDG04_太宰短編集/rdg04_サムネ_16x9.png"
