@@ -4,7 +4,8 @@
 
 ## ファイル
 
-- 本編：`/Volumes/ESD-EPB/BGM/7_Kominka Cafe/KCF08_素材_囲炉裏端/kcf08_完成.mp4`（★書き出し中。完了後に尺・音量を記入）
+- 本編：`/Volumes/ESD-EPB/BGM/7_Kominka Cafe/KCF08_素材_囲炉裏端/kcf08_完成.mp4`
+  **102分48.671秒・1606.7MB・−14.0 LUFS・LRA 6.7・Peak −1.5**（ESD-02 に控え・MD5一致）
 - サムネ：同じフォルダの `kcf08_サムネ.jpg`（568KB・1920×1080）。題字「囲炉裏端で作業／古民家カフェ」
 - 音：102分48.7秒・−14.0 LUFS・TP −1.5・LRA 6.7
 - 章の時刻は `_work/manifest_30曲.json` の各曲の開始を秒で切り捨て（KCF07 と同じ）
