@@ -1,0 +1,144 @@
+{
+  "observed_date_jst": "2026-11-09",
+  "source": "YouTube Studio visible UI, direct observation",
+  "channel_id": "UCfLJOojEY9VB3rvrjICk90Q",
+  "channel_name": "Quiet Origins",
+  "current_subscribers": 5,
+  "period_28d": {
+    "display_start": "2026-10-11",
+    "display_end": "2026-11-07",
+    "views": 8061,
+    "watch_hours": 15.6,
+    "net_subscribers": 5,
+    "video_views": 162,
+    "video_watch_hours": 3.1,
+    "video_average_view_seconds": 106,
+    "video_impressions": 2058,
+    "video_ctr_percent": 2.4,
+    "shorts_views": 7905,
+    "shorts_watch_hours": 12.4,
+    "shorts_engaged_views": 1922,
+    "shorts_net_subscribers": 4,
+    "shorts_stayed_percent": 24.0
+  },
+  "period_7d": {
+    "display_start": "2026-11-01",
+    "display_end": "2026-11-07",
+    "views": 3715,
+    "watch_hours": 6.7,
+    "net_subscribers": 1,
+    "video_views": 90,
+    "video_watch_hours": 1.3,
+    "video_average_view_seconds": 76,
+    "video_impressions": 1027,
+    "video_ctr_percent": 2.6,
+    "shorts_views": 3631,
+    "shorts_watch_hours": 5.4,
+    "shorts_engaged_views": 1041,
+    "shorts_net_subscribers": 1,
+    "shorts_stayed_percent": 28.9,
+    "video_views_change_percent": 210,
+    "video_impressions_change_percent": 107,
+    "shorts_views_change_percent": 31,
+    "shorts_engaged_views_change_percent": 30,
+    "all_watch_hours_change_percent": -8,
+    "net_subscribers_change_percent": -67
+  },
+  "realtime_48h_views": 1298,
+  "audience_28d": {
+    "monthly_audience_estimate": 1705,
+    "new_viewers_percent": 99.9,
+    "top_geographies_percent": {
+      "Japan": 25.1,
+      "Australia": 5.6,
+      "Canada": 4.7,
+      "United States": 2.2,
+      "United Kingdom": 2.1
+    }
+  },
+  "earn_page_message": "居住国が設定されていないため、収益化の資格を判定できません。 居住国を更新してください",
+  "official_eligible_public_watch_hours": null,
+  "official_eligible_shorts_views": null,
+  "data_limitations": [
+    "Displayed date boundaries are Studio dates, not converted to JST.",
+    "Format views sum exceeds overall views by 6 for each period; cause unknown.",
+    "Watch time differs from views multiplied by displayed average view duration; direct hours used.",
+    "Video format can include nonpublic videos and test uploads; not equivalent to YPP eligible hours.",
+    "Country is unset; official eligibility counters unavailable."
+  ],
+  "historical_dashboard": [
+    {
+      "date": "2026-10-23",
+      "subs": 1,
+      "views_28d": 496,
+      "watch_hours_28d": 0.9
+    },
+    {
+      "date": "2026-10-29",
+      "subs": 4,
+      "views_28d": 2793,
+      "watch_hours_28d": 3.1
+    },
+    {
+      "date": "2026-10-31",
+      "subs": 4,
+      "views_28d": 3317,
+      "watch_hours_28d": 4.0
+    },
+    {
+      "date": "2026-11-02",
+      "subs": 4,
+      "views_28d": 5701,
+      "watch_hours_28d": 11.8
+    },
+    {
+      "date": "2026-11-03",
+      "subs": 4,
+      "views_28d": 5812,
+      "watch_hours_28d": 12.3
+    },
+    {
+      "date": "2026-11-07",
+      "subs": 4,
+      "views_28d": 7659,
+      "watch_hours_28d": 14.7
+    }
+  ],
+  "calculations": {
+    "video_hours_annual_at_weekly_rate": 67.78571428571429,
+    "video_hours_30d_at_weekly_rate": 5.571428571428571,
+    "factor_to_8000_annual_hours": 118.01896733403582,
+    "years_to_1000_subscribers_at_weekly_rate": 19.08219178082192,
+    "shorts_engaged_views_90d_at_weekly_rate": 13384.285714285714
+  },
+  "scenario_assumptions": {
+    "days_per_month": 30,
+    "initial_subscribers": 5,
+    "initial_video_hours_proxy": 3.1,
+    "growth_ramp": "none; rates begin immediately",
+    "qualifying_fraction_assumed": 1,
+    "review_time_excluded": true,
+    "scenarios": [
+      {
+        "monthly_net_subscribers": 100,
+        "monthly_eligible_hours": 400
+      },
+      {
+        "monthly_net_subscribers": 100,
+        "monthly_eligible_hours": 800
+      },
+      {
+        "monthly_net_subscribers": 200,
+        "monthly_eligible_hours": 1600
+      }
+    ]
+  },
+  "policy_sources": [
+    "https://support.google.com/youtube/answer/13429240?hl=ja",
+    "https://support.google.com/youtube/answer/12843009?hl=ja",
+    "https://support.google.com/youtube/answer/72851?hl=en",
+    "https://support.google.com/youtube/answer/1311392?hl=ja"
+  ],
+  "settings_changed": false,
+  "publication_changes": false
+}
