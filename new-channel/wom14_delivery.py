@@ -85,7 +85,7 @@ def archive():
   if p.name not in ['sharing.json']:shutil.copy2(p,SHARE/'records'/p.name)
  for p in D.glob('*.srt'):shutil.copy2(p,SHARE/p.name)
  for p in D.glob('*pronunciation*.txt'):shutil.copy2(p,SHARE/p.name)
- groups={'audio_and_subtitles':[p for p in D.iterdir() if p.suffix in ['.m4a','.wav','.srt','.txt']],'thumbnails_and_metadata':[p for p in D.iterdir() if p.suffix in ['.jpg','.md']],'QA_records':list((SHARE/'records').rglob('*.json'))+list(SHARE.glob('*.jpg'))}
+ groups={'audio_and_subtitles':[p for p in D.iterdir() if p.suffix in ['.m4a','.wav','.srt','.txt']],'thumbnails_and_metadata':[p for p in D.iterdir() if p.suffix in ['.jpg','.md']],'QA_records':[p for p in (SHARE/'records').rglob('*.json') if p.name not in ['sharing.json','deliverable_manifest.json']]+list(SHARE.glob('*.jpg'))}
  for key,files in groups.items():
   path=D/f'EP014_{key}_v01.zip'
   with zipfile.ZipFile(path,'w',zipfile.ZIP_DEFLATED,compresslevel=3) as z:
@@ -95,7 +95,7 @@ def archive():
  print('ARCHIVES READY',flush=True)
 def report():
  s=read(ROOT/'records/sharing.json');assert s['draft'] and s['status']=='verified' and len(s['assets'])==8;shutil.copy2(ROOT/'records/sharing.json',SHARE/'records/sharing.json')
- lines=['# Quiet Origins 第14話「鬼」確認版v01 制作結果（2026-11-10）','','承認済み台本v02から英日1080p・字幕入り確認版・英語4Kを制作し、非公開Draft Releaseへ保存。公開・予約は行っていない。台本本文と字幕本文は維持。','', '|言語|総尺|目安522秒との差|フレーム|音量|ピーク|字幕|','|---|---:|---:|---:|---:|---:|---:|']
+ lines=['# Quiet Origins 第14話「鬼」確認版v01 制作結果（2026-11-10）','','承認済み台本v02から英日1080p・字幕入り確認版・英語4Kを制作し、非公開Draft Releaseへ保存。公開予定は2026年11月18日09:00 JST。公開・予約は行っていない。台本本文と字幕本文は維持。','', '|言語|総尺|目安522秒との差|フレーム|音量|ピーク|字幕|','|---|---:|---:|---:|---:|---:|---:|']
  for l in ['en','ja']:
   r=ROOT/l;m=read(r/'records/master_timeline.json');q=read(r/'records/qc_v01.json')['files'][0];sub=read(r/'records/subtitle_validation.json');a=q['loudness'];lines.append(f"|{l}|{m['duration_seconds']:.3f}秒|{m['duration_seconds']-522:+.3f}秒|{q['frames']}|{a['input_i']} LUFS|{a['input_tp']} dBTP|{sub['count']}件|")
  lines += ['', '第12話の音声設定を継承。尺に合わせた加速なし。英日別の時間割で、区間間は約0.92秒。P06・P11・P13はこの間で語り後0.9秒以上の札の保持を確保。P14の一覧は次の絵への切替まで1.5秒以上。P02後に4秒OP、EDは総尺のちょうど10秒前から。','', '## 素材と原典の表示','','採用19素材は各1ショット。R10-27・R11-30・R12-1447も承認どおり映像へ採用。素材のSHA-256を台帳と照合。原寸から各出力サイズへ描画し、全素材の倍率は1.0以下。共通OP・EDだけは1080p原版を4Kへ拡大。','', '北野本の指定概略範囲は引用の末尾を欠くため、原寸実見で下端を延長。石燕は矩形の右下に山の線が入るため、解説文字のみの多角形切り出しにした。全頁を見せる規則の例外として、石燕は最初から文字だけ、江家次第は最初から左頁本文だけを表示。目一鬼は改行をまたぐ2列をまとめて囲み、文字の順を並べ替えていない。','', '石燕の「といへり」は、指定のショット割りで方角図へ移る前に囲む。ナレーションがその結語を述べるのは方角図の区間であり、逐語ハイライトとの同時性は主張しない。','', '## 検品','','31ショット（OP・ED含む）を個別デコードし、非圧縮フレームを一つのH.264エンコーダーへ渡した。静止画入力は30fps・有限フレーム、4Kはショットごとの再開点あり。通常英日・字幕入り英日・英語4Kを全編デコードし、警告0。通常版と4Kは全フレームの形式1種類・連続PTSを確認。H.264 High / yuv420p / CFR30fps。','', '|言語|文字コントラスト最小|箱内余白最小|実字幕との最小間隔|動きp95/中央値の最大|','|---|---:|---:|---:|---:|']

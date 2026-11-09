@@ -1,0 +1,132 @@
+{
+  "passed": true,
+  "checks": [
+    {
+      "shot": "O01-A",
+      "roi": [
+        1162,
+        432,
+        1514,
+        1296
+      ],
+      "adjacent_pairs": 171,
+      "median": 2.731127277100967,
+      "p95": 2.9397834715494886,
+      "ratio": 1.076399293507114,
+      "passed": true
+    },
+    {
+      "shot": "O02-A",
+      "roi": [
+        1681,
+        570,
+        478,
+        930
+      ],
+      "adjacent_pairs": 626,
+      "median": 0.1002935618841949,
+      "p95": 0.13197631259279255,
+      "ratio": 1.3159001446691114,
+      "passed": true
+    },
+    {
+      "shot": "O05-A",
+      "roi": [
+        1241,
+        639,
+        1358,
+        792
+      ],
+      "adjacent_pairs": 371,
+      "median": 0.6157525178143735,
+      "p95": 0.7800278186876125,
+      "ratio": 1.2667878670741577,
+      "passed": true
+    },
+    {
+      "shot": "O15-A",
+      "roi": [
+        1316,
+        570,
+        1208,
+        930
+      ],
+      "adjacent_pairs": 354,
+      "median": 0.21930766218044578,
+      "p95": 0.2889629174677775,
+      "ratio": 1.3176143258962816,
+      "passed": true
+    },
+    {
+      "shot": "O09-A",
+      "roi": [
+        1572,
+        570,
+        694,
+        930
+      ],
+      "adjacent_pairs": 697,
+      "median": 0.16426358030429797,
+      "p95": 0.19137212977595985,
+      "ratio": 1.165030796366689,
+      "passed": true
+    },
+    {
+      "shot": "O14-B",
+      "roi": [
+        1488,
+        570,
+        864,
+        930
+      ],
+      "adjacent_pairs": 216,
+      "median": 0.6311896405814417,
+      "p95": 0.6580082014137794,
+      "ratio": 1.042488911585483,
+      "passed": true
+    },
+    {
+      "shot": "O02-B",
+      "roi": [
+        1514,
+        570,
+        812,
+        930
+      ],
+      "adjacent_pairs": 57,
+      "median": 0.28062927061814713,
+      "p95": 0.3578973992266539,
+      "ratio": 1.2753388070970177,
+      "passed": true
+    },
+    {
+      "shot": "O02-D",
+      "roi": [
+        876,
+        570,
+        2088,
+        930
+      ],
+      "adjacent_pairs": 221,
+      "median": 0.31478391628558483,
+      "p95": 0.4153715033164421,
+      "ratio": 1.3195448745214802,
+      "passed": true
+    },
+    {
+      "shot": "O16-A",
+      "roi": [
+        1126,
+        570,
+        1588,
+        930
+      ],
+      "adjacent_pairs": 217,
+      "median": 0.6871211505647192,
+      "p95": 0.7092347173695187,
+      "ratio": 1.032182922599057,
+      "passed": true
+    }
+  ],
+  "method": "All adjacent final-master frames within moving art ROIs. Intentional source zooms, stamps, staged cards and brand transitions are separate designed events."
+}

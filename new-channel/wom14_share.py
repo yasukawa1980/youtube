@@ -41,8 +41,12 @@ def main():
     if a.partial_1080:files=[p for p in files if p.suffix=='.mp4' and '1080p30' in p.name]
     assert len(files)==(4 if a.partial_1080 else 8), len(files)
     assert all(p.name.isascii() for p in files)
-    releases=api([f'repos/{REPO}/releases?per_page=100'])
-    r=next((r for r in releases if r['tag_name']==TAG),None)
+    previous=json.loads(a.record.read_text()) if a.record.exists() else {}
+    if previous.get('tag')==TAG and previous.get('release_id'):
+        r=api([f'repos/{REPO}/releases/{previous["release_id"]}'])
+    else:
+        releases=api([f'repos/{REPO}/releases?per_page=100'])
+        r=next((r for r in releases if r['tag_name']==TAG),None)
     body=('Quiet Origins 第14話「鬼」。承認済み台本v02。英日1080p本編と字幕入り確認版の4本を先行格納。英語4K・音声等のZIP・最終検品記録は作成中。非公開・本人試聴とClaude確認用。' if a.partial_1080 else 'Quiet Origins 第14話「鬼」。承認済み台本v02。英日1080p本編、英語原寸素材からの4K版、字幕入り英日確認版、音声・字幕・サムネ2案と検品記録。非公開・本人試聴とClaude確認待ち。')
     if r is None:
         r=api(['--method','POST',f'repos/{REPO}/releases','--input','-'],{
@@ -56,7 +60,6 @@ def main():
         assert r['draft'] is True
     # Empty draft is checked before any media is uploaded. Never publish it.
     assert_anonymous_hidden(f'repos/{REPO}/releases/{r["id"]}')
-    previous=json.loads(a.record.read_text()) if a.record.exists() else {}
     cached_checks=previous.get('assets',[]) if previous.get('release_id')==r['id'] else []
     state={'release_id':r['id'],'tag':TAG,'draft':True,'release_url':r['html_url'],'status':'uploading','assets':cached_checks}
     a.record.write_text(json.dumps(state,indent=2)+'\n')
@@ -68,7 +71,12 @@ def main():
             if old['name']!=p.name:
                 api(['--method','PATCH',f'repos/{REPO}/releases/assets/{old["id"]}','--input','-'],{'name':p.name})
         else:
-            subprocess.run(['gh','release','upload',TAG,str(p),'--repo',REPO],check=True)
+            # Draft tags are not always discoverable through the CLI tag lookup.
+            # Upload to the already verified draft's numeric release ID.
+            subprocess.run(['gh','api','--method','POST',
+                            f'https://uploads.github.com/repos/{REPO}/releases/{r["id"]}/assets?name={p.name}',
+                            '-H','Content-Type: application/octet-stream',
+                            '--input',str(p),'--silent'],check=True)
         print('UPLOADED',p.name,flush=True)
     if VERSION=='v02':
         from concurrent.futures import ThreadPoolExecutor

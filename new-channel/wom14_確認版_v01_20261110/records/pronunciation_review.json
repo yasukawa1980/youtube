@@ -1,0 +1,810 @@
+{
+  "human_listening_completed": false,
+  "basis": {
+    "basis": "Unmodified full first synthesis preserved; English tokenizer phonemes and Japanese OpenJTalk mora analysis. No claim of human listening. Only evident lexical misreadings corrected.",
+    "examples": {
+      "Ihase": "aɪheɪs -> iːhɑːseɪ",
+      "Ayo": "aɪoʊ -> ɑːjoʊ",
+      "和名類聚抄": "ワミョオルイ -> ワミョオルイジュショオ",
+      "江家次第": "コオカシダイ -> ゴオケシダイ",
+      "方相": "カタショオ -> ホオソオ",
+      "楯": "ダテ -> タテ",
+      "角": "カク -> ツノ (contextual replacements, never inside 方角)"
+    },
+    "script_or_subtitle_changed": false
+  },
+  "languages": {
+    "en": {
+      "sentences": [
+        {
+          "sentence": "P01-01",
+          "main_start": 1.8,
+          "main_end": 5.425958333333333,
+          "sample_start": 0,
+          "terms": [
+            "oni"
+          ],
+          "replacements": []
+        },
+        {
+          "sentence": "P01-03",
+          "main_start": 13.277291666666667,
+          "main_end": 25.176625,
+          "sample_start": 4.625958333333333,
+          "terms": [
+            "oni",
+            "Setsubun"
+          ],
+          "replacements": []
+        },
+        {
+          "sentence": "P01-05",
+          "main_start": 28.914583333333333,
+          "main_end": 31.345833333333335,
+          "sample_start": 17.525291666666668,
+          "terms": [
+            "oni"
+          ],
+          "replacements": []
+        },
+        {
+          "sentence": "P02-01",
+          "main_start": 34.166666666666664,
+          "main_end": 38.86933333333333,
+          "sample_start": 20.956541666666666,
+          "terms": [
+            "oni"
+          ],
+          "replacements": []
+        },
+        {
+          "sentence": "P02-02",
+          "main_start": 39.16933333333333,
+          "main_end": 41.367333333333335,
+          "sample_start": 26.659208333333332,
+          "terms": [
+            "oni"
+          ],
+          "replacements": []
+        },
+        {
+          "sentence": "P02-03",
+          "main_start": 41.66733333333333,
+          "main_end": 43.84529166666667,
+          "sample_start": 29.857208333333332,
+          "terms": [
+            "oni"
+          ],
+          "replacements": []
+        },
+        {
+          "sentence": "P02-05",
+          "main_start": 49.20925,
+          "main_end": 52.37720833333333,
+          "sample_start": 33.03516666666667,
+          "terms": [
+            "oni"
+          ],
+          "replacements": []
+        },
+        {
+          "sentence": "P03-01",
+          "main_start": 62.06666666666667,
+          "main_end": 68.53133333333334,
+          "sample_start": 37.203125,
+          "terms": [
+            "Nihon Shoki"
+          ],
+          "replacements": []
+        },
+        {
+          "sentence": "P03-02",
+          "main_start": 68.83133333333333,
+          "main_end": 74.94066666666667,
+          "sample_start": 44.667791666666666,
+          "terms": [
+            "oni"
+          ],
+          "replacements": []
+        },
+        {
+          "sentence": "P04-01",
+          "main_start": 81.23333333333333,
+          "main_end": 84.264625,
+          "sample_start": 51.777125,
+          "terms": [
+            "oni"
+          ],
+          "replacements": []
+        },
+        {
+          "sentence": "P04-02",
+          "main_start": 84.564625,
+          "main_end": 90.91995833333334,
+          "sample_start": 55.808416666666666,
+          "terms": [
+            "Saimei"
+          ],
+          "replacements": [
+            {
+              "display": "Saimei",
+              "spoken": "Saimei",
+              "count": 1,
+              "phonemes": "sˈaɪmeɪ"
+            }
+          ]
+        },
+        {
+          "sentence": "P04-04",
+          "main_start": 93.64258333333333,
+          "main_end": 103.79520833333333,
+          "sample_start": 63.16375,
+          "terms": [
+            "oni",
+            "Ihase",
+            "Asakura"
+          ],
+          "replacements": [
+            {
+              "display": "Ihase",
+              "spoken": "Ihase",
+              "count": 1,
+              "phonemes": "iːhˈɑːseɪ"
+            },
+            {
+              "display": "Asakura",
+              "spoken": "Asakura",
+              "count": 1,
+              "phonemes": "ɑːsɑːkˈuːɹɑː"
+            }
+          ]
+        },
+        {
+          "sentence": "P04-08",
+          "main_start": 121.38116666666667,
+          "main_end": 126.08383333333333,
+          "sample_start": 74.316375,
+          "terms": [
+            "oni"
+          ],
+          "replacements": []
+        },
+        {
+          "sentence": "P05-01",
+          "main_start": 127.0,
+          "main_end": 136.68333333333334,
+          "sample_start": 80.01904166666667,
+          "terms": [
+            "Izumo Fudoki"
+          ],
+          "replacements": [
+            {
+              "display": "Fudoki",
+              "spoken": "Fudoki",
+              "count": 1,
+              "phonemes": "fuːdˈoʊki"
+            }
+          ]
+        },
+        {
+          "sentence": "P05-02",
+          "main_start": 136.98333333333332,
+          "main_end": 141.144,
+          "sample_start": 90.702375,
+          "terms": [
+            "Ayo"
+          ],
+          "replacements": [
+            {
+              "display": "Ayo",
+              "spoken": "Ayo",
+              "count": 1,
+              "phonemes": "ˈɑːjoʊ"
+            }
+          ]
+        },
+        {
+          "sentence": "P05-04",
+          "main_start": 145.062625,
+          "main_end": 147.76395833333333,
+          "sample_start": 95.86304166666667,
+          "terms": [
+            "oni"
+          ],
+          "replacements": []
+        },
+        {
+          "sentence": "P05-07",
+          "main_start": 156.80058333333332,
+          "main_end": 158.97854166666667,
+          "sample_start": 99.56437500000001,
+          "terms": [
+            "Ayo"
+          ],
+          "replacements": [
+            {
+              "display": "Ayo",
+              "spoken": "Ayo",
+              "count": 1,
+              "phonemes": "ˈɑːjoʊ"
+            }
+          ]
+        },
+        {
+          "sentence": "P06-02",
+          "main_start": 162.41195833333333,
+          "main_end": 168.09325,
+          "sample_start": 102.74233333333335,
+          "terms": [
+            "oni"
+          ],
+          "replacements": []
+        },
+        {
+          "sentence": "P07-02",
+          "main_start": 178.38266666666667,
+          "main_end": 185.59,
+          "sample_start": 109.42362500000002,
+          "terms": [
+            "Minamoto no Shitagou",
+            "Wamyō Ruijushō"
+          ],
+          "replacements": [
+            {
+              "display": "Shitagou",
+              "spoken": "Shitagou",
+              "count": 1,
+              "phonemes": "ʃiːtɑːɡˈoʊ"
+            },
+            {
+              "display": "Wamyō Ruijushō",
+              "spoken": "Wamyō Ruijushō",
+              "count": 1,
+              "phonemes": "wˈɑːmjoʊ ɹuːiːdʒˈuːʃoʊ"
+            }
+          ]
+        },
+        {
+          "sentence": "P07-03",
+          "main_start": 185.89,
+          "main_end": 190.37533333333334,
+          "sample_start": 117.63095833333335,
+          "terms": [
+            "oni"
+          ],
+          "replacements": []
+        },
+        {
+          "sentence": "P07-05",
+          "main_start": 192.702625,
+          "main_end": 201.52129166666666,
+          "sample_start": 123.11629166666668,
+          "terms": [
+            "oni"
+          ],
+          "replacements": []
+        },
+        {
+          "sentence": "P08-04",
+          "main_start": 219.336625,
+          "main_end": 230.59729166666668,
+          "sample_start": 132.93495833333336,
+          "terms": [
+            "oni",
+            "Ise"
+          ],
+          "replacements": [
+            {
+              "display": "Ise",
+              "spoken": "Ise",
+              "count": 1,
+              "phonemes": "iːsˈeɪ"
+            }
+          ]
+        },
+        {
+          "sentence": "P08-05",
+          "main_start": 230.89729166666666,
+          "main_end": 233.60729166666667,
+          "sample_start": 145.19562500000004,
+          "terms": [
+            "oni"
+          ],
+          "replacements": []
+        },
+        {
+          "sentence": "P08-06",
+          "main_start": 233.90729166666668,
+          "main_end": 241.680625,
+          "sample_start": 148.90562500000004,
+          "terms": [
+            "oni"
+          ],
+          "replacements": []
+        },
+        {
+          "sentence": "P09-02",
+          "main_start": 245.49329166666666,
+          "main_end": 257.77929166666667,
+          "sample_start": 157.67895833333338,
+          "terms": [
+            "Kitano Tenjin"
+          ],
+          "replacements": []
+        },
+        {
+          "sentence": "P09-03",
+          "main_start": 258.0792916666667,
+          "main_end": 264.37925,
+          "sample_start": 170.96495833333339,
+          "terms": [
+            "oni"
+          ],
+          "replacements": []
+        },
+        {
+          "sentence": "P10-02",
+          "main_start": 269.5346666666667,
+          "main_end": 275.67400000000004,
+          "sample_start": 178.26491666666672,
+          "terms": [
+            "Toriyama Sekien"
+          ],
+          "replacements": []
+        },
+        {
+          "sentence": "P10-03",
+          "main_start": 275.974,
+          "main_end": 278.800625,
+          "sample_start": 185.40425000000005,
+          "terms": [
+            "oni"
+          ],
+          "replacements": []
+        },
+        {
+          "sentence": "P10-05",
+          "main_start": 285.08591666666666,
+          "main_end": 292.9005416666667,
+          "sample_start": 189.23087500000005,
+          "terms": [
+            "oni"
+          ],
+          "replacements": []
+        },
+        {
+          "sentence": "P12-01",
+          "main_start": 321.46666666666664,
+          "main_end": 324.34862499999997,
+          "sample_start": 198.04550000000006,
+          "terms": [
+            "Setsubun"
+          ],
+          "replacements": []
+        },
+        {
+          "sentence": "P12-03",
+          "main_start": 331.99525,
+          "main_end": 340.597875,
+          "sample_start": 201.9274583333334,
+          "terms": [
+            "Gōke Shidai",
+            "hōsō"
+          ],
+          "replacements": [
+            {
+              "display": "Gōke Shidai",
+              "spoken": "Gōke Shidai",
+              "count": 1,
+              "phonemes": "ɡˈoʊkeɪ ʃiːdˈaɪ"
+            }
+          ]
+        },
+        {
+          "sentence": "P12-05",
+          "main_start": 347.9572083333333,
+          "main_end": 353.17316666666665,
+          "sample_start": 211.53008333333338,
+          "terms": [
+            "hōsō"
+          ],
+          "replacements": []
+        },
+        {
+          "sentence": "P12-07",
+          "main_start": 355.38649999999996,
+          "main_end": 365.3998333333333,
+          "sample_start": 217.7460416666667,
+          "terms": [
+            "oni"
+          ],
+          "replacements": []
+        },
+        {
+          "sentence": "P13-03",
+          "main_start": 373.74129166666665,
+          "main_end": 380.278625,
+          "sample_start": 228.75937500000003,
+          "terms": [
+            "oni"
+          ],
+          "replacements": []
+        },
+        {
+          "sentence": "P14-01",
+          "main_start": 381.2,
+          "main_end": 383.63124999999997,
+          "sample_start": 236.29670833333336,
+          "terms": [
+            "oni"
+          ],
+          "replacements": []
+        },
+        {
+          "sentence": "P14-03",
+          "main_start": 389.56258333333335,
+          "main_end": 394.91791666666666,
+          "sample_start": 239.72795833333336,
+          "terms": [
+            "oni"
+          ],
+          "replacements": []
+        }
+      ],
+      "terms_not_in_script": [
+        "ushitora"
+      ]
+    },
+    "ja": {
+      "sentences": [
+        {
+          "sentence": "P01-02",
+          "main_start": 4.226666666666667,
+          "main_end": 9.752,
+          "sample_start": 0,
+          "terms": [
+            "角"
+          ],
+          "replacements": [
+            {
+              "display": "頭には角",
+              "spoken": "頭にはつの",
+              "count": 1
+            }
+          ]
+        },
+        {
+          "sentence": "P02-05",
+          "main_start": 45.09133333333334,
+          "main_end": 46.446,
+          "sample_start": 6.525333333333333,
+          "terms": [
+            "角"
+          ],
+          "replacements": [
+            {
+              "display": "角と",
+              "spoken": "つのと",
+              "count": 1
+            }
+          ]
+        },
+        {
+          "sentence": "P02-06",
+          "main_start": 46.766000000000005,
+          "main_end": 48.08866666666667,
+          "sample_start": 8.879999999999999,
+          "terms": [
+            "角"
+          ],
+          "replacements": []
+        },
+        {
+          "sentence": "P04-02",
+          "main_start": 80.82,
+          "main_end": 85.684,
+          "sample_start": 11.202666666666666,
+          "terms": [
+            "斉明天皇"
+          ],
+          "replacements": [
+            {
+              "display": "都を",
+              "spoken": "みやこを",
+              "count": 1
+            }
+          ]
+        },
+        {
+          "sentence": "P04-04",
+          "main_start": 89.15066666666667,
+          "main_end": 96.89466666666667,
+          "sample_start": 17.066666666666666,
+          "terms": [
+            "亡骸",
+            "磐瀬宮",
+            "朝倉山"
+          ],
+          "replacements": [
+            {
+              "display": "磐瀬宮",
+              "spoken": "いわせのみや",
+              "count": 1
+            },
+            {
+              "display": "朝倉山",
+              "spoken": "あさくらやま",
+              "count": 1
+            }
+          ]
+        },
+        {
+          "sentence": "P04-08",
+          "main_start": 113.51333333333334,
+          "main_end": 119.19866666666667,
+          "sample_start": 25.810666666666666,
+          "terms": [
+            "角"
+          ],
+          "replacements": [
+            {
+              "display": "角の",
+              "spoken": "つのの",
+              "count": 1
+            }
+          ]
+        },
+        {
+          "sentence": "P05-01",
+          "main_start": 120.13333333333334,
+          "main_end": 128.95466666666667,
+          "sample_start": 32.496,
+          "terms": [
+            "出雲国風土記"
+          ],
+          "replacements": []
+        },
+        {
+          "sentence": "P05-02",
+          "main_start": 129.27466666666666,
+          "main_end": 134.08533333333335,
+          "sample_start": 42.31733333333334,
+          "terms": [
+            "阿用"
+          ],
+          "replacements": []
+        },
+        {
+          "sentence": "P05-07",
+          "main_start": 150.74666666666667,
+          "main_end": 154.7146666666667,
+          "sample_start": 48.12800000000001,
+          "terms": [
+            "阿用"
+          ],
+          "replacements": []
+        },
+        {
+          "sentence": "P06-04",
+          "main_start": 166.876,
+          "main_end": 170.53466666666665,
+          "sample_start": 53.096000000000004,
+          "terms": [
+            "角"
+          ],
+          "replacements": [
+            {
+              "display": "角や",
+              "spoken": "つのや",
+              "count": 1
+            }
+          ]
+        },
+        {
+          "sentence": "P07-02",
+          "main_start": 174.99733333333333,
+          "main_end": 181.632,
+          "sample_start": 57.75466666666667,
+          "terms": [
+            "源順",
+            "和名類聚抄"
+          ],
+          "replacements": [
+            {
+              "display": "和名類聚抄",
+              "spoken": "わみょうるいじゅしょう",
+              "count": 1
+            }
+          ]
+        },
+        {
+          "sentence": "P09-02",
+          "main_start": 242.628,
+          "main_end": 252.88933333333333,
+          "sample_start": 65.38933333333334,
+          "terms": [
+            "北野天神縁起絵巻",
+            "異形",
+            "角"
+          ],
+          "replacements": [
+            {
+              "display": "角を",
+              "spoken": "つのを",
+              "count": 1
+            }
+          ]
+        },
+        {
+          "sentence": "P09-03",
+          "main_start": 253.20933333333332,
+          "main_end": 259.1186666666667,
+          "sample_start": 76.65066666666667,
+          "terms": [
+            "角"
+          ],
+          "replacements": [
+            {
+              "display": "角や",
+              "spoken": "つのや",
+              "count": 1
+            }
+          ]
+        },
+        {
+          "sentence": "P10-01",
+          "main_start": 260.03333333333336,
+          "main_end": 263.52133333333336,
+          "sample_start": 83.56,
+          "terms": [
+            "角"
+          ],
+          "replacements": [
+            {
+              "display": "角と",
+              "spoken": "つのと",
+              "count": 1
+            }
+          ]
+        },
+        {
+          "sentence": "P10-02",
+          "main_start": 263.84133333333335,
+          "main_end": 269.5586666666667,
+          "sample_start": 88.048,
+          "terms": [
+            "鳥山石燕"
+          ],
+          "replacements": []
+        },
+        {
+          "sentence": "P10-04",
+          "main_start": 273.82533333333333,
+          "main_end": 279.23333333333335,
+          "sample_start": 94.76533333333333,
+          "terms": [
+            "丑寅",
+            "角"
+          ],
+          "replacements": []
+        },
+        {
+          "sentence": "P10-05",
+          "main_start": 279.55333333333334,
+          "main_end": 285.07866666666666,
+          "sample_start": 101.17333333333333,
+          "terms": [
+            "角"
+          ],
+          "replacements": [
+            {
+              "display": "角を",
+              "spoken": "つのを",
+              "count": 1
+            }
+          ]
+        },
+        {
+          "sentence": "P11-03",
+          "main_start": 297.90933333333334,
+          "main_end": 307.424,
+          "sample_start": 107.69866666666667,
+          "terms": [
+            "角"
+          ],
+          "replacements": [
+            {
+              "display": "角の",
+              "spoken": "つのの",
+              "count": 1
+            }
+          ]
+        },
+        {
+          "sentence": "P12-03",
+          "main_start": 324.06533333333334,
+          "main_end": 331.7133333333333,
+          "sample_start": 118.21333333333334,
+          "terms": [
+            "江家次第",
+            "方相"
+          ],
+          "replacements": [
+            {
+              "display": "江家次第",
+              "spoken": "ごうけしだい",
+              "count": 1
+            },
+            {
+              "display": "方相",
+              "spoken": "ほうそう",
+              "count": 1
+            }
+          ]
+        },
+        {
+          "sentence": "P12-04",
+          "main_start": 332.0333333333333,
+          "main_end": 337.11066666666665,
+          "sample_start": 126.86133333333333,
+          "terms": [
+            "戈",
+            "楯",
+            "群臣"
+          ],
+          "replacements": [
+            {
+              "display": "楯",
+              "spoken": "たて",
+              "count": 1
+            }
+          ]
+        },
+        {
+          "sentence": "P12-06",
+          "main_start": 341.08933333333334,
+          "main_end": 343.76666666666665,
+          "sample_start": 132.93866666666668,
+          "terms": [
+            "方相",
+            "殿上人"
+          ],
+          "replacements": [
+            {
+              "display": "方相",
+              "spoken": "ほうそう",
+              "count": 1
+            }
+          ]
+        },
+        {
+          "sentence": "P12-08",
+          "main_start": 346.53999999999996,
+          "main_end": 357.5586666666667,
+          "sample_start": 136.616,
+          "terms": [
+            "禅僧"
+          ],
+          "replacements": []
+        },
+        {
+          "sentence": "P14-09",
+          "main_start": 402.63733333333334,
+          "main_end": 408.06666666666666,
+          "sample_start": 148.63466666666667,
+          "terms": [
+            "角"
+          ],
+          "replacements": [
+            {
+              "display": "角も",
+              "spoken": "つのも",
+              "count": 1
+            }
+          ]
+        }
+      ],
+      "terms_not_in_script": []
+    }
+  }
+}

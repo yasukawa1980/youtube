@@ -1,0 +1,1446 @@
+{
+  "language": "ja",
+  "voice": "VOICEVOX:冥鳴ひまり",
+  "sample_rate": 24000,
+  "human_auditory_review_completed": false,
+  "segments": [
+    {
+      "id": "P01",
+      "chapter": "C01",
+      "sources": [],
+      "classification": "editorial_question",
+      "visuals": [
+        "O01-A",
+        "D_features",
+        "O02-A"
+      ],
+      "text": "鬼を思い浮かべてみてください。赤や青の肌、頭には角、虎の皮の腰巻き、そして手には金棒。いまの鬼は、こんな姿で知られています。絵本の中にも、祭りにも。そして毎年2月の節分には、家族が炒った豆をまいて、家の外へ追い払います。けれど、日本のいちばん古い記録は、今も残っています。では、鬼はなぜ虎の皮を着ているのでしょうか。そして、昔からそうだったのでしょうか。",
+      "cues": [
+        {
+          "id": "P01-01",
+          "text": "鬼を思い浮かべてみてください。",
+          "spoken_text": "鬼を思い浮かべてみてください。",
+          "start": 0.0,
+          "end": 2.026666666666667,
+          "audio_file": "audio/ja/sentences/P01-01.wav",
+          "audio_sha256": "c148d918346599193b51549d8202310093333e383f966739546c608988adbcbd",
+          "replacements": [],
+          "role": "opening"
+        },
+        {
+          "id": "P01-02",
+          "text": "赤や青の肌、頭には角、虎の皮の腰巻き、そして手には金棒。",
+          "spoken_text": "赤や青の肌、頭にはつの、虎の皮の腰巻き、そして手には金棒。",
+          "start": 2.4266666666666667,
+          "end": 7.952,
+          "audio_file": "audio/ja/sentences/P01-02.wav",
+          "audio_sha256": "e7f25ca5c63d92d2324d9cdc3e3985b9200a024d43fdae0b0c9bc00731e03df2",
+          "replacements": [
+            {
+              "display": "頭には角",
+              "spoken": "頭にはつの",
+              "count": 1
+            }
+          ],
+          "role": "plain"
+        },
+        {
+          "id": "P01-03",
+          "text": "いまの鬼は、こんな姿で知られています。",
+          "spoken_text": "いまの鬼は、こんな姿で知られています。",
+          "start": 8.272,
+          "end": 11.173333333333334,
+          "audio_file": "audio/ja/sentences/P01-03.wav",
+          "audio_sha256": "2a2c45a9e33a15bd49e58f02f9f2e2ee5f0211bb3c3fe6bb51b1315da173a3cb",
+          "replacements": [],
+          "role": "plain"
+        },
+        {
+          "id": "P01-04",
+          "text": "絵本の中にも、祭りにも。",
+          "spoken_text": "絵本の中にも、祭りにも。",
+          "start": 11.493333333333334,
+          "end": 13.584,
+          "audio_file": "audio/ja/sentences/P01-04.wav",
+          "audio_sha256": "15efa3039a7326c086da259264698fd0a1e3758ec03ce77d0f18aa3fe28e139e",
+          "replacements": [],
+          "role": "plain"
+        },
+        {
+          "id": "P01-05",
+          "text": "そして毎年2月の節分には、家族が炒った豆をまいて、家の外へ追い払います。",
+          "spoken_text": "そして毎年2月の節分には、家族が炒った豆をまいて、家の外へ追い払います。",
+          "start": 13.904,
+          "end": 19.824,
+          "audio_file": "audio/ja/sentences/P01-05.wav",
+          "audio_sha256": "9b59bd93f8726fa2621dbc4cfa40e2e18c76d0a8f6e8f7d651cc8e15d429e741",
+          "replacements": [],
+          "role": "plain"
+        },
+        {
+          "id": "P01-06",
+          "text": "けれど、日本のいちばん古い記録は、今も残っています。",
+          "spoken_text": "けれど、日本のいちばん古い記録は、今も残っています。",
+          "start": 20.144,
+          "end": 24.357333333333333,
+          "audio_file": "audio/ja/sentences/P01-06.wav",
+          "audio_sha256": "159df09e1309948b99d482b8922942a2d80662e53e90ce15b5281d121074080c",
+          "replacements": [],
+          "role": "contrast"
+        },
+        {
+          "id": "P01-07",
+          "text": "では、鬼はなぜ虎の皮を着ているのでしょうか。",
+          "spoken_text": "では、鬼はなぜ虎の皮を着ているのでしょうか。",
+          "start": 24.75733333333333,
+          "end": 28.064,
+          "audio_file": "audio/ja/sentences/P01-07.wav",
+          "audio_sha256": "4f5994583efa3f670d853c092b101736ceab26763f701ca92fac3d6433ab0138",
+          "replacements": [],
+          "role": "question"
+        },
+        {
+          "id": "P01-08",
+          "text": "そして、昔からそうだったのでしょうか。",
+          "spoken_text": "そして、昔からそうだったのでしょうか。",
+          "start": 28.464,
+          "end": 31.237333333333332,
+          "audio_file": "audio/ja/sentences/P01-08.wav",
+          "audio_sha256": "eae8f07b25c36af044d7e55d817e380151ffcd637677a1e3695a4c817828b785",
+          "replacements": [],
+          "role": "question"
+        }
+      ],
+      "audio_file": "audio/ja/P01.wav",
+      "duration_seconds": 31.237333333333332,
+      "native_speed": "role-based C"
+    },
+    {
+      "id": "P02",
+      "chapter": "C01",
+      "sources": [],
+      "classification": "editorial_question",
+      "visuals": [
+        "D_check_list"
+      ],
+      "text": "今回は、鬼についてよく言われる四つのことを確かめます。鬼は昔からこの姿だった。「おに」という言葉は「隠れる」という意味だ。角と虎の皮は、方角から来ている。そして、鬼は追い払われるものだ。一つずつ、古い資料と突き合わせていきます。",
+      "cues": [
+        {
+          "id": "P02-01",
+          "text": "今回は、",
+          "spoken_text": "今回は、",
+          "start": 0.0,
+          "end": 0.8533333333333334,
+          "audio_file": "audio/ja/sentences/P02-01.wav",
+          "audio_sha256": "e478a38cf468179dec8c71d88de60ce12b0298ab25aad09168b2c8b734aaa3e6",
+          "replacements": [],
+          "role": "transition"
+        },
+        {
+          "id": "P02-02",
+          "text": "鬼についてよく言われる四つのことを確かめます。",
+          "spoken_text": "鬼についてよく言われる四つのことを確かめます。",
+          "start": 1.45,
+          "end": 4.596666666666667,
+          "audio_file": "audio/ja/sentences/P02-02.wav",
+          "audio_sha256": "2a95cad090204e09dc1cef8de405c9c545f63d08588b5b892b393b2846f51a1c",
+          "replacements": [],
+          "role": "plain"
+        },
+        {
+          "id": "P02-03",
+          "text": "鬼は昔からこの姿だった。",
+          "spoken_text": "鬼は昔からこの姿だった。",
+          "start": 4.916666666666667,
+          "end": 7.060666666666667,
+          "audio_file": "audio/ja/sentences/P02-03.wav",
+          "audio_sha256": "25f716cd6fe4028a94ec139398babe0797bdb583c599882bb5be80c3b0e067a4",
+          "replacements": [],
+          "role": "plain"
+        },
+        {
+          "id": "P02-04",
+          "text": "「おに」という言葉は「隠れる」という意味だ。",
+          "spoken_text": "「おに」という言葉は「隠れる」という意味だ。",
+          "start": 7.3806666666666665,
+          "end": 10.804666666666666,
+          "audio_file": "audio/ja/sentences/P02-04.wav",
+          "audio_sha256": "ad973b3bf57226a280643d4c9c76e8c09a47678498d6c528596d4e82b51024e4",
+          "replacements": [],
+          "role": "plain"
+        },
+        {
+          "id": "P02-05",
+          "text": "角と虎の皮は、",
+          "spoken_text": "つのと虎の皮は、",
+          "start": 11.124666666666666,
+          "end": 12.479333333333333,
+          "audio_file": "audio/ja/sentences/P02-05.wav",
+          "audio_sha256": "b34cc757d452f165ec29a912df442a576f83aa0283fc5365ee6af1765878082a",
+          "replacements": [
+            {
+              "display": "角と",
+              "spoken": "つのと",
+              "count": 1
+            }
+          ],
+          "role": "plain"
+        },
+        {
+          "id": "P02-06",
+          "text": "方角から来ている。",
+          "spoken_text": "方角から来ている。",
+          "start": 12.799333333333333,
+          "end": 14.122,
+          "audio_file": "audio/ja/sentences/P02-06.wav",
+          "audio_sha256": "95f58536c4aa7acbe1c365cf569e6d5b2ee0c1ed9e53ab924a496544adca4dad",
+          "replacements": [],
+          "role": "plain"
+        },
+        {
+          "id": "P02-07",
+          "text": "そして、",
+          "spoken_text": "そして、",
+          "start": 14.442,
+          "end": 15.018,
+          "audio_file": "audio/ja/sentences/P02-07.wav",
+          "audio_sha256": "d06dea03e89241c9f49335133a42ab01ed1bffc0650754aa6379955ae1a7cc74",
+          "replacements": [],
+          "role": "transition"
+        },
+        {
+          "id": "P02-08",
+          "text": "鬼は追い払われるものだ。",
+          "spoken_text": "鬼は追い払われるものだ。",
+          "start": 15.892,
+          "end": 17.545333333333332,
+          "audio_file": "audio/ja/sentences/P02-08.wav",
+          "audio_sha256": "0cfe9d3dc412cf90b5c8ec530ab08727062ce3acd40b91b58f432fb41e04bcaf",
+          "replacements": [],
+          "role": "plain"
+        },
+        {
+          "id": "P02-09",
+          "text": "一つずつ、",
+          "spoken_text": "一つずつ、",
+          "start": 17.865333333333332,
+          "end": 18.697333333333333,
+          "audio_file": "audio/ja/sentences/P02-09.wav",
+          "audio_sha256": "ea648ba58523fa8883fec6aa00c0e9d255cc62db010c92345f8b85e67f8cb875",
+          "replacements": [],
+          "role": "plain"
+        },
+        {
+          "id": "P02-10",
+          "text": "古い資料と突き合わせていきます。",
+          "spoken_text": "古い資料と突き合わせていきます。",
+          "start": 19.315333333333335,
+          "end": 21.491333333333333,
+          "audio_file": "audio/ja/sentences/P02-10.wav",
+          "audio_sha256": "ea76eab0e59c0301735729c7732bd3110bce983712036fed671bd5eb81326d0c",
+          "replacements": [],
+          "role": "plain"
+        }
+      ],
+      "audio_file": "audio/ja/P02.wav",
+      "duration_seconds": 21.491333333333333,
+      "native_speed": "role-based C"
+    },
+    {
+      "id": "P03",
+      "chapter": "C02",
+      "sources": [
+        "O-S03"
+      ],
+      "classification": "historical_fact",
+      "visuals": [
+        "D_kanji_oni"
+      ],
+      "text": "日本で最も古い正史、『日本書紀』は720年に完成しました。漢字で書かれていて、いま「おに」と読む字も使われています。古い中国の書物では、この字は死者の霊と結びついていました。",
+      "cues": [
+        {
+          "id": "P03-01",
+          "text": "日本で最も古い正史、『日本書紀』は720年に完成しました。",
+          "spoken_text": "日本で最も古い正史、『日本書紀』は720年に完成しました。",
+          "start": 0.0,
+          "end": 5.536,
+          "audio_file": "audio/ja/sentences/P03-01.wav",
+          "audio_sha256": "a7dc1e6e20a3f14f6bb8cda0cda23f5e4f6d259263a15817fa256ef882328ff9",
+          "replacements": [],
+          "role": "explanation"
+        },
+        {
+          "id": "P03-02",
+          "text": "漢字で書かれていて、いま「おに」と読む字も使われています。",
+          "spoken_text": "漢字で書かれていて、いま「おに」と読む字も使われています。",
+          "start": 5.856,
+          "end": 10.314666666666668,
+          "audio_file": "audio/ja/sentences/P03-02.wav",
+          "audio_sha256": "3f8a1b5f7e87d7e1bc3cc52dda4d4a097a307030741581523e890b7a580213ae",
+          "replacements": [],
+          "role": "plain"
+        },
+        {
+          "id": "P03-03",
+          "text": "古い中国の書物では、この字は死者の霊と結びついていました。",
+          "spoken_text": "古い中国の書物では、この字は死者の霊と結びついていました。",
+          "start": 10.634666666666666,
+          "end": 15.210666666666667,
+          "audio_file": "audio/ja/sentences/P03-03.wav",
+          "audio_sha256": "145350d137d3052c8f825a6c3b9fa89003924a5ab45853894f6d4c54687077c1",
+          "replacements": [],
+          "role": "plain"
+        }
+      ],
+      "audio_file": "audio/ja/P03.wav",
+      "duration_seconds": 15.210666666666667,
+      "native_speed": "role-based C"
+    },
+    {
+      "id": "P04",
+      "chapter": "C02",
+      "sources": [
+        "O-S01",
+        "O-S02"
+      ],
+      "classification": "historical_fact",
+      "visuals": [
+        "O03-23",
+        "O04-272",
+        "O05-A"
+      ],
+      "text": "その記録は、661年のことを伝えています。斉明天皇は、都を西の九州にある仮の宮に移していました。その夏、天皇はそこで亡くなりました。そして、皇太子が天皇の亡骸を奉じて磐瀬宮に戻ったその夕べ、朝倉山の上に、鬼がいました。鬼は大きな笠をかぶり、葬儀を見下ろしていました。見た人々はみな、あやしんで声を上げました。1896年にこの箇所を英語に訳したアストンは、「デーモン」と書き、注に「あるいは霊」と添えています。角のことも、虎の皮のことも、金棒のことも、記録は何も言っていません。",
+      "cues": [
+        {
+          "id": "P04-01",
+          "text": "その記録は、661年のことを伝えています。",
+          "spoken_text": "その記録は、661年のことを伝えています。",
+          "start": 0.0,
+          "end": 4.0,
+          "audio_file": "audio/ja/sentences/P04-01.wav",
+          "audio_sha256": "317ebaebc08951506ca8df6101c999dbc22b12f3c7b16e331da98571820acd3f",
+          "replacements": [],
+          "role": "plain"
+        },
+        {
+          "id": "P04-02",
+          "text": "斉明天皇は、都を西の九州にある仮の宮に移していました。",
+          "spoken_text": "斉明天皇は、みやこを西の九州にある仮の宮に移していました。",
+          "start": 4.32,
+          "end": 9.184,
+          "audio_file": "audio/ja/sentences/P04-02.wav",
+          "audio_sha256": "ddd23427288a108352d48ba7db3deac5b06a000251cd682d7b24e08e424eb700",
+          "replacements": [
+            {
+              "display": "都を",
+              "spoken": "みやこを",
+              "count": 1
+            }
+          ],
+          "role": "plain"
+        },
+        {
+          "id": "P04-03",
+          "text": "その夏、天皇はそこで亡くなりました。",
+          "spoken_text": "その夏、天皇はそこで亡くなりました。",
+          "start": 9.504,
+          "end": 12.330666666666668,
+          "audio_file": "audio/ja/sentences/P04-03.wav",
+          "audio_sha256": "0997374003696a9c59c23ad0f3a7c034c6e79d899b3d5d35f1020568284a3d15",
+          "replacements": [],
+          "role": "plain"
+        },
+        {
+          "id": "P04-04",
+          "text": "そして、皇太子が天皇の亡骸を奉じて磐瀬宮に戻ったその夕べ、朝倉山の上に、鬼がいました。",
+          "spoken_text": "そして、皇太子が天皇の亡骸を奉じていわせのみやに戻ったその夕べ、あさくらやまの上に、鬼がいました。",
+          "start": 12.650666666666666,
+          "end": 20.394666666666666,
+          "audio_file": "audio/ja/sentences/P04-04.wav",
+          "audio_sha256": "61860675431f8473dc4a84597afd77c885a13e1f4b340146ba5e6f83acae9bcc",
+          "replacements": [
+            {
+              "display": "磐瀬宮",
+              "spoken": "いわせのみや",
+              "count": 1
+            },
+            {
+              "display": "朝倉山",
+              "spoken": "あさくらやま",
+              "count": 1
+            }
+          ],
+          "role": "transition"
+        },
+        {
+          "id": "P04-05",
+          "text": "鬼は大きな笠をかぶり、葬儀を見下ろしていました。",
+          "spoken_text": "鬼は大きな笠をかぶり、葬儀を見下ろしていました。",
+          "start": 20.714666666666666,
+          "end": 24.341333333333335,
+          "audio_file": "audio/ja/sentences/P04-05.wav",
+          "audio_sha256": "4693f09bcdcb3dd2466d48f638ec2fa6543f498032f0187d70e2455108fc5026",
+          "replacements": [],
+          "role": "plain"
+        },
+        {
+          "id": "P04-06",
+          "text": "見た人々はみな、あやしんで声を上げました。",
+          "spoken_text": "見た人々はみな、あやしんで声を上げました。",
+          "start": 24.661333333333335,
+          "end": 27.829333333333334,
+          "audio_file": "audio/ja/sentences/P04-06.wav",
+          "audio_sha256": "b779f7f8ae42b08221d9fe6e9f511a5d3a0e025e62f7d0209a9a220f93e16320",
+          "replacements": [],
+          "role": "plain"
+        },
+        {
+          "id": "P04-07",
+          "text": "1896年にこの箇所を英語に訳したアストンは、「デーモン」と書き、注に「あるいは霊」と添えています。",
+          "spoken_text": "1896年にこの箇所を英語に訳したアストンは、「デーモン」と書き、注に「あるいは霊」と添えています。",
+          "start": 28.149333333333335,
+          "end": 36.693333333333335,
+          "audio_file": "audio/ja/sentences/P04-07.wav",
+          "audio_sha256": "5e895fa4df7705102a20ec6e9c4b636c84c35bcead8f08bca59f7631496dce5e",
+          "replacements": [],
+          "role": "explanation"
+        },
+        {
+          "id": "P04-08",
+          "text": "角のことも、虎の皮のことも、金棒のことも、記録は何も言っていません。",
+          "spoken_text": "つののことも、虎の皮のことも、金棒のことも、記録は何も言っていません。",
+          "start": 37.013333333333335,
+          "end": 42.69866666666667,
+          "audio_file": "audio/ja/sentences/P04-08.wav",
+          "audio_sha256": "ccae1638f15bc3e5d864c60526957f89ae2132155287768979629a2a64812851",
+          "replacements": [
+            {
+              "display": "角の",
+              "spoken": "つのの",
+              "count": 1
+            }
+          ],
+          "role": "plain"
+        }
+      ],
+      "audio_file": "audio/ja/P04.wav",
+      "duration_seconds": 42.69866666666667,
+      "native_speed": "role-based C"
+    },
+    {
+      "id": "P05",
+      "chapter": "C02",
+      "sources": [
+        "O-S04"
+      ],
+      "classification": "historical_fact",
+      "visuals": [
+        "O06-38",
+        "O15-A"
+      ],
+      "text": "この出来事からおよそ70年後の733年、出雲の国は、その土地の記録『出雲国風土記』をまとめました。そこには、阿用という村の名の由来が、ある話で説明されています。昔、ある人が山の田を耕していました。そこへ一つ目の鬼が来て、その人の息子を食べてしまいます。父と母は竹やぶに隠れ、竹の葉が揺れました。食べられながら、息子は「あよ、あよ」と叫びました。それで、この地は阿用と呼ばれるようになった、というのです。",
+      "cues": [
+        {
+          "id": "P05-01",
+          "text": "この出来事からおよそ70年後の733年、出雲の国は、その土地の記録『出雲国風土記』をまとめました。",
+          "spoken_text": "この出来事からおよそ70年後の733年、出雲の国は、その土地の記録『出雲国風土記』をまとめました。",
+          "start": 0.0,
+          "end": 8.821333333333333,
+          "audio_file": "audio/ja/sentences/P05-01.wav",
+          "audio_sha256": "da013b32cec09ff7b192c9f0ef044ce0b6ffb562d7f3a2551015206817849067",
+          "replacements": [],
+          "role": "plain"
+        },
+        {
+          "id": "P05-02",
+          "text": "そこには、阿用という村の名の由来が、ある話で説明されています。",
+          "spoken_text": "そこには、阿用という村の名の由来が、ある話で説明されています。",
+          "start": 9.141333333333334,
+          "end": 13.952,
+          "audio_file": "audio/ja/sentences/P05-02.wav",
+          "audio_sha256": "5a8c0a33dd9d0343a72c32f3b20240e8146ff96c035d16a575c8a31d39009f7c",
+          "replacements": [],
+          "role": "plain"
+        },
+        {
+          "id": "P05-03",
+          "text": "昔、ある人が山の田を耕していました。",
+          "spoken_text": "昔、ある人が山の田を耕していました。",
+          "start": 14.272,
+          "end": 17.472,
+          "audio_file": "audio/ja/sentences/P05-03.wav",
+          "audio_sha256": "ecfcd2ab21593539406cdb4bff46da5545ba3b3c1fdf8f3e4a1157cc2f0c754b",
+          "replacements": [],
+          "role": "plain"
+        },
+        {
+          "id": "P05-04",
+          "text": "そこへ一つ目の鬼が来て、その人の息子を食べてしまいます。",
+          "spoken_text": "そこへ一つ目の鬼が来て、その人の息子を食べてしまいます。",
+          "start": 17.792,
+          "end": 21.962666666666667,
+          "audio_file": "audio/ja/sentences/P05-04.wav",
+          "audio_sha256": "85018077cd0c13e41f3dd553c9891e8438377301a0fdcd85b361191ae9d264ff",
+          "replacements": [],
+          "role": "plain"
+        },
+        {
+          "id": "P05-05",
+          "text": "父と母は竹やぶに隠れ、竹の葉が揺れました。",
+          "spoken_text": "父と母は竹やぶに隠れ、竹の葉が揺れました。",
+          "start": 22.282666666666668,
+          "end": 25.802666666666667,
+          "audio_file": "audio/ja/sentences/P05-05.wav",
+          "audio_sha256": "ddd75d756aadd62efcd914c9ba66646e12ff0db852a9f4bd00c38cc1181d3d62",
+          "replacements": [],
+          "role": "plain"
+        },
+        {
+          "id": "P05-06",
+          "text": "食べられながら、息子は「あよ、あよ」と叫びました。",
+          "spoken_text": "食べられながら、息子は「あよ、あよ」と叫びました。",
+          "start": 26.122666666666667,
+          "end": 30.293333333333333,
+          "audio_file": "audio/ja/sentences/P05-06.wav",
+          "audio_sha256": "4fe0cade6b6b284d86cc6e4a131e33b065fff7c4f7b98e2247a9b63eb4c26061",
+          "replacements": [],
+          "role": "plain"
+        },
+        {
+          "id": "P05-07",
+          "text": "それで、この地は阿用と呼ばれるようになった、というのです。",
+          "spoken_text": "それで、この地は阿用と呼ばれるようになった、というのです。",
+          "start": 30.613333333333333,
+          "end": 34.58133333333333,
+          "audio_file": "audio/ja/sentences/P05-07.wav",
+          "audio_sha256": "330185cbf2c79492e50afd91830c0a8d1ce0931265cbb5c8d971399cbc9bb736",
+          "replacements": [],
+          "role": "plain"
+        }
+      ],
+      "audio_file": "audio/ja/P05.wav",
+      "duration_seconds": 34.58133333333333,
+      "native_speed": "role-based C"
+    },
+    {
+      "id": "P06",
+      "chapter": "C02",
+      "sources": [
+        "O-S01",
+        "O-S04"
+      ],
+      "classification": "editorial_conclusion",
+      "visuals": [
+        "D_check_1"
+      ],
+      "text": "ですから、一つ目の説は当てはまりません。最も古い記録の二つでは、一方の鬼は笠をかぶり、黙って見ています。もう一方は、目が一つ。どちらの記録も、角や虎の皮には触れていません。",
+      "cues": [
+        {
+          "id": "P06-01",
+          "text": "ですから、一つ目の説は当てはまりません。",
+          "spoken_text": "ですから、一つ目の説は当てはまりません。",
+          "start": 0.0,
+          "end": 2.933333333333333,
+          "audio_file": "audio/ja/sentences/P06-01.wav",
+          "audio_sha256": "69791ee6f7b764f13d5e480eed9bd7b9137c826ac3a3e2cf12b977cc4478f28f",
+          "replacements": [],
+          "role": "plain"
+        },
+        {
+          "id": "P06-02",
+          "text": "最も古い記録の二つでは、一方の鬼は笠をかぶり、黙って見ています。",
+          "spoken_text": "最も古い記録の二つでは、一方の鬼は笠をかぶり、黙って見ています。",
+          "start": 3.2533333333333334,
+          "end": 8.672,
+          "audio_file": "audio/ja/sentences/P06-02.wav",
+          "audio_sha256": "c6ea78a30f4a7e7eaae7dac62a67d41458806b6fb39127c5ddc6b39cc6026602",
+          "replacements": [],
+          "role": "plain"
+        },
+        {
+          "id": "P06-03",
+          "text": "もう一方は、目が一つ。",
+          "spoken_text": "もう一方は、目が一つ。",
+          "start": 8.992,
+          "end": 10.922666666666666,
+          "audio_file": "audio/ja/sentences/P06-03.wav",
+          "audio_sha256": "bfcce908b2a3c5dc0c1d4ec5b10f622200be79ec62d8d12ffcff23f15627201d",
+          "replacements": [],
+          "role": "plain"
+        },
+        {
+          "id": "P06-04",
+          "text": "どちらの記録も、角や虎の皮には触れていません。",
+          "spoken_text": "どちらの記録も、つのや虎の皮には触れていません。",
+          "start": 11.242666666666667,
+          "end": 14.901333333333334,
+          "audio_file": "audio/ja/sentences/P06-04.wav",
+          "audio_sha256": "4d7f6fa16af9b012b563f4b8469b71a9745587dde75e1c075f40b3649b9b39f7",
+          "replacements": [
+            {
+              "display": "角や",
+              "spoken": "つのや",
+              "count": 1
+            }
+          ],
+          "role": "plain"
+        }
+      ],
+      "audio_file": "audio/ja/P06.wav",
+      "duration_seconds": 14.901333333333334,
+      "native_speed": "role-based C"
+    },
+    {
+      "id": "P07",
+      "chapter": "C03",
+      "sources": [
+        "O-S05"
+      ],
+      "classification": "historical_fact",
+      "visuals": [
+        "O08-31"
+      ],
+      "text": "二つ目の説は、言葉そのものについてです。930年代、学者の源順は、辞書『和名類聚抄』をまとめました。「鬼」の字のところに、彼は和名「おに」を記します。そして、こう書き添えています。ある説では、「隠」の字の音「おん」がなまったものだという。鬼は身を隠し、形を現そうとしないからだ、と。この項は、短い説明で終わります。人が死んだあとの魂、と。",
+      "cues": [
+        {
+          "id": "P07-01",
+          "text": "二つ目の説は、言葉そのものについてです。",
+          "spoken_text": "二つ目の説は、言葉そのものについてです。",
+          "start": 0.0,
+          "end": 3.2106666666666666,
+          "audio_file": "audio/ja/sentences/P07-01.wav",
+          "audio_sha256": "44c15f231eb578c6d7adb5f86ba9240aadebb9193603a38643dca66e7622f781",
+          "replacements": [],
+          "role": "plain"
+        },
+        {
+          "id": "P07-02",
+          "text": "930年代、学者の源順は、辞書『和名類聚抄』をまとめました。",
+          "spoken_text": "930年代、学者の源順は、辞書『わみょうるいじゅしょう』をまとめました。",
+          "start": 3.530666666666667,
+          "end": 10.165333333333333,
+          "audio_file": "audio/ja/sentences/P07-02.wav",
+          "audio_sha256": "5978cedf5a7b4233ed0804b4890abcd8909515a04fe0a0e5e09c95f376137a23",
+          "replacements": [
+            {
+              "display": "和名類聚抄",
+              "spoken": "わみょうるいじゅしょう",
+              "count": 1
+            }
+          ],
+          "role": "plain"
+        },
+        {
+          "id": "P07-03",
+          "text": "「鬼」の字のところに、彼は和名「おに」を記します。",
+          "spoken_text": "「鬼」の字のところに、彼は和名「おに」を記します。",
+          "start": 10.485333333333333,
+          "end": 14.826666666666666,
+          "audio_file": "audio/ja/sentences/P07-03.wav",
+          "audio_sha256": "92bd8b627adf27a16a9ef2cbc3d6a1b5ac3bb9e4e171ebffe4b64153e3cdb0bd",
+          "replacements": [],
+          "role": "plain"
+        },
+        {
+          "id": "P07-04",
+          "text": "そして、こう書き添えています。",
+          "spoken_text": "そして、こう書き添えています。",
+          "start": 15.146666666666667,
+          "end": 17.248,
+          "audio_file": "audio/ja/sentences/P07-04.wav",
+          "audio_sha256": "be1d83f797a1d14cb14c3bffe25118180842ffe40f80ee6530e3aa1cd2260ef3",
+          "replacements": [],
+          "role": "transition"
+        },
+        {
+          "id": "P07-05",
+          "text": "ある説では、「隠」の字の音「おん」がなまったものだという。",
+          "spoken_text": "ある説では、「隠」の字の音「おん」がなまったものだという。",
+          "start": 17.568,
+          "end": 22.336,
+          "audio_file": "audio/ja/sentences/P07-05.wav",
+          "audio_sha256": "30a34d5da59df5a8e5155a102bd6a8b93060d13a8dece1722f43a70d61a5675b",
+          "replacements": [],
+          "role": "plain"
+        },
+        {
+          "id": "P07-06",
+          "text": "鬼は身を隠し、形を現そうとしないからだ、と。",
+          "spoken_text": "鬼は身を隠し、形を現そうとしないからだ、と。",
+          "start": 22.656,
+          "end": 26.645333333333333,
+          "audio_file": "audio/ja/sentences/P07-06.wav",
+          "audio_sha256": "afe970b1fc41e84fcb89e183d508cfb2b498b65416a42534c8eafda246564849",
+          "replacements": [],
+          "role": "plain"
+        },
+        {
+          "id": "P07-07",
+          "text": "この項は、短い説明で終わります。",
+          "spoken_text": "この項は、短い説明で終わります。",
+          "start": 26.965333333333334,
+          "end": 29.76,
+          "audio_file": "audio/ja/sentences/P07-07.wav",
+          "audio_sha256": "d41d46016e4bea7213f47f6f2d06929c550dd6a4d88b399d9647cc0c29b2fe28",
+          "replacements": [],
+          "role": "plain"
+        },
+        {
+          "id": "P07-08",
+          "text": "人が死んだあとの魂、と。",
+          "spoken_text": "人が死んだあとの魂、と。",
+          "start": 30.08,
+          "end": 32.416,
+          "audio_file": "audio/ja/sentences/P07-08.wav",
+          "audio_sha256": "8f835a0785f2caa17884ca04cfb8c344dccc6d545cdd936f9e03843298c0b8a0",
+          "replacements": [],
+          "role": "plain"
+        }
+      ],
+      "audio_file": "audio/ja/P07.wav",
+      "duration_seconds": 32.416,
+      "native_speed": "role-based C"
+    },
+    {
+      "id": "P08",
+      "chapter": "C03",
+      "sources": [
+        "O-S05",
+        "O-S06"
+      ],
+      "classification": "historical_fact",
+      "visuals": [
+        "D_check_2",
+        "O09-A"
+      ],
+      "text": "この考えは、とても古く、千年以上前からあります。けれど、そのころからすでに「ある説では」という言葉付きでした。確かめられた語源ではなく、早い時代の推測です。10世紀ごろに形づくられた『伊勢物語』では、嵐の夜に連れ出された女が、鬼に一口で食べられてしまいます。物語は、鬼の姿を一度も描きません。そして段の終わりの注は、その鬼とは、実は彼女を取り返しに来た兄たちのことだった、と明かしています。",
+      "cues": [
+        {
+          "id": "P08-01",
+          "text": "この考えは、とても古く、千年以上前からあります。",
+          "spoken_text": "この考えは、とても古く、千年以上前からあります。",
+          "start": 0.0,
+          "end": 4.1386666666666665,
+          "audio_file": "audio/ja/sentences/P08-01.wav",
+          "audio_sha256": "8fd526c62ddb8449832f9d2c885d2fab70eba8bd0a9235183a0a199f6fd8392d",
+          "replacements": [],
+          "role": "plain"
+        },
+        {
+          "id": "P08-02",
+          "text": "けれど、そのころからすでに「ある説では」という言葉付きでした。",
+          "spoken_text": "けれど、そのころからすでに「ある説では」という言葉付きでした。",
+          "start": 4.458666666666667,
+          "end": 9.248,
+          "audio_file": "audio/ja/sentences/P08-02.wav",
+          "audio_sha256": "d71ef955d1bb00fd397cd34a40d405fcdf69bf6ff05683b74659a11972312fca",
+          "replacements": [],
+          "role": "contrast"
+        },
+        {
+          "id": "P08-03",
+          "text": "確かめられた語源ではなく、早い時代の推測です。",
+          "spoken_text": "確かめられた語源ではなく、早い時代の推測です。",
+          "start": 9.648,
+          "end": 13.498666666666667,
+          "audio_file": "audio/ja/sentences/P08-03.wav",
+          "audio_sha256": "f1fce3f589169b88a3e043e9f9059dadb07c4c8138d8e89740fba5ad55b37734",
+          "replacements": [],
+          "role": "plain"
+        },
+        {
+          "id": "P08-04",
+          "text": "10世紀ごろに形づくられた『伊勢物語』では、嵐の夜に連れ出された女が、鬼に一口で食べられてしまいます。",
+          "spoken_text": "10世紀ごろに形づくられた『伊勢物語』では、嵐の夜に連れ出された女が、鬼に一口で食べられてしまいます。",
+          "start": 13.818666666666667,
+          "end": 22.448,
+          "audio_file": "audio/ja/sentences/P08-04.wav",
+          "audio_sha256": "93a7fef5ef32aebe7e0d9867e073f26781892d6ebdd58d06c6fe165b581f50da",
+          "replacements": [],
+          "role": "explanation"
+        },
+        {
+          "id": "P08-05",
+          "text": "物語は、鬼の姿を一度も描きません。",
+          "spoken_text": "物語は、鬼の姿を一度も描きません。",
+          "start": 22.768,
+          "end": 26.042666666666666,
+          "audio_file": "audio/ja/sentences/P08-05.wav",
+          "audio_sha256": "5a055861b04067e21060d525eab9e31e9abdbeb6271cb507e721f1e22289277b",
+          "replacements": [],
+          "role": "plain"
+        },
+        {
+          "id": "P08-06",
+          "text": "そして段の終わりの注は、その鬼とは、実は彼女を取り返しに来た兄たちのことだった、と明かしています。",
+          "spoken_text": "そして段の終わりの注は、その鬼とは、実は彼女を取り返しに来た兄たちのことだった、と明かしています。",
+          "start": 26.362666666666666,
+          "end": 33.861333333333334,
+          "audio_file": "audio/ja/sentences/P08-06.wav",
+          "audio_sha256": "0fc9051afedb47eb29a64dc715b3a9d37bb5b26048d1f078cc57bd8dad096159",
+          "replacements": [],
+          "role": "plain"
+        }
+      ],
+      "audio_file": "audio/ja/P08.wav",
+      "duration_seconds": 33.861333333333334,
+      "native_speed": "role-based C"
+    },
+    {
+      "id": "P09",
+      "chapter": "C04",
+      "sources": [
+        "O-S07"
+      ],
+      "classification": "historical_fact",
+      "visuals": [
+        "O10-A",
+        "O14-B"
+      ],
+      "text": "姿は、絵の中に現れ始めます。13世紀後半に描かれた『北野天神縁起絵巻』では、門のそばに、角を生やし、髪を振り乱した異形の者たちが集まっています。それからの何百年、絵師たちは鬼に、角や牙や恐ろしい顔を与え続けました。",
+      "cues": [
+        {
+          "id": "P09-01",
+          "text": "姿は、絵の中に現れ始めます。",
+          "spoken_text": "姿は、絵の中に現れ始めます。",
+          "start": 0.0,
+          "end": 2.7413333333333334,
+          "audio_file": "audio/ja/sentences/P09-01.wav",
+          "audio_sha256": "be069d9c0d4b102d9565963c413705be3f725a0b5fc54a1836089072ffc31bf1",
+          "replacements": [],
+          "role": "plain"
+        },
+        {
+          "id": "P09-02",
+          "text": "13世紀後半に描かれた『北野天神縁起絵巻』では、門のそばに、角を生やし、髪を振り乱した異形の者たちが集まっています。",
+          "spoken_text": "13世紀後半に描かれた『北野天神縁起絵巻』では、門のそばに、つのを生やし、髪を振り乱した異形の者たちが集まっています。",
+          "start": 3.0613333333333332,
+          "end": 13.322666666666667,
+          "audio_file": "audio/ja/sentences/P09-02.wav",
+          "audio_sha256": "a85c4ec044b6f0c5c1e85762f09135ea31bde86d4874b9f1f51bd2c299bd39ee",
+          "replacements": [
+            {
+              "display": "角を",
+              "spoken": "つのを",
+              "count": 1
+            }
+          ],
+          "role": "explanation"
+        },
+        {
+          "id": "P09-03",
+          "text": "それからの何百年、絵師たちは鬼に、角や牙や恐ろしい顔を与え続けました。",
+          "spoken_text": "それからの何百年、絵師たちは鬼に、つのや牙や恐ろしい顔を与え続けました。",
+          "start": 13.642666666666667,
+          "end": 19.552,
+          "audio_file": "audio/ja/sentences/P09-03.wav",
+          "audio_sha256": "5d14975b68cc575cd44f9ce4a89aafb0aa78fe40af9ebcb0a673c8b01fb9ad5e",
+          "replacements": [
+            {
+              "display": "角や",
+              "spoken": "つのや",
+              "count": 1
+            }
+          ],
+          "role": "plain"
+        }
+      ],
+      "audio_file": "audio/ja/P09.wav",
+      "duration_seconds": 19.552,
+      "native_speed": "role-based C"
+    },
+    {
+      "id": "P10",
+      "chapter": "C04",
+      "sources": [
+        "O-S08"
+      ],
+      "classification": "historical_fact",
+      "visuals": [
+        "O11-12_text",
+        "D_compass"
+      ],
+      "text": "三つ目の説は、角と虎の皮を説明します。1779年、絵師の鳥山石燕は、妖怪の絵の本を出しました。鬼の絵の横に、彼は短い解説を書いています。世の人は、丑寅、つまり牛と虎の方角である北東を、鬼門と呼ぶ。いま鬼を描くときは、頭に牛の角をいただき、腰に虎の皮をまとわせる。この形は、丑と寅の二つを合わせたものだと言われている、と。",
+      "cues": [
+        {
+          "id": "P10-01",
+          "text": "三つ目の説は、角と虎の皮を説明します。",
+          "spoken_text": "三つ目の説は、つのと虎の皮を説明します。",
+          "start": 0.0,
+          "end": 3.488,
+          "audio_file": "audio/ja/sentences/P10-01.wav",
+          "audio_sha256": "3734904c9ceb96672eef07c24b2da5558d35c7ca2322c081900511cf666e1f3f",
+          "replacements": [
+            {
+              "display": "角と",
+              "spoken": "つのと",
+              "count": 1
+            }
+          ],
+          "role": "plain"
+        },
+        {
+          "id": "P10-02",
+          "text": "1779年、絵師の鳥山石燕は、妖怪の絵の本を出しました。",
+          "spoken_text": "1779年、絵師の鳥山石燕は、妖怪の絵の本を出しました。",
+          "start": 3.808,
+          "end": 9.525333333333334,
+          "audio_file": "audio/ja/sentences/P10-02.wav",
+          "audio_sha256": "e189ec29c1fdddf1a790772418bbd5976718457241d8a727e0a1ac9082a3e2c9",
+          "replacements": [],
+          "role": "plain"
+        },
+        {
+          "id": "P10-03",
+          "text": "鬼の絵の横に、彼は短い解説を書いています。",
+          "spoken_text": "鬼の絵の横に、彼は短い解説を書いています。",
+          "start": 9.845333333333333,
+          "end": 13.472,
+          "audio_file": "audio/ja/sentences/P10-03.wav",
+          "audio_sha256": "9e706768cbc63efac4189a5031f3fe3da6392112074442afe924c7ef781b2e0b",
+          "replacements": [],
+          "role": "plain"
+        },
+        {
+          "id": "P10-04",
+          "text": "世の人は、丑寅、つまり牛と虎の方角である北東を、鬼門と呼ぶ。",
+          "spoken_text": "世の人は、丑寅、つまり牛と虎の方角である北東を、鬼門と呼ぶ。",
+          "start": 13.792,
+          "end": 19.2,
+          "audio_file": "audio/ja/sentences/P10-04.wav",
+          "audio_sha256": "520b2371fa881ac606eb449752c871bd18e4282aafdee9eb5b8e0c338a180e57",
+          "replacements": [],
+          "role": "plain"
+        },
+        {
+          "id": "P10-05",
+          "text": "いま鬼を描くときは、頭に牛の角をいただき、腰に虎の皮をまとわせる。",
+          "spoken_text": "いま鬼を描くときは、頭に牛のつのをいただき、腰に虎の皮をまとわせる。",
+          "start": 19.52,
+          "end": 25.045333333333332,
+          "audio_file": "audio/ja/sentences/P10-05.wav",
+          "audio_sha256": "2615f9912dcaf7459202f34cd969ef473b27aef71e1ed09b3d3c72ae448bc55a",
+          "replacements": [
+            {
+              "display": "角を",
+              "spoken": "つのを",
+              "count": 1
+            }
+          ],
+          "role": "plain"
+        },
+        {
+          "id": "P10-06",
+          "text": "この形は、丑と寅の二つを合わせたものだと言われている、と。",
+          "spoken_text": "この形は、丑と寅の二つを合わせたものだと言われている、と。",
+          "start": 25.365333333333332,
+          "end": 29.973333333333333,
+          "audio_file": "audio/ja/sentences/P10-06.wav",
+          "audio_sha256": "0494e627dbcc45ba5a2f462c8ba3f473e2d7880363336fa123f36ba585773caa",
+          "replacements": [],
+          "role": "plain"
+        }
+      ],
+      "audio_file": "audio/ja/P10.wav",
+      "duration_seconds": 29.973333333333333,
+      "native_speed": "role-based C"
+    },
+    {
+      "id": "P11",
+      "chapter": "C04",
+      "sources": [
+        "O-S08",
+        "O-S07"
+      ],
+      "classification": "editorial_conclusion",
+      "visuals": [
+        "D_check_3"
+      ],
+      "text": "よくできた説明です。そして石燕自身も、それを「言われている」こととして書いています。彼がこれを書き留めたのは、最も古い記録から千年以上も後、北野の絵巻の角のある者たちからも、およそ500年後のことでした。絵が先か、説明が先か。資料は、それを教えてくれません。",
+      "cues": [
+        {
+          "id": "P11-01",
+          "text": "よくできた説明です。",
+          "spoken_text": "よくできた説明です。",
+          "start": 0.0,
+          "end": 1.536,
+          "audio_file": "audio/ja/sentences/P11-01.wav",
+          "audio_sha256": "8e58c8d7d77e1dc9081ced87ebc49d329f168e490a8b2c8713a5bf0afe5a0686",
+          "replacements": [],
+          "role": "plain"
+        },
+        {
+          "id": "P11-02",
+          "text": "そして石燕自身も、それを「言われている」こととして書いています。",
+          "spoken_text": "そして石燕自身も、それを「言われている」こととして書いています。",
+          "start": 1.856,
+          "end": 6.656,
+          "audio_file": "audio/ja/sentences/P11-02.wav",
+          "audio_sha256": "7074e0b34ed6dff620825504afd08323abd8d1ed1cdc443d32a4e6f2a9737a2e",
+          "replacements": [],
+          "role": "plain"
+        },
+        {
+          "id": "P11-03",
+          "text": "彼がこれを書き留めたのは、最も古い記録から千年以上も後、北野の絵巻の角のある者たちからも、およそ500年後のことでした。",
+          "spoken_text": "彼がこれを書き留めたのは、最も古い記録から千年以上も後、北野の絵巻のつののある者たちからも、およそ500年後のことでした。",
+          "start": 6.976,
+          "end": 16.490666666666666,
+          "audio_file": "audio/ja/sentences/P11-03.wav",
+          "audio_sha256": "9049fa5f74ad3cdb87b0993c74ca670cdbc8149dfb519e5625091868b54df665",
+          "replacements": [
+            {
+              "display": "角の",
+              "spoken": "つのの",
+              "count": 1
+            }
+          ],
+          "role": "plain"
+        },
+        {
+          "id": "P11-04",
+          "text": "絵が先か、説明が先か。",
+          "spoken_text": "絵が先か、説明が先か。",
+          "start": 16.810666666666666,
+          "end": 18.976,
+          "audio_file": "audio/ja/sentences/P11-04.wav",
+          "audio_sha256": "72b695b03f4aeaa7d4c10ddd845061032e2a333a42cd505c96ca6403984657a4",
+          "replacements": [],
+          "role": "plain"
+        },
+        {
+          "id": "P11-05",
+          "text": "資料は、それを教えてくれません。",
+          "spoken_text": "資料は、それを教えてくれません。",
+          "start": 19.296,
+          "end": 21.781333333333333,
+          "audio_file": "audio/ja/sentences/P11-05.wav",
+          "audio_sha256": "0bed930071da61358f23139053a2f989a827b7dd34b37671d051ce768f0c8b9a",
+          "replacements": [],
+          "role": "plain"
+        }
+      ],
+      "audio_file": "audio/ja/P11.wav",
+      "duration_seconds": 21.781333333333333,
+      "native_speed": "role-based C"
+    },
+    {
+      "id": "P12",
+      "chapter": "C05",
+      "sources": [
+        "O-S09",
+        "O-S10",
+        "O-S11"
+      ],
+      "classification": "historical_fact",
+      "visuals": [
+        "R10-27",
+        "R11-30",
+        "O02-B",
+        "R12-1447"
+      ],
+      "text": "最後の説は、節分に話を戻します。病を追い払う宮中の儀式は、706年、多くの人が亡くなった年に記録されています。およそ900年前の宮中の手引き書『江家次第』では、方相と呼ばれる役人がこの儀式を率います。声を上げ、戈で楯を三度たたくと、群臣も声を合わせて追い立てます。そして手引き書は、もう一行を書き加えています。殿上人が、方相を射る、と。豆は、もっと後のことです。1447年、ある禅僧は「鬼は外、福は内」という唱え言葉を書き留め、これがこの国の鬼の追い払い方なのだろう、と記しました。",
+      "cues": [
+        {
+          "id": "P12-01",
+          "text": "最後の説は、節分に話を戻します。",
+          "spoken_text": "最後の説は、節分に話を戻します。",
+          "start": 0.0,
+          "end": 3.136,
+          "audio_file": "audio/ja/sentences/P12-01.wav",
+          "audio_sha256": "25babf8c0d96d932c5b43fd17228ffee66c56c1c71990180754d38246646eb9d",
+          "replacements": [],
+          "role": "plain"
+        },
+        {
+          "id": "P12-02",
+          "text": "病を追い払う宮中の儀式は、706年、多くの人が亡くなった年に記録されています。",
+          "spoken_text": "病を追い払う宮中の儀式は、706年、多くの人が亡くなった年に記録されています。",
+          "start": 3.456,
+          "end": 10.112,
+          "audio_file": "audio/ja/sentences/P12-02.wav",
+          "audio_sha256": "387f6db1411ac14432e21462cf8ca2577cf40e93ea30cf008dd375073b3d78aa",
+          "replacements": [],
+          "role": "explanation"
+        },
+        {
+          "id": "P12-03",
+          "text": "およそ900年前の宮中の手引き書『江家次第』では、方相と呼ばれる役人がこの儀式を率います。",
+          "spoken_text": "およそ900年前の宮中の手引き書『ごうけしだい』では、ほうそうと呼ばれる役人がこの儀式を率います。",
+          "start": 10.432,
+          "end": 18.08,
+          "audio_file": "audio/ja/sentences/P12-03.wav",
+          "audio_sha256": "4b739e6cd895cebe788fcd695111b78f233a077f26925d63ad374a1cdd8f0951",
+          "replacements": [
+            {
+              "display": "江家次第",
+              "spoken": "ごうけしだい",
+              "count": 1
+            },
+            {
+              "display": "方相",
+              "spoken": "ほうそう",
+              "count": 1
+            }
+          ],
+          "role": "plain"
+        },
+        {
+          "id": "P12-04",
+          "text": "声を上げ、戈で楯を三度たたくと、群臣も声を合わせて追い立てます。",
+          "spoken_text": "声を上げ、戈でたてを三度たたくと、群臣も声を合わせて追い立てます。",
+          "start": 18.4,
+          "end": 23.477333333333334,
+          "audio_file": "audio/ja/sentences/P12-04.wav",
+          "audio_sha256": "07cca5185b6b69129f9f4605224eae71232ed983ae52be65579910576232f017",
+          "replacements": [
+            {
+              "display": "楯",
+              "spoken": "たて",
+              "count": 1
+            }
+          ],
+          "role": "plain"
+        },
+        {
+          "id": "P12-05",
+          "text": "そして手引き書は、もう一行を書き加えています。",
+          "spoken_text": "そして手引き書は、もう一行を書き加えています。",
+          "start": 23.797333333333334,
+          "end": 27.136,
+          "audio_file": "audio/ja/sentences/P12-05.wav",
+          "audio_sha256": "8e78491478c408f2b9fd2bee7607faad9fef789cb2bff323bf382f3f8f87a86b",
+          "replacements": [],
+          "role": "plain"
+        },
+        {
+          "id": "P12-06",
+          "text": "殿上人が、方相を射る、と。",
+          "spoken_text": "殿上人が、ほうそうを射る、と。",
+          "start": 27.456,
+          "end": 30.133333333333333,
+          "audio_file": "audio/ja/sentences/P12-06.wav",
+          "audio_sha256": "5a40d0e10646d3fcc5ab1680b0774a88c95083a1280fd04d16bb5039ebb58eed",
+          "replacements": [
+            {
+              "display": "方相",
+              "spoken": "ほうそう",
+              "count": 1
+            }
+          ],
+          "role": "plain"
+        },
+        {
+          "id": "P12-07",
+          "text": "豆は、もっと後のことです。",
+          "spoken_text": "豆は、もっと後のことです。",
+          "start": 30.453333333333333,
+          "end": 32.586666666666666,
+          "audio_file": "audio/ja/sentences/P12-07.wav",
+          "audio_sha256": "571beaa3f6a099d05c5c460a9fb00ed6523f65745a857a991f2dbd35b81d447e",
+          "replacements": [],
+          "role": "plain"
+        },
+        {
+          "id": "P12-08",
+          "text": "1447年、ある禅僧は「鬼は外、福は内」という唱え言葉を書き留め、これがこの国の鬼の追い払い方なのだろう、と記しました。",
+          "spoken_text": "1447年、ある禅僧は「鬼は外、福は内」という唱え言葉を書き留め、これがこの国の鬼の追い払い方なのだろう、と記しました。",
+          "start": 32.906666666666666,
+          "end": 43.925333333333334,
+          "audio_file": "audio/ja/sentences/P12-08.wav",
+          "audio_sha256": "77d670f41e74fdbf63a83375cc22ce178dc9c76279597c6dbc33a3e48eb4247b",
+          "replacements": [],
+          "role": "plain"
+        }
+      ],
+      "audio_file": "audio/ja/P12.wav",
+      "duration_seconds": 43.925333333333334,
+      "native_speed": "role-based C"
+    },
+    {
+      "id": "P13",
+      "chapter": "C05",
+      "sources": [
+        "O-S10",
+        "O-S11"
+      ],
+      "classification": "editorial_conclusion",
+      "visuals": [
+        "O02-D",
+        "D_check_4"
+      ],
+      "text": "つまり、役が入れかわったのです。その手引き書では、追い立てを率いる者が、射られる的にもなっていました。そして15世紀には、豆がまかれ、外へ出されるのは鬼のほうになっていました。",
+      "cues": [
+        {
+          "id": "P13-01",
+          "text": "つまり、役が入れかわったのです。",
+          "spoken_text": "つまり、役が入れかわったのです。",
+          "start": 0.0,
+          "end": 2.3573333333333335,
+          "audio_file": "audio/ja/sentences/P13-01.wav",
+          "audio_sha256": "ee73b16f2c462b68b8862920921ea8d8145f534aa194fa0191ca8610b22b7c2e",
+          "replacements": [],
+          "role": "plain"
+        },
+        {
+          "id": "P13-02",
+          "text": "その手引き書では、追い立てを率いる者が、射られる的にもなっていました。",
+          "spoken_text": "その手引き書では、追い立てを率いる者が、射られる的にもなっていました。",
+          "start": 2.6773333333333333,
+          "end": 7.648,
+          "audio_file": "audio/ja/sentences/P13-02.wav",
+          "audio_sha256": "6bc21d5a7d775193845343a4e34e8d512c183502d8c145ffe93c7900cddcd914",
+          "replacements": [],
+          "role": "plain"
+        },
+        {
+          "id": "P13-03",
+          "text": "そして15世紀には、豆がまかれ、外へ出されるのは鬼のほうになっていました。",
+          "spoken_text": "そして15世紀には、豆がまかれ、外へ出されるのは鬼のほうになっていました。",
+          "start": 7.968,
+          "end": 13.493333333333334,
+          "audio_file": "audio/ja/sentences/P13-03.wav",
+          "audio_sha256": "3d82ae4114115877e481db5316079d638ccc6c1ae63ee9a637d4dd9a50de17b5",
+          "replacements": [],
+          "role": "explanation"
+        }
+      ],
+      "audio_file": "audio/ja/P13.wav",
+      "duration_seconds": 13.493333333333334,
+      "native_speed": "role-based C"
+    },
+    {
+      "id": "P14",
+      "chapter": "C06",
+      "sources": [
+        "O-S08",
+        "O-S01",
+        "O-S04",
+        "O-S05"
+      ],
+      "classification": "editorial_conclusion",
+      "visuals": [
+        "D_check_all",
+        "O01-C"
+      ],
+      "text": "では、鬼はなぜ虎の皮を着ているのか。一つの説明は、それを牛と虎、不吉な北東に結びつけます。石燕がそれを書き留めたのは1779年。最初の鬼より、ずっと後のことでした。最も古い記録が見せてくれるのは、別のものです。山の上で大きな笠をかぶった者。山の田に現れた、目が一つのもの。そして、「隠れる」を意味するのかもしれない言葉。角も、虎の皮も、金棒も、後から、絵を通してやって来たのです。",
+      "cues": [
+        {
+          "id": "P14-01",
+          "text": "では、鬼はなぜ虎の皮を着ているのか。",
+          "spoken_text": "では、鬼はなぜ虎の皮を着ているのか。",
+          "start": 0.0,
+          "end": 2.933333333333333,
+          "audio_file": "audio/ja/sentences/P14-01.wav",
+          "audio_sha256": "c9a37c53c1f72b45526a4897884d8c8075a51553de1d6b5871c4efc91d53600f",
+          "replacements": [],
+          "role": "conclusion"
+        },
+        {
+          "id": "P14-02",
+          "text": "一つの説明は、それを牛と虎、不吉な北東に結びつけます。",
+          "spoken_text": "一つの説明は、それを牛と虎、不吉な北東に結びつけます。",
+          "start": 3.3333333333333335,
+          "end": 8.122666666666667,
+          "audio_file": "audio/ja/sentences/P14-02.wav",
+          "audio_sha256": "0d4986ef7bb74efa26aa1b096d63c18219ea4eaeaf151720c3e06e2b70626e0a",
+          "replacements": [],
+          "role": "conclusion"
+        },
+        {
+          "id": "P14-03",
+          "text": "石燕がそれを書き留めたのは1779年。",
+          "spoken_text": "石燕がそれを書き留めたのは1779年。",
+          "start": 8.522666666666666,
+          "end": 12.256,
+          "audio_file": "audio/ja/sentences/P14-03.wav",
+          "audio_sha256": "8261472603f924198cfe81bc1db1115f86cf9b589aa6b985ba69e44e4bc0e349",
+          "replacements": [],
+          "role": "conclusion"
+        },
+        {
+          "id": "P14-04",
+          "text": "最初の鬼より、ずっと後のことでした。",
+          "spoken_text": "最初の鬼より、ずっと後のことでした。",
+          "start": 12.656,
+          "end": 15.429333333333334,
+          "audio_file": "audio/ja/sentences/P14-04.wav",
+          "audio_sha256": "b560fe37d6df9bc9fce12cb2ced7e51dc63ecefe0aa459e57a494eca9f9b12c1",
+          "replacements": [],
+          "role": "conclusion"
+        },
+        {
+          "id": "P14-05",
+          "text": "最も古い記録が見せてくれるのは、別のものです。",
+          "spoken_text": "最も古い記録が見せてくれるのは、別のものです。",
+          "start": 15.829333333333333,
+          "end": 19.498666666666665,
+          "audio_file": "audio/ja/sentences/P14-05.wav",
+          "audio_sha256": "c425362c6b137477587709b0df9117aa442c3554885c8da4772920349494a6aa",
+          "replacements": [],
+          "role": "conclusion"
+        },
+        {
+          "id": "P14-06",
+          "text": "山の上で大きな笠をかぶった者。",
+          "spoken_text": "山の上で大きな笠をかぶった者。",
+          "start": 19.898666666666667,
+          "end": 22.341333333333335,
+          "audio_file": "audio/ja/sentences/P14-06.wav",
+          "audio_sha256": "f1a0fe9f1bc0e74ac336b64b6e8714bcf08efc8d7047a41565dd0f4debac91f7",
+          "replacements": [],
+          "role": "conclusion"
+        },
+        {
+          "id": "P14-07",
+          "text": "山の田に現れた、目が一つのもの。",
+          "spoken_text": "山の田に現れた、目が一つのもの。",
+          "start": 22.741333333333333,
+          "end": 25.482666666666667,
+          "audio_file": "audio/ja/sentences/P14-07.wav",
+          "audio_sha256": "53357621c4ecf0cb61be0e6c892456db1eea03a32234dbdf01ebe631e2c868a9",
+          "replacements": [],
+          "role": "conclusion"
+        },
+        {
+          "id": "P14-08",
+          "text": "そして、「隠れる」を意味するのかもしれない言葉。",
+          "spoken_text": "そして、「隠れる」を意味するのかもしれない言葉。",
+          "start": 25.882666666666665,
+          "end": 29.370666666666665,
+          "audio_file": "audio/ja/sentences/P14-08.wav",
+          "audio_sha256": "a3669602b92baa9954eb42760118c4907f1e1611e59a9e42af395360d29c9a76",
+          "replacements": [],
+          "role": "conclusion"
+        },
+        {
+          "id": "P14-09",
+          "text": "角も、虎の皮も、金棒も、後から、絵を通してやって来たのです。",
+          "spoken_text": "つのも、虎の皮も、金棒も、後から、絵を通してやって来たのです。",
+          "start": 29.770666666666667,
+          "end": 35.2,
+          "audio_file": "audio/ja/sentences/P14-09.wav",
+          "audio_sha256": "abac8496116007f0925ab32f90252c25b3a453d7fdf4722048108bcab4321192",
+          "replacements": [
+            {
+              "display": "角も",
+              "spoken": "つのも",
+              "count": 1
+            }
+          ],
+          "role": "conclusion"
+        }
+      ],
+      "audio_file": "audio/ja/P14.wav",
+      "duration_seconds": 35.2,
+      "native_speed": "role-based C"
+    },
+    {
+      "id": "P15",
+      "chapter": "C06",
+      "sources": [],
+      "classification": "closing",
+      "visuals": [
+        "O16-A"
+      ],
+      "text": "すべての物語には、始まりがあります。ときにそれは、誰にも見えなかったものから始まるのです。",
+      "cues": [
+        {
+          "id": "P15-01",
+          "text": "すべての物語には、始まりがあります。",
+          "spoken_text": "すべての物語には、始まりがあります。",
+          "start": 0.0,
+          "end": 3.018666666666667,
+          "audio_file": "audio/ja/sentences/P15-01.wav",
+          "audio_sha256": "bb008e28461b0a7ae6673e6c14eeb1727ae8db8a4ef465dbbd10325abfd1fb9d",
+          "replacements": [],
+          "role": "conclusion"
+        },
+        {
+          "id": "P15-02",
+          "text": "ときにそれは、誰にも見えなかったものから始まるのです。",
+          "spoken_text": "ときにそれは、誰にも見えなかったものから始まるのです。",
+          "start": 3.4186666666666667,
+          "end": 7.258666666666667,
+          "audio_file": "audio/ja/sentences/P15-02.wav",
+          "audio_sha256": "d192119b4377f50c252367e1c0626faa59d903b5a960fbc37bdd6c0028f82466",
+          "replacements": [],
+          "role": "conclusion"
+        }
+      ],
+      "audio_file": "audio/ja/P15.wav",
+      "duration_seconds": 7.258666666666667,
+      "native_speed": "role-based C"
+    },
+    {
+      "id": "P16",
+      "chapter": "C06",
+      "sources": [],
+      "classification": "credits",
+      "visuals": [
+        "credits"
+      ],
+      "text": "この動画は、歴史資料と、美術館・図書館の公開コレクションにもとづいています。ナレーションには合成音声を使っています。出典と利用条件は説明欄に記載しています。楽しんでいただけたら、高評価とチャンネル登録で、これからも静かな起源の物語をお楽しみください。ご視聴ありがとうございました。",
+      "cues": [
+        {
+          "id": "P16-01",
+          "text": "この動画は、歴史資料と、美術館・図書館の公開コレクションにもとづいています。",
+          "spoken_text": "この動画は、歴史資料と、美術館・図書館の公開コレクションにもとづいています。",
+          "start": 0.0,
+          "end": 6.069333333333334,
+          "audio_file": "audio/ja/sentences/P16-01.wav",
+          "audio_sha256": "81f39e3bb3789318c111d10a1ac29804da03ac5fa5424e8a498ad960c3387b5d",
+          "replacements": [],
+          "role": "explanation"
+        },
+        {
+          "id": "P16-02",
+          "text": "ナレーションには合成音声を使っています。",
+          "spoken_text": "ナレーションには合成音声を使っています。",
+          "start": 6.389333333333333,
+          "end": 9.194666666666667,
+          "audio_file": "audio/ja/sentences/P16-02.wav",
+          "audio_sha256": "814359f54645cf088c0c21d4c9f0ca59d17108be9fc6a664c24e2db01b37340c",
+          "replacements": [],
+          "role": "plain"
+        },
+        {
+          "id": "P16-03",
+          "text": "出典と利用条件は説明欄に記載しています。",
+          "spoken_text": "出典と利用条件は説明欄に記載しています。",
+          "start": 9.514666666666667,
+          "end": 12.938666666666666,
+          "audio_file": "audio/ja/sentences/P16-03.wav",
+          "audio_sha256": "0c5e8c6ec6d0eb48fc658b0b881e8561b638e2e29d0d6f1cf61f6cefc2c7f8eb",
+          "replacements": [],
+          "role": "plain"
+        },
+        {
+          "id": "P16-04",
+          "text": "楽しんでいただけたら、高評価とチャンネル登録で、これからも静かな起源の物語をお楽しみください。",
+          "spoken_text": "楽しんでいただけたら、高評価とチャンネル登録で、これからも静かな起源の物語をお楽しみください。",
+          "start": 13.258666666666667,
+          "end": 20.448,
+          "audio_file": "audio/ja/sentences/P16-04.wav",
+          "audio_sha256": "018f087b96cf849ac83d4f8157fd13790e11e39e4b228eb1d9da0b662c357ef0",
+          "replacements": [],
+          "role": "plain"
+        },
+        {
+          "id": "P16-05",
+          "text": "ご視聴ありがとうございました。",
+          "spoken_text": "ご視聴ありがとうございました。",
+          "start": 20.768,
+          "end": 22.741333333333333,
+          "audio_file": "audio/ja/sentences/P16-05.wav",
+          "audio_sha256": "08db4fc4446652f8b7a571cdfd53cf3a40a91f6129311f76801a5bd3e0afc66a",
+          "replacements": [],
+          "role": "plain"
+        }
+      ],
+      "audio_file": "audio/ja/P16.wav",
+      "duration_seconds": 22.741333333333333,
+      "native_speed": "role-based C"
+    }
+  ]
+}
