@@ -81,10 +81,10 @@ def layout():
  save(ROOT/f'records/layout_qc{SUFFIX}.json',dict(passed=True,post_speech_card_holds=holds,completed_card_seconds=all_card['frames']/30,contrast_min=min(r['contrast'] for r in checks),padding_min=min(r['padding'] for r in checks if 'padding' in r),checklist_major_height=52,text_card_major_height_min=60,content_bottom=card_bottom,subtitle_zone_top=925,minimum_reserved_gap=925-card_bottom,usage=usage,source_excerpt_boxes=BOXES,safe_limits=SAFE,sekien_polygon_mask=[[.035,.17],[.395,.17],[.395,.385],[.30,.435],[.035,.435]],max_native_scale=max(max(a['native_scale'],a.get('max_native_scale',0)) for a in sc),rows=checks))
  print('LAYOUT',LANG,S,flush=True)
 def motion():
- shots=read(ROOT/'records/render_shots.json');sc=read(ROOT/'records/art_scales.json');master=ROOT/'_work/picture_master.mp4';out=[]
+ shots=read(ROOT/f'records/render_shots{SUFFIX}.json');sc=read(ROOT/f'records/art_scales{SUFFIX}.json');master=ROOT/f'_work/picture_master{SUFFIX}.mp4';out=[]
  for s in shots:
   if not s.get('moving'):continue
-  a=next(a for a in reversed(sc) if a['key']==s['key']);x0,y0,x1,y1=a['output_box'];ww=int((x1-x0)*.7)//2*2;hh=int((y1-y0)*.6)//2*2;x=round((x0+x1-ww)/2);y=round((y0+y1-hh)/2)
+  a=next(a for a in reversed(sc) if a['key']==s['key']);x0,y0,x1,y1=[v*S for v in a['output_box']];ww=int((x1-x0)*.7)//2*2;hh=int((y1-y0)*.6)//2*2;x=round((x0+x1-ww)/2);y=round((y0+y1-hh)/2)
   cmd=['ffmpeg','-nostdin','-v','error','-threads','1','-ss',str(s['start']),'-i',str(master),'-frames:v',str(s['frames']),'-vf',f'format=gray,crop={ww}:{hh}:{x}:{y}:exact=1','-filter_threads','1','-pix_fmt','gray','-fps_mode','passthrough','-f','rawvideo','-'];pr=subprocess.Popen(cmd,stdout=subprocess.PIPE);prev=None;diff=[]
   for _ in range(s['frames']):
    b=pr.stdout.read(ww*hh);assert len(b)==ww*hh;cur=np.frombuffer(b,np.uint8).astype(np.int16)
@@ -92,6 +92,6 @@ def motion():
    prev=cur
   assert pr.wait()==0;median=float(np.median(diff));p95=float(np.percentile(diff,95));ratio=p95/median if median else (1 if not p95 else None)
   out.append(dict(shot=s['key'],roi=[x,y,ww,hh],adjacent_pairs=len(diff),median=median,p95=p95,ratio=ratio,passed=ratio is not None and ratio<=2.5));print('MOTION',s['key'],ratio,flush=True)
- save(ROOT/'records/final_video_motion.json',dict(passed=all(x['passed'] for x in out),checks=out,method='All adjacent final-master frames within moving art ROIs. Intentional source zooms, stamps, staged cards and brand transitions are separate designed events.'))
+ save(ROOT/f'records/final_video_motion{SUFFIX}.json',dict(passed=all(x['passed'] for x in out),checks=out,method='All adjacent final-master frames within moving art ROIs. Intentional source zooms, stamps, staged cards and brand transitions are separate designed events.'))
  assert all(x['passed'] for x in out),out
 if __name__=='__main__':globals()[sys.argv[1]]()

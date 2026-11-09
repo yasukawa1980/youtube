@@ -1,0 +1,212 @@
+{
+  "method": "Independent decoders for each logical shot including OP/ED, raw yuv420p frames to one H.264 encoder",
+  "inputs": [
+    {
+      "key": "O01-A",
+      "sha256": "cc340568e631be5e975808a7dd3a66f70634764f4d0134edda5d378bd7291e06",
+      "frames": 127
+    },
+    {
+      "key": "D_features",
+      "sha256": "28ae9761cda6f1d4dc60f4f64f0d9e107d785af87327598e2f97b439590581dc",
+      "frames": 175
+    },
+    {
+      "key": "O02-A",
+      "sha256": "81193b511905c088ec1381cb1a9d6339f46d8e1d7642a33d110a06012c4c4f7c",
+      "frames": 717
+    },
+    {
+      "key": "D_check_list",
+      "sha256": "c76b7180b9d7d042fcd583fe2d800a82b7aeca434908a357bcbe3290a30624ef",
+      "frames": 672
+    },
+    {
+      "key": "opening",
+      "sha256": "4f8e95fd166e52b6c601c87440006ded2eec298f54c3d6d6a951738b54f721a9",
+      "frames": 120
+    },
+    {
+      "key": "D_kanji_oni",
+      "sha256": "f19b1476ab319975d128eb01efb630e447e8f01aee5f486b8fdeb17f041b9f10",
+      "frames": 484
+    },
+    {
+      "key": "O05-A",
+      "sha256": "4445912aa570f16a9b258fe4d965ec9f81beadb35f76a59aa6dff80f16d37c26",
+      "frames": 380
+    },
+    {
+      "key": "O03-23",
+      "sha256": "7ef1c924a37e1488ce7ff2b27136b9b77b3cf3a6690f7c59508bb136e804f5e1",
+      "frames": 464
+    },
+    {
+      "key": "O04-272",
+      "sha256": "06792cb352ce32ce6bfc1d6dc9b5258a28da57e43f3bb8780229d40063e53e1c",
+      "frames": 465
+    },
+    {
+      "key": "O06-38",
+      "sha256": "1d7920b495755dfd30449cca8b56ee160abb9883136ed8bbab2204e585f2beb5",
+      "frames": 668
+    },
+    {
+      "key": "O15-A",
+      "sha256": "328169bac1774e884c7031e5aebc02be7c6830eed96521e03890672f6c770b7e",
+      "frames": 397
+    },
+    {
+      "key": "D_check_1",
+      "sha256": "01e836c67789728e727821e2e191424981ad3a5129c6fe04e1110e5b3088267a",
+      "frames": 475
+    },
+    {
+      "key": "O08-31",
+      "sha256": "16b7fe5a2a95651a17674fa8d6141a8ddcd8c55a1508a273e9a19bf2a607c7f6",
+      "frames": 1000
+    },
+    {
+      "key": "D_check_2",
+      "sha256": "9bce61e5bf5db10c6dfac9d042da3093d7faa573c1a70a0c4213761d7f0d5a1a",
+      "frames": 415
+    },
+    {
+      "key": "O09-A",
+      "sha256": "8670f5d9107edcb39e5de64d4e4362d5dfb9c3e17a99bdca421ba95c13b3bb72",
+      "frames": 628
+    },
+    {
+      "key": "O10-A",
+      "sha256": "8faeab146ae7af0a868afbd0809297c1542712131e0cb3b18640ae3a3e2ada1d",
+      "frames": 409
+    },
+    {
+      "key": "O14-B",
+      "sha256": "18011a6026b4b5a2cb33f2f03cf049d137ac45f4793aab25071792cf9310212e",
+      "frames": 205
+    },
+    {
+      "key": "O11-12",
+      "sha256": "da3ef6d446779c8276afe3dea27f826021c19c25e1a2b0272d1075156b29da51",
+      "frames": 414
+    },
+    {
+      "key": "D_compass",
+      "sha256": "8f023eb7c2c7569383a152051e66431a9723880952048772c876efa9cebfaf92",
+      "frames": 513
+    },
+    {
+      "key": "D_check_3",
+      "sha256": "b69eb4c4fe8fe9c5db322d7627a62039f57ebb1b1ab364a4f65fa22b380fe37b",
+      "frames": 681
+    },
+    {
+      "key": "R10-27",
+      "sha256": "79b93894b0e95776300f797b8071ac60a9fdcc7b569d895637b6d24f0676d891",
+      "frames": 313
+    },
+    {
+      "key": "R11-30",
+      "sha256": "f8c029c5fad53e9abf9c50cb033c1ad2e2005bf0ff7835c9671601b4362cbcdd",
+      "frames": 601
+    },
+    {
+      "key": "O02-B",
+      "sha256": "62828d513ee3c936097d345df6920982c8373ec195be9cffd638f2b2cceaea7c",
+      "frames": 73
+    },
+    {
+      "key": "R12-1447",
+      "sha256": "042de00762e837948e02bdbe8cdddc0657d98786ba4ddd3319f3b013bf47a315",
+      "frames": 358
+    },
+    {
+      "key": "O02-D",
+      "sha256": "d523b087a182963410ddf2ea92d6a9a7745310805a82eafeedd1fb4b175c11da",
+      "frames": 239
+    },
+    {
+      "key": "D_check_4",
+      "sha256": "b599ac3519ca4a4e1481c3eeae8bde297f17baae15b0b8cf8fc18e8703b924f4",
+      "frames": 193
+    },
+    {
+      "key": "D_check_all",
+      "sha256": "1ba6dec7020925b5e85ebc54d4e89616e871f5e5336d0a9c82f81c52a604b671",
+      "frames": 475
+    },
+    {
+      "key": "O01-C",
+      "sha256": "7cd7bcf0942ad8cbf1be27ed817e68678a8ced1650d65218e0850176ba1a3c1a",
+      "frames": 609
+    },
+    {
+      "key": "O16-A",
+      "sha256": "f3da0f9e12b63ee31f6d70ef8a61719a3929093d231d807c34d720b33e9ae767",
+      "frames": 245
+    },
+    {
+      "key": "credits",
+      "sha256": "518d05ceca53503986ca5fe786b9cda5f6ce9ae41e3bd7c0cdab1fe669f32e90",
+      "frames": 710
+    },
+    {
+      "key": "endcard",
+      "sha256": "3cd254cdd387d0ca8e3ef3c2f74ca3650dc64fb02609bcd09a21b3e36a3513a2",
+      "frames": 300
+    }
+  ],
+  "master_sha256": "b20e54bf18db2decdab28f8565255c3b54f66fca0fc1e51f3de4f4682677357c",
+  "command": [
+    "ffmpeg",
+    "-y",
+    "-nostdin",
+    "-v",
+    "warning",
+    "-f",
+    "rawvideo",
+    "-pix_fmt",
+    "yuv420p",
+    "-s",
+    "1920x1080",
+    "-r",
+    "30",
+    "-i",
+    "pipe:0",
+    "-an",
+    "-c:v",
+    "libx264",
+    "-threads",
+    "2",
+    "-preset",
+    "veryfast",
+    "-x264-params",
+    "rc-lookahead=5:sync-lookahead=0",
+    "-crf",
+    "17",
+    "-profile:v",
+    "high",
+    "-pix_fmt",
+    "yuv420p",
+    "-g",
+    "60",
+    "-bf",
+    "2",
+    "-video_track_timescale",
+    "15360",
+    "-movie_timescale",
+    "48000",
+    "-colorspace",
+    "bt709",
+    "-color_trc",
+    "bt709",
+    "-color_primaries",
+    "bt709",
+    "-movflags",
+    "+faststart",
+    "-progress",
+    "/Volumes/ESD-02/新チャンネル/EP014_Oni/確認版_v01_20261110/ja/_work/master_progress.txt",
+    "/Volumes/ESD-02/新チャンネル/EP014_Oni/確認版_v01_20261110/ja/_work/picture_master.mp4"
+  ]
+}

@@ -34,6 +34,7 @@ def main():
   step('en_4k_package','wom14_render.py',['package4k'],env,[r/'_work/picture_master_4k.mp4',r/'deliverables/EP014_audio_en.m4a'],[video,r/'records/4k_audio_integrity.json'])
   subprocess.run([sys.executable,str(P/'wom14_render.py'),'precision'],env=env,check=True)
   step('en_4k_continuous','wom14_qc.py',['continuous'],env,[video,r/'records/render_shots_4k.json'],[r/'records/continuous_qc_4k.json'])
+  step('en_4k_motion','wom14_qc.py',['motion'],env,[r/'_work/picture_master_4k.mp4',r/'records/render_shots_4k.json'],[r/'records/final_video_motion_4k.json'])
   save(state,dict(status='technical_checks_complete',pid=os.getpid(),publication=False,remaining='visual inspection, package, private Draft Release and REST re-download verification'))
  except BaseException as e:save(state,dict(status='failed',pid=os.getpid(),error=str(e),publication=False));raise
 if __name__=='__main__':main()

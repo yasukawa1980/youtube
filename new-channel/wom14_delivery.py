@@ -27,13 +27,23 @@ def metadata():
  for k in ids:
   a=ASSETS[k];credits.append(CAT[k][1]+' — '+CAT[k][2]+'.\n'+a['work_url'])
  credit='\n\n'.join(credits);master=read(ROOT/'en/records/master_timeline.json')
+ legend='The Metropolitan Museum of Art (Met): Public Domain. Cleveland Museum of Art (CMA): CC0. Rijksmuseum: Public Domain. Smithsonian Libraries and Archives (SLA): Public Domain / CC0. National Diet Library Digital Collections (NDL): public domain, protection period expired.'
+ short=[]
+ for k in ids:
+  line=CAT[k][2]
+  for old,new in [('Cleveland Museum of Art','CMA'),('The Met','Met'),('Smithsonian Libraries and Archives','SLA'),('National Diet Library Digital Collections','NDL')]:line=line.replace(old,new)
+  for rights in [' · Public Domain / CC0',' · Public domain, protection period expired',' · Public Domain',' · CC0']:line=line.replace(rights,'')
+  short.append(CAT[k][1]+' — '+line+'\n'+ASSETS[k]['work_url'])
+ compact_credit=legend+'\n\n'+'\n\n'.join(short)
  for lang in ['en','ja']:
   c=read(ROOT/'records'/('content_en.json' if lang=='en' else 'content.json'));chapters=[]
   for ch in c['chapters']:
    s=next(s for s in master['segments'] if s['chapter']==ch['id']);chapters.append(mm(s['start'] if chapters else 0)+' '+ch['title'])
-  intro=('Why do oni wear tiger skin? Four familiar claims meet the old sources: a large hat on Mount Asakura, a one-eyed figure in Izumo, a dictionary explanation, Sekien\'s ox and tiger, and a court ritual whose roles changed.' if lang=='en' else '鬼はなぜ虎の皮を着ているのでしょうか。朝倉山の大きな笠、出雲の一つ目の鬼、古い辞書の説明、石燕が書いた丑寅、そして追う役と追われる役。四つのよく知られた説明を、古い記録と突き合わせます。')
-  text='\n\n'.join(['# '+c['title'],intro,'\n'.join(chapters),('Sources and references' if lang=='en' else '出典・参考資料')+'\n\n'+'\n\n'.join(t+'\n'+u for t,u in SOURCES),('Image credits' if lang=='en' else '素材クレジット')+'\n\n'+credit,'Voice: Kokoro / Heart (af_heart)\nMusic: QO_THEME_A02 / Suno.','#Oni #JapaneseFolklore #Setsubun #QuietOrigins' if lang=='en' else '#鬼 #日本の伝承 #節分 #QuietOrigins'])+'\n'
+  intro=('Why tiger skin? We test four familiar claims about oni against old records, pictures, and the changing roles of a court ritual.' if lang=='en' else '鬼はなぜ虎の皮を着ているのでしょうか。姿、語源、丑寅の方角、追儺の役割。四つのよく知られた説明を、古い記録と絵で確かめます。')
+  text='\n\n'.join(['# '+c['title'],intro,'\n'.join(chapters),('Sources and references' if lang=='en' else '出典・参考資料')+'\n\n'+'\n\n'.join(t+'\n'+u for t,u in SOURCES),('Image credits' if lang=='en' else '素材クレジット')+'\n\n'+compact_credit,'Voice: Kokoro / Heart (af_heart)\nMusic: QO_THEME_A02 / Suno.','#Oni #JapaneseFolklore #Setsubun #QuietOrigins' if lang=='en' else '#鬼 #日本の伝承 #節分 #QuietOrigins'])+'\n'
   if lang=='en':assert not re.search(r'[\u3040-\u30ff\u3400-\u9fff]',text)
+  description=text.split('\n\n',1)[1];assert len(description.encode('utf-8'))<=5000,(lang,len(description.encode('utf-8')))
+  save(ROOT/lang/'records/upload_metadata_validation.json',dict(description_characters=len(description),description_utf8_bytes=len(description.encode('utf-8')),maximum_bytes=5000,reference='https://developers.google.com/youtube/data/reference/rest/v3/videos#snippet.description',english_titles_only=lang=='en',title=c['title']))
   path=D/f'EP014_upload_info_{lang}.md';path.write_text(text);shutil.copy2(path,SHARE/path.name)
   save(ROOT/lang/'records/chapters.json',{'timebase':'English master for both descriptions, as requested','chapters':chapters})
   for p in (ROOT/lang/'deliverables').iterdir():
@@ -63,7 +73,7 @@ def archive():
  for lang in ['en','ja']:
   for name in ['qc_v01','continuous_qc','layout_qc','final_video_motion','subtitle_layout_validation']:assert read(ROOT/lang/'records'/f'{name}.json')['passed'],(lang,name)
   for name in ['content.json','content_en.json']:assert sha(ROOT/lang/'records'/name)==sha(REPO/'new-channel/episodes/EP014_Oni/records'/name)
- for name in ['continuous_qc_4k','layout_qc_4k']:assert read(ROOT/'en/records'/f'{name}.json')['passed']
+ for name in ['continuous_qc_4k','layout_qc_4k','final_video_motion_4k']:assert read(ROOT/'en/records'/f'{name}.json')['passed']
  assert read(ROOT/'en/records/4k_audio_integrity.json')['audio_stream_identical_to_1080'];assert read(ROOT/'records/visual_review.json')['reviewed']
  metadata();audition()
  for lang in ['en','ja']:
@@ -98,9 +108,12 @@ def report():
  for k,count in usage.items():
   vals=[max(max(a['native_scale'],a.get('max_native_scale',0)) for a in ss if a['key']==k) for ss in scale_sets]
   lines.append(f"|{k}|{count}|{vals[0]:.4f}|{vals[1]:.4f}|{vals[2]:.4f}|")
- lines += ['', '## 動きの実測', '', '|素材|英語 p95/中央値|日本語 p95/中央値|', '|---|---:|---:|']
+ lines += ['', '## 動きの実測', '', '|素材|英1080p p95/中央値|日1080p p95/中央値|英4K p95/中央値|', '|---|---:|---:|---:|']
  motions=[{a['shot']:a for a in read(ROOT/l/'records/final_video_motion.json')['checks']} for l in ['en','ja']]
- for k in motions[0]:lines.append(f"|{k}|{motions[0][k]['ratio']:.3f}|{motions[1][k]['ratio']:.3f}|")
+ motion4={a['shot']:a for a in read(ROOT/'en/records/final_video_motion_4k.json')['checks']}
+ for k in motions[0]:
+  ratio4=f"{motion4[k]['ratio']:.3f}" if k in motion4 else '静止（原寸上限）'
+  lines.append(f"|{k}|{motions[0][k]['ratio']:.3f}|{motions[1][k]['ratio']:.3f}|{ratio4}|")
  lines += ['', '意図的な原典への寄り・札の出現・カードの段階表示・共通OP/EDを除く、連続する作品カメラ移動の全隣接フレームを測定。', '', '## カードの文字・箱内余白', '', '|言語・出力|文字コントラスト最小|箱内余白最小|主要行の字高|', '|---|---:|---:|---|']
  for l,suffix in [('en',''),('ja',''),('en','_4k')]:
   q=read(ROOT/l/'records'/f'layout_qc{suffix}.json');factor=2 if suffix else 1

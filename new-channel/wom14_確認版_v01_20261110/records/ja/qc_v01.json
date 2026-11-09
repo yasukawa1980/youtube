@@ -1,0 +1,65 @@
+{
+  "passed": true,
+  "duration_seconds": 450.8333333333333,
+  "frames": 13525,
+  "fps": 30,
+  "human_full_listening": false,
+  "files": [
+    {
+      "name": "EP014_Oni_ja_v01_1080p30.mp4",
+      "bytes": 60254574,
+      "sha256": "60b347797bb2013a488912f41501d3177845ea2b217d033e6c5b7705328b4fba",
+      "video_stream_sha256": "SHA256=bfe546e5cd1021f98d0f8441dfccc89017335bf5a0ef56fba7d6db236f954d9d",
+      "audio_stream_sha256": "SHA256=18947a3613dff135c771af0bcb177882a7572becdc3a677d421976277a8d1c83",
+      "full_decode": true,
+      "decode_warnings": 0,
+      "profile": "High",
+      "pix_fmt": "yuv420p",
+      "exact_30fps_pts": true,
+      "frames": 13525,
+      "duration": 450.833333,
+      "loudness": {
+        "input_i": "-16.00",
+        "input_tp": "-4.94",
+        "input_lra": "2.70",
+        "input_thresh": "-26.54",
+        "output_i": "-15.96",
+        "output_tp": "-4.82",
+        "output_lra": "2.70",
+        "output_thresh": "-26.41",
+        "normalization_type": "dynamic",
+        "target_offset": "-0.04"
+      },
+      "silence_over_1s_at_minus60dB": []
+    },
+    {
+      "name": "EP014_Oni_ja_v01_subtitled_review_1080p30.mp4",
+      "bytes": 42923938,
+      "sha256": "286d616710adbc36084bdc8a08fe16d7ceeffa987a7093d12a79549082d90381",
+      "video_stream_sha256": "SHA256=f967745afb85c5fdc45db156816969983b1d9a00c0c7b9ac149dafcec540c613",
+      "audio_stream_sha256": "SHA256=18947a3613dff135c771af0bcb177882a7572becdc3a677d421976277a8d1c83",
+      "full_decode": true,
+      "decode_warnings": 0,
+      "profile": "High",
+      "pix_fmt": "yuv420p",
+      "exact_30fps_pts": true,
+      "frames": 13525,
+      "duration": 450.833333,
+      "loudness": {
+        "input_i": "-16.00",
+        "input_tp": "-4.94",
+        "input_lra": "2.70",
+        "input_thresh": "-26.54",
+        "output_i": "-15.96",
+        "output_tp": "-4.82",
+        "output_lra": "2.70",
+        "output_thresh": "-26.41",
+        "normalization_type": "dynamic",
+        "target_offset": "-0.04"
+      },
+      "silence_over_1s_at_minus60dB": []
+    }
+  ],
+  "shared_video_stream": false,
+  "subtitled_audio_unchanged": true
+}

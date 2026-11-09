@@ -1,0 +1,43 @@
+{
+  "passed": true,
+  "movie_timescale": 48000,
+  "video_frames": 13525,
+  "audio_samples": 21640000,
+  "files": [
+    {
+      "name": "EP014_audio_ja.m4a",
+      "before_sha256": "828cf98b4d32ff0d88dcac0a5fca2410c2a04177d79ef655ed974cc5712cc77b",
+      "after_sha256": "828cf98b4d32ff0d88dcac0a5fca2410c2a04177d79ef655ed974cc5712cc77b",
+      "already_sample_exact": true,
+      "encoded_streams_identical": true,
+      "stream_hashes": {
+        "audio": "SHA256=18947a3613dff135c771af0bcb177882a7572becdc3a677d421976277a8d1c83"
+      },
+      "duration_seconds": "450.833333"
+    },
+    {
+      "name": "EP014_Oni_ja_v01_1080p30.mp4",
+      "before_sha256": "60b347797bb2013a488912f41501d3177845ea2b217d033e6c5b7705328b4fba",
+      "after_sha256": "60b347797bb2013a488912f41501d3177845ea2b217d033e6c5b7705328b4fba",
+      "already_sample_exact": true,
+      "encoded_streams_identical": true,
+      "stream_hashes": {
+        "video": "SHA256=bfe546e5cd1021f98d0f8441dfccc89017335bf5a0ef56fba7d6db236f954d9d",
+        "audio": "SHA256=18947a3613dff135c771af0bcb177882a7572becdc3a677d421976277a8d1c83"
+      },
+      "duration_seconds": "450.833333"
+    },
+    {
+      "name": "EP014_Oni_ja_v01_subtitled_review_1080p30.mp4",
+      "before_sha256": "286d616710adbc36084bdc8a08fe16d7ceeffa987a7093d12a79549082d90381",
+      "after_sha256": "286d616710adbc36084bdc8a08fe16d7ceeffa987a7093d12a79549082d90381",
+      "already_sample_exact": true,
+      "encoded_streams_identical": true,
+      "stream_hashes": {
+        "video": "SHA256=f967745afb85c5fdc45db156816969983b1d9a00c0c7b9ac149dafcec540c613",
+        "audio": "SHA256=18947a3613dff135c771af0bcb177882a7572becdc3a677d421976277a8d1c83"
+      },
+      "duration_seconds": "450.833333"
+    }
+  ]
+}
