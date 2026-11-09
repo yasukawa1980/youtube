@@ -37,7 +37,7 @@
 #作業用BGM #カフェBGM #読書BGM
 ```
 
-**★本編URLは公開後に貼る。**
+**11/10 予約時に本編URL https://youtu.be/N2CilO5AP0E を入れて予約済み**：A zZHSxh3w83w（11/16 18:00）・B SH5HX_MHuLo（11/18 18:00）・C I973jE-9aEg（11/20 18:00）
 
 ## 並べ方
 
