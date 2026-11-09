@@ -75,7 +75,10 @@ def layout():
   if a['key']=='O11-12':assert a['crop_fraction']==list(SAFE['O11-12'])
  assert len(BOXES['O06-38'][0])==1 and BOXES['O06-38'][0][0][0]<.62 and BOXES['O06-38'][0][0][2]>.68
  card_bottom=max(r['box'][3] for r in checks);assert card_bottom<=880
- save(ROOT/f'records/layout_qc{SUFFIX}.json',dict(passed=True,contrast_min=min(r['contrast'] for r in checks),padding_min=min(r['padding'] for r in checks if 'padding' in r),checklist_major_height=52,text_card_major_height_min=60,content_bottom=card_bottom,subtitle_zone_top=925,minimum_reserved_gap=925-card_bottom,usage=usage,source_excerpt_boxes=BOXES,safe_limits=SAFE,sekien_polygon_mask=[[.035,.17],[.395,.17],[.395,.385],[.30,.435],[.035,.435]],max_native_scale=max(max(a['native_scale'],a.get('max_native_scale',0)) for a in sc),rows=checks))
+ timeline=read(ROOT/'records/master_timeline.json');segments={s['id']:s for s in timeline['segments']}
+ holds={k:segments[k]['end']-segments[k]['cues'][-1]['end'] for k in ['P06','P11','P13']};assert min(holds.values())>=.9,holds
+ all_card=next(s for s in shots if s['key']=='D_check_all');assert all_card['frames']>=45
+ save(ROOT/f'records/layout_qc{SUFFIX}.json',dict(passed=True,post_speech_card_holds=holds,completed_card_seconds=all_card['frames']/30,contrast_min=min(r['contrast'] for r in checks),padding_min=min(r['padding'] for r in checks if 'padding' in r),checklist_major_height=52,text_card_major_height_min=60,content_bottom=card_bottom,subtitle_zone_top=925,minimum_reserved_gap=925-card_bottom,usage=usage,source_excerpt_boxes=BOXES,safe_limits=SAFE,sekien_polygon_mask=[[.035,.17],[.395,.17],[.395,.385],[.30,.435],[.035,.435]],max_native_scale=max(max(a['native_scale'],a.get('max_native_scale',0)) for a in sc),rows=checks))
  print('LAYOUT',LANG,S,flush=True)
 def motion():
  shots=read(ROOT/'records/render_shots.json');sc=read(ROOT/'records/art_scales.json');master=ROOT/'_work/picture_master.mp4';out=[]

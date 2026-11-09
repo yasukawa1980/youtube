@@ -50,8 +50,8 @@ def audition():
   if missing:lines.append('Not spoken in approved script: '+', '.join(missing))
   tmp=ROOT/f'_work/audition_{lang}.wav';tmp.parent.mkdir(exist_ok=True);sf.write(tmp,np.concatenate(pieces),SR);ff(['-i',tmp,'-c:a','aac','-b:a','160k',D/f'EP014_pronunciation_{lang}.m4a']);(D/f'EP014_pronunciation_{lang}.txt').write_text('\n'.join(lines)+'\n');results[lang]={'sentences':rows,'terms_not_in_script':missing}
  save(ROOT/'records/pronunciation_review.json',dict(human_listening_completed=False,basis=read(ROOT/'records/reading_diagnostic_note.json'),languages=results))
-def samples():
- for lang in ['en','ja']:
+def samples(languages=None):
+ for lang in (languages or ['en','ja']):
   r=ROOT/lang;shots=read(r/'records/render_shots.json');cues=read(r/f'records/subtitle_cues_{lang}.json')['cues'];src=r/f'deliverables/EP014_Oni_{lang}_v01_subtitled_review_1080p30.mp4';rows=[]
   for k in ['D_features','D_check_list','D_check_1','D_check_3','D_check_all','O06-38','O11-12','R11-30']:
    shot=next(s for s in shots if s['key']==k);candidates=[c for c in cues if min(c['end'],shot['end'])-max(c['start'],shot['start'])>.1];c=min(candidates,key=lambda c:abs((c['start']+c['end'])/2-(shot['start']+shot['end'])/2));t=(max(c['start'],shot['start'])+min(c['end'],shot['end']))/2

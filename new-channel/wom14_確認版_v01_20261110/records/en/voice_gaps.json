@@ -1,0 +1,101 @@
+{
+  "gaps": [
+    {
+      "segment": "P01",
+      "speech_end": 33.2465,
+      "boundary": 34.166666666666664,
+      "gap": 0.9201666666666668
+    },
+    {
+      "segment": "P02",
+      "speech_end": 57.13254166666667,
+      "boundary": 58.06666666666667,
+      "gap": 0.9341250000000016
+    },
+    {
+      "segment": "P03",
+      "speech_end": 80.32600000000001,
+      "boundary": 81.23333333333333,
+      "gap": 0.9073333333333267
+    },
+    {
+      "segment": "P04",
+      "speech_end": 126.08383333333333,
+      "boundary": 127.0,
+      "gap": 0.916166666666669
+    },
+    {
+      "segment": "P05",
+      "speech_end": 158.97854166666667,
+      "boundary": 159.9,
+      "gap": 0.9214583333333337
+    },
+    {
+      "segment": "P06",
+      "speech_end": 174.16325,
+      "boundary": 175.06666666666666,
+      "gap": 0.9034166666666579
+    },
+    {
+      "segment": "P07",
+      "speech_end": 207.04595833333332,
+      "boundary": 207.96666666666667,
+      "gap": 0.9207083333333514
+    },
+    {
+      "segment": "P08",
+      "speech_end": 241.680625,
+      "boundary": 242.6,
+      "gap": 0.9193750000000023
+    },
+    {
+      "segment": "P09",
+      "speech_end": 264.37925,
+      "boundary": 265.3,
+      "gap": 0.9207499999999982
+    },
+    {
+      "segment": "P10",
+      "speech_end": 297.66320833333333,
+      "boundary": 298.56666666666666,
+      "gap": 0.903458333333333
+    },
+    {
+      "segment": "P11",
+      "speech_end": 320.53525,
+      "boundary": 321.46666666666664,
+      "gap": 0.931416666666621
+    },
+    {
+      "segment": "P12",
+      "speech_end": 365.3998333333333,
+      "boundary": 366.3333333333333,
+      "gap": 0.9335000000000377
+    },
+    {
+      "segment": "P13",
+      "speech_end": 380.278625,
+      "boundary": 381.2,
+      "gap": 0.9213750000000118
+    },
+    {
+      "segment": "P14",
+      "speech_end": 410.65054166666664,
+      "boundary": 411.56666666666666,
+      "gap": 0.9161250000000223
+    },
+    {
+      "segment": "P15",
+      "speech_end": 417.9252916666667,
+      "boundary": 418.8333333333333,
+      "gap": 0.9080416666666338
+    },
+    {
+      "segment": "P16",
+      "speech_end": 440.50987499999997,
+      "boundary": 441.43333333333334,
+      "gap": 0.9234583333333717
+    }
+  ],
+  "policy": "0.92s between segments including >=0.9s verdict holds at P06/P11/P13; 4s opening; independent language timelines"
+}
