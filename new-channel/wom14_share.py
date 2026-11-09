@@ -43,13 +43,17 @@ def main():
     assert all(p.name.isascii() for p in files)
     releases=api([f'repos/{REPO}/releases?per_page=100'])
     r=next((r for r in releases if r['tag_name']==TAG),None)
+    body=('Quiet Origins 第14話「鬼」。承認済み台本v02。英日1080p本編と字幕入り確認版の4本を先行格納。英語4K・音声等のZIP・最終検品記録は作成中。非公開・本人試聴とClaude確認用。' if a.partial_1080 else 'Quiet Origins 第14話「鬼」。承認済み台本v02。英日1080p本編、英語原寸素材からの4K版、字幕入り英日確認版、音声・字幕・サムネ2案と検品記録。非公開・本人試聴とClaude確認待ち。')
     if r is None:
         r=api(['--method','POST',f'repos/{REPO}/releases','--input','-'],{
             'tag_name':TAG,'target_commitish':'bgm/production',
             'name':f'Quiet Origins 第14話 確認版{VERSION}（英日・非公開）',
-            'body':'Quiet Origins 第14話「鬼」。承認済み台本v02。英日1080p本編、英語原寸素材からの4K版、字幕入り英日確認版、音声・字幕・サムネ2案と検品記録。非公開・本人試聴とClaude確認待ち。',
+            'body':body,
             'draft':True})
     assert r['draft'] is True
+    if r.get('body')!=body:
+        r=api(['--method','PATCH',f'repos/{REPO}/releases/{r["id"]}','--input','-'],{'body':body,'draft':True})
+        assert r['draft'] is True
     # Empty draft is checked before any media is uploaded. Never publish it.
     assert_anonymous_hidden(f'repos/{REPO}/releases/{r["id"]}')
     previous=json.loads(a.record.read_text()) if a.record.exists() else {}
