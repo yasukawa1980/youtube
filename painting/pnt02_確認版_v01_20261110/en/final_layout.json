@@ -1,0 +1,703 @@
+{
+  "passed": true,
+  "video_sha256": "14a98c69de1f6aa14600bb5be7f60a1f703aa06f8fcd99db792c3df82c9fa36c",
+  "method": "Every card/chronology stage midpoint from uninterrupted final-video decode compared with exact source raster. Header/rail only for moving artwork.",
+  "usage": {
+    "V01_full_1": 1,
+    "D_timeline_intro": 1,
+    "opening": 1,
+    "D_letter_head": 1,
+    "D_letter": 1,
+    "V01_D1": 1,
+    "V01_D2": 1,
+    "D_resolution": 1,
+    "D_leutze": 1,
+    "V10": 1,
+    "V01_D3": 1,
+    "D_whittredge": 1,
+    "D_bremen": 1,
+    "D_1853": 1,
+    "V01_room": 1,
+    "V01_full_2": 1,
+    "credits": 1,
+    "endcard": 1
+  },
+  "quotation_text_exact": true,
+  "major_ink_min": 60,
+  "contrast_min": 6.823041278501212,
+  "plate_padding_min": 77.0,
+  "native_scale_max": 0.4992,
+  "p07_p10_no_emphasis": true,
+  "checks": [
+    {
+      "shot": "V01_full_1",
+      "frame": 538,
+      "stage": 0,
+      "year": null,
+      "area": "header",
+      "mae": 4.680809589460784,
+      "p99": 10.0,
+      "passed": true
+    },
+    {
+      "shot": "D_timeline_intro",
+      "frame": 1135,
+      "stage": -1,
+      "year": null,
+      "area": "card",
+      "mae": 4.508287037037037,
+      "p99": 7.0,
+      "passed": true
+    },
+    {
+      "shot": "D_timeline_intro",
+      "frame": 1209,
+      "stage": 0,
+      "year": null,
+      "area": "card",
+      "mae": 4.524985894097222,
+      "p99": 8.0,
+      "passed": true
+    },
+    {
+      "shot": "D_timeline_intro",
+      "frame": 1242,
+      "stage": 1,
+      "year": null,
+      "area": "card",
+      "mae": 4.541700303819445,
+      "p99": 8.0,
+      "passed": true
+    },
+    {
+      "shot": "D_timeline_intro",
+      "frame": 1278,
+      "stage": 2,
+      "year": null,
+      "area": "card",
+      "mae": 4.55775245949074,
+      "p99": 8.0,
+      "passed": true
+    },
+    {
+      "shot": "D_timeline_intro",
+      "frame": 1318,
+      "stage": 3,
+      "year": null,
+      "area": "card",
+      "mae": 4.572626953125,
+      "p99": 8.0,
+      "passed": true
+    },
+    {
+      "shot": "D_timeline_intro",
+      "frame": 1353,
+      "stage": 4,
+      "year": null,
+      "area": "card",
+      "mae": 4.587696035879629,
+      "p99": 8.0,
+      "passed": true
+    },
+    {
+      "shot": "D_timeline_intro",
+      "frame": 1397,
+      "stage": 5,
+      "year": null,
+      "area": "card",
+      "mae": 4.595726996527778,
+      "p99": 8.0,
+      "passed": true
+    },
+    {
+      "shot": "D_timeline_intro",
+      "frame": 1427,
+      "stage": 6,
+      "year": null,
+      "area": "card",
+      "mae": 4.597896412037037,
+      "p99": 8.0,
+      "passed": true
+    },
+    {
+      "shot": "D_timeline_intro",
+      "frame": 1428,
+      "stage": 7,
+      "year": null,
+      "area": "card",
+      "mae": 4.598194082754629,
+      "p99": 8.0,
+      "passed": true
+    },
+    {
+      "shot": "D_timeline_intro",
+      "frame": 1429,
+      "stage": 8,
+      "year": null,
+      "area": "card",
+      "mae": 4.582448640046296,
+      "p99": 8.0,
+      "passed": true
+    },
+    {
+      "shot": "D_timeline_intro",
+      "frame": 1430,
+      "stage": 9,
+      "year": null,
+      "area": "card",
+      "mae": 4.579768156828703,
+      "p99": 8.0,
+      "passed": true
+    },
+    {
+      "shot": "D_timeline_intro",
+      "frame": 1431,
+      "stage": 10,
+      "year": null,
+      "area": "card",
+      "mae": 4.574310980902778,
+      "p99": 8.0,
+      "passed": true
+    },
+    {
+      "shot": "D_timeline_intro",
+      "frame": 1432,
+      "stage": 11,
+      "year": null,
+      "area": "card",
+      "mae": 4.5624815538194445,
+      "p99": 8.0,
+      "passed": true
+    },
+    {
+      "shot": "D_timeline_intro",
+      "frame": 1433,
+      "stage": 12,
+      "year": null,
+      "area": "card",
+      "mae": 4.568597005208333,
+      "p99": 8.0,
+      "passed": true
+    },
+    {
+      "shot": "D_timeline_intro",
+      "frame": 1434,
+      "stage": 13,
+      "year": null,
+      "area": "card",
+      "mae": 4.580724826388889,
+      "p99": 8.0,
+      "passed": true
+    },
+    {
+      "shot": "D_timeline_intro",
+      "frame": 1435,
+      "stage": 14,
+      "year": null,
+      "area": "card",
+      "mae": 4.564215494791667,
+      "p99": 8.0,
+      "passed": true
+    },
+    {
+      "shot": "D_timeline_intro",
+      "frame": 1436,
+      "stage": 15,
+      "year": null,
+      "area": "card",
+      "mae": 4.571937572337963,
+      "p99": 8.0,
+      "passed": true
+    },
+    {
+      "shot": "D_timeline_intro",
+      "frame": 1437,
+      "stage": 16,
+      "year": null,
+      "area": "card",
+      "mae": 4.548893229166667,
+      "p99": 8.0,
+      "passed": true
+    },
+    {
+      "shot": "D_timeline_intro",
+      "frame": 1438,
+      "stage": 17,
+      "year": null,
+      "area": "card",
+      "mae": 4.554071542245371,
+      "p99": 8.0,
+      "passed": true
+    },
+    {
+      "shot": "D_timeline_intro",
+      "frame": 1439,
+      "stage": 18,
+      "year": null,
+      "area": "card",
+      "mae": 4.556955295138889,
+      "p99": 8.0,
+      "passed": true
+    },
+    {
+      "shot": "D_timeline_intro",
+      "frame": 1440,
+      "stage": 19,
+      "year": null,
+      "area": "card",
+      "mae": 4.546502459490741,
+      "p99": 8.0,
+      "passed": true
+    },
+    {
+      "shot": "D_timeline_intro",
+      "frame": 1441,
+      "stage": 20,
+      "year": null,
+      "area": "card",
+      "mae": 4.550705295138889,
+      "p99": 8.0,
+      "passed": true
+    },
+    {
+      "shot": "D_timeline_intro",
+      "frame": 1442,
+      "stage": 21,
+      "year": null,
+      "area": "card",
+      "mae": 4.547456597222222,
+      "p99": 8.0,
+      "passed": true
+    },
+    {
+      "shot": "D_timeline_intro",
+      "frame": 1443,
+      "stage": 22,
+      "year": null,
+      "area": "card",
+      "mae": 4.538090639467592,
+      "p99": 8.0,
+      "passed": true
+    },
+    {
+      "shot": "D_timeline_intro",
+      "frame": 1444,
+      "stage": 23,
+      "year": null,
+      "area": "card",
+      "mae": 4.539562355324074,
+      "p99": 8.0,
+      "passed": true
+    },
+    {
+      "shot": "D_timeline_intro",
+      "frame": 1445,
+      "stage": 24,
+      "year": null,
+      "area": "card",
+      "mae": 4.533198061342593,
+      "p99": 8.0,
+      "passed": true
+    },
+    {
+      "shot": "D_timeline_intro",
+      "frame": 1446,
+      "stage": 25,
+      "year": null,
+      "area": "card",
+      "mae": 4.523764829282407,
+      "p99": 7.0,
+      "passed": true
+    },
+    {
+      "shot": "D_timeline_intro",
+      "frame": 1447,
+      "stage": 26,
+      "year": null,
+      "area": "card",
+      "mae": 4.525539279513889,
+      "p99": 7.0,
+      "passed": true
+    },
+    {
+      "shot": "D_timeline_intro",
+      "frame": 1448,
+      "stage": 27,
+      "year": null,
+      "area": "card",
+      "mae": 4.517777054398148,
+      "p99": 7.0,
+      "passed": true
+    },
+    {
+      "shot": "D_timeline_intro",
+      "frame": 1449,
+      "stage": 28,
+      "year": null,
+      "area": "card",
+      "mae": 4.516489076967592,
+      "p99": 8.0,
+      "passed": true
+    },
+    {
+      "shot": "D_timeline_intro",
+      "frame": 1450,
+      "stage": 29,
+      "year": null,
+      "area": "card",
+      "mae": 4.509946831597222,
+      "p99": 8.0,
+      "passed": true
+    },
+    {
+      "shot": "D_timeline_intro",
+      "frame": 1451,
+      "stage": 30,
+      "year": null,
+      "area": "card",
+      "mae": 4.4978616898148145,
+      "p99": 7.0,
+      "passed": true
+    },
+    {
+      "shot": "D_timeline_intro",
+      "frame": 1452,
+      "stage": 31,
+      "year": null,
+      "area": "card",
+      "mae": 4.499148582175926,
+      "p99": 7.0,
+      "passed": true
+    },
+    {
+      "shot": "D_timeline_intro",
+      "frame": 1453,
+      "stage": 32,
+      "year": null,
+      "area": "card",
+      "mae": 4.506585286458333,
+      "p99": 8.0,
+      "passed": true
+    },
+    {
+      "shot": "D_timeline_intro",
+      "frame": 1454,
+      "stage": 33,
+      "year": null,
+      "area": "card",
+      "mae": 4.50076171875,
+      "p99": 7.0,
+      "passed": true
+    },
+    {
+      "shot": "D_timeline_intro",
+      "frame": 1455,
+      "stage": 34,
+      "year": null,
+      "area": "card",
+      "mae": 4.497287326388889,
+      "p99": 6.0,
+      "passed": true
+    },
+    {
+      "shot": "D_timeline_intro",
+      "frame": 1456,
+      "stage": 35,
+      "year": null,
+      "area": "card",
+      "mae": 4.486340784143518,
+      "p99": 6.0,
+      "passed": true
+    },
+    {
+      "shot": "D_letter_head",
+      "frame": 1897,
+      "stage": 0,
+      "year": "1776",
+      "area": "card",
+      "mae": 3.6529897280092594,
+      "p99": 8.0,
+      "passed": true
+    },
+    {
+      "shot": "D_letter",
+      "frame": 2453,
+      "stage": 0,
+      "year": "1776",
+      "area": "card",
+      "mae": 3.770080295138889,
+      "p99": 10.0,
+      "passed": true
+    },
+    {
+      "shot": "D_letter",
+      "frame": 2801,
+      "stage": 1,
+      "year": "1776",
+      "area": "card",
+      "mae": 3.693029513888889,
+      "p99": 9.0,
+      "passed": true
+    },
+    {
+      "shot": "V01_D1",
+      "frame": 3176,
+      "stage": 0,
+      "year": "1776",
+      "area": "header",
+      "mae": 4.669933363970588,
+      "p99": 10.0,
+      "passed": true
+    },
+    {
+      "shot": "V01_D1",
+      "frame": 3176,
+      "stage": 0,
+      "year": "1776",
+      "area": "chronology",
+      "mae": 3.365352527006173,
+      "p99": 8.0,
+      "passed": true
+    },
+    {
+      "shot": "V01_D2",
+      "frame": 3566,
+      "stage": 0,
+      "year": "1777",
+      "area": "header",
+      "mae": 4.673372395833334,
+      "p99": 10.0,
+      "passed": true
+    },
+    {
+      "shot": "V01_D2",
+      "frame": 3566,
+      "stage": 0,
+      "year": "1777",
+      "area": "chronology",
+      "mae": 3.4400559413580245,
+      "p99": 9.0,
+      "passed": true
+    },
+    {
+      "shot": "D_resolution",
+      "frame": 4043,
+      "stage": 0,
+      "year": "1777",
+      "area": "card",
+      "mae": 3.735602936921296,
+      "p99": 9.0,
+      "passed": true
+    },
+    {
+      "shot": "D_leutze",
+      "frame": 4479,
+      "stage": 0,
+      "year": "—",
+      "area": "card",
+      "mae": 3.6571943721064817,
+      "p99": 7.0,
+      "passed": true
+    },
+    {
+      "shot": "D_leutze",
+      "frame": 4634,
+      "stage": 1,
+      "year": "—",
+      "area": "card",
+      "mae": 3.6469769965277776,
+      "p99": 7.0,
+      "passed": true
+    },
+    {
+      "shot": "D_leutze",
+      "frame": 4852,
+      "stage": 2,
+      "year": "—",
+      "area": "card",
+      "mae": 3.6322894965277777,
+      "p99": 7.0,
+      "passed": true
+    },
+    {
+      "shot": "V10",
+      "frame": 5054,
+      "stage": 0,
+      "year": "—",
+      "area": "header",
+      "mae": 4.708934589460784,
+      "p99": 11.0,
+      "passed": true
+    },
+    {
+      "shot": "V10",
+      "frame": 5054,
+      "stage": 0,
+      "year": "—",
+      "area": "chronology",
+      "mae": 3.4487413194444443,
+      "p99": 9.0,
+      "passed": true
+    },
+    {
+      "shot": "V10",
+      "frame": 5412,
+      "stage": 0,
+      "year": "1849",
+      "area": "header",
+      "mae": 4.687802542892157,
+      "p99": 10.0,
+      "passed": true
+    },
+    {
+      "shot": "V10",
+      "frame": 5412,
+      "stage": 0,
+      "year": "1849",
+      "area": "chronology",
+      "mae": 3.3969449266975307,
+      "p99": 8.0,
+      "passed": true
+    },
+    {
+      "shot": "V01_D3",
+      "frame": 5771,
+      "stage": 0,
+      "year": "1849",
+      "area": "header",
+      "mae": 4.671836703431373,
+      "p99": 10.0,
+      "passed": true
+    },
+    {
+      "shot": "V01_D3",
+      "frame": 5771,
+      "stage": 0,
+      "year": "1849",
+      "area": "chronology",
+      "mae": 3.3960069444444443,
+      "p99": 9.0,
+      "passed": true
+    },
+    {
+      "shot": "D_whittredge",
+      "frame": 6052,
+      "stage": 0,
+      "year": "1849",
+      "area": "card",
+      "mae": 3.679479166666667,
+      "p99": 8.0,
+      "passed": true
+    },
+    {
+      "shot": "D_bremen",
+      "frame": 6365,
+      "stage": 0,
+      "year": "—",
+      "area": "card",
+      "mae": 3.6570811631944444,
+      "p99": 7.0,
+      "passed": true
+    },
+    {
+      "shot": "D_bremen",
+      "frame": 6582,
+      "stage": 1,
+      "year": "—",
+      "area": "card",
+      "mae": 3.630326605902778,
+      "p99": 7.0,
+      "passed": true
+    },
+    {
+      "shot": "D_bremen",
+      "frame": 6751,
+      "stage": 2,
+      "year": "—",
+      "area": "card",
+      "mae": 3.650250289351852,
+      "p99": 8.0,
+      "passed": true
+    },
+    {
+      "shot": "D_1853",
+      "frame": 6888,
+      "stage": 0,
+      "year": "1851",
+      "area": "card",
+      "mae": 3.642553168402778,
+      "p99": 7.0,
+      "passed": true
+    },
+    {
+      "shot": "D_1853",
+      "frame": 7118,
+      "stage": 1,
+      "year": "1851",
+      "area": "card",
+      "mae": 3.65316333912037,
+      "p99": 8.0,
+      "passed": true
+    },
+    {
+      "shot": "V01_room",
+      "frame": 7326,
+      "stage": 0,
+      "year": "1897",
+      "area": "header",
+      "mae": 4.677152267156862,
+      "p99": 10.0,
+      "passed": true
+    },
+    {
+      "shot": "V01_room",
+      "frame": 7326,
+      "stage": 0,
+      "year": "1897",
+      "area": "chronology",
+      "mae": 3.39911506558642,
+      "p99": 9.0,
+      "passed": true
+    },
+    {
+      "shot": "V01_room",
+      "frame": 7482,
+      "stage": 0,
+      "year": "today",
+      "area": "header",
+      "mae": 4.67508425245098,
+      "p99": 10.0,
+      "passed": true
+    },
+    {
+      "shot": "V01_room",
+      "frame": 7482,
+      "stage": 0,
+      "year": "today",
+      "area": "chronology",
+      "mae": 3.4153886959876543,
+      "p99": 9.0,
+      "passed": true
+    },
+    {
+      "shot": "V01_full_2",
+      "frame": 8119,
+      "stage": 0,
+      "year": null,
+      "area": "header",
+      "mae": 4.674636182598039,
+      "p99": 10.0,
+      "passed": true
+    },
+    {
+      "shot": "credits",
+      "frame": 9008,
+      "stage": 0,
+      "year": null,
+      "area": "card",
+      "mae": 3.8648546006944446,
+      "p99": 8.0,
+      "passed": true
+    }
+  ]
+}

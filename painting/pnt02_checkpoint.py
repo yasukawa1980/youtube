@@ -41,7 +41,7 @@ def main():
   if 'plate_padding' in r:assert r['plate_padding']>=35,r
   checks.append(dict(r,contrast=ratio,actual_background=bg))
  report['card_design']=dict(exact_quote_strings=True,contrast_min=min(r['contrast'] for r in checks),major_ink_min=min(r['ink_height'] for r in rows if r['major']),label_ink_min=min(r['ink_height'] for r in rows),body_ink_min=min(r['ink_height'] for r in rows if 'plate_padding' in r),padding_min=min(r['plate_padding'] for r in rows if 'plate_padding' in r),note='Static design samples only; rail years are placeholders, not final episode frames. Subtitle/rail rendered overlap not yet checked.')
- report['pending']=['P07/P08 chronology clarification','proper-name audio reference/listening and corrections if needed','shot layout and per-frame camera render','English/Japanese 1080p and English 4K MP4, subtitled review MP4','continuous decode and first/middle/last shot sheets','motion smoothness measurement','subtitle versus chronology-rail rendered clearance','final upload descriptions and chapters','full v01 media delivery']
+ report['pending']=['proper-name audio reference/listening and corrections if needed','shot layout and per-frame camera render','English/Japanese 1080p and English 4K MP4, subtitled review MP4','continuous decode and first/middle/last shot sheets','motion smoothness measurement','subtitle versus chronology-rail rendered clearance','final upload descriptions and chapters','full v01 media delivery']
  save(OUT/'preproduction_qc.json',report)
  save(OUT/'card_design_qc.json',checks)
  archive=ROOT/'deliverables';archive.mkdir(exist_ok=True)

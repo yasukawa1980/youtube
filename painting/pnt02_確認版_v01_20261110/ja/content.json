@@ -1,0 +1,296 @@
+{
+ "episode_id": "PNT02",
+ "series": "Quiet Origins",
+ "language": "ja",
+ "title": "「デラウェア川を渡るワシントン」は、本当にこうだったのか",
+ "subtitle": "1776年の冬の夜、1777年の旗、デュッセルドルフのアトリエ、1851年のニューヨーク",
+ "script_version": "v02 (2026-11-10, approved by the owner)",
+ "opening_after": "P02",
+ "format": "timeline (変遷型), painting series 2 (Origins of a Masterpiece)",
+ "chapters": [
+  {
+   "id": "C01",
+   "title": "有名な渡河"
+  },
+  {
+   "id": "C02",
+   "title": "1776年：川の夜"
+  },
+  {
+   "id": "C03",
+   "title": "1777年：新しい旗"
+  },
+  {
+   "id": "C04",
+   "title": "1849年：デュッセルドルフのアトリエ"
+  },
+  {
+   "id": "C05",
+   "title": "1851年：ニューヨーク"
+  },
+  {
+   "id": "C06",
+   "title": "そして今"
+  }
+ ],
+ "sources": [
+  {
+   "id": "S01",
+   "title": "The Metropolitan Museum of Art, 97.34, Emanuel Leutze, Washington Crossing the Delaware (1851): object record and API",
+   "kind": "museum",
+   "status": "checked by Codex 2026-11-10: 1851; 378.5 x 647.7 cm; Gift of John Stewart Kennedy, 1897; isPublicDomain=true"
+  },
+  {
+   "id": "S03",
+   "title": "Founders Online: From George Washington to John Hancock, 27 December 1776",
+   "kind": "transcription",
+   "status": "checked by Codex 2026-11-10 (transcription; manuscript not seen): plan to pass as soon as it grew dark; artillery over at three o'clock; march near four; 'a very severe Night'; march through 'a violent Storm of Snow and Hail'"
+  },
+  {
+   "id": "S05",
+   "title": "National Archives, 'Celebrating Flag Day' (2022), quoting the resolution of 14 June 1777",
+   "kind": "transcription",
+   "status": "checked by Codex 2026-11-10: thirteen stripes, thirteen stars; no arrangement specified; Journals p.464 page image not verified"
+  },
+  {
+   "id": "S06",
+   "title": "Washington Crossing Historic Park, Myths and Legends",
+   "kind": "reference",
+   "status": "checked by Codex 2026-11-10: flag adopted about six months later; which flag flown that night, if any, not known"
+  },
+  {
+   "id": "S08",
+   "title": "Mount Vernon, Crossing the Delaware in Art",
+   "kind": "reference",
+   "status": "checked by Codex 2026-11-10: Leutze supported the 1848 revolutions and hoped to inspire new struggles for liberty and democracy (museum interpretation)"
+  },
+  {
+   "id": "S09",
+   "title": "U.S. Department of State, Art in Embassies: Emanuel Leutze",
+   "kind": "reference",
+   "status": "checked by Codex 2026-11-10: born 1816; to US 1825; to Düsseldorf 1841; began the painting 1849"
+  },
+  {
+   "id": "S10",
+   "title": "Smithsonian American Art Museum: Emanuel Gottlieb Leutze",
+   "kind": "reference",
+   "status": "checked by Codex 2026-11-10: biography; 1841 return supported"
+  },
+  {
+   "id": "S11",
+   "title": "John K. Howat, The Metropolitan Museum of Art Bulletin 26(7), 1968, pp.289-299",
+   "kind": "reference",
+   "status": "checked by Codex 2026-11-10 (web text; page images not seen): Whittredge's recollection quoted ('for the steersman and again for Washington himself'); head after Houdon; studio fire 1850; New York 1851; 'morning light'"
+  },
+  {
+   "id": "S12",
+   "title": "The Metropolitan Museum of Art Bulletin, Fall 2011, Restoring an American Masterpiece",
+   "kind": "reference",
+   "status": "checked by Codex 2026-11-10 (search text only): fire November 1850; second version begun January 1851; Venus and dawn"
+  },
+  {
+   "id": "S14",
+   "title": "National Academy of Design, Worthington Whittredge (object 1305)",
+   "kind": "reference",
+   "status": "checked by Codex 2026-11-10: Whittredge posed for Washington and the steersman"
+  },
+  {
+   "id": "S17",
+   "title": "Library of Congress 2020633689, Paul Girardet after Leutze, Washington crossing the Delaware (New York: Goupil & Co., 1853)",
+   "kind": "print",
+   "status": "checked by Codex 2026-11-10 (search text): 1853; No known restrictions on publication; image not yet obtained"
+  },
+  {
+   "id": "S22",
+   "title": "Staatliche Museen zu Berlin, Kunstbibliothek 1900,682, Des Deutschen Vaterland von Moritz Arndt (1848)",
+   "kind": "print",
+   "status": "obtained by Codex 2026-11-10: Public Domain Mark 1.0; 2940 x 3500 px"
+  }
+ ],
+ "segments": [
+  {
+   "id": "P01",
+   "chapter": "C01",
+   "sources": [
+    "S01",
+    "S05",
+    "S06"
+   ],
+   "classification": "editorial_question",
+   "visuals": [
+    "V01_full_1"
+   ],
+   "text": "これは、アメリカの歴史で最もよく知られた絵の一つ、「デラウェア川を渡るワシントン」です。冬の川、流れる氷のあいだで、ジョージ・ワシントンが小舟に立ち、前を見つめています。その後ろでは、兵士が星条旗を掲げています。けれど、この絵が描かれたのは1776年ではありません。およそ75年後、ドイツで描かれました。そして渡河の夜、あの旗はまだ、国の旗として定められていませんでした。"
+  },
+  {
+   "id": "P02",
+   "chapter": "C01",
+   "sources": [],
+   "classification": "editorial_question",
+   "visuals": [
+    "D_timeline_intro"
+   ],
+   "text": "今回は、この絵の歩みをたどります。冬の夜の川から、デュッセルドルフの画家のアトリエ、そしてこの絵が有名になった街まで、時代の順に見ていきます。"
+  },
+  {
+   "id": "P03",
+   "chapter": "C02",
+   "sources": [
+    "S03"
+   ],
+   "classification": "historical_fact",
+   "visuals": [
+    "D_letter_head"
+   ],
+   "text": "1776年12月25日の夕方、ワシントンの軍は、ペンシルベニアからニュージャージーへ、デラウェア川を渡り始めました。向かう先はトレントンです。2日後、ワシントンは大陸会議の議長ジョン・ハンコックへの手紙で、この渡河について書いています。"
+  },
+  {
+   "id": "P04",
+   "chapter": "C02",
+   "sources": [
+    "S03"
+   ],
+   "classification": "historical_fact",
+   "visuals": [
+    "D_letter"
+   ],
+   "text": "暗くなりしだい渡り始める計画でした。けれどその夜、川には氷ができ、舟の進みをひどく遅らせました。砲兵をすべて渡し終えたのは3時、兵が行軍を始めたのは4時近くでした。ワシントンはそれを「非常に厳しい夜」と呼び、行軍は雪と雹の激しい嵐の中だったと書いています。"
+  },
+  {
+   "id": "P05",
+   "chapter": "C02",
+   "sources": [
+    "S11",
+    "S12"
+   ],
+   "classification": "interpretation",
+   "visuals": [
+    "V01_D1"
+   ],
+   "text": "絵の中では、空に朝の光が広がり、舟の上には最後の星がまだ輝いています。この絵の研究は、この光を夜明けと結びつけています。夜通し続いた渡河が、ここでは一つの場面にまとめられているのです。"
+  },
+  {
+   "id": "P06",
+   "chapter": "C03",
+   "sources": [
+    "S05",
+    "S06"
+   ],
+   "classification": "historical_fact",
+   "visuals": [
+    "V01_D2",
+    "D_resolution"
+   ],
+   "text": "絵の旗には、赤と白の縞と、青地に白い星があります。星条旗です。1777年6月14日、渡河のおよそ半年後に、大陸会議は、合衆国の旗を13本の縞と13の星とすることを決めました。決議は、星の並べ方を定めていません。あの夜にどの旗が掲げられたのか、そもそも旗があったのかは、分かっていません。"
+  },
+  {
+   "id": "P07",
+   "chapter": "C04",
+   "sources": [
+    "S09",
+    "S10"
+   ],
+   "classification": "historical_fact",
+   "visuals": [
+    "D_leutze"
+   ],
+   "text": "画家のエマヌエル・ロイツェは、1816年にドイツで生まれました。子どものころ家族とともにアメリカへ渡り、1841年、絵を学ぶためにドイツへ戻ります。学んだのは、歴史画の画家が集まる街、デュッセルドルフでした。"
+  },
+  {
+   "id": "P08",
+   "chapter": "C04",
+   "sources": [
+    "S08",
+    "S09",
+    "S12"
+   ],
+   "classification": "historical_fact",
+   "visuals": [
+    "V10"
+   ],
+   "text": "彼がこの街で最初の絵を描き始めたのは1849年。1848年にヨーロッパの各地で革命が起きた、すぐ後のことです。ワシントンの旧邸で、いまは博物館のマウントバーノンは、ロイツェがその革命を支持し、この絵が自由と民主主義への新たな闘いを励ますことを望んでいた、と説明しています。"
+  },
+  {
+   "id": "P09",
+   "chapter": "C04",
+   "sources": [
+    "S11",
+    "S14"
+   ],
+   "classification": "historical_fact",
+   "visuals": [
+    "V01_D3",
+    "D_whittredge"
+   ],
+   "text": "人物のモデルを務めたのは、この街にいたアメリカ人たちでした。その一人、画家のワージントン・ホイットリッジは、舟の舵を取る人と、そしてワシントンその人のモデルをしたと振り返っています。ワシントンの頭部は、ウードンの彫刻を参考にしたとされます。"
+  },
+  {
+   "id": "P10",
+   "chapter": "C04",
+   "sources": [
+    "S11",
+    "S12"
+   ],
+   "classification": "historical_fact",
+   "visuals": [
+    "D_bremen"
+   ],
+   "text": "1850年11月、アトリエの火事で、最初の絵が傷みました。翌年、ロイツェは2枚目を描き始めます。最初の絵は修復され、ブレーメンの街へ渡りましたが、1942年の空襲で失われました。"
+  },
+  {
+   "id": "P11",
+   "chapter": "C05",
+   "sources": [
+    "S11",
+    "S17"
+   ],
+   "classification": "historical_fact",
+   "visuals": [
+    "V05_or_D_1853"
+   ],
+   "text": "1851年、2枚目の絵はニューヨークで展示され、多くの人が見に訪れました。2年後にはこの絵をもとにした版画が出版され、その姿は展示室をはるかに越えて広まっていきました。"
+  },
+  {
+   "id": "P12",
+   "chapter": "C05",
+   "sources": [
+    "S01"
+   ],
+   "classification": "historical_fact",
+   "visuals": [
+    "V01_room"
+   ],
+   "text": "1897年、絵はメトロポリタン美術館に寄贈され、今もそこに掛けられています。幅は6メートルを超えます。"
+  },
+  {
+   "id": "P13",
+   "chapter": "C06",
+   "sources": [],
+   "classification": "editorial_conclusion",
+   "visuals": [
+    "V01_full_2"
+   ],
+   "text": "では、ワシントンは本当にこうしてデラウェア川を渡ったのでしょうか。この絵は、描かれた夜からおよそ75年後に、別の国で描かれました。画家は空に朝の光を入れ、後の時代の国の旗を、兵士の手に持たせました。あの夜の記録ではありません。画家が自分の時代に向けて描いた、あの夜の姿です。そして今、多くの人が思い浮かべるのは、その姿なのです。"
+  },
+  {
+   "id": "P14",
+   "chapter": "C06",
+   "sources": [],
+   "classification": "editorial_conclusion",
+   "visuals": [
+    "V01_full_2"
+   ],
+   "text": "すべての物語には、始まりがあります。ときに、私たちが覚えている姿は、その出来事よりずっと後に描かれたものなのです。"
+  },
+  {
+   "id": "P15",
+   "chapter": "C06",
+   "sources": [],
+   "classification": "credits",
+   "visuals": [
+    "credits"
+   ],
+   "text": "この動画は、歴史資料と、美術館の公開コレクションにもとづいています。ナレーションには合成音声を使っています。出典と利用条件は説明欄に記載しています。楽しんでいただけたら、高評価とチャンネル登録で、これからも静かな起源の物語をお楽しみください。ご視聴ありがとうございました。"
+  }
+ ]
+}

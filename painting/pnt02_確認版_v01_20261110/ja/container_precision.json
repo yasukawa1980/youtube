@@ -1,0 +1,43 @@
+{
+  "passed": true,
+  "movie_timescale": 48000,
+  "video_frames": 9385,
+  "audio_samples": 15016000,
+  "files": [
+    {
+      "name": "PNT02_audio_ja.m4a",
+      "before_sha256": "9b85110b6eefc5028ff5e06844f20ce70dcd91a264c8b8339f46754280d914f2",
+      "after_sha256": "9b85110b6eefc5028ff5e06844f20ce70dcd91a264c8b8339f46754280d914f2",
+      "already_sample_exact": true,
+      "encoded_streams_identical": true,
+      "stream_hashes": {
+        "audio": "SHA256=e69ee8fb4493055fb3b684e08d5c3893046a2b72cbd62a69fb5972aa338d5f4c"
+      },
+      "duration_seconds": "312.833333"
+    },
+    {
+      "name": "PNT02_WashingtonCrossing_ja_v01_1080p30.mp4",
+      "before_sha256": "70e282b4fa0fbf4663f955cb7dc059a1352dba672f009a40bb321ef128155574",
+      "after_sha256": "70e282b4fa0fbf4663f955cb7dc059a1352dba672f009a40bb321ef128155574",
+      "already_sample_exact": true,
+      "encoded_streams_identical": true,
+      "stream_hashes": {
+        "video": "SHA256=3f3474b7078de89ee37ec82a86ef73f70a3e2149069ad161263346b07fa9937a",
+        "audio": "SHA256=e69ee8fb4493055fb3b684e08d5c3893046a2b72cbd62a69fb5972aa338d5f4c"
+      },
+      "duration_seconds": "312.833333"
+    },
+    {
+      "name": "PNT02_WashingtonCrossing_ja_v01_subtitled_review_1080p30.mp4",
+      "before_sha256": "8e9fd8263046724a958805bc2dd787cebf2ac7c83fdcbadc996862f2f031d01c",
+      "after_sha256": "8e9fd8263046724a958805bc2dd787cebf2ac7c83fdcbadc996862f2f031d01c",
+      "already_sample_exact": true,
+      "encoded_streams_identical": true,
+      "stream_hashes": {
+        "video": "SHA256=fc34ebddbfa14cd371bbb29a8abef1474d651f22e219fa2281eb5ace2d735ad3",
+        "audio": "SHA256=e69ee8fb4493055fb3b684e08d5c3893046a2b72cbd62a69fb5972aa338d5f4c"
+      },
+      "duration_seconds": "312.833333"
+    }
+  ]
+}

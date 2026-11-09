@@ -1,0 +1,864 @@
+{
+  "language": "en",
+  "segments": [
+    {
+      "id": "P01",
+      "chapter": "C01",
+      "sources": [
+        "S01",
+        "S05",
+        "S06"
+      ],
+      "classification": "editorial_question",
+      "visuals": [
+        "V01_full_1"
+      ],
+      "text": "This is one of the best-known images of American history: Washington Crossing the Delaware. On a winter river, among floating ice, George Washington stands in a small boat and looks ahead. Behind him, a soldier raises the Stars and Stripes. But this painting was not made in seventeen seventy-six. It was made about seventy-five years later, in Germany. And on the night of the crossing, that flag had not yet been adopted as the nation's flag.",
+      "cues": [
+        {
+          "id": "P01-01",
+          "text": "This is one of the best-known images of American history: Washington Crossing the Delaware.",
+          "spoken_text": "This is one of the best-known images of American history: Washington Crossing the Delaware.",
+          "start": 1.8,
+          "end": 8.614666666666666,
+          "audio_file": "audio/en/sentences/P01-01.wav",
+          "audio_sha256": "79997016c874c22687d8f4ca9d63d1a8bd445d6dad519613dc7a4b66d3ecf21f",
+          "replacements": [],
+          "role": "opening"
+        },
+        {
+          "id": "P01-02",
+          "text": "On a winter river, among floating ice, George Washington stands in a small boat and looks ahead.",
+          "spoken_text": "On a winter river, among floating ice, George Washington stands in a small boat and looks ahead.",
+          "start": 8.914666666666667,
+          "end": 15.783291666666667,
+          "audio_file": "audio/en/sentences/P01-02.wav",
+          "audio_sha256": "615f89b765daba96b5bd64582826aebe566860730f32e0d988a16dcecda3a037",
+          "replacements": [],
+          "role": "plain"
+        },
+        {
+          "id": "P01-03",
+          "text": "Behind him, a soldier raises the Stars and Stripes.",
+          "spoken_text": "Behind him, a soldier raises the Stars and Stripes.",
+          "start": 16.083291666666668,
+          "end": 20.110625000000002,
+          "audio_file": "audio/en/sentences/P01-03.wav",
+          "audio_sha256": "9b89014df452fa581ebacabb28a682fd48fff21eabb7f89dcd9bccb12e8267b4",
+          "replacements": [],
+          "role": "plain"
+        },
+        {
+          "id": "P01-04",
+          "text": "But this painting was not made in seventeen seventy-six.",
+          "spoken_text": "But this painting was not made in seventeen seventy-six.",
+          "start": 20.410625,
+          "end": 24.726583333333334,
+          "audio_file": "audio/en/sentences/P01-04.wav",
+          "audio_sha256": "cf2c1b1008518ee3144aa001c718186e6de2492f732c108af95166fc1e6f1d4c",
+          "replacements": [],
+          "role": "plain"
+        },
+        {
+          "id": "P01-05",
+          "text": "It was made about seventy-five years later, in Germany.",
+          "spoken_text": "It was made about seventy-five years later, in Germany.",
+          "start": 25.026583333333335,
+          "end": 28.761875,
+          "audio_file": "audio/en/sentences/P01-05.wav",
+          "audio_sha256": "0af2685eb1fb772063528efa9a93f3d72efaec9e4f5e03aa7022037ce1c2096a",
+          "replacements": [],
+          "role": "plain"
+        },
+        {
+          "id": "P01-06",
+          "text": "And on the night of the crossing, that flag had not yet been adopted as the nation's flag.",
+          "spoken_text": "And on the night of the crossing, that flag had not yet been adopted as the nation's flag.",
+          "start": 29.061875,
+          "end": 34.98054166666667,
+          "audio_file": "audio/en/sentences/P01-06.wav",
+          "audio_sha256": "393404eda69b03a598e58d862f9614d7165ff29efcd4aaf3d359c274f710bfad",
+          "replacements": [],
+          "role": "plain"
+        }
+      ],
+      "audio_file": "audio/en/P01.wav",
+      "duration_seconds": 33.18054166666667,
+      "native_speed": 0.82,
+      "start": 1.8,
+      "speech_end": 34.98054166666667,
+      "end": 35.9,
+      "source_sha256": "0dc79d6b6d4289622f099ce6db199a28e5221a5d1d2e543c8628a7eca702e0ca"
+    },
+    {
+      "id": "P02",
+      "chapter": "C01",
+      "sources": [],
+      "classification": "editorial_question",
+      "visuals": [
+        "D_timeline_intro"
+      ],
+      "text": "In this episode, we follow the image through time: from a winter night on the river, to a painter's studio in Düsseldorf, to the city where the painting became famous.",
+      "cues": [
+        {
+          "id": "P02-01",
+          "text": "In this episode, we follow the image through time: from a winter night on the river, to a painter's studio in Düsseldorf, to the city where the painting became famous.",
+          "spoken_text": "In this episode, we follow the image through time: from a winter night on the river, to a painter's studio in Düsseldorf, to the city where the painting became famous.",
+          "start": 35.9,
+          "end": 47.64729166666667,
+          "audio_file": "audio/en/sentences/P02-01.wav",
+          "audio_sha256": "cd46c361ccd0c7bac7d7f98bca6126b4ce242e55c6a90f19c5b17240e78bd5df",
+          "replacements": [],
+          "role": "plain"
+        }
+      ],
+      "audio_file": "audio/en/P02.wav",
+      "duration_seconds": 11.747291666666667,
+      "native_speed": 0.82,
+      "start": 35.9,
+      "speech_end": 47.64729166666667,
+      "end": 48.56666666666667,
+      "source_sha256": "cd46c361ccd0c7bac7d7f98bca6126b4ce242e55c6a90f19c5b17240e78bd5df"
+    },
+    {
+      "id": "P03",
+      "chapter": "C02",
+      "sources": [
+        "S03"
+      ],
+      "classification": "historical_fact",
+      "visuals": [
+        "D_letter_head"
+      ],
+      "text": "On the evening of December twenty-fifth, seventeen seventy-six, Washington's army began to cross the Delaware River, from Pennsylvania into New Jersey, on its way to Trenton. Two days later, Washington described the crossing in a letter to John Hancock, the president of Congress.",
+      "cues": [
+        {
+          "id": "P03-01",
+          "text": "On the evening of December twenty-fifth, seventeen seventy-six, Washington's army began to cross the Delaware River, from Pennsylvania into New Jersey, on its way to Trenton.",
+          "spoken_text": "On the evening of December twenty-fifth, seventeen seventy-six, Washington's army began to cross the Delaware River, from Pennsylvania into New Jersey, on its way to Trenton.",
+          "start": 52.56666666666667,
+          "end": 65.74733333333333,
+          "audio_file": "audio/en/sentences/P03-01.wav",
+          "audio_sha256": "d34784bba89e002319ff549cf868951c906684602217a40b1a1f575629c6ceb7",
+          "replacements": [],
+          "role": "plain"
+        },
+        {
+          "id": "P03-02",
+          "text": "Two days later, Washington described the crossing in a letter to John Hancock, the president of Congress.",
+          "spoken_text": "Two days later, Washington described the crossing in a letter to John Hancock, the president of Congress.",
+          "start": 66.04733333333334,
+          "end": 73.02995833333334,
+          "audio_file": "audio/en/sentences/P03-02.wav",
+          "audio_sha256": "7e349a5712e6ae273644df005b2fa99612268ddaaa1a73202bbdbdc84d1afe50",
+          "replacements": [],
+          "role": "plain"
+        }
+      ],
+      "audio_file": "audio/en/P03.wav",
+      "duration_seconds": 20.463291666666667,
+      "native_speed": 0.82,
+      "start": 52.56666666666667,
+      "speech_end": 73.02995833333334,
+      "end": 73.93333333333334,
+      "source_sha256": "f2fd21a77c3175a0703a9fbd98ac908793e7a191e9db3ddaf5966e958b85afb3"
+    },
+    {
+      "id": "P04",
+      "chapter": "C02",
+      "sources": [
+        "S03"
+      ],
+      "classification": "historical_fact",
+      "visuals": [
+        "D_letter"
+      ],
+      "text": "The plan was to start as soon as it grew dark. But ice formed in the river that night, and slowed the boats so much that it was three o'clock before all the artillery was across, and nearly four before the troops began to march. He called it a very severe night, and wrote that they marched through a violent storm of snow and hail.",
+      "cues": [
+        {
+          "id": "P04-01",
+          "text": "The plan was to start as soon as it grew dark.",
+          "spoken_text": "The plan was to start as soon as it grew dark.",
+          "start": 73.93333333333334,
+          "end": 76.98595833333334,
+          "audio_file": "audio/en/sentences/P04-01.wav",
+          "audio_sha256": "515bf81381221cc0f7f9ad1c0a8a331de349cd2e1cbf23fbee98e95d95ce2b67",
+          "replacements": [],
+          "role": "plain"
+        },
+        {
+          "id": "P04-02",
+          "text": "But ice formed in the river that night, and slowed the boats so much that it was three o'clock before all the artillery was across, and nearly four before the troops began to march.",
+          "spoken_text": "But ice formed in the river that night, and slowed the boats so much that it was three o'clock before all the artillery was across, and nearly four before the troops began to march.",
+          "start": 77.28595833333334,
+          "end": 89.36725,
+          "audio_file": "audio/en/sentences/P04-02.wav",
+          "audio_sha256": "78f660006e1f206a1a843ce8239c6073cc72ce81c977d24a1abed66fed55709b",
+          "replacements": [],
+          "role": "plain"
+        },
+        {
+          "id": "P04-03",
+          "text": "He called it a very severe night, and wrote that they marched through a violent storm of snow and hail.",
+          "spoken_text": "He called it a very severe night, and wrote that they marched through a violent storm of snow and hail.",
+          "start": 89.66725000000001,
+          "end": 96.18191666666667,
+          "audio_file": "audio/en/sentences/P04-03.wav",
+          "audio_sha256": "d1497d5461df816df76a8e491a83820b2cc42aa301e95f022f66284f5c072112",
+          "replacements": [],
+          "role": "plain"
+        }
+      ],
+      "audio_file": "audio/en/P04.wav",
+      "duration_seconds": 22.248583333333332,
+      "native_speed": 0.82,
+      "start": 73.93333333333334,
+      "speech_end": 96.18191666666667,
+      "end": 97.1,
+      "source_sha256": "ae9d220e901870d72d1023c9a31d7e2f655e06f6236eae6c7186fad29d086249"
+    },
+    {
+      "id": "P05",
+      "chapter": "C02",
+      "sources": [
+        "S11",
+        "S12"
+      ],
+      "classification": "interpretation",
+      "visuals": [
+        "V01_D1"
+      ],
+      "text": "In the painting, a morning light is spreading across the sky, and a last star still shines above the boat. Studies of the painting connect this light with the coming dawn. The crossing that went on through the night is gathered here into a single view.",
+      "cues": [
+        {
+          "id": "P05-01",
+          "text": "In the painting, a morning light is spreading across the sky, and a last star still shines above the boat.",
+          "spoken_text": "In the painting, a morning light is spreading across the sky, and a last star still shines above the boat.",
+          "start": 97.1,
+          "end": 104.29866666666666,
+          "audio_file": "audio/en/sentences/P05-01.wav",
+          "audio_sha256": "4b099700cd8100e05ced56ea8fecd4046eae2d97578de954543c437771a7c558",
+          "replacements": [],
+          "role": "plain"
+        },
+        {
+          "id": "P05-02",
+          "text": "Studies of the painting connect this light with the coming dawn.",
+          "spoken_text": "Studies of the painting connect this light with the coming dawn.",
+          "start": 104.59866666666666,
+          "end": 108.60862499999999,
+          "audio_file": "audio/en/sentences/P05-02.wav",
+          "audio_sha256": "f6df6809093ca19914ffc41b385d10a784ce801b9a33660862af495400f4078b",
+          "replacements": [],
+          "role": "plain"
+        },
+        {
+          "id": "P05-03",
+          "text": "The crossing that went on through the night is gathered here into a single view.",
+          "spoken_text": "The crossing that went on through the night is gathered here into a single view.",
+          "start": 108.908625,
+          "end": 113.76062499999999,
+          "audio_file": "audio/en/sentences/P05-03.wav",
+          "audio_sha256": "7fe3e9bfb4ffefffe171280c7344c914a2b37eba5b59c9705c70211265219b85",
+          "replacements": [],
+          "role": "plain"
+        }
+      ],
+      "audio_file": "audio/en/P05.wav",
+      "duration_seconds": 16.660625,
+      "native_speed": 0.82,
+      "start": 97.1,
+      "speech_end": 113.76062499999999,
+      "end": 114.66666666666667,
+      "source_sha256": "57f2f67107b116be8f153c3c597906fce62e37eaa6b9433a490318a9d31194b9"
+    },
+    {
+      "id": "P06",
+      "chapter": "C03",
+      "sources": [
+        "S05",
+        "S06"
+      ],
+      "classification": "historical_fact",
+      "visuals": [
+        "V01_D2",
+        "D_resolution"
+      ],
+      "text": "The flag in the painting has red and white stripes, and white stars on a blue field. This is the Stars and Stripes. On June fourteenth, seventeen seventy-seven, about six months after the crossing, the Continental Congress resolved that the flag of the United States would have thirteen stripes and thirteen stars. The resolution did not say how the stars should be arranged. Which flag was carried that night, if any, is not known.",
+      "cues": [
+        {
+          "id": "P06-01",
+          "text": "The flag in the painting has red and white stripes, and white stars on a blue field.",
+          "spoken_text": "The flag in the painting has red and white stripes, and white stars on a blue field.",
+          "start": 114.66666666666667,
+          "end": 120.33933333333334,
+          "audio_file": "audio/en/sentences/P06-01.wav",
+          "audio_sha256": "3ac7236f5489523d6ba4b43fc3ed80b805127a75a0b010751040bc1554cb1b8c",
+          "replacements": [],
+          "role": "plain"
+        },
+        {
+          "id": "P06-02",
+          "text": "This is the Stars and Stripes.",
+          "spoken_text": "This is the Stars and Stripes.",
+          "start": 120.63933333333334,
+          "end": 122.84729166666668,
+          "audio_file": "audio/en/sentences/P06-02.wav",
+          "audio_sha256": "c0f197f9cad4d69d7aceef99af6a703c8e9f12237c196b2ec8faebf42b83d638",
+          "replacements": [],
+          "role": "plain"
+        },
+        {
+          "id": "P06-03",
+          "text": "On June fourteenth, seventeen seventy-seven, about six months after the crossing, the Continental Congress resolved that the flag of the United States would have thirteen stripes and thirteen stars.",
+          "spoken_text": "On June fourteenth, seventeen seventy-seven, about six months after the crossing, the Continental Congress resolved that the flag of the United States would have thirteen stripes and thirteen stars.",
+          "start": 123.14729166666667,
+          "end": 137.11729166666666,
+          "audio_file": "audio/en/sentences/P06-03.wav",
+          "audio_sha256": "4e29dfa51e200ee799b4623cbd6bd7328e44f1454ce2ba4da373a61aa94aa3d8",
+          "replacements": [],
+          "role": "plain"
+        },
+        {
+          "id": "P06-04",
+          "text": "The resolution did not say how the stars should be arranged.",
+          "spoken_text": "The resolution did not say how the stars should be arranged.",
+          "start": 137.41729166666667,
+          "end": 141.41858333333334,
+          "audio_file": "audio/en/sentences/P06-04.wav",
+          "audio_sha256": "21b71f50a1a62554d66a1b50849b23b4698aaa9c9bfb40e2b596e9b9fccf684c",
+          "replacements": [],
+          "role": "plain"
+        },
+        {
+          "id": "P06-05",
+          "text": "Which flag was carried that night, if any, is not known.",
+          "spoken_text": "Which flag was carried that night, if any, is not known.",
+          "start": 141.71858333333333,
+          "end": 145.51250000000002,
+          "audio_file": "audio/en/sentences/P06-05.wav",
+          "audio_sha256": "98411e02c0ee42e00f2c4f60fdf211c3455ac1a74d72c912d9cf609be347b1a5",
+          "replacements": [],
+          "role": "plain"
+        }
+      ],
+      "audio_file": "audio/en/P06.wav",
+      "duration_seconds": 30.845833333333335,
+      "native_speed": 0.82,
+      "start": 114.66666666666667,
+      "speech_end": 145.51250000000002,
+      "end": 146.43333333333334,
+      "source_sha256": "217b701a8754de361a8c6a05776369927fb37c24a986dc727024f4dc8701502d"
+    },
+    {
+      "id": "P07",
+      "chapter": "C04",
+      "sources": [
+        "S09",
+        "S10"
+      ],
+      "classification": "historical_fact",
+      "visuals": [
+        "D_leutze"
+      ],
+      "text": "The painter, Emanuel Leutze, was born in Germany in eighteen sixteen. As a child, he moved with his family to the United States. In eighteen forty-one, he went back to Germany to study painting, in Düsseldorf, a city known for its painters of history.",
+      "cues": [
+        {
+          "id": "P07-01",
+          "text": "The painter, Emanuel Leutze, was born in Germany in eighteen sixteen.",
+          "spoken_text": "The painter, Emanuel Leutze, was born in Germany in eighteen sixteen.",
+          "start": 146.43333333333334,
+          "end": 151.93533333333335,
+          "audio_file": "audio/en/sentences/P07-01.wav",
+          "audio_sha256": "9542ffa6e1c62118b0f0a3b8217b488cde1bfe50d50251dd41f4e4420703c9e8",
+          "replacements": [],
+          "role": "plain"
+        },
+        {
+          "id": "P07-02",
+          "text": "As a child, he moved with his family to the United States.",
+          "spoken_text": "As a child, he moved with his family to the United States.",
+          "start": 152.23533333333333,
+          "end": 156.46595833333333,
+          "audio_file": "audio/en/sentences/P07-02.wav",
+          "audio_sha256": "f2808d5159edab084fc3b284c361ff39e8693f9b872180ad1782c912034f4a40",
+          "replacements": [],
+          "role": "plain"
+        },
+        {
+          "id": "P07-03",
+          "text": "In eighteen forty-one, he went back to Germany to study painting, in Düsseldorf, a city known for its painters of history.",
+          "spoken_text": "In eighteen forty-one, he went back to Germany to study painting, in Düsseldorf, a city known for its painters of history.",
+          "start": 156.76595833333334,
+          "end": 165.85325,
+          "audio_file": "audio/en/sentences/P07-03.wav",
+          "audio_sha256": "eb6ef854fe8df69914acda273d874c9526c14d6a631053893953490d07579e38",
+          "replacements": [],
+          "role": "plain"
+        }
+      ],
+      "audio_file": "audio/en/P07.wav",
+      "duration_seconds": 19.419916666666666,
+      "native_speed": 0.82,
+      "start": 146.43333333333334,
+      "speech_end": 165.85325,
+      "end": 166.76666666666668,
+      "source_sha256": "f21558bd9d601d64e0a15cf568a4de5109dc0f6838bab1fef444530c48c15a58"
+    },
+    {
+      "id": "P08",
+      "chapter": "C04",
+      "sources": [
+        "S08",
+        "S09",
+        "S12"
+      ],
+      "classification": "historical_fact",
+      "visuals": [
+        "V10"
+      ],
+      "text": "He began the first version of this picture there in eighteen forty-nine, soon after revolutions swept across Europe in eighteen forty-eight. Mount Vernon, Washington's home and now a museum, explains that Leutze supported those revolutions, and hoped his painting would inspire new struggles for liberty and democracy.",
+      "cues": [
+        {
+          "id": "P08-01",
+          "text": "He began the first version of this picture there in eighteen forty-nine, soon after revolutions swept across Europe in eighteen forty-eight.",
+          "spoken_text": "He began the first version of this picture there in eighteen forty-nine, soon after revolutions swept across Europe in eighteen forty-eight.",
+          "start": 166.76666666666668,
+          "end": 176.35466666666667,
+          "audio_file": "audio/en/sentences/P08-01.wav",
+          "audio_sha256": "68331c99ac7c874e87a762830ae344dcfdf5ab17cbe9908e8511c83f82a4e4d9",
+          "replacements": [],
+          "role": "plain"
+        },
+        {
+          "id": "P08-02",
+          "text": "Mount Vernon, Washington's home and now a museum, explains that Leutze supported those revolutions, and hoped his painting would inspire new struggles for liberty and democracy.",
+          "spoken_text": "Mount Vernon, Washington's home and now a museum, explains that Leutze supported those revolutions, and hoped his painting would inspire new struggles for liberty and democracy.",
+          "start": 176.65466666666669,
+          "end": 189.74,
+          "audio_file": "audio/en/sentences/P08-02.wav",
+          "audio_sha256": "283e60aaa095f52afc299f7ac78220ad1eac07a9b81b587c14fec9b99987ecfd",
+          "replacements": [],
+          "role": "plain"
+        }
+      ],
+      "audio_file": "audio/en/P08.wav",
+      "duration_seconds": 22.973333333333333,
+      "native_speed": 0.82,
+      "start": 166.76666666666668,
+      "speech_end": 189.74,
+      "end": 190.66666666666666,
+      "source_sha256": "07b75ae115929ac0627c3aa861f94ee0de3377794f684be3002863f592f7fad3"
+    },
+    {
+      "id": "P09",
+      "chapter": "C04",
+      "sources": [
+        "S11",
+        "S14"
+      ],
+      "classification": "historical_fact",
+      "visuals": [
+        "V01_D3",
+        "D_whittredge"
+      ],
+      "text": "Americans in the city posed for the figures. One of them, the painter Worthington Whittredge, recalled that he posed for the man steering the boat, and again for Washington himself. For Washington's head, Leutze is said to have looked to a sculpture by Houdon.",
+      "cues": [
+        {
+          "id": "P09-01",
+          "text": "Americans in the city posed for the figures.",
+          "spoken_text": "Americans in the city posed for the figures.",
+          "start": 190.66666666666666,
+          "end": 193.82466666666664,
+          "audio_file": "audio/en/sentences/P09-01.wav",
+          "audio_sha256": "392ea22583bb8702f3cb948e182b9fcacf853e39e95085960beb7130d40dcdb6",
+          "replacements": [],
+          "role": "plain"
+        },
+        {
+          "id": "P09-02",
+          "text": "One of them, the painter Worthington Whittredge, recalled that he posed for the man steering the boat, and again for Washington himself.",
+          "spoken_text": "One of them, the painter Worthington Whittredge, recalled that he posed for the man steering the boat, and again for Washington himself.",
+          "start": 194.12466666666666,
+          "end": 203.03733333333332,
+          "audio_file": "audio/en/sentences/P09-02.wav",
+          "audio_sha256": "31f29c441071530d89dd0d336bb8d132617a41f1535b573c2d9cbfcfd92ed46b",
+          "replacements": [],
+          "role": "plain"
+        },
+        {
+          "id": "P09-03",
+          "text": "For Washington's head, Leutze is said to have looked to a sculpture by Houdon.",
+          "spoken_text": "For Washington's head, Leutze is said to have looked to a sculpture by Houdon.",
+          "start": 203.33733333333333,
+          "end": 208.45533333333333,
+          "audio_file": "audio/en/sentences/P09-03.wav",
+          "audio_sha256": "6eeafe93c1cf75c1bbf927ae2337fad682181e7c6bf9ee2ee9918522e2871ba4",
+          "replacements": [],
+          "role": "plain"
+        }
+      ],
+      "audio_file": "audio/en/P09.wav",
+      "duration_seconds": 17.788666666666668,
+      "native_speed": 0.82,
+      "start": 190.66666666666666,
+      "speech_end": 208.45533333333333,
+      "end": 209.36666666666667,
+      "source_sha256": "077beea20ec5cf0b3fcdc38d7cb77e71b9d2ee2482be288a33f24dd9e0ca8adb"
+    },
+    {
+      "id": "P10",
+      "chapter": "C04",
+      "sources": [
+        "S11",
+        "S12"
+      ],
+      "classification": "historical_fact",
+      "visuals": [
+        "D_bremen"
+      ],
+      "text": "In November eighteen fifty, a fire in the studio damaged the first version. The next year, Leutze began a second one. The first was repaired, went to the city of Bremen, and was lost in an air raid in nineteen forty-two.",
+      "cues": [
+        {
+          "id": "P10-01",
+          "text": "In November eighteen fifty, a fire in the studio damaged the first version.",
+          "spoken_text": "In November eighteen fifty, a fire in the studio damaged the first version.",
+          "start": 209.36666666666667,
+          "end": 214.70933333333335,
+          "audio_file": "audio/en/sentences/P10-01.wav",
+          "audio_sha256": "2c4c06a74398439b344ec8edfb857be84b747338de52ee15841abbd7ff2346fc",
+          "replacements": [],
+          "role": "plain"
+        },
+        {
+          "id": "P10-02",
+          "text": "The next year, Leutze began a second one.",
+          "spoken_text": "The next year, Leutze began a second one.",
+          "start": 215.00933333333333,
+          "end": 218.02666666666667,
+          "audio_file": "audio/en/sentences/P10-02.wav",
+          "audio_sha256": "7e47664ca5061cc5ffe0f7f64287fe5db9e0630f7e3546066582bee350bbe243",
+          "replacements": [],
+          "role": "plain"
+        },
+        {
+          "id": "P10-03",
+          "text": "The first was repaired, went to the city of Bremen, and was lost in an air raid in nineteen forty-two.",
+          "spoken_text": "The first was repaired, went to the city of Bremen, and was lost in an air raid in nineteen forty-two.",
+          "start": 218.32666666666668,
+          "end": 225.36333333333334,
+          "audio_file": "audio/en/sentences/P10-03.wav",
+          "audio_sha256": "f2167bc0404e59ea81419ed23f73ae7eeb63bde912fc458a45b7ba1e52bdd5df",
+          "replacements": [],
+          "role": "plain"
+        }
+      ],
+      "audio_file": "audio/en/P10.wav",
+      "duration_seconds": 15.996666666666666,
+      "native_speed": 0.82,
+      "start": 209.36666666666667,
+      "speech_end": 225.36333333333334,
+      "end": 226.26666666666668,
+      "source_sha256": "771b78d37396bf64423b837e9b913ea2bc087643a949298e7b48b81de85f9389"
+    },
+    {
+      "id": "P11",
+      "chapter": "C05",
+      "sources": [
+        "S11",
+        "S17"
+      ],
+      "classification": "historical_fact",
+      "visuals": [
+        "V05_or_D_1853"
+      ],
+      "text": "In eighteen fifty-one, the second version was shown in New York, and crowds came to see it. Two years later, an engraving after the painting was published, carrying the image far beyond the exhibition room.",
+      "cues": [
+        {
+          "id": "P11-01",
+          "text": "In eighteen fifty-one, the second version was shown in New York, and crowds came to see it.",
+          "spoken_text": "In eighteen fifty-one, the second version was shown in New York, and crowds came to see it.",
+          "start": 226.26666666666668,
+          "end": 232.65466666666669,
+          "audio_file": "audio/en/sentences/P11-01.wav",
+          "audio_sha256": "d13dab5bae47b5d98516a3e10a588de997c9dc52fb05d96e35eb65c218d55386",
+          "replacements": [],
+          "role": "plain"
+        },
+        {
+          "id": "P11-02",
+          "text": "Two years later, an engraving after the painting was published, carrying the image far beyond the exhibition room.",
+          "spoken_text": "Two years later, an engraving after the painting was published, carrying the image far beyond the exhibition room.",
+          "start": 232.95466666666667,
+          "end": 240.67533333333336,
+          "audio_file": "audio/en/sentences/P11-02.wav",
+          "audio_sha256": "12e23737311f8323c252b0c3bf5b296132d0e8b404deed9fbb72ea554c52cc0d",
+          "replacements": [],
+          "role": "plain"
+        }
+      ],
+      "audio_file": "audio/en/P11.wav",
+      "duration_seconds": 14.408666666666667,
+      "native_speed": 0.82,
+      "start": 226.26666666666668,
+      "speech_end": 240.67533333333336,
+      "end": 241.6,
+      "source_sha256": "1a9647b80cf781a54f27a43417f1952b497bcead0c163f47de30b6b8e22b6170"
+    },
+    {
+      "id": "P12",
+      "chapter": "C05",
+      "sources": [
+        "S01"
+      ],
+      "classification": "historical_fact",
+      "visuals": [
+        "V01_room"
+      ],
+      "text": "In eighteen ninety-seven, it was given to the Metropolitan Museum of Art, where it hangs today. It is more than six meters wide.",
+      "cues": [
+        {
+          "id": "P12-01",
+          "text": "In eighteen ninety-seven, it was given to the Metropolitan Museum of Art, where it hangs today.",
+          "spoken_text": "In eighteen ninety-seven, it was given to the Metropolitan Museum of Art, where it hangs today.",
+          "start": 241.6,
+          "end": 248.40333333333334,
+          "audio_file": "audio/en/sentences/P12-01.wav",
+          "audio_sha256": "c8afe74c67c4117569d0498967e7114fd3d8e49288ad163833169d0d764eb524",
+          "replacements": [],
+          "role": "plain"
+        },
+        {
+          "id": "P12-02",
+          "text": "It is more than six meters wide.",
+          "spoken_text": "It is more than six meters wide.",
+          "start": 248.70333333333332,
+          "end": 251.042,
+          "audio_file": "audio/en/sentences/P12-02.wav",
+          "audio_sha256": "a34289be65f37b93075548e9eb5d53ca3a7889aa113f1ceaed024119e89f7070",
+          "replacements": [],
+          "role": "plain"
+        }
+      ],
+      "audio_file": "audio/en/P12.wav",
+      "duration_seconds": 9.442,
+      "native_speed": 0.82,
+      "start": 241.6,
+      "speech_end": 251.042,
+      "end": 251.96666666666667,
+      "source_sha256": "34811dbda54c4ea346b5d1bd1bc6ff6f218653507bb1e46b459bbdf345825636"
+    },
+    {
+      "id": "P13",
+      "chapter": "C06",
+      "sources": [],
+      "classification": "editorial_conclusion",
+      "visuals": [
+        "V01_full_2"
+      ],
+      "text": "So, did Washington really cross the Delaware like this? The painting was made about seventy-five years after the night it shows, in another country. Its painter put the light of morning in the sky, and the later flag of a nation in a soldier's hands. It is not a record of that night. It is a picture of that night, made for the painter's own time. And today, it is the picture that many of us remember.",
+      "cues": [
+        {
+          "id": "P13-01",
+          "text": "So, did Washington really cross the Delaware like this?",
+          "spoken_text": "So, did Washington really cross the Delaware like this?",
+          "start": 251.96666666666667,
+          "end": 255.690625,
+          "audio_file": "audio/en/sentences/P13-01.wav",
+          "audio_sha256": "8f71ccaae27eb85bdb9d5b5c07a28a958c10930b8c39e767d5da164d721c4e8b",
+          "replacements": [],
+          "role": "question"
+        },
+        {
+          "id": "P13-02",
+          "text": "The painting was made about seventy-five years after the night it shows, in another country.",
+          "spoken_text": "The painting was made about seventy-five years after the night it shows, in another country.",
+          "start": 255.990625,
+          "end": 261.76125,
+          "audio_file": "audio/en/sentences/P13-02.wav",
+          "audio_sha256": "52cbcd59063e1396210a0f3f89c12914bd440203aa9fae4a2302d372a194d9cd",
+          "replacements": [],
+          "role": "plain"
+        },
+        {
+          "id": "P13-03",
+          "text": "Its painter put the light of morning in the sky, and the later flag of a nation in a soldier's hands.",
+          "spoken_text": "Its painter put the light of morning in the sky, and the later flag of a nation in a soldier's hands.",
+          "start": 262.06125,
+          "end": 268.7565833333333,
+          "audio_file": "audio/en/sentences/P13-03.wav",
+          "audio_sha256": "adae16eaf0b61accb37d4fe1eaa12538dc00ed646807d570baa554143a17c973",
+          "replacements": [],
+          "role": "plain"
+        },
+        {
+          "id": "P13-04",
+          "text": "It is not a record of that night.",
+          "spoken_text": "It is not a record of that night.",
+          "start": 269.0565833333333,
+          "end": 271.231875,
+          "audio_file": "audio/en/sentences/P13-04.wav",
+          "audio_sha256": "dffe8443a2ec979116d9c2330fb4f4586e97f1a0cef24fd099fcb1337f401c93",
+          "replacements": [],
+          "role": "plain"
+        },
+        {
+          "id": "P13-05",
+          "text": "It is a picture of that night, made for the painter's own time.",
+          "spoken_text": "It is a picture of that night, made for the painter's own time.",
+          "start": 271.531875,
+          "end": 275.625875,
+          "audio_file": "audio/en/sentences/P13-05.wav",
+          "audio_sha256": "9d3ed1aa293e81b09e44645460023b180f6e47207e6b1f35002185a99f1446b1",
+          "replacements": [],
+          "role": "plain"
+        },
+        {
+          "id": "P13-06",
+          "text": "And today, it is the picture that many of us remember.",
+          "spoken_text": "And today, it is the picture that many of us remember.",
+          "start": 275.925875,
+          "end": 279.62850000000003,
+          "audio_file": "audio/en/sentences/P13-06.wav",
+          "audio_sha256": "79bcafdc3cf1113649a21fbdf2c316f257b8e3090413e1151b67cecf6b40368f",
+          "replacements": [],
+          "role": "plain"
+        }
+      ],
+      "audio_file": "audio/en/P13.wav",
+      "duration_seconds": 27.661833333333334,
+      "native_speed": 0.82,
+      "start": 251.96666666666667,
+      "speech_end": 279.62850000000003,
+      "end": 280.53333333333336,
+      "source_sha256": "b833723c689d985d39038a77de14e2b9b95495033cc5734b2fcc8833f7dc0220"
+    },
+    {
+      "id": "P14",
+      "chapter": "C06",
+      "sources": [],
+      "classification": "editorial_conclusion",
+      "visuals": [
+        "V01_full_2"
+      ],
+      "text": "Every story has an origin. Sometimes, the image we remember was painted long after the moment itself.",
+      "cues": [
+        {
+          "id": "P14-01",
+          "text": "Every story has an origin.",
+          "spoken_text": "Every story has an origin.",
+          "start": 280.53333333333336,
+          "end": 282.860625,
+          "audio_file": "audio/en/sentences/P14-01.wav",
+          "audio_sha256": "d48729bdb9732d42ca6d352ffafa16c9d24b81da936df591d867f22ed5b29b60",
+          "replacements": [],
+          "role": "conclusion"
+        },
+        {
+          "id": "P14-02",
+          "text": "Sometimes, the image we remember was painted long after the moment itself.",
+          "spoken_text": "Sometimes, the image we remember was painted long after the moment itself.",
+          "start": 283.16062500000004,
+          "end": 288.44795833333336,
+          "audio_file": "audio/en/sentences/P14-02.wav",
+          "audio_sha256": "d4bff20b4a0dd72974e5b7621e8ca5ce6144210c71bb232ef970a2996f6e55c2",
+          "replacements": [],
+          "role": "conclusion"
+        }
+      ],
+      "audio_file": "audio/en/P14.wav",
+      "duration_seconds": 7.914625,
+      "native_speed": 0.82,
+      "start": 280.53333333333336,
+      "speech_end": 288.44795833333336,
+      "end": 289.3666666666667,
+      "source_sha256": "1410d7f384fe35eed97f0328ab000fef840d6d207757c780b2b2991562e598b8"
+    },
+    {
+      "id": "P15",
+      "chapter": "C06",
+      "sources": [],
+      "classification": "credits",
+      "visuals": [
+        "credits"
+      ],
+      "text": "This video is based on historical texts and public museum collections. The narration uses synthetic speech. Sources and terms of use are listed in the description. If you enjoyed this story, please like the video and subscribe for more quiet origins. Thank you for watching.",
+      "cues": [
+        {
+          "id": "P15-01",
+          "text": "This video is based on historical texts and public museum collections.",
+          "spoken_text": "This video is based on historical texts and public museum collections.",
+          "start": 289.3666666666667,
+          "end": 294.526,
+          "audio_file": "audio/en/sentences/P15-01.wav",
+          "audio_sha256": "5931da8e25f3ea5c8bffd95e851710fa1a25a05da843de117a29eb58d8a75190",
+          "replacements": [],
+          "role": "conclusion"
+        },
+        {
+          "id": "P15-02",
+          "text": "The narration uses synthetic speech.",
+          "spoken_text": "The narration uses synthetic speech.",
+          "start": 294.826,
+          "end": 297.5459583333333,
+          "audio_file": "audio/en/sentences/P15-02.wav",
+          "audio_sha256": "cdeb0694b198a428b0d28c3602833b177bf9cb08b3975a2fe33ef741727e181b",
+          "replacements": [],
+          "role": "conclusion"
+        },
+        {
+          "id": "P15-03",
+          "text": "Sources and terms of use are listed in the description.",
+          "spoken_text": "Sources and terms of use are listed in the description.",
+          "start": 297.84595833333333,
+          "end": 301.80195833333335,
+          "audio_file": "audio/en/sentences/P15-03.wav",
+          "audio_sha256": "b6e2f36ec626e31e5612ae9f02f9029efb6da18b062833183a87bb9c198a157f",
+          "replacements": [],
+          "role": "conclusion"
+        },
+        {
+          "id": "P15-04",
+          "text": "If you enjoyed this story, please like the video and subscribe for more quiet origins.",
+          "spoken_text": "If you enjoyed this story, please like the video and subscribe for more quiet origins.",
+          "start": 302.10195833333336,
+          "end": 308.222625,
+          "audio_file": "audio/en/sentences/P15-04.wav",
+          "audio_sha256": "f5b60228d0312e5a50da96972f010f6827c37330f58f6e949ccd45c60ed05c10",
+          "replacements": [],
+          "role": "conclusion"
+        },
+        {
+          "id": "P15-05",
+          "text": "Thank you for watching.",
+          "spoken_text": "Thank you for watching.",
+          "start": 308.522625,
+          "end": 310.27391666666665,
+          "audio_file": "audio/en/sentences/P15-05.wav",
+          "audio_sha256": "5352fa34deb83b4432a4b269d7e0994b6418c9b5b9ede5df4ab8205b34804700",
+          "replacements": [],
+          "role": "conclusion"
+        }
+      ],
+      "audio_file": "audio/en/P15.wav",
+      "duration_seconds": 20.90725,
+      "native_speed": 0.82,
+      "start": 289.3666666666667,
+      "speech_end": 310.27391666666665,
+      "end": 311.2,
+      "source_sha256": "524196d50da84220602ae7ed4c2658f46389045cefe232abedc079174d9c2462"
+    }
+  ],
+  "duration_seconds": 321.2,
+  "fps": 30,
+  "brand_intervals": {
+    "opening": [
+      48.56666666666667,
+      52.56666666666667
+    ],
+    "endcard": [
+      311.2,
+      321.2
+    ]
+  }
+}

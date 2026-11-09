@@ -1,0 +1,1618 @@
+{
+  "language": "ja",
+  "correction_commit": "123845503f696780213f7f586fcd22c2e661a8f8",
+  "master": {
+    "language": "ja",
+    "segments": [
+      {
+        "id": "P01",
+        "chapter": "C01",
+        "sources": [
+          "S01",
+          "S05",
+          "S06"
+        ],
+        "classification": "editorial_question",
+        "visuals": [
+          "V01_full_1"
+        ],
+        "text": "これは、アメリカの歴史で最もよく知られた絵の一つ、「デラウェア川を渡るワシントン」です。冬の川、流れる氷のあいだで、ジョージ・ワシントンが小舟に立ち、前を見つめています。その後ろでは、兵士が星条旗を掲げています。けれど、この絵が描かれたのは1776年ではありません。およそ75年後、ドイツで描かれました。そして渡河の夜、あの旗はまだ、国の旗として定められていませんでした。",
+        "cues": [
+          {
+            "id": "P01-01",
+            "text": "これは、アメリカの歴史で最もよく知られた絵の一つ、「デラウェア川を渡るワシントン」です。",
+            "spoken_text": "これは、アメリカの歴史で最もよく知られた絵の一つ、「デラウェア川を渡るワシントン」です。",
+            "start": 1.8,
+            "end": 8.36,
+            "audio_file": "audio/ja/sentences/P01-01.wav",
+            "audio_sha256": "417743687ee1f176fbd777339eb73157cff9954018e68c7a25ff93f8afb9df46",
+            "replacements": [],
+            "role": "opening"
+          },
+          {
+            "id": "P01-02",
+            "text": "冬の川、流れる氷のあいだで、ジョージ・ワシントンが小舟に立ち、前を見つめています。",
+            "spoken_text": "冬の川、流れる氷のあいだで、ジョージ・ワシントンが小舟に立ち、前を見つめています。",
+            "start": 8.76,
+            "end": 15.394666666666668,
+            "audio_file": "audio/ja/sentences/P01-02.wav",
+            "audio_sha256": "c0ff0faab7c5f4e9f478d46c452b7782e716c500e76fada379289ca55c8f8acf",
+            "replacements": [],
+            "role": "plain"
+          },
+          {
+            "id": "P01-03",
+            "text": "その後ろでは、兵士が星条旗を掲げています。",
+            "spoken_text": "その後ろでは、兵士が星条旗を掲げています。",
+            "start": 15.714666666666668,
+            "end": 19.202666666666666,
+            "audio_file": "audio/ja/sentences/P01-03.wav",
+            "audio_sha256": "56a58a2e9afdba733fa16b8c05730ffe3fdae1386b109d9e630248c7167f9929",
+            "replacements": [],
+            "role": "plain"
+          },
+          {
+            "id": "P01-04",
+            "text": "けれど、この絵が描かれたのは1776年ではありません。",
+            "spoken_text": "けれど、この絵が描かれたのは1776年ではありません。",
+            "start": 19.522666666666666,
+            "end": 24.290666666666667,
+            "audio_file": "audio/ja/sentences/P01-04.wav",
+            "audio_sha256": "a4b8fa5932b5a9ab17877b2f9b7b3e86951b31e62c7e91021461f9bae4e91e1a",
+            "replacements": [],
+            "role": "contrast"
+          },
+          {
+            "id": "P01-05",
+            "text": "およそ75年後、ドイツで描かれました。",
+            "spoken_text": "およそ75年後、ドイツで描かれました。",
+            "start": 24.69066666666667,
+            "end": 27.805333333333333,
+            "audio_file": "audio/ja/sentences/P01-05.wav",
+            "audio_sha256": "85961743dc3074d0b49547f0b1ef4e27f3a00d96d823e4588cf0efff37504c61",
+            "replacements": [],
+            "role": "plain"
+          },
+          {
+            "id": "P01-06",
+            "text": "そして渡河の夜、あの旗はまだ、国の旗として定められていませんでした。",
+            "spoken_text": "そして渡河の夜、あの旗はまだ、国の旗として定められていませんでした。",
+            "start": 28.125333333333334,
+            "end": 33.266666666666666,
+            "audio_file": "audio/ja/sentences/P01-06.wav",
+            "audio_sha256": "0022bd10db8107f1e2c70badc93f1b9361269e8d5889e9ab8244adc1a89871c7",
+            "replacements": [],
+            "role": "plain"
+          }
+        ],
+        "audio_file": "audio/ja/P01.wav",
+        "duration_seconds": 31.466666666666665,
+        "native_speed": "role-based C",
+        "start": 1.8,
+        "speech_end": 33.266666666666666,
+        "end": 34.2,
+        "source_sha256": "eb13ed2148e3f63688970040ec06868382b7d3d1c7ccc8b07e0ccaaabc14bd1a"
+      },
+      {
+        "id": "P02",
+        "chapter": "C01",
+        "sources": [],
+        "classification": "editorial_question",
+        "visuals": [
+          "D_timeline_intro"
+        ],
+        "text": "今回は、この絵の歩みをたどります。冬の夜の川から、デュッセルドルフの画家のアトリエ、そしてこの絵が有名になった街まで、時代の順に見ていきます。",
+        "cues": [
+          {
+            "id": "P02-01",
+            "text": "今回は、",
+            "spoken_text": "今回は、",
+            "start": 34.2,
+            "end": 35.053333333333335,
+            "audio_file": "audio/ja/sentences/P02-01.wav",
+            "audio_sha256": "e478a38cf468179dec8c71d88de60ce12b0298ab25aad09168b2c8b734aaa3e6",
+            "replacements": [],
+            "role": "transition"
+          },
+          {
+            "id": "P02-02",
+            "text": "この絵の歩みをたどります。",
+            "spoken_text": "この絵の歩みをたどります。",
+            "start": 35.650000000000006,
+            "end": 37.367333333333335,
+            "audio_file": "audio/ja/sentences/P02-02.wav",
+            "audio_sha256": "12f0ffab3c2db910733a1d39d796527429359c36a79cab816e04b221d29ad416",
+            "replacements": [],
+            "role": "plain"
+          },
+          {
+            "id": "P02-03",
+            "text": "冬の夜の川から、",
+            "spoken_text": "冬の夜の川から、",
+            "start": 37.687333333333335,
+            "end": 39.11666666666667,
+            "audio_file": "audio/ja/sentences/P02-03.wav",
+            "audio_sha256": "5e0a53830be8979ab1e0bb899990ba503717c96a9f52ad15cd4fb1054d4377a6",
+            "replacements": [],
+            "role": "plain"
+          },
+          {
+            "id": "P02-04",
+            "text": "デュッセルドルフの画家のアトリエ、",
+            "spoken_text": "デュッセルドルフの画家のアトリエ、",
+            "start": 39.43666666666667,
+            "end": 41.33533333333334,
+            "audio_file": "audio/ja/sentences/P02-04.wav",
+            "audio_sha256": "a9e59eba490423bb5a623a1bdaee870bb004a8eaae528d797de091fd7ace0279",
+            "replacements": [],
+            "role": "plain"
+          },
+          {
+            "id": "P02-05",
+            "text": "そしてこの絵が有名になった街まで、",
+            "spoken_text": "そしてこの絵が有名になった街まで、",
+            "start": 41.65533333333334,
+            "end": 44.098,
+            "audio_file": "audio/ja/sentences/P02-05.wav",
+            "audio_sha256": "edd9051449e20f54edf496092d74bdc18118e9ed2282b431159075c7bf300763",
+            "replacements": [],
+            "role": "plain"
+          },
+          {
+            "id": "P02-06",
+            "text": "時代の順に見ていきます。",
+            "spoken_text": "時代の順に見ていきます。",
+            "start": 44.418000000000006,
+            "end": 46.10333333333334,
+            "audio_file": "audio/ja/sentences/P02-06.wav",
+            "audio_sha256": "b2f69c398e9dd16d6800ed6058ae5ef5ec319c82f711dee5739183585400063b",
+            "replacements": [],
+            "role": "plain"
+          }
+        ],
+        "audio_file": "audio/ja/P02.wav",
+        "duration_seconds": 11.903333333333334,
+        "native_speed": "role-based C",
+        "start": 34.2,
+        "speech_end": 46.10333333333334,
+        "end": 47.03333333333333,
+        "source_sha256": "07a7d515663fac85cc179a8832760c97b10dbb33c55749d8780594575995cc4d"
+      },
+      {
+        "id": "P03",
+        "chapter": "C02",
+        "sources": [
+          "S03"
+        ],
+        "classification": "historical_fact",
+        "visuals": [
+          "D_letter_head"
+        ],
+        "text": "1776年12月25日の夕方、ワシントンの軍は、ペンシルベニアからニュージャージーへ、デラウェア川を渡り始めました。向かう先はトレントンです。2日後、ワシントンは大陸会議の議長ジョン・ハンコックへの手紙で、この渡河について書いています。",
+        "cues": [
+          {
+            "id": "P03-01",
+            "text": "1776年12月25日の夕方、ワシントンの軍は、ペンシルベニアからニュージャージーへ、デラウェア川を渡り始めました。",
+            "spoken_text": "1776年12月25日の夕方、ワシントンの軍は、ペンシルベニアからニュージャージーへ、デラウェア川を渡り始めました。",
+            "start": 51.03333333333333,
+            "end": 60.79333333333333,
+            "audio_file": "audio/ja/sentences/P03-01.wav",
+            "audio_sha256": "aca052a1f753a2323ffc412f259c2154a16447a3c55dc7de5b9d76f5e4c2e251",
+            "replacements": [],
+            "role": "plain"
+          },
+          {
+            "id": "P03-02",
+            "text": "向かう先はトレントンです。",
+            "spoken_text": "向かう先はトレントンです。",
+            "start": 61.11333333333333,
+            "end": 62.86266666666666,
+            "audio_file": "audio/ja/sentences/P03-02.wav",
+            "audio_sha256": "5042153160f1cc865d0398a71523ff8d7257e9b612d42b66cb991a7a400c7774",
+            "replacements": [],
+            "role": "plain"
+          },
+          {
+            "id": "P03-03",
+            "text": "2日後、ワシントンは大陸会議の議長ジョン・ハンコックへの手紙で、この渡河について書いています。",
+            "spoken_text": "2日後、ワシントンは大陸会議の議長ジョン・ハンコックへの手紙で、この渡河について書いています。",
+            "start": 63.18266666666666,
+            "end": 70.18,
+            "audio_file": "audio/ja/sentences/P03-03.wav",
+            "audio_sha256": "216d9188eeef992022301cffeab7ef71c867e23e52b6495fff2696d53d61101a",
+            "replacements": [],
+            "role": "plain"
+          }
+        ],
+        "audio_file": "audio/ja/P03.wav",
+        "duration_seconds": 19.14666666666667,
+        "native_speed": "role-based C",
+        "start": 51.03333333333333,
+        "speech_end": 70.18,
+        "end": 71.1,
+        "source_sha256": "b8cab40045c3b6d635e6f7c7f7e2d74ac83361fd9c6e8a0f85a24dda48d36f02"
+      },
+      {
+        "id": "P04",
+        "chapter": "C02",
+        "sources": [
+          "S03"
+        ],
+        "classification": "historical_fact",
+        "visuals": [
+          "D_letter"
+        ],
+        "text": "暗くなりしだい渡り始める計画でした。けれどその夜、川には氷ができ、舟の進みをひどく遅らせました。砲兵をすべて渡し終えたのは3時、兵が行軍を始めたのは4時近くでした。ワシントンはそれを「非常に厳しい夜」と呼び、行軍は雪と雹の激しい嵐の中だったと書いています。",
+        "cues": [
+          {
+            "id": "P04-01",
+            "text": "暗くなりしだい渡り始める計画でした。",
+            "spoken_text": "暗くなりしだい渡り始める計画でした。",
+            "start": 71.1,
+            "end": 73.90533333333333,
+            "audio_file": "audio/ja/sentences/P04-01.wav",
+            "audio_sha256": "794634ff9a85e4bf4fb23e70c12e5275da7bff1c65ef8f43b8da357757d40171",
+            "replacements": [],
+            "role": "plain"
+          },
+          {
+            "id": "P04-02",
+            "text": "けれどその夜、川には氷ができ、舟の進みをひどく遅らせました。",
+            "spoken_text": "けれどその夜、川には氷ができ、舟の進みをひどく遅らせました。",
+            "start": 74.22533333333332,
+            "end": 79.41999999999999,
+            "audio_file": "audio/ja/sentences/P04-02.wav",
+            "audio_sha256": "b9348599d2f1e1ce743ffbf988ad247f297eb6f094d5f64693e87afec901efa1",
+            "replacements": [],
+            "role": "contrast"
+          },
+          {
+            "id": "P04-03",
+            "text": "砲兵をすべて渡し終えたのは3時、兵が行軍を始めたのは4時近くでした。",
+            "spoken_text": "砲兵をすべて渡し終えたのは3時、兵が行軍を始めたのは4時近くでした。",
+            "start": 79.82,
+            "end": 85.30266666666667,
+            "audio_file": "audio/ja/sentences/P04-03.wav",
+            "audio_sha256": "0623129b5f18c5dfc130c3ce04701101f4b03668674f3a6616aa935dbb9af794",
+            "replacements": [],
+            "role": "plain"
+          },
+          {
+            "id": "P04-04",
+            "text": "ワシントンはそれを「非常に厳しい夜」と呼び、行軍は雪と雹の激しい嵐の中だったと書いています。",
+            "spoken_text": "ワシントンはそれを「非常に厳しい夜」と呼び、行軍は雪と雹の激しい嵐の中だったと書いています。",
+            "start": 85.62266666666666,
+            "end": 93.228,
+            "audio_file": "audio/ja/sentences/P04-04.wav",
+            "audio_sha256": "dfe05c23bed705b00732a7cbf3f934b9ebace77d70a18522ff164b1f3afa1fa2",
+            "replacements": [],
+            "role": "plain"
+          }
+        ],
+        "audio_file": "audio/ja/P04.wav",
+        "duration_seconds": 22.128,
+        "native_speed": "role-based C",
+        "start": 71.1,
+        "speech_end": 93.228,
+        "end": 94.13333333333334,
+        "source_sha256": "55f216af8a4c1323bf49bbc5e405d8bbaf0f4a15b3782f20fcb1bf6cc45eed94"
+      },
+      {
+        "id": "P05",
+        "chapter": "C02",
+        "sources": [
+          "S11",
+          "S12"
+        ],
+        "classification": "interpretation",
+        "visuals": [
+          "V01_D1"
+        ],
+        "text": "絵の中では、空に朝の光が広がり、舟の上には最後の星がまだ輝いています。この絵の研究は、この光を夜明けと結びつけています。夜通し続いた渡河が、ここでは一つの場面にまとめられているのです。",
+        "cues": [
+          {
+            "id": "P05-01",
+            "text": "絵の中では、空に朝の光が広がり、舟の上には最後の星がまだ輝いています。",
+            "spoken_text": "絵の中では、空に朝の光が広がり、舟の上には最後の星がまだ輝いています。",
+            "start": 94.13333333333334,
+            "end": 100.34133333333334,
+            "audio_file": "audio/ja/sentences/P05-01.wav",
+            "audio_sha256": "842a846216e5abff62c0dc4e8cb3f77658e0406d2cc860e76125e04a182fe6c4",
+            "replacements": [],
+            "role": "plain"
+          },
+          {
+            "id": "P05-02",
+            "text": "この絵の研究は、この光を夜明けと結びつけています。",
+            "spoken_text": "この絵の研究は、この光を夜明けと結びつけています。",
+            "start": 100.66133333333335,
+            "end": 104.62933333333334,
+            "audio_file": "audio/ja/sentences/P05-02.wav",
+            "audio_sha256": "609564e6abb5c5c618dc09626b022bc92763df8f47e5f5e0f35875dac7ca7f74",
+            "replacements": [],
+            "role": "plain"
+          },
+          {
+            "id": "P05-03",
+            "text": "夜通し続いた渡河が、ここでは一つの場面にまとめられているのです。",
+            "spoken_text": "夜通し続いた渡河が、ここでは一つの場面にまとめられているのです。",
+            "start": 104.94933333333334,
+            "end": 109.60000000000001,
+            "audio_file": "audio/ja/sentences/P05-03.wav",
+            "audio_sha256": "91098aaaf3f502f6ca92b6a122734236a9d1244deab999eca5805b672c4da980",
+            "replacements": [],
+            "role": "plain"
+          }
+        ],
+        "audio_file": "audio/ja/P05.wav",
+        "duration_seconds": 15.466666666666667,
+        "native_speed": "role-based C",
+        "start": 94.13333333333334,
+        "speech_end": 109.60000000000001,
+        "end": 110.53333333333333,
+        "source_sha256": "26baced79ef6f0fe52abe294c07eeb66fb719c349a8ce9e97f892eeb0b8f7b14"
+      },
+      {
+        "id": "P06",
+        "chapter": "C03",
+        "sources": [
+          "S05",
+          "S06"
+        ],
+        "classification": "historical_fact",
+        "visuals": [
+          "V01_D2",
+          "D_resolution"
+        ],
+        "text": "絵の旗には、赤と白の縞と、青地に白い星があります。星条旗です。1777年6月14日、渡河のおよそ半年後に、大陸会議は、合衆国の旗を13本の縞と13の星とすることを決めました。決議は、星の並べ方を定めていません。あの夜にどの旗が掲げられたのか、そもそも旗があったのかは、分かっていません。",
+        "cues": [
+          {
+            "id": "P06-01",
+            "text": "絵の旗には、赤と白の縞と、青地に白い星があります。",
+            "spoken_text": "絵の旗には、赤と白の縞と、青地に白い星があります。",
+            "start": 110.53333333333333,
+            "end": 114.768,
+            "audio_file": "audio/ja/sentences/P06-01.wav",
+            "audio_sha256": "5942b0e8791b0352f400c2a65cb58647863909fc97734ee8e9b6c80d2748db5a",
+            "replacements": [],
+            "role": "plain"
+          },
+          {
+            "id": "P06-02",
+            "text": "星条旗です。",
+            "spoken_text": "星条旗です。",
+            "start": 115.088,
+            "end": 116.144,
+            "audio_file": "audio/ja/sentences/P06-02.wav",
+            "audio_sha256": "c6ea77d8a50f3b3d02448ac625c6817d59a8f7a40f40151babaf256b23537b4f",
+            "replacements": [],
+            "role": "plain"
+          },
+          {
+            "id": "P06-03",
+            "text": "1777年6月14日、渡河のおよそ半年後に、大陸会議は、合衆国の旗を13本の縞と13の星とすることを決めました。",
+            "spoken_text": "1777年6月14日、渡河のおよそ半年後に、大陸会議は、合衆国の旗を13本の縞と13の星とすることを決めました。",
+            "start": 116.538,
+            "end": 127.49266666666666,
+            "audio_file": "audio/ja/sentences/P06-03.wav",
+            "audio_sha256": "29b77ca2fdaa0c9e1de081d4115860cf67bc5bc5930ad9458681520c3e6b7108",
+            "replacements": [],
+            "role": "plain"
+          },
+          {
+            "id": "P06-04",
+            "text": "決議は、星の並べ方を定めていません。",
+            "spoken_text": "決議は、星の並べ方を定めていません。",
+            "start": 127.81266666666667,
+            "end": 130.98066666666665,
+            "audio_file": "audio/ja/sentences/P06-04.wav",
+            "audio_sha256": "804d81c922ab1c8d7f06fe213248768fc82585510b8d4166ec8296cb3be503de",
+            "replacements": [],
+            "role": "plain"
+          },
+          {
+            "id": "P06-05",
+            "text": "あの夜にどの旗が掲げられたのか、そもそも旗があったのかは、分かっていません。",
+            "spoken_text": "あの夜にどの旗が掲げられたのか、そもそも旗があったのかは、分かっていません。",
+            "start": 131.30066666666667,
+            "end": 136.90066666666667,
+            "audio_file": "audio/ja/sentences/P06-05.wav",
+            "audio_sha256": "937036d37334dda5cc025eccd11d6169e1c62dc83776e10c9652c89df2407c37",
+            "replacements": [],
+            "role": "plain"
+          }
+        ],
+        "audio_file": "audio/ja/P06.wav",
+        "duration_seconds": 26.367333333333335,
+        "native_speed": "role-based C",
+        "start": 110.53333333333333,
+        "speech_end": 136.90066666666667,
+        "end": 137.83333333333334,
+        "source_sha256": "d20052a3f8adefdebeb4fe580613637573333909bc9dab6433f67c7aa8ea13c6"
+      },
+      {
+        "id": "P07",
+        "chapter": "C04",
+        "sources": [
+          "S09",
+          "S10"
+        ],
+        "classification": "historical_fact",
+        "visuals": [
+          "D_leutze"
+        ],
+        "text": "画家のエマヌエル・ロイツェは、1816年にドイツで生まれました。子どものころ家族とともにアメリカへ渡り、1841年、絵を学ぶためにドイツへ戻ります。学んだのは、歴史画の画家が集まる街、デュッセルドルフでした。",
+        "cues": [
+          {
+            "id": "P07-01",
+            "text": "画家のエマヌエル・ロイツェは、1816年にドイツで生まれました。",
+            "spoken_text": "画家のエマヌエル・ロイツェは、1816年にドイツで生まれました。",
+            "start": 137.83333333333334,
+            "end": 142.81466666666668,
+            "audio_file": "audio/ja/sentences/P07-01.wav",
+            "audio_sha256": "7e1c3faf4d3124487b80f87469e2d71c6fc3cd99c0c87b43c1afc331a967733f",
+            "replacements": [],
+            "role": "explanation"
+          },
+          {
+            "id": "P07-02",
+            "text": "子どものころ家族とともにアメリカへ渡り、1841年、絵を学ぶためにドイツへ戻ります。",
+            "spoken_text": "子どものころ家族とともにアメリカへ渡り、1841年、絵を学ぶためにドイツへ戻ります。",
+            "start": 143.13466666666667,
+            "end": 150.08933333333334,
+            "audio_file": "audio/ja/sentences/P07-02.wav",
+            "audio_sha256": "0061df824fe92b299fe6edfc34405f68659be0c40cd3e1d633b539fdaa32511c",
+            "replacements": [],
+            "role": "plain"
+          },
+          {
+            "id": "P07-03",
+            "text": "学んだのは、歴史画の画家が集まる街、デュッセルドルフでした。",
+            "spoken_text": "学んだのは、歴史画の画家が集まる街、デュッセルドルフでした。",
+            "start": 150.40933333333334,
+            "end": 154.92133333333334,
+            "audio_file": "audio/ja/sentences/P07-03.wav",
+            "audio_sha256": "8f74bb356decb0229bfa7ba19e4689f0f5d2bce207dbd4c8b6e0f697b99c9625",
+            "replacements": [],
+            "role": "plain"
+          }
+        ],
+        "audio_file": "audio/ja/P07.wav",
+        "duration_seconds": 17.088,
+        "native_speed": "role-based C",
+        "start": 137.83333333333334,
+        "speech_end": 154.92133333333334,
+        "end": 155.83333333333334,
+        "source_sha256": "b36db11ce956c61436c1358c03d316fcfb76c5d8ad93122943eac3cc301ddeaa"
+      },
+      {
+        "id": "P08",
+        "chapter": "C04",
+        "sources": [
+          "S08",
+          "S09",
+          "S12"
+        ],
+        "classification": "historical_fact",
+        "visuals": [
+          "V10"
+        ],
+        "text": "彼がこの街で最初の絵を描き始めたのは1849年。1848年にヨーロッパの各地で革命が起きた、すぐ後のことです。ワシントンの旧邸で、いまは博物館のマウントバーノンは、ロイツェがその革命を支持し、この絵が自由と民主主義への新たな闘いを励ますことを望んでいた、と説明しています。",
+        "cues": [
+          {
+            "id": "P08-01",
+            "text": "彼がこの街で最初の絵を描き始めたのは1849年。",
+            "spoken_text": "彼がこの街で最初の絵を描き始めたのは1849年。",
+            "start": 155.83333333333334,
+            "end": 160.4946666666667,
+            "audio_file": "audio/ja/sentences/P08-01.wav",
+            "audio_sha256": "731071044113aca92afe6317681a5fa71b17ade8446d612d64ebe56590846ad1",
+            "replacements": [],
+            "role": "plain"
+          },
+          {
+            "id": "P08-02",
+            "text": "1848年にヨーロッパの各地で革命が起きた、すぐ後のことです。",
+            "spoken_text": "1848年にヨーロッパの各地で革命が起きた、すぐ後のことです。",
+            "start": 160.81466666666668,
+            "end": 166.35066666666668,
+            "audio_file": "audio/ja/sentences/P08-02.wav",
+            "audio_sha256": "fc6d9e1bcf0b5550a4e815ebf4212e5177c1920da1c94ff0add1c9faf31f0d91",
+            "replacements": [],
+            "role": "explanation"
+          },
+          {
+            "id": "P08-03",
+            "text": "ワシントンの旧邸で、いまは博物館のマウントバーノンは、ロイツェがその革命を支持し、この絵が自由と民主主義への新たな闘いを励ますことを望んでいた、と説明しています。",
+            "spoken_text": "ワシントンの旧邸で、いまは博物館のマウントバーノンは、ロイツェがその革命を支持し、この絵が自由と民主主義への新たな闘いを励ますことを望んでいた、と説明しています。",
+            "start": 166.67066666666668,
+            "end": 179.15066666666667,
+            "audio_file": "audio/ja/sentences/P08-03.wav",
+            "audio_sha256": "45abfed971b1ff18b69cd4a2b46a09ed530f55b9a45c46202679fafdae851552",
+            "replacements": [],
+            "role": "plain"
+          }
+        ],
+        "audio_file": "audio/ja/P08.wav",
+        "duration_seconds": 23.317333333333334,
+        "native_speed": "role-based C",
+        "start": 155.83333333333334,
+        "speech_end": 179.15066666666667,
+        "end": 180.06666666666666,
+        "source_sha256": "d9573f72a2c25a07507b85f1fb0dbebbaee52db26e73c07ea6a831e5623c4226"
+      },
+      {
+        "id": "P09",
+        "chapter": "C04",
+        "sources": [
+          "S11",
+          "S14"
+        ],
+        "classification": "historical_fact",
+        "visuals": [
+          "V01_D3",
+          "D_whittredge"
+        ],
+        "text": "人物のモデルを務めたのは、この街にいたアメリカ人たちでした。その一人、画家のワージントン・ホイットリッジは、舟の舵を取る人と、そしてワシントンその人のモデルをしたと振り返っています。ワシントンの頭部は、ウードンの彫刻を参考にしたとされます。",
+        "cues": [
+          {
+            "id": "P09-01",
+            "text": "人物のモデルを務めたのは、この街にいたアメリカ人たちでした。",
+            "spoken_text": "人物のモデルを務めたのは、この街にいたアメリカ人たちでした。",
+            "start": 180.06666666666666,
+            "end": 184.6,
+            "audio_file": "audio/ja/sentences/P09-01.wav",
+            "audio_sha256": "8abd4f11558b37953a93f8aace8414547a7aabede78a03088541c6d1630d095e",
+            "replacements": [],
+            "role": "plain"
+          },
+          {
+            "id": "P09-02",
+            "text": "その一人、画家のワージントン・ホイットリッジは、舟の舵を取る人と、そしてワシントンその人のモデルをしたと振り返っています。",
+            "spoken_text": "その一人、画家のワージントン・ホイットリッジは、舟の舵を取る人と、そしてワシントンその人のモデルをしたと振り返っています。",
+            "start": 184.92,
+            "end": 193.4,
+            "audio_file": "audio/ja/sentences/P09-02.wav",
+            "audio_sha256": "5b9aebca6ee2df27333b0acacad9912fc2cb7f9de7a4df2ebcc292893c9dcfe7",
+            "replacements": [],
+            "role": "plain"
+          },
+          {
+            "id": "P09-03",
+            "text": "ワシントンの頭部は、ウードンの彫刻を参考にしたとされます。",
+            "spoken_text": "ワシントンの頭部は、ウードンの彫刻を参考にしたとされます。",
+            "start": 193.72,
+            "end": 197.93333333333334,
+            "audio_file": "audio/ja/sentences/P09-03.wav",
+            "audio_sha256": "cdc81657c78b38d1ac51717037095aac8ec2d1f7b5e5f83ba328c31dfae0e7a0",
+            "replacements": [],
+            "role": "plain"
+          }
+        ],
+        "audio_file": "audio/ja/P09.wav",
+        "duration_seconds": 17.866666666666667,
+        "native_speed": "role-based C",
+        "start": 180.06666666666666,
+        "speech_end": 197.93333333333334,
+        "end": 198.86666666666667,
+        "source_sha256": "27be72681475c58c3d61b1309eb1b7e110d52f7302c4dea93979d9a3ee7ce1a7"
+      },
+      {
+        "id": "P10",
+        "chapter": "C04",
+        "sources": [
+          "S11",
+          "S12"
+        ],
+        "classification": "historical_fact",
+        "visuals": [
+          "D_bremen"
+        ],
+        "text": "1850年11月、アトリエの火事で、最初の絵が傷みました。翌年、ロイツェは2枚目を描き始めます。最初の絵は修復され、ブレーメンの街へ渡りましたが、1942年の空襲で失われました。",
+        "cues": [
+          {
+            "id": "P10-01",
+            "text": "1850年11月、アトリエの火事で、最初の絵が傷みました。",
+            "spoken_text": "1850年11月、アトリエの火事で、最初の絵が傷みました。",
+            "start": 198.86666666666667,
+            "end": 204.15733333333333,
+            "audio_file": "audio/ja/sentences/P10-01.wav",
+            "audio_sha256": "2c35d714f08e2e2980afd9251c23241d115208064bf6425e63fa1b5ab0bd4643",
+            "replacements": [],
+            "role": "plain"
+          },
+          {
+            "id": "P10-02",
+            "text": "翌年、ロイツェは2枚目を描き始めます。",
+            "spoken_text": "翌年、ロイツェは2枚目を描き始めます。",
+            "start": 204.47733333333335,
+            "end": 207.50666666666666,
+            "audio_file": "audio/ja/sentences/P10-02.wav",
+            "audio_sha256": "71d4ed00f04729bd276379c5bc24b8e06f597e6e8d60cb7c5f4249efcdf7ac06",
+            "replacements": [],
+            "role": "plain"
+          },
+          {
+            "id": "P10-03",
+            "text": "最初の絵は修復され、ブレーメンの街へ渡りましたが、1942年の空襲で失われました。",
+            "spoken_text": "最初の絵は修復され、ブレーメンの街へ渡りましたが、1942年の空襲で失われました。",
+            "start": 207.82666666666668,
+            "end": 215.22933333333333,
+            "audio_file": "audio/ja/sentences/P10-03.wav",
+            "audio_sha256": "1a336c10d5172c447494adab8c6b2ff912a49d4c76f90ff82e650058f61ddaa6",
+            "replacements": [],
+            "role": "plain"
+          }
+        ],
+        "audio_file": "audio/ja/P10.wav",
+        "duration_seconds": 16.362666666666666,
+        "native_speed": "role-based C",
+        "start": 198.86666666666667,
+        "speech_end": 215.22933333333333,
+        "end": 216.13333333333333,
+        "source_sha256": "4bb131485b99b0b55edb2ebe1b26392fa95edef621e5464085ee1c16e99b19a5"
+      },
+      {
+        "id": "P11",
+        "chapter": "C05",
+        "sources": [
+          "S11",
+          "S17"
+        ],
+        "classification": "historical_fact",
+        "visuals": [
+          "V05_or_D_1853"
+        ],
+        "text": "1851年、2枚目の絵はニューヨークで展示され、多くの人が見に訪れました。2年後にはこの絵をもとにした版画が出版され、その姿は展示室をはるかに越えて広まっていきました。",
+        "cues": [
+          {
+            "id": "P11-01",
+            "text": "1851年、2枚目の絵はニューヨークで展示され、多くの人が見に訪れました。",
+            "spoken_text": "1851年、2枚目の絵はニューヨークで展示され、多くの人が見に訪れました。",
+            "start": 216.13333333333333,
+            "end": 222.53333333333333,
+            "audio_file": "audio/ja/sentences/P11-01.wav",
+            "audio_sha256": "76b6c62e391e8e82bd43d9b1a5fbbc335d15fd425655b5cd5ddb6120545f78e6",
+            "replacements": [],
+            "role": "plain"
+          },
+          {
+            "id": "P11-02",
+            "text": "2年後にはこの絵をもとにした版画が出版され、その姿は展示室をはるかに越えて広まっていきました。",
+            "spoken_text": "2年後にはこの絵をもとにした版画が出版され、その姿は展示室をはるかに越えて広まっていきました。",
+            "start": 222.85333333333332,
+            "end": 229.81866666666667,
+            "audio_file": "audio/ja/sentences/P11-02.wav",
+            "audio_sha256": "70a30e17086c79d6cd95b1e624fd6144fbe8ddd1adad33b38c06906bd634dbe7",
+            "replacements": [],
+            "role": "plain"
+          }
+        ],
+        "audio_file": "audio/ja/P11.wav",
+        "duration_seconds": 13.685333333333332,
+        "native_speed": "role-based C",
+        "start": 216.13333333333333,
+        "speech_end": 229.81866666666667,
+        "end": 230.73333333333332,
+        "source_sha256": "2e132158b0e3b74bfc7c772e9d09b7533205d0e415cbd6cc221e2b52a47e7c5e"
+      },
+      {
+        "id": "P12",
+        "chapter": "C05",
+        "sources": [
+          "S01"
+        ],
+        "classification": "historical_fact",
+        "visuals": [
+          "V01_room"
+        ],
+        "text": "1897年、絵はメトロポリタン美術館に寄贈され、今もそこに掛けられています。幅は6メートルを超えます。",
+        "cues": [
+          {
+            "id": "P12-01",
+            "text": "1897年、絵はメトロポリタン美術館に寄贈され、今もそこに掛けられています。",
+            "spoken_text": "1897年、絵はメトロポリタン美術館に寄贈され、今もそこに掛けられています。",
+            "start": 230.73333333333332,
+            "end": 237.29333333333332,
+            "audio_file": "audio/ja/sentences/P12-01.wav",
+            "audio_sha256": "2d134d658cebca53b6c5d318626e73f96aa4765b087b113bc47603daaf3255bc",
+            "replacements": [],
+            "role": "explanation"
+          },
+          {
+            "id": "P12-02",
+            "text": "幅は6メートルを超えます。",
+            "spoken_text": "幅は6メートルを超えます。",
+            "start": 237.61333333333332,
+            "end": 239.48,
+            "audio_file": "audio/ja/sentences/P12-02.wav",
+            "audio_sha256": "287ae6b74b45e5aef8781d76e6a9c5298b294147e37ada903c372b88f78fb534",
+            "replacements": [],
+            "role": "plain"
+          }
+        ],
+        "audio_file": "audio/ja/P12.wav",
+        "duration_seconds": 8.746666666666666,
+        "native_speed": "role-based C",
+        "start": 230.73333333333332,
+        "speech_end": 239.48,
+        "end": 240.4,
+        "source_sha256": "d4b558a6bbd515eb35e9ad3d481e3ab3d879ed0b80d87c0a1659a81d0ffa21d8"
+      },
+      {
+        "id": "P13",
+        "chapter": "C06",
+        "sources": [],
+        "classification": "editorial_conclusion",
+        "visuals": [
+          "V01_full_2"
+        ],
+        "text": "では、ワシントンは本当にこうしてデラウェア川を渡ったのでしょうか。この絵は、描かれた夜からおよそ75年後に、別の国で描かれました。画家は空に朝の光を入れ、後の時代の国の旗を、兵士の手に持たせました。あの夜の記録ではありません。画家が自分の時代に向けて描いた、あの夜の姿です。そして今、多くの人が思い浮かべるのは、その姿なのです。",
+        "cues": [
+          {
+            "id": "P13-01",
+            "text": "では、ワシントンは本当にこうしてデラウェア川を渡ったのでしょうか。",
+            "spoken_text": "では、ワシントンは本当にこうしてデラウェア川を渡ったのでしょうか。",
+            "start": 240.4,
+            "end": 245.104,
+            "audio_file": "audio/ja/sentences/P13-01.wav",
+            "audio_sha256": "001aeaf8236ed3f09945843cc55d228c72889ca1ff3ba96d05db3658f740bbef",
+            "replacements": [],
+            "role": "question"
+          },
+          {
+            "id": "P13-02",
+            "text": "この絵は、描かれた夜からおよそ75年後に、別の国で描かれました。",
+            "spoken_text": "この絵は、描かれた夜からおよそ75年後に、別の国で描かれました。",
+            "start": 245.50400000000002,
+            "end": 250.96533333333335,
+            "audio_file": "audio/ja/sentences/P13-02.wav",
+            "audio_sha256": "006d0f8db6c570e7841c914533411992204e4a478edfd74e4faba264227bd210",
+            "replacements": [],
+            "role": "plain"
+          },
+          {
+            "id": "P13-03",
+            "text": "画家は空に朝の光を入れ、後の時代の国の旗を、兵士の手に持たせました。",
+            "spoken_text": "画家は空に朝の光を入れ、後の時代の国の旗を、兵士の手に持たせました。",
+            "start": 251.28533333333334,
+            "end": 256.928,
+            "audio_file": "audio/ja/sentences/P13-03.wav",
+            "audio_sha256": "241621e928e3dd5c72a39c95c2dda3d3e62281c0bd18bf651f2543538829d7e3",
+            "replacements": [],
+            "role": "plain"
+          },
+          {
+            "id": "P13-04",
+            "text": "あの夜の記録ではありません。",
+            "spoken_text": "あの夜の記録ではありません。",
+            "start": 257.248,
+            "end": 259.168,
+            "audio_file": "audio/ja/sentences/P13-04.wav",
+            "audio_sha256": "7092ef6fc1bec76e8386364d6a585202c6ce447b135b867fc1d2033ec5ede84a",
+            "replacements": [],
+            "role": "plain"
+          },
+          {
+            "id": "P13-05",
+            "text": "画家が自分の時代に向けて描いた、あの夜の姿です。",
+            "spoken_text": "画家が自分の時代に向けて描いた、あの夜の姿です。",
+            "start": 259.488,
+            "end": 263.3706666666667,
+            "audio_file": "audio/ja/sentences/P13-05.wav",
+            "audio_sha256": "49f668e764832e3c185cc5ee50d9ae4526812d41c604ff7b0a72bf59b0e22a5b",
+            "replacements": [],
+            "role": "plain"
+          },
+          {
+            "id": "P13-06",
+            "text": "そして今、多くの人が思い浮かべるのは、その姿なのです。",
+            "spoken_text": "そして今、多くの人が思い浮かべるのは、その姿なのです。",
+            "start": 263.6906666666667,
+            "end": 268.064,
+            "audio_file": "audio/ja/sentences/P13-06.wav",
+            "audio_sha256": "5beb5e4c1e461068b2dd207eb35fe0661c360e61bcc8d209b48a462629615a2f",
+            "replacements": [],
+            "role": "plain"
+          }
+        ],
+        "audio_file": "audio/ja/P13.wav",
+        "duration_seconds": 27.664,
+        "native_speed": "role-based C",
+        "start": 240.4,
+        "speech_end": 268.064,
+        "end": 269.0,
+        "source_sha256": "2b8af92f1f646f2c57cce7a472c9eaa262e9fbe845f788f3a1e3a1a3d1ffe7b0"
+      },
+      {
+        "id": "P14",
+        "chapter": "C06",
+        "sources": [],
+        "classification": "editorial_conclusion",
+        "visuals": [
+          "V01_full_2"
+        ],
+        "text": "すべての物語には、始まりがあります。ときに、私たちが覚えている姿は、その出来事よりずっと後に描かれたものなのです。",
+        "cues": [
+          {
+            "id": "P14-01",
+            "text": "すべての物語には、始まりがあります。",
+            "spoken_text": "すべての物語には、始まりがあります。",
+            "start": 269.0,
+            "end": 272.01866666666666,
+            "audio_file": "audio/ja/sentences/P14-01.wav",
+            "audio_sha256": "bb008e28461b0a7ae6673e6c14eeb1727ae8db8a4ef465dbbd10325abfd1fb9d",
+            "replacements": [],
+            "role": "conclusion"
+          },
+          {
+            "id": "P14-02",
+            "text": "ときに、私たちが覚えている姿は、その出来事よりずっと後に描かれたものなのです。",
+            "spoken_text": "ときに、私たちが覚えている姿は、その出来事よりずっと後に描かれたものなのです。",
+            "start": 272.4186666666667,
+            "end": 278.6906666666667,
+            "audio_file": "audio/ja/sentences/P14-02.wav",
+            "audio_sha256": "8ae3ebe96dcbceb4a19f2172e546078a8db24816b1e10f3110eaf92732d7522a",
+            "replacements": [],
+            "role": "conclusion"
+          }
+        ],
+        "audio_file": "audio/ja/P14.wav",
+        "duration_seconds": 9.690666666666667,
+        "native_speed": "role-based C",
+        "start": 269.0,
+        "speech_end": 278.6906666666667,
+        "end": 279.6,
+        "source_sha256": "a63d0b07fd429ee41690077d9c9cbcb45e876d0f88d692ce2fc893a512d3d959"
+      },
+      {
+        "id": "P15",
+        "chapter": "C06",
+        "sources": [],
+        "classification": "credits",
+        "visuals": [
+          "credits"
+        ],
+        "text": "この動画は、歴史資料と、美術館の公開コレクションにもとづいています。ナレーションには合成音声を使っています。出典と利用条件は説明欄に記載しています。楽しんでいただけたら、高評価とチャンネル登録で、これからも静かな起源の物語をお楽しみください。ご視聴ありがとうございました。",
+        "cues": [
+          {
+            "id": "P15-01",
+            "text": "この動画は、歴史資料と、美術館の公開コレクションにもとづいています。",
+            "spoken_text": "この動画は、歴史資料と、美術館の公開コレクションにもとづいています。",
+            "start": 279.6,
+            "end": 284.8906666666667,
+            "audio_file": "audio/ja/sentences/P15-01.wav",
+            "audio_sha256": "ff89b329e4ba4ed88034cd37d815f9a62602f6b13f8afdf17a3df21ea6367ae4",
+            "replacements": [],
+            "role": "conclusion"
+          },
+          {
+            "id": "P15-02",
+            "text": "ナレーションには合成音声を使っています。",
+            "spoken_text": "ナレーションには合成音声を使っています。",
+            "start": 285.2906666666667,
+            "end": 288.096,
+            "audio_file": "audio/ja/sentences/P15-02.wav",
+            "audio_sha256": "4d5dbf775c1c329a0b85879cec43d94c55c6884b4740b61b6adb59f60893aa4b",
+            "replacements": [],
+            "role": "conclusion"
+          },
+          {
+            "id": "P15-03",
+            "text": "出典と利用条件は説明欄に記載しています。",
+            "spoken_text": "出典と利用条件は説明欄に記載しています。",
+            "start": 288.49600000000004,
+            "end": 291.92,
+            "audio_file": "audio/ja/sentences/P15-03.wav",
+            "audio_sha256": "d320e23047cac6a56275ff8ac289719002323976a753822806e0c425fde292fb",
+            "replacements": [],
+            "role": "conclusion"
+          },
+          {
+            "id": "P15-04",
+            "text": "楽しんでいただけたら、高評価とチャンネル登録で、これからも静かな起源の物語をお楽しみください。",
+            "spoken_text": "楽しんでいただけたら、高評価とチャンネル登録で、これからも静かな起源の物語をお楽しみください。",
+            "start": 292.32000000000005,
+            "end": 299.53066666666666,
+            "audio_file": "audio/ja/sentences/P15-04.wav",
+            "audio_sha256": "1c162f3cdce059b51b5a00376fd0c2fdd02e1660c7d9d23cb4047b8e6d3e2a0e",
+            "replacements": [],
+            "role": "conclusion"
+          },
+          {
+            "id": "P15-05",
+            "text": "ご視聴ありがとうございました。",
+            "spoken_text": "ご視聴ありがとうございました。",
+            "start": 299.9306666666667,
+            "end": 301.904,
+            "audio_file": "audio/ja/sentences/P15-05.wav",
+            "audio_sha256": "a2c969e864a8766adc6a07fdc29a39b5a572ba4c76d68efcd753c5f3770884f2",
+            "replacements": [],
+            "role": "conclusion"
+          }
+        ],
+        "audio_file": "audio/ja/P15.wav",
+        "duration_seconds": 22.304,
+        "native_speed": "role-based C",
+        "start": 279.6,
+        "speech_end": 301.904,
+        "end": 302.8333333333333,
+        "source_sha256": "b67df6bddd8fab487375b9d4a020ecf13cabe38403df617101b787e9a6976baa"
+      }
+    ],
+    "duration_seconds": 312.8333333333333,
+    "fps": 30,
+    "brand_intervals": {
+      "opening": [
+        47.03333333333333,
+        51.03333333333333
+      ],
+      "endcard": [
+        302.8333333333333,
+        312.8333333333333
+      ]
+    }
+  },
+  "events": [
+    {
+      "segment": "P08",
+      "phrase": "1849年",
+      "sentence_id": "P08-01",
+      "frame": 4780,
+      "time": 159.33333333333334,
+      "method": "Native sentence / subtitle page with character-offset interpolation; not forced alignment"
+    },
+    {
+      "segment": "P12",
+      "phrase": "今もそこに",
+      "sentence_id": "P12-01",
+      "frame": 7046,
+      "time": 234.86666666666667,
+      "method": "Native sentence / subtitle page with character-offset interpolation; not forced alignment"
+    },
+    {
+      "segment": "P02",
+      "phrase": "冬の夜",
+      "sentence_id": "P02-03",
+      "frame": 1131,
+      "time": 37.7,
+      "method": "Native sentence / subtitle page with character-offset interpolation; not forced alignment"
+    },
+    {
+      "segment": "P02",
+      "phrase": "デュッセルドルフ",
+      "sentence_id": "P02-04",
+      "frame": 1183,
+      "time": 39.43333333333333,
+      "method": "Native sentence / subtitle page with character-offset interpolation; not forced alignment"
+    },
+    {
+      "segment": "P02",
+      "phrase": "この絵が有名",
+      "sentence_id": "P02-05",
+      "frame": 1263,
+      "time": 42.1,
+      "method": "Native sentence / subtitle page with character-offset interpolation; not forced alignment"
+    },
+    {
+      "segment": "P04",
+      "phrase": "ワシントンはそれを",
+      "sentence_id": "P04-04",
+      "frame": 2569,
+      "time": 85.63333333333334,
+      "method": "Native sentence / subtitle page with character-offset interpolation; not forced alignment"
+    },
+    {
+      "segment": "P06",
+      "phrase": "1777年6月14日",
+      "sentence_id": "P06-03",
+      "frame": 3496,
+      "time": 116.53333333333333,
+      "method": "Native sentence / subtitle page with character-offset interpolation; not forced alignment"
+    },
+    {
+      "segment": "P07",
+      "phrase": "子どものころ",
+      "sentence_id": "P07-02",
+      "frame": 4294,
+      "time": 143.13333333333333,
+      "method": "Native sentence / subtitle page with character-offset interpolation; not forced alignment"
+    },
+    {
+      "segment": "P07",
+      "phrase": "1841年",
+      "sentence_id": "P07-02",
+      "frame": 4393,
+      "time": 146.43333333333334,
+      "method": "Native sentence / subtitle page with character-offset interpolation; not forced alignment"
+    },
+    {
+      "segment": "P09",
+      "phrase": "その一人",
+      "sentence_id": "P09-02",
+      "frame": 5548,
+      "time": 184.93333333333334,
+      "method": "Native sentence / subtitle page with character-offset interpolation; not forced alignment"
+    },
+    {
+      "segment": "P10",
+      "phrase": "翌年",
+      "sentence_id": "P10-02",
+      "frame": 6134,
+      "time": 204.46666666666667,
+      "method": "Native sentence / subtitle page with character-offset interpolation; not forced alignment"
+    },
+    {
+      "segment": "P10",
+      "phrase": "1942年",
+      "sentence_id": "P10-03",
+      "frame": 6370,
+      "time": 212.33333333333334,
+      "method": "Native sentence / subtitle page with character-offset interpolation; not forced alignment"
+    },
+    {
+      "segment": "P11",
+      "phrase": "2年後には",
+      "sentence_id": "P11-02",
+      "frame": 6686,
+      "time": 222.86666666666667,
+      "method": "Native sentence / subtitle page with character-offset interpolation; not forced alignment"
+    }
+  ],
+  "shots": [
+    {
+      "key": "V01_full_1",
+      "segment_id": "P01",
+      "start": 0.0,
+      "end": 34.2,
+      "frames": 1026,
+      "stages": [
+        {
+          "start_frame": 0,
+          "frames": 1026,
+          "stage": 0,
+          "year": null
+        }
+      ],
+      "encoded_file": "/Volumes/ESD-02/新チャンネル/PNT02_WashingtonCrossing/確認版_v01_20261110/ja/_work/render/V01_full_1.mp4",
+      "moving": true
+    },
+    {
+      "key": "D_timeline_intro",
+      "segment_id": "P02",
+      "start": 34.2,
+      "end": 47.03333333333333,
+      "frames": 385,
+      "stages": [
+        {
+          "start_frame": 1026,
+          "frames": 105,
+          "stage": -1,
+          "year": null
+        },
+        {
+          "start_frame": 1131,
+          "frames": 26,
+          "stage": 0,
+          "year": null
+        },
+        {
+          "start_frame": 1157,
+          "frames": 26,
+          "stage": 1,
+          "year": null
+        },
+        {
+          "start_frame": 1183,
+          "frames": 40,
+          "stage": 2,
+          "year": null
+        },
+        {
+          "start_frame": 1223,
+          "frames": 40,
+          "stage": 3,
+          "year": null
+        },
+        {
+          "start_frame": 1263,
+          "frames": 30,
+          "stage": 4,
+          "year": null
+        },
+        {
+          "start_frame": 1293,
+          "frames": 88,
+          "stage": 5,
+          "year": null
+        },
+        {
+          "start_frame": 1381,
+          "frames": 1,
+          "stage": 6,
+          "year": null
+        },
+        {
+          "start_frame": 1382,
+          "frames": 1,
+          "stage": 7,
+          "year": null
+        },
+        {
+          "start_frame": 1383,
+          "frames": 1,
+          "stage": 8,
+          "year": null
+        },
+        {
+          "start_frame": 1384,
+          "frames": 1,
+          "stage": 9,
+          "year": null
+        },
+        {
+          "start_frame": 1385,
+          "frames": 1,
+          "stage": 10,
+          "year": null
+        },
+        {
+          "start_frame": 1386,
+          "frames": 1,
+          "stage": 11,
+          "year": null
+        },
+        {
+          "start_frame": 1387,
+          "frames": 1,
+          "stage": 12,
+          "year": null
+        },
+        {
+          "start_frame": 1388,
+          "frames": 1,
+          "stage": 13,
+          "year": null
+        },
+        {
+          "start_frame": 1389,
+          "frames": 1,
+          "stage": 14,
+          "year": null
+        },
+        {
+          "start_frame": 1390,
+          "frames": 1,
+          "stage": 15,
+          "year": null
+        },
+        {
+          "start_frame": 1391,
+          "frames": 1,
+          "stage": 16,
+          "year": null
+        },
+        {
+          "start_frame": 1392,
+          "frames": 1,
+          "stage": 17,
+          "year": null
+        },
+        {
+          "start_frame": 1393,
+          "frames": 1,
+          "stage": 18,
+          "year": null
+        },
+        {
+          "start_frame": 1394,
+          "frames": 1,
+          "stage": 19,
+          "year": null
+        },
+        {
+          "start_frame": 1395,
+          "frames": 1,
+          "stage": 20,
+          "year": null
+        },
+        {
+          "start_frame": 1396,
+          "frames": 1,
+          "stage": 21,
+          "year": null
+        },
+        {
+          "start_frame": 1397,
+          "frames": 1,
+          "stage": 22,
+          "year": null
+        },
+        {
+          "start_frame": 1398,
+          "frames": 1,
+          "stage": 23,
+          "year": null
+        },
+        {
+          "start_frame": 1399,
+          "frames": 1,
+          "stage": 24,
+          "year": null
+        },
+        {
+          "start_frame": 1400,
+          "frames": 1,
+          "stage": 25,
+          "year": null
+        },
+        {
+          "start_frame": 1401,
+          "frames": 1,
+          "stage": 26,
+          "year": null
+        },
+        {
+          "start_frame": 1402,
+          "frames": 1,
+          "stage": 27,
+          "year": null
+        },
+        {
+          "start_frame": 1403,
+          "frames": 1,
+          "stage": 28,
+          "year": null
+        },
+        {
+          "start_frame": 1404,
+          "frames": 1,
+          "stage": 29,
+          "year": null
+        },
+        {
+          "start_frame": 1405,
+          "frames": 1,
+          "stage": 30,
+          "year": null
+        },
+        {
+          "start_frame": 1406,
+          "frames": 1,
+          "stage": 31,
+          "year": null
+        },
+        {
+          "start_frame": 1407,
+          "frames": 1,
+          "stage": 32,
+          "year": null
+        },
+        {
+          "start_frame": 1408,
+          "frames": 1,
+          "stage": 33,
+          "year": null
+        },
+        {
+          "start_frame": 1409,
+          "frames": 1,
+          "stage": 34,
+          "year": null
+        },
+        {
+          "start_frame": 1410,
+          "frames": 1,
+          "stage": 35,
+          "year": null
+        }
+      ],
+      "encoded_file": "/Volumes/ESD-02/新チャンネル/PNT02_WashingtonCrossing/確認版_v01_20261110/ja/_work/render/D_timeline_intro.mp4",
+      "moving": false
+    },
+    {
+      "key": "opening",
+      "segment_id": "BRAND",
+      "start": 47.03333333333333,
+      "end": 51.03333333333333,
+      "frames": 120,
+      "stages": [],
+      "encoded_file": "/Users/ryo/Desktop/新チャンネル/ブランド素材/オープニング_エンドカード_動画試作_v02_20261021/deliverables/Quiet_Origins_opening_trial_v02.mp4"
+    },
+    {
+      "key": "D_letter_head",
+      "segment_id": "P03",
+      "start": 51.03333333333333,
+      "end": 71.1,
+      "frames": 602,
+      "stages": [
+        {
+          "start_frame": 1531,
+          "frames": 602,
+          "stage": 0,
+          "year": "1776"
+        }
+      ],
+      "encoded_file": "/Volumes/ESD-02/新チャンネル/PNT02_WashingtonCrossing/確認版_v01_20261110/ja/_work/render/D_letter_head.mp4",
+      "moving": false
+    },
+    {
+      "key": "D_letter",
+      "segment_id": "P04",
+      "start": 71.1,
+      "end": 94.13333333333334,
+      "frames": 691,
+      "stages": [
+        {
+          "start_frame": 2133,
+          "frames": 436,
+          "stage": 0,
+          "year": "1776"
+        },
+        {
+          "start_frame": 2569,
+          "frames": 255,
+          "stage": 1,
+          "year": "1776"
+        }
+      ],
+      "encoded_file": "/Volumes/ESD-02/新チャンネル/PNT02_WashingtonCrossing/確認版_v01_20261110/ja/_work/render/D_letter.mp4",
+      "moving": false
+    },
+    {
+      "key": "V01_D1",
+      "segment_id": "P05",
+      "start": 94.13333333333334,
+      "end": 110.53333333333333,
+      "frames": 492,
+      "stages": [
+        {
+          "start_frame": 2824,
+          "frames": 492,
+          "stage": 0,
+          "year": "1776"
+        }
+      ],
+      "encoded_file": "/Volumes/ESD-02/新チャンネル/PNT02_WashingtonCrossing/確認版_v01_20261110/ja/_work/render/V01_D1.mp4",
+      "moving": true
+    },
+    {
+      "key": "V01_D2",
+      "segment_id": "P06",
+      "start": 110.53333333333333,
+      "end": 116.53333333333333,
+      "frames": 180,
+      "stages": [
+        {
+          "start_frame": 3316,
+          "frames": 180,
+          "stage": 0,
+          "year": "1777"
+        }
+      ],
+      "encoded_file": "/Volumes/ESD-02/新チャンネル/PNT02_WashingtonCrossing/確認版_v01_20261110/ja/_work/render/V01_D2.mp4",
+      "moving": true
+    },
+    {
+      "key": "D_resolution",
+      "segment_id": "P06",
+      "start": 116.53333333333333,
+      "end": 137.83333333333334,
+      "frames": 639,
+      "stages": [
+        {
+          "start_frame": 3496,
+          "frames": 639,
+          "stage": 0,
+          "year": "1777"
+        }
+      ],
+      "encoded_file": "/Volumes/ESD-02/新チャンネル/PNT02_WashingtonCrossing/確認版_v01_20261110/ja/_work/render/D_resolution.mp4",
+      "moving": false
+    },
+    {
+      "key": "D_leutze",
+      "segment_id": "P07",
+      "start": 137.83333333333334,
+      "end": 155.83333333333334,
+      "frames": 540,
+      "stages": [
+        {
+          "start_frame": 4135,
+          "frames": 159,
+          "stage": 0,
+          "year": "—"
+        },
+        {
+          "start_frame": 4294,
+          "frames": 99,
+          "stage": 1,
+          "year": "—"
+        },
+        {
+          "start_frame": 4393,
+          "frames": 282,
+          "stage": 2,
+          "year": "—"
+        }
+      ],
+      "encoded_file": "/Volumes/ESD-02/新チャンネル/PNT02_WashingtonCrossing/確認版_v01_20261110/ja/_work/render/D_leutze.mp4",
+      "moving": false
+    },
+    {
+      "key": "V10",
+      "segment_id": "P08",
+      "start": 155.83333333333334,
+      "end": 180.06666666666666,
+      "frames": 727,
+      "stages": [
+        {
+          "start_frame": 4675,
+          "frames": 105,
+          "stage": 0,
+          "year": "—"
+        },
+        {
+          "start_frame": 4780,
+          "frames": 622,
+          "stage": 0,
+          "year": "1849"
+        }
+      ],
+      "encoded_file": "/Volumes/ESD-02/新チャンネル/PNT02_WashingtonCrossing/確認版_v01_20261110/ja/_work/render/V10.mp4",
+      "moving": true
+    },
+    {
+      "key": "V01_D3",
+      "segment_id": "P09",
+      "start": 180.06666666666666,
+      "end": 184.93333333333334,
+      "frames": 146,
+      "stages": [
+        {
+          "start_frame": 5402,
+          "frames": 146,
+          "stage": 0,
+          "year": "1849"
+        }
+      ],
+      "encoded_file": "/Volumes/ESD-02/新チャンネル/PNT02_WashingtonCrossing/確認版_v01_20261110/ja/_work/render/V01_D3.mp4",
+      "moving": true
+    },
+    {
+      "key": "D_whittredge",
+      "segment_id": "P09",
+      "start": 184.93333333333334,
+      "end": 198.86666666666667,
+      "frames": 418,
+      "stages": [
+        {
+          "start_frame": 5548,
+          "frames": 418,
+          "stage": 0,
+          "year": "1849"
+        }
+      ],
+      "encoded_file": "/Volumes/ESD-02/新チャンネル/PNT02_WashingtonCrossing/確認版_v01_20261110/ja/_work/render/D_whittredge.mp4",
+      "moving": false
+    },
+    {
+      "key": "D_bremen",
+      "segment_id": "P10",
+      "start": 198.86666666666667,
+      "end": 216.13333333333333,
+      "frames": 518,
+      "stages": [
+        {
+          "start_frame": 5966,
+          "frames": 168,
+          "stage": 0,
+          "year": "—"
+        },
+        {
+          "start_frame": 6134,
+          "frames": 236,
+          "stage": 1,
+          "year": "—"
+        },
+        {
+          "start_frame": 6370,
+          "frames": 114,
+          "stage": 2,
+          "year": "—"
+        }
+      ],
+      "encoded_file": "/Volumes/ESD-02/新チャンネル/PNT02_WashingtonCrossing/確認版_v01_20261110/ja/_work/render/D_bremen.mp4",
+      "moving": false
+    },
+    {
+      "key": "D_1853",
+      "segment_id": "P11",
+      "start": 216.13333333333333,
+      "end": 230.73333333333332,
+      "frames": 438,
+      "stages": [
+        {
+          "start_frame": 6484,
+          "frames": 202,
+          "stage": 0,
+          "year": "1851"
+        },
+        {
+          "start_frame": 6686,
+          "frames": 236,
+          "stage": 1,
+          "year": "1851"
+        }
+      ],
+      "encoded_file": "/Volumes/ESD-02/新チャンネル/PNT02_WashingtonCrossing/確認版_v01_20261110/ja/_work/render/D_1853.mp4",
+      "moving": false
+    },
+    {
+      "key": "V01_room",
+      "segment_id": "P12",
+      "start": 230.73333333333332,
+      "end": 240.4,
+      "frames": 290,
+      "stages": [
+        {
+          "start_frame": 6922,
+          "frames": 124,
+          "stage": 0,
+          "year": "1897"
+        },
+        {
+          "start_frame": 7046,
+          "frames": 166,
+          "stage": 0,
+          "year": "today"
+        }
+      ],
+      "encoded_file": "/Volumes/ESD-02/新チャンネル/PNT02_WashingtonCrossing/確認版_v01_20261110/ja/_work/render/V01_room.mp4",
+      "moving": true
+    },
+    {
+      "key": "V01_full_2",
+      "segment_id": "P13",
+      "start": 240.4,
+      "end": 279.6,
+      "frames": 1176,
+      "stages": [
+        {
+          "start_frame": 7212,
+          "frames": 1176,
+          "stage": 0,
+          "year": null
+        }
+      ],
+      "encoded_file": "/Volumes/ESD-02/新チャンネル/PNT02_WashingtonCrossing/確認版_v01_20261110/ja/_work/render/V01_full_2.mp4",
+      "moving": true
+    },
+    {
+      "key": "credits",
+      "segment_id": "P15",
+      "start": 279.6,
+      "end": 302.8333333333333,
+      "frames": 697,
+      "stages": [
+        {
+          "start_frame": 8388,
+          "frames": 697,
+          "stage": 0,
+          "year": null
+        }
+      ],
+      "encoded_file": "/Volumes/ESD-02/新チャンネル/PNT02_WashingtonCrossing/確認版_v01_20261110/ja/_work/render/credits.mp4",
+      "moving": false
+    },
+    {
+      "key": "endcard",
+      "segment_id": "BRAND",
+      "start": 302.8333333333333,
+      "end": 312.8333333333333,
+      "frames": 300,
+      "stages": [],
+      "encoded_file": "/Users/ryo/Desktop/新チャンネル/ブランド素材/エンドカード_共通版_v02_20261023/deliverables/Quiet_Origins_endcard_v02.mp4"
+    }
+  ]
+}

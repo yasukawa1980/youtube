@@ -1,0 +1,97 @@
+{
+  "inputs": [
+    {
+      "key": "V01_full_1",
+      "sha256": "f65acc367f8e4457c2e334a984633ae9293381588ca772bb80d631c8f5d7c97d",
+      "frames": 1026
+    },
+    {
+      "key": "D_timeline_intro",
+      "sha256": "52a0ed53833bcf68df4346436a38f3e980ae30dcc5e0275d94cf751fd269c8fd",
+      "frames": 385
+    },
+    {
+      "key": "opening",
+      "sha256": "4f8e95fd166e52b6c601c87440006ded2eec298f54c3d6d6a951738b54f721a9",
+      "frames": 120
+    },
+    {
+      "key": "D_letter_head",
+      "sha256": "983722a5a68d25d58fae563fc52571ef3ff4df4f6353b933973b70bb21aafd02",
+      "frames": 602
+    },
+    {
+      "key": "D_letter",
+      "sha256": "1b29f9c4b2fa72316b15af7f775be89b7db8847bf4766593dab11c0c7ae02b68",
+      "frames": 691
+    },
+    {
+      "key": "V01_D1",
+      "sha256": "7553a856a59e6fadcf44f022b2bc930fbc0cbc63f389a2435f20b76c5822916e",
+      "frames": 492
+    },
+    {
+      "key": "V01_D2",
+      "sha256": "fc03687d74e43a8c1f87fc2c392b0e15ab3d1d78ce785600b36f1c81e0c41288",
+      "frames": 180
+    },
+    {
+      "key": "D_resolution",
+      "sha256": "8f3633e2b784ba517c5abbffd704d2a5ab82d962fd50e78b4f4679776940f51e",
+      "frames": 639
+    },
+    {
+      "key": "D_leutze",
+      "sha256": "b310930aaa94b33416c67cdcad06ed92c39f7b123e106a583716d0a0c9c0b0b5",
+      "frames": 540
+    },
+    {
+      "key": "V10",
+      "sha256": "47f79e93e266c9b6de606ce8b933e91a45b704196db29d0b9e2e5b8c28e41af9",
+      "frames": 727
+    },
+    {
+      "key": "V01_D3",
+      "sha256": "dbbfc11c7dc4a097218c686c5547d29909878bcc62ae138150061c967529ba05",
+      "frames": 146
+    },
+    {
+      "key": "D_whittredge",
+      "sha256": "6bcd14419536e1aee2d3c32e24a2682e9e77524e64b402342300a79476ae16cf",
+      "frames": 418
+    },
+    {
+      "key": "D_bremen",
+      "sha256": "5673c34108fed61450e3e3d08ac398f03b31d4229e41f8a5c6baedb026539252",
+      "frames": 518
+    },
+    {
+      "key": "D_1853",
+      "sha256": "8209a6176d23d5199e954b12514ab0c5aa693fbd57c6c555b52355c70cafbae6",
+      "frames": 438
+    },
+    {
+      "key": "V01_room",
+      "sha256": "f8b6b5c0b01854f10c897aac514d0930c75a48db9551b7532e6355fbb6aec74f",
+      "frames": 290
+    },
+    {
+      "key": "V01_full_2",
+      "sha256": "3ccc52ae70c90ce084297ed706bc0f86b0e65a8fcc085a91c2cc4a05576e2cb1",
+      "frames": 1176
+    },
+    {
+      "key": "credits",
+      "sha256": "bbaae695aaa2f1a50c365a4bea035178f0d85f1de0f73a3a4f0ee56f2f962aad",
+      "frames": 697
+    },
+    {
+      "key": "endcard",
+      "sha256": "3cd254cdd387d0ca8e3ef3c2f74ca3650dc64fb02609bcd09a21b3e36a3513a2",
+      "frames": 300
+    }
+  ],
+  "master_sha256": "cf3a9b3c0558af573be3e194475140407e4670667891b28848b433ae1dd8a971",
+  "method": "Each logical shot and common brand clip is independently decoded to raw yuv420p; one H.264 encoder writes the entire movie.",
+  "common_brand_4k": null
+}

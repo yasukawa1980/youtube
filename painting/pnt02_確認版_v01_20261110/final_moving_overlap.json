@@ -1,0 +1,73 @@
+{
+  "passed": true,
+  "method": "All pairs of actual per-frame crop quadrilaterals transformed into the full painting using the recorded SIFT homographies. Overlap divided by the smaller actual crop area.",
+  "registration_source": "detail_registration.json",
+  "checks": [
+    {
+      "language": "en",
+      "a": "V01_D1",
+      "b": "V01_D2",
+      "frame_pairs": 133858,
+      "maximum_overlap": 0.0957388034360846,
+      "maximum_at_local_frames": [
+        0,
+        0
+      ],
+      "passed": true
+    },
+    {
+      "language": "en",
+      "a": "V01_D1",
+      "b": "V01_D3",
+      "frame_pairs": 54808,
+      "maximum_overlap": 0,
+      "maximum_at_local_frames": null,
+      "passed": true
+    },
+    {
+      "language": "en",
+      "a": "V01_D2",
+      "b": "V01_D3",
+      "frame_pairs": 26416,
+      "maximum_overlap": 0.24696706404832475,
+      "maximum_at_local_frames": [
+        0,
+        0
+      ],
+      "passed": true
+    },
+    {
+      "language": "ja",
+      "a": "V01_D1",
+      "b": "V01_D2",
+      "frame_pairs": 88560,
+      "maximum_overlap": 0.0957388034360846,
+      "maximum_at_local_frames": [
+        0,
+        0
+      ],
+      "passed": true
+    },
+    {
+      "language": "ja",
+      "a": "V01_D1",
+      "b": "V01_D3",
+      "frame_pairs": 71832,
+      "maximum_overlap": 0,
+      "maximum_at_local_frames": null,
+      "passed": true
+    },
+    {
+      "language": "ja",
+      "a": "V01_D2",
+      "b": "V01_D3",
+      "frame_pairs": 26280,
+      "maximum_overlap": 0.24696706404832475,
+      "maximum_at_local_frames": [
+        0,
+        0
+      ],
+      "passed": true
+    }
+  ]
+}

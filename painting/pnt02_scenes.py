@@ -52,7 +52,7 @@ def rail(im,yr):
  dr=ImageDraw.Draw(im);rect(dr,(0,915,1920,1080),fill=BAR);line(dr,(120,1008,1800,1008),'#c6b388',3)
  for i,n in enumerate(YRS):
   x=120+i*336;line(dr,(x,1000,x,1017),LIGHT,3)
-  # Wide 1946–47 is centred over its tick, with 336 px between neighbours.
+  # Chronology ticks are equally spaced, 336 px apart.
   txt(im,n,x,963 if n==yr else 1037,60 if n==yr else 26,FB if n==yr else SANS,LIGHT if n==yr else '#c9bda6',maxw=315,major=n==yr)
 
 @lru_cache(3)

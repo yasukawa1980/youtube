@@ -1,24 +1,34 @@
-# pnt02 確認版v01の制作途中共有
+# pnt02 確認版v01 取得案内
 
-**完成した確認版動画はまだありません。** このフォルダには英日音声・字幕の検品、素材・画角検証、文字カード案を置いています。年代帯のP07/P08指定の食い違いを本人へ確認中です。
+非公開Draft Release ID：`439743216`。動画5本完成、本人試聴待ち。旧 preliminary ZIP は制作途中の履歴資料。公開しない。
 
-[制作結果・未達条件・再開手順](../pnt02_制作結果_v01_20261110.md) · [サムネ2案](../サムネ確認用/pnt02/)
+[制作結果と未確認項目](../pnt02_制作結果_v01_20261110.md) · [最終数値](final_summary.json) · [再取得照合](final_sharing.json)
 
-[非公開Draft Release（制作途中のみ）](https://github.com/yasukawa1980/youtube/releases/tag/untagged-37c878e25160c0b72f46)：ID **439743216**。Release ID指定のRESTで再取得し、添付2本のバイト数・SHA-256一致を確認。匿名アクセスは404。詳細は [sharing.json](sharing.json)。音声ZIPは初回の読み替えなし英日M4A/WAVとSRT、設計ZIPは静止画・サムネ・JSON記録です。**発音は未試聴。カード案の年代帯は仮配置であり、完成映像ではありません。**
+## 数値IDで取得
 
-英語321.200秒、日本語312.833333秒。音量は両言語−16.01 LUFS、ピーク英−2.40／日−5.20 dBTP。字幕74／70件、台本と空白以外一致。音声初回データは指定SSDに保全済みです。
+認証済みGitHub CLIで確認する。Releaseを公開する必要はない。
 
-SSD：`/Volumes/ESD-02/新チャンネル/PNT02_WashingtonCrossing/確認版_v01_20261110/`
+```sh
+gh api repos/yasukawa1980/youtube/releases/439743216
+gh api -H "Accept: application/octet-stream" repos/yasukawa1980/youtube/releases/assets/<Asset ID> > <保存名>
+```
 
-完成版に向けて残る作業は、年代帯仕様の確認、発音、動画全5本の制作・検品、投稿情報、完成版Draft Releaseへの格納です。11/22中の確認版v01納品は未達です。投稿・予約・Release公開はしていません。
+|ファイル|Asset ID|バイト数|
+|---|---:|---:|
+|PNT02_WashingtonCrossing_en_v01_1080p30.mp4|729400258|65,934,520|
+|PNT02_WashingtonCrossing_en_v01_2160p30.mp4|729400893|333,810,526|
+|PNT02_WashingtonCrossing_en_v01_subtitled_review_1080p30.mp4|729403929|36,509,341|
+|PNT02_WashingtonCrossing_ja_v01_1080p30.mp4|729404465|66,831,021|
+|PNT02_WashingtonCrossing_ja_v01_subtitled_review_1080p30.mp4|729405237|36,321,552|
+|PNT02_audio_subtitles_final_v01.zip|729405695|188,122,317|
+|PNT02_final_QC_metadata_thumbnails_v01.zip|729406947|30,351,052|
 
-## 取得方法
+7資産すべて数値IDで再取得済み。サイズ・SHA-256一致。SHA-256全値は `final_sharing.json`。
 
-`gh api repos/yasukawa1980/youtube/releases/439743216` で確認。添付は `gh api -H "Accept: application/octet-stream" repos/yasukawa1980/youtube/releases/assets/ASSET_ID > OUTPUT` で取得できます。
+## レビュー画像・記録
 
-|ファイル|asset ID|バイト|SHA-256|
-|---|---:|---:|---|
-|PNT02_audio_subtitles_preliminary_v01.zip|729292432|188121684|`e7d2ba5d025bf261c7b0bd82ccbe46f35ae0f5fa63a37adf155dd10aa46ab96d`|
-|PNT02_design_records_preliminary_v01.zip|729293088|1650520|`d6191e4c45f8a1c69d5f77f4afb1a8ed49d0ad5f976717213abebb10c3b73312`|
-
-設計ZIP中のREADMEはアップロード前の案内です。取得先の最新値はこのGit上のREADMEとsharing.jsonを参照してください。
+- `en/final_video_review/`：英1080p・4Kの先頭/中央/末尾の一覧、カード状態、冒頭・字幕。
+- `ja/final_video_review/`：日本語1080pの同じ確認資料。
+- `continuous_*_sheet_*.jpg` は最終MP4から連続デコードした一覧。`design_*`・`card_*` は以前の設計画像。
+- 音声と字幕は `PNT02_audio_subtitles_final_v01.zip`。資料・サムネ・投稿情報は `PNT02_final_QC_metadata_thumbnails_v01.zip`。
+- 発音は未聴取。固有名、難読語、発話と帯の厳密な同期、テンポ、縦置き・文字カード、サムネA/Bは本人確認。

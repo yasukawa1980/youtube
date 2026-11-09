@@ -1,0 +1,55 @@
+{
+  "passed": true,
+  "movie_timescale": 48000,
+  "video_frames": 9636,
+  "audio_samples": 15417600,
+  "files": [
+    {
+      "name": "PNT02_audio_en.m4a",
+      "before_sha256": "a77f85ebffa5652d47e697432347ce450a06e07dc3cbe6b209ed100f9c362570",
+      "after_sha256": "a77f85ebffa5652d47e697432347ce450a06e07dc3cbe6b209ed100f9c362570",
+      "already_sample_exact": true,
+      "encoded_streams_identical": true,
+      "stream_hashes": {
+        "audio": "SHA256=253584afa9fc11c5d13bf53a1c43801dbeebeda2978a6d84cece92b4d248d81a"
+      },
+      "duration_seconds": "321.200000"
+    },
+    {
+      "name": "PNT02_WashingtonCrossing_en_v01_1080p30.mp4",
+      "before_sha256": "14a98c69de1f6aa14600bb5be7f60a1f703aa06f8fcd99db792c3df82c9fa36c",
+      "after_sha256": "14a98c69de1f6aa14600bb5be7f60a1f703aa06f8fcd99db792c3df82c9fa36c",
+      "already_sample_exact": true,
+      "encoded_streams_identical": true,
+      "stream_hashes": {
+        "video": "SHA256=f3fd9b52bafa7d476050403f09dd1045a19815f83b763a45443ef097a13df552",
+        "audio": "SHA256=253584afa9fc11c5d13bf53a1c43801dbeebeda2978a6d84cece92b4d248d81a"
+      },
+      "duration_seconds": "321.200000"
+    },
+    {
+      "name": "PNT02_WashingtonCrossing_en_v01_2160p30.mp4",
+      "before_sha256": "0301e89dfd7f76587655cdf46687abc231091f93c05fc6bfa04dfe25f6330f96",
+      "after_sha256": "0301e89dfd7f76587655cdf46687abc231091f93c05fc6bfa04dfe25f6330f96",
+      "already_sample_exact": true,
+      "encoded_streams_identical": true,
+      "stream_hashes": {
+        "video": "SHA256=f4ba62456756990429c8ac7e39fdc07670ea510c5d97951521e3171a6a301022",
+        "audio": "SHA256=253584afa9fc11c5d13bf53a1c43801dbeebeda2978a6d84cece92b4d248d81a"
+      },
+      "duration_seconds": "321.200000"
+    },
+    {
+      "name": "PNT02_WashingtonCrossing_en_v01_subtitled_review_1080p30.mp4",
+      "before_sha256": "4ac14660fccea3f439089577d05698adf71e142869299b1ea6674b5c0b9ecc9c",
+      "after_sha256": "4ac14660fccea3f439089577d05698adf71e142869299b1ea6674b5c0b9ecc9c",
+      "already_sample_exact": true,
+      "encoded_streams_identical": true,
+      "stream_hashes": {
+        "video": "SHA256=6c8b63db176416e2c724502e3dac464a592659bb8a43b523be88c1decfee924d",
+        "audio": "SHA256=253584afa9fc11c5d13bf53a1c43801dbeebeda2978a6d84cece92b4d248d81a"
+      },
+      "duration_seconds": "321.200000"
+    }
+  ]
+}

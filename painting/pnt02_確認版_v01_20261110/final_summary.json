@@ -1,0 +1,141 @@
+{
+  "video_completed": true,
+  "auditory_review_completed": false,
+  "languages": {
+    "en": {
+      "duration_seconds": 321.2,
+      "frames": 9636,
+      "loudness": {
+        "input_i": "-16.01",
+        "input_tp": "-2.40",
+        "input_lra": "2.90",
+        "input_thresh": "-26.80",
+        "output_i": "-16.06",
+        "output_tp": "-3.00",
+        "output_lra": "2.90",
+        "output_thresh": "-26.72",
+        "normalization_type": "dynamic",
+        "target_offset": "0.06"
+      },
+      "subtitle_pages": 74,
+      "subtitle_min_seconds": 1.7509999999999764,
+      "subtitle_max_line": 42,
+      "subtitle_min_clearance": 15,
+      "variants": {
+        "1080p": {
+          "decoded_frames": 9636,
+          "decode_warnings": 0,
+          "motion_max_ratio": 2.2013577989364608,
+          "native_scale_max": 0.4992,
+          "contrast_min": 6.823041278501212,
+          "plate_padding_min": 77.0
+        },
+        "_4k": {
+          "decoded_frames": 9636,
+          "decode_warnings": 0,
+          "motion_max_ratio": 1.3982895772812425,
+          "native_scale_max": 0.9984,
+          "contrast_min": 6.823041278501212,
+          "plate_padding_min": 75.0
+        }
+      },
+      "files": [
+        {
+          "name": "PNT02_WashingtonCrossing_en_v01_1080p30.mp4",
+          "bytes": 65934520,
+          "sha256": "14a98c69de1f6aa14600bb5be7f60a1f703aa06f8fcd99db792c3df82c9fa36c"
+        },
+        {
+          "name": "PNT02_WashingtonCrossing_en_v01_1080p30.srt",
+          "bytes": 6591,
+          "sha256": "13264ca22df00a704b93013ab14b3a07b8256f8a96d06c7c963f7b905325357c"
+        },
+        {
+          "name": "PNT02_WashingtonCrossing_en_v01_2160p30.mp4",
+          "bytes": 333810526,
+          "sha256": "0301e89dfd7f76587655cdf46687abc231091f93c05fc6bfa04dfe25f6330f96"
+        },
+        {
+          "name": "PNT02_WashingtonCrossing_en_v01_subtitled_review_1080p30.mp4",
+          "bytes": 36509341,
+          "sha256": "4ac14660fccea3f439089577d05698adf71e142869299b1ea6674b5c0b9ecc9c"
+        },
+        {
+          "name": "PNT02_audio_en.m4a",
+          "bytes": 7774590,
+          "sha256": "a77f85ebffa5652d47e697432347ce450a06e07dc3cbe6b209ed100f9c362570"
+        },
+        {
+          "name": "PNT02_audio_en.wav",
+          "bytes": 92505702,
+          "sha256": "a62a25827e13ba5208b1cdfcb36feb9567ab5645f903a11874dcc07432e22a60"
+        }
+      ]
+    },
+    "ja": {
+      "duration_seconds": 312.8333333333333,
+      "frames": 9385,
+      "loudness": {
+        "input_i": "-16.01",
+        "input_tp": "-5.20",
+        "input_lra": "2.90",
+        "input_thresh": "-26.60",
+        "output_i": "-16.11",
+        "output_tp": "-3.40",
+        "output_lra": "3.00",
+        "output_thresh": "-26.57",
+        "normalization_type": "dynamic",
+        "target_offset": "0.11"
+      },
+      "subtitle_pages": 70,
+      "subtitle_min_seconds": 1.3999999999999986,
+      "subtitle_max_line": 22,
+      "subtitle_min_clearance": 15,
+      "variants": {
+        "1080p": {
+          "decoded_frames": 9385,
+          "decode_warnings": 0,
+          "motion_max_ratio": 1.535092587744559,
+          "native_scale_max": 0.4992,
+          "contrast_min": 6.823041278501212,
+          "plate_padding_min": 77.0
+        }
+      },
+      "files": [
+        {
+          "name": "PNT02_WashingtonCrossing_ja_v01_1080p30.mp4",
+          "bytes": 66831021,
+          "sha256": "70e282b4fa0fbf4663f955cb7dc059a1352dba672f009a40bb321ef128155574"
+        },
+        {
+          "name": "PNT02_WashingtonCrossing_ja_v01_1080p30.srt",
+          "bytes": 7383,
+          "sha256": "692399c2cd2cd63c73f51c93a5483cafb73b0ccc271182748f864e4462eef972"
+        },
+        {
+          "name": "PNT02_WashingtonCrossing_ja_v01_subtitled_review_1080p30.mp4",
+          "bytes": 36321552,
+          "sha256": "8e9fd8263046724a958805bc2dd787cebf2ac7c83fdcbadc996862f2f031d01c"
+        },
+        {
+          "name": "PNT02_audio_ja.m4a",
+          "bytes": 7485832,
+          "sha256": "9b85110b6eefc5028ff5e06844f20ce70dcd91a264c8b8339f46754280d914f2"
+        },
+        {
+          "name": "PNT02_audio_ja.wav",
+          "bytes": 90096102,
+          "sha256": "95e73a7c63d723549f5531cdbaaf5fc47d6b3e1057421cac8bbd0b1be7c7573a"
+        }
+      ]
+    }
+  },
+  "technical_checks_passed": true,
+  "maximum_actual_moving_overlap": 0.24696706404832475,
+  "pending": [
+    "固有名・難読語の公式音声／辞書との実聴照合（聴取手段なし、本人試聴へ）",
+    "本人の全編試聴：発音・年代帯と発話の厳密な同期・テンポ・縦置きの大きさ・文字カードの単調さ・サムネ選択"
+  ],
+  "chronology_timing_method": "Native sentence and subtitle-page timing plus character-offset interpolation, not forced word alignment; final pixels verified against this timing.",
+  "image_policy": "Only the six approved museum source images. No generative images or corrections. Common approved 1080p brand clips alone are Lanczos-scaled in the 4K delivery."
+}

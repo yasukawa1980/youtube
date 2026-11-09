@@ -1,0 +1,105 @@
+{
+  "passed": true,
+  "video_sha256": "0301e89dfd7f76587655cdf46687abc231091f93c05fc6bfa04dfe25f6330f96",
+  "method": "Every adjacent decoded frame in each moving artwork shot; inner artwork ROI excludes fixed labels and chronology. Static cards and common brand clips excluded.",
+  "checks": [
+    {
+      "shot": "V01_full_1",
+      "roi": [
+        576,
+        474,
+        2688,
+        1092
+      ],
+      "adjacent_pairs": 1076,
+      "median": 0.13159371320643642,
+      "p95": 0.18087809542887667,
+      "ratio": 1.3745192761992044,
+      "passed": true
+    },
+    {
+      "shot": "V01_D1",
+      "roi": [
+        1608,
+        474,
+        624,
+        1092
+      ],
+      "adjacent_pairs": 526,
+      "median": 0.5650425295857988,
+      "p95": 0.6320761570160609,
+      "ratio": 1.1186346583139515,
+      "passed": true
+    },
+    {
+      "shot": "V01_D2",
+      "roi": [
+        1202,
+        474,
+        1436,
+        1092
+      ],
+      "adjacent_pairs": 253,
+      "median": 0.30846712479720834,
+      "p95": 0.3270819941432755,
+      "ratio": 1.0603463638412194,
+      "passed": true
+    },
+    {
+      "shot": "V10",
+      "roi": [
+        1285,
+        474,
+        1270,
+        1092
+      ],
+      "adjacent_pairs": 716,
+      "median": 0.747029578033515,
+      "p95": 0.8374583585705633,
+      "ratio": 1.121051137995223,
+      "passed": true
+    },
+    {
+      "shot": "V01_D3",
+      "roi": [
+        576,
+        474,
+        2688,
+        1092
+      ],
+      "adjacent_pairs": 103,
+      "median": 3.138247045613117,
+      "p95": 3.200174053996599,
+      "ratio": 1.0197329934461494,
+      "passed": true
+    },
+    {
+      "shot": "V01_room",
+      "roi": [
+        1352,
+        474,
+        1135,
+        1092
+      ],
+      "adjacent_pairs": 310,
+      "median": 0.13991867163673333,
+      "p95": 0.1742547723935389,
+      "ratio": 1.245400419794946,
+      "passed": true
+    },
+    {
+      "shot": "V01_full_2",
+      "roi": [
+        576,
+        474,
+        2688,
+        1092
+      ],
+      "adjacent_pairs": 1121,
+      "median": 0.12548308586255014,
+      "p95": 0.17546169108669107,
+      "ratio": 1.3982895772812425,
+      "passed": true
+    }
+  ]
+}

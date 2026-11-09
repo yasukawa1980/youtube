@@ -1,0 +1,65 @@
+{
+  "passed": true,
+  "duration_seconds": 312.8333333333333,
+  "frames": 9385,
+  "fps": 30,
+  "human_full_listening": false,
+  "files": [
+    {
+      "name": "PNT02_WashingtonCrossing_ja_v01_1080p30.mp4",
+      "bytes": 66831021,
+      "sha256": "70e282b4fa0fbf4663f955cb7dc059a1352dba672f009a40bb321ef128155574",
+      "video_stream_sha256": "SHA256=3f3474b7078de89ee37ec82a86ef73f70a3e2149069ad161263346b07fa9937a",
+      "audio_stream_sha256": "SHA256=e69ee8fb4493055fb3b684e08d5c3893046a2b72cbd62a69fb5972aa338d5f4c",
+      "full_decode": true,
+      "decode_warnings": 0,
+      "profile": "High",
+      "pix_fmt": "yuv420p",
+      "exact_30fps_pts": true,
+      "frames": 9385,
+      "duration": 312.833333,
+      "loudness": {
+        "input_i": "-16.01",
+        "input_tp": "-5.20",
+        "input_lra": "2.90",
+        "input_thresh": "-26.60",
+        "output_i": "-16.11",
+        "output_tp": "-3.40",
+        "output_lra": "3.00",
+        "output_thresh": "-26.57",
+        "normalization_type": "dynamic",
+        "target_offset": "0.11"
+      },
+      "silence_over_1s_at_minus60dB": []
+    },
+    {
+      "name": "PNT02_WashingtonCrossing_ja_v01_subtitled_review_1080p30.mp4",
+      "bytes": 36321552,
+      "sha256": "8e9fd8263046724a958805bc2dd787cebf2ac7c83fdcbadc996862f2f031d01c",
+      "video_stream_sha256": "SHA256=fc34ebddbfa14cd371bbb29a8abef1474d651f22e219fa2281eb5ace2d735ad3",
+      "audio_stream_sha256": "SHA256=e69ee8fb4493055fb3b684e08d5c3893046a2b72cbd62a69fb5972aa338d5f4c",
+      "full_decode": true,
+      "decode_warnings": 0,
+      "profile": "High",
+      "pix_fmt": "yuv420p",
+      "exact_30fps_pts": true,
+      "frames": 9385,
+      "duration": 312.833333,
+      "loudness": {
+        "input_i": "-16.01",
+        "input_tp": "-5.20",
+        "input_lra": "2.90",
+        "input_thresh": "-26.60",
+        "output_i": "-16.11",
+        "output_tp": "-3.40",
+        "output_lra": "3.00",
+        "output_thresh": "-26.57",
+        "normalization_type": "dynamic",
+        "target_offset": "0.11"
+      },
+      "silence_over_1s_at_minus60dB": []
+    }
+  ],
+  "shared_video_stream": false,
+  "subtitled_audio_unchanged": true
+}

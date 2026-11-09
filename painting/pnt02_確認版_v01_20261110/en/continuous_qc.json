@@ -1,0 +1,306 @@
+{
+  "passed": true,
+  "video_sha256": "14a98c69de1f6aa14600bb5be7f60a1f703aa06f8fcd99db792c3df82c9fa36c",
+  "decoded_frames": 9636,
+  "decoded_format": [
+    1920,
+    1080,
+    "yuv420p"
+  ],
+  "decode_warnings": 0,
+  "exact_30fps_pts": true,
+  "profile": "High",
+  "selected_frames": [
+    0,
+    30,
+    60,
+    90,
+    538,
+    1076,
+    1077,
+    1135,
+    1209,
+    1242,
+    1266,
+    1278,
+    1318,
+    1353,
+    1397,
+    1427,
+    1428,
+    1429,
+    1430,
+    1431,
+    1432,
+    1433,
+    1434,
+    1435,
+    1436,
+    1437,
+    1438,
+    1439,
+    1440,
+    1441,
+    1442,
+    1443,
+    1444,
+    1445,
+    1446,
+    1447,
+    1448,
+    1449,
+    1450,
+    1451,
+    1452,
+    1453,
+    1454,
+    1455,
+    1456,
+    1457,
+    1516,
+    1576,
+    1577,
+    1897,
+    2217,
+    2218,
+    2453,
+    2565,
+    2801,
+    2912,
+    2913,
+    3176,
+    3439,
+    3440,
+    3566,
+    3693,
+    3694,
+    4043,
+    4392,
+    4393,
+    4479,
+    4634,
+    4697,
+    4852,
+    5002,
+    5003,
+    5054,
+    5361,
+    5412,
+    5719,
+    5720,
+    5771,
+    5823,
+    5824,
+    6052,
+    6280,
+    6281,
+    6365,
+    6534,
+    6582,
+    6751,
+    6787,
+    6788,
+    6888,
+    7017,
+    7118,
+    7247,
+    7248,
+    7326,
+    7403,
+    7482,
+    7558,
+    7559,
+    8119,
+    8680,
+    8681,
+    9008,
+    9335,
+    9336,
+    9485,
+    9635
+  ],
+  "no_seeking": true,
+  "checks": [
+    {
+      "key": "V01_full_1",
+      "frames": [
+        0,
+        538,
+        1076
+      ],
+      "triptych": "review/continuous_en_shot_01.jpg",
+      "center": "review/center_en_01.jpg"
+    },
+    {
+      "key": "D_timeline_intro",
+      "frames": [
+        1077,
+        1266,
+        1456
+      ],
+      "triptych": "review/continuous_en_shot_02.jpg",
+      "center": "review/center_en_02.jpg"
+    },
+    {
+      "key": "opening",
+      "frames": [
+        1457,
+        1516,
+        1576
+      ],
+      "triptych": "review/continuous_en_shot_03.jpg",
+      "center": "review/center_en_03.jpg"
+    },
+    {
+      "key": "D_letter_head",
+      "frames": [
+        1577,
+        1897,
+        2217
+      ],
+      "triptych": "review/continuous_en_shot_04.jpg",
+      "center": "review/center_en_04.jpg"
+    },
+    {
+      "key": "D_letter",
+      "frames": [
+        2218,
+        2565,
+        2912
+      ],
+      "triptych": "review/continuous_en_shot_05.jpg",
+      "center": "review/center_en_05.jpg"
+    },
+    {
+      "key": "V01_D1",
+      "frames": [
+        2913,
+        3176,
+        3439
+      ],
+      "triptych": "review/continuous_en_shot_06.jpg",
+      "center": "review/center_en_06.jpg"
+    },
+    {
+      "key": "V01_D2",
+      "frames": [
+        3440,
+        3566,
+        3693
+      ],
+      "triptych": "review/continuous_en_shot_07.jpg",
+      "center": "review/center_en_07.jpg"
+    },
+    {
+      "key": "D_resolution",
+      "frames": [
+        3694,
+        4043,
+        4392
+      ],
+      "triptych": "review/continuous_en_shot_08.jpg",
+      "center": "review/center_en_08.jpg"
+    },
+    {
+      "key": "D_leutze",
+      "frames": [
+        4393,
+        4697,
+        5002
+      ],
+      "triptych": "review/continuous_en_shot_09.jpg",
+      "center": "review/center_en_09.jpg"
+    },
+    {
+      "key": "V10",
+      "frames": [
+        5003,
+        5361,
+        5719
+      ],
+      "triptych": "review/continuous_en_shot_10.jpg",
+      "center": "review/center_en_10.jpg"
+    },
+    {
+      "key": "V01_D3",
+      "frames": [
+        5720,
+        5771,
+        5823
+      ],
+      "triptych": "review/continuous_en_shot_11.jpg",
+      "center": "review/center_en_11.jpg"
+    },
+    {
+      "key": "D_whittredge",
+      "frames": [
+        5824,
+        6052,
+        6280
+      ],
+      "triptych": "review/continuous_en_shot_12.jpg",
+      "center": "review/center_en_12.jpg"
+    },
+    {
+      "key": "D_bremen",
+      "frames": [
+        6281,
+        6534,
+        6787
+      ],
+      "triptych": "review/continuous_en_shot_13.jpg",
+      "center": "review/center_en_13.jpg"
+    },
+    {
+      "key": "D_1853",
+      "frames": [
+        6788,
+        7017,
+        7247
+      ],
+      "triptych": "review/continuous_en_shot_14.jpg",
+      "center": "review/center_en_14.jpg"
+    },
+    {
+      "key": "V01_room",
+      "frames": [
+        7248,
+        7403,
+        7558
+      ],
+      "triptych": "review/continuous_en_shot_15.jpg",
+      "center": "review/center_en_15.jpg"
+    },
+    {
+      "key": "V01_full_2",
+      "frames": [
+        7559,
+        8119,
+        8680
+      ],
+      "triptych": "review/continuous_en_shot_16.jpg",
+      "center": "review/center_en_16.jpg"
+    },
+    {
+      "key": "credits",
+      "frames": [
+        8681,
+        9008,
+        9335
+      ],
+      "triptych": "review/continuous_en_shot_17.jpg",
+      "center": "review/center_en_17.jpg"
+    },
+    {
+      "key": "endcard",
+      "frames": [
+        9336,
+        9485,
+        9635
+      ],
+      "triptych": "review/continuous_en_shot_18.jpg",
+      "center": "review/center_en_18.jpg"
+    }
+  ],
+  "endcard_exact_last_10_seconds": true
+}
