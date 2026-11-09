@@ -15,25 +15,25 @@ CLAIMS=[('They always looked like this','昔からこの姿'),('“Oni” means 
 STAMPS=[('NOT IN THE OLDEST RECORDS','最古の記録にはない'),('AN OLD GUESS','古くからの推測'),('A LATER EXPLANATION','後の時代の説明'),('THE ROLES CHANGED','役が入れかわった')]
 # Work name and date are never confused with the date of an event narrated.
 CAT={
-'O01-A':('PAINTING｜絵画','Anonymous Japanese artist · Oni as a Mendicant Monk · 1700s','Cleveland Museum of Art · 1982.26 · CC0'),
+'O01-A':('PAINTING｜絵画','Anonymous Japanese artist · Demon Intoning the Name of the Buddha · 1700s','Cleveland Museum of Art · 1982.26 · CC0'),
 'O01-C':('PAINTING｜絵画','Kawanabe Kyosai · A Demon as a Mendicant Monk · 1850–1889','Rijksmuseum · AK-RAK-2000-14 · Public Domain'),
-'O02-A':('PAINTING｜絵画','Miyagawa Issho · Setsubun in the Shimabara Pleasure Quarter · 1700s','The Met · 2015.300.132 · Public Domain'),
-'O02-B':('PAINTING｜絵画','Suzuki Kiitsu · Setsubun at Sensoji Temple · 1857','The Met · 2015.300.98 · Public Domain'),
+'O02-A':('PAINTING｜絵画','Miyagawa Issho · Shimabara Courtesans Exorcizing Demons · late 1700s','The Met · 2015.300.132 · Public Domain'),
+'O02-B':('PAINTING｜絵画','Suzuki Kiitsu · Setsubun Festival at Sensoji · 1857','The Met · 2015.300.98 · Public Domain'),
 'O02-D':('PAINTING｜絵画','Tani Buncho · Setsubun · 1773–1842','Rijksmuseum · AK-RAK-2015-2-3 · Public Domain'),
 'O05-A':('PRINT｜版画','Utagawa Hiroshige · Autumn Moon at Ishiyama · c.1835','The Met · JP48 · Public Domain'),
 'O16-A':('PRINT｜版画','Utagawa Hiroshige · Autumn Moon on the Tama River · c.1838','The Met · JP2480 · Public Domain'),
 'O15-A':('PAINTING｜絵画','Ike Taiga · Bamboo and Rocks in Clearing Skies · mid-1700s','Cleveland Museum of Art · 1958.337 · CC0'),
-'O09-A':('PRINT｜版画','Sugimura Jihei · At the Edge of the Akutagawa River · late 1600s','The Met · JP3407 · Public Domain'),
+'O09-A':('PRINT｜版画','Sugimura Jihei · At the Edge of the River Akutagawa · 1681–1703 (catalogue range)','The Met · JP3407 · Public Domain'),
 'O10-A':('HANDSCROLL｜絵巻','Illustrated Legends of the Kitano Tenjin Shrine · late 13th century','The Met · 25.224a–e · Public Domain'),
-'O14-B':('SKETCH ALBUM｜写生帖','Kawanabe Kyosai · Snail Versus Demon · mid-to-late 1800s','Cleveland Museum of Art · 1991.125.t · CC0'),
-'O03-23':('MANUSCRIPT (1940–41 FACSIMILE)｜写本（1940〜41年の複製）','Nihon Shoki · Book 26 · Saimei 7 · frame 23','National Diet Library · 1142412 · Public domain, protection period expired'),
+'O14-B':('SKETCH ALBUM｜画帖','Kawanabe Kyosai · Snail Versus Demon · mid-to-late 1800s','Cleveland Museum of Art · 1991.125.t · CC0'),
+'O03-23':('MANUSCRIPT (1940–41 FACSIMILE)｜写本（1940〜41年の複製）','Nihon Shoki · Book 26 · Saimei 7 · frame 23','National Diet Library Digital Collections · 1142412 · Public domain, protection period expired'),
 'O04-272':('BOOK (1896)｜刊本（1896）','W. G. Aston · Nihongi, vol. II · p.272','Smithsonian Libraries and Archives · Public Domain / CC0'),
-'O06-38':('PRINTED BOOK (LATE EDO REPRINT)｜刊本（江戸後期の再版）','Teisei Izumo Fudoki · Ayo · frame 38','National Diet Library · 2563532 · Public domain, protection period expired'),
-'O08-31':('PRINTED BOOK (1617)｜刊本（1617）','Wamyo Ruijusho · 20-volume edition · vol.2 · frame 31','National Diet Library · 2544216 · Public domain, protection period expired'),
+'O06-38':('PRINTED BOOK (LATE EDO REPRINT)｜刊本（江戸後期の再版）','Teisei Izumo Fudoki · Ayo · frame 38','National Diet Library Digital Collections · 2563532 · Public domain, protection period expired'),
+'O08-31':('PRINTED BOOK (1617)｜刊本（1617）','Wamyo Ruijusho · 20-volume edition · vol.2 · frame 31','National Diet Library Digital Collections · 2544216 · Public domain, protection period expired'),
 'O11-12':('PRINTED BOOK (1805 COPY; FIRST PUBLISHED 1779)｜刊本（1805年の本・初刊1779年）','Toriyama Sekien · Konjaku Gazu Zoku Hyakki · Oni · text only','Smithsonian Libraries and Archives · Public Domain / CC0'),
-'R10-27':('PRINTED BOOK (1897)｜刊本（1897）','Shoku Nihongi · Keiun 3 · frame 27','National Diet Library · 991092 · Public domain, protection period expired'),
-'R11-30':('PRINTED BOOK (1653 EDITION)｜刊本（1653年跋）','Oe no Masafusa · Goke Shidai, book 11 · frame 30 · main text only','National Diet Library · 12865891 · Public domain, protection period expired'),
-'R12-1447':('PRINTED BOOK (1930)｜刊本（1930）','Gaun Nikkenroku Batsuyu · Bunnan 4 · printed p.332 / p.24','National Diet Library · 1920248 · Public domain, protection period expired')}
+'R10-27':('PRINTED BOOK (1897)｜刊本（1897）','Shoku Nihongi · Keiun 3 · frame 27','National Diet Library Digital Collections · 991092 · Public domain, protection period expired'),
+'R11-30':('PRINTED BOOK (1653 EDITION)｜刊本（1653年跋）','Oe no Masafusa · Goke Shidai, book 11 · frame 30 · main text only','National Diet Library Digital Collections · 12865891 · Public domain, protection period expired'),
+'R12-1447':('PRINTED BOOK (1930)｜刊本（1930）','Gaun Nikkenroku Batsuyu · Bunnan 4 · printed p.332 / p.24','National Diet Library Digital Collections · 1920248 · Public domain, protection period expired')}
 # Full-page display is restricted to the safe source area for Sekien and Goke.
 SAFE={'O11-12':(.035,.17,.395,.435),'R11-30':(.103,.205,.445,.899)}
 FOCUS={
@@ -116,9 +116,9 @@ def card(k,stage=0,stamp_scale=1.0):
    lit=k=='D_check_all' or (k=='D_check_list' and i<stage) or i==active
    col=INK if lit else MUT
    rect(im,box,fill='#f6ecd9' if lit else PAPER,outline='#b9a78a',w=1)
-   lines=wrap(en,52,EN,1000);height=len(lines)*62+35;top=(box[1]+box[3]-height)/2
-   for j,s in enumerate(lines):text(im,s,587.5,top+26+j*62,52,EN,col,1000,True,box,'#f6ecd9' if lit else PAPER)
-   text(im,ja,587.5,top+len(lines)*62+15,27,JA,col,1000,False,box,'#f6ecd9' if lit else PAPER)
+   lines=wrap(en,52,EN,1000);height=len(lines)*60+35;top=(box[1]+box[3]-height)/2
+   for j,s in enumerate(lines):text(im,s,587.5,top+26+j*60,52,EN,col,1000,True,box,'#f6ecd9' if lit else PAPER)
+   text(im,ja,587.5,top+len(lines)*60+15,27,JA,col,1000,False,box,'#f6ecd9' if lit else PAPER)
    stamped=k=='D_check_all' or (i==active and stage>=1)
    if stamped:
     layer=Image.new('RGBA',(W,H),(0,0,0,0));rect(layer,right,fill=PAPER,outline=RUST,w=3)
@@ -138,7 +138,7 @@ def card(k,stage=0,stamp_scale=1.0):
   text(im,'鬼',960,440,420,BRUSH,major=True)
   text(im,'the character read as “oni” today',960,735,36,EN);text(im,'いま「おに」と読む字',960,793,30,JA)
  elif k=='D_compass':
-  header(im,'SCHEMATIC｜模式図','The twelve zodiac directions','Quiet Origins · Oni')
+  header(im,'DIAGRAM｜模式図','The twelve zodiac directions','Quiet Origins · Oni')
   cx,cy,r=730,510,275;dr=ImageDraw.Draw(im);dr.ellipse(((cx-r)*S,(cy-r)*S,(cx+r)*S,(cy+r)*S),outline=MUT,width=2*S)
   chars='子丑寅卯辰巳午未申酉戌亥'
   for i,c in enumerate(chars):
@@ -149,7 +149,7 @@ def card(k,stage=0,stamp_scale=1.0):
   dr.line((950*S,295*S,1120*S,355*S),fill=RUST,width=3*S)
  elif k=='credits':
   header(im,'CREDITS｜クレジット','Sources & voices','Quiet Origins · Oni')
-  lines=['The Metropolitan Museum of Art · Public Domain','Cleveland Museum of Art · CC0','Rijksmuseum · Public Domain','Smithsonian Libraries and Archives · Public Domain / CC0','National Diet Library · public domain, protection period expired','国立国会図書館：インターネット公開（保護期間満了）','Voice: Kokoro / Heart (af_heart)','Music: QO_THEME_A02 / Suno']
+  lines=['The Metropolitan Museum of Art · Public Domain','Cleveland Museum of Art · CC0','Rijksmuseum · Public Domain','Smithsonian Libraries and Archives · Public Domain / CC0','National Diet Library Digital Collections · public domain, protection period expired','国立国会図書館：インターネット公開（保護期間満了）','Voice: Kokoro / Heart (af_heart)','Music: QO_THEME_A02 / Suno']
   for i,st in enumerate(lines):text(im,st,960,210+i*85,30 if i!=5 else 26,JA if i==5 else EN,maxw=1800)
  else:raise ValueError(k)
  return im
@@ -159,7 +159,7 @@ def art_scene(k,crop=None,highlight=None):
  im=Image.new('RGB',(W,H),PAPER)
  if k=='O01-A':
   paste_art(im,k,crop or FOCUS[k],(0,1080));
-  for i,st in enumerate(['PAINTING｜絵画','Anonymous','Japanese artist','Oni as a','Mendicant Monk','1700s','Cleveland Museum','of Art · 1982.26','CC0']):text(im,st,215,160+i*64,22,JA if i==0 else EN,maxw=395)
+  for i,st in enumerate(['PAINTING｜絵画','Anonymous Japanese artist','Demon Intoning','the Name of the Buddha','1700s','Cleveland Museum','of Art · 1982.26','CC0']):text(im,st,215,160+i*64,22,JA if i==0 else EN,maxw=395)
   return im
  header(im,*CAT[k]);band=(130,905)
  if k in NOTES:

@@ -51,7 +51,7 @@ def reviews():
  binary=imageio_ffmpeg.get_ffmpeg_exe()
  for l in LANGUAGES:
   src=ROOT/f'deliverables/EP014_Oni_{l}_{VERSION}_1080p30.mp4';out=ROOT/f'deliverables/EP014_Oni_{l}_{VERSION}_subtitled_review_1080p30.mp4';srt=ROOT/f'_work/{l}.srt';shutil.copy2(src.with_suffix('.srt'),srt)
-  vf=f"subtitles='{srt}':original_size=1920x1080:force_style='FontName=Hiragino Sans,FontSize=14,BorderStyle=3,MarginV=18'"
+  vf=f"subtitles='{srt}':original_size=1920x1080:force_style='FontName=Hiragino Sans,FontSize=14,BorderStyle=3,MarginV=10'"
   subprocess.run([binary,'-nostdin','-y','-v','error','-i',str(src),'-vf',vf,'-c:v','libx264','-threads','4','-preset','veryfast','-crf','18','-pix_fmt','yuv420p','-fps_mode','passthrough','-video_track_timescale','15360','-c:a','copy','-movie_timescale','48000','-movflags','+faststart','-progress',str(ROOT/f'_work/subtitles_{l}_progress.txt'),str(out)],check=True)
   assert stream_hash(src,'a')==stream_hash(out,'a');print('SUBTITLE REVIEW',l,flush=True)
 

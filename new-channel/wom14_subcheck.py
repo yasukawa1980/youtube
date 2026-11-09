@@ -3,7 +3,7 @@ from wom14_produce import *
 import imageio_ffmpeg,numpy as np
 from PIL import Image
 from wom01_subtitles import to_srt
-STYLE='FontName=Hiragino Sans,FontSize=14,BorderStyle=3,MarginV=18'
+STYLE='FontName=Hiragino Sans,FontSize=14,BorderStyle=3,MarginV=10'
 def main():
  rows=[]
  for l in LANGUAGES:

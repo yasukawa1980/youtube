@@ -85,7 +85,13 @@ def design():
 
 def camera(s):
  k=s['key'];a=next(a for a in reversed(v.ARTMEAS) if a['key']==k);x,y,x1,y1=[round(q*S) for q in a['output_box']];w=x1-x;h=y1-y;t=f'on/{max(1,s["frames"]-1)}';amount=.10 if k=='O01-A' else .025
- if k=='O05-A':amount=0 # native-sized landscape stays unzoomed
+ if k=='O05-A':
+  # Translate native-scale art smoothly inside a paper margin; no zoom or recrop.
+  pad=20*S;x-=pad;w+=2*pad
+  drift=f'({8*S}-{16*S}*{t})'
+  p=f"perspective=x0='{drift}':y0=0:x1='W+{drift}':y1=0:x2='{drift}':y2=H:x3='W+{drift}':y3=H:sense=source:eval=frame:interpolation=cubic"
+  a['max_native_scale']=a['native_scale'];a['motion']='horizontal_pan_without_zoom';a['zoom_factor']=1
+  return f'[0:v]fps=30,format=yuv444p,split[base][art];[art]crop={w}:{h}:{x}:{y}:exact=1,{p}[moving];[base][moving]overlay={x}:{y}:format=yuv444,format=yuv420p[v]',True
  if a['native_scale']*(1+amount)>1:amount=max(0,1/a['native_scale']-1)
  if amount<.001:return '[0:v]fps=30,format=yuv420p[v]',False
  z=f'(1+{amount}*'+(f'(1-{t})' if k=='O01-A' else t)+')';xx=f'(W-W/{z})/2';yy=f'(H-H/{z})/2'
