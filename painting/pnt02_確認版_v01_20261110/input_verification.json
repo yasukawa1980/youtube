@@ -1,0 +1,78 @@
+{
+  "remote_base": "442cfd2af8dc0ca2f375f984126de8f5eb1b4023",
+  "assets": [
+    {
+      "id": "V01_full",
+      "path": "/Volumes/ESD-02/新チャンネル/PNT02_WashingtonCrossing/素材/Met_97.34/DP-14511-001.jpg",
+      "width": 4000,
+      "height": 2335,
+      "bytes": 2103535,
+      "sha256": "a7588020f0d05105473f9c9d5cdc90a2a264a26e1612be46450905c313160f7b",
+      "catalog_sha_match": true
+    },
+    {
+      "id": "D1",
+      "path": "/Volumes/ESD-02/新チャンネル/PNT02_WashingtonCrossing/素材/Met_97.34/DP245004.jpg",
+      "width": 1589,
+      "height": 3847,
+      "bytes": 1093609,
+      "sha256": "1a21a97add3e3fda3ab72f71f870dc9dbc29ba88d4c6c86fd3a1a39ea916b482",
+      "catalog_sha_match": true
+    },
+    {
+      "id": "D2",
+      "path": "/Volumes/ESD-02/新チャンネル/PNT02_WashingtonCrossing/素材/Met_97.34/DP245005.jpg",
+      "width": 2611,
+      "height": 3847,
+      "bytes": 1600864,
+      "sha256": "2c9889f9ce2f9b3a54ac07aee1be58a54e21e18c6373b949527f4220998f559b",
+      "catalog_sha_match": true
+    },
+    {
+      "id": "D3",
+      "path": "/Volumes/ESD-02/新チャンネル/PNT02_WashingtonCrossing/素材/Met_97.34/DP258218.jpg",
+      "width": 4000,
+      "height": 3000,
+      "bytes": 2532676,
+      "sha256": "808109f6c60d379d99337df5a7e563290c29d50382c646d0fa2bbcaeb4c5e5f5",
+      "catalog_sha_match": true
+    },
+    {
+      "id": "V01_room",
+      "path": "/Volumes/ESD-02/新チャンネル/PNT02_WashingtonCrossing/素材/Met_97.34/DP258191.jpg",
+      "width": 2911,
+      "height": 3880,
+      "bytes": 1723385,
+      "sha256": "fa78f2bf48911310cb037b012709eb53f79b1cbd162e8b7ee9ef399f1009f2c3",
+      "catalog_sha_match": true
+    },
+    {
+      "id": "V10",
+      "path": "/Volumes/ESD-02/新チャンネル/PNT02_WashingtonCrossing/素材/SMB_3964830/smb3964830.jpg",
+      "width": 2940,
+      "height": 3500,
+      "bytes": 4699903,
+      "sha256": "be13b78651806ca6af4836363adac5936fcedd64c163b71e8bdc83e144fe11e3",
+      "catalog_sha_match": true
+    }
+  ],
+  "scripts": [
+    {
+      "path": "painting/episodes/PNT02_WashingtonCrossing/records/content.json",
+      "sha256": "2aadc1e795888172d9644dd9a7482d96d710b1e84cfc4d5417907967a7140e70",
+      "segments": 15,
+      "chapters": 6,
+      "characters": 1679,
+      "whitespace_words": 15
+    },
+    {
+      "path": "painting/episodes/PNT02_WashingtonCrossing/records/content_en.json",
+      "sha256": "60321d4cbe037329cbf64df7fb8d2f9196a032ff6694dc1208ecf8dcd3174b15",
+      "segments": 15,
+      "chapters": 6,
+      "characters": 4068,
+      "whitespace_words": 707
+    }
+  ],
+  "source_images_modified": false
+}

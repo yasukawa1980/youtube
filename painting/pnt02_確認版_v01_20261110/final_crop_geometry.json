@@ -1,0 +1,148 @@
+{
+  "status": "geometry_verified_not_final_video_QA",
+  "crops": [
+    {
+      "id": "D1",
+      "crop_native_px": [
+        0,
+        0,
+        1589,
+        3847
+      ],
+      "polygon_in_full_px": [
+        [
+          484.820556640625,
+          62.390830993652344
+        ],
+        [
+          1412.40625,
+          61.42401123046875
+        ],
+        [
+          1394.255859375,
+          2339.878173828125
+        ],
+        [
+          461.5477294921875,
+          2328.556396484375
+        ]
+      ],
+      "native_scale_4k": 0.5614764751754614,
+      "max_zoom": 1.04,
+      "max_native_scale_4k": 0.5839355341824799,
+      "minimum_crop_size_at_max_zoom": [
+        1527.8846153846152,
+        3699.0384615384614
+      ],
+      "display_height_4k": 2160,
+      "display_width_4k": 892.1861190538082
+    },
+    {
+      "id": "D2",
+      "crop_native_px": [
+        0,
+        0,
+        2611,
+        2750
+      ],
+      "polygon_in_full_px": [
+        [
+          1277.9945068359375,
+          59.092254638671875
+        ],
+        [
+          2809.17724609375,
+          52.95579147338867
+        ],
+        [
+          2804.766845703125,
+          1689.041748046875
+        ],
+        [
+          1267.7615966796875,
+          1686.460205078125
+        ]
+      ],
+      "native_scale_4k": 0.7854545454545454,
+      "max_zoom": 1.04,
+      "max_native_scale_4k": 0.8168727272727272,
+      "minimum_crop_size_at_max_zoom": [
+        2510.576923076923,
+        2644.230769230769
+      ],
+      "display_height_4k": 2160,
+      "display_width_4k": 2050.821818181818
+    },
+    {
+      "id": "D3",
+      "crop_native_px": [
+        0,
+        450,
+        4000,
+        2700
+      ],
+      "polygon_in_full_px": [
+        [
+          2257.340087890625,
+          1035.47412109375
+        ],
+        [
+          3875.514892578125,
+          1045.2431640625
+        ],
+        [
+          3870.735595703125,
+          1964.4803466796875
+        ],
+        [
+          2249.2529296875,
+          1952.3182373046875
+        ]
+      ],
+      "native_scale_4k": 0.96,
+      "max_zoom": 1.04,
+      "max_native_scale_4k": 0.9984,
+      "minimum_crop_size_at_max_zoom": [
+        3846.153846153846,
+        2163.4615384615386
+      ],
+      "display_height_4k": 2160,
+      "display_width_4k": 3840.0
+    }
+  ],
+  "overlap_pairs": [
+    {
+      "a": "D1",
+      "b": "D2",
+      "overlap_over_smaller": 0.10230318483973963,
+      "pass_25_percent": true
+    },
+    {
+      "a": "D1",
+      "b": "D3",
+      "overlap_over_smaller": 0.0,
+      "pass_25_percent": true
+    },
+    {
+      "a": "D2",
+      "b": "D3",
+      "overlap_over_smaller": 0.24145193179023988,
+      "pass_25_percent": true
+    }
+  ],
+  "maximum_overlap": 0.24145193179023988,
+  "motion_bound": "Every frame must crop INSIDE these viewports; overlap is conservatively computed from their full envelopes.",
+  "visual_review": "D2 flag and Washington head/upper body retained; D3 steering figure head and right hand retained. Native JPEG pixels are not warped.",
+  "full_view": {
+    "crop_native_px": [
+      0,
+      42.5,
+      4000,
+      2292.5
+    ],
+    "max_zoom": 1.04,
+    "minimum_crop_width": 3846.153846153846,
+    "max_native_scale_4k": 0.9984,
+    "note": "16:9 cover crops 42.5px from top and bottom; not yet rendered."
+  }
+}

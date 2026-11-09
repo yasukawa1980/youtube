@@ -1,0 +1,123 @@
+{
+  "status": "preproduction_only",
+  "video_completed": false,
+  "auditory_review_completed": false,
+  "languages": {
+    "en": {
+      "duration_seconds": 321.2,
+      "frames_at_30fps": 9636,
+      "levels": {
+        "input_i": "-16.01",
+        "input_tp": "-2.40",
+        "input_lra": "2.90",
+        "input_thresh": "-26.80",
+        "output_i": "-16.06",
+        "output_tp": "-3.00",
+        "output_lra": "2.90",
+        "output_thresh": "-26.72",
+        "normalization_type": "dynamic",
+        "target_offset": "0.06"
+      },
+      "subtitles": {
+        "script_matches": true,
+        "min_seconds": 1.7512916666666456,
+        "max_line": 42,
+        "count": 74
+      },
+      "opening": [
+        48.56666666666667,
+        52.56666666666667
+      ],
+      "endcard": [
+        311.2,
+        321.2
+      ],
+      "silence_over_1s_at_minus60dB": [],
+      "files": [
+        {
+          "name": "PNT02_WashingtonCrossing_en_v01_1080p30.srt",
+          "bytes": 6591,
+          "sha256": "13264ca22df00a704b93013ab14b3a07b8256f8a96d06c7c963f7b905325357c"
+        },
+        {
+          "name": "PNT02_audio_en.m4a",
+          "bytes": 7774590,
+          "sha256": "a77f85ebffa5652d47e697432347ce450a06e07dc3cbe6b209ed100f9c362570"
+        },
+        {
+          "name": "PNT02_audio_en.wav",
+          "bytes": 92505702,
+          "sha256": "a62a25827e13ba5208b1cdfcb36feb9567ab5645f903a11874dcc07432e22a60"
+        }
+      ]
+    },
+    "ja": {
+      "duration_seconds": 312.8333333333333,
+      "frames_at_30fps": 9385,
+      "levels": {
+        "input_i": "-16.01",
+        "input_tp": "-5.20",
+        "input_lra": "2.90",
+        "input_thresh": "-26.60",
+        "output_i": "-16.11",
+        "output_tp": "-3.40",
+        "output_lra": "3.00",
+        "output_thresh": "-26.57",
+        "normalization_type": "dynamic",
+        "target_offset": "0.11"
+      },
+      "subtitles": {
+        "script_matches": true,
+        "min_seconds": 1.3999999999999986,
+        "max_line": 22,
+        "count": 70
+      },
+      "opening": [
+        47.03333333333333,
+        51.03333333333333
+      ],
+      "endcard": [
+        302.8333333333333,
+        312.8333333333333
+      ],
+      "silence_over_1s_at_minus60dB": [],
+      "files": [
+        {
+          "name": "PNT02_WashingtonCrossing_ja_v01_1080p30.srt",
+          "bytes": 7383,
+          "sha256": "692399c2cd2cd63c73f51c93a5483cafb73b0ccc271182748f864e4462eef972"
+        },
+        {
+          "name": "PNT02_audio_ja.m4a",
+          "bytes": 7485832,
+          "sha256": "9b85110b6eefc5028ff5e06844f20ce70dcd91a264c8b8339f46754280d914f2"
+        },
+        {
+          "name": "PNT02_audio_ja.wav",
+          "bytes": 90096102,
+          "sha256": "95e73a7c63d723549f5531cdbaaf5fc47d6b3e1057421cac8bbd0b1be7c7573a"
+        }
+      ]
+    }
+  },
+  "card_design": {
+    "exact_quote_strings": true,
+    "contrast_min": 6.823041278501212,
+    "major_ink_min": 60,
+    "label_ink_min": 18,
+    "body_ink_min": 31,
+    "padding_min": 77.0,
+    "note": "Static design samples only; rail years are placeholders, not final episode frames. Subtitle/rail rendered overlap not yet checked."
+  },
+  "pending": [
+    "P07/P08 chronology clarification",
+    "proper-name audio reference/listening and corrections if needed",
+    "shot layout and per-frame camera render",
+    "English/Japanese 1080p and English 4K MP4, subtitled review MP4",
+    "continuous decode and first/middle/last shot sheets",
+    "motion smoothness measurement",
+    "subtitle versus chronology-rail rendered clearance",
+    "final upload descriptions and chapters",
+    "full v01 media delivery"
+  ]
+}

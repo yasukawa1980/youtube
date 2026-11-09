@@ -1,0 +1,173 @@
+{
+  "selection": {
+    "common": "QO_THEME_A02",
+    "only": "QO_THEME_A02"
+  },
+  "sources": {
+    "QO_THEME_A02": {
+      "path": "/Users/ryo/Desktop/新チャンネル/_共通/BGM/20261029_Suno/QO_THEME_A02.wav",
+      "sha256": "5b52d6aa9eacb441ae4e28a62dcede30c542161c7a2a585e49f62977685dc31d"
+    }
+  },
+  "source_spans": [
+    {
+      "track": "QO_THEME_A02",
+      "source_start": 10,
+      "source_end": 170.0,
+      "timeline_start": 0,
+      "timeline_end": 160.0,
+      "crossfade_seconds": 3.0
+    },
+    {
+      "track": "QO_THEME_A02",
+      "source_start": 10,
+      "source_end": 165.83333333333334,
+      "timeline_start": 157.0,
+      "timeline_end": 312.83333333333337,
+      "crossfade_seconds": 3.0
+    }
+  ],
+  "filters": "highpass 100 Hz, 2 poles; equalizer 2828 Hz, one octave, -3.5 dB",
+  "pause_boost_db": 6,
+  "crossfade_seconds": 3,
+  "bgm_bands_percent": {
+    "below_200Hz": 26.974850466497628,
+    "200_to_2000Hz": 72.55117987670165,
+    "at_or_above_2000Hz": 0.4739696568007402
+  },
+  "languages": {
+    "ja": {
+      "levels": {
+        "input_i": "-16.01",
+        "input_tp": "-5.20",
+        "input_lra": "2.90",
+        "input_thresh": "-26.60",
+        "output_i": "-16.11",
+        "output_tp": "-3.40",
+        "output_lra": "3.00",
+        "output_thresh": "-26.57",
+        "normalization_type": "dynamic",
+        "target_offset": "0.11"
+      },
+      "voice_during_narration_dbfs": -18.299414225606476,
+      "bgm_during_narration_dbfs": -36.29941395220331,
+      "bgm_during_full_boost_breaks_dbfs": -31.010330774045386,
+      "voice_minus_bgm_db": 17.999999726596833,
+      "break_samples": 206982,
+      "band_percent": {
+        "below_200Hz": 27.074996513327754,
+        "200_to_2000Hz": 72.44818376948321,
+        "at_or_above_2000Hz": 0.4768197171890086
+      },
+      "P08_P10_pause_boost_db": 0,
+      "segment_levels": [
+        {
+          "id": "P01",
+          "start": 1.8,
+          "end": 34.2,
+          "voice_dbfs": -18.389121713088425,
+          "bgm_dbfs": -38.17649285818397
+        },
+        {
+          "id": "P02",
+          "start": 34.2,
+          "end": 47.03333333333333,
+          "voice_dbfs": -18.104562232463557,
+          "bgm_dbfs": -37.42679867950484
+        },
+        {
+          "id": "P03",
+          "start": 51.03333333333333,
+          "end": 71.1,
+          "voice_dbfs": -19.06246012137868,
+          "bgm_dbfs": -36.276700877347274
+        },
+        {
+          "id": "P04",
+          "start": 71.1,
+          "end": 94.13333333333334,
+          "voice_dbfs": -19.398419912794026,
+          "bgm_dbfs": -36.14182227632789
+        },
+        {
+          "id": "P05",
+          "start": 94.13333333333334,
+          "end": 110.53333333333333,
+          "voice_dbfs": -18.77226923817137,
+          "bgm_dbfs": -34.69470378887337
+        },
+        {
+          "id": "P06",
+          "start": 110.53333333333333,
+          "end": 137.83333333333334,
+          "voice_dbfs": -19.12288840096759,
+          "bgm_dbfs": -33.84883476577506
+        },
+        {
+          "id": "P07",
+          "start": 137.83333333333334,
+          "end": 155.83333333333334,
+          "voice_dbfs": -18.617786630598022,
+          "bgm_dbfs": -35.79937134904357
+        },
+        {
+          "id": "P08",
+          "start": 155.83333333333334,
+          "end": 180.06666666666666,
+          "voice_dbfs": -18.91936730093507,
+          "bgm_dbfs": -38.65791628970173
+        },
+        {
+          "id": "P09",
+          "start": 180.06666666666666,
+          "end": 198.86666666666667,
+          "voice_dbfs": -19.068173881275538,
+          "bgm_dbfs": -38.35908690324271
+        },
+        {
+          "id": "P10",
+          "start": 198.86666666666667,
+          "end": 216.13333333333333,
+          "voice_dbfs": -18.30071360303667,
+          "bgm_dbfs": -36.001732145557185
+        },
+        {
+          "id": "P11",
+          "start": 216.13333333333333,
+          "end": 230.73333333333332,
+          "voice_dbfs": -18.35855251117843,
+          "bgm_dbfs": -35.95172070235
+        },
+        {
+          "id": "P12",
+          "start": 230.73333333333332,
+          "end": 240.4,
+          "voice_dbfs": -18.722539891784823,
+          "bgm_dbfs": -34.63634209799886
+        },
+        {
+          "id": "P13",
+          "start": 240.4,
+          "end": 269.0,
+          "voice_dbfs": -18.380688180216648,
+          "bgm_dbfs": -35.576646913331025
+        },
+        {
+          "id": "P14",
+          "start": 269.0,
+          "end": 279.6,
+          "voice_dbfs": -18.912483115307808,
+          "bgm_dbfs": -34.577154364175854
+        },
+        {
+          "id": "P15",
+          "start": 279.6,
+          "end": 302.8333333333333,
+          "voice_dbfs": -18.81160042736361,
+          "bgm_dbfs": -33.513651715701386
+        }
+      ],
+      "brand_samples_unchanged": true
+    }
+  }
+}
