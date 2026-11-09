@@ -1,0 +1,296 @@
+{
+ "episode_id": "PNT02",
+ "series": "Quiet Origins",
+ "language": "en",
+ "title": "Did Washington Really Cross the Delaware Like This?",
+ "subtitle": "A winter night in 1776, a flag adopted in 1777, a studio in Düsseldorf, and a painting shown in New York in 1851",
+ "script_version": "v02 (2026-11-10, approved by the owner)",
+ "opening_after": "P02",
+ "format": "timeline (変遷型), painting series 2 (Origins of a Masterpiece)",
+ "chapters": [
+  {
+   "id": "C01",
+   "title": "A Famous Crossing"
+  },
+  {
+   "id": "C02",
+   "title": "1776: A Night on the River"
+  },
+  {
+   "id": "C03",
+   "title": "1777: A New Flag"
+  },
+  {
+   "id": "C04",
+   "title": "1849: A Studio in Düsseldorf"
+  },
+  {
+   "id": "C05",
+   "title": "1851: New York"
+  },
+  {
+   "id": "C06",
+   "title": "Then and Now"
+  }
+ ],
+ "sources": [
+  {
+   "id": "S01",
+   "title": "The Metropolitan Museum of Art, 97.34, Emanuel Leutze, Washington Crossing the Delaware (1851): object record and API",
+   "kind": "museum",
+   "status": "checked by Codex 2026-11-10: 1851; 378.5 x 647.7 cm; Gift of John Stewart Kennedy, 1897; isPublicDomain=true"
+  },
+  {
+   "id": "S03",
+   "title": "Founders Online: From George Washington to John Hancock, 27 December 1776",
+   "kind": "transcription",
+   "status": "checked by Codex 2026-11-10 (transcription; manuscript not seen): plan to pass as soon as it grew dark; artillery over at three o'clock; march near four; 'a very severe Night'; march through 'a violent Storm of Snow and Hail'"
+  },
+  {
+   "id": "S05",
+   "title": "National Archives, 'Celebrating Flag Day' (2022), quoting the resolution of 14 June 1777",
+   "kind": "transcription",
+   "status": "checked by Codex 2026-11-10: thirteen stripes, thirteen stars; no arrangement specified; Journals p.464 page image not verified"
+  },
+  {
+   "id": "S06",
+   "title": "Washington Crossing Historic Park, Myths and Legends",
+   "kind": "reference",
+   "status": "checked by Codex 2026-11-10: flag adopted about six months later; which flag flown that night, if any, not known"
+  },
+  {
+   "id": "S08",
+   "title": "Mount Vernon, Crossing the Delaware in Art",
+   "kind": "reference",
+   "status": "checked by Codex 2026-11-10: Leutze supported the 1848 revolutions and hoped to inspire new struggles for liberty and democracy (museum interpretation)"
+  },
+  {
+   "id": "S09",
+   "title": "U.S. Department of State, Art in Embassies: Emanuel Leutze",
+   "kind": "reference",
+   "status": "checked by Codex 2026-11-10: born 1816; to US 1825; to Düsseldorf 1841; began the painting 1849"
+  },
+  {
+   "id": "S10",
+   "title": "Smithsonian American Art Museum: Emanuel Gottlieb Leutze",
+   "kind": "reference",
+   "status": "checked by Codex 2026-11-10: biography; 1841 return supported"
+  },
+  {
+   "id": "S11",
+   "title": "John K. Howat, The Metropolitan Museum of Art Bulletin 26(7), 1968, pp.289-299",
+   "kind": "reference",
+   "status": "checked by Codex 2026-11-10 (web text; page images not seen): Whittredge's recollection quoted ('for the steersman and again for Washington himself'); head after Houdon; studio fire 1850; New York 1851; 'morning light'"
+  },
+  {
+   "id": "S12",
+   "title": "The Metropolitan Museum of Art Bulletin, Fall 2011, Restoring an American Masterpiece",
+   "kind": "reference",
+   "status": "checked by Codex 2026-11-10 (search text only): fire November 1850; second version begun January 1851; Venus and dawn"
+  },
+  {
+   "id": "S14",
+   "title": "National Academy of Design, Worthington Whittredge (object 1305)",
+   "kind": "reference",
+   "status": "checked by Codex 2026-11-10: Whittredge posed for Washington and the steersman"
+  },
+  {
+   "id": "S17",
+   "title": "Library of Congress 2020633689, Paul Girardet after Leutze, Washington crossing the Delaware (New York: Goupil & Co., 1853)",
+   "kind": "print",
+   "status": "checked by Codex 2026-11-10 (search text): 1853; No known restrictions on publication; image not yet obtained"
+  },
+  {
+   "id": "S22",
+   "title": "Staatliche Museen zu Berlin, Kunstbibliothek 1900,682, Des Deutschen Vaterland von Moritz Arndt (1848)",
+   "kind": "print",
+   "status": "obtained by Codex 2026-11-10: Public Domain Mark 1.0; 2940 x 3500 px"
+  }
+ ],
+ "segments": [
+  {
+   "id": "P01",
+   "chapter": "C01",
+   "sources": [
+    "S01",
+    "S05",
+    "S06"
+   ],
+   "classification": "editorial_question",
+   "visuals": [
+    "V01_full_1"
+   ],
+   "text": "This is one of the best-known images of American history: Washington Crossing the Delaware. On a winter river, among floating ice, George Washington stands in a small boat and looks ahead. Behind him, a soldier raises the Stars and Stripes. But this painting was not made in seventeen seventy-six. It was made about seventy-five years later, in Germany. And on the night of the crossing, that flag had not yet been adopted as the nation's flag."
+  },
+  {
+   "id": "P02",
+   "chapter": "C01",
+   "sources": [],
+   "classification": "editorial_question",
+   "visuals": [
+    "D_timeline_intro"
+   ],
+   "text": "In this episode, we follow the image through time: from a winter night on the river, to a painter's studio in Düsseldorf, to the city where the painting became famous."
+  },
+  {
+   "id": "P03",
+   "chapter": "C02",
+   "sources": [
+    "S03"
+   ],
+   "classification": "historical_fact",
+   "visuals": [
+    "D_letter_head"
+   ],
+   "text": "On the evening of December twenty-fifth, seventeen seventy-six, Washington's army began to cross the Delaware River, from Pennsylvania into New Jersey, on its way to Trenton. Two days later, Washington described the crossing in a letter to John Hancock, the president of Congress."
+  },
+  {
+   "id": "P04",
+   "chapter": "C02",
+   "sources": [
+    "S03"
+   ],
+   "classification": "historical_fact",
+   "visuals": [
+    "D_letter"
+   ],
+   "text": "The plan was to start as soon as it grew dark. But ice formed in the river that night, and slowed the boats so much that it was three o'clock before all the artillery was across, and nearly four before the troops began to march. He called it a very severe night, and wrote that they marched through a violent storm of snow and hail."
+  },
+  {
+   "id": "P05",
+   "chapter": "C02",
+   "sources": [
+    "S11",
+    "S12"
+   ],
+   "classification": "interpretation",
+   "visuals": [
+    "V01_D1"
+   ],
+   "text": "In the painting, a morning light is spreading across the sky, and a last star still shines above the boat. Studies of the painting connect this light with the coming dawn. The crossing that went on through the night is gathered here into a single view."
+  },
+  {
+   "id": "P06",
+   "chapter": "C03",
+   "sources": [
+    "S05",
+    "S06"
+   ],
+   "classification": "historical_fact",
+   "visuals": [
+    "V01_D2",
+    "D_resolution"
+   ],
+   "text": "The flag in the painting has red and white stripes, and white stars on a blue field. This is the Stars and Stripes. On June fourteenth, seventeen seventy-seven, about six months after the crossing, the Continental Congress resolved that the flag of the United States would have thirteen stripes and thirteen stars. The resolution did not say how the stars should be arranged. Which flag was carried that night, if any, is not known."
+  },
+  {
+   "id": "P07",
+   "chapter": "C04",
+   "sources": [
+    "S09",
+    "S10"
+   ],
+   "classification": "historical_fact",
+   "visuals": [
+    "D_leutze"
+   ],
+   "text": "The painter, Emanuel Leutze, was born in Germany in eighteen sixteen. As a child, he moved with his family to the United States. In eighteen forty-one, he went back to Germany to study painting, in Düsseldorf, a city known for its painters of history."
+  },
+  {
+   "id": "P08",
+   "chapter": "C04",
+   "sources": [
+    "S08",
+    "S09",
+    "S12"
+   ],
+   "classification": "historical_fact",
+   "visuals": [
+    "V10"
+   ],
+   "text": "He began the first version of this picture there in eighteen forty-nine, soon after revolutions swept across Europe in eighteen forty-eight. Mount Vernon, Washington's home and now a museum, explains that Leutze supported those revolutions, and hoped his painting would inspire new struggles for liberty and democracy."
+  },
+  {
+   "id": "P09",
+   "chapter": "C04",
+   "sources": [
+    "S11",
+    "S14"
+   ],
+   "classification": "historical_fact",
+   "visuals": [
+    "V01_D3",
+    "D_whittredge"
+   ],
+   "text": "Americans in the city posed for the figures. One of them, the painter Worthington Whittredge, recalled that he posed for the man steering the boat, and again for Washington himself. For Washington's head, Leutze is said to have looked to a sculpture by Houdon."
+  },
+  {
+   "id": "P10",
+   "chapter": "C04",
+   "sources": [
+    "S11",
+    "S12"
+   ],
+   "classification": "historical_fact",
+   "visuals": [
+    "D_bremen"
+   ],
+   "text": "In November eighteen fifty, a fire in the studio damaged the first version. The next year, Leutze began a second one. The first was repaired, went to the city of Bremen, and was lost in an air raid in nineteen forty-two."
+  },
+  {
+   "id": "P11",
+   "chapter": "C05",
+   "sources": [
+    "S11",
+    "S17"
+   ],
+   "classification": "historical_fact",
+   "visuals": [
+    "V05_or_D_1853"
+   ],
+   "text": "In eighteen fifty-one, the second version was shown in New York, and crowds came to see it. Two years later, an engraving after the painting was published, carrying the image far beyond the exhibition room."
+  },
+  {
+   "id": "P12",
+   "chapter": "C05",
+   "sources": [
+    "S01"
+   ],
+   "classification": "historical_fact",
+   "visuals": [
+    "V01_room"
+   ],
+   "text": "In eighteen ninety-seven, it was given to the Metropolitan Museum of Art, where it hangs today. It is more than six meters wide."
+  },
+  {
+   "id": "P13",
+   "chapter": "C06",
+   "sources": [],
+   "classification": "editorial_conclusion",
+   "visuals": [
+    "V01_full_2"
+   ],
+   "text": "So, did Washington really cross the Delaware like this? The painting was made about seventy-five years after the night it shows, in another country. Its painter put the light of morning in the sky, and the later flag of a nation in a soldier's hands. It is not a record of that night. It is a picture of that night, made for the painter's own time. And today, it is the picture that many of us remember."
+  },
+  {
+   "id": "P14",
+   "chapter": "C06",
+   "sources": [],
+   "classification": "editorial_conclusion",
+   "visuals": [
+    "V01_full_2"
+   ],
+   "text": "Every story has an origin. Sometimes, the image we remember was painted long after the moment itself."
+  },
+  {
+   "id": "P15",
+   "chapter": "C06",
+   "sources": [],
+   "classification": "credits",
+   "visuals": [
+    "credits"
+   ],
+   "text": "This video is based on historical texts and public museum collections. The narration uses synthetic speech. Sources and terms of use are listed in the description. If you enjoyed this story, please like the video and subscribe for more quiet origins. Thank you for watching."
+  }
+ ]
+}
