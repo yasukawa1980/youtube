@@ -1,0 +1,30 @@
+genre: iro
+volume: 24
+slug: iro24
+dir: /Users/ryo/Desktop/BGM/IRO/Seasonal/24_今年もツリーを出した
+tracks_dir: /Volumes/ESD-02/Suno書き出し/IRO24_全60曲
+title_ja: 今年も、ツリーを出した。
+title_en: The Tree Is Up Again This Year
+theme_color: '#2F5D50'
+theme_color_name: PINE
+purpose: christmas
+music_genre: christmas_jazz
+target_music_seconds: 10800
+cta: true
+audio:
+  target_lufs: -14.0
+  true_peak: -2.0
+  crossfade: 4.0
+  codec: aac_at
+budget:
+  suno_max_credits: 360
+  kling_max_credits: 0
+suno:
+  workspace: IRO24_今年もツリーを出した3時間
+  trial_credits: 60
+scenes:
+  base: 開始画像/iro24_S1_案1.png
+  list: [S1, S2, S3, S4, S5, S6]
+  seconds_each: 1800
+  crossfade_seconds: 8
+  motion: [snow, tree_lights, steam]

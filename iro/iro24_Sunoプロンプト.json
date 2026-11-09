@@ -1,0 +1,65 @@
+{
+ "model": "Suno v6（IRO22・23と同じ）",
+ "seconds_target": "約4分（カスタムのスライダー240秒）",
+ "lyrics": "",
+ "instrumental": true,
+ "runs_per_kind": {
+  "A-F": 5
+ },
+ "songs_per_run": 2,
+ "estimated_credits": 300,
+ "budget": "Suno 360クレジット以内・購入なし（本人おまかせ 11/9）",
+ "order": "A→F を回す（金属の打鍵 B・E は3曲離れる）",
+ "trial": "まず各種1回（12曲・60）で声・楽器・尺・既存曲に聞こえないかを確かめてから残り24回",
+ "naming": "iro24_A-01a / iro24_A-01b（回番号＋a/b）",
+ "leads": [
+  {
+   "tag": "A",
+   "name": "ジャズピアノトリオ（アコースティックピアノ）",
+   "key": "F major",
+   "bpm": 76,
+   "style": "A warm acoustic grand piano in the foreground, a gentle jazz piano trio, a simple singing original melody in the right hand with soft wintry chord voicings, tender and close, never flashy runs. F major, 76 BPM. Instrumental cozy Christmas jazz for a quiet living room on a snowy winter night by a softly lit Christmas tree. Soft brushed drums with a gentle, relaxed swing, a warm walking upright bass, a very soft sleigh-bell shaker used sparingly, warm wintry jazz chords, gentle tape warmth. An entirely ORIGINAL melody: never quote or imitate any traditional Christmas carol or famous Christmas song. Cozy, warm and unhurried, never sleepy, never dramatic. A long, continuous piece that keeps the same easy groove all the way through, with no breakdowns and no dramatic build. About four minutes, gentle natural ending. No vocals, no choir, no humming, no whistling. No fireplace, no wind, no field recordings. No dog sounds.",
+   "exclude": "vocals, singing, choir, humming, whistling, chanting, spoken words, rap, vocal chops, fireplace crackle, wind, field recordings, dog sounds, barking, celesta, harp, music box, electric piano, rhodes, guitar lead, trumpet, clarinet, flute, accordion, synth lead, church bells, saxophone, vibraphone, strings lead, horn lead, glockenspiel"
+  },
+  {
+   "tag": "B",
+   "name": "ビブラフォン（柔らかいマレット）",
+   "key": "C major",
+   "bpm": 80,
+   "style": "A soft vibraphone in the foreground, played with soft mallets and a slow gentle motor, a simple glowing original melody with long ringing notes, quiet and close, never busy. C major, 80 BPM. Instrumental cozy Christmas jazz for a quiet living room on a snowy winter night by a softly lit Christmas tree. Soft brushed drums with a gentle, relaxed swing, a warm walking upright bass, a very soft sleigh-bell shaker used sparingly, warm wintry jazz chords, gentle tape warmth. An entirely ORIGINAL melody: never quote or imitate any traditional Christmas carol or famous Christmas song. Cozy, warm and unhurried, never sleepy, never dramatic. A long, continuous piece that keeps the same easy groove all the way through, with no breakdowns and no dramatic build. About four minutes, gentle natural ending. No vocals, no choir, no humming, no whistling. No fireplace, no wind, no field recordings. No dog sounds.",
+   "exclude": "vocals, singing, choir, humming, whistling, chanting, spoken words, rap, vocal chops, fireplace crackle, wind, field recordings, dog sounds, barking, celesta, harp, music box, electric piano, rhodes, guitar lead, trumpet, clarinet, flute, accordion, synth lead, church bells, piano lead, saxophone, glockenspiel, marimba, strings lead, horn lead"
+  },
+  {
+   "tag": "C",
+   "name": "テナーサックス（サブトーンのバラード）",
+   "key": "B-flat major",
+   "bpm": 70,
+   "style": "A breathy, warm tenor saxophone in the foreground, soft subtone ballad playing, a simple tender original melody with long breathing notes, close and intimate, never loud, never squealing. B-flat major, 70 BPM. Instrumental cozy Christmas jazz for a quiet living room on a snowy winter night by a softly lit Christmas tree. Soft brushed drums with a gentle, relaxed swing, a warm walking upright bass, a very soft sleigh-bell shaker used sparingly, warm wintry jazz chords, gentle tape warmth. An entirely ORIGINAL melody: never quote or imitate any traditional Christmas carol or famous Christmas song. Cozy, warm and unhurried, never sleepy, never dramatic. A long, continuous piece that keeps the same easy groove all the way through, with no breakdowns and no dramatic build. About four minutes, gentle natural ending. No vocals, no choir, no humming, no whistling. No fireplace, no wind, no field recordings. No dog sounds.",
+   "exclude": "vocals, singing, choir, humming, whistling, chanting, spoken words, rap, vocal chops, fireplace crackle, wind, field recordings, dog sounds, barking, celesta, harp, music box, electric piano, rhodes, guitar lead, trumpet, clarinet, flute, accordion, synth lead, church bells, piano lead, vibraphone, strings lead, horn lead, glockenspiel"
+  },
+  {
+   "tag": "D",
+   "name": "チェロ（温かい弓のレガート）",
+   "key": "G major",
+   "bpm": 72,
+   "style": "A warm solo cello in the foreground, bowed legato with a gentle singing tone, a simple heartfelt original melody, close and intimate, never dramatic, never an orchestra. G major, 72 BPM. Instrumental cozy Christmas jazz for a quiet living room on a snowy winter night by a softly lit Christmas tree. Soft brushed drums with a gentle, relaxed swing, a warm walking upright bass, a very soft sleigh-bell shaker used sparingly, warm wintry jazz chords, gentle tape warmth. An entirely ORIGINAL melody: never quote or imitate any traditional Christmas carol or famous Christmas song. Cozy, warm and unhurried, never sleepy, never dramatic. A long, continuous piece that keeps the same easy groove all the way through, with no breakdowns and no dramatic build. About four minutes, gentle natural ending. No vocals, no choir, no humming, no whistling. No fireplace, no wind, no field recordings. No dog sounds.",
+   "exclude": "vocals, singing, choir, humming, whistling, chanting, spoken words, rap, vocal chops, fireplace crackle, wind, field recordings, dog sounds, barking, celesta, harp, music box, electric piano, rhodes, guitar lead, trumpet, clarinet, flute, accordion, synth lead, church bells, piano lead, saxophone, vibraphone, violin lead, orchestra, horn lead, glockenspiel"
+  },
+  {
+   "tag": "E",
+   "name": "グロッケンシュピール（柔らかく小さな音）",
+   "key": "E-flat major",
+   "bpm": 84,
+   "style": "A soft, small glockenspiel in the foreground played gently with soft mallets, a simple playful original melody with sparkling but quiet notes, never shrill, never a music box, never a celesta. E-flat major, 84 BPM. Instrumental cozy Christmas jazz for a quiet living room on a snowy winter night by a softly lit Christmas tree. Soft brushed drums with a gentle, relaxed swing, a warm walking upright bass, a very soft sleigh-bell shaker used sparingly, warm wintry jazz chords, gentle tape warmth. An entirely ORIGINAL melody: never quote or imitate any traditional Christmas carol or famous Christmas song. Cozy, warm and unhurried, never sleepy, never dramatic. A long, continuous piece that keeps the same easy groove all the way through, with no breakdowns and no dramatic build. About four minutes, gentle natural ending. No vocals, no choir, no humming, no whistling. No fireplace, no wind, no field recordings. No dog sounds.",
+   "exclude": "vocals, singing, choir, humming, whistling, chanting, spoken words, rap, vocal chops, fireplace crackle, wind, field recordings, dog sounds, barking, celesta, harp, music box, electric piano, rhodes, guitar lead, trumpet, clarinet, flute, accordion, synth lead, church bells, piano lead, saxophone, vibraphone, strings lead, horn lead, toy piano"
+  },
+  {
+   "tag": "F",
+   "name": "フレンチホルン（丸く柔らかい）",
+   "key": "A-flat major",
+   "bpm": 74,
+   "style": "A mellow French horn in the foreground, round and soft, a simple warm original melody with long breathing notes, close and gentle, never brassy, never a fanfare, never a brass band. A-flat major, 74 BPM. Instrumental cozy Christmas jazz for a quiet living room on a snowy winter night by a softly lit Christmas tree. Soft brushed drums with a gentle, relaxed swing, a warm walking upright bass, a very soft sleigh-bell shaker used sparingly, warm wintry jazz chords, gentle tape warmth. An entirely ORIGINAL melody: never quote or imitate any traditional Christmas carol or famous Christmas song. Cozy, warm and unhurried, never sleepy, never dramatic. A long, continuous piece that keeps the same easy groove all the way through, with no breakdowns and no dramatic build. About four minutes, gentle natural ending. No vocals, no choir, no humming, no whistling. No fireplace, no wind, no field recordings. No dog sounds.",
+   "exclude": "vocals, singing, choir, humming, whistling, chanting, spoken words, rap, vocal chops, fireplace crackle, wind, field recordings, dog sounds, barking, celesta, harp, music box, electric piano, rhodes, guitar lead, trumpet, clarinet, flute, accordion, synth lead, church bells, piano lead, saxophone, vibraphone, strings lead, trombone, tuba, glockenspiel"
+  }
+ ]
+}
