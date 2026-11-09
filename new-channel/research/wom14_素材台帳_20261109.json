@@ -1,7 +1,7 @@
 {
   "episode": "wom14",
   "updated": "2026-11-09",
-  "status": "第1便・調査継続",
+  "status": "第2便・優先原典の照合を追加",
   "assets": [
     {
       "id": "O03-22",
@@ -297,11 +297,11 @@
       "rights_url": "https://library.si.edu/digital-library/book/konjakuzokuhyak1tori",
       "accessed": "2026-11-09",
       "original_path": "/Volumes/ESD-02/新チャンネル/EP014_Oni/素材/O11-12_Konjakuzokuhyak1Tori_0012.jp2",
-      "notes": "鬼と牛角・虎皮の解説。暴力なし。隣頁の山精と混同しない。所蔵館書誌は1805、初刊1779と明記。",
+      "notes": "P10。下部に捕食を思わせる描写・骨状のものがあり、全頁は使用しない。上部の解説文字のみを切り出す。第1便の暴力なしという扱いは撤回。1805年の後刊本、初刊1779年。",
       "text_position": "JP2連番0012、版心「上 二」。右上 x=.49–.95,y=.04–.44 に解説。",
       "work_key": "https://library.si.edu/digital-library/book/konjakuzokuhyak1tori",
       "visually_checked": true,
-      "status": "確認済み候補",
+      "status": "文字部分のみ候補・全頁不採用",
       "color": "墨刷（紙の色あり）",
       "credit": "Smithsonian Libraries and Archives / 今昔画図続百鬼 上巻「鬼」 / Public domain / CC0",
       "sha256": "235e4f5af2811d96a04be266b7954227069bdfbd760e9900b0af6b3e8d549124",
@@ -422,6 +422,181 @@
         1280
       ],
       "preview_bytes": 292361
+    },
+    {
+      "id": "R06-18",
+      "title": "伊勢物語",
+      "author": "佐佐木信綱 校註",
+      "date": "明25.9",
+      "institution": "国立国会図書館",
+      "object_number": "27-158",
+      "work_url": "https://dl.ndl.go.jp/pid/877528/1/18",
+      "download_url": "https://dl.ndl.go.jp/api/iiif/877528/R0000018/full/full/0/default.jpg",
+      "rights": "PDM／インターネット公開（保護期間満了）",
+      "rights_url": "https://dl.ndl.go.jp/ja/help_iiif",
+      "work_key": "NDL877528",
+      "color": "墨刷（紙の色あり）",
+      "notes": "原典照合用の補足頁。映像の本候補20作品には含めない。同じ刊本の別頁の再使用不可。",
+      "text_position": "コマ18左頁、本文5頁、x=.12–.46,y=.36–.85：ひと口・雷鳴。",
+      "status": "原典照合用",
+      "original_path": "/Volumes/ESD-02/新チャンネル/EP014_Oni/素材/R06-18_ise18full.jpg",
+      "sha256": "3fd3d9ebe5f2d664f9109e4633fcb1feee6ff4164c46c22502322f546d41c408",
+      "bytes": 1920542,
+      "original_dimensions": [
+        3977,
+        2966
+      ],
+      "saved": true,
+      "preview": "new-channel/サムネ確認用/wom14/R06-18.jpg",
+      "preview_dimensions": [
+        1280,
+        955
+      ],
+      "preview_bytes": 214770,
+      "accessed": "2026-11-09",
+      "visually_checked": true,
+      "date_basis": "所蔵館の作品書誌",
+      "credit": "国立国会図書館 / 伊勢物語 / PDM／インターネット公開（保護期間満了）"
+    },
+    {
+      "id": "R06-19",
+      "title": "伊勢物語",
+      "author": "佐佐木信綱 校註",
+      "date": "明25.9",
+      "institution": "国立国会図書館",
+      "object_number": "27-158",
+      "work_url": "https://dl.ndl.go.jp/pid/877528/1/19",
+      "download_url": "https://dl.ndl.go.jp/api/iiif/877528/R0000019/full/full/0/default.jpg",
+      "rights": "PDM／インターネット公開（保護期間満了）",
+      "rights_url": "https://dl.ndl.go.jp/ja/help_iiif",
+      "work_key": "NDL877528",
+      "color": "墨刷（紙の色あり）",
+      "notes": "原典照合用の補足頁。映像の本候補20作品には含めない。同じ刊本の別頁の再使用不可。",
+      "text_position": "コマ19右頁、本文6頁、x=.53–.88,y=.37–.84：二条后の後書き。",
+      "status": "原典照合用",
+      "original_path": "/Volumes/ESD-02/新チャンネル/EP014_Oni/素材/R06-19_ise19full.jpg",
+      "sha256": "cb24b5bbff16d2c226fd6abee5398aeba5771fd0dd472835775f84b055990452",
+      "bytes": 1984487,
+      "original_dimensions": [
+        3977,
+        2966
+      ],
+      "saved": true,
+      "preview": "new-channel/サムネ確認用/wom14/R06-19.jpg",
+      "preview_dimensions": [
+        1280,
+        955
+      ],
+      "preview_bytes": 220152,
+      "accessed": "2026-11-09",
+      "visually_checked": true,
+      "date_basis": "所蔵館の作品書誌",
+      "credit": "国立国会図書館 / 伊勢物語 / PDM／インターネット公開（保護期間満了）"
+    },
+    {
+      "id": "R10-27",
+      "title": "国史大系.第２巻　続日本紀",
+      "author": "経済雑誌社 編",
+      "date": "明治30",
+      "institution": "国立国会図書館",
+      "object_number": "210.08-Ko548-Kk",
+      "work_url": "https://dl.ndl.go.jp/pid/991092/1/27",
+      "download_url": "https://dl.ndl.go.jp/api/iiif/991092/R0000027/full/full/0/default.jpg",
+      "rights": "PDM／インターネット公開（保護期間満了）",
+      "rights_url": "https://dl.ndl.go.jp/ja/help_iiif",
+      "work_key": "NDL991092",
+      "color": "墨刷（紙の色あり）",
+      "notes": "原典照合用の補足頁。映像の本候補20作品には含めない。同じ刊本の別頁の再使用不可。",
+      "text_position": "コマ27左頁、本文43頁、x=.17–.20,y=.35–.72：是年・大儺。",
+      "status": "原典照合用",
+      "original_path": "/Volumes/ESD-02/新チャンネル/EP014_Oni/素材/R10-27_shoku27.jpg",
+      "sha256": "325a58f680413569c0f9cb4648649f6f79377c2bfe2c59ab73af4d68bd20f686",
+      "bytes": 2728302,
+      "original_dimensions": [
+        3717,
+        2733
+      ],
+      "saved": true,
+      "preview": "new-channel/サムネ確認用/wom14/R10-27.jpg",
+      "preview_dimensions": [
+        1280,
+        941
+      ],
+      "preview_bytes": 291080,
+      "accessed": "2026-11-09",
+      "visually_checked": true,
+      "date_basis": "所蔵館の作品書誌",
+      "credit": "国立国会図書館 / 国史大系.第２巻　続日本紀 / PDM／インターネット公開（保護期間満了）"
+    },
+    {
+      "id": "R11-29",
+      "title": "江家次第.十一",
+      "author": "大江匡房",
+      "date": "承応2 [1653] 跋",
+      "institution": "国立国会図書館",
+      "object_number": "わ210.09-67",
+      "work_url": "https://dl.ndl.go.jp/pid/12865891/1/29",
+      "download_url": "https://dl.ndl.go.jp/api/iiif/12865891/R0000029/full/full/0/default.jpg",
+      "rights": "PDM／インターネット公開（保護期間満了）",
+      "rights_url": "https://dl.ndl.go.jp/ja/help_iiif",
+      "work_key": "NDL12865891",
+      "color": "墨刷（紙の色あり）",
+      "notes": "原典照合用の補足頁。映像の本候補20作品には含めない。同じ刊本の別頁の再使用不可。",
+      "text_position": "コマ29右頁末、x=.56–.65,y=.25–.90：追儺標題。",
+      "status": "原典照合用",
+      "original_path": "/Volumes/ESD-02/新チャンネル/EP014_Oni/素材/R11-29_goke11_29full.jpg",
+      "sha256": "08317efc51d82801223359218120331a341c6d42142f790ed2ad06ccd51f1876",
+      "bytes": 3093085,
+      "original_dimensions": [
+        6874,
+        4860
+      ],
+      "saved": true,
+      "preview": "new-channel/サムネ確認用/wom14/R11-29.jpg",
+      "preview_dimensions": [
+        1280,
+        905
+      ],
+      "preview_bytes": 266531,
+      "accessed": "2026-11-09",
+      "visually_checked": true,
+      "date_basis": "所蔵館の作品書誌",
+      "credit": "国立国会図書館 / 江家次第.十一 / PDM／インターネット公開（保護期間満了）"
+    },
+    {
+      "id": "R11-30",
+      "title": "江家次第.十一",
+      "author": "大江匡房",
+      "date": "承応2 [1653] 跋",
+      "institution": "国立国会図書館",
+      "object_number": "わ210.09-67",
+      "work_url": "https://dl.ndl.go.jp/pid/12865891/1/30",
+      "download_url": "https://dl.ndl.go.jp/api/iiif/12865891/R0000030/full/full/0/default.jpg",
+      "rights": "PDM／インターネット公開（保護期間満了）",
+      "rights_url": "https://dl.ndl.go.jp/ja/help_iiif",
+      "work_key": "NDL12865891",
+      "color": "墨刷（紙の色あり）",
+      "notes": "原典照合用の補足頁。映像の本候補20作品には含めない。同じ刊本の別頁の再使用不可。",
+      "text_position": "コマ30左頁本文に射方相、右頁上部裏書に黄金四目・玄衣朱裳。",
+      "status": "原典照合用",
+      "original_path": "/Volumes/ESD-02/新チャンネル/EP014_Oni/素材/R11-30_goke11_30full.jpg",
+      "sha256": "04241014a0caee7199b145cf03eceb56bbcb3cc1ed1f09b6e7fb5aba1d5cff19",
+      "bytes": 3521993,
+      "original_dimensions": [
+        6874,
+        4860
+      ],
+      "saved": true,
+      "preview": "new-channel/サムネ確認用/wom14/R11-30.jpg",
+      "preview_dimensions": [
+        1280,
+        905
+      ],
+      "preview_bytes": 316252,
+      "accessed": "2026-11-09",
+      "visually_checked": true,
+      "date_basis": "所蔵館の作品書誌",
+      "credit": "国立国会図書館 / 江家次第.十一 / PDM／インターネット公開（保護期間満了）"
     }
   ]
 }
