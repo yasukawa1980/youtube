@@ -1,0 +1,127 @@
+{
+  "passed": true,
+  "regions": {
+    "V1_flag": {
+      "source": "/Volumes/ESD-02/新チャンネル/PNT02_WashingtonCrossing/素材/Met_97.34/DP245005.jpg",
+      "source_sha256": "2c9889f9ce2f9b3a54ac07aee1be58a54e21e18c6373b949527f4220998f559b",
+      "native_size": [
+        2611,
+        3847
+      ],
+      "requested_box": [
+        1380,
+        260,
+        2611,
+        1343
+      ],
+      "max_scale_at_1_04_zoom": 0.9124289195775792,
+      "polygon_in_full_px": [
+        [
+          2084.56298828125,
+          209.6188201904297
+        ],
+        [
+          2808.76171875,
+          207.1045379638672
+        ],
+        [
+          2807.027587890625,
+          850.3945922851562
+        ],
+        [
+          2081.743408203125,
+          851.290771484375
+        ]
+      ]
+    },
+    "V3_steering": {
+      "source": "/Volumes/ESD-02/新チャンネル/PNT02_WashingtonCrossing/素材/Met_97.34/DP258218.jpg",
+      "source_sha256": "808109f6c60d379d99337df5a7e563290c29d50382c646d0fa2bbcaeb4c5e5f5",
+      "native_size": [
+        4000,
+        3000
+      ],
+      "requested_box": [
+        2100,
+        620,
+        4000,
+        2291
+      ],
+      "max_scale_at_1_04_zoom": 0.5912627169359665,
+      "polygon_in_full_px": [
+        [
+          3105.361572265625,
+          1109.8326416015625
+        ],
+        [
+          3875.154541015625,
+          1114.5648193359375
+        ],
+        [
+          3871.605712890625,
+          1797.102294921875
+        ],
+        [
+          3100.64306640625,
+          1791.525146484375
+        ]
+      ]
+    },
+    "V3_Washington": {
+      "source": "/Volumes/ESD-02/新チャンネル/PNT02_WashingtonCrossing/素材/Met_97.34/DP245005.jpg",
+      "source_sha256": "2c9889f9ce2f9b3a54ac07aee1be58a54e21e18c6373b949527f4220998f559b",
+      "native_size": [
+        2611,
+        3847
+      ],
+      "requested_box": [
+        192,
+        1058,
+        1347,
+        2075
+      ],
+      "max_scale_at_1_04_zoom": 0.9724675324675325,
+      "polygon_in_full_px": [
+        [
+          1386.2696533203125,
+          683.5130004882812
+        ],
+        [
+          2063.10107421875,
+          682.2779541015625
+        ],
+        [
+          2060.42041015625,
+          1286.0865478515625
+        ],
+        [
+          1382.6402587890625,
+          1285.8970947265625
+        ]
+      ]
+    }
+  },
+  "checks": [
+    {
+      "a": "V1_flag",
+      "b": "V3_steering",
+      "intersection_area_full_px2": 0.0,
+      "passed": true
+    },
+    {
+      "a": "V1_flag",
+      "b": "V3_Washington",
+      "intersection_area_full_px2": 0.0,
+      "passed": true
+    },
+    {
+      "a": "V3_steering",
+      "b": "V3_Washington",
+      "intersection_area_full_px2": 0.0,
+      "passed": true
+    }
+  ],
+  "method": "Main film SIFT homographies; intersect complete allowed crop envelopes in DP-14511-001 coordinates. All inward zoom frames are subsets. V2 full view exempt.",
+  "registration_sha256": "672c732a0bd03ff5201f20aa942af4ef959c27c46cb7aadbe3b979aa8b97006f",
+  "visual_review_completed": false
+}

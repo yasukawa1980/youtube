@@ -24,12 +24,12 @@ MAIN = Path('/Volumes/ESD-02/新チャンネル/PNT02_WashingtonCrossing/確認�
 MEDIA = MAIN.parent/'素材'
 MODELS = Path('/Users/ryo/Desktop/BGM/_共通/音声モデル/Kokoro82M_v1')
 REQUEST = 'painting/pnt02_ショート制作依頼_20261110.md'
-REQUEST_COMMIT = 'f20f953b'
-PREVIOUS_REQUEST_COMMIT = 'd727ace9'
-ARCHIVE = ROOT/'history/6503881e_shortened_stop'
+REQUEST_COMMIT = '7ede2457'
+PREVIOUS_REQUEST_COMMIT = 'f20f953b'
+ARCHIVE = ROOT/'history/30f49cbb_crop_stop'
 REGIONS = {
-    'V1_flag': ('D2', 'DP245005.jpg', [1350, 430, 2581, 1513]),
-    'V3_steering': ('D3', 'DP258218.jpg', [2483, 620, 3983, 1939]),
+    'V1_flag': ('D2', 'DP245005.jpg', [1380, 260, 2611, 1343]),
+    'V3_steering': ('D3', 'DP258218.jpg', [2100, 620, 4000, 2291]),
     'V3_Washington': ('D2', 'DP245005.jpg', [192, 1058, 1347, 2075]),
 }
 
@@ -58,8 +58,8 @@ def prepare():
         assert target.read_bytes() == previous, 'STOP: unexpected existing request'
         archive = ARCHIVE
         manifest = []
-        for folder in ['audio', 'records']:
-            for old in sorted((ROOT/folder).glob('*')):
+        for folder in ['audio', 'records', 'assets', 'review']:
+            for old in sorted((ROOT/folder).rglob('*')):
                 if not old.is_file():
                     continue
                 dest = archive/old.relative_to(ROOT)
@@ -69,7 +69,7 @@ def prepare():
                 else:
                     shutil.copy2(old, dest)
                 manifest.append(dict(path=str(old.relative_to(ROOT)), sha256=sha(dest), bytes=dest.stat().st_size))
-        save(archive/'manifest.json', dict(previous_stop='6503881e', files=manifest))
+        save(archive/'manifest.json', dict(previous_stop='30f49cbb', files=manifest))
     target.write_bytes(request)
 
 

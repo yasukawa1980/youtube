@@ -110,7 +110,8 @@ def cards():
 def frame_art(g,frac,loaded):
     guard();im,bg,head=loaded;x,y,w,h=g['viewport'];z=math.exp(math.log(g['zoom_end'])*frac)
     cw,ch=im.width/z,im.height/z
-    rect=((im.width-cw)/2,(im.height-ch)/2,(im.width+cw)/2,(im.height+ch)/2)
+    top=0 if g.get('zoom_anchor')=='top' else (im.height-ch)/2
+    rect=((im.width-cw)/2,top,(im.width+cw)/2,top+ch)
     size=g['display_size'];crop=im.resize(tuple(size),Image.Resampling.LANCZOS,box=rect)
     frame=bg.copy();frame.paste(crop,(x+(w-size[0])//2,y+(h-size[1])//2))
     return Image.alpha_composite(frame.convert('RGBA'),head)
@@ -123,6 +124,14 @@ def visuals():
         sid=s['id'];hp,hr=layout.text_asset(sid,'headline',HEADLINES[sid]);heads.append(dict(id=sid,file=str(hp),rows=hr))
         for j,(g,lines) in enumerate(zip(s['caption_groups'],PAGES[sid])):
             p,rows=layout.text_asset(sid,f'caption{j:02}',lines)
+            if sid=='V3':
+                # Keep the entire subtitle plate below the painting (bottom y=1220).
+                layer=Image.open(p).convert('RGBA');shifted=Image.new('RGBA',layer.size)
+                shifted.paste(layer,(0,70));shifted.save(p)
+                for row in rows:
+                    for field in ['glyph_bbox','plate_bbox']:
+                        row[field][1]+=70;row[field][3]+=70
+                    row['vertical_offset']=70
             caps.append(dict(short_id=sid,page=j,**g,lines=lines,file=str(p),rows=rows))
         starts=[0 if cue is None else old.phrase_frame(s,cue) for key,cue in SPECS[sid]]
         for j,(key,cue) in enumerate(SPECS[sid]):
@@ -162,12 +171,13 @@ def visuals():
             final=None
             if box:
                 l,t,r,b=box;cx=(l+r)/2;cy=(t+b)/2;final=[cx-(r-l)/z/2,cy-(b-t)/z/2,cx+(r-l)/z/2,cy+(b-t)/z/2]
+                if key=='V3_steering':final[1]=t;final[3]=t+(b-t)/z
             shots.append(dict(short_id=sid,asset_id=key,source=source,start_frame=starts[j],end_frame=end,frames=end-starts[j],
                cut_phrase=cue,file=str(path),background=str(bgpath),header=str(hpath),header_texts=hr,viewport=viewport,
                display_size=size,prepared_size=list(im.size),native_crop_start=box,native_crop_end=final,
-               zoom_end=z,native_max_scale=scale,static=static))
+               zoom_end=z,zoom_anchor='top' if key=='V3_steering' else 'center',native_max_scale=scale,static=static))
     save(ROOT/'records/visual_manifest.json',dict(shots=shots,no_AI=True,no_color_correction=True,overlap_record='crop_preflight.json',
-         crop_adjustments='None. Aspect-preserving fit to 1080x950; <=1px letterbox for approved details. V2 full view centrally cropped around boat.'))
+         crop_adjustments='7ede2457 approved envelopes. Aspect-preserving fit to 1080x950; <=1px letterbox for details. Steering zoom anchored at top; other zooms centered. V3 subtitles shifted 70px below the picture. V2 full view centrally cropped around boat.'))
     save(ROOT/'records/caption_manifest.json',caps);save(ROOT/'records/headlines.json',heads)
     for s in shorts:
         for n in sorted(set([0,15,30,45,60,75,s['cta_start_frame']]+[g['start_frame'] for g in shots if g['short_id']==s['id']]+[g['end_frame']-1 for g in shots if g['short_id']==s['id']])):

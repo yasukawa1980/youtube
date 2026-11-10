@@ -1,0 +1,32 @@
+{
+  "passed": true,
+  "reviewer": "Codex visual inspection of completed H264 frames",
+  "checks": [
+    "Opening 0, 0.5, 1, 1.5, 2, 2.5 seconds: headline and artwork visible",
+    "All 23 caption pages inspected on contact sheets",
+    "Every-2-second sheets inspected for all three shorts",
+    "Flagpole spear tip, steering hat and hand, Washington hat remain in bounds at zoom endpoints",
+    "V3 subtitles below painting; hand not covered by subtitles",
+    "CTA visible and readable for final 75 frames",
+    "Cards and labels have no terminal separator"
+  ],
+  "reviewed_files": [
+    "V1_opening.jpg",
+    "V1_every2s.jpg",
+    "V1_all_captions.jpg",
+    "V2_opening.jpg",
+    "V2_every2s.jpg",
+    "V2_all_captions.jpg",
+    "V3_opening.jpg",
+    "V3_every2s.jpg",
+    "V3_all_captions.jpg",
+    "V1_cuts.jpg",
+    "V3_cuts.jpg"
+  ],
+  "video_sha256": {
+    "V1": "24696bacf86b11079d098c575a6ef7f142cf3bc5081317eb7a9176bb8bc4b17f",
+    "V2": "11203895f6ca60e60373fce6cb6e4544bfbc61d397e1350965eb83e94da58449",
+    "V3": "654aa9c028fce2d378e1d055ee5d54ce1244c20c25e1cd225999b45f666143e9"
+  },
+  "human_full_listening": false
+}
