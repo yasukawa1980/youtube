@@ -36,10 +36,13 @@ def main():
     ap.add_argument('--folder',type=Path,required=True)
     ap.add_argument('--record',type=Path,required=True)
     ap.add_argument('--partial-1080',action='store_true',help='Stage only the four verified 1080p previews while 4K is rendering')
+    ap.add_argument('--partial-normal',action='store_true',help='Stage verified normal English/Japanese 1080p and English4K while subtitle review policy awaits input')
     a=ap.parse_args()
     files=sorted([*a.folder.glob(f'EP014_Oni_*_{VERSION}*.mp4'),*a.folder.glob(f'EP014_*_{VERSION}.zip')])
     if a.partial_1080:files=[p for p in files if p.suffix=='.mp4' and '1080p30' in p.name]
-    assert len(files)==(4 if a.partial_1080 else 8), len(files)
+    assert not (a.partial_1080 and a.partial_normal)
+    if a.partial_normal:files=[p for p in files if p.suffix=='.mp4' and 'subtitled_review' not in p.name]
+    assert len(files)==(3 if a.partial_normal else 4 if a.partial_1080 else 8), len(files)
     assert all(p.name.isascii() for p in files)
     previous=json.loads(a.record.read_text()) if a.record.exists() else {}
     if previous.get('tag')==TAG and previous.get('release_id'):
@@ -48,6 +51,8 @@ def main():
         releases=api([f'repos/{REPO}/releases?per_page=100'])
         r=next((r for r in releases if r['tag_name']==TAG),None)
     body=('Quiet Origins 第14話「鬼」。承認済み台本v02。英日1080p本編と字幕入り確認版の4本を先行格納。英語4K・音声等のZIP・最終検品記録は作成中。非公開・本人試聴とClaude確認用。' if a.partial_1080 else 'Quiet Origins 第14話「鬼」。承認済み台本v02。英日1080p本編、英語原寸素材からの4K版、字幕入り英日確認版、音声・字幕・サムネ2案と検品記録。非公開・本人試聴とClaude確認待ち。')
+    if a.partial_normal:
+        body='Quiet Origins 第14話「鬼」映像修正v02。通常英日1080pと英語4Kの3本を先行格納。各23未修正ショットの全フレーム画素一致、音声・SRT・時間割一致を検証済み。字幕入り版は再圧縮差の扱いの本人回答待ち。R10-27は原寸1.0倍上限で一部の墨画44px（55px未達）。v01 Release439388240を保全。非公開。'
     if r is None:
         r=api(['--method','POST',f'repos/{REPO}/releases','--input','-'],{
             'tag_name':TAG,'target_commitish':'bgm/production',
@@ -114,7 +119,7 @@ def main():
         state.update(status='verifying',assets=checks)
         a.record.write_text(json.dumps(state,ensure_ascii=False,indent=2)+'\n')
         print('REST CHECKPOINT VERIFIED' if cached else 'REST VERIFIED',p.name,flush=True)
-    state.update(status='partial_verified' if a.partial_1080 else 'verified',assets=checks)
+    state.update(status='partial_verified' if (a.partial_1080 or a.partial_normal) else 'verified',assets=checks)
     a.record.write_text(json.dumps(state,ensure_ascii=False,indent=2)+'\n')
     print('SHARED',r['id'],len(checks),flush=True)
 
