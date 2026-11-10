@@ -3,10 +3,10 @@ import os,re,math,json,subprocess,sys
 from pathlib import Path
 from PIL import Image,ImageDraw,ImageFont,ImageColor
 import numpy as np
-from wom14_produce import ROOT,REPO,read,save,sha,probe
+from wom14_produce import ROOT,REPO,VERSION,read,save,sha,probe
 LANG=os.environ.get('WOM14_LANG','en');S=int(os.environ.get('WOM14_SCALE','1'));SUFFIX='_4k' if S==2 else '';SIZE='2160' if S==2 else '1080'
 def continuous():
- shots=read(ROOT/f'records/render_shots{SUFFIX}.json');m=read(ROOT/'records/master_timeline.json');n=round(m['duration_seconds']*30);src=ROOT/f'deliverables/EP014_Oni_{LANG}_v01_{SIZE}p30.mp4'
+ shots=read(ROOT/f'records/render_shots{SUFFIX}.json');m=read(ROOT/'records/master_timeline.json');n=round(m['duration_seconds']*30);src=ROOT/f'deliverables/EP014_Oni_{LANG}_{VERSION}_{SIZE}p30.mp4'
  assert sum(s['frames'] for s in shots)==n
  selected=set([0,30,60,90]);triples=[]
  for s in shots:
