@@ -1,0 +1,44 @@
+{
+  "request_commit": "d727ace9",
+  "request_sha256": "6a8ad390ee5c95faf1ee1912a38079755ce2f3d7f8af94f0ee19efa92e679275",
+  "main_queries_sha256": "0a1f1a84f6316a1131892eecf3dcac69ddafcf9148974ffb902f000002521b35",
+  "main_narration_sha256": "3b28960646100a688c4a8f05a1dec43c74de20f88e90d91e7b7651f2a957d4d3",
+  "model_sha256": "beb0d1848dee9a49da392cc3df26958d46cfa35d321edf434f52949153f0df3a",
+  "voices_sha256": "bca610b8308e8d99f32e6fe4197e7ec01679264efed0cac9140fe9c29f1fbf7d",
+  "versions": {
+    "kokoro-onnx": "0.6.1",
+    "onnxruntime": "1.31.0",
+    "numpy": "2.3.5",
+    "phonemizer": "3.4.0",
+    "espeakng-loader": "0.2.4",
+    "soundfile": "0.14.0"
+  },
+  "scripts": [
+    {
+      "id": "V1",
+      "title": "The flag",
+      "headline": "THIS FLAG WASN'T OFFICIAL YET?",
+      "text": "Behind Washington, a soldier raises the Stars and Stripes. The crossing was in December seventeen seventy-six. Only in June seventeen seventy-seven did Congress resolve that the flag would have thirteen stripes and thirteen stars. Which flag, if any, was carried is not known.",
+      "whitespace_words": 43,
+      "audio_file": "/Volumes/ESD-02/新チャンネル/ショート/PNT02_v01_20261110/audio/V1_native.wav",
+      "audio_sha256": "a7e524f35401c5a57798054a4b7bb21412629c44364fdc62102712f992c0eacc",
+      "samples": 518750,
+      "sample_rate": 24000,
+      "native_audio_duration": 21.614583333333332,
+      "voice_onset_seconds": 0.1,
+      "last_voice_activity_seconds": 21.3,
+      "cta_seconds": 2.5,
+      "planned_frames": 724,
+      "planned_duration_seconds": 24.133333333333333,
+      "within_21_5_seconds": false,
+      "within_24_seconds": false
+    }
+  ],
+  "completed_count": 1,
+  "requested_count": 3,
+  "text_unchanged": true,
+  "speech_speed_modified_to_fit": false,
+  "human_full_listening": false,
+  "all_within_24_seconds": false,
+  "gate": "Same as EP013: ceil(native audio seconds * 30) + 75 CTA frames. Stop immediately above 720 frames."
+}
