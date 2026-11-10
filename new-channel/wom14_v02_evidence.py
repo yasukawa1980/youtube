@@ -15,7 +15,7 @@ def samples(lang,scale):
   for n,f in enumerate(sorted(set(frames))):
    pair=Image.new('RGB',(1280,385),'#201b17');d=ImageDraw.Draw(pair)
    for i,(base,label) in enumerate([(BASE,'v01'),(ROOT,'v02')]):
-    p=folder/f'compare_{lang}{suffix}_{k}_{n}_{label}.jpg';ff(['-threads',1,'-ss',f/30,'-i',path_video(base,lang,scale),'-frames:v',1,'-vf','scale=1280:720','-filter_threads',1,'-q:v',2,p]);im=Image.open(p);pair.paste(im.resize((640,360)),(i*640,25));d.text((i*640+5,5),f'{k} {label} frame {f}',fill='white')
+    p=folder/f'compare_{lang}{suffix}_{k}_{n}_{label}.jpg';ff(['-threads',1,'-ss',f/30,'-i',path_video(base,lang,scale),'-frames:v',1,'-vf','scale=1280:720','-filter_threads',1,'-q:v',2,'-update',1,p]);im=Image.open(p);pair.paste(im.resize((640,360)),(i*640,25));d.text((i*640+5,5),f'{k} {label} frame {f}',fill='white')
    p=folder/f'compare_{lang}{suffix}_{k}_{n}_pair.jpg';pair.save(p,quality=90);changes.append(dict(shot=k,frame=f,file=p.name))
  save(ROOT/lang/f'records/comparisons_v02{suffix}.json',changes)
  print('COMPARISONS',lang,scale,flush=True)

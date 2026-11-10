@@ -1,0 +1,117 @@
+{
+  "method": "Smart replacement at IDR-aligned group boundaries; unchanged v01 AVC packets preserved; new finite-shot encodes only for eight revised shots",
+  "source_sha256": "60b347797bb2013a488912f41501d3177845ea2b217d033e6c5b7705328b4fba",
+  "output_sha256": "1167db3b3354ecf26e0c61b6c53fdfbc901c652df518262d603bd71fc359d7e7",
+  "groups": [
+    {
+      "start": 0,
+      "end": 302,
+      "changed": false,
+      "shots": [
+        "O01-A",
+        "D_features"
+      ]
+    },
+    {
+      "start": 302,
+      "end": 1019,
+      "changed": true,
+      "shots": [
+        "O02-A"
+      ]
+    },
+    {
+      "start": 1019,
+      "end": 2675,
+      "changed": false,
+      "shots": [
+        "D_check_list",
+        "opening",
+        "D_kanji_oni",
+        "O05-A"
+      ]
+    },
+    {
+      "start": 2675,
+      "end": 3139,
+      "changed": true,
+      "shots": [
+        "O03-23"
+      ]
+    },
+    {
+      "start": 3139,
+      "end": 3604,
+      "changed": false,
+      "shots": [
+        "O04-272"
+      ]
+    },
+    {
+      "start": 3604,
+      "end": 4272,
+      "changed": true,
+      "shots": [
+        "O06-38"
+      ]
+    },
+    {
+      "start": 4272,
+      "end": 5144,
+      "changed": false,
+      "shots": [
+        "O15-A",
+        "D_check_1"
+      ]
+    },
+    {
+      "start": 5144,
+      "end": 6144,
+      "changed": true,
+      "shots": [
+        "O08-31"
+      ]
+    },
+    {
+      "start": 6144,
+      "end": 9409,
+      "changed": false,
+      "shots": [
+        "D_check_2",
+        "O09-A",
+        "O10-A",
+        "O14-B",
+        "O11-12",
+        "D_compass",
+        "D_check_3"
+      ]
+    },
+    {
+      "start": 9409,
+      "end": 10754,
+      "changed": true,
+      "shots": [
+        "R10-27",
+        "R11-30",
+        "O02-B",
+        "R12-1447"
+      ]
+    },
+    {
+      "start": 10754,
+      "end": 13525,
+      "changed": false,
+      "shots": [
+        "O02-D",
+        "D_check_4",
+        "D_check_all",
+        "O01-C",
+        "O16-A",
+        "credits",
+        "endcard"
+      ]
+    }
+  ],
+  "frames": 13525,
+  "v01_read_only": true
+}

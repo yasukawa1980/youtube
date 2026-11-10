@@ -1,0 +1,56 @@
+{
+  "source_id": "R10-27",
+  "original_dimensions": [
+    3717,
+    2733
+  ],
+  "native_scale_cap": 1.0,
+  "quote_fraction": [
+    0.169,
+    0.593,
+    0.191,
+    0.719
+  ],
+  "measurement": "Grayscale <160; at least 3 dark pixels in a row; continuous runs at least 4px. Adjacent glyphs can touch.",
+  "dark_vertical_runs_native_px": [
+    [
+      1631,
+      1733,
+      103
+    ],
+    [
+      1736,
+      1739,
+      4
+    ],
+    [
+      1748,
+      1791,
+      44
+    ],
+    [
+      1794,
+      1854,
+      61
+    ],
+    [
+      1864,
+      1907,
+      44
+    ],
+    [
+      1912,
+      1956,
+      45
+    ],
+    [
+      1960,
+      1964,
+      5
+    ]
+  ],
+  "minimum_clear_main_glyph_ink_height_px": 44,
+  "nominal_cell_pitch_px": 57.3,
+  "55px_ink_target_unmet_at_native_scale": true,
+  "user_decision": "pending"
+}

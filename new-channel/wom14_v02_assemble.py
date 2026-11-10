@@ -17,7 +17,7 @@ def concat(path,parts,counts):
 def assemble(lang,scale):
  suffix='_4k' if scale==2 else '';shots=read(BASE/lang/f'records/render_shots{suffix}.json');groups=blocks(shots);src=path_video(BASE,lang,scale);out=path_video(ROOT,lang,scale);folder=ROOT/lang/('_work/splice'+suffix);folder.mkdir(exist_ok=True)
  cuts=[g['start'] for g in groups[1:]];keys=json.loads(subprocess.check_output(['ffprobe','-v','error','-skip_frame','nokey','-select_streams','v','-show_frames','-show_entries','frame=pts_time','-of','json',str(src)]))['frames'];keys={round(float(f['pts_time'])*30) for f in keys};assert set(cuts)<=keys
- ff(['-threads',1,'-i',src,'-map','0:v:0','-an','-c','copy','-f','segment','-segment_times',','.join(f'{n/30:.9f}' for n in cuts),'-reset_timestamps',1,'-segment_format_options','video_track_timescale=15360',folder/'original_%02d.mp4'])
+ ff(['-threads',1,'-i',src,'-map','0:v:0','-an','-c','copy','-f','segment','-segment_times',','.join(f'{n/30:.9f}' for n in cuts),'-segment_time_delta','0.016666667','-reset_timestamps',1,'-segment_format_options','video_track_timescale=15360',folder/'original_%02d.mp4'])
  parts=[];counts=[]
  for i,g in enumerate(groups):
   if g['changed']:
@@ -26,7 +26,7 @@ def assemble(lang,scale):
   else:
    p=folder/f'original_{i:02d}.mp4';assert int(next(x for x in probe(p)['streams'] if x['codec_type']=='video')['nb_frames'])==g['end']-g['start'];parts.append(p);counts.append(g['end']-g['start'])
  lst=folder/'final.ffconcat';concat(lst,parts,counts)
- ff(['-f','concat','-safe',0,'-i',lst,'-i',BASE/lang/f'deliverables/EP014_audio_{lang}.m4a','-map','0:v:0','-map','1:a:0','-c','copy','-bsf:v','setts=duration=512','-video_track_timescale',15360,'-movie_timescale',48000,'-metadata:s:a:0','language='+('eng' if lang=='en' else 'jpn'),'-movflags','+faststart',out])
+ ff(['-f','concat','-safe',0,'-i',lst,'-i',BASE/lang/f'deliverables/EP014_audio_{lang}.m4a','-map','0:v:0','-map','1:a:0','-c','copy','-bsf:v','setts=pts=PTS:dts=DTS:duration=512','-video_track_timescale',15360,'-movie_timescale',48000,'-metadata:s:a:0','language='+('eng' if lang=='en' else 'jpn'),'-movflags','+faststart',out])
  save(ROOT/lang/f'records/assembly_v02{suffix}.json',dict(method='Smart replacement at IDR-aligned group boundaries; unchanged v01 AVC packets preserved; new finite-shot encodes only for eight revised shots',source_sha256=sha(src),output_sha256=sha(out),groups=groups,frames=sum(counts),v01_read_only=True))
  print('ASSEMBLED',lang,scale,flush=True)
 
