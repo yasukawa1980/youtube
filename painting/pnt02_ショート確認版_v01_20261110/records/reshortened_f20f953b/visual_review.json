@@ -1,0 +1,34 @@
+{
+  "passed": false,
+  "status": "stopped_on_visual_crop_problem",
+  "request_commit": "f20f953b",
+  "visual_manifest_sha256": "6f6584905c804d781fa917ba0af77060e126f667e654c59d6260f2d62a78bb9a",
+  "issues": [
+    {
+      "asset": "V1_flag",
+      "box": [
+        1350,
+        430,
+        2581,
+        1513
+      ],
+      "finding": "旗竿の槍状の先端が、指定範囲の上端で切れる。1.00倍時点ですでに範囲外。"
+    },
+    {
+      "asset": "V3_steering",
+      "box": [
+        2483,
+        620,
+        3983,
+        1939
+      ],
+      "finding": "舵を握る下側の手の先が、指定範囲の下端で切れる。1.04倍の寄りでさらに欠け、字幕板も手元に重なる。"
+    }
+  ],
+  "numeric_geometry_passed": true,
+  "video_rendered": false,
+  "draft_release_created": false,
+  "youtube_posted": false,
+  "human_full_listening": false,
+  "next_requirement": "旗先端・帽子・舵を握る手を収めた範囲の確定。範囲変更後は全図換算の重なり・原寸倍率・字幕との重なりを再検証。"
+}

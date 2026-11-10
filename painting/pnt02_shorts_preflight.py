@@ -24,7 +24,9 @@ MAIN = Path('/Volumes/ESD-02/新チャンネル/PNT02_WashingtonCrossing/確認�
 MEDIA = MAIN.parent/'素材'
 MODELS = Path('/Users/ryo/Desktop/BGM/_共通/音声モデル/Kokoro82M_v1')
 REQUEST = 'painting/pnt02_ショート制作依頼_20261110.md'
-REQUEST_COMMIT = 'd727ace9'
+REQUEST_COMMIT = 'f20f953b'
+PREVIOUS_REQUEST_COMMIT = 'd727ace9'
+ARCHIVE = ROOT/'history/6503881e_shortened_stop'
 REGIONS = {
     'V1_flag': ('D2', 'DP245005.jpg', [1350, 430, 2581, 1513]),
     'V3_steering': ('D3', 'DP258218.jpg', [2483, 620, 3983, 1939]),
@@ -52,9 +54,9 @@ def prepare():
     request = subprocess.check_output(['git', 'show', f'{REQUEST_COMMIT}:{REQUEST}'], cwd=REPO)
     target = ROOT/'records/request.md'
     if target.exists() and target.read_bytes() != request:
-        previous = subprocess.check_output(['git', 'show', f'c03a213d:{REQUEST}'], cwd=REPO)
+        previous = subprocess.check_output(['git', 'show', f'{PREVIOUS_REQUEST_COMMIT}:{REQUEST}'], cwd=REPO)
         assert target.read_bytes() == previous, 'STOP: unexpected existing request'
-        archive = ROOT/'history/74dfc631_initial_stop'
+        archive = ARCHIVE
         manifest = []
         for folder in ['audio', 'records']:
             for old in sorted((ROOT/folder).glob('*')):
@@ -67,7 +69,7 @@ def prepare():
                 else:
                     shutil.copy2(old, dest)
                 manifest.append(dict(path=str(old.relative_to(ROOT)), sha256=sha(dest), bytes=dest.stat().st_size))
-        save(archive/'manifest.json', dict(previous_stop='74dfc631', files=manifest))
+        save(archive/'manifest.json', dict(previous_stop='6503881e', files=manifest))
     target.write_bytes(request)
 
 
@@ -144,7 +146,7 @@ def narration():
         timing = ROOT/f'records/{sid}_phoneme_timings.json'
         reuse = path.exists() and stamp.exists() and timing.exists() and json.loads(stamp.read_text()) == cfg
         if path.exists() and not reuse:
-            archived = ROOT/'history/74dfc631_initial_stop'/path.relative_to(ROOT)
+            archived = ARCHIVE/path.relative_to(ROOT)
             assert archived.exists() and sha(archived) == sha(path), 'STOP: prior audio not archived'
         if reuse:
             audio, sr = sf.read(path, dtype='float32')
@@ -163,6 +165,7 @@ def narration():
                    native_audio_duration=len(audio)/sr, voice_onset_seconds=int(active[0])*.01,
                    last_voice_activity_seconds=min(len(audio), (int(active[-1])+1)*240)/sr,
                    cta_seconds=2.5, planned_frames=frames, planned_duration_seconds=frames/30,
+                   frames=frames, final_duration_seconds=frames/30,
                    within_21_5_seconds=len(audio)/sr <= 21.5,
                    within_24_seconds=frames <= 720)
         rows.append(row)
