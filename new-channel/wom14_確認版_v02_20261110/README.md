@@ -1,19 +1,22 @@
-# 第14話「鬼」確認版v02（通常版3本を先行共有）
+# 第14話「鬼」確認版v02
 
-[非公開Draft Release](https://github.com/yasukawa1980/youtube/releases/tag/untagged-7fdea0a3651470accaea)（ID **439832736**）。v01 Release439388240を保全。
+[非公開Draft Release](https://github.com/yasukawa1980/youtube/releases/tag/untagged-7fdea0a3651470accaea)（ID `439832736`）。v01（439388240）は保全。
 
-[制作結果・検品結果・残る2点](../wom14_制作結果_v02_20261110.md)。英日1080pと英語4Kは完成・検証済み。字幕入り確認版と最終ZIPは本人回答後。
+[制作結果](../wom14_制作結果_v02_20261110.md)。英日1080p、英語4K、字幕入り英日、音声・字幕ZIP、サムネ・投稿情報ZIP、QA ZIP。
 
 |添付|asset ID|バイト|SHA-256|
 |---|---:|---:|---|
 |EP014_Oni_en_v02_1080p30.mp4|729632248|81548631|`b0dccdd21ed11855e76e1b8b8c3f886b414b31f4d5c62349196247d681428b68`|
 |EP014_Oni_en_v02_2160p30.mp4|729632254|198576503|`981aa4b7a63bf2631014ec683a9d5a1bdb358d124ac37f6751a1e7af4ba380d0`|
+|EP014_Oni_en_v02_subtitled_review_1080p30.mp4|729686506|60589710|`682d3b0264ec5244ba1341f85171949e92377a14ffb580711aa2fb26deb085cc`|
 |EP014_Oni_ja_v02_1080p30.mp4|729632243|83223190|`1167db3b3354ecf26e0c61b6c53fdfbc901c652df518262d603bd71fc359d7e7`|
+|EP014_Oni_ja_v02_subtitled_review_1080p30.mp4|729686503|61217754|`906bd023f52a8f72e7324d04fe151b4e080ef444493785b4424b9ff8b9e14ebf`|
+|EP014_QA_records_v02.zip|729686862|20655558|`b04261296afab535e90db69904589e44bc7e7271c25666bba72d36bd82ede30f`|
+|EP014_audio_and_subtitles_v02.zip|729686501|271721673|`4e8757a0c3b1ad67a6d91f27002c5ffa9b5ec4116ae760b9d982d0b611b3acff`|
+|EP014_thumbnails_and_metadata_v02.zip|729686922|627790|`3d97b72df85d8818ca20af3e08daa8a19d159c317d760b80aafa38c1ecc4cf4e`|
 
-取得：`gh api -H 'Accept: application/octet-stream' repos/yasukawa1980/youtube/releases/assets/ASSET_ID > OUTPUT`。全3本をRESTで全量再取得して照合済み。匿名アクセス404。
+取得：`gh api -H 'Accept: application/octet-stream' repos/yasukawa1980/youtube/releases/assets/ASSET_ID > OUTPUT`。Release ID一覧：`gh api repos/yasukawa1980/youtube/releases/439832736`。
 
-通常3本の未修正23ショットは全フレーム画素一致。音声・SRT・時間割不変。R10-27は原寸1.0倍で一部の筆画44pxのため55px未達。字幕入り確認版の再圧縮差とR10の優先順位が回答待ち。
+音声・字幕ZIPはv01と完全に同じバイト列。通常3本の未修正全フレーム画素一致の台帳はQA ZIPの `frame_hashes/`。比較画像は左v01、右v02。
 
-画像の見方：`compare_*_pair.jpg` は左v01・右v02の実動画比較。`continuous_*` は最終動画の全31ショット一覧。`v02_*_sheet.jpg` は構図プレビュー。サムネ比較は `thumbnail_before_after_v02.jpg`。R10の比較用1.25倍案は `R10_native_limit_options.jpg`（未採用）。
-
-SSD保存先：`/Volumes/ESD-02/新チャンネル/EP014_Oni/確認版_v02_20261110`。
+SSD：`/Volumes/ESD-02/新チャンネル/EP014_Oni/確認版_v02_20261110`。公開・予約はしていない。

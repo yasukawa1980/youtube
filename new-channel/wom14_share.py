@@ -53,6 +53,8 @@ def main():
     body=('Quiet Origins 第14話「鬼」。承認済み台本v02。英日1080p本編と字幕入り確認版の4本を先行格納。英語4K・音声等のZIP・最終検品記録は作成中。非公開・本人試聴とClaude確認用。' if a.partial_1080 else 'Quiet Origins 第14話「鬼」。承認済み台本v02。英日1080p本編、英語原寸素材からの4K版、字幕入り英日確認版、音声・字幕・サムネ2案と検品記録。非公開・本人試聴とClaude確認待ち。')
     if a.partial_normal:
         body='Quiet Origins 第14話「鬼」映像修正v02。通常英日1080pと英語4Kの3本を先行格納。各23未修正ショットの全フレーム画素一致、音声・SRT・時間割一致を検証済み。字幕入り版は再圧縮差の扱いの本人回答待ち。R10-27は原寸1.0倍上限で一部の墨画44px（55px未達）。v01 Release439388240を保全。非公開。'
+    if VERSION=='v02' and not (a.partial_1080 or a.partial_normal):
+        body='Quiet Origins 第14話「鬼」映像修正v02。通常英日1080p・英語4K・字幕入り英日版の動画5本とZIP3件。通常3本の各23未修正ショットは全フレーム画素一致。全5本の音声・SRT・時間割を維持。本人回答で字幕入り版のみ再圧縮差を許容し、O02-AとR10-27は原寸1.0倍を優先（R10の一部筆画44pxで55px未達）。v01 Release439388240を保全。非公開・本人試聴とClaude確認用。'
     if r is None:
         r=api(['--method','POST',f'repos/{REPO}/releases','--input','-'],{
             'tag_name':TAG,'target_commitish':'bgm/production',

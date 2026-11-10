@@ -1,15 +1,14 @@
 {
-  "reviewed": false,
+  "reviewed": true,
   "completed": [
     "en_1080",
     "thumbnails",
     "ja_1080",
-    "en_4k"
-  ],
-  "pending": [
+    "en_4k",
     "en_subtitled",
     "ja_subtitled"
   ],
+  "pending": [],
   "en_1080": {
     "all_31_shot_first_middle_last": true,
     "source_excerpt_boundaries_checked": true,
@@ -30,5 +29,23 @@
     "all_31_shot_first_middle_last": true,
     "source_excerpt_boundaries_checked": true,
     "sha256": "981aa4b7a63bf2631014ec683a9d5a1bdb358d124ac37f6751a1e7af4ba380d0"
+  },
+  "en_subtitled": {
+    "sha256": "682d3b0264ec5244ba1341f85171949e92377a14ffb580711aa2fb26deb085cc",
+    "all_8_modified_shots_checked": true,
+    "subtitle_overlap": false,
+    "sheets": [
+      "subtitle_en_sheet_01.jpg",
+      "subtitle_en_sheet_02.jpg"
+    ]
+  },
+  "ja_subtitled": {
+    "sha256": "906bd023f52a8f72e7324d04fe151b4e080ef444493785b4424b9ff8b9e14ebf",
+    "all_8_modified_shots_checked": true,
+    "subtitle_overlap": false,
+    "sheets": [
+      "subtitle_ja_sheet_01.jpg",
+      "subtitle_ja_sheet_02.jpg"
+    ]
   }
 }
