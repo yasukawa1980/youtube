@@ -1,0 +1,33 @@
+URL: https://www.youtube.com/watch?v=VRTPpQOmzJ4
+  - heading "コメント" [level=2]:
+    - generic "コメント"
+  - button "コメントを並べ替える":
+  - button "閉じる":
+  - img "Quiet Origins"
+  - textbox
+  - button "@QuietOriginsJP"
+  - generic: "@QuietOriginsJP さんによって固定されています"
+  - heading [level=3]
+  - link "@QuietOriginsJP":
+    - /url: /@QuietOriginsJP
+    - generic "@QuietOriginsJP"
+  - link "38 秒前":
+    - /url: /watch?v=VRTPpQOmzJ4&lc=UgwFDnzQVv1456VX6Kh4AaABAg
+  - generic: New origin stories every few days. Subscribe so you don't miss the next one.
+  - button "他 0 人もこのコメントを高く評価しました":
+  - tooltip "tooltip"
+  - button "このコメントを低く評価":
+  - tooltip "tooltip"
+  - button "ハート":
+  - tooltip "tooltip"
+  - button "返信":
+    - generic: 返信
+  - button "操作メニュー":
+  - complementary "サイドバー":
+    - tablist:
+      - tab "説明、キーボード ショートカット（Shift + 1）":
+      - generic: 概要
+      - tab "コメント、キーボード ショートカット（Shift + 2）" [selected]:
+      - generic: コメント
+      - tab "質問する、キーボード ショートカット（Shift + 3）":
+      - generic: 質問する
