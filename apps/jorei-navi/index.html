@@ -97,10 +97,10 @@ footer { color: var(--muted); font-size: .85rem; }
       <label id="lbl-max">いちばん大きい看板（㎡）
         <input type="number" id="in-max" min="0" step="0.1" value="6" inputmode="decimal">
       </label>
-      <label id="lbl-zone">地域
+      <label id="lbl-zone">地域（東京都の判定だけに使います）
         <select id="in-zone">
-          <option value="normal">住宅地など（一般）</option>
-          <option value="commercial">商業地域など</option>
+          <option value="normal">住居専用地域・風致地区など</option>
+          <option value="commercial">それ以外（住居地域・商業地域・工業地域など）</option>
         </select>
       </label>
       <label id="lbl-floors">建物の階数

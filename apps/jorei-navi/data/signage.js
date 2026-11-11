@@ -11,10 +11,10 @@ window.JOREI_DATA.signage = {
       id: "tokyo", name: "東京都", pref: "東京都", region: "関東",
       law: "東京都屋外広告物条例",
       scope: "都内の区市町村。八王子市は市独自の条例。町田市は令和6年10月1日から市の条例に移行しました。",
-      selfUse: { mode: "total", limit: 5, limitCommercial: 10, note: "自家用広告物は合計5㎡（商業地域等は10㎡）を超えると許可対象。「商業地域等」の具体的な範囲は未確認。" },
+      selfUse: { mode: "total", limit: 5, limitCommercial: 10, note: "自家用広告物は合計5㎡を超えると許可対象。ただし第一種・第二種住居地域、準住居地域、近隣商業地域、商業地域、準工業地域、工業地域などでは合計10㎡まで（施行規則 別表第二）。低層・中高層住居専用地域、田園住居地域、風致地区、第一種文教地区などは5㎡。" },
       items: [
         { k: "許可期間", v: "広告板等は原則2年。引き続き表示する場合は継続申請が必要。", src: "https://www.toshiseibi.metro.tokyo.lg.jp/tamakenchikushidou/shigoto/okugaikoukoku" },
-        { k: "自家用広告物の扱い", v: "表示面積の合計が5㎡（商業地域等では10㎡）を超えると許可対象。（未確認：「商業地域等」の具体的な範囲）", src: "https://www.city.setagaya.lg.jp/documents/3783/okugairule.pdf" },
+        { k: "自家用広告物の扱い", v: "表示面積の合計が5㎡（商業地域等では10㎡）を超えると許可対象。10㎡になるのは、第二種文教地区、第一種・第二種住居地域、準住居地域、近隣商業地域、商業地域、準工業地域、工業地域、工業専用地域、用途地域の指定のない地域など。5㎡は低層・中高層住居専用地域、田園住居地域、風致地区、特別緑地保全地区、自然公園の特別地域、第一種文教地区など。屋上に付けない・ネオン管を使わないなど、地域ごとの禁止事項もある。", src: "https://www.reiki.metro.tokyo.lg.jp/reiki/reiki_honbun/g101RG00001184.html" },
         { k: "手数料（多摩地域・都の許可分）", v: "広告塔・広告板：5㎡までごとに3,220円。小型広告板：1枚400円。はり紙等：50枚までごとに2,250円。広告旗・立看板等：1本（枚）450円。広告幕：1張990円。アドバルーン：1個2,850円。（未確認：23区の手数料が同じか）", src: "https://www.toshiseibi.metro.tokyo.lg.jp/tamakenchikushidou/shigoto/okugaikoukoku" },
         { k: "窓口", v: "区部は各区、多摩地域は市町または都の多摩建築指導事務所（場所・広告物の種類で異なる）。", src: "https://www.toshiseibi.metro.tokyo.lg.jp/ryokuchi_keikan/kekan_kese/koukoku/madoguchi-ichiran" }
       ],
@@ -47,7 +47,7 @@ window.JOREI_DATA.signage = {
       selfUse: { mode: "total", limit: 10, note: "表示面積の合計10㎡以下。ただし禁止地域等では合計5㎡以下で、赤色ネオン・点滅照明・回転灯を使わないこと（条例第7条、施行細則第7条）。" },
       items: [
         { k: "自家用広告物の扱い", v: "表示面積の合計が10㎡以下なら許可不要。禁止地域等（条例第6条第1項の地域）では合計5㎡以下で、赤色ネオンサイン・点滅する電気照明・回転灯を使わないこと。", src: "https://www.city.nagoya.jp/_res/projects/default_project/_page_/001/017/988/20241001_okugaikoukokubutsujyoureisekousaisoku.pdf" },
-        { k: "許可期間", v: "広告板・広告塔・建物への直接表示は3年以内、電柱広告は3年以内、立看板・広告旗・広告幕・アドバルーン・はり紙は3か月以内。（未確認：表の「（1年以内）」という括弧書きの意味）", src: "https://www.city.nagoya.jp/jigyou/toshikeikaku/1017988/1017996/1018006.html" },
+        { k: "許可期間", v: "広告板・広告塔・建物への直接表示は3年以内、電柱広告は3年以内、立看板・広告旗・広告幕・アドバルーン・はり紙は3か月以内（施行細則第4条）。広告板・広告塔などは、許可期間を1年以下にすると手数料が安くなる（例：面積5㎡ごとに1,300円→600円、電光表示ありは1,900円→1,200円。施行細則 別表第2の備考）。", src: "https://www.city.nagoya.jp/_res/projects/default_project/_page_/001/017/988/20241001_okugaikoukokubutsujyoureisekousaisoku.pdf" },
         { k: "手数料", v: "広告板・広告塔：面積5㎡ごとに1,300円（電光表示装置等は1,900円）。立看板・広告旗：1個150円。広告幕：1個500円。アドバルーン：1個700円。電柱広告：1個300円。はり紙等：100枚400円。", src: "https://www.city.nagoya.jp/jigyou/toshikeikaku/1017988/1017996/1018006.html" },
         { k: "安全点検", v: "1年以内に除却するものを除くすべての屋外広告物に、毎年1回の安全点検が義務。条件に当てはまる看板は3年に1度、有資格者による点検も必要。継続許可の申請時に点検結果を報告。", src: "https://www.city.nagoya.jp/jigyou/toshikeikaku/1017988/1018003.html" }
       ],
