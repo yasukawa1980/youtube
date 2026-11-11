@@ -16,7 +16,7 @@ window.JOREI_DATA.signage = {
         { k: "許可期間", v: "広告板等は原則2年。引き続き表示する場合は継続申請が必要。", src: "https://www.toshiseibi.metro.tokyo.lg.jp/tamakenchikushidou/shigoto/okugaikoukoku" },
         { k: "自家用広告物の扱い", v: "表示面積の合計が5㎡（商業地域等では10㎡）を超えると許可対象。10㎡になるのは、第二種文教地区、第一種・第二種住居地域、準住居地域、近隣商業地域、商業地域、準工業地域、工業地域、工業専用地域、用途地域の指定のない地域など。5㎡は低層・中高層住居専用地域、田園住居地域、風致地区、特別緑地保全地区、自然公園の特別地域、第一種文教地区など。屋上に付けない・ネオン管を使わないなど、地域ごとの禁止事項もある。", src: "https://www.reiki.metro.tokyo.lg.jp/reiki/reiki_honbun/g101RG00001184.html" },
         { k: "手数料（多摩地域・都の許可分）", v: "広告塔・広告板：5㎡までごとに3,220円。小型広告板：1枚400円。はり紙等：50枚までごとに2,250円。広告旗・立看板等：1本（枚）450円。広告幕：1張990円。アドバルーン：1個2,850円。", src: "https://www.toshiseibi.metro.tokyo.lg.jp/tamakenchikushidou/shigoto/okugaikoukoku" },
-        { k: "手数料（23区）", v: "区ごとの手数料条例で決まる。練馬区・千代田区は都と同じ額（広告塔・広告板は5㎡までごとに3,220円、小型広告板1枚400円、はり紙等50枚までごとに2,250円）。千代田区は広告塔・広告板の許可期間を2年以内としている。（未確認：残り21区の額）", src: "https://www1.g-reiki.net/nerima/reiki_honbun/a100RG00000674.html" },
+        { k: "手数料（23区）", v: "区ごとに区が定める（都のしおりにも「区・市・町で手数料を定めているため、上記の金額と異なる場合があります」とある）。千代田・練馬・北・墨田・足立・目黒の6区は、区の公式資料で都と同じ額（広告塔・広告板は5㎡までごとに3,220円）を確認。北区・千代田区は広告塔・広告板の許可期間を2年以内としている。（未確認：ほかの17区の額。区の窓口で確認を）", src: "https://www.city.kita.lg.jp/_res/projects/default_project/_page_/001/009/691/okugaikoukokubutsutesuuryougakuoyobikyokakikanitiranhyou.pdf" },
         { k: "窓口", v: "区部は各区、多摩地域は市町または都の多摩建築指導事務所（場所・広告物の種類で異なる）。", src: "https://www.toshiseibi.metro.tokyo.lg.jp/ryokuchi_keikan/kekan_kese/koukoku/madoguchi-ichiran" }
       ],
       links: [
