@@ -1,0 +1,55 @@
+# Echoes of Old Japan / 16 —— 和の聖夜（クリスマスの賛美歌16曲を箏・尺八・笙で）
+#
+# ★★音は bgmkit の外で作っている。 select / order / audio は使わない。
+#   実装は bgm/EOJ16_聖夜/album.py、構成は同フォルダの 構成.md、設計は bgm/EOJ16_テーマ設計.md。
+#   「きよしこの夜」で始まり、同じ曲（いちばん遅く）に還る16曲・約2時間。
+#
+# ★浄書は Mutopia。使った版はすべて PD（bgm/EOJ16_聖夜/source/一覧.tsv）。音高と音価だけを使う。
+# ★IRO24（クリスマスジャズ）とは別チャンネル・別の音。ツリー・サンタ・赤緑は出さない。
+# ★★画題は「冬の島の入り江と小さな木造教会」（案A・11/11本人決定）。特定の実在の建物にはしない。
+#   雪は EOJ13 で使ったので 01・02 は雪なし、03 で降り始め、04 で積もった朝。
+# ★作業場は Mac 本体（11/11 空き78GB。EPB 12GB・ESD-02 は書き出しが遅い）。完成物は ESD-02・EPB へ写す。
+
+genre: echoesofoldjapan
+volume: 16
+slug: eoj16
+dir: "/Users/ryo/Desktop/BGM/5_Echoes of Old Japan/EOJ16_素材_聖夜"
+
+runtime: "2 HOURS"   # ★manifest の total を見て直す
+title_lines: [静かな聖夜に, きよしこの夜]
+thumb_sub: 和の音で
+thumb_layout:
+  sub: 680
+thumb:
+  title_family: jp
+  sub_family: jp
+  sizes: {sub: 64}
+  font_index: {sub: 0}
+  tracking: {sub: 10}
+  title_fit: 760
+  tracking:
+    brand: 4
+
+cta: true
+
+scenes:
+- 01 宵（曲01-04。日没直後、教会の窓に灯がともる。雪なし）
+- 02 夜（曲05-08。★いちばん暗い。月なし・星の光と窓の灯だけ。雪なし）
+- 03 聖夜（曲09-12。★見せ場。雪が降り始め、窓と扉の金色の光）
+- 04 朝（曲13-16。雪の積もったクリスマスの朝。いちばん明るい）
+- 05 サムネ専用（本編には使わない。左三分の一が暗い岬と海）
+
+# ★プロンプトの全文は bgm/EOJ16_聖夜_画像プロンプト/
+images:
+- eoj16_01.png            # 場面1 宵
+- eoj16_02.png            # 場面2 夜
+- eoj16_03.png            # 場面3 聖夜
+- eoj16_04.png            # 場面4 朝
+
+background: "/Users/ryo/youtube/bgm/EOJ16_聖夜/画像/eoj16_05.png"
+thumb_out: "/Users/ryo/youtube/bgm/EOJ16_聖夜/eoj16_サムネ_16x9.png"
+
+video:
+  segmented: true
+
+music_bed_source: "/Users/ryo/Desktop/BGM/5_Echoes of Old Japan/EOJ16_素材_聖夜/_work/music_bed.wav"
