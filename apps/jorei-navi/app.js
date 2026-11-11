@@ -15,13 +15,17 @@
   }
   function pill(kind, text) { return '<span class="pill ' + kind + '">' + esc(text) + "</span>"; }
 
-  // 看板：自家用広告物の合計面積から、許可が要りそうかの目安を返す
-  function judgeSignage(entry, area, zone) {
+  // 看板：自家用広告物の面積から、許可が要りそうかの目安を返す
+  // mode が "each" の自治体は、合計ではなく「いちばん大きい看板」の面積で判断する
+  function judgeSignage(entry, area, maxOne, zone) {
     var s = entry.selfUse || {};
     if (s.limit == null) return { kind: "warn", label: "未確認", note: s.note };
+    var each = s.mode === "each";
     var limit = zone === "commercial" && s.limitCommercial ? s.limitCommercial : s.limit;
-    if (area > limit) return { kind: "ng", label: "許可が必要", note: "目安の" + limit + "㎡を超えています。" + s.note };
-    return { kind: "ok", label: "許可不要の可能性", note: "目安は" + limit + "㎡以下。" + s.note };
+    var value = each ? maxOne : area;
+    var what = each ? "いちばん大きい看板が" : "合計が";
+    if (value > limit) return { kind: "ng", label: "許可が必要", note: what + "目安の" + limit + "㎡を超えています。" + s.note };
+    return { kind: "ok", label: "許可不要の可能性", note: what + "目安の" + limit + "㎡以下。" + s.note };
   }
 
   // 給水：建物の階数から、選べそうな給水方式の目安を返す
@@ -38,18 +42,23 @@
     var isSign = state.tab === "signage";
     $("check-title").textContent = isSign ? "かんたん判定：自分の店の看板に許可は要る？" : "かんたん判定：何階建てまで直結で給水できる？";
     $("check-hint").textContent = isSign
-      ? "自分の店や事務所の敷地に出す看板（自家用広告物）の合計面積を入れると、自治体ごとの目安を表示します。"
+      ? "自分の店や事務所に出す看板（自家用広告物）の合計面積と、いちばん大きい看板の面積を入れると、自治体ごとの目安を表示します。合計で判断する自治体と、1つずつで判断する自治体があります。"
       : "建物の階数を入れると、受水槽なしで給水できそうかを水道局ごとに表示します。";
     $("lbl-area").hidden = !isSign;
+    $("lbl-max").hidden = !isSign;
     $("lbl-zone").hidden = !isSign;
     $("lbl-floors").hidden = isSign;
 
     var area = parseFloat($("in-area").value);
+    var maxOne = parseFloat($("in-max").value);
     var floors = parseInt($("in-floors").value, 10);
     var zone = $("in-zone").value;
-    var bad = isSign ? !(area >= 0) : !(floors >= 1);
+    var bad = isSign ? !(area >= 0 && maxOne >= 0) : !(floors >= 1);
+    var mismatch = isSign && !bad && maxOne > area;
     var rows = d.entries.map(function (e) {
-      var r = bad ? { kind: "warn", label: "数値を入力", note: "" } : isSign ? judgeSignage(e, area, zone) : judgeWater(e, floors);
+      var r = bad ? { kind: "warn", label: "数値を入力", note: "" }
+        : mismatch ? { kind: "warn", label: "入力を確認", note: "いちばん大きい看板の面積が、合計面積より大きくなっています。" }
+        : isSign ? judgeSignage(e, area, maxOne, zone) : judgeWater(e, floors);
       return "<tr><td>" + esc(e.name) + "</td><td>" + pill(r.kind, r.label) + "</td><td>" + esc(r.note || "") + "</td></tr>";
     });
     $("check-table").innerHTML =

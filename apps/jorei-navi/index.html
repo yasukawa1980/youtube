@@ -92,7 +92,10 @@ footer { color: var(--muted); font-size: .85rem; }
     <p class="hint" id="check-hint"></p>
     <form class="form" id="check-form">
       <label id="lbl-area">看板の合計面積（㎡）
-        <input type="number" id="in-area" min="0" step="0.1" value="6" inputmode="decimal">
+        <input type="number" id="in-area" min="0" step="0.1" value="9" inputmode="decimal">
+      </label>
+      <label id="lbl-max">いちばん大きい看板（㎡）
+        <input type="number" id="in-max" min="0" step="0.1" value="6" inputmode="decimal">
       </label>
       <label id="lbl-zone">地域
         <select id="in-zone">
