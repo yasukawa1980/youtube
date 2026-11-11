@@ -29,10 +29,12 @@
   }
 
   // 給水：建物の階数から、選べそうな給水方式の目安を返す
+  // sure：条件なしで直結直圧の上限、cond：水圧などの条件つきで直結直圧の上限
   function judgeWater(entry, floors) {
     var f = entry.floors || {};
-    if (f.directMax == null) return { kind: "warn", label: "未確認", note: f.note };
-    if (floors <= f.directMax) return { kind: "ok", label: "直結直圧の対象になり得る", note: f.note };
+    if (f.sure == null && f.cond == null) return { kind: "warn", label: "未確認", note: f.note };
+    if (f.sure != null && floors <= f.sure) return { kind: "ok", label: "直結直圧の対象になり得る", note: f.note };
+    if (f.cond != null && floors <= f.cond) return { kind: "warn", label: "条件しだいで直結直圧", note: f.note };
     if (f.boosterMax != null && floors > f.boosterMax) return { kind: "ng", label: "受水槽式などを検討", note: f.note };
     return { kind: "warn", label: "直結増圧などを検討", note: f.note };
   }
@@ -43,7 +45,7 @@
     $("check-title").textContent = isSign ? "かんたん判定：自分の店の看板に許可は要る？" : "かんたん判定：何階建てまで直結で給水できる？";
     $("check-hint").textContent = isSign
       ? "自分の店や事務所に出す看板（自家用広告物）の合計面積と、いちばん大きい看板の面積を入れると、自治体ごとの目安を表示します。合計で判断する自治体と、1つずつで判断する自治体があります。"
-      : "建物の階数を入れると、受水槽なしで給水できそうかを水道局ごとに表示します。";
+      : "建物の階数を入れると、受水槽なしで給水できそうかを水道局ごとに表示します。多くの水道局は、配水管の水圧によって直結できる階数が変わります。";
     $("lbl-area").hidden = !isSign;
     $("lbl-max").hidden = !isSign;
     $("lbl-zone").hidden = !isSign;
