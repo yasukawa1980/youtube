@@ -43,11 +43,11 @@ window.JOREI_DATA.water = {
       id: "kawasaki", name: "川崎市上下水道局", pref: "神奈川県", region: "関東",
       law: "給水装置工事施行基準（令和8年版）",
       scope: "川崎市上下水道局の給水区域。",
-      floors: { sure: 2, cond: 6, boosterMax: null, note: "直結直圧は地上2階までが原則。配水管の水圧が足りる地域では3階直結直圧、さらに水圧の高い地域では「特例直結直圧」で4〜6階程度まで。直結増圧の階数の上限は、施行基準の該当の節に書かれていません。" },
+      floors: { sure: 2, cond: 6, boosterMax: null, note: "直結直圧は地上2階までが原則。配水管の水圧が足りる地域では3階直結直圧、さらに水圧の高い地域では「特例直結直圧」で4〜6階程度まで。直結増圧に階数の上限はありません（平成17年8月に「10階程度」の制限を撤廃）。" },
       items: [
         { k: "直結直圧で給水できる階数", v: "地上2階までが原則。3階直結直圧は、配水管の最小動水圧0.20MPa以上（専用住宅は0.15MPa以上）の地域。", src: "https://www.city.kawasaki.jp/800/cmsfiles/contents/0000083/83335/3_R8_sekoukijyun.pdf" },
         { k: "特例直結直圧", v: "直結増圧の対象でも増圧ポンプの設置を猶予する方式。最小動水圧0.30MPa以上で4階程度、0.35MPa以上で5階程度、0.40MPa以上で6階程度まで（目安）。", src: "https://www.city.kawasaki.jp/800/cmsfiles/contents/0000083/83335/3_R8_sekoukijyun.pdf" },
-        { k: "直結増圧", v: "最小動水圧0.20MPa以上の地域。階数の上限は施行基準の該当の節に記載なし（未確認）。", src: "https://www.city.kawasaki.jp/800/cmsfiles/contents/0000083/83335/3_R8_sekoukijyun.pdf" }
+        { k: "直結増圧", v: "最小動水圧0.20MPa以上の地域。階数の上限はなし。平成17年8月に、それまでの「10階程度」から階数制限を撤廃（川崎市水道百年史）。現行の取扱要領にも階数の定めはない。市の案内ページでは「建築物の規模に一定の制限があります」とだけ書かれている。", src: "https://www.city.kawasaki.jp/800/cmsfiles/contents/0000139/139012/pageindices/index603.html" }
       ],
       links: [
         { t: "川崎市 給水装置工事施行基準", u: "https://www.city.kawasaki.jp/800/cmsfiles/contents/0000083/83335/3_R8_sekoukijyun.pdf" },
@@ -103,16 +103,17 @@ window.JOREI_DATA.water = {
     },
     {
       id: "hiroshima", name: "広島市水道局", pref: "広島県", region: "中国・四国",
-      law: "給水装置等の設計施工事務取扱要綱 第2編 中高層建物直結給水施行基準",
+      law: "給水装置等の設計施工事務取扱要綱（第1編 令和8年10月改正、第2編 中高層建物直結給水施行基準）",
       scope: "広島市水道局の給水区域。",
-      floors: { sure: null, cond: 5, boosterMax: null, note: "4階以上へ直結直圧で給水できるのは、配水管の最小動水圧が0.30MPa以上の区域（案内資料の図では5階程度まで）。3階までの扱いは原文で未確認です。直結増圧は案内資料の図で10階程度、基準に上限の数字はありません。" },
+      floors: { sure: 3, cond: 5, boosterMax: null, note: "直結直圧は原則3階まで（いちばん高い蛇口が7.5m以下）。4階以上へ直結直圧で給水できるのは、配水管の最小動水圧が0.30MPa以上の区域（案内資料の図では5階程度まで）。直結増圧は案内資料の図で10階程度、基準に上限の数字はありません。" },
       items: [
         { k: "直結直圧（4階以上）", v: "配水管の最小動水圧0.30MPa以上の区域。満たさない場合も、水理計算で残存水圧を確保できれば可。", src: "https://www.water.city.hiroshima.lg.jp/uploaded/attachment/7796.pdf" },
         { k: "直結増圧", v: "配水管の最小動水圧0.20MPa以上の区域。案内資料では「10階程度の建物なら」。", src: "https://www.water.city.hiroshima.lg.jp/uploaded/attachment/7201.pdf" },
         { k: "受水槽式になる建物", v: "入院・手術設備のある病院、ホテル・旅館、大規模レストラン、公衆浴場、有毒薬品を扱う工場など。", src: "https://www.water.city.hiroshima.lg.jp/uploaded/attachment/7796.pdf" },
-        { k: "3階までの直結直圧", v: null, src: "https://www.water.city.hiroshima.lg.jp/soshiki/12/60.html" }
+        { k: "3階までの直結直圧", v: "原則として3階まで（各階の高さ3mが標準、地階を除く）で、いちばん高い蛇口までの高さが7.5m以下の建物。配水管の水圧・水量に支障がない場合に限る。団地や傾斜地で7.5mを超える場合は、水理計算書を出して認められれば可（要綱第1編 第2章第3節）。", src: "https://www.water.city.hiroshima.lg.jp/uploaded/attachment/8382.pdf" }
       ],
       links: [
+        { t: "広島市 要綱 第1編（令和8年10月改正）", u: "https://www.water.city.hiroshima.lg.jp/uploaded/attachment/8382.pdf" },
         { t: "広島市 中高層建物直結給水施行基準", u: "https://www.water.city.hiroshima.lg.jp/uploaded/attachment/7796.pdf" },
         { t: "広島市 直結給水への切替工事（案内）", u: "https://www.water.city.hiroshima.lg.jp/uploaded/attachment/7201.pdf" }
       ]
@@ -121,12 +122,12 @@ window.JOREI_DATA.water = {
       id: "sapporo", name: "札幌市水道局", pref: "北海道", region: "北海道・東北",
       law: "給水装置工事設計施工指針（令和8年4月改訂版）",
       scope: "札幌市水道局の給水区域。",
-      floors: { sure: null, cond: 5, boosterMax: null, note: "直結直圧は5階程度、直結加圧（増圧）は10階程度が標準です。4階以上の直結は中高層建物直結給水技術基準により、事前協議が必要（必要な配水管水圧は4階0.25MPa、5階0.30MPa）。3階までの扱いは、階数を書いた明文が見当たらず未確認です（設計編では1〜3階の直結は図面に表示不要とされ、通常の扱いと読めます）。" },
+      floors: { sure: null, cond: 5, boosterMax: null, note: "直結直圧は5階程度、直結加圧（増圧）は10階程度が標準です。4階以上の直結は中高層建物直結給水技術基準により、事前協議が必要（必要な配水管水圧は4階0.25MPa、5階0.30MPa）。3階までも「何階までなら条件なし」という決まりはなく、水理計算で決まります（標準の配水管水圧0.20MPaで計算し、損失の合計が20m未満なら事前協議は不要）。" },
       items: [
         { k: "直結直圧で給水できる階数", v: "5階程度が標準。4階は配水管水圧0.25MPa、5階は0.30MPaが標準。", src: "https://www.city.sapporo.jp/suido/jigyosya/shitei/documents/6-r8.pdf" },
         { k: "直結加圧（増圧）", v: "10階程度が標準。直列多段加圧方式ではさらに高層も可。", src: "https://www.city.sapporo.jp/suido/jigyosya/shitei/documents/6-r8.pdf" },
         { k: "直結給水の対象外", v: "病院、ホテル、飲食店中心の雑居ビル、理美容院など。", src: "https://www.city.sapporo.jp/suido/jigyosya/shitei/documents/6-r8.pdf" },
-        { k: "3階までの直結直圧", v: null, src: "https://www.city.sapporo.jp/suido/jigyosya/shitei/documents/4-r8.pdf" }
+        { k: "3階までの直結直圧", v: "階数で決める規定はない。配水管水圧は原則0.20MPa（約20m）として水理計算し、給水できるかを確かめる（設計編 6.3）。給水装置全体の損失水頭が20m未満なら事前協議は不要（技術基準 3.2）。直圧と加圧を併用する場合の直圧側は、0.25・0.30MPaの地域で3階まで、0.20MPaの地域で2階まで（技術基準 3.7）。", src: "https://www.city.sapporo.jp/suido/jigyosya/shitei/documents/6-r8.pdf" }
       ],
       links: [
         { t: "札幌市 直結給水方式", u: "https://www.city.sapporo.jp/suido/overview/apartment/chokketsu.html" },
