@@ -1,0 +1,1890 @@
+{
+  "channel_name": "Whispers of Japan",
+  "channel_id": "UCx4mLEohO3XCVxZajUynLzw",
+  "handle": "@WhispersofJapan-22",
+  "limitations": [
+    "丸め表示から正確な件数を推定しない。欠測はnull。",
+    "形式別平均時間から総再生時間や全体への寄与を逆算しない。",
+    "画面の期間末日と公開日表示には日界・反映時差がある可能性。表示を保持し、公開後・48時間・7日・28日の数値を相互補完しない。",
+    "上位表・公開後・48時間・全体ファネルの指標を混同しない。",
+    "動画の形式は形式別画面・過去確認済み分類を使用。分類できないものはnot_classified。平均時間・割合だけで形式を断定しない。"
+  ],
+  "date_jst": "2026-11-12",
+  "status": "completed_with_limitations",
+  "periods": {
+    "7d": {
+      "start": "2026-11-05",
+      "end": "2026-11-11"
+    },
+    "28d": {
+      "start": "2026-10-15",
+      "end": "2026-11-11"
+    }
+  },
+  "source": "ログイン済みChromeのYouTube Studio。主要指標は保存画像を目視し、詳細表はアクセシビリティ表示から取得。",
+  "overview": {
+    "7d": {
+      "views": 766,
+      "watch_time_hours": 17.3,
+      "net_subscribers": 2
+    },
+    "28d": {
+      "views": 9561,
+      "watch_time_hours": 126.3,
+      "net_subscribers": 12
+    },
+    "current_subscribers": 65,
+    "realtime_48h_views": 73,
+    "realtime_top_content": [
+      {
+        "title": "浜千鳥 🌙 和楽器で聴く童謡｜尺八・箏",
+        "views_48h": 14,
+        "video_id": null
+      },
+      {
+        "title": "芥川龍之介『蜘蛛の糸』『トロッコ』『杜子春』🌙 睡眠用朗読｜静かな女性の声とやさしいBGM｜1時間",
+        "views_48h": 11,
+        "video_id": null
+      },
+      {
+        "title": "フォーレの「夢の国」を、尺八で",
+        "views_48h": 6,
+        "video_id": null
+      }
+    ]
+  },
+  "format_metrics": {
+    "7d": {
+      "videos": {
+        "views": 333,
+        "impressions": 4600,
+        "impressions_display": "4600",
+        "ctr_percent": 3.1,
+        "average_view_duration": "4:08",
+        "traffic_percent": {
+          "直接入力または不明": 0.3,
+          "関連動画": 32.1,
+          "再生リスト": 2.1,
+          "YouTube 検索": 15.3,
+          "ブラウジング機能": 45.1,
+          "外部": 0.6,
+          "その他の YouTube 機能": 1.8,
+          "チャンネル ページ": 2.4,
+          "関連のショート動画": 0.3
+        },
+        "watch_time_hours": 15.4,
+        "average_view_percentage": 10.3,
+        "net_subscribers": 2
+      },
+      "live": {
+        "views": 1,
+        "impressions": 5,
+        "impressions_display": "5",
+        "ctr_percent": 0.0,
+        "average_view_duration": "0:10",
+        "traffic_percent": {}
+      },
+      "shorts": {
+        "views": 432,
+        "engaged_views": 91,
+        "likes_net": 4,
+        "net_subscribers": 0,
+        "continued_viewing_percent": 19.7,
+        "swiped_away_percent": null,
+        "traffic_percent": {
+          "YouTube 検索": 19.0,
+          "その他の YouTube 機能": 2.3,
+          "外部": 0.7,
+          "ショート フィード": 78.0,
+          "直接入力または不明": 0.0,
+          "ブラウジング機能": null,
+          "再生リスト": null,
+          "チャンネル ページ": 0.0
+        },
+        "watch_time_hours": 1.9,
+        "average_view_duration": "1:09",
+        "average_view_percentage": 150.5
+      },
+      "views_by_format_card": {
+        "videos": 333,
+        "shorts": 432,
+        "live": 1
+      },
+      "all_traffic_percent": {},
+      "net_subscribers_by_format_card": {}
+    },
+    "28d": {
+      "videos": {
+        "views": 2088,
+        "impressions": null,
+        "impressions_display": "3.2万",
+        "ctr_percent": 2.3,
+        "average_view_duration": "3:25",
+        "traffic_percent": {
+          "ブラウジング機能": 53.4,
+          "関連動画": 30.6,
+          "YouTube 検索": 8.3,
+          "チャンネル ページ": 2.6,
+          "直接入力または不明": 2.1
+        }
+      },
+      "live": {
+        "views": 1641,
+        "impressions": null,
+        "impressions_display": "1.1万",
+        "ctr_percent": 2.2,
+        "average_view_duration": "10:46",
+        "traffic_percent": {
+          "ブラウジング機能": 98.0,
+          "関連動画": 1.1,
+          "直接入力または不明": 0.2,
+          "チャンネル ページ": 0.2,
+          "YouTube 検索": 0.2
+        }
+      },
+      "shorts": {
+        "views": 5832,
+        "engaged_views": 1369,
+        "likes_net": 74,
+        "net_subscribers": 5,
+        "continued_viewing_percent": 22.9,
+        "swiped_away_percent": 77.1,
+        "traffic_percent": {
+          "ショート フィード": 83.8,
+          "YouTube 検索": 11.8,
+          "チャンネル ページ": 2.6,
+          "その他の YouTube 機能": 0.9,
+          "ブラウジング機能": 0.3
+        }
+      },
+      "views_by_format_card": {
+        "videos": 2088,
+        "shorts": 5832,
+        "live": 1641
+      },
+      "all_traffic_percent": {
+        "ショート フィード": 51.1,
+        "ブラウジング機能": 28.7,
+        "YouTube 検索": 9.0,
+        "関連動画": 7.0,
+        "その他": 4.1
+      },
+      "net_subscribers_by_format_card": {
+        "YouTube ショート": 5,
+        "動画": 8,
+        "ライブ配信": 0
+      }
+    }
+  },
+  "latest_content": {
+    "7d": {
+      "title": "6–2Hz Theta to Delta Binaural Beats | River Mist at an Old Ferry — Japanese Ambient | Sleep, 3 Hours",
+      "video_id": null,
+      "elapsed_time_display": "最初の 11 時間 0 分",
+      "views": 1,
+      "average_view_percentage": null,
+      "average_view_duration": "0:00",
+      "ctr_percent": 0,
+      "likes": null,
+      "format": "video",
+      "related_7d_detail": {
+        "title": "6–2Hz Theta to Delta Binaural Beats | River Mist at an Old Ferry — Japanese Ambient | Sleep, 3 Hours",
+        "duration_display": "3:00:01",
+        "format": "video",
+        "average_view_duration": null,
+        "average_view_percentage": null,
+        "views": 1,
+        "views_percent": 0.3,
+        "watch_time_hours": 0.0,
+        "watch_time_percent": 0.0,
+        "net_subscribers": null,
+        "impressions": 7,
+        "ctr_percent": 0,
+        "publish_date_display": null
+      },
+      "decision": "公開後カードと7日動画別表は別集計。"
+    },
+    "28d": {
+      "title": "6–2Hz Theta to Delta Binaural Beats | River Mist at an Old Ferry — Japanese Ambient | Sleep, 3 Hours",
+      "video_id": null,
+      "elapsed_time_display": "最初の 11 時間 0 分",
+      "views": 1,
+      "average_view_percentage": null,
+      "average_view_duration": "0:00",
+      "ctr_percent": 0,
+      "likes": null,
+      "format": "video",
+      "related_7d_detail": {
+        "title": "6–2Hz Theta to Delta Binaural Beats | River Mist at an Old Ferry — Japanese Ambient | Sleep, 3 Hours",
+        "duration_display": "3:00:01",
+        "format": "video",
+        "average_view_duration": null,
+        "average_view_percentage": null,
+        "views": 1,
+        "views_percent": 0.3,
+        "watch_time_hours": 0.0,
+        "watch_time_percent": 0.0,
+        "net_subscribers": null,
+        "impressions": 7,
+        "ctr_percent": 0,
+        "publish_date_display": null
+      },
+      "decision": "公開後カードと7日動画別表は別集計。"
+    }
+  },
+  "raw_sources": [
+    {
+      "file": "content-all-28d.txt",
+      "captured_at_utc": "2026-11-12T12:01:13.103Z",
+      "captured_at_jst": "2026-11-12T21:01:13.103000+09:00",
+      "identity_verified": true,
+      "visible_period": "2026/10/15～2026/11/11",
+      "screenshot": "content-all-28d.jpg"
+    },
+    {
+      "file": "content-all-7d.txt",
+      "captured_at_utc": "2026-11-12T12:01:21.480Z",
+      "captured_at_jst": "2026-11-12T21:01:21.480000+09:00",
+      "identity_verified": true,
+      "visible_period": "2026/11/05～2026/11/11",
+      "screenshot": "content-all-7d.jpg"
+    },
+    {
+      "file": "content-live-28d.txt",
+      "captured_at_utc": "2026-11-12T12:01:50.832Z",
+      "captured_at_jst": "2026-11-12T21:01:50.832000+09:00",
+      "identity_verified": true,
+      "visible_period": "2026/10/15～2026/11/11",
+      "screenshot": "content-live-28d.jpg"
+    },
+    {
+      "file": "content-live-7d.txt",
+      "captured_at_utc": "2026-11-12T12:02:00.993Z",
+      "captured_at_jst": "2026-11-12T21:02:00.993000+09:00",
+      "identity_verified": true,
+      "visible_period": "2026/11/05～2026/11/11",
+      "screenshot": "content-live-7d.jpg"
+    },
+    {
+      "file": "content-shorts-28d.txt",
+      "captured_at_utc": "2026-11-12T12:02:10.302Z",
+      "captured_at_jst": "2026-11-12T21:02:10.302000+09:00",
+      "identity_verified": true,
+      "visible_period": "2026/10/15～2026/11/11",
+      "screenshot": "content-shorts-28d.jpg"
+    },
+    {
+      "file": "content-shorts-7d.txt",
+      "captured_at_utc": "2026-11-12T12:02:21.275Z",
+      "captured_at_jst": "2026-11-12T21:02:21.275000+09:00",
+      "identity_verified": true,
+      "visible_period": "2026/11/05～2026/11/11",
+      "screenshot": "content-shorts-7d.jpg"
+    },
+    {
+      "file": "content-videos-28d.txt",
+      "captured_at_utc": "2026-11-12T12:01:31.360Z",
+      "captured_at_jst": "2026-11-12T21:01:31.360000+09:00",
+      "identity_verified": true,
+      "visible_period": "2026/10/15～2026/11/11",
+      "screenshot": "content-videos-28d.jpg"
+    },
+    {
+      "file": "content-videos-7d.txt",
+      "captured_at_utc": "2026-11-12T12:01:39.712Z",
+      "captured_at_jst": "2026-11-12T21:01:39.712000+09:00",
+      "identity_verified": true,
+      "visible_period": "2026/11/05～2026/11/11",
+      "screenshot": "content-videos-7d.jpg"
+    },
+    {
+      "file": "followup-short-retention-7d.txt",
+      "captured_at_utc": "2026-11-12T12:02:57.947Z",
+      "captured_at_jst": "2026-11-12T21:02:57.947000+09:00",
+      "identity_verified": true,
+      "visible_period": "2026/11/05～2026/11/11",
+      "screenshot": null
+    },
+    {
+      "file": "followup-short-traffic-7d.txt",
+      "captured_at_utc": "2026-11-12T12:03:10.251Z",
+      "captured_at_jst": "2026-11-12T21:03:10.251000+09:00",
+      "identity_verified": true,
+      "visible_period": "2026/11/05～2026/11/11",
+      "screenshot": null
+    },
+    {
+      "file": "followup-video-retention-7d.txt",
+      "captured_at_utc": "2026-11-12T12:03:50.160Z",
+      "captured_at_jst": "2026-11-12T21:03:50.160000+09:00",
+      "identity_verified": true,
+      "visible_period": "2026/11/05～2026/11/11",
+      "screenshot": null
+    },
+    {
+      "file": "followup-video-traffic-7d.txt",
+      "captured_at_utc": "2026-11-12T12:03:23.895Z",
+      "captured_at_jst": "2026-11-12T21:03:23.895000+09:00",
+      "identity_verified": true,
+      "visible_period": "2026/11/05～2026/11/11",
+      "screenshot": null
+    },
+    {
+      "file": "overview-28d.txt",
+      "captured_at_utc": "2026-11-12T12:00:44.772Z",
+      "captured_at_jst": "2026-11-12T21:00:44.772000+09:00",
+      "identity_verified": true,
+      "visible_period": "2026/10/15～2026/11/11",
+      "screenshot": "overview-28d.jpg"
+    },
+    {
+      "file": "overview-7d.txt",
+      "captured_at_utc": "2026-11-12T12:00:54.941Z",
+      "captured_at_jst": "2026-11-12T21:00:54.941000+09:00",
+      "identity_verified": true,
+      "visible_period": "2026/11/05～2026/11/11",
+      "screenshot": "overview-7d.jpg"
+    }
+  ],
+  "top_content_with_retention": {
+    "7d": [],
+    "28d": []
+  },
+  "detailed_traffic_7d": {
+    "shorts": {
+      "source": "followup-short-traffic-7d.txt",
+      "total": {
+        "views": 432,
+        "watch_time_hours": 1.9,
+        "average_view_duration": "1:09",
+        "impressions": 2072,
+        "ctr_percent": 1.6
+      },
+      "rows": [
+        {
+          "source": "YouTube 検索",
+          "views": 82,
+          "views_percent": 19.0,
+          "watch_time_hours": 1.4,
+          "watch_time_percent": 73.8,
+          "average_view_duration": "2:08",
+          "impressions": 2039,
+          "ctr_percent": 1.7
+        },
+        {
+          "source": "その他の YouTube 機能",
+          "views": 10,
+          "views_percent": 2.3,
+          "watch_time_hours": 0.1,
+          "watch_time_percent": 3.4,
+          "average_view_duration": "0:55",
+          "impressions": null,
+          "ctr_percent": null
+        },
+        {
+          "source": "外部",
+          "views": 3,
+          "views_percent": 0.7,
+          "watch_time_hours": 0.0,
+          "watch_time_percent": 1.4,
+          "average_view_duration": "0:46",
+          "impressions": null,
+          "ctr_percent": null
+        },
+        {
+          "source": "ショート フィード",
+          "views": 337,
+          "views_percent": 78.0,
+          "watch_time_hours": 0.4,
+          "watch_time_percent": 21.5,
+          "average_view_duration": "0:23",
+          "impressions": null,
+          "ctr_percent": null
+        },
+        {
+          "source": "直接入力または不明",
+          "views": 0,
+          "views_percent": 0.0,
+          "watch_time_hours": 0.0,
+          "watch_time_percent": 0.0,
+          "average_view_duration": null,
+          "impressions": null,
+          "ctr_percent": null
+        },
+        {
+          "source": "ブラウジング機能",
+          "views": null,
+          "views_percent": null,
+          "watch_time_hours": null,
+          "watch_time_percent": null,
+          "average_view_duration": null,
+          "impressions": 25,
+          "ctr_percent": 0
+        },
+        {
+          "source": "再生リスト",
+          "views": null,
+          "views_percent": null,
+          "watch_time_hours": null,
+          "watch_time_percent": null,
+          "average_view_duration": null,
+          "impressions": 8,
+          "ctr_percent": 0
+        },
+        {
+          "source": "チャンネル ページ",
+          "views": 0,
+          "views_percent": 0.0,
+          "watch_time_hours": 0.0,
+          "watch_time_percent": 0.0,
+          "average_view_duration": null,
+          "impressions": 0,
+          "ctr_percent": null
+        }
+      ]
+    },
+    "videos": {
+      "source": "followup-video-traffic-7d.txt",
+      "total": {
+        "views": 333,
+        "watch_time_hours": 15.4,
+        "average_view_duration": "4:08",
+        "impressions": 4600,
+        "ctr_percent": 3.1
+      },
+      "rows": [
+        {
+          "source": "直接入力または不明",
+          "views": 1,
+          "views_percent": 0.3,
+          "watch_time_hours": 0.1,
+          "watch_time_percent": 0.9,
+          "average_view_duration": "8:20",
+          "impressions": null,
+          "ctr_percent": null
+        },
+        {
+          "source": "関連動画",
+          "views": 107,
+          "views_percent": 32.1,
+          "watch_time_hours": 13.9,
+          "watch_time_percent": 90.0,
+          "average_view_duration": "8:00",
+          "impressions": 3510,
+          "ctr_percent": 2.7
+        },
+        {
+          "source": "再生リスト",
+          "views": 7,
+          "views_percent": 2.1,
+          "watch_time_hours": 0.2,
+          "watch_time_percent": 1.6,
+          "average_view_duration": "2:04",
+          "impressions": 45,
+          "ctr_percent": 6.7
+        },
+        {
+          "source": "YouTube 検索",
+          "views": 51,
+          "views_percent": 15.3,
+          "watch_time_hours": 0.6,
+          "watch_time_percent": 3.8,
+          "average_view_duration": "1:08",
+          "impressions": 341,
+          "ctr_percent": 8.2
+        },
+        {
+          "source": "ブラウジング機能",
+          "views": 150,
+          "views_percent": 45.1,
+          "watch_time_hours": 0.5,
+          "watch_time_percent": 3.4,
+          "average_view_duration": "0:25",
+          "impressions": 555,
+          "ctr_percent": 1.6
+        },
+        {
+          "source": "外部",
+          "views": 2,
+          "views_percent": 0.6,
+          "watch_time_hours": 0.0,
+          "watch_time_percent": 0.1,
+          "average_view_duration": "0:22",
+          "impressions": null,
+          "ctr_percent": null
+        },
+        {
+          "source": "その他の YouTube 機能",
+          "views": 6,
+          "views_percent": 1.8,
+          "watch_time_hours": 0.0,
+          "watch_time_percent": 0.1,
+          "average_view_duration": "0:15",
+          "impressions": null,
+          "ctr_percent": null
+        },
+        {
+          "source": "チャンネル ページ",
+          "views": 8,
+          "views_percent": 2.4,
+          "watch_time_hours": 0.0,
+          "watch_time_percent": 0.2,
+          "average_view_duration": "0:12",
+          "impressions": 149,
+          "ctr_percent": 5.4
+        },
+        {
+          "source": "関連のショート動画",
+          "views": 1,
+          "views_percent": 0.3,
+          "watch_time_hours": 0.0,
+          "watch_time_percent": 0.0,
+          "average_view_duration": "0:00",
+          "impressions": null,
+          "ctr_percent": null
+        }
+      ]
+    }
+  },
+  "detailed_format_retention": {
+    "7d": {
+      "shorts": {
+        "source": "followup-short-retention-7d.txt",
+        "rows": [
+          {
+            "title": "シューベルトの「月に寄す」を、尺八で",
+            "duration_display": "0:46",
+            "format": "short",
+            "average_view_duration": "0:25",
+            "average_view_percentage": 54.9,
+            "views": 303,
+            "views_percent": 70.1,
+            "continued_viewing_percent": 8.7,
+            "publish_date_display": null
+          },
+          {
+            "title": "夜明けの金魚屋で、もう少しだけ。 📚 #和風LoFi #作業用BGM #Shorts",
+            "duration_display": "0:46",
+            "format": "short",
+            "average_view_duration": "0:17",
+            "average_view_percentage": 38.6,
+            "views": 13,
+            "views_percent": 3.0,
+            "continued_viewing_percent": 50.0,
+            "publish_date_display": null
+          },
+          {
+            "title": "フォーレの「夢の国」を、尺八で",
+            "duration_display": "0:46",
+            "format": "short",
+            "average_view_duration": "0:25",
+            "average_view_percentage": 54.4,
+            "views": 11,
+            "views_percent": 2.6,
+            "continued_viewing_percent": 54.6,
+            "publish_date_display": null
+          },
+          {
+            "title": "故郷（ふるさと）🌙 箏と尺八で聴く唱歌 #唱歌 #和風BGM",
+            "duration_display": "0:46",
+            "format": "short",
+            "average_view_duration": "0:14",
+            "average_view_percentage": 31.0,
+            "views": 11,
+            "views_percent": 2.6,
+            "continued_viewing_percent": 57.1,
+            "publish_date_display": null
+          },
+          {
+            "title": "夜が明けたので、提灯の火を落とす。🌅 #和風LoFi #作業用BGM #Shorts",
+            "duration_display": "0:46",
+            "format": "short",
+            "average_view_duration": "0:22",
+            "average_view_percentage": 47.9,
+            "views": 7,
+            "views_percent": 1.6,
+            "continued_viewing_percent": 66.7,
+            "publish_date_display": null
+          },
+          {
+            "title": "冬の夜 🌙 箏と尺八で聴く唱歌 #唱歌 #和風BGM",
+            "duration_display": "0:46",
+            "format": "short",
+            "average_view_duration": "0:08",
+            "average_view_percentage": 18.2,
+            "views": 7,
+            "views_percent": 1.6,
+            "continued_viewing_percent": 100,
+            "publish_date_display": null
+          },
+          {
+            "title": "Ocean Waves at a Fishing Village at Dusk 🌙 Late Autumn Shore #oceansounds #sleepsounds #shorts",
+            "duration_display": "0:46",
+            "format": "short",
+            "average_view_duration": "0:05",
+            "average_view_percentage": 12.2,
+            "views": 5,
+            "views_percent": 1.2,
+            "continued_viewing_percent": 20.0,
+            "publish_date_display": null
+          },
+          {
+            "title": "雪の止んだ夜｜雪の無人駅・2.1Hz バイノーラルビート #Shorts",
+            "duration_display": "0:46",
+            "format": "short",
+            "average_view_duration": "3:00",
+            "average_view_percentage": 392.6,
+            "views": 5,
+            "views_percent": 1.2,
+            "continued_viewing_percent": 100,
+            "publish_date_display": null
+          },
+          {
+            "title": "古民家カフェBGM｜冬の薪火 ☕",
+            "duration_display": "0:46",
+            "format": "short",
+            "average_view_duration": "0:02",
+            "average_view_percentage": 6.4,
+            "views": 5,
+            "views_percent": 1.2,
+            "continued_viewing_percent": 100,
+            "publish_date_display": null
+          },
+          {
+            "title": "心ほどける朝白｜雪明かりの書院・10Hz バイノーラルビート #Shorts",
+            "duration_display": "0:46",
+            "format": "short",
+            "average_view_duration": "1:14:15",
+            "average_view_percentage": 9685.0,
+            "views": 5,
+            "views_percent": 1.2,
+            "continued_viewing_percent": 100,
+            "publish_date_display": null
+          },
+          {
+            "title": "Moonlit Valley, Distant River 🌙 Nothing but Running Water #shorts",
+            "duration_display": "0:46",
+            "format": "short",
+            "average_view_duration": "0:15",
+            "average_view_percentage": 32.6,
+            "views": 5,
+            "views_percent": 1.2,
+            "continued_viewing_percent": 40.0,
+            "publish_date_display": null
+          },
+          {
+            "title": "荒城の月 🌙 箏と尺八で聴く唱歌 #唱歌 #和風BGM",
+            "duration_display": "0:46",
+            "format": "short",
+            "average_view_duration": "0:37",
+            "average_view_percentage": 81.0,
+            "views": 4,
+            "views_percent": 0.9,
+            "continued_viewing_percent": 100,
+            "publish_date_display": null
+          },
+          {
+            "title": "Distant Waves under the Moon 🌙 Late Autumn Shore #oceansounds #sleep #shorts",
+            "duration_display": "0:46",
+            "format": "short",
+            "average_view_duration": "0:07",
+            "average_view_percentage": 15.7,
+            "views": 4,
+            "views_percent": 0.9,
+            "continued_viewing_percent": 20.0,
+            "publish_date_display": null
+          },
+          {
+            "title": "雪（ゆきやこんこ）🌙 箏と尺八で聴く童謡 #童謡 #和風BGM",
+            "duration_display": "0:46",
+            "format": "short",
+            "average_view_duration": "0:12",
+            "average_view_percentage": 27.9,
+            "views": 3,
+            "views_percent": 0.7,
+            "continued_viewing_percent": 66.7,
+            "publish_date_display": null
+          },
+          {
+            "title": "浜千鳥 🌙 箏と尺八で聴く童謡 #童謡 #和風BGM",
+            "duration_display": "0:46",
+            "format": "short",
+            "average_view_duration": "0:03",
+            "average_view_percentage": 8.4,
+            "views": 3,
+            "views_percent": 0.7,
+            "continued_viewing_percent": 100,
+            "publish_date_display": null
+          },
+          {
+            "title": "月の沙漠 🌙 箏と尺八で聴く童謡 #童謡 #和風BGM",
+            "duration_display": "0:46",
+            "format": "short",
+            "average_view_duration": "0:44",
+            "average_view_percentage": 97.4,
+            "views": 3,
+            "views_percent": 0.7,
+            "continued_viewing_percent": 100,
+            "publish_date_display": null
+          },
+          {
+            "title": "Op.9-1 律｜箏・尺八・笙による和風編曲",
+            "duration_display": "0:46",
+            "format": "short",
+            "average_view_duration": "0:05",
+            "average_view_percentage": 13.0,
+            "views": 3,
+            "views_percent": 0.7,
+            "continued_viewing_percent": 100,
+            "publish_date_display": null
+          },
+          {
+            "title": "古民家カフェBGM｜冬の薪火 ☕",
+            "duration_display": "0:46",
+            "format": "short",
+            "average_view_duration": "0:01",
+            "average_view_percentage": 2.4,
+            "views": 3,
+            "views_percent": 0.7,
+            "continued_viewing_percent": 100,
+            "publish_date_display": null
+          },
+          {
+            "title": "ジムノペディ　第2番 律・58bpm｜箏・尺八・笙による和風編曲",
+            "duration_display": "0:46",
+            "format": "short",
+            "average_view_duration": "0:05",
+            "average_view_percentage": 12.4,
+            "views": 2,
+            "views_percent": 0.5,
+            "continued_viewing_percent": 100,
+            "publish_date_display": null
+          },
+          {
+            "title": "ベートーヴェン 熱情 第2楽章 律｜箏・尺八・笙による和風編曲",
+            "duration_display": "0:46",
+            "format": "short",
+            "average_view_duration": null,
+            "average_view_percentage": null,
+            "views": 2,
+            "views_percent": 0.5,
+            "continued_viewing_percent": 0,
+            "publish_date_display": null
+          },
+          {
+            "title": "月の出｜月夜の芒原・2Hz バイノーラルビート #Shorts",
+            "duration_display": "0:46",
+            "format": "short",
+            "average_view_duration": "0:01",
+            "average_view_percentage": 2.8,
+            "views": 2,
+            "views_percent": 0.5,
+            "continued_viewing_percent": 100,
+            "publish_date_display": null
+          },
+          {
+            "title": "紅葉（もみじ）🌙 箏と尺八で聴く唱歌 #唱歌 #和風BGM",
+            "duration_display": "0:46",
+            "format": "short",
+            "average_view_duration": null,
+            "average_view_percentage": null,
+            "views": 2,
+            "views_percent": 0.5,
+            "continued_viewing_percent": 0,
+            "publish_date_display": null
+          },
+          {
+            "title": "16小節の前奏曲を、4回",
+            "duration_display": "0:46",
+            "format": "short",
+            "average_view_duration": "0:48",
+            "average_view_percentage": 104.6,
+            "views": 2,
+            "views_percent": 0.5,
+            "continued_viewing_percent": 100,
+            "publish_date_display": null
+          },
+          {
+            "title": "シューマン シェヘラザード Op.68-32 律｜箏・尺八・笙による和風編曲",
+            "duration_display": "0:46",
+            "format": "short",
+            "average_view_duration": "0:08",
+            "average_view_percentage": 17.7,
+            "views": 2,
+            "views_percent": 0.5,
+            "continued_viewing_percent": 100,
+            "publish_date_display": null
+          },
+          {
+            "title": "シューマン トロイメライ 律｜箏・尺八・笙による和風編曲",
+            "duration_display": "0:46",
+            "format": "short",
+            "average_view_duration": "0:09",
+            "average_view_percentage": 21.7,
+            "views": 2,
+            "views_percent": 0.5,
+            "continued_viewing_percent": 100,
+            "publish_date_display": null
+          },
+          {
+            "title": "ショパンの前奏曲 第13番を、陰の音階で",
+            "duration_display": "0:46",
+            "format": "short",
+            "average_view_duration": "0:13",
+            "average_view_percentage": 28.5,
+            "views": 2,
+            "views_percent": 0.5,
+            "continued_viewing_percent": 50.0,
+            "publish_date_display": null
+          },
+          {
+            "title": "古民家カフェBGM｜土間の午後 ☕ #shorts",
+            "duration_display": "0:46",
+            "format": "short",
+            "average_view_duration": null,
+            "average_view_percentage": null,
+            "views": 2,
+            "views_percent": 0.5,
+            "continued_viewing_percent": null,
+            "publish_date_display": null
+          },
+          {
+            "title": "ブラームスの子守歌を、尺八で",
+            "duration_display": "0:46",
+            "format": "short",
+            "average_view_duration": "0:00",
+            "average_view_percentage": 2.0,
+            "views": 1,
+            "views_percent": 0.2,
+            "continued_viewing_percent": 100,
+            "publish_date_display": null
+          },
+          {
+            "title": "靄の月、8Hzのゆらぎ",
+            "duration_display": "0:46",
+            "format": "short",
+            "average_view_duration": "0:02",
+            "average_view_percentage": 5.9,
+            "views": 1,
+            "views_percent": 0.2,
+            "continued_viewing_percent": 100,
+            "publish_date_display": null
+          },
+          {
+            "title": "ジムノペディ　第3番 律・54bpm｜箏・尺八・笙による和風編曲",
+            "duration_display": "0:46",
+            "format": "short",
+            "average_view_duration": null,
+            "average_view_percentage": null,
+            "views": 1,
+            "views_percent": 0.2,
+            "continued_viewing_percent": null,
+            "publish_date_display": null
+          },
+          {
+            "title": "グノシエンヌ 第1番｜箏・尺八・笙による和風編曲",
+            "duration_display": "0:46",
+            "format": "short",
+            "average_view_duration": "0:01",
+            "average_view_percentage": 4.1,
+            "views": 1,
+            "views_percent": 0.2,
+            "continued_viewing_percent": 100,
+            "publish_date_display": null
+          },
+          {
+            "title": "チャイコフスキーの「朝の祈り」を、笙で",
+            "duration_display": "0:46",
+            "format": "short",
+            "average_view_duration": "0:04",
+            "average_view_percentage": 10.1,
+            "views": 1,
+            "views_percent": 0.2,
+            "continued_viewing_percent": 100,
+            "publish_date_display": null
+          },
+          {
+            "title": "グノーのアヴェ・マリアを、尺八で",
+            "duration_display": "0:46",
+            "format": "short",
+            "average_view_duration": null,
+            "average_view_percentage": null,
+            "views": 1,
+            "views_percent": 0.2,
+            "continued_viewing_percent": null,
+            "publish_date_display": null
+          },
+          {
+            "title": "シューマンのトロイメライを、尺八で",
+            "duration_display": "0:46",
+            "format": "short",
+            "average_view_duration": "0:00",
+            "average_view_percentage": 2.0,
+            "views": 1,
+            "views_percent": 0.2,
+            "continued_viewing_percent": 100,
+            "publish_date_display": null
+          },
+          {
+            "title": "ベートーヴェン 悲愴 第2楽章 律｜箏・尺八・笙による和風編曲",
+            "duration_display": "0:46",
+            "format": "short",
+            "average_view_duration": null,
+            "average_view_percentage": null,
+            "views": 1,
+            "views_percent": 0.2,
+            "continued_viewing_percent": null,
+            "publish_date_display": null
+          },
+          {
+            "title": "古民家カフェBGM｜小春日和 ☕",
+            "duration_display": "0:46",
+            "format": "short",
+            "average_view_duration": "0:06",
+            "average_view_percentage": 15.1,
+            "views": 1,
+            "views_percent": 0.2,
+            "continued_viewing_percent": 100,
+            "publish_date_display": null
+          },
+          {
+            "title": "アラベスク第2番 律｜箏・尺八・笙による和風編曲",
+            "duration_display": "0:46",
+            "format": "short",
+            "average_view_duration": null,
+            "average_view_percentage": null,
+            "views": 1,
+            "views_percent": 0.2,
+            "continued_viewing_percent": null,
+            "publish_date_display": null
+          },
+          {
+            "title": "古民家カフェBGM｜小春日和 ☕",
+            "duration_display": "0:46",
+            "format": "short",
+            "average_view_duration": "0:02",
+            "average_view_percentage": 5.3,
+            "views": 1,
+            "views_percent": 0.2,
+            "continued_viewing_percent": 100,
+            "publish_date_display": null
+          },
+          {
+            "title": "霧の水面｜箏と低い弦の静かな45秒 #Shorts",
+            "duration_display": "0:46",
+            "format": "short",
+            "average_view_duration": "0:02",
+            "average_view_percentage": 4.4,
+            "views": 1,
+            "views_percent": 0.2,
+            "continued_viewing_percent": 100,
+            "publish_date_display": null
+          },
+          {
+            "title": "シューベルトのアヴェ・マリアを、尺八で",
+            "duration_display": "0:46",
+            "format": "short",
+            "average_view_duration": null,
+            "average_view_percentage": null,
+            "views": 1,
+            "views_percent": 0.2,
+            "continued_viewing_percent": null,
+            "publish_date_display": null
+          },
+          {
+            "title": "ショパンのノクターンを、尺八で",
+            "duration_display": "0:46",
+            "format": "short",
+            "average_view_duration": "0:45",
+            "average_view_percentage": 97.9,
+            "views": 1,
+            "views_percent": 0.2,
+            "continued_viewing_percent": null,
+            "publish_date_display": null
+          },
+          {
+            "title": "夕焼け小焼け 🌙 箏と尺八で聴く童謡 #童謡 #和風BGM",
+            "duration_display": "0:46",
+            "format": "short",
+            "average_view_duration": null,
+            "average_view_percentage": null,
+            "views": 0,
+            "views_percent": 0.0,
+            "continued_viewing_percent": null,
+            "publish_date_display": null
+          },
+          {
+            "title": "Gentle Waves on a Pebble Shore 🌙 Late Autumn Shore #wavesounds #relaxing #shorts",
+            "duration_display": "0:46",
+            "format": "short",
+            "average_view_duration": null,
+            "average_view_percentage": null,
+            "views": 0,
+            "views_percent": 0.0,
+            "continued_viewing_percent": 0,
+            "publish_date_display": null
+          }
+        ],
+        "sort_basis": "視聴回数順"
+      },
+      "videos": {
+        "source": "followup-video-retention-7d.txt",
+        "rows": [
+          {
+            "title": "夏目漱石『夢十夜』全十話 🌙 睡眠用朗読｜静かな女性の声とやさしいBGM｜1時間",
+            "duration_display": "59:31",
+            "format": "video",
+            "average_view_duration": "7:30",
+            "average_view_percentage": 12.6,
+            "views": 77,
+            "views_percent": 23.1,
+            "watch_time_hours": 8.8,
+            "watch_time_percent": 56.8,
+            "net_subscribers": 0,
+            "impressions": 1919,
+            "ctr_percent": 3.2,
+            "publish_date_display": null
+          },
+          {
+            "title": "Late Autumn Shore 🌙 Ocean Wave Sounds for Sleep, Nothing but Waves | 1 Hour",
+            "duration_display": "1:00:09",
+            "format": "video",
+            "average_view_duration": "13:52",
+            "average_view_percentage": 23.1,
+            "views": 15,
+            "views_percent": 4.5,
+            "watch_time_hours": 2.1,
+            "watch_time_percent": 13.5,
+            "net_subscribers": 0,
+            "impressions": 248,
+            "ctr_percent": 3.2,
+            "publish_date_display": null
+          },
+          {
+            "title": "古民家カフェBGM｜小春日和 ☕ 作業・読書用ピアノ | 97 Min Japanese Cafe Piano",
+            "duration_display": "1:37:27",
+            "format": "video",
+            "average_view_duration": "1:37:26",
+            "average_view_percentage": 100,
+            "views": 1,
+            "views_percent": 0.3,
+            "watch_time_hours": 1.6,
+            "watch_time_percent": 10.5,
+            "net_subscribers": 0,
+            "impressions": 4,
+            "ctr_percent": 25.0,
+            "publish_date_display": null
+          },
+          {
+            "title": "Schubert's To the Moon, Slowed to an Hour 🌙 Koto and Shakuhachi Japanese Ambient | 56 Min",
+            "duration_display": "56:10",
+            "format": "video",
+            "average_view_duration": "1:59",
+            "average_view_percentage": 3.5,
+            "views": 86,
+            "views_percent": 25.8,
+            "watch_time_hours": 1.1,
+            "watch_time_percent": 7.3,
+            "net_subscribers": 1,
+            "impressions": 1438,
+            "ctr_percent": 2.1,
+            "publish_date_display": null
+          },
+          {
+            "title": "浜千鳥 🌙 和楽器で聴く童謡｜尺八・箏",
+            "duration_display": "3:29",
+            "format": "video",
+            "average_view_duration": "0:27",
+            "average_view_percentage": 12.9,
+            "views": 62,
+            "views_percent": 18.6,
+            "watch_time_hours": 0.4,
+            "watch_time_percent": 2.7,
+            "net_subscribers": 0,
+            "impressions": 164,
+            "ctr_percent": 1.2,
+            "publish_date_display": null
+          },
+          {
+            "title": "芥川龍之介『蜘蛛の糸』『トロッコ』『杜子春』🌙 睡眠用朗読｜静かな女性の声とやさしいBGM｜1時間",
+            "duration_display": "58:24",
+            "format": "video",
+            "average_view_duration": "3:21",
+            "average_view_percentage": 5.8,
+            "views": 26,
+            "views_percent": 7.8,
+            "watch_time_hours": 0.4,
+            "watch_time_percent": 2.6,
+            "net_subscribers": 0,
+            "impressions": 294,
+            "ctr_percent": 2.0,
+            "publish_date_display": null
+          },
+          {
+            "title": "和風Lo-fi 作業用BGM 61分｜締切前夜、妖怪図書館で勉強する。📚",
+            "duration_display": "1:01:22",
+            "format": "video",
+            "average_view_duration": "5:02",
+            "average_view_percentage": 8.2,
+            "views": 3,
+            "views_percent": 0.9,
+            "watch_time_hours": 0.3,
+            "watch_time_percent": 1.6,
+            "net_subscribers": 0,
+            "impressions": 16,
+            "ctr_percent": 18.8,
+            "publish_date_display": null
+          },
+          {
+            "title": "秋の童謡 1時間 🌙 赤とんぼ・夕焼け小焼け・紅葉・故郷を箏と尺八で｜懐かしい歌の和風BGM・読書に｜57分",
+            "duration_display": "57:22",
+            "format": "video",
+            "average_view_duration": "4:10",
+            "average_view_percentage": 7.3,
+            "views": 3,
+            "views_percent": 0.9,
+            "watch_time_hours": 0.1,
+            "watch_time_percent": 0.9,
+            "net_subscribers": null,
+            "impressions": 15,
+            "ctr_percent": 0,
+            "publish_date_display": null
+          },
+          {
+            "title": "夕焼け小焼け 🍁 和楽器で聴く童謡｜箏・尺八・笙",
+            "duration_display": "4:31",
+            "format": "video",
+            "average_view_duration": "1:00",
+            "average_view_percentage": 22.3,
+            "views": 9,
+            "views_percent": 2.7,
+            "watch_time_hours": 0.1,
+            "watch_time_percent": 0.9,
+            "net_subscribers": 0,
+            "impressions": 40,
+            "ctr_percent": 12.5,
+            "publish_date_display": null
+          },
+          {
+            "title": "赤とんぼ 🍁 和楽器で聴く童謡｜箏・尺八・笙",
+            "duration_display": "4:14",
+            "format": "video",
+            "average_view_duration": "0:59",
+            "average_view_percentage": 23.4,
+            "views": 10,
+            "views_percent": 3.0,
+            "watch_time_hours": 0.1,
+            "watch_time_percent": 0.6,
+            "net_subscribers": 0,
+            "impressions": 43,
+            "ctr_percent": 11.6,
+            "publish_date_display": null
+          },
+          {
+            "title": "紅葉（もみじ） 🍁 和楽器で聴く童謡｜箏・尺八",
+            "duration_display": "4:40",
+            "format": "video",
+            "average_view_duration": "0:41",
+            "average_view_percentage": 15.0,
+            "views": 13,
+            "views_percent": 3.9,
+            "watch_time_hours": 0.1,
+            "watch_time_percent": 0.6,
+            "net_subscribers": 0,
+            "impressions": 82,
+            "ctr_percent": 9.8,
+            "publish_date_display": null
+          },
+          {
+            "title": "Moonlit Silver Grass 🌙 Japanese Ambient Music with Cricket Sounds | 58 Min",
+            "duration_display": "58:12",
+            "format": "video",
+            "average_view_duration": "5:05",
+            "average_view_percentage": 8.8,
+            "views": 1,
+            "views_percent": 0.3,
+            "watch_time_hours": 0.1,
+            "watch_time_percent": 0.6,
+            "net_subscribers": 0,
+            "impressions": 8,
+            "ctr_percent": 12.5,
+            "publish_date_display": null
+          },
+          {
+            "title": "七つの子 🍁 和楽器で聴く童謡｜尺八・箏",
+            "duration_display": "3:38",
+            "format": "video",
+            "average_view_duration": "2:10",
+            "average_view_percentage": 59.9,
+            "views": 2,
+            "views_percent": 0.6,
+            "watch_time_hours": 0.1,
+            "watch_time_percent": 0.5,
+            "net_subscribers": 0,
+            "impressions": 23,
+            "ctr_percent": 4.4,
+            "publish_date_display": null
+          },
+          {
+            "title": "Moonlit Great Ginkgo 🌙 Japanese Ambient Music for Relaxation & Focus | 61 Min",
+            "duration_display": "1:01:25",
+            "format": "video",
+            "average_view_duration": "1:01",
+            "average_view_percentage": 1.7,
+            "views": 3,
+            "views_percent": 0.9,
+            "watch_time_hours": 0.0,
+            "watch_time_percent": 0.2,
+            "net_subscribers": 0,
+            "impressions": 14,
+            "ctr_percent": 7.1,
+            "publish_date_display": null
+          },
+          {
+            "title": "虫のこえ 🌙 和楽器で聴く唱歌｜箏・尺八",
+            "duration_display": "4:31",
+            "format": "video",
+            "average_view_duration": "0:31",
+            "average_view_percentage": 11.4,
+            "views": 2,
+            "views_percent": 0.6,
+            "watch_time_hours": 0.0,
+            "watch_time_percent": 0.1,
+            "net_subscribers": 0,
+            "impressions": 43,
+            "ctr_percent": 4.7,
+            "publish_date_display": null
+          },
+          {
+            "title": "古民家カフェBGM｜冬の薪火 ☕ 作業用ピアノ | 105 Min Japanese Cafe Piano",
+            "duration_display": "1:45:26",
+            "format": "video",
+            "average_view_duration": "0:29",
+            "average_view_percentage": 0.5,
+            "views": 2,
+            "views_percent": 0.6,
+            "watch_time_hours": 0.0,
+            "watch_time_percent": 0.1,
+            "net_subscribers": 0,
+            "impressions": 25,
+            "ctr_percent": 8.0,
+            "publish_date_display": null
+          },
+          {
+            "title": "十五夜お月さん 🌙 和楽器で聴く童謡｜尺八・箏",
+            "duration_display": "4:02",
+            "format": "video",
+            "average_view_duration": "0:14",
+            "average_view_percentage": 6.0,
+            "views": 3,
+            "views_percent": 0.9,
+            "watch_time_hours": 0.0,
+            "watch_time_percent": 0.1,
+            "net_subscribers": 0,
+            "impressions": 18,
+            "ctr_percent": 11.1,
+            "publish_date_display": null
+          },
+          {
+            "title": "Raindrop Prelude on Koto and Shakuhachi — Chopin, Four Preludes from Op. 28",
+            "duration_display": "11:31",
+            "format": "video",
+            "average_view_duration": "0:41",
+            "average_view_percentage": 6.0,
+            "views": 1,
+            "views_percent": 0.3,
+            "watch_time_hours": 0.0,
+            "watch_time_percent": 0.1,
+            "net_subscribers": 0,
+            "impressions": 2,
+            "ctr_percent": 0,
+            "publish_date_display": null
+          },
+          {
+            "title": "Moonlit Water Mirror 🌙 Alpha Waves 12Hz to 8Hz, Japanese Ambient | 3 Hours",
+            "duration_display": "3:00:09",
+            "format": "video",
+            "average_view_duration": "0:15",
+            "average_view_percentage": 0.2,
+            "views": 3,
+            "views_percent": 0.9,
+            "watch_time_hours": 0.0,
+            "watch_time_percent": 0.1,
+            "net_subscribers": 1,
+            "impressions": 0,
+            "ctr_percent": null,
+            "publish_date_display": null
+          },
+          {
+            "title": "Japanese Lo-fi Study Music | Lighting a Hundred Lanterns Before Dawn 📚 | 62 Min",
+            "duration_display": "1:02:18",
+            "format": "video",
+            "average_view_duration": "0:23",
+            "average_view_percentage": 0.6,
+            "views": 1,
+            "views_percent": 0.3,
+            "watch_time_hours": 0.0,
+            "watch_time_percent": 0.0,
+            "net_subscribers": 0,
+            "impressions": 13,
+            "ctr_percent": 7.7,
+            "publish_date_display": null
+          },
+          {
+            "title": "冬の童謡 1時間 🌙 冬景色・雪・荒城の月・浜千鳥を箏と尺八で｜眠る前の懐かしい歌・読書に｜58分",
+            "duration_display": "57:51",
+            "format": "video",
+            "average_view_duration": "0:15",
+            "average_view_percentage": 0.4,
+            "views": 3,
+            "views_percent": 0.9,
+            "watch_time_hours": 0.0,
+            "watch_time_percent": 0.0,
+            "net_subscribers": 0,
+            "impressions": 30,
+            "ctr_percent": 3.3,
+            "publish_date_display": null
+          },
+          {
+            "title": "3–1Hz Delta Binaural Beats | Snowy Country Station — Japanese Ambient | Deep Sleep, 3 Hours",
+            "duration_display": "3:00:01",
+            "format": "video",
+            "average_view_duration": "0:14",
+            "average_view_percentage": 0.1,
+            "views": 1,
+            "views_percent": 0.3,
+            "watch_time_hours": 0.0,
+            "watch_time_percent": 0.0,
+            "net_subscribers": 0,
+            "impressions": 7,
+            "ctr_percent": 14.3,
+            "publish_date_display": null
+          },
+          {
+            "title": "1Hz Delta Binaural Beats | Milky Way over a Japanese Highland — Starry Ambient | Sleep, 3 Hours",
+            "duration_display": "3:00:01",
+            "format": "video",
+            "average_view_duration": null,
+            "average_view_percentage": null,
+            "views": 1,
+            "views_percent": 0.3,
+            "watch_time_hours": 0.0,
+            "watch_time_percent": 0.0,
+            "net_subscribers": 0,
+            "impressions": 10,
+            "ctr_percent": 0,
+            "publish_date_display": null
+          },
+          {
+            "title": "10Hz Binaural Beats | Snowlight in the Shoin — Japanese Winter Ambient | 3 Hours",
+            "duration_display": "3:00:01",
+            "format": "video",
+            "average_view_duration": "0:02",
+            "average_view_percentage": 0,
+            "views": 1,
+            "views_percent": 0.3,
+            "watch_time_hours": 0.0,
+            "watch_time_percent": 0.0,
+            "net_subscribers": null,
+            "impressions": 7,
+            "ctr_percent": 0,
+            "publish_date_display": null
+          },
+          {
+            "title": "Gymnopedies, Slowed to an Hour 🌙 Satie on Koto and Shakuhachi | 58 Min",
+            "duration_display": "57:42",
+            "format": "video",
+            "average_view_duration": "0:01",
+            "average_view_percentage": 0.1,
+            "views": 1,
+            "views_percent": 0.3,
+            "watch_time_hours": 0.0,
+            "watch_time_percent": 0.0,
+            "net_subscribers": 0,
+            "impressions": 2,
+            "ctr_percent": 50.0,
+            "publish_date_display": null
+          },
+          {
+            "title": "月の沙漠 🌙 和楽器で聴く童謡｜箏・尺八",
+            "duration_display": "3:54",
+            "format": "video",
+            "average_view_duration": null,
+            "average_view_percentage": null,
+            "views": 1,
+            "views_percent": 0.3,
+            "watch_time_hours": 0.0,
+            "watch_time_percent": 0.0,
+            "net_subscribers": 0,
+            "impressions": 22,
+            "ctr_percent": 0,
+            "publish_date_display": null
+          },
+          {
+            "title": "2Hz Delta Binaural Beats | Moonlit Silver Grass Field — Japanese Autumn Ambient | Sleep, 3 Hours",
+            "duration_display": "3:00:01",
+            "format": "video",
+            "average_view_duration": null,
+            "average_view_percentage": null,
+            "views": 1,
+            "views_percent": 0.3,
+            "watch_time_hours": 0.0,
+            "watch_time_percent": 0.0,
+            "net_subscribers": 0,
+            "impressions": 4,
+            "ctr_percent": 0,
+            "publish_date_display": null
+          },
+          {
+            "title": "6–2Hz Theta to Delta Binaural Beats | River Mist at an Old Ferry — Japanese Ambient | Sleep, 3 Hours",
+            "duration_display": "3:00:01",
+            "format": "video",
+            "average_view_duration": null,
+            "average_view_percentage": null,
+            "views": 1,
+            "views_percent": 0.3,
+            "watch_time_hours": 0.0,
+            "watch_time_percent": 0.0,
+            "net_subscribers": null,
+            "impressions": 7,
+            "ctr_percent": 0,
+            "publish_date_display": null
+          },
+          {
+            "title": "Moonlit Sea of Clouds 🌙 Japanese Ambient Music for Relaxation & Focus | 31 Min",
+            "duration_display": "31:27",
+            "format": "video",
+            "average_view_duration": null,
+            "average_view_percentage": null,
+            "views": null,
+            "views_percent": null,
+            "watch_time_hours": null,
+            "watch_time_percent": null,
+            "net_subscribers": null,
+            "impressions": 8,
+            "ctr_percent": 0,
+            "publish_date_display": null
+          },
+          {
+            "title": "6Hz Binaural Beats | Bamboo Shadows at the Hermitage — Japanese Ambient | 3 Hours",
+            "duration_display": "3:00:01",
+            "format": "video",
+            "average_view_duration": null,
+            "average_view_percentage": null,
+            "views": null,
+            "views_percent": null,
+            "watch_time_hours": null,
+            "watch_time_percent": null,
+            "net_subscribers": null,
+            "impressions": 3,
+            "ctr_percent": 0,
+            "publish_date_display": null
+          },
+          {
+            "title": "Pathétique & Appassionata, Slowed to an Hour 🌙 Beethoven on Koto and Shakuhachi | 60 Min",
+            "duration_display": "59:55",
+            "format": "video",
+            "average_view_duration": null,
+            "average_view_percentage": null,
+            "views": null,
+            "views_percent": null,
+            "watch_time_hours": null,
+            "watch_time_percent": null,
+            "net_subscribers": null,
+            "impressions": 6,
+            "ctr_percent": 0,
+            "publish_date_display": null
+          },
+          {
+            "title": "Moonlit Castle 🌙 Japanese Ambient Music for Relaxation & Focus | 60 Min",
+            "duration_display": "1:00:06",
+            "format": "video",
+            "average_view_duration": null,
+            "average_view_percentage": null,
+            "views": null,
+            "views_percent": null,
+            "watch_time_hours": null,
+            "watch_time_percent": null,
+            "net_subscribers": null,
+            "impressions": 2,
+            "ctr_percent": 0,
+            "publish_date_display": null
+          },
+          {
+            "title": "Classics Slowed for Sleep 🌙 Satie, Chopin, Bach & Schumann on Koto and Shakuhachi | 8 Hours 47 Min",
+            "duration_display": "8:46:53",
+            "format": "video",
+            "average_view_duration": null,
+            "average_view_percentage": null,
+            "views": null,
+            "views_percent": null,
+            "watch_time_hours": null,
+            "watch_time_percent": null,
+            "net_subscribers": null,
+            "impressions": 25,
+            "ctr_percent": 0,
+            "publish_date_display": null
+          },
+          {
+            "title": "Pathétique, Appassionata and Op. 79 on Koto and Shakuhachi — Beethoven, Three Slow Movements",
+            "duration_display": "13:08",
+            "format": "video",
+            "average_view_duration": null,
+            "average_view_percentage": null,
+            "views": null,
+            "views_percent": null,
+            "watch_time_hours": null,
+            "watch_time_percent": null,
+            "net_subscribers": null,
+            "impressions": 6,
+            "ctr_percent": 0,
+            "publish_date_display": null
+          },
+          {
+            "title": "Ave Maria on Koto and Shakuhachi — Bach and Gounod, Three Pieces",
+            "duration_display": "13:57",
+            "format": "video",
+            "average_view_duration": null,
+            "average_view_percentage": null,
+            "views": null,
+            "views_percent": null,
+            "watch_time_hours": null,
+            "watch_time_percent": null,
+            "net_subscribers": null,
+            "impressions": 1,
+            "ctr_percent": 0,
+            "publish_date_display": null
+          },
+          {
+            "title": "古民家カフェBGM｜本棚の間 ☕ 読書・作業用ピアノ | 97 Min Japanese Book Cafe Piano",
+            "duration_display": "1:36:40",
+            "format": "video",
+            "average_view_duration": null,
+            "average_view_percentage": null,
+            "views": null,
+            "views_percent": null,
+            "watch_time_hours": null,
+            "watch_time_percent": null,
+            "net_subscribers": null,
+            "impressions": 2,
+            "ctr_percent": 0,
+            "publish_date_display": null
+          },
+          {
+            "title": "4Hz to 1.5Hz Binaural Beats | Moonshadow Cove — Japanese Koto & Strings | 3 Hours",
+            "duration_display": "3:00:01",
+            "format": "video",
+            "average_view_duration": null,
+            "average_view_percentage": null,
+            "views": null,
+            "views_percent": null,
+            "watch_time_hours": null,
+            "watch_time_percent": null,
+            "net_subscribers": null,
+            "impressions": 1,
+            "ctr_percent": 0,
+            "publish_date_display": null
+          },
+          {
+            "title": "Moonlight Sonata, Slowed to an Hour 🌙 Beethoven on Koto and Shakuhachi | 66 Min",
+            "duration_display": "1:05:47",
+            "format": "video",
+            "average_view_duration": null,
+            "average_view_percentage": null,
+            "views": null,
+            "views_percent": null,
+            "watch_time_hours": null,
+            "watch_time_percent": null,
+            "net_subscribers": null,
+            "impressions": 2,
+            "ctr_percent": 0,
+            "publish_date_display": null
+          },
+          {
+            "title": "Mist over the Water Garden 🌙 Theta Binaural Beats 8–4Hz for Sleep | Japanese Ambient, 3 Hours",
+            "duration_display": "3:00:01",
+            "format": "video",
+            "average_view_duration": null,
+            "average_view_percentage": null,
+            "views": null,
+            "views_percent": null,
+            "watch_time_hours": null,
+            "watch_time_percent": null,
+            "net_subscribers": null,
+            "impressions": 1,
+            "ctr_percent": 0,
+            "publish_date_display": null
+          },
+          {
+            "title": "Autumn Mountain Stream 🌙 River Sounds for Sleep, Nothing but Running Water | 1 Hour",
+            "duration_display": "1:00:09",
+            "format": "video",
+            "average_view_duration": null,
+            "average_view_percentage": null,
+            "views": null,
+            "views_percent": null,
+            "watch_time_hours": null,
+            "watch_time_percent": null,
+            "net_subscribers": null,
+            "impressions": 4,
+            "ctr_percent": 0,
+            "publish_date_display": null
+          },
+          {
+            "title": "Moonlit Pine 🌙 Japanese Ambient Music for Relaxation & Focus | 60 Min",
+            "duration_display": "59:36",
+            "format": "video",
+            "average_view_duration": null,
+            "average_view_percentage": null,
+            "views": null,
+            "views_percent": null,
+            "watch_time_hours": null,
+            "watch_time_percent": null,
+            "net_subscribers": null,
+            "impressions": 1,
+            "ctr_percent": 0,
+            "publish_date_display": null
+          },
+          {
+            "title": "5Hz to 10Hz Binaural Beats | Morning Glories at Dawn — Japanese Summer Ambient | 3 Hours",
+            "duration_display": "3:00:01",
+            "format": "video",
+            "average_view_duration": null,
+            "average_view_percentage": null,
+            "views": null,
+            "views_percent": null,
+            "watch_time_hours": null,
+            "watch_time_percent": null,
+            "net_subscribers": null,
+            "impressions": 4,
+            "ctr_percent": 0,
+            "publish_date_display": null
+          },
+          {
+            "title": "Träumerei on Koto and Shakuhachi — Schumann, Scenes from Childhood and Album for the Young",
+            "duration_display": "14:58",
+            "format": "video",
+            "average_view_duration": null,
+            "average_view_percentage": null,
+            "views": null,
+            "views_percent": null,
+            "watch_time_hours": null,
+            "watch_time_percent": null,
+            "net_subscribers": null,
+            "impressions": 5,
+            "ctr_percent": 0,
+            "publish_date_display": null
+          },
+          {
+            "title": "Brahms' and Schubert's Lullabies, Slowed to an Hour 🌙 Koto and Shakuhachi Japanese Ambient | 57 Min",
+            "duration_display": "56:43",
+            "format": "video",
+            "average_view_duration": null,
+            "average_view_percentage": null,
+            "views": null,
+            "views_percent": null,
+            "watch_time_hours": null,
+            "watch_time_percent": null,
+            "net_subscribers": null,
+            "impressions": 4,
+            "ctr_percent": 0,
+            "publish_date_display": null
+          },
+          {
+            "title": "Liszt's Consolation, Slowed to an Hour 🌙 Koto and Shakuhachi Japanese Ambient | 56 Min",
+            "duration_display": "56:17",
+            "format": "video",
+            "average_view_duration": null,
+            "average_view_percentage": null,
+            "views": null,
+            "views_percent": null,
+            "watch_time_hours": null,
+            "watch_time_percent": null,
+            "net_subscribers": null,
+            "impressions": 5,
+            "ctr_percent": 0,
+            "publish_date_display": null
+          },
+          {
+            "title": "Nocturnes, Slowed to an Hour 🌙 Chopin on Koto and Shakuhachi | 59 Min",
+            "duration_display": "58:36",
+            "format": "video",
+            "average_view_duration": null,
+            "average_view_percentage": null,
+            "views": null,
+            "views_percent": null,
+            "watch_time_hours": null,
+            "watch_time_percent": null,
+            "net_subscribers": null,
+            "impressions": 1,
+            "ctr_percent": 0,
+            "publish_date_display": null
+          },
+          {
+            "title": "Raindrop Prelude, Slowed to an Hour 🌙 Chopin's Preludes on Koto and Shakuhachi | 60 Min",
+            "duration_display": "59:05",
+            "format": "video",
+            "average_view_duration": null,
+            "average_view_percentage": null,
+            "views": null,
+            "views_percent": null,
+            "watch_time_hours": null,
+            "watch_time_percent": null,
+            "net_subscribers": null,
+            "impressions": 3,
+            "ctr_percent": 0,
+            "publish_date_display": null
+          },
+          {
+            "title": "Moonlight Sonata on Koto and Shakuhachi — Beethoven, All Three Movements",
+            "duration_display": "14:19",
+            "format": "video",
+            "average_view_duration": null,
+            "average_view_percentage": null,
+            "views": null,
+            "views_percent": null,
+            "watch_time_hours": null,
+            "watch_time_percent": null,
+            "net_subscribers": null,
+            "impressions": 1,
+            "ctr_percent": 0,
+            "publish_date_display": null
+          },
+          {
+            "title": "Träumerei, Slowed to an Hour 🌙 Schumann's Scenes from Childhood on Koto and Shakuhachi | 60 Min",
+            "duration_display": "59:33",
+            "format": "video",
+            "average_view_duration": null,
+            "average_view_percentage": null,
+            "views": null,
+            "views_percent": null,
+            "watch_time_hours": null,
+            "watch_time_percent": null,
+            "net_subscribers": null,
+            "impressions": 8,
+            "ctr_percent": 0,
+            "publish_date_display": null
+          },
+          {
+            "title": "Impromptu, Intermezzo and Prelude on Koto and Shakuhachi — Schubert, Brahms, Rachmaninoff",
+            "duration_display": "16:07",
+            "format": "video",
+            "average_view_duration": null,
+            "average_view_percentage": null,
+            "views": null,
+            "views_percent": null,
+            "watch_time_hours": null,
+            "watch_time_percent": null,
+            "net_subscribers": null,
+            "impressions": 2,
+            "ctr_percent": 0,
+            "publish_date_display": null
+          }
+        ],
+        "sort_basis": "総再生時間順"
+      }
+    }
+  },
+  "capture_window_utc": {
+    "start": "2026-11-12T12:00:44.772Z",
+    "end": "2026-11-12T12:03:50.160Z"
+  },
+  "acquired_at_jst": {
+    "start": "2026-11-12T21:00:44.772000+09:00",
+    "end": "2026-11-12T21:03:50.160000+09:00"
+  },
+  "comparison_to_previous_record": {
+    "previous_date_jst": "2026-11-11",
+    "note": "前日の重複する移動窓との比較。Whispersは新しい画面に切り替わったため、表示範囲と指標が揃う値を比較。丸め値から差を算出しない。",
+    "overview": {
+      "7d": {
+        "views": -129,
+        "watch_time_hours": 0.9,
+        "net_subscribers": 0
+      },
+      "28d": {
+        "views": -257,
+        "watch_time_hours": -6.7,
+        "net_subscribers": -2
+      }
+    },
+    "current_subscribers_delta": 0,
+    "realtime_48h_views_delta": -36,
+    "format_7d": {
+      "shorts": {
+        "views": -120,
+        "engaged_views": -23,
+        "likes_net": 0,
+        "continued_viewing_percent": 2.3
+      },
+      "videos": {
+        "views": -9,
+        "impressions": -76,
+        "ctr_percent": 0.0
+      },
+      "live": {
+        "views": 0,
+        "impressions": 0
+      }
+    },
+    "format_28d": {
+      "shorts": {
+        "views": -139,
+        "engaged_views": -43,
+        "likes_net": -3,
+        "net_subscribers": 0,
+        "continued_viewing_percent": -0.2,
+        "swiped_away_percent": 0.2
+      },
+      "videos": {
+        "views": -90,
+        "ctr_percent": 0.0
+      },
+      "live": {
+        "views": -8,
+        "ctr_percent": 0.0
+      }
+    }
+  },
+  "sharing": {
+    "repository": "yasukawa1980/youtube",
+    "branch": "bgm/production",
+    "shared_scope": "数値と検証結果のreport.json。原文と画面証拠はMacに保存。",
+    "raw_sources_location": "/Users/ryo/youtube/analytics/daily/2026-11-12/whispers-of-japan"
+  },
+  "facts": [
+    "7日（11/5～11/11）766回・17.3時間・純増+2。28日（10/15～11/11）9561回・126.3時間・純増+12。登録者65人。",
+    "48時間109→73回（33.0%減）。上位は浜千鳥14回、芥川龍之介の朗読11回、「夢の国」の尺八ショート6回。",
+    "7日ショート552→432回、エンゲージ114→91、視聴継続17.4→19.7%、平均1:09・150.5%。フィード337回・78.0%、検索82回・19.0%。28日5832回・継続22.9%・スワイプ77.1%。",
+    "「月に寄す」ショートは7日303回・平均0:25・54.9%・視聴継続8.7%。432回の70.1%を占める。「夢の国」は11回・平均0:25・54.4%・継続54.6%で少数。",
+    "7日長尺342→333回、4676→4600インプレッション、CTR3.1%、平均4:08で前日と同じ。総再生15.4時間のうち関連動画13.9時間・90.0%。関連動画107回・平均8:00、ブラウジング150回・平均0:25。28日長尺2088回・インプレッション約3.2万・CTR2.3%・平均3:25。",
+    "長尺7日表の「夢十夜」は77回・平均7:30・12.6%・総再生8.8時間。最新「River Mist at an Old Ferry」は公開11時間・1回・CTR0%・平均0:00の表示。平均視聴割合は未表示。",
+    "ライブ7日1回・5インプレッション・CTR0.0%・平均0:10。28日1641回・インプレッション約1.1万・CTR2.2%・平均10:46。"
+  ],
+  "hypotheses": [
+    "7日ショートの減少には11/4が窓から外れた影響や新作の初動露出が関係し得る。日別の表示回数は未比較。",
+    "「月に寄す」の視聴継続8.7%と視聴開始後の平均0:25から、冒頭の見せ方は確認候補になる。配信先や公開後時間を揃えた比較は未実施。",
+    "長尺の流入元で平均視聴時間に差がある。流入先の動画や視聴者の違いを含むため、同じ動画の流入別内訳を確認するまで原因は未確定。"
+  ],
+  "recommendations": [
+    {
+      "id": "whispers-moon-short-opening-review",
+      "status": "新規",
+      "proposal": "「月に寄す」の冒頭1～2秒を、同じ公開後経過で十分に露出した尺八ショートと比較し、音の立ち上がりや最初の画が視聴継続率とどう関係するかを確認する。",
+      "evidence": "「月に寄す」は7日303回・平均0:25・視聴継続8.7%。ショート全体の継続は19.7%。「夢の国」は11回で判断保留。",
+      "execution": "提案記録のみ。"
+    }
+  ],
+  "data_quality": {
+    "channel_identity_verified_on_all_sources": true,
+    "core_sources_validated": 10,
+    "additional_detail_sources": 4,
+    "flags": [
+      "11/12に新しいインサイト画面へ切り替わった。前日と期間・指標が揃う数値のみ比較。",
+      "7日スワイプは詳細表に未表示。28日長尺・ライブのインプレッションは丸め表示で正確値はnull。",
+      "公開11時間・1回の最新長尺は平均0:00表示。視聴維持の評価は保留。",
+      "7日と28日の全体視聴は形式別の合計と一致。"
+    ]
+  },
+  "publication_constraints_respected": "Studioの動画・設定・公開状態・予約・コメントは変更なし。"
+}
