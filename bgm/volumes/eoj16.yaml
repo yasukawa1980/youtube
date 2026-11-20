@@ -53,3 +53,27 @@ video:
   segmented: true
 
 music_bed_source: "/Users/ryo/Desktop/BGM/5_Echoes of Old Japan/EOJ16_素材_聖夜/_work/music_bed.wav"
+
+# ★ショート3本（開始は EOJ16_聖夜/_調査_ショート開始.py ・結果は同 .txt）
+shorts:
+- tag: A
+  image: 1
+  anchor: 0.82
+  at: "0:01:06"       # 01「きよしこの夜」グルーバー・律A・尺八
+  title: きよしこの夜
+  sub: [グルーバー　宵 尺八, 2時間版はチャンネルに]
+  move: in
+- tag: B
+  image: 3
+  anchor: 0.82
+  at: "1:04:54"       # 09「さやかに星はきらめき」アダン・律G・尺八
+  title: さやかに星は
+  sub: [アダン　聖夜 尺八, 2時間版はチャンネルに]
+  move: out
+- tag: C
+  image: 4
+  anchor: 0.82
+  at: "1:33:01"       # 13「もろびとこぞりて」・律A・尺八
+  title: もろびとこぞりて
+  sub: [賛美歌　朝 尺八, 2時間版はチャンネルに]
+  move: in

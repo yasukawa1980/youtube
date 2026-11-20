@@ -1,0 +1,194 @@
+{
+  "project": "Whispers of Japan / EOJ16 和の聖夜",
+  "created_at": "2026-11-12T00:54:12.783292+09:00",
+  "generator": "built-in image_gen; one image per call",
+  "prompt_handling": "初回は各txt全文を変更せず使用。02〜05は01を参照。05の再生成はtxt全文の末尾に記録した補足を追加。",
+  "output_processing": {
+    "size": [
+      1920,
+      1080
+    ],
+    "method": "macOS sips --resampleHeightWidth 1080 1920",
+    "exposure_correction": false,
+    "color_correction": false,
+    "crop": false
+  },
+  "measurement": {
+    "input": "納品PNGのRGB画素",
+    "luminance": "Y = 0.2126 R + 0.7152 G + 0.0722 B; encoded RGB, 0..255, no linearization",
+    "dark_fraction": "Y < 16 の画素数 / 全画素数",
+    "sha256": "納品PNGファイル全体のSHA-256",
+    "retry_count": "初回を除いた生成し直し回数"
+  },
+  "shared_visual_checks": {
+    "style": "新版画調・木版の色面と木目",
+    "architecture": "同じ瓦屋根・木壁と白漆喰の小教会、同じ入り江と岬",
+    "absent": "人物・人影・動物・鳥・文字・署名・落款・電線・ツリー・サンタ・赤緑の装飾・電飾・聖人像・鳥居・寺社・灯籠を目視で認めず"
+  },
+  "brightness_order_dark_to_bright": [
+    "eoj16_02",
+    "eoj16_05",
+    "eoj16_03",
+    "eoj16_01",
+    "eoj16_04"
+  ],
+  "images": [
+    {
+      "id": "eoj16_01",
+      "file": "bgm/EOJ16_聖夜/画像/eoj16_01.png",
+      "width": 1920,
+      "height": 1080,
+      "bytes": 3949390,
+      "mean_luminance": 116.36695,
+      "luminance_below_16_ratio": 2.98997e-05,
+      "luminance_below_16_percent": 0.00298997,
+      "sha256": "4df8ad38da37e0e1dc101a30ff9704c0dd01ed9bc68d071518dcef3f28aa6a5d",
+      "generation_attempts": 1,
+      "retry_count": 0,
+      "selected_attempt": 1,
+      "source_image": "/Users/ryo/.codex/generated_images/01a1cb4a-3935-7fc1-a10a-609cd9a17eb1/exec-0db16769-30f7-4fd0-a87e-63dc8232502a.png",
+      "source_dimensions": [
+        1672,
+        941
+      ],
+      "reference_image": null,
+      "prompt_file": "bgm/EOJ16_聖夜_画像プロンプト/01_宵（曲01_04）.txt",
+      "prompt_sha256": "9971c2a92efa9815aa54aeb3763f9a7ae532090847e6950dd0dd1c43042c2138",
+      "prompt_text_verbatim": "A small wooden island church above a quiet fishing cove at dusk, just after sunset. The cove is a small, quiet fishing cove on a remote island in western Japan in midwinter, in the days before Christmas. Calm dark-blue sea water fills the lower left foreground and reaches into the middle distance, held between two low rocky headlands covered with dark pines. On a gentle slope above the shore, right of centre in the middle distance, stands one small old wooden church in the Japanese island style: a simple hall with a grey tiled Japanese roof (kawara), white plastered and dark wooden walls, a short square wooden bell tower over the entrance with a small plain wooden cross on top, and a row of tall, narrow arched windows along its side. A few low grey-tiled fishermen's houses sit lower down by the shore, small and dark, and two or three small wooden fishing boats are pulled up on the pebble beach. The church is the only tall building and the only one with lit windows. No people, no figures, no animals, no birds. No Christmas tree, no Santa Claus, no reindeer, no gifts, no wreaths, no red and green decorations, no fairy lights, no neon, no stained-glass saints, no statues, no graves. No temples, no shrines, no torii, no pagodas, no stone lanterns, no paper lanterns, no bridges, no lighthouse, no ships, no harbour walls. No snow, no cherry blossoms, no plum blossoms, no camellias, no maple leaves, no autumn colours, no persimmons, no bamboo, no pampas grass. No snow yet: the pines are dark green and the roofs are bare grey tile. The sun has just set behind the left headland out of frame: the sky is a soft gradated wash from warm apricot low over the sea to rose and pale violet above, and the calm water reflects these colours in long soft bands. The windows of the church have just been lit and glow a small warm amber against the cooling evening. The first star shows faintly high above the bell tower. Apricot, rose, pale violet, deep sea blue, dark pine green, warm amber window light. Japanese shin-hanga woodblock print in the manner of the 1920s-30s revival: flat layered areas of colour, visible woodgrain in the flat passages, softly gradated sky (bokashi), Western perspective and cast light held inside Japanese printmaking. The sea, the headlands, the pines, the church, the houses and the boats are drawn as part of the print, in the same flat woodblock manner, never photographic. Calm, no people, no figures. Strong clear difference between the light and dark masses so the image still reads when reduced to a thumbnail. No text, no signature, no seal stamp, no lettering of any kind. No modern objects: no power lines, no utility poles, no street lamps, no vehicles, no plastic, no road markings. Wide 16:9 landscape. Exposed so that texture is clearly visible everywhere. Shadows are lifted and open, full of visible detail, nothing crushed to pure black. High dynamic range, rich texture even in the darkest areas.",
+      "visual_check": {
+        "passed": true,
+        "notes": "日没直後の桃色・紫色の空、教会の琥珀色の窓明かり。雪なし。",
+        "remaining_deviations": []
+      }
+    },
+    {
+      "id": "eoj16_02",
+      "file": "bgm/EOJ16_聖夜/画像/eoj16_02.png",
+      "width": 1920,
+      "height": 1080,
+      "bytes": 3702241,
+      "mean_luminance": 52.142925,
+      "luminance_below_16_ratio": 0.0068335262,
+      "luminance_below_16_percent": 0.68335262,
+      "sha256": "7b13eb6ca007ba2cf274e4841770391c865a843c869945c5264cd5f1ac8d6370",
+      "generation_attempts": 1,
+      "retry_count": 0,
+      "selected_attempt": 1,
+      "source_image": "/Users/ryo/.codex/generated_images/01a1cb4a-3935-7fc1-a10a-609cd9a17eb1/exec-46317d72-bf71-4630-a301-0a9ed83d98b6.png",
+      "source_dimensions": [
+        1672,
+        941
+      ],
+      "reference_image": "/Users/ryo/.codex/generated_images/01a1cb4a-3935-7fc1-a10a-609cd9a17eb1/exec-0db16769-30f7-4fd0-a87e-63dc8232502a.png",
+      "prompt_file": "bgm/EOJ16_聖夜_画像プロンプト/02_夜（曲05_08_いちばん暗い）.txt",
+      "prompt_sha256": "b65e3f325b5799d57c8e72c66620e4c19f34ffc53e61999c8db282930df1948c",
+      "prompt_text_verbatim": "The same small wooden island church above the fishing cove, deep in a cold, moonless winter night: the darkest scene. The cove is a small, quiet fishing cove on a remote island in western Japan in midwinter, in the days before Christmas. Calm dark-blue sea water fills the lower left foreground and reaches into the middle distance, held between two low rocky headlands covered with dark pines. On a gentle slope above the shore, right of centre in the middle distance, stands one small old wooden church in the Japanese island style: a simple hall with a grey tiled Japanese roof (kawara), white plastered and dark wooden walls, a short square wooden bell tower over the entrance with a small plain wooden cross on top, and a row of tall, narrow arched windows along its side. A few low grey-tiled fishermen's houses sit lower down by the shore, small and dark, and two or three small wooden fishing boats are pulled up on the pebble beach. The church is the only tall building and the only one with lit windows. No people, no figures, no animals, no birds. No Christmas tree, no Santa Claus, no reindeer, no gifts, no wreaths, no red and green decorations, no fairy lights, no neon, no stained-glass saints, no statues, no graves. No temples, no shrines, no torii, no pagodas, no stone lanterns, no paper lanterns, no bridges, no lighthouse, no ships, no harbour walls. No snow, no cherry blossoms, no plum blossoms, no camellias, no maple leaves, no autumn colours, no persimmons, no bamboo, no pampas grass. No snow yet. There is no moon. The sky is deep indigo with many small clear stars, and their faint blue light silvers the ridges of the tiled roofs, the edges of the bell tower and the small ripples on the sea. The only warm light is the row of tall arched church windows, glowing a soft low amber, with their light lying in a faint broken path on the dark water below. The fishermen's houses are dark. Deep indigo, night blue, silver-grey water, dark pine green, soft amber. Japanese shin-hanga woodblock print in the manner of the 1920s-30s revival: flat layered areas of colour, visible woodgrain in the flat passages, softly gradated sky (bokashi), Western perspective and cast light held inside Japanese printmaking. The sea, the headlands, the pines, the church, the houses and the boats are drawn as part of the print, in the same flat woodblock manner, never photographic. Calm, no people, no figures. Strong clear difference between the light and dark masses so the image still reads when reduced to a thumbnail. No text, no signature, no seal stamp, no lettering of any kind. No modern objects: no power lines, no utility poles, no street lamps, no vehicles, no plastic, no road markings. Wide 16:9 landscape. Exposed so that texture is clearly visible everywhere. Shadows are lifted and open, full of visible detail, nothing crushed to pure black. High dynamic range, rich texture even in the darkest areas.",
+      "visual_check": {
+        "passed": true,
+        "notes": "月なし、星空と教会の窓明かり。雪なし。5枚中で平均輝度が最低。",
+        "remaining_deviations": []
+      }
+    },
+    {
+      "id": "eoj16_03",
+      "file": "bgm/EOJ16_聖夜/画像/eoj16_03.png",
+      "width": 1920,
+      "height": 1080,
+      "bytes": 4032941,
+      "mean_luminance": 93.178562,
+      "luminance_below_16_ratio": 3.03819e-05,
+      "luminance_below_16_percent": 0.00303819,
+      "sha256": "34dcd060437738bb402d986b67ad144278a9761ae3f7aa90fbc68eb6509e4e50",
+      "generation_attempts": 1,
+      "retry_count": 0,
+      "selected_attempt": 1,
+      "source_image": "/Users/ryo/.codex/generated_images/01a1cb4a-3935-7fc1-a10a-609cd9a17eb1/exec-0b9ee28d-a8f6-4411-b1b5-e38bc0bad25a.png",
+      "source_dimensions": [
+        1672,
+        941
+      ],
+      "reference_image": "/Users/ryo/.codex/generated_images/01a1cb4a-3935-7fc1-a10a-609cd9a17eb1/exec-0db16769-30f7-4fd0-a87e-63dc8232502a.png",
+      "prompt_file": "bgm/EOJ16_聖夜_画像プロンプト/03_聖夜（曲09_12_見せ場）.txt",
+      "prompt_sha256": "798fb9a7db9048ffd51a86d8d889ee8753c08c287ada6f6cd714c73d09a29f8b",
+      "prompt_text_verbatim": "The same small wooden island church above the fishing cove on Christmas Eve, as the first snow begins to fall: the most beautiful scene of the night. The cove is a small, quiet fishing cove on a remote island in western Japan in midwinter, in the days before Christmas. Calm dark-blue sea water fills the lower left foreground and reaches into the middle distance, held between two low rocky headlands covered with dark pines. On a gentle slope above the shore, right of centre in the middle distance, stands one small old wooden church in the Japanese island style: a simple hall with a grey tiled Japanese roof (kawara), white plastered and dark wooden walls, a short square wooden bell tower over the entrance with a small plain wooden cross on top, and a row of tall, narrow arched windows along its side. A few low grey-tiled fishermen's houses sit lower down by the shore, small and dark, and two or three small wooden fishing boats are pulled up on the pebble beach. The church is the only tall building and the only one with lit windows. No people, no figures, no animals, no birds. No Christmas tree, no Santa Claus, no reindeer, no gifts, no wreaths, no red and green decorations, no fairy lights, no neon, no stained-glass saints, no statues, no graves. No temples, no shrines, no torii, no pagodas, no stone lanterns, no paper lanterns, no bridges, no lighthouse, no ships, no harbour walls. No cherry blossoms, no plum blossoms, no camellias, no maple leaves, no autumn colours, no persimmons, no bamboo, no pampas grass. Large soft snowflakes are drifting down through the whole picture, and a thin first layer of white lies on the tiled roofs, the pine branches and the boats. The sky is a deep, soft blue-grey, lit faintly from within by the falling snow. All the tall arched windows of the church glow a warm golden amber, brighter than before, and the open church door spills a soft rectangle of golden light onto the new snow of the path. The reflections of the windows tremble on the calm sea. Deep blue-grey, white snow, warm gold, sea blue, dark pine green. Japanese shin-hanga woodblock print in the manner of the 1920s-30s revival: flat layered areas of colour, visible woodgrain in the flat passages, softly gradated sky (bokashi), Western perspective and cast light held inside Japanese printmaking. The sea, the headlands, the pines, the church, the houses and the boats are drawn as part of the print, in the same flat woodblock manner, never photographic. Calm, no people, no figures. Strong clear difference between the light and dark masses so the image still reads when reduced to a thumbnail. No text, no signature, no seal stamp, no lettering of any kind. No modern objects: no power lines, no utility poles, no street lamps, no vehicles, no plastic, no road markings. Wide 16:9 landscape. Exposed so that texture is clearly visible everywhere. Shadows are lifted and open, full of visible detail, nothing crushed to pure black. High dynamic range, rich texture even in the darkest areas.",
+      "visual_check": {
+        "passed": true,
+        "notes": "降雪と薄い初積雪。窓と開いた扉の金色の光が見せ場。",
+        "remaining_deviations": []
+      }
+    },
+    {
+      "id": "eoj16_04",
+      "file": "bgm/EOJ16_聖夜/画像/eoj16_04.png",
+      "width": 1920,
+      "height": 1080,
+      "bytes": 3906629,
+      "mean_luminance": 175.722984,
+      "luminance_below_16_ratio": 2.8935e-06,
+      "luminance_below_16_percent": 0.00028935,
+      "sha256": "fedaf4a82b5e05883bb852c006cdbbc04132c099424db6394efe9dacdbfe1859",
+      "generation_attempts": 1,
+      "retry_count": 0,
+      "selected_attempt": 1,
+      "source_image": "/Users/ryo/.codex/generated_images/01a1cb4a-3935-7fc1-a10a-609cd9a17eb1/exec-94f95da0-04f7-4c8c-b41d-8294a57c1336.png",
+      "source_dimensions": [
+        1672,
+        941
+      ],
+      "reference_image": "/Users/ryo/.codex/generated_images/01a1cb4a-3935-7fc1-a10a-609cd9a17eb1/exec-0db16769-30f7-4fd0-a87e-63dc8232502a.png",
+      "prompt_file": "bgm/EOJ16_聖夜_画像プロンプト/04_朝（曲13_16_いちばん明るい）.txt",
+      "prompt_sha256": "cb214557fdcdfc1af1ee5380b1b5abf0bd6e2cb7cb609077d303f1eae5e30517",
+      "prompt_text_verbatim": "The same small wooden island church above the fishing cove on Christmas morning, after the snow has stopped: the brightest scene. The cove is a small, quiet fishing cove on a remote island in western Japan in midwinter, in the days before Christmas. Calm dark-blue sea water fills the lower left foreground and reaches into the middle distance, held between two low rocky headlands covered with dark pines. On a gentle slope above the shore, right of centre in the middle distance, stands one small old wooden church in the Japanese island style: a simple hall with a grey tiled Japanese roof (kawara), white plastered and dark wooden walls, a short square wooden bell tower over the entrance with a small plain wooden cross on top, and a row of tall, narrow arched windows along its side. A few low grey-tiled fishermen's houses sit lower down by the shore, small and dark, and two or three small wooden fishing boats are pulled up on the pebble beach. The church is the only tall building and the only one with lit windows. No people, no figures, no animals, no birds. No Christmas tree, no Santa Claus, no reindeer, no gifts, no wreaths, no red and green decorations, no fairy lights, no neon, no stained-glass saints, no statues, no graves. No temples, no shrines, no torii, no pagodas, no stone lanterns, no paper lanterns, no bridges, no lighthouse, no ships, no harbour walls. No cherry blossoms, no plum blossoms, no camellias, no maple leaves, no autumn colours, no persimmons, no bamboo, no pampas grass. Fresh snow lies smooth and white over the tiled roofs, the slope, the pine-covered headlands and the boats on the beach. The sky is pale and luminous, from soft cream and pale gold over the sea to clear pale blue above; the first low sunlight touches the bell tower and the snowy roof of the church. The sea is calm and pale blue, with a soft white morning mist lying low over the water. The church windows are no longer lit. Cream, pale gold, pale blue, pearl-white snow, soft grey-green pines. Japanese shin-hanga woodblock print in the manner of the 1920s-30s revival: flat layered areas of colour, visible woodgrain in the flat passages, softly gradated sky (bokashi), Western perspective and cast light held inside Japanese printmaking. The sea, the headlands, the pines, the church, the houses and the boats are drawn as part of the print, in the same flat woodblock manner, never photographic. Calm, no people, no figures. Strong clear difference between the light and dark masses so the image still reads when reduced to a thumbnail. No text, no signature, no seal stamp, no lettering of any kind. No modern objects: no power lines, no utility poles, no street lamps, no vehicles, no plastic, no road markings. Wide 16:9 landscape. Exposed so that texture is clearly visible everywhere. Shadows are lifted and open, full of visible detail, nothing crushed to pure black. High dynamic range, rich texture even in the darkest areas.",
+      "visual_check": {
+        "passed": true,
+        "notes": "降雪が止み、厚い積雪と朝日。窓は消灯。5枚中で平均輝度が最高。",
+        "remaining_deviations": []
+      }
+    },
+    {
+      "id": "eoj16_05",
+      "file": "bgm/EOJ16_聖夜/画像/eoj16_05.png",
+      "width": 1920,
+      "height": 1080,
+      "bytes": 3799424,
+      "mean_luminance": 78.087262,
+      "luminance_below_16_ratio": 0.0009027778,
+      "luminance_below_16_percent": 0.09027778,
+      "sha256": "0748772f7805860a41130f4d3cb8c969b78e8d4093c14bb64f140a71db7d3b48",
+      "generation_attempts": 2,
+      "retry_count": 1,
+      "selected_attempt": 2,
+      "source_image": "/Users/ryo/.codex/generated_images/01a1cb4a-3935-7fc1-a10a-609cd9a17eb1/exec-e9afea98-1513-44fa-94a2-95b9597edb31.png",
+      "source_dimensions": [
+        1672,
+        941
+      ],
+      "reference_image": "/Users/ryo/.codex/generated_images/01a1cb4a-3935-7fc1-a10a-609cd9a17eb1/exec-0db16769-30f7-4fd0-a87e-63dc8232502a.png",
+      "prompt_file": "bgm/EOJ16_聖夜_画像プロンプト/05_サムネ専用（本編には使わない）.txt",
+      "prompt_sha256": "c57a0727783e4224ed502f3ba2cc98e5d663975f7e1c2daaa769c4fc3077ca27",
+      "prompt_text_verbatim": "The same small wooden island church above the fishing cove on Christmas Eve with soft snow falling, composed for a thumbnail. The cove is a small, quiet fishing cove on a remote island in western Japan in midwinter, in the days before Christmas. Calm dark-blue sea water fills the lower left foreground and reaches into the middle distance, held between two low rocky headlands covered with dark pines. On a gentle slope above the shore, right of centre in the middle distance, stands one small old wooden church in the Japanese island style: a simple hall with a grey tiled Japanese roof (kawara), white plastered and dark wooden walls, a short square wooden bell tower over the entrance with a small plain wooden cross on top, and a row of tall, narrow arched windows along its side. A few low grey-tiled fishermen's houses sit lower down by the shore, small and dark, and two or three small wooden fishing boats are pulled up on the pebble beach. The church is the only tall building and the only one with lit windows. No people, no figures, no animals, no birds. No Christmas tree, no Santa Claus, no reindeer, no gifts, no wreaths, no red and green decorations, no fairy lights, no neon, no stained-glass saints, no statues, no graves. No temples, no shrines, no torii, no pagodas, no stone lanterns, no paper lanterns, no bridges, no lighthouse, no ships, no harbour walls. No cherry blossoms, no plum blossoms, no camellias, no maple leaves, no autumn colours, no persimmons, no bamboo, no pampas grass. The left third of the image is a calm, dark, simple area: the shadowed pine-covered headland and dark sea, with almost no detail that would compete with lettering placed over it. The church stands in the right half, larger in the frame than in the other scenes, its row of tall arched windows and open door glowing warm gold, with a thin layer of snow on its tiled roof and soft snowflakes falling in front of the deep blue-grey sky. The golden reflections of the windows lie on the calm water in the lower right. Strong contrast between the dark left third and the warm lit right side, so the image still reads at the size of a postage stamp. Muted woodblock colour. Japanese shin-hanga woodblock print in the manner of the 1920s-30s revival: flat layered areas of colour, visible woodgrain in the flat passages, softly gradated sky (bokashi), Western perspective and cast light held inside Japanese printmaking. The sea, the headlands, the pines, the church, the houses and the boats are drawn as part of the print, in the same flat woodblock manner, never photographic. Calm, no people, no figures. Strong clear difference between the light and dark masses so the image still reads when reduced to a thumbnail. No text, no signature, no seal stamp, no lettering of any kind. No modern objects: no power lines, no utility poles, no street lamps, no vehicles, no plastic, no road markings. Wide 16:9 landscape. Exposed so that texture is clearly visible everywhere. Shadows are lifted and open, full of visible detail, nothing crushed to pure black. High dynamic range, rich texture even in the darkest areas.",
+      "visual_check": {
+        "passed": true,
+        "notes": "左1/3は暗い岬・海・空で構成され、右半分に教会の窓と扉の金色の光。サムネ専用。",
+        "remaining_deviations": []
+      },
+      "thumbnail_check": {
+        "width": 168,
+        "height": 95,
+        "left_third_x_start": 0,
+        "left_third_x_end_exclusive": 56,
+        "left_third_luminance_median": 48.549,
+        "resample": "macOS sips --resampleHeightWidth 95 168; 16:9 height rounded to nearest integer (94.5 -> 95)"
+      },
+      "supplemental_revision_instructions": "Revision constraints: The reference establishes the exact same church architecture and recognizable cove. For this thumbnail reframe so the left third is dominated by a simple dark pine-covered headland and dark sea with minimal pale sky, sparse snowflakes and no bright snow patches competing with text. Keep the church in the right half. All boats must have completely unmarked wood: absolutely no characters, writing, symbols, registration marks or lettering anywhere. Keep the original shin-hanga print style and detailed open shadows.",
+      "rejected_attempts": [
+        {
+          "attempt": 1,
+          "file": "bgm/EOJ16_聖夜/画像/生成直後/eoj16_05_試作01_不採用.png",
+          "reason": "舟に文字のような模様。左側の文字スペースも整理するため再生成。",
+          "sha256": "b292274c45782437d21c984b9e31b004b2ac4a4d405fa2e4145e48bf7af52bd1"
+        }
+      ]
+    }
+  ]
+}
