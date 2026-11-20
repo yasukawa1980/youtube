@@ -1,0 +1,83 @@
+{
+ "model": "Suno 最新（画面の既定）",
+ "seconds_target": "作業 約4分（スライダー240秒）／休憩 約5分半（330秒）",
+ "lyrics": "",
+ "instrumental": true,
+ "runs_per_kind": {
+  "A-F": 5,
+  "G-H": 3
+ },
+ "songs_per_run": 2,
+ "estimated_credits": 360,
+ "budget": "Suno 360クレジット以内・購入なし（IRO24と同じ上限。残高は着手時に確かめる）",
+ "order": "作業 A→F／休憩 G・H",
+ "trial": "まず各種1回（8回・16曲・80見込み）で声・楽器・尺を確かめ、抜粋を本人が試聴してから残り28回（作業24・休憩4）",
+ "naming": "iro25_A-01a / iro25_A-01b（回番号＋a/b）",
+ "adopt": "作業42曲（7曲×6回・7曲目は25:00でフェード）＋休憩6曲（5:00でフェード・−2dB）",
+ "leads": [
+  {
+   "tag": "A",
+   "name": "マリンバ（柔らかいマレット・中低域）",
+   "key": "F major",
+   "bpm": 80,
+   "style": "Warm wooden marimba in the foreground played with soft yarn mallets in its mellow middle and low register, a simple gentle melody with a few rolled long notes, round and woody, no fast runs, no tropical or island feel. F major, 80 BPM. Instrumental study lo-fi hip hop for a quiet winter afternoon turning into a snowy night, studying at a small desk while snow slowly settles outside the window. A relaxed steady boom-bap groove with a soft kick, a gentle snare and light swung hi-hats, a round warm bass and mellow jazzy chords underneath, gentle tape warmth. Calm, warm and focused, never sleepy, never dramatic. A long, continuous piece that keeps the same easy groove all the way through, with no breakdowns and no dramatic build. It continues in this same way for many minutes. About four minutes, gentle natural ending. No vocals, no humming, no whistling. No rain, no wind, no birds, no clock ticking, no field recordings. No dog sounds, no barking.",
+   "exclude": "vocals, singing, humming, whistling, chanting, choir, spoken words, rap, vocal chops, rain, wind, birds, crickets, clock ticking, city ambience, field recordings, sleigh bells, jingle bells, christmas, dog sounds, barking, piano, electric piano, rhodes, saxophone, vibraphone, glockenspiel, celesta, music box, trumpet, flugelhorn, clarinet, accordion, flute lead, synth lead, guitar lead, violin lead, kalimba lead"
+  },
+  {
+   "tag": "B",
+   "name": "フルート（息の柔らかい中低域）",
+   "key": "D major",
+   "bpm": 78,
+   "style": "Soft breathy concert flute in the foreground in its warm low and middle register, long gentle legato phrases, a simple lyrical melody played quietly, no bright high trills, no showy runs. D major, 78 BPM. Instrumental study lo-fi hip hop for a quiet winter afternoon turning into a snowy night, studying at a small desk while snow slowly settles outside the window. A relaxed steady boom-bap groove with a soft kick, a gentle snare and light swung hi-hats, a round warm bass and mellow jazzy chords underneath, gentle tape warmth. Calm, warm and focused, never sleepy, never dramatic. A long, continuous piece that keeps the same easy groove all the way through, with no breakdowns and no dramatic build. It continues in this same way for many minutes. About four minutes, gentle natural ending. No vocals, no humming, no whistling. No rain, no wind, no birds, no clock ticking, no field recordings. No dog sounds, no barking.",
+   "exclude": "vocals, singing, humming, whistling, chanting, choir, spoken words, rap, vocal chops, rain, wind, birds, crickets, clock ticking, city ambience, field recordings, sleigh bells, jingle bells, christmas, dog sounds, barking, piano, electric piano, rhodes, saxophone, vibraphone, glockenspiel, celesta, music box, trumpet, flugelhorn, clarinet, accordion, synth lead, guitar lead, violin lead, marimba lead, kalimba lead"
+  },
+  {
+   "tag": "C",
+   "name": "アコースティックギター（スチール弦の指弾き）",
+   "key": "G major",
+   "bpm": 82,
+   "style": "Warm steel-string acoustic guitar in the foreground, fingerpicked softly, gentle open chords and a simple single-note melody, close and intimate, no strumming hard, no fast runs, not folk-pop. G major, 82 BPM. Instrumental study lo-fi hip hop for a quiet winter afternoon turning into a snowy night, studying at a small desk while snow slowly settles outside the window. A relaxed steady boom-bap groove with a soft kick, a gentle snare and light swung hi-hats, a round warm bass and mellow jazzy chords underneath, gentle tape warmth. Calm, warm and focused, never sleepy, never dramatic. A long, continuous piece that keeps the same easy groove all the way through, with no breakdowns and no dramatic build. It continues in this same way for many minutes. About four minutes, gentle natural ending. No vocals, no humming, no whistling. No rain, no wind, no birds, no clock ticking, no field recordings. No dog sounds, no barking.",
+   "exclude": "vocals, singing, humming, whistling, chanting, choir, spoken words, rap, vocal chops, rain, wind, birds, crickets, clock ticking, city ambience, field recordings, sleigh bells, jingle bells, christmas, dog sounds, barking, piano, electric piano, rhodes, saxophone, vibraphone, glockenspiel, celesta, music box, trumpet, flugelhorn, clarinet, accordion, flute lead, synth lead, violin lead, marimba lead, kalimba lead, nylon guitar, electric guitar"
+  },
+  {
+   "tag": "D",
+   "name": "カリンバ（低めのアルト・ゆっくり）",
+   "key": "E-flat major",
+   "bpm": 76,
+   "style": "Soft alto kalimba in the foreground with a warm low tone, slow sparse plucked notes forming a simple melody, gentle and intimate, not toy-like, not tinkly, no fast patterns. E-flat major, 76 BPM. Instrumental study lo-fi hip hop for a quiet winter afternoon turning into a snowy night, studying at a small desk while snow slowly settles outside the window. A relaxed steady boom-bap groove with a soft kick, a gentle snare and light swung hi-hats, a round warm bass and mellow jazzy chords underneath, gentle tape warmth. Calm, warm and focused, never sleepy, never dramatic. A long, continuous piece that keeps the same easy groove all the way through, with no breakdowns and no dramatic build. It continues in this same way for many minutes. About four minutes, gentle natural ending. No vocals, no humming, no whistling. No rain, no wind, no birds, no clock ticking, no field recordings. No dog sounds, no barking.",
+   "exclude": "vocals, singing, humming, whistling, chanting, choir, spoken words, rap, vocal chops, rain, wind, birds, crickets, clock ticking, city ambience, field recordings, sleigh bells, jingle bells, christmas, dog sounds, barking, piano, electric piano, rhodes, saxophone, vibraphone, glockenspiel, celesta, music box, trumpet, flugelhorn, clarinet, accordion, flute lead, synth lead, guitar lead, violin lead, marimba lead"
+  },
+  {
+   "tag": "E",
+   "name": "アナログシンセ（丸く柔らかいリード）",
+   "key": "C major",
+   "bpm": 80,
+   "style": "A soft, round, warm analog synth lead in the foreground with a gentle low-pass tone and only a slight slow vibrato, a simple calm singing melody, like warm light on a snowy night, not chiptune, not 8-bit, not bright, not arpeggiated. C major, 80 BPM. Instrumental study lo-fi hip hop for a quiet winter afternoon turning into a snowy night, studying at a small desk while snow slowly settles outside the window. A relaxed steady boom-bap groove with a soft kick, a gentle snare and light swung hi-hats, a round warm bass and mellow jazzy chords underneath, gentle tape warmth. Calm, warm and focused, never sleepy, never dramatic. A long, continuous piece that keeps the same easy groove all the way through, with no breakdowns and no dramatic build. It continues in this same way for many minutes. About four minutes, gentle natural ending. No vocals, no humming, no whistling. No rain, no wind, no birds, no clock ticking, no field recordings. No dog sounds, no barking.",
+   "exclude": "vocals, singing, humming, whistling, chanting, choir, spoken words, rap, vocal chops, rain, wind, birds, crickets, clock ticking, city ambience, field recordings, sleigh bells, jingle bells, christmas, dog sounds, barking, piano, electric piano, rhodes, saxophone, vibraphone, glockenspiel, celesta, music box, trumpet, flugelhorn, clarinet, accordion, flute lead, guitar lead, violin lead, marimba lead, kalimba lead"
+  },
+  {
+   "tag": "F",
+   "name": "ヴァイオリン（弱音器・ピチカートと短いレガート）",
+   "key": "B-flat major",
+   "bpm": 78,
+   "style": "Muted solo violin in the foreground, soft gentle pizzicato phrases alternating with short quiet legato notes, warm and close, chamber music melted into lo-fi, no virtuoso solo, no dramatic vibrato. B-flat major, 78 BPM. Instrumental study lo-fi hip hop for a quiet winter afternoon turning into a snowy night, studying at a small desk while snow slowly settles outside the window. A relaxed steady boom-bap groove with a soft kick, a gentle snare and light swung hi-hats, a round warm bass and mellow jazzy chords underneath, gentle tape warmth. Calm, warm and focused, never sleepy, never dramatic. A long, continuous piece that keeps the same easy groove all the way through, with no breakdowns and no dramatic build. It continues in this same way for many minutes. About four minutes, gentle natural ending. No vocals, no humming, no whistling. No rain, no wind, no birds, no clock ticking, no field recordings. No dog sounds, no barking.",
+   "exclude": "vocals, singing, humming, whistling, chanting, choir, spoken words, rap, vocal chops, rain, wind, birds, crickets, clock ticking, city ambience, field recordings, sleigh bells, jingle bells, christmas, dog sounds, barking, piano, electric piano, rhodes, saxophone, vibraphone, glockenspiel, celesta, music box, trumpet, flugelhorn, clarinet, accordion, flute lead, synth lead, guitar lead, marimba lead, kalimba lead, cello, orchestra"
+  },
+  {
+   "tag": "G",
+   "name": "グラスハープ＋空気のパッド",
+   "key": "C major",
+   "bpm": 60,
+   "style": "Soft glass harp with clear, pure, long ringing tones over a warm airy pad, slow gentle melody, still and luminous. C major, around 60 BPM feel. Beatless ambient interlude for a five-minute study break on a snowy winter evening, warm and restful. No drums, no percussion, no beat, no bass groove. Slow, gentle and spacious, soft sustained harmony that breathes like a quiet exhale. A long, continuous piece in the same calm mood all the way through, no build. It continues in this same way for many minutes. About five and a half minutes, gentle natural ending. No vocals, no humming, no whistling. No rain, no birds, no water, no wind, no field recordings. No dog sounds, no barking.",
+   "exclude": "drums, percussion, beat, drum machine, hi-hats, bass groove, vocals, singing, humming, whistling, chanting, choir, spoken words, rain, water, wind, birds, field recordings, sleigh bells, christmas, dog sounds, barking, piano lead, synth lead, singing bowl, lyre, harp"
+  },
+  {
+   "tag": "H",
+   "name": "タングドラム＋温かいパッド",
+   "key": "A-flat major",
+   "bpm": 58,
+   "style": "Soft steel tongue drum gently struck with the fingers, warm round notes ringing out slowly, over a warm glowing slowly moving pad, comforting and still. A-flat major, around 58 BPM feel. Beatless ambient interlude for a five-minute study break on a snowy winter evening, warm and restful. No drums, no percussion, no beat, no bass groove. Slow, gentle and spacious, soft sustained harmony that breathes like a quiet exhale. A long, continuous piece in the same calm mood all the way through, no build. It continues in this same way for many minutes. About five and a half minutes, gentle natural ending. No vocals, no humming, no whistling. No rain, no birds, no water, no wind, no field recordings. No dog sounds, no barking.",
+   "exclude": "drums, percussion, beat, drum machine, hi-hats, bass groove, vocals, singing, humming, whistling, chanting, choir, spoken words, rain, water, wind, birds, field recordings, sleigh bells, christmas, dog sounds, barking, piano lead, synth lead, singing bowl, lyre, harp"
+  }
+ ]
+}
