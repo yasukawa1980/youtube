@@ -1,0 +1,341 @@
+{
+ "episode_id": "EP015",
+ "series": "Quiet Origins",
+ "language": "ja",
+ "title": "クリスマスはなぜ12月25日なのか",
+ "subtitle": "354年のローマの本、同じ日の「不敗者の誕生日」、3月25日からの計算、そして最古の資料が語ること・語らないこと",
+ "script_version": "v02 (2026-11-20, approved by the owner 2026-11-21)",
+ "opening_after": "P02",
+ "format": "two-answer comparison (二説比較型)",
+ "chapters": [
+  {
+   "id": "C01",
+   "title": "日付のない誕生"
+  },
+  {
+   "id": "C02",
+   "title": "最も古い記録"
+  },
+  {
+   "id": "C03",
+   "title": "答え1：太陽"
+  },
+  {
+   "id": "C04",
+   "title": "答え2：計算"
+  },
+  {
+   "id": "C05",
+   "title": "日付の広がり"
+  },
+  {
+   "id": "C06",
+   "title": "では、なぜ12月25日なのか"
+  }
+ ],
+ "sources": [
+  {
+   "id": "X-S01",
+   "title": "Luke 2:4-20 and Matthew 2:1-12 (Erasmus, Novum Testamentum omne, Basel [1520], UB Basel UBH BibG C 394, p.155); A. McGowan on the absence of early annual birth feasts",
+   "kind": "secondary_and_primary",
+   "status": "Codex 2026-11-20 (research/wom15_原典訳文_20261120.md, check 1): no day or month in the Gospels; no clear annual observance in the 1st-2nd centuries (McGowan). Absence everywhere not claimed"
+  },
+  {
+   "id": "X-S02",
+   "title": "Clement of Alexandria, Stromateis I.21.145-146 (Latin tr. G. Hervet, Basel 1556, UB Basel UBH Rc 8, f.71r)",
+   "kind": "primary_text",
+   "status": "Codex 2026-11-20 (research/wom15_原典訳文_20261120.md, check 2): Pachon 25 (May 20), Pharmouthi 24/25 (Apr 19/20) etc.; December 25 not listed; not all dates are in spring"
+  },
+  {
+   "id": "X-S03",
+   "title": "Chronograph of 354 (Furius Dionysius Filocalus titulavit; dedication to Valentinus), Depositio martyrum: VIII kal. Ian. natus Christus in Betleem Iudeae (Mommsen, MGH AA IX = Chronica minora I, 1892, p.71); Strzygowski 1888 Tafel III",
+   "kind": "primary_text",
+   "status": "Codex 2026-11-20 (research/wom15_原典訳文_20261120.md, check 3): original lost, known through copies; Valentinus as a wealthy Christian is inference; 336 is a reconstructed date from the related bishops list"
+  },
+  {
+   "id": "X-S04",
+   "title": "Chronograph of 354, civil calendar, December 25: N INVICTI CM XXX (Graevius, Thesaurus antiquitatum romanarum VIII, Venice 1732, p.102)",
+   "kind": "primary_text",
+   "status": "Codex 2026-11-20 (research/wom15_原典訳文_20261120.md, check 4): neither solis nor Mithrae is written in the line; December 17 SATVRNALIA"
+  },
+  {
+   "id": "X-S05",
+   "title": "Aurelius Victor, De Caesaribus 35.7 (temple of Sol in Rome, 274)",
+   "kind": "primary_text",
+   "status": "Codex 2026-11-20 (research/wom15_原典訳文_20261120.md, check 5): magnificent shrine of Sol; no explicit source before 354 placing a feast of the sun on December 25 identified"
+  },
+  {
+   "id": "X-S06",
+   "title": "Anonymous Syriac marginal note to Dionysius bar Salibi, Vat. sir. 155 f.43v, printed in J. S. Assemani, Bibliotheca Orientalis II (Rome 1721) p.164",
+   "kind": "primary_text",
+   "status": "Codex 2026-11-20 (research/wom15_原典訳文_20261120.md, check 6): writer and date of the note unknown; pagans celebrated the birthday of the sun on Dec 25, Christians joined, the fathers moved the feast from Jan 6"
+  },
+  {
+   "id": "X-S07",
+   "title": "Leo the Great, Sermon 27.4 (mid-5th century)",
+   "kind": "primary_text",
+   "status": "Codex 2026-11-20 (research/wom15_原典訳文_20261120.md, check 7): people climb the steps of St Peter's, turn and bow to the rising sun; no statement on why the date was chosen"
+  },
+  {
+   "id": "X-S08",
+   "title": "Macrobius, Saturnalia I.10.18 (Brescia 1485, Grinnell College)",
+   "kind": "primary_text",
+   "status": "Codex 2026-11-20 (research/wom15_原典訳文_20261120.md, check 8): seven days; with Dec 17 in the 354 calendar, ends Dec 23"
+  },
+  {
+   "id": "X-S09",
+   "title": "S. Hijmans on Mithras and December 25",
+   "kind": "reference",
+   "status": "Codex 2026-11-20 (research/wom15_原典訳文_20261120.md, check 9): no ancient evidence linking Mithras to Dec 25 per the study; a claim about all sources not verified, so narration only says the calendar line does not name him"
+  },
+  {
+   "id": "X-S10",
+   "title": "Tertullian, Adversus Iudaeos 8 (ed. Beatus Rhenanus, Basel [1521], ETH Rar 1135, p.115)",
+   "kind": "primary_text",
+   "status": "Codex 2026-11-20 (research/wom15_原典訳文_20261120.md, check 10): passion on VIII Kalendas Aprilis (March 25); c. 200"
+  },
+  {
+   "id": "X-S11",
+   "title": "De solstitiis et aequinoctiis (anonymous, thought to be 4th century); Augustine, De Trinitate IV.5.9 (Basel [1490], UB Basel UBH FJ II 18:2)",
+   "kind": "primary_text",
+   "status": "Codex 2026-11-20 (research/wom15_原典訳文_20261120.md, check 11): conceived March 25; Augustine: conception believed (creditur) on Mar 25, the day of the passion; birth on Dec 25 by tradition (traditur); early 5th century"
+  },
+  {
+   "id": "X-S12",
+   "title": "Epiphanius, Panarion 51.24 (January 6); Armenian Apostolic Church practice",
+   "kind": "primary_text",
+   "status": "Codex 2026-11-20 (research/wom15_原典訳文_20261120.md, check 12): Jan 6 as birth and baptism in the east; the April 6 count is a scholarly reconstruction; Armenian Church celebrates the Nativity on Jan 6 (Jerusalem on Jan 19 civil)"
+  },
+  {
+   "id": "X-S13",
+   "title": "John Chrysostom, In diem natalem 1 (PG 49 col.351); Latin quotation in A. Sandini, Basis historiae ecclesiasticae I (Augsburg 1748) p.18",
+   "kind": "primary_text",
+   "status": "Codex 2026-11-20 (research/wom15_原典訳文_20261120.md, check 13): not yet ten years; known in the west from long ago; late 380s"
+  },
+  {
+   "id": "X-S14",
+   "title": "Pliny the Elder, Naturalis historia XVIII.221 and 246 (ed. G. A. Bussi, Rome 1470, UB Basel UBH Inc 390)",
+   "kind": "primary_text",
+   "status": "Codex 2026-11-20 (research/wom15_原典訳文_20261120.md, check 14): winter solstice at about (fere) Dec 25; spring equinox seems (videtur) to reach Mar 25; calendar markers"
+  }
+ ],
+ "segments": [
+  {
+   "id": "P01",
+   "chapter": "C01",
+   "sources": [],
+   "classification": "editorial_question",
+   "visuals": [
+    "D01-A",
+    "D04-A"
+   ],
+   "text": "クリスマスは、なぜ12月25日なのでしょうか。毎年この日、世界中の人々がイエスの誕生を祝います。そして毎年のように、同じ説明を耳にします。初期のキリスト教徒は、ローマの冬の祭り、太陽の祭りやサトゥルナリアを、そのまま引き継いだのだ、と。すっきりした答えです。けれど、いちばん古い資料は今も残っていて、もっと慎重な話を伝えています。"
+  },
+  {
+   "id": "P02",
+   "chapter": "C01",
+   "sources": [
+    "X-S01",
+    "X-S02"
+   ],
+   "classification": "historical_fact",
+   "visuals": [
+    "D02-A",
+    "D03-A"
+   ],
+   "text": "福音書は、ベツレヘムでの誕生、羊飼いたち、そして星を語ります。けれど、その日付は、日も月も書いていません。およそ200年のあいだ、キリスト教徒が毎年誕生日を祝っていたという、はっきりした記録は見当たりません。200年ごろ、アレクサンドリアのクレメンスは、その日を割り出そうとした人々がいたと記しています。挙げられた答えはいくつかあります。12月25日は、その中にありません。"
+  },
+  {
+   "id": "P03",
+   "chapter": "C02",
+   "sources": [
+    "X-S03"
+   ],
+   "classification": "historical_fact",
+   "visuals": [
+    "D05-T"
+   ],
+   "text": "この日付が初めて現れるのは、354年にローマで作られた一冊の本です。絵の入った暦の本で、ウァレンティヌスという人物に献じられ、書家フィロカルスが文字を記しました。元の本は失われ、後の時代の写しで伝わっています。"
+  },
+  {
+   "id": "P04",
+   "chapter": "C02",
+   "sources": [
+    "X-S03",
+    "X-S04"
+   ],
+   "classification": "historical_fact",
+   "visuals": [
+    "D05-A",
+    "D06-A"
+   ],
+   "text": "その中に、ローマの教会が殉教者たちを記念した日を並べた一覧があります。その最初の行には、こうあります。「1月の朔日の8日前、キリスト、ユダヤのベツレヘムに生まれる」。ローマの数え方で、これは12月25日です。この一覧は、336年ごろまでさかのぼると考える学者が多くいます。同じ本には、ローマの公の暦も収められています。そして、同じ日に、こう書かれています。「不敗者の誕生日。戦車競走30回」。太陽という言葉は、そこには書かれていません。"
+  },
+  {
+   "id": "P05",
+   "chapter": "C02",
+   "sources": [
+    "X-S03",
+    "X-S04"
+   ],
+   "classification": "editorial_question",
+   "visuals": [
+    "D_board_empty"
+   ],
+   "text": "一冊の本の中で、二つの祝いが同じ日に並んでいるのです。どちらが先だったのか。学者たちは、主に二つの答えを出してきました。それぞれの証拠を、一つずつ置いていきましょう。"
+  },
+  {
+   "id": "P06",
+   "chapter": "C03",
+   "sources": [
+    "X-S05",
+    "X-S06",
+    "X-S07"
+   ],
+   "classification": "historical_fact",
+   "visuals": [
+    "D04-B",
+    "D07-A",
+    "D08-A"
+   ],
+   "text": "一つ目の答えは、太陽から始まります。274年、皇帝アウレリアヌスは、ローマに太陽神ソルの壮麗な神殿を建てました。教会は、太陽の祭りの日にキリストの誕生を置いたのではないか、という考えです。これを支える資料もあります。シリア語の写本の欄外に書かれた書き込みは、こう言っています。異教徒は12月25日に太陽の誕生日を祝っていて、キリスト教徒もそれに加わった。そこで教会の指導者たちは、祭日を1月6日からこの日に移したのだ、と。そして400年代、ローマの司教レオは、サン・ピエトロ聖堂の階段を上ってから振り返り、昇る太陽に頭を下げる信徒たちをいさめました。"
+  },
+  {
+   "id": "P07",
+   "chapter": "C03",
+   "sources": [
+    "X-S06",
+    "X-S07",
+    "X-S04",
+    "X-S08",
+    "X-S09"
+   ],
+   "classification": "editorial_conclusion",
+   "visuals": [
+    "D_board_sun",
+    "D09-A",
+    "D_board_sun"
+   ],
+   "text": "けれど、その欄外の書き込みを、誰がいつ書いたのかは分かっていません。印刷されたのは1721年で、日付が選ばれたときを見ていた人の証言ではありません。レオも、なぜその日が選ばれたのかは語っていません。そして、354年より前に、太陽の祭りを12月25日に置く、はっきりした資料は見つかっていません。では、サトゥルナリアはどうでしょう。354年の暦は、この祭りを12月17日に記し、マクロビウスは7日間続いたと伝えています。それなら終わりは23日です。ミトラスという神の話も耳にします。けれど、暦のその行に、ミトラスの名はありません。"
+  },
+  {
+   "id": "P08",
+   "chapter": "C04",
+   "sources": [
+    "X-S10",
+    "X-S11"
+   ],
+   "classification": "historical_fact",
+   "visuals": [
+    "D10-A",
+    "D11-A"
+   ],
+   "text": "二つ目の答えは、誕生ではなく、死から始まります。初期のキリスト教の書き手たちは、イエスが亡くなった日を割り出そうとしました。200年ごろ、テルトゥリアヌスは、それを3月25日としています。後の書き手たちは、その日を、イエスの命が始まった日、つまり身ごもられた日と結びつけました。"
+  },
+  {
+   "id": "P09",
+   "chapter": "C04",
+   "sources": [
+    "X-S11"
+   ],
+   "classification": "historical_fact",
+   "visuals": [
+    "D_count",
+    "D12-A"
+   ],
+   "text": "300年代のものと考えられている説教は、はっきりとこう言います。主は3月25日に身ごもられた、と。その9か月後は、12月25日です。400年代の初め、アウグスティヌスもそう書いています。主は3月25日に身ごもられたと信じられている。その日は、主が苦しみを受けた日でもある。そして、言い伝えによれば、12月25日に生まれた、と。"
+  },
+  {
+   "id": "P10",
+   "chapter": "C04",
+   "sources": [
+    "X-S12",
+    "X-S11"
+   ],
+   "classification": "editorial_conclusion",
+   "visuals": [
+    "D13-A",
+    "D_board_calc"
+   ],
+   "text": "東方では、多くの教会が、1月6日をイエスの誕生と洗礼の祝日としていました。その日付の背後にも、4月6日から数える同じような計算があったと考える学者もいますが、それは復元された説です。アルメニア教会は、今も1月6日にキリストの誕生を祝っています。そして、ここにも空白があります。これらの書き手が書いたのは、12月25日の祭りがすでにあった後でした。その考えが日付を決めたのかもしれません。あるいは、後から添えられた理由なのかもしれません。"
+  },
+  {
+   "id": "P11",
+   "chapter": "C05",
+   "sources": [
+    "X-S13"
+   ],
+   "classification": "historical_fact",
+   "visuals": [
+    "D14-A",
+    "D_map"
+   ],
+   "text": "ローマの日付は、東へ伝わりました。380年代の後半、アンティオキアの町で、ヨアンネス・クリュソストモスは聞き手たちに、この祭りを知ってから、まだ10年にならない、と語っています。西の人々は、ずっと前から知っていた、と。"
+  },
+  {
+   "id": "P12",
+   "chapter": "C05",
+   "sources": [
+    "X-S03",
+    "X-S05",
+    "X-S11"
+   ],
+   "classification": "editorial_conclusion",
+   "visuals": [
+    "D_board_both"
+   ],
+   "text": "つまり、最も古い記録はローマのもので、300年代です。そして、二つの答えは、同じ種類の証拠ではありません。太陽の説が示すのは、同じ日にあった祭りです。計算の説が示すのは、キリスト教徒自身が書いた理由です。どちらも、その日が選ばれたときの記録ではありません。"
+  },
+  {
+   "id": "P13",
+   "chapter": "C06",
+   "sources": [
+    "X-S14"
+   ],
+   "classification": "historical_fact",
+   "visuals": [
+    "D15-A",
+    "D16-A",
+    "D_markers"
+   ],
+   "text": "もう一つ、置いておきたいものがあります。1世紀、大プリニウスは、冬至はおよそ12月25日、春分は3月25日にあたるように見える、と書きました。これは暦の上の目安で、正確な観測ではありません。けれど、太陽の祭りは冬至に来ます。3月25日から9か月を数えた誕生も、そこに来ます。二つの答えは、もともと争い合うものではなかったのかもしれません。同じ年の変わり目を指していたのかもしれないのです。"
+  },
+  {
+   "id": "P14",
+   "chapter": "C06",
+   "sources": [
+    "X-S03",
+    "X-S05",
+    "X-S06",
+    "X-S10",
+    "X-S11"
+   ],
+   "classification": "editorial_conclusion",
+   "visuals": [
+    "D_board_all",
+    "D01-C"
+   ],
+   "text": "では、クリスマスはなぜ12月25日なのか。私たちが持つ最も古い記録は、300年代のローマのものです。一つの答えは、太陽の祭りの隣に日付が置かれたと言います。もう一つの答えは、3月25日から数えられたと言います。どちらにも証拠があり、どちらにも空白があります。資料は、どちらかを確かに選ばせてはくれません。"
+  },
+  {
+   "id": "P15",
+   "chapter": "C06",
+   "sources": [],
+   "classification": "closing",
+   "visuals": [
+    "D17-A"
+   ],
+   "text": "すべての物語には、始まりがあります。ときには、二つの物語が、同じ一日を指しているのです。"
+  },
+  {
+   "id": "P16",
+   "chapter": "C06",
+   "sources": [],
+   "classification": "credits",
+   "visuals": [
+    "credits"
+   ],
+   "text": "この動画は、歴史資料と、美術館・図書館の公開コレクションにもとづいています。ナレーションには合成音声を使っています。出典と利用条件は説明欄に記載しています。楽しんでいただけたら、高評価とチャンネル登録で、これからも静かな起源の物語をお楽しみください。ご視聴ありがとうございました。"
+  }
+ ]
+}
