@@ -56,6 +56,8 @@ def details():
   for a,b in (EN if l=='en' else JA).items():txt.append(a+' → '+b)
   (OUT/f'EP015_pronunciation_{l}.txt').write_text('\n'.join(txt)+'\n')
   for file in (ROOT/l/'deliverables').glob('EP015*'):
+   if '.part.' in file.name or file.suffix not in ('.mp4','.m4a','.wav','.srt'):
+    continue
    target=OUT/file.name
    if not target.exists() or sha(target)!=sha(file):shutil.copy2(file,target)
  (OUT/'EP015_audio_README.txt').write_text(

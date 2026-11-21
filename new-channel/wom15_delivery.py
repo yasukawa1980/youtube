@@ -46,6 +46,11 @@ def bundle_initial():
 
 
 def bundle_qc():
+    cut=next(c for c in read(ROOT/'en/records/render_shots_4k.json') if c['key']=='D06-A')
+    src=OUT/'EP015_December25_en_v01_2160p30.mp4'
+    subprocess.run(['ffmpeg','-nostdin','-v','error','-y','-threads','1','-ss',
+        str((cut['start']+cut['end'])/60),'-i',str(src),'-frames:v','1','-vf',
+        'scale=1280:720','-threads:v','1','-q:v','2',str(ROOT/'en/review/december_detail_en_4k.jpg')],check=True)
     files = [('technical_review.md', ROOT / 'records/technical_review.md')]
     for pattern in ('EP015_upload_info_*.md','EP015_audio_README.txt','EP015_pronunciation_*.txt'):
         files.extend((p.name,p) for p in OUT.glob(pattern))

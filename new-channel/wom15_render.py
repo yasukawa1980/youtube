@@ -86,7 +86,7 @@ def picture(lang,s,repair=None):
   if k in prior:
    previous,digest=prior[k]
    assert (previous['start'],previous['end'])==(shot['start'],shot['end'])
-   update=(previous['motion']=='art' if repair=='motion' else k.startswith('D_'))
+   update={'motion':previous['motion']=='art','graphics':k.startswith('D_'),'december':s==2 and k=='D06-A'}[repair]
    if not update:
     assert sha(Path(previous['file']))==digest
     shot.update(previous)
@@ -144,4 +144,4 @@ def assemble(lang,s):
  tmp.replace(out);save(state,sig)
 if __name__=='__main__':
  if '--assemble' in sys.argv:assemble(sys.argv[1],int(sys.argv[2]))
- else:picture(sys.argv[1],int(sys.argv[2]),next((a.removeprefix('--repair-') for a in sys.argv[3:] if a in ('--repair-motion','--repair-graphics')),None))
+ else:picture(sys.argv[1],int(sys.argv[2]),next((a.removeprefix('--repair-') for a in sys.argv[3:] if a in ('--repair-motion','--repair-graphics','--repair-december')),None))

@@ -77,7 +77,13 @@ def art(k,s,u=0,idx=0,highlight=False):
   return max(span/2,min(dim-span/2,c)) if dim>=span else dim/2
  cx=anchor(cx,iw,ow/scale);cy=anchor(cy,ih,oh/scale)
  left=cx-ow/(2*scale);top=cy-oh/(2*scale)
- tile=im.transform((ow,oh),Image.Transform.AFFINE,(1/scale,0,left,0,1/scale,top),Image.Resampling.BICUBIC,fillcolor=PAPER)
+ source=im;source_top=0
+ if k=='D06-A' and s==2 and u>0:
+  # At native resolution the 4K view is taller than the December table.
+  # Trim to the gutter between the two tables while moving in from the full page.
+  source_top=round(ih*.46*u)
+  source=im.crop((0,source_top,iw,ih))
+ tile=source.transform((ow,oh),Image.Transform.AFFINE,(1/scale,0,left,0,1/scale,top-source_top),Image.Resampling.BICUBIC,fillcolor=PAPER)
  p.im.paste(tile,(x*s,y*s))
  rect=None
  if highlight and k in BOXES and k!='D08-A':
@@ -107,7 +113,7 @@ def art(k,s,u=0,idx=0,highlight=False):
    holding='Sandir / Numista · CC0' if k.startswith('D04') else a['holding'].split('、')[0]
    y=block(p,holding,38,y+10,605,20,'small',SOFT)
   assert y<921,(k,y)
- return p,dict(key=k,scale=scale,source_size=[iw,ih],crop_origin=[left,top],source_box=BOXES[k][idx] if k in BOXES else None,output_box=rect,rotated_ccw=k=='D08-A')
+ return p,dict(key=k,scale=scale,source_size=[iw,ih],crop_origin=[left,top],source_clip_top=source_top,source_box=BOXES[k][idx] if k in BOXES else None,output_box=rect,rotated_ccw=k=='D08-A')
 
 def credits(s):
  p=Plate(s);p.pair('QUIET ORIGINS｜クワイエット・オリジンズ',(130,86,1790,245),70,36,None)

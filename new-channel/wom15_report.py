@@ -15,6 +15,12 @@ def audio_hash(path):
     return subprocess.check_output(['ffmpeg','-v','error','-i',str(path),'-map','0:a:0',
         '-c:a','copy','-f','hash','-hash','sha256','-'],text=True).strip()
 
+def check_movie_audio(path, lang, standalone):
+    tracks=subprocess.check_output(['ffprobe','-v','error','-show_entries',
+        'stream=codec_type:stream_tags=language','-of','csv=p=0',str(path)],text=True).splitlines()
+    assert tracks==['video,und','audio,'+{'en':'eng','ja':'jpn'}[lang]],(path,tracks)
+    assert audio_hash(path)==standalone
+
 def collect():
     measurements = []
     for asset in MANIFEST['assets']:
@@ -28,8 +34,11 @@ def collect():
         assert uses == Counter(ASSETS.keys()) and len(uses) == 20
         assert all(a['end'] == b['start'] for a, b in zip(cuts, cuts[1:]))
         assert qc['sha256'] == sha(base / 'deliverables' / qc['file'])
+        december = next(c for c in cuts if c['key']=='D06-A')
+        detail = read(Path(december['stages'][-1]['meta']))['geometry']
+        assert max(detail['crop_origin'][1],detail.get('source_clip_top',0)) >= 1380
         standalone=audio_hash(OUT/f'EP015_audio_{lang}.m4a')
-        assert audio_hash(base/'deliverables'/qc['file'])==standalone
+        check_movie_audio(base/'deliverables'/qc['file'],lang,standalone)
         assert all(m['ratio'] is not None and 0 < m['ratio'] <= 2.5 for m in qc['motion']), qc['motion']
         all_board = next(c for c in cuts if c['key'] == 'D_board_all')
         assert (all_board['frames'] - 7) / 30 >= 1.5
@@ -57,7 +66,7 @@ def collect():
         if not suffix:
             review = read(records / 'subtitled_review.json')
             assert review['sha256'] == sha(base / 'deliverables' / review['file'])
-            assert audio_hash(base/'deliverables'/review['file'])==standalone
+            check_movie_audio(base/'deliverables'/review['file'],lang,standalone)
         measurements.append(dict(lang=lang, suffix=suffix, size_factor=size_factor, n=qc['decoded_frames'],
             total=qc['decoded_frames']/30, shots=len(cuts), sound=qc['loudness'], qc=qc, by_id=by_id,
             holds=holds, board_hold=(all_board['frames']-7)/30, gap=gap, art_gap=art_gap))
@@ -72,7 +81,7 @@ def metrics():
     versions = collect()
     en, ja = versions[:2]
     report = ['# Quiet Origins 第15話「クリスマスはなぜ12月25日なのか」確認版v01', '',
-       '公開予定は2026年12月2日（水）09:00 JST。英語音声で公開し、日本語は題と概要欄の翻訳を登録する。英日の公開用概要欄には Kokoro / Heart (af_heart) を記載した。将来日本語音声も公開するときは両方の声を載せるよう、貼り付け用本文の下の担当者メモに記載した。',
+       '依頼書・台本v02（英日）はコミット `88f8074` とバイト単位で一致。公開予定は2026年12月2日（水）09:00 JST。英語音声で公開し、日本語は題と概要欄の翻訳を登録する。英日の公開用概要欄には Kokoro / Heart (af_heart) を記載した。将来日本語音声も公開するときは両方の声を載せるよう、貼り付け用本文の下の担当者メモに記載した。',
        '', '確認版のP16は英日の声を明示。日本語MP4には「日本語の声　VOICEVOX:冥鳴ひまり」を表示し、日本語M4A・WAVは同じ表記のREADMEを音声・字幕ZIPに同梱した。[英語投稿情報](EP015_upload_info_en.md)・[日本語投稿情報](EP015_upload_info_ja.md)・[音声クレジット](EP015_audio_README.txt)。',
        '', '## 映像と音声', '',
        '|版|総尺|8分10秒との差|フレーム数|ショット数|音量 LUFS|ピーク dBTP|',
@@ -80,7 +89,7 @@ def metrics():
     for v in versions:
         report.append(f"|{v['lang']} {1080*v['size_factor']}p|{clock(v['total'])}|{v['total']-490:+.3f}秒|{v['n']}|{v['shots']}|{v['sound']['input_i']}|{v['sound']['input_tp']}|")
     report.extend(['', '全ショットを個別にデコードし、共通オープニングとエンドカードを含め、非圧縮フレームを各版1つのエンコーダーへ入力。通常3本は全フレームの画素形式・解像度が各1種類、PTSの間隔が一定。字幕入り2本を含む5本はH.264 High / yuv420p / 30fps、全編連続デコード警告0。英語4Kはショットごとにチェックポイントを作成した。共通OP・EDは1080pの共通版を拡大。',
-       '', 'BGMはQO_THEME_A02。通常3本とも−60 dB以下が1秒以上続く無音は0件。オープニングはP02の後に4秒。エンドカードは英 '+clock(en['total']-10)+'、日 '+clock(ja['total']-10)+' から各10秒。',
+       '', '各MP4の音声は1トラック。英語版3本はeng、日本語版2本はjpnで、各言語の単体M4AとAACストリームのSHA-256が一致。BGMはQO_THEME_A02。通常3本とも−60 dB以下が1秒以上続く無音は0件。オープニングはP02の後に4秒。エンドカードは英 '+clock(en['total']-10)+'、日 '+clock(ja['total']-10)+' から各10秒。',
        '', '### 字幕・画面内文字', '', '|版|字幕本文|最短|最大字数/行|字幕上端|ボード等との間隔*|素材注記との間隔*|','|---|---|---:|---:|---:|---:|---:|'])
     for v in versions:
         lang=v['lang'];s=v['size_factor'];rec=ROOT/lang/'records'
@@ -120,7 +129,7 @@ def metrics():
        '|素材|各言語の使用回数|英1080p 原寸比|日1080p 原寸比|英4K 原寸比|','|---|---:|---:|---:|---:|'])
     for k in ASSETS:
         report.append('|'+k+'|1|'+'|'.join(f"{v['by_id'][k]:.4f}" for v in versions)+'|')
-    report.extend(['','冒頭はサヴォルドの幼子・白布と照らされた手を中心に1.10→1.00倍。原寸比は上表のとおり。冒頭0・1・2・3秒、全ショット先頭／中央／末尾、原文の囲みを検品ZIPへ収録。D05-Aは natus Christus、D06-Aは N. Invicti. CM. XXX. を囲む。D08-Aは左へ90度回転、D14-Aは1748年のラテン語引用の札。','',
+    report.extend(['','冒頭はサヴォルドの幼子・白布と照らされた手を中心に1.10→1.00倍。照らされた手から幼子を包む白布までを「幼子と光」の範囲とした。0秒の720px高の確認画像で、この範囲は1080p版では画面上端から下端まで、4K版では上から約190pxの手先から下端まで（約74%）。4K版は原寸上限に合わせて周囲も広く入る。冒頭0・1・2・3秒、全ショット先頭／中央／末尾、原文の囲みを検品ZIPへ収録。D05-Aは natus Christus、D06-Aは N. Invicti. CM. XXX. を囲む。D06-Aの4Kは原寸のまま11月表と12月表の間（原画上端から1380px）で抜粋し、寄りでは12月表だけを見せた。修正対象はD06-Aの1カットで、ほか31カットのチェックポイントはSHA-256一致。D08-Aは左へ90度回転、D14-Aは1748年のラテン語引用の札。','',
         '|動く素材|英1080p p95/中央値|日1080p|英4K|','|---|---:|---:|---:|'])
     motion=[{m['key']:m['ratio'] for m in v['qc']['motion']} for v in versions]
     for k in ASSETS:
@@ -136,6 +145,9 @@ def final():
     info=read(ROOT/'records/sharing.json')
     assert info['status']=='verified' and info['draft'] and len(info['assets'])==8
     parts=metrics()
+    parts[2]+=' この扱いは11月21日の本人指定による。[第14話の投稿結果](https://github.com/yasukawa1980/youtube/blob/88f8074/new-channel/wom14_投稿結果_EP014_20261110.md)・[11月7日の説明欄修正指示](https://github.com/yasukawa1980/youtube/blob/88f8074/new-channel/wom12_説明欄修正依頼_VOICEVOX削除_20261107.md)。'
+    shutil.copy2(ROOT/'en/review/december_detail_en_4k.jpg',SHARE/'december_detail_en_4k.jpg')
+    shutil.copy2(ROOT/'en/records/december_detail_validation_4k.json',SHARE/'records/en/december_detail_validation_4k.json')
     for lang in ('en','ja'):
         for name in ('credits_'+lang+'.jpg', 'subtitle_'+lang+'_D_board_all.jpg', 'subtitle_'+lang+'_credits.jpg'):
             shutil.copy2(ROOT/lang/'review'/name, SHARE/name)
@@ -154,7 +166,7 @@ def final():
         '|添付|asset ID|バイト数|SHA-256|','|---|---:|---:|---|']
     for a in sorted(info['assets'],key=lambda a:a['name']):
         lines.append(f"|{a['name']}|{a['asset_id']}|{a['bytes']:,}|`{a['sha256']}`|")
-    lines.extend(['', '[日本語P16](credits_ja.jpg)・[日本語P16と実字幕](subtitle_ja_credits.jpg)・[英語の証拠ボードと実字幕](subtitle_en_D_board_all.jpg)・[日本語の証拠ボードと実字幕](subtitle_ja_D_board_all.jpg)。'])
+    lines.extend(['', '[日本語P16](credits_ja.jpg)・[日本語P16と実字幕](subtitle_ja_credits.jpg)・[英語の証拠ボードと実字幕](subtitle_en_D_board_all.jpg)・[日本語の証拠ボードと実字幕](subtitle_ja_D_board_all.jpg)・[4Kの12月表の抜粋](december_detail_en_4k.jpg)。'])
     lines.extend(['','認証済みのGitHub CLIを使う場合は、次のコマンドの ASSET_ID と FILE_NAME を上の表の値に置き換えてください。','',
        '```sh',f"gh api repos/yasukawa1980/youtube/releases/{info['release_id']}",
        "gh api -H 'Accept: application/octet-stream' repos/yasukawa1980/youtube/releases/assets/ASSET_ID > FILE_NAME",'```','',
