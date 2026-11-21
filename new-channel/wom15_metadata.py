@@ -63,6 +63,7 @@ def details():
   'EP015_audio_ja.m4a / EP015_audio_ja.wav\n日本語の声 / Japanese voice: VOICEVOX:冥鳴ひまり\n\n'
   'EP015_audio_en.m4a / EP015_audio_en.wav\nEnglish voice: Kokoro / Heart (af_heart)\n\n'
   'BGM: QO_THEME_A02 / Suno\n\n日本語音声を単体で渡すときは、このファイルを同梱してください。\n')
+ shutil.copy2(OUT/'EP015_audio_README.txt',ROOT/'ja/deliverables/EP015_audio_README.txt')
  for k in ('A','B','AB_168px'):
   src=HERE/f'サムネ確認用/wom15/wom15_サムネ{k}.jpg';shutil.copy2(src,OUT/f'EP015_thumbnail_{k}_v01.jpg')
 if __name__=='__main__':details()

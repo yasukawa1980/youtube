@@ -2,7 +2,7 @@
 from functools import lru_cache
 from pathlib import Path
 from PIL import Image, ImageDraw, ImageFont, ImageColor
-PAPER='#f5eedf'; INK='#29251e'; VERMILION='#873b2e'; RULE='#817460'; SOFT='#635b50'
+PAPER='#f5eedf'; INK='#29251e'; VERMILION='#873b2e'; RULE='#736651'; SOFT='#635b50'
 LATIN='/System/Library/Fonts/Supplemental/'
 JP=str(next(Path('/System/Library/Fonts').glob('*角* W5.ttc')))
 @lru_cache(maxsize=96)
@@ -62,7 +62,7 @@ class Plate:
   for t in self.metrics[prior:]:
    l,top,right,bottom=t['ink_box'];t['padding']=int(min(l-x,top-y,r-right,z-bottom))
  def label(self,t):
-  self.text(t,(38,16,395,50),23,'ja',SOFT)
+  self.text(t,(38,16,411,50),23,'ja',SOFT)
 def board(s,active,anim=None,dy=0):
  p=Plate(s);p.label('EVIDENCE BOARD｜証拠ボード')
  p.pair('THE SUN FESTIVAL｜太陽の祭り',(56,56,934,164),62,34,None)

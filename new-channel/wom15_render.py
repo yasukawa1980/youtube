@@ -8,9 +8,11 @@ from wom15_art import art,ASSETS,BOXES,credits
 from wom15_boards import board,diagram,WORDS,LEFT,RIGHT
 def run(args,**kw):
  return subprocess.run([str(a) for a in args],check=True,**kw)
-FF=['ffmpeg','-y','-nostdin','-v','error','-filter_threads','1','-filter_complex_threads','1','-threads','1']
+FF=['ffmpeg','-y','-nostdin','-v','error','-filter_threads','2','-filter_complex_threads','2','-threads','1']
 def encoder(s):
- return ['-c:v','h264_videotoolbox','-profile:v','high','-b:v',('12M' if s==1 else '26M'),'-pix_fmt','yuv420p','-g','60','-bf','2','-video_track_timescale','15360']
+ return ['-c:v','libx264','-preset','veryfast','-crf','16','-threads:v','2',
+         '-x264-params','rc-lookahead=5:sync-lookahead=0','-profile:v','high',
+         '-pix_fmt','yuv420p','-g','60','-bf','2','-video_track_timescale','15360']
 def design(shot,events,s,folder):
  k=shot['key'];first=shot['start'];end=shot['end'];stages=[];motion=None
  folder.mkdir(parents=True,exist_ok=True)
@@ -40,7 +42,7 @@ def design(shot,events,s,folder):
   geo=read(Path(stages[-1]['meta']))['geometry']
   if k=='D01-A':motion='opening'
   elif k=='D05-T':motion='drift'
-  elif geo['scale']*1.025<=1:motion='art'
+  elif geo['scale']*1.05<=1:motion='art'
  elif k.startswith('D_board'):
   base={'D_board_empty':[], 'D_board_sun':['rome'],'D_board_sun_return':['rome',*LEFT[:-1]],
         'D_board_calc':['rome',*LEFT],'D_board_both':['rome',*LEFT,*RIGHT],
@@ -67,14 +69,28 @@ def design(shot,events,s,folder):
  stages=list({e['frame']:e for e in sorted(stages,key=lambda e:e['frame'])}.values())
  assert stages[0]['frame']==first and all(first<=e['frame']<end for e in stages)
  return stages,motion
-def picture(lang,s):
+def picture(lang,s,repair=None):
  dst=ROOT/lang;plan=read(dst/'records/shot_plan.json');events={x['key']:x['frame'] for x in read(dst/'records/phrase_events.json')}
  suffix='_4k' if s==2 else '';r=dst/('_work/render'+suffix);r.mkdir(parents=True,exist_ok=True)
  version=hashlib.sha256(''.join(sha(HERE/name) for name in ['wom15_render.py','wom15_art.py','wom15_boards.py']).encode()).hexdigest()[:12]
  size=f'{s*1920}x{s*1080}'
+ prior={}
+ if repair:
+  original=read(dst/f'records/render_shots{suffix}.json')
+  hashes=read(r/'assembly.json')['shots']
+  assert len(original)==len(hashes)==len(plan)
+  prior={old['key']:(old,digest) for old,digest in zip(original,hashes)}
  for shot in plan:
   k=shot['key'];n=shot['end']-shot['start'];shot['frames']=n
   if k in ('opening','endcard'):shot['file']=str(OP if k=='opening' else END);continue
+  if k in prior:
+   previous,digest=prior[k]
+   assert (previous['start'],previous['end'])==(shot['start'],shot['end'])
+   update=(previous['motion']=='art' if repair=='motion' else k.startswith('D_'))
+   if not update:
+    assert sha(Path(previous['file']))==digest
+    shot.update(previous)
+    continue
   stages,motion=design(shot,events,s,ROOT/'_work'/f'plates_{version}_{s}'/k)
   clip=r/(k+'.mp4');stamp=clip.with_suffix('.json')
   ident=dict(version=version,frames=n,stages=stages,motion=motion)
@@ -91,8 +107,8 @@ def picture(lang,s):
     # Transform only the source panel. Overlay the unmodified type plate at its original position.
     left=0 if motion=='opening' else 690*s;w=s*1920-left;h=s*1080
     t=f'on/{max(1,n-1)}'
-    z=f'(1.1-.1*{t})' if motion=='opening' else (f'(1+.025*{t})' if motion=='art' else '1')
-    x=f'((W-W/{z})*.5)' if motion!='drift' else f'(24*{s}*{t})'
+    z=f'(1.1-.1*{t})' if motion=='opening' else ('1.05' if motion=='art' else '1')
+    x=f'((W-W/{z})*.5)' if motion=='opening' else (f'((W-W/{z})*{t})' if motion=='art' else f'(24*{s}*{t})')
     y=f'(H-H/{z})' if motion=='opening' else f'((H-H/{z})*.5)'
     pan=f"perspective=x0='{x}':y0='{y}':x1='{x}+W/{z}':y1='{y}':x2='{x}':y2='{y}+H/{z}':x3='{x}+W/{z}':y3='{y}+H/{z}':sense=source:eval=frame:interpolation=cubic"
     if motion=='opening':
@@ -107,16 +123,25 @@ def picture(lang,s):
    tmp.replace(clip);save(stamp,ident)
   shot.update(file=str(clip),stages=stages,motion=motion);print(lang,size,k,n,flush=True)
  save(dst/f'records/render_shots{suffix}.json',plan)
+ assemble(lang,s)
+
+def assemble(lang,s):
+ dst=ROOT/lang;suffix='_4k' if s==2 else ''
+ plan=read(dst/f'records/render_shots{suffix}.json')
+ r=dst/('_work/render'+suffix);size=f'{1920*s}x{1080*s}'
  out=dst/f'deliverables/EP015_December25_{lang}_v01_{1080*s}p30.mp4';aud=dst/f'deliverables/EP015_audio_{lang}.m4a'
- state=r/'assembly.json';sig=dict(shots=[sha(Path(x['file'])) for x in plan],audio=sha(aud))
+ state=r/'assembly.json';sig=dict(shots=[sha(Path(x['file'])) for x in plan],audio=sha(aud),color='bt709-limited')
  if out.exists() and state.exists() and read(state)==sig:return
  tmp=out.with_suffix('.part.mp4')
- enc=subprocess.Popen([str(a) for a in [*FF,'-f','rawvideo','-pix_fmt','yuv420p','-s',size,'-framerate','30','-i','pipe:0','-i',aud,'-map','0:v','-map','1:a','-c:a','copy',*encoder(s),'-metadata:s:a:0','language='+('eng' if lang=='en' else 'jpn'),'-movie_timescale','48000','-movflags','+faststart',tmp]],stdin=subprocess.PIPE)
+ enc=subprocess.Popen([str(a) for a in [*FF,'-f','rawvideo','-pix_fmt','yuv420p','-s',size,'-framerate','30','-i','pipe:0','-i',aud,'-map','0:v','-map','1:a','-c:a','copy',*encoder(s),'-color_range','tv','-colorspace','bt709','-color_primaries','bt709','-color_trc','bt709','-metadata:s:a:0','language='+('eng' if lang=='en' else 'jpn'),'-movie_timescale','48000','-movflags','+faststart',tmp]],stdin=subprocess.PIPE)
  try:
   for sh in plan:
-   scale=['-vf',f'scale={1920*s}:{1080*s}:flags=lanczos'] if s==2 and sh['key'] in ('opening','endcard') else []
+   # JPEG checkpoints can carry full-range BT.601. Raw frames do not retain those tags.
+   scale=['-vf',f'scale={1920*s}:{1080*s}:flags=lanczos:in_range=auto:out_range=tv:out_color_matrix=bt709,format=yuv420p']
    run([*FF,'-i',sh['file'],'-map','0:v','-an',*scale,'-frames:v',sh['frames'],'-threads:v','1','-pix_fmt','yuv420p','-fps_mode','passthrough','-f','rawvideo','pipe:1'],stdout=enc.stdin)
   enc.stdin.close();assert enc.wait()==0
  except BaseException:enc.kill();enc.wait();raise
  tmp.replace(out);save(state,sig)
-if __name__=='__main__':picture(sys.argv[1],int(sys.argv[2]))
+if __name__=='__main__':
+ if '--assemble' in sys.argv:assemble(sys.argv[1],int(sys.argv[2]))
+ else:picture(sys.argv[1],int(sys.argv[2]),next((a.removeprefix('--repair-') for a in sys.argv[3:] if a in ('--repair-motion','--repair-graphics')),None))
