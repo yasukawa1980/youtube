@@ -1,0 +1,1402 @@
+{
+  "language": "en",
+  "segments": [
+    {
+      "id": "P01",
+      "chapter": "C01",
+      "sources": [],
+      "classification": "editorial_question",
+      "visuals": [
+        "D01-A",
+        "D04-A"
+      ],
+      "text": "Why is Christmas on December twenty-fifth? Every year, on that day, people around the world celebrate the birth of Jesus. And every year, you may hear the same explanation. The early Christians, it is said, simply took over a Roman winter festival, a feast of the sun, or the Saturnalia. It is a tidy answer. But the oldest sources are still here, and they tell a more careful story.",
+      "cues": [
+        {
+          "id": "P01-01",
+          "text": "Why is Christmas on December twenty-fifth?",
+          "spoken_text": "Why is Christmas on December twenty-fifth?",
+          "start": 1.8,
+          "end": 4.796,
+          "audio_file": "audio/en/sentences/P01-01.wav",
+          "audio_sha256": "896ad91b0033277092554f192e433872b96693af3fb99a10efbb9eec8655fb59",
+          "replacements": [],
+          "role": "opening"
+        },
+        {
+          "id": "P01-02",
+          "text": "Every year, on that day, people around the world celebrate the birth of Jesus.",
+          "spoken_text": "Every year, on that day, people around the world celebrate the birth of Jesus.",
+          "start": 5.096,
+          "end": 10.224,
+          "audio_file": "audio/en/sentences/P01-02.wav",
+          "audio_sha256": "e59eaa2ab0348614bbb14c7d5cdc4fdbedc94700aee2ffe2d921dedb08f722cf",
+          "replacements": [],
+          "role": "plain"
+        },
+        {
+          "id": "P01-03",
+          "text": "And every year, you may hear the same explanation.",
+          "spoken_text": "And every year, you may hear the same explanation.",
+          "start": 10.524000000000001,
+          "end": 13.938,
+          "audio_file": "audio/en/sentences/P01-03.wav",
+          "audio_sha256": "91265b80ceca879b4c3e4bfee2bc24d269eae45a67c3755f38355068225ba339",
+          "replacements": [],
+          "role": "plain"
+        },
+        {
+          "id": "P01-04",
+          "text": "The early Christians, it is said, simply took over a Roman winter festival, a feast of the sun, or the Saturnalia.",
+          "spoken_text": "The early Christians, it is said, simply took over a Roman winter festival, a feast of the sun, or the Saturnalia.",
+          "start": 14.238000000000001,
+          "end": 22.576,
+          "audio_file": "audio/en/sentences/P01-04.wav",
+          "audio_sha256": "f100a0f123e53c29a4d06d9f0916143dfb7efe53f032a63d1e108ca15eddab5a",
+          "replacements": [],
+          "role": "plain"
+        },
+        {
+          "id": "P01-05",
+          "text": "It is a tidy answer.",
+          "spoken_text": "It is a tidy answer.",
+          "start": 22.876,
+          "end": 24.743958333333335,
+          "audio_file": "audio/en/sentences/P01-05.wav",
+          "audio_sha256": "3213c53c10d1bfbf60a90f4b81c2f6961d8cd11b16923330801d26f34696c68f",
+          "replacements": [],
+          "role": "plain"
+        },
+        {
+          "id": "P01-06",
+          "text": "But the oldest sources are still here, and they tell a more careful story.",
+          "spoken_text": "But the oldest sources are still here, and they tell a more careful story.",
+          "start": 25.043958333333332,
+          "end": 29.76925,
+          "audio_file": "audio/en/sentences/P01-06.wav",
+          "audio_sha256": "daaa62926526b524c2aad405945259efe0039fe92cb0dbdc97739aef39cccc04",
+          "replacements": [],
+          "role": "plain"
+        }
+      ],
+      "audio_file": "audio/en/P01.wav",
+      "duration_seconds": 27.96925,
+      "native_speed": 0.82,
+      "start": 1.8,
+      "speech_end": 29.76925,
+      "end": 30.7,
+      "source_sha256": "c39a5c1e0444ecf6b79471e75a3eabe688682f90f89c69d93007d8ea8483015f"
+    },
+    {
+      "id": "P02",
+      "chapter": "C01",
+      "sources": [
+        "X-S01",
+        "X-S02"
+      ],
+      "classification": "historical_fact",
+      "visuals": [
+        "D02-A",
+        "D03-A"
+      ],
+      "text": "The Gospels describe the birth in Bethlehem, the shepherds, and the star. They never give a day or a month. For about two centuries, we find no clear sign that Christians kept the birthday each year. Around the year two hundred, Clement of Alexandria noted that some people had tried to work out the day. He lists several answers. December twenty-fifth is not among them.",
+      "cues": [
+        {
+          "id": "P02-01",
+          "text": "The Gospels describe the birth in Bethlehem, the shepherds, and the star.",
+          "spoken_text": "The Gospels describe the birth in Bethlehem, the shepherds, and the star.",
+          "start": 30.7,
+          "end": 35.755291666666665,
+          "audio_file": "audio/en/sentences/P02-01.wav",
+          "audio_sha256": "8f99252798718133f8fd8470b85f8082f1db2c2d283e8cb58ff759b84548bd81",
+          "replacements": [],
+          "role": "plain"
+        },
+        {
+          "id": "P02-02",
+          "text": "They never give a day or a month.",
+          "spoken_text": "They never give a day or a month.",
+          "start": 36.05529166666667,
+          "end": 38.250625,
+          "audio_file": "audio/en/sentences/P02-02.wav",
+          "audio_sha256": "c6a7b9aeecd60a59af3fa6aa8a0ce03c942e58c08ce2b01d49bf73b94687b004",
+          "replacements": [],
+          "role": "plain"
+        },
+        {
+          "id": "P02-03",
+          "text": "For about two centuries, we find no clear sign that Christians kept the birthday each year.",
+          "spoken_text": "For about two centuries, we find no clear sign that Christians kept the birthday each year.",
+          "start": 38.550625,
+          "end": 44.64995833333333,
+          "audio_file": "audio/en/sentences/P02-03.wav",
+          "audio_sha256": "0e006eccb9d9fc42cca500acf27cf29aa9123af6ee9e609c44934e57860e2d8b",
+          "replacements": [],
+          "role": "plain"
+        },
+        {
+          "id": "P02-04",
+          "text": "Around the year two hundred, Clement of Alexandria noted that some people had tried to work out the day.",
+          "spoken_text": "Around the year two hundred, Clement of Alexandria noted that some people had tried to work out the day.",
+          "start": 44.949958333333335,
+          "end": 51.710625,
+          "audio_file": "audio/en/sentences/P02-04.wav",
+          "audio_sha256": "fa14cd44469d930205cceb4f2eed55466a7e103fa9c5593547ad2f1b9d74ae72",
+          "replacements": [],
+          "role": "plain"
+        },
+        {
+          "id": "P02-05",
+          "text": "He lists several answers.",
+          "spoken_text": "He lists several answers.",
+          "start": 52.010625000000005,
+          "end": 53.93258333333333,
+          "audio_file": "audio/en/sentences/P02-05.wav",
+          "audio_sha256": "12a91696f5233b0d1fc2fbd640a0adf98274e10f26b63e9ca125647ea912a407",
+          "replacements": [],
+          "role": "plain"
+        },
+        {
+          "id": "P02-06",
+          "text": "December twenty-fifth is not among them.",
+          "spoken_text": "December twenty-fifth is not among them.",
+          "start": 54.23258333333334,
+          "end": 57.07058333333333,
+          "audio_file": "audio/en/sentences/P02-06.wav",
+          "audio_sha256": "09476e856aafd55cda9306637904fc1f2dce641b4d02fa9a9eb656cc96b69620",
+          "replacements": [],
+          "role": "plain"
+        }
+      ],
+      "audio_file": "audio/en/P02.wav",
+      "duration_seconds": 26.370583333333332,
+      "native_speed": 0.82,
+      "start": 30.7,
+      "speech_end": 57.07058333333333,
+      "end": 58.0,
+      "source_sha256": "1c129b1ecb99ab2a41b7ecc6e0cc8bae48725d50199ec14b74237755b4e65100"
+    },
+    {
+      "id": "P03",
+      "chapter": "C02",
+      "sources": [
+        "X-S03"
+      ],
+      "classification": "historical_fact",
+      "visuals": [
+        "D05-T"
+      ],
+      "text": "The date first appears in a book made in Rome in the year three fifty-four. It was an illustrated calendar, dedicated to a man named Valentinus, and lettered by the calligrapher Filocalus. The original is lost. We know it through later copies.",
+      "cues": [
+        {
+          "id": "P03-01",
+          "text": "The date first appears in a book made in Rome in the year three fifty-four.",
+          "spoken_text": "The date first appears in a book made in Rome in the year three fifty-four.",
+          "start": 62.0,
+          "end": 67.01133333333334,
+          "audio_file": "audio/en/sentences/P03-01.wav",
+          "audio_sha256": "12b1852eed04c925ef0e5e4637de2d922973b55ae14d9f5ae3d31bc9f0495fac",
+          "replacements": [],
+          "role": "plain"
+        },
+        {
+          "id": "P03-02",
+          "text": "It was an illustrated calendar, dedicated to a man named Valentinus, and lettered by the calligrapher Filocalus.",
+          "spoken_text": "It was an illustrated calendar, dedicated to a man named Valentinus, and lettered by the calligrapher Filocalus.",
+          "start": 67.31133333333334,
+          "end": 75.62666666666667,
+          "audio_file": "audio/en/sentences/P03-02.wav",
+          "audio_sha256": "2f2c7d0d0a94a89551db38a6ebb8985151b2b9769f045a0dafde15e19b491ff0",
+          "replacements": [
+            {
+              "display": "Valentinus",
+              "spoken": "Valentinus",
+              "count": 1,
+              "phonemes": "vælənˈtiːnəs"
+            },
+            {
+              "display": "Filocalus",
+              "spoken": "Filocalus",
+              "count": 1,
+              "phonemes": "fɪˈloʊkələs"
+            }
+          ],
+          "role": "plain"
+        },
+        {
+          "id": "P03-03",
+          "text": "The original is lost.",
+          "spoken_text": "The original is lost.",
+          "start": 75.92666666666666,
+          "end": 77.83729166666667,
+          "audio_file": "audio/en/sentences/P03-03.wav",
+          "audio_sha256": "01ae2667bbfdc24411ce2b84af91223d2f51a0f4d3b18a0716fecc55e8dc0f5c",
+          "replacements": [],
+          "role": "plain"
+        },
+        {
+          "id": "P03-04",
+          "text": "We know it through later copies.",
+          "spoken_text": "We know it through later copies.",
+          "start": 78.13729166666667,
+          "end": 80.34525,
+          "audio_file": "audio/en/sentences/P03-04.wav",
+          "audio_sha256": "e5e23da7da6cf64e31b9f1895e157c5fec5ab3ae70558b1b32459869ca6e6dc6",
+          "replacements": [],
+          "role": "plain"
+        }
+      ],
+      "audio_file": "audio/en/P03.wav",
+      "duration_seconds": 18.34525,
+      "native_speed": 0.82,
+      "start": 62.0,
+      "speech_end": 80.34525,
+      "end": 81.26666666666667,
+      "source_sha256": "bbbbf98066db04fdd6edea4408ebe4ce981279781c7cee8f7693e91d274289d0"
+    },
+    {
+      "id": "P04",
+      "chapter": "C02",
+      "sources": [
+        "X-S03",
+        "X-S04"
+      ],
+      "classification": "historical_fact",
+      "visuals": [
+        "D05-A",
+        "D06-A"
+      ],
+      "text": "One section lists the days on which the church of Rome remembered its martyrs. The very first line reads: eight days before the kalends of January, Christ is born in Bethlehem of Judea. Counted the Roman way, that is December twenty-fifth. Many scholars think this list goes back to about three thirty-six. The same book also has the public Roman calendar. And on the same day, it reads: birthday of the Unconquered, thirty chariot races. The word sun is not written there.",
+      "cues": [
+        {
+          "id": "P04-01",
+          "text": "One section lists the days on which the church of Rome remembered its martyrs.",
+          "spoken_text": "One section lists the days on which the church of Rome remembered its martyrs.",
+          "start": 81.26666666666667,
+          "end": 86.81,
+          "audio_file": "audio/en/sentences/P04-01.wav",
+          "audio_sha256": "7ec86dcc089af8e9ca39636a35378cb6c6f505b3c7806faaefee7bd0117a7c61",
+          "replacements": [],
+          "role": "plain"
+        },
+        {
+          "id": "P04-02",
+          "text": "The very first line reads: eight days before the kalends of January, Christ is born in Bethlehem of Judea.",
+          "spoken_text": "The very first line reads: eight days before the kalends of January, Christ is born in Bethlehem of Judea.",
+          "start": 87.11,
+          "end": 95.54599999999999,
+          "audio_file": "audio/en/sentences/P04-02.wav",
+          "audio_sha256": "e28eed31a3098cc25ba64c0f212a6174e7637f37ba500d9173e0beeeb7d6c004",
+          "replacements": [
+            {
+              "display": "kalends",
+              "spoken": "kalends",
+              "count": 1,
+              "phonemes": "ˈkælɛndz"
+            },
+            {
+              "display": "Judea",
+              "spoken": "Judea",
+              "count": 1,
+              "phonemes": "dʒuːˈdiːə"
+            }
+          ],
+          "role": "plain"
+        },
+        {
+          "id": "P04-03",
+          "text": "Counted the Roman way, that is December twenty-fifth.",
+          "spoken_text": "Counted the Roman way, that is December twenty-fifth.",
+          "start": 95.846,
+          "end": 99.566,
+          "audio_file": "audio/en/sentences/P04-03.wav",
+          "audio_sha256": "e072e413ea7c13ab69f3e778d200970eaeb4f1eef297540e62ab3b6ae35fdca5",
+          "replacements": [],
+          "role": "plain"
+        },
+        {
+          "id": "P04-04",
+          "text": "Many scholars think this list goes back to about three thirty-six.",
+          "spoken_text": "Many scholars think this list goes back to about three thirty-six.",
+          "start": 99.866,
+          "end": 104.24595833333333,
+          "audio_file": "audio/en/sentences/P04-04.wav",
+          "audio_sha256": "36c2418ec1771f991f5f9518a49b2397522f907298f52d99579705b076bfd362",
+          "replacements": [],
+          "role": "plain"
+        },
+        {
+          "id": "P04-05",
+          "text": "The same book also has the public Roman calendar.",
+          "spoken_text": "The same book also has the public Roman calendar.",
+          "start": 104.54595833333333,
+          "end": 108.21595833333333,
+          "audio_file": "audio/en/sentences/P04-05.wav",
+          "audio_sha256": "28c827428c36af59dd94b804d4f265f0d9de24d602ec1ecc2cce062bc593a20d",
+          "replacements": [],
+          "role": "plain"
+        },
+        {
+          "id": "P04-06",
+          "text": "And on the same day, it reads: birthday of the Unconquered, thirty chariot races.",
+          "spoken_text": "And on the same day, it reads: birthday of the Unconquered, thirty chariot races.",
+          "start": 108.51595833333333,
+          "end": 114.43925,
+          "audio_file": "audio/en/sentences/P04-06.wav",
+          "audio_sha256": "bed1aef6102627b4fa6a1a8707413f317c962bef7de05dd6af00535baa9293c7",
+          "replacements": [],
+          "role": "plain"
+        },
+        {
+          "id": "P04-07",
+          "text": "The word sun is not written there.",
+          "spoken_text": "The word sun is not written there.",
+          "start": 114.73925,
+          "end": 117.11920833333333,
+          "audio_file": "audio/en/sentences/P04-07.wav",
+          "audio_sha256": "85bf25a6d1aa29cd10e2f24c9862cae3541708dd5099e5a09ce4b345fad8df10",
+          "replacements": [],
+          "role": "plain"
+        }
+      ],
+      "audio_file": "audio/en/P04.wav",
+      "duration_seconds": 35.85254166666667,
+      "native_speed": 0.82,
+      "start": 81.26666666666667,
+      "speech_end": 117.11920833333333,
+      "end": 118.03333333333333,
+      "source_sha256": "dd90919fb1122f31a13e363f44c0274aa9a7b4ff81a4ebaa810927d5a752639f"
+    },
+    {
+      "id": "P05",
+      "chapter": "C02",
+      "sources": [
+        "X-S03",
+        "X-S04"
+      ],
+      "classification": "editorial_question",
+      "visuals": [
+        "D_board_empty"
+      ],
+      "text": "So two celebrations share one date, in one book. Which came first? Scholars have offered two main answers. Let us place the evidence for each, one piece at a time.",
+      "cues": [
+        {
+          "id": "P05-01",
+          "text": "So two celebrations share one date, in one book.",
+          "spoken_text": "So two celebrations share one date, in one book.",
+          "start": 118.03333333333333,
+          "end": 121.63795833333333,
+          "audio_file": "audio/en/sentences/P05-01.wav",
+          "audio_sha256": "cfcfeac3a320018d3dd111f59288271d07fc8d271c401891cf0fe71dead5e960",
+          "replacements": [],
+          "role": "plain"
+        },
+        {
+          "id": "P05-02",
+          "text": "Which came first?",
+          "spoken_text": "Which came first?",
+          "start": 121.93795833333333,
+          "end": 123.46595833333333,
+          "audio_file": "audio/en/sentences/P05-02.wav",
+          "audio_sha256": "f1e7f009829cef4694efb86034e9481df843598ea8a8aa1fbfd014170919c04f",
+          "replacements": [],
+          "role": "question"
+        },
+        {
+          "id": "P05-03",
+          "text": "Scholars have offered two main answers.",
+          "spoken_text": "Scholars have offered two main answers.",
+          "start": 123.76595833333333,
+          "end": 126.40191666666666,
+          "audio_file": "audio/en/sentences/P05-03.wav",
+          "audio_sha256": "cf9cd904974af6847c1cf73ba7c8d3ab98c47aebf5696a3f8009a141096050e0",
+          "replacements": [],
+          "role": "plain"
+        },
+        {
+          "id": "P05-04",
+          "text": "Let us place the evidence for each, one piece at a time.",
+          "spoken_text": "Let us place the evidence for each, one piece at a time.",
+          "start": 126.70191666666666,
+          "end": 130.63658333333333,
+          "audio_file": "audio/en/sentences/P05-04.wav",
+          "audio_sha256": "9949dd461769bf28eee0bc78249a6c46ec6bff5a5113e3d51a0a5a4e5b0027e6",
+          "replacements": [],
+          "role": "plain"
+        }
+      ],
+      "audio_file": "audio/en/P05.wav",
+      "duration_seconds": 12.60325,
+      "native_speed": 0.82,
+      "start": 118.03333333333333,
+      "speech_end": 130.63658333333333,
+      "end": 131.56666666666666,
+      "source_sha256": "2b9abe358f6fe00995b7244b0fdd027ce1642ee67b607436061eedacde176db5"
+    },
+    {
+      "id": "P06",
+      "chapter": "C03",
+      "sources": [
+        "X-S05",
+        "X-S06",
+        "X-S07"
+      ],
+      "classification": "historical_fact",
+      "visuals": [
+        "D04-B",
+        "D07-A",
+        "D08-A"
+      ],
+      "text": "The first answer begins with the sun. In two seventy-four, the emperor Aurelian built a magnificent temple in Rome to Sol, the sun god. Perhaps, the idea goes, the church placed the birth of Christ on the sun's own festival. There is support. A note in the margin of a Syriac manuscript says that the pagans celebrated the birthday of the sun on December twenty-fifth, that Christians joined in, and so church leaders moved the feast to that day from January sixth. And in the four hundreds, Pope Leo the Great scolded Christians who climbed the steps of Saint Peter's, then turned around and bowed to the rising sun.",
+      "cues": [
+        {
+          "id": "P06-01",
+          "text": "The first answer begins with the sun.",
+          "spoken_text": "The first answer begins with the sun.",
+          "start": 131.56666666666666,
+          "end": 134.21266666666665,
+          "audio_file": "audio/en/sentences/P06-01.wav",
+          "audio_sha256": "53a20dfd3f0e6f4b78fceaa0031a91cea82d3498a971e6ad6198056d41324b5b",
+          "replacements": [],
+          "role": "plain"
+        },
+        {
+          "id": "P06-02",
+          "text": "In two seventy-four, the emperor Aurelian built a magnificent temple in Rome to Sol, the sun god.",
+          "spoken_text": "In two seventy-four, the emperor Aurelian built a magnificent temple in Rome to Sol, the sun god.",
+          "start": 134.51266666666666,
+          "end": 142.24466666666666,
+          "audio_file": "audio/en/sentences/P06-02.wav",
+          "audio_sha256": "f3199030459d61a76cdcd799d3dcef2e9c88a3ae1e7b188c22687e7e23049020",
+          "replacements": [
+            {
+              "display": "Aurelian",
+              "spoken": "Aurelian",
+              "count": 1,
+              "phonemes": "ɔːˈɹiːliən"
+            },
+            {
+              "display": "Sol,",
+              "spoken": "Sol,",
+              "count": 1,
+              "phonemes": "soʊl,"
+            }
+          ],
+          "role": "plain"
+        },
+        {
+          "id": "P06-03",
+          "text": "Perhaps, the idea goes, the church placed the birth of Christ on the sun's own festival.",
+          "spoken_text": "Perhaps, the idea goes, the church placed the birth of Christ on the sun's own festival.",
+          "start": 142.54466666666667,
+          "end": 148.72266666666667,
+          "audio_file": "audio/en/sentences/P06-03.wav",
+          "audio_sha256": "b3b2a5ef7f0fa8fec7c7b04cf224dd575441493950823d8f3094ec2d5070067c",
+          "replacements": [],
+          "role": "plain"
+        },
+        {
+          "id": "P06-04",
+          "text": "There is support.",
+          "spoken_text": "There is support.",
+          "start": 149.02266666666665,
+          "end": 150.48795833333332,
+          "audio_file": "audio/en/sentences/P06-04.wav",
+          "audio_sha256": "ad80745299a6b111a6b79e2ba7bd014de25f9165f256a47f7eedc3c9c5398a75",
+          "replacements": [],
+          "role": "plain"
+        },
+        {
+          "id": "P06-05",
+          "text": "A note in the margin of a Syriac manuscript says that the pagans celebrated the birthday of the sun on December twenty-fifth, that Christians joined in,",
+          "spoken_text": "A note in the margin of a Syriac manuscript says that the pagans celebrated the birthday of the sun on December twenty-fifth, that Christians joined in,",
+          "start": 150.78795833333334,
+          "end": 161.71929166666666,
+          "audio_file": "audio/en/sentences/P06-05.wav",
+          "audio_sha256": "1c0f378b0cc1f17ec21f4f487792366897069ca59d3049c6bb5af5181573da0e",
+          "replacements": [],
+          "role": "plain"
+        },
+        {
+          "id": "P06-06",
+          "text": "and so church leaders moved the feast to that day from January sixth.",
+          "spoken_text": "and so church leaders moved the feast to that day from January sixth.",
+          "start": 162.01929166666667,
+          "end": 166.670625,
+          "audio_file": "audio/en/sentences/P06-06.wav",
+          "audio_sha256": "04587bfb205546907ddf481e3f4dbc2ac0770c81c438da4e740e1f9c74b26ac4",
+          "replacements": [],
+          "role": "plain"
+        },
+        {
+          "id": "P06-07",
+          "text": "And in the four hundreds, Pope Leo the Great scolded Christians who climbed the steps of Saint Peter's, then turned around and bowed to the rising sun.",
+          "spoken_text": "And in the four hundreds, Pope Leo the Great scolded Christians who climbed the steps of Saint Peter's, then turned around and bowed to the rising sun.",
+          "start": 166.97062499999998,
+          "end": 177.82595833333335,
+          "audio_file": "audio/en/sentences/P06-07.wav",
+          "audio_sha256": "d43f2f5fe059505b222daa626fb81f0d685fca6306ef1b7538e32f09e2713331",
+          "replacements": [],
+          "role": "plain"
+        }
+      ],
+      "audio_file": "audio/en/P06.wav",
+      "duration_seconds": 46.25929166666667,
+      "native_speed": 0.82,
+      "start": 131.56666666666666,
+      "speech_end": 177.82595833333335,
+      "end": 178.73333333333332,
+      "source_sha256": "dec0de2407b3b2685625327919063651ab00c4d2ddd7bb5739c48d2aefa6452c"
+    },
+    {
+      "id": "P07",
+      "chapter": "C03",
+      "sources": [
+        "X-S06",
+        "X-S07",
+        "X-S04",
+        "X-S08",
+        "X-S09"
+      ],
+      "classification": "editorial_conclusion",
+      "visuals": [
+        "D_board_sun",
+        "D09-A",
+        "D_board_sun"
+      ],
+      "text": "But no one knows who wrote that margin note, or when. It was printed in seventeen twenty-one, and it is not an eyewitness to the choice. Leo, too, does not say why the date was chosen. And no clear source from before three fifty-four has been found that puts a festival of the sun on December twenty-fifth. What about the Saturnalia? The calendar of three fifty-four marks it on December seventeenth, and Macrobius says it lasted seven days. That ends on the twenty-third. You may also hear about the god Mithras. The calendar line does not name him.",
+      "cues": [
+        {
+          "id": "P07-01",
+          "text": "But no one knows who wrote that margin note, or when.",
+          "spoken_text": "But no one knows who wrote that margin note, or when.",
+          "start": 178.73333333333332,
+          "end": 182.71066666666664,
+          "audio_file": "audio/en/sentences/P07-01.wav",
+          "audio_sha256": "1cf44dfe9cb6b880261ded1f66ff7c7922ceb4dc14a0c0bb9b8634166491936d",
+          "replacements": [],
+          "role": "plain"
+        },
+        {
+          "id": "P07-02",
+          "text": "It was printed in seventeen twenty-one, and it is not an eyewitness to the choice.",
+          "spoken_text": "It was printed in seventeen twenty-one, and it is not an eyewitness to the choice.",
+          "start": 183.01066666666665,
+          "end": 188.416,
+          "audio_file": "audio/en/sentences/P07-02.wav",
+          "audio_sha256": "da873e3ed20a66adc160b66448f508f20fa33836e50566c2cbe5b2a24b50f6cd",
+          "replacements": [],
+          "role": "plain"
+        },
+        {
+          "id": "P07-03",
+          "text": "Leo, too, does not say why the date was chosen.",
+          "spoken_text": "Leo, too, does not say why the date was chosen.",
+          "start": 188.71599999999998,
+          "end": 192.4319583333333,
+          "audio_file": "audio/en/sentences/P07-03.wav",
+          "audio_sha256": "6ae1ae6160b6918f9baf987bf4124ed8aa28ed8a2b36396f844960913c6739cf",
+          "replacements": [],
+          "role": "plain"
+        },
+        {
+          "id": "P07-04",
+          "text": "And no clear source from before three fifty-four has been found that puts a festival of the sun on December twenty-fifth.",
+          "spoken_text": "And no clear source from before three fifty-four has been found that puts a festival of the sun on December twenty-fifth.",
+          "start": 192.73195833333332,
+          "end": 201.19662499999998,
+          "audio_file": "audio/en/sentences/P07-04.wav",
+          "audio_sha256": "68f673dfa903a64dedd0258437e2a8d8c6fa974842a7ea389c361a8548df1065",
+          "replacements": [],
+          "role": "plain"
+        },
+        {
+          "id": "P07-05",
+          "text": "What about the Saturnalia?",
+          "spoken_text": "What about the Saturnalia?",
+          "start": 201.496625,
+          "end": 203.38729166666664,
+          "audio_file": "audio/en/sentences/P07-05.wav",
+          "audio_sha256": "103ecfd4089a9809e7c2a3b2ff5102bea6f3766455d02de1ffe38a07c2546817",
+          "replacements": [],
+          "role": "question"
+        },
+        {
+          "id": "P07-06",
+          "text": "The calendar of three fifty-four marks it on December seventeenth, and Macrobius says it lasted seven days.",
+          "spoken_text": "The calendar of three fifty-four marks it on December seventeenth, and Macrobius says it lasted seven days.",
+          "start": 203.68729166666665,
+          "end": 211.43791666666664,
+          "audio_file": "audio/en/sentences/P07-06.wav",
+          "audio_sha256": "3e58835eeccbbc2a453efb2271cfc5e3b9d0f7c67d09217d2f25d5e9f060eceb",
+          "replacements": [
+            {
+              "display": "Macrobius",
+              "spoken": "Macrobius",
+              "count": 1,
+              "phonemes": "məˈkɹoʊbiəs"
+            }
+          ],
+          "role": "plain"
+        },
+        {
+          "id": "P07-07",
+          "text": "That ends on the twenty-third.",
+          "spoken_text": "That ends on the twenty-third.",
+          "start": 211.73791666666665,
+          "end": 213.78787499999999,
+          "audio_file": "audio/en/sentences/P07-07.wav",
+          "audio_sha256": "4e33c2664c2e3d69e0d1923e86f9f99a809c6eeba84ab2eb6b14d07dde89b9ff",
+          "replacements": [],
+          "role": "plain"
+        },
+        {
+          "id": "P07-08",
+          "text": "You may also hear about the god Mithras.",
+          "spoken_text": "You may also hear about the god Mithras.",
+          "start": 214.087875,
+          "end": 216.81920833333334,
+          "audio_file": "audio/en/sentences/P07-08.wav",
+          "audio_sha256": "47411097bdb97b373663c3ccedf59646e1efc7773685bdb3d6d02bed9264202b",
+          "replacements": [],
+          "role": "plain"
+        },
+        {
+          "id": "P07-09",
+          "text": "The calendar line does not name him.",
+          "spoken_text": "The calendar line does not name him.",
+          "start": 217.11920833333332,
+          "end": 219.7012083333333,
+          "audio_file": "audio/en/sentences/P07-09.wav",
+          "audio_sha256": "1bea95ee8fe2545f66e4a9fcb760b15a177093bc88f3f799798e4d3ef690daa3",
+          "replacements": [],
+          "role": "plain"
+        }
+      ],
+      "audio_file": "audio/en/P07.wav",
+      "duration_seconds": 40.967875,
+      "native_speed": 0.82,
+      "start": 178.73333333333332,
+      "speech_end": 219.7012083333333,
+      "end": 220.63333333333333,
+      "source_sha256": "4c8acb938c55bc87bd380d1dd46c170260026b8daf3a06c4260b0bde9e367ea8"
+    },
+    {
+      "id": "P08",
+      "chapter": "C04",
+      "sources": [
+        "X-S10",
+        "X-S11"
+      ],
+      "classification": "historical_fact",
+      "visuals": [
+        "D10-A",
+        "D11-A"
+      ],
+      "text": "The second answer begins not with a birth, but with a death. Early Christian writers tried to work out the day on which Jesus died. Around the year two hundred, Tertullian placed it on March twenty-fifth. Later writers linked that day to the day his life began, the day he was conceived.",
+      "cues": [
+        {
+          "id": "P08-01",
+          "text": "The second answer begins not with a birth, but with a death.",
+          "spoken_text": "The second answer begins not with a birth, but with a death.",
+          "start": 220.63333333333333,
+          "end": 224.55666666666667,
+          "audio_file": "audio/en/sentences/P08-01.wav",
+          "audio_sha256": "0d9acf6a2135c667e5f8e5118702576d124e207b679fa0ea2bc553b582736c10",
+          "replacements": [],
+          "role": "plain"
+        },
+        {
+          "id": "P08-02",
+          "text": "Early Christian writers tried to work out the day on which Jesus died.",
+          "spoken_text": "Early Christian writers tried to work out the day on which Jesus died.",
+          "start": 224.85666666666665,
+          "end": 229.666,
+          "audio_file": "audio/en/sentences/P08-02.wav",
+          "audio_sha256": "7cb2055c42c1ef8ff937ea6488fbb2032b174b2b061bd436f87c34cd75c27dcf",
+          "replacements": [],
+          "role": "plain"
+        },
+        {
+          "id": "P08-03",
+          "text": "Around the year two hundred, Tertullian placed it on March twenty-fifth.",
+          "spoken_text": "Around the year two hundred, Tertullian placed it on March twenty-fifth.",
+          "start": 229.96599999999998,
+          "end": 234.70999999999998,
+          "audio_file": "audio/en/sentences/P08-03.wav",
+          "audio_sha256": "15b8ae8cf740f1f49306494ce02957686b7543b6aa12d1d17859076cbbf15344",
+          "replacements": [],
+          "role": "plain"
+        },
+        {
+          "id": "P08-04",
+          "text": "Later writers linked that day to the day his life began, the day he was conceived.",
+          "spoken_text": "Later writers linked that day to the day his life began, the day he was conceived.",
+          "start": 235.01,
+          "end": 240.61866666666666,
+          "audio_file": "audio/en/sentences/P08-04.wav",
+          "audio_sha256": "577074bc677a911c4fe406e8eb4823a51fca916bb0d9542ce361509ed44a5cdc",
+          "replacements": [],
+          "role": "plain"
+        }
+      ],
+      "audio_file": "audio/en/P08.wav",
+      "duration_seconds": 19.985333333333333,
+      "native_speed": 0.82,
+      "start": 220.63333333333333,
+      "speech_end": 240.61866666666666,
+      "end": 241.53333333333333,
+      "source_sha256": "e61aaad1f4e7e4de0860e3f2582c190419fd2f855bfaa2eed80e781eb3fbfa3c"
+    },
+    {
+      "id": "P09",
+      "chapter": "C04",
+      "sources": [
+        "X-S11"
+      ],
+      "classification": "historical_fact",
+      "visuals": [
+        "D_count",
+        "D12-A"
+      ],
+      "text": "A sermon thought to come from the three hundreds says it plainly: our Lord was conceived on March twenty-fifth. Nine months later is December twenty-fifth. Early in the four hundreds, Augustine writes it too. He is believed, Augustine says, to have been conceived on March twenty-fifth, the day on which he also suffered. And he was born, by tradition, on December twenty-fifth.",
+      "cues": [
+        {
+          "id": "P09-01",
+          "text": "A sermon thought to come from the three hundreds says it plainly: our Lord was conceived on March twenty-fifth.",
+          "spoken_text": "A sermon thought to come from the three hundreds says it plainly: our Lord was conceived on March twenty-fifth.",
+          "start": 241.53333333333333,
+          "end": 248.878625,
+          "audio_file": "audio/en/sentences/P09-01.wav",
+          "audio_sha256": "b89a9f54f3cc96e750c82121d64ba6c636bbc9e8545f8646954933fda309db45",
+          "replacements": [],
+          "role": "plain"
+        },
+        {
+          "id": "P09-02",
+          "text": "Nine months later is December twenty-fifth.",
+          "spoken_text": "Nine months later is December twenty-fifth.",
+          "start": 249.178625,
+          "end": 252.332625,
+          "audio_file": "audio/en/sentences/P09-02.wav",
+          "audio_sha256": "e28ce2bf005c68b3852568ac029364f8ff9e718bae64b2873d00f69b4ea932fe",
+          "replacements": [],
+          "role": "plain"
+        },
+        {
+          "id": "P09-03",
+          "text": "Early in the four hundreds, Augustine writes it too.",
+          "spoken_text": "Early in the four hundreds, Augustine writes it too.",
+          "start": 252.632625,
+          "end": 256.3865833333333,
+          "audio_file": "audio/en/sentences/P09-03.wav",
+          "audio_sha256": "8b25eb45c4e7b22f2a9fd64d60769424c1aa5b62fd534c9da624b683de9e4adf",
+          "replacements": [
+            {
+              "display": "Augustine",
+              "spoken": "Augustine",
+              "count": 1,
+              "phonemes": "ɔːˈɡʌstɪn"
+            }
+          ],
+          "role": "plain"
+        },
+        {
+          "id": "P09-04",
+          "text": "He is believed, Augustine says, to have been conceived on March twenty-fifth, the day on which he also suffered.",
+          "spoken_text": "He is believed, Augustine says, to have been conceived on March twenty-fifth, the day on which he also suffered.",
+          "start": 256.6865833333333,
+          "end": 264.60520833333334,
+          "audio_file": "audio/en/sentences/P09-04.wav",
+          "audio_sha256": "d2ec7dfb4fea63516411bbb3a5e4890b08f18cc5563cac8b3a69014713e4aa4b",
+          "replacements": [
+            {
+              "display": "Augustine",
+              "spoken": "Augustine",
+              "count": 1,
+              "phonemes": "ɔːˈɡʌstɪn"
+            }
+          ],
+          "role": "plain"
+        },
+        {
+          "id": "P09-05",
+          "text": "And he was born, by tradition, on December twenty-fifth.",
+          "spoken_text": "And he was born, by tradition, on December twenty-fifth.",
+          "start": 264.90520833333335,
+          "end": 269.03516666666667,
+          "audio_file": "audio/en/sentences/P09-05.wav",
+          "audio_sha256": "bbdb1460248bf5061df33262664727849823f3be1cc45427baabf9b06a2be155",
+          "replacements": [],
+          "role": "plain"
+        }
+      ],
+      "audio_file": "audio/en/P09.wav",
+      "duration_seconds": 27.501833333333334,
+      "native_speed": 0.82,
+      "start": 241.53333333333333,
+      "speech_end": 269.03516666666667,
+      "end": 269.96666666666664,
+      "source_sha256": "0403a3da7af6d6727d4a6d5d5a5cc8f3210cbfe814a9030421760fe74978d5e8"
+    },
+    {
+      "id": "P10",
+      "chapter": "C04",
+      "sources": [
+        "X-S12",
+        "X-S11"
+      ],
+      "classification": "editorial_conclusion",
+      "visuals": [
+        "D13-A",
+        "D_board_calc"
+      ],
+      "text": "In the east, many churches kept January sixth as the feast of his birth and baptism. Some scholars think a similar count, from April sixth, lies behind that date, but that is a reconstruction. The Armenian Church still celebrates the birth of Christ on January sixth. And here, too, there is a gap. These writers were working after the feast of December twenty-fifth already existed. Their reasoning may explain how the date was chosen. Or it may be a reason given afterwards.",
+      "cues": [
+        {
+          "id": "P10-01",
+          "text": "In the east, many churches kept January sixth as the feast of his birth and baptism.",
+          "spoken_text": "In the east, many churches kept January sixth as the feast of his birth and baptism.",
+          "start": 269.96666666666664,
+          "end": 276.332,
+          "audio_file": "audio/en/sentences/P10-01.wav",
+          "audio_sha256": "27c39f238c343cd15bd4734debc6bac1731e4ea18faa645f02c6fc81d63c7df3",
+          "replacements": [],
+          "role": "plain"
+        },
+        {
+          "id": "P10-02",
+          "text": "Some scholars think a similar count, from April sixth, lies behind that date, but that is a reconstruction.",
+          "spoken_text": "Some scholars think a similar count, from April sixth, lies behind that date, but that is a reconstruction.",
+          "start": 276.63199999999995,
+          "end": 284.67995833333333,
+          "audio_file": "audio/en/sentences/P10-02.wav",
+          "audio_sha256": "0b1708d1677309200bd5a4857904f7fa26dd1d271d593badd6829c74f26ad976",
+          "replacements": [],
+          "role": "plain"
+        },
+        {
+          "id": "P10-03",
+          "text": "The Armenian Church still celebrates the birth of Christ on January sixth.",
+          "spoken_text": "The Armenian Church still celebrates the birth of Christ on January sixth.",
+          "start": 284.9799583333333,
+          "end": 290.72524999999996,
+          "audio_file": "audio/en/sentences/P10-03.wav",
+          "audio_sha256": "13286b632dc0577e32de7328f9a503bb8034d11059624a55004f6eeb02553ed4",
+          "replacements": [],
+          "role": "plain"
+        },
+        {
+          "id": "P10-04",
+          "text": "And here, too, there is a gap.",
+          "spoken_text": "And here, too, there is a gap.",
+          "start": 291.02524999999997,
+          "end": 293.31054166666667,
+          "audio_file": "audio/en/sentences/P10-04.wav",
+          "audio_sha256": "8fc1cf6c43df4394dd5bdae3bde68783f79f31e72d6d57ab73c1239fb6caef30",
+          "replacements": [],
+          "role": "plain"
+        },
+        {
+          "id": "P10-05",
+          "text": "These writers were working after the feast of December twenty-fifth already existed.",
+          "spoken_text": "These writers were working after the feast of December twenty-fifth already existed.",
+          "start": 293.6105416666666,
+          "end": 299.07987499999996,
+          "audio_file": "audio/en/sentences/P10-05.wav",
+          "audio_sha256": "f473347f70b2508e12f146432b9e8529a793902de2f677621451477a9a51f058",
+          "replacements": [],
+          "role": "plain"
+        },
+        {
+          "id": "P10-06",
+          "text": "Their reasoning may explain how the date was chosen.",
+          "spoken_text": "Their reasoning may explain how the date was chosen.",
+          "start": 299.37987499999997,
+          "end": 302.74116666666663,
+          "audio_file": "audio/en/sentences/P10-06.wav",
+          "audio_sha256": "92ea135744c1090bed4d4ca838b39b462a962a35d8c600edbff33c3276a6990b",
+          "replacements": [],
+          "role": "plain"
+        },
+        {
+          "id": "P10-07",
+          "text": "Or it may be a reason given afterwards.",
+          "spoken_text": "Or it may be a reason given afterwards.",
+          "start": 303.04116666666664,
+          "end": 306.0371666666666,
+          "audio_file": "audio/en/sentences/P10-07.wav",
+          "audio_sha256": "668a7ea33d4d339ea86d5e4765ae6af2506acad7841206fa3c4ee30fa30c3835",
+          "replacements": [],
+          "role": "plain"
+        }
+      ],
+      "audio_file": "audio/en/P10.wav",
+      "duration_seconds": 36.0705,
+      "native_speed": 0.82,
+      "start": 269.96666666666664,
+      "speech_end": 306.0371666666666,
+      "end": 306.96666666666664,
+      "source_sha256": "ad3c520e9b6b58c698b8a6ed2e83ab02f6cb615515180d91b22ac68ba300f03c"
+    },
+    {
+      "id": "P11",
+      "chapter": "C05",
+      "sources": [
+        "X-S13"
+      ],
+      "classification": "historical_fact",
+      "visuals": [
+        "D14-A",
+        "D_map"
+      ],
+      "text": "The Roman date travelled east. In the late three eighties, in the city of Antioch, John Chrysostom told his listeners that they had known this feast for less than ten years. In the west, he said, people had known it from long ago.",
+      "cues": [
+        {
+          "id": "P11-01",
+          "text": "The Roman date travelled east.",
+          "spoken_text": "The Roman date travelled east.",
+          "start": 306.96666666666664,
+          "end": 309.34529166666664,
+          "audio_file": "audio/en/sentences/P11-01.wav",
+          "audio_sha256": "3541527eb05ceec2fd0c09994c37187f1681d66a3127ac933cf20c50475440c4",
+          "replacements": [],
+          "role": "plain"
+        },
+        {
+          "id": "P11-02",
+          "text": "In the late three eighties, in the city of Antioch, John Chrysostom told his listeners that they had known this feast for less than ten years.",
+          "spoken_text": "In the late three eighties, in the city of Antioch, John Chrysostom told his listeners that they had known this feast for less than ten years.",
+          "start": 309.64529166666665,
+          "end": 319.37129166666665,
+          "audio_file": "audio/en/sentences/P11-02.wav",
+          "audio_sha256": "7093c2443a35f4e896c0713badcf6d59a52dabd953e1d23208bddd73ff68e924",
+          "replacements": [],
+          "role": "plain"
+        },
+        {
+          "id": "P11-03",
+          "text": "In the west, he said, people had known it from long ago.",
+          "spoken_text": "In the west, he said, people had known it from long ago.",
+          "start": 319.67129166666666,
+          "end": 323.57925,
+          "audio_file": "audio/en/sentences/P11-03.wav",
+          "audio_sha256": "25a04170e6cf987a8af1cc80b0e72be6237ce6ff8bec97947805f7546fdcf962",
+          "replacements": [],
+          "role": "plain"
+        }
+      ],
+      "audio_file": "audio/en/P11.wav",
+      "duration_seconds": 16.612583333333333,
+      "native_speed": 0.82,
+      "start": 306.96666666666664,
+      "speech_end": 323.57925,
+      "end": 324.5,
+      "source_sha256": "b789eead558f3e7f6ee24a81e83222ba6562e8043e2fb1463202f6932cdb8c84"
+    },
+    {
+      "id": "P12",
+      "chapter": "C05",
+      "sources": [
+        "X-S03",
+        "X-S05",
+        "X-S11"
+      ],
+      "classification": "editorial_conclusion",
+      "visuals": [
+        "D_board_both"
+      ],
+      "text": "So the oldest record is Roman, from the three hundreds. And the two answers are not quite the same kind of evidence. The sun gives us a festival on the same day. The calculation gives us a reason, written by Christians themselves. Neither gives us a record of the choice being made.",
+      "cues": [
+        {
+          "id": "P12-01",
+          "text": "So the oldest record is Roman, from the three hundreds.",
+          "spoken_text": "So the oldest record is Roman, from the three hundreds.",
+          "start": 324.5,
+          "end": 328.33666666666664,
+          "audio_file": "audio/en/sentences/P12-01.wav",
+          "audio_sha256": "7e742aa6d557f67781b008003a45e5dfca738da17875a3fa1a3d61d73730788e",
+          "replacements": [],
+          "role": "plain"
+        },
+        {
+          "id": "P12-02",
+          "text": "And the two answers are not quite the same kind of evidence.",
+          "spoken_text": "And the two answers are not quite the same kind of evidence.",
+          "start": 328.63666666666666,
+          "end": 332.624,
+          "audio_file": "audio/en/sentences/P12-02.wav",
+          "audio_sha256": "a1fbd98d3d603702fc2ff408f04a99e0ae16e623d7531ef8bc34c58914c7f8f9",
+          "replacements": [],
+          "role": "plain"
+        },
+        {
+          "id": "P12-03",
+          "text": "The sun gives us a festival on the same day.",
+          "spoken_text": "The sun gives us a festival on the same day.",
+          "start": 332.924,
+          "end": 336.23133333333334,
+          "audio_file": "audio/en/sentences/P12-03.wav",
+          "audio_sha256": "9607530e4c190060599f967cc2198d03ce7e71f9bc5c0c46f633f48ea2eff1d2",
+          "replacements": [],
+          "role": "plain"
+        },
+        {
+          "id": "P12-04",
+          "text": "The calculation gives us a reason, written by Christians themselves.",
+          "spoken_text": "The calculation gives us a reason, written by Christians themselves.",
+          "start": 336.53133333333335,
+          "end": 341.50733333333335,
+          "audio_file": "audio/en/sentences/P12-04.wav",
+          "audio_sha256": "779ac235ea6bf224b46e41036757e79a1727ee657ee7a8685dd29207d0e7aa4b",
+          "replacements": [],
+          "role": "plain"
+        },
+        {
+          "id": "P12-05",
+          "text": "Neither gives us a record of the choice being made.",
+          "spoken_text": "Neither gives us a record of the choice being made.",
+          "start": 341.8073333333333,
+          "end": 345.264,
+          "audio_file": "audio/en/sentences/P12-05.wav",
+          "audio_sha256": "2e0f0432ac73311fd936b85ec8f7371bbf0b5c454707cb2e3981da455bd61f5f",
+          "replacements": [],
+          "role": "plain"
+        }
+      ],
+      "audio_file": "audio/en/P12.wav",
+      "duration_seconds": 20.764,
+      "native_speed": 0.82,
+      "start": 324.5,
+      "speech_end": 345.264,
+      "end": 346.2,
+      "source_sha256": "0763146d479cb10adc49219305f3331bda68bef9e5e61653022f8c06b5e1bd90"
+    },
+    {
+      "id": "P13",
+      "chapter": "C06",
+      "sources": [
+        "X-S14"
+      ],
+      "classification": "historical_fact",
+      "visuals": [
+        "D15-A",
+        "D16-A",
+        "D_markers"
+      ],
+      "text": "There is one more piece. In the first century, Pliny the Elder wrote that the winter solstice falls at about December twenty-fifth, and that the spring equinox seems to fall on March twenty-fifth. These were calendar markers, not exact measurements. But a feast of the sun would fit at the solstice. So would a birth counted nine months from March twenty-fifth. Perhaps the two answers were never really rivals. They may point to the same turning of the year.",
+      "cues": [
+        {
+          "id": "P13-01",
+          "text": "There is one more piece.",
+          "spoken_text": "There is one more piece.",
+          "start": 346.2,
+          "end": 348.0452916666666,
+          "audio_file": "audio/en/sentences/P13-01.wav",
+          "audio_sha256": "03b6b1f75f8f991c144342a1c81f56f6ed0f04faf6a4907bc4fb362f2fb52cfa",
+          "replacements": [],
+          "role": "plain"
+        },
+        {
+          "id": "P13-02",
+          "text": "In the first century, Pliny the Elder wrote that the winter solstice falls at about December twenty-fifth, and that the spring equinox seems to fall on March twenty-fifth.",
+          "spoken_text": "In the first century, Pliny the Elder wrote that the winter solstice falls at about December twenty-fifth, and that the spring equinox seems to fall on March twenty-fifth.",
+          "start": 348.34529166666664,
+          "end": 359.75529166666666,
+          "audio_file": "audio/en/sentences/P13-02.wav",
+          "audio_sha256": "23bfa9355775e1155ff0ded84da9c6a3cc431a28877dcc2c70526e0b89570926",
+          "replacements": [
+            {
+              "display": "Pliny",
+              "spoken": "Pliny",
+              "count": 1,
+              "phonemes": "ˈplɪni"
+            }
+          ],
+          "role": "plain"
+        },
+        {
+          "id": "P13-03",
+          "text": "These were calendar markers, not exact measurements.",
+          "spoken_text": "These were calendar markers, not exact measurements.",
+          "start": 360.0552916666667,
+          "end": 363.66862499999996,
+          "audio_file": "audio/en/sentences/P13-03.wav",
+          "audio_sha256": "e8b4fec425058261bed69a711aa6d254b37bf51d1561358460f80701e6e6310b",
+          "replacements": [],
+          "role": "plain"
+        },
+        {
+          "id": "P13-04",
+          "text": "But a feast of the sun would fit at the solstice.",
+          "spoken_text": "But a feast of the sun would fit at the solstice.",
+          "start": 363.968625,
+          "end": 367.0839583333333,
+          "audio_file": "audio/en/sentences/P13-04.wav",
+          "audio_sha256": "9fb3e2eca36e5bd643f7709c700fcbe7168f9260269c3fde7ff336ae26a74bc9",
+          "replacements": [],
+          "role": "plain"
+        },
+        {
+          "id": "P13-05",
+          "text": "So would a birth counted nine months from March twenty-fifth.",
+          "spoken_text": "So would a birth counted nine months from March twenty-fifth.",
+          "start": 367.38395833333334,
+          "end": 371.274625,
+          "audio_file": "audio/en/sentences/P13-05.wav",
+          "audio_sha256": "25b1d43e1ea4a86c06ecefa3fdc03e8e0abba8f9b2ca6db4db97b98bb75ef445",
+          "replacements": [],
+          "role": "plain"
+        },
+        {
+          "id": "P13-06",
+          "text": "Perhaps the two answers were never really rivals.",
+          "spoken_text": "Perhaps the two answers were never really rivals.",
+          "start": 371.57462499999997,
+          "end": 375.11129166666666,
+          "audio_file": "audio/en/sentences/P13-06.wav",
+          "audio_sha256": "57a69e505d9c68fd2aef550490c20444731835f1d16e38724567bc7f65d5a43e",
+          "replacements": [],
+          "role": "plain"
+        },
+        {
+          "id": "P13-07",
+          "text": "They may point to the same turning of the year.",
+          "spoken_text": "They may point to the same turning of the year.",
+          "start": 375.41129166666667,
+          "end": 378.17525,
+          "audio_file": "audio/en/sentences/P13-07.wav",
+          "audio_sha256": "da0933d76c9c701cdefdc1436055bfe00e194d7eaa6cb9ec44e13f7e3015e5ba",
+          "replacements": [],
+          "role": "plain"
+        }
+      ],
+      "audio_file": "audio/en/P13.wav",
+      "duration_seconds": 31.97525,
+      "native_speed": 0.82,
+      "start": 346.2,
+      "speech_end": 378.17525,
+      "end": 379.1,
+      "source_sha256": "080ea6eef39ae2d74c4c675f5a4b8dd71d82b7da023d6aa8aa017a07033fa737"
+    },
+    {
+      "id": "P14",
+      "chapter": "C06",
+      "sources": [
+        "X-S03",
+        "X-S05",
+        "X-S06",
+        "X-S10",
+        "X-S11"
+      ],
+      "classification": "editorial_conclusion",
+      "visuals": [
+        "D_board_all",
+        "D01-C"
+      ],
+      "text": "So, why is Christmas on December twenty-fifth? The oldest record we have comes from Rome, in the three hundreds. One answer says the date was set beside a festival of the sun. The other says it was counted from March twenty-fifth. Each has evidence, and each has a gap. The sources do not let us choose with certainty.",
+      "cues": [
+        {
+          "id": "P14-01",
+          "text": "So, why is Christmas on December twenty-fifth?",
+          "spoken_text": "So, why is Christmas on December twenty-fifth?",
+          "start": 379.1,
+          "end": 382.3532916666667,
+          "audio_file": "audio/en/sentences/P14-01.wav",
+          "audio_sha256": "8776a884d9d762284e2797efb0c50e248c3915f6fef75859126a9489846d35f2",
+          "replacements": [],
+          "role": "question"
+        },
+        {
+          "id": "P14-02",
+          "text": "The oldest record we have comes from Rome, in the three hundreds.",
+          "spoken_text": "The oldest record we have comes from Rome, in the three hundreds.",
+          "start": 382.6532916666667,
+          "end": 386.90525,
+          "audio_file": "audio/en/sentences/P14-02.wav",
+          "audio_sha256": "68a13790852fb97d2242903c2470adf2213a256936ecdc7b6110b1f374dfffaa",
+          "replacements": [],
+          "role": "conclusion"
+        },
+        {
+          "id": "P14-03",
+          "text": "One answer says the date was set beside a festival of the sun.",
+          "spoken_text": "One answer says the date was set beside a festival of the sun.",
+          "start": 387.20525000000004,
+          "end": 391.6405833333334,
+          "audio_file": "audio/en/sentences/P14-03.wav",
+          "audio_sha256": "8bf8a80a52389180e58ff53c7b064b5a823e58cb24e4fa05715aaeaed678b31d",
+          "replacements": [],
+          "role": "conclusion"
+        },
+        {
+          "id": "P14-04",
+          "text": "The other says it was counted from March twenty-fifth.",
+          "spoken_text": "The other says it was counted from March twenty-fifth.",
+          "start": 391.94058333333334,
+          "end": 395.28791666666666,
+          "audio_file": "audio/en/sentences/P14-04.wav",
+          "audio_sha256": "83f967eefdcad324a529c96841664a66bfc1c77d3e072e0d97f29ae133221376",
+          "replacements": [],
+          "role": "conclusion"
+        },
+        {
+          "id": "P14-05",
+          "text": "Each has evidence, and each has a gap.",
+          "spoken_text": "Each has evidence, and each has a gap.",
+          "start": 395.5879166666667,
+          "end": 398.38187500000004,
+          "audio_file": "audio/en/sentences/P14-05.wav",
+          "audio_sha256": "a27cd267020e44f3d30a87913cb77ff08a48f2f04d717d5a8ae21c5374ba73a7",
+          "replacements": [],
+          "role": "conclusion"
+        },
+        {
+          "id": "P14-06",
+          "text": "The sources do not let us choose with certainty.",
+          "spoken_text": "The sources do not let us choose with certainty.",
+          "start": 398.68187500000005,
+          "end": 401.7785,
+          "audio_file": "audio/en/sentences/P14-06.wav",
+          "audio_sha256": "5e3b891105e38e6a9794983d40c5a139cc3b64d9ffc2b9faa3c319a7c4e0221f",
+          "replacements": [],
+          "role": "conclusion"
+        }
+      ],
+      "audio_file": "audio/en/P14.wav",
+      "duration_seconds": 22.6785,
+      "native_speed": 0.82,
+      "start": 379.1,
+      "speech_end": 401.7785,
+      "end": 402.7,
+      "source_sha256": "673355e17e71a90b06338a97d2a27cc5d144a2d2c434b7ae090a08cec11652c1"
+    },
+    {
+      "id": "P15",
+      "chapter": "C06",
+      "sources": [],
+      "classification": "closing",
+      "visuals": [
+        "D17-A"
+      ],
+      "text": "Every story has an origin. Sometimes, two stories point to the same day.",
+      "cues": [
+        {
+          "id": "P15-01",
+          "text": "Every story has an origin.",
+          "spoken_text": "Every story has an origin.",
+          "start": 402.7,
+          "end": 405.02729166666666,
+          "audio_file": "audio/en/sentences/P15-01.wav",
+          "audio_sha256": "0063265d80ced1a50287614d24646279d99ee3a04ead8968c1c3d21518fa7aed",
+          "replacements": [],
+          "role": "conclusion"
+        },
+        {
+          "id": "P15-02",
+          "text": "Sometimes, two stories point to the same day.",
+          "spoken_text": "Sometimes, two stories point to the same day.",
+          "start": 405.32729166666667,
+          "end": 408.44262499999996,
+          "audio_file": "audio/en/sentences/P15-02.wav",
+          "audio_sha256": "e378b4dce747ee15345ad14d5875ca1b76be624b41e5f4a6d0784a1f9b83721d",
+          "replacements": [],
+          "role": "conclusion"
+        }
+      ],
+      "audio_file": "audio/en/P15.wav",
+      "duration_seconds": 5.742625,
+      "native_speed": 0.82,
+      "start": 402.7,
+      "speech_end": 408.44262499999996,
+      "end": 409.3666666666667,
+      "source_sha256": "6998f17b7c0db393fed4bbeb058e04fd6a44e44a3089e12c47bbe7a4adee2098"
+    },
+    {
+      "id": "P16",
+      "chapter": "C06",
+      "sources": [],
+      "classification": "credits",
+      "visuals": [
+        "credits"
+      ],
+      "text": "This video is based on historical texts and public museum and library collections. The narration uses synthetic speech. Sources and terms of use are listed in the description. If you enjoyed this story, please like the video and subscribe for more quiet origins. Thank you for watching.",
+      "cues": [
+        {
+          "id": "P16-01",
+          "text": "This video is based on historical texts and public museum and library collections.",
+          "spoken_text": "This video is based on historical texts and public museum and library collections.",
+          "start": 409.3666666666667,
+          "end": 415.284,
+          "audio_file": "audio/en/sentences/P16-01.wav",
+          "audio_sha256": "0bf34f79cf71e5a45367a955de96be3623d50e1d3d7a4a56d601f81797d6ed4d",
+          "replacements": [],
+          "role": "plain"
+        },
+        {
+          "id": "P16-02",
+          "text": "The narration uses synthetic speech.",
+          "spoken_text": "The narration uses synthetic speech.",
+          "start": 415.584,
+          "end": 418.30395833333336,
+          "audio_file": "audio/en/sentences/P16-02.wav",
+          "audio_sha256": "3a1d09d90c9ad7de38ca5c7766e7d56ebcfc2e7abb7cb720056f0a0ea12e7618",
+          "replacements": [],
+          "role": "plain"
+        },
+        {
+          "id": "P16-03",
+          "text": "Sources and terms of use are listed in the description.",
+          "spoken_text": "Sources and terms of use are listed in the description.",
+          "start": 418.60395833333337,
+          "end": 422.54991666666666,
+          "audio_file": "audio/en/sentences/P16-03.wav",
+          "audio_sha256": "6bc6c1ac37aff182e76a983231231942d155ca66f36036b6fb6acbd09ae49b93",
+          "replacements": [],
+          "role": "plain"
+        },
+        {
+          "id": "P16-04",
+          "text": "If you enjoyed this story, please like the video and subscribe for more quiet origins.",
+          "spoken_text": "If you enjoyed this story, please like the video and subscribe for more quiet origins.",
+          "start": 422.8499166666667,
+          "end": 428.97058333333337,
+          "audio_file": "audio/en/sentences/P16-04.wav",
+          "audio_sha256": "b01280520faba0ef8dbf186afee510e7c22b4479298747b956f3af6f21671842",
+          "replacements": [],
+          "role": "plain"
+        },
+        {
+          "id": "P16-05",
+          "text": "Thank you for watching.",
+          "spoken_text": "Thank you for watching.",
+          "start": 429.2705833333333,
+          "end": 431.0432083333333,
+          "audio_file": "audio/en/sentences/P16-05.wav",
+          "audio_sha256": "fed0528a8a24ee90999616895a07647de7544cf0c2b4d1e687af3babccae4dc7",
+          "replacements": [],
+          "role": "plain"
+        }
+      ],
+      "audio_file": "audio/en/P16.wav",
+      "duration_seconds": 21.676541666666665,
+      "native_speed": 0.82,
+      "start": 409.3666666666667,
+      "speech_end": 431.0432083333333,
+      "end": 431.96666666666664,
+      "source_sha256": "ed7ae21a1205c6bd30d90fd85b3fd2edf917e9981da25fdcb840ded420263b31"
+    }
+  ],
+  "duration_seconds": 441.96666666666664,
+  "fps": 30,
+  "brand_intervals": {
+    "opening": [
+      58.0,
+      62.0
+    ],
+    "endcard": [
+      431.96666666666664,
+      441.96666666666664
+    ]
+  }
+}
