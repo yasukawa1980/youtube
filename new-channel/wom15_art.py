@@ -111,7 +111,7 @@ def art(k,s,u=0,idx=0,highlight=False):
 
 def credits(s):
  p=Plate(s);p.pair('QUIET ORIGINS｜クワイエット・オリジンズ',(130,86,1790,245),70,36,None)
- rows=['Kokoro / Heart (af_heart)     ·     VOICEVOX:冥鳴ひまり','National Gallery of Art     ·     Princeton University Art Museum','Universitätsbibliothek Basel     ·     ETH-Bibliothek Zürich     ·     Zentralbibliothek Zürich','Universitätsbibliothek Heidelberg     ·     Universitäts- und Landesbibliothek Bonn','Internet Archive  /  University of Toronto  ·  Getty Research Institute  ·  Grinnell College','Coin photographs by Sandir / Numista (CC0)','QO_THEME_A02 / Suno']
+ rows=['English voice: Kokoro / Heart (af_heart)     ·     日本語の声　VOICEVOX:冥鳴ひまり','National Gallery of Art     ·     Princeton University Art Museum','Universitätsbibliothek Basel     ·     ETH-Bibliothek Zürich     ·     Zentralbibliothek Zürich','Universitätsbibliothek Heidelberg     ·     Universitäts- und Landesbibliothek Bonn','Internet Archive  /  University of Toronto  ·  Getty Research Institute  ·  Grinnell College','Coin photographs by Sandir / Numista (CC0)','QO_THEME_A02 / Suno']
  p.line([(285,269),(1635,269)])
  for i,t in enumerate(rows):p.text(t,(82,311+73*i,1838,370+73*i),36,'ja' if i==0 else 'small')
  return p
