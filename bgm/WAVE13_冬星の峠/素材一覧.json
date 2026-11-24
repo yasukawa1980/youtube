@@ -1,0 +1,131 @@
+{
+  "project": "WAVE13 冬星の峠",
+  "channel": "Whispers of Japan",
+  "line": "Waves of Japan",
+  "prompt_file": "画像プロンプト.md",
+  "generation_tool": "OpenAI built-in image generation and image editing",
+  "generated_at_source": "生成ツールが書き出した原本の最終更新時刻（日本標準時）",
+  "finishing": "編集4場面は第3場面をガイドに局所的な色と露出を転写し、星の明暗を基準座標に合わせた。本編の露出とサムネの暗部を調整し、全6枚をLanczosで1920×1080に拡大。",
+  "luma_method": "Pillow RGB→L (BT.601, 0–255), full frame; thumbnail left 56 columns after Lanczos resize to 168×95",
+  "assets": [
+    {
+      "file": "画像/wave13_01_暮れ方の峠.png",
+      "sha256": "d07aa5aa74df2aa1881cc555b8bc879c469ceb8ffc367fe9a568a3518559d96e",
+      "width": 1920,
+      "height": 1080,
+      "generated_at": "2026-11-25T00:48:13+09:00",
+      "finalized_at": "2026-11-25T00:51:23+09:00",
+      "original": {
+        "file": "画像/生成直後/wave13_01_暮れ方の峠.png",
+        "sha256": "4dbf7656d9f6358257b6ecc2fa464d8e1bb4bacdabb1564e6ee6993ba38c0db7",
+        "width": 1672,
+        "height": 941
+      },
+      "metrics": {
+        "mean_luma": 48.955,
+        "pct_luma_below_16": 2.8131,
+        "pct_luma_at_least_250": 0.0
+      },
+      "edit_source": "画像/生成直後/wave13_03_冬の星空.png"
+    },
+    {
+      "file": "画像/wave13_02_星の出る頃.png",
+      "sha256": "49ee46ffea14c32759a196a5a1358e4f116a0acb043694d4ac2e478446797f69",
+      "width": 1920,
+      "height": 1080,
+      "generated_at": "2026-11-25T00:47:04+09:00",
+      "finalized_at": "2026-11-25T00:51:23+09:00",
+      "original": {
+        "file": "画像/生成直後/wave13_02_星の出る頃.png",
+        "sha256": "9a7e7f6b9a359fd733e051b57713c11da7242c6d105205c889ac90d17d66734f",
+        "width": 1672,
+        "height": 941
+      },
+      "metrics": {
+        "mean_luma": 40.998,
+        "pct_luma_below_16": 2.4324,
+        "pct_luma_at_least_250": 0.0
+      },
+      "edit_source": "画像/生成直後/wave13_03_冬の星空.png"
+    },
+    {
+      "file": "画像/wave13_03_冬の星空.png",
+      "sha256": "2b108c41e534441e50ef61d7f434d74fb1e00e538ae392bb5f4333eb651b1803",
+      "width": 1920,
+      "height": 1080,
+      "generated_at": "2026-11-25T00:45:46+09:00",
+      "finalized_at": "2026-11-25T00:51:24+09:00",
+      "original": {
+        "file": "画像/生成直後/wave13_03_冬の星空.png",
+        "sha256": "5c95474533bf18a90fe71b0f8e2e72737340013d02809d80199d0bebbec34c1a",
+        "width": 1672,
+        "height": 941
+      },
+      "metrics": {
+        "mean_luma": 35.988,
+        "pct_luma_below_16": 4.697,
+        "pct_luma_at_least_250": 0.0
+      }
+    },
+    {
+      "file": "画像/wave13_04_夜更けの霜.png",
+      "sha256": "9c20023063644dd3faa6207d3245b0b31a8b977971a32ee8d1019213fbf52889",
+      "width": 1920,
+      "height": 1080,
+      "generated_at": "2026-11-25T00:47:40+09:00",
+      "finalized_at": "2026-11-25T00:51:25+09:00",
+      "original": {
+        "file": "画像/生成直後/wave13_04_夜更けの霜.png",
+        "sha256": "5a69409168c2770b413924fb4013d47a3ea1024651d1aaa0e0e8700177c6bb1a",
+        "width": 1672,
+        "height": 941
+      },
+      "metrics": {
+        "mean_luma": 32.986,
+        "pct_luma_below_16": 12.6157,
+        "pct_luma_at_least_250": 0.0
+      },
+      "edit_source": "画像/生成直後/wave13_03_冬の星空.png"
+    },
+    {
+      "file": "画像/wave13_05_未明の峠.png",
+      "sha256": "87fb73c79bbe41e60438d7e91a83a62fde82fc08f9af976cc963b6fdbc0eda08",
+      "width": 1920,
+      "height": 1080,
+      "generated_at": "2026-11-25T00:46:35+09:00",
+      "finalized_at": "2026-11-25T00:51:26+09:00",
+      "original": {
+        "file": "画像/生成直後/wave13_05_未明の峠.png",
+        "sha256": "1f47e58b8977cc3d0c5493ad0575dfa1d618806eccec572f2b6b8a4bdf388d76",
+        "width": 1672,
+        "height": 941
+      },
+      "metrics": {
+        "mean_luma": 30.998,
+        "pct_luma_below_16": 9.0567,
+        "pct_luma_at_least_250": 0.00019
+      },
+      "edit_source": "画像/生成直後/wave13_03_冬の星空.png"
+    },
+    {
+      "file": "画像/wave13_サムネ_v1.png",
+      "sha256": "1f8014808fa605a6f90ad1f03ea3c369ad49a4b1b82c554e5dad27a19f006e69",
+      "width": 1920,
+      "height": 1080,
+      "generated_at": "2026-11-25T00:46:05+09:00",
+      "finalized_at": "2026-11-25T00:51:26+09:00",
+      "original": {
+        "file": "画像/生成直後/wave13_サムネ_v1.png",
+        "sha256": "a278dc9cab0454eeffca94fbc81bbfe034a4069812b169c58ea9b0ae07f90f11",
+        "width": 1672,
+        "height": 941
+      },
+      "metrics": {
+        "mean_luma": 32.827,
+        "pct_luma_below_16": 18.9159,
+        "pct_luma_at_least_250": 0.01143,
+        "left_third_median_luma_at_168px": 18.0
+      }
+    }
+  ]
+}

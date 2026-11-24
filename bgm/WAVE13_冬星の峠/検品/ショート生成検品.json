@@ -1,0 +1,114 @@
+{
+  "source": "/Users/ryo/youtube/bgm/WAVE13_冬星の峠/本編映像/wave13_冬星の峠_3時間.mp4",
+  "source_sha256": "5e15471732dab8d8ee85550e8281a9fc2499f9429226a4899c91a0f7d91fcf35",
+  "crop": {
+    "width": 608,
+    "height": 1080,
+    "x": 945,
+    "anchor": 0.72
+  },
+  "output": {
+    "width": 1080,
+    "height": 1920,
+    "fps": 30,
+    "seconds": 45
+  },
+  "records": [
+    {
+      "tag": "A",
+      "start": 900.0,
+      "scene": "暮れ方の峠",
+      "hz": 7.66,
+      "file": "/Users/ryo/youtube/bgm/WAVE13_冬星の峠/ショート/wave13_ショート_A.mp4",
+      "sha256": "ac6a925b085599fb4dcbc653d49574e116ab08773eefd45c5539b1b7c3e84f39",
+      "probe": {
+        "programs": [],
+        "stream_groups": [],
+        "streams": [
+          {
+            "codec_name": "h264",
+            "codec_type": "video",
+            "width": 1080,
+            "height": 1920,
+            "r_frame_rate": "30/1"
+          },
+          {
+            "codec_name": "aac",
+            "codec_type": "audio",
+            "sample_rate": "48000",
+            "channels": 2,
+            "r_frame_rate": "0/0"
+          }
+        ],
+        "format": {
+          "duration": "45.000000",
+          "size": "3308880"
+        }
+      }
+    },
+    {
+      "tag": "B",
+      "start": 2700.0,
+      "scene": "星の出る頃",
+      "hz": 6.99,
+      "file": "/Users/ryo/youtube/bgm/WAVE13_冬星の峠/ショート/wave13_ショート_B.mp4",
+      "sha256": "23f2344e822ce12aa2e8a9ddf94374d0d21a3166b6490fddac63e7cf90b5a8f4",
+      "probe": {
+        "programs": [],
+        "stream_groups": [],
+        "streams": [
+          {
+            "codec_name": "h264",
+            "codec_type": "video",
+            "width": 1080,
+            "height": 1920,
+            "r_frame_rate": "30/1"
+          },
+          {
+            "codec_name": "aac",
+            "codec_type": "audio",
+            "sample_rate": "48000",
+            "channels": 2,
+            "r_frame_rate": "0/0"
+          }
+        ],
+        "format": {
+          "duration": "45.000000",
+          "size": "3738504"
+        }
+      }
+    },
+    {
+      "tag": "C",
+      "start": 4800.0,
+      "scene": "冬の星空",
+      "hz": 6.21,
+      "file": "/Users/ryo/youtube/bgm/WAVE13_冬星の峠/ショート/wave13_ショート_C.mp4",
+      "sha256": "fac15bc7aa278cc7bfa4fbb5782ecfb6c0dc18067bd9f7b2fe4679fcd334ad1b",
+      "probe": {
+        "programs": [],
+        "stream_groups": [],
+        "streams": [
+          {
+            "codec_name": "h264",
+            "codec_type": "video",
+            "width": 1080,
+            "height": 1920,
+            "r_frame_rate": "30/1"
+          },
+          {
+            "codec_name": "aac",
+            "codec_type": "audio",
+            "sample_rate": "48000",
+            "channels": 2,
+            "r_frame_rate": "0/0"
+          }
+        ],
+        "format": {
+          "duration": "45.000000",
+          "size": "4138379"
+        }
+      }
+    }
+  ]
+}
