@@ -1,0 +1,1299 @@
+{
+  "schema_version": 1,
+  "channel": "Whispers of Japan",
+  "series": "朗読",
+  "generator": "built-in image_gen",
+  "generation_mode": "independent_generation_one_image_per_call_no_reference_images",
+  "generated_at_definition": "各image_gen呼び出しが完了した観測時刻（UTC）。モデル内部の生成時刻ではない。",
+  "measurement": {
+    "luminance_formula": "Y′ = 0.2126 R + 0.7152 G + 0.0722 B; sRGB encoded RGB values, 0–255, float64. No gamma linearization.",
+    "dark_threshold": "strictly Y′ < 16",
+    "ratio_unit": "0–1; percent field additionally provided",
+    "thumbnail_measurement": "Resize delivered RGB image to 168×95 using Pillow LANCZOS; left third is columns 0–55 across all 95 rows; median uses the same Y′ formula."
+  },
+  "processing": {
+    "target_size": [
+      1920,
+      1080
+    ],
+    "aspect_ratio": "16:9",
+    "method": "Pillow ImageOps.fit, centered minimal aspect-ratio crop and LANCZOS resampling",
+    "exposure_correction": false,
+    "color_or_contrast_adjustment": false,
+    "note": "原本はバイト同一コピーで保存。納品版はサイズ・縦横比の整形だけ。シャープ処理・描き足し・消去なし。"
+  },
+  "exposure_correction": false,
+  "volume": "RDG05",
+  "title": "新美南吉 短編集：手袋を買いに・ごん狐・おじいさんのランプ・狐",
+  "prompt_source": "bgm/RDG05_コピー用プロンプト.md",
+  "status": "complete",
+  "assets": [
+    {
+      "id": "rdg05_01",
+      "role": "main_video",
+      "path": "画像/rdg05_01.png",
+      "prompt": "A quiet winter wood in rural Japan after a night of heavy snow, at the very first light of morning before sunrise, drawn as a blue dawn scene and not as bright daytime. Deep fresh snow covers the ground and weighs down the branches of fir and bare trees; a little powder snow drifts down from a branch like silver silk thread. At the foot of a snowy bank is the dark round mouth of a fox den, and beside it a small fox cub stands with its nose lifted toward the snow, its mother half visible in the den mouth. The snow is pale blue with soft rose light on the tops of the drifts, and the sky is pale rose fading to blue-grey. Colours: pale blue snow, soft rose light, dark fir green, warm russet fox fur. Gentle and fresh. No people, no figures, no silhouettes of people, no faces, no hands, no animals except those named above, no cats. Any fox is a real wild Japanese red fox drawn simply and gently in the print manner, small in the scene, never cartoonish, never wearing clothes. Japanese shin-hanga woodblock print in the manner of the 1920s-30s revival: flat layered areas of colour, visible woodgrain in the flat passages, softly gradated sky (bokashi), Western perspective and cast light held inside Japanese printmaking. Everything in the scene is drawn as part of the print, in the same flat woodblock manner, never photographic. Calm, dreamlike and hushed. Strong clear difference between the light and dark masses so the image still reads when reduced to a thumbnail. No text, no signature, no seal stamp, no lettering of any kind. No modern objects: no power lines, no cars, no trucks, no plastic, no electric signs. Wide 16:9 landscape. Exposed so that texture is clearly visible everywhere. Shadows are lifted and open, full of visible detail, nothing crushed to pure black. High dynamic range, rich texture even in the darkest areas.",
+      "prompt_verbatim": true,
+      "prompt_sha256": "743535174976b9dfef9590594d4dced88cebfa5e2502f20834f49b5620ab772a",
+      "attempts": [
+        {
+          "attempt": 1,
+          "started_at": "2026-11-25T15:59:35.535Z",
+          "completed_at": "2026-11-25T16:00:01.930Z",
+          "source_path": "/Users/ryo/.codex/generated_images/01a2136e-a040-76a0-ae75-a1769b871ffe/exec-c1a4c1ce-269c-4247-b3bc-ec2d3327e5d2.png",
+          "original_path": "画像/生成直後/rdg05_01_attempt01.png",
+          "accepted": true,
+          "rejection_reason": null,
+          "sha256": "cd656f89ec678bbf938d82937e1c2b52dac344787c888c0e542cb0d2426f1df1",
+          "dimensions": [
+            1672,
+            941
+          ],
+          "bytes": 3243456,
+          "metrics": {
+            "mean_luminance": 146.75090860188948,
+            "luminance_below_16_ratio": 0.0,
+            "luminance_below_16_percent": 0.0
+          }
+        }
+      ],
+      "regeneration_count": 0,
+      "generation_completed_at": "2026-11-25T16:00:01.930Z",
+      "generation_completed_at_jst": "2026-11-26T01:00:01.930000+09:00",
+      "selected_attempt": 1,
+      "original_path": "画像/生成直後/rdg05_01_attempt01.png",
+      "source_crop_box_xyxy": [
+        0.0,
+        0.25,
+        1672.0,
+        940.75
+      ],
+      "visual_check": {
+        "status": "passed",
+        "method": "生成原本の全体を目視確認。",
+        "notes": "薄桃色の東の空、青い雪、洞穴の入口にいる母狐と粉雪を見上げる子狐。夜明けの光を確認。 人物・人影・人の顔や手・猫・文字・署名・印・電線・電柱は目視で認めず。"
+      },
+      "sha256": "eefdbe7c976cca1ab29d16fab120eefc7321830a735f6021e4b2b58ffeb9d972",
+      "dimensions": [
+        1920,
+        1080
+      ],
+      "bytes": 3778434,
+      "metrics": {
+        "mean_luminance": 146.74927538560956,
+        "luminance_below_16_ratio": 0.0,
+        "luminance_below_16_percent": 0.0
+      }
+    },
+    {
+      "id": "rdg05_02",
+      "role": "main_video",
+      "path": "画像/rdg05_02.png",
+      "prompt": "A wide snowy field in rural Japan at night. The snow glows softly blue-white under a dark sky full of quiet stars. Far across the field, at the edge of the snow, a small town of low old wooden houses shows a scatter of tiny warm yellow lights in its windows, like a handful of fallen stars. In the foreground a mother fox and a small cub stand together on the snow, seen from behind, looking toward the far lights, leaving a line of small footprints. Colours: deep indigo sky, blue-white snow, tiny warm yellow lights, russet foxes. Most of the image is dark, calm and a little expectant. No people, no figures, no silhouettes of people, no faces, no hands, no animals except those named above, no cats. Any fox is a real wild Japanese red fox drawn simply and gently in the print manner, small in the scene, never cartoonish, never wearing clothes. Japanese shin-hanga woodblock print in the manner of the 1920s-30s revival: flat layered areas of colour, visible woodgrain in the flat passages, softly gradated sky (bokashi), Western perspective and cast light held inside Japanese printmaking. Everything in the scene is drawn as part of the print, in the same flat woodblock manner, never photographic. Calm, dreamlike and hushed. Strong clear difference between the light and dark masses so the image still reads when reduced to a thumbnail. No text, no signature, no seal stamp, no lettering of any kind. No modern objects: no power lines, no cars, no trucks, no plastic, no electric signs. Wide 16:9 landscape. Exposed so that texture is clearly visible everywhere. Shadows are lifted and open, full of visible detail, nothing crushed to pure black. High dynamic range, rich texture even in the darkest areas.",
+      "prompt_verbatim": true,
+      "prompt_sha256": "3f6f45e3c1721ff578fc9cb3d6e7f042141e30482cfaeea351b188664854bb78",
+      "attempts": [
+        {
+          "attempt": 1,
+          "started_at": "2026-11-25T16:00:23.228Z",
+          "completed_at": "2026-11-25T16:00:50.568Z",
+          "source_path": "/Users/ryo/.codex/generated_images/01a2136e-a040-76a0-ae75-a1769b871ffe/exec-f026515d-6357-43f7-8767-31646a22d979.png",
+          "original_path": "画像/生成直後/rdg05_02_attempt01.png",
+          "accepted": true,
+          "rejection_reason": null,
+          "sha256": "24b5a7f8f53a1ac71723853563adcd01edc4f4bd95b3adc940a89f250bb3c586",
+          "dimensions": [
+            1672,
+            941
+          ],
+          "bytes": 3252165,
+          "metrics": {
+            "mean_luminance": 108.09574717494876,
+            "luminance_below_16_ratio": 3.8135140769516295e-06,
+            "luminance_below_16_percent": 0.00038135140769516294
+          }
+        }
+      ],
+      "regeneration_count": 0,
+      "generation_completed_at": "2026-11-25T16:00:50.568Z",
+      "generation_completed_at_jst": "2026-11-26T01:00:50.568000+09:00",
+      "selected_attempt": 1,
+      "original_path": "画像/生成直後/rdg05_02_attempt01.png",
+      "source_crop_box_xyxy": [
+        0.0,
+        0.25,
+        1672.0,
+        940.75
+      ],
+      "visual_check": {
+        "status": "passed",
+        "method": "生成原本の全体を目視確認。",
+        "notes": "星空の下、手前に後ろ姿の親子の狐と足跡、広い雪原の向こうに小さな町の窓あかり。 人物・人影・人の顔や手・猫・文字・署名・印・電線・電柱は目視で認めず。"
+      },
+      "sha256": "3bf0fb563eff89bcb4e842f0a5a47f5c1068443673f796a2aeb4463cd8fd47ba",
+      "dimensions": [
+        1920,
+        1080
+      ],
+      "bytes": 3719943,
+      "metrics": {
+        "mean_luminance": 108.09723274942128,
+        "luminance_below_16_ratio": 5.304783950617284e-06,
+        "luminance_below_16_percent": 0.0005304783950617284
+      }
+    },
+    {
+      "id": "rdg05_03",
+      "role": "main_video",
+      "path": "画像/rdg05_03.png",
+      "prompt": "A narrow street of a small Japanese town in the 1920s on a snowy winter night. Low wooden shops with closed shutters line both sides, their eaves heavy with snow. Above each shop hangs a wooden signboard lit by one small lamp. One shop has a signboard shaped like a large black silk top hat, and its door is open a crack so that a long band of warm yellow light falls out across the white snow of the street. Snow falls softly. A small fox cub stands at the edge of the light, looking up. From one window above, soft warm light glows behind a paper screen. Colours: deep blue night, white snow, warm golden door light, black top hat sign, russet cub. Tender and hushed. No people, no figures, no silhouettes of people, no faces, no hands, no animals except those named above, no cats. Any fox is a real wild Japanese red fox drawn simply and gently in the print manner, small in the scene, never cartoonish, never wearing clothes. Japanese shin-hanga woodblock print in the manner of the 1920s-30s revival: flat layered areas of colour, visible woodgrain in the flat passages, softly gradated sky (bokashi), Western perspective and cast light held inside Japanese printmaking. Everything in the scene is drawn as part of the print, in the same flat woodblock manner, never photographic. Calm, dreamlike and hushed. Strong clear difference between the light and dark masses so the image still reads when reduced to a thumbnail. No text, no signature, no seal stamp, no lettering of any kind. No modern objects: no power lines, no cars, no trucks, no plastic, no electric signs. Wide 16:9 landscape. Exposed so that texture is clearly visible everywhere. Shadows are lifted and open, full of visible detail, nothing crushed to pure black. High dynamic range, rich texture even in the darkest areas.",
+      "prompt_verbatim": true,
+      "prompt_sha256": "1154b446854fda9f2004a3b7eb4c02089865be73378c294c2294fd0bf8711488",
+      "attempts": [
+        {
+          "attempt": 1,
+          "started_at": "2026-11-25T16:00:50.684Z",
+          "completed_at": "2026-11-25T16:01:25.481Z",
+          "source_path": "/Users/ryo/.codex/generated_images/01a2136e-a040-76a0-ae75-a1769b871ffe/exec-995e8d2f-f61e-4edd-81d3-0f727f80edb3.png",
+          "original_path": "画像/生成直後/rdg05_03_attempt01.png",
+          "accepted": true,
+          "rejection_reason": null,
+          "sha256": "854ed23bc15fe7bd1b11cca847c69ea87b4032011640f9920a5546f8a9c5620f",
+          "dimensions": [
+            1672,
+            941
+          ],
+          "bytes": 3728188,
+          "metrics": {
+            "mean_luminance": 112.93494532628425,
+            "luminance_below_16_ratio": 3.8135140769516295e-06,
+            "luminance_below_16_percent": 0.00038135140769516294
+          }
+        }
+      ],
+      "regeneration_count": 0,
+      "generation_completed_at": "2026-11-25T16:01:25.481Z",
+      "generation_completed_at_jst": "2026-11-26T01:01:25.481000+09:00",
+      "selected_attempt": 1,
+      "original_path": "画像/生成直後/rdg05_03_attempt01.png",
+      "source_crop_box_xyxy": [
+        0.0,
+        0.25,
+        1672.0,
+        940.75
+      ],
+      "visual_check": {
+        "status": "passed",
+        "method": "生成原本の全体を目視確認。",
+        "notes": "シルクハット形の無地の看板、半開きの戸口から雪面へ伸びる金色の光、その縁に立つ子狐。 人物・人影・人の顔や手・猫・文字・署名・印・電線・電柱は目視で認めず。"
+      },
+      "sha256": "78de249bdf102cb94dd185f055af333f6be1ee8839e1e5b816c3b186af0ebee7",
+      "dimensions": [
+        1920,
+        1080
+      ],
+      "bytes": 4127912,
+      "metrics": {
+        "mean_luminance": 112.93316466068674,
+        "luminance_below_16_ratio": 6.751543209876544e-06,
+        "luminance_below_16_percent": 0.0006751543209876544
+      }
+    },
+    {
+      "id": "rdg05_04",
+      "role": "main_video",
+      "path": "画像/rdg05_04.png",
+      "prompt": "A small stream in the Japanese countryside in early autumn, late on an afternoon after three days of rain, drawn as an evening scene. The swollen yellowish water runs high between grassy banks; susuki pampas grass and bush clover lean low over it, their tips silver with raindrops. Up the bank is a thicket of ferns and a small dark hollow. The sky has cleared to a pale gold evening with a few torn clouds, and a shrike sits on a bare twig. A small lone fox peers from the ferns at the water. Colours: muted gold sky, grey-green grass, silver pampas, yellow-brown water, russet fox. Quiet, a little mischievous. No people, no figures, no silhouettes of people, no faces, no hands, no animals except those named above, no cats. Any fox is a real wild Japanese red fox drawn simply and gently in the print manner, small in the scene, never cartoonish, never wearing clothes. Japanese shin-hanga woodblock print in the manner of the 1920s-30s revival: flat layered areas of colour, visible woodgrain in the flat passages, softly gradated sky (bokashi), Western perspective and cast light held inside Japanese printmaking. Everything in the scene is drawn as part of the print, in the same flat woodblock manner, never photographic. Calm, dreamlike and hushed. Strong clear difference between the light and dark masses so the image still reads when reduced to a thumbnail. No text, no signature, no seal stamp, no lettering of any kind. No modern objects: no power lines, no cars, no trucks, no plastic, no electric signs. Wide 16:9 landscape. Exposed so that texture is clearly visible everywhere. Shadows are lifted and open, full of visible detail, nothing crushed to pure black. High dynamic range, rich texture even in the darkest areas.",
+      "prompt_verbatim": true,
+      "prompt_sha256": "bbd341886296ceecbf62b5f6f21daf9d4614ed93d0d4fd68b92f2a904d57e94a",
+      "attempts": [
+        {
+          "attempt": 1,
+          "started_at": "2026-11-25T16:01:25.540Z",
+          "completed_at": "2026-11-25T16:01:50.092Z",
+          "source_path": "/Users/ryo/.codex/generated_images/01a2136e-a040-76a0-ae75-a1769b871ffe/exec-ead96382-8395-4e2e-b20c-7031a35ae993.png",
+          "original_path": "画像/生成直後/rdg05_04_attempt01.png",
+          "accepted": true,
+          "rejection_reason": null,
+          "sha256": "36f35da7f3ec8c3d945b53b84648fc512b18534e612080782e5df92f59c1d5a8",
+          "dimensions": [
+            1672,
+            941
+          ],
+          "bytes": 3647150,
+          "metrics": {
+            "mean_luminance": 135.7299463213572,
+            "luminance_below_16_ratio": 0.0,
+            "luminance_below_16_percent": 0.0
+          }
+        }
+      ],
+      "regeneration_count": 0,
+      "generation_completed_at": "2026-11-25T16:01:50.092Z",
+      "generation_completed_at_jst": "2026-11-26T01:01:50.092000+09:00",
+      "selected_attempt": 1,
+      "original_path": "画像/生成直後/rdg05_04_attempt01.png",
+      "source_crop_box_xyxy": [
+        0.0,
+        0.25,
+        1672.0,
+        940.75
+      ],
+      "visual_check": {
+        "status": "passed",
+        "method": "生成原本の全体を目視確認。",
+        "notes": "金色の夕空、雨で増水した小川、雨粒を帯びたすすき、萩、枝の鳥とシダの下の狐。 人物・人影・人の顔や手・猫・文字・署名・印・電線・電柱は目視で認めず。"
+      },
+      "sha256": "479b7a761bd94a2ae199ad4e93b6cf93d89ffd7fe7e3a173f600f7bb494404a4",
+      "dimensions": [
+        1920,
+        1080
+      ],
+      "bytes": 4119936,
+      "metrics": {
+        "mean_luminance": 135.7263495167824,
+        "luminance_below_16_ratio": 0.0,
+        "luminance_below_16_percent": 0.0
+      }
+    },
+    {
+      "id": "rdg05_05",
+      "role": "main_video",
+      "path": "画像/rdg05_05.png",
+      "prompt": "An old Japanese village graveyard on a gentle hillside in early autumn, in the late afternoon with long soft shadows. Small weathered stone grave markers and a row of six little stone Jizo statues stand among the grass. Across the slope and along the edge of the rice fields below, red spider lilies bloom in a long blazing carpet, like spread red cloth. Far off, the thatched roofs of the village and the low tiled roof of a small temple, and a faint ringing feeling in the air. The sky is pale and calm. Colours: vivid red lilies, soft grey stone, gold-green fields, pale sky. Still and quietly sad. No people, no figures, no silhouettes of people, no faces, no hands, no animals except those named above, no cats. Any fox is a real wild Japanese red fox drawn simply and gently in the print manner, small in the scene, never cartoonish, never wearing clothes. Japanese shin-hanga woodblock print in the manner of the 1920s-30s revival: flat layered areas of colour, visible woodgrain in the flat passages, softly gradated sky (bokashi), Western perspective and cast light held inside Japanese printmaking. Everything in the scene is drawn as part of the print, in the same flat woodblock manner, never photographic. Calm, dreamlike and hushed. Strong clear difference between the light and dark masses so the image still reads when reduced to a thumbnail. No text, no signature, no seal stamp, no lettering of any kind. No modern objects: no power lines, no cars, no trucks, no plastic, no electric signs. Wide 16:9 landscape. Exposed so that texture is clearly visible everywhere. Shadows are lifted and open, full of visible detail, nothing crushed to pure black. High dynamic range, rich texture even in the darkest areas.",
+      "prompt_verbatim": true,
+      "prompt_sha256": "908adba40949d36c5981abdfe6651bb15176832812086643eff7e1f7e583e9d1",
+      "attempts": [
+        {
+          "attempt": 1,
+          "started_at": "2026-11-25T16:02:10.468Z",
+          "completed_at": "2026-11-25T16:02:45.831Z",
+          "source_path": "/Users/ryo/.codex/generated_images/01a2136e-a040-76a0-ae75-a1769b871ffe/exec-d5aa88dc-6db9-4cca-a236-1b6be39e26bc.png",
+          "original_path": "画像/生成直後/rdg05_05_attempt01.png",
+          "accepted": false,
+          "rejection_reason": "田畑と空が明るく、夕方の斜光・長い影が最終採用候補より弱い。",
+          "sha256": "7c31b3c731f8880e577232039515ae2ec4cd5a0d690931afbc6e755ce29b680f",
+          "dimensions": [
+            1672,
+            941
+          ],
+          "bytes": 3956553,
+          "metrics": {
+            "mean_luminance": 142.74177920973818,
+            "luminance_below_16_ratio": 0.0,
+            "luminance_below_16_percent": 0.0
+          }
+        },
+        {
+          "attempt": 2,
+          "started_at": "2026-11-25T16:03:50.680Z",
+          "completed_at": "2026-11-25T16:04:15.255Z",
+          "source_path": "/Users/ryo/.codex/generated_images/01a2136e-a040-76a0-ae75-a1769b871ffe/exec-794466ac-b631-48f7-8e59-c229006996bb.png",
+          "original_path": "画像/生成直後/rdg05_05_attempt02.png",
+          "accepted": false,
+          "rejection_reason": "田畑と空が明るく、夕方の斜光・長い影が最終採用候補より弱い。",
+          "sha256": "a9a99f9325f3da1e122f6524a3134ff1abdcb69a3e2a1c9b74faa15a79426139",
+          "dimensions": [
+            1672,
+            941
+          ],
+          "bytes": 3712132,
+          "metrics": {
+            "mean_luminance": 138.39282426589853,
+            "luminance_below_16_ratio": 0.0,
+            "luminance_below_16_percent": 0.0
+          }
+        },
+        {
+          "attempt": 3,
+          "started_at": "2026-11-25T16:10:51.114Z",
+          "completed_at": "2026-11-25T16:11:14.112Z",
+          "source_path": "/Users/ryo/.codex/generated_images/01a2136e-a040-76a0-ae75-a1769b871ffe/exec-eff979b9-6fd1-499b-b132-00e1a43457e1.png",
+          "original_path": "画像/生成直後/rdg05_05_attempt03.png",
+          "accepted": false,
+          "rejection_reason": "田畑と空が明るく、夕方の斜光・長い影が最終採用候補より弱い。",
+          "sha256": "4adb62fde568cec1b7e9de743655f9626785e3022156875c9af8bb34e72610d6",
+          "dimensions": [
+            1672,
+            941
+          ],
+          "bytes": 3765235,
+          "metrics": {
+            "mean_luminance": 135.48159805599764,
+            "luminance_below_16_ratio": 6.3558567949193824e-06,
+            "luminance_below_16_percent": 0.0006355856794919382
+          }
+        },
+        {
+          "attempt": 4,
+          "started_at": "2026-11-25T16:12:37.116Z",
+          "completed_at": "2026-11-25T16:13:15.419Z",
+          "source_path": "/Users/ryo/.codex/generated_images/01a2136e-a040-76a0-ae75-a1769b871ffe/exec-f897065d-a534-4488-a969-a686fbb9e134.png",
+          "original_path": "画像/生成直後/rdg05_05_attempt04.png",
+          "accepted": true,
+          "rejection_reason": null,
+          "sha256": "3b65a81a1193c1ae74c2f8da02cf3fdee5f023231973ebdb3e79056d2de81608",
+          "dimensions": [
+            1672,
+            941
+          ],
+          "bytes": 4055433,
+          "metrics": {
+            "mean_luminance": 135.85461130122184,
+            "luminance_below_16_ratio": 1.2711713589838765e-06,
+            "luminance_below_16_percent": 0.00012711713589838765
+          }
+        }
+      ],
+      "regeneration_count": 3,
+      "generation_completed_at": "2026-11-25T16:13:15.419Z",
+      "generation_completed_at_jst": "2026-11-26T01:13:15.419000+09:00",
+      "selected_attempt": 4,
+      "original_path": "画像/生成直後/rdg05_05_attempt04.png",
+      "source_crop_box_xyxy": [
+        0.0,
+        0.25,
+        1672.0,
+        940.75
+      ],
+      "visual_check": {
+        "status": "closest_available",
+        "method": "生成原本の全体を目視確認。",
+        "notes": "彼岸花の帯と墓地の石の地蔵六体。4候補中、石灯籠の長い斜影と低い光が最も明瞭。田畑と空は夕景として明るめ。 人物・人影・人の顔や手・猫・文字・署名・印・電線・電柱は目視で認めず。"
+      },
+      "sha256": "d86903274107684044039f18ba118ce86149192fa5b3f29fa7bc51dc62d99705",
+      "dimensions": [
+        1920,
+        1080
+      ],
+      "bytes": 4473329,
+      "metrics": {
+        "mean_luminance": 135.85710424893904,
+        "luminance_below_16_ratio": 4.822530864197531e-07,
+        "luminance_below_16_percent": 4.822530864197531e-05
+      }
+    },
+    {
+      "id": "rdg05_06",
+      "role": "main_video",
+      "path": "画像/rdg05_06.png",
+      "prompt": "A country lane in a Japanese village on a bright moonlit autumn night. A full moon hangs high in a deep blue sky. The narrow earth road runs past a small thatched farmhouse whose door stands open onto a dark earth-floored entry; on the doorstep lies a small heap of chestnuts in their burrs, gleaming in the moonlight. Pines and the dark shape of a small hill castle in the distance. Crickets seem to sing in the grass. Colours: deep blue, silver moonlight, warm brown chestnuts, dark thatch. Most of the image is dark, gentle and lonely. No people, no figures, no silhouettes of people, no faces, no hands, no animals except those named above, no cats. Any fox is a real wild Japanese red fox drawn simply and gently in the print manner, small in the scene, never cartoonish, never wearing clothes. Japanese shin-hanga woodblock print in the manner of the 1920s-30s revival: flat layered areas of colour, visible woodgrain in the flat passages, softly gradated sky (bokashi), Western perspective and cast light held inside Japanese printmaking. Everything in the scene is drawn as part of the print, in the same flat woodblock manner, never photographic. Calm, dreamlike and hushed. Strong clear difference between the light and dark masses so the image still reads when reduced to a thumbnail. No text, no signature, no seal stamp, no lettering of any kind. No modern objects: no power lines, no cars, no trucks, no plastic, no electric signs. Wide 16:9 landscape. Exposed so that texture is clearly visible everywhere. Shadows are lifted and open, full of visible detail, nothing crushed to pure black. High dynamic range, rich texture even in the darkest areas.",
+      "prompt_verbatim": true,
+      "prompt_sha256": "f324da753d8a57ec39f63f45c8f09dba12f493398111c82c1df0da2f5e46759c",
+      "attempts": [
+        {
+          "attempt": 1,
+          "started_at": "2026-11-25T16:02:45.906Z",
+          "completed_at": "2026-11-25T16:03:13.883Z",
+          "source_path": "/Users/ryo/.codex/generated_images/01a2136e-a040-76a0-ae75-a1769b871ffe/exec-3a32d61a-a4c8-4d93-9546-65b5963eea90.png",
+          "original_path": "画像/生成直後/rdg05_06_attempt01.png",
+          "accepted": true,
+          "rejection_reason": null,
+          "sha256": "a298c4eb175edb7a0aa83e393fd73e527ea384c98771c6db313914d096aea02b",
+          "dimensions": [
+            1672,
+            941
+          ],
+          "bytes": 3929600,
+          "metrics": {
+            "mean_luminance": 93.21045639704275,
+            "luminance_below_16_ratio": 0.0001264815502188957,
+            "luminance_below_16_percent": 0.012648155021889571
+          }
+        }
+      ],
+      "regeneration_count": 0,
+      "generation_completed_at": "2026-11-25T16:03:13.883Z",
+      "generation_completed_at_jst": "2026-11-26T01:03:13.883000+09:00",
+      "selected_attempt": 1,
+      "original_path": "画像/生成直後/rdg05_06_attempt01.png",
+      "source_crop_box_xyxy": [
+        0.0,
+        0.25,
+        1672.0,
+        940.75
+      ],
+      "visual_check": {
+        "status": "passed",
+        "method": "生成原本の全体を目視確認。",
+        "notes": "満月、村道、茅葺きの家の開いた戸口に、いが付きの栗の小山。 人物・人影・人の顔や手・猫・文字・署名・印・電線・電柱は目視で認めず。"
+      },
+      "sha256": "c57e4c5026a557ed19bf943d0015838666b14425c5e7990175c1f2a650da344a",
+      "dimensions": [
+        1920,
+        1080
+      ],
+      "bytes": 4339605,
+      "metrics": {
+        "mean_luminance": 93.21376597588734,
+        "luminance_below_16_ratio": 0.00015190972222222222,
+        "luminance_below_16_percent": 0.015190972222222222
+      }
+    },
+    {
+      "id": "rdg05_07",
+      "role": "main_video",
+      "path": "画像/rdg05_07.png",
+      "prompt": "The inside of an old Japanese earthen storehouse (kura) in the late afternoon, lit only by a single shaft of low golden light from a small high window. Old wooden chests, folded quilts and boxes stand in the dimness. In the centre, on the wooden floor where the light falls, stands an unusual old oil lamp: a tall thick bamboo stem about eighty centimetres high serves as its stand, with a small kerosene lamp and a clear glass chimney set on top. Dust glitters in the beam. Colours: warm gold beam, dark brown wood and earth walls, green-brown bamboo, glinting glass. Nostalgic and calm. No people, no figures, no silhouettes of people, no faces, no hands, no animals except those named above, no cats. Any fox is a real wild Japanese red fox drawn simply and gently in the print manner, small in the scene, never cartoonish, never wearing clothes. Japanese shin-hanga woodblock print in the manner of the 1920s-30s revival: flat layered areas of colour, visible woodgrain in the flat passages, softly gradated sky (bokashi), Western perspective and cast light held inside Japanese printmaking. Everything in the scene is drawn as part of the print, in the same flat woodblock manner, never photographic. Calm, dreamlike and hushed. Strong clear difference between the light and dark masses so the image still reads when reduced to a thumbnail. No text, no signature, no seal stamp, no lettering of any kind. No modern objects: no power lines, no cars, no trucks, no plastic, no electric signs. Wide 16:9 landscape. Exposed so that texture is clearly visible everywhere. Shadows are lifted and open, full of visible detail, nothing crushed to pure black. High dynamic range, rich texture even in the darkest areas.",
+      "prompt_verbatim": true,
+      "prompt_sha256": "6d033b1ed6b55f019eebdddf07377a65f68b094a5f90181f2c2e6a03ec3cd614",
+      "attempts": [
+        {
+          "attempt": 1,
+          "started_at": "2026-11-25T16:03:13.932Z",
+          "completed_at": "2026-11-25T16:03:37.484Z",
+          "source_path": "/Users/ryo/.codex/generated_images/01a2136e-a040-76a0-ae75-a1769b871ffe/exec-cff18ea4-ff07-47d7-825e-79974f23c36d.png",
+          "original_path": "画像/生成直後/rdg05_07_attempt01.png",
+          "accepted": true,
+          "rejection_reason": null,
+          "sha256": "e300ee15681fb2cf9e5bf6414a5c824d993f8b5ee3189a5b40f6622ce5710ecb",
+          "dimensions": [
+            1672,
+            941
+          ],
+          "bytes": 3205466,
+          "metrics": {
+            "mean_luminance": 100.18048929508463,
+            "luminance_below_16_ratio": 1.2711713589838765e-06,
+            "luminance_below_16_percent": 0.00012711713589838765
+          }
+        }
+      ],
+      "regeneration_count": 0,
+      "generation_completed_at": "2026-11-25T16:03:37.484Z",
+      "generation_completed_at_jst": "2026-11-26T01:03:37.484000+09:00",
+      "selected_attempt": 1,
+      "original_path": "画像/生成直後/rdg05_07_attempt01.png",
+      "source_crop_box_xyxy": [
+        0.0,
+        0.25,
+        1672.0,
+        940.75
+      ],
+      "visual_check": {
+        "status": "passed",
+        "method": "生成原本の全体を目視確認。",
+        "notes": "薄暗い倉の高窓から低く差す金色の光と長い影。節の見える竹の台にガラス火屋のランプ。 人物・人影・人の顔や手・猫・文字・署名・印・電線・電柱は目視で認めず。"
+      },
+      "sha256": "6af09085f87515833cee9b69989bd76adb54645609e96b3f8d3f9b7bf5fad366",
+      "dimensions": [
+        1920,
+        1080
+      ],
+      "bytes": 3655548,
+      "metrics": {
+        "mean_luminance": 100.1896825390625,
+        "luminance_below_16_ratio": 4.822530864197531e-07,
+        "luminance_below_16_percent": 4.822530864197531e-05
+      }
+    },
+    {
+      "id": "rdg05_08",
+      "role": "main_video",
+      "path": "画像/rdg05_08.png",
+      "prompt": "A Japanese port town street at dusk in the late Meiji era, about 1900, drawn as an evening scene. A row of large merchant shops with deep eaves and open fronts lines the street, and every shop is lit by many glass kerosene lamps hanging under the eaves, glowing like flowers, so the whole street shines warm and bright as a dream palace. Inside one shop, bolts of cloth printed with big camellia flowers lie spread under the lamps; another shop has dozens of lamps of every shape hanging for sale. The sky above the roofs is deep blue twilight. No electric poles, no wires. Colours: warm amber lamplight, deep blue sky, dark wooden shopfronts, a touch of camellia red. Enchanted and nostalgic. No people, no figures, no silhouettes of people, no faces, no hands, no animals except those named above, no cats. No foxes, no dogs, no animals of any kind anywhere in the image. Japanese shin-hanga woodblock print in the manner of the 1920s-30s revival: flat layered areas of colour, visible woodgrain in the flat passages, softly gradated sky (bokashi), Western perspective and cast light held inside Japanese printmaking. Everything in the scene is drawn as part of the print, in the same flat woodblock manner, never photographic. Calm, dreamlike and hushed. Strong clear difference between the light and dark masses so the image still reads when reduced to a thumbnail. No text, no signature, no seal stamp, no lettering of any kind. No modern objects: no power lines, no cars, no trucks, no plastic, no electric signs. Wide 16:9 landscape. Exposed so that texture is clearly visible everywhere. Shadows are lifted and open, full of visible detail, nothing crushed to pure black. High dynamic range, rich texture even in the darkest areas.\n",
+      "prompt_verbatim": true,
+      "prompt_sha256": "4fb34c2e0c8a1503241736d82f8e6d98a1a28d9a66bad1b875b258676576b03a",
+      "attempts": [
+        {
+          "attempt": 1,
+          "started_at": "2026-11-25T16:04:21.728Z",
+          "completed_at": "2026-11-25T16:04:51.299Z",
+          "source_path": "/Users/ryo/.codex/generated_images/01a2136e-a040-76a0-ae75-a1769b871ffe/exec-11ade3c7-0edd-4f09-8601-3233e213abf1.png",
+          "original_path": "画像/生成直後/rdg05_08_attempt01.png",
+          "accepted": false,
+          "rejection_reason": "旧版で採用。場面指定外の狐が写っているため差し替え。",
+          "sha256": "eaa6db46a9c3403113fd38cba79eb3bd4f06991b54031e75d3f9e794a1cdd1e0",
+          "dimensions": [
+            1672,
+            941
+          ],
+          "bytes": 3567254,
+          "metrics": {
+            "mean_luminance": 104.10913050175675,
+            "luminance_below_16_ratio": 2.2881084461709775e-05,
+            "luminance_below_16_percent": 0.0022881084461709774
+          },
+          "prompt_sha256": "ebe4a4abe8731a99d245c0c5b57c60f4603ba78addbe69e0ae93ef5eddc875fd"
+        },
+        {
+          "attempt": 2,
+          "started_at": "2026-11-25T16:07:52.183Z",
+          "completed_at": "2026-11-25T16:08:19.331Z",
+          "source_path": "/Users/ryo/.codex/generated_images/01a2136e-a040-76a0-ae75-a1769b871ffe/exec-f8f1b299-f052-4391-9512-25c205a93d32.png",
+          "original_path": "画像/生成直後/rdg05_08_attempt02.png",
+          "accepted": false,
+          "rejection_reason": "場面指定外の狐が写っている。",
+          "sha256": "ab2cd396feb1931bd18c969db9e22aeb331145f727efba962b062423be3595b8",
+          "dimensions": [
+            1672,
+            941
+          ],
+          "bytes": 3415906,
+          "metrics": {
+            "mean_luminance": 103.53115815240328,
+            "luminance_below_16_ratio": 3.8135140769516295e-06,
+            "luminance_below_16_percent": 0.00038135140769516294
+          },
+          "prompt_sha256": "ebe4a4abe8731a99d245c0c5b57c60f4603ba78addbe69e0ae93ef5eddc875fd"
+        },
+        {
+          "attempt": 3,
+          "started_at": "2026-11-25T16:09:48.625Z",
+          "completed_at": "2026-11-25T16:10:25.838Z",
+          "source_path": "/Users/ryo/.codex/generated_images/01a2136e-a040-76a0-ae75-a1769b871ffe/exec-af613d47-3426-4988-acef-e58a925b9632.png",
+          "original_path": "画像/生成直後/rdg05_08_attempt03.png",
+          "accepted": false,
+          "rejection_reason": "場面指定外の狐が写っている。",
+          "sha256": "e40652e98c4bedff70421fac2a9f9957ec70d1abfe205d27c4d5de32ba2d3735",
+          "dimensions": [
+            1672,
+            941
+          ],
+          "bytes": 3661341,
+          "metrics": {
+            "mean_luminance": 105.32626176863154,
+            "luminance_below_16_ratio": 1.9067570384758147e-06,
+            "luminance_below_16_percent": 0.00019067570384758147
+          },
+          "prompt_sha256": "ebe4a4abe8731a99d245c0c5b57c60f4603ba78addbe69e0ae93ef5eddc875fd"
+        },
+        {
+          "attempt": 4,
+          "started_at": "2026-11-25T16:11:31.534Z",
+          "completed_at": "2026-11-25T16:12:09.291Z",
+          "source_path": "/Users/ryo/.codex/generated_images/01a2136e-a040-76a0-ae75-a1769b871ffe/exec-0f46ba95-4a16-4533-8f17-581fbac654f8.png",
+          "original_path": "画像/生成直後/rdg05_08_attempt04.png",
+          "accepted": false,
+          "rejection_reason": "場面指定外の狐が写っている。",
+          "sha256": "b888f6e1d46b5fd5f58f69ba062690546973072279b1a7779a6802e80371a634",
+          "dimensions": [
+            1672,
+            941
+          ],
+          "bytes": 3687160,
+          "metrics": {
+            "mean_luminance": 107.17304752935135,
+            "luminance_below_16_ratio": 6.355856794919382e-07,
+            "luminance_below_16_percent": 6.355856794919382e-05
+          },
+          "prompt_sha256": "ebe4a4abe8731a99d245c0c5b57c60f4603ba78addbe69e0ae93ef5eddc875fd"
+        },
+        {
+          "attempt": 5,
+          "started_at": "2026-11-25T16:16:35.535Z",
+          "completed_at": "2026-11-25T16:17:11.689Z",
+          "source_path": "/Users/ryo/.codex/generated_images/01a2137e-1ac0-7fd3-abad-c3f5075dc534/exec-7b05984e-0e81-41de-be37-83ffc0ec6580.png",
+          "original_path": "画像/生成直後/rdg05_08_attempt05.png",
+          "accepted": true,
+          "rejection_reason": null,
+          "prompt_sha256": "4fb34c2e0c8a1503241736d82f8e6d98a1a28d9a66bad1b875b258676576b03a",
+          "sha256": "306af9494e685605ba6a83bb562de49b60269a98fcf9c83f63bde30c22a029ce",
+          "dimensions": [
+            1672,
+            941
+          ],
+          "bytes": 3790287,
+          "metrics": {
+            "mean_luminance": 100.23475198391714,
+            "luminance_below_16_ratio": 1.2076127910346827e-05,
+            "luminance_below_16_percent": 0.0012076127910346827
+          }
+        }
+      ],
+      "regeneration_count": 4,
+      "generation_completed_at": "2026-11-25T16:17:11.689Z",
+      "generation_completed_at_jst": "2026-11-26T01:17:11.689000+09:00",
+      "selected_attempt": 5,
+      "original_path": "画像/生成直後/rdg05_08_attempt05.png",
+      "source_crop_box_xyxy": [
+        0.0,
+        0.25,
+        1672.0,
+        940.75
+      ],
+      "visual_check": {
+        "status": "passed",
+        "method": "生成原本の全体を目視し、遠景を拡大確認。",
+        "notes": "商店の軒先にガラスのランプが連なり、手前の店には椿柄の反物が広がる。通りの奥に見える縦の構造物は船のマスト。 狐・犬・猫を含む動物、人物・人影、文字・署名・印、電線・電柱は見当たらない。"
+      },
+      "sha256": "14e3c94af02680a5cdc8f04519a39053624e8875c1fc697ed6144b0567dbd378",
+      "dimensions": [
+        1920,
+        1080
+      ],
+      "bytes": 4243077,
+      "metrics": {
+        "mean_luminance": 100.23083853134645,
+        "luminance_below_16_ratio": 1.54320987654321e-05,
+        "luminance_below_16_percent": 0.00154320987654321
+      },
+      "previous_versions": [
+        {
+          "id": "rdg05_08",
+          "role": "main_video",
+          "path": "画像/rdg05_08.png",
+          "prompt": "A Japanese port town street at dusk in the late Meiji era, about 1900, drawn as an evening scene. A row of large merchant shops with deep eaves and open fronts lines the street, and every shop is lit by many glass kerosene lamps hanging under the eaves, glowing like flowers, so the whole street shines warm and bright as a dream palace. Inside one shop, bolts of cloth printed with big camellia flowers lie spread under the lamps; another shop has dozens of lamps of every shape hanging for sale. The sky above the roofs is deep blue twilight. No electric poles, no wires. Colours: warm amber lamplight, deep blue sky, dark wooden shopfronts, a touch of camellia red. Enchanted and nostalgic. No people, no figures, no silhouettes of people, no faces, no hands, no animals except those named above, no cats. Any fox is a real wild Japanese red fox drawn simply and gently in the print manner, small in the scene, never cartoonish, never wearing clothes. Japanese shin-hanga woodblock print in the manner of the 1920s-30s revival: flat layered areas of colour, visible woodgrain in the flat passages, softly gradated sky (bokashi), Western perspective and cast light held inside Japanese printmaking. Everything in the scene is drawn as part of the print, in the same flat woodblock manner, never photographic. Calm, dreamlike and hushed. Strong clear difference between the light and dark masses so the image still reads when reduced to a thumbnail. No text, no signature, no seal stamp, no lettering of any kind. No modern objects: no power lines, no cars, no trucks, no plastic, no electric signs. Wide 16:9 landscape. Exposed so that texture is clearly visible everywhere. Shadows are lifted and open, full of visible detail, nothing crushed to pure black. High dynamic range, rich texture even in the darkest areas.",
+          "prompt_verbatim": true,
+          "prompt_sha256": "ebe4a4abe8731a99d245c0c5b57c60f4603ba78addbe69e0ae93ef5eddc875fd",
+          "attempts": [
+            {
+              "attempt": 1,
+              "started_at": "2026-11-25T16:04:21.728Z",
+              "completed_at": "2026-11-25T16:04:51.299Z",
+              "source_path": "/Users/ryo/.codex/generated_images/01a2136e-a040-76a0-ae75-a1769b871ffe/exec-11ade3c7-0edd-4f09-8601-3233e213abf1.png",
+              "original_path": "画像/生成直後/rdg05_08_attempt01.png",
+              "accepted": true,
+              "rejection_reason": null,
+              "sha256": "eaa6db46a9c3403113fd38cba79eb3bd4f06991b54031e75d3f9e794a1cdd1e0",
+              "dimensions": [
+                1672,
+                941
+              ],
+              "bytes": 3567254,
+              "metrics": {
+                "mean_luminance": 104.10913050175675,
+                "luminance_below_16_ratio": 2.2881084461709775e-05,
+                "luminance_below_16_percent": 0.0022881084461709774
+              }
+            },
+            {
+              "attempt": 2,
+              "started_at": "2026-11-25T16:07:52.183Z",
+              "completed_at": "2026-11-25T16:08:19.331Z",
+              "source_path": "/Users/ryo/.codex/generated_images/01a2136e-a040-76a0-ae75-a1769b871ffe/exec-f8f1b299-f052-4391-9512-25c205a93d32.png",
+              "original_path": "画像/生成直後/rdg05_08_attempt02.png",
+              "accepted": false,
+              "rejection_reason": "場面指定外の狐が写っている。",
+              "sha256": "ab2cd396feb1931bd18c969db9e22aeb331145f727efba962b062423be3595b8",
+              "dimensions": [
+                1672,
+                941
+              ],
+              "bytes": 3415906,
+              "metrics": {
+                "mean_luminance": 103.53115815240328,
+                "luminance_below_16_ratio": 3.8135140769516295e-06,
+                "luminance_below_16_percent": 0.00038135140769516294
+              }
+            },
+            {
+              "attempt": 3,
+              "started_at": "2026-11-25T16:09:48.625Z",
+              "completed_at": "2026-11-25T16:10:25.838Z",
+              "source_path": "/Users/ryo/.codex/generated_images/01a2136e-a040-76a0-ae75-a1769b871ffe/exec-af613d47-3426-4988-acef-e58a925b9632.png",
+              "original_path": "画像/生成直後/rdg05_08_attempt03.png",
+              "accepted": false,
+              "rejection_reason": "場面指定外の狐が写っている。",
+              "sha256": "e40652e98c4bedff70421fac2a9f9957ec70d1abfe205d27c4d5de32ba2d3735",
+              "dimensions": [
+                1672,
+                941
+              ],
+              "bytes": 3661341,
+              "metrics": {
+                "mean_luminance": 105.32626176863154,
+                "luminance_below_16_ratio": 1.9067570384758147e-06,
+                "luminance_below_16_percent": 0.00019067570384758147
+              }
+            },
+            {
+              "attempt": 4,
+              "started_at": "2026-11-25T16:11:31.534Z",
+              "completed_at": "2026-11-25T16:12:09.291Z",
+              "source_path": "/Users/ryo/.codex/generated_images/01a2136e-a040-76a0-ae75-a1769b871ffe/exec-0f46ba95-4a16-4533-8f17-581fbac654f8.png",
+              "original_path": "画像/生成直後/rdg05_08_attempt04.png",
+              "accepted": false,
+              "rejection_reason": "場面指定外の狐が写っている。",
+              "sha256": "b888f6e1d46b5fd5f58f69ba062690546973072279b1a7779a6802e80371a634",
+              "dimensions": [
+                1672,
+                941
+              ],
+              "bytes": 3687160,
+              "metrics": {
+                "mean_luminance": 107.17304752935135,
+                "luminance_below_16_ratio": 6.355856794919382e-07,
+                "luminance_below_16_percent": 6.355856794919382e-05
+              }
+            }
+          ],
+          "regeneration_count": 3,
+          "generation_completed_at": "2026-11-25T16:04:51.299Z",
+          "generation_completed_at_jst": "2026-11-26T01:04:51.299000+09:00",
+          "selected_attempt": 1,
+          "original_path": "画像/生成直後/rdg05_08_attempt01.png",
+          "source_crop_box_xyxy": [
+            0.0,
+            0.25,
+            1672.0,
+            940.75
+          ],
+          "visual_check": {
+            "status": "closest_available",
+            "method": "生成原本の全体を目視確認。",
+            "notes": "夕暮れの港にランプで明るく照らされた商店が並び、椿柄の反物が見える。4候補すべてに場面指定外の狐が出たため、街並みとランプが主役で狐が小さい初回を採用。右下の路上に狐1匹。 人物・人影・人の顔や手・猫・文字・署名・印・電線・電柱は目視で認めず。"
+          },
+          "sha256": "45e9676171e4fb42b6c31ac310f7dceeff1d64ab677aed900a7bb92851255189",
+          "dimensions": [
+            1920,
+            1080
+          ],
+          "bytes": 4044773,
+          "metrics": {
+            "mean_luminance": 104.11683777478781,
+            "luminance_below_16_ratio": 2.8935185185185186e-05,
+            "luminance_below_16_percent": 0.002893518518518519
+          }
+        }
+      ]
+    },
+    {
+      "id": "rdg05_09",
+      "role": "main_video",
+      "path": "画像/rdg05_09.png",
+      "prompt": "A wide field of rapeseed flowers in rural Japan on a warm spring night with a soft hazy full moon. The yellow flowers glow pale gold in the moonlight and stretch away to a low line of dark village roofs and a small hill. Far off, a few tiny lanterns of a spring festival glow. A faint mist lies low. Colours: pale gold flowers, soft hazy indigo sky, creamy moon, dark village. Most of the image is dark, warm and thoughtful. No people, no figures, no silhouettes of people, no faces, no hands, no animals except those named above, no cats. No foxes, no dogs, no animals of any kind anywhere in the image. Japanese shin-hanga woodblock print in the manner of the 1920s-30s revival: flat layered areas of colour, visible woodgrain in the flat passages, softly gradated sky (bokashi), Western perspective and cast light held inside Japanese printmaking. Everything in the scene is drawn as part of the print, in the same flat woodblock manner, never photographic. Calm, dreamlike and hushed. Strong clear difference between the light and dark masses so the image still reads when reduced to a thumbnail. No text, no signature, no seal stamp, no lettering of any kind. No modern objects: no power lines, no cars, no trucks, no plastic, no electric signs. Wide 16:9 landscape. Exposed so that texture is clearly visible everywhere. Shadows are lifted and open, full of visible detail, nothing crushed to pure black. High dynamic range, rich texture even in the darkest areas.\n",
+      "prompt_verbatim": true,
+      "prompt_sha256": "9ee1daa66bd12fcb3a9ce0d00a75c690f6e474d0f17e5cdbc26bbe560ea9a127",
+      "attempts": [
+        {
+          "attempt": 1,
+          "started_at": "2026-11-25T16:04:51.350Z",
+          "completed_at": "2026-11-25T16:05:18.908Z",
+          "source_path": "/Users/ryo/.codex/generated_images/01a2136e-a040-76a0-ae75-a1769b871ffe/exec-141c1689-a97e-4069-8e73-1f716cb7383c.png",
+          "original_path": "画像/生成直後/rdg05_09_attempt01.png",
+          "accepted": false,
+          "rejection_reason": "場面指定外の狐が写っている。",
+          "sha256": "2c0576e94a528a29a729ef46652877415504b0857d7604a4a59afe5e165e7610",
+          "dimensions": [
+            1672,
+            941
+          ],
+          "bytes": 3567901,
+          "metrics": {
+            "mean_luminance": 117.17306120156202,
+            "luminance_below_16_ratio": 3.1779283974596912e-06,
+            "luminance_below_16_percent": 0.0003177928397459691
+          },
+          "prompt_sha256": "c7010ca04b2208cc77ac2162256aeed48e4b6d85ec96113bb7f6940bf0df1152"
+        },
+        {
+          "attempt": 2,
+          "started_at": "2026-11-25T16:08:19.381Z",
+          "completed_at": "2026-11-25T16:08:42.313Z",
+          "source_path": "/Users/ryo/.codex/generated_images/01a2136e-a040-76a0-ae75-a1769b871ffe/exec-0a35ca52-0c1a-4c06-884d-ce606322e6bf.png",
+          "original_path": "画像/生成直後/rdg05_09_attempt02.png",
+          "accepted": false,
+          "rejection_reason": "場面指定外の狐が写っている。",
+          "sha256": "187f3f578f5ca55591cc36e62f04c566067390d8f7cf93a318a65229bdafeb88",
+          "dimensions": [
+            1672,
+            941
+          ],
+          "bytes": 3445077,
+          "metrics": {
+            "mean_luminance": 124.51808096103096,
+            "luminance_below_16_ratio": 0.0,
+            "luminance_below_16_percent": 0.0
+          },
+          "prompt_sha256": "c7010ca04b2208cc77ac2162256aeed48e4b6d85ec96113bb7f6940bf0df1152"
+        },
+        {
+          "attempt": 3,
+          "started_at": "2026-11-25T16:10:25.969Z",
+          "completed_at": "2026-11-25T16:10:51.062Z",
+          "source_path": "/Users/ryo/.codex/generated_images/01a2136e-a040-76a0-ae75-a1769b871ffe/exec-bbc33e2b-90e3-454d-9680-7dfb478fa535.png",
+          "original_path": "画像/生成直後/rdg05_09_attempt03.png",
+          "accepted": false,
+          "rejection_reason": "旧版で採用。場面指定外の狐が写っているため差し替え。",
+          "sha256": "b196d7dfa7b91f2bb063547a4831d414588b78d04877cc2bd8c0090a9531e5e1",
+          "dimensions": [
+            1672,
+            941
+          ],
+          "bytes": 3448360,
+          "metrics": {
+            "mean_luminance": 118.51809772523885,
+            "luminance_below_16_ratio": 1.2711713589838765e-06,
+            "luminance_below_16_percent": 0.00012711713589838765
+          },
+          "prompt_sha256": "c7010ca04b2208cc77ac2162256aeed48e4b6d85ec96113bb7f6940bf0df1152"
+        },
+        {
+          "attempt": 4,
+          "started_at": "2026-11-25T16:12:09.347Z",
+          "completed_at": "2026-11-25T16:12:37.064Z",
+          "source_path": "/Users/ryo/.codex/generated_images/01a2136e-a040-76a0-ae75-a1769b871ffe/exec-e40bb92c-581d-4699-8904-3d46046ba698.png",
+          "original_path": "画像/生成直後/rdg05_09_attempt04.png",
+          "accepted": false,
+          "rejection_reason": "場面指定外の狐が写っている。",
+          "sha256": "9083352193e40f9dcdeb99f0e8f52f951aacee000c20cd482b66d93499d2661f",
+          "dimensions": [
+            1672,
+            941
+          ],
+          "bytes": 3447245,
+          "metrics": {
+            "mean_luminance": 114.97995571251697,
+            "luminance_below_16_ratio": 0.0,
+            "luminance_below_16_percent": 0.0
+          },
+          "prompt_sha256": "c7010ca04b2208cc77ac2162256aeed48e4b6d85ec96113bb7f6940bf0df1152"
+        },
+        {
+          "attempt": 5,
+          "started_at": "2026-11-25T16:16:35.545Z",
+          "completed_at": "2026-11-25T16:17:37.944Z",
+          "source_path": "/Users/ryo/.codex/generated_images/01a2137e-1ac0-7fd3-abad-c3f5075dc534/exec-15578e70-9de3-4e37-973b-f9499a380e6c.png",
+          "original_path": "画像/生成直後/rdg05_09_attempt05.png",
+          "accepted": true,
+          "rejection_reason": null,
+          "prompt_sha256": "9ee1daa66bd12fcb3a9ce0d00a75c690f6e474d0f17e5cdbc26bbe560ea9a127",
+          "sha256": "02c9d0b6e438c41ada5ece37035a06af8c9cd966f569f0d4d51eb69c3ef97ff2",
+          "dimensions": [
+            1672,
+            941
+          ],
+          "bytes": 3302361,
+          "metrics": {
+            "mean_luminance": 115.9066161530287,
+            "luminance_below_16_ratio": 0.0,
+            "luminance_below_16_percent": 0.0
+          }
+        }
+      ],
+      "regeneration_count": 4,
+      "generation_completed_at": "2026-11-25T16:17:37.944Z",
+      "generation_completed_at_jst": "2026-11-26T01:17:37.944000+09:00",
+      "selected_attempt": 5,
+      "original_path": "画像/生成直後/rdg05_09_attempt05.png",
+      "source_crop_box_xyxy": [
+        0.0,
+        0.25,
+        1672.0,
+        940.75
+      ],
+      "visual_check": {
+        "status": "passed",
+        "method": "生成原本の全体を目視し、遠景を拡大確認。",
+        "notes": "満月の下、手前から村の家並みまで菜の花畑が広がる。遠景の祭りには提灯とそれを吊る支柱が見える。 狐・犬・猫を含む動物、人物・人影、文字・署名・印、電線・電柱は見当たらない。"
+      },
+      "sha256": "03d4bdc6b8c298f31a01b79eaa4a99a2ddfffb54a655e5e8fe51fd31dbdb02c3",
+      "dimensions": [
+        1920,
+        1080
+      ],
+      "bytes": 3749867,
+      "metrics": {
+        "mean_luminance": 115.87085856722608,
+        "luminance_below_16_ratio": 0.0,
+        "luminance_below_16_percent": 0.0
+      },
+      "previous_versions": [
+        {
+          "id": "rdg05_09",
+          "role": "main_video",
+          "path": "画像/rdg05_09.png",
+          "prompt": "A wide field of rapeseed flowers in rural Japan on a warm spring night with a soft hazy full moon. The yellow flowers glow pale gold in the moonlight and stretch away to a low line of dark village roofs and a small hill. Far off, a few tiny lanterns of a spring festival glow. A faint mist lies low. Colours: pale gold flowers, soft hazy indigo sky, creamy moon, dark village. Most of the image is dark, warm and thoughtful. No people, no figures, no silhouettes of people, no faces, no hands, no animals except those named above, no cats. Any fox is a real wild Japanese red fox drawn simply and gently in the print manner, small in the scene, never cartoonish, never wearing clothes. Japanese shin-hanga woodblock print in the manner of the 1920s-30s revival: flat layered areas of colour, visible woodgrain in the flat passages, softly gradated sky (bokashi), Western perspective and cast light held inside Japanese printmaking. Everything in the scene is drawn as part of the print, in the same flat woodblock manner, never photographic. Calm, dreamlike and hushed. Strong clear difference between the light and dark masses so the image still reads when reduced to a thumbnail. No text, no signature, no seal stamp, no lettering of any kind. No modern objects: no power lines, no cars, no trucks, no plastic, no electric signs. Wide 16:9 landscape. Exposed so that texture is clearly visible everywhere. Shadows are lifted and open, full of visible detail, nothing crushed to pure black. High dynamic range, rich texture even in the darkest areas.",
+          "prompt_verbatim": true,
+          "prompt_sha256": "c7010ca04b2208cc77ac2162256aeed48e4b6d85ec96113bb7f6940bf0df1152",
+          "attempts": [
+            {
+              "attempt": 1,
+              "started_at": "2026-11-25T16:04:51.350Z",
+              "completed_at": "2026-11-25T16:05:18.908Z",
+              "source_path": "/Users/ryo/.codex/generated_images/01a2136e-a040-76a0-ae75-a1769b871ffe/exec-141c1689-a97e-4069-8e73-1f716cb7383c.png",
+              "original_path": "画像/生成直後/rdg05_09_attempt01.png",
+              "accepted": false,
+              "rejection_reason": "場面指定外の狐が写っている。",
+              "sha256": "2c0576e94a528a29a729ef46652877415504b0857d7604a4a59afe5e165e7610",
+              "dimensions": [
+                1672,
+                941
+              ],
+              "bytes": 3567901,
+              "metrics": {
+                "mean_luminance": 117.17306120156202,
+                "luminance_below_16_ratio": 3.1779283974596912e-06,
+                "luminance_below_16_percent": 0.0003177928397459691
+              }
+            },
+            {
+              "attempt": 2,
+              "started_at": "2026-11-25T16:08:19.381Z",
+              "completed_at": "2026-11-25T16:08:42.313Z",
+              "source_path": "/Users/ryo/.codex/generated_images/01a2136e-a040-76a0-ae75-a1769b871ffe/exec-0a35ca52-0c1a-4c06-884d-ce606322e6bf.png",
+              "original_path": "画像/生成直後/rdg05_09_attempt02.png",
+              "accepted": false,
+              "rejection_reason": "場面指定外の狐が写っている。",
+              "sha256": "187f3f578f5ca55591cc36e62f04c566067390d8f7cf93a318a65229bdafeb88",
+              "dimensions": [
+                1672,
+                941
+              ],
+              "bytes": 3445077,
+              "metrics": {
+                "mean_luminance": 124.51808096103096,
+                "luminance_below_16_ratio": 0.0,
+                "luminance_below_16_percent": 0.0
+              }
+            },
+            {
+              "attempt": 3,
+              "started_at": "2026-11-25T16:10:25.969Z",
+              "completed_at": "2026-11-25T16:10:51.062Z",
+              "source_path": "/Users/ryo/.codex/generated_images/01a2136e-a040-76a0-ae75-a1769b871ffe/exec-bbc33e2b-90e3-454d-9680-7dfb478fa535.png",
+              "original_path": "画像/生成直後/rdg05_09_attempt03.png",
+              "accepted": true,
+              "rejection_reason": null,
+              "sha256": "b196d7dfa7b91f2bb063547a4831d414588b78d04877cc2bd8c0090a9531e5e1",
+              "dimensions": [
+                1672,
+                941
+              ],
+              "bytes": 3448360,
+              "metrics": {
+                "mean_luminance": 118.51809772523885,
+                "luminance_below_16_ratio": 1.2711713589838765e-06,
+                "luminance_below_16_percent": 0.00012711713589838765
+              }
+            },
+            {
+              "attempt": 4,
+              "started_at": "2026-11-25T16:12:09.347Z",
+              "completed_at": "2026-11-25T16:12:37.064Z",
+              "source_path": "/Users/ryo/.codex/generated_images/01a2136e-a040-76a0-ae75-a1769b871ffe/exec-e40bb92c-581d-4699-8904-3d46046ba698.png",
+              "original_path": "画像/生成直後/rdg05_09_attempt04.png",
+              "accepted": false,
+              "rejection_reason": "場面指定外の狐が写っている。",
+              "sha256": "9083352193e40f9dcdeb99f0e8f52f951aacee000c20cd482b66d93499d2661f",
+              "dimensions": [
+                1672,
+                941
+              ],
+              "bytes": 3447245,
+              "metrics": {
+                "mean_luminance": 114.97995571251697,
+                "luminance_below_16_ratio": 0.0,
+                "luminance_below_16_percent": 0.0
+              }
+            }
+          ],
+          "regeneration_count": 3,
+          "generation_completed_at": "2026-11-25T16:10:51.062Z",
+          "generation_completed_at_jst": "2026-11-26T01:10:51.062000+09:00",
+          "selected_attempt": 3,
+          "original_path": "画像/生成直後/rdg05_09_attempt03.png",
+          "source_crop_box_xyxy": [
+            0.0,
+            0.25,
+            1672.0,
+            940.75
+          ],
+          "visual_check": {
+            "status": "closest_available",
+            "method": "生成原本の全体を目視確認。",
+            "notes": "霞む満月の下に菜の花畑、遠景に祭りの灯。4候補すべてに場面指定外の狐が出たため、花畑と空が画面の大部分を占め、狐が左端寄りに小さく収まる3枚目を採用。 人物・人影・人の顔や手・猫・文字・署名・印・電線・電柱は目視で認めず。"
+          },
+          "sha256": "3b69f3d091102fb0112efe76a1c2b5ab9e952938ad375114c6042677516450a9",
+          "dimensions": [
+            1920,
+            1080
+          ],
+          "bytes": 3898121,
+          "metrics": {
+            "mean_luminance": 118.5255101837384,
+            "luminance_below_16_ratio": 2.4112654320987654e-06,
+            "luminance_below_16_percent": 0.00024112654320987653
+          }
+        }
+      ]
+    },
+    {
+      "id": "rdg05_10",
+      "role": "main_video",
+      "path": "画像/rdg05_10.png",
+      "prompt": "A large still pond at night in the Japanese countryside in spring, on a windless night. Along the far bank stand old trees and willows, and from their branches hang dozens of lit glass kerosene lamps, large and small, big and little, all burning quietly without a flicker, so the bank is bright as day. Every lamp is reflected perfectly in the black mirror of the water as a second row of lights. A dark road runs along the near shore. Colours: deep blue-black night, many warm golden lights doubled in the water, dark willows. Beautiful, solemn and very still. No people, no figures, no silhouettes of people, no faces, no hands, no animals except those named above, no cats. Any fox is a real wild Japanese red fox drawn simply and gently in the print manner, small in the scene, never cartoonish, never wearing clothes. Japanese shin-hanga woodblock print in the manner of the 1920s-30s revival: flat layered areas of colour, visible woodgrain in the flat passages, softly gradated sky (bokashi), Western perspective and cast light held inside Japanese printmaking. Everything in the scene is drawn as part of the print, in the same flat woodblock manner, never photographic. Calm, dreamlike and hushed. Strong clear difference between the light and dark masses so the image still reads when reduced to a thumbnail. No text, no signature, no seal stamp, no lettering of any kind. No modern objects: no power lines, no cars, no trucks, no plastic, no electric signs. Wide 16:9 landscape. Exposed so that texture is clearly visible everywhere. Shadows are lifted and open, full of visible detail, nothing crushed to pure black. High dynamic range, rich texture even in the darkest areas.",
+      "prompt_verbatim": true,
+      "prompt_sha256": "39c83091925fa20928258a7dc58bf261f8c8461765e16ac18592028d82c6f1b0",
+      "attempts": [
+        {
+          "attempt": 1,
+          "started_at": "2026-11-25T16:05:18.962Z",
+          "completed_at": "2026-11-25T16:05:50.451Z",
+          "source_path": "/Users/ryo/.codex/generated_images/01a2136e-a040-76a0-ae75-a1769b871ffe/exec-5d911f80-b037-47f5-8a3d-5a9c0c2d74c9.png",
+          "original_path": "画像/生成直後/rdg05_10_attempt01.png",
+          "accepted": false,
+          "rejection_reason": "場面指定外の狐が写っている。",
+          "sha256": "47eea9702f0e28b9405d067ac14b646bdc3fca64f167903b27ce34c3d0798e8c",
+          "dimensions": [
+            1672,
+            941
+          ],
+          "bytes": 3705852,
+          "metrics": {
+            "mean_luminance": 97.59241553981563,
+            "luminance_below_16_ratio": 9.025316648785523e-05,
+            "luminance_below_16_percent": 0.009025316648785524
+          }
+        },
+        {
+          "attempt": 2,
+          "started_at": "2026-11-25T16:08:42.365Z",
+          "completed_at": "2026-11-25T16:09:10.909Z",
+          "source_path": "/Users/ryo/.codex/generated_images/01a2136e-a040-76a0-ae75-a1769b871ffe/exec-aea07677-17d6-48c4-adb0-6a9285bc0f1b.png",
+          "original_path": "画像/生成直後/rdg05_10_attempt02.png",
+          "accepted": true,
+          "rejection_reason": null,
+          "sha256": "fbdd3c64375ae478c6893b09766ead4db049100f62a07e038870c404b357b39f",
+          "dimensions": [
+            1672,
+            941
+          ],
+          "bytes": 3853879,
+          "metrics": {
+            "mean_luminance": 95.61624339524784,
+            "luminance_below_16_ratio": 0.00011694776502651664,
+            "luminance_below_16_percent": 0.011694776502651664
+          }
+        }
+      ],
+      "regeneration_count": 1,
+      "generation_completed_at": "2026-11-25T16:09:10.909Z",
+      "generation_completed_at_jst": "2026-11-26T01:09:10.909000+09:00",
+      "selected_attempt": 2,
+      "original_path": "画像/生成直後/rdg05_10_attempt02.png",
+      "source_crop_box_xyxy": [
+        0.0,
+        0.25,
+        1672.0,
+        940.75
+      ],
+      "visual_check": {
+        "status": "passed",
+        "method": "生成原本の全体を目視確認。",
+        "notes": "池の対岸の木々から多数のガラスランプが吊られ、灯りと木々が静かな水面に映る。手前に岸沿いの道。 人物・人影・人の顔や手・猫・文字・署名・印・電線・電柱は目視で認めず。"
+      },
+      "sha256": "4bf372d29417817579836bfaaa79b345b9afeab7464bc331761c4c4f224c24a1",
+      "dimensions": [
+        1920,
+        1080
+      ],
+      "bytes": 4313570,
+      "metrics": {
+        "mean_luminance": 95.61855559056714,
+        "luminance_below_16_ratio": 0.00014660493827160494,
+        "luminance_below_16_percent": 0.014660493827160493
+      }
+    },
+    {
+      "id": "rdg05_11",
+      "role": "main_video",
+      "path": "画像/rdg05_11.png",
+      "prompt": "A long country path through quiet fields on a bright moonlit night in rural Japan in the 1930s. The path runs between low hedges and a few pines toward a far village where the lights of a night festival glow: a row of red and white paper lanterns, the roof of a small shrine, a faint glow of a festival float. The moon is full and high; the path is pale in its light and long shadows of the pines fall across it. Colours: deep blue night, silver moonlight, small red and warm festival lights in the distance. Most of the image is dark, dreamy and a little mysterious. No people, no figures, no silhouettes of people, no faces, no hands, no animals except those named above, no cats. Any fox is a real wild Japanese red fox drawn simply and gently in the print manner, small in the scene, never cartoonish, never wearing clothes. Japanese shin-hanga woodblock print in the manner of the 1920s-30s revival: flat layered areas of colour, visible woodgrain in the flat passages, softly gradated sky (bokashi), Western perspective and cast light held inside Japanese printmaking. Everything in the scene is drawn as part of the print, in the same flat woodblock manner, never photographic. Calm, dreamlike and hushed. Strong clear difference between the light and dark masses so the image still reads when reduced to a thumbnail. No text, no signature, no seal stamp, no lettering of any kind. No modern objects: no power lines, no cars, no trucks, no plastic, no electric signs. Wide 16:9 landscape. Exposed so that texture is clearly visible everywhere. Shadows are lifted and open, full of visible detail, nothing crushed to pure black. High dynamic range, rich texture even in the darkest areas.",
+      "prompt_verbatim": true,
+      "prompt_sha256": "d6a14ee1ab218e2a0c1d539689c541b804c7ca3d2fd59204032c6bd31cbf328c",
+      "attempts": [
+        {
+          "attempt": 1,
+          "started_at": "2026-11-25T16:06:16.758Z",
+          "completed_at": "2026-11-25T16:06:40.990Z",
+          "source_path": "/Users/ryo/.codex/generated_images/01a2136e-a040-76a0-ae75-a1769b871ffe/exec-21370aa8-497d-455e-8cb2-808c1f0ec595.png",
+          "original_path": "画像/生成直後/rdg05_11_attempt01.png",
+          "accepted": true,
+          "rejection_reason": null,
+          "sha256": "a020d12dd3d51dffab8c2357175af40eafc3bf25ebc784a7588b25051ad931c6",
+          "dimensions": [
+            1672,
+            941
+          ],
+          "bytes": 3475978,
+          "metrics": {
+            "mean_luminance": 82.64728023773446,
+            "luminance_below_16_ratio": 0.00010423605143667787,
+            "luminance_below_16_percent": 0.010423605143667787
+          }
+        }
+      ],
+      "regeneration_count": 0,
+      "generation_completed_at": "2026-11-25T16:06:40.990Z",
+      "generation_completed_at_jst": "2026-11-26T01:06:40.990000+09:00",
+      "selected_attempt": 1,
+      "original_path": "画像/生成直後/rdg05_11_attempt01.png",
+      "source_crop_box_xyxy": [
+        0.0,
+        0.25,
+        1672.0,
+        940.75
+      ],
+      "visual_check": {
+        "status": "passed",
+        "method": "生成原本の全体を目視確認。",
+        "notes": "満月に照らされ松の長い影が伸びる野道。遠くに連なる祭りの提灯と社、山車の灯り。 人物・人影・人の顔や手・猫・文字・署名・印・電線・電柱は目視で認めず。"
+      },
+      "sha256": "e837f02e3001e63f2bb936ae95110f065f5afe912543064b7d8fc6c68916ca74",
+      "dimensions": [
+        1920,
+        1080
+      ],
+      "bytes": 3866681,
+      "metrics": {
+        "mean_luminance": 82.64958556491126,
+        "luminance_below_16_ratio": 0.00010754243827160494,
+        "luminance_below_16_percent": 0.010754243827160495
+      }
+    },
+    {
+      "id": "rdg05_12",
+      "role": "main_video",
+      "path": "画像/rdg05_12.png",
+      "prompt": "A lone old Japanese farmhouse at night, a little apart from the village, surrounded by a wide orchard of mandarin orange trees and a hedge. The moon is high and the orchard is silver and dark; a few orange fruits glint among the leaves. One paper-screened window of the house glows warm and soft from a small lamp inside, the brightest spot in the image. Nothing else stirs. Colours: deep indigo, silver-green leaves, small orange fruit, warm golden paper window. Tender, safe and sleepy. No people, no figures, no silhouettes of people, no faces, no hands, no animals except those named above, no cats. Any fox is a real wild Japanese red fox drawn simply and gently in the print manner, small in the scene, never cartoonish, never wearing clothes. Japanese shin-hanga woodblock print in the manner of the 1920s-30s revival: flat layered areas of colour, visible woodgrain in the flat passages, softly gradated sky (bokashi), Western perspective and cast light held inside Japanese printmaking. Everything in the scene is drawn as part of the print, in the same flat woodblock manner, never photographic. Calm, dreamlike and hushed. Strong clear difference between the light and dark masses so the image still reads when reduced to a thumbnail. No text, no signature, no seal stamp, no lettering of any kind. No modern objects: no power lines, no cars, no trucks, no plastic, no electric signs. Wide 16:9 landscape. Exposed so that texture is clearly visible everywhere. Shadows are lifted and open, full of visible detail, nothing crushed to pure black. High dynamic range, rich texture even in the darkest areas.",
+      "prompt_verbatim": true,
+      "prompt_sha256": "d741a0c233c20aca4862acb64e700bce64bebe868a8c47bd3a9d011023828386",
+      "attempts": [
+        {
+          "attempt": 1,
+          "started_at": "2026-11-25T16:06:41.041Z",
+          "completed_at": "2026-11-25T16:07:07.930Z",
+          "source_path": "/Users/ryo/.codex/generated_images/01a2136e-a040-76a0-ae75-a1769b871ffe/exec-2e71924d-fba5-4152-a206-0780bb6687c8.png",
+          "original_path": "画像/生成直後/rdg05_12_attempt01.png",
+          "accepted": false,
+          "rejection_reason": "場面指定外の狐が写っている。",
+          "sha256": "19b6e0fbd30f399b194e1507006db1c26a546eb282de2498b425365caaad7f80",
+          "dimensions": [
+            1672,
+            941
+          ],
+          "bytes": 3677190,
+          "metrics": {
+            "mean_luminance": 89.0245938749879,
+            "luminance_below_16_ratio": 3.8135140769516295e-06,
+            "luminance_below_16_percent": 0.00038135140769516294
+          }
+        },
+        {
+          "attempt": 2,
+          "started_at": "2026-11-25T16:09:11.034Z",
+          "completed_at": "2026-11-25T16:09:35.871Z",
+          "source_path": "/Users/ryo/.codex/generated_images/01a2136e-a040-76a0-ae75-a1769b871ffe/exec-4e48c7f1-46be-4fa4-9e37-54a12ffe5a1c.png",
+          "original_path": "画像/生成直後/rdg05_12_attempt02.png",
+          "accepted": true,
+          "rejection_reason": null,
+          "sha256": "04457344f9a891affffde43dfbe97305d4ad3d2ac676909f13be05c88b40eecb",
+          "dimensions": [
+            1672,
+            941
+          ],
+          "bytes": 3768594,
+          "metrics": {
+            "mean_luminance": 84.87307899135095,
+            "luminance_below_16_ratio": 4.766892596189537e-05,
+            "luminance_below_16_percent": 0.004766892596189537
+          }
+        }
+      ],
+      "regeneration_count": 1,
+      "generation_completed_at": "2026-11-25T16:09:35.871Z",
+      "generation_completed_at_jst": "2026-11-26T01:09:35.871000+09:00",
+      "selected_attempt": 2,
+      "original_path": "画像/生成直後/rdg05_12_attempt02.png",
+      "source_crop_box_xyxy": [
+        0.0,
+        0.25,
+        1672.0,
+        940.75
+      ],
+      "visual_check": {
+        "status": "passed",
+        "method": "生成原本の全体を目視確認。",
+        "notes": "蜜柑の実が見える果樹畑と茅葺きの家。障子が内から橙色に光り、障子に人影なし。 人物・人影・人の顔や手・猫・文字・署名・印・電線・電柱は目視で認めず。"
+      },
+      "sha256": "5976d98085d2abef74bb3bf4f7bf7ff89a50376b7c64f155098892fb4e93f6fb",
+      "dimensions": [
+        1920,
+        1080
+      ],
+      "bytes": 4176097,
+      "metrics": {
+        "mean_luminance": 84.87348370746528,
+        "luminance_below_16_ratio": 7.860725308641976e-05,
+        "luminance_below_16_percent": 0.007860725308641976
+      }
+    },
+    {
+      "id": "rdg05_13",
+      "role": "thumbnail_only",
+      "path": "画像/rdg05_13.png",
+      "prompt": "Composed for a thumbnail. The left third of the image is a calm, dark, simple area of deep indigo snowy night sky with almost no detail, so lettering can be placed over it. In the right two thirds, a small fox cub sits on deep white snow, seen from the side, holding up one small front paw in a little red knitted woollen mitten, looking toward a warm yellow lit doorway of an old wooden shop whose light falls across the snow. Gentle falling snow. Strong contrast, so it still reads at the size of a postage stamp. Colours: deep indigo, white snow, warm golden light, russet cub, one small red mitten. No people, no figures, no silhouettes of people, no faces, no hands, no animals except those named above, no cats. Any fox is a real wild Japanese red fox drawn simply and gently in the print manner, small in the scene, never cartoonish, never wearing clothes. Japanese shin-hanga woodblock print in the manner of the 1920s-30s revival: flat layered areas of colour, visible woodgrain in the flat passages, softly gradated sky (bokashi), Western perspective and cast light held inside Japanese printmaking. Everything in the scene is drawn as part of the print, in the same flat woodblock manner, never photographic. Calm, dreamlike and hushed. Strong clear difference between the light and dark masses so the image still reads when reduced to a thumbnail. No text, no signature, no seal stamp, no lettering of any kind. No modern objects: no power lines, no cars, no trucks, no plastic, no electric signs. Wide 16:9 landscape. Exposed so that texture is clearly visible everywhere. Shadows are lifted and open, full of visible detail, nothing crushed to pure black. High dynamic range, rich texture even in the darkest areas.",
+      "prompt_verbatim": true,
+      "prompt_sha256": "e6d41adb0cf8afb05453e6cf66a89c7bd608fe29c41848decfc20f06ef87dca3",
+      "attempts": [
+        {
+          "attempt": 1,
+          "started_at": "2026-11-25T16:07:07.979Z",
+          "completed_at": "2026-11-25T16:07:31.087Z",
+          "source_path": "/Users/ryo/.codex/generated_images/01a2136e-a040-76a0-ae75-a1769b871ffe/exec-c294bed5-119c-49e8-b6b4-dd4ddedf1361.png",
+          "original_path": "画像/生成直後/rdg05_13_attempt01.png",
+          "accepted": true,
+          "rejection_reason": null,
+          "sha256": "907425398cc0aba8ec7927725e49676db33f00275c633ccdaf680763dc46c467",
+          "dimensions": [
+            1672,
+            941
+          ],
+          "bytes": 3270985,
+          "metrics": {
+            "mean_luminance": 105.14115687881669,
+            "luminance_below_16_ratio": 0.0,
+            "luminance_below_16_percent": 0.0
+          }
+        }
+      ],
+      "regeneration_count": 0,
+      "generation_completed_at": "2026-11-25T16:07:31.087Z",
+      "generation_completed_at_jst": "2026-11-26T01:07:31.087000+09:00",
+      "selected_attempt": 1,
+      "original_path": "画像/生成直後/rdg05_13_attempt01.png",
+      "source_crop_box_xyxy": [
+        0.0,
+        0.25,
+        1672.0,
+        940.75
+      ],
+      "visual_check": {
+        "status": "passed",
+        "method": "生成原本の全体を目視確認。",
+        "notes": "片方の前足に赤い毛糸の手袋をはめた子狐が店の戸口の光を見上げる。左1/3は主に暗い藍の空で、下端に雪。 人物・人影・人の顔や手・猫・文字・署名・印・電線・電柱は目視で認めず。"
+      },
+      "sha256": "1a1c528a1b95d0be475661bd93617ccd941ac2a450c218ce45d81a5d6531ded8",
+      "dimensions": [
+        1920,
+        1080
+      ],
+      "bytes": 3724298,
+      "metrics": {
+        "mean_luminance": 105.13779639535106,
+        "luminance_below_16_ratio": 0.0,
+        "luminance_below_16_percent": 0.0
+      },
+      "thumbnail_168px": {
+        "dimensions": [
+          168,
+          95
+        ],
+        "left_third_box_xyxy": [
+          0,
+          0,
+          56,
+          95
+        ],
+        "left_third_median_luminance": 52.2566
+      }
+    }
+  ],
+  "total_generation_calls": 26,
+  "total_regenerations": 13,
+  "pending_assets": [],
+  "status_note": "全13枚を納品。05は夕景として明るめの候補を採用。08・09は修正版プロンプトで生成した各attempt05が目視判定に合格。原本は不採用分を含め全試行を保存。",
+  "completed_at": "2026-11-25T16:18:55.199064+00:00"
+}

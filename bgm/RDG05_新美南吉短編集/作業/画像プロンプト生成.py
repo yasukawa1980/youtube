@@ -5,7 +5,10 @@ HERE = Path(__file__).resolve().parent
 OUT_DIR = HERE.parent / '画像プロンプト'
 MD = HERE.parent.parent / 'RDG05_コピー用プロンプト.md'
 
-NOBODY = 'No people, no figures, no silhouettes of people, no faces, no hands, no animals except those named above, no cats. Any fox is a real wild Japanese red fox drawn simply and gently in the print manner, small in the scene, never cartoonish, never wearing clothes.'
+NOBODY = 'No people, no figures, no silhouettes of people, no faces, no hands, no animals except those named above, no cats.'
+FOX_OK = 'Any fox is a real wild Japanese red fox drawn simply and gently in the print manner, small in the scene, never cartoonish, never wearing clothes.'
+NO_FOX = 'No foxes, no dogs, no animals of any kind anywhere in the image.'
+FOX_SCENES = {'01', '02', '03', '04', '05', '06', '13'}   # 11/26 共通文に狐を書いたら08・09にも狐が出た
 STYLE = ('Japanese shin-hanga woodblock print in the manner of the 1920s-30s revival: flat layered areas of colour, '
          'visible woodgrain in the flat passages, softly gradated sky (bokashi), Western perspective and cast light held '
          'inside Japanese printmaking. Everything in the scene is drawn as part of the print, in the same flat woodblock '
@@ -44,8 +47,8 @@ SCENES = [
   'Composed for a thumbnail. The left third of the image is a calm, dark, simple area of deep indigo snowy night sky with almost no detail, so lettering can be placed over it. In the right two thirds, a small fox cub sits on deep white snow, seen from the side, holding up one small front paw in a little red knitted woollen mitten, looking toward a warm yellow lit doorway of an old wooden shop whose light falls across the snow. Gentle falling snow. Strong contrast, so it still reads at the size of a postage stamp. Colours: deep indigo, white snow, warm golden light, russet cub, one small red mitten.'),
 ]
 
-def full(body):
-    return f'{body} {NOBODY} {STYLE}'
+def full(body, n):
+    return f"{body} {NOBODY} {FOX_OK if n in FOX_SCENES else NO_FOX} {STYLE}"
 
 
 def main():
@@ -55,11 +58,11 @@ def main():
            '置き場：`bgm/RDG05_新美南吉短編集/画像/rdg05_NN.png`（NN＝下の番号。サムネは rdg05_13.png）。',
            '全場面に人物を描かない（狐は描く）。昼の場面も夕方・夜明けとして描かせる。受け取ったら明るさの並びと潰れを測る。', '']
     for n, name, where, body in SCENES:
-        text = full(body)
+        text = full(body, n)
         (OUT_DIR / f'{n}_{name}.txt').write_text(text + '\n')
         out += [f'## {n}_{name}（{where}）', '', '```', text, '```', '']
     MD.write_text('\n'.join(out))
-    print(len(SCENES), max(len(full(s[3])) for s in SCENES))
+    print(len(SCENES), max(len(full(s[3], s[0])) for s in SCENES))
 
 
 if __name__ == '__main__':

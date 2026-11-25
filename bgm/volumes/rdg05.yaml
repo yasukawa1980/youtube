@@ -1,0 +1,29 @@
+# 朗読 / 05 —— 新美南吉 短編集（手袋を買いに・ごん狐・おじいさんのランプ・狐）
+#
+# ★★音も映像も bgmkit の外で作っている。 bgmkit で使うのはサムネ（thumb）だけ。
+#   実装は bgm/RDG05_新美南吉短編集/作業/（prep_text.py → narrate_satomi.py → render.py）。
+# ★画題は12場面＋サムネ（新版画）。プロンプトの全文は bgm/RDG05_新美南吉短編集/画像プロンプト/ と bgm/RDG05_コピー用プロンプト.md
+
+genre: echoesofoldjapan     # RDG01・02と同じく EOJ の新版画・題字の型を借りる
+volume: 5
+slug: rdg05
+dir: "/Users/ryo/youtube/bgm/RDG05_新美南吉短編集"
+
+brand: WHISPERS OF JAPAN   # ★EOJ の型を借りるが、この巻はEOJではない
+runtime: "1.5 HOURS"   # 字数からの見込み約96分（合成前）。合成後に実測で直す
+title_lines: [眠る前の朗読, 手袋を買いに]
+thumb_sub: 新美南吉
+thumb_layout:
+  sub: 680
+thumb:
+  title_family: jp
+  sub_family: jp
+  sizes: {sub: 64}
+  font_index: {sub: 0}
+  tracking: {sub: 10}
+  title_fit: 760
+  tracking:
+    brand: 4
+
+background: "/Users/ryo/youtube/bgm/RDG05_新美南吉短編集/画像/rdg05_13.png"
+thumb_out: "/Users/ryo/youtube/bgm/RDG05_新美南吉短編集/rdg05_サムネ_16x9.png"
