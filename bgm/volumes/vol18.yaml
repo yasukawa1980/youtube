@@ -1,0 +1,371 @@
+# Whispers of Japan / Vol.18 — 月夜の茶室（Moonlit Tea House）／テーマ「迎える」
+#
+# ★2026年11月25日 本人決定で題材を「茶室と露地」にした（Vol.17で残した候補。他にKCF09・WAVE14・懸崖の山寺）。
+# ★題材：初冬の満月の夜、小さな草庵の茶室と露地。枝折戸は少し開けてあり、飛石は掃き清められ、
+#   主はまだ灯をともしていない。月が客として露地を通っていく一夜。聞き手を迎える巻。
+# ★Vol.10座敷（行灯・火鉢・床の間＝室内の暖色）と分けるため**室内は描かない・灯りは無し**。
+#   暖色は侘助（藪椿）の小さな赤い花だけ（Vol.17が葉の金でやったことの赤版。Vol.8紅葉の赤は灯籠の暖色）。
+# ★茶庭の定番の蹲踞・石灯籠は描かない（水は音の期待を呼ぶ／灯籠はVol.8・Vol.1と重なる）。掛軸も描かない（崩れ字）。
+# ★音は「在庫＋新規」の折衷（Vol.16・17と同じ）。在庫は Vol17_素材_大銀杏/楽曲 の未採用分（ESD-02）を
+#   このフォルダの 楽曲/ にシンボリックリンクで並べる（動かさない）。
+#   新しく作るのは在庫が尽きた ③ピアノ（0本）と、少ない ①箏（4）・④金属打（4）・⑥胡弓（3）、⑩フル編成。
+#   プロンプトは Vol18_月夜の茶室_コピー用プロンプト.md。Suno は Claude が Chrome で生成・取得する。
+
+genre: whispers
+volume: 18
+slug: vol18
+dir: "/Volumes/ESD-02/BGM/1_Whispers of Japan/Vol18_素材_茶室"
+background: "/Volumes/ESD-02/BGM/1_Whispers of Japan/Vol18_素材_茶室/画像/vol18_13.png"
+
+title_lines: [月夜の, 茶室]
+# ★2026-11-25 audio 実測 3691.01秒＝61分31秒 → thumb の照合（四捨五入）に合わせて 62 MIN。
+runtime: "62 MIN"
+
+# ★登録のお願いを焼き込む（新しい巻は必ず書く。メモリ subscribe-cta）。
+cta: true
+
+# ★環境音は敷かない。純器楽。
+
+image_style: >-
+  Photorealistic cinematic still, a traditional Japanese tea garden at night.
+  The only light source is the moon: cool blue-silver, low key — except that the
+  small camellia flowers keep their own deep red colour, softened by the moonlight,
+  the one warm colour in the picture. There are no lamps, lanterns or fires anywhere
+  and every window is dark.
+  Exposed so that texture is clearly visible everywhere — moss, frost, stone, thatch,
+  earthen wall, wood grain. Shadows are lifted and open, full of visible detail,
+  nothing crushed to pure black. High dynamic range, rich texture even in the
+  darkest areas.
+  Calm and completely static, no people, no animals, no text, no signage,
+  no lettering of any kind. Muted blue and green palette apart from the camellia red,
+  fine film grain, 16:9 composition with generous empty space on the left third for titles.
+
+kinds:
+  # ── 在庫（Vol17_素材_大銀杏/楽曲 の未採用）──
+  "v12_箏の独奏": ①箏
+  "v14_箏の独奏２": ①箏
+  "v14_箏の独奏５": ①箏
+  "v14_箏の独奏７": ①箏
+  "v11_尺八の独奏１": ②尺八
+  "v11_尺八の独奏２": ②尺八
+  "v11_尺八の独奏３": ②尺八
+  "v12_尺八の独奏": ②尺八
+  "v12_尺八の独奏１１": ②尺八
+  "v12_尺八の独奏２": ②尺八
+  "v12_尺八の独奏８": ②尺八
+  "v13_尺八の独奏": ②尺八
+  "v13_尺八の独奏２": ②尺八
+  "v13_尺八の独奏３": ②尺八
+  "v13_尺八の独奏４": ②尺八
+  "v13_尺八の独奏５": ②尺八
+  "v13_尺八の独奏６": ②尺八
+  "v13_尺八の独奏７": ②尺八
+  "v14_尺八の独奏": ②尺八
+  "v14_尺八の独奏１０": ②尺八
+  "v14_尺八の独奏１２": ②尺八
+  "v14_尺八の独奏１３": ②尺八
+  "v14_尺八の独奏１７": ②尺八
+  "v14_尺八の独奏１９": ②尺八
+  "v14_尺八の独奏２": ②尺八
+  "v14_尺八の独奏３": ②尺八
+  "v14_尺八の独奏４": ②尺八
+  "v14_尺八の独奏５": ②尺八
+  "v14_尺八の独奏７": ②尺八
+  "v16_尺八A-1": ②尺八
+  "v16_尺八A-2": ②尺八
+  "v16_尺八A-3": ②尺八
+  "v16_尺八A-4": ②尺八
+  "v16_尺八B-1": ②尺八
+  "v16_尺八B-2": ②尺八
+  "v16_尺八C-1": ②尺八
+  "v16_尺八C-2": ②尺八
+  "v16_尺八C-3": ②尺八
+  "v16_尺八C-4": ②尺八
+  "v11_金属の打楽器１": ④金属打
+  "v11_金属の打楽器２": ④金属打
+  "v13_金属打（鈴と鉢）のみ": ④金属打
+  "v13_金属打（鈴と鉢）のみ６": ④金属打
+  "v12_胡弓７": ⑥胡弓
+  "v13_胡弓 ７": ⑥胡弓
+  "v14_胡弓３": ⑥胡弓
+  "v11_笙のみ４": ⑦笙
+  "v11_笙のみ５": ⑦笙
+  "v12_笙のみ２": ⑦笙
+  "v12_笙のみ９": ⑦笙
+  "v16_笙A-1": ⑦笙
+  "v16_笙A-2": ⑦笙
+  "v16_笙A-3": ⑦笙
+  "v16_笙A-4": ⑦笙
+  "v16_笙B-2": ⑦笙
+  "v12_龍笛の独奏２": ⑧龍笛
+  "v16_龍笛A-3": ⑧龍笛
+  "v16_龍笛B-2": ⑧龍笛
+  "v16_龍笛B-3": ⑧龍笛
+  "v16_龍笛C-2": ⑧龍笛
+  "v16_龍笛C-3": ⑧龍笛
+  "龍笛1−３": ⑧龍笛
+  "龍笛1−４": ⑧龍笛
+  "龍笛1−５": ⑧龍笛
+  "龍笛1−８": ⑧龍笛
+  "琵琶1−１": ⑨琵琶
+  "琵琶1−３": ⑨琵琶
+  "琵琶1−６": ⑨琵琶
+  "琵琶2−２": ⑨琵琶
+  "琵琶2−３": ⑨琵琶
+  "琵琶2−４": ⑨琵琶
+  "琵琶2−５": ⑨琵琶
+  "琵琶2−６": ⑨琵琶
+  "琵琶2−７": ⑨琵琶
+  "琵琶2−８": ⑨琵琶
+  "琵琶3−１０": ⑨琵琶
+  "琵琶3−３": ⑨琵琶
+  "琵琶3−４": ⑨琵琶
+  "琵琶3−７": ⑨琵琶
+  "琵琶3−９": ⑨琵琶
+  "琵琶4−１": ⑨琵琶
+  "琵琶4−３": ⑨琵琶
+  "琵琶4−４": ⑨琵琶
+  "v11_ Brand Standard — A minor・全編成（１": ⑩フル編成
+  "v11_ Brand Standard — A minor・全編成（２": ⑩フル編成
+  "v11_ Brand Standard — A minor・全編成（４": ⑩フル編成
+  "v11_ Brand Standard — A minor・全編成（５": ⑩フル編成
+  "v12_E minor３・全編成": ⑩フル編成
+  "v13_Brand Standard ３": ⑩フル編成
+  "v13_Brand Standard ４": ⑩フル編成
+  "v14_Brand Standard３": ⑩フル編成
+  "v14_Brand Standard７": ⑩フル編成
+  # ── 新規（Claude が Suno で生成。ファイル名は v18_箏A-1 の形）──
+  # ①箏 … 新規 8本（箏A F major／箏B B minor 各4）
+  "v18_箏A-1": ①箏
+  "v18_箏A-2": ①箏
+  "v18_箏A-3": ①箏
+  "v18_箏A-4": ①箏
+  "v18_箏B-1": ①箏
+  "v18_箏B-2": ①箏
+  "v18_箏B-3": ①箏
+  "v18_箏B-4": ①箏
+  # ③ピアノ … 新規 8本（ピアノA A♭ major／ピアノB C minor 各4）
+  "v18_ピアノA-1": ③ピアノ
+  "v18_ピアノA-2": ③ピアノ
+  "v18_ピアノA-3": ③ピアノ
+  "v18_ピアノA-4": ③ピアノ
+  "v18_ピアノB-1": ③ピアノ
+  "v18_ピアノB-2": ③ピアノ
+  "v18_ピアノB-3": ③ピアノ
+  "v18_ピアノB-4": ③ピアノ
+  # ④金属打 … 新規 8本（金属A D／金属B G 各4）
+  "v18_金属A-1": ④金属打
+  "v18_金属A-2": ④金属打
+  "v18_金属A-3": ④金属打
+  "v18_金属A-4": ④金属打
+  "v18_金属B-1": ④金属打
+  "v18_金属B-2": ④金属打
+  "v18_金属B-3": ④金属打
+  "v18_金属B-4": ④金属打
+  # ⑥胡弓 … 新規 8本（胡弓A F minor／胡弓B B♭ minor 各4）
+  "v18_胡弓A-1": ⑥胡弓
+  "v18_胡弓A-2": ⑥胡弓
+  "v18_胡弓A-3": ⑥胡弓
+  "v18_胡弓A-4": ⑥胡弓
+  "v18_胡弓B-1": ⑥胡弓
+  "v18_胡弓B-2": ⑥胡弓
+  "v18_胡弓B-3": ⑥胡弓
+  "v18_胡弓B-4": ⑥胡弓
+  # ⑩フル編成 … 新規 4本（F major）
+  "v18_フル編成-1": ⑩フル編成
+  "v18_フル編成-2": ⑩フル編成
+  "v18_フル編成-3": ⑩フル編成
+  "v18_フル編成-4": ⑩フル編成
+
+# Vol.16で歪み・人声の疑いが出た笙（本人試聴の記録なし）は引き続き外す。
+# ★2026-11-25 人声の機械検査（AST）。在庫の胡弓の基準は Humming 0.015〜0.226。
+#   新規の胡弓B-1 0.310・B-2 0.336 は在庫の最大を超えた → 除外。胡弓A-3 0.176・A-4 0.201・B-3 0.195 は範囲内（選ばれたら本人試聴）。
+#   金属A-1（Speech 0.221）・A-2（Speech 0.171）は鉢に「話し声」が出た → 除外。ほかの新規はすべて 0.05 未満。
+exclude:
+- "v18_胡弓B-1.wav"
+- "v18_胡弓B-2.wav"
+- "v18_金属A-1.wav"
+- "v18_金属A-2.wav"
+- "v16_笙A-1.wav"
+- "v16_笙A-2.wav"
+- "v16_笙A-3.wav"
+- "v16_笙A-4.wav"
+- "v16_笙B-2.wav"
+
+# ★22曲・60分（画像22枚＝1曲1枚）。尺八は本人方針「あまりいらない」＝息のある在庫1本だけ。
+select:
+  count: 22
+  total_seconds: [3500, 3720]
+  require_all_kinds: true
+  max_per_kind: 5
+  restarts: 150
+  breath_floor:
+    ②尺八: 0.035
+  kind_limits:
+    ①箏: [2, 3]
+    ②尺八: [1, 1]
+    ③ピアノ: [2, 3]
+    ④金属打: [2, 3]
+    ⑥胡弓: [2, 3]
+    ⑦笙: [2, 2]
+    ⑧龍笛: [1, 2]
+    ⑨琵琶: [3, 4]
+    ⑩フル編成: [2, 3]
+
+order:
+  restarts: 400
+
+# 11場面 × A（引き）/ B（寄り）＝22。客の順路：枝折戸 → 待合 → 飛石 → 中門 → 侘助 → 苔と霜
+#   → 茶室 → 躙口 → 下地窓 → 塵穴 → 薄明。月は 01〜04 東の低い位置（左）→ 05〜14 高く → 15〜20 西（右）→ 21・22 沈んで薄明。
+scenes:
+- 外露地の門・引き
+- 外露地の門・寄り
+- 待合・引き
+- 待合・寄り
+- 飛石・引き
+- 飛石・寄り
+- 中門・引き
+- 中門・寄り
+- 侘助・引き
+- 侘助・寄り
+- 苔と霜・引き
+- 苔と霜・寄り
+- 茶室・引き
+- 茶室・寄り
+- 躙口・引き
+- 躙口・寄り
+- 下地窓・引き
+- 下地窓・寄り
+- 塵穴・引き
+- 塵穴・寄り
+- 薄明・引き
+- 薄明・寄り
+
+# 画像はCodexの手生成。`/usr/bin/python3 画像プロンプト書き出し.py vol18` で合成後の全文を渡す。
+# 共通文で潰す事故：蹲踞・池（水）／石灯籠・鳥居（Vol.1・8）／掛軸・扁額（崩れ字）／紅葉・銀杏・桜・雪・竹（Vol.8・17・3・9・2）
+#   ／灯り（Vol.10座敷と重なる）／人・草履（客の気配は出さない）。
+image_prompts:
+- 'A wide view at night of the entrance to a small tea garden: a low rustic gate of woven brushwood and bamboo set in a simple bamboo fence, the gate standing a little ajar, a path of stepping stones leading in through moss toward the dark thatched roof of a tiny tea hut far behind the trees. The full moon has just risen low on the left, large and pale. The gate and the path are in the right two thirds; the left third is open deep blue sky and the rising moon. The tea house is a tiny, very old rustic thatched-roof tea hut (sōan) of unpainted dark timber and pale earthen walls, with a low square crawl-through entrance and small latticed windows of bamboo and paper. The garden is a quiet tea garden path (roji): irregular natural stepping stones set in deep green moss, low clipped shrubs, a few camellia bushes with glossy dark leaves and deep red single flowers. Early winter, a thin white frost on the moss and stones. The air is completely still, nothing blurred. The only light is the moon: no lamps, no lanterns, no candles, no fire, no lit windows — every paper window is dark. No water of any kind — no stone water basin, no pond, no stream, no well, no reflections, no wet ground. No stone lanterns, no torii, no pagodas, no shrine buildings, no large temple halls, no castle. No hanging scrolls, no plaques, no calligraphy, no signs, no lettering of any kind. No maple trees, no red autumn leaves, no ginkgo, no cherry blossoms, no snow, no bamboo forest, no pine-dominated scenery, no tall conical mountain. No people, no animals, no footprints, no sandals, no tea utensils outside. No modern objects, no power lines.'
+- 'Close view at night of a rustic brushwood gate standing slightly ajar, its woven twigs and split-bamboo frame sharp, a thin white frost along the top bar, the first stepping stone just beyond it on the moss. Low cold moonlight from the left. The tea house is a tiny, very old rustic thatched-roof tea hut (sōan) of unpainted dark timber and pale earthen walls, with a low square crawl-through entrance and small latticed windows of bamboo and paper. The garden is a quiet tea garden path (roji): irregular natural stepping stones set in deep green moss, low clipped shrubs, a few camellia bushes with glossy dark leaves and deep red single flowers. Early winter, a thin white frost on the moss and stones. The air is completely still, nothing blurred. The only light is the moon: no lamps, no lanterns, no candles, no fire, no lit windows — every paper window is dark. No water of any kind — no stone water basin, no pond, no stream, no well, no reflections, no wet ground. No stone lanterns, no torii, no pagodas, no shrine buildings, no large temple halls, no castle. No hanging scrolls, no plaques, no calligraphy, no signs, no lettering of any kind. No maple trees, no red autumn leaves, no ginkgo, no cherry blossoms, no snow, no bamboo forest, no pine-dominated scenery, no tall conical mountain. No people, no animals, no footprints, no sandals, no tea utensils outside. No modern objects, no power lines.'
+- 'A small open-fronted roofed waiting bench of the tea garden at night: a low wooden shelter with a thatched roof and a long plain wooden bench, empty, facing the moss garden, a few stepping stones in front of it. The moon is low on the left, out of frame, its light raking across the bench. The shelter sits in the right two thirds. The tea house is a tiny, very old rustic thatched-roof tea hut (sōan) of unpainted dark timber and pale earthen walls, with a low square crawl-through entrance and small latticed windows of bamboo and paper. The garden is a quiet tea garden path (roji): irregular natural stepping stones set in deep green moss, low clipped shrubs, a few camellia bushes with glossy dark leaves and deep red single flowers. Early winter, a thin white frost on the moss and stones. The air is completely still, nothing blurred. The only light is the moon: no lamps, no lanterns, no candles, no fire, no lit windows — every paper window is dark. No water of any kind — no stone water basin, no pond, no stream, no well, no reflections, no wet ground. No stone lanterns, no torii, no pagodas, no shrine buildings, no large temple halls, no castle. No hanging scrolls, no plaques, no calligraphy, no signs, no lettering of any kind. No maple trees, no red autumn leaves, no ginkgo, no cherry blossoms, no snow, no bamboo forest, no pine-dominated scenery, no tall conical mountain. No people, no animals, no footprints, no sandals, no tea utensils outside. No modern objects, no power lines.'
+- 'Close view at night of the end of a plain wooden waiting bench under a low thatched eave, the grain of the old wood and a fine white frost on the seat, a round cushion of moss below it. Cold moonlight from the left. The tea house is a tiny, very old rustic thatched-roof tea hut (sōan) of unpainted dark timber and pale earthen walls, with a low square crawl-through entrance and small latticed windows of bamboo and paper. The garden is a quiet tea garden path (roji): irregular natural stepping stones set in deep green moss, low clipped shrubs, a few camellia bushes with glossy dark leaves and deep red single flowers. Early winter, a thin white frost on the moss and stones. The air is completely still, nothing blurred. The only light is the moon: no lamps, no lanterns, no candles, no fire, no lit windows — every paper window is dark. No water of any kind — no stone water basin, no pond, no stream, no well, no reflections, no wet ground. No stone lanterns, no torii, no pagodas, no shrine buildings, no large temple halls, no castle. No hanging scrolls, no plaques, no calligraphy, no signs, no lettering of any kind. No maple trees, no red autumn leaves, no ginkgo, no cherry blossoms, no snow, no bamboo forest, no pine-dominated scenery, no tall conical mountain. No people, no animals, no footprints, no sandals, no tea utensils outside. No modern objects, no power lines.'
+- 'A winding path of irregular natural stepping stones at night crossing deep green moss through the tea garden, each stone set a single stride apart, a thin frost making the stones pale grey, low clipped shrubs on both sides, the dark thatched roof of the tea hut visible ahead on the right. The moon is higher now on the left. The path curves through the right two thirds. The tea house is a tiny, very old rustic thatched-roof tea hut (sōan) of unpainted dark timber and pale earthen walls, with a low square crawl-through entrance and small latticed windows of bamboo and paper. The garden is a quiet tea garden path (roji): irregular natural stepping stones set in deep green moss, low clipped shrubs, a few camellia bushes with glossy dark leaves and deep red single flowers. Early winter, a thin white frost on the moss and stones. The air is completely still, nothing blurred. The only light is the moon: no lamps, no lanterns, no candles, no fire, no lit windows — every paper window is dark. No water of any kind — no stone water basin, no pond, no stream, no well, no reflections, no wet ground. No stone lanterns, no torii, no pagodas, no shrine buildings, no large temple halls, no castle. No hanging scrolls, no plaques, no calligraphy, no signs, no lettering of any kind. No maple trees, no red autumn leaves, no ginkgo, no cherry blossoms, no snow, no bamboo forest, no pine-dominated scenery, no tall conical mountain. No people, no animals, no footprints, no sandals, no tea utensils outside. No modern objects, no power lines.'
+- 'Close view at night of two flat natural stepping stones set in deep green moss, the edges of the moss and the face of the stone furred with fine white frost crystals, every crystal sharp. Soft cold moonlight from above left. The tea house is a tiny, very old rustic thatched-roof tea hut (sōan) of unpainted dark timber and pale earthen walls, with a low square crawl-through entrance and small latticed windows of bamboo and paper. The garden is a quiet tea garden path (roji): irregular natural stepping stones set in deep green moss, low clipped shrubs, a few camellia bushes with glossy dark leaves and deep red single flowers. Early winter, a thin white frost on the moss and stones. The air is completely still, nothing blurred. The only light is the moon: no lamps, no lanterns, no candles, no fire, no lit windows — every paper window is dark. No water of any kind — no stone water basin, no pond, no stream, no well, no reflections, no wet ground. No stone lanterns, no torii, no pagodas, no shrine buildings, no large temple halls, no castle. No hanging scrolls, no plaques, no calligraphy, no signs, no lettering of any kind. No maple trees, no red autumn leaves, no ginkgo, no cherry blossoms, no snow, no bamboo forest, no pine-dominated scenery, no tall conical mountain. No people, no animals, no footprints, no sandals, no tea utensils outside. No modern objects, no power lines.'
+- 'A small simple roofed middle gate of the tea garden at night, made of rough wood and bamboo with a little thatched roof, dividing the outer garden from the inner garden, stepping stones passing through it. Beyond it the tiny thatched tea hut stands among the shrubs. The moon is high on the left. The gate stands in the right two thirds. The tea house is a tiny, very old rustic thatched-roof tea hut (sōan) of unpainted dark timber and pale earthen walls, with a low square crawl-through entrance and small latticed windows of bamboo and paper. The garden is a quiet tea garden path (roji): irregular natural stepping stones set in deep green moss, low clipped shrubs, a few camellia bushes with glossy dark leaves and deep red single flowers. Early winter, a thin white frost on the moss and stones. The air is completely still, nothing blurred. The only light is the moon: no lamps, no lanterns, no candles, no fire, no lit windows — every paper window is dark. No water of any kind — no stone water basin, no pond, no stream, no well, no reflections, no wet ground. No stone lanterns, no torii, no pagodas, no shrine buildings, no large temple halls, no castle. No hanging scrolls, no plaques, no calligraphy, no signs, no lettering of any kind. No maple trees, no red autumn leaves, no ginkgo, no cherry blossoms, no snow, no bamboo forest, no pine-dominated scenery, no tall conical mountain. No people, no animals, no footprints, no sandals, no tea utensils outside. No modern objects, no power lines.'
+- 'Close view at night of the corner of a rustic middle gate: a weathered wooden post bound to a split-bamboo frame with black hemp cord tied in neat knots, a strand of frost on the cord. Moonlight from above. The tea house is a tiny, very old rustic thatched-roof tea hut (sōan) of unpainted dark timber and pale earthen walls, with a low square crawl-through entrance and small latticed windows of bamboo and paper. The garden is a quiet tea garden path (roji): irregular natural stepping stones set in deep green moss, low clipped shrubs, a few camellia bushes with glossy dark leaves and deep red single flowers. Early winter, a thin white frost on the moss and stones. The air is completely still, nothing blurred. The only light is the moon: no lamps, no lanterns, no candles, no fire, no lit windows — every paper window is dark. No water of any kind — no stone water basin, no pond, no stream, no well, no reflections, no wet ground. No stone lanterns, no torii, no pagodas, no shrine buildings, no large temple halls, no castle. No hanging scrolls, no plaques, no calligraphy, no signs, no lettering of any kind. No maple trees, no red autumn leaves, no ginkgo, no cherry blossoms, no snow, no bamboo forest, no pine-dominated scenery, no tall conical mountain. No people, no animals, no footprints, no sandals, no tea utensils outside. No modern objects, no power lines.'
+- 'A camellia bush at night growing beside the stepping-stone path in the inner tea garden, its glossy dark green leaves catching the moonlight and a handful of small deep red single camellia flowers open among them, the only warm colour in the cold blue garden. A few fallen whole red flowers lie on the frosted moss. The tea hut is a dark shape behind. The bush is in the right two thirds. The tea house is a tiny, very old rustic thatched-roof tea hut (sōan) of unpainted dark timber and pale earthen walls, with a low square crawl-through entrance and small latticed windows of bamboo and paper. The garden is a quiet tea garden path (roji): irregular natural stepping stones set in deep green moss, low clipped shrubs, a few camellia bushes with glossy dark leaves and deep red single flowers. Early winter, a thin white frost on the moss and stones. The air is completely still, nothing blurred. The only light is the moon: no lamps, no lanterns, no candles, no fire, no lit windows — every paper window is dark. No water of any kind — no stone water basin, no pond, no stream, no well, no reflections, no wet ground. No stone lanterns, no torii, no pagodas, no shrine buildings, no large temple halls, no castle. No hanging scrolls, no plaques, no calligraphy, no signs, no lettering of any kind. No maple trees, no red autumn leaves, no ginkgo, no cherry blossoms, no snow, no bamboo forest, no pine-dominated scenery, no tall conical mountain. No people, no animals, no footprints, no sandals, no tea utensils outside. No modern objects, no power lines.'
+- 'Close view at night of a single small deep red camellia flower, half open, with a ring of yellow stamens, on a twig with two glossy dark green leaves edged with frost. Cold moonlight from above, the background soft deep blue darkness. The tea house is a tiny, very old rustic thatched-roof tea hut (sōan) of unpainted dark timber and pale earthen walls, with a low square crawl-through entrance and small latticed windows of bamboo and paper. The garden is a quiet tea garden path (roji): irregular natural stepping stones set in deep green moss, low clipped shrubs, a few camellia bushes with glossy dark leaves and deep red single flowers. Early winter, a thin white frost on the moss and stones. The air is completely still, nothing blurred. The only light is the moon: no lamps, no lanterns, no candles, no fire, no lit windows — every paper window is dark. No water of any kind — no stone water basin, no pond, no stream, no well, no reflections, no wet ground. No stone lanterns, no torii, no pagodas, no shrine buildings, no large temple halls, no castle. No hanging scrolls, no plaques, no calligraphy, no signs, no lettering of any kind. No maple trees, no red autumn leaves, no ginkgo, no cherry blossoms, no snow, no bamboo forest, no pine-dominated scenery, no tall conical mountain. No people, no animals, no footprints, no sandals, no tea utensils outside. No modern objects, no power lines.'
+- 'A wide, low view at night across the inner tea garden''s carpet of moss, white with frost, gently mounded around a few low clipped shrubs and half-buried rocks, the stepping stones running through it toward the tea hut on the right. The full moon is high in the deep blue sky on the left. The tea house is a tiny, very old rustic thatched-roof tea hut (sōan) of unpainted dark timber and pale earthen walls, with a low square crawl-through entrance and small latticed windows of bamboo and paper. The garden is a quiet tea garden path (roji): irregular natural stepping stones set in deep green moss, low clipped shrubs, a few camellia bushes with glossy dark leaves and deep red single flowers. Early winter, a thin white frost on the moss and stones. The air is completely still, nothing blurred. The only light is the moon: no lamps, no lanterns, no candles, no fire, no lit windows — every paper window is dark. No water of any kind — no stone water basin, no pond, no stream, no well, no reflections, no wet ground. No stone lanterns, no torii, no pagodas, no shrine buildings, no large temple halls, no castle. No hanging scrolls, no plaques, no calligraphy, no signs, no lettering of any kind. No maple trees, no red autumn leaves, no ginkgo, no cherry blossoms, no snow, no bamboo forest, no pine-dominated scenery, no tall conical mountain. No people, no animals, no footprints, no sandals, no tea utensils outside. No modern objects, no power lines.'
+- 'Close view at night of a mound of deep green star moss covered in fine white hoarfrost, each tiny frond outlined in ice crystals, a single fallen red camellia flower lying on it. Moonlight from above. The tea house is a tiny, very old rustic thatched-roof tea hut (sōan) of unpainted dark timber and pale earthen walls, with a low square crawl-through entrance and small latticed windows of bamboo and paper. The garden is a quiet tea garden path (roji): irregular natural stepping stones set in deep green moss, low clipped shrubs, a few camellia bushes with glossy dark leaves and deep red single flowers. Early winter, a thin white frost on the moss and stones. The air is completely still, nothing blurred. The only light is the moon: no lamps, no lanterns, no candles, no fire, no lit windows — every paper window is dark. No water of any kind — no stone water basin, no pond, no stream, no well, no reflections, no wet ground. No stone lanterns, no torii, no pagodas, no shrine buildings, no large temple halls, no castle. No hanging scrolls, no plaques, no calligraphy, no signs, no lettering of any kind. No maple trees, no red autumn leaves, no ginkgo, no cherry blossoms, no snow, no bamboo forest, no pine-dominated scenery, no tall conical mountain. No people, no animals, no footprints, no sandals, no tea utensils outside. No modern objects, no power lines.'
+- 'The tiny rustic thatched tea hut seen in full at night from the inner garden: a heavy rounded thatched roof, pale earthen walls, dark timber posts, small latticed windows, and the low crawl-through entrance facing the stepping stones. The windows are dark. The full moon stands high to the left of the roof. The strongest image of the night. The hut fills the right two thirds; the left third is open deep blue sky. The tea house is a tiny, very old rustic thatched-roof tea hut (sōan) of unpainted dark timber and pale earthen walls, with a low square crawl-through entrance and small latticed windows of bamboo and paper. The garden is a quiet tea garden path (roji): irregular natural stepping stones set in deep green moss, low clipped shrubs, a few camellia bushes with glossy dark leaves and deep red single flowers. Early winter, a thin white frost on the moss and stones. The air is completely still, nothing blurred. The only light is the moon: no lamps, no lanterns, no candles, no fire, no lit windows — every paper window is dark. No water of any kind — no stone water basin, no pond, no stream, no well, no reflections, no wet ground. No stone lanterns, no torii, no pagodas, no shrine buildings, no large temple halls, no castle. No hanging scrolls, no plaques, no calligraphy, no signs, no lettering of any kind. No maple trees, no red autumn leaves, no ginkgo, no cherry blossoms, no snow, no bamboo forest, no pine-dominated scenery, no tall conical mountain. No people, no animals, no footprints, no sandals, no tea utensils outside. No modern objects, no power lines.'
+- 'Close view at night of the deep edge of the thatched roof of the tea hut, the thick layers of old straw trimmed clean, a fine frost along the eave, and below it the top of a pale earthen wall with its timber frame. Moonlight from above left. The tea house is a tiny, very old rustic thatched-roof tea hut (sōan) of unpainted dark timber and pale earthen walls, with a low square crawl-through entrance and small latticed windows of bamboo and paper. The garden is a quiet tea garden path (roji): irregular natural stepping stones set in deep green moss, low clipped shrubs, a few camellia bushes with glossy dark leaves and deep red single flowers. Early winter, a thin white frost on the moss and stones. The air is completely still, nothing blurred. The only light is the moon: no lamps, no lanterns, no candles, no fire, no lit windows — every paper window is dark. No water of any kind — no stone water basin, no pond, no stream, no well, no reflections, no wet ground. No stone lanterns, no torii, no pagodas, no shrine buildings, no large temple halls, no castle. No hanging scrolls, no plaques, no calligraphy, no signs, no lettering of any kind. No maple trees, no red autumn leaves, no ginkgo, no cherry blossoms, no snow, no bamboo forest, no pine-dominated scenery, no tall conical mountain. No people, no animals, no footprints, no sandals, no tea utensils outside. No modern objects, no power lines.'
+- 'The front of the tea hut at night: the small square crawl-through entrance low in the wall, its wooden door slid half open onto darkness, a large flat stone set before it and smaller stepping stones leading up to that stone. Pale earthen wall, dark timber. Moonlight from high on the right now. The tea house is a tiny, very old rustic thatched-roof tea hut (sōan) of unpainted dark timber and pale earthen walls, with a low square crawl-through entrance and small latticed windows of bamboo and paper. The garden is a quiet tea garden path (roji): irregular natural stepping stones set in deep green moss, low clipped shrubs, a few camellia bushes with glossy dark leaves and deep red single flowers. Early winter, a thin white frost on the moss and stones. The air is completely still, nothing blurred. The only light is the moon: no lamps, no lanterns, no candles, no fire, no lit windows — every paper window is dark. No water of any kind — no stone water basin, no pond, no stream, no well, no reflections, no wet ground. No stone lanterns, no torii, no pagodas, no shrine buildings, no large temple halls, no castle. No hanging scrolls, no plaques, no calligraphy, no signs, no lettering of any kind. No maple trees, no red autumn leaves, no ginkgo, no cherry blossoms, no snow, no bamboo forest, no pine-dominated scenery, no tall conical mountain. No people, no animals, no footprints, no sandals, no tea utensils outside. No modern objects, no power lines.'
+- 'Close view at night of a low square wooden sliding door in a pale earthen wall, slid half open, the dark gap inside, the old wood grain and the metal-free wooden latch sharp, a thin frost on the threshold board. Moonlight from the right. The tea house is a tiny, very old rustic thatched-roof tea hut (sōan) of unpainted dark timber and pale earthen walls, with a low square crawl-through entrance and small latticed windows of bamboo and paper. The garden is a quiet tea garden path (roji): irregular natural stepping stones set in deep green moss, low clipped shrubs, a few camellia bushes with glossy dark leaves and deep red single flowers. Early winter, a thin white frost on the moss and stones. The air is completely still, nothing blurred. The only light is the moon: no lamps, no lanterns, no candles, no fire, no lit windows — every paper window is dark. No water of any kind — no stone water basin, no pond, no stream, no well, no reflections, no wet ground. No stone lanterns, no torii, no pagodas, no shrine buildings, no large temple halls, no castle. No hanging scrolls, no plaques, no calligraphy, no signs, no lettering of any kind. No maple trees, no red autumn leaves, no ginkgo, no cherry blossoms, no snow, no bamboo forest, no pine-dominated scenery, no tall conical mountain. No people, no animals, no footprints, no sandals, no tea utensils outside. No modern objects, no power lines.'
+- 'A section of the tea hut''s earthen wall at night with a small round-cornered window where the clay has been left open to show a lattice of thin reeds and bamboo, paper behind it, dark inside. The moon throws the shadow of a camellia branch across the pale wall beside the window. Moonlight from the right. The tea house is a tiny, very old rustic thatched-roof tea hut (sōan) of unpainted dark timber and pale earthen walls, with a low square crawl-through entrance and small latticed windows of bamboo and paper. The garden is a quiet tea garden path (roji): irregular natural stepping stones set in deep green moss, low clipped shrubs, a few camellia bushes with glossy dark leaves and deep red single flowers. Early winter, a thin white frost on the moss and stones. The air is completely still, nothing blurred. The only light is the moon: no lamps, no lanterns, no candles, no fire, no lit windows — every paper window is dark. No water of any kind — no stone water basin, no pond, no stream, no well, no reflections, no wet ground. No stone lanterns, no torii, no pagodas, no shrine buildings, no large temple halls, no castle. No hanging scrolls, no plaques, no calligraphy, no signs, no lettering of any kind. No maple trees, no red autumn leaves, no ginkgo, no cherry blossoms, no snow, no bamboo forest, no pine-dominated scenery, no tall conical mountain. No people, no animals, no footprints, no sandals, no tea utensils outside. No modern objects, no power lines.'
+- 'Close view at night of a reed lattice window set in an earthen wall, the thin reeds bound with fine vine, the paper behind them dark, the shadow of a few camellia leaves lying across the lattice. Cold moonlight from the right. The tea house is a tiny, very old rustic thatched-roof tea hut (sōan) of unpainted dark timber and pale earthen walls, with a low square crawl-through entrance and small latticed windows of bamboo and paper. The garden is a quiet tea garden path (roji): irregular natural stepping stones set in deep green moss, low clipped shrubs, a few camellia bushes with glossy dark leaves and deep red single flowers. Early winter, a thin white frost on the moss and stones. The air is completely still, nothing blurred. The only light is the moon: no lamps, no lanterns, no candles, no fire, no lit windows — every paper window is dark. No water of any kind — no stone water basin, no pond, no stream, no well, no reflections, no wet ground. No stone lanterns, no torii, no pagodas, no shrine buildings, no large temple halls, no castle. No hanging scrolls, no plaques, no calligraphy, no signs, no lettering of any kind. No maple trees, no red autumn leaves, no ginkgo, no cherry blossoms, no snow, no bamboo forest, no pine-dominated scenery, no tall conical mountain. No people, no animals, no footprints, no sandals, no tea utensils outside. No modern objects, no power lines.'
+- 'A small square pit lined with stones beside the path near the tea hut at night, a ceremonial dust pit, empty except for one green camellia leaf laid in it, a single fallen red camellia flower on the moss nearby, the low wall of the hut behind. The moon is low in the west on the right. The tea house is a tiny, very old rustic thatched-roof tea hut (sōan) of unpainted dark timber and pale earthen walls, with a low square crawl-through entrance and small latticed windows of bamboo and paper. The garden is a quiet tea garden path (roji): irregular natural stepping stones set in deep green moss, low clipped shrubs, a few camellia bushes with glossy dark leaves and deep red single flowers. Early winter, a thin white frost on the moss and stones. The air is completely still, nothing blurred. The only light is the moon: no lamps, no lanterns, no candles, no fire, no lit windows — every paper window is dark. No water of any kind — no stone water basin, no pond, no stream, no well, no reflections, no wet ground. No stone lanterns, no torii, no pagodas, no shrine buildings, no large temple halls, no castle. No hanging scrolls, no plaques, no calligraphy, no signs, no lettering of any kind. No maple trees, no red autumn leaves, no ginkgo, no cherry blossoms, no snow, no bamboo forest, no pine-dominated scenery, no tall conical mountain. No people, no animals, no footprints, no sandals, no tea utensils outside. No modern objects, no power lines.'
+- 'Close view at night of the stone rim of a small square pit in the moss, one glossy green camellia leaf lying alone inside it, frost on the stones. Low moonlight from the right. The tea house is a tiny, very old rustic thatched-roof tea hut (sōan) of unpainted dark timber and pale earthen walls, with a low square crawl-through entrance and small latticed windows of bamboo and paper. The garden is a quiet tea garden path (roji): irregular natural stepping stones set in deep green moss, low clipped shrubs, a few camellia bushes with glossy dark leaves and deep red single flowers. Early winter, a thin white frost on the moss and stones. The air is completely still, nothing blurred. The only light is the moon: no lamps, no lanterns, no candles, no fire, no lit windows — every paper window is dark. No water of any kind — no stone water basin, no pond, no stream, no well, no reflections, no wet ground. No stone lanterns, no torii, no pagodas, no shrine buildings, no large temple halls, no castle. No hanging scrolls, no plaques, no calligraphy, no signs, no lettering of any kind. No maple trees, no red autumn leaves, no ginkgo, no cherry blossoms, no snow, no bamboo forest, no pine-dominated scenery, no tall conical mountain. No people, no animals, no footprints, no sandals, no tea utensils outside. No modern objects, no power lines.'
+- 'The tea garden just before dawn, seen from beside the brushwood gate as at the start of the night: the moon has set, the sky is turning a pale grey-blue from below while the top of the frame is still deep blue, the frosted moss and the stepping stones glowing faintly, the thatched tea hut a soft dark shape among the shrubs. Shadowless, cold light. No sunrise colours, no orange, no pink. The tea house is a tiny, very old rustic thatched-roof tea hut (sōan) of unpainted dark timber and pale earthen walls, with a low square crawl-through entrance and small latticed windows of bamboo and paper. The garden is a quiet tea garden path (roji): irregular natural stepping stones set in deep green moss, low clipped shrubs, a few camellia bushes with glossy dark leaves and deep red single flowers. Early winter, a thin white frost on the moss and stones. The air is completely still, nothing blurred. The only light is the moon: no lamps, no lanterns, no candles, no fire, no lit windows — every paper window is dark. No water of any kind — no stone water basin, no pond, no stream, no well, no reflections, no wet ground. No stone lanterns, no torii, no pagodas, no shrine buildings, no large temple halls, no castle. No hanging scrolls, no plaques, no calligraphy, no signs, no lettering of any kind. No maple trees, no red autumn leaves, no ginkgo, no cherry blossoms, no snow, no bamboo forest, no pine-dominated scenery, no tall conical mountain. No people, no animals, no footprints, no sandals, no tea utensils outside. No modern objects, no power lines.'
+- 'Close view just before dawn of frosted stepping stones and moss with two fallen red camellia flowers, in soft shadowless grey-blue light, every frost crystal clear. Cold, calm, the night ending. No sunrise colours, no orange, no pink. The tea house is a tiny, very old rustic thatched-roof tea hut (sōan) of unpainted dark timber and pale earthen walls, with a low square crawl-through entrance and small latticed windows of bamboo and paper. The garden is a quiet tea garden path (roji): irregular natural stepping stones set in deep green moss, low clipped shrubs, a few camellia bushes with glossy dark leaves and deep red single flowers. Early winter, a thin white frost on the moss and stones. The air is completely still, nothing blurred. The only light is the moon: no lamps, no lanterns, no candles, no fire, no lit windows — every paper window is dark. No water of any kind — no stone water basin, no pond, no stream, no well, no reflections, no wet ground. No stone lanterns, no torii, no pagodas, no shrine buildings, no large temple halls, no castle. No hanging scrolls, no plaques, no calligraphy, no signs, no lettering of any kind. No maple trees, no red autumn leaves, no ginkgo, no cherry blossoms, no snow, no bamboo forest, no pine-dominated scenery, no tall conical mountain. No people, no animals, no footprints, no sandals, no tea utensils outside. No modern objects, no power lines.'
+
+images:
+- vol18_01.png
+- vol18_02.png
+- vol18_03.png
+- vol18_04.png
+- vol18_05.png
+- vol18_06.png
+- vol18_07.png
+- vol18_08.png
+- vol18_09.png
+- vol18_10.png
+- vol18_11.png
+- vol18_12.png
+- vol18_13.png
+- vol18_14.png
+- vol18_15.png
+- vol18_16.png
+- vol18_17.png
+- vol18_18.png
+- vol18_19.png
+- vol18_20.png
+- vol18_21.png
+- vol18_22.png
+
+# ★2026-11-25 選抜（150リスタート）。最大 0.575 / 平均 0.372 / 62.0分（Vol.17 0.463/0.297）。
+#   新規から入ったのはピアノB-1・B-2・B-4の3本だけ（箏・金属・胡弓・フル編成は在庫が勝った）。尺八は v12_尺八の独奏（息0.0417）。
+#   ★--write は使わずに手で貼る（YAMLのコメントが消えるため）。
+picked:
+- "v14_箏の独奏５.wav"
+- "v12_箏の独奏.wav"
+- "v14_箏の独奏７.wav"
+- "v12_尺八の独奏.wav"
+- "v18_ピアノB-4.wav"
+- "v18_ピアノB-2.wav"
+- "v18_ピアノB-1.wav"
+- "v11_金属の打楽器１.wav"
+- "v13_金属打（鈴と鉢）のみ６.wav"
+- "v13_金属打（鈴と鉢）のみ.wav"
+- "v14_胡弓３.wav"
+- "v12_胡弓７.wav"
+- "v11_笙のみ４.wav"
+- "v12_笙のみ２.wav"
+- "龍笛1−５.wav"
+- "龍笛1−４.wav"
+- "琵琶2−２.wav"
+- "琵琶2−８.wav"
+- "琵琶2−６.wav"
+- "琵琶2−７.wav"
+- "v11_ Brand Standard — A minor・全編成（５.wav"
+- "v14_Brand Standard７.wav"
+
+# ★2026-11-25 曲順（400リスタート）。隣接の最大 0.366 / 平均 0.324。明るさの最大跳ね29.3dB。
+order_tracks:
+- "v13_金属打（鈴と鉢）のみ.wav"
+- "v12_箏の独奏.wav"
+- "琵琶2−７.wav"
+- "v14_胡弓３.wav"
+- "v11_笙のみ４.wav"
+- "琵琶2−６.wav"
+- "v11_ Brand Standard — A minor・全編成（５.wav"
+- "v18_ピアノB-1.wav"
+- "v13_金属打（鈴と鉢）のみ６.wav"
+- "琵琶2−８.wav"
+- "v12_笙のみ２.wav"
+- "v18_ピアノB-2.wav"
+- "龍笛1−５.wav"
+- "v14_箏の独奏５.wav"
+- "琵琶2−２.wav"
+- "v14_Brand Standard７.wav"
+- "v18_ピアノB-4.wav"
+- "v14_箏の独奏７.wav"
+- "v12_胡弓７.wav"
+- "v11_金属の打楽器１.wav"
+- "龍笛1−４.wav"
+- "v12_尺八の独奏.wav"
+
+# ★縦型ショート3本。`python3 -m bgmkit short vol18`。幅529pxの窓の左端＝(1672−529)×anchor。
+shorts:
+- tag: A
+  image: 13           # 茶室・引き。サムネと同じ絵（茶室の中心 x≈1100）
+  anchor: 0.73
+  at: "0:36:30"       # 14曲目 箏（v14_箏の独奏５）の本体
+  title: 月夜の茶室
+  sub: [和風アンビエント, 62分版はチャンネルに]
+  move: in
+- tag: B
+  image: 9            # 侘助・引き。右の椿の株（x≈1150〜1500）
+  anchor: 0.92
+  at: "0:23:00"       # 9曲目 金属打の本体
+  title: 月夜の茶室
+  sub: [和風アンビエント, 62分版はチャンネルに]
+  move: out
+- tag: C
+  image: 21           # 薄明・引き。枝折戸と奥の茶室（x≈800〜1250）
+  anchor: 0.66
+  at: "0:19:40"       # 8曲目 新しいピアノ（ピアノB-1）
+  title: 月夜の茶室
+  sub: [和風アンビエント, 62分版はチャンネルに]
+  move: in
+
+tracks_subdir: "/Volumes/ESD-02/BGM/1_Whispers of Japan/Vol18_素材_茶室/楽曲"
