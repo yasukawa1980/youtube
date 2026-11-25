@@ -1,0 +1,36 @@
+{
+  "automation_id": "youtube-2",
+  "date_jst": "2026-11-25",
+  "heartbeat_at_utc": "2026-11-25T11:56:05.279Z",
+  "status": "completed_with_limitations",
+  "completed_at_utc": "2026-11-25T12:06:39.022080+00:00",
+  "original_channel": "Whispers of Japan",
+  "original_channel_id": "UCx4mLEohO3XCVxZajUynLzw",
+  "restored_channel": "Whispers of Japan",
+  "restored_channel_id": "UCx4mLEohO3XCVxZajUynLzw",
+  "restoration_verified": true,
+  "restoration_evidence": [
+    "original-channel.txt",
+    "restoration.txt",
+    "restored-whispers.jpg"
+  ],
+  "raw_sources_location": "/private/tmp/youtube-analytics-2026-11-25",
+  "analysis_tab_ids": [
+    "604614370"
+  ],
+  "user_tabs_changed": false,
+  "studio_content_settings_or_publication_changes": false,
+  "source_files_count": 29,
+  "supplemental_screenshot_count": 4,
+  "unresolved_failures": [],
+  "recovered_issues": [
+    "IRO切替後の画面読込が遅れたが、後続の画面でチャンネルと期間を確認して全指標を取得した。"
+  ],
+  "notification_decision": "DONT_NOTIFY",
+  "notification_reason": [
+    "既存改善候補の比較傾向を維持。登録者数は両チャンネルとも同じで新たな対応は不要。IROの48時間減少は時間窓と露出の落ち着きの可能性を記録し、7日視聴は増加。Whispersの48時間はほぼ同じ。"
+  ],
+  "new_recommendations_count": 0,
+  "updated_recommendations_count": 0,
+  "user_action_required": false
+}
