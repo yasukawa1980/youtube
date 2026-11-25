@@ -1,6 +1,6 @@
 """青空文庫の新美南吉4編（手袋を買いに・ごん狐・おじいさんのランプ・狐）を、読み上げ用の文の並びにする。
 
-RDG04の prep_text.py を流用。違い：ごん狐の章見出し（一〜六）は読まず kind='break'（間だけ）。
+RDG04の prep_text.py を流用。違い：ごん狐・狐の章見出し（一〜六）は読まず kind='break'（間だけ）。
 手袋を買いにの子守唄（字下げの4行）は1段落にまとめる。傍点の注記は消す。
 
 RDG02の prep_text.py と同じ考え方：ルビ《》は読み方としてそのまま使い、
@@ -89,7 +89,7 @@ def main():
                 buf.append(raw.strip('　')); continue
             merged.append(raw)
         for raw in merged:
-            if '中見出し' in raw:
+            if '中見出し' in raw or re.fullmatch(r'[　 ]*[一二三四五六七八九十]+[　 ]*', raw):
                 out.append({'work': work, 'kind': 'break', 'para': para,
                             'display': strip_notes(raw).strip('　 ')})
                 continue

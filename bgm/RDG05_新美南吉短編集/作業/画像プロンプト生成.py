@@ -1,0 +1,66 @@
+"""RDG05の絵のプロンプト全文を書き出す（コピー用md と 場面ごとのtxt）。生成は本人かCodex。"""
+from pathlib import Path
+
+HERE = Path(__file__).resolve().parent
+OUT_DIR = HERE.parent / '画像プロンプト'
+MD = HERE.parent.parent / 'RDG05_コピー用プロンプト.md'
+
+NOBODY = 'No people, no figures, no silhouettes of people, no faces, no hands, no animals except those named above, no cats. Any fox is a real wild Japanese red fox drawn simply and gently in the print manner, small in the scene, never cartoonish, never wearing clothes.'
+STYLE = ('Japanese shin-hanga woodblock print in the manner of the 1920s-30s revival: flat layered areas of colour, '
+         'visible woodgrain in the flat passages, softly gradated sky (bokashi), Western perspective and cast light held '
+         'inside Japanese printmaking. Everything in the scene is drawn as part of the print, in the same flat woodblock '
+         'manner, never photographic. Calm, dreamlike and hushed. Strong clear difference between the light and dark masses '
+         'so the image still reads when reduced to a thumbnail. No text, no signature, no seal stamp, no lettering of any '
+         'kind. No modern objects: no power lines, no cars, no trucks, no plastic, no electric signs. Wide 16:9 landscape. Exposed so that '
+         'texture is clearly visible everywhere. Shadows are lifted and open, full of visible detail, nothing crushed to '
+         'pure black. High dynamic range, rich texture even in the darkest areas.')
+
+SCENES = [
+ ('01', '雪の朝の森と洞穴', '手袋を買いに 0:00〜3:27',
+  'A quiet winter wood in rural Japan after a night of heavy snow, at the very first light of morning before sunrise, drawn as a blue dawn scene and not as bright daytime. Deep fresh snow covers the ground and weighs down the branches of fir and bare trees; a little powder snow drifts down from a branch like silver silk thread. At the foot of a snowy bank is the dark round mouth of a fox den, and beside it a small fox cub stands with its nose lifted toward the snow, its mother half visible in the den mouth. The snow is pale blue with soft rose light on the tops of the drifts, and the sky is pale rose fading to blue-grey. Colours: pale blue snow, soft rose light, dark fir green, warm russet fox fur. Gentle and fresh.'),
+ ('02', '雪の野原と遠い町の灯', '手袋を買いに 3:27〜7:24',
+  'A wide snowy field in rural Japan at night. The snow glows softly blue-white under a dark sky full of quiet stars. Far across the field, at the edge of the snow, a small town of low old wooden houses shows a scatter of tiny warm yellow lights in its windows, like a handful of fallen stars. In the foreground a mother fox and a small cub stand together on the snow, seen from behind, looking toward the far lights, leaving a line of small footprints. Colours: deep indigo sky, blue-white snow, tiny warm yellow lights, russet foxes. Most of the image is dark, calm and a little expectant.'),
+ ('03', '雪の夜の町と帽子屋', '手袋を買いに 7:24〜12:43',
+  'A narrow street of a small Japanese town in the 1920s on a snowy winter night. Low wooden shops with closed shutters line both sides, their eaves heavy with snow. Above each shop hangs a wooden signboard lit by one small lamp. One shop has a signboard shaped like a large black silk top hat, and its door is open a crack so that a long band of warm yellow light falls out across the white snow of the street. Snow falls softly. A small fox cub stands at the edge of the light, looking up. From one window above, soft warm light glows behind a paper screen. Colours: deep blue night, white snow, warm golden door light, black top hat sign, russet cub. Tender and hushed.'),
+ ('04', '雨上がりの秋の小川', 'ごん狐 12:43〜18:08',
+  'A small stream in the Japanese countryside in early autumn, late on an afternoon after three days of rain, drawn as an evening scene. The swollen yellowish water runs high between grassy banks; susuki pampas grass and bush clover lean low over it, their tips silver with raindrops. Up the bank is a thicket of ferns and a small dark hollow. The sky has cleared to a pale gold evening with a few torn clouds, and a shrike sits on a bare twig. A small lone fox peers from the ferns at the water. Colours: muted gold sky, grey-green grass, silver pampas, yellow-brown water, russet fox. Quiet, a little mischievous.'),
+ ('05', '彼岸花の野と村の墓地', 'ごん狐 18:08〜24:38',
+  'An old Japanese village graveyard on a gentle hillside in early autumn, in the late afternoon with long soft shadows. Small weathered stone grave markers and a row of six little stone Jizo statues stand among the grass. Across the slope and along the edge of the rice fields below, red spider lilies bloom in a long blazing carpet, like spread red cloth. Far off, the thatched roofs of the village and the low tiled roof of a small temple, and a faint ringing feeling in the air. The sky is pale and calm. Colours: vivid red lilies, soft grey stone, gold-green fields, pale sky. Still and quietly sad.'),
+ ('06', '月夜の村の道', 'ごん狐 24:38〜29:56',
+  'A country lane in a Japanese village on a bright moonlit autumn night. A full moon hangs high in a deep blue sky. The narrow earth road runs past a small thatched farmhouse whose door stands open onto a dark earth-floored entry; on the doorstep lies a small heap of chestnuts in their burrs, gleaming in the moonlight. Pines and the dark shape of a small hill castle in the distance. Crickets seem to sing in the grass. Colours: deep blue, silver moonlight, warm brown chestnuts, dark thatch. Most of the image is dark, gentle and lonely.'),
+ ('07', '古い倉と竹のランプ', 'おじいさんのランプ 29:56〜39:09',
+  'The inside of an old Japanese earthen storehouse (kura) in the late afternoon, lit only by a single shaft of low golden light from a small high window. Old wooden chests, folded quilts and boxes stand in the dimness. In the centre, on the wooden floor where the light falls, stands an unusual old oil lamp: a tall thick bamboo stem about eighty centimetres high serves as its stand, with a small kerosene lamp and a clear glass chimney set on top. Dust glitters in the beam. Colours: warm gold beam, dark brown wood and earth walls, green-brown bamboo, glinting glass. Nostalgic and calm.'),
+ ('08', 'ランプの灯る明治の町', 'おじいさんのランプ 39:09〜61:44',
+  'A Japanese port town street at dusk in the late Meiji era, about 1900, drawn as an evening scene. A row of large merchant shops with deep eaves and open fronts lines the street, and every shop is lit by many glass kerosene lamps hanging under the eaves, glowing like flowers, so the whole street shines warm and bright as a dream palace. Inside one shop, bolts of cloth printed with big camellia flowers lie spread under the lamps; another shop has dozens of lamps of every shape hanging for sale. The sky above the roofs is deep blue twilight. No electric poles, no wires. Colours: warm amber lamplight, deep blue sky, dark wooden shopfronts, a touch of camellia red. Enchanted and nostalgic.'),
+ ('09', '菜の花畑の月夜', 'おじいさんのランプ 61:44〜66:47',
+  'A wide field of rapeseed flowers in rural Japan on a warm spring night with a soft hazy full moon. The yellow flowers glow pale gold in the moonlight and stretch away to a low line of dark village roofs and a small hill. Far off, a few tiny lanterns of a spring festival glow. A faint mist lies low. Colours: pale gold flowers, soft hazy indigo sky, creamy moon, dark village. Most of the image is dark, warm and thoughtful.'),
+ ('10', '池のほとりのランプ', 'おじいさんのランプ 66:47〜73:11',
+  'A large still pond at night in the Japanese countryside in spring, on a windless night. Along the far bank stand old trees and willows, and from their branches hang dozens of lit glass kerosene lamps, large and small, big and little, all burning quietly without a flicker, so the bank is bright as day. Every lamp is reflected perfectly in the black mirror of the water as a second row of lights. A dark road runs along the near shore. Colours: deep blue-black night, many warm golden lights doubled in the water, dark willows. Beautiful, solemn and very still.'),
+ ('11', '月夜の野道と祭りの灯', '狐 73:11〜85:22',
+  'A long country path through quiet fields on a bright moonlit night in rural Japan in the 1930s. The path runs between low hedges and a few pines toward a far village where the lights of a night festival glow: a row of red and white paper lanterns, the roof of a small shrine, a faint glow of a festival float. The moon is full and high; the path is pale in its light and long shadows of the pines fall across it. Colours: deep blue night, silver moonlight, small red and warm festival lights in the distance. Most of the image is dark, dreamy and a little mysterious.'),
+ ('12', '蜜柑畑の家の障子あかり', '狐 85:22〜末尾',
+  'A lone old Japanese farmhouse at night, a little apart from the village, surrounded by a wide orchard of mandarin orange trees and a hedge. The moon is high and the orchard is silver and dark; a few orange fruits glint among the leaves. One paper-screened window of the house glows warm and soft from a small lamp inside, the brightest spot in the image. Nothing else stirs. Colours: deep indigo, silver-green leaves, small orange fruit, warm golden paper window. Tender, safe and sleepy.'),
+ ('13', 'サムネ専用（本編には使わない）', 'サムネ',
+  'Composed for a thumbnail. The left third of the image is a calm, dark, simple area of deep indigo snowy night sky with almost no detail, so lettering can be placed over it. In the right two thirds, a small fox cub sits on deep white snow, seen from the side, holding up one small front paw in a little red knitted woollen mitten, looking toward a warm yellow lit doorway of an old wooden shop whose light falls across the snow. Gentle falling snow. Strong contrast, so it still reads at the size of a postage stamp. Colours: deep indigo, white snow, warm golden light, russet cub, one small red mitten.'),
+]
+
+def full(body):
+    return f'{body} {NOBODY} {STYLE}'
+
+
+def main():
+    OUT_DIR.mkdir(exist_ok=True)
+    out = ['# RDG05 コピー用プロンプト — 新美南吉 短編集（新版画・12場面＋サムネ）', '',
+           '生成は本人かCodex。各ブロックを**そのまま全文**貼る（画風と露出の文まで含む）。16:9・横長。',
+           '置き場：`bgm/RDG05_新美南吉短編集/画像/rdg05_NN.png`（NN＝下の番号。サムネは rdg05_13.png）。',
+           '全場面に人物を描かない（狐は描く）。昼の場面も夕方・夜明けとして描かせる。受け取ったら明るさの並びと潰れを測る。', '']
+    for n, name, where, body in SCENES:
+        text = full(body)
+        (OUT_DIR / f'{n}_{name}.txt').write_text(text + '\n')
+        out += [f'## {n}_{name}（{where}）', '', '```', text, '```', '']
+    MD.write_text('\n'.join(out))
+    print(len(SCENES), max(len(full(s[3])) for s in SCENES))
+
+
+if __name__ == '__main__':
+    main()
