@@ -1,0 +1,37 @@
+{
+  "automation_id": "youtube-2",
+  "date_jst": "2026-11-26",
+  "heartbeat_at_utc": "2026-11-26T12:18:37.227Z",
+  "status": "completed_with_limitations",
+  "completed_at_utc": "2026-11-26T12:36:52.528804+00:00",
+  "original_channel": "Whispers of Japan",
+  "original_channel_id": "UCx4mLEohO3XCVxZajUynLzw",
+  "restored_channel": "Whispers of Japan",
+  "restored_channel_id": "UCx4mLEohO3XCVxZajUynLzw",
+  "restoration_verified": true,
+  "restoration_evidence": [
+    "original-channel.txt",
+    "restoration.txt",
+    "restored-whispers.jpg"
+  ],
+  "raw_sources_location": "/private/tmp/youtube-analytics-2026-11-26",
+  "analysis_tab_ids": [
+    "604614410"
+  ],
+  "user_tabs_changed": false,
+  "studio_content_settings_or_publication_changes": false,
+  "source_files_count": 29,
+  "supplemental_screenshot_count": 4,
+  "unresolved_failures": [],
+  "recovered_issues": [
+    "長尺の平均視聴時間は既に選択されていたため、未選択の平均視聴割合だけを追加して取得。",
+    "Whispersの7日ショートは集計表示の読込を再確認し、確定表示40エンゲージビューを保存。"
+  ],
+  "notification_decision": "DONT_NOTIFY",
+  "notification_reason": [
+    "既存候補2件を継続。IROの48時間減少は前回からの時間窓・露出の傾向として記録。7日視聴は増加、登録者数12人で同じ。Whispersは登録67→68人、48時間102→114回、7日再生58.1→62.6時間で新たな対応不要。新作ショート11回は判断保留。"
+  ],
+  "new_recommendations_count": 0,
+  "updated_recommendations_count": 0,
+  "user_action_required": false
+}
