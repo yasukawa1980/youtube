@@ -1,0 +1,18 @@
+# 第16話 確認版v01 取得案内
+
+SSDで検品・梱包済み。git は github.com の名前解決に失敗し、gh は api.github.com に接続できなかった。非公開Draft Releaseの作成・添付・REST再取得とリモートブランチへの反映は未完了。
+
+/Volumes/ESD-02/新チャンネル/EP016_Sirens/確認版_v01_20261127/deliverables
+
+英語／日本語の字幕入り1080pはファイル名に subtitled_review を含む。通常版・英語4Kは外付けSRT用。音声とSRT、サムネと投稿情報、検品画像と記録はそれぞれZIPに同梱。
+
+|ファイル|バイト数|SHA-256|
+|---|---|---|
+|EP016_QA_records_v01.zip|9742306|66d5da865543acc1ae9d9cd4c27083ac47241c572a567ba3d20bc5759606ffa9|
+|EP016_Sirens_en_v01_1080p30.mp4|120817336|c153c42838c2e1be329d921a0f2185188062c56dfb77bb9692e8684eccfb111d|
+|EP016_Sirens_en_v01_2160p30.mp4|253567852|ca94d02e01eb104c8acf91e9851837701eccb70fd14ccfabf3d269dfae56b990|
+|EP016_Sirens_en_v01_subtitled_review_1080p30.mp4|77693816|52acd7d313004d1a629efb698f023a4a6ccd40752b2f5e73f741f4333897dcad|
+|EP016_Sirens_ja_v01_1080p30.mp4|123305924|069ec245380a2bf952d83ebab5266c245a8d0772dca95a6b0d04e9d4229dce96|
+|EP016_Sirens_ja_v01_subtitled_review_1080p30.mp4|76906822|ee5af3dbe7bea1b51f5864c553ece6ea0e8a202a3f57feb5797bbfc34dc0bba8|
+|EP016_audio_and_subtitles_v01.zip|198482125|023e4cf84bfc51bbfb7d11eae0d0bed86f6d60b5c8700b20e3ab7a11c9d56c0a|
+|EP016_thumbnails_and_metadata_v01.zip|246531|52986e499717e73b6a715725743620ea991ca171b93457de11d77e9f76d34a0f|
