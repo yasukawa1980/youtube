@@ -1,0 +1,363 @@
+{
+  "project": "WAVE14 湯けむりの山里",
+  "channel": "Whispers of Japan",
+  "line": "Waves of Japan",
+  "prompt_file": "画像プロンプト.md",
+  "prompt_commit": "4f795d22",
+  "generation_tool": "OpenAI built-in image generation and image editing",
+  "generated_at_source": "生成ツールのPNG原本の最終更新時刻（日本標準時）",
+  "finishing": "第3場面を直接編集した4原本から局所色・光量と湯けむりの変化を基準画像に転写。各提灯周辺は基準座標の画素の光量を変更。本編の露出とサムネ暗部を調整し、全6枚をLanczosで1920×1080に拡大。",
+  "luma_method": "Pillow RGB→L (BT.601, 0–255)。全画面。サムネはLanczosで168×95に縮小し左56列を測定。",
+  "registration_method": "完成版の第3場面に対し、提灯2つと軒2か所のSobel勾配強度を±6画素内で正規化相互相関照合。左上原点、整数画素。",
+  "assets": [
+    {
+      "file": "画像/wave14_01_暮れ方の湯の里.png",
+      "sha256": "d5afd4cd93f8f7d92196c8aed8ed1956f036d84f67de632afdafbdb35cb2dc1d",
+      "width": 1920,
+      "height": 1080,
+      "generated_at": "2026-11-27T14:47:42+09:00",
+      "finalized_at": "2026-11-27T14:49:32+09:00",
+      "original": {
+        "file": "画像/生成直後/wave14_01_暮れ方の湯の里.png",
+        "sha256": "44821bd6732908c7ad8a415221aa59d934c1a8bf11d2d693087e1afdcd318e6e",
+        "width": 1672,
+        "height": 941
+      },
+      "metrics": {
+        "mean_luma": 48.998,
+        "pct_luma_below_16": 2.9215,
+        "pct_luma_at_least_250": 0.0,
+        "registration_vs_scene_3_px": {
+          "bathhouse_lantern": {
+            "dx": 0,
+            "dy": 0,
+            "correlation": 0.99856,
+            "roi_xywh": [
+              1009,
+              551,
+              56,
+              72
+            ]
+          },
+          "inn_lantern": {
+            "dx": 0,
+            "dy": 0,
+            "correlation": 0.99867,
+            "roi_xywh": [
+              1595,
+              457,
+              76,
+              92
+            ]
+          },
+          "bathhouse_eave": {
+            "dx": 0,
+            "dy": 0,
+            "correlation": 0.96078,
+            "roi_xywh": [
+              884,
+              468,
+              136,
+              68
+            ]
+          },
+          "inn_eave": {
+            "dx": 0,
+            "dy": 0,
+            "correlation": 0.95504,
+            "roi_xywh": [
+              1556,
+              357,
+              148,
+              54
+            ]
+          }
+        }
+      },
+      "edit_source": "画像/生成直後/wave14_03_湯けむりの夜.png"
+    },
+    {
+      "file": "画像/wave14_02_灯ともる湯けむり.png",
+      "sha256": "7fbe0a7fa9b2d6b50046052855956efdbaa4742f674ae3ae6ab496b2cff7feb6",
+      "width": 1920,
+      "height": 1080,
+      "generated_at": "2026-11-27T14:46:56+09:00",
+      "finalized_at": "2026-11-27T14:49:32+09:00",
+      "original": {
+        "file": "画像/生成直後/wave14_02_灯ともる湯けむり.png",
+        "sha256": "69f5041d68f6b9085690e9fbb4a508d705598cb54cd6eb13eefdd9b6754627d5",
+        "width": 1672,
+        "height": 941
+      },
+      "metrics": {
+        "mean_luma": 42.995,
+        "pct_luma_below_16": 4.4565,
+        "pct_luma_at_least_250": 0.0,
+        "registration_vs_scene_3_px": {
+          "bathhouse_lantern": {
+            "dx": 0,
+            "dy": 0,
+            "correlation": 0.99957,
+            "roi_xywh": [
+              1009,
+              551,
+              56,
+              72
+            ]
+          },
+          "inn_lantern": {
+            "dx": 0,
+            "dy": 0,
+            "correlation": 0.99962,
+            "roi_xywh": [
+              1595,
+              457,
+              76,
+              92
+            ]
+          },
+          "bathhouse_eave": {
+            "dx": 0,
+            "dy": 0,
+            "correlation": 0.99461,
+            "roi_xywh": [
+              884,
+              468,
+              136,
+              68
+            ]
+          },
+          "inn_eave": {
+            "dx": 0,
+            "dy": 0,
+            "correlation": 0.96346,
+            "roi_xywh": [
+              1556,
+              357,
+              148,
+              54
+            ]
+          }
+        }
+      },
+      "edit_source": "画像/生成直後/wave14_03_湯けむりの夜.png"
+    },
+    {
+      "file": "画像/wave14_03_湯けむりの夜.png",
+      "sha256": "964051bc88bcf3b715ef4de2daef03ee939b28baa2d81f57fda8581728a0a769",
+      "width": 1920,
+      "height": 1080,
+      "generated_at": "2026-11-27T14:45:53+09:00",
+      "finalized_at": "2026-11-27T14:49:32+09:00",
+      "original": {
+        "file": "画像/生成直後/wave14_03_湯けむりの夜.png",
+        "sha256": "1ef3433ebbaf75d1c0ea0b0e5ac86f87cc8125b2c5cddbdf185526f79c7b352e",
+        "width": 1672,
+        "height": 941
+      },
+      "metrics": {
+        "mean_luma": 37.003,
+        "pct_luma_below_16": 9.6864,
+        "pct_luma_at_least_250": 0.0,
+        "registration_vs_scene_3_px": {
+          "bathhouse_lantern": {
+            "dx": 0,
+            "dy": 0,
+            "correlation": 1.0,
+            "roi_xywh": [
+              1009,
+              551,
+              56,
+              72
+            ]
+          },
+          "inn_lantern": {
+            "dx": 0,
+            "dy": 0,
+            "correlation": 1.0,
+            "roi_xywh": [
+              1595,
+              457,
+              76,
+              92
+            ]
+          },
+          "bathhouse_eave": {
+            "dx": 0,
+            "dy": 0,
+            "correlation": 1.0,
+            "roi_xywh": [
+              884,
+              468,
+              136,
+              68
+            ]
+          },
+          "inn_eave": {
+            "dx": 0,
+            "dy": 0,
+            "correlation": 1.0,
+            "roi_xywh": [
+              1556,
+              357,
+              148,
+              54
+            ]
+          }
+        }
+      }
+    },
+    {
+      "file": "画像/wave14_04_夜更けの湯の里.png",
+      "sha256": "e4339981e4ab5ed56f39224f6f338f29dd9580f1d8d9ce45aa016b0aacdc7892",
+      "width": 1920,
+      "height": 1080,
+      "generated_at": "2026-11-27T14:48:07+09:00",
+      "finalized_at": "2026-11-27T14:49:32+09:00",
+      "original": {
+        "file": "画像/生成直後/wave14_04_夜更けの湯の里.png",
+        "sha256": "2db164c307c04b6f651e9218129612b45facc55814c69e7be40e105270a87c7b",
+        "width": 1672,
+        "height": 941
+      },
+      "metrics": {
+        "mean_luma": 32.966,
+        "pct_luma_below_16": 4.8496,
+        "pct_luma_at_least_250": 0.0,
+        "registration_vs_scene_3_px": {
+          "bathhouse_lantern": {
+            "dx": 0,
+            "dy": 0,
+            "correlation": 0.99934,
+            "roi_xywh": [
+              1009,
+              551,
+              56,
+              72
+            ]
+          },
+          "inn_lantern": {
+            "dx": 0,
+            "dy": 0,
+            "correlation": 0.99938,
+            "roi_xywh": [
+              1595,
+              457,
+              76,
+              92
+            ]
+          },
+          "bathhouse_eave": {
+            "dx": 0,
+            "dy": 0,
+            "correlation": 0.99056,
+            "roi_xywh": [
+              884,
+              468,
+              136,
+              68
+            ]
+          },
+          "inn_eave": {
+            "dx": 0,
+            "dy": 0,
+            "correlation": 0.96872,
+            "roi_xywh": [
+              1556,
+              357,
+              148,
+              54
+            ]
+          }
+        }
+      },
+      "edit_source": "画像/生成直後/wave14_03_湯けむりの夜.png"
+    },
+    {
+      "file": "画像/wave14_05_未明の湯けむり.png",
+      "sha256": "9ea16c6ced2f589549a684a6033bbd8c80b7464de4fc2b0896b22b22c2ec73cc",
+      "width": 1920,
+      "height": 1080,
+      "generated_at": "2026-11-27T14:47:20+09:00",
+      "finalized_at": "2026-11-27T14:49:32+09:00",
+      "original": {
+        "file": "画像/生成直後/wave14_05_未明の湯けむり.png",
+        "sha256": "be9f3e98d0f34a93087cbc8f114c82c84d6daafe932d16c8e803fc3596a882b9",
+        "width": 1672,
+        "height": 941
+      },
+      "metrics": {
+        "mean_luma": 36.974,
+        "pct_luma_below_16": 8.6168,
+        "pct_luma_at_least_250": 0.0,
+        "registration_vs_scene_3_px": {
+          "bathhouse_lantern": {
+            "dx": 0,
+            "dy": 0,
+            "correlation": 0.99936,
+            "roi_xywh": [
+              1009,
+              551,
+              56,
+              72
+            ]
+          },
+          "inn_lantern": {
+            "dx": 0,
+            "dy": 0,
+            "correlation": 0.99937,
+            "roi_xywh": [
+              1595,
+              457,
+              76,
+              92
+            ]
+          },
+          "bathhouse_eave": {
+            "dx": 0,
+            "dy": 0,
+            "correlation": 0.9952,
+            "roi_xywh": [
+              884,
+              468,
+              136,
+              68
+            ]
+          },
+          "inn_eave": {
+            "dx": 0,
+            "dy": 0,
+            "correlation": 0.99465,
+            "roi_xywh": [
+              1556,
+              357,
+              148,
+              54
+            ]
+          }
+        }
+      },
+      "edit_source": "画像/生成直後/wave14_03_湯けむりの夜.png"
+    },
+    {
+      "file": "画像/wave14_サムネ_v1.png",
+      "sha256": "8d4772762f294fe603b7bd69ac183420051a6d2b8b8b03dd9dd0156914c1d772",
+      "width": 1920,
+      "height": 1080,
+      "generated_at": "2026-11-27T14:46:15+09:00",
+      "finalized_at": "2026-11-27T14:49:31+09:00",
+      "original": {
+        "file": "画像/生成直後/wave14_サムネ_v1.png",
+        "sha256": "51c66ada2e1055028b5dcb610c91666888fd2c3846e05675e64c59950943ef6d",
+        "width": 1672,
+        "height": 941
+      },
+      "metrics": {
+        "mean_luma": 42.435,
+        "pct_luma_below_16": 12.6512,
+        "pct_luma_at_least_250": 0.0,
+        "left_third_median_luma_at_168px": 18.0
+      }
+    }
+  ]
+}
