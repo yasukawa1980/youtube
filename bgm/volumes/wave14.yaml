@@ -1,0 +1,47 @@
+genre: waves
+volume: 14
+slug: wave14
+dir: /Users/ryo/youtube/bgm/WAVE14_湯けむりの山里
+# ★2026/10/8〜の標準：題字は [用途, 名前]（太い明朝W6はジャンル側で既定オン）。
+#   「湯けむりに眠る」は「湯けむり」が2回続くので「ぬくもりに眠る」。
+title_lines:
+- ぬくもりに眠る
+- 湯けむりの山里
+thumb_sub: 1.5Hz デルタ波 バイノーラルビート
+thumb:
+  sub_family: jp
+runtime: 3 HOURS
+# ★画題は「雪のない初冬の夜、山あいの湯の里の石段の路地。蓋をした湯の流れから湯けむり、提灯2つ」。月・星・積雪・湯の水面を出さない巻。
+#   湯の里はWAVEで初めて。WAVE13（峠・星）と分けるため空は薄曇り。
+# ★サムネの地は本編と別に起こした専用画（Codexの生成後に置く）。
+background: /Users/ryo/youtube/bgm/WAVE14_湯けむりの山里/画像/wave14_サムネ_v1.png
+cta: true
+thumb_layout:
+  brand: 260
+  t1: 370
+  sub: 840
+images:
+- wave14_01_暮れ方の湯の里.png
+- wave14_02_灯ともる湯けむり.png
+- wave14_03_湯けむりの夜.png
+- wave14_04_夜更けの湯の里.png
+- wave14_05_未明の湯けむり.png
+scenes:
+- 暮れ方の湯の里
+- 灯ともる湯けむり
+- 湯けむりの夜
+- 夜更けの湯の里
+- 未明の湯けむり
+
+video:
+  still: true
+  card: /Users/ryo/youtube/bgm/WAVE05_雪明かりの書院/画像/エンドカード_waves.png
+  xfade: 10
+  supersample: [1920, 1080]
+  zoom_max: 1.0
+  encode: {vcodec: libx264, preset: fast, crf: 18}
+  card_len: 15
+  card_xfade: 2
+
+# ★実際の本編は bgmkit ではなく wavekit/連続合成.py（音）と wavekit/静止本編.py（映像）で作る。
+#   この yaml はサムネ生成と設定の記録のためだけに置いている。
